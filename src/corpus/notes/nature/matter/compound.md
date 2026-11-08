@@ -1,5 +1,9 @@
 ---
 tags: [note, nature, natural-system]
+qa:
+ - What makes a compound a molecule?
+ - What differentiates a molecule from a nanoparticle?
+ - Why is gold joined by metallic bond not a molecule?
 ---
 
 # Chemical Compound
@@ -37,6 +41,22 @@ Certainly! Here's a list of some famous chemical compounds that are well-known f
 10. **Ethanol (C2H5OH):** A type of alcohol commonly found in alcoholic beverages. It's also used as a fuel, solvent, and in the production of various chemicals.
 
 These are just a few examples of famous chemical compounds that have significant importance in various aspects of our lives, from biology and medicine to industry and technology.
+
+## QA
+
+> The three questions below are also carried in the note's QA metadata; the answers here are the working ones, in the terms the [Matter](/view.html?p=notes/nature/matter/matter.md) note's type table uses.
+
+### What makes a compound a molecule?
+
+> **Nothing, in general.** The two types are individuated by different criteria, and only one special case of a compound is also a molecule. A compound's identity is its **fixed ratio** of elements; a molecule's identity is its **covalent connectivity** — a definite set of atoms in a definite arrangement, per the [Molecule](/view.html?p=notes/nature/matter/molecule.md) note. A compound is a molecule only when its fixed ratio holds at the scale of one covalently bonded unit: water is one compound whose ratio (2 H : 1 O) is carried by every single molecule of it. Where the ratio instead holds through a repeating lattice — sodium chloride, magnesium oxide — there is no unit to carry the connectivity, and the compound has **no molecules at all**: its formula unit is a ratio, not a thing.
+
+### What differentiates a molecule from a nanoparticle?
+
+> **They are cut on different axes.** A molecule is individuated by what it *is* — the covalent connectivity and geometry of a definite atom count; size is not part of its identity. A nanoparticle is individuated by *where it sits* — a size-and-surface regime (1–100 nm) in which surface energy becomes comparable to bulk energy and quantum confinement starts to govern the behavior, per the [Matter](/view.html?p=notes/nature/matter/matter.md) note's size-class row. The axes are orthogonal, so a nanoparticle may be molecular (a protein or dendrimer carried as a drug carrier), an atomic cluster (gold nanoparticles), or a fragment of a compound — the same material belongs to one molecule-type *and* one size-class at once. A molecule does not owe its properties to being within the nanoparticle's regime, and a nanoparticle does not have a molecular formula: its atom count `n` is a matter of fabrication, not identity.
+
+### Why is gold joined by metallic bond not a molecule?
+
+> Because **metallic bonding has no molecular unit to individuate**. A molecule needs a definite connectivity and definite atom count; metallic bonding is *delocalized*: the valence electrons are shared over the whole extension, the bond is non-directional and non-saturating, and nothing in the aggregate picks out one atom set as the completed unit. A piece of metallic gold is an atomic aggregate (extended solid, cluster or nanoparticle) whose atom count `n` is a matter of size, not of identity — its identity is its phase, not a molecular connectivity. The same answer explains the terminology boundary: metallic gold itself is an **element**, not a compound, and the rows that carry it in the [Matter](/view.html?p=notes/nature/matter/matter.md) table are the size, phase and material rows (alloy, material, nanoparticle), never *Molecule* or *Compound*. Molecular gold species do exist — but they are covalent or ionic compounds, not the metallic bond that gives the metal its nature.
 
 ## References
 

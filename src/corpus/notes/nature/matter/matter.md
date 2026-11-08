@@ -49,6 +49,8 @@ qa:
 | **Biomolecule** | carbon skeleton within a living system | The molecular category of living matter — proteins, lipids, carbohydrates, nucleic acids, metabolites — individuated by their biological role and not by carbon alone. |
 | **Mixture** | several substances together | Composition varies between samples. Identity is the set of constituents and their proportions, not a fixed ratio. |
 | **Colloid** | one phase dispersed in another | A mixture whose identity is its dispersion state: particles large enough not to dissolve, small enough not to settle. |
+| **Nanoparticle** | matter at particle size 1–100 nm | A size-class category, not a composition one: a nanoparticle may be a macromolecule, an atomic cluster, a fragment of a compound or a colloid's dispersed particle — what individuates it is the surface regime (surface area comparable to bulk) and quantum confinement. |
+| **Microparticle** | matter at particle size beyond 100 nm into the µm range | The size class where surface stops dominating and bulk behaviour starts: a nanoparticle grown past its regime — colloids' settling end, the PM classes of air, powders. |
 | **Alloy** | metallic mixture with a phase structure | A solid mixture of metals whose properties come from the phases it forms, not from its nominal composition. |
 | **Mineral** | crystalline structure | A naturally occurring solid of definite composition and lattice. Identity is the crystal structure — the same atoms in a different lattice are a different mineral. |
 | **Material** | microstructure | A substance as actually used, with grains, defects and interfaces. Its properties belong to the microstructure, not to the idealised composition. |
@@ -59,7 +61,9 @@ Three groupings in this table are easy to misunderstand and worth naming.
 
 **Molecule and compound are the classically confused pair.** A molecule is one bonded unit; a compound is the substance such units make, whose identity is the fixed ratio. A sample of water contains many molecules but is one compound.
 
-**Mixture, colloid and alloy differ in how substances are combined, not in what they are combined from.** A mixture varies in proportion, a colloid is organised by dispersion, an alloy by phase structure.
+**Mixture, colloid, nanoparticle and microparticle — and alloy — differ in how substances are combined and held, not in what they are combined from.** A mixture varies in proportion, a colloid is organised by dispersion, an alloy by phase structure.
+
+**Colloid, nanoparticle and microparticle are size-class categories, cut across composition.** Like every row above they answer one question, but their criterion is size — and size runs through types instead of picking one: a gold nanoparticle is still an element, a protein carried as a nanoparticle in a drug delivery system is still a biomolecule, and a fragment of NaCl at 30 nm is still ionic matter. The rows earn their place because the *regime* gives the identity: below 100 nm, surface energy and quantum confinement start to run the object's behaviour, no matter what its atoms are.
 
 > **Organic and inorganic are drawn by disciplinary history, not by nature.** Wöhler's synthesis of urea in 1828 dissolved the original vitalist basis of the split, and no rule since has been exact: the C–H shorthand misclassifies urea and tetrachloromethane, and "contains carbon" needs a list of exceptions that keeps growing. The rows earn their place because chemists use them, not because matter divides that way. The molecule-level notes live at [Inorganic](/view.html?p=notes/nature/inorganic.md) and [Organic Matter](/view.html?p=notes/nature/organic-matter.md).
 

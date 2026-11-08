@@ -25,7 +25,7 @@ https://en.wikipedia.org/wiki/Molecular_orbital
 ## Related
 
 - [Atom](/view.html?p=notes/nature/atom.md)
-- [Chemical Bond](/view.html?p=notes/nature/chemical-bond.md)
+- [Bond](/view.html?p=notes/nature/matter/bond.md)
 
 ## Provenance
 

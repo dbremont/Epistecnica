@@ -60479,6 +60479,11 @@
         "kind": "docs",
         "summary": "Move the note under nature/matter/ with the other matter categories.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the bond reference to the generalized Bond note at nature/matter/bond.md."
       }
     ]
   },
@@ -60504,6 +60509,11 @@
         "summary": "Add organic and inorganic compound as matter types, with a note that the split is a disciplinary convention.",
         "commit": "607122541a5170bc62a49cfba603985d58e42c0b",
         "before": "c0f2747162aeed88ca10c8495c95389c9e162bcd"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the size-class rows: Nanoparticle (matter at 1-100 nm, individuated by the surface regime and quantum confinement, not by composition) and Microparticle (from 100 nm into the micrometre range, where bulk behaviour returns), plus the commentary paragraph marking colloid, nanoparticle and microparticle as size-class categories cut across composition."
       }
     ]
   },
@@ -60515,6 +60525,11 @@
         "kind": "docs",
         "summary": "Move the note under nature/matter/ with the other matter categories.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the bond reference to the generalized Bond note at nature/matter/bond.md."
       }
     ]
   },
@@ -60736,6 +60751,11 @@
         "kind": "docs",
         "summary": "Move the note into nature/matter/ with the other matter types.",
         "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the bond reference to the generalized Bond note at nature/matter/bond.md."
       }
     ]
   },
@@ -60785,6 +60805,11 @@
         "kind": "docs",
         "summary": "Rename the note from chemical-compound and state the organic/inorganic boundary as a convention rather than a C-H rule.",
         "commit": "607122541a5170bc62a49cfba603985d58e42c0b"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Ask and answer the three compound/molecule questions: what makes a compound a molecule (nothing in general - ratio versus connectivity), what differentiates a molecule from a nanoparticle (different axes: composition-bonded arrangement versus size-and-surface regime, orthogonal to each other), and why gold joined by metallic bond is not a molecule (metallic bonding is delocalized, non-directional and non-saturating: no unit to individuate, identity is phase; and metallic gold is an element, not a compound)."
       }
     ]
   },
@@ -62180,6 +62205,11 @@
         "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
         "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
         "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "chore",
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition, unreferenced; the bond taxonomy it gestured at lives in the generalized Bond note at matter/bond.md."
       }
     ]
   },
@@ -80790,6 +80820,16 @@
         "kind": "refactor",
         "summary": "Move the atom note into nature/matter/ with the other substance notes: the previous committed placeholder removal is reclassified as a relocation.",
         "commit": "5b8bdef358ba8e0c52c221352b0eb87e1dfbf1a5"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/bond.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the chemical-bond note into matter/ and generalize it: retitled Bond, the general definition leads (stable attractive association across constituents), with the chemical bond as the canonical specialization and the taxonomy carrying its intramolecular, intermolecular and specialized covalent kinds."
       }
     ]
   }

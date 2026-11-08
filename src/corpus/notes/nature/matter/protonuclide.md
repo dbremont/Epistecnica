@@ -162,7 +162,7 @@ This definition is grounded in **quantum electrodynamics** and **nuclear physics
 ## Related
 
 - [Chemical Substance](/view.html?p=notes/nature/chemical-substance.md)
-- [Chemical Bond](/view.html?p=notes/nature/chemical-bond.md)
+- [Bond](/view.html?p=notes/nature/matter/bond.md)
 - [Atom](/view.html?p=notes/nature/atom.md)
 - [Electron](/view.html?p=notes/nature/electron.md)
 

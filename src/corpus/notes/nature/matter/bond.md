@@ -2,14 +2,14 @@
 tags: [note, nature, phenomenon, building-block, chemistry, phenomena]
 ---
 
-# Chemical Bond
+# Bond
 
-> A **chemical bond** is the association of [atoms](https://en.wikipedia.org/wiki/Atom) or [ions](https://en.wikipedia.org/wiki/Ion) to form [molecules](https://en.wikipedia.org/wiki/Molecule), [crystals](https://en.wikipedia.org/wiki/Crystal), and other structures.
+> A **bond** is a stable attractive association that holds constituents together — atoms, ions, molecules, groups, aggregates — in a stable arrangement, through the interaction of their electrons, charges or fields. The **chemical bond** is the canonical kind: the association of [atoms](https://en.wikipedia.org/wiki/Atom) or [ions](https://en.wikipedia.org/wiki/Ion) to form [molecules](https://en.wikipedia.org/wiki/Molecule), [crystals](https://en.wikipedia.org/wiki/Crystal), and other structures. The taxonomy below carries the chemical bond's own kinds — the primary (intramolecular: covalent, ionic, metallic, coordinate), secondary (intermolecular: hydrogen, dipole–dipole, van der Waals) and specialized covalent (peptide, disulfide) — each a distinct mechanism of the same general fact.
 >
 
 ## QA
 
-- How the ‘Bonds’ where discover? What characterizes a bond?
+- How were bonds discovered? What characterizes a bond?
 
 ## Index
 
@@ -26,12 +26,12 @@ tags: [note, nature, phenomenon, building-block, chemistry, phenomena]
 | **1920s–1930s** | Quantum mechanics describes bonding using **wave functions** | **Heitler & London**, **Pauling** |
 | **1939** | **Linus Pauling** formalizes chemical bond types in *The Nature of the Chemical Bond* | Nobel Prize 1954 |
 
-## 🔬 What *Characterizes* a Chemical Bond?
+## 🔬 What *Characterizes* a Bond?
 
-> A **bond** is defined as a **force of attraction** that holds atoms together in a **stable arrangement**.
+> A **bond** is defined as a **force of attraction** that holds constituents — atoms, ions, molecules — together in a **stable arrangement**.
 >
 
-> Chemical bonds were discovered *gradually*, evolving from **philosophy to experimental science** to **quantum theory**.
+> Bonds were discovered *gradually*, evolving from **philosophy to experimental science** to **quantum theory**.
 >
 
 > A bond is characterized by the **energetic and spatial arrangement** of **electrons and nuclei** in a **stable configuration**.
@@ -51,7 +51,7 @@ The characteristics vary by bond type, but here are **general features**:
 
 ## Taxonomy
 
-> Chemical bonds are the intermolecular forces that bind atoms into stable molecular structures.
+> **Bonds** are the forces that bind constituents into stable structures — atoms into molecules and lattices first, but molecules into aggregates too. The chemical bond's own kinds are what the table below carries.
 >
 
 > How elements interact  and how a molecular structure is form or change?
@@ -89,6 +89,7 @@ The characteristics vary by bond type, but here are **general features**:
 
 ## Related
 
+- [Matter](/view.html?p=notes/nature/matter/matter.md) — the matter-type table that now carries this note and the size-class rows beside it.
 - [Molecule](/view.html?p=notes/nature/matter/molecule.md)
 - [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)
 - [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
