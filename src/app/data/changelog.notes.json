@@ -80737,5 +80737,15 @@
         "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/private/persona/pierre-simon-marquis-de-laplace.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Fill the persona note in the six-question philosophia socialium shell: biographical lead and the demon quotation, a 26-row decomposition of constitution, agency, activities, associations and attributes, a conceptual evaluation of the person-concept, and cross-links to the four Laplace treatises the corpus holds."
+      }
+    ]
   }
 ]
