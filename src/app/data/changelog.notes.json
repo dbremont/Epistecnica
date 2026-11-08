@@ -59982,6 +59982,11 @@
         "summary": "Point the geological cut of matter at the new Geological Matter note.",
         "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
         "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add organic and inorganic compound as matter types, with a note that the split is a disciplinary convention."
       }
     ]
   },
@@ -60170,6 +60175,11 @@
         "summary": "Repoint the base and compound links after the notes moved into matter/.",
         "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
         "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Repoint the compound link after the note was renamed."
       }
     ]
   },
@@ -60182,6 +60192,26 @@
         "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy.",
         "commit": "281ec05095a724382d3d29bad3224813a38decf9",
         "before": "2383a5c1e7ef83f5051a08eec94cc53d1e8b475e"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/compound.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Rename the note from chemical-compound and state the organic/inorganic boundary as a convention rather than a C-H rule."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/ammonia.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the ammonia note: compound formulation, properties, production routes and uses, with the Haber-Bosch loop and the nitrogen cycle."
       }
     ]
   }

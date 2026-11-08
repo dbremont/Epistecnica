@@ -29,7 +29,7 @@ It's important to note that "chemical substance" is often used interchangeably w
 
 [Base](/view.html?p=notes/nature/matter/base.md)
 
-[Chemical Compound](/view.html?p=notes/nature/matter/chemical-compound.md)
+[Chemical Compound](/view.html?p=notes/nature/matter/compound.md)
 
 ## Related
 

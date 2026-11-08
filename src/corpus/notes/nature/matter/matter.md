@@ -44,6 +44,8 @@ qa:
 | **Ion** | proton count and electron count | Same nucleus, different electron count, hence a net charge; electrons gained or lost without the element changing. |
 | **Molecule** | bonded atoms in a definite arrangement | A definite set of atoms held by covalent bonds. Identity is the connectivity and geometry, not the composition — isomers are different molecules with the same atoms. |
 | **Compound** | fixed composition of a molecule's or crystal's units | A substance of fixed elemental ratio. Identity is the *ratio*, not the collection: water is one compound however many molecules of it are present. |
+| **Organic compound** | carbon skeleton plus functional groups | A compound built on carbon. The class is a **convention**, not a natural kind: the operational rule is "contains carbon, except CO, CO₂, carbonates, cyanides, carbides and elemental carbon". Identity is the skeleton and its functional groups — which is why two isomers are different compounds. |
+| **Inorganic compound** | everything outside that convention | The complement: salts, oxides, acids, coordination complexes, and the carbon compounds the rule excludes. Ammonia is inorganic, methane is organic, and urea is the case that has embarrassed the boundary since 1828. |
 | **Biomolecule** | carbon skeleton within a living system | The molecular category of living matter — proteins, lipids, carbohydrates, nucleic acids, metabolites — individuated by their biological role and not by carbon alone. |
 | **Mixture** | several substances together | Composition varies between samples. Identity is the set of constituents and their proportions, not a fixed ratio. |
 | **Colloid** | one phase dispersed in another | A mixture whose identity is its dispersion state: particles large enough not to dissolve, small enough not to settle. |
@@ -58,6 +60,8 @@ Three groupings in this table are easy to misunderstand and worth naming.
 **Molecule and compound are the classically confused pair.** A molecule is one bonded unit; a compound is the substance such units make, whose identity is the fixed ratio. A sample of water contains many molecules but is one compound.
 
 **Mixture, colloid and alloy differ in how substances are combined, not in what they are combined from.** A mixture varies in proportion, a colloid is organised by dispersion, an alloy by phase structure.
+
+> **Organic and inorganic are drawn by disciplinary history, not by nature.** Wöhler's synthesis of urea in 1828 dissolved the original vitalist basis of the split, and no rule since has been exact: the C–H shorthand misclassifies urea and tetrachloromethane, and "contains carbon" needs a list of exceptions that keeps growing. The rows earn their place because chemists use them, not because matter divides that way. The molecule-level notes live at [Inorganic](/view.html?p=notes/nature/inorganic.md) and [Organic Matter](/view.html?p=notes/nature/organic-matter.md).
 
 > A **state of matter** — solid, liquid, gas, plasma, condensate — is how matter arranges itself, not what type it is. It belongs to the section below and is deliberately not a row of this table.
 
