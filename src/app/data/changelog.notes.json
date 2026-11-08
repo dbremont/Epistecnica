@@ -59819,7 +59819,9 @@
       {
         "date": "2026-11-08",
         "kind": "fix",
-        "summary": "Repoint the enzyme link after the note moved into enzyme/."
+        "summary": "Repoint the enzyme link after the note moved into enzyme/.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
+        "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
   },
@@ -59835,7 +59837,9 @@
       {
         "date": "2026-11-08",
         "kind": "fix",
-        "summary": "Repoint the enzyme link after the note moved into enzyme/."
+        "summary": "Repoint the enzyme link after the note moved into enzyme/.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
+        "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
   },
@@ -59862,7 +59866,9 @@
       {
         "date": "2026-11-08",
         "kind": "fix",
-        "summary": "Repoint the enzyme link after the note moved into enzyme/."
+        "summary": "Repoint the enzyme link after the note moved into enzyme/.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
+        "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
   },
@@ -59973,7 +59979,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Point the geological cut of matter at the new Geological Matter note."
+        "summary": "Point the geological cut of matter at the new Geological Matter note.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
+        "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
   },
@@ -60005,7 +60013,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the geological-matter note with the table of geological matter types and the hierarchy mineral → rock → sediment → soil."
+        "summary": "Add the geological-matter note with the table of geological matter types and the hierarchy mineral → rock → sediment → soil.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60015,7 +60024,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the ore note: a substance typed by recoverable concentration, with grade, recovery and cut-off as attributes."
+        "summary": "Add the ore note: a substance typed by recoverable concentration, with grade, recovery and cut-off as attributes.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60025,7 +60035,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the sediment note, replacing the unimplemented `sedimentary` stub with a full formulation and decomposition."
+        "summary": "Add the sediment note, replacing the unimplemented `sedimentary` stub with a full formulation and decomposition.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60035,7 +60046,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60045,7 +60057,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60055,7 +60068,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60065,7 +60079,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60075,7 +60090,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60085,7 +60101,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60095,7 +60112,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60105,7 +60123,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60115,7 +60134,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60125,7 +60145,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60135,7 +60156,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note into nature/matter/ with the other matter types."
+        "summary": "Move the note into nature/matter/ with the other matter types.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
       }
     ]
   },
@@ -60145,7 +60167,9 @@
       {
         "date": "2026-11-08",
         "kind": "fix",
-        "summary": "Repoint the base and compound links after the notes moved into matter/."
+        "summary": "Repoint the base and compound links after the notes moved into matter/.",
+        "commit": "f9996376ebd42e21f3053637a437669f96bfa401",
+        "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
   }
