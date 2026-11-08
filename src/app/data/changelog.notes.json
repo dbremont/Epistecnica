@@ -81047,5 +81047,15 @@
         "commit": "cd47dda5352908ae2f0ab24a858138e5fe26d308"
       }
     ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cossical/classical-algebra.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Algebraic Technique section - a 38-row technique path tree for Ars Cossica (equation solving through Cardano completing the square, transformation, factorization, elimination with Gaussian and Groebner, reduction, resolvent and discriminant construction, symmetry analysis to Galois, approximation) beside the flat category table, with three Stack Exchange threads on the Lagrange resolvent and cube roots of unity in References."
+      }
+    ]
   }
 ]

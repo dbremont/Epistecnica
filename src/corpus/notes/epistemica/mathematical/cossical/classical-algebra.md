@@ -139,6 +139,51 @@ Note: The term algebra - denotes diffeernt frameweork (realted) of matehamtics, 
 |  | Table of Values | Generate input-output pairs to illustrate relationships. | Functions, sequences, patterns. |
 |  | Number Line | Display solutions to inequalities or intervals on a line. | Inequalities, absolute values, real numbers. |
 
+### Algebraic Technique
+
+> A **technique path tree** of classical (cossic) algebra: the procedures for manipulating, transforming, decomposing and solving algebraic objects, arranged so that each special technique sits under the family it belongs to. It complements the flat category table above: here the line is lineage — who did what to whom — and the paths follow the productive decomposition of equation solving, transformation, factorization, elimination and the symmetries that finally made the field whole.
+
+| Technique Path Tree | Description | Origin |
+|---|---|---|
+| Algebraic Technique | Mathematical procedure for manipulating, transforming, decomposing or solving algebraic objects. | Ancient mathematics |
+| Algebraic Technique.Equation Solving | Procedure for determining unknown quantities satisfying equations. | Babylonian mathematics |
+| Algebraic Technique.Equation Solving.Linear Equation Solving | Procedure for solving first-degree equations. | Babylonian, Egyptian and Chinese mathematics |
+| Algebraic Technique.Equation Solving.Quadratic Equation Solving | Procedure for determining roots of second-degree equations. | Babylonian mathematics |
+| Algebraic Technique.Equation Solving.Quadratic Equation Solving.Completing the Square | Transformation of a quadratic expression into a perfect-square form. | Babylonian mathematics |
+| Algebraic Technique.Equation Solving.Cubic Equation Solving | Procedure for determining roots of third-degree equations. | Renaissance mathematics |
+| Algebraic Technique.Equation Solving.Cubic Equation Solving.Cardano Method | Solution of cubic equations through radical expressions. | Gerolamo Cardano, 1545 |
+| Algebraic Technique.Transformation | Procedure for changing the algebraic representation of an expression or equation. | Classical algebra |
+| Algebraic Technique.Transformation.Expansion | Conversion of products into sums of terms. | Greek mathematics |
+| Algebraic Technique.Transformation.Substitution | Replacement of variables or expressions with other expressions. | Classical algebra |
+| Algebraic Technique.Transformation.Tschirnhaus Transformation | Transformation of polynomial equations to eliminate selected coefficients. | Ehrenfried von Tschirnhaus, 1683 |
+| Algebraic Technique.Transformation.Polynomial Depression | Elimination of the next-to-leading coefficient through variable translation. | Renaissance mathematics |
+| Algebraic Technique.Factorization | Decomposition of algebraic expressions into multiplicative factors. | Greek and classical algebra |
+| Algebraic Technique.Factorization.Polynomial Factorization | Decomposition of polynomials into lower-degree polynomial factors. | Medieval and Renaissance mathematics |
+| Algebraic Technique.Factorization.Polynomial Factorization.Rational Root Factorization | Identification of rational roots to extract linear polynomial factors. | Modern algebra |
+| Algebraic Technique.Factorization.Rational Function Decomposition | Representation of rational functions as sums of simpler rational functions. | Seventeenth-century mathematics |
+| Algebraic Technique.Factorization.Rational Function Decomposition.Partial Fraction Decomposition | Decomposition of rational functions into simpler fractions. | Seventeenth-century mathematics |
+| Algebraic Technique.Elimination | Removal of variables or algebraic components while preserving relevant relationships. | Ancient Chinese mathematics |
+| Algebraic Technique.Elimination.Linear Elimination | Removal of unknowns from systems of linear equations. | Ancient Chinese mathematics |
+| Algebraic Technique.Elimination.Linear Elimination.Gaussian Elimination | Systematic elimination using elementary row operations. | Ancient Chinese antecedents; European developments |
+| Algebraic Technique.Elimination.Polynomial Elimination | Elimination of variables from polynomial systems. | Eighteenth-century algebra |
+| Algebraic Technique.Elimination.Polynomial Elimination.Resultant Construction | Construction of polynomial expressions that eliminate a variable from a polynomial system. | Euler and Bézout |
+| Algebraic Technique.Elimination.Polynomial Elimination.Gröbner Basis Construction | Construction of polynomial bases that facilitate algebraic elimination and system solving. | Bruno Buchberger, 1965 |
+| Algebraic Technique.Reduction | Transformation of a problem into a simpler or more tractable problem. | Classical mathematics |
+| Algebraic Technique.Reduction.Degree Reduction | Reduction of the degree of a polynomial equation. | Renaissance algebra |
+| Algebraic Technique.Reduction.Problem Reduction | Conversion of a mathematical problem into another problem with an accessible solution. | Classical mathematics |
+| Algebraic Technique.Auxiliary Construction | Construction of additional mathematical objects derived from an original object. | Eighteenth-century algebra |
+| Algebraic Technique.Auxiliary Construction.Resolvent Construction | Construction of auxiliary expressions and polynomials from combinations of polynomial roots. | Joseph-Louis Lagrange, 1770–1771 |
+| Algebraic Technique.Auxiliary Construction.Resolvent Construction.Lagrange Resolvent | Construction of weighted combinations of polynomial roots to investigate their behavior under permutations. | Joseph-Louis Lagrange, 1770s |
+| Algebraic Technique.Auxiliary Construction.Discriminant Construction | Construction of an expression that detects repeated polynomial roots. | Eighteenth-century algebra |
+| Algebraic Technique.Symmetry Analysis | Analysis of mathematical objects through properties preserved under transformations. | Eighteenth–nineteenth-century mathematics |
+| Algebraic Technique.Symmetry Analysis.Permutation Analysis | Investigation of how mathematical expressions change under permutations of their components. | Joseph-Louis Lagrange, 1770s |
+| Algebraic Technique.Symmetry Analysis.Group-Theoretic Analysis | Analysis of algebraic structures through group operations and properties. | Évariste Galois, nineteenth century |
+| Algebraic Technique.Approximation | Construction of approximate numerical or symbolic solutions. | Ancient mathematics |
+| Algebraic Technique.Approximation.Numerical Approximation | Estimation of mathematical quantities through numerical procedures. | Ancient mathematics |
+| Algebraic Technique.Approximation.Numerical Approximation.Newton-Raphson Method | Iterative approximation of equation roots using derivatives. | Isaac Newton and Joseph Raphson, seventeenth century |
+| Algebraic Technique.Approximation.Numerical Approximation.Bisection Method | Root approximation through successive interval subdivision. | Ancient antecedents; modern numerical analysis |
+| Algebraic Technique.Approximation.Polynomial Approximation | Approximation of mathematical functions using polynomial expressions. | Seventeenth–eighteenth-century mathematics |
+
 ## ❓ QA
 
 - Under what conditions does an algebraic manipulation (e.g., multiplying both sides by a variable expression, squaring both sides) **preserve equivalence** of an equation?
@@ -167,6 +212,9 @@ Note: The term algebra - denotes diffeernt frameweork (realted) of matehamtics, 
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
 - [](https://app.notion.com/p/24ac0f5171ec8020aec7f11bae9eb632?pvs=21)
 - https://en.wikipedia.org/wiki/Algebra
+- [Mathematics Stack Exchange — Clarifications regarding Lagrange resolvent](https://math.stackexchange.com/questions/1629629/clarifications-regarding-lagrange-resolvent)
+- [Mathematics Stack Exchange — Finding cube roots of unity: a proper explanation](https://math.stackexchange.com/questions/3835121/finding-cube-roots-of-a-unity-proper-explanation-is-needed)
+- [History of Science and Mathematics Stack Exchange — Where did Lagrange write his technique of resolvents for solving polynomials?](https://hsm.stackexchange.com/questions/15489/where-did-lagrange-write-his-technique-of-resolvents-for-solving-polynomials)
 - https://en.wikipedia.org/wiki/Algebraic_operation
 - https://en.wikipedia.org/wiki/Elementary_algebra
 - https://en.wikipedia.org/wiki/Operation_(mathematics)
