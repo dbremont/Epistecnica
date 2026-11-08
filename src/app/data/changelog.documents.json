@@ -28286,5 +28286,15 @@
         "commit": "f4abf3a1d5b2196eb2f3efcb7974494d9df52836"
       }
     ]
+  },
+  {
+    "file_path": "books/rogal-1994-agriculture-in-britain-and-america-bibliography.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rogal, Agriculture in Britain and America, 1660-1820 (Greenwood, 1994) - the annotated bibliography of the eighteenth-century agricultural literature; catalogue record, Harvard guide and the contemporary AgHR listing carried as references, no-scan note kept honest."
+      }
+    ]
   }
 ]
