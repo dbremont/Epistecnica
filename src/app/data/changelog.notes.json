@@ -26360,7 +26360,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Link the institute the persona note names to its own note, social/collective/actor/public/catalog/research/rus/institute-for-physical-problems.md."
+        "summary": "Link the institute the persona note names to its own note, social/collective/actor/public/catalog/research/rus/institute-for-physical-problems.md.",
+        "commit": "a5d6483ae5248e6a7b98a63639b8c1a4daabbc6c",
+        "before": "edaed689f93852c6de25b19df55ea1e42c428f38"
       }
     ]
   },
@@ -61575,7 +61577,9 @@
       {
         "date": "2026-11-08",
         "kind": "chore",
-        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table.",
+        "commit": "a5d6483ae5248e6a7b98a63639b8c1a4daabbc6c",
+        "before": "edaed689f93852c6de25b19df55ea1e42c428f38"
       }
     ]
   },
@@ -80773,7 +80777,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the P. L. Kapitza Institute for Physical Problems: founded 23 December 1934 for Kapitsa after his return from England, seven official names on one continuity, six directors, the low-temperature, atomic and plasma programs, the three Nobel laureates linked, the RAS/MIPT/JETP ties and the 2023 sanction — read per the philosophia socialium."
+        "summary": "Add the P. L. Kapitza Institute for Physical Problems: founded 23 December 1934 for Kapitsa after his return from England, seven official names on one continuity, six directors, the low-temperature, atomic and plasma programs, the three Nobel laureates linked, the RAS/MIPT/JETP ties and the 2023 sanction — read per the philosophia socialium.",
+        "commit": "a5d6483ae5248e6a7b98a63639b8c1a4daabbc6c"
       }
     ]
   }
