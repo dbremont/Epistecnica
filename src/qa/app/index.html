@@ -30,23 +30,31 @@
         .theme-toggle { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.18em; text-transform:uppercase; color:var(--text-secondary); background:var(--bg-card); border:1px solid var(--border-subtle); padding:.45rem .75rem; cursor:pointer; transition:color .3s ease,border-color .3s ease; }
         .theme-toggle:hover { color:var(--accent-cyan); border-color:var(--accent-cyan); }
 
-        /* ---------- masthead + crumbs (note-viewer shell) ---------- */
+        /* ---------- masthead (note-viewer shell) ---------- */
         .layout { max-width:1280px; margin:0 auto; padding:2.5rem 2rem 3.5rem; }
-        .crumbs { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.16em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1.1rem; }
-        .crumbs a { color:var(--text-muted); text-decoration:none; transition:color .3s ease; }
-        .crumbs a:hover { color:var(--accent-cyan); }
-        .crumbs .sep { margin:0 .5em; opacity:.5; }
-        .crumbs .here { color:var(--accent-gold); }
         header h1 { font-family:var(--font-display); font-weight:300; font-size:clamp(1.8rem,3.6vw,2.6rem); color:var(--text-primary); line-height:1.1; padding-bottom:.8rem; border-bottom:1px solid var(--border-subtle); }
         header p { color:var(--text-secondary); margin-top:.85rem; line-height:1.6; font-size:.9rem; max-width:70ch; }
 
-        /* ---------- controls ---------- */
-        .stats { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.12em; text-transform:uppercase; color:var(--text-muted); margin:1.1rem 0 .7rem; }
-        .controls { display:flex; gap:.6rem; flex-wrap:wrap; margin-bottom:1rem; }
-        .controls input, .controls select { flex:1 1 160px; padding:.5rem .65rem; border:1px solid var(--border-subtle); background:var(--bg-surface); color:var(--text-primary); border-radius:3px; font-size:.8rem; outline:none; transition:border-color .3s ease; }
-        .controls input:focus, .controls select:focus { border-color:var(--accent-cyan); }
-        .controls input::placeholder { color:var(--text-ghost); }
-        #tags { margin-bottom:1.1rem; line-height:2.1; }
+        /* ---------- masthead ---------- */
+        .layout { max-width:1280px; margin:0 auto; padding:2.5rem 2rem 3.5rem; }
+        .head-row { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; flex-wrap:wrap; padding-bottom:.8rem; border-bottom:1px solid var(--border-subtle); }
+        header h1 { font-family:var(--font-display); font-weight:300; font-size:clamp(1.8rem,3.6vw,2.6rem); color:var(--text-primary); line-height:1.1; }
+        .stats { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.12em; text-transform:uppercase; color:var(--text-muted); }
+        header p { color:var(--text-secondary); margin-top:.85rem; line-height:1.6; font-size:.9rem; max-width:70ch; }
+        .content { margin-top:1.4rem; }
+
+        /* ---------- toolbar: search-first ---------- */
+        .toolbar { display:flex; gap:.6rem; align-items:center; margin-bottom:1rem; }
+        .toolbar #q { flex:1; padding:.7rem .9rem; border:1px solid var(--border-subtle); background:var(--bg-surface); color:var(--text-primary); border-radius:6px; font-size:.92rem; outline:none; transition:border-color .3s ease; font-family:var(--font-body); }
+        .toolbar #q:focus { border-color:var(--accent-cyan); }
+        .toolbar #q::placeholder { color:var(--text-ghost); }
+        .status-pills { display:flex; gap:.3rem; }
+        .status-pills .pill { font-family:var(--font-mono); font-size:.6rem; letter-spacing:.1em; text-transform:uppercase; color:var(--text-muted); background:transparent; border:1px solid var(--border-subtle); border-radius:999px; padding:.45rem .85rem; cursor:pointer; transition:color .25s ease, border-color .25s ease, background .25s ease; }
+        .status-pills .pill:hover { color:var(--text-primary); border-color:var(--border-strong); }
+        .status-pills .pill.active { color:var(--accent-cyan); border-color:var(--accent-cyan); background:rgba(77,212,196,0.06); }
+        #tags { margin-bottom:1.1rem; line-height:2.1; font-size:.62rem; font-family:var(--font-mono); color:var(--text-muted); }
+        #tags .tag { margin-right:6px; }
+        #tags .sep-dot { margin:0 2px; opacity:.5; }
 
         /* ---------- cards ---------- */
         .card { display:block; padding:14px 18px; margin-bottom:10px; background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md,8px); color:inherit; transition:border-color .25s ease, transform .25s ease, background .25s ease; }
@@ -95,23 +103,22 @@
 </nav>
 
 <div class="layout">
-    <nav class="crumbs">
-        <a href="/explorer.html">corpus</a><span class="sep">/</span>
-        <span class="here">Q/A log</span>
-    </nav>
     <header>
-        <span class="ng-eyebrow">Laboratorium · Interrogation log</span>
-        <h1>Q/A Log</h1>
+        <div class="head-row">
+            <h1>Q/A Log</h1>
+            <div class="stats" id="stats">loading…</div>
+        </div>
         <p>Every question the agents worked through — searchable. Open an entry to read the answer.</p>
     </header>
 
     <div class="content">
-        <div class="stats" id="stats">loading…</div>
-        <div class="controls">
+        <div class="toolbar">
             <input class="ng-search" id="q" type="search" placeholder="search questions…  ( / )" autocomplete="off">
-            <select class="ng-search" id="f-agent"><option value="">all agents</option></select>
-            <select class="ng-search" id="f-run"><option value="">all runs</option></select>
-            <select class="ng-search" id="f-status"><option value="">open + answered</option><option value="open">open</option><option value="answered">answered</option><option value="deferred">deferred</option></select>
+            <div class="status-pills" id="f-status" role="group" aria-label="Filter by status">
+                <button type="button" class="pill active" data-status="">all</button>
+                <button type="button" class="pill" data-status="open">open</button>
+                <button type="button" class="pill" data-status="answered">answered</button>
+            </div>
         </div>
         <div id="tags"></div>
         <main id="list"></main>
@@ -146,13 +153,11 @@
             if (i < 0) return e;
             return esc(String(text).slice(0, i)) + '<mark>' + esc(String(text).slice(i, i + q.length)) + '</mark>' + esc(String(text).slice(i + q.length));
         }
+        var statusFilter = '';
         function apply() {
             var q = $('q').value.trim().toLowerCase();
-            var ag = $('f-agent').value, run = $('f-run').value, st = $('f-status').value;
             filtered = entries.filter(function (e) {
-                if (ag && e.agent !== ag) return false;
-                if (run && e.run !== run) return false;
-                if (st && e.status !== st) return false;
+                if (statusFilter && (e.status || 'open') !== statusFilter) return false;
                 if (activeTag && (e.tags || []).indexOf(activeTag) < 0) return false;
                 if (q && (e.text || '').indexOf(q) < 0) return false;
                 return true;
@@ -180,17 +185,9 @@
             .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
             .then(function (idx) {
                 entries = idx.entries || [];
-                var agents = {}, runs = {}, tags = {};
+                var tags = {};
                 entries.forEach(function (e) {
-                    if (e.agent) agents[e.agent] = 1;
-                    if (e.run) runs[e.run] = 1;
                     (e.tags || []).forEach(function (t) { tags[t] = (tags[t] || 0) + 1; });
-                });
-                Object.keys(agents).sort().forEach(function (a) {
-                    var o = document.createElement('option'); o.value = a; o.textContent = a; $('f-agent').appendChild(o);
-                });
-                Object.keys(runs).sort().forEach(function (r) {
-                    var o = document.createElement('option'); o.value = r; o.textContent = r; $('f-run').appendChild(o);
                 });
                 $('tags').innerHTML = Object.keys(tags).sort().map(function (t) {
                     return '<a class="tag" href="?tag=' + encodeURIComponent(t) + '"' + (t === activeTag ? ' style="border-color:var(--accent-cyan)"' : '') + '>' + esc(t) + ' (' + tags[t] + ')</a>';
@@ -200,9 +197,13 @@
             })
             .catch(function () { $('stats').textContent = 'index unavailable — run: python bin/build_qa_index.py'; });
         $('q').addEventListener('input', function () { apply(); });
-        $('f-agent').addEventListener('change', apply);
-        $('f-run').addEventListener('change', apply);
-        $('f-status').addEventListener('change', apply);
+        document.querySelector('.status-pills').addEventListener('click', function (ev) {
+            var b = ev.target.closest ? ev.target.closest('.pill') : null;
+            if (!b) return;
+            statusFilter = b.getAttribute('data-status') || '';
+            document.querySelectorAll('.status-pills .pill').forEach(function (x) { x.classList.toggle('active', x === b); });
+            apply();
+        });
         $('prev').addEventListener('click', function () { if (page > 0) { page--; render(); } });
         $('next').addEventListener('click', function () { page++; render(); });
         document.addEventListener('keydown', function (e) {
