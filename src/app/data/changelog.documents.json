@@ -28266,6 +28266,11 @@
         "kind": "feat",
         "summary": "Add Laplace, Mécanique céleste, Vol. 1 — the Nathaniel Bowditch translation with commentary (Hilliard, Gray, Little, and Wilkins, Boston, 1829), with the archive.org scanned copy.",
         "commit": "ad2f7df83666eeda8829afb57a27b66d3a06e54c"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Drop the cross-link to the French-original Traité entry — the stub has left the corpus."
       }
     ]
   }

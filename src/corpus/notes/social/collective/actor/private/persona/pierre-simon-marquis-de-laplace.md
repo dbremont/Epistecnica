@@ -78,7 +78,6 @@ qa:
 The corpus holds four of his works, cross-linked rather than re-owned:
 
 - **Mécanique céleste, Vol. 1 — translated with commentary by Nathaniel Bowditch, 1829** — [Bowditch edition](/view.html?p=documents/books/laplace-1829-mecanique-celeste-vol-bowditch-hilliard-gray.md).
-- **Traité de Mécanique céleste, Vol. 5 — Chez JBM Duprat** (the treatise's French original) — [French original](/view.html?p=documents/books/marquis-1798-traite-mecanique-celeste-vol-chez.md).
 - **Le Système du monde** — [1809 edition](/view.html?p=documents/books/laplace-1809-system-world-pond.md).
 - **Essai philosophique sur les probabilités** — [1816 edition](/view.html?p=documents/books/de-1816-essai-philosophique-sur-les-probabilites.md).
 

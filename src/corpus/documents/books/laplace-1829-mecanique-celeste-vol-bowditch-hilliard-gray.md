@@ -24,9 +24,8 @@ qa:
 
 > Bowditch's contribution is not only the translation: it is the **commentary**. He reworked Laplace's compressed demonstrations line by line, supplying the intermediate mathematics and his own explanations, so that the work could be followed by a reader who wanted an accessible, self-contained account rather than Laplace's own density. The English edition's commentary is extensive relative to its text, and the translation made nineteenth-century American mathematics able to read the century's masterwork of mathematical astronomy directly.
 
-This entry covers **volume 1** (1829) of the translated edition — the scanned copy linked below. The corpus also holds the corpus's French-original entry for the treatise: [Traité de mécanique céleste, Vol. 5, Chez JBM Duprat](/view.html?p=documents/books/marquis-1798-traite-mecanique-celeste-vol-chez.md). [@laplace1829mecanique]
+This entry covers **volume 1** (1829) of the translated edition — the scanned copy linked below. [@laplace1829mecanique]
 
 ## References
 
 - [Archive.org — Mécanique céleste, v. 1 (Bowditch translation, full scanned copy)](https://archive.org/details/mcaniquecles01laplrich/mode/2up)
-- [Traité de mécanique céleste, Vol. 5 (French original, 1798)](/view.html?p=documents/books/marquis-1798-traite-mecanique-celeste-vol-chez.md)
