@@ -60220,5 +60220,15 @@
         "commit": "607122541a5170bc62a49cfba603985d58e42c0b"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/ita/bologna/academy-of-sciences-of-the-institute-of-bologna.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Academy of Sciences of the Institute of Bologna: the Inquieti lineage, the 1711 constitution and 1714 opening, the Institute and its rooms, the Commentarii, and the 1804-1814-1829 sequence that leaves the academy without its institute."
+      }
+    ]
   }
 ]
