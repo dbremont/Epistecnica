@@ -28297,5 +28297,85 @@
         "commit": "1bbb282843a03649690a9d7dea584f7983fc6db3"
       }
     ]
+  },
+  {
+    "file_path": "books/tull-1731-horse-hoeing-husbandry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tull, Horse-hoeing husbandry (London, 1731) - the founding drill-husbandry treatise; second (1733), fourth (1751) and 1829 editions scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/home-1756-principles-of-agriculture-and-vegetation.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Home, The principles of agriculture and vegetation (Edinburgh, 1756) - the chemical balance sheet arrives at the field; 1756, 1759, 1762 printings scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/young-1784-annals-of-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Young's Annals of agriculture and other useful arts (London, 45 vols, 1784-1815) - the improvement era's serial record; vol. IV (1785) scanned, sparse archive coverage stated honestly."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cochrane-1795-treatise-agriculture-chemistry-dundonald.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Earl of Dundonald's treatise on the connection between agriculture and chemistry (London, 1795; 2nd ed. 1803) - both editions scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/davy-1813-elements-of-agricultural-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Davy, Elements of agricultural chemistry (London, 1813) - the Board of Agriculture lectures that gave the field its syllabus; 1813 twice, 1815 and 1821 editions scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chaptal-1840-chemistry-applied-to-agriculture-harper.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Harper (1840) English edition of Chaptal's Chimie appliquee a l'agriculture (Paris, 1823), carrying Davy's preliminary chapter on plant organization; cross-linked to the Davy entry."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stockhardt-1853-chemical-field-lectures-teschemacher.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Stockhardt, Chemical field lectures, tr. Teschemacher (Cambridge, Mass., 1853) - the working farmer's agricultural chemistry; 1853 and 1854 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/johnson-1868-how-crops-grow-judd.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Johnson, How crops grow (New York, Orange Judd, 1868) - plant composition, structure and life in the American experiment-station genre; three 1868 scans."
+      }
+    ]
   }
 ]
