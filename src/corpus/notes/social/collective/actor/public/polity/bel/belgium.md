@@ -60,7 +60,7 @@ tags: [note]
 | -------------------------- | ----------- | ---------------- | ------------------- | ------------------- |
 | **KU Leuven**              | 1425 | Rector Luc Sels | Flemish Community | Nanotech, AI, health biotech |
 | **Université catholique de Louvain (UCLouvain)** | 1425 | Rector Vincent Blondel | French Community | Med-tech, climate, AI ethics |
-| **imec (Interuniversity Microelectronics Center)** | 1984 | CEO Luc Van den hove | Flemish Government + universities | Nano-electronics, chip scaling, quantum |
+| **[imec](/view.html?p=notes/social/collective/actor/public/catalog/research/bel/imec.md) (Interuniversity Microelectronics Centre)** | 1984 | CEO Luc Van den hove | Flemish Government + universities | Nano-electronics, chip scaling, quantum |
 | **Flanders Make**          | 2014 | CEO Dirk Torfs | Flemish Government | Industry 4.0, robotics, autonomous systems |
 | **Walloon Research Institute (WELCOME)** | 2023 | CEO Cécile Godin | Wallonia | Green hydrogen, aerospace |
 | **Belgian Science Policy Office (BELSPO)** | 1959 | Acting Director-General Valerie Trouet | Federal Government | Space (ESA), polar research, heritage |

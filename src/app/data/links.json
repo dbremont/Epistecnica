@@ -68,7 +68,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/coordinate-system.md",
+      "to": "epistemica/mathematical/geometry/coordinate-system.md",
       "label": "Coordinate System",
       "kind": "related"
     },

@@ -124,7 +124,7 @@ qa:
 - [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)
 - [Fraction](/view.html?p=notes/epistemica/mathematical/number/fraction.md)
 - [Multiplication](/view.html?p=notes/epistemica/mathematical/number/multiplication.md)
-- [Normalization](/view.html?p=notes/epistemica/mathematical/equation/normalization.md)
+- [Normalization](/view.html?p=notes/epistemica/mathematical/method/normalization.md)
 - [Proportionality](/view.html?p=notes/epistemica/mathematical/number/proportionality.md)
 - [Percentage](/view.html?p=notes/epistemica/mathematical/number/percentage.md)
 - [Scale](/view.html?p=notes/epistemica/mathematical/scale.md)

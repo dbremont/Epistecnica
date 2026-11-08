@@ -3026,6 +3026,11 @@
         "kind": "refactor",
         "summary": "Move from epistemica/theory/category.md to epistemica/epistemic/theory/category.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -4158,6 +4163,11 @@
         "kind": "refactor",
         "summary": "Move from epistemica/theory/truth.md to epistemica/epistemic/theory/truth.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -5113,6 +5123,11 @@
         "kind": "docs",
         "summary": "Add the classical scope rundown: the Greco-Roman tradition, its elementary toolkit, the boundary with abstract algebra, and what stays outside.",
         "commit": "fa29c84dea6faeffa9db034ec202ff331db60424"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget broken corpus links across the moved paths (ontology, geometry, cossical, method)."
       }
     ]
   },
@@ -6955,6 +6970,11 @@
         "summary": "Re-point the differential and computational geometry links after the framework move.",
         "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba",
         "before": "a995f328ad13ee28247e1e05ff6123c2a947d5b2"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
       }
     ]
   },
@@ -7096,6 +7116,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
       }
     ]
   },
@@ -7210,6 +7235,11 @@
         "summary": "Repoint a link after the mathematical branch reorganisation.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
         "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
       }
     ]
   },
@@ -9134,6 +9164,11 @@
         "summary": "Add the Fraction note to the references.",
         "commit": "a280281d335049499d128fe7570349046c080f3d",
         "before": "58dec66c90c37c32eab15e197ed35ea8af6954db"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the normalization and factorization links to mathematical/method/."
       }
     ]
   },
@@ -10001,6 +10036,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
       }
     ]
   },
@@ -10110,6 +10150,11 @@
         "summary": "Point the Classical Algebra link at the new classical scope.",
         "commit": "fa29c84dea6faeffa9db034ec202ff331db60424",
         "before": "e24e8f1e73c709a394746ccbb3d0c898eea41cbc"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
       }
     ]
   },
@@ -24746,6 +24791,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -24785,6 +24835,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -24850,6 +24905,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -24889,6 +24949,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -24953,6 +25018,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -24996,6 +25066,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -25078,6 +25153,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -25806,6 +25886,11 @@
         "summary": "Add Alejandro del Cura's 1973 article on Ramírez's doctrine of analogy as a context reference.",
         "commit": "7e30a14594bb9d363d5a348fefdd50a5073144be",
         "before": "fb4d2f1cb1576f1982348bf9d75d59661090211b"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Drop the dangling See also reference to Sixto Enrique de Borbón — the persona path it named does not exist."
       }
     ]
   },
@@ -59216,6 +59301,11 @@
         "summary": "Restore the singular assets/ image path after the corpus rename.",
         "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -59228,6 +59318,11 @@
         "summary": "Restore the singular assets/ image path after the corpus rename.",
         "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
       }
     ]
   },
@@ -59300,6 +59395,11 @@
         "summary": "Restore the singular assets/ image path after the corpus rename.",
         "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
       }
     ]
   },
@@ -59312,6 +59412,11 @@
         "summary": "Restore the singular assets/ image path after the corpus rename.",
         "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the normalization and factorization links to mathematical/method/."
       }
     ]
   },
@@ -60613,6 +60718,11 @@
         "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy.",
         "commit": "281ec05095a724382d3d29bad3224813a38decf9",
         "before": "2383a5c1e7ef83f5051a08eec94cc53d1e8b475e"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md."
       }
     ]
   },
@@ -80558,6 +80668,26 @@
         "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table.",
         "commit": "c04731c10acb0bca603ebbcbed58386c6fcf8f44",
         "before": "366631751b6b44e97649ddcde8e26cd655f56dbe"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/polity/bel/belgium.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/bel/imec.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the imec actor note: the Interuniversity Microelectronics Centre read per the philosophia socialium — governance, 1982 mandate lineage, programs, transfer face and ties, sourced from the institute record."
       }
     ]
   }

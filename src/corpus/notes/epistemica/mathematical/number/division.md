@@ -158,7 +158,7 @@ How many eggs do you have?
 
 ## References
 
-- [Normalization](/view.html?p=notes/epistemica/mathematical/equation/normalization.md)
+- [Normalization](/view.html?p=notes/epistemica/mathematical/method/normalization.md)
 - [Multiplication](/view.html?p=notes/epistemica/mathematical/number/multiplication.md)
 - [Scale](/view.html?p=notes/epistemica/mathematical/scale.md)
 - [Proportionality](/view.html?p=notes/epistemica/mathematical/number/proportionality.md)

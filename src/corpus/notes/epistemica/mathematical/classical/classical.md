@@ -25,10 +25,10 @@ tags: [note, mathematics, classical]
 
 | Member | Note | Contribution |
 | --- | --- | --- |
-| Classical Algebra | [Classical Algebra](/view.html?p=notes/epistemica/mathematical/classical/classical-algebra.md) | Expressions, equations, and the techniques of reduction, substitution, elimination, and factorization. |
+| Classical Algebra | [Classical Algebra](/view.html?p=notes/epistemica/mathematical/cossical/classical-algebra.md) | Expressions, equations, and the techniques of reduction, substitution, elimination, and factorization. |
 | Equation | [Equation](/view.html?p=notes/epistemica/mathematical/equation/equation.md) | The equation as a statement of equality, and the general problem of solving it. |
-| Polynomial | [Polynomial](/view.html?p=notes/epistemica/mathematical/equation/polynomial.md) | The polynomial as the central object of classical equation solving. |
-| Factorization | [Factorization](/view.html?p=notes/epistemica/mathematical/equation/factorization.md) | The decomposition of expressions into factors — the classical route to roots. |
+| Polynomial | [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) | The polynomial as the central object of classical equation solving. |
+| Factorization | [Factorization](/view.html?p=notes/epistemica/mathematical/method/factorization.md) | The decomposition of expressions into factors — the classical route to roots. |
 | Canonical Form | [Canonical Form](/view.html?p=notes/epistemica/mathematical/equation/canonical-form.md) | The reduction of an equation to a standard form before solving it. |
 | Arithmetic | [Arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md) | The transformation rules of number: addition, multiplication, division, exponentiation. |
 | Number | [Number](/view.html?p=notes/epistemica/mathematical/number/number.md) | The number concept the classical operations act on. |

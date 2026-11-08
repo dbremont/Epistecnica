@@ -678,7 +678,7 @@ Aphorisms:
 - https://www.nature.com/articles/s41586-022-05543-x
 - Peer review is an honor-based system ([lemire.me](http://lemire.me/))
 [https://news.ycombinator.com/item?id=38982912](https://news.ycombinator.com/item?id=38982912)
-- [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Ontology](/view.html?p=notes/nature/theory/ontology.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.

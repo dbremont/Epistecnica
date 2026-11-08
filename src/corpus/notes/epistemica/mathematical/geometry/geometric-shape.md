@@ -422,7 +422,7 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 - [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
 - [Symmetry Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
 - [Convex Hull](/view.html?p=notes/epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
-- [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
+- [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
 
 ## QA
 

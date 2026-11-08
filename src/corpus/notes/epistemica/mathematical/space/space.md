@@ -200,7 +200,7 @@ tags: [note, mathematics, space]
 
 ### What is the relation of the idea of geometrical space, and a coordinate system?
 
-> See [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md).
+> See [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md).
 > 
 
 > A **coordinate system** is a **representation** (or “view”) of a space, obtained by mapping its elements to tuples of numbers. This mapping must preserve the semantics induced by the relations defined on the space.
@@ -238,7 +238,7 @@ tags: [note, mathematics, space]
 - [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md)
 - [Vector](/view.html?p=notes/epistemica/mathematical/vector.md)
 - [Linear Algebra](/view.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md)
-- [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md)
+- [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md)
 
 
 - [Phase Space](/view.html?p=notes/epistemica/singular/phase-space.md)

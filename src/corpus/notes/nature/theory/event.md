@@ -193,7 +193,7 @@ Meta:
 - A Guide to Language and Cognition
 - Plato’s Dialectic Method
 - https://plato.stanford.edu/entries/events/
-- [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Ontology](/view.html?p=notes/nature/theory/ontology.md)
 - https://iep.utm.edu/events/
 - https://en.wikipedia.org/wiki/Event_(philosophy)
 - https://etimologias.dechile.net/?realizacio.n

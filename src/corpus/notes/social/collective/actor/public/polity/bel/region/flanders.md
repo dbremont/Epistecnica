@@ -114,7 +114,7 @@ Readable secondarily as an `Interaction Unit` — a bounded entity that negotiat
 | Ghent University (UGent) | Engineering, bioscience, agriculture, veterinary medicine | 1817 | Flemish Community | Dutch-language since 1930 |
 | University of Antwerp (UAntwerpen) | Social sciences, biomedical, chemistry | 2003 (merger) | Flemish Community | Built on UFSIA, RUCA and UIA |
 | Hasselt University (UHasselt) | Materials, ICT, biomedical, environmental sciences | 1971 | Flemish Community | Regional anchor in Limburg |
-| imec | Nanoelectronics and chip scaling; the region's flagship research institute | 1984 | Flemish Government + universities | World-leading in semiconductor process research |
+| **[imec](/view.html?p=notes/social/collective/actor/public/catalog/research/bel/imec.md)** | Nanoelectronics and chip scaling; the region's flagship research institute | 1984 | Flemish Government + universities | World-leading in semiconductor process research |
 | VIB | Life-sciences research institute: cancer, neuroscience, plant systems | 1995 | Flemish Government | Strategic Research Centre |
 | VITO | Cleantech, energy, materials and environmental technology | 1991 | Flemish Government | Strategic Research Centre |
 | Flanders Make | Manufacturing research: mechatronics, robotics, Industry 4.0 | 2014 | Flemish Government | Strategic Research Centre |

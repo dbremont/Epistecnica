@@ -261,7 +261,7 @@ QA:
 - [Euclidean  Geometry](/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md)
 - [Contour Map](/view.html?p=notes/epistemica/mathematical/mapping/contour-map.md))
 - [Conformal map](/view.html?p=notes/epistemica/mathematical/complex/conformal-map.md))
-- [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md))
+- [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md))
 - [**Differential Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/differential-geometry.md)
 - [Computational Geometry](/view.html?p=notes/epistemica/mathematical/geometry/framework/computational-geometry.md)
 - https://www.youtube.com/watch?v=6s1CI3uuhko
