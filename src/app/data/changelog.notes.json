@@ -59764,7 +59764,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the Leiden University actor note under the education actors, with the Wikipedia reference."
+        "summary": "Add the Leiden University actor note under the education actors, with the Wikipedia reference.",
+        "commit": "5bfb788ea8de66d83ad6e090c8582e9e885daf59"
       }
     ]
   }
