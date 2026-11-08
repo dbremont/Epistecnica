@@ -106,7 +106,7 @@ tags: [note, nature, property]
 
 ## Related
 
-- [Matter](/view.html?p=notes/nature/matter.md)
+- [Matter](/view.html?p=notes/nature/matter/matter.md)
 - [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
 
 ## Provenance

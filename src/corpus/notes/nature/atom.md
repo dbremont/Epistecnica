@@ -215,7 +215,7 @@ Reasons:
 ## Related
 
 - [Molecule](/view.html?p=notes/nature/molecule.md)
-- [Chemical Element](/view.html?p=notes/nature/chemical-element.md)
+- [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 - [Interaction](/view.html?p=notes/nature/theory/interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 - [Spin](/view.html?p=notes/nature/spin.md)

@@ -33,7 +33,7 @@ It's important to note that "chemical substance" is often used interchangeably w
 
 ## Related
 
-- [Chemical Element](/view.html?p=notes/nature/chemical-element.md)
+- [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 
 ## Provenance
 

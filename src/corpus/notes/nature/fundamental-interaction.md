@@ -50,7 +50,7 @@ QA:
 - [Interaction](/view.html?p=notes/nature/theory/interaction.md)
 - [Atom](/view.html?p=notes/nature/atom.md)
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md)
-- [Matter](/view.html?p=notes/nature/matter.md)
+- [Matter](/view.html?p=notes/nature/matter/matter.md)
 - [Particle](/view.html?p=notes/nature/particle.md)
 
 ## Provenance

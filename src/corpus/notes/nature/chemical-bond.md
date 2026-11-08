@@ -90,8 +90,8 @@ The characteristics vary by bond type, but here are **general features**:
 ## Related
 
 - [Molecule](/view.html?p=notes/nature/molecule.md)
-- [Biomolecule](/view.html?p=notes/nature/biomolecule.md)
-- [Chemical Element](/view.html?p=notes/nature/chemical-element.md)
+- [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)
+- [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 
 ## Provenance
 

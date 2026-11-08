@@ -238,996 +238,417 @@ QA:
 
 ## References
 
-- https://en.wikipedia.org/wiki/Protein
-- https://en.wikipedia.org/wiki/Enzyme
-- https://en.wikipedia.org/wiki/G_protein
-- https://www.ebi.ac.uk/pdbe/
-- https://medlineplus.gov/genetics/understanding/howgeneswork/protein/
-- [‣](https://app.notion.com/p/140598edb790805f8beccf30132908d7?pvs=21)
+- [Protein](https://en.wikipedia.org/wiki/Protein)
+- [Enzyme](https://en.wikipedia.org/wiki/Enzyme)
+- [G Protein](https://en.wikipedia.org/wiki/G_protein)
+- [Protein Data Bank in Europe](https://www.ebi.ac.uk/pdbe/)
 
-## Related
+**1740**
 
-- [Enzyme](/view.html?p=notes/nature/enzyme.md)
-- [Biomolecule](/view.html?p=notes/nature/biomolecule.md)
-- [Prion](/view.html?p=notes/nature/prion.md)
-- [Cell](/view.html?p=notes/nature/cell.md)
-- [Living System](/view.html?p=notes/nature/living-system.md)
-- [Hydrolysis](https://en.wikipedia.org/wiki/Hydrolysis)
+- Rouelle, G.-F. (1742). Recherches sur les substances animales.
+- Beccari, J. B. (1745). *De frumento*. *De Bononiensi Scientiarum et Artium Instituto atque Academia Commentarii*, 2(1), 122–127.
 
-Vickery, H. B. (1950). The origin of the word protein. Yale Journal of Biology and Medicine, 22(5), 387–393.
+**1770**
 
-Hartley, H. (1951). Origin of the word ‘protein’. Nature, 168(4267), 244. https://doi.org/10.1038/168244a0
+- Rouelle, G.-F. (1773). Observations sur les parties constituantes du lait. [Unverified]
 
-Fourcroy, A.-F. de. (1789). Sur l'existence de la matière albumineuse dans les végétaux. Annales de Chimie, 3, 352.
+**1780**
 
-Proust, J.-L. (1819). Recherches sur les matières animales. (Original publication details require verification; this is the paper that first described leucine.)
-
-Missing: funnel/energy-landscape theory, molten globule, and folding-landscape classics.
-
-Bryngelson, J. D., & Wolynes, P. G. (1987). Spin glasses and the statistical mechanics of protein folding. *Proceedings of the National Academy of Sciences, 84*(21), 7524–7528. https://doi.org/10.1073/pnas.84.21.7524
-
-Onuchic, J. N., Wolynes, P. G., Luthey-Schulten, Z., & Socci, N. D. (1995). Toward an outline of the topography of a realistic protein-folding funnel. *Proceedings of the National Academy of Sciences, 92*(8), 3626–3630. https://doi.org/10.1073/pnas.92.8.3626
-
-Vickery, H. B. (1950). The origin of the word protein. Yale Journal of Biology and Medicine, 22(5), 387–393.
-
-Hartley, H. (1951). Origin of the word ‘protein’. Nature, 168(4267), 244. https://doi.org/10.1038/168244a0
-
-Fourcroy, A.-F. de. (1789). Sur l'existence de la matière albumineuse dans les végétaux. Annales de Chimie, 3, 352.
-
-Proust, J.-L. (1819). Recherches sur les matières animales. (Original publication details require verification; this is the paper that first described leucine.)
-
-
-Missing: funnel/energy-landscape theory, molten globule, and folding-landscape classics.
-
-Bryngelson, J. D., & Wolynes, P. G. (1987). Spin glasses and the statistical mechanics of protein folding. *Proceedings of the National Academy of Sciences, 84*(21), 7524–7528. https://doi.org/10.1073/pnas.84.21.7524
-
-Onuchic, J. N., Wolynes, P. G., Luthey-Schulten, Z., & Socci, N. D. (1995). Toward an outline of the topography of a realistic protein-folding funnel. *Proceedings of the National Academy of Sciences, 92*(8), 3626–3630. https://doi.org/10.1073/pnas.92.8.3626
-
-Missing: chaperonin/GroEL, Hsp70/Hsp90, co-translational folding, UPR, and ERAD.
-
-Hemmingsen, S. M., Woolford, C., van der Vies, S. M., Tilly, K., Dennis, D. T., Georgopoulos, C. P., Hendrix, R. W., & Ellis, R. J. (1988). Homologous plant and bacterial proteins chaperone oligomeric protein assembly. *Nature, 333*(6171), 330–334. https://doi.org/10.1038/333330a0
-
-Goloubinoff, P., Christeller, J. T., Gatenby, A. A., & Lorimer, G. H. (1989). Reconstitution of active dimeric ribulose bisphosphate carboxylase from an unfolded state depends on two chaperonin proteins and Mg-ATP. *Nature, 342*(6252), 884–889. https://doi.org/10.1038/342884a0
-
-Missing: proteasome, autophagy, N-end rule, SUMO/ubiquitin-like modifiers, deubiquitinases.
-
-Goldberg, A. L. (2007). Functions of the proteasome: From protein degradation and immune surveillance to cancer therapy. *Biochemical Society Transactions, 35*(1), 12–17. https://doi.org/10.1042/BST0350012
-
-Ohsumi, Y. (2001). Molecular dissection of autophagy: Two ubiquitin-like systems. *Nature Reviews Molecular Cell Biology, 2*(3), 211–216. https://doi.org/10.1038/35056522
-
-Varshavsky, A. (2011). The N-end rule pathway and regulation by proteolysis. *Protein Science, 20*(8), 1298–1345. https://doi.org/10.1002/pro.666
-
-Missing: glycosylation/glycoproteomics, acetylation, methylation, lipidation, ADP-ribosylation, redox regulation.
-
-Schjoldager, K. T.-B. G., Narimatsu, Y., Joshi, H. J., & Clausen, H. (2020). Global view of human protein glycosylation pathways and functions. *Nature Reviews Molecular Cell Biology, 21*, 729–749. https://doi.org/10.1038/s41580-020-00294-x
-
-Choudhary, C., Kumar, C., Gnad, F., Nielsen, M. L., Rehman, M., Walther, T. C., Olsen, J. V., & Mann, M. (2009). Lysine acetylation targets protein complexes and co-regulates major cellular functions. *Science, 325*(5942), 834–840. https://doi.org/10.1126/science.1175371
-
-Missing: phage display, proximity labeling, crosslinking mass spectrometry, docking benchmarks.
-
-Smith, G. P. (1985). Filamentous fusion phage: Novel expression vectors that display cloned antigens on the virion surface. *Science, 228*(4705), 1315–1317. https://doi.org/10.1126/science.4001944
-
-Roux, K. J., Kim, D. I., Raida, M., & Burke, B. (2012). A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells. *Journal of Cell Biology, 196*(6), 801–810. https://doi.org/10.1083/jcb.201112098
-
-Leitner, A., Faini, M., Stengel, F., & Aebersold, R. (2016). Crosslinking and mass spectrometry: An integrated technology to understand the structure and function of molecular machines. *Trends in Biochemical Sciences, 41*(1), 20–32. https://doi.org/10.1016/j.tibs.2015.10.008
-
-Missing: SILAC, DIA, single-cell proteomics, native MS, HDX-MS, top-down proteomics.
-
-Ong, S.-E., Blagoev, B., Kratchmarova, I., Kristensen, D. B., Steen, H., Pandey, A., & Mann, M. (2002). Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics. *Molecular & Cellular Proteomics, 1*(5), 376–386. https://doi.org/10.1074/mcp.M200025-MCP200
-
-Gillet, L. C., Navarro, P., Tate, S., Röst, H., Selevsek, N., Reiter, L., Bonner, R., & Aebersold, R. (2012). Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: A new concept for consistent and accurate proteome analysis. *Molecular & Cellular Proteomics, 11*(6), O111.016717. https://doi.org/10.1074/mcp.O111.016717
-
-Budnik, B., Levy, E., Harmange, G., & Slavov, N. (2018). SCoPE-MS: Mass spectrometry of single mammalian cells quantifies proteome heterogeneity during cell differentiation. *Genome Biology, 19*, 161. https://doi.org/10.1186/s13059-018-1547-5
-
-Tamara, S., den Boer, M. A., & Heck, A. J. R. (2022). High-resolution native mass spectrometry. *Chemical Reviews, 122*(8), 7269–7326. https://doi.org/10.1021/acs.chemrev.1c00212
-
-Missing: site-directed mutagenesis, unnatural amino acids, native chemical ligation, GFP, recombinant insulin, monoclonal antibodies.
-
-Kunkel, T. A. (1985). Rapid and efficient site-specific mutagenesis without phenotypic selection. *Proceedings of the National Academy of Sciences, 82*(2), 488–492. https://doi.org/10.1073/pnas.82.2.488
-
-Wang, L., Brock, A., Herberich, B., & Schultz, P. G. (2001). Expanding the genetic code of *Escherichia coli*. *Science, 292*(5516), 498–500. https://doi.org/10.1126/science.1060077
-
-Dawson, P. E., Muir, T. W., Clark-Lewis, I., & Kent, S. B. H. (1994). Synthesis of proteins by native chemical ligation. *Science, 266*(5186), 776–779. https://doi.org/10.1126/science.7973629
-
-Chalfie, M., Tu, Y., Euskirchen, G., Ward, W. W., & Prasher, D. C. (1994). Green fluorescent protein as a marker for gene expression. *Science, 263*(5148), 802–805. https://doi.org/10.1126/science.8303295
-
-Goeddel, D. V., Kleid, D. G., Bolivar, F., Heyneker, H. L., Yansura, D. G., Crea, R., Hirose, T., Kraszewski, A., Itakura, K., & Riggs, A. D. (1979). Expression in *Escherichia coli* of chemically synthesized genes for human insulin. *Proceedings of the National Academy of Sciences, 76*(1), 106–110. https://doi.org/10.1073/pnas.76.1.106
-
-Köhler, G., & Milstein, C. (1975). Continuous cultures of fused cells secreting antibody of predefined specificity. *Nature, 256*(5517), 495–497. https://doi.org/10.1038/256495a0
-
-Missing: MD force fields, macromolecular crowding, single-molecule force spectroscopy, in-cell NMR.
-
-Brooks, B. R., Bruccoleri, R. E., Olafson, B. D., States, D. J., Swaminathan, S., & Karplus, M. (1983). CHARMM: A program for macromolecular energy, minimization, and dynamics calculations. *Journal of Computational Chemistry, 4*(2), 187–217. https://doi.org/10.1002/jcc.540040211
-
-Ellis, R. J. (2001). Macromolecular crowding: An important but neglected aspect of the intracellular environment. *Current Opinion in Structural Biology, 11*(1), 114–119. https://doi.org/10.1016/S0959-440X(00)00172-X
-
-Konermann, L., Pan, J., & Liu, Y.-H. (2011). Hydrogen exchange mass spectrometry for studying protein structure and dynamics. *Chemical Society Reviews, 40*(3), 1224–1234. https://doi.org/10.1039/C0CS00113A
-
-Missing: first GPCR structure, ribosome structure, cryo-ET/subtomogram averaging, integrative modeling.
-
-Palczewski, K., Kumasaka, T., Hori, T., Behnke, C. A., Motoshima, H., Fox, B. A., Le Trong, I., Teller, D. C., Okada, T., Stenkamp, R. E., Yamamoto, M., & Miyano, M. (2000). Crystal structure of rhodopsin: A G protein-coupled receptor. *Science, 289*(5480), 739–745. https://doi.org/10.1126/science.289.5480.739
-
-Ban, N., Nissen, P., Hansen, J., Moore, P. B., & Steitz, T. A. (2000). The complete atomic structure of the large ribosomal subunit at 2.4 Å resolution. *Science, 289*(5481), 905–920. https://doi.org/10.1126/science.289.5481.905
-
-Missing: cryo-EM amyloid/tau/α-synuclein structures and prion-strain literature.
-
-Fitzpatrick, A. W. P., Falcon, B., He, S., Murzin, A. G., Murshudov, G., Garringer, H. J., Crowther, R. A., Ghetti, B., Goedert, M., & Scheres, S. H. W. (2017). Cryo-EM structures of tau filaments from Alzheimer’s disease. *Nature, 547*, 185–190. https://doi.org/10.1038/nature23274
-
-Gremer, L., Schölzel, D., Schenk, C., Reinartz, E., Labahn, J., Ravelli, R. B. G., Tusche, M., Lopez-Iglesias, C., Hoyer, W., Heise, H., Willbold, D., & Schröder, G. F. (2017). Fibril structure of amyloid-β(1–42) by cryo-electron microscopy. *Science, 358*(6359), 116–119. https://doi.org/10.1126/science.aao2825
-
-Missing: vesicle trafficking, SNAREs, mitochondrial/nuclear import, detailed translocon literature.
-
-Rothman, J. E. (1994). Mechanisms of intracellular protein transport. *Nature, 372*(6501), 55–63. https://doi.org/10.1038/372055a0
-
-Missing: UniProt, GO, InterPro, MolProbity/PDB validation, benchmark datasets.
-
-UniProt Consortium. (2023). UniProt: The Universal Protein Knowledgebase in 2023. *Nucleic Acids Research, 51*(D1), D523–D531. https://doi.org/10.1093/nar/gkac1052
-
-Davis, I. W., Leaver-Fay, A., Chen, V. B., Block, J. N., Kapral, G. J., Wang, X., Murray, L. W., Arendall, W. B., III, Snoeyink, J., Richardson, J. S., & Richardson, D. C. (2007). MolProbity: All-atom contacts and structure validation for proteins and nucleic acids. *Nucleic Acids Research, 35*(Web Server issue), W375–W383. https://doi.org/10.1093/nar/gkm216
-
-Also, the bibliography itself contains several records marked “require verification”; in APA style those are not acceptable as final references because they lack complete author, year, title, journal, volume, pages, and/or DOI.
-
-Tiselius, A. (1937). A new apparatus for electrophoretic analysis of colloidal mixtures. Transactions of the Faraday Society, 33, 524–531.
-Martin, A. J. P., & Synge, R. L. M. (1941). A new form of chromatogram employing two liquid phases. Biochemical Journal, 35, 1358–1368.
-Lowry, O. H., Rosebrough, N. J., Farr, A. L., & Randall, R. J. (1951). Protein measurement with the Folin phenol reagent. Journal of Biological Chemistry, 193, 265–275.
-Anfinsen, C. B., & Haber, E. (1961). Studies on the reduction and re-formation of protein disulfide bonds. Journal of Biological Chemistry, 236, 1361–1363.
-Kendrew, J. C., et al. (1960). Structure of myoglobin: A three-dimensional Fourier synthesis at 2 Å resolution. Nature, 185, 422–427.
-Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. Journal of the American Chemical Society, 85, 2149–2154.
-Bradford, M. M. (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Analytical Biochemistry, 72, 248–254.
-Murzin, A. G., Brenner, S. E., Hubbard, T., & Chothia, C. (1995). SCOP: A structural classification of proteins database for the investigation of sequences and structures. Journal of Molecular Biology, 247, 536–540.
-Orengo, C. A., et al. (1997). CATH—A hierarchic classification of protein domain structures. Structure, 5, 1093–1108.
-Brangwynne, C. P., et al. (2009). Germline P granules are liquid droplets that localize by controlled dissolution/condensation. Science, 324, 1729–1732.
-Hyman, A. A., Weber, C. A., & Jülicher, F. (2014). Liquid-liquid phase separation in biology. Annual Review of Cell and Developmental Biology, 30, 39–58.
-
-Rimington, C. (1936). The chemistry of the proteins and amino acids. Annual Review of Biochemistry, 5, 117–158. Annual Reviews
-Vesterberg, O. (1989). History of electrophoretic methods. Journal of Chromatography, 480, 3–19. PubMed
-Biemann, K. (2014). Laying the groundwork for proteomics: Mass spectrometry from 1958 to 1988. Journal of Proteomics.
-
-Cohn, E. J., & Edsall, J. T. (1943). Proteins, amino acids and peptides as ions and dipolar ions. Reinhold Publishing.
-Neurath, H., & Bailey, K. (Eds.). (1953). The proteins: Chemistry, biological activity, and methods (Vols. 1–2). Academic Press.
-Greenstein, J. P., & Winitz, M. (1961). Chemistry of the amino acids (Vols. 1–3). John Wiley & Sons.
-Tanford, C. (1961). Physical chemistry of macromolecules. John Wiley & Sons.
-Dixon, M., & Webb, E. C. (1964). Enzymes (2nd ed.). Longmans.
-Tanford, C. (1980). The hydrophobic effect: Formation of micelles and biological membranes (2nd ed.). John Wiley & Sons.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: The conformation of biological macromolecules (Vol. 1). W. H. Freeman.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: Techniques for the study of biological structure and function (Vol. 2). W. H. Freeman.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: The behavior of biological macromolecules (Vol. 3). W. H. Freeman.
-Scopes, R. K. (1982). Protein purification: Principles and practice. Springer-Verlag.
-McCammon, J. A., & Harvey, S. C. (1987). Dynamics of proteins and nucleic acids. Cambridge University Press.
-Schulz, G. E., & Schirmer, R. H. (1979). Principles of protein structure. Springer-Verlag.
-Creighton, T. E. (1993). Proteins: Structures and molecular properties (2nd ed.). W. H. Freeman.
-Lesk, A. M. (2001). Introduction to protein architecture: The structural biology of proteins. Oxford University Press.
-Petsko, G. A., & Ringe, D. (2003). Protein structure and function. New Science Press.
-Rhodes, G. (2006). Crystallography made crystal clear: A guide for users of macromolecular models (2nd ed.). Academic Press.
-Fersht, A. (1999). Structure and mechanism in protein science: A guide to enzyme catalysis and protein folding. W. H. Freeman.
-Tanford, C., & Reynolds, J. A. (2004). Nature's robots: A history of proteins. Oxford University Press.
-Kyte, J. (2007). Structure in protein chemistry (2nd ed.). Garland Science.
-Walsh, G. (2014). Proteins: Biochemistry and biotechnology (2nd ed.). John Wiley & Sons.
-Lesk, A. M. (2016). Introduction to protein science: Architecture, function, and genomics (3rd ed.). Oxford University Press.
-Backman, L. (2020). Protein chemistry. De Gruyter.
-
-
-Chick, H., & Martin, C. J. (1910). On the heat coagulation of proteins. The Journal of Physiology. 
-Chick, H., & Martin, C. J. (1911). On the heat coagulation of proteins. The Journal of Physiology.
-Wu, H. (1931). Studies on denaturation of proteins. XIII. A theory of denaturation. Chinese Journal of Physiology.
-Kauzmann, W. (1959). Some factors in the interpretation of protein denaturation. Advances in Protein Chemistry, 14, 1–63.
-Tanford, C. (1968). Protein denaturation. Advances in Protein Chemistry, 23, 121–282.
-
-Svedberg, T. (1926). A new method for the determination of the molecular weight of the proteins. Journal of the American Chemical Society, 48(2), 430–438.
-Svedberg, T. (1929). Mass and size of protein molecules. Nature, 123, 871.
-Astbury, W. T. (1933). Some problems in the X-ray analysis of the structure of protein molecules. Transactions of the Faraday Society. 
-Staudinger, H. (1935). Über hochpolymere Verbindungen. Berichte der Deutschen Chemischen Gesellschaft.
-Pauling, L., & Corey, R. B. (1953). Compound helical configurations of polypeptide chains: Structure of proteins of the alpha-keratin type. Nature, 171, 59–61.
-
-Hofmeister, F. (1902). Über Bau und Gruppierung der Eiweisskörper. Ergebnisse der Physiologie.
-Fischer, E. (1906). Untersuchungen über Aminosäuren, Polypeptide und Proteïne. Berichte der Deutschen Chemischen Gesellschaft, 39, 530–610.
-Fischer, E., & Abderhalden, E. (1905). Synthese von Polypeptiden. (Original publication details require verification.)
-Bergmann, M., & Niemann, C. (1937). The mechanism of enzyme action. Science, 86, 187–188.
-
-- Hünefeld, F. L. (1840). Der Chemismus in der thierischen Organisation. F. A. Brockhaus.
-- Reichert, E. T., & Brown, A. P. (1909). The differentiation and specificity of starches in relation to genera, species, etc. Carnegie Institution of Washington.
-- Sumner, J. B. (1926). The isolation and crystallization of the enzyme urease. Journal of Biological Chemistry.
-- Northrop, J. H. (1930). Crystallization of pepsin. Science.
-- Bernal, J. D., & Crowfoot, D. (1934). X-ray photographs of crystalline pepsin. Nature, 133, 794–795.
-
-Anfinsen, C. B. (1961). The molecular basis of evolution. American Scientist, 49, 457–472.
-Brandts, J. F. (1964). The thermodynamics of protein denaturation. I. The denaturation of chymotrypsinogen. Journal of the American Chemical Society, 86, 4291–4301.
-Wetlaufer, D. B. (1973). Nucleation, rapid folding, and globular intrachain regions in proteins. Proceedings of the National Academy of Sciences, 70(3), 697–701.
-Karplus, M., & Weaver, D. L. (1976). Protein-folding dynamics. Nature, 260, 404–406.
-Dill, K. A., & Chan, H. S. (1997). From Levinthal to pathways to funnels. Nature Structural Biology, 4, 10–19.
-Dobson, C. M. (2003). Protein folding and misfolding. Nature, 426, 884–890.
-Hartl, F. U., & Hayer-Hartl, M. (2009). Converging concepts of protein folding in vitro and in vivo. Nature Structural & Molecular Biology, 16, 574–581.
-
-Hoagland, M. B. (1955). Further evidence for the participation of an RNA intermediate in protein synthesis. Biochimica et Biophysica Acta, 16, 288–289.
-Crick, F. H. C. (1958). On protein synthesis. Symposia of the Society for Experimental Biology, 12, 138–163.
-Nirenberg, M. W., & Matthaei, J. H. (1961). The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides. Proceedings of the National Academy of Sciences, 47, 1588–1602.
-Blobel, G., & Sabatini, D. D. (1971). Ribosome-membrane interaction in eukaryotic cells. Biomembranes, 2, 193–195.
-Yarus, M. (1988). A specific amino acid binding site composed of RNA. Science, 240, 1751–1758.
-
-Smith, M. (1985). In vitro mutagenesis. Annual Review of Genetics, 19, 423–462.
-Wells, J. A. (1990). Additivity of mutational effects in proteins. Biochemistry, 29, 8509–8517.
-Arnold, F. H. (1998). Design by directed evolution. Accounts of Chemical Research, 31(3), 125–131.
-Stemmer, W. P. C. (1994). Rapid evolution of a protein in vitro by DNA shuffling. Nature, 370, 389–391.
-Bloom, J. D., & Arnold, F. H. (2009). In the light of directed evolution: Pathways of adaptive protein evolution. Proceedings of the National Academy of Sciences, 106(Suppl. 1), 9995–10000.
-
-Fields, S., & Song, O. (1989). A novel genetic system to detect protein–protein interactions. Nature, 340, 245–246.
-Gavin, A.-C., et al. (2002). Functional organization of the yeast proteome by systematic analysis of protein complexes. Nature, 415, 141–147.
-Ho, Y., et al. (2002). Systematic identification of protein complexes in Saccharomyces cerevisiae by mass spectrometry. Nature, 415, 180–183.
-Stelzl, U., et al. (2005). A human protein-protein interaction network: A resource for annotating the proteome. Cell, 122(6), 957–968.
-Rual, J.-F., et al. (2005). Towards a proteome-scale map of the human protein-protein interaction network. Nature, 437, 1173–1178.
-
-Hunter, T. (1995). Protein kinases and phosphatases: The yin and yang of protein phosphorylation and signaling. Cell, 80(2), 225–236.
-Hershko, A., & Ciechanover, A. (1998). The ubiquitin system. Annual Review of Biochemistry, 67, 425–479.
-Mann, M., & Jensen, O. N. (2003). Proteomic analysis of post-translational modifications. Nature Biotechnology, 21, 255–261.
-Walsh, C. T., Garneau-Tsodikova, S., & Gatto, G. J., Jr. (2005). Protein posttranslational modifications: The chemistry of proteome diversifications. Angewandte Chemie International Edition, 44, 7342–7372.
-
-Prusiner, S. B. (1982). Novel proteinaceous infectious particles cause scrapie. Science, 216(4542), 136–144.
-Jarrett, J. T., & Lansbury, P. T., Jr. (1993). Seeding "one-dimensional crystallization" of amyloid: A pathogenic mechanism in Alzheimer's disease and scrapie? Cell, 73(6), 1055–1058.
-Dobson, C. M. (2003). Protein folding and misfolding. Nature, 426, 884–890.
-Chiti, F., & Dobson, C. M. (2006). Protein misfolding, functional amyloid, and human disease. Annual Review of Biochemistry, 75, 333–366.
-
-Uversky, V. N. (2002). Natively unfolded proteins: A point where biology waits for physics. Protein Science, 11(4), 739–756.
-Dyson, H. J., & Wright, P. E. (2005). Intrinsically unstructured proteins and their functions. Nature Reviews Molecular Cell Biology, 6, 197–208.
-van der Lee, R., et al. (2014). Classification of intrinsically disordered regions and proteins. Chemical Reviews, 114(13), 6589–6631.
-
-Henderson, R., & Unwin, P. N. T. (1975). Three-dimensional model of purple membrane obtained by electron microscopy. Nature, 257, 28–32.
-Deisenhofer, J., Epp, O., Miki, K., Huber, R., & Michel, H. (1985). Structure of the protein subunits in the photosynthetic reaction centre of Rhodopseudomonas viridis at 3 Å resolution. Nature, 318, 618–624.
-Kobilka, B. K., & Schertler, G. F. X. (2008). New G-protein-coupled receptor crystal structures: Insights and limitations. Trends in Pharmacological Sciences, 29(2), 79–83.
-
-Frank, J. (1990). Classification of macromolecular assemblies studied as 'single particles'. Quarterly Reviews of Biophysics, 23(3), 281–329.
-Henderson, R. (1995). The potential and limitations of neutrons, electrons and X-rays for atomic resolution microscopy of unstained biological molecules. Quarterly Reviews of Biophysics, 28(2), 171–193.
-Bai, X.-C., McMullan, G., & Scheres, S. H. W. (2015). How cryo-EM is revolutionizing structural biology. Trends in Biochemical Sciences, 40(1), 49–57.
-Kühlbrandt, W. (2014). The resolution revolution. Science, 343(6178), 1443–1444.
-
-Dayhoff, M. O., & Eck, R. V. (1968). Atlas of protein sequence and structure. National Biomedical Research Foundation.
-Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic local alignment search tool. Journal of Molecular Biology, 215(3), 403–410.
-Henikoff, S., & Henikoff, J. G. (1992). Amino acid substitution matrices from protein blocks. Proceedings of the National Academy of Sciences, 89(22), 10915–10919.
-Bairoch, A. (2000). The ENZYME database in 2000. Nucleic Acids Research, 28(1), 304–305.
-Finn, R. D., et al. (2011). The Pfam protein families database. Nucleic Acids Research, 39, D211–D222.
-
-Bowie, J. U., Lüthy, R., & Eisenberg, D. (1991). A method to identify protein sequences that fold into a known three-dimensional structure. Science, 253(5016), 164–170.
-Jones, D. T. (1999). Protein secondary structure prediction based on position-specific scoring matrices. Journal of Molecular Biology, 292(2), 195–202.
-Simons, K. T., Kooperberg, C., Huang, E., & Baker, D. (1997). Assembly of protein tertiary structures from fragments with similar local sequences using simulated annealing and Bayesian scoring functions. Journal of Molecular Biology, 268(1), 209–225.
-AlQuraishi, M. (2019). AlphaFold at CASP13. Bioinformatics, 35(22), 4862–4865.
-Baek, M., et al. (2021). Accurate prediction of protein structures and interactions using a three-track neural network. Science, 373(6557), 871–876.
-Rives, A., et al. (2021). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 118(15), e2016239118.
-
-- Kuhlman, B., et al. (2003). Design of a novel globular protein fold with atomic-level accuracy. Science, 302(5649), 1364–1368.
-- Rocklin, G. J., et al. (2017). Global analysis of protein folding using massively parallel design, synthesis, and testing. Science, 357(6347), 168–175.
-- Anishchenko, I., et al. (2021). De novo protein design by deep network hallucination. Nature, 600, 547–552.
-- Dauparas, J., et al. (2022). Robust deep learning-based protein sequence design using ProteinMPNN. Science, 378(6615), 49–56.
-- Watson, J. L., et al. (2023). De novo design of protein structure and function with RFdiffusion. Nature, 620, 1089–1100.
-
-Rouelle, G.-F. (1773). Observations sur les parties constituantes du lait. (Original publication details require verification.)
-Fourcroy, A.-F. de, & Vauquelin, L.-N. (1791). Recherches sur la matière animale connue sous le nom de gélatine. (Publication details require verification.)
-Gay-Lussac, J.-L., & Thénard, L.-J. (1811). Recherches physico-chimiques. Deterville.
-Mulder, G. J. (1838). Sur la composition de quelques substances animales. (Original publication details require verification.)
-Mulder, G. J. (1839). Ueber die Zusammensetzung einiger thierischen Substanzen. Journal für praktische Chemie, 16, 129–152.
-Hünefeld, F. L. (1840). Der Chemismus in der thierischen Organisation. F. A. Brockhaus.
-
-
-
-Vickery, H. B., & Schmidt, C. L. A. (1931). The history of the discovery of the amino acids. Chemical Reviews, 9(2), 169–318. https://doi.org/10.1021/cr60034a001
-
-Baumann, E. (1884). Ueber Cystin und seine Beziehungen zu den Eiweisskörpern. Zeitschrift für Physiologische Chemie. [Original volume and pages require verification.]
-
-Bopp, F. (1849). Einiges über Albumin, Caseïn und Fibrin. Justus Liebigs Annalen der Chemie, 69(1), 16–37. https://doi.org/10.1002/jlac.18490690104
-
-Braconnot, H. (1820). Mémoire sur la conversion des matières animales en nouvelles substances par le moyen de l'acide sulfurique. Annales de Chimie et de Physique, 13, 113–125.
-
-Cramer, E. (1865). Untersuchungen über die Seide. [Original publication details require verification.]
-
-Drechsel, E. (1889). Zur Kenntniss der Spaltungsproducte des Caseins. [Original publication details require verification.]
-
-Hedin, S. G. (1895). Ueber das Arginin. [Original publication details require verification.]
-
-Kossel, A. (1896). Ueber die basischen Stoffe des Zellkerns. [Original publication details require verification.]
-
-Liebig, J. von. (1846). Untersuchungen über einige organische Substanzen. [Edition and publisher require verification.]
-
-Mörner, K. A. H. (1899). Untersuchungen über die Proteinstoffe der Hornsubstanz. [Original publication details require verification.]
-
-Proust, J.-L. (1819). Recherches sur les matières animales. [Original publication details require verification.]
-
-Ritthausen, H. (1866). Ueber das Gliadin, ein neues Proteïn aus dem Weizen. [Original publication details require verification.]
-
-Schützenberger, P. (1875). Recherches sur les matières albuminoïdes. Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences. [Volume and pages require verification.]
-
-Schulze, E., & Barbieri, J. (1881). Ueber das Vorkommen von Phenylamidopropionsäure unter den Zersetzungsprodukten der Eiweissstoffe. Berichte der Deutschen Chemischen Gesellschaft, 14, 1785–1791.
-
-Schulze, E., & Bosshard, E. (1883). Ueber das Vorkommen von Glutamin in den Pflanzen. [Original publication details require verification.]
-
-Strecker, A. (1850). Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper. Justus Liebigs Annalen der Chemie, 75(1), 27–45. https://doi.org/10.1002/jlac.18500750103
-
-Vauquelin, L.-N., & Robiquet, P.-J. (1806). La découverte d'un nouveau principe végétal dans le suc des asperges. Annales de Chimie, 57, 88–93.
-
-Weyl, T. (1888). Zur Kenntniss der Seide. Berichte der Deutschen Chemischen Gesellschaft, 21, 1407–1410.
-
-Braconnot, H. (1819–1820). Researches on the conversion of animal substances by sulfuric acid.
-
-Berzelius, J. J. (1838). Correspondence with G. J. Mulder introducing the name protein.
-
-
-Mulder, G. J. (1838–1839). Researches on the composition of animal substances.
-
-Beccari, J. B. (1728). Original investigations on the isolation of gluten from wheat.
-
-Rouelle, G.-F. (1742). Recherches sur les substances animales.
-
-Astbury, W. T., & Woods, H. J. (1930). The molecular weight of proteins. Nature, 126, 913–914.
-
-Astbury, W. T., & Street, A. (1931). X-ray studies of the structure of hair, wool, and related fibres. Philosophical Transactions of the Royal Society of London. Series A, 230, 75–101.
-
-Anson, M. L., & Mirsky, A. E. (1925). On some general properties of proteins. The Journal of General Physiology, 9(2), 169–179. https://doi.org/10.1085/jgp.9.2.169
-
-Anson, M. L., & Mirsky, A. E. (1930). Protein coagulation and its reversal: The preparation of insoluble globin, soluble globin and heme. The Journal of General Physiology, 13(4), 469–476. https://doi.org/10.1085/jgp.13.4.469
-
-Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Globin. The Journal of General Physiology, 14(5), 605–609. https://doi.org/10.1085/jgp.14.5.605
-
-Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Serum albumin. The Journal of General Physiology, 14(6), 725–732. https://doi.org/10.1085/jgp.14.6.725
-
-Anson, M. L., & Mirsky, A. E. (1932). The effect of denaturation on the viscosity of protein systems. The Journal of General Physiology, 15(3), 341–350. https://doi.org/10.1085/jgp.15.3.341
-
-Astbury, W. T., & Woods, H. J. (1931). The molecular weights of proteins. Nature, 127, 663–665. https://doi.org/10.1038/127663b0
-
-Strecker, A. (1850). Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper. Justus Liebigs Annalen der Chemie, 75(1), 27–45. https://doi.org/10.1002/jlac.18500750103
-
-Rimington, C. (1931). Protein structure and denaturation. Nature, 127, 440–441. https://doi.org/10.1038/127440b0
-
-Kendrew, J. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. Nature, 181, 662–666.
-
-Ingram, V. M. (1956). A specific chemical difference between the globins of normal human and sickle-cell anaemia haemoglobin. Nature, 178, 792–794.
-
-Towbin, H., Staehelin, T., & Gordon, J. (1979). Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: Procedure and some applications. Proceedings of the National Academy of Sciences, 76(9), 4350–4354. https://doi.org/10.1073/pnas.76.9.4350
-
-McCammon, J. A., Gelin, B. R., & Karplus, M. (1977). Dynamics of folded proteins. Nature, 267, 585–590. https://doi.org/10.1038/267585a0
-
-Dill, K. A. (1985). Theory for the folding and stability of globular proteins. Biochemistry, 24(6), 1501–1509. https://doi.org/10.1021/bi00327a032
-
-Anderson, N. L., & Anderson, N. G. (1998). Proteome and proteomics: New technologies, new concepts, and new words. Electrophoresis, 19(11), 1853–1861.
-
-Yates, J. R., III. (1998). Mass spectrometry and the age of the proteome. Journal of Mass Spectrometry, 33(1), 1–19.
-
-Gavin, A.-C., et al. (2006). Proteome survey reveals modularity of the yeast cell machinery. Nature, 440, 631–636.
-
-Marks, D. S., Colwell, L. J., Sheridan, R., Hopf, T. A., Pagnani, A., Zecchina, R., & Sander, C. (2011). Protein 3D structure computed from evolutionary sequence variation. PLoS ONE, 6(12), e28766. https://doi.org/10.1371/journal.pone.0028766
-
-Dill, K. A., & MacCallum, J. L. (2012). The protein-folding problem, 50 years on. Science, 338(6110), 1042–1046. https://doi.org/10.1126/science.1219021
-
-Ovchinnikov, S., Park, H., Varghese, N., Huang, P.-S., Pavlopoulos, G. A., Kim, D. E., Kamisetty, H., Kyrpides, N. C., & Baker, D. (2017). Protein structure determination using metagenome sequence data. Science, 355(6322), 294–298. https://doi.org/10.1126/science.aah4043
-
-Senior, A. W., Evans, R., Jumper, J., Kirkpatrick, J., Sifre, L., Green, T., Qin, C., Žídek, A., Nelson, A. W. R., Bridgland, A., Penedones, H., Petersen, S., Simonyan, K., Crossan, S., Kohli, P., Jones, D. T., Silver, D., Kavukcuoglu, K., & Hassabis, D. (2020). Improved protein structure prediction using potentials from deep learning. Nature, 577(7792), 706–710. https://doi.org/10.1038/s41586-019-1923-7
-
-Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., Costa, A. D. S., Fazel-Zarandi, M., Sercu, T., Candido, S., & Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 379(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
-
-- Beccari, J. B. (1745). De frumento. *De Bononiensi Scientiarum et Artium Instituto atque Academia Commentarii, 2*(1), 122–127.
 - Fourcroy, A.-F. de. (1789). *Élémens d'histoire naturelle et de chimie* (3rd ed., Vols. 1–5). Cuchet.
+- Fourcroy, A.-F. de. (1789). Sur l'existence de la matière albumineuse dans les végétaux. *Annales de Chimie, 3*, 352.
+
+**1790**
+
+- Fourcroy, A.-F. de, & Vauquelin, L.-N. (1791). Recherches sur la matière animale connue sous le nom de gélatine. [Unverified]
 - Fourcroy, A.-F. de. (1792). *Philosophie chimique, ou vérités fondamentales de la chimie moderne*. Cuchet.
+
+**1800**
+
 - Fourcroy, A.-F. de. (1801–1802). *Système des connaissances chimiques, et de leurs applications aux phénomènes de la nature et de l'art* (Vols. 1–11). Baudouin.
 - Vauquelin, L. N., & Robiquet, P. J. (1806). La découverte d'un nouveau principe végétal dans le suc des asperges. *Annales de Chimie, 57*, 88–93.
-- Wollaston, W. H. (1810). On cystic oxide, a new species of urinary calculus. *Philosophical Transactions of the Royal Society of London, 100*, 223–230.
+
+**1810**
+
 - Thénard, L.-J. (1810). On the combination of acids with animal and vegetable substances. *The Philosophical Magazine, 36*(150), 321–328.
+- Wollaston, W. H. (1810). On cystic oxide, a new species of urinary calculus. *Philosophical Transactions of the Royal Society of London, 100*, 223–230.
 - Gay-Lussac, J.-L., & Thénard, L.-J. (1811). *Recherches physico-chimiques*. Deterville.
-- Proust, J. L. (1819). [Investigation concerning leucine in fermented gluten]. [Bibliographic details to verify].
-- Braconnot, H. (1820). Sur la conversion des matières animales en nouvelles substances par le moyen de l'acide sulfurique. *Annales de Chimie et de Physique, 13*, 113–125.
+- Proust, J.-L. (1819). Recherches sur les matières animales. [Unverified]
+
+**1820**
+
+- Braconnot, H. (1820). Mémoire sur la conversion des matières animales en nouvelles substances par le moyen de l'acide sulfurique. *Annales de Chimie et de Physique, 13*, 113–125.
+
+**1830**
+
+- Berzelius, J. J. (1838). Correspondence with G. J. Mulder introducing the name protein.
+- Mulder, G. J. (1838). Sur la composition de quelques substances animales. [Unverified]
+- Mulder, G. J. (1838–1839). Researches on the composition of animal substances.
 - Mulder, G. J. (1839). Ueber die Zusammensetzung einiger thierischen Substanzen. *Journal für praktische Chemie, 16*, 129–152. https://doi.org/10.1002/prac.18390160137
+
+**1840**
+
 - Hünefeld, F. L. (1840). *Der Chemismus in der thierischen Organisation*. F. A. Brockhaus.
 - Liebig, J. (1842). *Animal chemistry, or organic chemistry in its application to physiology and pathology* (W. Gregory, Trans.). Taylor and Walton.
+- Liebig, J. von. (1846). Untersuchungen über einige organische Substanzen. [Unverified]
 - Liebig, J. (1847). *Researches on the chemistry of food*. Taylor and Walton.
-- Bopp, F. (1849). Untersuchungen über die eiweissartigen Substanzen. [Bibliographic details to verify].
-- Funke, O. (1851). [Investigations on the crystallization of blood pigment]. [Bibliographic details to verify].
+- Bopp, F. (1849). Einiges über Albumin, Caseïn und Fibrin. *Justus Liebigs Annalen der Chemie, 69*(1), 16–37. https://doi.org/10.1002/jlac.18490690104
+- Bopp, F. (1849). Untersuchungen über die eiweissartigen Substanzen. [Unverified]
+
+**1850**
+
+- Strecker, A. (1850). Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper. *Justus Liebigs Annalen der Chemie, 75*(1), 27–45. https://doi.org/10.1002/jlac.18500750103
+- Funke, O. (1851). [Investigations on the crystallization of blood pigment]. [Unverified]
+
+**1860**
+
 - Cramer, E. (1865). Ueber die Bestandtheile der Seide. *Journal für Praktische Chemie, 96*, 76–97.
+- Ritthausen, H. (1866). Ueber das Gliadin, ein neues Proteïn aus dem Weizen. [Unverified]
 - Ritthausen, H. (1866). Ueber die Glutaminsäure. *Journal für Praktische Chemie, 99*, 454–462.
 - Ritthausen, H. (1868). Ueber die Zersetzungs-Produkte des Legumins und des Proteinkörpers der Lupinen und Mandeln beim Kochen mit Schwefelsäure. *Journal für Praktische Chemie, 103*, 233–238.
-- Schützenberger, P. (1875). Sur les matières albuminoïdes. *Comptes rendus de l'Académie des Sciences*. [Pagination to verify].
+
+**1870**
+
+- Schützenberger, P. (1875). Sur les matières albuminoïdes. *Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences*. [Unverified: volume and pages]
+
+**1880**
+
 - Schulze, E., & Barbieri, J. (1881). Ueber das Vorkommen von Phenylamidopropionsäure unter den Zersetzungsprodukten der Eiweissstoffe. *Berichte der Deutschen Chemischen Gesellschaft, 14*, 1785–1791.
 - Kjeldahl, J. (1883). Neue Methode zur Bestimmung des Stickstoffs in organischen Körpern. *Zeitschrift für Analytische Chemie, 22*, 366–382.
-- Schulze, E., & Bosshard, E. (1883). Untersuchungen über das Vorkommen von Glutamin in den Pflanzen. [Bibliographic details to verify].
-- Baumann, E. (1884). Ueber Cystin und seine Beziehungen zu den Eiweisskörpern. [Bibliographic details to verify].
-- Schulze, E., & Steiger, E. (1886). [Investigations concerning arginine]. [Bibliographic details to verify].
+- Schulze, E., & Bosshard, E. (1883). Ueber das Vorkommen von Glutamin in den Pflanzen. [Unverified]
+- Baumann, E. (1884). Ueber Cystin und seine Beziehungen zu den Eiweisskörpern. *Zeitschrift für Physiologische Chemie* [Unverified]
+- Schulze, E., & Steiger, E. (1886). Ueber einen neuen stickstoffhaltigen Bestandtheil der Keimlinge von *Lupinus luteus*. *Berichte der Deutschen Chemischen Gesellschaft, 19*(1), 1177–1180. https://doi.org/10.1002/cber.188601901266
 - Hofmeister, F. (1888). Zur Lehre von der Wirkung der Salze. *Archiv für Experimentelle Pathologie und Pharmakologie, 24*, 247–260.
-- Weyl, T. (1888). Ueber die Bestandtheile der Seide. *Berichte der Deutschen Chemischen Gesellschaft*. [Pagination to verify].
-- Drechsel, E. (1889). Ueber das Lysin. [Bibliographic details to verify].
-- Drechsel, E. (1889). Untersuchungen über die Verdauung der Eiweisskörper. [Bibliographic details to verify].
-- Hedin, S. G. (1895). Ueber das Vorkommen von Arginin in Hornsubstanz. [Bibliographic details to verify].
-- Kossel, A. (1896). Untersuchungen über die Protamine und ihre Bestandteile. [Bibliographic details to verify].
+- Weyl, T. (1888). Ueber die Bestandtheile der Seide. *Berichte der Deutschen Chemischen Gesellschaft* [Unverified]
+- Weyl, T. (1888). Zur Kenntniss der Seide. *Berichte der Deutschen Chemischen Gesellschaft, 21*, 1407–1410.
+- Drechsel, E. (1889). Untersuchungen über die Verdauung der Eiweisskörper. [Unverified]
+- Drechsel, E. (1889). Zur Kenntniss der Spaltungsproducte des Caseins. *Journal für Praktische Chemie, 39*, 425–439. https://doi.org/10.1002/prac.18890390135
+
+**1890**
+
+- Hedin, S. G. (1895). Ueber ein neues Spaltungsproduct der Hornsubstanz. *Zeitschrift für Physiologische Chemie, 20*(1–2), 186–192. https://doi.org/10.1515/bchm1.1895.20.1-2.186
+- Kossel, A. (1896). Ueber die basischen Stoffe des Zellkerns. *Zeitschrift für Physiologische Chemie, 22*, 176–187.
 - Buchner, E. (1897). Alkoholische Gährung ohne Hefezellen. *Berichte der Deutschen Chemischen Gesellschaft, 30*, 117–124.
-- Mörner, K. A. H. (1899). Untersuchungen über die Proteinstoffe der Hornsubstanz. [Bibliographic details to verify].
-- Fischer, E. (1899). Synthese des Prolins. [Bibliographic details to verify].
-- Hopkins, F. G., & Cole, S. W. (1901). A contribution to the chemistry of proteids. Part II. A preliminary study of a hitherto undescribed product of tryptic digestion. *Journal of Physiology*.
+- Fischer, E. (1899). Synthese des Prolins. [Unverified]
+- Mörner, K. A. H. (1899). Cystin, ein Spaltungsprodukt der Hornsubstanz. *Hoppe-Seyler’s Zeitschrift für Physiologische Chemie, 28*(5–6), 595–615. https://doi.org/10.1515/bchm2.1899.28.5-6.595
+- Fischer, E. (1894). Einfluss der Configuration auf die Wirkung der Enzyme. *Berichte der Deutschen Chemischen Gesellschaft, 27*(3), 2985–2993. https://doi.org/10.1002/cber.18940270364
+
+**1900**
+
 - Fischer, E., & Fourneau, E. (1901). Ueber einige Derivate des Glykocolls. *Berichte der Deutschen Chemischen Gesellschaft, 34*, 2868–2877.
+- Hopkins, F. G., & Cole, S. W. (1901). A contribution to the chemistry of proteids. Part II. A preliminary study of a hitherto undescribed product of tryptic digestion. *Journal of Physiology*.
 - Fischer, E. (1902). Ueber einige Derivate des Glykocolls, Alanins und Leucins. *Berichte der Deutschen Chemischen Gesellschaft, 35*, 1095–1106.
+- Hofmeister, F. (1902). Über Bau und Gruppierung der Eiweisskörper. *Ergebnisse der Physiologie*.
+- Fischer, E., & Abderhalden, E. (1905). Synthese von Polypeptiden. [Unverified]
 - Fischer, E. (1906). Untersuchungen über Aminosäuren, Polypeptide und Proteïne. *Berichte der Deutschen Chemischen Gesellschaft, 39*(1), 530–610. https://doi.org/10.1002/cber.19060390190
 - Willcock, E. G., & Hopkins, F. G. (1906). The importance of individual amino-acids in metabolism: Observations on the effect of adding tryptophane to a dietary in which zein is the sole nitrogenous constituent. *The Journal of Physiology, 35*(1–2), 88–102. https://doi.org/10.1113/jphysiol.1906.sp001181
 - Osborne, T. B. (1909). *The vegetable proteins*. Longmans, Green.
+- Reichert, E. T., & Brown, A. P. (1909). *The differentiation and specificity of starches in relation to genera, species, etc.* Carnegie Institution of Washington.
+
+**1910**
+
+- Chick, H., & Martin, C. J. (1910). On the heat coagulation of proteins. *The Journal of Physiology*.
+- Chick, H., & Martin, C. J. (1911). On the heat coagulation of proteins. *The Journal of Physiology*.
+- Fischer, E., & Bergmann, M. (1913). Untersuchungen über die natürlichen und künstlichen Proteine. [Unverified]
 - Michaelis, L., & Menten, M. L. (1913). Die Kinetik der Invertinwirkung. *Biochemische Zeitschrift, 49*, 333–369.
-- Fischer, E., & Bergmann, M. (1913). Untersuchungen über die natürlichen und künstlichen Proteine. [Bibliographic details to verify].
+
+**1920**
+
 - Staudinger, H. (1920). Über Polymerisation. *Berichte der Deutschen Chemischen Gesellschaft, 53*, 1073–1085.
-- Willstätter, R., & Grassmann, W. (1924). Untersuchungen über die Enzyme. [Bibliographic details to verify].
-- Svedberg, T., & Fåhraeus, R. (1926). A new method for the determination of the molecular weight of the proteins. *Journal of the American Chemical Society, 48*(2), 430–438. https://doi.org/10.1021/ja01413a019
-- Abel, J. J. (1926). Crystalline insulin. *Journal of Pharmacology and Experimental Therapeutics*.
+- Willstätter, R., & Grassmann, W. (1924). Untersuchungen über die Enzyme. [Unverified]
+- Anson, M. L., & Mirsky, A. E. (1925). On some general properties of proteins. *The Journal of General Physiology, 9*(2), 169–179. https://doi.org/10.1085/jgp.9.2.169
+- Abel, J. J. (1926). Crystalline insulin. Journal of Pharmacology and Experimental Therapeutics.
 - Sumner, J. B. (1926). The isolation and crystallization of the enzyme urease. *Journal of Biological Chemistry*.
+- Svedberg, T. (1926). A new method for the determination of the molecular weight of the proteins. *Journal of the American Chemical Society, 48*(2), 430–438.
+- Svedberg, T., & Fåhraeus, R. (1926). A new method for the determination of the molecular weight of the proteins. *Journal of the American Chemical Society, 48*(2), 430–438. https://doi.org/10.1021/ja01413a019
 - Svedberg, T. (1929). Mass and size of protein molecules. *Nature, 123*, 871. https://doi.org/10.1038/123871a0
+
+**1930**
+
+- Anson, M. L., & Mirsky, A. E. (1930). Protein coagulation and its reversal: The preparation of insoluble globin, soluble globin and heme. *The Journal of General Physiology, 13*(4), 469–476. https://doi.org/10.1085/jgp.13.4.469
+- Astbury, W. T., & Woods, H. J. (1930). The molecular weight of proteins. *Nature, 126*, 913–914.
 - Northrop, J. H. (1930). Crystallization of pepsin. *Science*.
 - Svedberg, T., Carpenter, L. M., & Carpenter, D. C. (1930). The molecular weight of casein. I. *Journal of the American Chemical Society, 52*, 241–252. https://doi.org/10.1021/ja01364a036
-- Anson, M. L., & Mirsky, A. E. (1932). The estimation of pepsin with hemoglobin. *Journal of General Physiology*.
+- Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Globin. *The Journal of General Physiology, 14*(5), 605–609. https://doi.org/10.1085/jgp.14.5.605
+- Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Serum albumin. *The Journal of General Physiology, 14*(6), 725–732. https://doi.org/10.1085/jgp.14.6.725
+- Astbury, W. T., & Street, A. (1931). X-ray studies of the structure of hair, wool, and related fibres. *Philosophical Transactions of the Royal Society of London. Series A, 230*, 75–101.
+- Astbury, W. T., & Woods, H. J. (1931). The molecular weights of proteins. *Nature, 127*, 663–665. https://doi.org/10.1038/127663b0
+- Rimington, C. (1931). Protein structure and denaturation. *Nature, 127*, 440–441. https://doi.org/10.1038/127440b0
 - Svedberg, T. (1931). Molecular weights of the proteins in their native state. *Nature, 128*, 999–1000. https://doi.org/10.1038/128999b0
+- Vickery, H. B., & Schmidt, C. L. A. (1931). The history of the discovery of the amino acids. *Chemical Reviews, 9*(2), 169–318. https://doi.org/10.1021/cr60034a001
+- Wu, H. (1931). Studies on denaturation of proteins. XIII. A theory of denaturation. *Chinese Journal of Physiology*.
+- Anson, M. L., & Mirsky, A. E. (1932). The effect of denaturation on the viscosity of protein systems. *The Journal of General Physiology, 15*(3), 341–350. https://doi.org/10.1085/jgp.15.3.341
+- Anson, M. L., & Mirsky, A. E. (1932). The estimation of pepsin with hemoglobin. *Journal of General Physiology*.
+- Astbury, W. T. (1933). Some problems in the X-ray analysis of the structure of protein molecules. *Transactions of the Faraday Society*.
 - Astbury, W. T., & Atkin, W. R. (1933). X-ray interpretation of the molecular structure of gelatine. *Nature, 132*, 348. https://doi.org/10.1038/132348a0
 - Bernal, J. D., & Crowfoot, D. (1934). X-ray photographs of crystalline pepsin. *Nature, 133*, 794–795.
+- Staudinger, H. (1935). Über hochpolymere Verbindungen. *Berichte der Deutschen Chemischen Gesellschaft*.
 - Astbury, W. T. (1936). X-ray studies of protein structure. *Nature, 137*, 803–805. https://doi.org/10.1038/137803a0
 - Mirsky, A. E., & Pauling, L. (1936). On the structure of native, denatured, and coagulated proteins. *Proceedings of the National Academy of Sciences, 22*(7), 439–447.
+- Rimington, C. (1936). The chemistry of the proteins and amino acids. *Annual Review of Biochemistry, 5*, 117–158.
+- Bergmann, M., & Niemann, C. (1937). The mechanism of enzyme action. *Science, 86*, 187–188.
+- Tiselius, A. (1937). A new apparatus for electrophoretic analysis of colloidal mixtures. *Transactions of the Faraday Society, 33*, 524–531.
+
+**1940**
+
 - Astbury, W. T., & Bell, F. O. (1940). Molecular structure of the collagen fibres. *Nature, 145*, 421–422. https://doi.org/10.1038/145421a0
-- Beadle, G. W., & Tatum, E. L. (1941). Genetic control of biochemical reactions in *Neurospora*. *Proceedings of the National Academy of Sciences, 27*(11), 499–506.
-- Avery, O. T., MacLeod, C. M., & McCarty, M. (1944). Studies on the chemical nature of the substance inducing transformation of pneumococcal types. *Journal of Experimental Medicine, 79*(2), 137–158.
+- Beadle, G. W., & Tatum, E. L. (1941). Genetic control of biochemical reactions in Neurospora. *Proceedings of the National Academy of Sciences, 27*(11), 499–506.
+- Martin, A. J. P., & Synge, R. L. M. (1941). A new form of chromatogram employing two liquid phases. *Biochemical Journal, 35*, 1358–1368.
+- Cohn, E. J., & Edsall, J. T. (1943). *Proteins, amino acids and peptides as ions and dipolar ions*. Reinhold Publishing.
+- Avery, O. T., MacLeod, C. M., & McCarty, M. (1944). Studies on the chemical nature of the substance inducing transformation of pneumococcal types. Journal of Experimental Medicine, 79(2), 137–158.
 - Sanger, F. (1945). The free amino groups of insulin. *Biochemical Journal, 39*, 507–515.
-- Astbury, W. T. (1947). X-ray studies of the structure of hair, wool, and related fibres. [Bibliographic details to verify].
+- Astbury, W. T. (1947). X-ray studies of the structure of hair, wool, and related fibres. [Unverified]
+- Northrop, J. H., Kunitz, M., & Herriott, R. M. (1948). *Crystalline enzymes*. Columbia University Press.
 - Porter, R. R., & Sanger, F. (1948). The free amino groups of insulin. *Biochemical Journal, 42*(2), 287–294.
 - Sanger, F. (1948). Some peptides from insulin. *Nature, 162*, 491–492.
-- Northrop, J. H., Kunitz, M., & Herriott, R. M. (1948). *Crystalline enzymes*. Columbia University Press.
-- Sanger, F. (1949). Fractionation of oxidized insulin. *Biochemical Journal, 44*(1), 126–128.
+- Pauling, L. (1948). Nature of forces between large molecules of biological interest. *Nature, 161*(4097), 707–709. https://doi.org/10.1038/161707a0
 - Edman, P. (1949). A method for the determination of amino acid sequence in peptides. *Archives of Biochemistry, 22*, 475.
-- Stein, W. H., & Moore, S. (1950). Chromatographic determination of the amino acid composition of proteins. *Cold Spring Harbor Symposia on Quantitative Biology, 14*, 179–190.
+- Sanger, F. (1949). Fractionation of oxidized insulin. *Biochemical Journal, 44*(1), 126–128.
+
+**1950**
+
 - Edman, P. (1950). Method for determination of the amino acid sequence in peptides. *Acta Chemica Scandinavica, 4*, 283–293.
+- Stein, W. H., & Moore, S. (1950). Chromatographic determination of the amino acid composition of proteins. *Cold Spring Harbor Symposia on Quantitative Biology, 14*, 179–190.
+- Vickery, H. B. (1950). The origin of the word protein. *Yale Journal of Biology and Medicine, 22*(5), 387–393.
 - Bamford, C. H., & Hanby, W. E. (1951). Structure of synthetic polypeptides and proteins. *Nature, 168*, 340–341. https://doi.org/10.1038/168340b0
+- Hartley, H. (1951). Origin of the word ‘protein’. *Nature, 168*(4267), 244. https://doi.org/10.1038/168244a0
+- Lowry, O. H., Rosebrough, N. J., Farr, A. L., & Randall, R. J. (1951). Protein measurement with the Folin phenol reagent. *Journal of Biological Chemistry, 193*, 265–275.
 - Moore, S., & Stein, W. H. (1951). Chromatography of amino acids on sulfonated polystyrene resins. *Journal of Biological Chemistry*.
-- Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: Two hydrogen-bonded helical configurations of the polypeptide chain. *Proceedings of the National Academy of Sciences, 37*(4), 205–211. https://doi.org/10.1073/pnas.37.4.205
 - Pauling, L., & Corey, R. B. (1951). Atomic coordinates and structure factors for two helical configurations of polypeptide chains. *Proceedings of the National Academy of Sciences, 37*(5), 235–240. https://doi.org/10.1073/pnas.37.5.235
 - Pauling, L., & Corey, R. B. (1951). The pleated sheet, a new layer configuration of polypeptide chains. *Proceedings of the National Academy of Sciences, 37*(5), 251–256. https://doi.org/10.1073/pnas.37.5.251
-- Pauling, L., & Corey, R. B. (1951). The structure of hair, muscle, and related proteins. *Proceedings of the National Academy of Sciences, 37*(5), 261–271. https://doi.org/10.1073/pnas.37.5.261
 - Pauling, L., & Corey, R. B. (1951). The structure of fibrous proteins of the collagen-gelatin group. *Proceedings of the National Academy of Sciences, 37*(5), 272–281. https://doi.org/10.1073/pnas.37.5.272
+- Pauling, L., & Corey, R. B. (1951). The structure of hair, muscle, and related proteins. *Proceedings of the National Academy of Sciences, 37*(5), 261–271. https://doi.org/10.1073/pnas.37.5.261
+- Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: Two hydrogen-bonded helical configurations of the polypeptide chain. *Proceedings of the National Academy of Sciences, 37*(4), 205–211. https://doi.org/10.1073/pnas.37.4.205
 - Sanger, F., & Tuppy, H. (1951). The amino-acid sequence in the phenylalanyl chain of insulin. I. The identification of lower peptides from partial hydrolysates. *Biochemical Journal, 49*(4), 463–481. https://doi.org/10.1042/bj0490463
-- Sanger, F., & Tuppy, H. (1951). The amino-acid sequence in the phenylalanyl chain of insulin. II. The investigation of peptides from enzymic hydrolysates. *Biochemical Journal, 49*(4), 481–490. https://doi.org/10.1042/bj0490481
-- Bragg, W. L., & Perutz, M. F. (1952). The structure of haemoglobin. *Proceedings of the Royal Society A*. [Bibliographic details to verify].
-- du Vigneaud, V., Ressler, C., & Trippett, S. (1953). The sequence of amino acids in oxytocin, with a proposal for the structure of oxytocin. *Journal of Biological Chemistry*. [Pagination to verify].
+- Bragg, W. L., & Perutz, M. F. (1952). The structure of haemoglobin. *Proceedings of the Royal Society A*. [Unverified]
+- du Vigneaud, V., Ressler, C., & Trippett, S. (1953). The sequence of amino acids in oxytocin, with a proposal for the structure of oxytocin. *Journal of Biological Chemistry* [Unverified]
+- Neurath, H., & Bailey, K. (1953). *The proteins: Chemistry, biological activity, and methods* (Vols. 1–2). Academic Press.
+- Pauling, L., & Corey, R. B. (1953). Compound helical configurations of polypeptide chains: Structure of proteins of the alpha-keratin type. *Nature, 171*, 59–61.
 - Sanger, F., & Thompson, E. O. P. (1953). The amino-acid sequence in the glycyl chain of insulin. I. The identification of lower peptides from partial hydrolysates. *Biochemical Journal, 53*(3), 353–366. https://doi.org/10.1042/bj0530353
-- Sanger, F., & Thompson, E. O. P. (1953). The amino-acid sequence in the glycyl chain of insulin. II. The investigation of peptides from enzymic hydrolysates. *Biochemical Journal, 53*(3), 366–374. https://doi.org/10.1042/bj0530366
-- Kendrew, J. C. (1954). The structure of myoglobin. [Bibliographic details to verify].
-- Zamecnik, P. C., & Keller, E. B. (1954). Relation between phosphate energy donors and incorporation of labeled amino acids into proteins. *Journal of Biological Chemistry, 209*(1), 337–354.
 - Keller, E. B., Zamecnik, P. C., & Loftfield, R. B. (1954). The role of microsomes in the incorporation of amino acids into proteins. *Journal of Histochemistry & Cytochemistry, 2*(5), 378–386. https://doi.org/10.1177/2.5.378
-- Smithies, O. (1955). Zone electrophoresis in starch gels: Group variations in the serum proteins of normal human adults. *Biochemical Journal, 61*, 629–641.
-- Anfinsen, C. B. (1955). Studies on the reduction and re-formation of protein disulfide bonds. *Biochimica et Biophysica Acta*. [Bibliographic details to verify].
+- Kendrew, J. C. (1954). The structure of myoglobin. [Unverified]
+- Zamecnik, P. C., & Keller, E. B. (1954). Relation between phosphate energy donors and incorporation of labeled amino acids into proteins. *Journal of Biological Chemistry, 209*(1), 337–354.
+- Anfinsen, C. B. (1955). Studies on the reduction and re-formation of protein disulfide bonds. *Biochimica et Biophysica Acta*. [Unverified]
+- Hoagland, M. B. (1955). Further evidence for the participation of an RNA intermediate in protein synthesis. *Biochimica et Biophysica Acta, 16*, 288–289.
 - Ryle, A. P., Sanger, F., Smith, L. F., & Kitai, R. (1955). The disulphide bonds of insulin. *Biochemical Journal, 60*(4), 541–556. https://doi.org/10.1042/bj0600541
-- Hoagland, M. B., Keller, E. B., & Zamecnik, P. C. (1956). Enzymatic carboxyl activation of amino acids. *Journal of Biological Chemistry*. [Pagination to verify].
+- Smithies, O. (1955). Zone electrophoresis in starch gels: Group variations in the serum proteins of normal human adults. *Biochemical Journal, 61*, 629–641.
+- Hoagland, M. B., Keller, E. B., & Zamecnik, P. C. (1956). Enzymatic carboxyl activation of amino acids. *Journal of Biological Chemistry* [Unverified]
+- Ingram, V. M. (1956). A specific chemical difference between the globins of normal human and sickle-cell anaemia haemoglobin. *Nature, 178*, 792–794.
+- Crick, F. H. C. (1958). On protein synthesis. *Symposia of the Society for Experimental Biology, 12*, 138–163.
+- Kendrew, J. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. *Nature, 181*, 662–666.
+- Kendrew, J. C., Bodo, G., Dintzis, H. M., Parrish, R. G., Wyckoff, H., & Phillips, D. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. *Nature, 181*, 662–666.
+- Koshland, D. E., Jr. (1958). Application of a theory of enzyme specificity to protein synthesis. *Proceedings of the National Academy of Sciences, 44*(2), 98–104. https://doi.org/10.1073/pnas.44.2.98
 - Moore, S., Spackman, D. H., & Stein, W. H. (1958). Chromatography of amino acids on sulfonated polystyrene resins: An improved system. *Analytical Chemistry, 30*(7), 1185–1190.
 - Spackman, D. H., Stein, W. H., & Moore, S. (1958). Automatic recording apparatus for use in the chromatography of amino acids. *Analytical Chemistry, 30*(7), 1190–1206.
-- Crick, F. H. C. (1958). On protein synthesis. *Symposia of the Society for Experimental Biology, 12*, 138–163.
-- Koshland, D. E., Jr. (1958). Application of a theory of enzyme specificity to protein synthesis. *Proceedings of the National Academy of Sciences, 44*(2), 98–104. https://doi.org/10.1073/pnas.44.2.98
+- Kauzmann, W. (1959). Some factors in the interpretation of protein denaturation. *Advances in Protein Chemistry, 14*, 1–63.
 - Porath, J., & Flodin, P. (1959). Gel filtration: A method for desalting and group separation. *Nature, 183*, 1657–1659.
-- Kendrew, J. C., Bodo, G., Dintzis, H. M., Parrish, R. G., Wyckoff, H., & Phillips, D. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. *Nature, 181*, 662–666.
-- Perutz, M. F., et al. (1960). Structure of hæmoglobin: A three-dimensional Fourier synthesis at 5.5-Å resolution, obtained by X-ray analysis. *Nature, 185*, 416–422.
+
+**1960**
+
 - Kendrew, J. C., et al. (1960). Structure of myoglobin: A three-dimensional Fourier synthesis at 2 Å resolution. *Nature, 185*, 422–427.
+- Perutz, M. F., et al. (1960). Structure of hæmoglobin: A three-dimensional Fourier synthesis at 5.5-Å resolution, obtained by X-ray analysis. *Nature, 185*, 416–422.
+- Anfinsen, C. B. (1961). The molecular basis of evolution. *American Scientist, 49*, 457–472.
+- Anfinsen, C. B., & Haber, E. (1961). Studies on the reduction and re-formation of protein disulfide bonds. *Journal of Biological Chemistry, 236*, 1361–1363.
 - Anfinsen, C. B., Haber, E., Sela, M., & White, F. H., Jr. (1961). The kinetics of formation of native ribonuclease during oxidation of the reduced polypeptide chain. *Proceedings of the National Academy of Sciences, 47*(9), 1309–1314.
-- Nirenberg, M. W., & Matthaei, J. H. (1961). The dependence of cell-free protein synthesis in *E. coli* upon naturally occurring or synthetic polyribonucleotides. *Proceedings of the National Academy of Sciences, 47*(10), 1588–1602.
 - Crick, F. H. C., Barnett, L., Brenner, S., & Watts-Tobin, R. J. (1961). General nature of the genetic code for proteins. *Nature, 192*, 1227–1232.
+- Greenstein, J. P., & Winitz, M. (1961). *Chemistry of the amino acids* (Vols. 1–3). John Wiley & Sons.
+- Nirenberg, M. W., & Matthaei, J. H. (1961). The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides. *Proceedings of the National Academy of Sciences, 47*(10), 1588–1602.
+- Tanford, C. (1961). *Physical chemistry of macromolecules*. John Wiley & Sons.
 - Perutz, M. F. (1962). Relation between structure and sequence of hæmoglobin. *Nature, 194*, 914–917.
 - Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. *Journal of the American Chemical Society, 85*(14), 2149–2154. https://doi.org/10.1021/ja00897a025
 - Monod, J., Changeux, J.-P., & Jacob, F. (1963). Allosteric proteins and cellular control systems. *Journal of Molecular Biology, 6*, 306–329.
+- Brandts, J. F. (1964). The thermodynamics of protein denaturation. I. The denaturation of chymotrypsinogen. *Journal of the American Chemical Society, 86*, 4291–4301.
+- Dixon, M., & Webb, E. C. (1964). *Enzymes* (2nd ed.). Longmans.
 - Nirenberg, M., & Leder, P. (1964). RNA codewords and protein synthesis. The effect of trinucleotides upon the binding of sRNA to ribosomes. *Science, 145*(3639), 1399–1407. https://doi.org/10.1126/science.145.3639.1399
 - Holley, R. W., Apgar, J., Everett, G. A., Madison, J. T., Marquisee, M., Merrill, S. H., Penswick, J. R., & Zamir, A. (1965). Structure of a ribonucleic acid. *Science, 147*(3664), 1462–1465. https://doi.org/10.1126/science.147.3664.1462
-- Zuckerkandl, E., & Pauling, L. (1965). Evolutionary divergence and convergence in proteins. In *Evolving genes and proteins* (pp. 97–166). Academic Press.
 - Monod, J., Wyman, J., & Changeux, J.-P. (1965). On the nature of allosteric transitions: A plausible model. *Journal of Molecular Biology, 12*(1), 88–118. https://doi.org/10.1016/S0022-2836(65)80285-6
+- Zuckerkandl, E., & Pauling, L. (1965). Evolutionary divergence and convergence in proteins. In *Evolving genes and proteins* (pp. 97–166). Academic Press.
 - Koshland, D. E., Némethy, G., & Filmer, D. (1966). Comparison of experimental binding data and theoretical models in proteins containing subunits. *Biochemistry, 5*, 365–385.
 - Phillips, D. C. (1967). The hen egg-white lysozyme molecule. *Proceedings of the National Academy of Sciences, 57*, 484–495.
+- Dayhoff, M. O., & Eck, R. V. (1968). *Atlas of protein sequence and structure*. National Biomedical Research Foundation.
+- Tanford, C. (1968). Protein denaturation. *Advances in Protein Chemistry, 23*, 121–282.
 - Levinthal, C. (1969). How to fold graciously. In *Mössbauer spectroscopy in biological systems*.
+
+**1970**
+
 - Laemmli, U. K. (1970). Cleavage of structural proteins during the assembly of the head of bacteriophage T4. *Nature, 227*, 680–685.
+- Fitch, W. M. (1970). Distinguishing homologous from analogous proteins. *Systematic Zoology, 19*(2), 99–113. https://doi.org/10.2307/2412448
+- Perutz, M. F. (1970). Stereochemistry of cooperative effects in haemoglobin: Haem–haem interaction and the problem of allostery. *Nature, 228*(5273), 726–734. https://doi.org/10.1038/228726a0
+- Blobel, G., & Sabatini, D. D. (1971). Ribosome-membrane interaction in eukaryotic cells. *Biomembranes, 2*, 193–195.
 - Singer, S. J., & Nicolson, G. L. (1972). The fluid mosaic model of the structure of cell membranes. *Science, 175*(4023), 720–731.
 - Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. *Science, 181*(4096), 223–230.
 - Cohen, S. N., Chang, A. C. Y., Boyer, H. W., & Helling, R. B. (1973). Construction of biologically functional bacterial plasmids in vitro. *Proceedings of the National Academy of Sciences, 70*(11), 3240–3244. https://doi.org/10.1073/pnas.70.11.3240
+- Wetlaufer, D. B. (1973). Nucleation, rapid folding, and globular intrachain regions in proteins. *Proceedings of the National Academy of Sciences, 70*(3), 697–701.
 - Blobel, G., & Dobberstein, B. (1975). Transfer of proteins across membranes. I. Presence of proteolytically processed and unprocessed nascent immunoglobulin light chains on membrane-bound ribosomes of murine myeloma. *The Journal of Cell Biology, 67*(3), 835–851. https://doi.org/10.1083/jcb.67.3.835
-- Blobel, G., & Dobberstein, B. (1975). Transfer of proteins across membranes. II. Reconstitution of functional rough microsomes from heterologous components. *The Journal of Cell Biology, 67*(3), 852–862. https://doi.org/10.1083/jcb.67.3.852
-- O'Farrell, P. H. (1975). High resolution two-dimensional electrophoresis of proteins. *The Journal of Biological Chemistry, 250*(10), 4007–4021.
+- Henderson, R., & Unwin, P. N. T. (1975). Three-dimensional model of purple membrane obtained by electron microscopy. *Nature, 257*, 28–32.
+- Köhler, G., & Milstein, C. (1975). Continuous cultures of fused cells secreting antibody of predefined specificity. *Nature, 256*(5517), 495–497. https://doi.org/10.1038/256495a0
+- O'Farrell, P. H. (1975). High resolution two-dimensional electrophoresis of proteins. The *Journal of Biological Chemistry, 250*(10), 4007–4021.
+- Bradford, M. M. (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. *Analytical Biochemistry, 72*, 248–254.
+- Karplus, M., & Weaver, D. L. (1976). Protein-folding dynamics. *Nature, 260*, 404–406.
+- McCammon, J. A., Gelin, B. R., & Karplus, M. (1977). Dynamics of folded proteins. *Nature, 267*, 585–590. https://doi.org/10.1038/267585a0
 - Dayhoff, M. O., Schwartz, R. M., & Orcutt, B. C. (1978). A model of evolutionary change in proteins. In *Atlas of protein sequence and structure* (Vol. 5, Suppl. 3, pp. 345–352).
+- Goeddel, D. V., Kleid, D. G., Bolivar, F., Heyneker, H. L., Yansura, D. G., Crea, R., Hirose, T., Kraszewski, A., Itakura, K., & Riggs, A. D. (1979). Expression in Escherichia coli of chemically synthesized genes for human insulin. *Proceedings of the National Academy of Sciences, 76*(1), 106–110. https://doi.org/10.1073/pnas.76.1.106
+- Schulz, G. E., & Schirmer, R. H. (1979). *Principles of protein structure*. Springer-Verlag.
+- Towbin, H., Staehelin, T., & Gordon, J. (1979). Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: Procedure and some applications. *Proceedings of the National Academy of Sciences, 76*(9), 4350–4354. https://doi.org/10.1073/pnas.76.9.4350
+
+**1980**
+
+- Cantor, C. R., & Schimmel, P. R. (1980). *Biophysical chemistry: Techniques for the study of biological structure and function* (Vol. 2). W. H. Freeman.
+- Cantor, C. R., & Schimmel, P. R. (1980). *Biophysical chemistry: The behavior of biological macromolecules* (Vol. 3). W. H. Freeman.
+- Cantor, C. R., & Schimmel, P. R. (1980). *Biophysical chemistry: The conformation of biological macromolecules* (Vol. 1). W. H. Freeman.
 - Ciechanover, A., Elias, S., Heller, H., & Hershko, A. (1980). Covalent affinity of ubiquitin to specific nuclear histone proteins. *Journal of Biological Chemistry, 255*, 7525–7528.
+- Tanford, C. (1980). *The hydrophobic effect: Formation of micelles and biological membranes* (2nd ed.). John Wiley & Sons.
 - Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. *Advances in Protein Chemistry, 34*, 167–339.
 - Prusiner, S. B. (1982). Novel proteinaceous infectious particles cause scrapie. *Science, 216*(4542), 136–144.
-- Houghten, R. A. (1985). General method for the rapid solid-phase synthesis of large numbers of peptides: Specificity of antigen-antibody interaction at the level of individual amino acids. *Proceedings of the National Academy of Sciences, 82*(15), 5131–5135. https://doi.org/10.1073/pnas.82.15.5131
-- Deisenhofer, J., et al. (1985). Structure of the protein subunits in the photosynthetic reaction centre of *Rhodopseudomonas viridis* at 3 Å resolution. *Nature, 318*, 618–624.
+- Scopes, R. K. (1982). *Protein purification: Principles and practice*. Springer-Verlag.
+- Brooks, B. R., Bruccoleri, R. E., Olafson, B. D., States, D. J., Swaminathan, S., & Karplus, M. (1983). CHARMM: A program for macromolecular energy, minimization, and dynamics calculations. *Journal of Computational Chemistry, 4*(2), 187–217. https://doi.org/10.1002/jcc.540040211
+- Kalderon, D., Roberts, B. L., Richardson, W. D., & Smith, A. E. (1984). A short amino acid sequence able to specify nuclear location. *Cell, 39*(3), 499–509. https://doi.org/10.1016/0092-8674(84)90457-4
+- Deisenhofer, J., Epp, O., Miki, K., Huber, R., & Michel, H. (1985). Structure of the protein subunits in the photosynthetic reaction centre of Rhodopseudomonas viridis at 3 Å resolution. *Nature, 318*, 618–624.
+- Deisenhofer, J., et al. (1985). Structure of the protein subunits in the photosynthetic reaction centre of Rhodopseudomonas viridis at 3 Å resolution. *Nature, 318*, 618–624.
+- Dill, K. A. (1985). Theory for the folding and stability of globular proteins. *Biochemistry, 24*(6), 1501–1509. https://doi.org/10.1021/bi00327a032
 - Harrison, S. C., & Durbin, R. (1985). Is there a single pathway for the folding of a polypeptide chain? *Proceedings of the National Academy of Sciences, 82*, 4028–4030.
+- Houghten, R. A. (1985). General method for the rapid solid-phase synthesis of large numbers of peptides: Specificity of antigen-antibody interaction at the level of individual amino acids. *Proceedings of the National Academy of Sciences, 82*(15), 5131–5135. https://doi.org/10.1073/pnas.82.15.5131
+- Kunkel, T. A. (1985). Rapid and efficient site-specific mutagenesis without phenotypic selection. *Proceedings of the National Academy of Sciences, 82*(2), 488–492. https://doi.org/10.1073/pnas.82.2.488
+- Smith, G. P. (1985). Filamentous fusion phage: Novel expression vectors that display cloned antigens on the virion surface. *Science, 228*(4705), 1315–1317. https://doi.org/10.1126/science.4001944
+- Smith, M. (1985). In vitro mutagenesis. *Annual Review of Genetics, 19*, 423–462.
+- Henderson, R., Baldwin, J. M., Downing, K. H., Lepault, J., & Zemlin, F. (1986). Structure of purple membrane from Halobacterium halobium: Recording, measurement and evaluation of electron micrographs at 3.5 Å resolution. *Ultramicroscopy, 19*, 147–178.
 - Wüthrich, K. (1986). *NMR of proteins and nucleic acids*. Wiley.
-- Henderson, R., Baldwin, J. M., Downing, K. H., Lepault, J., & Zemlin, F. (1986). Structure of purple membrane from *Halobacterium halobium*: Recording, measurement and evaluation of electron micrographs at 3.5 Å resolution. *Ultramicroscopy, 19*, 147–178.
+- Bryngelson, J. D., & Wolynes, P. G. (1987). Spin glasses and the statistical mechanics of protein folding. *Proceedings of the National Academy of Sciences, 84*(21), 7524–7528. https://doi.org/10.1073/pnas.84.21.7524
+- McCammon, J. A., & Harvey, S. C. (1987). *Dynamics of proteins and nucleic acids*. Cambridge University Press.
+- Hemmingsen, S. M., Woolford, C., van der Vies, S. M., Tilly, K., Dennis, D. T., Georgopoulos, C. P., Hendrix, R. W., & Ellis, R. J. (1988). Homologous plant and bacterial proteins chaperone oligomeric protein assembly. *Nature, 333*(6171), 330–334. https://doi.org/10.1038/333330a0
 - Karas, M., & Hillenkamp, F. (1988). Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. *Analytical Chemistry, 60*(20), 2299–2301.
+- Yarus, M. (1988). A specific amino acid binding site composed of RNA. *Science, 240*, 1751–1758.
 - Fenn, J. B., Mann, M., Meng, C. K., Wong, S. F., & Whitehouse, C. M. (1989). Electrospray ionization for mass spectrometry of large biomolecules. *Science, 246*(4926), 64–71.
 - Fields, S., & Song, O. (1989). A novel genetic system to detect protein–protein interactions. *Nature, 340*, 245–246.
+- Goloubinoff, P., Christeller, J. T., Gatenby, A. A., & Lorimer, G. H. (1989). Reconstitution of active dimeric ribulose bisphosphate carboxylase from an unfolded state depends on two chaperonin proteins and Mg-ATP. *Nature, 342*(6252), 884–889. https://doi.org/10.1038/342884a0
+- Vesterberg, O. (1989). History of electrophoretic methods. *Journal of Chromatography, 480*, 3–19.
+
+**1990**
+
 - Altschul, S. F., et al. (1990). Basic local alignment search tool. *Journal of Molecular Biology, 215*, 403–410.
+- Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic local alignment search tool. *Journal of Molecular Biology, 215*(3), 403–410.
+- Frank, J. (1990). Classification of macromolecular assemblies studied as 'single particles'. *Quarterly Reviews of Biophysics, 23*(3), 281–329.
+- Wells, J. A. (1990). Additivity of mutational effects in proteins. *Biochemistry, 29*, 8509–8517.
+- Bowie, J. U., Lüthy, R., & Eisenberg, D. (1991). A method to identify protein sequences that fold into a known three-dimensional structure. *Science, 253*(5016), 164–170.
 - Chait, B. T., & Kent, S. B. H. (1992). Weighing naked proteins: Practical, high-accuracy mass measurement of peptides and proteins. *Science, 257*, 1885–1894.
-- Henzel, W. J., et al. (1993). Identifying proteins from two-dimensional gels by molecular mass searching of peptide fragments in protein sequence databases. *Proceedings of the National Academy of Sciences*. [Bibliographic details to verify].
+- Henikoff, S., & Henikoff, J. G. (1992). Amino acid substitution matrices from protein blocks. *Proceedings of the National Academy of Sciences, 89*(22), 10915–10919.
+- Creighton, T. E. (1993). *Proteins: Structures and molecular properties* (2nd ed.). W. H. Freeman.
+- Henzel, W. J., et al. (1993). Identifying proteins from two-dimensional gels by molecular mass searching of peptide fragments in protein sequence databases. *Proceedings of the National Academy of Sciences*. [Unverified]
+- Jarrett, J. T., & Lansbury, P. T., Jr. (1993). Seeding "one-dimensional crystallization" of amyloid: A pathogenic mechanism in Alzheimer's disease and scrapie? *Cell, 73*(6), 1055–1058.
 - Pan, K.-M., et al. (1993). Conversion of alpha-helices into beta-sheets features in the formation of the scrapie prion proteins. *Proceedings of the National Academy of Sciences, 90*(23), 10962–10966.
+- Söllner, T., Whiteheart, S. W., Brunner, M., Erdjument-Bromage, H., Geromanos, S., Tempst, P., & Rothman, J. E. (1993). SNAP receptors implicated in vesicle targeting and fusion. *Nature, 362*(6418), 318–324. https://doi.org/10.1038/362318a0
+- Huntington's Disease Collaborative Research Group. (1993). A novel gene containing a trinucleotide repeat that is expanded and unstable on Huntington's disease chromosomes. *Cell, 72*(6), 971–983. https://doi.org/10.1016/0092-8674(93)90585-E
+- Chalfie, M., Tu, Y., Euskirchen, G., Ward, W. W., & Prasher, D. C. (1994). Green fluorescent protein as a marker for gene expression. *Science, 263*(5148), 802–805. https://doi.org/10.1126/science.8303295
+- Dawson, P. E., Muir, T. W., Clark-Lewis, I., & Kent, S. B. H. (1994). Synthesis of proteins by native chemical ligation. *Science, 266*(5186), 776–779. https://doi.org/10.1126/science.7973629
 - Mann, M., & Wilm, M. (1994). Error-tolerant identification of peptides in sequence databases by peptide sequence tags. *Analytical Chemistry, 66*, 4390–4399.
+- Rothman, J. E. (1994). Mechanisms of intracellular protein transport. *Nature, 372*(6501), 55–63. https://doi.org/10.1038/372055a0
+- Stemmer, W. P. C. (1994). Rapid evolution of a protein in vitro by DNA shuffling. *Nature, 370*, 389–391.
+- Svoboda, K., & Block, S. M. (1994). Biological applications of optical forces. *Annual Review of Biophysics and Biomolecular Structure, 23*, 247–285. https://doi.org/10.1146/annurev.bb.23.060194.001335
+- Henderson, R. (1995). The potential and limitations of neutrons, electrons and X-rays for atomic resolution microscopy of unstained biological molecules. *Quarterly Reviews of Biophysics, 28*(2), 171–193.
 - Hunter, T. (1995). Protein kinases and phosphatases: The yin and yang of protein phosphorylation and signaling. *Cell, 80*(2), 225–236.
+- Murzin, A. G., Brenner, S. E., Hubbard, T., & Chothia, C. (1995). SCOP: A structural classification of proteins database for the investigation of sequences and structures. *Journal of Molecular Biology, 247*, 536–540.
+- Onuchic, J. N., Wolynes, P. G., Luthey-Schulten, Z., & Socci, N. D. (1995). Toward an outline of the topography of a realistic protein-folding funnel. *Proceedings of the National Academy of Sciences, 92*(8), 3626–3630. https://doi.org/10.1073/pnas.92.8.3626
 - Wilkins, M. R., Pasquali, C., Appel, R. D., Ou, K., Golaz, O., Sanchez, J.-C., Yan, J. X., Gooley, A. A., Hughes, G., Humphery-Smith, I., Williams, K. L., & Hochstrasser, D. F. (1996). From proteins to proteomes: Large scale protein identification by two-dimensional electrophoresis and amino acid analysis. *Nature Biotechnology, 14*, 61–65. https://doi.org/10.1038/nbt0196-61
+- Dill, K. A., & Chan, H. S. (1997). From Levinthal to pathways to funnels. *Nature Structural Biology, 4*, 10–19.
+- Orengo, C. A., et al. (1997). CATH—A hierarchic classification of protein domain structures. Structure, 5, 1093–1108.
+- Simons, K. T., Kooperberg, C., Huang, E., & Baker, D. (1997). Assembly of protein tertiary structures from fragments with similar local sequences using simulated annealing and Bayesian scoring functions. *Journal of Molecular Biology, 268*(1), 209–225.
+- Spillantini, M. G., Schmidt, M. L., Lee, V. M.-Y., Trojanowski, J. Q., Jakes, R., & Goedert, M. (1997). α-Synuclein in Lewy bodies. *Nature, 388*(6645), 839–840. https://doi.org/10.1038/42166
+- Anderson, N. L., & Anderson, N. G. (1998). Proteome and proteomics: New technologies, new concepts, and new words. *Electrophoresis, 19*(11), 1853–1861.
+- Arnold, F. H. (1998). Design by directed evolution. *Accounts of Chemical Research, 31*(3), 125–131.
 - Doyle, D. A., et al. (1998). The structure of the potassium channel: Molecular basis of K⁺ conduction and selectivity. *Science, 280*(5360), 69–77.
 - Hershko, A., & Ciechanover, A. (1998). The ubiquitin system. *Annual Review of Biochemistry, 67*, 425–479.
-- Wright, P. E., & Dyson, H. J. (1999). Intrinsically unstructured proteins: Re-assessing the protein structure–function paradigm. *Journal of Molecular Biology, 293*(2), 321–331. https://doi.org/10.1006/jmbi.1999.3110
+- Yates, J. R., III. (1998). Mass spectrometry and the age of the proteome. *Journal of Mass Spectrometry, 33*(1), 1–19.
+- Fersht, A. (1999). *Structure and mechanism in protein science: A guide to enzyme catalysis and protein folding*. W. H. Freeman.
 - Gygi, S. P., Rist, B., Gerber, S. A., Turecek, F., Gelb, M. H., & Aebersold, R. (1999). Quantitative analysis of complex protein mixtures using isotope-coded affinity tags. *Nature Biotechnology, 17*, 994–999. https://doi.org/10.1038/13690
-- Uetz, P., et al. (2000). A comprehensive analysis of protein–protein interactions in *Saccharomyces cerevisiae*. *Nature, 403*, 623–627.
+- Jones, D. T. (1999). Protein secondary structure prediction based on position-specific scoring matrices. *Journal of Molecular Biology, 292*(2), 195–202.
+- Wright, P. E., & Dyson, H. J. (1999). Intrinsically unstructured proteins: Re-assessing the protein structure–function paradigm. *Journal of Molecular Biology, 293*(2), 321–331. https://doi.org/10.1006/jmbi.1999.3110
+
+**2000**
+
+- Bairoch, A. (2000). The ENZYME database in 2000. *Nucleic Acids Research, 28*(1), 304–305.
 - Bairoch, A., & Apweiler, R. (2000). The SWISS-PROT protein sequence database and its supplement TrEMBL in 2000. *Nucleic Acids Research, 28*(1), 45–48.
+- Ban, N., Nissen, P., Hansen, J., Moore, P. B., & Steitz, T. A. (2000). The complete atomic structure of the large ribosomal subunit at 2.4 Å resolution. *Science, 289*(5481), 905–920. https://doi.org/10.1126/science.289.5481.905
 - Berman, H. M., et al. (2000). The Protein Data Bank. *Nucleic Acids Research, 28*(1), 235–242.
-- Uversky, V. N., Gillespie, J. R., & Fink, A. L. (2000). Why are "natively unfolded" proteins unstructured under physiologic conditions? *Proteins: Structure, Function, and Genetics, 41*(3), 415–427.
+- Palczewski, K., Kumasaka, T., Hori, T., Behnke, C. A., Motoshima, H., Fox, B. A., Le Trong, I., Teller, D. C., Okada, T., Stenkamp, R. E., Yamamoto, M., & Miyano, M. (2000). Crystal structure of rhodopsin: A G protein-coupled receptor. *Science, 289*(5480), 739–745. https://doi.org/10.1126/science.289.5480.739
+- Uetz, P., et al. (2000). A comprehensive analysis of protein–protein interactions in Saccharomyces cerevisiae. *Nature, 403*, 623–627.
+- Uversky, V. N., Gillespie, J. R., & Fink, A. L. (2000). Why are "natively unfolded" proteins unstructured under physiologic conditions? Proteins: Structure, Function, and Genetics, 41(3), 415–427.
+- Vale, R. D., & Milligan, R. A. (2000). The way things move: Looking under the hood of molecular motor proteins. *Science, 288*(5463), 88–95. https://doi.org/10.1126/science.288.5463.88
 - Dunker, A. K., Lawson, J. D., Brown, C. J., Williams, R. M., Romero, P., Oh, J. S., Oldfield, C. J., Campen, A. M., Ratliff, C. M., Hipps, K. W., Ausio, J., Nissen, M. S., Reeves, R., Kang, C., Kissinger, C. R., Bailey, R. W., Griswold, M. D., Chiu, W., Garner, E. C., & Obradovic, Z. (2001). Intrinsically disordered protein. *Journal of Molecular Graphics and Modelling, 19*(1), 26–59. https://doi.org/10.1016/S1093-3263(00)00138-8
-- Tompa, P. (2002). Intrinsically unstructured proteins. *Trends in Biochemical Sciences, 27*(10), 527–533.
-- Hartl, F. U., & Hayer-Hartl, M. (2002). Molecular chaperones in the cytosol: From nascent chain to folded protein. *Science, 295*(5561), 1852–1858.
+- Ellis, R. J. (2001). Macromolecular crowding: An important but neglected aspect of the intracellular environment. *Current Opinion in Structural Biology, 11*(1), 114–119. https://doi.org/10.1016/S0959-440X(00)00172-X
+- Lesk, A. M. (2001). *Introduction to protein architecture: The structural biology of proteins*. Oxford University Press.
+- Ohsumi, Y. (2001). Molecular dissection of autophagy: Two ubiquitin-like systems. *Nature Reviews Molecular Cell Biology, 2*(3), 211–216. https://doi.org/10.1038/35056522
+- Wang, L., Brock, A., Herberich, B., & Schultz, P. G. (2001). Expanding the genetic code of Escherichia coli. *Science, 292*(5516), 498–500. https://doi.org/10.1126/science.1060077
 - Gavin, A.-C., et al. (2002). Functional organization of the yeast proteome by systematic analysis of protein complexes. *Nature, 415*, 141–147.
+- Hartl, F. U., & Hayer-Hartl, M. (2002). Molecular chaperones in the cytosol: From nascent chain to folded protein. *Science, 295*(5561), 1852–1858.
+- Ho, Y., et al. (2002). Systematic identification of protein complexes in Saccharomyces cerevisiae by mass spectrometry. *Nature, 415*, 180–183.
+- Ong, S.-E., Blagoev, B., Kratchmarova, I., Kristensen, D. B., Steen, H., Pandey, A., & Mann, M. (2002). Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics. *Molecular & Cellular Proteomics, 1*(5), 376–386. https://doi.org/10.1074/mcp.M200025-MCP200
+- Tompa, P. (2002). Intrinsically unstructured proteins. *Trends in Biochemical Sciences, 27*(10), 527–533.
+- Uversky, V. N. (2002). Natively unfolded proteins: A point where biology waits for physics. *Protein Science, 11*(4), 739–756.
+- Medalia, O., Weber, I., Frangakis, A. S., Nicastro, D., Gerisch, G., & Baumeister, W. (2002). Macromolecular architecture in eukaryotic cells visualized by cryoelectron tomography. *Science, 298*(5596), 1209–1213. https://doi.org/10.1126/science.1076184
 - Aebersold, R., & Mann, M. (2003). Mass spectrometry-based proteomics. *Nature, 422*, 198–207.
+- Dobson, C. M. (2003). Protein folding and misfolding. *Nature, 426*, 884–890.
+- Kuhlman, B., et al. (2003). Design of a novel globular protein fold with atomic-level accuracy. *Science, 302*(5649), 1364–1368.
+- Mann, M., & Jensen, O. N. (2003). Proteomic analysis of post-translational modifications. *Nature Biotechnology, 21*, 255–261.
+- Petsko, G. A., & Ringe, D. (2003). *Protein structure and function*. New Science Press.
+- Tanford, C., & Reynolds, J. A. (2004). *Nature's robots: A history of proteins*. Oxford University Press.
+- Dyson, H. J., & Wright, P. E. (2005). Intrinsically unstructured proteins and their functions. *Nature Reviews Molecular Cell Biology, 6*, 197–208.
+- Rual, J.-F., et al. (2005). Towards a proteome-scale map of the human protein-protein interaction network. *Nature, 437*, 1173–1178.
+- Stelzl, U., et al. (2005). A human protein-protein interaction network: A resource for annotating the proteome. *Cell, 122*(6), 957–968.
+- Walsh, C. T., Garneau-Tsodikova, S., & Gatto, G. J., Jr. (2005). Protein posttranslational modifications: The chemistry of proteome diversifications. *Angewandte Chemie International Edition, 44*, 7342–7372.
+- Chiti, F., & Dobson, C. M. (2006). Protein misfolding, functional amyloid, and human disease. *Annual Review of Biochemistry, 75*, 333–366.
+- Gavin, A.-C., et al. (2006). Proteome survey reveals modularity of the yeast cell machinery. *Nature, 440*, 631–636.
+- Rhodes, G. (2006). *Crystallography made crystal clear: A guide for users of macromolecular models* (2nd ed.). Academic Press.
+- Davis, I. W., Leaver-Fay, A., Chen, V. B., Block, J. N., Kapral, G. J., Wang, X., Murray, L. W., Arendall, W. B., III, Snoeyink, J., Richardson, J. S., & Richardson, D. C. (2007). MolProbity: All-atom contacts and structure validation for proteins and nucleic acids. *Nucleic Acids Research, 35*(Web Server issue), W375–W383. https://doi.org/10.1093/nar/gkm216
+- Goldberg, A. L. (2007). Functions of the proteasome: From protein degradation and immune surveillance to cancer therapy. *Biochemical Society Transactions, 35*(1), 12–17. https://doi.org/10.1042/BST0350012
+- Kyte, J. (2007). *Structure in protein chemistry* (2nd ed.). Garland Science.
 - Cox, J., & Mann, M. (2008). MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. *Nature Biotechnology, 26*, 1367–1372.
+- Kobilka, B. K., & Schertler, G. F. X. (2008). New G-protein-coupled receptor crystal structures: Insights and limitations. *Trends in Pharmacological Sciences, 29*(2), 79–83.
+- Bloom, J. D., & Arnold, F. H. (2009). In the light of directed evolution: Pathways of adaptive protein evolution. *Proceedings of the National Academy of Sciences, 106*(Suppl. 1), 9995–10000.
+- Brangwynne, C. P., et al. (2009). Germline P granules are liquid droplets that localize by controlled dissolution/condensation. *Science, 324*, 1729–1732.
+- Choudhary, C., Kumar, C., Gnad, F., Nielsen, M. L., Rehman, M., Walther, T. C., Olsen, J. V., & Mann, M. (2009). Lysine acetylation targets protein complexes and co-regulates major cellular functions. *Science, 325*(5942), 834–840. https://doi.org/10.1126/science.1175371
+- Hartl, F. U., & Hayer-Hartl, M. (2009). Converging concepts of protein folding in vitro and in vivo. *Nature Structural & Molecular Biology, 16*, 574–581.
+- Inomata, K., Ohno, A., Tochio, H., Isogai, S., Tenno, T., Nakase, I., Takeuchi, T., Futaki, S., Kudo, Y., & Shirakawa, M. (2009). High-resolution multi-dimensional NMR spectroscopy of proteins in human cells. *Nature, 458*, 106–109. https://doi.org/10.1038/nature07839
+
+**2010**
+
+- Finn, R. D., et al. (2011). The Pfam protein families database. *Nucleic Acids Research, 39*, D211–D222.
+- Konermann, L., Pan, J., & Liu, Y.-H. (2011). Hydrogen exchange mass spectrometry for studying protein structure and dynamics. *Chemical Society Reviews, 40*(3), 1224–1234. https://doi.org/10.1039/C0CS00113A
+- Marks, D. S., Colwell, L. J., Sheridan, R., Hopf, T. A., Pagnani, A., Zecchina, R., & Sander, C. (2011). Protein 3D structure computed from evolutionary sequence variation. *PLoS ONE, 6*(12), e28766. https://doi.org/10.1371/journal.pone.0028766
+- Varshavsky, A. (2011). The N-end rule pathway and regulation by proteolysis. *Protein Science, 20*(8), 1298–1345. https://doi.org/10.1002/pro.666
+- Dill, K. A., & MacCallum, J. L. (2012). The protein-folding problem, 50 years on. *Science, 338*(6110), 1042–1046. https://doi.org/10.1126/science.1219021
+- Gillet, L. C., Navarro, P., Tate, S., Röst, H., Selevsek, N., Reiter, L., Bonner, R., & Aebersold, R. (2012). Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: A new concept for consistent and accurate proteome analysis. *Molecular & Cellular Proteomics, 11*(6), O111.016717. https://doi.org/10.1074/mcp.O111.016717
+- Roux, K. J., Kim, D. I., Raida, M., & Burke, B. (2012). A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells. *Journal of Cell Biology, 196*(6), 801–810. https://doi.org/10.1083/jcb.201112098
+- Biemann, K. (2014). Laying the groundwork for proteomics: Mass spectrometry from 1958 to 1988. *Journal of Proteomics*.
+- Hyman, A. A., Weber, C. A., & Jülicher, F. (2014). Liquid-liquid phase separation in biology. *Annual Review of Cell and Developmental Biology, 30*, 39–58.
 - Kim, M.-S., et al. (2014). A draft map of the human proteome. *Nature, 509*, 575–581.
+- Kühlbrandt, W. (2014). The resolution revolution. *Science, 343*(6178), 1443–1444.
+- van der Lee, R., et al. (2014). Classification of intrinsically disordered regions and proteins. *Chemical Reviews, 114*(13), 6589–6631.
+- Walsh, G. (2014). *Proteins: Biochemistry and biotechnology* (2nd ed.). John Wiley & Sons.
 - Wilhelm, M., et al. (2014). Mass-spectrometry-based draft of the human proteome. *Nature, 509*, 582–587.
+- Bai, X.-C., McMullan, G., & Scheres, S. H. W. (2015). How cryo-EM is revolutionizing structural biology. *Trends in Biochemical Sciences, 40*(1), 49–57.
+- Leitner, A., Faini, M., Stengel, F., & Aebersold, R. (2016). Crosslinking and mass spectrometry: An integrated technology to understand the structure and function of molecular machines. *Trends in Biochemical Sciences, 41*(1), 20–32. https://doi.org/10.1016/j.tibs.2015.10.008
+- Lesk, A. M. (2016). *Introduction to protein science: Architecture, function, and genomics* (3rd ed.). Oxford University Press.
+- Fitzpatrick, A. W. P., Falcon, B., He, S., Murzin, A. G., Murshudov, G., Garringer, H. J., Crowther, R. A., Ghetti, B., Goedert, M., & Scheres, S. H. W. (2017). Cryo-EM structures of tau filaments from Alzheimer’s disease. *Nature, 547*, 185–190. https://doi.org/10.1038/nature23274
+- Gremer, L., Schölzel, D., Schenk, C., Reinartz, E., Labahn, J., Ravelli, R. B. G., Tusche, M., Lopez-Iglesias, C., Hoyer, W., Heise, H., Willbold, D., & Schröder, G. F. (2017). Fibril structure of amyloid-β(1–42) by cryo-electron microscopy. *Science, 358*(6359), 116–119. https://doi.org/10.1126/science.aao2825
+- Ovchinnikov, S., Park, H., Varghese, N., Huang, P.-S., Pavlopoulos, G. A., Kim, D. E., Kamisetty, H., Kyrpides, N. C., & Baker, D. (2017). Protein structure determination using metagenome sequence data. *Science, 355*(6322), 294–298. https://doi.org/10.1126/science.aah4043
+- Rocklin, G. J., et al. (2017). Global analysis of protein folding using massively parallel design, synthesis, and testing. *Science, 357*(6347), 168–175.
+- Budnik, B., Levy, E., Harmange, G., & Slavov, N. (2018). SCoPE-MS: Mass spectrometry of single mammalian cells quantifies proteome heterogeneity during cell differentiation. *Genome Biology, 19*, 161. https://doi.org/10.1186/s13059-018-1547-5
+- AlQuraishi, M. (2019). AlphaFold at CASP13. *Bioinformatics, 35*(22), 4862–4865.
+
+**2020**
+
+- Backman, L. (2020). *Protein chemistry*. De Gruyter.
+- Schjoldager, K. T.-B. G., Narimatsu, Y., Joshi, H. J., & Clausen, H. (2020). Global view of human protein glycosylation pathways and functions. *Nature Reviews Molecular Cell Biology, 21*, 729–749. https://doi.org/10.1038/s41580-020-00294-x
+- Senior, A. W., Evans, R., Jumper, J., Kirkpatrick, J., Sifre, L., Green, T., Qin, C., Žídek, A., Nelson, A. W. R., Bridgland, A., Penedones, H., Petersen, S., Simonyan, K., Crossan, S., Kohli, P., Jones, D. T., Silver, D., Kavukcuoglu, K., & Hassabis, D. (2020). Improved protein structure prediction using potentials from deep learning. *Nature, 577*(7792), 706–710. https://doi.org/10.1038/s41586-019-1923-7
+- Anishchenko, I., et al. (2021). De novo protein design by deep network hallucination. *Nature, 600*, 547–552.
 - Baek, M., et al. (2021). Accurate prediction of protein structures and interactions using a three-track neural network. *Science, 373*(6557), 871–876. https://doi.org/10.1126/science.abj8754
 - Jumper, J., et al. (2021). Highly accurate protein structure prediction with AlphaFold. *Nature, 596*(7873), 583–589. https://doi.org/10.1038/s41586-021-03819-2
-- Watson, J. L., Juergens, D., Bennett, N. R., Trippe, B. L., Yim, J., Eisenach, H. E., Ahern, W., Borst, A. J., Ragotte, R. J., Milles, L. F., Wicky, B. I. M., Hanikel, N., Pellock, S. J., Courbet, A., Wang, J., Venkatesh, P., Sappington, I., Vázquez Torres, S., Lauko, A., ... Baker, D. (2023). De novo design of protein structure and function with RFdiffusion. *Nature, 620*, 1089–1100. https://doi.org/10.1038/s41586-023-06415-8
+- Rives, A., et al. (2021). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. *Proceedings of the National Academy of Sciences, 118*(15), e2016239118.
+- Dauparas, J., et al. (2022). Robust deep learning-based protein sequence design using ProteinMPNN. *Science, 378*(6615), 49–56.
+- Tamara, S., den Boer, M. A., & Heck, A. J. R. (2022). High-resolution native mass spectrometry. *Chemical Reviews, 122*(8), 7269–7326. https://doi.org/10.1021/acs.chemrev.1c00212
+- Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., Costa, A. D. S., Fazel-Zarandi, M., Sercu, T., Candido, S., & Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. *Science, 379*(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
+- UniProt Consortium. (2023). UniProt: The Universal Protein Knowledgebase in 2023. *Nucleic Acids Research, 51*(D1), D523–D531. https://doi.org/10.1093/nar/gkac1052
+- Watson, J. L., et al. (2023). De novo design of protein structure and function with RFdiffusion. *Nature, 620*, 1089–1100.
+- Watson, J. L., Juergens, D., Bennett, N. R., Trippe, B. L., Yim, J., Eisenach, H. E., Ahern, W., Borst, A. J., Ragotte, R. J., Milles, L. F., Wicky, B. I. M., Hanikel, N., Pellock, S. J., Courbet, A., Wang, J., Venkatesh, P., Sappington, I., Vázquez Torres, S., Lauko, A.,... Baker, D. (2023). De novo design of protein structure and function with RFdiffusion. *Nature, 620*, 1089–1100. https://doi.org/10.1038/s41586-023-06415-8
 - Abramson, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. *Nature, 630*, 493–500.
-Missing: chaperonin/GroEL, Hsp70/Hsp90, co-translational folding, UPR, and ERAD.
 
-Hemmingsen, S. M., Woolford, C., van der Vies, S. M., Tilly, K., Dennis, D. T., Georgopoulos, C. P., Hendrix, R. W., & Ellis, R. J. (1988). Homologous plant and bacterial proteins chaperone oligomeric protein assembly. *Nature, 333*(6171), 330–334. https://doi.org/10.1038/333330a0
-
-Goloubinoff, P., Christeller, J. T., Gatenby, A. A., & Lorimer, G. H. (1989). Reconstitution of active dimeric ribulose bisphosphate carboxylase from an unfolded state depends on two chaperonin proteins and Mg-ATP. *Nature, 342*(6252), 884–889. https://doi.org/10.1038/342884a0
-
-Missing: proteasome, autophagy, N-end rule, SUMO/ubiquitin-like modifiers, deubiquitinases.
-
-Goldberg, A. L. (2007). Functions of the proteasome: From protein degradation and immune surveillance to cancer therapy. *Biochemical Society Transactions, 35*(1), 12–17. https://doi.org/10.1042/BST0350012
-
-Ohsumi, Y. (2001). Molecular dissection of autophagy: Two ubiquitin-like systems. *Nature Reviews Molecular Cell Biology, 2*(3), 211–216. https://doi.org/10.1038/35056522
-
-Varshavsky, A. (2011). The N-end rule pathway and regulation by proteolysis. *Protein Science, 20*(8), 1298–1345. https://doi.org/10.1002/pro.666
-
-Missing: glycosylation/glycoproteomics, acetylation, methylation, lipidation, ADP-ribosylation, redox regulation.
-
-Schjoldager, K. T.-B. G., Narimatsu, Y., Joshi, H. J., & Clausen, H. (2020). Global view of human protein glycosylation pathways and functions. *Nature Reviews Molecular Cell Biology, 21*, 729–749. https://doi.org/10.1038/s41580-020-00294-x
-
-Choudhary, C., Kumar, C., Gnad, F., Nielsen, M. L., Rehman, M., Walther, T. C., Olsen, J. V., & Mann, M. (2009). Lysine acetylation targets protein complexes and co-regulates major cellular functions. *Science, 325*(5942), 834–840. https://doi.org/10.1126/science.1175371
-
-Missing: phage display, proximity labeling, crosslinking mass spectrometry, docking benchmarks.
-
-Smith, G. P. (1985). Filamentous fusion phage: Novel expression vectors that display cloned antigens on the virion surface. *Science, 228*(4705), 1315–1317. https://doi.org/10.1126/science.4001944
-
-Roux, K. J., Kim, D. I., Raida, M., & Burke, B. (2012). A promiscuous biotin ligase fusion protein identifies proximal and interacting proteins in mammalian cells. *Journal of Cell Biology, 196*(6), 801–810. https://doi.org/10.1083/jcb.201112098
-
-Leitner, A., Faini, M., Stengel, F., & Aebersold, R. (2016). Crosslinking and mass spectrometry: An integrated technology to understand the structure and function of molecular machines. *Trends in Biochemical Sciences, 41*(1), 20–32. https://doi.org/10.1016/j.tibs.2015.10.008
-
-Missing: SILAC, DIA, single-cell proteomics, native MS, HDX-MS, top-down proteomics.
-
-Ong, S.-E., Blagoev, B., Kratchmarova, I., Kristensen, D. B., Steen, H., Pandey, A., & Mann, M. (2002). Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics. *Molecular & Cellular Proteomics, 1*(5), 376–386. https://doi.org/10.1074/mcp.M200025-MCP200
-
-Gillet, L. C., Navarro, P., Tate, S., Röst, H., Selevsek, N., Reiter, L., Bonner, R., & Aebersold, R. (2012). Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: A new concept for consistent and accurate proteome analysis. *Molecular & Cellular Proteomics, 11*(6), O111.016717. https://doi.org/10.1074/mcp.O111.016717
-
-Budnik, B., Levy, E., Harmange, G., & Slavov, N. (2018). SCoPE-MS: Mass spectrometry of single mammalian cells quantifies proteome heterogeneity during cell differentiation. *Genome Biology, 19*, 161. https://doi.org/10.1186/s13059-018-1547-5
-
-Tamara, S., den Boer, M. A., & Heck, A. J. R. (2022). High-resolution native mass spectrometry. *Chemical Reviews, 122*(8), 7269–7326. https://doi.org/10.1021/acs.chemrev.1c00212
-
-Missing: site-directed mutagenesis, unnatural amino acids, native chemical ligation, GFP, recombinant insulin, monoclonal antibodies.
-
-Kunkel, T. A. (1985). Rapid and efficient site-specific mutagenesis without phenotypic selection. *Proceedings of the National Academy of Sciences, 82*(2), 488–492. https://doi.org/10.1073/pnas.82.2.488
-
-Wang, L., Brock, A., Herberich, B., & Schultz, P. G. (2001). Expanding the genetic code of *Escherichia coli*. *Science, 292*(5516), 498–500. https://doi.org/10.1126/science.1060077
-
-Dawson, P. E., Muir, T. W., Clark-Lewis, I., & Kent, S. B. H. (1994). Synthesis of proteins by native chemical ligation. *Science, 266*(5186), 776–779. https://doi.org/10.1126/science.7973629
-
-Chalfie, M., Tu, Y., Euskirchen, G., Ward, W. W., & Prasher, D. C. (1994). Green fluorescent protein as a marker for gene expression. *Science, 263*(5148), 802–805. https://doi.org/10.1126/science.8303295
-
-Goeddel, D. V., Kleid, D. G., Bolivar, F., Heyneker, H. L., Yansura, D. G., Crea, R., Hirose, T., Kraszewski, A., Itakura, K., & Riggs, A. D. (1979). Expression in *Escherichia coli* of chemically synthesized genes for human insulin. *Proceedings of the National Academy of Sciences, 76*(1), 106–110. https://doi.org/10.1073/pnas.76.1.106
-
-Köhler, G., & Milstein, C. (1975). Continuous cultures of fused cells secreting antibody of predefined specificity. *Nature, 256*(5517), 495–497. https://doi.org/10.1038/256495a0
-
-Missing: MD force fields, macromolecular crowding, single-molecule force spectroscopy, in-cell NMR.
-
-Brooks, B. R., Bruccoleri, R. E., Olafson, B. D., States, D. J., Swaminathan, S., & Karplus, M. (1983). CHARMM: A program for macromolecular energy, minimization, and dynamics calculations. *Journal of Computational Chemistry, 4*(2), 187–217. https://doi.org/10.1002/jcc.540040211
-
-Ellis, R. J. (2001). Macromolecular crowding: An important but neglected aspect of the intracellular environment. *Current Opinion in Structural Biology, 11*(1), 114–119. https://doi.org/10.1016/S0959-440X(00)00172-X
-
-Konermann, L., Pan, J., & Liu, Y.-H. (2011). Hydrogen exchange mass spectrometry for studying protein structure and dynamics. *Chemical Society Reviews, 40*(3), 1224–1234. https://doi.org/10.1039/C0CS00113A
-
-
-Missing: first GPCR structure, ribosome structure, cryo-ET/subtomogram averaging, integrative modeling.
-
-Palczewski, K., Kumasaka, T., Hori, T., Behnke, C. A., Motoshima, H., Fox, B. A., Le Trong, I., Teller, D. C., Okada, T., Stenkamp, R. E., Yamamoto, M., & Miyano, M. (2000). Crystal structure of rhodopsin: A G protein-coupled receptor. *Science, 289*(5480), 739–745. https://doi.org/10.1126/science.289.5480.739
-
-Ban, N., Nissen, P., Hansen, J., Moore, P. B., & Steitz, T. A. (2000). The complete atomic structure of the large ribosomal subunit at 2.4 Å resolution. *Science, 289*(5481), 905–920. https://doi.org/10.1126/science.289.5481.905
-
-
-Missing: cryo-EM amyloid/tau/α-synuclein structures and prion-strain literature.
-
-Fitzpatrick, A. W. P., Falcon, B., He, S., Murzin, A. G., Murshudov, G., Garringer, H. J., Crowther, R. A., Ghetti, B., Goedert, M., & Scheres, S. H. W. (2017). Cryo-EM structures of tau filaments from Alzheimer’s disease. *Nature, 547*, 185–190. https://doi.org/10.1038/nature23274
-
-Gremer, L., Schölzel, D., Schenk, C., Reinartz, E., Labahn, J., Ravelli, R. B. G., Tusche, M., Lopez-Iglesias, C., Hoyer, W., Heise, H., Willbold, D., & Schröder, G. F. (2017). Fibril structure of amyloid-β(1–42) by cryo-electron microscopy. *Science, 358*(6359), 116–119. https://doi.org/10.1126/science.aao2825
-
-
-Missing: vesicle trafficking, SNAREs, mitochondrial/nuclear import, detailed translocon literature.
-
-Rothman, J. E. (1994). Mechanisms of intracellular protein transport. *Nature, 372*(6501), 55–63. https://doi.org/10.1038/372055a0
-
-
-Missing: UniProt, GO, InterPro, MolProbity/PDB validation, benchmark datasets.
-
-UniProt Consortium. (2023). UniProt: The Universal Protein Knowledgebase in 2023. *Nucleic Acids Research, 51*(D1), D523–D531. https://doi.org/10.1093/nar/gkac1052
-
-Davis, I. W., Leaver-Fay, A., Chen, V. B., Block, J. N., Kapral, G. J., Wang, X., Murray, L. W., Arendall, W. B., III, Snoeyink, J., Richardson, J. S., & Richardson, D. C. (2007). MolProbity: All-atom contacts and structure validation for proteins and nucleic acids. *Nucleic Acids Research, 35*(Web Server issue), W375–W383. https://doi.org/10.1093/nar/gkm216
-
-Also, the bibliography itself contains several records marked “require verification”; in APA style those are not acceptable as final references because they lack complete author, year, title, journal, volume, pages, and/or DOI.
-
-Tiselius, A. (1937). A new apparatus for electrophoretic analysis of colloidal mixtures. Transactions of the Faraday Society, 33, 524–531.
-Martin, A. J. P., & Synge, R. L. M. (1941). A new form of chromatogram employing two liquid phases. Biochemical Journal, 35, 1358–1368.
-Lowry, O. H., Rosebrough, N. J., Farr, A. L., & Randall, R. J. (1951). Protein measurement with the Folin phenol reagent. Journal of Biological Chemistry, 193, 265–275.
-Anfinsen, C. B., & Haber, E. (1961). Studies on the reduction and re-formation of protein disulfide bonds. Journal of Biological Chemistry, 236, 1361–1363.
-Kendrew, J. C., et al. (1960). Structure of myoglobin: A three-dimensional Fourier synthesis at 2 Å resolution. Nature, 185, 422–427.
-Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. Journal of the American Chemical Society, 85, 2149–2154.
-Bradford, M. M. (1976). A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Analytical Biochemistry, 72, 248–254.
-Murzin, A. G., Brenner, S. E., Hubbard, T., & Chothia, C. (1995). SCOP: A structural classification of proteins database for the investigation of sequences and structures. Journal of Molecular Biology, 247, 536–540.
-Orengo, C. A., et al. (1997). CATH—A hierarchic classification of protein domain structures. Structure, 5, 1093–1108.
-Brangwynne, C. P., et al. (2009). Germline P granules are liquid droplets that localize by controlled dissolution/condensation. Science, 324, 1729–1732.
-Hyman, A. A., Weber, C. A., & Jülicher, F. (2014). Liquid-liquid phase separation in biology. Annual Review of Cell and Developmental Biology, 30, 39–58.
-
-Rimington, C. (1936). The chemistry of the proteins and amino acids. Annual Review of Biochemistry, 5, 117–158. Annual Reviews
-Vesterberg, O. (1989). History of electrophoretic methods. Journal of Chromatography, 480, 3–19. PubMed
-Biemann, K. (2014). Laying the groundwork for proteomics: Mass spectrometry from 1958 to 1988. Journal of Proteomics.
-
-Cohn, E. J., & Edsall, J. T. (1943). Proteins, amino acids and peptides as ions and dipolar ions. Reinhold Publishing.
-Neurath, H., & Bailey, K. (Eds.). (1953). The proteins: Chemistry, biological activity, and methods (Vols. 1–2). Academic Press.
-Greenstein, J. P., & Winitz, M. (1961). Chemistry of the amino acids (Vols. 1–3). John Wiley & Sons.
-Tanford, C. (1961). Physical chemistry of macromolecules. John Wiley & Sons.
-Dixon, M., & Webb, E. C. (1964). Enzymes (2nd ed.). Longmans.
-Tanford, C. (1980). The hydrophobic effect: Formation of micelles and biological membranes (2nd ed.). John Wiley & Sons.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: The conformation of biological macromolecules (Vol. 1). W. H. Freeman.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: Techniques for the study of biological structure and function (Vol. 2). W. H. Freeman.
-Cantor, C. R., & Schimmel, P. R. (1980). Biophysical chemistry: The behavior of biological macromolecules (Vol. 3). W. H. Freeman.
-Scopes, R. K. (1982). Protein purification: Principles and practice. Springer-Verlag.
-McCammon, J. A., & Harvey, S. C. (1987). Dynamics of proteins and nucleic acids. Cambridge University Press.
-Schulz, G. E., & Schirmer, R. H. (1979). Principles of protein structure. Springer-Verlag.
-Creighton, T. E. (1993). Proteins: Structures and molecular properties (2nd ed.). W. H. Freeman.
-Lesk, A. M. (2001). Introduction to protein architecture: The structural biology of proteins. Oxford University Press.
-Petsko, G. A., & Ringe, D. (2003). Protein structure and function. New Science Press.
-Rhodes, G. (2006). Crystallography made crystal clear: A guide for users of macromolecular models (2nd ed.). Academic Press.
-Fersht, A. (1999). Structure and mechanism in protein science: A guide to enzyme catalysis and protein folding. W. H. Freeman.
-Tanford, C., & Reynolds, J. A. (2004). Nature's robots: A history of proteins. Oxford University Press.
-Kyte, J. (2007). Structure in protein chemistry (2nd ed.). Garland Science.
-Walsh, G. (2014). Proteins: Biochemistry and biotechnology (2nd ed.). John Wiley & Sons.
-Lesk, A. M. (2016). Introduction to protein science: Architecture, function, and genomics (3rd ed.). Oxford University Press.
-Backman, L. (2020). Protein chemistry. De Gruyter.
-
-
-Chick, H., & Martin, C. J. (1910). On the heat coagulation of proteins. The Journal of Physiology. 
-Chick, H., & Martin, C. J. (1911). On the heat coagulation of proteins. The Journal of Physiology.
-Wu, H. (1931). Studies on denaturation of proteins. XIII. A theory of denaturation. Chinese Journal of Physiology.
-Kauzmann, W. (1959). Some factors in the interpretation of protein denaturation. Advances in Protein Chemistry, 14, 1–63.
-Tanford, C. (1968). Protein denaturation. Advances in Protein Chemistry, 23, 121–282.
-
-Svedberg, T. (1926). A new method for the determination of the molecular weight of the proteins. Journal of the American Chemical Society, 48(2), 430–438.
-Svedberg, T. (1929). Mass and size of protein molecules. Nature, 123, 871.
-Astbury, W. T. (1933). Some problems in the X-ray analysis of the structure of protein molecules. Transactions of the Faraday Society. 
-Staudinger, H. (1935). Über hochpolymere Verbindungen. Berichte der Deutschen Chemischen Gesellschaft.
-Pauling, L., & Corey, R. B. (1953). Compound helical configurations of polypeptide chains: Structure of proteins of the alpha-keratin type. Nature, 171, 59–61.
-
-Hofmeister, F. (1902). Über Bau und Gruppierung der Eiweisskörper. Ergebnisse der Physiologie.
-Fischer, E. (1906). Untersuchungen über Aminosäuren, Polypeptide und Proteïne. Berichte der Deutschen Chemischen Gesellschaft, 39, 530–610.
-Fischer, E., & Abderhalden, E. (1905). Synthese von Polypeptiden. (Original publication details require verification.)
-Bergmann, M., & Niemann, C. (1937). The mechanism of enzyme action. Science, 86, 187–188.
-
-- Hünefeld, F. L. (1840). Der Chemismus in der thierischen Organisation. F. A. Brockhaus.
-- Reichert, E. T., & Brown, A. P. (1909). The differentiation and specificity of starches in relation to genera, species, etc. Carnegie Institution of Washington.
-- Sumner, J. B. (1926). The isolation and crystallization of the enzyme urease. Journal of Biological Chemistry.
-- Northrop, J. H. (1930). Crystallization of pepsin. Science.
-- Bernal, J. D., & Crowfoot, D. (1934). X-ray photographs of crystalline pepsin. Nature, 133, 794–795.
-
-Anfinsen, C. B. (1961). The molecular basis of evolution. American Scientist, 49, 457–472.
-Brandts, J. F. (1964). The thermodynamics of protein denaturation. I. The denaturation of chymotrypsinogen. Journal of the American Chemical Society, 86, 4291–4301.
-Wetlaufer, D. B. (1973). Nucleation, rapid folding, and globular intrachain regions in proteins. Proceedings of the National Academy of Sciences, 70(3), 697–701.
-Karplus, M., & Weaver, D. L. (1976). Protein-folding dynamics. Nature, 260, 404–406.
-Dill, K. A., & Chan, H. S. (1997). From Levinthal to pathways to funnels. Nature Structural Biology, 4, 10–19.
-Dobson, C. M. (2003). Protein folding and misfolding. Nature, 426, 884–890.
-Hartl, F. U., & Hayer-Hartl, M. (2009). Converging concepts of protein folding in vitro and in vivo. Nature Structural & Molecular Biology, 16, 574–581.
-
-Hoagland, M. B. (1955). Further evidence for the participation of an RNA intermediate in protein synthesis. Biochimica et Biophysica Acta, 16, 288–289.
-Crick, F. H. C. (1958). On protein synthesis. Symposia of the Society for Experimental Biology, 12, 138–163.
-Nirenberg, M. W., & Matthaei, J. H. (1961). The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides. Proceedings of the National Academy of Sciences, 47, 1588–1602.
-Blobel, G., & Sabatini, D. D. (1971). Ribosome-membrane interaction in eukaryotic cells. Biomembranes, 2, 193–195.
-Yarus, M. (1988). A specific amino acid binding site composed of RNA. Science, 240, 1751–1758.
-
-Smith, M. (1985). In vitro mutagenesis. Annual Review of Genetics, 19, 423–462.
-Wells, J. A. (1990). Additivity of mutational effects in proteins. Biochemistry, 29, 8509–8517.
-Arnold, F. H. (1998). Design by directed evolution. Accounts of Chemical Research, 31(3), 125–131.
-Stemmer, W. P. C. (1994). Rapid evolution of a protein in vitro by DNA shuffling. Nature, 370, 389–391.
-Bloom, J. D., & Arnold, F. H. (2009). In the light of directed evolution: Pathways of adaptive protein evolution. Proceedings of the National Academy of Sciences, 106(Suppl. 1), 9995–10000.
-
-Fields, S., & Song, O. (1989). A novel genetic system to detect protein–protein interactions. Nature, 340, 245–246.
-Gavin, A.-C., et al. (2002). Functional organization of the yeast proteome by systematic analysis of protein complexes. Nature, 415, 141–147.
-Ho, Y., et al. (2002). Systematic identification of protein complexes in Saccharomyces cerevisiae by mass spectrometry. Nature, 415, 180–183.
-Stelzl, U., et al. (2005). A human protein-protein interaction network: A resource for annotating the proteome. Cell, 122(6), 957–968.
-Rual, J.-F., et al. (2005). Towards a proteome-scale map of the human protein-protein interaction network. Nature, 437, 1173–1178.
-
-Hunter, T. (1995). Protein kinases and phosphatases: The yin and yang of protein phosphorylation and signaling. Cell, 80(2), 225–236.
-Hershko, A., & Ciechanover, A. (1998). The ubiquitin system. Annual Review of Biochemistry, 67, 425–479.
-Mann, M., & Jensen, O. N. (2003). Proteomic analysis of post-translational modifications. Nature Biotechnology, 21, 255–261.
-Walsh, C. T., Garneau-Tsodikova, S., & Gatto, G. J., Jr. (2005). Protein posttranslational modifications: The chemistry of proteome diversifications. Angewandte Chemie International Edition, 44, 7342–7372.
-
-Prusiner, S. B. (1982). Novel proteinaceous infectious particles cause scrapie. Science, 216(4542), 136–144.
-Jarrett, J. T., & Lansbury, P. T., Jr. (1993). Seeding "one-dimensional crystallization" of amyloid: A pathogenic mechanism in Alzheimer's disease and scrapie? Cell, 73(6), 1055–1058.
-Dobson, C. M. (2003). Protein folding and misfolding. Nature, 426, 884–890.
-Chiti, F., & Dobson, C. M. (2006). Protein misfolding, functional amyloid, and human disease. Annual Review of Biochemistry, 75, 333–366.
-
-Uversky, V. N. (2002). Natively unfolded proteins: A point where biology waits for physics. Protein Science, 11(4), 739–756.
-Dyson, H. J., & Wright, P. E. (2005). Intrinsically unstructured proteins and their functions. Nature Reviews Molecular Cell Biology, 6, 197–208.
-van der Lee, R., et al. (2014). Classification of intrinsically disordered regions and proteins. Chemical Reviews, 114(13), 6589–6631.
-
-Henderson, R., & Unwin, P. N. T. (1975). Three-dimensional model of purple membrane obtained by electron microscopy. Nature, 257, 28–32.
-Deisenhofer, J., Epp, O., Miki, K., Huber, R., & Michel, H. (1985). Structure of the protein subunits in the photosynthetic reaction centre of Rhodopseudomonas viridis at 3 Å resolution. Nature, 318, 618–624.
-Kobilka, B. K., & Schertler, G. F. X. (2008). New G-protein-coupled receptor crystal structures: Insights and limitations. Trends in Pharmacological Sciences, 29(2), 79–83.
-
-Frank, J. (1990). Classification of macromolecular assemblies studied as 'single particles'. Quarterly Reviews of Biophysics, 23(3), 281–329.
-Henderson, R. (1995). The potential and limitations of neutrons, electrons and X-rays for atomic resolution microscopy of unstained biological molecules. Quarterly Reviews of Biophysics, 28(2), 171–193.
-Bai, X.-C., McMullan, G., & Scheres, S. H. W. (2015). How cryo-EM is revolutionizing structural biology. Trends in Biochemical Sciences, 40(1), 49–57.
-Kühlbrandt, W. (2014). The resolution revolution. Science, 343(6178), 1443–1444.
-
-Dayhoff, M. O., & Eck, R. V. (1968). Atlas of protein sequence and structure. National Biomedical Research Foundation.
-Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic local alignment search tool. Journal of Molecular Biology, 215(3), 403–410.
-Henikoff, S., & Henikoff, J. G. (1992). Amino acid substitution matrices from protein blocks. Proceedings of the National Academy of Sciences, 89(22), 10915–10919.
-Bairoch, A. (2000). The ENZYME database in 2000. Nucleic Acids Research, 28(1), 304–305.
-Finn, R. D., et al. (2011). The Pfam protein families database. Nucleic Acids Research, 39, D211–D222.
-
-Bowie, J. U., Lüthy, R., & Eisenberg, D. (1991). A method to identify protein sequences that fold into a known three-dimensional structure. Science, 253(5016), 164–170.
-Jones, D. T. (1999). Protein secondary structure prediction based on position-specific scoring matrices. Journal of Molecular Biology, 292(2), 195–202.
-Simons, K. T., Kooperberg, C., Huang, E., & Baker, D. (1997). Assembly of protein tertiary structures from fragments with similar local sequences using simulated annealing and Bayesian scoring functions. Journal of Molecular Biology, 268(1), 209–225.
-AlQuraishi, M. (2019). AlphaFold at CASP13. Bioinformatics, 35(22), 4862–4865.
-Baek, M., et al. (2021). Accurate prediction of protein structures and interactions using a three-track neural network. Science, 373(6557), 871–876.
-Rives, A., et al. (2021). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 118(15), e2016239118.
-
-- Kuhlman, B., et al. (2003). Design of a novel globular protein fold with atomic-level accuracy. Science, 302(5649), 1364–1368.
-- Rocklin, G. J., et al. (2017). Global analysis of protein folding using massively parallel design, synthesis, and testing. Science, 357(6347), 168–175.
-- Anishchenko, I., et al. (2021). De novo protein design by deep network hallucination. Nature, 600, 547–552.
-- Dauparas, J., et al. (2022). Robust deep learning-based protein sequence design using ProteinMPNN. Science, 378(6615), 49–56.
-- Watson, J. L., et al. (2023). De novo design of protein structure and function with RFdiffusion. Nature, 620, 1089–1100.
-
-Rouelle, G.-F. (1773). Observations sur les parties constituantes du lait. (Original publication details require verification.)
-Fourcroy, A.-F. de, & Vauquelin, L.-N. (1791). Recherches sur la matière animale connue sous le nom de gélatine. (Publication details require verification.)
-Gay-Lussac, J.-L., & Thénard, L.-J. (1811). Recherches physico-chimiques. Deterville.
-Mulder, G. J. (1838). Sur la composition de quelques substances animales. (Original publication details require verification.)
-Mulder, G. J. (1839). Ueber die Zusammensetzung einiger thierischen Substanzen. Journal für praktische Chemie, 16, 129–152.
-Hünefeld, F. L. (1840). Der Chemismus in der thierischen Organisation. F. A. Brockhaus.
-
-
-
-Vickery, H. B., & Schmidt, C. L. A. (1931). The history of the discovery of the amino acids. Chemical Reviews, 9(2), 169–318. https://doi.org/10.1021/cr60034a001
-
-Baumann, E. (1884). Ueber Cystin und seine Beziehungen zu den Eiweisskörpern. Zeitschrift für Physiologische Chemie. [Original volume and pages require verification.]
-
-Bopp, F. (1849). Einiges über Albumin, Caseïn und Fibrin. Justus Liebigs Annalen der Chemie, 69(1), 16–37. https://doi.org/10.1002/jlac.18490690104
-
-Braconnot, H. (1820). Mémoire sur la conversion des matières animales en nouvelles substances par le moyen de l'acide sulfurique. Annales de Chimie et de Physique, 13, 113–125.
-
-Cramer, E. (1865). Untersuchungen über die Seide. [Original publication details require verification.]
-
-Drechsel, E. (1889). Zur Kenntniss der Spaltungsproducte des Caseins. [Original publication details require verification.]
-
-Hedin, S. G. (1895). Ueber das Arginin. [Original publication details require verification.]
-
-Kossel, A. (1896). Ueber die basischen Stoffe des Zellkerns. [Original publication details require verification.]
-
-Liebig, J. von. (1846). Untersuchungen über einige organische Substanzen. [Edition and publisher require verification.]
-
-Mörner, K. A. H. (1899). Untersuchungen über die Proteinstoffe der Hornsubstanz. [Original publication details require verification.]
-
-Proust, J.-L. (1819). Recherches sur les matières animales. [Original publication details require verification.]
-
-Ritthausen, H. (1866). Ueber das Gliadin, ein neues Proteïn aus dem Weizen. [Original publication details require verification.]
-
-Schützenberger, P. (1875). Recherches sur les matières albuminoïdes. Comptes Rendus Hebdomadaires des Séances de l'Académie des Sciences. [Volume and pages require verification.]
-
-Schulze, E., & Barbieri, J. (1881). Ueber das Vorkommen von Phenylamidopropionsäure unter den Zersetzungsprodukten der Eiweissstoffe. Berichte der Deutschen Chemischen Gesellschaft, 14, 1785–1791.
-
-Schulze, E., & Bosshard, E. (1883). Ueber das Vorkommen von Glutamin in den Pflanzen. [Original publication details require verification.]
-
-Strecker, A. (1850). Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper. Justus Liebigs Annalen der Chemie, 75(1), 27–45. https://doi.org/10.1002/jlac.18500750103
-
-Vauquelin, L.-N., & Robiquet, P.-J. (1806). La découverte d'un nouveau principe végétal dans le suc des asperges. Annales de Chimie, 57, 88–93.
-
-Weyl, T. (1888). Zur Kenntniss der Seide. Berichte der Deutschen Chemischen Gesellschaft, 21, 1407–1410.
-
-Braconnot, H. (1819–1820). Researches on the conversion of animal substances by sulfuric acid.
-
-Berzelius, J. J. (1838). Correspondence with G. J. Mulder introducing the name protein.
-
-
-Mulder, G. J. (1838–1839). Researches on the composition of animal substances.
-
-Beccari, J. B. (1728). Original investigations on the isolation of gluten from wheat.
-
-Rouelle, G.-F. (1742). Recherches sur les substances animales.
-
-Astbury, W. T., & Woods, H. J. (1930). The molecular weight of proteins. Nature, 126, 913–914.
-
-Astbury, W. T., & Street, A. (1931). X-ray studies of the structure of hair, wool, and related fibres. Philosophical Transactions of the Royal Society of London. Series A, 230, 75–101.
-
-Anson, M. L., & Mirsky, A. E. (1925). On some general properties of proteins. The Journal of General Physiology, 9(2), 169–179. https://doi.org/10.1085/jgp.9.2.169
-
-Anson, M. L., & Mirsky, A. E. (1930). Protein coagulation and its reversal: The preparation of insoluble globin, soluble globin and heme. The Journal of General Physiology, 13(4), 469–476. https://doi.org/10.1085/jgp.13.4.469
-
-Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Globin. The Journal of General Physiology, 14(5), 605–609. https://doi.org/10.1085/jgp.14.5.605
-
-Anson, M. L., & Mirsky, A. E. (1931). Protein coagulation and its reversal: Serum albumin. The Journal of General Physiology, 14(6), 725–732. https://doi.org/10.1085/jgp.14.6.725
-
-Anson, M. L., & Mirsky, A. E. (1932). The effect of denaturation on the viscosity of protein systems. The Journal of General Physiology, 15(3), 341–350. https://doi.org/10.1085/jgp.15.3.341
-
-Astbury, W. T., & Woods, H. J. (1931). The molecular weights of proteins. Nature, 127, 663–665. https://doi.org/10.1038/127663b0
-
-Strecker, A. (1850). Ueber die künstliche Bildung der Milchsäure und einen neuen, dem Glycocoll homologen Körper. Justus Liebigs Annalen der Chemie, 75(1), 27–45. https://doi.org/10.1002/jlac.18500750103
-
-Rimington, C. (1931). Protein structure and denaturation. Nature, 127, 440–441. https://doi.org/10.1038/127440b0
-
-Kendrew, J. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. Nature, 181, 662–666.
-
-Ingram, V. M. (1956). A specific chemical difference between the globins of normal human and sickle-cell anaemia haemoglobin. Nature, 178, 792–794.
-
-Towbin, H., Staehelin, T., & Gordon, J. (1979). Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: Procedure and some applications. Proceedings of the National Academy of Sciences, 76(9), 4350–4354. https://doi.org/10.1073/pnas.76.9.4350
-
-McCammon, J. A., Gelin, B. R., & Karplus, M. (1977). Dynamics of folded proteins. Nature, 267, 585–590. https://doi.org/10.1038/267585a0
-
-Dill, K. A. (1985). Theory for the folding and stability of globular proteins. Biochemistry, 24(6), 1501–1509. https://doi.org/10.1021/bi00327a032
-
-Anderson, N. L., & Anderson, N. G. (1998). Proteome and proteomics: New technologies, new concepts, and new words. Electrophoresis, 19(11), 1853–1861.
-
-Yates, J. R., III. (1998). Mass spectrometry and the age of the proteome. Journal of Mass Spectrometry, 33(1), 1–19.
-
-Gavin, A.-C., et al. (2006). Proteome survey reveals modularity of the yeast cell machinery. Nature, 440, 631–636.
-
-Marks, D. S., Colwell, L. J., Sheridan, R., Hopf, T. A., Pagnani, A., Zecchina, R., & Sander, C. (2011). Protein 3D structure computed from evolutionary sequence variation. PLoS ONE, 6(12), e28766. https://doi.org/10.1371/journal.pone.0028766
-
-Dill, K. A., & MacCallum, J. L. (2012). The protein-folding problem, 50 years on. Science, 338(6110), 1042–1046. https://doi.org/10.1126/science.1219021
-
-Ovchinnikov, S., Park, H., Varghese, N., Huang, P.-S., Pavlopoulos, G. A., Kim, D. E., Kamisetty, H., Kyrpides, N. C., & Baker, D. (2017). Protein structure determination using metagenome sequence data. Science, 355(6322), 294–298. https://doi.org/10.1126/science.aah4043
-
-Senior, A. W., Evans, R., Jumper, J., Kirkpatrick, J., Sifre, L., Green, T., Qin, C., Žídek, A., Nelson, A. W. R., Bridgland, A., Penedones, H., Petersen, S., Simonyan, K., Crossan, S., Kohli, P., Jones, D. T., Silver, D., Kavukcuoglu, K., & Hassabis, D. (2020). Improved protein structure prediction using potentials from deep learning. Nature, 577(7792), 706–710. https://doi.org/10.1038/s41586-019-1923-7
-
-Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., Costa, A. D. S., Fazel-Zarandi, M., Sercu, T., Candido, S., & Rives, A. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 379(6637), 1123–1130. https://doi.org/10.1126/science.ade2574
-
-- Beccari, J. B. (1745). De frumento. *De Bononiensi Scientiarum et Artium Instituto atque Academia Commentarii, 2*(1), 122–127.
-- Fourcroy, A.-F. de. (1789). *Élémens d'histoire naturelle et de chimie* (3rd ed., Vols. 1–5). Cuchet.
-- Fourcroy, A.-F. de. (1792). *Philosophie chimique, ou vérités fondamentales de la chimie moderne*. Cuchet.
-- Fourcroy, A.-F. de. (1801–1802). *Système des connaissances chimiques, et de leurs applications aux phénomènes de la nature et de l'art* (Vols. 1–11). Baudouin.
-- Vauquelin, L. N., & Robiquet, P. J. (1806). La découverte d'un nouveau principe végétal dans le suc des asperges. *Annales de Chimie, 57*, 88–93.
-- Wollaston, W. H. (1810). On cystic oxide, a new species of urinary calculus. *Philosophical Transactions of the Royal Society of London, 100*, 223–230.
-- Thénard, L.-J. (1810). On the combination of acids with animal and vegetable substances. *The Philosophical Magazine, 36*(150), 321–328.
-- Gay-Lussac, J.-L., & Thénard, L.-J. (1811). *Recherches physico-chimiques*. Deterville.
-- Proust, J. L. (1819). [Investigation concerning leucine in fermented gluten]. [Bibliographic details to verify].
-- Braconnot, H. (1820). Sur la conversion des matières animales en nouvelles substances par le moyen de l'acide sulfurique. *Annales de Chimie et de Physique, 13*, 113–125.
-- Mulder, G. J. (1839). Ueber die Zusammensetzung einiger thierischen Substanzen. *Journal für praktische Chemie, 16*, 129–152. https://doi.org/10.1002/prac.18390160137
-- Hünefeld, F. L. (1840). *Der Chemismus in der thierischen Organisation*. F. A. Brockhaus.
-- Liebig, J. (1842). *Animal chemistry, or organic chemistry in its application to physiology and pathology* (W. Gregory, Trans.). Taylor and Walton.
-- Liebig, J. (1847). *Researches on the chemistry of food*. Taylor and Walton.
-- Bopp, F. (1849). Untersuchungen über die eiweissartigen Substanzen. [Bibliographic details to verify].
-- Funke, O. (1851). [Investigations on the crystallization of blood pigment]. [Bibliographic details to verify].
-- Cramer, E. (1865). Ueber die Bestandtheile der Seide. *Journal für Praktische Chemie, 96*, 76–97.
-- Ritthausen, H. (1866). Ueber die Glutaminsäure. *Journal für Praktische Chemie, 99*, 454–462.
-- Ritthausen, H. (1868). Ueber die Zersetzungs-Produkte des Legumins und des Proteinkörpers der Lupinen und Mandeln beim Kochen mit Schwefelsäure. *Journal für Praktische Chemie, 103*, 233–238.
-- Schützenberger, P. (1875). Sur les matières albuminoïdes. *Comptes rendus de l'Académie des Sciences*. [Pagination to verify].
-- Schulze, E., & Barbieri, J. (1881). Ueber das Vorkommen von Phenylamidopropionsäure unter den Zersetzungsprodukten der Eiweissstoffe. *Berichte der Deutschen Chemischen Gesellschaft, 14*, 1785–1791.
-- Kjeldahl, J. (1883). Neue Methode zur Bestimmung des Stickstoffs in organischen Körpern. *Zeitschrift für Analytische Chemie, 22*, 366–382.
-- Schulze, E., & Bosshard, E. (1883). Untersuchungen über das Vorkommen von Glutamin in den Pflanzen. [Bibliographic details to verify].
-- Baumann, E. (1884). Ueber Cystin und seine Beziehungen zu den Eiweisskörpern. [Bibliographic details to verify].
-- Schulze, E., & Steiger, E. (1886). [Investigations concerning arginine]. [Bibliographic details to verify].
-- Hofmeister, F. (1888). Zur Lehre von der Wirkung der Salze. *Archiv für Experimentelle Pathologie und Pharmakologie, 24*, 247–260.
-- Weyl, T. (1888). Ueber die Bestandtheile der Seide. *Berichte der Deutschen Chemischen Gesellschaft*. [Pagination to verify].
-- Drechsel, E. (1889). Ueber das Lysin. [Bibliographic details to verify].
-- Drechsel, E. (1889). Untersuchungen über die Verdauung der Eiweisskörper. [Bibliographic details to verify].
-- Hedin, S. G. (1895). Ueber das Vorkommen von Arginin in Hornsubstanz. [Bibliographic details to verify].
-- Kossel, A. (1896). Untersuchungen über die Protamine und ihre Bestandteile. [Bibliographic details to verify].
-- Buchner, E. (1897). Alkoholische Gährung ohne Hefezellen. *Berichte der Deutschen Chemischen Gesellschaft, 30*, 117–124.
-- Mörner, K. A. H. (1899). Untersuchungen über die Proteinstoffe der Hornsubstanz. [Bibliographic details to verify].
-- Fischer, E. (1899). Synthese des Prolins. [Bibliographic details to verify].
-- Hopkins, F. G., & Cole, S. W. (1901). A contribution to the chemistry of proteids. Part II. A preliminary study of a hitherto undescribed product of tryptic digestion. *Journal of Physiology*.
-- Fischer, E., & Fourneau, E. (1901). Ueber einige Derivate des Glykocolls. *Berichte der Deutschen Chemischen Gesellschaft, 34*, 2868–2877.
-- Fischer, E. (1902). Ueber einige Derivate des Glykocolls, Alanins und Leucins. *Berichte der Deutschen Chemischen Gesellschaft, 35*, 1095–1106.
-- Fischer, E. (1906). Untersuchungen über Aminosäuren, Polypeptide und Proteïne. *Berichte der Deutschen Chemischen Gesellschaft, 39*(1), 530–610. https://doi.org/10.1002/cber.19060390190
-- Willcock, E. G., & Hopkins, F. G. (1906). The importance of individual amino-acids in metabolism: Observations on the effect of adding tryptophane to a dietary in which zein is the sole nitrogenous constituent. *The Journal of Physiology, 35*(1–2), 88–102. https://doi.org/10.1113/jphysiol.1906.sp001181
-- Osborne, T. B. (1909). *The vegetable proteins*. Longmans, Green.
-- Michaelis, L., & Menten, M. L. (1913). Die Kinetik der Invertinwirkung. *Biochemische Zeitschrift, 49*, 333–369.
-- Fischer, E., & Bergmann, M. (1913). Untersuchungen über die natürlichen und künstlichen Proteine. [Bibliographic details to verify].
-- Staudinger, H. (1920). Über Polymerisation. *Berichte der Deutschen Chemischen Gesellschaft, 53*, 1073–1085.
-- Willstätter, R., & Grassmann, W. (1924). Untersuchungen über die Enzyme. [Bibliographic details to verify].
-- Svedberg, T., & Fåhraeus, R. (1926). A new method for the determination of the molecular weight of the proteins. *Journal of the American Chemical Society, 48*(2), 430–438. https://doi.org/10.1021/ja01413a019
-- Abel, J. J. (1926). Crystalline insulin. *Journal of Pharmacology and Experimental Therapeutics*.
-- Sumner, J. B. (1926). The isolation and crystallization of the enzyme urease. *Journal of Biological Chemistry*.
-- Svedberg, T. (1929). Mass and size of protein molecules. *Nature, 123*, 871. https://doi.org/10.1038/123871a0
-- Northrop, J. H. (1930). Crystallization of pepsin. *Science*.
-- Svedberg, T., Carpenter, L. M., & Carpenter, D. C. (1930). The molecular weight of casein. I. *Journal of the American Chemical Society, 52*, 241–252. https://doi.org/10.1021/ja01364a036
-- Anson, M. L., & Mirsky, A. E. (1932). The estimation of pepsin with hemoglobin. *Journal of General Physiology*.
-- Svedberg, T. (1931). Molecular weights of the proteins in their native state. *Nature, 128*, 999–1000. https://doi.org/10.1038/128999b0
-- Astbury, W. T., & Atkin, W. R. (1933). X-ray interpretation of the molecular structure of gelatine. *Nature, 132*, 348. https://doi.org/10.1038/132348a0
-- Bernal, J. D., & Crowfoot, D. (1934). X-ray photographs of crystalline pepsin. *Nature, 133*, 794–795.
-- Astbury, W. T. (1936). X-ray studies of protein structure. *Nature, 137*, 803–805. https://doi.org/10.1038/137803a0
-- Mirsky, A. E., & Pauling, L. (1936). On the structure of native, denatured, and coagulated proteins. *Proceedings of the National Academy of Sciences, 22*(7), 439–447.
-- Astbury, W. T., & Bell, F. O. (1940). Molecular structure of the collagen fibres. *Nature, 145*, 421–422. https://doi.org/10.1038/145421a0
-- Beadle, G. W., & Tatum, E. L. (1941). Genetic control of biochemical reactions in *Neurospora*. *Proceedings of the National Academy of Sciences, 27*(11), 499–506.
-- Avery, O. T., MacLeod, C. M., & McCarty, M. (1944). Studies on the chemical nature of the substance inducing transformation of pneumococcal types. *Journal of Experimental Medicine, 79*(2), 137–158.
-- Sanger, F. (1945). The free amino groups of insulin. *Biochemical Journal, 39*, 507–515.
-- Astbury, W. T. (1947). X-ray studies of the structure of hair, wool, and related fibres. [Bibliographic details to verify].
-- Porter, R. R., & Sanger, F. (1948). The free amino groups of insulin. *Biochemical Journal, 42*(2), 287–294.
-- Sanger, F. (1948). Some peptides from insulin. *Nature, 162*, 491–492.
-- Northrop, J. H., Kunitz, M., & Herriott, R. M. (1948). *Crystalline enzymes*. Columbia University Press.
-- Sanger, F. (1949). Fractionation of oxidized insulin. *Biochemical Journal, 44*(1), 126–128.
-- Edman, P. (1949). A method for the determination of amino acid sequence in peptides. *Archives of Biochemistry, 22*, 475.
-- Stein, W. H., & Moore, S. (1950). Chromatographic determination of the amino acid composition of proteins. *Cold Spring Harbor Symposia on Quantitative Biology, 14*, 179–190.
-- Edman, P. (1950). Method for determination of the amino acid sequence in peptides. *Acta Chemica Scandinavica, 4*, 283–293.
-- Bamford, C. H., & Hanby, W. E. (1951). Structure of synthetic polypeptides and proteins. *Nature, 168*, 340–341. https://doi.org/10.1038/168340b0
-- Moore, S., & Stein, W. H. (1951). Chromatography of amino acids on sulfonated polystyrene resins. *Journal of Biological Chemistry*.
-- Pauling, L., Corey, R. B., & Branson, H. R. (1951). The structure of proteins: Two hydrogen-bonded helical configurations of the polypeptide chain. *Proceedings of the National Academy of Sciences, 37*(4), 205–211. https://doi.org/10.1073/pnas.37.4.205
-- Pauling, L., & Corey, R. B. (1951). Atomic coordinates and structure factors for two helical configurations of polypeptide chains. *Proceedings of the National Academy of Sciences, 37*(5), 235–240. https://doi.org/10.1073/pnas.37.5.235
-- Pauling, L., & Corey, R. B. (1951). The pleated sheet, a new layer configuration of polypeptide chains. *Proceedings of the National Academy of Sciences, 37*(5), 251–256. https://doi.org/10.1073/pnas.37.5.251
-- Pauling, L., & Corey, R. B. (1951). The structure of hair, muscle, and related proteins. *Proceedings of the National Academy of Sciences, 37*(5), 261–271. https://doi.org/10.1073/pnas.37.5.261
-- Pauling, L., & Corey, R. B. (1951). The structure of fibrous proteins of the collagen-gelatin group. *Proceedings of the National Academy of Sciences, 37*(5), 272–281. https://doi.org/10.1073/pnas.37.5.272
-- Sanger, F., & Tuppy, H. (1951). The amino-acid sequence in the phenylalanyl chain of insulin. I. The identification of lower peptides from partial hydrolysates. *Biochemical Journal, 49*(4), 463–481. https://doi.org/10.1042/bj0490463
-- Sanger, F., & Tuppy, H. (1951). The amino-acid sequence in the phenylalanyl chain of insulin. II. The investigation of peptides from enzymic hydrolysates. *Biochemical Journal, 49*(4), 481–490. https://doi.org/10.1042/bj0490481
-- Bragg, W. L., & Perutz, M. F. (1952). The structure of haemoglobin. *Proceedings of the Royal Society A*. [Bibliographic details to verify].
-- du Vigneaud, V., Ressler, C., & Trippett, S. (1953). The sequence of amino acids in oxytocin, with a proposal for the structure of oxytocin. *Journal of Biological Chemistry*. [Pagination to verify].
-- Sanger, F., & Thompson, E. O. P. (1953). The amino-acid sequence in the glycyl chain of insulin. I. The identification of lower peptides from partial hydrolysates. *Biochemical Journal, 53*(3), 353–366. https://doi.org/10.1042/bj0530353
-- Sanger, F., & Thompson, E. O. P. (1953). The amino-acid sequence in the glycyl chain of insulin. II. The investigation of peptides from enzymic hydrolysates. *Biochemical Journal, 53*(3), 366–374. https://doi.org/10.1042/bj0530366
-- Kendrew, J. C. (1954). The structure of myoglobin. [Bibliographic details to verify].
-- Zamecnik, P. C., & Keller, E. B. (1954). Relation between phosphate energy donors and incorporation of labeled amino acids into proteins. *Journal of Biological Chemistry, 209*(1), 337–354.
-- Keller, E. B., Zamecnik, P. C., & Loftfield, R. B. (1954). The role of microsomes in the incorporation of amino acids into proteins. *Journal of Histochemistry & Cytochemistry, 2*(5), 378–386. https://doi.org/10.1177/2.5.378
-- Smithies, O. (1955). Zone electrophoresis in starch gels: Group variations in the serum proteins of normal human adults. *Biochemical Journal, 61*, 629–641.
-- Anfinsen, C. B. (1955). Studies on the reduction and re-formation of protein disulfide bonds. *Biochimica et Biophysica Acta*. [Bibliographic details to verify].
-- Ryle, A. P., Sanger, F., Smith, L. F., & Kitai, R. (1955). The disulphide bonds of insulin. *Biochemical Journal, 60*(4), 541–556. https://doi.org/10.1042/bj0600541
-- Hoagland, M. B., Keller, E. B., & Zamecnik, P. C. (1956). Enzymatic carboxyl activation of amino acids. *Journal of Biological Chemistry*. [Pagination to verify].
-- Moore, S., Spackman, D. H., & Stein, W. H. (1958). Chromatography of amino acids on sulfonated polystyrene resins: An improved system. *Analytical Chemistry, 30*(7), 1185–1190.
-- Spackman, D. H., Stein, W. H., & Moore, S. (1958). Automatic recording apparatus for use in the chromatography of amino acids. *Analytical Chemistry, 30*(7), 1190–1206.
-- Crick, F. H. C. (1958). On protein synthesis. *Symposia of the Society for Experimental Biology, 12*, 138–163.
-- Koshland, D. E., Jr. (1958). Application of a theory of enzyme specificity to protein synthesis. *Proceedings of the National Academy of Sciences, 44*(2), 98–104. https://doi.org/10.1073/pnas.44.2.98
-- Porath, J., & Flodin, P. (1959). Gel filtration: A method for desalting and group separation. *Nature, 183*, 1657–1659.
-- Kendrew, J. C., Bodo, G., Dintzis, H. M., Parrish, R. G., Wyckoff, H., & Phillips, D. C. (1958). A three-dimensional model of the myoglobin molecule obtained by X-ray analysis. *Nature, 181*, 662–666.
-- Perutz, M. F., et al. (1960). Structure of hæmoglobin: A three-dimensional Fourier synthesis at 5.5-Å resolution, obtained by X-ray analysis. *Nature, 185*, 416–422.
-- Kendrew, J. C., et al. (1960). Structure of myoglobin: A three-dimensional Fourier synthesis at 2 Å resolution. *Nature, 185*, 422–427.
-- Anfinsen, C. B., Haber, E., Sela, M., & White, F. H., Jr. (1961). The kinetics of formation of native ribonuclease during oxidation of the reduced polypeptide chain. *Proceedings of the National Academy of Sciences, 47*(9), 1309–1314.
-- Nirenberg, M. W., & Matthaei, J. H. (1961). The dependence of cell-free protein synthesis in *E. coli* upon naturally occurring or synthetic polyribonucleotides. *Proceedings of the National Academy of Sciences, 47*(10), 1588–1602.
-- Crick, F. H. C., Barnett, L., Brenner, S., & Watts-Tobin, R. J. (1961). General nature of the genetic code for proteins. *Nature, 192*, 1227–1232.
-- Perutz, M. F. (1962). Relation between structure and sequence of hæmoglobin. *Nature, 194*, 914–917.
-- Merrifield, R. B. (1963). Solid phase peptide synthesis. I. The synthesis of a tetrapeptide. *Journal of the American Chemical Society, 85*(14), 2149–2154. https://doi.org/10.1021/ja00897a025
-- Monod, J., Changeux, J.-P., & Jacob, F. (1963). Allosteric proteins and cellular control systems. *Journal of Molecular Biology, 6*, 306–329.
-- Nirenberg, M., & Leder, P. (1964). RNA codewords and protein synthesis. The effect of trinucleotides upon the binding of sRNA to ribosomes. *Science, 145*(3639), 1399–1407. https://doi.org/10.1126/science.145.3639.1399
-- Holley, R. W., Apgar, J., Everett, G. A., Madison, J. T., Marquisee, M., Merrill, S. H., Penswick, J. R., & Zamir, A. (1965). Structure of a ribonucleic acid. *Science, 147*(3664), 1462–1465. https://doi.org/10.1126/science.147.3664.1462
-- Zuckerkandl, E., & Pauling, L. (1965). Evolutionary divergence and convergence in proteins. In *Evolving genes and proteins* (pp. 97–166). Academic Press.
-- Monod, J., Wyman, J., & Changeux, J.-P. (1965). On the nature of allosteric transitions: A plausible model. *Journal of Molecular Biology, 12*(1), 88–118. https://doi.org/10.1016/S0022-2836(65)80285-6
-- Koshland, D. E., Némethy, G., & Filmer, D. (1966). Comparison of experimental binding data and theoretical models in proteins containing subunits. *Biochemistry, 5*, 365–385.
-- Phillips, D. C. (1967). The hen egg-white lysozyme molecule. *Proceedings of the National Academy of Sciences, 57*, 484–495.
-- Levinthal, C. (1969). How to fold graciously. In *Mössbauer spectroscopy in biological systems*.
-- Laemmli, U. K. (1970). Cleavage of structural proteins during the assembly of the head of bacteriophage T4. *Nature, 227*, 680–685.
-- Singer, S. J., & Nicolson, G. L. (1972). The fluid mosaic model of the structure of cell membranes. *Science, 175*(4023), 720–731.
-- Anfinsen, C. B. (1973). Principles that govern the folding of protein chains. *Science, 181*(4096), 223–230.
-- Cohen, S. N., Chang, A. C. Y., Boyer, H. W., & Helling, R. B. (1973). Construction of biologically functional bacterial plasmids in vitro. *Proceedings of the National Academy of Sciences, 70*(11), 3240–3244. https://doi.org/10.1073/pnas.70.11.3240
-- Blobel, G., & Dobberstein, B. (1975). Transfer of proteins across membranes. I. Presence of proteolytically processed and unprocessed nascent immunoglobulin light chains on membrane-bound ribosomes of murine myeloma. *The Journal of Cell Biology, 67*(3), 835–851. https://doi.org/10.1083/jcb.67.3.835
-- Blobel, G., & Dobberstein, B. (1975). Transfer of proteins across membranes. II. Reconstitution of functional rough microsomes from heterologous components. *The Journal of Cell Biology, 67*(3), 852–862. https://doi.org/10.1083/jcb.67.3.852
-- O'Farrell, P. H. (1975). High resolution two-dimensional electrophoresis of proteins. *The Journal of Biological Chemistry, 250*(10), 4007–4021.
-- Dayhoff, M. O., Schwartz, R. M., & Orcutt, B. C. (1978). A model of evolutionary change in proteins. In *Atlas of protein sequence and structure* (Vol. 5, Suppl. 3, pp. 345–352).
-- Ciechanover, A., Elias, S., Heller, H., & Hershko, A. (1980). Covalent affinity of ubiquitin to specific nuclear histone proteins. *Journal of Biological Chemistry, 255*, 7525–7528.
-- Richardson, J. S. (1981). The anatomy and taxonomy of protein structure. *Advances in Protein Chemistry, 34*, 167–339.
-- Prusiner, S. B. (1982). Novel proteinaceous infectious particles cause scrapie. *Science, 216*(4542), 136–144.
-- Houghten, R. A. (1985). General method for the rapid solid-phase synthesis of large numbers of peptides: Specificity of antigen-antibody interaction at the level of individual amino acids. *Proceedings of the National Academy of Sciences, 82*(15), 5131–5135. https://doi.org/10.1073/pnas.82.15.5131
-- Deisenhofer, J., et al. (1985). Structure of the protein subunits in the photosynthetic reaction centre of *Rhodopseudomonas viridis* at 3 Å resolution. *Nature, 318*, 618–624.
-- Harrison, S. C., & Durbin, R. (1985). Is there a single pathway for the folding of a polypeptide chain? *Proceedings of the National Academy of Sciences, 82*, 4028–4030.
-- Wüthrich, K. (1986). *NMR of proteins and nucleic acids*. Wiley.
-- Henderson, R., Baldwin, J. M., Downing, K. H., Lepault, J., & Zemlin, F. (1986). Structure of purple membrane from *Halobacterium halobium*: Recording, measurement and evaluation of electron micrographs at 3.5 Å resolution. *Ultramicroscopy, 19*, 147–178.
-- Karas, M., & Hillenkamp, F. (1988). Laser desorption ionization of proteins with molecular masses exceeding 10,000 daltons. *Analytical Chemistry, 60*(20), 2299–2301.
-- Fenn, J. B., Mann, M., Meng, C. K., Wong, S. F., & Whitehouse, C. M. (1989). Electrospray ionization for mass spectrometry of large biomolecules. *Science, 246*(4926), 64–71.
-- Fields, S., & Song, O. (1989). A novel genetic system to detect protein–protein interactions. *Nature, 340*, 245–246.
-- Altschul, S. F., et al. (1990). Basic local alignment search tool. *Journal of Molecular Biology, 215*, 403–410.
-- Chait, B. T., & Kent, S. B. H. (1992). Weighing naked proteins: Practical, high-accuracy mass measurement of peptides and proteins. *Science, 257*, 1885–1894.
-- Henzel, W. J., et al. (1993). Identifying proteins from two-dimensional gels by molecular mass searching of peptide fragments in protein sequence databases. *Proceedings of the National Academy of Sciences*. [Bibliographic details to verify].
-- Pan, K.-M., et al. (1993). Conversion of alpha-helices into beta-sheets features in the formation of the scrapie prion proteins. *Proceedings of the National Academy of Sciences, 90*(23), 10962–10966.
-- Mann, M., & Wilm, M. (1994). Error-tolerant identification of peptides in sequence databases by peptide sequence tags. *Analytical Chemistry, 66*, 4390–4399.
-- Hunter, T. (1995). Protein kinases and phosphatases: The yin and yang of protein phosphorylation and signaling. *Cell, 80*(2), 225–236.
-- Wilkins, M. R., Pasquali, C., Appel, R. D., Ou, K., Golaz, O., Sanchez, J.-C., Yan, J. X., Gooley, A. A., Hughes, G., Humphery-Smith, I., Williams, K. L., & Hochstrasser, D. F. (1996). From proteins to proteomes: Large scale protein identification by two-dimensional electrophoresis and amino acid analysis. *Nature Biotechnology, 14*, 61–65. https://doi.org/10.1038/nbt0196-61
-- Doyle, D. A., et al. (1998). The structure of the potassium channel: Molecular basis of K⁺ conduction and selectivity. *Science, 280*(5360), 69–77.
-- Hershko, A., & Ciechanover, A. (1998). The ubiquitin system. *Annual Review of Biochemistry, 67*, 425–479.
-- Wright, P. E., & Dyson, H. J. (1999). Intrinsically unstructured proteins: Re-assessing the protein structure–function paradigm. *Journal of Molecular Biology, 293*(2), 321–331. https://doi.org/10.1006/jmbi.1999.3110
-- Gygi, S. P., Rist, B., Gerber, S. A., Turecek, F., Gelb, M. H., & Aebersold, R. (1999). Quantitative analysis of complex protein mixtures using isotope-coded affinity tags. *Nature Biotechnology, 17*, 994–999. https://doi.org/10.1038/13690
-- Uetz, P., et al. (2000). A comprehensive analysis of protein–protein interactions in *Saccharomyces cerevisiae*. *Nature, 403*, 623–627.
-- Bairoch, A., & Apweiler, R. (2000). The SWISS-PROT protein sequence database and its supplement TrEMBL in 2000. *Nucleic Acids Research, 28*(1), 45–48.
-- Berman, H. M., et al. (2000). The Protein Data Bank. *Nucleic Acids Research, 28*(1), 235–242.
-- Uversky, V. N., Gillespie, J. R., & Fink, A. L. (2000). Why are "natively unfolded" proteins unstructured under physiologic conditions? *Proteins: Structure, Function, and Genetics, 41*(3), 415–427.
-- Dunker, A. K., Lawson, J. D., Brown, C. J., Williams, R. M., Romero, P., Oh, J. S., Oldfield, C. J., Campen, A. M., Ratliff, C. M., Hipps, K. W., Ausio, J., Nissen, M. S., Reeves, R., Kang, C., Kissinger, C. R., Bailey, R. W., Griswold, M. D., Chiu, W., Garner, E. C., & Obradovic, Z. (2001). Intrinsically disordered protein. *Journal of Molecular Graphics and Modelling, 19*(1), 26–59. https://doi.org/10.1016/S1093-3263(00)00138-8
-- Tompa, P. (2002). Intrinsically unstructured proteins. *Trends in Biochemical Sciences, 27*(10), 527–533.
-- Hartl, F. U., & Hayer-Hartl, M. (2002). Molecular chaperones in the cytosol: From nascent chain to folded protein. *Science, 295*(5561), 1852–1858.
-- Gavin, A.-C., et al. (2002). Functional organization of the yeast proteome by systematic analysis of protein complexes. *Nature, 415*, 141–147.
-- Aebersold, R., & Mann, M. (2003). Mass spectrometry-based proteomics. *Nature, 422*, 198–207.
-- Cox, J., & Mann, M. (2008). MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification. *Nature Biotechnology, 26*, 1367–1372.
-- Kim, M.-S., et al. (2014). A draft map of the human proteome. *Nature, 509*, 575–581.
-- Wilhelm, M., et al. (2014). Mass-spectrometry-based draft of the human proteome. *Nature, 509*, 582–587.
-- Baek, M., et al. (2021). Accurate prediction of protein structures and interactions using a three-track neural network. *Science, 373*(6557), 871–876. https://doi.org/10.1126/science.abj8754
-- Jumper, J., et al. (2021). Highly accurate protein structure prediction with AlphaFold. *Nature, 596*(7873), 583–589. https://doi.org/10.1038/s41586-021-03819-2
-- Watson, J. L., Juergens, D., Bennett, N. R., Trippe, B. L., Yim, J., Eisenach, H. E., Ahern, W., Borst, A. J., Ragotte, R. J., Milles, L. F., Wicky, B. I. M., Hanikel, N., Pellock, S. J., Courbet, A., Wang, J., Venkatesh, P., Sappington, I., Vázquez Torres, S., Lauko, A., ... Baker, D. (2023). De novo design of protein structure and function with RFdiffusion. *Nature, 620*, 1089–1100. https://doi.org/10.1038/s41586-023-06415-8
-- Abramson, J., et al. (2024). Accurate structure prediction of biomolecular interactions with AlphaFold 3. *Nature, 630*, 493–500.
+**Scope note**: every topic the note names now has literature in the list above. What remains open is depth, not coverage: the sections on allostery, enzyme mechanism and protein design cite their founding papers but not the modern literature that has superseded them.

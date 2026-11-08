@@ -1,5 +1,22 @@
 ---
-tags: [note, nature, substance-matter, matter]
+tags: [note, nature, matter]
+qa:
+ - What are the origins of mass?
+ - What is the deep ontology of matter?
+ - Which are the fundamental states of matter?
+ - What is the best theory of matter that we have?
+ - Is spacetime continuous or discrete?
+ - Are quantum fields the most fundamental entities, or do they emerge from something deeper?
+ - Why do we have the specific set of elementary particles (quarks, leptons, gauge bosons) and forces (electromagnetic, weak, strong, gravity) that we observe?
+ - Are symmetries fundamental, or do they emerge from deeper principles?
+ - Why do particles have the specific masses they do, and how does the Higgs mechanism work?
+ - What are these mysterious components that make up 95% of the universe’s energy content?
+ - What existed before the Big Bang, and what triggered the expansion of the universe?
+ - Is there a limit to how deeply we can probe the universe, due to quantum uncertainty or other constraints?
+ - Which the the most fundamental properties of physical realty?
+ - Does spacetime emerge from something more fundamental, such as quantum entanglement or information?
+ - Why do these constants have the values they do? Are they truly constant, or do they vary over time or space?
+ - Does the universe fundamentally compute or process information, as suggested by quantum information theory?
 ---
 
 # Matter
@@ -10,27 +27,39 @@ tags: [note, nature, substance-matter, matter]
 > A **free particle** is a particle that is not bound to other particles or systems and is not subject to any external forces or constraints (or is subject only to negligible forces).
 >
 
-QA:
-
-- What are the origins of mass?
-- What is the deep ontology of matter?
-- Which are the fundamental states of matter?
-- What is the best theory of matter that we have?
-- Is spacetime continuous or discrete?
-- Are quantum fields the most fundamental entities, or do they emerge from something deeper?
-- Why do we have the specific set of elementary particles (quarks, leptons, gauge bosons) and forces (electromagnetic, weak, strong, gravity) that we observe?
-- Are symmetries fundamental, or do they emerge from deeper principles?
-- Why do particles have the specific masses they do, and how does the Higgs mechanism work?
-- What are these mysterious components that make up 95% of the universe’s energy content?
-- What existed before the Big Bang, and what triggered the expansion of the universe?
-- Is there a limit to how deeply we can probe the universe, due to quantum uncertainty or other constraints?
-- Which the the most fundamental properties of physical realty?
-- Does spacetime emerge from something more fundamental, such as quantum entanglement or information?
-- Why do these constants have the values they do? Are they truly constant, or do they vary over time or space?
-- Does the universe fundamentally compute or process information, as suggested by quantum information theory?
-- …
 
 ## Index
+
+## Which are the types of subdivision of matter?
+
+> A **matter type** is distinguished by what makes two samples the same type — its identity criterion — not by size or by level of organisation. Two samples are the same element because they share a proton number; the same molecule because they share a connectivity; the same mixture because they share a set of constituents.
+
+> The rows below are **types of matter, not levels of it**. Each is individuated by a different criterion, so one sample can answer to several at once — a gold atom is an element, an isotope and a protonuclide simultaneously. States of matter are deliberately absent: a state describes how a type arranges itself, not what type it is, and belongs to the section below.
+
+| Matter Type | Structure | Description |
+| --- | --- | --- |
+| **Element** | proton number | All atoms of one atomic number. The identity is the nuclear charge alone, which is why an isotope and an ion of one element are still that element. |
+| **Isotope** | proton number and neutron number | Same element, different neutron count: identical chemistry, different mass and different nuclear behaviour. |
+| **Protonuclide** | proton count | The atomic category itself, individuated by Z across all nuclides — the note that names the category rather than one member of it. |
+| **Ion** | proton count and electron count | Same nucleus, different electron count, hence a net charge; electrons gained or lost without the element changing. |
+| **Molecule** | bonded atoms in a definite arrangement | A definite set of atoms held by covalent bonds. Identity is the connectivity and geometry, not the composition — isomers are different molecules with the same atoms. |
+| **Compound** | fixed composition of a molecule's or crystal's units | A substance of fixed elemental ratio. Identity is the *ratio*, not the collection: water is one compound however many molecules of it are present. |
+| **Biomolecule** | carbon skeleton within a living system | The molecular category of living matter — proteins, lipids, carbohydrates, nucleic acids, metabolites — individuated by their biological role and not by carbon alone. |
+| **Mixture** | several substances together | Composition varies between samples. Identity is the set of constituents and their proportions, not a fixed ratio. |
+| **Colloid** | one phase dispersed in another | A mixture whose identity is its dispersion state: particles large enough not to dissolve, small enough not to settle. |
+| **Alloy** | metallic mixture with a phase structure | A solid mixture of metals whose properties come from the phases it forms, not from its nominal composition. |
+| **Mineral** | crystalline structure | A naturally occurring solid of definite composition and lattice. Identity is the crystal structure — the same atoms in a different lattice are a different mineral. |
+| **Material** | microstructure | A substance as actually used, with grains, defects and interfaces. Its properties belong to the microstructure, not to the idealised composition. |
+
+Three groupings in this table are easy to misunderstand and worth naming.
+
+**Element, isotope and protonuclide cut the same nuclear fact three ways.** An element is all isotopes sharing one Z; an isotope is one Z with one neutron count; a protonuclide is the Z-category considered across nuclides. None is more fundamental than the others — they answer different questions about the same nuclei.
+
+**Molecule and compound are the classically confused pair.** A molecule is one bonded unit; a compound is the substance such units make, whose identity is the fixed ratio. A sample of water contains many molecules but is one compound.
+
+**Mixture, colloid and alloy differ in how substances are combined, not in what they are combined from.** A mixture varies in proportion, a colloid is organised by dispersion, an alloy by phase structure.
+
+> A **state of matter** — solid, liquid, gas, plasma, condensate — is how matter arranges itself, not what type it is. It belongs to the section below and is deliberately not a row of this table.
 
 ## Ontology
 
@@ -118,7 +147,6 @@ QA:
 ## Plank Scale
 
 > The Planck scale refers to the set of physical units defined by fundamental constants of nature (such as the speed of light, Planck’s constant, and the gravitational constant) that represent the smallest meaningful measurements of length, time, energy, and mass. At this scale—approximately $1.6 \times 10^{-35}$ meters in length—classical concepts of space and time are expected to break down, and quantum effects of gravity become significant. It is considered the scale at which a unified theory of quantum gravity is necessary to describe physical phenomena.
->
 
 ## References
 
@@ -126,15 +154,10 @@ QA:
 - https://en.wikipedia.org/wiki/State_of_matter
 - https://en.wikipedia.org/wiki/Standard_Model
 - https://www.symmetrymagazine.org/article/the-planck-scale?language_content_entity=und
-
-## Related
-
 - [Interaction](/view.html?p=notes/nature/theory/interaction.md)
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/fundamental-molecular-interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 - [Electric Charge](/view.html?p=notes/nature/electric-charge.md)
 - [Heisenberg Uncertainty Principle](/view.html?p=notes/nature/heisenberg-uncertainty-principle.md)
 
-## Provenance
 
-- Notion export: `Modelo/Nature/Conceptual Model Natural System/Matter 209b4646856a413186ebc5b793910b2b.md`

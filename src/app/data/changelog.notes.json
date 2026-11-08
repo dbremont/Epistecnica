@@ -59768,5 +59768,195 @@
         "commit": "5bfb788ea8de66d83ad6e090c8582e9e885daf59"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/private/health/medical-laboratory.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Medical Laboratory actor note with the Wikipedia reference."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/protein.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "refactor",
+        "summary": "Rebuild the References section: one flat bibliography in APA style, ordered by year (1728–2024) and deduplicated, with incomplete records flagged [Unverified] and the uncovered topics stated once."
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Verify the pre-1900 bibliography: Drechsel 1889, Kossel 1896, Hedin 1895, Mörner 1899 and Schulze & Steiger 1886 get volume, pages and DOI; the duplicate records of Drechsel and Kossel are removed."
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the literature the note's own tables were missing: Fischer 1894 (lock-and-key), Fitch 1970 (homology), Kalderon 1984 (nuclear location signal), Söllner 1993 (SNAREs), Spillantini 1997 (alpha-synuclein) and Vale & Milligan 2000 (molecular motors); regenerate the closing gap paragraph from the list."
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Close the last coverage gaps: Pauling 1948 (transition-state catalysis), Perutz 1970 (allostery), the Huntington's Disease Collaborative Research Group 1993, Svoboda & Block 1994 (optical forces), Medalia 2002 (cryo-ET) and Inomata 2009 (in-cell NMR); replace the gap paragraph with a scope note."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/gluten.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the gluten note: the viscoelastic storage-protein network of cereal flour, typed as a Substance / Matter with a natural-systems reading, decomposed into its gliadin and glutenin families, its bonding mechanisms, its mechanical properties and the processes that build it; the clinical reading (gluten-related disorders) is kept separate."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/protein-complex.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the protein-complex note: a multi-subunit assembly typed as a Natural System for the function its chains carry collectively, decomposed into subunits, interfaces, associative mechanisms, assembly and allosteric transitions, and readable as a Building Block under quaternary structure."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/glucose.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the glucose note: the six-carbon aldose, its ring-chain and anomeric forms, the α/β fork that separates starch from cellulose, and the reactions it enters as a metabolite."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/starch.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the starch note: the amylose-amylopectin mixture, granule organisation, gelatinisation and retrogradation, and digestibility."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/cellulose.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Replace the placeholder with a full note: the β-1,4 glucan, the fibrillar hierarchy, interchain hydrogen bonding, oxidative ageing and the macromolecule debate it settled."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/carbohydrate.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Replace the stub with a full note: the carbonyl-plus-hydroxyl motif, the ring-chain closure, the monosaccharide-oligosaccharide-polysaccharide grading, and the compositional-versus-structural boundary."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/enzyme/enzyme.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Rewrite the enzyme note: the class table becomes a section on the seven IUBMB enzyme classes (EC 1–7, translocases added 2018), correcting the duplicated hydrolase row and the non-existent 'pyruvate ligase'; add what an enzyme is and a year-ordered history from Payen & Persoz 1833 through Buchner 1897 to the 1961 Enzyme List."
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Give the enzyme note its natural Formulation and decomposition: typed as a Substance / Matter with the building-block and mechanism readings as prose, decomposed into chain, active site, catalytic mechanisms, turnover cycle and kinetic properties, with the EC taxonomy explicitly excluded from the tree and a QA answering substance-versus-process and catalyst-versus-biocatalyst."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/biomolecular-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add the human biomolecular-architecture note: the ladder of composition from chemical constituents through biomolecules, molecular complexes and molecular assemblies to biochemical pathways and regulatory networks."
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add the 'Structural and Functional Organization of the Human Biochemical Machinery' section: an eight-category scope table split along structural (constituents to cellular structures) and functional (processes, regulation, transport) axes, with the two rows that reach past the molecular level marked as belonging to this table but decomposed elsewhere."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/human/molecular-regulatory-networks.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add the molecular regulatory network note: the control layer above the pathways, its control edges, recurring motifs (autoregulation, feed-forward loops, mutual inhibition, delayed feedback) and the response modes they produce."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/transformation-of-matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Fill the transformation-of-matter note: give it a Formulation typed as a Phenomenon with the Aspect reading as prose, a sixteen-row decomposition of states, paths, quantities and constraints, the promised table of transformation types ordered by depth of change, the modelling-element table, and repaired references."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/protonuclide.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Rename the chemical-element note to protonuclide; retitle the section on characterisation and add the naming question to the QA."
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note under nature/matter/ with the other matter categories."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note under nature/matter/ with the other matter categories."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/biomolecule.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note under nature/matter/ with the other matter categories."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/substance.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note under nature/matter/ with the other matter categories."
+      }
+    ]
   }
 ]

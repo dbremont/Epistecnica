@@ -4,7 +4,7 @@ tags: [note, nature, substance-matter, materials-science, matter]
 
 # Chemical Element
 
-> A **chemical element** is a pure substance consisting entirely of **atoms** with the same number of **protons** in their nuclei, which defines the element's atomic number. Elements are the fundamental building blocks of matter, and they cannot be broken down into simpler substances by chemical means.
+> A **chemical element** — the concept conventionally called a *chemical element* — is a pure substance consisting entirely of **atoms** with the same number of **protons** in their nuclei, which defines the atomic number. Naming the category by its proton number rather than by the word "element" says what actually individuates it: two nuclides with the same proton count are the same protonuclide whatever their neutron count, and a change of proton count is the only change that makes a different one. Protonuclides are the fundamental building blocks of matter, and they cannot be decomposed into simpler substances by chemical means.
 >
 
 > Examples include hydrogen ($H$), oxygen ($O$), and gold ($Au$).
@@ -22,17 +22,14 @@ QA:
 - Can it infer unknown behaviors of rare or synthetic elements?
 - What is the organizing principle behind the table (e.g., atomic number, quantum structure)?
 - How does the system handle anomalies (e.g., hydrogen’s placement, lanthanides)?
-- How is it that only the number of protons defines the identity of a chemical element? Can all transformations of matter be modeled using just this abstraction?
+- How is it that only the number of protons defines the identity of a protonuclide? Can all transformations of matter be modeled using just this abstraction?
+- Why call the category *protonuclide* rather than *chemical element*?
 
-## Index
-
-## Chemical Element Characterization
+## Probing a Protonuclide
 
 > aka. Properties that define it’s identity.
->
 
 > A **chemical element** is characterized by its **atomic number (Z)** — the **number of protons** in the nucleus of each of its atoms.
->
 
 | **Category** | **Property** | **Consequences** | **Why? (Atomic-Level Explanation)** |
 | --- | --- | --- | --- |
@@ -61,10 +58,9 @@ QA:
 |  | Decay Modes | Enables element transmutation | Driven by energy and stability of nucleus |
 |  | Neutron Cross-Section | Important in reactors and transmutation | Measures probability of neutron absorption |
 
-## Identification  & Categorization
+## Identification and Categorization
 
 > …
->
 
 | **Period** | **Milestone** | **Key Figures** | **Notes** |
 | --- | --- | --- | --- |
@@ -95,7 +91,7 @@ QA:
 | Integrate Theories | Be consistent with atomic, quantum, and nuclear physics |
 | Support Application | Guide use in chemistry, industry, and materials |
 
-[Chemical Element: Database](data/nature/chemical-element/chemical-element-database.csv)
+[Chemical Element: Database](chemical-element-database.csv)
 
 ## QA
 
@@ -170,6 +166,3 @@ This definition is grounded in **quantum electrodynamics** and **nuclear physics
 - [Atom](/view.html?p=notes/nature/atom.md)
 - [Electron](/view.html?p=notes/nature/electron.md)
 
-## Provenance
-
-- Notion export: `Modelo/Nature/Conceptual Model Natural System/Chemical Element 16cc0f5171ec80819c22dc5852e3fe06.md`

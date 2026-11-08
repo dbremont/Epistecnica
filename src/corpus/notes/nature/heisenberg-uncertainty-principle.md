@@ -16,7 +16,7 @@ tags: [note, nature, natural-constraint, physics, principle]
 
 ## Related
 
-- [Matter](/view.html?p=notes/nature/matter.md)
+- [Matter](/view.html?p=notes/nature/matter/matter.md)
 
 ## Provenance
 

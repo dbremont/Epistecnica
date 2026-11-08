@@ -60,7 +60,7 @@ Due to spherical symmetry, switch to **spherical coordinates** and separate vari
 
 ## References
 
-- [Hydrogen](/view.html?p=notes/nature/chemical-element/chemical-element-database/hydrogen.md)
+- [Hydrogen](/view.html?p=notes/nature/matter/chemical/hydrogen.md)
 - [Quantum Framework](https://app.notion.com/p/Quantum-Framework-1e6c0f5171ec80bfb5b7cb858905c0e9?pvs=21)
 
 ## Provenance
