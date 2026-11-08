@@ -80744,7 +80744,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Fill the persona note in the six-question philosophia socialium shell: biographical lead and the demon quotation, a 26-row decomposition of constitution, agency, activities, associations and attributes, a conceptual evaluation of the person-concept, and cross-links to the four Laplace treatises the corpus holds."
+        "summary": "Fill the persona note in the six-question philosophia socialium shell: biographical lead and the demon quotation, a 26-row decomposition of constitution, agency, activities, associations and attributes, a conceptual evaluation of the person-concept, and cross-links to the four Laplace treatises the corpus holds.",
+        "commit": "ada660a4dfadc754f5d9023acee62f5b0a7fd4af",
+        "before": "d4a8318c72a38112ed77a15496c5414bf8be759a"
       }
     ]
   }
