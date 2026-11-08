@@ -26356,6 +26356,11 @@
         "kind": "feat",
         "summary": "add Soviet-era scientist persona note",
         "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Link the institute the persona note names to its own note, social/collective/actor/public/catalog/research/rus/institute-for-physical-problems.md."
       }
     ]
   },
@@ -61566,6 +61571,11 @@
         "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
         "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
         "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "chore",
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
       }
     ]
   },
@@ -80754,6 +80764,16 @@
         "summary": "Drop the French-original Traité row from the documents list — the stub has left the corpus.",
         "commit": "206a80e54d6dda149995d07a31486efd5fa6eb3a",
         "before": "e94dbf45b4df5d2642ba37bf89fbcdba0abd1a2d"
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/public/catalog/research/rus/institute-for-physical-problems.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the P. L. Kapitza Institute for Physical Problems: founded 23 December 1934 for Kapitsa after his return from England, seven official names on one continuity, six directors, the low-temperature, atomic and plasma programs, the three Nobel laureates linked, the RAS/MIPT/JETP ties and the 2023 sanction — read per the philosophia socialium."
       }
     ]
   }

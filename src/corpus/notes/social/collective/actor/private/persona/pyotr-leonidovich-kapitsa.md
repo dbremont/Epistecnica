@@ -5,7 +5,7 @@ type: person
 
 # Pyotr Leonidovich Kapitsa
 
-> Soviet experimental physicist known for low-temperature research and the discovery of helium superfluidity. He founded the Institute for Physical Problems and shared the 1978 Nobel Prize in Physics for his work on low-temperature physics.
+> Soviet experimental physicist known for low-temperature research and the discovery of helium superfluidity. He founded the [Institute for Physical Problems](/view.html?p=notes/social/collective/actor/public/catalog/research/rus/institute-for-physical-problems.md) and shared the 1978 Nobel Prize in Physics for his work on low-temperature physics.
 
 ## References
 
