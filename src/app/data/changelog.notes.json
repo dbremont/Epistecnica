@@ -60529,7 +60529,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Link the Nanoparticle and Microparticle rows to their notes."
+        "summary": "Link the Nanoparticle and Microparticle rows to their notes.",
+        "commit": "cd47dda5352908ae2f0ab24a858138e5fe26d308",
+        "before": "cd9d95108951fd5163419795107cfd6a9d5129ae"
       }
     ]
   },
@@ -81030,7 +81032,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the nanoparticle note: matter at 1-100 nm, identity by the size-and-surface regime rather than composition - a size-class row cut across every composition row, with the surface-dominated behavior that drifts it from the bulk."
+        "summary": "Add the nanoparticle note: matter at 1-100 nm, identity by the size-and-surface regime rather than composition - a size-class row cut across every composition row, with the surface-dominated behavior that drifts it from the bulk.",
+        "commit": "cd47dda5352908ae2f0ab24a858138e5fe26d308"
       }
     ]
   },
@@ -81040,7 +81043,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the microparticle note: the IUPAC 0.1-100 um size class above the nanoparticle regime, bulk-dominated in its interior, still surface-set in transport and reactivity - powders, aerosols, dispersions; micromeritics as the study, microvesicles at its biological bottom."
+        "summary": "Add the microparticle note: the IUPAC 0.1-100 um size class above the nanoparticle regime, bulk-dominated in its interior, still surface-set in transport and reactivity - powders, aerosols, dispersions; micromeritics as the study, microvesicles at its biological bottom.",
+        "commit": "cd47dda5352908ae2f0ab24a858138e5fe26d308"
       }
     ]
   }
