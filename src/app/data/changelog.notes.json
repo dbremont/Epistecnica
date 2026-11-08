@@ -81057,6 +81057,11 @@
         "summary": "Add the Algebraic Technique section - a 38-row technique path tree for Ars Cossica (equation solving through Cardano completing the square, transformation, factorization, elimination with Gaussian and Groebner, reduction, resolvent and discriminant construction, symmetry analysis to Galois, approximation) beside the flat category table, with three Stack Exchange threads on the Lagrange resolvent and cube roots of unity in References.",
         "commit": "6dd820b678142dd2ee216d67a1f7e094432b4a4e",
         "before": "8c5284304b331627ce2282370e5fe18de5c441bb"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Point the Algebraic Technique path tree at the new Lagrange resolvent exposition."
       }
     ]
   },
@@ -81069,6 +81074,21 @@
         "summary": "Fill the Lagrange persona stub - Laplace-pattern philosophia shell: formulation with five answers, a 28-row societ-actor decomposition tree (constitution, agency, the Turin-Berlin-Paris career, mechanics, theory of equations, celestial and metrological and teaching activities, associations from the Turin Miscellanea through Berlin, the Academie, the Polytechnique and the Bureau of Longitudes to the honorific body, attributes), critical evaluation, the Mecanique analytique volume cross-linked, and the cossica technique tree, variational method, group theory and the Euler, d Alembert and Laplace personas beside Wikipedia.",
         "commit": "47ea6faba79a76d121e72f98d3ee5777a14f00d3",
         "before": "ee1f593f0a5b3914805bdeac43c37edcb1267a4c"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Reference the resolvent exposition from the persona."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/cossical/lagrange-resolvent.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Lagrange resolvent exposition - the mechanism behind the solvability-by-radicals question read through the depressed cubic: resolvent expressions in cube roots of unity, the six-permutation orbit collapsing to two on cubing, the quadratic resolvent t^2+27qt-27p^3=0, root recovery, the three motivations (existing methods, roots and permutations, higher-degree limits), technique classification and the road to Galois; Oeuvres Tome 3 Wikisource primary, the HSM and two Math.SE threads, Clark as secondary."
       }
     ]
   }

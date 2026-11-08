@@ -184,6 +184,8 @@ Note: The term algebra - denotes diffeernt frameweork (realted) of matehamtics, 
 | Algebraic Technique.Approximation.Numerical Approximation.Bisection Method | Root approximation through successive interval subdivision. | Ancient antecedents; modern numerical analysis |
 | Algebraic Technique.Approximation.Polynomial Approximation | Approximation of mathematical functions using polynomial expressions. | Seventeenth–eighteenth-century mathematics |
 
+> See the worked exposition: [Lagrange's Resolvent — how he used it and why](lagrange-resolvent.md).
+
 ## ❓ QA
 
 - Under what conditions does an algebraic manipulation (e.g., multiplying both sides by a variable expression, squaring both sides) **preserve equivalence** of an equation?

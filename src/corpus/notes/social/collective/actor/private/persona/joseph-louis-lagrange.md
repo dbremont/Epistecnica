@@ -93,3 +93,4 @@ The corpus holds one of his works, cross-linked rather than re-owned:
 - [Euler, Leonhard](/view.html?p=notes/social/collective/actor/private/persona/leonhard-euler.md)
 - [d'Alembert, Jean le Rond](/view.html?p=notes/social/collective/actor/private/persona/jean-le-rond-dalembert.md)
 - [Laplace, Pierre Simon Marquis de](/view.html?p=notes/social/collective/actor/private/persona/pierre-simon-marquis-de-laplace.md)
+- [Lagrange's Resolvent — the worked exposition of the resolvent technique](/view.html?p=notes/epistemica/mathematical/cossical/lagrange-resolvent.md)
