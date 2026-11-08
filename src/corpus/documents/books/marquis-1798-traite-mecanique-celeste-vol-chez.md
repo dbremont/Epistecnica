@@ -18,3 +18,5 @@ tags: [document]
 ## Notes
 
 ---
+
+> See also the corpus's [Bowditch translation of the treatise](/view.html?p=documents/books/laplace-1829-mecanique-celeste-vol-bowditch-hilliard-gray.md) — *Mécanique céleste*, Vol. 1, translated with commentary by Nathaniel Bowditch, 1829.
