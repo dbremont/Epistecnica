@@ -79,6 +79,8 @@
         '.tc-chip{font-family:var(--font-mono);font-size:.55rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border-medium);border-radius:999px;padding:.14rem .5rem;color:var(--text-secondary);}',
         '.tc-detail h4{font-family:var(--font-mono);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);margin:.9rem 0 .3rem;}',
         '.tc-detail p{color:var(--text-secondary);font-size:.84rem;line-height:1.6;white-space:pre-wrap;}',
+        '.tc-detail ul{margin:.1rem 0 .3rem 1.1rem;color:var(--text-secondary);font-size:.82rem;line-height:1.55;}',
+        '.tc-detail ul li{margin-bottom:.18rem;}',
         '.tc-detail a{color:var(--accent-cyan);}',
 
         /* ---------- lists ---------- */

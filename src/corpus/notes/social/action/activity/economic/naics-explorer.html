@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>North American Industry Classification System (NAICS)</title>
     <link rel="icon" href="/img/favicon.ico">
-    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="stylesheet" href="/shared/usearch.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -21,49 +22,106 @@
         * { margin:0; padding:0; box-sizing:border-box; } html { scroll-behavior:smooth; background:var(--bg-void); }
         body { background:var(--bg-void); color:var(--text-primary); font-family:var(--font-body); min-height:100vh; transition:opacity 180ms ease; }
         html.theme-fading body { opacity:0; }
-        .layout { max-width:1400px; margin:0 auto; padding:2.2rem 2rem 4rem; }
-        .crumbs { font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1.1rem; }
-        .crumbs a { color:var(--text-muted); text-decoration:none; } .crumbs a:hover { color:var(--accent-cyan); }
-        .crumbs .sep { margin:0 0.5em; opacity:0.5; } .crumbs .here { color:var(--accent-gold); }
-        h1.note-title { font-family:var(--font-display); font-weight:300; font-size:clamp(1.9rem,4vw,2.8rem); line-height:1.1; padding-bottom:0.9rem; border-bottom:1px solid var(--border-subtle); }
-        .subtitle { color:var(--text-secondary); margin:0.9rem 0 1.3rem; max-width:80ch; line-height:1.6; font-size:0.9rem; }
-        footer { border-top:1px solid var(--border-subtle); margin-top:2.4rem; padding-top:1rem; color:var(--text-muted); font-size:0.72rem; line-height:1.6; }
-        footer a { color:var(--text-secondary); }
-        #themeToggle { position:fixed; top:1rem; right:1rem; z-index:50; background:var(--nav-bg); border:1px solid var(--border-medium); color:var(--text-secondary); border-radius:999px; font-family:var(--font-mono); font-size:0.6rem; letter-spacing:0.1em; padding:0.4rem 0.8rem; cursor:pointer; }
+        a { color:inherit; text-decoration:none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline:1px solid var(--accent-cyan); outline-offset:3px; }
     </style>
 </head>
 <body>
-<button id="themeToggle" type="button"><span id="themeLabel">LIGHT</span></button>
-<div class="layout">
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="/"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="filter this tree…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="masthead">
     <nav class="crumbs">
-        <a href="/explorer.html">Naturgnosis</a><span class="sep">/</span>
-        <a href="/explorer.html?view=browse&dir=social">Social</a><span class="sep">/</span>
-        <a href="/view.html?p=notes/meta/philosophia-socialium-et-operis.md">Philosophia Socialium</a><span class="sep">/</span>
-        <span class="here">Economic Activity — NAICS 2022</span>
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/action">action</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/action/activity">activity</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/action/activity/economic">economic</a><span class="sep">/</span>
+        <span class="here">NAICS 2022</span>
     </nav>
     <h1 class="note-title">North American Industry Classification System (NAICS)</h1>
-    <p class="subtitle">The <em>Economic Activity</em> / Producer classification, rendered as the North American Industry Classification System (NAICS), 2022 revision: 20 sectors → 96 subsectors → 308 industry groups → 689 industries → 1,012 U.S. industry codes. List and treemap views; starts collapsed to the first level — click a node to open the next level. Source: <a href="/view.html?p=notes/social/action/activity/economic/economic-activity.md" style="color:var(--accent-cyan)">Economic Activity</a> note; data from the <a href="https://www.census.gov/naics/" style="color:var(--accent-cyan)">U.S. Census Bureau</a>.</p>
-    <div id="catalogViewer"></div>
-    <footer><p>Data: <code>naics-2022.json</code> — NAICS codes, titles, and descriptions produced by the <a href="https://www.census.gov/naics/">U.S. Census Bureau</a> (public domain); size standards from the U.S. Small Business Administration. Classification only — not professional advice.</p></footer>
+    <p class="subtitle">The <em>Economic Activity</em> / producer classification as NAICS 2022: 20 sectors → 96 subsectors → 308 industry groups → 689 industries → 1,012 U.S. industry codes. The tree on the left is the classification; pick any node and its description, examples and exclusions open here. Source: <a href="/view.html?p=notes/social/action/activity/economic/economic-activity.md">Economic Activity</a> note; data from the <a href="https://www.census.gov/naics/">U.S. Census Bureau</a>.</p>
 </div>
-<script src="/data/live/catalog-viewer.js"></script>
+
+<div id="treeCatalog"></div>
+
+<footer class="page-foot">
+    <p>Data: <code>naics-2022.json</code> — NAICS codes, titles, and descriptions produced by the <a href="https://www.census.gov/naics/">U.S. Census Bureau</a> (public domain); size standards from the U.S. Small Business Administration. Classification only — not professional advice.</p>
+</footer>
+
+<script src="/data/live/tree-catalog.js"></script>
 <script>
 (function () {
     "use strict";
-    function el(id){return document.getElementById(id);}
-    var btn=el("themeToggle"),label=el("themeLabel");
-    label.textContent=document.documentElement.dataset.theme==="light"?"DARK":"LIGHT";
-    btn.addEventListener("click",function(){var r=document.documentElement;r.classList.add("theme-fading");setTimeout(function(){r.dataset.theme=r.dataset.theme==="light"?"dark":"light";try{localStorage.setItem("naturgnosis-theme",r.dataset.theme);}catch(e){}label.textContent=r.dataset.theme==="light"?"DARK":"LIGHT";r.classList.remove("theme-fading");},120);});
-    fetch("naics-2022.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw new Error("HTTP "+r.status);return r.json();}).then(function(data){
-        var nodes=data.map(function(x){return {id:x.code,label:x.title,parent:x.parent||null,level:x.level,desc:x.description||""};});
-        CatalogViewer.mount("#catalogViewer",{
-            nodes:nodes,
-            levels:["sector","subsector","industry-group","industry","code"],
-            colors:{"sector":"#c9956c","subsector":"#d4a857","industry-group":"#7ba388","industry":"#6b8caa","code":"#9b7eb0"},
-            searchPlaceholder:"Search code, title, industry…"
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+    function bullets(title, items) {
+        var list = (items || []).filter(function (x) { return x && String(x).trim(); });
+        if (!list.length) return "";
+        return "<h4>" + esc(title) + "</h4><ul>" + list.map(function (x) {
+            return "<li>" + esc(x) + "</li>";
+        }).join("") + "</ul>";
+    }
+
+    fetch("naics-2022.json", { cache: "no-cache" })
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (data) {
+            var nodes = data.map(function (x) {
+                return {
+                    id: x.code,
+                    label: x.title,
+                    parent: x.parent || null,
+                    level: x.level,
+                    code: x.code,
+                    description: x.description || "",
+                    examples: x.examples || [],
+                    exclusions: x.exclusions || [],
+                    keywords: x.keywords || [],
+                    sic: x.sic || []
+                };
+            });
+            TreeCatalog.mount("#treeCatalog", {
+                rootLabel: "NAICS 2022",
+                nodes: nodes,
+                subtitle: "North American Industry Classification System",
+                searchPlaceholder: "Search code, title, industry…",
+                detail: {
+                    pathStyle: "code",
+                    code: function (n) { return n.code; },
+                    chips: function (n) {
+                        var out = [n.level];
+                        if ((n.sic || []).length) out.push("SIC " + n.sic.join(", "));
+                        return out;
+                    },
+                    body: function (n) {
+                        var h = "";
+                        if (n.description) h += "<h4>Description</h4><p>" + esc(n.description) + "</p>";
+                        h += bullets("Examples", n.examples);
+                        h += bullets("Exclusions", n.exclusions);
+                        if (!h) h += bullets("Keywords", n.keywords);
+                        return h;
+                    }
+                }
+            });
+        })
+        .catch(function (e) {
+            document.getElementById("treeCatalog").innerHTML = '<div class="tc-empty">Could not load NAICS data \u2014 ' + esc(e.message) + "</div>";
         });
-    }).catch(function(e){el("catalogViewer").innerHTML='<div class="cv-empty">Could not load NAICS data — '+e.message+'</div>';});
 })();
 </script>
+<script src="/shared/usearch.js" data-root="../../../../../../" data-mode="filter"></script>
 </body>
 </html>
