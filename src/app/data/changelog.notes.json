@@ -81087,7 +81087,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "The Corpus Lagrange Documents section now holds two works: the Reflexions memoir joins the Mecanique analytique volume."
+        "summary": "The Corpus Lagrange Documents section now holds two works: the Reflexions memoir joins the Mecanique analytique volume.",
+        "commit": "c2f21fead514a21376b65fee5b65f8c07b161a60",
+        "before": "d133d7c2e553a10bcf3993dc56bd71b0480a489f"
       }
     ]
   },
@@ -81103,7 +81105,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Link the Reflexions reference to the new corpus document entry (Wikisource text beside it)."
+        "summary": "Link the Reflexions reference to the new corpus document entry (Wikisource text beside it).",
+        "commit": "c2f21fead514a21376b65fee5b65f8c07b161a60",
+        "before": "d133d7c2e553a10bcf3993dc56bd71b0480a489f"
       }
     ]
   }
