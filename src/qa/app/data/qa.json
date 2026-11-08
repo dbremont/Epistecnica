@@ -109,5 +109,21 @@
       "nanoparticle"
     ],
     "status": "open"
+  },
+  {
+    "id": "qa-00008",
+    "question": "What are the economic implications of foreign ownership and control of domestic firms for a country's productive capabilities, technological development, capital accumulation, and long-term economic autonomy?",
+    "answer": "",
+    "agent": "human",
+    "run": "seed-005",
+    "date": "2026-11-08",
+    "source": "manual",
+    "tags": [
+      "economic",
+      "foreign-ownership",
+      "capital-accumulation",
+      "productive-capabilities"
+    ],
+    "status": "open"
   }
 ]
