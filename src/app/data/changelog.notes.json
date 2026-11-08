@@ -59775,7 +59775,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the Medical Laboratory actor note with the Wikipedia reference."
+        "summary": "Add the Medical Laboratory actor note with the Wikipedia reference.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59800,7 +59801,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Close the last coverage gaps: Pauling 1948 (transition-state catalysis), Perutz 1970 (allostery), the Huntington's Disease Collaborative Research Group 1993, Svoboda & Block 1994 (optical forces), Medalia 2002 (cryo-ET) and Inomata 2009 (in-cell NMR); replace the gap paragraph with a scope note."
+        "summary": "Close the last coverage gaps: Pauling 1948 (transition-state catalysis), Perutz 1970 (allostery), the Huntington's Disease Collaborative Research Group 1993, Svoboda & Block 1994 (optical forces), Medalia 2002 (cryo-ET) and Inomata 2009 (in-cell NMR); replace the gap paragraph with a scope note.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf",
+        "before": "dc91eac5c6100e9c9ac9e9658758cd779dcd6c6b"
       }
     ]
   },
@@ -59810,7 +59813,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the gluten note: the viscoelastic storage-protein network of cereal flour, typed as a Substance / Matter with a natural-systems reading, decomposed into its gliadin and glutenin families, its bonding mechanisms, its mechanical properties and the processes that build it; the clinical reading (gluten-related disorders) is kept separate."
+        "summary": "Add the gluten note: the viscoelastic storage-protein network of cereal flour, typed as a Substance / Matter with a natural-systems reading, decomposed into its gliadin and glutenin families, its bonding mechanisms, its mechanical properties and the processes that build it; the clinical reading (gluten-related disorders) is kept separate.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59820,7 +59824,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the protein-complex note: a multi-subunit assembly typed as a Natural System for the function its chains carry collectively, decomposed into subunits, interfaces, associative mechanisms, assembly and allosteric transitions, and readable as a Building Block under quaternary structure."
+        "summary": "Add the protein-complex note: a multi-subunit assembly typed as a Natural System for the function its chains carry collectively, decomposed into subunits, interfaces, associative mechanisms, assembly and allosteric transitions, and readable as a Building Block under quaternary structure.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59830,7 +59835,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the glucose note: the six-carbon aldose, its ring-chain and anomeric forms, the α/β fork that separates starch from cellulose, and the reactions it enters as a metabolite."
+        "summary": "Add the glucose note: the six-carbon aldose, its ring-chain and anomeric forms, the α/β fork that separates starch from cellulose, and the reactions it enters as a metabolite.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59840,7 +59846,8 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Add the starch note: the amylose-amylopectin mixture, granule organisation, gelatinisation and retrogradation, and digestibility."
+        "summary": "Add the starch note: the amylose-amylopectin mixture, granule organisation, gelatinisation and retrogradation, and digestibility.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59850,7 +59857,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Replace the placeholder with a full note: the β-1,4 glucan, the fibrillar hierarchy, interchain hydrogen bonding, oxidative ageing and the macromolecule debate it settled."
+        "summary": "Replace the placeholder with a full note: the β-1,4 glucan, the fibrillar hierarchy, interchain hydrogen bonding, oxidative ageing and the macromolecule debate it settled.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf",
+        "before": "dc91eac5c6100e9c9ac9e9658758cd779dcd6c6b"
       }
     ]
   },
@@ -59860,7 +59869,9 @@
       {
         "date": "2026-11-07",
         "kind": "docs",
-        "summary": "Replace the stub with a full note: the carbonyl-plus-hydroxyl motif, the ring-chain closure, the monosaccharide-oligosaccharide-polysaccharide grading, and the compositional-versus-structural boundary."
+        "summary": "Replace the stub with a full note: the carbonyl-plus-hydroxyl motif, the ring-chain closure, the monosaccharide-oligosaccharide-polysaccharide grading, and the compositional-versus-structural boundary.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf",
+        "before": "dc91eac5c6100e9c9ac9e9658758cd779dcd6c6b"
       }
     ]
   },
@@ -59875,7 +59886,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Give the enzyme note its natural Formulation and decomposition: typed as a Substance / Matter with the building-block and mechanism readings as prose, decomposed into chain, active site, catalytic mechanisms, turnover cycle and kinetic properties, with the EC taxonomy explicitly excluded from the tree and a QA answering substance-versus-process and catalyst-versus-biocatalyst."
+        "summary": "Give the enzyme note its natural Formulation and decomposition: typed as a Substance / Matter with the building-block and mechanism readings as prose, decomposed into chain, active site, catalytic mechanisms, turnover cycle and kinetic properties, with the EC taxonomy explicitly excluded from the tree and a QA answering substance-versus-process and catalyst-versus-biocatalyst.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59890,7 +59902,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Add the 'Structural and Functional Organization of the Human Biochemical Machinery' section: an eight-category scope table split along structural (constituents to cellular structures) and functional (processes, regulation, transport) axes, with the two rows that reach past the molecular level marked as belonging to this table but decomposed elsewhere."
+        "summary": "Add the 'Structural and Functional Organization of the Human Biochemical Machinery' section: an eight-category scope table split along structural (constituents to cellular structures) and functional (processes, regulation, transport) axes, with the two rows that reach past the molecular level marked as belonging to this table but decomposed elsewhere.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59900,7 +59913,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Add the molecular regulatory network note: the control layer above the pathways, its control edges, recurring motifs (autoregulation, feed-forward loops, mutual inhibition, delayed feedback) and the response modes they produce."
+        "summary": "Add the molecular regulatory network note: the control layer above the pathways, its control edges, recurring motifs (autoregulation, feed-forward loops, mutual inhibition, delayed feedback) and the response modes they produce.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59910,7 +59924,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Fill the transformation-of-matter note: give it a Formulation typed as a Phenomenon with the Aspect reading as prose, a sixteen-row decomposition of states, paths, quantities and constraints, the promised table of transformation types ordered by depth of change, the modelling-element table, and repaired references."
+        "summary": "Fill the transformation-of-matter note: give it a Formulation typed as a Phenomenon with the Aspect reading as prose, a sixteen-row decomposition of states, paths, quantities and constraints, the promised table of transformation types ordered by depth of change, the modelling-element table, and repaired references.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf",
+        "before": "dc91eac5c6100e9c9ac9e9658758cd779dcd6c6b"
       }
     ]
   },
@@ -59925,7 +59941,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note under nature/matter/ with the other matter categories."
+        "summary": "Move the note under nature/matter/ with the other matter categories.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59935,7 +59952,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note under nature/matter/ with the other matter categories."
+        "summary": "Move the note under nature/matter/ with the other matter categories.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59945,7 +59963,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note under nature/matter/ with the other matter categories."
+        "summary": "Move the note under nature/matter/ with the other matter categories.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   },
@@ -59955,7 +59974,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Move the note under nature/matter/ with the other matter categories."
+        "summary": "Move the note under nature/matter/ with the other matter categories.",
+        "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
       }
     ]
   }
