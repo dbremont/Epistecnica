@@ -60179,7 +60179,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy."
+        "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy.",
+        "commit": "281ec05095a724382d3d29bad3224813a38decf9",
+        "before": "2383a5c1e7ef83f5051a08eec94cc53d1e8b475e"
       }
     ]
   }
