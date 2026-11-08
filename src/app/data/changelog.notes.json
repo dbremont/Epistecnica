@@ -81061,7 +81061,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Point the Algebraic Technique path tree at the new Lagrange resolvent exposition."
+        "summary": "Point the Algebraic Technique path tree at the new Lagrange resolvent exposition.",
+        "commit": "80b5534835676577d5f3b66ea508f0378cc5dd10",
+        "before": "36361700c73468007587008ed2f684ddc0e9f2d0"
       }
     ]
   },
@@ -81078,7 +81080,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Reference the resolvent exposition from the persona."
+        "summary": "Reference the resolvent exposition from the persona.",
+        "commit": "80b5534835676577d5f3b66ea508f0378cc5dd10",
+        "before": "36361700c73468007587008ed2f684ddc0e9f2d0"
       }
     ]
   },
@@ -81088,7 +81092,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Lagrange resolvent exposition - the mechanism behind the solvability-by-radicals question read through the depressed cubic: resolvent expressions in cube roots of unity, the six-permutation orbit collapsing to two on cubing, the quadratic resolvent t^2+27qt-27p^3=0, root recovery, the three motivations (existing methods, roots and permutations, higher-degree limits), technique classification and the road to Galois; Oeuvres Tome 3 Wikisource primary, the HSM and two Math.SE threads, Clark as secondary."
+        "summary": "Add the Lagrange resolvent exposition - the mechanism behind the solvability-by-radicals question read through the depressed cubic: resolvent expressions in cube roots of unity, the six-permutation orbit collapsing to two on cubing, the quadratic resolvent t^2+27qt-27p^3=0, root recovery, the three motivations (existing methods, roots and permutations, higher-degree limits), technique classification and the road to Galois; Oeuvres Tome 3 Wikisource primary, the HSM and two Math.SE threads, Clark as secondary.",
+        "commit": "80b5534835676577d5f3b66ea508f0378cc5dd10"
       }
     ]
   }
