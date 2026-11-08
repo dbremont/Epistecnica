@@ -60525,6 +60525,11 @@
         "summary": "Link each of the thirteen state rows in the State of Matter table to its note in nature/matter/state/.",
         "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff",
         "before": "3bdaf6fa1a04bcf1b92c47126c3464e217855934"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Link the Nanoparticle and Microparticle rows to their notes."
       }
     ]
   },
@@ -81016,6 +81021,26 @@
         "summary": "Retarget the Gas and Liquid references to the state notes at nature/matter/state/.",
         "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff",
         "before": "3bdaf6fa1a04bcf1b92c47126c3464e217855934"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/nanoparticle.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the nanoparticle note: matter at 1-100 nm, identity by the size-and-surface regime rather than composition - a size-class row cut across every composition row, with the surface-dominated behavior that drifts it from the bulk."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/microparticle.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the microparticle note: the IUPAC 0.1-100 um size class above the nanoparticle regime, bulk-dominated in its interior, still surface-set in transport and reactivity - powders, aerosols, dispersions; micromeritics as the study, microvesicles at its biological bottom."
       }
     ]
   }

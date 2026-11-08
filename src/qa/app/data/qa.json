@@ -93,5 +93,21 @@
       "quantity"
     ],
     "status": "answered"
+  },
+  {
+    "id": "qa-00007",
+    "question": "What differentiates a molecule from a nanoparticle?",
+    "answer": "",
+    "agent": "human",
+    "run": "derived-002",
+    "date": "2026-11-08",
+    "source": "manual",
+    "tags": [
+      "nature",
+      "molecule",
+      "matter",
+      "nanoparticle"
+    ],
+    "status": "open"
   }
 ]
