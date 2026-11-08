@@ -10,7 +10,7 @@ qa:
 
 > **Sediment** is unconsolidated particulate material — mineral grains, rock fragments, shell debris, precipitates or organic remains — that has been transported and deposited by water, wind, ice or gravity. It is the loose precursor of sedimentary rock: lithification is the only difference.
 
-> A sediment is read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A sediment is read per [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -70,5 +70,5 @@ The choice matters because the neighbouring rows are easy to confuse. A sediment
 - [Sorting (sedimentology)](https://en.wikipedia.org/wiki/Sorting_(sedimentology))
 - [Roundness (geology)](https://en.wikipedia.org/wiki/Roundness_(geology))
 - [Provenance (geology)](https://en.wikipedia.org/wiki/Provenance_(geology))
-- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
+- [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) (schema and table contract)

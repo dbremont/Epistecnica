@@ -84,7 +84,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: the actor typology this entry belongs to)
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
 - [Board](/view.html?p=notes/social/collective/actor/board.md) (the governing-body agency: kinds, anatomy, and terminology)

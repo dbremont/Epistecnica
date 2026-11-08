@@ -602,4 +602,4 @@ $$
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)
 - [Product](/view.html?p=notes/social/good/product.md)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

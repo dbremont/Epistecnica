@@ -196,7 +196,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 - [Atlas of Public Organization Comparative Representation Systems](data/social/collective/actor/public/atlas/public-organization-characterization-systems.html)
 - [Public Organizations Compared](data/social/collective/actor/public/atlas/public-organization.html)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Board](/view.html?p=notes/social/collective/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)

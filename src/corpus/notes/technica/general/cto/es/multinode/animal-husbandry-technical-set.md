@@ -8,7 +8,7 @@ tags: [note, animal, husbandry, livestock, production]
 >
 > It is the mirror of [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md), and the mirror is exact enough to be useful and inexact enough to matter. The crop stands in the field for its season and is sown again; the animal is a long-lived individual, it must be fed and housed and kept in health continuously, it reproduces or it does not, and the system's output is bounded by how fast it can replace itself. That single difference — continuous holding and self-replacement, rather than seasonal growth and annual sowing — is what makes animal technique a discipline of systems rather than of operations.
 >
-> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -143,7 +143,7 @@ Lineage: pastoral animals moved with the seasons → fixed housing and hand feed
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
 - [Food Production Technical Domain](/view.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the domain this system belongs to)
 - [Livestock Breeding And Genetics Set](/view.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) (the member that decides the next generation)
 - [Animal Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (the member that decides whether the animal is still there)

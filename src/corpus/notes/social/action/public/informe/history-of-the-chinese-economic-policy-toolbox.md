@@ -12,4 +12,4 @@ tags: [note, economic-policy, china, toolbox, general]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

@@ -4,11 +4,11 @@ tags: [note, earth, geology, geoscience, research]
 
 # Earth Science
 
-> **Earth Science** is the inquiry domain that makes the Earth intelligible: its spheres, the processes that move matter and energy through them, the archives in which its history survives, and the models that predict what it will do next. Worked per [How to decompose any epistemic instance?](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md).
+> **Earth Science** is the inquiry domain that makes the Earth intelligible: its spheres, the processes that move matter and energy through them, the archives in which its history survives, and the models that predict what it will do next. Worked per [How to decompose any epistemic instance?](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md).
 
 > It is a family of disciplines, so the decomposition follows the family tree: each sub-field family holds its disciplines, each discipline its sub-fields, each sub-field its own worked scope. The shared scaffolding — artifacts, observation interfaces, methods, standards, constraints, feedback, gaps, infrastructure, agents — is typed once at the root, because the same instruments and the same standards serve every family.
 
-> The instrument is technical, the formation natural: a seismometer is decomposed technically, and the Earth it observes is not decomposed here at all (Ambiguity Resolution (`guideline/ambiguity_resolution.md`)). The Earth as a piece of observer-independent reality is a natural instance and belongs under [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> The instrument is technical, the formation natural: a seismometer is decomposed technically, and the Earth it observes is not decomposed here at all (Ambiguity Resolution (`guideline/ambiguity_resolution.md`)). The Earth as a piece of observer-independent reality is a natural instance and belongs under [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -465,8 +465,8 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (the Earth as a natural instance belongs there, not here)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) (the Earth as a natural instance belongs there, not here)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally)
 - [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (consumer: crop models, soil, and climate are Earth Science outputs)
 - [Well Logging](/view.html?p=notes/technica/general/cto/industry/well-logging.md) (the borehole as Earth Science's narrowest technical instrument)

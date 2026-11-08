@@ -101,5 +101,5 @@ The choice matters because ammonia is a stock example of a substance that is sim
 - [Matter](/view.html?p=notes/nature/matter/matter.md)
 - [Nitrogen](/view.html?p=notes/nature/matter/chemical/nitrogen.md)
 - [Hydrogen](/view.html?p=notes/nature/matter/chemical/hydrogen.md)
-- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
+- [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) (schema and table contract)

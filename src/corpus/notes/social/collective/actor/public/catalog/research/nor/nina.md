@@ -6,7 +6,7 @@ tags: [note, actor, research-institute, research-foundation, norway, biodiversit
 
 > **NINA** is Norway's leading institution for applied ecological research: an independent foundation, established in 1988, that delivers research-based knowledge and solutions for nature management to authorities, business, and the public. It monitors what the country is losing — large carnivores, wild salmon, seabirds, pollinators, insects — and runs the national Nature Index that records the trend.
 
-> Its work is a long record rather than a series of projects: monitoring programmes that hold a series across decades, breeding stations that keep a population alive in order to study it, and an institute that is, by its own account, most of its income commissioned by the environmental authority. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> Its work is a long record rather than a series of projects: monitoring programmes that hold a series across decades, breeding stations that keep a population alive in order to study it, and an institute that is, by its own account, most of its income commissioned by the environmental authority. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -102,6 +102,6 @@ Lineage: a nature-conservation research tradition going back to the early twenti
 - [Our research — Biodiversity and ecosystems](https://www.nina.no/en/our-research/biodiversity-and-ecosystems) (research areas, national leadership, Nature Index)
 - [NINA — Cooperation and expertise for a sustainable future (2022 key figures)](https://www.nina.no/Portals/NINA/Bilder%20og%20dokumenter/Om%20NINA/NINA_cv_2022_eng.pdf) (staff, turnover, funding mix, publications, networks)
 - [Evaluation report: Norwegian Institute for Nature Research (NINA), Research Council of Norway, 2024](https://www.forskningsradet.no/siteassets/publikasjoner/2024/evalbiovit/nina_nina_april-2024.pdf) (standing, mission, staff and funding profile)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Earth Science (companion note)](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domain whose observation interfaces this monitoring operationalizes)
 - [NTNU (companion note)](/view.html?p=notes/social/collective/actor/private/research/nor/ntnu.md) (the university the institute sits beside in Trondheim)

@@ -264,9 +264,9 @@ Social Element (parent)
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Research Activity](/view.html?p=notes/social/action/activity/research/research.md)
 - [Science](/view.html?p=notes/social/action/activity/research/science/science.md)
 - [Technical Activity](/view.html?p=notes/social/action/activity/research/technical/technical-activity.md)

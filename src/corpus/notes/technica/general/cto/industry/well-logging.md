@@ -82,6 +82,6 @@ between the trees runs between executing the observation and warranting its prod
 ## References
 
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (canonical case, multi-root forest rule)
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (Tree 1 grammar, CRM case-study style)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (Tree 2 grammar, Observation Interface, DCESA)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (Tree 1 grammar, CRM case-study style)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (Tree 2 grammar, Observation Interface, DCESA)
 - https://en.wikipedia.org/wiki/Well_logging

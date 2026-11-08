@@ -53,7 +53,7 @@ tags: [note, project, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Program](/view.html?p=notes/social/action/organization/program.md) (the set containing a project)
 - [Plan](/view.html?p=notes/social/action/organization/plan.md) (the arrangement sequencing a project)
 - [Charter](/view.html?p=notes/social/action/organization/charter.md) (the instrument constituting a project)

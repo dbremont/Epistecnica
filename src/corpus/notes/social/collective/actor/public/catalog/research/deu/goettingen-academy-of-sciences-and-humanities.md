@@ -81,5 +81,5 @@ Two load-bearing caveats.
 - [Göttingen Academy of Sciences and Humanities](https://adw-goe.de/en/)
 - [Göttingen Academy of Sciences and Humanities](https://en.wikipedia.org/wiki/G%C3%B6ttingen_Academy_of_Sciences_and_Humanities)
 - [Union of German Academies](https://www.akademienunion.de/en/)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the family this academy belongs to)

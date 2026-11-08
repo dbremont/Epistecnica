@@ -8,7 +8,7 @@ tags: [note, plant, plant-health, plant-protection, diagnosis, quarantine]
 >
 > It is the inverse of [Plant Cultivation](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md): cultivation establishes and harvests the crop, plant health keeps the crop standing. The two sets meet at the field boundary — scouting, the treatment decision, and the rotation — and this note takes the whole of that overlap rather than leaving it to a boundary line, which is why the Crop Protection Set inside the cultivation note now points here instead of repeating it.
 >
-> Its knowledge base is epistemic and lives elsewhere: the pathogen populations, the isolation-and-inoculation test, and Koch's postulates are decomposed in [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md), and the weather and climate that drive the forecast models in [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md). This note decomposes the apparatus, not the knowledge. Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> Its knowledge base is epistemic and lives elsewhere: the pathogen populations, the isolation-and-inoculation test, and Koch's postulates are decomposed in [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md), and the weather and climate that drive the forecast models in [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md). This note decomposes the apparatus, not the knowledge. Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -251,7 +251,7 @@ Lineage: disease attributed to a cause at all → isolation, culture, and Koch's
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (the inverse set; its Crop Protection Set now points here)
 - [Plant Genetic Improvement](/view.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md) (resistance deployment — the genetic route through the control-measure set)
 - [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (pathogen populations, isolation-and-inoculation test, Koch's postulates — the knowledge this apparatus produces)

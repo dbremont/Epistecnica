@@ -35,4 +35,4 @@ tags: [note, metals, metallurgy]
 
 - Produceologia `docs/Production/Industry/Metallurgical/README.md`
 - Produceologia `docs/Production/Industry/Metal/README.md`
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

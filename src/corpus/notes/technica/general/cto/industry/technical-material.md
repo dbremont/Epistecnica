@@ -13,7 +13,7 @@ tags: [note, materials]
 > living feedstocks) and
 > [Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (from
 > mineral feedstocks). Worked per
-> [How to decompose any technical instance?](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [How to decompose any technical instance?](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -73,7 +73,7 @@ No-repetition exception); full expansion lives in the child notes, not here.
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (means/end typing; default-root rule)
 - [Material Technology](/view.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
 - [Materiotecnia](/view.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)

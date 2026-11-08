@@ -41,9 +41,9 @@ Readable secondarily as an epistemic pursuit (its product is warranted belief, j
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Research Activity](/view.html?p=notes/social/action/activity/research/research.md) (the inquiry core this family scopes)
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the collective that performs this activity)
 - [Technical Activity](/view.html?p=notes/social/action/activity/research/technical/technical-activity.md) (the instrumentation nested inside scientific doing)
 - [Economic Activity](/view.html?p=notes/social/action/activity/economic/economic-activity.md) (sibling activity family)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (the epistemic reading of science as inquiry)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (the epistemic reading of science as inquiry)

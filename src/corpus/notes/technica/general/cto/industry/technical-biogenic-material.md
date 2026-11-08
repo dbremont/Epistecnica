@@ -11,7 +11,7 @@ tags: [note, materials]
 > [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md). Petroleum-derived polymers are
 > deliberately excluded here — their origin is ambiguous, so they classify at the parent
 > (see the parent QA). Worked per
-> [How to decompose any technical instance?](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [How to decompose any technical instance?](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -63,7 +63,7 @@ exception): inputs consumed by technical activity, individuated by living feedst
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
 - [Technical Material](/view.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter; ambiguous cases live there)
 - [Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (sibling: mineral-feedstock family)
 - [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)

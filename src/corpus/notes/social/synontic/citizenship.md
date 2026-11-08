@@ -58,7 +58,7 @@ Readable secondarily as **Normative** (the rights–obligations bundle: vote, pr
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the genus: standing recognized by a collective)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: standings attach to actors)
 - [Collective](/view.html?p=notes/social/collective/collective.md) (the conferring body)

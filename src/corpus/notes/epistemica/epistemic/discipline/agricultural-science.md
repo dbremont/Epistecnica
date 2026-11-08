@@ -4,7 +4,7 @@ tags: [note, agriculture, science, agronomy, food-production, research]
 
 # Agricultural Science
 
-> **Agricultural Science** is the inquiry domain that makes the agricultural organism intelligible: what a crop plant or livestock animal is, how it grows and allocates, how it responds to water, nutrient, temperature, and disease pressure, how the harvested product responds to processing and storage, and how those responses may be predicted, tested, and improved. Source: worked per [How to decompose any epistemic instance?](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md); no third-party import, the decomposition is authored here. Formerly scoped and filed as Plant Science; the plant-only cut is kept inside as the crop half of the domain.
+> **Agricultural Science** is the inquiry domain that makes the agricultural organism intelligible: what a crop plant or livestock animal is, how it grows and allocates, how it responds to water, nutrient, temperature, and disease pressure, how the harvested product responds to processing and storage, and how those responses may be predicted, tested, and improved. Source: worked per [How to decompose any epistemic instance?](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md); no third-party import, the decomposition is authored here. Formerly scoped and filed as Plant Science; the plant-only cut is kept inside as the crop half of the domain.
 
 > It is the complement of an intervention: [Plant Cultivation](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) acts on the plant under a regime, the husbandry and production sets act on the animal, while agricultural science warrants belief about how the organism behaves under that regime — and about how its product behaves under processing. The boundary runs between the claim and the regime — measurement executed in the field, the barn, or the pilot plant is technical; what the measurement warrants believing is epistemic.
 
@@ -140,7 +140,7 @@ The claims the domain supports, each carrying its scope conditions: a genotype r
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (decomposition workflow; element-type table; well-formedness rule)
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (counterpart note: the crop intervention this domain warrants)
 - [Food Production Technical Domain](/view.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the primary-production ensemble whose member sets act on crop and animal)
 - Agriculture Production (the sector in which agricultural-science results are applied; note removed, sector view lives in the social and production spaces)

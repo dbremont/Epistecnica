@@ -346,7 +346,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md)
 - [Social Group](/view.html?p=notes/social/collective/actor/private/group/group.md)

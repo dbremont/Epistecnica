@@ -6,7 +6,7 @@ tags: [note]
 
 > The Pharmaceutical Technical Domain Set is the technical ensemble that discovers, develops, manufactures, safeguards, and delivers medicines — from target identification through clinical investigation to finished dosage forms under Good Manufacturing Practice.
 
-> This note treats the pharmaceutical domain as a full ensemble at shallow depth: the root set plus its direct sub-domain constituents only, following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
+> This note treats the pharmaceutical domain as a full ensemble at shallow depth: the root set plus its direct sub-domain constituents only, following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
 
 ## Formulation
 
@@ -41,5 +41,5 @@ Lineage: plant and mineral remedies → synthetic organic chemistry and asepsis 
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; shallow depth per the guideline depth rule)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; shallow depth per the guideline depth rule)
 - [Biotechnology](/view.html?p=notes/technica/general/cto/es/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)

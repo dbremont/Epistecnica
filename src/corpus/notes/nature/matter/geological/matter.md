@@ -46,4 +46,4 @@ Three points are easy to miss in this table and worth stating.
 - [Ore](https://en.wikipedia.org/wiki/Ore)
 - [Coal](https://en.wikipedia.org/wiki/Coal)
 - [Loess](https://en.wikipedia.org/wiki/Loess)
-- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (Tabular view, level of organization, Limitation checklist)
+- [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular view, level of organization, Limitation checklist)

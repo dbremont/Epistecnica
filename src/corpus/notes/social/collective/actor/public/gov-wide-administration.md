@@ -136,7 +136,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The system/table conflation reads here as parsimony plus fidelity failures: the coordinating layer of centers, standards, and services is not the characterization table describing it — merging the two rows types the territory and the map as one.
 
@@ -479,8 +479,8 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
 - [Government](/view.html?p=notes/social/collective/actor/public/government.md)

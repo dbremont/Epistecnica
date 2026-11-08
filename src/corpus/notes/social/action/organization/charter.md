@@ -46,6 +46,6 @@ tags: [note, charter, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Project](/view.html?p=notes/social/action/organization/project.md) (the effort a project charter constitutes)
 - [Policy](/view.html?p=notes/social/action/public/guidance/policy.md) (the mandate a charter may execute)

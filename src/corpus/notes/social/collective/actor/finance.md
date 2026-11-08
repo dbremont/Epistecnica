@@ -50,7 +50,7 @@ Because the finance family mixes public and private bodies, its instances are sp
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: the actor typology this element belongs to)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent: the generic collective/organization type)
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) (sibling economic functional subtype)

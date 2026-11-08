@@ -4,7 +4,7 @@ tags: [note, nature, substance-matter]
 
 # electronegativity
 
-> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -36,6 +36,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Chemical Bond 144c0f5171ec807589c1cd04c1b54973.md`; `Chemical Element 16cc0f5171ec80819c22dc5852e3fe06.md`; `Matter 209b4646856a413186ebc5b793910b2b.md`

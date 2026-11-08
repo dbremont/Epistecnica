@@ -12,7 +12,7 @@ tags: [note]
 > [Natural Material](/view.html?p=notes/nature/natural-material.md); sibling
 > [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md); technical counterpart
 > [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md). Worked per
-> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -103,8 +103,8 @@ grammar). The instrument technically, the formation naturally
 - https://en.wikipedia.org/wiki/Biogenic_substance (definition, history, abiogenic opposite, examples)
 - Albrecht P, Ourisson G (1971). "Biogenic substances in sediments and fossils". Angewandte Chemie. 10 (4): 209–25.
 - Grabau A W (1903). "Discussion of and Suggestions Regarding a New Classification of Rocks" (biogenic rocks).
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](/view.html?p=notes/nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)

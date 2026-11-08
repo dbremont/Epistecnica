@@ -71,7 +71,7 @@ Two load-bearing caveats.
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
 - [Facet](/view.html?p=notes/social/framework/facet.md)

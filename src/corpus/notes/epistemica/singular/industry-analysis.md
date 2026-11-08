@@ -30,4 +30,4 @@ tags: [note, industry, analysis, swot]
 ## References
 
 - Produceologia `docs/Toolkit/Type/Industry.md`
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md)

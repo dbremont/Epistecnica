@@ -35,4 +35,4 @@ Readable secondarily through its provincial articulation (its provinces and metr
 ## References
 
 - [Piedmont — Wikipedia](https://en.wikipedia.org/wiki/Piedmont) (region, geography, economy)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

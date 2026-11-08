@@ -4,7 +4,7 @@ tags: [note, principle, guidance, normative, social-element]
 
 # Social Action Principle
 
-> **Social Action Principle** is the general rule or standard that guides and evaluates action — the guidance coordinator invoked to warrant a decision, constrain discretion, or judge a result, without prescribing the concrete steps that a `Rule` or `Plan` would fix. It is the social-action reading of [Principle](/view.html?p=notes/meta/principle.md), the general concept.
+> **Social Action Principle** is the general rule or standard that guides and evaluates action — the guidance coordinator invoked to warrant a decision, constrain discretion, or judge a result, without prescribing the concrete steps that a `Rule` or `Plan` would fix. It is the social-action reading of [Principle](/view.html?p=notes/epistemica/principle.md), the general concept.
 
 ## Formulation
 
@@ -48,7 +48,7 @@ tags: [note, principle, guidance, normative, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Principle](/view.html?p=notes/meta/principle.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Principle](/view.html?p=notes/epistemica/principle.md)
 - [Strategy](/view.html?p=notes/social/action/guidance/strategy.md) (the selection a principle evaluates)
 - [Rule](/view.html?p=notes/social/action/guidance/rule.md) (the constraint a principle warrants)

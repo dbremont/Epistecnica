@@ -132,7 +132,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The administration/institution conflation reads here as parsimony plus fidelity failures: the architecture composing agents into an operating unit is not the rules it operates within — merging the two rows types the builder and the blueprint as one.
 
@@ -366,8 +366,8 @@ See
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)

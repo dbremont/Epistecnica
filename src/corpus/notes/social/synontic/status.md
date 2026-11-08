@@ -54,7 +54,7 @@ Readable secondarily as **Normative** where rank orders are backed by enforceabl
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: standings attach to actors)
 - [Synontic](/view.html?p=notes/social/synontic/synontic.md) (recognition-constituted elements)
 - [Collective](/view.html?p=notes/social/collective/collective.md) (the recognizing body)

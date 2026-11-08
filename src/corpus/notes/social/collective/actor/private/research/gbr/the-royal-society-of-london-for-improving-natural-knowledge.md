@@ -77,4 +77,4 @@ Two load-bearing caveats.
 - [Philosophical Transactions of the Royal Society](/view.html?p=notes/social/collective/philosophical-transactions-of-the-royal-society.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

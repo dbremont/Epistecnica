@@ -6,7 +6,7 @@ tags: [note, animal, breeding, genetics, livestock]
 
 > The **Livestock Breeding And Genetics Set** is the animal mirror of [Plant Genetic Improvement](/view.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md). It changes the next generation rather than the current one: mating systems, selection, and the records that make selection possible. It is the member of [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) that decides what the animals will be in five years' time, and it is the reason the dairy herd renews itself, the flock gains growth, and a population carries a resistance.
 >
-> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -158,7 +158,7 @@ Lineage: choosing the breeding animal by eye → writing the pedigree → weighi
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
 - [Plant Genetic Improvement](/view.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md) (the crop-side set this one mirrors)
 - [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) (the system this member belongs to)
 - [Dairy Husbandry Set](/view.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) (the herd this breeding renews)

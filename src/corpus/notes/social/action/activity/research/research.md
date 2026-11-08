@@ -55,7 +55,7 @@ Readable secondarily as an epistemic pursuit (its product is warranted belief, j
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Science](/view.html?p=notes/social/action/activity/research/science/science.md) (the parent activity family)
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the collective that performs this activity)
 - [Technical Activity](/view.html?p=notes/social/action/activity/research/technical/technical-activity.md) (the instrumentation nested inside research activity)

@@ -36,4 +36,4 @@ Readable secondarily as a `Jurisdiction` (the Municipality of Patras) — prose,
 ## References
 
 - [Patras — Wikipedia](https://en.wikipedia.org/wiki/Patras) (history, port, population)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

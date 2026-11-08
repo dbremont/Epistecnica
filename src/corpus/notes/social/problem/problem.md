@@ -51,7 +51,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Agency](/view.html?p=notes/social/action/public/agency.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [Problem](/view.html?p=notes/social/problem/policy-problem.md)

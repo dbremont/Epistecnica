@@ -10,7 +10,7 @@ tags: [note]
 > epistemic scaffolding used to describe it (operators, standards, frameworks, artifacts,
 > methods) belongs to Epistemic Space; transformation methods belong to technique; actors and
 > institutions belong to the social reading. This note holds the natural reading only. Worked per
-> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 > Presupposed definitions (`Reality`, segments, levels of organization, the ontology/epistemology
 > dual) live in the epistemicarum guide and are restated nowhere here.
 
@@ -222,8 +222,8 @@ the formation naturally (`guideline/ambiguity_resolution.md`).
 
 ## References
 
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Ontic Order, ontic questionnaire, Limitation checklist, level gate, layer gate)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Ontic Order, ontic questionnaire, Limitation checklist, level gate, layer gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Earth](/view.html?p=notes/nature/earth.md) (child: the planet system)
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (child: all untransformed matter)

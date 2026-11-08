@@ -9,7 +9,7 @@ tags: [note, materials]
 > transformation is furnace-, kiln-, and reactor-intensive. Child of
 > [Technical Material](/view.html?p=notes/technica/general/cto/industry/technical-material.md); feedstock reading in
 > [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md). Worked per
-> [How to decompose any technical instance?](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [How to decompose any technical instance?](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -59,7 +59,7 @@ exception): inputs consumed by technical activity, individuated by mineral feeds
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
 - [Technical Material](/view.html?p=notes/technica/general/cto/industry/technical-material.md) (parent: all intentionally transformed matter)
 - [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (sibling: living-feedstock family)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)

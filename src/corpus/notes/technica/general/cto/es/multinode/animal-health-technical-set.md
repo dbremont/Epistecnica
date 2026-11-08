@@ -6,7 +6,7 @@ tags: [note, animal, health, veterinary, livestock]
 
 > The **Animal Health Technical Set** is the animal mirror of [Plant Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md). It keeps the animal standing and producing: prevention by schedule, diagnosis by test, treatment by protocol, and the culling that stops a loss spreading. It is the member of [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) that the other members depend on most directly — no ration, no milking routine, and no breeding index works on a sick animal — and it is the reason a herd can claim freedom from a disease rather than merely treatment of it.
 >
-> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -161,7 +161,7 @@ Lineage: folk treatment and culling → the visiting clinician with the drug cas
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
 - [Plant Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md) (the crop-side set this one mirrors)
 - [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) (the system this member belongs to)
 - [Dairy Husbandry Set](/view.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) (the herd this health work keeps in production)

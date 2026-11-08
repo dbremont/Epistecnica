@@ -14,7 +14,7 @@ tags: [note]
 > [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md); composed of
 > [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) kinds; exemplified by the worked
 > [Quarry](/view.html?p=notes/nature/quarry.md). Worked per
-> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -84,8 +84,8 @@ admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/biogenic-mater
 
 ## References
 
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](/view.html?p=notes/nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)

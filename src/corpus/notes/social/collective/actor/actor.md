@@ -89,7 +89,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (collective actor hub: the full subtype tree)
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)
 - [Social Group](/view.html?p=notes/social/collective/actor/private/group/group.md) (interacting aggregate — not an organization)

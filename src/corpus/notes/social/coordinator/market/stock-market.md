@@ -36,4 +36,4 @@ Readable secondarily as a `Social Compound` (market-as-ensemble of listed firms,
 ## References
 
 - Produceologia `docs/Finance/Capital/Stock.md`
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

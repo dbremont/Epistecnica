@@ -8,7 +8,7 @@ tags: [note, plant, cultivation, agriculture, technique]
 
 > It is the complement of an inquiry: plant science establishes what a plant is and how it responds, while cultivation intervenes in it — setting substrate, water, nutrient, and protection regimes, then taking the yield. The two notes are cross-linked at the boundary between a warrantable claim and an acted-upon regime.
 
-> This note treats plant cultivation as a middle-depth ensemble — the root set, its nine sub-domain sets, and the objects, mechanisms, techniques, parameters, and standards those sub-domains work with — following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
+> This note treats plant cultivation as a middle-depth ensemble — the root set, its nine sub-domain sets, and the objects, mechanisms, techniques, parameters, and standards those sub-domains work with — following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
 
 ## Formulation
 
@@ -137,7 +137,7 @@ Lineage: seed gathering and shifting cultivation → vegetative propagation and 
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; middle depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
 - [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) (counterpart note: the inquiry this ensemble acts on)
 - Agriculture Production (the sector-of-industries container this set is a member of; note removed, sector view lives in the social and production spaces)
 - Food Value Chain (what the harvest becomes after cultivation ends; note removed, post-harvest side)

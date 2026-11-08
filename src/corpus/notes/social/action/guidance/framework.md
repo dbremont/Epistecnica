@@ -52,7 +52,7 @@ It is distinct from `Principle` (the general standard warranting judgment), from
 
 The planning-framework kind is worked as an instance at [China Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/china-five-year-plan.md).
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Strategy](/view.html?p=notes/social/action/guidance/strategy.md)
 - [Social Action Principle](/view.html?p=notes/social/action/guidance/social-action-principle.md)
 - [China Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/china-five-year-plan.md)

@@ -35,4 +35,4 @@ tags: [note, naval, shipbuilding]
 ## References
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Mechanical/Naval/`
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

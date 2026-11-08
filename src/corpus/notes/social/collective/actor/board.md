@@ -70,7 +70,7 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent: the actor whose direction the board decides)
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) (secondary reading: statutory boards and board-composition methods)
 - [Collective](/view.html?p=notes/social/collective/collective.md) (the compound genus a board is constituted within)

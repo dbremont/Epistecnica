@@ -84,7 +84,7 @@ It is not the `State` (the political organization that persists across successiv
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, measurement validity, and misuse resistance. The government/state/administration conflation reads here as parsimony plus fidelity failures: a persisting state is not its transient government, and neither is its operating machinery — merging the three rows would type three different jobs as one.
 
@@ -355,14 +355,14 @@ It is not the `State` (the political organization that persists across successiv
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md)
 - [Government-Wide Administrative System'](/view.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
 - [Public Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
 - [Facet](/view.html?p=notes/social/framework/facet.md)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Public Administration](/view.html?p=notes/social/collective/actor/public/administration.md)
 - [Municipal Government](/view.html?p=notes/social/collective/actor/public/municipal-government.md) (Local Government sub-type, urban-locality kind)
 - [Civil Service](/view.html?p=notes/social/collective/actor/public/civil-service.md)

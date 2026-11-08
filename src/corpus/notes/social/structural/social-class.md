@@ -53,7 +53,7 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
 
 | **Category** | **Criteria** | **Social Class** |
 | --- | --- | --- |
@@ -96,11 +96,11 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md) (the genus: aggregate kinds of the social compound)
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: classes act as Interaction Units when mobilized)
 - [Status](/view.html?p=notes/social/synontic/status.md) (class honor and prestige as standing)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - Marx, K., & Engels, F. (1848). *The Communist manifesto*.
 - Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922)
 - Bourdieu, P. (1984). *Distinction: A social critique of the judgement of taste* (R. Nice, Trans.). Harvard University Press. (Original work published 1979)

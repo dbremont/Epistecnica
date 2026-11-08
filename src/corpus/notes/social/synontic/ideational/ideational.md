@@ -8,7 +8,7 @@ tags: [note, ideational, synontic, social-philosophy, facet, social-element]
 
 > The **Ideational** facet — shared ideas, worldviews, ideologies, and cognitive schemas that influence perception, meaning-making, and social goals — is defined in [Facet](/view.html?p=notes/social/framework/facet.md). This note is the home of the family of elements scoped by that facet: the philosophies of conduct through which agents and collectives make life intelligible and decide how to live it.
 
-> Morality appears here only insofar as shared moral schemas, norms, and traditions are transmitted, recognized, negotiated, and revised. The normative machinery — justification, duty, imputability, judgment, and repair — belongs to [Philosophia Moralis et Operis](/view.html?p=notes/meta/philosophia-moralis-et-operis.md).
+> Morality appears here only insofar as shared moral schemas, norms, and traditions are transmitted, recognized, negotiated, and revised. The normative machinery — justification, duty, imputability, judgment, and repair — belongs to [Philosophia Moralis et Operis](/view.html?p=notes/philosophia-moralis-et-operis.md).
 
 > The shared moral schemas named here are elaborated in [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md).
 
@@ -34,7 +34,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 | --- | --- |
 | [Ideology](/view.html?p=notes/social/synontic/ideology.md) | An ideology is an ideational *configuration* — a stabilized system of ideas and values that shapes perception and action. It is the paradigm case of an Ideational Element, not its sibling genus. |
 | [Belief System](/view.html?p=notes/social/synontic/ideational/belief.md) | Beliefs are the cognitive content any ideational element carries and reproduces; the belief system is the structure that maintains and revises them. |
-| [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md) | The moral schemas transmitted within a philosophy of conduct; the normative machinery that adjudicates them lives in [Philosophia Moralis et Operis](/view.html?p=notes/meta/philosophia-moralis-et-operis.md). |
+| [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md) | The moral schemas transmitted within a philosophy of conduct; the normative machinery that adjudicates them lives in [Philosophia Moralis et Operis](/view.html?p=notes/philosophia-moralis-et-operis.md). |
 | [Value](/view.html?p=notes/social/synontic/value.md) | Values are evaluative coordinators that ideational elements select, rank, and teach; they are components of a philosophy of conduct, not equivalent to it. |
 | [Culture](/view.html?p=notes/social/synontic/culture/culture.md) | Culture is the broader pattern of behavior, meaning, and expectation within which ideational elements circulate; not a facet, and not reducible to its ideational content. |
 | [Symbolic System](/view.html?p=notes/social/synontic/symbolic.md) | The signs, rituals, and meaning-bearing practices through which an ideational element is expressed and recognized. |
@@ -109,5 +109,5 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 - [Value](/view.html?p=notes/social/synontic/value.md)
 - [Culture](/view.html?p=notes/social/synontic/culture/culture.md)
 - [Symbolic System](/view.html?p=notes/social/synontic/symbolic.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Moralis et Operis](/view.html?p=notes/meta/philosophia-moralis-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Philosophia Moralis et Operis](/view.html?p=notes/philosophia-moralis-et-operis.md)

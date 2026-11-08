@@ -137,7 +137,7 @@ Instrumentalization occurs during both formulation and implementation:
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Strategy](/view.html?p=notes/social/action/guidance/strategy.md)
 - [Rule](/view.html?p=notes/social/action/guidance/rule.md)
 - [Social Action Principle](/view.html?p=notes/social/action/guidance/social-action-principle.md)

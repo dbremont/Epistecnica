@@ -46,7 +46,7 @@ tags: [note, program, organization, action, social-element]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Project](/view.html?p=notes/social/action/organization/project.md) (the member effort a program contains)
 - [Policy](/view.html?p=notes/social/action/public/guidance/policy.md) (the course a program executes)
 - [Plan](/view.html?p=notes/social/action/organization/plan.md) (the arrangement sequencing a member project)

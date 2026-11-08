@@ -633,7 +633,7 @@ Epistemic Element (parent)
 ## References
 
 - [Philosophia Naturalis](https://app.notion.com/p/Philosophia-Naturalis-32ac0f5171ec807b9388c870ab664abf?source=copy_link)
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
 - [Concept](/view.html?p=notes/technica/general/cto/concept.md)
 - Reality (no dedicated note yet — see the Formulation question above)
 - Ontology (no dedicated note yet — see the Formulation question above)

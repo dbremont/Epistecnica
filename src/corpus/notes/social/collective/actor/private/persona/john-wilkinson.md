@@ -67,7 +67,7 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 > Wilkinson's cannon-boring machine (patented 1774) is the technical element that made James Watt's separate-condenser engine deployable. Watt's engine was conceived by the 1760s, but its cylinder could not be bored accurately enough to hold steam: earlier boring left the bore irregular, so the piston leaked and the engine lost its power. Wilkinson's machine, designed to bore cannon from the solid, held the boring bar rigid at both ends and advanced the cutter, cutting true cylinders; from 1775–76 it bored the cylinders for Boulton and Watt, and by 1776 Boulton could advertise a fifty-inch cylinder accurate to a shilling's thickness.
 >
-> The point generalizes: the genesis of a technical element — the invention or first demonstration of its working principle — is necessary but not sufficient. The element becomes a *deployed* technical element only when its enabling conditions exist: the producing elements and tooling that make it manufacturable, the resources it consumes, and the constraints it must satisfy. In this case the invention was Watt's and the enabling condition was Wilkinson's; the steam engine is the standard case, worked out in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> The point generalizes: the genesis of a technical element — the invention or first demonstration of its working principle — is necessary but not sufficient. The element becomes a *deployed* technical element only when its enabling conditions exist: the producing elements and tooling that make it manufacturable, the resources it consumes, and the constraints it must satisfy. In this case the invention was Watt's and the enabling condition was Wilkinson's; the steam engine is the standard case, worked out in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 >
 > The elements themselves — the machine tool and the engine — are documented in the Technique Space; `energy-technology.md` records the steam engine in the energy ensemble. This note records the person who supplied the enabling condition, and is cross-linked accordingly.
 
@@ -75,5 +75,5 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 
 - [John Wilkinson](https://en.wikipedia.org/wiki/John_Wilkinson_(industrialist))
 - [Boulton and Watt](https://en.wikipedia.org/wiki/Boulton_and_Watt)
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
 - [Energy Technology](/view.html?p=notes/technica/general/cto/es/multinode/energy-technology.md)

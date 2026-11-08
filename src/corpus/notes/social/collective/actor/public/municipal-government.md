@@ -98,7 +98,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### What is a critical conceptual evaluation of this `social element instance`?
 
-> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
 
 > Verdict: the concept passes clarity, distinctiveness, leverage, fluidity, and operationalizability, and strains at parsimony, determinacy, and misuse resistance. The municipal/local/government conflation reads here as parsimony plus fidelity failures: the urban-locality kind is not the whole local tier, and neither is the governing collective the locality it governs — merging the rows would type the kind, the tier, and the governed entity as one.
 
@@ -163,8 +163,8 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 - [Actor](/view.html?p=notes/social/collective/actor/actor.md)
 - [Municipio](/view.html?p=notes/social/history/castilla/municipio.md) (historical and territorial unit)
 - [Facet](/view.html?p=notes/social/framework/facet.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Tampere Council Model](https://www.tampere.fi/en/city-and-decision-making/decision-makers-and-decisions?utm_source=chatgpt.com)
 - [How to Make Inter‑Municipal Co‑operation Work](https://www.oecd.org/en/publications/how-to-make-inter-municipal-co-operation-work_44d03db6-en/full-report/why-engage-in-inter-municipal-co-operation-drivers-benefits-and-challenges_be24ebbb.html?utm_source=chatgpt.com)
 

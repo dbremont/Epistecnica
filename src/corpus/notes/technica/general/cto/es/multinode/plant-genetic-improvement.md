@@ -389,4 +389,4 @@ Entries above are in APA style. Historical works and the well-known papers are g
 - [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) — the G × E structure and the climate and soils that set the adaptation range
 - [Biotechnology](/view.html?p=notes/technica/general/cto/es/multinode/biotechnology.md) — the wider ensemble this set sits in
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) — the instrument technically, the organism naturally
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

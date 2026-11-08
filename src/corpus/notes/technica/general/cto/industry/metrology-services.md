@@ -34,4 +34,4 @@ tags: [note, metrology, measurement]
 ## References
 
 - Produceologia `docs/Production/Technique/Catalog/Metrology.md`
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

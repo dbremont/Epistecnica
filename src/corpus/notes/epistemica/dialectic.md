@@ -50,5 +50,5 @@ It avoids (a) the Hegelian baggage of necessary synthesis, (b) the Marxist charg
 ## References
 
 - [Dialectic](/glossarium/?t=dialectic)
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

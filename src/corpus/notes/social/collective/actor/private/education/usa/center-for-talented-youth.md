@@ -86,5 +86,5 @@ Two load-bearing caveats.
 - [CTY homepage](https://cty.jhu.edu/homepage)
 - [Center for Talented Youth](https://en.wikipedia.org/wiki/Center_for_Talented_Youth)
 - [Johns Hopkins University](https://www.jhu.edu/)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md) (the type this provider realizes)

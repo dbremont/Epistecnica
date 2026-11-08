@@ -8,7 +8,7 @@ tags: [note, geological-resources, mining, extraction, technical-element-set]
 
 > The **Geological Resource Development Technical Domain** is the super-domain that composes every technique for turning a geological occurrence into a usable mineral product and, afterwards, into a closed and remediated site. It is not a practice of its own: it is the scope inside which the member sets sit, and its work is to say what they share, where each one begins, and where the domain stops.
 >
-> The cut is the full chain. What is in: finding the occurrence (prospecting and exploration), taking the rock out of the ground (extraction, open-pit and underground), separating the valuable fraction (beneficiation and first processing), and returning the site (closure and remediation). What is out: everything upstream of technique — the deposit as observer-independent furniture, which belongs to nature — and everything downstream of the marketable product — firms, concessions, and markets, which belong to the social and production spaces — as well as the earth sciences as knowledge, which belong to epistemica. Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> The cut is the full chain. What is in: finding the occurrence (prospecting and exploration), taking the rock out of the ground (extraction, open-pit and underground), separating the valuable fraction (beneficiation and first processing), and returning the site (closure and remediation). What is out: everything upstream of technique — the deposit as observer-independent furniture, which belongs to nature — and everything downstream of the marketable product — firms, concessions, and markets, which belong to the social and production spaces — as well as the earth sciences as knowledge, which belong to epistemica. Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md).
 
 ```
 Exploration → Discovery → Characterization → Geological Modelling → Resource Estimation → Resource Evaluation → Extraction → Beneficiation → Processing → Utilization.
@@ -82,7 +82,7 @@ Lineage: surface gathering and shallow digging → prospecting by outcrop and fl
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; recursion rule for composites)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; recursion rule for composites)
 - [Technical Core Catalog](/view.html?p=notes/technica/general/cto/industry/technical-core-catalog.md) (the corpus precedent for a set whose members are sets)
 - Members: [Well Logging](/view.html?p=notes/technica/general/cto/industry/well-logging.md) · [Mining System](/view.html?p=notes/technica/general/cto/industry/mining-system.md) · [Metals Production](/view.html?p=notes/technica/general/cto/industry/metals-production.md) · [Nonmetallic Production](/view.html?p=notes/technica/general/cto/industry/nonmetallic-production.md)
 - Boundary, deliberately not members: Petroleum Oil (a resource, not a technique) · Metalworking (downstream fabrication) · Materiotecnia (knowledge scaffolding for the processing member)

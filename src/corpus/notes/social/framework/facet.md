@@ -40,7 +40,7 @@ tags: [note, facet, social-ontology, dimension, layers, analytical]
 
 ## Facets and layers
 
-> Facets and layers are two orthogonal axes. Layers (Ontic, Synontic, Noetic, Multi) state in which stratum an element exists — extra-mentally, through shared interpretation, as a descriptive instrument, or across strata; facets state by which dominant causal mechanism it is scoped. Every social element is read against both: an element's layer is part of its type, while its facet scopes the inquiry. See "Why do we need layers and facets?" in [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> Facets and layers are two orthogonal axes. Layers (Ontic, Synontic, Noetic, Multi) state in which stratum an element exists — extra-mentally, through shared interpretation, as a descriptive instrument, or across strata; facets state by which dominant causal mechanism it is scoped. Every social element is read against both: an element's layer is part of its type, while its facet scopes the inquiry. See "Why do we need layers and facets?" in [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md).
 
 ## Facet vs. field
 
@@ -58,7 +58,7 @@ tags: [note, facet, social-ontology, dimension, layers, analytical]
 
 ## References
 
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Social Ontology](/view.html?p=notes/social/framework/social-ontology.md)
 - [Facet of Social Reality](http://localhost:8004/Locus-Social-Realitatis/Facet/)
 - [Field Theory](https://en.wikipedia.org/wiki/Field_theory_(sociology))

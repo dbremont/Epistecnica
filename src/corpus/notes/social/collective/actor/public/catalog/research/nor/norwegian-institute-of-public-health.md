@@ -6,7 +6,7 @@ tags: [note, actor, research-institute, state-agency, norway, public-health]
 
 > **The Norwegian Institute of Public Health** is the state's public-health agency: a government agency under the Ministry of Health and Care Services that maintains the national health registers and surveillance, supplies the evidence the health service and the ministry run on, and holds the competence the country needs when an epidemic arrives. Norwegians meet it mostly through its registers and its annual *Health in Norway* report.
 
-> It is the health counterpart of NIBIO in the Norwegian state: an agency whose product is warranted knowledge about a population rather than a service consumed at the point of need. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> It is the health counterpart of NIBIO in the Norwegian state: an agency whose product is warranted knowledge about a population rather than a service consumed at the point of need. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -100,6 +100,6 @@ Lineage: a state health authority with a long institutional past → the agency 
 - [About the Norwegian Institute of Public Health — NIPH](https://www.fhi.no/en/ab/niph) (agency status, parent ministry, locations, organization number)
 - [Health in Norway — NIPH](https://www.fhi.no/en/he) (the national report and the register estate)
 - [Global health — Who we are — NIPH](https://www.fhi.no/en/ab/departments-and-centres/global-health-cluster) (the global-health cluster and its funders)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [NIBIO (companion note)](/view.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (the other state-agency form in this family)
 - Reference hygiene: this note records the agency's present form, mandate, sites, registers, and activity from the sources above. Its founding history is not recorded here, because the primary record for it was not consulted in the writing of this note.

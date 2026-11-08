@@ -8,7 +8,7 @@ tags: [note]
 
 > It is the complement of an observation: the physical and biological sciences state how bodies, materials, and fields behave, while robotics intervenes in them — driving, grasping, navigating, and actuating, under real-time, safety, and uncertainty constraints, from a single joint to a deployed fleet.
 
-> This note treats robotics as a shallow ensemble — the root set plus its nine direct sub-domain constituents only, following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
+> This note treats robotics as a shallow ensemble — the root set plus its nine direct sub-domain constituents only, following the schema in [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md). Deeper expansion of any sub-domain is a separate decomposition per sub-domain.
 
 ## Formulation
 
@@ -59,7 +59,7 @@ Lineage: mechanical automata and clockwork devices → teleoperation and industr
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; shallow depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; shallow depth per the guideline depth rule; No-repetition and Composite Instance Naming rules; default-root rule for secondary readings)
 - [Biotechnology](/view.html?p=notes/technica/general/cto/es/multinode/biotechnology.md) (sibling domain ensemble: engineering living substrates)
 - [Gazebo](/view.html?p=notes/technica/general/cto/es/gazebo.md) (member decomposed elsewhere: robotics simulation)
 - [Carla](/view.html?p=notes/technica/general/cto/es/carla.md) (member decomposed elsewhere: autonomous-driving simulation)

@@ -11,7 +11,7 @@ qa:
 
 > **Ore** is rock or sediment that contains a mineral — or a metal within a mineral — at a concentration high enough to be recovered at a profit. It is the one material category individuated by **price** rather than by nature: the substance is unchanged when the market moves, only its classification changes.
 
-> An ore is read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> An ore is read per [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -70,5 +70,5 @@ The choice matters. Ore is not a `Mineral`: a mineral is a lattice, whereas an o
 - [Gangue](https://en.wikipedia.org/wiki/Gangue)
 - [Cut-off grade](https://en.wikipedia.org/wiki/Cut-off_grade)
 - [Mineral resource classification](https://en.wikipedia.org/wiki/Mineral_resource_classification)
-- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
+- [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) (schema and table contract)

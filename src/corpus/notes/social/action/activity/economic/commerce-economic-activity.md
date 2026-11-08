@@ -1498,4 +1498,4 @@ $$
 - [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)
 - [Costco Wholesale Corporation](/view.html?p=notes/social/collective/actor/private/firm/costco-wholesale-corporation.md)
 - [Amazon.com, Inc.](/view.html?p=notes/social/collective/actor/private/firm/amazon-com-inc.md)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

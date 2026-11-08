@@ -11,7 +11,7 @@ tags: [note]
 > reading) is set aside. Parent instance [Nature](/view.html?p=notes/nature/nature.md); children
 > [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) and
 > [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md). Worked per
-> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 > Presupposed definitions (`Reality`, segments, levels of organization, the ontology/epistemology
 > dual) live in the epistemicarum guide and are restated nowhere here.
 
@@ -90,8 +90,8 @@ technically, the formation naturally
 
 ## References
 
-- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](/view.html?p=notes/nature/nature.md) (parent: all observer-independent reality)
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)

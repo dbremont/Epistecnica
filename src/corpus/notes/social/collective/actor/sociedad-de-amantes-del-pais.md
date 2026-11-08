@@ -36,5 +36,5 @@ tags: [note, actor, learned-society, social-element]
 ## References
 
 - [Sociedad de Amantes del País](https://es.wikipedia.org/wiki/Sociedad_de_Amantes_del_Pa%C3%ADs)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent collective type)

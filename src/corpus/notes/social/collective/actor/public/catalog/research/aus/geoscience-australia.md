@@ -6,7 +6,7 @@ tags: [note, actor, australia, geoscience, survey]
 
 > **Geoscience Australia** is the Australian Government's national geoscience agency, seated in Canberra: the body that maps the continent, watches it move, positions everything on it, and publishes what it learns. It runs the national earthquake monitoring, the Positioning Australia precise-positioning capability, the Digital Earth Australia free-and-open satellite-data program, and — since July 2024 — Resourcing Australia's Prosperity, a 35-year, $3.4 billion mapping of the country's resources for the net-zero transition. Alongside sits an education centre, open data and publications, and a recently convened First Nations Advisory Group.
 
-> It is the sibling that is *not* a university and *not* a firm: it surveys rather than teaches for degrees, and it publishes precompetitive data rather than extracting for profit — the public ground on which explorers, planners, and emergency managers stand. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> It is the sibling that is *not* a university and *not* a firm: it surveys rather than teaches for degrees, and it publishes precompetitive data rather than extracting for profit — the public ground on which explorers, planners, and emergency managers stand. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -86,7 +86,7 @@ Lineage (to verify against the agency's history page at next pass): colonial geo
 ## References
 
 - [Geoscience Australia](https://www.ga.gov.au/) (mandate and programs: earthquake monitoring, Positioning Australia, Digital Earth Australia, Resourcing Australia's Prosperity, education centre, open data)
-- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md) (decomposition schema; single-type root; instance vs. type path rules)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (decomposition schema; single-type root; instance vs. type path rules)
 - [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the production-side science this agency applies; its Geological Survey infrastructure row)
 - [Geological Resource Development Technical Domain](/view.html?p=notes/technica/general/cto/es/multinode/geological-resource-development-technical-domain.md) (the agency's precompetitive data feeds that domain's Exploration Set)
 - [NINA (companion note)](/view.html?p=notes/social/collective/actor/public/catalog/research/nor/nina.md) (sibling state survey body)

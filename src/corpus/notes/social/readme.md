@@ -4,7 +4,7 @@ tags: [note]
 
 # Note Corpus Map
 
-> The social section of Naturgnosis: the note corpus formalizing the elements of social reality — the units, bonds, and coordinators that let an agent understand and act. Governing grammar: [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md). Element types: Interaction Unit, Social Compound, Social Relation, Social Action / Activity, Social Event, Social Process, Social State, Social Property; strata: Ontic, Synontic, Noetic, Multi.
+> The social section of Naturgnosis: the note corpus formalizing the elements of social reality — the units, bonds, and coordinators that let an agent understand and act. Governing grammar: [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md). Element types: Interaction Unit, Social Compound, Social Relation, Social Action / Activity, Social Event, Social Process, Social State, Social Property; strata: Ontic, Synontic, Noetic, Multi.
 
 | Home | Scope |
 | --- | --- |
