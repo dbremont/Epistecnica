@@ -13,7 +13,7 @@ tags: [note]
 > Physics is a training ground for rigorous modeling because it enforces precise, testable, and feedback-rich representations of reality. The value lies in transferring this epistemic discipline—rather than its specific models—into more complex domains like social systems. Why study physics?
 > 
 
-> Integrate with this [Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md).
+> Integrate with this [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md).
 > 
 
 > Conceptual Model:
@@ -69,7 +69,7 @@ apple's position, a person's anxiety, a market's volatility).
 
 ### Reality
 
-> See more in Nature and [Reality](/note.html?p=notes/nature/theory/reality.md).
+> See more in Nature and [Reality](/view.html?p=notes/nature/theory/reality.md).
 > 
 
 > **Reality** is the total set of phenomena, entities, and processes that exist or occur, **independently of an observer’s perception or conceptualization**, and which can, in principle, interact, change, or produce effects.
@@ -108,7 +108,7 @@ The following principles summarize these features:
 > In highly technical terms, the **"Level of Organization"** of a system refers to the hierarchical stratification of its structural and functional components, ranging from fundamental microscopic interactions to emergent macroscopic behaviors. This concept is crucial in physics, biology, complexity science, and engineering when modeling systems with multiscale dynamics, memory, or adaptive laws.
 > 
 
-> See more in [Level of Organization](/note.html?p=notes/nature/theory/level-of-organization.md).
+> See more in [Level of Organization](/view.html?p=notes/nature/theory/level-of-organization.md).
 > 
 - **Micro-level:** Individual elements and their local interactions.
 - **Meso-level:** Subsystems, modules, clusters of interactions.
@@ -120,7 +120,7 @@ The following principles summarize these features:
 > What is reality like? Which are the elements that makes up reality? How do we identify such elements?  How to think deeply about changed? How to think about changed as an element of reality itself?
 > 
 
-> See more in [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md).
+> See more in [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md).
 > 
 
 ### Level of Reality
@@ -134,7 +134,7 @@ The following principles summarize these features:
 > How new ontic entities arises  - from lower elements? How to they give rise to new pieces of reality?
 > 
 
-> See more in [Level of Organization](/note.html?p=notes/nature/theory/level-of-organization.md).
+> See more in [Level of Organization](/view.html?p=notes/nature/theory/level-of-organization.md).
 > 
 
 ### Template of Realty
@@ -142,7 +142,7 @@ The following principles summarize these features:
 > The templates of reality are not ontic concepts; rather, they are epistemic constructs that allow us to parse and structure reality.
 > 
 
-> See more in [Ontology Template](/note.html?p=notes/epistemica/epistemic/theory/ontology.md) and [Segment](/note.html?p=notes/nature/theory/segment.md).
+> See more in [Ontology Template](/view.html?p=notes/epistemica/epistemic/theory/ontology.md) and [Segment](/view.html?p=notes/nature/theory/segment.md).
 > 
 
 | **Category** | **Notion** | **Description** |
@@ -179,7 +179,7 @@ The following principles summarize these features:
 > **What constitutes an epistemic tool, and how does it mediate access to reality?**
 > 
 
-> See more in [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md) and Observer.
+> See more in [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md) and Observer.
 > 
 
 > Note:  For reality section -  and a abstract template to encoded - see Ontology.
@@ -245,7 +245,7 @@ The following principles summarize these features:
 > The term “epistemic activity” was formulated independently; while it is not widely used, it does have prior usage.
 > 
 
-> See [Activity](/note.html?p=notes/epistemica/epistemic/theory/activity.md), [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md), etc.
+> See [Activity](/view.html?p=notes/epistemica/epistemic/theory/activity.md), [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md), etc.
 > 
 
 ### Epistemic Tool
@@ -259,10 +259,10 @@ The following principles summarize these features:
 > **Note:** An epistemic tool is any element that participates in an epistemic activity, either as a guiding structure (e.g., concepts, assumptions, constraints) or as a resulting artifact.
 > 
 
-> This can include (notions like [State](/note.html?p=notes/epistemica/epistemic/theory/state.md)), procedures like ([Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md) → [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md)), Modelado, Modelado, Formal System, etc.
+> This can include (notions like [State](/view.html?p=notes/epistemica/epistemic/theory/state.md)), procedures like ([Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) → [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)), Modelado, Modelado, Formal System, etc.
 > 
 
-> See more in [Epistemic Tool](/note.html?p=notes/epistemica/epistemic/theory/epistemic-tool.md).
+> See more in [Epistemic Tool](/view.html?p=notes/epistemica/epistemic/theory/epistemic-tool.md).
 > 
 
 ### Epistemic Artifact
@@ -276,7 +276,7 @@ The following principles summarize these features:
 > An epistemic artifact - a very special kind of epistemic tool -  is an externalized construct that **embodies a description of reality**.
 > 
 
-> See more of them in [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md).
+> See more of them in [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md).
 > 
 
 ### Epistemic Prior
@@ -287,7 +287,7 @@ The following principles summarize these features:
 > **Note:** This is term is a new re-used - not related with Bayesian Epistemology, but a useful bridge between practical epistemology and reality.
 > 
 
-> See more in [Epistemic Prior](/note.html?p=notes/epistemica/epistemic/theory/epistemic-prior.md).
+> See more in [Epistemic Prior](/view.html?p=notes/epistemica/epistemic/theory/epistemic-prior.md).
 > 
 
 ### Epistemic Pathology
@@ -303,7 +303,7 @@ The following principles summarize these features:
 > An **Affirmation Space** is a powerful idea that attempts to capture the full set of possible affirmations that can be made about something.
 > 
 
-> See more in [Affirmation Space](/note.html?p=notes/epistemica/epistemic/theory/affirmation-space.md).
+> See more in [Affirmation Space](/view.html?p=notes/epistemica/epistemic/theory/affirmation-space.md).
 > 
 
 ### Description
@@ -311,7 +311,7 @@ The following principles summarize these features:
 > 
 > 
 
-> See more in [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md).
+> See more in [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md).
 > 
 
 ### Explanation
@@ -319,7 +319,7 @@ The following principles summarize these features:
 > An explanation is a very special form of description - maybe the ultimate form - this is why we need a special space for it.
 > 
 
-> See more in [Explanation](/note.html?p=notes/epistemica/epistemic/theory/explanation.md).
+> See more in [Explanation](/view.html?p=notes/epistemica/epistemic/theory/explanation.md).
 > 
 
 ### Evaluation
@@ -333,7 +333,7 @@ The following principles summarize these features:
 > An evaluation is a comprehensive assessment of a description, encompassing its validity and other relevant criteria.
 > 
 
-> See more in [Evaluation](/note.html?p=notes/epistemica/epistemic/theory/evaluation.md).
+> See more in [Evaluation](/view.html?p=notes/epistemica/epistemic/theory/evaluation.md).
 > 
 
 ### Validation
@@ -341,7 +341,7 @@ The following principles summarize these features:
 > How to validate our descriptions of reality?
 > 
 
-> See more in [Validation](/note.html?p=notes/epistemica/validation/validation.md).
+> See more in [Validation](/view.html?p=notes/epistemica/validation/validation.md).
 > 
 
 ### Limitation
@@ -446,14 +446,14 @@ On this setting to what do we attribute compression of observations? or What hum
 - https://en.wikipedia.org/wiki/Reality
 - https://www.youtube.com/watch?v=X4PdPnQuwjY&t=19s
 - A Guide to Reading
-- [System](/note.html?p=notes/nature/theory/system.md)
+- [System](/view.html?p=notes/nature/theory/system.md)
 - Energy
-- [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
-- [Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md)
-- [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+- [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+- [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md)
+- [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 - https://en.wikipedia.org/wiki/Reality
 - Nature
-- [Reality](/note.html?p=notes/nature/theory/reality.md)
-- [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Reality](/view.html?p=notes/nature/theory/reality.md)
+- [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md)
 
-[Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md)
+[Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md)

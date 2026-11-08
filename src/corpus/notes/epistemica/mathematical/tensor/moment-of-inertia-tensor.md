@@ -25,4 +25,4 @@ tags: [note, mathematics, analytical, type, physical]
 ## References
 
 - https://en.wikipedia.org/wiki/Moment_of_inertia
-- [Tensor](tensor.md) · [Eigenvalue](../structure/linear/eigenvalue.md) · [Rigid Body Mechanics](/note.html?p=notes/epistemica/singular/rigid-body-mechanics.md) · [Stress Tensor](stress-tensor.md)
+- [Tensor](tensor.md) · [Eigenvalue](../structure/linear/eigenvalue.md) · [Rigid Body Mechanics](/view.html?p=notes/epistemica/singular/rigid-body-mechanics.md) · [Stress Tensor](stress-tensor.md)

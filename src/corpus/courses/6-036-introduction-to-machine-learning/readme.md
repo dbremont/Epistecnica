@@ -11,8 +11,8 @@ tags: [course, ml]
 ## References
 
 - https://ocw.mit.edu/courses/6-036-introduction-to-machine-learning-fall-2020/
-- [6.867 Machine Learning](/note.html?p=courses/6-867-machine-learning/readme.md) — the graduate course it leads into
-- [6.034 Artificial Intelligence](/note.html?p=courses/6-034-artificial-intelligence/readme.md) — the AI course beside it
-- [15.773 Hands-On Deep Learning](/note.html?p=courses/15-773-hands-on-deep-learning/readme.md) — the deep learning track
-- [18.657 Mathematics of Machine Learning](/note.html?p=courses/18-657-mathematics-of-machine-learning/readme.md) — the mathematics behind it
+- [6.867 Machine Learning](/view.html?p=courses/6-867-machine-learning/readme.md) — the graduate course it leads into
+- [6.034 Artificial Intelligence](/view.html?p=courses/6-034-artificial-intelligence/readme.md) — the AI course beside it
+- [15.773 Hands-On Deep Learning](/view.html?p=courses/15-773-hands-on-deep-learning/readme.md) — the deep learning track
+- [18.657 Mathematics of Machine Learning](/view.html?p=courses/18-657-mathematics-of-machine-learning/readme.md) — the mathematics behind it
 - [Atlas of courses](/corpus/courses/atlas.html)

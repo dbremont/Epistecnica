@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Type Compatibility
 
-- [Type Variance](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md), [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type Variance](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-variance.md), [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 
 > **Type compatibility** is the set of rules in a programming language that determines whether a value of one type can be assigned to a variable of another type, either directly or through implicit or explicit conversion.
 > 

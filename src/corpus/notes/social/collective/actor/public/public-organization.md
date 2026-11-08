@@ -4,7 +4,7 @@ tags: [note, public-organization, government, collective, actor]
 
 # Public Organization
 
-> A **Public Organization** is an organization wielding delegated public authority under law — the government subtype of [Organization](/note.html?p=notes/social/collective/actor/organization.md), spanning ministries, councils, delivery and research bodies, task groups, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids.
+> A **Public Organization** is an organization wielding delegated public authority under law — the government subtype of [Organization](/view.html?p=notes/social/collective/actor/organization.md), spanning ministries, councils, delivery and research bodies, task groups, arm's-length agencies, state-owned enterprises, municipalities, and public-private hybrids.
 
 ## Formulation
 
@@ -20,7 +20,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one generic Public Organization — direct subtypes plus the governance chain, at shallow depth, with the agency forms expanded under Public Agency and the Crown Corporation under State-Owned Enterprise. This note is the single home of the government decomposition; the parent [Organization](/note.html?p=notes/social/collective/actor/organization.md) carries only the stub row.
+> Boundary: one generic Public Organization — direct subtypes plus the governance chain, at shallow depth, with the agency forms expanded under Public Agency and the Crown Corporation under State-Owned Enterprise. This note is the single home of the government decomposition; the parent [Organization](/view.html?p=notes/social/collective/actor/organization.md) carries only the stub row.
 >
 > Stopping rule: a row is terminal when it names a subtype, an agency, a role, a norm, an obligation, or a practice.
 >
@@ -41,10 +41,10 @@ It is the government subtype of Organization: what individuates it is not its in
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` UK Executive Agency | Next-Steps executive arm working under a framework document with operational autonomy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise | Commercial organization under controlling public ownership. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` State-Owned Enterprise `(→ Kind)` Crown Corporation | Commercially operating Crown-owned organization with board governance. |
-| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services — the wielding body of a [Municipal Government](/note.html?p=notes/social/collective/actor/public/municipal-government.md). |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Municipal Organization | Local organization governing a bounded territory and its services — the wielding body of a [Municipal Government](/view.html?p=notes/social/collective/actor/public/municipal-government.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Nonprofit Public–Private Organization | Mission-driven hybrid organization under mixed public-private control and funding. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
-| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution; worked at [Board](/note.html?p=notes/social/collective/actor/board.md). |
+| Collective / Organization `(→ Part)` Public Organization `(→ Part)` Agency `(→ Part)` Governing Board | Structured capacity deciding direction and controlling execution; worked at [Board](/view.html?p=notes/social/collective/actor/board.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution | Grouping: stabilized configurations of roles and rules hosted by the organization. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance | Decision rights and coordination mechanisms: control, audit, and policy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Component)` Institution `(→ Component)` Internal Governance `(→ Component)` Social Role | Grouping: expectation-tags binding members to conduct. |
@@ -80,7 +80,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### What types of board composition structures exist?
 
-> The board element itself — its kinds, anatomy, and terminology — is documented at [Board](/note.html?p=notes/social/collective/actor/board.md). This section keeps the public-organization-specific composition types.
+> The board element itself — its kinds, anatomy, and terminology — is documented at [Board](/view.html?p=notes/social/collective/actor/board.md). This section keeps the public-organization-specific composition types.
 
 | **Board Composition Type** | **Defining Composition Principle** | **What Types of Organizations Is It Best Suited For?** |
 |---|---|---|
@@ -196,13 +196,13 @@ It is the government subtype of Organization: what individuates it is not its in
 
 - [Atlas of Public Organization Comparative Representation Systems](data/social/collective/actor/public/atlas/public-organization-characterization-systems.html)
 - [Public Organizations Compared](data/social/collective/actor/public/atlas/public-organization.html)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Organization](/note.html?p=notes/social/collective/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
-- [Board](/note.html?p=notes/social/collective/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
-- [Firm](/note.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)
-- [Political Party](/note.html?p=notes/social/collective/actor/political-party.md) (political subtype of Organization)
-- [Municipal Government](/note.html?p=notes/social/collective/actor/public/municipal-government.md) (the governing collective whose wielding body is the Municipal Organization kind)
-- [Market](/note.html?p=notes/social/coordinator/market/market.md) (arena public organizations buy, employ, and regulate in)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
+- [Board](/view.html?p=notes/social/collective/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
+- [Firm](/view.html?p=notes/social/collective/actor/firm.md) (economic subtype of Organization)
+- [Political Party](/view.html?p=notes/social/collective/actor/political-party.md) (political subtype of Organization)
+- [Municipal Government](/view.html?p=notes/social/collective/actor/public/municipal-government.md) (the governing collective whose wielding body is the Municipal Organization kind)
+- [Market](/view.html?p=notes/social/coordinator/market/market.md) (arena public organizations buy, employ, and regulate in)
 - Graph nodes of the same names: `public-organization`, `organization`, `government-agencies`, `executive-agency`, `statutory-boards-and-councils` (Social Space, dataset `social`)
 - González (2026) — When Politics Shapes Administration: Bureaucratic Autonomy, Policy Role Separation, and Organizational Capacity in an Institutionally Weak Public Administration.
 - Demir (2008) — The Politics–Administration Dichotomy: An Empirical Search for Correspondence between Theory and Practice.

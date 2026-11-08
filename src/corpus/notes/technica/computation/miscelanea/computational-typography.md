@@ -4,7 +4,7 @@ tags: [note]
 
 # Computational Typography
 
-- [Computer Graphics](/note.html?p=notes/technica/computation/miscelanea/computer-graphics.md)
+- [Computer Graphics](/view.html?p=notes/technica/computation/miscelanea/computer-graphics.md)
 
 > **Typography**: The systematic arrangement and visual encoding of graphemic and metagraphemic elements within a defined spatial substrate, governed by parametric control over glyph metrics, kerning, hinting, ligature formation, and rasterization constraints, to optimize perceptual legibility and aesthetic coherence across variable rendering contexts.
 > 

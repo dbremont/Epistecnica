@@ -25,7 +25,7 @@ tags: [note, human, cognition, system]
 - Neuroadaptive Systems: Theory and Applications
 - Perception 5th (fifth) edition by Blake,Randolph
 
-[**Mental Image**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mental-image.md)
+[**Mental Image**](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mental-image.md)
 
 ## Provenance
 

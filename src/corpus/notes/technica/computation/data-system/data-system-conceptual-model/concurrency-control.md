@@ -4,7 +4,7 @@ tags: [note]
 
 # Concurrency Control
 
-- [Isolation Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/isolation-model.md)
+- [Isolation Model](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/isolation-model.md)
 
 > **Concurrency control** is the set of **mechanisms and protocols that a data system uses to coordinate concurrent operations on shared data**, so that their execution satisfies the system's specified **correctness and isolation guarantees**.
 > 
@@ -64,5 +64,5 @@ tags: [note]
 
 ## References
 
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
 - https://shopify.engineering/scaling-inventory-reservations

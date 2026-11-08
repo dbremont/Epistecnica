@@ -207,5 +207,5 @@ Would you like me to organize this for a cheat sheet or documentation? 😊
 
 ## References
 
-- [Java](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md)
+- [Java](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md)
 -

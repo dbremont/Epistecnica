@@ -4,7 +4,7 @@ tags: [note, language-system, metalinguistic-abstraction]
 
 # Meta Linguistic Abstraction
 
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
 
 > 
 

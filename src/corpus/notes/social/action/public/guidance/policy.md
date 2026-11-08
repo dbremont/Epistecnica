@@ -124,7 +124,7 @@ It is distinct from `Strategy` (the ends/means selection over a horizon), from `
 
 ### Why use the term `Gubernata`?
 
-> Spanish *política* means both policy and politics: the purposeful, instrumental course of action and the contestation for power. Where the language fuses them, the instrument is read as partisanship and the contest as strategy — see [The Policy-Politics Conflation Hypothesis](/note.html?p=notes/unclassified/the-policy-politics-conflation-hypothesis-language-structure-and-development-outcomes.md). *Gubernata* — Latin neuter plural of *gubernare*, to steer; the things steered — names only the policy side: the authorized course operationalized through instruments, binding on action regardless of who contests power. Use it wherever Spanish would force the ambiguous *política*, and keep `Politics` for the contestation itself.
+> Spanish *política* means both policy and politics: the purposeful, instrumental course of action and the contestation for power. Where the language fuses them, the instrument is read as partisanship and the contest as strategy — see [The Policy-Politics Conflation Hypothesis](/view.html?p=notes/unclassified/the-policy-politics-conflation-hypothesis-language-structure-and-development-outcomes.md). *Gubernata* — Latin neuter plural of *gubernare*, to steer; the things steered — names only the policy side: the authorized course operationalized through instruments, binding on action regardless of who contests power. Use it wherever Spanish would force the ambiguous *política*, and keep `Politics` for the contestation itself.
 
 ### What Is the Relationship Between Implementation and Instrumentalization?
 
@@ -137,11 +137,11 @@ Instrumentalization occurs during both formulation and implementation:
 
 ## References
 
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Strategy](/note.html?p=notes/social/action/guidance/strategy.md)
-- [Rule](/note.html?p=notes/social/action/guidance/rule.md)
-- [Social Action Principle](/note.html?p=notes/social/action/guidance/social-action-principle.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Strategy](/view.html?p=notes/social/action/guidance/strategy.md)
+- [Rule](/view.html?p=notes/social/action/guidance/rule.md)
+- [Social Action Principle](/view.html?p=notes/social/action/guidance/social-action-principle.md)
 - [Policy](https://en.wikipedia.org/wiki/Policy)
 - [Public Finance](https://en.wikipedia.org/wiki/Public_finance)
-- [Instrumentalization](/note.html?p=notes/social/action/public/instrumentation/instrumentorum-readme.md)
+- [Instrumentalization](/view.html?p=notes/social/action/public/instrumentation/instrumentorum-readme.md)
 - OECD (2020), Policy Framework on Sound Public Governance: Baseline Features of Governments that Work Well, OECD Publishing, Paris, https://doi.org/10.1787/c03e01b3-en. 

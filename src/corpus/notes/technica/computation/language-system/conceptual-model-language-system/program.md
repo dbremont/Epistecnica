@@ -4,7 +4,7 @@ tags: [note, program]
 
 # Program
 
-- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Computation Description Artifact](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-description-artifact.md)
+- [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md), [Computation Description Artifact](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-description-artifact.md)
 
 > A program is a set of interconnected **computational elements** that **animate a computational process**.
 > 
@@ -137,7 +137,7 @@ How to conceptualize a computation when we have multiple execution flows at the 
 
 ## References
 
-- [Algorithm](/note.html?p=notes/technica/computation/algorithm.md)
+- [Algorithm](/view.html?p=notes/technica/computation/algorithm.md)
 - [‣](https://app.notion.com/p/15f598edb7908187a28bea3fc54ad64e?pvs=21)
 - [Property](https://app.notion.com/p/Property-271c0f5171ec80498865e3db652beafb?pvs=21)
 - https://en.wikipedia.org/wiki/Computer_program

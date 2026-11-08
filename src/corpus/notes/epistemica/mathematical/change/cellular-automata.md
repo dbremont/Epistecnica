@@ -13,7 +13,7 @@ tags: [note, mathematics, natural-computing]
 
 > Cellular Automata are a **parallel, spatially distributed model of computation**, where complex behavior emerges from simple local interactions. They offer insights into **emergence**, **computation in physical systems**, and **distributed algorithms**, and they challenge the notion that all computation must be sequential or centralized.
 > 
-- [ ]  Learn more about CA ([Cellular Automata](/note.html?p=notes/epistemica/mathematical/change/cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
+- [ ]  Learn more about CA ([Cellular Automata](/view.html?p=notes/epistemica/mathematical/change/cellular-automata.md) );  and Continue With Low Level Graphics (https://github.com/dbremont/visiotecnica-labs); Migrate the Results to Python-Matplotlib (No Real Time Updates) (https://github.com/dbremont/algorithms)
 
 QA:
 
@@ -221,4 +221,4 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - Boccara, N. (2004). *Modeling Complex Systems*. Springer. [PDF](https://ndl.ethernet.edu.et/server/api/core/bitstreams/160340ae-2d4d-492a-a3ee-c53629febfc6/content)
 - Kari, J. (2005). Theory of cellular automata: A survey. *Theoretical Computer Science*, 334(1–3), 3–33. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S030439750500054X)
 - http://bactra.org/notebooks/cellular-automata.html
-- [Subshift of Finite Type](/note.html?p=notes/epistemica/mathematical/change/subshift-of-finite-type.md)
+- [Subshift of Finite Type](/view.html?p=notes/epistemica/mathematical/change/subshift-of-finite-type.md)

@@ -4,7 +4,7 @@ tags: [note, language]
 
 # Python
 
-- [CPython](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/cpython.md)
+- [CPython](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/cpython.md)
 
 > **Python** is a high-level, dynamically typed, garbage-collected, multi-paradigm programming language whose reference implementation executes bytecode on a stack-based virtual machine, combining late binding, pervasive object orientation, introspection, and a large runtime/library ecosystem optimized for developer productivity and extensibility over raw execution speed.
 > 
@@ -22,7 +22,7 @@ QA:
 
 ## 🏗️ Models of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 > Computational paradigms largely fall into two broad categories: **Reactive and Proactive**. **Reactive models** are event-driven and respond to external stimuli, emphasizing adaptability and responsiveness. **Proactive models**, by contrast, execute predefined computations based on structured logic, prioritizing control and determinism. Many modern systems blend both paradigms to optimize performance and adaptability.
@@ -94,7 +94,7 @@ Python: **🔄** Concurrency Model
 > A **Language Execution System (LES)** is the set of tools, algorithms, and runtime mechanisms that **execute a program** represented by a given **encoding scheme** (e.g., source code, bytecode, machine code). It defines how a program's **semantics** are realized on a computational substrate (hardware, VM, or interpreter) through a series of **transformations** and **runtime behaviors**.
 > 
 
-> Related: [**🔀** Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/python.md).
+> Related: [**🔀** Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/python.md).
 > 
 
 - [Python: Execution System]
@@ -173,9 +173,9 @@ Python: **🔗Interoperability**
 - https://diveintopython3.net/index.html
 - ‣[https://github.com/gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer)
 - [https://www.notion.so/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?source=copy_link](https://www.notion.so/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?source=copy_link)‣
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
-- [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - https://github.com/csiglab/language-system-labs
 - https://docs.pydantic.dev/latest/
 - Ruff: Formatter + Linter

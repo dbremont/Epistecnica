@@ -303,9 +303,9 @@
             if (e.kind === 'live') return 'corpus/' + encPath(e.path);
             if (e.corpus === 'course' && e.kind === 'course') {
                 var p = /readme\.md$/.test(e.path) ? e.path : e.path + '/readme.md';
-                return 'note.html?p=' + encPath(p);
+                return 'view.html?p=' + encPath(p);
             }
-            return 'note.html?p=' + encPath(e.path);
+            return 'view.html?p=' + encPath(e.path);
         }
 
         var ICON = {
@@ -323,8 +323,8 @@
 
         function fileHref(f) {
             if (f.k === 'live') return 'corpus/' + encPath(f.p);
-            if (f.k === 'course') return 'note.html?p=' + encPath(/readme\.md$/.test(f.p) ? f.p : f.p + '/readme.md');
-            return 'note.html?p=' + encPath(f.p);
+            if (f.k === 'course') return 'view.html?p=' + encPath(/readme\.md$/.test(f.p) ? f.p : f.p + '/readme.md');
+            return 'view.html?p=' + encPath(f.p);
         }
 
         function fileRowHtml(f, q) {

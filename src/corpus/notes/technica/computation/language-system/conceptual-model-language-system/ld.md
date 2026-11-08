@@ -4,7 +4,7 @@ tags: [note, linker, tool]
 
 # ld
 
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
 
 > The **GNU Linker**.
 > 

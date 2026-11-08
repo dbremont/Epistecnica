@@ -47,7 +47,7 @@ Types:
 
 ## Related
 
-- [Temperature](/note.html?p=notes/nature/temperature.md)
+- [Temperature](/view.html?p=notes/nature/temperature.md)
 
 ## Provenance
 

@@ -18,7 +18,7 @@ Useful terms:
 
 ## Problem Specification
 
-> What problem does commerce solve? In short — commerce solves at its core a [Supply–Demand Matching Problem](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md), worked here through its retail instance.
+> What problem does commerce solve? In short — commerce solves at its core a [Supply–Demand Matching Problem](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md), worked here through its retail instance.
 
 > **Note:** Matching supply and demand is the core problem, but it gives rise to a set of related problems that must also be addressed.
 
@@ -184,29 +184,29 @@ Useful terms:
 | ↳ | Credit scoring | Quantitative assessment of a counterparty's likelihood of payment, pricing credit risk into the terms. |
 | ↳ | Hedging | Offsetting price or rate exposure so a margin does not depend on when a transaction settles. |
 | **Information** | Market information | Collected facts about supply, demand, prices, and conditions, sold or shared as a service. |
-| ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](/note.html?p=notes/social/coordinator/market/market.md). |
+| ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](/view.html?p=notes/social/coordinator/market/market.md). |
 | ↳ | Demand forecasting | Projecting future quantities from history, signals, and models. |
 | ↳ | Product information | Descriptions, specifications, and provenance attached to goods so buyers can choose without inspecting. |
-| ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](/note.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md). |
+| ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md). |
 | ↳ | Reputation systems | Aggregated ratings and reviews that substitute for direct inspection of an unfamiliar seller. |
 | ↳ | Market research | Structured inquiry into preferences, segments, and competitors. |
-| **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](/note.html?p=notes/technica/general/cto/industry/logistics-system.md). |
+| **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md). |
 | ↳ | Warehousing | Receiving, storing, preserving, and retrieving goods before they reach demand. |
-| ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](/note.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md). |
+| ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md). |
 | ↳ | Fulfillment | Picking, packing, and preparing customer orders for delivery or pickup. |
 | ↳ | Freight forwarding | Arranging and consolidating transport across carriers and borders on behalf of a shipper. |
 | ↳ | Customs brokerage | Clearing goods through border controls, duties, and documentation. |
 | **Standardization** | Standards organizations | Bodies that publish and maintain the specifications others certify against. |
 | ↳ | Measurement | Calibrated units and instruments that make quantities comparable across parties. |
 | ↳ | Packaging standards | Common sizes, materials, and labels that let goods move through shared infrastructure. |
-| ↳ | Product classifications | Published taxonomies that key trade, tariffs, and statistics to the same codes; see [Goods Nomenclature](/note.html?p=notes/social/coordinator/good/good.md). |
+| ↳ | Product classifications | Published taxonomies that key trade, tariffs, and statistics to the same codes; see [Goods Nomenclature](/view.html?p=notes/social/coordinator/good/good.md). |
 | ↳ | Quality grades | Declared classes of condition or composition that price and acceptance reference. |
 | **Legal/institutional** | Contract enforcement | The mechanism — courts, arbitration, escrow — that makes a commercial promise costly to break. |
 | ↳ | Licensing | Permission from an authority to perform a regulated activity or use a regulated mark. |
 | ↳ | Dispute resolution | Structured processes — mediation, arbitration, courts — for settling claims between parties. |
 | ↳ | Intellectual property | Exclusive rights to marks, designs, and inventions that make brands and products defensible. |
 | ↳ | Regulatory compliance | The ongoing work of meeting the rules that gate an activity: food safety, labeling, weights and measures. |
-| **Technology** | Marketplaces | Platforms that host many sellers and buyers and intermediate their transactions; see [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md). |
+| **Technology** | Marketplaces | Platforms that host many sellers and buyers and intermediate their transactions; see [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md). |
 | ↳ | ERP | Integrated planning and record systems that run procurement, inventory, and finance as one ledger. |
 | ↳ | POS | The point where a purchase is confirmed and payment collected, physical or digital. |
 | ↳ | Supply-chain systems | Shared planning, ordering, and visibility systems across independent actors. |
@@ -767,15 +767,15 @@ $$
 
 | **Value Creation Mechanism** | **Description** |
 | --- | --- |
-| **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
-| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](/note.html?p=notes/social/coordinator/good/product.md). |
+| **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
+| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](/view.html?p=notes/social/coordinator/good/product.md). |
 | **Aggregation of fragmented supply** | Combining many small supply items into a sellable quantity, making producers too small to reach the consumer directly reachable at all. |
 | **Transformation and repackaging** | Grading, packing, cutting, assembling: changing the good so it fits a use it did not fit before. |
-| **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](/note.html?p=notes/technica/general/cto/industry/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
+| **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
 | **Price formation and inventory risk-bearing** | Offering a firm price and immediate availability while absorbing demand and price uncertainty: the intermediary buys the consumer time and certainty, and the inventory position is the cost of that service. |
 | **Financing and credit enablement** | Decoupling payment from consumption — trade credit, installments, buy-now-pay-later — so purchases constrained by timing, not by means, can happen. |
 | **Verification and trust** | Inspection, certification, guarantees, and reputation: removing the risk discount the buyer would otherwise apply to an unfamiliar seller or product. |
-| **Standardization** | Common measures, grades, and classifications that let parties contract without re-inspecting every term; see [Goods Nomenclature](/note.html?p=notes/social/coordinator/good/good.md). |
+| **Standardization** | Common measures, grades, and classifications that let parties contract without re-inspecting every term; see [Goods Nomenclature](/view.html?p=notes/social/coordinator/good/good.md). |
 | **Cross-side network liquidity** | Each additional seller makes the venue more valuable to buyers and vice versa: the marketplace's value exceeds the sum of its listings. |
 | **After-sales and reverse logistics** | Returns, warranties, repairs, and resale: extending the good's usable life and insuring the purchase against regret. |
 | **Household-production enablement** | Saving the shopper's own time and effort — the complement the household-production model makes explicit: a product is worth more when it arrives with less shopping, travel, and assembly work attached (Betancourt & Gautschi, 1990, 1992). |
@@ -792,7 +792,7 @@ $$
 
 ### How is the production function of commerce operationalized?
 
-> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/note.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/?node=production-function).
+> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/view.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/?node=production-function).
 
 | Decision | The choice that matters | Commerce reading |
 | --- | --- | --- |
@@ -884,7 +884,7 @@ $$
 | **General Merchandise** | Supercenters, department stores, warehouse clubs, dollar stores | **Broad heterogeneous demand; high basket breadth and substitution** |
 | **E-commerce / Direct Retail** | Cross-category | **Demand is channel-mediated rather than product-specific: highly distributed, convenience-driven, delivery-sensitive** |
 
-> The perishable end of this demand space — fresh agricultural goods whose value decays with time and temperature — is worked in the companion note [Perishable Agricultural Products Industry](/note.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md).
+> The perishable end of this demand space — fresh agricultural goods whose value decays with time and temperature — is worked in the companion note [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md).
 
 ### Which are the open theoretical problems in commerce?
 
@@ -1489,13 +1489,13 @@ $$
 - Vargo, S. L., & Lusch, R. F. (2004). The institution, service, and systems of service-centered (S-D) logic. *Journal of Marketing, 68*(5), 1–17.
 - Varian, H. R. (1992). *Microeconomic analysis* (3rd ed.). W. W. Norton.
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
-- [Economic Activity](/note.html?p=notes/social/action/activity/economic/economic-activity.md)
-- [Perishable Agricultural Products Industry](/note.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md)
-- [Production Function](/note.html?p=notes/epistemica/singular/production-function.md)
-- [Market](/note.html?p=notes/social/coordinator/market/market.md)
-- [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
-- [Logistics System](/note.html?p=notes/technica/general/cto/industry/logistics-system.md)
-- [Marketing Technical Practice](/note.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)
-- [Costco Wholesale Corporation](/note.html?p=notes/social/collective/actor/private/firm/costco-wholesale-corporation.md)
-- [Amazon.com, Inc.](/note.html?p=notes/social/collective/actor/private/firm/amazon-com-inc.md)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Economic Activity](/view.html?p=notes/social/action/activity/economic/economic-activity.md)
+- [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md)
+- [Production Function](/view.html?p=notes/epistemica/singular/production-function.md)
+- [Market](/view.html?p=notes/social/coordinator/market/market.md)
+- [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
+- [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md)
+- [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)
+- [Costco Wholesale Corporation](/view.html?p=notes/social/collective/actor/private/firm/costco-wholesale-corporation.md)
+- [Amazon.com, Inc.](/view.html?p=notes/social/collective/actor/private/firm/amazon-com-inc.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)

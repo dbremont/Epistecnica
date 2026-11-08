@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Docker Compose
 
-- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 > It appears that you might be referring to Docker Compose, which is a tool used for defining and running multi-container Docker applications. Docker Compose uses a YAML file called a “docker-compose.yml” file to specify the configuration of the services, networks, and volumes that make up your application stack.
 > 

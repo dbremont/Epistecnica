@@ -52,14 +52,14 @@ Some of the older names or terms associated with momentum include:
 
 ## References
 
-- [Energy](/note.html?p=notes/nature/energy.md)
+- [Energy](/view.html?p=notes/nature/energy.md)
 - https://en.wikipedia.org/wiki/Momentum
 
 ## Related
 
-- [Energy/Force](/note.html?p=notes/nature/energy-force.md)
-- [Force](/note.html?p=notes/nature/force.md)
-- [Motion](/note.html?p=notes/nature/motion.md)
+- [Energy/Force](/view.html?p=notes/nature/energy-force.md)
+- [Force](/view.html?p=notes/nature/force.md)
+- [Motion](/view.html?p=notes/nature/motion.md)
 
 ## Provenance
 

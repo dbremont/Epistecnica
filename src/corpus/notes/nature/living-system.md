@@ -236,14 +236,14 @@ Gray Areas:
 
 ## Related
 
-- [Cell](/note.html?p=notes/nature/cell.md)
-- [Microorganism](/note.html?p=notes/nature/microorganism.md)
-- [Unicellular Organism](/note.html?p=notes/nature/unicellular-organism.md)
-- [Multicellular Organism](/note.html?p=notes/nature/multicellular-organism.md)
-- [Genome](/note.html?p=notes/nature/genome.md)
-- [Gene](/note.html?p=notes/nature/gene.md)
-- [DNA](/note.html?p=notes/nature/dna.md)
-- [Protein](/note.html?p=notes/nature/protein.md)
+- [Cell](/view.html?p=notes/nature/cell.md)
+- [Microorganism](/view.html?p=notes/nature/microorganism.md)
+- [Unicellular Organism](/view.html?p=notes/nature/unicellular-organism.md)
+- [Multicellular Organism](/view.html?p=notes/nature/multicellular-organism.md)
+- [Genome](/view.html?p=notes/nature/genome.md)
+- [Gene](/view.html?p=notes/nature/gene.md)
+- [DNA](/view.html?p=notes/nature/dna.md)
+- [Protein](/view.html?p=notes/nature/protein.md)
 
 ## Provenance
 

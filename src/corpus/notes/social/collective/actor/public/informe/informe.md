@@ -17,15 +17,15 @@ tags: [note]
 > standards, shared services, authority distribution, oversight), and record its
 > coordinates axis by axis. Compare configurations across cases; do not reduce a
 > system to a single type or score. Method and caveats live in
-> [Government-Wide Administrative System](/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md).
+> [Government-Wide Administrative System](/view.html?p=notes/social/collective/actor/public/gov-wide-administration.md).
 
 ## Studies
 
-- [Course of Honors](/note.html?p=notes/social/collective/actor/public/informe/course-of-honors.md)
-- [Mandarin](/note.html?p=notes/social/collective/actor/public/informe/mandarinate.md)
+- [Course of Honors](/view.html?p=notes/social/collective/actor/public/informe/course-of-honors.md)
+- [Mandarin](/view.html?p=notes/social/collective/actor/public/informe/mandarinate.md)
 
 > Candidate pipeline seeded from the representative sample in
-> [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md).
+> [Public Administration](/view.html?p=notes/social/collective/actor/public/administration.md).
 > Each case below graduates into its own study file under this directory; until
 > then the sample table carries the characterization.
 
@@ -122,10 +122,10 @@ tags: [note]
 
 ## Related
 
-- [Public Administration](/note.html?p=notes/social/collective/actor/public/administration.md)
-- [Government-Wide Administrative System](/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
-- [Civil Service](/note.html?p=notes/social/collective/actor/public/civil-service.md)
-- [Public Employee](/note.html?p=notes/social/collective/actor/public/catalog/employee.md)
-- [Human Resource Unit](/note.html?p=notes/social/collective/actor/public/catalog/hru.md)
-- [Government](/note.html?p=notes/social/collective/actor/public/government.md)
+- [Public Administration](/view.html?p=notes/social/collective/actor/public/administration.md)
+- [Government-Wide Administrative System](/view.html?p=notes/social/collective/actor/public/gov-wide-administration.md)
+- [Civil Service](/view.html?p=notes/social/collective/actor/public/civil-service.md)
+- [Public Employee](/view.html?p=notes/social/collective/actor/public/catalog/employee.md)
+- [Human Resource Unit](/view.html?p=notes/social/collective/actor/public/catalog/hru.md)
+- [Government](/view.html?p=notes/social/collective/actor/public/government.md)
 - [Atlas of Government-Wide Administration Comparative Representation Systems](../atlas/gov-wide-administration.html)

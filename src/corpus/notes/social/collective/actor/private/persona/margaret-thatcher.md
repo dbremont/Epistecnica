@@ -59,9 +59,9 @@ She remains a polarizing figure rather than a settled one. Her admirers see conv
 - Kavanagh, Dennis. *Thatcherism and British Politics: The End of Consensus?* 2nd ed. Oxford: Oxford University Press, 1990. — A concise political analysis of the Thatcher governments.
 - Letwin, Shirley Robin. *The Anatomy of Thatcherism*. London: Fontana, 1992. — A sympathetic philosophical account of the "vigorous virtues".
 - Evans, Eric J. *Thatcher and Thatcherism*. 3rd ed. London: Routledge, 2013. — A short historical survey of the period and its legacy.
-- Woodward, Richard, and James Silverwood. "What We Do in the Shadows: Dual Industrial Policy during the Thatcher Governments, 1979–1990." *The British Journal of Politics and International Relations* 25, no. 2 (2023): 348–364. DOI [10.1177/13691481221077854](https://doi.org/10.1177/13691481221077854). — The "dual industrial policy" argument: selective intervention continued beneath the rhetoric of rollback. [Document](/note.html?p=documents/articles/woodward-silverwood-2023-what-we-do-in-the-shadows-dual-industrial-policy.md).
+- Woodward, Richard, and James Silverwood. "What We Do in the Shadows: Dual Industrial Policy during the Thatcher Governments, 1979–1990." *The British Journal of Politics and International Relations* 25, no. 2 (2023): 348–364. DOI [10.1177/13691481221077854](https://doi.org/10.1177/13691481221077854). — The "dual industrial policy" argument: selective intervention continued beneath the rhetoric of rollback. [Document](/view.html?p=documents/articles/woodward-silverwood-2023-what-we-do-in-the-shadows-dual-industrial-policy.md).
 
 ## See also
 
-- [United Kingdom](/note.html?p=notes/social/collective/actor/public/polity/gbr/uk.md)
-- [What We Do in the Shadows](/note.html?p=documents/articles/woodward-silverwood-2023-what-we-do-in-the-shadows-dual-industrial-policy.md)
+- [United Kingdom](/view.html?p=notes/social/collective/actor/public/polity/gbr/uk.md)
+- [What We Do in the Shadows](/view.html?p=documents/articles/woodward-silverwood-2023-what-we-do-in-the-shadows-dual-industrial-policy.md)

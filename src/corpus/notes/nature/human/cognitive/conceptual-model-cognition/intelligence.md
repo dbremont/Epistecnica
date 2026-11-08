@@ -31,7 +31,7 @@ Definitions of intelligence usually deal with:
 > **Note:** Many existing measures are **synthetic approximations**—test-based scores that serve as proxies. These are later correlated with other phenomena to uncover **latent relationships** and to construct **indirect representations** of intelligence.
 >
 
-> See more in [IQ](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/iq.md)
+> See more in [IQ](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/iq.md)
 >
 
 | **Type** | **Method** | **Description** | **Scope** |
@@ -77,7 +77,7 @@ In formal terms, it encompasses:
 
 ## Related
 
-- [IQ](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/iq.md)
+- [IQ](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/iq.md)
 
 ## Provenance
 

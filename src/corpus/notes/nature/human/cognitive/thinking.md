@@ -9,7 +9,7 @@ tags: [note, human, cognition, unfinished]
 
 ## References
 
-- [Thinking](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
+- [Thinking](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
 
 ## Provenance
 

@@ -22,8 +22,8 @@ tags: [note, nature, phenomenon, biology, phenomena]
 
 ## Related
 
-- [Photoelectric Effect](/note.html?p=notes/nature/photoelectric-effect.md)
-- [Adaptation](/note.html?p=notes/nature/adaptation.md)
+- [Photoelectric Effect](/view.html?p=notes/nature/photoelectric-effect.md)
+- [Adaptation](/view.html?p=notes/nature/adaptation.md)
 
 ## Provenance
 

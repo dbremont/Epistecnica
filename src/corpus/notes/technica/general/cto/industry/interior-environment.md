@@ -34,4 +34,4 @@ tags: [note, interior, ffe, design]
 
 - Produceologia `docs/Production/Technique/Design/Interior.md`
 - Produceologia `docs/Production/Technique/Design/FFE.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

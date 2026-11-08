@@ -196,8 +196,8 @@ Readable secondarily as a `Technical Element` in Technique Space (the technique 
 
 ## References
 
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Economic Activity](/note.html?p=notes/social/action/activity/economic/economic-activity.md)
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Economic Activity](/view.html?p=notes/social/action/activity/economic/economic-activity.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
 - [The Innovation Gap That Singapore Must Close](https://www.a-star.edu.sg/news/features/the-innovation-gap-that-singapore-must-close)
 

@@ -24,14 +24,14 @@ Java: 🎭 Miscelanea
 
 ## References
 
-- [Java](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md)
-- [**AspectJ**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/aspectj.md)
-- [Apache Maven](/note.html?p=notes/technica/general/pto/maven.md)
+- [Java](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md)
+- [**AspectJ**](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/aspectj.md)
+- [Apache Maven](/view.html?p=notes/technica/general/pto/maven.md)
 - https://github.com/akullpp/awesome-java
 - https://docs.oracle.com/javase/8/docs/technotes/guides/jar/index.html
 - https://en.wikipedia.org/wiki/JAR_(file_format)
-- [**CSBB:** Java Language System](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-java-language-system.md)
-- [Java HotSpot Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
+- [**CSBB:** Java Language System](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-java-language-system.md)
+- [Java HotSpot Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
 - https://docs.oracle.com/en/java/javase/17/docs/specs/jar/jar.html
 - 
 - https://stackoverflow.com/questions/11333208/where-are-java-archive-file-structure-specifications

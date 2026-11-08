@@ -117,7 +117,7 @@ tags: [note]
 > How do different hardware elements connect? How to model **`connection topology`**? Which are the concepts that helps to represent this?
 > 
 
-> See more in [**Interconnect**](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md).
+> See more in [**Interconnect**](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md).
 > 
 
 ## Technology Tree(s)
@@ -316,20 +316,20 @@ tags: [note]
 
 Conceptual Model: Hardware
 
-- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - [Energy](https://app.notion.com/p/Energy-39f21c7cc02545e289e03578281bd13f?pvs=21)
-- [Workload](/note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
+- [Workload](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
 - https://en.wikipedia.org/wiki/InfiniBand
-- [Cloud Computing System](/note.html?p=notes/technica/computation/platform/cloud-computing-system.md)
+- [Cloud Computing System](/view.html?p=notes/technica/computation/platform/cloud-computing-system.md)
 - https://en.wikipedia.org/wiki/Computer_hardware
 - https://en.wikipedia.org/wiki/RDMA_over_Converged_Ethernet
-- [Operating System](/note.html?p=notes/technica/computation/operating-system.md)
-- [Operation](/note.html?p=notes/technica/computation/system/operation.md)
-- [Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
+- [Operating System](/view.html?p=notes/technica/computation/operating-system.md)
+- [Operation](/view.html?p=notes/technica/computation/system/operation.md)
+- [Virtualization](/view.html?p=notes/technica/computation/platform/virtualization.md)
 - https://modal.com/gpu-glossary
 - https://en.wikipedia.org/wiki/Remote_direct_memory_access
 - [‣](https://app.notion.com/p/289598edb79080359cb0e8e7f900da96?pvs=21)
 - https://en.wikipedia.org/wiki/Optical_computing
 - [‣](https://app.notion.com/p/10e598edb790815f897cd8ad952c6e93?pvs=21)
-- [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
+- [Telecom](/view.html?p=notes/technica/computation/telecom/telecom.md)
 - Renting GPU’s https://www.reddit.com/r/LocalLLaMA/comments/1na3f1s/renting_gpus_is_hilariously_cheap/

@@ -4,7 +4,7 @@ tags: [note, language-system, translation]
 
 # Compiler System
 
-- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md), [Code Generation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/code-generation.md), [Bytecode Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Parsing](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
+- [Intermediate Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md), [Code Generation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/code-generation.md), [Bytecode Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md), [Parsing](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Grammar](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
 
 > A **compiler** is a software tool that translates source code written in a high-level programming language into a lower-level language (such as machine code) that can be executed directly by a computer.
 > 

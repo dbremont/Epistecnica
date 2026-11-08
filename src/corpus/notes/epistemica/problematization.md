@@ -114,4 +114,4 @@ tags: [note]
 ## References
 
 - [Problem](https://www.notion.so/Problem-1e8c0f5171ec80e59848c3449661c09f?v=84afba4bef9a493eb66e231bda5f7406&source=copy_link)
-- [The Agent Imagination – «Action Pattern Stability» Problem](/note.html?p=notes/unclassified/agent-social-reality-reflection-problem.md)
+- [The Agent Imagination – «Action Pattern Stability» Problem](/view.html?p=notes/unclassified/agent-social-reality-reflection-problem.md)

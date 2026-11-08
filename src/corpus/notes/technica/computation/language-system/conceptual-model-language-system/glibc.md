@@ -4,7 +4,7 @@ tags: [note, c, language-system]
 
 # glibc
 
-- [GCC : GNU Compiler Collection](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
+- [GCC : GNU Compiler Collection](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/gcc-gnu-compiler-collection.md)
 
 > 
 

@@ -186,4 +186,4 @@ C#: 🛠️ Tooling & Ecosystem
 - [.NET Framework](https://en.wikipedia.org/wiki/.NET_Framework)
 - [A Guide to Study Programming Language](https://app.notion.com/p/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?pvs=21)
 
-[Benchmark DotNet](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c/benchmark-dotnet.md)
+[Benchmark DotNet](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c/benchmark-dotnet.md)

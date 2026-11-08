@@ -4,7 +4,7 @@ tags: [note, javascript, language-system, tool]
 
 # V8 JavaScript Engine
 
-- [NodeJS](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/nodejs.md)
+- [NodeJS](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/nodejs.md)
 
 > Note: We are saved; NodeJs comes with a version of V8;   that’s a lot easier to debug; sinse  I want to understand both.
 > 

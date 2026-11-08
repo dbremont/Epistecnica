@@ -4,7 +4,7 @@ tags: [note, internetworking]
 
 # Overlay Network
 
-- [Network Connectivity](/note.html?p=notes/technica/computation/telecom/network-connectivity.md)
+- [Network Connectivity](/view.html?p=notes/technica/computation/telecom/network-connectivity.md)
 
 > 
 

@@ -9,5 +9,5 @@ tags: [note, actor, political-party]
 ## References
 
 - [General German Workers' Association](https://en.wikipedia.org/wiki/General_German_Workers%27_Association)
-- [Ferdinand Lassalle](/note.html?p=notes/social/collective/actor/private/persona/ferdinand-lassalle.md)
+- [Ferdinand Lassalle](/view.html?p=notes/social/collective/actor/private/persona/ferdinand-lassalle.md)
 - [Social Democratic Party of Germany](https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Germany)

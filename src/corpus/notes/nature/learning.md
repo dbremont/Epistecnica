@@ -4,7 +4,7 @@ tags: [note, nature, natural-system, human, cognition, development, learning]
 
 # Learning
 
-> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -230,15 +230,15 @@ Then **learning** occurs when: $\exists \, t_1, t_2 \in \mathbb{T}, \, t_1 < t_2
 
 ## Related
 
-- [Space Repetition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/space-repetition.md)
-- [Practice](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md)
+- [Space Repetition](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/space-repetition.md)
+- [Practice](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md)
 
 ## References
 
-- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Brain a0dba22360494722a05b837c34806772.md`; `Human Memory 92d56eeafc4343d0bf9004c8e923fa2f.md`
-- [Human Memory](/note.html?p=notes/nature/human-memory.md)
+- [Human Memory](/view.html?p=notes/nature/human-memory.md)
 - Keshav, S., Cheriton, D. R. (2007). How to Read a Paper.
 - Leubepin, F. (2013). How to Read (and Understand) a Social Science Journal Article.
 - Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T. (2013). Improving Students’ Learning With Effective Learning Techniques.

@@ -4,7 +4,7 @@ tags: [note, effect-system]
 
 # Exception
 
-- [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md)
+- [Effect System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md)
 
 Exception: In programming, an exception is an event that occurs during the execution of a program that disrupts the normal flow of control. When an exception is thrown, the program transfers control to an exception handler, which is a block of code that is designed to handle the exception and recover from the error.
 

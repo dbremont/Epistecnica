@@ -15,7 +15,7 @@ tags: [note, nature, natural-system, system]
 
 ## Related
 
-- [Organ](/note.html?p=notes/nature/organ.md)
+- [Organ](/view.html?p=notes/nature/organ.md)
 
 ## Provenance
 

@@ -15,7 +15,7 @@ tags: [note, nature, property, electromagnetism, materials-science, matter]
 
 ## Related
 
-- [Quasiparticle](/note.html?p=notes/nature/quasiparticle.md)
+- [Quasiparticle](/view.html?p=notes/nature/quasiparticle.md)
 
 ## Provenance
 

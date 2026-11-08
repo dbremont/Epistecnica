@@ -8,7 +8,7 @@ tags: [note, india, plan, public-policy, social-element]
 
 > It is an instrument rather than a document. No single text governed; the arrangement existed only as the composed sequence of drafts, endorsements, outlays, execution, and appraisal, each round inheriting the apparatus of the last. What persisted across rounds was the planning machinery, not the targets.
 
-> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — outlays, growth rates, sectoral shares — belongs to the policy notes; the Harrod-Domar and input-output models warranting them belong to the epistemic decomposition.
+> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — outlays, growth rates, sectoral shares — belongs to the policy notes; the Harrod-Domar and input-output models warranting them belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -75,5 +75,5 @@ Lineage: the Bombay Plan (1944) → the Planning Commission founded (1950) → t
 ## References
 
 - [Five-Year Plans of India](https://en.wikipedia.org/wiki/Five-year_plans_of_India)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Framework](/note.html?p=notes/social/action/guidance/framework.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Framework](/view.html?p=notes/social/action/guidance/framework.md)

@@ -4,7 +4,7 @@ tags: [note, ipc]
 
 # Signal
 
-- [SIGPROF](/note.html?p=notes/technica/computation/operating-system/linux/sigprof.md)
+- [SIGPROF](/view.html?p=notes/technica/computation/operating-system/linux/sigprof.md)
 
 > A **signal** is a software **interrupt** delivered to a process or thread to notify it of an event or condition.
 > 

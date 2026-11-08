@@ -4,7 +4,7 @@ tags: [note, system]
 
 # CSBB: Linux
 
-- [CSBB: Hardware](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-hardware.md)
+- [CSBB: Hardware](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-hardware.md)
 
 > Can I Explot the Hardware full with this OS?
 > 

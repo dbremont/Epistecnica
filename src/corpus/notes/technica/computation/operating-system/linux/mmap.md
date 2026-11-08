@@ -4,7 +4,7 @@ tags: [note, ipc, memory-management, syscall]
 
 # mmap
 
-- [Linux Memory Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-memory-management-stack.md)
+- [Linux Memory Management Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-memory-management-stack.md)
 
 > `mmap` is a system call that creates a **memory-mapped region** by mapping a file or shared memory object into the **virtual address space** of a process. It provides a mechanism for **demand paging**, where the actual loading of data into physical memory is deferred until the memory is accessed (i.e., **page faults** trigger the loading of data). The mapping can be **private** (copy-on-write) or **shared** (changes are visible to other processes mapping the same region).
 > 

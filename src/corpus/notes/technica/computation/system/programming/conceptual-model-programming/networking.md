@@ -27,4 +27,4 @@ tags: [note]
 
 ## References
 
-- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Linux Network Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)

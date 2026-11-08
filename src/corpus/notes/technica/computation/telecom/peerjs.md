@@ -4,7 +4,7 @@ tags: [note, browser, web]
 
 # PeerJS
 
-- [WebRTC](/note.html?p=notes/technica/computation/telecom/webrtc.md)
+- [WebRTC](/view.html?p=notes/technica/computation/telecom/webrtc.md)
 
 > **PeerJS** wraps the browser's **WebRTC** implementation to provide a complete, configurable, and easy-to-use peer-to-peer connection API. Equipped with nothing but an ID, a peer can create a **P2P** data or media stream connection to a remote peer.
 > 

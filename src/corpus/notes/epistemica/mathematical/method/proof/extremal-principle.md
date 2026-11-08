@@ -17,7 +17,7 @@ tags: [note, mathematics, method, technique, discrete]
 ## Key results
 
 - **Minimal counterexample.** "Assume a counterexample exists; take the smallest; derive a smaller one" — the standard form, and a close relative of [descent](descent.md).
-- **Maximal element arguments.** Zorn's lemma is the extremal principle transposed to posets: every chain bounded above gives a maximal element (see [axiom of choice](/note.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md)).
+- **Maximal element arguments.** Zorn's lemma is the extremal principle transposed to posets: every chain bounded above gives a maximal element (see [axiom of choice](/view.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md)).
 - **Geometric instances.** The closest pair of points in a finite set, the shortest path in a graph, the minimal surface spanning a curve.
 - **In combinatorics.** "Take a maximal family of disjoint sets" — the bound follows from maximality alone, without constructing the family.
 - **In analysis.** A continuous function on a compact set attains its extremes — the theorem that licenses the move.
@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, discrete]
 ## References
 
 - https://en.wikipedia.org/wiki/Extremal_principle_(mathematics)
-- [Descent](descent.md) · [Induction](induction.md) · [Axiom of Choice](/note.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md) · [Well-ordering](/note.html?p=notes/epistemica/epistemic/theory/foundation/ordinal.md)
+- [Descent](descent.md) · [Induction](induction.md) · [Axiom of Choice](/view.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md) · [Well-ordering](/view.html?p=notes/epistemica/epistemic/theory/foundation/ordinal.md)

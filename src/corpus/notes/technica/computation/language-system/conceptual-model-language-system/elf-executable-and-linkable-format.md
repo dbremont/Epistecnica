@@ -4,7 +4,7 @@ tags: [note, code-representation, intermediate-representation]
 
 # ELF (Executable and Linkable Format)
 
-- [C++](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c-2.md)
+- [C++](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c-2.md)
 
 > An **ELF** (Executable and Linkable Format) file is a common standard file format for executables, object code, shared libraries, and core dumps in computing systems.
 > 
@@ -17,7 +17,7 @@ QA:
 - How an ELF file is structure?
 - What is the meaning of a stripped elf file?
 - How to edit binary files? [A Guide to Binary Tools](https://app.notion.com/p/A-Guide-to-Binary-Tools-e44641d2394b46cf9e95a57fb6bc176b?pvs=21)
-- Which are the **linking methods of an elf file**?  See here [ld](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ld.md).
+- Which are the **linking methods of an elf file**?  See here [ld](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ld.md).
 - How is the ELF file read and executed?
 
 ## Terminology

@@ -29,7 +29,7 @@ tags: [note, nature, phenomenon, phenomena, physics]
 
 ## References
 
-- [Einstein Field Equations](/note.html?p=notes/unclassified/einstein-field-equations.md)
+- [Einstein Field Equations](/view.html?p=notes/unclassified/einstein-field-equations.md)
 - If gravity isn't a force, then why does it "need" a boson? ([reddit.com](http://reddit.com/))
 [https://news.ycombinator.com/item?id=39762272](https://news.ycombinator.com/item?id=39762272)
 - [‣](https://app.notion.com/p/15d598edb790807f8320ff7036dfd895?pvs=21)

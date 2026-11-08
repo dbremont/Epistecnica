@@ -51,7 +51,7 @@ qa:
 
 > **Boundary.** This table decomposes one epistemic instance — the ratio as a representational construct — into its written forms, its constitutive rules and properties, and its readings.
 >
-> **Stopping rule.** A row is terminal when it names a concrete form, rule, property, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)).
+> **Stopping rule.** A row is terminal when it names a concrete form, rule, property, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)).
 >
 > **Identity.** Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
@@ -121,13 +121,13 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)
-- [Fraction](/note.html?p=notes/epistemica/mathematical/number/fraction.md)
-- [Multiplication](/note.html?p=notes/epistemica/mathematical/number/multiplication.md)
-- [Normalization](/note.html?p=notes/epistemica/mathematical/equation/normalization.md)
-- [Proportionality](/note.html?p=notes/epistemica/mathematical/number/proportionality.md)
-- [Percentage](/note.html?p=notes/epistemica/mathematical/number/percentage.md)
-- [Scale](/note.html?p=notes/epistemica/mathematical/scale.md)
+- [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)
+- [Fraction](/view.html?p=notes/epistemica/mathematical/number/fraction.md)
+- [Multiplication](/view.html?p=notes/epistemica/mathematical/number/multiplication.md)
+- [Normalization](/view.html?p=notes/epistemica/mathematical/equation/normalization.md)
+- [Proportionality](/view.html?p=notes/epistemica/mathematical/number/proportionality.md)
+- [Percentage](/view.html?p=notes/epistemica/mathematical/number/percentage.md)
+- [Scale](/view.html?p=notes/epistemica/mathematical/scale.md)
 - [Ratio (mathematics)](https://en.wikipedia.org/wiki/Ratio)
 - [Proportionality (mathematics)](https://en.wikipedia.org/wiki/Proportionality_(mathematics))
 - [Rate (mathematics)](https://en.wikipedia.org/wiki/Rate_(mathematics))

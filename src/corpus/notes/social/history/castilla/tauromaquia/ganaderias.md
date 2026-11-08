@@ -23,7 +23,7 @@ tags: [note, unfinished]
 
 - [Ganaderia Mexicana](https://anctl.mx/ganaderia_info/san-mateo/)
 - Eduardo Martinez Urquidi - Los Encinos
-- [Atenco](/note.html?p=notes/social/history/castilla/tauromaquia/ganaderias.md)
+- [Atenco](/view.html?p=notes/social/history/castilla/tauromaquia/ganaderias.md)
 
 ## References
 

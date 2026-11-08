@@ -125,7 +125,7 @@ The GNU Debugger (GDB) is a powerful tool for debugging applications written in 
 
 ## GDB Python API
 
-[GDB Python API](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger/gdb-python-api.md)
+[GDB Python API](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger/gdb-python-api.md)
 
 ## Debugging Multithreading Programs
 
@@ -186,4 +186,4 @@ break pthread_create
 [https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/](https://jvns.ca/blog/2021/05/17/how-to-look-at-the-stack-in-gdb/)
 - Can I set a breakpoint on 'memory access' in GDB?
 [https://stackoverflow.com/questions/58851/can-i-set-a-breakpoint-on-memory-access-in-gdb](https://stackoverflow.com/questions/58851/can-i-set-a-breakpoint-on-memory-access-in-gdb)
-- [Neovim](/note.html?p=notes/technica/computation/miscelanea/neovim.md)
+- [Neovim](/view.html?p=notes/technica/computation/miscelanea/neovim.md)

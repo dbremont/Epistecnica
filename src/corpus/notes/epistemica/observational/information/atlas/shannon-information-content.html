@@ -537,7 +537,7 @@
 
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="/note.html?p=notes/epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content">Shannon Information Content</a> &mdash; the note section</li><li><a href="/note.html?p=notes/epistemica/observational/information/shannon-information-theory.md">Shannon Information Theory</a></li><li><a href="/note.html?p=notes/epistemica/observational/information/entropy.md">Entropy</a></li></ul>
+            <ul><li><a href="/view.html?p=notes/epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content">Shannon Information Content</a> &mdash; the note section</li><li><a href="/view.html?p=notes/epistemica/observational/information/shannon-information-theory.md">Shannon Information Theory</a></li><li><a href="/view.html?p=notes/epistemica/observational/information/entropy.md">Entropy</a></li></ul>
 
             <h2 id="references">References</h2>
             <ul><li>Shannon, C. E. (1948). A Mathematical Theory of Communication. <em>Bell System Technical Journal</em>.</li></ul>
@@ -719,7 +719,7 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = (cur.docs || []).map(function (d) {
-        return '<a href="/note.html?p=notes/' + d.n + '">' + d.label + '</a>';
+        return '<a href="/view.html?p=notes/' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) renderTeX(el('instInfo'));
     }

@@ -4,7 +4,7 @@ tags: [note, how-to]
 
 # How to Find Time Scale Resolution of Your Hardware in Linux?
 
-- [CSBB: Hardware](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-hardware.md)
+- [CSBB: Hardware](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/csbb-hardware.md)
 
 You can determine your system's timing resolution using several Linux tools and techniques. Here are the most effective methods:
 
@@ -106,7 +106,7 @@ cyclictest --nanosleep -t1 -p80 -n -i 1000 -l 10000
 ## References
 
 - [‣](https://app.notion.com/p/fe6e9732f0ce4104b49c95bc3e106a70?pvs=21)
-- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - https://gist.github.com/sandeep-mg/06183efdc89b4cc6ae244b9967f7c9cc
 - https://man.archlinux.org/man/cyclictest.8.en
 - https://www.passmark.com/

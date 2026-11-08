@@ -82,11 +82,11 @@ tags: [note, nature, interaction-derived-quantity, interaction, physics, propert
 
 ## Related
 
-- [Energy](/note.html?p=notes/nature/energy.md)
-- [Energy/Force](/note.html?p=notes/nature/energy-force.md)
-- [Momentum](/note.html?p=notes/nature/momentum.md)
-- [Fundamental Molecular Interaction](/note.html?p=notes/nature/fundamental-molecular-interaction.md)
-- [Interaction](/note.html?p=notes/nature/theory/interaction.md)
+- [Energy](/view.html?p=notes/nature/energy.md)
+- [Energy/Force](/view.html?p=notes/nature/energy-force.md)
+- [Momentum](/view.html?p=notes/nature/momentum.md)
+- [Fundamental Molecular Interaction](/view.html?p=notes/nature/fundamental-molecular-interaction.md)
+- [Interaction](/view.html?p=notes/nature/theory/interaction.md)
 
 ## Provenance
 

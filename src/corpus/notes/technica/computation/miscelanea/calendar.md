@@ -4,7 +4,7 @@ tags: [note]
 
 # Calendar
 
-- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/view.html?p=notes/technica/computation/miscelanea/time.md)
 
 > A **calendar** is a structured system for organizing, measuring, and labeling time based on **astronomical cycles** (such as the **Earth's rotation** and orbit), typically consisting of a set of rules that define the length of units (days, weeks, months, years), epoch references, leap corrections, and synchronization mechanisms to align civil, religious, or scientific timekeeping with periodic celestial events.
 > 
@@ -15,7 +15,7 @@ tags: [note]
 > Cronology: …
 > 
 
-> Leep Second / Year: See more in [Leap Second](/note.html?p=notes/technica/computation/miscelanea/time.md).
+> Leep Second / Year: See more in [Leap Second](/view.html?p=notes/technica/computation/miscelanea/time.md).
 > 
 
 ![Periodic Events](/assets/note/technica/computation/miscelanea/calendar/image.png)

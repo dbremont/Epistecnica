@@ -248,7 +248,7 @@ tags: [note, unfinished, actor, firm]
 ## References
 
 - [Firm – Bremontix](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology – Bremontix](/note.html?p=notes/social/structural/technical/technology.md)  
+- [Technology – Bremontix](/view.html?p=notes/social/structural/technical/technology.md)  
 - BlackRock Annual Reports (2023–2024)  
 - Aladdin Whitepapers & Client Documentation  
 - SEC Filings (10-K, DEF 14A)  

@@ -22,7 +22,7 @@ QA:
 
 ## Related
 
-- [Phenomena](/note.html?p=notes/nature/phenomena.md)
+- [Phenomena](/view.html?p=notes/nature/phenomena.md)
 
 ## Provenance
 

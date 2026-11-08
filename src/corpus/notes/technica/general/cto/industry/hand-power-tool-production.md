@@ -33,4 +33,4 @@ tags: [note, tools, fasteners]
 ## References
 
 - Produceologia `docs/Production/Industry/Tool/README.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

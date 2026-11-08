@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, germany, e-commerce, marketplace]
 ## References
 
 - Wikipedia — Zalando (encyclopedic entry)
-- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

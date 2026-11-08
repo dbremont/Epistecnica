@@ -63,7 +63,7 @@ tags: [note]
 
 ### Networking Stack
 
-> See [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md).
+> See [Linux Network Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md).
 > 
 
 ## Performance Model
@@ -280,7 +280,7 @@ tags: [note]
 
 ### Technique
 
-> See more in [Technique](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/technique.md).
+> See more in [Technique](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/technique.md).
 > 
 
 | **Category** | **Sub-Category** | **Tip** | **Description** |
@@ -371,7 +371,7 @@ Conceptual Model: Performance
 
 ## References
 
-- [CPU](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md)
+- [CPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md)
 - García-Risueño, Pablo, and Pablo E. Ibáñez. "A review of High Performance Computing foundations for scientists." International journal of modern physics C 23.07 (2012): 1230001.
 - Schroeder, Bianca, and Garth A. Gibson. "A large-scale study of failures in high-performance computing systems." IEEE transactions on Dependable and Secure Computing 7.4 (2009): 337-350.
 - [OpenMP](https://hpc-tutorials.llnl.gov/openmp/)
@@ -396,7 +396,7 @@ Conceptual Model: Performance
 - https://www.blender.org/
 - https://www.gempy.org/
 - [`Scikit-learn`](https://app.notion.com/p/Scikit-learn-f2f49a145e7348608b5341bb902f877c?pvs=21)
-- [**Simple DirectMedia Layer** (**SDL**)](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/simple-directmedia-layer-sdl.md)
+- [**Simple DirectMedia Layer** (**SDL**)](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/simple-directmedia-layer-sdl.md)
 - https://github.com/csiglab/performance-labs
 - https://github.com/csiglab/cs-analyst-labs
 - https://github.com/csiglab/networking-labs
@@ -405,11 +405,11 @@ Conceptual Model: Performance
 - https://github.com/csiglab/distributed-system-lab
 - https://github.com/dbremont/isa-labs
 - https://github.com/dbremont/linux-api-labs
-- [GPU](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/gpu.md)
+- [GPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/gpu.md)
 - [Numpy](https://app.notion.com/p/Numpy-b254722a30ce4401ab0ecd49f59aec7d?pvs=21)
 - [Pandas](https://app.notion.com/p/Pandas-8640191e6b994831b1633753d8c43271?pvs=21)
-- [OpenCL](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
-- [Matplotlib](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/matplotlib.md)
+- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
+- [Matplotlib](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/matplotlib.md)
 - [ ]  [‣](https://app.notion.com/p/1be598edb79080da9af2c8fdc0428eb7?pvs=21)
 - [ ]  https://arxiv.org/abs/2503.05116
 - https://colin-scott.github.io/personal_website/research/interactive_latency.html

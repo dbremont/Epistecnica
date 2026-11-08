@@ -8,7 +8,7 @@ tags: [note]
 > furniture (rock body, faces, water, air, colonizing life) that remains when the diesel fleet,
 > the firm, and the market price are set aside. The extraction plant is decomposed technically,
 > the operating firm socially; this note holds the natural reading. Worked per
-> [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -68,6 +68,6 @@ naturally (`guideline/ambiguity_resolution.md`).
 
 ## References
 
-- [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)

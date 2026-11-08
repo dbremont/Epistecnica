@@ -120,7 +120,7 @@ class HubHandler(SimpleHTTPRequestHandler):
         /                -> <repo>/src/app/index.html (the hub)
         /docs[.html]     -> <repo>/src/app/docs.html
         /explorer.html      -> <repo>/src/app/explorer.html (directory explorer)
-        /note.html       -> <repo>/src/app/note.html (global viewer)
+        /view.html       -> <repo>/src/app/view.html (global viewer; /note.html aliases it)
         /corpus.css      -> <repo>/src/app/corpus.css
         /vendor/...      -> <repo>/src/app/vendor/...
         /corpus/notes/... -> <repo>/src/corpus/notes/...
@@ -139,7 +139,9 @@ class HubHandler(SimpleHTTPRequestHandler):
         if clean in ("/explorer.html", "/explorer", "/notes.html"):
             return super().translate_path("src/app/explorer.html")
         if clean == "/note.html":
-            return super().translate_path("src/app/note.html")
+            return super().translate_path("src/app/view.html")
+        if clean == "/view.html":
+            return super().translate_path("src/app/view.html")
         if clean in ("/tree.html", "/tree"):
             return super().translate_path("src/app/tree.html")
         if clean == "/corpus.css":
@@ -288,25 +290,25 @@ class HubHandler(SimpleHTTPRequestHandler):
             if n:
                 if n == "epistemica/rees.md":
                     n = "epistemica/ees.md"
-                self._redirect("/note.html?" + urlencode({"p": "notes/" + n}))
+                self._redirect("/view.html?" + urlencode({"p": "notes/" + n}))
                 return True
 
         if path in ("/document/document.html", "/documents/document.html"):
             d = params.get("d", [""])[0]
             if d:
-                self._redirect("/note.html?" + urlencode({"p": "documents/" + d}))
+                self._redirect("/view.html?" + urlencode({"p": "documents/" + d}))
                 return True
 
         if path in ("/course/course.html", "/courses/course.html"):
             c = params.get("c", [""])[0]
             if c:
-                self._redirect("/note.html?" + urlencode({"p": "courses/" + c + "/readme.md"}))
+                self._redirect("/view.html?" + urlencode({"p": "courses/" + c + "/readme.md"}))
                 return True
 
         if path in ("/course/lecture.html", "/courses/lecture.html"):
             l = params.get("l", [""])[0]
             if l:
-                self._redirect("/note.html?" + urlencode({"p": "courses/" + l}))
+                self._redirect("/view.html?" + urlencode({"p": "courses/" + l}))
                 return True
 
         # The old corpus app URLs all point at the directory explorer.
@@ -315,8 +317,8 @@ class HubHandler(SimpleHTTPRequestHandler):
                     "/corpus/tree", "/corpus/tree/", "/corpus/tree.html"):
             self._redirect("/explorer.html" + suffix)
             return True
-        if path == "/corpus/note.html":
-            self._redirect("/note.html" + suffix)
+        if path in ("/corpus/note.html", "/corpus/view.html"):
+            self._redirect("/view.html" + suffix)
             return True
         if path.startswith("/corpus/data/"):
             self._redirect("/data/" + path[len("/corpus/data/"):] + suffix)

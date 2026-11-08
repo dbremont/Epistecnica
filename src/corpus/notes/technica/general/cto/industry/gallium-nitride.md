@@ -34,4 +34,4 @@ tags: [note, gan, wide-bandgap, semiconductor]
 ## References
 
 - Produceologia `docs/Foundation/semiconductor/Gallium-Nitride-GaN.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

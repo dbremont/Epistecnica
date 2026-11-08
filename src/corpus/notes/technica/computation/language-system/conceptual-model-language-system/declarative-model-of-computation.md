@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Declarative Model of Computation
 
-- [Parsing](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Lazy Evaluation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lazy-evaluation.md), [Time](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md), [Lambda Calculus](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md), [Functional Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
+- [Parsing](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/parsing.md), [Lazy Evaluation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lazy-evaluation.md), [Time](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md), [Lambda Calculus](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md), [Functional Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
 
 > The **Declarative Model of Computation** is a programming paradigm where the focus is on specifying **what needs to be computed** rather than **how to compute it**.
 > 

@@ -37,5 +37,5 @@ It is not an `Institution` (it is a deliberate actor, not a rule system). Its la
 ## References
 
 - Produceologia `docs/Breviarium/an-essay-on-enterprise-research-labs.md`
-- [Research Actor](/note.html?p=notes/social/collective/actor/research.md) (the functional actor family this corporate lab belongs to)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the functional actor family this corporate lab belongs to)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)

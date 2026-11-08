@@ -56,7 +56,7 @@ qa:
 
 > **Boundary.** This table decomposes one epistemic instance — the fraction as a representational construct — into its written forms, its combinable elements, its rules and conventions, and its readings.
 >
-> **Stopping rule.** A row is terminal when it names a concrete form, element, rule, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)).
+> **Stopping rule.** A row is terminal when it names a concrete form, element, rule, convention, or reading; the arithmetic of division itself is not decomposed here (see [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)).
 >
 > **Identity.** Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique.
 >
@@ -151,13 +151,13 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [Number](/note.html?p=notes/epistemica/mathematical/number/number.md)
-- [Arithmetic](/note.html?p=notes/epistemica/mathematical/number/arithmetic.md)
-- [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)
-- [Multiplication](/note.html?p=notes/epistemica/mathematical/number/multiplication.md)
-- [Ratio](/note.html?p=notes/epistemica/mathematical/number/ratio.md)
-- [Percentage](/note.html?p=notes/epistemica/mathematical/number/percentage.md)
-- [Numeric System](/note.html?p=notes/epistemica/mathematical/number/numeric-system.md)
+- [Number](/view.html?p=notes/epistemica/mathematical/number/number.md)
+- [Arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)
+- [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)
+- [Multiplication](/view.html?p=notes/epistemica/mathematical/number/multiplication.md)
+- [Ratio](/view.html?p=notes/epistemica/mathematical/number/ratio.md)
+- [Percentage](/view.html?p=notes/epistemica/mathematical/number/percentage.md)
+- [Numeric System](/view.html?p=notes/epistemica/mathematical/number/numeric-system.md)
 - [Fraction (mathematics)](https://en.wikipedia.org/wiki/Fraction)
 - [Rational number](https://en.wikipedia.org/wiki/Rational_number)
 - [Continued fraction](https://en.wikipedia.org/wiki/Continued_fraction)

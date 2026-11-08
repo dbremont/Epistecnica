@@ -15,7 +15,7 @@ tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
 
 ### What type of social element does this instance belong to?
 
-> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](/note.html?p=notes/social/collective/actor/actor.md) and [Human](/note.html?p=notes/social/collective/actor/human.md).
+> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](/view.html?p=notes/social/collective/actor/actor.md) and [Human](/view.html?p=notes/social/collective/actor/human.md).
 
 > Its dominant layer is **Agentic** where his agency, intention, and action are at issue, with **Ontic** aspects (his body, labor, workshop, printed books) and **Synontic/Noetic** aspects (his standing, and the classifications — philosopher, heretic, Jew — through which he is recognized). It is not a `State Actor` (he held no public office) and not an `Organization` or `Collective` (he is a single, non-compound unit).
 
@@ -25,7 +25,7 @@ tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
 
 ### Which facet does this element belong to, if applicable?
 
-> Ideational first — worldviews, cognitive schemas, and the meaning-making his philosophy elaborates are the dominant causal mechanism; scientific where his inquiry and method operate; economic where lens-grinding provisioned his life. See [Facet](/note.html?p=notes/social/framework/facet.md).
+> Ideational first — worldviews, cognitive schemas, and the meaning-making his philosophy elaborates are the dominant causal mechanism; scientific where his inquiry and method operate; economic where lens-grinding provisioned his life. See [Facet](/view.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of Baruch Spinoza?
 
@@ -198,10 +198,10 @@ tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
 - [Baruch Spinoza (IEP)](https://iep.utm.edu/spinoza/)
 - [Ethics (Spinoza) (Wikipedia)](https://en.wikipedia.org/wiki/Ethics_(Spinoza))
 - [Tractatus Theologico-Politicus (Wikipedia)](https://en.wikipedia.org/wiki/Tractatus_Theologico-Politicus)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
-- [Human](/note.html?p=notes/social/collective/actor/human.md)
-- [Facet](/note.html?p=notes/social/framework/facet.md)
-- [Morality](/note.html?p=notes/social/synontic/ideational/morality/morality.md)
-- [Religion](/note.html?p=notes/social/synontic/ideational/religion.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Actor](/view.html?p=notes/social/collective/actor/actor.md)
+- [Human](/view.html?p=notes/social/collective/actor/human.md)
+- [Facet](/view.html?p=notes/social/framework/facet.md)
+- [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md)
+- [Religion](/view.html?p=notes/social/synontic/ideational/religion.md)

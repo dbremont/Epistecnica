@@ -393,6 +393,6 @@ Guiding Questions:
 ## References
 
 - [Names](https://doc.rust-lang.org/reference/names.html)
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
-- [Program Element Modifier](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Program Element Modifier](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element-modifier.md)
 - https://en.cppreference.com/w/cpp/language/identifiers

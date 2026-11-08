@@ -233,7 +233,7 @@ tags: [note, unfinished, actor, firm]
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](/note.html?p=notes/social/structural/technical/technology.md)  
+- [Technology](/view.html?p=notes/social/structural/technical/technology.md)  
 - [Technical Topic Note Template](https://righteous-guardian-68f.notion.site/Technical-Topic-Note-Template-2c3c0f5171ec80ae86b8f3100fb7afb9?source=copy_link)  
 - Yelp Investor Relations (2024 filings)  
 - Statista, SimilarWeb, eMarketer (market data)  

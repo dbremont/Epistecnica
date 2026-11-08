@@ -23,7 +23,7 @@ tags: [note, nature, property]
 > Which are the carrier of **Electric Charger**?
 >
 
-> See [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+> See [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 >
 
 | Carrier | Description |
@@ -55,7 +55,7 @@ tags: [note, nature, property]
 > What phenomena happens to an object when the charge changes?
 >
 
-> See more in [Electric Current](/note.html?p=notes/nature/electric-current.md),
+> See more in [Electric Current](/view.html?p=notes/nature/electric-current.md),
 >
 
 | Phenomenon | Description |
@@ -106,8 +106,8 @@ tags: [note, nature, property]
 
 ## Related
 
-- [Matter](/note.html?p=notes/nature/matter.md)
-- [Electrical Circuit](/note.html?p=notes/nature/electrical-circuit.md)
+- [Matter](/view.html?p=notes/nature/matter.md)
+- [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
 
 ## Provenance
 

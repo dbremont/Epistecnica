@@ -4,7 +4,7 @@ tags: [note, firmware]
 
 # Boot Firmware Subsystem
 
-- [Firmware](/note.html?p=notes/technica/computation/operating-system/linux/firmware.md), [Booting (Initialization)](/note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
+- [Firmware](/view.html?p=notes/technica/computation/operating-system/linux/firmware.md), [Booting (Initialization)](/view.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
 
 > In this note we will explore the **Boot Firmware Subsystem.**
 > 

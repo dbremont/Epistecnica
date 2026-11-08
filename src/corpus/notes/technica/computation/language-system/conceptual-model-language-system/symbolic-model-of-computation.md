@@ -45,5 +45,5 @@ tags: [note, model-of-computation]
 - Halstead Jr, Robert H. "Multilisp: A language for concurrent symbolic computation." ACM Transactions on Programming Languages and Systems (TOPLAS) 7.4 (1985): 501-538.
 - https://en.wikipedia.org/wiki/Wolfram_Language
 - https://reference.wolfram.com/language/tutorial/TheInternalsOfTheWolframSystem.html
-- [S-Expression](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/s-expression.md)
+- [S-Expression](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/s-expression.md)
 - https://reference.wolfram.com/language/guide/LanguageOverview.html

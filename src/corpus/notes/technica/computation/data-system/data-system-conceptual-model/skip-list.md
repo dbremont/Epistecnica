@@ -4,7 +4,7 @@ tags: [note, index]
 
 # Skip List
 
-- [Data Maps (Index)](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
+- [Data Maps (Index)](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/86/Skip_list.svg)
 
@@ -55,6 +55,6 @@ Each of these parameters plays a critical role in the performance and scalabilit
 - Pugh, William (April 1989). Concurrent Maintenance of Skip Lists (PS, PDF) (Technical report). Dept. of Computer Science, U. Maryland. CS-TR-2222.
 - Pugh, W. (1990). "Skip lists: A probabilistic alternative to balanced trees" (PDF). Communications of the ACM. 33 (6): 668–676. doi:10.1145/78973.78977. S2CID 207691558.
 
-[Augmentation](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/augmentation.md)
+[Augmentation](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/augmentation.md)
 
-[Probabilistic Data Structure](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/probabilistic-data-structure.md)
+[Probabilistic Data Structure](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/probabilistic-data-structure.md)

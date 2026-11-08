@@ -151,5 +151,5 @@ Guiding Questions:
 ## References
 
 - [Type system](https://doc.rust-lang.org/reference/type-system.html#type-system)
-- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 - …

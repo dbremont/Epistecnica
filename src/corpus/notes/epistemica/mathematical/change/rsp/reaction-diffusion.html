@@ -555,7 +555,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="/note.html?p=notes/epistemica/observational/process/diffusion-process.md">Diffusion Process</a> · <a href="/note.html?p=notes/technica/ais/architecture/diffusion-model.md">Diffusion Model</a> · <a href="/note.html?p=notes/epistemica/construction/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="/note.html?p=notes/epistemica/singular/system-dynamics.md">System Dynamics</a> · <a href="/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a></li><li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="/view.html?p=notes/epistemica/observational/process/diffusion-process.md">Diffusion Process</a> · <a href="/view.html?p=notes/technica/ais/architecture/diffusion-model.md">Diffusion Model</a> · <a href="/view.html?p=notes/epistemica/construction/fick-s-laws-of-diffusion.md">Fick’s Laws</a></li><li><a href="/view.html?p=notes/epistemica/singular/system-dynamics.md">System Dynamics</a> · <a href="/view.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a></li><li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Turing, A. M. (1952)</strong> — <em>The Chemical Basis of Morphogenesis</em></li><li><strong>Pearson, J. E. (1993)</strong> — complex patterns in a simple system (Gray–Scott)</li><li><strong>FitzHugh, R. (1961)</strong> · <strong>Nagumo, J. et al. (1962)</strong> — excitable-media equations</li></ul>
@@ -693,7 +693,7 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = cur.docs.map(function (d) {
-        return '<a href="/note.html?p=notes/' + d.n + '">' + d.label + '</a>';
+        return '<a href="/view.html?p=notes/' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }

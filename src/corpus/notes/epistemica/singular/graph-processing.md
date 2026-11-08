@@ -31,7 +31,7 @@ tags: [note]
 ## References
 
 - [Network Science](network-science.md)
-- [Graph Neural Networks (GNN)](/note.html?p=notes/technica/ais/architecture/graph-neural-networks-gnn.md)
+- [Graph Neural Networks (GNN)](/view.html?p=notes/technica/ais/architecture/graph-neural-networks-gnn.md)
 - https://graphdeeplearning.github.io/
 - [Graph Data Model ](https://app.notion.com/p/Graph-Data-Model-1afc0f5171ec809fb444fd2da46e183f?pvs=21)
 -

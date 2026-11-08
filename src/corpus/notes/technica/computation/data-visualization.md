@@ -18,7 +18,7 @@ tags: [note]
 
 ## Multidimensional Data Visualization
 
-[Multidimensional Data Visualization](/note.html?p=notes/technica/computation/data-visualization/multidimensional-data-visualization.md)
+[Multidimensional Data Visualization](/view.html?p=notes/technica/computation/data-visualization/multidimensional-data-visualization.md)
 
 ## References
 

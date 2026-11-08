@@ -38,14 +38,14 @@ tags: [note, human, cognition, property]
 - [‣](https://app.notion.com/p/15f598edb79081eaa384c3b319cb1617?pvs=21)
 - [Pattern](https://app.notion.com/p/Pattern-2dac0f5171ec805f8033f9bea87e701a?pvs=21)
 - [Model](https://app.notion.com/p/Model-1b1c0f5171ec807192cad4c8bdbc9b88?pvs=21)
-- [Intelligence](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligence.md)
+- [Intelligence](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligence.md)
 - [Compression](https://app.notion.com/p/Compression-7473c999c91f44fb8692e43a94ea0e32?pvs=21)
-- [Representation](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
+- [Representation](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
 - https://news.ycombinator.com/item?id=31003493
 
 ## Related
 
-- [Representation](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
+- [Representation](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
 
 ## Provenance
 

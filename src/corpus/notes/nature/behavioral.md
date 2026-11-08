@@ -4,7 +4,7 @@ tags: [note, nature, natural-system, human, behavior]
 
 # Behavioral
 
-> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -214,8 +214,8 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Brain a0dba22360494722a05b837c34806772.md`
 
 - [Morality](https://app.notion.com/p/Morality-94ee983093c2411b8a7c3fe580a67697?pvs=21)

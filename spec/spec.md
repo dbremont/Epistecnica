@@ -54,7 +54,7 @@ guide-first entry page.
 | `GET /epistemica/<path>`, `GET /tecnica/<path>` | **302** → `/corpus/notes/epistemica/ees.html` (graphs moved to the Autoregia PKS) |
 | `GET /corpus/notes/epistemica/rees.{html,json,md}` | **302** → the `ees.*` equivalents (legacy REES paths) |
 | `GET /corpus` (also `/explorer.html`) | Unified catalog `src/app/explorer.html`: directory browser + section tree over notes, documents and courses; search; random-document picker |
-| `GET /note.html?p=<notes|documents|courses>/<path>` | One global markdown viewer for every `.md` file (course readmes also list their lectures); per-file `history` modal from the matching `data/changelog.*.json` |
+| `GET /view.html?p=<notes|documents|courses>/<path>` | One global markdown viewer for every `.md` file (course readmes also list their lectures); per-file `history` modal from the matching `data/changelog.*.json` |
 | `GET /corpus/notes/<path>`, `/corpus/documents/<path>`, `/corpus/courses/<path>` | The three content trees under `src/corpus/<tree>/`, served as-is (live notes included) |
 | `GET /glossarium/<path>` | Lexical surface from `src/glossarium/app/`: catalog + term view (`?t=<slug>`), generated lookup index, select-a-word popup |
 | `GET /qa/<path>` | Q/A log from `src/qa/app/`: catalog + entry viewer (`?id=<qa-id>`) |
@@ -88,7 +88,7 @@ database configuration.
 | `src/app/index.html` (hub) | Ambient Canvas2D constellation only | No |
 | `src/app/docs.html` | Site documentation, live corpus stats | No |
 | `src/app/explorer.html` (catalog) | Client-side directory browser + section tree over generated `data/library-index.json` | No |
-| `src/app/note.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-file `history` modal over `data/changelog.*.json` | No |
+| `src/app/view.html` (viewer) | On-the-fly markdown rendering (vendored `marked.min.js`); per-file `history` modal over `data/changelog.*.json` | No |
 
 AI (DeepSeek) is called browser-direct in the editors; the token lives only in
 the browser. The backend has no AI endpoints and must never hold keys.

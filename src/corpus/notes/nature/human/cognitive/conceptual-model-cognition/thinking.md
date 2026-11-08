@@ -153,8 +153,8 @@ References
 
 ## Related
 
-- [Mental Model](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mental-model.md)
-- [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
+- [Mental Model](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/mental-model.md)
+- [Concept](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
 
 ## Provenance
 

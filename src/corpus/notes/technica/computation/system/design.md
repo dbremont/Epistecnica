@@ -79,7 +79,7 @@ QA:
 > Note: **Design techniques** and **implementation techniques** are deeply interconnected. Many language-agnostic techniques lean toward design, but some also apply at the implementation level. Rather than enforcing a rigid boundary, it's more practical to view them as a continuum.
 > 
 
-> See [Program](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md) and [Programming](/note.html?p=notes/technica/computation/system/programming.md).
+> See [Program](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md) and [Programming](/view.html?p=notes/technica/computation/system/programming.md).
 > 
 
 | **Concept** | **Definition** | **Scope/Level** | **Purpose/Role** | **Characteristics** | **Examples** |
@@ -364,23 +364,23 @@ Computer System Design: Conceptual Model
 
 ## References
 
-- [Operating System](/note.html?p=notes/technica/computation/operating-system.md)
-- [Design](/note.html?p=notes/technica/computation/system/design.md)
-- [Operation](/note.html?p=notes/technica/computation/system/operation.md)
-- [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md)
+- [Operating System](/view.html?p=notes/technica/computation/operating-system.md)
+- [Design](/view.html?p=notes/technica/computation/system/design.md)
+- [Operation](/view.html?p=notes/technica/computation/system/operation.md)
+- [Telecom](/view.html?p=notes/technica/computation/telecom/telecom.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
-- [Verification](/note.html?p=notes/technica/computation/dependability/verification.md)
-- [Data System](/note.html?p=notes/technica/computation/data-system.md)
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
+- [Data System](/view.html?p=notes/technica/computation/data-system.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
 - [Security](https://app.notion.com/p/Security-abe7b617157f43099a19bee382dd5996?pvs=21)
-- [Representation](/note.html?p=notes/technica/computation/representation.md)
+- [Representation](/view.html?p=notes/technica/computation/representation.md)
 - [Agentic System](https://app.notion.com/p/Agentic-System-1b5c0f5171ec802db3b2f70081ecaf6a?pvs=21)
-- [Language System](/note.html?p=notes/technica/computation/language-system.md)
-- [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [Language System](/view.html?p=notes/technica/computation/language-system.md)
+- [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
 - https://plato.stanford.edu/entries/mereology/
-- [UI](/note.html?p=notes/technica/computation/system/interface/ui.md)
-- [Cloud Computing System](/note.html?p=notes/technica/computation/platform/cloud-computing-system.md)
-- [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
+- [UI](/view.html?p=notes/technica/computation/system/interface/ui.md)
+- [Cloud Computing System](/view.html?p=notes/technica/computation/platform/cloud-computing-system.md)
+- [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
 - [**A Guide to Improving Computational Systems in a Principled Way**](https://app.notion.com/p/A-Guide-to-Improving-Computational-Systems-in-a-Principled-Way-1bec0f5171ec808fb56ffd094de27a12?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb790812486ddf8943b946a96?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb790814f9020d6a74a0829c7?pvs=21)
@@ -411,6 +411,6 @@ Computer System Design: Conceptual Model
 - https://news.ycombinator.com/item?id=43267095
 - https://newsletter.systemdesignclassroom.com/
 - https://github.com/dbremont/system-design-labs
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
 - https://www.seangoedecke.com/good-system-design/
 - https://github.com/rrweb-io/rrweb

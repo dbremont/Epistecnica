@@ -4,7 +4,7 @@ tags: [note, ui-component]
 
 # Progress Bar
 
-- [UI Status](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-status.md)
+- [UI Status](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-status.md)
 
 > 
 

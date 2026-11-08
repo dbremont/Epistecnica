@@ -4,7 +4,7 @@ tags: [note, epistemology, tooling]
 
 # Evolutionary Explanation
 
-Related: [Explanation](/note.html?p=notes/epistemica/epistemic/theory/explanation.md)
+Related: [Explanation](/view.html?p=notes/epistemica/epistemic/theory/explanation.md)
 
 > In this note, we will explore “Evolutionary Explanations”.
 > 

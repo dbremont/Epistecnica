@@ -69,7 +69,7 @@ Characterization
 
 ## References
 
-- [(Hardware) Physical Substrate](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
+- [(Hardware) Physical Substrate](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
 - https://en.wikipedia.org/wiki/Cloud_computing
 - https://github.com/dbremont/documentorum/blob/main/platform/aws.md
 - https://github.com/dbremont/documentorum/blob/main/platform/runpod.md

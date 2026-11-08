@@ -4,7 +4,7 @@ tags: [note, initialization]
 
 # initrd
 
-- [Init System](/note.html?p=notes/technica/computation/operating-system/linux/init-system.md)
+- [Init System](/view.html?p=notes/technica/computation/operating-system/linux/init-system.md)
 
 > The **"initrd" method** (Initial RAM Disk) is a technique  used in **Linux boot processes** to load a temporary root filesystem into  memory during the system's startup.
 > 

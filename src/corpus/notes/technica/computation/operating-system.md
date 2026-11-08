@@ -13,10 +13,10 @@ tags: [note]
 > A **conceptual map** for parsing the elements related to operations systems, production systems, and operational processes.
 > 
 
-> Our study of the **OS Systems** will be organized in terms of the study of ([Linux](/note.html?p=notes/technica/computation/operating-system/linux/linux.md)).
+> Our study of the **OS Systems** will be organized in terms of the study of ([Linux](/view.html?p=notes/technica/computation/operating-system/linux/linux.md)).
 > 
 
-> **Note:** A useful way to study a computer system from the ground up is by using a virtualization system like [QEMU (Quick Emulator)](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
+> **Note:** A useful way to study a computer system from the ground up is by using a virtualization system like [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
 > 
 
 ## Formulation
@@ -56,7 +56,7 @@ tags: [note]
 
 ## Firmware
 
-> Actually firmware ( [**Firmware**](/note.html?p=notes/technica/computation/operating-system/linux/firmware.md)) it’s the software that intermediates the interaction with the hardware.
+> Actually firmware ( [**Firmware**](/view.html?p=notes/technica/computation/operating-system/linux/firmware.md)) it’s the software that intermediates the interaction with the hardware.
 > 
 
 > Alongside firmware there are also the drivers.
@@ -158,7 +158,7 @@ tags: [note]
 
 ### Hardware Model
 
-> See more in [(Hardware) Physical Substrate](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md).
+> See more in [(Hardware) Physical Substrate](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate.md).
 > 
 
 ## Evaluation
@@ -207,49 +207,49 @@ tags: [note]
 
 ## System Space
 
-[In](/note.html?p=notes/technica/computation/operating-system/in.md)
+[In](/view.html?p=notes/technica/computation/operating-system/in.md)
 
 🌐
 
-[xv6](/note.html?p=notes/technica/computation/operating-system/xv6.md)
+[xv6](/view.html?p=notes/technica/computation/operating-system/xv6.md)
 
-[x86](/note.html?p=notes/technica/computation/operating-system/x86.md)
+[x86](/view.html?p=notes/technica/computation/operating-system/x86.md)
 
-[seL4](/note.html?p=notes/technica/computation/operating-system/sel4.md)
+[seL4](/view.html?p=notes/technica/computation/operating-system/sel4.md)
 
-[Linux](/note.html?p=notes/technica/computation/operating-system/linux/linux.md)
+[Linux](/view.html?p=notes/technica/computation/operating-system/linux/linux.md)
 
-[Mach](/note.html?p=notes/technica/computation/operating-system/mach.md)
+[Mach](/view.html?p=notes/technica/computation/operating-system/mach.md)
 
-[Plan 9](/note.html?p=notes/technica/computation/operating-system/plan-9.md)
+[Plan 9](/view.html?p=notes/technica/computation/operating-system/plan-9.md)
 
-[CTSS](/note.html?p=notes/technica/computation/operating-system/ctss.md)
+[CTSS](/view.html?p=notes/technica/computation/operating-system/ctss.md)
 
-[MINIX](/note.html?p=notes/technica/computation/operating-system/minix.md)
+[MINIX](/view.html?p=notes/technica/computation/operating-system/minix.md)
 
-[Multics](/note.html?p=notes/technica/computation/operating-system/multics.md)
+[Multics](/view.html?p=notes/technica/computation/operating-system/multics.md)
 
-[Android](/note.html?p=notes/technica/computation/operating-system/android.md)
+[Android](/view.html?p=notes/technica/computation/operating-system/android.md)
 
-[Amoeba](/note.html?p=notes/technica/computation/operating-system/amoeba.md)
+[Amoeba](/view.html?p=notes/technica/computation/operating-system/amoeba.md)
 
-[MS-DOS](/note.html?p=notes/technica/computation/operating-system/ms-dos.md)
+[MS-DOS](/view.html?p=notes/technica/computation/operating-system/ms-dos.md)
 
-[FreeBSD](/note.html?p=notes/technica/computation/operating-system/freebsd.md)
+[FreeBSD](/view.html?p=notes/technica/computation/operating-system/freebsd.md)
 
-[**Unikernel**](/note.html?p=notes/technica/computation/operating-system/unikernel.md)
+[**Unikernel**](/view.html?p=notes/technica/computation/operating-system/unikernel.md)
 
-[BSD Unix](/note.html?p=notes/technica/computation/operating-system/bsd-unix.md)
+[BSD Unix](/view.html?p=notes/technica/computation/operating-system/bsd-unix.md)
 
-[**MS Windows**](/note.html?p=notes/technica/computation/operating-system/ms-windows.md)
+[**MS Windows**](/view.html?p=notes/technica/computation/operating-system/ms-windows.md)
 
-[Unix (PDP-11)](/note.html?p=notes/technica/computation/operating-system/unix-pdp-11.md)
+[Unix (PDP-11)](/view.html?p=notes/technica/computation/operating-system/unix-pdp-11.md)
 
-[OpenHarmony](/note.html?p=notes/technica/computation/operating-system/openharmony.md)
+[OpenHarmony](/view.html?p=notes/technica/computation/operating-system/openharmony.md)
 
-[**BusyBox Linux**](/note.html?p=notes/technica/computation/operating-system/busybox-linux.md)
+[**BusyBox Linux**](/view.html?p=notes/technica/computation/operating-system/busybox-linux.md)
 
-[Linux Distribution](/note.html?p=notes/technica/computation/operating-system/linux-distribution.md)
+[Linux Distribution](/view.html?p=notes/technica/computation/operating-system/linux-distribution.md)
 
 ## History Timeline
 
@@ -296,7 +296,7 @@ Disk
 ## References
 
 - https://github.com/dbremont/os-labs
-- [Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
-- [(Hardware) Physical Substrate](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
+- [Virtualization](/view.html?p=notes/technica/computation/platform/virtualization.md)
+- [(Hardware) Physical Substrate](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
 - [‣](https://app.notion.com/p/368598edb79080918a2ad2e8f419e88e?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb79081bfa9b8ee29f0e3a6c5?pvs=21)

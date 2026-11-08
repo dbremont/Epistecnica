@@ -41,5 +41,5 @@ Questions:
 ## References
 
 - https://en.wikipedia.org/wiki/Template_metaprogramming
-- [Metaprogramming](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
+- [Metaprogramming](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/metaprogramming.md)
 - [**X: ✨**Metaprogramming](https://app.notion.com/p/X-Metaprogramming-82992f7f69a442f786c3ae4f27ce7fce?pvs=21)

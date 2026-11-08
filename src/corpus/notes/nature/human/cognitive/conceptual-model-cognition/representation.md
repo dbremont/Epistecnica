@@ -128,7 +128,7 @@ Index Quaestionum:
 
 ### Type (Mental Representation Construct)
 
-> What are the types of mental representations? What is the content of such represents? [How do we define the types of mental representations?](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)|
+> What are the types of mental representations? What is the content of such represents? [How do we define the types of mental representations?](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)|
 >
 
 > What is the relationship between **ontic and epistemic mental representations**?
@@ -232,7 +232,7 @@ Index Quaestionum:
 > How are mental representations instantiated in the brain, across both low-level and high-level structures and mechanisms? What are the mechanisms used to grow mental representations? Which are the neural substrate of Mental Representations?
 >
 
-> See more in [**Abstraction**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md), etc.
+> See more in [**Abstraction**](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md), etc.
 >
 
 | **Mechanism** | **Description** | **Tag(s)** |
@@ -300,7 +300,7 @@ Index Quaestionum:
 > In cognitive science, the **grounding of mental representations** refers to how abstract symbols or mental constructs acquire meaning by being **connected to the real world**, rather than floating as arbitrary symbols. In other words, a mental representation is *grounded* when it is **anchored in perception, action, or experience**, making it meaningful and useful for cognition.
 >
 
-> See [**Symbol**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md).
+> See [**Symbol**](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md).
 >
 
 ### Mechanism
@@ -538,10 +538,10 @@ A **theory of knowledge** is a systematic framework that tries to explain:
 
 ### Definition
 
-> See [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md).
+> See [Concept](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md).
 >
 
-> See [**Idea**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md).
+> See [**Idea**](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md).
 >
 
 > Note: In rigorous terms, a concept is a mental construct — something conceived by the mind — and should not be confused with an idea, which may involve broader associations or images.
@@ -640,7 +640,7 @@ A **theory of knowledge** is a systematic framework that tries to explain:
 > What are the main theories of brain representations?
 >
 
-> **Note:** These theories are generally broad theories of cognition, not solely focused on representation. For more details, see [Cognitive](/note.html?p=notes/nature/cognitive.md).
+> **Note:** These theories are generally broad theories of cognition, not solely focused on representation. For more details, see [Cognitive](/view.html?p=notes/nature/cognitive.md).
 >
 
 | **Theory** | **Representation Type** | **Description** | **History** |
@@ -698,7 +698,7 @@ A **theory of knowledge** is a systematic framework that tries to explain:
 > 📝 This question can be reformulated as 'What view makes this element easier to understand?' so always ask yourself: How should I view this element? What is the best way of understanding this element? This process is actually very slow, but it's the only path toward understanding.
 >
 
-> **Note:** **Brain Capacity Affinity** is actually subjective. See **[📝  The brain is an organ with natural strengths, but it can also develop effective representations in domains where it is not inherently optimized—for example, chess, which requires  **symbolic, and strategic reasoning** that is not the brain’s default mode. Sometimes, creating new mental representations involves **building on existing ones**, even if they don’t perfectly align with the brain’s natural capacities, rather than relying solely on the brain’s **default strengths**.](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)**
+> **Note:** **Brain Capacity Affinity** is actually subjective. See **[📝  The brain is an organ with natural strengths, but it can also develop effective representations in domains where it is not inherently optimized—for example, chess, which requires  **symbolic, and strategic reasoning** that is not the brain’s default mode. Sometimes, creating new mental representations involves **building on existing ones**, even if they don’t perfectly align with the brain’s natural capacities, rather than relying solely on the brain’s **default strengths**.](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)**
 >
 
 Let’s start with a case  (**understanding probability**), two form of **mental representations**:
@@ -726,7 +726,7 @@ Comparing Representations:
 
 ### **How can the learner observe - analyze and improve it’s own mental representation of a RepTarget?**
 
-> **Mental representations** co-evolve with practice. A strong mental representation can only be refined and enhanced through deep practice, while practice without a coherent prior mental representation will likely lead nowhere. To improve, you need to practice the right thing within the right mental framework. See  [Practice](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md).
+> **Mental representations** co-evolve with practice. A strong mental representation can only be refined and enhanced through deep practice, while practice without a coherent prior mental representation will likely lead nowhere. To improve, you need to practice the right thing within the right mental framework. See  [Practice](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md).
 >
 
 This is an exercise in meta-cognition: becoming aware of and reflecting on your own thought processes and mental representations.
@@ -865,7 +865,7 @@ Meaning as function, not essence:
 
 ## References
 
-- [Cognitive](/note.html?p=notes/nature/cognitive.md)
+- [Cognitive](/view.html?p=notes/nature/cognitive.md)
 - [Guia Mayor](https://app.notion.com/p/Guia-Mayor-cce02f04c4724677ba46b314151134db?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [General Topic Note Template](https://app.notion.com/p/General-Topic-Note-Template-1cec0f5171ec801e86e6c894702cfe23?pvs=21)
@@ -885,9 +885,9 @@ Meaning as function, not essence:
 - **Finley, K. (2025).** *Embodied Cognition and the Grip of Computational Metaphors*. Ergo.
 - Anderson, M. L. (2003). Embodied cognition: A field guide. 149(1), 91–130.
 - [Epistemology](https://app.notion.com/p/Epistemology-0e47f3d857c544c6b08bc991c24c8891?pvs=21)
-- [Human Memory](/note.html?p=notes/nature/human-memory.md)
-- [Reference System](/note.html?p=notes/nature/human/cognitive/reference-system.md)
-- [What are the different cognitive states achieved after learning?](/note.html?p=notes/nature/human-memory.md)
+- [Human Memory](/view.html?p=notes/nature/human-memory.md)
+- [Reference System](/view.html?p=notes/nature/human/cognitive/reference-system.md)
+- [What are the different cognitive states achieved after learning?](/view.html?p=notes/nature/human-memory.md)
 - https://www.youtube.com/watch?v=3Eqr780xUuY&t=13s
 - https://www.youtube.com/watch?v=DgvV3IbUedo&t=196s
 - https://www.youtube.com/watch?v=jvdo-SlGl4A
@@ -912,10 +912,10 @@ Meaning as function, not essence:
 
 ## Related
 
-- [Cognition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognition.md)
-- [Consciouses](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/consciouses.md)
-- [Name](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
-- [Intelligibility](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligibility.md)
+- [Cognition](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognition.md)
+- [Consciouses](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/consciouses.md)
+- [Name](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
+- [Intelligibility](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligibility.md)
 
 ## Provenance
 

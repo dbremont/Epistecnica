@@ -4,7 +4,7 @@ tags: [note, tooling]
 
 # Epistemology
 
-Related: [Bayesian Epistemology](/note.html?p=notes/epistemica/epistemic/theory/bayesian-epistemology.md), [Descartes’s Method](/note.html?p=notes/epistemica/epistemic/guidance/method/descartes-method.md), [Truth](/note.html?p=notes/epistemica/epistemic/theory/truth.md), [Reason](/note.html?p=notes/epistemica/epistemic/theory/reason.md), [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md)
+Related: [Bayesian Epistemology](/view.html?p=notes/epistemica/epistemic/theory/bayesian-epistemology.md), [Descartes’s Method](/view.html?p=notes/epistemica/epistemic/guidance/method/descartes-method.md), [Truth](/view.html?p=notes/epistemica/epistemic/theory/truth.md), [Reason](/view.html?p=notes/epistemica/epistemic/theory/reason.md), [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)
 
 > In this note, we will explore another fundamental branch of philosophy—Epistemology—a theory of the observer and of observation.
 > 

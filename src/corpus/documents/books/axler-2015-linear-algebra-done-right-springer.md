@@ -19,7 +19,7 @@ tags: [document, mathematics, linear-algebra]
 ---
 
 The operator-first exposition: linear maps before matrices, determinants
-delayed until the end. The [Linear Algebra](/note.html?p=notes/epistemica/mathematical/linear-algebra.md)
+delayed until the end. The [Linear Algebra](/view.html?p=notes/epistemica/mathematical/linear-algebra.md)
 note cites this book as the exemplar textbook realizing its exposition
 genre — Axler's operator-first exposition.
 

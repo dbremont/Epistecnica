@@ -27,13 +27,13 @@ It's important to note that "chemical substance" is often used interchangeably w
 - [Chemical Substance](https://en.wikipedia.org/wiki/Chemical_substance)
 - [Polymer](https://en.wikipedia.org/wiki/Polymer)
 
-[Base](/note.html?p=notes/nature/chemical-substance/base.md)
+[Base](/view.html?p=notes/nature/chemical-substance/base.md)
 
-[Chemical Compound](/note.html?p=notes/nature/chemical-substance/chemical-compound.md)
+[Chemical Compound](/view.html?p=notes/nature/chemical-substance/chemical-compound.md)
 
 ## Related
 
-- [Chemical Element](/note.html?p=notes/nature/chemical-element.md)
+- [Chemical Element](/view.html?p=notes/nature/chemical-element.md)
 
 ## Provenance
 

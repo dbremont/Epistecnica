@@ -8,13 +8,13 @@ tags: [note]
 > soils, waters, and air — individuated by composition, structure, and phase behavior rather
 > than by use or price. (File name `earth-material.md` is kept stable so existing
 > `?n=nature/earth-material.md` links and node `noteRef`s keep resolving; the canonical human
-> term lives in this heading.) Parent instances [Nature](/note.html?p=notes/nature/nature.md),
-> [Earth](/note.html?p=notes/nature/earth.md), and
-> [Natural Material](/note.html?p=notes/nature/natural-material.md); sibling
-> [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md); composed of
-> [Mineral](/note.html?p=notes/nature/mineral.md) kinds; exemplified by the worked
-> [Quarry](/note.html?p=notes/nature/quarry.md). Worked per
-> [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> term lives in this heading.) Parent instances [Nature](/view.html?p=notes/nature/nature.md),
+> [Earth](/view.html?p=notes/nature/earth.md), and
+> [Natural Material](/view.html?p=notes/nature/natural-material.md); sibling
+> [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md); composed of
+> [Mineral](/view.html?p=notes/nature/mineral.md) kinds; exemplified by the worked
+> [Quarry](/view.html?p=notes/nature/quarry.md). Worked per
+> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -25,7 +25,7 @@ composition, texture, and phase behavior, recurring across crustal systems (stra
 basins, soils) — here archetyped by limestone at meso scale. Entered via the composition
 spine (`Natural Object -> Building Block -> Substance / Matter`): a **limestone bed** is the
 building-block occurrence, the earth material is the substance-kind it instantiates. Same
-name at micro scale (a thin section, a [Mineral](/note.html?p=notes/nature/mineral.md) grain) and
+name at micro scale (a thin section, a [Mineral](/view.html?p=notes/nature/mineral.md) grain) and
 macro scale (a formation) denotes distinct nodes — record the level per instance; minerals
 decompose as the child kind in `mineral.md`.
 
@@ -73,23 +73,23 @@ body shows them — record per instance, do not assume.
 
 Secondary readings (kept as prose, never merged into the tree above): readable as technique —
 drill-blast-crush-screen, sawing, dewatering, and soil-working methods and their products
-([Technical Abiogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md))
+([Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md))
 (decompose under the technicarum grammar); readable as production resource — the material as aggregate product
 with grades and firm (decompose under the socialium grammar; if it plays a production role
 it is a Social node tagged `production-view`); readable as epistemic — petrographic
 standards and stratigraphic scales (decompose under the epistemicarum grammar). The
 instrument technically, the formation naturally
 (`guideline/ambiguity_resolution.md`). Biogenic coatings and
-admixtures belong to [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md).
+admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md).
 
 ## References
 
-- [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
-- [Nature](/note.html?p=notes/nature/nature.md) (root: all observer-independent reality)
-- [Natural Material](/note.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
-- [Earth](/note.html?p=notes/nature/earth.md) (parent: the planet system)
-- [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) (sibling: all matter made by life)
-- [Mineral](/note.html?p=notes/nature/mineral.md) (child: crystalline solid kinds composing aggregates)
-- [Quarry](/note.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)
+- [Nature](/view.html?p=notes/nature/nature.md) (root: all observer-independent reality)
+- [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
+- [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
+- [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (sibling: all matter made by life)
+- [Mineral](/view.html?p=notes/nature/mineral.md) (child: crystalline solid kinds composing aggregates)
+- [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

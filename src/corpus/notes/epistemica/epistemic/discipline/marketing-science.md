@@ -22,5 +22,5 @@ Through experiments (A/B, holdouts, geo-splits), observational fit (model vs rea
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Marketing Technical Practice](/note.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md)
+- [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)

@@ -8,7 +8,7 @@ tags: [note, south-korea, plan, public-policy, social-element]
 
 > It is an instrument rather than a document. No single text governed; the arrangement existed only as the composed sequence of directives, targets, credit allocation, execution, and review, each round inheriting the apparatus of the last. What persisted across rounds was the developmental machinery, not the targets.
 
-> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — export ratios, heavy-chemical shares, liberalization measures — belongs to the policy notes; the growth models warranting them belong to the epistemic decomposition.
+> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — export ratios, heavy-chemical shares, liberalization measures — belongs to the policy notes; the growth models warranting them belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -68,6 +68,6 @@ Lineage: the 1961 coup and the Economic Planning Board's founding → the First 
 ## References
 
 - [Five-Year Plans of South Korea](https://en.wikipedia.org/wiki/Five-year_plans_of_South_Korea)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Framework](/note.html?p=notes/social/action/guidance/framework.md)
-- [Korean Trade Policy](/note.html?p=notes/social/action/public/informe/policy/korean-trade-policy.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Framework](/view.html?p=notes/social/action/guidance/framework.md)
+- [Korean Trade Policy](/view.html?p=notes/social/action/public/informe/policy/korean-trade-policy.md)

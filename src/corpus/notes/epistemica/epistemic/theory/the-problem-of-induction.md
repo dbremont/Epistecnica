@@ -4,7 +4,7 @@ tags: [note, epistemology, tooling]
 
 # The Problem of Induction
 
-Related: [Bayesian Epistemology](/note.html?p=notes/epistemica/epistemic/theory/bayesian-epistemology.md)
+Related: [Bayesian Epistemology](/view.html?p=notes/epistemica/epistemic/theory/bayesian-epistemology.md)
 
 > Induction is the inference process by which, given a finite body of evidence E and a hypothesis space H, one selects the hypothesis h∈H that maximizes the posterior probability
 > 

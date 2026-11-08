@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # WebRTC
 
-- [PeerJS](/note.html?p=notes/technica/computation/telecom/peerjs.md), [XMPP (Extensible Messaging and Presence Protocol)](/note.html?p=notes/technica/computation/telecom/xmpp-extensible-messaging-and-presence-protocol.md)
+- [PeerJS](/view.html?p=notes/technica/computation/telecom/peerjs.md), [XMPP (Extensible Messaging and Presence Protocol)](/view.html?p=notes/technica/computation/telecom/xmpp-extensible-messaging-and-presence-protocol.md)
 
 > **WebRTC (Web Real-Time Communication)** is a set of standardized APIs and protocols enabling real-time, peer-to-peer media (audio, video) and data communication directly between web browsers and mobile apps without requiring intermediary servers for media relay under typical scenarios.
 > 

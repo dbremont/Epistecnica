@@ -4,7 +4,7 @@ tags: [note, protocol]
 
 # XMPP (Extensible Messaging and Presence Protocol)
 
-- [WebRTC](/note.html?p=notes/technica/computation/telecom/webrtc.md)
+- [WebRTC](/view.html?p=notes/technica/computation/telecom/webrtc.md)
 
 > 
 

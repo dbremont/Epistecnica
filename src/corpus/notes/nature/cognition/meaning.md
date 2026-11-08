@@ -439,14 +439,14 @@ Let used a Case Study:
 ## References
 
 - Peirce, C. S. (1878). How to make our ideas clear. *Popular Science Monthly*, *12*, 286–302.
-- [Frege, G. (1892). Über Sinn und Bedeutung [On sense and reference]. *Zeitschrift für Philosophie und philosophische Kritik*, *100*, 25–50.](/note.html?p=documents/papers/frege-1892-sense-reference.md)
-- [Husserl, E. (1900–1901). *Logical investigations*. Walter de Gruyter.](/note.html?p=documents/books/husserl-1900-logical-investigations-walter-gruyter.md)
+- [Frege, G. (1892). Über Sinn und Bedeutung [On sense and reference]. *Zeitschrift für Philosophie und philosophische Kritik*, *100*, 25–50.](/view.html?p=documents/papers/frege-1892-sense-reference.md)
+- [Husserl, E. (1900–1901). *Logical investigations*. Walter de Gruyter.](/view.html?p=documents/books/husserl-1900-logical-investigations-walter-gruyter.md)
 - James, W. (1907). *Pragmatism: A new name for some old ways of thinking*. Longmans, Green.
 - Ogden, C. K., & Richards, I. A. (1923). *The meaning of meaning: A study of the influence of language upon thought and of the science of symbolism*. Kegan Paul, Trench, Trubner & Co.
 - Peirce, C. S. (1931–1958). *Collected papers of Charles Sanders Peirce* (C. Hartshorne, P. Weiss, & A. W. Burks, Eds.). Harvard University Press.
 - Ayer, A. J. (1936). *Language, truth and logic*. Victor Gollancz.
 - Morris, C. W. (1938). *Foundations of the theory of signs*. University of Chicago Press.
-- [Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, *27*(3), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x](/note.html?p=documents/articles/shannon-1948-mathematical-theory-communication-https-doi.md)
+- [Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal*, *27*(3), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x](/view.html?p=documents/articles/shannon-1948-mathematical-theory-communication-https-doi.md)
 - Shannon, C. E., & Weaver, W. (1949). *The mathematical theory of communication*. University of Illinois Press.
 - Frege, G. (1952). On sense and reference. In P. Geach & M. Black (Eds. & Trans.), *Translations from the philosophical writings of Gottlob Frege* (pp. 56–78). Blackwell. (Original work published 1892)
 - Wittgenstein, L. (1953). *Philosophical investigations* (G. E. M. Anscombe, Trans.). Blackwell.
@@ -455,23 +455,23 @@ Let used a Case Study:
 - Grice, H. P. (1957). Meaning. *The Philosophical Review*, *66*(3), 377–388. https://doi.org/10.2307/2182440
 - Austin, J. L. (1962). *How to do things with words*. Oxford University Press.
 - Berger, P. L., & Luckmann, T. (1966). *The social construction of reality: A treatise in the sociology of knowledge*. Doubleday.
-- [Davidson, D. (1967). Truth and meaning. *Synthese*, *17*(3), 304–323.](/note.html?p=documents/papers/davidson-1967-truth-meaning-springer.md)
+- [Davidson, D. (1967). Truth and meaning. *Synthese*, *17*(3), 304–323.](/view.html?p=documents/papers/davidson-1967-truth-meaning-springer.md)
 - von Frisch, K. (1967). *The dance language and orientation of bees*. Harvard University Press.
 - Searle, J. R. (1969). *Speech acts: An essay in the philosophy of language*. Cambridge University Press.
 - Geertz, C. (1973). *The interpretation of cultures: Selected essays*. Basic Books.
 - Montague, R. (1973). The proper treatment of quantification in ordinary English. In K. J. J. Hintikka, J. M. E. Moravcsik, & P. Suppes (Eds.), *Approaches to natural language* (pp. 221–242). D. Reidel.
-- [Rosch, E. (1973). Natural categories. *Cognitive Psychology*, *4*(3), 328–350. https://doi.org/10.1016/0010-0285(73)90017-0](/note.html?p=documents/articles/rosch-1973-natural-categories-cognitive-psychology.md)
+- [Rosch, E. (1973). Natural categories. *Cognitive Psychology*, *4*(3), 328–350. https://doi.org/10.1016/0010-0285(73)90017-0](/view.html?p=documents/articles/rosch-1973-natural-categories-cognitive-psychology.md)
 - Montague, R. (1974). *Formal philosophy: Selected papers of Richard Montague* (R. H. Thomason, Ed.). Yale University Press.
 - Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and semantics: Vol. 3. Speech acts* (pp. 41–58). Academic Press.
 - Putnam, H. (1975). The meaning of "meaning". In *Mind, language and reality: Philosophical papers* (Vol. 2, pp. 215–271). Cambridge University Press.
 - Rosch, E. (1975). Cognitive representations of semantic categories. *Journal of Experimental Psychology: General*, *104*(3), 192–233. https://doi.org/10.1037/0096-3445.104.3.192
 - Fillmore, C. J. (1976). Frame semantics and the nature of language. *Annals of the New York Academy of Sciences*, *280*(1), 20–32. https://doi.org/10.1111/j.1749-6632.1976.tb25467.x
 - Iser, W. (1978). *The act of reading: A theory of aesthetic response*. Johns Hopkins University Press.
-- [Kripke, S. A. (1980). *Naming and necessity*. Harvard University Press.](/note.html?p=documents/papers/kripke-1980-naming-necessity-harvard-university-press.md)
+- [Kripke, S. A. (1980). *Naming and necessity*. Harvard University Press.](/view.html?p=documents/papers/kripke-1980-naming-necessity-harvard-university-press.md)
 - Kutas, M., & Hillyard, S. A. (1980). Reading senseless sentences: Brain potentials reflect semantic incongruity. *Science*, *207*(4427), 203–205. https://doi.org/10.1126/science.7350657
 - Lakoff, G., & Johnson, M. (1980). *Metaphors we live by*. University of Chicago Press.
 - Dretske, F. I. (1981). *Knowledge and the flow of information*. MIT Press.
-- [Mervis, C. B., & Rosch, E. (1981). Categorization of natural objects. *Annual Review of Psychology*, *32*(1), 89–115.](/note.html?p=documents/articles/mervis-1981-categorization-natural-objects-annual-review.md)
+- [Mervis, C. B., & Rosch, E. (1981). Categorization of natural objects. *Annual Review of Psychology*, *32*(1), 89–115.](/view.html?p=documents/articles/mervis-1981-categorization-natural-objects-annual-review.md)
 - Fillmore, C. J. (1982). Frame semantics. In Linguistic Society of Korea (Ed.), *Linguistics in the morning calm* (pp. 111–137). Hanshin.
 - Saussure, F. de (1983). *Course in general linguistics* (R. Harris, Trans.). Duckworth. (Original work published 1916)
 - Millikan, R. G. (1984). *Language, thought, and other biological categories*. MIT Press.
@@ -480,51 +480,51 @@ Let used a Case Study:
 - Vygotsky, L. S. (1986). *Thought and language* (A. Kozulin, Ed. & Trans.). MIT Press. (Original work published 1934)
 - Langacker, R. W. (1987). *Foundations of cognitive grammar: Vol. 1. Theoretical prerequisites*. Stanford University Press.
 - Cheney, D. L., & Seyfarth, R. M. (1990). *How monkeys see the world: Inside the mind of another species*. University of Chicago Press.
-- [Harnad, S. (1990). The symbol grounding problem. *Physica D: Nonlinear Phenomena*, *42*(1–3), 335–346.](/note.html?p=documents/articles/harnad-1990-symbol-grounding-problem-physica-nonlinear.md)
+- [Harnad, S. (1990). The symbol grounding problem. *Physica D: Nonlinear Phenomena*, *42*(1–3), 335–346.](/view.html?p=documents/articles/harnad-1990-symbol-grounding-problem-physica-nonlinear.md)
 - Sinclair, J. (1991). *Corpus, concordance, collocation*. Oxford University Press.
 - Kamp, H., & Reyle, U. (1993). *From discourse to logic: Introduction to modeltheoretic semantics of natural language, formal logic and discourse representation theory*. Kluwer Academic.
 - Brandom, R. B. (1994). *Making it explicit: Reasoning, representing, and discursive commitment*. Harvard University Press.
-- [Miller, G. A. (1995). WordNet: A lexical database for English. *Communications of the ACM*, *38*(11), 39–41. https://doi.org/10.1145/219717.219748](/note.html?p=documents/articles/miller-1995-wordnet-lexical-database-english.md)
+- [Miller, G. A. (1995). WordNet: A lexical database for English. *Communications of the ACM*, *38*(11), 39–41. https://doi.org/10.1145/219717.219748](/view.html?p=documents/articles/miller-1995-wordnet-lexical-database-english.md)
 - Weick, K. E. (1995). *Sensemaking in organizations*. Sage.
 - Fellbaum, C. (Ed.). (1998). *WordNet: An electronic lexical database*. MIT Press.
 - Rayner, K. (1998). Eye movements in reading and information processing: 20 years of research. *Psychological Bulletin*, *124*(3), 372–422. https://doi.org/10.1037/0033-2909.124.3.372
-- [Cover, T. M. (1999). *Elements of information theory*. John Wiley & Sons.](/note.html?p=documents/books/cover-1999-elements-information-theory-john-wiley.md)
+- [Cover, T. M. (1999). *Elements of information theory*. John Wiley & Sons.](/view.html?p=documents/books/cover-1999-elements-information-theory-john-wiley.md)
 - Lakoff, G., & Johnson, M. (1999). *Philosophy in the flesh: The embodied mind and its challenge to Western thought*. Basic Books.
-- [Sedivy, J. C., Tanenhaus, M. K., Chambers, C. G., & Carlson, G. N. (1999). Achieving incremental semantic interpretation through contextual representation. *Cognition*, *71*(2), 109–147.](/note.html?p=documents/articles/sedivy-1999-achieving-incremental-semantic-interpretation-contex.md)
-- [Wagner, A. D., Paré-Blagoev, E. J., Clark, J., & Poldrack, R. A. (2001). Recovering meaning: Left prefrontal cortex guides controlled semantic retrieval. *Neuron*, *31*(2), 329–338.](/note.html?p=documents/articles/wagner-2001-recovering-meaning-left-prefrontal-cortex.md)
+- [Sedivy, J. C., Tanenhaus, M. K., Chambers, C. G., & Carlson, G. N. (1999). Achieving incremental semantic interpretation through contextual representation. *Cognition*, *71*(2), 109–147.](/view.html?p=documents/articles/sedivy-1999-achieving-incremental-semantic-interpretation-contex.md)
+- [Wagner, A. D., Paré-Blagoev, E. J., Clark, J., & Poldrack, R. A. (2001). Recovering meaning: Left prefrontal cortex guides controlled semantic retrieval. *Neuron*, *31*(2), 329–338.](/view.html?p=documents/articles/wagner-2001-recovering-meaning-left-prefrontal-cortex.md)
 - Gildea, D., & Jurafsky, D. (2002). Automatic labeling of semantic roles. *Computational Linguistics*, *28*(3), 245–288. https://doi.org/10.1162/089120102760275983
 - Fillmore, C. J., Johnson, C. R., & Petruck, M. R. L. (2003). Background to FrameNet. *International Journal of Lexicography*, *16*(3), 235–250. https://doi.org/10.1093/ijl/16.3.235
 - Borg, E. (2004). *Minimal semantics*. Oxford University Press.
 - Gadamer, H.-G. (2004). *Truth and method* (J. Weinsheimer & D. G. Marshall, Trans.). Continuum. (Original work published 1960)
-- [Gärdenfors, P. (2004). *Conceptual spaces: The geometry of thought*. MIT Press.](/note.html?p=documents/books/gardenfors-2004-conceptual-spaces-geometry-thought-mit.md)
+- [Gärdenfors, P. (2004). *Conceptual spaces: The geometry of thought*. MIT Press.](/view.html?p=documents/books/gardenfors-2004-conceptual-spaces-geometry-thought-mit.md)
 - Recanati, F. (2004). *Literal meaning*. Cambridge University Press.
 - Cappelen, H., & Lepore, E. (2005). *Insensitive semantics: A defense of semantic minimalism and speech act pluralism*. Blackwell.
-- [Kim, A., & Osterhout, L. (2005). The independence of combinatory semantic processing: Evidence from event-related potentials. *Journal of Memory and Language*, *52*(2), 205–225.](/note.html?p=documents/articles/kim-2005-independence-combinatory-semantic-processing-evidence.md)
+- [Kim, A., & Osterhout, L. (2005). The independence of combinatory semantic processing: Evidence from event-related potentials. *Journal of Memory and Language*, *52*(2), 205–225.](/view.html?p=documents/articles/kim-2005-independence-combinatory-semantic-processing-evidence.md)
 - Hickok, G., & Poeppel, D. (2007). The cortical organization of speech processing. *Nature Reviews Neuroscience*, *8*(5), 393–402. https://doi.org/10.1038/nrn2113
-- [Clark, S., Coecke, B., & Sadrzadeh, M. (2008). A compositional distributional model of meaning. *Proceedings of the Second Quantum Interaction Symposium (QI-2008)*, 133–140.](/note.html?p=documents/articles/clark-2008-compositional-distributional-model-meaning.md)
+- [Clark, S., Coecke, B., & Sadrzadeh, M. (2008). A compositional distributional model of meaning. *Proceedings of the Second Quantum Interaction Symposium (QI-2008)*, 133–140.](/view.html?p=documents/articles/clark-2008-compositional-distributional-model-meaning.md)
 - Hoffmeyer, J. (2008). *Biosemiotics: An examination into the signs of life and the life of signs*. University of Scranton Press.
-- [Sahlgren, M. (2008). The distributional hypothesis. *Italian Journal of Linguistics*, *20*, 33–53.](/note.html?p=documents/articles/sahlgren-2008-distributional-hypothesis-italian-journal-linguist.md)
+- [Sahlgren, M. (2008). The distributional hypothesis. *Italian Journal of Linguistics*, *20*, 33–53.](/view.html?p=documents/articles/sahlgren-2008-distributional-hypothesis-italian-journal-linguist.md)
 - Guarino, N., Oberle, D., & Staab, S. (2009). What is an ontology? In S. Staab & R. Studer (Eds.), *Handbook on ontologies* (2nd ed., pp. 1–17). Springer.
-- [Atkin, A. (2010). *Peirce’s theory of signs*.](/note.html?p=documents/papers/atkin-2010-peirce-theory-signs.md)
+- [Atkin, A. (2010). *Peirce’s theory of signs*.](/view.html?p=documents/papers/atkin-2010-peirce-theory-signs.md)
 - Skyrms, B. (2010). *Signals: Evolution, learning, and information*. Oxford University Press.
-- [Turney, P. D., & Pantel, P. (2010). From frequency to meaning: Vector space models of semantics. *Journal of Artificial Intelligence Research*, *37*, 141–188.](/note.html?p=documents/articles/turney-2010-frequency-meaning-vector-space-models.md)
-- [Martinich, A. P. (2012). Philosophy of language. In *Philosophy of meaning, knowledge and value in the twentieth century* (pp. 8–26). Routledge.](/note.html?p=documents/papers/martinich-2012-philosophy-language-philosophy-meaning-knowledge.md)
+- [Turney, P. D., & Pantel, P. (2010). From frequency to meaning: Vector space models of semantics. *Journal of Artificial Intelligence Research*, *37*, 141–188.](/view.html?p=documents/articles/turney-2010-frequency-meaning-vector-space-models.md)
+- [Martinich, A. P. (2012). Philosophy of language. In *Philosophy of meaning, knowledge and value in the twentieth century* (pp. 8–26). Routledge.](/view.html?p=documents/papers/martinich-2012-philosophy-language-philosophy-meaning-knowledge.md)
 - Navigli, R., & Ponzetto, S. P. (2012). BabelNet: The automatic construction, evaluation and application of a wide-coverage multilingual semantic network. *Artificial Intelligence*, *193*, 217–250. https://doi.org/10.1016/j.artint.2012.07.001
 - Atkin, A. (2013). Peirce's theory of signs. In E. N. Zalta (Ed.), *The Stanford encyclopedia of philosophy*. Stanford University. https://plato.stanford.edu/entries/peirce-semiotics/
-- [Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation of word representations in vector space. *arXiv*. https://arxiv.org/abs/1301.3781](/note.html?p=documents/articles/mikolov-2013-efficient-estimation-word-representations-vector.md)
-- [Gärdenfors, P. (2014). *The geometry of meaning: Semantics based on conceptual spaces*. MIT Press.](/note.html?p=documents/books/gardenfors-2014-geometry-meaning-semantics-conceptual-spaces.md)
-- [Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. In *Proceedings of the 31st International Conference on Machine Learning* (pp. 1188–1196). PMLR.](/note.html?p=documents/papers/le-2014-distributed-representations-sentences-documents-internat.md)
+- [Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). Efficient estimation of word representations in vector space. *arXiv*. https://arxiv.org/abs/1301.3781](/view.html?p=documents/articles/mikolov-2013-efficient-estimation-word-representations-vector.md)
+- [Gärdenfors, P. (2014). *The geometry of meaning: Semantics based on conceptual spaces*. MIT Press.](/view.html?p=documents/books/gardenfors-2014-geometry-meaning-semantics-conceptual-spaces.md)
+- [Le, Q., & Mikolov, T. (2014). Distributed representations of sentences and documents. In *Proceedings of the 31st International Conference on Machine Learning* (pp. 1188–1196). PMLR.](/view.html?p=documents/papers/le-2014-distributed-representations-sentences-documents-internat.md)
 - MacFarlane, J. (2014). *Assessment sensitivity: Relative truth and its applications*. Oxford University Press.
-- [Pennington, J., Socher, R., & Manning, C. D. (2014). GloVe: Global vectors for word representation. In *Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing* (pp. 1532–1543). Association for Computational Linguistics. https://doi.org/10.3115/v1/D14-1162](/note.html?p=documents/papers/pennington-2014-glove-global-vectors-word-representation.md)
+- [Pennington, J., Socher, R., & Manning, C. D. (2014). GloVe: Global vectors for word representation. In *Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing* (pp. 1532–1543). Association for Computational Linguistics. https://doi.org/10.3115/v1/D14-1162](/view.html?p=documents/papers/pennington-2014-glove-global-vectors-word-representation.md)
 - Ruppenhofer, J., Ellsworth, M., Petruck, M. R. L., Johnson, C. R., & Scheffczyk, J. (2016). *FrameNet II: Extended theory and practice*. International Computer Science Institute. https://framenet2.icsi.berkeley.edu/docs/r1.7/book.pdf
-- [Bojanowski, P., Grave, E., Joulin, A., & Mikolov, T. (2017). Enriching word vectors with subword information. *Transactions of the Association for Computational Linguistics*, *5*, 135–146.](/note.html?p=documents/articles/bojanowski-2017-enriching-word-vectors-subword-information.md)
-- [Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies* (pp. 4171–4186). Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1423](/note.html?p=documents/papers/devlin-2019-bert-pre-training-deep-bidirectional.md)
-- [Boleda, G. (2020). Distributional semantics and linguistic theory. *Annual Review of Linguistics*, *6*(1), 213–234.](/note.html?p=documents/articles/boleda-2020-distributional-semantics-linguistic-theory-annual.md)
+- [Bojanowski, P., Grave, E., Joulin, A., & Mikolov, T. (2017). Enriching word vectors with subword information. *Transactions of the Association for Computational Linguistics*, *5*, 135–146.](/view.html?p=documents/articles/bojanowski-2017-enriching-word-vectors-subword-information.md)
+- [Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. In *Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies* (pp. 4171–4186). Association for Computational Linguistics. https://doi.org/10.18653/v1/N19-1423](/view.html?p=documents/papers/devlin-2019-bert-pre-training-deep-bidirectional.md)
+- [Boleda, G. (2020). Distributional semantics and linguistic theory. *Annual Review of Linguistics*, *6*(1), 213–234.](/view.html?p=documents/articles/boleda-2020-distributional-semantics-linguistic-theory-annual.md)
 - Russell, S., & Norvig, P. (2021). *Artificial intelligence: A modern approach* (4th ed.). Pearson.
 - Speaks, J. (2021). Theories of meaning. In E. N. Zalta (Ed.), *The Stanford encyclopedia of philosophy*. Stanford University. https://plato.stanford.edu/entries/meaning/
 - Jurafsky, D., & Martin, J. H. (2023). *Speech and language processing* (3rd ed. draft). Stanford University. https://web.stanford.edu/~jurafsky/slp3/
 - Lake, B. M., & Murphy, G. L. (2023). Word meaning in minds and machines. *Psychological Review*, *130*(2), 401–431. https://doi.org/10.1037/rev0000297
-- [Rosch, E. (2024). Principles of categorization. In *Cognition and categorization* (pp. 27–48). Routledge.](/note.html?p=documents/papers/rosch-2024-principles-categorization-cognition-categorization-ro.md)
+- [Rosch, E. (2024). Principles of categorization. In *Cognition and categorization* (pp. 27–48). Routledge.](/view.html?p=documents/papers/rosch-2024-principles-categorization-cognition-categorization-ro.md)
 - Naturgnosis. (n.d.). *Philosophia artium epistemicarum et operis* [Philosophy of the epistemic arts and works]. https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md
 - Naturgnosis. (n.d.). *Philosophia conceptuum et operis* [Philosophy of concepts and works]. https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md
 - Naturgnosis. (n.d.). *Philosophia naturalis et operis* [Philosophy of nature and works]. https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md

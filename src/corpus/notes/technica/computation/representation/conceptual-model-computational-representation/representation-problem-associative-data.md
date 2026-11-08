@@ -4,7 +4,7 @@ tags: [note, domain]
 
 # Representation Problem: Associative Data
 
-- [Lock-Free Data Structure](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/lock-free-data-structure.md), [Concurrent Map](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/concurrent-map.md)
+- [Lock-Free Data Structure](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/lock-free-data-structure.md), [Concurrent Map](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/concurrent-map.md)
 
 > Associative data is a general technique (and family of data structures) to organize information around keys rather than positions, enabling efficient, semantic, and decoupled access to values.
 > 

@@ -4,14 +4,14 @@ tags: [note, language]
 
 # Haskell
 
-- [Glasgow Haskell Compiler (GHC)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glasgow-haskell-compiler-ghc.md)
+- [Glasgow Haskell Compiler (GHC)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/glasgow-haskell-compiler-ghc.md)
 
 > **Haskell** is a purely functional programming language, developed in the late 1980s, that emphasizes immutability, lazy evaluation, and strong static typing, enabling efficient, parallelizable code with high performance in areas such as compiler design, data analysis, and financial modeling, while maintaining referential transparency and type safety, though its performance can be impacted by its lazy evaluation model and the overhead of managing purity in complex computations.
 > 
 
 ## 🧮 Model of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 ## 📜 Language Specification
@@ -135,9 +135,9 @@ Haskell: 🛠️ Tooling & Ecosystem
 
 ## 🔗 References
 
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
-- [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - https://www.haskell.org/
 - https://es.wikipedia.org/wiki/Haskell
 - https://github.com/csiglab/language-system-labs

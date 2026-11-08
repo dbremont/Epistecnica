@@ -44,14 +44,14 @@ QA:
 
 ## Related
 
-- [Standard Model](/note.html?p=notes/nature/standard-model.md)
-- [Energy](/note.html?p=notes/nature/energy.md)
-- [Fundamental Molecular Interaction](/note.html?p=notes/nature/fundamental-molecular-interaction.md)
-- [Interaction](/note.html?p=notes/nature/theory/interaction.md)
-- [Atom](/note.html?p=notes/nature/atom.md)
-- [Electromagnetic System](/note.html?p=notes/nature/electromagnetic-system.md)
-- [Matter](/note.html?p=notes/nature/matter.md)
-- [Particle](/note.html?p=notes/nature/particle.md)
+- [Standard Model](/view.html?p=notes/nature/standard-model.md)
+- [Energy](/view.html?p=notes/nature/energy.md)
+- [Fundamental Molecular Interaction](/view.html?p=notes/nature/fundamental-molecular-interaction.md)
+- [Interaction](/view.html?p=notes/nature/theory/interaction.md)
+- [Atom](/view.html?p=notes/nature/atom.md)
+- [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md)
+- [Matter](/view.html?p=notes/nature/matter.md)
+- [Particle](/view.html?p=notes/nature/particle.md)
 
 ## Provenance
 

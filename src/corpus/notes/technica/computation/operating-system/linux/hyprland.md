@@ -4,7 +4,7 @@ tags: [note, graphics]
 
 # Hyprland
 
-- [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md), [Display Manager](/note.html?p=notes/technica/computation/operating-system/linux/display-manager.md), [Window Manager](/note.html?p=notes/technica/computation/operating-system/linux/window-manager.md), [Wayland](/note.html?p=notes/technica/computation/operating-system/linux/wayland.md), [X Window System (X11 Version)](/note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
+- [Linux Graphics Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md), [Display Manager](/view.html?p=notes/technica/computation/operating-system/linux/display-manager.md), [Window Manager](/view.html?p=notes/technica/computation/operating-system/linux/window-manager.md), [Wayland](/view.html?p=notes/technica/computation/operating-system/linux/wayland.md), [X Window System (X11 Version)](/view.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
 
 > **Hyprland** is a dynamic, tiling Wayland compositor that focuses on customization and modern, efficient window management.
 > 

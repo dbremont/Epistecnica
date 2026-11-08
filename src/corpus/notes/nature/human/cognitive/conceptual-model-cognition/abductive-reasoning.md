@@ -16,7 +16,7 @@ tags: [note, human, cognition, reasoning]
 
 ## Related
 
-- [Reasoning](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/reasoning.md)
+- [Reasoning](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/reasoning.md)
 
 ## Provenance
 

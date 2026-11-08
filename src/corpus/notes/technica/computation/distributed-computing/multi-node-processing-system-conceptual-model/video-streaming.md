@@ -54,10 +54,10 @@ QA:
 
 ## References
 
-- [Firefox](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
+- [Firefox](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
 - [‣](https://app.notion.com/p/65b8a74e2a474ef2b72983934b205626?pvs=21)
-- [Data Streaming](/note.html?p=notes/technica/computation/telecom/data-streaming.md)
-- [Video Processing](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/video-processing.md)
+- [Data Streaming](/view.html?p=notes/technica/computation/telecom/data-streaming.md)
+- [Video Processing](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/video-processing.md)
 - https://bytebytego.com/courses/system-design-interview/design-youtube
 - https://news.ycombinator.com/item?id=22748247
 - https://news.ycombinator.com/item?id=29793526
@@ -86,4 +86,4 @@ QA:
 - https://github.com/dbremont/video-stream-lab
 - https://github.com/jinyucn/Video-Streaming-Research-Papers/blob/main/Repository%20of%20papers.md
 - - [Representation Problem: Video (Data)]
-- [Linux Multimedia Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md)
+- [Linux Multimedia Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md)

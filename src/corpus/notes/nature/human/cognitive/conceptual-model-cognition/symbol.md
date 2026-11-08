@@ -77,10 +77,10 @@ Theory:
 
 ## Related
 
-- [Concept](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
-- [Object](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/object.md)
-- [Name](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
-- [Meaning](/note.html?p=notes/nature/cognition/meaning.md)
+- [Concept](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
+- [Object](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/object.md)
+- [Name](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
+- [Meaning](/view.html?p=notes/nature/cognition/meaning.md)
 
 ## Provenance
 

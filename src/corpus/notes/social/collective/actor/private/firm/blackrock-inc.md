@@ -200,7 +200,7 @@ Not physical, but **informational and relational**:
 ## References
 
 - [Firm – bremontix.xyz](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology – bremontix.xyz](/note.html?p=notes/social/structural/technical/technology.md)  
+- [Technology – bremontix.xyz](/view.html?p=notes/social/structural/technical/technology.md)  
 - Blackstone Investor Presentations (2023–2024)  
 - SEC Filings (10-K, 10-Q)  
 - Preqin, PitchBook, Bloomberg Intelligence  

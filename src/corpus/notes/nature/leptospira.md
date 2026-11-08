@@ -20,11 +20,11 @@ tags: [note, nature, substance-matter, biology, materials-science, matter, unfin
 
 ## Related
 
-- [Bacteria](/note.html?p=notes/nature/bacteria.md)
-- [Epigenome](/note.html?p=notes/nature/epigenome.md)
-- [Pathogenesis](/note.html?p=notes/nature/pathogenesis.md)
-- [Genome](/note.html?p=notes/nature/genome.md)
-- [Gene](/note.html?p=notes/nature/gene.md)
+- [Bacteria](/view.html?p=notes/nature/bacteria.md)
+- [Epigenome](/view.html?p=notes/nature/epigenome.md)
+- [Pathogenesis](/view.html?p=notes/nature/pathogenesis.md)
+- [Genome](/view.html?p=notes/nature/genome.md)
+- [Gene](/view.html?p=notes/nature/gene.md)
 
 ## Provenance
 

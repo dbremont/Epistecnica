@@ -61,10 +61,10 @@ This means examining:
 
 ## Reference(s)
 
-- [Human](/note.html?p=notes/nature/human.md)
-- [Cognitive](/note.html?p=notes/nature/cognitive.md)
-- [Behavioral](/note.html?p=notes/nature/behavioral.md)
-- [Behavior](/note.html?p=notes/nature/human/behavioral/conceptual-model-behavioral/behavior.md)
+- [Human](/view.html?p=notes/nature/human.md)
+- [Cognitive](/view.html?p=notes/nature/cognitive.md)
+- [Behavioral](/view.html?p=notes/nature/behavioral.md)
+- [Behavior](/view.html?p=notes/nature/human/behavioral/conceptual-model-behavioral/behavior.md)
 - https://en.wikipedia.org/wiki/Incentive_system
 
 ## Provenance

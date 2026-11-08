@@ -4,7 +4,7 @@ tags: [note, ontology]
 
 # Event
 
-Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Quasi-Open Interaction Field](/note.html?p=notes/nature/theory/quasi-open-interaction-field.md)
+Related: [Philosophical System](/view.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Quasi-Open Interaction Field](/view.html?p=notes/nature/theory/quasi-open-interaction-field.md)
 
 > In this note we will analyze the conceptual category of an event.
 > 
@@ -193,7 +193,7 @@ Meta:
 - A Guide to Language and Cognition
 - Plato’s Dialectic Method
 - https://plato.stanford.edu/entries/events/
-- [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md)
 - https://iep.utm.edu/events/
 - https://en.wikipedia.org/wiki/Event_(philosophy)
 - https://etimologias.dechile.net/?realizacio.n

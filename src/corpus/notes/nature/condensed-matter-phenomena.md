@@ -9,7 +9,7 @@ tags: [note, nature, phenomenon, unfinished]
 
 ## Related
 
-- [Solid State Phenomena](/note.html?p=notes/nature/solid-state-phenomena.md)
+- [Solid State Phenomena](/view.html?p=notes/nature/solid-state-phenomena.md)
 
 ## Provenance
 

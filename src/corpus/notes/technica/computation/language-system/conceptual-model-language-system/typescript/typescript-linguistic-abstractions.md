@@ -55,7 +55,7 @@ tags: [note]
 
 ## ¿Annotations?
 
-[Rust Attributes (Annotations)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/typescript/typescript-linguistic-abstractions/rust-attributes-annotations.md)
+[Rust Attributes (Annotations)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/typescript/typescript-linguistic-abstractions/rust-attributes-annotations.md)
 
 ## References
 

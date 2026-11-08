@@ -4,7 +4,7 @@ tags: [note, graphics]
 
 # X Window System (X11 Version)
 
-- [Hyprland](/note.html?p=notes/technica/computation/operating-system/linux/hyprland.md), [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
+- [Hyprland](/view.html?p=notes/technica/computation/operating-system/linux/hyprland.md), [Linux Graphics Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
 
 > The **X Window System**, specifically version 11 (X11), is a robust, network-transparent **windowing system** for bitmap displays, widely used in Unix-like operating systems to provide a foundational framework for graphical user interfaces.
 > 
@@ -58,7 +58,7 @@ d) **Errors**
 > A numeric identifier (1 byte) that tells the X server which core protocol request or extension request the client is invoking.
 > 
 
-[X11 Opcodes](/note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version/x11-opcodes.md)
+[X11 Opcodes](/view.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version/x11-opcodes.md)
 
 ### Data & Resource Model
 

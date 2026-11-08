@@ -36,7 +36,7 @@ tags: [note, human, cognition, reasoning]
 
 ## Related
 
-- [Abductive Reasoning](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abductive-reasoning.md)
+- [Abductive Reasoning](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abductive-reasoning.md)
 
 ## Provenance
 

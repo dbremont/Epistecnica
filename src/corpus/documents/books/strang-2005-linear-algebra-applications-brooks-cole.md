@@ -19,7 +19,7 @@ tags: [document, mathematics, linear-algebra]
 ---
 
 The canonical undergraduate exposition of linear algebra: geometry first,
-factorization second. The [Linear Algebra](/note.html?p=notes/epistemica/mathematical/linear-algebra.md)
+factorization second. The [Linear Algebra](/view.html?p=notes/epistemica/mathematical/linear-algebra.md)
 note cites this book as the exemplar textbook realizing its exposition
 genre — Strang's geometric exposition.
 

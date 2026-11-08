@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # GIT (Global Information Tracker)
 
-- [Source Code](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/source-code.md)
+- [Source Code](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/source-code.md)
 
 > In this note, we explore **Git** from first principles, moving from the interface down to the implementation layer, and back.
 > 
@@ -15,7 +15,7 @@ tags: [note, tool]
 > **Git Design Philosophy**: Set of principles/ideas that can be confined in powerful, if you know the tools they use will be evident.
 > 
 
-- [How to make sure that unwanted files are not committed?](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md)
+- [How to make sure that unwanted files are not committed?](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md)
 
 ## Meta
 
@@ -202,7 +202,7 @@ Key properties:
 > The **Git Hooking Model** allows users to trigger custom scripts at specific points in Git's workflow (e.g., before a commit or after a merge), enabling automation, policy enforcement, and integration with external tools.
 > 
 
-> See more here for the general concept - [Adaptation](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/adaptation.md).
+> See more here for the general concept - [Adaptation](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/adaptation.md).
 > 
 
 | **Hook Name** | **Trigger Point** | **Purpose** | **Common Use Cases** |
@@ -384,7 +384,7 @@ Hash:
 > Note: All snapshot history operations (merge, apply, cherry-pick, rebase, etc.) work directly on tree objects, manipulating repository state at the commit-snapshot level.
 > 
 
-> Note: In the process there can be `conflicts`. See more here [What do conflicts mean in snapshot-based history manipulation?](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md).
+> Note: In the process there can be `conflicts`. See more here [What do conflicts mean in snapshot-based history manipulation?](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md).
 > 
 
 Procedure:
@@ -495,7 +495,7 @@ git log —show-signature
 
 ### **How to make sure that unwanted files are not committed?**
 
-> See [How to make sure that unwanted files are not committed?](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md).
+> See [How to make sure that unwanted files are not committed?](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md).
 > 
 
 ### How to check if a file is ignore?
@@ -506,7 +506,7 @@ git check-ignore -v path/to/nvim/lazy-lock.json -- check ignore's file status
 
 ### Where is our code annotation model?
 
-> In [Source Code](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/source-code.md).
+> In [Source Code](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/source-code.md).
 > 
 
 ## References

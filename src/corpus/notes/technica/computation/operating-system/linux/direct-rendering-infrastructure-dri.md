@@ -4,7 +4,7 @@ tags: [note]
 
 # Direct Rendering Infrastructure (DRI)
 
-- [Direct Rendering Manager (DRM)](/note.html?p=notes/technica/computation/operating-system/linux/direct-rendering-manager-drm.md)
+- [Direct Rendering Manager (DRM)](/view.html?p=notes/technica/computation/operating-system/linux/direct-rendering-manager-drm.md)
 
 > 
 

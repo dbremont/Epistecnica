@@ -28,4 +28,4 @@ Guiding Question:
 
 ## References
 
-- [Interoperability](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interoperability.md)
+- [Interoperability](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interoperability.md)

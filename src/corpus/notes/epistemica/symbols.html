@@ -451,7 +451,7 @@
       return stem.replace(/-/g, ' ');
     }
 
-    function noteHref(path) { return '/note.html?p=notes/' + path.split('/').map(encodeURIComponent).join('/'); }
+    function noteHref(path) { return '/view.html?p=notes/' + path.split('/').map(encodeURIComponent).join('/'); }
 
     function sourceLine(src) {
       if (src.url) {

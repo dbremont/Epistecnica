@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Lazy Evaluation
 
-- [Declarative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md)
+- [Declarative Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md)
 
 > **Lazy evaluation** is an **evaluation strategy** wherein expressions are not evaluated until their values are required by the program's control flow, typically implemented via graph reduction or thunks to defer and share computation.
 > 
@@ -160,11 +160,11 @@ Lazy evaluation forces a different **mental model** of programming:
 - https://news.ycombinator.com/item?id=35305546
 - https://news.ycombinator.com/item?id=9737058
 - [https://news.ycombinator.com/item?id=10778330](https://news.ycombinator.com/item?id=10778330)
-- [Dataflow](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/dataflow.md)
+- [Dataflow](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/dataflow.md)
 - Launchbury, John. "A natural semantics for lazy evaluation." Proceedings of the 20th ACM SIGPLAN-SIGACT symposium on Principles of programming languages. 1993.
 - Johnsson, Thomas. "Efficient compilation of lazy evaluation." Proceedings of the 1984 SIGPLAN symposium on Compiler construction. 1984.
 - Strachey, Christopher, and Christopher P. Wadsworth. "Continuations: A mathematical semantics for handling full jumps." (No Title) (1974).
 - Henderson, Peter, and James H. Morris Jr. "A lazy evaluator." Proceedings of the 3rd ACM SIGACT-SIGPLAN Symposium on Principles on Programming Languages. 1976.
 - Augustsson, Lennart, and Thomas Johnsson. "The Chalmers lazy-ML compiler." The computer journal 32.2 (1989): 127-141.
 - Peyton Jones, Simon L., and Philip Wadler. "Imperative functional programming." Proceedings of the 20th ACM SIGPLAN-SIGACT symposium on Principles of programming languages. 1993.
-- [How to think deeply about **Eager Evaluation vs Lazy Evaluation?**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [How to think deeply about **Eager Evaluation vs Lazy Evaluation?**](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)

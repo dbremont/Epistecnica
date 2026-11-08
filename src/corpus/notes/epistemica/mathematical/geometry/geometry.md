@@ -61,7 +61,7 @@ Where:
 > A measure of separation between points, which can define notions of length, metric properties, and geodesics. Examples include Euclidean distance, hyperbolic distance, and Manhattan distance.
 > 
 
-> See more in [Metric Space](/note.html?p=notes/epistemica/mathematical/space/metric-space.md).l
+> See more in [Metric Space](/view.html?p=notes/epistemica/mathematical/space/metric-space.md).l
 > 
 
 ### Angle
@@ -69,7 +69,7 @@ Where:
 > A measure of the rotation between intersecting lines or vectors, used to define congruence, orthogonality, and directional relationships.
 > 
 
-> See more here [Angle](/note.html?p=notes/epistemica/mathematical/geometry/angle.md).
+> See more here [Angle](/view.html?p=notes/epistemica/mathematical/geometry/angle.md).
 > 
 
 ### Metric Properties
@@ -135,11 +135,11 @@ Where:
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Line | A straight 1-D figure extending without end in both directions. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Line Segment | The part of a line between two points — the element a polygon side is written with. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Ray | A half-line: one endpoint, unbounded in one direction. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Plane | A flat 2-D surface extending without end — the ambient element of planar geometry; see [Plane](/note.html?p=notes/epistemica/mathematical/geometry/plane.md). |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Hyperplane | The $(n-1)$-dimensional flat that slices an $n$-space; see [Hyperplane](/note.html?p=notes/epistemica/mathematical/geometry/hyperplane.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Plane | A flat 2-D surface extending without end — the ambient element of planar geometry; see [Plane](/view.html?p=notes/epistemica/mathematical/geometry/plane.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Hyperplane | The $(n-1)$-dimensional flat that slices an $n$-space; see [Hyperplane](/view.html?p=notes/epistemica/mathematical/geometry/hyperplane.md). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Space | The whole ambient set of points a geometry is declared over — $\mathbb{R}^n$, $H^n$, $S^n$, or a manifold. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geodesic | The straight line generalized: the shortest path the space's metric admits. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape | The composite element — the form a point set carries, read as an orbit under the geometry's transformation group; its own tree is [Geometric Shape](/note.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape | The composite element — the form a point set carries, read as an orbit under the geometry's transformation group; its own tree is [Geometric Shape](/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` | Grouping: the rules and structures that make a set of points a geometry — the note's Model of Space. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` | Grouping: the axioms a geometry is declared from. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Euclid's Postulates | The five postulates of the Elements: incidence, extension, the circle, right angles, and the parallel postulate. |
@@ -147,7 +147,7 @@ Where:
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Tarski's Axioms | A first-order axiomatization of Euclidean geometry in the language of betweenness and equidistance. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Incidence Axioms | The weakest layer: which points lie on which lines, and how many. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Parallel Postulate | Through a point off a line exactly one parallel passes — the axiom whose denial gives the other classical geometries. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Metric Axioms | Positivity, symmetry, the triangle inequality, and separation — what makes a distance a distance; see [Metric Space](/note.html?p=notes/epistemica/mathematical/space/metric-space.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Metric Axioms | Positivity, symmetry, the triangle inequality, and separation — what makes a distance a distance; see [Metric Space](/view.html?p=notes/epistemica/mathematical/space/metric-space.md). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Transformation Rule` | Grouping: the maps the geometry admits — naming the group is naming the geometry's sameness. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Transformation Rule` (→ Instance) Isometry | A map preserving distance — the rigid motion the Euclidean plane is read up to. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Transformation Rule` (→ Instance) Similarity | An isometry composed with a uniform scaling: angles survive, lengths scale. |
@@ -175,7 +175,7 @@ Where:
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Formation` (→ Instance) Simplicial Complex | A space assembled from vertices, edges, triangles, and their higher analogues. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Formation` (→ Instance) Manifold Atlas | A space covered by coordinate charts with smooth transitions — the object differential geometry works on. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Constitutive Substrate` (→ Part) `Formation` (→ Instance) Foliation | A decomposition of the space into lower-dimensional leaves, stacked without crossing. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Instance) Euclidean Geometry | Flat space with the parallel postulate: distance and angle behave as in the plane; see [Euclidean Geometry](/note.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Instance) Euclidean Geometry | Flat space with the parallel postulate: distance and angle behave as in the plane; see [Euclidean Geometry](/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Instance) Euclidean Geometry (→ Part) `Constitutive Substrate` | Grouping: the model of space this geometry is read with. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Instance) Euclidean Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` | Grouping: the axiom that distinguishes this geometry from its neighbours. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Instance) Euclidean Geometry (→ Part) `Constitutive Substrate` (→ Part) `Foundation` (→ Instance) Parallel Postulate | The unique-parallel reading — the axiom that fixes the Euclidean model. |
@@ -230,7 +230,7 @@ Where:
 |  | Line | A straight one-dimensional figure extending infinitely in both directions. |
 |  | Plane | A flat two-dimensional surface extending infinitely in all directions. |
 |  | Space |  |
-| **[Shape](/note.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md)** | Circle | A set of points equidistant from a center point. |
+| **[Shape](/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md)** | Circle | A set of points equidistant from a center point. |
 |  | Triangle | A three-sided polygon with three vertices and three angles. |
 |  | Polygon | A closed shape with straight sides (e.g., square, pentagon, hexagon). |
 | **Solid** | Cube | A three-dimensional shape with six square faces. |
@@ -278,11 +278,11 @@ Where:
 
 | **Framework** | **Description** | Geometry(s) |
 | --- | --- | --- |
-| [**Differential Geometry**](/note.html?p=notes/epistemica/mathematical/geometry/framework/differential-geometry.md) | Uses calculus to study smooth curves, surfaces, and manifolds. | Riemannian Geometry, Lorentzian Geometry, Classical Euclidean Geometry (smooth version) |
-| [**Algebraic Geometry**](/note.html?p=notes/epistemica/mathematical/geometry/framework/algebraic-geometry.md) | Studies solutions to polynomial equations using algebraic methods. | Affine Geometry, Projective Geometry, Complex Geometry |
+| [**Differential Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/differential-geometry.md) | Uses calculus to study smooth curves, surfaces, and manifolds. | Riemannian Geometry, Lorentzian Geometry, Classical Euclidean Geometry (smooth version) |
+| [**Algebraic Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/algebraic-geometry.md) | Studies solutions to polynomial equations using algebraic methods. | Affine Geometry, Projective Geometry, Complex Geometry |
 | **Discrete Geometry** | Studies combinatorial properties of discrete sets of geometric objects. | Combinatorial Geometry, Lattice Geometry, Polyhedral Geometry |
-| [**Computational Geometry**](/note.html?p=notes/epistemica/mathematical/geometry/framework/computational-geometry.md) | Focuses on algorithms to solve geometric problems. | Euclidean Geometry, Convex Geometry, Graph Drawing Geometry |
-| [**Analytic Geometry**](/note.html?p=notes/epistemica/mathematical/geometry/framework/analytical-geometry.md) | Represents geometric objects using coordinates and equations. | Euclidean Geometry, Affine Geometry, Coordinate-Based Geometries |
+| [**Computational Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/computational-geometry.md) | Focuses on algorithms to solve geometric problems. | Euclidean Geometry, Convex Geometry, Graph Drawing Geometry |
+| [**Analytic Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/analytical-geometry.md) | Represents geometric objects using coordinates and equations. | Euclidean Geometry, Affine Geometry, Coordinate-Based Geometries |
 | **Synthetic Geometry** | Studies geometry based on axioms and logical reasoning rather than coordinates. | Euclidean Geometry, Projective Geometry, Hyperbolic Geometry |
 | **Convex Geometry** | Studies convex sets and their properties. | Euclidean Geometry (Convex subsets), Affine Geometry, Functional Analysis Geometry |
 | **Conformal Geometry** | Studies transformations preserving angles. | Complex Geometry, Riemannian Geometry, Möbius Geometry |

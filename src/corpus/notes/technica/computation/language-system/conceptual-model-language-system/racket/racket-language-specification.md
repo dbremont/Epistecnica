@@ -71,7 +71,7 @@ Guiding Questions:
 
 ## Language Semantics
 
-> See more in  [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in  [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
 > 
 
 Guiding Questions:
@@ -155,11 +155,11 @@ Guiding Questions:
 
 ## References
 
-- [Macro System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/macro-system.md)
-- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
-- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Macro System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/macro-system.md)
+- [Evaluation Model](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - https://docs.racket-lang.org/reference/
 - https://www.scheme.org/
 - Scheme Language Steering Committee. (2013). *Revised⁷ report on the algorithmic language Scheme*. [https://small.r7rs.org/attachment/r7rs.pdf](https://small.r7rs.org/attachment/r7rs.pdf)

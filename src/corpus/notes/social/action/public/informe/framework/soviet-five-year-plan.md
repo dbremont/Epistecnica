@@ -8,7 +8,7 @@ tags: [note, soviet, plan, public-policy, social-element]
 
 > It is an instrument rather than a document. No single text governed; the arrangement existed only as the composed sequence of directives, balances, laws, execution, and fulfillment accounting, each round inheriting the apparatus of the last. What persisted across rounds was the machinery of allocation, not the quotas.
 
-> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md). The quotas' substance — steel, coal, machinery, grain — belongs to the policy notes; the input-output models warranting the balances belong to the epistemic decomposition.
+> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md). The quotas' substance — steel, coal, machinery, grain — belongs to the policy notes; the input-output models warranting the balances belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -74,5 +74,5 @@ Lineage: GOELRO electrification plan (1920) → Gosplan founded (1921) → the F
 ## References
 
 - [Five-Year Plans of the Soviet Union](https://en.wikipedia.org/wiki/Five-year_plans_of_the_Soviet_Union)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Framework](/note.html?p=notes/social/action/guidance/framework.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Framework](/view.html?p=notes/social/action/guidance/framework.md)

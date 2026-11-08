@@ -4,7 +4,7 @@ tags: [note]
 
 # Sequence Identifier
 
-- [Identifier](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/identifier.md)
+- [Identifier](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/identifier.md)
 
 > In this note we will explore ‘Sequence Identifier’.
 > 
@@ -22,5 +22,5 @@ Guiding Questions:
 
 ## References
 
-- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
 - https://stackoverflow.com/questions/2671858/distributed-sequence-number-generation

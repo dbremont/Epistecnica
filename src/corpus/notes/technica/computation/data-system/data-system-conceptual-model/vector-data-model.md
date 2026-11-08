@@ -4,7 +4,7 @@ tags: [note, data-model]
 
 # Vector Data Model
 
-- [Vector Data System](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/vector-data-system.md)
+- [Vector Data System](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/vector-data-system.md)
 
 > A data model can be captured by **⟨Representation, Operations, Semantics⟩**, such that the representation defines the data structure, operations specify valid manipulations, and semantics assign precise meaning to both.
 > 

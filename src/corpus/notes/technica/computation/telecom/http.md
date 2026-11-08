@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # HTTP
 
-- [Transmission Control Protocol (TCP)](/note.html?p=notes/technica/computation/telecom/transmission-control-protocol-tcp.md), [QUIC](/note.html?p=notes/technica/computation/telecom/quic.md)
+- [Transmission Control Protocol (TCP)](/view.html?p=notes/technica/computation/telecom/transmission-control-protocol-tcp.md), [QUIC](/view.html?p=notes/technica/computation/telecom/quic.md)
 
 > **HTTP (Hypertext Transfer Protocol)** is an application-layer protocol in the OSI model that facilitates stateless, text-based communication between networked clients and servers by defining a structured format for request and response messages, typically over TCP (HTTP/1.x, HTTP/2) or QUIC (HTTP/3), supporting extensible semantics, header-based metadata, and methods for content negotiation, caching, and resource manipulation via standardized verbs and status codes.
 > 
@@ -379,6 +379,6 @@ Here is a list of common media types, also known as MIME types (Multipurpose Int
 - [Improving Performance with HTTP Streaming (medium.com/airbnb-engineering)](https://news.ycombinator.com/item?id=35982732)
 - [Does Websocket use the same TCP connection that was used by the initial HTTP for the handshake?](https://stackoverflow.com/questions/53383042/does-websocket-use-the-same-tcp-connection-that-was-used-by-the-initial-http-for)
 - Popa, L., Ghodsi, A., & Stoica, I. (2010). HTTP as the Narrow Waist of the Future Internet. 1–6.
-- [Berkeley Socket](/note.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- [Linux Network Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
+- [Berkeley Socket](/view.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
+- [Linux Network Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
 - https://datatracker.ietf.org/doc/html/rfc3986

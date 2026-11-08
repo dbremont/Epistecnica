@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Memory  Management
 
-- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md), [Interpreter System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md), [Resource Lifetime](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md), [Resource Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
+- [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md), [Interpreter System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md), [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md), [Resource Lifetime](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md), [Resource Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
 
 > A  **memory model** is an abstraction that defines how **memory operations** (such as reads and writes) interact with each other in a **concurrent or multi-threaded system**.
 > 
@@ -82,4 +82,4 @@ tags: [note, language-system]
 - [Memory Allocation](https://samwho.dev/memory-allocation/)
 - Tofte, Mads, and Jean-Pierre Talpin. "Region-based memory management." Information and computation 132.2 (1997): 109-176.
 - Henglein, Fritz, Henning Makholm, and Henning Niss. "Effect types and region-based memory management." Advanced Topics in Types and Programming Languages (2005): 87-135.
-- [Happens-before Relationship](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/happens-before-relationship.md)
+- [Happens-before Relationship](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/happens-before-relationship.md)

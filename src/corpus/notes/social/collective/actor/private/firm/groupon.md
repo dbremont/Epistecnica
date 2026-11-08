@@ -37,5 +37,5 @@ Readable secondarily as an `Interaction Unit` nested in markets, and as a `Mediu
 ## References
 
 - [Groupon — Wikipedia](https://en.wikipedia.org/wiki/Groupon) (founding, daily-deal model, history)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Commerce Economic Activity](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

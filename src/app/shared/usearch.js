@@ -98,15 +98,15 @@
     function uurl(e) {
         var p = uencPath(e.path);
         if (e.surface === 'note') {
-            return e.kind === 'live' ? root + 'corpus/notes/' + p : root + 'note.html?p=notes/' + p;
+            return e.kind === 'live' ? root + 'corpus/notes/' + p : root + 'view.html?p=notes/' + p;
         }
         if (e.surface === 'course') {
             if (e.kind === 'live') return root + 'corpus/courses/' + p;
             return e.kind === 'course'
-                ? root + 'note.html?p=courses/' + p + '/readme.md'
-                : root + 'note.html?p=courses/' + p;
+                ? root + 'view.html?p=courses/' + p + '/readme.md'
+                : root + 'view.html?p=courses/' + p;
         }
-        if (e.surface === 'document') return root + 'note.html?p=documents/' + p;
+        if (e.surface === 'document') return root + 'view.html?p=documents/' + p;
         if (e.surface === 'glossarium') return root + 'glossarium/?t=' + encodeURIComponent(e.path);
         if (e.surface === 'qa') return root + 'qa/entry.html?id=' + encodeURIComponent(e.path);
         return '#';

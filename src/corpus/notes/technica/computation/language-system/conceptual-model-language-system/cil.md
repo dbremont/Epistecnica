@@ -4,7 +4,7 @@ tags: [note, instruction-set-architecture, intermediate-representation, language
 
 # CIL
 
-- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
+- [Intermediate Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
 
 > 
 

@@ -325,7 +325,7 @@ Case:
 
 ### (Case Study) What is the recursively decomposed instance tree of a Quarry?
 
-> Worked decomposition of a quarry as an ontic instance: an excavated rock mass read as a `Natural System` with its objects, substances, living organization, mechanisms, processes, states, quantities, substrates, environment, and constraints. Every path begins at `Ontic Element` and descends through `Substantive` to `Natural System`; every link is labelled, and typing reads from the nearest enclosing grouping segment. The worked instance lives at [Quarry](/note.html?p=notes/nature/quarry.md).
+> Worked decomposition of a quarry as an ontic instance: an excavated rock mass read as a `Natural System` with its objects, substances, living organization, mechanisms, processes, states, quantities, substrates, environment, and constraints. Every path begins at `Ontic Element` and descends through `Substantive` to `Natural System`; every link is labelled, and typing reads from the nearest enclosing grouping segment. The worked instance lives at [Quarry](/view.html?p=notes/nature/quarry.md).
 
 > Secondary readings stay `readable as …` prose in the instance note and are never rows of this tree: readable as technique (drill-blast-crush-screen and dewatering methods), readable as production (the quarry as an operated site), readable as social (the operating firm and the aggregate market). Each grows its own tree under its own grammar.
 
@@ -424,9 +424,9 @@ Case:
 
 ## References
 
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals, DCESA)
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Philosophia Conceptuum et Operis](/note.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
-- [Quarry](/note.html?p=notes/nature/quarry.md)
-- [Physical Ontology Map](/note.html?p=notes/unclassified/physical-ontology-map.md)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions: Reality, segments, levels, duals, DCESA)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/meta/philosophia-conceptuum-et-operis.md)
+- [Quarry](/view.html?p=notes/nature/quarry.md)
+- [Physical Ontology Map](/view.html?p=notes/unclassified/physical-ontology-map.md)

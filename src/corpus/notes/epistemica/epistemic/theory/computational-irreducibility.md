@@ -4,7 +4,7 @@ tags: [note]
 
 # Computational Irreducibility
 
-Related: [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md)
+Related: [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)
 
 > **Computational irreducibility** is a concept introduced and popularized by **Stephen Wolfram** in his work on cellular automata and complex systems, particularly in his book *A New Kind of Science* (2002). It expresses a fundamental limit on the **predictability** of the behavior of certain systems.
 > 

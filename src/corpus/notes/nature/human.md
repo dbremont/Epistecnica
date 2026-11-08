@@ -9,8 +9,8 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 
 ## Index
 
-- [Cognitive](/note.html?p=notes/nature/cognitive.md)
-- [Behavioral](/note.html?p=notes/nature/behavioral.md)
+- [Cognitive](/view.html?p=notes/nature/cognitive.md)
+- [Behavioral](/view.html?p=notes/nature/behavioral.md)
 
 ## Systems Catalog
 
@@ -101,7 +101,7 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 
 ## Energy
 
-> See more in [**Metabolism**](/note.html?p=notes/nature/metabolism.md).
+> See more in [**Metabolism**](/view.html?p=notes/nature/metabolism.md).
 >
 
 ## Measurement
@@ -151,13 +151,13 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 
 ## Related
 
-- [Drug](/note.html?p=notes/nature/drug.md)
-- [Cell](/note.html?p=notes/nature/cell.md)
-- [Tissue](/note.html?p=notes/nature/tissue.md)
-- [Muscle](/note.html?p=notes/nature/muscle.md)
-- [Adipose Tissue](/note.html?p=notes/nature/adipose-tissue.md)
-- [Cardiovascular System](/note.html?p=notes/nature/cardiovascular-system.md)
-- [Metabolism](/note.html?p=notes/nature/metabolism.md)
+- [Drug](/view.html?p=notes/nature/drug.md)
+- [Cell](/view.html?p=notes/nature/cell.md)
+- [Tissue](/view.html?p=notes/nature/tissue.md)
+- [Muscle](/view.html?p=notes/nature/muscle.md)
+- [Adipose Tissue](/view.html?p=notes/nature/adipose-tissue.md)
+- [Cardiovascular System](/view.html?p=notes/nature/cardiovascular-system.md)
+- [Metabolism](/view.html?p=notes/nature/metabolism.md)
 
 ## Provenance
 

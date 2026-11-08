@@ -20,7 +20,7 @@ order: 0
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> Three boundaries are worth stating. Against a **rule**: multiplying is a transformation rule, *Shift-And-Add Multiplication* is a method, and a column-sums session is an activity. Against a **construction**: a theorem is the artifact, the proof routine is the method that produced it. Against a **principle**: a principle guides inquiry without prescribing an order of acts — [pigeonhole](/note.html?p=notes/epistemica/epistemic/guidance/principle/pigeonhole-principle.md) and [inclusion–exclusion](proof/inclusion-exclusion.md) sit on that line, and both are filed here as routines because each is a sequence of counting acts, not a norm of judgment.
+> Three boundaries are worth stating. Against a **rule**: multiplying is a transformation rule, *Shift-And-Add Multiplication* is a method, and a column-sums session is an activity. Against a **construction**: a theorem is the artifact, the proof routine is the method that produced it. Against a **principle**: a principle guides inquiry without prescribing an order of acts — [pigeonhole](/view.html?p=notes/epistemica/epistemic/guidance/principle/pigeonhole-principle.md) and [inclusion–exclusion](proof/inclusion-exclusion.md) sit on that line, and both are filed here as routines because each is a sequence of counting acts, not a norm of judgment.
 
 ### What are the families of this `epistemic element instance`?
 
@@ -65,4 +65,4 @@ order: 0
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
-- Domain methods that belong to their own scopes: [Newton–Raphson](/note.html?p=notes/epistemica/singular/newton-raphson-method.md), [Monte Carlo](../../observational/computational/monte-carlo-toolbox.md), [MCMC](../../observational/computational/mcmc-markov-chain-monte-carlo.md), [dynamic programming](../../optimization/dynamic-programming.md), [Lagrange multipliers](../../optimization/lagrange-multiplier.md).
+- Domain methods that belong to their own scopes: [Newton–Raphson](/view.html?p=notes/epistemica/singular/newton-raphson-method.md), [Monte Carlo](../../observational/computational/monte-carlo-toolbox.md), [MCMC](../../observational/computational/mcmc-markov-chain-monte-carlo.md), [dynamic programming](../../optimization/dynamic-programming.md), [Lagrange multipliers](../../optimization/lagrange-multiplier.md).

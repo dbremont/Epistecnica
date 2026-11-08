@@ -66,7 +66,7 @@ Doing:
 
 ### **Validation**
 
-> See for Functional Validation ([Verification](/note.html?p=notes/technica/computation/dependability/verification.md))
+> See for Functional Validation ([Verification](/view.html?p=notes/technica/computation/dependability/verification.md))
 > 
 
 | **Dimension** | **Description** |
@@ -271,19 +271,19 @@ Doing:
 |  | Code Generation | Auto-generate/test code via LLMs | GitHub Copilot, Codex, ChatGPT | Boilerplate reduction |
 | **HCI Analytics** | … | … | … | … |
 
-[Design](/note.html?p=notes/technica/computation/system/design.md)
+[Design](/view.html?p=notes/technica/computation/system/design.md)
 
-[Interface](/note.html?p=notes/technica/computation/system/interface.md)
+[Interface](/view.html?p=notes/technica/computation/system/interface.md)
 
-[**Evaluation**](/note.html?p=notes/technica/computation/system/evaluation.md)
+[**Evaluation**](/view.html?p=notes/technica/computation/system/evaluation.md)
 
-[Operation](/note.html?p=notes/technica/computation/system/operation.md)
+[Operation](/view.html?p=notes/technica/computation/system/operation.md)
 
 Miscellanea
 
-[Programming](/note.html?p=notes/technica/computation/system/programming.md)
+[Programming](/view.html?p=notes/technica/computation/system/programming.md)
 
-[Documentation](/note.html?p=notes/technica/computation/system/documentation.md)
+[Documentation](/view.html?p=notes/technica/computation/system/documentation.md)
 
 ## References
 
@@ -378,7 +378,7 @@ stacks.[pot](https://github.com/grin-compiler/haskell-code-spot)
 - [ ]  [‣](https://app.notion.com/p/1be598edb790802687b9d1c4b8bff0a1?pvs=21)
 - [ ]  Mytkowicz, Todd, et al. "Evaluating the accuracy of Java profilers." ACM Sigplan Notices 45.6 (2010): 187-197.
 - [ ]  Burchell, Humphrey, et al. "Don’t Trust Your Profiler: An Empirical Study on the Precision and Accuracy of Java Profilers." Proceedings of the 20th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes. 2023.
-- [Time](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- [Time](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - https://www.youtube.com/watch?v=sX2nF1fW7kI
 - https://www.youtube.com/watch?v=kPh8pod0-gk
 - https://benchmark.clickhouse.com/

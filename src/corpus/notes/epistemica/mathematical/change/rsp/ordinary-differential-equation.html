@@ -552,9 +552,9 @@
             <h2 id="docs">Docs</h2>
             <p>The representational system and its neighbours in the corpus:</p>
             <ul>
-              <li><a href="/note.html?p=notes/epistemica/mathematical/change/differential-equation.md">Differential Equation</a> — the element this playground instantiates</li>
-              <li><a href="/note.html?p=notes/epistemica/mathematical/change/vector-field.md">Vector Field</a> · <a href="/note.html?p=notes/epistemica/mathematical/change/flow.md">Flow</a> · <a href="/note.html?p=notes/epistemica/mathematical/change/fixed-point.md">Fixed Point</a> · <a href="/note.html?p=notes/epistemica/mathematical/change/stability-theory.md">Stability Theory</a></li>
-              <li><a href="/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this playground serves</li>
+              <li><a href="/view.html?p=notes/epistemica/mathematical/change/differential-equation.md">Differential Equation</a> — the element this playground instantiates</li>
+              <li><a href="/view.html?p=notes/epistemica/mathematical/change/vector-field.md">Vector Field</a> · <a href="/view.html?p=notes/epistemica/mathematical/change/flow.md">Flow</a> · <a href="/view.html?p=notes/epistemica/mathematical/change/fixed-point.md">Fixed Point</a> · <a href="/view.html?p=notes/epistemica/mathematical/change/stability-theory.md">Stability Theory</a></li>
+              <li><a href="/view.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this playground serves</li>
               <li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li>
             </ul>
 
@@ -1131,7 +1131,7 @@
       els.iiLaw.setAttribute('data-tex-display', cur.sub);
       els.iiDesc.textContent = cur.desc;
       els.iiDocs.innerHTML = cur.docs.map(function (d) {
-        return '<a href="/note.html?p=notes/' + d.n + '">' + d.label + '</a>';
+        return '<a href="/view.html?p=notes/' + d.n + '">' + d.label + '</a>';
       }).join('');
       els.kX.setAttribute('data-tex', cur.xtex);
       els.kY.setAttribute('data-tex', cur.ytex);

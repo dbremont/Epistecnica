@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Model of Computation
 
-- [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Time](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md), [Computation  (Computational Process)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md)
+- [Effect System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Time](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md), [Computation  (Computational Process)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md)
 
 > In this note we **will explore —** one one the most relevant ideas in **Computer Science —  *Model of Computation —** abstract **computing machine model** or **computation schema**.*
 > 
@@ -107,7 +107,7 @@ by the legendary reliability of Erlang systems. |
 
 ### **⚙️ Process**
 
-> See more  in [Computation  (Computational Process)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md) and [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
+> See more  in [Computation  (Computational Process)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md) and [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
 > A computation is a directed change process in which successive states are generated according to a formal transformation relation.
@@ -161,7 +161,7 @@ Resource constraints shape the complexity, feasibility, and optimality of comput
 > Note: Both source code - and the vivid representation.
 > 
 
-> See more in [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md).
+> See more in [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md).
 > 
 
 It encompasses both:
@@ -176,7 +176,7 @@ It encompasses both:
 
 ### ⏱️ Time
 
-> See more in [Time](/note.html?p=notes/technica/computation/miscelanea/time.md) & [Time](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md).
+> See more in [Time](/view.html?p=notes/technica/computation/miscelanea/time.md) & [Time](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md).
 > 
 
 > What is the role of time in computation?
@@ -190,7 +190,7 @@ It encompasses both:
 > Effects capture the  observable side-actions of a program, distinguishing pure computations  (which only return results) from impure ones (which also have an impact  on the world or execution context).
 > 
 
-> See more in [Side Effect](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md).
+> See more in [Side Effect](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md).
 > 
 
 ### 🌍 **Non-Local State Based Computation**
@@ -212,7 +212,7 @@ It encompasses both:
 > A **program (description)** is a set of interconnected **computational elements** that **animate a computational process**.
 > 
 
-> See more in [Program](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md).
+> See more in [Program](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md).
 > 
 
 ## Unit of Computation
@@ -233,7 +233,7 @@ It encompasses both:
 > Characterization of  Execution Units.
 > 
 
-> Note: This is basically the same as [Space Structure](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md) but more compress.
+> Note: This is basically the same as [Space Structure](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md) but more compress.
 > 
 
 | **Aspect** | **Description** |
@@ -290,7 +290,7 @@ It encompasses both:
 > In computational systems, **Interaction & Communication** among units of computation—such as processes, threads, tasks, or distributed nodes—refers to the set of mechanisms, protocols, and patterns enabling these discrete entities to exchange data, synchronize execution, and coordinate behavior, while preserving system correctness and performance.
 > 
 
-> See more in [Telecom](/note.html?p=notes/technica/computation/telecom/telecom.md) and [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md).
+> See more in [Telecom](/view.html?p=notes/technica/computation/telecom/telecom.md) and [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md).
 > 
 
 Formally, it involves:
@@ -304,7 +304,7 @@ Formally, it involves:
 
 ## 📈 Scalability
 
-> See more in [Design](/note.html?p=notes/technica/computation/system/design.md).
+> See more in [Design](/view.html?p=notes/technica/computation/system/design.md).
 > 
 
 > **Note:** Scalability cannot be reduced to the performance of individual computational units; it also depends on the system's ability to isolate these units from one another—minimizing contention, interference, and coordination overhead—provided sufficient resources are available.
@@ -446,7 +446,7 @@ where:
 > **Note:** Why “**Trigger-Based Models of Computation”?** Trigger-Based Models of Computation encompass a class of execution models—flow-based, reactive, and event-driven—characterized by the activation of computational units in response to external events, data availability, or internal state transitions.
 > 
 
-> See [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
+> See [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
 | **Category** | **Model** | **Notion of Change** | **Model Characterization (Representation Mechanism + Execution Model)** | **Which classes of process descriptions are simplified by adopting this Model of Computation? (Suitability) (Idoneidad)** | **Case Study** |
@@ -534,7 +534,7 @@ where:
 > **Programming Paradigm =   Style and Mechanisms to Write Programs in a Given Model of Computation.**
 > 
 
-> See more in [ Programming Paradigm](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/programming-paradigm.md).
+> See more in [ Programming Paradigm](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/programming-paradigm.md).
 > 
 
 ## Case Studies
@@ -595,14 +595,14 @@ where:
 - [‣](https://app.notion.com/p/10e598edb790814f9020d6a74a0829c7?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb7908162af92c422bb1be3e2?pvs=21)
 - [***F*-coalgebra**](https://app.notion.com/p/F-coalgebra-1bfc0f5171ec8002b087f2fafcf96d27?pvs=21)
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
 - [Formal System](https://app.notion.com/p/Formal-System-41d02881d0544314b0e7ad3e6ada608a?pvs=21)
 - [Function](https://en.wikipedia.org/wiki/Function_(computer_programming))
 
 Untitled
 
 - [ ]  [Formal Language](https://app.notion.com/p/Formal-Language-195c0f5171ec8012bf0fd0530a135871?pvs=21).
-- [ ]  [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [ ]  [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - [ ]  Programming Paradigms
     - [ ]  https://en.wikipedia.org/wiki/Declarative_programming
     - [ ]  https://en.wikipedia.org/wiki/Programming_paradigm

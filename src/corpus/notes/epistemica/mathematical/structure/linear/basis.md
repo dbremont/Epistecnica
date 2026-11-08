@@ -17,7 +17,7 @@ tags: [note, mathematics, linear-algebra]
 ## Key results
 
 - **Uniqueness of coordinates.** Every vector has exactly one expansion in a given basis; this is what makes "the coordinates of $v$" well defined.
-- **Existence.** Every vector space has a basis; for infinite-dimensional spaces this needs the [axiom of choice](/note.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md) in the form of Zorn's lemma.
+- **Existence.** Every vector space has a basis; for infinite-dimensional spaces this needs the [axiom of choice](/view.html?p=notes/epistemica/epistemic/theory/foundation/axiom-of-choice.md) in the form of Zorn's lemma.
 - **Dimension.** All bases of a space have the same cardinality — see [dimension](dimension.md).
 - **Change of basis.** The matrix $P$ whose columns are the new basis vectors converts coordinates, and similarity $P^{-1}AP$ is what "the same map in another basis" means.
 

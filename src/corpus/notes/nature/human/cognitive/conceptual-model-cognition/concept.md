@@ -237,11 +237,11 @@ There are several kinds of mental representations beyond concepts, including:
 
 ## References
 
-- [Cognitive](/note.html?p=notes/nature/cognitive.md)
+- [Cognitive](/view.html?p=notes/nature/cognitive.md)
 - [Guia Mayor](https://app.notion.com/p/Guia-Mayor-cce02f04c4724677ba46b314151134db?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)
-- [**Idea**](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md)
+- [**Idea**](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md)
 - https://plato.stanford.edu/entries/concepts/
 - https://seop.illc.uva.nl/entries/definitions/
 - https://iep.utm.edu/concepts/
@@ -255,20 +255,20 @@ There are several kinds of mental representations beyond concepts, including:
 - [‣](https://app.notion.com/p/16d598edb79080f59f34fd41ca927a56?pvs=21)
 - https://en.wikipedia.org/wiki/Vagueness
 - https://en.wikipedia.org/wiki/Ambiguity
-- [Intelligibility](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligibility.md)
+- [Intelligibility](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligibility.md)
 - [‣](https://app.notion.com/p/10e598edb79081d2a7e9e362024e94dc?pvs=21)
 - [‣](https://app.notion.com/p/16e598edb7908058b383d176be45a207?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb79081cd9587f726672e8df8?pvs=21)
 
 ## Related
 
-- [Thinking](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
-- [Metacognition](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/metacognition.md)
-- [Idea](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md)
-- [Symbol](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
-- [Object](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/object.md)
-- [Abstraction](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md)
-- [Name](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
+- [Thinking](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
+- [Metacognition](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/metacognition.md)
+- [Idea](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/idea.md)
+- [Symbol](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
+- [Object](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/object.md)
+- [Abstraction](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/abstraction.md)
+- [Name](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
 
 ## Provenance
 

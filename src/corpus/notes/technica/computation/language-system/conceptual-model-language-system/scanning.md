@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Scanning
 
-- [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
+- [Grammar](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
 
 > **Scanning or Lexing**: A **scanner** (or **lexer**) takes in the linear stream of characters and **chunks them together** into a **series of something** more akin to “words”. In programming languages, each of these words is called a **token**. Some tokens are single characters, like `(` and `,`. Others may be several characters long, like numbers (`123`), string literals (`"hi!"`), and identifiers (`min`).
 > 
@@ -147,6 +147,6 @@ for ex in examples:
 ## References
 
 - https://en.wikipedia.org/wiki/Lexical_analysis
-- [Grammar](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
+- [Grammar](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/grammar.md)
 - https://www.reddit.com/r/ProgrammingLanguages/comments/10aalbq/are_there_better_more_efficient_ways_to_perform/
 - https://crates.io/crates/logos

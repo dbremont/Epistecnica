@@ -4,7 +4,7 @@ tags: [note, tool, data-collection]
 
 # LTTng
 
-- [gprof](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md), [Valgrind](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/valgrind.md), [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [gprof](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gprof.md), [Valgrind](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/valgrind.md), [Profiler](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 
 ## References
 

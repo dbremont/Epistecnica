@@ -228,7 +228,7 @@ QA:
 
 > 
 
-> [TO BE PROVEN] This is the **Pythagorean theorem**, and it expresses the relationship between the side lengths of any **right** triangle. See more in  [Pythagorean Theorem](/note.html?p=notes/epistemica/mathematical/geometry/pythagorean-theorem.md).
+> [TO BE PROVEN] This is the **Pythagorean theorem**, and it expresses the relationship between the side lengths of any **right** triangle. See more in  [Pythagorean Theorem](/view.html?p=notes/epistemica/mathematical/geometry/pythagorean-theorem.md).
 > 
 
 ## Rhombus
@@ -258,12 +258,12 @@ QA:
 - https://en.wikipedia.org/wiki/Convex_polygon
 - https://en.wikipedia.org/wiki/Sphere
 - https://en.wikipedia.org/wiki/Angle
-- [Euclidean  Geometry](/note.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md)
-- [Contour Map](/note.html?p=notes/epistemica/mathematical/mapping/contour-map.md))
-- [Conformal map](/note.html?p=notes/epistemica/mathematical/complex/conformal-map.md))
-- [Coordinate System](/note.html?p=notes/epistemica/mathematical/coordinate-system.md))
-- [**Differential Geometry**](/note.html?p=notes/epistemica/mathematical/geometry/framework/differential-geometry.md)
-- [Computational Geometry](/note.html?p=notes/epistemica/mathematical/geometry/framework/computational-geometry.md)
+- [Euclidean  Geometry](/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md)
+- [Contour Map](/view.html?p=notes/epistemica/mathematical/mapping/contour-map.md))
+- [Conformal map](/view.html?p=notes/epistemica/mathematical/complex/conformal-map.md))
+- [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md))
+- [**Differential Geometry**](/view.html?p=notes/epistemica/mathematical/geometry/framework/differential-geometry.md)
+- [Computational Geometry](/view.html?p=notes/epistemica/mathematical/geometry/framework/computational-geometry.md)
 - https://www.youtube.com/watch?v=6s1CI3uuhko
-- [**Inner Product Space**](/note.html?p=notes/epistemica/mathematical/space/inner-product-space.md)
+- [**Inner Product Space**](/view.html?p=notes/epistemica/mathematical/space/inner-product-space.md)
 - https://en.wikipedia.org/wiki/Euclidean_space

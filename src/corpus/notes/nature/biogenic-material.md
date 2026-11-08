@@ -8,11 +8,11 @@ tags: [note]
 > metabolites of plants and animals, from living tissue through sediment to fossil and
 > transformed substances such as petroleum — the observer-independent furniture that remains
 > when assays, mines, firms, and prices are set aside. Parent instances
-> [Nature](/note.html?p=notes/nature/nature.md) and
-> [Natural Material](/note.html?p=notes/nature/natural-material.md); sibling
-> [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md); technical counterpart
-> [Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md). Worked per
-> [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> [Nature](/view.html?p=notes/nature/nature.md) and
+> [Natural Material](/view.html?p=notes/nature/natural-material.md); sibling
+> [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md); technical counterpart
+> [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md). Worked per
+> [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -33,7 +33,7 @@ reef platform) denotes distinct nodes — record the level per instance.
 rocks). The cut includes the substance, its producing organisms, and its depositional and
 diagenetic settings from micro to macro scale; it excludes the instruments that identify it
 (technical reading), the tenures and markets priced around it (social reading), the worked
-objects made from it ([Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md)),
+objects made from it ([Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md)),
 and the classification standards themselves (epistemic scaffolding) — those are secondary
 readings (see below), each with its own tree.
 
@@ -76,7 +76,7 @@ where the concrete occurrence shows them — record per instance, do not assume.
 Secondary readings (kept as prose, never merged into the tree above): readable as technique —
 chromatography and mass-spectrometry identification methods and all workings of biogenic
 feedstocks (sawmilling, pulping, refining;
-[Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md))
+[Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md))
 decompose under the technicarum grammar; readable as commodity — coal, oil, timber, and
 pearls with grade, firm, and price (decompose under the socialium grammar; if it plays a
 production role it is a Social node tagged `production-view`); readable as epistemic —
@@ -95,7 +95,7 @@ grammar). The instrument technically, the formation naturally
 > (https://en.wikipedia.org/wiki/Biogenic_substance) — rather than compositional or
 > structural, which is why chalk (a rock) and grass (a tissue) belong to one kind while no
 > compositional taxonomy could hold them together. Above it stands only
-> [Natural Material](/note.html?p=notes/nature/natural-material.md), whose criterion is negative
+> [Natural Material](/view.html?p=notes/nature/natural-material.md), whose criterion is negative
 > (not intentionally transformed) and therefore more abstract still, but origin-free.
 
 ## References
@@ -103,13 +103,13 @@ grammar). The instrument technically, the formation naturally
 - https://en.wikipedia.org/wiki/Biogenic_substance (definition, history, abiogenic opposite, examples)
 - Albrecht P, Ourisson G (1971). "Biogenic substances in sediments and fossils". Angewandte Chemie. 10 (4): 209–25.
 - Grabau A W (1903). "Discussion of and Suggestions Regarding a New Classification of Rocks" (biogenic rocks).
-- [Philosophia Naturalis et Operis](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
+- [Philosophia Naturalis et Operis](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, schemas, Limitation checklist)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
-- [Nature](/note.html?p=notes/nature/nature.md) (root: all observer-independent reality)
-- [Natural Material](/note.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
-- [Earth](/note.html?p=notes/nature/earth.md) (parent: the planet system)
-- [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md) (sibling: all physical matter not made by life)
-- [Mineral](/note.html?p=notes/nature/mineral.md) (composing kind: crystalline solid substances)
-- [Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (counterpart: worked biogenic feedstocks)
-- [Quarry](/note.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)
+- [Nature](/view.html?p=notes/nature/nature.md) (root: all observer-independent reality)
+- [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
+- [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
+- [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (sibling: all physical matter not made by life)
+- [Mineral](/view.html?p=notes/nature/mineral.md) (composing kind: crystalline solid substances)
+- [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (counterpart: worked biogenic feedstocks)
+- [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

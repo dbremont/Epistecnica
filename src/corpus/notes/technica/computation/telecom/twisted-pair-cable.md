@@ -4,7 +4,7 @@ tags: [note, wire-data-transmission]
 
 # Twisted Pair Cable
 
-- [Wire Data Transmission](/note.html?p=notes/technica/computation/telecom/wire-data-transmission.md)
+- [Wire Data Transmission](/view.html?p=notes/technica/computation/telecom/wire-data-transmission.md)
 
 > 
 

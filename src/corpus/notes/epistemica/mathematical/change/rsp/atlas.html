@@ -447,7 +447,7 @@
             <h2 id="references">References</h2>
             <ul>
               <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation &rarr; Representational System</em></li>
-              <li><a href="/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this atlas serves</li>
+              <li><a href="/view.html?p=notes/epistemica/mathematical/change/dynamical-system.md">Dynamical System</a> — the scope note this atlas serves</li>
             </ul>
 
           </div>
@@ -636,7 +636,7 @@
   function hrefOf(e) {
     if (!e.note) return null;
     if (e.kind === "live") return "../" + e.note.split("/").pop();
-    return NOTE_REL + "/note.html?p=notes/" + e.note;
+    return NOTE_REL + "/view.html?p=notes/" + e.note;
   }
 
   var PG = {

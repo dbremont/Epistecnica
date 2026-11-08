@@ -9,8 +9,8 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 > Its "sophistication" is the co-evolution of two spaces: the **business-model space** (the
 > repertoire of viable commerce configurations) and the **firm space** (the population of firms
 > instantiating them) under competitive selection. This note synthesizes
-> [Commerce](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) and
-> [Firm](/note.html?p=notes/social/collective/actor/firm.md); it defines nothing the commerce note already
+> [Commerce](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) and
+> [Firm](/view.html?p=notes/social/collective/actor/firm.md); it defines nothing the commerce note already
 > defines — it traces how the two spaces change together.
 
 ## Formulation
@@ -29,7 +29,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 > unfolding as `Process / Event`.
 >
 > Readable, secondarily, as technique (the retail matching apparatus,
-> [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)) and as
+> [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)) and as
 > epistemic (demand estimates, market taxonomies — see
 > Profile Templates). Those readings are
 > cross-links here, not second trees.
@@ -40,14 +40,14 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 > activities, resources, relationships, and economic mechanisms a commerce firm combines to match
 > supply with demand and create, deliver, and capture value. The canonical definition and the
 > full catalog of models (Independent Retail through On-Demand Retail) live in the commerce note's
-> [Integral Business Model (Solution) Space](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md):
+> [Integral Business Model (Solution) Space](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md):
 > a business model specifies which alternatives in the retail solution space the firm selects and
 > how those choices are implemented and coordinated internally. Models overlap and combine — one
 > firm may instantiate several at once.
 >
 > The **firm space** is the population of firms — bounded, goal-oriented socio-technical
 > collectives (`Collective / Organization`, Ontic, economic facet; see
-> [Firm](/note.html?p=notes/social/collective/actor/firm.md)) — that instantiate those configurations. Firms
+> [Firm](/view.html?p=notes/social/collective/actor/firm.md)) — that instantiate those configurations. Firms
 > act through intentional agency, operational capacities, market interfaces, reflexive
 > representations, and evolutionary learning (innovation, adaptation). A firm-level performance
 > verdict never transfers to the format: performance is measured for a firm or cohort
@@ -78,7 +78,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 >    which in turn lowers the cost of the next recombination.
 >
 > "Sophistication" is therefore measurable, not impressionistic: the commerce note's
-> [evolution metrics](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) index
+> [evolution metrics](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) index
 > it at three levels — Ecosystem (concentration, entry/exit rates, selection intensity,
 > replicator fitness, variety, entropy, coevolutionary response), Firm (revenue, margins, ROIC,
 > productivity, inventory turnover, service, survival), and Business Model / Format (sales per
@@ -110,7 +110,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 | Path | Sequence | Driver | Instance |
 | --- | --- | --- | --- |
 | Intermediation lengthening then shortening | Direct exchange → retail intermediation → wholesale intermediation → integrated distribution → platform/direct rediscovery | Falling transport and coordination costs, then falling search costs | Farmers' market → independent retail → wholesale market → integrated retail distribution → e-commerce marketplace, DTC |
-| Spot to contract | Spot transactions → repeated dealing → formal contracts → integration or platform governance | Perishability, quality variance, asset specificity, demand uncertainty | Fresh-produce spot trade → supply contracts → contract farming; see the "spot markets to contracts" trajectory in [Perishable Agricultural Products](/note.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) |
+| Spot to contract | Spot transactions → repeated dealing → formal contracts → integration or platform governance | Perishability, quality variance, asset specificity, demand uncertainty | Fresh-produce spot trade → supply contracts → contract farming; see the "spot markets to contracts" trajectory in [Perishable Agricultural Products](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) |
 | Bulk breaking to assortment pooling | Bulk wholesale → department and variety formats → hypermarket and general merchandise → pooled omnichannel inventory | Demand heterogeneity, inventory-pooling economics, urbanization | Cash-and-carry wholesale → department store → hypermarket → omnichannel retail with shared inventory |
 | Informal to verified exchange | Personal inspection → reputation and brands → third-party grading and certification → platform-mediated trust | Scale of trade, anonymity of counterparties, quality opacity | Bazaar bargaining → branded goods → certified grades → marketplace ratings and escrow |
 | Labor-intensive to automated fulfillment | Counter service → self-service → POS and ERP coordination → automated stores and auto-replenishment | Wage levels, information-technology cost, demand for speed | Counter shops → supermarkets → e-grocery → automated stores, vending, auto-replenishment |
@@ -140,12 +140,12 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 
 ## References
 
-- [Commerce](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
-- [Firm](/note.html?p=notes/social/collective/actor/firm.md) — firm as `Collective / Organization`
+- [Commerce](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
+- [Firm](/view.html?p=notes/social/collective/actor/firm.md) — firm as `Collective / Organization`
 - Profile Templates — production and industry profiling blueprints, incl. firm-space tables
-- [Perishable Agricultural Products Industry](/note.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
-- [Retail Supply–Demand Matching](/note.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md) — decomposition workflow, type table, social-element note schema
+- [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
+- [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md) — decomposition workflow, type table, social-element note schema
 - Foster, Haltiwanger, & Krizan (2002) — aggregate change through reallocation (as cited in Commerce)
 - Maruyama & Hirogaki (2007) — "The evolution of fresh produce supply chains: From spot markets to contracts" (as cited in Perishable Agricultural Products)
 - IMF World Economic Outlook — advanced economies vs emerging market and developing economies classification (basis for the advanced/backward split)

@@ -116,7 +116,7 @@ Where:
 
 ## Related
 
-- [Intelligence](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligence.md)
+- [Intelligence](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/intelligence.md)
 
 ## Provenance
 

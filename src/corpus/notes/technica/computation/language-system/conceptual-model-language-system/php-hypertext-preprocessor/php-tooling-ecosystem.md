@@ -8,7 +8,7 @@ tags: [note]
 
 ## Package Manager
 
-- [Composer](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/composer.md)
+- [Composer](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/composer.md)
 
 ## References
 

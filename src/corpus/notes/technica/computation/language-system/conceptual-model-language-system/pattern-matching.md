@@ -123,7 +123,7 @@ Fuzzy matching is generally more computationally expensive than exact matching. 
 ## References
 
 - 
-- [Pattern Matching](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/pattern-matching.md)
+- [Pattern Matching](/view.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/pattern-matching.md)
 - https://en.wikipedia.org/wiki/Pattern_matching
 - https://docs.oracle.com/en/java/javase/17/language/pattern-matching.html
 - [‣](https://app.notion.com/p/195598edb7908091a8bed6606187c18d?pvs=21)
@@ -133,9 +133,9 @@ Fuzzy matching is generally more computationally expensive than exact matching. 
 - Knuth, Donald E., James H. Morris, Jr, and Vaughan R. Pratt. "Fast pattern matching in strings." SIAM journal on computing 6.2 (1977): 323-350.
 - Boyer, Robert S., and J. Strother Moore. "A fast string searching algorithm." Communications of the ACM 20.10 (1977): 762-772.
 - Hoffmann, Christoph M., and Michael J. O'Donnell. "Pattern matching in trees." Journal of the ACM (JACM) 29.1 (1982): 68-95.
-- [Search](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md)
+- [Search](/view.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/search.md)
 - [Full-Text Search](https://app.notion.com/p/Full-Text-Search-940280495ba1445a82ac28dbddfd435d?pvs=21)
-- [Pattern Matching](/note.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/pattern-matching.md)
+- [Pattern Matching](/view.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/pattern-matching.md)
 - [Similarity Search](https://app.notion.com/p/Similarity-Search-fa740c0947624629902569945cbe5cb8?pvs=21)
-- [Retrieval System (Search System)](/note.html?p=notes/technica/computation/miscelanea/retrieval-system-search-system.md)
+- [Retrieval System (Search System)](/view.html?p=notes/technica/computation/miscelanea/retrieval-system-search-system.md)
 - - [Representation Problem: Text (String)]

@@ -4,7 +4,7 @@ tags: [note]
 
 # Program Element Modifier
 
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
 
 > 
 

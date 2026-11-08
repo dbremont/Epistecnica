@@ -4,7 +4,7 @@ tags: [note]
 
 # Web Server
 
-- [Web Framework](/note.html?p=notes/technica/computation/miscelanea/web-framework.md)
+- [Web Framework](/view.html?p=notes/technica/computation/miscelanea/web-framework.md)
 
 > A **web server** is a **stateful, network-facing software system that implements HTTP(S) semantics over TCP/QUIC transport, orchestrates concurrency, and maps requests to resources or applications**, serving as the foundational **application-layer endpoint** of the web.
 > 

@@ -4,7 +4,7 @@ tags: [note, graphics]
 
 # Wayland
 
-- [Hyprland](/note.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
+- [Hyprland](/view.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
 
 > **Wayland** is a modern display server protocol designed to replace the X Window System, providing a simpler and more efficient way to handle graphical displays in Linux and Unix-like operating systems.
 > 

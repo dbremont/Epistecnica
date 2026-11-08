@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Loader
 
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
 
 > In computer systems, a loader is the part of an operating system responsible for loading programs and libraries. It is one of the essential stages in starting a program, as it places programs into memory and prepares them for execution.
 > 

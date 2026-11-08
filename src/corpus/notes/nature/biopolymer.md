@@ -13,8 +13,8 @@ tags: [note, nature, substance-matter, materials-science, matter, unfinished]
 
 ## Related
 
-- [Polymer](/note.html?p=notes/nature/polymer.md)
-- [Cellulose](/note.html?p=notes/nature/cellulose.md)
+- [Polymer](/view.html?p=notes/nature/polymer.md)
+- [Cellulose](/view.html?p=notes/nature/cellulose.md)
 
 ## Provenance
 

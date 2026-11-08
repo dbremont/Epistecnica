@@ -35,4 +35,4 @@ tags: [note, forest, paper]
 
 - Produceologia `docs/Production/Industry/Forest/Industry/Paper.md`
 - Produceologia `docs/Production/Industry/Forest/README.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

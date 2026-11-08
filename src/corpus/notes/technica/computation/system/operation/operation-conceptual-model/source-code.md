@@ -4,7 +4,7 @@ tags: [note]
 
 # Source Code
 
-- [GIT (Global Information Tracker)](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md)
+- [GIT (Global Information Tracker)](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md)
 
 > ….
 > 

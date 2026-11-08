@@ -4,7 +4,7 @@ tags: [note]
 
 # Continuous Delivery (CD)
 
-- [Continuous Deployment (CD)](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/continuous-deployment-cd.md)
+- [Continuous Deployment (CD)](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/continuous-deployment-cd.md)
 
 > 
 

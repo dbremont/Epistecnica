@@ -4,7 +4,7 @@ tags: [note]
 
 # Microarchitecture
 
-- [CPU](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md)
+- [CPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md)
 
 > 
 

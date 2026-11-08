@@ -92,7 +92,7 @@ two sources; the disagreement is invisible in the store.
 
 - **The full tree** — the [Technica atlas](data/technica/meta/atlas.html) renders the complete, ever-expanding decomposition from the store [atlas.json](data/technica/meta/atlas.json): outline, branch cards, a dendrogram, an element search, and a node inspector.
 - **Guide** — [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (schema owner).
-- **Epistemic complement** — [EES](/note.html?p=notes/epistemica/ees.md) and its [atlas](/corpus/notes/epistemica/ees.html): the same grammar applied to the epistemic corpus.
+- **Epistemic complement** — [EES](/view.html?p=notes/epistemica/ees.md) and its [atlas](/corpus/notes/epistemica/ees.html): the same grammar applied to the epistemic corpus.
 - **Catalog** — [technica](/explorer.html?dir=technica) in the notes catalog browses the corpus that carries the tables.
 
 ## References
@@ -100,4 +100,4 @@ two sources; the disagreement is invisible in the store.
 - [Technica atlas](data/technica/meta/atlas.html) — the complete, ever-expanding decomposition (views over [atlas.json](data/technica/meta/atlas.json))
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the evaluation criteria
-- [EES](/note.html?p=notes/epistemica/ees.md) — the epistemic-element atlas this one mirrors
+- [EES](/view.html?p=notes/epistemica/ees.md) — the epistemic-element atlas this one mirrors

@@ -4,7 +4,7 @@ tags: [note, linguistic-abstraction]
 
 # Closure
 
-- [Continuation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md)
+- [Continuation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md)
 
 > 
 

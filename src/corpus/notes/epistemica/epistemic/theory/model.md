@@ -4,7 +4,7 @@ tags: [note, representation, tooling]
 
 # Model
 
-Related: [Computational Irreducibility](/note.html?p=notes/epistemica/epistemic/theory/computational-irreducibility.md), [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md), [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+Related: [Computational Irreducibility](/view.html?p=notes/epistemica/epistemic/theory/computational-irreducibility.md), [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md), [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 
 > A note on the theory modelling (that is the praxis of epistemology).
 > 

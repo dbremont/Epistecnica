@@ -4,7 +4,7 @@ tags: [note, initialization]
 
 # Booting (Initialization)
 
-- [GRUB: GNU GRand Unified Bootloader](/note.html?p=notes/technica/computation/operating-system/linux/grub-gnu-grand-unified-bootloader.md), [Boot Firmware Subsystem](/note.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md), [Firmware](/note.html?p=notes/technica/computation/operating-system/linux/firmware.md)
+- [GRUB: GNU GRand Unified Bootloader](/view.html?p=notes/technica/computation/operating-system/linux/grub-gnu-grand-unified-bootloader.md), [Boot Firmware Subsystem](/view.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md), [Firmware](/view.html?p=notes/technica/computation/operating-system/linux/firmware.md)
 
 > In this note we will explore the booting (initialization)  process of a computer system.
 > 

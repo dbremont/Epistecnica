@@ -4,7 +4,7 @@ tags: [note, computer-network, protocol]
 
 # Transmission Control Protocol (TCP)
 
-- [HTTP](/note.html?p=notes/technica/computation/telecom/http.md)
+- [HTTP](/view.html?p=notes/technica/computation/telecom/http.md)
 
 > **Transmission Control Protocol (TCP)** is a core protocol of the Internet protocol suite that provides reliable, ordered, and error-checked delivery of a stream of bytes between applications running on hosts communicating via an IP network.
 > 

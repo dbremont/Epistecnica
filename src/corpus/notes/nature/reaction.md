@@ -87,7 +87,7 @@ Les Arcs, Savoie, France, June 22–July 5, 1980*. Dordrecht: Springer Netherlan
 
 ## Related
 
-- [Transformation of Matter](/note.html?p=notes/nature/transformation-of-matter.md)
+- [Transformation of Matter](/view.html?p=notes/nature/transformation-of-matter.md)
 
 ## Provenance
 

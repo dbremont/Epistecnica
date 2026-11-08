@@ -13,7 +13,7 @@ tags: [note]
 > Etymology: **Consistency** derives from the Latin *consistentia* ("standing together," "agreement," or "coherence"), from *consistere* ("to stand together, remain firm"), reflecting the idea that the parts of a system remain in agreement without contradiction.
 > 
 
-> **Note:** The consistency specification is part of the broader **correctness (**[Correctness](/note.html?p=notes/technica/computation/dependability/verification/conceptual-model-verification/correctness.md)**) specification** of the software system.
+> **Note:** The consistency specification is part of the broader **correctness (**[Correctness](/view.html?p=notes/technica/computation/dependability/verification/conceptual-model-verification/correctness.md)**) specification** of the software system.
 > 
 
 ## Formulation
@@ -129,7 +129,7 @@ tags: [note]
 
 ## References
 
-- [Isolation Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/isolation-model.md)
+- [Isolation Model](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/isolation-model.md)
 - [Visualizing Linearizability](https://mwhittaker.github.io/blog/visualizing_linearizability/)
 - [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability/)
 - [Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)

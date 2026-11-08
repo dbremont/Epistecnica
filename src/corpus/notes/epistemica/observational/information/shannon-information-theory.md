@@ -213,7 +213,7 @@ $$I(x) = -\log_b P(x).$$
 
 The minus sign turns the inverse relation between probability and surprise into a positive quantity; the logarithm makes information additive for independent events, since $P(x,y) = P(x)P(y)$ implies $I(x,y) = I(x) + I(y)$. The base $b$ chooses the unit: $b = 2$ gives bits, $b = e$ gives nats, $b = 10$ gives hartleys.
 
-The concept is the atom of the theory developed above: the probabilistic realisation of [Entropy](/note.html?p=notes/epistemica/observational/information/entropy.md), whose averaged form is [Shannon Entropy](/note.html?p=notes/epistemica/observational/information/shannon-entropy.md). Its type, decomposition, and evaluation are answered in the shared [Formulation](#sec-formulation): the concept is the `Epistemic Construction` path, its value the `Epistemic Representation` path, and its evaluation the second table under the critical-evaluation question.
+The concept is the atom of the theory developed above: the probabilistic realisation of [Entropy](/view.html?p=notes/epistemica/observational/information/entropy.md), whose averaged form is [Shannon Entropy](/view.html?p=notes/epistemica/observational/information/shannon-entropy.md). Its type, decomposition, and evaluation are answered in the shared [Formulation](#sec-formulation): the concept is the `Epistemic Construction` path, its value the `Epistemic Representation` path, and its evaluation the second table under the critical-evaluation question.
 
 ![image.png](/assets/note/epistemica/observational/shannon-information-theory/image.png)
 
@@ -235,7 +235,7 @@ Where:
 - $P(x_i)$ = probability of outcome ($x_i$)
 - (b) = logarithm base (2 → bits, (e) → nats)
 
-> The averaged quantity itself is developed in [Entropy](/note.html?p=notes/epistemica/observational/information/entropy.md) and [Shannon Entropy](/note.html?p=notes/epistemica/observational/information/shannon-entropy.md).
+> The averaged quantity itself is developed in [Entropy](/view.html?p=notes/epistemica/observational/information/entropy.md) and [Shannon Entropy](/view.html?p=notes/epistemica/observational/information/shannon-entropy.md).
 
 ### **Joint Entropy**
 
@@ -336,11 +336,11 @@ The **main components of an information system** are:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [Entropy](/note.html?p=notes/epistemica/observational/information/entropy.md)
-- [Shannon Entropy](/note.html?p=notes/epistemica/observational/information/shannon-entropy.md)
-- [Coding](/note.html?p=notes/epistemica/observational/information/coding.md)
-- [Huffman Coding](/note.html?p=notes/epistemica/observational/information/huffman-coding.md)
-- [Error-Correcting Code](/note.html?p=notes/epistemica/observational/information/error-correcting-code.md)
+- [Entropy](/view.html?p=notes/epistemica/observational/information/entropy.md)
+- [Shannon Entropy](/view.html?p=notes/epistemica/observational/information/shannon-entropy.md)
+- [Coding](/view.html?p=notes/epistemica/observational/information/coding.md)
+- [Huffman Coding](/view.html?p=notes/epistemica/observational/information/huffman-coding.md)
+- [Error-Correcting Code](/view.html?p=notes/epistemica/observational/information/error-correcting-code.md)
 - [Information Theory Atlas](/corpus/notes/epistemica/observational/information/atlas/atlas.html)
 - Nyquist, H. (1924). Certain factors affecting telegraph speed. *Bell System Technical Journal*, 3(2), 324–346.
 - Hartley, R. V. L. (1928). Transmission of information. *Bell System Technical Journal*, 7(3), 535–563.

@@ -26,8 +26,8 @@ tags: [note, nature, natural-system, system]
 
 ## Related
 
-- [Living System](/note.html?p=notes/nature/living-system.md)
-- [Virus](/note.html?p=notes/nature/virus.md)
+- [Living System](/view.html?p=notes/nature/living-system.md)
+- [Virus](/view.html?p=notes/nature/virus.md)
 
 ## Provenance
 

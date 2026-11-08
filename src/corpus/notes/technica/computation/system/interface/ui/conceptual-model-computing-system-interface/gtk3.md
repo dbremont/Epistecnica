@@ -339,5 +339,5 @@ GTK_DEBUG=interactive ./main
 - https://askubuntu.com/questions/597259/how-do-i-open-gtk-inspector
 - https://developer.gnome.org/documentation/index.html
 - https://xrl1.sh/posts/Leveraging-LD_AUDIT/
-- [X Window System (X11 Version)](/note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
+- [X Window System (X11 Version)](/view.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md)
 - …

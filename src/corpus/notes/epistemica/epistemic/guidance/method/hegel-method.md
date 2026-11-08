@@ -4,7 +4,7 @@ tags: [note, philosophical-system]
 
 # Hegel’s Method
 
-Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Kant’s Method](/note.html?p=notes/epistemica/epistemic/guidance/method/kant-method.md)
+Related: [Philosophical System](/view.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Kant’s Method](/view.html?p=notes/epistemica/epistemic/guidance/method/kant-method.md)
 
 > Hegel’s System is a description of reality and its change — basically, we have the dynamics (Begriff) and the transformations within those dynamics, which are governed by the **necessary development of contradictions through a rational, dialectical process**.
 > 

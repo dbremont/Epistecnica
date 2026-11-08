@@ -34,7 +34,7 @@ Guiding Questions:
 
 ## References
 
-- [Language System Interface](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-system-interface.md)
+- [Language System Interface](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-system-interface.md)
 
 ## How python debugging works?
 

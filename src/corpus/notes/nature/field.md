@@ -58,7 +58,7 @@ Key Questions:
 
 ## Related
 
-- [Particle](/note.html?p=notes/nature/particle.md)
+- [Particle](/view.html?p=notes/nature/particle.md)
 
 ## Provenance
 

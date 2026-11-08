@@ -7,9 +7,9 @@ tags: [note]
 > In Which Platforms do we Compute?
 > 
 
-[Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
+[Virtualization](/view.html?p=notes/technica/computation/platform/virtualization.md)
 
-[Cloud Computing System](/note.html?p=notes/technica/computation/platform/cloud-computing-system.md)
+[Cloud Computing System](/view.html?p=notes/technica/computation/platform/cloud-computing-system.md)
 
 ## QA
 
@@ -22,4 +22,4 @@ tags: [note]
 
 - https://blog.comma.ai/datacenter/
 
-[(Hardware) Physical Substrate](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)
+[(Hardware) Physical Substrate](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate.md)

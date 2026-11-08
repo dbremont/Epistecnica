@@ -4,7 +4,7 @@ tags: [note, intermediate-representation]
 
 # Java Bytecode
 
-- [ASM](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/asm.md), [Java HotSpot Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md), [Byte Buddy](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/byte-buddy.md)
+- [ASM](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/asm.md), [Java HotSpot Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md), [Byte Buddy](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/byte-buddy.md)
 
 > Java bytecode is a platform-independent, low-level instruction  set encoded in binary format (consisting of one-byte opcodes and  optional operands) that is executed by the Java Virtual Machine (JVM)  using a stack-based architecture, supporting features such as dynamic  class loading, verification, and just-in-time (JIT) compilation for 
 optimized execution.

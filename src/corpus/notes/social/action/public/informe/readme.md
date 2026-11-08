@@ -9,8 +9,8 @@ tags: [note]
 > (country and sector courses and case studies), see the policy cases under
 > `guidance/policy/` beside this index.
 
-- [History of the Chinese Economic Policy Toolbox](/note.html?p=notes/social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md)
-- [Comparative Development: Argentina vs. Spain](/note.html?p=notes/social/action/public/informe/a-comparative-development-essay-argentina-vs-spain.md)
-- [German Historical School of Economics](/note.html?p=notes/social/action/public/informe/a-guide-to-german-historical-school-of-economics.md)
-- [Early European Development Finance](/note.html?p=notes/social/action/public/informe/an-essay-on-early-european-development-finance.md)
-- [Latin America Economic Craft](/note.html?p=notes/social/action/public/informe/an-essay-on-latin-america-economic-craft.md)
+- [History of the Chinese Economic Policy Toolbox](/view.html?p=notes/social/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md)
+- [Comparative Development: Argentina vs. Spain](/view.html?p=notes/social/action/public/informe/a-comparative-development-essay-argentina-vs-spain.md)
+- [German Historical School of Economics](/view.html?p=notes/social/action/public/informe/a-guide-to-german-historical-school-of-economics.md)
+- [Early European Development Finance](/view.html?p=notes/social/action/public/informe/an-essay-on-early-european-development-finance.md)
+- [Latin America Economic Craft](/view.html?p=notes/social/action/public/informe/an-essay-on-latin-america-economic-craft.md)

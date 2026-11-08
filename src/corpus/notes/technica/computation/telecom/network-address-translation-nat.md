@@ -4,7 +4,7 @@ tags: [note, internetworking]
 
 # Network Address Translation (NAT)
 
-- [Network Connectivity](/note.html?p=notes/technica/computation/telecom/network-connectivity.md)
+- [Network Connectivity](/view.html?p=notes/technica/computation/telecom/network-connectivity.md)
 
 > **Network Address Translation (NAT)** is a packet translation mechanism in which a network device rewrites the IP addresses, and optionally the transport-layer port numbers, of packets as they traverse the device, enabling communication between different IP address domains.
 > 

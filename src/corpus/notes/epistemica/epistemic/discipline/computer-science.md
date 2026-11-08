@@ -17,8 +17,8 @@ measured behavior, not observation of nature.
 
 This note is the discipline-level Aggregate; the domain catalogues of
 computational practice live in
-[Computational Science](/note.html?p=notes/epistemica/singular/science.md) and
-[Optimization](/note.html?p=notes/epistemica/optimization/optimization.md) (which
+[Computational Science](/view.html?p=notes/epistemica/singular/science.md) and
+[Optimization](/view.html?p=notes/epistemica/optimization/optimization.md) (which
 carries the nature-inspired methods as the `@natural-computing` tag group),
 and the schema
 it instantiates is owned by the canonical
@@ -175,12 +175,12 @@ machine model and the fidelity of the specification.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Computational Science](/note.html?p=notes/epistemica/singular/science.md) — computation as a method for studying other targets
-- [Optimization](/note.html?p=notes/epistemica/optimization/optimization.md) — including the nature-inspired (`@natural-computing`) method family
-- [Formal Concept Analysis](/note.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
-- [Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
-- [Logic](/note.html?p=notes/epistemica/epistemic/discipline/logic.md) — the parent formal discipline of inference
-- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Computational Science](/view.html?p=notes/epistemica/singular/science.md) — computation as a method for studying other targets
+- [Optimization](/view.html?p=notes/epistemica/optimization/optimization.md) — including the nature-inspired (`@natural-computing`) method family
+- [Formal Concept Analysis](/view.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
+- [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
+- [Logic](/view.html?p=notes/epistemica/epistemic/discipline/logic.md) — the parent formal discipline of inference
+- [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - [Computer science](https://en.wikipedia.org/wiki/Computer_science)
 - [Computability theory](https://en.wikipedia.org/wiki/Computability_theory)
 - [Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory)

@@ -42,7 +42,7 @@ bin/course_import.py | bin/document_import.py   bulk Notion-export importers
 bin/rees_check.py | bin/atlas_check.py | bin/terminology_check.py | bin/symbols_check.py | bin/pvalue_check.py   atlas/store validators (make *-check)
 bin/conform.py          technica table-grammar conformance; bin/build_technica_atlas.py atlas builder
 src/app/                hub (index.html, /) + explorer.html (directory explorer) +
-                            note.html (global viewer) + docs.html + corpus.css +
+                            view.html (global viewer) + docs.html + corpus.css +
                             vendor/ + data/ (generated indexes, changelogs, links)
                             + shared/ (nav search + viewer script + index chip)
 src/corpus/             content only: notes/ (sections + live notes), documents/
@@ -68,8 +68,8 @@ frontend-facing surface in the deployment; there is no database behind it
   - `/explorer.html` (also `/notes`) → the directory explorer `src/app/explorer.html` — browse/folders over notes + documents + courses, built from `src/app/data/library-index.json`, with search, pins and filters; `/corpus` and `/library` 302 here
   - `/shared/<path>` → static from `src/app/shared/<path>` (the universal nav search — `usearch.css` + `usearch.js` — included by every surface; plus the shared content-viewer script `viewer.js` behind the single corpus viewer)
   - `/assets/<path>` → static from `src/app/assets/<path>` (the shared corpus-image store: every image referenced by corpus markdown lives here — `note/…`, `course/…`, `document/…` subtrees mirroring the corpus paths, plus a few generic diagrams at the root — never beside the notes)
-  - `/note.html` → the global markdown viewer `src/app/note.html` (`?p=notes|documents|courses/…`), replacing the old note/document/course/lecture shells
-  - `/corpus/notes/…`, `/corpus/documents/…`, `/corpus/courses/…` → the content trees under `src/corpus/<tree>/`, served as-is; the catalog app (`explorer.html`, `note.html`, `corpus.css`, `vendor/`, `data/`) lives in `src/app/`
+  - `/view.html` → the global markdown viewer `src/app/view.html` (`?p=notes|documents|courses/…`), replacing the old note/document/course/lecture shells; `/note.html` serves the same page as a legacy alias
+  - `/corpus/notes/…`, `/corpus/documents/…`, `/corpus/courses/…` → the content trees under `src/corpus/<tree>/`, served as-is; the catalog app (`explorer.html`, `view.html`, `corpus.css`, `vendor/`, `data/`) lives in `src/app/`
   - `/epistemica/<path>` and `/tecnica/<path>` → **302** to
     `/corpus/notes/epistemica/ees.html` (the graphs moved to the Autoregia PKS)
   - `/corpus/notes/epistemica/rees.{html,json,md}` → **302** to the `ees.*`
@@ -116,7 +116,7 @@ frontend-facing surface in the deployment; there is no database behind it
   are not corpus listings and stay allowed.
 - Corpus **images** live in `src/app/assets/` (served at `/assets/…`), never
   beside the notes. Reference them page-root-relative as
-  `../assets/<corpus>/<path>` — the global viewer sits at `/note.html`,
+  `../assets/<corpus>/<path>` — the global viewer sits at `/view.html`,
   so one `../assets/…` reaches the shared store from every corpus and still
   works under prefix mounting. The whole corpus was migrated there (notes
   `assets/…` dirs and the beside-the-note course/document images); do not add
@@ -205,7 +205,7 @@ frontend-facing surface in the deployment; there is no database behind it
   (`order` key), the notes catalog lists by it, and search uses it as the
   relevance tie-break. Notes corpus only. See `src/corpus/README-notes.md` §Order.
 - Live notes (`src/corpus/notes/**/*.html`, co-located with their companion
-  note) share the `note.html` frame
+  note) share the `view.html` frame
   (ambient background, layout, crumbs/title/meta, card, `Contents` sidebar)
   and the philosophia shell order — recipe + conversion record in
   `docs/live-note-chrome.md` §7–§8. They also carry the shared nav search
@@ -510,10 +510,10 @@ Verification (no test suite exists; `make check` covers the first):
   and `curl -s -X POST -d '{"builders":["notes"]}' :8010/api/index/build`
   (`202` started, `409` busy, `400` unknown builder)
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/corpus/notes/epistemica/ees.html`
-- Notes: `curl -s :8000/corpus/notes` (catalog), `/note.html?p=notes/technica/general/pto/zsh.md` (viewer), `/corpus/notes/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
+- Notes: `curl -s :8000/corpus/notes` (catalog), `/view.html?p=notes/technica/general/pto/zsh.md` (viewer), `/corpus/notes/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
 - EES atlas: `curl -s :8000/corpus/notes/epistemica/ees.html` (the multi-view atlas) and `/corpus/notes/epistemica/ees.json` (the canonical tree store it renders)
-- Courses: `curl -s :8000/corpus/courses` (catalog), `/note.html?p=courses/version-control-basics` (course view: entry + lectures), `/note.html?p=courses/version-control-basics/01-why-version-control.md` (lecture), `/data/courses-index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/corpus/README-courses.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/data/changelog.courses.json` (per-file history)
-- Documents: `curl -s :8000/corpus/documents` (catalog), `/note.html?p=documents/books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/data/documents-index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/corpus/README-documents.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/data/changelog.documents.json` (per-file history)
+- Courses: `curl -s :8000/corpus/courses` (catalog), `/view.html?p=courses/version-control-basics` (course view: entry + lectures), `/view.html?p=courses/version-control-basics/01-why-version-control.md` (lecture), `/data/courses-index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/corpus/README-courses.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/data/changelog.courses.json` (per-file history)
+- Documents: `curl -s :8000/corpus/documents` (catalog), `/view.html?p=documents/books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/data/documents-index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/corpus/README-documents.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/data/changelog.documents.json` (per-file history)
 - Glossarium: `make glossarium-index` (chunked; `src/glossarium/app/data/index.json`, gitignored) → `curl -s :8000/glossarium/` (catalog), `/glossarium/?t=<slug>` (term view), `/glossarium/data/index.json` (lookup index); every note page loads `glossarium/js/glossarium-lookup.js` relatively with `data-glossarium`
 - Q/A log: `make qa-index` (chunked; `src/qa/app/data/qa-index.json`, gitignored) → `curl -s :8000/qa/` (catalog) and `/qa/entry.html?id=qa-00001` (entry)
 - Headless smoke: `google-chrome --headless=new --no-sandbox --virtual-time-budget=8000 --dump-dom http://localhost:8000/` and the `/docs` + `notes/` + `documents/` + `courses/` pages (check stderr for Uncaught errors)
@@ -607,7 +607,7 @@ when switching over.
   in the browser. The backend has no AI endpoints and must never hold keys.
 - User-facing pages must not reference backend scripts (`bin/...`,
   `python ...`) in UI strings — backend hints live in docs and server logs.
-- The four content viewers (`note.html`, `course.html`, `lecture.html`,
+- The viewer (`view.html`; formerly `note.html`, `course.html`, `lecture.html`,
   `document.html`) are thin shells over one shared script,
   `src/app/shared/viewer.js` (included with `data-kind="note|course|
   lecture|document"`). The script owns all viewer behavior (ambient
@@ -615,9 +615,9 @@ when switching over.
   changelog history modal, crumbs, TOC); the shell owns the page frame.
   Sections are linkable: every `h2`/`h3` gets a stable `#sec-<slug>` id and
   picking a TOC entry writes `toc-item=<slug>` into the URL
-  (`note.html?n=…&toc-item=formulation`), which the viewer restores on load.
+  (`view.html?p=…&toc-item=formulation`), which the viewer restores on load.
   When changing viewer behavior or DOM ids, change `viewer.js` — not the
   shells. Kind-specific config (query param, fetch URL, GitHub corpus
   prefix, crumbs style) lives in its `KINDS` table; adding a corpus means
   one table entry plus one thin shell page. The MathJax scripts stay in
-  `note.html`'s head only; `viewer.js` calls `renderTeX()` when present.
+  `view.html`'s head only; `viewer.js` calls `renderTeX()` when present.

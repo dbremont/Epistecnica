@@ -25,4 +25,4 @@ Guiding Questions:
 
 - https://en.wikipedia.org/wiki/Euclidean_space
 - https://en.wikipedia.org/wiki/Geodesic
-- [Space](/note.html?p=notes/epistemica/mathematical/space/space.md)
+- [Space](/view.html?p=notes/epistemica/mathematical/space/space.md)

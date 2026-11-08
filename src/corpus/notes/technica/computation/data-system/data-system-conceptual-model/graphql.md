@@ -4,7 +4,7 @@ tags: [note, query-language]
 
 # GraphQL
 
-- [Query Language](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
+- [Query Language](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/query-language.md)
 
 > In this note, we will explore **GraphQL**, a query language and API protocol that enables clients to request precisely the data they need from a structured data graph through a single, strongly typed interface.
 > 

@@ -4,7 +4,7 @@ tags: [note]
 
 # Interactive Connectivity Establishment (ICE)
 
-- [STUN (Session Traversal Utilities for NAT)](/note.html?p=notes/technica/computation/telecom/stun-session-traversal-utilities-for-nat.md), [TURN (Traversal Using Relays around NAT)](/note.html?p=notes/technica/computation/telecom/turn-traversal-using-relays-around-nat.md), [Network Connectivity](/note.html?p=notes/technica/computation/telecom/network-connectivity.md)
+- [STUN (Session Traversal Utilities for NAT)](/view.html?p=notes/technica/computation/telecom/stun-session-traversal-utilities-for-nat.md), [TURN (Traversal Using Relays around NAT)](/view.html?p=notes/technica/computation/telecom/turn-traversal-using-relays-around-nat.md), [Network Connectivity](/view.html?p=notes/technica/computation/telecom/network-connectivity.md)
 
 > **ICE** is a standardized framework that enables networked peers to establish connectivity by gathering possible connection candidates, exchanging them, testing their reachability, and selecting the optimal communication path.
 > 

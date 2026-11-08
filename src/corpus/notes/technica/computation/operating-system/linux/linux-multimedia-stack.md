@@ -4,7 +4,7 @@ tags: [note]
 
 # Linux Multimedia Stack
 
-- [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
+- [Linux Graphics Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md)
 
 > The **Linux Multimedia Stack** is a layered, modular subsystem within the Linux operating system that provides kernel-space and user-space interfaces for capturing, processing, encoding, decoding, and rendering multimedia data (audio, video, images), built upon standardized frameworks (e.g., V4L2, ALSA, DRM/KMS, VA-API) and supporting both synchronous and asynchronous data flows through direct hardware interfaces (e.g., DMA, MMAP, IRQs) and software components (e.g., codecs, pipelines, filters), governed by capabilities, node types, memory buffer models, and device-specific controls.
 > 
@@ -164,5 +164,5 @@ Drivers:
 - https://en.wikipedia.org/wiki/Advanced_Linux_Sound_Architecture
 - https://en.wikipedia.org/wiki/Video_Acceleration_API
 - [Alsa] https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture
-- [OpenGL](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/opengl.md)
-- [OpenCL](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
+- [OpenGL](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/opengl.md)
+- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)

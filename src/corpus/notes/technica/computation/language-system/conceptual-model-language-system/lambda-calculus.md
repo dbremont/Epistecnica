@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Lambda Calculus
 
-- [Declarative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [Turing Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/turing-machine.md), [Functional Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
+- [Declarative Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [Turing Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/turing-machine.md), [Functional Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
 
 > Note: This is the foundational basis of the declarative models of computation.
 > 

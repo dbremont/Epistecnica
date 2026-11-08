@@ -127,7 +127,7 @@ where $G_U$ is the set of user goals.
 > How Linux Driver’s Models Work?
 > 
 
-> See [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md).
+> See [Linux Graphics Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md).
 > 
 
 ## Conceptual Model
@@ -167,15 +167,15 @@ Conceptual Model:  Computing System Interface
 - Awesome System Design Resources
 [https://github.com/ashishps1/awesome-system-design-resources?tab=readme-ov-file#system-design-interview-problems](https://github.com/ashishps1/awesome-system-design-resources?tab=readme-ov-file#system-design-interview-problems)
 - https://news.ycombinator.com/item?id=31217448
-- [AB Testing](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ab-testing.md)
+- [AB Testing](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ab-testing.md)
 - [Recommender System](https://app.notion.com/p/Recommender-System-2fd52a7887cf4b5385859d9705eba39f?pvs=21)
-- [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- [**Computational Typography**](/view.html?p=notes/technica/computation/miscelanea/computational-typography.md)
 - https://github.com/rothgar/awesome-tuis?tab=readme-ov-file#libraries
 - https://uxcel.com/
 - https://www.casestudy.club/
 - https://uxplanet.org/
 - https://www.nngroup.com/
-- [System](/note.html?p=notes/technica/computation/system.md)
+- [System](/view.html?p=notes/technica/computation/system.md)
 - [**A Guide to Improving Computational Systems in a Principled Way**](https://app.notion.com/p/A-Guide-to-Improving-Computational-Systems-in-a-Principled-Way-1bec0f5171ec808fb56ffd094de27a12?pvs=21)
 - https://www.youtube.com/watch?v=AmPW7S97LM8
 - https://www.youtube.com/watch?v=L6RKi9ZvkT4&t=851s

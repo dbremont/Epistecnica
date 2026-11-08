@@ -10,4 +10,4 @@ tags: [note]
 ## References
 
 - https://en.wikipedia.org/wiki/HDMI
-- [Transition-minimized Differential Signaling (TMDS) ](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/transition-minimized-differential-signaling-tmds.md)
+- [Transition-minimized Differential Signaling (TMDS) ](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/transition-minimized-differential-signaling-tmds.md)

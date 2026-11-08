@@ -12,8 +12,8 @@ tags: [note, technique]
 
 ## References
 
-- [Linux Process Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
-- [**Thread**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/thread.md)
+- [Linux Process Management Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-process-management-stack.md)
+- [**Thread**](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/thread.md)
 - https://news.ycombinator.com/item?id=27883847
 - [https://news.ycombinator.com/item?id=15006430](https://news.ycombinator.com/item?id=15006430)
 - [https://news.ycombinator.com/item?id=11370788](https://news.ycombinator.com/item?id=11370788)

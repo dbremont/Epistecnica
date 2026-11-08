@@ -4,7 +4,7 @@ tags: [note, philosophical-system]
 
 # Cusa’s Method
 
-Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
+Related: [Philosophical System](/view.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md)
 
 > **Nicholas of Cusa’s** philosophy teaches that human knowledge is always finite and partial, yet through the recognition of paradoxes, mathematical analogy, and learned ignorance, the mind can intuitively approach the infinite unity of God in which all opposites coincide.
 > 

@@ -10,7 +10,7 @@ src/corpus/
 ├── README-notes.md      # this document
 ├── app/                 # shared catalog + global viewer + generated data
 │   ├── /explorer.html       # directory browser + section tree
-│   ├── note.html        # global markdown viewer (?p=notes|documents|courses/…)
+│   ├── view.html        # global markdown viewer (?p=notes|documents|courses/…)
 │   ├── corpus.css
 │   ├── vendor/
 │   └── data/            # generated indexes, changelogs, links.json
@@ -246,11 +246,11 @@ facet bars: sections are reached as folders and tags through the search box.
 ## Notes vs live notes
 
 - A **note** is a markdown file (`*.md`): rendered on the fly by
-  `/note.html?p=notes/<path>`. The bulk of the corpus.
+  `/view.html?p=notes/<path>`. The bulk of the corpus.
 - A **live note** is a self-contained, hand-authored HTML page (`*.html`),
   co-located with its companion markdown note — bespoke interactivity, its
   own scripts. Served as-is; never rendered through the viewer. Every live
-  note uses the same frame as the viewer (`note.html`: ambient constellation
+  note uses the same frame as the viewer (`view.html`: ambient constellation
   background, 1280px layout, crumbs + title + meta chips, card, sticky
   `Contents` sidebar) and the philosophia shell order (intro quote,
   Index, Formulation, decomposition, lab, Diagnostic questions,

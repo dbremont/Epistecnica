@@ -23,8 +23,8 @@ tags: [note, nature, phenomenon, materials-science, matter, phenomena, unfinishe
 
 ## Related
 
-- [Corrosion](/note.html?p=notes/nature/corrosion.md)
-- [Material Structure](/note.html?p=notes/nature/material-structure.md)
+- [Corrosion](/view.html?p=notes/nature/corrosion.md)
+- [Material Structure](/view.html?p=notes/nature/material-structure.md)
 
 ## Provenance
 

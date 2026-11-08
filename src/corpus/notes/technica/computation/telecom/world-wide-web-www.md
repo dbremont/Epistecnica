@@ -4,7 +4,7 @@ tags: [note]
 
 # World Wide Web (WWW)
 
-- [Internet](/note.html?p=notes/technica/computation/telecom/internet.md)
+- [Internet](/view.html?p=notes/technica/computation/telecom/internet.md)
 
 > The **World Wide Web (WWW)** is a system of interlinked **hypertext documents** and resources, accessed via the **Internet** using a web browser. It allows users to **view, navigate, and interact** with information through **web pages** that can contain text, images, videos, links, and other multimedia.
 > 

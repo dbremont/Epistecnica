@@ -124,7 +124,7 @@ If a mixed set of topics does not force you to ask:
 
 ### Randomness
 
-> How to **design** a **Interleaved Practice** section around topic Randomness? **Does the** proposed interleaving satisfy the following criteria ([Material Mixed Criteria](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/interleaved-practice.md) )?
+> How to **design** a **Interleaved Practice** section around topic Randomness? **Does the** proposed interleaving satisfy the following criteria ([Material Mixed Criteria](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/interleaved-practice.md) )?
 >
 
 | **Element** | **Why Mixed?** |
@@ -145,7 +145,7 @@ If a mixed set of topics does not force you to ask:
 
 ### Debt
 
-> How to **design** a **Interleaved Practice** section around topic Debt? **Does the** proposed interleaving satisfy the following criteria ([Material Mixed Criteria](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/interleaved-practice.md) )?
+> How to **design** a **Interleaved Practice** section around topic Debt? **Does the** proposed interleaving satisfy the following criteria ([Material Mixed Criteria](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/interleaved-practice.md) )?
 >
 
 | **Element** | **Why Mixed?** |

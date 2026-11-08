@@ -44,7 +44,7 @@ There are several different types of mental models, including:
 
 ## Related
 
-- [Thinking](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
+- [Thinking](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/thinking.md)
 
 ## Provenance
 

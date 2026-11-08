@@ -38,10 +38,10 @@ Some common types of mass include:
 
 ## Related
 
-- [Mass Transport](/note.html?p=notes/nature/mass-transport.md)
-- [Particle](/note.html?p=notes/nature/particle.md)
-- [Weight](/note.html?p=notes/nature/weight.md)
-- [Energy](/note.html?p=notes/nature/energy.md)
+- [Mass Transport](/view.html?p=notes/nature/mass-transport.md)
+- [Particle](/view.html?p=notes/nature/particle.md)
+- [Weight](/view.html?p=notes/nature/weight.md)
+- [Energy](/view.html?p=notes/nature/energy.md)
 
 ## Provenance
 

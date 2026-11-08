@@ -4,7 +4,7 @@ tags: [note, tooling]
 
 # Ontology
 
-Related: [Monism](/note.html?p=notes/nature/theory/monism.md), [Truth](/note.html?p=notes/epistemica/epistemic/theory/truth.md), [Property](/note.html?p=notes/nature/theory/property.md), [Materialism](/note.html?p=notes/nature/theory/materialism.md), [Category](/note.html?p=notes/epistemica/epistemic/theory/category.md), [Event Stream](/note.html?p=notes/nature/theory/event-stream.md), [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md)
+Related: [Monism](/view.html?p=notes/nature/theory/monism.md), [Truth](/view.html?p=notes/epistemica/epistemic/theory/truth.md), [Property](/view.html?p=notes/nature/theory/property.md), [Materialism](/view.html?p=notes/nature/theory/materialism.md), [Category](/view.html?p=notes/epistemica/epistemic/theory/category.md), [Event Stream](/view.html?p=notes/nature/theory/event-stream.md), [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)
 
 > In this note, we will explore one of the two keys to the **comprehension of reality**: **Ontology**—the other being **Epistemology**.
 > 
@@ -117,7 +117,7 @@ QA (Working On):
 > **Note:** Using *phenomenology* to mean “manifestations” conflicts with its true sense—the study of phenomena. This usage risks miscommunication, so users must vigilantly correct and clarify its semantics.
 > 
 
-> See [Segment](/note.html?p=notes/nature/theory/segment.md).
+> See [Segment](/view.html?p=notes/nature/theory/segment.md).
 > 
 
 Notes:
@@ -267,7 +267,7 @@ Notes:
 > A property is a boolean function that maps an entity or system state to **true** or **false** depending on whether a specific condition, rule, or invariant holds. Note: A property can <u>**vary**</u> across **different states** — **subsets of states** of a system, etc.
 > 
 
-> See more in [Property](/note.html?p=notes/nature/theory/property.md).
+> See more in [Property](/view.html?p=notes/nature/theory/property.md).
 > 
 
 | **Type** | **Description** | Case(s) |
@@ -371,7 +371,7 @@ Notes:
 
 ### How to use this Note to Improve by Study of Reality?
 
-> See more in [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+> See more in [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 > 
 - How to capture the state of affrais?
 - How to describe the dynamics?
@@ -429,4 +429,4 @@ Notes:
 - https://en.wikipedia.org/wiki/The_System_of_Nature
 - https://plato.stanford.edu/entries/friedrich-lange/
 - Name
-- [Emergence](/note.html?p=notes/nature/theory/emergence.md)
+- [Emergence](/view.html?p=notes/nature/theory/emergence.md)

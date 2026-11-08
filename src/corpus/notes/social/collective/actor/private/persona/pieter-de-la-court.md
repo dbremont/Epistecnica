@@ -97,6 +97,6 @@ Religion was part of the same program. De la Court defended toleration for relig
 
 ## See also
 
-- [Johan de Witt](/note.html?p=notes/social/collective/actor/private/persona/johan-de-witt.md)
-- [Netherlands](/note.html?p=notes/social/collective/actor/public/polity/nld/netherlands.md)
-- [The Art of Economic Statecraft](/note.html?p=notes/unclassified/the-art-of-economic-statecraft.md)
+- [Johan de Witt](/view.html?p=notes/social/collective/actor/private/persona/johan-de-witt.md)
+- [Netherlands](/view.html?p=notes/social/collective/actor/public/polity/nld/netherlands.md)
+- [The Art of Economic Statecraft](/view.html?p=notes/unclassified/the-art-of-economic-statecraft.md)

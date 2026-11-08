@@ -239,7 +239,7 @@ tags: [note, unfinished, actor, firm]
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](/note.html?p=notes/social/structural/technical/technology.md)  
+- [Technology](/view.html?p=notes/social/structural/technical/technology.md)  
 - ADP Investor Relations, Annual Reports (2023–2024)  
 - Gartner, IDC, and Statista HCM market data  
 - SEC filings (10-K, 10-Q)  

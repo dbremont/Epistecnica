@@ -366,7 +366,7 @@ Epistemic Element (parent)
 
 > The layers must not be collapsed. The `Operator Glyph` `×` is inert — it marks which rule fires and is itself never transformed; the expression `7 × 8` is what the act rewrites; the rule licenses the rewrite; the `Interpretation` ties glyphs to quantities. Computation is syntactic throughout, which is why pupil, abacus, and machine execute one rule without any of them reaching a quantity directly.
 
-> The test is in the Arithmetic case below: remove the `Multiplication Rule` and the system loses products while `Presburger Arithmetic` stays complete and decidable — a change in what the notation can express, not in what anyone does. `Deductive Inference Rule`, still carried as a bare substrate part in [Baruch Spinoza](/note.html?p=notes/social/collective/actor/private/persona/baruch-spinoza.md), is the same kind of element; no new link form was needed to admit it, since `Constitutive Substrate (→ Part) <<Constitutive Element>>` already carries it and the slot's expansions alone grew.
+> The test is in the Arithmetic case below: remove the `Multiplication Rule` and the system loses products while `Presburger Arithmetic` stays complete and decidable — a change in what the notation can express, not in what anyone does. `Deductive Inference Rule`, still carried as a bare substrate part in [Baruch Spinoza](/view.html?p=notes/social/collective/actor/private/persona/baruch-spinoza.md), is the same kind of element; no new link form was needed to admit it, since `Constitutive Substrate (→ Part) <<Constitutive Element>>` already carries it and the slot's expansions alone grew.
 
 ### How is a type retired?
 
@@ -633,8 +633,8 @@ Epistemic Element (parent)
 ## References
 
 - [Philosophia Naturalis](https://app.notion.com/p/Philosophia-Naturalis-32ac0f5171ec807b9388c870ab664abf?source=copy_link)
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
-- [Concept](/note.html?p=notes/technica/general/cto/concept.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Concept](/view.html?p=notes/technica/general/cto/concept.md)
 - Reality (no dedicated note yet — see the Formulation question above)
 - Ontology (no dedicated note yet — see the Formulation question above)
 - Observer (no dedicated note yet)

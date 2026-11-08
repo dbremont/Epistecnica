@@ -45,7 +45,7 @@ tags: [note]
 - https://github.com/attractivechaos/plb2
 - [‣](https://app.notion.com/p/b0a2a8d65e9d46d3b9ccfe1614c1bd73?pvs=21)
 - https://github.com/sharkdp/hyperfine
-- [Language System](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/language-system.md)
+- [Language System](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/language-system.md)
 - https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.youtube.com/watch%3Fv%3DRrHGX1wwSYM&ved=2ahUKEwj29Pa57sqLAxVCfzABHcUAH2k4FBC3AnoECAkQAg&usg=AOvVaw1bDGjCEVz0p7pCIa6LMH8v
 - Weicker, R. P. (1990). An overview of common benchmarks. *Computer*, *23*(12), 65-75.
 - https://programming-language-benchmarks.vercel.app/

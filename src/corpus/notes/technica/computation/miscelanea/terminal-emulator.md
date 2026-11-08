@@ -4,7 +4,7 @@ tags: [note, operative-system, tool]
 
 # Terminal Emulator
 
-- [Shell Interpreter](/note.html?p=notes/technica/computation/miscelanea/shell-interpreter.md), [Kitty](/note.html?p=notes/technica/computation/miscelanea/kitty.md), [Terminal Session Recorder](/note.html?p=notes/technica/computation/miscelanea/terminal-session-recorder.md)
+- [Shell Interpreter](/view.html?p=notes/technica/computation/miscelanea/shell-interpreter.md), [Kitty](/view.html?p=notes/technica/computation/miscelanea/kitty.md), [Terminal Session Recorder](/view.html?p=notes/technica/computation/miscelanea/terminal-session-recorder.md)
 
 > **Terminal Emulator** — is a program that provides **display and interaction services** for terminal applications, essentially emulating the behavior of a traditional interactive terminal interface.
 > 
@@ -94,10 +94,10 @@ Without a terminal abstraction, each interactive application would need to:
 
 ## References
 
-- [Kitty](/note.html?p=notes/technica/computation/miscelanea/kitty.md)
-- [Linux](/note.html?p=notes/technica/computation/operating-system/linux/linux.md)
+- [Kitty](/view.html?p=notes/technica/computation/miscelanea/kitty.md)
+- [Linux](/view.html?p=notes/technica/computation/operating-system/linux/linux.md)
 - https://en.wikipedia.org/wiki/Pseudoterminal
 - https://en.wikipedia.org/wiki/Terminal_emulator
 - https://en.wikipedia.org/wiki/List_of_terminal_emulators
 - https://terminaltrove.com/terminals/
-- [**TTY Subsystem**](/note.html?p=notes/technica/computation/operating-system/linux/tty-subsystem.md)
+- [**TTY Subsystem**](/view.html?p=notes/technica/computation/operating-system/linux/tty-subsystem.md)

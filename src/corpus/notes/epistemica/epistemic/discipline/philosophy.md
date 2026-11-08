@@ -17,9 +17,9 @@ analysis*; its warrant is argumentative adequacy — clarity, consistency, and
 explanatory reach — not proof within a fixed system and not measurement.
 
 This note is the discipline-level Aggregate; it is the reflexive neighbour of
-the [EES](/note.html?p=notes/epistemica/ees.md) inventory (which turns inquiry back on itself), and its
+the [EES](/view.html?p=notes/epistemica/ees.md) inventory (which turns inquiry back on itself), and its
 content is developed in the
-[Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md) note and the
+[Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md) note and the
 [ontology](/explorer.html?dir=nature/theory) folder. The schema it
 instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
@@ -169,12 +169,12 @@ the quality of its own argumentation.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md) — the domain note on natural philosophy
+- [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md) — the domain note on natural philosophy
 - [Ontology](/explorer.html?dir=nature/theory) — the ontology concept notes
-- [Philosophia Naturalis](/note.html?p=notes/nature/theory/philosophia-naturalis.md)
-- [Logic](/note.html?p=notes/epistemica/epistemic/discipline/logic.md) — the carved-out discipline of valid inference
-- [Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) · [Statistics](/note.html?p=notes/epistemica/epistemic/discipline/statistics.md) · [Computer Science](/note.html?p=notes/epistemica/epistemic/discipline/computer-science.md)
-- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Philosophia Naturalis](/view.html?p=notes/nature/theory/philosophia-naturalis.md)
+- [Logic](/view.html?p=notes/epistemica/epistemic/discipline/logic.md) — the carved-out discipline of valid inference
+- [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) · [Statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md) · [Computer Science](/view.html?p=notes/epistemica/epistemic/discipline/computer-science.md)
+- [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - [Philosophy](https://en.wikipedia.org/wiki/Philosophy)
 - [Epistemology](https://en.wikipedia.org/wiki/Epistemology)
 - [Ontology](https://en.wikipedia.org/wiki/Ontology)

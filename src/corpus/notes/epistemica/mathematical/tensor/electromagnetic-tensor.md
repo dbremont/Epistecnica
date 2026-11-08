@@ -25,4 +25,4 @@ tags: [note, mathematics, analytical, type, physical]
 ## References
 
 - https://en.wikipedia.org/wiki/Electromagnetic_tensor
-- [Differential Form](../differential-form.md) · [Connection](../geometry/connection.md) · [Stress-Energy Tensor](stress-energy-tensor.md) · [Electromagnetism](/note.html?p=notes/epistemica/singular/electromagnetism.md)
+- [Differential Form](../differential-form.md) · [Connection](../geometry/connection.md) · [Stress-Energy Tensor](stress-energy-tensor.md) · [Electromagnetism](/view.html?p=notes/epistemica/singular/electromagnetism.md)

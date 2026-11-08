@@ -79,5 +79,5 @@ Guiding Questions:
 
 ## 🔗 References
 
-- [Intermediate Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).
+- [Intermediate Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/intermediate-representation.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md).

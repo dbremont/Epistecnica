@@ -163,12 +163,31 @@
             padding: 2.5rem 2rem 3.5rem;
         }
 
+        /* Three-row grid so the sidebar can start level with the chip row:
+             crumbs + title   | (empty)
+             note-meta        | Contents + toc
+             card             | (sticky toc continues)
+        */
         .cols {
-            display: flex;
-            gap: 2.5rem;
+            display: grid;
+            grid-template-columns: minmax(0, 9fr) minmax(180px, 1fr);
+            grid-template-areas:
+                "head  side"
+                "meta  side"
+                "card  side";
+            column-gap: 2.5rem;
+            row-gap: 0;
+            align-items: start;
         }
 
-        .note-main { flex: 9 1 0; min-width: 0; }
+        .note-main { display: contents; }
+
+        .note-head { grid-area: head; min-width: 0; }
+        .note-meta { grid-area: meta; min-width: 0; }
+        #note-card, #loading, #error { grid-area: card; min-width: 0; }
+
+        /* start level with the chip row (.note-meta), not the crumbs */
+        .sidebar { grid-area: side; grid-row: 2 / 4; }
 
         .crumbs {
             font-family: var(--font-mono);
@@ -194,13 +213,20 @@
             margin-bottom: 2rem;
         }
 
+        /* Flush with .note-main (same left edge as the crumbs, the title and
+           the card). Chips wrap onto as many lines as the column needs. */
+        #note-header { display: contents; }
+
         .note-meta {
             display: flex;
             flex-wrap: wrap;
+            align-items: flex-start;
             gap: 0.6rem;
-            margin: -1.2rem 0 2rem;
-            position: relative;
-            top: 0.8rem;
+            margin: 0 0 2rem;
+            max-width: 100%;
+            /* the chip row and the sidebar share a grid row; this keeps the
+               chip text baseline level with "Contents" */
+            padding-top: 0;
         }
 
         .chip {
@@ -351,7 +377,6 @@
         }
 
         .sidebar {
-            flex: 1 1 0;
             min-width: 180px;
             position: sticky;
             top: 3.5rem;
@@ -473,20 +498,22 @@
     </nav>
 
     <div class="layout">
-        <div class="note-header" id="note-header" hidden>
-            <div class="crumbs" id="crumbs"></div>
-            <h1 class="note-title" id="note-title"></h1>
-            <div class="note-meta">
-                <span class="chip" id="meta-words"></span>
-                <span class="chip" id="meta-time"></span>
-                <a class="chip" id="meta-raw" href="#">view raw</a>
-                <button class="chip" id="meta-qa" hidden>QA</button>
-                <button class="chip" id="meta-history" hidden>history</button>
-            </div>
-        </div>
-
         <div class="cols">
             <main class="note-main">
+                <div class="note-header" id="note-header" hidden>
+                    <div class="note-head">
+                        <div class="crumbs" id="crumbs"></div>
+                        <h1 class="note-title" id="note-title"></h1>
+                    </div>
+                    <div class="note-meta">
+                        <span class="chip" id="meta-words"></span>
+                        <span class="chip" id="meta-time"></span>
+                        <a class="chip" id="meta-raw" href="#">view raw</a>
+                        <button class="chip" id="meta-qa" hidden>QA</button>
+                        <button class="chip" id="meta-history" hidden>history</button>
+                    </div>
+                </div>
+
                 <div class="state" id="loading">
                     <div class="title">Loading&hellip;</div>
                 </div>

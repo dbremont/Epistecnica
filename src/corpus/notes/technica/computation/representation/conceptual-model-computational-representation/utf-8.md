@@ -4,7 +4,7 @@ tags: [note, encoding, text-format]
 
 # UTF-8
 
-- [Unicode](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/unicode.md)
+- [Unicode](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/unicode.md)
 
 > 
 
@@ -23,4 +23,4 @@ QA:
 - [Code Page](https://en.wikipedia.org/wiki/Code_page)
 - [Data Structures for Text Sequences](https://www.cs.unm.edu/~crowley/papers/sds.pdf)
 - [It’s not wrong that “🤦🏼‍♂️”.length == 7 (2019) (hsivonen.fi)](https://news.ycombinator.com/item?id=36159443)
-- [**Computational Typography**](/note.html?p=notes/technica/computation/miscelanea/computational-typography.md)
+- [**Computational Typography**](/view.html?p=notes/technica/computation/miscelanea/computational-typography.md)

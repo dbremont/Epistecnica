@@ -78,4 +78,4 @@ tags: [note, interface]
 
 ## References
 
-- [Neovim](/note.html?p=notes/technica/computation/miscelanea/neovim.md)
+- [Neovim](/view.html?p=notes/technica/computation/miscelanea/neovim.md)

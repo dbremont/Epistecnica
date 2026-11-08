@@ -34,4 +34,4 @@ tags: [note, nuclear]
 ## References
 
 - Produceologia `docs/Production/Industry/Nuclear/README.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

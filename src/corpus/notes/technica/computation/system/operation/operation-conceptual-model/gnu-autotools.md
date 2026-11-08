@@ -4,7 +4,7 @@ tags: [note, build-system, tool]
 
 # GNU Autotools
 
-- [Build System](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
+- [Build System](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
 
 > The **GNU Autotools**—primarily **Autoconf, Automake, and Libtool**—are a family of tools for generating portable build systems for Unix-like software projects.
 > 

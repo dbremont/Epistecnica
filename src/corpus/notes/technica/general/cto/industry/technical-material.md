@@ -7,13 +7,13 @@ tags: [note, materials]
 > **Technical Material** is all intentionally transformed matter: every substance a purposeful
 > agent has worked — smelted, fired, sawn, pulped, refined, synthesized — into feedstocks,
 > objects, and products. The counterpart of
-> [Natural Material](/note.html?p=notes/nature/natural-material.md) (matter as found); the two meet
+> [Natural Material](/view.html?p=notes/nature/natural-material.md) (matter as found); the two meet
 > at feedstocks, where the formation is natural and the object technical. Children:
-> [Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (from
+> [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (from
 > living feedstocks) and
-> [Technical Abiogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (from
+> [Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (from
 > mineral feedstocks). Worked per
-> [How to decompose any technical instance?](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> [How to decompose any technical instance?](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -63,7 +63,7 @@ No-repetition exception); full expansion lives in the child notes, not here.
 ### Why do petroleum-derived polymers classify at Technical Material?
 
 > Because forcing them into either origin family is false precision. Their feedstock is
-> paleo-living petroleum — a transformed [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md)
+> paleo-living petroleum — a transformed [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md)
 > substance — which reads biogenic; yet refining, cracking, and polymerization erase every
 > origin character the biogenic family is individuated by, which reads abiogenic. When
 > origin is ambiguous it does not make sense to classify either way, so the instance rises
@@ -73,12 +73,12 @@ No-repetition exception); full expansion lives in the child notes, not here.
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (workflow, expansion rules, multi-root forest rule)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (means/end typing; default-root rule)
-- [Material Technology](/note.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
-- [Materiotecnia](/note.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)
-- [Natural Material](/note.html?p=notes/nature/natural-material.md) (counterpart: all untransformed matter)
-- [Natural Biogenic](/note.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)
-- [Natural Abiogenic](/note.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)
-- [Technical Biogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (child: living-feedstock family)
-- [Technical Abiogenic Material](/note.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (child: mineral-feedstock family)
+- [Material Technology](/view.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
+- [Materiotecnia](/view.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)
+- [Natural Material](/view.html?p=notes/nature/natural-material.md) (counterpart: all untransformed matter)
+- [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)
+- [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)
+- [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (child: living-feedstock family)
+- [Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (child: mineral-feedstock family)

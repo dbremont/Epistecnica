@@ -4,7 +4,7 @@ tags: [note]
 
 # Secret Management
 
-- [Certificate Management](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/certificate-management.md), [Configuration Management](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/configuration-management.md)
+- [Certificate Management](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/certificate-management.md), [Configuration Management](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/configuration-management.md)
 
 > In this **note we will** explore **`Secret Management`.**
 > 

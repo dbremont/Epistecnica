@@ -9,5 +9,5 @@ tags: [note, mathematics]
 ## References
 
 - [Proportionality](https://en.m.wikipedia.org/wiki/Proportionality_(mathematics))
-- [Ratio](/note.html?p=notes/epistemica/mathematical/number/ratio.md)
-- [Division](/note.html?p=notes/epistemica/mathematical/number/division.md)
+- [Ratio](/view.html?p=notes/epistemica/mathematical/number/ratio.md)
+- [Division](/view.html?p=notes/epistemica/mathematical/number/division.md)

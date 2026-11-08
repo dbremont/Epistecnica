@@ -64,6 +64,6 @@ QA:
 
 ## References
 
-- [Alpine Linux](/note.html?p=notes/technica/computation/operating-system/linux/alpine-linux.md)
-- [Tiny Core Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/tiny-core-linux.md)
+- [Alpine Linux](/view.html?p=notes/technica/computation/operating-system/linux/alpine-linux.md)
+- [Tiny Core Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/tiny-core-linux.md)
 - [A Guide to Build & Debug the Linux Kernel](https://app.notion.com/p/A-Guide-to-Build-Debug-the-Linux-Kernel-1a8c0f5171ec80d19474e2d019cd11db?pvs=21)

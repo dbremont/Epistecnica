@@ -347,7 +347,7 @@ QA:
 ## References
 
 - [Literatura](https://www.notion.so/Literatura-258d610507c742ceaf2b544b2e99b4c1?pvs=21)
-- [Morality](/note.html?p=notes/social/synontic/ideational/morality/morality.md)
+- [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md)
 - [Ontology](https://www.notion.so/Ontology-138eea37a34f43ed87c16d1818629723?pvs=21)
 - [Philosophy](https://www.notion.so/Philosophy-1dac0f5171ec80c58c7cc458bfbcef78?pvs=21)
 - [Epistemology](https://www.notion.so/Epistemology-0e47f3d857c544c6b08bc991c24c8891?pvs=21)

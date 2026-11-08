@@ -23,7 +23,7 @@ tags: [document, art-history, sculpture, guilds, paper]
 
 > [**Relevance**] Very high. It gives direct evidence of actual examination pieces and admission to mastery, and contrasts workshop training with the academic model.
 
-Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/view.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

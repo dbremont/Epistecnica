@@ -82,7 +82,7 @@ tags: [note, technique]
 
 ## **Benchmark**
 
-> See more in [**Benchmarking**](/note.html?p=notes/technica/computation/system/evaluation/benchmarking.md).
+> See more in [**Benchmarking**](/view.html?p=notes/technica/computation/system/evaluation/benchmarking.md).
 > 
 
 ### 🎯 Metric
@@ -203,7 +203,7 @@ tags: [note, technique]
 ## References
 
 - https://en.wikipedia.org/wiki/Cache_(computing)
-- [**In-Memory Data Grid (IMDG)**](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/in-memory-data-grid-imdg.md)
+- [**In-Memory Data Grid (IMDG)**](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/in-memory-data-grid-imdg.md)
 - https://github.com/dbremont/system-design-labs/tree/main
 - [ ]  https://cache2k.org/benchmarks.html
 - [ ]  https://github.com/xeoncross/go-cache-benchmark

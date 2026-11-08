@@ -4,7 +4,7 @@ tags: [note, technique]
 
 # Lock-Free Data Structure
 
-- [Representation Problem: Associative Data](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/representation-problem-associative-data.md)
+- [Representation Problem: Associative Data](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/representation-problem-associative-data.md)
 
 > A **lock-free data structure** is designed to allow multiple threads to operate on its elements concurrently without using mutual exclusions (locks), thus preventing threads from blocking each other and ensuring system-wide progress.
 > 

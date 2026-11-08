@@ -4,7 +4,7 @@ tags: [note, java, language]
 
 # Java
 
-- [Java HotSpot Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
+- [Java HotSpot Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java-hotspot-virtual-machine.md)
 
 > **Java** is a high-level, object-oriented programming language designed to be platform-independent, enabling developers to write code that can run on any device with a compatible **Java Virtual Machine (JVM)**.
 > 
@@ -56,7 +56,7 @@ Todo:
 
 ## 🏗️ Model of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 | **Programming Model** | **Description** |
@@ -117,7 +117,7 @@ Java: **🧩** Modularization
 
 ## **🔄 Computation Flow Primitive**
 
-> See more in [Concurrency](/note.html?p=notes/technica/computation/concurrency.md) and [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
+> See more in [Concurrency](/view.html?p=notes/technica/computation/concurrency.md) and [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md).
 > 
 
 > Instruction Stream:   What is the execution path?
@@ -197,9 +197,9 @@ Java: `🎭` Miscelanea
 
 ## 🔗 References
 
-- [**Process**](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/process.md)
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
-- [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [**Process**](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/process.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - Library & Non Components:
     - https://github.com/dbremont/system-design-labs

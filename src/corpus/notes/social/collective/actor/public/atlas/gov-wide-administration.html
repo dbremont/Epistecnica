@@ -263,7 +263,7 @@
     <strong>assignment rule</strong>: assign one value per element and you have the
     <strong>comparative profile</strong> of a concrete system. The systems name no verdicts;
     evaluation uses the elements, never a single rank. Canonical tables live in the
-    <a id="ledeGovWide" href="/note.html?p=notes/social/collective/actor/public/gov-wide-administration.md">Government-Wide Administrative System</a>
+    <a id="ledeGovWide" href="/view.html?p=notes/social/collective/actor/public/gov-wide-administration.md">Government-Wide Administrative System</a>
     note; this atlas is an explorer, not a fork.</p>
     <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
 
@@ -393,7 +393,7 @@
             .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     }
     function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
-    function noteUrl(path) { return WEB + "/note.html?p=notes/" + path; }
+    function noteUrl(path) { return WEB + "/view.html?p=notes/" + path; }
     function shortLabel(path) {
         return String(path).split("/").pop().replace(/\.md$/, "").split("-").map(function (w) {
             return w.charAt(0).toUpperCase() + w.slice(1);

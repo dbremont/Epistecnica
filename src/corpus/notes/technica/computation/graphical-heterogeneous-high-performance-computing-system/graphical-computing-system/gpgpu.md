@@ -37,4 +37,4 @@ tags: [note]
 - Cuda, or OpenCL?
 [https://www.reddit.com/r/GraphicsProgramming/comments/xk2w0s/cuda_or_opencl/](https://www.reddit.com/r/GraphicsProgramming/comments/xk2w0s/cuda_or_opencl/)
 - https://en.wikipedia.org/wiki/Compute_kernel
-- [GPU](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/gpu.md)
+- [GPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/gpu.md)

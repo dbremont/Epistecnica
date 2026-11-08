@@ -36,6 +36,6 @@ tags: [note, debug]
 - [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol/)
 - [TED: The Tiny Exfiltrating Debugger](https://www.codereversing.com/archives/561)
 
-[GDB (GNU Project Debugger)](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
+[GDB (GNU Project Debugger)](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/gdb-gnu-project-debugger.md)
 
-[ELF (Executable and Linkable Format)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
+[ELF (Executable and Linkable Format)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)

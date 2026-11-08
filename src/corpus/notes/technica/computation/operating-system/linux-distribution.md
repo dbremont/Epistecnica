@@ -409,27 +409,27 @@ cat /etc/X11/default-display-manager
 
 ## References
 
-[Debian](/note.html?p=notes/technica/computation/operating-system/linux-distribution/debian.md)
+[Debian](/view.html?p=notes/technica/computation/operating-system/linux-distribution/debian.md)
 
-[Fedora](/note.html?p=notes/technica/computation/operating-system/linux-distribution/fedora.md)
+[Fedora](/view.html?p=notes/technica/computation/operating-system/linux-distribution/fedora.md)
 
-[Ubuntu](/note.html?p=notes/technica/computation/operating-system/linux-distribution/ubuntu.md)
+[Ubuntu](/view.html?p=notes/technica/computation/operating-system/linux-distribution/ubuntu.md)
 
-[Gentoo](/note.html?p=notes/technica/computation/operating-system/linux-distribution/gentoo.md)
+[Gentoo](/view.html?p=notes/technica/computation/operating-system/linux-distribution/gentoo.md)
 
-[Kali Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/kali-linux.md)
+[Kali Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/kali-linux.md)
 
-[openSUSE](/note.html?p=notes/technica/computation/operating-system/linux-distribution/opensuse.md)
+[openSUSE](/view.html?p=notes/technica/computation/operating-system/linux-distribution/opensuse.md)
 
-[Arch Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md)
+[Arch Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/arch-linux.md)
 
-[Rocky Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/rocky-linux.md)
+[Rocky Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/rocky-linux.md)
 
-[Alpine Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/alpine-linux.md)
+[Alpine Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/alpine-linux.md)
 
-[Tiny Core Linux](/note.html?p=notes/technica/computation/operating-system/linux-distribution/tiny-core-linux.md)
+[Tiny Core Linux](/view.html?p=notes/technica/computation/operating-system/linux-distribution/tiny-core-linux.md)
 
-- [Linux](/note.html?p=notes/technica/computation/operating-system/linux/linux.md)
+- [Linux](/view.html?p=notes/technica/computation/operating-system/linux/linux.md)
 - https://www.kernel.org/
-- [Hyprland](/note.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
-- [Linux Security Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-security-stack.md)
+- [Hyprland](/view.html?p=notes/technica/computation/operating-system/linux/hyprland.md)
+- [Linux Security Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-security-stack.md)

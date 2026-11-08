@@ -26,4 +26,4 @@ tags: [note, mathematics, method, technique, analytical]
 
 - https://en.wikipedia.org/wiki/Stationary_phase_approximation
 - https://en.wikipedia.org/wiki/Laplace%27s_method
-- [Asymptotic Analysis](asymptotic-analysis.md) · [Perturbation Method](perturbation-method.md) · [Generating Function](../transform/generating-function.md) · [Fourier Transform](/note.html?p=notes/epistemica/singular/fourier-transform.md)
+- [Asymptotic Analysis](asymptotic-analysis.md) · [Perturbation Method](perturbation-method.md) · [Generating Function](../transform/generating-function.md) · [Fourier Transform](/view.html?p=notes/epistemica/singular/fourier-transform.md)

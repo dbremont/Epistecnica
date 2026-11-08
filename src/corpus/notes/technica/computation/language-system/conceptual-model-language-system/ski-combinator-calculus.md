@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # SKI Combinator Calculus
 
-- [Functional Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
+- [Functional Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/functional-model-of-computation.md)
 
 …
 

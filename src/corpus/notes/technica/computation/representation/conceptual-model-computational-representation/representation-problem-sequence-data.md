@@ -27,6 +27,6 @@ tags: [note, domain]
 - [In defense of linked lists](http://antirez.com/news/138)
 - Perlis, Alan J., and Charles Thornton. “Symbol manipulation by threaded lists.” Communications of the ACM 3.4 (1960): 195-204.
 
-[Skip List](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/skip-list.md)
+[Skip List](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/skip-list.md)
 
-[**Linked Lists**](/note.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/representation-problem-sequence-data/linked-lists.md)
+[**Linked Lists**](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/representation-problem-sequence-data/linked-lists.md)

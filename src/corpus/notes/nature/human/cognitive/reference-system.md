@@ -75,8 +75,8 @@ where:
 - "The Embodied Mind" — Francisco Varela, Evan Thompson, Eleanor Rosch
 - "Laws of Form" — George Spencer-Brown
 - "On Intelligence" — Jeff Hawkins
-- [Cognitive](/note.html?p=notes/nature/cognitive.md)
-- [Reference](/note.html?p=notes/nature/reference.md)
+- [Cognitive](/view.html?p=notes/nature/cognitive.md)
+- [Reference](/view.html?p=notes/nature/reference.md)
 
 ## Provenance
 

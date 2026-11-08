@@ -18,7 +18,7 @@ tags: [note, epistemology, tooling]
 > **Note:** Since the set of epistemic tools is vast, it is not possible to present them exhaustively here; refer instead to domain-specific epistemic toolsets.
 > 
 
-> This can include (notions like [State](/note.html?p=notes/epistemica/epistemic/theory/state.md)), procedures like ([Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md) → [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md)), Modelado, Modelado, Formal System, etc.
+> This can include (notions like [State](/view.html?p=notes/epistemica/epistemic/theory/state.md)), procedures like ([Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) → [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)), Modelado, Modelado, Formal System, etc.
 > 
 
 > **Tags:** Should include epistemic activities (e.g., `#activity`), epistemic artifacts (e.g., `@artifact`), and other annotations (e.g., `$annotation`).  If it’s a class it should be `$class` , if it’s a tool  `$tool` .

@@ -4,7 +4,7 @@ tags: [note, philosophical-system]
 
 # Heidegger’s Method
 
-Related: [Philosophical System](/note.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Husserl’s Method](/note.html?p=notes/epistemica/epistemic/guidance/method/husserl-method.md)
+Related: [Philosophical System](/view.html?p=notes/epistemica/epistemic/guidance/method/philosophical-system.md), [Husserl’s Method](/view.html?p=notes/epistemica/epistemic/guidance/method/husserl-method.md)
 
 > **Note:** This is not a metaphysical-epistemological system; it is primarily a philosophical social theory.
 > 

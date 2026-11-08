@@ -27,7 +27,7 @@ tags: [note]
 > **Dependability** is the degree to which a **computational system** can justifiably be relied upon to deliver its specified services under stated conditions.
 > 
 
-> See more in [Dependability](/note.html?p=notes/technica/computation/dependability.md).
+> See more in [Dependability](/view.html?p=notes/technica/computation/dependability.md).
 > 
 
 ## Technical Requirement Type Set
@@ -98,8 +98,8 @@ tags: [note]
 
 ## References
 
-- [Documentation](/note.html?p=notes/technica/computation/system/documentation.md)
-- [Fault-Tolerant Design](/note.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
+- [Documentation](/view.html?p=notes/technica/computation/system/documentation.md)
+- [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
 - https://www.bremontix.xyz/lab/pro/Catalog/Production/Regime/Technoetism/
 - https://githubnext.com/projects/speclang/
 - [A Guide on AI-Assisted Programming](https://app.notion.com/p/A-Guide-on-AI-Assisted-Programming-2c1c0f5171ec802f8be1d2b1d6d6c92c?pvs=21)

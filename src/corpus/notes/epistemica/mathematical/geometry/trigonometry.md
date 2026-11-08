@@ -173,7 +173,7 @@ tags: [note, mathematics, framework]
 > Other Ways to represent trigonometric functions.
 > 
 
-> See more in [**Polynomial**](/note.html?p=notes/epistemica/mathematical/equation/polynomial.md)), …
+> See more in [**Polynomial**](/view.html?p=notes/epistemica/mathematical/equation/polynomial.md)), …
 > 
 
 | Representation | Formula | Use |

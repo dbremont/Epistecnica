@@ -4,7 +4,7 @@ tags: [note]
 
 # Configuration Management
 
-- [Secret Management](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/secret-management.md)
+- [Secret Management](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/secret-management.md)
 
 > The “**Configuration Management**” is a framework that outlines the processes and practices for systematically handling, controlling, and updating configurations within a system or organization.
 > 

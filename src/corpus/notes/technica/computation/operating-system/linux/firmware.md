@@ -4,7 +4,7 @@ tags: [note, firmware]
 
 # Firmware
 
-- [Boot Firmware Subsystem](/note.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md), [Booting (Initialization)](/note.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
+- [Boot Firmware Subsystem](/view.html?p=notes/technica/computation/operating-system/linux/boot-firmware-subsystem.md), [Booting (Initialization)](/view.html?p=notes/technica/computation/operating-system/linux/booting-initialization.md)
 
 > In this note we will explore a class of software, firmware software.
 > 

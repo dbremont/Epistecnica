@@ -88,12 +88,12 @@ Guiding Questions:
 
 ## References
 
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
-- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
-- [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
-- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
+- [Evaluation Model](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Memory  Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Runtime Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
+- [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - [The Rust runtime](https://doc.rust-lang.org/reference/runtime.html#the-rust-runtime)
 - [Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html)
 - [Memory model](https://doc.rust-lang.org/reference/memory-model.html#memory-model)

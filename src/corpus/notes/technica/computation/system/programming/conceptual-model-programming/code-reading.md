@@ -4,7 +4,7 @@ tags: [note, process]
 
 # Code Reading
 
-- [Readability](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/readability.md)
+- [Readability](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/readability.md)
 
 > How to read code? How to understand code?
 > 

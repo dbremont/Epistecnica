@@ -107,6 +107,6 @@ Temporal and Morphological Types:
 * [Agency](https://righteous-guardian-68f.notion.site/Agency-eebe9b5a15d84a3db7a1a1273fc29a2c?source=copy_link )
 * [Mechanism](https://www.notion.so/Mechanism-305598edb79080f3b8d9d8fcda9b6d94?source=copy_link )
 * [Technique](https://www.notion.so/Technique-15f598edb790814db56bd7b10a4de600?v=15f598edb79081e2b0e7000c9d41b09a&source=copy_link )
-* [Technology](/note.html?p=notes/social/structural/technical/technology.md)
+* [Technology](/view.html?p=notes/social/structural/technical/technology.md)
 * [Agency — Locus Instrumentorum](../action/public/agency.md)
 * Meadows, Donella. *Leverage Points: Places to Intervene in a System* (2015).

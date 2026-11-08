@@ -14,7 +14,7 @@ tags: [note, status, recognition, social-element]
 
 ### What type of social element does this instance belong to?
 
-**Status belongs to the attributive reading of standing** — it attaches to an actor rather than standing alone: `Social Actor (→ Attribute)` in the guide's own link grammar. Its layer is **Synontic** where it exists through collective recognition (honor, prestige, reputation) with **Ontic** anchors where it is inscribed (badges, titles, offices, registers). It is typed under [Actor](/note.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology.
+**Status belongs to the attributive reading of standing** — it attaches to an actor rather than standing alone: `Social Actor (→ Attribute)` in the guide's own link grammar. Its layer is **Synontic** where it exists through collective recognition (honor, prestige, reputation) with **Ontic** anchors where it is inscribed (badges, titles, offices, registers). It is typed under [Actor](/view.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as **Normative** where rank orders are backed by enforceable rules, and as a **Social Role** where a standing is occupied as an expectation-tag (office, degree, rank). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -34,7 +34,7 @@ Readable secondarily as **Normative** where rank orders are backed by enforceabl
 | Status `(→ Kind)` Prestige           | Esteem accorded for achievement, character, reputation, or distinction.                                                                                                                 |
 | Status `(→ Kind)` Rank               | Ordered position in a hierarchy.                                                                                                                                                        |
 | Status `(→ Kind)` Seniority          | Standing based on tenure, age, or precedence.                                                                                                                                           |
-| Status `(→ Kind)` Citizenship Status | Membership standing in a polity; see [Citizenship](/note.html?p=notes/social/synontic/citizenship.md).                                                                                           |
+| Status `(→ Kind)` Citizenship Status | Membership standing in a polity; see [Citizenship](/view.html?p=notes/social/synontic/citizenship.md).                                                                                           |
 | Status `(→ Kind)` Vecino             | (Castille)  Recognized membership status in a local community, historically associated with locality-specific rights, obligations, and forms of participation in Iberian societies.                 |
 | Status `(→ Kind)` Burgess Status     | Recognized standing as a member of a borough or chartered town, potentially carrying civic rights, privileges, and obligations in historical Britain and other European contexts.       |
 | Status `(→ Kind)` Freeman Status     | Standing as a person recognized as free under a particular legal or communal order, potentially distinguishing the person from serfs, enslaved persons, or other dependent populations. |
@@ -54,12 +54,12 @@ Readable secondarily as **Normative** where rank orders are backed by enforceabl
 
 ## References
 
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Actor](/note.html?p=notes/social/collective/actor/actor.md) (root hub: standings attach to actors)
-- [Synontic](/note.html?p=notes/social/synontic/synontic.md) (recognition-constituted elements)
-- [Collective](/note.html?p=notes/social/collective/collective.md) (the recognizing body)
-- [Citizenship](/note.html?p=notes/social/synontic/citizenship.md) (membership standing in a polity)
-- [Legitimacy](/note.html?p=notes/social/normative/legitimacy.md) (the warrant behind recognized standing)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: standings attach to actors)
+- [Synontic](/view.html?p=notes/social/synontic/synontic.md) (recognition-constituted elements)
+- [Collective](/view.html?p=notes/social/collective/collective.md) (the recognizing body)
+- [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (membership standing in a polity)
+- [Legitimacy](/view.html?p=notes/social/normative/legitimacy.md) (the warrant behind recognized standing)
 - Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922)
 - Veblen, T. (1899). *The theory of the leisure class*. Macmillan.
 - Bourdieu, P. (1984). *Distinction: A social critique of the judgement of taste* (R. Nice, Trans.). Harvard University Press. (Original work published 1979)

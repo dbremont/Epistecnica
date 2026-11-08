@@ -319,7 +319,7 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 | **F-test (ANOVA)** | $F = MS_{\text{between}}/MS_{\text{within}}$ | $F$ with the appropriate degrees of freedom | upper-tail probability |
 | **Permutation test** | any test statistic | permutation distribution under exchangeability | proportion of permuted statistics at least as extreme |
 
-> The full procedure space — parametric, rank-based, exact, resampling, survival — and the assumptions each type carries are in [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md).
+> The full procedure space — parametric, rank-based, exact, resampling, survival — and the assumptions each type carries are in [Statistical Hypothesis Testing](/view.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md).
 
 ### Why Is Hypothesis Testing a Form of Model Validation?
 
@@ -369,10 +369,10 @@ p(x) \;=\; \sup_{\theta \in \Theta_0} \; P_\theta\big(T(X) \succeq t_{\text{obs}
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
-- [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
-- [Validation](/note.html?p=notes/epistemica/validation/validation.md)
-- [Calibration](/note.html?p=notes/epistemica/validation/calibration.md)
-- [E-value](/note.html?p=notes/epistemica/validation/e-value.md)
+- [Statistical Hypothesis Testing](/view.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
+- [Validation](/view.html?p=notes/epistemica/validation/validation.md)
+- [Calibration](/view.html?p=notes/epistemica/validation/calibration.md)
+- [E-value](/view.html?p=notes/epistemica/validation/e-value.md)
 - [EES atlas](/corpus/notes/epistemica/ees.html)
 - [P-Value Atlas](/corpus/notes/epistemica/validation/atlas/pvalue.html) — the null distributions, their tail formulas, and a simulation lab
 - Goodman, S. (2008). A dirty dozen: Twelve p-value misconceptions. *Seminars in Hematology*, 45(3), 135–140.

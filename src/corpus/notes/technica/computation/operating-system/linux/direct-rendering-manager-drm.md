@@ -4,7 +4,7 @@ tags: [note, driver, graphics, module]
 
 # Direct Rendering Manager (DRM)
 
-- [Linux Graphics Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md), [Direct Rendering Infrastructure (DRI)](/note.html?p=notes/technica/computation/operating-system/linux/direct-rendering-infrastructure-dri.md)
+- [Linux Graphics Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-graphics-stack.md), [Direct Rendering Infrastructure (DRI)](/view.html?p=notes/technica/computation/operating-system/linux/direct-rendering-infrastructure-dri.md)
 
 > The **Direct Rendering Manager (DRM)** is a **kernel module** on Linux that provides the necessary infrastructure for **direct access to graphics hardware**. It manages the interaction between the GPU hardware and user-space applications, enabling efficient rendering and video playback without needing the X server. DRM is part of the **Graphics Subsystem** of the Linux kernel.
 > 

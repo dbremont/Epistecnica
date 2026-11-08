@@ -206,4 +206,4 @@ The key qualification is that this classification concerns the **principal domai
 
 - https://en.wikipedia.org/wiki/Principle
 - [Principle](/glossarium/?t=principle)
-- [Social Action Principle](/note.html?p=notes/social/action/guidance/social-action-principle.md)
+- [Social Action Principle](/view.html?p=notes/social/action/guidance/social-action-principle.md)

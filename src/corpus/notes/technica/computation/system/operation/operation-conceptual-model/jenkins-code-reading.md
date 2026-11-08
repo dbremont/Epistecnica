@@ -94,5 +94,5 @@ java -jar agent.jar -url http://localhost:8080/ -secret cea61092b2dc8796999bd51f
 ## References
 
 - https://github.com/jenkinsci/jenkins
-- [Scripting Integration](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/scripting-integration.md)
+- [Scripting Integration](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/scripting-integration.md)
 - https://www.jenkins.io/doc/book/using/using-agents/clear

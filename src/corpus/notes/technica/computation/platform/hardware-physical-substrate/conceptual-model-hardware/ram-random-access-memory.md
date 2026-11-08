@@ -4,7 +4,7 @@ tags: [note]
 
 # RAM (Random-access Memory)
 
-- [Memory](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/memory.md)
+- [Memory](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/memory.md)
 
 > A concise, structured note about volatile main memory used in modern computing systems. This document summarizes core concepts, internal organization, parallelism, performance characteristics, interfaces, system interactions, and vendor/technology comparisons.
 > 

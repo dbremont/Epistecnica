@@ -10,4 +10,4 @@ tags: [note]
 
 - [Kolmogorov Complexity](https://en.wikipedia.org/wiki/Kolmogorov_complexity)
 
-[**Minimum Description Length** (**MDL**)](/note.html?p=notes/epistemica/epistemic/guidance/principle/minimum-description-length-mdl.md)
+[**Minimum Description Length** (**MDL**)](/view.html?p=notes/epistemica/epistemic/guidance/principle/minimum-description-length-mdl.md)

@@ -4,7 +4,7 @@ tags: [note, linguistic-abstraction]
 
 # Data Type
 
-- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
 
 > **Active Objects** are objects that encapsulate their own **thread of control**.
 > 

@@ -36,4 +36,4 @@ Readable secondarily as a `Jurisdiction` (the Municipality of Athens as a bounde
 ## References
 
 - [Athens — Wikipedia](https://en.wikipedia.org/wiki/Athens) (capital, population, institutions)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)

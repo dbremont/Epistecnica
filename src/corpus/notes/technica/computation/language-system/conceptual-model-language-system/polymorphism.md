@@ -4,7 +4,7 @@ tags: [note, type-system]
 
 # Polymorphism
 
-- [Subtyping](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/subtyping.md)
+- [Subtyping](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/subtyping.md)
 
 > **Polymorphism** is the ability to write code that works with values of multiple types, including parametric polymorphism (generics) and subtype polymorphism (inheritance).
 > 

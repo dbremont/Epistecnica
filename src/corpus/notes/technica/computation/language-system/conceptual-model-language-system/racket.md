@@ -15,7 +15,7 @@ QA:
 
 ## 🧮 Model of Computation
 
-> What are the models of computation that  the language supports? See more in [Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> What are the models of computation that  the language supports? See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
 > 
 
 > Racket supports **functional**, **continuation-based**, **stateful**, **object-oriented**, **concurrent**, **logic**, **stream**, **macro-rewriting**, and **language-oriented** models of computation — with **lambda calculus** and **programmable language creation (`#lang`)** at its center.
@@ -26,7 +26,7 @@ QA:
 
 ## 📜 Language Specification
 
-> See more in [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
+> See more in [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
 > 
 
 > The Language Specification precisely defines the rules for **Lexical Grammar** (token formation and character sets), **Syntactic Grammar** (structure, ambiguities, operator precedence), **binding** (associating names with values and constructs), **Scoping Rules** (name visibility and lifetime), and **Semantics** (the meaning of expressions, statements, and program behavior), establishing the formal foundation for how programs are written, interpreted, and executed.
@@ -36,7 +36,7 @@ Racket: 📜 Language Specification
 
 ## **🏷️**Type System
 
-> See more in [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md).
+> See more in [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md).
 > 
 
 > The Type System defines how a language classifies, checks, and enforces types—covering static vs. dynamic typing, polymorphism, type inference, subtyping models, type safety, advanced features like union or dependent types, and runtime behaviors such as type erasure or reflection—establishing the formal rules for how values and operations are typed and validated throughout program execution.
@@ -148,8 +148,8 @@ Racket: 🛠️ Tooling & Ecosystem
 
 ## 🔗 References
 
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
-- [Language System](/note.html?p=notes/technica/computation/language-system.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - https://github.com/csiglab/language-system-labs
 - [A Guide to Study Programming Language](https://app.notion.com/p/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?pvs=21)

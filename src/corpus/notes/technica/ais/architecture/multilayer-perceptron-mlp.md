@@ -56,8 +56,8 @@ Where:
 
 ## References
 
-- [Representation](/note.html?p=notes/epistemica/observational/computational/representation.md)
-- [Input Representation](/note.html?p=notes/epistemica/observational/computational/input-representation.md)
+- [Representation](/view.html?p=notes/epistemica/observational/computational/representation.md)
+- [Input Representation](/view.html?p=notes/epistemica/observational/computational/input-representation.md)
 - https://en.wikipedia.org/wiki/Multilayer_perceptron
 - https://www.cs.toronto.edu/~kriz/cifar.html
 - https://d2l.ai/chapter_multilayer-percep

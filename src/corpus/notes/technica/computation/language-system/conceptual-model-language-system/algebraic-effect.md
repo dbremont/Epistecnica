@@ -4,7 +4,7 @@ tags: [note, effect-system]
 
 # Algebraic Effect
 
-- [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md)
+- [Effect System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md)
 
 > Algebraic effects provide a way to describe and manipulate **computational effects** in a modular and compositional manner. They offer a more flexible approach compared to monads, allowing for dynamic modification of effect handling.
 > 

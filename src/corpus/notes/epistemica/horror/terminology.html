@@ -440,7 +440,7 @@
 
     function slugify(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, '-'); }
 
-    function noteHref(path) { return '/note.html?p=notes/' + path.split('/').map(encodeURIComponent).join('/'); }
+    function noteHref(path) { return '/view.html?p=notes/' + path.split('/').map(encodeURIComponent).join('/'); }
 
     function sourceLine(src) {
       if (src.url) {

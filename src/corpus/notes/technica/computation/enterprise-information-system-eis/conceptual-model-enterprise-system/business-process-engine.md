@@ -19,7 +19,7 @@ tags: [note, process]
 - [N8N](https://n8n.io/)
 - [budibase](https://github.com/budibase/budibase)
 - [activepieces](https://github.com/activepieces/activepieces)
-- [Workflow](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/workflow.md)
+- [Workflow](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/workflow.md)
 - https://en.wikipedia.org/wiki/JBPM
 - https://en.wikipedia.org/wiki/Apache_ODE
 - https://en.wikipedia.org/wiki/Apache_Airflow

@@ -4,7 +4,7 @@ tags: [note]
 
 # Computer Vision
 
-- [Computer Graphics](/note.html?p=notes/technica/computation/miscelanea/computer-graphics.md)
+- [Computer Graphics](/view.html?p=notes/technica/computation/miscelanea/computer-graphics.md)
 
 > Computer Vision is the praxis of interpreting and understanding visual information from the physical world through computational systems, integrating methods from image processing, pattern recognition, machine learning, and artificial intelligence to enable automated perception, reasoning, and decision-making based on visual data.
 > 

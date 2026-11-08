@@ -4,14 +4,14 @@ tags: [note, code-generation, language-system]
 
 # Just-in-time (JIT) Compilation
 
-- [Bytecode Virtual Machine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md)
+- [Bytecode Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md)
 
 > **Just-in-time (JIT) Compilation** is a dynamic translation technique that converts intermediate bytecode into native machine code at runtime, optimizing execution by leveraging runtime profiling, caching compiled code, and eliminating interpretation overhead.
 > 
 
 QA:
 
-- How does the JIT-generated code interact with the VM `state and bytecode`? [How does the JIT-generated code interact with the VM `state and bytecode`?](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/just-in-time-jit-compilation.md)
+- How does the JIT-generated code interact with the VM `state and bytecode`? [How does the JIT-generated code interact with the VM `state and bytecode`?](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/just-in-time-jit-compilation.md)
 - …
 
 ## JIT Technique

@@ -172,14 +172,14 @@ Contrast with wave-like behavior:
 - https://en.wikipedia.org/wiki/Elementary_particle
 - https://www.quantamagazine.org/what-is-a-particle-20201112/
 - https://en.wikipedia.org/wiki/Free_particle
-- [Inertia](/note.html?p=notes/nature/inertia.md)
+- [Inertia](/view.html?p=notes/nature/inertia.md)
 
 ## Related
 
-- [Photon](/note.html?p=notes/nature/photon.md)
-- [Mass](/note.html?p=notes/nature/mass.md)
-- [Field](/note.html?p=notes/nature/field.md)
-- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Photon](/view.html?p=notes/nature/photon.md)
+- [Mass](/view.html?p=notes/nature/mass.md)
+- [Field](/view.html?p=notes/nature/field.md)
+- [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 
 ## Provenance
 

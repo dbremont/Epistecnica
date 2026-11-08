@@ -4,7 +4,7 @@ tags: [note, model-of-computation, computer-system, coordination]
 
 # Time
 
-- [Timestamping](/note.html?p=notes/technica/computation/miscelanea/timestamping.md), [Calendar](/note.html?p=notes/technica/computation/miscelanea/calendar.md)
+- [Timestamping](/view.html?p=notes/technica/computation/miscelanea/timestamping.md), [Calendar](/view.html?p=notes/technica/computation/miscelanea/calendar.md)
 
 > Time (clock): A technology to index events.
 > 
@@ -30,8 +30,8 @@ tags: [note, model-of-computation, computer-system, coordination]
 QA:
 
 - What is a time-zone?
-- What is High Precision Time Measure? [What is High Precision Time Measure?](/note.html?p=notes/technica/computation/miscelanea/time.md)
-- How long does it take for the Earth to orbit the Sun?  [How long does it take for the Earth to orbit the Sun?](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- What is High Precision Time Measure? [What is High Precision Time Measure?](/view.html?p=notes/technica/computation/miscelanea/time.md)
+- How long does it take for the Earth to orbit the Sun?  [How long does it take for the Earth to orbit the Sun?](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - How to know if a Year is  a leap Year?
 - How UTC handles keeps tracks of the tropical  year?
 - What are the requirements for a good clock and time standard?
@@ -39,7 +39,7 @@ QA:
 - What is a leap second? How to handle leap seconds? What is a leap year?
 - How to synchronize clocks? What happens when clocks have **different precision**?
 - Which are the most common problems in **time management in computing systems**?
-- How do synchronization protocols handle transmission delays when syncing clocks? [How do synchronization protocols handle transmission delays when syncing clocks?](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- How do synchronization protocols handle transmission delays when syncing clocks? [How do synchronization protocols handle transmission delays when syncing clocks?](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - What factors lead to discrepancies between a local clock and UTC, and what methods are used to maintain synchronization?
 - What is the difference between date and time? …
 
@@ -89,7 +89,7 @@ References:
 
 - https://www.ibm.com/docs/en/watsonx/saas?topic=analysis-time-reference-system
 - https://science.nasa.gov/learn/basics-of-space-flight/chapter2-3/
-- [Clock](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/clock.md)
+- [Clock](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/clock.md)
 
 ## Calendar System
 
@@ -102,7 +102,7 @@ References:
 > **Human societies** have traditionally structured their calendars around the cycles of the seasons, which are driven by Earth's orbit around the Sun. This is why most civilian time standards incorporate adjustments like leap years and daylight saving time to keep them aligned with seasonal changes.
 > 
 
-> See more in [Calendar](/note.html?p=notes/technica/computation/miscelanea/calendar.md).
+> See more in [Calendar](/view.html?p=notes/technica/computation/miscelanea/calendar.md).
 > 
 
 The underlying reason is that agricultural, economic, and cultural activities have historically depended on predictable seasonal shifts. For example:
@@ -115,7 +115,7 @@ References
 
 - https://en.wikipedia.org/wiki/Calendar
 - https://en.wikipedia.org/wiki/Gregorian_calendar
-- [Calendar](/note.html?p=notes/technica/computation/miscelanea/calendar.md)
+- [Calendar](/view.html?p=notes/technica/computation/miscelanea/calendar.md)
 
 ## Leap Second
 
@@ -372,9 +372,9 @@ References
 
 Review the specific protocols  and sync tools to see how they manage these challenges:
 
-- [**Network Time Protocol (NTP)**](/note.html?p=notes/technica/computation/miscelanea/time.md)
-- [ **Precision Time Protocol (PTP)**](/note.html?p=notes/technica/computation/miscelanea/time.md)
-- [**GPS Timing**](/note.html?p=notes/technica/computation/miscelanea/time.md)
+- [**Network Time Protocol (NTP)**](/view.html?p=notes/technica/computation/miscelanea/time.md)
+- [ **Precision Time Protocol (PTP)**](/view.html?p=notes/technica/computation/miscelanea/time.md)
+- [**GPS Timing**](/view.html?p=notes/technica/computation/miscelanea/time.md)
 
 ## What factors lead to discrepancies between a local clock system and UTC, and what methods are used to maintain synchronization?
 

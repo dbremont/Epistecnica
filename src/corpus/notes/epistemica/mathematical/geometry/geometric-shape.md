@@ -47,7 +47,7 @@ The hierarchy is nested: isometry $\subset$ similarity $\subset$ affine $\subset
 
 > **Boundary.** This table decomposes one epistemic instance — the geometric shape as an element of the geometrical sign system — and only what derives from it: the figure forms the shape admits and the properties it carries. The first row declares the path; every other row extends it. The shape's own constituents (boundary, interior, vertex, edge, face, cell, hole, handle, curvature, symmetry) and the system's constitutive substrate (transformation groups, equivalence rules, invariants, shape-space quotients, formation rules) are parts of `Geometry`, not of a single shape: no permitted link form hangs them under a `Representation Element`, so they are carried by this note's `## Component`, `## Invariants`, and `## Shape Space` sections rather than grown here.
 
-> **Stopping rule.** A row is terminal when it names a concrete figure form — a point, curve, polygon kind, polyhedron, surface, polytope, or arrangement — or a predicated feature of the shape. No figure is decomposed into its own combinatorics: the geometry of each figure is carried by its own note ([Polygon](/note.html?p=notes/epistemica/mathematical/geometry/polygon.md), [Triangle](/note.html?p=notes/epistemica/mathematical/geometry/triangle.md), [Plane](/note.html?p=notes/epistemica/mathematical/geometry/plane.md), [Hyperplane](/note.html?p=notes/epistemica/mathematical/geometry/hyperplane.md), [Euclidean Geometry](/note.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md)).
+> **Stopping rule.** A row is terminal when it names a concrete figure form — a point, curve, polygon kind, polyhedron, surface, polytope, or arrangement — or a predicated feature of the shape. No figure is decomposed into its own combinatorics: the geometry of each figure is carried by its own note ([Polygon](/view.html?p=notes/epistemica/mathematical/geometry/polygon.md), [Triangle](/view.html?p=notes/epistemica/mathematical/geometry/triangle.md), [Plane](/view.html?p=notes/epistemica/mathematical/geometry/plane.md), [Hyperplane](/view.html?p=notes/epistemica/mathematical/geometry/hyperplane.md), [Euclidean Geometry](/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md)).
 
 > **Identity.** Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique, and no type segment terminates a branch. The quadrilateral kinds form a lattice, so the tree grows by the constraint each kind adds: Square occurs twice — under Rectangle (the angle constraint) and under Rhombus (the side constraint) — and each occurrence carries its own path.
 
@@ -61,8 +61,8 @@ The hierarchy is nested: isometry $\subset$ similarity $\subset$ affine $\subset
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Line | A straight shape with no endpoints — degenerate in $\mathbb{R}^2$, since it encloses nothing. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Line Segment | The part of a line between two points: the elementary edge of every polygon. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Ray | A half-line — one endpoint, unbounded in one direction. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Plane | The 2-D elemental shape spanning all of $\mathbb{R}^3$; see [Plane](/note.html?p=notes/epistemica/mathematical/geometry/plane.md). |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Hyperplane | The $(n-1)$-dimensional flat that slices an $n$-space; see [Hyperplane](/note.html?p=notes/epistemica/mathematical/geometry/hyperplane.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Plane | The 2-D elemental shape spanning all of $\mathbb{R}^3$; see [Plane](/view.html?p=notes/epistemica/mathematical/geometry/plane.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Elemental Shapes (→ Instance) Hyperplane | The $(n-1)$-dimensional flat that slices an $n$-space; see [Hyperplane](/view.html?p=notes/epistemica/mathematical/geometry/hyperplane.md). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) One-Dimensional Shapes | The family of shapes of dimension one: curves and the pieces curves are built from. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) One-Dimensional Shapes (→ Instance) Curve | The image of a continuous interval map into space — the generic 1-D shape. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) One-Dimensional Shapes (→ Instance) Curve (→ Instance) Simple Curve | A curve with no self-intersection; its parameterization is injective. |
@@ -124,12 +124,12 @@ The hierarchy is nested: isometry $\subset$ similarity $\subset$ affine $\subset
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) One-Dimensional Shapes (→ Instance) Fractal Curve (→ Instance) Gosper Curve | The flowsnake: a hexagonal space-filling curve, the boundary of the Gosper island. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) One-Dimensional Shapes (→ Instance) Fractal Curve (→ Instance) Peano Curve | The first space-filling curve: a continuous map of the interval onto the square. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes | The family of 2-D shapes: polygonal and curved regions of the plane. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon | A simple closed polygonal chain with the region it bounds; see [Polygon](/note.html?p=notes/epistemica/mathematical/geometry/polygon.md). |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle | The 3-sided polygon — the simplest rigid shape, and the unit of every triangulation; see [Triangle](/note.html?p=notes/epistemica/mathematical/geometry/triangle.md). |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Equilateral Triangle | Three equal sides and three $60^\circ$ [angles](/note.html?p=notes/epistemica/mathematical/geometry/angle.md); regular, and a similarity class of its own. |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon | A simple closed polygonal chain with the region it bounds; see [Polygon](/view.html?p=notes/epistemica/mathematical/geometry/polygon.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle | The 3-sided polygon — the simplest rigid shape, and the unit of every triangulation; see [Triangle](/view.html?p=notes/epistemica/mathematical/geometry/triangle.md). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Equilateral Triangle | Three equal sides and three $60^\circ$ [angles](/view.html?p=notes/epistemica/mathematical/geometry/angle.md); regular, and a similarity class of its own. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Isosceles Triangle | Two equal sides and two equal base angles — one axis of symmetry. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Scalene Triangle | No equal sides, no symmetry. |
-| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Right Triangle | One $90^\circ$ angle; its sides satisfy $a^2 + b^2 = c^2$ ([Pythagorean Theorem](/note.html?p=notes/epistemica/mathematical/geometry/pythagorean-theorem.md)). |
+| `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Right Triangle | One $90^\circ$ angle; its sides satisfy $a^2 + b^2 = c^2$ ([Pythagorean Theorem](/view.html?p=notes/epistemica/mathematical/geometry/pythagorean-theorem.md)). |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Acute Triangle | All angles below $90^\circ$; the circumcentre falls inside the triangle. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Obtuse Triangle | One angle above $90^\circ$; the circumcentre falls outside. |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape (→ Instance) Planar Shapes (→ Instance) Polygon (→ Instance) Triangle (→ Instance) Isosceles Right Triangle | The $45^\circ$–$45^\circ$–$90^\circ$ shape, with sides in ratio $1 : 1 : \sqrt{2}$. |
@@ -367,16 +367,16 @@ The hierarchy is nested: isometry $\subset$ similarity $\subset$ affine $\subset
 
 | Dimension | Shapes | Examples |
 | --- | --- | --- |
-| **Elemental (degenerate)** | point, line, [plane](/note.html?p=notes/epistemica/mathematical/geometry/plane.md), [hyperplane](/note.html?p=notes/epistemica/mathematical/geometry/hyperplane.md) | a line has no interior in $\mathbb{R}^2$ |
+| **Elemental (degenerate)** | point, line, [plane](/view.html?p=notes/epistemica/mathematical/geometry/plane.md), [hyperplane](/view.html?p=notes/epistemica/mathematical/geometry/hyperplane.md) | a line has no interior in $\mathbb{R}^2$ |
 | **1-D** | curves, polylines, circles | circle, arc, spline |
-| **2-D** | polygons, disks, ellipses, fractal boundaries | [triangle](/note.html?p=notes/epistemica/mathematical/geometry/triangle.md), [polygon](/note.html?p=notes/epistemica/mathematical/geometry/polygon.md), circle |
+| **2-D** | polygons, disks, ellipses, fractal boundaries | [triangle](/view.html?p=notes/epistemica/mathematical/geometry/triangle.md), [polygon](/view.html?p=notes/epistemica/mathematical/geometry/polygon.md), circle |
 | **3-D** | polyhedra, quadrics, surfaces | tetrahedron, cube, sphere, cylinder, cone, torus |
 | **n-D** | polytopes, simplices, balls | simplex $\Delta^n$, hypercube |
 
 **By regularity and structure**
 
 - **Convex / concave** — every segment between two points stays inside, or not.
-- **Regular / irregular** — all sides and all [angles](/note.html?p=notes/epistemica/mathematical/geometry/angle.md) equal (regular polygon, Platonic solid).
+- **Regular / irregular** — all sides and all [angles](/view.html?p=notes/epistemica/mathematical/geometry/angle.md) equal (regular polygon, Platonic solid).
 - **Simple / self-intersecting** — the boundary does not cross itself, or does.
 - **Bounded / unbounded** — finite extent or not.
 - **Orientable / non-orientable** — a consistent choice of side exists (plane vs Möbius strip).
@@ -399,7 +399,7 @@ A figure may be a **shape set** rather than a single connected shape (an arrange
 | Connectedness | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Symmetry group type | ✓ | ✓ | ✓ | ✗ | ✗ |
 
-The bottom rows are the **topological invariants**: they survive every continuous deformation, which is why the same shape is studied by [topology](/note.html?p=notes/epistemica/mathematical/topology/topology.md) as by geometry.
+The bottom rows are the **topological invariants**: they survive every continuous deformation, which is why the same shape is studied by [topology](/view.html?p=notes/epistemica/mathematical/topology/topology.md) as by geometry.
 
 ## Shape Space
 
@@ -415,14 +415,14 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 
 ## Relations
 
-- [Geometry](/note.html?p=notes/epistemica/mathematical/geometry/geometry.md) — the ambient framework; a geometry is the pair (points, model of space).
-- [Angle](/note.html?p=notes/epistemica/mathematical/geometry/angle.md), [Triangle](/note.html?p=notes/epistemica/mathematical/geometry/triangle.md), [Polygon](/note.html?p=notes/epistemica/mathematical/geometry/polygon.md) — elementary planar shapes and their invariants.
-- [Plane](/note.html?p=notes/epistemica/mathematical/geometry/plane.md), [Hyperplane](/note.html?p=notes/epistemica/mathematical/geometry/hyperplane.md) — the elemental shapes that bound and slice others.
-- [Topology](/note.html?p=notes/epistemica/mathematical/topology/topology.md) — shape up to continuous deformation.
-- [Manifold](/note.html?p=notes/epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
-- [Symmetry Group](/note.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
-- [Convex Hull](/note.html?p=notes/epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
-- [Coordinate System](/note.html?p=notes/epistemica/mathematical/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
+- [Geometry](/view.html?p=notes/epistemica/mathematical/geometry/geometry.md) — the ambient framework; a geometry is the pair (points, model of space).
+- [Angle](/view.html?p=notes/epistemica/mathematical/geometry/angle.md), [Triangle](/view.html?p=notes/epistemica/mathematical/geometry/triangle.md), [Polygon](/view.html?p=notes/epistemica/mathematical/geometry/polygon.md) — elementary planar shapes and their invariants.
+- [Plane](/view.html?p=notes/epistemica/mathematical/geometry/plane.md), [Hyperplane](/view.html?p=notes/epistemica/mathematical/geometry/hyperplane.md) — the elemental shapes that bound and slice others.
+- [Topology](/view.html?p=notes/epistemica/mathematical/topology/topology.md) — shape up to continuous deformation.
+- [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
+- [Symmetry Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
+- [Convex Hull](/view.html?p=notes/epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
+- [Coordinate System](/view.html?p=notes/epistemica/mathematical/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
 
 ## QA
 

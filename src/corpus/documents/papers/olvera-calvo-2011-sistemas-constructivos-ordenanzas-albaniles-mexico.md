@@ -22,7 +22,7 @@ tags: [document, history, architecture, construction, new-spain, guilds, paper]
 
 > [**Relevance**] High. It identifies the technical knowledge and construction problems that master masons were examined on.
 
-Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/view.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

@@ -359,7 +359,7 @@
         corpus: {
             param: 'p',
             noun: 'file',
-            usage: 'note.html?p=&lt;notes|documents|courses&gt;/&lt;path&gt;',
+            usage: 'view.html?p=&lt;notes|documents|courses&gt;/&lt;path&gt;',
             titleSuffix: ' — Corpus',
             corpusDir: 'src/corpus/',
             tex: true,
@@ -386,7 +386,7 @@
         lectures.forEach(function (l) {
             var li = document.createElement('li');
             var a = document.createElement('a');
-            a.href = 'note.html?p=courses/' + encPath(l.path);
+            a.href = 'view.html?p=courses/' + encPath(l.path);
             a.textContent = l.title;
             li.appendChild(a);
             if (l.tags && l.tags.length) {

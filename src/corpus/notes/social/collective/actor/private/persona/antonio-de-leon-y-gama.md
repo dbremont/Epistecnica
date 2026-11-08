@@ -70,5 +70,5 @@ His library and papers were dispersed after his death; the French collector Jose
 
 ## See also
 
-- [José Antonio Alzate](/note.html?p=notes/social/collective/actor/private/persona/jose-antonio-alzate.md)
-- [Mexico](/note.html?p=notes/social/collective/actor/public/polity/mex/mexico.md)
+- [José Antonio Alzate](/view.html?p=notes/social/collective/actor/private/persona/jose-antonio-alzate.md)
+- [Mexico](/view.html?p=notes/social/collective/actor/public/polity/mex/mexico.md)

@@ -85,8 +85,8 @@ Gambra's logic manuals are teaching texts designed for philosophy students, and 
 
 ## See also
 
-- [Rafael Gambra Ciudad](/note.html?p=notes/social/collective/actor/private/persona/rafael-gambra-ciudad.md)
-- [Miguel Ayuso Torres](/note.html?p=notes/social/collective/actor/private/persona/miguel-ayuso-torres.md)
-- [Sixto Enrique de Borbón](/note.html?p=notes/social/collective/actor/private/persona/sixto-enrique-de-borbon-parma-y-borbon-busset.md)
-- [Juan Manuel de Prada](/note.html?p=notes/social/collective/actor/private/persona/juan-manuel-de-prada-blanco.md)
-- [Tradicionalismo](/note.html?p=notes/social/history/castilla/tradicionalismo.md)
+- [Rafael Gambra Ciudad](/view.html?p=notes/social/collective/actor/private/persona/rafael-gambra-ciudad.md)
+- [Miguel Ayuso Torres](/view.html?p=notes/social/collective/actor/private/persona/miguel-ayuso-torres.md)
+- [Sixto Enrique de Borbón](/view.html?p=notes/social/collective/actor/private/persona/sixto-enrique-de-borbon-parma-y-borbon-busset.md)
+- [Juan Manuel de Prada](/view.html?p=notes/social/collective/actor/private/persona/juan-manuel-de-prada-blanco.md)
+- [Tradicionalismo](/view.html?p=notes/social/history/castilla/tradicionalismo.md)

@@ -13,8 +13,8 @@ tags: [note, nature, phenomenon, biology, phenomena, unfinished]
 
 ## Related
 
-- [Hormone](/note.html?p=notes/nature/hormone.md)
-- [Neurotransmitter](/note.html?p=notes/nature/neurotransmitter.md)
+- [Hormone](/view.html?p=notes/nature/hormone.md)
+- [Neurotransmitter](/view.html?p=notes/nature/neurotransmitter.md)
 
 ## Provenance
 

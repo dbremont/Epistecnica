@@ -194,7 +194,7 @@ MicroStrategy (MSTR) has effectively transformed itself into a leveraged Bitcoin
 ## References
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)  
-- [Technology](/note.html?p=notes/social/structural/technical/technology.md)  
+- [Technology](/view.html?p=notes/social/structural/technical/technology.md)  
 - MicroStrategy SEC Filings (10-K, 10-Q, 8-K on Bitcoin purchases)  
 - Gartner Magic Quadrant for Analytics & BI Platforms (2020–2024)  
 - Bloomberg, CoinDesk, The Block (Bitcoin treasury reporting)

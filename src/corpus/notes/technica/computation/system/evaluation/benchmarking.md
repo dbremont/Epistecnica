@@ -14,4 +14,4 @@ Experiment Design
 
 ## References
 
-- [Performace](/note.html?p=notes/technica/computation/system/evaluation/performace.md)
+- [Performace](/view.html?p=notes/technica/computation/system/evaluation/performace.md)

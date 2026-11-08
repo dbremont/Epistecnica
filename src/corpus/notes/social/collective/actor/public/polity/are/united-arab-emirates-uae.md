@@ -156,7 +156,7 @@ tags: [note]
 - Advanced Technology Research Council (ATRC) – Technology Roadmaps  
 - UAE Space Agency – Mars Mission & Lunar Program Documentation  
 - Central Bank of the UAE – Financial Sector Development Reports  
-- [Technology](/note.html?p=notes/social/structural/technical/technology.md)
+- [Technology](/view.html?p=notes/social/structural/technical/technology.md)
 - https://gf.com/
 - https://www.youtube.com/watch?v=d7USgBB7sAQ
 - [An Introduction To Dubai’s Industrial Development Strategy](https://www.middleeastbriefing.com/news/an-introduction-to-dubais-industrial-development-strategy/)

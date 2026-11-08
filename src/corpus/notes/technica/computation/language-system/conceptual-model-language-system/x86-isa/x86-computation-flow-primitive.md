@@ -99,7 +99,7 @@ Guiding Questions:
 
 ## References
 
-- [Concurrency](/note.html?p=notes/technica/computation/concurrency.md)
-- [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
-- [Unit of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
-- [Exception Handling System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Unit of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
+- [Exception Handling System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md)

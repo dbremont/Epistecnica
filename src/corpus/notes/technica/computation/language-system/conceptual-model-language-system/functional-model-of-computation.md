@@ -4,14 +4,14 @@ tags: [note]
 
 # Functional Model of Computation
 
-- [Lambda Calculus](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md), [Declarative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [SKI Combinator Calculus](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ski-combinator-calculus.md)
+- [Lambda Calculus](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lambda-calculus.md), [Declarative Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/declarative-model-of-computation.md), [SKI Combinator Calculus](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ski-combinator-calculus.md)
 
 > Functional programming is a programming paradigm that emphasizes the use of functions as the primary means of computation, treating them as first-class citizens that can be composed and combined to build more complex programs.
 > 
 
 ## Modelling Time
 
-> See more in [Time](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md).
+> See more in [Time](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/time.md).
 > 
 
 > Functional programming is based on the idea of immutable data and pure functions, which means that a function always produces the same output given the same input, and does not have any side effects that modify the state of the program or the environment. While this approach has many advantages, it also means that functional programming is not well-suited for modeling time-dependent behavior or stateful computations.

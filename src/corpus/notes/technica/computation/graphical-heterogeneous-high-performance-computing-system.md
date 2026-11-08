@@ -12,8 +12,8 @@ GHH Computing
 ├── Heterogeneous Computing
 └── High-Performance Computing
 
-[High-Performance Computing](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/high-performance-computing.md)
+[High-Performance Computing](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/high-performance-computing.md)
 
-[Graphical Computing System](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system.md)
+[Graphical Computing System](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system.md)
 
-[Heterogeneous Computing System](/note.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/heterogeneous-computing-system.md)
+[Heterogeneous Computing System](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/heterogeneous-computing-system.md)

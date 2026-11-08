@@ -217,12 +217,12 @@ A rule that determines whether the model adequately explains or fits the observe
 > In practice, we construct models of the ontic substrate **through the mediation of a chosen formalism for  a snapshot (observation at a particular point in time)**, the so called **state (the encoding at a particular point in time of the ontic substrate)**.
 > 
 
-> See more in [State](/note.html?p=notes/epistemica/epistemic/theory/state.md).
+> See more in [State](/view.html?p=notes/epistemica/epistemic/theory/state.md).
 > 
 
 #### Representation: State Evolution, State-Context Relation,  Intra-State Relation
 
-> See more in [Context-State Relation](/note.html?p=notes/epistemica/epistemic/theory/context-state-relation.md).
+> See more in [Context-State Relation](/view.html?p=notes/epistemica/epistemic/theory/context-state-relation.md).
 > 
 
 > How can we **encode the changes** and relationships within a **piece of reality**?
@@ -426,20 +426,20 @@ Aphorisms:
 
 #### Modelling Domains
 
-[Causality](/note.html?p=notes/epistemica/causality/causality.md)
-[Simulation](/note.html?p=notes/epistemica/simulation/simulation.md)
-[Optimization](/note.html?p=notes/epistemica/optimization/optimization.md)
+[Causality](/view.html?p=notes/epistemica/causality/causality.md)
+[Simulation](/view.html?p=notes/epistemica/simulation/simulation.md)
+[Optimization](/view.html?p=notes/epistemica/optimization/optimization.md)
 [Mathematical](/explorer.html?dir=epistemica/mathematical)
-[Observational](/note.html?p=notes/epistemica/observational/observational.md)
-[Decision Making](/note.html?p=notes/epistemica/observational/decision/decision-making.md)
-[Signal Processing](/note.html?p=notes/epistemica/signal/signal-processing.md)
-[Complexity Science](/note.html?p=notes/epistemica/complexity/complexity-science.md)
-[**Statistical Mechanics**](/note.html?p=notes/epistemica/singular/statistical-mechanics.md)
-[Adaptative](/note.html?p=notes/epistemica/adaptative/adaptative.md)
-[Computational Science](/note.html?p=notes/epistemica/singular/science.md)
-[Formal Concept Analysis (FCA)](/note.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
-[**System of Units of Measurement**](/note.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md)
-[Exploratory Data Analysis (EDA)](/note.html?p=notes/epistemica/observational/exploratory-data-analysis-eda.md)
+[Observational](/view.html?p=notes/epistemica/observational/observational.md)
+[Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md)
+[Signal Processing](/view.html?p=notes/epistemica/signal/signal-processing.md)
+[Complexity Science](/view.html?p=notes/epistemica/complexity/complexity-science.md)
+[**Statistical Mechanics**](/view.html?p=notes/epistemica/singular/statistical-mechanics.md)
+[Adaptative](/view.html?p=notes/epistemica/adaptative/adaptative.md)
+[Computational Science](/view.html?p=notes/epistemica/singular/science.md)
+[Formal Concept Analysis (FCA)](/view.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
+[**System of Units of Measurement**](/view.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md)
+[Exploratory Data Analysis (EDA)](/view.html?p=notes/epistemica/observational/exploratory-data-analysis-eda.md)
 
 #### Relations among connectors
 
@@ -660,12 +660,12 @@ Aphorisms:
 
 ## References
 
-- [Philosophy](/note.html?p=notes/epistemica/epistemic/theory/philosophy.md)
-- [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+- [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md)
+- [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 - A General Guide to Representation & Estimation
 
 - **Model Theory**
-- [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md)
+- [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md)
 - (**Church–Turing Thesis**) Computationalism
 - Adaptative
 - https://en.wikipedia.org/wiki/Metamodeling
@@ -678,7 +678,7 @@ Aphorisms:
 - https://www.nature.com/articles/s41586-022-05543-x
 - Peer review is an honor-based system ([lemire.me](http://lemire.me/))
 [https://news.ycombinator.com/item?id=38982912](https://news.ycombinator.com/item?id=38982912)
-- [Ontology](/note.html?p=notes/epistemica/epistemic/theory/ontology.md)
+- [Ontology](/view.html?p=notes/epistemica/epistemic/theory/ontology.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.
@@ -689,4 +689,4 @@ Aphorisms:
 - Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
 - Pearl, J. (2009). *Causality: Models, Reasoning, and Inference* (2nd ed.). Cambridge University Press.
 
-Related: [Model](/note.html?p=notes/epistemica/epistemic/theory/model.md), [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md), [Representation](/note.html?p=notes/epistemica/epistemic/theory/representation.md), [Affirmation Space](/note.html?p=notes/epistemica/epistemic/theory/affirmation-space.md), [Variable](/note.html?p=notes/epistemica/epistemic/theory/variable.md), [State](/note.html?p=notes/epistemica/epistemic/theory/state.md), [Activity](/note.html?p=notes/epistemica/epistemic/theory/activity.md), [Reality](/note.html?p=notes/nature/theory/reality.md), [Quasi-Open Interaction Field](/note.html?p=notes/nature/theory/quasi-open-interaction-field.md)
+Related: [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md), [Representation](/view.html?p=notes/epistemica/epistemic/theory/representation.md), [Affirmation Space](/view.html?p=notes/epistemica/epistemic/theory/affirmation-space.md), [Variable](/view.html?p=notes/epistemica/epistemic/theory/variable.md), [State](/view.html?p=notes/epistemica/epistemic/theory/state.md), [Activity](/view.html?p=notes/epistemica/epistemic/theory/activity.md), [Reality](/view.html?p=notes/nature/theory/reality.md), [Quasi-Open Interaction Field](/view.html?p=notes/nature/theory/quasi-open-interaction-field.md)

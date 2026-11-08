@@ -13,7 +13,7 @@ tags: [note, nature, organism, biology, system]
 
 ## Related
 
-- [Protein](/note.html?p=notes/nature/protein.md)
+- [Protein](/view.html?p=notes/nature/protein.md)
 
 ## Provenance
 

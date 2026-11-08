@@ -4,7 +4,7 @@ tags: [note, index]
 
 # Data Maps (Index)
 
-- [B-Tree](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/b-tree.md), [R Tree](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/r-tree.md), [LSM Tree](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/lsm-tree.md), [Suffix Tree](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/suffix-tree.md), [Skip List](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/skip-list.md), [Hash Index](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/hash-index.md), [Inverted Index](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/inverted-index.md)
+- [B-Tree](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/b-tree.md), [R Tree](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/r-tree.md), [LSM Tree](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/lsm-tree.md), [Suffix Tree](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/suffix-tree.md), [Skip List](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/skip-list.md), [Hash Index](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/hash-index.md), [Inverted Index](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/inverted-index.md)
 
 > Data Maps (Index) refers to a data structure that organizes and facilitates efficient retrieval of data by mapping keys to corresponding values or locations within a dataset.
 > 

@@ -8,7 +8,7 @@ tags: [note, china, plan, public-policy, social-element]
 
 > It is an instrument rather than a document. No single text governs; the arrangement exists only as the composed sequence of proposal, ratification, execution, and review, each round inheriting the apparatus of the last. What persists across rounds is the machinery, not the mandates.
 
-> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — growth rates, industrial policies, development goals — belongs to the policy notes; the models warranting them belong to the epistemic decomposition.
+> This note decomposes the instrument, not the economics, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md). The targets' substance — growth rates, industrial policies, development goals — belongs to the policy notes; the models warranting them belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -76,6 +76,6 @@ Lineage: the First Five-Year Plan (1953–1957) under Soviet assistance → the 
 ## References
 
 - [Five-Year Plans of China](https://en.wikipedia.org/wiki/Five-year_plans_of_China)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Framework](/note.html?p=notes/social/action/guidance/framework.md)
-- [China Industrial Policy](/note.html?p=notes/social/action/public/informe/policy/china-industrial-policy.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Framework](/view.html?p=notes/social/action/guidance/framework.md)
+- [China Industrial Policy](/view.html?p=notes/social/action/public/informe/policy/china-industrial-policy.md)

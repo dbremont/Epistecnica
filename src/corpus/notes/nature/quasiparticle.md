@@ -13,7 +13,7 @@ tags: [note, nature, natural-system, conceptual-tool, physical, unfinished]
 
 ## Related
 
-- [Electron Hole](/note.html?p=notes/nature/electron-hole.md)
+- [Electron Hole](/view.html?p=notes/nature/electron-hole.md)
 
 ## Provenance
 

@@ -290,7 +290,7 @@ The human memory system can be broadly divided into three main components: senso
 > “Typical Time Scale” refers to how long the learner usually remains in that cognitive state **before transitioning to the next one, assuming normal practice and no major disruptions**.
 >
 
-> See more in [Learning ](/note.html?p=notes/nature/learning.md).
+> See more in [Learning ](/view.html?p=notes/nature/learning.md).
 >
 
 > Note:  Cognitive States in the column - row (metrics).
@@ -324,10 +324,10 @@ The human memory system can be broadly divided into three main components: senso
 
 ## References
 
-- [Learning ](/note.html?p=notes/nature/learning.md)
+- [Learning ](/view.html?p=notes/nature/learning.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - https://en.wikipedia.org/wiki/Memory
-- [Bloom’s Taxonomy](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/blooms-taxonomy.md)
+- [Bloom’s Taxonomy](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/blooms-taxonomy.md)
 - https://en.wikipedia.org/wiki/Neuropsychology
 - [https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216#neuroscience](https://gist.github.com/dbremont/fd5a44f3d064ad23ac8e3612f828e216#neuroscience)
 - [‣](https://app.notion.com/p/170598edb79080339583c31477a73faa?pvs=21)
@@ -371,9 +371,9 @@ The human memory system can be broadly divided into three main components: senso
 
 ## Related
 
-- [Brain](/note.html?p=notes/nature/brain.md)
-- [Neuron](/note.html?p=notes/nature/neuron.md)
-- [Human Nervous System](/note.html?p=notes/nature/human-nervous-system.md)
+- [Brain](/view.html?p=notes/nature/brain.md)
+- [Neuron](/view.html?p=notes/nature/neuron.md)
+- [Human Nervous System](/view.html?p=notes/nature/human-nervous-system.md)
 
 ## Provenance
 

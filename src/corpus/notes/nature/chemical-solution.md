@@ -14,8 +14,8 @@ tags: [note, nature, natural-system, chemistry, matter, system, unfinished]
 
 ## Related
 
-- [Suspension](/note.html?p=notes/nature/suspension.md)
-- [Mixture](/note.html?p=notes/nature/mixture.md)
+- [Suspension](/view.html?p=notes/nature/suspension.md)
+- [Mixture](/view.html?p=notes/nature/mixture.md)
 
 ## Provenance
 

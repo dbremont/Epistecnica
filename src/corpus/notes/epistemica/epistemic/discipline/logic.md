@@ -16,10 +16,10 @@ properties (soundness, completeness, decidability). Its product is a
 truth, not an observation that it works in practice.
 
 This note is the discipline-level Aggregate; it is the formal parent of
-[Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) and
-[Computer Science](/note.html?p=notes/epistemica/epistemic/discipline/computer-science.md), and
+[Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) and
+[Computer Science](/view.html?p=notes/epistemica/epistemic/discipline/computer-science.md), and
 its concepts appear across the mathematical catalogue (e.g.
-[Boolean Algebra](/note.html?p=notes/epistemica/mathematical/structure/algebra/boolean-algebra.md)). The
+[Boolean Algebra](/view.html?p=notes/epistemica/mathematical/structure/algebra/boolean-algebra.md)). The
 schema it instantiates is owned by the canonical
 [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md).
 
@@ -168,10 +168,10 @@ formalization and the consistency of the system.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Boolean Algebra](/note.html?p=notes/epistemica/mathematical/structure/algebra/boolean-algebra.md) — the algebraic reading of propositional logic
-- [Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
-- [Computer Science](/note.html?p=notes/epistemica/epistemic/discipline/computer-science.md) — the discipline that executes logic
-- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Boolean Algebra](/view.html?p=notes/epistemica/mathematical/structure/algebra/boolean-algebra.md) — the algebraic reading of propositional logic
+- [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
+- [Computer Science](/view.html?p=notes/epistemica/epistemic/discipline/computer-science.md) — the discipline that executes logic
+- [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - [Logic](https://en.wikipedia.org/wiki/Logic)
 - [Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic)
 - [Gödel's incompleteness theorems](https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems)

@@ -4,7 +4,7 @@ tags: [note, nature, natural-constraint]
 
 # Agarose-Acrylamide Gradient Gel
 
-> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -36,6 +36,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
-- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Electrophoresis 17cc0f5171ec80128a64f03dc492b70a.md`

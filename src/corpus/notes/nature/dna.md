@@ -134,11 +134,11 @@ Here is a table summarizing the major **DNA processes**, their descriptions, key
 
 ## Related
 
-- [Gene](/note.html?p=notes/nature/gene.md)
-- [RNA](/note.html?p=notes/nature/rna.md)
-- [Chromosome](/note.html?p=notes/nature/chromosome.md)
-- [Genetic Material](/note.html?p=notes/nature/genetic-material.md)
-- [Living System](/note.html?p=notes/nature/living-system.md)
+- [Gene](/view.html?p=notes/nature/gene.md)
+- [RNA](/view.html?p=notes/nature/rna.md)
+- [Chromosome](/view.html?p=notes/nature/chromosome.md)
+- [Genetic Material](/view.html?p=notes/nature/genetic-material.md)
+- [Living System](/view.html?p=notes/nature/living-system.md)
 
 ## Provenance
 

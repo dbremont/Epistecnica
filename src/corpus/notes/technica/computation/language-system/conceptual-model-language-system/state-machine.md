@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # State Machine
 
-- [Imperative Model of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/imperative-model-of-computation.md)
+- [Imperative Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/imperative-model-of-computation.md)
 
 > The State Machine Model of Computation is a theoretical framework where computation is represented as a series of states and transitions, with the machine moving from one state to another based on input and defined rules.
 > 

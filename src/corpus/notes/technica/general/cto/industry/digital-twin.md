@@ -34,4 +34,4 @@ tags: [note, digital-twin, replica]
 ## References
 
 - Produceologia `docs/Production/Technique/Miscellanea/DigitalTwin.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

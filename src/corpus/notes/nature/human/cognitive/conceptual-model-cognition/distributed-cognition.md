@@ -9,7 +9,7 @@ tags: [note, human, cognition]
 
 QA:
 
-- When prediction markets surpass humans expertise? Prediction markets surpass humans when there is no genuine expertise to bring, only performative or fabricated claims of expertise. See more in [When prediction markets surpass humans expertise?](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/distributed-cognition.md).
+- When prediction markets surpass humans expertise? Prediction markets surpass humans when there is no genuine expertise to bring, only performative or fabricated claims of expertise. See more in [When prediction markets surpass humans expertise?](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/distributed-cognition.md).
 - When prediction markets `failed to  surpass` humans expertise? When there is method and **true expertise;**  not critical mass in the pool of market participants,  random problem phenomena; not pattern  to uncover;   manipulation;  Poorly Designed Market Structures, etc.
 
 ## Index

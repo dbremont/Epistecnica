@@ -73,7 +73,7 @@ Guiding Questions:
 
 ## Language Semantics
 
-> See more in  [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in  [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
 > 
 
 Guiding Questions:
@@ -152,11 +152,11 @@ Guiding Questions:
 
 ## References
 
-- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Program Element](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
-- [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
-- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
-- [Annotation](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/annotation.md)
+- [Evaluation Model](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Program Element](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program-element.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Annotation](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/annotation.md)
 - [Statements and expressions](https://doc.rust-lang.org/reference/statements-and-expressions.html)
 - [modules](https://doc.rust-lang.org/reference/items/modules.html)
 - [`extern crate` declarations](https://doc.rust-lang.org/reference/items/extern-crates.html)

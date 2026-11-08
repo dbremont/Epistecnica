@@ -4,7 +4,7 @@ tags: [note]
 
 # Replication Model
 
-- [Data Partition Model](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-partition-model.md)
+- [Data Partition Model](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-partition-model.md)
 
 > …p
 > 

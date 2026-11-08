@@ -4,7 +4,7 @@ tags: [note, language-system]
 
 # Language Execution System
 
-- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md), [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Function](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/function.md)
+- [Memory  Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md), [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md), [Function](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/function.md)
 
 > A **Language Execution System (LES)** is the set of tools, algorithms, and runtime mechanisms that **execute a program** represented by a given **encoding scheme** (e.g., source code, bytecode, machine code). It defines how a program's **semantics** are realized on a computational substrate (hardware, VM, or interpreter) through a series of **transformations** and **runtime behaviors**.
 > 
@@ -91,17 +91,17 @@ A **Language Execution System (LES)**  can be defined as:  $\text{LES} = \langle
 
 ## Runtime Representation
 
-> See more in [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md).
+> See more in [Runtime Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md).
 > 
 
 ## Memory System
 
-> See more in [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md).
+> See more in [Memory  Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md).
 > 
 
 ## Evaluation Model
 
-> aka.  Semantic [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md) & [Language Specification](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
+> aka.  Semantic [Evaluation Model](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md) & [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md).
 > 
 
 ## QA

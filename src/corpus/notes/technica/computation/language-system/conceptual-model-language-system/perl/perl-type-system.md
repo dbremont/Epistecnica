@@ -133,6 +133,6 @@ Guiding Questions:
 ## References
 
 - [Type system](https://doc.rust-lang.org/reference/type-system.html#type-system)
-- [Type System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
-- [Resource Lifetime](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md)
-- [Resource Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)
+- [Type System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/type-system.md)
+- [Resource Lifetime](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-lifetime.md)
+- [Resource Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/resource-management.md)

@@ -548,7 +548,7 @@
             </section>
 
             <h2 id="docs">Docs</h2>
-            <ul><li><a href="/note.html?p=notes/epistemica/complexity/collective-dynamics.md">Collective Dynamics</a> · <a href="/note.html?p=notes/epistemica/complexity/coordination.md">Coordination</a></li><li><a href="/note.html?p=notes/epistemica/network/network-science.md">Network Science</a> · <a href="/note.html?p=notes/epistemica/complexity/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
+            <ul><li><a href="/view.html?p=notes/epistemica/complexity/collective-dynamics.md">Collective Dynamics</a> · <a href="/view.html?p=notes/epistemica/complexity/coordination.md">Coordination</a></li><li><a href="/view.html?p=notes/epistemica/network/network-science.md">Network Science</a> · <a href="/view.html?p=notes/epistemica/complexity/swarm-intelligence-collective-intelligence.md">Swarm Intelligence</a></li><li><a href="/corpus/courses/atlas.html">Atlas of Dynamical Representational Systems</a> — the full catalog</li></ul>
 
             <h2 id="references">References</h2>
             <ul><li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — element type: <em>Epistemic Representation → Representational System</em></li><li><strong>Kuramoto, Y. (1975)</strong> — self-entrainment of a population of coupled non-linear oscillators</li><li><strong>Mirollo, R. &amp; Strogatz, S. (1990)</strong> — synchronisation of pulse-coupled biological oscillators</li><li><strong>Strogatz, S. (2003)</strong> — <em>Sync: The Emerging Science of Spontaneous Order</em></li></ul>
@@ -686,7 +686,7 @@
       el('iiLaw').setAttribute('data-tex-display', cur.sub);
       el('iiDesc').textContent = cur.desc;
       el('iiDocs').innerHTML = cur.docs.map(function (d) {
-        return '<a href="/note.html?p=notes/' + d.n + '">' + d.label + '</a>';
+        return '<a href="/view.html?p=notes/' + d.n + '">' + d.label + '</a>';
       }).join('');
       if (window.renderTeX) { renderTeX(el('instInfo')); }
     }

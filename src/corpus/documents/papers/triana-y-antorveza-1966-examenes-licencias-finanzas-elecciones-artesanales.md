@@ -23,7 +23,7 @@ tags: [document, history, guilds, paper]
 
 > [**Relevance**] High. It supplies the long-run institutional background for the examination regimes studied in the other papers.
 
-Read the corpus note: [Gremios](/note.html?p=notes/social/history/castilla/gremios.md).
+Read the corpus note: [Gremios](/view.html?p=notes/social/history/castilla/gremios.md).
 
 ## References
 

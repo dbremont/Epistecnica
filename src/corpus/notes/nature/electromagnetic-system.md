@@ -197,9 +197,9 @@ In **electromagnetism**, $\vec{B}$ and $\vec{E}$ are intertwined:
 
 ## Related
 
-- [Energy](/note.html?p=notes/nature/energy.md)
-- [Potential Energy](/note.html?p=notes/nature/potential-energy.md)
-- [Fundamental Interaction](/note.html?p=notes/nature/fundamental-interaction.md)
+- [Energy](/view.html?p=notes/nature/energy.md)
+- [Potential Energy](/view.html?p=notes/nature/potential-energy.md)
+- [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 
 ## Provenance
 

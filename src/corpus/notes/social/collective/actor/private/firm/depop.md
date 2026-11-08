@@ -15,4 +15,4 @@ tags: [note, actor, firm, commerce, united-kingdom, p2p, social-commerce, resale
 ## References
 
 - Wikipedia — Depop (encyclopedic entry)
-- [Commerce Economic Activity](/note.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)
+- [Commerce Economic Activity](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md)

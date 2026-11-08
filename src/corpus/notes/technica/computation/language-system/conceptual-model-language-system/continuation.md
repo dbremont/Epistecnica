@@ -4,7 +4,7 @@ tags: [note, effect-system, linguistic-abstraction]
 
 # Continuation
 
-- [Closure](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/closure.md), [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Coroutine](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coroutine.md), [Continuation Passing Style (CPS)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation-passing-style-cps.md), [Notion of Change](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
+- [Closure](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/closure.md), [Effect System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Coroutine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coroutine.md), [Continuation Passing Style (CPS)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation-passing-style-cps.md), [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
 
 > In this note we will explore a formalism to encode all of the construct of transition semantics.
 > 

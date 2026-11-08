@@ -13,7 +13,7 @@ tags: [note, nature, phenomenon, chemistry, phenomena, unfinished]
 
 ## Related
 
-- [Material Failure](/note.html?p=notes/nature/material-failure.md)
+- [Material Failure](/view.html?p=notes/nature/material-failure.md)
 
 ## Provenance
 

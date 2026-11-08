@@ -4,7 +4,7 @@ tags: [note, storage-system]
 
 # Buffer Manager
 
-- [Relational Data System Storage Management](/note.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md)
+- [Relational Data System Storage Management](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md)
 
 > How is a database represented in memory, and how is data efficiently transferred between disk and memory?
 > 

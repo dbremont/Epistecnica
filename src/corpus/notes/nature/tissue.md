@@ -13,10 +13,10 @@ tags: [note, nature, substance-matter, biology, biomaterial]
 
 ## Related
 
-- [Human](/note.html?p=notes/nature/human.md)
-- [Muscle](/note.html?p=notes/nature/muscle.md)
-- [Adipose Tissue](/note.html?p=notes/nature/adipose-tissue.md)
-- [Organ](/note.html?p=notes/nature/organ.md)
+- [Human](/view.html?p=notes/nature/human.md)
+- [Muscle](/view.html?p=notes/nature/muscle.md)
+- [Adipose Tissue](/view.html?p=notes/nature/adipose-tissue.md)
+- [Organ](/view.html?p=notes/nature/organ.md)
 
 ## Provenance
 

@@ -35,4 +35,4 @@ tags: [note, lab, instruments, tooling]
 ## References
 
 - Produceologia `docs/Production/Technique/Materiotecnia/Tooling.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

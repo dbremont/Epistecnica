@@ -6,7 +6,7 @@ tags: [note, actor, research-institute, research-foundation, norway, computing]
 
 > **The Norwegian Computing Center (Norsk Regnesentral, NR)** is Norway's oldest applied research institute in computing: founded in 1952 to run the national register of population data, it became an independent non-profit foundation in 1985 and now works in statistical modelling, machine learning, and information and communications technology for finance, healthcare, administration, petroleum, and the earth.
 
-> Its path is the point of the note. A state institute created to operate national computing infrastructure became a contract-research foundation competing for clients, and kept the methodological core that the transition risked losing. Framed per [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md).
+> Its path is the point of the note. A state institute created to operate national computing infrastructure became a contract-research foundation competing for clients, and kept the methodological core that the transition risked losing. Framed per [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md).
 
 ## Formulation
 
@@ -97,6 +97,6 @@ Lineage: postwar reconstruction of Norwegian scientific capacity → the 1952 es
 - [About the Norwegian Computing Center — NR](https://nr.no/en/about) (legal form, size, expertise, sectors, Oslo Science City)
 - [A short history of the Norwegian Computing Center — NR](https://nr.no/en/about/a-short-history-of-nr) (1952 founding, 1958 incorporation, 1985 foundation turn, 2002 commemorative volume)
 - [Norsk Regnesentral (NR) — Joining Forces 2018, SODIR](https://www.sodir.no/49eb0e/globalassets/2-force/2019/documents/archive-2010-2018/joining-forces-2018/norsk-regnesentral-abrahamsen.pdf) (the institute's own presentation of its legal form, activities, and funding mix)
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Well Logging (companion note)](/note.html?p=notes/technica/general/cto/industry/well-logging.md) (the technical counterpart: measurement whose warrant is epistemic)
-- [Earth Science (companion note)](/note.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domain whose inversion methods NR applies)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Well Logging (companion note)](/view.html?p=notes/technica/general/cto/industry/well-logging.md) (the technical counterpart: measurement whose warrant is epistemic)
+- [Earth Science (companion note)](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domain whose inversion methods NR applies)

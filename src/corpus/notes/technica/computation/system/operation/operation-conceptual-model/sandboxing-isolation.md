@@ -85,9 +85,9 @@ tags: [note]
 - https://martinfowler.com/articles/harness-engineering.html
 - [Machine Active Inference](https://app.notion.com/p/Machine-Active-Inference-3a6c0f5171ec801281adf2d5bda5304b?pvs=21)
 - https://github.com/NVIDIA/openshell
-- [**Secret Management**](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/secret-management.md)
+- [**Secret Management**](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/secret-management.md)
 - https://www.daytona.io/
 - https://github.com/firecracker-microvm/firecracker
-- [Virtualization](/note.html?p=notes/technica/computation/platform/virtualization.md)
-- [Linux Virtualization Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
-- [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- [Virtualization](/view.html?p=notes/technica/computation/platform/virtualization.md)
+- [Linux Virtualization Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-virtualization-stack.md)
+- [Docker](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)

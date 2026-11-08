@@ -11,7 +11,7 @@ src/corpus/
 ├── README-documents.md  # this document
 ├── app/                 # shared catalog + global viewer + generated data
 │   ├── /explorer.html
-│   ├── note.html        # global markdown viewer (?p=documents/<path>)
+│   ├── view.html        # global markdown viewer (?p=documents/<path>)
 │   ├── corpus.css
 │   └── data/            # generated indexes, changelogs
 └── documents/           # the documents corpus (served at /corpus/documents)

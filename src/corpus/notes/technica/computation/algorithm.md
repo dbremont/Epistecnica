@@ -198,7 +198,7 @@ Conceptual Model: Algorithm
 - https://news.ycombinator.com/item?id=43155839
 - [How to profile an algorithm?](https://app.notion.com/p/How-to-profile-an-algorithm-1bcc0f5171ec8064abecf4faf209cb4b?pvs=21)
 - [**Induction**](https://app.notion.com/p/Induction-3f5aa91bbe094d6ca92d955b7fb6080b?pvs=21)
-- [**Computational Complexity Theory**](/note.html?p=notes/technica/computation/computational-complexity-theory.md)
+- [**Computational Complexity Theory**](/view.html?p=notes/technica/computation/computational-complexity-theory.md)
 - [‣](https://app.notion.com/p/17bc0f5171ec80608b34de6922b560e4?pvs=21)
 - [Modelado](https://app.notion.com/p/Modelado-a6727ea210124fb9a00ff6bb5bcf7cd5?pvs=21)
 - https://www.ime.usp.br/~pf/algorithms/
@@ -208,5 +208,5 @@ Conceptual Model: Algorithm
 - [Proof](https://app.notion.com/p/Proof-110c0f5171ec8074a9aeda9277860dea?pvs=21)
 - https://en.wikipedia.org/wiki/Set_cover_problem
 - https://www.cs.umd.edu/class/spring2025/cmsc451-0101/lectures.html
-- [Representation](/note.html?p=notes/technica/computation/representation.md)
+- [Representation](/view.html?p=notes/technica/computation/representation.md)
 - https://en.wikipedia.org/wiki/External_memory_algorithm

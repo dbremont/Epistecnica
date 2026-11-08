@@ -18,7 +18,7 @@
           "type": "note",
           "status": "active",
           "title": "Abbasid Caliphate",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/abb/abbasid-caliphate.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/abb/abbasid-caliphate.md"
         }
       ],
       "notes": [
@@ -44,7 +44,7 @@
           "type": "note",
           "status": "active",
           "title": "Achaemenid Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ach/achaemenid-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ach/achaemenid-empire.md"
         }
       ],
       "notes": [
@@ -77,7 +77,7 @@
           "type": "note",
           "status": "active",
           "title": "🇦🇪 United Arab Emirates (UAE)",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/are/united-arab-emirates-uae.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/are/united-arab-emirates-uae.md"
         }
       ],
       "notes": [
@@ -115,7 +115,7 @@
           "type": "note",
           "status": "active",
           "title": "Argentina",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/arg/argentina.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/arg/argentina.md"
         }
       ],
       "notes": [
@@ -146,7 +146,7 @@
           "type": "note",
           "status": "active",
           "title": "Athenian Republic",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ath/athenian-republic.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ath/athenian-republic.md"
         }
       ],
       "notes": [
@@ -179,7 +179,7 @@
           "type": "note",
           "status": "active",
           "title": "Australia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/aus/australia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/aus/australia.md"
         }
       ],
       "notes": [
@@ -210,7 +210,7 @@
           "type": "note",
           "status": "active",
           "title": "Austria",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/aut/austria.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/aut/austria.md"
         }
       ],
       "notes": [
@@ -236,14 +236,14 @@
           "type": "note",
           "status": "active",
           "title": "Belgium",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bel/belgium.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bel/belgium.md"
         },
         {
           "id": "flanders",
           "type": "note",
           "status": "active",
           "title": "Flanders",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bel/region/flanders.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bel/region/flanders.md"
         }
       ],
       "notes": [
@@ -274,7 +274,7 @@
           "type": "note",
           "status": "active",
           "title": "Bahrain",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bhr/bahrain.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bhr/bahrain.md"
         }
       ],
       "notes": [
@@ -300,7 +300,7 @@
           "type": "note",
           "status": "active",
           "title": "Bolivia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bol/bolivia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bol/bolivia.md"
         }
       ],
       "notes": [
@@ -333,7 +333,7 @@
           "type": "note",
           "status": "active",
           "title": "Brazil",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bra/brazil.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bra/brazil.md"
         }
       ],
       "notes": [
@@ -364,7 +364,7 @@
           "type": "note",
           "status": "active",
           "title": "Botswana",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/bwa/botswana.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/bwa/botswana.md"
         }
       ],
       "notes": [
@@ -390,7 +390,7 @@
           "type": "note",
           "status": "active",
           "title": "Eastern Roman Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/byz/eastern-roman-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/byz/eastern-roman-empire.md"
         }
       ],
       "notes": [
@@ -423,7 +423,7 @@
           "type": "note",
           "status": "active",
           "title": "Canada",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/can/canada.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/can/canada.md"
         }
       ],
       "notes": [
@@ -461,14 +461,14 @@
           "type": "note",
           "status": "active",
           "title": "Case Study: Switzerland’s Government and Institutional Architecture",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/che/state.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/che/state.md"
         },
         {
           "id": "switzerland",
           "type": "note",
           "status": "active",
           "title": "Switzerland",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/che/switzerland.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/che/switzerland.md"
         }
       ],
       "notes": [
@@ -504,7 +504,7 @@
           "type": "note",
           "status": "active",
           "title": "Chile",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chl/chile.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chl/chile.md"
         }
       ],
       "notes": [
@@ -537,84 +537,84 @@
           "type": "note",
           "status": "active",
           "title": "Han dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/han/han.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/han/han.md"
         },
         {
           "id": "ming",
           "type": "note",
           "status": "active",
           "title": "Ming dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/ming/ming.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/ming/ming.md"
         },
         {
           "id": "china",
           "type": "note",
           "status": "active",
           "title": "China",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/prc/china.md"
         },
         {
           "id": "hong-kong-social-region-dynamics-1900-2025",
           "type": "note",
           "status": "active",
           "title": "Hong Kong - Social Region Dynamics 1900 - 2025",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md"
         },
         {
           "id": "civil-service",
           "type": "note",
           "status": "active",
           "title": "Hong Hong Civil Service",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/civil-service.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/civil-service.md"
         },
         {
           "id": "hong-kong",
           "type": "note",
           "status": "active",
           "title": "🇭🇰 Hong Kong",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md"
         },
         {
           "id": "qin",
           "type": "note",
           "status": "active",
           "title": "Qin dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/qin/qin.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/qin/qin.md"
         },
         {
           "id": "qing",
           "type": "note",
           "status": "active",
           "title": "Qing dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/qing/qing.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/qing/qing.md"
         },
         {
           "id": "song",
           "type": "note",
           "status": "active",
           "title": "Song dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/song/song.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/song/song.md"
         },
         {
           "id": "tang",
           "type": "note",
           "status": "active",
           "title": "Tang dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/tang/tang.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/tang/tang.md"
         },
         {
           "id": "yuan",
           "type": "note",
           "status": "active",
           "title": "Yuan dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/yuan/yuan.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/yuan/yuan.md"
         },
         {
           "id": "zhou",
           "type": "note",
           "status": "active",
           "title": "Zhou dynasty",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/chn/zhou/zhou.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/chn/zhou/zhou.md"
         }
       ],
       "notes": [
@@ -700,7 +700,7 @@
           "type": "note",
           "status": "active",
           "title": "Chola Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/cho/chola-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/cho/chola-empire.md"
         }
       ],
       "notes": [
@@ -726,7 +726,7 @@
           "type": "note",
           "status": "active",
           "title": "Colombia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/col/colombia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/col/colombia.md"
         }
       ],
       "notes": [
@@ -752,7 +752,7 @@
           "type": "note",
           "status": "active",
           "title": "Costa Rica",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/cri/costa-rica.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/cri/costa-rica.md"
         }
       ],
       "notes": [
@@ -778,7 +778,7 @@
           "type": "note",
           "status": "active",
           "title": "Carthage",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/crt/carthage.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/crt/carthage.md"
         }
       ],
       "notes": [
@@ -804,7 +804,7 @@
           "type": "note",
           "status": "active",
           "title": "Cuba",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/cub/cuba.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/cub/cuba.md"
         }
       ],
       "notes": [
@@ -830,7 +830,7 @@
           "type": "note",
           "status": "active",
           "title": "Czech Republic",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/cze/czech.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/cze/czech.md"
         }
       ],
       "notes": [
@@ -856,14 +856,14 @@
           "type": "note",
           "status": "active",
           "title": "Germany Technical Training Ecosystem (TTE)",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/deu/education/tte.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/deu/education/tte.md"
         },
         {
           "id": "germany",
           "type": "note",
           "status": "active",
           "title": "Germany",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/deu/germany.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/deu/germany.md"
         }
       ],
       "notes": [
@@ -901,7 +901,7 @@
           "type": "note",
           "status": "active",
           "title": "Denmark",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dnk/denmark.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dnk/denmark.md"
         }
       ],
       "notes": [
@@ -939,182 +939,182 @@
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican State Capacity",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/breviarium/rd-1-0-dominican-state-capacity.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/breviarium/rd-1-0-dominican-state-capacity.md"
         },
         {
           "id": "rd-1-0-dominican-demographics",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Demographics",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/demographic/rd-1-0-dominican-demographics.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/demographic/rd-1-0-dominican-demographics.md"
         },
         {
           "id": "digital",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Digital Infrastructure System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/economy/digital.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/economy/digital.md"
         },
         {
           "id": "history",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Economy History",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/economy/history.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/economy/history.md"
         },
         {
           "id": "labor",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Labor Markets",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/economy/labor.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/economy/labor.md"
         },
         {
           "id": "rd-1-0-dominican-educational-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Educational System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/education/rd-1-0-dominican-educational-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/education/rd-1-0-dominican-educational-system.md"
         },
         {
           "id": "rd-1-0-dominican-energy-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Energy System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/energy/rd-1-0-dominican-energy-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/energy/rd-1-0-dominican-energy-system.md"
         },
         {
           "id": "rd-1-0-dominican-financial-markets",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Financial Markets",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/finance/rd-1-0-dominican-financial-markets.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/finance/rd-1-0-dominican-financial-markets.md"
         },
         {
           "id": "rd-1-0-dominican-land-and-natural-resources",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Land and Natural Resources",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md"
         },
         {
           "id": "rd-1-0-ontology-model-dominican-public-institutions",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Ontology Model: Dominican Public Institutions",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md"
         },
         {
           "id": "rd-1-0-dominican-tributary-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Tributary System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/hacienda/rd-1-0-dominican-tributary-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/hacienda/rd-1-0-dominican-tributary-system.md"
         },
         {
           "id": "rd-1-0-dominican-healthcare-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Healthcare System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/health/rd-1-0-dominican-healthcare-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/health/rd-1-0-dominican-healthcare-system.md"
         },
         {
           "id": "rd-1-0-dominican-infrastructure-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Infrastructure System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md"
         },
         {
           "id": "rd-1-0-innovation-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Innovation System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/kps/rd-1-0-innovation-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/kps/rd-1-0-innovation-system.md"
         },
         {
           "id": "constitution",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Constitution",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/legal/constitution.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/legal/constitution.md"
         },
         {
           "id": "governance",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Legislative System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/legal/governance.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/legal/governance.md"
         },
         {
           "id": "legal",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Laws",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/legal/legal.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/legal/legal.md"
         },
         {
           "id": "rd-1-0-dominican-monetary-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Monetary System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/monetary/rd-1-0-dominican-monetary-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/monetary/rd-1-0-dominican-monetary-system.md"
         },
         {
           "id": "rd-1-0-dominican-political-system",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Political System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/politics/rd-1-0-dominican-political-system.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/politics/rd-1-0-dominican-political-system.md"
         },
         {
           "id": "ppi",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Public/Private Sector Interaction",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/public/ppi.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/public/ppi.md"
         },
         {
           "id": "rd-1-0-dominican-public-opinion-information-landscape",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Public Opinion & Information Landscape",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md"
         },
         {
           "id": "rd-1-0-dominix",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominix",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/rd-1-0-dominix.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/rd-1-0-dominix.md"
         },
         {
           "id": "risk",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Risk Management System",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/security/risk.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/security/risk.md"
         },
         {
           "id": "security",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Security",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/security/security.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/security/security.md"
         },
         {
           "id": "rd-1-0-dominican-socioeconomics",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Socioeconomics",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/social/rd-1-0-dominican-socioeconomics.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/social/rd-1-0-dominican-socioeconomics.md"
         },
         {
           "id": "rd-1-0-dominican-urbanism",
           "type": "note",
           "status": "active",
           "title": "RD 1.0 Dominican Urbanism",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dom/urbanism/rd-1-0-dominican-urbanism.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dom/urbanism/rd-1-0-dominican-urbanism.md"
         }
       ],
       "notes": [
@@ -1270,7 +1270,7 @@
           "type": "note",
           "status": "active",
           "title": "Dutch Republic",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/dut/dutch-republic.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/dut/dutch-republic.md"
         }
       ],
       "notes": [
@@ -1296,7 +1296,7 @@
           "type": "note",
           "status": "active",
           "title": "Ecuador",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ecu/ecuador.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ecu/ecuador.md"
         }
       ],
       "notes": [
@@ -1329,7 +1329,7 @@
           "type": "note",
           "status": "active",
           "title": "España",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/esp/spain.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/esp/spain.md"
         }
       ],
       "notes": [
@@ -1360,14 +1360,14 @@
           "type": "note",
           "status": "active",
           "title": "Estonia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/est/estonia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/est/estonia.md"
         },
         {
           "id": "state",
           "type": "note",
           "status": "active",
           "title": "Case Study: Estonia’s Government and Institutional Architecture",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/est/state.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/est/state.md"
         }
       ],
       "notes": [
@@ -1398,7 +1398,7 @@
           "type": "note",
           "status": "active",
           "title": "Ethiopia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/eth/ethiopia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/eth/ethiopia.md"
         }
       ],
       "notes": [
@@ -1431,7 +1431,7 @@
           "type": "note",
           "status": "active",
           "title": "Finland",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/fin/finland.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/fin/finland.md"
         }
       ],
       "notes": [
@@ -1469,7 +1469,7 @@
           "type": "note",
           "status": "active",
           "title": "France",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/fra/france.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/fra/france.md"
         }
       ],
       "notes": [
@@ -1500,7 +1500,7 @@
           "type": "note",
           "status": "active",
           "title": "UK",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/gbr/uk.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/gbr/uk.md"
         }
       ],
       "notes": [
@@ -1526,7 +1526,7 @@
           "type": "note",
           "status": "active",
           "title": "Republic of Genoa",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/gen/republic-of-genoa.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/gen/republic-of-genoa.md"
         }
       ],
       "notes": [
@@ -1552,7 +1552,7 @@
           "type": "note",
           "status": "active",
           "title": "Ghana",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/gha/ghana.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/gha/ghana.md"
         }
       ],
       "notes": [
@@ -1578,28 +1578,28 @@
           "type": "note",
           "status": "active",
           "title": "Grecia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/grc/grecia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/grc/grecia.md"
         },
         {
           "id": "athens",
           "type": "note",
           "status": "active",
           "title": "Athens",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/grc/region/athens.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/grc/region/athens.md"
         },
         {
           "id": "patras",
           "type": "note",
           "status": "active",
           "title": "Patras",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/grc/region/patras.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/grc/region/patras.md"
         },
         {
           "id": "thessaloniki",
           "type": "note",
           "status": "active",
           "title": "Thessaloniki",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/grc/region/thessaloniki.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/grc/region/thessaloniki.md"
         }
       ],
       "notes": [
@@ -1640,7 +1640,7 @@
           "type": "note",
           "status": "active",
           "title": "Hong Kong",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/hkg/hong-kong.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/hkg/hong-kong.md"
         }
       ],
       "notes": [
@@ -1666,7 +1666,7 @@
           "type": "note",
           "status": "active",
           "title": "Hanseatic League",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md"
         }
       ],
       "notes": [
@@ -1692,7 +1692,7 @@
           "type": "note",
           "status": "active",
           "title": "Haiti",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/hti/haiti.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/hti/haiti.md"
         }
       ],
       "notes": [
@@ -1718,7 +1718,7 @@
           "type": "note",
           "status": "active",
           "title": "Hungary",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/hun/hungary.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/hun/hungary.md"
         }
       ],
       "notes": [
@@ -1751,7 +1751,7 @@
           "type": "note",
           "status": "active",
           "title": "Indonesia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/idn/indonesia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/idn/indonesia.md"
         }
       ],
       "notes": [
@@ -1789,7 +1789,7 @@
           "type": "note",
           "status": "active",
           "title": "India",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ind/india.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ind/india.md"
         }
       ],
       "notes": [
@@ -1827,7 +1827,7 @@
           "type": "note",
           "status": "active",
           "title": "Ireland",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/irl/ireland.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/irl/ireland.md"
         }
       ],
       "notes": [
@@ -1858,7 +1858,7 @@
           "type": "note",
           "status": "active",
           "title": "Iran",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/irn/iran.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/irn/iran.md"
         }
       ],
       "notes": [
@@ -1891,7 +1891,7 @@
           "type": "note",
           "status": "active",
           "title": "Israel",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/isr/israel.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/isr/israel.md"
         }
       ],
       "notes": [
@@ -1929,28 +1929,28 @@
           "type": "note",
           "status": "active",
           "title": "Italy",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ita/italy.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ita/italy.md"
         },
         {
           "id": "network",
           "type": "note",
           "status": "active",
           "title": "Italy Industrial Cluster Model",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ita/production/network.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ita/production/network.md"
         },
         {
           "id": "piamonte",
           "type": "note",
           "status": "active",
           "title": "Piamonte",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ita/region/piamonte.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ita/region/piamonte.md"
         },
         {
           "id": "venice",
           "type": "note",
           "status": "active",
           "title": "Venice",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ita/region/venice.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ita/region/venice.md"
         }
       ],
       "notes": [
@@ -2003,7 +2003,7 @@
           "type": "note",
           "status": "active",
           "title": "Japan",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/jpn/japan.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/jpn/japan.md"
         }
       ],
       "notes": [
@@ -2041,7 +2041,7 @@
           "type": "note",
           "status": "active",
           "title": "South Korea",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/kor/south-korea.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/kor/south-korea.md"
         }
       ],
       "notes": [
@@ -2072,7 +2072,7 @@
           "type": "note",
           "status": "active",
           "title": "Maurya Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mau/maurya-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mau/maurya-empire.md"
         }
       ],
       "notes": [
@@ -2105,7 +2105,7 @@
           "type": "note",
           "status": "active",
           "title": "México",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mex/mexico.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mex/mexico.md"
         }
       ],
       "notes": [
@@ -2136,7 +2136,7 @@
           "type": "note",
           "status": "active",
           "title": "Maratha Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mha/maratha-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mha/maratha-empire.md"
         }
       ],
       "notes": [
@@ -2162,7 +2162,7 @@
           "type": "note",
           "status": "active",
           "title": "Mughal Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mug/mughal-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mug/mughal-empire.md"
         }
       ],
       "notes": [
@@ -2188,7 +2188,7 @@
           "type": "note",
           "status": "active",
           "title": "Mauritius",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mus/mauritius.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mus/mauritius.md"
         }
       ],
       "notes": [
@@ -2221,7 +2221,7 @@
           "type": "note",
           "status": "active",
           "title": "🇲🇾 Malaysia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/mys/malaysia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/mys/malaysia.md"
         }
       ],
       "notes": [
@@ -2259,21 +2259,21 @@
           "type": "note",
           "status": "active",
           "title": "Netherlands",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/nld/netherlands.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/nld/netherlands.md"
         },
         {
           "id": "production",
           "type": "note",
           "status": "active",
           "title": "Productive Structure Evolution",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/nld/production.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/nld/production.md"
         },
         {
           "id": "state",
           "type": "note",
           "status": "active",
           "title": "Kingdom of the Netherlands",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/nld/state.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/nld/state.md"
         }
       ],
       "notes": [
@@ -2314,7 +2314,7 @@
           "type": "note",
           "status": "active",
           "title": "Norway",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/nor/norway.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/nor/norway.md"
         }
       ],
       "notes": [
@@ -2347,7 +2347,7 @@
           "type": "note",
           "status": "active",
           "title": "🇳🇿 New Zealand",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/nzl/new-zealand.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/nzl/new-zealand.md"
         }
       ],
       "notes": [
@@ -2378,7 +2378,7 @@
           "type": "note",
           "status": "active",
           "title": "Ottoman Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/oto/ottoman-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/oto/ottoman-empire.md"
         }
       ],
       "notes": [
@@ -2404,7 +2404,7 @@
           "type": "note",
           "status": "active",
           "title": "Philippines",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/phl/philippines.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/phl/philippines.md"
         }
       ],
       "notes": [
@@ -2430,7 +2430,7 @@
           "type": "note",
           "status": "active",
           "title": "Polish-Lithuanian Commonwealth",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/plc/polish-lithuanian-commonwealth.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/plc/polish-lithuanian-commonwealth.md"
         }
       ],
       "notes": [
@@ -2456,7 +2456,7 @@
           "type": "note",
           "status": "active",
           "title": "Poland",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/pol/poland.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/pol/poland.md"
         }
       ],
       "notes": [
@@ -2482,7 +2482,7 @@
           "type": "note",
           "status": "active",
           "title": "Puerto Rico",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/pri/puerto-rico.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/pri/puerto-rico.md"
         }
       ],
       "notes": [
@@ -2515,7 +2515,7 @@
           "type": "note",
           "status": "active",
           "title": "Portugal",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/prt/portugal.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/prt/portugal.md"
         }
       ],
       "notes": [
@@ -2546,7 +2546,7 @@
           "type": "note",
           "status": "active",
           "title": "Paraguay",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/pry/paraguay.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/pry/paraguay.md"
         }
       ],
       "notes": [
@@ -2572,7 +2572,7 @@
           "type": "note",
           "status": "active",
           "title": "Qatar",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/qat/qatar.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/qat/qatar.md"
         }
       ],
       "notes": [
@@ -2598,7 +2598,7 @@
           "type": "note",
           "status": "active",
           "title": "Republic of Ragusa",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/rag/ragusa.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/rag/ragusa.md"
         }
       ],
       "notes": [
@@ -2624,7 +2624,7 @@
           "type": "note",
           "status": "active",
           "title": "Roman Republic",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/rom/roman-republic.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/rom/roman-republic.md"
         }
       ],
       "notes": [
@@ -2650,7 +2650,7 @@
           "type": "note",
           "status": "active",
           "title": "Romania",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/rou/romania.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/rou/romania.md"
         }
       ],
       "notes": [
@@ -2676,7 +2676,7 @@
           "type": "note",
           "status": "active",
           "title": "Russia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/rus/russia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/rus/russia.md"
         }
       ],
       "notes": [
@@ -2702,7 +2702,7 @@
           "type": "note",
           "status": "active",
           "title": "Saudi Arabia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/sau/saudi-arabia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/sau/saudi-arabia.md"
         }
       ],
       "notes": [
@@ -2728,7 +2728,7 @@
           "type": "note",
           "status": "active",
           "title": "Scotland",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/scotland/scotland.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/scotland/scotland.md"
         }
       ],
       "notes": [
@@ -2761,21 +2761,21 @@
           "type": "note",
           "status": "active",
           "title": "HR",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/sgp/hr/hr.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/sgp/hr/hr.md"
         },
         {
           "id": "singapore",
           "type": "note",
           "status": "active",
           "title": "Singapore",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/sgp/singapore.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/sgp/singapore.md"
         },
         {
           "id": "state",
           "type": "note",
           "status": "active",
           "title": "Case Study: Singapore’s Government and Institutional Architecture",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/sgp/state.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/sgp/state.md"
         }
       ],
       "notes": [
@@ -2816,7 +2816,7 @@
           "type": "note",
           "status": "active",
           "title": "Seljuk Empire",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/slj/seljuk-empire.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/slj/seljuk-empire.md"
         }
       ],
       "notes": [
@@ -2849,14 +2849,14 @@
           "type": "note",
           "status": "active",
           "title": "Sweden Technical Training Ecosystem (TTE)",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/swe/education/tte.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/swe/education/tte.md"
         },
         {
           "id": "sweden",
           "type": "note",
           "status": "active",
           "title": "Sweden",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/swe/sweden.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/swe/sweden.md"
         }
       ],
       "notes": [
@@ -2899,7 +2899,7 @@
           "type": "note",
           "status": "active",
           "title": "🇹🇭 Thailand",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/tha/thailand.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/tha/thailand.md"
         }
       ],
       "notes": [
@@ -2930,7 +2930,7 @@
           "type": "note",
           "status": "active",
           "title": "Turkey",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/tur/turkey.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/tur/turkey.md"
         }
       ],
       "notes": [
@@ -2956,7 +2956,7 @@
           "type": "note",
           "status": "active",
           "title": "Taiwan",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/twn/taiwan.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/twn/taiwan.md"
         }
       ],
       "notes": [
@@ -2982,7 +2982,7 @@
           "type": "note",
           "status": "active",
           "title": "Ugarit",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ugt/ugarit.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ugt/ugarit.md"
         }
       ],
       "notes": [
@@ -3008,7 +3008,7 @@
           "type": "note",
           "status": "active",
           "title": "Ukraine",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ukr/ukraine.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ukr/ukraine.md"
         }
       ],
       "notes": [
@@ -3034,7 +3034,7 @@
           "type": "note",
           "status": "active",
           "title": "Umayyad Caliphate",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/umy/umayyad-caliphate.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/umy/umayyad-caliphate.md"
         }
       ],
       "notes": [
@@ -3067,7 +3067,7 @@
           "type": "note",
           "status": "active",
           "title": "Uruguay",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ury/uruguay.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ury/uruguay.md"
         }
       ],
       "notes": [
@@ -3105,7 +3105,7 @@
           "type": "note",
           "status": "active",
           "title": "United States of America (USA)",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/usa/united-states-of-america-usa.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/usa/united-states-of-america-usa.md"
         }
       ],
       "notes": [
@@ -3136,7 +3136,7 @@
           "type": "note",
           "status": "active",
           "title": "Venezuela",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/ven/venezuela.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/ven/venezuela.md"
         }
       ],
       "notes": [
@@ -3162,7 +3162,7 @@
           "type": "note",
           "status": "active",
           "title": "Venetia",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/venetia/venetia.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/venetia/venetia.md"
         }
       ],
       "notes": [
@@ -3195,7 +3195,7 @@
           "type": "note",
           "status": "active",
           "title": "🇻🇳 Vietnam",
-          "link": "/note.html?p=notes/social/collective/actor/public/polity/vnm/vietnam.md"
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/vnm/vietnam.md"
         }
       ],
       "notes": [

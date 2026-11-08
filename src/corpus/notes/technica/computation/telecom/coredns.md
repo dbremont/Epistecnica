@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # CoreDNS
 
-- [Domain Name Service (DNS)](/note.html?p=notes/technica/computation/telecom/domain-name-service-dns.md)
+- [Domain Name Service (DNS)](/view.html?p=notes/technica/computation/telecom/domain-name-service-dns.md)
 
 > **CoreDNS** is a fast, flexible, and extensible **DNS server** written in Go, designed as both a **general-purpose authoritative and recursive DNS server** and a **DNS-based service discovery tool**, particularly in **cloud-native environments** like **Kubernetes**.
 > 
@@ -85,4 +85,4 @@ This makes CoreDNS:
 ## References
 
 - https://coredns.io/
-- [**Kubernetes**](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/kubernetes.md)
+- [**Kubernetes**](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/kubernetes.md)

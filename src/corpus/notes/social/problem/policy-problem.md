@@ -10,13 +10,13 @@ tags: [note]
 > shall head toward, and decomposes into mandate, instrument, goal, target, agency,
 > rule, and review.
 
-> Problematization formulates the problem; [Policy](/note.html?p=notes/social/action/public/guidance/policy.md)
-> answers it with a course; the [Dimension](/note.html?p=notes/social/problem/dimension/domain.md)
+> Problematization formulates the problem; [Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
+> answers it with a course; the [Dimension](/view.html?p=notes/social/problem/dimension/domain.md)
 > index scopes in which domain of social reality it sits. See
-> [Problematization](/note.html?p=notes/epistemica/problematization.md) for the process,
-> [Problem](/note.html?p=notes/social/problem/problem.md) for the general element (problem as intentional
+> [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process,
+> [Problem](/view.html?p=notes/social/problem/problem.md) for the general element (problem as intentional
 > structure), and
-> [The Collective Action Problem](/note.html?p=notes/unclassified/collective-action-problem.md) for
+> [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md) for
 > the coordination failure that keeps recognized problems unanswered.
 
 ## What is a policy problem?
@@ -45,7 +45,7 @@ tags: [note]
 ## Dimensions
 
 > Every policy problem sits in a domain, at a scale, with a tractability and a
-> mandate-holder: which [Domain](/note.html?p=notes/social/problem/dimension/domain.md)
+> mandate-holder: which [Domain](/view.html?p=notes/social/problem/dimension/domain.md)
 > of social reality it belongs to (production, infrastructure, human capital, monetary,
 > governance, research, international, urban, cognition, welfare, the state); how
 > severe and wide it runs; whether instruments exist that can close it; and whose
@@ -53,8 +53,8 @@ tags: [note]
 
 ## References
 
-- [Problem](/note.html?p=notes/social/problem/problem.md)
-- [Policy](/note.html?p=notes/social/action/public/guidance/policy.md)
-- [Problematization](/note.html?p=notes/epistemica/problematization.md)
-- [Dimension](/note.html?p=notes/social/problem/dimension/domain.md)
-- [The Collective Action Problem](/note.html?p=notes/unclassified/collective-action-problem.md)
+- [Problem](/view.html?p=notes/social/problem/problem.md)
+- [Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
+- [Problematization](/view.html?p=notes/epistemica/problematization.md)
+- [Dimension](/view.html?p=notes/social/problem/dimension/domain.md)
+- [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md)

@@ -219,7 +219,7 @@ tags: [note]
 * Economic history sources: long-run growth, desamortización, industrialization. ([UAB Digital Document Repository][5])
 * Institutional sources: INI history. ([Company Histories][8])
 * R&D institutions: CSIC, IRI, INIA, ICN2. ([CSIC][13])
-* [Technology](/note.html?p=notes/social/structural/technical/technology.md)
+* [Technology](/view.html?p=notes/social/structural/technical/technology.md)
 * ACCIÓ - Agencia para la Competitividad de la Empresa
 * Agencia Vasca de Desarrollo Empresarial (Grupo Spri)
 * https://es.wikipedia.org/wiki/Junta_para_Ampliaci%C3%B3n_de_Estudios_e_Investigaciones_Cient%C3%ADficas https://boe.es/datos/pdfs/BOE//1907/015/A00165-00167.pdf → Gaceta de Madrid

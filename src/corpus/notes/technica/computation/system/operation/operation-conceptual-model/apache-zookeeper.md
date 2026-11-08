@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Apache Zookeeper
 
-- [Etcd](/note.html?p=notes/technica/computation/system/operation/operation-conceptual-model/etcd.md)
+- [Etcd](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/etcd.md)
 
 > An **Apache** project that provides centralized service for maintaining configuration information, naming, and providing distributed synchronization.
 > 

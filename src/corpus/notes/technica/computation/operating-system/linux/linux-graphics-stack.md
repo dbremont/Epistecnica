@@ -4,7 +4,7 @@ tags: [note, graphics]
 
 # Linux Graphics Stack
 
-- [Linux Multimedia Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md), [Hyprland](/note.html?p=notes/technica/computation/operating-system/linux/hyprland.md), [X Window System (X11 Version)](/note.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md), [Direct Rendering Manager (DRM)](/note.html?p=notes/technica/computation/operating-system/linux/direct-rendering-manager-drm.md)
+- [Linux Multimedia Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-multimedia-stack.md), [Hyprland](/view.html?p=notes/technica/computation/operating-system/linux/hyprland.md), [X Window System (X11 Version)](/view.html?p=notes/technica/computation/operating-system/linux/x-window-system-x11-version.md), [Direct Rendering Manager (DRM)](/view.html?p=notes/technica/computation/operating-system/linux/direct-rendering-manager-drm.md)
 
 > The **Linux Graphics Stack** is a complex and layered architecture consisting of the X Window System or Wayland as display servers, Mesa 3D for rendering, DRI (Direct Rendering Infrastructure) for direct hardware access, and various device drivers that interface with the underlying hardware to provide comprehensive support for rendering graphics on Linux systems.
 > 
@@ -99,7 +99,7 @@ Switching
 
 ### References
 
-- [Graphics Card](/note.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/graphics-card.md)
+- [Graphics Card](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/graphics-card.md)
 - [Window Manager](https://en.wikipedia.org/wiki/Window_manager)
 - [List of display servers](https://en.wikipedia.org/wiki/List_of_display_servers)
 - [The Linux Graphics Stack](http://blog.mecheye.net/2012/06/the-linux-graphics-stack/)

@@ -112,17 +112,17 @@ tags: [note]
 
 ## References
 
-[**Continuity**](/note.html?p=notes/technica/computation/dependability/continuity.md)
+[**Continuity**](/view.html?p=notes/technica/computation/dependability/continuity.md)
 
-[Verification](/note.html?p=notes/technica/computation/dependability/verification.md)
+[Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
 
-[Consistency](/note.html?p=notes/technica/computation/dependability/consistency.md)
+[Consistency](/view.html?p=notes/technica/computation/dependability/consistency.md)
 
-[Formal Verification](/note.html?p=notes/technica/computation/dependability/formal-verification.md)
+[Formal Verification](/view.html?p=notes/technica/computation/dependability/formal-verification.md)
 
-- [System](/note.html?p=notes/technica/computation/system.md)
-- [Verification](/note.html?p=notes/technica/computation/dependability/verification.md)
-- [Consistency](/note.html?p=notes/technica/computation/dependability/consistency.md)
-- [Transaction](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/transaction.md)
-- [**Transactional System**](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/transactional-system.md)
+- [System](/view.html?p=notes/technica/computation/system.md)
+- [Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
+- [Consistency](/view.html?p=notes/technica/computation/dependability/consistency.md)
+- [Transaction](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/transaction.md)
+- [**Transactional System**](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/transactional-system.md)
 - Laprie, Jean-Claude, and Brian Randell. "Fundamental concepts of dependability." *Report N01145, LAAS-CNRS* (2001).

@@ -265,7 +265,7 @@
     verdicts; evaluation uses the elements, never a single rank. Sixteen sample organizations
     stand compared in <a href="public-organization.html">Public Organizations Compared</a>.
     Canonical tables live in the
-    <a id="ledeOrg" href="/note.html?p=notes/social/collective/actor/public/public-organization.md">Public Organization</a>
+    <a id="ledeOrg" href="/view.html?p=notes/social/collective/actor/public/public-organization.md">Public Organization</a>
     note; this atlas is an explorer, not a fork.</p>
     <img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
 
@@ -395,7 +395,7 @@
             .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
     }
     function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
-    function noteUrl(path) { return WEB + "/note.html?p=notes/" + path; }
+    function noteUrl(path) { return WEB + "/view.html?p=notes/" + path; }
     function shortLabel(path) {
         return String(path).split("/").pop().replace(/\.md$/, "").split("-").map(function (w) {
             return w.charAt(0).toUpperCase() + w.slice(1);

@@ -316,9 +316,9 @@ The brain performs complex computations that mirror key mathematical and algorit
 
 ## Related
 
-- [Neuron](/note.html?p=notes/nature/neuron.md)
-- [Organ](/note.html?p=notes/nature/organ.md)
-- [Human Memory](/note.html?p=notes/nature/human-memory.md)
+- [Neuron](/view.html?p=notes/nature/neuron.md)
+- [Organ](/view.html?p=notes/nature/organ.md)
+- [Human Memory](/view.html?p=notes/nature/human-memory.md)
 
 ## Provenance
 

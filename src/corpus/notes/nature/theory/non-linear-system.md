@@ -4,7 +4,7 @@ tags: [note, reality]
 
 # Non Linear System
 
-Related: [Compound Effect](/note.html?p=notes/epistemica/epistemic/theory/compound-effect.md)
+Related: [Compound Effect](/view.html?p=notes/epistemica/epistemic/theory/compound-effect.md)
 
 > Using a term like nonlinear science is like referring to the bulk of zoology as the study of non-elephant animals.
 > 

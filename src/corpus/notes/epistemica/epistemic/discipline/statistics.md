@@ -61,7 +61,7 @@ instantiates is owned by the canonical
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> No at the root: statistics is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Two boundaries are worth stating. Against **mathematics**: probability theory is the mathematical scaffold statistics uses, but statistics adds what pure mathematics does not supply — a *data-producing design* and a *repeated-sampling warrant*. Against **epistemic evaluation / validation**: a p-value or a calibrated model is a statistical *construction*, while validating a scientific model against reality is the *evaluation* branch; the two are adjacent but not identical, and calibration is a distinct practice, not a synonym for validation (see [`validation/calibration.md`](/note.html?p=notes/epistemica/validation/calibration.md)).
+> No at the root: statistics is a structured collection of epistemic elements organized as one coherent epistemic whole, so `Aggregate` is its primary type. Two boundaries are worth stating. Against **mathematics**: probability theory is the mathematical scaffold statistics uses, but statistics adds what pure mathematics does not supply — a *data-producing design* and a *repeated-sampling warrant*. Against **epistemic evaluation / validation**: a p-value or a calibrated model is a statistical *construction*, while validating a scientific model against reality is the *evaluation* branch; the two are adjacent but not identical, and calibration is a distinct practice, not a synonym for validation (see [`validation/calibration.md`](/view.html?p=notes/epistemica/validation/calibration.md)).
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -403,7 +403,7 @@ design and the honesty of the reader.
 
 ### Representation Toolbox
 
-> See ([Trainable Computational System Space](/note.html?p=notes/epistemica/observational/computational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](/note.html?p=notes/epistemica/epistemic/discipline/probability.md)) for Probabilistic ones.
+> See ([Trainable Computational System Space](/view.html?p=notes/epistemica/observational/computational/computational-learning.md) ) for Cl and ([**Representation Toolbox**](/view.html?p=notes/epistemica/epistemic/discipline/probability.md)) for Probabilistic ones.
 > 
 
 > **Note:** A statistical model is basically a **trainable computational system, but here we will only cover the more traditional ones.**
@@ -477,7 +477,7 @@ design and the honesty of the reader.
 > What inferences can we make from a statistical representation or from raw pieces of reality? What are the tools used to make these inferences?
 > 
 
-> See [Problem Space](/note.html?p=notes/epistemica/epistemic/discipline/statistics.md), [Statistical Function](/note.html?p=notes/epistemica/observational/construction/statistical-function.md),  [(Statistic) Estimator](/note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md), …
+> See [Problem Space](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md), [Statistical Function](/view.html?p=notes/epistemica/observational/construction/statistical-function.md),  [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md), …
 > 
 
 | **Category** | **Inference** | **Description** |
@@ -495,7 +495,7 @@ design and the honesty of the reader.
 
 ### Description
 
-> See more in [(Statistic) Estimator](/note.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and [Statistical Function](/note.html?p=notes/epistemica/observational/construction/statistical-function.md).
+> See more in [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and [Statistical Function](/view.html?p=notes/epistemica/observational/construction/statistical-function.md).
 > 
 
 ### Principle
@@ -619,7 +619,7 @@ design and the honesty of the reader.
 
 ### Model Validation
 
-> See [Model Validation](/note.html?p=notes/epistemica/validation/validation.md) & [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md).
+> See [Model Validation](/view.html?p=notes/epistemica/validation/validation.md) & [Statistical Hypothesis Testing](/view.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md).
 > 
 
 ### **Predictive Power**
@@ -646,7 +646,7 @@ design and the honesty of the reader.
 
 ## Sampling
 
-> Se more in [Sampling](/note.html?p=notes/epistemica/observational/computational/sampling.md) and  [**Resampling**](/note.html?p=notes/epistemica/observational/computational/resampling.md).
+> Se more in [Sampling](/view.html?p=notes/epistemica/observational/computational/sampling.md) and  [**Resampling**](/view.html?p=notes/epistemica/observational/computational/resampling.md).
 > 
 
 > In probability and statistics, **sampling** refers to the process of selecting a subset of elements from a larger **population** or **universe** in order to make inferences about the whole population. The main idea is that it is usually impractical or impossible to observe every member of a population, so we observe a sample and use it to estimate population properties.
@@ -672,7 +672,7 @@ design and the honesty of the reader.
 > **Population Comparison:**  Comparing populations involves analyzing differences or relationships between two or more populations. This can be done with respect to **means**, **variances**, **distributions**, or **proportions**.
 > 
 
-> See more in [Comparison](/note.html?p=notes/epistemica/observational/comparison.md).
+> See more in [Comparison](/view.html?p=notes/epistemica/observational/comparison.md).
 > 
 
 ## Foundation
@@ -683,7 +683,7 @@ design and the honesty of the reader.
 > What is the theoretical grounding of statistics? When should a **statistical procedure** be used?
 > 
 
-> See more in [Theory of Statistics](/note.html?p=notes/epistemica/observational/construction/theory-of-statistics.md) and [Theory of Probability](/note.html?p=notes/epistemica/observational/probability/theory-of-probability.md).
+> See more in [Theory of Statistics](/view.html?p=notes/epistemica/observational/construction/theory-of-statistics.md) and [Theory of Probability](/view.html?p=notes/epistemica/observational/probability/theory-of-probability.md).
 > 
 
 ### Induction
@@ -746,13 +746,13 @@ design and the honesty of the reader.
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Validation](/note.html?p=notes/epistemica/validation/validation.md) — the evaluative sibling of statistics
-- [Calibration](/note.html?p=notes/epistemica/validation/calibration.md) — a distinct practice, not a synonym for validation
-- [Statistical Hypothesis Testing](/note.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
-- [p-value](/note.html?p=notes/epistemica/validation/p-value.md) · [e-value](/note.html?p=notes/epistemica/validation/e-value.md)
-- [Exploratory Data Analysis](/note.html?p=notes/epistemica/observational/exploratory-data-analysis-eda.md)
-- [Mathematics](/note.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
-- [EES](/note.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
+- [Validation](/view.html?p=notes/epistemica/validation/validation.md) — the evaluative sibling of statistics
+- [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) — a distinct practice, not a synonym for validation
+- [Statistical Hypothesis Testing](/view.html?p=notes/epistemica/validation/statistical-hypothesis-testing.md)
+- [p-value](/view.html?p=notes/epistemica/validation/p-value.md) · [e-value](/view.html?p=notes/epistemica/validation/e-value.md)
+- [Exploratory Data Analysis](/view.html?p=notes/epistemica/observational/exploratory-data-analysis-eda.md)
+- [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the parent formal discipline
+- [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - [Statistics](https://en.wikipedia.org/wiki/Statistics)
 - [Statistical model](https://en.wikipedia.org/wiki/Statistical_model)
 - http://bactra.org/notebooks/statistics.html
@@ -815,7 +815,7 @@ and Modelling, Cambridge University Press, pp. 83-119.
 - [Time Series Forecasting](https://www.udacity.com/courses/time-series-forecasting--ud980)
 - Facebook Prophet
 - MAPE forecasting metric
-- [Dynamical System](/note.html?p=notes/epistemica/mathematical/change/dynamical-system.md)
+- [Dynamical System](/view.html?p=notes/epistemica/mathematical/change/dynamical-system.md)
 - https://en.wikipedia.org/wiki/Gompertz_function
 - [‣](https://app.notion.com/p/273598edb790800ebe9efdc968b59009?pvs=21)
 - https://archive.org/details/practicaldataana0000brya

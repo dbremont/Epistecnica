@@ -59757,5 +59757,15 @@
         "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/private/education/nld/leiden-university.md",
+    "logs": [
+      {
+        "date": "2026-11-07",
+        "kind": "docs",
+        "summary": "Add the Leiden University actor note under the education actors, with the Wikipedia reference."
+      }
+    ]
   }
 ]

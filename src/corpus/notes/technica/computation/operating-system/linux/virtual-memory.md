@@ -4,7 +4,7 @@ tags: [note, memory-management]
 
 # Virtual Memory
 
-- [Linux Memory Management Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-memory-management-stack.md)
+- [Linux Memory Management Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-memory-management-stack.md)
 
 > **Virtual Memory**  is a memory management technique that abstracts physical RAM by using 
 disk storage to extend addressable memory, enabling processes to operate  as if they have contiguous, isolated memory spaces larger than  available physical memory, facilitated by paging/segmentation and  hardware (MMU) support.

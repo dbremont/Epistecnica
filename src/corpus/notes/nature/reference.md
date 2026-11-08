@@ -4,7 +4,7 @@ tags: [note, nature, substance-matter, human, cognition, representation]
 
 # Reference
 
-> A natural element read per [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md).
+> A natural element read per [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
 ## Formulation
 
@@ -129,13 +129,13 @@ And because: $|\mathcal{R}(n)| \geq 1 \quad \text{and possibly} \quad |\mathcal{
 
 ## Related
 
-- [Meaning](/note.html?p=notes/nature/cognition/meaning.md)
-- [Name](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
+- [Meaning](/view.html?p=notes/nature/cognition/meaning.md)
+- [Name](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/name.md)
 
 ## References
 
-- [How to decompose any natural instance?](/note.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
-- [Philosophia Artium Epistemicarum et Operis](/note.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
+- [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
+- [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/meta/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Chemical Substance 62f6d71632334efbb32fa3ad6b9a582b.md`; `Fluid 10cc0f5171ec809b98d9f7a1b292dba4.md`; `Mixture 1f7c0f5171ec800a935ffd5fef9f1c9b.md`
 - https://plato.stanford.edu/entries/reference/
 - Quine, W.V.O. (1960). Word and Object.

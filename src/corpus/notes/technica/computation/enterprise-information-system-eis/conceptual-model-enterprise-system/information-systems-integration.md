@@ -52,5 +52,5 @@ tags: [note, integration]
 - [Apache NiFi](https://nifi.apache.org/documentation/v2/)
 - [System Integration](https://en.wikipedia.org/wiki/System_integration)
 - [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/)
-- [Distributed Computing](/note.html?p=notes/technica/computation/distributed-computing.md)
+- [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
 - [Integration platform as a service (iPaaS)](https://en.wikipedia.org/wiki/Cloud-based_integration)

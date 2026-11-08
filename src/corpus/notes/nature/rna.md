@@ -19,10 +19,10 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Related
 
-- [DNA](/note.html?p=notes/nature/dna.md)
-- [RNA Sequencing](/note.html?p=notes/nature/rna-sequencing.md)
-- [Polymer](/note.html?p=notes/nature/polymer.md)
-- [Genetic Material](/note.html?p=notes/nature/genetic-material.md)
+- [DNA](/view.html?p=notes/nature/dna.md)
+- [RNA Sequencing](/view.html?p=notes/nature/rna-sequencing.md)
+- [Polymer](/view.html?p=notes/nature/polymer.md)
+- [Genetic Material](/view.html?p=notes/nature/genetic-material.md)
 
 ## Provenance
 

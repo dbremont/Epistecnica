@@ -4,7 +4,7 @@ tags: [note, effect-system, linguistic-abstraction, notion-of-change]
 
 # Notion of Change
 
-- [Continuation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md), [Exception Handling System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md), [Computation  (Computational Process)](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md), [Effect System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Unit of Computation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
+- [Continuation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/continuation.md), [Exception Handling System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md), [Computation  (Computational Process)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/computation-computational-process.md), [Effect System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/effect-system.md), [Unit of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
 
 > In this note - we will introduce the (root) - main note about the idea of **change** - that is the formalism behind a computation.
 > 
@@ -52,7 +52,7 @@ tags: [note, effect-system, linguistic-abstraction, notion-of-change]
 > **Call Stack Manipulation**: Directly controlling the function call stack (e.g., pushing/popping frames, tail calls, stack unwinding).
 > 
 
-> See more in ([Concurrency](/note.html?p=notes/technica/computation/concurrency.md)) for the idea of computation unit - and multi-computation.
+> See more in ([Concurrency](/view.html?p=notes/technica/computation/concurrency.md)) for the idea of computation unit - and multi-computation.
 > 
 
 ### Construct

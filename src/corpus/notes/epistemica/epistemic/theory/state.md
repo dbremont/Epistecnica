@@ -4,7 +4,7 @@ tags: [note, epistemology, representation]
 
 # State
 
-Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md), [Reality](/note.html?p=notes/nature/theory/reality.md), [Epistemic Artifact](/note.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
+Related: [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md), [Reality](/view.html?p=notes/nature/theory/reality.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 
 > What is an state?
 > 

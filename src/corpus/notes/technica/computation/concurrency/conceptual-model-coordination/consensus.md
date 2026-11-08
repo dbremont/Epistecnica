@@ -46,7 +46,7 @@ Imagine a group of friends trying to decide where to eat:
 
 QA:
 
-- How I Understand Consensus? [How I Understand Consensus?](/note.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/consensus.md)
+- How I Understand Consensus? [How I Understand Consensus?](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/consensus.md)
 - What is the consensus problem in distributed systems?
 - What are the three key properties of consensus?
 - What is the difference between synchronous and asynchronous systems in the context of consensus?

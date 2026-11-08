@@ -4,9 +4,9 @@ tags: [note, animal, dairy, husbandry, lactation]
 
 # Dairy Husbandry Set
 
-> The **Dairy Husbandry Set** is the set of practices that keeps a milking animal in production: the herd, the lactation, the ration, the milking, and the health. It is the milk half of the animal side of [Food Production Technical Domain](/note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md), and it covers the half of the chain that [Dairy Production](/note.html?p=notes/technica/general/cto/industry/dairy-production.md) does not — that note holds the processing line, from intake to cold store, which belongs to the post-harvest side and therefore to the post-harvest Food Value Chain side.
+> The **Dairy Husbandry Set** is the set of practices that keeps a milking animal in production: the herd, the lactation, the ration, the milking, and the health. It is the milk half of the animal side of [Food Production Technical Domain](/view.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md), and it covers the half of the chain that [Dairy Production](/view.html?p=notes/technica/general/cto/industry/dairy-production.md) does not — that note holds the processing line, from intake to cold store, which belongs to the post-harvest side and therefore to the post-harvest Food Value Chain side.
 >
-> The animal is the same organism the veterinary and genetic sets work on, and the split is by purpose rather than by species: [Animal Husbandry Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) holds the system, [Livestock Breeding And Genetics Set](/note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) holds what changes the next generation, and [Animal Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) holds the disease and injury work. This note holds the milk. Worked per [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
+> The animal is the same organism the veterinary and genetic sets work on, and the split is by purpose rather than by species: [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) holds the system, [Livestock Breeding And Genetics Set](/view.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) holds what changes the next generation, and [Animal Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) holds the disease and injury work. This note holds the milk. Worked per [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md).
 
 ## Formulation
 
@@ -136,10 +136,10 @@ Lineage: hand-milked household milk → machine milking and the first herd econo
 
 ## References
 
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
-- [Food Production Technical Domain](/note.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the member scope this set belongs to)
-- [Animal Husbandry Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) (the system this practice is part of)
-- [Livestock Breeding And Genetics Set](/note.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) (the heifer that renews the herd)
-- [Animal Health Technical Set](/note.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (mastitis, lameness, and the metabolic crises)
-- [Dairy Production](/note.html?p=notes/technica/general/cto/industry/dairy-production.md) (the processing half, which belongs to the value chain)
-- [Plant Cultivation Technical Domain Set](/note.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (the crop-side counterpart in the same domain)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules)
+- [Food Production Technical Domain](/view.html?p=notes/technica/general/cto/es/multinode/food-production-technical-domain.md) (the member scope this set belongs to)
+- [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) (the system this practice is part of)
+- [Livestock Breeding And Genetics Set](/view.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) (the heifer that renews the herd)
+- [Animal Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (mastitis, lameness, and the metabolic crises)
+- [Dairy Production](/view.html?p=notes/technica/general/cto/industry/dairy-production.md) (the processing half, which belongs to the value chain)
+- [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) (the crop-side counterpart in the same domain)

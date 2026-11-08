@@ -25,7 +25,7 @@ QA (Ontic, Epistemic, Practical):
 
 ## Related
 
-- [Genome](/note.html?p=notes/nature/genome.md)
+- [Genome](/view.html?p=notes/nature/genome.md)
 
 ## Provenance
 

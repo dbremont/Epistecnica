@@ -4,7 +4,7 @@ tags: [note, tool]
 
 # Valgrind
 
-- [LTTng](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md), [Profiler](/note.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
+- [LTTng](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/lttng.md), [Profiler](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/profiler.md)
 
 > Valgrind is a versatile suite of tools for debugging and profiling programs. **Callgrind** is one of its powerful tools specifically designed for call graph generating and program profiling.
 > 

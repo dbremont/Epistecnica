@@ -53,7 +53,7 @@ The compound reading is primary because it is the one the other two presuppose: 
 | `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Component)` Priority-and-Refereeing Institution | The stable system of rules and expectations the journal instituted: announce first, announce regularly, report so others can repeat. |
 | `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Component)` Priority-and-Refereeing Institution `(→ Component)` Editor Role | The social position carrying selection authority within the institution. |
 | `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Component)` Priority-and-Refereeing Institution `(→ Component)` Priority-of-Publication Norm | Whoever prints first holds the claim; the norm the 1665 number made operative. |
-| `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Association)` Royal Society | Sponsoring societal actor — a Scientific Collective chartered by the crown but wielding no sovereign power and holding no public mandate, so it fails the second state-actor test and stays societal. Associated with the compound, not part of it: it publishes the journal without being the journal. Decomposed in its own note: [The Royal Society of London for Improving Natural Knowledge](/note.html?p=notes/social/collective/actor/private/research/gbr/the-royal-society-of-london-for-improving-natural-knowledge.md). |
+| `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Association)` Royal Society | Sponsoring societal actor — a Scientific Collective chartered by the crown but wielding no sovereign power and holding no public mandate, so it fails the second state-actor test and stays societal. Associated with the compound, not part of it: it publishes the journal without being the journal. Decomposed in its own note: [The Royal Society of London for Improving Natural Knowledge](/view.html?p=notes/social/collective/actor/private/research/gbr/the-royal-society-of-london-for-improving-natural-knowledge.md). |
 | `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Association)` Printed Issue Run | The physical numbers — technical artifacts; decompose them technically and cross-link, per the technique/social division of labour. |
 | `Social Compound` `(→ Kind)` Scholarly Journal `(→ Instance)` Philosophical Transactions of the Royal Society `(→ Association)` Article Corpus | The epistemic artifacts published — link to Epistemic / Research Space, do not integrate; the founding number is resident there as a `Document` node. |
 
@@ -71,10 +71,10 @@ Two load-bearing caveats.
 
 ## References
 
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Collective](/note.html?p=notes/social/collective/collective.md)
-- [Actor](/note.html?p=notes/social/collective/actor/actor.md)
-- [Facet](/note.html?p=notes/social/framework/facet.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Collective](/view.html?p=notes/social/collective/collective.md)
+- [Actor](/view.html?p=notes/social/collective/actor/actor.md)
+- [Facet](/view.html?p=notes/social/framework/facet.md)
 - [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society)
 - [Royal Society](https://en.wikipedia.org/wiki/Royal_Society)
 

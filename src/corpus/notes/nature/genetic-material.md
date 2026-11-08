@@ -41,8 +41,8 @@ tags: [note, nature, building-block, materials-science, matter]
 
 ## Related
 
-- [RNA](/note.html?p=notes/nature/rna.md)
-- [DNA](/note.html?p=notes/nature/dna.md)
+- [RNA](/view.html?p=notes/nature/rna.md)
+- [DNA](/view.html?p=notes/nature/dna.md)
 
 ## Provenance
 

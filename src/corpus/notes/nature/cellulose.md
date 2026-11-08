@@ -13,8 +13,8 @@ tags: [note, nature, substance-matter, materials-science, matter, unfinished]
 
 ## Related
 
-- [Biopolymer](/note.html?p=notes/nature/biopolymer.md)
-- [Organic Matter](/note.html?p=notes/nature/organic-matter.md)
+- [Biopolymer](/view.html?p=notes/nature/biopolymer.md)
+- [Organic Matter](/view.html?p=notes/nature/organic-matter.md)
 
 ## Provenance
 

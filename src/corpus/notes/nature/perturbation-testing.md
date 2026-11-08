@@ -9,7 +9,7 @@ tags: [note, nature, natural-system, technique, unfinished]
 
 ## Related
 
-- [Interferometry](/note.html?p=notes/nature/interferometry.md)
+- [Interferometry](/view.html?p=notes/nature/interferometry.md)
 
 ## Provenance
 

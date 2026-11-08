@@ -42,6 +42,6 @@ Guiding Questions:
 
 ## References
 
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
-- [Modularization](/note.html?p=notes/technica/computation/system/programming/conceptual-model-programming/modularization.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md)
+- [Modularization](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/modularization.md)

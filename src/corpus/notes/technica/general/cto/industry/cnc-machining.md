@@ -34,4 +34,4 @@ tags: [note, cnc, machining]
 ## References
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Robotic/CNC.md`
-- [Philosophia Artium Technicarum et Operis](/note.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)
+- [Philosophia Artium Technicarum et Operis](/view.html?p=notes/meta/philosophia-artium-technicarum-et-operis.md)

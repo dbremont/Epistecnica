@@ -45,7 +45,7 @@ tags: [note, human, cognition]
 
 ## Related
 
-- [Cognitive Development](/note.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognitive-development.md)
+- [Cognitive Development](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/cognitive-development.md)
 
 ## Provenance
 

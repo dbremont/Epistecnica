@@ -14,7 +14,7 @@ qa:
 
 > A quantity is never a bare number. `42` quantifies nothing until a unit and a scale say what kind of magnitude it stands for and which operations it admits: `42 kg` is a mass, `42 °C` an interval-scaled temperature, `42nd` a rank, and `42` alone is as likely a count as a line number. Remove the unit and the quantity is gone, though the number remains.
 
-> Numbers and the schemes that bind them to magnitudes co-evolve: what counts as quantifiable is partly fixed by the notation available for it, and the notation is extended by what inquiry needs to quantify (see [Number](/note.html?p=notes/epistemica/mathematical/number/number.md)).
+> Numbers and the schemes that bind them to magnitudes co-evolve: what counts as quantifiable is partly fixed by the notation available for it, and the notation is extended by what inquiry needs to quantify (see [Number](/view.html?p=notes/epistemica/mathematical/number/number.md)).
 
 ## Formulation
 
@@ -40,7 +40,7 @@ qa:
 
 > `readable as` an **`Epistemic Act`** when attention falls on a single act of assigning a value — the guide types `Measurement` as an action element, and counting, estimating, and ranking sit at the same grain. `readable as` an **`Epistemic Practice`** when attention falls on the organized doing — metrology, the laboratories and standards bodies that sustain it. `readable as` an **`Epistemic Construction`** when attention falls on a quantity statement as a description of a segment.
 
-> The exclusion is argued, not asserted. An act has no constitutive parts to grow, so the scale levels, the unit systems, and the conversion rules decomposed below would have no home under it — the act is what fires the scheme, not what the scheme is made of. The practice is [Measurement Theory](/note.html?p=notes/epistemica/measurement/measurement-theory.md)'s subject, and a quantity statement is one product of the scheme, not the scheme.
+> The exclusion is argued, not asserted. An act has no constitutive parts to grow, so the scale levels, the unit systems, and the conversion rules decomposed below would have no home under it — the act is what fires the scheme, not what the scheme is made of. The practice is [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)'s subject, and a quantity statement is one product of the scheme, not the scheme.
 
 > The magnitudes quantified are read in the **Ontic Order**; the scheme that binds them is epistemic. The ontic decomposition of a magnitude belongs to the naturalis grammar: it is named here and never grown.
 
@@ -55,15 +55,15 @@ qa:
 | Construct | What it does | Why it is not this |
 | --- | --- | --- |
 | **Quantification** | binds a magnitude to a number on a declared scale | — |
-| **Quantization** | replaces a value drawn from a continuum by one of finitely many levels | it discretizes a range of values; it binds nothing to a unit or a scale (see [Quantization](/note.html?p=notes/epistemica/mathematical/quantization.md)) |
-| **Measurement** | assigns a value to an observable under a scale | one act the scheme makes possible, on a registered observable (see [Measurement Theory](/note.html?p=notes/epistemica/measurement/measurement-theory.md)) |
-| **Counting** | assigns a cardinality to a collection | the scheme's discrete case, with the unit implicit (see [Enumeration](/note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)) |
-| **Measure** in mathematics | assigns a size to a set | a set function in measure theory, not a binding of a magnitude to a unit (see [Measure](/note.html?p=notes/epistemica/mathematical/measure/measure.md)) |
+| **Quantization** | replaces a value drawn from a continuum by one of finitely many levels | it discretizes a range of values; it binds nothing to a unit or a scale (see [Quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)) |
+| **Measurement** | assigns a value to an observable under a scale | one act the scheme makes possible, on a registered observable (see [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)) |
+| **Counting** | assigns a cardinality to a collection | the scheme's discrete case, with the unit implicit (see [Enumeration](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)) |
+| **Measure** in mathematics | assigns a size to a set | a set function in measure theory, not a binding of a magnitude to a unit (see [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)) |
 | **Logical quantification** | binds a variable under ∀ or ∃ | it ranges over a domain of things, not over how much of an attribute an item carries |
 
 > **Level.** A nominal or ordinal assignment quantifies an attribute without yielding a magnitude reading. "Twice as hot" is meaningless on an interval scale, and "twice the number" is meaningless on a nominal one. The scheme admits every level; the magnitude reading is licensed only from the interval level up.
 
-> **Relatum.** Only a quantitative property can be quantified. Turning a quality into a measurable attribute is itself a construction — operationalization — and its warrant belongs to measurement theory rather than here; see [Quantitative Property](/note.html?p=notes/epistemica/mathematical/number/quantitative-property.md).
+> **Relatum.** Only a quantitative property can be quantified. Turning a quality into a measurable attribute is itself a construction — operationalization — and its warrant belongs to measurement theory rather than here; see [Quantitative Property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md).
 
 > The ambiguity is resolved by declaring `Epistemic Representation` primary, typing the five scale levels as `Convention`s of one substrate, and keeping the modes — counting, measuring, estimating, ranking — as prose. Filing the modes as sub-schemes would split one representation into four; filing the levels as sub-schemes would make an interval reading a different construct from a ratio reading of the same magnitude.
 
@@ -71,7 +71,7 @@ qa:
 
 > **Boundary.** This table decomposes one epistemic instance — the quantification scheme — into the sign system that carries it, the rules and structures constituting it, and the predicates it carries. The acts that exercise the scheme are named in prose and linked, never grown here; the same holds for the magnitudes bound, whose decomposition belongs to the naturalis grammar.
 
-> **Stopping rule.** A row is terminal when it names a notation element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. The arithmetic that consumes the value is not decomposed here (see [Arithmetic](/note.html?p=notes/epistemica/mathematical/number/arithmetic.md)), and neither is the metrology that produces it (see [Measurement Theory](/note.html?p=notes/epistemica/measurement/measurement-theory.md)).
+> **Stopping rule.** A row is terminal when it names a notation element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. The arithmetic that consumes the value is not decomposed here (see [Arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)), and neither is the metrology that produces it (see [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)).
 
 > **Identity.** Instance Tree Path holds instances only — never epistemic element types; every path in this table is unique, and no type segment terminates a branch.
 
@@ -172,8 +172,8 @@ qa:
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Number](/note.html?p=notes/epistemica/mathematical/number/number.md) · [Quantitative Property](/note.html?p=notes/epistemica/mathematical/number/quantitative-property.md) · [Ratio](/note.html?p=notes/epistemica/mathematical/number/ratio.md) · [Fraction](/note.html?p=notes/epistemica/mathematical/number/fraction.md) · [Numeric System](/note.html?p=notes/epistemica/mathematical/number/numeric-system.md) · [Rounding](/note.html?p=notes/epistemica/mathematical/number/rounding.md)
-- [Measurement Theory](/note.html?p=notes/epistemica/measurement/measurement-theory.md) · [System of Units of Measurement](/note.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md) · [Enumeration (Counting)](/note.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [Measure](/note.html?p=notes/epistemica/mathematical/measure/measure.md) · [Quantization](/note.html?p=notes/epistemica/mathematical/quantization.md)
+- [Number](/view.html?p=notes/epistemica/mathematical/number/number.md) · [Quantitative Property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md) · [Ratio](/view.html?p=notes/epistemica/mathematical/number/ratio.md) · [Fraction](/view.html?p=notes/epistemica/mathematical/number/fraction.md) · [Numeric System](/view.html?p=notes/epistemica/mathematical/number/numeric-system.md) · [Rounding](/view.html?p=notes/epistemica/mathematical/number/rounding.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) · [System of Units of Measurement](/view.html?p=notes/epistemica/measurement/system-of-units-of-measurement.md) · [Enumeration (Counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [Quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)
 - [Quantification (science)](https://en.wikipedia.org/wiki/Quantification_(science))
 - Stevens, S. S. (1946). On the theory of scales of measurement. *Science*, 103(2684), 677–680.
 - Suppes, P., Krantz, D. H., Luce, R. D., & Tversky, A. (1971). *Foundations of Measurement, Vol. I: Additive and Polynomial Representations*. Academic Press.

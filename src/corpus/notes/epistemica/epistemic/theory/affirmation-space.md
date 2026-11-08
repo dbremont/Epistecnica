@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Affirmation Space
 
-Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+Related: [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
 > An **Affirmation Space** is a powerful idea that attempts to capture the full set of possible affirmations that can be made about something.
 > 
@@ -14,5 +14,5 @@ Related: [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md
 
 ## References
 
-- [Modelling](/note.html?p=notes/epistemica/epistemic/theory/modelling.md)
+- [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 - Section of Reality Template

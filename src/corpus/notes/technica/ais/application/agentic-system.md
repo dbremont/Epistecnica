@@ -34,5 +34,5 @@ tags: [note]
 - https://www.taskade.com/blog/agentic-ai-systems/
 - https://github.com/All-Hands-AI/OpenHands
 - [ ]  https://jngiam.bearblog.dev/mcp-large-data/
-- [**Language Modelling (LM)**](/note.html?p=notes/technica/ais/domain/retrieval/lgm.md)
+- [**Language Modelling (LM)**](/view.html?p=notes/technica/ais/domain/retrieval/lgm.md)
 - https://claw-eval.github.io/

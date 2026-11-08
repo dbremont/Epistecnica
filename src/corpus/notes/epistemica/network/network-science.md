@@ -396,5 +396,5 @@ qa:
 - [Graph](../mathematical/discrete/graph.md)
 - https://github.com/dbremont/algorithms
 - [Graph Data Model ](https://app.notion.com/p/Graph-Data-Model-1afc0f5171ec809fb444fd2da46e183f?pvs=21)
-- [Graph Neural Networks (GNN)](/note.html?p=notes/technica/ais/architecture/graph-neural-networks-gnn.md)
+- [Graph Neural Networks (GNN)](/view.html?p=notes/technica/ais/architecture/graph-neural-networks-gnn.md)
 - https://github.com/dbremont/algorithms/tree/main/cm/network

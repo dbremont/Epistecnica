@@ -9,7 +9,7 @@ tags: [note, problem, problematization, intention, agency, goal, social-element]
 > A **problem** is the normative gap between the current state of affairs and a desired
 > state, as apprehended by an agent capable of acting on it. This is the general element;
 > the policy-actionable specialization — a problem taken up as warranting a collective
-> course under authority — lives at [Problem](/note.html?p=notes/social/problem/policy-problem.md).
+> course under authority — lives at [Problem](/view.html?p=notes/social/problem/policy-problem.md).
 
 ## Formulation
 
@@ -17,7 +17,7 @@ tags: [note, problem, problematization, intention, agency, goal, social-element]
 
 **Problem belongs to the `Problem / Problematization` social element type (Cognitive category, `Intention` branch of the agentic spine)** — the apprehended gap between conditions and a norm, and the process of forming it. It sits under `Interaction Unit -> Agency -> Intention`, alongside `Deliberation`, `Decision / Choice`, `Goal`, and `Objective / Target`.
 
-It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/note.html?p=notes/unclassified/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
+It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
 
 ### What is this social instance?
 
@@ -47,13 +47,13 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 ### When does a problem become policy-actionable?
 
-> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](/note.html?p=notes/social/problem/policy-problem.md); the [Dimension](/note.html?p=notes/social/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
+> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](/view.html?p=notes/social/problem/policy-problem.md); the [Dimension](/view.html?p=notes/social/problem/dimension/domain.md) index scopes in which domain of social reality it sits.
 
 ## References
 
-- [Philosophia Socialium et Operis](/note.html?p=notes/meta/philosophia-socialium-et-operis.md)
-- [Agency](/note.html?p=notes/social/action/public/agency.md)
-- [Problematization](/note.html?p=notes/epistemica/problematization.md)
-- [Problem](/note.html?p=notes/social/problem/policy-problem.md)
-- [Dimension](/note.html?p=notes/social/problem/dimension/domain.md)
-- [The Collective Action Problem](/note.html?p=notes/unclassified/collective-action-problem.md)
+- [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
+- [Agency](/view.html?p=notes/social/action/public/agency.md)
+- [Problematization](/view.html?p=notes/epistemica/problematization.md)
+- [Problem](/view.html?p=notes/social/problem/policy-problem.md)
+- [Dimension](/view.html?p=notes/social/problem/dimension/domain.md)
+- [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md)

@@ -168,12 +168,12 @@ an anonymous [temporary](https://doc.rust-lang.org/reference/expressions.html#te
 
 ## References
 
-- [Linker](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
-- [Loader](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
-- [Evaluation Model](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
-- [Memory  Management](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
-- [Runtime Representation](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
-- [Language Execution System](/note.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
+- [Linker](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/linker.md)
+- [Loader](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/loader.md).
+- [Evaluation Model](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/evaluation-model.md)
+- [Memory  Management](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/memory-management.md)
+- [Runtime Representation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/runtime-representation.md)
+- [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md)
 - 
 - [X: ⚙️ Execution System](https://app.notion.com/p/X-Execution-System-f10db63e79ca4ca188bdf74310d2b2c6?pvs=21)
 - https://www.youtube.com/watch?v=JaKKzgqINhI

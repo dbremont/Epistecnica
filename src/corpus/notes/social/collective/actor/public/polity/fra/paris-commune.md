@@ -17,4 +17,4 @@ The *Journal officiel* of the Commune, the records of the Commune Council and it
 ## References
 
 - [Paris Commune](https://en.wikipedia.org/wiki/Paris_Commune)
-- [The Paris Commune — governing model](/note.html?p=notes/social/history/castilla/paris-commune.md)
+- [The Paris Commune — governing model](/view.html?p=notes/social/history/castilla/paris-commune.md)

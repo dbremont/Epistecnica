@@ -326,7 +326,7 @@ QA:
     - https://filosofia.net/piezas/index.htm
     - https://en.wikipedia.org/wiki/List_of_philosophical_problems
  - Concept
- - [Epistemology](/note.html?p=notes/epistemica/epistemic/theory/epistemology.md)
+ - [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md)
     - https://www.filosofia.org/enc/vtc/index.htm
     - https://plato.stanford.edu/entries/descartes-method/
  - A Guide to the Philosopher Toolbox
@@ -360,4 +360,4 @@ QA:
  - [ ] 
  - [ ] Cognitive
     - [ ]  https://en.wikipedia.org/wiki/Prima_facie
- - [ ] [Philosophia Naturalis](/note.html?p=notes/nature/theory/philosophia-naturalis.md)
+ - [ ] [Philosophia Naturalis](/view.html?p=notes/nature/theory/philosophia-naturalis.md)

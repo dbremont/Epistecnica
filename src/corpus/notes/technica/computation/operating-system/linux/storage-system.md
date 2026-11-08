@@ -4,7 +4,7 @@ tags: [note, storage]
 
 # Storage System
 
-- [Linux  File Systems Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
+- [Linux  File Systems Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
 
 > **Physical storage media** refers to the physical devices, such as hard disk drives, solid-state drives, magnetic tapes, and optical disks, used to store data in a computer system.
 > 
@@ -29,7 +29,7 @@ QA:
 - How to benchmark a disk?
 - How to explore the content of a **storage device** without mounting it?
 - How Linux models a **`hardware storage device`**? Which are those abstractions that the OS utilize to proxy the **`hardware storage device`**?
-- How to list my disk sectors size? How to get the numbers of sector of my disk? [How to list my disk sectors size? How to get the numbers of sector of my disk?](/note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
+- How to list my disk sectors size? How to get the numbers of sector of my disk? [How to list my disk sectors size? How to get the numbers of sector of my disk?](/view.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
 
 ## Devices
 
@@ -237,8 +237,8 @@ Overall, a content-addressable file system can provide significant benefits in t
 
 - Ousterhout, John, et al. "The RAMCloud storage system." *ACM Transactions on Computer Systems (TOCS)* 33.3 (2015): 1-55.
 - Stonebraker, Michael. The design of the Postgres storage system. University of California, Berkeley, College of Engineering, Electronics Research Laboratory, 1987.
-- [Storage System](/note.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
-- [Linux  File Systems Stack](/note.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
+- [Storage System](/view.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
+- [Linux  File Systems Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-file-systems-stack.md)
 - https://dl.acm.org/toc/tos/2025/21/2
 - [Datas Storage](https://www.wikiwand.com/en/Data_storage)
 - [Dive Into Systems](https://diveintosystems.org/book/index.html)

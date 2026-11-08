@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Docker Image
 
-- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 > A Docker image is a lightweight, standalone, and executable package containing all the necessary components and dependencies to run a specific application or service. It is a fundamental building block in Docker containerization technology, which allows you to create, deploy, and manage applications consistently and isolatedly across different environments.
 > 

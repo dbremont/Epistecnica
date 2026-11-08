@@ -91,7 +91,7 @@ $y(t) = \sum_{n=1}^{\infty} A_n \cdot \sin(2\pi f_n t + \phi_n)$:
 
 ## Related
 
-- [Human Auditory System](/note.html?p=notes/nature/human-auditory-system.md)
+- [Human Auditory System](/view.html?p=notes/nature/human-auditory-system.md)
 
 ## Provenance
 

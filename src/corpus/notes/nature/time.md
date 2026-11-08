@@ -16,7 +16,7 @@ tags: [note, nature, phenomenon, phenomena, physics]
 
 ## Related
 
-- [Time Dilation](/note.html?p=notes/nature/time-dilation.md)
+- [Time Dilation](/view.html?p=notes/nature/time-dilation.md)
 
 ## Provenance
 

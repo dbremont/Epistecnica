@@ -72,9 +72,9 @@ tags: [note, nature, natural-system, biology, building-block, system]
 
 ## Related
 
-- [Endocrine System](/note.html?p=notes/nature/endocrine-system.md)
-- [Cell](/note.html?p=notes/nature/cell.md)
-- [Cell Signaling](/note.html?p=notes/nature/cell-signaling.md)
+- [Endocrine System](/view.html?p=notes/nature/endocrine-system.md)
+- [Cell](/view.html?p=notes/nature/cell.md)
+- [Cell Signaling](/view.html?p=notes/nature/cell-signaling.md)
 
 ## Provenance
 

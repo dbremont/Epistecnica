@@ -4,7 +4,7 @@ tags: [note, container]
 
 # Container Registry
 
-- Related Virtualization: Conceptual Model: [Docker](/note.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
+- Related Virtualization: Conceptual Model: [Docker](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md)
 
 > If you're looking for **open-source** **Docker registry hosts**, there are several options available that allow you to store and distribute Docker images. A Docker registry is essentially a repository for Docker images, providing an environment where you can push, pull, and manage your Docker images.
 > 

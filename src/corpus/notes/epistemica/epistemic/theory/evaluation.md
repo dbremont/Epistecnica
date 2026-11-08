@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Evaluation
 
-Related: [Validation](/note.html?p=notes/epistemica/validation/validation.md)
+Related: [Validation](/view.html?p=notes/epistemica/validation/validation.md)
 
 > Notes intent.
 > 

@@ -4,7 +4,7 @@ tags: [note, system]
 
 # Design System
 
-- [Beauty](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/beauty.md), [UI Componente](/note.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-componente.md)
+- [Beauty](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/beauty.md), [UI Componente](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/ui-componente.md)
 
 > A **Design System** is a comprehensive collection of reusable components, guidelines, and standards that help teams build consistent, scalable, and efficient digital products. It serves as a single source of truth for design and development, ensuring cohesion across products and platforms.
 > 
