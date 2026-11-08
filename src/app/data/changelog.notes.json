@@ -59986,7 +59986,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Add organic and inorganic compound as matter types, with a note that the split is a disciplinary convention."
+        "summary": "Add organic and inorganic compound as matter types, with a note that the split is a disciplinary convention.",
+        "commit": "607122541a5170bc62a49cfba603985d58e42c0b",
+        "before": "c0f2747162aeed88ca10c8495c95389c9e162bcd"
       }
     ]
   },
@@ -60179,7 +60181,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Repoint the compound link after the note was renamed."
+        "summary": "Repoint the compound link after the note was renamed.",
+        "commit": "607122541a5170bc62a49cfba603985d58e42c0b",
+        "before": "c0f2747162aeed88ca10c8495c95389c9e162bcd"
       }
     ]
   },
@@ -60201,7 +60205,8 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Rename the note from chemical-compound and state the organic/inorganic boundary as a convention rather than a C-H rule."
+        "summary": "Rename the note from chemical-compound and state the organic/inorganic boundary as a convention rather than a C-H rule.",
+        "commit": "607122541a5170bc62a49cfba603985d58e42c0b"
       }
     ]
   },
@@ -60211,7 +60216,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the ammonia note: compound formulation, properties, production routes and uses, with the Haber-Bosch loop and the nitrogen cycle."
+        "summary": "Add the ammonia note: compound formulation, properties, production routes and uses, with the Haber-Bosch loop and the nitrogen cycle.",
+        "commit": "607122541a5170bc62a49cfba603985d58e42c0b"
       }
     ]
   }
