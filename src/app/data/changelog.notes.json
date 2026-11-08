@@ -60518,6 +60518,11 @@
         "summary": "Add the size-class rows: Nanoparticle (matter at 1-100 nm, individuated by the surface regime and quantum confinement, not by composition) and Microparticle (from 100 nm into the micrometre range, where bulk behaviour returns), plus the commentary paragraph marking colloid, nanoparticle and microparticle as size-class categories cut across composition.",
         "commit": "8532475cf002a0e1848cf38e5e2b2196ecbd1ad7",
         "before": "a92e3ab817134222a1c9f139de65778e6febe0b2"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Link each of the thirteen state rows in the State of Matter table to its note in nature/matter/state/."
       }
     ]
   },
@@ -80843,6 +80848,156 @@
         "kind": "refactor",
         "summary": "Move the chemical-bond note into matter/ and generalize it: retitled Bond, the general definition leads (stable attractive association across constituents), with the chemical bond as the canonical specialization and the taxonomy carrying its intramolecular, intermolecular and specialized covalent kinds.",
         "commit": "8532475cf002a0e1848cf38e5e2b2196ecbd1ad7"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/solid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/liquid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/gas.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/plasma.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/superfluid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/superconductor.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/readme.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the states hub: one row per state of the state table, linking the thirteen notes of the directory."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/bose-einstein-condensate.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Bose-Einstein condensate note: bosonic atoms under quantum degeneracy occupying one quantum state, from the 1924 statistics to the 1995 rubidium realization."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/fermionic-condensate.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the fermionic condensate note: paired fermions forming a superfluid under quantum degeneracy, the atomic analogue of Cooper pairing."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/quark-gluon-plasma.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the quark-gluon plasma note: hadrons dissolved into unconfined quarks and gluons at early-universe and heavy-ion conditions."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/degenerate-matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the degenerate matter note: fermions compressed to near-nuclear densities, held up by degeneracy pressure rather than heat - white dwarfs and neutron stars."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/rydberg-matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Rydberg matter note: atoms in highly excited electronic states interacting through their extended orbitals as a collective phase."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/photonic-matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the photonic matter note: photons given effective mass and mutual interactions in nonlinear media, the quasi-phase whose particles carry no rest mass."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/state/time-crystal.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the time crystal note: periodic motion in time with spatial order - the state that breaks temporal symmetry as a lattice breaks spatial translation."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/fluid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Gas and Liquid references to the state notes at nature/matter/state/."
       }
     ]
   }

@@ -140,19 +140,19 @@ Three groupings in this table are easy to misunderstand and worth naming.
 
 | **State** | **Description** | **Substratum** | **Case(s)** |
 | --- | --- | --- | --- |
-| **Solid** | Particles are closely packed in a fixed structure; motion limited to vibrations around equilibrium positions. | Atomic or molecular lattices with strong cohesive forces. | Crystalline solids (ice, metals), amorphous solids (glass). |
-| **Liquid** | Particles remain close but move freely, allowing flow while maintaining cohesion. | Molecules bound by intermolecular forces (hydrogen bonding, van der Waals). | Water, mercury, molten salts. |
-| **Gas** | Particles move independently, with negligible intermolecular forces and large separations. | Individual atoms or molecules with weak interactions. | Air, steam, helium. |
-| **Plasma** | Ionized gas consisting of free electrons and ions; exhibits collective electromagnetic behavior. | Charged particles and electromagnetic fields. | Stellar interiors, lightning, fusion reactors. |
-| **Bose–Einstein Condensate (BEC)** | Matter cooled near absolute zero; particles occupy the same quantum state, behaving coherently as one entity. | Bosonic atoms under quantum degeneracy. | Ultra-cold rubidium gas. |
-| **Fermionic Condensate** | Analogous to BEC, but composed of paired fermions forming a superfluid state. | Paired fermions under quantum degeneracy. | Ultracold lithium-6 gases. |
-| **Superfluid** | Phase with zero viscosity; flows without energy loss. | Quantum-coherent atomic ensemble. | Helium-4 below 2.17 K. |
-| **Superconductor** | Phase where electrical resistance drops to zero and magnetic fields are expelled. | Electron pairs (Cooper pairs) forming a quantum condensate. | Lead below 7 K, high-Tc cuprates. |
-| **Quark–Gluon Plasma** | Extremely hot and dense phase where quarks and gluons are unconfined. | Fundamental quarks and gluons. | Early-universe conditions, heavy-ion collisions. |
-| **Degenerate Matter** | State dominated by quantum degeneracy pressure rather than thermal motion. | Fermions compressed to near-nuclear densities. | White dwarfs (electron-degenerate), neutron stars (neutron-degenerate). |
-| **Rydberg Matter** | Phase formed by atoms in highly excited electronic states; exhibits collective quantum effects. | Excited atoms with extended electron orbitals. | Laboratory experiments with alkali metals. |
-| **Photonic Matter** | Quasi-phase of light behaving as a fluid through photon–photon interactions in nonlinear media. | Photons interacting via effective potentials. | Laboratory optical systems. |
-| **Time Crystal** | Phase that exhibits periodic motion in time while maintaining spatial order. | Coherently driven quantum states breaking temporal symmetry. | Driven quantum systems. |
+| **[Solid](/view.html?p=notes/nature/matter/state/solid.md)** | Particles are closely packed in a fixed structure; motion limited to vibrations around equilibrium positions. | Atomic or molecular lattices with strong cohesive forces. | Crystalline solids (ice, metals), amorphous solids (glass). |
+| **[Liquid](/view.html?p=notes/nature/matter/state/liquid.md)** | Particles remain close but move freely, allowing flow while maintaining cohesion. | Molecules bound by intermolecular forces (hydrogen bonding, van der Waals). | Water, mercury, molten salts. |
+| **[Gas](/view.html?p=notes/nature/matter/state/gas.md)** | Particles move independently, with negligible intermolecular forces and large separations. | Individual atoms or molecules with weak interactions. | Air, steam, helium. |
+| **[Plasma](/view.html?p=notes/nature/matter/state/plasma.md)** | Ionized gas consisting of free electrons and ions; exhibits collective electromagnetic behavior. | Charged particles and electromagnetic fields. | Stellar interiors, lightning, fusion reactors. |
+| **[Bose–Einstein Condensate (BEC)](/view.html?p=notes/nature/matter/state/bose-einstein-condensate.md)** | Matter cooled near absolute zero; particles occupy the same quantum state, behaving coherently as one entity. | Bosonic atoms under quantum degeneracy. | Ultra-cold rubidium gas. |
+| **[Fermionic Condensate](/view.html?p=notes/nature/matter/state/fermionic-condensate.md)** | Analogous to BEC, but composed of paired fermions forming a superfluid state. | Paired fermions under quantum degeneracy. | Ultracold lithium-6 gases. |
+| **[Superfluid](/view.html?p=notes/nature/matter/state/superfluid.md)** | Phase with zero viscosity; flows without energy loss. | Quantum-coherent atomic ensemble. | Helium-4 below 2.17 K. |
+| **[Superconductor](/view.html?p=notes/nature/matter/state/superconductor.md)** | Phase where electrical resistance drops to zero and magnetic fields are expelled. | Electron pairs (Cooper pairs) forming a quantum condensate. | Lead below 7 K, high-Tc cuprates. |
+| **[Quark–Gluon Plasma](/view.html?p=notes/nature/matter/state/quark-gluon-plasma.md)** | Extremely hot and dense phase where quarks and gluons are unconfined. | Fundamental quarks and gluons. | Early-universe conditions, heavy-ion collisions. |
+| **[Degenerate Matter](/view.html?p=notes/nature/matter/state/degenerate-matter.md)** | State dominated by quantum degeneracy pressure rather than thermal motion. | Fermions compressed to near-nuclear densities. | White dwarfs (electron-degenerate), neutron stars (neutron-degenerate). |
+| **[Rydberg Matter](/view.html?p=notes/nature/matter/state/rydberg-matter.md)** | Phase formed by atoms in highly excited electronic states; exhibits collective quantum effects. | Excited atoms with extended electron orbitals. | Laboratory experiments with alkali metals. |
+| **[Photonic Matter](/view.html?p=notes/nature/matter/state/photonic-matter.md)** | Quasi-phase of light behaving as a fluid through photon–photon interactions in nonlinear media. | Photons interacting via effective potentials. | Laboratory optical systems. |
+| **[Time Crystal](/view.html?p=notes/nature/matter/state/time-crystal.md)** | Phase that exhibits periodic motion in time while maintaining spatial order. | Coherently driven quantum states breaking temporal symmetry. | Driven quantum systems. |
 
 ## Plank Scale
 
