@@ -76,5 +76,5 @@ Readable secondarily as a `Natural System`: the network is not a single molecule
 ## Related
 
 - [Protein](/view.html?p=notes/nature/protein.md)
-- [Enzyme](/view.html?p=notes/nature/enzyme.md)
+- [Enzyme](/view.html?p=notes/nature/enzyme/enzyme.md)
 - [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)

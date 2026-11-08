@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, substance-matter, geoscience, materials-science, matter]
+tags: [note, nature, substance-matter, geoscience, materials-science, matter, geological-material]
 ---
 
 # Mineral
@@ -41,7 +41,7 @@ tags: [note, nature, substance-matter, geoscience, materials-science, matter]
 
 ## Related
 
-- [Rock](/view.html?p=notes/nature/rock.md)
+- [Rock](/view.html?p=notes/nature/matter/geological/rock.md)
 
 ## Provenance
 

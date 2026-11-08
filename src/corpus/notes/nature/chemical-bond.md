@@ -89,7 +89,7 @@ The characteristics vary by bond type, but here are **general features**:
 
 ## Related
 
-- [Molecule](/view.html?p=notes/nature/molecule.md)
+- [Molecule](/view.html?p=notes/nature/matter/molecule.md)
 - [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)
 - [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 

@@ -61,6 +61,8 @@ Three groupings in this table are easy to misunderstand and worth naming.
 
 > A **state of matter** — solid, liquid, gas, plasma, condensate — is how matter arranges itself, not what type it is. It belongs to the section below and is deliberately not a row of this table.
 
+> **Geological matter** — minerals, rocks, sediments, soils and ores — is cut differently again: by **genesis and transport**, not by composition. It is filed under [Geological Matter](/view.html?p=notes/nature/matter/geological/matter.md), which owns that table.
+
 ## Ontology
 
 > Which are the fundamental aspects related to matter?

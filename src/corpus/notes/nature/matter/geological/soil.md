@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, substance-matter, materials-science, matter]
+tags: [note, nature, substance-matter, materials-science, matter, geological-material]
 ---
 
 # Soil

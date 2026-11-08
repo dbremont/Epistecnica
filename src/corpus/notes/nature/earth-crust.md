@@ -46,7 +46,7 @@ tags: [note, nature, natural-system, system]
 ## Related
 
 - [Earth](/view.html?p=notes/nature/earth.md)
-- [Soil](/view.html?p=notes/nature/soil.md)
+- [Soil](/view.html?p=notes/nature/matter/geological/soil.md)
 
 ## Provenance
 

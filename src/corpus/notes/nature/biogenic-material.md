@@ -110,6 +110,6 @@ grammar). The instrument technically, the formation naturally
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (sibling: all physical matter not made by life)
-- [Mineral](/view.html?p=notes/nature/mineral.md) (composing kind: crystalline solid substances)
+- [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) (composing kind: crystalline solid substances)
 - [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (counterpart: worked biogenic feedstocks)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

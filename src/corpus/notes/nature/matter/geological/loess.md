@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, ecosystem]
+tags: [note, nature, ecosystem, geological-material]
 ---
 
 # Loess

@@ -59815,6 +59815,11 @@
         "kind": "docs",
         "summary": "Add the gluten note: the viscoelastic storage-protein network of cereal flour, typed as a Substance / Matter with a natural-systems reading, decomposed into its gliadin and glutenin families, its bonding mechanisms, its mechanical properties and the processes that build it; the clinical reading (gluten-related disorders) is kept separate.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "fix",
+        "summary": "Repoint the enzyme link after the note moved into enzyme/."
       }
     ]
   },
@@ -59826,6 +59831,11 @@
         "kind": "docs",
         "summary": "Add the protein-complex note: a multi-subunit assembly typed as a Natural System for the function its chains carry collectively, decomposed into subunits, interfaces, associative mechanisms, assembly and allosteric transitions, and readable as a Building Block under quaternary structure.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "fix",
+        "summary": "Repoint the enzyme link after the note moved into enzyme/."
       }
     ]
   },
@@ -59848,6 +59858,11 @@
         "kind": "docs",
         "summary": "Add the starch note: the amylose-amylopectin mixture, granule organisation, gelatinisation and retrogradation, and digestibility.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "fix",
+        "summary": "Repoint the enzyme link after the note moved into enzyme/."
       }
     ]
   },
@@ -59954,6 +59969,11 @@
         "kind": "docs",
         "summary": "Move the note under nature/matter/ with the other matter categories.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Point the geological cut of matter at the new Geological Matter note."
       }
     ]
   },
@@ -59976,6 +59996,156 @@
         "kind": "docs",
         "summary": "Move the note under nature/matter/ with the other matter categories.",
         "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf"
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/matter.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the geological-matter note with the table of geological matter types and the hierarchy mineral → rock → sediment → soil."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/ore.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the ore note: a substance typed by recoverable concentration, with grade, recovery and cut-off as attributes."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/sediment.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the sediment note, replacing the unimplemented `sedimentary` stub with a full formulation and decomposition."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/mineral.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/rock.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/soil.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/geological/loess.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/geological/ beside the other geological matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/alloy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/colloid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/ion.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/isotope.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/isotopes-differ-by.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/mixture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/matter/molecule.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Move the note into nature/matter/ with the other matter types."
+      }
+    ]
+  },
+  {
+    "file_path": "nature/chemical-substance.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "fix",
+        "summary": "Repoint the base and compound links after the notes moved into matter/."
       }
     ]
   }

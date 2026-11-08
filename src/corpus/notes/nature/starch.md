@@ -77,4 +77,4 @@ Readable secondarily as a **mixture**: it is a blend of two chemically distinct 
 - [Carbohydrate](/view.html?p=notes/nature/carbohydrate.md)
 - [Cellulose](/view.html?p=notes/nature/cellulose.md)
 - [Gluten](/view.html?p=notes/nature/gluten.md)
-- [Enzyme](/view.html?p=notes/nature/enzyme.md)
+- [Enzyme](/view.html?p=notes/nature/enzyme/enzyme.md)

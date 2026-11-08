@@ -214,7 +214,7 @@ Reasons:
 
 ## Related
 
-- [Molecule](/view.html?p=notes/nature/molecule.md)
+- [Molecule](/view.html?p=notes/nature/matter/molecule.md)
 - [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 - [Interaction](/view.html?p=notes/nature/theory/interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)

@@ -12,7 +12,7 @@ tags: [note]
 > [Earth](/view.html?p=notes/nature/earth.md), and
 > [Natural Material](/view.html?p=notes/nature/natural-material.md); sibling
 > [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md); composed of
-> [Mineral](/view.html?p=notes/nature/mineral.md) kinds; exemplified by the worked
+> [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) kinds; exemplified by the worked
 > [Quarry](/view.html?p=notes/nature/quarry.md). Worked per
 > [How to decompose any natural instance?](/view.html?p=notes/meta/philosophia-naturalis-et-operis.md).
 
@@ -25,7 +25,7 @@ composition, texture, and phase behavior, recurring across crustal systems (stra
 basins, soils) — here archetyped by limestone at meso scale. Entered via the composition
 spine (`Natural Object -> Building Block -> Substance / Matter`): a **limestone bed** is the
 building-block occurrence, the earth material is the substance-kind it instantiates. Same
-name at micro scale (a thin section, a [Mineral](/view.html?p=notes/nature/mineral.md) grain) and
+name at micro scale (a thin section, a [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) grain) and
 macro scale (a formation) denotes distinct nodes — record the level per instance; minerals
 decompose as the child kind in `mineral.md`.
 
@@ -91,5 +91,5 @@ admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/biogenic-mater
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
 - [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (sibling: all matter made by life)
-- [Mineral](/view.html?p=notes/nature/mineral.md) (child: crystalline solid kinds composing aggregates)
+- [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) (child: crystalline solid kinds composing aggregates)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

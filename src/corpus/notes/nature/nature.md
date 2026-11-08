@@ -229,5 +229,5 @@ the formation naturally (`guideline/ambiguity_resolution.md`).
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (child: all untransformed matter)
 - [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (child: all matter made by life)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (child: all physical matter not made by life)
-- [Mineral](/view.html?p=notes/nature/mineral.md) (child: crystalline solid kinds)
+- [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) (child: crystalline solid kinds)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)
