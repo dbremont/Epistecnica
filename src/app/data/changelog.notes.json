@@ -60522,7 +60522,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Link each of the thirteen state rows in the State of Matter table to its note in nature/matter/state/."
+        "summary": "Link each of the thirteen state rows in the State of Matter table to its note in nature/matter/state/.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff",
+        "before": "3bdaf6fa1a04bcf1b92c47126c3464e217855934"
       }
     ]
   },
@@ -80857,7 +80859,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80867,7 +80870,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80877,7 +80881,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80887,7 +80892,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80897,7 +80903,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80907,7 +80914,8 @@
       {
         "date": "2026-11-08",
         "kind": "refactor",
-        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table."
+        "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80917,7 +80925,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the states hub: one row per state of the state table, linking the thirteen notes of the directory."
+        "summary": "Add the states hub: one row per state of the state table, linking the thirteen notes of the directory.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80927,7 +80936,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Bose-Einstein condensate note: bosonic atoms under quantum degeneracy occupying one quantum state, from the 1924 statistics to the 1995 rubidium realization."
+        "summary": "Add the Bose-Einstein condensate note: bosonic atoms under quantum degeneracy occupying one quantum state, from the 1924 statistics to the 1995 rubidium realization.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80937,7 +80947,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the fermionic condensate note: paired fermions forming a superfluid under quantum degeneracy, the atomic analogue of Cooper pairing."
+        "summary": "Add the fermionic condensate note: paired fermions forming a superfluid under quantum degeneracy, the atomic analogue of Cooper pairing.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80947,7 +80958,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the quark-gluon plasma note: hadrons dissolved into unconfined quarks and gluons at early-universe and heavy-ion conditions."
+        "summary": "Add the quark-gluon plasma note: hadrons dissolved into unconfined quarks and gluons at early-universe and heavy-ion conditions.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80957,7 +80969,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the degenerate matter note: fermions compressed to near-nuclear densities, held up by degeneracy pressure rather than heat - white dwarfs and neutron stars."
+        "summary": "Add the degenerate matter note: fermions compressed to near-nuclear densities, held up by degeneracy pressure rather than heat - white dwarfs and neutron stars.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80967,7 +80980,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Rydberg matter note: atoms in highly excited electronic states interacting through their extended orbitals as a collective phase."
+        "summary": "Add the Rydberg matter note: atoms in highly excited electronic states interacting through their extended orbitals as a collective phase.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80977,7 +80991,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the photonic matter note: photons given effective mass and mutual interactions in nonlinear media, the quasi-phase whose particles carry no rest mass."
+        "summary": "Add the photonic matter note: photons given effective mass and mutual interactions in nonlinear media, the quasi-phase whose particles carry no rest mass.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80987,7 +81002,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the time crystal note: periodic motion in time with spatial order - the state that breaks temporal symmetry as a lattice breaks spatial translation."
+        "summary": "Add the time crystal note: periodic motion in time with spatial order - the state that breaks temporal symmetry as a lattice breaks spatial translation.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
       }
     ]
   },
@@ -80997,7 +81013,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Gas and Liquid references to the state notes at nature/matter/state/."
+        "summary": "Retarget the Gas and Liquid references to the state notes at nature/matter/state/.",
+        "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff",
+        "before": "3bdaf6fa1a04bcf1b92c47126c3464e217855934"
       }
     ]
   }
