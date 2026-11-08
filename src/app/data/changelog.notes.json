@@ -80781,5 +80781,15 @@
         "commit": "a5d6483ae5248e6a7b98a63639b8c1a4daabbc6c"
       }
     ]
+  },
+  {
+    "file_path": "nature/matter/atomic.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the atom note into nature/matter/ with the other substance notes: the previous committed placeholder removal is reclassified as a relocation."
+      }
+    ]
   }
 ]
