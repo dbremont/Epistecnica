@@ -28282,7 +28282,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Heron translation of Fourcroy, Elements of chemistry and natural history (London/Edinburgh, 1796) - four volumes, each with its archive.org scan, and the caveat on whether the French fifth tome maps whole into the four."
+        "summary": "Add the Heron translation of Fourcroy, Elements of chemistry and natural history (London/Edinburgh, 1796) - four volumes, each with its archive.org scan, and the caveat on whether the French fifth tome maps whole into the four.",
+        "commit": "f4abf3a1d5b2196eb2f3efcb7974494d9df52836"
       }
     ]
   }
