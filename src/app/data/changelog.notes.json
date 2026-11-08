@@ -3030,7 +3030,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -4167,7 +4169,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -5127,7 +5131,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget broken corpus links across the moved paths (ontology, geometry, cossical, method)."
+        "summary": "Retarget broken corpus links across the moved paths (ontology, geometry, cossical, method).",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -6974,7 +6980,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -7120,7 +7128,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -7239,7 +7249,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -9168,7 +9180,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the normalization and factorization links to mathematical/method/."
+        "summary": "Retarget the normalization and factorization links to mathematical/method/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -10040,7 +10054,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md."
+        "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -10154,7 +10170,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -24795,7 +24813,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -24839,7 +24859,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -24909,7 +24931,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -24953,7 +24977,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -25022,7 +25048,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -25070,7 +25098,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -25157,7 +25187,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -25890,7 +25922,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Drop the dangling See also reference to Sixto Enrique de Borbón — the persona path it named does not exist."
+        "summary": "Drop the dangling See also reference to Sixto Enrique de Borbón — the persona path it named does not exist.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -59305,7 +59339,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -59322,7 +59358,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/."
+        "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -59399,7 +59437,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/."
+        "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -59416,7 +59456,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Retarget the normalization and factorization links to mathematical/method/."
+        "summary": "Retarget the normalization and factorization links to mathematical/method/.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -60722,7 +60764,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md."
+        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -80677,7 +80721,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md."
+        "summary": "Link the imec row to its own actor note, social/collective/actor/public/catalog/research/bel/imec.md.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+        "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
       }
     ]
   },
@@ -80687,7 +80733,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the imec actor note: the Interuniversity Microelectronics Centre read per the philosophia socialium — governance, 1982 mandate lineage, programs, transfer face and ties, sourced from the institute record."
+        "summary": "Add the imec actor note: the Interuniversity Microelectronics Centre read per the philosophia socialium — governance, 1982 mandate lineage, programs, transfer face and ties, sourced from the institute record.",
+        "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069"
       }
     ]
   }
