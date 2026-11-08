@@ -60172,5 +60172,15 @@
         "before": "5fc12f987644699c80d639c5f598ad7164ebea7a"
       }
     ]
+  },
+  {
+    "file_path": "social/collective/actor/public/polity/bel/region/flanders.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy."
+      }
+    ]
   }
 ]
