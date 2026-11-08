@@ -10,7 +10,7 @@ tags: [note, product, good, economic, social-element]
 
 ### What social element type does this social instance belong to?
 
-**Product belongs to the `Product` social element type (Coordinators category)** — the exchangeable outcome of `Economic Activity` offered into a `Market`; a good or a service. Its layer is **Multi**: it holds an Ontic side (the physical good, its materiality and lifecycle stage) and a Synontic side (the recognized offer: price, contract, brand) at once. Its facet is economic.
+**Product belongs to the `Product` social element type** — the exchangeable outcome of `Economic Activity` offered into a `Market`; a good or a service. Its layer is **Multi**: it holds an Ontic side (the physical good, its materiality and lifecycle stage) and a Synontic side (the recognized offer: price, contract, brand) at once. Its facet is economic. It is filed at `social/good/` — its own family home — and not under `coordinator/`: the product is the outcome of work and the substrate coordination acts upon, never the coordination itself.
 
 Readable secondarily through its Synontic offer reading (product-as-`Price / Asset`: the priced, contracted, claimable offer) and through its Noetic ranks (`Product Type`, `Product Family`, `Product Category`, `Product Class`, `Product Taxonomy`) per the multi-root forest rule; those readings are prose here, not separate trees. A product is **not** a coordinator — prices, money, and contracts coordinate; the product is what is coordinated.
 

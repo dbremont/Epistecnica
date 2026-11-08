@@ -24994,6 +24994,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the three Product and goods-folder links to social/good/."
       }
     ]
   },
@@ -25006,6 +25011,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Retarget the Product link to social/good/."
       }
     ]
   },
@@ -60233,7 +60243,7 @@
     ]
   },
   {
-    "file_path": "social/coordinator/good/good.md",
+    "file_path": "social/good/good.md",
     "logs": [
       {
         "date": "2026-11-08",
@@ -60241,6 +60251,81 @@
         "summary": "Add the goods-folder browse link to the reference list, pointing at the product, object, HS explorer and taxonomy files that share the directory.",
         "commit": "b2b0243b8b492a71e33ba151e965b9c9884973e8",
         "before": "2930937ca53c21fba675fbbee4d6bbd1dda804ae"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move the goods branch out of coordinator/ to its own social/good/ home; retarget the folder reference."
+      }
+    ]
+  },
+  {
+    "file_path": "social/good/product.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move to social/good/ and restate the type reading: Product is a Multi compound filed at its own home, not a Coordinators-category member of the coordinator branch."
+      }
+    ]
+  },
+  {
+    "file_path": "social/good/object.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "refactor",
+        "summary": "Move to social/good/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/coordinator/market/market.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Point the Product link at its new home, social/good/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/collective/actor/organization.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Point the Product link at its new home, social/good/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/action/activity/economic/economic-activity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Point the Product link at its new home, social/good/."
+      }
+    ]
+  },
+  {
+    "file_path": "social/readme.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add the Good home row and drop product from the Coordinator scope line."
+      }
+    ]
+  },
+  {
+    "file_path": "social/coordinator/readme.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Drop product from the branch description and point at the new social/good/ home."
       }
     ]
   }

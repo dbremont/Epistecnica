@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harmonized Commodity Description and Coding System (HS 2022)</title>
+    <title>Naturgnosis Product Taxonomy</title>
     <link rel="icon" href="/img/favicon.ico">
     <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="stylesheet" href="/shared/usearch.css">
@@ -29,7 +29,7 @@
 <body>
 <nav class="nav">
     <div class="nav-inner">
-        <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
         <div class="nav-right">
             <div class="usearch-wrap">
                 <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
@@ -47,18 +47,17 @@
         <a href="/explorer.html">corpus</a><span class="sep">/</span>
         <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
         <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
-        <a href="/explorer.html?view=browse&amp;dir=notes/social/coordinator">coordinator</a><span class="sep">/</span>
-        <a href="/explorer.html?view=browse&amp;dir=notes/social/coordinator/good">good</a><span class="sep">/</span>
-        <span class="here">HS 2022</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/good">good</a><span class="sep">/</span>
+        <span class="here">Naturgnosis Taxonomy</span>
     </nav>
-    <h1 class="note-title">Harmonized Commodity Description and Coding System</h1>
-    <p class="subtitle">The <em>Product</em> classification as HS 2022: 21 sections → 97 chapters → 1,228 headings → 5,613 subheadings. The tree on the left is the nomenclature; pick any node and its detail opens here. Source: <a href="/view.html?p=notes/social/coordinator/good/product.md">Product</a> note; data from the <a href="https://www.wcoomd.org/en/topics/nomenclature/overview.aspx">World Customs Organization</a>.</p>
+    <h1 class="note-title">Naturgnosis Product Taxonomy</h1>
+    <p class="subtitle">The custom ranking <em>Product Category → Product Subcategory → Product Class → Product</em>, HS-inspired but not HS-mapped — populated only with the products present in Social Space. Pick any node and its detail opens here; a product shows the HS code quoted from its Social Space node (<code>metadata.hsCode</code>) with a link into the Social explorer. Source: <a href="/view.html?p=notes/social/good/product.md">Product</a> note.</p>
 </div>
 
 <div id="treeCatalog"></div>
 
 <footer class="page-foot">
-    <p>Data: <code>hs-2022.json</code> — Harmonized System 2022, <a href="https://www.wcoomd.org/en/topics/nomenclature/overview.aspx">World Customs Organization</a> (data under ODC-PDDL-1.0). Classification only — not customs or tariff advice.</p>
+    <p>Data: <code>product-taxonomy.json</code> — Naturgnosis Product Taxonomy v1 (17 Social Space products). HS codes are quotations from Social Space nodes, not WCO assignments — not customs or tariff advice.</p>
 </footer>
 
 <script src="/data/live/tree-catalog.js"></script>
@@ -67,48 +66,38 @@
     "use strict";
     function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
 
-    fetch("hs-2022.json", { cache: "no-cache" })
+    fetch("product-taxonomy.json", { cache: "no-cache" })
         .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
         .then(function (data) {
-            var nodes = data.map(function (x) {
-                return {
-                    id: x.code,
-                    label: x.title,
-                    parent: x.parent || null,
-                    level: x.level,
-                    code: x.code,
-                    description: x.description || "",
-                    section: x.section || ""
-                };
-            });
             TreeCatalog.mount("#treeCatalog", {
-                rootLabel: "HS 2022",
-                nodes: nodes,
-                subtitle: "Harmonized System",
-                searchPlaceholder: "Search code or description…",
+                rootLabel: "Product Taxonomy",
+                nodes: data,
+                subtitle: "Naturgnosis v1",
+                searchPlaceholder: "Search product, class, or HS code…",
                 detail: {
-                    pathStyle: "code",
-                    code: function (n) { return n.code; },
+                    code: function (n) { return n.level === "product" ? (n.hs || "no HS code in Social Space") : ""; },
                     chips: function (n) {
                         var out = [n.level];
-                        if (n.section && n.level !== "section") out.push("section " + n.section);
+                        if (n.level === "product" && n.social) out.push("social:" + n.social);
                         return out;
                     },
                     body: function (n) {
                         var h = "";
-                        if (n.description && n.description !== n.label) {
-                            h += "<h4>Description</h4><p>" + esc(n.description) + "</p>";
+                        if (n.desc) h += "<h4>Description</h4><p>" + esc(n.desc) + "</p>";
+                        if (n.level === "product" && n.hs) {
+                            h += "<h4>HS code</h4><p>" + esc(n.hs) + " \u2014 quoted from Social Space node " + esc(n.social) + " (metadata.hsCode).</p>";
                         }
+                        if (n.link) h += "<p><a href=\"" + esc(n.link) + "\">Open in Social Space \u2197</a></p>";
                         return h;
                     }
                 }
             });
         })
         .catch(function (e) {
-            document.getElementById("treeCatalog").innerHTML = '<div class="tc-empty">Could not load HS data \u2014 ' + esc(e.message) + "</div>";
+            document.getElementById("treeCatalog").innerHTML = '<div class="tc-empty">Could not load taxonomy data \u2014 ' + esc(e.message) + "</div>";
         });
 })();
 </script>
-<script src="/shared/usearch.js" data-root="../../../../../" data-mode="filter"></script>
+<script src="/shared/usearch.js" data-root="../../../../" data-mode="filter"></script>
 </body>
 </html>

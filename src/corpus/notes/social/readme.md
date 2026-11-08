@@ -10,7 +10,8 @@ tags: [note]
 | --- | --- |
 | [Action](/view.html?p=notes/social/action/readme.md) | Social Action, Activity, and the public action branch (`public/`, former Agency elements) |
 | [Relation](/view.html?p=notes/social/relation/readme.md) | Social Relation / Network |
-| [Coordinator](/view.html?p=notes/social/coordinator/readme.md) | markets, money, product, capital–labor, price, technique |
+| [Coordinator](/view.html?p=notes/social/coordinator/readme.md) | markets, money, capital–labor, price, technique |
+| [Good](/view.html?p=notes/social/good/good.md) | goods, products, and their classification instruments (HS 2022, product taxonomy) |
 | [Problem](/view.html?p=notes/social/problem/readme.md) | problematization and problem dimensions |
 | [Normative](/view.html?p=notes/social/normative/readme.md) | norms, rules, rights, institutions |
 | [Synontic](/view.html?p=notes/social/synontic/readme.md) | shared recognition: identity, ideology, culture, status |

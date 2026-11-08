@@ -199,7 +199,7 @@ Useful terms:
 | **Standardization** | Standards organizations | Bodies that publish and maintain the specifications others certify against. |
 | ↳ | Measurement | Calibrated units and instruments that make quantities comparable across parties. |
 | ↳ | Packaging standards | Common sizes, materials, and labels that let goods move through shared infrastructure. |
-| ↳ | Product classifications | Published taxonomies that key trade, tariffs, and statistics to the same codes; see [Goods Nomenclature](/view.html?p=notes/social/coordinator/good/good.md). |
+| ↳ | Product classifications | Published taxonomies that key trade, tariffs, and statistics to the same codes; see [Goods Nomenclature](/view.html?p=notes/social/good/good.md). |
 | ↳ | Quality grades | Declared classes of condition or composition that price and acceptance reference. |
 | **Legal/institutional** | Contract enforcement | The mechanism — courts, arbitration, escrow — that makes a commercial promise costly to break. |
 | ↳ | Licensing | Permission from an authority to perform a regulated activity or use a regulated mark. |
@@ -768,14 +768,14 @@ $$
 | **Value Creation Mechanism** | **Description** |
 | --- | --- |
 | **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
-| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](/view.html?p=notes/social/coordinator/good/product.md). |
+| **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](/view.html?p=notes/social/good/product.md). |
 | **Aggregation of fragmented supply** | Combining many small supply items into a sellable quantity, making producers too small to reach the consumer directly reachable at all. |
 | **Transformation and repackaging** | Grading, packing, cutting, assembling: changing the good so it fits a use it did not fit before. |
 | **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
 | **Price formation and inventory risk-bearing** | Offering a firm price and immediate availability while absorbing demand and price uncertainty: the intermediary buys the consumer time and certainty, and the inventory position is the cost of that service. |
 | **Financing and credit enablement** | Decoupling payment from consumption — trade credit, installments, buy-now-pay-later — so purchases constrained by timing, not by means, can happen. |
 | **Verification and trust** | Inspection, certification, guarantees, and reputation: removing the risk discount the buyer would otherwise apply to an unfamiliar seller or product. |
-| **Standardization** | Common measures, grades, and classifications that let parties contract without re-inspecting every term; see [Goods Nomenclature](/view.html?p=notes/social/coordinator/good/good.md). |
+| **Standardization** | Common measures, grades, and classifications that let parties contract without re-inspecting every term; see [Goods Nomenclature](/view.html?p=notes/social/good/good.md). |
 | **Cross-side network liquidity** | Each additional seller makes the venue more valuable to buyers and vice versa: the marketplace's value exceeds the sum of its listings. |
 | **After-sales and reverse logistics** | Returns, warranties, repairs, and resale: extending the good's usable life and insuring the purchase against regret. |
 | **Household-production enablement** | Saving the shopper's own time and effort — the complement the household-production model makes explicit: a product is worth more when it arrives with less shopping, travel, and assembly work attached (Betancourt & Gautschi, 1990, 1992). |

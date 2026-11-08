@@ -600,6 +600,6 @@ $$
 - [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
 - [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md)
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md)
-- [Product](/view.html?p=notes/social/coordinator/good/product.md)
+- [Product](/view.html?p=notes/social/good/product.md)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md)
 - [Philosophia Socialium et Operis](/view.html?p=notes/meta/philosophia-socialium-et-operis.md)
