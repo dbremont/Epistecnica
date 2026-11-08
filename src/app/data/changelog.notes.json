@@ -60557,7 +60557,9 @@
       {
         "date": "2026-11-08",
         "kind": "chore",
-        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table.",
+        "commit": "c04731c10acb0bca603ebbcbed58386c6fcf8f44",
+        "before": "366631751b6b44e97649ddcde8e26cd655f56dbe"
       }
     ]
   },
@@ -80553,7 +80555,9 @@
       {
         "date": "2026-11-08",
         "kind": "chore",
-        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table."
+        "summary": "Remove the empty placeholder note: Notion-import skeleton with no worked definition and an empty decomposition table.",
+        "commit": "c04731c10acb0bca603ebbcbed58386c6fcf8f44",
+        "before": "366631751b6b44e97649ddcde8e26cd655f56dbe"
       }
     ]
   }
