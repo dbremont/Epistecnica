@@ -57,3 +57,4 @@ Here's a table that summarizes the different types of goods based on various cla
 ## References
 
 - [Service](https://www.notion.so/Service-17ac0f5171ec81d4af7fc9c0103606a3?pvs=21)
+- [Goods folder](/explorer.html?view=browse&dir=notes/social/coordinator/good) — the rest of this directory: product, object, the Harmonized System explorer and the product taxonomy.

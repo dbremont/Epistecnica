@@ -60231,5 +60231,15 @@
         "commit": "0dbf1520ca779cbd79dff45ed7069c9a659f83f3"
       }
     ]
+  },
+  {
+    "file_path": "social/coordinator/good/good.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "docs",
+        "summary": "Add the goods-folder browse link to the reference list, pointing at the product, object, HS explorer and taxonomy files that share the directory."
+      }
+    ]
   }
 ]
