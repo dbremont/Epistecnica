@@ -60238,7 +60238,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Add the goods-folder browse link to the reference list, pointing at the product, object, HS explorer and taxonomy files that share the directory."
+        "summary": "Add the goods-folder browse link to the reference list, pointing at the product, object, HS explorer and taxonomy files that share the directory.",
+        "commit": "b2b0243b8b492a71e33ba151e965b9c9884973e8",
+        "before": "2930937ca53c21fba675fbbee4d6bbd1dda804ae"
       }
     ]
   }
