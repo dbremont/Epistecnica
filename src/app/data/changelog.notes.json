@@ -80751,7 +80751,9 @@
       {
         "date": "2026-11-08",
         "kind": "docs",
-        "summary": "Drop the French-original Traité row from the documents list — the stub has left the corpus."
+        "summary": "Drop the French-original Traité row from the documents list — the stub has left the corpus.",
+        "commit": "206a80e54d6dda149995d07a31486efd5fa6eb3a",
+        "before": "e94dbf45b4df5d2642ba37bf89fbcdba0abd1a2d"
       }
     ]
   }
