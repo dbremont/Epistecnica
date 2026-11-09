@@ -81261,7 +81261,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the acoustic rows: Sauveur on the harmonic series and Savart on stringed instruments (both honest no-scan), Hopkins and Rimbault’s The Organ and Rimbault’s The Pianoforte, Ellis on the history of musical pitch, Melville Bell’s Visible Speech and Graham Bell’s telephone patents, Galton’s hearing papers, the Cagniard de la Tour and Seebeck siren papers, and Sabine’s Collected Papers at the 1922 boundary."
+        "summary": "Add the acoustic rows: Sauveur on the harmonic series and Savart on stringed instruments (both honest no-scan), Hopkins and Rimbault’s The Organ and Rimbault’s The Pianoforte, Ellis on the history of musical pitch, Melville Bell’s Visible Speech and Graham Bell’s telephone patents, Galton’s hearing papers, the Cagniard de la Tour and Seebeck siren papers, and Sabine’s Collected Papers at the 1922 boundary.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9",
+        "before": "487078706afb092f240782cbf99ffc151ed53ee4"
       }
     ]
   }

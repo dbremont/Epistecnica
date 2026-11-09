@@ -33986,7 +33986,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Sauveur, Système général des intervalles des sons (1701) — the overtone series; honest no-scan note."
+        "summary": "Add Sauveur, Système général des intervalles des sons (1701) — the overtone series; honest no-scan note.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -33996,7 +33997,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Savart's memoir on stringed instruments (1819) — the instrument acoustics; honest no-scan note."
+        "summary": "Add Savart's memoir on stringed instruments (1819) — the instrument acoustics; honest no-scan note.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34006,7 +34008,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hopkins and Rimbault, The Organ (1855) — the organ builder's treatise; 1855 and 1870 scans."
+        "summary": "Add Hopkins and Rimbault, The Organ (1855) — the organ builder's treatise; 1855 and 1870 scans.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34016,7 +34019,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rimbault, The Pianoforte (1860) — the instrument and its trade; three 1860 scans."
+        "summary": "Add Rimbault, The Pianoforte (1860) — the instrument and its trade; three 1860 scans.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34026,7 +34030,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ellis on the history of musical pitch (1880) — pitch as measurement; two 1880 scans."
+        "summary": "Add Ellis on the history of musical pitch (1880) — pitch as measurement; two 1880 scans.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34036,7 +34041,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Bell, Visible Speech (1867) — the speech notation; later Bell primers scanned, edition stated."
+        "summary": "Add Bell, Visible Speech (1867) — the speech notation; later Bell primers scanned, edition stated.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34046,7 +34052,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Bell telephone patents (1876–77, collector) — telephony specified; honest no-scan note."
+        "summary": "Add the Bell telephone patents (1876–77, collector) — telephony specified; honest no-scan note.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34056,7 +34063,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Galton's hearing and whistle papers (1870s–80s, collector) — the hearing limit; honest no-scan note."
+        "summary": "Add Galton's hearing and whistle papers (1870s–80s, collector) — the hearing limit; honest no-scan note.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34066,7 +34074,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Cagniard de la Tour and Seebeck siren papers (1819–40s, collector) — the tone generator; honest no-scan note."
+        "summary": "Add the Cagniard de la Tour and Seebeck siren papers (1819–40s, collector) — the tone generator; honest no-scan note.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   },
@@ -34076,7 +34085,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Sabine, Collected Papers on Acoustics (1922, boundary) — architectural acoustics founded; 1922 scan."
+        "summary": "Add Sabine, Collected Papers on Acoustics (1922, boundary) — architectural acoustics founded; 1922 scan.",
+        "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
   }
