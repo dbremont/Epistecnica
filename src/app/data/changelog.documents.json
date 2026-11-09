@@ -29430,5 +29430,15 @@
         "commit": "e41573b5e3163093e1c77157278346fe12e761c4"
       }
     ]
+  },
+  {
+    "file_path": "books/herschel-1849-manual-of-scientific-enquiry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Herschel (ed.), A manual of scientific enquiry (Admiralty, 1849) - the navy as observation instrument network; 1849-1859 scans, cross-linked to Cosmos. Completes the geophysics branch's observation-method document."
+      }
+    ]
   }
 ]
