@@ -32890,5 +32890,285 @@
         "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
+  },
+  {
+    "file_path": "books/biringuccio-1540-de-la-pirotechnia.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Biringuccio, De la Pirotechnia (1540) — the pre-1600 founding metallurgical manual, verified 1540 scan; the guide's lower bound stated at 1500."
+      }
+    ]
+  },
+  {
+    "file_path": "books/schluter-1738-grundlicher-unterricht-hutte-werken.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Schlüter, Gründlicher Unterricht von Hütte-Werken (1738) — the German smelting manual; Wellcome and BSB scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/swedenborg-1734-opera-philosophica-et-mineralia.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Swedenborg, Opera philosophica et mineralia (1734) — the Swedish mineral-kingdom volume; 1734 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jars-1774-voyages-metallurgiques.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Jars, Voyages métallurgiques (1774–81) — the three-volume European survey; all three scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/karsten-1831-system-der-metallurgie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Karsten, System der Metallurgie (1831–32) — the systematic German treatise; 1831 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/aubuisson-1827-traite-de-metallurgie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add d'Aubuisson de Voisins, Traité de métallurgie (1827) — the French systematic treatise; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rivot-1859-principes-generaux-traitement-minerais.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rivot, Principes généraux du traitement des minerais métalliques (1859) — the French theoretical metallurgy; two 1859 scans, the critique's title correction noted."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wedding-1874-das-eisenhuttenwesen.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wedding, Das Eisenhüttenwesen (1874) — the German ironworks handbook; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ledebur-1901-handbuch-eisen-stahlgiesserei.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ledebur, Handbuch der Eisen- und Stahlgiesserei (1901) — the foundry handbook, boundary year honestly recorded; Getty scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/howe-1890-metallurgy-of-steel.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Howe, The Metallurgy of Steel (1890) — the American systematic treatise; 1890 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/osmond-1890s-allotropy-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Osmond allotropy papers (1880s–90s, @misc collector) — the metallography layer; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hadfield-1890s-manganese-steel-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hadfield manganese-steel papers (1880s–90s, @misc collector) — the alloy-steel edge; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hooke-1705-posthumous-works.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hooke, The Posthumous Works (1705) — the collector of the Cutlerian lectures and mechanical papers; two 1705 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kennedy-1886-mechanics-of-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Kennedy, The Mechanics of Machinery (1886) — the British kinematics; two scans, the critique's title correction recorded."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nasmyth-1883-autobiography.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Nasmyth, James Nasmyth, Engineer (1883) — the machine-shop autobiography; 1883 and later scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fowler-1850s-steam-ploughing-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Fowler steam-ploughing patents (1850s–60s, @misc collector) — patent records, honest no-scan; the 1909 firm catalogue noted."
+      }
+    ]
+  },
+  {
+    "file_path": "books/howard-fowler-1860s-steam-cultivation.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Howard & Fowler steam-cultivation literature (1860s–80s, @misc collector) — firm catalogues and survey papers, honest no-scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/berzelius-1825-lehrbuch-der-chemie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Berzelius, Lehrbuch der Chemie (1825–) — the systematic textbook; 1825 and 1835 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/berzelius-1821-jahresberichte.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Berzelius, Jahresberichte (1821–, series entry) — the annual review instrument; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hofmann-1862-colouring-matters-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hofmann coal-tar colouring-matter papers (1862–63) — the dye-chemistry programme; two article scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/perkin-1856-mauveine-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Perkin mauveine papers and patents (1856–79) — the synthetic dye hinge; 1856 article scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/berthelot-1860-chimie-organique-fondee-sur-la-synthese.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Berthelot, Chimie organique fondée sur la synthèse (1860) — the synthetic turn; 1860 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/young-1770-course-of-experimental-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Young, A Course of Experimental Agriculture (1770) — the experimental farm register; 1770 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/loudon-1825-encyclopaedia-of-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Loudon, An Encyclopaedia of Agriculture (1825) — the farmer's compendium; 1825 and later scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/boussingault-1843-economie-rurale.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Boussingault, Économie rurale (1843–44) — the French experimental agriculture; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/johnstone-1800-draining-land-elkington.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Johnstone's account of Elkington's drainage (1800) — the drainage method; three scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/parkes-1848-essays-land-drainage.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Parkes, Essays on the philosophy and art of land drainage (1848) — the drainage science; 1848 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/voelcker-1850s-agricultural-chemistry-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Voelcker agricultural-chemistry papers (1850s–80s, @misc collector) — the consulting side; honest no-scan note."
+      }
+    ]
   }
 ]

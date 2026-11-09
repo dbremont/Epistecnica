@@ -56,6 +56,11 @@ qa:
 | Robert Willis | [*Principles of Mechanism*](/view.html?p=documents/books/willis-1841-principles-of-mechanism.md) | 1841 | Mechanism theory between Hachette and Reuleaux |
 | William Sellers | [*On a Uniform System of Screw Threads*](/view.html?p=documents/books/sellers-1864-uniform-system-screw-threads.md) | 1864 | The American screw-thread standard (paper) |
 | Edward H. Knight | [*The Mechanician*](/view.html?p=documents/books/knight-1879-the-mechanician.md) | 1879 | The shop-floor mechanician’s own manual |
+| Robert Hooke | [*The Posthumous Works (Cutlerian lectures and mechanical papers)*](/view.html?p=documents/books/hooke-1705-posthumous-works.md) | 1705 | The spring, the escapement and the instrument papers |
+| A. B. W. Kennedy | [*The Mechanics of Machinery*](/view.html?p=documents/books/kennedy-1886-mechanics-of-machinery.md) | 1886 | Machine motion constrained and taught — British kinematics |
+| James Nasmyth | [*James Nasmyth, Engineer: An Autobiography*](/view.html?p=documents/books/nasmyth-1883-autobiography.md) | 1883 | The machine shop from inside — the steam hammer and the tool trade |
+| John Fowler | [*Steam-ploughing patents and specifications*](/view.html?p=documents/books/fowler-1850s-steam-ploughing-patents.md) | 1850s–60s | The cable-and-winch steam cultivation (patent specifications) |
+| Howard & Fowler | [*Steam-cultivation literature*](/view.html?p=documents/books/howard-fowler-1860s-steam-cultivation.md) | 1860s–80s | The firms' catalogues and survey papers (collector entry) |
 
 ## Ars Chimica
 
@@ -92,6 +97,11 @@ qa:
 | Adolphe Wurtz | [*Dictionnaire de Chimie Pure et Appliquée*](/view.html?p=documents/books/wurtz-1869-dictionnaire-de-chimie.md) | 1869 | The French reference dictionary |
 | H. E. Roscoe & C. Schorlemmer | [*A Treatise on Chemistry*](/view.html?p=documents/books/roscoe-1877-treatise-on-chemistry.md) | 1877 | The advanced reference of the 1870s–80s |
 | D. O’Brine | [*A Laboratory Guide in Chemical Analysis*](/view.html?p=documents/books/obrine-1889-laboratory-guide-chemical-analysis-wiley.md) | 1889 | The bench guide to the analytical course |
+| J. J. Berzelius | [*Lehrbuch der Chemie*](/view.html?p=documents/books/berzelius-1825-lehrbuch-der-chemie.md) | 1825– | The systematic teaching the trade learned its chemistry from |
+| J. J. Berzelius | [*Jahresberichte über die Fortschritte der physischen Wissenschaften*](/view.html?p=documents/books/berzelius-1821-jahresberichte.md) | 1821– | The annual review that made the literature followable (series) |
+| A. W. Hofmann | [*Researches on the Colouring Matters Derived from Coal-Tar*](/view.html?p=documents/books/hofmann-1862-colouring-matters-papers.md) | 1862–63 | The aniline dyes worked out as a research programme (papers) |
+| W. H. Perkin | [*Mauveine and the aniline colour papers*](/view.html?p=documents/books/perkin-1856-mauveine-papers.md) | 1856–79 | The first aniline dye reported and manufactured (papers and patents) |
+| Marcellin Berthelot | [*Chimie Organique Fondée sur la Synthèse*](/view.html?p=documents/books/berthelot-1860-chimie-organique-fondee-sur-la-synthese.md) | 1860 | Organic chemistry founded on synthesis |
 
 ## Ars Metallica
 
@@ -130,6 +140,18 @@ qa:
 | Oscar Guttmann | [*Blasting: A Handbook for Engineers*](/view.html?p=documents/books/guttmann-1892-blasting-handbook.md) | 1892 | The engineer’s blasting handbook |
 | Arnold Lupton | [*A Practical Treatise on Mine Surveying*](/view.html?p=documents/books/lupton-1899-mine-surveying.md) | 1899 | Underground survey and the mine plan |
 | W. T. Flanders | [*Galvanizing and Tinning*](/view.html?p=documents/books/flanders-1900-galvanizing-and-tinning.md) | 1900 (boundary) | The coating trades at the century’s edge |
+| Vannoccio Biringuccio | [*De la Pirotechnia*](/view.html?p=documents/books/biringuccio-1540-de-la-pirotechnia.md) | 1540 | The founding metallurgical manual — assaying, casting, the founders' shop |
+| C. A. Schlüter | [*Gründlicher Unterricht von Hütte-Werken*](/view.html?p=documents/books/schluter-1738-grundlicher-unterricht-hutte-werken.md) | 1738 | The first systematic German smelting manual and its works plates |
+| Emanuel Swedenborg | [*Opera Philosophica et Mineralia (Regnum Subterraneum)*](/view.html?p=documents/books/swedenborg-1734-opera-philosophica-et-mineralia.md) | 1734 | The Swedish mineral kingdom — iron, copper and tin documented as works |
+| Gabriel Jars | [*Voyages Métallurgiques*](/view.html?p=documents/books/jars-1774-voyages-metallurgiques.md) | 1774–81 | The European works inspected and reported — the comparative survey |
+| C. J. B. Karsten | [*System der Metallurgie*](/view.html?p=documents/books/karsten-1831-system-der-metallurgie.md) | 1831–32 | Metallurgy systematized — the German classification and furnace arithmetic |
+| J. F. d'Aubuisson de Voisins | [*Traité de Métallurgie*](/view.html?p=documents/books/aubuisson-1827-traite-de-metallurgie.md) | 1827 | The French mining corps' teaching treatise (honest no-scan) |
+| L. É. Rivot | [*Principes Généraux du Traitement des Minerais Métalliques*](/view.html?p=documents/books/rivot-1859-principes-generaux-traitement-minerais.md) | 1859 | Ore treatment taught as applied chemistry |
+| Hermann Wedding | [*Das Eisenhüttenwesen*](/view.html?p=documents/books/wedding-1874-das-eisenhuttenwesen.md) | 1874 | The ironworks as one system (honest no-scan) |
+| Adolf Ledebur | [*Handbuch der Eisen- und Stahlgiesserei*](/view.html?p=documents/books/ledebur-1901-handbuch-eisen-stahlgiesserei.md) | 1901 (boundary) | The foundry and steel-casting handbook at the century's edge |
+| Henry M. Howe | [*The Metallurgy of Steel*](/view.html?p=documents/books/howe-1890-metallurgy-of-steel.md) | 1890 | The first American systematic steel treatise |
+| Floris Osmond | [*Allotropy and metallography papers*](/view.html?p=documents/books/osmond-1890s-allotropy-papers.md) | 1880s–90s | The iron allotropes and the microscope in the steelworks (paper series) |
+| Robert Hadfield | [*Manganese steel and alloy steel papers*](/view.html?p=documents/books/hadfield-1890s-manganese-steel-papers.md) | 1880s–90s | The alloy steels at the works scale (paper series) |
 
 ## Ars Agricola
 
@@ -161,7 +183,14 @@ qa:
 | A. Cochrane, Earl of Dundonald | [*A Treatise on the Connection between Agriculture and Chemistry*](/view.html?p=documents/books/cochrane-1795-treatise-agriculture-chemistry-dundonald.md) | 1795 | The agricultural-chemistry programme stated |
 | J. A. C. Chaptal | [*Chemistry Applied to Agriculture*](/view.html?p=documents/books/chaptal-1840-chemistry-applied-to-agriculture-harper.md) | 1840 (English) | The French agricultural chemistry |
 | J. A. Ransome | [*The Implements of Agriculture*](/view.html?p=documents/books/ransome-1843-implements-of-agriculture.md) | 1843 | The implement-maker’s survey of the plough and its neighbours |
+| John Fowler | [*Steam-ploughing patents and specifications*](/view.html?p=documents/books/fowler-1850s-steam-ploughing-patents.md) | 1850s–60s | The cable-and-winch steam cultivation — entry in Mechanica |
 | J. A. Stöckhardt | [*Chemical Field Lectures*](/view.html?p=documents/books/stockhardt-1853-chemical-field-lectures-teschemacher.md) | 1853 | Field lectures — agricultural chemistry for farmers |
+| Arthur Young | [*A Course of Experimental Agriculture*](/view.html?p=documents/books/young-1770-course-of-experimental-agriculture.md) | 1770 | The farm run as a register of experiments |
+| J. C. Loudon | [*An Encyclopaedia of Agriculture*](/view.html?p=documents/books/loudon-1825-encyclopaedia-of-agriculture.md) | 1825 | The whole of agriculture in one alphabet |
+| J. B. Boussingault | [*Économie Rurale*](/view.html?p=documents/books/boussingault-1843-economie-rurale.md) | 1843–44 | The farm weighed as chemistry — balances and rations (honest no-scan) |
+| John Johnstone (for Joseph Elkington) | [*An Account of the Most Approved Mode of Draining Land*](/view.html?p=documents/books/johnstone-1800-draining-land-elkington.md) | 1800 | Elkington's drainage system transmitted as a method |
+| Josiah Parkes | [*Essays on the Philosophy and Art of Land Drainage*](/view.html?p=documents/books/parkes-1848-essays-land-drainage.md) | 1848 | Drainage designed as an engineering system |
+| Augustus Voelcker | [*Agricultural chemistry papers and analyses*](/view.html?p=documents/books/voelcker-1850s-agricultural-chemistry-papers.md) | 1850s–80s | The consulting chemist's working science (paper series) |
 
 ## Ars Civilis
 
