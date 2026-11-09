@@ -1,10 +1,5 @@
 ---
 tags: [note, technology, engineering, historical-technique, bibliography]
-qa:
- - Do the four bibliographic categories — technical arts, technology, engineering, engineering science — hold against the Encyclopédie planches, where a plate documents workshop, tool and principle on one page?
- - Which of the reference collections can actually be scripted at scale, and which are browse-only? The Smithsonian trade-catalogue collection is demonstrated on meteorological instruments — are the others?
- - Does the corpus's technique taxonomy (variational method, technique path trees) type these historical works, or does a historical-technique taxonomy of its own need building?
- - Do the one-series-one-entry decisions (Sabine, Rayleigh, Milne & Mori merged where thin) survive reading — when does a serial deserve its own entry?
 ---
 
 # Historical Technical Library: Engineering, Technology and the Applied Sciences Before 1900
@@ -20,17 +15,17 @@ qa:
 | Ahmes (Rhind Mathematical Papyrus) | *Problems of granaries, frustums, pyramid slopes and mensuration* | c. 1650 BCE | Problem-book of the Egyptian technical arithmetic and mensuration |
 | Nineveh cuneiform glass and metal tablets (Library of Ashurbanipal) | *Furnace recipes and coloured glazes* | c. 650 BCE | The glass and glaze trade preserved in the ancient libraries |
 | Pseudo-Aristotle (Strato / Peripatetic school) | *Mechanica (Mechanical Problems)* | c. 300 BCE | The lever, pulley, wheel, wedge, roller, rudder and oar stated by question |
-| Archimedes of Syracuse | *On the Equilibrium of Planes; On Floating Bodies; Measurement of a Circle* | c. 250 BCE | Statics and hydrostatics with the stability of ship hulls |
+| Archimedes | [*On the Equilibrium of Planes; On Floating Bodies; Measurement of a Circle*](/view.html?p=documents/books/archimedes-1897-works-heath.md) | c. 250 BCE (Eng. ed. 1897) | Statics and hydrostatics with the stability of ship hulls — the Heath edition of the treatises |
 | Ctesibius of Alexandria (via Vitruvius/Philo/Hero) | *Force pump, water organ, and feedback-regulated clepsydra* | fl. 270 BCE | Pneumatic and water-regulated machinery of the Alexandrian shops |
 | Philo of Byzantium | *Mechanike Syntaxis (Belopoeica; Pneumatica; Poliorcetica)* | c. 230 BCE | The artillery, siphons, and level-controls of the Hellenistic defensive craft |
 | Biton | *Kataskeuai polemikon organon kai katapeltikon* | c. 240 BCE | The scaled siege-machines written with dimensions |
-| Hero (Heron) of Alexandria | *Pneumatica; Mechanica; Automata; Dioptra; Belopoeica; Metrica* | fl. 60 CE | The chef d'oeuvre of Hellenistic mechanics — the five machine laws, reaction steam sphere, automata and surveying dioptra |
+| Hero (Heron) | [*Pneumatica; Mechanica; Automata; Dioptra; Belopoeica; Metrica*](/view.html?p=documents/books/hero-1899-druckwerke.md) | fl. 60 CE (ed. 1899) | The chef d'oeuvre of Hellenistic mechanics — the five machine laws, reaction steam sphere, automata and surveying dioptra (Schmidt's 1899 edition of the Druckwerke) |
 | Claudius Ptolemy | *Almagest; Geographia; Optica; Planisphaerium* | fl. 150 CE | The astronomical and cartographic instruments of the conic projections |
 | Pappus of Alexandria | *Synagoge (Book VIII)* | fl. 320 CE | The synthesis of ancient mechanics with the inclined plane and worm gear |
 | Cato, Varro, Columella, Palladius | *Roman agricultural treatises* | 160 BCE – 400 CE | The farm mechanics, presses and drainage of the Roman estate economy |
 | Sextus Julius Frontinus | *De Aquaeductu Urbae Romae* | c. 97 CE | The Roman water supply gauged at its aqueduct intakes |
 | Pedanius Dioscorides | *De Materia Medica* | c. 65 CE | The medicinal substances and the first apparatus of botanical extraction |
-| Pliny the Elder | *Naturalis Historia (Books XXXIII–XXXVII)* | 77 CE | The industrial arts of metals, glass, pigments and papyrus in one encyclopedia |
+| Pliny | [*Naturalis Historia (Books XXXIII–XXXVII)*](/view.html?p=documents/books/pliny-1855-natural-history.md) | 77 CE (Eng. 1855) | The industrial arts of metals, glass, pigments and papyrus in one encyclopedia — Bostock and Riley's translation |
 | Corpus Agrimensorum Romanorum | *Gromatic surveying by groma and chorobates* | 1st–2nd c. CE | The survey graphic machinery of centuriation and road planning |
 | Leyden Papyrus X; Stockholm Papyrus; Zosimos of Panopolis | *Alchemical apparatus recipes and lab practices* | c. 300 CE | The chemical tables, alloys, gilding and distillation of the Alexandrian trades |
 | Vegetius; Pseudo-Anonymous | *Epitoma Rei Militaris; De Rebus Bellicis* | c. 390 CE | The Roman fortifications and paddle-wheel warships of the late empire |
@@ -44,7 +39,7 @@ qa:
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | Mappae Clavicula; Heraclius | *Colour, art and craft recipe manuscripts* | c. 800–1130 | The pigment, alloy and coating recipes of monastic workshops |
-| Theophilus Presbyter | *Schedula Diversarum Artium (De Diversis Artibus)* | c. 1122 | The metalwork, stained glass, organ pipe and bell founding trades described |
+| Theophilus Presbyter | *Schedula Diversarum Artium (De Diversis Artibus)* | c. 1122 | The metalwork, stained glass, organ pipe and bell founding trades described (no scan verified) |
 | Villard de Honnecourt | *Livre de Portraiture (Sketchbook)* | c. 1220–40 | The Gothic trades and machinery carried in one sketchbook of engineering |
 | Petrus Peregrinus de Maricourt | *Epistola de Magnete* | 1269 | The compass and magnet designed by experiment |
 | Guido da Vigevano | *Texaurus Regis Francie* | 1335 | Cranked machinery of the siege hospital trades |
@@ -57,7 +52,7 @@ qa:
 | Roberto Valturio | *De Re Militari (Verona)* | 1472 | The first printed book with technical woodcuts and siege engines |
 | Francesco di Giorgio Martini | *Trattati di Architettura, Ingegneria e Arte Militare* | c. 1475–90 | The bastion trace and machinery of the Renaissance military engineer |
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping and the accounting of industrial enterprise |
-| Leonardo da Vinci | *Codice Atlantico and the Manuscripts* | c. 1478–1519 | The machine elements and the flying machines of the great engineers |
+| Leonardo da Vinci | [*Codice Atlantico and the Manuscripts*](/view.html?p=documents/books/leonardo-1883-literary-works.md) | c. 1478–1519 (ed. 1883) | The machine elements and the flying machines of the great engineer — Richter's edition of the notebooks |
 | Ulrich Rulein von Calw | *Ein nützlich Bergbüchlein (c. 1500); Probierbüchlein (c. 1520)* | c. 1500 / c. 1520 | The first printed mining and assaying manuals |
 
 ## Ars Mechanica
@@ -90,6 +85,8 @@ qa:
 | E. A. Rix & A. Chodzko | [*A Practical Treatise on Compressed Air and Pneumatic Machinery*](/view.html?p=documents/books/rix-1896-compressed-air-pneumatic-machinery.md) | 1896 | Air compression, blowers and pneumatic power transmission |
 | Niles Tool Works | [*General Machinery Catalogue*](/view.html?p=documents/books/niles-1898-general-machinery-catalogue.md) | 1898 | Industrial machine tools — the trade catalogue |
 | William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | The consulting engineer's collected practice notes |
+| Manchester Steam Users' Association (Fairbairn founding); Hartford Steam Boiler Inspection & Insurance Co. | *The periodic non-destructive inspection of boilers as an insurance discipline* | 1854 / 1866 | The foundation of pressure-vessel inspection codes (no scan verified) |
+| W. von Siemens & H. von Helmholtz (founders) | *The Physikalisch-Technische Reichsanstalt, Charlottenburg* | 1887 | The first national standards and physical-technical testing institute (no scan verified) |
 | Waygood & Co. | [*Hydraulic Passenger Lifts: A Guide to Intending Purchasers*](/view.html?p=documents/books/waygood-1889-hydraulic-passenger-lifts.md) | 1889 | The lift trade's purchaser guide (honest no-scan; the plant side in Robinson's held volume) |
 | John Harrison | [*A Manual of the Remington Standard Type-Writer*](/view.html?p=documents/books/harrison-1890-remington-type-writer-manual.md) | 1890 | Office machinery instruction |
 | Office and Library Co. | [*Modern Office Devices*](/view.html?p=documents/books/officelibrary-1898-modern-office-devices.md) | 1898 | The office-machinery catalogue (honest no-scan) |
@@ -97,12 +94,12 @@ qa:
 | Salomon de Caus | [*Les Raisons des Forces Mouvantes*](/view.html?p=documents/books/decaus-1615-raisons-des-forces-mouvantes.md) | 1615 | The physics of motion applied — the machine book at its theoretical hinge |
 | Vittorio Zonca | [*Novo Teatro di Machine*](/view.html?p=documents/books/zonca-1607-novo-teatro.md) | 1607 | The Padua machine theatre after Ramelli |
 | J. T. Desaguliers | [*Mathematical Elements of Natural Philosophy*](/view.html?p=documents/books/desaguliers-1726-mathematical-elements-natural-philosophy-confir.md) | 1726 | Experimental philosophy taught through machines |
-| Leonhard Euler | [*Mechanica sive Motus Scientia Analytice Exposita*](/view.html?p=documents/books/euler-1736-mechanica-sive-motus-scientia-analytice.md) | 1736 | Analytical mechanics — the machine’s motion mathematized |
+| Leonhard Euler | [*Mechanica sive Motus Scientia Analytice Exposita*](/view.html?p=documents/books/euler-1736-mechanica-sive-motus-scientia-analytice.md) | 1736 | Analytical mechanics — the machine's motion mathematized |
 | M. G. Suárez | [*Colección General de Máquinas*](/view.html?p=documents/books/suarez-1783-coleccion-general-maquinas-escogidas-entre.md) | 1783 | The Spanish machine collection — plates and descriptions |
 | Thomas Young | [*A Course of Lectures on Natural Philosophy and the Mechanical Arts*](/view.html?p=documents/books/young-1845-course-lectures-natural-philosophy-mechanical.md) | 1807 (ed. 1845) | Natural philosophy and the mechanical arts taught together |
 | Robert Willis | [*Principles of Mechanism*](/view.html?p=documents/books/willis-1841-principles-of-mechanism.md) | 1841 | Mechanism theory between Hachette and Reuleaux |
 | William Sellers | [*On a Uniform System of Screw Threads*](/view.html?p=documents/books/sellers-1864-uniform-system-screw-threads.md) | 1864 | The American screw-thread standard (paper) |
-| Edward H. Knight | [*The Mechanician*](/view.html?p=documents/books/knight-1879-the-mechanician.md) | 1879 | The shop-floor mechanician’s own manual |
+| Edward H. Knight | [*The Mechanician*](/view.html?p=documents/books/knight-1879-the-mechanician.md) | 1879 | The shop-floor mechanician's own manual |
 | Robert Hooke | [*The Posthumous Works (Cutlerian lectures and mechanical papers)*](/view.html?p=documents/books/hooke-1705-posthumous-works.md) | 1705 | The spring, the escapement and the instrument papers |
 | A. B. W. Kennedy | [*The Mechanics of Machinery*](/view.html?p=documents/books/kennedy-1886-mechanics-of-machinery.md) | 1886 | Machine motion constrained and taught — British kinematics |
 | James Nasmyth | [*James Nasmyth, Engineer: An Autobiography*](/view.html?p=documents/books/nasmyth-1883-autobiography.md) | 1883 | The machine shop from inside — the steam hammer and the tool trade |
@@ -122,6 +119,11 @@ qa:
 | Giovanni Branca | *Le Machine, Diverse et Maravigliose Arti di Mano* | 1629 | The steam-wheel sketch and the marvellous machine book of the Roman tradition (no scan verified) |
 | Ernest Spon (ed.) | *Spon's Dictionary of Engineering, Civil, Mechanical, Military, and Naval* | 1869–74 | The Victorian engineering encyclopedia in eight volumes (no scan verified) |
 | Joshua Rose | [*The Complete Practical Machinist*](/view.html?p=documents/books/rose-1876-complete-practical-machinist.md) | 1876 | The shop floor put into a book — the American machinist taught by the trade |
+| Germain Sommeiller; Simon Ingersoll; J. G. Leyner | *Pneumatic rock drills and air compressors (Mont Cenis Sommeiller drill; Ingersoll 1871 tripod drill; Leyner hammer)* | 1857–97 | The hard-rock tunneling and mining drill trade (no scan verified) |
+| Julius G. Pohlé | *Compressed-air air-lift pump for deep wells* | 1886 | The air-lift pump of the deep-well water trade (no scan verified) |
+| Joseph Boyer | *Pneumatic riveting and chipping hammer patents* | 1880s–95 | The tool that riveted ships, boilers, bridges and skyscrapers (no scan verified) |
+| Joseph R. Brown (Brown & Sharpe) | *Universal cylindrical grinding machine patent* | 1864–76 | Grinding hardened steel to ten-thousandths of an inch (no scan verified) |
+| William Sellers | *On a Uniform System of Screw Threads (cross-list from Mechanica)* | 1864 | The American screw-thread standard (cross-listed) |
 | Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System of interchangeable manufacture (no scan verified) |
 | W. G. Armstrong | *Water-pressure machinery and accumulator papers* | 1850s–60s | Hydraulic cranes, accumulators and the water-pressure machine economy (no scan verified) |
 | Frederick Winslow Taylor | *A Piece-Rate System; and Notes on Belting (ASME papers)* | 1895–1900s | Scientific shop management and the high-speed tool steel trials (no scan verified) |
@@ -130,40 +132,9 @@ qa:
 | Guillaume Amontons | *De la résistance causée dans les machines* | 1699 | The laws of dry friction (no scan verified) |
 | Charles-Augustin de Coulomb | *Théorie des machines simples, en ayant égard au frottement* | 1785/1821 | The classic treatise on friction and cordage stiffness (no scan verified) |
 | Beauchamp Tower | *Friction experiments in journal bearings (Proc. IMechE)* | 1883–85 | The hydrodynamic oil film discovered (no scan verified) |
-| Arthur Jules Morin | [*Nouvelles Expériences sur le Frottement*](/view.html?p=documents/books/morin-1832-nouvelles-experiences-frottement.md) | 1832 | The friction coefficients measured for the machine trade |
-| Robert Henry Thurston | [*A Treatise on Friction and Lost Work in Machinery and Millwork*](/view.html?p=documents/books/thurston-1885-friction-lost-work.md) | 1885 | Friction as lost work — the tribology of the machine age |
-| Guillaume Amontons | *De la résistance causée dans les machines* | 1699 | The laws of dry friction (no scan verified) |
-| Charles-Augustin de Coulomb | *Théorie des machines simples, en ayant égard au frottement* | 1785/1821 | The classic treatise on friction and cordage stiffness (no scan verified) |
-| Beauchamp Tower | *Friction experiments in journal bearings (Proc. IMechE)* | 1883–85 | The hydrodynamic oil film discovered (no scan verified) |
 | Joseph Bramah | [*The Petition and Case of Joseph Bramah*](/view.html?p=documents/books/bramah-1798-petition-lock.md) | 1798 | The lock trade device asserted before Parliament |
 | Henry Maudslay & M. I. Brunel | *The Portsmouth block-making machinery* | 1802–08 | The block mills that made the navy rigging for the fleet (machine plates in the Cyclopaedia; no separate scan verified) |
 | James Clerk Maxwell | *On Governors (Proc. Royal Society)* | 1868 | Feedback stability analysis founded (no scan verified) |
-| Job & William Wyatt | *Screw-cutting machine British Patent 751* | 1760 | The first wood-screw machine (no scan verified) |
-| C. Whipple & T. Harvey | *Gimlet-pointed wood-screw machine patents* | 1846–49 | The automated screw trade of the New England factories (no scan verified) |
-| Jacob Perkins | *Nail-cutting and heading machine patent* | 1795 | The nail trade as machine manufacture (no scan verified) |
-| C. Tomlinson; G. Price | *Rudimentary Treatise on the Construction of Locks; Fire and Thief-Proof Depositories* | 1853 / 1856 | The Barron, Chubb, Bramah and Yale lock patents documented (no scan verified) |
-| Jules Suriray | *Radial ball-bearing patent* | 1869 | The ball bearing applied to the bicycle trade (no scan verified) |
-| Friedrich Fischer | *Ball-grinding disc machine patent (Schweinfurt)* | 1883 | Precision hardened-steel bearing balls trade begun (no scan verified) |
-| Hans Renold | *Bush roller chain British Patent 1,219* | 1880 | The modern power-transmission roller chain (no scan verified) |
-| Matthew Boulton | *Steam steam-coining press (Soho Mint) papers and patents* | 1790s | The steam-driven coin trade documented (no scan verified) |
-| Uhlhorn; Thonnelier | *Uhlhorn (1817) and Thonnelier (1833) knuckle-joint coining presses* | 1817/1833 | The mechanical lever coin press (no scan verified) |
-| G. F. Ansell | *The Royal Mint: Its Working, Conduct and Operations* | 1870 | The British mint trade in its operation (no scan verified) |
-| C. L. Sholes, C. Glidden & S. Soulé (Reinpold.) | *Type-writing machine patents U.S. 79,265 and 207,559* | 1868/78 | The American typewriter trade begun at Remington (no scan verified) |
-| T. A. Edison; A. B. Dick; David Gestetner | *Autographic printing (electric pen, mimeograph) and Cyclostyle patents* | 1876–87 | The stencil duplicator trade invented (no scan verified) |
-| James & John Ritty | *Cash register and indicator (the Incorruptible Cashier) U.S. Patent 221,360* | 1879/83 | The mechanical cash-accounting trade begun (no scan verified) |
-| Job & William Wyatt | *Screw-cutting machine British Patent 751* | 1760 | The first wood-screw machine (no scan verified) |
-| C. Whipple & T. Harvey | *Gimlet-pointed wood-screw machine patents* | 1846–49 | The automated screw trade of the New England factories (no scan verified) |
-| Jacob Perkins | *Nail-cutting and heading machine patent* | 1795 | The nail trade as machine manufacture (no scan verified) |
-| C. Tomlinson; G. Price | *Rudimentary Treatise on the Construction of Locks; Fire and Thief-Proof Depositories* | 1853 / 1856 | The Barron, Chubb, Bramah and Yale lock patents documented (no scan verified) |
-| Jules Suriray | *Radial ball-bearing patent* | 1869 | The ball bearing applied to the bicycle trade (no scan verified) |
-| Friedrich Fischer | *Ball-grinding disc machine patent (Schweinfurt)* | 1883 | Precision hardened-steel bearing balls trade begun (no scan verified) |
-| Hans Renold | *Bush roller chain British Patent 1,219* | 1880 | The modern power-transmission roller chain (no scan verified) |
-| Matthew Boulton | *Steam steam-coining press (Soho Mint) papers and patents* | 1790s | The steam-driven coin trade documented (no scan verified) |
-| Uhlhorn; Thonnelier | *Uhlhorn (1817) and Thonnelier (1833) knuckle-joint coining presses* | 1817/1833 | The mechanical lever coin press (no scan verified) |
-| G. F. Ansell | *The Royal Mint: Its Working, Conduct and Operations* | 1870 | The British mint trade in its operation (no scan verified) |
-| C. L. Sholes, C. Glidden & S. Soulé (Reinpold.) | *Type-writing machine patents U.S. 79,265 and 207,559* | 1868/78 | The American typewriter trade begun at Remington (no scan verified) |
-| T. A. Edison; A. B. Dick; David Gestetner | *Autographic printing (electric pen, mimeograph) and Cyclostyle patents* | 1876–87 | The stencil duplicator trade invented (no scan verified) |
-| James & John Ritty | *Cash register and indicator (the Incorruptible Cashier) U.S. Patent 221,360* | 1879/83 | The mechanical cash-accounting trade begun (no scan verified) |
 | Job & William Wyatt | *Screw-cutting machine British Patent 751* | 1760 | The first wood-screw machine (no scan verified) |
 | C. Whipple & T. Harvey | *Gimlet-pointed wood-screw machine patents* | 1846–49 | The automated screw trade of the New England factories (no scan verified) |
 | Jacob Perkins | *Nail-cutting and heading machine patent* | 1795 | The nail trade as machine manufacture (no scan verified) |
@@ -207,12 +178,12 @@ qa:
 | George Lunge | [*A Treatise on the Distillation of Coal-Tar and Ammonia Liquor*](/view.html?p=documents/books/lunge-1882-coal-tar-and-ammonia.md) | 1882 | Coal-tar processing and dyestuff by-products of gas manufacture |
 | Andres, Winckler & Brannt | [*Varnishes, Lacquers, Siccatives, and Sealing-Waxes*](/view.html?p=documents/books/brannt-1882-varnishes-lacquers.md) | 1882 | Industrial coatings manufacture |
 | H. C. Standage | [*The Practical Polish & Varnish Maker*](/view.html?p=documents/books/standage-1892-polish-varnish-maker.md) | 1892 | The coatings workshop register |
-| Antoine-Laurent Lavoisier | [*Traité Élémentaire de Chimie*](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md) | 1789 | The chemical revolution’s founding text |
-| A. F. Fourcroy | [*Elements of Chemistry and Natural History*](/view.html?p=documents/books/fourcroy-1796-elements-of-chemistry-and-natural-history-heron.md) | 1796 (English) | The revolution’s systematic teaching |
+| Antoine-Laurent Lavoisier | [*Traité Élémentaire de Chimie*](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md) | 1789 | The chemical revolution's founding text |
+| A. F. Fourcroy | [*Elements of Chemistry and Natural History*](/view.html?p=documents/books/fourcroy-1796-elements-of-chemistry-and-natural-history-heron.md) | 1796 (English) | The revolution's systematic teaching |
 | John Dalton | [*A New System of Chemical Philosophy*](/view.html?p=documents/books/dalton-1808-new-system-of-chemical-philosophy.md) | 1808–10 | Atomic theory the industrial chemistry assumed |
 | Adolphe Wurtz | [*Dictionnaire de Chimie Pure et Appliquée*](/view.html?p=documents/books/wurtz-1869-dictionnaire-de-chimie.md) | 1869 | The French reference dictionary |
 | H. E. Roscoe & C. Schorlemmer | [*A Treatise on Chemistry*](/view.html?p=documents/books/roscoe-1877-treatise-on-chemistry.md) | 1877 | The advanced reference of the 1870s–80s |
-| D. O’Brine | [*A Laboratory Guide in Chemical Analysis*](/view.html?p=documents/books/obrine-1889-laboratory-guide-chemical-analysis-wiley.md) | 1889 | The bench guide to the analytical course |
+| D. O'Brine | [*A Laboratory Guide in Chemical Analysis*](/view.html?p=documents/books/obrine-1889-laboratory-guide-chemical-analysis-wiley.md) | 1889 | The bench guide to the analytical course |
 | J. J. Berzelius | [*Lehrbuch der Chemie*](/view.html?p=documents/books/berzelius-1825-lehrbuch-der-chemie.md) | 1825– | The systematic teaching the trade learned its chemistry from |
 | J. J. Berzelius | [*Jahresberichte über die Fortschritte der physischen Wissenschaften*](/view.html?p=documents/books/berzelius-1821-jahresberichte.md) | 1821– | The annual review that made the literature followable (series) |
 | A. W. Hofmann | [*Researches on the Colouring Matters Derived from Coal-Tar*](/view.html?p=documents/books/hofmann-1862-colouring-matters-papers.md) | 1862–63 | The aniline dyes worked out as a research programme (papers) |
@@ -266,13 +237,13 @@ qa:
 | John Arthur Phillips | [*A Treatise on Ore Deposits*](/view.html?p=documents/books/phillips-1884-treatise-ore-deposits.md) | 1884 | Ore bodies, geological occurrence and mineral deposits |
 | J. F. Burgoyne | [*Rudimentary Treatise on the Blasting and Quarrying of Stone*](/view.html?p=documents/books/burgoyne-1849-blasting-and-quarrying.md) | 1849 | Blasting, quarrying and the powder economy |
 | H. Landrin | [*Manuel du Coutelier*](/view.html?p=documents/books/landrin-1835-manuel-du-coutelier.md) | 1835 | Cutlery and edge-tool forging (French) |
-| W. J. E. Crane | [*The Sheet-Metal Worker’s Guide*](/view.html?p=documents/books/crane-1888-sheet-metal-workers-guide.md) | 1888 | Sheet-metal work and the tinsmith’s bench |
-| M. T. Richardson | [*Practical Blacksmithing*](/view.html?p=documents/books/richardson-1891-practical-blacksmithing.md) | 1889–91 | The forge’s own collected practice |
+| W. J. E. Crane | [*The Sheet-Metal Worker's Guide*](/view.html?p=documents/books/crane-1888-sheet-metal-workers-guide.md) | 1888 | Sheet-metal work and the tinsmith's bench |
+| M. T. Richardson | [*Practical Blacksmithing*](/view.html?p=documents/books/richardson-1891-practical-blacksmithing.md) | 1889–91 | The forge's own collected practice |
 | J. B. Smith | [*A Treatise upon Wire*](/view.html?p=documents/books/smith-1891-treatise-upon-wire.md) | 1891 | Wire drawing, wire work and its manufactures |
-| W. C. Roberts-Austen | [*An Introduction to the Study of Metallurgy*](/view.html?p=documents/books/roberts-austen-1891-introduction-metallurgy.md) | 1891 | The metallography boundary at the century’s close |
-| Oscar Guttmann | [*Blasting: A Handbook for Engineers*](/view.html?p=documents/books/guttmann-1892-blasting-handbook.md) | 1892 | The engineer’s blasting handbook |
+| W. C. Roberts-Austen | [*An Introduction to the Study of Metallurgy*](/view.html?p=documents/books/roberts-austen-1891-introduction-metallurgy.md) | 1891 | The metallography boundary at the century's close |
+| Oscar Guttmann | [*Blasting: A Handbook for Engineers*](/view.html?p=documents/books/guttmann-1892-blasting-handbook.md) | 1892 | The engineer's blasting handbook |
 | Arnold Lupton | [*A Practical Treatise on Mine Surveying*](/view.html?p=documents/books/lupton-1899-mine-surveying.md) | 1899 | Underground survey and the mine plan |
-| W. T. Flanders | [*Galvanizing and Tinning*](/view.html?p=documents/books/flanders-1900-galvanizing-and-tinning.md) | 1900 (boundary) | The coating trades at the century’s edge |
+| W. T. Flanders | [*Galvanizing and Tinning*](/view.html?p=documents/books/flanders-1900-galvanizing-and-tinning.md) | 1900 (boundary) | The coating trades at the century's edge |
 | Vannoccio Biringuccio | [*De la Pirotechnia*](/view.html?p=documents/books/biringuccio-1540-de-la-pirotechnia.md) | 1540 | The founding metallurgical manual — assaying, casting, the founders' shop |
 | C. A. Schlüter | [*Gründlicher Unterricht von Hütte-Werken*](/view.html?p=documents/books/schluter-1738-grundlicher-unterricht-hutte-werken.md) | 1738 | The first systematic German smelting manual and its works plates |
 | Emanuel Swedenborg | [*Opera Philosophica et Mineralia (Regnum Subterraneum)*](/view.html?p=documents/books/swedenborg-1734-opera-philosophica-et-mineralia.md) | 1734 | The Swedish mineral kingdom — iron, copper and tin documented as works |
@@ -301,28 +272,6 @@ qa:
 | Pierre Berthier | *Traité des essais par la voie sèche* | 1834 | The standard treatise of dry fire-assaying (no scan verified) |
 | Christopher Polhem | *Patriotiska Testamente (the mechanical alphabet and mine works)* | 1761 | The Swedish mechanical tradition of hoists and rolling mills (no scan verified) |
 | Sven Rinman | *Försök till Järnets Historia; and the Bergwerks-Lexicon* | 1782/1788 | The Swedish history of iron and the mining dictionary (no scan verified) |
-| Edward Dyer Peters | [*Modern Copper Smelting*](/view.html?p=documents/books/peters-1895-modern-copper-smelting.md) | 1887 | The American copper furnace practice set to the plant |
-| Hermann Oscar Hofman | [*The Metallurgy of Lead and the Desilverization of Base Bullion*](/view.html?p=documents/books/hofman-1893-metallurgy-lead.md) | 1893 | The lead furnace and bullion desilverization as plant practice |
-| Carl Schnabel (tr. Henry Louis) | [*Handbook of Metallurgy*](/view.html?p=documents/books/schnabel-1898-handbook-metallurgy.md) | 1898 | The non-ferrous metallurgy handbook that succeeded Percy |
-| Pierre Berthier | *Traité des essais par la voie sèche* | 1834 | The standard treatise of dry fire-assaying (no scan verified) |
-| Christopher Polhem | *Patriotiska Testamente (the mechanical alphabet and mine works)* | 1761 | The Swedish mechanical tradition of hoists and rolling mills (no scan verified) |
-| Sven Rinman | *Försök till Järnets Historia; and the Bergwerks-Lexicon* | 1782/1788 | The Swedish history of iron and the mining dictionary (no scan verified) |
-| Henry Robinson Palmer | *Corrugated iron sheet patent British Patent 5,786* | 1829 | The self-supporting corrugated roofing trade (no scan verified) |
-| Stanislas Sorel | *Hot-dip zinc galvanizing patent* | 1837 | The trade name given the zinc coating (no scan verified) |
-| Joseph F. Glidden | *Barbed wire patent U.S. 157,124* | 1874 | The barbed-wire economics of the American plains (no scan verified) |
-| Anselmus de Boodt | *Gemmarum et Lapidum Historia (lapidary lathes and diamond cutting)* | 1609 | The gem-cutting and mineral-hardness trade (no scan verified) |
-| Nicolas Facio de Duillier | *Ruby and sapphire watch-jewel bearing British Patent 371* | 1704 | The watch-jewel trade begun (no scan verified) |
-| Jean-Jacques Perret; Duhamel du Monceau | *L'Art du Coutelier; Art du Serrurier (Arts et Métiers)* | 1767 / 1771–72 | The cutler and locksmith trades drawn by the French academies (no scan verified) |
-| George E. Gee | *The Silversmith's Handbook; The Goldsmith's Handbook* | 1877/81 | The British precious-metal trade handbooks (no scan verified) |
-| Henry Disston & Sons | *The Saw in History; Handbook for Lumbermen (crucible cast-steel saw blades)* | 1880s–90s | The saw trade manuals of the American works (no scan verified) |
-| Henry Robinson Palmer | *Corrugated iron sheet patent British Patent 5,786* | 1829 | The self-supporting corrugated roofing trade (no scan verified) |
-| Stanislas Sorel | *Hot-dip zinc galvanizing patent* | 1837 | The trade name given the zinc coating (no scan verified) |
-| Joseph F. Glidden | *Barbed wire patent U.S. 157,124* | 1874 | The barbed-wire economics of the American plains (no scan verified) |
-| Anselmus de Boodt | *Gemmarum et Lapidum Historia (lapidary lathes and diamond cutting)* | 1609 | The gem-cutting and mineral-hardness trade (no scan verified) |
-| Nicolas Facio de Duillier | *Ruby and sapphire watch-jewel bearing British Patent 371* | 1704 | The watch-jewel trade begun (no scan verified) |
-| Jean-Jacques Perret; Duhamel du Monceau | *L'Art du Coutelier; Art du Serrurier (Arts et Métiers)* | 1767 / 1771–72 | The cutler and locksmith trades drawn by the French academies (no scan verified) |
-| George E. Gee | *The Silversmith's Handbook; The Goldsmith's Handbook* | 1877/81 | The British precious-metal trade handbooks (no scan verified) |
-| Henry Disston & Sons | *The Saw in History; Handbook for Lumbermen (crucible cast-steel saw blades)* | 1880s–90s | The saw trade manuals of the American works (no scan verified) |
 | Henry Robinson Palmer | *Corrugated iron sheet patent British Patent 5,786* | 1829 | The self-supporting corrugated roofing trade (no scan verified) |
 | Stanislas Sorel | *Hot-dip zinc galvanizing patent* | 1837 | The trade name given the zinc coating (no scan verified) |
 | Joseph F. Glidden | *Barbed wire patent U.S. 157,124* | 1874 | The barbed-wire economics of the American plains (no scan verified) |
@@ -358,10 +307,10 @@ qa:
 | J. J. Thomas | [*Farm Implements and Farm Machinery*](/view.html?p=documents/books/thomas-1869-farm-implements.md) | 1869 | Agricultural machinery and mechanical principles |
 | John Scott | [*Barn Implements and Machines*](/view.html?p=documents/books/scott-1884-barn-implements.md) | 1884 | Mechanized agricultural operations |
 | Francis Home | [*The Principles of Agriculture and Vegetation*](/view.html?p=documents/books/home-1756-principles-of-agriculture-and-vegetation.md) | 1756 | The chemistry of vegetation before the agricultural chemists |
-| Arthur Young | [*Annals of Agriculture*](/view.html?p=documents/books/young-1784-annals-of-agriculture.md) | 1784–1815 | The improving agriculture’s own record |
+| Arthur Young | [*Annals of Agriculture*](/view.html?p=documents/books/young-1784-annals-of-agriculture.md) | 1784–1815 | The improving agriculture's own record |
 | A. Cochrane, Earl of Dundonald | [*A Treatise on the Connection between Agriculture and Chemistry*](/view.html?p=documents/books/cochrane-1795-treatise-agriculture-chemistry-dundonald.md) | 1795 | The agricultural-chemistry programme stated |
 | J. A. C. Chaptal | [*Chemistry Applied to Agriculture*](/view.html?p=documents/books/chaptal-1840-chemistry-applied-to-agriculture-harper.md) | 1840 (English) | The French agricultural chemistry |
-| J. A. Ransome | [*The Implements of Agriculture*](/view.html?p=documents/books/ransome-1843-implements-of-agriculture.md) | 1843 | The implement-maker’s survey of the plough and its neighbours |
+| J. A. Ransome | [*The Implements of Agriculture*](/view.html?p=documents/books/ransome-1843-implements-of-agriculture.md) | 1843 | The implement-maker's survey of the plough and its neighbours |
 | John Fowler | [*Steam-ploughing patents and specifications*](/view.html?p=documents/books/fowler-1850s-steam-ploughing-patents.md) | 1850s–60s | The cable-and-winch steam cultivation — entry in Mechanica |
 | J. A. Stöckhardt | [*Chemical Field Lectures*](/view.html?p=documents/books/stockhardt-1853-chemical-field-lectures-teschemacher.md) | 1853 | Field lectures — agricultural chemistry for farmers |
 | Arthur Young | [*A Course of Experimental Agriculture*](/view.html?p=documents/books/young-1770-course-of-experimental-agriculture.md) | 1770 | The farm run as a register of experiments |
@@ -411,7 +360,7 @@ qa:
 | James Finley | [*A Description of the Chain Bridge*](/view.html?p=documents/books/finley-1810-suspension-chain-bridge.md) | 1810 | The American suspension-bridge origin (patent description) |
 | Peter Barlow | [*A Treatise on the Strength of Materials*](/view.html?p=documents/books/barlow-1837-strength-of-materials.md) | 1837 | The strength tables between Tredgold and Rankine |
 | Eaton Hodgkinson | [*Experimental Researches on the Strength of Pillars*](/view.html?p=documents/books/hodgkinson-1840-strength-of-pillars.md) | 1840 | Pillar-strength experiments (paper) |
-| Edward Dobson | [*A Rudimentary Treatise on Foundations and Concrete Works*](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md) | 1850 | Foundations, concrete and the builder’s groundwork |
+| Edward Dobson | [*A Rudimentary Treatise on Foundations and Concrete Works*](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md) | 1850 | Foundations, concrete and the builder's groundwork |
 | Benjamin Baker | [*Long-Span Railway Bridges*](/view.html?p=documents/books/baker-1873-long-span-railway-bridges.md) | 1873 | The long-span design science (honest no-scan) |
 | J. R. Perronet | [*Description des Projets et de la Construction des Ponts*](/view.html?p=documents/books/perronet-1783-ponts-de-neuilly.md) | 1783 | The masonry bridge described by its engineer — centering, stone and cost |
 | Sir John Rennie | [*Autobiography*](/view.html?p=documents/books/rennie-1875-autobiography.md) | 1875 | London Bridge, Waterloo Bridge and the docks — the engineer's own works |
@@ -429,29 +378,7 @@ qa:
 | Edmond Halley | *The Art of Living under Water (Phil. Trans.)* | 1716 | The weighted-barrel diving bell (no scan verified) |
 | Charles A. & John Deane; Augustus Siebe | *Wet and closed diving helmet patents and papers* | 1823–37 | The standard diving dress trade of the period (no scan verified) |
 | Jacques Triger | *Mémoire sur un appareil à air comprimé pour le percement des puits* | 1841 | The pneumatic caisson and air-lock patented (no scan verified) |
-| Paul Bert | *La Pression barométrique: Recherches de physiologie expérimentale* | 1878 | The bends and staged decompression proved (no scan verified) |
-| Calvin M. Woodward | *A History of the St. Louis Bridge* | 1881 | Eads's steel arch and its deep pneumatic caissons documented (no scan verified) |
-| William S. Otis | *Steam shovel (crane-excavator) patent* | 1839 | The railway steam shovel trade (no scan verified) |
-| Alphonse Couvreux | *Excavateur à chaîne à godets (bucket-chain excavator)* | 1859 | The Suez Canal bucket-chain excavator trade (no scan verified) |
-| F. de Lesseps (Voisin Bey, ed.) | *Percement de l Isthme de Suez; Le Canal de Suez* | 1856–1902 | The engineering record of the great sea-level canal and its dredge fleet (1902 boundary) |
-| A. B. Bowers | *Hydraulic cutter-suction dredge patents* | 1885 | The hydraulic dredge machine of the American works (no scan verified) |
-| Thomas Codrington | *Report on the Destruction of Town Refuse (Fryer Destructor incinerators)* | 1888 | The refuse-furnace and waste-heat boiler trade of the local boards (no scan verified) |
-| W. Santo Crimp | *Sewage Disposal Works: A Guide to the Construction of Works for the Prevention of Pollution* | 1890 | The sewage disposal trade manual (no scan verified) |
-| Edmond Halley | *The Art of Living under Water (Phil. Trans.)* | 1716 | The weighted-barrel diving bell (no scan verified) |
-| Charles A. & John Deane; Augustus Siebe | *Wet and closed diving helmet patents and papers* | 1823–37 | The standard diving dress trade of the period (no scan verified) |
-| Jacques Triger | *Mémoire sur un appareil à air comprimé pour le percement des puits* | 1841 | The pneumatic caisson and air-lock patented (no scan verified) |
-| Paul Bert | *La Pression barométrique: Recherches de physiologie expérimentale* | 1878 | The bends and staged decompression proved (no scan verified) |
-| Calvin M. Woodward | *A History of the St. Louis Bridge* | 1881 | Eads's steel arch and its deep pneumatic caissons documented (no scan verified) |
-| William S. Otis | *Steam shovel (crane-excavator) patent* | 1839 | The railway steam shovel trade (no scan verified) |
-| Alphonse Couvreux | *Excavateur à chaîne à godets (bucket-chain excavator)* | 1859 | The Suez Canal bucket-chain excavator trade (no scan verified) |
-| F. de Lesseps (Voisin Bey, ed.) | *Percement de l Isthme de Suez; Le Canal de Suez* | 1856–1902 | The engineering record of the great sea-level canal and its dredge fleet (1902 boundary) |
-| A. B. Bowers | *Hydraulic cutter-suction dredge patents* | 1885 | The hydraulic dredge machine of the American works (no scan verified) |
-| Thomas Codrington | *Report on the Destruction of Town Refuse (Fryer Destructor incinerators)* | 1888 | The refuse-furnace and waste-heat boiler trade of the local boards (no scan verified) |
-| W. Santo Crimp | *Sewage Disposal Works: A Guide to the Construction of Works for the Prevention of Pollution* | 1890 | The sewage disposal trade manual (no scan verified) |
-| Edmond Halley | *The Art of Living under Water (Phil. Trans.)* | 1716 | The weighted-barrel diving bell (no scan verified) |
-| Charles A. & John Deane; Augustus Siebe | *Wet and closed diving helmet patents and papers* | 1823–37 | The standard diving dress trade of the period (no scan verified) |
-| Jacques Triger | *Mémoire sur un appareil à air comprimé pour le percement des puits* | 1841 | The pneumatic caisson and air-lock patented (no scan verified) |
-| Paul Bert | *La Pression barométrique: Recherches de physiologie expérimentale* | 1878 | The bends and staged decompression proved (no scan verified) |
+| Paul Bert | [*La Pression barométrique*](/view.html?p=documents/books/bert-1878-pression-barometrique.md) | 1878 | The bends and staged decompression proved — the physiology of the caisson and the diver |
 | Calvin M. Woodward | *A History of the St. Louis Bridge* | 1881 | Eads's steel arch and its deep pneumatic caissons documented (no scan verified) |
 | William S. Otis | *Steam shovel (crane-excavator) patent* | 1839 | The railway steam shovel trade (no scan verified) |
 | Alphonse Couvreux | *Excavateur à chaîne à godets (bucket-chain excavator)* | 1859 | The Suez Canal bucket-chain excavator trade (no scan verified) |
@@ -466,12 +393,13 @@ qa:
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
+| Isaac Newton | [*Philosophiae Naturalis Principia Mathematica*](/view.html?p=documents/books/newton-1687-principia-mathematica.md) | 1687 (ed. 1822) | The laws of motion and the fluid dynamics of Book II — the founding mechanics |
 | Sextus Julius Frontinus (tr. Clemens Herschel) | [*The Two Books on the Water Supply of the City of Rome*](/view.html?p=documents/books/frontinus-1899-water-supply-rome.md) | c. 97 (tr. 1899) | The Roman water service measured at its intakes — the classical waterworks administration |
 | Benedetto Castelli | *Della Misura dell'Acque Correnti* | 1628 | Stream continuity laid down — velocity and section (no scan verified) |
 | Galileo Galilei | [*Discorsi e Dimostrazioni Matematiche intorno a due Nuove Scienze*](/view.html?p=documents/books/galileo-1638-discorsi-two-new-sciences.md) | 1638 | The cantilever beam made a problem of strengths — the founding of the strength of materials |
 | Domenico Guglielmini | [*Della Natura de' Fiumi*](/view.html?p=documents/books/guglielmini-1697-natura-de-fiumi.md) | 1697 | The river as a computed regime — slope, velocity and bed |
 | Daniel Bernoulli | [*Hydrodynamica*](/view.html?p=documents/books/bernoulli-1738-hydrodynamica.md) | 1738 | Pressure, motion and efflux bound in one law — analytical hydrodynamics founded |
-| Charles-Augustin de Coulomb | *Essai sur une Application des Regles de Maximis et Minimis a quelques Problemes de Statique* | 1773 | Earth pressure and masonry friction — the founding statics of soil and arch (no scan verified) |
+| Charles-Augustin de Coulomb | [*Théorie des machines simples (with the 1773 Essai on statics)*](/view.html?p=documents/books/coulomb-1821-theorie-machines-simples.md) | 1773 (ed. 1821) | Earth pressure and masonry friction — the founding statics of soil and arch |
 | Pierre-Louis-Georges du Buat | *Principes d'Hydraulique* | 1786 | Open channel resistance and the velocity profile from experiment (no scan verified) |
 | Louis Poinsot | [*Elements de Statique*](/view.html?p=documents/books/poinsot-1803-elements-de-statique.md) | 1803 | The couple made a free element — teaching statics rebuilt |
 | Gaspard de Prony | [*Recherches Physico-Mathematiques sur la Theorie des Eaux Courantes*](/view.html?p=documents/books/prony-1804-recherches-eaux-courantes.md) | 1804 | Channel and pipe resistance given its friction law |
@@ -491,6 +419,9 @@ qa:
 | Henry Darcy & Henry Emile Bazin | [*Recherches Hydrauliques*](/view.html?p=documents/books/darcy-bazin-1865-recherches-hydrauliques.md) | 1865 | Channels and pipes given their measured coefficients |
 | Karl Culmann | [*Die Graphische Statik*](/view.html?p=documents/books/culmann-1866-graphische-statik.md) | 1866 | Graphical statics founded — structure solved by drawing |
 | Luigi Cremona | [*Le Figure Reciproche nella Statica Grafica*](/view.html?p=documents/books/cremona-1872-figure-reciproche.md) | 1872 | Reciprocal figures — graphical statics given its geometry |
+| Benvenuto Cellini | *Due Trattati (die-sinking, strike-press medal coining, niello, enamelling)* | 1568 | The founding mint-bench book of the striking and die-sinking trade (no scan verified) |
+| Jean Boizard | *Traité des Monoyes* | 1692 | The alloy assay, the laminoirs and the balancier coining press (no scan verified) |
+| Jacob Perkins | *Siderography — hardened steel plate banknote engraving by transfer rollers* | 1810–19 | The unforgeable steel banknote trade (no scan verified) |
 | Thaddeus Hyatt | *An Account of Some Experiments with Portland-Cement-Concrete, Combined with Iron* | 1877 | Reinforced concrete anticipating — iron and concrete tested together (no scan verified) |
 | Henry S. Drinker | *Tunneling, Explosive Compounds, and Rock Drills* | 1878 | Hard-rock tunnelling: Sommeiller drills, dynamite and the Great Gotthard (no scan verified) |
 | Alberto Castigliano | [*Theorie de lequilibre des Systemes Elastiques*](/view.html?p=documents/books/castigliano-1879-theorie-de-lequilibre.md) | 1879 | Strain-energy theorems — indeterminate structures computed |
@@ -500,6 +431,8 @@ qa:
 | Paul Christophe | *Le Beton Arme et ses Applications* | 1899 | Reinforced concrete gathered as a construction science (no scan verified) |
 | Evangelista Torricelli | [*Opera Geometrica*](/view.html?p=documents/books/torricelli-1644-opera-geometrica.md) | 1644 | The founding law of the orifice and the hydraulic head |
 | Edme Mariotte | [*Traité du Mouvement des Eaux; with the Strength of Timber*](/view.html?p=documents/books/mariotte-1686-mouvement-des-eaux.md) | 1686 | Experimental resistance of water and the neutral axis founded |
+| Robert Hooke | [*Lectures De Potentia Restitutiva, or of Spring*](/view.html?p=documents/books/hooke-1678-de-potentia-restitutiva.md) | 1678 | The elastic law stated — Hooke's law and the balance spring |
+| Simon Stevin | [*De Beghinselen der Weeghconst (Statics); and des Waterwichts (Hydrostatics)*](/view.html?p=documents/books/stevin-1586-beghinselen-weeghconst.md) | 1586 | Static and hydrostatic equilibrium stated in Dutch — before mechanics was a taught science |
 | Leonhard Euler | [*Methodus Inveniendi Lineas Curvas; De Curvis Elasticis*](/view.html?p=documents/books/euler-1744-methodus-inveniendi.md) | 1744 | The elastica founded and the buckling of columns derived |
 | Giovanni Battista Venturi | [*Recherches sur la Communication Laterale du Mouvement dans les Fluides*](/view.html?p=documents/books/venturi-1797-communication-laterale.md) | 1797 | The Venturi effect measured — constriction and the fall of pressure |
 | James Clerk Maxwell | [*On the Calculation of the Equilibrium and Stiffness of Frames*](/view.html?p=documents/books/maxwell-1890-scientific-papers-frames.md) | 1864 | Frame determinacy and the reciprocal diagram — the founding theory |
@@ -547,7 +480,7 @@ qa:
 | F. S. Stoney & C. Jones | [*A Text-Book on Rifled Ordnance*](/view.html?p=documents/books/stoney-1872-rifled-ordnance.md) | 1872 | Gun-making, artillery and rifling (honest no-scan) |
 | E. S. Ernst | [*A Manual of Practical Military Engineering*](/view.html?p=documents/books/ernst-1873-practical-military-engineering.md) | 1873 | Roads, road-beds and field works — the West Point manual |
 | Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
-| J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
+| J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry's arithmetic |
 | Sébastien Le Prestre de Vauban | [*Traité de l'Attaque et de la Défense des Places*](/view.html?p=documents/books/vauban-1737-attaque-defense-places.md) | 1737 | The founding method of the siege and the fortress defence |
 | U.S. Army Ordnance Department (A. Mordecai) | [*Reports of Experiments on the Properties of Metals for Cannon*](/view.html?p=documents/books/mordecai-1856-reports-metals-cannon.md) | 1856 | The metals for cannon tested — American iron and bronze at the gun scales |
 | Sir William Congreve | [*A Treatise on the Rocket System*](/view.html?p=documents/books/congreve-1827-rocket-treatise.md) | 1827 | The military rocket trade, first European system set to paper |
@@ -573,7 +506,8 @@ qa:
 | W. W. Greener | [*The Gun and Its Development*](/view.html?p=documents/books/greener-1881-gun-and-its-development.md) | 1881 | The gun trade history and trade development, set down by its own maker |
 | Charles B. Norton | [*American Inventions and Improvements in Breech-Loading Small Arms*](/view.html?p=documents/books/norton-1880-breech-loading-small-arms.md) | 1880 | The American patent catalogue of the breech-loading epoch |
 | Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System (honest no-scan; cross-listed from Mechanica) |
-| John Anderson, Capt. Warlow & Maj. Mordecai (Committee on the Machinery of the United States) | *Report of the Committee on the Machinery of the United States of America, Presented to the House of Commons* | 1855 | The British Enfield Commission that inspected Springfield, Colt and Robbins & Lawrence (no scan verified) || William Greener | *The Gun; or, A Treatise on the Various Descriptions of Small Fire-Arms* | 1835 | The father Greener gun trade treatise (no scan verified) |
+| John Anderson, Capt. Warlow & Maj. Mordecai (Committee on the Machinery of the United States) | *Report of the Committee on the Machinery of the United States of America, Presented to the House of Commons* | 1855 | The British Enfield Commission that inspected Springfield, Colt and Robbins & Lawrence (no scan verified) |
+| William Greener | *The Gun; or, A Treatise on the Various Descriptions of Small Fire-Arms* | 1835 | The father Greener gun trade treatise (no scan verified) |
 | Henri-Gustave Delvigne & Claude-Étienne Minié | *Rifled-carabine and expanding-bullet papers and patents* | 1836–49 | The French rifled barrel and the expanding bullet (no scan verified) |
 | C. M. Wilcox | *Rifles and Rifle Practice* | 1859 | The rifle as a technical and military instrument (no scan verified) |
 | U.S. War Department (Carrington, Talcott, Baker, eds.) | *Report of the Board of Officers on Major Hall's Works at Harper's Ferry* | 1827 | Interchangeability proved by disassembling 100 Hall rifles (no scan verified) |
@@ -612,8 +546,8 @@ qa:
 | Alfred Niaudet | [*Elementary Treatise on Electric Batteries*](/view.html?p=documents/books/niaudet-1880-electric-batteries.md) | 1880 | Battery construction: primary and secondary cells (Bottone's 1902 boundary row carried inside) |
 | Henry M. Noad | [*The Student's Text-Book of Electricity*](/view.html?p=documents/books/noad-1867-students-text-book-of-electricity.md) | 1867 | Electricity for the telegraph trade's students |
 | Benjamin Franklin | [*Experiments and Observations on Electricity*](/view.html?p=documents/books/franklin-1751-experiments-electricity.md) | 1751 | The electrical founding manual |
-| Edward Nairne | [*Directions for Using the Electrical Machine*](/view.html?p=documents/books/nairne-1764-directions-electrical-machine-made-sold.md) | 1764 | The instrument-maker’s directions — electricity as apparatus |
-| Luigi Galvani | [*De Viribus Electricitatis in Motu Musculari*](/view.html?p=documents/books/galvani-1792-de-viribus.md) | 1792 | The muscle electricity’s founding commentary |
+| Edward Nairne | [*Directions for Using the Electrical Machine*](/view.html?p=documents/books/nairne-1764-directions-electrical-machine-made-sold.md) | 1764 | The instrument-maker's directions — electricity as apparatus |
+| Luigi Galvani | [*De Viribus Electricitatis in Motu Musculari*](/view.html?p=documents/books/galvani-1792-de-viribus.md) | 1792 | The muscle electricity's founding commentary |
 | A.-M. Ampère | [*Théorie des Phénomènes Électro-Dynamiques*](/view.html?p=documents/books/ampere-1826-theorie-des-phenomenes-electro-dynamiques.md) | 1826 | Electrodynamics systematized |
 | Alfred Smee | [*Elements of Electro-Metallurgy*](/view.html?p=documents/books/smee-1843-elements-electro-metallurgy.md) | 1843 | The founding deposition manual |
 | James Clerk Maxwell | [*A Treatise on Electricity and Magnetism*](/view.html?p=documents/books/maxwell-1873-treatise-electricity-magnetism.md) | 1873 | The theoretical frame the engineering assumed |
@@ -651,6 +585,8 @@ qa:
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | William Whewell | [*An Elementary Treatise on Mechanics*](/view.html?p=documents/books/whewell-1819-elementary-treatise-mechanics.md) | 1819 | Mechanical measurement and physical methods |
+| Isaac Newton | [*Opticks; or, a Treatise of the Reflexions, Refractions, Inflexions and Colours of Light*](/view.html?p=documents/books/newton-1704-opticks.md) | 1704 (ed. 1730) | The spectrum, the reflecting telescope and the theory of colour |
+| Ibn al-Haytham (Alhazen) | [*Opticae Thesaurus: Alhazeni Arabis Libri Septem (Risner ed.)*](/view.html?p=documents/books/haytham-1572-opticae-thesaurus.md) | c. 1027 (ed. 1572) | Experimental optics and the camera obscura — the founding book of the European optical trade |
 | David Brewster | [*A Treatise on Optics*](/view.html?p=documents/books/brewster-1831-treatise-on-optics.md) | 1831 | Optical instrumentation |
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Production measurement and organization |
 | Thomas D. Lockwood | [*Electricity, Magnetism, and Electric Telegraphy*](/view.html?p=documents/books/lockwood-1883-electricity-magnetism-electric-telegraphy.md) | 1883 | Electrical measuring and apparatus |
@@ -672,15 +608,19 @@ qa:
 | David Brewster | [*A Treatise on the Microscope*](/view.html?p=documents/books/brewster-1837-treatise-on-the-microscope.md) | 1837 | The practical microscope manual (1837 article-form) |
 | W. F. Stanley | [*A Descriptive Treatise on Mathematical Drawing Instruments*](/view.html?p=documents/books/stanley-1868-mathematical-drawing-instruments.md) | 1868 | The maker-side instrument manual |
 | Arnold & Sons | [*A Catalogue of Surgical Instruments*](/view.html?p=documents/books/arnold-1880-catalogue-surgical-instruments.md) | 1880 | The surgeon's apparatus — the trade catalogue |
-| Christiaan Huygens | [*Horologium Oscillatorium*](/view.html?p=documents/books/huygens-1673-horologium-oscillatorium-sive-motu-pendulorum.md) | 1673 | The pendulum clock’s mathematical foundation |
-| L. S. Beale | [*How to Work with the Microscope*](/view.html?p=documents/books/beale-1857-how-to-work-with-the-microscope.md) | 1857 | The microscopist’s bench instruction |
-| E. B. Benjamin | [*American Hand-Book of Chemical and Physical Apparatus*](/view.html?p=documents/books/benjamin-1872-american-handbook-chemical-physical-apparatus.md) | 1872 | The apparatus-maker’s catalogue |
-| C. E. Fritts | [*The Watch Adjuster’s Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker’s precision work |
+| Christiaan Huygens | [*Horologium Oscillatorium*](/view.html?p=documents/books/huygens-1673-horologium-oscillatorium-sive-motu-pendulorum.md) | 1673 | The pendulum clock's mathematical foundation |
+| L. S. Beale | [*How to Work with the Microscope*](/view.html?p=documents/books/beale-1857-how-to-work-with-the-microscope.md) | 1857 | The microscopist's bench instruction |
+| E. B. Benjamin | [*American Hand-Book of Chemical and Physical Apparatus*](/view.html?p=documents/books/benjamin-1872-american-handbook-chemical-physical-apparatus.md) | 1872 | The apparatus-maker's catalogue |
+| C. E. Fritts | [*The Watch Adjuster's Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker's precision work |
 | Robert Hooke | [*Micrographia*](/view.html?p=documents/books/hooke-1665-micrographia.md) | 1665 | The microscope turned on the small world — the founding instrument book |
 | William Molyneux | [*Dioptrica Nova*](/view.html?p=documents/books/molyneux-1692-dioptrica-nova.md) | 1692 | Telescope and microscope optics for the instrument maker |
 | W. J. 's Gravesande | [*Physices Elementa Mathematica*](/view.html?p=documents/books/gravesande-1720-physices-elementa-mathematica.md) | 1720 | The experimental philosophy taught with the apparatus |
 | John Dollond & Jesse Ramsden | [*Optical and dividing-engine patents and papers*](/view.html?p=documents/books/dollond-ramsden-1750s-optical-patents.md) | 1750s–90s | The achromatic lens and the dividing engine |
 | Henry Kater & Edward Sabine | [*Pendulum and gravity papers*](/view.html?p=documents/books/kater-sabine-1810s-pendulum-papers.md) | 1810s–20s | Gravity measured by the seconds pendulum |
+| Pierre Bouguer | *Traité d optique sur la Gradation de la Lumière (photometry of candlepower)* | 1729 | The founding of photometry and illuminance law (no scan verified) |
+| Johann Heinrich Lambert | *Photometria (photometry laws, greased-spot photometer)* | 1760 | The founding scientific photometry book (no scan verified) |
+| Robert W. Bunsen & Henry E. Roscoe | *Photochemical Researches: the grease-spot photometer and actinometry* | 1855–59 | The calibrated light intensity measurement trade begun (no scan verified) |
+| Otto Lummer & Eugen Brodhun | *The Lummer–Brodhun contrast photometer* | 1889 | The standard photometric apparatus of the electric and gas lighting trade (no scan verified) |
 | Charles Wheatstone | [*The Scientific Papers*](/view.html?p=documents/books/wheatstone-1879-scientific-papers.md) | 1879 | The bridge, the rheostat and the telegraph instruments |
 | Holtz, Toepler & Wimshurst | [*Influence-machine papers*](/view.html?p=documents/books/wimshurst-holtz-1860s-influence-machines.md) | 1860s–80s | The electrostatic generator made reliable |
 | William Crookes | [*Radiometer and vacuum papers*](/view.html?p=documents/books/crookes-1870s-radiometer-papers.md) | 1870s | The light-mill and the discharge tube |
@@ -826,6 +766,11 @@ qa:
 | Michel-Eugène Chevreul | [*Recherches Chimiques sur les Corps Gras d'Origine Animale*](/view.html?p=documents/books/chevreul-1823-corps-gras.md) | 1823 | The chemical decomposition of fats — the founding of stearin and soap |
 | Campbell Morfit | [*A Treatise on Chemistry Applied to the Manufacture of Soap and Candles*](/view.html?p=documents/books/morfit-1847-chemistry-soap-candles.md) | 1847 | The chemistry and manufacture set as trade books |
 | C. R. Alder Wright | [*Animal and Vegetable Fixed Oils, Fats, Butters, and Waxes*](/view.html?p=documents/books/alder-wright-1894-oils-fats-waxes.md) | 1894 | The industrial chemistry of the oil and fat trades |
+| Humphry Davy | *On Some New Phenomena of Chemical Changes Produced by Electricity (Phil. Trans.)* | 1807–08 | The electrolytic isolation of potassium, sodium, magnesium and barium (no scan verified) |
+| Camille A. Faure; Waldemar Jungner; Thomas A. Edison | *Pasted-plate lead-acid (1881); nickel cadmium and nickel-iron alkaline (1899) storage battery patents* | 1881 / 1899 | The founding storage battery trade (no scan verified) |
+| H. Y. Castner & C. Kellner | *Castner–Kellner rocking mercury-cell chlor-alkali patents* | 1886–94 | Industrial caustic soda and chlorine by electrolysis (no scan verified) |
+| Edward Goodrich Acheson | *Carborundum (silicon carbide) and electrothermal artificial graphite patents (Niagara)* | 1891–96 | The electric-furnace abrasive and graphite trade (no scan verified) |
+| Thomas L. Willson | *Calcium carbide and industrial acetylene electric-arc furnace patent* | 1892 | Acetylene lighting and welding trade begun (no scan verified) |
 | Henri-Louis Duhamel du Monceau | *Art du Chandelier; and Art du Cirier* | 1762–64 | The tallow and wax candle trades in the Arts et Métiers tradition (no scan verified) |
 | George Fergusson Wilson (Price's Patent Candle Co.) | *On the Stearic Candle Manufacture* | 1852 | The steam-distilled stearine candle industry at the works (no scan verified) |
 | R. S. Cristiani | *A Technical Treatise on Soap and Candles* | 1881 | The American soap-and-candle trade treatise (no scan verified) |
@@ -874,11 +819,11 @@ qa:
 | Eyre Massey Shaw | [*Fire Protection*](/view.html?p=documents/books/shaw-1876-fire-protection.md) | 1876 | The fire-brigade organization of London |
 | Roper & Stellwagen | [*Hand-Book of Modern Steam Fire-Engines*](/view.html?p=documents/books/roper-1889-steam-fire-engines.md) | 1889 | Steam fire-engines, pumps and fire-alarm telegraphy |
 | Joseph Marryat | [*A History of Pottery and Porcelain*](/view.html?p=documents/books/marryat-1850-history-of-pottery.md) | 1850 | The ceramics history beside Porter |
-| G. W. S. Piesse | [*The Art of Perfumery*](/view.html?p=documents/books/piesse-1857-art-of-perfumery.md) | 1857 | Essential oils, perfumery and the distiller’s by-trades |
+| G. W. S. Piesse | [*The Art of Perfumery*](/view.html?p=documents/books/piesse-1857-art-of-perfumery.md) | 1857 | Essential oils, perfumery and the distiller's by-trades |
 | J. R. D. Riffault | [*A Practical Treatise on the Manufacture of Colors for Painting*](/view.html?p=documents/books/riffault-1874-manufacture-of-colors.md) | 1874 | Pigment manufacture |
-| W. N. Fitz-Gerald | [*The Harness Makers’ Illustrated Manual*](/view.html?p=documents/books/fitzgerald-1875-harness-makers-manual.md) | 1875 | Harness making and the leather trades |
-| J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade’s own manual |
-| G. H. Hurst | [*Painters’ Colours, Oils, and Varnishes*](/view.html?p=documents/books/hurst-1892-painters-colours.md) | 1892 | The paint-maker’s chemistry |
+| W. N. Fitz-Gerald | [*The Harness Makers' Illustrated Manual*](/view.html?p=documents/books/fitzgerald-1875-harness-makers-manual.md) | 1875 | Harness making and the leather trades |
+| J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade's own manual |
+| G. H. Hurst | [*Painters' Colours, Oils, and Varnishes*](/view.html?p=documents/books/hurst-1892-painters-colours.md) | 1892 | The paint-maker's chemistry |
 | S. Lehner | [*The Manufacture of Ink*](/view.html?p=documents/books/lehner-1892-manufacture-of-ink.md) | 1892 | Writing and printing inks |
 | Johann Beckmann | [*Beyträge zur Geschichte der Erfindungen*](/view.html?p=documents/books/beckmann-1792-beytrage-geschichte-erfindungen.md) | 1780–1805 | The history of inventions made a subject |
 | R.-A. F. de Réaumur | [*L'Art de Convertir le Fer Forgé en Acier*](/view.html?p=documents/books/reaumur-1722-art-de-convertir-fer-en-acier.md) | 1722 | Steelmaking described from the furnace — the founding ferrous study |
@@ -899,8 +844,8 @@ qa:
 | Cipriano Piccolpasso | [*I Tre Libri dell'Arte del Vasajo*](/view.html?p=documents/books/piccolpasso-1557-arte-del-vasajo.md) | c. 1557 | The majolica potteries illustrated — the earliest pottery manual |
 | John Wesley Hyatt & Isaiah S. Hyatt | *Celluloid patents* | 1869–70 | The first man-made plastic material (no scan verified) |
 | Jan van der Heyden | *Beschryving der nieuwlijks uitgevonden Slang-Brand-Spuiten (fire-hose and air-chamber fire engine)* | 1690 | The leather fire-hose of the Dutch waterworks (no scan verified) |
-| Bernardino Ramazzini | *De Morbis Artificum Diatriba (Diseases of Workers)* | 1700 | The occupational diseases of 52 trades and their protective practices (no scan verified) |
-| Charles Turner Thackrah | *The Effects of the Principal Arts, Trades and Professions on Health and Longevity* | 1831–32 | The industrial hygiene of Leeds factory labour (no scan verified) |
+| Bernardino Ramazzini | [*De Morbis Artificum Diatriba (Diseases of Workers)*](/view.html?p=documents/books/ramazzini-1700-de-morbis-artificum.md) | 1700 | The occupational diseases of 52 trades and their protective practices |
+| Charles Turner Thackrah | [*The Effects of the Principal Arts, Trades and Professions on Health and Longevity*](/view.html?p=documents/books/thackrah-1831-effects-arts-trades.md) | 1831 | The industrial hygiene of Leeds factory labour |
 | William Carpmael; Thomas Webster | *The Law of Patents for Inventions; Reports and Notes of Cases on Letters Patent* | 1832 / 1844 | The patent trade in its legal machinery and the report of the trade trials (no scan verified) |
 | Charles Babbage | *The Exposition of 1851; or, Views of the Industry, the Science and the Government of England* | 1851 | The great exhibition argued as the scientific industrial education (no scan verified) |
 | J. Scott Russell | *Systematic Technical Education for the English People* | 1869 | The systematic technical education of the engineering trades (no scan verified) |
@@ -956,7 +901,7 @@ qa:
 | Cipriano Piccolpasso | [*I Tre Libri dell'Arte del Vasajo*](/view.html?p=documents/books/piccolpasso-1557-arte-del-vasajo.md) | c. 1557 (ed. 1857) | The majolica potteries illustrated — the earliest pottery manual (cross-listed from Manufactura) |
 | Edward Dobson | [*Bricks and Tiles*](/view.html?p=documents/books/dobson-1850-bricks-and-tiles.md) | 1850 | The brick and tile kiln cross-listed from Manufactura |
 | Joseph Marryat | [*A History of Pottery and Porcelain*](/view.html?p=documents/books/marryat-1850-history-of-pottery.md) | 1850 | The ceramics history beside Porter (cross-listed from Manufactura) |
-| Alexandre Brongniart | *Traité des arts céramiques, ou des poteries considérées dans leur histoire, pratique et théorie* | 1844 | The Sèvres director's treatise — the master ceramics book (no scan verified) |
+| Alexandre Brongniart | [*Traité des arts céramiques, ou des poteries*](/view.html?p=documents/books/brongniart-1844-arts-ceramiques.md) | 1844 | The Sèvres director's treatise — the master ceramics book of the century |
 | F. X. d'Entrecolles (in Du Halde) | *Lettres sur la manufacture de la porcelaine de Chine, in the Description de la Chine* | 1712–22 (ed. 1735) | The Jingdezhen kaolin-petuntse technical letters reported to Europe (no scan verified) |
 | Hermann A. Seger | *The Collected Writings of Hermann August Seger* | 1896 (tr. 1902) | The Seger cone, glaze molecular formulas and scientific kiln control (1902 boundary trans. scanned) |
 | Émile Bourry | *Traité des industries céramiques* | 1897 | Ceramic industries treated as engineering (tr. Rix, 1901) (no scan verified) |
@@ -985,18 +930,12 @@ qa:
 | E. A. Parnell | [*Applied Chemistry — Dyeing and Calico Printing*](/view.html?p=documents/books/parnell-1844-dyeing-and-calico-printing.md) | 1844 | Applied chemistry in textile finishing and printing |
 | Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
 | George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
-| J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
+| J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill's preparation |
 | Emanuel A. Posselt | [*The Jacquard Machine Analyzed and Explained*](/view.html?p=documents/books/posselt-1887-jacquard-machine-analyzed.md) | 1887 | The punched-card loom explained plate by plate |
 | John Kay | *The flying shuttle patent* | 1733 | The shuttle thrown by the loom frame itself (no scan verified) |
 | Edmund Cartwright | *The power-loom patents* | 1785–87 | Weaving applied to the mill (no scan verified) |
 | Eli Whitney | *The cotton-gin patent* | 1794 | The cotton seed comb separated (no scan verified) |
 | Richard Roberts | *The self-acting spinning mule patents* | 1825 / 1830 | The mule spinning itself at the mill (no scan verified) |
-| Peter Sharp | *Flax, Tow and Jute Spinning* | 1882/83 | The fibre-spinning manual of the linen trade (no scan verified) |
-| Roberts Beaumont | *Woollen and Worsted Cloth Manufacture in Being* | 1888 | The wool cloth manufacture manual (no scan verified) |
-| John James | [*History of the Worsted Manufacture in England*](/view.html?p=documents/books/james-1857-history-worsted-manufacture.md) | 1857 | The worsted trade traced through its mills and districts |
-| Walter S. B. McLaren | [*Spinning Woollen and Worsted*](/view.html?p=documents/books/mclaren-1884-spinning-woollen-worsted.md) | 1884 | The wool-spinning trade at the mill |
-| Alex J. Warden | [*The Linen Trade, Ancient and Modern*](/view.html?p=documents/books/warden-1864-linen-trade.md) | 1864 | The flax and linen trades, ancient to Irish manufacture |
-| George Richardson Porter | [*A Treatise on the Silk Manufacture*](/view.html?p=documents/books/porter-1831-silk-manufacture.md) | 1831 | The silk trade from filature to the loom — the systematic trade history |
 | Peter Sharp | *Flax, Tow and Jute Spinning* | 1882/83 | The fibre-spinning manual of the linen trade (no scan verified) |
 | Roberts Beaumont | *Woollen and Worsted Cloth Manufacture in Being* | 1888 | The wool cloth manufacture manual (no scan verified) |
 | John James | [*History of the Worsted Manufacture in England*](/view.html?p=documents/books/james-1857-history-worsted-manufacture.md) | 1857 | The worsted trade traced through its mills and districts |
@@ -1022,20 +961,6 @@ qa:
 | Friedrich Koenig & Andreas Bauer | *Steam-powered cylinder printing press patents* | 1810–14 | The press driven by steam — the newspaper era begun (no scan verified) |
 | Richard March Hoe | *Rotary printing press patents* | 1847 | The type-revolving cylinder press (no scan verified) |
 | Ottmar Mergenthaler | *Linotype patents and manuals* | 1884–90 | Hot-metal typesetting by the keyboard (no scan verified) |
-| Abraham Bosse | *Traicté des manières de graver en taille-douce sur l'airain* | 1645 | The founding etching and burin manual of the copperplate trade (no scan verified) |
-| John Evelyn | *Sculptura; or, the History and Art of Chalcography and Engraving in Copper* | 1662 | The first printed mezzotint optical trade (no scan verified) |
-| Jean-Michel Papillon | *Traité historique et pratique de la gravure en bois* | 1766 | The wood-engraving trade documented (no scan verified) |
-| W. A. Chatto & John Jackson | *A Treatise on Wood Engraving, Historical and Practical* | 1839 | The Bewick end-grain wood engraving — the cut medium of every 19th-century plate (no scan verified) |
-| William Ged; A.-G. Camus | *Stereotyping (block-printing from plaster moulds)* | 1781 / 1801 | The stereo-plate printing begun by Ged and Camus for the press era (no scan verified) |
-| Louis Braille | *Procédé pour écrire les paroles, la musique et le plain-chant au moyen de points* | 1829/37 | The six-dot tactile code of the pressed-point book trade (no scan verified) |
-| René Dagron | *La Poste par pigeons voyageurs; Traité de photographie microscopique* | 1864/71 | Microfilm and the pigeon-post photographs of the Siege of Paris (no scan verified) |
-| Abraham Bosse | *Traicté des manières de graver en taille-douce sur l'airain* | 1645 | The founding etching and burin manual of the copperplate trade (no scan verified) |
-| John Evelyn | *Sculptura; or, the History and Art of Chalcography and Engraving in Copper* | 1662 | The first printed mezzotint optical trade (no scan verified) |
-| Jean-Michel Papillon | *Traité historique et pratique de la gravure en bois* | 1766 | The wood-engraving trade documented (no scan verified) |
-| W. A. Chatto & John Jackson | *A Treatise on Wood Engraving, Historical and Practical* | 1839 | The Bewick end-grain wood engraving — the cut medium of every 19th-century plate (no scan verified) |
-| William Ged; A.-G. Camus | *Stereotyping (block-printing from plaster moulds)* | 1781 / 1801 | The stereo-plate printing begun by Ged and Camus for the press era (no scan verified) |
-| Louis Braille | *Procédé pour écrire les paroles, la musique et le plain-chant au moyen de points* | 1829/37 | The six-dot tactile code of the pressed-point book trade (no scan verified) |
-| René Dagron | *La Poste par pigeons voyageurs; Traité de photographie microscopique* | 1864/71 | Microfilm and the pigeon-post photographs of the Siege of Paris (no scan verified) |
 | Abraham Bosse | *Traicté des manières de graver en taille-douce sur l'airain* | 1645 | The founding etching and burin manual of the copperplate trade (no scan verified) |
 | John Evelyn | *Sculptura; or, the History and Art of Chalcography and Engraving in Copper* | 1662 | The first printed mezzotint optical trade (no scan verified) |
 | Jean-Michel Papillon | *Traité historique et pratique de la gravure en bois* | 1766 | The wood-engraving trade documented (no scan verified) |
@@ -1095,7 +1020,7 @@ qa:
 | Henry Robinson | [*Hydraulic Power and Hydraulic Machinery*](/view.html?p=documents/books/robinson-1887-hydraulic-power.md) | 1887 | Transmitted water power — the accumulator-station plant manual |
 | Hermann von Helmholtz | [*Über die Erhaltung der Kraft*](/view.html?p=documents/books/helmholtz-1847-uber-die-erhaltung-der-kraft.md) | 1847 | The conservation of force — the energy principle |
 | William Thomson & P. G. Tait | [*Treatise on Natural Philosophy*](/view.html?p=documents/books/kelvin-1867-treatise-natural-philosophy-vol-claredon.md) | 1867 | The energy doctrine taught as natural philosophy |
-| R. H. Thurston | [*A History of the Growth of the Steam-Engine*](/view.html?p=documents/books/thurston-1878-history-growth-steam-engine-vol.md) | 1878 | The engine’s history by its own engineer-historian |
+| R. H. Thurston | [*A History of the Growth of the Steam-Engine*](/view.html?p=documents/books/thurston-1878-history-growth-steam-engine-vol.md) | 1878 | The engine's history by its own engineer-historian |
 | Rudolf Clausius | [*The Mechanical Theory of Heat*](/view.html?p=documents/books/clausius-1879-mechanical-theory-heat-macmillan.md) | 1879 (English) | The mechanical theory in its systematic form |
 | Denis Papin | [*A New Digester, with the Continuation*](/view.html?p=documents/books/papin-1681-new-digester.md) | 1681–87 | The pressure vessel — the boiler's and the engine's ancestor |
 | James Watt | [*Steam-engine patents and specifications*](/view.html?p=documents/books/watt-1769-steam-engine-patents.md) | 1769– | The separate condenser and the rotative engine |
@@ -1153,6 +1078,8 @@ qa:
 | Anonymous | [*The Cow: A Guide to Dairy-Management and Cattle-Rearing*](/view.html?p=documents/books/cow-1880-the-cow-dairy-management.md) | c. 1880 | Dairy production and milk processing |
 | Michael Combrune | [*The Theory and Practice of Brewing*](/view.html?p=documents/books/combrune-1762-theory-and-practice-of-brewing.md) | 1762 | Brewing processes |
 | Alexander Morrice | [*A Treatise on Brewing*](/view.html?p=documents/books/morrice-1802-treatise-on-brewing.md) | 1802 | Brewing processes and equipment |
+| John Snow | [*On the Mode of Communication of Cholera*](/view.html?p=documents/books/snow-1849-mode-communication-cholera.md) | 1849 (2nd ed. 1855) | Waterborne disease transmission argued from the outbreak data — the mandate of sanitary engineering |
+| Louis Pasteur | [*Études sur le Vin*](/view.html?p=documents/books/pasteur-1873-etudes-sur-le-vin.md) | 1866 (scan: 1873 ed.) | Pasteurization of the wine trade — the heat treatment of the vintage |
 | Louis Pasteur | [*Études sur la Bière*](/view.html?p=documents/books/pasteur-1876-etudes-sur-la-biere.md) | 1876 | Fermentation and brewing science |
 | Henry Stopes | [*Malt and Malting*](/view.html?p=documents/books/stopes-1885-malt-and-malting.md) | 1885 | Industrial malting |
 | Francisco Balaguer y Primo | [*Fabricación de Vinagres*](/view.html?p=documents/books/balaguer-1878-fabricacion-de-vinagres.md) | 1878 | Vinegar, alcohol and industrial fermentation |
@@ -1173,8 +1100,8 @@ qa:
 | J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
 | Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
-| Samuel McHarry | [*The Practical Distiller*](/view.html?p=documents/books/mcharry-1809-practical-distiller.md) | 1809 | The American distiller’s own manual |
-| P. Duplais | [*A Treatise on the Manufacture and Distillation of Alcoholic Liquors*](/view.html?p=documents/books/duplais-1871-alcoholic-liquors.md) | 1871 | The French distiller’s treatise |
+| Samuel McHarry | [*The Practical Distiller*](/view.html?p=documents/books/mcharry-1809-practical-distiller.md) | 1809 | The American distiller's own manual |
+| P. Duplais | [*A Treatise on the Manufacture and Distillation of Alcoholic Liquors*](/view.html?p=documents/books/duplais-1871-alcoholic-liquors.md) | 1871 | The French distiller's treatise |
 | Friedrich Accum | [*Culinary Chemistry*](/view.html?p=documents/books/accum-1821-culinary-chemistry.md) | 1821 | Cookery explained by its chemical principles |
 | Maria Rundell | [*A New System of Domestic Cookery*](/view.html?p=documents/books/rundell-1806-new-system-domestic-cookery.md) | 1806 | The domestic kitchen organized by economy and method |
 | M.-A. Carême | [*Le Cuisinier Parisien*](/view.html?p=documents/books/careme-1828-cuisinier-parisien.md) | 1828 | The grande cuisine systematized |
@@ -1187,6 +1114,12 @@ qa:
 | Edward Money | [*The Cultivation and Manufacture of Tea*](/view.html?p=documents/books/money-1878-cultivation-manufacture-tea.md) | 1878 | Tea grown and manufactured in the field |
 | Arthur Hill Hassall | [*Food and Its Adulterations*](/view.html?p=documents/books/hassall-1855-food-and-its-adulterations.md) | 1855 | The microscope turned on the shop — food analysis as regulation |
 | Justus von Liebig | [*Extract of Meat*](/view.html?p=documents/books/liebig-1872-extract-of-meat.md) | 1872 | A preserved food argued from chemistry — the industrial extract |
+| Henri-Louis Duhamel du Monceau | *Traité général des Pesches, et Histoire des Poissons qu'elles fournissent* | 1769–82 | Nets, trawls, longlines, harpoons, and the drying/curing of the fish trades (no scan verified) |
+| Thomas Beale | *The Natural History of the Sperm Whale* | 1839 | Sperm oil — the lubricant of fine machinery and the photometric standard (no scan verified) |
+| J.-J. Coste | *Instructions pratiques sur la pisciculture* | 1853 | Artificial fertilization and fish-hatching (no scan verified) |
+| Alexander Starbuck | *History of the American Whale Fishery* | 1878 | The oil economy of the American whale trade (no scan verified) |
+| George Brown Goode | [*The Fisheries and Fishery Industries of the United States*](/view.html?p=documents/books/goode-1884-fisheries-industries.md) | 1884–87 | The U.S. Fish Commission survey of vessels, apparatus and curing |
+| Gustavus Swift & Andrew Chase | *Refrigerated railway boxcar (reefer) patents and packinghouse disassembly line* | 1878 | The refrigerated rail meat trade (no scan verified) |
 | C. R. C. Tichborne | [*The Mineral Waters of Europe*](/view.html?p=documents/books/tichborne-1883-mineral-waters-europe.md) | 1883 | Springs surveyed and artificial waters made to match |
 | Robert Whymper | [*Cocoa and Chocolate: Their Chemistry and Manufacture*](/view.html?p=documents/books/whymper-1912-cocoa-and-chocolate.md) | 1912 (boundary) | The confectionery commodity written up from the works |
 | H. Mège-Mouriès | [*Margarine patents*](/view.html?p=documents/books/mege-mouries-1869-margarine-patent.md) | 1869– | The butter substitute designed from fat chemistry |
@@ -1196,30 +1129,6 @@ qa:
 | Norbert Rillieux | *Multiple-effect vacuum sugar evaporator patent* | 1846 | The sugar-evaporation vacuum cycle (no scan verified) |
 | Gail Borden Jr. | *Condensed-milk process patent* | 1856 | The condensation treatment of milk (no scan verified) |
 | Peter Durand | *Tinned food patent (tin can patent)* | 1810 | The canned food trade begun by the patent (no scan verified) |
-| John Landis Mason | *Screw-neck glass jar U.S. Patent 22,186* | 1858 | The Mason jar of home food preservation (no scan verified) |
-| William Lyman | *Rotary-wheel can opener U.S. Patent 105,346* | 1870 | The can opener trade (no scan verified) |
-| Hiram Codd | *Globe-stopper aerated-water bottle patent* | 1872 | The aerated-water bottle trade (no scan verified) |
-| Max Ams & Charles M. Ams | *Double-seamed sanitary open-top tin can patents* | 1888–97 | The sanitation-safe canned food trade (no scan verified) |
-| William Painter | *Crown cork bottle cap U.S. Patent 468,258* | 1892 | The crimped-crown cap of the bottled beverage trade (no scan verified) |
-| Michael J. Owens | *Automatic bottle-blowing machine patents* | 1895–1903 | The automated glass bottle trade (1903 boundary) |
-| Olivier de Serres | *Le Théâtre d'Agriculture et Mesnage des Champs* | 1600 | The agricultural theatre with viticulture and sericulture trade (no scan verified) |
-| John Worlidge | *Vinetum Britannicum; or a Treatise of Cider* | 1676 | The cider trade manual of English country work (no scan verified) |
-| William Brownrigg; K. C. Langsdorf | *The Art of Making Common Salt; Salzwerkskunde (graduation towers)* | 1748 / 1784–96 | The salt boiling and brine graduation towers trade (no scan verified) |
-| Jean-Antoine Chaptal; André Jullien | *L'Art de faire les vins; Manuel du Sommelier* | 1801/13 | The winemaking chemistry and the champagne trade begun (no scan verified) |
-| J. L. W. Thudichum & A. Dupré | *A Treatise on the Origin, Nature and Varieties of Wine (Viticulture and Oenology)* | 1872 | The official wine-trade manual of the British alcohol trade (no scan verified) |
-| Gustavus Swift & Andrew Chase | *Refrigerated railway boxcar and packinghouse disassembly patents* | 1878 | The refrigerated rail meat trade begun (no scan verified) |
-| John Landis Mason | *Screw-neck glass jar U.S. Patent 22,186* | 1858 | The Mason jar of home food preservation (no scan verified) |
-| William Lyman | *Rotary-wheel can opener U.S. Patent 105,346* | 1870 | The can opener trade (no scan verified) |
-| Hiram Codd | *Globe-stopper aerated-water bottle patent* | 1872 | The aerated-water bottle trade (no scan verified) |
-| Max Ams & Charles M. Ams | *Double-seamed sanitary open-top tin can patents* | 1888–97 | The sanitation-safe canned food trade (no scan verified) |
-| William Painter | *Crown cork bottle cap U.S. Patent 468,258* | 1892 | The crimped-crown cap of the bottled beverage trade (no scan verified) |
-| Michael J. Owens | *Automatic bottle-blowing machine patents* | 1895–1903 | The automated glass bottle trade (1903 boundary) |
-| Olivier de Serres | *Le Théâtre d'Agriculture et Mesnage des Champs* | 1600 | The agricultural theatre with viticulture and sericulture trade (no scan verified) |
-| John Worlidge | *Vinetum Britannicum; or a Treatise of Cider* | 1676 | The cider trade manual of English country work (no scan verified) |
-| William Brownrigg; K. C. Langsdorf | *The Art of Making Common Salt; Salzwerkskunde (graduation towers)* | 1748 / 1784–96 | The salt boiling and brine graduation towers trade (no scan verified) |
-| Jean-Antoine Chaptal; André Jullien | *L'Art de faire les vins; Manuel du Sommelier* | 1801/13 | The winemaking chemistry and the champagne trade begun (no scan verified) |
-| J. L. W. Thudichum & A. Dupré | *A Treatise on the Origin, Nature and Varieties of Wine (Viticulture and Oenology)* | 1872 | The official wine-trade manual of the British alcohol trade (no scan verified) |
-| Gustavus Swift & Andrew Chase | *Refrigerated railway boxcar and packinghouse disassembly patents* | 1878 | The refrigerated rail meat trade begun (no scan verified) |
 | John Landis Mason | *Screw-neck glass jar U.S. Patent 22,186* | 1858 | The Mason jar of home food preservation (no scan verified) |
 | William Lyman | *Rotary-wheel can opener U.S. Patent 105,346* | 1870 | The can opener trade (no scan verified) |
 | Hiram Codd | *Globe-stopper aerated-water bottle patent* | 1872 | The aerated-water bottle trade (no scan verified) |
@@ -1344,7 +1253,7 @@ qa:
 | F. Garnier; L.-G. Mulot; K. G. Kind | *Traité sur les puits artésiens; the Grenelle deep artesian well boring* | 1822–41 | The deep artesian well boring trade in Europe (no scan verified) |
 | Jean-Rodolphe Leschot | *Rotary annular diamond core drill patents* | 1862–63 | The diamond-core drilling trade begun (no scan verified) |
 | Edwin L. Drake | *Cable-tool oil-well rig and drive-pipe trade (Titusville)* | 1859 | The first oil well derrick and cable-tool system (no scan verified) |
-| John Franklin Carll | *The Geology of the Oil Regions with Descriptions of Oil Well Rig and Tools* | 1880 | The oil-well engineering manual with derrick plates (no scan verified) |
+| John Franklin Carll | [*The Geology of the Oil Regions... with Descriptions of Oil Well Rig and Tools*](/view.html?p=documents/books/carll-1880-geology-oil-regions.md) | 1880 | The oil-well engineering manual with derrick plates |
 
 ## Ars Architectura
 
@@ -1398,7 +1307,7 @@ qa:
 | J. Wolfe Barry | [*Railway Appliances*](/view.html?p=documents/books/barry-1876-railway-appliances.md) | 1876 | Permanent way, points, crossings, signals and stations |
 | Joseph Pigg | [*Railway Block Signalling*](/view.html?p=documents/books/pigg-1898-railway-block-signalling.md) | 1898 | The block system of train signalling |
 | John Loudon MacAdam | [*A Practical Essay on the Scientific Repair of Public Roads*](/view.html?p=documents/books/macadam-1819-practical-essay-scientific-repair.md) | 1819 | Road repair made a science of drainage and stone |
-| Thomas Telford (ed. J. Rickman) | [*Life of Thomas Telford, Civil Engineer*](/view.html?p=documents/books/telford-1838-life-of-thomas-telford.md) | 1838 | The public works programme in the engineer’s own reports |
+| Thomas Telford (ed. J. Rickman) | [*Life of Thomas Telford, Civil Engineer*](/view.html?p=documents/books/telford-1838-life-of-thomas-telford.md) | 1838 | The public works programme in the engineer's own reports |
 | Sir Henry Parnell | [*A Treatise on Roads*](/view.html?p=documents/books/parnell-1833-treatise-on-roads.md) | 1833 | Road building as engineering and public administration |
 | W. M. Gillespie | [*A Manual of the Principles and Practice of Road-Making*](/view.html?p=documents/books/gillespie-1847-manual-road-making.md) | 1847 | The American road and railway textbook |
 | H. Law & D. K. Clark | [*The Construction of Roads and Streets*](/view.html?p=documents/books/law-1877-construction-of-roads-and-streets.md) | 1877 | The municipal street specified — paving, drainage, tram rails |
@@ -1420,6 +1329,11 @@ qa:
 | George & Robert Stephenson | *Letters, notebooks and locomotive drawings* | 1820s–30s | The locomotive's development from the Stephensons' own papers (no scan verified) |
 | George Westinghouse | *Compressed-air brake patents* | 1869 / 1872 | The fail-safe continuous air brake of the train (no scan verified) |
 | Douglas Galton | *On the Effect of Brakes upon Railway Trains* | 1878–79 | The wheel-rail friction of the brake measured (no scan verified) |
+| Carlo Ruini | *Dell'Anatomia et dell'Infirmità del Cavallo* | 1598 | The first printed horse anatomy book (no scan verified) |
+| Claude Bourgelat | *Essai théorique et pratique sur la ferrure* | 1771 | Scientific farriery at the royal veterinary schools (no scan verified) |
+| William Youatt | [*The Horse; with a Treatise on Draught (SDUK)*](/view.html?p=documents/books/youatt-1858-horse-treatise-draught.md) | 1831 (scan: 1858 ed.) | I. K. Brunel's quantitative treatise on animal traction, traces, spring carriages, wheel diameters and road resistance |
+| Henry Burden | *Rotary horseshoe-making machine patents (Troy)* | 1835–57 | 60 mass-forged horseshoes per minute — horseshoes as mass production (no scan verified) |
+| George Fleming | *Horse-Shoes and Horse-Shoeing: Their Origin, History, Uses and Abuses* | 1869 | The history and mechanics of the shoe (no scan verified) |
 | Adam Wybe | *Aerial bucket ropeway for fortification earthmoving (Danzig)* | 1644 | Aerial ropeways begun, with the earth-bucket trade (no scan verified) |
 | Joseph Dart & Robert Dunbar | *Steam marine grain elevator (Buffalo)* | 1842–43 | The grain-elevator trade of the American lake ports (no scan verified) |
 | J. Latimer Clark; C. Bontemps | *Pneumatic dispatch tubes and urban compressed-air mail networks* | 1854–76 | The pneumatic tube dispatch trade of the city (no scan verified) |
@@ -1461,7 +1375,7 @@ qa:
 | S. G. J. Boswell | [*Dredging and Other Plant at the Quebec Harbour Works*](/view.html?p=documents/books/boswell-1881-dredging-quebec-harbour-works.md) | 1881 | The dredging plant register (honest no-scan) |
 | C. H. L. Kuhl | [*Dredging on the Lower Danube*](/view.html?p=documents/books/kuhl-1881-dredging-lower-danube.md) | 1881 | River-channel dredging (honest no-scan) |
 | J. J. Webster | [*Dredging Appliances*](/view.html?p=documents/books/webster-1886-dredging-appliances.md) | 1886 | The dredging classification (paper, honest no-scan) |
-| A. E. Seaton | [*A Manual of Marine Engineering*](/view.html?p=documents/books/seaton-1890-manual-of-marine-engineering.md) | 1890 | The marine engineer’s design manual |
+| A. E. Seaton | [*A Manual of Marine Engineering*](/view.html?p=documents/books/seaton-1890-manual-of-marine-engineering.md) | 1890 | The marine engineer's design manual |
 | Pierre Bouguer | [*Traité du Navire*](/view.html?p=documents/books/bouguer-1746-traite-du-navire.md) | 1746 | The ship as a floating body calculated — the metacentre |
 | Leonhard Euler | [*Scientia Navalis*](/view.html?p=documents/books/euler-1749-scientia-navalis.md) | 1749 | The ship made a problem of rational mechanics |
 | Jorge Juan | [*Examen Marítimo Theórico Práctico*](/view.html?p=documents/books/juan-1771-examen-maritimo.md) | 1771 | The ship analysed by mechanics for the Spanish service |
@@ -1555,6 +1469,9 @@ qa:
 | Gottlieb Daimler & Wilhelm Maybach | *Patents and specifications for the high-speed engine and the motor carriage* | 1883–89 | The light high-speed engine and the vehicle built around it (no scan verified) |
 | Panhard & Levassor | *The système Panhard: the front-engine, rear-drive layout* | 1890s | The founding automobile layout — engine forward, gearbox and drive behind (no scan verified) |
 | Gardner D. Hiscox | [*Horseless Vehicles; Automobiles, Motor Cycles... Operated by Steam, Hydro-carbon, Electric Motors*](/view.html?p=documents/books/hiscox-1900-horseless-vehicles.md) | 1900 | The turn-of-century American automobile desk-book — steam, electric and hydrocarbon |
+| Francis Vinton Greene | *Asphalt and Its Uses* | 1889 | The asphalt paving trade manual (no scan verified) |
+| Austin T. Byrne | *A Treatise on Highway Construction (city streets, with John Charles Olmsted & Frederick Law Olmsted)* | 1892 | The great American street paving science (no scan verified) |
+| William P. Judson | *City Roads and Pavements Suited to Cities of Moderate Size* | 1894 | The manual of municipal street surfacing (no scan verified) |
 | Nicholas-Joseph Cugnot | *The fardier à vapeur drawings and descriptions* | 1769–70 | The first self-propelled road vehicle drawn (no scan verified) |
 | W. Worby Beaumont | *Motor Vehicles and Motors: Their Design, Construction and Working* | 1900 | The definitive pre-1901 engineering reference of the motor vehicle (no scan verified) |
 | Étienne Lenoir | *The gas engine and the hippomobile* | 1860–63 | The first internal-combustion vehicle (no scan verified) |
@@ -1599,6 +1516,11 @@ qa:
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | Charles Babbage | [*A Letter to Sir Humphry Davy on the Application of Machinery to Calculating and Printing Tables*](/view.html?p=documents/books/babbage-1822-letter-humphry-davy.md) | 1822 | The difference engine proposed — finite differences turned into machinery |
+| Amédée Mannheim | *The Mannheim slide rule with moving cursor* | 1850 | The standard engineer's rule of the 19th and 20th centuries (no scan verified) |
+| Jakob Amsler | *Über den Polarplanimeter (mechanical planimeter theory and construction)* | 1854–56 | The polar planimeter that integrated indicator diagrams and earthwork sections (no scan verified) |
+| Léon Lalanne; Maurice d'Ocagne | *Anamorphic logarithmic charts; Nomographie and Traité de Nomographie* | 1846 / 1891–99 | The graphical computing medium of the nomogram (no scan verified) |
+| Edmond Halley | *The Breslau Table of Annuities (life-table and annuity formula)* | 1693 | The founding demographics and the annuity mathematics of insurance (no scan verified) |
+| William Playfair | *The Commercial and Political Atlas (bar, line and pie charts)* | 1786 | The invention of statistical graphics (no scan verified) |
 | Charles Babbage | [*Passages from the Life of a Philosopher*](/view.html?p=documents/books/babbage-1864-passages-from-the-life.md) | 1864 | The calculating engine's own career — Difference and Analytical Engines, mechanical notation |
 | Royal Society Committee | [*Report on the Calculating Machine of Messrs. Scheutz*](/view.html?p=documents/books/scheutz-1854-report-calculating-machine.md) | 1854 | The first working difference engine independently examined |
 | H. S. Hele Shaw | [*The Theory of Continuous Calculating Machines*](/view.html?p=documents/books/shaw-1885-continuous-calculating-machines.md) | 1885 | The calculating machine extended from arithmetic to the calculus |
@@ -1614,12 +1536,6 @@ qa:
 | Wilhelm Schickard | *Calculating clock sketches and letters* | 1623–24 | The first known mechanical calculator (no scan verified) |
 | Blaise Pascal | *Lettre de M. Pascal ... touchant la Machine Arithmétique* | 1645 | The printed letter of the Pascal trade (no scan verified) |
 | Gottfried Wilhelm Leibniz | *Machina arithmetica papers* | 1673–82 | The stepped reckoner machine papers trade (no scan verified) |
-| Melvil Dewey | *A Classification and Subject Index for Cataloguing and Arranging the Books* | 1876 | The decimal system and index-card trade of library information (no scan verified) |
-| Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping sets the ledger as a science (cross-listed from Mediaevalia) |
-| Emile Garcke & J. M. Fells | *Factory Accounts: Their Principles and Practice* | 1887 | The industrial cost accounting trade manual (no scan verified) |
-| Melvil Dewey | *A Classification and Subject Index for Cataloguing and Arranging the Books* | 1876 | The decimal system and index-card trade of library information (no scan verified) |
-| Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping sets the ledger as a science (cross-listed from Mediaevalia) |
-| Emile Garcke & J. M. Fells | *Factory Accounts: Their Principles and Practice* | 1887 | The industrial cost accounting trade manual (no scan verified) |
 | Melvil Dewey | *A Classification and Subject Index for Cataloguing and Arranging the Books* | 1876 | The decimal system and index-card trade of library information (no scan verified) |
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping sets the ledger as a science (cross-listed from Mediaevalia) |
 | Emile Garcke & J. M. Fells | *Factory Accounts: Their Principles and Practice* | 1887 | The industrial cost accounting trade manual (no scan verified) |
@@ -1716,6 +1632,15 @@ qa:
 | Hosokawa Hanzo Yorinao | [*Karakuri Zui*](/view.html?p=documents/books/karakuri-zui-1796.md) | 1796 | The Japanese karakuri automata treatise — body of the device trade |
 | Ibn Ismail Ibn al-Razzaz al-Jazari | *Kitab fi Marifat al-Hiyal al-Handasiyya (Book of Knowledge of Ingenious Mechanical Devices)* | 1206 (MS 1315) | The Arabic mechanical device treatise (Cleveland Museum MS plates scanned) |
 | Banū Mūsā ibn Shakir | *Kitab al-Hiyal (The Book of Ingenious Devices)* | c. 850 | The ninth-century device theory of the Arab trade (no scan verified) |
+| Al-Kindī | *Risāla fī Jawāhir al-Suyūf — the kinds of steel and iron (crucible Damascus / wootz)* | 9th c. | The crucible-steel metallurgy and the steam distillation of perfume oils (no scan verified) |
+| Abū Bakr al-Rāzī (Rhazes) | *Kitāb al-Asrār (Book of Secrets)* | c. 900 | The chemical substances classified and the apparatus inventoried (no scan verified) |
+| Abū al-Qāsim al-Zahrāwī (Albucasis) | *Kitāb al-Taṣrīf (Book XXX: On Surgery and Instruments)* | c. 1000 | 200+ illustrated surgical instruments of the Islamic hospitals (no scan verified) |
+| Abū Bakr Muḥammad al-Karajī | *Inbāṭ al-Miyāh al-Khafiyya (The Extraction of Hidden Waters)* | c. 1015 | Hydrogeology, levelling, and qanat underground aqueduct tunnelling (no scan verified) |
+| Abū Rayḥān al-Bīrūnī | *Kitāb al-Jamāhir (Mineralogy); Taḥdīd (Geodesy)* | c. 1048 | The overflow pycnometer and the specific-gravity table of 18 metals (no scan verified) |
+| al-Murādī (Ibn Muʿādh al-Jayyānī) | *Kitāb al-Asrār fī Natāʾij al-Afkār* | 11th c. | Epicyclic gears, segmental gears and mercury water clocks (no scan verified) |
+| al-Khāzinī | *Kitāb Mīzān al-Ḥikma (Book of the Balance of Wisdom)* | 1121 | The five-pan hydrostatic balance and the alloy assaying method (no scan verified) |
+| Ibn al-ʿAwwām | *Kitāb al-Filāḥa (Book of Agriculture), 12th-c. Seville* | 12th c. | The norias, irrigation and soil testing of the Andalusian agriculture (no scan verified) |
+| Ḥasan al-Rammāḥ | *Kitāb al-Furūsiyya wa-al-Manāṣib al-Ḥarbiyya* | c. 1280 | Saltpetre crystallization and the rocket torpedo of the Mamluk arms (no scan verified) |
 | Kaogongji (in the Rites of Zhou) | *The Artificers Record - the bronze Six Recipes and wheelwrighting* | c. 4th-3rd c. BCE | The oldest state technical-specification manual (no scan verified) |
 | Nagarjuna | *Rasaratnakara / Rasarnava (zinc distillation of the Zawar mines)* | 8th-12th c. | The Indian chemical trade of the metal reducers (no scan verified) |
 | Jia Sixie | *Qimin Yaoshu (Essential Techniques for the Welfare of the People)* | c. 533-44 | The agricultural canon with the plough and seed drill (no scan verified) |
@@ -1727,6 +1652,16 @@ qa:
 | Wang Zhen | *Nong Shu (Book of Agriculture)* | 1313 | The woodcut ploughs and water-powered spinning frames of the Yuan agricultural canon (no scan verified) |
 | Kautilya | *Arthasastra (State Manual of Economics)* | c. 300 BCE - 2 CE | The ore-fields of India and the economic policy of mining and minting (no scan verified) |
 | Jiao Yu & Liu Bowen | *Huolongjing (Fire-Dragon Manual)* | 14th c. | Multistage rockets and land-sea mines in the Chinese canon (no scan verified) |
+
+## Method and scope
+
+> How the guide is built, and how its structure should be read.
+
+**Domains as the taxonomy.** The four abstract bibliographic categories — technical arts, technology, engineering, engineering science — do not survive the *Encyclopédie*-plate test: a single plate documents a workshop, a tool and its principle on one page. The guide therefore uses the historical **Ars** domain-sections themselves as its taxonomy; each section is the domain of a philosophia *technica* guide element family concept the corpus could type a decomposition into, but the guide reads them as a **historical** classification of what was printed and scanned. The viewer's technique taxonomy (variational method, technique-path trees) and these histories need not coincide; the mapping is left to the notes that decompose each field.
+
+**One series, one entry.** A serial is merged into one entry when its material is thin or when it is intellectually one research programme. Rayleigh's *Theory of Sound* (1877–78) is one book-length project on both grounds; the Ordnance Department's *Reports* (1856–61) are one testing campaign. Where a serial is only bibliographically contiguous — Symons's *British Rainfall* or Sabine's magnetic *Contributions* — the merge is preserved because the period's own bound volumes bound them as one shelf object. The decision is a reading judgement recorded where it is most contestable.
+
+**Scriptable collections.** Linking policy is scan-first and honest-marking: every Internet Archive identifier is resolved through `advancedsearch.php` and its title read from `/metadata/<id>` before the link is written; where no archive scan verifies, the row says so. The collections that can be scripted at scale: the **Internet Archive** (bulk search + per-item metadata + full OCR), the **BSB/MDZ** digitisations (many `[id]`-`bsb` identifiers here), **HathiTrust** by bibliographic API (browse-first in the reader), **Gallica** SRU and IIIF, and the **Smithsonian** Open Access trade-catalogue API (demonstrated on meteorological and photographic instruments above). The Science History Institute and the Wellcome Library provide deep browse-first scans for chemistry and the pharmacopoeias.
 
 ## References
 

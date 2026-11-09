@@ -37265,5 +37265,145 @@
         "commit": "4b5a888763da58cc18df588e450a8d54e576ef43"
       }
     ]
+  },
+  {
+    "file_path": "books/archimedes-1897-works-heath.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Archimedes, The Works of Archimedes in Heath's 1897 translation; Internet Archive scan abw0362.0001.001.umich.edu verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pliny-1855-natural-history.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Pliny, The Natural History in Bostock and Riley's 1855 translation; Internet Archive scan naturalhistoryof11855plin verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/leonardo-1883-literary-works.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Leonardo da Vinci, The Literary Works in Richter's 1883 edition; Internet Archive scan literaryworksofl01leonuoft verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/coulomb-1821-theorie-machines-simples.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Coulomb, Théorie des machines simples (1821); Internet Archive scan thoriedesmachin00coulgoog verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brongniart-1844-arts-ceramiques.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Brongniart, Traité des arts céramiques (1844); Internet Archive scan traiteydesartsc1bron verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bert-1878-pression-barometrique.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Paul Bert, La Pression barométrique (1878); Internet Archive scan b2808584x verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ramazzini-1700-de-morbis-artificum.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Ramazzini, De morbis artificum diatriba (1700); Internet Archive scan b30502925 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thackrah-1831-effects-arts-trades.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Thackrah, The Effects of the Principal Arts, Trades and Professions (1831); Internet Archive scan b33093805 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/snow-1849-mode-communication-cholera.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Snow, On the Mode of Communication of Cholera (1849); Internet Archive scan b30383158 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pasteur-1873-etudes-sur-le-vin.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Pasteur, Études sur le Vin (1873 printing of the 1866 book); Internet Archive scan tudessurlevinse01pastgoog verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/youatt-1858-horse-treatise-draught.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Youatt and Brunel, The Horse; with a Treatise on Draught (1858 printing); Internet Archive scan cu31924003165507 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/goode-1884-fisheries-industries.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Goode, The Fisheries and Fishery Industries of the United States (1884); Internet Archive scan fisheriesfishery11goodrich verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/carll-1880-geology-oil-regions.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Carll, The Geology of the Oil Regions (1880); Internet Archive scan geologyofoilregi00carl verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hero-1899-druckwerke.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Hero of Alexandria, Druckwerke und Automatentheater in Schmidt's 1899 Teubner edition; Internet Archive scan heronsvonalexandhero verified through advancedsearch.php and /metadata."
+      }
+    ]
   }
 ]
