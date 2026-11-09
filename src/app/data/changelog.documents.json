@@ -33205,7 +33205,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cavendish, The Electrical Researches (Maxwell ed. 1879, papers 1771–81) — the quantitative founding layer; two scans plus the 1771 paper."
+        "summary": "Add Cavendish, The Electrical Researches (Maxwell ed. 1879, papers 1771–81) — the quantitative founding layer; two scans plus the 1771 paper.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33215,7 +33216,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Coulomb electrical and magnetic memoirs (1785–89, @misc collector) — the torsion-balance measurement; honest no-scan note."
+        "summary": "Add Coulomb electrical and magnetic memoirs (1785–89, @misc collector) — the torsion-balance measurement; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33225,7 +33227,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ørsted, Experimenta (1820) — the founding electromagnetism pamphlet; 1820 scan."
+        "summary": "Add Ørsted, Experimenta (1820) — the founding electromagnetism pamphlet; 1820 scan.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33235,7 +33238,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ampère, Recueil d'observations électro-dynamiques (1822) — the electrodynamic theory; two 1822 scans."
+        "summary": "Add Ampère, Recueil d'observations électro-dynamiques (1822) — the electrodynamic theory; two 1822 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33245,7 +33249,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Sturgeon's Annals of Electricity (1836–43, series) — the first electrical journal; 1836 and 1840 scans."
+        "summary": "Add Sturgeon's Annals of Electricity (1836–43, series) — the first electrical journal; 1836 and 1840 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33255,7 +33260,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cooke and Wheatstone telegraph patents (1837–, @misc collector) — the first commercial signalling system; honest no-scan note."
+        "summary": "Add Cooke and Wheatstone telegraph patents (1837–, @misc collector) — the first commercial signalling system; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33265,7 +33271,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Walker, Electrotype Manipulation (1841) — the bench manual of electrotyping; 1849 and 1852 scans."
+        "summary": "Add Walker, Electrotype Manipulation (1841) — the bench manual of electrotyping; 1849 and 1852 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33275,7 +33282,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hopkinson, Dynamo-electric machinery (1886, paper) — the magnetic-circuit design; 1886 and 1892 scans."
+        "summary": "Add Hopkinson, Dynamo-electric machinery (1886, paper) — the magnetic-circuit design; 1886 and 1892 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33285,7 +33293,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Heaviside, Electrical Papers (1892) — the transmission-line theory; 1892 and 1894 scans."
+        "summary": "Add Heaviside, Electrical Papers (1892) — the transmission-line theory; 1892 and 1894 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33295,7 +33304,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the 1885–88 AC transformer patent families (collector entry) — the distribution hinge; honest no-scan note."
+        "summary": "Add the 1885–88 AC transformer patent families (collector entry) — the distribution hinge; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33305,7 +33315,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Edison and Swan incandescent-lamp patent families (collector entry) — the domestic lamp; honest no-scan note."
+        "summary": "Add the Edison and Swan incandescent-lamp patent families (collector entry) — the domestic lamp; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33315,7 +33326,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Marconi and Lodge wireless papers (1896–99, boundary collector) — syntonic telegraphy; honest no-scan note."
+        "summary": "Add the Marconi and Lodge wireless papers (1896–99, boundary collector) — syntonic telegraphy; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33325,7 +33337,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Siemens and Sprague electric-traction papers (1880s–90s, collector) — the moving load; honest no-scan note."
+        "summary": "Add the Siemens and Sprague electric-traction papers (1880s–90s, collector) — the moving load; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33335,7 +33348,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hooke, Micrographia (1665) — the instrument branch's founding book; 1665 and 1667 scans."
+        "summary": "Add Hooke, Micrographia (1665) — the instrument branch's founding book; 1665 and 1667 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33345,7 +33359,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Molyneux, Dioptrica Nova (1692) — the practical optical treatise; 1692 and 1709 scans."
+        "summary": "Add Molyneux, Dioptrica Nova (1692) — the practical optical treatise; 1692 and 1709 scans.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33355,7 +33370,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add 's Gravesande, Physices elementa mathematica (1720) — the apparatus-taught philosophy; both volumes scanned."
+        "summary": "Add 's Gravesande, Physices elementa mathematica (1720) — the apparatus-taught philosophy; both volumes scanned.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33365,7 +33381,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Dollond and Ramsden optical patents and papers (1750s–90s, collector) — achromat and dividing engine; honest no-scan note."
+        "summary": "Add the Dollond and Ramsden optical patents and papers (1750s–90s, collector) — achromat and dividing engine; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33375,7 +33392,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Kater and Sabine pendulum papers (1810s–20s, collector) — gravity as a geodetic measurement; honest no-scan note."
+        "summary": "Add the Kater and Sabine pendulum papers (1810s–20s, collector) — gravity as a geodetic measurement; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33385,7 +33403,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Wheatstone, The Scientific Papers (1879) — the measuring instruments collected; 1879 scan."
+        "summary": "Add Wheatstone, The Scientific Papers (1879) — the measuring instruments collected; 1879 scan.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33395,7 +33414,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the influence-machine papers of Holtz, Toepler and Wimshurst (1860s–80s, collector) — the electrostatic supply; honest no-scan note."
+        "summary": "Add the influence-machine papers of Holtz, Toepler and Wimshurst (1860s–80s, collector) — the electrostatic supply; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33405,7 +33425,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Crookes radiometer and vacuum papers (1870s, collector) — the vacuum instrument layer; honest no-scan note."
+        "summary": "Add Crookes radiometer and vacuum papers (1870s, collector) — the vacuum instrument layer; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33415,7 +33436,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Michelson and Rowland interferometer papers (1880s–90s, collector) — precision optics; honest no-scan note."
+        "summary": "Add the Michelson and Rowland interferometer papers (1880s–90s, collector) — precision optics; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33425,7 +33447,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Abbe and Zeiss microscope papers and catalogues (1870s–90s, collector) — designed optics; honest no-scan note."
+        "summary": "Add Abbe and Zeiss microscope papers and catalogues (1870s–90s, collector) — designed optics; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   },
@@ -33435,7 +33458,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the instrument-makers' catalogue collector (19th c.) — the trade's own instrument ranges; honest no-scan note."
+        "summary": "Add the instrument-makers' catalogue collector (19th c.) — the trade's own instrument ranges; honest no-scan note.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de"
       }
     ]
   }

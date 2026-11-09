@@ -81233,7 +81233,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the electrical and instrument rows: Cavendish’s researches in Maxwell’s edition, Coulomb’s memoirs, Ørsted’s 1820 pamphlet, Ampère’s Recueil, Sturgeon’s Annals, the Cooke–Wheatstone telegraph patents, Walker’s electrotype manual, Hopkinson’s dynamo paper, Heaviside’s Electrical Papers, the AC-transformer, Edison–Swan, Marconi–Lodge and Siemens–Sprague patent and paper collectors; and the instrument line — Hooke’s Micrographia, Molyneux’s Dioptrica Nova, ’s Gravesande’s Physices, the Dollond–Ramsden and Kater–Sabine papers, Wheatstone’s Scientific Papers, the influence-machine, radiometer, interferometer and Abbe–Zeiss collectors, and the instrument-makers’ catalogues."
+        "summary": "Add the electrical and instrument rows: Cavendish’s researches in Maxwell’s edition, Coulomb’s memoirs, Ørsted’s 1820 pamphlet, Ampère’s Recueil, Sturgeon’s Annals, the Cooke–Wheatstone telegraph patents, Walker’s electrotype manual, Hopkinson’s dynamo paper, Heaviside’s Electrical Papers, the AC-transformer, Edison–Swan, Marconi–Lodge and Siemens–Sprague patent and paper collectors; and the instrument line — Hooke’s Micrographia, Molyneux’s Dioptrica Nova, ’s Gravesande’s Physices, the Dollond–Ramsden and Kater–Sabine papers, Wheatstone’s Scientific Papers, the influence-machine, radiometer, interferometer and Abbe–Zeiss collectors, and the instrument-makers’ catalogues.",
+        "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de",
+        "before": "cd7664a10fbc54f1bd238f1bc0aadf775f44bd4d"
       }
     ]
   }
