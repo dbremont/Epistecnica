@@ -29441,5 +29441,105 @@
         "commit": "161395035dd619bebe6dd1df29417f93e7c09745"
       }
     ]
+  },
+  {
+    "file_path": "books/leupold-1724-theatrum-machinarum-generale.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Leupold, Theatrum machinarum generale (1724, vol. 1) - general machine science; 1724 scan, cross-linked to the siblings and Bockler."
+      }
+    ]
+  },
+  {
+    "file_path": "books/leupold-1724-theatrum-machinarum-hydrotechnicarum.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Leupold, Theatrum machinarum hydrotechnicarum (1724-25, vol. 2) - water-raising machinery; 1724 scans, cross-linked to Belidor."
+      }
+    ]
+  },
+  {
+    "file_path": "books/leupold-1735-theatrum-machinarum-molarium.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Leupold, Theatrum machinarum molarium (1735, vol. 3, posthumous) - mills and power transmission; 1735 and 1767 scans, cross-linked to Fairbairn."
+      }
+    ]
+  },
+  {
+    "file_path": "books/navier-1826-resume-des-lecons.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Navier, Resume des lecons a l'Ecole des Ponts et Chaussees (1826); later printings scanned with honest first-edition note, cross-linked to Tredgold."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hachette-1819-traite-elementaire-des-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hachette, Traite elementaire des machines (1819, editions through 1828); 1828 scan, cross-linked to Reuleaux and Navier."
+      }
+    ]
+  },
+  {
+    "file_path": "books/knapp-1847-lehrbuch-chemischen-technologie.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Knapp, Lehrbuch der chemischen Technologie (1847) - the German Technologie textbook; 1847 and 1874 scans, cross-linked to Wagner."
+      }
+    ]
+  },
+  {
+    "file_path": "books/booth-1850-encyclopedia-of-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Booth and Morfit, The encyclopedia of chemistry (1850); 1862 revised-edition scan with honest first-edition note, cross-linked to Ure."
+      }
+    ]
+  },
+  {
+    "file_path": "books/schonbein-1846-contributions-gun-cotton.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sch-nbein's gun-cotton contributions (1846, @article) - industrial cellulose chemistry; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/crookes-1871-select-methods-chemical-analysis.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Crookes, Select methods in chemical analysis (1871); 1871-1905 scans, cross-linked to Fresenius."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fresenius-1846-system-of-instruction.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fresenius, A system of instruction in quantitative chemical analysis (1846, English same year); 1865 and 1881 English scans."
+      }
+    ]
   }
 ]
