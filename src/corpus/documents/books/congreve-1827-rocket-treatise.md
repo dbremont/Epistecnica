@@ -1,5 +1,5 @@
 ---
-tags: [document, rockets', 'ordnance', 'militaris', 'historical-technique]
+tags: [document, rockets, ordnance, militaris, historical-technique]
 qa:
  - What does Congreve carry — the rocket as a military system at the trade of the British General Rocket Brigade?
  - Is the 1827 Treatise the standard British military rocket system manual?

@@ -1,5 +1,5 @@
 ---
-tags: [document, refrigeration', 'patents', 'ice', 'historical-technique]
+tags: [document, refrigeration, patents, ice, historical-technique]
 qa:
  - What does Gorrie carry — artificial ice made to cool the yellow-fever wards in Florida?
  - Is the 1854 paper the American founding document of the ice trade?

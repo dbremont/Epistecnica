@@ -1,5 +1,5 @@
 ---
-tags: [document, computation', 'analytical-engine', 'translation', 'historical-technique]
+tags: [document, computation, analytical-engine, translation, historical-technique]
 qa:
  - What does the Sketch of the Analytical Engine carry — the Italian general idea translated with the notes of the translator, the first printed program?
  - Is the 1843 Sketch in Taylor Scientific Memoirs the founding document of the computational project as a whole?
@@ -9,7 +9,7 @@ qa:
 
 ```bibtex
 @book{taylor1852memoirs,
-  title={Scientific Memoirs: selected from the transactions of foreign academies of science and foreign learned societies},
+  title={Scientific memoirs: selected from the transactions of foreign academies of science and foreign learned societies},
   author={Taylor, Richard (ed.)},
   year={1837–52},
   publisher={London:},
@@ -22,6 +22,6 @@ qa:
 
 ## References
 
-- [Archive.org — Scientific Memoirs, Vol. III (1852)](https://archive.org/details/taylor1852memoirs)
+- [Archive.org — Scientific Memoirs, Vol. III (1852)](https://archive.org/details/india.history.resource.52795)
 - [Babbage, Passages from the Life of a Philosopher (1864) — the engine despite It](/view.html?p=documents/books/babbage-1864-passages-from-the-life.md)
 - [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)

@@ -1,5 +1,5 @@
 ---
-tags: [document, japan', 'automata', 'mechanical', 'historical-technique]
+tags: [document, japan, automata, mechanical, historical-technique]
 qa:
  - What does Karakuri Zui carry — the Japanese karakuri automata in their own mechanical treatise?
  - Is the 1796 Karakuri Zui the mechanical device trade of the Japanese automata systems?

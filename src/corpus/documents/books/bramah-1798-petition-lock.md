@@ -1,5 +1,5 @@
 ---
-tags: [document, locks', 'inventions', 'mechanism', 'historical-technique]
+tags: [document, locks, inventions, mechanism, historical-technique]
 qa:
  - What does Bramah carry — the detector lock asserted against the copyists, before the petition trade?
  - Is the 1798 petition the primary record of the Bramah lock epoch beside the hydraulic-press patents?

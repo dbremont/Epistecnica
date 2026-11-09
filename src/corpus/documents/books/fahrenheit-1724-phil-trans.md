@@ -1,5 +1,5 @@
 ---
-tags: [document, thermometry', 'instruments', 'paper', 'historical-technique]
+tags: [document, thermometry, instruments, paper, historical-technique]
 qa:
  - What does Fahrenheit carry — the scale of the mercury thermometer proposed in the Philosophical Transactions?
  - Is the 1724 paper the founding of the standard thermometer method of the later instrument trade?

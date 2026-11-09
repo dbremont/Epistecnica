@@ -1,5 +1,5 @@
 ---
-tags: [document, electricity', 'arc-lighting', 'catalogue', 'historical-technique]
+tags: [document, electricity, arc-lighting, catalogue, historical-technique]
 qa:
  - What does Brush carry — the arc-lighting and alternating current system as catalogue and apparatus?
  - Is the 1896 Brush system handbook the American arc-lighting trade apparatus beside the gas lighting?

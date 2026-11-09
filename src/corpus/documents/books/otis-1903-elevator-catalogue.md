@@ -1,5 +1,5 @@
 ---
-tags: [document, elevator', 'catalogue', 'building', 'historical-technique]
+tags: [document, elevator, catalogue, building, historical-technique]
 qa:
  - What does Otis carry — the elevator and its parties of the American building machine services?
  - Is the Otis catalogue the differentiation document of the American elevator trade as trade item?

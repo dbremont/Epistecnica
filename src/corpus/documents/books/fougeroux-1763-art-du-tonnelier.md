@@ -22,5 +22,5 @@ qa:
 
 ## References
 
-- [Archive.org — Art du tonnelier (1763)](https://archive.org/details/chepfl-lipr-AXD-5-02)
+- [Archive.org — Art du tonnelier (1763)](https://archive.org/details/chepfl-lipr-axd-5-02)
 - [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)

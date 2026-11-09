@@ -9,7 +9,56 @@ qa:
 
 # Historical Technical Library: Engineering, Technology and the Applied Sciences Before 1900
 
-> A catalog of documents intended to reconstruct the **technical knowledge, engineering methods, production processes, machinery, and technological capabilities** available during the Early Modern and Industrial periods.
+> A catalog of documents intended to reconstruct the **technical knowledge, engineering methods, production processes, machinery, and technological capabilities** available before  1900 D.C.
+
+## Ars Antiqua
+
+> The classical and Hellenistic technical canon - the machine books, water trades and stone craft that stand at the beginning of every later engineering science, carried here as the pre-1500 foundations besid the later Renaissance descendants of the same families.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Ahmes (Rhind Mathematical Papyrus) | *Problems of granaries, frustums, pyramid slopes and mensuration* | c. 1650 BCE | Problem-book of the Egyptian technical arithmetic and mensuration |
+| Nineveh cuneiform glass and metal tablets (Library of Ashurbanipal) | *Furnace recipes and coloured glazes* | c. 650 BCE | The glass and glaze trade preserved in the ancient libraries |
+| Pseudo-Aristotle (Strato / Peripatetic school) | *Mechanica (Mechanical Problems)* | c. 300 BCE | The lever, pulley, wheel, wedge, roller, rudder and oar stated by question |
+| Archimedes of Syracuse | *On the Equilibrium of Planes; On Floating Bodies; Measurement of a Circle* | c. 250 BCE | Statics and hydrostatics with the stability of ship hulls |
+| Ctesibius of Alexandria (via Vitruvius/Philo/Hero) | *Force pump, water organ, and feedback-regulated clepsydra* | fl. 270 BCE | Pneumatic and water-regulated machinery of the Alexandrian shops |
+| Philo of Byzantium | *Mechanike Syntaxis (Belopoeica; Pneumatica; Poliorcetica)* | c. 230 BCE | The artillery, siphons, and level-controls of the Hellenistic defensive craft |
+| Biton | *Kataskeuai polemikon organon kai katapeltikon* | c. 240 BCE | The scaled siege-machines written with dimensions |
+| Hero (Heron) of Alexandria | *Pneumatica; Mechanica; Automata; Dioptra; Belopoeica; Metrica* | fl. 60 CE | The chef d'oeuvre of Hellenistic mechanics — the five machine laws, reaction steam sphere, automata and surveying dioptra |
+| Claudius Ptolemy | *Almagest; Geographia; Optica; Planisphaerium* | fl. 150 CE | The astronomical and cartographic instruments of the conic projections |
+| Pappus of Alexandria | *Synagoge (Book VIII)* | fl. 320 CE | The synthesis of ancient mechanics with the inclined plane and worm gear |
+| Cato, Varro, Columella, Palladius | *Roman agricultural treatises* | 160 BCE – 400 CE | The farm mechanics, presses and drainage of the Roman estate economy |
+| Sextus Julius Frontinus | *De Aquaeductu Urbae Romae* | c. 97 CE | The Roman water supply gauged at its aqueduct intakes |
+| Pedanius Dioscorides | *De Materia Medica* | c. 65 CE | The medicinal substances and the first apparatus of botanical extraction |
+| Pliny the Elder | *Naturalis Historia (Books XXXIII–XXXVII)* | 77 CE | The industrial arts of metals, glass, pigments and papyrus in one encyclopedia |
+| Corpus Agrimensorum Romanorum | *Gromatic surveying by groma and chorobates* | 1st–2nd c. CE | The survey graphic machinery of centuriation and road planning |
+| Leyden Papyrus X; Stockholm Papyrus; Zosimos of Panopolis | *Alchemical apparatus recipes and lab practices* | c. 300 CE | The chemical tables, alloys, gilding and distillation of the Alexandrian trades |
+| Vegetius; Pseudo-Anonymous | *Epitoma Rei Militaris; De Rebus Bellicis* | c. 390 CE | The Roman fortifications and paddle-wheel warships of the late empire |
+| Anthemius of Tralles; Procopius | *Hagia Sophia dome geometry; De Aedificiis* | 532–550 CE | The great vaulting and dome-engineering of the imperial city |
+| Marcus Vitruvius Pollio | *De Architectura Libri Decem* | c. 25 BCE | The classical canon: aqueducts, cranes, watermills and theatre acoustics (see the 1826 Gwilt translation in Architectura) |
+
+## Ars Mediaevalia
+
+> The medieval and Renaissance European technical literature - the manuscript trades and printed canon between Theophilus and the printed machine books of the sixteenth century.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Mappae Clavicula; Heraclius | *Colour, art and craft recipe manuscripts* | c. 800–1130 | The pigment, alloy and coating recipes of monastic workshops |
+| Theophilus Presbyter | *Schedula Diversarum Artium (De Diversis Artibus)* | c. 1122 | The metalwork, stained glass, organ pipe and bell founding trades described |
+| Villard de Honnecourt | *Livre de Portraiture (Sketchbook)* | c. 1220–40 | The Gothic trades and machinery carried in one sketchbook of engineering |
+| Petrus Peregrinus de Maricourt | *Epistola de Magnete* | 1269 | The compass and magnet designed by experiment |
+| Guido da Vigevano | *Texaurus Regis Francie* | 1335 | Cranked machinery of the siege hospital trades |
+| Giovanni Dondi dell Orologio | *Tractatus Astrarii* | 1364–89 | The planetary clock with its escapement and gear-plates figured |
+| Geoffrey Chaucer | *A Treatise on the Astrolabe* | 1391 | The first technical instrument science book to be written in English |
+| Konrad Kyeser; Anonymous | *Bellifortis; Feuerwerkbuch von 1420* | 1405 / 1420 | The mechanical siege arts of gunpowder at the cannons and the powdermakers |
+| Giovanni Fontana | *Bellicorum Instrumentorum Liber* | c. 1420 | The marvel machines of rockets and mechanical lights designed for the courts |
+| Mariano di Jacopo detto il Taccola | *De Ingeneis; De Machinis* | 1419–49 | The pumps, cranes and harvest machinery drawn by the Sienese engineer |
+| Filarete (Antonio Averlino) | *Trattato di Architettura* | c. 1461–64 | The architectural and engineering theory of the iron blast furnace and finery forge |
+| Roberto Valturio | *De Re Militari (Verona)* | 1472 | The first printed book with technical woodcuts and siege engines |
+| Francesco di Giorgio Martini | *Trattati di Architettura, Ingegneria e Arte Militare* | c. 1475–90 | The bastion trace and machinery of the Renaissance military engineer |
+| Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping and the accounting of industrial enterprise |
+| Leonardo da Vinci | *Codice Atlantico and the Manuscripts* | c. 1478–1519 | The machine elements and the flying machines of the great engineers |
+| Ulrich Rulein von Calw | *Ein nützlich Bergbüchlein (c. 1500); Probierbüchlein (c. 1520)* | c. 1500 / c. 1520 | The first printed mining and assaying manuals |
 
 ## Ars Mechanica
 
@@ -410,11 +459,7 @@ qa:
 | W. W. Greener | [*The Gun and Its Development*](/view.html?p=documents/books/greener-1881-gun-and-its-development.md) | 1881 | The gun trade history and trade development, set down by its own maker |
 | Charles B. Norton | [*American Inventions and Improvements in Breech-Loading Small Arms*](/view.html?p=documents/books/norton-1880-breech-loading-small-arms.md) | 1880 | The American patent catalogue of the breech-loading epoch |
 | Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System (honest no-scan; cross-listed from Mechanica) |
-| John Anderson; Warlow & Mordecai (Report of the Committee on the Machinery of the United States)
-Report ... presented to the House of Commons
-1855
-The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawrence (no scan verified) |
-| William Greener | *The Gun; or, A Treatise on the Various Descriptions of Small Fire-Arms* | 1835 | The father Greener gun trade treatise (no scan verified) |
+| John Anderson, Capt. Warlow & Maj. Mordecai (Committee on the Machinery of the United States) | *Report of the Committee on the Machinery of the United States of America, Presented to the House of Commons* | 1855 | The British Enfield Commission that inspected Springfield, Colt and Robbins & Lawrence (no scan verified) || William Greener | *The Gun; or, A Treatise on the Various Descriptions of Small Fire-Arms* | 1835 | The father Greener gun trade treatise (no scan verified) |
 | Henri-Gustave Delvigne & Claude-Étienne Minié | *Rifled-carabine and expanding-bullet papers and patents* | 1836–49 | The French rifled barrel and the expanding bullet (no scan verified) |
 | C. M. Wilcox | *Rifles and Rifle Practice* | 1859 | The rifle as a technical and military instrument (no scan verified) |
 | U.S. War Department (Carrington, Talcott, Baker, eds.) | *Report of the Board of Officers on Major Hall's Works at Harper's Ferry* | 1827 | Interchangeability proved by disassembling 100 Hall rifles (no scan verified) |
@@ -572,7 +617,7 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 
 ## Ars Lapidaria
 
-> Stercutomy and the stone trade set against the architecture — the masonry trade as its own discipline.
+> Stereotomy and the stone trade set against the architecture — the masonry trade as its own discipline.
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
@@ -645,7 +690,7 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Henri-Louis Duhamel du Monceau | *Art du Chandelier; and Art du Cirier* | 1762–64 | The tallow and wax candle trades in the Arts et Métiers tradition (no scan verified) |
 | George Fergusson Wilson (Price's Patent Candle Co.) | *On the Stearic Candle Manufacture* | 1852 | The steam-distilled stearine candle industry at the works (no scan verified) |
 | R. S. Cristiani | *A Technical Treatise on Soap and Candles* | 1881 | The American soap-and-candle trade treatise (no scan verified) |
-| Michael Faraday | *The Chemical History of a Candle* | 1861 | The candle combustion chemistry told to the young (cross-listed from Chimica) |
+| Michael Faraday | [*The Chemical History of a Candle*](/view.html?p=documents/books/faraday-1861-chemical-history-of-a-candle.md) | 1861 | The candle combustion chemistry told to the young (cross-listed from Chimica) |
 
 ## Ars Tonaria
 
@@ -1431,6 +1476,17 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Hosokawa Hanzo Yorinao | [*Karakuri Zui*](/view.html?p=documents/books/karakuri-zui-1796.md) | 1796 | The Japanese karakuri automata treatise — body of the device trade |
 | Ibn Ismail Ibn al-Razzaz al-Jazari | *Kitab fi Marifat al-Hiyal al-Handasiyya (Book of Knowledge of Ingenious Mechanical Devices)* | 1206 (MS 1315) | The Arabic mechanical device treatise (Cleveland Museum MS plates scanned) |
 | Banū Mūsā ibn Shakir | *Kitab al-Hiyal (The Book of Ingenious Devices)* | c. 850 | The ninth-century device theory of the Arab trade (no scan verified) |
+| Kaogongji (in the Rites of Zhou) | *The Artificers Record - the bronze Six Recipes and wheelwrighting* | c. 4th-3rd c. BCE | The oldest state technical-specification manual (no scan verified) |
+| Nagarjuna | *Rasaratnakara / Rasarnava (zinc distillation of the Zawar mines)* | 8th-12th c. | The Indian chemical trade of the metal reducers (no scan verified) |
+| Jia Sixie | *Qimin Yaoshu (Essential Techniques for the Welfare of the People)* | c. 533-44 | The agricultural canon with the plough and seed drill (no scan verified) |
+| Lu Yu | *Cha Jing (Classic of Tea)* | c. 760 | The tea economy - cultivation, roasting and shaping (no scan verified) |
+| Zeng Gongliang et al. | *Wujing Zongyao (Complete Essentials for the Military Classics)* | 1044 | Earliest printed gunpowder formulas, trebuchets and the compass trade (no scan verified) |
+| Shen Kuo | *Mengxi Bitan (Brush Talks from Dream Brook)* | 1088 | Movable type, declination and canal pound-locks recorded (no scan verified) |
+| Su Song | *Xin Yixiang Fayao (astronomical clock tower of Kaifeng)* | 1092-94 | The printed escapement and endless chain drive of the water-clock (no scan verified) |
+| Li Jie | *Yingzao Fashi (State Building Standards)* | 1103 | The modular timber framing of the Chinese canon (no scan verified) |
+| Wang Zhen | *Nong Shu (Book of Agriculture)* | 1313 | The woodcut ploughs and water-powered spinning frames of the Yuan agricultural canon (no scan verified) |
+| Kautilya | *Arthasastra (State Manual of Economics)* | c. 300 BCE - 2 CE | The ore-fields of India and the economic policy of mining and minting (no scan verified) |
+| Jiao Yu & Liu Bowen | *Huolongjing (Fire-Dragon Manual)* | 14th c. | Multistage rockets and land-sea mines in the Chinese canon (no scan verified) |
 
 ## References
 

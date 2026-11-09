@@ -1,5 +1,5 @@
 ---
-tags: [document, torpedo', 'ordnance', 'militaris', 'historical-technique]
+tags: [document, torpedo, ordnance, militaris, historical-technique]
 qa:
  - What does Barber carry — the Whitehead self-propelled torpedo described at the U.S. torpedo station?
  - Is the 1874 lecture the American primary record of the first automobile torpedo system?

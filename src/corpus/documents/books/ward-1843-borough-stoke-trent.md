@@ -1,5 +1,5 @@
 ---
-tags: [document, ceramics', 'industry', 'potteries', 'historical-technique]
+tags: [document, ceramics, industry, potteries, historical-technique]
 qa:
  - What does Ward carry — the Borough of Stoke-upon-Trent as the potteries industrial district?
  - Is the 1843 volume the definitive English district industrial survey?

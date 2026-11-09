@@ -37177,5 +37177,55 @@
         "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
+  },
+  {
+    "file_path": "books/newton-1687-principia-mathematica.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Newton, Principia Mathematica (1687) — the founding mechanics; 1822 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/newton-1704-opticks.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Newton, Opticks (1704) — the founding optics; 1730 printing of the 1704 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hooke-1678-de-potentia-restitutiva.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hooke, Lectures De Potentia Restitutiva (1678) — the elastic law founded; 1678 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stevin-1586-beghinselen-weeghconst.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Stevin, De Beghinselen (1586) — statics and hydrostatics founded; 1586 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/haytham-1572-opticae-thesaurus.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ibn al-Haytham, Opticae Thesaurus (1572 Risner edition) — experimental optics; 1572 scan."
+      }
+    ]
   }
 ]
