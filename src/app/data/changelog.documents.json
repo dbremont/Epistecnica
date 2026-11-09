@@ -37184,7 +37184,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Newton, Principia Mathematica (1687) — the founding mechanics; 1822 printing scan."
+        "summary": "Add Newton, Principia Mathematica (1687) — the founding mechanics; 1822 printing scan.",
+        "commit": "abf9a3659b0154baf53e605532c707278f2ecb6e"
       }
     ]
   },
@@ -37194,7 +37195,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Newton, Opticks (1704) — the founding optics; 1730 printing of the 1704 scan."
+        "summary": "Add Newton, Opticks (1704) — the founding optics; 1730 printing of the 1704 scan.",
+        "commit": "abf9a3659b0154baf53e605532c707278f2ecb6e"
       }
     ]
   },
@@ -37204,7 +37206,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hooke, Lectures De Potentia Restitutiva (1678) — the elastic law founded; 1678 scan."
+        "summary": "Add Hooke, Lectures De Potentia Restitutiva (1678) — the elastic law founded; 1678 scan.",
+        "commit": "abf9a3659b0154baf53e605532c707278f2ecb6e"
       }
     ]
   },
@@ -37214,7 +37217,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Stevin, De Beghinselen (1586) — statics and hydrostatics founded; 1586 scan."
+        "summary": "Add Stevin, De Beghinselen (1586) — statics and hydrostatics founded; 1586 scan.",
+        "commit": "abf9a3659b0154baf53e605532c707278f2ecb6e"
       }
     ]
   },
@@ -37224,7 +37228,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ibn al-Haytham, Opticae Thesaurus (1572 Risner edition) — experimental optics; 1572 scan."
+        "summary": "Add Ibn al-Haytham, Opticae Thesaurus (1572 Risner edition) — experimental optics; 1572 scan.",
+        "commit": "abf9a3659b0154baf53e605532c707278f2ecb6e"
       }
     ]
   }
