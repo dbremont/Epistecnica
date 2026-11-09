@@ -81278,6 +81278,11 @@
         "summary": "Add the architecture rows: Vitruvius in Gwilt’s translation, Alberti’s De re aedificatoria, Palladio’s Quattro Libri, Blondel’s Cours, Rondelet’s Traité de l’art de bâtir (honest no-scan), Tredgold’s Elementary Principles of Carpentry, Nicholson’s Architectural Dictionary (honest no-scan), Viollet-le-Duc’s Entretiens, Choisy’s Histoire de l’architecture, Fairbairn on iron in building, Harris’s Science of Brickmaking, and Mitchell’s Building Construction and Drawing at the 1902 boundary.",
         "commit": "f929874cb28ecec09baa0284099ba562f65976ad",
         "before": "0c77e07bd39b43cd684d032d73bc92d5ffd487c4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the transport rows: MacAdam’s 1819 essay, Telford’s Life, Parnell’s Treatise, Gillespie’s American manual, Law and Clark’s roads and streets, Sutcliffe’s canals and reservoirs, Booth’s Liverpool and Manchester account (honest no-scan), Walker and Rastrick’s Rainhill report, Simms on levelling, Brees’s Railway Practice, Shoolbred’s permanent way, Cole’s notes, Humber’s iron bridges (pointer to the existing entry), Clark’s Tramways and Glaisher’s Travels in the Air."
       }
     ]
   }

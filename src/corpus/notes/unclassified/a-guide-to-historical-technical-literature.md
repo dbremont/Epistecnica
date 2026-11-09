@@ -9,11 +9,7 @@ qa:
 
 # Historical Technical Library: Technology and Engineering, 1500–1900
 
-> The library is organized as a **multidisciplinary collection** rather than a mechanical-engineering one. Its objective is to reconstruct the **technical knowledge, engineering methods, productive processes, machinery and technological capabilities** available during the early modern and industrial periods. Every work row below links to its corpus entry — bibtex, QA questions and verified scans live there.
-
-
-
-**Rules of the file.** *Cross-listing:* a work may serve several Ars; the bibtex and scans live in the primary entry; other rows are pointers to it. *Serials:* one entry per bibliographic work; multi-volume works are one row; a series is one row only when it is one publication project — Percy and Leupold are split because each volume is a separate work, Holtzapffel and Joule are one because they are one project. *Honest no-scan:* entries whose archive-era scan is not verified carry the marker inside their year or domain cell; the chase is open for each. *Boundary rows:* works at or just past 1900 that document pre-1900 trades are marked at the boundary. *Guide rows:* rows naming no citable single work are tagged “guide row” and stay prose.
+> A catalog of documents intended to reconstruct the **technical knowledge, engineering methods, production processes, machinery, and technological capabilities** available during the Early Modern and Industrial periods.
 
 ## Ars Mechanica
 
@@ -653,6 +649,21 @@ qa:
 | John Wise | [*A System of Aeronautics*](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md) | 1850 | Envelope making, hydrogen generation and balloon ascents |
 | J. Wolfe Barry | [*Railway Appliances*](/view.html?p=documents/books/barry-1876-railway-appliances.md) | 1876 | Permanent way, points, crossings, signals and stations |
 | Joseph Pigg | [*Railway Block Signalling*](/view.html?p=documents/books/pigg-1898-railway-block-signalling.md) | 1898 | The block system of train signalling |
+| John Loudon MacAdam | [*A Practical Essay on the Scientific Repair of Public Roads*](/view.html?p=documents/books/macadam-1819-practical-essay-scientific-repair.md) | 1819 | Road repair made a science of drainage and stone |
+| Thomas Telford (ed. J. Rickman) | [*Life of Thomas Telford, Civil Engineer*](/view.html?p=documents/books/telford-1838-life-of-thomas-telford.md) | 1838 | The public works programme in the engineer’s own reports |
+| Sir Henry Parnell | [*A Treatise on Roads*](/view.html?p=documents/books/parnell-1833-treatise-on-roads.md) | 1833 | Road building as engineering and public administration |
+| W. M. Gillespie | [*A Manual of the Principles and Practice of Road-Making*](/view.html?p=documents/books/gillespie-1847-manual-road-making.md) | 1847 | The American road and railway textbook |
+| H. Law & D. K. Clark | [*The Construction of Roads and Streets*](/view.html?p=documents/books/law-1877-construction-of-roads-and-streets.md) | 1877 | The municipal street specified — paving, drainage, tram rails |
+| John Sutcliffe | [*A Treatise on Canals and Reservoirs*](/view.html?p=documents/books/sutcliffe-1816-canals-and-reservoirs.md) | 1816 | The canal designed as a water system |
+| Henry Booth | [*An Account of the Liverpool and Manchester Railway*](/view.html?p=documents/books/booth-1830-account-liverpool-manchester-railway.md) | 1830 | The first inter-city railway described in its works (honest no-scan) |
+| J. Walker & J. U. Rastrick | [*Report on Locomotive and Fixed Engines*](/view.html?p=documents/books/walker-1831-report-locomotive-engines.md) | 1831 | The Rainhill trials judged — steam traction settled |
+| F. W. Simms | [*A Treatise on the Principles and Practice of Levelling*](/view.html?p=documents/books/simms-1837-treatise-on-levelling.md) | 1837 | The level and the theodolite applied to railway gradients |
+| S. C. Brees | [*Railway Practice*](/view.html?p=documents/books/brees-1839-railway-practice.md) | 1839–40 | Working plans and contracts of the new lines |
+| J. N. Shoolbred | [*Permanent Way, Rolling Stock, and Technical Working of Railways*](/view.html?p=documents/books/shoolbred-1878-permanent-way.md) | 1878 | The railway compared across Europe |
+| W. H. Cole | [*Notes on Permanent-Way Material, Plate-Laying, and Points and Crossings*](/view.html?p=documents/books/cole-1890-notes-permanent-way.md) | 1890 | The track as a maintained system |
+| William Humber | [*A Complete Treatise on Cast and Wrought Iron Bridge Construction*](/view.html?p=documents/books/humber-1861-iron-bridge-construction.md) | 1861 | The iron bridge calculated and built (honest no-scan) |
+| D. K. Clark | [*Tramways: Their Construction and Working*](/view.html?p=documents/books/clark-1878-tramways.md) | 1878 | The street railway as a municipal system |
+| J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform |
 
 ## Ars Navalis
 

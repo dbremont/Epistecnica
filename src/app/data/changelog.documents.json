@@ -31840,6 +31840,11 @@
         "kind": "feat",
         "summary": "Add Humber, cast and wrought iron bridge construction (1861); honest no-scan note, the bridge half beside the held water-supply.",
         "commit": "62a66928755faf3b3506992cee9e7fc9f1f867b9"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Humber, Iron Bridge Construction (1861) — the iron bridge treatise; honest no-scan note."
       }
     ]
   },
@@ -34380,6 +34385,146 @@
         "kind": "feat",
         "summary": "Add Mitchell, Building Construction and Drawing (1902) — the boundary textbook; 1902 scan.",
         "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
+      }
+    ]
+  },
+  {
+    "file_path": "books/macadam-1819-practical-essay-scientific-repair.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add MacAdam, A Practical Essay on the Scientific Repair of Public Roads (1819) — the first statement of the road method; CIHM scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/telford-1838-life-of-thomas-telford.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rickman's Life of Thomas Telford (1838) — the works in Telford's own reports; two 1838 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/parnell-1833-treatise-on-roads.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Parnell, A Treatise on Roads (1833) — the Telford programme argued; 1833 and 1838 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gillespie-1847-manual-road-making.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gillespie, A Manual of Road-Making (1847) — the American textbook; 1847 and 1855 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/law-1877-construction-of-roads-and-streets.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Law and Clark, The Construction of Roads and Streets (1877) — the city engineer's manual; 1877 and 1890 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sutcliffe-1816-canals-and-reservoirs.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sutcliffe, A Treatise on Canals and Reservoirs (1816) — the canal water system; 1816 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/booth-1830-account-liverpool-manchester-railway.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Booth, An Account of the Liverpool and Manchester Railway (1830) — the primary record of the opening line; 1830 and 1831 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/walker-1831-report-locomotive-engines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Walker and Rastrick's Report (1831) — the Rainhill judgment; 1831 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/simms-1837-treatise-on-levelling.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Simms, A Treatise on Levelling (1837) — the railway survey manual; 1837 and 1870 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brees-1839-railway-practice.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Brees, Railway Practice (1839–40) — the working plans; 1839, 1840 and 1859 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/shoolbred-1878-permanent-way.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Shoolbred, Permanent Way and Rolling Stock (1878) — the European comparison; 1878 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cole-1890-notes-permanent-way.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cole, Notes on Permanent-Way Material (1890) — the maintenance manual; 1890 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clark-1878-tramways.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Clark, Tramways (1878) — the street railway reference; 1878 and 1880 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/glaisher-1871-travels-in-the-air.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Glaisher et al., Travels in the Air (1871) — the balloon as instrument platform; two 1871 scans."
       }
     ]
   }
