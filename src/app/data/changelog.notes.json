@@ -81401,7 +81401,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add four new sections: Ars Funalis (Duhamel du Monceau 1747, Chapman 1868, Bucknall Smith 1887; Albert, Huddart/Chapman and Roebling as honest rows); Ars Cerea (Chevreul 1823, Morfit 1847/56, Alder Wright 1894; Duhamel chandelier, Wilson stearine, Cristiani rows and Faraday cross-list); Ars Tonaria (Kepler 1615, Fougeroux 1763, Leadbetter 1739; the Roret tonnelier manual row); Ars Campanaria (Mersenne 1636, Gatty 1848, Denison 1850; Biringuccio cross-list, the Jones, Ellacombe, Simpson and Whitechapel rows)."
+        "summary": "Add four new sections: Ars Funalis (Duhamel du Monceau 1747, Chapman 1868, Bucknall Smith 1887; Albert, Huddart/Chapman and Roebling as honest rows); Ars Cerea (Chevreul 1823, Morfit 1847/56, Alder Wright 1894; Duhamel chandelier, Wilson stearine, Cristiani rows and Faraday cross-list); Ars Tonaria (Kepler 1615, Fougeroux 1763, Leadbetter 1739; the Roret tonnelier manual row); Ars Campanaria (Mersenne 1636, Gatty 1848, Denison 1850; Biringuccio cross-list, the Jones, Ellacombe, Simpson and Whitechapel rows).",
+        "commit": "d6bccdbb1d163a7d9d27094afb13f3f141760de9",
+        "before": "878ce26d92466fb558cc49bf8f98969c94936f83"
       }
     ]
   }
