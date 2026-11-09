@@ -81310,7 +81310,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Open four more Ars sections: Ars Computatoria (Babbage's 1822 letter, the Scheutz report, Shaw on continuous machines, Hollerith's tabulating system, the Thomas arithmometer, with Pascal and Leibniz as honest no-scan rows), Ars Molendinaria (Evans, Grimshaw, the B. S. Williams windmill catalogue), Ars Irrigationis (Cautley, Barois, the Egyptian and Bengal reports, Mead, Cotton as a no-scan row) and Ars Cartographica (Craig, White, Frome, Baker, Euler, with the Indian and Smith surveys cross-listed)."
+        "summary": "Open four more Ars sections: Ars Computatoria (Babbage's 1822 letter, the Scheutz report, Shaw on continuous machines, Hollerith's tabulating system, the Thomas arithmometer, with Pascal and Leibniz as honest no-scan rows), Ars Molendinaria (Evans, Grimshaw, the B. S. Williams windmill catalogue), Ars Irrigationis (Cautley, Barois, the Egyptian and Bengal reports, Mead, Cotton as a no-scan row) and Ars Cartographica (Craig, White, Frome, Baker, Euler, with the Indian and Smith surveys cross-listed).",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388",
+        "before": "ca2def938709d400902460265401aed0d9d4a270"
       }
     ]
   }

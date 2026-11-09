@@ -32397,7 +32397,9 @@
       {
         "date": "2026-11-09",
         "kind": "fix",
-        "summary": "Point the entry at the verified 1864 first-edition scan and drop the no-scan note."
+        "summary": "Point the entry at the verified 1864 first-edition scan and drop the no-scan note.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388",
+        "before": "ca2def938709d400902460265401aed0d9d4a270"
       }
     ]
   },
@@ -34960,7 +34962,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Babbage, A Letter to Sir Humphry Davy (1822) — the difference engine proposed; 1822 scan."
+        "summary": "Add Babbage, A Letter to Sir Humphry Davy (1822) — the difference engine proposed; 1822 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -34970,7 +34973,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Royal Society report on the Scheutz calculating machine (1854) — the first validated difference engine; 1854 scan."
+        "summary": "Add the Royal Society report on the Scheutz calculating machine (1854) — the first validated difference engine; 1854 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -34980,7 +34984,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Shaw, The Theory of Continuous Calculating Machines (1885) — the continuous tradition; 1885 scan."
+        "summary": "Add Shaw, The Theory of Continuous Calculating Machines (1885) — the continuous tradition; 1885 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -34990,7 +34995,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hollerith, An Electric Tabulating System (1889) — the punched-card origin; 1889 offprint scan."
+        "summary": "Add Hollerith, An Electric Tabulating System (1889) — the punched-card origin; 1889 offprint scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35000,7 +35006,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ettingshausen, Bericht über den Arithmometer des Herrn Thomas (1857) — the arithmometer; 1857 scan."
+        "summary": "Add Ettingshausen, Bericht über den Arithmometer des Herrn Thomas (1857) — the arithmometer; 1857 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35010,7 +35017,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Evans, The Young Mill-Wright and Miller's Guide (1850 ed.) — the millwright's manual; 1850 scan."
+        "summary": "Add Evans, The Young Mill-Wright and Miller's Guide (1850 ed.) — the millwright's manual; 1850 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35020,7 +35028,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Grimshaw, The Miller, Millwright and Millfurnisher (1882) — the mill trade's manual; 1882 scan."
+        "summary": "Add Grimshaw, The Miller, Millwright and Millfurnisher (1882) — the mill trade's manual; 1882 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35030,7 +35039,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the B. S. Williams windmill catalogue (1884) — the wind engine trade; 1884 scan."
+        "summary": "Add the B. S. Williams windmill catalogue (1884) — the wind engine trade; 1884 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35040,7 +35050,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cautley, Report on the Ganges Canal Works (1860) — the founding Indian irrigation report; vols 1 and 3 scanned."
+        "summary": "Add Cautley, Report on the Ganges Canal Works (1860) — the founding Indian irrigation report; vols 1 and 3 scanned.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35050,7 +35061,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cautley, Ganges Canal: A Disquisition (1864) — the water-supply argument; 1864 scan."
+        "summary": "Add Cautley, Ganges Canal: A Disquisition (1864) — the water-supply argument; 1864 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35060,7 +35072,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Barois, Irrigation in Egypt (1889) — the Nile works; 1889 scan."
+        "summary": "Add Barois, Irrigation in Egypt (1889) — the Nile works; 1889 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35070,7 +35083,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Egypt Irrigation Department reports (1888) — irrigation as an administration; 1888 scan."
+        "summary": "Add the Egypt Irrigation Department reports (1888) — irrigation as an administration; 1888 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35080,7 +35094,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Bengal irrigation papers (1861) — the sanitary and famine argument; 1861 scan."
+        "summary": "Add the Bengal irrigation papers (1861) — the sanitary and famine argument; 1861 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35090,7 +35105,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Mead, Rise and Future of Irrigation in the United States (1899) — the American programme; 1899 scan."
+        "summary": "Add Mead, Rise and Future of Irrigation in the United States (1899) — the American programme; 1899 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35100,7 +35116,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Craig, A Treatise on Projections (1882) — projection as mathematics; 1882 scan."
+        "summary": "Add Craig, A Treatise on Projections (1882) — projection as mathematics; 1882 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35110,7 +35127,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add White, The Ordnance Survey of the United Kingdom (1886) — the national mapping system; 1886 scan."
+        "summary": "Add White, The Ordnance Survey of the United Kingdom (1886) — the national mapping system; 1886 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35120,7 +35138,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Frome, Outline of the Method of Conducting a Trigonometrical Survey (1873) — the survey method; 1873 scan."
+        "summary": "Add Frome, Outline of the Method of Conducting a Trigonometrical Survey (1873) — the survey method; 1873 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35130,7 +35149,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Baker, Engineers' Surveying Instruments (1892) — the instrument book; 1892 scan."
+        "summary": "Add Baker, Engineers' Surveying Instruments (1892) — the instrument book; 1892 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   },
@@ -35140,7 +35160,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Euler, Drei Abhandlungen über Kartenprojection (1898 Ostwald edition) — the projection papers; 1898 scan."
+        "summary": "Add Euler, Drei Abhandlungen über Kartenprojection (1898 Ostwald edition) — the projection papers; 1898 scan.",
+        "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
   }
