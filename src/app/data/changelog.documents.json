@@ -33469,7 +33469,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Beckmann, Beyträge zur Geschichte der Erfindungen (1780–1805) — the founding history of technology; BSB scans of vols III–IV."
+        "summary": "Add Beckmann, Beyträge zur Geschichte der Erfindungen (1780–1805) — the founding history of technology; BSB scans of vols III–IV.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33479,7 +33480,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Réaumur, L'art de convertir le fer forgé en acier (1722) — the founding ferrous metallurgy; three 1722 scans."
+        "summary": "Add Réaumur, L'art de convertir le fer forgé en acier (1722) — the founding ferrous metallurgy; three 1722 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33489,7 +33491,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Descriptions des arts et métiers (1761–88, series entry) — the trade-description model; honest no-scan with the verified sugar volume linked."
+        "summary": "Add the Descriptions des arts et métiers (1761–88, series entry) — the trade-description model; honest no-scan with the verified sugar volume linked.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33499,7 +33502,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Chaptal, Chimie appliquée aux arts (1807) — the applied-chemistry programme; three of the four Wellcome volumes scanned."
+        "summary": "Add Chaptal, Chimie appliquée aux arts (1807) — the applied-chemistry programme; three of the four Wellcome volumes scanned.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33509,7 +33513,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hermbstädt technology and technical-chemistry writings (1790s–1820s, collector) — the translator channel; verified Lavoisier and Guyton de Morveau translations linked, honest no-scan note."
+        "summary": "Add Hermbstädt technology and technical-chemistry writings (1790s–1820s, collector) — the translator channel; verified Lavoisier and Guyton de Morveau translations linked, honest no-scan note.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33519,7 +33524,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Faraday, Chemical Manipulation (1827) — the bench manual; 1827 and 1831 scans."
+        "summary": "Add Faraday, Chemical Manipulation (1827) — the bench manual; 1827 and 1831 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33529,7 +33535,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Bowman, An Introduction to Practical Chemistry (1849) — the teaching course; 1849 and 1864 scans."
+        "summary": "Add Bowman, An Introduction to Practical Chemistry (1849) — the teaching course; 1849 and 1864 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33539,7 +33546,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Senefelder, A Complete Course of Lithography (1819) — the inventor's manual; three 1819 scans."
+        "summary": "Add Senefelder, A Complete Course of Lithography (1819) — the inventor's manual; three 1819 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33549,7 +33557,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Fournier, Manuel typographique (1764–66) — the typefounder's manual and the point system; 1764 and 1766 scans."
+        "summary": "Add Fournier, Manuel typographique (1764–66) — the typefounder's manual and the point system; 1764 and 1766 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33559,7 +33568,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Muybridge, Animal Locomotion (1887) — the motion photography; verified 1880 plates and 1893 zoopraxography scans."
+        "summary": "Add Muybridge, Animal Locomotion (1887) — the motion photography; verified 1880 plates and 1893 zoopraxography scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33569,7 +33579,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Marey, La machine animale (1873) — the instrumented physiology of movement; 1873 and 1886 scans."
+        "summary": "Add Marey, La machine animale (1873) — the instrumented physiology of movement; 1873 and 1886 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33579,7 +33590,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Edison and Berliner phonograph patents (1878–95, collector) — sound recording; verified 1878 article and 1895 patent extract linked."
+        "summary": "Add the Edison and Berliner phonograph patents (1878–95, collector) — sound recording; verified 1878 article and 1895 patent extract linked.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33589,7 +33601,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Gesner, A Practical Treatise on Coal, Petroleum, and Other Distilled Oils (1861) — the founding petroleum account; 1861 and 1865 scans."
+        "summary": "Add Gesner, A Practical Treatise on Coal, Petroleum, and Other Distilled Oils (1861) — the founding petroleum account; 1861 and 1865 scans.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33599,7 +33612,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Redwood, Petroleum: Its Production and Use (1887) — the industry survey; 1887 scan."
+        "summary": "Add Redwood, Petroleum: Its Production and Use (1887) — the industry survey; 1887 scan.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33609,7 +33623,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cochrane, The Present State of the Manufacture of Salt Explained (1785) — the salt-manufacture pamphlet; 1785 Wellcome scan."
+        "summary": "Add Cochrane, The Present State of the Manufacture of Salt Explained (1785) — the salt-manufacture pamphlet; 1785 Wellcome scan.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33619,7 +33634,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Letouzé, Traité pratique des travaux en asphalte (1897) — the asphalt road surface; 1897 scan."
+        "summary": "Add Letouzé, Traité pratique des travaux en asphalte (1897) — the asphalt road surface; 1897 scan.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   },
@@ -33629,7 +33645,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add The Manufacture of Glue and Gelatine (1898) — the adhesive trade compilation; 1898 Cornell scan."
+        "summary": "Add The Manufacture of Glue and Gelatine (1898) — the adhesive trade compilation; 1898 Cornell scan.",
+        "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
   }
