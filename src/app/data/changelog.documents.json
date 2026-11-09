@@ -34394,7 +34394,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add MacAdam, A Practical Essay on the Scientific Repair of Public Roads (1819) — the first statement of the road method; CIHM scan."
+        "summary": "Add MacAdam, A Practical Essay on the Scientific Repair of Public Roads (1819) — the first statement of the road method; CIHM scan.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34404,7 +34405,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rickman's Life of Thomas Telford (1838) — the works in Telford's own reports; two 1838 scans."
+        "summary": "Add Rickman's Life of Thomas Telford (1838) — the works in Telford's own reports; two 1838 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34414,7 +34416,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Parnell, A Treatise on Roads (1833) — the Telford programme argued; 1833 and 1838 scans."
+        "summary": "Add Parnell, A Treatise on Roads (1833) — the Telford programme argued; 1833 and 1838 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34424,7 +34427,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Gillespie, A Manual of Road-Making (1847) — the American textbook; 1847 and 1855 scans."
+        "summary": "Add Gillespie, A Manual of Road-Making (1847) — the American textbook; 1847 and 1855 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34434,7 +34438,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Law and Clark, The Construction of Roads and Streets (1877) — the city engineer's manual; 1877 and 1890 scans."
+        "summary": "Add Law and Clark, The Construction of Roads and Streets (1877) — the city engineer's manual; 1877 and 1890 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34444,7 +34449,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Sutcliffe, A Treatise on Canals and Reservoirs (1816) — the canal water system; 1816 scan."
+        "summary": "Add Sutcliffe, A Treatise on Canals and Reservoirs (1816) — the canal water system; 1816 scan.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34454,7 +34460,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Booth, An Account of the Liverpool and Manchester Railway (1830) — the primary record of the opening line; 1830 and 1831 scans."
+        "summary": "Add Booth, An Account of the Liverpool and Manchester Railway (1830) — the primary record of the opening line; 1830 and 1831 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34464,7 +34471,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Walker and Rastrick's Report (1831) — the Rainhill judgment; 1831 scan."
+        "summary": "Add Walker and Rastrick's Report (1831) — the Rainhill judgment; 1831 scan.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34474,7 +34482,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Simms, A Treatise on Levelling (1837) — the railway survey manual; 1837 and 1870 scans."
+        "summary": "Add Simms, A Treatise on Levelling (1837) — the railway survey manual; 1837 and 1870 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34484,7 +34493,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Brees, Railway Practice (1839–40) — the working plans; 1839, 1840 and 1859 scans."
+        "summary": "Add Brees, Railway Practice (1839–40) — the working plans; 1839, 1840 and 1859 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34494,7 +34504,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Shoolbred, Permanent Way and Rolling Stock (1878) — the European comparison; 1878 scan."
+        "summary": "Add Shoolbred, Permanent Way and Rolling Stock (1878) — the European comparison; 1878 scan.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34504,7 +34515,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cole, Notes on Permanent-Way Material (1890) — the maintenance manual; 1890 scan."
+        "summary": "Add Cole, Notes on Permanent-Way Material (1890) — the maintenance manual; 1890 scan.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34514,7 +34526,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Clark, Tramways (1878) — the street railway reference; 1878 and 1880 scans."
+        "summary": "Add Clark, Tramways (1878) — the street railway reference; 1878 and 1880 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   },
@@ -34524,7 +34537,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Glaisher et al., Travels in the Air (1871) — the balloon as instrument platform; two 1871 scans."
+        "summary": "Add Glaisher et al., Travels in the Air (1871) — the balloon as instrument platform; two 1871 scans.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
   }

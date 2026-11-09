@@ -81282,7 +81282,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the transport rows: MacAdam’s 1819 essay, Telford’s Life, Parnell’s Treatise, Gillespie’s American manual, Law and Clark’s roads and streets, Sutcliffe’s canals and reservoirs, Booth’s Liverpool and Manchester account (honest no-scan), Walker and Rastrick’s Rainhill report, Simms on levelling, Brees’s Railway Practice, Shoolbred’s permanent way, Cole’s notes, Humber’s iron bridges (pointer to the existing entry), Clark’s Tramways and Glaisher’s Travels in the Air."
+        "summary": "Add the transport rows: MacAdam’s 1819 essay, Telford’s Life, Parnell’s Treatise, Gillespie’s American manual, Law and Clark’s roads and streets, Sutcliffe’s canals and reservoirs, Booth’s Liverpool and Manchester account (honest no-scan), Walker and Rastrick’s Rainhill report, Simms on levelling, Brees’s Railway Practice, Shoolbred’s permanent way, Cole’s notes, Humber’s iron bridges (pointer to the existing entry), Clark’s Tramways and Glaisher’s Travels in the Air.",
+        "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4",
+        "before": "9075422103ea3782c7f70f2b136c465794dfecaf"
       }
     ]
   }
