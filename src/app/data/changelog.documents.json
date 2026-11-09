@@ -30207,7 +30207,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Porter, the porcelain-and-glass treatise (1832, Cabinet Cyclopaedia); 1832 and 1852 scans, cross-linked to Pellatt."
+        "summary": "Add Porter, the porcelain-and-glass treatise (1832, Cabinet Cyclopaedia); 1832 and 1852 scans, cross-linked to Pellatt.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   },
@@ -30217,7 +30218,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Dobson, the bricks-and-tiles rudimentary treatise (1850); 1850 scan, construction-materials pair with Burnell."
+        "summary": "Add Dobson, the bricks-and-tiles rudimentary treatise (1850); 1850 scan, construction-materials pair with Burnell.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   },
@@ -30227,7 +30229,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add John Johnson, Typographia, or the printer's instructor (1824); 1824 scans, cross-linked to Moxon at the trade's head."
+        "summary": "Add John Johnson, Typographia, or the printer's instructor (1824); 1824 scans, cross-linked to Moxon at the trade's head.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   },
@@ -30237,7 +30240,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hansard, Typographia - the historical sketch (1825); two 1825 scans, cross-linked to Johnson."
+        "summary": "Add Hansard, Typographia - the historical sketch (1825); two 1825 scans, cross-linked to Johnson.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   },
@@ -30247,7 +30251,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Savage, A dictionary of the art of printing (1841); 1841 scans, cross-linked to Hansard."
+        "summary": "Add Savage, A dictionary of the art of printing (1841); 1841 scans, cross-linked to Hansard.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   },
@@ -30257,7 +30262,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Southward, Practical printing (1884); 1884 and 1900 scans, a speculative publisher line stripped back to the catalogued London record."
+        "summary": "Add Southward, Practical printing (1884); 1884 and 1900 scans, a speculative publisher line stripped back to the catalogued London record.",
+        "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
   }
