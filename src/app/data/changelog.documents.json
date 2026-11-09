@@ -30152,7 +30152,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ewbank, A descriptive and historical account of hydraulic and other machines for raising water (1842); third-edition and 1876 scans, a corruption slip repaired."
+        "summary": "Add Ewbank, A descriptive and historical account of hydraulic and other machines for raising water (1842); third-edition and 1876 scans, a corruption slip repaired.",
+        "commit": "bdc6d3da62accfda44378c4bd39d69348649a2da"
       }
     ]
   },
@@ -30162,7 +30163,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Fanning, A practical treatise on water-supply engineering (1877); 1877-1891 edition scans - water engineering s first American professional reference."
+        "summary": "Add Fanning, A practical treatise on water-supply engineering (1877); 1877-1891 edition scans - water engineering s first American professional reference.",
+        "commit": "bdc6d3da62accfda44378c4bd39d69348649a2da"
       }
     ]
   },
@@ -30172,7 +30174,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Law and Burnell, Rudiments of civil engineering (Weale series, editions 1849-81); the outline title paraphrase corrected to the Rudiments title, series-continuation noted."
+        "summary": "Add Law and Burnell, Rudiments of civil engineering (Weale series, editions 1849-81); the outline title paraphrase corrected to the Rudiments title, series-continuation noted.",
+        "commit": "bdc6d3da62accfda44378c4bd39d69348649a2da"
       }
     ]
   },
@@ -30182,7 +30185,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Cullen, horizontal and vertical waterwheels (1871); honest no-scan note, cross-linked to Box 1853."
+        "summary": "Add Cullen, horizontal and vertical waterwheels (1871); honest no-scan note, cross-linked to Box 1853.",
+        "commit": "bdc6d3da62accfda44378c4bd39d69348649a2da"
       }
     ]
   },
@@ -30192,7 +30196,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Burnell, Rudimentary treatise on limes, cements, mortars, concretes, mastics, plastering (1850); honest no-scan note, cross-linked to the Rudiments; a bibtex key typo repaired."
+        "summary": "Add Burnell, Rudimentary treatise on limes, cements, mortars, concretes, mastics, plastering (1850); honest no-scan note, cross-linked to the Rudiments; a bibtex key typo repaired.",
+        "commit": "bdc6d3da62accfda44378c4bd39d69348649a2da"
       }
     ]
   }
