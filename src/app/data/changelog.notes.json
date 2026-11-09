@@ -81303,7 +81303,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Open four Ars sections for the gap analysis: Ars Aeronautica (Cayley, Lilienthal, Chanute, Means, the Aeronautical Society reports), Ars Automobilis (Gurney, Bramwell, Sloss and the patent rows), Ars Velocipedica (Garratt, the trade annual, Overman, Kalamazoo, Rice Lewis) and Ars Consutoria (Herzberg, Urquhart, the Singer manual), with cross-listed balloon rows and honest no-scan patent rows."
+        "summary": "Open four Ars sections for the gap analysis: Ars Aeronautica (Cayley, Lilienthal, Chanute, Means, the Aeronautical Society reports), Ars Automobilis (Gurney, Bramwell, Sloss and the patent rows), Ars Velocipedica (Garratt, the trade annual, Overman, Kalamazoo, Rice Lewis) and Ars Consutoria (Herzberg, Urquhart, the Singer manual), with cross-listed balloon rows and honest no-scan patent rows.",
+        "commit": "c112cfa3832b4d83d66c55ebe4afb26bfa7b7745",
+        "before": "d11db774e3b33c1eda48efedfd1a3313a70d55e2"
       }
     ]
   }
