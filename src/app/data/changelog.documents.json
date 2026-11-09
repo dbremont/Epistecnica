@@ -30350,7 +30350,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Stephens, The book of the farm (1844); 1847-1908 edition scans, cross-linked to the Rothamsted memoirs."
+        "summary": "Add Stephens, The book of the farm (1844); 1847-1908 edition scans, cross-linked to the Rothamsted memoirs.",
+        "commit": "5204cfadca13f4b889d4909b264deff2ee145766"
       }
     ]
   },
@@ -30360,7 +30361,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Thomas, The American fruit culturist (1846); late-century edition scans with honest first-edition note."
+        "summary": "Add Thomas, The American fruit culturist (1846); late-century edition scans with honest first-edition note.",
+        "commit": "5204cfadca13f4b889d4909b264deff2ee145766"
       }
     ]
   },
@@ -30370,7 +30372,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Youatt, The complete grazier (1834); 1893/1908 printings scanned with the first-edition note, cross-linked to Woburn's grasses."
+        "summary": "Add Youatt, The complete grazier (1834); 1893/1908 printings scanned with the first-edition note, cross-linked to Woburn's grasses.",
+        "commit": "5204cfadca13f4b889d4909b264deff2ee145766"
       }
     ]
   },
@@ -30380,7 +30383,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Slight, The farmer’s guide to scientific and practical agriculture (1851, 2 parts); both part scans, cross-linked to Rothamsted."
+        "summary": "Add Slight, The farmer’s guide to scientific and practical agriculture (1851, 2 parts); both part scans, cross-linked to Rothamsted.",
+        "commit": "5204cfadca13f4b889d4909b264deff2ee145766"
       }
     ]
   }
