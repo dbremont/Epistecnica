@@ -606,15 +606,11 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | British Association Committee | [*Report on the New Unit of Electrical Resistance*](/view.html?p=documents/books/baas-1865-report-electrical-resistance.md) | 1865 | Electrical standards — the absolute ohm (outline's Whitworth attribution corrected to the committee) |
 | W. & L. E. Gurley | [*A Manual of the Principal Instruments Used in American Engineering and Surveying*](/view.html?p=documents/books/gurley-1870-manual-instruments.md) | 1870 | Surveying instrumentation — the American instrument-maker's catalogue |
 | J. E. Erichsen | [*The Science and Art of Surgery*](/view.html?p=documents/books/erichsen-1853-science-and-art-surgery.md) | 1853 | Surgical methods and instruments |
-| Thomas Reid | [*A Treatise on Clock and Watch Making*](/view.html?p=documents/books/reid-1826-clock-and-watch-making.md) | 1826 | Horological mechanisms |
-| F. J. Britten | [*The Watch & Clock Makers' Handbook*](/view.html?p=documents/books/britten-1896-watchmakers-handbook.md) | 1896 | Clock and watch construction — the trade dictionary |
 | David Brewster | [*A Treatise on the Microscope*](/view.html?p=documents/books/brewster-1837-treatise-on-the-microscope.md) | 1837 | The practical microscope manual (1837 article-form) |
 | W. F. Stanley | [*A Descriptive Treatise on Mathematical Drawing Instruments*](/view.html?p=documents/books/stanley-1868-mathematical-drawing-instruments.md) | 1868 | The maker-side instrument manual |
 | Arnold & Sons | [*A Catalogue of Surgical Instruments*](/view.html?p=documents/books/arnold-1880-catalogue-surgical-instruments.md) | 1880 | The surgeon's apparatus — the trade catalogue |
-| Christiaan Huygens | [*Horologium Oscillatorium*](/view.html?p=documents/books/huygens-1673-horologium-oscillatorium-sive-motu-pendulorum.md) | 1673 | The pendulum clock's mathematical foundation |
 | L. S. Beale | [*How to Work with the Microscope*](/view.html?p=documents/books/beale-1857-how-to-work-with-the-microscope.md) | 1857 | The microscopist's bench instruction |
 | E. B. Benjamin | [*American Hand-Book of Chemical and Physical Apparatus*](/view.html?p=documents/books/benjamin-1872-american-handbook-chemical-physical-apparatus.md) | 1872 | The apparatus-maker's catalogue |
-| C. E. Fritts | [*The Watch Adjuster's Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker's precision work |
 | Robert Hooke | [*Micrographia*](/view.html?p=documents/books/hooke-1665-micrographia.md) | 1665 | The microscope turned on the small world — the founding instrument book |
 | William Molyneux | [*Dioptrica Nova*](/view.html?p=documents/books/molyneux-1692-dioptrica-nova.md) | 1692 | Telescope and microscope optics for the instrument maker |
 | W. J. 's Gravesande | [*Physices Elementa Mathematica*](/view.html?p=documents/books/gravesande-1720-physices-elementa-mathematica.md) | 1720 | The experimental philosophy taught with the apparatus |
@@ -635,7 +631,6 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Carl Edvard Johansson | *Gauge-block specifications and papers* | 1890s–1900s | The precision gauge block — interchangeable manufacture at length measure (no scan verified) |
 | Otto von Guericke | [*Experimenta Nova de Vacuo Spatio*](/view.html?p=documents/books/guericke-1672-experimenta-nova.md) | 1672 | The vacuum as instrument and art — the pneumatic tradition founded |
 | John Harrison | [*The Principles of Mr. Harrison's Time-Keeper*](/view.html?p=documents/books/harrison-1767-principles-time-keeper.md) | 1767 | The marine chronometer explained and drawn for the Board of Longitude |
-| Ferdinand Berthoud | [*Traité des Horloges Marines; les Longitudes*](/view.html?p=documents/books/berthoud-1773-horloges-marines.md) | 1773 | The French marine chronometer trade beside the English |
 | Robert Boyle | *New Experiments Physico-Mechanicall, Touching the Spring of the Air* | 1660 | The air pump experiments described (no scan verified) |
 | Gemma Frisius | *Libellus de Locorum Describendorum Ratione* | 1533 | Triangulation invented for survey and map (no scan verified) |
 | Daniel Gabriel Fahrenheit | [*Experimenta et Observationes de Congelatione Aquae in Vacuo*](/view.html?p=documents/books/fahrenheit-1724-phil-trans.md) | 1724 | The mercury thermometer and the scale printed for the Royal Society |
@@ -670,6 +665,30 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | John Snow | [*On the Inhalation of the Vapour of Ether in Surgical Operations*](/view.html?p=documents/books/snow-1847-inhalation-ether.md) | 1847 | The ether inhaler and the dosage of anaesthesia measured |
 | John Snow | *On Chloroform and Other Anaesthetics* | 1858 | The chloroform dosage, the apparatus and the fatalities of the anaesthetic trade (no scan verified) |
 | Gabriel Mouton | *The geodetic decimal measure proposed from the minute of the meridian* | 1670 | The decimal, earth-derived measure proposed a century before the metre (no scan verified) |
+
+## Ars Horologia
+
+> The clock and the watch as the precision machine: the escapement, the pendulum, the balance spring, the marine timekeeper, and the workshop literature of the horological trade.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Thomas Reid | [*A Treatise on Clock and Watch Making*](/view.html?p=documents/books/reid-1826-clock-and-watch-making.md) | 1826 | Horological mechanisms |
+| F. J. Britten | [*The Watch & Clock Makers' Handbook*](/view.html?p=documents/books/britten-1896-watchmakers-handbook.md) | 1896 | Clock and watch construction — the trade dictionary |
+| Christiaan Huygens | [*Horologium Oscillatorium*](/view.html?p=documents/books/huygens-1673-horologium-oscillatorium-sive-motu-pendulorum.md) | 1673 | The pendulum clock's mathematical foundation |
+| C. E. Fritts | [*The Watch Adjuster's Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker's precision work |
+| Ferdinand Berthoud | [*Traité des Horloges Marines; les Longitudes*](/view.html?p=documents/books/berthoud-1773-horloges-marines.md) | 1773 | The French marine chronometer trade beside the English |
+| Christiaan Huygens | *Horologium (the pendulum clock announced)* | 1658 | The pendulum as the clock's regulator, with the geometry and the maker's instruction (no scan verified) |
+| Robert Hooke | *The balance-spring watch papers; A Description of Helioscopes* | 1675-76 | The spiral spring as the watch regulator claimed (no scan verified) |
+| William Derham | *The Artificial Clock-Maker* | 1696 | The clock trade taught: pendulum, balance, escapements and the equation of time (no scan verified) |
+| Antoine Thiout | *Traité de l'horlogerie mécanique et pratique* | 1741 | The workshop treatise with the tools, the escapements and the equation tables (no scan verified) |
+| Pierre Le Roy | *Mémoires sur la meilleure manière de construire les horloges marines* | 1766-73 | The detached escapement and the marine timekeeper of the French school (no scan verified) |
+| John Harrison | *A Description concerning such Mechanism as will afford a Nice or True Mensuration of Time* | 1775 | The longitude timekeeper described by its maker (no scan verified) |
+| Thomas Mudge | *A Narrative of the Construction of Mr. Mudge's Timekeepers* | 1799 | The detached lever escapement and the longitude watch (no scan verified) |
+| Thomas Earnshaw | *An Appeal to the Public, Stating the Discovery of the Longitude* | 1805 | The spring detent escapement and the compensation balance (no scan verified) |
+| John Arnold | *The longitude watch and the compensation-balance papers* | 1770s-90s | The English chronometer trade of the Arnold workshop (no scan verified) |
+| Abraham-Louis Breguet | *The Breguet workshop papers, patents and the sympathique clock* | 1790s-1820s | The precision watch and clock trade of the Paris workshop (no scan verified) |
+| Louis Moinet | *Nouveau traité d'horlogerie* | 1844 | The chronograph and the workshop practice of the watch trade (no scan verified) |
+| Claudius Saunier | *Traité d'horlogerie moderne* | 1861 | The modern watch and clock trade in its manual (no scan verified) |
 
 ## Ars Elastica
 
@@ -1412,6 +1431,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | David Steel; Darcy Lever; Robert Kipping | *The Art of Rigging; Sailmaking; Young Sea Officer Sheet Anchor; The Elements of Sailmaking* | 1794–1847 | The rigging and sailmaking trade manuals of the British merchant fleet (no scan verified) |
 | William Thomson | *Dry-card mariner compass and piano-wire sounding machine papers* | 1876 | The compensated dry-card compass and the sounding trade (no scan verified) |
 | Aḥmad ibn Mājid | *Kitab al-Fawaid fi Usul Ilm al-Bahr (Indian Ocean navigation)* | c. 1490 | The kamal and monsoon trade navigated by the Arab pilot (no scan verified) |
+| John Charnock | *An History of Marine Architecture* | 1800-02 | The historical survey of the ship and its building (no scan verified) |
+| William Fairbairn | *Treatise on Iron Ship Building* | 1865 | The iron hull argued from the testing house (no scan verified) |
 
 ## Ars Photographia
 

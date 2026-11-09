@@ -81453,6 +81453,11 @@
         "summary": "Name the works that merged rows had hidden. The Cato/Varro/Columella/Palladius row now carries De Agri Cultura, Res Rusticae, De Re Rustica and Opus Agriculturae instead of \"Roman agricultural treatises\"; Ibn al-Haytham carries Kitab al-Manazir beside the 1572 Opticae Thesaurus; al-Jazari carries the full Al-Jami bayna al-ilm wa-al-amal title; Hero carries the Cheirobolistra and the Mechanica preserved in Qusta ibn Luqa; the Ahmes row carries the Moscow Mathematical Papyrus; Anthemius carries On Burning Mirrors; Heraclius carries De Coloribus; the Corpus Agrimensorum row names Hyginus Gromaticus, Balbus and Siculus Flaccus; Francesco di Giorgio carries the Promis edition; the artesian-well row carries J. Chaudron; and al-Jazari's description names the camshafts, crank-and-connecting-rod pumps, segmental gears, combination locks and box sand casting.",
         "commit": "189e847f788b3851b27190f42403e9d79e52b650",
         "before": "41b1f17ef00cc2912a12347337d9de10d001cace"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the missing branch: Ars Horologia. The clock and watch had no section of their own and only five works (Reid, Britten, Huygens's Horologium Oscillatorium, Fritts, Berthoud) scattered through Instrumentalis. The five move into the new section and twelve are added: Huygens's Horologium (1658), the Hooke balance-spring papers, Derham's Artificial Clock-Maker (1696), Thiout (1741), Le Roy's marine-clock memoirs (1766-73), Harrison's Description concerning such Mechanism (1775), Mudge (1799), Earnshaw (1805), the Arnold papers, the Breguet workshop papers, Moinet (1844) and Saunier (1861). Two naval-architecture works join Navalis: Charnock's History of Marine Architecture (1800-02) and Fairbairn's Treatise on Iron Ship Building (1865). The guide now has 50 Ars sections and 1,337 rows."
       }
     ]
   }
