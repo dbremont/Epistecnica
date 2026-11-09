@@ -29551,5 +29551,75 @@
         "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
+  },
+  {
+    "file_path": "books/gilchrist-1887-basic-process.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gilchrist's basic-process papers (1889 outline year; dated 1877-89 patent era) - steelmaking's second revolution; honest no-scan note with the later process literature linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bessemer-1856-manufacture-without-fuel.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bessemer's 1856 BAAS disclosure - steel without fuel; honest no-scan note on the meeting report with the 1905 autobiography chapter scan linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/greenwood-1884-steel-and-iron.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Greenwood, Steel and iron (1884) - practice and theory of every manufacturing method; three 1884 scans, cross-linked to Percy 1864."
+      }
+    ]
+  },
+  {
+    "file_path": "books/percy-1861-metallurgy-copper-zinc-brass.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the non-ferrous volumes of Percy, Metallurgy: copper, zinc, and brass (1861-65); 1861 scans, cross-linked to the ferrous volumes in the collection."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thaer-1809-principles-of-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thaer, Grundsatze der rationellen Landwirtschaft (1809-12), English 1844; 1844/1858 translation scans with the German first-edition note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lawes-gilbert-rothamsted-memoirs.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Lawes and Gilbert Rothamsted memoirs as a paper series (1840s-90s), the collected volumes scanned; plant nutrition carried to the field trials."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sinclair-1816-hortus-gramineus.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sinclair, Hortus gramineus Woburnensis (1816), 1820s printings scanned; experimental grass chemistry"
+      }
+    ]
   }
 ]
