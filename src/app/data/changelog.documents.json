@@ -30807,7 +30807,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the 1819 Description-of-the-process scans (three copies) into the held Accum entry - the outline's separate 1819 rows merge into it, honest links added."
+        "summary": "Add the 1819 Description-of-the-process scans (three copies) into the held Accum entry - the outline's separate 1819 rows merge into it, honest links added.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f",
+        "before": "07fbb7f4ba2f35f58198585d78f9b2fcd7d8ba54"
       }
     ]
   },
@@ -30872,7 +30874,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ure, The cotton manufacture of Great Britain (1836, 2 vols); 1836 and 1861 scans, the factory machinery systematic between the held Philosophy and Baines."
+        "summary": "Add Ure, The cotton manufacture of Great Britain (1836, 2 vols); 1836 and 1861 scans, the factory machinery systematic between the held Philosophy and Baines.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30882,7 +30885,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Alexander Brown, power-loom construction treatise (1876); 1883/1887 printings scanned with the first-edition note."
+        "summary": "Add Alexander Brown, power-loom construction treatise (1876); 1883/1887 printings scanned with the first-edition note.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30892,7 +30896,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Nasmith, The modern cotton carding engine (1887); honest no-scan note, the later Nasmith works linked."
+        "summary": "Add Nasmith, The modern cotton carding engine (1887); honest no-scan note, the later Nasmith works linked.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30902,7 +30907,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Parnell's applied chemistry, dyeing and calico printing (1844; 1860 practical-treatise printing scanned), between O'Neill and Sansone."
+        "summary": "Add Parnell's applied chemistry, dyeing and calico printing (1844; 1860 practical-treatise printing scanned), between O'Neill and Sansone.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30912,7 +30918,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Sansone, The printing of cotton fabrics (1887); 1887 scan, the Heywood finishing manual."
+        "summary": "Add Sansone, The printing of cotton fabrics (1887); 1887 scan, the Heywood finishing manual.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30922,7 +30929,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Tredgold, the warming and ventilating principles (1824); 1824 scan, the building-services founding treatise, cross-linked to the strength and carpentry volumes."
+        "summary": "Add Tredgold, the warming and ventilating principles (1824); 1824 scan, the building-services founding treatise, cross-linked to the strength and carpentry volumes.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30932,7 +30940,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Fairbairn, cast and wrought iron to building purposes (1854); 1857/1858 printings with the first-edition note, cross-linked to the held mills-and-millwork."
+        "summary": "Add Fairbairn, cast and wrought iron to building purposes (1854); 1857/1858 printings with the first-edition note, cross-linked to the held mills-and-millwork.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30942,7 +30951,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Snelling, the history and practice of photography (1849); 1853 edition scan and Gutenberg transcription, the American daguerrean trade instruction."
+        "summary": "Add Snelling, the history and practice of photography (1849); 1853 edition scan and Gutenberg transcription, the American daguerrean trade instruction.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30952,7 +30962,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Charles Russell, The tannin process (1861); 1863 scans and appendix linked with the first-edition note, the dry-plate pamphlet beside the held wet-plate manuals."
+        "summary": "Add Charles Russell, The tannin process (1861); 1863 scans and appendix linked with the first-edition note, the dry-plate pamphlet beside the held wet-plate manuals.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30962,7 +30973,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Anderson, The skylight and the dark-room (1872); 1872 scan - the studio-and-darkroom construction manual."
+        "summary": "Add Anderson, The skylight and the dark-room (1872); 1872 scan - the studio-and-darkroom construction manual.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30972,7 +30984,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hearn, The practical printer (1874); 1874 and 1878 scans, the printing-room manual beside Abney."
+        "summary": "Add Hearn, The practical printer (1874); 1874 and 1878 scans, the printing-room manual beside Abney.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30982,7 +30995,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wilson, Cyclopedic photography (1894); both 1894 scans, the encyclopedic close of the photography shelf."
+        "summary": "Add Wilson, Cyclopedic photography (1894); both 1894 scans, the encyclopedic close of the photography shelf.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   },
@@ -30992,7 +31006,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Phillips, A treatise on ore deposits (1884); 1896 second-edition scans with the first-edition note, a corruption slip repaired, the geological side of the held Elements."
+        "summary": "Add Phillips, A treatise on ore deposits (1884); 1896 second-edition scans with the first-edition note, a corruption slip repaired, the geological side of the held Elements.",
+        "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
   }
