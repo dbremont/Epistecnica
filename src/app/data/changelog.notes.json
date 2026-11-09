@@ -81292,6 +81292,11 @@
         "summary": "Add the naval rows: Bouguer’s Traité du navire, Euler’s Scientia Navalis and Jorge Juan’s Examen marítimo, Atwood’s Disquisition on stability, Lloyd’s Register as a classification series (honest no-scan), the Smith–Ericsson screw-propeller patents (honest no-scan), the Admiralty Manual of Scientific Enquiry, Reed’s Shipbuilding in Iron and Steel, White’s Manual of Naval Architecture, Barnaby’s Marine Propellers and Attwood’s Text-book at the 1899 boundary.",
         "commit": "c2870318700521b83bc6ca44772fcb80735c69fb",
         "before": "25288c39db05b356b850ae19326ca6371d6cc9c2"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the photographic rows: Herschel’s 1840 paper on the chemical action of the rays, Archer on the collodion process, Legros’s Le Soleil de la photographie, Brewster’s Stereoscope, Vogel’s and Eder’s handbooks, Koppe’s Photogrammetrie, Channing’s photo-mechanical processes, the Eastman catalogue of dry plates and film, and Maddox’s gelatino-bromide communication (honest no-scan)."
       }
     ]
   }

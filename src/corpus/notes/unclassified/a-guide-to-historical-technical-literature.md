@@ -717,6 +717,16 @@ qa:
 | Charles W. Hearn | [*The Practical Printer*](/view.html?p=documents/books/hearn-1874-practical-printer.md) | 1874 | Photographic printing practice |
 | Edward L. Wilson | [*Wilson's Cyclopedic Photography*](/view.html?p=documents/books/wilson-1894-cyclopedic-photography.md) | 1894 | Photographic apparatus, processes, chemicals — the encyclopædia |
 | John Towler | [*The Silver Sunbeam*](/view.html?p=documents/books/towler-1864-silver-sunbeam.md) | 1864 | The comprehensive American operations manual |
+| J. F. W. Herschel | [*On the Chemical Action of the Rays of the Solar Spectrum*](/view.html?p=documents/books/herschel-1840-chemical-action-solar-spectrum.md) | 1840 | Light on silver mapped — photography named and fixed (paper) |
+| F. S. Archer | [*A Manual of the Collodion Photographic Process*](/view.html?p=documents/books/archer-1852-manual-collodion-process.md) | 1852 | The wet collodion process taught step by step |
+| Adolphe Legros | [*Le Soleil de la Photographie*](/view.html?p=documents/books/legros-1863-soleil-de-la-photographie.md) | 1863 | The complete studio practice between collodion and dry plate |
+| David Brewster | [*The Stereoscope: Its History, Theory, and Construction*](/view.html?p=documents/books/brewster-1856-the-stereoscope.md) | 1856 | Binocular vision and the stereo trade |
+| H. W. Vogel | [*Handbuch der Photographie*](/view.html?p=documents/books/vogel-1890-handbuch-der-photographie.md) | 1890 | The process made a measurable science |
+| J. M. Eder | [*Ausführliches Handbuch der Photographie*](/view.html?p=documents/books/eder-1899-ausfuehrliches-handbuch.md) | 1899 | The art and its history documented together |
+| Carl Koppe | [*Photogrammetrie und Internationale Wolkenmessung*](/view.html?p=documents/books/koppe-1896-photogrammetrie.md) | 1896 | The photograph used to measure the ground |
+| C. F. Channing | [*Photo-Mechanical Processes*](/view.html?p=documents/books/channing-1890-photo-mechanical-processes.md) | 1890 | The photograph turned into a printing surface |
+| Eastman Dry Plate and Film Co. | [*Illustrated Catalogue and Price List*](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md) | 1886 | Photography sold as manufactured goods |
+| R. L. Maddox | [*An Experiment with Gelatino-Bromide*](/view.html?p=documents/books/maddox-1871-gelatino-bromide-dry-plate.md) | 1871 | The gelatine dry plate proposed — photography made portable (honest no-scan) |
 
 ## Representative Sources (a sample, not the corpus)
 
