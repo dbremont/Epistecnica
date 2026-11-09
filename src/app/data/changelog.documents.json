@@ -35164,5 +35164,115 @@
         "commit": "c0c725a44efca5ba35d9452d31231894a3dfe388"
       }
     ]
+  },
+  {
+    "file_path": "books/faraday-1896-liquefaction-of-gases.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Faraday, The Liquefaction of Gases (1896 Alembic Club reprint) — the founding liquefaction papers; 1896 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dewar-1900-liquid-hydrogen.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Dewar, Liquid Hydrogen (1900) — liquid hydrogen and the vacuum flask; 1900 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wood-1889-thermodynamics-refrigerating-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wood, Thermodynamics, Heat Motors, and Refrigerating Machines (1889) — the refrigeration cycle; 1889 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/frick-1890-eclipse-refrigerating-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Frick \"Eclipse\" refrigerating catalogue (1890) — the cold-storage plant; 1890 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/british-pharmacopoeia-1864.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the British Pharmacopoeia (1864) — the national formulary; 1864 and 1867 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mohr-1849-practical-pharmacy.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mohr (tr. Procter), Practical Pharmacy (1849) — the shop craft; 1849 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/simpson-1885-organic-materia-medica.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Simpson, Organic Materia Medica and Therapeutics (1885) — materia medica; 1885 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wood-1877-united-states-pharmacopoeia.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wood, The United States Pharmacopoeia and the American Medical Association (1877) — the professional standard; 1877 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/apha-1880-report-revision-usp.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the APhA Report on the Revision of the U.S. Pharmacopoeia (1880) — the revision papers; 1880 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/culpeper-pharmacopoeia-londinensis.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Culpeper, Pharmacopoeia Londinensis (later edition) — the vernacular dispensatory; scanned copy."
+      }
+    ]
+  },
+  {
+    "file_path": "books/weld-1888-quinine-hydrochlorate.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Weld, Improvements in the Manufacture of Hydrochlorate of Quinine (1888) — the alkaloid patent; 1888 scan."
+      }
+    ]
   }
 ]

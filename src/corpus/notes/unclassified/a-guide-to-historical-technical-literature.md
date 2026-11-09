@@ -836,6 +836,35 @@ qa:
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument (cross-listed from Telluris) |
 | William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science (cross-listed from Telluris) |
 
+## Ars Cryogenica
+
+> Low-temperature engineering — the liquefaction of the permanent gases, liquid hydrogen and the vacuum flask, and the refrigeration practice the cold machine grew out of.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Michael Faraday | [*The Liquefaction of Gases: Papers, 1823–1845*](/view.html?p=documents/books/faraday-1896-liquefaction-of-gases.md) | 1823–45 (ed. 1896) | The permanent gases condensed — apparatus and cooling baths |
+| James Dewar | [*Liquid Hydrogen*](/view.html?p=documents/books/dewar-1900-liquid-hydrogen.md) | 1900 | Liquid hydrogen produced — the vacuum flask at the lowest temperatures |
+| De Volson Wood | [*Thermodynamics, Heat Motors, and Refrigerating Machines*](/view.html?p=documents/books/wood-1889-thermodynamics-refrigerating-machines.md) | 1889 | The refrigerating cycle calculated — heat engine and cold machine as one subject |
+| Frick Company | [*"Eclipse" Refrigerating Machines for Cold Storage Depots*](/view.html?p=documents/books/frick-1890-eclipse-refrigerating-machines.md) | 1890 | Mechanical cooling sold as an installed industrial plant |
+| Raoul Pictet & Louis Paul Cailletet | *The liquefaction of oxygen* | 1877 | The first permanent gas condensed (no scan verified) |
+| Carl von Linde | *The air-liquefaction process and machine* | 1895 | Air liquefied by regenerative cooling (no scan verified) |
+| William Hampson | *The Hampson air-liquefaction machine* | 1895 | The compact regenerator and the liquid-air plant (no scan verified) |
+
+## Ars Pharmaceutica
+
+> The pharmaceutical standard and the manufacturing shop — the pharmacopoeias, the dispensing manuals, materia medica, and the alkaloid patent that turned a drug into a chemical product.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| General Medical Council | [*The British Pharmacopoeia*](/view.html?p=documents/books/british-pharmacopoeia-1864.md) | 1864 | The national formulary — preparations, processes and tests |
+| Friedrich Mohr (tr. William Procter Jr.) | [*Practical Pharmacy*](/view.html?p=documents/books/mohr-1849-practical-pharmacy.md) | 1849 | The apothecary's shop and laboratory — apparatus and manipulations |
+| J. Y. Simpson | [*Organic Materia Medica and Therapeutics*](/view.html?p=documents/books/simpson-1885-organic-materia-medica.md) | 1885 | The vegetable drugs and the isolated alkaloids against the U.S. Pharmacopoeia |
+| H. C. Wood Jr. | [*The United States Pharmacopoeia and the American Medical Association*](/view.html?p=documents/books/wood-1877-united-states-pharmacopoeia.md) | 1877 | The national formulary argued as a professional standard |
+| American Pharmaceutical Association | [*Report on the Revision of the U.S. Pharmacopoeia*](/view.html?p=documents/books/apha-1880-report-revision-usp.md) | 1880 | The pharmacists' working papers for the national standard |
+| Nicholas Culpeper | [*Pharmacopoeia Londinensis*](/view.html?p=documents/books/culpeper-pharmacopoeia-londinensis.md) | 1649 (later ed.) | The official formulary translated and expanded for the shop |
+| Loretta Barton Weld | [*Improvements in the Manufacture of Hydrochlorate of Quinine*](/view.html?p=documents/books/weld-1888-quinine-hydrochlorate.md) | 1888 | The alkaloid salt patented — quinine as an industrial product |
+| Pelletier & Caventou | *Papers on the isolation of the alkaloids (strychnine, quinine, brucine)* | 1817–20 | The alkaloids isolated — the drug made a chemical substance (no scan verified) |
+
 ## References
 
 - [Science History Institute — Muspratt, vol. I](https://digital.sciencehistory.org/works/g00ak0n)
