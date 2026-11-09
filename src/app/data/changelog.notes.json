@@ -81250,6 +81250,11 @@
         "summary": "Add the energy rows: Papin’s digester and its continuation, the Watt, Hornblower, Trevithick–Woolf, Otto–Langen, Atkinson, Stirling–Ericsson and Rateau–Curtis patent collectors, Evans’s American high-pressure guide, Maxwell’s Theory of Heat, Boltzmann’s Gastheorie, Gibbs’s statistical mechanics at the 1902 boundary, Grashof’s Theoretische Maschinenlehre, de Laval’s turbine papers and Mouchot’s solar treatise.",
         "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2",
         "before": "48964f4c84dfd7b58f906997034b380e3dd43b26"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the food rows: Accum’s Culinary Chemistry, Rundell’s, Acton’s, Soyer’s, Francatelli’s, Carême’s and Beeton’s cookery books, Skuse’s confectionery manual, Marah on coffee and Money on tea, Hassall’s Food and Its Adulterations, Liebig’s Extract of Meat, Tichborne’s mineral waters, Whymper’s cocoa and chocolate at the 1912 boundary, and the Mège-Mouriès margarine patent collector."
       }
     ]
   }

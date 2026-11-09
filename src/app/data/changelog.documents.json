@@ -33814,5 +33814,155 @@
         "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
+  },
+  {
+    "file_path": "books/accum-1821-culinary-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Accum, Culinary Chemistry (1821) — the kitchen's chemistry; two 1821 Wellcome scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rundell-1806-new-system-domestic-cookery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rundell, A New System of Domestic Cookery (1806) — the household book; 1814, 1818 and 1860 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/careme-1828-cuisinier-parisien.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Carême, Le Cuisinier parisien (1828) — the systematized cuisine; 1828 and 1842 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/acton-1845-modern-cookery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Acton, Modern Cookery (1845) — the reforming household cookery; three later-printing scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/soyer-1854-shilling-cookery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Soyer, A Shilling Cookery for the People (1854) — the public kitchen; two 1854 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/francatelli-1846-modern-cook.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Francatelli, The Modern Cook (1846) — the professional kitchen; 1860 and 1862 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/beeton-1861-book-of-household-management.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Beeton, The Book of Household Management (1861) — the household encyclopaedia; two 1880 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/skuse-1883-confectioners-handbook.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Skuse, The Confectioners' Hand-Book (1883) — the confectionery trade manual; 1883 Wellcome scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/marah-1849-coffee-cultivation-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Marah, An Essay on the Cultivation and Manufacture of Coffee (1849) — the plantation process; 1849 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/money-1878-cultivation-manufacture-tea.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Money, The Cultivation and Manufacture of Tea (1878) — the tea plantation; 1878 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hassall-1855-food-and-its-adulterations.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hassall, Food and Its Adulterations (1855) — the founding food-analysis text; three 1855 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/liebig-1872-extract-of-meat.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Liebig, Extract of Meat (1872) — the industrial food extract; 1872 Wellcome scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tichborne-1883-mineral-waters-europe.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Tichborne, The Mineral Waters of Europe (1883) — the bottled-water manufacture; 1883 and Struve 1823 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/whymper-1912-cocoa-and-chocolate.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Whymper, Cocoa and Chocolate (1912) — the chocolate manufacture, boundary year stated; 1912 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mege-mouries-1869-margarine-patent.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Mège-Mouriès margarine patent (1869–, collector) — the designed fat; honest no-scan note."
+      }
+    ]
   }
 ]

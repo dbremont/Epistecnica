@@ -510,6 +510,21 @@ qa:
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
 | Samuel McHarry | [*The Practical Distiller*](/view.html?p=documents/books/mcharry-1809-practical-distiller.md) | 1809 | The American distiller’s own manual |
 | P. Duplais | [*A Treatise on the Manufacture and Distillation of Alcoholic Liquors*](/view.html?p=documents/books/duplais-1871-alcoholic-liquors.md) | 1871 | The French distiller’s treatise |
+| Friedrich Accum | [*Culinary Chemistry*](/view.html?p=documents/books/accum-1821-culinary-chemistry.md) | 1821 | Cookery explained by its chemical principles |
+| Maria Rundell | [*A New System of Domestic Cookery*](/view.html?p=documents/books/rundell-1806-new-system-domestic-cookery.md) | 1806 | The domestic kitchen organized by economy and method |
+| M.-A. Carême | [*Le Cuisinier Parisien*](/view.html?p=documents/books/careme-1828-cuisinier-parisien.md) | 1828 | The grande cuisine systematized |
+| Eliza Acton | [*Modern Cookery, for Private Families*](/view.html?p=documents/books/acton-1845-modern-cookery.md) | 1845 | The receipts reduced to tested system |
+| Alexis Soyer | [*A Shilling Cookery for the People*](/view.html?p=documents/books/soyer-1854-shilling-cookery.md) | 1854 | Good food costed and taught — the kitchen as reform |
+| C. E. Francatelli | [*The Modern Cook*](/view.html?p=documents/books/francatelli-1846-modern-cook.md) | 1846 | The Carême tradition in English practice |
+| Isabella Beeton | [*The Book of Household Management*](/view.html?p=documents/books/beeton-1861-book-of-household-management.md) | 1861 | The household entered as a system |
+| E. Skuse | [*The Confectioners' Hand-Book*](/view.html?p=documents/books/skuse-1883-confectioners-handbook.md) | 1883 | Sugar boiling and the confectioner's bench |
+| W. H. Marah | [*An Essay on the Cultivation and Manufacture of Coffee*](/view.html?p=documents/books/marah-1849-coffee-cultivation-manufacture.md) | 1849 | Coffee grown and prepared for market |
+| Edward Money | [*The Cultivation and Manufacture of Tea*](/view.html?p=documents/books/money-1878-cultivation-manufacture-tea.md) | 1878 | Tea grown and manufactured in the field |
+| Arthur Hill Hassall | [*Food and Its Adulterations*](/view.html?p=documents/books/hassall-1855-food-and-its-adulterations.md) | 1855 | The microscope turned on the shop — food analysis as regulation |
+| Justus von Liebig | [*Extract of Meat*](/view.html?p=documents/books/liebig-1872-extract-of-meat.md) | 1872 | A preserved food argued from chemistry — the industrial extract |
+| C. R. C. Tichborne | [*The Mineral Waters of Europe*](/view.html?p=documents/books/tichborne-1883-mineral-waters-europe.md) | 1883 | Springs surveyed and artificial waters made to match |
+| Robert Whymper | [*Cocoa and Chocolate: Their Chemistry and Manufacture*](/view.html?p=documents/books/whymper-1912-cocoa-and-chocolate.md) | 1912 (boundary) | The confectionery commodity written up from the works |
+| H. Mège-Mouriès | [*Margarine patents*](/view.html?p=documents/books/mege-mouries-1869-margarine-patent.md) | 1869– | The butter substitute designed from fat chemistry |
 
 ## Ars Acustica
 
