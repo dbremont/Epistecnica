@@ -31977,7 +31977,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Structure repair: the Bagot and Chatard honest no-scan rows folded into the entry notes per the boundary precedent."
+        "summary": "Structure repair: the Bagot and Chatard honest no-scan rows folded into the entry notes per the boundary precedent.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32142,7 +32143,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Structure repair: two Arabic-script corruption slips in the QA line repaired post-commit sweep."
+        "summary": "Structure repair: two Arabic-script corruption slips in the QA line repaired post-commit sweep.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32372,7 +32374,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Davy, On the safety lamp (1817/1825); two scans, the mine-safety branch founding beside the held recovery-work manual."
+        "summary": "Add Davy, On the safety lamp (1817/1825); two scans, the mine-safety branch founding beside the held recovery-work manual.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32382,7 +32385,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Felkin, machine-wrought hosiery and lace manufactures (1867); two scans, the hosiery-and-lace branch."
+        "summary": "Add Felkin, machine-wrought hosiery and lace manufactures (1867); two scans, the hosiery-and-lace branch.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32392,7 +32396,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Killebrew, Tobacco leaf: culture, cure, marketing and manufacture (1897); scan found and entered with the 1900 companion noted."
+        "summary": "Add Killebrew, Tobacco leaf: culture, cure, marketing and manufacture (1897); scan found and entered with the 1900 companion noted.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32402,7 +32407,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Depierre, finishing of white, dyed and printed cotton goods (1889); scan found, the textile-finishing branch entered."
+        "summary": "Add Depierre, finishing of white, dyed and printed cotton goods (1889); scan found, the textile-finishing branch entered.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   },
@@ -32412,7 +32418,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Rix and Chodzko, compressed air and pneumatic machinery (1896); two 1896 scans - the file was discovered missing after the guide link was tested, closing the pneumatic branch properly."
+        "summary": "Add Rix and Chodzko, compressed air and pneumatic machinery (1896); two 1896 scans - the file was discovered missing after the guide link was tested, closing the pneumatic branch properly.",
+        "commit": "7d5635ec3e57ac4439bb4b544eaf18ea9bbcc60b"
       }
     ]
   }
