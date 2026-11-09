@@ -32467,7 +32467,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ramelli, Le diverse et artificiose machine (1588) - the founding printed machine-book, Getty scan."
+        "summary": "Add Ramelli, Le diverse et artificiose machine (1588) - the founding printed machine-book, Getty scan.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32477,7 +32478,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Zonca, Novo teatro di machine (1607) - the Padua theatre after Ramelli; 1607 scans."
+        "summary": "Add Zonca, Novo teatro di machine (1607) - the Padua theatre after Ramelli; 1607 scans.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32487,7 +32489,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Willis, Principles of mechanism (1841) - the mechanism theory between Hachette and Reuleaux; two scans."
+        "summary": "Add Willis, Principles of mechanism (1841) - the mechanism theory between Hachette and Reuleaux; two scans.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32497,7 +32500,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Lavoisier, Traite elementaire de chimie (1789) - the chemical revolution founding text; Gutenberg transcription (no archive scan verified)."
+        "summary": "Add Lavoisier, Traite elementaire de chimie (1789) - the chemical revolution founding text; Gutenberg transcription (no archive scan verified).",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32507,7 +32511,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Dalton, A new system of chemical philosophy (1808-10); BSB scan, the atomic theory beside Lavoisier."
+        "summary": "Add Dalton, A new system of chemical philosophy (1808-10); BSB scan, the atomic theory beside Lavoisier.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32517,7 +32522,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Roscoe and Schorlemmer, A treatise on chemistry (1877); Macmillan edition scans, the advanced reference beside Wurtz and Thorpe."
+        "summary": "Add Roscoe and Schorlemmer, A treatise on chemistry (1877); Macmillan edition scans, the advanced reference beside Wurtz and Thorpe.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32527,7 +32533,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wurtz, Dictionnaire de chimie pure et appliquee (1869); 1869 first volume and later printing, the French reference dictionary."
+        "summary": "Add Wurtz, Dictionnaire de chimie pure et appliquee (1869); 1869 first volume and later printing, the French reference dictionary.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32537,7 +32544,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Roberts-Austen, An introduction to metallurgy (1891); two scans, the metallography boundary beside Percy."
+        "summary": "Add Roberts-Austen, An introduction to metallurgy (1891); two scans, the metallography boundary beside Percy.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32547,7 +32555,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Finley suspension-chain patent description (1810, @misc) - the American suspension bridge origin; honest patent-archives record."
+        "summary": "Add Finley suspension-chain patent description (1810, @misc) - the American suspension bridge origin; honest patent-archives record.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32557,7 +32566,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Peter Barlow, Strength of materials (1837) - the strength tables between Tredgold and Rankine; entered without a space-verified archive scan (held record)."
+        "summary": "Add Peter Barlow, Strength of materials (1837) - the strength tables between Tredgold and Rankine; entered without a space-verified archive scan (held record).",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32567,7 +32577,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hodgkinson pillar-strength researches (1840, @misc - Phil. Trans. and the Royal Institution record), the experimental pillar economy Fairbairn built on."
+        "summary": "Add Hodgkinson pillar-strength researches (1840, @misc - Phil. Trans. and the Royal Institution record), the experimental pillar economy Fairbairn built on.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32577,7 +32588,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Baker, Long-span railway bridges (1873) - the Forth Bridge designer manual; honest no-scan per the boundary tradition."
+        "summary": "Add Baker, Long-span railway bridges (1873) - the Forth Bridge designer manual; honest no-scan per the boundary tradition.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32587,7 +32599,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Franklin, Experiments and observations on electricity (1751); 1754 and 1769 scans, the electrical branch founding manual."
+        "summary": "Add Franklin, Experiments and observations on electricity (1751); 1754 and 1769 scans, the electrical branch founding manual.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32597,7 +32610,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Galvani, De viribus electricitatis (1792); 1792 Bologna scans, the muscle electricity founding."
+        "summary": "Add Galvani, De viribus electricitatis (1792); 1792 Bologna scans, the muscle electricity founding.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32607,7 +32621,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Smee, Elements of electro-metallurgy (1843); 1843 scan, the deposition economy founder."
+        "summary": "Add Smee, Elements of electro-metallurgy (1843); 1843 scan, the deposition economy founder.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32617,7 +32632,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Maxwell, A treatise on electricity and magnetism (1873) - the theoretical frame the engineering assumed; archive print."
+        "summary": "Add Maxwell, A treatise on electricity and magnetism (1873) - the theoretical frame the engineering assumed; archive print.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32627,7 +32643,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Savery, The miners friend (1702) - the steam-pump founding manual; Gutenberg transcription and the later Google print."
+        "summary": "Add Savery, The miners friend (1702) - the steam-pump founding manual; Gutenberg transcription and the later Google print.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32637,7 +32654,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Smeaton, Experimental enquiry concerning water and wind powers (1794); 1794 and BSB 1813 scans, the 18th-century testing economy."
+        "summary": "Add Smeaton, Experimental enquiry concerning water and wind powers (1794); 1794 and BSB 1813 scans, the 18th-century testing economy.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32647,7 +32665,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Pambour, Theorie de la machine a vapeur (1839); 1839 printing, the steam-engine theory textbook before Rankine."
+        "summary": "Add Pambour, Theorie de la machine a vapeur (1839); 1839 printing, the steam-engine theory textbook before Rankine.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32657,7 +32676,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Zeuner, Die mechanische Waermetheorie (1860); 1891 printing with the first-edition honesty, the German engineering thermodynamics."
+        "summary": "Add Zeuner, Die mechanische Waermetheorie (1860); 1891 printing with the first-edition honesty, the German engineering thermodynamics.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32667,7 +32687,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Parsons, The steam turbine Rede lecture (1911 boundary - the founder documenting his machine honestly marked); two 1911 scans."
+        "summary": "Add Parsons, The steam turbine Rede lecture (1911 boundary - the founder documenting his machine honestly marked); two 1911 scans.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32677,7 +32698,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Diesel, Die Theorie und Konstruktion eines rationellen Waermotors (1893); Berlin printing scanned, the compression-ignition boundary"
+        "summary": "Add Diesel, Die Theorie und Konstruktion eines rationellen Waermotors (1893); Berlin printing scanned, the compression-ignition boundary",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32687,7 +32709,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Duhamel du Monceau, the grain-conservation traite (1753) - the 18th-century preservation economy before Appert; honest note on the archive series record."
+        "summary": "Add Duhamel du Monceau, the grain-conservation traite (1753) - the 18th-century preservation economy before Appert; honest note on the archive series record.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32697,7 +32720,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Achard, Die europaeische Zuckerfabrikation (1803) - the beet-sugar founding manual; honest no-scan note."
+        "summary": "Add Achard, Die europaeische Zuckerfabrikation (1803) - the beet-sugar founding manual; honest no-scan note.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32707,7 +32731,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Payen, Des substances alimentaires (1856) - the French food-chemistry tradition beside Smith; honest no-scan note."
+        "summary": "Add Payen, Des substances alimentaires (1856) - the French food-chemistry tradition beside Smith; honest no-scan note.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32717,7 +32742,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Horsford, The theory and art of bread-making (1859) - the aerated-bread chemistry beside Jago; honest no-scan note."
+        "summary": "Add Horsford, The theory and art of bread-making (1859) - the aerated-bread chemistry beside Jago; honest no-scan note.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32727,7 +32753,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Chladni, Die Akustik (1802) - the acoustic founding text; honest no-scan, with later reprints linked."
+        "summary": "Add Chladni, Die Akustik (1802) - the acoustic founding text; honest no-scan, with later reprints linked.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32737,7 +32764,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Gilbert, De Magnete (1600) - the geomagnetic founding text; facsimile and Latin edition scans."
+        "summary": "Add Gilbert, De Magnete (1600) - the geomagnetic founding text; facsimile and Latin edition scans.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   },
@@ -32747,7 +32775,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Daguerre, the daguerreotype historical manual (1839) - the mirror-image side of the photography branch; placed honestly with a later Artefact print scan."
+        "summary": "Add Daguerre, the daguerreotype historical manual (1839) - the mirror-image side of the photography branch; placed honestly with a later Artefact print scan.",
+        "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
       }
     ]
   }
