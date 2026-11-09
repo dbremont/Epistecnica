@@ -37,6 +37,10 @@ qa:
 | Thomas Box | [*A Practical Treatise on Mill-Gearing, Wheels, Shafts, Riggers*](/view.html?p=documents/books/box-1853-mill-gearing.md) | 1853 | Mechanical transmission and gearing |
 | J. E. Armengaud (tr. William Johnson) | [*The Practical Draughtsman's Book of Industrial Design*](/view.html?p=documents/books/armengaud-1865-practical-draughtsmans-book.md) | 1865 | Mechanical drawing and industrial design |
 
+| Joseph Whitworth | [*Miscellaneous Papers on Mechanical Subjects*](/view.html?p=documents/books/whitworth-1858-miscellaneous-papers.md) | 1858 | Precision engineering: the plane surface and the screw-thread standard |
+
+Maudslay's machine-tool drawings and descriptions name no single citable work and stay branch prose, honest to the records — the precision-engineering standard itself enters through Whitworth's collected papers.
+
 ## Ars Chimica
 
 > Chemical science and its industrial applications — the dictionaries, the handbooks, the factory chemists' references from Davy's summation to Thorpe's applied chemistry of the 1890s.
@@ -54,6 +58,9 @@ qa:
 | Carl Friedrich Schönbein | [*Contributions to the Chemical History of Gun-Cotton*](/view.html?p=documents/books/schonbein-1846-contributions-gun-cotton.md) | 1846 | Industrially significant cellulose chemistry (paper) |
 | James C. Booth & Campbell Morfit | [*The Encyclopedia of Chemistry*](/view.html?p=documents/books/booth-1850-encyclopedia-of-chemistry.md) | 1850 | Chemical substances, industrial applications and laboratory practice |
 | William Crookes | [*Select Methods in Chemical Analysis*](/view.html?p=documents/books/crookes-1871-select-methods-chemical-analysis.md) | 1871 | Analytical methods, apparatus and procedures |
+
+| Carl Remigius Fresenius | [*Elementary Instruction in Chemical Analysis* (qualitative)](/view.html?p=documents/books/fresenius-1841-qualitative-analysis.md) | 1841 | Qualitative chemical analysis — the detection scheme |
+| George Lunge | [*A Theoretical and Practical Treatise on the Manufacture of Sulphuric Acid and Alkali*](/view.html?p=documents/books/lunge-1879-sulphuric-acid-and-alkali.md) | 1879 | Industrial acid and alkali production (the outline's Soda row merges here) |
 
 ## Ars Metallica
 
@@ -78,6 +85,8 @@ qa:
 | C. M. Percy | [*Machinery for Metalliferous Mines*](/view.html?p=documents/books/percy-1894-machinery-for-metalliferous-mines.md) | 1894 | Mining engines, drills, pumps, crushing and concentration |
 | G. C. Greenwell | [*A Practical Treatise on Mine Engineering*](/view.html?p=documents/books/greenwell-1869-mine-engineering.md) | 1869 | Mine construction, ventilation, haulage and machinery |
 | Stephen Michell | [*Mine Drainage*](/view.html?p=documents/books/michell-1881-mine-drainage.md) | 1881 | Underground pumping machinery and mine drainage |
+
+| Wheaton B. Kunhardt | [*The Practice of Ore Dressing in Europe*](/view.html?p=documents/books/kunhardt-1884-practice-of-ore-dressing.md) | 1884 | Mineral processing and ore concentration |
 
 ## Ars Agricola
 
@@ -123,6 +132,12 @@ qa:
 | William Cullen | [*A Practical Treatise on the Construction of Horizontal and Vertical Waterwheels*](/view.html?p=documents/books/cullen-1871-waterwheels.md) | 1871 | Waterwheel construction and hydraulic power |
 | John Thomas Fanning | [*A Practical Treatise on Water-Supply Engineering*](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md) | 1877 | Waterworks, hydrology, water distribution and construction |
 
+| John Muller | [*A Treatise Containing the Practical Part of Fortification*](/view.html?p=documents/books/muller-1755-practical-fortification.md) | 1755 | Fortification construction — the Woolwich arithmetic |
+| D. H. Mahan | [*A Treatise on Field Fortification*](/view.html?p=documents/books/mahan-1836-field-fortification.md) | 1836 | Military engineering — the West Point teaching text |
+| Baldwin Latham | [*Sanitary Engineering*](/view.html?p=documents/books/latham-1877-sanitary-engineering.md) | 1873 | Sewerage and urban infrastructure |
+
+The Royal Military Academy Woolwich's collective 1847 treatises (drawing, arms, permanent fortification) entered as @misc with an honest no-scan note. The Royal Engineers' manuals and fortification reports name no single citable volume and stay prose beside these rows.
+
 ## Ars Electrica
 
 > The experimental foundations of electricity distinguished from the engineering literature the systems built on them: Priestley and Faraday carry the science, Volta the pile, and the telegraphy and electric-light books the systems.
@@ -139,6 +154,11 @@ qa:
 | Joseph Henry | [*Contributions to Electricity and Magnetism*](/view.html?p=documents/books/henry-contributions-electricity-magnetism.md) | 1837–55 | Electromagnets, apparatus and experimental methods (paper series) |
 | Silvanus P. Thompson | [*Dynamo-Electric Machinery*](/view.html?p=documents/books/thompson-1884-dynamo-electric-machinery.md) | 1884 | Generators, motors and power conversion |
 | William Edward Ayrton | [*Practical Electricity*](/view.html?p=documents/books/ayrton-1885-practical-electricity.md) | 1885 | Electrical measurement, circuits and practical engineering |
+
+| Henry M. Noad | [*A Manual of Electricity*](/view.html?p=documents/books/noad-1855-manual-of-electricity.md) | 1855 | Electrical apparatus and experiments, galvanism to the telegraph |
+| W. H. Preece & J. Sivewright | [*Telegraphy*](/view.html?p=documents/books/preece-sivewright-1876-telegraphy.md) | 1876 | Telegraph engineering (the Post-Office text; the outline's 'Telegraphy of the future' did not verify) |
+| George B. Prescott | [*The Speaking Telephone, Electric Light, and Other Recent Electrical Inventions*](/view.html?p=documents/books/prescott-1879-speaking-telephone.md) | 1879 | Electrical communications and apparatus |
+| W. H. Preece & J. Maier | [*The Telephone*](/view.html?p=documents/books/preece-maier-1889-the-telephone.md) | 1889 | Telephone engineering (Post-Office apparatus doctrine) |
 
 ## Ars Instrumentalis
 
@@ -160,6 +180,13 @@ qa:
 | Jabez Hogg | [*The Microscope: Its History, Construction, and Application*](/view.html?p=documents/books/hogg-1854-the-microscope.md) | 1854 | Optical instrumentation and microscopy |
 | William Benjamin Carpenter | [*The Microscope and Its Revelations*](/view.html?p=documents/books/carpenter-1856-microscope-revelations.md) | 1856 | Optical instruments and microscopic investigation |
 | Joseph von Fraunhofer | [*Gesammelte Schriften (Collected Scientific Papers)*](/view.html?p=documents/books/fraunhofer-1888-gesammelte-schriften.md) | 1888 edition | Optical glass, lenses and spectral instrumentation (honest no-scan) |
+
+| Robert Smith | [*A Compleat System of Opticks*](/view.html?p=documents/books/smith-1738-compleat-system-of-opticks.md) | 1738 | Optical systems and instruments — the founding system |
+| British Association Committee | [*Report on the New Unit of Electrical Resistance*](/view.html?p=documents/books/baas-1865-report-electrical-resistance.md) | 1865 | Electrical standards — the absolute ohm (outline's Whitworth attribution corrected to the committee) |
+| W. & L. E. Gurley | [*A Manual of the Principal Instruments Used in American Engineering and Surveying*](/view.html?p=documents/books/gurley-1870-manual-instruments.md) | 1870 | Surveying instrumentation — the American instrument-maker's catalogue |
+| J. E. Erichsen | [*The Science and Art of Surgery*](/view.html?p=documents/books/erichsen-1853-science-and-art-surgery.md) | 1853 | Surgical methods and instruments |
+| Thomas Reid | [*A Treatise on Clock and Watch Making*](/view.html?p=documents/books/reid-1826-clock-and-watch-making.md) | 1826 | Horological mechanisms |
+| F. J. Britten | [*The Watch & Clock Makers' Handbook*](/view.html?p=documents/books/britten-1896-watchmakers-handbook.md) | 1896 | Clock and watch construction — the trade dictionary |
 
 ## Ars Manufactura
 
@@ -203,6 +230,8 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | Thomas Tredgold | [*The Steam Engine*](/view.html?p=documents/books/tredgold-1827-steam-engine.md) | 1827 | Steam-engine construction and mechanical philosophy |
 | George Rennie | [*The Steam Engine*](/view.html?p=documents/books/rennie-1831-steam-engine.md) | 1831 | Steam-engine teaching in the Useful-Knowledge diffusion format (tract) |
 | William Pole | [*A Treatise on the Cornish Pumping Engine*](/view.html?p=documents/books/pole-1844-cornish-pumping-engine.md) | 1844 | Industrial steam pumping — the Cornish high-duty engines |
+
+| James Prescott Joule | [*The Scientific Papers of James Prescott Joule*](/view.html?p=documents/books/joule-1884-scientific-papers.md) | 1884 | Energy conversion and the mechanical equivalent — the paper source |
 
 ## Ars Cibaria
 
@@ -313,6 +342,22 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 |---|---|---:|---|
 | F. H. af Chapman | [*Architectura Navalis Mercatoria*](/view.html?p=documents/books/chapman-1768-architectura-navalis.md) | 1768 | Naval architecture: the plate classification of ships |
 | F. H. af Chapman | [*A Treatise on Ship-Building*](/view.html?p=documents/books/chapman-1820-treatise-on-ship-building.md) | 1820-era | Ship construction theory (French 1781 translation scanned) |
+
+| John W. Norie | [*A Complete Epitome of Practical Navigation*](/view.html?p=documents/books/norie-1805-practical-navigation.md) | 1805 | Navigation and nautical instruments — the English trade book |
+| Nathaniel Bowditch | [*The New American Practical Navigator*](/view.html?p=documents/books/bowditch-1802-navigator.md) | 1802 | Navigation and nautical calculations — the American standard |
+
+The Admiralty's own ship-design drawings and construction specifications name no single citable volume and stay branch prose — ship design itself enters through Chapman's two books, navigation through Norie and Bowditch.
+
+## Ars Photographia
+
+> Photography's founding literature — the paper-negative invention and the wet-plate processes, as the medium's first books and chemical manuals documented them.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| W. H. Fox Talbot | [*The Pencil of Nature*](/view.html?p=documents/books/talbot-1844-pencil-of-nature.md) | 1844–46 | Photographic processes — the first photographically illustrated book (1839 Phil. Trans. disclosure scanned) |
+| Gustave Le Gray | [*Traité nouveau de Photographie*](/view.html?p=documents/books/legray-1852-traite-photographie.md) | 1852 | Photographic chemistry and techniques — paper, glass and metal plates (honest no-scan) |
+
+Talbot's own patent specifications of the 1840s name no single scan-verifiable volume and stay branch prose beside the *Pencil of Nature* row — the patent literature lives in the archive holdings and the honest record stands.
 
 ## References
 

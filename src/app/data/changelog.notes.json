@@ -81154,6 +81154,11 @@
         "summary": "Grow the guide with the workshop-practice stratum and five more trade shelves: Nicholson, the Holtzapffels, Box and Armengaud in Ars Mechanica; the mining shelf from Phillips 1852 to the 1894 textbooks with Andre and C. M. Percy; the water-engineering shelf from Ewbank to Fanning with Law-Burnell, Cullen and the limes-and-cements treatise; the ceramics side (Porter, Dobson) and four print-trade rows from Johnson 1824 to Southward 1884 in Ars Manufactura, with the Penny Magazine kept as guide prose; microscopy in Ars Instrumentalis (Quekett, Hogg with its authorship correction, Carpenter, Fraunhofer honest no-scan); the absorption and mechanical refrigeration patents beside Twining in Ars Cibaria; the farm-practice stratum (Stephens, Thomas, Youatt, Slight) in Ars Agricola. 195 links, all resolving.",
         "commit": "a99022fe8a0e3d43edb9562ae683588c6ce3c3f7",
         "before": "35977cec46c86bfe9e626b7882bc6493b89c5cfb"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Complete the inventory-check round: twenty-three new rows in eight Ars sections - Whitworth and the Maudslay prose note in Mechanica; Fresenius qualitative and Lunge (Soda row merged) in Chimica; Kunhardt in Metallica; Muller, Mahan and the Woolwich-prose fortification rows plus Latham in Civilis; Noad, both Preece titles (Telegraphy enters under its verified 1876 title, the Telephone with Maier) and Prescott speaking-telephone in Electrica; Robert Smith opticks, the BAAS resistance report with its Whitworth attribution corrected, Gurley, Erichsen, and the horology pair Reid and Britten in Instrumentalis; Joule in Energia; Norie and Bowditch plus the Navy prose in Navalis; and a new Ars Photographia section carrying Talbot with the 1839 Phil. Trans. disclosure scanned and Le Gray honest no-scan, with Talbot patents as prose. 218 links, all resolving; the guide stands at fifteen Ars sections."
       }
     ]
   }
