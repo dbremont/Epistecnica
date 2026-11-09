@@ -37419,5 +37419,75 @@
         "commit": "9f9c5bff1d9596c96f425b3345924d1481d5102e"
       }
     ]
+  },
+  {
+    "file_path": "books/bodoni-1818-manuale-tipografico.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Bodoni, Manuale Tipografico (1818); Internet Archive scan 5873-1 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/susruta-1889-sushruta-samhita.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Susruta Samhita (1889 Sanskrit edition); Internet Archive scan in.ernet.dli.2015.486259 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ain-i-akbari-1873-blochmann.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Abu al-Fazl, Ain-i-Akbari in Blochmann's 1873 translation; Internet Archive scan in.ernet.dli.2015.279471 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/snow-1847-inhalation-ether.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Snow, On the Inhalation of the Vapour of Ether (1847); Internet Archive scan oninhalationvap00snowgoog verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kircher-1650-musurgia-universalis.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Kircher, Musurgia Universalis (1650); Internet Archive scan chepfl-lipr-AXC19_01 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stevin-1617-spilsluysen.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Stevin, Nieuwe maniere van sterctebou door spilsluysen (1617); Internet Archive scan ned-kbn-all-00013787-002 verified through advancedsearch.php and /metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/miles-1856-plain-treatise-horse-shoeing.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Miles, A Plain Treatise on Horse-shoeing (1856); Internet Archive scan aplaintreatiseo00milegoog verified through advancedsearch.php and /metadata."
+      }
+    ]
   }
 ]

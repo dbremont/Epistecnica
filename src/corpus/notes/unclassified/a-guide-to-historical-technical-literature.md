@@ -386,6 +386,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | A. B. Bowers | *Hydraulic cutter-suction dredge patents* | 1885 | The hydraulic dredge machine of the American works (no scan verified) |
 | Thomas Codrington | *Report on the Destruction of Town Refuse (Fryer Destructor incinerators)* | 1888 | The refuse-furnace and waste-heat boiler trade of the local boards (no scan verified) |
 | W. Santo Crimp | *Sewage Disposal Works: A Guide to the Construction of Works for the Prevention of Pollution* | 1890 | The sewage disposal trade manual (no scan verified) |
+| Siebe, Gorman & Co. | *Manual for Divers (the standard diving dress, its care and its use)* | 1870s–1900s | The diver's trade manual of the closed dress (no scan verified) |
+| W. H. Maxwell | *The Removal and Disposal of Town Refuse* | 1898 | The municipal refuse trade at the end of the century (no scan verified) |
 
 ## Ars Structura
 
@@ -493,6 +495,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Home Popham; Frederick Marryat | *Telegraphic Signals; or Marine Vocabulary; Code of Signals for the Merchant Service* | 1800/17 | The numeric naval and merchant flag codes (no scan verified) |
 | Auguste Kerckhoffs | *La Cryptographie militaire (Journal des Sciences Militaires)* | 1883 | Kerckhoffs's principle of military cipher design (no scan verified) |
 | John Babington; K. Siemienowicz; A.-F. Frézier; C.-F. Ruggieri; P. Tessier | *Pyrotechnia; Artis Magnae Artilleriae; Traité des feux d artifice; Éléments de pyrotechnie; Chimie pyrotechnique* | 1635–1859 | The pyrotechnic rocket and fireworks trade across three centuries (no scan verified) |
+| F.-M. Chertier | *Nouveau Manuel du Pyrotechniste (the coloured-fire manual)* | 1843 | The French pyrotechnic trade manual of the coloured flame (no scan verified) |
 
 ## Ars Bellica
 
@@ -664,6 +667,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Delambre & Méchain (with Borda, Lagrange, Laplace, Monge) | *Base du système métrique décimal, ou Mesure de l arc du méridien compris entre Dunkerque et Barcelone* | 1806–10 | The Borda repeating circle and the creation of the metric system (no scan verified) |
 | W. H. Miller; G. B. Airy | *On the Construction of the New Imperial Standard Pound; National Standard of Length (Phil. Trans.)* | 1856/57 | The imperial standards reproduced in British measures (no scan verified) |
 | John Quincy Adams | *Report upon Weights and Measures* | 1821 | The American metrology of the federal congress (no scan verified) |
+| John Snow | [*On the Inhalation of the Vapour of Ether in Surgical Operations*](/view.html?p=documents/books/snow-1847-inhalation-ether.md) | 1847 | The ether inhaler and the dosage of anaesthesia measured |
+| John Snow | *On Chloroform and Other Anaesthetics* | 1858 | The chloroform dosage, the apparatus and the fatalities of the anaesthetic trade (no scan verified) |
+| Gabriel Mouton | *The geodetic decimal measure proposed from the minute of the meridian* | 1670 | The decimal, earth-derived measure proposed a century before the metre (no scan verified) |
 
 ## Ars Elastica
 
@@ -849,6 +855,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | William Carpmael; Thomas Webster | *The Law of Patents for Inventions; Reports and Notes of Cases on Letters Patent* | 1832 / 1844 | The patent trade in its legal machinery and the report of the trade trials (no scan verified) |
 | Charles Babbage | *The Exposition of 1851; or, Views of the Industry, the Science and the Government of England* | 1851 | The great exhibition argued as the scientific industrial education (no scan verified) |
 | J. Scott Russell | *Systematic Technical Education for the English People* | 1869 | The systematic technical education of the engineering trades (no scan verified) |
+| Statute of Monopolies (21 Jac. I c. 3) | *The English patent statute: the fourteen-year term and the manner of manufacture* | 1624 | The legal frame of the patent trade for two centuries (no scan verified) |
 
 ## Ars Vitraria
 
@@ -968,6 +975,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | William Ged; A.-G. Camus | *Stereotyping (block-printing from plaster moulds)* | 1781 / 1801 | The stereo-plate printing begun by Ged and Camus for the press era (no scan verified) |
 | Louis Braille | *Procédé pour écrire les paroles, la musique et le plain-chant au moyen de points* | 1829/37 | The six-dot tactile code of the pressed-point book trade (no scan verified) |
 | René Dagron | *La Poste par pigeons voyageurs; Traité de photographie microscopique* | 1864/71 | Microfilm and the pigeon-post photographs of the Siege of Paris (no scan verified) |
+| Giambattista Bodoni | [*Manuale Tipografico*](/view.html?p=documents/books/bodoni-1818-manuale-tipografico.md) | 1788 (ed. 1818) | The specimen book of the modern face — the typefounder's manual |
+| Society of Arts (premium committee) | *Report on the Forgery of Bank Notes* | 1819 | The premium for an unforgeable note that set siderography in motion (no scan verified) |
 
 ## Ars Papyrologica
 
@@ -1184,6 +1193,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Dom François Bédos de Celles | *L'Art du Facteur d'Orgues (in the Arts et Métiers tradition, 137 plates)* | 1766–78 | The pipes, windchests, tracker linkages and bellows carried in 137 plates (no scan verified) |
 | J.-C. Maugin & W. Maigne | *Nouveau Manuel Complet du Luthier* | 1834/69 | The luthier trade manual (no scan verified) |
 | Theobald Boehm; Adolphe Sax | *Über den Flötenbau (Boehm linkage); saxophone patents* | 1847 / 1846 | The Boehm keywork and the saxophone mechanism carry the woodwind trade (no scan verified) |
+| Athanasius Kircher | [*Musurgia Universalis*](/view.html?p=documents/books/kircher-1650-musurgia-universalis.md) | 1650 | Acoustics, the organ, the speaking automata and the composition machines |
 
 ## Ars Campanaria
 
@@ -1340,6 +1350,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Charles Hodgson; Adolf Bleichert | *Bicable aerial wire-ropeways for mountain ore transport* | 1868/74 | The aerial wire-ropeway trade begun (no scan verified) |
 | P. G. B. Westmacott; Thomas Robins | *Hydraulic grain-warehouse belt conveyors; troughed rubber ore-conveyor belts* | 1869 / 1891–96 | The industrial belt-conveyor trade begun (no scan verified) |
 | Auguste Goffart | *Manuel de la culture et de l ensilage des maïs; The Ensilage of Maize* | 1877/79 | The agricultural silo trade (no scan verified) |
+| William Miles | *The Horse's Foot, and How to Keep It Sound* | 1846 | The farrier's anatomy of the foot and the shoe (no scan verified) |
+| William J. Miles | [*A Plain Treatise on Horse-shoeing*](/view.html?p=documents/books/miles-1856-plain-treatise-horse-shoeing.md) | 1856 | The shoe set against the anatomy and action of the foot |
 
 ## Ars Funalis
 
@@ -1539,6 +1551,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Melvil Dewey | *A Classification and Subject Index for Cataloguing and Arranging the Books* | 1876 | The decimal system and index-card trade of library information (no scan verified) |
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping sets the ledger as a science (cross-listed from Mediaevalia) |
 | Emile Garcke & J. M. Fells | *Factory Accounts: Their Principles and Practice* | 1887 | The industrial cost accounting trade manual (no scan verified) |
+| Simon Stevin | *Vorstelicke Bouckhouding (double-entry bookkeeping in Dutch)* | 1607 | The Italian method carried into the Dutch prince's account (no scan verified) |
 
 ## Ars Molendinaria
 
@@ -1565,6 +1578,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Government of Bengal | [*Papers Relating to Irrigation in Bengal*](/view.html?p=documents/books/bengal-1861-irrigation-papers.md) | 1861 | Irrigation argued as public health and famine policy |
 | Elwood Mead | [*Rise and Future of Irrigation in the United States*](/view.html?p=documents/books/mead-1899-rise-future-irrigation-united-states.md) | 1899 | The American irrigation movement and the arid West |
 | Arthur Cotton | *Reports on the irrigation works of the Godavari, Krishna and other Indian rivers* | 1850s–70s | The Indian irrigation engineer's reports (no scan verified) |
+| Simon Stevin | [*Nieuwe Maniere van Sterctebou door Spilsluysen*](/view.html?p=documents/books/stevin-1617-spilsluysen.md) | 1617 | Fortification by sluices — the Dutch water-line and its lock engineering |
 
 ## Ars Cartographica
 
@@ -1652,6 +1666,11 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Wang Zhen | *Nong Shu (Book of Agriculture)* | 1313 | The woodcut ploughs and water-powered spinning frames of the Yuan agricultural canon (no scan verified) |
 | Kautilya | *Arthasastra (State Manual of Economics)* | c. 300 BCE - 2 CE | The ore-fields of India and the economic policy of mining and minting (no scan verified) |
 | Jiao Yu & Liu Bowen | *Huolongjing (Fire-Dragon Manual)* | 14th c. | Multistage rockets and land-sea mines in the Chinese canon (no scan verified) |
+| Susruta | [*Susruta Samhita (the surgical canon: instruments, rhinoplasty, lithotomy)*](/view.html?p=documents/books/susruta-1889-sushruta-samhita.md) | date contested (ed. 1889) | The surgical instruments and operations of the Indian tradition |
+| Abu al-Fazl | [*Ain-i-Akbari (tr. Blochmann)*](/view.html?p=documents/books/ain-i-akbari-1873-blochmann.md) | c. 1590 (tr. 1873) | The Mughal mint, ordnance, arsenal and textile workshops surveyed |
+| Taqi al-Din Muhammad ibn Ma'ruf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (1551); Al-Kawakib al-durriyya (1556/59)* | 1551–59 | The six-cylinder monobloc pump, steam-turbine spit and spring-driven clocks with seconds hands (no scan verified) |
+| Miyazaki Yasusada | *Nogyo Zensho (Complete Book of Agriculture)* | 1697 | The Japanese agricultural canon of rice, dry fields, tools and seed (no scan verified) |
+| Masuda Tsuna & Niwa Motokuni | *Kodo Zuroku (Illustrated Book of Copper Smelting)* | c. 1801 | The copper-smelting process drawn in woodcuts at the Nanbu works (no scan verified) |
 
 ## Method and scope
 
