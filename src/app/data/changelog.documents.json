@@ -30574,5 +30574,75 @@
         "commit": "793cb44faedbfc6d14ad470082c6566505cd0595"
       }
     ]
+  },
+  {
+    "file_path": "books/talbot-1844-pencil-of-nature.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Talbot, The pencil of nature (1844-46, fascicles); no original scan verified - the 1839 Phil. Trans. photogenic-drawing disclosure and one MMA plate item linked; photography's founding book."
+      }
+    ]
+  },
+  {
+    "file_path": "books/legray-1852-traite-photographie.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Le Gray, Traite nouveau de photographie (1852); honest no-scan note, cross-linked to Talbot."
+      }
+    ]
+  },
+  {
+    "file_path": "books/muller-1755-practical-fortification.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Muller, the practical part of fortification (1755, Woolwich professor); 1755 and 1764 scans, the military-engineering founding row."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mahan-1836-field-fortification.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Mahan, Treatise on field fortification (1836, West Point); 1856-62 printings scanned with the first-edition note, a bibtex slip repaired, cross-linked to Muller."
+      }
+    ]
+  },
+  {
+    "file_path": "books/woolwich-1847-treatises.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Royal Military Academy Woolwich collective treatises (1847, @misc); honest no-scan note, the academy curriculum beside Mahan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/norie-1805-practical-navigation.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Norie, A complete epitome of practical navigation (1805); 1828 edition scan with the first-edition note, a bibtex slip repaired."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bowditch-1802-navigator.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bowditch, The new American practical navigator (1802); 1821-1861 printings scanned with the first-edition note, the American navigation standard beside Norie."
+      }
+    ]
   }
 ]
