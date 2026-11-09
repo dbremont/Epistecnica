@@ -39,6 +39,9 @@ qa:
 
 | Joseph Whitworth | [*Miscellaneous Papers on Mechanical Subjects*](/view.html?p=documents/books/whitworth-1858-miscellaneous-papers.md) | 1858 | Precision engineering: the plane surface and the screw-thread standard |
 
+| C. P. B. Shelley | [*Workshop Appliances*](/view.html?p=documents/books/shelley-1897-workshop-appliances.md) | 1897 | Gauging, measuring, cutting tools, lathes and the machine-tool register |
+| Niles Tool Works | [*General Machinery Catalogue*](/view.html?p=documents/books/niles-1898-general-machinery-catalogue.md) | 1898 | Industrial machine tools — the trade catalogue |
+
 Maudslay's machine-tool drawings and descriptions name no single citable work and stay branch prose, honest to the records — the precision-engineering standard itself enters through Whitworth's collected papers.
 
 ## Ars Chimica
@@ -64,6 +67,10 @@ Maudslay's machine-tool drawings and descriptions name no single citable work an
 
 | Friedrich Accum | [*A Practical Treatise on Gas-Light*](/view.html?p=documents/books/accum-1815-treatise-on-gas-light.md) | 1815 | Coal-gas production and apparatus (the 1812 process pamphlet noted within) |
 | Robert Bunsen | [*Gasometrische Methoden*](/view.html?p=documents/books/bunsen-1857-gasometrische-methoden.md) | 1857 | Gas analysis and measurement |
+
+| Samuel Clegg | [*A Practical Treatise on the Manufacture and Distribution of Coal-Gas*](/view.html?p=documents/books/clegg-1841-coal-gas.md) | 1841 | Gasworks, retorts, purification, gas holders and distribution |
+| Samuel Hughes | [*A Treatise on Gas Works*](/view.html?p=documents/books/hughes-1853-treatise-on-gas-works.md) | 1853 | Gas manufacture, purification, retorts, water gas and gasworks construction |
+| Oscar Guttmann | [*The Manufacture of Explosives*](/view.html?p=documents/books/guttmann-1895-manufacture-of-explosives.md) | 1895 | The industrial manufacture of explosives |
 
 ## Ars Metallica
 
@@ -179,6 +186,10 @@ The Royal Military Academy Woolwich's collective 1847 treatises (drawing, arms, 
 | George B. Prescott | [*The Speaking Telephone, Electric Light, and Other Recent Electrical Inventions*](/view.html?p=documents/books/prescott-1879-speaking-telephone.md) | 1879 | Electrical communications and apparatus |
 | W. H. Preece & J. Maier | [*The Telephone*](/view.html?p=documents/books/preece-maier-1889-the-telephone.md) | 1889 | Telephone engineering (Post-Office apparatus doctrine) |
 
+| J. E. H. Gordon | [*A Practical Treatise on Electric Lighting*](/view.html?p=documents/books/gordon-1884-electric-lighting.md) | 1884 | Electric-lighting apparatus, generating equipment, lamps and distribution |
+| Killingworth Hedges | [*Central-Station Electric Lighting*](/view.html?p=documents/books/hedges-1889-central-station-electric-lighting.md) | 1889 | Central stations, feeders, mains, arc and incandescent lighting |
+| Philip Atkinson | [*The Elements of Electric Lighting*](/view.html?p=documents/books/atkinson-1888-elements-electric-lighting.md) | 1888 (ed. to 1897) | Electric-lighting technology and practical systems |
+
 ## Ars Instrumentalis
 
 > Instrumentation, measurement and optical technology — distinct technological branches, not subdivisions of general physics: optical instruments, precision mechanical instruments, electrical measuring instruments, surveying and geodetic instruments, thermometry and pressure measurement, acoustic instruments, seismological and geophysical instrumentation.
@@ -245,6 +256,15 @@ The outline's Peter-Barlow weaving row is this same 1878 book by Alfred Barlow �
 | E. A. Parnell | [*Applied Chemistry — Dyeing and Calico Printing*](/view.html?p=documents/books/parnell-1844-dyeing-and-calico-printing.md) | 1844 | Applied chemistry in textile finishing and printing |
 | Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
 
+| Richard Herring | [*Paper & Paper Making, Ancient and Modern*](/view.html?p=documents/books/herring-1855-paper-and-paper-making.md) | 1855 | Paper materials, historical processes and industrial papermaking |
+| Joel Munsell | [*A Chronology of Paper and Paper-Making*](/view.html?p=documents/books/munsell-1870-chronology-of-paper.md) | 1870 | The paper industry's historical register |
+| Hippolyte Dussauce | [*A New and Complete Treatise on the Arts of Tanning, Currying, and Leather-Dressing*](/view.html?p=documents/books/dussauce-1867-tanning-currying-leather.md) | 1867 | Tanning, currying and leather dressing |
+| H. R. Procter | [*A Text-Book of Tanning*](/view.html?p=documents/books/procter-1885-textbook-of-tanning.md) | 1885 | Hide chemistry, tannins, tannery operations and finishing |
+| J. de Fontenelle & F. Malepeyre | [*Nouveau Manuel Complet du Verrier et du Fabricant de Glaces*](/view.html?p=documents/books/fontenelle-1853-manuel-du-verrier.md) | 1853 | Glassmaking, crystal and artificial precious stones (French) |
+| Charles Goodyear | [*Gum-Elastic and Its Varieties*](/view.html?p=documents/books/goodyear-1853-gum-elastic.md) | 1853 | Natural rubber, vulcanization and rubber manufacture |
+| R. Wilson & C. L. Grey | [*A Practical Treatise upon Modern Printing Machinery and Letterpress Printing*](/view.html?p=documents/books/wilson-grey-1888-modern-printing-machinery.md) | 1888 | Mechanized presses and the letterpress economy |
+| Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
+
 Nasmith's 1887 carding-engine volume entered with an honest no-scan note; the Dobson-and-Barlow firm's preparing-and-spinning machinery literature of c. 1881 names no scanned citable volume and stays branch prose beside the Barlow weaving book. The outline's 1869 O'Neill row is the 1869 edition of the held 1862 dictionary entry — one entry carries both dates.
 
 The printing-press and stereotyping manual literature the outline flagged for investigation stays branch prose beside the print-trade rows: Moxon's Mechanick exercises already carries the trade's founding machinery document, and no additional citable manual was verified for entry.
@@ -266,6 +286,15 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | William Pole | [*A Treatise on the Cornish Pumping Engine*](/view.html?p=documents/books/pole-1844-cornish-pumping-engine.md) | 1844 | Industrial steam pumping — the Cornish high-duty engines |
 
 | James Prescott Joule | [*The Scientific Papers of James Prescott Joule*](/view.html?p=documents/books/joule-1884-scientific-papers.md) | 1884 | Energy conversion and the mechanical equivalent — the paper source |
+
+| John Bourne | [*A Catechism of the Steam Engine*](/view.html?p=documents/books/bourne-1855-catechism-of-the-steam-engine.md) | 1855 | Engine and boiler construction, corrosion, locomotive boilers (catechism form) |
+| W. M. Barr | [*A Practical Treatise on High Pressure Steam Boilers*](/view.html?p=documents/books/barr-1880-high-pressure-steam-boilers.md) | 1880 | Boiler materials, safety apparatus, injectors and economizers |
+| R. H. Thurston | [*A Manual of Steam-Boilers*](/view.html?p=documents/books/thurston-1888-manual-steam-boilers.md) | 1888 | Dedicated boiler engineering: design, construction and operation |
+| J. B. Francis | [*Lowell Hydraulic Experiments*](/view.html?p=documents/books/francis-1855-lowell-hydraulic-experiments.md) | 1855 | Hydraulic motors, weirs and turbine experiments (the Francis formula) |
+| G. R. Bodmer | [*Hydraulic Motors: Turbines and Pressure Engines*](/view.html?p=documents/books/bodmer-1889-hydraulic-motors.md) | 1889 | Reaction and impulse turbines, hydraulic power conversion |
+| Dugald Clerk | [*The Gas Engine* / theory papers](/view.html?p=documents/books/clerk-1886-the-gas-engine.md) | 1882–86 | Gas-engine construction and operating principles |
+| Bryan Donkin | [*A Text-Book on Gas, Oil, and Air Engines*](/view.html?p=documents/books/donkin-1894-gas-oil-air-engines.md) | 1894 | Gas, petroleum and air engines: design and operation |
+| Henry de Graffigny | [*Gas and Petroleum Engines* (tr. A. G. Elliott)](/view.html?p=documents/books/graffigny-1898-gas-and-petroleum-engines.md) | 1898 | Gas generators, carburetted-air engines and maintenance |
 
 ## Ars Cibaria
 
@@ -371,6 +400,11 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | D. K. Clark | [*Railway Machinery*](/view.html?p=documents/books/clark-1855-railway-machinery.md) | 1855 | Railway equipment and mechanical systems |
 | Zerah Colburn | [*Locomotive Engineering*](/view.html?p=documents/books/colburn-1871-locomotive-engineering.md) | 1871 | Locomotive construction and engineering |
 
+| Robert Fulton | [*A Treatise on the Improvement of Canal Navigation*](/view.html?p=documents/books/fulton-1796-canal-navigation.md) | 1796 | Canal navigation, locks, water management and canal machinery |
+| David Stevenson | [*The Principles and Practice of Canal and River Engineering*](/view.html?p=documents/books/stevenson-d-1872-canal-and-river-engineering.md) | 1872 | Barge canals, ship canals, river regulation and navigation |
+| Thomas Stevenson | [*The Design and Construction of Harbours*](/view.html?p=documents/books/stevenson-t-1874-design-and-construction-of-harbours.md) | 1874 | Harbour design and construction |
+| L. F. Vernon-Harcourt | [*Harbours and Docks*](/view.html?p=documents/books/vernon-harcourt-1885-harbours-and-docks.md) | 1885 | Harbour construction, breakwaters, docks, equipment and maintenance |
+
 ## Ars Navalis
 
 > Naval architecture — ship design and construction as an engineering discipline, from Chapman's classification to his construction theory.
@@ -389,6 +423,9 @@ The Admiralty's ship-design drawings and construction specifications name no sin
 | H.-L. Duhamel du Monceau | [*The Elements of Naval Architecture*](/view.html?p=documents/books/duhamel-1764-elements-naval-architecture.md) | 1764 | Ship construction theory (French) |
 | John Fincham | [*A History of Naval Architecture*](/view.html?p=documents/books/fincham-1851-history-naval-architecture.md) | 1851 | Historical development of ship construction |
 | John Scott Russell | [*The Modern System of Naval Architecture*](/view.html?p=documents/books/russell-1865-modern-system-naval-architecture.md) | 1865 | Ship design and construction (honest no-scan) |
+
+| John Bourne | [*A Treatise on the Screw Propeller*](/view.html?p=documents/books/bourne-1852-screw-propeller.md) | 1852 | Screw propulsion, propeller design and the paddle-wheel comparison |
+| Henry Sennett | [*The Marine Steam Engine*](/view.html?p=documents/books/sennett-1885-marine-steam-engine.md) | 1885 | Marine boilers, compound engines, propellers and shipboard machinery |
 
 The Admiralty's own ship-design drawings and construction specifications name no single citable volume and stay branch prose — ship design itself enters through Chapman's two books, navigation through Norie and Bowditch.
 
