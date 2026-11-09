@@ -81450,7 +81450,9 @@
       {
         "date": "2026-11-09",
         "kind": "fix",
-        "summary": "Name the works that merged rows had hidden. The Cato/Varro/Columella/Palladius row now carries De Agri Cultura, Res Rusticae, De Re Rustica and Opus Agriculturae instead of \"Roman agricultural treatises\"; Ibn al-Haytham carries Kitab al-Manazir beside the 1572 Opticae Thesaurus; al-Jazari carries the full Al-Jami bayna al-ilm wa-al-amal title; Hero carries the Cheirobolistra and the Mechanica preserved in Qusta ibn Luqa; the Ahmes row carries the Moscow Mathematical Papyrus; Anthemius carries On Burning Mirrors; Heraclius carries De Coloribus; the Corpus Agrimensorum row names Hyginus Gromaticus, Balbus and Siculus Flaccus; Francesco di Giorgio carries the Promis edition; the artesian-well row carries J. Chaudron; and al-Jazari's description names the camshafts, crank-and-connecting-rod pumps, segmental gears, combination locks and box sand casting."
+        "summary": "Name the works that merged rows had hidden. The Cato/Varro/Columella/Palladius row now carries De Agri Cultura, Res Rusticae, De Re Rustica and Opus Agriculturae instead of \"Roman agricultural treatises\"; Ibn al-Haytham carries Kitab al-Manazir beside the 1572 Opticae Thesaurus; al-Jazari carries the full Al-Jami bayna al-ilm wa-al-amal title; Hero carries the Cheirobolistra and the Mechanica preserved in Qusta ibn Luqa; the Ahmes row carries the Moscow Mathematical Papyrus; Anthemius carries On Burning Mirrors; Heraclius carries De Coloribus; the Corpus Agrimensorum row names Hyginus Gromaticus, Balbus and Siculus Flaccus; Francesco di Giorgio carries the Promis edition; the artesian-well row carries J. Chaudron; and al-Jazari's description names the camshafts, crank-and-connecting-rod pumps, segmental gears, combination locks and box sand casting.",
+        "commit": "189e847f788b3851b27190f42403e9d79e52b650",
+        "before": "41b1f17ef00cc2912a12347337d9de10d001cace"
       }
     ]
   }
