@@ -81380,7 +81380,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the last domain layer: Posselt's Jacquard machine (1887), Napier's Mirifici (1614) and Oughtred's Circles of Proportion (1632), Guericke's vacuum, Harrison and Berthoud's marine chronometers, the Académie balloon Rapport, Cavallo's Aerostation, Langley's aerodynamics, van Yk and Buchanan's naval works, Wright's Certaine Errors (1599), Hiscox's Horseless Vehicles (1900), Schreck & Wang's Yuanxi Qiqi Tushuo (1627) and the Ain i Akbari translations; and honest rows for Kay, Cartwright, Whitney, Roberts, Koenig, Hoe, Mergenthaler, Lalande, Fourdrinier, Tilghman, Thimonnier, Jevons, Kelvin's tide predictor, Boyle, Witsen, Froude, Wenham, Cugnot, Beaumont, Gemma Frisius, Picard, Lambert, Roy, Taqi al-Din, Nogyo Zensho and Kodo Zuroku. Also add a Method and scope section (domains as taxonomy; one-series-one-entry criterion; scriptable collections)."
+        "summary": "Add the last domain layer: Posselt's Jacquard machine (1887), Napier's Mirifici (1614) and Oughtred's Circles of Proportion (1632), Guericke's vacuum, Harrison and Berthoud's marine chronometers, the Académie balloon Rapport, Cavallo's Aerostation, Langley's aerodynamics, van Yk and Buchanan's naval works, Wright's Certaine Errors (1599), Hiscox's Horseless Vehicles (1900), Schreck & Wang's Yuanxi Qiqi Tushuo (1627) and the Ain i Akbari translations; and honest rows for Kay, Cartwright, Whitney, Roberts, Koenig, Hoe, Mergenthaler, Lalande, Fourdrinier, Tilghman, Thimonnier, Jevons, Kelvin's tide predictor, Boyle, Witsen, Froude, Wenham, Cugnot, Beaumont, Gemma Frisius, Picard, Lambert, Roy, Taqi al-Din, Nogyo Zensho and Kodo Zuroku. Also add a Method and scope section (domains as taxonomy; one-series-one-entry criterion; scriptable collections).",
+        "commit": "42b77c33a6131465eee43bd4f41c702209a38e8c",
+        "before": "fb6852cdbdd8005783b91c42723dca2fe6cae2d0"
       }
     ]
   }
