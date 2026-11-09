@@ -35285,5 +35285,115 @@
         "commit": "4884f5ff051f072db765ec2d68b52e4e583869b0"
       }
     ]
+  },
+  {
+    "file_path": "books/buchanan-1823-practical-essays-mill-work.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Buchanan, Practical Essays on Mill Work (1823) — the millwright's arithmetic; 1823 and 1841 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/scheele-1788-opuscula-chemica-et-physica.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Scheele, Opuscula Chemica et Physica (1788) — the collected bench papers; 1788 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gay-lussac-1828-cours-de-chimie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gay-Lussac, Cours de chimie (1828) — the course and its industrial chemistry; 1828 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dumas-1848-traite-chimie-appliquee-aux-arts.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Dumas, Traité de chimie appliquée aux arts (1848) — applied chemistry; 1848 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ercker-1703-aula-subterranea.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ercker, Aula Subterranea (1703 edition) — the expanded assaying book; 1703 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gellert-1776-metallurgic-chymistry.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gellert, Metallurgic Chymistry (1776) — the furnace literature; 1776 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/boussingault-1851-economie-rurale.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Boussingault, Économie rurale (1851) — the farm analysed chemically; 1851 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tredwell-pell-1859-agricultural-implements.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Tredwell & Pell implement catalogue (1859) — the agricultural implement trade; 1859 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/perronet-1783-ponts-de-neuilly.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Perronet, Description des ponts (1783) — the founding bridge account; 1783 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rennie-1875-autobiography.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rennie, Autobiography (1875) — the Rennie office from inside; 1875 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jessop-1795-navigation-report.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Jessop, Report on the Proposed Line of Navigation (1795) — the canal survey and estimate; 1795 scan."
+      }
+    ]
   }
 ]

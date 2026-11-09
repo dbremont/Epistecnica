@@ -57,6 +57,7 @@ qa:
 | James Nasmyth | [*James Nasmyth, Engineer: An Autobiography*](/view.html?p=documents/books/nasmyth-1883-autobiography.md) | 1883 | The machine shop from inside — the steam hammer and the tool trade |
 | John Fowler | [*Steam-ploughing patents and specifications*](/view.html?p=documents/books/fowler-1850s-steam-ploughing-patents.md) | 1850s–60s | The cable-and-winch steam cultivation (patent specifications) |
 | Howard & Fowler | [*Steam-cultivation literature*](/view.html?p=documents/books/howard-fowler-1860s-steam-cultivation.md) | 1860s–80s | The firms' catalogues and survey papers (collector entry) |
+| Robertson Buchanan | [*Practical Essays on Mill Work and Other Machinery*](/view.html?p=documents/books/buchanan-1823-practical-essays-mill-work.md) | 1823 | Mill work calculated — water wheel, gearing, shafts and stones |
 
 ## Ars Chimica
 
@@ -98,6 +99,9 @@ qa:
 | A. W. Hofmann | [*Researches on the Colouring Matters Derived from Coal-Tar*](/view.html?p=documents/books/hofmann-1862-colouring-matters-papers.md) | 1862–63 | The aniline dyes worked out as a research programme (papers) |
 | W. H. Perkin | [*Mauveine and the aniline colour papers*](/view.html?p=documents/books/perkin-1856-mauveine-papers.md) | 1856–79 | The first aniline dye reported and manufactured (papers and patents) |
 | Marcellin Berthelot | [*Chimie Organique Fondée sur la Synthèse*](/view.html?p=documents/books/berthelot-1860-chimie-organique-fondee-sur-la-synthese.md) | 1860 | Organic chemistry founded on synthesis |
+| C. W. Scheele | [*Opuscula Chemica et Physica*](/view.html?p=documents/books/scheele-1788-opuscula-chemica-et-physica.md) | 1788 | The bench papers — oxygen, chlorine, the acids and the analysis of air |
+| J. L. Gay-Lussac | [*Cours de Chimie*](/view.html?p=documents/books/gay-lussac-1828-cours-de-chimie.md) | 1828 | Chemistry taught with the combining volumes and the industrial processes |
+| J.-B. Dumas | [*Traité de Chimie Appliquée aux Arts*](/view.html?p=documents/books/dumas-1848-traite-chimie-appliquee-aux-arts.md) | 1848 | Chemistry applied to the manufactures — acids, dyes, soap, glass and metals |
 
 ## Ars Metallica
 
@@ -148,6 +152,8 @@ qa:
 | Henry M. Howe | [*The Metallurgy of Steel*](/view.html?p=documents/books/howe-1890-metallurgy-of-steel.md) | 1890 | The first American systematic steel treatise |
 | Floris Osmond | [*Allotropy and metallography papers*](/view.html?p=documents/books/osmond-1890s-allotropy-papers.md) | 1880s–90s | The iron allotropes and the microscope in the steelworks (paper series) |
 | Robert Hadfield | [*Manganese steel and alloy steel papers*](/view.html?p=documents/books/hadfield-1890s-manganese-steel-papers.md) | 1880s–90s | The alloy steels at the works scale (paper series) |
+| Lazarus Ercker | [*Aula Subterranea*](/view.html?p=documents/books/ercker-1703-aula-subterranea.md) | 1574 (ed. 1703) | Ores, assaying and the works — the expanded metallurgical treatise |
+| C. E. Gellert | [*Metallurgic Chymistry*](/view.html?p=documents/books/gellert-1776-metallurgic-chymistry.md) | 1776 | The ore, the furnace and the assay of the Freiberg school |
 
 ## Ars Agricola
 
@@ -187,10 +193,12 @@ qa:
 | John Johnstone (for Joseph Elkington) | [*An Account of the Most Approved Mode of Draining Land*](/view.html?p=documents/books/johnstone-1800-draining-land-elkington.md) | 1800 | Elkington's drainage system transmitted as a method |
 | Josiah Parkes | [*Essays on the Philosophy and Art of Land Drainage*](/view.html?p=documents/books/parkes-1848-essays-land-drainage.md) | 1848 | Drainage designed as an engineering system |
 | Augustus Voelcker | [*Agricultural chemistry papers and analyses*](/view.html?p=documents/books/voelcker-1850s-agricultural-chemistry-papers.md) | 1850s–80s | The consulting chemist's working science (paper series) |
+| J. B. Boussingault | [*Économie Rurale*](/view.html?p=documents/books/boussingault-1851-economie-rurale.md) | 1851 | The farm as a chemical system — rotations, fertilizers and the nitrogen balance |
+| Tredwell & Pell | [*Illustrated Catalogue of Agricultural and Horticultural Implements*](/view.html?p=documents/books/tredwell-pell-1859-agricultural-implements.md) | 1859 | The implement trade — ploughs, cultivators and the manufactured farm tool |
 
 ## Ars Civilis
 
-> Structural materials, construction and the engineering profession's manuals. Tredgold's cast-iron tract shows engineering moving from empirical construction practice toward experimentally established material properties and quantitative structural design.
+> Structural materials, construction and the engineering profession's manuals. Tredgold's cast-iron tract shows engineering moving from empirical construction practice toward experimentally established material properties and quantitative structural design. Military engineering, once a branch of the same profession, is gathered in its own section.
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
@@ -203,7 +211,6 @@ qa:
 | John Smeaton | [*Reports of the Late John Smeaton*](/view.html?p=documents/books/smeaton-1812-reports.md) | 1812–14 | Bridges, harbours, lighthouses, canals and water engineering (collected reports) |
 | [Life of] Thomas Telford | [*Life of Thomas Telford*](/view.html?p=documents/books/telford-1838-life.md) | 1838 | Bridges, roads, canals and engineering practice |
 | Samuel Smiles | [*The Life of Isambard Kingdom Brunel*](/view.html?p=documents/books/smiles-1870-life-of-isambard-kingdom-brunel.md) | 1870 | Railway, bridge, tunnel and marine engineering projects |
-| Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
 | É.-M. Gauthey | [*Traité de la Construction des Ponts* (posthumous, Navier ed.)](/view.html?p=documents/books/gauthey-1809-traite-des-ponts.md) | 1809–16 | Bridge construction — the French corps arithmetic |
 | J. C. Trautwine | [*The Civil Engineer's Pocket-Book*](/view.html?p=documents/books/trautwine-1871-civil-engineers-pocket-book.md) | 1871 | The field-and-office practice handbook |
 | William Humber | [*Iron Bridge Construction*](/view.html?p=documents/books/humber-1861-iron-bridge-construction.md) | 1861 | Fabrication and erection of iron bridges (honest no-scan) |
@@ -212,15 +219,6 @@ qa:
 | Henry Law & George R. Burnell | [*Rudiments of Civil Engineering*](/view.html?p=documents/books/law-burnell-1869-rudiments-civil-engineering.md) | 1869 | Civil and hydraulic engineering in the Weale series |
 | William Cullen | [*A Practical Treatise on the Construction of Horizontal and Vertical Waterwheels*](/view.html?p=documents/books/cullen-1871-waterwheels.md) | 1871 | Waterwheel construction and hydraulic power |
 | John Thomas Fanning | [*A Practical Treatise on Water-Supply Engineering*](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md) | 1877 | Waterworks, hydrology, water distribution and construction |
-| John Muller | [*A Treatise Containing the Practical Part of Fortification*](/view.html?p=documents/books/muller-1755-practical-fortification.md) | 1755 | Fortification construction — the Woolwich arithmetic |
-| D. H. Mahan | [*A Treatise on Field Fortification*](/view.html?p=documents/books/mahan-1836-field-fortification.md) | 1836 | Military engineering — the West Point teaching text |
-| D. H. Mahan | [*Summary of the Course of Permanent Fortification*](/view.html?p=documents/books/mahan-1850-permanent-fortification.md) | 1850 | Permanent works — the West Point syllabus |
-| James Mercur | [*Attack of Fortified Places*](/view.html?p=documents/books/mercur-1894-attack-of-fortified-places.md) | 1894 | Siege-works, investment and mine systems |
-| Howard Douglas | [*An Essay on Military Bridges*](/view.html?p=documents/books/douglas-1816-military-bridges.md) | 1816 | The founding doctrine of military bridging (honest no-scan) |
-| Basil Jackson | [*A Course of Military Surveying*](/view.html?p=documents/books/jackson-1841-military-surveying.md) | 1841 | Field sketching, plan-drawing, levelling and reconnaissance |
-| U.S. Signal Corps | [*A Manual of Military Telegraphy*](/view.html?p=documents/books/signalcorps-1872-military-telegraphy.md) | 1872 | Permanent and field telegraph lines |
-| F. S. Stoney & C. Jones | [*A Text-Book on Rifled Ordnance*](/view.html?p=documents/books/stoney-1872-rifled-ordnance.md) | 1872 | Gun-making, artillery and rifling (honest no-scan) |
-| E. S. Ernst | [*A Manual of Practical Military Engineering*](/view.html?p=documents/books/ernst-1873-practical-military-engineering.md) | 1873 | Roads, road-beds and field works — the West Point manual |
 | Baldwin Latham | [*Sanitary Engineering*](/view.html?p=documents/books/latham-1877-sanitary-engineering.md) | 1873 | Sewerage and urban infrastructure |
 | Thomas Tredgold | [*The Principles of Warming and Ventilating Public Buildings*](/view.html?p=documents/books/tredgold-1824-warming-and-ventilating.md) | 1824 | Heating and ventilation systems — mechanical and fluid-flow applications |
 | William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1854-iron-building.md) | 1854 | Structural iron engineering for buildings and infrastructure |
@@ -231,11 +229,30 @@ qa:
 | James Finley | [*A Description of the Chain Bridge*](/view.html?p=documents/books/finley-1810-suspension-chain-bridge.md) | 1810 | The American suspension-bridge origin (patent description) |
 | Peter Barlow | [*A Treatise on the Strength of Materials*](/view.html?p=documents/books/barlow-1837-strength-of-materials.md) | 1837 | The strength tables between Tredgold and Rankine |
 | Eaton Hodgkinson | [*Experimental Researches on the Strength of Pillars*](/view.html?p=documents/books/hodgkinson-1840-strength-of-pillars.md) | 1840 | Pillar-strength experiments (paper) |
-| Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
 | Edward Dobson | [*A Rudimentary Treatise on Foundations and Concrete Works*](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md) | 1850 | Foundations, concrete and the builder’s groundwork |
-| J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
 | Benjamin Baker | [*Long-Span Railway Bridges*](/view.html?p=documents/books/baker-1873-long-span-railway-bridges.md) | 1873 | The long-span design science (honest no-scan) |
+| J. R. Perronet | [*Description des Projets et de la Construction des Ponts*](/view.html?p=documents/books/perronet-1783-ponts-de-neuilly.md) | 1783 | The masonry bridge described by its engineer — centering, stone and cost |
+| Sir John Rennie | [*Autobiography*](/view.html?p=documents/books/rennie-1875-autobiography.md) | 1875 | London Bridge, Waterloo Bridge and the docks — the engineer's own works |
+| William Jessop | [*Report on the Proposed Line of Navigation between Newcastle and Maryport*](/view.html?p=documents/books/jessop-1795-navigation-report.md) | 1795 | The canal surveyed and costed — the engineer's public report |
 
+## Ars Militaris
+
+> Military engineering as its own profession — fortification and the attack of places, ordnance and shells, military bridging, field surveying and military telegraphy.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
+| John Muller | [*A Treatise Containing the Practical Part of Fortification*](/view.html?p=documents/books/muller-1755-practical-fortification.md) | 1755 | Fortification construction — the Woolwich arithmetic |
+| D. H. Mahan | [*A Treatise on Field Fortification*](/view.html?p=documents/books/mahan-1836-field-fortification.md) | 1836 | Military engineering — the West Point teaching text |
+| D. H. Mahan | [*Summary of the Course of Permanent Fortification*](/view.html?p=documents/books/mahan-1850-permanent-fortification.md) | 1850 | Permanent works — the West Point syllabus |
+| James Mercur | [*Attack of Fortified Places*](/view.html?p=documents/books/mercur-1894-attack-of-fortified-places.md) | 1894 | Siege-works, investment and mine systems |
+| Howard Douglas | [*An Essay on Military Bridges*](/view.html?p=documents/books/douglas-1816-military-bridges.md) | 1816 | The founding doctrine of military bridging (honest no-scan) |
+| Basil Jackson | [*A Course of Military Surveying*](/view.html?p=documents/books/jackson-1841-military-surveying.md) | 1841 | Field sketching, plan-drawing, levelling and reconnaissance |
+| U.S. Signal Corps | [*A Manual of Military Telegraphy*](/view.html?p=documents/books/signalcorps-1872-military-telegraphy.md) | 1872 | Permanent and field telegraph lines |
+| F. S. Stoney & C. Jones | [*A Text-Book on Rifled Ordnance*](/view.html?p=documents/books/stoney-1872-rifled-ordnance.md) | 1872 | Gun-making, artillery and rifling (honest no-scan) |
+| E. S. Ernst | [*A Manual of Practical Military Engineering*](/view.html?p=documents/books/ernst-1873-practical-military-engineering.md) | 1873 | Roads, road-beds and field works — the West Point manual |
+| Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
+| J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
 ## Ars Electrica
 
 > The experimental foundations of electricity distinguished from the engineering literature the systems built on them: Priestley and Faraday carry the science, Volta the pile, and the telegraphy and electric-light books the systems.
@@ -287,7 +304,6 @@ qa:
 | T. A. Edison & J. W. Swan | [*Incandescent-lamp patents*](/view.html?p=documents/books/edison-swan-1879-incandescent-lamp-patents.md) | 1879–83 | The carbon filament and the evacuated bulb |
 | G. Marconi & O. Lodge | [*Wireless and syntonic telegraphy papers*](/view.html?p=documents/books/marconi-lodge-1896-wireless-papers.md) | 1896–99 | The tuned circuit and the aerial system (boundary) |
 | W. von Siemens & F. J. Sprague | [*Electric-traction papers*](/view.html?p=documents/books/siemens-sprague-1880s-electric-traction-papers.md) | 1880s–90s | The motor put on rails — tram and underground |
-
 ## Ars Instrumentalis
 
 > Instrumentation, measurement and optical technology — distinct technological branches, not subdivisions of general physics: optical instruments, precision mechanical instruments, electrical measuring instruments, surveying and geodetic instruments, thermometry and pressure measurement, acoustic instruments, seismological and geophysical instrumentation.
@@ -331,22 +347,16 @@ qa:
 | A. A. Michelson & H. A. Rowland | [*Interferometer and ruling-engine papers*](/view.html?p=documents/books/michelson-rowland-1880s-interferometer-papers.md) | 1880s–90s | Measurement pushed to the wavelength |
 | Ernst Abbe & Carl Zeiss | [*Microscope theory papers and catalogues*](/view.html?p=documents/books/abbe-zeiss-1870s-microscope-theory.md) | 1870s–90s | The microscope designed from diffraction theory |
 | Troughton & Simms; Elliott Bros; Repsold; Ertel; Pistor & Martins | [*Instrument-makers' catalogues*](/view.html?p=documents/books/instrument-maker-catalogues-19c.md) | 19th century | The makers' standard ranges, priced and described |
-
 ## Ars Manufactura
 
-> The factory as a technological production system — machinery, workers, processes, power and industrial organization — and the textile trades' own references.
+> The factory as a technological production system — machinery, workers, processes, power and industrial organization. The textile, printing and paper trades have their own sections beside it.
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | Andrew Ure | [*The Philosophy of Manufactures*](/view.html?p=documents/books/ure-1835-philosophy-of-manufactures.md) | 1835 | Factory production systems |
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Industrial organization |
 | Andrew Ure | [*A Dictionary of Arts, Manufactures, and Mines*](/view.html?p=documents/books/ure-1839-dictionary-of-arts-manufactures-and-mines.md) | 1839 | Manufacturing technologies |
-| Charles O'Neill | [*A Dictionary of Dyeing and Calico Printing*](/view.html?p=documents/books/oneill-1862-dictionary-of-calico-printing-and-dyeing.md) | 1862 | Textile processing |
-| William Crookes | [*A Practical Handbook of Dyeing and Calico-Printing*](/view.html?p=documents/books/crookes-1874-practical-handbook-dyeing-calico-printing.md) | 1874 | Industrial textile chemistry |
-| Friedrich Gottlob Keller and contemporaries | Technical literature on paper manufacture | 19th century | Paper production (guide row, not a citable work) |
-| Joseph Moxon | [*Mechanick Exercises*](/view.html?p=documents/books/moxon-1683-mechanick-exercises.md) | 1683 | Printing, joinery, metalworking and the practical crafts from inside the shops |
 | Charles Knight | [*The Results of Machinery*](/view.html?p=documents/books/knight-1831-results-of-machinery.md) | 1831 | Machinery, industrial production and the machinery question |
-| Edward Baines | [*History of the Cotton Manufacture in Great Britain*](/view.html?p=documents/books/baines-1835-cotton-manufacture.md) | 1835 | Cotton machinery, spinning and textile manufacturing |
 | Thomas Webster & Mrs. W. Parkes | [*An Encyclopædia of Domestic Economy*](/view.html?p=documents/books/webster-1844-encyclopaedia-domestic-economy.md) | 1844 | Household production, equipment and practical manufacturing |
 | Apsley Pellatt | [*Curiosities of Glass Making*](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md) | 1849 | Glass composition, furnaces and manufacturing |
 | Charles Tomlinson | [*Cyclopædia of Useful Arts and Manufactures*](/view.html?p=documents/books/tomlinson-1852-cyclopaedia-useful-arts.md) | 1852 | Industrial processes, materials and manufacturing techniques |
@@ -356,43 +366,22 @@ qa:
 | I. D. Ware | [*The Coach-Makers' Illustrated Hand-Book*](/view.html?p=documents/books/ware-1875-coach-makers-hand-book.md) | 1875 | Carriages and wagons' construction (honest no-scan) |
 | J. Stokes | [*The Cabinet-Maker and Upholsterer's Companion*](/view.html?p=documents/books/stokes-1875-cabinet-makers-companion.md) | 1875 | Veneering, inlaying, Buhl-work and upholstery |
 | J. B. Killebrew | [*Tobacco Leaf*](/view.html?p=documents/books/killebrew-1897-tobacco-leaf.md) | 1897 | Culture, cure, marketing and manufacture of the leaf |
-| Alfred Barlow | [*The History and Principles of Weaving by Hand and by Power*](/view.html?p=documents/books/barlow-1878-history-and-principles-of-weaving.md) | 1878 | Loom construction and textile production |
-| George White | [*A Practical Treatise on Weaving by Hand and Power Looms*](/view.html?p=documents/books/white-1846-practical-weaving.md) | 1846 | The weaving manual between the American books and Barlow |
-| Richard Marsden | [*Cotton Spinning*](/view.html?p=documents/books/marsden-1884-cotton-spinning.md) | 1884 | Mill-floor spinning practice and machinery |
-| William Felkin | [*A History of the Machine-Wrought Hosiery and Lace Manufactures*](/view.html?p=documents/books/felkin-1867-machine-wrought-hosiery.md) | 1867 | Knitting machines and framework knitting |
-| Joseph Depierre | [*Elementary Treatise on the Finishing of Cotton Goods*](/view.html?p=documents/books/depierre-1889-finishing-of-cotton-goods.md) | 1889 | Calendering, stentering and the finishing rooms |
 | George Richardson Porter | [*A Treatise on the Manufacture of Porcelain and Glass*](/view.html?p=documents/books/porter-1832-porcelain-and-glass.md) | 1832 | Porcelain and glass manufacturing |
 | Edward Dobson | [*A Rudimentary Treatise on the Manufacture of Bricks and Tiles*](/view.html?p=documents/books/dobson-1850-bricks-and-tiles.md) | 1850 | Ceramic construction materials and kiln processes |
-| John Johnson | [*Typographia, or the Printer's Instructor*](/view.html?p=documents/books/johnson-1824-typographia.md) | 1824 | Printing machinery, typography and printing operations |
-| Thomas Curson Hansard | [*Typographia: An Historical Sketch of the Art of Printing*](/view.html?p=documents/books/hansard-1825-typographia.md) | 1825 | Printing technology and machinery |
-| William Savage | [*A Dictionary of the Art of Printing*](/view.html?p=documents/books/savage-1841-dictionary-of-printing.md) | 1841 | Printing materials, equipment and processes |
-| John Southward | [*Practical Printing*](/view.html?p=documents/books/southward-1884-practical-printing.md) | 1884 | Printing machinery and workshop practice |
-| James Montgomery | [*A Practical Detail of the Cotton Manufacture of the United States*](/view.html?p=documents/books/montgomery-1840-cotton-manufacture.md) | 1840 | Cotton manufacturing processes — the American detail beside Baines |
-| Andrew Ure | [*The Cotton Manufacture of Great Britain*](/view.html?p=documents/books/ure-1836-cotton-manufacture.md) | 1836 | Cotton production, spinning and manufacturing machinery — the systematic treatise |
-| Alexander Brown | [*A Practical Treatise on the Construction of the Power Loom*](/view.html?p=documents/books/brown-1876-power-loom.md) | 1876 | Power-loom construction and weaving mechanisms |
-| E. A. Parnell | [*Applied Chemistry — Dyeing and Calico Printing*](/view.html?p=documents/books/parnell-1844-dyeing-and-calico-printing.md) | 1844 | Applied chemistry in textile finishing and printing |
-| Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
-| Richard Herring | [*Paper & Paper Making, Ancient and Modern*](/view.html?p=documents/books/herring-1855-paper-and-paper-making.md) | 1855 | Paper materials, historical processes and industrial papermaking |
-| Joel Munsell | [*A Chronology of Paper and Paper-Making*](/view.html?p=documents/books/munsell-1870-chronology-of-paper.md) | 1870 | The paper industry's historical register |
 | Hippolyte Dussauce | [*A New and Complete Treatise on the Arts of Tanning, Currying, and Leather-Dressing*](/view.html?p=documents/books/dussauce-1867-tanning-currying-leather.md) | 1867 | Tanning, currying and leather dressing |
 | H. R. Procter | [*A Text-Book of Tanning*](/view.html?p=documents/books/procter-1885-textbook-of-tanning.md) | 1885 | Hide chemistry, tannins, tannery operations and finishing |
 | J. de Fontenelle & F. Malepeyre | [*Nouveau Manuel Complet du Verrier et du Fabricant de Glaces*](/view.html?p=documents/books/fontenelle-1853-manuel-du-verrier.md) | 1853 | Glassmaking, crystal and artificial precious stones (French) |
 | Charles Goodyear | [*Gum-Elastic and Its Varieties*](/view.html?p=documents/books/goodyear-1853-gum-elastic.md) | 1853 | Natural rubber, vulcanization and rubber manufacture |
-| R. Wilson & C. L. Grey | [*A Practical Treatise upon Modern Printing Machinery and Letterpress Printing*](/view.html?p=documents/books/wilson-grey-1888-modern-printing-machinery.md) | 1888 | Mechanized presses and the letterpress economy |
-| Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
-| Karl Hofmann | [*A Practical Treatise on the Manufacture of Paper in All Its Branches*](/view.html?p=documents/books/hofmann-1873-manufacture-of-paper.md) | 1873 | Papermaking machinery, pulp preparation and processing |
 | Alexander Watt | [*The Art of Soap-Making*](/view.html?p=documents/books/watt-1884-art-of-soap-making.md) | 1884 | Industrial soap production and glycerine recovery |
 | Thomas D. West | [*American Foundry Practice*](/view.html?p=documents/books/west-1882-american-foundry-practice.md) | 1882 | Moulding and casting — the foundry floor's manual |
 | Thomas D. West | [*West's Moulders' Text-Book*](/view.html?p=documents/books/west-1885-moulders-text-book.md) | 1885 | The moulder's bench instruction |
 | Iltyd Redwood | [*Lubricants, Oils and Greases*](/view.html?p=documents/books/redwood-1898-lubricants-oils-greases.md) | 1898 | Lubrication and the machinery oil economy (honest no-scan) |
 | Eyre Massey Shaw | [*Fire Protection*](/view.html?p=documents/books/shaw-1876-fire-protection.md) | 1876 | The fire-brigade organization of London |
 | Roper & Stellwagen | [*Hand-Book of Modern Steam Fire-Engines*](/view.html?p=documents/books/roper-1889-steam-fire-engines.md) | 1889 | Steam fire-engines, pumps and fire-alarm telegraphy |
-| George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
 | Joseph Marryat | [*A History of Pottery and Porcelain*](/view.html?p=documents/books/marryat-1850-history-of-pottery.md) | 1850 | The ceramics history beside Porter |
 | G. W. S. Piesse | [*The Art of Perfumery*](/view.html?p=documents/books/piesse-1857-art-of-perfumery.md) | 1857 | Essential oils, perfumery and the distiller’s by-trades |
 | J. R. D. Riffault | [*A Practical Treatise on the Manufacture of Colors for Painting*](/view.html?p=documents/books/riffault-1874-manufacture-of-colors.md) | 1874 | Pigment manufacture |
 | W. N. Fitz-Gerald | [*The Harness Makers’ Illustrated Manual*](/view.html?p=documents/books/fitzgerald-1875-harness-makers-manual.md) | 1875 | Harness making and the leather trades |
-| J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
 | J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade’s own manual |
 | G. H. Hurst | [*Painters’ Colours, Oils, and Varnishes*](/view.html?p=documents/books/hurst-1892-painters-colours.md) | 1892 | The paint-maker’s chemistry |
 | S. Lehner | [*The Manufacture of Ink*](/view.html?p=documents/books/lehner-1892-manufacture-of-ink.md) | 1892 | Writing and printing inks |
@@ -403,8 +392,6 @@ qa:
 | S. F. Hermbstädt | [*Technology and technical-chemistry writings*](/view.html?p=documents/books/hermbstadt-1790s-technologie-papers.md) | 1790s–1820s | The French chemistry naturalized into German (translations and compendia) |
 | Michael Faraday | [*Chemical Manipulation*](/view.html?p=documents/books/faraday-1827-chemical-manipulation.md) | 1827 | The bench operations taught as a craft |
 | J. E. Bowman | [*An Introduction to Practical Chemistry*](/view.html?p=documents/books/bowman-1849-introduction-practical-chemistry.md) | 1849 | The analysis taught as a student's course |
-| Alois Senefelder | [*A Complete Course of Lithography*](/view.html?p=documents/books/senefelder-1819-complete-course-lithography.md) | 1819 | Lithography described by its inventor |
-| P.-S. Fournier | [*Manuel Typographique*](/view.html?p=documents/books/fournier-1764-manuel-typographique.md) | 1764–66 | Type founding and the point system |
 | Eadweard Muybridge | [*Animal Locomotion*](/view.html?p=documents/books/muybridge-1887-animal-locomotion.md) | 1887 | The body photographed in motion — the frame sequence as instrument |
 | É.-J. Marey | [*La Machine Animale*](/view.html?p=documents/books/marey-1873-machine-animale.md) | 1873 | The living body analysed as a machine — the graphic method |
 | T. A. Edison & E. Berliner | [*Phonograph and gramophone patents*](/view.html?p=documents/books/phonograph-1878-95-patents.md) | 1878–95 | Sound stored and replayed — cylinder to disc |
@@ -413,6 +400,52 @@ qa:
 | A. Cochrane, Earl of Dundonald | [*The Present State of the Manufacture of Salt Explained*](/view.html?p=documents/books/cochrane-1785-manufacture-of-salt-explained.md) | 1785 | The salt works analysed — the manufacturer as reformer |
 | P. Letouzé | [*Traité Pratique des Travaux en Asphalte*](/view.html?p=documents/books/letouze-1897-travaux-en-asphalte.md) | 1897 | Asphalt paving specified and laid |
 | The National Provisioner (comp.) | [*The Manufacture of Glue and Gelatine*](/view.html?p=documents/books/glue-gelatine-manufacture-1898.md) | 1898 | The adhesive trades from the works |
+## Ars Textilis
+
+> The textile trades — spinning, weaving, knitting, dyeing, printing and finishing — from the cotton mill's machinery to the finishing room's chemistry.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Charles O'Neill | [*A Dictionary of Dyeing and Calico Printing*](/view.html?p=documents/books/oneill-1862-dictionary-of-calico-printing-and-dyeing.md) | 1862 | Textile processing |
+| William Crookes | [*A Practical Handbook of Dyeing and Calico-Printing*](/view.html?p=documents/books/crookes-1874-practical-handbook-dyeing-calico-printing.md) | 1874 | Industrial textile chemistry |
+| Edward Baines | [*History of the Cotton Manufacture in Great Britain*](/view.html?p=documents/books/baines-1835-cotton-manufacture.md) | 1835 | Cotton machinery, spinning and textile manufacturing |
+| Alfred Barlow | [*The History and Principles of Weaving by Hand and by Power*](/view.html?p=documents/books/barlow-1878-history-and-principles-of-weaving.md) | 1878 | Loom construction and textile production |
+| George White | [*A Practical Treatise on Weaving by Hand and Power Looms*](/view.html?p=documents/books/white-1846-practical-weaving.md) | 1846 | The weaving manual between the American books and Barlow |
+| Richard Marsden | [*Cotton Spinning*](/view.html?p=documents/books/marsden-1884-cotton-spinning.md) | 1884 | Mill-floor spinning practice and machinery |
+| William Felkin | [*A History of the Machine-Wrought Hosiery and Lace Manufactures*](/view.html?p=documents/books/felkin-1867-machine-wrought-hosiery.md) | 1867 | Knitting machines and framework knitting |
+| Joseph Depierre | [*Elementary Treatise on the Finishing of Cotton Goods*](/view.html?p=documents/books/depierre-1889-finishing-of-cotton-goods.md) | 1889 | Calendering, stentering and the finishing rooms |
+| James Montgomery | [*A Practical Detail of the Cotton Manufacture of the United States*](/view.html?p=documents/books/montgomery-1840-cotton-manufacture.md) | 1840 | Cotton manufacturing processes — the American detail beside Baines |
+| Andrew Ure | [*The Cotton Manufacture of Great Britain*](/view.html?p=documents/books/ure-1836-cotton-manufacture.md) | 1836 | Cotton production, spinning and manufacturing machinery — the systematic treatise |
+| Alexander Brown | [*A Practical Treatise on the Construction of the Power Loom*](/view.html?p=documents/books/brown-1876-power-loom.md) | 1876 | Power-loom construction and weaving mechanisms |
+| E. A. Parnell | [*Applied Chemistry — Dyeing and Calico Printing*](/view.html?p=documents/books/parnell-1844-dyeing-and-calico-printing.md) | 1844 | Applied chemistry in textile finishing and printing |
+| Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
+| George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
+| J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
+## Ars Typographica
+
+> The printing trade — type, press, composition, lithography and the mechanized letterpress — the craft that carried technical knowledge itself.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Joseph Moxon | [*Mechanick Exercises*](/view.html?p=documents/books/moxon-1683-mechanick-exercises.md) | 1683 | Printing, joinery, metalworking and the practical crafts from inside the shops |
+| John Johnson | [*Typographia, or the Printer's Instructor*](/view.html?p=documents/books/johnson-1824-typographia.md) | 1824 | Printing machinery, typography and printing operations |
+| Thomas Curson Hansard | [*Typographia: An Historical Sketch of the Art of Printing*](/view.html?p=documents/books/hansard-1825-typographia.md) | 1825 | Printing technology and machinery |
+| William Savage | [*A Dictionary of the Art of Printing*](/view.html?p=documents/books/savage-1841-dictionary-of-printing.md) | 1841 | Printing materials, equipment and processes |
+| John Southward | [*Practical Printing*](/view.html?p=documents/books/southward-1884-practical-printing.md) | 1884 | Printing machinery and workshop practice |
+| R. Wilson & C. L. Grey | [*A Practical Treatise upon Modern Printing Machinery and Letterpress Printing*](/view.html?p=documents/books/wilson-grey-1888-modern-printing-machinery.md) | 1888 | Mechanized presses and the letterpress economy |
+| Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
+| Alois Senefelder | [*A Complete Course of Lithography*](/view.html?p=documents/books/senefelder-1819-complete-course-lithography.md) | 1819 | Lithography described by its inventor |
+| P.-S. Fournier | [*Manuel Typographique*](/view.html?p=documents/books/fournier-1764-manuel-typographique.md) | 1764–66 | Type founding and the point system |
+## Ars Papyrologica
+
+> Paper and its manufacture — the material on which the technical literature was printed, from the rag and the pulp to the machine.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Friedrich Gottlob Keller and contemporaries | Technical literature on paper manufacture | 19th century | Paper production (guide row, not a citable work) |
+| Richard Herring | [*Paper & Paper Making, Ancient and Modern*](/view.html?p=documents/books/herring-1855-paper-and-paper-making.md) | 1855 | Paper materials, historical processes and industrial papermaking |
+| Joel Munsell | [*A Chronology of Paper and Paper-Making*](/view.html?p=documents/books/munsell-1870-chronology-of-paper.md) | 1870 | The paper industry's historical register |
+| Karl Hofmann | [*A Practical Treatise on the Manufacture of Paper in All Its Branches*](/view.html?p=documents/books/hofmann-1873-manufacture-of-paper.md) | 1873 | Papermaking machinery, pulp preparation and processing |
 
 ## Ars Energia
 
@@ -466,7 +499,6 @@ qa:
 | James Atkinson | [*Gas-engine papers and patents*](/view.html?p=documents/books/atkinson-1880s-gas-engine-papers.md) | 1880s | The cycle variations against the Otto patent |
 | R. Stirling & J. Ericsson | [*Hot-air engine patents and papers*](/view.html?p=documents/books/hot-air-engine-1816-1850-stirling-ericsson.md) | 1816–50s | The regenerator and the external-combustion cycle |
 | A. B. Mouchot | [*La Chaleur Solaire et ses Applications Industrielles*](/view.html?p=documents/books/mouchot-1869-chaleur-solaire.md) | 1869 | Solar heat collected and applied — the first systematic treatise |
-
 ## Ars Cibaria
 
 > The food-processing technologies: raw-material preparation, mechanical processing, fermentation, preservation, refrigeration and industrial manufacture. The outline's four Ure food rows collapse to the one composite row below; Fairbairn serves the milling branch beside Rankine's millwork manual in Ars Mechanica.
@@ -521,7 +553,6 @@ qa:
 | C. R. C. Tichborne | [*The Mineral Waters of Europe*](/view.html?p=documents/books/tichborne-1883-mineral-waters-europe.md) | 1883 | Springs surveyed and artificial waters made to match |
 | Robert Whymper | [*Cocoa and Chocolate: Their Chemistry and Manufacture*](/view.html?p=documents/books/whymper-1912-cocoa-and-chocolate.md) | 1912 (boundary) | The confectionery commodity written up from the works |
 | H. Mège-Mouriès | [*Margarine patents*](/view.html?p=documents/books/mege-mouries-1869-margarine-patent.md) | 1869– | The butter substitute designed from fat chemistry |
-
 ## Ars Acustica
 
 > More than the physics of sound: acoustic apparatus, sound generation, measurement, architectural design and the acoustic properties of materials.
@@ -557,7 +588,6 @@ qa:
 | Francis Galton | [*Hearing and Galton-whistle papers*](/view.html?p=documents/books/galton-1880s-hearing-whistle-papers.md) | 1870s–80s | The upper limit of hearing measured |
 | C. Cagniard de la Tour & A. Seebeck | [*Siren papers*](/view.html?p=documents/books/cagniard-seebeck-1819-1840s-siren-papers.md) | 1819–40s | The rotating disc that made frequency countable |
 | W. C. Sabine | [*Collected Papers on Acoustics*](/view.html?p=documents/books/sabine-1922-collected-papers-acoustics.md) | 1922 (boundary) | Reverberation measured — the hall designed from the number |
-
 ## Ars Telluris
 
 > Instruments and techniques for measuring the physical properties of the Earth — from seismometry and geomagnetism through geodesy, meteorological instruments, geological surveying and hydrography.
@@ -606,7 +636,6 @@ qa:
 | Humphrey Lloyd | [*A Treatise on Magnetism, General and Terrestrial*](/view.html?p=documents/books/lloyd-1874-treatise-on-magnetism.md) | 1874 | Terrestrial magnetism and the observatory method |
 | F. G. W. Struve | [*Arc du Méridien de 25° 20′*](/view.html?p=documents/books/struve-1857-arc-du-meridien.md) | 1857–60 | The great meridian arc measured across Russia |
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument |
-
 ## Ars Architectura
 
 > Architecture and the built-works art — the encyclopædias, the tunnelling under the Thames, and the building machinery the tall structures ran.
@@ -629,7 +658,6 @@ qa:
 | William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1857-iron-building.md) | 1857 | The iron girder and the fireproof floor |
 | G. F. Harris | [*The Science of Brickmaking*](/view.html?p=documents/books/harris-1897-science-of-brickmaking.md) | 1897 | The clay and the kiln made a science |
 | C. F. Mitchell | [*Building Construction and Drawing*](/view.html?p=documents/books/mitchell-1902-building-construction.md) | 1902 (boundary) | The craft taught as a course — the details specified |
-
 ## Ars Transportaria
 
 > Roads and railways — the land transport system from McAdam's road science through the opening railway treatise to the engineering-science textbook that closed the century.
@@ -664,7 +692,6 @@ qa:
 | William Humber | [*A Complete Treatise on Cast and Wrought Iron Bridge Construction*](/view.html?p=documents/books/humber-1861-iron-bridge-construction.md) | 1861 | The iron bridge calculated and built (honest no-scan) |
 | D. K. Clark | [*Tramways: Their Construction and Working*](/view.html?p=documents/books/clark-1878-tramways.md) | 1878 | The street railway as a municipal system |
 | J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform |
-
 ## Ars Navalis
 
 > Naval architecture — ship design and construction as an engineering discipline, from Chapman's classification to his construction theory.
@@ -698,7 +725,6 @@ qa:
 | W. H. White | [*A Manual of Naval Architecture*](/view.html?p=documents/books/white-1877-manual-naval-architecture.md) | 1877 | Naval architecture taught to the officer |
 | S. W. Barnaby | [*Marine Propellers*](/view.html?p=documents/books/barnaby-1891-marine-propellers.md) | 1891 | The screw given its theory and its numbers |
 | E. L. Attwood | [*Text-book of Theoretical Naval Architecture*](/view.html?p=documents/books/attwood-1899-textbook-theoretical-naval-architecture.md) | 1899 | The drawing-office calculations made a curriculum |
-
 ## Ars Photographia
 
 > Photography's founding literature — the paper-negative invention and the wet-plate processes, as the medium's first books and chemical manuals documented them.
@@ -727,7 +753,6 @@ qa:
 | C. F. Channing | [*Photo-Mechanical Processes*](/view.html?p=documents/books/channing-1890-photo-mechanical-processes.md) | 1890 | The photograph turned into a printing surface |
 | Eastman Dry Plate and Film Co. | [*Illustrated Catalogue and Price List*](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md) | 1886 | Photography sold as manufactured goods |
 | R. L. Maddox | [*An Experiment with Gelatino-Bromide*](/view.html?p=documents/books/maddox-1871-gelatino-bromide-dry-plate.md) | 1871 | The gelatine dry plate proposed — photography made portable (honest no-scan) |
-
 ## Ars Aeronautica
 
 > The flying machine's own literature — the founding principle, the glider experiments, the synthesis before the Wrights, and the balloon practice that kept the air a working medium.
@@ -741,7 +766,6 @@ qa:
 | Aeronautical Society of Great Britain | [*Annual Reports (7th–12th)*](/view.html?p=documents/books/aeronautical-society-1872-annual-reports.md) | 1872–77 | The first aeronautical society's papers and wind-tunnel experiments |
 | John Wise | [*A System of Aeronautics*](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md) | 1850 | Envelope making, hydrogen generation and balloon ascents (cross-listed from Transportaria) |
 | J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform (cross-listed from Transportaria) |
-
 ## Ars Automobilis
 
 > The motor vehicle's literature — the steam carriage that first put an engine on the road, the patents that made the petrol car, and the first books in which the vehicle was treated as a whole machine.
@@ -754,7 +778,6 @@ qa:
 | Karl Benz | *Patents and specifications for the gas-engine vehicle* | 1886– | The motor carriage patented — engine, chassis and steering integrated (no scan verified) |
 | Gottlieb Daimler & Wilhelm Maybach | *Patents and specifications for the high-speed engine and the motor carriage* | 1883–89 | The light high-speed engine and the vehicle built around it (no scan verified) |
 | Panhard & Levassor | *The système Panhard: the front-engine, rear-drive layout* | 1890s | The founding automobile layout — engine forward, gearbox and drive behind (no scan verified) |
-
 ## Ars Velocipedica
 
 > The bicycle and the light wheeled vehicle — the trade catalogues and construction manuals of the machine that made precision engineering a consumer industry.
@@ -768,7 +791,6 @@ qa:
 | Rice Lewis & Son | [*Bicycle Accessories: Catalogue*](/view.html?p=documents/books/rice-lewis-1900-bicycle-accessories-catalogue.md) | 1900 | The component and accessory economy of the safety bicycle |
 | J. K. Starley | *The Rover safety bicycle patent* | 1885 | The safety frame — the rear-driven, equal-wheeled bicycle (no scan verified) |
 | John Boyd Dunlop | *The pneumatic tyre patent* | 1888 | The air tyre that made the safety bicycle comfortable (no scan verified) |
-
 ## Ars Consutoria
 
 > The sewing machine — the first mass-produced consumer durable, its mechanism, its factory, and the operating literature it was sold with.
@@ -780,7 +802,6 @@ qa:
 | Singer Manufacturing Company | [*Instruction Manual for the 27-2 Vibrating Shuttle Machine*](/view.html?p=documents/books/singer-1894-vibrating-shuttle-instruction-manual.md) | 1894 | The sewing machine as a mass-produced consumer durable |
 | Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
 | Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
-
 ## Ars Computatoria
 
 > The calculating machine and the tabulating system — the difference engine proposed and built, the arithmometer sold, the continuous integrator analysed, and the punched card made a data system.
@@ -795,7 +816,6 @@ qa:
 | Andreas von Ettingshausen | [*Bericht über den Arithmometer des Herrn Thomas*](/view.html?p=documents/books/ettingshausen-1857-arithmometer-thomas.md) | 1857 | The arithmometer examined — mechanical calculation made commercial |
 | Blaise Pascal | *The Pascaline: the calculating machine* | 1642 | Addition and subtraction by geared wheels (no scan verified) |
 | Gottfried Wilhelm Leibniz | *The stepped reckoner* | 1673 | Multiplication by the stepped drum (no scan verified) |
-
 ## Ars Molendinaria
 
 > The mill and the wind engine — the millwright's manual, the miller's trade, and the wind machine sold as a manufactured system.
@@ -807,7 +827,6 @@ qa:
 | B. S. Williams & Co. | [*Illustrated Catalogue of Wind-Mills, Pumps, Tanks, etc.*](/view.html?p=documents/books/williams-1884-windmill-catalogue.md) | 1884 | The American wind engine as a manufactured farm system |
 | John Smeaton | [*An Experimental Enquiry Concerning the Natural Powers of Water and Wind*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The water- and wind-wheel experiments (cross-listed from Energia) |
 | Poul la Cour | *The wind turbine and the wind-driven dynamo* | 1890s | The windmill turned into an electricity generator (no scan verified) |
-
 ## Ars Irrigationis
 
 > Irrigation engineering — the Indian canal reports, the Nile works, the American arid West, and the administrative and sanitary arguments that surrounded them.
@@ -821,7 +840,6 @@ qa:
 | Government of Bengal | [*Papers Relating to Irrigation in Bengal*](/view.html?p=documents/books/bengal-1861-irrigation-papers.md) | 1861 | Irrigation argued as public health and famine policy |
 | Elwood Mead | [*Rise and Future of Irrigation in the United States*](/view.html?p=documents/books/mead-1899-rise-future-irrigation-united-states.md) | 1899 | The American irrigation movement and the arid West |
 | Arthur Cotton | *Reports on the irrigation works of the Godavari, Krishna and other Indian rivers* | 1850s–70s | The Indian irrigation engineer's reports (no scan verified) |
-
 ## Ars Cartographica
 
 > The map as a technical product — projection theory, the trigonometrical survey, the instruments, the national survey, and the papers that made projection a mathematical subject.
@@ -835,7 +853,6 @@ qa:
 | Leonhard Euler | [*Drei Abhandlungen über Kartenprojection*](/view.html?p=documents/books/euler-1898-drei-abhandlungen-kartenprojection.md) | 1775–77 (ed. 1898) | The conformal projection analysed as a mathematical problem |
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument (cross-listed from Telluris) |
 | William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science (cross-listed from Telluris) |
-
 ## Ars Cryogenica
 
 > Low-temperature engineering — the liquefaction of the permanent gases, liquid hydrogen and the vacuum flask, and the refrigeration practice the cold machine grew out of.
@@ -849,7 +866,6 @@ qa:
 | Raoul Pictet & Louis Paul Cailletet | *The liquefaction of oxygen* | 1877 | The first permanent gas condensed (no scan verified) |
 | Carl von Linde | *The air-liquefaction process and machine* | 1895 | Air liquefied by regenerative cooling (no scan verified) |
 | William Hampson | *The Hampson air-liquefaction machine* | 1895 | The compact regenerator and the liquid-air plant (no scan verified) |
-
 ## Ars Pharmaceutica
 
 > The pharmaceutical standard and the manufacturing shop — the pharmacopoeias, the dispensing manuals, materia medica, and the alkaloid patent that turned a drug into a chemical product.
@@ -864,7 +880,6 @@ qa:
 | Nicholas Culpeper | [*Pharmacopoeia Londinensis*](/view.html?p=documents/books/culpeper-pharmacopoeia-londinensis.md) | 1649 (later ed.) | The official formulary translated and expanded for the shop |
 | Loretta Barton Weld | [*Improvements in the Manufacture of Hydrochlorate of Quinine*](/view.html?p=documents/books/weld-1888-quinine-hydrochlorate.md) | 1888 | The alkaloid salt patented — quinine as an industrial product |
 | Pelletier & Caventou | *Papers on the isolation of the alkaloids (strychnine, quinine, brucine)* | 1817–20 | The alkaloids isolated — the drug made a chemical substance (no scan verified) |
-
 ## References
 
 - [Science History Institute — Muspratt, vol. I](https://digital.sciencehistory.org/works/g00ak0n)
