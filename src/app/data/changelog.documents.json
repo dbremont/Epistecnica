@@ -29837,5 +29837,65 @@
         "commit": "942c6bef562ffc561df63b5f8b4214ced8cfd019"
       }
     ]
+  },
+  {
+    "file_path": "books/tredgold-1827-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tredgold, The steam engine (1827) - invention, improvement and mechanical philosophy; 1827-1838 scans, cross-linked to Farey and Rankine."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rennie-1831-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rennie's 1831 Useful-Knowledge steam treatise; honest no-scan note, the diffusion-literature record."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pole-1844-cornish-pumping-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Pole, A treatise on the Cornish pumping engine (1844); honest no-scan note, the Cornish duty literature."
+      }
+    ]
+  },
+  {
+    "file_path": "books/marean-1852-farmers-emigrants-hand-book.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Marean, The farmer's and emigrant's hand-book (1852) - the outline's Beaumont attribution corrected to the title-page's own Marean identification; 1852 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smith-1873-foods.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Edward Smith, Foods (International Scientific Series, 1873); 1873 and 1890 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/manley-1884-manufacture-sugar-cane.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Manley, The manufacture of sugar from the sugar cane (1884); honest no-scan note, cross-linked to Burgh 1863."
+      }
+    ]
   }
 ]
