@@ -30387,5 +30387,65 @@
         "commit": "5204cfadca13f4b889d4909b264deff2ee145766"
       }
     ]
+  },
+  {
+    "file_path": "books/fresenius-1841-qualitative-analysis.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fresenius's qualitative companion (1841 German Anleitung, English Elementary instruction in chemical analysis); 1859/1864 scans, cross-linked to the held quantitative system."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lunge-1879-sulphuric-acid-and-alkali.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lunge, Treatise on the manufacture of sulphuric acid and alkali (1879) - the outline's 'Soda' row merges into its alkali volumes, noted; 1913 definitive-edition scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kunhardt-1884-practice-of-ore-dressing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Kunhardt, The practice of ore dressing in Europe (1884); honest no-scan note, cross-linked to Andre."
+      }
+    ]
+  },
+  {
+    "file_path": "books/whitworth-1858-miscellaneous-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Whitworth, Miscellaneous papers on mechanical subjects (1858) - precision standardization collected; 1858 + 1873 Guns-and-Steel scans, cross-linked to Holtzapffel."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sellers-1864-uniform-system-screw-threads.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sellers, On a uniform system of screw threads (1864, Franklin Institute @article); honest no-scan note, the American thread standard answering Whitworth."
+      }
+    ]
+  },
+  {
+    "file_path": "books/baas-1865-report-electrical-resistance.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the BAAS committee report on the new unit of electrical resistance (1865, Phil. Trans.); the outline's Whitworth attribution corrected to the committee, 1865 scans."
+      }
+    ]
   }
 ]
