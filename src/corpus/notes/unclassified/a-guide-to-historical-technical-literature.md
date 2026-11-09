@@ -72,6 +72,10 @@ qa:
 | Jacques Besson | *Theatre des Instruments Mathematiques et Mechaniques* | 1578 | The sixteenth-century lathe and instrument theatre — the code of the engraved machine book (no scan verified) |
 | Giovanni Branca | *Le Machine, Diverse et Maravigliose Arti di Mano* | 1629 | The steam-wheel sketch and the marvellous machine book of the Roman tradition (no scan verified) |
 | Ernest Spon (ed.) | *Spon's Dictionary of Engineering, Civil, Mechanical, Military, and Naval* | 1869–74 | The Victorian engineering encyclopedia in eight volumes (no scan verified) |
+| Joshua Rose | [*The Complete Practical Machinist*](/view.html?p=documents/books/rose-1876-complete-practical-machinist.md) | 1876 | The shop floor put into a book — the American machinist taught by the trade |
+| Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System of interchangeable manufacture (no scan verified) |
+| W. G. Armstrong | *Water-pressure machinery and accumulator papers* | 1850s–60s | Hydraulic cranes, accumulators and the water-pressure machine economy (no scan verified) |
+| Frederick Winslow Taylor | *A Piece-Rate System; and Notes on Belting (ASME papers)* | 1895–1900s | Scientific shop management and the high-speed tool steel trials (no scan verified) |
 
 ## Ars Chimica
 
@@ -356,6 +360,7 @@ qa:
 | Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
 | J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
 | Sébastien Le Prestre de Vauban | [*Traité de l'Attaque et de la Défense des Places*](/view.html?p=documents/books/vauban-1737-attaque-defense-places.md) | 1737 | The founding method of the siege and the fortress defence |
+| U.S. Army Ordnance Department (A. Mordecai) | [*Reports of Experiments on the Properties of Metals for Cannon*](/view.html?p=documents/books/mordecai-1856-reports-metals-cannon.md) | 1856 | The metals for cannon tested — American iron and bronze at the gun scales |
 
 ## Ars Electrica
 
@@ -410,6 +415,13 @@ qa:
 | W. von Siemens & F. J. Sprague | [*Electric-traction papers*](/view.html?p=documents/books/siemens-sprague-1880s-electric-traction-papers.md) | 1880s–90s | The motor put on rails — tram and underground |
 | Michael Faraday | [*Faraday's Diary*](/view.html?p=documents/books/faraday-1932-diary.md) | 1820–62 (ed. 1932) | The bench record — experiments, failures and apparatus as they happened |
 | Joseph Henry | [*The Scientific Writings*](/view.html?p=documents/books/henry-1886-scientific-writings.md) | 1886 | Electromagnets, induced currents and the telegraph — the American papers |
+| Georg Simon Ohm | [*Die Galvanische Kette, Mathematisch Bearbeitet*](/view.html?p=documents/books/ohm-1827-die-galvanische-kette.md) | 1827 | The current law of the circuit — the founding form of electrical calculation |
+| Alfred Vail | [*The American Electro Magnetic Telegraph*](/view.html?p=documents/books/vail-1845-american-electro-magnetic-telegraph.md) | 1845 | The working telegraph apparatus and its alphabet described by its builder |
+| Heinrich Hertz | [*Electric Waves*](/view.html?p=documents/books/hertz-1893-electric-waves.md) | 1893 | The electromagnetic wave measured in the laboratory — the founding experimental record |
+| Charles Proteus Steinmetz | [*Theory and Calculation of Alternating Current Phenomena*](/view.html?p=documents/books/steinmetz-1897-theory-alternating-current.md) | 1897 | The AC circuit computed by phasors — the electrical engineering standard |
+| G. S. Kirchhoff & R. W. E. Bunsen | *Chemische Analyse durch Spectralbeobachtungen* | 1860 | The spectroscope as an analytical instrument (no scan verified) |
+| Gaston Planté | *Recherches sur la electricité; the lead-acid secondary battery* | 1859 (papers 1879) | The rechargeable storage battery in lead and acid (no scan verified) |
+| Zénobe Gramme | *Sur une machine magneto-electrique produisant des courants continus* | 1871 | The ring-armature continuous-current dynamo (no scan verified) |
 
 ## Ars Instrumentalis
 
@@ -624,6 +636,11 @@ qa:
 | A. B. Mouchot | [*La Chaleur Solaire et ses Applications Industrielles*](/view.html?p=documents/books/mouchot-1869-chaleur-solaire.md) | 1869 | Solar heat collected and applied — the first systematic treatise |
 | Francis Trevithick | [*Life of Richard Trevithick*](/view.html?p=documents/books/trevithick-1872-life.md) | 1872 | The high-pressure engine and the locomotive — the engineer's letters and works |
 | Samuel Smiles | [*Lives of Boulton and Watt*](/view.html?p=documents/books/smiles-1865-lives-boulton-watt.md) | 1865 | The Soho works and the engine partnership — the firm's own manuscripts |
+| Denis Papin | *Nova methodus ad vires motrices ... (Acta Eruditorum)* | 1690 | The cylinder, piston and condenser cycle proposed before Newcomen (no scan verified) |
+| Julius Robert Mayer | *Bemerkungen über die Kräfte der unbelebten Natur* | 1842 | The conservation of force and the mechanical equivalent of heat first stated (no scan verified) |
+| Alphonse Beau de Rochas | *Nouvelles recherches sur les conditions pratiques de plus grande utilisation de la chaleur* | 1862 | The four-stroke cycle stated before Otto (no scan verified) |
+| George H. Corliss | *Cut-off valve gear patents* | 1849 | The variable cut-off and the high-speed governed engine (no scan verified) |
+| Henri Giffard | *Notice théorique et pratique sur l injecteur automoteur* | 1858 | The steam injector feeding the boiler (no scan verified) |
 
 ## Ars Cibaria
 
@@ -838,6 +855,8 @@ qa:
 | Great Britain. Patent Office | [*Abridgments of Specifications Relating to Railways, A.D. 1770–1863*](/view.html?p=documents/books/patent-office-1868-abridgments-railways.md) | 1868 | The patented development of the railway — the specifications abridged |
 | J. C. Jeaffreson (with W. Pole) | [*The Life of Robert Stephenson*](/view.html?p=documents/books/jeaffreson-1864-life-robert-stephenson.md) | 1864 | The letters, papers and works of Robert Stephenson printed |
 | George & Robert Stephenson | *Letters, notebooks and locomotive drawings* | 1820s–30s | The locomotive's development from the Stephensons' own papers (no scan verified) |
+| George Westinghouse | *Compressed-air brake patents* | 1869 / 1872 | The fail-safe continuous air brake of the train (no scan verified) |
+| Douglas Galton | *On the Effect of Brakes upon Railway Trains* | 1878–79 | The wheel-rail friction of the brake measured (no scan verified) |
 
 ## Ars Navalis
 

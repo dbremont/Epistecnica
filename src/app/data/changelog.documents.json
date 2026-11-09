@@ -36286,5 +36286,65 @@
         "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
+  },
+  {
+    "file_path": "books/ohm-1827-die-galvanische-kette.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ohm, Die galvanische Kette (1827) — the founding circuit law; 1827 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/vail-1845-american-electro-magnetic-telegraph.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Vail, The American Electro Magnetic Telegraph (1845) — the first working telegraph manual; 1845 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hertz-1893-electric-waves.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hertz, Electric Waves (1893) — the electromagnetic waves as experiment; 1893 translation scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/steinmetz-1897-theory-alternating-current.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Steinmetz, Theory and Calculation of Alternating Current Phenomena (1897) — the AC phasor theory; 1900 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mordecai-1856-reports-metals-cannon.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Ordnance Department Reports of Experiments on Metals for Cannon (1856) — the gun metal trials; 1856 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rose-1876-complete-practical-machinist.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rose, The Complete Practical Machinist (1876) — the American machine shop; 1885 printing scan."
+      }
+    ]
   }
 ]
