@@ -81348,6 +81348,11 @@
         "summary": "Add the primary documents underpinning technical transitions that the treatise corpus lacked: the 1719 Dudley Castle print of the Newcomen engine (the 1712 patent specification recorded as an honest no-scan row) in Energia; Robins's New Principles of Gunnery (1742; 1805 Hutton edition) in Militaris; Kirkaldy's tensile-strength inquiry (1863) in Civilis with a Metallica cross-list; Smiles's Industrial Biography (1864) and an honest Maudslay shop-papers row in Mechanica; Arkwright's 1791 US patent with the 1769/1770/1779 British specifications as honest no-scan rows on top of Textilis; the Patent Office abridgments of railway specifications (1868), Jeaffreson's Life of Robert Stephenson and an honest Stephensons-papers row in Transportaria; a Johansson gauge-block no-scan row in Instrumentalis; and a new Ars Extra Europam section with Song Yingxing's Tiangong Kaiwu (1637) and Xu Guangqi's Nong Zheng Quan Shu (1639), with Wubei Zhi as an honest no-scan row.",
         "commit": "92262c611f64c7794a6a30a287d81740e0820d78",
         "before": "9c2a65ed6346735a865ec6897a5ad7461e600831"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add a new Ars Structura section — the engineering science beneath Ars Civilis — with 20 verified entries and 12 honest no-scan rows (32 rows): Frontinus (Herschel 1899 translation), Galileo 1638 Discorsi, Guglielmini 1697, Bernoulli 1738, Poinsot 1803, de Prony 1804, Vicat 1818, Poncelet 1845, Fourneyron 1840, Chadwick 1842, Weisbach 1851, Whipple 1847, Haupt 1851, Darcy 1856 Dijon, Darcy & Bazin 1865, Coignet 1861, Culmann 1866, Cremona 1872, Castigliano 1879 (1886 German trans.), Birkmire 1893; and the no-scan record of Castelli, Coulomb 1773, du Buat, Aspdin 1824, Coriolis, Saint-Venant, Wohler fatigue, Hyatt 1877, Drinker tunnelling, Pelton, Reynolds 1883 and Christophe 1899. Every archive identifier resolved and its metadata title read before use."
       }
     ]
   }

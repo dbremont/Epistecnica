@@ -239,6 +239,45 @@ qa:
 | Sir John Rennie | [*Autobiography*](/view.html?p=documents/books/rennie-1875-autobiography.md) | 1875 | London Bridge, Waterloo Bridge and the docks — the engineer's own works |
 | William Jessop | [*Report on the Proposed Line of Navigation between Newcastle and Maryport*](/view.html?p=documents/books/jessop-1795-navigation-report.md) | 1795 | The canal surveyed and costed — the engineer's public report |
 
+## Ars Structura
+
+> The engineering science layer beneath Ars Civilis — the strength of materials, the statics of frames, channel and pipe hydraulics and the new cements and concrete, computed from Galileo's beam to the steel skeleton and standing above the Tredgold–Rankine teaching out of which the profession manuals are written. Civil-engineering science rather than the Ars Civilis profession itself.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Sextus Julius Frontinus (tr. Clemens Herschel) | [*The Two Books on the Water Supply of the City of Rome*](/view.html?p=documents/books/frontinus-1899-water-supply-rome.md) | c. 97 (tr. 1899) | The Roman water service measured at its intakes — the classical waterworks administration |
+| Benedetto Castelli | *Della Misura dell'Acque Correnti* | 1628 | Stream continuity laid down — velocity and section (no scan verified) |
+| Galileo Galilei | [*Discorsi e Dimostrazioni Matematiche intorno a due Nuove Scienze*](/view.html?p=documents/books/galileo-1638-discorsi-two-new-sciences.md) | 1638 | The cantilever beam made a problem of strengths — the founding of the strength of materials |
+| Domenico Guglielmini | [*Della Natura de' Fiumi*](/view.html?p=documents/books/guglielmini-1697-natura-de-fiumi.md) | 1697 | The river as a computed regime — slope, velocity and bed |
+| Daniel Bernoulli | [*Hydrodynamica*](/view.html?p=documents/books/bernoulli-1738-hydrodynamica.md) | 1738 | Pressure, motion and efflux bound in one law — analytical hydrodynamics founded |
+| Charles-Augustin de Coulomb | *Essai sur une Application des Regles de Maximis et Minimis a quelques Problemes de Statique* | 1773 | Earth pressure and masonry friction — the founding statics of soil and arch (no scan verified) |
+| Pierre-Louis-Georges du Buat | *Principes d'Hydraulique* | 1786 | Open channel resistance and the velocity profile from experiment (no scan verified) |
+| Louis Poinsot | [*Elements de Statique*](/view.html?p=documents/books/poinsot-1803-elements-de-statique.md) | 1803 | The couple made a free element — teaching statics rebuilt |
+| Gaspard de Prony | [*Recherches Physico-Mathematiques sur la Theorie des Eaux Courantes*](/view.html?p=documents/books/prony-1804-recherches-eaux-courantes.md) | 1804 | Channel and pipe resistance given its friction law |
+| Louis Vicat | [*Recherches Experimentales sur les Chaux de Construction, les Betons et les Mortiers Ordinaires*](/view.html?p=documents/books/vicat-1818-chaux-de-construction.md) | 1818 | The setting of limes measured — cement science founded |
+| Joseph Aspdin | *British patent for the manufacture of Portland cement* | 1824 | Artificial stone cement — Portland patented at the Patent Office (no scan verified) |
+| Gaspard-Gustave de Coriolis | *Du Calcul de l'Effet des Machines* | 1829 | Work and kinetic energy defined for machine calculation (no scan verified) |
+| Jean-Victor Poncelet | [*Traite de Mecanique Industrielle, Physique ou Experimentale*](/view.html?p=documents/books/poncelet-1845-mecanique-industrielle.md) | 1845 | The work principle taught to industry — industrial mechanics founded |
+| Benoit Fourneyron | [*Memoire sur les Turbines Hydrauliques*](/view.html?p=documents/books/fourneyron-1840-turbines-hydrauliques.md) | 1840 | The reaction turbine described by its inventor |
+| Edwin Chadwick | [*Report on the Sanitary Condition of the Labouring Population of Great Britain*](/view.html?p=documents/books/chadwick-1842-sanitary-condition-labouring-population.md) | 1842 | Drainage and water supply joined — the founding sanitary document |
+| Julius Weisbach | [*Lehrbuch der Ingenieur- und Maschinen-Mechanik*](/view.html?p=documents/books/weisbach-1851-lehrbuch-ingenieur-maschinen-mechanik.md) | 1851 | Engineering mechanics and machine practice taught as one |
+| Squire Whipple | [*A Work on Bridge Building*](/view.html?p=documents/books/whipple-1847-work-on-bridge-building.md) | 1847 | The truss members computed — founding truss theory |
+| Herman Haupt | [*General Theory of Bridge Construction*](/view.html?p=documents/books/haupt-1851-general-theory-bridge-construction.md) | 1851 | The truss taught from first principles |
+| Adhemar de Saint-Venant | *Memoirs on torsion and flexure; and his annotated edition of Navier's Lecons* | 1855–64 | Torsion, flexure and elasticity pressed into the engineering course (no scan verified) |
+| Henry Darcy | [*Les Fontaines Publiques de la Ville de Dijon*](/view.html?p=documents/books/darcy-1856-fontaines-publiques-dijon.md) | 1856 | Pipe friction and porous flow measured — municipal water supply computed |
+| August Wohler | *Versuche uber die Festigkeit der Eisenbahnwagen-Achsen* | 1858–71 | Fatigue of axles — the stress-number curve begun (no scan verified) |
+| Francois Coignet | [*Betons Agglomeres Appliques a l Art de Construire*](/view.html?p=documents/books/coignet-1861-betons-agglomeres.md) | 1861 | Concrete construction systematised — reinforcement begun |
+| Henry Darcy & Henry Emile Bazin | [*Recherches Hydrauliques*](/view.html?p=documents/books/darcy-bazin-1865-recherches-hydrauliques.md) | 1865 | Channels and pipes given their measured coefficients |
+| Karl Culmann | [*Die Graphische Statik*](/view.html?p=documents/books/culmann-1866-graphische-statik.md) | 1866 | Graphical statics founded — structure solved by drawing |
+| Luigi Cremona | [*Le Figure Reciproche nella Statica Grafica*](/view.html?p=documents/books/cremona-1872-figure-reciproche.md) | 1872 | Reciprocal figures — graphical statics given its geometry |
+| Thaddeus Hyatt | *An Account of Some Experiments with Portland-Cement-Concrete, Combined with Iron* | 1877 | Reinforced concrete anticipating — iron and concrete tested together (no scan verified) |
+| Henry S. Drinker | *Tunneling, Explosive Compounds, and Rock Drills* | 1878 | Hard-rock tunnelling: Sommeiller drills, dynamite and the Great Gotthard (no scan verified) |
+| Alberto Castigliano | [*Theorie de lequilibre des Systemes Elastiques*](/view.html?p=documents/books/castigliano-1879-theorie-de-lequilibre.md) | 1879 | Strain-energy theorems — indeterminate structures computed |
+| Lester Allen Pelton | *Water-wheel patents* | 1880 | The split-bucket impulse turbine for high-head hydro (no scan verified) |
+| Osborne Reynolds | *On the Experimental Investigation of the Circumstances which Determine whether the Motion of Water shall be Direct or Sinuous* | 1883 | Laminar flow set against turbulent — the Reynolds number begun (no scan verified) |
+| William Harvey Birkmire | [*Skeleton Construction in Buildings*](/view.html?p=documents/books/birkmire-1893-skeleton-construction.md) | 1893 | The steel skeleton framed — skyscraper construction |
+| Paul Christophe | *Le Beton Arme et ses Applications* | 1899 | Reinforced concrete gathered as a construction science (no scan verified) |
+
 ## Ars Militaris
 
 > Military engineering as its own profession — fortification and the attack of places, ordnance and shells, military bridging, field surveying and military telegraphy.
