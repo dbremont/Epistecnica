@@ -35582,5 +35582,95 @@
         "commit": "b0117c6e27f2abdc7c0eda6557f777e1fcf57616"
       }
     ]
+  },
+  {
+    "file_path": "books/dudley-castle-engine-1719-print.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Dudley Castle engine print (1719) — the Newcomen engine as installed machinery; 1719 engraving scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/robins-1742-new-principles-of-gunnery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Robins, New Principles of Gunnery (1742; 1805 ed.) — scientific ballistics founded; 1805 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Kirkaldy, Result of an Experimental Inquiry (1863) — the materials-testing record; 1866 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smiles-1864-industrial-biography.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Smiles, Industrial Biography (1864) — the machine-tool founders; 1864 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/arkwright-1791-us-patent-spinning-roving-cotton.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Arkwright, Spinning and Roving Cotton (1791) — the water frame in patent form; 1791 US patent scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/patent-office-1868-abridgments-railways.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Patent Office abridgments of railway specifications (1868) — the primary patent corpus; 1868 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jeaffreson-1864-life-robert-stephenson.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Jeaffreson, The Life of Robert Stephenson (1864) — the letters and works; 1864/1866 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/song-yingxing-1637-tiangong-kaiwu.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Song Yingxing, Tiangong Kaiwu (1637) — the Ming technical encyclopaedia; 1637 CADAL scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/xu-guangqi-1639-nongzheng-quanshu.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Xu Guangqi, Nong Zheng Quan Shu (1639; 1909 ed.) — the agricultural-technical treatise; 1909 scan."
+      }
+    ]
   }
 ]

@@ -81341,6 +81341,11 @@
         "summary": "Split the overgrown sections: Ars Militaris out of Civilis (12 rows: fortification, siege, ordnance, military bridging, field surveying and telegraphy), and Ars Textilis (15 rows), Ars Typographica (9) and Ars Papyrologica (4) out of Manufactura. Manufactura and Civilis intros updated. These moves landed with the older-arts batch; this log records them and restores the blank line the row move dropped before every section heading.",
         "commit": "87ec8a43ec3a7c9ccffd4122232ff16341804a8a",
         "before": "46ba24dbf9123aa91a93c1ed022643bb70bd3325"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the primary documents underpinning technical transitions that the treatise corpus lacked: the 1719 Dudley Castle print of the Newcomen engine (the 1712 patent specification recorded as an honest no-scan row) in Energia; Robins's New Principles of Gunnery (1742; 1805 Hutton edition) in Militaris; Kirkaldy's tensile-strength inquiry (1863) in Civilis with a Metallica cross-list; Smiles's Industrial Biography (1864) and an honest Maudslay shop-papers row in Mechanica; Arkwright's 1791 US patent with the 1769/1770/1779 British specifications as honest no-scan rows on top of Textilis; the Patent Office abridgments of railway specifications (1868), Jeaffreson's Life of Robert Stephenson and an honest Stephensons-papers row in Transportaria; a Johansson gauge-block no-scan row in Instrumentalis; and a new Ars Extra Europam section with Song Yingxing's Tiangong Kaiwu (1637) and Xu Guangqi's Nong Zheng Quan Shu (1639), with Wubei Zhi as an honest no-scan row."
       }
     ]
   }

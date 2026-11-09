@@ -58,6 +58,8 @@ qa:
 | John Fowler | [*Steam-ploughing patents and specifications*](/view.html?p=documents/books/fowler-1850s-steam-ploughing-patents.md) | 1850s–60s | The cable-and-winch steam cultivation (patent specifications) |
 | Howard & Fowler | [*Steam-cultivation literature*](/view.html?p=documents/books/howard-fowler-1860s-steam-cultivation.md) | 1860s–80s | The firms' catalogues and survey papers (collector entry) |
 | Robertson Buchanan | [*Practical Essays on Mill Work and Other Machinery*](/view.html?p=documents/books/buchanan-1823-practical-essays-mill-work.md) | 1823 | Mill work calculated — water wheel, gearing, shafts and stones |
+| Samuel Smiles | [*Industrial Biography: Iron-Workers and Tool-Makers*](/view.html?p=documents/books/smiles-1864-industrial-biography.md) | 1864 | The machine-tool founders told from within the trade — Maudslay, Bramah, Nasmyth |
+| Henry Maudslay | *Machine-tool drawings, workshop papers and the screw-cutting lathe* | c. 1800–1830 | The machine-tool shop as a documented practice (no scan verified) |
 
 ## Ars Chimica
 
@@ -154,6 +156,7 @@ qa:
 | Robert Hadfield | [*Manganese steel and alloy steel papers*](/view.html?p=documents/books/hadfield-1890s-manganese-steel-papers.md) | 1880s–90s | The alloy steels at the works scale (paper series) |
 | Lazarus Ercker | [*Aula Subterranea*](/view.html?p=documents/books/ercker-1703-aula-subterranea.md) | 1574 (ed. 1703) | Ores, assaying and the works — the expanded metallurgical treatise |
 | C. E. Gellert | [*Metallurgic Chymistry*](/view.html?p=documents/books/gellert-1776-metallurgic-chymistry.md) | 1776 | The ore, the furnace and the assay of the Freiberg school |
+| David Kirkaldy | [*Result of an Experimental Inquiry into the Tensile Strength of Wrought Iron and Steel*](/view.html?p=documents/books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md) | 1863 | The testing house beside the rolling mill (cross-listed from Civilis) |
 
 ## Ars Agricola
 
@@ -202,6 +205,7 @@ qa:
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
+| David Kirkaldy | [*Result of an Experimental Inquiry into the Tensile Strength of Wrought Iron and Steel*](/view.html?p=documents/books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md) | 1863 | The strength tables put on the footing of experiment — the testing house |
 | Bernard Forest de Bélidor | [*Architecture Hydraulique*](/view.html?p=documents/books/belidor-1737-architecture-hydraulique.md) | 1737–53 | Hydraulic engineering |
 | Thomas Tredgold | [*A Practical Essay on the Strength of Cast Iron and Other Metals*](/view.html?p=documents/books/tredgold-1822-practical-essay-strength-cast-iron.md) | 1822 | Structural materials |
 | Thomas Tredgold | [*Elementary Principles of Carpentry*](/view.html?p=documents/books/tredgold-1820-elementary-principles-carpentry.md) | 1820 | Structural construction |
@@ -241,6 +245,7 @@ qa:
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
+| Benjamin Robins | [*New Principles of Gunnery*](/view.html?p=documents/books/robins-1742-new-principles-of-gunnery.md) | 1742 (ed. 1805) | Scientific ballistics founded — the ballistic pendulum and the resistance of the air |
 | Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
 | John Muller | [*A Treatise Containing the Practical Part of Fortification*](/view.html?p=documents/books/muller-1755-practical-fortification.md) | 1755 | Fortification construction — the Woolwich arithmetic |
 | D. H. Mahan | [*A Treatise on Field Fortification*](/view.html?p=documents/books/mahan-1836-field-fortification.md) | 1836 | Military engineering — the West Point teaching text |
@@ -353,6 +358,7 @@ qa:
 | Troughton & Simms; Elliott Bros; Repsold; Ertel; Pistor & Martins | [*Instrument-makers' catalogues*](/view.html?p=documents/books/instrument-maker-catalogues-19c.md) | 19th century | The makers' standard ranges, priced and described |
 | John Bird | [*The Method of Dividing Astronomical Instruments*](/view.html?p=documents/books/bird-1767-dividing-astronomical-instruments.md) | 1767 | Dividing the circle and the quadrant — the instrument-maker's precision |
 | Jesse Ramsden | *Description of the Dividing Engine* | 1777 | The engine that divided the circle by screw and scale (no scan verified) |
+| Carl Edvard Johansson | *Gauge-block specifications and papers* | 1890s–1900s | The precision gauge block — interchangeable manufacture at length measure (no scan verified) |
 
 ## Ars Manufactura
 
@@ -414,6 +420,10 @@ qa:
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
+| Richard Arkwright | [*Spinning and Roving Cotton (U.S. Patent 36X)*](/view.html?p=documents/books/arkwright-1791-us-patent-spinning-roving-cotton.md) | 1791 | The water frame in its primary patent form — drawing and specification |
+| Richard Arkwright | *The British patent specification for the water frame* | 1769 | The spinning frame patented at the Patent Office (no scan verified) |
+| James Hargreaves | *The British patent specification for the spinning jenny* | 1770 | The multi-spindle hand wheel patented (no scan verified) |
+| Samuel Crompton | *Mule specifications printed by the trades* (no Patent Office enrolment) | 1779 | The jenny and the water frame combined — the mule unpatented (no scan verified) |
 | Charles O'Neill | [*A Dictionary of Dyeing and Calico Printing*](/view.html?p=documents/books/oneill-1862-dictionary-of-calico-printing-and-dyeing.md) | 1862 | Textile processing |
 | William Crookes | [*A Practical Handbook of Dyeing and Calico-Printing*](/view.html?p=documents/books/crookes-1874-practical-handbook-dyeing-calico-printing.md) | 1874 | Industrial textile chemistry |
 | Edward Baines | [*History of the Cotton Manufacture in Great Britain*](/view.html?p=documents/books/baines-1835-cotton-manufacture.md) | 1835 | Cotton machinery, spinning and textile manufacturing |
@@ -463,6 +473,8 @@ qa:
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
+| Engraver unknown | [*The Steam Engine near Dudley Castle*](/view.html?p=documents/books/dudley-castle-engine-1719-print.md) | 1719 | The Newcomen engine drawn as installed machinery — the cylinder, beam and boiler |
+| Thomas Newcomen & John Calley | *The patent specification for the fire engine* | 1712 | The atmospheric engine patented — cylinder, beam and boiler (no scan verified) |
 | Sadi Carnot | [*Réflexions sur la puissance motrice du feu*](/view.html?p=documents/books/carnot-reflexions-sur-puissance-motrice-feu.md) | 1824 | Thermal engines |
 | Thomas Savery | [*The Miner's Friend*](/view.html?p=documents/books/savery-1702-miners-friend.md) | 1702 | The steam-pump founding manual |
 | John Smeaton | [*Experimental Enquiry on Water and Wind Powers*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The 18th-century testing economy |
@@ -722,6 +734,9 @@ qa:
 | Samuel Smiles | [*The Life of George Stephenson*](/view.html?p=documents/books/smiles-1859-life-george-stephenson.md) | 1859 | The locomotive and the first railways — the engineer's life and letters |
 | R. F. Fairlie | [*Railways or No Railways: Narrow Gauge v. Broad Gauge*](/view.html?p=documents/books/fairlie-1872-railways-or-no-railways.md) | 1872 | The gauge controversy argued — the double-bogie locomotive and the light railway |
 | Isambard Kingdom Brunel | *Broad-gauge papers and the gauge commission* | 1840s–60s | The seven-foot gauge and the battle of the gauges (no scan verified) |
+| Great Britain. Patent Office | [*Abridgments of Specifications Relating to Railways, A.D. 1770–1863*](/view.html?p=documents/books/patent-office-1868-abridgments-railways.md) | 1868 | The patented development of the railway — the specifications abridged |
+| J. C. Jeaffreson (with W. Pole) | [*The Life of Robert Stephenson*](/view.html?p=documents/books/jeaffreson-1864-life-robert-stephenson.md) | 1864 | The letters, papers and works of Robert Stephenson printed |
+| George & Robert Stephenson | *Letters, notebooks and locomotive drawings* | 1820s–30s | The locomotive's development from the Stephensons' own papers (no scan verified) |
 
 ## Ars Navalis
 
@@ -922,6 +937,16 @@ qa:
 | Nicholas Culpeper | [*Pharmacopoeia Londinensis*](/view.html?p=documents/books/culpeper-pharmacopoeia-londinensis.md) | 1649 (later ed.) | The official formulary translated and expanded for the shop |
 | Loretta Barton Weld | [*Improvements in the Manufacture of Hydrochlorate of Quinine*](/view.html?p=documents/books/weld-1888-quinine-hydrochlorate.md) | 1888 | The alkaloid salt patented — quinine as an industrial product |
 | Pelletier & Caventou | *Papers on the isolation of the alkaloids (strychnine, quinine, brucine)* | 1817–20 | The alkaloids isolated — the drug made a chemical substance (no scan verified) |
+
+## Ars Extra Europam
+
+> The technical literature of the non-European world — deliberately thin in a guide whose axis is Atlantic, and drawn from the seventeenth-century Chinese encyclopaedias that record the same order of arts the European sections document.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Song Yingxing | [*Tiangong Kaiwu (The Exploitation of the Works of Nature)*](/view.html?p=documents/books/song-yingxing-1637-tiangong-kaiwu.md) | 1637 | The arts of Ming China — grain, silk, salt, porcelain, metal, paper, ships and arms |
+| Xu Guangqi | [*Nong Zheng Quan Shu (Treatise on Agricultural Administration)*](/view.html?p=documents/books/xu-guangqi-1639-nongzheng-quanshu.md) | 1639 (ed. 1909) | Statecraft agriculture — irrigation, cultivation, famine relief |
+| Mao Yuanyi | *Wubei Zhi (Treatise on Military Preparedness)* | 1621 | The Chinese military-technical encyclopaedia (no scan verified) |
 
 ## References
 
