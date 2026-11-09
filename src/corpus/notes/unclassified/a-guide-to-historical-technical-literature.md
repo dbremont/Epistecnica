@@ -94,6 +94,8 @@ qa:
 | G. C. Greenwell | [*A Practical Treatise on Mine Engineering*](/view.html?p=documents/books/greenwell-1869-mine-engineering.md) | 1869 | Mine construction, ventilation, haulage and machinery |
 | Stephen Michell | [*Mine Drainage*](/view.html?p=documents/books/michell-1881-mine-drainage.md) | 1881 | Underground pumping machinery and mine drainage |
 | Wheaton B. Kunhardt | [*The Practice of Ore Dressing in Europe*](/view.html?p=documents/books/kunhardt-1884-practice-of-ore-dressing.md) | 1884 | Mineral processing and ore concentration |
+
+| Frederick Overman | [*A Treatise on Metallurgy*](/view.html?p=documents/books/overman-1852-treatise-metallurgy.md) | 1852 | American practical metallurgy — mining, processes, machinery |
 | Robert Hunt | [*British Mining*](/view.html?p=documents/books/hunt-1884-british-mining.md) | 1884 | Mining operations and mineral extraction — the national survey |
 | John Arthur Phillips | [*A Treatise on Ore Deposits*](/view.html?p=documents/books/phillips-1884-treatise-ore-deposits.md) | 1884 | Ore bodies, geological occurrence and mineral deposits |
 
@@ -139,6 +141,10 @@ qa:
 | [Life of] Thomas Telford | [*Life of Thomas Telford*](/view.html?p=documents/books/telford-1838-life.md) | 1838 | Bridges, roads, canals and engineering practice |
 | Samuel Smiles | [*The Life of Isambard Kingdom Brunel*](/view.html?p=documents/books/smiles-1870-life-of-isambard-kingdom-brunel.md) | 1870 | Railway, bridge, tunnel and marine engineering projects |
 | Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
+
+| É.-M. Gauthey | [*Traité de la Construction des Ponts* (posthumous, Navier ed.)](/view.html?p=documents/books/gauthey-1809-traite-des-ponts.md) | 1809–16 | Bridge construction — the French corps arithmetic |
+| J. C. Trautwine | [*The Civil Engineer's Pocket-Book*](/view.html?p=documents/books/trautwine-1871-civil-engineers-pocket-book.md) | 1871 | The field-and-office practice handbook |
+| William Humber | [*Iron Bridge Construction*](/view.html?p=documents/books/humber-1861-iron-bridge-construction.md) | 1861 | Fabrication and erection of iron bridges (honest no-scan) |
 | Thomas Ewbank | [*A Descriptive and Historical Account of Hydraulic and Other Machines for Raising Water*](/view.html?p=documents/books/ewbank-1842-hydraulic-machines.md) | 1842 | Pumps, water-lifting mechanisms and hydraulic devices |
 | George Rowdon Burnell | [*Rudimentary Treatise on Limes, Cements, Mortars, Concretes, Mastics, Plastering*](/view.html?p=documents/books/burnell-1850-limes-cements-mortars.md) | 1850 | Construction materials and hydraulic binders |
 | Henry Law & George R. Burnell | [*Rudiments of Civil Engineering*](/view.html?p=documents/books/law-burnell-1869-rudiments-civil-engineering.md) | 1869 | Civil and hydraulic engineering in the Weale series |
@@ -175,6 +181,8 @@ qa:
 | George B. Prescott | [*The Speaking Telephone, Electric Light, and Other Recent Electrical Inventions*](/view.html?p=documents/books/prescott-1879-speaking-telephone.md) | 1879 | Electrical communications and apparatus |
 | W. H. Preece & J. Maier | [*The Telephone*](/view.html?p=documents/books/preece-maier-1889-the-telephone.md) | 1889 | Telephone engineering (Post-Office apparatus doctrine) |
 | J. E. H. Gordon | [*A Practical Treatise on Electric Lighting*](/view.html?p=documents/books/gordon-1884-electric-lighting.md) | 1884 | Electric-lighting apparatus, generating equipment, lamps and distribution |
+
+| S. R. Bottone | [*Electric Bells and All About Them*](/view.html?p=documents/books/bottone-1889-electric-bells.md) | 1889 | The small-installation doing side |
 | Killingworth Hedges | [*Central-Station Electric Lighting*](/view.html?p=documents/books/hedges-1889-central-station-electric-lighting.md) | 1889 | Central stations, feeders, mains, arc and incandescent lighting |
 | Philip Atkinson | [*The Elements of Electric Lighting*](/view.html?p=documents/books/atkinson-1888-elements-electric-lighting.md) | 1888 (ed. to 1897) | Electric-lighting technology and practical systems |
 | Charles Bright | [*Submarine Telegraphs*](/view.html?p=documents/books/bright-1898-submarine-telegraphs.md) | 1898 | Submarine cables: history, construction and working |
@@ -209,6 +217,9 @@ qa:
 | J. E. Erichsen | [*The Science and Art of Surgery*](/view.html?p=documents/books/erichsen-1853-science-and-art-surgery.md) | 1853 | Surgical methods and instruments |
 | Thomas Reid | [*A Treatise on Clock and Watch Making*](/view.html?p=documents/books/reid-1826-clock-and-watch-making.md) | 1826 | Horological mechanisms |
 | F. J. Britten | [*The Watch & Clock Makers' Handbook*](/view.html?p=documents/books/britten-1896-watchmakers-handbook.md) | 1896 | Clock and watch construction — the trade dictionary |
+
+| David Brewster | [*A Treatise on the Microscope*](/view.html?p=documents/books/brewster-1837-treatise-on-the-microscope.md) | 1837 | The practical microscope manual (1837 article-form) |
+| W. F. Stanley | [*A Descriptive Treatise on Mathematical Drawing Instruments*](/view.html?p=documents/books/stanley-1868-mathematical-drawing-instruments.md) | 1868 | The maker-side instrument manual |
 | Arnold & Sons | [*A Catalogue of Surgical Instruments*](/view.html?p=documents/books/arnold-1880-catalogue-surgical-instruments.md) | 1880 | The surgeon's apparatus — the trade catalogue |
 
 ## Ars Manufactura
@@ -230,6 +241,9 @@ qa:
 | Apsley Pellatt | [*Curiosities of Glass Making*](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md) | 1849 | Glass composition, furnaces and manufacturing |
 | Charles Tomlinson | [*Cyclopædia of Useful Arts and Manufactures*](/view.html?p=documents/books/tomlinson-1852-cyclopaedia-useful-arts.md) | 1852 | Industrial processes, materials and manufacturing techniques |
 | Alfred Barlow | [*The History and Principles of Weaving by Hand and by Power*](/view.html?p=documents/books/barlow-1878-history-and-principles-of-weaving.md) | 1878 | Loom construction and textile production |
+
+| George White | [*A Practical Treatise on Weaving by Hand and Power Looms*](/view.html?p=documents/books/white-1846-practical-weaving.md) | 1846 | The weaving manual between the American books and Barlow |
+| Richard Marsden | [*Cotton Spinning*](/view.html?p=documents/books/marsden-1884-cotton-spinning.md) | 1884 | Mill-floor spinning practice and machinery |
 | George Richardson Porter | [*A Treatise on the Manufacture of Porcelain and Glass*](/view.html?p=documents/books/porter-1832-porcelain-and-glass.md) | 1832 | Porcelain and glass manufacturing |
 | Edward Dobson | [*A Rudimentary Treatise on the Manufacture of Bricks and Tiles*](/view.html?p=documents/books/dobson-1850-bricks-and-tiles.md) | 1850 | Ceramic construction materials and kiln processes |
 | John Johnson | [*Typographia, or the Printer's Instructor*](/view.html?p=documents/books/johnson-1824-typographia.md) | 1824 | Printing machinery, typography and printing operations |
@@ -279,6 +293,9 @@ qa:
 | Dugald Clerk | [*The Gas Engine* / theory papers](/view.html?p=documents/books/clerk-1886-the-gas-engine.md) | 1882–86 | Gas-engine construction and operating principles |
 | Bryan Donkin | [*A Text-Book on Gas, Oil, and Air Engines*](/view.html?p=documents/books/donkin-1894-gas-oil-air-engines.md) | 1894 | Gas, petroleum and air engines: design and operation |
 | Henry de Graffigny | [*Gas and Petroleum Engines* (tr. A. G. Elliott)](/view.html?p=documents/books/graffigny-1898-gas-and-petroleum-engines.md) | 1898 | Gas generators, carburetted-air engines and maintenance |
+
+| D. K. Clark | [*The Steam Engine: Steam Engines and Boilers*](/view.html?p=documents/books/clark-1890-steam-engines-and-boilers.md) | 1890 | The late-century constructive steam volume |
+| John Scott Russell | [*A Treatise on the Steam Engine* (Britannica chapter)](/view.html?p=documents/books/russell-1841-treatise-steam-engine.md) | 1841 | Engine design and construction — the Britannica chapter |
 | John Bourne | [*A Treatise on the Steam Engine Applied to Mines, Mills, Steam-Navigation, Railways*](/view.html?p=documents/books/bourne-1846-treatise-steam-engine.md) | 1846 | Applied steam engineering across the industrial systems |
 | William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | Boiler construction, strength of materials, experiments and machinery papers |
 | Henry Robinson | [*Hydraulic Power and Hydraulic Machinery*](/view.html?p=documents/books/robinson-1887-hydraulic-power.md) | 1887 | Transmitted water power — the accumulator-station plant manual |
@@ -312,6 +329,8 @@ qa:
 | James Harrison | [*Refrigeration patents and technical descriptions*](/view.html?p=documents/books/harrison-1850s-refrigeration-patents.md) | 1850s–70s | Mechanical refrigeration and ice manufacture (honest no-scan) |
 | W. H. Wakeman | [*Refrigeration and Ice-Making and Refrigerating Machinery*](/view.html?p=documents/books/wakeman-1890s-refrigeration-machinery.md) | 1890s | Refrigeration plant construction and operation (honest no-scan) |
 | Theron L. Hiles | [*The Ice Crop*](/view.html?p=documents/books/hiles-1893-the-ice-crop.md) | 1893 | The natural-ice trade: harvest, storage, shipping and use |
+
+| M. L. Byrn | [*The Complete Practical Brewer*](/view.html?p=documents/books/byrn-1852-complete-practical-brewer.md) | 1852 (ed. 1867) | The brewery's operations manual in the Baird series |
 | J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
 | Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
@@ -392,6 +411,8 @@ qa:
 |---|---|---:|---|
 | John Loudon McAdam | [*Remarks on the Present System of Road Making*](/view.html?p=documents/books/mcadam-1820-remarks-road-making.md) | 1820 | Road construction and materials |
 | Nicholas Wood | [*A Practical Treatise on Rail-Roads*](/view.html?p=documents/books/wood-1825-practical-treatise-rail-roads.md) | 1825 | Railway engineering in the Stockton-and-Darlington year |
+
+| Thomas Tredgold | [*A Practical Treatise on Rail-Roads and Carriages*](/view.html?p=documents/books/tredgold-1825-rail-roads-and-carriages.md) | 1825 | The other founding railway text of the same year |
 | Walter Loring Webb | [*Railroad Construction: Theory and Practice*](/view.html?p=documents/books/webb-1900-railroad-construction.md) | 1900 | Railway design and construction as engineering science |
 | D. K. Clark | [*Railway Machinery*](/view.html?p=documents/books/clark-1855-railway-machinery.md) | 1855 | Railway equipment and mechanical systems |
 | Zerah Colburn | [*Locomotive Engineering*](/view.html?p=documents/books/colburn-1871-locomotive-engineering.md) | 1871 | Locomotive construction and engineering |
@@ -417,6 +438,8 @@ qa:
 | F. H. af Chapman | [*A Treatise on Ship-Building*](/view.html?p=documents/books/chapman-1820-treatise-on-ship-building.md) | 1820-era | Ship construction theory (French 1781 translation scanned) |
 | John W. Norie | [*A Complete Epitome of Practical Navigation*](/view.html?p=documents/books/norie-1805-practical-navigation.md) | 1805 | Navigation and nautical instruments — the English trade book |
 | Nathaniel Bowditch | [*The New American Practical Navigator*](/view.html?p=documents/books/bowditch-1802-navigator.md) | 1802 | Navigation and nautical calculations — the American standard |
+
+| David Steel | [*The Elements and Practice of Naval Architecture*](/view.html?p=documents/books/steel-1805-naval-architecture.md) | 1805 | Practical shipbuilding before Fincham and Scott Russell |
 | Mungo Murray | [*A Treatise on Ship-Building and Navigation*](/view.html?p=documents/books/murray-1754-ship-building-navigation.md) | 1754–65 | Shipbuilding, navigation and nautical instruments |
 | H.-L. Duhamel du Monceau | [*The Elements of Naval Architecture*](/view.html?p=documents/books/duhamel-1764-elements-naval-architecture.md) | 1764 | Ship construction theory (French) |
 | John Fincham | [*A History of Naval Architecture*](/view.html?p=documents/books/fincham-1851-history-naval-architecture.md) | 1851 | Historical development of ship construction |
@@ -444,6 +467,8 @@ qa:
 | Elbert Anderson | [*The Skylight and the Dark-Room*](/view.html?p=documents/books/anderson-1872-skylight-and-dark-room.md) | 1872 | Photographic studio construction and darkroom arrangements |
 | Charles W. Hearn | [*The Practical Printer*](/view.html?p=documents/books/hearn-1874-practical-printer.md) | 1874 | Photographic printing practice |
 | Edward L. Wilson | [*Wilson's Cyclopedic Photography*](/view.html?p=documents/books/wilson-1894-cyclopedic-photography.md) | 1894 | Photographic apparatus, processes, chemicals — the encyclopædia |
+
+| John Towler | [*The Silver Sunbeam*](/view.html?p=documents/books/towler-1864-silver-sunbeam.md) | 1864 | The comprehensive American operations manual |
 
 ## References
 
