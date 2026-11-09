@@ -28662,7 +28662,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Tredgold, Elementary Principles of Carpentry (1820) — the carpentry science; 1880 edition scan, edition stated."
+        "summary": "Add Tredgold, Elementary Principles of Carpentry (1820) — the carpentry science; 1880 edition scan, edition stated.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad",
+        "before": "0c77e07bd39b43cd684d032d73bc92d5ffd487c4"
       }
     ]
   },
@@ -34266,7 +34268,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Vitruvius in Gwilt's translation (1826) — the founding architectural treatise; 1826 scan."
+        "summary": "Add Vitruvius in Gwilt's translation (1826) — the founding architectural treatise; 1826 scan.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34276,7 +34279,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Alberti, De Re Aedificatoria (1485) — the Renaissance founding; 1485 and 1512 scans."
+        "summary": "Add Alberti, De Re Aedificatoria (1485) — the Renaissance founding; 1485 and 1512 scans.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34286,7 +34290,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Palladio, I Quattro Libri (1570) — the architect's drawings; 1581 and 1790 scans."
+        "summary": "Add Palladio, I Quattro Libri (1570) — the architect's drawings; 1581 and 1790 scans.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34296,7 +34301,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Blondel, Cours d'architecture (1675) — the academic teaching; 1675 scan."
+        "summary": "Add Blondel, Cours d'architecture (1675) — the academic teaching; 1675 scan.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34306,7 +34312,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rondelet, Traité de l'art de bâtir (1802–17) — the construction science; honest no-scan note."
+        "summary": "Add Rondelet, Traité de l'art de bâtir (1802–17) — the construction science; honest no-scan note.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34316,7 +34323,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Nicholson, The Architectural Dictionary (1819) — the reference alphabet; honest no-scan note."
+        "summary": "Add Nicholson, The Architectural Dictionary (1819) — the reference alphabet; honest no-scan note.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34326,7 +34334,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Viollet-le-Duc, Entretiens sur l'architecture (1863–72) — the constructional theory; 1863 and Getty scans."
+        "summary": "Add Viollet-le-Duc, Entretiens sur l'architecture (1863–72) — the constructional theory; 1863 and Getty scans.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34336,7 +34345,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Choisy, Histoire de l'architecture (1899) — the constructional history; 1899 scan."
+        "summary": "Add Choisy, Histoire de l'architecture (1899) — the constructional history; 1899 scan.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34346,7 +34356,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Fairbairn, Iron to Building Purposes (1857) — the iron building system; 1857 and 1858 scans."
+        "summary": "Add Fairbairn, Iron to Building Purposes (1857) — the iron building system; 1857 and 1858 scans.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34356,7 +34367,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Harris, The Science of Brickmaking (1897) — the brick materials; 1897 scan."
+        "summary": "Add Harris, The Science of Brickmaking (1897) — the brick materials; 1897 scan.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   },
@@ -34366,7 +34378,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Mitchell, Building Construction and Drawing (1902) — the boundary textbook; 1902 scan."
+        "summary": "Add Mitchell, Building Construction and Drawing (1902) — the boundary textbook; 1902 scan.",
+        "commit": "f929874cb28ecec09baa0284099ba562f65976ad"
       }
     ]
   }
