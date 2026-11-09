@@ -36869,5 +36869,195 @@
         "commit": "d6bccdbb1d163a7d9d27094afb13f3f141760de9"
       }
     ]
+  },
+  {
+    "file_path": "books/carpenter-1895-heating-ventilating.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Carpenter, Heating and Ventilating Buildings (1895) — the building services trade; 1902 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/morin-1832-nouvelles-experiences-frottement.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Morin, Nouvelles expériences sur le frottement (1832–35) — friction measured; 1832/1834 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thurston-1885-friction-lost-work.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Thurston, Friction and Lost Work (1885) — the American tribology; 1885/1879 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/james-1857-history-worsted-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add James, History of the Worsted Manufacture (1857) — the Yorkshire worsted trade; 1857 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mclaren-1884-spinning-woollen-worsted.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add McLaren, Spinning Woollen and Worsted (1884) — the wool-spinning trade; 1884 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/warden-1864-linen-trade.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Warden, The Linen Trade (1864) — the linen trade history; 1864 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/porter-1831-silk-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Porter, A Treatise on the Silk Manufacture (1831) — the silk trade systematic; 1831 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/peters-1895-modern-copper-smelting.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Peters, Modern Copper Smelting (1887) — the American copper furnaces; 1895 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hofman-1893-metallurgy-lead.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hofman, The Metallurgy of Lead (1893) — lead and desilverization; 1893 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/schnabel-1898-handbook-metallurgy.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Schnabel, Handbook of Metallurgy (1898) — the non-ferrous handbook; 1898 translation scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/morfit-1852-arts-tanning.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Morfit, The Arts of Tanning (1852) — the chemistry tanning trade; 1852 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/davis-1885-manufacture-leather.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Davis, The Manufacture of Leather (1885) — the leather works; 1885/1897 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hancock-1857-personal-narrative-caoutchouc.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hancock, Personal Narrative of the Caoutchouc Manufacture (1857) — the English rubber trade; 1857 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/evelyn-1664-sylva.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Evelyn, Sylva (1664) — the founding forestry; 1908 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/monge-1838-geometrie-descriptive.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Monge, Géométrie descriptive (1795, ed. 1838) — descriptive geometry; 1838/1839 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nicholson-1828-masonry-cutting.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Nicholson, Masonry and Stone-Cutting (1828) — the masonry trade as taught; 1828/1841 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/peclet-1844-traite-chaleur.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Péclet, Traité de la chaleur (1828; 3rd ed. 1844) — the heat application trade; 1844 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stevenson-1824-bell-rock-lighthouse.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Robert Stevenson, Account of the Bell Rock Light-House (1824) — the marine lighthouse built; 1824 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/alan-stevenson-1848-skerryvore-lighthouse.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Alan Stevenson, Account of the Skerryvore Lighthouse (1848) — the dioptric lighthouse trade; 1848/1850 scans."
+      }
+    ]
   }
 ]

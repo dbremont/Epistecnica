@@ -7,7 +7,7 @@ qa:
  - Do the one-series-one-entry decisions (Sabine, Rayleigh, Milne & Mori merged where thin) survive reading — when does a serial deserve its own entry?
 ---
 
-# Historical Technical Library: Technology and Engineering, 1500–1900
+# Historical Technical Library: Engineering, Technology and the Applied Sciences Before 1900
 
 > A catalog of documents intended to reconstruct the **technical knowledge, engineering methods, production processes, machinery, and technological capabilities** available during the Early Modern and Industrial periods.
 
@@ -76,6 +76,16 @@ qa:
 | Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System of interchangeable manufacture (no scan verified) |
 | W. G. Armstrong | *Water-pressure machinery and accumulator papers* | 1850s–60s | Hydraulic cranes, accumulators and the water-pressure machine economy (no scan verified) |
 | Frederick Winslow Taylor | *A Piece-Rate System; and Notes on Belting (ASME papers)* | 1895–1900s | Scientific shop management and the high-speed tool steel trials (no scan verified) |
+| Arthur Jules Morin | [*Nouvelles Expériences sur le Frottement*](/view.html?p=documents/books/morin-1832-nouvelles-experiences-frottement.md) | 1832 | The friction coefficients measured for the machine trade |
+| Robert Henry Thurston | [*A Treatise on Friction and Lost Work in Machinery and Millwork*](/view.html?p=documents/books/thurston-1885-friction-lost-work.md) | 1885 | Friction as lost work — the tribology of the machine age |
+| Guillaume Amontons | *De la résistance causée dans les machines* | 1699 | The laws of dry friction (no scan verified) |
+| Charles-Augustin de Coulomb | *Théorie des machines simples, en ayant égard au frottement* | 1785/1821 | The classic treatise on friction and cordage stiffness (no scan verified) |
+| Beauchamp Tower | *Friction experiments in journal bearings (Proc. IMechE)* | 1883–85 | The hydrodynamic oil film discovered (no scan verified) |
+| Arthur Jules Morin | [*Nouvelles Expériences sur le Frottement*](/view.html?p=documents/books/morin-1832-nouvelles-experiences-frottement.md) | 1832 | The friction coefficients measured for the machine trade |
+| Robert Henry Thurston | [*A Treatise on Friction and Lost Work in Machinery and Millwork*](/view.html?p=documents/books/thurston-1885-friction-lost-work.md) | 1885 | Friction as lost work — the tribology of the machine age |
+| Guillaume Amontons | *De la résistance causée dans les machines* | 1699 | The laws of dry friction (no scan verified) |
+| Charles-Augustin de Coulomb | *Théorie des machines simples, en ayant égard au frottement* | 1785/1821 | The classic treatise on friction and cordage stiffness (no scan verified) |
+| Beauchamp Tower | *Friction experiments in journal bearings (Proc. IMechE)* | 1883–85 | The hydrodynamic oil film discovered (no scan verified) |
 
 ## Ars Chimica
 
@@ -189,6 +199,18 @@ qa:
 | C. W. Siemens & P. É. Martin | *Regenerative furnace and open-hearth steel papers* | 1856–68 | Steel refined by the regenerative furnace (no scan verified) |
 | C. M. Hall & P. L. T. Héroult | *Electrolytic aluminium patents* | 1886–89 | The new metal reduced from cryolite at the electric current (no scan verified) |
 | J. S. MacArthur & the Forrest brothers | *Cyanide gold-process patents and papers* | 1887–90 | Gold dissolved from its dilute ore by the cyanide process (no scan verified) |
+| Edward Dyer Peters | [*Modern Copper Smelting*](/view.html?p=documents/books/peters-1895-modern-copper-smelting.md) | 1887 | The American copper furnace practice set to the plant |
+| Hermann Oscar Hofman | [*The Metallurgy of Lead and the Desilverization of Base Bullion*](/view.html?p=documents/books/hofman-1893-metallurgy-lead.md) | 1893 | The lead furnace and bullion desilverization as plant practice |
+| Carl Schnabel (tr. Henry Louis) | [*Handbook of Metallurgy*](/view.html?p=documents/books/schnabel-1898-handbook-metallurgy.md) | 1898 | The non-ferrous metallurgy handbook that succeeded Percy |
+| Pierre Berthier | *Traité des essais par la voie sèche* | 1834 | The standard treatise of dry fire-assaying (no scan verified) |
+| Christopher Polhem | *Patriotiska Testamente (the mechanical alphabet and mine works)* | 1761 | The Swedish mechanical tradition of hoists and rolling mills (no scan verified) |
+| Sven Rinman | *Försök till Järnets Historia; and the Bergwerks-Lexicon* | 1782/1788 | The Swedish history of iron and the mining dictionary (no scan verified) |
+| Edward Dyer Peters | [*Modern Copper Smelting*](/view.html?p=documents/books/peters-1895-modern-copper-smelting.md) | 1887 | The American copper furnace practice set to the plant |
+| Hermann Oscar Hofman | [*The Metallurgy of Lead and the Desilverization of Base Bullion*](/view.html?p=documents/books/hofman-1893-metallurgy-lead.md) | 1893 | The lead furnace and bullion desilverization as plant practice |
+| Carl Schnabel (tr. Henry Louis) | [*Handbook of Metallurgy*](/view.html?p=documents/books/schnabel-1898-handbook-metallurgy.md) | 1898 | The non-ferrous metallurgy handbook that succeeded Percy |
+| Pierre Berthier | *Traité des essais par la voie sèche* | 1834 | The standard treatise of dry fire-assaying (no scan verified) |
+| Christopher Polhem | *Patriotiska Testamente (the mechanical alphabet and mine works)* | 1761 | The Swedish mechanical tradition of hoists and rolling mills (no scan verified) |
+| Sven Rinman | *Försök till Järnets Historia; and the Bergwerks-Lexicon* | 1782/1788 | The Swedish history of iron and the mining dictionary (no scan verified) |
 
 ## Ars Agricola
 
@@ -497,6 +519,98 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Robert Boyle | *New Experiments Physico-Mechanicall, Touching the Spring of the Air* | 1660 | The air pump experiments described (no scan verified) |
 | Gemma Frisius | *Libellus de Locorum Describendorum Ratione* | 1533 | Triangulation invented for survey and map (no scan verified) |
 
+## Ars Elastica
+
+> Rubber, gutta-percha and the early plastics — the caoutchouc trades examined beside their chemistry.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Thomas Hancock | [*Personal Narrative of the Caoutchouc Manufacture in England*](/view.html?p=documents/books/hancock-1857-personal-narrative-caoutchouc.md) | 1857 | The English rubber trade by its inventor — the masticator to vulcanization |
+| Charles Goodyear | [*Gum-Elastic and Its Varieties*](/view.html?p=documents/books/goodyear-1853-gum-elastic.md) | 1853 | Vulcanization and the rubber trade (cross-listed from Manufactura) |
+| John W. & I. S. Hyatt | *Celluloid patents* | 1869–70 | The first synthetic plastic (cross-listed from Manufactura) |
+| Charles Marie de La Condamine & François Fresneau | *Mémoire sur une résine élastique nouvellement découverte à Cayenne* | 1751 | The first European descriptions of rubber (no scan verified) |
+| Werner von Siemens | *Über die Anwendung der Gutta-Percha zu elektrischen Isolirungen* | 1847–50 | The gutta-percha cable insulation and extruder (no scan verified) |
+| James Collins | *Report on the Caoutchouc of Commerce* | 1872 | The rubber trade applied and examined (no scan verified) |
+
+## Ars Petrolea
+
+> Coal-gas, petroleum, mineral oils and lamps — the lighting trades gathered from Chimica and Manufactura.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Friedrich Accum | [*A Practical Treatise on Gas-Light*](/view.html?p=documents/books/accum-1815-treatise-on-gas-light.md) | 1815 | Coal-gas lighting (cross-listed from Chimica) |
+| Samuel Clegg | [*A Practical Treatise on the Manufacture and Distribution of Coal-Gas*](/view.html?p=documents/books/clegg-1841-coal-gas.md) | 1841 | The gasworks practice (cross-listed from Chimica) |
+| Samuel Hughes | [*A Treatise on Gas Works*](/view.html?p=documents/books/hughes-1853-treatise-on-gas-works.md) | 1853 | The gas works (cross-listed from Chimica) |
+| Abraham Gesner | [*On Coal, Petroleum, and Other Distilled Oils*](/view.html?p=documents/books/gesner-1861-coal-petroleum-distilled-oils.md) | 1861 | The mineral-oil trade (cross-listed from Manufactura) |
+| Boverton Redwood | [*Petroleum: Its Production and Use*](/view.html?p=documents/books/redwood-1887-petroleum-production-use.md) | 1887 | The oil industry as a trade (cross-listed from Manufactura) |
+| William Murdoch | *An Account of the Application of the Gas from Coal to Economical Purposes* | 1808 | The first practical coal-gas account (no scan verified) |
+| Benjamin Silliman Jr. | *Report on the Rock Oil, or Petroleum, from Venango Co., Pennsylvania* | 1855 | The analytical report that launched the Pennsylvania oil trade (no scan verified) |
+| Carl Auer von Welsbach | *Incandescent thoria-ceria gas-mantle patents* | 1885–91 | The gas mantle of the Welsbach lighting (no scan verified) |
+| Leonard Archbutt & R. M. Deeley | *Lubrication and Lubricants* | 1900 | The boundary oil treatise of the trade (no scan verified) |
+
+## Ars Lapidaria
+
+> Stercutomy and the stone trade set against the architecture — the masonry trade as its own discipline.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Philibert de l'Orme | *Le Premier Tome de l'Architecture (stereotomy of vaults)* | 1567 | The stone cut described by the architect (no scan verified) |
+| Mathurin Jousse | *Le Secret d'Architecture, découvrant fidèlement les traits géométriques* | 1642 | The stone-cutting traits and geometry (no scan verified) |
+| Amédée-François Frézier | *La Théorie et la Pratique de la Coupe des Pierres et des Bois* | 1737–39 | The founding stereotomy treatise in three volumes (no scan verified) |
+| Edward Dobson | *Masonry and Stonecutting (Rudimentary)* | 1849 | The Weale trade manual of the stone trade (no scan verified) |
+| Ira Osborn Baker | *A Treatise on Masonry Construction* | 1889 | The American masonry construction treatise (no scan verified) |
+| George P. Merrill | *Stones for Building and Decoration* | 1891 | The building stones described (no scan verified) |
+| Peter Nicholson | [*A Popular and Practical Treatise on Masonry and Stone-Cutting*](/view.html?p=documents/books/nicholson-1828-masonry-cutting.md) | 1828 | The British masonry trade — the stone cut taught as method |
+| Gaspard Monge | [*Géométrie Descriptive*](/view.html?p=documents/books/monge-1838-geometrie-descriptive.md) | 1795 | The projection trade of the stone cut — descriptive geometry founded |
+
+## Ars Thermica
+
+> Heating, ventilation and building services — the warming trade split from Civilis into its own engineering domain.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Nicolas Gauger (tr. Desaguliers) | *Fires Improv'd: Being a New Method of Building Chimneys* | 1713/15 | The chimney and the smoke problem (no scan verified) |
+| Benjamin Franklin | *An Account of the New Invented Pennsylvanian Fire-Places* | 1744 | The Franklin stove described by its inventor (no scan verified) |
+| Benjamin Thompson (Count Rumford) | *Essays, Political, Economical and Philosophical (of chimney fireplaces)* | 1796–1800 | The Rumford fireplace and the economy of fuel (no scan verified) |
+| Charles Hood | *A Practical Treatise on Warming Buildings by Hot Water, Steam and Hot Air* | 1837 | The warming trade at the British works (no scan verified) |
+| W. P. Buchan | *Plumbing: A Text-Book to the Practice of the Art or Craft of the Plumber* | 1876 | The plumber trade manual (no scan verified) |
+| S. S. Hellyer | *The Plumber and Sanitary Houses* | 1877 | The sanitary plumbing trade manual (no scan verified) |
+| William J. Baldwin | *Steam Heating for Buildings* | 1879 | The steam-heating plant manual (no scan verified) |
+| John S. Billings | *The Principles of Ventilation and Heating* | 1884 | The sanitary ventilation argued for the armies (no scan verified) |
+| Thomas Tredgold | [*The Principles of Warming and Ventilating Public Buildings*](/view.html?p=documents/books/tredgold-1824-warming-and-ventilating.md) | 1824 | Cross-listed from Civilis |
+| David Boswell Reid | [*Illustrations of the Theory and Practice of Ventilation*](/view.html?p=documents/books/reid-1844-illustrations-of-ventilation.md) | 1844 | Cross-listed from Acustica |
+| Eugène Péclet | [*Traité de la Chaleur, considérée dans ses Applications*](/view.html?p=documents/books/peclet-1844-traite-chaleur.md) | 1828 | Heat stated as industrial application — the furnace and building trade |
+| Rolla C. Carpenter | [*Heating and Ventilating Buildings*](/view.html?p=documents/books/carpenter-1895-heating-ventilating.md) | 1895 | The building services set as engineering |
+
+## Ars Pharia
+
+> Lighthouses and the lighting of the seas — the marine optical trade placed beside the Smeaton–Stevenson tradition.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Robert Stevenson | [*An Account of the Bell Rock Light-House*](/view.html?p=documents/books/stevenson-1824-bell-rock-lighthouse.md) | 1824 | The Bell Rock works — marine masonry engineering recorded |
+| Alan Stevenson | [*Account of the Skerryvore Lighthouse*](/view.html?p=documents/books/alan-stevenson-1848-skerryvore-lighthouse.md) | 1848 | The dioptric lighthouse trade set down — tower and lens |
+| John Smeaton | *A Narrative of the Building and a Description of the Construction of the Eddystone Lighthouse with Stone* | 1791 | The interlocking dovetailed granite tower and its hydraulic lime (no scan verified) |
+| Augustin-Jean Fresnel | *Mémoire sur un nouveau système d éclairage des phares* | 1822 | The annular dioptric stepped lens that lit the seas (no scan verified) |
+| Thomas Stevenson | *Lighthouse Construction and Illumination* | 1881 | The lighthouse trade treatise of the third Stevenson (no scan verified) |
+| David Porter Heap | *Ancient and Modern Light-Houses* | 1889 | The American survey of the lighthouse trade (no scan verified) |
+
+## Ars Silvicultura
+
+> Forestry and timber — the growing and preservation of the wood the whole technical economy consumed.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Hans Carl von Carlowitz | *Sylvicultura Oeconomica, oder Anweisung zur Wilden Baum-Zucht* | 1713 | Sustained-yield forestry against timber shortage (no scan verified) |
+| Henri-Louis Duhamel du Monceau | *De l'Exploitation des Bois; Du Transport, de la Conservation et de la Force des Bois* | 1764–67 | The timber trade and its strength (no scan verified) |
+| Georg Ludwig Hartig | *Anweisung zur Holzzucht für Förster* | 1791 | The German forestry instruction (no scan verified) |
+| Heinrich Cotta | *Anweisung zum Waldbau* | 1817 | The German forest-management teaching (no scan verified) |
+| John Bethell / William Burnett / J.-A. Boucherie | *Timber-preservation patents (creosote, zinc chloride, copper sulphate)* | 1838–40 | The timber preservatives of the era (no scan verified) |
+| William Schlich | *A Manual of Forestry (5 vols.)* | 1889–96 | The English forestry manual for India and the colonies (no scan verified) |
+| Samuel B. Boulton | *On the Antiseptic Treatment of Timber* | 1884 | The antiseptic preservation of the railway sleeper (no scan verified) |
+| Bernhard E. Fernow | *Timber: An Elementary Discussion of the Characteristics and Properties of Wood* | 1895 | The American timber properties bulletin (no scan verified) |
+| John Evelyn | [*Sylva; or a Discourse of Forest Trees*](/view.html?p=documents/books/evelyn-1664-sylva.md) | 1664 | The planting trade founded for the timber and naval economy |
+
 ## Ars Cerea
 
 > Candles, fats and illumination — the candle and soap trades from the tallow chandler through Chevreul and the stearine industry.
@@ -665,6 +779,18 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Edmund Cartwright | *The power-loom patents* | 1785–87 | Weaving applied to the mill (no scan verified) |
 | Eli Whitney | *The cotton-gin patent* | 1794 | The cotton seed comb separated (no scan verified) |
 | Richard Roberts | *The self-acting spinning mule patents* | 1825 / 1830 | The mule spinning itself at the mill (no scan verified) |
+| Peter Sharp | *Flax, Tow and Jute Spinning* | 1882/83 | The fibre-spinning manual of the linen trade (no scan verified) |
+| Roberts Beaumont | *Woollen and Worsted Cloth Manufacture in Being* | 1888 | The wool cloth manufacture manual (no scan verified) |
+| John James | [*History of the Worsted Manufacture in England*](/view.html?p=documents/books/james-1857-history-worsted-manufacture.md) | 1857 | The worsted trade traced through its mills and districts |
+| Walter S. B. McLaren | [*Spinning Woollen and Worsted*](/view.html?p=documents/books/mclaren-1884-spinning-woollen-worsted.md) | 1884 | The wool-spinning trade at the mill |
+| Alex J. Warden | [*The Linen Trade, Ancient and Modern*](/view.html?p=documents/books/warden-1864-linen-trade.md) | 1864 | The flax and linen trades, ancient to Irish manufacture |
+| George Richardson Porter | [*A Treatise on the Silk Manufacture*](/view.html?p=documents/books/porter-1831-silk-manufacture.md) | 1831 | The silk trade from filature to the loom — the systematic trade history |
+| Peter Sharp | *Flax, Tow and Jute Spinning* | 1882/83 | The fibre-spinning manual of the linen trade (no scan verified) |
+| Roberts Beaumont | *Woollen and Worsted Cloth Manufacture in Being* | 1888 | The wool cloth manufacture manual (no scan verified) |
+| John James | [*History of the Worsted Manufacture in England*](/view.html?p=documents/books/james-1857-history-worsted-manufacture.md) | 1857 | The worsted trade traced through its mills and districts |
+| Walter S. B. McLaren | [*Spinning Woollen and Worsted*](/view.html?p=documents/books/mclaren-1884-spinning-woollen-worsted.md) | 1884 | The wool-spinning trade at the mill |
+| Alex J. Warden | [*The Linen Trade, Ancient and Modern*](/view.html?p=documents/books/warden-1864-linen-trade.md) | 1864 | The flax and linen trades, ancient to Irish manufacture |
+| George Richardson Porter | [*A Treatise on the Silk Manufacture*](/view.html?p=documents/books/porter-1831-silk-manufacture.md) | 1831 | The silk trade from filature to the loom — the systematic trade history |
 
 ## Ars Typographica
 
@@ -760,6 +886,22 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Alphonse Beau de Rochas | *Nouvelles recherches sur les conditions pratiques de plus grande utilisation de la chaleur* | 1862 | The four-stroke cycle stated before Otto (no scan verified) |
 | George H. Corliss | *Cut-off valve gear patents* | 1849 | The variable cut-off and the high-speed governed engine (no scan verified) |
 | Henri Giffard | *Notice théorique et pratique sur l injecteur automoteur* | 1858 | The steam injector feeding the boiler (no scan verified) |
+
+## Ars Coriaria
+
+> The leather trades — tanning, currying, saddlery and shoes, split from the Manufactura lines into their own domain.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Campbell Morfit | [*The Arts of Tanning, Currying and Leather Dressing*](/view.html?p=documents/books/morfit-1852-arts-tanning.md) | 1852 | The tan-yard as process chemistry |
+| Charles Thomas Davis | [*The Manufacture of Leather*](/view.html?p=documents/books/davis-1885-manufacture-leather.md) | 1885 | The American tanning works process by process |
+| Hippolyte Dussauce | [*Tanning, Currying, and Leather-Dressing*](/view.html?p=documents/books/dussauce-1867-tanning-currying-leather.md) | 1867 | The tanning treatise (cross-listed from Manufactura) |
+| H. R. Procter | [*A Text-Book of Tanning*](/view.html?p=documents/books/procter-1885-textbook-of-tanning.md) | 1885 | The tanning science manual (cross-listed from Manufactura) |
+| W. N. Fitz-Gerald | [*The Harness Makers' Illustrated Manual*](/view.html?p=documents/books/fitzgerald-1875-harness-makers-manual.md) | 1875 | The saddlery trade (cross-listed from Manufactura) |
+| J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade (cross-listed from Manufactura) |
+| Jérôme de Lalande | *Art du Tanneur; Art du Corroyeur; Art du Cordonnier* | 1764–67 | The Paris leather trades in the Arts et Métiers tradition (no scan verified) |
+| Armand Seguin | *Rapport sur la nouvelle méthode de tanner les cuirs* | 1795 | The rapid-tanning method reported to the Académie (no scan verified) |
+| Jan E. Matzeliger | *Shoe-lasting machine patent* | 1883 | The mechanized shoe lasting (no scan verified) |
 
 ## Ars Cibaria
 
