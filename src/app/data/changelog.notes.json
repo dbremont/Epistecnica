@@ -81327,6 +81327,11 @@
         "summary": "Fill the in-domain absences, first half: Buchanan's mill-work essays into Mechanica; Scheele's Opuscula, Gay-Lussac's Cours and Dumas's Traité into Chimica; Ercker's later Aula Subterranea and Gellert into Metallica; Boussingault and the Tredwell & Pell implement catalogue into Agricola; Perronet, Rennie and Jessop into Civilis.",
         "commit": "7824cfcbc444ca629619a4f9578c3239dfd0f32b",
         "before": "28d550be3663b0cde23959324077bcfdcd88635a"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Fill the in-domain absences, second half: Faraday's Diary and Henry's Scientific Writings into Electrica; Bird's dividing-instruments method into Instrumentalis (with Ramsden as an honest no-scan row); Trevithick's Life and Smiles's Boulton and Watt into Energia; Balling and Dubrunfaut into Cibaria; Stokes and Kirchhoff into Acustica; Arago and the Kew Observatory report into Telluris; Viollet-le-Duc, Eiffel and the Great Exhibition catalogue into Architectura (Paxton as an honest no-scan row); Smiles's Stephenson and Fairlie's gauge book into Transportaria (Brunel's broad gauge as an honest no-scan row)."
       }
     ]
   }

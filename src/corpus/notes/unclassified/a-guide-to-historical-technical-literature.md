@@ -304,6 +304,9 @@ qa:
 | T. A. Edison & J. W. Swan | [*Incandescent-lamp patents*](/view.html?p=documents/books/edison-swan-1879-incandescent-lamp-patents.md) | 1879–83 | The carbon filament and the evacuated bulb |
 | G. Marconi & O. Lodge | [*Wireless and syntonic telegraphy papers*](/view.html?p=documents/books/marconi-lodge-1896-wireless-papers.md) | 1896–99 | The tuned circuit and the aerial system (boundary) |
 | W. von Siemens & F. J. Sprague | [*Electric-traction papers*](/view.html?p=documents/books/siemens-sprague-1880s-electric-traction-papers.md) | 1880s–90s | The motor put on rails — tram and underground |
+| Michael Faraday | [*Faraday's Diary*](/view.html?p=documents/books/faraday-1932-diary.md) | 1820–62 (ed. 1932) | The bench record — experiments, failures and apparatus as they happened |
+| Joseph Henry | [*The Scientific Writings*](/view.html?p=documents/books/henry-1886-scientific-writings.md) | 1886 | Electromagnets, induced currents and the telegraph — the American papers |
+
 ## Ars Instrumentalis
 
 > Instrumentation, measurement and optical technology — distinct technological branches, not subdivisions of general physics: optical instruments, precision mechanical instruments, electrical measuring instruments, surveying and geodetic instruments, thermometry and pressure measurement, acoustic instruments, seismological and geophysical instrumentation.
@@ -347,6 +350,9 @@ qa:
 | A. A. Michelson & H. A. Rowland | [*Interferometer and ruling-engine papers*](/view.html?p=documents/books/michelson-rowland-1880s-interferometer-papers.md) | 1880s–90s | Measurement pushed to the wavelength |
 | Ernst Abbe & Carl Zeiss | [*Microscope theory papers and catalogues*](/view.html?p=documents/books/abbe-zeiss-1870s-microscope-theory.md) | 1870s–90s | The microscope designed from diffraction theory |
 | Troughton & Simms; Elliott Bros; Repsold; Ertel; Pistor & Martins | [*Instrument-makers' catalogues*](/view.html?p=documents/books/instrument-maker-catalogues-19c.md) | 19th century | The makers' standard ranges, priced and described |
+| John Bird | [*The Method of Dividing Astronomical Instruments*](/view.html?p=documents/books/bird-1767-dividing-astronomical-instruments.md) | 1767 | Dividing the circle and the quadrant — the instrument-maker's precision |
+| Jesse Ramsden | *Description of the Dividing Engine* | 1777 | The engine that divided the circle by screw and scale (no scan verified) |
+
 ## Ars Manufactura
 
 > The factory as a technological production system — machinery, workers, processes, power and industrial organization. The textile, printing and paper trades have their own sections beside it.
@@ -499,6 +505,9 @@ qa:
 | James Atkinson | [*Gas-engine papers and patents*](/view.html?p=documents/books/atkinson-1880s-gas-engine-papers.md) | 1880s | The cycle variations against the Otto patent |
 | R. Stirling & J. Ericsson | [*Hot-air engine patents and papers*](/view.html?p=documents/books/hot-air-engine-1816-1850-stirling-ericsson.md) | 1816–50s | The regenerator and the external-combustion cycle |
 | A. B. Mouchot | [*La Chaleur Solaire et ses Applications Industrielles*](/view.html?p=documents/books/mouchot-1869-chaleur-solaire.md) | 1869 | Solar heat collected and applied — the first systematic treatise |
+| Francis Trevithick | [*Life of Richard Trevithick*](/view.html?p=documents/books/trevithick-1872-life.md) | 1872 | The high-pressure engine and the locomotive — the engineer's letters and works |
+| Samuel Smiles | [*Lives of Boulton and Watt*](/view.html?p=documents/books/smiles-1865-lives-boulton-watt.md) | 1865 | The Soho works and the engine partnership — the firm's own manuscripts |
+
 ## Ars Cibaria
 
 > The food-processing technologies: raw-material preparation, mechanical processing, fermentation, preservation, refrigeration and industrial manufacture. The outline's four Ure food rows collapse to the one composite row below; Fairbairn serves the milling branch beside Rankine's millwork manual in Ars Mechanica.
@@ -553,6 +562,9 @@ qa:
 | C. R. C. Tichborne | [*The Mineral Waters of Europe*](/view.html?p=documents/books/tichborne-1883-mineral-waters-europe.md) | 1883 | Springs surveyed and artificial waters made to match |
 | Robert Whymper | [*Cocoa and Chocolate: Their Chemistry and Manufacture*](/view.html?p=documents/books/whymper-1912-cocoa-and-chocolate.md) | 1912 (boundary) | The confectionery commodity written up from the works |
 | H. Mège-Mouriès | [*Margarine patents*](/view.html?p=documents/books/mege-mouries-1869-margarine-patent.md) | 1869– | The butter substitute designed from fat chemistry |
+| C. J. N. Balling | [*Die Gährungschemie*](/view.html?p=documents/books/balling-1854-gahrungschemie.md) | 1854 | Fermentation as chemistry — the brewery, distillery and wine press |
+| A.-P. Dubrunfaut | [*Art de Fabriquer le Sucre de Betteraves*](/view.html?p=documents/books/dubrunfaut-1825-sucre-de-betteraves.md) | 1825 | Beet sugar from root to loaf — pressing, clarification and crystallization |
+
 ## Ars Acustica
 
 > More than the physics of sound: acoustic apparatus, sound generation, measurement, architectural design and the acoustic properties of materials.
@@ -588,6 +600,9 @@ qa:
 | Francis Galton | [*Hearing and Galton-whistle papers*](/view.html?p=documents/books/galton-1880s-hearing-whistle-papers.md) | 1870s–80s | The upper limit of hearing measured |
 | C. Cagniard de la Tour & A. Seebeck | [*Siren papers*](/view.html?p=documents/books/cagniard-seebeck-1819-1840s-siren-papers.md) | 1819–40s | The rotating disc that made frequency countable |
 | W. C. Sabine | [*Collected Papers on Acoustics*](/view.html?p=documents/books/sabine-1922-collected-papers-acoustics.md) | 1922 (boundary) | Reverberation measured — the hall designed from the number |
+| G. G. Stokes | [*Mathematical and Physical Papers*](/view.html?p=documents/books/stokes-1880-mathematical-physical-papers.md) | 1880–83 | The wave theory and the acoustic papers collected |
+| G. R. Kirchhoff | [*Vorlesungen über Mathematische Physik: Mechanik*](/view.html?p=documents/books/kirchhoff-1876-vorlesungen-mechanik.md) | 1876 | The mechanics of continua — strings, rods and the propagation of sound |
+
 ## Ars Telluris
 
 > Instruments and techniques for measuring the physical properties of the Earth — from seismometry and geomagnetism through geodesy, meteorological instruments, geological surveying and hydrography.
@@ -636,6 +651,9 @@ qa:
 | Humphrey Lloyd | [*A Treatise on Magnetism, General and Terrestrial*](/view.html?p=documents/books/lloyd-1874-treatise-on-magnetism.md) | 1874 | Terrestrial magnetism and the observatory method |
 | F. G. W. Struve | [*Arc du Méridien de 25° 20′*](/view.html?p=documents/books/struve-1857-arc-du-meridien.md) | 1857–60 | The great meridian arc measured across Russia |
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument |
+| François Arago | [*Meteorological Essays*](/view.html?p=documents/books/arago-1855-meteorological-essays.md) | 1855 | The atmosphere, winds and storms explained — the observatory's meteorology |
+| Kew Observatory Committee | [*Report for the Year Ending December 31, 1899*](/view.html?p=documents/books/kew-observatory-1899-report.md) | 1899 | Magnetic, meteorological and solar observation — the standardizing observatory |
+
 ## Ars Architectura
 
 > Architecture and the built-works art — the encyclopædias, the tunnelling under the Thames, and the building machinery the tall structures ran.
@@ -658,6 +676,11 @@ qa:
 | William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1857-iron-building.md) | 1857 | The iron girder and the fireproof floor |
 | G. F. Harris | [*The Science of Brickmaking*](/view.html?p=documents/books/harris-1897-science-of-brickmaking.md) | 1897 | The clay and the kiln made a science |
 | C. F. Mitchell | [*Building Construction and Drawing*](/view.html?p=documents/books/mitchell-1902-building-construction.md) | 1902 (boundary) | The craft taught as a course — the details specified |
+| E.-E. Viollet-le-Duc | [*Dictionnaire Raisonné de l'Architecture Française*](/view.html?p=documents/books/viollet-le-duc-1875-dictionnaire.md) | 1875 | The medieval building explained by its construction — vault, timber and iron |
+| Gustave Eiffel | [*La Tour de 300 Mètres*](/view.html?p=documents/books/eiffel-1900-tour-300-metres.md) | 1900 | Wind load, foundations and ironwork — the engineer's account of the tower |
+| Great Exhibition (1851) | [*Official Descriptive and Illustrated Catalogue*](/view.html?p=documents/books/great-exhibition-1851-official-catalogue.md) | 1851 | The Crystal Palace's contents — the world's industry classified |
+| Joseph Paxton | *The Crystal Palace: design and construction* | 1851 | The glass-and-iron exhibition building (no construction account verified) |
+
 ## Ars Transportaria
 
 > Roads and railways — the land transport system from McAdam's road science through the opening railway treatise to the engineering-science textbook that closed the century.
@@ -692,6 +715,10 @@ qa:
 | William Humber | [*A Complete Treatise on Cast and Wrought Iron Bridge Construction*](/view.html?p=documents/books/humber-1861-iron-bridge-construction.md) | 1861 | The iron bridge calculated and built (honest no-scan) |
 | D. K. Clark | [*Tramways: Their Construction and Working*](/view.html?p=documents/books/clark-1878-tramways.md) | 1878 | The street railway as a municipal system |
 | J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform |
+| Samuel Smiles | [*The Life of George Stephenson*](/view.html?p=documents/books/smiles-1859-life-george-stephenson.md) | 1859 | The locomotive and the first railways — the engineer's life and letters |
+| R. F. Fairlie | [*Railways or No Railways: Narrow Gauge v. Broad Gauge*](/view.html?p=documents/books/fairlie-1872-railways-or-no-railways.md) | 1872 | The gauge controversy argued — the double-bogie locomotive and the light railway |
+| Isambard Kingdom Brunel | *Broad-gauge papers and the gauge commission* | 1840s–60s | The seven-foot gauge and the battle of the gauges (no scan verified) |
+
 ## Ars Navalis
 
 > Naval architecture — ship design and construction as an engineering discipline, from Chapman's classification to his construction theory.
