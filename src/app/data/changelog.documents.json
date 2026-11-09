@@ -30266,5 +30266,75 @@
         "commit": "6ca5da9042b8f64301cc6007c04d270ed0db393e"
       }
     ]
+  },
+  {
+    "file_path": "books/quekett-1848-practical-treatise-microscope.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Quekett, A practical treatise on the use of the microscope (1848); 1852 printing scans with the first-edition note, a corruption slip repaired, cross-linked to Hogg."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hogg-1854-the-microscope.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hogg, The microscope: its history, construction and application (1854) - the outline Quekett attribution corrected to the printed title-page author, Marean precedent; 1880s scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/carpenter-1856-microscope-revelations.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Carpenter, The microscope and its revelations (1856); 1875 and 1891 edition scans with the first-edition note, cross-linked to Hogg and Quekett."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fraunhofer-1888-gesammelte-schriften.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the collected papers of Fraunhofer (1888 Munich academy edition); honest no-scan note - optical glass and the spectral literature's paper source."
+      }
+    ]
+  },
+  {
+    "file_path": "books/carre-1860-machine-a-faire-le-froid.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Carré's absorption-refrigeration apparatus papers (1860-62, @misc); honest no-scan note, cross-linked to Twining and Selfe."
+      }
+    ]
+  },
+  {
+    "file_path": "books/harrison-1850s-refrigeration-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Harrison's refrigeration patents (@misc, 1850s-70s); honest no-scan note - the colonial ice trade's patent literature."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wakeman-1890s-refrigeration-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wakeman, Refrigeration and ice-making machinery (1890s, @misc); honest no-scan note, cross-linked to Selfe."
+      }
+    ]
   }
 ]
