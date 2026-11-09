@@ -81324,7 +81324,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Fill the in-domain absences, first half: Buchanan's mill-work essays into Mechanica; Scheele's Opuscula, Gay-Lussac's Cours and Dumas's Traité into Chimica; Ercker's later Aula Subterranea and Gellert into Metallica; Boussingault and the Tredwell & Pell implement catalogue into Agricola; Perronet, Rennie and Jessop into Civilis."
+        "summary": "Fill the in-domain absences, first half: Buchanan's mill-work essays into Mechanica; Scheele's Opuscula, Gay-Lussac's Cours and Dumas's Traité into Chimica; Ercker's later Aula Subterranea and Gellert into Metallica; Boussingault and the Tredwell & Pell implement catalogue into Agricola; Perronet, Rennie and Jessop into Civilis.",
+        "commit": "7824cfcbc444ca629619a4f9578c3239dfd0f32b",
+        "before": "28d550be3663b0cde23959324077bcfdcd88635a"
       }
     ]
   }
