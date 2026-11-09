@@ -28616,5 +28616,205 @@
         "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
+  },
+  {
+    "file_path": "books/johnston-1842-elements-agricultural-chemistry-geology.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Johnston, Elements of agricultural chemistry and geology (Edinburgh, 1842), editions into the 1850s; 1842 and 1851 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/johnson-1870-how-crops-feed.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Johnson, How crops feed (New York, 1870) - the companion of How Crops Grow on atmosphere and soil; 1870 and 1890 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tredgold-1822-practical-essay-strength-cast-iron.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tredgold, Practical essay on the strength of cast iron (London, 1822); 1822 and 1842 (Hodgkinson) scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tredgold-1820-elementary-principles-carpentry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tredgold, Elementary principles of carpentry (London, 1820); digitized 1820 and later illustrated printings."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rankine-1858-manual-of-applied-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rankine, A manual of applied mechanics (London, 1858); period-printing scans, cross-linked to the millwork manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rankine-1862-manual-of-civil-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rankine, A manual of civil engineering (London, 1862); 1862 and later scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rankine-1859-manual-steam-engine-prime-movers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rankine, A manual of the steam engine and other prime movers (London, 1859) - the Rankine cycle to the engine room; 1859 and later scans, cross-linked to Carnot."
+      }
+    ]
+  },
+  {
+    "file_path": "books/priestley-1767-history-present-state-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Priestley, The history and present state of electricity (London, 1767); 1769 and 1775 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/volta-1800-on-electricity-excited-by-contact.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Volta's Phil. Trans. letter (1800) - the pile announced; two 1800 scans, @article form."
+      }
+    ]
+  },
+  {
+    "file_path": "books/faraday-1839-experimental-researches-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Faraday, Experimental researches in electricity (London, 1839-55, 3 vols); original and later scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/prescott-1877-electricity-electric-telegraph.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Prescott, Electricity and the electric telegraph (New York, 1877); 1880s scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lockwood-1883-electricity-magnetism-electric-telegraphy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lockwood, Electricity, magnetism, and electric telegraphy (New York, 1883) - the Western Union trade manual; 1883-90 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/slingo-1890-electrical-engineering-electric-light-artizans.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Slingo and Brooker, Electrical engineering for electric light artizans and students (London, 1890); both 1890 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brewster-1831-treatise-on-optics.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Brewster, A treatise on optics (Edinburgh, 1831); 1831 and later scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/whewell-1819-elementary-treatise-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Whewell, An elementary treatise on mechanics (Cambridge, 1819); edition-span scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kelvin-1889-popular-lectures-addresses.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Kelvin, Popular lectures and addresses (London, 1889-91, 3 vols); 1891 scans, cross-linked to the Treatise of Natural Philosophy already in the corpus."
+      }
+    ]
+  },
+  {
+    "file_path": "books/oneill-1862-dictionary-of-calico-printing-and-dyeing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add O Neill, A dictionary of dyeing and calico printing (London, 1862); 1862 and 1869 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/crookes-1874-practical-handbook-dyeing-calico-printing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Crookes, A practical handbook of dyeing and calico-printing (1874, coloured plates); Getty scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/farey-1827-treatise-on-the-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Farey, A treatise on the steam engine (London, 1827) - the descriptive great of the shelf; 1827 scans, cross-linked to Rankine 1859."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clapeyron-1834-memoire-puissance-motrice-chaleur.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Clapeyron's Journal de l'Ecole polytechnique memoir (1834) - Carnot made analytic; honest no-scan note, cross-linked to Carnot and Rankine."
+      }
+    ]
   }
 ]
