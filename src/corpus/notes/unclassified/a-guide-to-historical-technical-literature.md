@@ -253,6 +253,7 @@ qa:
 | E. S. Ernst | [*A Manual of Practical Military Engineering*](/view.html?p=documents/books/ernst-1873-practical-military-engineering.md) | 1873 | Roads, road-beds and field works — the West Point manual |
 | Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
 | J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
+
 ## Ars Electrica
 
 > The experimental foundations of electricity distinguished from the engineering literature the systems built on them: Priestley and Faraday carry the science, Volta the pile, and the telegraphy and electric-light books the systems.
@@ -406,6 +407,7 @@ qa:
 | A. Cochrane, Earl of Dundonald | [*The Present State of the Manufacture of Salt Explained*](/view.html?p=documents/books/cochrane-1785-manufacture-of-salt-explained.md) | 1785 | The salt works analysed — the manufacturer as reformer |
 | P. Letouzé | [*Traité Pratique des Travaux en Asphalte*](/view.html?p=documents/books/letouze-1897-travaux-en-asphalte.md) | 1897 | Asphalt paving specified and laid |
 | The National Provisioner (comp.) | [*The Manufacture of Glue and Gelatine*](/view.html?p=documents/books/glue-gelatine-manufacture-1898.md) | 1898 | The adhesive trades from the works |
+
 ## Ars Textilis
 
 > The textile trades — spinning, weaving, knitting, dyeing, printing and finishing — from the cotton mill's machinery to the finishing room's chemistry.
@@ -427,6 +429,7 @@ qa:
 | Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
 | George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
 | J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
+
 ## Ars Typographica
 
 > The printing trade — type, press, composition, lithography and the mechanized letterpress — the craft that carried technical knowledge itself.
@@ -442,6 +445,7 @@ qa:
 | Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
 | Alois Senefelder | [*A Complete Course of Lithography*](/view.html?p=documents/books/senefelder-1819-complete-course-lithography.md) | 1819 | Lithography described by its inventor |
 | P.-S. Fournier | [*Manuel Typographique*](/view.html?p=documents/books/fournier-1764-manuel-typographique.md) | 1764–66 | Type founding and the point system |
+
 ## Ars Papyrologica
 
 > Paper and its manufacture — the material on which the technical literature was printed, from the rag and the pulp to the machine.
@@ -752,6 +756,7 @@ qa:
 | W. H. White | [*A Manual of Naval Architecture*](/view.html?p=documents/books/white-1877-manual-naval-architecture.md) | 1877 | Naval architecture taught to the officer |
 | S. W. Barnaby | [*Marine Propellers*](/view.html?p=documents/books/barnaby-1891-marine-propellers.md) | 1891 | The screw given its theory and its numbers |
 | E. L. Attwood | [*Text-book of Theoretical Naval Architecture*](/view.html?p=documents/books/attwood-1899-textbook-theoretical-naval-architecture.md) | 1899 | The drawing-office calculations made a curriculum |
+
 ## Ars Photographia
 
 > Photography's founding literature — the paper-negative invention and the wet-plate processes, as the medium's first books and chemical manuals documented them.
@@ -780,6 +785,7 @@ qa:
 | C. F. Channing | [*Photo-Mechanical Processes*](/view.html?p=documents/books/channing-1890-photo-mechanical-processes.md) | 1890 | The photograph turned into a printing surface |
 | Eastman Dry Plate and Film Co. | [*Illustrated Catalogue and Price List*](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md) | 1886 | Photography sold as manufactured goods |
 | R. L. Maddox | [*An Experiment with Gelatino-Bromide*](/view.html?p=documents/books/maddox-1871-gelatino-bromide-dry-plate.md) | 1871 | The gelatine dry plate proposed — photography made portable (honest no-scan) |
+
 ## Ars Aeronautica
 
 > The flying machine's own literature — the founding principle, the glider experiments, the synthesis before the Wrights, and the balloon practice that kept the air a working medium.
@@ -793,6 +799,7 @@ qa:
 | Aeronautical Society of Great Britain | [*Annual Reports (7th–12th)*](/view.html?p=documents/books/aeronautical-society-1872-annual-reports.md) | 1872–77 | The first aeronautical society's papers and wind-tunnel experiments |
 | John Wise | [*A System of Aeronautics*](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md) | 1850 | Envelope making, hydrogen generation and balloon ascents (cross-listed from Transportaria) |
 | J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform (cross-listed from Transportaria) |
+
 ## Ars Automobilis
 
 > The motor vehicle's literature — the steam carriage that first put an engine on the road, the patents that made the petrol car, and the first books in which the vehicle was treated as a whole machine.
@@ -805,6 +812,7 @@ qa:
 | Karl Benz | *Patents and specifications for the gas-engine vehicle* | 1886– | The motor carriage patented — engine, chassis and steering integrated (no scan verified) |
 | Gottlieb Daimler & Wilhelm Maybach | *Patents and specifications for the high-speed engine and the motor carriage* | 1883–89 | The light high-speed engine and the vehicle built around it (no scan verified) |
 | Panhard & Levassor | *The système Panhard: the front-engine, rear-drive layout* | 1890s | The founding automobile layout — engine forward, gearbox and drive behind (no scan verified) |
+
 ## Ars Velocipedica
 
 > The bicycle and the light wheeled vehicle — the trade catalogues and construction manuals of the machine that made precision engineering a consumer industry.
@@ -818,6 +826,7 @@ qa:
 | Rice Lewis & Son | [*Bicycle Accessories: Catalogue*](/view.html?p=documents/books/rice-lewis-1900-bicycle-accessories-catalogue.md) | 1900 | The component and accessory economy of the safety bicycle |
 | J. K. Starley | *The Rover safety bicycle patent* | 1885 | The safety frame — the rear-driven, equal-wheeled bicycle (no scan verified) |
 | John Boyd Dunlop | *The pneumatic tyre patent* | 1888 | The air tyre that made the safety bicycle comfortable (no scan verified) |
+
 ## Ars Consutoria
 
 > The sewing machine — the first mass-produced consumer durable, its mechanism, its factory, and the operating literature it was sold with.
@@ -829,6 +838,7 @@ qa:
 | Singer Manufacturing Company | [*Instruction Manual for the 27-2 Vibrating Shuttle Machine*](/view.html?p=documents/books/singer-1894-vibrating-shuttle-instruction-manual.md) | 1894 | The sewing machine as a mass-produced consumer durable |
 | Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
 | Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
+
 ## Ars Computatoria
 
 > The calculating machine and the tabulating system — the difference engine proposed and built, the arithmometer sold, the continuous integrator analysed, and the punched card made a data system.
@@ -843,6 +853,7 @@ qa:
 | Andreas von Ettingshausen | [*Bericht über den Arithmometer des Herrn Thomas*](/view.html?p=documents/books/ettingshausen-1857-arithmometer-thomas.md) | 1857 | The arithmometer examined — mechanical calculation made commercial |
 | Blaise Pascal | *The Pascaline: the calculating machine* | 1642 | Addition and subtraction by geared wheels (no scan verified) |
 | Gottfried Wilhelm Leibniz | *The stepped reckoner* | 1673 | Multiplication by the stepped drum (no scan verified) |
+
 ## Ars Molendinaria
 
 > The mill and the wind engine — the millwright's manual, the miller's trade, and the wind machine sold as a manufactured system.
@@ -854,6 +865,7 @@ qa:
 | B. S. Williams & Co. | [*Illustrated Catalogue of Wind-Mills, Pumps, Tanks, etc.*](/view.html?p=documents/books/williams-1884-windmill-catalogue.md) | 1884 | The American wind engine as a manufactured farm system |
 | John Smeaton | [*An Experimental Enquiry Concerning the Natural Powers of Water and Wind*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The water- and wind-wheel experiments (cross-listed from Energia) |
 | Poul la Cour | *The wind turbine and the wind-driven dynamo* | 1890s | The windmill turned into an electricity generator (no scan verified) |
+
 ## Ars Irrigationis
 
 > Irrigation engineering — the Indian canal reports, the Nile works, the American arid West, and the administrative and sanitary arguments that surrounded them.
@@ -867,6 +879,7 @@ qa:
 | Government of Bengal | [*Papers Relating to Irrigation in Bengal*](/view.html?p=documents/books/bengal-1861-irrigation-papers.md) | 1861 | Irrigation argued as public health and famine policy |
 | Elwood Mead | [*Rise and Future of Irrigation in the United States*](/view.html?p=documents/books/mead-1899-rise-future-irrigation-united-states.md) | 1899 | The American irrigation movement and the arid West |
 | Arthur Cotton | *Reports on the irrigation works of the Godavari, Krishna and other Indian rivers* | 1850s–70s | The Indian irrigation engineer's reports (no scan verified) |
+
 ## Ars Cartographica
 
 > The map as a technical product — projection theory, the trigonometrical survey, the instruments, the national survey, and the papers that made projection a mathematical subject.
@@ -880,6 +893,7 @@ qa:
 | Leonhard Euler | [*Drei Abhandlungen über Kartenprojection*](/view.html?p=documents/books/euler-1898-drei-abhandlungen-kartenprojection.md) | 1775–77 (ed. 1898) | The conformal projection analysed as a mathematical problem |
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument (cross-listed from Telluris) |
 | William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science (cross-listed from Telluris) |
+
 ## Ars Cryogenica
 
 > Low-temperature engineering — the liquefaction of the permanent gases, liquid hydrogen and the vacuum flask, and the refrigeration practice the cold machine grew out of.
@@ -893,6 +907,7 @@ qa:
 | Raoul Pictet & Louis Paul Cailletet | *The liquefaction of oxygen* | 1877 | The first permanent gas condensed (no scan verified) |
 | Carl von Linde | *The air-liquefaction process and machine* | 1895 | Air liquefied by regenerative cooling (no scan verified) |
 | William Hampson | *The Hampson air-liquefaction machine* | 1895 | The compact regenerator and the liquid-air plant (no scan verified) |
+
 ## Ars Pharmaceutica
 
 > The pharmaceutical standard and the manufacturing shop — the pharmacopoeias, the dispensing manuals, materia medica, and the alkaloid patent that turned a drug into a chemical product.
@@ -907,6 +922,7 @@ qa:
 | Nicholas Culpeper | [*Pharmacopoeia Londinensis*](/view.html?p=documents/books/culpeper-pharmacopoeia-londinensis.md) | 1649 (later ed.) | The official formulary translated and expanded for the shop |
 | Loretta Barton Weld | [*Improvements in the Manufacture of Hydrochlorate of Quinine*](/view.html?p=documents/books/weld-1888-quinine-hydrochlorate.md) | 1888 | The alkaloid salt patented — quinine as an industrial product |
 | Pelletier & Caventou | *Papers on the isolation of the alkaloids (strychnine, quinine, brucine)* | 1817–20 | The alkaloids isolated — the drug made a chemical substance (no scan verified) |
+
 ## References
 
 - [Science History Institute — Muspratt, vol. I](https://digital.sciencehistory.org/works/g00ak0n)

@@ -81334,6 +81334,11 @@
         "summary": "Fill the in-domain absences, second half: Faraday's Diary and Henry's Scientific Writings into Electrica; Bird's dividing-instruments method into Instrumentalis (with Ramsden as an honest no-scan row); Trevithick's Life and Smiles's Boulton and Watt into Energia; Balling and Dubrunfaut into Cibaria; Stokes and Kirchhoff into Acustica; Arago and the Kew Observatory report into Telluris; Viollet-le-Duc, Eiffel and the Great Exhibition catalogue into Architectura (Paxton as an honest no-scan row); Smiles's Stephenson and Fairlie's gauge book into Transportaria (Brunel's broad gauge as an honest no-scan row).",
         "commit": "b0117c6e27f2abdc7c0eda6557f777e1fcf57616",
         "before": "fd5e9af86426e1228ab46324d5aac1c1b070aa71"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "refactor",
+        "summary": "Split the overgrown sections: Ars Militaris out of Civilis (12 rows: fortification, siege, ordnance, military bridging, field surveying and telegraphy), and Ars Textilis (15 rows), Ars Typographica (9) and Ars Papyrologica (4) out of Manufactura. Manufactura and Civilis intros updated. These moves landed with the older-arts batch; this log records them and restores the blank line the row move dropped before every section heading."
       }
     ]
   }
