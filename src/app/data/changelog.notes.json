@@ -81187,6 +81187,11 @@
         "summary": "The priority-list round: twenty-two rows across seven sections - Bourne’s 1846 applied-steam treatise, Fairbairn’s Useful information series and Robinson hydraulic power in Energia; Kapp’s electric transmission and the Gore-Watt electro-metallurgy pair entered through its verified title collision in Electrica; Lunge coal-tar and the coatings pair (Brannt, Standage) in Chimica; Hofmann paper, Watt soap, the West foundry pair, Redwood lubricants (honest no-scan) and the fire-protection duo (Shaw, Roper) in Manufactura and its trades; the complete water-supply quarter (Storrow, Kirkwood, Humber honest no-scan, Nichols) in Civilis; Barry railway appliances and Pigg block signalling in Transportaria. The Nasmyth pocket-book row and Gregory railway-papers row stay prose. 300 links, all resolving.",
         "commit": "69c3ef1d36b79df3e785386a7ce0794b49b0b86f",
         "before": "c2df5e3a274f5e7301efe5a66e3aa4e1bec1b1dc"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "The architecture round: a sixteenth Ars section, Ars Architectura, opens with Gwilt’s and Cresy’s encyclopædias, the merged Thames-Tunnel company documents (1829 Sketches scanned) and the Waygood lift guide (honest no-scan, cross-note to the held Robinson plant volume); the Factory Inspectors reports stay prose within Manufactura. Seventeen more rows: the military trio (Mahan permanent, Mercur attack, Douglas founding essay honest no-scan) and the dredging four (Sigsbee scanned; Boswell, Kuhl, Webster honest) and the submarine trio (Bright, Wilkinson, Fahie) and the office pair (Remington manual, catalogue honest) and Hiles’s Ice Crop join their sections. 321 links, all resolving; one Gamey-typo repaired before commit."
       }
     ]
   }

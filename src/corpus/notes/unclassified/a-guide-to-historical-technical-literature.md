@@ -44,6 +44,10 @@ qa:
 
 | William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | The consulting engineer's collected practice notes |
 
+| Waygood & Co. | [*Hydraulic Passenger Lifts: A Guide to Intending Purchasers*](/view.html?p=documents/books/waygood-1889-hydraulic-passenger-lifts.md) | 1889 | The lift trade's purchaser guide (honest no-scan; the plant side in Robinson's held volume) |
+| John Harrison | [*A Manual of the Remington Standard Type-Writer*](/view.html?p=documents/books/harrison-1890-remington-type-writer-manual.md) | 1890 | Office machinery instruction |
+| Office and Library Co. | [*Modern Office Devices*](/view.html?p=documents/books/officelibrary-1898-modern-office-devices.md) | 1898 | The office-machinery catalogue (honest no-scan) |
+
 Maudslay's machine-tool drawings and descriptions name no single citable work and stay branch prose, honest to the records — the precision-engineering standard itself enters through Whitworth's collected papers.
 
 ## Ars Chimica
@@ -201,6 +205,10 @@ The Royal Military Academy Woolwich's collective 1847 treatises (drawing, arms, 
 | Killingworth Hedges | [*Central-Station Electric Lighting*](/view.html?p=documents/books/hedges-1889-central-station-electric-lighting.md) | 1889 | Central stations, feeders, mains, arc and incandescent lighting |
 | Philip Atkinson | [*The Elements of Electric Lighting*](/view.html?p=documents/books/atkinson-1888-elements-electric-lighting.md) | 1888 (ed. to 1897) | Electric-lighting technology and practical systems |
 
+| Charles Bright | [*Submarine Telegraphs*](/view.html?p=documents/books/bright-1898-submarine-telegraphs.md) | 1898 | Submarine cables: history, construction and working |
+| H. D. Wilkinson | [*Submarine Cable Laying and Repairing*](/view.html?p=documents/books/wilkinson-1896-submarine-cable-laying.md) | 1896 | Laying and repairing operations at sea |
+| J. J. Fahie | [*Faults in Submarine Telegraph Cables*](/view.html?p=documents/books/fahie-1874-faults-in-submarine-cables.md) | 1874 | Cable faults and their chase (pamphlet, honest no-scan) |
+
 | Gisbert Kapp | [*Electric Transmission of Energy*](/view.html?p=documents/books/kapp-1886-electric-transmission-of-energy.md) | 1886 | Electrical power transmission, transformation and distribution |
 | George Gore | [*The Art of Electro-Metallurgy*](/view.html?p=documents/books/gore-1877-art-of-electro-metallurgy.md) | 1877 | Electroplating and industrial electrodeposition |
 | Alexander Watt | [*Electro-Deposition (Electro-Metallurgy Practically Treated)*](/view.html?p=documents/books/watt-1880-electro-deposition.md) | 1880 | Metal deposition by electrolysis — the same-title trade beside Gore |
@@ -234,6 +242,8 @@ The held Whitworth entry carries the 1841 first screw-thread paper as the 1858 c
 | J. E. Erichsen | [*The Science and Art of Surgery*](/view.html?p=documents/books/erichsen-1853-science-and-art-surgery.md) | 1853 | Surgical methods and instruments |
 | Thomas Reid | [*A Treatise on Clock and Watch Making*](/view.html?p=documents/books/reid-1826-clock-and-watch-making.md) | 1826 | Horological mechanisms |
 | F. J. Britten | [*The Watch & Clock Makers' Handbook*](/view.html?p=documents/books/britten-1896-watchmakers-handbook.md) | 1896 | Clock and watch construction — the trade dictionary |
+
+| Arnold & Sons | [*A Catalogue of Surgical Instruments*](/view.html?p=documents/books/arnold-1880-catalogue-surgical-instruments.md) | 1880 | The surgeon's apparatus — the trade catalogue |
 
 ## Ars Manufactura
 
@@ -352,6 +362,8 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | Ferdinand Carré | [*Machine à faire le froid* (absorption apparatus and patents)](/view.html?p=documents/books/carre-1860-machine-a-faire-le-froid.md) | 1860–62 | Absorption refrigeration (honest no-scan) |
 | James Harrison | [*Refrigeration patents and technical descriptions*](/view.html?p=documents/books/harrison-1850s-refrigeration-patents.md) | 1850s–70s | Mechanical refrigeration and ice manufacture (honest no-scan) |
 | W. H. Wakeman | [*Refrigeration and Ice-Making and Refrigerating Machinery*](/view.html?p=documents/books/wakeman-1890s-refrigeration-machinery.md) | 1890s | Refrigeration plant construction and operation (honest no-scan) |
+
+| Theron L. Hiles | [*The Ice Crop*](/view.html?p=documents/books/hiles-1893-the-ice-crop.md) | 1893 | The natural-ice trade: harvest, storage, shipping and use |
 | J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
 | Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
@@ -414,6 +426,19 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | Johann von Lamont | [*Handbuch des Erdmagnetismus*](/view.html?p=documents/books/lamont-1849-handbuch-des-erdmagnetismus.md) | 1849 | Geomagnetic observation (Bogenhausen handbook) |
 | Joan Blaeu | [*Theatrum Civitatum et Admirandorum Italiæ*](/view.html?p=documents/books/blaeu-1663-theatrum-civitatum.md) | 1663 | Chorography and town views of Italy — the built world mapped city by city |
 
+## Ars Architectura
+
+> Architecture and the built-works art — the encyclopædias, the tunnelling under the Thames, and the building machinery the tall structures ran.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Joseph Gwilt | [*An Encyclopædia of Architecture*](/view.html?p=documents/books/gwilt-1842-encyclopaedia-of-architecture.md) | 1842 | Architecture: historical, theoretical and practical |
+| Edward Cresy | [*An Encyclopædia of Civil Engineering*](/view.html?p=documents/books/cresy-1847-encyclopaedia-civil-engineering.md) | 1847 | Civil engineering — the companion alphabet |
+| Thames Tunnel Company | [*Explanation of the Works of the Tunnel under the Thames*](/view.html?p=documents/books/thames-tunnel-1838-explanation.md) | 1828–38 | Tunnelling — the shield works and the company reports (1829 Sketches scan) |
+| Waygood & Co. | [*Hydraulic Passenger Lifts: A Guide to Intending Purchasers*](/view.html?p=documents/books/waygood-1889-hydraulic-passenger-lifts.md) | 1889 | Building machinery — the lift trade's guide (honest no-scan) |
+
+The Factory Inspectors-of-factories reports (1842–1900) name single years, not citable volumes — the industrial-safety record stays branch prose within Ars Manufactura, honest to the series form.
+
 ## Ars Transportaria
 
 > Roads and railways — the land transport system from McAdam's road science through the opening railway treatise to the engineering-science textbook that closed the century.
@@ -433,6 +458,12 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | L. F. Vernon-Harcourt | [*Harbours and Docks*](/view.html?p=documents/books/vernon-harcourt-1885-harbours-and-docks.md) | 1885 | Harbour construction, breakwaters, docks, equipment and maintenance |
 
 | J. Wolfe Barry | [*Railway Appliances*](/view.html?p=documents/books/barry-1876-railway-appliances.md) | 1876 | Permanent way, points, crossings, signals and stations |
+
+| Joseph Gwilt | [*An Encyclopædia of Architecture*](/view.html?p=documents/books/gwilt-1842-encyclopaedia-of-architecture.md) | 1842 | Architecture historical, theoretical and practical |
+| Edward Cresy | [*An Encyclopædia of Civil Engineering*](/view.html?p=documents/books/cresy-1847-encyclopaedia-civil-engineering.md) | 1847 | Civil engineering's whole alphabet |
+| D. H. Mahan | [*Summary of the Course of Permanent Fortification*](/view.html?p=documents/books/mahan-1850-permanent-fortification.md) | 1850 | Permanent works — the West Point syllabus |
+| James Mercur | [*Attack of Fortified Places*](/view.html?p=documents/books/mercur-1894-attack-of-fortified-places.md) | 1894 | Siege-works, investment and mine systems |
+| Howard Douglas | [*An Essay on Military Bridges*](/view.html?p=documents/books/douglas-1816-military-bridges.md) | 1816 | The founding doctrine of military bridging (honest no-scan) |
 | Joseph Pigg | [*Railway Block Signalling*](/view.html?p=documents/books/pigg-1898-railway-block-signalling.md) | 1898 | The block system of train signalling |
 
 ## Ars Navalis
@@ -456,6 +487,11 @@ The Admiralty's ship-design drawings and construction specifications name no sin
 
 | John Bourne | [*A Treatise on the Screw Propeller*](/view.html?p=documents/books/bourne-1852-screw-propeller.md) | 1852 | Screw propulsion, propeller design and the paddle-wheel comparison |
 | Henry Sennett | [*The Marine Steam Engine*](/view.html?p=documents/books/sennett-1885-marine-steam-engine.md) | 1885 | Marine boilers, compound engines, propellers and shipboard machinery |
+
+| Charles D. Sigsbee | [*Deep-Sea Sounding and Dredging*](/view.html?p=documents/books/sigsbee-1880-deep-sea-sounding-dredging.md) | 1880 | The Blake's hydrographic apparatus |
+| S. G. J. Boswell | [*Dredging and Other Plant at the Quebec Harbour Works*](/view.html?p=documents/books/boswell-1881-dredging-quebec-harbour-works.md) | 1881 | The dredging plant register (honest no-scan) |
+| C. H. L. Kuhl | [*Dredging on the Lower Danube*](/view.html?p=documents/books/kuhl-1881-dredging-lower-danube.md) | 1881 | River-channel dredging (honest no-scan) |
+| J. J. Webster | [*Dredging Appliances*](/view.html?p=documents/books/webster-1886-dredging-appliances.md) | 1886 | The dredging classification (paper, honest no-scan) |
 
 The Admiralty's own ship-design drawings and construction specifications name no single citable volume and stay branch prose — ship design itself enters through Chapman's two books, navigation through Norie and Bowditch.
 
