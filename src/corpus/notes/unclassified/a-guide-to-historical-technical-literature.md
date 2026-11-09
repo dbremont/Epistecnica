@@ -24,6 +24,7 @@ qa:
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Manufacturing systems and production organization |
 | William J. M. Rankine | [*A Manual of Machinery and Millwork*](/view.html?p=documents/books/rankine-1869-manual-of-machinery-and-millwork.md) | 1869 | Machine construction |
 | Franz Reuleaux | [*The Kinematics of Machinery*](/view.html?p=documents/books/reuleaux-1875-kinematics-of-machinery.md) | 1875 | Mechanism theory and machine design |
+| J. T. Desaguliers | [*A Course of Experimental Philosophy*](/view.html?p=documents/books/desaguliers-1734-course-of-experimental-philosophy.md) | 1734–45 | Experimental philosophy taught as machine theory and practical machine use |
 | Jacob Leupold | [*Theatrum Machinarum Generale*](/view.html?p=documents/books/leupold-1724-theatrum-machinarum-generale.md) | 1724 | General machine science |
 | Jacob Leupold | [*Theatrum Machinarum Hydrotechnicarum*](/view.html?p=documents/books/leupold-1724-theatrum-machinarum-hydrotechnicarum.md) | 1724–25 | Hydraulic machinery, waterworks and lifting systems |
 | Jacob Leupold | [*Theatrum Machinarum Molarium*](/view.html?p=documents/books/leupold-1735-theatrum-machinarum-molarium.md) | 1735 | Mills and mechanical power transmission |
@@ -250,6 +251,7 @@ qa:
 | Carl Friedrich Gauss | [*Intensitas vis Magneticae Terrestris ad Mensuram Absolutam Revocata*](/view.html?p=documents/books/gauss-1832-intensitas-vis-magneticae.md) | 1832 | Absolute measurement of terrestrial magnetic intensity (memoir) |
 | Charles Lyell | [*Principles of Geology*](/view.html?p=documents/books/lyell-1830-principles-of-geology.md) | 1830–33 | Geological processes, stratigraphy and uniformitarian method |
 | Johann von Lamont | [*Handbuch des Erdmagnetismus*](/view.html?p=documents/books/lamont-1849-handbuch-des-erdmagnetismus.md) | 1849 | Geomagnetic observation (Bogenhausen handbook) |
+| Joan Blaeu | [*Theatrum Civitatum et Admirandorum Italiæ*](/view.html?p=documents/books/blaeu-1663-theatrum-civitatum.md) | 1663 | Chorography and town views of Italy — the built world mapped city by city |
 
 ## Ars Transportaria
 
@@ -269,8 +271,6 @@ qa:
 |---|---|---:|---|
 | F. H. af Chapman | [*Architectura Navalis Mercatoria*](/view.html?p=documents/books/chapman-1768-architectura-navalis.md) | 1768 | Naval architecture: the plate classification of ships |
 | F. H. af Chapman | [*A Treatise on Ship-Building*](/view.html?p=documents/books/chapman-1820-treatise-on-ship-building.md) | 1820-era | Ship construction theory (French 1781 translation scanned) |
-
-Whewell's 1819 free-motion essay and Hopkins's physical-geology papers name no verifiable single work and stay branch prose; Whewell's held *Elementary Treatise on Mechanics* anchors the mechanics, and the geophysical branch runs on the Bessel–Helmert–Clarke spine above.
 
 ## References
 
