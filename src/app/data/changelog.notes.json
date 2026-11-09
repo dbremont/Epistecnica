@@ -81126,6 +81126,11 @@
         "summary": "Expand the historical technical library guide to the full ars-catalogue: Latin section headings, inline corpus links on every work row across all twelve Ars sections, and three new collections - Ars Cibaria (food processing: milling, sugar, dairy, brewing, preservation, refrigeration), Ars Sonora (sound in four sub-collections including architectural acoustics and the velocity-measurement papers), and Ars Telluris (seven branches of geophysical instrumentation from seismometry through hydrography); consolidated coverage matrix, the reference-collections table with Smithsonian trade catalogs, and the restored four-category technology/engineering-science distinction. 99 corpus entries linked across 110 links.",
         "commit": "161395035dd619bebe6dd1df29417f93e7c09745",
         "before": "e4828dc7700c2a12eb682c7659bbaf2eb020d55d"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "style",
+        "summary": "Flatten the guide to a single heading level: the Ars Cibaria, Ars Acustica (renamed from Sonora) and Ars Telluris sub-tables merge into one table each, duplicate outline rows (Ure, Clarke) collapsing to single composite rows with their merged domains in the domain cell, branch prose kept as paragraphs beneath the tables. Ars Mecanica corrected to Ars Mechanica. All 110 work links preserved; the coverage matrix, collections and the four-category distinction stay at section level."
       }
     ]
   }
