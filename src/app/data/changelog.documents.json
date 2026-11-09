@@ -29199,5 +29199,215 @@
         "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
+  },
+  {
+    "file_path": "books/mallet-1862-great-neapolitan-earthquake.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Mallet, Great Neapolitan earthquake of 1857 (1862) - observational seismology's founding report; 1862 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/milne-1886-earthquakes-and-other-earth-movements.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Milne, Earthquakes and other earth movements (1886) - the seismograph era; 1886-1899 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/milne-mori-1893-earthquake-laboratory-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Milne & Mori, Instruments for the earthquake laboratory at the Chicago exposition (Nature, 1893) - seismometry's instrument catalogue; Nature scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/humboldt-1845-cosmos.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Humboldt, Kosmos (1845-62, 5 vols) - the physical description of the world magnetic-observatory program grew from; 1846-1850 scans in French and English."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sabine-contributions-to-terrestrial-magnetism.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sabine's Contributions to terrestrial magnetism as a paper series (Phil. Trans., 1839-1870s) - no single book; numbers IV, V and XIV scanned, honesty note on the serial form."
+      }
+    ]
+  },
+  {
+    "file_path": "books/airy-1869-magnetism-of-ships.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the 1869 Magnetism of ships and the deviations of the compass Board-of-Trade compilation, Airy-era compass compensation; 1869 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/helmert-1880-die-mathematischen-und-physikalischen-theorien.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Helmert, Die mathematischen und physikalischen Theorien der h-h- Geod-sie (1880-84, 2 vols); 1880 scans, filename corrected from a .tex.md slip."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bessel-1838-gradmessung-ostpreussen.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bessel, Gradmessung in Ostpreussen (1838) - the figure-of-the-earth determination the outline's title resolves to; 1838 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clarke-1880-geodesy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add A. R. Clarke, Geodesy (Oxford, 1880); 1880 scans, cross-linked to Helmert."
+      }
+    ]
+  },
+  {
+    "file_path": "books/simms-1844-principal-mathematical-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Simms, A treatise on the principal mathematical instruments (1834; 1844 Wellcome scan), instrument-maker-written; anchors the geodesy branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/davies-1898-elements-of-surveying-and-leveling.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Davies, Elements of surveying and levelling, dated 1898 by the verified posthumous reissue scan; the 1835 original linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/adams-1790-dissertation-barometer.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add George Adams, A short dissertation on the barometer, thermometer... (1790) - the instrument trade s earliest meteorological manual; 1790 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/negretti-zambra-1864-treatise-on-meteorological-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Negretti and Zambra, A treatise on meteorological instruments (1864) - the instrument-house treatise; 1864 scans and transcript."
+      }
+    ]
+  },
+  {
+    "file_path": "books/morris-1866-treatise-on-meteorology.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Morris, A treatise on meteorology (1866), instruments interpreted as physics; 1866-68 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/abbe-1887-meteorological-apparatus-and-methods.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Abbe, Treatise on meteorological apparatus and methods (Washington, 1887) - the Signal Service methods; honest no-scan note, Smithsonian tables linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/casella-1896-standard-meteorological-instruments-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Casella standard-instruments trade catalogue (1896 title; the firm 1860-62 catalogues scanned) and note trade catalogues as primary instrument documents."
+      }
+    ]
+  },
+  {
+    "file_path": "books/phillips-1855-manual-of-geology.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add John Phillips, Manual of geology (1855); 1855 and 1885 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ansted-1844-geological-manual.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ansted, The geological manual (1844); honest no-scan note, the author's 1860 Geological gossip scan linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/forbes-1859-natural-history-european-seas.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Forbes, The natural history of the European seas (1859), posthumous Godwin-Austen edition; 1859 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/maury-1855-physical-geography-of-the-sea.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Maury, The physical geography of the sea (1855); 1858 printing and 1857 atlas-plate scans, cross-linked to Forbes."
+      }
+    ]
+  },
+  {
+    "file_path": "books/scoresby-1820-account-of-the-arctic-regions.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Scoresby, An account of the arctic regions (1820) - the whale-fishery captain s instrumented marine record; 1820 scan."
+      }
+    ]
   }
 ]
