@@ -595,6 +595,21 @@ qa:
 | Charles Lyell | [*Principles of Geology*](/view.html?p=documents/books/lyell-1830-principles-of-geology.md) | 1830–33 | Geological processes, stratigraphy and uniformitarian method |
 | Johann von Lamont | [*Handbuch des Erdmagnetismus*](/view.html?p=documents/books/lamont-1849-handbuch-des-erdmagnetismus.md) | 1849 | Geomagnetic observation (Bogenhausen handbook) |
 | Joan Blaeu | [*Theatrum Civitatum et Admirandorum Italiæ*](/view.html?p=documents/books/blaeu-1663-theatrum-civitatum.md) | 1663 | Chorography and town views of Italy — the built world mapped city by city |
+| Robert Mallet | [*On the Dynamics of Earthquakes*](/view.html?p=documents/books/mallet-1846-dynamics-of-earthquakes.md) | 1846 | Earthquakes reduced to observed wave motion (paper) |
+| James Hutton | [*Theory of the Earth*](/view.html?p=documents/books/hutton-1795-theory-of-the-earth.md) | 1795 | The earth read as a system with a history |
+| John Playfair | [*Illustrations of the Huttonian Theory of the Earth*](/view.html?p=documents/books/playfair-1802-illustrations-huttonian-theory.md) | 1802 | Hutton made readable — the field evidence set out |
+| William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science |
+| R. I. Murchison | [*The Silurian System*](/view.html?p=documents/books/murchison-1839-silurian-system.md) | 1839 | A formation defined by its fossils and mapped |
+| Luke Howard | [*The Climate of London*](/view.html?p=documents/books/howard-1818-climate-of-london.md) | 1818–33 | Urban weather observed — the city makes its own climate |
+| Robert FitzRoy | [*The Weather Book*](/view.html?p=documents/books/fitzroy-1863-weather-book.md) | 1863 | Forecasting argued as a public service |
+| G. J. Symons | [*British Rainfall*](/view.html?p=documents/books/symons-1860-british-rainfall.md) | 1860– | The volunteer gauge network organized (annual series) |
+| Alexander Buchan | [*A Handy Book of Meteorology*](/view.html?p=documents/books/buchan-1867-handy-book-of-meteorology.md) | 1867 | Meteorology taught for the observer and the sailor |
+| Julius von Hann | [*Handbuch der Klimatologie*](/view.html?p=documents/books/hann-1883-handbuch-der-klimatologie.md) | 1883 | Climate systematized as a physical science |
+| C. Wyville Thomson | [*The Voyage of the "Challenger"*](/view.html?p=documents/books/thomson-1878-voyage-of-the-challenger.md) | 1878 | The deep sea measured — oceanography founded |
+| C. F. Gauss & W. Weber | [*Resultate aus den Beobachtungen des Magnetischen Vereins*](/view.html?p=documents/books/gauss-weber-1837-resultate-magnetischer-verein.md) | 1837–39 | The magnetic observatories organized as a network |
+| Humphrey Lloyd | [*A Treatise on Magnetism, General and Terrestrial*](/view.html?p=documents/books/lloyd-1874-treatise-on-magnetism.md) | 1874 | Terrestrial magnetism and the observatory method |
+| F. G. W. Struve | [*Arc du Méridien de 25° 20′*](/view.html?p=documents/books/struve-1857-arc-du-meridien.md) | 1857–60 | The great meridian arc measured across Russia |
+| W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument |
 
 ## Ars Architectura
 

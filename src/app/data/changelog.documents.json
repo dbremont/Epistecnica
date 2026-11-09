@@ -34089,5 +34089,155 @@
         "commit": "6f35d7cf4c6339e76dbb1fedc95eddb2a0ebd7f9"
       }
     ]
+  },
+  {
+    "file_path": "books/mallet-1846-dynamics-of-earthquakes.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mallet, On the Dynamics of Earthquakes (1846) — the methodological founding paper; 1846 article scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hutton-1795-theory-of-the-earth.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hutton, Theory of the Earth (1795) — the geological founding; 1899 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/playfair-1802-illustrations-huttonian-theory.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Playfair, Illustrations of the Huttonian Theory (1802) — the exposition; 1956 reprint scan, edition stated."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smith-1815-memoir-to-the-map.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Smith, A Memoir to the Map (1815) — the founding stratigraphy; 1815 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/murchison-1839-silurian-system.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Murchison, The Silurian System (1839) — the fossil-based stratigraphy; two 1839 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/howard-1818-climate-of-london.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Howard, The Climate of London (1818–33) — the urban observation series; 1818 and 1833 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fitzroy-1863-weather-book.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add FitzRoy, The Weather Book (1863) — the founding forecasting manual; two 1863 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/symons-1860-british-rainfall.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Symons's British Rainfall (1860–, series) — the rain-gauge network; 1874 Nature notice linked, series stated."
+      }
+    ]
+  },
+  {
+    "file_path": "books/buchan-1867-handy-book-of-meteorology.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Buchan, A Handy Book of Meteorology (1867) — the teaching manual; 1867 and 1868 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hann-1883-handbuch-der-klimatologie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hann, Handbuch der Klimatologie (1883) — the climatology handbook; 1897 edition scan, edition stated."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thomson-1878-voyage-of-the-challenger.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Thomson, The Voyage of the Challenger (1878) — the founding oceanographic expedition; 1878 and 1895 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gauss-weber-1837-resultate-magnetischer-verein.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gauss and Weber, Resultate (1837–39) — the Magnetic Union network; 1836 and 1837 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lloyd-1874-treatise-on-magnetism.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Lloyd, A Treatise on Magnetism (1874) — the observatory manual; three 1874 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/struve-1857-arc-du-meridien.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Struve, Arc du Méridien (1857–60) — the great geodetic arc; two volume scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/everest-lambton-1830s-great-trigonometrical-survey.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Great Trigonometrical Survey of India collector (1810s–40s) — the survey volumes; honest no-scan note."
+      }
+    ]
   }
 ]
