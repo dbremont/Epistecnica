@@ -30651,5 +30651,195 @@
         "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
+  },
+  {
+    "file_path": "books/andrews-1852-agricultural-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Andrews, Rudimentary treatise on agricultural engineering (1852-53); 1852-53 scans, the Weale agricultural-engineering volume."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thomas-1869-farm-implements.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add J. J. Thomas, Farm implements and farm machinery (1869); 1869 and earlier-edition scans, cross-linked to the held Fruit Culturist."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ritchie-1849-the-farm-engineer.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ritchie, The farm engineer (1849) - steam-powered agricultural machinery and threshing; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/scott-1884-barn-implements.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add John Scott, Barn implements and machines (1884); 1884 scan, the mechanized barn close of the machinery shelf."
+      }
+    ]
+  },
+  {
+    "file_path": "books/small-1784-treatise-on-ploughs.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add James Small, A treatise on ploughs and wheel carriages (1784); both 1784 scans, the implement-construction founding treatise."
+      }
+    ]
+  },
+  {
+    "file_path": "books/donaldson-1796-modern-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Donaldson, Modern agriculture (1796); 1796 scans including the prospectus; the authorship James confirmed by the BIM metadata."
+      }
+    ]
+  },
+  {
+    "file_path": "books/duhamel-1764-elements-naval-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Duhamel du Monceau, Elements of naval architecture (1764 English translation); 1764 and 1846 scans, the French theory of ship construction."
+      }
+    ]
+  },
+  {
+    "file_path": "books/murray-1754-ship-building-navigation.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Mungo Murray, A treatise on ship-building and navigation (1754); 1754 scan, the Clyde shipwrights tradition."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fincham-1851-history-naval-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fincham, A history of naval architecture (1851); 1851 scan, the history between Murray and Scott Russell."
+      }
+    ]
+  },
+  {
+    "file_path": "books/russell-1865-modern-system-naval-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Scott Russell, The modern system of naval architecture (1865) - the Great Eastern designer's folio system; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hardwich-1855-manual-photographic-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hardwich, A manual of photographic chemistry (1855); 1857-1864 edition scans, the collodion teaching, cross-linked to Le Gray."
+      }
+    ]
+  },
+  {
+    "file_path": "books/abney-1878-treatise-on-photography.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Abney, A treatise on photography (1878); 1878 and 1907 scans, the dry-plate treatise."
+      }
+    ]
+  },
+  {
+    "file_path": "books/abney-1881-silver-printing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Abney, The art and practice of silver printing (1881); 1881 and 1888 scans, the printing-out-papers manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/accum-1815-treatise-on-gas-light.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Accum, A practical treatise on gas-light (1815) - the outline's 1812 process pamphlet noted as the treatise's own predecessor within this pair; 1815-1818 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bunsen-1857-gasometrische-methoden.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bunsen, Gasometrische Methoden (1857); 1857 and 1877 scans, the gas-analysis discipline."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hunt-1884-british-mining.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Robert Hunt, British mining (1884); 1884 scans, the metalliferous national survey, cross-linked to Foster."
+      }
+    ]
+  },
+  {
+    "file_path": "books/montgomery-1840-cotton-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Montgomery, A practical detail of the cotton manufacture of the United States (1840); 1840 scans, the American counterpart of Baines's history."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clark-1855-railway-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add D. K. Clark, Railway machinery (1855); both 1855 parts scanned, the mechanical engineering of railways, cross-linked to Webb and Colburn."
+      }
+    ]
+  },
+  {
+    "file_path": "books/colburn-1871-locomotive-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Colburn, Locomotive engineering and the mechanism of railways (1871); 1871 scan, the trade journalism collected as teaching."
+      }
+    ]
   }
 ]
