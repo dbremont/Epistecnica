@@ -31,6 +31,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Vegetius; Pseudo-Anonymous | *Epitoma Rei Militaris; De Rebus Bellicis* | c. 390 CE | The Roman fortifications and paddle-wheel warships of the late empire |
 | Anthemius of Tralles; Procopius | *On Burning Mirrors; Hagia Sophia dome geometry; De Aedificiis* | 532–550 CE | The great vaulting and dome-engineering of the imperial city |
 | Marcus Vitruvius Pollio | *De Architectura Libri Decem* | c. 25 BCE | The classical canon: aqueducts, cranes, watermills and theatre acoustics (see the 1826 Gwilt translation in Architectura) |
+| Aeneas Tacticus; Athenaeus Mechanicus; Apollodorus of Damascus; Onasander | *Poliorcetica (c. 350 BCE — hydraulic water-clock telegraphy, ciphers and mine counter-tunnelling); Peri Mechanematon (1st c. BCE siege tortoises and rams); Poliorcetica (c. 105 CE — Trajan's Danube bridge and siege towers); Strategikos* | 350 BCE - 115 CE | Greek and Roman siege engineering, field bridging and optical/hydraulic signalling (no scan verified) |
+| Sextus Julius Africanus; Oribasius of Pergamon | *Kestoi (c. 220 CE — military pyrotechnics, surveying and metrology); Collectiones Medicae Book XLIX (4th c. CE — Alexandrian surgical traction machines, bone-setting windlasses and the Glossokomon compound pulley reduction frame)* | c. 220-380 CE | Late antique pyrotechnic recipes and mechanical orthopaedic reduction engines (no scan verified) |
 
 ## Ars Mediaevalia
 
@@ -54,6 +56,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping and the accounting of industrial enterprise |
 | Leonardo da Vinci | [*Codice Atlantico and the Manuscripts*](/view.html?p=documents/books/leonardo-1883-literary-works.md) | c. 1478–1519 (ed. 1883) | The machine elements and the flying machines of the great engineer — Richter's edition of the notebooks |
 | Ulrich Rulein von Calw | *Ein nützlich Bergbüchlein (c. 1500); Probierbüchlein (c. 1520)* | c. 1500 / c. 1520 | The first printed mining and assaying manuals |
+| Adelard of Bath; Jordanus de Nemore; Roger Bacon | *Quaestiones Naturales & Euclid/Khwarizmi translations (12th c.); Liber de Ratione Ponderis (13th c. — positional gravity, bent lever and virtual displacements on the inclined plane); Epistola de Secretis Operibus Artis et Naturae (c. 1260 — eyeglasses, gunpowder and mechanical propulsion)* | 1120-1270 | Medieval statics of the inclined plane by virtual work, optical lenses and early European gunpowder (no scan verified) |
+| Richard of Wallingford | *Tractatus Horologii Astronomici (1327-30)* | 1327-30 | The St Albans astronomical clock with double-pallet strob escapement, fusee-like spiral barrel and differential gear trains (no scan verified) |
+| Cennino d Andrea Cennini; Lorenzo Ghiberti; Piero della Francesca | *Il Libro dell Arte (c. 1400 — gesso, tempera, mordant gilding, fresco and life-casting); Commentarii (c. 1447 — lost-wax monumental bronze casting); De Prospectiva Pingendi & Libellus de Quinque Corporibus Regularibus (c. 1474-82)* | 1400-82 | Workshop treatise of the Italian painter-gilder, lost-wax bronze founding and projective geometry (no scan verified) |
 
 ## Ars Mechanica
 
@@ -350,6 +355,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Obed Hussey | *Mowing-machine patent* | 1833 | The rival mowing machine of the 1833 patent trade (no scan verified) |
 | Drainage-tile makers | *Tile-machinery patents* | 1840s–60s | The machine that made the clay tile (no scan verified) |
 | Steam-threshing builders (Aultman, Best, Reeves) | *Threshing-engine and separator catalogues and patents* | 1870s–90s | The threshing machine as the harvest system (no scan verified) |
+| Charles Townshend; Robert Bakewell; Andrew Meikle | *Norfolk four-course turnip-clover-barley-wheat rotation (1730s); Dishley progeny-tested selective livestock breeding (1760-90); fluted-drum rotary mechanical threshing machine with beaters (British Patent 1,645 of 1788)* | 1730-88 | Elimination of the bare fallow, systematic animal genetics and the mechanical separation of grain from straw (no scan verified) |
+| Johann Nepomuk von Schwerz; Carl Sprengel | *Anleitung zum praktischen Ackerbau (3 vols., 1823-28); Die Bodenkunde (1837) & Die Lehre vom Dünger (1839 — the mineral theory of plant nutrition and the Law of the Minimum)* | 1823-39 | Hohenheim empirical agronomy and the original formulation of the mineral-nutrient Law of the Minimum (no scan verified) |
+| John Deere; Richard Garrett & Sons; John Chalmers Morton | *Self-scouring polished wrought-steel mouldboard prairie plough (1837-38); Leiston Suffolk seed drills, horse hoes and portable threshing engines (1837-60); A Cyclopedia of Agriculture, Practical and Scientific (2 vols., 1851-55)* | 1837-55 | The steel plough that broke cohesive prairie sod and the encyclopedic synthesis of Victorian high farming (no scan verified) |
+| Julius Kühn; Emil von Wolff; Wilhelm Fleischmann; Stephen Moulton Babcock | *Die zweckmäßigste Ernährung des Rindviehes (1861); Die rationelle Fütterung der landwirtschaftlichen Nutztiere (1874 — Wolff feeding standards); Das Molkereiwesen (1875); A New Method for the Estimation of Fat in Milk (Babcock sulphuric-acid centrifugal test, 1890)* | 1861-90 | Quantitative animal nutrition tables and rapid butterfat testing that put the dairy industry on a chemical basis (no scan verified) |
 
 ## Ars Civilis
 
@@ -537,6 +546,14 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Auguste Kerckhoffs | *La Cryptographie militaire (Journal des Sciences Militaires)* | 1883 | Kerckhoffs's principle of military cipher design (no scan verified) |
 | John Babington; K. Siemienowicz; A.-F. Frézier; C.-F. Ruggieri; P. Tessier | *Pyrotechnia; Artis Magnae Artilleriae; Traité des feux d artifice; Éléments de pyrotechnie; Chimie pyrotechnique* | 1635–1859 | The pyrotechnic rocket and fireworks trade across three centuries (no scan verified) |
 | F.-M. Chertier | *Nouveau Manuel du Pyrotechniste (the coloured-fire manual)* | 1843 | The French pyrotechnic trade manual of the coloured flame (no scan verified) |
+| Niccolò Tartaglia | *Nova Scientia (1537); Quesiti et inventioni diverse (1546)* | 1537 / 1546 | Exterior ballistics founded — proving projectile trajectories are curved throughout and maximum range occurs near 45° with the gunner's quadrant (no scan verified) |
+| Menno van Coehoorn; Louis de Cormontaigne; Marc-René de Montalembert; Lazare Carnot | *Nieuwe Vestingbouw (1685 — wet-ditch low-relief defence and the Coehorn portable siege mortar); Mémorial pour la fortification permanente (Cormontaigne); La Fortification perpendiculaire (Montalembert, 1776-96 — multi-tier casemated polygonal forts); De la défense des places fortes (Carnot, 1810)* | 1685-1810 | From the Dutch bastion trace to casemated perpendicular polygonal fortification and vertical mortar counter-fire (no scan verified) |
+| Jean-Baptiste Vaquette de Gribeauval; Jean-Louis Lombard | *Tables des constructions des principaux attirails de l artillerie (Gribeauval system, 1765-92); Traité du mouvement des projectiles, appliqué au tir des bouches à feu (1787)* | 1765-92 | Standardised interchangeable field-artillery carriages, go/no-go éstole shot gauges and gunnery range tables (no scan verified) |
+| Henri-Joseph Paixhans; Guillaume Piobert; Isidore Didion | *Nouvelle force maritime (1822 — flat-trajectory explosive shell guns); Traité d artillerie théorique et pratique (Piobert, 1836 — grain combustion law); Traité de balistique (Didion, 1848)* | 1822-48 | Explosive shell naval gunnery, interior powder-grain burning rate geometry and analytical exterior ballistics (no scan verified) |
+| Thomas Jackson Rodman | *Reports of Experiments on the Properties of Metals for Cannon, and the Qualities of Cannon Powder* | 1861 | Internal piezo-crusher pressure gauge, hollow water-cooled cast-iron gun casting and perforated-cake progressive-burning powder (no scan verified) |
+| Nikolai Mayevski; Francis Bashforth; Francesco Siacci | *Traité de balistique extérieure (Mayevski, 1870-72); A Mathematical Treatise on the Motion of Projectiles Founded Chiefly on the Results of Experiments Made with the Bashforth Chronograph (1873); Balistica (Siacci, 1888)* | 1870-88 | Supersonic ogival-projectile drag laws measured by electro-ballistic chronograph and the Siacci method of firing-table computation (no scan verified) |
+| Alfred Krupp; Eugène Schneider & Gustave Canet; Henri Alexis Brialmont | *Crucible cast-steel rifled breech-loading guns with sliding-wedge breech (Krupp, 1851-90); Canet & Schneider hydro-pneumatic long-recoil quick-firing field guns (1890-97); La Fortification du temps présent (Brialmont, 1885 — concrete forts with revolving armored steel cupolas)* | 1851-97 | Built-up steel breech-loading ordnance, hydro-pneumatic recoil recuperators and armored concrete ring fortresses (no scan verified) |
+| Frederick Augustus Abel & James Dewar | *Cordite gelatinised nitroglycerine-guncotton smokeless propellant patents (British Patents 5,614 and 11,664 of 1889)* | 1889 | Extruded double-base smokeless propellant for small arms and naval ordnance (no scan verified) |
 
 ## Ars Bellica
 
@@ -556,6 +573,13 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | C. M. Wilcox | *Rifles and Rifle Practice* | 1859 | The rifle as a technical and military instrument (no scan verified) |
 | U.S. War Department (Carrington, Talcott, Baker, eds.) | *Report of the Board of Officers on Major Hall's Works at Harper's Ferry* | 1827 | Interchangeability proved by disassembling 100 Hall rifles (no scan verified) |
 | Hiram S. Maxim | *Recoil-operated automatic machine-gun papers and patents* | 1885–88 | The automatic machine gun (no scan verified) |
+| Alexander John Forsyth; Joshua Shaw; Jean Samuel Pauly; Johann Nikolaus von Dreyse | *Fulminate percussion scent-bottle lock (Forsyth, British Patent 3,032 of 1807); copper percussion cap (Shaw, 1814-22); central-fire self-contained cartridge breech-loader (Pauly, 1812); Prussian bolt-action needle gun Zündnadelgewehr (Dreyse, 1827-41)* | 1807-41 | Fulminate percussion ignition, the unitary cartridge and the first military bolt-action breech-loading rifle (no scan verified) |
+| Louis-Étienne de Thouvenin; François Tamisier; Antoine Alphonse Chassepot | *Carabine à tige pillar-breech rifle (Thouvenin, 1844); progressive-depth rifling and aerodynamic bullet cannelures (Tamisier, 1846); Mle 1866 Chassepot rubber-obturator bolt-action rifle* | 1844-66 | Minie/pillar-breech ballistic accuracy and the De Bange/Chassepot elastic breech gas seal (no scan verified) |
+| Horace Smith, Daniel B. Wesson & Rollin White; Christopher Miner Spencer; Benjamin Tyler Henry & Oliver Winchester | *Bored-through cylinder rimfire metallic-cartridge revolver (1855-57); Spencer lever-action 7-shot repeating carbine (1860); Henry and Winchester tubular-magazine toggle-link lever-action rifles (1860 / 1866)* | 1855-66 | Drawn copper rimfire cartridges and the first mass-produced military and sporting metallic-cartridge repeating arms (no scan verified) |
+| Hiram Berdan; Edward Mounier Boxer | *Berdan integral-anvil cup primer (U.S. Patent 53,388 of 1866); Boxer coiled-brass / drawn-brass internal-anvil centerfire cartridge case (British Patent 1866)* | 1866 | Reloadable drawn-brass centerfire metallic cartridge cases with obturating gas seal (no scan verified) |
+| Nicolas Lebel & Paul Vieille; Paul & Wilhelm Mauser; Ferdinand Ritter von Mannlicher; James Paris Lee; Ole Krag & Erik Jørgensen; Sergei Mosin & Léon Nagant | *Mle 1886 Lebel 8 mm smokeless-powder jacketed-bullet rifle; Mauser Gewehr 71/84 and 1889-98 charger-fed bolt-action rifles; Mannlicher en-bloc clip straight-pull and turn-bolt rifles (1885-95); Lee detachable box magazine (1879); Krag-Jørgensen (1889); Mosin-Nagant (1891)* | 1879-98 | The small-bore high-velocity cupronickel-jacketed smokeless-powder repeating military rifle revolution (no scan verified) |
+| Helge Palmcrantz & Thorsten Nordenfelt; Benjamin B. Hotchkiss; John Moses Browning; Hugo Borchardt & Georg Luger | *Nordenfelt multi-barrel lever volley gun (1873); Hotchkiss revolving cannon and gas-operated machine gun (1872-97); Browning lever-action, pump-action, gas-operated Colt M1895 machine gun and blowback/recoil autoloading pistols (1879-1900); Borchardt C-93 (1893) and Luger Parabellum (1898-1900) magazine-in-grip self-loading pistols* | 1872-1900 | From mechanical volley guns to gas- and recoil-operated automatic machine guns and self-loading pistols (no scan verified) |
+| Arthur Corbin Gould (Ralph Greenwood) | *The Modern American Pistol and Revolver (1888 / 1894); Modern American Rifles (1892)* | 1888-94 | Target testing, vernier tang sights, barrel rifling twists, reloading tools and internal/external ballistics of American small arms (no scan verified) |
 
 ## Ars Electrica
 
@@ -752,6 +776,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Abraham-Louis Breguet | *The Breguet workshop papers, patents and the sympathique clock* | 1790s-1820s | The precision watch and clock trade of the Paris workshop (no scan verified) |
 | Louis Moinet | *Nouveau traité d'horlogerie* | 1844 | The chronograph and the workshop practice of the watch trade (no scan verified) |
 | Claudius Saunier | *Traité d'horlogerie moderne* | 1861 | The modern watch and clock trade in its manual (no scan verified) |
+| Jean-André Lepaute; Alexander Cumming; Thomas Hatton | *Traité d horlogerie contenant tout ce qui est nécessaire pour connoître et pour régler les pendules et les montres (1755 — pin-wheel escapement); The Elements of Clock and Watch-Work, Adapted to Practice (1766 — Cumming gravity escapement and barograph); An Introduction to the Mechanical Part of Clock and Watch Work (1773)* | 1755-73 | Pin-wheel and gravity escapements, equation-of-time cams and friction analysis of gear teeth (no scan verified) |
+| Urban Jürgensen; Benjamin Lewis Vulliamy; Joseph Thaddäus Winnerl; Sigmund Riefler; Charles-Édouard Guillaume | *Principes généraux de l exacte mesure du temps par les horloges (1805 / 1838 — metallic-thermometer chronometers); Public turret-clock dead-beat escapements (Vulliamy, 1820-45); split-seconds rattrapante chronograph (Winnerl, 1831-38); Riefler free-pendulum vacuum-tank observatory clock (1889-93); Invar and Elinvar nickel-steel alloys (Guillaume, 1896-99)* | 1805-99 | Split-seconds chronographs, vacuum-tank observatory regulators and zero-expansion Invar pendulum rods (no scan verified) |
 
 ## Ars Elastica
 
@@ -765,6 +791,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Charles Marie de La Condamine & François Fresneau | *Mémoire sur une résine élastique nouvellement découverte à Cayenne* | 1751 | The first European descriptions of rubber (no scan verified) |
 | Werner von Siemens | *Über die Anwendung der Gutta-Percha zu elektrischen Isolirungen* | 1847–50 | The gutta-percha cable insulation and extruder (no scan verified) |
 | James Collins | *Report on the Caoutchouc of Commerce* | 1872 | The rubber trade applied and examined (no scan verified) |
+| Charles-Marie de La Condamine, François-David Hérissant & Pierre-Joseph Macquer; Johann Nepomuk Reithoffer & Nadler | *Mémoires de l Académie on Hevea caoutchouc latex and ether/turpentine dissolution (1736-68); woven rubber-thread elastic fabrics in Vienna (1824-28)* | 1736-1828 | First European scientific description and solvent working of Amazonian rubber (no scan verified) |
+| Charles Macintosh; John Spiller; J. B. Spence | *Coal-tar naphtha rubber-solution waterproofed double-texture cloth patent (British Patent 4,804 of 1823); atmospheric oxidation of rubber resins (1865); sulphur-mineral cements* | 1823-65 | The Mackintosh waterproof fabric and the discovery of oxidative degradation of vulcanised rubber (no scan verified) |
+| Gustave Bouchardat; William Augustus Tilden; Hilaire de Chardonnet | *Polymerisation of isoprene into elastic rubber-like caoutchouc (1875-79); isoprene from turpentine and spontaneous polymerisation (1882-84); nitrocellulose artificial silk / rayon patents (1884-89)* | 1875-89 | Founding monomer chemistry of synthetic isoprene rubber and the first industrial man-made Regenerated fibre (no scan verified) |
+| Edmond Chapel; Th. Seeligmann, G. Lamy Torrilhon & H. Falconnet | *Le Caoutchouc et la Gutta-Percha (1892); Le Caoutchouc et la Gutta-Percha (1896; Eng. trans. J. G. McIntosh)* | 1892 / 1896 | Comprehensive encyclopedias of plantation harvesting, washing rollers, calenders, vulcanising autoclaves and ebonite (no scan verified) |
 
 ## Ars Petrolea
 
@@ -781,6 +811,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Benjamin Silliman Jr. | *Report on the Rock Oil, or Petroleum, from Venango Co., Pennsylvania* | 1855 | The analytical report that launched the Pennsylvania oil trade (no scan verified) |
 | Carl Auer von Welsbach | *Incandescent thoria-ceria gas-mantle patents* | 1885–91 | The gas mantle of the Welsbach lighting (no scan verified) |
 | Leonard Archbutt & R. M. Deeley | *Lubrication and Lubricants* | 1900 | The boundary oil treatise of the trade (no scan verified) |
+| William Murdock; Philippe Lebon | *An Account of the Application of the Gas from Coal to Economical Purposes (Phil. Trans., 1808; Soho works lit 1798-1802); Thermolampe wood-gas illumination and gas-engine patents (1799-1801)* | 1792-1808 | Founding of the coal-gas and wood-gas retorting, scrubbing, gasometer and piped lighting industry (no scan verified) |
+| Thaddeus S. C. Lowe; J. Emerson Dowson | *Carburetted water-gas cupola-and-superheater process patent (1873-75); Dowson suction producer-gas plant for gas engines (1878-81)* | 1873-81 | High-illuminating carburetted water-gas for town mains and cheap anthracite producer gas for factory engines (no scan verified) |
+| Dmitri Ivanovich Mendeleev; Vladimir Vasilyevich Markovnikov; Carl Engler | *Continuous crude-oil pipe still and Baku pipeline proposals (1877-81); Caucasian naphthene (cycloparaffin) hydrocarbons (1880-83); Engler standard efflux viscometer and petroleum distillation flasks (1885-88)* | 1877-88 | Continuous fractional distillation, naphthenic crude chemistry and standardised viscosity testing (no scan verified) |
+| Stephen Farnham Peckham; George Thomas Beilby; Vladimir Grigoryevich Shukhov | *Report on the Production, Technology, and Uses of Petroleum and Its Products (1884 Tenth U.S. Census Monograph); vertical continuous shale-oil and ammonia retorts (1881-94); Shukhov continuous tubular thermal-cracking unit (Russian Patent 12,926 of 1891), heated heavy-oil pipelines and rivetted steel cylindrical tank design* | 1881-94 | World petroleum refining survey, Scottish oil-shale retorting and the first industrial thermal-cracking and tank-storage equations (no scan verified) |
 
 ## Ars Lapidaria
 
@@ -796,6 +830,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | George P. Merrill | *Stones for Building and Decoration* | 1891 | The building stones described (no scan verified) |
 | Peter Nicholson | [*A Popular and Practical Treatise on Masonry and Stone-Cutting*](/view.html?p=documents/books/nicholson-1828-masonry-cutting.md) | 1828 | The British masonry trade — the stone cut taught as method |
 | Gaspard Monge | [*Géométrie Descriptive*](/view.html?p=documents/books/monge-1838-geometrie-descriptive.md) | 1795 | The projection trade of the stone cut — descriptive geometry founded |
+| Philibert de l Orme; François Derand | *Le Premier Tome de l Architecture (1567 — stereotomic trompes and laminated small-timber roof arches); L Architecture des voûtes, ou l Art des traits et coupe des voûtes (1643)* | 1567 / 1643 | The French trait géométral of stone vaulting, squinches and skew arches before Monge (no scan verified) |
+| Paul Letarouilly; Eugène-Emmanuel Viollet-le-Duc | *Édifices de Rome moderne (1840-57); Dictionnaire raisonné de l architecture française du XIe au XVIe siècle (10 vols., 1854-68)* | 1840-68 | Measured masonry details and the structural rationalism of medieval stone vaulting and flying buttresses (no scan verified) |
+| Quincy Adams Gillmore (Gilmore); George H. Blagrove | *Practical Treatise on Limes, Hydraulic Cements, and Mortars (1863) & Compressive Resistance of Freestone, Brick Piers, Hydraulic Cements (1888); Marble Decoration and the Terminology of British and Foreign Marbles (1888)* | 1863-88 | Crushing-machine tests of building stones and cements, and marble sawing and polishing (no scan verified) |
 
 ## Ars Thermica
 
@@ -815,6 +852,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | David Boswell Reid | [*Illustrations of the Theory and Practice of Ventilation*](/view.html?p=documents/books/reid-1844-illustrations-of-ventilation.md) | 1844 | Cross-listed from Acustica |
 | Eugène Péclet | [*Traité de la Chaleur, considérée dans ses Applications*](/view.html?p=documents/books/peclet-1844-traite-chaleur.md) | 1828 | Heat stated as industrial application — the furnace and building trade |
 | Rolla C. Carpenter | [*Heating and Ventilating Buildings*](/view.html?p=documents/books/carpenter-1895-heating-ventilating.md) | 1895 | The building services set as engineering |
+| Jean-Baptiste, Marquis de Chabannes; Neil Arnott | *On Conducting Air by Forced Ventilation, and Regulating the Temperature in Dwellings (1818); On the Smokeless Fire-Place, Chimney-Valves, and Other Means, Old and New, of Obtaining Healthful Warmth and Ventilation (1855)* | 1818 / 1855 | Calorifère warm-air and steam heating of Covent Garden and the House of Commons, and the Arnott slow-combustion thermostatic stove (no scan verified) |
+| Joseph Nason & James J. Walworth; Benjamin Franklin Sturtevant; Robert Briggs | *Small-bore screwed wrought-iron pipe, malleable fittings, globe valves and vertical-tube steam radiators (1841-58); centrifugal fan blowers and hot-blast coil factory heating (1863-80); Steam Heating: An Exposition of the American Practice of Warming Buildings by Steam (1883)* | 1841-83 | The American standard tapered pipe thread (Briggs/NPT), radiator central heating and mechanical fan-coil plenum ventilation (no scan verified) |
 
 ## Ars Pharia
 
@@ -828,6 +867,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Augustin-Jean Fresnel | *Mémoire sur un nouveau système d éclairage des phares* | 1822 | The annular dioptric stepped lens that lit the seas (no scan verified) |
 | Thomas Stevenson | *Lighthouse Construction and Illumination* | 1881 | The lighthouse trade treatise of the third Stevenson (no scan verified) |
 | David Porter Heap | *Ancient and Modern Light-Houses* | 1889 | The American survey of the lighthouse trade (no scan verified) |
+| Aimé Argand; Joseph Teulère | *Découverte des lampes à courant d air et à cylindre (1780-85 hollow-wick double-draught burner with glass chimney); parabolic metallic reflectors and revolving clockwork eclipsing frame for Cordouan Lighthouse (1783-91)* | 1780-91 | Tenfold increase in lamp luminance and the revolving catoptric flashing lighthouse apparatus (no scan verified) |
+| Léonce Reynaud; Émile Allard | *Mémoire sur l éclairage et le balisage des côtes de France (1864); Mémoire sur l intensité et la portée des phares (1876) & Les Phares: Histoire, construction, éclairage (1889)* | 1864-89 | Allard's law of atmospheric luminous transmission and the engineering of the French Lighthouse Service (no scan verified) |
+| James Nicholas Douglass; John Richardson Wigham; Julius Pintsch & Gustaf Dalén | *Concentric multi-wick mineral-oil burners, electric arc optics and the 1882 Eddystone tower (1862-87); Wigham multi-jet crocus gas lighthouse burner (1865-75); Pintsch compressed oil-gas unmanned buoys (1867-78) and Dalén sun-valve/acetylene flasher* | 1862-1900 | High-power multi-wick paraffin burners, gas-lit sea buoys and rock-tower masonry construction (no scan verified) |
 
 ## Ars Silvicultura
 
@@ -845,6 +887,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Bernhard E. Fernow | *Timber: An Elementary Discussion of the Characteristics and Properties of Wood* | 1895 | The American timber properties bulletin (no scan verified) |
 | John Evelyn | [*Sylva; or a Discourse of Forest Trees*](/view.html?p=documents/books/evelyn-1664-sylva.md) | 1664 | The planting trade founded for the timber and naval economy |
 | Henri-Louis Duhamel du Monceau | *L'Art du Charbonnier* | 1761 | The charcoal burner: the mound, the earth and the collier (no scan verified) |
+| Jean-Baptiste Colbert; Georges-Louis Leclerc de Buffon | *Ordonnance des Eaux et Forêts (1669 — French royal forest code and tire et aire regeneration); Mémoires de l Académie on timber strength, bark-stripping and silviculture (1738-42)* | 1669 / 1738-42 | State forest regulation and the first large-scale experimental tests on full-sized structural timber beams (no scan verified) |
+| Johann Christian Hundeshagen; Friedrich Wilhelm Leopold Pfeil; Max Robert Pressler | *Encyclopädie der Forstwissenschaft (1821); Kritische Blätter (1822-59); Der rationelle Waldwirth (1858-59 — Faustmann-Pressler financial rotation formula and the Pressler increment borer)* | 1821-59 | Forest valuation mathematics, net present soil expectation value and non-destructive tree-core growth measurement (no scan verified) |
+| Bernard Lorentz & Adolphe Parade; Lucien Boppe; Gustav Heyer; Karl Gayer; Hermann Nördlinger | *Cours élémentaire de culture des bois (Nancy, 1837); Die Waldertragsregelung (Heyer, 1841); Die Forstbenutzung (1863) & Der Waldbau (Gayer, 1878 — uneven-aged mixed-forest silviculture); Die technischen Eigenschaften der Hölzer (Nördlinger, 1860)* | 1837-78 | The Nancy and Munich silvicultural schools and wood-anatomy mechanical properties (no scan verified) |
+| Dietrich Brandis; Charles Sprague Sargent; Gifford Pinchot | *The Forest Flora of North-West and Central India (1874) and Indian teak working plans; Report on the Forests of North America (1884) & The Silva of North America (1891-1902); A Primer of Forestry (1899)* | 1874-99 | Tropical and North American scientific forest management, yield regulation and dendrology (no scan verified) |
 
 ## Ars Cerea
 
@@ -864,6 +910,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | George Fergusson Wilson (Price's Patent Candle Co.) | *On the Stearic Candle Manufacture* | 1852 | The steam-distilled stearine candle industry at the works (no scan verified) |
 | R. S. Cristiani | *A Technical Treatise on Soap and Candles* | 1881 | The American soap-and-candle trade treatise (no scan verified) |
 | Michael Faraday | [*The Chemical History of a Candle*](/view.html?p=documents/books/faraday-1861-chemical-history-of-a-candle.md) | 1861 | The candle combustion chemistry told to the young (cross-listed from Chimica) |
+| Henri Braconnot; Adolphe de Milly; Friedlieb Ferdinand Runge | *Separation of solid stearin and liquid olein in animal fats (1815); lime-autoclave saponification for non-smoking plaited-wick stearic-acid candles (Bougies de l Étoile, 1831-34); paraffin wax from coal and bitumens (1830-34)* | 1815-34 | The transition from smoky tallow dips to crystalline stearine and paraffin candles with self-snuffing braided wicks (no scan verified) |
+| W. Lawrence Gadd; Julius Lewkowitsch | *Soap Manufacture: A Practical Treatise (1893); Chemical Analysis of Oils, Fats, Waxes, and of the Commercial Products Derived Therefrom (1895)* | 1893 / 1895 | Saponification numbers, iodine values, glycerine recovery from spent soap lyes and Marseilles/curd soap boiling (no scan verified) |
 
 ## Ars Tonaria
 
@@ -941,6 +989,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Statute of Monopolies (21 Jac. I c. 3) | *The English patent statute: the fourteen-year term and the manner of manufacture* | 1624 | The legal frame of the patent trade for two centuries (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Mercier* | 1761-88 | The mercer: the small wares, the thread and the trade (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Perruquier* | 1761-88 | The wig maker: the hair, the mount and the dressing (no scan verified) |
+| Johann Joseph Prechtl & Karl Karmarsch; Charles Laboulaye; Eugène-Oscar Lami | *Technologische Encyklopädie, oder alphabetisches Handbuch der Technologie, der technischen Chemie und des Maschinenwesens (20 vols. + 5 suppl., 1830-69); Dictionnaire des arts et manufactures (Laboulaye, 1845-47); Dictionnaire encyclopédique et biographique de l industrie et des arts industriels (Lami, 9 vols., 1881-91)* | 1830-91 | The monumental German and French multi-volume encyclopedias of 19th-century factory machinery and industrial processes (no scan verified) |
+| Arnold James Cooley; William H. Wahl & William T. Brannt | *A Cyclopaedia of Practical Receipts, and Collateral Information in the Arts, Manufactures, Professions, and Trades (1845); The Techno-Chemical Receipt Book (Brannt & Wahl, 1886)* | 1845 / 1886 | Workshop, laboratory and factory formulas across metallurgy, electroplating, cements, varnishes and dyeing (no scan verified) |
 
 ## Ars Vitraria
 
@@ -957,6 +1007,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | J. de Fontenelle & F. Malepeyre | [*Nouveau Manuel Complet du Verrier et du Fabricant de Glaces*](/view.html?p=documents/books/fontenelle-1853-manuel-du-verrier.md) | 1853 | The French glass practice manual (cross-listed from Manufactura) |
 | Hovestadt, H. | *Jena Glass and its Scientific and Industrial Applications* | 1900 (tr. 1902) | The scientific optical and technical glasses of Jena (1902 boundary scan) |
 | H. Chance | *On the Manufacture of Crown and Sheet Glass* | 1856 | Industrial window glass by cylinder and crown (no scan verified) |
+| Paul Bosc d Antic | *Œuvres de M. Bosc d Antic, contenant plusieurs mémoires sur l art de la verrerie, sur la faïencerie, la poterie* | 1780 | Saint-Gobain director's memoirs on plate-glass founding, coal-fired furnaces and salt-cake batching (no scan verified) |
+| Pierre-Louis Guinand | *Fireclay stirrer rod (guinandage) for homogenising optical flint glass melts at Les Brenets and Benediktbeuern* | 1798-1814 | Elimination of striae and bubbles in heavy lead-flint glass, enabling large achromatic refractor objectives (no scan verified) |
+| James Timmins Chance & Robert Lucas Chance | *Patent plate (ground and polished cylinder sheet glass) and lighthouse dioptric glass works at Smethwick* | 1832-51 | Large-pane cylinder sheet glass for the 1851 Crystal Palace and dioptric lighthouse optics (no scan verified) |
+| Harry J. Powell, Henry Chance & H. G. Harris; John H. Lubbers | *The Principles of Glass-Making (1883); Lubbers mechanical compressed-air window-glass cylinder drawing machine (1898-1903)* | 1883-1900 | British flint, crown and sheet glass manual and the mechanisation of cylinder window-glass blowing (no scan verified) |
 
 ## Ars Lignaria
 
@@ -977,6 +1031,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | S. Worssam | *On Mechanical Saws* | 1867 | The mechanical saw theory applied (no scan verified) |
 | Joseph Moxon | *Mechanick Exercises (Joinery volume)* | 1678–80 | Cross-listed from Typographica |
 | Thomas Tredgold | *Elementary Principles of Carpentry* | 1820 | Cross-listed from Civilis / Architectura |
+| Michael Thonet; Wilhelm Franz Exner | *Steam-bent solid beechwood with steel-strap tensioning patent (1841 / 1856 Chair No. 14); Das Biegen des Holzes (1876) & Die mechanische Technologie des Holzes* | 1841-76 | Industrial steam-bending of solid hardwood under outer-fibre steel tension straps avoiding tensile rupture (no scan verified) |
+| Paul N. Hasluck; John Nisbet | *The Wood Turner's Handybook (1887) & The Cabinet Worker's Handybook (1890); British Forest Trees and Timber* | 1887-93 | Lathe chucks, gouges, mortising, veneering and shop joinery practice (no scan verified) |
 
 ## Ars Fictilia
 
@@ -997,6 +1053,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | F. X. d'Entrecolles (in Du Halde) | *Lettres sur la manufacture de la porcelaine de Chine, in the Description de la Chine* | 1712–22 (ed. 1735) | The Jingdezhen kaolin-petuntse technical letters reported to Europe (no scan verified) |
 | Hermann A. Seger | *The Collected Writings of Hermann August Seger* | 1896 (tr. 1902) | The Seger cone, glaze molecular formulas and scientific kiln control (1902 boundary trans. scanned) |
 | Émile Bourry | *Traité des industries céramiques* | 1897 | Ceramic industries treated as engineering (tr. Rix, 1901) (no scan verified) |
+| Ehrenfried Walther von Tschirnhaus & Johann Friedrich Böttger; Père François Xavier d Entrecolles | *Invention of European hard-paste feldspathic porcelain and Böttger stoneware at Meissen (1707-10); Lettres édifiantes from Jingdezhen on kaolin and petuntse (1712 / 1722)* | 1707-22 | High-temperature European hard-paste porcelain and the Chinese kaolin-petuntse formula revealed (no scan verified) |
+| John Astbury; Josiah Spode | *Calcined flint white salt-glazed stoneware (1720); bone-ash feldspathic English bone china formula (c. 1794-99)* | 1720-99 | White flint-body earthenware and the standard English bone-china paste (no scan verified) |
+| Charles Fergus Binns; Edward Orton Jr.; Heinrich Ries | *Ceramic Technology (1897); pyrometric cones and the Ohio State ceramic engineering curriculum (1894-96); Clays of the United States (1895-1900)* | 1894-1900 | Quantitative ceramic engineering education, standard Orton pyrometric cones and systematic clay testing (no scan verified) |
 
 ## Ars Textilis
 
@@ -1038,6 +1097,16 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art de la Bonneterie* | 1761-88 | The stocking frame and the knitted trade (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Blanchisseur* | 1761-88 | The bleaching of the linen by ley, lye and sun (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Foulon* | 1761-88 | The fulling mill: the cloth, the earth and the hammers (no scan verified) |
+| Charles Tennant | *Chloride of lime (bleaching powder) patent (British Patent 2,312)* | 1799 | Dry bleaching powder that compressed months of grass-bleaching into hours (no scan verified) |
+| John Mercer | *Mercerisation of cotton by caustic alkali treatment (British Patent 13,296) and chromatic dyeing* | 1844-50 | Caustic soda treatment increasing cotton tensile strength, lustre and dye affinity (no scan verified) |
+| Josué Heilmann | *Mechanical rectilinear wool, cotton and silk combing machine patent* | 1845 | The Heilmann comb that separated short noils from long staple fibres mechanically (no scan verified) |
+| Jean-François Persoz | *Traité théorique et pratique de l impression des tissus (4 vols. & atlas with actual dyed fabric swatches)* | 1846 | The master treatise of roller calico printing, mordants, steam colours and discharge styles (no scan verified) |
+| Peter Griess; Otto Nikolaus Witt; Paul Böttiger | *Aromatic diazo compounds (1858); chromophore-auxochrome theory of dyes (1876); Congo Red direct cotton dye (1884)* | 1858-84 | Azo dye chemistry and substantive dyes that coloured unmordanted cotton directly (no scan verified) |
+| Carl Graebe & Carl Liebermann; Heinrich Caro | *Artificial synthesis of alizarin (madder red) from anthracene via anthraquinone sulphonic acid* | 1868-69 | The first natural vegetable dye reproduced synthetically on an industrial scale (no scan verified) |
+| Paul Schützenberger | *Traité des matières colorantes comprenant leurs applications à la teinture et à l impression (2 vols.)* | 1867 | Natural and aniline colouring matters classified by chemical constitution and dyeing method (no scan verified) |
+| John James Hummel; Edmund Knecht, Christopher Rawson & Richard Loewenthal | *The Dyeing of Textile Fabrics (1885); A Manual of Dyeing (3 vols., 1893)* | 1885 / 1893 | Scientific dyeing manuals covering coal-tar dyes, mordanting and dyeing machinery (no scan verified) |
+| Georg von Georgievics; Jacob Herzfeld; Julius Zipser | *Der Indigo (1892) und Lehrbuch der Farbenchemie (1895); Die Praxis der Färberei (1892); Apparate, Geräte und Maschinen der Wäscherei, Bleicherei, Färberei (1894)* | 1892-95 | Central European treatises on dye chemistry, vat dyeing and textile finishing machinery (no scan verified) |
+| James H. Northrop | *Automatic bobbin-changing battery power loom patents (Draper Co., Hopedale)* | 1891-94 | The Northrop automatic loom that replenished weft pirns at full speed without stopping (no scan verified) |
 
 ## Ars Typographica
 
@@ -1067,6 +1136,12 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Giambattista Bodoni | [*Manuale Tipografico*](/view.html?p=documents/books/bodoni-1818-manuale-tipografico.md) | 1788 (ed. 1818) | The specimen book of the modern face — the typefounder's manual |
 | Society of Arts (premium committee) | *Report on the Forgery of Bank Notes* | 1819 | The premium for an unforgeable note that set siderography in motion (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Relieur* | 1761-88 | The binder: the sewing, the backing and the cover (no scan verified) |
+| Martin-Dominique Fertel; François-Ambroise & Pierre Didot | *La Science pratique de l imprimerie (1723 — first French printer's manual); the Didot typographic point system, smooth wove paper and stereotype plates (1775-98)* | 1723-98 | Presswork imposition and the Didot point system of type measurement (no scan verified) |
+| Charles, 3rd Earl Stanhope; Edward Cowper & Augustus Applegath; William Bullock | *All-iron compound-lever Stanhope hand press (1800); curved-plate multi-cylinder steam newspaper presses (1818-48); continuous roll-fed web rotary perfecting press (1863-65)* | 1800-65 | From the iron hand press to the continuous web-fed rotary newspaper printing press (no scan verified) |
+| Charles Joseph Hullmandel; Godefroy Engelmann | *The Art of Drawing on Stone (1824) and lithotint; Chromolithographie patent and album (1837-38)* | 1824-38 | Tonal lithography and multi-stone colour chromolithography (no scan verified) |
+| Thomas MacKellar; J. Luther Ringwalt; Theodore Low De Vinne | *The American Printer: A Manual of Typography (1866); American Encyclopaedia of Printing (1871); The Invention of Printing (1876) & The Practice of Typography (1899-1902)* | 1866-1900 | Standard American job- and book-printing manuals, point-body type systems and dry-paper hard-packing presswork (no scan verified) |
+| Linn Boyd Benton; Tolbert Lanston | *Self-spacing type and pantographic punch-cutting machine (1884-85); Monotype perforated-paper-tape hot-metal single-type composing and casting machine (1887-97)* | 1884-97 | Pantographic matrix cutting that made Linotype/Monotype matrices possible, and tape-driven Monotype composition (no scan verified) |
+| Joseph William Zaehnsdorf; Douglas Cockerell | *The Art of Bookbinding: A Practical Treatise (1880); Bookbinding, and the Care of Books (1901 boundary)* | 1880-1901 | Forwarding, sewing, headbanding, marbling, gold tooling and archival conservation binding (no scan verified) |
 
 ## Ars Papyrologica
 
@@ -1083,6 +1158,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Benjamin Chew Tilghman | *Sulphite wood-pulp patent* | 1867 | The wood dissolved into pulp by the sulphite process (no scan verified) |
 | Joseph-Jérôme Lefrançais de Lalande | *L'Art de Faire le Parchemin* | 1762 | The parchment: the skin, the lime and the scraper (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Cartonnier* | 1761-88 | The pasteboard and the carton trade (no scan verified) |
+| Ulman Stromer; Jacob Christian Schäffer; Matthias Koops | *Püchel von mein geslecht und von abentewr (1390 Nuremberg water-powered rag-stamping paper mill); Versuche und Muster ohne alle Lumpen Papier zu machen (1765-71 wood, wasp-nest, straw & moss paper samples); Historical Account of the Substances Used to Describe Events... Printed on the First Useful Paper Manufactured Solely from Straw and Wood (1800-01, de-inking and straw/wood-pulp patents)* | 1390-1801 | First European paper-mill record and the 18th-century experimental discovery of wood, straw and recycled de-inked paper (no scan verified) |
+| John Dickinson; Charles Watt & Hugh Burgess; Carl Daniel Ekman; Alexander Mitscherlich; Carl Ferdinand Dahl | *Cylinder-mould paper machine (1809); soda chemical wood-pulp process (1851-54); magnesium and calcium bisulphite pulp processes (Ekman & Mitscherlich, 1872-74); sulphate / Kraft pulp process (Dahl, 1879-84)* | 1809-84 | The cylinder board machine and the three industrial chemical wood-pulping processes: soda, sulphite and Kraft (no scan verified) |
+| A. Proteaux; Charles Frederick Cross, Edward John Bevan & R. W. Sindall | *Practical Guide for the Manufacture of Paper and Boards (1866); A Text-Book of Paper-Making (1888) and Paper Technology* | 1866 / 1888 | Cellulose chemistry, beating, sizing, calendering and fibre microscopy of modern papermaking (no scan verified) |
 
 ## Ars Energia
 
@@ -1167,6 +1245,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Armand Seguin | *Rapport sur la nouvelle méthode de tanner les cuirs* | 1795 | The rapid-tanning method reported to the Académie (no scan verified) |
 | Jan E. Matzeliger | *Shoe-lasting machine patent* | 1883 | The mechanized shoe lasting (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Gantier* | 1761-88 | The glover: the skin, the cut and the stitching (no scan verified) |
+| Jean-Sébastien-Eugène Julia de Fontenelle; Jackson S. Schultz; Augustus Schultz; Henry Trimble | *Manuel complet du tanneur, du corroyeur, de l hongroyeur et du boyaudier (1828); The Leather Manufacture in the United States (1876); two-bath chromic-acid mineral tanning patents (1884); The Tannins (2 vols., 1892-94)* | 1828-94 | American hemlock-bark tannery machinery, the invention of rapid chrome tanning and tannin chemistry (no scan verified) |
 
 ## Ars Cibaria
 
@@ -1258,6 +1337,12 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Savonnier* | 1761-88 | The soap boiler: the ley, the tallow and the frame (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Vigneron* | 1761-88 | The vine, the press and the vintage of the French trade (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Jardinier* | 1761-88 | The kitchen garden, the frames and the forcing beds (no scan verified) |
+| Andreas Sigismund Marggraf; Antoine-Augustin Parmentier | *Expériences chymiques faites dans le dessein de tirer un véritable sucre de diverses plantes (1747 — sucrose extracted from beets); Examen chymique des pommes de terre (1773) & Le Parfait Boulanger, ou Traité complet sur la fabrication et le commerce du pain (1778)* | 1747-78 | Discovery of beet sugar and the scientific chemistry of milling, yeast leavening and bread baking (no scan verified) |
+| Pierre-Antoine-Ernest Fastier; William Underwood; Raymond Chevallier-Appert | *Calcium-chloride and brine boiling-bath high-temperature canning (Fastier 1839; Solomon/Underwood 1861); Autoclave à manomètre (Chevallier-Appert 1851-52 patent for superheated steam retort sterilisation with pressure-temperature gauge)* | 1839-61 | High-temperature pressurized retort canning above 100 °C that destroyed heat-resistant bacterial spores (no scan verified) |
+| Bartholomew Sykes; Aeneas Coffey; Désiré Savalle; Robert Ilges | *Sykes hydrometer and tables of excise spirit proof (1816); Coffey two-column analyser-and-rectifier continuous patent still (British Patent 5,974 of 1830); Savalle steam-regulated continuous rectifying columns (1857-76); Ilges automatic mash-and-spirit column (1873)* | 1816-76 | Continuous counter-current fractional distillation of neutral grain and beet spirits and fiscal alcoholometry (no scan verified) |
+| Louis Walkhoff; Carl Scheibler; Karl Stammer; Edme-Jules Maumené | *Der praktische Rübenzuckerfabrikant (1857); Scheibler polarimetry, strontianite desugarisation of molasses and Soxhlet/Scheibler laboratory apparatus (1860-80); Lehrbuch der Zuckerfabrikation (1874); Traité théorique et pratique de la fabrication du sucre (1876-78)* | 1857-80 | Carbonatation, bone-char filtration, optical saccharimetry and molasses recovery in the beet-sugar factory (no scan verified) |
+| Carl J. Lintner; Julius E. Thausing; Emil Christian Hansen; Alfred Jørgensen | *Lehrbuch der Bierbrauerei (Lintner, 1877 — diastatic power scale); Die Theorie und Praxis der Malzbereitung und Bierfabrikation (Thausing, 1877); Undersøgelser over Alkoholgjærsvampenes Fysiologi og Morfologi (Hansen, 1883 — single-cell pure yeast culture at Carlsberg); Die Mikroorganismen der Gärungsindustrie (Jørgensen, 1886)* | 1877-86 | Enzymatic diastase measurement and pure single-cell yeast cultivation that eliminated wild-yeast beer spoilage (no scan verified) |
+| Franz von Soxhlet; Stephen Moulton Babcock; Wilhelm Fleischmann; Alexander Wynter Blyth; Wilbur Olin Atwater | *Soxhlet continuous reflux solvent fat extractor (1879) and infant-milk pasteuriser (1886); Babcock butterfat test and Fleischmann dairy chemistry; Foods: Their Composition and Analysis (Blyth, 1882); Investigations on the Chemistry and Economy of Food (Atwater, 1895 — human respiration calorimeter and physiological fuel values)* | 1879-95 | Quantitative food proximate analysis, fat extraction and human caloric energetics (no scan verified) |
 
 ## Ars Acustica
 
@@ -1303,6 +1388,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Theobald Boehm; Adolphe Sax | *Über den Flötenbau (Boehm linkage); saxophone patents* | 1847 / 1846 | The Boehm keywork and the saxophone mechanism carry the woodwind trade (no scan verified) |
 | Athanasius Kircher | [*Musurgia Universalis*](/view.html?p=documents/books/kircher-1650-musurgia-universalis.md) | 1650 | Acoustics, the organ, the speaking automata and the composition machines |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Boyaudier* | 1761-88 | The gut-string maker: the intestines of the violin and the harp (no scan verified) |
+| Jean-Baptiste Biot | *Expériences sur la propagation du son à travers les corps solides (Mémoires d Arcueil — 951 m cast-iron water main)* | 1808-09 | First direct measurement of the velocity of sound in a solid metal pipe relative to air (no scan verified) |
 
 ## Ars Campanaria
 
@@ -1318,6 +1404,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | H. T. Ellacombe | *Practical Remarks on Belfries and Ringers* | 1859–72 | The bell-hanging and chiming trade described by the Devon rector (no scan verified) |
 | Arthur B. Simpson (authorized by John Taylor & Co.) | *On Bell Tones and the five-tone harmonic tuning* | 1895–96 | The Loughborough harmonic tuning of bells (no scan verified) |
 | Mears & Stainbank (Whitechapel) / John Warner & Sons | *Bell founders' illustrated catalogues* | 1880s–90s | The London bell foundry catalogue trade (no scan verified) |
+| Heinrich Otte; William C. Lukis; Charles A. W. Troyte; John James Raven | *Glockenkunde (1858/84); An Account of Church Bells (1857); Change Ringing (1869); The Bells of England* | 1857-84 | Bell profile acoustics, tin-copper alloy founding, timber belfry frames and full-circle change ringing (no scan verified) |
 
 ## Ars Telluris
 
@@ -1373,6 +1460,21 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jean-Rodolphe Leschot | *Rotary annular diamond core drill patents* | 1862–63 | The diamond-core drilling trade begun (no scan verified) |
 | Edwin L. Drake | *Cable-tool oil-well rig and drive-pipe trade (Titusville)* | 1859 | The first oil well derrick and cable-tool system (no scan verified) |
 | John Franklin Carll | [*The Geology of the Oil Regions... with Descriptions of Oil Well Rig and Tools*](/view.html?p=documents/books/carll-1880-geology-oil-regions.md) | 1880 | The oil-well engineering manual with derrick plates |
+| Georg Engelhard von Löhneyss | *Bericht vom Bergwerck* | 1617 | Harz mining machinery, timbering, water-wheels and smelting furnaces in folio plates (no scan verified) |
+| Henning Calvör | *Acta Historico-Chronologico-Mechanica circa Metallurgiam in Hercynia Superiori* | 1763 | The Upper Harz water-power reservoirs, Stangenkunst rod-engines and hoisting gear (no scan verified) |
+| Christoph Traugott Delius | *Anleitung zu der Bergbaukunst nach ihrer Theorie und Ausübung* | 1773 | The Schemnitz Mining Academy textbook of underground mining, ventilation and ore dressing (no scan verified) |
+| Antoine-Marie Héron de Villefosse | *De la richesse minérale (3 vols. & atlas)* | 1810-19 | Napoleonic survey of European mines, steam pumping engines and metallurgical works (no scan verified) |
+| John Budge | *The Practical Miner's Guide* | 1825 | Cornish mine dialling, trigonometric shaft-and-adit surveying and assaying tables (no scan verified) |
+| Charles Combes | *Traité de l exploitation des mines (3 vols. & atlas)* | 1844-45 | The École des Mines treatise on boring, tubbing, ventilation fans and mechanical haulage (no scan verified) |
+| Moritz Ferdinand Gaetzschmann | *Vollständige Anleitung zur Bergbaukunst (Aufsuchung, Gewinnung, Aufbereitung)* | 1846-72 | The Freiberg treatise on prospecting, rock breaking and mechanical ore dressing (no scan verified) |
+| Warington Wilkinson Smyth | *A Treatise on Coal and Coal-Mining* | 1867 | British colliery practice: longwall and pillar working, safety lamps and winding gear (no scan verified) |
+| Peter Ritter von Rittinger | *Lehrbuch der Aufbereitungskunde in ihrer neuesten Entwicklung und Ausbildung* | 1867 | Mineral dressing founded as a quantitative science — Rittinger's comminution law, classifiers and shaking tables (no scan verified) |
+| Jules Callon | *Cours d exploitation des mines (3 vols. & atlas)* | 1873-78 | Systematic French mining engineering course from shaft sinking to compressed-air haulage (no scan verified) |
+| Albert Serlo | *Leitfaden zur Bergbaukunde (2 vols.)* | 1869 / 1884 | Prussian mining practice across coal, iron, salt and deep metal mines (no scan verified) |
+| Friedrich Hermann Poetsch | *Das Gefrierverfahren: Methode für Abteufen von Schächten in schwimmendem Gebirge* | 1883-86 | Artificial ground-freezing (Poetsch process) for sinking shafts through water-bearing quicksand (no scan verified) |
+| Julien Haton de la Goupillière | *Cours d exploitation des mines (2 vols.)* | 1883-85 | Mathematical and mechanical analysis of mine hoisting, pumping, ventilation and drainage (no scan verified) |
+| Gustav Köhler | *Lehrbuch der Bergbaukunde* | 1884 | Clausthal textbook of rock-drill machinery, wire-rope winding and ore dressing (no scan verified) |
+| František Pošepný (Posepny); Raphael Pumpelly | *The Genesis of Ore-Deposits (Trans. AIME); Geological and mining surveys* | 1870-93 | Hydrothermal ore-deposit theory and quantitative economic geology (no scan verified) |
 
 ## Ars Architectura
 
@@ -1411,6 +1513,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Doublette Desbois | *L'Art du Vitrier* | 1761-88 | The glazier: the crown and cylinder glass cut and leaded (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Plombier* | 1761-88 | The plumber: the lead sheet, the pipe and the cistern (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Miroitier* | 1761-88 | The mirror works: the casting table, the grinding and the silvering (no scan verified) |
+| Giacomo Barozzi da Vignola; Vincenzo Scamozzi | *Regola delli cinque ordini d architettura (1562); L Idea della Architettura Universale (1615)* | 1562 / 1615 | Modular proportional rules of the classical orders and Renaissance structural construction practice (no scan verified) |
+| Louis Savot; Claude Perrault; Henri Gautier | *L Architecture françoise des bastimens particuliers (1624 — smoky-chimney flues and floor framing); Ordonnance des cinq espèces de colonnes (1683); Traité des ponts (1716) et Traité de la construction des chemins (1693 — first modern treatise on highway and masonry bridge construction)* | 1624-1716 | Domestic heating flues, long-span timber/iron Louvre colonnade tie-rods and the founding French road and bridge manuals (no scan verified) |
+| Jean-Charles Krafft; Gottfried Semper | *Plans, coupes et élévations de diverses productions de l art de la charpente (1805 — laminated timber arches and trusses); Der Stil in den technischen und tektonischen Künsten, oder Praktische Ästhetik (2 vols., 1860-63)* | 1805 / 1860-63 | Measured corpus of European timber engineering and the material-tectonic theory of building crafts (no scan verified) |
+| Frank Eugene Kidder; William H. Birkmire; Joseph K. Freitag | *The Architect's and Builder's Pocket-Book (Kidder, 1885); Skeleton Construction in Buildings (Birkmire, 1893) & The Planning and Construction of High Office-Buildings (1898); Architectural Engineering, with Special Reference to High Building Construction (Freitag, 1895) & The Fireproofing of Steel Buildings (1899)* | 1885-99 | The Chicago and New York riveted steel-frame skyscraper manuals: wind-bracing portals, hollow-tile fireproofing and grillage foundations (no scan verified) |
 
 ## Ars Transportaria
 
@@ -1470,6 +1576,18 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Charron* | 1761-88 | The wheelwright: the felloe, the spoke and the iron tyre (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Sellier* | 1761-88 | The saddler: the tree, the panel and the harness (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Maréchal* | 1761-88 | The farrier-smith: the shoe, the forge and the horse (no scan verified) |
+| John Blenkinsop; William Hedley; Timothy Hackworth | *Rack-rail locomotive (1811); Puffing Billy adhesion trials (1813); Royal George blast-pipe locomotive (1827)* | 1811-27 | Adhesion traction proved on smooth iron rails and steam-blast draught established (no scan verified) |
+| Marc Seguin | *De l influence des chemins de fer et de l art de les tracer et de les construire; multi-tubular fire-tube boiler patent* | 1827 / 1839 | The multi-tubular locomotive boiler and French railway location engineering (no scan verified) |
+| Charles Blacker Vignoles; Joseph Locke | *Flat-bottomed Vignoles rail (1836); double-headed bullhead rail in cast-iron chairs and steep-gradient location* | 1835-45 | Standard permanent-way rail sections and direct trunk-line engineering (no scan verified) |
+| Daniel Gooch; Thomas Russell Crampton | *Great Western broad-gauge express locomotives (1840-47); Crampton low-boiler rear-driver high-speed locomotive (1842-49)* | 1840-49 | High-speed stable steam locomotive proportions and Stephenson link-motion testing (no scan verified) |
+| Égide Walschaerts; Edmund Heusinger von Waldegg; David Joy | *Radial locomotive valve-gear patents and treatises (Walschaerts 1844; Heusinger 1849; Joy 1879)* | 1844-79 | External radial valve gears that replaced eccentric link motions on heavy locomotives (no scan verified) |
+| Daniel Kinnear Clark | *Railway Machinery: A Treatise on the Mechanical Engineering of Railways (2 vols.)* | 1855 | Indicator trials, cylinder condensation, counterbalancing and rolling-stock resistance (no scan verified) |
+| John Saxby & John Stinson Farmer; William Robinson | *Interlocking points-and-signals patent (1856); closed-track-circuit automatic block signal patent (1872)* | 1856 / 1872 | Mechanical signal interlocking and fail-safe electrical track-circuit signalling (no scan verified) |
+| John Ramsbottom; William Stroudley | *Track water-trough scoop (1860), split piston rings and safety valves; Brighton locomotive standardisation* | 1855-85 | Non-stop water pickup, metallic packing and workshop standardisation of rolling stock (no scan verified) |
+| George Mortimer Pullman; Eli Hamilton Janney | *Pullman sleeping-car bogie and vestibule patents (1864-87); Janney automatic knuckle car-coupler patent (U.S. 138,405, 1873)* | 1864-87 | Long-distance passenger car framing and the standard automatic safety knuckle coupler (no scan verified) |
+| Niklaus Riggenbach; Roman Abt; Anatole Mallet | *Riggenbach ladder rack (1863-71); Abtlamellar rack rail (1882); Mallet articulated compound locomotive (1876 / 1887)* | 1863-87 | Mountain rack-and-pinion railways and articulated compound mountain steam locomotives (no scan verified) |
+| Matthias N. Forney | *Catechism of the Locomotive* | 1875 | The standard American handbook of locomotive construction, valve setting and running repair (no scan verified) |
+| Arthur Mellen Wellington | *The Economic Theory of the Location of Railways* | 1877 / 1887 | Quantitative engineering economics of ruling gradients, curvature, haulage cost and traffic volume (no scan verified) |
 
 ## Ars Funalis
 
@@ -1533,6 +1651,17 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Aḥmad ibn Mājid | *Kitab al-Fawaid fi Usul Ilm al-Bahr (Indian Ocean navigation)* | c. 1490 | The kamal and monsoon trade navigated by the Arab pilot (no scan verified) |
 | John Charnock | *An History of Marine Architecture* | 1800-02 | The historical survey of the ship and its building (no scan verified) |
 | William Fairbairn | *Treatise on Iron Ship Building* | 1865 | The iron hull argued from the testing house (no scan verified) |
+| Paul Hoste | *L Art des armées navales, ou Traité des évolutions navales; Théorie de la construction des vaisseaux* | 1697 | Naval tactics paired with the first mathematical treatise on ship stability, stowage and hull form (no scan verified) |
+| Pierre Bouguer | *Traité du navire, de sa construction, et de ses mouvemens* | 1746 | The metacentre defined and calculated — hydrostatics and stability of floating bodies founded (no scan verified) |
+| Leonhard Euler | *Scientia Navalis, seu Tractatus de Construendis ac Dirigendis Navibus (2 vols.)* | 1749 | Rational fluid mechanics and rigid-body dynamics of ship equilibrium, rolling and pitching (no scan verified) |
+| Henri-Louis Duhamel du Monceau | *Éléments de l architecture navale, ou Traité pratique de la construction des vaisseaux* | 1752 | The French dockyard textbook of ship draughting, timber scantlings and hull framing (no scan verified) |
+| Jorge Juan y Santacilia | *Examen marítimo, théorico práctico, ó Tratado de mechanica aplicado á la construccion, conocimiento y manejo de los navíos* | 1771 | Spanish mathematical naval architecture, wave resistance and structural hogging analysis (no scan verified) |
+| Charles Dupin | *Applications de géométrie et de méchanique, à la marine, aux ponts et chaussées (surfaces of buoyancy and flotation)* | 1822 | Differential geometry of the curves of buoyancy and metacentric stability at large angles of heel (no scan verified) |
+| Francis Pettit Smith; John Ericsson | *Marine screw-propeller patents (British Patents 7,104 and 7,149 of 1836; Archimedes and Princeton trials)* | 1836-43 | Submerged screw propulsion replacing the paddle-wheel in merchant and naval steamships (no scan verified) |
+| John Penn; John Elder & Charles Randolph | *Trunk marine steam engines and lignum-vitae stern-tube bearings (1845-54); marine compound double-expansion engines (1854)* | 1845-60 | Water-lubricated propeller shaft bearings and coal-saving compound marine steam machinery (no scan verified) |
+| John Isaac Thornycroft; Alfred Fernandez Yarrow; Jacques-Augustin Normand | *High-speed torpedo boats, water-tube marine boilers and hull balancing papers (Trans. INA)* | 1873-95 | Forced-draught water-tube boilers and high-speed light-scantling steel hulls (no scan verified) |
+| Richard Sennett & Henry J. Oram | *The Marine Steam Engine: A Treatise for the Use of Engineering Students and Officers of the Royal Navy* | 1882 / 1898 | Triple-expansion engines, Belleville and Yarrow water-tube boilers and Parsons marine turbines (no scan verified) |
+| John Harvard Biles; Aleksei Nikolaevich Krylov; David Watson Taylor | *Strength of ships in waves (1893); Theory of ship pitching and rolling in a seaway (1896-98); Resistance of Ships and Screw Propulsion (1893)* | 1893-98 | Longitudinal bending moments on waves, seakeeping dynamics and model-basin propeller design (no scan verified) |
 
 ## Ars Photographia
 
@@ -1566,6 +1695,11 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Auguste & Louis Lumière | *Cinématographe apparatus and papers* | 1895–1901 | The moving picture trade at the Society trade (notice scan available at Société Lumière, 1901) |
 | W. K. L. Dickson (Edison) | *Kinetoscope apparatus* | 1891–94 | The penny demo of the moving image (boundary) |
 | Gabriel Lippmann | *La photographie des couleurs (Comptes Rendus — stationary light-wave interference colour photography)* | 1891 | True-colour photography without pigments by standing-wave interference in a mercury-backed emulsion (no scan verified) |
+| Johann Heinrich Schulze; Hippolyte Bayard; Louis-Désiré Blanquart-Evrard | *Scotophorus silver-salt light sensitivity experiment (1727); direct positive paper prints (1839); albumen printing-out paper and industrial photographic publishing house at Lille (1847-51)* | 1727-1851 | Discovery of silver halide photochemistry, direct positives and mass-printed albumen photographic plates (no scan verified) |
+| Alphonse Poitevin; Walter Bentley Woodbury; Thomas Sutton; Désiré van Monckhoven | *Carbon pigment and collotype bichromated gelatin processes (1855); Woodburytype continuous-tone lead-mould relief press printing (1864); single-lens reflex camera (1861); Traité général de photographie (1856)* | 1855-64 | Permanent pigment prints, photomechanical collotype/Woodburytype reproduction and SLR optics (no scan verified) |
+| Ferdinand Hurter & Vero Charles Driffield | *Photochemical Investigations and a New Method of Determination of the Sensitiveness of Photographic Plates (J. Soc. Chem. Ind.)* | 1890 | Quantitative sensitometry founded — the H&D characteristic curve, density, exposure, gamma and film speed (no scan verified) |
+| Georg Meisenbach; Frederic Eugene Ives; Max & Louis Levy; Karel Klíč (Klic) | *Autotype cross-line halftone screen patent (1882); cross-line optical halftone and Kromskop three-colour photography (1881-92); etched glass halftone screens (1890); photogravure dust-grain and rotogravure cylinder etching (1879 / 1890)* | 1879-92 | Halftone photoengraving and rotogravure that allowed photographs to be printed alongside type on high-speed presses (no scan verified) |
+| Hannibal Goodwin; Émile Reynaud; William Friese-Greene; W. K. L. Dickson & Charles Francis Jenkins | *Transparent flexible nitro-cellulose roll-film patent (filed 1887); Théâtre Optique perforated-band projection (1888); celluloid chronophotographic cameras (1889); 35 mm perforated Kinetograph/Phantoscope intermittent projectors (1891-95)* | 1887-95 | Flexible celluloid film strip, 35 mm Sprocket perforation and intermittent-motion cinema projection (no scan verified) |
 
 ## Ars Aeronautica
 
@@ -1589,6 +1723,13 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | William Samuel Henson & John Stringfellow | *Aerial Steam Carriage papers and patents* | 1842–48 | The power-loyal flying machine proposal (no scan verified) |
 | Horatio Phillips | *Laminated aerofoil papers and patents* | 1884–91 | The curved-wing lift trade (no scan verified) |
 | Lawrence Hargrave | *Cellular kite and rotary-engine papers* | 1884–99 | The box kite and the Australian trades (no scan verified) |
+| Francesco Lana de Terzi; Bartolomeu Lourenço de Gusmão | *Prodromo overo saggio di alcune inventioni nuove (1670 evacuated copper-sphere airship); Passarola hot-air model (1709)* | 1670 / 1709 | First physical calculation of lighter-than-air aerostatic lift and first model hot-air ascent (no scan verified) |
+| Jean-Baptiste Marie Meusnier de la Place | *Mémoire sur l équilibre des machines aérostatiques (ballonnet altitude control, elongated envelope and airscrew propulsion)* | 1784 | Founding engineering design of the dirigible airship: internal air ballonnet and hand-cranked propellers (no scan verified) |
+| Henri Giffard; Henri Dupuy de Lôme; Gaston & Albert Tissandier | *Steam-driven dirigible airship (1852); manpower naval dirigible stability trials (1872); electric-battery dirigible (1883)* | 1852-83 | Propulsion, suspension rigging and longitudinal stability of elongated aerostats (no scan verified) |
+| Charles Renard & Arthur Constantin Krebs | *Sur un aérostat dirigeable (La France — first closed-circuit controllable dirigible flight, Chalais-Meudon)* | 1884 | First powered airship to return to its point of departure against the wind (no scan verified) |
+| Alphonse Pénaud; Louis-Pierre Mouillard | *Planophore rubber-driven inherently stable monoplane (1871) & patent (1876); L Empire de l air (1881 — wing-warping and soaring)* | 1871-81 | Longitudinal tailplane dihedral stability and bird-soaring aerodynamics (no scan verified) |
+| Clément Ader; Percy Sinclair Pilcher | *Éole and Avion steam-powered bat-wing aircraft trials (1890-97); Hawk and Bat hang-gliders and towed launches (1895-99)* | 1890-99 | Full-scale lightweight steam aero-engines and wheeled monoplane glider flight (no scan verified) |
+| Ferdinand Graf von Zeppelin; Konstantin Eduardovich Tsiolkovsky | *Rigid aluminium-truss multi-cell airship (LZ 1, 1895-1900); Aerostat Metallicheskii (all-metal dirigible & wind-tunnel drag measurements, 1892-97)* | 1892-1900 | Rigid-frame multi-gasbag airships and systematic aerodynamic skin-friction testing (no scan verified) |
 
 ## Ars Automobilis
 
@@ -1612,6 +1753,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Herbert Akroyd Stuart | *Oil-engine patents and papers* | 1890–92 | The hot-bulb oil engine (no scan verified) |
 | Walter Hancock | *Enterprise: Steam Carriages and Papers* | 1829–40 | The London steam carriage trade (no scan verified) |
 | William Dent Priestman | *Priestman heavy-oil spray-vaporizer engine patents and papers* | 1885-88 | The first commercial kerosene/heavy-oil internal-combustion engine (no scan verified) |
+| Albert de Dion & Georges Bouton; Émile Levassor & René Panhard | *High-speed light steam and petrol engines and De Dion tube axle (1883-95); Système Panhard front-engine rear-drive sliding-gear chassis (1891)* | 1883-95 | The high-speed single-cylinder petrol engine and the modern automobile powertrain layout (no scan verified) |
+| Charles E. & J. Frank Duryea; George B. Selden; Elwood Haynes; Ransom E. Olds; Alexander Winton | *Spray-carburettor gasoline motor wagons and early American production automobiles (Selden patent U.S. 549,160 of 1879/95)* | 1879-99 | Founding American gasoline automobile engineering and series production (no scan verified) |
+| Frederick William Lanchester | *Balanced twin-cylinder engine, epicyclic gearbox, worm drive, wick carburettor and cantilever suspension patents* | 1895-99 | First scientifically vibration-balanced automobile designed from first principles (no scan verified) |
+| Robert Bosch & Gottlob Honold | *Low-voltage (1887/97) and high-voltage (1901-02) magneto-electric spark ignition for internal-combustion engines* | 1887-1902 | Reliable magneto ignition that replaced open hot-tube burners on high-speed petrol engines (no scan verified) |
 
 ## Ars Velocipedica
 
@@ -1630,6 +1775,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Kirkpatrick Macmillan / Pierre Lallement | *Pedal-velocipede claims and patents* | 1839 / 1863 | The trade of the pedal crank claims (no scan verified) |
 | James Starley | *The Ariel high-wheel bicycle* | 1871 | The silver Ariel trade and the chain mechanism (no scan verified) |
 | Édouard & André Michelin | *Detachable pneumatic tyre patent* | 1891 | The detachable pneumatic cycle and car tyre (no scan verified) |
+| Pierre Michaux & Pierre Lallement; Eugène Meyer; James Starley | *Front-crank pedal velocipede (1861-66); wire-spoked tension wheel and high-wheel ordinary bicycle (1869-70); tangent-spoke wheel (1874) and differential gear (1877)* | 1861-77 | The tension-spoked wire wheel, tangent lacing and bevel-gear differential (no scan verified) |
+| Henry John Lawson; John Kemp Starley; William Bown | *Bicyclette rear-chain-drive safety bicycle (1879); Rover diamond-frame safety bicycle (1885); Aeolus adjustable ball bearings (1877)* | 1877-85 | The chain-driven equal-wheel diamond-frame safety bicycle and cup-and-cone ball bearings (no scan verified) |
+| R. P. Scott; Thomas Magee | *Cycling Art, Energy and Locomotion (1889); chapters on velocipede mechanics and rolling resistance* | 1889 | Mechanical analysis of rider power, gear ratios, frame stresses and pneumatic tyre rolling loss (no scan verified) |
 
 ## Ars Consutoria
 
@@ -1643,6 +1791,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
 | Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
 | Barthélemy Thimonnier | *Chain-stitch sewing machine patent* | 1830 | The first working sewing machine (no scan verified) |
+| William Lee; Arthur Paget | *Stocking-frame hand knitting machine with bearded needles (1589); self-acting steam-driven warp and shaped-garment knitting machines (1857-61)* | 1589 / 1857-61 | The bearded-needle knitting frame and the mechanised power hosiery loom (no scan verified) |
+| Walter Hunt; Allen B. Wilson; James E. A. Gibbs & Charles Willcox | *Eye-pointed needle and shuttle lock-stitch machine (1833-34); rotary hook and four-motion feed-dog patents (1850-54); twisted-loop single-thread chain-stitch machine (1857)* | 1833-57 | The four-motion fabric feed dog, the rotary shuttle hook and the high-speed Willcox & Gibbs stitcher (no scan verified) |
 
 ## Ars Computatoria
 
@@ -1675,6 +1825,12 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping sets the ledger as a science (cross-listed from Mediaevalia) |
 | Emile Garcke & J. M. Fells | *Factory Accounts: Their Principles and Practice* | 1887 | The industrial cost accounting trade manual (no scan verified) |
 | Simon Stevin | *Vorstelicke Bouckhouding (double-entry bookkeeping in Dutch)* | 1607 | The Italian method carried into the Dutch prince's account (no scan verified) |
+| Henry Briggs; Samuel Morland; Giovanni Poleni | *Arithmetica Logarithmica (1624 base-10 tables); New and Most Useful Instrument for Addition and Subtraction (1666); De Castellis... et Machina Arithmetica (1709 pinwheel calculator)* | 1624-1709 | Common logarithms and the first pocket-dial and pinwheel-weight mechanical calculators (no scan verified) |
+|  Philipp Matthäus Hahn; Charles, 3rd Earl Stanhope; Charles Xavier Thomas de Colmar | *Stepped-drum circular calculator (1770-74); Stanhope calculators and logic demonstrator (1775-80); Arithmomètre (1820)* | 1770-1820 | The Thomas Arithmomètre — the first commercially manufactured four-function digital calculator (no scan verified) |
+| Martin Wiberg; Willgodt Theophil Odhner; Frank Stephen Baldwin | *Logarithmic difference-engine table printer (1860-75); pinwheel arithmometer patents (1873-78); Baldwin calculator (1875)* | 1860-78 | Compact pinwheel desk calculators and automatic stereotype table-printing difference engines (no scan verified) |
+| Dorr E. Felt; William Seward Burroughs; Léon Bollée; Otto Steiger | *Comptometer key-driven adder (1886); Burroughs recording and printing adding machine (1888); direct-multiplication tabulating calculators (Bollée 1889; Millionaire 1892)* | 1886-93 | Key-driven high-speed addition, paper-tape printing accounting machines and single-turn hardware multiplication (no scan verified) |
+| George Boole; John Venn; Allan Marquand | *An Investigation of the Laws of Thought (1854); Symbolic Logic (1881); mechanical and electrical relay logic machines (1881-85)* | 1854-85 | Boolean two-valued algebra and mechanical/electromagnetic logic-inference machines (no scan verified) |
+| Bruno Abdank-Abakanowicz; Gottlieb Coradi; Olaus Henrici | *Les Intégraphes: La courbe intégrale et ses applications (1886); precision disc-and-sphere rolling planimeters and harmonic analysers (1880-94)* | 1880-94 | Continuous mechanical integraphs drawing the integral curve and multi-term Fourier harmonic analysers (no scan verified) |
 
 ## Ars Molendinaria
 
@@ -1687,6 +1843,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | B. S. Williams & Co. | [*Illustrated Catalogue of Wind-Mills, Pumps, Tanks, etc.*](/view.html?p=documents/books/williams-1884-windmill-catalogue.md) | 1884 | The American wind engine as a manufactured farm system |
 | John Smeaton | [*An Experimental Enquiry Concerning the Natural Powers of Water and Wind*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The water- and wind-wheel experiments (cross-listed from Energia) |
 | Poul la Cour | *The wind turbine and the wind-driven dynamo* | 1890s | The windmill turned into an electricity generator (no scan verified) |
+| Pieter Linperch; Leendert van Natrus, Jacob Polley & Cornelis van Zyl; Johannis van Zyl | *Architectura Mechanica, of Moole-Boek (1727); Groot Volkomen Moolenboek (1734-36); Theatrum Machinarum Universale, of Groot Algemeen Moolen-Boek (1761)* | 1727-61 | The great Dutch measured-drawing folio atlases of polder-drainage scoop-wheel, wind-sawmill, oil, paper and corn windmills (no scan verified) |
+| Jacob Sulzberger; Friedrich Wegmann; András Mechwart; Edward P. Allis & William Dixon Gray | *Sulzberger cast-iron roller mills at Frauenfeld (1834); Wegmann differential porcelain rolls (1873-74); Mechwart helical-grooved chilled cast-iron roller mills at Ganz, Budapest (1874); Allis gradual-reduction belt-driven roller mill (1878-80)* | 1834-80 | The high-milling roller-mill revolution that replaced flat millstones and separated white middlings from bran (no scan verified) |
+| Friedrich Kick; Louis H. Gibson; P. A. Kozmin | *Die Mehlfabrikation: Ein Lehrbuch des Mühlenbetriebes (1871) & Das Gesetz der proportionalen Widerstände (1885 — Kick's comminution law); Gradual Reduction Milling (1885); Flour Milling (Kozmin)* | 1871-85 | Energy law of volume-proportional crushing/grinding, middlings purifiers, plansifters and roller-mill flow sheets (no scan verified) |
 
 ## Ars Irrigationis
 
@@ -1702,6 +1861,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Elwood Mead | [*Rise and Future of Irrigation in the United States*](/view.html?p=documents/books/mead-1899-rise-future-irrigation-united-states.md) | 1899 | The American irrigation movement and the arid West |
 | Arthur Cotton | *Reports on the irrigation works of the Godavari, Krishna and other Indian rivers* | 1850s–70s | The Indian irrigation engineer's reports (no scan verified) |
 | Simon Stevin | [*Nieuwe Maniere van Sterctebou door Spilsluysen*](/view.html?p=documents/books/stevin-1617-spilsluysen.md) | 1617 | Fortification by sluices — the Dutch water-line and its lock engineering |
+| Cornelius Vermuyden; Giovanni Poleni | *A Discourse Touching the Drayning the Great Fennes (1642 — Bedford Level cuts, sluices and washlands); De Motu Aquae Mixto (1717) & De Castellis per quae derivantur fluviorum aquae (1718 — sharp-crested weir discharge formula)* | 1642 / 1717-18 | Fenland reclamation engineering and Poleni's foundational weir-discharge equation Q proportional to H^(3/2) (no scan verified) |
+| Richard Baird Smith; Colin Scott-Moncrieff; Robert Burton Buckley | *Italian Irrigation (1852) & The Cauvery, Kistnah, and Godavery (1856); Irrigation in Southern Europe (1868); The Irrigation Works of India, and Their Financial Results (1880 / 1893)* | 1852-93 | Perennial river-delta anicuts, headworks, silt-scouring sluices and distributary canal networks (no scan verified) |
+| William Willcocks; Patrick John Flynn; Franklin Hiram King | *Egyptian Irrigation (1889 — Nile barrages and the Aswan Low Dam design); Irrigation Canals and Other Irrigation Works, Including the Flow of Water in Irrigation Canals (1892); Irrigation and Drainage (1899)* | 1889-99 | Large masonry diversion dams with under-sluices, canal regime design and soil-moisture physics (no scan verified) |
 
 ## Ars Cartographica
 
@@ -1720,6 +1882,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jean Picard | *Mesure de la Terre* | 1671 | The earth measured by triangulation and telescopic sights (no scan verified) |
 | Johann Heinrich Lambert | *Anmerkungen und Zusätze zur Entwerfung der Land- und Himmelskarten* | 1772 | The founding theory of map projections (no scan verified) |
 | William Roy & Jesse Ramsden | *An Account of the Trigonometrical Operation ... between the Observatories of Greenwich and Paris* | 1790 | The base line and the great theodolite of the Ordnance Survey (no scan verified) |
+| Abraham Ortelius; Willebrord Snellius | *Theatrum Orbis Terrarum (1570 first systematic modern atlas); Eratosthenes Batavus (1617 geodetic baseline triangulation and three-point resection)* | 1570 / 1617 | The standardised printed world atlas and the invention of geodetic triangulation networks (no scan verified) |
+| César-François Cassini de Thury; Tobias Mayer; Rigobert Bonne; Karl Brandan Mollweide | *Carte géométrique de la France (1744-89 — first national triangulation map); lunar tables and repeating circle (1752-67); Bonne and Mollweide equal-area map projections (1752 / 1805)* | 1744-1805 | National topographic survey sheets and pseudoconic/pseudocylindrical equal-area projections (no scan verified) |
+| Louis Puissant; Nicolas Auguste Tissot; Aimé Laussedat | *Traité de géodésie et Traité de topographie, d arpentage et de nivellement (1805-07); Mémoire sur la représentation des surfaces et les projections des cartes (1881 — Tissot indicatrix of distortion); Métrophotographie / photogrammetry (1851-98)* | 1805-98 | Mathematical geodesy, Tissot's distortion ellipse and terrestrial/balloon photogrammetric surveying (no scan verified) |
 
 ## Ars Cryogenica
 
@@ -1735,6 +1900,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Carl von Linde | *The air-liquefaction process and machine* | 1895 | Air liquefied by regenerative cooling (no scan verified) |
 | William Hampson | *The Hampson air-liquefaction machine* | 1895 | The compact regenerator and the liquid-air plant (no scan verified) |
 | John Gorrie | [*Dr. Gorrie's Apparatus for the Artificial Production of Ice*](/view.html?p=documents/books/gorrie-1854-artificial-ice.md) | 1854 | The first American artificial-ice apparatus described |
+| Alexander Carnegie Kirk; Franz Windhausen; Charles Tellier; J. J. Coleman & Henry Bell | *Closed-cycle regenerative air-expansion refrigerating machine (Kirk, 1862-74); Windhausen cold-air and CO2 compression machines (1869-78); Tellier methyl-ether/ammonia compression plant on the steamer Frigorifique (1867-76); Bell-Coleman marine cold-air transoceanic meat refrigerators (1877-79)* | 1862-79 | Industrial mechanical refrigeration on land and aboard the first transoceanic frozen-meat ships (no scan verified) |
+| Zygmunt Florenty Wróblewski & Karol Stanisław Olszewski; Heike Kamerlingh Onnes | *Static liquefaction of oxygen, nitrogen and carbon monoxide at Kraków (Comptes Rendus, 1883); the Leiden cryogenic cascade laboratory (1892-94)* | 1883-94 | Permanent gases liquefied in stable boiling meniscus state and the founding of low-temperature physics engineering (no scan verified) |
+| John Ewald Siebel; Hans Lorenz | *Compend of Mechanical Refrigeration and Engineering (1895); Neuere Kühlmaschinen, ihre Konstruktion, Wirkungsweise und industrielle Verwendung (1896)* | 1895 / 1896 | Thermodynamic cycle calculations, brine grids, condensers and cold-storage insulation design manuals (no scan verified) |
 
 ## Ars Pharmaceutica
 
@@ -1750,6 +1918,12 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Nicholas Culpeper | [*Pharmacopoeia Londinensis*](/view.html?p=documents/books/culpeper-pharmacopoeia-londinensis.md) | 1649 (later ed.) | The official formulary translated and expanded for the shop |
 | Loretta Barton Weld | [*Improvements in the Manufacture of Hydrochlorate of Quinine*](/view.html?p=documents/books/weld-1888-quinine-hydrochlorate.md) | 1888 | The alkaloid salt patented — quinine as an industrial product |
 | Pelletier & Caventou | *Papers on the isolation of the alkaloids (strychnine, quinine, brucine)* | 1817–20 | The alkaloids isolated — the drug made a chemical substance (no scan verified) |
+| Valerius Cordus; Nicolas Lémery; Antoine Baumé | *Dispensatorium Pharmacorum Omnium (Nuremberg, 1546 — first official European civic pharmacopoeia); Cours de chymie (1675) & Pharmacopée universelle (1697); Éléments de pharmacie théorique et pratique (1762 — Baumé hydrometer scales)* | 1546-1762 | Standardised compounding formularies, mineral-chemical remedies and specific-gravity hydrometry (no scan verified) |
+| Friedrich Wilhelm Sertürner; Pierre-Joseph Robiquet; Friedlieb Ferdinand Runge | *Isolation of Morphium (morphine) as the sleep-inducing alkaline principle of opium (1804-17); isolation of narcotine, caffeine, alizarin and codeine (Robiquet, 1817-32); quinine, caffeine and coal-tar carbolic acid/aniline (Runge, 1819-34)* | 1804-34 | Alkaloid chemistry founded — pure crystalline active principles replacing variable crude galenicals (no scan verified) |
+| Philipp Lorenz Geiger; Eugène Soubeiran; François Dorvault; Hermann Hager | *Handbuch der Pharmacie (1824); Nouveau traité de pharmacie théorique et pratique (1836; chloroform discovery 1831); L Officine, ou Répertoire général de pharmacie pratique (1844); Handbuch der pharmaceutischen Praxis (1876-78)* | 1824-78 | Standard 19th-century Continental dispensatories, extraction percolation and purity testing of drugs (no scan verified) |
+| William Brockedon; Edward Parrish; Edward Robinson Squibb; William E. Upjohn; Burroughs, Wellcome & Co. | *Shaping pills, lozenges and black lead by pressure in dies (Brockedon British Patent 9,977 of 1843 — compressed tablet); A Treatise on Pharmacy (Parrish, 1855); Squibb continuous steam-coil ether still (1856); Upjohn friable pill (1885); Wellcome Tabloid precision compressed-tablet machinery (1884)* | 1843-85 | Industrial pharmaceutical manufacturing: pure anaesthetic ether distillation and high-speed rotary tablet compression (no scan verified) |
+| Friedrich August Flückiger & Daniel Hanbury; Rudolf Buchheim & Oswald Schmiedeberg | *Pharmacographia: A History of the Principal Drugs of Vegetable Origin (1874); Grundriss der Arzneimittellehre (Schmiedeberg, 1883 — experimental pharmacology founded at Dorpat and Strasbourg)* | 1874 / 1883 | Botanical pharmacognosy and quantitative experimental organ pharmacology (no scan verified) |
+| Ludwig Knorr; Wilhelm Knoll; Heinrich Dreser & Felix Hoffmann; Emil von Behring & Paul Ehrlich | *Antipyrine synthetic antipyretic (Knorr at Hoechst, 1883-84); codeine synthesis (Knoll, 1886); acetylsalicylic acid / Aspirin synthesis and pharmacological testing at Bayer (Hoffmann & Dreser, 1897-99); diphtheria antitoxin serum production and standardisation (Behring & Ehrlich, 1890-97)* | 1883-99 | The birth of the synthetic coal-tar pharmaceutical industry and biological serum standardisation (no scan verified) |
 
 ## Ars Extra Europam
 
@@ -1794,6 +1968,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Taqi al-Din Muhammad ibn Ma'ruf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (1551); Al-Kawakib al-durriyya (1556/59)* | 1551–59 | The six-cylinder monobloc pump, steam-turbine spit and spring-driven clocks with seconds hands (no scan verified) |
 | Miyazaki Yasusada | *Nogyo Zensho (Complete Book of Agriculture)* | 1697 | The Japanese agricultural canon of rice, dry fields, tools and seed (no scan verified) |
 | Masuda Tsuna & Niwa Motokuni | *Kodo Zuroku (Illustrated Book of Copper Smelting)* | c. 1801 | The copper-smelting process drawn in woodcuts at the Nanbu works (no scan verified) |
+| Fan Shengzhi; Pan Jixun | *Fan Shengzhi Shu (c. 1st c. BCE — pit-cultivation, seed-pelleting and snow-moisture conservation); Hefang Yilan (Overview of River Defence, 1590 — Yellow River sediment-scouring narrow-channel dikes shushui gongsha)* | 1st c. BCE / 1590 | Han dry-farming agronomy and Ming hydraulic sediment-transport engineering on the Yellow River (no scan verified) |
+| Aryabhata; Brahmagupta; Varahamihira; Bhaskara II; King Bhoja of Dhara | *Aryabhatiya (499 CE — sine tables and astronomical water-clocks); Brahmasphutasiddhanta (628 CE); Brihat Samhita (6th c. — steel tempering, perfumes, hydraulic exploration dowsing and adamant cements vajralepa); Siddhanta Siromani (1150 — mercury perpetual-motion wheel); Samarangana Sutradhara (11th c. — architectural engineering and mechanical automata yantras)* | 499-1150 CE | Indian mathematical instrumentation, hydraulic geology, structural masonry cements and mechanical yantra automata (no scan verified) |
+| Seki Takakazu (Kowa); Hiraga Gennai; Philipp Franz von Siebold | *Katsuyo Sanpo (1712 — wasan determinants, circle-principle enri and mensuration); Butsurui Hinshitsu (1763 — asbestos fireproof cloth, thermometer and Erekitel friction electrostatic generator); Nippon: Archiv zur Beschreibung von Japan (1832-52 — Edo crafts, tools, metallurgy and agriculture)* | 1712-1852 | Edo Japanese computational mensuration, electrical/mining instrumentation and Siebold's illustrated survey of Japanese technology (no scan verified) |
 
 ## References
 
