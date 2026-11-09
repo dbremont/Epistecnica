@@ -81408,7 +81408,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the deep-domain layers: tribology (Morin 1832, Thurston 1885; Amontons, Coulomb, Tower rows) into Mechanica; the non-cotton fibres (James worsted 1857, McLaren 1884, Warden linen 1864, Porter silk 1831) into Textilis; non-ferrous metallurgy (Peters, Hofman, Schnabel 1898; Berthier, Polhem, Rinman rows) into Metallica; and seven new sections — Ars Coriaria (Morfit 1852, Davis 1885), Ars Elastica (Hancock 1857), Ars Petrolea (cross-lists of the gas, oil and lamp trade; Murdoch, Silliman, Welsbach rows), Ars Lapidaria (Monge 1795/1838, Nicholson 1828; de l Orme, Jousse, Frézier rows), Ars Thermica (Péclet 1828, Carpenter 1895; Gauger, Franklin, Rumford, Hood, plumber and heating rows), Ars Pharia (Robert Stevenson 1824, Alan Stevenson 1848; Smeaton, Fresnel rows) and Ars Silvicultura (Evelyn Sylva 1664; Carlowitz, Duhamel bois, Hartig, Cotta, the preservation patents and Schlich rows)."
+        "summary": "Add the deep-domain layers: tribology (Morin 1832, Thurston 1885; Amontons, Coulomb, Tower rows) into Mechanica; the non-cotton fibres (James worsted 1857, McLaren 1884, Warden linen 1864, Porter silk 1831) into Textilis; non-ferrous metallurgy (Peters, Hofman, Schnabel 1898; Berthier, Polhem, Rinman rows) into Metallica; and seven new sections — Ars Coriaria (Morfit 1852, Davis 1885), Ars Elastica (Hancock 1857), Ars Petrolea (cross-lists of the gas, oil and lamp trade; Murdoch, Silliman, Welsbach rows), Ars Lapidaria (Monge 1795/1838, Nicholson 1828; de l Orme, Jousse, Frézier rows), Ars Thermica (Péclet 1828, Carpenter 1895; Gauger, Franklin, Rumford, Hood, plumber and heating rows), Ars Pharia (Robert Stevenson 1824, Alan Stevenson 1848; Smeaton, Fresnel rows) and Ars Silvicultura (Evelyn Sylva 1664; Carlowitz, Duhamel bois, Hartig, Cotta, the preservation patents and Schlich rows).",
+        "commit": "7de8874fe7ea3ce3a3d6d258b22520db9fd4b549",
+        "before": "71e278d889ba905c59206bc7854784b4a3d23fdd"
       }
     ]
   }
