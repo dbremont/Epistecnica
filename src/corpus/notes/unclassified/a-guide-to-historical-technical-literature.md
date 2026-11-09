@@ -31,6 +31,12 @@ qa:
 | Louis Hachette | [*Traité Élémentaire des Machines*](/view.html?p=documents/books/hachette-1819-traite-elementaire-des-machines.md) | 1819 | Machine components and elementary machine theory |
 | Claude-Louis Navier | [*Résumé des Leçons données à l'École des Ponts et Chaussées*](/view.html?p=documents/books/navier-1826-resume-des-lecons.md) | 1826 | Applied mechanics and engineering calculation |
 
+| Peter Nicholson | [*The Mechanic's Companion*](/view.html?p=documents/books/nicholson-1831-mechanics-companion.md) | 1831 | Practical mechanics, tools and mechanical operations |
+| Charles Holtzapffel | [*Turning and Mechanical Manipulation* (5 vols.)](/view.html?p=documents/books/holtzapffel-1843-turning-and-mechanical-manipulation.md) | 1843–84 | Lathes, cutting tools, turning and workshop practice |
+| Charles Holtzapffel & Oliver Byrne | [*The Handbook for the Artisan, Mechanic, and Engineer*](/view.html?p=documents/books/holtzapffel-byrne-1853-handbook-artisan.md) | 1853 | Practical mechanical construction and workshop techniques |
+| Thomas Box | [*A Practical Treatise on Mill-Gearing, Wheels, Shafts, Riggers*](/view.html?p=documents/books/box-1853-mill-gearing.md) | 1853 | Mechanical transmission and gearing |
+| J. E. Armengaud (tr. William Johnson) | [*The Practical Draughtsman's Book of Industrial Design*](/view.html?p=documents/books/armengaud-1865-practical-draughtsmans-book.md) | 1865 | Mechanical drawing and industrial design |
+
 ## Ars Chimica
 
 > Chemical science and its industrial applications — the dictionaries, the handbooks, the factory chemists' references from Davy's summation to Thorpe's applied chemistry of the 1890s.
@@ -66,6 +72,13 @@ qa:
 | William H. Greenwood | [*Steel and Iron*](/view.html?p=documents/books/greenwood-1884-steel-and-iron.md) | 1884 | Iron and steel production methods |
 | Percy Gilchrist | [*The Manufacture of Steel by the Basic Process*](/view.html?p=documents/books/gilchrist-1887-basic-process.md) | 1887–89 | Basic steelmaking and phosphorus removal (patent papers) |
 
+| John Arthur Phillips | [*Elements of Metallurgy*](/view.html?p=documents/books/phillips-1852-elements-of-metallurgy.md) | 1852 | Metallurgical processes and practical extraction |
+| George G. André | [*A Descriptive Treatise on Mining Machinery, Tools, and Appliances*](/view.html?p=documents/books/andre-1877-mining-machinery.md) | 1877–78 | Mining machinery, excavation, pumping, ventilation and mineral processing |
+| C. Le Neve Foster | [*A Text-Book of Ore and Stone Mining*](/view.html?p=documents/books/foster-1894-textbook-ore-stone-mining.md) | 1894 | Mining operations and extraction techniques |
+| C. M. Percy | [*Machinery for Metalliferous Mines*](/view.html?p=documents/books/percy-1894-machinery-for-metalliferous-mines.md) | 1894 | Mining engines, drills, pumps, crushing and concentration |
+| G. C. Greenwell | [*A Practical Treatise on Mine Engineering*](/view.html?p=documents/books/greenwell-1869-mine-engineering.md) | 1869 | Mine construction, ventilation, haulage and machinery |
+| Stephen Michell | [*Mine Drainage*](/view.html?p=documents/books/michell-1881-mine-drainage.md) | 1881 | Underground pumping machinery and mine drainage |
+
 ## Ars Agricola
 
 > From practical cultivation techniques toward experimentally grounded agricultural science: Davy for the chemical composition of soils and plants, Liebig for plant nutrition, Johnston for the geology of soils, Johnson for growth and feeding.
@@ -81,6 +94,11 @@ qa:
 | Albrecht Daniel Thaer | [*The Principles of Agriculture* (Grundsätze)](/view.html?p=documents/books/thaer-1809-principles-of-agriculture.md) | 1809–12 | Systematic agricultural management and cultivation |
 | George Sinclair | [*Hortus Gramineus Woburnensis*](/view.html?p=documents/books/sinclair-1816-hortus-gramineus.md) | 1816 | Grasses, forage plants and experimentation |
 | J. B. Lawes & J. H. Gilbert | [*The Rothamsted Memoirs* (paper series)](/view.html?p=documents/books/lawes-gilbert-rothamsted-memoirs.md) | 1840s–90s | Experimental plant nutrition, fertilizers and soil chemistry |
+
+| William Youatt | [*The Complete Grazier*](/view.html?p=documents/books/youatt-1834-complete-grazier.md) | 1834 | Livestock production and agricultural practice |
+| Henry Stephens | [*The Book of the Farm*](/view.html?p=documents/books/stephens-1844-book-of-the-farm.md) | 1844 | Agricultural operations, implements and machinery |
+| J. J. Thomas | [*The American Fruit Culturist*](/view.html?p=documents/books/thomas-1846-american-fruit-culturist.md) | 1846 | Orchard management and horticultural techniques |
+| John Slight | [*The Farmer's Guide to Scientific and Practical Agriculture*](/view.html?p=documents/books/slight-1851-farmers-guide.md) | 1851 | Agricultural operations, machinery and productive practices |
 
 ## Ars Civilis
 
@@ -98,6 +116,12 @@ qa:
 | [Life of] Thomas Telford | [*Life of Thomas Telford*](/view.html?p=documents/books/telford-1838-life.md) | 1838 | Bridges, roads, canals and engineering practice |
 | Samuel Smiles | [*The Life of Isambard Kingdom Brunel*](/view.html?p=documents/books/smiles-1870-life-of-isambard-kingdom-brunel.md) | 1870 | Railway, bridge, tunnel and marine engineering projects |
 | Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
+
+| Thomas Ewbank | [*A Descriptive and Historical Account of Hydraulic and Other Machines for Raising Water*](/view.html?p=documents/books/ewbank-1842-hydraulic-machines.md) | 1842 | Pumps, water-lifting mechanisms and hydraulic devices |
+| George Rowdon Burnell | [*Rudimentary Treatise on Limes, Cements, Mortars, Concretes, Mastics, Plastering*](/view.html?p=documents/books/burnell-1850-limes-cements-mortars.md) | 1850 | Construction materials and hydraulic binders |
+| Henry Law & George R. Burnell | [*Rudiments of Civil Engineering*](/view.html?p=documents/books/law-burnell-1869-rudiments-civil-engineering.md) | 1869 | Civil and hydraulic engineering in the Weale series |
+| William Cullen | [*A Practical Treatise on the Construction of Horizontal and Vertical Waterwheels*](/view.html?p=documents/books/cullen-1871-waterwheels.md) | 1871 | Waterwheel construction and hydraulic power |
+| John Thomas Fanning | [*A Practical Treatise on Water-Supply Engineering*](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md) | 1877 | Waterworks, hydrology, water distribution and construction |
 
 ## Ars Electrica
 
@@ -132,6 +156,11 @@ qa:
 | H. K. Oliver | [*An Elementary Treatise on the Construction and Use of Mathematical Instruments*](/view.html?p=documents/books/oliver-1830-mathematical-instruments.md) | 1830 | Portable mathematical and drawing instruments |
 | John Fry Heather | [*A Treatise on Mathematical Instruments*](/view.html?p=documents/books/heather-1849-mathematical-instruments.md) | 1849 | Construction, testing and adjustment of instruments |
 
+| John Quekett | [*A Practical Treatise on the Use of the Microscope*](/view.html?p=documents/books/quekett-1848-practical-treatise-microscope.md) | 1848 | Microscope construction, preparation and operation |
+| Jabez Hogg | [*The Microscope: Its History, Construction, and Application*](/view.html?p=documents/books/hogg-1854-the-microscope.md) | 1854 | Optical instrumentation and microscopy |
+| William Benjamin Carpenter | [*The Microscope and Its Revelations*](/view.html?p=documents/books/carpenter-1856-microscope-revelations.md) | 1856 | Optical instruments and microscopic investigation |
+| Joseph von Fraunhofer | [*Gesammelte Schriften (Collected Scientific Papers)*](/view.html?p=documents/books/fraunhofer-1888-gesammelte-schriften.md) | 1888 edition | Optical glass, lenses and spectral instrumentation (honest no-scan) |
+
 ## Ars Manufactura
 
 > The factory as a technological production system — machinery, workers, processes, power and industrial organization — and the textile trades' own references.
@@ -151,6 +180,15 @@ qa:
 | Apsley Pellatt | [*Curiosities of Glass Making*](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md) | 1849 | Glass composition, furnaces and manufacturing |
 | Charles Tomlinson | [*Cyclopædia of Useful Arts and Manufactures*](/view.html?p=documents/books/tomlinson-1852-cyclopaedia-useful-arts.md) | 1852 | Industrial processes, materials and manufacturing techniques |
 | Alfred Barlow | [*The History and Principles of Weaving by Hand and by Power*](/view.html?p=documents/books/barlow-1878-history-and-principles-of-weaving.md) | 1878 | Loom construction and textile production |
+
+| George Richardson Porter | [*A Treatise on the Manufacture of Porcelain and Glass*](/view.html?p=documents/books/porter-1832-porcelain-and-glass.md) | 1832 | Porcelain and glass manufacturing |
+| Edward Dobson | [*A Rudimentary Treatise on the Manufacture of Bricks and Tiles*](/view.html?p=documents/books/dobson-1850-bricks-and-tiles.md) | 1850 | Ceramic construction materials and kiln processes |
+| John Johnson | [*Typographia, or the Printer's Instructor*](/view.html?p=documents/books/johnson-1824-typographia.md) | 1824 | Printing machinery, typography and printing operations |
+| Thomas Curson Hansard | [*Typographia: An Historical Sketch of the Art of Printing*](/view.html?p=documents/books/hansard-1825-typographia.md) | 1825 | Printing technology and machinery |
+| William Savage | [*A Dictionary of the Art of Printing*](/view.html?p=documents/books/savage-1841-dictionary-of-printing.md) | 1841 | Printing materials, equipment and processes |
+| John Southward | [*Practical Printing*](/view.html?p=documents/books/southward-1884-practical-printing.md) | 1884 | Printing machinery and workshop practice |
+
+Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry — a periodical of industrial printing and illustrated publishing, not a citable technical book.
 
 ## Ars Energia
 
@@ -191,6 +229,10 @@ qa:
 | William T. Brannt | [*A Practical Treatise on the Manufacture of Vinegar*](/view.html?p=documents/books/brannt-1889-manufacture-of-vinegar.md) | 1889 | Vinegar, pickling, meat, fish and egg preservation |
 | Alexander C. Twining | [*The Fundamental Ice-Making Invention*](/view.html?p=documents/books/twining-1870-fundamental-ice-making-invention.md) | 1870 | Artificial ice manufacture (patent papers) |
 | Norman Selfe | [*The Machinery Employed for Artificial Refrigeration and Ice Making*](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md) | 1896 | Refrigeration machinery (technical paper, not a book) |
+
+| Ferdinand Carré | [*Machine à faire le froid* (absorption apparatus and patents)](/view.html?p=documents/books/carre-1860-machine-a-faire-le-froid.md) | 1860–62 | Absorption refrigeration (honest no-scan) |
+| James Harrison | [*Refrigeration patents and technical descriptions*](/view.html?p=documents/books/harrison-1850s-refrigeration-patents.md) | 1850s–70s | Mechanical refrigeration and ice manufacture (honest no-scan) |
+| W. H. Wakeman | [*Refrigeration and Ice-Making and Refrigerating Machinery*](/view.html?p=documents/books/wakeman-1890s-refrigeration-machinery.md) | 1890s | Refrigeration plant construction and operation (honest no-scan) |
 | J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
 | Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |

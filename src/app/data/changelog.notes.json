@@ -81147,6 +81147,11 @@
         "summary": "Two new rows: Desaguliers's Course of experimental philosophy (1734-45) in Ars Mechanica and Blaeu's Theatrum civitatum et admirandorum Italiae (1663) in Ars Telluris as the chorography of the built world; the guide stands at 162 verified links.",
         "commit": "97022a28d6e2097b9ea4ece5c788ba057dbded94",
         "before": "1579db77ccd46b37a1375468c2046c5ce92d46a3"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Grow the guide with the workshop-practice stratum and five more trade shelves: Nicholson, the Holtzapffels, Box and Armengaud in Ars Mechanica; the mining shelf from Phillips 1852 to the 1894 textbooks with Andre and C. M. Percy; the water-engineering shelf from Ewbank to Fanning with Law-Burnell, Cullen and the limes-and-cements treatise; the ceramics side (Porter, Dobson) and four print-trade rows from Johnson 1824 to Southward 1884 in Ars Manufactura, with the Penny Magazine kept as guide prose; microscopy in Ars Instrumentalis (Quekett, Hogg with its authorship correction, Carpenter, Fraunhofer honest no-scan); the absorption and mechanical refrigeration patents beside Twining in Ars Cibaria; the farm-practice stratum (Stephens, Thomas, Youatt, Slight) in Ars Agricola. 195 links, all resolving."
       }
     ]
   }
