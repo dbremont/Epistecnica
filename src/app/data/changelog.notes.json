@@ -81359,7 +81359,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the desk-reference, machine-theatre and structural-science layer: Salomon de Caus 1615, Bélidor 1729 and Vauban 1737 at the corps origins; Rees's Cyclopaedia, Karmarsch, Haswell, Nystrom, Hütte, Molesworth, Claudel, D. K. Clark, Knight's Dictionary, Appletons, Unwin and Kent as the century's desk references; Torricelli, Mariotte, Euler 1744, Venturi, Maxwell's 1864 frames paper, Merriman, Ganguillet & Kutter, Burr, Boussinesq, Johnson/Bryan/Turneaure, Johnson and Martens in the Structura science layer; Besson, Branca, Spon and Kempe as honest no-scan rows."
+        "summary": "Add the desk-reference, machine-theatre and structural-science layer: Salomon de Caus 1615, Bélidor 1729 and Vauban 1737 at the corps origins; Rees's Cyclopaedia, Karmarsch, Haswell, Nystrom, Hütte, Molesworth, Claudel, D. K. Clark, Knight's Dictionary, Appletons, Unwin and Kent as the century's desk references; Torricelli, Mariotte, Euler 1744, Venturi, Maxwell's 1864 frames paper, Merriman, Ganguillet & Kutter, Burr, Boussinesq, Johnson/Bryan/Turneaure, Johnson and Martens in the Structura science layer; Besson, Branca, Spon and Kempe as honest no-scan rows.",
+        "commit": "03ea895d07eae6e2fd8303c0380d456769b01c92",
+        "before": "cb479aae77e1d6789690649f9a6251e7b053359b"
       }
     ]
   }
