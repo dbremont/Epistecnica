@@ -81296,7 +81296,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the photographic rows: Herschel’s 1840 paper on the chemical action of the rays, Archer on the collodion process, Legros’s Le Soleil de la photographie, Brewster’s Stereoscope, Vogel’s and Eder’s handbooks, Koppe’s Photogrammetrie, Channing’s photo-mechanical processes, the Eastman catalogue of dry plates and film, and Maddox’s gelatino-bromide communication (honest no-scan)."
+        "summary": "Add the photographic rows: Herschel’s 1840 paper on the chemical action of the rays, Archer on the collodion process, Legros’s Le Soleil de la photographie, Brewster’s Stereoscope, Vogel’s and Eder’s handbooks, Koppe’s Photogrammetrie, Channing’s photo-mechanical processes, the Eastman catalogue of dry plates and film, and Maddox’s gelatino-bromide communication (honest no-scan).",
+        "commit": "51dc5277f7f175038d25a5d305ac70d509a02e56",
+        "before": "89022437d033cd0d69c632bf936d6c92a04a412d"
       }
     ]
   }
