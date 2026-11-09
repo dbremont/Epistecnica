@@ -81177,7 +81177,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "The steam-and-trades close: thirty rows across seven sections - Energia gains the boiler shelf (Bourne catechism, Barr, Thurston), the hydraulic pair (Francis Lowell experiments, Bodmer turbines) and the gas-engine line (Clerk, Donkin, de Graffigny); Chimica gains the gasworks manufacture (Clegg 1841, Hughes 1853) and Guttmann explosives; Mechanica gains Shelley appliances and the Niles catalogue; Manufactura gains paper (Herring, Munsell), leather (Dussauce, Procter), the verrier manual, Goodyear rubber and the printing-machinery pair; Electrica completes the lighting decade (Gordon, Hedges, Atkinson); Navalis gains the propeller and marine steam engine; Transportaria opens with Fulton 1796 and closes with the Stevensons and Vernon-Harcourt. Porter appears once - the held 1832 entry. 277 links, all resolving."
+        "summary": "The steam-and-trades close: thirty rows across seven sections - Energia gains the boiler shelf (Bourne catechism, Barr, Thurston), the hydraulic pair (Francis Lowell experiments, Bodmer turbines) and the gas-engine line (Clerk, Donkin, de Graffigny); Chimica gains the gasworks manufacture (Clegg 1841, Hughes 1853) and Guttmann explosives; Mechanica gains Shelley appliances and the Niles catalogue; Manufactura gains paper (Herring, Munsell), leather (Dussauce, Procter), the verrier manual, Goodyear rubber and the printing-machinery pair; Electrica completes the lighting decade (Gordon, Hedges, Atkinson); Navalis gains the propeller and marine steam engine; Transportaria opens with Fulton 1796 and closes with the Stevensons and Vernon-Harcourt. Porter appears once - the held 1832 entry. 277 links, all resolving.",
+        "commit": "ba2964d0a4de3de17b043d9b7a179476343782bd",
+        "before": "e7935c661d5d38938df9c2508ff7d4c10d41ce40"
       }
     ]
   }
