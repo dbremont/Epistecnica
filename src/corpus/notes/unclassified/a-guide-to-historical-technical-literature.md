@@ -42,6 +42,8 @@ qa:
 | C. P. B. Shelley | [*Workshop Appliances*](/view.html?p=documents/books/shelley-1897-workshop-appliances.md) | 1897 | Gauging, measuring, cutting tools, lathes and the machine-tool register |
 | Niles Tool Works | [*General Machinery Catalogue*](/view.html?p=documents/books/niles-1898-general-machinery-catalogue.md) | 1898 | Industrial machine tools — the trade catalogue |
 
+| William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | The consulting engineer's collected practice notes |
+
 Maudslay's machine-tool drawings and descriptions name no single citable work and stay branch prose, honest to the records — the precision-engineering standard itself enters through Whitworth's collected papers.
 
 ## Ars Chimica
@@ -71,6 +73,10 @@ Maudslay's machine-tool drawings and descriptions name no single citable work an
 | Samuel Clegg | [*A Practical Treatise on the Manufacture and Distribution of Coal-Gas*](/view.html?p=documents/books/clegg-1841-coal-gas.md) | 1841 | Gasworks, retorts, purification, gas holders and distribution |
 | Samuel Hughes | [*A Treatise on Gas Works*](/view.html?p=documents/books/hughes-1853-treatise-on-gas-works.md) | 1853 | Gas manufacture, purification, retorts, water gas and gasworks construction |
 | Oscar Guttmann | [*The Manufacture of Explosives*](/view.html?p=documents/books/guttmann-1895-manufacture-of-explosives.md) | 1895 | The industrial manufacture of explosives |
+
+| George Lunge | [*A Treatise on the Distillation of Coal-Tar and Ammonia Liquor*](/view.html?p=documents/books/lunge-1882-coal-tar-and-ammonia.md) | 1882 | Coal-tar processing and dyestuff by-products of gas manufacture |
+| Andres, Winckler & Brannt | [*Varnishes, Lacquers, Siccatives, and Sealing-Waxes*](/view.html?p=documents/books/brannt-1882-varnishes-lacquers.md) | 1882 | Industrial coatings manufacture |
+| H. C. Standage | [*The Practical Polish & Varnish Maker*](/view.html?p=documents/books/standage-1892-polish-varnish-maker.md) | 1892 | The coatings workshop register |
 
 ## Ars Metallica
 
@@ -162,6 +168,11 @@ The Royal Agricultural Society's machinery trials and reports name no single cit
 | Thomas Tredgold | [*The Principles of Warming and Ventilating Public Buildings*](/view.html?p=documents/books/tredgold-1824-warming-and-ventilating.md) | 1824 | Heating and ventilation systems — mechanical and fluid-flow applications |
 | William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1854-iron-building.md) | 1854 | Structural iron engineering for buildings and infrastructure |
 
+| Charles S. Storrow | [*A Treatise on Water-Works*](/view.html?p=documents/books/storrow-1835-water-works.md) | 1835 | Waterworks design, aqueducts and hydraulic calculation |
+| James P. Kirkwood | [*Report on the Filtration of River Waters*](/view.html?p=documents/books/kirkwood-1869-filtration-of-river-waters.md) | 1869 | Municipal water filtration and treatment |
+| William Humber | [*A Comprehensive Treatise on the Water Supply of Cities and Towns*](/view.html?p=documents/books/humber-1876-water-supply-cities-towns.md) | 1876 | Urban waterworks, reservoirs and distribution (honest no-scan) |
+| W. R. Nichols | [*Water Supply Considered from a Sanitary Standpoint*](/view.html?p=documents/books/nichols-1883-water-supply-sanitary.md) | 1883 | Chemical and sanitary assessment of drinking water |
+
 The Royal Military Academy Woolwich's collective 1847 treatises (drawing, arms, permanent fortification) entered as @misc with an honest no-scan note. The Royal Engineers' manuals and fortification reports name no single citable volume and stay prose beside these rows.
 
 ## Ars Electrica
@@ -189,6 +200,10 @@ The Royal Military Academy Woolwich's collective 1847 treatises (drawing, arms, 
 | J. E. H. Gordon | [*A Practical Treatise on Electric Lighting*](/view.html?p=documents/books/gordon-1884-electric-lighting.md) | 1884 | Electric-lighting apparatus, generating equipment, lamps and distribution |
 | Killingworth Hedges | [*Central-Station Electric Lighting*](/view.html?p=documents/books/hedges-1889-central-station-electric-lighting.md) | 1889 | Central stations, feeders, mains, arc and incandescent lighting |
 | Philip Atkinson | [*The Elements of Electric Lighting*](/view.html?p=documents/books/atkinson-1888-elements-electric-lighting.md) | 1888 (ed. to 1897) | Electric-lighting technology and practical systems |
+
+| Gisbert Kapp | [*Electric Transmission of Energy*](/view.html?p=documents/books/kapp-1886-electric-transmission-of-energy.md) | 1886 | Electrical power transmission, transformation and distribution |
+| George Gore | [*The Art of Electro-Metallurgy*](/view.html?p=documents/books/gore-1877-art-of-electro-metallurgy.md) | 1877 | Electroplating and industrial electrodeposition |
+| Alexander Watt | [*Electro-Deposition (Electro-Metallurgy Practically Treated)*](/view.html?p=documents/books/watt-1880-electro-deposition.md) | 1880 | Metal deposition by electrolysis — the same-title trade beside Gore |
 
 ## Ars Instrumentalis
 
@@ -265,6 +280,14 @@ The outline's Peter-Barlow weaving row is this same 1878 book by Alfred Barlow �
 | R. Wilson & C. L. Grey | [*A Practical Treatise upon Modern Printing Machinery and Letterpress Printing*](/view.html?p=documents/books/wilson-grey-1888-modern-printing-machinery.md) | 1888 | Mechanized presses and the letterpress economy |
 | Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
 
+| Karl Hofmann | [*A Practical Treatise on the Manufacture of Paper in All Its Branches*](/view.html?p=documents/books/hofmann-1873-manufacture-of-paper.md) | 1873 | Papermaking machinery, pulp preparation and processing |
+| Alexander Watt | [*The Art of Soap-Making*](/view.html?p=documents/books/watt-1884-art-of-soap-making.md) | 1884 | Industrial soap production and glycerine recovery |
+| Thomas D. West | [*American Foundry Practice*](/view.html?p=documents/books/west-1882-american-foundry-practice.md) | 1882 | Moulding and casting — the foundry floor's manual |
+| Thomas D. West | [*West's Moulders' Text-Book*](/view.html?p=documents/books/west-1885-moulders-text-book.md) | 1885 | The moulder's bench instruction |
+| Iltyd Redwood | [*Lubricants, Oils and Greases*](/view.html?p=documents/books/redwood-1898-lubricants-oils-greases.md) | 1898 | Lubrication and the machinery oil economy (honest no-scan) |
+| Eyre Massey Shaw | [*Fire Protection*](/view.html?p=documents/books/shaw-1876-fire-protection.md) | 1876 | The fire-brigade organization of London |
+| Roper & Stellwagen | [*Hand-Book of Modern Steam Fire-Engines*](/view.html?p=documents/books/roper-1889-steam-fire-engines.md) | 1889 | Steam fire-engines, pumps and fire-alarm telegraphy |
+
 Nasmith's 1887 carding-engine volume entered with an honest no-scan note; the Dobson-and-Barlow firm's preparing-and-spinning machinery literature of c. 1881 names no scanned citable volume and stays branch prose beside the Barlow weaving book. The outline's 1869 O'Neill row is the 1869 edition of the held 1862 dictionary entry — one entry carries both dates.
 
 The printing-press and stereotyping manual literature the outline flagged for investigation stays branch prose beside the print-trade rows: Moxon's Mechanick exercises already carries the trade's founding machinery document, and no additional citable manual was verified for entry.
@@ -295,6 +318,10 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | Dugald Clerk | [*The Gas Engine* / theory papers](/view.html?p=documents/books/clerk-1886-the-gas-engine.md) | 1882–86 | Gas-engine construction and operating principles |
 | Bryan Donkin | [*A Text-Book on Gas, Oil, and Air Engines*](/view.html?p=documents/books/donkin-1894-gas-oil-air-engines.md) | 1894 | Gas, petroleum and air engines: design and operation |
 | Henry de Graffigny | [*Gas and Petroleum Engines* (tr. A. G. Elliott)](/view.html?p=documents/books/graffigny-1898-gas-and-petroleum-engines.md) | 1898 | Gas generators, carburetted-air engines and maintenance |
+
+| John Bourne | [*A Treatise on the Steam Engine Applied to Mines, Mills, Steam-Navigation, Railways*](/view.html?p=documents/books/bourne-1846-treatise-steam-engine.md) | 1846 | Applied steam engineering across the industrial systems |
+| William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | Boiler construction, strength of materials, experiments and machinery papers |
+| Henry Robinson | [*Hydraulic Power and Hydraulic Machinery*](/view.html?p=documents/books/robinson-1887-hydraulic-power.md) | 1887 | Transmitted water power — the accumulator-station plant manual |
 
 ## Ars Cibaria
 
@@ -404,6 +431,9 @@ Knight's *Penny Magazine* (1832–45) stays guide-row prose rather than an entry
 | David Stevenson | [*The Principles and Practice of Canal and River Engineering*](/view.html?p=documents/books/stevenson-d-1872-canal-and-river-engineering.md) | 1872 | Barge canals, ship canals, river regulation and navigation |
 | Thomas Stevenson | [*The Design and Construction of Harbours*](/view.html?p=documents/books/stevenson-t-1874-design-and-construction-of-harbours.md) | 1874 | Harbour design and construction |
 | L. F. Vernon-Harcourt | [*Harbours and Docks*](/view.html?p=documents/books/vernon-harcourt-1885-harbours-and-docks.md) | 1885 | Harbour construction, breakwaters, docks, equipment and maintenance |
+
+| J. Wolfe Barry | [*Railway Appliances*](/view.html?p=documents/books/barry-1876-railway-appliances.md) | 1876 | Permanent way, points, crossings, signals and stations |
+| Joseph Pigg | [*Railway Block Signalling*](/view.html?p=documents/books/pigg-1898-railway-block-signalling.md) | 1898 | The block system of train signalling |
 
 ## Ars Navalis
 

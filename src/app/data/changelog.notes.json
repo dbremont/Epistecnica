@@ -81180,6 +81180,11 @@
         "summary": "The steam-and-trades close: thirty rows across seven sections - Energia gains the boiler shelf (Bourne catechism, Barr, Thurston), the hydraulic pair (Francis Lowell experiments, Bodmer turbines) and the gas-engine line (Clerk, Donkin, de Graffigny); Chimica gains the gasworks manufacture (Clegg 1841, Hughes 1853) and Guttmann explosives; Mechanica gains Shelley appliances and the Niles catalogue; Manufactura gains paper (Herring, Munsell), leather (Dussauce, Procter), the verrier manual, Goodyear rubber and the printing-machinery pair; Electrica completes the lighting decade (Gordon, Hedges, Atkinson); Navalis gains the propeller and marine steam engine; Transportaria opens with Fulton 1796 and closes with the Stevensons and Vernon-Harcourt. Porter appears once - the held 1832 entry. 277 links, all resolving.",
         "commit": "ba2964d0a4de3de17b043d9b7a179476343782bd",
         "before": "e7935c661d5d38938df9c2508ff7d4c10d41ce40"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "The priority-list round: twenty-two rows across seven sections - Bourne’s 1846 applied-steam treatise, Fairbairn’s Useful information series and Robinson hydraulic power in Energia; Kapp’s electric transmission and the Gore-Watt electro-metallurgy pair entered through its verified title collision in Electrica; Lunge coal-tar and the coatings pair (Brannt, Standage) in Chimica; Hofmann paper, Watt soap, the West foundry pair, Redwood lubricants (honest no-scan) and the fire-protection duo (Shaw, Roper) in Manufactura and its trades; the complete water-supply quarter (Storrow, Kirkwood, Humber honest no-scan, Nichols) in Civilis; Barry railway appliances and Pigg block signalling in Transportaria. The Nasmyth pocket-book row and Gregory railway-papers row stay prose. 300 links, all resolving."
       }
     ]
   }
