@@ -30453,5 +30453,55 @@
         "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
+  },
+  {
+    "file_path": "books/latham-1877-sanitary-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Latham, Sanitary engineering (1873); 1877/1878 printings scanned with the first-edition note, the sewerage side of the urban infrastructure pair with Fanning."
+      }
+    ]
+  },
+  {
+    "file_path": "books/noad-1855-manual-of-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Noad, A manual of electricity (1855) - galvanism through the electric telegraph as one instruction; three 1855 scans, cross-linked to Thompson."
+      }
+    ]
+  },
+  {
+    "file_path": "books/prescott-1879-speaking-telephone.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Prescott, The speaking telephone, electric light, and other recent inventions (1879); 1879 scan, the transition document after the author's telegraph history."
+      }
+    ]
+  },
+  {
+    "file_path": "books/preece-sivewright-1876-telegraphy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Preece and Sivewright, Telegraphy (1876, Text-Books of Science) - the outline's 'Telegraphy of the future' title did not verify; the actual Preece telegraphy text entered with its own title, 1876/1914 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/preece-maier-1889-the-telephone.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Preece and Maier, The telephone (1889) - the Post-Office apparatus doctrine; 1889 scan plus Preece's 1887 Phil. Trans. speech-distance paper."
+      }
+    ]
   }
 ]
