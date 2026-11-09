@@ -34541,5 +34541,115 @@
         "commit": "ab97f1f91410c6ee34cdc05f826106a2f869dce4"
       }
     ]
+  },
+  {
+    "file_path": "books/bouguer-1746-traite-du-navire.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bouguer, Traité du navire (1746) — the founding naval hydrostatics; three 1746 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/euler-1749-scientia-navalis.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Euler, Scientia Navalis (1749) — the mathematical ship; two part scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/juan-1771-examen-maritimo.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Jorge Juan, Examen marítimo (1771) — the Spanish naval mechanics; 1771 and second-copy scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/atwood-1798-disquisition-stability-ships.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Atwood, A Disquisition on the Stability of Ships (1798) — stability quantified; 1798 and 1796 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lloyds-register-1760-classification.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Lloyd's Register of Shipping (1760–, series) — classification; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smith-ericsson-1836-screw-propeller-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Smith and Ericsson propeller patents (1836–, collector) — the screw transition; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/herschel-1851-manual-scientific-enquiry.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Admiralty Manual of Scientific Enquiry (1851, Herschel ed.) — the naval science manual; 1851 and 1859 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/reed-1869-shipbuilding-iron-steel.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Reed, Shipbuilding in Iron and Steel (1869) — the metal hull; 1869 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/white-1877-manual-naval-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add White, A Manual of Naval Architecture (1877) — the standard text; 1877 and 1894 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barnaby-1891-marine-propellers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Barnaby, Marine Propellers (1891) — the propeller theory; 1891 and 1900 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/attwood-1899-textbook-theoretical-naval-architecture.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Attwood, Text-book of Theoretical Naval Architecture (1899) — the teaching text; 1899 and later scans."
+      }
+    ]
   }
 ]

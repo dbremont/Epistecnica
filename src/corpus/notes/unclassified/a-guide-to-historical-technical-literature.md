@@ -687,6 +687,17 @@ qa:
 | C. H. L. Kuhl | [*Dredging on the Lower Danube*](/view.html?p=documents/books/kuhl-1881-dredging-lower-danube.md) | 1881 | River-channel dredging (honest no-scan) |
 | J. J. Webster | [*Dredging Appliances*](/view.html?p=documents/books/webster-1886-dredging-appliances.md) | 1886 | The dredging classification (paper, honest no-scan) |
 | A. E. Seaton | [*A Manual of Marine Engineering*](/view.html?p=documents/books/seaton-1890-manual-of-marine-engineering.md) | 1890 | The marine engineer’s design manual |
+| Pierre Bouguer | [*Traité du Navire*](/view.html?p=documents/books/bouguer-1746-traite-du-navire.md) | 1746 | The ship as a floating body calculated — the metacentre |
+| Leonhard Euler | [*Scientia Navalis*](/view.html?p=documents/books/euler-1749-scientia-navalis.md) | 1749 | The ship made a problem of rational mechanics |
+| Jorge Juan | [*Examen Marítimo Theórico Práctico*](/view.html?p=documents/books/juan-1771-examen-maritimo.md) | 1771 | The ship analysed by mechanics for the Spanish service |
+| George Atwood | [*A Disquisition on the Stability of Ships*](/view.html?p=documents/books/atwood-1798-disquisition-stability-ships.md) | 1798 | Stability defined and measured (paper) |
+| Lloyd's Register of Shipping | [*The Register Book and Classification Rules*](/view.html?p=documents/books/lloyds-register-1760-classification.md) | 1760– | Ships surveyed and classed — construction standardized (honest no-scan) |
+| F. P. Smith & J. Ericsson | [*Screw-propeller patents and specifications*](/view.html?p=documents/books/smith-ericsson-1836-screw-propeller-patents.md) | 1836– | The screw made a practicable propulsion |
+| J. F. W. Herschel (ed.) | [*A Manual of Scientific Enquiry*](/view.html?p=documents/books/herschel-1851-manual-scientific-enquiry.md) | 1851 | The survey ship made an observatory — the Admiralty manual |
+| E. J. Reed | [*Shipbuilding in Iron and Steel*](/view.html?p=documents/books/reed-1869-shipbuilding-iron-steel.md) | 1869 | The hinge from the wooden ship to the metal hull |
+| W. H. White | [*A Manual of Naval Architecture*](/view.html?p=documents/books/white-1877-manual-naval-architecture.md) | 1877 | Naval architecture taught to the officer |
+| S. W. Barnaby | [*Marine Propellers*](/view.html?p=documents/books/barnaby-1891-marine-propellers.md) | 1891 | The screw given its theory and its numbers |
+| E. L. Attwood | [*Text-book of Theoretical Naval Architecture*](/view.html?p=documents/books/attwood-1899-textbook-theoretical-naval-architecture.md) | 1899 | The drawing-office calculations made a curriculum |
 
 ## Ars Photographia
 
