@@ -81268,7 +81268,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the earth-science rows: Mallet’s 1846 dynamics paper, Hutton’s Theory of the Earth and Playfair’s Illustrations, Smith’s 1815 memoir and Murchison’s Silurian System, Howard’s Climate of London, FitzRoy’s Weather Book, Symons’s British Rainfall, Buchan’s Handy Book and Hann’s Handbuch der Klimatologie, Thomson’s Challenger voyage, the Gauss–Weber Resultate, Lloyd’s Treatise on Magnetism, Struve’s Arc du Méridien, and the Great Trigonometrical Survey collector."
+        "summary": "Add the earth-science rows: Mallet’s 1846 dynamics paper, Hutton’s Theory of the Earth and Playfair’s Illustrations, Smith’s 1815 memoir and Murchison’s Silurian System, Howard’s Climate of London, FitzRoy’s Weather Book, Symons’s British Rainfall, Buchan’s Handy Book and Hann’s Handbuch der Klimatologie, Thomson’s Challenger voyage, the Gauss–Weber Resultate, Lloyd’s Treatise on Magnetism, Struve’s Arc du Méridien, and the Great Trigonometrical Survey collector.",
+        "commit": "4e51efc8ce91589e50b034cfad0855b139adf613",
+        "before": "221f934ea7d5cf753b41131753aa89d6eb60cba3"
       }
     ]
   }
