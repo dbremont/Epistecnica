@@ -1,29 +1,29 @@
 ---
-tags: [document, engineering, structural, construction, historical-technique]
+tags: [document, architecture, timber, carpentry, construction, historical-technique]
 qa:
- - What does Tredgold's carpentry carry of timber practice from the joiners that experimental material science did not yet reach?
- - How does the roof-truss system change when cast iron enters 1822's designs beside it?
+ - What does Tredgold's Carpentry carry — the timber and its joints sized by strength, the carpenter's craft given its theory?
+ - Is the 1820 book the first to treat carpentry as a branch of the strength of materials?
 ---
 
 # Tredgold, T. (1820). Elementary Principles of Carpentry. London.
 
 ```bibtex
 @book{tredgold1820carpentry,
-  title={Elementary Principles of Carpentry},
+  title={Elementary principles of carpentry: chiefly composed from the standard work of Thomas Tredgold, with additions, alterations and improvements},
   author={Tredgold, Thomas},
   year={1820},
-  publisher={London: J. Taylor}
+  publisher={London: Taylor},
 }
 ```
 
 ## Notes
 
-> Thomas Tredgold's carpentry — the structural theory of timber construction, its forms and its joints computed with the same quantitative eye the cast-iron essay took to iron: roofs, floors, centring, the tension and compression that gave the carpenter's rule strength in the early nineteenth century's great building program.
+> Thomas Tredgold's Elementary Principles of Carpentry — the timber and its joints sized by strength: the species and their properties, the beams and the trusses, the floors and the roofs, and the rules that made the carpenter's craft a branch of the strength of materials rather than a body of precedent. The book that put the roof truss on a calculated basis and taught the trade its own theory.
 
-> The scans below carry the 1820 first edition and a later printing with the atlas of engravings.
+> The 1880 edition is scanned; the first edition is 1820 and the entry states it.
 
 ## References
 
-- [Archive.org — Elementary principles of carpentry (1820 digitized printing)](https://archive.org/details/1820-tredgold.-elementary-principles-of-carpentry)
-- [Archive.org — a later illustrated printing](https://archive.org/details/elementaryprinc00tredgoog)
-- [Tredgold, On the Strength of Cast Iron (1822) — the materials companion](/view.html?p=documents/books/tredgold-1822-practical-essay-strength-cast-iron.md)
+- [Archive.org — Elementary principles of carpentry (1880 edition)](https://archive.org/details/elementaryprinci00tred)
+- [Archive.org — Carpentry and joinery, atlas (1878)](https://archive.org/details/carpentryjoinery00tred)
+- [Barlow, A Treatise on the Strength of Materials (1837) — the science the carpentry applied](/view.html?p=documents/books/barlow-1837-strength-of-materials.md)

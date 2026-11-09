@@ -621,6 +621,18 @@ qa:
 | Edward Cresy | [*An Encyclopædia of Civil Engineering*](/view.html?p=documents/books/cresy-1847-encyclopaedia-civil-engineering.md) | 1847 | Civil engineering — the companion alphabet |
 | Thames Tunnel Company | [*Explanation of the Works of the Tunnel under the Thames*](/view.html?p=documents/books/thames-tunnel-1838-explanation.md) | 1828–38 | Tunnelling — the shield works and the company reports (1829 Sketches scan) |
 | Waygood & Co. | [*Hydraulic Passenger Lifts: A Guide to Intending Purchasers*](/view.html?p=documents/books/waygood-1889-hydraulic-passenger-lifts.md) | 1889 | Building machinery — the lift trade's guide (honest no-scan) |
+| Vitruvius (trans. J. Gwilt) | [*The Architecture, in Ten Books*](/view.html?p=documents/books/vitruvius-1826-architecture-gwilt.md) | 1826 | The founding technical canon of architecture |
+| L. B. Alberti | [*De Re Aedificatoria*](/view.html?p=documents/books/alberti-1485-de-re-aedificatoria.md) | 1485 | Architecture theorized — the first modern architectural book |
+| Andrea Palladio | [*I Quattro Libri dell'Architettura*](/view.html?p=documents/books/palladio-1570-quattro-libri.md) | 1570 | The architect's own drawings published |
+| François Blondel | [*Cours d'Architecture*](/view.html?p=documents/books/blondel-1675-cours-darchitecture.md) | 1675 | Architecture taught in the academy |
+| J.-B. Rondelet | [*Traité Théorique et Pratique de l'Art de Bâtir*](/view.html?p=documents/books/rondelet-1802-traite-art-de-batir.md) | 1802–17 | Building construction taught as applied science (honest no-scan) |
+| Thomas Tredgold | [*Elementary Principles of Carpentry*](/view.html?p=documents/books/tredgold-1820-elementary-principles-carpentry.md) | 1820 | Timber sized by strength — the craft given its theory |
+| Peter Nicholson | [*The Architectural Dictionary*](/view.html?p=documents/books/nicholson-1819-architectural-dictionary.md) | 1819 | The terms and trades of building in one alphabet (honest no-scan) |
+| E.-E. Viollet-le-Duc | [*Entretiens sur l'Architecture*](/view.html?p=documents/books/viollet-le-duc-1863-entretiens.md) | 1863–72 | Construction reasoned from the fabric — the rational architecture |
+| Auguste Choisy | [*Histoire de l'Architecture*](/view.html?p=documents/books/choisy-1899-histoire-architecture.md) | 1899 | The building tradition explained by its construction |
+| William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1857-iron-building.md) | 1857 | The iron girder and the fireproof floor |
+| G. F. Harris | [*The Science of Brickmaking*](/view.html?p=documents/books/harris-1897-science-of-brickmaking.md) | 1897 | The clay and the kiln made a science |
+| C. F. Mitchell | [*Building Construction and Drawing*](/view.html?p=documents/books/mitchell-1902-building-construction.md) | 1902 (boundary) | The craft taught as a course — the details specified |
 
 ## Ars Transportaria
 
