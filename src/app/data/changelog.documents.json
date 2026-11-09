@@ -32484,7 +32484,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32500,7 +32502,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32516,7 +32520,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32532,7 +32538,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32548,7 +32556,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32564,7 +32574,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32690,7 +32702,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32706,7 +32720,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32722,7 +32738,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32738,7 +32756,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32754,7 +32774,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32770,7 +32792,8 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Rename the file to traite (the slug had traine) and restore the accented title characters."
+        "summary": "Rename the file to traite (the slug had traine) and restore the accented title characters.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7"
       }
     ]
   },
@@ -32786,7 +32809,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32802,7 +32827,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32829,7 +32856,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   },
@@ -32856,7 +32885,9 @@
       {
         "date": "2026-11-09",
         "kind": "style",
-        "summary": "Restore the accented characters the entry had escaped literally."
+        "summary": "Restore the accented characters the entry had escaped literally.",
+        "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
+        "before": "639e079e273461916dba22e133f269078420f509"
       }
     ]
   }
