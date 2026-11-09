@@ -29716,5 +29716,115 @@
         "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
+  },
+  {
+    "file_path": "books/bion-1723-construction-and-uses.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bion, The construction and principal uses of mathematical instruments (1723 English tr. by Edmund Stone of the 1709 Paris original); 1723 scans in both languages, cross-linked to Simms."
+      }
+    ]
+  },
+  {
+    "file_path": "books/adams-1791-geometrical-and-graphical-essays.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Adams, Geometrical and graphical essays (1791); 1791-1807 scans plus the 1803 plate volume, cross-linked to the 1790 barometer dissertation."
+      }
+    ]
+  },
+  {
+    "file_path": "books/heather-1849-mathematical-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Heather, A treatise on mathematical instruments (1849, Weale rudimentary series); 1849-59 scans, cross-linked to Simms."
+      }
+    ]
+  },
+  {
+    "file_path": "books/oliver-1830-mathematical-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Oliver's elementary instrument treatise (Boston, 1830); honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/moxon-1683-mechanick-exercises.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Moxon, Mechanick exercises (1683) - printing, joinery, smithery from inside the shops; 1677-83 scans, foundational-reference note and cross-link to the Encyclopedie."
+      }
+    ]
+  },
+  {
+    "file_path": "books/baines-1835-cotton-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Baines, History of the cotton manufacture in Great Britain (1835); 1835 scan, cross-linked to Ure and O Neill."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barlow-1878-history-and-principles-of-weaving.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Barlow, The history and principles of weaving by hand and by power (1878); three 1878-79 scans, cross-linked to Baines."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pellatt-1849-curiosities-of-glass-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Pellatt, Curiosities of glass making (1849); Getty and second scans, materials-engineering glass branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tomlinson-1852-cyclopaedia-useful-arts.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tomlinson, Cyclopaedia of useful arts and manufactures (1852); 1854 scans with first-edition note, cross-linked to Ure."
+      }
+    ]
+  },
+  {
+    "file_path": "books/webster-1844-encyclopaedia-domestic-economy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Webster and Parkes, An encyclopaedia of domestic economy (1844); 1844 and 1861 scans, the household as production site."
+      }
+    ]
+  },
+  {
+    "file_path": "books/knight-1831-results-of-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Knight, The results of machinery (1831) - the machinery question's documented advocacy; 1831 scan, cross-linked to Babbage and Ure."
+      }
+    ]
   }
 ]
