@@ -29448,7 +29448,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Leupold, Theatrum machinarum generale (1724, vol. 1) - general machine science; 1724 scan, cross-linked to the siblings and Bockler."
+        "summary": "Add Leupold, Theatrum machinarum generale (1724, vol. 1) - general machine science; 1724 scan, cross-linked to the siblings and Bockler.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29458,7 +29459,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Leupold, Theatrum machinarum hydrotechnicarum (1724-25, vol. 2) - water-raising machinery; 1724 scans, cross-linked to Belidor."
+        "summary": "Add Leupold, Theatrum machinarum hydrotechnicarum (1724-25, vol. 2) - water-raising machinery; 1724 scans, cross-linked to Belidor.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29468,7 +29470,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Leupold, Theatrum machinarum molarium (1735, vol. 3, posthumous) - mills and power transmission; 1735 and 1767 scans, cross-linked to Fairbairn."
+        "summary": "Add Leupold, Theatrum machinarum molarium (1735, vol. 3, posthumous) - mills and power transmission; 1735 and 1767 scans, cross-linked to Fairbairn.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29478,7 +29481,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Navier, Resume des lecons a l'Ecole des Ponts et Chaussees (1826); later printings scanned with honest first-edition note, cross-linked to Tredgold."
+        "summary": "Add Navier, Resume des lecons a l'Ecole des Ponts et Chaussees (1826); later printings scanned with honest first-edition note, cross-linked to Tredgold.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29488,7 +29492,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hachette, Traite elementaire des machines (1819, editions through 1828); 1828 scan, cross-linked to Reuleaux and Navier."
+        "summary": "Add Hachette, Traite elementaire des machines (1819, editions through 1828); 1828 scan, cross-linked to Reuleaux and Navier.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29498,7 +29503,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Knapp, Lehrbuch der chemischen Technologie (1847) - the German Technologie textbook; 1847 and 1874 scans, cross-linked to Wagner."
+        "summary": "Add Knapp, Lehrbuch der chemischen Technologie (1847) - the German Technologie textbook; 1847 and 1874 scans, cross-linked to Wagner.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29508,7 +29514,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Booth and Morfit, The encyclopedia of chemistry (1850); 1862 revised-edition scan with honest first-edition note, cross-linked to Ure."
+        "summary": "Add Booth and Morfit, The encyclopedia of chemistry (1850); 1862 revised-edition scan with honest first-edition note, cross-linked to Ure.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29518,7 +29525,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Sch-nbein's gun-cotton contributions (1846, @article) - industrial cellulose chemistry; honest no-scan note."
+        "summary": "Add Sch-nbein's gun-cotton contributions (1846, @article) - industrial cellulose chemistry; honest no-scan note.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29528,7 +29536,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Crookes, Select methods in chemical analysis (1871); 1871-1905 scans, cross-linked to Fresenius."
+        "summary": "Add Crookes, Select methods in chemical analysis (1871); 1871-1905 scans, cross-linked to Fresenius.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   },
@@ -29538,7 +29547,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Fresenius, A system of instruction in quantitative chemical analysis (1846, English same year); 1865 and 1881 English scans."
+        "summary": "Add Fresenius, A system of instruction in quantitative chemical analysis (1846, English same year); 1865 and 1881 English scans.",
+        "commit": "f14e1a4827812be2c0a23aa4f8f50f6e049760e5"
       }
     ]
   }
