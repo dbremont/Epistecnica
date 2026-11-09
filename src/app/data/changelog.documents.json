@@ -29628,5 +29628,85 @@
         "commit": "b5b314e535f509e038ad1fa8f89f08547d6ca290"
       }
     ]
+  },
+  {
+    "file_path": "books/smeaton-1812-reports.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Smeaton, Reports of the late John Smeaton (1812-14, 4 vols) - consulting civil engineering as documented practice; 1812 and 1837 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/telford-1838-life.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Life of Thomas Telford, civil engineer (1838), the reports-based engineering biography; 1838 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smiles-1870-life-of-isambard-kingdom-brunel.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Smiles, The life of Isambard Kingdom Brunel (1870); honest no-scan note, cross-linked to the Telford life."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gregory-1857-military-bridges.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gregory, Treatise on the principles of construction of military bridges (1857); honest no-scan note, Haupt 1864 linked as the neighbour."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wheatstone-1843-voltaic-circuit.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wheatstone's Bakerian lecture (1843, Phil. Trans.) - the rheostat and voltaic-circuit constants; 1843 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/henry-contributions-electricity-magnetism.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Henry's Contributions to electricity and magnetism as a paper series (1837-55 @article); 1837-43 transactions scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thompson-1884-dynamo-electric-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thompson, Dynamo-electric machinery (1884); 1886-1899 edition scans, cross-linked to the electric-light trade books."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ayrton-1885-practical-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ayrton, Practical electricity (1885), the Finsbury laboratory course; 1887/1891 scans with honest first-edition note, cross-linked to Thompson."
+      }
+    ]
   }
 ]
