@@ -30803,6 +30803,11 @@
         "kind": "feat",
         "summary": "Add Accum, A practical treatise on gas-light (1815) - the outline's 1812 process pamphlet noted as the treatise's own predecessor within this pair; 1815-1818 scans.",
         "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the 1819 Description-of-the-process scans (three copies) into the held Accum entry - the outline's separate 1819 rows merge into it, honest links added."
       }
     ]
   },
@@ -30858,6 +30863,136 @@
         "kind": "feat",
         "summary": "Add Colburn, Locomotive engineering and the mechanism of railways (1871); 1871 scan, the trade journalism collected as teaching.",
         "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
+      }
+    ]
+  },
+  {
+    "file_path": "books/ure-1836-cotton-manufacture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ure, The cotton manufacture of Great Britain (1836, 2 vols); 1836 and 1861 scans, the factory machinery systematic between the held Philosophy and Baines."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brown-1876-power-loom.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Alexander Brown, power-loom construction treatise (1876); 1883/1887 printings scanned with the first-edition note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nasmith-1887-modern-cotton-carding-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Nasmith, The modern cotton carding engine (1887); honest no-scan note, the later Nasmith works linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/parnell-1844-dyeing-and-calico-printing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Parnell's applied chemistry, dyeing and calico printing (1844; 1860 practical-treatise printing scanned), between O'Neill and Sansone."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sansone-1887-printing-of-cotton-fabrics.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sansone, The printing of cotton fabrics (1887); 1887 scan, the Heywood finishing manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/tredgold-1824-warming-and-ventilating.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Tredgold, the warming and ventilating principles (1824); 1824 scan, the building-services founding treatise, cross-linked to the strength and carpentry volumes."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fairbairn-1854-iron-building.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fairbairn, cast and wrought iron to building purposes (1854); 1857/1858 printings with the first-edition note, cross-linked to the held mills-and-millwork."
+      }
+    ]
+  },
+  {
+    "file_path": "books/snelling-1849-history-practice-photography.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Snelling, the history and practice of photography (1849); 1853 edition scan and Gutenberg transcription, the American daguerrean trade instruction."
+      }
+    ]
+  },
+  {
+    "file_path": "books/russell-1861-tannin-process.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Charles Russell, The tannin process (1861); 1863 scans and appendix linked with the first-edition note, the dry-plate pamphlet beside the held wet-plate manuals."
+      }
+    ]
+  },
+  {
+    "file_path": "books/anderson-1872-skylight-and-dark-room.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Anderson, The skylight and the dark-room (1872); 1872 scan - the studio-and-darkroom construction manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hearn-1874-practical-printer.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hearn, The practical printer (1874); 1874 and 1878 scans, the printing-room manual beside Abney."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wilson-1894-cyclopedic-photography.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wilson, Cyclopedic photography (1894); both 1894 scans, the encyclopedic close of the photography shelf."
+      }
+    ]
+  },
+  {
+    "file_path": "books/phillips-1884-treatise-ore-deposits.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Phillips, A treatise on ore deposits (1884); 1896 second-edition scans with the first-edition note, a corruption slip repaired, the geological side of the held Elements."
       }
     ]
   }
