@@ -47,6 +47,15 @@ qa:
 | Waygood & Co. | [*Hydraulic Passenger Lifts: A Guide to Intending Purchasers*](/view.html?p=documents/books/waygood-1889-hydraulic-passenger-lifts.md) | 1889 | The lift trade's purchaser guide (honest no-scan; the plant side in Robinson's held volume) |
 | John Harrison | [*A Manual of the Remington Standard Type-Writer*](/view.html?p=documents/books/harrison-1890-remington-type-writer-manual.md) | 1890 | Office machinery instruction |
 | Office and Library Co. | [*Modern Office Devices*](/view.html?p=documents/books/officelibrary-1898-modern-office-devices.md) | 1898 | The office-machinery catalogue (honest no-scan) |
+| Agostino Ramelli | [*Le Diverse et Artificiose Machine*](/view.html?p=documents/books/ramelli-1588-diverse-machine.md) | 1588 | The founding printed machine-book |
+| Vittorio Zonca | [*Novo Teatro di Machine*](/view.html?p=documents/books/zonca-1607-novo-teatro.md) | 1607 | The Padua machine theatre after Ramelli |
+| J. T. Desaguliers | [*Mathematical Elements of Natural Philosophy*](/view.html?p=documents/books/desaguliers-1726-mathematical-elements-natural-philosophy-confir.md) | 1726 | Experimental philosophy taught through machines |
+| Leonhard Euler | [*Mechanica sive Motus Scientia Analytice Exposita*](/view.html?p=documents/books/euler-1736-mechanica-sive-motus-scientia-analytice.md) | 1736 | Analytical mechanics — the machine’s motion mathematized |
+| M. G. Suárez | [*Colección General de Máquinas*](/view.html?p=documents/books/suarez-1783-coleccion-general-maquinas-escogidas-entre.md) | 1783 | The Spanish machine collection — plates and descriptions |
+| Thomas Young | [*A Course of Lectures on Natural Philosophy and the Mechanical Arts*](/view.html?p=documents/books/young-1845-course-lectures-natural-philosophy-mechanical.md) | 1807 (ed. 1845) | Natural philosophy and the mechanical arts taught together |
+| Robert Willis | [*Principles of Mechanism*](/view.html?p=documents/books/willis-1841-principles-of-mechanism.md) | 1841 | Mechanism theory between Hachette and Reuleaux |
+| William Sellers | [*On a Uniform System of Screw Threads*](/view.html?p=documents/books/sellers-1864-uniform-system-screw-threads.md) | 1864 | The American screw-thread standard (paper) |
+| Edward H. Knight | [*The Mechanician*](/view.html?p=documents/books/knight-1879-the-mechanician.md) | 1879 | The shop-floor mechanician’s own manual |
 
 ## Ars Chimica
 
@@ -77,6 +86,12 @@ qa:
 | George Lunge | [*A Treatise on the Distillation of Coal-Tar and Ammonia Liquor*](/view.html?p=documents/books/lunge-1882-coal-tar-and-ammonia.md) | 1882 | Coal-tar processing and dyestuff by-products of gas manufacture |
 | Andres, Winckler & Brannt | [*Varnishes, Lacquers, Siccatives, and Sealing-Waxes*](/view.html?p=documents/books/brannt-1882-varnishes-lacquers.md) | 1882 | Industrial coatings manufacture |
 | H. C. Standage | [*The Practical Polish & Varnish Maker*](/view.html?p=documents/books/standage-1892-polish-varnish-maker.md) | 1892 | The coatings workshop register |
+| Antoine-Laurent Lavoisier | [*Traité Élémentaire de Chimie*](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md) | 1789 | The chemical revolution’s founding text |
+| A. F. Fourcroy | [*Elements of Chemistry and Natural History*](/view.html?p=documents/books/fourcroy-1796-elements-of-chemistry-and-natural-history-heron.md) | 1796 (English) | The revolution’s systematic teaching |
+| John Dalton | [*A New System of Chemical Philosophy*](/view.html?p=documents/books/dalton-1808-new-system-of-chemical-philosophy.md) | 1808–10 | Atomic theory the industrial chemistry assumed |
+| Adolphe Wurtz | [*Dictionnaire de Chimie Pure et Appliquée*](/view.html?p=documents/books/wurtz-1869-dictionnaire-de-chimie.md) | 1869 | The French reference dictionary |
+| H. E. Roscoe & C. Schorlemmer | [*A Treatise on Chemistry*](/view.html?p=documents/books/roscoe-1877-treatise-on-chemistry.md) | 1877 | The advanced reference of the 1870s–80s |
+| D. O’Brine | [*A Laboratory Guide in Chemical Analysis*](/view.html?p=documents/books/obrine-1889-laboratory-guide-chemical-analysis-wiley.md) | 1889 | The bench guide to the analytical course |
 
 ## Ars Metallica
 
@@ -106,6 +121,15 @@ qa:
 | Frederick Overman | [*A Treatise on Metallurgy*](/view.html?p=documents/books/overman-1852-treatise-metallurgy.md) | 1852 | American practical metallurgy — mining, processes, machinery |
 | Robert Hunt | [*British Mining*](/view.html?p=documents/books/hunt-1884-british-mining.md) | 1884 | Mining operations and mineral extraction — the national survey |
 | John Arthur Phillips | [*A Treatise on Ore Deposits*](/view.html?p=documents/books/phillips-1884-treatise-ore-deposits.md) | 1884 | Ore bodies, geological occurrence and mineral deposits |
+| J. F. Burgoyne | [*Rudimentary Treatise on the Blasting and Quarrying of Stone*](/view.html?p=documents/books/burgoyne-1849-blasting-and-quarrying.md) | 1849 | Blasting, quarrying and the powder economy |
+| H. Landrin | [*Manuel du Coutelier*](/view.html?p=documents/books/landrin-1835-manuel-du-coutelier.md) | 1835 | Cutlery and edge-tool forging (French) |
+| W. J. E. Crane | [*The Sheet-Metal Worker’s Guide*](/view.html?p=documents/books/crane-1888-sheet-metal-workers-guide.md) | 1888 | Sheet-metal work and the tinsmith’s bench |
+| M. T. Richardson | [*Practical Blacksmithing*](/view.html?p=documents/books/richardson-1891-practical-blacksmithing.md) | 1889–91 | The forge’s own collected practice |
+| J. B. Smith | [*A Treatise upon Wire*](/view.html?p=documents/books/smith-1891-treatise-upon-wire.md) | 1891 | Wire drawing, wire work and its manufactures |
+| W. C. Roberts-Austen | [*An Introduction to the Study of Metallurgy*](/view.html?p=documents/books/roberts-austen-1891-introduction-metallurgy.md) | 1891 | The metallography boundary at the century’s close |
+| Oscar Guttmann | [*Blasting: A Handbook for Engineers*](/view.html?p=documents/books/guttmann-1892-blasting-handbook.md) | 1892 | The engineer’s blasting handbook |
+| Arnold Lupton | [*A Practical Treatise on Mine Surveying*](/view.html?p=documents/books/lupton-1899-mine-surveying.md) | 1899 | Underground survey and the mine plan |
+| W. T. Flanders | [*Galvanizing and Tinning*](/view.html?p=documents/books/flanders-1900-galvanizing-and-tinning.md) | 1900 (boundary) | The coating trades at the century’s edge |
 
 ## Ars Agricola
 
@@ -132,6 +156,12 @@ qa:
 | Robert Ritchie | [*The Farm Engineer*](/view.html?p=documents/books/ritchie-1849-the-farm-engineer.md) | 1849 | Steam-powered agricultural machinery and threshing (honest no-scan) |
 | J. J. Thomas | [*Farm Implements and Farm Machinery*](/view.html?p=documents/books/thomas-1869-farm-implements.md) | 1869 | Agricultural machinery and mechanical principles |
 | John Scott | [*Barn Implements and Machines*](/view.html?p=documents/books/scott-1884-barn-implements.md) | 1884 | Mechanized agricultural operations |
+| Francis Home | [*The Principles of Agriculture and Vegetation*](/view.html?p=documents/books/home-1756-principles-of-agriculture-and-vegetation.md) | 1756 | The chemistry of vegetation before the agricultural chemists |
+| Arthur Young | [*Annals of Agriculture*](/view.html?p=documents/books/young-1784-annals-of-agriculture.md) | 1784–1815 | The improving agriculture’s own record |
+| A. Cochrane, Earl of Dundonald | [*A Treatise on the Connection between Agriculture and Chemistry*](/view.html?p=documents/books/cochrane-1795-treatise-agriculture-chemistry-dundonald.md) | 1795 | The agricultural-chemistry programme stated |
+| J. A. C. Chaptal | [*Chemistry Applied to Agriculture*](/view.html?p=documents/books/chaptal-1840-chemistry-applied-to-agriculture-harper.md) | 1840 (English) | The French agricultural chemistry |
+| J. A. Ransome | [*The Implements of Agriculture*](/view.html?p=documents/books/ransome-1843-implements-of-agriculture.md) | 1843 | The implement-maker’s survey of the plough and its neighbours |
+| J. A. Stöckhardt | [*Chemical Field Lectures*](/view.html?p=documents/books/stockhardt-1853-chemical-field-lectures-teschemacher.md) | 1853 | Field lectures — agricultural chemistry for farmers |
 
 ## Ars Civilis
 
@@ -173,6 +203,13 @@ qa:
 | James P. Kirkwood | [*Report on the Filtration of River Waters*](/view.html?p=documents/books/kirkwood-1869-filtration-of-river-waters.md) | 1869 | Municipal water filtration and treatment |
 | William Humber | [*A Comprehensive Treatise on the Water Supply of Cities and Towns*](/view.html?p=documents/books/humber-1876-water-supply-cities-towns.md) | 1876 | Urban waterworks, reservoirs and distribution (honest no-scan) |
 | W. R. Nichols | [*Water Supply Considered from a Sanitary Standpoint*](/view.html?p=documents/books/nichols-1883-water-supply-sanitary.md) | 1883 | Chemical and sanitary assessment of drinking water |
+| James Finley | [*A Description of the Chain Bridge*](/view.html?p=documents/books/finley-1810-suspension-chain-bridge.md) | 1810 | The American suspension-bridge origin (patent description) |
+| Peter Barlow | [*A Treatise on the Strength of Materials*](/view.html?p=documents/books/barlow-1837-strength-of-materials.md) | 1837 | The strength tables between Tredgold and Rankine |
+| Eaton Hodgkinson | [*Experimental Researches on the Strength of Pillars*](/view.html?p=documents/books/hodgkinson-1840-strength-of-pillars.md) | 1840 | Pillar-strength experiments (paper) |
+| Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
+| Edward Dobson | [*A Rudimentary Treatise on Foundations and Concrete Works*](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md) | 1850 | Foundations, concrete and the builder’s groundwork |
+| J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
+| Benjamin Baker | [*Long-Span Railway Bridges*](/view.html?p=documents/books/baker-1873-long-span-railway-bridges.md) | 1873 | The long-span design science (honest no-scan) |
 
 ## Ars Electrica
 
@@ -206,6 +243,12 @@ qa:
 | Alexander Watt | [*Electro-Deposition (Electro-Metallurgy Practically Treated)*](/view.html?p=documents/books/watt-1880-electro-deposition.md) | 1880 | Metal deposition by electrolysis — the same-title trade beside Gore |
 | Alfred Niaudet | [*Elementary Treatise on Electric Batteries*](/view.html?p=documents/books/niaudet-1880-electric-batteries.md) | 1880 | Battery construction: primary and secondary cells (Bottone's 1902 boundary row carried inside) |
 | Henry M. Noad | [*The Student's Text-Book of Electricity*](/view.html?p=documents/books/noad-1867-students-text-book-of-electricity.md) | 1867 | Electricity for the telegraph trade's students |
+| Benjamin Franklin | [*Experiments and Observations on Electricity*](/view.html?p=documents/books/franklin-1751-experiments-electricity.md) | 1751 | The electrical founding manual |
+| Edward Nairne | [*Directions for Using the Electrical Machine*](/view.html?p=documents/books/nairne-1764-directions-electrical-machine-made-sold.md) | 1764 | The instrument-maker’s directions — electricity as apparatus |
+| Luigi Galvani | [*De Viribus Electricitatis in Motu Musculari*](/view.html?p=documents/books/galvani-1792-de-viribus.md) | 1792 | The muscle electricity’s founding commentary |
+| A.-M. Ampère | [*Théorie des Phénomènes Électro-Dynamiques*](/view.html?p=documents/books/ampere-1826-theorie-des-phenomenes-electro-dynamiques.md) | 1826 | Electrodynamics systematized |
+| Alfred Smee | [*Elements of Electro-Metallurgy*](/view.html?p=documents/books/smee-1843-elements-electro-metallurgy.md) | 1843 | The founding deposition manual |
+| James Clerk Maxwell | [*A Treatise on Electricity and Magnetism*](/view.html?p=documents/books/maxwell-1873-treatise-electricity-magnetism.md) | 1873 | The theoretical frame the engineering assumed |
 
 ## Ars Instrumentalis
 
@@ -235,6 +278,10 @@ qa:
 | David Brewster | [*A Treatise on the Microscope*](/view.html?p=documents/books/brewster-1837-treatise-on-the-microscope.md) | 1837 | The practical microscope manual (1837 article-form) |
 | W. F. Stanley | [*A Descriptive Treatise on Mathematical Drawing Instruments*](/view.html?p=documents/books/stanley-1868-mathematical-drawing-instruments.md) | 1868 | The maker-side instrument manual |
 | Arnold & Sons | [*A Catalogue of Surgical Instruments*](/view.html?p=documents/books/arnold-1880-catalogue-surgical-instruments.md) | 1880 | The surgeon's apparatus — the trade catalogue |
+| Christiaan Huygens | [*Horologium Oscillatorium*](/view.html?p=documents/books/huygens-1673-horologium-oscillatorium-sive-motu-pendulorum.md) | 1673 | The pendulum clock’s mathematical foundation |
+| L. S. Beale | [*How to Work with the Microscope*](/view.html?p=documents/books/beale-1857-how-to-work-with-the-microscope.md) | 1857 | The microscopist’s bench instruction |
+| E. B. Benjamin | [*American Hand-Book of Chemical and Physical Apparatus*](/view.html?p=documents/books/benjamin-1872-american-handbook-chemical-physical-apparatus.md) | 1872 | The apparatus-maker’s catalogue |
+| C. E. Fritts | [*The Watch Adjuster’s Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker’s precision work |
 
 ## Ars Manufactura
 
@@ -291,6 +338,15 @@ qa:
 | Iltyd Redwood | [*Lubricants, Oils and Greases*](/view.html?p=documents/books/redwood-1898-lubricants-oils-greases.md) | 1898 | Lubrication and the machinery oil economy (honest no-scan) |
 | Eyre Massey Shaw | [*Fire Protection*](/view.html?p=documents/books/shaw-1876-fire-protection.md) | 1876 | The fire-brigade organization of London |
 | Roper & Stellwagen | [*Hand-Book of Modern Steam Fire-Engines*](/view.html?p=documents/books/roper-1889-steam-fire-engines.md) | 1889 | Steam fire-engines, pumps and fire-alarm telegraphy |
+| George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
+| Joseph Marryat | [*A History of Pottery and Porcelain*](/view.html?p=documents/books/marryat-1850-history-of-pottery.md) | 1850 | The ceramics history beside Porter |
+| G. W. S. Piesse | [*The Art of Perfumery*](/view.html?p=documents/books/piesse-1857-art-of-perfumery.md) | 1857 | Essential oils, perfumery and the distiller’s by-trades |
+| J. R. D. Riffault | [*A Practical Treatise on the Manufacture of Colors for Painting*](/view.html?p=documents/books/riffault-1874-manufacture-of-colors.md) | 1874 | Pigment manufacture |
+| W. N. Fitz-Gerald | [*The Harness Makers’ Illustrated Manual*](/view.html?p=documents/books/fitzgerald-1875-harness-makers-manual.md) | 1875 | Harness making and the leather trades |
+| J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
+| J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade’s own manual |
+| G. H. Hurst | [*Painters’ Colours, Oils, and Varnishes*](/view.html?p=documents/books/hurst-1892-painters-colours.md) | 1892 | The paint-maker’s chemistry |
+| S. Lehner | [*The Manufacture of Ink*](/view.html?p=documents/books/lehner-1892-manufacture-of-ink.md) | 1892 | Writing and printing inks |
 
 ## Ars Energia
 
@@ -325,6 +381,10 @@ qa:
 | John Bourne | [*A Treatise on the Steam Engine Applied to Mines, Mills, Steam-Navigation, Railways*](/view.html?p=documents/books/bourne-1846-treatise-steam-engine.md) | 1846 | Applied steam engineering across the industrial systems |
 | William Fairbairn | [*Useful Information for Engineers*](/view.html?p=documents/books/fairbairn-1856-useful-information-engineers.md) | 1856–60 | Boiler construction, strength of materials, experiments and machinery papers |
 | Henry Robinson | [*Hydraulic Power and Hydraulic Machinery*](/view.html?p=documents/books/robinson-1887-hydraulic-power.md) | 1887 | Transmitted water power — the accumulator-station plant manual |
+| Hermann von Helmholtz | [*Über die Erhaltung der Kraft*](/view.html?p=documents/books/helmholtz-1847-uber-die-erhaltung-der-kraft.md) | 1847 | The conservation of force — the energy principle |
+| William Thomson & P. G. Tait | [*Treatise on Natural Philosophy*](/view.html?p=documents/books/kelvin-1867-treatise-natural-philosophy-vol-claredon.md) | 1867 | The energy doctrine taught as natural philosophy |
+| R. H. Thurston | [*A History of the Growth of the Steam-Engine*](/view.html?p=documents/books/thurston-1878-history-growth-steam-engine-vol.md) | 1878 | The engine’s history by its own engineer-historian |
+| Rudolf Clausius | [*The Mechanical Theory of Heat*](/view.html?p=documents/books/clausius-1879-mechanical-theory-heat-macmillan.md) | 1879 (English) | The mechanical theory in its systematic form |
 
 ## Ars Cibaria
 
@@ -363,6 +423,8 @@ qa:
 | J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
 | Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
 | J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
+| Samuel McHarry | [*The Practical Distiller*](/view.html?p=documents/books/mcharry-1809-practical-distiller.md) | 1809 | The American distiller’s own manual |
+| P. Duplais | [*A Treatise on the Manufacture and Distillation of Alcoholic Liquors*](/view.html?p=documents/books/duplais-1871-alcoholic-liquors.md) | 1871 | The French distiller’s treatise |
 
 ## Ars Acustica
 
@@ -388,6 +450,7 @@ qa:
 | August Kundt | [*Über eine neue Art akustischer Staubfiguren*](/view.html?p=documents/books/kundt-1866-acoustic-dust-figures.md) | 1866 | Acoustic measurement — the tube method (paper) |
 | Rudolph Koenig | [*Quelques Expériences d'Acoustique*](/view.html?p=documents/books/koenig-1882-quelques-experiences.md) | 1882 | Acoustic experiments at the century's leading maker |
 | Rudolph Koenig | [*Catalogue des Appareils d'Acoustique*](/view.html?p=documents/books/koenig-1889-catalogue-of-acoustic-instruments.md) | 1889 (1865 first) | Acoustic instruments: the trade catalogue |
+| G. B. Airy | [*On Sound and Atmospheric Vibrations*](/view.html?p=documents/books/airy-1868-sound-atmospheric-vibrations.md) | 1868 | The mathematical acoustics of the atmosphere |
 
 ## Ars Telluris
 
@@ -475,6 +538,7 @@ qa:
 | S. G. J. Boswell | [*Dredging and Other Plant at the Quebec Harbour Works*](/view.html?p=documents/books/boswell-1881-dredging-quebec-harbour-works.md) | 1881 | The dredging plant register (honest no-scan) |
 | C. H. L. Kuhl | [*Dredging on the Lower Danube*](/view.html?p=documents/books/kuhl-1881-dredging-lower-danube.md) | 1881 | River-channel dredging (honest no-scan) |
 | J. J. Webster | [*Dredging Appliances*](/view.html?p=documents/books/webster-1886-dredging-appliances.md) | 1886 | The dredging classification (paper, honest no-scan) |
+| A. E. Seaton | [*A Manual of Marine Engineering*](/view.html?p=documents/books/seaton-1890-manual-of-marine-engineering.md) | 1890 | The marine engineer’s design manual |
 
 ## Ars Photographia
 

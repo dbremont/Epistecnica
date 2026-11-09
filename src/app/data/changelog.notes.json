@@ -81215,6 +81215,11 @@
         "summary": "Make every Ars table one continuous table again: delete the placeholder separator rows and the blank lines that split seven of them, move the seven military works out of Transportaria into the Civilis military cluster, drop the Gwilt and Cresy duplicate rows, and repair the renamed Duhamel link.",
         "commit": "a0b8c6c3492ff53fb54ab765ea5cd196d98983a7",
         "before": "639e079e273461916dba22e133f269078420f509"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Link sixty-four entries the corpus already held but the guide never named: the machine-book and mechanism line (Ramelli, Zonca, Euler, Desaguliers, Willis, Knight, Sellers), the chemical revolution and its references (Lavoisier, Fourcroy, Dalton, Wurtz, Roscoe-Schorlemmer, O’Brine), the metal and mining trades (Burgoyne, Landrin, Crane, Richardson, Smith on wire, Roberts-Austen, Guttmann, Lupton, Flanders), the agricultural chemistry line (Home, Young, Cochrane, Chaptal, Ransome, Stöckhardt), the strength-and-bridge line (Finley, Barlow, Hodgkinson, Woolwich, Dobson, Dahlgren, Baker), the electrical founding (Franklin, Nairne, Galvani, Ampère, Smee, Maxwell), the instrument line (Huygens, Beale, Benjamin, Fritts), the trades (Gilroy, Marryat, Piesse, Riffault, Fitz-Gerald, Nasmith, Leno, Hurst, Lehner), the energy doctrine (Helmholtz, Thomson-Tait, Thurston, Clausius), distilling (McHarry, Duplais), Airy’s acoustics and Seaton’s marine engineering."
       }
     ]
   }
