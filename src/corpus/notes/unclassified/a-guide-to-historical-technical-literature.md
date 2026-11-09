@@ -24,6 +24,11 @@ qa:
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Manufacturing systems and production organization |
 | William J. M. Rankine | [*A Manual of Machinery and Millwork*](/view.html?p=documents/books/rankine-1869-manual-of-machinery-and-millwork.md) | 1869 | Machine construction |
 | Franz Reuleaux | [*The Kinematics of Machinery*](/view.html?p=documents/books/reuleaux-1875-kinematics-of-machinery.md) | 1875 | Mechanism theory and machine design |
+| Jacob Leupold | [*Theatrum Machinarum Generale*](/view.html?p=documents/books/leupold-1724-theatrum-machinarum-generale.md) | 1724 | General machine science |
+| Jacob Leupold | [*Theatrum Machinarum Hydrotechnicarum*](/view.html?p=documents/books/leupold-1724-theatrum-machinarum-hydrotechnicarum.md) | 1724–25 | Hydraulic machinery, waterworks and lifting systems |
+| Jacob Leupold | [*Theatrum Machinarum Molarium*](/view.html?p=documents/books/leupold-1735-theatrum-machinarum-molarium.md) | 1735 | Mills and mechanical power transmission |
+| Louis Hachette | [*Traité Élémentaire des Machines*](/view.html?p=documents/books/hachette-1819-traite-elementaire-des-machines.md) | 1819 | Machine components and elementary machine theory |
+| Claude-Louis Navier | [*Résumé des Leçons données à l'École des Ponts et Chaussées*](/view.html?p=documents/books/navier-1826-resume-des-lecons.md) | 1826 | Applied mechanics and engineering calculation |
 
 ## Ars Chimica
 
@@ -37,6 +42,11 @@ qa:
 | James Sheridan Muspratt | [*Chemistry, Theoretical, Practical, and Analytical*](/view.html?p=documents/books/muspratt-1860-chemistry-theoretical-practical-analytical.md) | 1860 | Industrial chemistry |
 | Rudolph Wagner | [*A Handbook of Chemical Technology*](/view.html?p=documents/books/wagner-1872-handbook-of-chemical-technology.md) | 1868/72 | Chemical manufacturing |
 | Thomas Edward Thorpe | [*A Dictionary of Applied Chemistry*](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md) | 1891–94 | Applied chemical knowledge |
+| Carl Remigius Fresenius | [*A System of Instruction in Quantitative Chemical Analysis*](/view.html?p=documents/books/fresenius-1846-system-of-instruction.md) | 1846 | Quantitative analytical chemistry |
+| Friedrich Knapp | [*Lehrbuch der Chemischen Technologie*](/view.html?p=documents/books/knapp-1847-lehrbuch-chemischen-technologie.md) | 1847 | Chemical technology and industrial chemical processes |
+| Carl Friedrich Schönbein | [*Contributions to the Chemical History of Gun-Cotton*](/view.html?p=documents/books/schonbein-1846-contributions-gun-cotton.md) | 1846 | Industrially significant cellulose chemistry (paper) |
+| James C. Booth & Campbell Morfit | [*The Encyclopedia of Chemistry*](/view.html?p=documents/books/booth-1850-encyclopedia-of-chemistry.md) | 1850 | Chemical substances, industrial applications and laboratory practice |
+| William Crookes | [*Select Methods in Chemical Analysis*](/view.html?p=documents/books/crookes-1871-select-methods-chemical-analysis.md) | 1871 | Analytical methods, apparatus and procedures |
 
 ## Ars Metallica
 
@@ -50,6 +60,10 @@ qa:
 | John Percy | [*Metallurgy: Iron and Steel*](/view.html?p=documents/books/percy-1864-metallurgy-iron-and-steel.md) | 1864 | Iron and steel production |
 | Hilary Bauerman | [*A Treatise on the Metallurgy of Iron*](/view.html?p=documents/books/bauerman-1868-treatise-metalurgy-of-iron.md) | 1868 | Iron metallurgy |
 | Isaac Lowthian Bell | [*The Chemical Phenomena of Iron Smelting*](/view.html?p=documents/books/bell-1872-chemical-phenomena-iron-smelting.md) | 1872 | Blast-furnace chemistry |
+| Henry Bessemer | [*On the Manufacture of Iron and Steel without Fuel*](/view.html?p=documents/books/bessemer-1856-manufacture-without-fuel.md) | 1856 | The Bessemer process (paper) |
+| John Percy | [*Metallurgy: Copper, Zinc, and Brass*](/view.html?p=documents/books/percy-1861-metallurgy-copper-zinc-brass.md) | 1861–65 | Non-ferrous metallurgy |
+| William H. Greenwood | [*Steel and Iron*](/view.html?p=documents/books/greenwood-1884-steel-and-iron.md) | 1884 | Iron and steel production methods |
+| Percy Gilchrist | [*The Manufacture of Steel by the Basic Process*](/view.html?p=documents/books/gilchrist-1887-basic-process.md) | 1887–89 | Basic steelmaking and phosphorus removal (patent papers) |
 
 ## Ars Agricola
 
@@ -63,6 +77,9 @@ qa:
 | James F. W. Johnston | [*Elements of Agricultural Chemistry and Geology*](/view.html?p=documents/books/johnston-1842-elements-agricultural-chemistry-geology.md) | 1842 (ed. into 1853) | Soil and agricultural chemistry |
 | Samuel W. Johnson | [*How Crops Grow*](/view.html?p=documents/books/johnson-1868-how-crops-grow-judd.md) | 1868 | Plant physiology and crop science |
 | Samuel W. Johnson | [*How Crops Feed*](/view.html?p=documents/books/johnson-1870-how-crops-feed.md) | 1870 | Plant nutrition |
+| Albrecht Daniel Thaer | [*The Principles of Agriculture* (Grundsätze)](/view.html?p=documents/books/thaer-1809-principles-of-agriculture.md) | 1809–12 | Systematic agricultural management and cultivation |
+| George Sinclair | [*Hortus Gramineus Woburnensis*](/view.html?p=documents/books/sinclair-1816-hortus-gramineus.md) | 1816 | Grasses, forage plants and experimentation |
+| J. B. Lawes & J. H. Gilbert | [*The Rothamsted Memoirs* (paper series)](/view.html?p=documents/books/lawes-gilbert-rothamsted-memoirs.md) | 1840s–90s | Experimental plant nutrition, fertilizers and soil chemistry |
 
 ## Ars Civilis
 
@@ -76,6 +93,10 @@ qa:
 | William J. M. Rankine | [*A Manual of Applied Mechanics*](/view.html?p=documents/books/rankine-1858-manual-of-applied-mechanics.md) | 1858 | Applied mechanics |
 | William J. M. Rankine | [*A Manual of the Steam Engine and Other Prime Movers*](/view.html?p=documents/books/rankine-1859-manual-steam-engine-prime-movers.md) | 1859 | Power engineering |
 | William J. M. Rankine | [*A Manual of Civil Engineering*](/view.html?p=documents/books/rankine-1862-manual-of-civil-engineering.md) | 1862 | Civil engineering |
+| John Smeaton | [*Reports of the Late John Smeaton*](/view.html?p=documents/books/smeaton-1812-reports.md) | 1812–14 | Bridges, harbours, lighthouses, canals and water engineering (collected reports) |
+| [Life of] Thomas Telford | [*Life of Thomas Telford*](/view.html?p=documents/books/telford-1838-life.md) | 1838 | Bridges, roads, canals and engineering practice |
+| Samuel Smiles | [*The Life of Isambard Kingdom Brunel*](/view.html?p=documents/books/smiles-1870-life-of-isambard-kingdom-brunel.md) | 1870 | Railway, bridge, tunnel and marine engineering projects |
+| Charles Hutton Gregory | [*A Treatise on the Principles of Construction of Military Bridges*](/view.html?p=documents/books/gregory-1857-military-bridges.md) | 1857 | Bridge construction and structural engineering |
 
 ## Ars Electrica
 
@@ -89,6 +110,10 @@ qa:
 | George B. Prescott | [*Electricity and the Electric Telegraph*](/view.html?p=documents/books/prescott-1877-electricity-electric-telegraph.md) | 1877 | Electrical telegraphy |
 | Thomas D. Lockwood | [*Electricity, Magnetism, and Electric Telegraphy*](/view.html?p=documents/books/lockwood-1883-electricity-magnetism-electric-telegraphy.md) | 1883 | Electrical engineering |
 | William Slingo & Arthur Brooker | [*Electrical Engineering for Electric Light Artizans and Students*](/view.html?p=documents/books/slingo-1890-electrical-engineering-electric-light-artizans.md) | 1890 | Electrical installations |
+| Charles Wheatstone | [*An Account of Several New Instruments and Processes for Determining the Constants of a Voltaic Circuit*](/view.html?p=documents/books/wheatstone-1843-voltaic-circuit.md) | 1843 | Electrical measurement and instrumentation (Bakerian Lecture) |
+| Joseph Henry | [*Contributions to Electricity and Magnetism*](/view.html?p=documents/books/henry-contributions-electricity-magnetism.md) | 1837–55 | Electromagnets, apparatus and experimental methods (paper series) |
+| Silvanus P. Thompson | [*Dynamo-Electric Machinery*](/view.html?p=documents/books/thompson-1884-dynamo-electric-machinery.md) | 1884 | Generators, motors and power conversion |
+| William Edward Ayrton | [*Practical Electricity*](/view.html?p=documents/books/ayrton-1885-practical-electricity.md) | 1885 | Electrical measurement, circuits and practical engineering |
 
 ## Ars Instrumentalis
 
@@ -101,6 +126,10 @@ qa:
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Production measurement and organization |
 | Thomas D. Lockwood | [*Electricity, Magnetism, and Electric Telegraphy*](/view.html?p=documents/books/lockwood-1883-electricity-magnetism-electric-telegraphy.md) | 1883 | Electrical measuring and apparatus |
 | William Thomson (Lord Kelvin) | [*Popular Lectures and Addresses*](/view.html?p=documents/books/kelvin-1889-popular-lectures-addresses.md) | 1889–91 | Physical measurement and instrumentation |
+| Nicolas Bion | [*The Construction and Principal Uses of Mathematical Instruments*](/view.html?p=documents/books/bion-1723-construction-and-uses.md) | 1723 (English tr.) | Instrument construction, adjustment and operation |
+| George Adams | [*Geometrical and Graphical Essays*](/view.html?p=documents/books/adams-1791-geometrical-and-graphical-essays.md) | 1791 | Mathematical instruments, optical devices and graphical construction |
+| H. K. Oliver | [*An Elementary Treatise on the Construction and Use of Mathematical Instruments*](/view.html?p=documents/books/oliver-1830-mathematical-instruments.md) | 1830 | Portable mathematical and drawing instruments |
+| John Fry Heather | [*A Treatise on Mathematical Instruments*](/view.html?p=documents/books/heather-1849-mathematical-instruments.md) | 1849 | Construction, testing and adjustment of instruments |
 
 ## Ars Manufactura
 
@@ -114,6 +143,13 @@ qa:
 | Charles O'Neill | [*A Dictionary of Dyeing and Calico Printing*](/view.html?p=documents/books/oneill-1862-dictionary-of-calico-printing-and-dyeing.md) | 1862 | Textile processing |
 | William Crookes | [*A Practical Handbook of Dyeing and Calico-Printing*](/view.html?p=documents/books/crookes-1874-practical-handbook-dyeing-calico-printing.md) | 1874 | Industrial textile chemistry |
 | Friedrich Gottlob Keller and contemporaries | Technical literature on paper manufacture | 19th century | Paper production (guide row, not a citable work) |
+| Joseph Moxon | [*Mechanick Exercises*](/view.html?p=documents/books/moxon-1683-mechanick-exercises.md) | 1683 | Printing, joinery, metalworking and the practical crafts from inside the shops |
+| Charles Knight | [*The Results of Machinery*](/view.html?p=documents/books/knight-1831-results-of-machinery.md) | 1831 | Machinery, industrial production and the machinery question |
+| Edward Baines | [*History of the Cotton Manufacture in Great Britain*](/view.html?p=documents/books/baines-1835-cotton-manufacture.md) | 1835 | Cotton machinery, spinning and textile manufacturing |
+| Thomas Webster & Mrs. W. Parkes | [*An Encyclopædia of Domestic Economy*](/view.html?p=documents/books/webster-1844-encyclopaedia-domestic-economy.md) | 1844 | Household production, equipment and practical manufacturing |
+| Apsley Pellatt | [*Curiosities of Glass Making*](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md) | 1849 | Glass composition, furnaces and manufacturing |
+| Charles Tomlinson | [*Cyclopædia of Useful Arts and Manufactures*](/view.html?p=documents/books/tomlinson-1852-cyclopaedia-useful-arts.md) | 1852 | Industrial processes, materials and manufacturing techniques |
+| Alfred Barlow | [*The History and Principles of Weaving by Hand and by Power*](/view.html?p=documents/books/barlow-1878-history-and-principles-of-weaving.md) | 1878 | Loom construction and textile production |
 
 ## Ars Energia
 
@@ -125,8 +161,9 @@ qa:
 | John Farey | [*A Treatise on the Steam Engine*](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md) | 1827 | Steam-engine construction |
 | Benoît Paul Émile Clapeyron | [*Mémoire sur la puissance motrice de la chaleur*](/view.html?p=documents/books/clapeyron-1834-memoire-puissance-motrice-chaleur.md) | 1834 | Thermodynamic cycles |
 | William J. M. Rankine | [*A Manual of the Steam Engine and Other Prime Movers*](/view.html?p=documents/books/rankine-1859-manual-steam-engine-prime-movers.md) | 1859 | Power machinery |
-
-Hydraulic power, water turbines, wind power and gas engines stay separate technological families still to collect.
+| Thomas Tredgold | [*The Steam Engine*](/view.html?p=documents/books/tredgold-1827-steam-engine.md) | 1827 | Steam-engine construction and mechanical philosophy |
+| George Rennie | [*The Steam Engine*](/view.html?p=documents/books/rennie-1831-steam-engine.md) | 1831 | Steam-engine teaching in the Useful-Knowledge diffusion format (tract) |
+| William Pole | [*A Treatise on the Cornish Pumping Engine*](/view.html?p=documents/books/pole-1844-cornish-pumping-engine.md) | 1844 | Industrial steam pumping — the Cornish high-duty engines |
 
 ## Ars Cibaria
 
@@ -153,8 +190,9 @@ Hydraulic power, water turbines, wind power and gas engines stay separate techno
 | William T. Brannt | [*A Practical Treatise on the Manufacture of Vinegar*](/view.html?p=documents/books/brannt-1889-manufacture-of-vinegar.md) | 1889 | Vinegar, pickling, meat, fish and egg preservation |
 | Alexander C. Twining | [*The Fundamental Ice-Making Invention*](/view.html?p=documents/books/twining-1870-fundamental-ice-making-invention.md) | 1870 | Artificial ice manufacture (patent papers) |
 | Norman Selfe | [*The Machinery Employed for Artificial Refrigeration and Ice Making*](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md) | 1896 | Refrigeration machinery (technical paper, not a book) |
-
-The Willard books document the transition from farm-based processing to organized dairy factories. Lafar's first volume appeared in 1898 — a transition into twentieth-century industrial microbiology.
+| J. T. Marean | [*The Farmer's and Emigrant's Hand-Book*](/view.html?p=documents/books/marean-1852-farmers-emigrants-hand-book.md) | 1852 | Food preservation and agricultural processing for the emigrant reader |
+| Edward Smith | [*Foods*](/view.html?p=documents/books/smith-1873-foods.md) | 1873 | Food composition, dietetical values and processing |
+| J. J. Manley | [*The Manufacture of Sugar from the Sugar Cane*](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md) | 1884 | Cane-sugar processing and industrial manufacture |
 
 ## Ars Acustica
 
@@ -176,8 +214,10 @@ The Willard books document the transition from farm-based processing to organize
 | Gerard Moll | [*On Captain Parry's and Lieutenant Foster's Experiments on the Velocity of Sound*](/view.html?p=documents/books/moll-1828-velocity-of-sound.md) | 1828 | Sound-velocity measurement (paper) |
 | E. J. Stone | [*An Experimental Determination of the Velocity of Sound*](/view.html?p=documents/books/stone-1871-experimental-velocity-of-sound.md) | 1871 | Experimental measurement (paper) |
 | John Tyndall | [*On the Atmosphere as a Vehicle of Sound*](/view.html?p=documents/books/tyndall-1875-on-the-atmosphere-as-a-vehicle-of-sound.md) | 1875 | Atmospheric sound propagation (paper) |
+| August Kundt | [*Über eine neue Art akustischer Staubfiguren*](/view.html?p=documents/books/kundt-1866-acoustic-dust-figures.md) | 1866 | Acoustic measurement — the tube method (paper) |
+| Rudolph Koenig | [*Quelques Expériences d'Acoustique*](/view.html?p=documents/books/koenig-1882-quelques-experiences.md) | 1882 | Acoustic experiments at the century's leading maker |
+| Rudolph Koenig | [*Catalogue des Appareils d'Acoustique*](/view.html?p=documents/books/koenig-1889-catalogue-of-acoustic-instruments.md) | 1889 (1865 first) | Acoustic instruments: the trade catalogue |
 
-Smith treats acoustics as a practical architectural problem rather than exclusively a physical science; Reid examines the interaction of ventilation, construction and sound. The last three are scientific papers rather than books, included because dedicated sound-level meters and standardized acoustic-calibration systems did not yet exist in the period.
 
 ## Ars Telluris
 
@@ -207,61 +247,30 @@ Smith treats acoustics as a practical architectural problem rather than exclusiv
 | William Scoresby | [*An Account of the Arctic Regions*](/view.html?p=documents/books/scoresby-1820-account-of-the-arctic-regions.md) | 1820 | Marine and environmental observations |
 | Matthew Fontaine Maury | [*The Physical Geography of the Sea*](/view.html?p=documents/books/maury-1855-physical-geography-of-the-sea.md) | 1855 | Oceanographic observation |
 | Edward Forbes | [*The Natural History of the European Seas*](/view.html?p=documents/books/forbes-1859-natural-history-european-seas.md) | 1859 | Marine observation |
+| Carl Friedrich Gauss | [*Intensitas vis Magneticae Terrestris ad Mensuram Absolutam Revocata*](/view.html?p=documents/books/gauss-1832-intensitas-vis-magneticae.md) | 1832 | Absolute measurement of terrestrial magnetic intensity (memoir) |
+| Charles Lyell | [*Principles of Geology*](/view.html?p=documents/books/lyell-1830-principles-of-geology.md) | 1830–33 | Geological processes, stratigraphy and uniformitarian method |
+| Johann von Lamont | [*Handbuch des Erdmagnetismus*](/view.html?p=documents/books/lamont-1849-handbuch-des-erdmagnetismus.md) | 1849 | Geomagnetic observation (Bogenhausen handbook) |
 
-Gravimetry stays with Bessel's arc measurement: no portable gravimeters are projected backward — the instruments of the period were reversible pendulums, torsion balances and precision pendulum apparatus (the Mendenhall apparatus served the US Coast and Geodetic Survey's 1890s gravity work), and the outline's Herschel-son and Mendenhall rows name no single citable work, honest to the record. Magnetic instruments came in the families of declinometers, inclinometers, magnetometers, observatory apparatus and survey instruments; the Negretti & Zambra treatise illustrates barometers, barographs, thermometers, hygrometers, rain gauges, anemometers and the atmospheric-electricity instruments meanwhile. For hydrography, the instrument manuals — sounding lines and machines, marine chronometers, sextants, tidal gauges — remain to collect.
+## Ars Transportaria
 
-## Consolidated coverage matrix
+> Roads and railways — the land transport system from McAdam's road science through the opening railway treatise to the engineering-science textbook that closed the century.
 
-| Main discipline | Technical subdomain | Entries |
-|---|---|---:|
-| Food technology | Milling, cereals and baking | ✓ |
-| Food technology | Sugar production and refining | ✓ |
-| Food technology | Dairy, butter and cheese | ✓ |
-| Food technology | Brewing and fermentation | ✓ |
-| Food technology | Distillation and vinegar manufacture | ✓ |
-| Food technology | Canning and sterilization | ✓ |
-| Food technology | Refrigeration and ice manufacture | ✓ |
-| Acoustical engineering | Physical acoustics | ✓ |
-| Acoustical engineering | Sound propagation | ✓ |
-| Acoustical engineering | Resonance and harmonic analysis | ✓ |
-| Acoustical engineering | Acoustic instruments | ✓ |
-| Acoustical engineering | Acoustic measurement | ✓ |
-| Acoustical engineering | Architectural acoustics | ✓ |
-| Geophysical instrumentation | Seismometry | ✓ |
-| Geophysical instrumentation | Geomagnetism | ✓ |
-| Geophysical instrumentation | Gravimetry | ✓ |
-| Geophysical instrumentation | Geodesy | ✓ |
-| Geophysical instrumentation | Meteorological instruments | ✓ |
-| Geophysical instrumentation | Geological surveying | ✓ |
-| Geophysical instrumentation | Hydrographic measurement | ✓ |
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| John Loudon McAdam | [*Remarks on the Present System of Road Making*](/view.html?p=documents/books/mcadam-1820-remarks-road-making.md) | 1820 | Road construction and materials |
+| Nicholas Wood | [*A Practical Treatise on Rail-Roads*](/view.html?p=documents/books/wood-1825-practical-treatise-rail-roads.md) | 1825 | Railway engineering in the Stockton-and-Darlington year |
+| Walter Loring Webb | [*Railroad Construction: Theory and Practice*](/view.html?p=documents/books/webb-1900-railroad-construction.md) | 1900 | Railway design and construction as engineering science |
 
-Qualifications: the food bibliography holds dedicated works for nearly every industrial process; the acoustics shelf is strong on physical and architectural acoustics but thin on standardized measurement instruments, of which the period had few; the geophysical bibliography mixes books with original instrument papers, and the later instrument families (portable gravimeters) did not yet exist.
+## Ars Navalis
 
-## Reference collections to expand the bibliography systematically
+> Naval architecture — ship design and construction as an engineering discipline, from Chapman's classification to his construction theory.
 
-| Collection | Main relevance |
-|---|---|
-| [Internet Archive](https://archive.org/) | Historical technical books, scanned most titles above |
-| [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/) | Agricultural, food and natural sciences |
-| [Wellcome Collection](https://wellcomecollection.org/) | Scientific instrumentation and technical books |
-| [Smithsonian Libraries](https://library.si.edu/) — [scientific trade catalogs](https://www.sil.si.edu/DigitalCollections/trade-literature/scientific-instruments/) | Historical scientific instruments and trade catalogs: commercial instruments' construction, specifications, applications and prices, 1800–1914 |
-| [Library of Congress](https://www.loc.gov/) | Historical engineering and scientific literature |
-| [Science History Institute](https://digital.sciencehistory.org/) | Industrial chemistry and chemical technology |
-| [Deutsches Museum Digital Collections](https://digital.deutsches-museum.de/) | Historical engineering, machinery and industrial technology |
-| [HathiTrust Digital Library](https://www.hathitrust.org/) | Historical technical books and engineering publications |
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| F. H. af Chapman | [*Architectura Navalis Mercatoria*](/view.html?p=documents/books/chapman-1768-architectura-navalis.md) | 1768 | Naval architecture: the plate classification of ships |
+| F. H. af Chapman | [*A Treatise on Ship-Building*](/view.html?p=documents/books/chapman-1820-treatise-on-ship-building.md) | 1820-era | Ship construction theory (French 1781 translation scanned) |
 
-## Distinguishing technology from engineering science
-
-Four separate bibliographic categories organize the collection:
-
-| Category | Object of study | Example |
-|---|---|---|
-| Technical arts | Practical techniques and operations | Diderot's *Encyclopédie* |
-| Technology | Machines, apparatus, processes and production systems | Ure's *Dictionary* |
-| Engineering | Design and construction of technical systems | Rankine's manuals |
-| Engineering science | Scientific principles underlying technical systems | Reuleaux, Carnot and Faraday |
-
-A book about the physical principles of a steam engine is not the same kind of technical document as a book explaining how to manufacture, install, operate and maintain one. Ure's 1839 dictionary and the *Encyclopédie* planches remain the two foundational references; specialized collections — now including food, sound and the earth sciences — build around them.
+Whewell's 1819 free-motion essay and Hopkins's physical-geology papers name no verifiable single work and stay branch prose; Whewell's held *Elementary Treatise on Mechanics* anchors the mechanics, and the geophysical branch runs on the Bessel–Helmert–Clarke spine above.
 
 ## References
 

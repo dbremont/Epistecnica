@@ -81133,6 +81133,11 @@
         "summary": "Flatten the guide to a single heading level: the Ars Cibaria, Ars Acustica (renamed from Sonora) and Ars Telluris sub-tables merge into one table each, duplicate outline rows (Ure, Clarke) collapsing to single composite rows with their merged domains in the domain cell, branch prose kept as paragraphs beneath the tables. Ars Mecanica corrected to Ars Mechanica. All 110 work links preserved; the coverage matrix, collections and the four-category distinction stay at section level.",
         "commit": "b6a3fdcdde2c3fc04debc988b3cb0e4ddce7b3ec",
         "before": "36a81e742657280d231ce94d0140359c1bc8faa1"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Grow the ars-catalogue to fourteen sections and 160 linked entries: five new Leupold/Hachette/Navier rows in Ars Mechanica, the chemical-technology and analysis shelf in Ars Chimica, the Bessemer/Gilchrist steelmaking and non-ferrous rows in Ars Metallica, Thaer-Sinclair-Rothamsted in Ars Agricola, the Smeaton-Telford-Brunel reports and lives in Ars Civilis, Wheatstone-Henry-Thompson-Ayrton in Ars Electrica, the Bion-Adams-Heather-Oliver instrument-maker literature in Ars Instrumentalis, Moxon through Knight in Ars Manufactura, the constructive steam and Cornish rows in Ars Energia, the Marean-Smith-Manley food-science rows in Ars Cibaria, the Koenig and Kundt measurement rows in Ars Acustica and the Gauss-Lyell-Lamont rows in Ars Telluris; two new sections, Ars Transportaria (McAdam, Wood, Webb) and Ars Navalis (Chapman, both works with the 1781 French translation scanned). Johnston Lectures noted as the same treatise as the held Elements entry; the outline rows naming no verifiable single work stay branch prose. 160 links, all resolving."
       }
     ]
   }
