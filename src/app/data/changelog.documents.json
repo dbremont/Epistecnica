@@ -30097,7 +30097,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Greenwell, A practical treatise on mine engineering (1869) - survey, ventilation, haulage and machinery; 1869-era and 1889 scans, cross-linked to Andre."
+        "summary": "Add Greenwell, A practical treatise on mine engineering (1869) - survey, ventilation, haulage and machinery; 1869-era and 1889 scans, cross-linked to Andre.",
+        "commit": "94220b0b35d15434cf1732a8ca92d441d6822c1d"
       }
     ]
   },
@@ -30107,7 +30108,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Michell, Mine drainage (1881) - direct-acting underground pumping machinery in the Spon series; three 1881 scans, cross-linked to Pole."
+        "summary": "Add Michell, Mine drainage (1881) - direct-acting underground pumping machinery in the Spon series; three 1881 scans, cross-linked to Pole.",
+        "commit": "94220b0b35d15434cf1732a8ca92d441d6822c1d"
       }
     ]
   },
@@ -30117,7 +30119,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Phillips, Elements of metallurgy (1852); 1874/1887 edition scans with the first-edition note, cross-linked to Percy 1861."
+        "summary": "Add Phillips, Elements of metallurgy (1852); 1874/1887 edition scans with the first-edition note, cross-linked to Percy 1861.",
+        "commit": "94220b0b35d15434cf1732a8ca92d441d6822c1d"
       }
     ]
   },
@@ -30127,7 +30130,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Le Neve Foster, A text-book of ore and stone mining (1894); 1897 scans with honest first-edition note, two corruption slips repaired before commit."
+        "summary": "Add Le Neve Foster, A text-book of ore and stone mining (1894); 1897 scans with honest first-edition note, two corruption slips repaired before commit.",
+        "commit": "94220b0b35d15434cf1732a8ca92d441d6822c1d"
       }
     ]
   },
@@ -30137,7 +30141,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add C. M. Percy, Machinery for metalliferous mines (1894); honest no-scan note with the Davies 1902 neighbour scanned; closes the mining-machinery shelf."
+        "summary": "Add C. M. Percy, Machinery for metalliferous mines (1894); honest no-scan note with the Davies 1902 neighbour scanned; closes the mining-machinery shelf.",
+        "commit": "94220b0b35d15434cf1732a8ca92d441d6822c1d"
       }
     ]
   }
