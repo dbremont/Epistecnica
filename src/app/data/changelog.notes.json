@@ -81338,7 +81338,9 @@
       {
         "date": "2026-11-09",
         "kind": "refactor",
-        "summary": "Split the overgrown sections: Ars Militaris out of Civilis (12 rows: fortification, siege, ordnance, military bridging, field surveying and telegraphy), and Ars Textilis (15 rows), Ars Typographica (9) and Ars Papyrologica (4) out of Manufactura. Manufactura and Civilis intros updated. These moves landed with the older-arts batch; this log records them and restores the blank line the row move dropped before every section heading."
+        "summary": "Split the overgrown sections: Ars Militaris out of Civilis (12 rows: fortification, siege, ordnance, military bridging, field surveying and telegraphy), and Ars Textilis (15 rows), Ars Typographica (9) and Ars Papyrologica (4) out of Manufactura. Manufactura and Civilis intros updated. These moves landed with the older-arts batch; this log records them and restores the blank line the row move dropped before every section heading.",
+        "commit": "87ec8a43ec3a7c9ccffd4122232ff16341804a8a",
+        "before": "46ba24dbf9123aa91a93c1ed022643bb70bd3325"
       }
     ]
   }
