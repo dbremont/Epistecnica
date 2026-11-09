@@ -152,6 +152,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Fondeur* | 1761-88 | The founder: the mould, the furnace and the casting (no scan verified) |
 | Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Fil d'Archal* | 1761-88 | The wire drawer: the plate, the die and the brass wire (no scan verified) |
 | René-Antoine Ferchault de Réaumur; Duhamel du Monceau | *L'Art du Fabricant d'Ancres* | 1761-88 | The anchor smithy: the faggot, the weld and the shank (no scan verified) |
+| Johann Heinrich Moritz von Poppe | *Geschichte der Technologie seit der Wiederherstellung der Wissenschaften* | 1807-11 | The three-volume history of the mechanical and chemical trades (no scan verified) |
+| Ferdinand Redtenbacher | *Resultate für den Maschinenbau; Prinzipien der Mechanik und des Maschinenbaues* | 1848 / 1852 | Scientific machine design founded at Karlsruhe — ratios, proportions and energetics (no scan verified) |
+| Carl Bach | *Die Maschinenelemente: Ihre Berechnung und Construction; Elasticität und Festigkeit* | 1881 / 1889 | The standard German machine-element and experimental strength-of-materials treatises (no scan verified) |
+| August Föppl | *Vorlesungen über technische Mechanik (4 vols.)* | 1897-1900 | Vector mechanics, strength of materials and structural theory taught as one system (no scan verified) |
 
 ## Ars Chimica
 
@@ -210,6 +214,16 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Henri Le Chatelier | *De la mesure des températures élevées par les couples thermo-électriques* | 1886/87 | The platinum thermocouple pyrometer of the ovens (no scan verified) |
 | Peregrine Phillips | *Contact-process sulphuric-acid patent (British Patent 6,096)* | 1831 | The platinum catalysis of the SO₂ → SO₃ processes (no scan verified) |
 | Clemens Winkler | *The contact process at the German chemical plants* | 1875 | The industrial oleum primer of the catalysis trade (no scan verified) |
+| Friedrich Wöhler | *Über das Aluminium (1827); Über künstliche Bildung des Harnstoffs (1828, Poggendorff Annalen)* | 1827-28 | Isolation of metallic aluminium and the artificial synthesis of urea (no scan verified) |
+| Théophile-Jules Pelouze & Edmond Frémy | *Traité de chimie générale, analytique, industrielle et agricole (7 vols.)* | 1854-57 | The mid-century French compendium of analytical and industrial chemistry (no scan verified) |
+| August Kekulé | *Lehrbuch der organischen Chemie; Sur la constitution des substances aromatiques* | 1859-65 | Tetravalent carbon chains and the hexagonal benzene ring of coal-tar dye chemistry (no scan verified) |
+| Walter Weldon | *Manganese-peroxide regeneration process in chlorine manufacture (British Patents)* | 1866-69 | The Weldon process that halved the cost of bleaching powder (no scan verified) |
+| Henry Deacon | *Manufacture of Chlorine by catalytic air-oxidation of hydrochloric acid gas* | 1868-70 | The Deacon copper-chloride contact process for industrial chlorine (no scan verified) |
+| Adolf von Baeyer | *Synthese des Indigblaus (Berichte der Deutschen Chemischen Gesellschaft & patents)* | 1878-80 | Structural elucidation and laboratory synthesis of indigo dye (no scan verified) |
+| Wilhelm Ostwald | *Lehrbuch der allgemeinen Chemie; Grundriss der allgemeinen Chemie* | 1885-89 | Physical chemistry systematised — catalysis, chemical affinity and equilibria (no scan verified) |
+| Svante Arrhenius | *Über die Dissociation der in Wasser gelösten Stoffe (Z. phys. Chemie)* | 1887 | Electrolytic dissociation of salts, acids and bases into free ions in solution (no scan verified) |
+| Walther Nernst | *Die elektromotorische Wirksamkeit der Ionen (1889); Theoretische Chemie vom Standpunkte der Avogadroschen Regel und der Thermodynamik (1893)* | 1889 / 1893 | The Nernst electrode-potential equation and thermodynamics of chemical reactions (no scan verified) |
+| Ludwig Mond | *Process for obtaining nickel via nickel tetracarbonyl (1890); Mond producer-gas and ammonia-recovery patents* | 1883-90 | Industrial gasification with byproduct sulphate of ammonia and the Mond carbonyl nickel process (no scan verified) |
 
 ## Ars Metallica
 
@@ -284,6 +298,13 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jean-Jacques Perret; Duhamel du Monceau | *L'Art du Coutelier; Art du Serrurier (Arts et Métiers)* | 1767 / 1771–72 | The cutler and locksmith trades drawn by the French academies (no scan verified) |
 | George E. Gee | *The Silversmith's Handbook; The Goldsmith's Handbook* | 1877/81 | The British precious-metal trade handbooks (no scan verified) |
 | Henry Disston & Sons | *The Saw in History; Handbook for Lumbermen (crucible cast-steel saw blades)* | 1880s–90s | The saw trade manuals of the American works (no scan verified) |
+| Peter Tunner | *Der wohlunterrichtete Hammermeister; Die Stabeisen- und Stahlbereitung in Frischherden* | 1846 / 1858 | The Leoben school's treatise on alpine finery hearth iron and steel making (no scan verified) |
+| Edward Alfred Cowper | *Regenerative firebrick hot-blast stoves for blast furnaces (British Patent 1,404)* | 1857 | The Cowper checker-brick stove that raised blast temperatures above 700 °C (no scan verified) |
+| Henri Sainte-Claire Deville | *De l aluminium: Ses propriétés, sa fabrication et ses applications* | 1859 | The first industrial aluminium process by sodium reduction of aluminium-sodium chloride (no scan verified) |
+| Henry Clifton Sorby | *On a New Method of Illustrating the Structure of Various Kinds of Blister Steel by Nature Printing (1864); On the Microscopical Structure of Iron and Steel (J. Iron & Steel Inst., 1887)* | 1864 / 1887 | Microscopical metallography founded — pearlite, ferrite, cementite and martensite observed on polished etched sections (no scan verified) |
+| Dmitri Konstantinovich Tschernoff | *Critical points of steel in heating, forging and quenching (Imperial Russian Technical Society)* | 1868 | Discovery of the critical transformation temperatures a, b, c governing grain refinement and hardening of steel (no scan verified) |
+| Louis-Emmanuel Gruner | *Études sur les hauts-fourneaux; Traité de métallurgie* | 1872-78 | Thermochemical heat balance of the iron blast furnace and Gruner's ideal working theorem (no scan verified) |
+| Johan August Brinell | *Mémoire sur les épreuves à bille en acier pour déterminer la dureté des métaux (Paris Exposition Congress)* | 1900 | The Brinell hardened-steel ball indentation hardness test (no scan verified) |
 
 ## Ars Agricola
 
@@ -392,6 +413,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | W. Santo Crimp | *Sewage Disposal Works: A Guide to the Construction of Works for the Prevention of Pollution* | 1890 | The sewage disposal trade manual (no scan verified) |
 | Siebe, Gorman & Co. | *Manual for Divers (the standard diving dress, its care and its use)* | 1870s–1900s | The diver's trade manual of the closed dress (no scan verified) |
 | W. H. Maxwell | *The Removal and Disposal of Town Refuse* | 1898 | The municipal refuse trade at the end of the century (no scan verified) |
+| Charles William Pasley | *Observations on Limes, Calcareous Cements, Mortars, Stuccos and Concrete* | 1838 | Royal Engineers testing of natural and artificial hydraulic cements (no scan verified) |
+| Joseph Monier | *Reinforced-concrete tubs, pipes, reservoirs, sleepers and arch-bridge patents* | 1867-77 | Iron-mesh reinforced concrete (ciment armé) invented across civil structures (no scan verified) |
+| François Hennebique | *Monolithic reinforced-concrete beam-and-slab stirrup system patents* | 1892-98 | The Hennebique monolithic frame that industrialised reinforced concrete building (no scan verified) |
+| Armand Considère | *Recherches expérimentales sur les propriétés du béton armé (Annales des Ponts et Chaussées)* | 1898-1902 | Ductility of reinforced concrete and spiral-hooped compression columns (no scan verified) |
 
 ## Ars Structura
 
@@ -467,6 +492,18 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | George Gabriel Stokes | *On the Theories of the Internal Friction of Fluids in Motion (Trans. Camb. Phil. Soc.)* | 1845 | The viscosity terms of the whole flow theory (no scan verified) |
 | Gotthilf Hagen | *Über die Bewegung des Wassers in engen cylindrischen Röhren (Poggendorff Annalen)* | 1839 | Laminar pipe flow measured (no scan verified) |
 | Jean-Léonard-Marie Poiseuille | *Recherches expérimentales sur le mouvement des liquides dans les tubes de très-petits diamètres* | 1840–46 | The capillary-flow law of the same (no scan verified) |
+| Siméon Denis Poisson | *Traité de Mécanique; Mémoire sur l équilibre et le mouvement des corps élastiques* | 1811 / 1829 | Elasticity equations and the transverse contraction ratio — Poisson's ratio (no scan verified) |
+| Enrico Betti | *Teoria della Elasticità (Il Nuovo Cimento)* | 1872 | The reciprocal work theorem of elastic structures — Betti's theorem (no scan verified) |
+| Johann Wilhelm Schwedler | *Theorie der Brückenbalkensysteme; the Schwedler truss and ribbed dome* | 1851 / 1863 | Variable-depth truss theory and the three-hinged and ribbed iron domes (no scan verified) |
+| Heinrich Gerber | *Träger mit freiliegenden Stützpunkten (Cantilever bridge beam patent)* | 1866 | The statically determinate hinged cantilever girder — the Gerber beam (no scan verified) |
+| Ithiel Town; Wendel Bollmann; Albert Fink | *Town lattice truss (1820); Bollman suspension truss (1852); Fink truss (1854) patents* | 1820-54 | The American timber and iron railway bridge truss systems (no scan verified) |
+| J. A. L. Waddell | *The Designing of Ordinary Iron Highway Bridges; De Pontibus: A Pocket-Book for Bridge Engineers* | 1884 / 1898 | American bridge-design specifications, economics and truss proportions (no scan verified) |
+| August Wöhler | *Über die Festigkeitsversuche mit Eisen und Stahl (Zeitschrift für Bauwesen)* | 1858-70 | Cyclic axle-fatigue testing, the S-N stress-life curve and the endurance limit (no scan verified) |
+| Johann Bauschinger | *Mittheilungen aus dem Mechanisch-Technischen Laboratorium der k. Technischen Hochschule in München* | 1873-93 | Precision materials testing, mirror extensometers and the Bauschinger yield effect (no scan verified) |
+| Ludwig von Tetmajer | *Die Gesetze der Knickungs- und der zusammengesetzten Druckfestigkeit der technisch wichtigsten Baustoffe* | 1890-1900 | Inelastic column buckling in structural iron, steel and timber — the Tetmajer line (no scan verified) |
+| Pierre-Simon Girard | *Essai sur le mouvement des eaux courantes; Mémoires sur le Canal de l Ourcq* | 1804-43 | Open-channel flow, lock-lift energetics and the Paris water supply (no scan verified) |
+| Jules Dupuit | *Études théoriques et pratiques sur le mouvement des eaux dans les canaux découverts et à travers les terrains perméables* | 1848 / 1863 | Flood hydraulics and the Dupuit-Forchheimer equilibrium equation of groundwater wells (no scan verified) |
+| Nicolas-Joseph Jonval | *Axial-flow reaction water turbine and draft-tube patents* | 1841-43 | The Jonval axial reaction turbine and suction draft tube (no scan verified) |
 
 ## Ars Militaris
 
@@ -584,6 +621,24 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Samuel F. B. Morse | *Electro-magnetic telegraph patent (US)* | 1840 | The patent mechanism behind the Vail manual (no scan verified) |
 | Elisha Gray | *Multiple-telegraphy and telephone patents* | 1875–88 | The parallel inventor of the telephone (no scan verified) |
 | Nikola Tesla | *A New System of Alternate Current Motors and Transformers (AIEE lecture)* | 1888 | The polyphase induction motor — distinct from the 1885 transformer patents (no scan verified) |
+| John Frederic Daniell | *On Voltaic Combinations (Phil. Trans. — the constant copper-zinc cell)* | 1836 | The non-polarising constant battery that powered early telegraphy and electroplating (no scan verified) |
+| William Robert Grove | *On a Small Voltaic Battery of Great Energy (Grove cell); On Volaïque Polarization and the Gas Voltaic Battery (Phil. Trans.)* | 1839-42 | The high-current nitric-acid battery and the first hydrogen-oxygen fuel cell (no scan verified) |
+| Georges Leclanché | *Notes sur l emploi des piles électriques en télégraphie; the manganese-dioxide cell patent* | 1866-67 | The Leclanché wet cell — ancestor of the dry battery (no scan verified) |
+| Heinrich Daniel Ruhmkorff | *High-voltage trembled induction coil with condenser* | 1851-55 | The Ruhmkorff spark coil that powered gas-discharge tubes, spectroscopy and early wireless (no scan verified) |
+| Antonio Pacinotti | *Descrizione di una macchinetta elettro-magnetica (Il Nuovo Cimento)* | 1865 | The toothed ring-armature continuous-current dynamo and reversible DC motor (no scan verified) |
+| Pavel Jablochkoff | *The Jablochkoff parallel-carbon electric arc candle patent* | 1876 | The AC arc candle that lit the avenues of Paris in 1878 (no scan verified) |
+| Édouard Hospitalier | *Les principales applications de l électricité; Formulaire pratique de l électricien* | 1881 / 1883 | The engineer's electrical handbook and application survey (no scan verified) |
+| Éleuthère Mascart & Jules Joubert | *Leçons sur l électricité et le magnétisme (2 vols.)* | 1882-86 | Absolute electrical measurements and dynamo-machine theory (no scan verified) |
+| John Henry Poynting | *On the Transfer of Energy in the Electromagnetic Field (Phil. Trans.)* | 1884 | Energy flux in the field around rather than inside the wire — the Poynting vector (no scan verified) |
+| Galileo Ferraris | *Rotazioni elettrodinamiche prodotte per mezzo di correnti alternate* | 1885 / 1888 | The two-phase rotating magnetic field and induction principle demonstrated (no scan verified) |
+| Mikhail Dolivo-Dobrowolsky | *Three-phase AC system (Drehstrom), squirrel-cage induction motor and the 1891 Lauffen-Frankfurt 175 km transmission* | 1889-91 | Modern three-phase power generation, transformation and motor drive established (no scan verified) |
+| Sebastian Ziani de Ferranti | *Deptford 10,000-volt AC central power station and paper-insulated concentric high-voltage mains* | 1887-91 | High-voltage central-station transmission at city scale (no scan verified) |
+| J. A. Ewing | *Magnetic Induction in Iron and Other Metals* | 1891 | Magnetic hysteresis defined, measured and linked to transformer and armature core loss (no scan verified) |
+| Arthur Edwin Kennelly | *Impedance (Trans. AIEE — complex-number representation of AC circuits)* | 1893 | Complex impedance introduced into alternating-current engineering (no scan verified) |
+| August Föppl | *Einführung in die Maxwellsche Theorie der Elektrizität* | 1894 | The vector-calculus exposition of Maxwell's field equations (no scan verified) |
+| Édouard Branly | *Variations de conductibilité sous diverses influences électriques (Comptes Rendus — the filings coherer)* | 1890 | The sensitive metal-filings coherer that made Hertzian-wave reception practical (no scan verified) |
+| Alexander Stepanovich Popov | *Apparatus for the Detection and Registration of Electrical Oscillations (J. Russ. Phys.-Chem. Soc.)* | 1895-96 | Coherer-relay-tapper receiver and antenna for atmospheric and wireless signals (no scan verified) |
+| Michael Idvorsky Pupin | *Wave Transmission over Non-Uniform Cables and Long-Distance Air-Lines (Trans. AIEE & loading-coil patents)* | 1899-1900 | Inductive loading coils that enabled long-distance telephone lines (no scan verified) |
 
 ## Ars Instrumentalis
 
@@ -669,6 +724,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | John Snow | [*On the Inhalation of the Vapour of Ether in Surgical Operations*](/view.html?p=documents/books/snow-1847-inhalation-ether.md) | 1847 | The ether inhaler and the dosage of anaesthesia measured |
 | John Snow | *On Chloroform and Other Anaesthetics* | 1858 | The chloroform dosage, the apparatus and the fatalities of the anaesthetic trade (no scan verified) |
 | Gabriel Mouton | *The geodetic decimal measure proposed from the minute of the meridian* | 1670 | The decimal, earth-derived measure proposed a century before the metre (no scan verified) |
+| Hippolyte Fizeau | *Sur une expérience relative à la vitesse de propagation de la lumière (Comptes Rendus — toothed-wheel apparatus)* | 1849 | First terrestrial measurement of the velocity of light over an 8.6 km path (no scan verified) |
+| Léon Foucault | *Pendulum demonstration of Earth rotation (1851); the gyroscope (1852); rotating-mirror velocity of light and silvered-glass parabolic telescope mirrors (1857-62)* | 1850-62 | Precision optical and mechanical metrology — the gyroscope, the knife-edge mirror test and silvered glass mirrors (no scan verified) |
+| Friedrich Kohlrausch | *Leitfaden der praktischen Physik (Lehrbuch der praktischen Physik)* | 1870 | The standard German laboratory manual of precision physical, optical and electrical measurement (no scan verified) |
+| Otto Schott (with Ernst Abbe & Carl Zeiss) | *Production of optical and laboratory glass at the Glastechnisches Laboratorium Schott & Genossen, Jena* | 1884-86 | Borate, phosphate and barium-borosilicate glasses that eliminated secondary spectrum in microscopes and objectives, and thermal-shock Jena glass (no scan verified) |
 
 ## Ars Horologia
 
@@ -1086,6 +1145,11 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Alphonse Beau de Rochas | *Nouvelles recherches sur les conditions pratiques de plus grande utilisation de la chaleur* | 1862 | The four-stroke cycle stated before Otto (no scan verified) |
 | George H. Corliss | *Cut-off valve gear patents* | 1849 | The variable cut-off and the high-speed governed engine (no scan verified) |
 | Henri Giffard | *Notice théorique et pratique sur l injecteur automoteur* | 1858 | The steam injector feeding the boiler (no scan verified) |
+| Henri Victor Regnault | *Relation des expériences... pour déterminer les principales lois et les données numériques qui entrent dans le calcul des machines à vapeur* | 1847-62 | The monumental experimental steam tables on which classical thermodynamics was calculated (no scan verified) |
+| Gustave-Adolphe Hirn | *Exposition analytique et expérimentale de la théorie mécanique de la chaleur; Recherches sur l équivalent mécanique de la chaleur* | 1858-62 | Superheated steam, jacketed cylinders and heat balances measured on working mill engines (no scan verified) |
+| Johannes Diderik van der Waals | *Over de Continuïteit van den Gas- en Vloeistoftoestand* | 1873 | The real-gas equation of state and the continuity of liquid and vapour (no scan verified) |
+| Benjamin Franklin Isherwood | *Experimental Researches in Steam Engineering (2 vols.)* | 1863-65 | U.S. Navy marine-engine trials proving cylinder-wall condensation losses (no scan verified) |
+| Peter William Willans | *Economy Trials of a Non-Condensing Steam Engine (Proc. Inst. Civil Engineers)* | 1888-93 | The Willans central-valve high-speed engine and the linear Willans steam-consumption law (no scan verified) |
 
 ## Ars Coriaria
 
@@ -1501,6 +1565,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Nicéphore Niépce | *Héliographie papers and the 1822–28 correspondence* | 1822–28 | The camera trade before Daguerre (no scan verified) |
 | Auguste & Louis Lumière | *Cinématographe apparatus and papers* | 1895–1901 | The moving picture trade at the Society trade (notice scan available at Société Lumière, 1901) |
 | W. K. L. Dickson (Edison) | *Kinetoscope apparatus* | 1891–94 | The penny demo of the moving image (boundary) |
+| Gabriel Lippmann | *La photographie des couleurs (Comptes Rendus — stationary light-wave interference colour photography)* | 1891 | True-colour photography without pigments by standing-wave interference in a mercury-backed emulsion (no scan verified) |
 
 ## Ars Aeronautica
 
@@ -1546,6 +1611,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Étienne Lenoir | *The gas engine and the hippomobile* | 1860–63 | The first internal-combustion vehicle (no scan verified) |
 | Herbert Akroyd Stuart | *Oil-engine patents and papers* | 1890–92 | The hot-bulb oil engine (no scan verified) |
 | Walter Hancock | *Enterprise: Steam Carriages and Papers* | 1829–40 | The London steam carriage trade (no scan verified) |
+| William Dent Priestman | *Priestman heavy-oil spray-vaporizer engine patents and papers* | 1885-88 | The first commercial kerosene/heavy-oil internal-combustion engine (no scan verified) |
 
 ## Ars Velocipedica
 
