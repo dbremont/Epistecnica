@@ -33656,7 +33656,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Papin, A New Digester and its Continuation (1681–87) — the pressure machine; 1681 and 1687 scans."
+        "summary": "Add Papin, A New Digester and its Continuation (1681–87) — the pressure machine; 1681 and 1687 scans.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33666,7 +33667,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Watt steam-engine patents (1769–, @misc collector) — the engine transformed; honest no-scan note."
+        "summary": "Add Watt steam-engine patents (1769–, @misc collector) — the engine transformed; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33676,7 +33678,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hornblower compound-engine patent (1781–, @misc collector) — the compound principle; honest no-scan note."
+        "summary": "Add Hornblower compound-engine patent (1781–, @misc collector) — the compound principle; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33686,7 +33689,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Trevithick and Woolf high-pressure papers (1800s–30s, collector) — the portable engine; honest no-scan note."
+        "summary": "Add the Trevithick and Woolf high-pressure papers (1800s–30s, collector) — the portable engine; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33696,7 +33700,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Evans, The Abortion of the Young Steam Engineer's Guide (1805) — the American high-pressure line; honest no-scan note."
+        "summary": "Add Evans, The Abortion of the Young Steam Engineer's Guide (1805) — the American high-pressure line; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33706,7 +33711,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Maxwell, Theory of Heat (1871) — the teaching thermodynamics; 1872 and 1899 scans."
+        "summary": "Add Maxwell, Theory of Heat (1871) — the teaching thermodynamics; 1872 and 1899 scans.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33716,7 +33722,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Boltzmann, Vorlesungen über Gastheorie (1896–98) — the kinetic theory system; scans of the parts."
+        "summary": "Add Boltzmann, Vorlesungen über Gastheorie (1896–98) — the kinetic theory system; scans of the parts.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33726,7 +33733,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Gibbs, Elementary Principles in Statistical Mechanics (1902) — the boundary formulation; 1902 scan."
+        "summary": "Add Gibbs, Elementary Principles in Statistical Mechanics (1902) — the boundary formulation; 1902 scan.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33736,7 +33744,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Grashof, Theoretische Maschinenlehre (1875–) — the German machine theory; two volume scans."
+        "summary": "Add Grashof, Theoretische Maschinenlehre (1875–) — the German machine theory; two volume scans.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33746,7 +33755,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add de Laval steam-turbine papers (1880s–90s, collector) — the impulse wheel; honest no-scan note."
+        "summary": "Add de Laval steam-turbine papers (1880s–90s, collector) — the impulse wheel; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33756,7 +33766,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Rateau and Curtis turbine patents (1890s, collector) — the stage designs; honest no-scan note."
+        "summary": "Add the Rateau and Curtis turbine patents (1890s, collector) — the stage designs; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33766,7 +33777,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Otto and Langen gas-engine patents (1860s–70s, collector) — the four-stroke cycle; honest no-scan note."
+        "summary": "Add the Otto and Langen gas-engine patents (1860s–70s, collector) — the four-stroke cycle; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33776,7 +33788,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Atkinson gas-engine papers (1880s, collector) — the cycle variations; honest no-scan note."
+        "summary": "Add Atkinson gas-engine papers (1880s, collector) — the cycle variations; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33786,7 +33799,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Stirling and Ericsson hot-air engine collector (1816–50s) — the air-engine line; honest no-scan note."
+        "summary": "Add the Stirling and Ericsson hot-air engine collector (1816–50s) — the air-engine line; honest no-scan note.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   },
@@ -33796,7 +33810,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Mouchot, La chaleur solaire (1869) — the first solar-power treatise; 1869 scan."
+        "summary": "Add Mouchot, La chaleur solaire (1869) — the first solar-power treatise; 1869 scan.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2"
       }
     ]
   }

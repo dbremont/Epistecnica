@@ -81247,7 +81247,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the energy rows: Papin’s digester and its continuation, the Watt, Hornblower, Trevithick–Woolf, Otto–Langen, Atkinson, Stirling–Ericsson and Rateau–Curtis patent collectors, Evans’s American high-pressure guide, Maxwell’s Theory of Heat, Boltzmann’s Gastheorie, Gibbs’s statistical mechanics at the 1902 boundary, Grashof’s Theoretische Maschinenlehre, de Laval’s turbine papers and Mouchot’s solar treatise."
+        "summary": "Add the energy rows: Papin’s digester and its continuation, the Watt, Hornblower, Trevithick–Woolf, Otto–Langen, Atkinson, Stirling–Ericsson and Rateau–Curtis patent collectors, Evans’s American high-pressure guide, Maxwell’s Theory of Heat, Boltzmann’s Gastheorie, Gibbs’s statistical mechanics at the 1902 boundary, Grashof’s Theoretische Maschinenlehre, de Laval’s turbine papers and Mouchot’s solar treatise.",
+        "commit": "12678b3c7caa4f5bad5970249a7a071f6ca81be2",
+        "before": "48964f4c84dfd7b58f906997034b380e3dd43b26"
       }
     ]
   }
