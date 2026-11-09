@@ -81460,6 +81460,11 @@
         "summary": "Add the missing branch: Ars Horologia. The clock and watch had no section of their own and only five works (Reid, Britten, Huygens's Horologium Oscillatorium, Fritts, Berthoud) scattered through Instrumentalis. The five move into the new section and twelve are added: Huygens's Horologium (1658), the Hooke balance-spring papers, Derham's Artificial Clock-Maker (1696), Thiout (1741), Le Roy's marine-clock memoirs (1766-73), Harrison's Description concerning such Mechanism (1775), Mudge (1799), Earnshaw (1805), the Arnold papers, the Breguet workshop papers, Moinet (1844) and Saunier (1861). Two naval-architecture works join Navalis: Charnock's History of Marine Architecture (1800-02) and Fairbairn's Treatise on Iron Ship Building (1865). The guide now has 50 Ars sections and 1,337 rows.",
         "commit": "39810beea33cfa54ce3a01026cf839c7e1fc7311",
         "before": "8f74ea21fb7f7b478c40f00ae87dbe8f0c8911e6"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Close the gap found against an external canon. The guide was checked against the Académie royale des sciences' Descriptions des Arts et Metiers (1761-88), the canonical survey of the French trades, and held only about a dozen of its forty-odd treatises. Thirty-six are added: boulanger, charcutier, poissonnier, patissier, rotisseur, raffineur de sucre, distillateur liquoriste, savonnier, vigneron and jardinier into Cibaria; macon, charpentier, couvreur, vitrier, plombier and miroitier into Architectura; charron, sellier and marechal into Transportaria; gantier into Coriaria; passementier, bonneterie, blanchisseur and foulon into Textilis; tourneur, fondeur, fil d archal and fabricant d ancres into Mechanica; parcheminier and cartonnier into Papyrologica; relieur into Typographica; mercier and perruquier into Manufactura; cordier into Funalis; boyaudier into Acustica; and charbonnier into Silvicultura. Individual authors are named where they are documented (Malouin for the boulanger, Duhamel for the couvreur and the charbonnier, Lalande for the parcheminier, Doublette Desbois for the vitrier, Demachy for the distillateur, Reaumur and Duhamel for the ancres); elsewhere the Academie is recorded as the corporate author. The guide now carries 1,373 rows."
       }
     ]
   }

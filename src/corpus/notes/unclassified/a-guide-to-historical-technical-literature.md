@@ -148,6 +148,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | C. L. Sholes, C. Glidden & S. Soulé (Reinpold.) | *Type-writing machine patents U.S. 79,265 and 207,559* | 1868/78 | The American typewriter trade begun at Remington (no scan verified) |
 | T. A. Edison; A. B. Dick; David Gestetner | *Autographic printing (electric pen, mimeograph) and Cyclostyle patents* | 1876–87 | The stencil duplicator trade invented (no scan verified) |
 | James & John Ritty | *Cash register and indicator (the Incorruptible Cashier) U.S. Patent 221,360* | 1879/83 | The mechanical cash-accounting trade begun (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Tourneur* | 1761-88 | The turner: the lathe, the chuck and the ornamental work (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Fondeur* | 1761-88 | The founder: the mould, the furnace and the casting (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Fil d'Archal* | 1761-88 | The wire drawer: the plate, the die and the brass wire (no scan verified) |
+| René-Antoine Ferchault de Réaumur; Duhamel du Monceau | *L'Art du Fabricant d'Ancres* | 1761-88 | The anchor smithy: the faggot, the weld and the shank (no scan verified) |
 
 ## Ars Chimica
 
@@ -781,6 +785,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Samuel B. Boulton | *On the Antiseptic Treatment of Timber* | 1884 | The antiseptic preservation of the railway sleeper (no scan verified) |
 | Bernhard E. Fernow | *Timber: An Elementary Discussion of the Characteristics and Properties of Wood* | 1895 | The American timber properties bulletin (no scan verified) |
 | John Evelyn | [*Sylva; or a Discourse of Forest Trees*](/view.html?p=documents/books/evelyn-1664-sylva.md) | 1664 | The planting trade founded for the timber and naval economy |
+| Henri-Louis Duhamel du Monceau | *L'Art du Charbonnier* | 1761 | The charcoal burner: the mound, the earth and the collier (no scan verified) |
 
 ## Ars Cerea
 
@@ -875,6 +880,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Charles Babbage | *The Exposition of 1851; or, Views of the Industry, the Science and the Government of England* | 1851 | The great exhibition argued as the scientific industrial education (no scan verified) |
 | J. Scott Russell | *Systematic Technical Education for the English People* | 1869 | The systematic technical education of the engineering trades (no scan verified) |
 | Statute of Monopolies (21 Jac. I c. 3) | *The English patent statute: the fourteen-year term and the manner of manufacture* | 1624 | The legal frame of the patent trade for two centuries (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Mercier* | 1761-88 | The mercer: the small wares, the thread and the trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Perruquier* | 1761-88 | The wig maker: the hair, the mount and the dressing (no scan verified) |
 
 ## Ars Vitraria
 
@@ -968,6 +975,10 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Walter S. B. McLaren | [*Spinning Woollen and Worsted*](/view.html?p=documents/books/mclaren-1884-spinning-woollen-worsted.md) | 1884 | The wool-spinning trade at the mill |
 | Alex J. Warden | [*The Linen Trade, Ancient and Modern*](/view.html?p=documents/books/warden-1864-linen-trade.md) | 1864 | The flax and linen trades, ancient to Irish manufacture |
 | George Richardson Porter | [*A Treatise on the Silk Manufacture*](/view.html?p=documents/books/porter-1831-silk-manufacture.md) | 1831 | The silk trade from filature to the loom — the systematic trade history |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Passementier* | 1761-88 | The trimming weaver: the lace, the braid and the loom (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art de la Bonneterie* | 1761-88 | The stocking frame and the knitted trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Blanchisseur* | 1761-88 | The bleaching of the linen by ley, lye and sun (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Foulon* | 1761-88 | The fulling mill: the cloth, the earth and the hammers (no scan verified) |
 
 ## Ars Typographica
 
@@ -996,6 +1007,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | René Dagron | *La Poste par pigeons voyageurs; Traité de photographie microscopique* | 1864/71 | Microfilm and the pigeon-post photographs of the Siege of Paris (no scan verified) |
 | Giambattista Bodoni | [*Manuale Tipografico*](/view.html?p=documents/books/bodoni-1818-manuale-tipografico.md) | 1788 (ed. 1818) | The specimen book of the modern face — the typefounder's manual |
 | Society of Arts (premium committee) | *Report on the Forgery of Bank Notes* | 1819 | The premium for an unforgeable note that set siderography in motion (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Relieur* | 1761-88 | The binder: the sewing, the backing and the cover (no scan verified) |
 
 ## Ars Papyrologica
 
@@ -1010,6 +1022,8 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jérôme Lefrançois de Lalande | *Art de faire le Papier* | 1761 | The rag-paper trade described for the arts (no scan verified) |
 | Henri & Sealy Fourdrinier with Bryan Donkin | *Continuous paper-making machine patents and papers* | 1801–07 | The paper machine run end-to-end (no scan verified) |
 | Benjamin Chew Tilghman | *Sulphite wood-pulp patent* | 1867 | The wood dissolved into pulp by the sulphite process (no scan verified) |
+| Joseph-Jérôme Lefrançais de Lalande | *L'Art de Faire le Parchemin* | 1762 | The parchment: the skin, the lime and the scraper (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Cartonnier* | 1761-88 | The pasteboard and the carton trade (no scan verified) |
 
 ## Ars Energia
 
@@ -1088,6 +1102,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jérôme de Lalande | *Art du Tanneur; Art du Corroyeur; Art du Cordonnier* | 1764–67 | The Paris leather trades in the Arts et Métiers tradition (no scan verified) |
 | Armand Seguin | *Rapport sur la nouvelle méthode de tanner les cuirs* | 1795 | The rapid-tanning method reported to the Académie (no scan verified) |
 | Jan E. Matzeliger | *Shoe-lasting machine patent* | 1883 | The mechanized shoe lasting (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Gantier* | 1761-88 | The glover: the skin, the cut and the stitching (no scan verified) |
 
 ## Ars Cibaria
 
@@ -1169,6 +1184,16 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Jean-Antoine Chaptal; André Jullien | *L'Art de faire les vins; Manuel du Sommelier* | 1801/13 | The winemaking chemistry and the champagne trade begun (no scan verified) |
 | J. L. W. Thudichum & A. Dupré | *A Treatise on the Origin, Nature and Varieties of Wine (Viticulture and Oenology)* | 1872 | The official wine-trade manual of the British alcohol trade (no scan verified) |
 | Gustavus Swift & Andrew Chase | *Refrigerated railway boxcar and packinghouse disassembly patents* | 1878 | The refrigerated rail meat trade begun (no scan verified) |
+| Malouin | *L'Art du Boulanger* | 1767 | The bread trade: the oven, the dough and the Paris bakers (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Charcutier* | 1761-88 | The pork butcher and the charcuterie trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Poissonnier* | 1761-88 | The fishmonger, the curing and the fish market (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Pâtissier* | 1761-88 | The pastry trade and its ovens (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Rôtisseur* | 1761-88 | The roast cook and the turning spit of the trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Raffineur de Sucre* | 1761-88 | The sugar refinery: the pans, the claying and the loaves (no scan verified) |
+| Jacques-François Demachy | *L'Art du Distillateur Liquoriste* | 1775 | The still, the brandy and the liqueur trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Savonnier* | 1761-88 | The soap boiler: the ley, the tallow and the frame (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Vigneron* | 1761-88 | The vine, the press and the vintage of the French trade (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Jardinier* | 1761-88 | The kitchen garden, the frames and the forcing beds (no scan verified) |
 
 ## Ars Acustica
 
@@ -1213,6 +1238,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | J.-C. Maugin & W. Maigne | *Nouveau Manuel Complet du Luthier* | 1834/69 | The luthier trade manual (no scan verified) |
 | Theobald Boehm; Adolphe Sax | *Über den Flötenbau (Boehm linkage); saxophone patents* | 1847 / 1846 | The Boehm keywork and the saxophone mechanism carry the woodwind trade (no scan verified) |
 | Athanasius Kircher | [*Musurgia Universalis*](/view.html?p=documents/books/kircher-1650-musurgia-universalis.md) | 1650 | Acoustics, the organ, the speaking automata and the composition machines |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Boyaudier* | 1761-88 | The gut-string maker: the intestines of the violin and the harp (no scan verified) |
 
 ## Ars Campanaria
 
@@ -1315,6 +1341,12 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Contant & Filippi; Georges Moynet | *Parallèle des principaux théâtres modernes; La Machinerie théâtrale* | 1859–60 / 1893 | The under-stage and counterweight machinery of the 19th-century theatre (no scan verified) |
 | Athanasius Kircher | *Ars Magna Lucis et Umbrae (the magic lantern)* | 1646/71 | The projected-light trade of the magic lantern (no scan verified) |
 | Jacques de Vaucanson | *Le Mécanisme du Flûteur Automate (the flute automaton)* | 1738/42 | The conscious automaton mechanism described in its own treatise (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Maçon* | 1761-88 | The mason: the mortar, the bond and the centering (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Charpentier* | 1761-88 | The carpenter: the roof truss, the floor and the timber joint (no scan verified) |
+| Henri-Louis Duhamel du Monceau | *L'Art du Couvreur* | 1761-88 | The roofer: the slate, the tile and the lead flat (no scan verified) |
+| Doublette Desbois | *L'Art du Vitrier* | 1761-88 | The glazier: the crown and cylinder glass cut and leaded (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Plombier* | 1761-88 | The plumber: the lead sheet, the pipe and the cistern (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Miroitier* | 1761-88 | The mirror works: the casting table, the grinding and the silvering (no scan verified) |
 
 ## Ars Transportaria
 
@@ -1371,6 +1403,9 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Auguste Goffart | *Manuel de la culture et de l ensilage des maïs; The Ensilage of Maize* | 1877/79 | The agricultural silo trade (no scan verified) |
 | William Miles | *The Horse's Foot, and How to Keep It Sound* | 1846 | The farrier's anatomy of the foot and the shoe (no scan verified) |
 | William J. Miles | [*A Plain Treatise on Horse-shoeing*](/view.html?p=documents/books/miles-1856-plain-treatise-horse-shoeing.md) | 1856 | The shoe set against the anatomy and action of the foot |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Charron* | 1761-88 | The wheelwright: the felloe, the spoke and the iron tyre (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Sellier* | 1761-88 | The saddler: the tree, the panel and the harness (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Maréchal* | 1761-88 | The farrier-smith: the shoe, the forge and the horse (no scan verified) |
 
 ## Ars Funalis
 
@@ -1384,6 +1419,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Wilhelm August Julius Albert | *Über die Anfertigung und den Gebrauch der eisernen Drahtseile* | 1835 | The stranded iron wire rope invented at the Harz mines (no scan verified) |
 | Joseph Huddart & William Chapman | *Cordage-laying machine patents and papers* | 1793–1808 | The register plate and the machine-laid cable (no scan verified) |
 | John A. Roebling | *Wire-rope patents and papers* | 1842–46 | The American wire rope spun for the suspension bridge and ropeway (no scan verified) |
+| Académie royale des sciences (Descriptions des Arts et Métiers) | *L'Art du Cordier* | 1761-88 | The ropewalk: the hemp, the spin and the cable (no scan verified) |
 
 ## Ars Navalis
 
