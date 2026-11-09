@@ -81289,7 +81289,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the naval rows: Bouguer’s Traité du navire, Euler’s Scientia Navalis and Jorge Juan’s Examen marítimo, Atwood’s Disquisition on stability, Lloyd’s Register as a classification series (honest no-scan), the Smith–Ericsson screw-propeller patents (honest no-scan), the Admiralty Manual of Scientific Enquiry, Reed’s Shipbuilding in Iron and Steel, White’s Manual of Naval Architecture, Barnaby’s Marine Propellers and Attwood’s Text-book at the 1899 boundary."
+        "summary": "Add the naval rows: Bouguer’s Traité du navire, Euler’s Scientia Navalis and Jorge Juan’s Examen marítimo, Atwood’s Disquisition on stability, Lloyd’s Register as a classification series (honest no-scan), the Smith–Ericsson screw-propeller patents (honest no-scan), the Admiralty Manual of Scientific Enquiry, Reed’s Shipbuilding in Iron and Steel, White’s Manual of Naval Architecture, Barnaby’s Marine Propellers and Attwood’s Text-book at the 1899 boundary.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb",
+        "before": "25288c39db05b356b850ae19326ca6371d6cc9c2"
       }
     ]
   }

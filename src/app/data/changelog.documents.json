@@ -34548,7 +34548,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Bouguer, Traité du navire (1746) — the founding naval hydrostatics; three 1746 scans."
+        "summary": "Add Bouguer, Traité du navire (1746) — the founding naval hydrostatics; three 1746 scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34558,7 +34559,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Euler, Scientia Navalis (1749) — the mathematical ship; two part scans."
+        "summary": "Add Euler, Scientia Navalis (1749) — the mathematical ship; two part scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34568,7 +34570,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Jorge Juan, Examen marítimo (1771) — the Spanish naval mechanics; 1771 and second-copy scans."
+        "summary": "Add Jorge Juan, Examen marítimo (1771) — the Spanish naval mechanics; 1771 and second-copy scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34578,7 +34581,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Atwood, A Disquisition on the Stability of Ships (1798) — stability quantified; 1798 and 1796 scans."
+        "summary": "Add Atwood, A Disquisition on the Stability of Ships (1798) — stability quantified; 1798 and 1796 scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34588,7 +34592,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Lloyd's Register of Shipping (1760–, series) — classification; honest no-scan note."
+        "summary": "Add Lloyd's Register of Shipping (1760–, series) — classification; honest no-scan note.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34598,7 +34603,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Smith and Ericsson propeller patents (1836–, collector) — the screw transition; honest no-scan note."
+        "summary": "Add the Smith and Ericsson propeller patents (1836–, collector) — the screw transition; honest no-scan note.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34608,7 +34614,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the Admiralty Manual of Scientific Enquiry (1851, Herschel ed.) — the naval science manual; 1851 and 1859 scans."
+        "summary": "Add the Admiralty Manual of Scientific Enquiry (1851, Herschel ed.) — the naval science manual; 1851 and 1859 scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34618,7 +34625,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Reed, Shipbuilding in Iron and Steel (1869) — the metal hull; 1869 scan."
+        "summary": "Add Reed, Shipbuilding in Iron and Steel (1869) — the metal hull; 1869 scan.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34628,7 +34636,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add White, A Manual of Naval Architecture (1877) — the standard text; 1877 and 1894 scans."
+        "summary": "Add White, A Manual of Naval Architecture (1877) — the standard text; 1877 and 1894 scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34638,7 +34647,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Barnaby, Marine Propellers (1891) — the propeller theory; 1891 and 1900 scans."
+        "summary": "Add Barnaby, Marine Propellers (1891) — the propeller theory; 1891 and 1900 scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   },
@@ -34648,7 +34658,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Attwood, Text-book of Theoretical Naval Architecture (1899) — the teaching text; 1899 and later scans."
+        "summary": "Add Attwood, Text-book of Theoretical Naval Architecture (1899) — the teaching text; 1899 and later scans.",
+        "commit": "c2870318700521b83bc6ca44772fcb80735c69fb"
       }
     ]
   }
