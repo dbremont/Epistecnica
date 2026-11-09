@@ -551,6 +551,16 @@ qa:
 | Rudolph Koenig | [*Quelques Expériences d'Acoustique*](/view.html?p=documents/books/koenig-1882-quelques-experiences.md) | 1882 | Acoustic experiments at the century's leading maker |
 | Rudolph Koenig | [*Catalogue des Appareils d'Acoustique*](/view.html?p=documents/books/koenig-1889-catalogue-of-acoustic-instruments.md) | 1889 (1865 first) | Acoustic instruments: the trade catalogue |
 | G. B. Airy | [*On Sound and Atmospheric Vibrations*](/view.html?p=documents/books/airy-1868-sound-atmospheric-vibrations.md) | 1868 | The mathematical acoustics of the atmosphere |
+| Joseph Sauveur | [*Système Général des Intervalles des Sons*](/view.html?p=documents/books/sauveur-1701-systeme-general-intervalles.md) | 1701 | The harmonic series named — music given a physical foundation (honest no-scan) |
+| Félix Savart | [*Mémoire sur la Construction des Instruments à Cordes*](/view.html?p=documents/books/savart-1819-memoire-instruments-cordes.md) | 1819 | The instrument analysed as an acoustic system (honest no-scan) |
+| E. J. Hopkins & E. F. Rimbault | [*The Organ: Its History and Construction*](/view.html?p=documents/books/hopkins-rimbault-1855-the-organ.md) | 1855 | The largest acoustic machine documented in full |
+| E. F. Rimbault | [*The Pianoforte: Its Origin, Progress, and Construction*](/view.html?p=documents/books/rimbault-1860-the-pianoforte.md) | 1860 | The piano trade's own account |
+| Alexander J. Ellis | [*On the History of Musical Pitch*](/view.html?p=documents/books/ellis-1880-history-of-musical-pitch.md) | 1880 | Tuning made a metrological question (papers) |
+| A. M. Bell | [*Visible Speech*](/view.html?p=documents/books/bell-1867-visible-speech.md) | 1867 | The sounds of speech written as a universal alphabet |
+| A. G. Bell | [*Telephone patents and specifications*](/view.html?p=documents/books/bell-1876-telephone-patents.md) | 1876–77 | Speech transmitted as an undulating current |
+| Francis Galton | [*Hearing and Galton-whistle papers*](/view.html?p=documents/books/galton-1880s-hearing-whistle-papers.md) | 1870s–80s | The upper limit of hearing measured |
+| C. Cagniard de la Tour & A. Seebeck | [*Siren papers*](/view.html?p=documents/books/cagniard-seebeck-1819-1840s-siren-papers.md) | 1819–40s | The rotating disc that made frequency countable |
+| W. C. Sabine | [*Collected Papers on Acoustics*](/view.html?p=documents/books/sabine-1922-collected-papers-acoustics.md) | 1922 (boundary) | Reverberation measured — the hall designed from the number |
 
 ## Ars Telluris
 

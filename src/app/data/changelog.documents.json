@@ -33979,5 +33979,105 @@
         "commit": "eb4035d3f74d114c0037de814943cf0482719017"
       }
     ]
+  },
+  {
+    "file_path": "books/sauveur-1701-systeme-general-intervalles.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sauveur, Système général des intervalles des sons (1701) — the overtone series; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/savart-1819-memoire-instruments-cordes.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Savart's memoir on stringed instruments (1819) — the instrument acoustics; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hopkins-rimbault-1855-the-organ.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hopkins and Rimbault, The Organ (1855) — the organ builder's treatise; 1855 and 1870 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rimbault-1860-the-pianoforte.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rimbault, The Pianoforte (1860) — the instrument and its trade; three 1860 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ellis-1880-history-of-musical-pitch.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ellis on the history of musical pitch (1880) — pitch as measurement; two 1880 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bell-1867-visible-speech.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bell, Visible Speech (1867) — the speech notation; later Bell primers scanned, edition stated."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bell-1876-telephone-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Bell telephone patents (1876–77, collector) — telephony specified; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/galton-1880s-hearing-whistle-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Galton's hearing and whistle papers (1870s–80s, collector) — the hearing limit; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cagniard-seebeck-1819-1840s-siren-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Cagniard de la Tour and Seebeck siren papers (1819–40s, collector) — the tone generator; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sabine-1922-collected-papers-acoustics.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sabine, Collected Papers on Acoustics (1922, boundary) — architectural acoustics founded; 1922 scan."
+      }
+    ]
   }
 ]

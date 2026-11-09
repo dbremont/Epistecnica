@@ -81257,6 +81257,11 @@
         "summary": "Add the food rows: Accum’s Culinary Chemistry, Rundell’s, Acton’s, Soyer’s, Francatelli’s, Carême’s and Beeton’s cookery books, Skuse’s confectionery manual, Marah on coffee and Money on tea, Hassall’s Food and Its Adulterations, Liebig’s Extract of Meat, Tichborne’s mineral waters, Whymper’s cocoa and chocolate at the 1912 boundary, and the Mège-Mouriès margarine patent collector.",
         "commit": "eb4035d3f74d114c0037de814943cf0482719017",
         "before": "a86e4a40a4db45eb18400bff21d2ae84c1fbd116"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the acoustic rows: Sauveur on the harmonic series and Savart on stringed instruments (both honest no-scan), Hopkins and Rimbault’s The Organ and Rimbault’s The Pianoforte, Ellis on the history of musical pitch, Melville Bell’s Visible Speech and Graham Bell’s telephone patents, Galton’s hearing papers, the Cagniard de la Tour and Seebeck siren papers, and Sabine’s Collected Papers at the 1922 boundary."
       }
     ]
   }
