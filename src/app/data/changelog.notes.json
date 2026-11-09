@@ -81373,7 +81373,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the machine-shop and electricity founding layer: Ohm's galvanische Kette (1827), Vail's American electro magnetic telegraph (1845), the Ordnance metals-for-cannon reports (1856), Rose's Complete Practical Machinist (1876), Hertz's Electric Waves (1893) and Steinmetz's alternating-current theory (1897); and honest no-scan rows for Kirchhoff/Bunsen spectroscopy, Planté, Gramme, Papin's 1690 cylinder, Mayer 1842, Beau de Rochas, Corliss and Giffard in Energia, Whitworth & Wallis's 1854 American inspection, Armstrong, and F. W. Taylor in Mechanica, Westinghouse and Galton in Transportaria."
+        "summary": "Add the machine-shop and electricity founding layer: Ohm's galvanische Kette (1827), Vail's American electro magnetic telegraph (1845), the Ordnance metals-for-cannon reports (1856), Rose's Complete Practical Machinist (1876), Hertz's Electric Waves (1893) and Steinmetz's alternating-current theory (1897); and honest no-scan rows for Kirchhoff/Bunsen spectroscopy, Planté, Gramme, Papin's 1690 cylinder, Mayer 1842, Beau de Rochas, Corliss and Giffard in Energia, Whitworth & Wallis's 1854 American inspection, Armstrong, and F. W. Taylor in Mechanica, Westinghouse and Galton in Transportaria.",
+        "commit": "c42c259f68bf1679f1ac8b28fec982e90ac5b59d",
+        "before": "d832adb7e9d5148ccb194061e81036e24c32bc32"
       }
     ]
   }
