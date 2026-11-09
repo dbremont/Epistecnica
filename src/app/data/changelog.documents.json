@@ -37239,7 +37239,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Euler, Théorie des machines (E226/E227) — the Euler turbine equation; 1754/1757 memoire scans."
+        "summary": "Add Euler, Théorie des machines (E226/E227) — the Euler turbine equation; 1754/1757 memoire scans.",
+        "commit": "4b5a888763da58cc18df588e450a8d54e576ef43"
       }
     ]
   },
@@ -37249,7 +37250,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rankine, On the Stability of Loose Earth (1857 Phil. Trans.) — the founding earth pressure; 1857 scan."
+        "summary": "Add Rankine, On the Stability of Loose Earth (1857 Phil. Trans.) — the founding earth pressure; 1857 scan.",
+        "commit": "4b5a888763da58cc18df588e450a8d54e576ef43"
       }
     ]
   },
@@ -37259,7 +37261,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Thomson and Rollins, Roentgen Rays (1899) — the x-ray apparatus book; 1899 scan."
+        "summary": "Add Thomson and Rollins, Roentgen Rays (1899) — the x-ray apparatus book; 1899 scan.",
+        "commit": "4b5a888763da58cc18df588e450a8d54e576ef43"
       }
     ]
   }
