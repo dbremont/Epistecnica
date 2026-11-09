@@ -29910,7 +29910,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Koenig, Quelques experiences d'acoustique (Paris, 1882); honest no-scan note, the maker's catalogues scanned."
+        "summary": "Add Koenig, Quelques experiences d'acoustique (Paris, 1882); honest no-scan note, the maker's catalogues scanned.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29920,7 +29921,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Koenig's Catalogue des appareils d'acoustique (1889, with the 1865 first) - the acoustic-instrument trade's own catalogue genre."
+        "summary": "Add Koenig's Catalogue des appareils d'acoustique (1889, with the 1865 first) - the acoustic-instrument trade's own catalogue genre.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29930,7 +29932,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Kundt, acoustic dust-figures paper (1866, Annalen der Physik, @article); honest no-scan note, the tube-method record."
+        "summary": "Add Kundt, acoustic dust-figures paper (1866, Annalen der Physik, @article); honest no-scan note, the tube-method record.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29940,7 +29943,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Gauss, Intensitas vis magneticae terrestris (1832, @article) - absolute measurement of magnetic intensity; Göttingen and Phil. Trans. scans, cross-linked to Sabine."
+        "summary": "Add Gauss, Intensitas vis magneticae terrestris (1832, @article) - absolute measurement of magnetic intensity; Göttingen and Phil. Trans. scans, cross-linked to Sabine.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29950,7 +29954,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Lamont, Handbuch des Erdmagnetismus (1849); honest no-scan note with the 1867 related Handbuch des Magnetismus and 1858 Untersuchungen scans linked."
+        "summary": "Add Lamont, Handbuch des Erdmagnetismus (1849); honest no-scan note with the 1867 related Handbuch des Magnetismus and 1858 Untersuchungen scans linked.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29960,7 +29965,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Lyell, Principles of geology (1830-33, 3 vols); early and 1875 scans, the geological branch - great theoretical reference."
+        "summary": "Add Lyell, Principles of geology (1830-33, 3 vols); early and 1875 scans, the geological branch - great theoretical reference.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29970,7 +29976,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add McAdam, Remarks on the present system of road making (1820); 1821-23 edition scans. Opens the new Ars Transportaria branch with Wood and Webb."
+        "summary": "Add McAdam, Remarks on the present system of road making (1820); 1821-23 edition scans. Opens the new Ars Transportaria branch with Wood and Webb.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29980,7 +29987,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wood, A practical treatise on rail-roads (1825) in the Stockton-and-Darlington year; 1825 and 1838 scans."
+        "summary": "Add Wood, A practical treatise on rail-roads (1825) in the Stockton-and-Darlington year; 1825 and 1838 scans.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -29990,7 +29998,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Webb, Railroad construction: theory and practice (1900) - the boundary-volume engineering-science close of the transport branch; 1900 and 1913 scans."
+        "summary": "Add Webb, Railroad construction: theory and practice (1900) - the boundary-volume engineering-science close of the transport branch; 1900 and 1913 scans.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -30000,7 +30009,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Chapman, Architectura navalis mercatoria (1768); honest no-scan of the original plates (1971 facsimile linked) with the 1781 French treatise translation scanned."
+        "summary": "Add Chapman, Architectura navalis mercatoria (1768); honest no-scan of the original plates (1971 facsimile linked) with the 1781 French treatise translation scanned.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   },
@@ -30010,7 +30020,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Chapman, A treatise on ship-building (1820-traktat-era, honest no-scan) with the 1781 French translation scan; bibtex brace-guard repaired."
+        "summary": "Add Chapman, A treatise on ship-building (1820-traktat-era, honest no-scan) with the 1781 French translation scan; bibtex brace-guard repaired.",
+        "commit": "59519519c69b56bb83503ac6e480005e9b748d2f"
       }
     ]
   }
