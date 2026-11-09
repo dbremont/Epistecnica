@@ -81110,5 +81110,15 @@
         "before": "d133d7c2e553a10bcf3993dc56bd71b0480a489f"
       }
     ]
+  },
+  {
+    "file_path": "unclassified/a-guide-to-historical-technical-literature.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the guide to historical technical literature, 1600-1900 - three periods, nine domain sections of primary technical literature from Veranzio to Clapeyron, the twenty consolidated reading priorities, the disciplines to investigate, the seven reference collections, and the four-category technical-arts / technology / engineering / engineering-science distinction; corpus holdings of the agrarian stratum linked."
+      }
+    ]
   }
 ]
