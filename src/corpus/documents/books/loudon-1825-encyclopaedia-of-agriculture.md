@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — An encyclopædia of agriculture (1825)](https://archive.org/details/anencyclopdiaag00loudgoog)
 - [Archive.org — (later edition)](https://archive.org/details/cu31924054703792)
-- [Loudon, An Encyclopaedia of Cottage, Farm, and Villa Architecture (1833) — the companion volume](/view.html?p=documents/books/loudon-1833-encyclopaedia-cottage-farm-villa-architecture.md)
+- [Loudon, An Encyclopaedia of Cottage, Farm, and Villa Architecture (1833) — the companion volume](/view.html?p=documents/books/stephens-1844-book-of-the-farm.md)

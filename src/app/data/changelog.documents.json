@@ -33198,5 +33198,245 @@
         "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
+  },
+  {
+    "file_path": "books/cavendish-1771-electrical-researches.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cavendish, The Electrical Researches (Maxwell ed. 1879, papers 1771–81) — the quantitative founding layer; two scans plus the 1771 paper."
+      }
+    ]
+  },
+  {
+    "file_path": "books/coulomb-1785-electrical-magnetic-memoirs.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Coulomb electrical and magnetic memoirs (1785–89, @misc collector) — the torsion-balance measurement; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/oersted-1820-experimenta.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ørsted, Experimenta (1820) — the founding electromagnetism pamphlet; 1820 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ampere-1822-recueil-observations.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ampère, Recueil d'observations électro-dynamiques (1822) — the electrodynamic theory; two 1822 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sturgeon-1836-annals-of-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sturgeon's Annals of Electricity (1836–43, series) — the first electrical journal; 1836 and 1840 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cooke-wheatstone-1837-telegraph-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cooke and Wheatstone telegraph patents (1837–, @misc collector) — the first commercial signalling system; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/walker-1841-electrotype-manipulation.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Walker, Electrotype Manipulation (1841) — the bench manual of electrotyping; 1849 and 1852 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hopkinson-1886-dynamo-electric-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hopkinson, Dynamo-electric machinery (1886, paper) — the magnetic-circuit design; 1886 and 1892 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/heaviside-1892-electrical-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Heaviside, Electrical Papers (1892) — the transmission-line theory; 1892 and 1894 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ac-transformer-1885-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the 1885–88 AC transformer patent families (collector entry) — the distribution hinge; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/edison-swan-1879-incandescent-lamp-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Edison and Swan incandescent-lamp patent families (collector entry) — the domestic lamp; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/marconi-lodge-1896-wireless-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Marconi and Lodge wireless papers (1896–99, boundary collector) — syntonic telegraphy; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/siemens-sprague-1880s-electric-traction-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Siemens and Sprague electric-traction papers (1880s–90s, collector) — the moving load; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hooke-1665-micrographia.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hooke, Micrographia (1665) — the instrument branch's founding book; 1665 and 1667 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/molyneux-1692-dioptrica-nova.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Molyneux, Dioptrica Nova (1692) — the practical optical treatise; 1692 and 1709 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gravesande-1720-physices-elementa-mathematica.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add 's Gravesande, Physices elementa mathematica (1720) — the apparatus-taught philosophy; both volumes scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dollond-ramsden-1750s-optical-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Dollond and Ramsden optical patents and papers (1750s–90s, collector) — achromat and dividing engine; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kater-sabine-1810s-pendulum-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Kater and Sabine pendulum papers (1810s–20s, collector) — gravity as a geodetic measurement; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wheatstone-1879-scientific-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wheatstone, The Scientific Papers (1879) — the measuring instruments collected; 1879 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wimshurst-holtz-1860s-influence-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the influence-machine papers of Holtz, Toepler and Wimshurst (1860s–80s, collector) — the electrostatic supply; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/crookes-1870s-radiometer-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Crookes radiometer and vacuum papers (1870s, collector) — the vacuum instrument layer; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/michelson-rowland-1880s-interferometer-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Michelson and Rowland interferometer papers (1880s–90s, collector) — precision optics; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/abbe-zeiss-1870s-microscope-theory.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Abbe and Zeiss microscope papers and catalogues (1870s–90s, collector) — designed optics; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/instrument-maker-catalogues-19c.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the instrument-makers' catalogue collector (19th c.) — the trade's own instrument ranges; honest no-scan note."
+      }
+    ]
   }
 ]

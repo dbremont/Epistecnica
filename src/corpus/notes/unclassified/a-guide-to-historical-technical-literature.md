@@ -278,6 +278,19 @@ qa:
 | A.-M. Ampère | [*Théorie des Phénomènes Électro-Dynamiques*](/view.html?p=documents/books/ampere-1826-theorie-des-phenomenes-electro-dynamiques.md) | 1826 | Electrodynamics systematized |
 | Alfred Smee | [*Elements of Electro-Metallurgy*](/view.html?p=documents/books/smee-1843-elements-electro-metallurgy.md) | 1843 | The founding deposition manual |
 | James Clerk Maxwell | [*A Treatise on Electricity and Magnetism*](/view.html?p=documents/books/maxwell-1873-treatise-electricity-magnetism.md) | 1873 | The theoretical frame the engineering assumed |
+| Henry Cavendish | [*The Electrical Researches (ed. Maxwell)*](/view.html?p=documents/books/cavendish-1771-electrical-researches.md) | 1771–81; ed. 1879 | The quantitative experiments, published a century later |
+| C.-A. de Coulomb | [*Electrical and magnetic memoirs*](/view.html?p=documents/books/coulomb-1785-electrical-magnetic-memoirs.md) | 1785–89 | The torsion balance and the inverse-square law (memoirs) |
+| H. C. Ørsted | [*Experimenta circa Effectum Conflictus Electrici in Acum Magneticam*](/view.html?p=documents/books/oersted-1820-experimenta.md) | 1820 | The four-page pamphlet that opened electromagnetism |
+| A.-M. Ampère | [*Recueil d'Observations Électro-Dynamiques*](/view.html?p=documents/books/ampere-1822-recueil-observations.md) | 1822 | Electrodynamics built from Ørsted's deflection |
+| William Sturgeon (ed.) | [*The Annals of Electricity, Magnetism, and Chemistry*](/view.html?p=documents/books/sturgeon-1836-annals-of-electricity.md) | 1836–43 | The first electrical journal — apparatus reported as made |
+| W. F. Cooke & C. Wheatstone | [*Telegraph patents and specifications*](/view.html?p=documents/books/cooke-wheatstone-1837-telegraph-patents.md) | 1837– | The needle telegraph specified as a railway system |
+| C. V. Walker | [*Electrotype Manipulation*](/view.html?p=documents/books/walker-1841-electrotype-manipulation.md) | 1841 | The plating process as plain bench instructions |
+| John Hopkinson | [*Dynamo-Electric Machinery*](/view.html?p=documents/books/hopkinson-1886-dynamo-electric-machinery.md) | 1886 | The magnetic circuit worked out — the dynamo made calculable (paper) |
+| Oliver Heaviside | [*Electrical Papers*](/view.html?p=documents/books/heaviside-1892-electrical-papers.md) | 1892 | Transmission-line theory and the operator calculus |
+| Gaulard & Gibbs; Zipernowsky, Bláthy & Déri; Tesla | [*Alternating-current transformer patents*](/view.html?p=documents/books/ac-transformer-1885-patents.md) | 1885–88 | The closed-core transformer and parallel distribution |
+| T. A. Edison & J. W. Swan | [*Incandescent-lamp patents*](/view.html?p=documents/books/edison-swan-1879-incandescent-lamp-patents.md) | 1879–83 | The carbon filament and the evacuated bulb |
+| G. Marconi & O. Lodge | [*Wireless and syntonic telegraphy papers*](/view.html?p=documents/books/marconi-lodge-1896-wireless-papers.md) | 1896–99 | The tuned circuit and the aerial system (boundary) |
+| W. von Siemens & F. J. Sprague | [*Electric-traction papers*](/view.html?p=documents/books/siemens-sprague-1880s-electric-traction-papers.md) | 1880s–90s | The motor put on rails — tram and underground |
 
 ## Ars Instrumentalis
 
@@ -311,6 +324,17 @@ qa:
 | L. S. Beale | [*How to Work with the Microscope*](/view.html?p=documents/books/beale-1857-how-to-work-with-the-microscope.md) | 1857 | The microscopist’s bench instruction |
 | E. B. Benjamin | [*American Hand-Book of Chemical and Physical Apparatus*](/view.html?p=documents/books/benjamin-1872-american-handbook-chemical-physical-apparatus.md) | 1872 | The apparatus-maker’s catalogue |
 | C. E. Fritts | [*The Watch Adjuster’s Manual*](/view.html?p=documents/books/fritts-1894-watch-adjusters-manual.md) | 1894 | Adjustment and the watchmaker’s precision work |
+| Robert Hooke | [*Micrographia*](/view.html?p=documents/books/hooke-1665-micrographia.md) | 1665 | The microscope turned on the small world — the founding instrument book |
+| William Molyneux | [*Dioptrica Nova*](/view.html?p=documents/books/molyneux-1692-dioptrica-nova.md) | 1692 | Telescope and microscope optics for the instrument maker |
+| W. J. 's Gravesande | [*Physices Elementa Mathematica*](/view.html?p=documents/books/gravesande-1720-physices-elementa-mathematica.md) | 1720 | The experimental philosophy taught with the apparatus |
+| John Dollond & Jesse Ramsden | [*Optical and dividing-engine patents and papers*](/view.html?p=documents/books/dollond-ramsden-1750s-optical-patents.md) | 1750s–90s | The achromatic lens and the dividing engine |
+| Henry Kater & Edward Sabine | [*Pendulum and gravity papers*](/view.html?p=documents/books/kater-sabine-1810s-pendulum-papers.md) | 1810s–20s | Gravity measured by the seconds pendulum |
+| Charles Wheatstone | [*The Scientific Papers*](/view.html?p=documents/books/wheatstone-1879-scientific-papers.md) | 1879 | The bridge, the rheostat and the telegraph instruments |
+| Holtz, Toepler & Wimshurst | [*Influence-machine papers*](/view.html?p=documents/books/wimshurst-holtz-1860s-influence-machines.md) | 1860s–80s | The electrostatic generator made reliable |
+| William Crookes | [*Radiometer and vacuum papers*](/view.html?p=documents/books/crookes-1870s-radiometer-papers.md) | 1870s | The light-mill and the discharge tube |
+| A. A. Michelson & H. A. Rowland | [*Interferometer and ruling-engine papers*](/view.html?p=documents/books/michelson-rowland-1880s-interferometer-papers.md) | 1880s–90s | Measurement pushed to the wavelength |
+| Ernst Abbe & Carl Zeiss | [*Microscope theory papers and catalogues*](/view.html?p=documents/books/abbe-zeiss-1870s-microscope-theory.md) | 1870s–90s | The microscope designed from diffraction theory |
+| Troughton & Simms; Elliott Bros; Repsold; Ertel; Pistor & Martins | [*Instrument-makers' catalogues*](/view.html?p=documents/books/instrument-maker-catalogues-19c.md) | 19th century | The makers' standard ranges, priced and described |
 
 ## Ars Manufactura
 

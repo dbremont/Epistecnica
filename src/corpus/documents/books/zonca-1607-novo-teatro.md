@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Novo teatro di machine (1607)](https://archive.org/details/novoteatrodimach00zonc)
 - [Ramelli, Le Diverse et Artificiose Machine (1588) — the founding line](/view.html?p=documents/books/ramelli-1588-diverse-machine.md)
-- [Böckler, Theatrum Machinarum Novum (1661) — the theatre's later form](/view.html?p=documents/books/b%C3%B6ckler-1661-theatrum-machinarum-novum.md)
+- [Böckler, Theatrum Machinarum Novum (1661) — the theatre's later form](/view.html?p=documents/books/bockler-1661-theatrum-machinarum-novum.md)

@@ -81229,6 +81229,11 @@
         "summary": "Add the twenty-eight founding rows: the metallurgical founding and systematic layer (Biringuccio 1540, Swedenborg, Schlüter, Jars, d’Aubuisson, Karsten, Rivot, Wedding, Ledebur, Howe, Osmond, Hadfield), the mechanism layer (Hooke’s posthumous works, Kennedy, Nasmyth, Fowler’s patents, Howard and Fowler’s steam cultivation), the chemical systematists (Berzelius twice, Hofmann, Perkin, Berthelot) and the farm’s experimental and chemical line (Young’s Course, Loudon, Boussingault, Johnstone on Elkington’s drainage, Parkes, Voelcker), with Fowler cross-listed into Agricola.",
         "commit": "cafd362d4e16ad24d215f391999e0f2640099704",
         "before": "8dcba120ce2dc2b644b888ecf2d2b3e5a05d777e"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the electrical and instrument rows: Cavendish’s researches in Maxwell’s edition, Coulomb’s memoirs, Ørsted’s 1820 pamphlet, Ampère’s Recueil, Sturgeon’s Annals, the Cooke–Wheatstone telegraph patents, Walker’s electrotype manual, Hopkinson’s dynamo paper, Heaviside’s Electrical Papers, the AC-transformer, Edison–Swan, Marconi–Lodge and Siemens–Sprague patent and paper collectors; and the instrument line — Hooke’s Micrographia, Molyneux’s Dioptrica Nova, ’s Gravesande’s Physices, the Dollond–Ramsden and Kater–Sabine papers, Wheatstone’s Scientific Papers, the influence-machine, radiometer, interferometer and Abbe–Zeiss collectors, and the instrument-makers’ catalogues."
       }
     ]
   }
