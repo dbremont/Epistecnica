@@ -28403,7 +28403,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Veranzio, Machinae novae (Venice, 1615-16) - the machine-book genre's fifty-plate proposal catalogue; Getty copy scanned."
+        "summary": "Add Veranzio, Machinae novae (Venice, 1615-16) - the machine-book genre's fifty-plate proposal catalogue; Getty copy scanned.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28413,7 +28414,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Boehckler, Theatrum machinarum novum (Nuremberg, 1661); 1661 and 1703 scans."
+        "summary": "Add Boehckler, Theatrum machinarum novum (Nuremberg, 1661); 1661 and 1703 scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28423,7 +28425,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Belidor, Architecture hydraulique (Paris, 1737-53, 4 vols); original-volume scans."
+        "summary": "Add Belidor, Architecture hydraulique (Paris, 1737-53, 4 vols); original-volume scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28433,7 +28436,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Encyclopedie planches (1762-72) - referenced through ARTFL and Gallica, no single archive surrogate."
+        "summary": "Add the Encyclopedie planches (1762-72) - referenced through ARTFL and Gallica, no single archive surrogate.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28443,7 +28447,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Babbage, On the economy of machinery and manufactures (London, 1832); 1832 and Gutenberg scans."
+        "summary": "Add Babbage, On the economy of machinery and manufactures (London, 1832); 1832 and Gutenberg scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28453,7 +28458,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Reuleaux, The kinematics of machinery (Vieweg, 1875); 1876 Kennedy-translation scans."
+        "summary": "Add Reuleaux, The kinematics of machinery (Vieweg, 1875); 1876 Kennedy-translation scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28463,7 +28469,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Rankine, A manual of machinery and millwork (London, 1869); 1869 scan plus later printings."
+        "summary": "Add Rankine, A manual of machinery and millwork (London, 1869); 1869 scan plus later printings.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28473,7 +28480,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Davy, Elements of chemical philosophy (London, 1812); 1812 scans, cross-linked to the 1813 agricultural lectures."
+        "summary": "Add Davy, Elements of chemical philosophy (London, 1812); 1812 scans, cross-linked to the 1813 agricultural lectures.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28483,7 +28491,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ure, A dictionary of arts, manufactures, and mines (London, 1839); Victorian printings scanned, first-edition note."
+        "summary": "Add Ure, A dictionary of arts, manufactures, and mines (London, 1839); Victorian printings scanned, first-edition note.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28493,7 +28502,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ure, The philosophy of manufactures (London, 1835) - the factory as production system; 1835 scan."
+        "summary": "Add Ure, The philosophy of manufactures (London, 1835) - the factory as production system; 1835 scan.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28503,7 +28513,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Liebig, Chemistry in its application to agriculture and physiology (1840); 1842 English scan and the LOC record, cross-linked to Davy 1813."
+        "summary": "Add Liebig, Chemistry in its application to agriculture and physiology (1840); 1842 English scan and the LOC record, cross-linked to Davy 1813.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28513,7 +28524,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Muspratt, Chemistry theoretical practical and analytical (London, 1860, 2 vols); Science History Institute originals both volumes."
+        "summary": "Add Muspratt, Chemistry theoretical practical and analytical (London, 1860, 2 vols); Science History Institute originals both volumes.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28523,7 +28535,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wagner, A handbook of chemical technology, tr. Crookes (1872); 1872 scan."
+        "summary": "Add Wagner, A handbook of chemical technology, tr. Crookes (1872); 1872 scan.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28533,7 +28546,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Thorpe, A dictionary of applied chemistry (1891-94); later-edition scan with honest note."
+        "summary": "Add Thorpe, A dictionary of applied chemistry (1891-94); later-edition scan with honest note.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28543,7 +28557,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Agricola, De re metallica (Basel, 1556) - foundational metallurgy; Hoover 1912 translation and 1621 Latin scans, Scholars' Mine link."
+        "summary": "Add Agricola, De re metallica (Basel, 1556) - foundational metallurgy; Hoover 1912 translation and 1621 Latin scans, Scholars' Mine link.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28553,7 +28568,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ercker, Treatise on ores and assaying (Prague, 1574); no scan verified, catalogued honestly, linked to Agricola."
+        "summary": "Add Ercker, Treatise on ores and assaying (Prague, 1574); no scan verified, catalogued honestly, linked to Agricola.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28563,7 +28579,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Percy, Metallurgy: the art of extracting metals (London, 1861); 1870s print scans."
+        "summary": "Add Percy, Metallurgy: the art of extracting metals (London, 1861); 1870s print scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28573,7 +28590,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Percy, Metallurgy: iron and steel (London, 1864); period scan."
+        "summary": "Add Percy, Metallurgy: iron and steel (London, 1864); period scan.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28583,7 +28601,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Bauerman, A treatise on the metallurgy of iron (1868); 1868 scan."
+        "summary": "Add Bauerman, A treatise on the metallurgy of iron (1868); 1868 scan.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   },
@@ -28593,7 +28612,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Bell, The chemical phenomena of iron smelting (1872); two 1872 scans."
+        "summary": "Add Bell, The chemical phenomena of iron smelting (1872); two 1872 scans.",
+        "commit": "3cc07f37846f98775fa655c46e74e5bf0fb2eca7"
       }
     ]
   }
