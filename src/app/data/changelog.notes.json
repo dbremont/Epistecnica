@@ -81366,7 +81366,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add the process-revolution layer: Neri's Arte Vetraria (1612; 1663 printing) and Piccolpasso's I tre libri (c. 1557; 1857 printing) as the founding glass and ceramics manuals in Manufactura; Glauber's Furni Novi, Parkes's Chemical Essays, Cross & Bevan's Cellulose (the viscose chemistry) and Moissan's Le Four Electrique in Chimica; Richards and Rose on aluminium and gold in Metallica; and honest no-scan rows for Cort, Neilson, Siemens-Martin, Hall-Heroult and cyanide gold in Metallica, Berthollet, Leblanc, Solvay, Nobel and Vieille in Chimica, Hyatt's celluloid in Manufactura, and Barba's Potosi Arte de los Metales in Extra Europam."
+        "summary": "Add the process-revolution layer: Neri's Arte Vetraria (1612; 1663 printing) and Piccolpasso's I tre libri (c. 1557; 1857 printing) as the founding glass and ceramics manuals in Manufactura; Glauber's Furni Novi, Parkes's Chemical Essays, Cross & Bevan's Cellulose (the viscose chemistry) and Moissan's Le Four Electrique in Chimica; Richards and Rose on aluminium and gold in Metallica; and honest no-scan rows for Cort, Neilson, Siemens-Martin, Hall-Heroult and cyanide gold in Metallica, Berthollet, Leblanc, Solvay, Nobel and Vieille in Chimica, Hyatt's celluloid in Manufactura, and Barba's Potosi Arte de los Metales in Extra Europam.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c",
+        "before": "f79d3ad69c4c5b32cf6192b103b0e3333755680a"
       }
     ]
   }

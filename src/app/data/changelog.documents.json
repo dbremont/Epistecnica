@@ -36205,7 +36205,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Neri, L Arte Vetraria (1612) — the glass trade's founding manual; 1663 printing scan."
+        "summary": "Add Neri, L Arte Vetraria (1612) — the glass trade's founding manual; 1663 printing scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36215,7 +36216,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Piccolpasso, I tre libri dell'arte del vasajo (c. 1557) — the earliest pottery manual; 1857 Rome printing scan."
+        "summary": "Add Piccolpasso, I tre libri dell'arte del vasajo (c. 1557) — the earliest pottery manual; 1857 Rome printing scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36225,7 +36227,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Glauber, Furni Novi Philosophici (1646–49) — the first chemical furnace shop; 1651 Latin edition scan."
+        "summary": "Add Glauber, Furni Novi Philosophici (1646–49) — the first chemical furnace shop; 1651 Latin edition scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36235,7 +36238,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Parkes, Chemical Essays (1815) — the early industrial chemistry; 1815 edition scan."
+        "summary": "Add Parkes, Chemical Essays (1815) — the early industrial chemistry; 1815 edition scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36245,7 +36249,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Richards, Aluminium (1887) — the founding aluminium reference; 1887 scan."
+        "summary": "Add Richards, Aluminium (1887) — the founding aluminium reference; 1887 scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36255,7 +36260,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rose, The Metallurgy of Gold (1894) — the gold metallurgy systematic; 1898 printing scan."
+        "summary": "Add Rose, The Metallurgy of Gold (1894) — the gold metallurgy systematic; 1898 printing scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36265,7 +36271,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Moissan, Le Four Electrique (1897) — the electric furnace chemistry; 1897 scan."
+        "summary": "Add Moissan, Le Four Electrique (1897) — the electric furnace chemistry; 1897 scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   },
@@ -36275,7 +36282,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Cross, Bevan and Beadle, Cellulose (1895) — the viscose chemical treatise; 1895 scan."
+        "summary": "Add Cross, Bevan and Beadle, Cellulose (1895) — the viscose chemical treatise; 1895 scan.",
+        "commit": "725e3b75cf844ebba144648918782286ed1e092c"
       }
     ]
   }
