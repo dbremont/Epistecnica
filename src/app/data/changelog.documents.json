@@ -37085,7 +37085,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Bramah, The Petition and Case (1798) — the lock trade at the patent epoch; 1798 scan."
+        "summary": "Add Bramah, The Petition and Case (1798) — the lock trade at the patent epoch; 1798 scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37095,7 +37096,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Brush, The Alternating Current Electric Lighting System (1896) — the arc-lighting trade; 1896 case book scan."
+        "summary": "Add Brush, The Alternating Current Electric Lighting System (1896) — the arc-lighting trade; 1896 case book scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37105,7 +37107,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Gorrie, Dr. Gorrie's Apparatus (1854) — the artificial ice trade; 1854 NLM scan."
+        "summary": "Add Gorrie, Dr. Gorrie's Apparatus (1854) — the artificial ice trade; 1854 NLM scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37115,7 +37118,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Congreve, A Treatise on the Rocket System (1827) — the British military rocket trade; 1827 scan."
+        "summary": "Add Congreve, A Treatise on the Rocket System (1827) — the British military rocket trade; 1827 scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37125,7 +37129,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Taylor (ed.), Scientific Memoirs, Vol. III (1852) — the analytical engine printing; 1852 scan."
+        "summary": "Add Taylor (ed.), Scientific Memoirs, Vol. III (1852) — the analytical engine printing; 1852 scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37135,7 +37140,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Barber, Lecture on the Whitehead Torpedo (1874) — the torpedo trade; 1874 scan."
+        "summary": "Add Barber, Lecture on the Whitehead Torpedo (1874) — the torpedo trade; 1874 scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37145,7 +37151,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Fahrenheit, Phil. Trans. paper (1724) — the mercury thermometer and its scale; 1724 Phil. Trans. scan."
+        "summary": "Add Fahrenheit, Phil. Trans. paper (1724) — the mercury thermometer and its scale; 1724 Phil. Trans. scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37155,7 +37162,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hosokawa, Karakuri Zui (1796) — the Japanese automata device; 1796 scan."
+        "summary": "Add Hosokawa, Karakuri Zui (1796) — the Japanese automata device; 1796 scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   },
@@ -37165,7 +37173,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Otis, The Otis Electric Elevator (1903 catalogue) — the American elevator trade; 1903 catalogue scan."
+        "summary": "Add Otis, The Otis Electric Elevator (1903 catalogue) — the American elevator trade; 1903 catalogue scan.",
+        "commit": "f910670af4e11896e3d99abdca4407255fdffa99"
       }
     ]
   }
