@@ -32897,7 +32897,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Biringuccio, De la Pirotechnia (1540) — the pre-1600 founding metallurgical manual, verified 1540 scan; the guide's lower bound stated at 1500."
+        "summary": "Add Biringuccio, De la Pirotechnia (1540) — the pre-1600 founding metallurgical manual, verified 1540 scan; the guide's lower bound stated at 1500.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32907,7 +32908,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Schlüter, Gründlicher Unterricht von Hütte-Werken (1738) — the German smelting manual; Wellcome and BSB scans."
+        "summary": "Add Schlüter, Gründlicher Unterricht von Hütte-Werken (1738) — the German smelting manual; Wellcome and BSB scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32917,7 +32919,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Swedenborg, Opera philosophica et mineralia (1734) — the Swedish mineral-kingdom volume; 1734 scan."
+        "summary": "Add Swedenborg, Opera philosophica et mineralia (1734) — the Swedish mineral-kingdom volume; 1734 scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32927,7 +32930,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Jars, Voyages métallurgiques (1774–81) — the three-volume European survey; all three scans."
+        "summary": "Add Jars, Voyages métallurgiques (1774–81) — the three-volume European survey; all three scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32937,7 +32941,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Karsten, System der Metallurgie (1831–32) — the systematic German treatise; 1831 scans."
+        "summary": "Add Karsten, System der Metallurgie (1831–32) — the systematic German treatise; 1831 scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32947,7 +32952,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add d'Aubuisson de Voisins, Traité de métallurgie (1827) — the French systematic treatise; honest no-scan note."
+        "summary": "Add d'Aubuisson de Voisins, Traité de métallurgie (1827) — the French systematic treatise; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32957,7 +32963,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Rivot, Principes généraux du traitement des minerais métalliques (1859) — the French theoretical metallurgy; two 1859 scans, the critique's title correction noted."
+        "summary": "Add Rivot, Principes généraux du traitement des minerais métalliques (1859) — the French theoretical metallurgy; two 1859 scans, the critique's title correction noted.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32967,7 +32974,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Wedding, Das Eisenhüttenwesen (1874) — the German ironworks handbook; honest no-scan note."
+        "summary": "Add Wedding, Das Eisenhüttenwesen (1874) — the German ironworks handbook; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32977,7 +32985,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ledebur, Handbuch der Eisen- und Stahlgiesserei (1901) — the foundry handbook, boundary year honestly recorded; Getty scan."
+        "summary": "Add Ledebur, Handbuch der Eisen- und Stahlgiesserei (1901) — the foundry handbook, boundary year honestly recorded; Getty scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32987,7 +32996,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Howe, The Metallurgy of Steel (1890) — the American systematic treatise; 1890 scan."
+        "summary": "Add Howe, The Metallurgy of Steel (1890) — the American systematic treatise; 1890 scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -32997,7 +33007,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Osmond allotropy papers (1880s–90s, @misc collector) — the metallography layer; honest no-scan note."
+        "summary": "Add Osmond allotropy papers (1880s–90s, @misc collector) — the metallography layer; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33007,7 +33018,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hadfield manganese-steel papers (1880s–90s, @misc collector) — the alloy-steel edge; honest no-scan note."
+        "summary": "Add Hadfield manganese-steel papers (1880s–90s, @misc collector) — the alloy-steel edge; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33017,7 +33029,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hooke, The Posthumous Works (1705) — the collector of the Cutlerian lectures and mechanical papers; two 1705 scans."
+        "summary": "Add Hooke, The Posthumous Works (1705) — the collector of the Cutlerian lectures and mechanical papers; two 1705 scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33027,7 +33040,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Kennedy, The Mechanics of Machinery (1886) — the British kinematics; two scans, the critique's title correction recorded."
+        "summary": "Add Kennedy, The Mechanics of Machinery (1886) — the British kinematics; two scans, the critique's title correction recorded.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33037,7 +33051,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Nasmyth, James Nasmyth, Engineer (1883) — the machine-shop autobiography; 1883 and later scans."
+        "summary": "Add Nasmyth, James Nasmyth, Engineer (1883) — the machine-shop autobiography; 1883 and later scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33047,7 +33062,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Fowler steam-ploughing patents (1850s–60s, @misc collector) — patent records, honest no-scan; the 1909 firm catalogue noted."
+        "summary": "Add Fowler steam-ploughing patents (1850s–60s, @misc collector) — patent records, honest no-scan; the 1909 firm catalogue noted.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33057,7 +33073,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Howard & Fowler steam-cultivation literature (1860s–80s, @misc collector) — firm catalogues and survey papers, honest no-scan."
+        "summary": "Add Howard & Fowler steam-cultivation literature (1860s–80s, @misc collector) — firm catalogues and survey papers, honest no-scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33067,7 +33084,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Berzelius, Lehrbuch der Chemie (1825–) — the systematic textbook; 1825 and 1835 scans."
+        "summary": "Add Berzelius, Lehrbuch der Chemie (1825–) — the systematic textbook; 1825 and 1835 scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33077,7 +33095,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Berzelius, Jahresberichte (1821–, series entry) — the annual review instrument; honest no-scan note."
+        "summary": "Add Berzelius, Jahresberichte (1821–, series entry) — the annual review instrument; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33087,7 +33106,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Hofmann coal-tar colouring-matter papers (1862–63) — the dye-chemistry programme; two article scans."
+        "summary": "Add Hofmann coal-tar colouring-matter papers (1862–63) — the dye-chemistry programme; two article scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33097,7 +33117,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Perkin mauveine papers and patents (1856–79) — the synthetic dye hinge; 1856 article scan."
+        "summary": "Add Perkin mauveine papers and patents (1856–79) — the synthetic dye hinge; 1856 article scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33107,7 +33128,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Berthelot, Chimie organique fondée sur la synthèse (1860) — the synthetic turn; 1860 scans."
+        "summary": "Add Berthelot, Chimie organique fondée sur la synthèse (1860) — the synthetic turn; 1860 scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33117,7 +33139,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Young, A Course of Experimental Agriculture (1770) — the experimental farm register; 1770 scan."
+        "summary": "Add Young, A Course of Experimental Agriculture (1770) — the experimental farm register; 1770 scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33127,7 +33150,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Loudon, An Encyclopaedia of Agriculture (1825) — the farmer's compendium; 1825 and later scans."
+        "summary": "Add Loudon, An Encyclopaedia of Agriculture (1825) — the farmer's compendium; 1825 and later scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33137,7 +33161,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Boussingault, Économie rurale (1843–44) — the French experimental agriculture; honest no-scan note."
+        "summary": "Add Boussingault, Économie rurale (1843–44) — the French experimental agriculture; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33147,7 +33172,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Johnstone's account of Elkington's drainage (1800) — the drainage method; three scans."
+        "summary": "Add Johnstone's account of Elkington's drainage (1800) — the drainage method; three scans.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33157,7 +33183,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Parkes, Essays on the philosophy and art of land drainage (1848) — the drainage science; 1848 scan."
+        "summary": "Add Parkes, Essays on the philosophy and art of land drainage (1848) — the drainage science; 1848 scan.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   },
@@ -33167,7 +33194,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Voelcker agricultural-chemistry papers (1850s–80s, @misc collector) — the consulting side; honest no-scan note."
+        "summary": "Add Voelcker agricultural-chemistry papers (1850s–80s, @misc collector) — the consulting side; honest no-scan note.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
       }
     ]
   }

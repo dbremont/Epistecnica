@@ -81222,6 +81222,13 @@
         "summary": "Link sixty-four entries the corpus already held but the guide never named: the machine-book and mechanism line (Ramelli, Zonca, Euler, Desaguliers, Willis, Knight, Sellers), the chemical revolution and its references (Lavoisier, Fourcroy, Dalton, Wurtz, Roscoe-Schorlemmer, O’Brine), the metal and mining trades (Burgoyne, Landrin, Crane, Richardson, Smith on wire, Roberts-Austen, Guttmann, Lupton, Flanders), the agricultural chemistry line (Home, Young, Cochrane, Chaptal, Ransome, Stöckhardt), the strength-and-bridge line (Finley, Barlow, Hodgkinson, Woolwich, Dobson, Dahlgren, Baker), the electrical founding (Franklin, Nairne, Galvani, Ampère, Smee, Maxwell), the instrument line (Huygens, Beale, Benjamin, Fritts), the trades (Gilroy, Marryat, Piesse, Riffault, Fitz-Gerald, Nasmith, Leno, Hurst, Lehner), the energy doctrine (Helmholtz, Thomson-Tait, Thurston, Clausius), distilling (McHarry, Duplais), Airy’s acoustics and Seaton’s marine engineering.",
         "commit": "45575bd95ef797fabe118668e3e95483e3c0d2df",
         "before": "8788d43a6d65e9c157431e2ea23cef9cac1f3730"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the twenty-eight founding rows: the metallurgical founding and systematic layer (Biringuccio 1540, Swedenborg, Schlüter, Jars, d’Aubuisson, Karsten, Rivot, Wedding, Ledebur, Howe, Osmond, Hadfield), the mechanism layer (Hooke’s posthumous works, Kennedy, Nasmyth, Fowler’s patents, Howard and Fowler’s steam cultivation), the chemical systematists (Berzelius twice, Hofmann, Perkin, Berthelot) and the farm’s experimental and chemical line (Young’s Course, Loudon, Boussingault, Johnstone on Elkington’s drainage, Parkes, Voelcker), with Fowler cross-listed into Agricola.",
+        "commit": "cafd362d4e16ad24d215f391999e0f2640099704",
+        "before": "8dcba120ce2dc2b644b888ecf2d2b3e5a05d777e"
       }
     ]
   }
