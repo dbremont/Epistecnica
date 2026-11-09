@@ -29635,7 +29635,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Smeaton, Reports of the late John Smeaton (1812-14, 4 vols) - consulting civil engineering as documented practice; 1812 and 1837 scans."
+        "summary": "Add Smeaton, Reports of the late John Smeaton (1812-14, 4 vols) - consulting civil engineering as documented practice; 1812 and 1837 scans.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29645,7 +29646,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Life of Thomas Telford, civil engineer (1838), the reports-based engineering biography; 1838 scans."
+        "summary": "Add the Life of Thomas Telford, civil engineer (1838), the reports-based engineering biography; 1838 scans.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29655,7 +29657,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Smiles, The life of Isambard Kingdom Brunel (1870); honest no-scan note, cross-linked to the Telford life."
+        "summary": "Add Smiles, The life of Isambard Kingdom Brunel (1870); honest no-scan note, cross-linked to the Telford life.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29665,7 +29668,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Gregory, Treatise on the principles of construction of military bridges (1857); honest no-scan note, Haupt 1864 linked as the neighbour."
+        "summary": "Add Gregory, Treatise on the principles of construction of military bridges (1857); honest no-scan note, Haupt 1864 linked as the neighbour.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29675,7 +29679,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wheatstone's Bakerian lecture (1843, Phil. Trans.) - the rheostat and voltaic-circuit constants; 1843 scans."
+        "summary": "Add Wheatstone's Bakerian lecture (1843, Phil. Trans.) - the rheostat and voltaic-circuit constants; 1843 scans.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29685,7 +29690,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Henry's Contributions to electricity and magnetism as a paper series (1837-55 @article); 1837-43 transactions scans."
+        "summary": "Add Henry's Contributions to electricity and magnetism as a paper series (1837-55 @article); 1837-43 transactions scans.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29695,7 +29701,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Thompson, Dynamo-electric machinery (1884); 1886-1899 edition scans, cross-linked to the electric-light trade books."
+        "summary": "Add Thompson, Dynamo-electric machinery (1884); 1886-1899 edition scans, cross-linked to the electric-light trade books.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   },
@@ -29705,7 +29712,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ayrton, Practical electricity (1885), the Finsbury laboratory course; 1887/1891 scans with honest first-edition note, cross-linked to Thompson."
+        "summary": "Add Ayrton, Practical electricity (1885), the Finsbury laboratory course; 1887/1891 scans with honest first-edition note, cross-linked to Thompson.",
+        "commit": "1e2e21b8714456206ee56b84621ca178a5ba5120"
       }
     ]
   }
