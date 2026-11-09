@@ -30343,5 +30343,45 @@
         "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
+  },
+  {
+    "file_path": "books/stephens-1844-book-of-the-farm.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Stephens, The book of the farm (1844); 1847-1908 edition scans, cross-linked to the Rothamsted memoirs."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thomas-1846-american-fruit-culturist.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thomas, The American fruit culturist (1846); late-century edition scans with honest first-edition note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/youatt-1834-complete-grazier.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Youatt, The complete grazier (1834); 1893/1908 printings scanned with the first-edition note, cross-linked to Woburn's grasses."
+      }
+    ]
+  },
+  {
+    "file_path": "books/slight-1851-farmers-guide.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Slight, The farmer’s guide to scientific and practical agriculture (1851, 2 parts); both part scans, cross-linked to Rothamsted."
+      }
+    ]
   }
 ]
