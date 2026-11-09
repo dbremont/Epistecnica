@@ -86,6 +86,8 @@ qa:
 | Guillaume Amontons | *De la résistance causée dans les machines* | 1699 | The laws of dry friction (no scan verified) |
 | Charles-Augustin de Coulomb | *Théorie des machines simples, en ayant égard au frottement* | 1785/1821 | The classic treatise on friction and cordage stiffness (no scan verified) |
 | Beauchamp Tower | *Friction experiments in journal bearings (Proc. IMechE)* | 1883–85 | The hydrodynamic oil film discovered (no scan verified) |
+| Joseph Bramah | [*The Petition and Case of Joseph Bramah*](/view.html?p=documents/books/bramah-1798-petition-lock.md) | 1798 | The lock trade device asserted before Parliament |
+| Henry Maudslay & M. I. Brunel | *The Portsmouth block-making machinery* | 1802–08 | The block mills that made the navy rigging for the fleet (machine plates in the Cyclopaedia; no separate scan verified) |
 
 ## Ars Chimica
 
@@ -252,6 +254,10 @@ qa:
 | Augustus Voelcker | [*Agricultural chemistry papers and analyses*](/view.html?p=documents/books/voelcker-1850s-agricultural-chemistry-papers.md) | 1850s–80s | The consulting chemist's working science (paper series) |
 | J. B. Boussingault | [*Économie Rurale*](/view.html?p=documents/books/boussingault-1851-economie-rurale.md) | 1851 | The farm as a chemical system — rotations, fertilizers and the nitrogen balance |
 | Tredwell & Pell | [*Illustrated Catalogue of Agricultural and Horticultural Implements*](/view.html?p=documents/books/tredwell-pell-1859-agricultural-implements.md) | 1859 | The implement trade — ploughs, cultivators and the manufactured farm tool |
+| Cyrus McCormick | *Reaper patents and the McCormick works* | 1834–85 | The reaper that mechanised the harvest (no scan verified) |
+| Obed Hussey | *Mowing-machine patent* | 1833 | The rival mowing machine of the 1833 patent trade (no scan verified) |
+| Drainage-tile makers | *Tile-machinery patents* | 1840s–60s | The machine that made the clay tile (no scan verified) |
+| Steam-threshing builders (Aultman, Best, Reeves) | *Threshing-engine and separator catalogues and patents* | 1870s–90s | The threshing machine as the harvest system (no scan verified) |
 
 ## Ars Civilis
 
@@ -298,6 +304,10 @@ qa:
 | Guilford L. Molesworth | [*Pocket-Book of Useful Formulae and Memoranda*](/view.html?p=documents/books/molesworth-1862-pocket-book-formulae.md) | 1862 | The British engineer's pocket-book — the Trautwine counterpart |
 | Joseph Claudel | [*Aide-Mémoire des Ingénieurs; Formules, Tables et Renseignements*](/view.html?p=documents/books/claudel-1845-aide-memoire-ingenieurs.md) | 1845 | The French engineer aide-mémoire of the industrial trades |
 | H. R. Kempe | *The Engineer's Year-Book of Formulae, Rules, Tables, Data, and Memoranda* | 1894– | The annual British engineering desk-book (no scan verified) |
+| Otis Elevator Company | [*Otis Elevator Company, Catalogue (1903)*](/view.html?p=documents/books/otis-1903-elevator-catalogue.md) | 1903 | The American elevator trade in its own catalogues |
+| Elisha Otis | *Safety elevator patent* | 1861 | The safety hoist of the elevator trade (no scan verified) |
+| John Augustus Roebling / Washington A. Roebling | *Final Report to the Trustees of the New York and Brooklyn Bridge* | 1883 | The Brooklyn Bridge final report (no scan verified) |
+| Philibert de l'Orme / Sebastiano Serlio | *Le Premier Tome de l'Architecture / Le Septième Livre* | 1567 / 1551 | The framing and the masonry vaults of the French theatre trade (no scan verified) |
 
 ## Ars Structura
 
@@ -383,6 +393,10 @@ qa:
 | J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
 | Sébastien Le Prestre de Vauban | [*Traité de l'Attaque et de la Défense des Places*](/view.html?p=documents/books/vauban-1737-attaque-defense-places.md) | 1737 | The founding method of the siege and the fortress defence |
 | U.S. Army Ordnance Department (A. Mordecai) | [*Reports of Experiments on the Properties of Metals for Cannon*](/view.html?p=documents/books/mordecai-1856-reports-metals-cannon.md) | 1856 | The metals for cannon tested — American iron and bronze at the gun scales |
+| Sir William Congreve | [*A Treatise on the Rocket System*](/view.html?p=documents/books/congreve-1827-rocket-treatise.md) | 1827 | The military rocket trade, first European system set to paper |
+| Francis M. Barber | [*Lecture on the Whitehead Torpedo*](/view.html?p=documents/books/barber-1874-lecture-whitehead-torpedo.md) | 1874 | The automobile torpedo trade reported to the Americans |
+| Henry Shrapnel | *Spherical case shell patent* | 1784 | The shrapnel case trade patent (no scan verified) |
+| Richard J. Gatling | *Battery-gun patent* | 1865 | The Gatling gun patent (no scan verified) |
 
 ## Ars Bellica
 
@@ -466,6 +480,10 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | G. S. Kirchhoff & R. W. E. Bunsen | *Chemische Analyse durch Spectralbeobachtungen* | 1860 | The spectroscope as an analytical instrument (no scan verified) |
 | Gaston Planté | *Recherches sur la electricité; the lead-acid secondary battery* | 1859 (papers 1879) | The rechargeable storage battery in lead and acid (no scan verified) |
 | Zénobe Gramme | *Sur une machine magneto-electrique produisant des courants continus* | 1871 | The ring-armature continuous-current dynamo (no scan verified) |
+| Brush Electric Co. | [*The Brush Alternating Current Electric Lighting System*](/view.html?p=documents/books/brush-1896-ac-lighting-system.md) | 1896 | The arc-lamp and dynamo system in its own trade manual |
+| Samuel F. B. Morse | *Electro-magnetic telegraph patent (US)* | 1840 | The patent mechanism behind the Vail manual (no scan verified) |
+| Elisha Gray | *Multiple-telegraphy and telephone patents* | 1875–88 | The parallel inventor of the telephone (no scan verified) |
+| Nikola Tesla | *A New System of Alternate Current Motors and Transformers (AIEE lecture)* | 1888 | The polyphase induction motor — distinct from the 1885 transformer patents (no scan verified) |
 
 ## Ars Instrumentalis
 
@@ -518,6 +536,10 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Ferdinand Berthoud | [*Traité des Horloges Marines; les Longitudes*](/view.html?p=documents/books/berthoud-1773-horloges-marines.md) | 1773 | The French marine chronometer trade beside the English |
 | Robert Boyle | *New Experiments Physico-Mechanicall, Touching the Spring of the Air* | 1660 | The air pump experiments described (no scan verified) |
 | Gemma Frisius | *Libellus de Locorum Describendorum Ratione* | 1533 | Triangulation invented for survey and map (no scan verified) |
+| Daniel Gabriel Fahrenheit | [*Experimenta et Observationes de Congelatione Aquae in Vacuo*](/view.html?p=documents/books/fahrenheit-1724-phil-trans.md) | 1724 | The mercury thermometer and the scale printed for the Royal Society |
+| Anders Celsius | *Observationer om twänne beständiga grader på en thermometer* | 1742 | The centigrade scale paper (no scan verified) |
+| Pierre Vernier | *La Construction, l usage et les propriétés du quadrant nouveau* | 1634 | The vernier scale trade manual (no scan verified) |
+| William Gascoigne | *Micrometer papers and letters* | 1640s | The telescopic micrometer of the micrometer trade (no scan verified) |
 
 ## Ars Elastica
 
@@ -959,6 +981,10 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | H. Mège-Mouriès | [*Margarine patents*](/view.html?p=documents/books/mege-mouries-1869-margarine-patent.md) | 1869– | The butter substitute designed from fat chemistry |
 | C. J. N. Balling | [*Die Gährungschemie*](/view.html?p=documents/books/balling-1854-gahrungschemie.md) | 1854 | Fermentation as chemistry — the brewery, distillery and wine press |
 | A.-P. Dubrunfaut | [*Art de Fabriquer le Sucre de Betteraves*](/view.html?p=documents/books/dubrunfaut-1825-sucre-de-betteraves.md) | 1825 | Beet sugar from root to loaf — pressing, clarification and crystallization |
+| Jacob Perkins | *Vapour-compression refrigeration patent* | 1834 | The closed vapor-compression cycle patent (no scan verified) |
+| Norbert Rillieux | *Multiple-effect vacuum sugar evaporator patent* | 1846 | The sugar-evaporation vacuum cycle (no scan verified) |
+| Gail Borden Jr. | *Condensed-milk process patent* | 1856 | The condensation treatment of milk (no scan verified) |
+| Peter Durand | *Tinned food patent (tin can patent)* | 1810 | The canned food trade begun by the patent (no scan verified) |
 
 ## Ars Acustica
 
@@ -1213,6 +1239,9 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | C. F. Channing | [*Photo-Mechanical Processes*](/view.html?p=documents/books/channing-1890-photo-mechanical-processes.md) | 1890 | The photograph turned into a printing surface |
 | Eastman Dry Plate and Film Co. | [*Illustrated Catalogue and Price List*](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md) | 1886 | Photography sold as manufactured goods |
 | R. L. Maddox | [*An Experiment with Gelatino-Bromide*](/view.html?p=documents/books/maddox-1871-gelatino-bromide-dry-plate.md) | 1871 | The gelatine dry plate proposed — photography made portable (honest no-scan) |
+| Nicéphore Niépce | *Héliographie papers and the 1822–28 correspondence* | 1822–28 | The camera trade before Daguerre (no scan verified) |
+| Auguste & Louis Lumière | *Cinématographe apparatus and papers* | 1895–1901 | The moving picture trade at the Society trade (notice scan available at Société Lumière, 1901) |
+| W. K. L. Dickson (Edison) | *Kinetoscope apparatus* | 1891–94 | The penny demo of the moving image (boundary) |
 
 ## Ars Aeronautica
 
@@ -1231,6 +1260,11 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Tiberius Cavallo | [*The History and Practice of Aerostation*](/view.html?p=documents/books/cavallo-1785-history-practice-aerostation.md) | 1785 | The founding English manual of the balloon trade |
 | Samuel Pierpont Langley | [*Experiments in Aerodynamics*](/view.html?p=documents/books/langley-1891-experiments-aerodynamics.md) | 1891 | The measured aerodynamics of the flying body at the whirling table |
 | Francis Herbert Wenham | *On Aerial Locomotion and the wind-tunnel papers* | 1866–71 | The high-aspect-ratio wing and the first wind tunnel (no scan verified) |
+| Joseph Michel & Jacques Étienne Montgolfier | *Machine aerostatique papers* | 1783 | The first hot-air flying machine (see the 1784 Académie Rapport in Aeronautica) |
+| Jacques-Alexandre-César Charles | *Hydrogen balloon papers, 1783* | 1783 | The gas balloon trade beside the Montgolfier machine (no scan verified) |
+| William Samuel Henson & John Stringfellow | *Aerial Steam Carriage papers and patents* | 1842–48 | The power-loyal flying machine proposal (no scan verified) |
+| Horatio Phillips | *Laminated aerofoil papers and patents* | 1884–91 | The curved-wing lift trade (no scan verified) |
+| Lawrence Hargrave | *Cellular kite and rotary-engine papers* | 1884–99 | The box kite and the Australian trades (no scan verified) |
 
 ## Ars Automobilis
 
@@ -1247,6 +1281,9 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Gardner D. Hiscox | [*Horseless Vehicles; Automobiles, Motor Cycles... Operated by Steam, Hydro-carbon, Electric Motors*](/view.html?p=documents/books/hiscox-1900-horseless-vehicles.md) | 1900 | The turn-of-century American automobile desk-book — steam, electric and hydrocarbon |
 | Nicholas-Joseph Cugnot | *The fardier à vapeur drawings and descriptions* | 1769–70 | The first self-propelled road vehicle drawn (no scan verified) |
 | W. Worby Beaumont | *Motor Vehicles and Motors: Their Design, Construction and Working* | 1900 | The definitive pre-1901 engineering reference of the motor vehicle (no scan verified) |
+| Étienne Lenoir | *The gas engine and the hippomobile* | 1860–63 | The first internal-combustion vehicle (no scan verified) |
+| Herbert Akroyd Stuart | *Oil-engine patents and papers* | 1890–92 | The hot-bulb oil engine (no scan verified) |
+| Walter Hancock | *Enterprise: Steam Carriages and Papers* | 1829–40 | The London steam carriage trade (no scan verified) |
 
 ## Ars Velocipedica
 
@@ -1261,6 +1298,10 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Rice Lewis & Son | [*Bicycle Accessories: Catalogue*](/view.html?p=documents/books/rice-lewis-1900-bicycle-accessories-catalogue.md) | 1900 | The component and accessory economy of the safety bicycle |
 | J. K. Starley | *The Rover safety bicycle patent* | 1885 | The safety frame — the rear-driven, equal-wheeled bicycle (no scan verified) |
 | John Boyd Dunlop | *The pneumatic tyre patent* | 1888 | The air tyre that made the safety bicycle comfortable (no scan verified) |
+| Karl Freiherr von Drais | *The draisiine (Laufmaschine) patent and descriptions* | 1817–18 | The first two-wheeled running machine trade (no scan verified) |
+| Kirkpatrick Macmillan / Pierre Lallement | *Pedal-velocipede claims and patents* | 1839 / 1863 | The trade of the pedal crank claims (no scan verified) |
+| James Starley | *The Ariel high-wheel bicycle* | 1871 | The silver Ariel trade and the chain mechanism (no scan verified) |
+| Édouard & André Michelin | *Detachable pneumatic tyre patent* | 1891 | The detachable pneumatic cycle and car tyre (no scan verified) |
 
 ## Ars Consutoria
 
@@ -1293,6 +1334,10 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | William Oughtred | [*The Circles of Proportion and the Horizontall Instrument*](/view.html?p=documents/books/oughtred-1632-circles-of-proportion.md) | 1632 | The slide rule invented — logarithms set to scales |
 | William Stanley Jevons | *On the Mechanical Performance of Logical Inference (Phil. Trans.)* | 1870 | The logic piano — the first working logic machine (no scan verified) |
 | William Thomson | *Tide-predicting machine and harmonic analyser papers* | 1876–78 | The tide predicted by machine, Fourier analysed (no scan verified) |
+| L. F. Menabrea (tr., with notes by A. A. L. Lovelace) | [*Sketch of the Analytical Engine*](/view.html?p=documents/books/taylor-1852-scientific-memoirs-analytical-engine.md) | 1843 | The first printed program and the accounting of the computer |
+| Wilhelm Schickard | *Calculating clock sketches and letters* | 1623–24 | The first known mechanical calculator (no scan verified) |
+| Blaise Pascal | *Lettre de M. Pascal ... touchant la Machine Arithmétique* | 1645 | The printed letter of the Pascal trade (no scan verified) |
+| Gottfried Wilhelm Leibniz | *Machina arithmetica papers* | 1673–82 | The stepped reckoner machine papers trade (no scan verified) |
 
 ## Ars Molendinaria
 
@@ -1351,6 +1396,7 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Raoul Pictet & Louis Paul Cailletet | *The liquefaction of oxygen* | 1877 | The first permanent gas condensed (no scan verified) |
 | Carl von Linde | *The air-liquefaction process and machine* | 1895 | Air liquefied by regenerative cooling (no scan verified) |
 | William Hampson | *The Hampson air-liquefaction machine* | 1895 | The compact regenerator and the liquid-air plant (no scan verified) |
+| John Gorrie | [*Dr. Gorrie's Apparatus for the Artificial Production of Ice*](/view.html?p=documents/books/gorrie-1854-artificial-ice.md) | 1854 | The first American artificial-ice apparatus described |
 
 ## Ars Pharmaceutica
 
@@ -1382,7 +1428,9 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Taqī al-Dīn Muhammad ibn Marūf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (mechanical clocks; steam jack)* | 1551 | The Ottoman mechanical engineering described for the palace (no scan verified) |
 | Miyazaki Yasusada | *Nōgyō Zensho (Compendium of Agriculture)* | 1697 | The Japanese agricultural manual of the Tokugawa practice (no scan verified) |
 | Masuda Tsuna & Niwa Motokuni | *Kodō Zuroku (Illustrated Book on the Smelting of Copper)* | c. 1801 | The Japanese copper smelting described for the mine trade (no scan verified) |
-
+| Hosokawa Hanzo Yorinao | [*Karakuri Zui*](/view.html?p=documents/books/karakuri-zui-1796.md) | 1796 | The Japanese karakuri automata treatise — body of the device trade |
+| Ibn Ismail Ibn al-Razzaz al-Jazari | *Kitab fi Marifat al-Hiyal al-Handasiyya (Book of Knowledge of Ingenious Mechanical Devices)* | 1206 (MS 1315) | The Arabic mechanical device treatise (Cleveland Museum MS plates scanned) |
+| Banū Mūsā ibn Shakir | *Kitab al-Hiyal (The Book of Ingenious Devices)* | c. 850 | The ninth-century device theory of the Arab trade (no scan verified) |
 
 ## References
 

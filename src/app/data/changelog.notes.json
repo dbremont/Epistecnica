@@ -81411,6 +81411,11 @@
         "summary": "Add the deep-domain layers: tribology (Morin 1832, Thurston 1885; Amontons, Coulomb, Tower rows) into Mechanica; the non-cotton fibres (James worsted 1857, McLaren 1884, Warden linen 1864, Porter silk 1831) into Textilis; non-ferrous metallurgy (Peters, Hofman, Schnabel 1898; Berthier, Polhem, Rinman rows) into Metallica; and seven new sections — Ars Coriaria (Morfit 1852, Davis 1885), Ars Elastica (Hancock 1857), Ars Petrolea (cross-lists of the gas, oil and lamp trade; Murdoch, Silliman, Welsbach rows), Ars Lapidaria (Monge 1795/1838, Nicholson 1828; de l Orme, Jousse, Frézier rows), Ars Thermica (Péclet 1828, Carpenter 1895; Gauger, Franklin, Rumford, Hood, plumber and heating rows), Ars Pharia (Robert Stevenson 1824, Alan Stevenson 1848; Smeaton, Fresnel rows) and Ars Silvicultura (Evelyn Sylva 1664; Carlowitz, Duhamel bois, Hartig, Cotta, the preservation patents and Schlich rows).",
         "commit": "7de8874fe7ea3ce3a3d6d258b22520db9fd4b549",
         "before": "71e278d889ba905c59206bc7854784b4a3d23fdd"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the patents-and-papers layer requested by the second audit: Bramah 1798 petition and the Portsmouth block-machinery row in Mechanica; Brush arc-lighting 1896 in Electrica alongside the Morse, Gray, Tesla induction-motor honest rows; the Gorrie 1854 ice apparatus in Cryogenica; Congreve 1827, the Whitehead torpedo lecture 1874 and the Shrapnel/Gatling rows in Militaris; Otis 1903 catalogue and the Brooklyn Bridge / elevator / de l Orme+Serlio rows in Civilis; McCormick, Hussey, tile and steam-threshing rows in Agricola; Perkins, Rillieux, Borden, Durand rows in Cibaria; Niépce and the Lumière/Kinetoscope rows in Photographia; Montgolfier, Charles, Henson, Phillips, Hargrave rows in Aeronautica; Drais, Macmillan, Ariel, Michelin rows in Velocipedica; Taylor Scientific Memoirs vol III (with Menabrea and the Lovelace notes) and Schickard/Pascal/Leibniz rows in Computatoria; Fahrenheit 1724 and the Celsius, Vernier, Gascoigne rows in Instrumentalis; Lenoir, Akroyd-Stuart and Hancock rows in Automobilis; and the Karakuri Zui 1796 in Extra Europam with al-Jazari and Banu Musa rows."
       }
     ]
   }

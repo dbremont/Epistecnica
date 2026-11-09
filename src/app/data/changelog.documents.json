@@ -37078,5 +37078,95 @@
         "commit": "7de8874fe7ea3ce3a3d6d258b22520db9fd4b549"
       }
     ]
+  },
+  {
+    "file_path": "books/bramah-1798-petition-lock.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bramah, The Petition and Case (1798) — the lock trade at the patent epoch; 1798 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brush-1896-ac-lighting-system.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Brush, The Alternating Current Electric Lighting System (1896) — the arc-lighting trade; 1896 case book scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gorrie-1854-artificial-ice.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gorrie, Dr. Gorrie's Apparatus (1854) — the artificial ice trade; 1854 NLM scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/congreve-1827-rocket-treatise.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Congreve, A Treatise on the Rocket System (1827) — the British military rocket trade; 1827 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/taylor-1852-scientific-memoirs-analytical-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Taylor (ed.), Scientific Memoirs, Vol. III (1852) — the analytical engine printing; 1852 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barber-1874-lecture-whitehead-torpedo.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Barber, Lecture on the Whitehead Torpedo (1874) — the torpedo trade; 1874 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fahrenheit-1724-phil-trans.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Fahrenheit, Phil. Trans. paper (1724) — the mercury thermometer and its scale; 1724 Phil. Trans. scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/karakuri-zui-1796.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hosokawa, Karakuri Zui (1796) — the Japanese automata device; 1796 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/otis-1903-elevator-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Otis, The Otis Electric Elevator (1903 catalogue) — the American elevator trade; 1903 catalogue scan."
+      }
+    ]
   }
 ]
