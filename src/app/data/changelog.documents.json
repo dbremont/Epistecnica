@@ -30394,7 +30394,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Fresenius's qualitative companion (1841 German Anleitung, English Elementary instruction in chemical analysis); 1859/1864 scans, cross-linked to the held quantitative system."
+        "summary": "Add Fresenius's qualitative companion (1841 German Anleitung, English Elementary instruction in chemical analysis); 1859/1864 scans, cross-linked to the held quantitative system.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   },
@@ -30404,7 +30405,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Lunge, Treatise on the manufacture of sulphuric acid and alkali (1879) - the outline's 'Soda' row merges into its alkali volumes, noted; 1913 definitive-edition scans."
+        "summary": "Add Lunge, Treatise on the manufacture of sulphuric acid and alkali (1879) - the outline's 'Soda' row merges into its alkali volumes, noted; 1913 definitive-edition scans.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   },
@@ -30414,7 +30416,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Kunhardt, The practice of ore dressing in Europe (1884); honest no-scan note, cross-linked to Andre."
+        "summary": "Add Kunhardt, The practice of ore dressing in Europe (1884); honest no-scan note, cross-linked to Andre.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   },
@@ -30424,7 +30427,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Whitworth, Miscellaneous papers on mechanical subjects (1858) - precision standardization collected; 1858 + 1873 Guns-and-Steel scans, cross-linked to Holtzapffel."
+        "summary": "Add Whitworth, Miscellaneous papers on mechanical subjects (1858) - precision standardization collected; 1858 + 1873 Guns-and-Steel scans, cross-linked to Holtzapffel.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   },
@@ -30434,7 +30438,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Sellers, On a uniform system of screw threads (1864, Franklin Institute @article); honest no-scan note, the American thread standard answering Whitworth."
+        "summary": "Add Sellers, On a uniform system of screw threads (1864, Franklin Institute @article); honest no-scan note, the American thread standard answering Whitworth.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   },
@@ -30444,7 +30449,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the BAAS committee report on the new unit of electrical resistance (1865, Phil. Trans.); the outline's Whitworth attribution corrected to the committee, 1865 scans."
+        "summary": "Add the BAAS committee report on the new unit of electrical resistance (1865, Phil. Trans.); the outline's Whitworth attribution corrected to the committee, 1865 scans.",
+        "commit": "ac78809e034d7ef0aef69a265f5591b515800b03"
       }
     ]
   }
