@@ -34772,5 +34772,165 @@
         "commit": "51dc5277f7f175038d25a5d305ac70d509a02e56"
       }
     ]
+  },
+  {
+    "file_path": "books/cayley-1837-practical-remarks-aerial-navigation.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cayley, Practical Remarks on Aerial Navigation (1837) — the founding fixed-wing statement; 1837 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lilienthal-1889-vogelflug-als-grundlage.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Lilienthal, Der Vogelflug als Grundlage der Fliegekunst (1889) — the glider experiments; two 1889 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chanute-1894-progress-in-flying-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Chanute, Progress in Flying Machines (1894) — the synthesis before the Wrights; 1894 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/means-1895-aeronautical-annual.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Means (ed.), The Aeronautical Annual (1895) — the movement's yearbook; 1895 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/aeronautical-society-1872-annual-reports.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Aeronautical Society's Annual Reports (7th–12th, 1872–77) — the society's papers and experiments; scanned volume."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gurney-1854-steam-carriage-specification.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gurney, Specification of the Steam Carriage Apparatus (1854) — the steam carriage; scanned patent specification."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bramwell-1901-construction-gasoline-motor-vehicle.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bramwell, The Construction of a Gasoline Motor Vehicle (1901) — the vehicle as a system; 1901 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sloss-1905-book-of-the-automobile.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sloss, The Book of the Automobile (1905) — the motor trade's practical volume; 1905 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/garratt-1899-modern-safety-bicycle.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Garratt, The Modern Safety Bicycle (1899) — the safety bicycle's construction; 1899 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/modern-bicycle-1898-accessories.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add The Modern Bicycle and its Accessories (1898) — the trade annual; 1898 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/overman-1886-victor-bicycles-tricycles.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Overman Wheel Company, Victor Bicycles and Tricycles (1886) — the American trade catalogue; 1886 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kalamazoo-1886-railroad-velocipede-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Kalamazoo Railroad Velocipede Co. catalogue (1886) — the railway velocipede; 1886 microfilm scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rice-lewis-1900-bicycle-accessories-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rice Lewis & Son, Bicycle Accessories catalogue (1900) — the accessory trade; 1900 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/herzberg-1864-sewing-machine-history-construction.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Herzberg, The Sewing Machine (1864) — the mechanism and its history; two 1864 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/urquhart-1881-sewing-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Urquhart, Sewing Machinery (1881) — the practical manual; two 1881 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/singer-1894-vibrating-shuttle-instruction-manual.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Singer 27-2 instruction manual (1894) — the consumer durable and its operating text; 1894 scan."
+      }
+    ]
   }
 ]

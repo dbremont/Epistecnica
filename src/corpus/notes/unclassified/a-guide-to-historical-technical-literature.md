@@ -728,7 +728,60 @@ qa:
 | Eastman Dry Plate and Film Co. | [*Illustrated Catalogue and Price List*](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md) | 1886 | Photography sold as manufactured goods |
 | R. L. Maddox | [*An Experiment with Gelatino-Bromide*](/view.html?p=documents/books/maddox-1871-gelatino-bromide-dry-plate.md) | 1871 | The gelatine dry plate proposed — photography made portable (honest no-scan) |
 
-## Representative Sources (a sample, not the corpus)
+## Ars Aeronautica
+
+> The flying machine's own literature — the founding principle, the glider experiments, the synthesis before the Wrights, and the balloon practice that kept the air a working medium.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| George Cayley | [*Practical Remarks on Aerial Navigation*](/view.html?p=documents/books/cayley-1837-practical-remarks-aerial-navigation.md) | 1837 | The fixed wing stated as a principle — lift, drag and the cambered surface (1809–10 papers unscanned) |
+| Otto Lilienthal | [*Der Vogelflug als Grundlage der Fliegekunst*](/view.html?p=documents/books/lilienthal-1889-vogelflug-als-grundlage.md) | 1889 | Bird flight measured — the cambered wing and the glider made an experimental science |
+| Octave Chanute | [*Progress in Flying Machines*](/view.html?p=documents/books/chanute-1894-progress-in-flying-machines.md) | 1894 | The century's flying attempts tabulated — the biplane recommended |
+| James Means (ed.) | [*The Aeronautical Annual*](/view.html?p=documents/books/means-1895-aeronautical-annual.md) | 1895 | Aeronautics organized as a research programme — the yearbook |
+| Aeronautical Society of Great Britain | [*Annual Reports (7th–12th)*](/view.html?p=documents/books/aeronautical-society-1872-annual-reports.md) | 1872–77 | The first aeronautical society's papers and wind-tunnel experiments |
+| John Wise | [*A System of Aeronautics*](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md) | 1850 | Envelope making, hydrogen generation and balloon ascents (cross-listed from Transportaria) |
+| J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform (cross-listed from Transportaria) |
+
+## Ars Automobilis
+
+> The motor vehicle's literature — the steam carriage that first put an engine on the road, the patents that made the petrol car, and the first books in which the vehicle was treated as a whole machine.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Goldsworthy Gurney | [*Specification of the Steam Carriage Apparatus*](/view.html?p=documents/books/gurney-1854-steam-carriage-specification.md) | 1854 | The steam carriage specified — boiler, engine and drive on a road vehicle |
+| C. C. Bramwell | [*The Construction of a Gasoline Motor Vehicle*](/view.html?p=documents/books/bramwell-1901-construction-gasoline-motor-vehicle.md) | 1901 | The motor car as a whole machine — chassis, engine, transmission and brakes |
+| R. T. Sloss | [*The Book of the Automobile*](/view.html?p=documents/books/sloss-1905-book-of-the-automobile.md) | 1905 | The motor car as a manufactured commodity — history, construction and care |
+| Karl Benz | *Patents and specifications for the gas-engine vehicle* | 1886– | The motor carriage patented — engine, chassis and steering integrated (no scan verified) |
+| Gottlieb Daimler & Wilhelm Maybach | *Patents and specifications for the high-speed engine and the motor carriage* | 1883–89 | The light high-speed engine and the vehicle built around it (no scan verified) |
+| Panhard & Levassor | *The système Panhard: the front-engine, rear-drive layout* | 1890s | The founding automobile layout — engine forward, gearbox and drive behind (no scan verified) |
+
+## Ars Velocipedica
+
+> The bicycle and the light wheeled vehicle — the trade catalogues and construction manuals of the machine that made precision engineering a consumer industry.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| H. A. Garratt | [*The Modern Safety Bicycle*](/view.html?p=documents/books/garratt-1899-modern-safety-bicycle.md) | 1899 | Frame, bearings, chain drive and tyre — the safety bicycle's construction |
+| The Rider, Dealer and Maker (comp.) | [*The Modern Bicycle and its Accessories*](/view.html?p=documents/books/modern-bicycle-1898-accessories.md) | 1898 | The bicycle as an industry of interchangeable components |
+| Overman Wheel Company | [*Victor Bicycles and Tricycles*](/view.html?p=documents/books/overman-1886-victor-bicycles-tricycles.md) | 1886 | The high-wheel and tricycle trade in its own catalogue |
+| Kalamazoo Railroad Velocipede Co. | [*Illustrated Catalogue of Railroad Velocipedes and Hand Cars*](/view.html?p=documents/books/kalamazoo-1886-railroad-velocipede-catalogue.md) | 1886 | The railway inspection velocipede as manufactured goods |
+| Rice Lewis & Son | [*Bicycle Accessories: Catalogue*](/view.html?p=documents/books/rice-lewis-1900-bicycle-accessories-catalogue.md) | 1900 | The component and accessory economy of the safety bicycle |
+| J. K. Starley | *The Rover safety bicycle patent* | 1885 | The safety frame — the rear-driven, equal-wheeled bicycle (no scan verified) |
+| John Boyd Dunlop | *The pneumatic tyre patent* | 1888 | The air tyre that made the safety bicycle comfortable (no scan verified) |
+
+## Ars Consutoria
+
+> The sewing machine — the first mass-produced consumer durable, its mechanism, its factory, and the operating literature it was sold with.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Rudolph Herzberg | [*The Sewing Machine: Its History, Construction, and Application*](/view.html?p=documents/books/herzberg-1864-sewing-machine-history-construction.md) | 1864 | The lock stitch, shuttle and feed — the machine as a mechanism |
+| J. W. Urquhart | [*Sewing Machinery*](/view.html?p=documents/books/urquhart-1881-sewing-machinery.md) | 1881 | Construction, adjustment, care and repair of the sewing machine |
+| Singer Manufacturing Company | [*Instruction Manual for the 27-2 Vibrating Shuttle Machine*](/view.html?p=documents/books/singer-1894-vibrating-shuttle-instruction-manual.md) | 1894 | The sewing machine as a mass-produced consumer durable |
+| Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
+| Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
+
+## References
 
 - [Science History Institute — Muspratt, vol. I](https://digital.sciencehistory.org/works/g00ak0n)
 - [Science History Institute — Muspratt, vol. II](https://digital.sciencehistory.org/works/ysz6nva)
