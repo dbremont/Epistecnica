@@ -30508,5 +30508,65 @@
         "commit": "5b5d38e599e7c10f6d04469dc53c85c246a905ec"
       }
     ]
+  },
+  {
+    "file_path": "books/gurley-1870-manual-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gurley, A manual of the principal instruments (1870, outline year 1873 noted against the scans); 1870-1921 printings, the American instrument-trade counterpart of Simms and Casella."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smith-1738-compleat-system-of-opticks.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Robert Smith, A compleat system of opticks (1738, first edition scanned); 1778 abridgement also; the instrumental-optics founding system, a corruption slip repaired."
+      }
+    ]
+  },
+  {
+    "file_path": "books/joule-1884-scientific-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the scientific papers of Joule (1884 Physical Society edition); both 1884 scans, the energy-conversion paper source grounding the held thermodynamics."
+      }
+    ]
+  },
+  {
+    "file_path": "books/erichsen-1853-science-and-art-surgery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Erichsen, The science and art of surgery (1853); later printing scanned with the first-edition note, the surgical-instrument side of the medical row."
+      }
+    ]
+  },
+  {
+    "file_path": "books/reid-1826-clock-and-watch-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thomas Reid, Treatise on clock and watch making (1826, theoretical and practical); 1826 and 1852 scans, horology enters the collection."
+      }
+    ]
+  },
+  {
+    "file_path": "books/britten-1896-watchmakers-handbook.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Britten, The watch & clock makers handbook (1896; first 1881 noted); 1896 scan, the dictionary successor of Reid."
+      }
+    ]
   }
 ]
