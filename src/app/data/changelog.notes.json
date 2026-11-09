@@ -81191,7 +81191,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "The architecture round: a sixteenth Ars section, Ars Architectura, opens with Gwilt’s and Cresy’s encyclopædias, the merged Thames-Tunnel company documents (1829 Sketches scanned) and the Waygood lift guide (honest no-scan, cross-note to the held Robinson plant volume); the Factory Inspectors reports stay prose within Manufactura. Seventeen more rows: the military trio (Mahan permanent, Mercur attack, Douglas founding essay honest no-scan) and the dredging four (Sigsbee scanned; Boswell, Kuhl, Webster honest) and the submarine trio (Bright, Wilkinson, Fahie) and the office pair (Remington manual, catalogue honest) and Hiles’s Ice Crop join their sections. 321 links, all resolving; one Gamey-typo repaired before commit."
+        "summary": "The architecture round: a sixteenth Ars section, Ars Architectura, opens with Gwilt’s and Cresy’s encyclopædias, the merged Thames-Tunnel company documents (1829 Sketches scanned) and the Waygood lift guide (honest no-scan, cross-note to the held Robinson plant volume); the Factory Inspectors reports stay prose within Manufactura. Seventeen more rows: the military trio (Mahan permanent, Mercur attack, Douglas founding essay honest no-scan) and the dredging four (Sigsbee scanned; Boswell, Kuhl, Webster honest) and the submarine trio (Bright, Wilkinson, Fahie) and the office pair (Remington manual, catalogue honest) and Hiles’s Ice Crop join their sections. 321 links, all resolving; one Gamey-typo repaired before commit.",
+        "commit": "98c1d0552e82ab1c8b84e12e11541d9467f85638",
+        "before": "448397333616524c61adcc332e1b146a4eefa5c4"
       }
     ]
   }
