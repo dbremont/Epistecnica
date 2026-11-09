@@ -36352,5 +36352,155 @@
         "commit": "c42c259f68bf1679f1ac8b28fec982e90ac5b59d"
       }
     ]
+  },
+  {
+    "file_path": "books/posselt-1887-jacquard-machine-analyzed.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Posselt, The Jacquard Machine Analyzed and Explained (1887) — the punched-card loom; 1887 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/napier-1614-mirifici-logarithmorum.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Napier, Mirifici Logarithmorum (1614) — the founding log table; 1614 Edinburgh scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/oughtred-1632-circles-of-proportion.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Oughtred, The Circles of Proportion (1632) — the slide rule; 1632 first edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/guericke-1672-experimenta-nova.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Guericke, Experimenta nova de vacuo spatio (1672) — the vacuum tradition; 1672 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/harrison-1767-principles-time-keeper.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Harrison, The Principles of Mr. Harrison's Time-Keeper (1767) — the marine chronometer; 1767 Board of Longitude scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/berthoud-1773-horloges-marines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Berthoud, Traité des horloges marines (1773) — the French marine time-keeper; 1775/1787 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/faujas-1784-machine-aerostatique.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Académie's Rapport sur la machine aérostatique (1784) — the founding balloon assessment; 1784 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cavallo-1785-history-practice-aerostation.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cavallo, The History and Practice of Aerostation (1785) — the founding aeronautical manual; 1785 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/langley-1891-experiments-aerodynamics.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Langley, Experiments in Aerodynamics (1891) — measured aerodynamics; 1891 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/vanyk-1697-scheeps-bouw-konst.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add van Yk, De Nederlandsche Scheeps-bouw-konst (1697) — the Dutch shipbuilding trade; 1697 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/buchanan-1816-propelling-vessels-steam.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Buchanan, A Practical Treatise on Propelling Vessels by Steam (1816) — the steamboat book; 1816 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hiscox-1900-horseless-vehicles.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hiscox, Horseless Vehicles (1900) — the American automobile desk-book; 1900 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wright-1599-certaine-errors.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wright, Certaine Errors in Navigation (1599) — the Mercator projection; 1599 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wang-zheng-1627-yuanxi-qiqi-tushuo.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Schreck and Wang Zheng, Yuanxi Qiqi Tushuo Luzui (1627) — the Sino-Jesuit mechanical synthesis; 1627 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/abul-fazl-1590-ain-i-akbari.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Abu al-Fazl, Ain i Akbari (c. 1590) — the Mughal technical administration; Jarrett translation scans."
+      }
+    ]
   }
 ]

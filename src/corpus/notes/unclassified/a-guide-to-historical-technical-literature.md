@@ -469,6 +469,11 @@ qa:
 | John Bird | [*The Method of Dividing Astronomical Instruments*](/view.html?p=documents/books/bird-1767-dividing-astronomical-instruments.md) | 1767 | Dividing the circle and the quadrant — the instrument-maker's precision |
 | Jesse Ramsden | *Description of the Dividing Engine* | 1777 | The engine that divided the circle by screw and scale (no scan verified) |
 | Carl Edvard Johansson | *Gauge-block specifications and papers* | 1890s–1900s | The precision gauge block — interchangeable manufacture at length measure (no scan verified) |
+| Otto von Guericke | [*Experimenta Nova de Vacuo Spatio*](/view.html?p=documents/books/guericke-1672-experimenta-nova.md) | 1672 | The vacuum as instrument and art — the pneumatic tradition founded |
+| John Harrison | [*The Principles of Mr. Harrison's Time-Keeper*](/view.html?p=documents/books/harrison-1767-principles-time-keeper.md) | 1767 | The marine chronometer explained and drawn for the Board of Longitude |
+| Ferdinand Berthoud | [*Traité des Horloges Marines; les Longitudes*](/view.html?p=documents/books/berthoud-1773-horloges-marines.md) | 1773 | The French marine chronometer trade beside the English |
+| Robert Boyle | *New Experiments Physico-Mechanicall, Touching the Spring of the Air* | 1660 | The air pump experiments described (no scan verified) |
+| Gemma Frisius | *Libellus de Locorum Describendorum Ratione* | 1533 | Triangulation invented for survey and map (no scan verified) |
 
 ## Ars Manufactura
 
@@ -552,6 +557,11 @@ qa:
 | Antonio Sansone | [*The Printing of Cotton Fabrics*](/view.html?p=documents/books/sansone-1887-printing-of-cotton-fabrics.md) | 1887 | Bleaching, printing and dyeing of cotton fabrics |
 | George G. Gilroy | [*The Art of Weaving*](/view.html?p=documents/books/gilroy-1844-art-of-weaving.md) | 1844 | The American weaving manual |
 | J. Nasmith | [*The Modern Cotton Carding Engine*](/view.html?p=documents/books/nasmith-1887-modern-cotton-carding-engine.md) | 1887 | Carding machinery and the mill’s preparation |
+| Emanuel A. Posselt | [*The Jacquard Machine Analyzed and Explained*](/view.html?p=documents/books/posselt-1887-jacquard-machine-analyzed.md) | 1887 | The punched-card loom explained plate by plate |
+| John Kay | *The flying shuttle patent* | 1733 | The shuttle thrown by the loom frame itself (no scan verified) |
+| Edmund Cartwright | *The power-loom patents* | 1785–87 | Weaving applied to the mill (no scan verified) |
+| Eli Whitney | *The cotton-gin patent* | 1794 | The cotton seed comb separated (no scan verified) |
+| Richard Roberts | *The self-acting spinning mule patents* | 1825 / 1830 | The mule spinning itself at the mill (no scan verified) |
 
 ## Ars Typographica
 
@@ -568,6 +578,9 @@ qa:
 | Charles Thomas Jacobi | [*Printing: A Practical Treatise on the Art of Typography*](/view.html?p=documents/books/jacobi-1893-printing.md) | 1893 | Typography, composition and printing operations |
 | Alois Senefelder | [*A Complete Course of Lithography*](/view.html?p=documents/books/senefelder-1819-complete-course-lithography.md) | 1819 | Lithography described by its inventor |
 | P.-S. Fournier | [*Manuel Typographique*](/view.html?p=documents/books/fournier-1764-manuel-typographique.md) | 1764–66 | Type founding and the point system |
+| Friedrich Koenig & Andreas Bauer | *Steam-powered cylinder printing press patents* | 1810–14 | The press driven by steam — the newspaper era begun (no scan verified) |
+| Richard March Hoe | *Rotary printing press patents* | 1847 | The type-revolving cylinder press (no scan verified) |
+| Ottmar Mergenthaler | *Linotype patents and manuals* | 1884–90 | Hot-metal typesetting by the keyboard (no scan verified) |
 
 ## Ars Papyrologica
 
@@ -579,6 +592,9 @@ qa:
 | Richard Herring | [*Paper & Paper Making, Ancient and Modern*](/view.html?p=documents/books/herring-1855-paper-and-paper-making.md) | 1855 | Paper materials, historical processes and industrial papermaking |
 | Joel Munsell | [*A Chronology of Paper and Paper-Making*](/view.html?p=documents/books/munsell-1870-chronology-of-paper.md) | 1870 | The paper industry's historical register |
 | Karl Hofmann | [*A Practical Treatise on the Manufacture of Paper in All Its Branches*](/view.html?p=documents/books/hofmann-1873-manufacture-of-paper.md) | 1873 | Papermaking machinery, pulp preparation and processing |
+| Jérôme Lefrançois de Lalande | *Art de faire le Papier* | 1761 | The rag-paper trade described for the arts (no scan verified) |
+| Henri & Sealy Fourdrinier with Bryan Donkin | *Continuous paper-making machine patents and papers* | 1801–07 | The paper machine run end-to-end (no scan verified) |
+| Benjamin Chew Tilghman | *Sulphite wood-pulp patent* | 1867 | The wood dissolved into pulp by the sulphite process (no scan verified) |
 
 ## Ars Energia
 
@@ -891,6 +907,10 @@ qa:
 | W. H. White | [*A Manual of Naval Architecture*](/view.html?p=documents/books/white-1877-manual-naval-architecture.md) | 1877 | Naval architecture taught to the officer |
 | S. W. Barnaby | [*Marine Propellers*](/view.html?p=documents/books/barnaby-1891-marine-propellers.md) | 1891 | The screw given its theory and its numbers |
 | E. L. Attwood | [*Text-book of Theoretical Naval Architecture*](/view.html?p=documents/books/attwood-1899-textbook-theoretical-naval-architecture.md) | 1899 | The drawing-office calculations made a curriculum |
+| Cornelis van Yk | [*De Nederlandsche Scheeps-bouw-konst Open Gestelt*](/view.html?p=documents/books/vanyk-1697-scheeps-bouw-konst.md) | 1697 | The Dutch shipbuilding trade stated in its own rules |
+| Robertson Buchanan | [*A Practical Treatise on Propelling Vessels by Steam*](/view.html?p=documents/books/buchanan-1816-propelling-vessels-steam.md) | 1816 | The first book of the steamboat trade |
+| Nicolaes Witsen | *Aeloude en Hedendaegsche Scheeps-bouw en Bestier* | 1671 | The Dutch shipbuilding described from the Amsterdam practice (no scan verified) |
+| William Froude | *Experiments on the surface-friction of ships and the towing-tank papers* | 1872–79 | Ship-model towing at the tank — the scaling law of the ship (no scan verified) |
 
 ## Ars Photographia
 
@@ -934,6 +954,10 @@ qa:
 | Aeronautical Society of Great Britain | [*Annual Reports (7th–12th)*](/view.html?p=documents/books/aeronautical-society-1872-annual-reports.md) | 1872–77 | The first aeronautical society's papers and wind-tunnel experiments |
 | John Wise | [*A System of Aeronautics*](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md) | 1850 | Envelope making, hydrogen generation and balloon ascents (cross-listed from Transportaria) |
 | J. Glaisher et al. | [*Travels in the Air*](/view.html?p=documents/books/glaisher-1871-travels-in-the-air.md) | 1871 | The balloon as an observing platform (cross-listed from Transportaria) |
+| Académie des Sciences (Faujas de Saint-Fond, ed.) | [*Rapport sur la machine aérostatique de MM. Montgolfier*](/view.html?p=documents/books/faujas-1784-machine-aerostatique.md) | 1784 | The hot-air balloon examined and verified — the founding assessment of the aerial machine |
+| Tiberius Cavallo | [*The History and Practice of Aerostation*](/view.html?p=documents/books/cavallo-1785-history-practice-aerostation.md) | 1785 | The founding English manual of the balloon trade |
+| Samuel Pierpont Langley | [*Experiments in Aerodynamics*](/view.html?p=documents/books/langley-1891-experiments-aerodynamics.md) | 1891 | The measured aerodynamics of the flying body at the whirling table |
+| Francis Herbert Wenham | *On Aerial Locomotion and the wind-tunnel papers* | 1866–71 | The high-aspect-ratio wing and the first wind tunnel (no scan verified) |
 
 ## Ars Automobilis
 
@@ -947,6 +971,9 @@ qa:
 | Karl Benz | *Patents and specifications for the gas-engine vehicle* | 1886– | The motor carriage patented — engine, chassis and steering integrated (no scan verified) |
 | Gottlieb Daimler & Wilhelm Maybach | *Patents and specifications for the high-speed engine and the motor carriage* | 1883–89 | The light high-speed engine and the vehicle built around it (no scan verified) |
 | Panhard & Levassor | *The système Panhard: the front-engine, rear-drive layout* | 1890s | The founding automobile layout — engine forward, gearbox and drive behind (no scan verified) |
+| Gardner D. Hiscox | [*Horseless Vehicles; Automobiles, Motor Cycles... Operated by Steam, Hydro-carbon, Electric Motors*](/view.html?p=documents/books/hiscox-1900-horseless-vehicles.md) | 1900 | The turn-of-century American automobile desk-book — steam, electric and hydrocarbon |
+| Nicholas-Joseph Cugnot | *The fardier à vapeur drawings and descriptions* | 1769–70 | The first self-propelled road vehicle drawn (no scan verified) |
+| W. Worby Beaumont | *Motor Vehicles and Motors: Their Design, Construction and Working* | 1900 | The definitive pre-1901 engineering reference of the motor vehicle (no scan verified) |
 
 ## Ars Velocipedica
 
@@ -973,6 +1000,7 @@ qa:
 | Singer Manufacturing Company | [*Instruction Manual for the 27-2 Vibrating Shuttle Machine*](/view.html?p=documents/books/singer-1894-vibrating-shuttle-instruction-manual.md) | 1894 | The sewing machine as a mass-produced consumer durable |
 | Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
 | Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
+| Barthélemy Thimonnier | *Chain-stitch sewing machine patent* | 1830 | The first working sewing machine (no scan verified) |
 
 ## Ars Computatoria
 
@@ -988,6 +1016,10 @@ qa:
 | Andreas von Ettingshausen | [*Bericht über den Arithmometer des Herrn Thomas*](/view.html?p=documents/books/ettingshausen-1857-arithmometer-thomas.md) | 1857 | The arithmometer examined — mechanical calculation made commercial |
 | Blaise Pascal | *The Pascaline: the calculating machine* | 1642 | Addition and subtraction by geared wheels (no scan verified) |
 | Gottfried Wilhelm Leibniz | *The stepped reckoner* | 1673 | Multiplication by the stepped drum (no scan verified) |
+| John Napier | [*Mirifici Logarithmorum Canonis Descriptio*](/view.html?p=documents/books/napier-1614-mirifici-logarithmorum.md) | 1614 | Logarithms published — computation by numbers made arithmetic |
+| William Oughtred | [*The Circles of Proportion and the Horizontall Instrument*](/view.html?p=documents/books/oughtred-1632-circles-of-proportion.md) | 1632 | The slide rule invented — logarithms set to scales |
+| William Stanley Jevons | *On the Mechanical Performance of Logical Inference (Phil. Trans.)* | 1870 | The logic piano — the first working logic machine (no scan verified) |
+| William Thomson | *Tide-predicting machine and harmonic analyser papers* | 1876–78 | The tide predicted by machine, Fourier analysed (no scan verified) |
 
 ## Ars Molendinaria
 
@@ -1028,6 +1060,10 @@ qa:
 | Leonhard Euler | [*Drei Abhandlungen über Kartenprojection*](/view.html?p=documents/books/euler-1898-drei-abhandlungen-kartenprojection.md) | 1775–77 (ed. 1898) | The conformal projection analysed as a mathematical problem |
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument (cross-listed from Telluris) |
 | William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science (cross-listed from Telluris) |
+| Edward Wright | [*Certaine Errors in Navigation*](/view.html?p=documents/books/wright-1599-certaine-errors.md) | 1599 | The Mercator projection computed — the meridional parts table |
+| Jean Picard | *Mesure de la Terre* | 1671 | The earth measured by triangulation and telescopic sights (no scan verified) |
+| Johann Heinrich Lambert | *Anmerkungen und Zusätze zur Entwerfung der Land- und Himmelskarten* | 1772 | The founding theory of map projections (no scan verified) |
+| William Roy & Jesse Ramsden | *An Account of the Trigonometrical Operation ... between the Observatories of Greenwich and Paris* | 1790 | The base line and the great theodolite of the Ordnance Survey (no scan verified) |
 
 ## Ars Cryogenica
 
@@ -1068,6 +1104,22 @@ qa:
 | Xu Guangqi | [*Nong Zheng Quan Shu (Treatise on Agricultural Administration)*](/view.html?p=documents/books/xu-guangqi-1639-nongzheng-quanshu.md) | 1639 (ed. 1909) | Statecraft agriculture — irrigation, cultivation, famine relief |
 | Mao Yuanyi | *Wubei Zhi (Treatise on Military Preparedness)* | 1621 | The Chinese military-technical encyclopaedia (no scan verified) |
 | Álvaro Alonso Barba | *Arte de los Metales* | 1640 (tr. 1674) | The silver-bearing mines of the Patio, with the mercury method of refining (no scan verified) |
+| Johann Schreck & Wang Zheng | [*Yuanxi Qiqi Tushuo Luzui*](/view.html?p=documents/books/wang-zheng-1627-yuanxi-qiqi-tushuo.md) | 1627 | The wonder machines of the west drawn in Ming China |
+| Abu al-Fazl | [*Ain i Akbari*](/view.html?p=documents/books/abul-fazl-1590-ain-i-akbari.md) | c. 1590 | The Mughal empire of the arts — minting, ordnance and the textiles of Akbar |
+| Taqī al-Dīn Muhammad ibn Marūf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (mechanical clocks; steam jack)* | 1551 | The Ottoman mechanical engineering described for the palace (no scan verified) |
+| Miyazaki Yasusada | *Nōgyō Zensho (Compendium of Agriculture)* | 1697 | The Japanese agricultural manual of the Tokugawa practice (no scan verified) |
+| Masuda Tsuna & Niwa Motokuni | *Kodō Zuroku (Illustrated Book on the Smelting of Copper)* | c. 1801 | The Japanese copper smelting described for the mine trade (no scan verified) |
+
+## Method and scope
+
+> How the guide is built, and how its structure should be read.
+
+**Domains as the taxonomy.** The four abstract bibliographic categories — technical arts, technology, engineering, engineering science — do not survive the *Encyclopédie*-plate test: a single plate documents a workshop, a tool and its principle on one page. The guide therefore uses the historical **Ars** domain-sections themselves as its taxonomy; each section is the domain of a philosophia *technica* guide element family concept the corpus could type a decomposition into, but the guide reads them as a **historical** classification of what was printed and scanned. The viewer's technique taxonomy (variational method, technique-path trees) and these histories need not coincide; the mapping is left to the notes that decompose each field.
+
+**One series, one entry.** A serial is merged into one entry when its material is thin or when it is intellectually one research programme. Rayleigh's *Theory of Sound* (1877–78) is one book-length project on both grounds; the Ordnance Department's *Reports* (1856–61) are one testing campaign. Where a serial is only bibliographically contiguous — Symons's *British Rainfall* or Sabine's magnetic *Contributions* — the merge is preserved because the period's own bound volumes bound them as one shelf object. The decision is a reading judgement recorded where it is most contestable.
+
+**Scriptable collections.** Linking policy is scan-first and honest-marking: every Internet Archive identifier is resolved through `advancedsearch.php` and its title read from `/metadata/<id>` before the link is written; where no archive scan verifies, the row says so. The collections that can be scripted at scale: the **Internet Archive** (bulk search + per-item metadata + full OCR), the **BSB/MDZ** digitisations (many `[id]"-bsb" identifiers here), **HaithiTrust** by bibliographic API (browse-first in the reader), **Gallica** SRU and IIIF, and the **Smithsonian** Open Access trade-catalogue API (demonstrated on meteorological and photographic instruments above). The Science History Institute and the Wellcome Library provide deep browse-first scans for chemistry and the pharmacopoeias.
+
 
 ## References
 
