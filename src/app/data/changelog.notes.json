@@ -81198,7 +81198,9 @@
       {
         "date": "2026-11-08",
         "kind": "style",
-        "summary": "Structure repair: every Ars section rebuilds as one intact table with its intro before and nothing but section content after - the outline-meta commentary paragraphs (Maudslay, RA-Society, Woolwich, Whitworth/Evans, Nasmith, stereotyping, Penny Magazine, Admiralty, Talbot patents, Factory Inspectors, Whewell/Hopkins) are removed from the guide entirely; the mid-table broken Barlow row is restored to a single row; front matter, title and lead re-joined after a repair loss; table row counts identical in every section to the previous commit; 322 links all resolving."
+        "summary": "Structure repair: every Ars section rebuilds as one intact table with its intro before and nothing but section content after - the outline-meta commentary paragraphs (Maudslay, RA-Society, Woolwich, Whitworth/Evans, Nasmith, stereotyping, Penny Magazine, Admiralty, Talbot patents, Factory Inspectors, Whewell/Hopkins) are removed from the guide entirely; the mid-table broken Barlow row is restored to a single row; front matter, title and lead re-joined after a repair loss; table row counts identical in every section to the previous commit; 322 links all resolving.",
+        "commit": "c15558a95fcfec066cfae5a35bce52ed99613a0c",
+        "before": "f495230b31e099f115aa87db8a9af4cb23ef58e9"
       }
     ]
   }
