@@ -81317,7 +81317,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Open the last two new Ars sections: Ars Cryogenica (Faraday's liquefaction papers, Dewar's liquid hydrogen, Wood's refrigeration thermodynamics, the Frick cold-storage catalogue, with Pictet–Cailletet, Linde and Hampson as honest no-scan rows) and Ars Pharmaceutica (the British Pharmacopoeia, Mohr/Procter, Simpson, Wood, the APhA revision report, Culpeper and the quinine patent, with Pelletier–Caventou recorded honestly)."
+        "summary": "Open the last two new Ars sections: Ars Cryogenica (Faraday's liquefaction papers, Dewar's liquid hydrogen, Wood's refrigeration thermodynamics, the Frick cold-storage catalogue, with Pictet–Cailletet, Linde and Hampson as honest no-scan rows) and Ars Pharmaceutica (the British Pharmacopoeia, Mohr/Procter, Simpson, Wood, the APhA revision report, Culpeper and the quinine patent, with Pelletier–Caventou recorded honestly).",
+        "commit": "4884f5ff051f072db765ec2d68b52e4e583869b0",
+        "before": "8261829dba3cf4a24ceedccff5d1bfa4dbf603ad"
       }
     ]
   }
