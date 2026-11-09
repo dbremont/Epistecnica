@@ -400,6 +400,23 @@ qa:
 | J. B. Leno | [*The Art of Boot and Shoemaking*](/view.html?p=documents/books/leno-1889-art-of-boot-and-shoemaking.md) | 1889 | The boot and shoe trade’s own manual |
 | G. H. Hurst | [*Painters’ Colours, Oils, and Varnishes*](/view.html?p=documents/books/hurst-1892-painters-colours.md) | 1892 | The paint-maker’s chemistry |
 | S. Lehner | [*The Manufacture of Ink*](/view.html?p=documents/books/lehner-1892-manufacture-of-ink.md) | 1892 | Writing and printing inks |
+| Johann Beckmann | [*Beyträge zur Geschichte der Erfindungen*](/view.html?p=documents/books/beckmann-1792-beytrage-geschichte-erfindungen.md) | 1780–1805 | The history of inventions made a subject |
+| R.-A. F. de Réaumur | [*L'Art de Convertir le Fer Forgé en Acier*](/view.html?p=documents/books/reaumur-1722-art-de-convertir-fer-en-acier.md) | 1722 | Steelmaking described from the furnace — the founding ferrous study |
+| H.-L. Duhamel du Monceau et al. | [*Descriptions des Arts et Métiers*](/view.html?p=documents/books/duhamel-1761-descriptions-des-arts-et-metiers.md) | 1761–88 | Each trade described from inside the workshop |
+| J.-A. C. Chaptal | [*Chimie Appliquée aux Arts*](/view.html?p=documents/books/chaptal-1807-chimie-appliquee-aux-arts.md) | 1807 | The manufactures given a chemistry of their own |
+| S. F. Hermbstädt | [*Technology and technical-chemistry writings*](/view.html?p=documents/books/hermbstadt-1790s-technologie-papers.md) | 1790s–1820s | The French chemistry naturalized into German (translations and compendia) |
+| Michael Faraday | [*Chemical Manipulation*](/view.html?p=documents/books/faraday-1827-chemical-manipulation.md) | 1827 | The bench operations taught as a craft |
+| J. E. Bowman | [*An Introduction to Practical Chemistry*](/view.html?p=documents/books/bowman-1849-introduction-practical-chemistry.md) | 1849 | The analysis taught as a student's course |
+| Alois Senefelder | [*A Complete Course of Lithography*](/view.html?p=documents/books/senefelder-1819-complete-course-lithography.md) | 1819 | Lithography described by its inventor |
+| P.-S. Fournier | [*Manuel Typographique*](/view.html?p=documents/books/fournier-1764-manuel-typographique.md) | 1764–66 | Type founding and the point system |
+| Eadweard Muybridge | [*Animal Locomotion*](/view.html?p=documents/books/muybridge-1887-animal-locomotion.md) | 1887 | The body photographed in motion — the frame sequence as instrument |
+| É.-J. Marey | [*La Machine Animale*](/view.html?p=documents/books/marey-1873-machine-animale.md) | 1873 | The living body analysed as a machine — the graphic method |
+| T. A. Edison & E. Berliner | [*Phonograph and gramophone patents*](/view.html?p=documents/books/phonograph-1878-95-patents.md) | 1878–95 | Sound stored and replayed — cylinder to disc |
+| Abraham Gesner | [*A Practical Treatise on Coal, Petroleum, and Other Distilled Oils*](/view.html?p=documents/books/gesner-1861-coal-petroleum-distilled-oils.md) | 1861 | Mineral oils described before the wells |
+| Boverton Redwood | [*Petroleum: Its Production and Use*](/view.html?p=documents/books/redwood-1887-petroleum-production-use.md) | 1887 | The oil industry as a world trade |
+| A. Cochrane, Earl of Dundonald | [*The Present State of the Manufacture of Salt Explained*](/view.html?p=documents/books/cochrane-1785-manufacture-of-salt-explained.md) | 1785 | The salt works analysed — the manufacturer as reformer |
+| P. Letouzé | [*Traité Pratique des Travaux en Asphalte*](/view.html?p=documents/books/letouze-1897-travaux-en-asphalte.md) | 1897 | Asphalt paving specified and laid |
+| The National Provisioner (comp.) | [*The Manufacture of Glue and Gelatine*](/view.html?p=documents/books/glue-gelatine-manufacture-1898.md) | 1898 | The adhesive trades from the works |
 
 ## Ars Energia
 

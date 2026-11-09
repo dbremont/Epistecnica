@@ -81236,6 +81236,11 @@
         "summary": "Add the electrical and instrument rows: Cavendish’s researches in Maxwell’s edition, Coulomb’s memoirs, Ørsted’s 1820 pamphlet, Ampère’s Recueil, Sturgeon’s Annals, the Cooke–Wheatstone telegraph patents, Walker’s electrotype manual, Hopkinson’s dynamo paper, Heaviside’s Electrical Papers, the AC-transformer, Edison–Swan, Marconi–Lodge and Siemens–Sprague patent and paper collectors; and the instrument line — Hooke’s Micrographia, Molyneux’s Dioptrica Nova, ’s Gravesande’s Physices, the Dollond–Ramsden and Kater–Sabine papers, Wheatstone’s Scientific Papers, the influence-machine, radiometer, interferometer and Abbe–Zeiss collectors, and the instrument-makers’ catalogues.",
         "commit": "9d0ffe52da6c0ee3d3f4769c542e33ea3f5d37de",
         "before": "cd7664a10fbc54f1bd238f1bc0aadf775f44bd4d"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the manufactures rows: Beckmann’s history of inventions, Réaumur on converting iron into steel, the Descriptions des arts et métiers and Chaptal’s Chimie appliquée aux arts, the Hermbstädt translation channel, Faraday’s Chemical Manipulation and Bowman’s practical course, Senefelder on lithography and Fournier on typefounding, Muybridge’s Animal Locomotion and Marey’s La machine animale, the phonograph patents, Gesner and Redwood on petroleum, Dundonald’s salt pamphlet, Letouzé on asphalt, and the 1898 glue-and-gelatine manual."
       }
     ]
   }
