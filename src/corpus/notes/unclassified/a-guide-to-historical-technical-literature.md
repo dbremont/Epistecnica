@@ -303,6 +303,10 @@ qa:
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | Sadi Carnot | [*Réflexions sur la puissance motrice du feu*](/view.html?p=documents/books/carnot-reflexions-sur-puissance-motrice-feu.md) | 1824 | Thermal engines |
+
+| Thomas Savery | [*The Miner's Friend*](/view.html?p=documents/books/savery-1702-miners-friend.md) | 1702 | The steam-pump founding manual |
+| John Smeaton | [*Experimental Enquiry on Water and Wind Powers*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The 18th-century testing economy |
+| François Pambour | [*Théorie de la Machine à Vapeur*](/view.html?p=documents/books/pambour-1839-theorie-machine-vapeur.md) | 1839 | The steam-engine theory textbook before Rankine |
 | John Farey | [*A Treatise on the Steam Engine*](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md) | 1827 | Steam-engine construction |
 | Benoît Paul Émile Clapeyron | [*Mémoire sur la puissance motrice de la chaleur*](/view.html?p=documents/books/clapeyron-1834-memoire-puissance-motrice-chaleur.md) | 1834 | Thermodynamic cycles |
 | William J. M. Rankine | [*A Manual of the Steam Engine and Other Prime Movers*](/view.html?p=documents/books/rankine-1859-manual-steam-engine-prime-movers.md) | 1859 | Power machinery |
@@ -310,6 +314,8 @@ qa:
 | George Rennie | [*The Steam Engine*](/view.html?p=documents/books/rennie-1831-steam-engine.md) | 1831 | Steam-engine teaching in the Useful-Knowledge diffusion format (tract) |
 | William Pole | [*A Treatise on the Cornish Pumping Engine*](/view.html?p=documents/books/pole-1844-cornish-pumping-engine.md) | 1844 | Industrial steam pumping — the Cornish high-duty engines |
 | James Prescott Joule | [*The Scientific Papers of James Prescott Joule*](/view.html?p=documents/books/joule-1884-scientific-papers.md) | 1884 | Energy conversion and the mechanical equivalent — the paper source |
+
+| Gustav Zeuner | [*Die Mechanische Wärmetheorie*](/view.html?p=documents/books/zeuner-1860-mechanische-waermetheorie.md) | 1860 | The German engineering thermodynamics |
 | John Bourne | [*A Catechism of the Steam Engine*](/view.html?p=documents/books/bourne-1855-catechism-of-the-steam-engine.md) | 1855 | Engine and boiler construction, corrosion, locomotive boilers (catechism form) |
 | W. M. Barr | [*A Practical Treatise on High Pressure Steam Boilers*](/view.html?p=documents/books/barr-1880-high-pressure-steam-boilers.md) | 1880 | Boiler materials, safety apparatus, injectors and economizers |
 | R. H. Thurston | [*A Manual of Steam-Boilers*](/view.html?p=documents/books/thurston-1888-manual-steam-boilers.md) | 1888 | Dedicated boiler engineering: design, construction and operation |
@@ -318,6 +324,9 @@ qa:
 | Dugald Clerk | [*The Gas Engine* / theory papers](/view.html?p=documents/books/clerk-1886-the-gas-engine.md) | 1882–86 | Gas-engine construction and operating principles |
 | Bryan Donkin | [*A Text-Book on Gas, Oil, and Air Engines*](/view.html?p=documents/books/donkin-1894-gas-oil-air-engines.md) | 1894 | Gas, petroleum and air engines: design and operation |
 | Henry de Graffigny | [*Gas and Petroleum Engines* (tr. A. G. Elliott)](/view.html?p=documents/books/graffigny-1898-gas-and-petroleum-engines.md) | 1898 | Gas generators, carburetted-air engines and maintenance |
+
+| Rudolf Diesel | [*Die Theorie und Konstruktion eines Rationellen Wärmemotors*](/view.html?p=documents/books/diesel-1893-die-theorie.md) | 1893 | The compression-ignition boundary document |
+| C. A. Parsons | [*The Steam Turbine (Rede Lecture)*](/view.html?p=documents/books/parsons-1911-steam-turbine-rede.md) | 1911 (boundary) | The turbine founder's own doctrine |
 | — trade / boundary — | | | |
 | D. K. Clark | [*The Steam Engine: Steam Engines and Boilers*](/view.html?p=documents/books/clark-1890-steam-engines-and-boilers.md) | 1890 | The late-century constructive steam volume |
 | John Scott Russell | [*A Treatise on the Steam Engine* (Britannica chapter)](/view.html?p=documents/books/russell-1841-treatise-steam-engine.md) | 1841 | Engine design and construction — the Britannica chapter |
@@ -347,6 +356,11 @@ qa:
 | Francisco Balaguer y Primo | [*Fabricación de Vinagres*](/view.html?p=documents/books/balaguer-1878-fabricacion-de-vinagres.md) | 1878 | Vinegar, alcohol and industrial fermentation |
 | Franz Lafar | [*Technical Mycology*](/view.html?p=documents/books/lafar-1898-technical-mycology.md) | 1898–1910 | Industrial fermentation and microorganisms |
 | Nicolas Appert | [*L'Art de Conserver…*](/view.html?p=documents/books/appert-1810-art-de-conserver.md) | 1810 (English 1811) | Thermal preservation |
+
+| H.-L. Duhamel du Monceau | [*Traité de la Conservation des Grains*](/view.html?p=documents/books/duhamel-1753-traine-conservation-grains.md) | 1753 | The 18th-century grain-preservation economy |
+| F. C. Achard | [*Die Europäische Zuckerfabrikation*](/view.html?p=documents/books/achard-1803-european-zuckerfabrikation.md) | 1803 | The beet-sugar founding manual (honest no-scan) |
+| Anselme Payen | [*Des Substances Alimentaires*](/view.html?p=documents/books/payen-1856-substances-alimentaires.md) | 1856 | The French food-chemistry tradition |
+| E. N. Horsford | [*The Theory and Art of Bread-Making*](/view.html?p=documents/books/horsford-1859-theory-art-of-bread-making.md) | 1859 | The aerated-bread chemistry (honest no-scan) |
 | William T. Brannt | [*A Practical Treatise on the Manufacture of Vinegar*](/view.html?p=documents/books/brannt-1889-manufacture-of-vinegar.md) | 1889 | Vinegar, pickling, meat, fish and egg preservation |
 | Alexander C. Twining | [*The Fundamental Ice-Making Invention*](/view.html?p=documents/books/twining-1870-fundamental-ice-making-invention.md) | 1870 | Artificial ice manufacture (patent papers) |
 | Norman Selfe | [*The Machinery Employed for Artificial Refrigeration and Ice Making*](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md) | 1896 | Refrigeration machinery (technical paper, not a book) |
@@ -367,6 +381,8 @@ qa:
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
 | John Herschel | [*Sound* (Encyclopædia Metropolitana treatise)](/view.html?p=documents/books/herschel-1830-treatise-on-sound.md) | 1830 | Physical acoustics |
+
+| Ernst Chladni | [*Die Akustik*](/view.html?p=documents/books/chladni-1802-die-akustik.md) | 1802 | The acoustic experimental founding text (honest reprint note) |
 | John Tyndall | [*Sound: A Course of Eight Lectures*](/view.html?p=documents/books/tyndall-1867-sound-eight-lectures.md) | 1867 | Sound waves and experiments |
 | Hermann von Helmholtz | [*On the Sensations of Tone*](/view.html?p=documents/books/helmholtz-1863-sensations-of-tone.md) | 1863; English 1875 | Resonance and harmonic analysis |
 | Lord Rayleigh | [*The Theory of Sound*, vols. I–II](/view.html?p=documents/books/rayleigh-1877-theory-of-sound.md) | 1877–78 | Mathematical acoustics |
@@ -413,6 +429,8 @@ qa:
 | Matthew Fontaine Maury | [*The Physical Geography of the Sea*](/view.html?p=documents/books/maury-1855-physical-geography-of-the-sea.md) | 1855 | Oceanographic observation |
 | Edward Forbes | [*The Natural History of the European Seas*](/view.html?p=documents/books/forbes-1859-natural-history-european-seas.md) | 1859 | Marine observation |
 | Carl Friedrich Gauss | [*Intensitas vis Magneticae Terrestris ad Mensuram Absolutam Revocata*](/view.html?p=documents/books/gauss-1832-intensitas-vis-magneticae.md) | 1832 | Absolute measurement of terrestrial magnetic intensity (memoir) |
+
+| William Gilbert | [*De Magnete*](/view.html?p=documents/books/gilbert-1600-de-magnete.md) | 1600 | The geomagnetic founding text at the period's opening |
 | Charles Lyell | [*Principles of Geology*](/view.html?p=documents/books/lyell-1830-principles-of-geology.md) | 1830–33 | Geological processes, stratigraphy and uniformitarian method |
 | Johann von Lamont | [*Handbuch des Erdmagnetismus*](/view.html?p=documents/books/lamont-1849-handbuch-des-erdmagnetismus.md) | 1849 | Geomagnetic observation (Bogenhausen handbook) |
 | Joan Blaeu | [*Theatrum Civitatum et Admirandorum Italiæ*](/view.html?p=documents/books/blaeu-1663-theatrum-civitatum.md) | 1663 | Chorography and town views of Italy — the built world mapped city by city |
@@ -492,6 +510,8 @@ qa:
 | W. H. Fox Talbot | [*The Pencil of Nature*](/view.html?p=documents/books/talbot-1844-pencil-of-nature.md) | 1844–46 | Photographic processes — the first photographically illustrated book (1839 Phil. Trans. disclosure scanned) |
 | Gustave Le Gray | [*Traité nouveau de Photographie*](/view.html?p=documents/books/legray-1852-traite-photographie.md) | 1852 | Photographic chemistry and techniques — paper, glass and metal plates (honest no-scan) |
 | T. F. Hardwich | [*A Manual of Photographic Chemistry*](/view.html?p=documents/books/hardwich-1855-manual-photographic-chemistry.md) | 1855 | Photographic chemistry and collodion processes |
+
+| Louis Daguerre | [*Historique et Description des Procédés du Daguerréotype*](/view.html?p=documents/books/daguerre-1839-daguerreotype.md) | 1839 | The daguerreotype's own founding manual |
 | W. de W. Abney | [*A Treatise on Photography*](/view.html?p=documents/books/abney-1878-treatise-on-photography.md) | 1878 | Photographic chemistry, optics and practice |
 | W. de W. Abney | [*The Art and Practice of Silver Printing*](/view.html?p=documents/books/abney-1881-silver-printing.md) | 1881 | Photographic printing technology |
 | Henry H. Snelling | [*The History and Practice of the Art of Photography*](/view.html?p=documents/books/snelling-1849-history-practice-photography.md) | 1849 (ed. 1853) | Photographic processes, apparatus and practical chemistry — the American manual |
