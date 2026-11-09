@@ -31945,5 +31945,475 @@
         "commit": "62a66928755faf3b3506992cee9e7fc9f1f867b9"
       }
     ]
+  },
+  {
+    "file_path": "books/burgoyne-1849-blasting-and-quarrying.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Burgoyne, blasting and quarrying (1849); three scans, the founding instruction of the blasting branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/guttmann-1892-blasting-handbook.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Guttmann, Blasting handbook (1892); 1906 scans, the workshop side beside the held Manufacture of Explosives."
+      }
+    ]
+  },
+  {
+    "file_path": "books/salter-1891-recovery-work-after-pit-fires.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Salter, Recovery work after pit fires (1891); 1891 scan, the mine-safety branch opens."
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Structure repair: the Bagot and Chatard honest no-scan rows folded into the entry notes per the boundary precedent."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lupton-1899-mine-surveying.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lupton, Mine surveying (1899; 1902 printings noted honestly at the boundary)."
+      }
+    ]
+  },
+  {
+    "file_path": "books/knight-1879-the-mechanician.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Knight, The mechanician (1879); two scans, the blacksmithing and forging branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/richardson-1891-practical-blacksmithing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Richardson, Practical blacksmithing (1889-91 series); honest no-scan note with modern reprint linked, a text corruption repaired."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cran-1888-sheet-metal-workers-guide.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Crane, The sheet-metal workers guide (1888); scan, the tinsmiths and zincworkers trade."
+      }
+    ]
+  },
+  {
+    "file_path": "books/smith-1891-treatise-upon-wire.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bucknall Smith, Treatise upon wire (1891); three scans, the wire-rope economy."
+      }
+    ]
+  },
+  {
+    "file_path": "books/landrin-1835-manuel-du-coutelier.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Landrin, Manuel du coutelier (1835 Roret); 1835 scan, the cutlery branch (French)."
+      }
+    ]
+  },
+  {
+    "file_path": "books/flanders-1900-galvanizing-and-tinning.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Flanders, Galvanizing and tinning (1900); 1916-22 editions scanned with the boundary note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/proctor-1892-lectures-on-practical-pharmacy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Proctor, Lectures on practical pharmacy (1892); 1883-92 scans, the pharmaceutical manufacture branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mcharry-1809-practical-distiller.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add McHarry, The practical distiller (1809); Gutenberg transcription, the distilling branch opens."
+      }
+    ]
+  },
+  {
+    "file_path": "books/duplais-1871-alcoholic-liquors.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Duplais, alcoholic liquors distillation (1871 French-tr English); NLM 1871 scan and 1885 printing."
+      }
+    ]
+  },
+  {
+    "file_path": "books/niaudet-1880-electric-batteries.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Niaudet, Electric batteries (1880 trans. Fishback); three 1880-84 scans, the battery-construction branch, with the Bottone 1902 boundary row noted inside."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nicholson-1856-manual-of-bookbinding.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Nicholson, The manual of the art of bookbinding (1856); 1856 and 1878 scans, the bookbinding branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dussauce-1864-fabrication-of-matches.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Dussauce, the fabrication of matches, gun cotton and colored fires (1864); two scans, the match industry beside the held explosives treatise."
+      }
+    ]
+  },
+  {
+    "file_path": "books/burgess-1881-coach-building.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Burgess, Coach-building (1881); honest no-scan note, the coach trade beside Small."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ware-1875-coach-makers-hand-book.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ware, The coach-makers' illustrated hand-book (1875); honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stokes-1875-cabinet-makers-companion.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Stokes, The cabinet-maker and upholsterer's companion (1875); 1875 scan and 1906 reissue, a publisher-field typo repaired."
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Structure repair: two Arabic-script corruption slips in the QA line repaired post-commit sweep."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wise-1850-system-of-aeronautics.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wise, A system of aeronautics (1850); 1850 scan and reprint, the ballooning branch opens."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jackson-1841-military-surveying.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Jackson, A course of military surveying (1841); three edition scans, the military-surveying branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/signalcorps-1872-military-telegraphy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the U.S. Signal Corps manual of military telegraphy (1872); two scans, the military telegraphy branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stoney-1872-rifled-ordnance.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Stoney and Jones, the rifled-ordnance text-book (1872); honest no-scan note with the neighbouring 1879 gunnery linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ernst-1873-practical-military-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ernst, A manual of practical military engineering (1873 West Point), resolving the outline Haupt row to the verified professor manual; 1873 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/seaton-1890-manual-of-marine-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Seaton, A manual of marine engineering (1890); 1890 and 1918 scans, a stray-token slip repaired, the marine professional volume beside Sennett."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dahlgren-1856-shells-and-shell-guns.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Dahlgren, Shells and shell-guns (1856); 1856-57 scans, the naval ordnance doctrine."
+      }
+    ]
+  },
+  {
+    "file_path": "books/beale-1857-how-to-work-with-the-microscope.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Beale, How to work with the microscope (1857); 1880s editions scanned with the first-edition note, the third microscopy manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ransome-1843-implements-of-agriculture.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Ransome, The implements of agriculture (1843); two scans, the firm implement-trade document."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gilroy-1844-art-of-weaving.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gilroy, The art of weaving by hand and by power (1844); three scans, the American weaving art row closed."
+      }
+    ]
+  },
+  {
+    "file_path": "books/leno-1889-art-of-boot-and-shoemaking.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Leno, The art of boot and shoemaking (1889); 1889 scan, the shoemaking branch beside the held tanning texts."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fitzgerald-1875-harness-makers-manual.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fitz-Gerald, The harness makers' illustrated manual (1875); honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hurst-1892-painters-colours.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hurst, Painters colours oils and varnishes (1892); 1892 scan, the paint trades manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/riffault-1874-manufacture-of-colors.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Riffault, the manufacture of colors for painting (1874 Baird translation); 1874 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lehner-1892-manufacture-of-ink.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lehner, The manufacture of ink (1892 Brannt translation); Getty 1892 scan, the ink economy beside the coatings."
+      }
+    ]
+  },
+  {
+    "file_path": "books/piesse-1857-art-of-perfumery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Piesse, The art of perfumery (1857); 1855/1857 scans and the Gutenberg transcription, the perfumery branch opens."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fritts-1894-watch-adjusters-manual.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fritts, The watch adjusters manual (1894); 1894 microform and 1904 scans, the chronometer adjusting row beside Reid and Britten."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dobson-1850-foundations-and-concrete-works.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Rudimentary foundations and concrete works (1850, E. Dobson per metadata); 1850 and 1872 scans, the foundation-engineering branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/marryat-1850-history-of-pottery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Marryat, A history of pottery and porcelain (1850); honest no-scan note with the 1880 handbook linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/babbage-1864-passages-from-the-life.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Babbage, Passages from the life of a philosopher (1864); honest no-scan note with the memoire and the recording, the office-machinery founding autobiography."
+      }
+    ]
+  },
+  {
+    "file_path": "books/noad-1867-students-text-book-of-electricity.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Noad's Students text-book of electricity (1867); 1867 scan and 1879 editions, two generations of the held author's teaching."
+      }
+    ]
+  },
+  {
+    "file_path": "books/faraday-1861-chemical-history-of-a-candle.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Faraday, The chemical history of a candle (1861); later library edition scanned with the first-edition noted, the candle lectures beside the industrial chemistry."
+      }
+    ]
+  },
+  {
+    "file_path": "books/davy-1817-safety-lamp.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Davy, On the safety lamp (1817/1825); two scans, the mine-safety branch founding beside the held recovery-work manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/felkin-1867-machine-wrought-hosiery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Felkin, machine-wrought hosiery and lace manufactures (1867); two scans, the hosiery-and-lace branch."
+      }
+    ]
+  },
+  {
+    "file_path": "books/killebrew-1897-tobacco-leaf.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Killebrew, Tobacco leaf: culture, cure, marketing and manufacture (1897); scan found and entered with the 1900 companion noted."
+      }
+    ]
+  },
+  {
+    "file_path": "books/depierre-1889-finishing-of-cotton-goods.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Depierre, finishing of white, dyed and printed cotton goods (1889); scan found, the textile-finishing branch entered."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rix-1896-compressed-air-pneumatic-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Rix and Chodzko, compressed air and pneumatic machinery (1896); two 1896 scans - the file was discovered missing after the guide link was tested, closing the pneumatic branch properly."
+      }
+    ]
   }
 ]
