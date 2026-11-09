@@ -30031,7 +30031,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Holtzapffel, Turning and mechanical manipulation (1843-84, 5 vols, one entry with the - available-volume scans) - the workshop-trade reference from the tool-making house itself."
+        "summary": "Add Holtzapffel, Turning and mechanical manipulation (1843-84, 5 vols, one entry with the - available-volume scans) - the workshop-trade reference from the tool-making house itself.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   },
@@ -30041,7 +30042,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Holtzapffel and Byrne, The handbook for the artisan, mechanic, and engineer (1853); pocket side of the Turning series; 1853 scan."
+        "summary": "Add Holtzapffel and Byrne, The handbook for the artisan, mechanic, and engineer (1853); pocket side of the Turning series; 1853 scan.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   },
@@ -30051,7 +30053,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Practical draughtsman's book (Armengaud, tr. William Johnson, 1865) - technical drawing's English manual; outline attribution corrected by scan metadata, author/translator noted; 1860-65 scans."
+        "summary": "Add the Practical draughtsman's book (Armengaud, tr. William Johnson, 1865) - technical drawing's English manual; outline attribution corrected by scan metadata, author/translator noted; 1860-65 scans.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   },
@@ -30061,7 +30064,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Nicholson, The mechanic's companion (1831); 1832-45 printings scanned with the first-edition note."
+        "summary": "Add Nicholson, The mechanic's companion (1831); 1832-45 printings scanned with the first-edition note.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   },
@@ -30071,7 +30075,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Box, Practical treatise on mill-gearing, wheels, shafts, riggers (1853); 1869-77 printings scanned with honest first-edition note, cross-linked to Fairbairn."
+        "summary": "Add Box, Practical treatise on mill-gearing, wheels, shafts, riggers (1853); 1869-77 printings scanned with honest first-edition note, cross-linked to Fairbairn.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   },
@@ -30081,7 +30086,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Andre, A descriptive treatise on mining machinery, tools, and appliances (1877-78); the outline's two tables share one entry, filed in Ars Metallica; 1877 scans."
+        "summary": "Add Andre, A descriptive treatise on mining machinery, tools, and appliances (1877-78); the outline's two tables share one entry, filed in Ars Metallica; 1877 scans.",
+        "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
   }
