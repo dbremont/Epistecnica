@@ -29041,7 +29041,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Herschel's Encyclopaedia Metropolitana Sound treatise (1830) in its collected Treatises volume; 1830-compiled scan."
+        "summary": "Add Herschel's Encyclopaedia Metropolitana Sound treatise (1830) in its collected Treatises volume; 1830-compiled scan.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29051,7 +29052,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Rayleigh, The theory of sound (1877-78, 2 vols) - mathematical acoustics; one entry, 1894-second-edition scans noted honestly."
+        "summary": "Add Rayleigh, The theory of sound (1877-78, 2 vols) - mathematical acoustics; one entry, 1894-second-edition scans noted honestly.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29061,7 +29063,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Helmholtz, On the sensations of tone (1863; Ellis translation 1875), the physiology and resonators; 1885/1895 translation scans."
+        "summary": "Add Helmholtz, On the sensations of tone (1863; Ellis translation 1875), the physiology and resonators; 1885/1895 translation scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29071,7 +29074,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Tyndall, Sound: a course of eight lectures (1867), the Royal Institution demonstration tradition; 1867-73 scans."
+        "summary": "Add Tyndall, Sound: a course of eight lectures (1867), the Royal Institution demonstration tradition; 1867-73 scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29081,7 +29085,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Airy, On sound and atmospheric vibrations (1868); 1871 printings, note that the 1868 first edition is not scanned."
+        "summary": "Add Airy, On sound and atmospheric vibrations (1868); 1871 printings, note that the 1868 first edition is not scanned.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29091,7 +29096,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add W. H. Stone, Elementary lessons on sound (1879); 1879 scans."
+        "summary": "Add W. H. Stone, Elementary lessons on sound (1879); 1879 scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29101,7 +29107,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Mayer, Sound: a series of simple... experiments (1878), domestic acoustic apparatus; 1878-81 scans."
+        "summary": "Add Mayer, Sound: a series of simple... experiments (1878), domestic acoustic apparatus; 1878-81 scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29111,7 +29118,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Pepper, The boy's playbook of science (1860), the demonstration-trade literature with sound inside it; 1862-1881 scans and Gutenberg."
+        "summary": "Add Pepper, The boy's playbook of science (1860), the demonstration-trade literature with sound inside it; 1862-1881 scans and Gutenberg.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29121,7 +29129,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Gurney, The power of sound (1880), the aesthetics and psychology of hearing; honest no-scan note."
+        "summary": "Add Gurney, The power of sound (1880), the aesthetics and psychology of hearing; honest no-scan note.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29131,7 +29140,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add T. R. Smith, A rudimentary treatise on the acoustics of public buildings (1861), through its expanded Acoustics in relation to architecture printing; architectural acoustics anchor."
+        "summary": "Add T. R. Smith, A rudimentary treatise on the acoustics of public buildings (1861), through its expanded Acoustics in relation to architecture printing; architectural acoustics anchor.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29141,7 +29151,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Reid, Illustrations of the theory and practice of ventilation (1844), the building-atmosphere system; 1844 scans."
+        "summary": "Add Reid, Illustrations of the theory and practice of ventilation (1844), the building-atmosphere system; 1844 scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29151,7 +29162,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add B. D. Wyatt, Observations on the design for the theatre royal, Drury lane (1813), theatre acoustics before the science; honest no-scan note."
+        "summary": "Add B. D. Wyatt, Observations on the design for the theatre royal, Drury lane (1813), theatre acoustics before the science; honest no-scan note.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29161,7 +29173,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Moll on Parry and Foster sound-velocity experiments (1828, Philosophical Magazine); 1828 and expedition-account scans."
+        "summary": "Add Moll on Parry and Foster sound-velocity experiments (1828, Philosophical Magazine); 1828 and expedition-account scans.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29171,7 +29184,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add E. J. Stone, An experimental determination of the velocity of sound (1871, Phil. Trans.); Greenwich-precision papers."
+        "summary": "Add E. J. Stone, An experimental determination of the velocity of sound (1871, Phil. Trans.); Greenwich-precision papers.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   },
@@ -29181,7 +29195,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Tyndall, On the atmosphere as a vehicle of sound (1875, Phil. Trans.); fog-signal acoustics, cross-linked to Airy 1868."
+        "summary": "Add Tyndall, On the atmosphere as a vehicle of sound (1875, Phil. Trans.); fog-signal acoustics, cross-linked to Airy 1868.",
+        "commit": "40d2a8375b347360162dd4ad8b005c23d17eaa86"
       }
     ]
   }
