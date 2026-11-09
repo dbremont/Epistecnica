@@ -30658,7 +30658,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Andrews, Rudimentary treatise on agricultural engineering (1852-53); 1852-53 scans, the Weale agricultural-engineering volume."
+        "summary": "Add Andrews, Rudimentary treatise on agricultural engineering (1852-53); 1852-53 scans, the Weale agricultural-engineering volume.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30668,7 +30669,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add J. J. Thomas, Farm implements and farm machinery (1869); 1869 and earlier-edition scans, cross-linked to the held Fruit Culturist."
+        "summary": "Add J. J. Thomas, Farm implements and farm machinery (1869); 1869 and earlier-edition scans, cross-linked to the held Fruit Culturist.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30678,7 +30680,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Ritchie, The farm engineer (1849) - steam-powered agricultural machinery and threshing; honest no-scan note."
+        "summary": "Add Ritchie, The farm engineer (1849) - steam-powered agricultural machinery and threshing; honest no-scan note.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30688,7 +30691,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add John Scott, Barn implements and machines (1884); 1884 scan, the mechanized barn close of the machinery shelf."
+        "summary": "Add John Scott, Barn implements and machines (1884); 1884 scan, the mechanized barn close of the machinery shelf.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30698,7 +30702,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add James Small, A treatise on ploughs and wheel carriages (1784); both 1784 scans, the implement-construction founding treatise."
+        "summary": "Add James Small, A treatise on ploughs and wheel carriages (1784); both 1784 scans, the implement-construction founding treatise.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30708,7 +30713,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Donaldson, Modern agriculture (1796); 1796 scans including the prospectus; the authorship James confirmed by the BIM metadata."
+        "summary": "Add Donaldson, Modern agriculture (1796); 1796 scans including the prospectus; the authorship James confirmed by the BIM metadata.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30718,7 +30724,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Duhamel du Monceau, Elements of naval architecture (1764 English translation); 1764 and 1846 scans, the French theory of ship construction."
+        "summary": "Add Duhamel du Monceau, Elements of naval architecture (1764 English translation); 1764 and 1846 scans, the French theory of ship construction.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30728,7 +30735,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Mungo Murray, A treatise on ship-building and navigation (1754); 1754 scan, the Clyde shipwrights tradition."
+        "summary": "Add Mungo Murray, A treatise on ship-building and navigation (1754); 1754 scan, the Clyde shipwrights tradition.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30738,7 +30746,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Fincham, A history of naval architecture (1851); 1851 scan, the history between Murray and Scott Russell."
+        "summary": "Add Fincham, A history of naval architecture (1851); 1851 scan, the history between Murray and Scott Russell.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30748,7 +30757,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Scott Russell, The modern system of naval architecture (1865) - the Great Eastern designer's folio system; honest no-scan note."
+        "summary": "Add Scott Russell, The modern system of naval architecture (1865) - the Great Eastern designer's folio system; honest no-scan note.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30758,7 +30768,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hardwich, A manual of photographic chemistry (1855); 1857-1864 edition scans, the collodion teaching, cross-linked to Le Gray."
+        "summary": "Add Hardwich, A manual of photographic chemistry (1855); 1857-1864 edition scans, the collodion teaching, cross-linked to Le Gray.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30768,7 +30779,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Abney, A treatise on photography (1878); 1878 and 1907 scans, the dry-plate treatise."
+        "summary": "Add Abney, A treatise on photography (1878); 1878 and 1907 scans, the dry-plate treatise.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30778,7 +30790,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Abney, The art and practice of silver printing (1881); 1881 and 1888 scans, the printing-out-papers manual."
+        "summary": "Add Abney, The art and practice of silver printing (1881); 1881 and 1888 scans, the printing-out-papers manual.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30788,7 +30801,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Accum, A practical treatise on gas-light (1815) - the outline's 1812 process pamphlet noted as the treatise's own predecessor within this pair; 1815-1818 scans."
+        "summary": "Add Accum, A practical treatise on gas-light (1815) - the outline's 1812 process pamphlet noted as the treatise's own predecessor within this pair; 1815-1818 scans.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30798,7 +30812,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Bunsen, Gasometrische Methoden (1857); 1857 and 1877 scans, the gas-analysis discipline."
+        "summary": "Add Bunsen, Gasometrische Methoden (1857); 1857 and 1877 scans, the gas-analysis discipline.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30808,7 +30823,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Robert Hunt, British mining (1884); 1884 scans, the metalliferous national survey, cross-linked to Foster."
+        "summary": "Add Robert Hunt, British mining (1884); 1884 scans, the metalliferous national survey, cross-linked to Foster.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30818,7 +30834,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Montgomery, A practical detail of the cotton manufacture of the United States (1840); 1840 scans, the American counterpart of Baines's history."
+        "summary": "Add Montgomery, A practical detail of the cotton manufacture of the United States (1840); 1840 scans, the American counterpart of Baines's history.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30828,7 +30845,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add D. K. Clark, Railway machinery (1855); both 1855 parts scanned, the mechanical engineering of railways, cross-linked to Webb and Colburn."
+        "summary": "Add D. K. Clark, Railway machinery (1855); both 1855 parts scanned, the mechanical engineering of railways, cross-linked to Webb and Colburn.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   },
@@ -30838,7 +30856,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Colburn, Locomotive engineering and the mechanism of railways (1871); 1871 scan, the trade journalism collected as teaching."
+        "summary": "Add Colburn, Locomotive engineering and the mechanism of railways (1871); 1871 scan, the trade journalism collected as teaching.",
+        "commit": "d87386dd5954396b53d1c5525fc5f4009a02b062"
       }
     ]
   }
