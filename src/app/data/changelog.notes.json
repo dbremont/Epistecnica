@@ -81383,6 +81383,11 @@
         "summary": "Add the last domain layer: Posselt's Jacquard machine (1887), Napier's Mirifici (1614) and Oughtred's Circles of Proportion (1632), Guericke's vacuum, Harrison and Berthoud's marine chronometers, the Académie balloon Rapport, Cavallo's Aerostation, Langley's aerodynamics, van Yk and Buchanan's naval works, Wright's Certaine Errors (1599), Hiscox's Horseless Vehicles (1900), Schreck & Wang's Yuanxi Qiqi Tushuo (1627) and the Ain i Akbari translations; and honest rows for Kay, Cartwright, Whitney, Roberts, Koenig, Hoe, Mergenthaler, Lalande, Fourdrinier, Tilghman, Thimonnier, Jevons, Kelvin's tide predictor, Boyle, Witsen, Froude, Wenham, Cugnot, Beaumont, Gemma Frisius, Picard, Lambert, Roy, Taqi al-Din, Nogyo Zensho and Kodo Zuroku. Also add a Method and scope section (domains as taxonomy; one-series-one-entry criterion; scriptable collections).",
         "commit": "42b77c33a6131465eee43bd4f41c702209a38e8c",
         "before": "fb6852cdbdd8005783b91c42723dca2fe6cae2d0"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add two new sections: Ars Vitraria (Kunckel 1679, Blancourt 1697/99, Loysel 1800, Bontemps 1868; Neri, Pellatt and Fontenelle cross-listed; Hovestadt 1900 and Chance as rows) and Ars Fictilia (Palissy 1580, Wedgwood 1784, Shaw 1829, Ward 1843, Barber 1893, Langenbeck 1895; Piccolpasso, Dobson and Marryat cross-listed; Brongniart, d'Entrecolles, Seger and Bourry as rows)."
       }
     ]
   }

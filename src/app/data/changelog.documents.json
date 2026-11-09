@@ -36517,5 +36517,105 @@
         "commit": "42b77c33a6131465eee43bd4f41c702209a38e8c"
       }
     ]
+  },
+  {
+    "file_path": "books/gunckel-1679-ars-vitraria-experimentalis.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Kunckel, Ars Vitraria Experimentalis (1679) — the experimental glass tradition; 1679 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/blancourt-1697-art-de-la-verrerie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Blancourt, De l'Art de la Verrerie (1697) — the French and mirror-glass trade; 1699 translation scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/loysel-1800-essai-art-verrerie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Loysel, Essai sur l'art de la verrerie (1800) — the first glass chemistry; 1800 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bontemps-1868-guide-verrier.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bontemps, Guide du Verrier (1868) — the modern shop manual of the trade; 1868 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/palissy-1580-discours-admirables.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Palissy, Discours admirables (1580) — the potter experiment; 1580 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wedgwood-1784-thermometer-fire.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Wedgwood, The Thermometer for Strong Fire (1784) — the measured kiln trade; 1784 Philosophical Transactions scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/shaw-1829-history-staffordshire-potteries.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Shaw, History of the Staffordshire Potteries (1829) — the potteries trade survey; 1829–1900 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ward-1843-borough-stoke-trent.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ward, The Borough of Stoke-upon-Trent (1843) — the potteries district; 1843 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barber-1893-pottery-porcelain-us.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Barber, The Pottery and Porcelain of the United States (1893) — the American trade; 1893 3-volume scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/langenbeck-1895-chemistry-pottery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Langenbeck, The Chemistry of Pottery (1895) — the clay trade chemistry; 1895 scan."
+      }
+    ]
   }
 ]

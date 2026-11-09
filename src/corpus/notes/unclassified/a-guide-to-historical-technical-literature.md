@@ -532,6 +532,42 @@ qa:
 | Cipriano Piccolpasso | [*I Tre Libri dell'Arte del Vasajo*](/view.html?p=documents/books/piccolpasso-1557-arte-del-vasajo.md) | c. 1557 | The majolica potteries illustrated — the earliest pottery manual |
 | John Wesley Hyatt & Isaiah S. Hyatt | *Celluloid patents* | 1869–70 | The first man-made plastic material (no scan verified) |
 
+## Ars Vitraria
+
+> Glassmaking — the glasshouse from the recipes of Neri through Kunckel's experimental chemistry to the modern optical and plate-glass trade.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Johann Kunckel | [*Ars Vitraria Experimentalis*](/view.html?p=documents/books/gunckel-1679-ars-vitraria-experimentalis.md) | 1679 | The German experimental glass-chemistry of the Potsdam works |
+| Jean Haudicquer de Blancourt | [*De l'Art de la Verrerie*](/view.html?p=documents/books/blancourt-1697-art-de-la-verrerie.md) | 1697 | The French glass trade beside the Neri–Merret–Kunckel tradition |
+| Jean-Baptiste Loysel | [*Essai sur l'Art de la Verrerie*](/view.html?p=documents/books/loysel-1800-essai-art-verrerie.md) | 1800 | The Lavoisierian chemistry of the glass batch and furnace |
+| Georges Bontemps | [*Guide du Verrier; Traité Historique et Pratique de la Fabrication des Verres*](/view.html?p=documents/books/bontemps-1868-guide-verrier.md) | 1868 | The master shop manual of the plate and optical glass trade |
+| Antonio Neri | [*L'Arte Vetraria*](/view.html?p=documents/books/neri-1612-arte-vetraria.md) | 1612 (ed. 1663) | The glasshouse stated as recipes — the founding printed treatise (cross-listed from Manufactura) |
+| Apsley Pellatt | [*Curiosities of Glass Making*](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md) | 1849 | The English glass trade beside the recipes (cross-listed from Manufactura) |
+| J. de Fontenelle & F. Malepeyre | [*Nouveau Manuel Complet du Verrier et du Fabricant de Glaces*](/view.html?p=documents/books/fontenelle-1853-manuel-du-verrier.md) | 1853 | The French glass practice manual (cross-listed from Manufactura) |
+| Hovestadt, H. | *Jena Glass and its Scientific and Industrial Applications* | 1900 (tr. 1902) | The scientific optical and technical glasses of Jena (1902 boundary scan) |
+| H. Chance | *On the Manufacture of Crown and Sheet Glass* | 1856 | Industrial window glass by cylinder and crown (no scan verified) |
+
+## Ars Fictilia
+
+> Ceramics and pottery — the kiln from the potter's clay and glaze through the measured Afghan trade of the industrial manufacture.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Bernard Palissy | [*Discours Admirables; with the Art de Terre*](/view.html?p=documents/books/palissy-1580-discours-admirables.md) | 1580 | The potter's experiments set down — from clay figure to glaze furnace |
+| Josiah Wedgwood | [*An Attempt to Compare and Connect the Thermometer for Strong Fire*](/view.html?p=documents/books/wedgwood-1784-thermometer-fire.md) | 1784 | The kiln thermometer apparatus — the potter trade measured high |
+| Simeon Shaw | [*History of the Staffordshire Potteries*](/view.html?p=documents/books/shaw-1829-history-staffordshire-potteries.md) | 1829 | The potteries trade trade-by-trade, its district documented |
+| John Ward | [*The Borough of Stoke-upon-Trent*](/view.html?p=documents/books/ward-1843-borough-stoke-trent.md) | 1843 | The district survey of the potteries trade |
+| Edwin Atlee Barber | [*The Pottery and Porcelain of the United States*](/view.html?p=documents/books/barber-1893-pottery-porcelain-us.md) | 1893 | American ceramics trade manufacturing documented |
+| Karl Langenbeck | [*The Chemistry of Pottery*](/view.html?p=documents/books/langenbeck-1895-chemistry-pottery.md) | 1895 | The chemical trade of the American pottery trade |
+| Cipriano Piccolpasso | [*I Tre Libri dell'Arte del Vasajo*](/view.html?p=documents/books/piccolpasso-1557-arte-del-vasajo.md) | c. 1557 (ed. 1857) | The majolica potteries illustrated — the earliest pottery manual (cross-listed from Manufactura) |
+| Edward Dobson | [*Bricks and Tiles*](/view.html?p=documents/books/dobson-1850-bricks-and-tiles.md) | 1850 | The brick and tile kiln cross-listed from Manufactura |
+| Joseph Marryat | [*A History of Pottery and Porcelain*](/view.html?p=documents/books/marryat-1850-history-of-pottery.md) | 1850 | The ceramics history beside Porter (cross-listed from Manufactura) |
+| Alexandre Brongniart | *Traité des arts céramiques, ou des poteries considérées dans leur histoire, pratique et théorie* | 1844 | The Sèvres director's treatise — the master ceramics book (no scan verified) |
+| F. X. d'Entrecolles (in Du Halde) | *Lettres sur la manufacture de la porcelaine de Chine, in the Description de la Chine* | 1712–22 (ed. 1735) | The Jingdezhen kaolin-petuntse technical letters reported to Europe (no scan verified) |
+| Hermann A. Seger | *The Collected Writings of Hermann August Seger* | 1896 (tr. 1902) | The Seger cone, glaze molecular formulas and scientific kiln control (1902 boundary trans. scanned) |
+| Émile Bourry | *Traité des industries céramiques* | 1897 | Ceramic industries treated as engineering (tr. Rix, 1901) (no scan verified) |
+
 ## Ars Textilis
 
 > The textile trades — spinning, weaving, knitting, dyeing, printing and finishing — from the cotton mill's machinery to the finishing room's chemistry.
