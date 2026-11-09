@@ -30090,5 +30090,55 @@
         "commit": "748b37bd21557d2643cb7a2b0e8d1d2be87d858a"
       }
     ]
+  },
+  {
+    "file_path": "books/greenwell-1869-mine-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Greenwell, A practical treatise on mine engineering (1869) - survey, ventilation, haulage and machinery; 1869-era and 1889 scans, cross-linked to Andre."
+      }
+    ]
+  },
+  {
+    "file_path": "books/michell-1881-mine-drainage.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Michell, Mine drainage (1881) - direct-acting underground pumping machinery in the Spon series; three 1881 scans, cross-linked to Pole."
+      }
+    ]
+  },
+  {
+    "file_path": "books/phillips-1852-elements-of-metallurgy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Phillips, Elements of metallurgy (1852); 1874/1887 edition scans with the first-edition note, cross-linked to Percy 1861."
+      }
+    ]
+  },
+  {
+    "file_path": "books/foster-1894-textbook-ore-stone-mining.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Le Neve Foster, A text-book of ore and stone mining (1894); 1897 scans with honest first-edition note, two corruption slips repaired before commit."
+      }
+    ]
+  },
+  {
+    "file_path": "books/percy-1894-machinery-for-metalliferous-mines.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add C. M. Percy, Machinery for metalliferous mines (1894); honest no-scan note with the Davies 1902 neighbour scanned; closes the mining-machinery shelf."
+      }
+    ]
   }
 ]
