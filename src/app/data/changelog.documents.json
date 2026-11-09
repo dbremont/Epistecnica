@@ -36524,7 +36524,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Kunckel, Ars Vitraria Experimentalis (1679) — the experimental glass tradition; 1679 scan."
+        "summary": "Add Kunckel, Ars Vitraria Experimentalis (1679) — the experimental glass tradition; 1679 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36534,7 +36535,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Blancourt, De l'Art de la Verrerie (1697) — the French and mirror-glass trade; 1699 translation scan."
+        "summary": "Add Blancourt, De l'Art de la Verrerie (1697) — the French and mirror-glass trade; 1699 translation scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36544,7 +36546,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Loysel, Essai sur l'art de la verrerie (1800) — the first glass chemistry; 1800 scan."
+        "summary": "Add Loysel, Essai sur l'art de la verrerie (1800) — the first glass chemistry; 1800 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36554,7 +36557,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Bontemps, Guide du Verrier (1868) — the modern shop manual of the trade; 1868 scan."
+        "summary": "Add Bontemps, Guide du Verrier (1868) — the modern shop manual of the trade; 1868 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36564,7 +36568,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Palissy, Discours admirables (1580) — the potter experiment; 1580 scan."
+        "summary": "Add Palissy, Discours admirables (1580) — the potter experiment; 1580 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36574,7 +36579,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Wedgwood, The Thermometer for Strong Fire (1784) — the measured kiln trade; 1784 Philosophical Transactions scan."
+        "summary": "Add Wedgwood, The Thermometer for Strong Fire (1784) — the measured kiln trade; 1784 Philosophical Transactions scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36584,7 +36590,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Shaw, History of the Staffordshire Potteries (1829) — the potteries trade survey; 1829–1900 scans."
+        "summary": "Add Shaw, History of the Staffordshire Potteries (1829) — the potteries trade survey; 1829–1900 scans.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36594,7 +36601,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Ward, The Borough of Stoke-upon-Trent (1843) — the potteries district; 1843 scan."
+        "summary": "Add Ward, The Borough of Stoke-upon-Trent (1843) — the potteries district; 1843 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36604,7 +36612,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Barber, The Pottery and Porcelain of the United States (1893) — the American trade; 1893 3-volume scan."
+        "summary": "Add Barber, The Pottery and Porcelain of the United States (1893) — the American trade; 1893 3-volume scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   },
@@ -36614,7 +36623,8 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add Langenbeck, The Chemistry of Pottery (1895) — the clay trade chemistry; 1895 scan."
+        "summary": "Add Langenbeck, The Chemistry of Pottery (1895) — the clay trade chemistry; 1895 scan.",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
   }

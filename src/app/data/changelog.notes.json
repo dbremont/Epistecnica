@@ -81387,7 +81387,9 @@
       {
         "date": "2026-11-09",
         "kind": "feat",
-        "summary": "Add two new sections: Ars Vitraria (Kunckel 1679, Blancourt 1697/99, Loysel 1800, Bontemps 1868; Neri, Pellatt and Fontenelle cross-listed; Hovestadt 1900 and Chance as rows) and Ars Fictilia (Palissy 1580, Wedgwood 1784, Shaw 1829, Ward 1843, Barber 1893, Langenbeck 1895; Piccolpasso, Dobson and Marryat cross-listed; Brongniart, d'Entrecolles, Seger and Bourry as rows)."
+        "summary": "Add two new sections: Ars Vitraria (Kunckel 1679, Blancourt 1697/99, Loysel 1800, Bontemps 1868; Neri, Pellatt and Fontenelle cross-listed; Hovestadt 1900 and Chance as rows) and Ars Fictilia (Palissy 1580, Wedgwood 1784, Shaw 1829, Ward 1843, Barber 1893, Langenbeck 1895; Piccolpasso, Dobson and Marryat cross-listed; Brongniart, d'Entrecolles, Seger and Bourry as rows).",
+        "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0",
+        "before": "b4d89d9efefb5b506a90d9c5b942484c53bb3d65"
       }
     ]
   }
