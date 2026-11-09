@@ -31340,5 +31340,225 @@
         "commit": "345d23bf697170597870db2c7384c17cf0bf3e33"
       }
     ]
+  },
+  {
+    "file_path": "books/bourne-1846-treatise-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bourne, Treatise on the steam engine applied to mines, mills, steam-navigation, railways and agriculture (1846); three 1846-47 scans, the applied-steam great beside the held catechism."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fairbairn-1856-useful-information-engineers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fairbairn, Useful information for engineers (1856-60 series); 1856-1866 scans, the collected notes and experiments of the consulting practice."
+      }
+    ]
+  },
+  {
+    "file_path": "books/robinson-1887-hydraulic-power.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Henry Robinson, Hydraulic power and hydraulic machinery (1887); 1887-1910 scans, the accumulator-station plant manual beside Francis and Bodmer."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kapp-1886-electric-transmission-of-energy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Kapp, Electric transmission of energy (1886); 1890-1894 scans with the first-edition note, the power-transmission founding volume."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gore-1877-art-of-electro-metallurgy.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gore, The art of electro-metallurgy (1877); 1887/1890 edition scans, resolving the outline title-collision row against Watt same-title trade."
+      }
+    ]
+  },
+  {
+    "file_path": "books/watt-1880-electro-deposition.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Watt, Electro-metallurgy practically treated / Electro-deposition (1880 onward); three scans, the plater manual entered under its actual verified title."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lunge-1882-coal-tar-and-ammonia.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lunge, Distillation of coal-tar and ammonia liquor (1882); 1916 fifth-edition scans noted honestly, the gasworks by-product chemistry beside the held acid-alkali treatise. Two pre-commit slips repaired: a stray-token corruption (Lunge QA) and a multi-line bibtex title (Watt)."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brannt-1882-varnishes-lacquers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Andres/Winckler/Brannt, fabrication of varnishes, lacquers, siccatives and sealing-waxes (1882); Getty scan, the coatings-manufacture reference via the vinegar translator."
+      }
+    ]
+  },
+  {
+    "file_path": "books/standage-1892-polish-varnish-maker.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Standage, The practical polish & varnish maker (1892); 1892 scan, the shop register of the coatings trade."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hofmann-1873-manufacture-of-paper.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hofmann, the manufacture of paper in all its branches (1873); two scans, the process manual between Herring and Munsell."
+      }
+    ]
+  },
+  {
+    "file_path": "books/watt-1884-art-of-soap-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Alexander Watt, The art of soap-making (1884); 1896 and 1918 editions scanned with the first-edition note. Two pre-commit slips repaired: a stray-token corruption (Lunge QA) and a multi-line bibtex title (Watt)."
+      }
+    ]
+  },
+  {
+    "file_path": "books/storrow-1835-water-works.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Storrow, Water-works for conveying and distributing water (1835); 1835 scan, the American waterworks-design founding manual before Fanning."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kirkwood-1869-filtration-of-river-waters.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Kirkwood, Report on the filtration of river waters (1869); two scans, the European slow-sand systems for American cities."
+      }
+    ]
+  },
+  {
+    "file_path": "books/humber-1876-water-supply-cities-towns.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Humber, the comprehensive water supply of cities and towns (1876); honest no-scan note, the British comprehensive reference."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nichols-1883-water-supply-sanitary.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Nichols, water supply chemical and sanitary (1883); 1883-1892 scans, the sanitary-science register."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barry-1876-railway-appliances.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wolfe Barry, Railway appliances (1876); three editions scanned, the permanent-way and signalling description."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pigg-1898-railway-block-signalling.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Pigg, Railway block signalling (1898); 1899 scans with the issue-year note, the block-system doctrine."
+      }
+    ]
+  },
+  {
+    "file_path": "books/west-1882-american-foundry-practice.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add West, American foundry practice (1882); 1888 scan, the moulding and casting trade manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/west-1885-moulders-text-book.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add West's moulders' text-book (1885); 1892/1901 printings scanned with the first-edition note, a corruption slip repaired."
+      }
+    ]
+  },
+  {
+    "file_path": "books/redwood-1898-lubricants-oils-greases.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Redwood, Lubricants, oils and greases (1898); honest no-scan note with the neighbouring friction treatise linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/shaw-1876-fire-protection.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Shaw, Fire protection (1876); two scans, the London fire-brigade organization manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/roper-1889-steam-fire-engines.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Roper and Stellwagen, hand-book of modern steam fire-engines (1889); 1889 scan, the fire-department machinery register."
+      }
+    ]
   }
 ]
