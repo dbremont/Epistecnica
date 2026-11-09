@@ -28836,5 +28836,185 @@
         "commit": "aa413751ddc933d74895b84604dbf91d2f006b12"
       }
     ]
+  },
+  {
+    "file_path": "books/combrune-1762-theory-and-practice-of-brewing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Combrune, The theory and practice of brewing (1762) - the thermometer applied to the brewer process; 1762 and 1804 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/morrice-1802-treatise-on-brewing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Morrice, A treatise on brewing (1802) - the whole process of the art and mystery of the brewer; 1802 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/appert-1810-art-de-conserver.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Appert, L'art de conserver (1810, French original) with the 1811 English translation - canning before germ theory; three scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/pasteur-1876-etudes-sur-la-biere.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Pasteur, Etudes sur la bieres (Paris, 1876) - fermentation maladies and the germ theory industrialized; 1876 scans, cross-linked to Appert and Lafar."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lafar-1898-technical-mycology.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lafar, Technical mycology (1898 vol. I, English tr. to 1910) - industrial microbiology in reference form; 1898 and 1910 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/brannt-1889-manufacture-of-vinegar.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Brannt, A practical treatise on the manufacture of vinegar (Philadelphia, 1889) - vinegar, pickles, and meat/fish/egg preservation; 1890 and 1914 scans, first-edition note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/balaguer-1878-fabricacion-de-vinagres.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Balaguer y Primo, Fabricacion de vinagres (Barcelona, 1878) - Spanish fermentation industry; honest no-scan note, author's other treatises linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stopes-1885-malt-and-malting.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Stopes, Malt and malting (1885) - the raw-material side of brewing; 1885 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/evangelista-1895-tratado-fabricacion-azucar.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Evangelista, Tratado de la fabricacion del azucar de cana y remolacha (Madrid, 1895) - cane and beet sugar as one process family; honest no-scan note, related Spanish sugar literature linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fairbairn-1861-treatise-mills-millwork.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fairbairn, Treatise on mills and millwork (1861-63, 2 parts) - mill construction and machinery; 1861 BSB and 1878 scans, cross-linked to Rankine 1869."
+      }
+    ]
+  },
+  {
+    "file_path": "books/burgh-1863-treatise-sugar-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Burgh, A treatise on sugar machinery (1863) - the extraction-to-refinery equipment train; 1863 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jago-1895-technology-of-bread-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Jago, The technology of bread-making (1895) - flour and dough as process science; 1911 scans with honest first-edition note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/simmonds-1854-commercial-products-vegetable-kingdom.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Simmonds, The commercial products of the vegetable kingdom (1854) - sugars, starches, fibers and the commodity economy; 1854 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/willard-1872-practical-dairy-husbandry.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Willard, Willard's practical dairy husbandry (1872) - milk, butter, cheese and the early factory system; 1872 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/willard-1875-practical-butter-book.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Willard, Willard's practical butter book (1875) - dairying's two regimes, farm and factory; 1875 scan, cross-linked to the 1872 treatise."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cow-1880-the-cow-dairy-management.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the anonymous The cow: a guide to dairy-management and cattle-rearing (c. 1880) - the smallholder end of the dairy literature; c. 1880 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/twining-1870-fundamental-ice-making-invention.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Twining, The fundamental ice-making invention (1870) - artificial ice's patent foundation; honest no-scan note, cross-linked to Selfe."
+      }
+    ]
+  },
+  {
+    "file_path": "books/selfe-1896-machinery-artificial-refrigeration.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Selfe, The machinery employed for artificial refrigeration and ice making (1896 paper, 1900 printing) - design equipment inventory; 1900 scan and LOC item."
+      }
+    ]
   }
 ]
