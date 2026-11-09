@@ -31010,5 +31010,305 @@
         "commit": "5dbf77dff4ce0086c8f17a8cb239eb3a98f9078f"
       }
     ]
+  },
+  {
+    "file_path": "books/bourne-1855-catechism-of-the-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bourne, A catechism of the steam engine (1855); mid-century and 1876 scans plus the Gutenberg transcription, the engine-room instruction."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barr-1880-high-pressure-steam-boilers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Barr, high pressure steam boilers (1880); 1880 scan, the boiler economy beside Bourne."
+      }
+    ]
+  },
+  {
+    "file_path": "books/thurston-1888-manual-steam-boilers.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thurston, A manual of steam-boilers (1888); 1888 and 1896 scans, the boiler engineering instruction."
+      }
+    ]
+  },
+  {
+    "file_path": "books/francis-1855-lowell-hydraulic-experiments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Francis, Lowell hydraulic experiments (1855); 1855 and 1868/83 editions, the weir formulas and turbines."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bodmer-1889-hydraulic-motors.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bodmer, Hydraulic motors (1889, 1897 scan), the turbine and pressure-engine design theory beside Francis."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clerk-1886-the-gas-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Clerk, the gas engine (1886 line; the 1882 theory papers and 1907 treatise scanned), internal combustion s founding English literature."
+      }
+    ]
+  },
+  {
+    "file_path": "books/donkin-1894-gas-oil-air-engines.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Donkin, A textbook on gas, oil, and air engines (1894); five scans to 1905, the gas-engine instruction."
+      }
+    ]
+  },
+  {
+    "file_path": "books/graffigny-1898-gas-and-petroleum-engines.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add de Graffigny, Gas and petroleum engines (1898, English 1902) - maintenance-side manual; both printings scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clegg-1841-coal-gas.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Clegg, the manufacture and distribution of coal-gas (1841); three scans, the gasworks supply economy beside Accum."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hughes-1853-treatise-on-gas-works.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hughes, A treatise on gas-works (1853); 1853-1880 scans, the gasworks manual decade behind Clegg."
+      }
+    ]
+  },
+  {
+    "file_path": "books/shelley-1897-workshop-appliances.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Shelley, Workshop appliances (Weale series, editions 1873-1897); four edition scans, the shop equipment inventory."
+      }
+    ]
+  },
+  {
+    "file_path": "books/niles-1898-general-machinery-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add the Niles Tool Works general machinery catalogue (1898, @misc) - the machine-tool trade catalogue beside Casella and Gurley."
+      }
+    ]
+  },
+  {
+    "file_path": "books/herring-1855-paper-and-paper-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Herring, Paper & paper making, ancient and modern (1855); three scans, the papermaking process account."
+      }
+    ]
+  },
+  {
+    "file_path": "books/munsell-1870-chronology-of-paper.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Munsell, A chronology of paper and paper-making (1870 outline; the 1876 edition scanned with the note), the historical register."
+      }
+    ]
+  },
+  {
+    "file_path": "books/dussauce-1867-tanning-currying-leather.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Dussauce, the arts of tanning, currying, and leather-dressing (1867); 1867 scan plus the 1852 Morfit predecessor, the leather branch opens."
+      }
+    ]
+  },
+  {
+    "file_path": "books/procter-1885-textbook-of-tanning.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Procter, A text-book of tanning (1885); 1885 scan and Gutenberg transcription, the chemistry decade."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fontenelle-1853-manuel-du-verrier.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fontenelle and Malepeyre, the verrier manual (Roret series, 1853 outline; 1854 and 1900 scans noted), glass trades process register."
+      }
+    ]
+  },
+  {
+    "file_path": "books/goodyear-1853-gum-elastic.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Goodyear, Gum-elastic and its varieties (1853); both 1853 scans, the vulcanization inventor's own account."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wilson-grey-1888-modern-printing-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wilson and Grey, modern printing machinery and letterpress (1888); 1888 scan, the machine-decade trade account."
+      }
+    ]
+  },
+  {
+    "file_path": "books/jacobi-1893-printing.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Jacobi, Printing: a practical treatise on typography (1893); 1908/1913 editions scanned with the first-edition note, a publisher-field typo repaired."
+      }
+    ]
+  },
+  {
+    "file_path": "books/guttmann-1895-manufacture-of-explosives.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Guttmann, The manufacture of explosives (1895); volume scan, the explosives industry beside Schönbein."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hedges-1889-central-station-electric-lighting.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Hedges, Central-station electric lighting (1889, outline 1880s); 1888-89 scan, the distribution system economy."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gordon-1884-electric-lighting.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gordon, A practical treatise on electric lighting (1884); 1884 scan, the lighting trade s founding English manual."
+      }
+    ]
+  },
+  {
+    "file_path": "books/atkinson-1888-elements-electric-lighting.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Atkinson, The elements of electric lighting (1888 first; the outline 1897 is the later edition, both scanned)."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bourne-1852-screw-propeller.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Bourne, A treatise on the screw propeller (1852); three scans, the propulsion arithmetic beside the marine steam engines."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sennett-1885-marine-steam-engine.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Sennett, The marine steam engine (1885); 1885-1911 editions for the Admiralty engineer, cross-linked to Bourne."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fulton-1796-canal-navigation.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Fulton, A treatise on the improvement of canal navigation (1796); three 1796 scans, the canal-engineering founding American document."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stevenson-d-1872-canal-and-river-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add David Stevenson, canal and river engineering (1872); 1872 scan, the Stevenson family water engineering."
+      }
+    ]
+  },
+  {
+    "file_path": "books/stevenson-t-1874-design-and-construction-of-harbours.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Thomas Stevenson, The design and construction of harbours (1874); three part scans, the lighthouse-family harbour science."
+      }
+    ]
+  },
+  {
+    "file_path": "books/vernon-harcourt-1885-harbours-and-docks.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Vernon-Harcourt, Harbours and docks (1885, Clarendon); part scans, the maritime engineering professional close."
+      }
+    ]
   }
 ]
