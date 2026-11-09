@@ -33649,5 +33649,155 @@
         "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c"
       }
     ]
+  },
+  {
+    "file_path": "books/papin-1681-new-digester.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Papin, A New Digester and its Continuation (1681–87) — the pressure machine; 1681 and 1687 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/watt-1769-steam-engine-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Watt steam-engine patents (1769–, @misc collector) — the engine transformed; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hornblower-1781-compound-engine-patent.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hornblower compound-engine patent (1781–, @misc collector) — the compound principle; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/trevithick-woolf-1800s-high-pressure-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Trevithick and Woolf high-pressure papers (1800s–30s, collector) — the portable engine; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/evans-1805-abortion-young-steam-engineers-guide.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Evans, The Abortion of the Young Steam Engineer's Guide (1805) — the American high-pressure line; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/maxwell-1871-theory-of-heat.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Maxwell, Theory of Heat (1871) — the teaching thermodynamics; 1872 and 1899 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/boltzmann-1896-vorlesungen-gastheorie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Boltzmann, Vorlesungen über Gastheorie (1896–98) — the kinetic theory system; scans of the parts."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gibbs-1902-elementary-principles-statistical-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gibbs, Elementary Principles in Statistical Mechanics (1902) — the boundary formulation; 1902 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/grashof-1875-theoretische-maschinenlehre.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Grashof, Theoretische Maschinenlehre (1875–) — the German machine theory; two volume scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/de-laval-1880s-steam-turbine-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add de Laval steam-turbine papers (1880s–90s, collector) — the impulse wheel; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rateau-curtis-1890s-turbine-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Rateau and Curtis turbine patents (1890s, collector) — the stage designs; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/otto-langen-1876-gas-engine-patents.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Otto and Langen gas-engine patents (1860s–70s, collector) — the four-stroke cycle; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/atkinson-1880s-gas-engine-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Atkinson gas-engine papers (1880s, collector) — the cycle variations; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hot-air-engine-1816-1850-stirling-ericsson.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Stirling and Ericsson hot-air engine collector (1816–50s) — the air-engine line; honest no-scan note."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mouchot-1869-chaleur-solaire.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mouchot, La chaleur solaire (1869) — the first solar-power treatise; 1869 scan."
+      }
+    ]
   }
 ]

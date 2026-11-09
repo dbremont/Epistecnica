@@ -81243,6 +81243,11 @@
         "summary": "Add the manufactures rows: Beckmann’s history of inventions, Réaumur on converting iron into steel, the Descriptions des arts et métiers and Chaptal’s Chimie appliquée aux arts, the Hermbstädt translation channel, Faraday’s Chemical Manipulation and Bowman’s practical course, Senefelder on lithography and Fournier on typefounding, Muybridge’s Animal Locomotion and Marey’s La machine animale, the phonograph patents, Gesner and Redwood on petroleum, Dundonald’s salt pamphlet, Letouzé on asphalt, and the 1898 glue-and-gelatine manual.",
         "commit": "18f0a0e41570e8db5b5981838efdc0530cd1df9c",
         "before": "53f8daadce8bcb3befe6412caa39197bdbf1e136"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the energy rows: Papin’s digester and its continuation, the Watt, Hornblower, Trevithick–Woolf, Otto–Langen, Atkinson, Stirling–Ericsson and Rateau–Curtis patent collectors, Evans’s American high-pressure guide, Maxwell’s Theory of Heat, Boltzmann’s Gastheorie, Gibbs’s statistical mechanics at the 1902 boundary, Grashof’s Theoretische Maschinenlehre, de Laval’s turbine papers and Mouchot’s solar treatise."
       }
     ]
   }

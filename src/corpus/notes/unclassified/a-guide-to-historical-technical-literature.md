@@ -455,6 +455,21 @@ qa:
 | William Thomson & P. G. Tait | [*Treatise on Natural Philosophy*](/view.html?p=documents/books/kelvin-1867-treatise-natural-philosophy-vol-claredon.md) | 1867 | The energy doctrine taught as natural philosophy |
 | R. H. Thurston | [*A History of the Growth of the Steam-Engine*](/view.html?p=documents/books/thurston-1878-history-growth-steam-engine-vol.md) | 1878 | The engine’s history by its own engineer-historian |
 | Rudolf Clausius | [*The Mechanical Theory of Heat*](/view.html?p=documents/books/clausius-1879-mechanical-theory-heat-macmillan.md) | 1879 (English) | The mechanical theory in its systematic form |
+| Denis Papin | [*A New Digester, with the Continuation*](/view.html?p=documents/books/papin-1681-new-digester.md) | 1681–87 | The pressure vessel — the boiler's and the engine's ancestor |
+| James Watt | [*Steam-engine patents and specifications*](/view.html?p=documents/books/watt-1769-steam-engine-patents.md) | 1769– | The separate condenser and the rotative engine |
+| Jonathan Hornblower | [*Compound steam-engine patent*](/view.html?p=documents/books/hornblower-1781-compound-engine-patent.md) | 1781– | Steam expanded in two cylinders — the idea before its means |
+| R. Trevithick & A. Woolf | [*High-pressure steam papers and patents*](/view.html?p=documents/books/trevithick-woolf-1800s-high-pressure-papers.md) | 1800s–30s | The high-pressure engine made portable |
+| Oliver Evans | [*The Abortion of the Young Steam Engineer's Guide*](/view.html?p=documents/books/evans-1805-abortion-young-steam-engineers-guide.md) | 1805 | The American high-pressure engine argued from the works (honest no-scan) |
+| James Clerk Maxwell | [*Theory of Heat*](/view.html?p=documents/books/maxwell-1871-theory-of-heat.md) | 1871 | The heat doctrine taught with the statistical argument inside it |
+| Ludwig Boltzmann | [*Vorlesungen über Gastheorie*](/view.html?p=documents/books/boltzmann-1896-vorlesungen-gastheorie.md) | 1896–98 | The kinetic theory taught — the second law made statistical |
+| J. Willard Gibbs | [*Elementary Principles in Statistical Mechanics*](/view.html?p=documents/books/gibbs-1902-elementary-principles-statistical-mechanics.md) | 1902 (boundary) | Statistical mechanics formulated as a general theory |
+| Franz Grashof | [*Theoretische Maschinenlehre*](/view.html?p=documents/books/grashof-1875-theoretische-maschinenlehre.md) | 1875– | The machine taught as applied mechanics |
+| C. G. P. de Laval | [*Steam-turbine papers and patents*](/view.html?p=documents/books/de-laval-1880s-steam-turbine-papers.md) | 1880s–90s | The impulse turbine and the expanding nozzle |
+| A. Rateau & C. G. Curtis | [*Steam-turbine patents*](/view.html?p=documents/books/rateau-curtis-1890s-turbine-patents.md) | 1890s | The multi-stage and velocity-compounded wheel |
+| N. A. Otto & E. Langen | [*Gas-engine patents*](/view.html?p=documents/books/otto-langen-1876-gas-engine-patents.md) | 1860s–70s | The four-stroke cycle specified |
+| James Atkinson | [*Gas-engine papers and patents*](/view.html?p=documents/books/atkinson-1880s-gas-engine-papers.md) | 1880s | The cycle variations against the Otto patent |
+| R. Stirling & J. Ericsson | [*Hot-air engine patents and papers*](/view.html?p=documents/books/hot-air-engine-1816-1850-stirling-ericsson.md) | 1816–50s | The regenerator and the external-combustion cycle |
+| A. B. Mouchot | [*La Chaleur Solaire et ses Applications Industrielles*](/view.html?p=documents/books/mouchot-1869-chaleur-solaire.md) | 1869 | Solar heat collected and applied — the first systematic treatise |
 
 ## Ars Cibaria
 

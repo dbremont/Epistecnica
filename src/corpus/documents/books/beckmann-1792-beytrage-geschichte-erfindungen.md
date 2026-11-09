@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Beyträge, vol. III (1792)](https://archive.org/details/11277743bsb)
 - [Archive.org — vol. IV (1799)](https://archive.org/details/11277744bsb)
-- [Beckmann, A History of Inventions and Discoveries (English translation) — the access in English](/view.html?p=documents/books/beckmann-1846-history-inventions-discoveries.md)
+- [Archive.org — Beyträge, vol. IV (1799) — the continuing volume](https://archive.org/details/11277744bsb)
