@@ -30581,7 +30581,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Talbot, The pencil of nature (1844-46, fascicles); no original scan verified - the 1839 Phil. Trans. photogenic-drawing disclosure and one MMA plate item linked; photography's founding book."
+        "summary": "Add Talbot, The pencil of nature (1844-46, fascicles); no original scan verified - the 1839 Phil. Trans. photogenic-drawing disclosure and one MMA plate item linked; photography's founding book.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30591,7 +30592,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Le Gray, Traite nouveau de photographie (1852); honest no-scan note, cross-linked to Talbot."
+        "summary": "Add Le Gray, Traite nouveau de photographie (1852); honest no-scan note, cross-linked to Talbot.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30601,7 +30603,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Muller, the practical part of fortification (1755, Woolwich professor); 1755 and 1764 scans, the military-engineering founding row."
+        "summary": "Add Muller, the practical part of fortification (1755, Woolwich professor); 1755 and 1764 scans, the military-engineering founding row.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30611,7 +30614,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Mahan, Treatise on field fortification (1836, West Point); 1856-62 printings scanned with the first-edition note, a bibtex slip repaired, cross-linked to Muller."
+        "summary": "Add Mahan, Treatise on field fortification (1836, West Point); 1856-62 printings scanned with the first-edition note, a bibtex slip repaired, cross-linked to Muller.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30621,7 +30625,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the Royal Military Academy Woolwich collective treatises (1847, @misc); honest no-scan note, the academy curriculum beside Mahan."
+        "summary": "Add the Royal Military Academy Woolwich collective treatises (1847, @misc); honest no-scan note, the academy curriculum beside Mahan.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30631,7 +30636,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Norie, A complete epitome of practical navigation (1805); 1828 edition scan with the first-edition note, a bibtex slip repaired."
+        "summary": "Add Norie, A complete epitome of practical navigation (1805); 1828 edition scan with the first-edition note, a bibtex slip repaired.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   },
@@ -30641,7 +30647,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Bowditch, The new American practical navigator (1802); 1821-1861 printings scanned with the first-edition note, the American navigation standard beside Norie."
+        "summary": "Add Bowditch, The new American practical navigator (1802); 1821-1861 printings scanned with the first-edition note, the American navigation standard beside Norie.",
+        "commit": "10aed4c0a6a3069cb47462bfb6c334b0989b65cc"
       }
     ]
   }
