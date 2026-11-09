@@ -20,9 +20,10 @@ qa:
 
 > Charles Babbage's Passages — the calculating engine's own career in the author's final book: the Difference and Analytical Engines' machinery, the mechanical notation and the innovator's life, where the office-machinery branch meets its theoretical founder. The autobiography beside the held Economy of Machinery — one author's two parts of the machinery question.
 
-> Honest record: no archive.org scan of the 1864 first edition is verified here; the modern reprints and the LibriVox recording circulate, and the first edition is catalogued untouched.
+> The 1864 first edition is scanned (Google copy).
 
 ## References
 
-- [Archive.org — Passages from the life of a philosopher (a modern reprint)](https://archive.org/details/passagesfromlife0000babb)
+- [Archive.org — Passages from the life of a philosopher (1864 first edition)](https://archive.org/details/bub_gb_Fa1JAAAAMAAJ)
+- [Archive.org — (a modern reprint)](https://archive.org/details/passagesfromlife0000babb)
 - [Babbage, On the Economy of Machinery and Manufactures (1832) — the economy beside the life](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md)

@@ -32393,6 +32393,11 @@
         "kind": "feat",
         "summary": "Add Babbage, Passages from the life of a philosopher (1864); honest no-scan note with the memoire and the recording, the office-machinery founding autobiography.",
         "commit": "be234031dd434c88d7b7a818585b683527e8a4a0"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "fix",
+        "summary": "Point the entry at the verified 1864 first-edition scan and drop the no-scan note."
       }
     ]
   },
@@ -34946,6 +34951,196 @@
         "kind": "feat",
         "summary": "Add the Singer 27-2 instruction manual (1894) — the consumer durable and its operating text; 1894 scan.",
         "commit": "c112cfa3832b4d83d66c55ebe4afb26bfa7b7745"
+      }
+    ]
+  },
+  {
+    "file_path": "books/babbage-1822-letter-humphry-davy.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Babbage, A Letter to Sir Humphry Davy (1822) — the difference engine proposed; 1822 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/scheutz-1854-report-calculating-machine.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Royal Society report on the Scheutz calculating machine (1854) — the first validated difference engine; 1854 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/shaw-1885-continuous-calculating-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Shaw, The Theory of Continuous Calculating Machines (1885) — the continuous tradition; 1885 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hollerith-1889-electric-tabulating-system.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hollerith, An Electric Tabulating System (1889) — the punched-card origin; 1889 offprint scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ettingshausen-1857-arithmometer-thomas.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ettingshausen, Bericht über den Arithmometer des Herrn Thomas (1857) — the arithmometer; 1857 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/evans-1850-young-mill-wright.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Evans, The Young Mill-Wright and Miller's Guide (1850 ed.) — the millwright's manual; 1850 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/grimshaw-1882-miller-millwright-millfurnisher.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Grimshaw, The Miller, Millwright and Millfurnisher (1882) — the mill trade's manual; 1882 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/williams-1884-windmill-catalogue.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the B. S. Williams windmill catalogue (1884) — the wind engine trade; 1884 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cautley-1860-report-ganges-canal-works.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cautley, Report on the Ganges Canal Works (1860) — the founding Indian irrigation report; vols 1 and 3 scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cautley-1864-disquisition-ganges-canal.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cautley, Ganges Canal: A Disquisition (1864) — the water-supply argument; 1864 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/barois-1889-irrigation-in-egypt.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Barois, Irrigation in Egypt (1889) — the Nile works; 1889 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/egypt-irrigation-1888-reports.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Egypt Irrigation Department reports (1888) — irrigation as an administration; 1888 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bengal-1861-irrigation-papers.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the Bengal irrigation papers (1861) — the sanitary and famine argument; 1861 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mead-1899-rise-future-irrigation-united-states.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mead, Rise and Future of Irrigation in the United States (1899) — the American programme; 1899 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/craig-1882-treatise-on-projections.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Craig, A Treatise on Projections (1882) — projection as mathematics; 1882 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/white-1886-ordnance-survey-united-kingdom.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add White, The Ordnance Survey of the United Kingdom (1886) — the national mapping system; 1886 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/frome-1873-trigonometrical-survey.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Frome, Outline of the Method of Conducting a Trigonometrical Survey (1873) — the survey method; 1873 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/baker-1892-engineers-surveying-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Baker, Engineers' Surveying Instruments (1892) — the instrument book; 1892 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/euler-1898-drei-abhandlungen-kartenprojection.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Euler, Drei Abhandlungen über Kartenprojection (1898 Ostwald edition) — the projection papers; 1898 scan."
       }
     ]
   }

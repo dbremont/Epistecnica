@@ -781,6 +781,61 @@ qa:
 | Elias Howe | *The sewing machine patent* | 1846 | The lock-stitch mechanism patented (no scan verified) |
 | Isaac M. Singer | *Sewing machine patents and the Singer manufacturing system* | 1850s– | The machine and the factory system that made it a household good (no scan verified) |
 
+## Ars Computatoria
+
+> The calculating machine and the tabulating system — the difference engine proposed and built, the arithmometer sold, the continuous integrator analysed, and the punched card made a data system.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Charles Babbage | [*A Letter to Sir Humphry Davy on the Application of Machinery to Calculating and Printing Tables*](/view.html?p=documents/books/babbage-1822-letter-humphry-davy.md) | 1822 | The difference engine proposed — finite differences turned into machinery |
+| Charles Babbage | [*Passages from the Life of a Philosopher*](/view.html?p=documents/books/babbage-1864-passages-from-the-life.md) | 1864 | The calculating engine's own career — Difference and Analytical Engines, mechanical notation |
+| Royal Society Committee | [*Report on the Calculating Machine of Messrs. Scheutz*](/view.html?p=documents/books/scheutz-1854-report-calculating-machine.md) | 1854 | The first working difference engine independently examined |
+| H. S. Hele Shaw | [*The Theory of Continuous Calculating Machines*](/view.html?p=documents/books/shaw-1885-continuous-calculating-machines.md) | 1885 | The calculating machine extended from arithmetic to the calculus |
+| Herman Hollerith | [*An Electric Tabulating System*](/view.html?p=documents/books/hollerith-1889-electric-tabulating-system.md) | 1889 | The punched card, the circuit-closing press and the census |
+| Andreas von Ettingshausen | [*Bericht über den Arithmometer des Herrn Thomas*](/view.html?p=documents/books/ettingshausen-1857-arithmometer-thomas.md) | 1857 | The arithmometer examined — mechanical calculation made commercial |
+| Blaise Pascal | *The Pascaline: the calculating machine* | 1642 | Addition and subtraction by geared wheels (no scan verified) |
+| Gottfried Wilhelm Leibniz | *The stepped reckoner* | 1673 | Multiplication by the stepped drum (no scan verified) |
+
+## Ars Molendinaria
+
+> The mill and the wind engine — the millwright's manual, the miller's trade, and the wind machine sold as a manufactured system.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Oliver Evans | [*The Young Mill-Wright and Miller's Guide*](/view.html?p=documents/books/evans-1850-young-mill-wright.md) | 1795 (ed. 1850) | The mill as a power-and-process system — wheel, gearing, stones and bolting |
+| Robert Grimshaw | [*The Miller, Millwright and Millfurnisher*](/view.html?p=documents/books/grimshaw-1882-miller-millwright-millfurnisher.md) | 1882 | The mill trade at the point roller milling displaced the stones |
+| B. S. Williams & Co. | [*Illustrated Catalogue of Wind-Mills, Pumps, Tanks, etc.*](/view.html?p=documents/books/williams-1884-windmill-catalogue.md) | 1884 | The American wind engine as a manufactured farm system |
+| John Smeaton | [*An Experimental Enquiry Concerning the Natural Powers of Water and Wind*](/view.html?p=documents/books/smeaton-1794-experimental-enquiry.md) | 1794 | The water- and wind-wheel experiments (cross-listed from Energia) |
+| Poul la Cour | *The wind turbine and the wind-driven dynamo* | 1890s | The windmill turned into an electricity generator (no scan verified) |
+
+## Ars Irrigationis
+
+> Irrigation engineering — the Indian canal reports, the Nile works, the American arid West, and the administrative and sanitary arguments that surrounded them.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Proby T. Cautley | [*Report on the Ganges Canal Works*](/view.html?p=documents/books/cautley-1860-report-ganges-canal-works.md) | 1860 | The canal from head works to distributaries — Indian irrigation engineering |
+| Proby T. Cautley | [*Ganges Canal: A Disquisition on the Heads of the Canals*](/view.html?p=documents/books/cautley-1864-disquisition-ganges-canal.md) | 1864 | The canal as a claim on a river's regime |
+| Julien Barois | [*Irrigation in Egypt*](/view.html?p=documents/books/barois-1889-irrigation-in-egypt.md) | 1889 | The Nile's perennial irrigation — barrage, canals and drainage |
+| Egypt. Irrigation Department | [*Reports upon the Administration of the Irrigation Services in Egypt*](/view.html?p=documents/books/egypt-irrigation-1888-reports.md) | 1888 | Irrigation as a state service — canals, water rights and budgets |
+| Government of Bengal | [*Papers Relating to Irrigation in Bengal*](/view.html?p=documents/books/bengal-1861-irrigation-papers.md) | 1861 | Irrigation argued as public health and famine policy |
+| Elwood Mead | [*Rise and Future of Irrigation in the United States*](/view.html?p=documents/books/mead-1899-rise-future-irrigation-united-states.md) | 1899 | The American irrigation movement and the arid West |
+| Arthur Cotton | *Reports on the irrigation works of the Godavari, Krishna and other Indian rivers* | 1850s–70s | The Indian irrigation engineer's reports (no scan verified) |
+
+## Ars Cartographica
+
+> The map as a technical product — projection theory, the trigonometrical survey, the instruments, the national survey, and the papers that made projection a mathematical subject.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Thomas Craig | [*A Treatise on Projections*](/view.html?p=documents/books/craig-1882-treatise-on-projections.md) | 1882 | The map projections derived as mathematics |
+| T. P. White | [*The Ordnance Survey of the United Kingdom*](/view.html?p=documents/books/white-1886-ordnance-survey-united-kingdom.md) | 1886 | The national survey as a technical system — triangulation to engraved sheet |
+| E. C. Frome | [*Outline of the Method of Conducting a Trigonometrical Survey*](/view.html?p=documents/books/frome-1873-trigonometrical-survey.md) | 1873 | The survey from base to map — triangulation, instruments and plotting |
+| I. O. Baker | [*Engineers' Surveying Instruments*](/view.html?p=documents/books/baker-1892-engineers-surveying-instruments.md) | 1892 | The theodolite, level and plane table described and adjusted |
+| Leonhard Euler | [*Drei Abhandlungen über Kartenprojection*](/view.html?p=documents/books/euler-1898-drei-abhandlungen-kartenprojection.md) | 1775–77 (ed. 1898) | The conformal projection analysed as a mathematical problem |
+| W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument (cross-listed from Telluris) |
+| William Smith | [*A Memoir to the Map and Delineation of the Strata*](/view.html?p=documents/books/smith-1815-memoir-to-the-map.md) | 1815 | Stratigraphy invented as a mapping science (cross-listed from Telluris) |
+
 ## References
 
 - [Science History Institute — Muspratt, vol. I](https://digital.sciencehistory.org/works/g00ak0n)
