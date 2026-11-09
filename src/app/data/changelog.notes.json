@@ -81130,7 +81130,9 @@
       {
         "date": "2026-11-08",
         "kind": "style",
-        "summary": "Flatten the guide to a single heading level: the Ars Cibaria, Ars Acustica (renamed from Sonora) and Ars Telluris sub-tables merge into one table each, duplicate outline rows (Ure, Clarke) collapsing to single composite rows with their merged domains in the domain cell, branch prose kept as paragraphs beneath the tables. Ars Mecanica corrected to Ars Mechanica. All 110 work links preserved; the coverage matrix, collections and the four-category distinction stay at section level."
+        "summary": "Flatten the guide to a single heading level: the Ars Cibaria, Ars Acustica (renamed from Sonora) and Ars Telluris sub-tables merge into one table each, duplicate outline rows (Ure, Clarke) collapsing to single composite rows with their merged domains in the domain cell, branch prose kept as paragraphs beneath the tables. Ars Mecanica corrected to Ars Mechanica. All 110 work links preserved; the coverage matrix, collections and the four-category distinction stay at section level.",
+        "commit": "b6a3fdcdde2c3fc04debc988b3cb0e4ddce7b3ec",
+        "before": "36a81e742657280d231ce94d0140359c1bc8faa1"
       }
     ]
   }
