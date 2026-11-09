@@ -81158,7 +81158,9 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Complete the inventory-check round: twenty-three new rows in eight Ars sections - Whitworth and the Maudslay prose note in Mechanica; Fresenius qualitative and Lunge (Soda row merged) in Chimica; Kunhardt in Metallica; Muller, Mahan and the Woolwich-prose fortification rows plus Latham in Civilis; Noad, both Preece titles (Telegraphy enters under its verified 1876 title, the Telephone with Maier) and Prescott speaking-telephone in Electrica; Robert Smith opticks, the BAAS resistance report with its Whitworth attribution corrected, Gurley, Erichsen, and the horology pair Reid and Britten in Instrumentalis; Joule in Energia; Norie and Bowditch plus the Navy prose in Navalis; and a new Ars Photographia section carrying Talbot with the 1839 Phil. Trans. disclosure scanned and Le Gray honest no-scan, with Talbot patents as prose. 218 links, all resolving; the guide stands at fifteen Ars sections."
+        "summary": "Complete the inventory-check round: twenty-three new rows in eight Ars sections - Whitworth and the Maudslay prose note in Mechanica; Fresenius qualitative and Lunge (Soda row merged) in Chimica; Kunhardt in Metallica; Muller, Mahan and the Woolwich-prose fortification rows plus Latham in Civilis; Noad, both Preece titles (Telegraphy enters under its verified 1876 title, the Telephone with Maier) and Prescott speaking-telephone in Electrica; Robert Smith opticks, the BAAS resistance report with its Whitworth attribution corrected, Gurley, Erichsen, and the horology pair Reid and Britten in Instrumentalis; Joule in Energia; Norie and Bowditch plus the Navy prose in Navalis; and a new Ars Photographia section carrying Talbot with the 1839 Phil. Trans. disclosure scanned and Le Gray honest no-scan, with Talbot patents as prose. 218 links, all resolving; the guide stands at fifteen Ars sections.",
+        "commit": "c99530b847435f6dd5fe0d51ec325fb197318687",
+        "before": "cafa46d32c1b7e608327fc86a7181522669ad129"
       }
     ]
   }
