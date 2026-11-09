@@ -81194,6 +81194,11 @@
         "summary": "The architecture round: a sixteenth Ars section, Ars Architectura, opens with Gwilt’s and Cresy’s encyclopædias, the merged Thames-Tunnel company documents (1829 Sketches scanned) and the Waygood lift guide (honest no-scan, cross-note to the held Robinson plant volume); the Factory Inspectors reports stay prose within Manufactura. Seventeen more rows: the military trio (Mahan permanent, Mercur attack, Douglas founding essay honest no-scan) and the dredging four (Sigsbee scanned; Boswell, Kuhl, Webster honest) and the submarine trio (Bright, Wilkinson, Fahie) and the office pair (Remington manual, catalogue honest) and Hiles’s Ice Crop join their sections. 321 links, all resolving; one Gamey-typo repaired before commit.",
         "commit": "98c1d0552e82ab1c8b84e12e11541d9467f85638",
         "before": "448397333616524c61adcc332e1b146a4eefa5c4"
+      },
+      {
+        "date": "2026-11-08",
+        "kind": "style",
+        "summary": "Structure repair: every Ars section rebuilds as one intact table with its intro before and nothing but section content after - the outline-meta commentary paragraphs (Maudslay, RA-Society, Woolwich, Whitworth/Evans, Nasmith, stereotyping, Penny Magazine, Admiralty, Talbot patents, Factory Inspectors, Whewell/Hopkins) are removed from the guide entirely; the mid-table broken Barlow row is restored to a single row; front matter, title and lead re-joined after a repair loss; table row counts identical in every section to the previous commit; 322 links all resolving."
       }
     ]
   }
