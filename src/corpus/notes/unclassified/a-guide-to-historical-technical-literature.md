@@ -497,6 +497,31 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | Robert Boyle | *New Experiments Physico-Mechanicall, Touching the Spring of the Air* | 1660 | The air pump experiments described (no scan verified) |
 | Gemma Frisius | *Libellus de Locorum Describendorum Ratione* | 1533 | Triangulation invented for survey and map (no scan verified) |
 
+## Ars Cerea
+
+> Candles, fats and illumination — the candle and soap trades from the tallow chandler through Chevreul and the stearine industry.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Michel-Eugène Chevreul | [*Recherches Chimiques sur les Corps Gras d'Origine Animale*](/view.html?p=documents/books/chevreul-1823-corps-gras.md) | 1823 | The chemical decomposition of fats — the founding of stearin and soap |
+| Campbell Morfit | [*A Treatise on Chemistry Applied to the Manufacture of Soap and Candles*](/view.html?p=documents/books/morfit-1847-chemistry-soap-candles.md) | 1847 | The chemistry and manufacture set as trade books |
+| C. R. Alder Wright | [*Animal and Vegetable Fixed Oils, Fats, Butters, and Waxes*](/view.html?p=documents/books/alder-wright-1894-oils-fats-waxes.md) | 1894 | The industrial chemistry of the oil and fat trades |
+| Henri-Louis Duhamel du Monceau | *Art du Chandelier; and Art du Cirier* | 1762–64 | The tallow and wax candle trades in the Arts et Métiers tradition (no scan verified) |
+| George Fergusson Wilson (Price's Patent Candle Co.) | *On the Stearic Candle Manufacture* | 1852 | The steam-distilled stearine candle industry at the works (no scan verified) |
+| R. S. Cristiani | *A Technical Treatise on Soap and Candles* | 1881 | The American soap-and-candle trade treatise (no scan verified) |
+| Michael Faraday | *The Chemical History of a Candle* | 1861 | The candle combustion chemistry told to the young (cross-listed from Chimica) |
+
+## Ars Tonaria
+
+> Cooperage and casks — the barrel worked from the stave, gauged for the trade and computed by Kepler and the excise.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Johannes Kepler | [*Nova Stereometria Doliorum Vinariorum*](/view.html?p=documents/books/kepler-1615-nova-stereometria.md) | 1615 | The barrel volumes computed — founding stereotomy of the wine trade |
+| Auguste-Denis Fougeroux de Bondaroy | [*Art du Tonnelier*](/view.html?p=documents/books/fougeroux-1763-art-du-tonnelier.md) | 1763 | The cooperage trade plates-gathered in the Arts et Métiers tradition |
+| Charles Leadbetter | [*The Royal Gauger; or, Gauging Made Perfectly Easy*](/view.html?p=documents/books/leadbetter-1739-royal-gauger.md) | 1739 | The excise gauging trade set in English practice |
+| Paulin Désormeaux & H. Ott | *Nouveau Manuel Complet du Tonnelier et du Jaugeage* | 1838 (ed. 1875) | The Roret cooperage and gauging manual (no scan verified) |
+
 ## Ars Manufactura
 
 > The factory as a technological production system — machinery, workers, processes, power and industrial organization. The textile, printing and paper trades have their own sections beside it.
@@ -831,6 +856,21 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | G. G. Stokes | [*Mathematical and Physical Papers*](/view.html?p=documents/books/stokes-1880-mathematical-physical-papers.md) | 1880–83 | The wave theory and the acoustic papers collected |
 | G. R. Kirchhoff | [*Vorlesungen über Mathematische Physik: Mechanik*](/view.html?p=documents/books/kirchhoff-1876-vorlesungen-mechanik.md) | 1876 | The mechanics of continua — strings, rods and the propagation of sound |
 
+## Ars Campanaria
+
+> Bells and their founding — the acoustics, the casting and the tuning of the bell trade, placed beside the acoustic sciences of Ars Acustica.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Marin Mersenne | [*Harmonie Universelle*](/view.html?p=documents/books/mersenne-1636-harmonie-universelle.md) | 1636 | The acoustical, bell-string-pipe brought to a treatise |
+| Alfred Gatty | [*The Bell: Its Origin, History, and Uses*](/view.html?p=documents/books/gatty-1848-the-bell.md) | 1848 | The bell trade, texts and building practices of the English tradition |
+| Edmund Beckett Denison (Lord Grimthorpe) | [*A Rudimentary Treatise on Clocks, Watches, and Bells*](/view.html?p=documents/books/denison-1850-clocks-watches-bells.md) | 1850 | The clock and bell trade instruments, designed as a British trade |
+| Vannoccio Biringuccio (De la Pirotechnia, Book VI) | *On the casting of bells* | 1540 | The bell founding from the loam core and false bell (cross-listed from Metallica) |
+| Jones & Co. (Troy, N.Y.) | *Bell founders' illustrated trade catalogue* | 1870 | The American bell foundry trade catalogue |
+| H. T. Ellacombe | *Practical Remarks on Belfries and Ringers* | 1859–72 | The bell-hanging and chiming trade described by the Devon rector (no scan verified) |
+| Arthur B. Simpson (authorized by John Taylor & Co.) | *On Bell Tones and the five-tone harmonic tuning* | 1895–96 | The Loughborough harmonic tuning of bells (no scan verified) |
+| Mears & Stainbank (Whitechapel) / John Warner & Sons | *Bell founders' illustrated catalogues* | 1880s–90s | The London bell foundry catalogue trade (no scan verified) |
+
 ## Ars Telluris
 
 > Instruments and techniques for measuring the physical properties of the Earth — from seismometry and geomagnetism through geodesy, meteorological instruments, geological surveying and hydrography.
@@ -951,6 +991,19 @@ The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawren
 | George & Robert Stephenson | *Letters, notebooks and locomotive drawings* | 1820s–30s | The locomotive's development from the Stephensons' own papers (no scan verified) |
 | George Westinghouse | *Compressed-air brake patents* | 1869 / 1872 | The fail-safe continuous air brake of the train (no scan verified) |
 | Douglas Galton | *On the Effect of Brakes upon Railway Trains* | 1878–79 | The wheel-rail friction of the brake measured (no scan verified) |
+
+## Ars Funalis
+
+> Cordage, rope and wire rope — the rigging trades from hemp to the stranded steel cable, placed beside the naval architecture they served.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Henri-Louis Duhamel du Monceau | [*Traité de la Fabrique des Manœuvres*](/view.html?p=documents/books/duhamel-1747-fabrique-des-manoeuvres.md) | 1747 | The cordage trade from hemp field to naval cable tested |
+| Robert Chapman | [*A Treatise on Ropemaking*](/view.html?p=documents/books/chapman-1868-treatise-ropemaking.md) | 1868 | The ropewalk trade — rules, weights and strengths set down |
+| J. Bucknall Smith | [*A Treatise upon Cable or Rope Traction*](/view.html?p=documents/books/bucknall-smith-1887-cable-rope-traction.md) | 1887 | Wire-rope traction — from the cable tramway to the street railway |
+| Wilhelm August Julius Albert | *Über die Anfertigung und den Gebrauch der eisernen Drahtseile* | 1835 | The stranded iron wire rope invented at the Harz mines (no scan verified) |
+| Joseph Huddart & William Chapman | *Cordage-laying machine patents and papers* | 1793–1808 | The register plate and the machine-laid cable (no scan verified) |
+| John A. Roebling | *Wire-rope patents and papers* | 1842–46 | The American wire rope spun for the suspension bridge and ropeway (no scan verified) |
 
 ## Ars Navalis
 

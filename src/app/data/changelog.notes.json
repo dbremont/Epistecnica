@@ -81397,6 +81397,11 @@
         "summary": "Add Ars Bellica (Baker 1804, Colt 1855, Busk 1859, Greener 1881, Norton 1880 entry rows; Whitworth & Wallis cross-list; honest rows for Greener 1835, Delvigne/Minié, Wilcox, the 1827 Harper's Ferry board report, Maxim, and the 1855 Enfield Commission) and Ars Lignaria (Roubo 1769–75, Chippendale 1754, Sheraton 1791–94, Bale 1880/1883, Richards 1872; honest rows for Hepplewhite, Nicholson's carpentry guides, the cabinet-makers' price books, Bentham, Blanchard, Worssam; Moxon and Tredgold cross-listed).",
         "commit": "38eeb82bd05dc63987006a5313590269de129190",
         "before": "9b9e1e6dbfaa7e5c816e8f255f05a205231a5184"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add four new sections: Ars Funalis (Duhamel du Monceau 1747, Chapman 1868, Bucknall Smith 1887; Albert, Huddart/Chapman and Roebling as honest rows); Ars Cerea (Chevreul 1823, Morfit 1847/56, Alder Wright 1894; Duhamel chandelier, Wilson stearine, Cristiani rows and Faraday cross-list); Ars Tonaria (Kepler 1615, Fougeroux 1763, Leadbetter 1739; the Roret tonnelier manual row); Ars Campanaria (Mersenne 1636, Gatty 1848, Denison 1850; Biringuccio cross-list, the Jones, Ellacombe, Simpson and Whitechapel rows)."
       }
     ]
   }

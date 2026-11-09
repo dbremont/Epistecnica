@@ -36737,5 +36737,125 @@
         "commit": "38eeb82bd05dc63987006a5313590269de129190"
       }
     ]
+  },
+  {
+    "file_path": "books/duhamel-1747-fabrique-des-manoeuvres.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Duhamel du Monceau, Traité de la fabrique des manœuvres (1747) — the cordage technology; 1747 and 1769 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chapman-1868-treatise-ropemaking.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Chapman, A Treatise on Ropemaking (1868) — the Victorian ropewalk; 1868 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bucknall-smith-1887-cable-rope-traction.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bucknall Smith, Cable or Rope Traction (1887) — the wire-rope traction trade; 1887 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chevreul-1823-corps-gras.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Chevreul, Recherches sur les corps gras (1823) — the chemistry of fats; 1823 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/morfit-1847-chemistry-soap-candles.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Morfit, Chemistry Applied to Soap and Candles (1847) — the systematic soap-candle trade; 1847–1856 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/alder-wright-1894-oils-fats-waxes.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Alder Wright, Animal and Vegetable Fixed Oils (1894) — the modern trade chemistry; 1894 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kepler-1615-nova-stereometria.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Kepler, Nova Stereometria Doliorum (1615) — the barrel and its gauger; 1615 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/fougeroux-1763-art-du-tonnelier.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Fougeroux de Bondaroy, Art du Tonnelier (1763) — the French barrel trade manuals; 1763 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/leadbetter-1739-royal-gauger.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Leadbetter, The Royal Gauger (1739) — the excise cask trade; 1739/1750 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mersenne-1636-harmonie-universelle.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mersenne, Harmonie universelle (1636) — the acoustics trade; 1636 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gatty-1848-the-bell.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Gatty, The Bell (1848) — the English bell trade treatise; 1848 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/denison-1850-clocks-watches-bells.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Denison, A Rudimentary Treatise on Clocks, Watches and Bells (1850) — the standard reference of the trade; 1874 edition scan."
+      }
+    ]
   }
 ]
