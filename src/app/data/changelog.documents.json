@@ -29903,5 +29903,115 @@
         "commit": "cf29665f2bfd7c66111755b5962b3c6758971fdb"
       }
     ]
+  },
+  {
+    "file_path": "books/koenig-1882-quelques-experiences.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Koenig, Quelques experiences d'acoustique (Paris, 1882); honest no-scan note, the maker's catalogues scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/koenig-1889-catalogue-of-acoustic-instruments.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Koenig's Catalogue des appareils d'acoustique (1889, with the 1865 first) - the acoustic-instrument trade's own catalogue genre."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kundt-1866-acoustic-dust-figures.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Kundt, acoustic dust-figures paper (1866, Annalen der Physik, @article); honest no-scan note, the tube-method record."
+      }
+    ]
+  },
+  {
+    "file_path": "books/gauss-1832-intensitas-vis-magneticae.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Gauss, Intensitas vis magneticae terrestris (1832, @article) - absolute measurement of magnetic intensity; Göttingen and Phil. Trans. scans, cross-linked to Sabine."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lamont-1849-handbuch-des-erdmagnetismus.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lamont, Handbuch des Erdmagnetismus (1849); honest no-scan note with the 1867 related Handbuch des Magnetismus and 1858 Untersuchungen scans linked."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lyell-1830-principles-of-geology.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Lyell, Principles of geology (1830-33, 3 vols); early and 1875 scans, the geological branch - great theoretical reference."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mcadam-1820-remarks-road-making.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add McAdam, Remarks on the present system of road making (1820); 1821-23 edition scans. Opens the new Ars Transportaria branch with Wood and Webb."
+      }
+    ]
+  },
+  {
+    "file_path": "books/wood-1825-practical-treatise-rail-roads.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Wood, A practical treatise on rail-roads (1825) in the Stockton-and-Darlington year; 1825 and 1838 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/webb-1900-railroad-construction.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Webb, Railroad construction: theory and practice (1900) - the boundary-volume engineering-science close of the transport branch; 1900 and 1913 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chapman-1768-architectura-navalis.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Chapman, Architectura navalis mercatoria (1768); honest no-scan of the original plates (1971 facsimile linked) with the 1781 French treatise translation scanned."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chapman-1820-treatise-on-ship-building.md",
+    "logs": [
+      {
+        "date": "2026-11-08",
+        "kind": "feat",
+        "summary": "Add Chapman, A treatise on ship-building (1820-traktat-era, honest no-scan) with the 1781 French translation scan; bibtex brace-guard repaired."
+      }
+    ]
   }
 ]
