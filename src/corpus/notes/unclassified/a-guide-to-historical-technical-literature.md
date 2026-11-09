@@ -20,6 +20,7 @@ qa:
 | Fausto Veranzio | [*Machinae Novae*](/view.html?p=documents/books/veranzio-1615-machinae-novae.md) | 1615–16 | Mechanical inventions |
 | Georg A. Böckler | [*Theatrum Machinarum Novum*](/view.html?p=documents/books/bockler-1661-theatrum-machinarum-novum.md) | 1661 | Machinery and mechanisms |
 | Bernard Forest de Bélidor | [*Architecture Hydraulique*](/view.html?p=documents/books/belidor-1737-architecture-hydraulique.md) | 1737–53 | Hydraulic machinery |
+| B. F. de Bélidor | [*La Science des Ingénieurs*](/view.html?p=documents/books/belidor-1729-science-des-ingenieurs.md) | 1729 | The engineer's arithmetic codified before the corps schools |
 | Denis Diderot & Jean le Rond d'Alembert | [*Encyclopédie: Recueil de planches*](/view.html?p=documents/books/diderot-1772-encyclopedie-planches.md) | 1762–72 | Mechanical arts and manufacturing |
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Manufacturing systems and production organization |
 | William J. M. Rankine | [*A Manual of Machinery and Millwork*](/view.html?p=documents/books/rankine-1869-manual-of-machinery-and-millwork.md) | 1869 | Machine construction |
@@ -44,6 +45,7 @@ qa:
 | John Harrison | [*A Manual of the Remington Standard Type-Writer*](/view.html?p=documents/books/harrison-1890-remington-type-writer-manual.md) | 1890 | Office machinery instruction |
 | Office and Library Co. | [*Modern Office Devices*](/view.html?p=documents/books/officelibrary-1898-modern-office-devices.md) | 1898 | The office-machinery catalogue (honest no-scan) |
 | Agostino Ramelli | [*Le Diverse et Artificiose Machine*](/view.html?p=documents/books/ramelli-1588-diverse-machine.md) | 1588 | The founding printed machine-book |
+| Salomon de Caus | [*Les Raisons des Forces Mouvantes*](/view.html?p=documents/books/decaus-1615-raisons-des-forces-mouvantes.md) | 1615 | The physics of motion applied — the machine book at its theoretical hinge |
 | Vittorio Zonca | [*Novo Teatro di Machine*](/view.html?p=documents/books/zonca-1607-novo-teatro.md) | 1607 | The Padua machine theatre after Ramelli |
 | J. T. Desaguliers | [*Mathematical Elements of Natural Philosophy*](/view.html?p=documents/books/desaguliers-1726-mathematical-elements-natural-philosophy-confir.md) | 1726 | Experimental philosophy taught through machines |
 | Leonhard Euler | [*Mechanica sive Motus Scientia Analytice Exposita*](/view.html?p=documents/books/euler-1736-mechanica-sive-motus-scientia-analytice.md) | 1736 | Analytical mechanics — the machine’s motion mathematized |
@@ -60,6 +62,16 @@ qa:
 | Robertson Buchanan | [*Practical Essays on Mill Work and Other Machinery*](/view.html?p=documents/books/buchanan-1823-practical-essays-mill-work.md) | 1823 | Mill work calculated — water wheel, gearing, shafts and stones |
 | Samuel Smiles | [*Industrial Biography: Iron-Workers and Tool-Makers*](/view.html?p=documents/books/smiles-1864-industrial-biography.md) | 1864 | The machine-tool founders told from within the trade — Maudslay, Bramah, Nasmyth |
 | Henry Maudslay | *Machine-tool drawings, workshop papers and the screw-cutting lathe* | c. 1800–1830 | The machine-tool shop as a documented practice (no scan verified) |
+| Karl Karmarsch | [*Handbuch der Mechanischen Technologie*](/view.html?p=documents/books/karmarsch-1837-handbuch-mechanischen-technologie.md) | 1837 | Mechanical technology gathered as a German teaching subject |
+| Akademischer Verein Hütte | [*Des Ingenieurs Taschenbuch*](/view.html?p=documents/books/hutte-1857-des-ingenieurs-taschenbuch.md) | 1857 | The German engineering desk-book of the century |
+| D. K. Clark | [*A Manual of Rules, Tables, and Data for Mechanical Engineers*](/view.html?p=documents/books/clark-1889-manual-rules-tables-data.md) | 1889 | The mechanical data the British desk computed from |
+| Edward H. Knight | [*Knight's American Mechanical Dictionary*](/view.html?p=documents/books/knight-1874-american-mechanical-dictionary.md) | 1874–76 | The machine economy described and drawn — the widest illustrated record of the 1870s |
+| Park Benjamin (ed.) | [*Appletons' Cyclopaedia of Applied Mechanics*](/view.html?p=documents/books/appletons-1880-cyclopaedia-applied-mechanics.md) | 1880 | The American applied mechanics of the 1880s in two volumes |
+| William Cawthorne Unwin | [*The Elements of Machine Design*](/view.html?p=documents/books/unwin-1877-elements-machine-design.md) | 1877 | Machine design taught as a course for the English tradition |
+| William Kent | [*The Mechanical Engineer's Pocket-Book*](/view.html?p=documents/books/kent-1895-mechanical-engineers-pocket-book.md) | 1895 | The ASME-era pocket-book of the American mechanical engineer |
+| Jacques Besson | *Theatre des Instruments Mathematiques et Mechaniques* | 1578 | The sixteenth-century lathe and instrument theatre — the code of the engraved machine book (no scan verified) |
+| Giovanni Branca | *Le Machine, Diverse et Maravigliose Arti di Mano* | 1629 | The steam-wheel sketch and the marvellous machine book of the Roman tradition (no scan verified) |
+| Ernest Spon (ed.) | *Spon's Dictionary of Engineering, Civil, Mechanical, Military, and Naval* | 1869–74 | The Victorian engineering encyclopedia in eight volumes (no scan verified) |
 
 ## Ars Chimica
 
@@ -238,6 +250,12 @@ qa:
 | J. R. Perronet | [*Description des Projets et de la Construction des Ponts*](/view.html?p=documents/books/perronet-1783-ponts-de-neuilly.md) | 1783 | The masonry bridge described by its engineer — centering, stone and cost |
 | Sir John Rennie | [*Autobiography*](/view.html?p=documents/books/rennie-1875-autobiography.md) | 1875 | London Bridge, Waterloo Bridge and the docks — the engineer's own works |
 | William Jessop | [*Report on the Proposed Line of Navigation between Newcastle and Maryport*](/view.html?p=documents/books/jessop-1795-navigation-report.md) | 1795 | The canal surveyed and costed — the engineer's public report |
+| Abraham Rees | [*The Cyclopaedia; or, Universal Dictionary of Arts, Sciences, and Literature*](/view.html?p=documents/books/rees-1802-cyclopaedia-arts-sciences.md) | 1802–20 | The English encyclopedia of the manufacturing arts with Farey's plates |
+| Charles H. Haswell | [*Engineers' and Mechanics' Pocket-Book*](/view.html?p=documents/books/haswell-1844-engineers-mechanics-pocket-book.md) | 1844 | The first standard American engineering pocket-book |
+| John W. Nystrom | [*A Pocket-Book of Mechanics and Engineering*](/view.html?p=documents/books/nystrom-1854-pocket-book-mechanics-engineering.md) | 1854 | The Philadelphia machinist-engineer's pocket-book of tables and rules |
+| Guilford L. Molesworth | [*Pocket-Book of Useful Formulae and Memoranda*](/view.html?p=documents/books/molesworth-1862-pocket-book-formulae.md) | 1862 | The British engineer's pocket-book — the Trautwine counterpart |
+| Joseph Claudel | [*Aide-Mémoire des Ingénieurs; Formules, Tables et Renseignements*](/view.html?p=documents/books/claudel-1845-aide-memoire-ingenieurs.md) | 1845 | The French engineer aide-mémoire of the industrial trades |
+| H. R. Kempe | *The Engineer's Year-Book of Formulae, Rules, Tables, Data, and Memoranda* | 1894– | The annual British engineering desk-book (no scan verified) |
 
 ## Ars Structura
 
@@ -277,6 +295,30 @@ qa:
 | Osborne Reynolds | *On the Experimental Investigation of the Circumstances which Determine whether the Motion of Water shall be Direct or Sinuous* | 1883 | Laminar flow set against turbulent — the Reynolds number begun (no scan verified) |
 | William Harvey Birkmire | [*Skeleton Construction in Buildings*](/view.html?p=documents/books/birkmire-1893-skeleton-construction.md) | 1893 | The steel skeleton framed — skyscraper construction |
 | Paul Christophe | *Le Beton Arme et ses Applications* | 1899 | Reinforced concrete gathered as a construction science (no scan verified) |
+| Evangelista Torricelli | [*Opera Geometrica*](/view.html?p=documents/books/torricelli-1644-opera-geometrica.md) | 1644 | The founding law of the orifice and the hydraulic head |
+| Edme Mariotte | [*Traité du Mouvement des Eaux; with the Strength of Timber*](/view.html?p=documents/books/mariotte-1686-mouvement-des-eaux.md) | 1686 | Experimental resistance of water and the neutral axis founded |
+| Leonhard Euler | [*Methodus Inveniendi Lineas Curvas; De Curvis Elasticis*](/view.html?p=documents/books/euler-1744-methodus-inveniendi.md) | 1744 | The elastica founded and the buckling of columns derived |
+| Giovanni Battista Venturi | [*Recherches sur la Communication Laterale du Mouvement dans les Fluides*](/view.html?p=documents/books/venturi-1797-communication-laterale.md) | 1797 | The Venturi effect measured — constriction and the fall of pressure |
+| James Clerk Maxwell | [*On the Calculation of the Equilibrium and Stiffness of Frames*](/view.html?p=documents/books/maxwell-1890-scientific-papers-frames.md) | 1864 | Frame determinacy and the reciprocal diagram — the founding theory |
+| Mansfield Merriman | [*Text-Book on the Mechanics of Materials; and Treatise on Hydraulics*](/view.html?p=documents/books/merriman-1885-mechanics-materials-hydraulics.md) | 1885 | The American teaching texts of materials and hydraulics |
+| Ganguillet & Kutter | [*A General Formula for the Uniform Flow of Water*](/view.html?p=documents/books/ganguillet-kutter-1889-general-formula.md) | 1869 | The Kutter formula — one general friction law for channels |
+| William H. Burr | [*The Elasticity and Resistance of the Materials of Engineering*](/view.html?p=documents/books/burr-1883-elasticity-resistance-materials.md) | 1883 | The working formulae of the American engineering materials |
+| Joseph Valentin Boussinesq | [*Application des Potentiels a l'Etude de l'Equilibre des Solides Elastiques*](/view.html?p=documents/books/boussinesq-1885-application-des-potentiels.md) | 1885 | The elastic half-space founded — the theory of settlement under loads |
+| J. B. Johnson, C. W. Bryan & F. E. Turneaure | [*The Theory and Practice of Modern Framed Structures*](/view.html?p=documents/books/johnson-1893-framed-structures.md) | 1893 | The American structural reference of the steel age |
+| J. B. Johnson | [*The Materials of Construction*](/view.html?p=documents/books/johnson-1897-materials-of-construction.md) | 1897 | The wide American reference of material strength and testing |
+| Adolf Martens | [*Handbook of Testing Materials*](/view.html?p=documents/books/martens-1898-handbook-testing-materials.md) | 1898 | The state testing house given its handbook |
+| Henri Pitot | *Description d'une Machine pour Mesurer la Vitesse des Eaux Courantes* | 1732 | The Pitot tube — local flow speed measured (no scan verified) |
+| Antoine de Chézy | *Memoire sur la Vitesse de l Eau conduite dans une Rigole donnee* | 1775 | The Chézy open-channel flow formula laid down (no scan verified) |
+| A. Cauchy | *Exercices de Mathématiques; the theory of stress* | 1827–28 | The stress tensor and the continuum of elasticity stated (no scan verified) |
+| Jean-Victor Poncelet | *Mémoire sur la Stabilité des Revêtements et de leurs Fondations* | 1840 | Earth pressure pressed onto the retaining wall and its foundation (no scan verified) |
+| Alexandre Collin | *Recherches Experimentales sur les Glissements Spontanes des Terrains Argileux* | 1846 | Clay landslides surveyed in field and shear box (no scan verified) |
+| Gabriel Lamé | *La Théorie Mathématique de l Élasticité des Corps Solides* | 1852 | Elasticity taught to the corps — the French analysis of stress (no scan verified) |
+| Émile Clapeyron | *Calcul d une Poutre Élastique reposant librement sur des appuis inégalement espacés* | 1857 | The three-moment theorem for continuous multi-span bridges (no scan verified) |
+| Emil Winkler | *Die Lehre von der Elasticität und Festigkeit* | 1867 | The elastic foundation and the influence line of the moving load (no scan verified) |
+| Otto Mohr | *Abhandlungen aus dem Gebiete der Technischen Mechanik* | 1868–82 | The moment diagram and the strain circle of the truss (no scan verified) |
+| Heinrich Müller-Breslau | *Die Graphische Statik der Baukonstruktionen* | 1887 | The influence-line synthesis of structural analysis (no scan verified) |
+| Robert Manning | *On the Flow of Water in Open Channels and Pipes* | 1890 | The Manning roughness formula of the channel and pipe (no scan verified) |
+| Convention du Mètre | *The international metre and the standard kilogram* | 1875 | The international metrology of 1875 agreed among the nations (no scan verified) |
 
 ## Ars Militaris
 
@@ -297,6 +339,7 @@ qa:
 | E. S. Ernst | [*A Manual of Practical Military Engineering*](/view.html?p=documents/books/ernst-1873-practical-military-engineering.md) | 1873 | Roads, road-beds and field works — the West Point manual |
 | Royal Military Academy, Woolwich | [*Treatises on Mechanical Drawing, Arms and Permanent Fortification*](/view.html?p=documents/books/woolwich-1847-treatises.md) | 1847 | The Woolwich course in one volume |
 | J. A. Dahlgren | [*Shells and Shell-Guns*](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md) | 1856 | Ordnance, shells and the gun-foundry’s arithmetic |
+| Sébastien Le Prestre de Vauban | [*Traité de l'Attaque et de la Défense des Places*](/view.html?p=documents/books/vauban-1737-attaque-defense-places.md) | 1737 | The founding method of the siege and the fortress defence |
 
 ## Ars Electrica
 

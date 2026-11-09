@@ -35901,5 +35901,275 @@
         "commit": "72b3a38bde702be4be2e34222128c5c9c77e5cb7"
       }
     ]
+  },
+  {
+    "file_path": "books/decaus-1615-raisons-des-forces-mouvantes.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Salomon de Caus, Les Raisons des forces mouvantes (1615) — the machine book at its theoretical hinge; 1615 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/belidor-1729-science-des-ingenieurs.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bélidor, La Science des ingénieurs (1729) — the founding French engineering textbook; 1754 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/vauban-1737-attaque-defense-places.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Vauban, Traité de l'attaque et de la défense des places (1737) — siegecraft founded; 1742 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rees-1802-cyclopaedia-arts-sciences.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rees, The Cyclopaedia (1802–20) — the English technical encyclopedia; volume scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/karmarsch-1837-handbuch-mechanischen-technologie.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Karmarsch, Handbuch der mechanischen Technologie (1837) — German systematic technology; 1875 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/haswell-1844-engineers-mechanics-pocket-book.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Haswell, Engineers' and Mechanics' Pocket-Book (1844) — the first American pocket-book; 1844 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/nystrom-1854-pocket-book-mechanics-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Nystrom, A Pocket-Book of Mechanics and Engineering (1854) — the Philadelphia pocket-book; 1856 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/hutte-1857-des-ingenieurs-taschenbuch.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Hütte, Des Ingenieurs Taschenbuch (1857) — the German desk-book tradition; 1857 first-edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/molesworth-1862-pocket-book-formulae.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Molesworth, Pocket-Book of Useful Formulae (1862) — the British desk-book; 1886 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/claudel-1845-aide-memoire-ingenieurs.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Claudel, Aide-Mémoire des Ingénieurs (1845) — the French desk tradition; 1877 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/clark-1889-manual-rules-tables-data.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Clark, Manual of Rules, Tables, and Data (1889) — the British mechanical reference; 1889 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/knight-1874-american-mechanical-dictionary.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Knight, Knight's American Mechanical Dictionary (1874–76) — the illustrated machine record; volume scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/appletons-1880-cyclopaedia-applied-mechanics.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Appletons' cyclopaedia of applied mechanics (1880) — the American reference; 1895 edition scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/unwin-1877-elements-machine-design.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Unwin, The Elements of Machine Design (1877) — the English machine-design course; 1878 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/kent-1895-mechanical-engineers-pocket-book.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Kent, The Mechanical Engineer's Pocket-Book (1895) — the ASME-era desk reference; 1901 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/torricelli-1644-opera-geometrica.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Torricelli, Opera geometrica (1644) — the orifice law founded; 1644 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/mariotte-1686-mouvement-des-eaux.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Mariotte, Traité du mouvement des eaux (1686) — experimental hydraulics and the neutral axis; 1700 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/euler-1744-methodus-inveniendi.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Euler, Methodus inveniendi (1744) with the column paper (1757) — the elastica and the buckling formula; 1744 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/venturi-1797-communication-laterale.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Venturi, Recherches sur la communication laterale (1797) — the Venturi effect; 1797 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/maxwell-1890-scientific-papers-frames.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Maxwell, The Scientific Papers (1890) — the 1864 frames paper; 1890 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/merriman-1885-mechanics-materials-hydraulics.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Merriman, Text-Book on the Mechanics of Materials (1885) with the Hydraulics (1889) — American teaching texts; 1895 and 1889 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/ganguillet-kutter-1889-general-formula.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Ganguillet & Kutter, A General Formula (1869; 1889 trans.) — the Kutter formula; 1889 translation scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/burr-1883-elasticity-resistance-materials.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Burr, The Elasticity and Resistance of the Materials of Engineering (1883) — the American materials reference; 1883 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/boussinesq-1885-application-des-potentiels.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Boussinesq, Application des potentiels (1885) — the elastic half-space; 1885 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/johnson-1893-framed-structures.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Johnson, Bryan and Turneaure, Modern Framed Structures (1893) — the American structural reference; 1893 microform scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/johnson-1897-materials-of-construction.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Johnson, The Materials of Construction (1897) — the American materials treatise; 1898 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/martens-1898-handbook-testing-materials.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Martens, Handbook of Testing Materials (1898) — the state testing house standard; 1899 translation scan."
+      }
+    ]
   }
 ]

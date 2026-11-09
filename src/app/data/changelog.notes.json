@@ -81355,6 +81355,11 @@
         "summary": "Add a new Ars Structura section — the engineering science beneath Ars Civilis — with 20 verified entries and 12 honest no-scan rows (32 rows): Frontinus (Herschel 1899 translation), Galileo 1638 Discorsi, Guglielmini 1697, Bernoulli 1738, Poinsot 1803, de Prony 1804, Vicat 1818, Poncelet 1845, Fourneyron 1840, Chadwick 1842, Weisbach 1851, Whipple 1847, Haupt 1851, Darcy 1856 Dijon, Darcy & Bazin 1865, Coignet 1861, Culmann 1866, Cremona 1872, Castigliano 1879 (1886 German trans.), Birkmire 1893; and the no-scan record of Castelli, Coulomb 1773, du Buat, Aspdin 1824, Coriolis, Saint-Venant, Wohler fatigue, Hyatt 1877, Drinker tunnelling, Pelton, Reynolds 1883 and Christophe 1899. Every archive identifier resolved and its metadata title read before use.",
         "commit": "72b3a38bde702be4be2e34222128c5c9c77e5cb7",
         "before": "dc523f672e25c8a5265ecdc54c9f95980872d64a"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the desk-reference, machine-theatre and structural-science layer: Salomon de Caus 1615, Bélidor 1729 and Vauban 1737 at the corps origins; Rees's Cyclopaedia, Karmarsch, Haswell, Nystrom, Hütte, Molesworth, Claudel, D. K. Clark, Knight's Dictionary, Appletons, Unwin and Kent as the century's desk references; Torricelli, Mariotte, Euler 1744, Venturi, Maxwell's 1864 frames paper, Merriman, Ganguillet & Kutter, Burr, Boussinesq, Johnson/Bryan/Turneaure, Johnson and Martens in the Structura science layer; Besson, Branca, Spon and Kempe as honest no-scan rows."
       }
     ]
   }
