@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A treatise on chemistry (a Macmillan edition)](https://archive.org/details/cu31924004143545)
 - [Archive.org — (a further edition)](https://archive.org/details/cu31924002967531)
-- [Thorpe, A Dictionary of Applied Chemistry (1891\u201394) — the applied reference besides the theoretical](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md)
+- [Thorpe, A Dictionary of Applied Chemistry (1891–94) — the applied reference besides the theoretical](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md)

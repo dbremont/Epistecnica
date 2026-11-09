@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Experimental enquiry (1794)](https://archive.org/details/bim_eighteenth-century_experimental-enquiry-con_smeaton-john-f-r-s-_1794)
 - [Archive.org — (1813 BSB printing)](https://archive.org/details/10708301bsb)
-- [Smeaton, Reports (1812\u201314) — the collected consulting tradition](/view.html?p=documents/books/smeaton-1812-reports.md)
+- [Smeaton, Reports (1812–14) — the collected consulting tradition](/view.html?p=documents/books/smeaton-1812-reports.md)

@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — A new system of chemical philosophy (1810, BSB copy)](https://archive.org/details/10072346bsb)
 - [Archive.org — (a modern reprint)](https://archive.org/details/newsystemofchemi0000dalt)
-- [Lavoisier, Trait\u00e9 \u00c9l\u00e9mentaire de Chimie (1789) — the chemistry the atomism revised](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md)
+- [Lavoisier, Traité Élémentaire de Chimie (1789) — the chemistry the atomism revised](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md)

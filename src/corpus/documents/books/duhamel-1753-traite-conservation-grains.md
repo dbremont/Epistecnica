@@ -9,10 +9,10 @@ qa:
 
 ```bibtex
 @book{duhamel1753grains,
-  title={Trait\u00e9 de la conservation des grains et en particulier du bl\u00e9},
+  title={Traité de la conservation des grains et en particulier du blé},
   author={Duhamel du Monceau, Henri-Louis},
   year={1753},
-  publisher={Paris: Gu\u00e9rin}
+  publisher={Paris: Guérin}
 }
 ```
 

@@ -20,7 +20,7 @@ qa:
 
 > Anselme Payen's food substances — the French chemistry teaching that entered the food trades' composition as the chemists' own teaching: the starch, the sugars and the preservation economy beside Smith's Foods. The food-chemistry tradition's own French teaching-trades volume.
 
-> The guide's scans hold the archive's later print records; the 1856 manual is reflected in the Hachette-bound Biblioth\u00e8que science series.
+> The guide's scans hold the archive's later print records; the 1856 manual is reflected in the Hachette-bound Bibliothèque science series.
 
 ## References
 

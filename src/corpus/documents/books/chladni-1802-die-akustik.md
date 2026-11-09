@@ -20,10 +20,10 @@ qa:
 
 > Ernst Florens Fritz Chladni's Akustik — the acoustic branch's own experimental founding: the sand-pattern figures that gave vibration its visible economy, written where the physics branches met the musical-instrument trades. The acoustic branch's own scientific founder beside Rayleigh's mathematics and Kundt's tube.
 
-> Honest record: the archive's scans carry later printings and the Beytr\u00e4ge tradition; the 1802 treatise is a catalogued first printing.
+> Honest record: the archive's scans carry later printings and the Beyträge tradition; the 1802 treatise is a catalogued first printing.
 
 ## References
 
-- [Archive.org — Beytr\u00e4ge zur praktischen Akustik (reissue printing)](https://archive.org/details/beytragezurprakt0000chla)
+- [Archive.org — Beyträge zur praktischen Akustik (reissue printing)](https://archive.org/details/beytragezurprakt0000chla)
 - [Archive.org — Die Akustik (a later printing)](https://archive.org/details/isbn_9781275178236)
-- [Rayleigh, The Theory of Sound (1877) \u2014 the mathematical theory that followed](/view.html?p=documents/books/rayleigh-1877-theory-of-sound.md)
+- [Rayleigh, The Theory of Sound (1877) — the mathematical theory that followed](/view.html?p=documents/books/rayleigh-1877-theory-of-sound.md)

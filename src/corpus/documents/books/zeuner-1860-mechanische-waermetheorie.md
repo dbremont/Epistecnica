@@ -5,11 +5,11 @@ qa:
  - Does the treatise's later editions stand beside the steam-engine building's own book trade? The German tradition beside Rankine.
 ---
 
-# Zeuner, G. (1860). Die Mechanische W\u00e4rmetheorie. Leipzig.
+# Zeuner, G. (1860). Die Mechanische Wärmetheorie. Leipzig.
 
 ```bibtex
 @book{zeuner1860waermetheorie,
-  title={Die mechanische W\u00e4rmetheorie mit R\u00fccksicht auf ihre Anwendungen},
+  title={Die mechanische Wärmetheorie mit Rücksicht auf ihre Anwendungen},
   author={Zeuner, Gustav},
   year={1860},
   publisher={Leipzig: Dammler}
@@ -24,6 +24,6 @@ qa:
 
 ## References
 
-- [Archive.org — Die mechanische W\u00e4rmetheorie (1891 printing)](https://archive.org/details/diemechanischew02claugoog)
+- [Archive.org — Die mechanische Wärmetheorie (1891 printing)](https://archive.org/details/diemechanischew02claugoog)
 - [Joule, Scientific Papers (1884) — the energy the German machinery designer carried](/view.html?p=documents/books/joule-1884-scientific-papers.md)
 - [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)

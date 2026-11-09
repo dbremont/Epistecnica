@@ -7,7 +7,7 @@ qa:
 
 # Hodgkinson, E. (1840). Experimental Researches on the Strength of Pillars. [Experiments in the Royal Institution].
 
-```bibtext
+```bibtex
 @misc{hodgkinson1840pillars,
   title={Experimental Researches on the Strength of Pillars of Cast Iron and Other Materials},
   author={Hodgkinson, Eaton},

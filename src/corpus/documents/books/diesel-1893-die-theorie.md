@@ -5,11 +5,11 @@ qa:
  - Does the 1893 treatise document the compression-ignition engine's economy as found from the chemical plants the century's boundary?
 ---
 
-# Diesel, R. (1893). Die Theorie und Konstruktion eines Rationellen W\u00e4rmemotors. Berlin.
+# Diesel, R. (1893). Die Theorie und Konstruktion eines Rationellen Wärmemotors. Berlin.
 
 ```bibtex
 @book{diesel1893theorie,
-  title={Die Theorie und Konstruktion eines rationellen W\u00e4rmemotors zum Ersatz der Dampfmaschinen und der Verbrennungsmotoren},
+  title={Die Theorie und Konstruktion eines rationellen Wärmemotors zum Ersatz der Dampfmaschinen und der Verbrennungsmotoren},
   author={Diesel, Rudolf},
   year={1893},
   publisher={Berlin: Springer}
@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [Archive.org — Die Theorie und Konstruktion eines rationellen W\u00e4rmemotors (1893)](https://archive.org/details/11650204bsb)
+- [Archive.org — Die Theorie und Konstruktion eines rationellen Wärmemotors (1893)](https://archive.org/details/11650204bsb)
 - [Clerk, The Theory of the Gas Engine (1882) — the gas-engine theory beside it](/view.html?p=documents/books/clerk-1886-the-gas-engine.md)

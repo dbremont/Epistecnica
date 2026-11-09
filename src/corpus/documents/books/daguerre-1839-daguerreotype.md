@@ -8,9 +8,9 @@ qa:
 # Daguerre, L. J. M. (1839). Historique et Description des Procédés du Daguerréotype et du Diorama. Paris.
 
 ```bibtex
-@book{daguerre1839daguerr\u00e9otype,
-  title={Historique et description des proc\u00e9d\u00e9s du daguerr\u00e9otype et du diorama},
-  author={Daguerre, Louis Jacques Mand\u00e9},
+@book{daguerre1839daguerréotype,
+  title={Historique et description des procédés du daguerréotype et du diorama},
+  author={Daguerre, Louis Jacques Mandé},
   year={1839},
   publisher={Paris: Susse}
 }
@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — Historical fluctuations with the daguerreotype](https://archive.org/details/theartofpractica00hunt)
-- [Talbot, The Pencil of Nature (1844\u201346) — the English founding book the same decade](/view.html?p=documents/books/talbot-1844-pencil-of-nature.md)
+- [Talbot, The Pencil of Nature (1844–46) — the English founding book the same decade](/view.html?p=documents/books/talbot-1844-pencil-of-nature.md)

@@ -18,7 +18,7 @@ qa:
 
 ## Notes
 
-> Sir Charles Parsons's Rede lecture at the century's edge — the steam turbine's own founder documenting his invention's history, design and power economy, in the Cambridge lecture form. Entered at the boundary as the turbine branch's own founder's doctrine (the guide's 1600\u20131900 scope honestly marked), beside D. K. Clark's steam engines.
+> Sir Charles Parsons's Rede lecture at the century's edge — the steam turbine's own founder documenting his invention's history, design and power economy, in the Cambridge lecture form. Entered at the boundary as the turbine branch's own founder's doctrine (the guide's 1600–1900 scope honestly marked), beside D. K. Clark's steam engines.
 
 > The scans below carry the Rede lecture as archive print.
 

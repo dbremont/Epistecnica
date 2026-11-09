@@ -5,11 +5,11 @@ qa:
  - Does the dictionary stand for the French tradition beside Lunge's industrial treatise — whose vocabulary the trades ran?
 ---
 
-# Wurtz, A. (1869). Dictionnaire de Chimie Pure et Appliqu\u00e9e. Paris.
+# Wurtz, A. (1869). Dictionnaire de Chimie Pure et Appliquée. Paris.
 
 ```bibtex
 @book{wurtz1869dictionnaire,
-  title={Dictionnaire de chimie pure et appliqu\u00e9e},
+  title={Dictionnaire de chimie pure et appliquée},
   author={Wurtz, Adolphe},
   year={1869},
   publisher={Paris}
@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Dictionnaire de chimie (1869, first volume)](https://archive.org/details/bub_gb_MEY7AAAAcAAJ)
 - [Archive.org — (later volume)](https://archive.org/details/b28121624_0005)
-- [Thorpe, A Dictionary of Applied Chemistry (1891\u201394) — the English counterpart](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md)
+- [Thorpe, A Dictionary of Applied Chemistry (1891–94) — the English counterpart](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md)

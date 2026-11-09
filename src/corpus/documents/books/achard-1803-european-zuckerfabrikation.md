@@ -9,7 +9,7 @@ qa:
 
 ```bibtex
 @book{achard1803zuckerfabrikation,
-  title={Die Europ\u00e4ische Zuckerfabrikation},
+  title={Die Europäische Zuckerfabrikation},
   author={Achard, Franz Carl},
   year={1803},
   publisher={Berlin}

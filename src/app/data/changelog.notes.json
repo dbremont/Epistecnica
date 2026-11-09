@@ -81208,6 +81208,11 @@
         "summary": "The confirmed-rows round: twelve more rows across seven sections - Proctor pharmacy and Faraday candle lectures in Chimica; Davy safety lamp and Salter recovery in the mining shelf; Niaudet batteries and Noad student text-book in Electrica; Nicholson bookbinding, Dussauce matches, Burgess and Ware coach-building, Stokes cabinet companion and Killebrew tobacco in Manufactura; Wise aeronautics in Transportaria; Jackson surveying, Signal Corps telegraphy, Stoney-Jones ordnance and Ernst West Point manual in the military cluster; Felkin hosiery and Depierre finishing in Textoria; Rix compressed air in Mechanica (entry file discovered missing post-link and written then); Bagot and Chatard rows folded honestly into Salter, the Bottone 1902 boundary into Niaudet. 337 links, all resolving.",
         "commit": "80a641444d288b6f150337131787f813ac911a3d",
         "before": "c3c500614c368a80d1453c9f973c11ca6e4ed18f"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Make every Ars table one continuous table again: delete the placeholder separator rows and the blank lines that split seven of them, move the seven military works out of Transportaria into the Civilis military cluster, drop the Gwilt and Cresy duplicate rows, and repair the renamed Duhamel link."
       }
     ]
   }

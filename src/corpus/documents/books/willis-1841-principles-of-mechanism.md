@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Principles of mechanism (1841)](https://archive.org/details/principlesmecha02willgoog)
 - [Archive.org — (1870 printing)](https://archive.org/details/principlesofmech00williala)
-- [Hachette, Trait\u00e9 \u00c9l\u00e9mentaire des Machines (1819) — the elementary machines](/view.html?p=documents/books/hachette-1819-traite-elementaire-des-machines.md)
+- [Hachette, Traité Élémentaire des Machines (1819) — the elementary machines](/view.html?p=documents/books/hachette-1819-traite-elementaire-des-machines.md)

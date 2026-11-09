@@ -32480,6 +32480,11 @@
         "kind": "feat",
         "summary": "Add Zonca, Novo teatro di machine (1607) - the Padua theatre after Ramelli; 1607 scans.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32491,6 +32496,11 @@
         "kind": "feat",
         "summary": "Add Willis, Principles of mechanism (1841) - the mechanism theory between Hachette and Reuleaux; two scans.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32502,6 +32512,11 @@
         "kind": "feat",
         "summary": "Add Lavoisier, Traite elementaire de chimie (1789) - the chemical revolution founding text; Gutenberg transcription (no archive scan verified).",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32513,6 +32528,11 @@
         "kind": "feat",
         "summary": "Add Dalton, A new system of chemical philosophy (1808-10); BSB scan, the atomic theory beside Lavoisier.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32524,6 +32544,11 @@
         "kind": "feat",
         "summary": "Add Roscoe and Schorlemmer, A treatise on chemistry (1877); Macmillan edition scans, the advanced reference beside Wurtz and Thorpe.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32535,6 +32560,11 @@
         "kind": "feat",
         "summary": "Add Wurtz, Dictionnaire de chimie pure et appliquee (1869); 1869 first volume and later printing, the French reference dictionary.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32656,6 +32686,11 @@
         "kind": "feat",
         "summary": "Add Smeaton, Experimental enquiry concerning water and wind powers (1794); 1794 and BSB 1813 scans, the 18th-century testing economy.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32667,6 +32702,11 @@
         "kind": "feat",
         "summary": "Add Pambour, Theorie de la machine a vapeur (1839); 1839 printing, the steam-engine theory textbook before Rankine.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32678,6 +32718,11 @@
         "kind": "feat",
         "summary": "Add Zeuner, Die mechanische Waermetheorie (1860); 1891 printing with the first-edition honesty, the German engineering thermodynamics.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32689,6 +32734,11 @@
         "kind": "feat",
         "summary": "Add Parsons, The steam turbine Rede lecture (1911 boundary - the founder documenting his machine honestly marked); two 1911 scans.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32700,17 +32750,27 @@
         "kind": "feat",
         "summary": "Add Diesel, Die Theorie und Konstruktion eines rationellen Waermotors (1893); Berlin printing scanned, the compression-ignition boundary",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
   {
-    "file_path": "books/duhamel-1753-traine-conservation-grains.md",
+    "file_path": "books/duhamel-1753-traite-conservation-grains.md",
     "logs": [
       {
         "date": "2026-11-08",
         "kind": "feat",
         "summary": "Add Duhamel du Monceau, the grain-conservation traite (1753) - the 18th-century preservation economy before Appert; honest note on the archive series record.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Rename the file to traite (the slug had traine) and restore the accented title characters."
       }
     ]
   },
@@ -32722,6 +32782,11 @@
         "kind": "feat",
         "summary": "Add Achard, Die europaeische Zuckerfabrikation (1803) - the beet-sugar founding manual; honest no-scan note.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32733,6 +32798,11 @@
         "kind": "feat",
         "summary": "Add Payen, Des substances alimentaires (1856) - the French food-chemistry tradition beside Smith; honest no-scan note.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32755,6 +32825,11 @@
         "kind": "feat",
         "summary": "Add Chladni, Die Akustik (1802) - the acoustic founding text; honest no-scan, with later reprints linked.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   },
@@ -32777,6 +32852,11 @@
         "kind": "feat",
         "summary": "Add Daguerre, the daguerreotype historical manual (1839) - the mirror-image side of the photography branch; placed honestly with a later Artefact print scan.",
         "commit": "e417b24cff4df616e9b2ac9d885fc8375718dca4"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "style",
+        "summary": "Restore the accented characters the entry had escaped literally."
       }
     ]
   }
