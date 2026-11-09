@@ -30273,7 +30273,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Quekett, A practical treatise on the use of the microscope (1848); 1852 printing scans with the first-edition note, a corruption slip repaired, cross-linked to Hogg."
+        "summary": "Add Quekett, A practical treatise on the use of the microscope (1848); 1852 printing scans with the first-edition note, a corruption slip repaired, cross-linked to Hogg.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30283,7 +30284,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Hogg, The microscope: its history, construction and application (1854) - the outline Quekett attribution corrected to the printed title-page author, Marean precedent; 1880s scans."
+        "summary": "Add Hogg, The microscope: its history, construction and application (1854) - the outline Quekett attribution corrected to the printed title-page author, Marean precedent; 1880s scans.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30293,7 +30295,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Carpenter, The microscope and its revelations (1856); 1875 and 1891 edition scans with the first-edition note, cross-linked to Hogg and Quekett."
+        "summary": "Add Carpenter, The microscope and its revelations (1856); 1875 and 1891 edition scans with the first-edition note, cross-linked to Hogg and Quekett.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30303,7 +30306,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add the collected papers of Fraunhofer (1888 Munich academy edition); honest no-scan note - optical glass and the spectral literature's paper source."
+        "summary": "Add the collected papers of Fraunhofer (1888 Munich academy edition); honest no-scan note - optical glass and the spectral literature's paper source.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30313,7 +30317,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Carré's absorption-refrigeration apparatus papers (1860-62, @misc); honest no-scan note, cross-linked to Twining and Selfe."
+        "summary": "Add Carré's absorption-refrigeration apparatus papers (1860-62, @misc); honest no-scan note, cross-linked to Twining and Selfe.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30323,7 +30328,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Harrison's refrigeration patents (@misc, 1850s-70s); honest no-scan note - the colonial ice trade's patent literature."
+        "summary": "Add Harrison's refrigeration patents (@misc, 1850s-70s); honest no-scan note - the colonial ice trade's patent literature.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   },
@@ -30333,7 +30339,8 @@
       {
         "date": "2026-11-08",
         "kind": "feat",
-        "summary": "Add Wakeman, Refrigeration and ice-making machinery (1890s, @misc); honest no-scan note, cross-linked to Selfe."
+        "summary": "Add Wakeman, Refrigeration and ice-making machinery (1890s, @misc); honest no-scan note, cross-linked to Selfe.",
+        "commit": "c5a03b97594de11cbfa96a80c22748dd4b799ab9"
       }
     ]
   }
