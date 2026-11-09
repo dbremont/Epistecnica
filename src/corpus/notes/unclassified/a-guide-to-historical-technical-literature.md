@@ -116,6 +116,15 @@ qa:
 | C. W. Scheele | [*Opuscula Chemica et Physica*](/view.html?p=documents/books/scheele-1788-opuscula-chemica-et-physica.md) | 1788 | The bench papers — oxygen, chlorine, the acids and the analysis of air |
 | J. L. Gay-Lussac | [*Cours de Chimie*](/view.html?p=documents/books/gay-lussac-1828-cours-de-chimie.md) | 1828 | Chemistry taught with the combining volumes and the industrial processes |
 | J.-B. Dumas | [*Traité de Chimie Appliquée aux Arts*](/view.html?p=documents/books/dumas-1848-traite-chimie-appliquee-aux-arts.md) | 1848 | Chemistry applied to the manufactures — acids, dyes, soap, glass and metals |
+| Johann Rudolf Glauber | [*Furni Novi Philosophici*](/view.html?p=documents/books/glauber-1651-furni-novi-philosophici.md) | 1646–49 | The chemical furnace and the salts of the first shops described |
+| Samuel Parkes | [*Chemical Essays, Principally Relating to the Arts and Manufactures*](/view.html?p=documents/books/parkes-1815-chemical-essays-arts-manufactures.md) | 1815 | The chemical arts of British manufacture essay by essay |
+| C. F. Cross & E. J. Bevan (with C. Beadle) | [*Cellulose: An Essay on the Chemistry of Cellulose*](/view.html?p=documents/books/cross-bevan-1888-cellulose.md) | 1895 | Cellulose as a chemical subject — the viscose chemistry of rayon |
+| Henri Moissan | [*Le Four Électrique*](/view.html?p=documents/books/moissan-1897-four-electrique.md) | 1897 | The electric furnace and its high-temperature chemistry |
+| Claude-Louis Berthollet | *Éléments de l Art de la Teinture* | 1791 | Dyeing given its chemistry — chlorine bleaching beside it (no scan verified) |
+| Nicolas Leblanc | *Process for the manufacture of soda from salt* | 1791 | The Leblanc soda process stated (no scan verified) |
+| Ernest Solvay | *Ammonia-soda patents and works papers* | 1861–63 | The Solvay ammonia-soda process grew up beside the sodium (no scan verified) |
+| Alfred Nobel | *Dynamite and blasting-gelatine patents* | 1867 / 1875 | Nitroglycerine absorbed and controlled (no scan verified) |
+| Paul Vieille | *Poudre B papers* | 1884 | The smokeless powder of the French military (no scan verified) |
 
 ## Ars Metallica
 
@@ -169,6 +178,13 @@ qa:
 | Lazarus Ercker | [*Aula Subterranea*](/view.html?p=documents/books/ercker-1703-aula-subterranea.md) | 1574 (ed. 1703) | Ores, assaying and the works — the expanded metallurgical treatise |
 | C. E. Gellert | [*Metallurgic Chymistry*](/view.html?p=documents/books/gellert-1776-metallurgic-chymistry.md) | 1776 | The ore, the furnace and the assay of the Freiberg school |
 | David Kirkaldy | [*Result of an Experimental Inquiry into the Tensile Strength of Wrought Iron and Steel*](/view.html?p=documents/books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md) | 1863 | The testing house beside the rolling mill (cross-listed from Civilis) |
+| Joseph William Richards | [*Aluminium: Its History, Occurrence, Properties, Metallurgy and Applications*](/view.html?p=documents/books/richards-1887-aluminium.md) | 1887 | The new metal as an industrial engineering subject |
+| Thomas Kirke Rose | [*The Metallurgy of Gold*](/view.html?p=documents/books/rose-1894-metallurgy-of-gold.md) | 1894 | The systematic gold metallurgy — amalgamation to the cyanide process |
+| Henry Cort | *Puddling and grooved-roller patents* | 1783–84 | Coal-fired iron refined, then rolled through grooves (no scan verified) |
+| James Beaumont Neilson | *Hot-blast patent and papers* | 1828 | Blast air preheated — the fuel economy of the blast furnace (no scan verified) |
+| C. W. Siemens & P. É. Martin | *Regenerative furnace and open-hearth steel papers* | 1856–68 | Steel refined by the regenerative furnace (no scan verified) |
+| C. M. Hall & P. L. T. Héroult | *Electrolytic aluminium patents* | 1886–89 | The new metal reduced from cryolite at the electric current (no scan verified) |
+| J. S. MacArthur & the Forrest brothers | *Cyanide gold-process patents and papers* | 1887–90 | Gold dissolved from its dilute ore by the cyanide process (no scan verified) |
 
 ## Ars Agricola
 
@@ -495,6 +511,9 @@ qa:
 | A. Cochrane, Earl of Dundonald | [*The Present State of the Manufacture of Salt Explained*](/view.html?p=documents/books/cochrane-1785-manufacture-of-salt-explained.md) | 1785 | The salt works analysed — the manufacturer as reformer |
 | P. Letouzé | [*Traité Pratique des Travaux en Asphalte*](/view.html?p=documents/books/letouze-1897-travaux-en-asphalte.md) | 1897 | Asphalt paving specified and laid |
 | The National Provisioner (comp.) | [*The Manufacture of Glue and Gelatine*](/view.html?p=documents/books/glue-gelatine-manufacture-1898.md) | 1898 | The adhesive trades from the works |
+| Antonio Neri | [*L'Arte Vetraria*](/view.html?p=documents/books/neri-1612-arte-vetraria.md) | 1612 | The glasshouse stated as recipes — the founding printed treatise |
+| Cipriano Piccolpasso | [*I Tre Libri dell'Arte del Vasajo*](/view.html?p=documents/books/piccolpasso-1557-arte-del-vasajo.md) | c. 1557 | The majolica potteries illustrated — the earliest pottery manual |
+| John Wesley Hyatt & Isaiah S. Hyatt | *Celluloid patents* | 1869–70 | The first man-made plastic material (no scan verified) |
 
 ## Ars Textilis
 
@@ -1029,6 +1048,7 @@ qa:
 | Song Yingxing | [*Tiangong Kaiwu (The Exploitation of the Works of Nature)*](/view.html?p=documents/books/song-yingxing-1637-tiangong-kaiwu.md) | 1637 | The arts of Ming China — grain, silk, salt, porcelain, metal, paper, ships and arms |
 | Xu Guangqi | [*Nong Zheng Quan Shu (Treatise on Agricultural Administration)*](/view.html?p=documents/books/xu-guangqi-1639-nongzheng-quanshu.md) | 1639 (ed. 1909) | Statecraft agriculture — irrigation, cultivation, famine relief |
 | Mao Yuanyi | *Wubei Zhi (Treatise on Military Preparedness)* | 1621 | The Chinese military-technical encyclopaedia (no scan verified) |
+| Álvaro Alonso Barba | *Arte de los Metales* | 1640 (tr. 1674) | The silver-bearing mines of the Patio, with the mercury method of refining (no scan verified) |
 
 ## References
 

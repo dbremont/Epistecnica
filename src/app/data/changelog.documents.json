@@ -36198,5 +36198,85 @@
         "commit": "03ea895d07eae6e2fd8303c0380d456769b01c92"
       }
     ]
+  },
+  {
+    "file_path": "books/neri-1612-arte-vetraria.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Neri, L Arte Vetraria (1612) — the glass trade's founding manual; 1663 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/piccolpasso-1557-arte-del-vasajo.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Piccolpasso, I tre libri dell'arte del vasajo (c. 1557) — the earliest pottery manual; 1857 Rome printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/glauber-1651-furni-novi-philosophici.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Glauber, Furni Novi Philosophici (1646–49) — the first chemical furnace shop; 1651 Latin edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/parkes-1815-chemical-essays-arts-manufactures.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Parkes, Chemical Essays (1815) — the early industrial chemistry; 1815 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/richards-1887-aluminium.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Richards, Aluminium (1887) — the founding aluminium reference; 1887 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/rose-1894-metallurgy-of-gold.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Rose, The Metallurgy of Gold (1894) — the gold metallurgy systematic; 1898 printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/moissan-1897-four-electrique.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Moissan, Le Four Electrique (1897) — the electric furnace chemistry; 1897 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/cross-bevan-1888-cellulose.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Cross, Bevan and Beadle, Cellulose (1895) — the viscose chemical treatise; 1895 scan."
+      }
+    ]
   }
 ]

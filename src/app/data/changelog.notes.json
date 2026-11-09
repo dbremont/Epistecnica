@@ -81362,6 +81362,11 @@
         "summary": "Add the desk-reference, machine-theatre and structural-science layer: Salomon de Caus 1615, Bélidor 1729 and Vauban 1737 at the corps origins; Rees's Cyclopaedia, Karmarsch, Haswell, Nystrom, Hütte, Molesworth, Claudel, D. K. Clark, Knight's Dictionary, Appletons, Unwin and Kent as the century's desk references; Torricelli, Mariotte, Euler 1744, Venturi, Maxwell's 1864 frames paper, Merriman, Ganguillet & Kutter, Burr, Boussinesq, Johnson/Bryan/Turneaure, Johnson and Martens in the Structura science layer; Besson, Branca, Spon and Kempe as honest no-scan rows.",
         "commit": "03ea895d07eae6e2fd8303c0380d456769b01c92",
         "before": "cb479aae77e1d6789690649f9a6251e7b053359b"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the process-revolution layer: Neri's Arte Vetraria (1612; 1663 printing) and Piccolpasso's I tre libri (c. 1557; 1857 printing) as the founding glass and ceramics manuals in Manufactura; Glauber's Furni Novi, Parkes's Chemical Essays, Cross & Bevan's Cellulose (the viscose chemistry) and Moissan's Le Four Electrique in Chimica; Richards and Rose on aluminium and gold in Metallica; and honest no-scan rows for Cort, Neilson, Siemens-Martin, Hall-Heroult and cyanide gold in Metallica, Berthollet, Leblanc, Solvay, Nobel and Vieille in Chimica, Hyatt's celluloid in Manufactura, and Barba's Potosi Arte de los Metales in Extra Europam."
       }
     ]
   }
