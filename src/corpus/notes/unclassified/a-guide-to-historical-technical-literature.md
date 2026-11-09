@@ -12,24 +12,24 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
-| Ahmes (Rhind Mathematical Papyrus) | *Problems of granaries, frustums, pyramid slopes and mensuration* | c. 1650 BCE | Problem-book of the Egyptian technical arithmetic and mensuration |
+| Ahmes (Rhind Mathematical Papyrus); Moscow Mathematical Papyrus | *Problems of granaries, frustums, pyramid slopes, seked and mensuration* | c. 1650–1550 BCE | Problem-book of the Egyptian technical arithmetic and mensuration |
 | Nineveh cuneiform glass and metal tablets (Library of Ashurbanipal) | *Furnace recipes and coloured glazes* | c. 650 BCE | The glass and glaze trade preserved in the ancient libraries |
 | Pseudo-Aristotle (Strato / Peripatetic school) | *Mechanica (Mechanical Problems)* | c. 300 BCE | The lever, pulley, wheel, wedge, roller, rudder and oar stated by question |
 | Archimedes | [*On the Equilibrium of Planes; On Floating Bodies; Measurement of a Circle*](/view.html?p=documents/books/archimedes-1897-works-heath.md) | c. 250 BCE (Eng. ed. 1897) | Statics and hydrostatics with the stability of ship hulls — the Heath edition of the treatises |
 | Ctesibius of Alexandria (via Vitruvius/Philo/Hero) | *Force pump, water organ, and feedback-regulated clepsydra* | fl. 270 BCE | Pneumatic and water-regulated machinery of the Alexandrian shops |
 | Philo of Byzantium | *Mechanike Syntaxis (Belopoeica; Pneumatica; Poliorcetica)* | c. 230 BCE | The artillery, siphons, and level-controls of the Hellenistic defensive craft |
 | Biton | *Kataskeuai polemikon organon kai katapeltikon* | c. 240 BCE | The scaled siege-machines written with dimensions |
-| Hero (Heron) | [*Pneumatica; Mechanica; Automata; Dioptra; Belopoeica; Metrica*](/view.html?p=documents/books/hero-1899-druckwerke.md) | fl. 60 CE (ed. 1899) | The chef d'oeuvre of Hellenistic mechanics — the five machine laws, reaction steam sphere, automata and surveying dioptra (Schmidt's 1899 edition of the Druckwerke) |
+| Hero (Heron) | [*Pneumatica; Mechanica; Automata; Dioptra; Belopoeica; Cheiroballistra; Metrica*](/view.html?p=documents/books/hero-1899-druckwerke.md) | fl. 60 CE (ed. 1899) | The chef d'oeuvre of Hellenistic mechanics — the aeolipile reaction steam sphere, the five machine laws, the Mechanica preserved in Qusta ibn Luqa's Arabic, automata and surveying dioptra (Schmidt's 1899 edition of the Druckwerke) |
 | Claudius Ptolemy | *Almagest; Geographia; Optica; Planisphaerium* | fl. 150 CE | The astronomical and cartographic instruments of the conic projections |
 | Pappus of Alexandria | *Synagoge (Book VIII)* | fl. 320 CE | The synthesis of ancient mechanics with the inclined plane and worm gear |
-| Cato, Varro, Columella, Palladius | *Roman agricultural treatises* | 160 BCE – 400 CE | The farm mechanics, presses and drainage of the Roman estate economy |
+| Cato; Varro; Columella; Palladius | *De Agri Cultura; Res Rusticae; De Re Rustica; Opus Agriculturae* | 160 BCE – 400 CE | The farm mechanics, presses and drainage of the Roman estate economy |
 | Sextus Julius Frontinus | *De Aquaeductu Urbae Romae* | c. 97 CE | The Roman water supply gauged at its aqueduct intakes |
 | Pedanius Dioscorides | *De Materia Medica* | c. 65 CE | The medicinal substances and the first apparatus of botanical extraction |
 | Pliny | [*Naturalis Historia (Books XXXIII–XXXVII)*](/view.html?p=documents/books/pliny-1855-natural-history.md) | 77 CE (Eng. 1855) | The industrial arts of metals, glass, pigments and papyrus in one encyclopedia — Bostock and Riley's translation |
-| Corpus Agrimensorum Romanorum | *Gromatic surveying by groma and chorobates* | 1st–2nd c. CE | The survey graphic machinery of centuriation and road planning |
+| Corpus Agrimensorum Romanorum (Hyginus Gromaticus, Balbus, Siculus Flaccus) | *Gromatic surveying by groma and chorobates* | 1st–2nd c. CE | The survey graphic machinery of centuriation and road planning |
 | Leyden Papyrus X; Stockholm Papyrus; Zosimos of Panopolis | *Alchemical apparatus recipes and lab practices* | c. 300 CE | The chemical tables, alloys, gilding and distillation of the Alexandrian trades |
 | Vegetius; Pseudo-Anonymous | *Epitoma Rei Militaris; De Rebus Bellicis* | c. 390 CE | The Roman fortifications and paddle-wheel warships of the late empire |
-| Anthemius of Tralles; Procopius | *Hagia Sophia dome geometry; De Aedificiis* | 532–550 CE | The great vaulting and dome-engineering of the imperial city |
+| Anthemius of Tralles; Procopius | *On Burning Mirrors; Hagia Sophia dome geometry; De Aedificiis* | 532–550 CE | The great vaulting and dome-engineering of the imperial city |
 | Marcus Vitruvius Pollio | *De Architectura Libri Decem* | c. 25 BCE | The classical canon: aqueducts, cranes, watermills and theatre acoustics (see the 1826 Gwilt translation in Architectura) |
 
 ## Ars Mediaevalia
@@ -38,7 +38,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 
 | Author | Work | Year | Technical domain |
 |---|---|---:|---|
-| Mappae Clavicula; Heraclius | *Colour, art and craft recipe manuscripts* | c. 800–1130 | The pigment, alloy and coating recipes of monastic workshops |
+| Mappae Clavicula; Heraclius | *De Coloribus et Artibus Romanorum; the craft recipe manuscripts* | c. 800–1130 | The pigment, alloy and coating recipes of monastic workshops |
 | Theophilus Presbyter | *Schedula Diversarum Artium (De Diversis Artibus)* | c. 1122 | The metalwork, stained glass, organ pipe and bell founding trades described (no scan verified) |
 | Villard de Honnecourt | *Livre de Portraiture (Sketchbook)* | c. 1220–40 | The Gothic trades and machinery carried in one sketchbook of engineering |
 | Petrus Peregrinus de Maricourt | *Epistola de Magnete* | 1269 | The compass and magnet designed by experiment |
@@ -50,7 +50,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Mariano di Jacopo detto il Taccola | *De Ingeneis; De Machinis* | 1419–49 | The pumps, cranes and harvest machinery drawn by the Sienese engineer |
 | Filarete (Antonio Averlino) | *Trattato di Architettura* | c. 1461–64 | The architectural and engineering theory of the iron blast furnace and finery forge |
 | Roberto Valturio | *De Re Militari (Verona)* | 1472 | The first printed book with technical woodcuts and siege engines |
-| Francesco di Giorgio Martini | *Trattati di Architettura, Ingegneria e Arte Militare* | c. 1475–90 | The bastion trace and machinery of the Renaissance military engineer |
+| Francesco di Giorgio Martini (Promis ed. 1841) | *Trattati di Architettura, Ingegneria e Arte Militare* | c. 1475–90 | The bastion trace and machinery of the Renaissance military engineer |
 | Luca Pacioli | *Summa de Arithmetica (Particularis de Computis et Scripturis)* | 1494 | Double-entry bookkeeping and the accounting of industrial enterprise |
 | Leonardo da Vinci | [*Codice Atlantico and the Manuscripts*](/view.html?p=documents/books/leonardo-1883-literary-works.md) | c. 1478–1519 (ed. 1883) | The machine elements and the flying machines of the great engineer — Richter's edition of the notebooks |
 | Ulrich Rulein von Calw | *Ein nützlich Bergbüchlein (c. 1500); Probierbüchlein (c. 1520)* | c. 1500 / c. 1520 | The first printed mining and assaying manuals |
@@ -589,7 +589,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 |---|---|---:|---|
 | William Whewell | [*An Elementary Treatise on Mechanics*](/view.html?p=documents/books/whewell-1819-elementary-treatise-mechanics.md) | 1819 | Mechanical measurement and physical methods |
 | Isaac Newton | [*Opticks; or, a Treatise of the Reflexions, Refractions, Inflexions and Colours of Light*](/view.html?p=documents/books/newton-1704-opticks.md) | 1704 (ed. 1730) | The spectrum, the reflecting telescope and the theory of colour |
-| Ibn al-Haytham (Alhazen) | [*Opticae Thesaurus: Alhazeni Arabis Libri Septem (Risner ed.)*](/view.html?p=documents/books/haytham-1572-opticae-thesaurus.md) | c. 1027 (ed. 1572) | Experimental optics and the camera obscura — the founding book of the European optical trade |
+| Ibn al-Haytham (Alhazen) | [*Kitāb al-Manāẓir (Book of Optics); Opticae Thesaurus (Risner ed.)*](/view.html?p=documents/books/haytham-1572-opticae-thesaurus.md) | c. 1027 (ed. 1572) | Experimental optics and the camera obscura — the founding book of the European optical trade |
 | David Brewster | [*A Treatise on Optics*](/view.html?p=documents/books/brewster-1831-treatise-on-optics.md) | 1831 | Optical instrumentation |
 | Charles Babbage | [*On the Economy of Machinery and Manufactures*](/view.html?p=documents/books/babbage-1832-economy-of-machinery-and-manufactures.md) | 1832 | Production measurement and organization |
 | Thomas D. Lockwood | [*Electricity, Magnetism, and Electric Telegraphy*](/view.html?p=documents/books/lockwood-1883-electricity-magnetism-electric-telegraphy.md) | 1883 | Electrical measuring and apparatus |
@@ -1260,7 +1260,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | W. Lambton & G. Everest | [*The Great Trigonometrical Survey of India*](/view.html?p=documents/books/everest-lambton-1830s-great-trigonometrical-survey.md) | 1810s–40s | India triangulated — the survey as geodetic instrument |
 | François Arago | [*Meteorological Essays*](/view.html?p=documents/books/arago-1855-meteorological-essays.md) | 1855 | The atmosphere, winds and storms explained — the observatory's meteorology |
 | Kew Observatory Committee | [*Report for the Year Ending December 31, 1899*](/view.html?p=documents/books/kew-observatory-1899-report.md) | 1899 | Magnetic, meteorological and solar observation — the standardizing observatory |
-| F. Garnier; L.-G. Mulot; K. G. Kind | *Traité sur les puits artésiens; the Grenelle deep artesian well boring* | 1822–41 | The deep artesian well boring trade in Europe (no scan verified) |
+| F. Garnier; L.-G. Mulot; K. G. Kind; J. Chaudron | *Traité sur les puits artésiens; the Grenelle deep artesian well boring* | 1822–41 | The deep artesian well boring trade in Europe (no scan verified) |
 | Jean-Rodolphe Leschot | *Rotary annular diamond core drill patents* | 1862–63 | The diamond-core drilling trade begun (no scan verified) |
 | Edwin L. Drake | *Cable-tool oil-well rig and drive-pipe trade (Titusville)* | 1859 | The first oil well derrick and cable-tool system (no scan verified) |
 | John Franklin Carll | [*The Geology of the Oil Regions... with Descriptions of Oil Well Rig and Tools*](/view.html?p=documents/books/carll-1880-geology-oil-regions.md) | 1880 | The oil-well engineering manual with derrick plates |
@@ -1644,7 +1644,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Miyazaki Yasusada | *Nōgyō Zensho (Compendium of Agriculture)* | 1697 | The Japanese agricultural manual of the Tokugawa practice (no scan verified) |
 | Masuda Tsuna & Niwa Motokuni | *Kodō Zuroku (Illustrated Book on the Smelting of Copper)* | c. 1801 | The Japanese copper smelting described for the mine trade (no scan verified) |
 | Hosokawa Hanzo Yorinao | [*Karakuri Zui*](/view.html?p=documents/books/karakuri-zui-1796.md) | 1796 | The Japanese karakuri automata treatise — body of the device trade |
-| Ibn Ismail Ibn al-Razzaz al-Jazari | *Kitab fi Marifat al-Hiyal al-Handasiyya (Book of Knowledge of Ingenious Mechanical Devices)* | 1206 (MS 1315) | The Arabic mechanical device treatise (Cleveland Museum MS plates scanned) |
+| Ibn Ismail Ibn al-Razzaz al-Jazari | *Al-Jāmiʿ bayna al-ʿilm wa-al-ʿamal fī ṣināʿat al-ḥiyal (Book of Knowledge of Ingenious Mechanical Devices)* | 1206 (MS 1315) | Camshafts, crank-and-connecting-rod twin-cylinder pumps, segmental gears, combination locks and closed-box sand casting in the Arabic device treatise (Cleveland Museum MS plates scanned) |
 | Banū Mūsā ibn Shakir | *Kitab al-Hiyal (The Book of Ingenious Devices)* | c. 850 | The ninth-century device theory of the Arab trade (no scan verified) |
 | Al-Kindī | *Risāla fī Jawāhir al-Suyūf — the kinds of steel and iron (crucible Damascus / wootz)* | 9th c. | The crucible-steel metallurgy and the steam distillation of perfume oils (no scan verified) |
 | Abū Bakr al-Rāzī (Rhazes) | *Kitāb al-Asrār (Book of Secrets)* | c. 900 | The chemical substances classified and the apparatus inventoried (no scan verified) |
@@ -1671,16 +1671,6 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Taqi al-Din Muhammad ibn Ma'ruf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (1551); Al-Kawakib al-durriyya (1556/59)* | 1551–59 | The six-cylinder monobloc pump, steam-turbine spit and spring-driven clocks with seconds hands (no scan verified) |
 | Miyazaki Yasusada | *Nogyo Zensho (Complete Book of Agriculture)* | 1697 | The Japanese agricultural canon of rice, dry fields, tools and seed (no scan verified) |
 | Masuda Tsuna & Niwa Motokuni | *Kodo Zuroku (Illustrated Book of Copper Smelting)* | c. 1801 | The copper-smelting process drawn in woodcuts at the Nanbu works (no scan verified) |
-
-## Method and scope
-
-> How the guide is built, and how its structure should be read.
-
-**Domains as the taxonomy.** The four abstract bibliographic categories — technical arts, technology, engineering, engineering science — do not survive the *Encyclopédie*-plate test: a single plate documents a workshop, a tool and its principle on one page. The guide therefore uses the historical **Ars** domain-sections themselves as its taxonomy; each section is the domain of a philosophia *technica* guide element family concept the corpus could type a decomposition into, but the guide reads them as a **historical** classification of what was printed and scanned. The viewer's technique taxonomy (variational method, technique-path trees) and these histories need not coincide; the mapping is left to the notes that decompose each field.
-
-**One series, one entry.** A serial is merged into one entry when its material is thin or when it is intellectually one research programme. Rayleigh's *Theory of Sound* (1877–78) is one book-length project on both grounds; the Ordnance Department's *Reports* (1856–61) are one testing campaign. Where a serial is only bibliographically contiguous — Symons's *British Rainfall* or Sabine's magnetic *Contributions* — the merge is preserved because the period's own bound volumes bound them as one shelf object. The decision is a reading judgement recorded where it is most contestable.
-
-**Scriptable collections.** Linking policy is scan-first and honest-marking: every Internet Archive identifier is resolved through `advancedsearch.php` and its title read from `/metadata/<id>` before the link is written; where no archive scan verifies, the row says so. The collections that can be scripted at scale: the **Internet Archive** (bulk search + per-item metadata + full OCR), the **BSB/MDZ** digitisations (many `[id]`-`bsb` identifiers here), **HathiTrust** by bibliographic API (browse-first in the reader), **Gallica** SRU and IIIF, and the **Smithsonian** Open Access trade-catalogue API (demonstrated on meteorological and photographic instruments above). The Science History Institute and the Wellcome Library provide deep browse-first scans for chemistry and the pharmacopoeias.
 
 ## References
 

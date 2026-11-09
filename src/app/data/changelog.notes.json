@@ -81446,6 +81446,11 @@
         "summary": "Close the audit gap against the pre-1900 master map. The items that the earlier passes had named but not carried into the guide are now present: Taqi al-Din (1551 pump, steam spit, clocks), Susruta, Abu al-Fazl's Ain-i-Akbari, Miyazaki's Nogyo Zensho, Masuda and Niwa's Kodo Zuroku, Bodoni's Manuale Tipografico, William Miles's two farriery books, Snow's ether and chloroform, the Statute of Monopolies, Gabriel Mouton's decimal measure, the Society of Arts bank-note report, Kircher's Musurgia Universalis, Stevin's Vorstelicke Bouckhouding and Spilsluysen, the Siebe-Gorman divers' manual, Chertier's pyrotechnic manual and W. H. Maxwell's refuse disposal. Seven of them stand as entries with verified Internet Archive scans (Bodoni 5873-1, Susruta in.ernet.dli.2015.486259, Ain-i-Akbari in.ernet.dli.2015.279471, Snow oninhalationvap00snowgoog, Kircher chepfl-lipr-AXC19_01, Stevin ned-kbn-all-00013787-002, Miles aplaintreatiseo00milegoog); the rest are honest no-scan rows. The guide now carries 1,323 rows and 878 links, all resolving.",
         "commit": "13c2f410d2b151eda7354e49d9626b229400ff3e",
         "before": "274cd9fdb5475a44e86bcbfbeeb04289353714de"
+      },
+      {
+        "date": "2026-11-09",
+        "kind": "fix",
+        "summary": "Name the works that merged rows had hidden. The Cato/Varro/Columella/Palladius row now carries De Agri Cultura, Res Rusticae, De Re Rustica and Opus Agriculturae instead of \"Roman agricultural treatises\"; Ibn al-Haytham carries Kitab al-Manazir beside the 1572 Opticae Thesaurus; al-Jazari carries the full Al-Jami bayna al-ilm wa-al-amal title; Hero carries the Cheirobolistra and the Mechanica preserved in Qusta ibn Luqa; the Ahmes row carries the Moscow Mathematical Papyrus; Anthemius carries On Burning Mirrors; Heraclius carries De Coloribus; the Corpus Agrimensorum row names Hyginus Gromaticus, Balbus and Siculus Flaccus; Francesco di Giorgio carries the Promis edition; the artesian-well row carries J. Chaudron; and al-Jazari's description names the camshafts, crank-and-connecting-rod pumps, segmental gears, combination locks and box sand casting."
       }
     ]
   }
