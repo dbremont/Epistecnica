@@ -362,6 +362,28 @@ qa:
 | Sébastien Le Prestre de Vauban | [*Traité de l'Attaque et de la Défense des Places*](/view.html?p=documents/books/vauban-1737-attaque-defense-places.md) | 1737 | The founding method of the siege and the fortress defence |
 | U.S. Army Ordnance Department (A. Mordecai) | [*Reports of Experiments on the Properties of Metals for Cannon*](/view.html?p=documents/books/mordecai-1856-reports-metals-cannon.md) | 1856 | The metals for cannon tested — American iron and bronze at the gun scales |
 
+## Ars Bellica
+
+> Small arms and rifles — the gun trade from the rifle treatises to the machine-gun patents, beside the fortress army.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Ezekiel Baker | [*Twenty-Three Years Practice and Observations with Rifle Guns*](/view.html?p=documents/books/baker-1804-practice-rifle-guns.md) | 1804 | The founding English rifle treatise of the British gun trade |
+| Samuel Colt | [*On the Application of Machinery to the Manufacture of Fire-Arms*](/view.html?p=documents/books/colt-1855-application-machinery-fire-arms.md) | 1855 | The revolver manufactured — the first great gun-trade interchangeability |
+| Hans Busk | [*The Rifle, and How to Use It*](/view.html?p=documents/books/busk-1859-rifle-how-to-use-it.md) | 1859 | The manual of the British rifle volunteer movement |
+| W. W. Greener | [*The Gun and Its Development*](/view.html?p=documents/books/greener-1881-gun-and-its-development.md) | 1881 | The gun trade history and trade development, set down by its own maker |
+| Charles B. Norton | [*American Inventions and Improvements in Breech-Loading Small Arms*](/view.html?p=documents/books/norton-1880-breech-loading-small-arms.md) | 1880 | The American patent catalogue of the breech-loading epoch |
+| Joseph Whitworth & George Wallis | *The Industry of the United States in Machinery, Manufactures, and Useful and Ornamental Arts* | 1854 | The British examination of the American System (honest no-scan; cross-listed from Mechanica) |
+| John Anderson; Warlow & Mordecai (Report of the Committee on the Machinery of the United States)
+Report ... presented to the House of Commons
+1855
+The British Enfield Commission inspecting Springfield, Colt and Robbins & Lawrence (no scan verified) |
+| William Greener | *The Gun; or, A Treatise on the Various Descriptions of Small Fire-Arms* | 1835 | The father Greener gun trade treatise (no scan verified) |
+| Henri-Gustave Delvigne & Claude-Étienne Minié | *Rifled-carabine and expanding-bullet papers and patents* | 1836–49 | The French rifled barrel and the expanding bullet (no scan verified) |
+| C. M. Wilcox | *Rifles and Rifle Practice* | 1859 | The rifle as a technical and military instrument (no scan verified) |
+| U.S. War Department (Carrington, Talcott, Baker, eds.) | *Report of the Board of Officers on Major Hall's Works at Harper's Ferry* | 1827 | Interchangeability proved by disassembling 100 Hall rifles (no scan verified) |
+| Hiram S. Maxim | *Recoil-operated automatic machine-gun papers and patents* | 1885–88 | The automatic machine gun (no scan verified) |
+
 ## Ars Electrica
 
 > The experimental foundations of electricity distinguished from the engineering literature the systems built on them: Priestley and Faraday carry the science, Volta the pile, and the telegraphy and electric-light books the systems.
@@ -547,6 +569,26 @@ qa:
 | J. de Fontenelle & F. Malepeyre | [*Nouveau Manuel Complet du Verrier et du Fabricant de Glaces*](/view.html?p=documents/books/fontenelle-1853-manuel-du-verrier.md) | 1853 | The French glass practice manual (cross-listed from Manufactura) |
 | Hovestadt, H. | *Jena Glass and its Scientific and Industrial Applications* | 1900 (tr. 1902) | The scientific optical and technical glasses of Jena (1902 boundary scan) |
 | H. Chance | *On the Manufacture of Crown and Sheet Glass* | 1856 | Industrial window glass by cylinder and crown (no scan verified) |
+
+## Ars Lignaria
+
+> Woodworking: the joiner and cabinet trade, the pattern books and the wood machines.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| André-Jacob Roubo | [*L'Art du Menuisier*](/view.html?p=documents/books/roubo-1769-art-du-menuisier.md) | 1769–75 | The joinery trade and its tools — the founding monument of the joiner trade |
+| Thomas Chippendale | [*The Gentleman and Cabinet-Maker Director*](/view.html?p=documents/books/chippendale-1754-gentleman-cabinet-maker-director.md) | 1754 | The first great furniture trades pattern book in Wood-frame designs |
+| Thomas Sheraton | [*The Cabinet-Maker and Upholsterer's Drawing-Book*](/view.html?p=documents/books/sheraton-1791-drawing-book.md) | 1791–94 | The design plate book of the furniture trade |
+| M. Powis Bale | [*Wood-working Machinery: Its Rise, Progress and Construction*](/view.html?p=documents/books/bale-1880-woodworking-machinery.md) | 1880 | The British wood machines and the sawmill state |
+| John Richards | [*A Treatise on the Construction and Operation of Wood-Working Machines*](/view.html?p=documents/books/richards-1872-wood-working-machines.md) | 1872 | The wood machines as engineering |
+| George Hepplewhite | *The Cabinet-Maker and Upholsterer's Guide* | 1788 | The Hepplewhite trade pattern book (no scan verified) |
+| Peter Nicholson | *The Carpenter's New Guide; and The Carpenter and Joiner's Assistant* | 1792 / 1797 | The carpentry books of Nicholson (no scan verified) |
+| Thomas Shearer and the London Society of Cabinet Makers | *The Cabinet-Makers London Book of Prices* | 1788 / 1793 / 1803 | The price book of the London cabinet trade (no scan verified) |
+| S. Bentham | *Wood-working machine patents* | 1791–93 | Rotary planing, moulding and circular-sawing patented (no scan verified) |
+| Thomas Blanchard | *Profile-copying lathe patent (gun-stocks and shoe-lasts)* | 1819 | The copying lathe and the armoric stock-production trade (no scan verified) |
+| S. Worssam | *On Mechanical Saws* | 1867 | The mechanical saw theory applied (no scan verified) |
+| Joseph Moxon | *Mechanick Exercises (Joinery volume)* | 1678–80 | Cross-listed from Typographica |
+| Thomas Tredgold | *Elementary Principles of Carpentry* | 1820 | Cross-listed from Civilis / Architectura |
 
 ## Ars Fictilia
 
@@ -1145,16 +1187,6 @@ qa:
 | Taqī al-Dīn Muhammad ibn Marūf | *Al-Turuq al-saniyya fi al-alat al-ruhaniyya (mechanical clocks; steam jack)* | 1551 | The Ottoman mechanical engineering described for the palace (no scan verified) |
 | Miyazaki Yasusada | *Nōgyō Zensho (Compendium of Agriculture)* | 1697 | The Japanese agricultural manual of the Tokugawa practice (no scan verified) |
 | Masuda Tsuna & Niwa Motokuni | *Kodō Zuroku (Illustrated Book on the Smelting of Copper)* | c. 1801 | The Japanese copper smelting described for the mine trade (no scan verified) |
-
-## Method and scope
-
-> How the guide is built, and how its structure should be read.
-
-**Domains as the taxonomy.** The four abstract bibliographic categories — technical arts, technology, engineering, engineering science — do not survive the *Encyclopédie*-plate test: a single plate documents a workshop, a tool and its principle on one page. The guide therefore uses the historical **Ars** domain-sections themselves as its taxonomy; each section is the domain of a philosophia *technica* guide element family concept the corpus could type a decomposition into, but the guide reads them as a **historical** classification of what was printed and scanned. The viewer's technique taxonomy (variational method, technique-path trees) and these histories need not coincide; the mapping is left to the notes that decompose each field.
-
-**One series, one entry.** A serial is merged into one entry when its material is thin or when it is intellectually one research programme. Rayleigh's *Theory of Sound* (1877–78) is one book-length project on both grounds; the Ordnance Department's *Reports* (1856–61) are one testing campaign. Where a serial is only bibliographically contiguous — Symons's *British Rainfall* or Sabine's magnetic *Contributions* — the merge is preserved because the period's own bound volumes bound them as one shelf object. The decision is a reading judgement recorded where it is most contestable.
-
-**Scriptable collections.** Linking policy is scan-first and honest-marking: every Internet Archive identifier is resolved through `advancedsearch.php` and its title read from `/metadata/<id>` before the link is written; where no archive scan verifies, the row says so. The collections that can be scripted at scale: the **Internet Archive** (bulk search + per-item metadata + full OCR), the **BSB/MDZ** digitisations (many `[id]"-bsb" identifiers here), **HaithiTrust** by bibliographic API (browse-first in the reader), **Gallica** SRU and IIIF, and the **Smithsonian** Open Access trade-catalogue API (demonstrated on meteorological and photographic instruments above). The Science History Institute and the Wellcome Library provide deep browse-first scans for chemistry and the pharmacopoeias.
 
 
 ## References

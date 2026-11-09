@@ -36627,5 +36627,105 @@
         "commit": "14c3584e60d5d3e62bc7e7bb73d574b4d32a7ca0"
       }
     ]
+  },
+  {
+    "file_path": "books/baker-1804-practice-rifle-guns.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Baker, Twenty-Three Years Practice (1804) — the British gun trade; 1804 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/colt-1855-application-machinery-fire-arms.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Colt, On the Application of Machinery (1855) — the gun manufacture interchangeability; 1855 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/busk-1859-rifle-how-to-use-it.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Busk, The Rifle, and How to Use It (1859) — the rifle volunteer theory; 1859/1861 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/greener-1881-gun-and-its-development.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Greener, The Gun and Its Development (1881) — the gun trade standard; 1897 edition scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/norton-1880-breech-loading-small-arms.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Norton, American Inventions in Breech-Loading Small Arms (1880) — the American gun-trade patents; 1880 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/roubo-1769-art-du-menuisier.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Roubo, L'Art du Menuisier (1769–75) — the joinery monument; 1828 Roret printing scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/chippendale-1754-gentleman-cabinet-maker-director.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Chippendale, The Gentleman and Cabinet-Maker Director (1754) — the first pattern book; 1754 SCAN."
+      }
+    ]
+  },
+  {
+    "file_path": "books/sheraton-1791-drawing-book.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Sheraton, The Cabinet-Maker and Upholsterer Drawing-Book (1791–94) — the design plates; 1793 scan."
+      }
+    ]
+  },
+  {
+    "file_path": "books/bale-1880-woodworking-machinery.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Bale, Wood-working Machinery (1880) — the British trade machines; 1880/1883 scans."
+      }
+    ]
+  },
+  {
+    "file_path": "books/richards-1872-wood-working-machines.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Richards, Wood-Working Machines (1872) — the engineering study of the wood trade; 1872 scan."
+      }
+    ]
   }
 ]
