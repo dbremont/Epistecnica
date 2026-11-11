@@ -104,6 +104,20 @@ tags: [note, mathematics, quantity]
 - The system, especially the use of zero, was passed to the **Islamic world** by the 9th century. **Al-Khwarizmi** and other scholars played a key role in popularizing it.
 - In the 12th century, **European mathematicians** began adopting the system, particularly through the translations of Arabic texts, such as those by **Fibonacci** in his book *Liber Abaci* (1202).
 
+## Decimal Place Value Names
+
+| Fraction | English | Español | Decimal |
+|---|---|---|---:|
+| \(1/10\) | One tenth | Un décimo | 0.1 |
+| \(1/100\) | One hundredth | Un centésimo | 0.01 |
+| \(1/1,000\) | One thousandth | Un milésimo | 0.001 |
+| \(1/10,000\) | One ten-thousandth | Un diezmilésimo | 0.0001 |
+| \(1/100,000\) | One hundred-thousandth | Un cienmilésimo | 0.00001 |
+| \(1/1,000,000\) | One millionth | Un millonésimo | 0.000001 |
+| \(1/10,000,000\) | One ten-millionth | Un diezmillonésimo | 0.0000001 |
+| \(1/100,000,000\) | One hundred-millionth | Un cienmillonésimo | 0.00000001 |
+| \(1/1,000,000,000\) | One billionth | Un milmillonésimo | 0.000000001 |
+
 ## References
 
 - https://en.wikipedia.org/wiki/Number

@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geometric Shape Atlas</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================================
+       EPISTEMICA — shared tokens + live-note chrome
+       ============================================================ */
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --accent-violet: #B48EF0;
+      --accent-violet-dim: rgba(180, 142, 240, 0.12);
+      --accent-copper: #c9956c;
+      --accent-copper-light: #dbb08a;
+      --accent-sage: #7ba388;
+      --accent-plum: #9b7eb0;
+      --accent-rose: #c47d8a;
+      --accent-amber: #d4a857;
+      --accent-steel: #6b8caa;
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --border-medium: rgba(255, 255, 255, 0.08);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --accent-violet: #6B4FA8;
+      --accent-violet-dim: rgba(107, 79, 168, 0.1);
+      --accent-copper: #9a7b3f;
+      --accent-copper-light: #7a6132;
+      --accent-sage: #4e7a5e;
+      --accent-plum: #7a5f8c;
+      --accent-rose: #a55a68;
+      --accent-amber: #9a742f;
+      --accent-steel: #4e6e8c;
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --border-medium: rgba(20, 22, 30, 0.14);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    #ambientCanvas {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      opacity: 0.55; width: 100%; height: 100%;
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .theme-toggle {
+      background: transparent; border: 1px solid var(--border-subtle);
+      border-radius: 6px; color: var(--text-secondary); cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+      padding: 0.45rem 0.7rem; text-transform: uppercase;
+    }
+    .theme-toggle:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+    .layout { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
+
+    .crumbs {
+      font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.1rem;
+    }
+    .crumbs a { color: var(--text-muted); }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.45rem; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display); font-weight: 300; font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.05; letter-spacing: 0.01em; margin: 0 0 1rem;
+    }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .chip {
+      display: inline-block; padding: 0.22rem 0.6rem;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-secondary);
+    }
+    .chip.gold { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+
+    .lede { max-width: 84ch; color: var(--text-secondary); font-size: 1.02rem; margin: 0 0 1.2rem; }
+    .lede strong { color: var(--text-primary); font-weight: 500; }
+
+    .atlas-panel {
+      border: 1px solid var(--border-subtle); background: var(--card-bg);
+      border-radius: 12px; padding: 1rem 1.1rem; margin: 0 0 1.2rem;
+    }
+    .controls { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+    .searchbox {
+      flex: 1 1 320px; display: flex; align-items: center; gap: 0.5rem;
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      border-radius: 10px; padding: 0.5rem 0.7rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .searchbox:focus-within {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 3px var(--accent-cyan-dim);
+    }
+    .searchbox svg { color: var(--text-muted); flex: none; }
+    #search {
+      flex: 1; min-width: 0; background: transparent; border: 0; outline: 0;
+      color: var(--text-primary); font-family: var(--font-body); font-size: 0.92rem;
+    }
+    #search::placeholder { color: var(--text-muted); }
+    #clearSearch {
+      background: transparent; border: 0; color: var(--text-muted);
+      cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0 0.1rem;
+    }
+    #clearSearch:hover { color: var(--accent-cyan); }
+
+    .btn {
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      color: var(--text-secondary); border-radius: 9px; padding: 0.5rem 0.75rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.06em;
+      text-transform: uppercase; cursor: pointer;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .btn:hover { color: var(--text-primary); border-color: var(--border-medium); }
+    .btn.active { border-color: var(--accent-cyan); color: var(--accent-cyan); background: var(--accent-cyan-dim); }
+    select.btn option { background: var(--bg-card); color: var(--text-primary); }
+    .seg { display: flex; border: 1px solid var(--border-subtle); border-radius: 9px; overflow: hidden; }
+    .seg .btn { border: 0; border-radius: 0; }
+
+    .legend-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin-top: 0.8rem; }
+    .legend-label {
+      font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--text-muted); min-width: 5.2rem;
+    }
+    .fchip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text-muted); background: transparent;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      padding: 0.3rem 0.6rem; cursor: pointer; user-select: none;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .fchip .sw { width: 9px; height: 9px; border-radius: 2px; background: var(--el-color); }
+    .fchip .chip-count { opacity: 0.55; }
+    .fchip:hover { color: var(--text-primary); border-color: var(--el-color); }
+    .fchip.on {
+      color: var(--text-primary); border-color: var(--el-color);
+      background: color-mix(in srgb, var(--el-color) 12%, transparent);
+    }
+    .count {
+      margin-top: 0.7rem; color: var(--text-muted); font-family: var(--font-mono);
+      font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase;
+    }
+
+    .hidden { display: none !important; }
+    .muted { color: var(--text-muted); font-size: 0.82rem; }
+
+    /* Outline */
+    .outline {
+      overflow: hidden; background: var(--bg-card);
+      border: 1px solid var(--border-subtle); border-radius: 12px;
+    }
+    .tree-row {
+      display: flex; align-items: flex-start; gap: 0.7rem;
+      padding: 0.6rem 0.8rem 0.6rem calc(0.8rem + var(--depth, 0) * 1.1rem);
+      border-bottom: 1px solid var(--border-subtle);
+      cursor: pointer; transition: background 0.15s, opacity 0.15s;
+    }
+    .tree-row:last-child { border-bottom: 0; }
+    .tree-row:hover { background: color-mix(in srgb, var(--el-color) 5%, transparent); }
+    .tree-row.off { display: none; }
+    .tree-row.family-row {
+      background: linear-gradient(90deg, color-mix(in srgb, var(--el-color) 8%, transparent), transparent 55%);
+      border-left: 3px solid var(--el-color);
+    }
+    .tree-row.root-row {
+      background: linear-gradient(90deg, var(--accent-gold-dim), transparent 60%);
+      border-left: 3px solid var(--accent-gold);
+    }
+    .tree-row .twist, .tree-row .twist-space {
+      width: 20px; height: 20px; flex: none; margin-top: 0.2rem;
+      display: inline-flex; align-items: center; justify-content: center;
+      border-radius: 5px; font-family: var(--font-mono); font-size: 0.78rem;
+      line-height: 1; color: var(--text-muted); background: transparent;
+      border: 1px solid var(--border-subtle);
+    }
+    .tree-row .twist { cursor: pointer; }
+    .tree-row .twist:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .tree-row .twist-space { border-color: transparent; }
+    .thumb {
+      width: 58px; height: 42px; flex: none; border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+      background: color-mix(in srgb, var(--el-color) 7%, var(--bg-surface));
+      display: inline-flex; align-items: center; justify-content: center;
+      overflow: hidden;
+    }
+    .thumb svg { width: 100%; height: 100%; display: block; }
+    .tree-body { flex: 1; min-width: 0; }
+    .row-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.45rem; }
+    .row-name { font-weight: 500; color: var(--text-primary); }
+    .row-path {
+      font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.04em;
+      color: var(--text-muted); margin-top: 0.08rem; white-space: normal;
+    }
+    .row-desc {
+      color: var(--text-secondary); font-size: 0.78rem; line-height: 1.45; margin-top: 0.12rem;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .child-count {
+      flex: none; font-family: var(--font-mono); font-size: 0.52rem;
+      letter-spacing: 0.05em; text-transform: uppercase; color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .fam-chip {
+      display: inline-block; padding: 0.18rem 0.5rem; border-radius: 999px;
+      border: 1px solid color-mix(in srgb, var(--el-color, var(--accent-copper)) 40%, transparent);
+      background: color-mix(in srgb, var(--el-color, var(--accent-copper)) 8%, transparent);
+      color: var(--el-color, var(--text-secondary));
+      font-family: var(--font-mono); font-size: 0.52rem; letter-spacing: 0.05em;
+      text-transform: uppercase; white-space: nowrap;
+    }
+
+    /* Table */
+    .tablewrap {
+      overflow-x: auto; background: var(--bg-card);
+      border: 1px solid var(--border-subtle); border-radius: 12px;
+    }
+    .atlas-table { width: 100%; min-width: 940px; border-collapse: collapse; }
+    .atlas-table th {
+      text-align: left; padding: 0.65rem 0.7rem; border-bottom: 1px solid var(--border-medium);
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); font-weight: 400;
+      background: color-mix(in srgb, var(--bg-card) 92%, var(--bg-surface));
+    }
+    .atlas-table td {
+      padding: 0.58rem 0.7rem; border-bottom: 1px solid var(--border-subtle);
+      vertical-align: top; font-size: 0.84rem;
+    }
+    .atlas-table tbody tr:last-child td { border-bottom: 0; }
+    .group-row td {
+      background: color-mix(in srgb, var(--el-color) 5%, transparent);
+      border-left: 2px solid var(--el-color);
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.07em;
+      text-transform: uppercase; color: var(--text-secondary);
+      padding-top: 0.5rem; padding-bottom: 0.5rem; cursor: pointer;
+    }
+    .group-row.off { display: none; }
+    .fam-dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; background: var(--el-color); margin-right: 0.45rem; }
+    .group-essence { text-transform: none; letter-spacing: 0; font-family: var(--font-body); font-size: 0.72rem; color: var(--text-muted); margin-left: 0.35rem; }
+    .shape-row { cursor: pointer; transition: opacity 0.18s; }
+    .shape-row td:first-child { border-left: 2px solid var(--el-color); }
+    .shape-row:hover td { background: color-mix(in srgb, var(--el-color) 5%, transparent); }
+    .shape-row.off { display: none; }
+    .shape-row:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: -2px; }
+    .shape-cell { display: flex; align-items: center; gap: 0.55rem; min-width: 220px; }
+    .shape-cell .thumb { width: 54px; height: 40px; }
+    .shape-name-wrap { display: flex; flex-direction: column; min-width: 0; }
+    .shape-name { color: var(--text-primary); font-weight: 500; }
+    .shape-path { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.52rem; line-height: 1.4; }
+    .desc-cell { color: var(--text-secondary); line-height: 1.5; max-width: 52ch; }
+    .dim-cell, .child-cell { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.58rem; white-space: nowrap; }
+
+    /* Families */
+    .family-block { margin-bottom: 1.5rem; transition: opacity 0.18s; }
+    .family-block.off { display: none; }
+    .family-head {
+      display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;
+      margin-bottom: 0.6rem; cursor: pointer;
+    }
+    .family-head:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 3px; border-radius: 4px; }
+    .family-dot { width: 10px; height: 10px; border-radius: 2px; background: var(--el-color); flex: none; }
+    .family-title { font-family: var(--font-display); font-size: 1.35rem; font-weight: 400; margin: 0; }
+    .family-essence { color: var(--text-muted); font-size: 0.78rem; }
+    .family-count { margin-left: auto; font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); }
+    .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(224px, 1fr)); gap: 8px; }
+    .tile {
+      text-align: left; background: linear-gradient(165deg, color-mix(in srgb, var(--el-color) 8%, var(--bg-card)), var(--bg-card));
+      border: 1px solid var(--border-subtle); border-left: 2px solid var(--el-color);
+      border-radius: 10px; padding: 9px 10px; cursor: pointer; color: inherit;
+      font-family: inherit; display: flex; flex-direction: column; gap: 4px;
+      transition: transform 0.12s, box-shadow 0.12s, opacity 0.18s, filter 0.18s;
+    }
+    .tile:hover {
+      transform: translateY(-2px); border-color: var(--el-color);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.28), 0 0 0 1px color-mix(in srgb, var(--el-color) 45%, transparent);
+    }
+    .tile.off { opacity: 0.12; filter: grayscale(0.85); pointer-events: none; }
+    .tile:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+    .tile-figure {
+      height: 86px; border-radius: 8px; border: 1px solid var(--border-subtle);
+      background: color-mix(in srgb, var(--el-color) 6%, var(--bg-surface));
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .tile-figure svg { width: 100%; height: 100%; display: block; }
+    .tile-name { font-size: 0.95rem; font-weight: 500; }
+    .tile-path { font-family: var(--font-mono); font-size: 0.5rem; line-height: 1.4; color: var(--text-muted); }
+    .tile-desc {
+      color: var(--text-secondary); font-size: 0.76rem; line-height: 1.45;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .tile-meta { font-family: var(--font-mono); font-size: 0.52rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+
+    /* Figures */
+    .fig { display: block; width: 100%; height: 100%; overflow: visible; }
+    .fig-stroke { stroke: var(--fig, var(--accent-cyan)); fill: none; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .fig-fill { fill: color-mix(in srgb, var(--fig, var(--accent-cyan)) 14%, transparent); stroke: none; }
+    .fig-soft { fill: color-mix(in srgb, var(--fig, var(--accent-cyan)) 6%, transparent); stroke: none; }
+    .fig-line { stroke: var(--fig, var(--accent-cyan)); fill: none; stroke-width: 0.9; stroke-linecap: round; stroke-linejoin: round; opacity: 0.55; }
+    .fig-dot { fill: var(--fig, var(--accent-cyan)); stroke: none; }
+    .fig-gold { stroke: var(--accent-gold); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    .fig-label { fill: var(--text-muted); font-family: var(--font-mono); font-size: 6px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+    /* Modal */
+    #modal {
+      position: fixed; inset: 0; background: rgba(5,8,12,0.72);
+      backdrop-filter: blur(6px); display: flex; align-items: flex-start;
+      justify-content: center; padding: 4vh 16px; z-index: 100; overflow: auto;
+    }
+    .sheet {
+      width: min(900px, 100%); background: var(--bg-surface);
+      border: 1px solid var(--border-medium); border-radius: 16px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5); overflow: hidden; animation: pop 0.18s ease;
+    }
+    @keyframes pop { from { transform: scale(0.97); opacity: 0.6; } }
+    .sheethead {
+      display: flex; align-items: center; gap: 16px; padding: 18px 22px;
+      border-bottom: 1px solid var(--border-subtle); flex-wrap: wrap;
+    }
+    .modal-symbol {
+      width: 82px; height: 72px; border-radius: 14px; flex: none;
+      border: 1px solid var(--el-color, var(--accent-copper));
+      background: color-mix(in srgb, var(--el-color, var(--accent-copper)) 12%, transparent);
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .modal-symbol svg { width: 100%; height: 100%; }
+    .sheet-title { min-width: 0; flex: 1; }
+    .sheethead .name { font-family: var(--font-display); font-size: 1.6rem; font-weight: 400; line-height: 1.1; }
+    .sheethead .path { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.58rem; line-height: 1.5; margin-top: 3px; }
+    .modal-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .axis-chip {
+      display: inline-block; padding: 0.2rem 0.55rem; border: 1px solid var(--border-subtle);
+      border-radius: 999px; font-family: var(--font-mono); font-size: 0.56rem;
+      text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);
+    }
+    .sheetnav { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+    .sheetnav .pos { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; min-width: 64px; text-align: center; }
+    .navb, .closeb {
+      width: 34px; height: 34px; border-radius: 9px; background: var(--bg-card);
+      color: var(--text-primary); border: 1px solid var(--border-subtle);
+      font-size: 16px; cursor: pointer;
+    }
+    .navb:hover, .closeb:hover { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    .navb:disabled { opacity: 0.3; cursor: default; }
+    .sheetbody { padding: 18px 22px 24px; display: flex; flex-direction: column; gap: 16px; }
+    .hero {
+      border: 1px solid var(--border-subtle); border-radius: 12px;
+      background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--el-color, var(--accent-cyan)) 8%, transparent), var(--bg-card));
+      padding: 0.5rem; min-height: 220px; display: flex; align-items: center; justify-content: center;
+    }
+    .hero svg { width: 100%; height: 240px; }
+    .sec { border-left: 3px solid var(--sc, var(--accent-cyan)); padding-left: 14px; }
+    .sec h3 {
+      margin: 0 0 6px; font-family: var(--font-mono); font-size: 0.62rem;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--sc, var(--accent-cyan));
+      font-weight: 400;
+    }
+    .sec p { margin: 0; color: var(--text-secondary); font-size: 0.88rem; line-height: 1.65; }
+    .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .pill {
+      display: inline-block; padding: 0.25rem 0.6rem; border: 1px solid var(--border-subtle);
+      border-radius: 999px; font-family: var(--font-mono); font-size: 0.58rem;
+      color: var(--text-secondary); background: var(--bg-card); cursor: pointer;
+    }
+    .pill:hover { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    .note-link { color: var(--accent-cyan); font-size: 0.84rem; }
+    .note-link:hover { text-decoration: underline; }
+
+    .loaderror {
+      border: 1px solid var(--accent-rose); border-radius: 10px;
+      background: color-mix(in srgb, var(--accent-rose) 7%, transparent);
+      color: var(--text-secondary); padding: 1rem 1.1rem; margin: 0 0 1.2rem;
+      font-size: 0.86rem;
+    }
+    .loaderror code { color: var(--accent-rose); }
+    #empty { text-align: center; color: var(--text-muted); padding: 40px 0 10px; font-size: 14px; }
+    #empty p { margin: 0 0 0.8rem; }
+
+    .atlas-refs { margin-top: 2rem; border-top: 1px solid var(--border-subtle); padding-top: 1.2rem; }
+    .atlas-refs h2 { font-family: var(--font-display); font-weight: 400; font-size: 1.6rem; margin: 0 0 0.6rem; }
+    .atlas-refs p, .atlas-refs li { color: var(--text-secondary); font-size: 0.86rem; line-height: 1.7; }
+    .atlas-refs ul { margin: 0.6rem 0 0 1.1rem; padding: 0; }
+    .atlas-refs li { margin-bottom: 0.35rem; }
+
+    .site-footer {
+      position: relative; z-index: 1; border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg); padding: 1.4rem 2rem;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    mark { background: var(--accent-cyan-dim); color: var(--accent-cyan); border-radius: 2px; padding: 0 1px; }
+
+    @media (max-width: 760px) {
+      .layout { padding: 1.8rem 1.2rem 2.6rem; }
+      .site-nav .nav-inner { padding: 0.8rem 1.2rem; }
+      .searchbox { flex-basis: 100%; }
+      .tree-row { padding-left: calc(0.5rem + var(--depth, 0) * 0.65rem); }
+      .tree-row .thumb { width: 46px; height: 36px; }
+      .row-desc { -webkit-line-clamp: 3; }
+      .child-count { display: none; }
+      .sheethead { gap: 12px; }
+      .sheetnav { margin-left: 0; }
+      .family-count { margin-left: 0; }
+    }
+  </style>
+  <link rel="stylesheet" href="/shared/usearch.css">
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="crumbs">
+      <a href="/explorer.html?dir=notes">notes</a><span class="sep">/</span>
+      <a href="/explorer.html?dir=notes/epistemica">epistemica</a><span class="sep">/</span>
+      <a href="/explorer.html?dir=notes/epistemica/mathematical">mathematical</a><span class="sep">/</span>
+      <a href="/explorer.html?dir=notes/epistemica/mathematical/geometry">geometry</a><span class="sep">/</span>
+      <span class="here">atlas</span>
+    </div>
+
+    <h1 class="note-title">Geometric Shape Atlas</h1>
+
+    <div class="note-meta">
+      <span class="chip gold" id="chipNodes">— entries</span>
+      <span class="chip" id="chipFamilies">— families</span>
+      <span class="chip" id="chipFigures">— figures</span>
+      <span class="chip">live note</span>
+    </div>
+
+    <p class="lede">Every shape in the corpus decomposition, drawn as a figure and read as a path. The atlas follows the <a href="/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md">Geometric Shape</a> table: elemental forms first, then curves, planar and curved regions, solids, higher-dimensional polytopes, and arrangements. <strong>Search</strong> to filter, switch between <strong>outline</strong>, <strong>families</strong>, and <strong>table</strong>, and open any entry for a large figure and its decomposition.</p>
+
+    <div class="atlas-panel">
+      <div class="controls">
+        <div class="searchbox">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="search" type="search" placeholder="Search shapes — name, path, description, family, dimension…" autocomplete="off" aria-label="Search shapes">
+          <button type="button" id="clearSearch" class="hidden" title="Clear search (Esc)" aria-label="Clear search">&times;</button>
+        </div>
+        <div class="seg" id="viewSeg">
+          <button type="button" class="btn active" data-view="outline">Outline</button>
+          <button type="button" class="btn" data-view="families">Families</button>
+          <button type="button" class="btn" data-view="table">Table</button>
+        </div>
+        <select id="sort" class="btn" title="Sort the table">
+          <option value="family">Sort: Family</option>
+          <option value="name">Sort: Name A–Z</option>
+          <option value="depth">Sort: Depth</option>
+          <option value="children">Sort: Children</option>
+        </select>
+        <div class="seg" id="treeTools">
+          <button type="button" class="btn" id="expandAll">Expand</button>
+          <button type="button" class="btn" id="collapseAll">Collapse</button>
+        </div>
+      </div>
+      <div class="legend-row"><span class="legend-label">Family</span><div class="legend" id="legend"></div></div>
+      <div class="legend-row"><span class="legend-label">Dimension</span><div class="legend" id="dimLegend"></div></div>
+      <div class="count" id="count">Loading the shape tree…</div>
+    </div>
+
+    <div id="loadError" class="loaderror hidden"></div>
+
+    <section id="outlineView" class="outline"></section>
+    <section id="familiesView" class="hidden"></section>
+    <section id="tableView" class="hidden">
+      <div class="tablewrap">
+        <table class="atlas-table">
+          <thead>
+            <tr><th>Figure / Shape</th><th>Family</th><th>Dimension</th><th>Description</th><th>Children</th></tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div id="empty" class="hidden">
+      <p>No shapes match this search and filter combination.</p>
+      <button type="button" class="btn" id="clearFilters">Clear filters</button>
+    </div>
+
+    <section class="atlas-refs" id="references">
+      <h2>References</h2>
+      <p>The table is the source of truth; each node keeps its original decomposition path and description, and the figure is an atlas rendering of that entry, not an additional claim about it. The classification follows the corpus's geometry branch and the canonical epistemic and conceptual guides.</p>
+      <ul>
+        <li><a href="/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md">Geometric Shape</a> — the instance decomposition this atlas renders.</li>
+        <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — the epistemic schema and the Arithmetic case study.</li>
+        <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md">Philosophia Conceptuum et Operis</a> — the criteria for conceptual identification and evaluation.</li>
+        <li><a href="/explorer.html?dir=notes/epistemica/mathematical/geometry">Geometry corpus</a> — the notes linked by individual shape entries.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; geometric shape atlas</div>
+      <a href="/explorer.html?dir=notes/epistemica/mathematical/geometry">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <div id="modal" class="hidden">
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mName">
+      <div class="sheethead">
+        <div class="modal-symbol" id="mSymbol"></div>
+        <div class="sheet-title">
+          <div class="name" id="mName"></div>
+          <div class="path" id="mPath"></div>
+          <div class="modal-chips">
+            <span class="fam-chip" id="mFam"></span>
+            <span class="axis-chip" id="mDim"></span>
+            <span class="axis-chip" id="mKind"></span>
+          </div>
+        </div>
+        <div class="sheetnav">
+          <button class="navb" id="mPrev" title="Previous shape">&#8249;</button>
+          <span class="pos" id="mPos"></span>
+          <button class="navb" id="mNext" title="Next shape">&#8250;</button>
+          <button class="closeb" id="mClose" title="Close (Esc)">&#10005;</button>
+        </div>
+      </div>
+      <div class="sheetbody">
+        <div class="hero" id="mFigure"></div>
+        <div class="sec" style="--sc: var(--accent-cyan)">
+          <h3>Description</h3>
+          <p id="mDesc"></p>
+        </div>
+        <div class="sec" style="--sc: var(--accent-amber)">
+          <h3>Children</h3>
+          <div class="pills" id="mChildren"></div>
+        </div>
+        <div class="sec" style="--sc: var(--accent-plum)">
+          <h3>Parent</h3>
+          <div class="pills" id="mParent"></div>
+        </div>
+        <div class="sec" id="mNoteWrap" style="--sc: var(--accent-copper)">
+          <h3>Corpus note</h3>
+          <a class="note-link" id="mNote"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+(function () {
+  var toggle = document.getElementById('themeToggle');
+  var label = document.getElementById('themeLabel');
+  var fading = false;
+  function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+  toggle.addEventListener('click', function () {
+    if (fading) return;
+    fading = true;
+    var root = document.documentElement;
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var swap = function () {
+      root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+      try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+      apply();
+      root.classList.remove('theme-fading');
+      fading = false;
+      window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+    };
+    if (reduced) { swap(); return; }
+    root.classList.add('theme-fading');
+    setTimeout(swap, 190);
+  });
+  apply();
+})();
+</script>
+
+<script>
+(function () {
+  var c = document.getElementById('ambientCanvas');
+  if (!c) return;
+  var ctx = c.getContext('2d'), pts = [];
+  function resize() {
+    c.width = window.innerWidth; c.height = window.innerHeight;
+    pts = [];
+    for (var i = 0; i < 70; i++) {
+      pts.push({ x: Math.random() * c.width, y: Math.random() * c.height, r: Math.random() * 1.1 + 0.2, a: Math.random() * 0.35 + 0.08 });
+    }
+  }
+  function draw() {
+    var col = getComputedStyle(document.documentElement).getPropertyValue('--text-muted').trim();
+    ctx.clearRect(0, 0, c.width, c.height);
+    pts.forEach(function (p) {
+      ctx.globalAlpha = p.a; ctx.fillStyle = col;
+      ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+  }
+  window.addEventListener('resize', function () { resize(); draw(); });
+  window.addEventListener('epistecnica-theme', draw);
+  resize(); draw();
+})();
+</script>
+
+<script src="/shared/usearch.js" data-root="../../../../../"></script>
+
+<script>
+var DATA = null;
+var FAMILIES = {};
+var DIMENSIONS = [];
+var NODES = [];
+var NODE_BY_ID = {};
+var PARENT = new Map();
+var FAMILY_NODE = {};
+var FAMILY_ORDER = [];
+var SEQ = 0;
+
+var state = {
+  q: '',
+  family: null,
+  dimension: null,
+  view: 'outline',
+  sort: 'family',
+  collapsed: new Set(),
+  cur: null,
+  list: [],
+  built: { outline: false, table: false, families: false },
+  lastFocus: null
+};
+
+function $(id) { return document.getElementById(id); }
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+function stripMd(s) {
+  return String(s || '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .replace(/\*\*([^*]+)\*\*/g, '$1')
+    .replace(/\*([^*]+)\*/g, '$1');
+}
+
+function plainMath(s) {
+  return String(s || '')
+    .replace(/\\mathbb\{([RNZQC])\}/g, function (m, c) {
+      return { R: 'ℝ', N: 'ℕ', Z: 'ℤ', Q: 'ℚ', C: 'ℂ' }[c] || c;
+    })
+    .replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, '$1/$2')
+    .replace(/\\sqrt\{([^{}]*)\}/g, '√($1)')
+    .replace(/\\text\{([^{}]*)\}/g, '$1')
+    .replace(/\\(?:mathrm|mathcal|operatorname)\{([^{}]*)\}/g, '$1')
+    .replace(/\\pi/g, 'π').replace(/\\approx/g, '≈').replace(/\\times/g, '×')
+    .replace(/\\le/g, '≤').replace(/\\ge/g, '≥').replace(/\\ne/g, '≠')
+    .replace(/\\cdot/g, '·').replace(/\\to/g, '→').replace(/\\infty/g, '∞')
+    .replace(/\\left|\\right/g, '')
+    .replace(/\\[,;!]/g, ' ')
+    .replace(/\^2/g, '²').replace(/\^3/g, '³').replace(/\^4/g, '⁴').replace(/\^n/g, 'ⁿ')
+    .replace(/[{}]/g, '');
+}
+
+function preview(s) {
+  return plainMath(stripMd(String(s || '')).replace(/\$[^$]*\$/g, function (m) { return m.slice(1, -1); }))
+    .replace(/\s+/g, ' ').trim();
+}
+
+function highlight(text, q) {
+  var s = String(text == null ? '' : text);
+  if (!q) return esc(s);
+  var i = s.toLowerCase().indexOf(String(q).toLowerCase());
+  if (i < 0) return esc(s);
+  return esc(s.slice(0, i)) + '<mark>' + esc(s.slice(i, i + q.length)) + '</mark>' + esc(s.slice(i + q.length));
+}
+
+function familyName(id) {
+  return FAMILIES[id] ? FAMILIES[id].name : 'Geometric Shape';
+}
+
+function familyColor(id) {
+  return FAMILIES[id] ? 'var(' + FAMILIES[id].color + ')' : 'var(--accent-gold)';
+}
+
+function dimName(id) {
+  for (var i = 0; i < DIMENSIONS.length; i++) {
+    if (DIMENSIONS[i].id === id) return DIMENSIONS[i].name;
+  }
+  return id || '—';
+}
+
+function noteHref(path) {
+  return path && path.slice(-5) === '.html' ? '/corpus/notes/' + path : '/view.html?p=notes/' + path;
+}
+
+function shortPath(n) {
+  var p = String(n.path || '').replace(/^Geometric Shape → /, '');
+  return p || n.label;
+}
+
+function ancestors(n) {
+  var out = [], cur = n;
+  while (cur) {
+    out.unshift(cur);
+    var pid = PARENT.get(cur.id);
+    cur = pid ? NODE_BY_ID[pid] : null;
+  }
+  return out;
+}
+
+function flatten(node, parent, depth) {
+  node._depth = depth;
+  node._seq = SEQ++;
+  node._children = node.children || [];
+  NODES.push(node);
+  NODE_BY_ID[node.id] = node;
+  if (parent) PARENT.set(node.id, parent.id);
+  node._children.forEach(function (child) { flatten(child, node, depth + 1); });
+}
+
+function matches(n) {
+  if (state.family && n.family !== state.family) return false;
+  if (state.dimension && n.dimension !== state.dimension) return false;
+  if (!state.q) return true;
+  var q = state.q.toLowerCase().trim();
+  if (!q) return true;
+  var terms = q.split(/\s+/).filter(Boolean);
+  var hay = [
+    n.label, n.path, n.description, familyName(n.family), dimName(n.dimension),
+    n.figure && n.figure.kind, n.figure && n.figure.variant,
+    (n._children || []).map(function (c) { return c.label; }).join(' ')
+  ].join(' ').toLowerCase();
+  return terms.every(function (t) { return hay.indexOf(t) >= 0; });
+}
+
+function sortNodes(list) {
+  var copy = list.slice();
+  if (state.sort === 'name') {
+    copy.sort(function (a, b) { return a.label.localeCompare(b.label) || a._seq - b._seq; });
+  } else if (state.sort === 'depth') {
+    copy.sort(function (a, b) { return a._depth - b._depth || a._seq - b._seq; });
+  } else if (state.sort === 'children') {
+    copy.sort(function (a, b) { return b._children.length - a._children.length || a._seq - b._seq; });
+  } else {
+    copy.sort(function (a, b) {
+      var ai = a.family === 'geometric-shape' ? -1 : FAMILY_ORDER.indexOf(a.family);
+      var bi = b.family === 'geometric-shape' ? -1 : FAMILY_ORDER.indexOf(b.family);
+      return ai - bi || a._depth - b._depth || a._seq - b._seq;
+    });
+  }
+  return copy;
+}
+
+function renderLegend() {
+  var legend = $('legend');
+  var dimLegend = $('dimLegend');
+  legend.innerHTML = '';
+  dimLegend.innerHTML = '';
+
+  var all = document.createElement('button');
+  all.type = 'button'; all.className = 'fchip'; all.dataset.all = 'family';
+  all.style.setProperty('--el-color', 'var(--accent-gold)');
+  all.textContent = 'All families';
+  all.onclick = function () { state.family = null; sync(); };
+  legend.appendChild(all);
+
+  DATA.families.forEach(function (f) {
+    var count = NODES.filter(function (n) { return n.family === f.id; }).length;
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'fchip'; b.dataset.family = f.id;
+    b.style.setProperty('--el-color', familyColor(f.id));
+    b.innerHTML = '<span class="sw"></span>' + esc(f.name) + ' <span class="chip-count">×' + count + '</span>';
+    b.onclick = function () { state.family = state.family === f.id ? null : f.id; sync(); };
+    legend.appendChild(b);
+  });
+
+  var allDim = document.createElement('button');
+  allDim.type = 'button'; allDim.className = 'fchip'; allDim.dataset.all = 'dimension';
+  allDim.style.setProperty('--el-color', 'var(--accent-gold)');
+  allDim.textContent = 'All dimensions';
+  allDim.onclick = function () { state.dimension = null; sync(); };
+  dimLegend.appendChild(allDim);
+
+  DIMENSIONS.forEach(function (d) {
+    var count = NODES.filter(function (n) { return n.dimension === d.id; }).length;
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'fchip'; b.dataset.dimension = d.id;
+    b.style.setProperty('--el-color', 'var(--accent-gold)');
+    b.innerHTML = esc(d.name) + ' <span class="chip-count">×' + count + '</span>';
+    b.onclick = function () { state.dimension = state.dimension === d.id ? null : d.id; sync(); };
+    dimLegend.appendChild(b);
+  });
+}
+
+function renderOutline() {
+  var html = NODES.map(function (n) {
+    var color = familyColor(n.family);
+    var has = n._children.length > 0;
+    var twist = has
+      ? '<button type="button" class="twist" data-twist="' + esc(n.id) + '" aria-expanded="true" title="Collapse">−</button>'
+      : '<span class="twist-space" aria-hidden="true"></span>';
+    var kindClass = n.kind === 'root' ? ' root-row' : (n.kind === 'family' ? ' family-row' : '');
+    var famChip = (n.kind === 'root' || n.kind === 'family') ? '' : '<span class="fam-chip">' + esc(familyName(n.family)) + '</span>';
+    return '<div class="tree-row' + kindClass + '" data-id="' + esc(n.id) + '" style="--el-color:' + color + ';--depth:' + n._depth + '">'
+      + twist
+      + '<span class="thumb" style="--el-color:' + color + '">' + figSVG(n.figure, { w: 120, h: 90, color: color }) + '</span>'
+      + '<div class="tree-body">'
+      +   '<div class="row-line"><span class="row-name">' + highlight(n.label, state.q) + '</span>' + famChip + '</div>'
+      +   '<div class="row-path">' + esc(n.path) + '</div>'
+      +   '<div class="row-desc">' + highlight(preview(n.description), state.q) + '</div>'
+      + '</div>'
+      + '<span class="child-count">' + (has ? n._children.length + (n._children.length === 1 ? ' child' : ' children') : '') + '</span>'
+      + '</div>';
+  }).join('');
+  $('outlineView').innerHTML = html;
+  state.built.outline = true;
+}
+
+function shapeRow(n) {
+  var color = familyColor(n.family);
+  return '<tr class="shape-row" data-id="' + esc(n.id) + '" style="--el-color:' + color + '" tabindex="0">'
+    + '<td><div class="shape-cell"><span class="thumb" style="--el-color:' + color + '">' + figSVG(n.figure, { w: 120, h: 90, color: color }) + '</span>'
+    + '<span class="shape-name-wrap"><span class="shape-name">' + highlight(n.label, state.q) + '</span><span class="shape-path">' + esc(n.path) + '</span></span></div></td>'
+    + '<td><span class="fam-chip">' + esc(familyName(n.family)) + '</span></td>'
+    + '<td class="dim-cell">' + esc(dimName(n.dimension)) + '</td>'
+    + '<td class="desc-cell">' + highlight(preview(n.description), state.q) + '</td>'
+    + '<td class="child-cell">' + (n._children.length || '—') + '</td>'
+    + '</tr>';
+}
+
+function renderTable() {
+  var body = $('tableBody');
+  var html = '';
+  if (state.sort === 'family') {
+    html += shapeRow(NODE_BY_ID['geometric-shape']);
+    DATA.families.forEach(function (f) {
+      var members = NODES.filter(function (n) { return n.family === f.id; })
+        .sort(function (a, b) { return a._depth - b._depth || a._seq - b._seq; });
+      if (!members.length) return;
+      html += '<tr class="group-row" data-family="' + esc(f.id) + '" style="--el-color:' + familyColor(f.id) + '"><td colspan="5"><span class="fam-dot"></span><strong>' + esc(f.name) + '</strong> <span class="group-essence">' + esc(f.essence) + '</span></td></tr>';
+      html += members.map(shapeRow).join('');
+    });
+  } else {
+    html = sortNodes(NODES).map(shapeRow).join('');
+  }
+  body.innerHTML = html;
+  state.built.table = true;
+}
+
+function tile(n) {
+  var color = familyColor(n.family);
+  return '<button type="button" class="tile" data-id="' + esc(n.id) + '" style="--el-color:' + color + '">'
+    + '<span class="tile-figure" style="--el-color:' + color + '">' + figSVG(n.figure, { w: 120, h: 90, color: color }) + '</span>'
+    + '<span class="tile-name">' + highlight(n.label, state.q) + '</span>'
+    + '<span class="tile-path">' + esc(shortPath(n)) + '</span>'
+    + '<span class="tile-desc">' + highlight(preview(n.description), state.q) + '</span>'
+    + '<span class="tile-meta">' + (n._children.length ? n._children.length + ' children' : 'leaf') + ' · ' + esc(dimName(n.dimension)) + '</span>'
+    + '</button>';
+}
+
+function renderFamilies() {
+  var html = DATA.families.map(function (f) {
+    var members = NODES.filter(function (n) { return n.family === f.id; })
+      .sort(function (a, b) { return a._depth - b._depth || a._seq - b._seq; });
+    var famNode = FAMILY_NODE[f.id];
+    return '<section class="family-block" data-family="' + esc(f.id) + '" style="--el-color:' + familyColor(f.id) + '">'
+      + '<div class="family-head" data-id="' + esc(famNode ? famNode.id : '') + '" role="button" tabindex="0">'
+      +   '<span class="family-dot"></span><h2 class="family-title">' + esc(f.name) + '</h2>'
+      +   '<span class="family-essence">' + esc(f.essence) + '</span>'
+      +   '<span class="family-count">' + members.length + ' entries</span>'
+      + '</div>'
+      + '<div class="tile-grid">' + members.map(tile).join('') + '</div>'
+      + '</section>';
+  }).join('');
+  $('familiesView').innerHTML = html;
+  state.built.families = true;
+}
+
+function sync() {
+  var active = !!(state.q || state.family || state.dimension);
+  var matchIds = new Set();
+  NODES.forEach(function (n) { if (matches(n)) matchIds.add(n.id); });
+  var visibleIds = new Set();
+  if (!active) {
+    NODES.forEach(function (n) { visibleIds.add(n.id); });
+  } else {
+    matchIds.forEach(function (id) {
+      var cur = id;
+      while (cur) { visibleIds.add(cur); cur = PARENT.get(cur); }
+    });
+  }
+
+  var count = $('count');
+  if (count) {
+    count.textContent = active
+      ? matchIds.size + ' of ' + NODES.length + ' entries'
+      : NODES.length + ' entries · ' + DATA.families.length + ' families · ' + DATA.stats.figures + ' figures';
+  }
+  var empty = $('empty');
+  if (empty) empty.classList.toggle('hidden', !(active && matchIds.size === 0));
+
+  document.querySelectorAll('#outlineView .tree-row').forEach(function (row) {
+    var id = row.dataset.id;
+    var show = visibleIds.has(id);
+    if (show && !active) {
+      var p = PARENT.get(id);
+      while (p) { if (state.collapsed.has(p)) { show = false; break; } p = PARENT.get(p); }
+    }
+    row.classList.toggle('off', !show);
+    var tw = row.querySelector('.twist');
+    if (tw) {
+      var open = !state.collapsed.has(id);
+      tw.textContent = open ? '−' : '+';
+      tw.setAttribute('aria-expanded', String(open));
+      tw.title = open ? 'Collapse' : 'Expand';
+    }
+  });
+
+  document.querySelectorAll('#tableView .shape-row').forEach(function (row) {
+    row.classList.toggle('off', !matchIds.has(row.dataset.id));
+  });
+  document.querySelectorAll('#tableView .group-row').forEach(function (row) {
+    var fam = row.dataset.family;
+    var any = NODES.some(function (n) { return n.family === fam && matchIds.has(n.id); });
+    row.classList.toggle('off', !any);
+  });
+
+  document.querySelectorAll('#familiesView .tile').forEach(function (el) {
+    el.classList.toggle('off', !matchIds.has(el.dataset.id));
+  });
+  document.querySelectorAll('#familiesView .family-block').forEach(function (block) {
+    var any = Array.prototype.some.call(block.querySelectorAll('.tile'), function (el) {
+      return !el.classList.contains('off');
+    });
+    block.classList.toggle('off', !any);
+  });
+
+  document.querySelectorAll('#legend .fchip[data-family]').forEach(function (b) {
+    b.classList.toggle('on', state.family === b.dataset.family);
+  });
+  document.querySelectorAll('#legend .fchip[data-all="family"]').forEach(function (b) {
+    b.classList.toggle('on', !state.family);
+  });
+  document.querySelectorAll('#dimLegend .fchip[data-dimension]').forEach(function (b) {
+    b.classList.toggle('on', state.dimension === b.dataset.dimension);
+  });
+  document.querySelectorAll('#dimLegend .fchip[data-all="dimension"]').forEach(function (b) {
+    b.classList.toggle('on', !state.dimension);
+  });
+
+  state.list = sortNodes(NODES.filter(function (n) { return matchIds.has(n.id); }));
+  if (state.cur) updateModalNav();
+}
+
+function setView(view) {
+  state.view = view;
+  document.querySelectorAll('#viewSeg .btn').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.view === view);
+  });
+  $('outlineView').classList.toggle('hidden', view !== 'outline');
+  $('familiesView').classList.toggle('hidden', view !== 'families');
+  $('tableView').classList.toggle('hidden', view !== 'table');
+  $('treeTools').classList.toggle('hidden', view !== 'outline');
+  if (view === 'families' && !state.built.families) renderFamilies();
+  if (view === 'table' && !state.built.table) renderTable();
+  sync();
+}
+
+function toggleCollapse(id) {
+  if (state.collapsed.has(id)) state.collapsed.delete(id);
+  else state.collapsed.add(id);
+  sync();
+}
+
+function updateModalNav() {
+  if (!state.cur) return;
+  var idx = state.list.findIndex(function (n) { return n.id === state.cur.id; });
+  var prev = $('mPrev'), next = $('mNext'), pos = $('mPos');
+  if (idx < 0) {
+    pos.textContent = '—';
+    prev.disabled = true; next.disabled = true;
+    return;
+  }
+  pos.textContent = (idx + 1) + ' / ' + state.list.length;
+  prev.disabled = idx <= 0;
+  next.disabled = idx >= state.list.length - 1;
+}
+
+function typeset(el) {
+  if (window.MathJax && MathJax.typesetPromise) {
+    MathJax.typesetPromise([el]).catch(function () { /* formula error is not fatal */ });
+  }
+}
+
+function openNode(n, keepFocus) {
+  if (!n) return;
+  if (!state.cur) state.lastFocus = document.activeElement;
+  state.cur = n;
+  var color = familyColor(n.family);
+  var modal = $('modal');
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  modal.style.setProperty('--el-color', color);
+  $('mSymbol').innerHTML = figSVG(n.figure, { w: 120, h: 90, color: color });
+  $('mName').textContent = n.label;
+  var arr = ancestors(n);
+  $('mPath').innerHTML = arr.map(function (a, i) {
+    if (i === arr.length - 1) return '<span style="color:var(--accent-gold)">' + esc(a.label) + '</span>';
+    return '<button type="button" class="pill" data-goto="' + esc(a.id) + '" style="padding:.12rem .4rem">' + esc(a.label) + '</button> <span style="opacity:.5">/</span> ';
+  }).join('');
+  $('mFam').textContent = familyName(n.family);
+  $('mFam').style.setProperty('--el-color', color);
+  $('mDim').textContent = dimName(n.dimension);
+  $('mKind').textContent = n.kind;
+  $('mFigure').innerHTML = figSVG(n.figure, { w: 320, h: 240, color: color });
+  $('mFigure').style.setProperty('--el-color', color);
+  $('mDesc').textContent = stripMd(n.description || '—');
+  $('mChildren').innerHTML = n._children.length
+    ? n._children.map(function (c) { return '<button type="button" class="pill" data-goto="' + esc(c.id) + '">' + esc(c.label) + '</button>'; }).join('')
+    : '<span class="muted">No children in the decomposition.</span>';
+  var pid = PARENT.get(n.id);
+  $('mParent').innerHTML = pid
+    ? '<button type="button" class="pill" data-goto="' + esc(pid) + '">' + esc(NODE_BY_ID[pid].label) + '</button>'
+    : '<span class="muted">Root of the atlas.</span>';
+  var noteWrap = $('mNoteWrap');
+  if (n.note) {
+    noteWrap.classList.remove('hidden');
+    var link = $('mNote');
+    link.href = noteHref(n.note);
+    link.textContent = n.note;
+  } else {
+    noteWrap.classList.add('hidden');
+  }
+  updateModalNav();
+  try {
+    var url = new URL(window.location.href);
+    url.searchParams.set('id', n.id);
+    history.replaceState(null, '', url);
+  } catch (e) { /* file:// or old browser */ }
+  if (!keepFocus) {
+    var close = $('mClose');
+    if (close) close.focus();
+  }
+  typeset($('mDesc'));
+}
+
+function closeModal() {
+  var modal = $('modal');
+  if (!modal || modal.classList.contains('hidden')) return;
+  modal.classList.add('hidden');
+  document.body.style.overflow = '';
+  state.cur = null;
+  try {
+    var url = new URL(window.location.href);
+    url.searchParams.delete('id');
+    history.replaceState(null, '', url);
+  } catch (e) { /* ignore */ }
+  if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+}
+
+function goTo(id) {
+  var n = NODE_BY_ID[id];
+  if (n) openNode(n, true);
+}
+
+function boot(data) {
+  DATA = data;
+  FAMILIES = {};
+  data.families.forEach(function (f) { FAMILIES[f.id] = f; });
+  DIMENSIONS = data.dimensions || [];
+  FAMILY_ORDER = data.families.map(function (f) { return f.id; });
+  NODES = []; NODE_BY_ID = {}; PARENT = new Map(); FAMILY_NODE = {}; SEQ = 0;
+  flatten(data.roots[0], null, 0);
+  data.families.forEach(function (f) {
+    var found = NODES.filter(function (n) { return n.kind === 'family' && n.family === f.id; })[0];
+    if (found) FAMILY_NODE[f.id] = found;
+  });
+  $('chipNodes').textContent = data.stats.nodes + ' entries';
+  $('chipFamilies').textContent = data.stats.families + ' families';
+  $('chipFigures').textContent = data.stats.figures + ' figures';
+  renderLegend();
+  renderOutline();
+  var initialView = 'outline';
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var asked = params.get('view');
+    if (asked === 'outline' || asked === 'families' || asked === 'table') initialView = asked;
+    var q = params.get('q');
+    if (q) {
+      state.q = q;
+      $('search').value = q;
+      $('clearSearch').classList.remove('hidden');
+    }
+    var fam = params.get('family');
+    if (fam && FAMILIES[fam]) state.family = fam;
+    var dim = params.get('dimension');
+    if (dim && DIMENSIONS.some(function (d) { return d.id === dim; })) state.dimension = dim;
+  } catch (e) { /* ignore */ }
+  setView(initialView);
+  var deep = null;
+  try { deep = new URLSearchParams(window.location.search).get('id'); } catch (e) { /* ignore */ }
+  if (deep && NODE_BY_ID[deep]) openNode(NODE_BY_ID[deep]);
+}
+
+function sLine(x1, y1, x2, y2, cls) {
+  return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sPath(d, cls) {
+  return '<path d="' + d + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sPoly(points, cls) {
+  return '<polygon points="' + points.map(function (p) { return p[0].toFixed(2) + ',' + p[1].toFixed(2); }).join(' ') + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sPolyline(points, cls) {
+  return '<polyline points="' + points.map(function (p) { return p[0].toFixed(2) + ',' + p[1].toFixed(2); }).join(' ') + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sCircle(cx, cy, r, cls) {
+  return '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sEllipse(cx, cy, rx, ry, cls) {
+  return '<ellipse cx="' + cx + '" cy="' + cy + '" rx="' + rx + '" ry="' + ry + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sRect(x, y, w, h, rx, cls) {
+  return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="' + (rx || 0) + '" class="' + (cls || 'fig-stroke') + '"/>';
+}
+function sDot(x, y, r, cls) {
+  return '<circle cx="' + x + '" cy="' + y + '" r="' + (r || 1.6) + '" class="' + (cls || 'fig-dot') + '"/>';
+}
+function sText(x, y, text) {
+  return '<text x="' + x + '" y="' + y + '" class="fig-label">' + text + '</text>';
+}
+function arrow(x1, y1, x2, y2, cls) {
+  var a = Math.atan2(y2 - y1, x2 - x1), s = 4.5;
+  var p1 = [x2, y2];
+  var p2 = [x2 - s * Math.cos(a - 0.45), y2 - s * Math.sin(a - 0.45)];
+  var p3 = [x2 - s * Math.cos(a + 0.45), y2 - s * Math.sin(a + 0.45)];
+  return sLine(x1, y1, x2, y2, cls) + sPoly([p1, p2, p3], 'fig-fill');
+}
+function ngon(cx, cy, r, n, rot) {
+  var out = [];
+  for (var i = 0; i < n; i++) {
+    var a = (rot == null ? -Math.PI / 2 : rot) + i * 2 * Math.PI / n;
+    out.push([cx + r * Math.cos(a), cy + r * Math.sin(a)]);
+  }
+  return out;
+}
+function starPoints(cx, cy, r, n, step) {
+  var out = [], base = ngon(cx, cy, r, n);
+  for (var i = 0; i < n; i++) out.push(base[(i * step) % n]);
+  return out;
+}
+function paramPoints(fn, steps, tmax) {
+  var out = [], max = tmax || Math.PI * 2;
+  for (var i = 0; i <= steps; i++) {
+    var p = fn(max * i / steps);
+    out.push([p[0], p[1]]);
+  }
+  return out;
+}
+function fillStroke(points) { return sPoly(points, 'fig-fill') + sPoly(points, 'fig-stroke'); }
+function cube(cx, cy, s) {
+  var a = [cx - s, cy - s * 0.55], b = [cx + s * 0.55, cy - s * 0.55], c = [cx + s, cy + s * 0.15], d = [cx - s * 0.45, cy + s * 0.15];
+  var o = [s * 0.45, -s * 0.45];
+  var a2 = [a[0] + o[0], a[1] + o[1]], b2 = [b[0] + o[0], b[1] + o[1]];
+  var c2 = [c[0] + o[0], c[1] + o[1]], d2 = [d[0] + o[0], d[1] + o[1]];
+  return sPoly([a2, b2, c2, d2], 'fig-line')
+    + sLine(a[0], a[1], a2[0], a2[1], 'fig-line') + sLine(b[0], b[1], b2[0], b2[1], 'fig-line')
+    + sLine(c[0], c[1], c2[0], c2[1], 'fig-line') + sLine(d[0], d[1], d2[0], d2[1], 'fig-line')
+    + fillStroke([a, b, c, d]);
+}
+function tetra(cx, cy, s) {
+  var a = [cx, cy - s], b = [cx - s, cy + s * 0.7], c = [cx + s, cy + s * 0.7], d = [cx + s * 0.15, cy + s * 0.2];
+  return sPoly([a, b, c], 'fig-fill') + sPoly([a, b, c], 'fig-stroke')
+    + sLine(a[0], a[1], d[0], d[1], 'fig-stroke') + sLine(b[0], b[1], d[0], d[1], 'fig-line')
+    + sLine(c[0], c[1], d[0], d[1], 'fig-line');
+}
+function familyInner(v) {
+  if (v === 'root') {
+    return sEllipse(60, 45, 40, 23, 'fig-line') + sCircle(60, 45, 12, 'fig-stroke')
+      + sDot(60, 45, 3) + sLine(18, 45, 102, 45, 'fig-line') + sLine(60, 12, 60, 78, 'fig-line');
+  }
+  if (v === 'elemental-shapes') {
+    return sDot(24, 30, 2.4) + sLine(14, 55, 54, 55, 'fig-stroke') + arrow(66, 55, 106, 55)
+      + sPath('M24,75 L48,64 L86,64 L62,75 Z', 'fig-fill') + sPath('M24,75 L48,64 L86,64 L62,75 Z', 'fig-line');
+  }
+  if (v === 'one-dimensional-shapes') return sPath('M12,58 C34,10 54,82 78,36 C92,12 103,28 108,42', 'fig-stroke');
+  if (v === 'planar-shapes') return fillStroke(ngon(60, 46, 30, 5));
+  if (v === 'spherical-shapes') return sCircle(60, 45, 30, 'fig-stroke') + sPath('M35,30 Q60,60 85,30', 'fig-line') + sPath('M35,60 Q60,30 85,60', 'fig-line') + sPoly([[60, 16], [82, 55], [40, 62]], 'fig-stroke');
+  if (v === 'hyperbolic-shapes') return sCircle(60, 45, 32, 'fig-stroke') + sPath('M30,32 Q60,18 86,48', 'fig-line') + sPath('M86,48 Q56,74 30,32', 'fig-line') + sPoly([[60, 22], [80, 58], [38, 58]], 'fig-stroke');
+  if (v === 'solid-shapes') return cube(60, 44, 27);
+  if (v === 'higher-dimensional-shapes') return cube(48, 48, 20) + cube(74, 38, 16);
+  if (v === 'shape-arrangements') {
+    var out = '';
+    for (var i = 0; i < 3; i++) for (var j = 0; j < 2; j++) out += sPoly(ngon(28 + i * 30, 30 + j * 30, 10, 5), 'fig-stroke');
+    return out;
+  }
+  if (v === 'shape-properties') return sLine(18, 72, 102, 72, 'fig-line') + sLine(18, 72, 18, 18, 'fig-line') + sPoly([[32, 62], [52, 32], [72, 46], [92, 28]], 'fig-stroke') + sDot(52, 32, 2.2) + sDot(72, 46, 2.2);
+  return sCircle(60, 45, 28, 'fig-stroke') + sDot(60, 45, 2.5);
+}
+
+function renderInner(kind, v, fig) {
+  var i, points, p;
+  switch (kind) {
+    case 'family': return familyInner(v);
+    case 'generic': return familyInner(v || 'root');
+
+    case 'point':
+      return sLine(42, 45, 78, 45, 'fig-line') + sLine(60, 27, 60, 63, 'fig-line') + sCircle(60, 45, 7, 'fig-line') + sDot(60, 45, 3);
+
+    case 'line':
+      return arrow(18, 45, 102, 45) + arrow(102, 45, 18, 45) + sLine(30, 38, 30, 52, 'fig-line') + sLine(90, 38, 90, 52, 'fig-line');
+
+    case 'segment':
+      return sLine(22, 45, 98, 45) + sDot(22, 45, 2.6) + sDot(98, 45, 2.6);
+
+    case 'ray':
+      return arrow(22, 45, 102, 45) + sDot(22, 45, 2.6) + sLine(22, 38, 22, 52, 'fig-line');
+
+    case 'plane':
+      return sPoly([[22, 62], [48, 24], [98, 24], [72, 62]], 'fig-fill')
+        + sPoly([[22, 62], [48, 24], [98, 24], [72, 62]], 'fig-stroke')
+        + sLine(34, 52, 60, 14, 'fig-line') + sLine(52, 62, 78, 24, 'fig-line')
+        + sLine(70, 62, 96, 24, 'fig-line') + sLine(22, 43, 72, 43, 'fig-line');
+
+    case 'hyperplane':
+      return cube(60, 48, 24) + sPoly([[18, 62], [44, 20], [102, 28], [76, 70]], 'fig-fill')
+        + sPoly([[18, 62], [44, 20], [102, 28], [76, 70]], 'fig-stroke');
+
+    case 'circle':
+      return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31) + sDot(60, 45, 2.2, 'fig-line');
+
+    case 'arc':
+      return sPath('M24,62 Q60,8 96,62', 'fig-stroke') + sDot(24, 62, 2.2) + sDot(96, 62, 2.2);
+
+    case 'curve':
+      if (v === 'simple') return sPath('M14,58 C34,8 56,80 80,34 C94,10 104,26 108,42');
+      if (v === 'closed') return sPath('M60,15 C96,10 110,46 88,70 C66,90 31,84 24,58 C17,32 34,20 60,15');
+      if (v === 'jordan') return sPath('M60,15 C96,10 110,46 88,70 C66,90 31,84 24,58 C17,32 34,20 60,15', 'fig-fill')
+        + sPath('M60,15 C96,10 110,46 88,70 C66,90 31,84 24,58 C17,32 34,20 60,15');
+      if (v === 'space') return sEllipse(60, 45, 35, 18, 'fig-line') + sPath('M22,55 C40,15 58,80 78,34 C90,12 102,28 106,47', 'fig-stroke');
+      if (v === 'unknot') return sCircle(60, 45, 31);
+      if (v === 'trefoil') return sPath('M60,20 C90,4 111,36 92,52 C78,64 94,82 106,68 C118,54 94,44 76,59 C58,74 34,69 32,51 C29,31 44,19 60,20');
+      if (v === 'figure-eight') return sPath('M60,45 C36,10 12,44 40,62 C63,76 91,56 81,36 C72,17 48,22 44,41 C40,61 78,77 96,52');
+      if (v === 'hopf') return sCircle(46, 45, 24) + sCircle(74, 45, 24) + sLine(46, 21, 74, 69, 'fig-line') + sLine(46, 69, 74, 21, 'fig-line');
+      if (v === 'conic') return sEllipse(60, 62, 31, 10) + sLine(60, 14, 29, 62, 'fig-line') + sLine(60, 14, 91, 62, 'fig-line') + sEllipse(60, 42, 18, 6, 'fig-stroke');
+      if (v === 'parabola') return sPath('M20,72 Q60,6 100,72');
+      if (v === 'hyperbola') return sPath('M18,18 Q52,45 30,76') + sPath('M102,18 Q68,45 90,76');
+      if (v === 'degenerate-conic') return sLine(20, 74, 100, 16) + sLine(20, 16, 100, 74) + sDot(60, 45, 2.5);
+      if (v === 'cycloid') return sPath('M12,62 Q27,28 42,62 Q57,28 72,62 Q87,28 102,62');
+      if (v === 'epicycloid') return sPath('M16,62 Q28,30 40,62 Q52,30 64,62 Q76,30 88,62 Q100,30 108,52');
+      if (v === 'hypocycloid') return sPoly(paramPoints(function (t) { return [60 + 28 * Math.cos(t) + 9 * Math.cos(3 * t), 45 + 28 * Math.sin(t) - 9 * Math.sin(3 * t)]; }, 120), 'fig-stroke');
+      if (v === 'astroid') return sPoly(paramPoints(function (t) { return [60 + 30 * Math.pow(Math.cos(t), 3), 45 + 30 * Math.pow(Math.sin(t), 3)]; }, 120), 'fig-stroke');
+      if (v === 'deltoid') return sPoly(paramPoints(function (t) { return [60 + 26 * Math.cos(t) + 8 * Math.cos(2 * t), 45 + 26 * Math.sin(t) - 8 * Math.sin(2 * t)]; }, 120), 'fig-stroke');
+      if (v === 'epitrochoid') return sPoly(paramPoints(function (t) { return [60 + 28 * Math.cos(t) + 8 * Math.cos(7 * t), 45 + 28 * Math.sin(t) + 8 * Math.sin(7 * t)]; }, 180), 'fig-stroke');
+      if (v === 'hypotrochoid') return sPoly(paramPoints(function (t) { return [60 + 28 * Math.cos(t) + 8 * Math.cos(5 * t), 45 + 28 * Math.sin(t) - 8 * Math.sin(5 * t)]; }, 180), 'fig-stroke');
+      if (v === 'catenary') return sPath('M14,26 Q60,82 106,26');
+      if (v === 'tractrix') return sPath('M20,18 C36,50 48,70 102,76') + sLine(20, 18, 102, 76, 'fig-line');
+      if (v === 'clothoid') return sPoly(paramPoints(function (t) { var r = 2 + 0.65 * t; return [60 + r * Math.cos(t), 45 + r * Math.sin(t)]; }, 160, Math.PI * 5), 'fig-stroke');
+      if (v === 'lemniscate') return sPath('M60,45 C36,10 14,36 34,56 C54,76 86,76 96,50 C106,24 76,10 56,31 C36,51 44,72 60,45');
+      if (v === 'cassini') return sPath('M60,16 C92,16 106,34 104,48 C101,65 82,76 60,76 C38,76 19,65 16,48 C14,34 28,16 60,16');
+      if (v === 'lissajous') return sPoly(paramPoints(function (t) { return [60 + 29 * Math.sin(3 * t), 45 + 24 * Math.sin(2 * t)]; }, 160), 'fig-stroke');
+      if (v === 'rose') return sPoly(paramPoints(function (t) { var r = 31 * Math.cos(3 * t); return [60 + r * Math.cos(t), 45 + r * Math.sin(t)]; }, 180), 'fig-stroke');
+      if (v === 'superellipse') return sPoly(paramPoints(function (t) {
+        var c = Math.cos(t), s = Math.sin(t);
+        return [60 + 31 * Math.sign(c) * Math.pow(Math.abs(c), 0.55), 45 + 24 * Math.sign(s) * Math.pow(Math.abs(s), 0.55)];
+      }, 160), 'fig-stroke');
+      if (v === 'witch') return sPath('M18,72 C36,12 84,12 102,72') + sLine(18, 72, 102, 72, 'fig-line');
+      if (v === 'cissoid') return sPath('M60,16 C84,16 94,42 72,59 C50,76 26,60 38,38 C48,20 76,20 60,16');
+      if (v === 'conchoid') return sPath('M22,68 C44,12 76,12 100,68') + sPath('M34,45 C48,22 72,22 86,45', 'fig-line');
+      if (v === 'folium') return sPath('M60,20 C88,20 100,38 82,56 C64,74 36,74 26,52 C16,30 38,20 60,20') + sPath('M78,52 C92,62 100,72 106,80', 'fig-line');
+      if (v === 'strophoid') return sPath('M60,16 C88,16 98,40 76,57 C54,74 26,60 38,38 C48,20 76,20 60,16') + sLine(60, 16, 60, 78, 'fig-line');
+      if (v === 'elliptic') return sPath('M16,70 C42,12 70,12 104,70') + sPath('M16,70 C46,44 78,44 104,70', 'fig-line');
+      return sPath('M14,58 C34,8 56,80 80,34 C94,10 104,26 108,42');
+
+    case 'spiral':
+      if (v === 'theodorus') {
+        var out = '';
+        for (var t = 0; t < 9; t++) {
+          var a1 = -Math.PI / 2 + t * 0.55, a2 = a1 + 0.55;
+          out += sLine(60, 52, 60 + (20 + t * 2.4) * Math.cos(a1), 52 + (20 + t * 2.4) * Math.sin(a1), 'fig-line');
+          out += sLine(60 + (20 + t * 2.4) * Math.cos(a1), 52 + (20 + t * 2.4) * Math.sin(a1), 60 + (20 + t * 2.4) * Math.cos(a2), 52 + (20 + t * 2.4) * Math.sin(a2), 'fig-line');
+        }
+        return out;
+      }
+      if (v === 'logarithmic') return sPoly(paramPoints(function (t) { var r = 1.8 * Math.exp(0.24 * t); return [60 + r * Math.cos(t), 45 + r * Math.sin(t)]; }, 180, Math.PI * 5.5), 'fig-stroke');
+      return sPoly(paramPoints(function (t) { var r = 3 + 0.62 * t; return [60 + r * Math.cos(t), 45 + r * Math.sin(t)]; }, 180, Math.PI * 5.5), 'fig-stroke');
+
+    case 'helix':
+      if (v === 'conical') return sPath('M60,75 C20,65 22,30 60,18 C96,30 100,65 60,75', 'fig-line') + sPath('M60,75 C34,58 38,32 60,18 C84,32 88,58 60,75', 'fig-stroke');
+      return sPath('M16,58 C36,18 54,78 74,36 C88,10 100,28 106,42') + sPath('M16,66 C36,26 54,86 74,44 C88,18 100,36 106,50', 'fig-line') + sLine(16, 58, 16, 66, 'fig-line') + sLine(106, 42, 106, 50, 'fig-line');
+
+    case 'spline':
+      return sPath('M18,62 C32,14 48,16 60,45 C72,74 90,72 104,28') + sLine(18, 62, 32, 14, 'fig-line') + sLine(32, 14, 48, 16, 'fig-line') + sLine(60, 45, 72, 74, 'fig-line') + sLine(72, 74, 90, 72, 'fig-line') + sDot(18, 62, 2) + sDot(32, 14, 2) + sDot(48, 16, 2) + sDot(60, 45, 2) + sDot(72, 74, 2) + sDot(90, 72, 2) + sDot(104, 28, 2);
+
+    case 'polyline':
+      return sPolyline([[14, 66], [34, 24], [56, 58], [78, 20], [104, 54]]);
+
+    case 'triangle':
+      return triangleInner(v);
+
+    case 'quadrilateral':
+      return quadrilateralInner(v);
+
+    case 'polygon':
+      return polygonInner(fig, v);
+
+    case 'disk':
+      return diskInner(v);
+
+    case 'ellipse':
+      return sEllipse(60, 45, 35, 22, 'fig-fill') + sEllipse(60, 45, 35, 22) + sLine(25, 45, 95, 45, 'fig-line') + sLine(60, 23, 60, 67, 'fig-line');
+
+    case 'annulus':
+      return '<path d="M60,13 a32,32 0 1,0 0,64 a32,32 0 1,0 0,-64 M60,25 a20,20 0 1,1 0,40 a20,20 0 1,1 0,-40" class="fig-fill" fill-rule="evenodd"/>'
+        + '<path d="M60,13 a32,32 0 1,0 0,64 a32,32 0 1,0 0,-64 M60,25 a20,20 0 1,1 0,40 a20,20 0 1,1 0,-40" class="fig-stroke" fill-rule="evenodd"/>';
+
+    case 'sector':
+      return sPath('M60,45 L60,13 A32,32 0 0,1 87,61 Z', 'fig-fill') + sPath('M60,45 L60,13 A32,32 0 0,1 87,61 Z') + sDot(60, 45, 2);
+
+    case 'segment-region':
+      return sPath('M38,20 A32,32 0 0,1 38,70 Z', 'fig-fill') + sPath('M38,20 A32,32 0 0,1 38,70 Z') + sLine(38, 20, 38, 70, 'fig-line');
+
+    case 'lens':
+      return sPath('M38,17 A36,36 0 0,1 38,73 A36,36 0 0,1 38,17 Z', 'fig-fill') + sPath('M38,17 A36,36 0 0,1 38,73 A36,36 0 0,1 38,17 Z');
+
+    case 'cardioid':
+      return sPath('M60,14 C78,14 94,28 94,46 C94,65 77,78 60,78 C43,78 26,65 26,46 C26,28 42,14 60,14 Z', 'fig-fill')
+        + sPath('M60,14 C78,14 94,28 94,46 C94,65 77,78 60,78 C43,78 26,65 26,46 C26,28 42,14 60,14 Z');
+
+    case 'parabolic-region':
+      return sPath('M18,72 Q60,4 102,72 Z', 'fig-fill') + sPath('M18,72 Q60,4 102,72 Z');
+
+    case 'fractal':
+      return fractalInner(v, fig);
+
+    case 'polyhedron': return polyhedronInner(v);
+    case 'quadric': return quadricInner(v);
+    case 'torus': return torusInner(v);
+    case 'surface': return surfaceInner(v);
+    case 'polytope': return polytopeInner(v);
+    case 'ball': return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31) + sEllipse(60, 45, 20, 8, 'fig-line');
+    case 'hypersphere': return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31) + sEllipse(60, 45, 31, 10, 'fig-line') + sEllipse(60, 45, 11, 31, 'fig-line');
+    case 'n-torus': return torusInner('torus') + sEllipse(60, 45, 42, 13, 'fig-line');
+    case 'arrangement': return arrangementInner(v);
+    case 'property': return propertyInner(v);
+  }
+  return familyInner(v || 'root');
+}
+
+function triangleInner(v) {
+  var a = [30, 70], b = [90, 70], c = [60, 18], out;
+  if (v === 'scalene') c = [50, 20];
+  else if (v === 'right') c = [30, 20];
+  else if (v === 'acute') c = [60, 25];
+  else if (v === 'obtuse') c = [78, 38];
+  else if (v === 'isosceles-right') c = [30, 25];
+  else if (v === 'golden') c = [60, 12];
+  else if (v === '30-60-90') c = [30, 25];
+  else if (v === '3-4-5') c = [30, 30];
+  else if (v === 'golden-gnomon') c = [68, 24];
+  out = fillStroke([a, b, c]);
+  if (v === 'right' || v === 'isosceles-right' || v === '3-4-5' || v === '30-60-90') {
+    out += sPath('M30,70 L30,60 L40,60', 'fig-line');
+  }
+  if (v === 'equilateral') {
+    out += sLine(45, 44, 75, 44, 'fig-line') + sLine(37, 53, 46, 62, 'fig-line') + sLine(83, 53, 74, 62, 'fig-line');
+  }
+  if (v === 'golden') out += sLine(60, 12, 60, 70, 'fig-line');
+  if (v === 'golden-gnomon') out += sLine(68, 24, 68, 70, 'fig-line');
+  if (v === 'equable') out += sPoly([[45, 47], [75, 47], [60, 70]], 'fig-line');
+  return out;
+}
+
+function quadrilateralInner(v) {
+  var map = {
+    rectangle: [[24, 30], [96, 30], [96, 66], [24, 66]],
+    square: [[35, 24], [85, 24], [85, 74], [35, 74]],
+    parallelogram: [[20, 66], [48, 24], [100, 24], [72, 66]],
+    rhombus: [[60, 15], [94, 45], [60, 75], [26, 45]],
+    trapezoid: [[24, 66], [44, 26], [86, 26], [100, 66]],
+    'isosceles-trapezoid': [[28, 66], [44, 26], [76, 26], [92, 66]],
+    'right-trapezoid': [[24, 66], [44, 26], [92, 26], [92, 66]],
+    kite: [[60, 14], [92, 44], [60, 76], [28, 44]],
+    dart: [[60, 14], [96, 56], [60, 44], [24, 56]],
+    trapezium: [[20, 62], [44, 24], [100, 38], [78, 72]],
+    'cyclic-quadrilateral': [[30, 26], [82, 20], [96, 58], [43, 74]],
+    'tangential-quadrilateral': [[28, 34], [76, 18], [98, 54], [50, 76]],
+    antiparallelogram: [[20, 66], [68, 20], [100, 66], [52, 20]],
+    'orthodiagonal-quadrilateral': [[24, 34], [53, 22], [94, 58], [43, 70]],
+    'equidiagonal-quadrilateral': [[26, 28], [82, 24], [98, 62], [48, 72]],
+    'bicentric-quadrilateral': [[32, 28], [80, 22], [94, 60], [48, 72]],
+    'ex-tangential-quadrilateral': [[26, 30], [78, 20], [100, 54], [54, 72]]
+  };
+  var points = map[v] || [[20, 65], [45, 20], [100, 30], [80, 75]];
+  var out = '';
+  if (v === 'cyclic-quadrilateral' || v === 'bicentric-quadrilateral') out += sCircle(60, 46, 32, 'fig-line');
+  if (v === 'tangential-quadrilateral' || v === 'bicentric-quadrilateral') out += sEllipse(60, 47, 22, 18, 'fig-line');
+  out += fillStroke(points);
+  if (v === 'orthodiagonal-quadrilateral' || v === 'equidiagonal-quadrilateral') {
+    out += sLine(points[0][0], points[0][1], points[2][0], points[2][1], 'fig-line')
+      + sLine(points[1][0], points[1][1], points[3][0], points[3][1], 'fig-line');
+  }
+  if (v === 'ex-tangential-quadrilateral') {
+    out += sLine(points[0][0], points[0][1], points[2][0], points[2][1], 'fig-line');
+  }
+  return out;
+}
+
+function polygonInner(fig, v) {
+  var n = fig.sides || 5, step = fig.step || 0;
+  if (v === 'apeirogon') n = 18;
+  if (n < 3) return n === 1 ? sDot(60, 45, 4) : sLine(25, 45, 95, 45, 'fig-stroke') + sDot(25, 45, 2) + sDot(95, 45, 2);
+  var base = ngon(60, 45, 31, n);
+  if (v === 'degenerate') return sLine(24, 59, 96, 31, 'fig-stroke') + sLine(24, 31, 96, 59, 'fig-stroke');
+  var out = '';
+  if (v === 'cyclic-polygon' || v === 'tangential-polygon' || v === 'equilateral-polygon' || v === 'equiangular-polygon') {
+    out += sCircle(60, 45, 34, 'fig-line');
+  }
+  if (step) {
+    out += sPoly(starPoints(60, 45, 31, n, step), 'fig-soft') + sPoly(starPoints(60, 45, 31, n, step));
+  } else {
+    out += fillStroke(base);
+  }
+  if (v === 'equilateral-polygon' || v === 'equiangular-polygon') out += sCircle(60, 45, 5, 'fig-line');
+  return out;
+}
+
+function diskInner(v) {
+  if (v === 'semicircle') return sPath('M28,60 A32,32 0 0,1 92,60 Z', 'fig-fill') + sPath('M28,60 A32,32 0 0,1 92,60 Z');
+  if (v === 'crescent') return sPath('M58,13 A32,32 0 1,0 58,77 A26,26 0 1,1 58,13 Z', 'fig-fill') + sPath('M58,13 A32,32 0 1,0 58,77 A26,26 0 1,1 58,13 Z');
+  if (v === 'reuleaux') return sPath('M60,13 A31,31 0 0,1 88,62 A31,31 0 0,1 32,62 A31,31 0 0,1 60,13 Z', 'fig-fill') + sPath('M60,13 A31,31 0 0,1 88,62 A31,31 0 0,1 32,62 A31,31 0 0,1 60,13 Z');
+  if (v === 'stadium') return sRect(22, 30, 76, 30, 15, 'fig-fill') + sRect(22, 30, 76, 30, 15);
+  return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31);
+}
+
+function sierpinskiTriangle(ax, ay, bx, by, cx, cy, depth) {
+  if (depth <= 0) return fillStroke([[ax, ay], [bx, by], [cx, cy]]);
+  var ab = [(ax + bx) / 2, (ay + by) / 2], bc = [(bx + cx) / 2, (by + cy) / 2], ca = [(cx + ax) / 2, (cy + ay) / 2];
+  return sierpinskiTriangle(ax, ay, ab[0], ab[1], ca[0], ca[1], depth - 1)
+    + sierpinskiTriangle(ab[0], ab[1], bx, by, bc[0], bc[1], depth - 1)
+    + sierpinskiTriangle(ca[0], ca[1], bc[0], bc[1], cx, cy, depth - 1);
+}
+
+function carpet(x, y, size, depth) {
+  if (depth <= 0) return fillStroke([[x, y], [x + size, y], [x + size, y + size], [x, y + size]]);
+  var s = size / 3, out = '';
+  for (var i = 0; i < 3; i++) for (var j = 0; j < 3; j++) {
+    if (i === 1 && j === 1) continue;
+    out += carpet(x + i * s, y + j * s, s, depth - 1);
+  }
+  return out;
+}
+
+function fractalInner(v) {
+  if (v === 'sierpinski-triangle') return sierpinskiTriangle(60, 12, 14, 76, 106, 76, 2);
+  if (v === 'sierpinski-carpet') return carpet(24, 9, 72, 2);
+  if (v === 'koch-snowflake') return sPolyline([[60, 12], [78, 30], [104, 30], [84, 48], [94, 74], [60, 58], [26, 74], [36, 48], [16, 30], [42, 30]], 'fig-stroke')
+    + sLine(42, 30, 60, 58, 'fig-line') + sLine(78, 30, 60, 58, 'fig-line') + sLine(84, 48, 60, 58, 'fig-line');
+  if (v === 'mandelbrot-set') {
+    return sPath('M62,44 C62,28 76,20 88,28 C100,36 96,52 84,59 C78,63 80,73 86,77 C68,78 53,70 49,59 C44,48 50,35 62,44 Z', 'fig-fill')
+      + sPath('M62,44 C62,28 76,20 88,28 C100,36 96,52 84,59 C78,63 80,73 86,77 C68,78 53,70 49,59 C44,48 50,35 62,44 Z')
+      + sCircle(94, 40, 7, 'fig-line') + sCircle(104, 50, 4, 'fig-line') + sCircle(97, 27, 3.5, 'fig-line');
+  }
+  if (v === 'julia-set') return sPath('M60,16 C88,16 103,38 92,58 C82,77 51,80 34,63 C17,46 27,20 60,16 Z', 'fig-line')
+    + sCircle(50, 38, 9, 'fig-stroke') + sCircle(72, 52, 7, 'fig-stroke') + sCircle(63, 30, 4, 'fig-line');
+  if (v === 'apollonian-gasket') return sCircle(60, 45, 32, 'fig-stroke') + sCircle(48, 45, 17, 'fig-stroke') + sCircle(75, 38, 11, 'fig-stroke') + sCircle(67, 64, 7, 'fig-line') + sCircle(82, 64, 4, 'fig-line');
+  if (v === 'cantor-dust') return sLine(18, 28, 102, 28) + sLine(26, 44, 94, 44) + sLine(36, 60, 84, 60) + sLine(48, 76, 72, 76);
+  if (v === 'vicsek-fractal') {
+    var out = '';
+    [[42, 27], [60, 27], [78, 27], [60, 45], [60, 63]].forEach(function (q) { out += sRect(q[0] - 7, q[1] - 7, 14, 14, 2, 'fig-fill') + sRect(q[0] - 7, q[1] - 7, 14, 14, 2); });
+    return out;
+  }
+  if (v === 'menger' || v === 'fractal-solid') return cube(60, 48, 25) + sRect(50, 40, 9, 9, 1, 'fig-soft') + sRect(66, 52, 8, 8, 1, 'fig-soft');
+  if (v === 'sierpinski-tetrahedron') return tetra(60, 43, 26) + sPoly([[60, 30], [48, 57], [72, 57]], 'fig-line');
+  var lines = {
+    'koch-curve': [[14, 60], [28, 42], [42, 60], [56, 42], [70, 60], [84, 42], [98, 60], [108, 48]],
+    'dragon-curve': [[14, 62], [38, 62], [38, 30], [64, 30], [64, 62], [88, 62], [88, 38], [106, 38]],
+    'hilbert-curve': [[18, 62], [18, 28], [42, 28], [42, 52], [66, 52], [66, 28], [90, 28], [90, 62], [104, 62]],
+    'levy-c-curve': [[16, 62], [42, 62], [42, 24], [70, 24], [70, 62], [94, 62], [94, 34], [108, 34]],
+    'minkowski-sausage': [[14, 52], [30, 52], [30, 38], [46, 38], [46, 52], [62, 52], [62, 38], [78, 38], [78, 52], [94, 52], [94, 38], [108, 38]],
+    'moore-curve': [[18, 26], [18, 64], [44, 64], [44, 36], [70, 36], [70, 64], [96, 64], [96, 26], [70, 26], [70, 48], [44, 48], [44, 26], [18, 26]],
+    'sierpinski-curve': [[18, 64], [36, 34], [54, 64], [72, 34], [90, 64], [104, 44]],
+    'gosper-curve': [[18, 62], [34, 32], [60, 32], [76, 62], [92, 32], [104, 50]],
+    'peano-curve': [[14, 26], [14, 64], [38, 64], [38, 38], [62, 38], [62, 64], [86, 64], [86, 38], [106, 38]]
+  };
+  return sPolyline(lines[v] || [[14, 62], [34, 40], [52, 62], [70, 34], [88, 62], [106, 42]], 'fig-stroke');
+}
+
+function polyhedronInner(v) {
+  if (v === 'tetrahedron') return tetra(60, 43, 27);
+  if (v === 'cube') return cube(60, 47, 27);
+  if (v === 'octahedron') return fillStroke([[60, 12], [92, 45], [60, 78], [28, 45]]) + sLine(28, 45, 92, 45, 'fig-line') + sLine(60, 12, 60, 78, 'fig-line');
+  if (v === 'dodecahedron') return sPoly(ngon(60, 45, 29, 5), 'fig-fill') + sPoly(ngon(60, 45, 29, 5)) + sPoly(ngon(60, 45, 16, 5), 'fig-line') + sLine(60, 16, 60, 74, 'fig-line');
+  if (v === 'icosahedron') return fillStroke([[60, 12], [92, 72], [28, 72]]) + sPoly([[60, 32], [78, 61], [42, 61]], 'fig-line') + sLine(60, 12, 60, 61, 'fig-line');
+  if (v === 'prism') {
+    var front = ngon(54, 52, 22, 5), back = ngon(72, 38, 22, 5);
+    var out = sPoly(back, 'fig-line') + sPoly(front, 'fig-fill') + sPoly(front);
+    for (var i = 0; i < 5; i++) out += sLine(front[i][0], front[i][1], back[i][0], back[i][1], 'fig-line');
+    return out;
+  }
+  if (v === 'pyramid') {
+    var base = [[28, 62], [48, 30], [92, 38], [74, 70]], apex = [60, 14];
+    var out2 = fillStroke(base);
+    for (var j = 0; j < base.length; j++) out2 += sLine(base[j][0], base[j][1], apex[0], apex[1], 'fig-line');
+    return out2;
+  }
+  if (v === 'frustum') {
+    var top = [[34, 26], [52, 18], [88, 26], [70, 34]], bot = [[24, 66], [44, 56], [98, 66], [76, 76]];
+    return sPoly(top, 'fig-line') + sPoly(bot, 'fig-fill') + sPoly(bot) + sLine(top[0][0], top[0][1], bot[0][0], bot[0][1], 'fig-line') + sLine(top[1][0], top[1][1], bot[1][0], bot[1][1], 'fig-line') + sLine(top[2][0], top[2][1], bot[2][0], bot[2][1], 'fig-line') + sLine(top[3][0], top[3][1], bot[3][0], bot[3][1], 'fig-line');
+  }
+  if (v === 'antiprism') {
+    var f = ngon(54, 54, 22, 5), b = ngon(74, 38, 22, 5, -Math.PI / 2 + Math.PI / 5);
+    var out3 = sPoly(b, 'fig-line') + sPoly(f, 'fig-fill') + sPoly(f);
+    for (var k = 0; k < 5; k++) out3 += sLine(f[k][0], f[k][1], b[(k + 2) % 5][0], b[(k + 2) % 5][1], 'fig-line');
+    return out3;
+  }
+  if (v === 'bipyramid') return fillStroke([[60, 12], [90, 45], [60, 78], [30, 45]]) + sLine(30, 45, 90, 45, 'fig-line');
+  if (v === 'torus') return torusInner('torus');
+  if (v === 'star') return sPoly(starPoints(60, 45, 32, 5, 2), 'fig-fill') + sPoly(starPoints(60, 45, 32, 5, 2)) + sPoly(ngon(60, 45, 15, 5), 'fig-line');
+  return cube(60, 47, 27);
+}
+
+function quadricInner(v) {
+  if (v === 'hemisphere') return sPath('M28,48 A32,32 0 0,1 92,48 Z', 'fig-fill') + sPath('M28,48 A32,32 0 0,1 92,48 Z') + sEllipse(60, 48, 32, 10, 'fig-line');
+  if (v === 'ellipsoid') return sEllipse(60, 45, 35, 23, 'fig-fill') + sEllipse(60, 45, 35, 23) + sEllipse(60, 45, 13, 23, 'fig-line') + sEllipse(60, 45, 35, 8, 'fig-line');
+  if (v === 'paraboloid') return sPath('M26,40 Q60,12 94,40', 'fig-stroke') + sPath('M26,40 Q60,78 94,40', 'fig-fill') + sPath('M26,40 Q60,78 94,40') + sEllipse(60, 40, 34, 10, 'fig-line') + sLine(60, 18, 60, 64, 'fig-line');
+  if (v === 'hyperboloid') return sEllipse(60, 26, 28, 8, 'fig-line') + sEllipse(60, 64, 20, 6, 'fig-line') + sPath('M32,26 Q48,45 40,64', 'fig-stroke') + sPath('M88,26 Q72,45 80,64', 'fig-stroke') + sLine(32, 26, 40, 64, 'fig-line') + sLine(88, 26, 80, 64, 'fig-line');
+  if (v === 'cylinder') return sEllipse(60, 24, 29, 8, 'fig-line') + sEllipse(60, 66, 29, 8, 'fig-fill') + sEllipse(60, 66, 29, 8) + sLine(31, 24, 31, 66, 'fig-stroke') + sLine(89, 24, 89, 66, 'fig-stroke');
+  if (v === 'cone') return sEllipse(60, 66, 29, 8, 'fig-fill') + sEllipse(60, 66, 29, 8) + sLine(31, 66, 60, 16, 'fig-stroke') + sLine(89, 66, 60, 16, 'fig-stroke');
+  if (v === 'double-cone') return sEllipse(60, 45, 24, 7, 'fig-line') + sLine(36, 45, 60, 14, 'fig-stroke') + sLine(84, 45, 60, 14, 'fig-stroke') + sLine(36, 45, 60, 76, 'fig-stroke') + sLine(84, 45, 60, 76, 'fig-stroke');
+  if (v === 'saddle') return sPath('M16,34 Q60,14 104,34', 'fig-line') + sPath('M16,56 Q60,76 104,56', 'fig-line') + sPath('M24,22 Q60,45 24,70', 'fig-line') + sPath('M96,22 Q60,45 96,70', 'fig-line') + sPath('M40,18 Q60,44 80,72', 'fig-line') + sPath('M80,18 Q60,44 40,72', 'fig-line');
+  return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31) + sEllipse(60, 45, 31, 10, 'fig-line') + sEllipse(60, 45, 11, 31, 'fig-line');
+}
+
+function torusInner(v) {
+  var innerRx = v === 'spindle' ? 22 : (v === 'horn' ? 8 : 15);
+  var out = sEllipse(60, 45, 34, 20, 'fig-stroke') + sEllipse(60, 45, innerRx, 8, 'fig-stroke');
+  out += sPath('M26,45 C26,22 94,22 94,45', 'fig-line') + sPath('M26,45 C26,68 94,68 94,45', 'fig-line');
+  if (v === 'solid') out += sEllipse(60, 45, 34, 20, 'fig-fill');
+  return out;
+}
+
+function surfaceInner(v) {
+  if (v === 'mobius') return sPath('M20,30 C42,8 78,8 100,30 C78,48 42,48 20,30 Z', 'fig-fill') + sPath('M20,30 C42,8 78,8 100,30 C78,48 42,48 20,30 Z') + sPath('M28,30 C45,18 75,18 92,30', 'fig-line') + sPath('M28,36 C45,48 75,48 92,36', 'fig-line');
+  if (v === 'klein') return sPath('M36,18 C60,8 88,20 84,42 C80,60 100,72 88,78 C72,86 52,74 44,60 C36,48 46,36 58,42 C70,48 62,62 48,62', 'fig-stroke') + sPath('M44,24 C56,34 72,34 84,26', 'fig-line');
+  if (v === 'revolution') return sPath('M38,78 C24,56 36,40 30,24 C44,14 76,14 90,24 C84,40 96,56 82,78', 'fig-stroke') + sEllipse(60, 22, 30, 8, 'fig-line') + sEllipse(60, 78, 22, 6, 'fig-line');
+  if (v === 'catenoid') return sPath('M30,18 C46,38 46,52 30,72', 'fig-stroke') + sPath('M90,18 C74,38 74,52 90,72', 'fig-stroke') + sEllipse(60, 18, 30, 7, 'fig-line') + sEllipse(60, 72, 30, 7, 'fig-line');
+  if (v === 'helicoid') return sPath('M20,24 C48,34 72,54 100,66', 'fig-stroke') + sPath('M20,66 C48,56 72,36 100,24', 'fig-stroke') + sPath('M22,45 C45,28 75,62 98,45', 'fig-line') + sPath('M30,22 C45,45 75,45 90,22', 'fig-line');
+  if (v === 'pseudosphere') return sPath('M34,18 C22,38 36,56 60,64 C84,56 98,38 86,18', 'fig-stroke') + sEllipse(60, 18, 26, 7, 'fig-line') + sEllipse(60, 64, 24, 6, 'fig-line') + sLine(34, 18, 36, 64, 'fig-line') + sLine(86, 18, 84, 64, 'fig-line');
+  if (v === 'boys' || v === 'roman' || v === 'cross-cap' || v === 'projective' || v === 'dini') return sPath('M30,20 C62,4 94,24 88,44 C82,62 100,74 76,80 C50,86 24,66 32,50 C40,34 60,42 60,58 C60,72 82,64 82,50', 'fig-stroke') + sPath('M42,26 C62,40 78,40 96,30', 'fig-line') + sPath('M40,56 C58,44 76,64 88,74', 'fig-line');
+  if (v === 'ruled') return sPath('M24,24 C46,10 76,10 98,24', 'fig-stroke') + sPath('M24,68 C46,54 76,54 98,68', 'fig-stroke') + sLine(24, 24, 24, 68, 'fig-line') + sLine(48, 16, 48, 60, 'fig-line') + sLine(72, 16, 72, 60, 'fig-line') + sLine(98, 24, 98, 68, 'fig-line') + sLine(24, 46, 98, 46, 'fig-line');
+  if (v === 'spherical-triangle') return sCircle(60, 45, 31, 'fig-stroke') + sPath('M34,30 Q60,58 86,30', 'fig-line') + sPath('M34,30 Q60,10 86,30', 'fig-line') + sLine(60, 22, 84, 56, 'fig-line');
+  if (v === 'spherical-lune') return sCircle(60, 45, 31, 'fig-stroke') + sPath('M60,14 C36,35 36,55 60,76 C84,55 84,35 60,14 Z', 'fig-fill') + sPath('M60,14 C36,35 36,55 60,76', 'fig-stroke');
+  if (v === 'spherical-cap') return sCircle(60, 45, 31, 'fig-stroke') + sPath('M29,38 C40,18 80,18 91,38 A31,31 0 0,1 29,38 Z', 'fig-fill') + sPath('M29,38 C40,18 80,18 91,38', 'fig-stroke');
+  if (v === 'spherical-polygon') return sCircle(60, 45, 31, 'fig-stroke') + sPoly([[60, 18], [82, 36], [75, 66], [45, 66], [38, 36]], 'fig-line');
+  if (v === 'hyperbolic-triangle' || v === 'ideal-triangle') return sCircle(60, 45, 32, 'fig-stroke') + sPath('M34,30 Q60,16 86,30', 'fig-line') + sPath('M86,30 Q72,63 60,69', 'fig-line') + sPath('M60,69 Q42,54 34,30', 'fig-line') + (v === 'ideal-triangle' ? sLine(34, 30, 86, 30, 'fig-line') : '');
+  return sCircle(60, 45, 31, 'fig-fill') + sCircle(60, 45, 31) + sEllipse(60, 45, 31, 10, 'fig-line') + sEllipse(60, 45, 11, 31, 'fig-line');
+}
+
+function polytopeInner(v) {
+  if (v === 'simplex') return tetra(60, 43, 27);
+  if (v === 'hypercube') return cube(48, 50, 19) + cube(74, 36, 15) + sLine(48, 31, 74, 21, 'fig-line') + sLine(67, 31, 89, 21, 'fig-line') + sLine(67, 69, 89, 59, 'fig-line') + sLine(29, 50, 59, 36, 'fig-line');
+  if (v === 'cross-polytope') return fillStroke([[60, 12], [90, 45], [60, 78], [30, 45]]) + sPoly([[60, 22], [82, 45], [60, 68], [38, 45]], 'fig-line');
+  if (v === 'cell') return sPoly(ngon(60, 45, 31, 12), 'fig-fill') + sPoly(ngon(60, 45, 31, 12)) + sPoly(ngon(60, 45, 20, 12), 'fig-line') + sLine(60, 14, 60, 76, 'fig-line');
+  if (v === 'prism') return polyhedronInner('prism');
+  if (v === 'cylinder') return quadricInner('cylinder');
+  if (v === 'cone') return quadricInner('cone');
+  return cube(48, 50, 19) + cube(74, 36, 15) + sLine(48, 31, 74, 21, 'fig-line') + sLine(67, 69, 89, 59, 'fig-line');
+}
+
+function arrangementInner(v) {
+  if (v === 'compound' || v === 'cube-octahedron') {
+    var out = fillStroke([[60, 12], [90, 72], [30, 72]]) + sPoly([[60, 78], [30, 18], [90, 18]], 'fig-line');
+    if (v === 'cube-octahedron') out += cube(60, 48, 17);
+    return out;
+  }
+  if (v === 'cross') return sPath('M48,14 L72,14 L72,36 L94,36 L94,60 L72,60 L72,82 L48,82 L48,60 L26,60 L26,36 L48,36 Z', 'fig-fill') + sPath('M48,14 L72,14 L72,36 L94,36 L94,60 L72,60 L72,82 L48,82 L48,60 L26,60 L26,36 L48,36 Z');
+  if (v === 'yin-yang') return sCircle(60, 45, 31, 'fig-stroke') + sPath('M60,14 A31,31 0 0,1 60,76 A15.5,15.5 0 0,1 60,45 A15.5,15.5 0 0,0 60,14 Z', 'fig-fill') + sDot(60, 29, 4, 'fig-line') + sDot(60, 61, 4, 'fig-stroke');
+  if (v === 'stellated-octahedron') return sPoly([[60, 10], [72, 38], [102, 45], [76, 58], [60, 80], [46, 58], [18, 45], [48, 38]], 'fig-fill') + sPoly([[60, 10], [72, 38], [102, 45], [76, 58], [60, 80], [46, 58], [18, 45], [48, 38]]) + sLine(48, 38, 72, 38, 'fig-line') + sLine(46, 58, 76, 58, 'fig-line');
+  if (v === 'voronoi') return sLine(14, 18, 106, 18, 'fig-line') + sLine(14, 72, 106, 72, 'fig-line') + sLine(36, 18, 36, 72, 'fig-line') + sLine(76, 18, 76, 72, 'fig-line') + sLine(14, 45, 106, 45, 'fig-line') + sLine(36, 45, 76, 18, 'fig-line') + sLine(36, 45, 76, 72, 'fig-line') + sDot(56, 34, 2) + sDot(90, 56, 2) + sDot(24, 58, 2);
+  if (v === 'delaunay') return sLine(18, 66, 42, 22, 'fig-line') + sLine(42, 22, 76, 36, 'fig-line') + sLine(76, 36, 102, 64, 'fig-line') + sLine(18, 66, 76, 36, 'fig-line') + sLine(42, 22, 54, 70, 'fig-line') + sLine(54, 70, 102, 64, 'fig-line') + sDot(18, 66, 2) + sDot(42, 22, 2) + sDot(76, 36, 2) + sDot(102, 64, 2) + sDot(54, 70, 2);
+  if (v === 'penrose') return sPoly([[20, 56], [42, 22], [78, 30], [56, 64]], 'fig-fill') + sPoly([[20, 56], [42, 22], [78, 30], [56, 64]]) + sPoly([[56, 64], [78, 30], [102, 50], [80, 76]], 'fig-fill') + sPoly([[56, 64], [78, 30], [102, 50], [80, 76]]);
+  if (v === 'packing' || v === 'circle-packing' || v === 'sphere-packing') {
+    var out2 = sCircle(60, 45, 34, 'fig-stroke') + sCircle(46, 34, 12, 'fig-stroke') + sCircle(74, 34, 12, 'fig-stroke') + sCircle(60, 62, 12, 'fig-stroke') + sCircle(60, 45, 5, 'fig-line');
+    if (v === 'sphere-packing') out2 += sEllipse(46, 34, 12, 5, 'fig-line') + sEllipse(74, 34, 12, 5, 'fig-line') + sEllipse(60, 62, 12, 5, 'fig-line');
+    return out2;
+  }
+  var grid = '';
+  for (var i = 0; i < 3; i++) for (var j = 0; j < 2; j++) grid += sPoly(ngon(28 + i * 30, 30 + j * 30, 12, 6), 'fig-stroke');
+  return grid;
+}
+
+function propertyInner(v) {
+  if (v === 'dimension') return sLine(18, 72, 102, 72, 'fig-line') + sLine(18, 72, 18, 18, 'fig-line') + sLine(24, 66, 44, 46, 'fig-line') + sPoly([[30, 58], [50, 38], [70, 54], [90, 30]], 'fig-stroke');
+  if (v === 'convexity') return fillStroke([[20, 62], [30, 28], [62, 22], [78, 52]]) + fillStroke([[62, 72], [82, 42], [96, 70], [74, 58]]);
+  if (v === 'regularity') {
+    var hex = ngon(60, 45, 29, 6), out = fillStroke(hex);
+    for (var i = 0; i < 6; i++) out += sDot(hex[i][0], hex[i][1], 2.2);
+    return out;
+  }
+  if (v === 'self-intersection') return sPath('M60,45 C36,10 12,44 40,62 C63,76 91,56 81,36 C72,17 48,22 44,41 C40,61 78,77 96,52');
+  if (v === 'orientability') return surfaceInner('mobius');
+  if (v === 'boundedness') return sCircle(60, 45, 29, 'fig-stroke') + arrow(22, 45, 38, 45) + arrow(98, 45, 82, 45) + sDot(60, 45, 2.5);
+  if (v === 'connectedness') return sCircle(42, 45, 17, 'fig-stroke') + sCircle(78, 45, 17, 'fig-stroke') + sLine(42, 45, 78, 45, 'fig-line');
+  if (v === 'complexity') return sPolyline([[14, 62], [30, 40], [46, 62], [62, 34], [78, 62], [104, 40]], 'fig-line') + sCircle(60, 45, 28, 'fig-stroke');
+  return propertyInner('dimension');
+}
+
+function figSVG(fig, opts) {
+  opts = opts || {};
+  var color = opts.color || 'var(--accent-cyan)';
+  fig = fig || { kind: 'generic' };
+  var inner = renderInner(fig.kind || 'generic', fig.variant || '', fig);
+  // The drawing space is fixed at 120×90; every surface scales the same
+  // viewBox, so a large figure is the thumbnail enlarged rather than a
+  // different coordinate system.
+  return '<svg class="fig" viewBox="0 0 120 90" style="--fig:' + color + '" aria-hidden="true" focusable="false">' + inner + '</svg>';
+}
+
+function loadData() {
+  fetch('atlas.json', { cache: 'no-store' })
+    .then(function (res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(boot)
+    .catch(function (err) {
+      var box = $('loadError');
+      box.classList.remove('hidden');
+      box.innerHTML = 'Could not load <code>atlas.json</code>. ' + esc(err.message);
+      $('count').textContent = 'Atlas store unavailable.';
+    });
+}
+
+function clearSearch() {
+  var search = $('search');
+  search.value = '';
+  state.q = '';
+  $('clearSearch').classList.add('hidden');
+  sync();
+}
+
+$('search').addEventListener('input', function () {
+  state.q = this.value.trim();
+  $('clearSearch').classList.toggle('hidden', !this.value);
+  sync();
+});
+$('search').addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') { clearSearch(); this.blur(); }
+});
+$('clearSearch').addEventListener('click', function () { clearSearch(); $('search').focus(); });
+
+document.querySelectorAll('#viewSeg .btn').forEach(function (b) {
+  b.addEventListener('click', function () { setView(this.dataset.view); });
+});
+
+$('sort').addEventListener('change', function () {
+  state.sort = this.value;
+  if (state.built.table) renderTable();
+  sync();
+});
+
+$('expandAll').addEventListener('click', function () {
+  state.collapsed = new Set();
+  sync();
+});
+$('collapseAll').addEventListener('click', function () {
+  state.collapsed = new Set(NODES.filter(function (n) { return n._depth >= 1 && n._children.length > 0; }).map(function (n) { return n.id; }));
+  sync();
+});
+
+$('clearFilters').addEventListener('click', function () {
+  state.family = null;
+  state.dimension = null;
+  clearSearch();
+});
+
+$('outlineView').addEventListener('click', function (e) {
+  var twist = e.target.closest('.twist');
+  var row = e.target.closest('.tree-row');
+  if (!row) return;
+  if (twist) { e.preventDefault(); toggleCollapse(row.dataset.id); return; }
+  openNode(NODE_BY_ID[row.dataset.id]);
+});
+
+$('tableView').addEventListener('click', function (e) {
+  var group = e.target.closest('.group-row');
+  if (group) {
+    state.family = group.dataset.family;
+    sync();
+    return;
+  }
+  var row = e.target.closest('.shape-row');
+  if (row) openNode(NODE_BY_ID[row.dataset.id]);
+});
+$('tableView').addEventListener('keydown', function (e) {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  var row = e.target.closest('.shape-row');
+  if (!row) return;
+  e.preventDefault();
+  openNode(NODE_BY_ID[row.dataset.id]);
+});
+
+$('familiesView').addEventListener('click', function (e) {
+  var tileEl = e.target.closest('.tile');
+  if (tileEl) { openNode(NODE_BY_ID[tileEl.dataset.id]); return; }
+  var head = e.target.closest('.family-head');
+  if (head && head.dataset.id) openNode(NODE_BY_ID[head.dataset.id]);
+});
+$('familiesView').addEventListener('keydown', function (e) {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  var head = e.target.closest('.family-head');
+  if (!head) return;
+  e.preventDefault();
+  openNode(NODE_BY_ID[head.dataset.id]);
+});
+
+$('modal').addEventListener('click', function (e) {
+  var go = e.target.closest('[data-goto]');
+  if (go) { goTo(go.dataset.goto); return; }
+  if (e.target === this) closeModal();
+});
+$('mClose').addEventListener('click', closeModal);
+$('mPrev').addEventListener('click', function () {
+  var idx = state.list.findIndex(function (n) { return state.cur && n.id === state.cur.id; });
+  if (idx > 0) openNode(state.list[idx - 1], true);
+});
+$('mNext').addEventListener('click', function () {
+  var idx = state.list.findIndex(function (n) { return state.cur && n.id === state.cur.id; });
+  if (idx >= 0 && idx < state.list.length - 1) openNode(state.list[idx + 1], true);
+});
+
+document.addEventListener('keydown', function (e) {
+  var modal = $('modal');
+  var isOpen = modal && !modal.classList.contains('hidden');
+  if (e.key === 'Escape') {
+    if (isOpen) closeModal();
+    else if (state.q) clearSearch();
+    return;
+  }
+  if (!isOpen) return;
+  if (e.key === 'ArrowLeft') {
+    e.preventDefault();
+    $('mPrev').click();
+  } else if (e.key === 'ArrowRight') {
+    e.preventDefault();
+    $('mNext').click();
+  }
+});
+
+loadData();
+</script>
+<script src="/vendor/mathjax-setup.js"></script>
+<script src="/vendor/mathjax/tex-svg-full.js"></script>
+<script src="/glossarium/js/glossarium-lookup.js" data-glossarium="/glossarium/data/index.json" defer></script>
+
+
+
+
+</script>
+
+</body>
+</html>

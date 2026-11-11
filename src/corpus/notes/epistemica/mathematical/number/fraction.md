@@ -140,12 +140,67 @@ qa:
 
 ### Which are the possible interpretations of the following situation?
 
-![Two circles cut in thirds: one third shaded, and all three thirds shaded](/assets/note/epistemica/mathematical/fraction/fraction-part-whole.png)
+![Two circles cut in thirds: one third shaded, and all three thirds shaded](../assets/note/epistemica/mathematical/fraction/fraction-part-whole.png)
 
 1. **Part-to-Part Comparison:** Relate the number of colored parts to the number of non-colored parts (1 : 2).
 2. **Fractional Representation:** Represent the number of colored parts as \(1 \times \frac{1}{3}\).
 3. **Whole as Unity:** The fully shaded circle is \(\frac{3}{3} = 1\) — three thirds make one whole.
 
+### How to Interpret \(20/2\) km?
+
+1. **As a computational operation (division):** Divide 20 by 2, obtaining 10 km.
+2. **As a collection of fractional quantities:** Represent it as a collection of 20 half-kilometer units:
+   \[
+   \left\{\frac12,\frac12,\ldots,\frac12\right\}
+   \]
+   The total quantity represented by the collection is 10 km.
+
+### What is the semantics of a mixed fraction?
+
+> A mixed fraction \(2\frac{1}{3}\) represents the sum of two wholes (six thirds) and one additional third: \(\frac{6}{3}+\frac{1}{3}=\frac{7}{3}\).
+
+### How to interpret improper fractions?
+
+> The meaning of this is they are 5 pars, a unit is divided in four parts. So the results represents part  vs (part / per unit). In this case 5 part  per 4 part per unit, which is  1.25.
+
+![An improper fraction: five quarter-parts, with four parts making one unit](../assets/note/epistemica/mathematical/fraction/improper.png)
+
+### What are the different types of relative (comparative) relationships between numbers?
+
+| Category | Relative relationship | Description | Essence | Case |
+|---|---|---|---|---|
+| Comparative / multiplicative comparison | **Ratio** | Multiplicative relationship between two quantities. | Multiplicative comparison. | \(12/4=3\) |
+| Comparative / multiplicative comparison | **Multiple** | How many times one quantity contains another. | Integer-valued ratio. | \(20/5=4\) |
+| Comparative / multiplicative comparison | **Reciprocal** | Multiplicative inverse of a number. | Inverse multiplicative relationship. | \(1/5\) |
+| Part-to-whole | **Fraction** | Quantity relative to a whole or another quantity. | Parts relative to a defined whole. | \(3/4\) |
+| Part-to-whole | **Proper fraction** | Fewer parts than required to constitute one unit. | Numerator smaller than denominator. | \(3/4=0.75\) |
+| Part-to-whole | **Improper fraction** | Numerator counts parts; denominator gives parts per unit; numerator \(\ge\) denominator. | Parts divided by parts per unit. | \(5/4=1.25\,\text{units}\) |
+| Measurement | **Rate** | Relationship between quantities with different units. | Cross-dimensional ratio. | \(120\,\text{km}/2\,\text{h}=60\,\text{km/h}\) |
+| Measurement | **Unit rate** | Rate relative to one unit of the reference quantity. | Normalized rate. | \(\$12/3\,\text{kg}=\$4/\text{kg}\) |
+| Measurement | **Density** | Amount of a quantity per unit of space or another reference dimension. | Quantity per unit of dimension. | \(10\,\text{kg}/2\,\text{m}^3=5\,\text{kg/m}^3\) |
+| Measurement | **Average** | Total quantity relative to the number of observations or elements. | Quantity per observation. | \((2+4+6)/3=4\) |
+| Measurement | **Frequency** | Number of occurrences relative to a unit of time or another reference quantity. | Occurrences per unit. | \(60\,\text{cycles}/\text{min}\) |
+| Derived | **Percentage** | Ratio relative to 100. | Ratio normalized to 100. | \(3/4=75\%\) |
+| Derived | **Proportion** | Equality of two ratios. | Ratio equivalence. | \(2/3=4/6\) |
+| Derived | **Relative difference** | Absolute difference relative to a reference quantity. | Normalized absolute difference. | \(\lvert110-100\rvert/100=10\%\) |
+| Derived | **Relative change** | Change relative to an initial quantity. | Normalized signed difference. | \((120-100)/100=20\%\) |
+| Derived | **Percentage-point difference** | Absolute difference between two percentages. | Difference between proportions. | \(25\%-20\%=5\,\text{pp}\) |
+| Responsiveness | **Elasticity** | Percentage change in one quantity relative to the percentage change in another. | Relative responsiveness. | \(\frac{10\%}{5\%}=2\) |
+| Transformation | **Scaling factor** | Multiplicative factor between two quantities or used to transform one into another. | Multiplicative transformation. | \(15/10=1.5\) or \(10\times1.5=15\) |
+| Transformation | **Conversion factor** | Equivalence between two different units of measurement. | Unit equivalence ratio. | \(1\,\text{km}/1000\,\text{m}\) |
+| Statistical comparison | **Relative standing** | Position of an observation relative to a distribution. | Distribution-relative position. | 90th percentile |
+| Statistical comparison | **Standardized difference** | Difference between a value and a reference mean in standard-deviation units. | Standardized deviation. | \(z=(x-\mu)/\sigma\) |
+| Statistical comparison | **Index** | Quantity relative to a designated reference value, usually normalized to 100. | Benchmark-relative magnitude. | \(120/100\times100=120\) |
+
+### What is the essense of division? What does division represents?
+
+> **Relative Relationship :** Why relative? Why relationship?
+
+> **Relative :** Because the value is expressed in relation to another quantity, rather than as an independent magnitude.
+
+> **Relationship :** Because it describes how two quantities compare or correspond to each other.
+
+> Division expresses a multiplicative relationship (ratio) between quantities, rather than their additive difference.
 
 ## References
 

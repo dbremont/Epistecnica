@@ -1982,3 +1982,164 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 - [Cambridge University Press — Tredgold, On the strength of cast iron](https://www.cambridge.org/core/books/practical-essay-on-the-strength-of-cast-iron-and-other-metals/EC1056FAD31F17B594D3C60644EDF067)
 - [Library of Congress — electrical engineering bibliography guide](https://guides.loc.gov/engineering-in-history/electrical-engineering)
 - [A Case for Industrial Technique — the technica corpus](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- Adams, I., Jr. (1869). Double-salt ammonium-nickel electroplating process.
+- Alcega, J. de. (1580). Libro de geometría, práctica y traza.
+- Babcock, A., & Chickering, J. (1825–1843). One-piece full cast-iron harp frame.
+- Babcock & Wilcox Company. (1867–1890). Steam: Its generation and use; and inclined-header forged-steel water-tube safety boiler.
+- Bauer, W. (1850). Brandtaucher.
+- Beecher, C. E., & Stowe, H. B. (1869). The American woman’s home.
+- Benardos, N., & Slavianoff, N. G. (1885–1890). Carbon-arc and consumable metal-electrode arc welding processes.
+- Bissell, M. R. (1876). Carpet sweeper (U.S. Patent No. 182,346).
+- Blake, L. R., & McKay, G. (1858). Horn chain-stitch sole-sewing machine (U.S. Patent No. 20,775).
+- Bonsack, J. A. (1881). Cigarette-rolling machine (U.S. Patents Nos. 238,640 and 247,795).
+- Bourdon, E. (1849). Curved-tube metallic pressure gauge and manometer.
+- Bramah, J. (1797–1814). Continuous soda-water aerating and bottling machine and hydraulic beer engine.
+- Brunton, W. (1819). Revolving-grate mechanical stoker.
+- Bushnell, D. (1775). Turtle hand-cranked submarine with detachable screw mine.
+- Carlier, F., & Vignon, A. (1862). Portable soda-acid chemical fire extincteur.
+- Carvès, F. (1866–1873). By-product recovery coke oven.
+- Chancel, J. (1805). Sulphuric-acid chlorate dip match.
+- Clark, T. (1841). Lime precipitation process for softening hard chalk waters.
+- Clayton, H. (1845–1855). Steam-driven pug-mill and wire-cut brick extrusion machines.
+- Cochran, J. G. (1886). Rack-and-pump hot-water jet mechanical dishwasher (U.S. Patent No. 355,139).
+- Coes, L. (1841). Single-hand screw wrench.
+- Compaing, M. (n.d.). L’art du tailleur: Méthode proportionnelle.
+- Conté, N.-J. (1795). Kiln-fired graphite-and-clay pencil leads (French Patent No. 32).
+- Cooper, J. H. (1877). A treatise on the use of belting for the transmission of power.
+- Coppée, E. (1861). Narrow vertical-flue retort coke oven.
+- Cristofori, B. (1700–1720). Gravicembalo col piano e forte hammer-escapement action.
+- Destouy, A., & Goodyear, C., Jr. (1869–1875). Goodyear welt and turn-shoe curved-needle stitching machines.
+- Drebbel, C. (1620). Oared Thames diving boat.
+- Dubois de Chémant, N. (1788–1797). Dissertation sur les avantages des nouvelles dents et rateliers artificiels, incorruptibles et sans odeur.
+- Dudgeon, R. (1851). Portable hydraulic jack.
+- Duhamel du Monceau, H.-L. (1761). L’art de l’épinglier.
+- Duhamel du Monceau, H.-L. (1771). L’art de faire les pipes à fumer le tabac.
+- Elkington, G. R., & Elkington, H. (1840). Potassium-cyanide silver and gold electroplating patent (British Patent No. 8,447).
+- Érard, S. (1821). Double-escapement repetition grand action.
+- Ewart, W. D. (1874). Detachable malleable-iron link-belt drive chain.
+- Everitt, P. (1883). Coin-freed vending machine with weight-and-slot coin discriminator (British Patent No. 1,649).
+- Fairbanks, T. (1830–1831). Compound-lever multiplication platform weighing scale.
+- Fargue, L. J. (1868). Étude sur la corrélation entre la configuration des lits et la profondeur d’eau dans les rivières à fond mobile.
+- Fauchard, P. (1728). Le chirurgien dentiste, ou traité des dents.
+- Franzius, L. (1888–1895). Die Korrektion der Unterweser.
+- Fulton, R. (1800–1801). Nautilus copper-sheathed plunging boat with compressed-air ballast.
+- Garsault, F.-A. P. de. (1769). L’art du tailleur.
+- Gillott, J. (1830–1831). Press-slit elastic steel dip-pen nibs.
+- Glynn, J. (1849). Rudimentary treatise on the construction of cranes.
+- Goldschmidt, H. (1895–1898). Thermit aluminothermic welding and carbon-free ferro-alloys.
+- Grant, G. B. (1885–1893). A treatise on gear wheels.
+- Gröbli, I. (1863). Schiffli continuous-thread shuttle embroidery machine.
+- Guettier, A. (1844). De la fonderie telle qu’elle existe aujourd’hui en France.
+- Guimet, J.-B., & Gmelin, C. G. (1828). Artificial synthesis of French ultramarine blue pigment.
+- Hagen, G. (1841–1865). Handbuch der Wasserbaukunst.
+- Hall, C. H. (1872). Pulsometer valveless steam-vacuum pump.
+- Hare, R., & Le Chatelier, H. (1801–1895). Oxy-hydrogen and oxy-acetylene welding torches.
+- Harris, C. A. (1839). The dental art: A practical treatise on dental surgery.
+- Hayes, D. D., & Magirus, C. D. (1868–1872). Turntable extensible aerial fire ladders.
+- Hazen, A. (1895). The filtration of public water-supplies.
+- Hearson, C. (1881). Thermostatic-capsule incubator.
+- Heathcoat, J. (1808–1809). Bobbin-net twist-lace machine.
+- Heilmann, J. (1828). Pantograph hand-embroidery machine.
+- Hill, E., & De La Rue, W. (1845). Plunger-and-creaser steam envelope-folding and gumming machine.
+- Hiorns, A. H. (1892). Metal-colouring and bronzing.
+- Hoffmann, F. E. (1858). Ringofen continuous annular multi-chamber regenerative brick, tile and lime kiln.
+- Holland, J. P. (1897–1900). Holland VI gasoline-surface/electric-submerged submarine with hydroplanes.
+- Hruschka, F. E. von. (1865). Centrifugal honey extractor.
+- Huber, F. (1792). Nouvelles observations sur les abeilles.
+- Hulot, P.-J. (1775). L’art du tourneur mécanicien.
+- Jacobi, M. H. von. (1840). Die Galvanoplastik.
+- Johansson, J. P. (1888–1892). Bahco adjustable spanner and iron-hand pipe wrench.
+- Jolly-Belin, J.-B. (1845–1855). Nettoyage à sec.
+- Jones, A. L., Long, O., & Gair, R. (1871–1879). Corrugated fluting paper, single/double-faced corrugated board, and die-cut creasing-rule folding carton press.
+- Juckes, J. (1841). Endless chain-grate travelling stoker.
+- Kirchhoff, G. S. C. (1811). Catalytic dilute-acid conversion of potato starch into crystalline glucose.
+- Knight, M. E. (1871). Rotary-folder flat square-bottom paper-bag machine (U.S. Patent No. 116,842).
+- Langbein, G. (1886). Handbuch der galvanischen Metall-Niederschläge.
+- Langstroth, L. L. (1852–1853). Bee-space movable-frame hive patent and Langstroth on the hive and the honey-bee.
+- Laubeuf, M. (1899). Narval double-hull steam-electric submersible.
+- Leavers, J. (1813). Leavers figured lace machine.
+- Leclaire, E.-J. (1844–1848). Industrial zinc-oxide white pigment.
+- Lindt, R. (1879). Longitudinal granite-bed conching machine.
+- Mannesmann, R., & Mannesmann, M. (1885–1886). Skew-roll rotary piercing mill for seamless steel tubes.
+- Matthews, J. (1832). Marble-dust and sulphuric-acid carbonic-acid generator and drafted soda fountain.
+- Mehring, J. (1857). Embossed wax comb foundation rollers.
+- Merrick, S. (1835). Screw-adjusted monkey wrench.
+- Montgolfier, J. M. (1796). Bélier hydraulique.
+- Monturiol, N. (1864–1891). Ictíneo II anaerobic chemical-heat steam submarine and Ensayo sobre el arte de navegar por debajo del agua.
+- Morrison, J. B. (1871). Foot-treadle flexible-cable dental engine.
+- Needham, J. (1853). Recessed-plate pressure filter press.
+- Nicholson, W. T. (1864–1878). File-cutting machine patents and A treatise on files and rasps.
+- Nollet, J.-A. (1765). L’art de faire les chapeaux.
+- Nordenfelt, T., & Garrett, G. (1885–1887). Nordenfelt latent-steam submarines.
+- Otto, C., & Hoffmann, G. (1881–1883). Otto-Hoffmann regenerative by-product coke oven.
+- Overman, F. (1851). The moulder’s and founder’s pocket guide.
+- Parmelee, H. S., & Grinnell, F. (1874–1890). Fusible-solder automatic fire-sprinkler heads and dry-pipe valve.
+- Pasch, G. E., & Lundström, J. E. (1844–1855). Swedish safety match with red phosphorus on the box.
+- Penzoldt, & Seyrig, D.-P. (1836–1838). Centrifugal drum hydro-extractor (essoreuse).
+- Peral, I. (1888). Peral battery-electric torpedo submarine.
+- Peter, D. (1875). Condensed-milk solid chocolate.
+- Plumier, C. (1701). L’art de tourner, ou de faire en perfection toutes sortes d’ouvrages au tour.
+- Porter, C. T. (1858). Loaded high-speed central-counterweight centrifugal governor.
+- Priestley, J. (1772). Directions for impregnating water with fixed air.
+- Réaumur, R.-A. F. de. (1725). Principes de l’art de faire le fer-blanc.
+- Réaumur, R.-A. F. de. (1749). Art de faire éclore et d’élever en toute saison des oiseaux domestiques.
+- Reno, J. W. (1891–1892). Inclined continuous passenger elevator/escalator.
+- Roots, P., & Roots, F. M. (1860–1866). Two-lobe positive-displacement rotary air blower.
+- Sauria, C. (1830–1831). White-phosphorus match.
+- Schrötter von Kristelli, A. (1845). Amorphous red phosphorus discovery.
+- Schwann, T., & Fleuss, H. (1853–1879). Closed-circuit compressed-oxygen rebreather with caustic-potash CO₂ scrubber.
+- Schweppe, J. J. (1783–1790). Geneva high-pressure carbonated-water compression pump.
+- Sevène, H., & Cahen, É. D. (1898). Non-toxic phosphorus sesquisulphide match.
+- Seytre, C.-F., Fourneaux, H., & Votey, E. S. (1842–1897). Perforated-cardboard and pneumatic paper-roll player pianos.
+- Simpson, J. (1829). Slow sand biological water-filtration beds at Chelsea Waterworks.
+- Smith, H. E. (1858–1863). Reciprocating and rotary-reversing washing machine patents.
+- Smith, O. (1896). Press-working of metals: A treatise upon the principles and practice of shaping metals in dies by the action of presses.
+- Sprengel, H. (1865). On the vacuum.
+- Spretson, N. E. (1878). A practical treatise on casting and founding.
+- Steinway, H. E. (1859–1872). Overstrung bass fan-scale and cupola iron frame.
+- Stillson, D. C. (1869). Articulated self-gripping serrated pipe wrench (U.S. Patent No. 95,744).
+- Stodola, A. (1893–1894). Über die Regulierung von Turbinen.
+- Stow, N. (1872–1875). Flexible wound-wire rotary shafting.
+- Thomson, E. (1886). Electric resistance butt and spot welding.
+- Thomson, J. (1868). A treatise on hat-making and felting, including a full exposition of the singular properties of fur, wool, and hair.
+- Tingry, P.-F. (1803). Traité théorique et pratique sur l’art de faire et d’appliquer les vernis.
+- Van Houten, C. J. (1828). Hydraulic cocoa-butter press and alkaline Dutch-process cocoa powder.
+- Vernon-Harcourt, L. F. (1882). A treatise on rivers and canals.
+- Vyshnegradsky, I. A. (1876). Sur la théorie générale des régulateurs.
+- Walker, J. (1827). Friction Congreve match.
+- Wampen, G. (1850–1864). Anthropometry, or geometry of the human figure.
+- Waterman, L. E. (1884). Three-fissure capillary-feed fountain pen (U.S. Patent No. 293,545).
+- Watin, J.-F. (1772). L’art du peintre, doreur, vernisseur.
+- Watt, A. (1860–1886). Electro-metallurgy; and Electro-deposition.
+- Wells, H. A., & Blanchard, T. (1837–1846). Vacuum perforated-cone fur-hat body forming machine.
+- Weston, T. A. (1854–1859). Differential chain pulley block and multi-disc friction clutch/brake.
+- Williams, C. W. (1840/1854). The combustion of coal and the prevention of smoke.
+- Wolle, F. (1852). V-bottom paper-bag machine.
+- Worthington, H. R. (1840–1859). Direct-acting steam feed pump and duplex steam pump.
+- Al-Murādī, I. K. (11th c./1266 MS). *Kitāb al-Asrār fī Natāyij al-Afkār* [Book of secrets in the results of ideas].
+- Taccola, M. (1449). *De Machinis*.
+- Del Monte, G. U. (1577). *Mechanicorum Liber*.
+- Blakey, W. (1793). *A Short Historical Account of the Invention, Theory, and Practice, of Fire-Machinery*.
+- Moseley, H. (1843). *The Mechanical Principles of Engineering and Architecture*.
+- Simms, F. W. (1844). *A Treatise on the Principal Mathematical Instruments Employed in Surveying, Levelling, and Astronomy*.
+- Knapp, F. L. (1848). *Chemical Technology; or, Chemistry Applied to the Arts and to Manufactures*.
+- Andrews, G. H. (1852). *Rudimentary Treatise on Agricultural Engineering*.
+- De La Rive, A. (1853–1858). *A Treatise on Electricity, in Theory and Practice*.
+- Becquerel, A.-C. (1855–1856). *Traité d’électricité et de magnétisme*.
+- Lynch, T. (1859). *The Printer’s Manual: A Practical Guide for Compositors and Pressmen*.
+- Humber, W. (1861). *A Complete Treatise on Cast and Wrought Iron Bridge Construction*.
+- Barlow, P. (1867). *A Treatise on the Strength of Materials*.
+- Cain, W. (1879). *Theory of Solid and Braced Elastic Arches*.
+- Scott, J. (1885). *The Complete Text-Book of Farm Engineering*.
+- Baker, I. O. (1892). *Engineers’ Surveying Instruments: Their Construction, Adjustment, and Use*.
+- Nicholson, J. (1825). The operative mechanic and British machinist. Thomas Tegg.
+- Hebert, L. (1836). The engineer’s and mechanic’s encyclopaedia. Thomas Kelly.
+- Rose, J. (1887). Modern machine-shop practice. Charles Scribner’s Sons.
+- Rose, J. (1880). The pattern maker’s assistant. D. Van Nostrand.
+- Lukin, J. (1868). The lathe and its uses. G. Routledge & Sons.
+- Fuller, J. (1894). The art of coppersmithing. D. Williams.
+- Leybourn, W. (1653). The compleat surveyor. R. & W. Leybourn.
+- Jacquard, J. M. (1804). Métier à tisser les étoffes façonnées [Loom for weaving figured fabrics] (French patent). French Patent Office.
+- Smith, D. (1849). The dyer’s instructor. Henry Carey Baird.
+- Millar, W. (c. 1890). The practical plasterer. Crosby Lockwood and Son.
+

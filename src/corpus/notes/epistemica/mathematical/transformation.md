@@ -38,7 +38,7 @@ tags: [note, mathematics]
 | Representational system | Rules | Note |
 | --- | --- | --- |
 | Numeral system | addition, subtraction, multiplication, division, exponentiation, logarithm | [Multiplication](number/multiplication.md) · [Division](number/division.md) · [Exponentiation](number/exponentiation.md) · [Logarithm](number/logarithm.md) |
-| Algebraic system | composition, substitution, normalization | [Normalization](equation/normalization.md) · [Composition Operator](structure/linear/composition-operator.md) |
+| Algebraic system | composition, substitution, normalization | [Normalization](equation/normalization.md) · [Composition Operator](mapping/composition-operator.md) |
 | Differential system | differentiation, integration | [Derivative Operator](change/derivative-operator.md) · [Differential Operator](change/differential-operator.md) · [Partial Derivative Operator](change/partial-derivative-operator.md) |
 | Field representation | gradient, divergence, curl, laplacian | [Gradient Operator](change/gradient-operator.md) · [Divergence Operator](change/divergence-operator.md) · [Curl Operator](change/curl-operator.md) · [Nabla Operator](change/nabla-operator.md) |
 | Equational system | factorization, canonical form, solving | [Factorization](equation/factorization.md) · [Canonical Form](equation/canonical-form.md) · [Equation](equation/equation.md) |

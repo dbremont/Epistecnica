@@ -53,6 +53,8 @@ The hierarchy is nested: isometry $\subset$ similarity $\subset$ affine $\subset
 
 > **Typing.** The root path declares the role once: `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape. The shape is a constituent of the geometrical sign system, not a construction beside it: `readable as` an `Epistemic Construction` → `Concept` (the constructed discriminator of form) and `readable as` an ontic `Structure` when a modeled target is taken to realize it. The group, the equivalence rules, the invariants, and the shape-space quotient hang on Geometry's `Constitutive Substrate`, because they constitute the system that decides sameness rather than the single shape. Convexity, regularity, and self-intersection are grown as `(→ Has Property)` instances rather than as figure kinds: the figure families are grown by dimension and by the defining constraint of each kind, while the predicates are asserted of the shape itself.
 
+> **Atlas.** The [Geometric Shape Atlas](/corpus/notes/epistemica/mathematical/geometry/atlas.html) renders this decomposition as a figure-first atlas — one entry per table row, with a drawing of each shape, its path, and its corpus note.
+
 | Instance Tree Path | Description |
 | --- | --- |
 | `Epistemic Element` (→ Kind) `Epistemic Representation` (→ Has) `Representational System` (→ Instance) Geometry (→ Part) `Representation Element` (→ Instance) Geometric Shape | The form a figure carries — the orbit of a point set under a declared transformation group, never the figure that represents it. |
@@ -432,6 +434,7 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 
 ## References
 
+- [Geometric Shape Atlas](/corpus/notes/epistemica/mathematical/geometry/atlas.html) — the figure-first rendering of the decomposition table.
 - https://en.wikipedia.org/wiki/Shape
 - https://en.wikipedia.org/wiki/Congruence_(geometry)
 - https://en.wikipedia.org/wiki/Similarity_(geometry)

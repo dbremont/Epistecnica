@@ -4,87 +4,38 @@ tags: [note, mathematics, operator]
 
 # Operator
 
- : Function (Function%20049537a4fd564eaaac4bae443839b0c0.md), Integral Transform (Integral%20Transform%205c5fd9afa97942dca93d67c594f6ebe2.md), Integral Operator (Integral%20Operator%20100c0f5171ec804e8f36d1066c3679d2.md), Functional (Functional%201d6c0f5171ec80b19358d228c3cf04a6.md), Convolution Operator (Convolution%20Operator%201d6c0f5171ec8057b135f9b4b10cbe31.md), Polynomial (Polynomial%20c29542c4a2ce4a0e887db0a00b61e977.md), Representation (Representation%20262c0f5171ec8021a535fc9111fd1ed5.md)
+> An **operator** is a map between function spaces: it takes a function and returns a function. It is one of the kinds of [map](map.md), alongside the [function](function.md), the [functional](functional.md), the transformation, the morphism, and the relation.
 
-> The term is **context-dependent**: in linear algebra, an operator might be a matrix; in calculus, it might be a differential operator.
-> 
-
-> Mathematics **does have terms** for “operations on functions”—they’re just **distributed across several precise concepts**, not unified under a single everyday label like “higher-order function.”
-> 
-
-> **Function**: Map an object (domain) to another object in a range.
-> 
-
-> **Functional**: Map a function to a  real number.
-> 
-
-> **Operator**:  Maps a functional space to another.
-> 
-
-> The **domain** of an operator can be numbers, vectors, functions, or even **functionals** (functions of functions).
-> 
-
-> Operators are central in many fields: differential equations (differential operators), quantum mechanics (Hermitian operators), signal processing (convolution operators), etc.
-> 
+> The term is **context-dependent**: in linear algebra an operator may name a matrix; in calculus it may name a differential operator. This note keeps the strict sense — both domain and codomain are function spaces. A map between finite-dimensional vector spaces is a [linear map](../structure/linear/linear-map.md), and a map to a scalar field is a [functional](functional.md).
 
 ## Definition
 
-An **operator** is a special kind of function that acts on elements of **structured spaces**, often vector spaces or function spaces: $T: V \to W$
+An **operator** is a map $T: \mathcal{F} \to \mathcal{G}$ whose domain and codomain are **function spaces**: $T$ sends a function to a function. The classification is the one drawn in [Map](map.md):
 
-- When $V$ and $W$ are **function spaces**, the operator maps **functions to functions**.
-- Operators can also act on general vectors (not necessarily functions), especially in finite-dimensional contexts.
+| Domain | Codomain | Classification |
+|---|---|---|
+| Non-map object | Non-map object | Object-valued function |
+| Non-map object | Map object | Map-valued function |
+| Map object | Non-map object | Functional |
+| Map object | Map object | **Operator** |
 
-## List of Operators
+A [functional](functional.md) returns a scalar; an operator returns a function. A map between finite-dimensional vector spaces is a [linear map](../structure/linear/linear-map.md) or a matrix, not an operator in the strict sense.
 
-| **Category** | **Operator** | **Description** |
-| --- | --- | --- |
-| **Algebraic & Linear** | **Identity Operator** | Maps a function to itself. |
-|  | **Multiplication Operator** | Multiplies input by a fixed function: $g(x)f(x)$. |
-|  | **Addition Operator** | Pointwise sum: $(f + g)(x)$. |
-|  | **Scaling Operator** | Scales function by a scalar. |
-|  | **Composition** | $y =   f (g(x))$ |
-| **Polynomial Transformation** | … | … |
-| **Differential & Pseudo-diff.** | **Differential Operator** | Applies derivatives: $\frac{d^n f}{dx^n}$. |
-|  | **Gradient / Divergence / Curl** | Vector calculus operators. |
-|  | **Laplace Operator** | $\Delta f = \nabla \cdot \nabla f$, measures diffusion. |
-|  | **Pseudo-differential Operator** | Defined via Fourier symbols, generalizes differentiation. |
-| **Integral & Transform** | **Integral Operator** | Integration against a kernel:  $\int K(x,t)f(t)dt$. |
-|  | **Convolution Operator** | Weighted shift-integral:  $(f * g)(x)$. |
-|  | **Fourier Transform** | Converts to frequency domain. |
-|  | **Laplace Transform** | Converts to complex frequency domain. |
-|  | **Hilbert Transform** | Principal value integral, phase shift. |
-| **Geometric & Symmetry** | **Translation Operator** | Shifts input: $f(x - h)$. |
-|  | **Dilation (Scaling) Operator** | Rescales input:  $f(ax)$. |
-|  | **Rotation Operator** | Rotates input space. |
-|  | **Reflection Operator** | Reflects input: $f(-x)$. |
-| **Spectral & Functional Analysis** | **Projection Operator** | Projects function onto a subspace. |
-|  | **Compact Operator** | Maps bounded sets to relatively compact ones. |
-|  | **Bounded/Unbounded Operator** | Maps bounded inputs to bounded/unbounded outputs. |
-|  | **Self-Adjoint Operator** | Operator equal to its adjoint. |
-|  | **Eigen-Operator** | Acts by scaling eigenfunctions: $(f) = \lambda f$. |
-| **Nonlinear & Functional** | **Composition Operator** | Composes functions: $f(\phi(x))$. |
-|  | **Max/Min Operator** | Returns max/min over domain or between functions. |
-|  | **Norm Operator** | Assigns norm value (e.g., $\|f\|_{L^p}$ ). |
-|  | **Activation Functions** | Nonlinear scalar functions: ReLU, sigmoid, etc. |
-| **Applied Mathematics** | **Green’s Operator** | Inverts a differential operator using Green's function. |
-|  | **Dirichlet-to-Neumann Map** | Maps boundary values to flux (PDEs). |
-|  | **Sampling Operator** | Evaluates function at discrete points. |
-|  | **Integral Transforms** | Mellin, Radon, Hankel, etc. |
-| **Others** |  |  |
-|  | **Kernel Operator** | Applies a kernel function to map a function to another function in functional analysis. |
-|  | **Sobolev Embedding Operator** | An operator that embeds functions from one Sobolev space into another (function space with derivatives). |
-|  | **Neural Operator** | … |
+## Where operator content lives
+
+The operator-kind definition lives here; the operator instances stay in the branch that owns the object they act on.
+
+| Branch | Operator content |
+|---|---|
+| mapping | [Convolution Operator](convolution-operator.md) · [Composition Operator](composition-operator.md) · [Identity Operator](identity-operator.md) · [Non-linear Operator](non-linear-operator.md) |
+| structure/linear | [Linear Operator](../structure/linear/linear-operator.md) · [Adjoint Operator](../structure/linear/adjoint-operator.md) · [Self-adjoint Operator](../structure/linear/self-adjoint-operator.md) · [Compact Operator](../structure/linear/compact-operator.md) · [Shift Operator](../structure/linear/shift-operator.md) |
+| structure/algebra | [Operator Algebra](../structure/algebra/operator-algebra.md) — the algebra of operators, not an operator instance |
+
+The `change/` notes named `*-operator.md` — [Derivative Operator](../change/derivative-operator.md), [Differential Operator](../change/differential-operator.md), [Partial Derivative Operator](../change/partial-derivative-operator.md), [Gradient Operator](../change/gradient-operator.md), [Divergence Operator](../change/divergence-operator.md), [Curl Operator](../change/curl-operator.md), [Nabla Operator](../change/nabla-operator.md), [Laplace Operator](../change/nabla-laplace-operator.md) — are **transformation rules** of the differential and field representational systems, not operator-kind instances. They are catalogued in [Transformation Rule](../transformation.md); the [Integral Operator](../change/integral-operator.md) is the integration-side note.
 
 ## References
 
 - [Operator](https://en.wikipedia.org/wiki/Operator_(mathematics))
 - [Operator theory](https://en.wikipedia.org/wiki/Operator_theory)
-- [Neural Operators](https://en.wikipedia.org/wiki/Neural_operators)
-- [Bounded Operator](https://en.wikipedia.org/wiki/Bounded_operator)
-- [Hahn–Banach theorem](https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)
-- https://en.wikipedia.org/wiki/Operator_theory
-- http://www.mathphysics.com/opthy/OpHistory.html
-- https://en.wikipedia.org/wiki/Operator_(physics)
-- https://en.wikipedia.org/wiki/Operator_(mathematics)
-- https://en.wikipedia.org/wiki/Laplace%E2%80%93Beltrami_operator
-- https://mathworld.wolfram.com/topics/OperatorTheory.html
+- [Bounded operator](https://en.wikipedia.org/wiki/Bounded_operator)
+- [Map](map.md) · [Function](function.md) · [Functional](functional.md) · [Transformation Rule](../transformation.md)

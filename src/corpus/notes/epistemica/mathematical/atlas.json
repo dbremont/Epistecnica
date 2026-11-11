@@ -1,0 +1,2274 @@
+{
+  "title": "Mathematical Area Atlas",
+  "version": "2026-11-10",
+  "subtitle": "The sub-disciplines of mathematics, characterized by the property they encode and the operation they enable.",
+  "intro": "Mathematics as a map of areas. Each area is characterized by the property it encodes or represents and the operation it enables; the essences are conceptual signatures, not formal definitions.",
+  "families": [
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "color": "--accent-violet",
+      "essence": "The languages and rules that make mathematical reasoning possible."
+    },
+    {
+      "id": "quantity",
+      "name": "Quantity",
+      "color": "--accent-copper",
+      "essence": "Number and measure: quantitative properties and the operations that combine them."
+    },
+    {
+      "id": "structure",
+      "name": "Structure",
+      "color": "--accent-sage",
+      "essence": "Operations, symmetries, and the laws they obey."
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "color": "--accent-cyan",
+      "essence": "Spatial properties, from figures and coordinates to continuous deformation."
+    },
+    {
+      "id": "relation",
+      "name": "Relation",
+      "color": "--accent-plum",
+      "essence": "Comparison, arrangement, and discrete configuration."
+    },
+    {
+      "id": "change",
+      "name": "Change",
+      "color": "--accent-amber",
+      "essence": "Limits, accumulation, and the representation of change."
+    },
+    {
+      "id": "chance",
+      "name": "Chance",
+      "color": "--accent-rose",
+      "essence": "Uncertainty, inference, and decision under incomplete information."
+    },
+    {
+      "id": "computation",
+      "name": "Computation",
+      "color": "--accent-steel",
+      "essence": "Effective procedures, approximation, and extremal search."
+    },
+    {
+      "id": "methods",
+      "name": "Methods",
+      "color": "--accent-copper-light",
+      "essence": "Cross-cutting ways of proceeding that cut across the areas."
+    }
+  ],
+  "axes": {
+    "properties": [
+      {
+        "id": "foundational",
+        "name": "Foundational"
+      },
+      {
+        "id": "quantitative",
+        "name": "Quantitative"
+      },
+      {
+        "id": "structural",
+        "name": "Structural"
+      },
+      {
+        "id": "spatial",
+        "name": "Spatial"
+      },
+      {
+        "id": "relational",
+        "name": "Relational"
+      },
+      {
+        "id": "dynamic",
+        "name": "Dynamic"
+      },
+      {
+        "id": "stochastic",
+        "name": "Stochastic"
+      },
+      {
+        "id": "computational",
+        "name": "Computational"
+      }
+    ],
+    "operations": [
+      {
+        "id": "encode",
+        "name": "Encode"
+      },
+      {
+        "id": "represent",
+        "name": "Represent"
+      },
+      {
+        "id": "transform",
+        "name": "Transform"
+      },
+      {
+        "id": "compare",
+        "name": "Compare"
+      },
+      {
+        "id": "prove",
+        "name": "Prove"
+      },
+      {
+        "id": "compute",
+        "name": "Compute"
+      }
+    ]
+  },
+  "areas": [
+    {
+      "id": "logic",
+      "name": "Logic",
+      "symbol": "⊢",
+      "family": "foundations",
+      "kind": "area",
+      "property": "foundational",
+      "operation": "prove",
+      "essence": "The form of valid inference: what follows from what, independent of content.",
+      "description": "Logic studies the form of valid inference. It asks which conclusions follow from a set of premises by virtue of their structure rather than their content, and it supplies the rules of proof, consistency, and satisfaction used across mathematics.",
+      "objects": [
+        "proposition",
+        "premise",
+        "conclusion",
+        "proof",
+        "model"
+      ],
+      "operations": [
+        "inference",
+        "deduction",
+        "consistency check",
+        "satisfaction"
+      ],
+      "subareas": [
+        "propositional logic",
+        "predicate logic",
+        "proof theory",
+        "model theory",
+        "computability"
+      ],
+      "notes": [
+        {
+          "label": "Logic",
+          "path": "epistemica/epistemic/discipline/logic.md"
+        }
+      ],
+      "related": [
+        "set-theory",
+        "category-theory",
+        "model-theory",
+        "proof"
+      ],
+      "stub": false
+    },
+    {
+      "id": "set-theory",
+      "name": "Set Theory",
+      "symbol": "∈",
+      "family": "foundations",
+      "kind": "area",
+      "property": "foundational",
+      "operation": "encode",
+      "essence": "Collections and membership: the foundational encoding of mathematical objects.",
+      "description": "Set theory encodes mathematical objects as collections and membership. It provides the vocabulary of sets, functions, relations, and cardinality, and it supplies the universe in which the other areas build their structures.",
+      "objects": [
+        "set",
+        "element",
+        "subset",
+        "function",
+        "cardinal",
+        "ordinal"
+      ],
+      "operations": [
+        "membership",
+        "union",
+        "intersection",
+        "power set",
+        "cartesian product"
+      ],
+      "subareas": [
+        "naive set theory",
+        "axiomatic set theory",
+        "cardinal arithmetic",
+        "order theory"
+      ],
+      "notes": [
+        {
+          "label": "Set",
+          "path": "epistemica/mathematical/set.md"
+        },
+        {
+          "label": "Order",
+          "path": "epistemica/mathematical/relation/order.md"
+        }
+      ],
+      "related": [
+        "logic",
+        "category-theory",
+        "order-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "category-theory",
+      "name": "Category Theory",
+      "symbol": "→",
+      "family": "foundations",
+      "kind": "area",
+      "property": "structural",
+      "operation": "represent",
+      "essence": "Structure represented by objects and morphisms, with composition as the primitive.",
+      "description": "Category theory represents mathematical structure through objects and morphisms. Composition, functors, and natural transformations let it compare constructions across areas without depending on their internal representation.",
+      "objects": [
+        "category",
+        "object",
+        "morphism",
+        "functor",
+        "natural transformation"
+      ],
+      "operations": [
+        "composition",
+        "mapping",
+        "universal construction",
+        "adjunction"
+      ],
+      "subareas": [
+        "category theory",
+        "topos theory",
+        "homological algebra",
+        "universal algebra"
+      ],
+      "notes": [
+        {
+          "label": "Category",
+          "path": "epistemica/mathematical/structure/category.md"
+        },
+        {
+          "label": "Duality",
+          "path": "epistemica/mathematical/structure/duality.md"
+        }
+      ],
+      "related": [
+        "set-theory",
+        "algebra",
+        "topology",
+        "type-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "type-theory",
+      "name": "Type Theory",
+      "symbol": ":",
+      "family": "foundations",
+      "kind": "area",
+      "property": "foundational",
+      "operation": "encode",
+      "essence": "Propositions and proofs encoded as types and terms.",
+      "description": "Type theory encodes propositions and proofs as types and terms. It provides a foundational language in which computation and deduction share a syntax, and it underlies proof assistants and typed programming languages.",
+      "objects": [
+        "type",
+        "term",
+        "judgement",
+        "context",
+        "proof"
+      ],
+      "operations": [
+        "type formation",
+        "term introduction",
+        "elimination",
+        "normalization"
+      ],
+      "subareas": [
+        "simply typed lambda calculus",
+        "dependent type theory",
+        "homotopy type theory"
+      ],
+      "notes": [],
+      "related": [
+        "logic",
+        "category-theory",
+        "set-theory"
+      ],
+      "stub": true
+    },
+    {
+      "id": "model-theory",
+      "name": "Model Theory",
+      "symbol": "⊨",
+      "family": "foundations",
+      "kind": "area",
+      "property": "foundational",
+      "operation": "compare",
+      "essence": "Theories and their models: truth across structures.",
+      "description": "Model theory studies theories and their models. It compares structures by the sentences they satisfy and the mappings that preserve them, connecting syntax, semantics, and algebraic structure.",
+      "objects": [
+        "language",
+        "theory",
+        "structure",
+        "model",
+        "elementary embedding"
+      ],
+      "operations": [
+        "satisfaction",
+        "compactness",
+        "quantifier elimination",
+        "interpretation"
+      ],
+      "subareas": [
+        "first-order model theory",
+        "stability theory",
+        "applied model theory"
+      ],
+      "notes": [],
+      "related": [
+        "logic",
+        "set-theory",
+        "abstract-algebra"
+      ],
+      "stub": true
+    },
+    {
+      "id": "arithmetic",
+      "name": "Arithmetic",
+      "symbol": "ℕ",
+      "family": "quantity",
+      "kind": "area",
+      "property": "quantitative",
+      "operation": "encode",
+      "essence": "Quantitative properties encoded as numbers, plus the operations that combine and compare them.",
+      "description": "Arithmetic encodes quantitative properties in numeral systems and operates on them. It covers addition, subtraction, multiplication, division, and exponentiation, together with the rules that govern them.",
+      "objects": [
+        "number",
+        "numeral",
+        "fraction",
+        "ratio",
+        "proportion"
+      ],
+      "operations": [
+        "addition",
+        "subtraction",
+        "multiplication",
+        "division",
+        "exponentiation"
+      ],
+      "subareas": [
+        "elementary arithmetic",
+        "fractions and ratios",
+        "numeral systems",
+        "mental calculation"
+      ],
+      "notes": [
+        {
+          "label": "Arithmetic",
+          "path": "epistemica/mathematical/number/arithmetic.md"
+        },
+        {
+          "label": "Number",
+          "path": "epistemica/mathematical/number/number.md"
+        },
+        {
+          "label": "Fraction",
+          "path": "epistemica/mathematical/number/fraction.md"
+        },
+        {
+          "label": "Multiplication",
+          "path": "epistemica/mathematical/number/multiplication.md"
+        },
+        {
+          "label": "Division",
+          "path": "epistemica/mathematical/number/division.md"
+        }
+      ],
+      "related": [
+        "number-theory",
+        "algebra",
+        "measure-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "number-theory",
+      "name": "Number Theory",
+      "symbol": "ℤ",
+      "family": "quantity",
+      "kind": "area",
+      "property": "quantitative",
+      "operation": "compare",
+      "essence": "Properties of integers and their arithmetic relations: divisibility, primes, congruences.",
+      "description": "Number theory studies the integers and their arithmetic relations: divisibility, primes, congruences, and the distribution of integer solutions. It is arithmetic pursued for the structure of number itself rather than for calculation.",
+      "objects": [
+        "integer",
+        "prime",
+        "divisor",
+        "congruence",
+        "Diophantine equation"
+      ],
+      "operations": [
+        "factorization",
+        "division with remainder",
+        "modular reduction",
+        "primality testing"
+      ],
+      "subareas": [
+        "elementary number theory",
+        "analytic number theory",
+        "algebraic number theory",
+        "Diophantine equations"
+      ],
+      "notes": [
+        {
+          "label": "Number",
+          "path": "epistemica/mathematical/number/number.md"
+        },
+        {
+          "label": "Division",
+          "path": "epistemica/mathematical/number/division.md"
+        },
+        {
+          "label": "Diophantine Equation",
+          "path": "epistemica/mathematical/equation/diophantine-equation.md"
+        }
+      ],
+      "related": [
+        "arithmetic",
+        "abstract-algebra",
+        "algebraic-geometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "algebra",
+      "name": "Algebra",
+      "symbol": "𝑥",
+      "family": "structure",
+      "kind": "area",
+      "property": "structural",
+      "operation": "encode",
+      "essence": "Operational structure encoded symbolically, independent of particular values.",
+      "description": "Algebra encodes operational structure symbolically. It replaces particular numbers by variables and studies the laws that operations satisfy, so that the same reasoning applies across different domains.",
+      "objects": [
+        "variable",
+        "expression",
+        "equation",
+        "polynomial",
+        "operation"
+      ],
+      "operations": [
+        "substitution",
+        "composition",
+        "normalization",
+        "solving"
+      ],
+      "subareas": [
+        "elementary algebra",
+        "polynomial algebra",
+        "linear algebra",
+        "abstract algebra"
+      ],
+      "notes": [
+        {
+          "label": "Algebra",
+          "path": "epistemica/mathematical/structure/algebra/algebra.md"
+        },
+        {
+          "label": "Classical Algebra",
+          "path": "epistemica/mathematical/cossical/classical-algebra.md"
+        },
+        {
+          "label": "Polynomial",
+          "path": "epistemica/mathematical/cossical/polynomial.md"
+        }
+      ],
+      "related": [
+        "arithmetic",
+        "linear-algebra",
+        "abstract-algebra",
+        "algebraic-geometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "linear-algebra",
+      "name": "Linear Algebra",
+      "symbol": "⊕",
+      "family": "structure",
+      "kind": "area",
+      "property": "structural",
+      "operation": "represent",
+      "essence": "Vector spaces and linear maps: superposition, basis, dimension, eigenstructure.",
+      "description": "Linear algebra studies vector spaces and linear maps. It supplies the language of basis, dimension, superposition, eigenvalues, and eigenvectors, and it underlies geometry, analysis, and computation.",
+      "objects": [
+        "vector",
+        "vector space",
+        "matrix",
+        "linear map",
+        "basis",
+        "eigenvector"
+      ],
+      "operations": [
+        "linear combination",
+        "matrix multiplication",
+        "diagonalization",
+        "projection"
+      ],
+      "subareas": [
+        "matrix theory",
+        "eigenvalues and eigenvectors",
+        "inner-product spaces",
+        "linear operators"
+      ],
+      "notes": [
+        {
+          "label": "Linear Algebra",
+          "path": "epistemica/mathematical/structure/linear/linear-algebra.md"
+        },
+        {
+          "label": "Eigenvalue",
+          "path": "epistemica/mathematical/structure/linear/eigenvalue.md"
+        },
+        {
+          "label": "Eigenvector",
+          "path": "epistemica/mathematical/structure/linear/eigenvector.md"
+        },
+        {
+          "label": "Determinant",
+          "path": "epistemica/mathematical/structure/linear/determinant.md"
+        }
+      ],
+      "related": [
+        "algebra",
+        "abstract-algebra",
+        "functional-analysis",
+        "geometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "abstract-algebra",
+      "name": "Abstract Algebra",
+      "symbol": "∗",
+      "family": "structure",
+      "kind": "area",
+      "property": "structural",
+      "operation": "compare",
+      "essence": "Groups, rings, fields, and modules classified by their laws and symmetries.",
+      "description": "Abstract algebra classifies algebraic structures — groups, rings, fields, modules — by their operations and laws. It studies symmetry, composition, and the morphisms that preserve structure.",
+      "objects": [
+        "group",
+        "ring",
+        "field",
+        "module",
+        "homomorphism"
+      ],
+      "operations": [
+        "composition",
+        "quotient",
+        "homomorphism",
+        "extension"
+      ],
+      "subareas": [
+        "group theory",
+        "ring theory",
+        "field theory",
+        "module theory"
+      ],
+      "notes": [
+        {
+          "label": "Group Theory",
+          "path": "epistemica/mathematical/structure/algebra/group-theory.md"
+        },
+        {
+          "label": "Field Theory",
+          "path": "epistemica/mathematical/structure/algebra/field-theory.md"
+        },
+        {
+          "label": "Group",
+          "path": "epistemica/mathematical/structure/algebra/group.md"
+        },
+        {
+          "label": "Field",
+          "path": "epistemica/mathematical/structure/algebra/field.md"
+        }
+      ],
+      "related": [
+        "algebra",
+        "linear-algebra",
+        "representation-theory",
+        "number-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "representation-theory",
+      "name": "Representation Theory",
+      "symbol": "ρ",
+      "family": "structure",
+      "kind": "area",
+      "property": "structural",
+      "operation": "represent",
+      "essence": "Symmetry represented by linear actions on vector spaces.",
+      "description": "Representation theory represents abstract symmetry by linear actions on vector spaces. It turns group and algebra elements into matrices, making structural questions accessible to linear algebra.",
+      "objects": [
+        "group representation",
+        "module",
+        "character",
+        "weight",
+        "Lie algebra"
+      ],
+      "operations": [
+        "action",
+        "decomposition",
+        "character computation",
+        "restriction"
+      ],
+      "subareas": [
+        "finite group representations",
+        "Lie group representations",
+        "modular representation theory"
+      ],
+      "notes": [
+        {
+          "label": "Representation Theory",
+          "path": "epistemica/mathematical/structure/algebra/representation-theory.md"
+        },
+        {
+          "label": "Group Action",
+          "path": "epistemica/mathematical/structure/algebra/group-action.md"
+        },
+        {
+          "label": "Lie Algebra",
+          "path": "epistemica/mathematical/structure/algebra/lie-algebra.md"
+        }
+      ],
+      "related": [
+        "abstract-algebra",
+        "linear-algebra",
+        "symmetry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "symbol": "△",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "represent",
+      "essence": "Spatial properties represented as figures, configurations, and transformations.",
+      "description": "Geometry represents spatial properties as figures, configurations, and transformations. It studies incidence, distance, angle, curvature, and the invariants that survive a change of viewpoint.",
+      "objects": [
+        "point",
+        "line",
+        "plane",
+        "polygon",
+        "surface",
+        "transformation"
+      ],
+      "operations": [
+        "construction",
+        "measurement",
+        "transformation",
+        "projection"
+      ],
+      "subareas": [
+        "Euclidean geometry",
+        "projective geometry",
+        "analytic geometry",
+        "differential geometry"
+      ],
+      "notes": [
+        {
+          "label": "Geometry",
+          "path": "epistemica/mathematical/geometry/geometry.md"
+        },
+        {
+          "label": "Euclidean Geometry",
+          "path": "epistemica/mathematical/geometry/euclidean-geometry.md"
+        },
+        {
+          "label": "Geometric Shape",
+          "path": "epistemica/mathematical/geometry/geometric-shape.md"
+        },
+        {
+          "label": "Angle",
+          "path": "epistemica/mathematical/geometry/angle.md"
+        }
+      ],
+      "related": [
+        "analytic-geometry",
+        "topology",
+        "trigonometry",
+        "linear-algebra"
+      ],
+      "stub": false
+    },
+    {
+      "id": "analytic-geometry",
+      "name": "Analytic Geometry",
+      "symbol": "(x,y)",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "encode",
+      "essence": "Spatial properties recoded as coordinates and equations, turning geometry into algebra.",
+      "description": "Analytic geometry recodes spatial properties as coordinates and equations. Points become tuples, curves become equations, and geometric relations become algebraic conditions.",
+      "objects": [
+        "coordinate system",
+        "point",
+        "curve",
+        "equation",
+        "vector"
+      ],
+      "operations": [
+        "coordinate assignment",
+        "equation solving",
+        "intersection",
+        "distance computation"
+      ],
+      "subareas": [
+        "Cartesian geometry",
+        "conic sections",
+        "vector geometry",
+        "coordinate transformations"
+      ],
+      "notes": [
+        {
+          "label": "Analytical Geometry",
+          "path": "epistemica/mathematical/geometry/framework/analytical-geometry.md"
+        },
+        {
+          "label": "Coordinate System",
+          "path": "epistemica/mathematical/geometry/coordinate-system.md"
+        },
+        {
+          "label": "Plane",
+          "path": "epistemica/mathematical/geometry/plane.md"
+        }
+      ],
+      "related": [
+        "geometry",
+        "algebra",
+        "linear-algebra",
+        "trigonometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "algebraic-geometry",
+      "name": "Algebraic Geometry",
+      "symbol": "V(I)",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "encode",
+      "essence": "Geometric objects represented as solutions of polynomial equations.",
+      "description": "Algebraic geometry represents geometric objects as solutions of polynomial equations. It connects the algebra of rings and ideals with the geometry of varieties, schemes, and their morphisms.",
+      "objects": [
+        "variety",
+        "scheme",
+        "ideal",
+        "polynomial ring",
+        "morphism"
+      ],
+      "operations": [
+        "polynomial solving",
+        "coordinate ring",
+        "intersection",
+        "blow-up"
+      ],
+      "subareas": [
+        "classical algebraic geometry",
+        "scheme theory",
+        "arithmetic geometry"
+      ],
+      "notes": [
+        {
+          "label": "Algebraic Geometry",
+          "path": "epistemica/mathematical/geometry/framework/algebraic-geometry.md"
+        },
+        {
+          "label": "Algebraic Variety",
+          "path": "epistemica/mathematical/topology/algebraic-variety.md"
+        },
+        {
+          "label": "Algebraic Set",
+          "path": "epistemica/mathematical/topology/algebraic-set.md"
+        }
+      ],
+      "related": [
+        "geometry",
+        "abstract-algebra",
+        "number-theory",
+        "topology"
+      ],
+      "stub": false
+    },
+    {
+      "id": "differential-geometry",
+      "name": "Differential Geometry",
+      "symbol": "∇",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "transform",
+      "essence": "Spatial properties represented through local linear structure, curvature, and connection.",
+      "description": "Differential geometry represents spatial properties through local linear structure. Manifolds, tangent spaces, connections, and curvature describe shape and motion without a fixed ambient coordinate system.",
+      "objects": [
+        "manifold",
+        "tangent space",
+        "connection",
+        "curvature",
+        "metric tensor"
+      ],
+      "operations": [
+        "differentiation",
+        "parallel transport",
+        "curvature computation",
+        "geodesic flow"
+      ],
+      "subareas": [
+        "Riemannian geometry",
+        "Lorentzian geometry",
+        "symplectic geometry",
+        "gauge theory"
+      ],
+      "notes": [
+        {
+          "label": "Differential Geometry",
+          "path": "epistemica/mathematical/geometry/framework/differential-geometry.md"
+        },
+        {
+          "label": "Curvature",
+          "path": "epistemica/mathematical/geometry/curvature.md"
+        },
+        {
+          "label": "Connection",
+          "path": "epistemica/mathematical/geometry/connection.md"
+        },
+        {
+          "label": "Metric Tensor",
+          "path": "epistemica/mathematical/tensor/metric-tensor.md"
+        }
+      ],
+      "related": [
+        "geometry",
+        "topology",
+        "tensor-analysis",
+        "differential-equations"
+      ],
+      "stub": false
+    },
+    {
+      "id": "topology",
+      "name": "Topology",
+      "symbol": "○",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "compare",
+      "essence": "Spatial properties invariant under continuous deformation: connectivity, holes, boundary.",
+      "description": "Topology studies spatial properties invariant under continuous deformation. It classifies spaces by connectivity, holes, boundary, and the existence of continuous maps rather than by metric distance.",
+      "objects": [
+        "topological space",
+        "open set",
+        "continuous map",
+        "homeomorphism",
+        "manifold"
+      ],
+      "operations": [
+        "continuity check",
+        "quotient",
+        "connectedness test",
+        "compactness test"
+      ],
+      "subareas": [
+        "point-set topology",
+        "algebraic topology",
+        "differential topology",
+        "geometric topology"
+      ],
+      "notes": [
+        {
+          "label": "Topology",
+          "path": "epistemica/mathematical/topology/topology.md"
+        },
+        {
+          "label": "Topological Space",
+          "path": "epistemica/mathematical/space/topological-space.md"
+        },
+        {
+          "label": "Manifold",
+          "path": "epistemica/mathematical/topology/manifold.md"
+        }
+      ],
+      "related": [
+        "geometry",
+        "algebraic-topology",
+        "analysis",
+        "category-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "algebraic-topology",
+      "name": "Algebraic Topology",
+      "symbol": "Hₙ",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "compare",
+      "essence": "Topological spaces studied through algebraic invariants.",
+      "description": "Algebraic topology studies topological spaces through algebraic invariants. Homology, cohomology, and homotopy groups translate topological questions into algebraic ones.",
+      "objects": [
+        "homology group",
+        "cohomology ring",
+        "homotopy group",
+        "chain complex",
+        "covering space"
+      ],
+      "operations": [
+        "boundary operator",
+        "cup product",
+        "long exact sequence",
+        "lifting"
+      ],
+      "subareas": [
+        "homology",
+        "cohomology",
+        "homotopy theory",
+        "knot theory"
+      ],
+      "notes": [
+        {
+          "label": "Algebraic Topology",
+          "path": "epistemica/mathematical/topology/algebraic-topology.md"
+        },
+        {
+          "label": "Homology",
+          "path": "epistemica/mathematical/topology/homology.md"
+        },
+        {
+          "label": "Cohomology",
+          "path": "epistemica/mathematical/topology/cohomology.md"
+        },
+        {
+          "label": "Homotopy",
+          "path": "epistemica/mathematical/topology/homotopy.md"
+        }
+      ],
+      "related": [
+        "topology",
+        "abstract-algebra",
+        "category-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "trigonometry",
+      "name": "Trigonometry",
+      "symbol": "sin",
+      "family": "space",
+      "kind": "area",
+      "property": "spatial",
+      "operation": "represent",
+      "essence": "Angular and periodic relations represented by ratios and circular functions.",
+      "description": "Trigonometry represents angular and periodic relations through ratios and circular functions. It connects triangle geometry, oscillation, and the geometry of the circle.",
+      "objects": [
+        "angle",
+        "triangle",
+        "sine",
+        "cosine",
+        "tangent"
+      ],
+      "operations": [
+        "angle measurement",
+        "ratio computation",
+        "identity transformation",
+        "wave representation"
+      ],
+      "subareas": [
+        "plane trigonometry",
+        "spherical trigonometry",
+        "trigonometric identities"
+      ],
+      "notes": [
+        {
+          "label": "Trigonometry",
+          "path": "epistemica/mathematical/geometry/trigonometry.md"
+        },
+        {
+          "label": "Angle",
+          "path": "epistemica/mathematical/geometry/angle.md"
+        },
+        {
+          "label": "Triangle",
+          "path": "epistemica/mathematical/geometry/triangle.md"
+        }
+      ],
+      "related": [
+        "geometry",
+        "analytic-geometry",
+        "harmonic-analysis"
+      ],
+      "stub": false
+    },
+    {
+      "id": "order-theory",
+      "name": "Order Theory",
+      "symbol": "≤",
+      "family": "relation",
+      "kind": "area",
+      "property": "relational",
+      "operation": "compare",
+      "essence": "Comparison and ranking represented by partial orders, lattices, and bounds.",
+      "description": "Order theory represents comparison and ranking through partial orders, lattices, and bounds. It studies what it means for one element to precede another, and the structures that make comparison coherent.",
+      "objects": [
+        "partial order",
+        "lattice",
+        "supremum",
+        "infimum",
+        "equivalence class"
+      ],
+      "operations": [
+        "comparison",
+        "join",
+        "meet",
+        "completion"
+      ],
+      "subareas": [
+        "partial orders",
+        "lattice theory",
+        "domain theory",
+        "order topology"
+      ],
+      "notes": [
+        {
+          "label": "Order",
+          "path": "epistemica/mathematical/relation/order.md"
+        },
+        {
+          "label": "Lattice",
+          "path": "epistemica/mathematical/relation/lattice.md"
+        },
+        {
+          "label": "Ranking",
+          "path": "epistemica/mathematical/relation/ranking.md"
+        },
+        {
+          "label": "Equivalence Relation",
+          "path": "epistemica/mathematical/relation/equivalence-relation.md"
+        }
+      ],
+      "related": [
+        "set-theory",
+        "combinatorics",
+        "topology",
+        "algebra"
+      ],
+      "stub": false
+    },
+    {
+      "id": "combinatorics",
+      "name": "Combinatorics",
+      "symbol": "∑",
+      "family": "relation",
+      "kind": "area",
+      "property": "relational",
+      "operation": "compute",
+      "essence": "Discrete configurations counted, arranged, and compared.",
+      "description": "Combinatorics counts, arranges, and compares discrete configurations. It studies permutations, combinations, graphs, and the principles that enumerate or bound finite structures.",
+      "objects": [
+        "permutation",
+        "combination",
+        "graph",
+        "partition",
+        "configuration"
+      ],
+      "operations": [
+        "counting",
+        "enumeration",
+        "bijection",
+        "inclusion-exclusion"
+      ],
+      "subareas": [
+        "enumerative combinatorics",
+        "extremal combinatorics",
+        "algebraic combinatorics",
+        "probabilistic combinatorics"
+      ],
+      "notes": [
+        {
+          "label": "Combinatorics",
+          "path": "epistemica/mathematical/discrete/combinatorics.md"
+        },
+        {
+          "label": "Enumeration",
+          "path": "epistemica/mathematical/discrete/enumeration-counting.md"
+        },
+        {
+          "label": "Combination",
+          "path": "epistemica/mathematical/discrete/combination.md"
+        },
+        {
+          "label": "Binomial Coefficient",
+          "path": "epistemica/mathematical/discrete/binomial-coefficient.md"
+        }
+      ],
+      "related": [
+        "graph-theory",
+        "probability",
+        "order-theory",
+        "number-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "graph-theory",
+      "name": "Graph Theory",
+      "symbol": "G",
+      "family": "relation",
+      "kind": "area",
+      "property": "relational",
+      "operation": "represent",
+      "essence": "Pairwise relations represented as vertices and edges.",
+      "description": "Graph theory represents pairwise relations as vertices and edges. It studies connectivity, paths, cycles, colouring, and the structure of networks.",
+      "objects": [
+        "vertex",
+        "edge",
+        "path",
+        "cycle",
+        "tree",
+        "network"
+      ],
+      "operations": [
+        "traversal",
+        "shortest path",
+        "colouring",
+        "matching"
+      ],
+      "subareas": [
+        "graph theory",
+        "network science",
+        "algebraic graph theory",
+        "extremal graph theory"
+      ],
+      "notes": [
+        {
+          "label": "Graph",
+          "path": "epistemica/mathematical/discrete/graph.md"
+        },
+        {
+          "label": "Network",
+          "path": "epistemica/mathematical/discrete/network.md"
+        },
+        {
+          "label": "Tree",
+          "path": "epistemica/mathematical/discrete/tree.md"
+        },
+        {
+          "label": "Planarity",
+          "path": "epistemica/mathematical/discrete/planarity.md"
+        }
+      ],
+      "related": [
+        "combinatorics",
+        "order-theory",
+        "optimization",
+        "topology"
+      ],
+      "stub": false
+    },
+    {
+      "id": "tensor-analysis",
+      "name": "Tensor Analysis",
+      "symbol": "⊗",
+      "family": "relation",
+      "kind": "area",
+      "property": "structural",
+      "operation": "transform",
+      "essence": "Multilinear relations represented by components that transform under change of basis.",
+      "description": "Tensor analysis represents multilinear relations by components that transform under a change of basis. It supplies the language of stress, curvature, and field equations in geometry and physics.",
+      "objects": [
+        "tensor",
+        "tensor field",
+        "metric tensor",
+        "stress tensor",
+        "index"
+      ],
+      "operations": [
+        "contraction",
+        "covariant differentiation",
+        "index raising/lowering",
+        "transformation"
+      ],
+      "subareas": [
+        "tensor algebra",
+        "tensor calculus",
+        "Riemannian tensors",
+        "continuum mechanics"
+      ],
+      "notes": [
+        {
+          "label": "Tensor",
+          "path": "epistemica/mathematical/tensor/tensor.md"
+        },
+        {
+          "label": "Tensor Field",
+          "path": "epistemica/mathematical/tensor/tensor-field.md"
+        },
+        {
+          "label": "Metric Tensor",
+          "path": "epistemica/mathematical/tensor/metric-tensor.md"
+        },
+        {
+          "label": "Stress Tensor",
+          "path": "epistemica/mathematical/tensor/stress-tensor.md"
+        }
+      ],
+      "related": [
+        "linear-algebra",
+        "differential-geometry",
+        "geometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "analysis",
+      "name": "Analysis",
+      "symbol": "lim",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "represent",
+      "essence": "Change and accumulation represented through limits, continuity, and approximation.",
+      "description": "Analysis represents change and accumulation through limits, continuity, and approximation. It makes precise the ideas of convergence, derivative, integral, and the behaviour of functions.",
+      "objects": [
+        "sequence",
+        "series",
+        "limit",
+        "continuous function",
+        "derivative",
+        "integral"
+      ],
+      "operations": [
+        "limit",
+        "differentiation",
+        "integration",
+        "approximation"
+      ],
+      "subareas": [
+        "real analysis",
+        "complex analysis",
+        "functional analysis",
+        "harmonic analysis"
+      ],
+      "notes": [
+        {
+          "label": "Limit",
+          "path": "epistemica/mathematical/change/limit.md"
+        },
+        {
+          "label": "Continuity",
+          "path": "epistemica/mathematical/change/continuity.md"
+        },
+        {
+          "label": "Convergent",
+          "path": "epistemica/mathematical/change/convergent.md"
+        },
+        {
+          "label": "Fundamental Theorem of Calculus",
+          "path": "epistemica/mathematical/construction/fundamental-theorem-of-calculus-ftc.md"
+        }
+      ],
+      "related": [
+        "real-analysis",
+        "measure-theory",
+        "differential-equations",
+        "topology"
+      ],
+      "stub": false
+    },
+    {
+      "id": "real-analysis",
+      "name": "Real Analysis",
+      "symbol": "ℝ",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "prove",
+      "essence": "The real line, limits, continuity, differentiation, and integration made rigorous.",
+      "description": "Real analysis studies the real line and functions on it. It gives rigorous foundations to limits, continuity, differentiation, integration, and the convergence of sequences and series.",
+      "objects": [
+        "real number",
+        "sequence",
+        "series",
+        "continuous function",
+        "measure-zero set"
+      ],
+      "operations": [
+        "epsilon-delta proof",
+        "convergence test",
+        "differentiation",
+        "integration"
+      ],
+      "subareas": [
+        "sequences and series",
+        "continuity",
+        "differentiation",
+        "Riemann integration"
+      ],
+      "notes": [
+        {
+          "label": "Continuity",
+          "path": "epistemica/mathematical/change/continuity.md"
+        },
+        {
+          "label": "Convergent",
+          "path": "epistemica/mathematical/change/convergent.md"
+        },
+        {
+          "label": "Mean Value Theorem",
+          "path": "epistemica/mathematical/construction/mean-value-theorem-mvt.md"
+        },
+        {
+          "label": "Intermediate Value Theorem",
+          "path": "epistemica/mathematical/construction/intermediate-value-theorem.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "measure-theory",
+        "topology",
+        "functional-analysis"
+      ],
+      "stub": false
+    },
+    {
+      "id": "complex-analysis",
+      "name": "Complex Analysis",
+      "symbol": "ℂ",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "transform",
+      "essence": "Functions of a complex variable: holomorphy, contour integration, residues.",
+      "description": "Complex analysis studies functions of a complex variable. Holomorphy, contour integration, residues, and analytic continuation reveal a rigidity and geometry absent from the real case.",
+      "objects": [
+        "complex number",
+        "holomorphic function",
+        "contour",
+        "residue",
+        "analytic continuation"
+      ],
+      "operations": [
+        "complex differentiation",
+        "contour integration",
+        "residue computation",
+        "conformal mapping"
+      ],
+      "subareas": [
+        "complex functions",
+        "conformal mapping",
+        "analytic number theory",
+        "several complex variables"
+      ],
+      "notes": [
+        {
+          "label": "Complex Numbers",
+          "path": "epistemica/mathematical/complex/complex-numbers-c.md"
+        },
+        {
+          "label": "Analytic Function",
+          "path": "epistemica/mathematical/complex/analytic-function.md"
+        },
+        {
+          "label": "Holomorphic Function",
+          "path": "epistemica/mathematical/complex/holomorphic-function.md"
+        },
+        {
+          "label": "Conformal Map",
+          "path": "epistemica/mathematical/complex/conformal-map.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "geometry",
+        "number-theory",
+        "harmonic-analysis"
+      ],
+      "stub": false
+    },
+    {
+      "id": "functional-analysis",
+      "name": "Functional Analysis",
+      "symbol": "ℋ",
+      "family": "change",
+      "kind": "area",
+      "property": "structural",
+      "operation": "represent",
+      "essence": "Infinite-dimensional function spaces with linear and topological structure.",
+      "description": "Functional analysis studies infinite-dimensional vector spaces of functions. It combines linear algebra with topology and analysis to treat operators, functionals, and convergence in abstract spaces.",
+      "objects": [
+        "Banach space",
+        "Hilbert space",
+        "linear operator",
+        "functional",
+        "dual space"
+      ],
+      "operations": [
+        "norm",
+        "inner product",
+        "spectral decomposition",
+        "weak convergence"
+      ],
+      "subareas": [
+        "Banach spaces",
+        "Hilbert spaces",
+        "operator theory",
+        "spectral theory"
+      ],
+      "notes": [
+        {
+          "label": "Function Space",
+          "path": "epistemica/mathematical/space/function-space.md"
+        },
+        {
+          "label": "Banach Space",
+          "path": "epistemica/mathematical/space/banach-space.md"
+        },
+        {
+          "label": "Hilbert Space",
+          "path": "epistemica/mathematical/space/hilbert-space.md"
+        },
+        {
+          "label": "Functional",
+          "path": "epistemica/mathematical/mapping/functional.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "linear-algebra",
+        "measure-theory",
+        "topology"
+      ],
+      "stub": false
+    },
+    {
+      "id": "measure-theory",
+      "name": "Measure Theory",
+      "symbol": "μ",
+      "family": "change",
+      "kind": "area",
+      "property": "quantitative",
+      "operation": "encode",
+      "essence": "Size, length, and integral generalized to arbitrary sets.",
+      "description": "Measure theory generalizes size, length, and integral to arbitrary sets. It provides the foundation for integration, probability, and the rigorous treatment of limiting processes.",
+      "objects": [
+        "measure",
+        "measurable set",
+        "measurable function",
+        "integral",
+        "sigma-algebra"
+      ],
+      "operations": [
+        "measurement",
+        "integration",
+        "limit theorem",
+        "completion"
+      ],
+      "subareas": [
+        "measure spaces",
+        "Lebesgue integration",
+        "probability measures",
+        "ergodic theory"
+      ],
+      "notes": [
+        {
+          "label": "Measure",
+          "path": "epistemica/mathematical/measure/measure.md"
+        },
+        {
+          "label": "Measurable Function",
+          "path": "epistemica/mathematical/measure/measurable-function.md"
+        },
+        {
+          "label": "Lebesgue Integral",
+          "path": "epistemica/mathematical/mapping/lebesgue-integral.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "probability",
+        "functional-analysis",
+        "real-analysis"
+      ],
+      "stub": false
+    },
+    {
+      "id": "differential-equations",
+      "name": "Differential Equations",
+      "symbol": "dy/dt",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "transform",
+      "essence": "Change represented by equations relating a function to its derivatives.",
+      "description": "Differential equations represent change by equations relating a function to its derivatives. They model how a system evolves from its current state and its local rate of change.",
+      "objects": [
+        "ordinary differential equation",
+        "partial differential equation",
+        "initial condition",
+        "boundary condition",
+        "solution"
+      ],
+      "operations": [
+        "separation of variables",
+        "integrating factor",
+        "numerical integration",
+        "stability analysis"
+      ],
+      "subareas": [
+        "ordinary differential equations",
+        "partial differential equations",
+        "stochastic differential equations",
+        "boundary-value problems"
+      ],
+      "notes": [
+        {
+          "label": "Differential Equation",
+          "path": "epistemica/mathematical/change/differential-equation.md"
+        },
+        {
+          "label": "Stochastic Differential Equation",
+          "path": "epistemica/mathematical/change/stochastic-differential-equation-sde.md"
+        },
+        {
+          "label": "Difference Equation",
+          "path": "epistemica/mathematical/change/difference-equation.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "dynamical-systems",
+        "numerical-analysis",
+        "geometry"
+      ],
+      "stub": false
+    },
+    {
+      "id": "dynamical-systems",
+      "name": "Dynamical Systems",
+      "symbol": "x↦f(x)",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "transform",
+      "essence": "Change represented as a state space and a transition rule.",
+      "description": "Dynamical systems represent change as a state space and a transition rule. Orbits, fixed points, stability, bifurcations, and chaos describe the long-run behaviour of iterated or continuous evolution.",
+      "objects": [
+        "state space",
+        "flow",
+        "orbit",
+        "fixed point",
+        "attractor",
+        "bifurcation"
+      ],
+      "operations": [
+        "iteration",
+        "flow",
+        "stability analysis",
+        "bifurcation analysis"
+      ],
+      "subareas": [
+        "discrete dynamics",
+        "continuous dynamics",
+        "chaos theory",
+        "ergodic theory"
+      ],
+      "notes": [
+        {
+          "label": "Dynamical System",
+          "path": "epistemica/mathematical/change/dynamical-system.md"
+        },
+        {
+          "label": "Fixed Point",
+          "path": "epistemica/mathematical/change/fixed-point.md"
+        },
+        {
+          "label": "Attractor",
+          "path": "epistemica/mathematical/change/attractor.md"
+        },
+        {
+          "label": "Bifurcation Theory",
+          "path": "epistemica/mathematical/change/bifurcation-theory.md"
+        }
+      ],
+      "related": [
+        "differential-equations",
+        "analysis",
+        "topology",
+        "probability"
+      ],
+      "stub": false
+    },
+    {
+      "id": "harmonic-analysis",
+      "name": "Harmonic Analysis",
+      "symbol": "ℱ",
+      "family": "change",
+      "kind": "area",
+      "property": "dynamic",
+      "operation": "transform",
+      "essence": "Functions decomposed into waves and frequencies.",
+      "description": "Harmonic analysis decomposes functions into waves and frequencies. Fourier series, Fourier transforms, and wavelets represent a function by its spectral content.",
+      "objects": [
+        "Fourier series",
+        "Fourier transform",
+        "wavelet",
+        "frequency",
+        "spectrum"
+      ],
+      "operations": [
+        "Fourier transform",
+        "convolution",
+        "filtering",
+        "spectral decomposition"
+      ],
+      "subareas": [
+        "Fourier analysis",
+        "wavelet analysis",
+        "time-frequency analysis",
+        "abstract harmonic analysis"
+      ],
+      "notes": [
+        {
+          "label": "Harmonic Analysis",
+          "path": "epistemica/mathematical/mapping/harmonic-analysis.md"
+        },
+        {
+          "label": "Fourier Series",
+          "path": "epistemica/mathematical/mapping/fourier-series.md"
+        },
+        {
+          "label": "Wavelet",
+          "path": "epistemica/mathematical/mapping/wavelet.md"
+        },
+        {
+          "label": "Integral Transform",
+          "path": "epistemica/mathematical/mapping/integral-transform.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "functional-analysis",
+        "trigonometry",
+        "probability"
+      ],
+      "stub": false
+    },
+    {
+      "id": "probability",
+      "name": "Probability",
+      "symbol": "P",
+      "family": "chance",
+      "kind": "area",
+      "property": "stochastic",
+      "operation": "encode",
+      "essence": "Uncertainty encoded as a measure over outcomes, with rules for combining and updating.",
+      "description": "Probability encodes uncertainty as a measure over outcomes. It supplies the rules for combining, conditioning, and updating beliefs or frequencies.",
+      "objects": [
+        "sample space",
+        "event",
+        "random variable",
+        "distribution",
+        "conditional probability"
+      ],
+      "operations": [
+        "probability assignment",
+        "conditioning",
+        "expectation",
+        "limit theorem"
+      ],
+      "subareas": [
+        "probability theory",
+        "stochastic processes",
+        "Bayesian inference",
+        "measure-theoretic probability"
+      ],
+      "notes": [
+        {
+          "label": "Probability",
+          "path": "epistemica/epistemic/discipline/probability.md"
+        },
+        {
+          "label": "Probability Density Function",
+          "path": "epistemica/observational/probability/probability-density-function-pdf.md"
+        },
+        {
+          "label": "Probability Mass Function",
+          "path": "epistemica/observational/probability/probability-mass-function-pmf.md"
+        }
+      ],
+      "related": [
+        "statistics",
+        "measure-theory",
+        "combinatorics",
+        "information-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "symbol": "x̄",
+      "family": "chance",
+      "kind": "area",
+      "property": "stochastic",
+      "operation": "compare",
+      "essence": "Inference from data: estimation, testing, and decision under uncertainty.",
+      "description": "Statistics draws inference from data under uncertainty. Estimation, hypothesis testing, and decision theory connect probability models to observations.",
+      "objects": [
+        "sample",
+        "estimator",
+        "hypothesis",
+        "test statistic",
+        "confidence interval"
+      ],
+      "operations": [
+        "estimation",
+        "hypothesis testing",
+        "model selection",
+        "decision"
+      ],
+      "subareas": [
+        "descriptive statistics",
+        "inferential statistics",
+        "Bayesian statistics",
+        "statistical modelling"
+      ],
+      "notes": [
+        {
+          "label": "Statistics",
+          "path": "epistemica/epistemic/discipline/statistics.md"
+        },
+        {
+          "label": "Statistical Hypothesis Testing",
+          "path": "epistemica/validation/statistical-hypothesis-testing.md"
+        },
+        {
+          "label": "Confidence Interval",
+          "path": "epistemica/validation/confidence-interval.md"
+        }
+      ],
+      "related": [
+        "probability",
+        "measure-theory",
+        "optimization",
+        "information-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "information-theory",
+      "name": "Information Theory",
+      "symbol": "H",
+      "family": "chance",
+      "kind": "area",
+      "property": "stochastic",
+      "operation": "encode",
+      "essence": "Uncertainty and communication encoded as entropy and channel capacity.",
+      "description": "Information theory encodes uncertainty and communication as entropy, mutual information, and channel capacity. It studies the limits of compression and reliable transmission.",
+      "objects": [
+        "entropy",
+        "mutual information",
+        "channel",
+        "code",
+        "capacity"
+      ],
+      "operations": [
+        "entropy computation",
+        "coding",
+        "channel capacity",
+        "compression"
+      ],
+      "subareas": [
+        "source coding",
+        "channel coding",
+        "rate-distortion theory",
+        "algorithmic information theory"
+      ],
+      "notes": [
+        {
+          "label": "Information Theory",
+          "path": "nature/information-theory.md"
+        },
+        {
+          "label": "Entropy",
+          "path": "epistemica/observational/information/entropy.md"
+        }
+      ],
+      "related": [
+        "probability",
+        "statistics",
+        "algorithms"
+      ],
+      "stub": false
+    },
+    {
+      "id": "game-theory",
+      "name": "Game Theory",
+      "symbol": "NE",
+      "family": "relation",
+      "kind": "area",
+      "property": "relational",
+      "operation": "compare",
+      "essence": "Strategic interaction represented by players, strategies, and payoffs.",
+      "description": "Game theory represents strategic interaction by players, strategies, and payoffs. It studies equilibrium, cooperation, and the logic of interdependent decisions.",
+      "objects": [
+        "player",
+        "strategy",
+        "payoff",
+        "equilibrium",
+        "coalition"
+      ],
+      "operations": [
+        "best response",
+        "equilibrium computation",
+        "backward induction",
+        "bargaining"
+      ],
+      "subareas": [
+        "non-cooperative games",
+        "cooperative games",
+        "evolutionary games",
+        "mechanism design"
+      ],
+      "notes": [
+        {
+          "label": "Game Theory",
+          "path": "epistemica/singular/game.md"
+        }
+      ],
+      "related": [
+        "probability",
+        "optimization",
+        "order-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "numerical-analysis",
+      "name": "Numerical Analysis",
+      "symbol": "≈",
+      "family": "computation",
+      "kind": "area",
+      "property": "computational",
+      "operation": "compute",
+      "essence": "Continuous problems approximated by finite, computable procedures.",
+      "description": "Numerical analysis approximates continuous problems by finite, computable procedures. It studies discretization, iterative methods, error, stability, and convergence.",
+      "objects": [
+        "approximation",
+        "grid",
+        "iteration",
+        "error bound",
+        "algorithm"
+      ],
+      "operations": [
+        "discretization",
+        "iteration",
+        "interpolation",
+        "error analysis"
+      ],
+      "subareas": [
+        "numerical linear algebra",
+        "numerical integration",
+        "root finding",
+        "numerical differential equations"
+      ],
+      "notes": [
+        {
+          "label": "Discretization",
+          "path": "epistemica/mathematical/method/approximation/discretization.md"
+        },
+        {
+          "label": "Iterative Method",
+          "path": "epistemica/mathematical/method/approximation/iterative-method.md"
+        },
+        {
+          "label": "Asymptotic Analysis",
+          "path": "epistemica/mathematical/method/approximation/asymptotic-analysis.md"
+        }
+      ],
+      "related": [
+        "analysis",
+        "linear-algebra",
+        "differential-equations",
+        "optimization"
+      ],
+      "stub": false
+    },
+    {
+      "id": "optimization",
+      "name": "Optimization",
+      "symbol": "min",
+      "family": "computation",
+      "kind": "area",
+      "property": "computational",
+      "operation": "compare",
+      "essence": "Extremal problems: the best element under constraints.",
+      "description": "Optimization studies extremal problems: finding the best element under constraints. It combines analysis, linear algebra, and algorithms to characterize and compute minima and maxima.",
+      "objects": [
+        "objective function",
+        "constraint",
+        "feasible set",
+        "optimum",
+        "gradient"
+      ],
+      "operations": [
+        "gradient descent",
+        "linear programming",
+        "duality",
+        "convergence analysis"
+      ],
+      "subareas": [
+        "linear programming",
+        "convex optimization",
+        "nonlinear optimization",
+        "calculus of variations"
+      ],
+      "notes": [
+        {
+          "label": "Optimization",
+          "path": "epistemica/optimization/optimization.md"
+        },
+        {
+          "label": "Calculus of Variations",
+          "path": "epistemica/optimization/calculus-of-variations.md"
+        },
+        {
+          "label": "Gradient Descent Convergence",
+          "path": "epistemica/mathematical/construction/gradient-descent-convergence-theorem.md"
+        }
+      ],
+      "related": [
+        "numerical-analysis",
+        "linear-algebra",
+        "analysis",
+        "game-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "symbol": "O(n)",
+      "family": "computation",
+      "kind": "area",
+      "property": "computational",
+      "operation": "compute",
+      "essence": "Effective procedures and their resources: what can be computed, at what cost.",
+      "description": "The theory of algorithms studies effective procedures and their resources. It asks what can be computed, at what cost, and with what guarantees.",
+      "objects": [
+        "algorithm",
+        "input",
+        "output",
+        "complexity class",
+        "data structure"
+      ],
+      "operations": [
+        "algorithm design",
+        "complexity analysis",
+        "correctness proof",
+        "reduction"
+      ],
+      "subareas": [
+        "algorithm design",
+        "complexity theory",
+        "computability",
+        "data structures"
+      ],
+      "notes": [
+        {
+          "label": "Computer Science",
+          "path": "epistemica/epistemic/discipline/computer-science.md"
+        }
+      ],
+      "related": [
+        "numerical-analysis",
+        "optimization",
+        "logic",
+        "combinatorics"
+      ],
+      "stub": false
+    },
+    {
+      "id": "proof",
+      "name": "Proof",
+      "symbol": "⊢",
+      "family": "methods",
+      "kind": "method",
+      "property": null,
+      "operation": null,
+      "essence": "The construction of warranted conclusions: inference from premises to a conclusion.",
+      "description": "Proof is the construction of warranted conclusions. It selects the inference rules, assumptions, and constructions that make a conclusion follow, and it is the standard by which mathematical claims are accepted.",
+      "objects": [
+        "premise",
+        "inference rule",
+        "construction",
+        "counterexample",
+        "theorem"
+      ],
+      "operations": [
+        "direct proof",
+        "contradiction",
+        "induction",
+        "diagonalization"
+      ],
+      "subareas": [
+        "direct proof",
+        "proof by contradiction",
+        "induction",
+        "constructive proof"
+      ],
+      "notes": [
+        {
+          "label": "Induction",
+          "path": "epistemica/mathematical/method/proof/induction.md"
+        },
+        {
+          "label": "Contradiction",
+          "path": "epistemica/mathematical/method/proof/contradiction.md"
+        },
+        {
+          "label": "Diagonalization",
+          "path": "epistemica/mathematical/method/proof/diagonalization.md"
+        },
+        {
+          "label": "Double Counting",
+          "path": "epistemica/mathematical/method/proof/double-counting.md"
+        }
+      ],
+      "related": [
+        "logic",
+        "set-theory",
+        "analysis"
+      ],
+      "stub": false
+    },
+    {
+      "id": "approximation",
+      "name": "Approximation",
+      "symbol": "≈",
+      "family": "methods",
+      "kind": "method",
+      "property": null,
+      "operation": null,
+      "essence": "Replacing an intractable object by a tractable one, with a controlled error.",
+      "description": "Approximation replaces an intractable object by a tractable one while controlling the error. It is the common move behind numerical methods, asymptotic analysis, perturbation, and discretization.",
+      "objects": [
+        "approximant",
+        "error",
+        "limit",
+        "expansion",
+        "grid"
+      ],
+      "operations": [
+        "truncation",
+        "discretization",
+        "perturbation",
+        "asymptotic expansion"
+      ],
+      "subareas": [
+        "asymptotic analysis",
+        "discretization",
+        "perturbation methods",
+        "iterative methods"
+      ],
+      "notes": [
+        {
+          "label": "Asymptotic Analysis",
+          "path": "epistemica/mathematical/method/approximation/asymptotic-analysis.md"
+        },
+        {
+          "label": "Discretization",
+          "path": "epistemica/mathematical/method/approximation/discretization.md"
+        },
+        {
+          "label": "Iterative Method",
+          "path": "epistemica/mathematical/method/approximation/iterative-method.md"
+        },
+        {
+          "label": "Perturbation Method",
+          "path": "epistemica/mathematical/method/approximation/perturbation-method.md"
+        }
+      ],
+      "related": [
+        "numerical-analysis",
+        "analysis",
+        "optimization"
+      ],
+      "stub": false
+    },
+    {
+      "id": "reduction",
+      "name": "Reduction",
+      "symbol": "↝",
+      "family": "methods",
+      "kind": "method",
+      "property": null,
+      "operation": null,
+      "essence": "Transforming a problem into another whose solution yields the original.",
+      "description": "Reduction transforms a problem into another whose solution yields the original. It is the standard way to transfer a result, an algorithm, or a difficulty from one area to another.",
+      "objects": [
+        "source problem",
+        "target problem",
+        "transformation",
+        "invariant",
+        "equivalence"
+      ],
+      "operations": [
+        "change of variables",
+        "decomposition",
+        "linearization",
+        "compactness argument"
+      ],
+      "subareas": [
+        "change of variables",
+        "decomposition",
+        "linearization",
+        "symmetry reduction"
+      ],
+      "notes": [
+        {
+          "label": "Change of Variables",
+          "path": "epistemica/mathematical/method/reduction/change-of-variables.md"
+        },
+        {
+          "label": "Decomposition",
+          "path": "epistemica/mathematical/method/reduction/decomposition.md"
+        },
+        {
+          "label": "Linearization",
+          "path": "epistemica/mathematical/method/reduction/linearization.md"
+        },
+        {
+          "label": "Symmetry Reduction",
+          "path": "epistemica/mathematical/method/reduction/symmetry-reduction.md"
+        }
+      ],
+      "related": [
+        "algebra",
+        "differential-equations",
+        "optimization"
+      ],
+      "stub": false
+    },
+    {
+      "id": "symmetry",
+      "name": "Symmetry",
+      "symbol": "≅",
+      "family": "methods",
+      "kind": "method",
+      "property": null,
+      "operation": null,
+      "essence": "Invariance under transformation: the same structure seen from a different frame.",
+      "description": "Symmetry is invariance under transformation. It identifies the changes that leave a structure unchanged, and it turns that invariance into a tool for classification and reduction.",
+      "objects": [
+        "transformation",
+        "group action",
+        "invariant",
+        "orbit",
+        "stabilizer"
+      ],
+      "operations": [
+        "group action",
+        "invariant computation",
+        "orbit decomposition",
+        "symmetry reduction"
+      ],
+      "subareas": [
+        "symmetry groups",
+        "group actions",
+        "gauge symmetry",
+        "symmetry breaking"
+      ],
+      "notes": [
+        {
+          "label": "Symmetry",
+          "path": "epistemica/mathematical/symmetry.md"
+        },
+        {
+          "label": "Symmetry Group",
+          "path": "epistemica/mathematical/structure/algebra/symmetry-group.md"
+        },
+        {
+          "label": "Group Action",
+          "path": "epistemica/mathematical/structure/algebra/group-action.md"
+        }
+      ],
+      "related": [
+        "abstract-algebra",
+        "geometry",
+        "representation-theory"
+      ],
+      "stub": false
+    },
+    {
+      "id": "duality",
+      "name": "Duality",
+      "symbol": "*",
+      "family": "methods",
+      "kind": "method",
+      "property": null,
+      "operation": null,
+      "essence": "Two descriptions of the same structure, each making a different property visible.",
+      "description": "Duality gives two descriptions of the same structure, each making a different property visible. It is a method of translation: a problem in one description becomes a possibly easier problem in the other.",
+      "objects": [
+        "dual object",
+        "pairing",
+        "adjunction",
+        "dual space",
+        "dual problem"
+      ],
+      "operations": [
+        "dualization",
+        "pairing",
+        "adjoint",
+        "duality transform"
+      ],
+      "subareas": [
+        "linear duality",
+        "convex duality",
+        "Stone duality",
+        "Poincaré duality"
+      ],
+      "notes": [
+        {
+          "label": "Duality",
+          "path": "epistemica/mathematical/structure/duality.md"
+        },
+        {
+          "label": "Convex Duality",
+          "path": "epistemica/mathematical/method/certify/convex-duality.md"
+        },
+        {
+          "label": "Dual Vector Space",
+          "path": "epistemica/mathematical/space/dual-vector-space.md"
+        }
+      ],
+      "related": [
+        "linear-algebra",
+        "optimization",
+        "topology"
+      ],
+      "stub": false
+    }
+  ]
+}

@@ -51,6 +51,7 @@ BUILDERS = {
     "glossarium": {"module": "build_glossarium_index", "requires": [], "label": "glossarium terms"},
     "qa": {"module": "build_qa_index", "requires": [], "label": "Q/A log"},
     "atlas": {"module": "build_technica_atlas", "requires": [], "label": "technica atlas"},
+    "shape-atlas": {"module": "build_shape_atlas", "requires": [], "label": "geometric shape atlas"},
     "search": {
         "module": "build_search_index",
         "requires": ["notes", "courses", "documents", "glossarium", "qa"],

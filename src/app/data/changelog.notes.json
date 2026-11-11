@@ -1277,6 +1277,16 @@
     ]
   },
   {
+    "file_path": "epistemica/epistemic/discipline/color-science.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Color Science as an epistemic discipline."
+      }
+    ]
+  },
+  {
     "file_path": "epistemica/epistemic/discipline/computer-science.md",
     "logs": [
       {
@@ -1783,6 +1793,16 @@
         "kind": "refactor",
         "summary": "Move from epistemica/discipline/public.md to epistemica/epistemic/discipline/public.md in the corpus reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/discipline/radiology.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add Radiology as an epistemic discipline: the study of electromagnetic radiation across the whole spectrum, integrating optics, radiometry, photometry, spectroscopy, and radiation physics, with medical radiology excluded."
       }
     ]
   },
@@ -7131,6 +7151,11 @@
         "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md.",
         "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
         "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Link the Geometric Shape Atlas, the figure-first rendering of this decomposition."
       }
     ]
   },
@@ -7284,17 +7309,6 @@
         "date": "2026-10-17",
         "kind": "feat",
         "summary": "Import Hyperplane from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
-    "file_path": "epistemica/mathematical/identity-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Identity Operator from the Modelado Notion export.",
         "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
       }
     ]
@@ -7783,6 +7797,41 @@
         "kind": "refactor",
         "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
         "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+      },
+      {
+        "date": "2026-11-10",
+        "kind": "docs",
+        "summary": "Tighten the operator definition to function space -> function space, and replace the unlinked operator list with a linked inventory by branch."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/identity-operator.md",
+    "logs": [
+      {
+        "date": "2026-11-10",
+        "kind": "refactor",
+        "summary": "Move from the mathematical root into the mapping scope; the operator is a map kind."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/non-linear-operator.md",
+    "logs": [
+      {
+        "date": "2026-11-10",
+        "kind": "refactor",
+        "summary": "Move from the mathematical root into the mapping scope; the operator is a map kind."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/mapping/composition-operator.md",
+    "logs": [
+      {
+        "date": "2026-11-10",
+        "kind": "refactor",
+        "summary": "Move from structure/linear into the mapping scope; composition is a nonlinear operator, not a linear-map instance."
       }
     ]
   },
@@ -8580,17 +8629,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/non-linear-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Non-linear Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/norm/asymmetric-norm.md",
     "logs": [
       {
@@ -8888,6 +8926,11 @@
         "summary": "Point the interpretation question at the moved part-whole figure and correct its counts to match the picture (1:2 part-to-part, 1 x 1/3, and 3/3 = 1).",
         "commit": "12a209b59ac7c3954c0554fcd473eb9632a15274",
         "before": "b28e4ef76c78ea473f85dcdf11c62ee237d98dbf"
+      },
+      {
+        "date": "2026-11-10",
+        "kind": "fix",
+        "summary": "Move the improper-fraction figure into the shared asset store and rewrite both figure references as viewer-relative ../assets/ paths."
       }
     ]
   },
@@ -10801,29 +10844,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/structure/linear/composition-operator.md",
-    "logs": [
-      {
-        "date": "2026-10-17",
-        "kind": "feat",
-        "summary": "Import Composition Operator from the Modelado Notion export.",
-        "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
-        "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
-      },
-      {
-        "date": "2026-10-31",
-        "kind": "refactor",
-        "summary": "Move into the structure scope and repoint links.",
-        "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/structure/linear/correlation-matrix.md",
     "logs": [
       {
@@ -12195,6 +12215,11 @@
         "summary": "Repoint links after the structure/ reorganisation.",
         "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
         "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+      },
+      {
+        "date": "2026-11-10",
+        "kind": "refactor",
+        "summary": "Repoint the Composition Operator link after the note moved into mapping/."
       }
     ]
   },

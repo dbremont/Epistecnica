@@ -105,6 +105,34 @@ Three details are worth keeping. First, **RuBisCO is a lyase, not a ligase** —
 - **1963–1970 — control.** Monod, Changeux and Jacob, then Monod, Wyman and Changeux, gave allostery its first formal model; Perutz gave haemoglobin its stereochemical mechanism in 1970.
 - **1961–2018 — the taxonomy.** The Enzyme List of 1961 fixed six classes; EC 7 was added in 2018.
 
+## Enzyme Space
+
+| Enzyme | Enzyme class | Catalytic activity | Typical substrate | Product | Biological role |
+|---|---|---|---|---|---|
+| Amylase | Hydrolase | Starch hydrolysis | Starch | Maltose, oligosaccharides | Carbohydrate digestion |
+| Pepsin | Hydrolase | Protein hydrolysis | Proteins | Peptides | Protein digestion |
+| Trypsin | Hydrolase | Peptide bond hydrolysis | Polypeptides | Smaller peptides | Protein digestion |
+| Lipase | Hydrolase | Ester bond hydrolysis | Triglycerides | Fatty acids, glycerol | Lipid digestion |
+| Lactase | Hydrolase | Glycosidic bond hydrolysis | Lactose | Glucose, galactose | Lactose digestion |
+| Sucrase | Hydrolase | Glycosidic bond hydrolysis | Sucrose | Glucose, fructose | Carbohydrate digestion |
+| Catalase | Oxidoreductase | Hydrogen peroxide decomposition | Hydrogen peroxide | Water, oxygen | Oxidative protection |
+| Peroxidase | Oxidoreductase | Peroxide reduction | Hydrogen peroxide, electron donor | Water, oxidized donor | Oxidative protection |
+| Cytochrome c oxidase | Oxidoreductase | Electron transfer to oxygen | Electrons, oxygen | Water | Cellular respiration |
+| Hexokinase | Transferase | Phosphoryl group transfer | Glucose, ATP | Glucose-6-phosphate, ADP | Glycolysis |
+| DNA polymerase | Transferase | DNA chain synthesis | DNA template, dNTPs | DNA | DNA replication |
+| RNA polymerase | Transferase | RNA chain synthesis | DNA template, NTPs | RNA | Transcription |
+| Pyruvate kinase | Transferase | Phosphoryl group transfer | Phosphoenolpyruvate, ADP | Pyruvate, ATP | Glycolysis |
+| Carbonic anhydrase | Lyase | Reversible CO₂ hydration | CO₂, water | Bicarbonate, protons | CO₂ transport and pH regulation |
+| Aldolase | Lyase | Carbon–carbon bond cleavage | Fructose-1,6-bisphosphate | Glyceraldehyde-3-phosphate, DHAP | Glycolysis |
+| Fumarase | Lyase | Reversible hydration | Fumarate, water | Malate | Citric acid cycle |
+| Citrate synthase | Transferase | Carbon–carbon bond formation | Acetyl-CoA, oxaloacetate | Citrate | Citric acid cycle |
+| Phosphoglucomutase | Isomerase | Intramolecular phosphate transfer | Glucose-1-phosphate | Glucose-6-phosphate | Carbohydrate metabolism |
+| Triose phosphate isomerase | Isomerase | Aldose–ketose interconversion | DHAP | Glyceraldehyde-3-phosphate | Glycolysis |
+| Protein disulfide isomerase | Isomerase | Disulfide bond rearrangement | Proteins with disulfide bonds | Rearranged protein disulfide bonds | Protein folding |
+| Ubiquitin ligase | Ligase | Covalent bond formation | Ubiquitin, target protein | Ubiquitinated protein | Protein degradation regulation |
+| DNA ligase | Ligase | Phosphodiester bond formation | DNA fragments | Joined DNA | DNA replication and repair |
+| Glutamine synthetase | Ligase | ATP-dependent amide bond formation | Glutamate, ammonia | Glutamine | Nitrogen metabolism |
+
 ## QA
 
 **Is an enzyme a substance or a process?** A substance. It is a folded macromolecule with mass, structure and a lifetime spanning many turnovers; it can be purified and crystallised, and it can sit in a cell catalytically silent. The catalysis it performs is a process the substance runs, which is why the decomposition above gives the conversion an `(→ Occurrence)` row rather than typing the enzyme as a process.
@@ -115,6 +143,20 @@ Three details are worth keeping. First, **RuBisCO is a lyase, not a ligase** —
 
 
 ## References
+
+- [Protein](/view.html?p=notes/nature/protein.md)
+- [Enzyme Regulation](/view.html?p=notes/nature/enzyme/enzyme-regulation.md)
+- [Enzyme Catalysis](/view.html?p=notes/nature/enzyme/enzyme-catalysis.md)
+- [Enzyme Activity / Kinetics (E, kcat, Km)](/view.html?p=notes/nature/enzyme/enzyme-activity-kinetics-e-kcat-km.md)
+- [Enzyme Assays](/view.html?p=notes/nature/enzyme/enzyme-assays.md)
+- [Glucose](/view.html?p=notes/nature/glucose.md)
+- [Starch](/view.html?p=notes/nature/starch.md)
+- [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO)
+
+- https://enzyme.expasy.org/
+- https://www.brenda-enzymes.org/
+- https://www.rhea-db.org/
+
 
 - Payen, A., & Persoz, J.-F. (1833). Mémoire sur la diastase, les principaux produits de ses réactions et leurs applications aux arts industriels. *Annales de Chimie et de Physique, 53*, 73–92.
 - Fischer, E. (1894). Einfluss der Configuration auf die Wirkung der Enzyme. *Berichte der Deutschen Chemischen Gesellschaft, 27*(3), 2985–2993. https://doi.org/10.1002/cber.18940270364
@@ -132,13 +174,4 @@ Three details are worth keeping. First, **RuBisCO is a lyase, not a ligase** —
 - McDonald, A. G., & Tipton, K. F. (2023). Enzyme nomenclature and classification: The state of the art. *The FEBS Journal, 190*(9), 2214–2231. https://doi.org/10.1111/febs.16274
 - Tipton, K. (2018). Translocases (EC 7): A new EC class. *Enzyme Nomenclature News*. International Union of Biochemistry and Molecular Biology.
 
-## Related
 
-- [Protein](/view.html?p=notes/nature/protein.md)
-- [Enzyme Regulation](/view.html?p=notes/nature/enzyme/enzyme-regulation.md)
-- [Enzyme Catalysis](/view.html?p=notes/nature/enzyme/enzyme-catalysis.md)
-- [Enzyme Activity / Kinetics (E, kcat, Km)](/view.html?p=notes/nature/enzyme/enzyme-activity-kinetics-e-kcat-km.md)
-- [Enzyme Assays](/view.html?p=notes/nature/enzyme/enzyme-assays.md)
-- [Glucose](/view.html?p=notes/nature/glucose.md)
-- [Starch](/view.html?p=notes/nature/starch.md)
-- [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO)

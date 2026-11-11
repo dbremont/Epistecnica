@@ -236,6 +236,47 @@ QA:
 | **Defensive proteins** | Security guards — protect against invaders (e.g., antibodies). |
 | **Regulatory proteins** | Supervisors — turn genes on/off, control what the cell does. |
 
+## QA
+
+### Which are the set of protein activities?
+
+| Protein Activity | Description |
+|---|---|
+| Catalysis | Accelerating chemical reactions by lowering their activation energy. |
+| Molecular binding | Selectively binding molecules, ions, or other molecular structures. |
+| Molecular transport | Moving molecules or ions across membranes or between cellular compartments. |
+| Mechanical movement | Producing force and displacement through molecular conformational changes. |
+| Structural support | Providing mechanical stability, organization, and structural integrity to biological structures. |
+| Signal transduction | Transmitting molecular signals through interactions and conformational changes. |
+| Molecular recognition | Identifying and selectively interacting with specific molecular targets. |
+| Regulation | Modulating the activity of other molecules, proteins, enzymes, or biological processes. |
+| Storage | Binding and retaining molecules or ions for subsequent biological use. |
+| Immune defense | Recognizing, neutralizing, or eliminating foreign biological agents and molecules. |
+| Gene expression regulation | Controlling transcription, RNA processing, and translation through molecular interactions. |
+| Membrane formation and organization | Contributing to membrane architecture, organization, and functional specialization. |
+| Protein folding assistance | Facilitating the folding, refolding, and assembly of other proteins. |
+| Molecular degradation | Catalyzing the breakdown of proteins and other biological molecules. |
+
+### What mechanism endows proteins with dynamic activity?
+
+> or How to explain (decomposed) the dynamics (functional role) of the molecules?
+
+| Mechanism | Description | Role in Protein Activity |
+|---|---|---|
+| Electrostatic interactions | Attraction and repulsion between charged atoms and molecular groups. | Molecular recognition, binding, structural stabilization, and conformational changes. |
+| Hydrogen bonding | Formation and disruption of hydrogen bonds between electronegative atoms and hydrogen atoms. | Structural stabilization, substrate recognition, and molecular specificity. |
+| Van der Waals interactions | Attractive and repulsive forces arising from interactions between nearby atoms. | Molecular packing, binding, and structural stabilization. |
+| Hydrophobic effect | Association of nonpolar molecular groups in aqueous environments. | Protein folding, structural organization, and molecular association. |
+| Covalent bond formation and cleavage | Formation or breaking of covalent chemical bonds. | Substrate transformation, catalysis, and chemical modification. |
+| Proton transfer | Transfer of protons between molecular groups. | Acid–base catalysis, pH regulation, and energy coupling. |
+| Electron transfer | Transfer of electrons between molecular species or chemical groups. | Redox catalysis and biological energy conversion. |
+| Ion coordination | Binding of metal ions or other ions through interactions with specific molecular groups. | Catalytic activity, structural stabilization, and regulation. |
+| Ligand binding | Reversible association of a protein with another molecule or ion. | Molecular recognition, activation, inhibition, and regulation. |
+| Conformational transitions | Changes in the spatial arrangement of atoms, domains, or entire protein structures. | Functional switching, mechanical movement, and regulation. |
+| Molecular diffusion | Thermal motion and displacement of molecules through their surrounding medium. | Molecular encounters, substrate access, and transport. |
+| Allosteric coupling | Transmission of structural and energetic changes between distinct protein regions. | Regulation of activity through interactions at sites distant from the functional site. |
+| Mechanical force generation | Conversion of molecular energy into directed displacement or force. | Molecular movement, contraction, and mechanical work. |
+
 ## References
 
 - [Protein](https://en.wikipedia.org/wiki/Protein)

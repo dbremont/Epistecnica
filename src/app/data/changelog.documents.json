@@ -37496,5 +37496,25 @@
         "commit": "13c2f410d2b151eda7354e49d9626b229400ff3e"
       }
     ]
+  },
+  {
+    "file_path": "books/silver-2015-signal-and-noise-penguin-books.md",
+    "logs": [
+      {
+        "date": "2026-11-09",
+        "kind": "feat",
+        "summary": "Add the entry — Silver, The Signal and the Noise (2015 Penguin paperback; first published 2012); ISBN 978-0143125082 verified."
+      }
+    ]
+  },
+  {
+    "file_path": "books/lagowski-1997-macmillan-encyclopedia-of-chemistry.md",
+    "logs": [
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add the Macmillan Encyclopedia of Chemistry (1997, 4 vols.), edited by J. J. Lagowski, with the Internet Archive scan for each volume."
+      }
+    ]
   }
 ]

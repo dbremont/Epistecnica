@@ -410,6 +410,21 @@ instance-decomposition table:
   notebooks add one page plus one card; live HTML is out of changelog scope,
   and a corpus note that links its notebook logs the edit like any other
   content change.
+- **Mathematical Area Atlas** — `epistemica/mathematical/atlas.{json,html}`
+  stores and renders the sub-discipline inventory (`Area | Essence | Family |
+  Axis | Notes`), with table, family-grid, and property × operation map views,
+  search dimming/highlighting, and a detail modal. `make math-atlas-check`
+  validates the store (part of `make check`). The page is a live note reached
+  through the catalog's `epistemica/mathematical/` folder, no promoted card.
+- **Geometric Shape Atlas** — `epistemica/mathematical/geometry/atlas.{json,html}`
+  renders every row of the `geometric-shape.md` decomposition table as a
+  figure-first entry: an inline SVG drawing for every node, outline, family,
+  and table views, family/dimension filters, search, and a detail modal with
+  the source path and corpus-note links. `make shape-atlas-index` regenerates
+  the store from the table (after any table edit) and `make shape-atlas-check`
+  validates it (part of `make check`). The page is a live note reached through
+  the catalog's `epistemica/mathematical/geometry/` folder, and
+  `geometric-shape.md` links it; no promoted card.
 - **EES** (`epistemica/ees.md` + `ees.html` + `ees.json`) is the master
   epistemic inventory. The tree is stored canonically in `ees.json`
   (`roots[]`; each node `{label, type, kind, order, description, children}`;
@@ -497,6 +512,7 @@ Verification (no test suite exists; `make check` covers the first):
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - EES tree: `make ees-check` (legacy alias: `make rees-check`; validates `src/corpus/notes/epistemica/ees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
 - Technica atlas: `make atlas-index` (regenerates `src/corpus/notes/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/corpus/notes/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/corpus/notes/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
+- Geometric Shape Atlas: `make shape-atlas-index` (regenerates `src/corpus/notes/epistemica/mathematical/geometry/atlas.json` from the decomposition table of `geometric-shape.md`) → `make shape-atlas-check` (unique paths, family/dimension consistency, figure spec on every node, note links resolve) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/mathematical/geometry/atlas.html` (outline / families / table views, figure modal, `?view=`, `?family=`, `?dimension=`, `?q=`, and `?id=` deep links), reached in the catalog through the `epistemica/mathematical/geometry/` folder and linked from `geometric-shape.md` (no promoted card)
 - Terminology crimes: `make terminology-check` (validates `src/corpus/notes/epistemica/horror/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/horror/terminology.html`, reached in the catalog through the `epistemica/horror/` folder (no promoted card)
 - Symbol atlas: `make symbols-check` (validates `src/corpus/notes/epistemica/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/symbols.html`, reached in the catalog through the `epistemica/` root (no promoted card)
 - P-Value Atlas: `make pvalue-check` (validates `src/corpus/notes/epistemica/validation/atlas/pvalue.json` — unique ids, known families/engines, complete density/CDF/left/right/two-sided formulas, parameter specs in range, resolving related ids and note links, well-formed sources) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/validation/atlas/pvalue.html` (playground-first: family picker + parameter sliders + `t_obs` + density/CDF stages + live readouts + Monte Carlo strip; `?selftest` for the numeric cases), reached in the catalog through the `epistemica/validation/atlas/` folder and linked from `p-value.md` (no promoted card)

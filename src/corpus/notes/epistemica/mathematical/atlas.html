@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathematical Area Atlas</title>
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --accent-violet: #B48EF0;
+      --accent-violet-dim: rgba(180, 142, 240, 0.12);
+      --accent-copper: #c9956c;
+      --accent-copper-light: #dbb08a;
+      --accent-sage: #7ba388;
+      --accent-plum: #9b7eb0;
+      --accent-rose: #c47d8a;
+      --accent-amber: #d4a857;
+      --accent-steel: #6b8caa;
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --border-medium: rgba(255, 255, 255, 0.08);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --accent-violet: #6B4FA8;
+      --accent-violet-dim: rgba(107, 79, 168, 0.1);
+      --accent-copper: #9a7b3f;
+      --accent-copper-light: #7a6132;
+      --accent-sage: #4e7a5e;
+      --accent-plum: #7a5f8c;
+      --accent-rose: #a55a68;
+      --accent-amber: #9a742f;
+      --accent-steel: #4e6e8c;
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --border-medium: rgba(20, 22, 30, 0.14);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg-void);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent-cyan); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    #ambientCanvas {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      opacity: 0.55; width: 100%; height: 100%;
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .theme-toggle {
+      background: transparent; border: 1px solid var(--border-subtle);
+      border-radius: 6px; color: var(--text-secondary); cursor: pointer;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em;
+      padding: 0.45rem 0.7rem; text-transform: uppercase;
+    }
+    .theme-toggle:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+    .layout { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
+
+    .crumbs {
+      font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 1.1rem;
+    }
+    .crumbs a { color: var(--text-muted); }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.45rem; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display); font-weight: 300; font-size: clamp(2.2rem, 5vw, 3.4rem);
+      line-height: 1.05; letter-spacing: 0.01em; margin: 0 0 1rem;
+    }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .chip {
+      display: inline-block; padding: 0.22rem 0.6rem;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-secondary);
+    }
+    .chip.gold { color: var(--accent-gold); border-color: var(--accent-gold-dim); }
+
+    .lede { max-width: 80ch; color: var(--text-secondary); font-size: 1.02rem; margin: 0 0 1.2rem; }
+    .lede strong { color: var(--text-primary); font-weight: 500; }
+
+    .atlas-panel {
+      border: 1px solid var(--border-subtle); background: var(--card-bg);
+      border-radius: 12px; padding: 1rem 1.1rem; margin: 0 0 1.2rem;
+    }
+    .controls { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+    .searchbox {
+      flex: 1 1 300px; display: flex; align-items: center; gap: 0.5rem;
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      border-radius: 10px; padding: 0.5rem 0.7rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .searchbox:focus-within {
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 3px var(--accent-cyan-dim);
+    }
+    .searchbox svg { color: var(--text-muted); flex: none; }
+    #search {
+      flex: 1; min-width: 0; background: transparent; border: 0; outline: 0;
+      color: var(--text-primary); font-family: var(--font-body); font-size: 0.92rem;
+    }
+    #search::placeholder { color: var(--text-muted); }
+    #clearSearch {
+      background: transparent; border: 0; color: var(--text-muted);
+      cursor: pointer; font-size: 1.1rem; line-height: 1; padding: 0 0.1rem;
+    }
+    #clearSearch:hover { color: var(--accent-cyan); }
+
+    .btn {
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      color: var(--text-secondary); border-radius: 9px; padding: 0.5rem 0.75rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.06em;
+      text-transform: uppercase; cursor: pointer;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .btn:hover { color: var(--text-primary); border-color: var(--border-medium); }
+    .btn.active { border-color: var(--accent-cyan); color: var(--accent-cyan); background: var(--accent-cyan-dim); }
+    select.btn option { background: var(--bg-card); color: var(--text-primary); }
+    .seg { display: flex; border: 1px solid var(--border-subtle); border-radius: 9px; overflow: hidden; }
+    .seg .btn { border: 0; border-radius: 0; }
+
+    .legend { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.85rem; }
+    .fchip {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text-muted); background: transparent;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      padding: 0.3rem 0.6rem; cursor: pointer; user-select: none;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .fchip .sw { width: 9px; height: 9px; border-radius: 2px; background: var(--el-color); }
+    .fchip .chip-count { opacity: 0.55; }
+    .fchip:hover { color: var(--text-primary); border-color: var(--el-color); }
+    .fchip.on {
+      color: var(--text-primary); border-color: var(--el-color);
+      background: color-mix(in srgb, var(--el-color) 12%, transparent);
+    }
+    .count {
+      margin-top: 0.6rem; color: var(--text-muted); font-family: var(--font-mono);
+      font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase;
+    }
+
+    .hidden { display: none !important; }
+
+    /* Table */
+    .tablewrap {
+      overflow-x: auto; background: var(--bg-card);
+      border: 1px solid var(--border-subtle); border-radius: 12px;
+    }
+    .atlas-table { width: 100%; min-width: 860px; border-collapse: collapse; }
+    .atlas-table th {
+      text-align: left; padding: 0.65rem 0.7rem; border-bottom: 1px solid var(--border-medium);
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--text-muted); font-weight: 400;
+      background: color-mix(in srgb, var(--bg-card) 92%, var(--bg-surface));
+    }
+    .atlas-table td {
+      padding: 0.58rem 0.7rem; border-bottom: 1px solid var(--border-subtle);
+      vertical-align: top; font-size: 0.84rem;
+    }
+    .atlas-table tbody tr:last-child td { border-bottom: 0; }
+    .group-row td {
+      background: color-mix(in srgb, var(--el-color) 5%, transparent);
+      border-left: 2px solid var(--el-color);
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.07em;
+      text-transform: uppercase; color: var(--text-secondary);
+      padding-top: 0.5rem; padding-bottom: 0.5rem;
+    }
+    .group-row.off { opacity: 0.4; }
+    .fam-dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; background: var(--el-color); margin-right: 0.45rem; }
+    .group-essence { text-transform: none; letter-spacing: 0; font-family: var(--font-body); font-size: 0.72rem; color: var(--text-muted); margin-left: 0.35rem; }
+    .area-row { cursor: pointer; transition: opacity 0.18s, filter 0.18s; }
+    .area-row td:first-child { border-left: 2px solid var(--el-color); }
+    .area-row:hover td { background: color-mix(in srgb, var(--el-color) 5%, transparent); }
+    .area-row.off { opacity: 0.16; filter: grayscale(0.8); }
+    .area-row.sel td { background: color-mix(in srgb, var(--accent-gold) 8%, transparent); }
+    .area-row.sel td:first-child { border-left: 3px solid var(--accent-gold); }
+    .area-row:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: -2px; }
+    .area-cell { white-space: nowrap; }
+    .area-cell .sym { display: inline-block; min-width: 1.6em; color: var(--el-color); font-family: var(--font-mono); font-size: 0.98rem; margin-right: 0.4rem; }
+    .area-cell .name { color: var(--text-primary); font-weight: 500; }
+    .essence { color: var(--text-secondary); line-height: 1.5; }
+    .fam-chip {
+      display: inline-block; padding: 0.18rem 0.5rem; border-radius: 999px;
+      border: 1px solid color-mix(in srgb, var(--el-color, var(--accent-copper)) 40%, transparent);
+      background: color-mix(in srgb, var(--el-color, var(--accent-copper)) 8%, transparent);
+      color: var(--el-color, var(--text-secondary));
+      font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.05em;
+      text-transform: uppercase; white-space: nowrap;
+    }
+    .axis { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.62rem; white-space: nowrap; }
+    .notes-count { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.62rem; white-space: nowrap; }
+    .stub-badge {
+      display: inline-block; padding: 0.05rem 0.35rem; margin-left: 0.4rem;
+      border: 1px solid var(--border-subtle); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.5rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text-muted); vertical-align: middle;
+    }
+
+    /* Grid */
+    .family-block { margin-bottom: 1.5rem; transition: opacity 0.18s; }
+    .family-block.off { opacity: 0.35; }
+    .family-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.6rem; }
+    .family-dot { width: 10px; height: 10px; border-radius: 2px; background: var(--el-color); flex: none; }
+    .family-title { font-family: var(--font-display); font-size: 1.35rem; font-weight: 400; margin: 0; }
+    .family-essence { color: var(--text-muted); font-size: 0.78rem; }
+    .tile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 8px; }
+    .tile {
+      text-align: left; background: linear-gradient(165deg, color-mix(in srgb, var(--el-color) 8%, var(--bg-card)), var(--bg-card));
+      border: 1px solid var(--border-subtle); border-left: 2px solid var(--el-color);
+      border-radius: 10px; padding: 10px 12px; cursor: pointer; color: inherit;
+      font-family: inherit; display: flex; flex-direction: column; gap: 4px;
+      transition: transform 0.12s, box-shadow 0.12s, opacity 0.18s, filter 0.18s;
+    }
+    .tile:hover {
+      transform: translateY(-2px); border-color: var(--el-color);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.28), 0 0 0 1px color-mix(in srgb, var(--el-color) 45%, transparent);
+    }
+    .tile.off { opacity: 0.14; filter: grayscale(0.85); }
+    .tile.sel { box-shadow: 0 0 0 2px var(--accent-gold); }
+    .tile:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+    .tile-sym { font-family: var(--font-mono); font-size: 1.05rem; color: var(--el-color); line-height: 1.2; }
+    .tile-name { font-size: 0.96rem; font-weight: 500; }
+    .tile-essence {
+      color: var(--text-secondary); font-size: 0.78rem; line-height: 1.45;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .tile-meta { font-family: var(--font-mono); font-size: 0.55rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+
+    /* Map */
+    .mapwrap {
+      overflow-x: auto; background: var(--bg-card);
+      border: 1px solid var(--border-subtle); border-radius: 12px;
+    }
+    .map-table { border-collapse: collapse; min-width: 900px; width: 100%; }
+    .map-table th, .map-table td { border: 1px solid var(--border-subtle); padding: 6px; vertical-align: top; }
+    .map-table thead th {
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.06em;
+      text-transform: uppercase; color: var(--text-secondary); background: var(--bg-surface);
+      font-weight: 400;
+    }
+    .map-table .corner { text-align: left; color: var(--text-muted); }
+    .map-table .rowhead {
+      text-align: left; font-family: var(--font-mono); font-size: 0.58rem;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-surface); width: 112px; font-weight: 400;
+    }
+    .map-cell { min-width: 120px; }
+    .area-chip {
+      display: inline-block; margin: 2px; padding: 3px 7px; border-radius: 999px;
+      border: 1px solid color-mix(in srgb, var(--el-color) 40%, transparent);
+      background: color-mix(in srgb, var(--el-color) 9%, transparent);
+      color: var(--text-primary); font-family: var(--font-mono); font-size: 0.58rem;
+      cursor: pointer; transition: border-color 0.2s, opacity 0.18s, filter 0.18s;
+    }
+    .area-chip:hover { border-color: var(--el-color); }
+    .area-chip.off { opacity: 0.14; filter: grayscale(0.85); }
+    .area-chip.sel { box-shadow: 0 0 0 2px var(--accent-gold); }
+    .area-chip:focus-visible { outline: 2px solid var(--accent-gold); outline-offset: 2px; }
+    .map-empty { color: var(--text-muted); opacity: 0.5; }
+    .map-note { color: var(--text-muted); font-size: 0.75rem; margin: 0.5rem 0 0; }
+
+    mark { background: var(--accent-cyan-dim); color: var(--accent-cyan); border-radius: 2px; padding: 0 1px; }
+
+    /* Modal */
+    #modal {
+      position: fixed; inset: 0; background: rgba(5,8,12,0.72);
+      backdrop-filter: blur(6px); display: flex; align-items: flex-start;
+      justify-content: center; padding: 4vh 16px; z-index: 100; overflow: auto;
+    }
+    .sheet {
+      width: min(860px, 100%); background: var(--bg-surface);
+      border: 1px solid var(--border-medium); border-radius: 16px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.5); overflow: hidden; animation: pop 0.18s ease;
+    }
+    @keyframes pop { from { transform: scale(0.97); opacity: 0.6; } }
+    .sheethead {
+      display: flex; align-items: center; gap: 16px; padding: 18px 22px;
+      border-bottom: 1px solid var(--border-subtle); flex-wrap: wrap;
+    }
+    .modal-symbol {
+      width: 72px; height: 72px; border-radius: 14px; flex: none;
+      border: 1px solid var(--el-color, var(--accent-copper));
+      background: color-mix(in srgb, var(--el-color, var(--accent-copper)) 12%, transparent);
+      color: var(--el-color, var(--accent-copper));
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-mono); font-size: 1.2rem; line-height: 1;
+    }
+    .sheet-title { min-width: 0; }
+    .sheethead .name { font-family: var(--font-display); font-size: 1.6rem; font-weight: 400; line-height: 1.1; }
+    .sheethead .zline {
+      color: var(--text-muted); font-family: var(--font-mono); font-size: 0.62rem;
+      text-transform: uppercase; letter-spacing: 0.06em; margin-top: 2px;
+    }
+    .modal-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 5px; }
+    .axis-chip {
+      display: inline-block; padding: 0.2rem 0.55rem; border: 1px solid var(--border-subtle);
+      border-radius: 999px; font-family: var(--font-mono); font-size: 0.56rem;
+      text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-secondary);
+    }
+    .sheetnav { margin-left: auto; display: flex; gap: 8px; align-items: center; }
+    .sheetnav .pos { color: var(--text-muted); font-family: var(--font-mono); font-size: 11px; min-width: 64px; text-align: center; }
+    .navb, .closeb {
+      width: 34px; height: 34px; border-radius: 9px; background: var(--bg-card);
+      color: var(--text-primary); border: 1px solid var(--border-subtle);
+      font-size: 16px; cursor: pointer;
+    }
+    .navb:hover, .closeb:hover { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    .sheetbody { padding: 18px 22px 24px; display: flex; flex-direction: column; gap: 16px; }
+    .sec { border-left: 3px solid var(--sc, var(--accent-cyan)); padding-left: 14px; }
+    .sec h3 {
+      margin: 0 0 6px; font-family: var(--font-mono); font-size: 0.62rem;
+      letter-spacing: 0.06em; text-transform: uppercase; color: var(--sc, var(--accent-cyan));
+      font-weight: 400;
+    }
+    .sec p { margin: 0; color: var(--text-secondary); font-size: 0.86rem; line-height: 1.65; }
+    .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .pill {
+      display: inline-block; padding: 0.2rem 0.55rem; border: 1px solid var(--border-subtle);
+      border-radius: 999px; font-family: var(--font-mono); font-size: 0.58rem;
+      color: var(--text-secondary); background: var(--bg-card);
+    }
+    .notes-list { display: flex; flex-direction: column; gap: 5px; }
+    .note-link { color: var(--accent-cyan); font-size: 0.84rem; }
+    .note-link:hover { text-decoration: underline; }
+    .related-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .related-chip {
+      display: inline-flex; align-items: center; gap: 4px; padding: 0.25rem 0.6rem;
+      border: 1px solid color-mix(in srgb, var(--el-color) 40%, transparent);
+      background: color-mix(in srgb, var(--el-color) 8%, transparent);
+      color: var(--text-primary); border-radius: 999px;
+      font-family: var(--font-mono); font-size: 0.58rem; cursor: pointer;
+    }
+    .related-chip:hover { border-color: var(--el-color); }
+    .muted { color: var(--text-muted); font-size: 0.82rem; }
+    .loaderror {
+      border: 1px solid var(--accent-rose); border-radius: 10px;
+      background: color-mix(in srgb, var(--accent-rose) 7%, transparent);
+      color: var(--text-secondary); padding: 1rem 1.1rem; margin: 0 0 1.2rem;
+      font-size: 0.86rem;
+    }
+    .loaderror code { color: var(--accent-rose); }
+    #empty { text-align: center; color: var(--text-muted); padding: 40px 0 10px; font-size: 14px; }
+
+    .atlas-refs { margin-top: 2rem; border-top: 1px solid var(--border-subtle); padding-top: 1.2rem; }
+    .atlas-refs h2 { font-family: var(--font-display); font-weight: 400; font-size: 1.6rem; margin: 0 0 0.6rem; }
+    .atlas-refs p, .atlas-refs li { color: var(--text-secondary); font-size: 0.86rem; line-height: 1.7; }
+    .atlas-refs ul { margin: 0.6rem 0 0 1.1rem; padding: 0; }
+    .atlas-refs li { margin-bottom: 0.35rem; }
+
+    .site-footer {
+      position: relative; z-index: 1; border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg); padding: 1.4rem 2rem;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; display: flex; justify-content: space-between;
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    @media (max-width: 720px) {
+      .layout { padding: 1.8rem 1.2rem 2.6rem; }
+      .site-nav .nav-inner { padding: 0.8rem 1.2rem; }
+      .searchbox { flex-basis: 100%; }
+      .sheethead { gap: 12px; }
+      .sheetnav { margin-left: 0; }
+    }
+  </style>
+  <link rel="stylesheet" href="/shared/usearch.css">
+</head>
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="crumbs">
+      <a href="/explorer.html?dir=notes">notes</a><span class="sep">/</span>
+      <a href="/explorer.html?dir=notes/epistemica">epistemica</a><span class="sep">/</span>
+      <a href="/explorer.html?dir=notes/epistemica/mathematical">mathematical</a><span class="sep">/</span>
+      <span class="here">atlas</span>
+    </div>
+
+    <h1 class="note-title">Mathematical Area Atlas</h1>
+
+    <div class="note-meta">
+      <span class="chip gold" id="chipAreas">∑ — areas</span>
+      <span class="chip" id="chipFamilies">— families</span>
+      <span class="chip" id="chipMethods">— methods</span>
+      <span class="chip">live note</span>
+    </div>
+
+    <p class="lede">Mathematics as a map of areas. Each area is characterized by the property it encodes or represents and the operation it enables; the essences below are conceptual signatures, not formal definitions. <strong>Search</strong> to dim the atlas to matching areas, switch between the <strong>table</strong>, the family <strong>grid</strong>, and the property × operation <strong>map</strong>, and open any area for its corpus notes.</p>
+
+    <div class="atlas-panel">
+      <div class="controls">
+        <div class="searchbox">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="search" type="search" placeholder="Search areas — name, essence, object, operation, sub-area…" autocomplete="off" aria-label="Search areas">
+          <button type="button" id="clearSearch" class="hidden" title="Clear search (Esc)" aria-label="Clear search">&times;</button>
+        </div>
+        <div class="seg" id="viewSeg">
+          <button type="button" class="btn active" data-view="table" id="vTable">Table</button>
+          <button type="button" class="btn" data-view="grid" id="vGrid">Grid</button>
+          <button type="button" class="btn" data-view="map" id="vMap">Map</button>
+        </div>
+        <select id="sort" class="btn" title="Sort the table">
+          <option value="family">Sort: Family</option>
+          <option value="name">Sort: Name A–Z</option>
+          <option value="axis">Sort: Axis</option>
+          <option value="notes">Sort: Notes</option>
+        </select>
+        <div class="seg" id="kindSeg">
+          <button type="button" class="btn active" data-kind="all">All</button>
+          <button type="button" class="btn" data-kind="area">Areas</button>
+          <button type="button" class="btn" data-kind="method">Methods</button>
+        </div>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="count" id="count"></div>
+    </div>
+
+    <div id="loadError" class="loaderror hidden"></div>
+
+    <section id="tableView" class="tablewrap">
+      <table class="atlas-table">
+        <thead>
+          <tr><th>Area</th><th>Essence</th><th>Family</th><th>Axis</th><th>Notes</th></tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </section>
+
+    <section id="gridView" class="hidden"><div id="grid"></div></section>
+
+    <section id="mapView" class="hidden">
+      <div class="mapwrap"><table class="map-table" id="mapTable"></table></div>
+      <p class="map-note">Each area is placed at its primary property × operation cell. Methods cut across the axes and are not placed.</p>
+    </section>
+
+    <div id="empty" class="hidden">No areas match your search or filters.</div>
+
+    <section class="atlas-refs" id="references">
+      <h2>References</h2>
+      <p>The <strong>Essence</strong> column is a conceptual signature, not a formal definition: it names the property an area encodes or represents and the operation it enables. The area notes carry the full formulations. The classification follows the corpus's mathematical branches and the canonical epistemic and conceptual guides. <strong>Stubs</strong> mark areas whose dedicated corpus note is still missing; cross-domain notes are linked where they exist.</p>
+      <ul>
+        <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md">Philosophia Artium Epistemicarum et Operis</a> — the epistemic schema and the Arithmetic case study.</li>
+        <li><a href="https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md">Philosophia Conceptuum et Operis</a> — the criteria for conceptual identification and evaluation.</li>
+        <li><a href="/view.html?p=notes/epistemica/mathematical/mathematical-object.md">Mathematical Object</a> and <a href="/view.html?p=notes/epistemica/mathematical/transformation.md">Transformation Rule</a> — the corpus's root notes on mathematical objects and rules.</li>
+        <li><a href="/explorer.html?dir=notes/epistemica/mathematical">Mathematical corpus</a> and <a href="/explorer.html?dir=notes/epistemica/epistemic/discipline">epistemic disciplines</a> (logic, probability, statistics) — the notes linked by the atlas.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; mathematical area atlas</div>
+      <a href="/explorer.html?dir=notes/epistemica/mathematical">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+  <div id="modal" class="hidden">
+    <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mName">
+      <div class="sheethead">
+        <div class="modal-symbol" id="mSymbol"><span id="mSym"></span></div>
+        <div class="sheet-title">
+          <div class="name" id="mName"></div>
+          <div class="zline" id="mZline"></div>
+          <div class="modal-chips">
+            <span class="fam-chip" id="mFam"></span>
+            <span class="axis-chip" id="mAxis"></span>
+            <span class="stub-badge hidden" id="mStub">stub</span>
+          </div>
+        </div>
+        <div class="sheetnav">
+          <button class="navb" id="mPrev" title="Previous area">&#8249;</button>
+          <span class="pos" id="mPos"></span>
+          <button class="navb" id="mNext" title="Next area">&#8250;</button>
+          <button class="closeb" id="mClose" title="Close (Esc)">&#10005;</button>
+        </div>
+      </div>
+      <div class="sheetbody">
+        <div class="sec" style="--sc: var(--accent-cyan)">
+          <h3>Essence</h3>
+          <p id="mEssence"></p>
+          <p id="mDesc" style="margin-top:.4rem"></p>
+        </div>
+        <div class="sec" style="--sc: var(--accent-sage)">
+          <h3>What it studies</h3>
+          <div class="pills" id="mObjects"></div>
+        </div>
+        <div class="sec" style="--sc: var(--accent-amber)">
+          <h3>What it does</h3>
+          <div class="pills" id="mOps"></div>
+        </div>
+        <div class="sec" style="--sc: var(--accent-plum)">
+          <h3>Sub-areas</h3>
+          <div class="pills" id="mSub"></div>
+        </div>
+        <div class="sec" style="--sc: var(--accent-copper)">
+          <h3>Corpus notes</h3>
+          <div class="notes-list" id="mNotes"></div>
+        </div>
+        <div class="sec" style="--sc: var(--accent-violet)">
+          <h3>Related areas</h3>
+          <div class="related-list" id="mRelated"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function () {
+    var toggle = document.getElementById('themeToggle');
+    var label = document.getElementById('themeLabel');
+    var fading = false;
+    function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+    toggle.addEventListener('click', function () {
+      if (fading) return;
+      fading = true;
+      var root = document.documentElement;
+      var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var swap = function () {
+        root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+        try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) { /* private mode */ }
+        apply();
+        root.classList.remove('theme-fading');
+        fading = false;
+        window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+      };
+      if (reduced) { swap(); return; }
+      root.classList.add('theme-fading');
+      setTimeout(swap, 190);
+    });
+    apply();
+  })();
+  </script>
+
+  <script>
+  (function () {
+    var c = document.getElementById('ambientCanvas');
+    if (!c) return;
+    var ctx = c.getContext('2d'), pts = [];
+    function resize() {
+      c.width = window.innerWidth; c.height = window.innerHeight;
+      pts = [];
+      for (var i = 0; i < 70; i++) {
+        pts.push({ x: Math.random() * c.width, y: Math.random() * c.height, r: Math.random() * 1.1 + 0.2, a: Math.random() * 0.35 + 0.08 });
+      }
+    }
+    function draw() {
+      var col = getComputedStyle(document.documentElement).getPropertyValue('--text-muted').trim();
+      ctx.clearRect(0, 0, c.width, c.height);
+      pts.forEach(function (p) {
+        ctx.globalAlpha = p.a; ctx.fillStyle = col;
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+    }
+    window.addEventListener('resize', function () { resize(); draw(); });
+    window.addEventListener('epistecnica-theme', draw);
+    resize(); draw();
+  })();
+  </script>
+
+  <script src="/shared/usearch.js" data-root="../../../../"></script>
+
+  <script>
+let DATA = null;
+let FAMILIES = {};
+let AXES = { properties: [], operations: [] };
+let familyOrder = [];
+let propertyOrder = [];
+let operationOrder = [];
+
+const state = { q: "", family: null, kind: "all", view: "table", sort: "family", cur: null, list: [] };
+
+const $ = s => document.querySelector(s);
+
+function esc(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+function familyColor(id) {
+  const f = FAMILIES[id];
+  return cssVar(f ? f.color : "--accent-copper");
+}
+function highlight(text, q) {
+  const s = String(text);
+  if (!q) return esc(s);
+  const i = s.toLowerCase().indexOf(q.toLowerCase());
+  if (i < 0) return esc(s);
+  return esc(s.slice(0, i)) + "<mark>" + esc(s.slice(i, i + q.length)) + "</mark>" + esc(s.slice(i + q.length));
+}
+function axisLabel(a) {
+  if (a.kind === "method") return "Cross-cutting method";
+  const p = AXES.properties.find(x => x.id === a.property);
+  const o = AXES.operations.find(x => x.id === a.operation);
+  return (p ? p.name : a.property) + " × " + (o ? o.name : a.operation);
+}
+function noteHref(path) {
+  return path.endsWith(".html") ? "/corpus/notes/" + path : "/view.html?p=notes/" + path;
+}
+
+function matches(a) {
+  if (state.kind !== "all" && a.kind !== state.kind) return false;
+  if (state.family && a.family !== state.family) return false;
+  if (!state.q) return true;
+  const q = state.q.toLowerCase();
+  const fam = FAMILIES[a.family];
+  const hay = [
+    a.name, a.symbol, a.essence, a.description, a.family, fam ? fam.name : "", axisLabel(a),
+    ...(a.objects || []), ...(a.operations || []), ...(a.subareas || []),
+    ...(a.notes || []).map(n => n.label)
+  ].join(" ").toLowerCase();
+  return hay.includes(q);
+}
+function sortAreas(list) {
+  const s = state.sort;
+  if (s === "name") return list.sort((a, b) => a.name.localeCompare(b.name));
+  if (s === "axis") return list.sort((a, b) => {
+    const ai = a.kind === "method" ? 999 : propertyOrder.indexOf(a.property);
+    const bi = b.kind === "method" ? 999 : propertyOrder.indexOf(b.property);
+    if (ai !== bi) return ai - bi;
+    const ao = a.kind === "method" ? 999 : operationOrder.indexOf(a.operation);
+    const bo = b.kind === "method" ? 999 : operationOrder.indexOf(b.operation);
+    if (ao !== bo) return ao - bo;
+    return a.name.localeCompare(b.name);
+  });
+  if (s === "notes") return list.sort((a, b) => (b.notes.length || 0) - (a.notes.length || 0) || a.name.localeCompare(b.name));
+  return list.sort((a, b) => {
+    const af = familyOrder.indexOf(a.family), bf = familyOrder.indexOf(b.family);
+    return af !== bf ? af - bf : a.name.localeCompare(b.name);
+  });
+}
+
+function renderLegend() {
+  const el = $("#legend");
+  el.innerHTML = "";
+  const all = document.createElement("button");
+  all.type = "button";
+  all.className = "fchip on";
+  all.id = "chipAll";
+  all.style.setProperty("--el-color", cssVar("--accent-cyan"));
+  all.textContent = "All families";
+  all.onclick = () => { state.family = null; sync(); };
+  el.appendChild(all);
+
+  DATA.families.forEach(f => {
+    const cnt = DATA.areas.filter(a => a.family === f.id).length;
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "fchip";
+    b.dataset.family = f.id;
+    b.style.setProperty("--el-color", familyColor(f.id));
+    b.innerHTML = '<span class="sw"></span>' + esc(f.name) + ' <span class="chip-count">×' + cnt + '</span>';
+    b.onclick = () => { state.family = state.family === f.id ? null : f.id; sync(); };
+    el.appendChild(b);
+  });
+}
+
+function areaRow(a) {
+  const fam = FAMILIES[a.family];
+  return '<tr class="area-row" data-id="' + a.id + '" data-family="' + a.family + '" data-kind="' + a.kind + '" tabindex="0" role="button" style="--el-color:' + familyColor(a.family) + '">'
+    + '<td class="area-cell"><span class="sym">' + esc(a.symbol) + '</span><span class="name">' + highlight(a.name, state.q) + '</span>' + (a.stub ? '<span class="stub-badge">stub</span>' : '') + '</td>'
+    + '<td class="essence">' + highlight(a.essence, state.q) + '</td>'
+    + '<td><span class="fam-chip">' + esc(fam.name) + '</span></td>'
+    + '<td class="axis">' + esc(axisLabel(a)) + '</td>'
+    + '<td class="notes-count">' + (a.notes.length === 1 ? '1 note' : (a.notes.length ? a.notes.length + ' notes' : '—')) + '</td>'
+    + '</tr>';
+}
+function renderTable() {
+  const sorted = sortAreas([...DATA.areas]);
+  let html = "";
+  if (state.sort === "family") {
+    familyOrder.forEach(fid => {
+      const fam = FAMILIES[fid];
+      const members = sorted.filter(a => a.family === fid);
+      if (!members.length) return;
+      html += '<tr class="group-row" data-family="' + fid + '" style="--el-color:' + familyColor(fid) + '"><td colspan="5"><span class="fam-dot"></span><strong>' + esc(fam.name) + '</strong> <span class="group-essence">' + esc(fam.essence) + '</span></td></tr>';
+      members.forEach(a => { html += areaRow(a); });
+    });
+  } else {
+    sorted.forEach(a => { html += areaRow(a); });
+  }
+  $("#tableBody").innerHTML = html;
+}
+
+function tileHTML(a) {
+  const fam = FAMILIES[a.family];
+  return '<button type="button" class="tile" data-id="' + a.id + '" data-family="' + a.family + '" data-kind="' + a.kind + '" style="--el-color:' + familyColor(a.family) + '">'
+    + '<span class="tile-sym">' + esc(a.symbol) + '</span>'
+    + '<span class="tile-name">' + highlight(a.name, state.q) + '</span>'
+    + '<span class="tile-essence">' + highlight(a.essence, state.q) + '</span>'
+    + '<span class="tile-meta">' + esc(fam.name) + (a.stub ? ' · stub' : '') + '</span>'
+    + '</button>';
+}
+function renderGrid() {
+  let html = "";
+  familyOrder.forEach(fid => {
+    const fam = FAMILIES[fid];
+    const members = DATA.areas.filter(a => a.family === fid).sort((a, b) => a.name.localeCompare(b.name));
+    if (!members.length) return;
+    html += '<section class="family-block" data-family="' + fid + '" style="--el-color:' + familyColor(fid) + '">'
+      + '<div class="family-head"><span class="family-dot"></span><h2 class="family-title">' + esc(fam.name) + '</h2><span class="family-essence">' + esc(fam.essence) + '</span></div>'
+      + '<div class="tile-grid">' + members.map(tileHTML).join("") + '</div>'
+      + '</section>';
+  });
+  $("#grid").innerHTML = html;
+}
+
+function renderMap() {
+  let html = '<thead><tr><th class="corner">Property / Operation</th>';
+  AXES.operations.forEach(o => { html += '<th>' + esc(o.name) + '</th>'; });
+  html += '</tr></thead><tbody>';
+  AXES.properties.forEach(p => {
+    html += '<tr><th class="rowhead">' + esc(p.name) + '</th>';
+    AXES.operations.forEach(o => {
+      const members = DATA.areas
+        .filter(a => a.kind === "area" && a.property === p.id && a.operation === o.id)
+        .sort((a, b) => a.name.localeCompare(b.name));
+      html += '<td class="map-cell">' + (members.length
+        ? members.map(a => '<button type="button" class="area-chip" data-id="' + a.id + '" data-family="' + a.family + '" style="--el-color:' + familyColor(a.family) + '">' + highlight(a.name, state.q) + '</button>').join("")
+        : '<span class="map-empty">·</span>') + '</td>';
+    });
+    html += '</tr>';
+  });
+  html += '</tbody>';
+  $("#mapTable").innerHTML = html;
+}
+
+function renderAll() {
+  renderTable();
+  renderGrid();
+  renderMap();
+  sync();
+}
+
+function sync() {
+  if (!DATA) return;
+  state.list = sortAreas(DATA.areas.filter(matches));
+  const ids = new Set(state.list.map(a => a.id));
+  document.querySelectorAll("#tableBody .area-row, #grid .tile, #mapTable .area-chip").forEach(el => {
+    el.classList.toggle("off", !ids.has(el.dataset.id));
+  });
+  const famHits = new Set(state.list.map(a => a.family));
+  document.querySelectorAll("#grid .family-block, #tableBody .group-row").forEach(el => {
+    el.classList.toggle("off", !famHits.has(el.dataset.family));
+  });
+
+  $("#count").textContent = "Showing " + state.list.length + " of " + DATA.areas.length + " entries" + (state.q ? ' · "' + state.q + '"' : '');
+  $("#clearSearch").classList.toggle("hidden", !state.q);
+  $("#empty").classList.toggle("hidden", state.list.length > 0);
+  $("#sort").style.display = state.view === "table" ? "" : "none";
+  $("#tableView").classList.toggle("hidden", state.view !== "table");
+  $("#gridView").classList.toggle("hidden", state.view !== "grid");
+  $("#mapView").classList.toggle("hidden", state.view !== "map");
+
+  const chipAll = $("#chipAll");
+  if (chipAll) chipAll.classList.toggle("on", !state.family);
+  document.querySelectorAll("#legend .fchip[data-family]").forEach(ch => ch.classList.toggle("on", state.family === ch.dataset.family));
+  document.querySelectorAll("#kindSeg .btn").forEach(b => b.classList.toggle("active", b.dataset.kind === state.kind));
+  document.querySelectorAll("#viewSeg .btn").forEach(b => b.classList.toggle("active", b.dataset.view === state.view));
+  markSelected();
+}
+
+function markSelected() {
+  document.querySelectorAll(".area-row.sel, .tile.sel, .area-chip.sel").forEach(el => el.classList.remove("sel"));
+  if (state.cur == null) return;
+  document.querySelectorAll('[data-id="' + state.cur + '"]').forEach(el => {
+    if (el.classList.contains("area-row") || el.classList.contains("tile") || el.classList.contains("area-chip")) el.classList.add("sel");
+  });
+}
+
+function openModal(id) {
+  const a = DATA.areas.find(x => x.id === id);
+  if (!a) return;
+  state.cur = id;
+  markSelected();
+  renderModal();
+  $("#modal").classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+}
+function closeModal() {
+  $("#modal").classList.add("hidden");
+  document.body.style.overflow = "";
+}
+function renderModal() {
+  const a = DATA.areas.find(x => x.id === state.cur);
+  if (!a) return;
+  const fam = FAMILIES[a.family];
+  const col = familyColor(a.family);
+
+  const sym = $("#mSymbol");
+  sym.style.setProperty("--el-color", col);
+  $("#mSym").textContent = a.symbol;
+  $("#mName").textContent = a.name;
+  $("#mZline").textContent = (a.kind === "method" ? "Cross-cutting method" : "Mathematical area") + " · " + fam.name;
+
+  const mf = $("#mFam");
+  mf.textContent = fam.name;
+  mf.style.setProperty("--el-color", col);
+  mf.style.color = col;
+  mf.style.borderColor = col;
+  $("#mAxis").textContent = axisLabel(a);
+  $("#mStub").classList.toggle("hidden", !a.stub);
+
+  $("#mEssence").textContent = a.essence;
+  $("#mDesc").textContent = a.description;
+  $("#mObjects").innerHTML = (a.objects || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") || '<span class="muted">—</span>';
+  $("#mOps").innerHTML = (a.operations || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") || '<span class="muted">—</span>';
+  $("#mSub").innerHTML = (a.subareas || []).map(x => '<span class="pill">' + esc(x) + '</span>').join("") || '<span class="muted">—</span>';
+  $("#mNotes").innerHTML = (a.notes || []).map(n => '<a class="note-link" href="' + noteHref(n.path) + '">' + esc(n.label) + '</a>').join("")
+    || ('<span class="muted">' + (a.stub ? "No corpus note yet — this area is a stub on the atlas." : "No corpus note linked yet.") + '</span>');
+  $("#mRelated").innerHTML = (a.related || []).map(id => {
+    const r = DATA.areas.find(x => x.id === id);
+    return r ? '<button type="button" class="related-chip" data-related="' + r.id + '" style="--el-color:' + familyColor(r.family) + '">' + esc(r.symbol) + ' ' + esc(r.name) + '</button>' : "";
+  }).join("") || '<span class="muted">—</span>';
+
+  const idx = state.list.findIndex(x => x.id === a.id);
+  $("#mPos").textContent = idx >= 0 ? (idx + 1) + " / " + state.list.length : "—";
+}
+function step(d) {
+  const l = state.list;
+  if (!l.length) return;
+  let i = l.findIndex(x => x.id === state.cur);
+  if (i < 0) i = 0;
+  i = (i + d + l.length) % l.length;
+  openModal(l[i].id);
+}
+
+function showError(err) {
+  const el = $("#loadError");
+  el.classList.remove("hidden");
+  el.innerHTML = "Could not load the atlas data (<code>atlas.json</code>). " + esc(err && err.message ? err.message : String(err));
+  $("#count").textContent = "—";
+}
+
+function init() {
+  FAMILIES = Object.fromEntries(DATA.families.map(f => [f.id, f]));
+  familyOrder = DATA.families.map(f => f.id);
+  propertyOrder = DATA.axes.properties.map(p => p.id);
+  operationOrder = DATA.axes.operations.map(o => o.id);
+  AXES = DATA.axes;
+  $("#chipAreas").textContent = "∑ " + DATA.areas.filter(a => a.kind === "area").length + " areas";
+  $("#chipFamilies").textContent = DATA.families.length + " families";
+  $("#chipMethods").textContent = DATA.areas.filter(a => a.kind === "method").length + " methods";
+  renderLegend();
+  renderAll();
+}
+
+$("#search").addEventListener("input", ev => { state.q = ev.target.value.trim(); renderAll(); });
+$("#clearSearch").addEventListener("click", () => { $("#search").value = ""; state.q = ""; renderAll(); $("#search").focus(); });
+$("#vTable").onclick = () => { state.view = "table"; sync(); };
+$("#vGrid").onclick = () => { state.view = "grid"; sync(); };
+$("#vMap").onclick = () => { state.view = "map"; sync(); };
+$("#sort").addEventListener("change", ev => { state.sort = ev.target.value; renderAll(); });
+document.querySelectorAll("#kindSeg .btn").forEach(b => {
+  b.onclick = () => { state.kind = b.dataset.kind; sync(); };
+});
+$("#tableBody").addEventListener("click", ev => {
+  const t = ev.target.closest(".area-row");
+  if (t) openModal(t.dataset.id);
+});
+$("#tableBody").addEventListener("keydown", ev => {
+  if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList.contains("area-row")) {
+    ev.preventDefault();
+    openModal(ev.target.dataset.id);
+  }
+});
+$("#grid").addEventListener("click", ev => {
+  const t = ev.target.closest(".tile");
+  if (t) openModal(t.dataset.id);
+});
+$("#grid").addEventListener("keydown", ev => {
+  if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList.contains("tile")) {
+    ev.preventDefault();
+    openModal(ev.target.dataset.id);
+  }
+});
+$("#mapTable").addEventListener("click", ev => {
+  const t = ev.target.closest(".area-chip");
+  if (t) openModal(t.dataset.id);
+});
+$("#mClose").onclick = closeModal;
+$("#mPrev").onclick = () => step(-1);
+$("#mNext").onclick = () => step(1);
+$("#mRelated").addEventListener("click", ev => {
+  const t = ev.target.closest("[data-related]");
+  if (t) openModal(t.dataset.related);
+});
+$("#modal").addEventListener("click", ev => { if (ev.target.id === "modal") closeModal(); });
+document.addEventListener("keydown", ev => {
+  if (!$("#modal").classList.contains("hidden")) {
+    if (ev.key === "Escape") closeModal();
+    if (ev.key === "ArrowRight") step(1);
+    if (ev.key === "ArrowLeft") step(-1);
+    return;
+  }
+  if (ev.key === "/" && document.activeElement !== $("#search")) { ev.preventDefault(); $("#search").focus(); return; }
+  if (ev.key === "Escape" && state.q) { $("#search").value = ""; state.q = ""; renderAll(); return; }
+});
+
+window.addEventListener("epistecnica-theme", () => {
+  if (!DATA) return;
+  renderLegend();
+  renderAll();
+  if (!$("#modal").classList.contains("hidden")) renderModal();
+});
+
+fetch("atlas.json")
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(d => { DATA = d; init(); })
+  .catch(showError);
+  </script>
+
+  <script src="/glossarium/js/glossarium-lookup.js" data-glossarium="/glossarium/data/index.json" defer></script>
+</body>
+</html>
