@@ -85928,5 +85928,15 @@
     "summary": "New Hyperbolic Playground live note: the unit hyperbola x² − y² = 1 with t as twice the sector area — read x = cosh t and y = sinh t, then take every hyperbolic function as a ratio, with the exponential connection and the inverse directions shown."
    }
   ]
+ },
+ {
+  "file_path": "epistemica/mathematical/complex/elliptic-function.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New Elliptic Function note: the definition as a meromorphic function on a torus, the consequences (no non-constant holomorphic elliptic function, order and residues), the Weierstrass ℘ construction with its differential equation, Jacobi's sn/cn/dn from the elliptic integral, where they arise (exact pendulum, ellipse perimeter, addition theorems, modular forms), and the disambiguation of function, integral, curve and PDE."
+   }
+  ]
  }
 ]
