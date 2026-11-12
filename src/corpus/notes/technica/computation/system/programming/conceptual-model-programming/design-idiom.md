@@ -65,4 +65,4 @@ tags: [note, design-idiom]
 ## References
 
 - https://en.wikipedia.org/wiki/Software_design_pattern
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)

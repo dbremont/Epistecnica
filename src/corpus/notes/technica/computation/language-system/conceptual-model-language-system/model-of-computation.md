@@ -595,7 +595,7 @@ where:
 - [‣](https://app.notion.com/p/10e598edb790814f9020d6a74a0829c7?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb7908162af92c422bb1be3e2?pvs=21)
 - [***F*-coalgebra**](https://app.notion.com/p/F-coalgebra-1bfc0f5171ec8002b087f2fafcf96d27?pvs=21)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Formal System](https://app.notion.com/p/Formal-System-41d02881d0544314b0e7ad3e6ada608a?pvs=21)
 - [Function](https://en.wikipedia.org/wiki/Function_(computer_programming))
 

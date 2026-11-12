@@ -1,5 +1,6 @@
 ---
 tags: [note]
+order: 0
 ---
 
 # Concurrency
@@ -505,12 +506,12 @@ Guiding questions:
 
 ### Hardware Substrate
 
-> See [Hardware Substrate](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/hardware-substrate.md).
+> See [Hardware Substrate](/view.html?p=notes/technica/computation/concurrency/hardware-substrate.md).
 > 
 
 ### **Implicit Coordination Mechanism**
 
-> See more in [Implicit Coordination Mechanism](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/implicit-coordination-mechanism.md).
+> See more in [Implicit Coordination Mechanism](/view.html?p=notes/technica/computation/concurrency/implicit-coordination-mechanism.md).
 > 
 
 ## Intrisic Technical Problem
@@ -518,7 +519,7 @@ Guiding questions:
 > Which are the technical problems introduced by concurrent execution, and which concurrency coordination techniques can be introduced to address them?
 > 
 
-> See more in [Intrisic Technical Problem](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/intrisic-technical-problem.md).
+> See more in [Intrisic Technical Problem](/view.html?p=notes/technica/computation/concurrency/intrisic-technical-problem.md).
 > 
 
 ## Concurrency Paradigm(s)
@@ -672,7 +673,7 @@ safety (e.g., no deadlocks) and liveness (e.g., eventual progress).
 
 ## Concurrency Theory
 
-> See more in [Concurrency Theory](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/concurrency-theory.md).
+> See more in [Concurrency Theory](/view.html?p=notes/technica/computation/concurrency/concurrency-theory.md).
 > 
 
 ## **Practice**

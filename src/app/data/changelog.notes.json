@@ -85548,5 +85548,315 @@
     "summary": "New Biosensor note: a Production Instrument readable as a Production Technical System, decomposed into bioreceptor, transducer, signal conditioning, fluidics and housing, with its metrological parameters and standards."
    }
   ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/ordering.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/structure-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/shared-memory-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/clock.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/handling-side-effects-in-transactional-systems.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/cooperative-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/dataflow.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/cap-theorem-brewer-s-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/scheduling.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/happens-before-relationship.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/tuple-space.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/pipeline-model.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move the concurrency master into its own directory as the head of the group (order: 0)."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/communicating-sequential-processes.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/consensus.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/message-passing-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/hardware-substrate.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/sequential-programming.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/actor-based.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/conflict-free-replicated-data-type-crdt.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/intrisic-technical-problem.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/memory-model.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/transactional-system.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/implicit-coordination-mechanism.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/concurrency-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/write-ahead-logging.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/distributed-locking.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/topic.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/event-driven-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/modelling-concurrency.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/concurrency/atomic.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
+   }
+  ]
  }
 ]

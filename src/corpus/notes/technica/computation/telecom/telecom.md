@@ -493,7 +493,7 @@ Telecom: Conceptual Model
 - [WebSockets vs Server-Sent-Events vs Long-Polling vs WebRTC vs WebTransport](https://rxdb.info/articles/websockets-sse-polling-webrtc-webtransport.html)
 - [Web API](https://en.wikipedia.org/wiki/Web_API)
 - [Stable APIs are a Pipe Dream](https://note89.github.io/pipe-dream/)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Network Virtualization](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md)
 - https://github.com/alex/what-happens-when
 - https://en.wikipedia.org/wiki/Telecommunications

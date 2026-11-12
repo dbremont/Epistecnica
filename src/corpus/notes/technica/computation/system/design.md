@@ -371,7 +371,7 @@ Computer System Design: Conceptual Model
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
 - [Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
 - [Data System](/view.html?p=notes/technica/computation/data-system.md)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Security](https://app.notion.com/p/Security-abe7b617157f43099a19bee382dd5996?pvs=21)
 - [Representation](/view.html?p=notes/technica/computation/representation.md)
 - [Agentic System](https://app.notion.com/p/Agentic-System-1b5c0f5171ec802db3b2f70081ecaf6a?pvs=21)

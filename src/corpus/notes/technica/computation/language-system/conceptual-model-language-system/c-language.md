@@ -208,7 +208,7 @@ C Language: 🛠️ Tooling & Ecosystem
 - [A Compiler for C89](http://tom7.org/abc/)
 - [Nine ways to break your systems code using volatile](https://blog.regehr.org/archives/28)
 - [A Guide to Study Programming Language](https://app.notion.com/p/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?pvs=21)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - https://github.com/csiglab/language-system-labs

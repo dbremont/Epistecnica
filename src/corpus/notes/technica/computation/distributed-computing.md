@@ -261,6 +261,6 @@ Multi-Node Processing System: Conceptual Model
 - [Operating System](/view.html?p=notes/technica/computation/operating-system.md)
 - [Telecom](/view.html?p=notes/technica/computation/telecom/telecom.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - https://github.com/dbremont/documentorum/tree/main/component/multinode
 - https://geocar.sdf1.org/fast-servers.html

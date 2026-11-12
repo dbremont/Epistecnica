@@ -117,7 +117,7 @@ Programming: Computational Mental Model ↔ Concrete Reification in a Given Lang
 
 Miscelanea
 
-[Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+[Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 
 [Data System](/view.html?p=notes/technica/computation/data-system.md)
 

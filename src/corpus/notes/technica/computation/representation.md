@@ -549,7 +549,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 - https://en.wikipedia.org/wiki/Data_structure
 - https://gist.github.com/dbremont/914cdbcf861238742ea1d41c7bf0d08e#file-courses-md
 - https://en.wikipedia.org/wiki/Computer_number_format
-- [Conflict-free Replicated Data Type (**CRDT**)](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/conflict-free-replicated-data-type-crdt.md)
+- [Conflict-free Replicated Data Type (**CRDT**)](/view.html?p=notes/technica/computation/concurrency/conflict-free-replicated-data-type-crdt.md)
 - https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)

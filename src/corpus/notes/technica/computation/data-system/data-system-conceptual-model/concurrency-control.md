@@ -64,5 +64,5 @@ tags: [note]
 
 ## References
 
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - https://shopify.engineering/scaling-inventory-reservations

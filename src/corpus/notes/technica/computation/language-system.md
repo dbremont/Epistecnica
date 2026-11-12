@@ -175,7 +175,7 @@ efficiently—we can **optimize** it.
 
 ## Concurrency System
 
-> See More in [Concurrency](/view.html?p=notes/technica/computation/concurrency.md).
+> See More in [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md).
 > 
 
 ## Conceptual Model

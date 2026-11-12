@@ -173,7 +173,7 @@ Python: **🔗Interoperability**
 - https://diveintopython3.net/index.html
 - ‣[https://github.com/gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer)
 - [https://www.notion.so/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?source=copy_link](https://www.notion.so/A-Guide-to-Study-Programming-Language-5a6ed523a0a94f619061f4051dcca041?source=copy_link)‣
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - https://github.com/csiglab/language-system-labs

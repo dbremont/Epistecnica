@@ -170,5 +170,5 @@ Implementation; Description; Evaluation
 
 - [Caching](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/caching.md)
 - [Concept](https://app.notion.com/p/Concept-71cc7d0f0ebc419abc49a9051d352579?pvs=21)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Philosophia Artium Technicarum et Operis](https://app.notion.com/p/Philosophia-Artium-Technicarum-et-Operis-355c0f5171ec808b82f8d7a85e8134cd?pvs=21)

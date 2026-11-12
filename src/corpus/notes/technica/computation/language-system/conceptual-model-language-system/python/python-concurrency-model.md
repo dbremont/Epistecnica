@@ -79,7 +79,7 @@ Guiding Questions:
 
 ## References
 
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
 - [Exception Handling System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/exception-handling-system.md)
 

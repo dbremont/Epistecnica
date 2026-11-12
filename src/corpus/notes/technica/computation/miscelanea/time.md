@@ -89,7 +89,7 @@ References:
 
 - https://www.ibm.com/docs/en/watsonx/saas?topic=analysis-time-reference-system
 - https://science.nasa.gov/learn/basics-of-space-flight/chapter2-3/
-- [Clock](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/clock.md)
+- [Clock](/view.html?p=notes/technica/computation/concurrency/clock.md)
 
 ## Calendar System
 

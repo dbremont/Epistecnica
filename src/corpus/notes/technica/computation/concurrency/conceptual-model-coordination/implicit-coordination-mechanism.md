@@ -1,9 +1,0 @@
----
-tags: [note, implicit-coordination-mechanism]
----
-
-# Implicit Coordination Mechanism
-
-- [Memory Model](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/memory-model.md)
-
->

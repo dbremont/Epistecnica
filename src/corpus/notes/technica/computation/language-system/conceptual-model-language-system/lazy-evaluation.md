@@ -160,7 +160,7 @@ Lazy evaluation forces a different **mental model** of programming:
 - https://news.ycombinator.com/item?id=35305546
 - https://news.ycombinator.com/item?id=9737058
 - [https://news.ycombinator.com/item?id=10778330](https://news.ycombinator.com/item?id=10778330)
-- [Dataflow](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/dataflow.md)
+- [Dataflow](/view.html?p=notes/technica/computation/concurrency/dataflow.md)
 - Launchbury, John. "A natural semantics for lazy evaluation." Proceedings of the 20th ACM SIGPLAN-SIGACT symposium on Principles of programming languages. 1993.
 - Johnsson, Thomas. "Efficient compilation of lazy evaluation." Proceedings of the 1984 SIGPLAN symposium on Compiler construction. 1984.
 - Strachey, Christopher, and Christopher P. Wadsworth. "Continuations: A mathematical semantics for handling full jumps." (No Title) (1974).

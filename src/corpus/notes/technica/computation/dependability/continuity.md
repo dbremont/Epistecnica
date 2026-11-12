@@ -289,11 +289,11 @@ COMPUTE ...
 - https://www.geeksforgeeks.org/failure-models-in-system-design/
 - https://www.geeksforgeeks.org/failure-models-in-distributed-system/
 - https://en.wikipedia.org/wiki/Fault_tolerance
-- [Consensus](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/consensus.md)
+- [Consensus](/view.html?p=notes/technica/computation/concurrency/consensus.md)
 - [Consistency](/view.html?p=notes/technica/computation/dependability/consistency.md)
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
-- [**Transactional System**](/view.html?p=notes/technica/computation/concurrency/conceptual-model-coordination/transactional-system.md)
+- [**Transactional System**](/view.html?p=notes/technica/computation/concurrency/transactional-system.md)
 - https://en.wikipedia.org/wiki/Reliability_engineering
 - [**Message Delivery Guarantee**](/view.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)

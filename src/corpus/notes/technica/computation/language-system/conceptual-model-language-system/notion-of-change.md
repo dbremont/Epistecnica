@@ -52,7 +52,7 @@ tags: [note, effect-system, linguistic-abstraction, notion-of-change]
 > **Call Stack Manipulation**: Directly controlling the function call stack (e.g., pushing/popping frames, tail calls, stack unwinding).
 > 
 
-> See more in ([Concurrency](/view.html?p=notes/technica/computation/concurrency.md)) for the idea of computation unit - and multi-computation.
+> See more in ([Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)) for the idea of computation unit - and multi-computation.
 > 
 
 ### Construct

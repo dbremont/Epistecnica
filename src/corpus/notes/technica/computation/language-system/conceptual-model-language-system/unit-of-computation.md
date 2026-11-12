@@ -75,5 +75,5 @@ tags: [note, computational-entity, unit-of-computation]
 ## References
 
 - [Function](https://en.wikipedia.org/wiki/Function_(computer_programming))
-- [Concurrency](/view.html?p=notes/technica/computation/concurrency.md)
+- [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - [Notion of Change](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/notion-of-change.md)
