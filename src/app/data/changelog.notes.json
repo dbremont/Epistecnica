@@ -7289,6 +7289,11 @@
     "kind": "refactor",
     "summary": "Move to epistemica/mathematical/geometry/.",
     "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Fill the Triangle stub: definition, properties, theorems and taxonomy, plus the instance decomposition from Geometric Shape down to the triangle kinds and their constituents."
    }
   ]
  },
