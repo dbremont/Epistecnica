@@ -11809,6 +11809,11 @@
     "kind": "feat",
     "summary": "Import Symmetry from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Fill the Symmetry stub: definition as the stabilizer subgroup, the Line of Symmetry section (reflection formula, folding test, the axis counts and the one-centre fact), the four isometries, the finite planar symmetry groups and the figure-to-group taxonomy."
    }
   ]
  },

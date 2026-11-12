@@ -233,9 +233,6 @@ Gray Areas:
 - https://en.wikipedia.org/wiki/Phylogenetic_tree
 - https://www.onezoom.org/
 - https://www.minipcr.com/
-
-## Related
-
 - [Cell](/view.html?p=notes/nature/bio/cell/cell.md)
 - [Microorganism](/view.html?p=notes/nature/bio/organism/bacteria/microorganism.md)
 - [Unicellular Organism](/view.html?p=notes/nature/bio/organism/unicellular-organism.md)
@@ -244,9 +241,5 @@ Gray Areas:
 - [Gene](/view.html?p=notes/nature/bio/genome/gene.md)
 - [DNA](/view.html?p=notes/nature/bio/genome/dna.md)
 - [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
-- [Biochemical Sensors](/view.html?p=notes/nature/bio/molecular/biochemical-sensors.md) — the sensing interaction a biosensor exploits
 - [Biosensor](/view.html?p=notes/technica/general/biosensor.md) — the instrument built on the biological element this note describes
 
-## Provenance
-
-- Notion export: `Modelo/Nature/Conceptual Model Natural System/Living System 17cc0f5171ec8093b664fbee6a672b0e.md`
