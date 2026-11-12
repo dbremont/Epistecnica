@@ -85878,5 +85878,15 @@
     "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units."
    }
   ]
+ },
+ {
+  "file_path": "epistemica/mathematical/geometry/rotation.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Fill the Rotation stub: the matrix definition and determinant test against reflection, the classification by angle/dimension/composition, its properties, the answer to the QA (an Epistemic Construction, not a Property or Method), and the space of rotations (SO(2) a circle, SO(3) as RP3 with the quaternion double cover)."
+   }
+  ]
  }
 ]

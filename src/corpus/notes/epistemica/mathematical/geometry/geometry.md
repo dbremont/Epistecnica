@@ -268,6 +268,31 @@ Where:
 |  | Manifold | A space that **locally** resembles **Euclidean space**. |
 |  | Geodesic | ChatGPT said:A **geodesic** is the generalization of a "straight line" to curved spaces. It represents the shortest path between two points in a given geometry or manifold, taking into account the space's curvature and metric. |
 
+## What is the set of observable geometric magnitudes?
+
+| Magnitude | Description | Unit |
+|---|---|---|
+| **Length** | Linear extent or distance between two points. | m |
+| **Distance** | Length of the shortest path between two points. | m |
+| **Area** | Two-dimensional extent of a planar region. | m² |
+| **Volume** | Three-dimensional extent of a spatial region. | m³ |
+| **Angle** | Measure of angular separation between two intersecting directions. | rad, ° |
+| **Perimeter** | Total length of a closed planar boundary. | m |
+| **Circumference** | Length of the boundary of a circle. | m |
+| **Surface Area** | Total area of the boundary of a three-dimensional solid. | m² |
+| **Curvature** | Measure of the rate at which a curve or surface changes direction or orientation. | m⁻¹ |
+| **Radius** | Distance from the center of a circle or sphere to its boundary. | m |
+| **Diameter** | Length of a line segment passing through the center and connecting two points on a circle or sphere. | m |
+| **Arc Length** | Length of a segment of a curve. | m |
+| **Chord Length** | Length of a line segment connecting two points on a curve. | m |
+| **Dihedral Angle** | Angular separation between two intersecting planes. | rad, ° |
+| **Solid Angle** | Measure of the angular extent of a region in three-dimensional space. | sr |
+| **Torsion** | Measure of how rapidly a spatial curve departs from its osculating plane. | m⁻¹ |
+| **Gaussian Curvature** | Product of the principal curvatures at a point on a surface. | m⁻² |
+| **Mean Curvature** | Average of the two principal curvatures at a point on a surface. | m⁻¹ |
+| **Principal Curvatures** | Maximum and minimum normal curvatures at a point on a surface. | m⁻¹ |
+
+
 ## Geometry
 
 > $\text{Geometry}=( \text{Points}, \text{Model of Space})$.
