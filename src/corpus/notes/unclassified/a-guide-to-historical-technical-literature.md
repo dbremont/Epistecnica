@@ -384,6 +384,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Henry Law & George R. Burnell | [*Rudiments of Civil Engineering*](/view.html?p=documents/books/law-burnell-1869-rudiments-civil-engineering.md) | 1869 | Civil and hydraulic engineering in the Weale series |
 | William Cullen | [*A Practical Treatise on the Construction of Horizontal and Vertical Waterwheels*](/view.html?p=documents/books/cullen-1871-waterwheels.md) | 1871 | Waterwheel construction and hydraulic power |
 | John Thomas Fanning | [*A Practical Treatise on Water-Supply Engineering*](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md) | 1877 | Waterworks, hydrology, water distribution and construction |
+| Edward Wegmann | [*The Design and Construction of Dams*](/view.html?p=documents/books/wegmann-1899-design-and-construction-of-dams.md) | 1899 | Masonry, earth, rock-fill, timber and movable dams — the dedicated dam-engineering treatise |
 | Baldwin Latham | [*Sanitary Engineering*](/view.html?p=documents/books/latham-1877-sanitary-engineering.md) | 1873 | Sewerage and urban infrastructure |
 | Thomas Tredgold | [*The Principles of Warming and Ventilating Public Buildings*](/view.html?p=documents/books/tredgold-1824-warming-and-ventilating.md) | 1824 | Heating and ventilation systems — mechanical and fluid-flow applications |
 | William Fairbairn | [*On the Application of Cast and Wrought Iron to Building Purposes*](/view.html?p=documents/books/fairbairn-1854-iron-building.md) | 1854 | Structural iron engineering for buildings and infrastructure |
@@ -513,6 +514,74 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Pierre-Simon Girard | *Essai sur le mouvement des eaux courantes; Mémoires sur le Canal de l Ourcq* | 1804-43 | Open-channel flow, lock-lift energetics and the Paris water supply (no scan verified) |
 | Jules Dupuit | *Études théoriques et pratiques sur le mouvement des eaux dans les canaux découverts et à travers les terrains perméables* | 1848 / 1863 | Flood hydraulics and the Dupuit-Forchheimer equilibrium equation of groundwater wells (no scan verified) |
 | Nicolas-Joseph Jonval | *Axial-flow reaction water turbine and draft-tube patents* | 1841-43 | The Jonval axial reaction turbine and suction draft tube (no scan verified) |
+
+## Ars Geotechnica
+
+> The ground treated as a construction material and a support — the earth-pressure theory and the retaining-wall literature that grew from Coulomb's memoir, beside the slopes, foundations and ground treatment of the canal and railway engineers. The measuring of the earth is gathered in Ars Telluris, the structural science in Ars Structura, and the profession's manuals in Ars Civilis.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Charles-Augustin de Coulomb | *Essai sur une application des règles de maximis et minimis à quelques problèmes de statique relatifs à l'architecture* | 1776 (memoir of 1773) | The wedge of earth in limiting equilibrium — lateral earth pressure founded (no scan verified) |
+| Mayniel | *Traité expérimental, analytique et pratique de la poussée des terres et des murs de revêtement* | 1808 | Earth pressure and the revetment wall tested, analysed and tabulated (no scan verified) |
+| Charles William Pasley | *Course of Elementary Fortification*, Vol. II | 1817 | Revetments and retaining walls, their stability observed by the Royal Engineers (no scan verified) |
+| Jean-Victor Poncelet | *Mémoire sur la Stabilité des Revêtements et de leurs Fondations* | 1840 | Earth pressure pressed onto the retaining wall and its foundation (cross-listed from Structura) |
+| J.-V. Poncelet (tr. Daniel P. Woodbury) | *Sustaining Walls: Geometrical Constructions to Determine Their Thickness under Various Circumstances* | 1854 | Wall thickness found by graphical construction — the Poncelet method in English (no scan verified) |
+| W. J. M. Rankine | [*On the Stability of Loose Earth*](/view.html?p=documents/books/rankine-1857-stability-loose-earth.md) | 1857 | The earth-pressure theory beside Coulomb — founding soil mechanics (cross-listed from Structura) |
+| James S. Tate | *Surcharged and Different Forms of Retaining Walls* | 1873 | Surcharge and the varied wall form carried into the pressure calculation (no scan verified) |
+| Benjamin Baker | *The Actual Lateral Pressure of Earthwork* | 1881 | The pressure the ground actually exerts measured against the theory (no scan verified) |
+| Malverd A. Howe | *Retaining-Walls for Earth: The Theory as Developed by Prof. Jacob J. Weyrauch* | 1886 | The Weyrauch earth-pressure theory taught as the design of the wall (no scan verified) |
+| William Cain | *Practical Designing of Retaining Walls* | 1888 | The wall dimensioned at the drawing board — practical structural design (no scan verified) |
+| Mansfield Merriman | *A Text-Book on Retaining Walls and Masonry Dams* | 1892 | Earth pressure, retaining walls and masonry dams in one teaching text (no scan verified) |
+| Malverd A. Howe | *Retaining-Walls for Earth* | 1896 | Earth-pressure theory, foundations and worked design examples (no scan verified) |
+
+## Ars Sanitaria
+
+> Sanitary engineering — the water a town drinks and the water it gives back, and the pit, the closet and the sewer that stand between the two. From the camp latrine and the Roman cloaca through the medieval cesspit and the flushing closet to the intercepting sewer and the septic tank. The waterworks are gathered in Ars Civilis, the hydraulic science in Ars Structura, and the ground the sewers are cut through in Ars Geotechnica.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Deuteronomic code | *Deuteronomy* 23:12–14 — the place outside the camp, the paddle and the covered excrement | c. 7th–5th c. BCE | The oldest written rule for disposing of human waste (no scan verified) |
+| Justinian I (compiler); Ulpian | *Digesta* 43.23 *De cloacis* | 533 | The Roman law of sewers — repair, passage and the private drain into the public cloaca (no scan verified) |
+| City of London (mayor and aldermen) | *Assize of Nuisance* (1301–1431); *Liber Albus* (1419) — privies, cesspits and gutters regulated | 1301–1431 | The distances, lining and repair of the cesspit brought under the city's law (no scan verified) |
+| John Harington | *A New Discourse of a Stale Subject, Called the Metamorphosis of Ajax* | 1596 | The flushing privy described and built at Kelston — the water closet begun (no scan verified) |
+| Alexander Cumming | *Water-closet patent No. 1105 (the S-shaped trap)* | 1775 | The trap that kept the sewer's air out of the house (no scan verified) |
+| Joseph Bramah | *Water-closet patent No. 1177* | 1778 | The valve closet made and sold — the water closet become a manufacture (no scan verified) |
+| A.-J.-B. Parent-Duchâtelet | *Hygiène publique, ou Mémoires sur les questions les plus importantes de l'hygiène appliquée aux professions et aux travaux d'utilité publique* | 1836 | The Paris cesspools, the vidangeurs and the sewers surveyed as public hygiene (no scan verified) |
+| Edwin Chadwick | [*Report on the Sanitary Condition of the Labouring Population of Great Britain*](/view.html?p=documents/books/chadwick-1842-sanitary-condition-labouring-population.md) | 1842 | Drainage and water supply joined — the founding sanitary document (cross-listed from Structura) |
+| Ellis Sylvester Chesbrough | *Report and Plan of Sewerage for the City of Chicago, Illinois* | 1855 | The intercepting sewer and the city raised to drain — American sewerage begun (no scan verified) |
+| Henry Moule | *National Health and Wealth, instead of the Disease, Nuisance, Expense, and Waste caused by Cess-pools and Water-drainage* | 1861 (patent 1873) | The dry earth closet set against water carriage — excrement returned to the soil (no scan verified) |
+| Joseph William Bazalgette | *On the Main Drainage of London, and the Interception of the Sewage from the River Thames* | 1865 | The intercepting sewers and outfalls that took the sewage out of the Thames (no scan verified) |
+| Rivers Pollution Commission; Royal Commission on Metropolitan Sewage Discharge | *Reports on the pollution of rivers and the discharge of sewage* | 1868–84 | The state inquiry that made river pollution a measured question (no scan verified) |
+| Baldwin Latham | [*Sanitary Engineering*](/view.html?p=documents/books/latham-1877-sanitary-engineering.md) | 1873 | Sewerage and urban infrastructure (cross-listed from Civilis) |
+| Eugène Belgrand | *Les Travaux souterrains de Paris* | 1875–87 | The Paris sewers, water and subsoil in one survey — the égout systematised (no scan verified) |
+| George E. Waring, Jr. | *The Sanitary Drainage of Houses and Towns* | 1876 | House drainage and town sewerage taught as one sanitary system (no scan verified) |
+| John Frederic Bateman | *Descripción de las obras de salubridad de la ciudad de Buenos Aires* | 1878 | Water supply and drainage for Buenos Aires reported by their engineer (no scan verified) |
+| Louis Mouras | *Fosse Mouras (automatic scavenger) patent* | 1881 | The closed anaerobic cesspit that became the septic tank (no scan verified) |
+| William Paul Gerhard | *House Drainage and Sanitary Plumbing* | 1882 | The house drain, trap and vent specified — American sanitary plumbing (no scan verified) |
+| James Hobrecht | *Die Canalisation von Berlin* | 1884 | The radial system and the sewage farms of Berlin set out (no scan verified) |
+| W. H. Corfield | *The Treatment and Utilisation of Sewage* | 1887 (3rd ed.) | Sewage purification and land treatment surveyed as a science (no scan verified) |
+| W. Santo Crimp | *Sewage Disposal Works: A Guide to the Construction of Works for the Prevention of Pollution* | 1890 | The sewage disposal trade manual (cross-listed from Civilis) |
+| Pedro García Faria | *Proyecto de saneamiento del subsuelo de Barcelona: alcantarillado, drenaje, residuos urbanos* | 1891 | The Barcelona sewer, drainage and refuse plan in one project (no scan verified) |
+| George W. Rafter & M. N. Baker | *Sewage Disposal in the United States* | 1894 | The American practice of sewerage and purification gathered (no scan verified) |
+| Donald Cameron | *Septic tank sewage-treatment patent* | 1895 | The septic tank named and installed at Exeter (no scan verified) |
+
+## Ars Ruderalis
+
+> Waste management — the town's solid refuse: the dustbin and the dustyard, the rag-and-bone man and the destructor, the scavenger's round and the tip. The water-carried waste belongs to Ars Sanitaria, the street and the municipal board to Ars Civilis; this is what is carted, sorted, burned and sold.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Henry Mayhew | *London Labour and the London Poor* | 1851 | The dustmen, rag-gatherers, bone-grubbers and mudlarks — London's waste economy recorded trade by trade (no scan verified) |
+| P. L. Simmonds | *Waste Products and Undeveloped Substances: or, Hints for Enterprise in Neglected Fields* | 1862 (2nd ed. 1876) | Waste turned into raw material — the economic utilisation of refuse surveyed (no scan verified) |
+| Alfred Fryer | *Refuse destructor furnace patent* | 1874 (first erected 1876) | The refuse furnace burned for its heat, built by Manlove, Alliott & Co. (no scan verified) |
+| Parliament | *Public Health Act 1875*, s. 42 | 1875 | Street cleansing and house-refuse removal made a local authority's duty (no scan verified) |
+| H. Percy Boulnois | *The Municipal and Sanitary Engineer's Handbook*, ch. XIX "Scavenging" | 1883 | The scavenger's round, the ashpit and the dustcart set out as municipal engineering (no scan verified) |
+| Préfecture de la Seine (Eugène Poubelle) | *Arrêtés on household refuse containers* | 1883–84 | Three covered containers — food waste, papers and rags, crockery and glass — the dustbin made compulsory (no scan verified) |
+| Thomas Codrington | *Report on the Destruction of Town Refuse (Fryer Destructor incinerators)* | 1888 | The refuse-furnace and waste-heat boiler trade of the local boards (cross-listed from Civilis) |
+| Pedro García Faria | *Proyecto de saneamiento del subsuelo de Barcelona: alcantarillado, drenaje, residuos urbanos* | 1891 | The Barcelona sewer, drainage and refuse plan in one project (cross-listed from Sanitaria) |
+| T. Tomlinson | *Refuse Destructors: With Results up to Present Time* | 1894 | The destructor works and their results surveyed — refuse burned for power (no scan verified) |
+| W. H. Maxwell | *The Removal and Disposal of Town Refuse* | 1898 | The municipal refuse trade at the end of the century (cross-listed from Civilis) |
+| George E. Waring, Jr. | *Street-Cleaning and the Disposal of a City's Wastes* | 1898 | New York's street cleaning and refuse sorting reported by the commissioner who ran it (no scan verified) |
 
 ## Ars Militaris
 
@@ -1517,6 +1586,37 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 | Louis Savot; Claude Perrault; Henri Gautier | *L Architecture françoise des bastimens particuliers (1624 — smoky-chimney flues and floor framing); Ordonnance des cinq espèces de colonnes (1683); Traité des ponts (1716) et Traité de la construction des chemins (1693 — first modern treatise on highway and masonry bridge construction)* | 1624-1716 | Domestic heating flues, long-span timber/iron Louvre colonnade tie-rods and the founding French road and bridge manuals (no scan verified) |
 | Jean-Charles Krafft; Gottfried Semper | *Plans, coupes et élévations de diverses productions de l art de la charpente (1805 — laminated timber arches and trusses); Der Stil in den technischen und tektonischen Künsten, oder Praktische Ästhetik (2 vols., 1860-63)* | 1805 / 1860-63 | Measured corpus of European timber engineering and the material-tectonic theory of building crafts (no scan verified) |
 | Frank Eugene Kidder; William H. Birkmire; Joseph K. Freitag | *The Architect's and Builder's Pocket-Book (Kidder, 1885); Skeleton Construction in Buildings (Birkmire, 1893) & The Planning and Construction of High Office-Buildings (1898); Architectural Engineering, with Special Reference to High Building Construction (Freitag, 1895) & The Fireproofing of Steel Buildings (1899)* | 1885-99 | The Chicago and New York riveted steel-frame skyscraper manuals: wind-bracing portals, hollow-tile fireproofing and grillage foundations (no scan verified) |
+
+## Ars Urbis
+
+> Urbanism — the art of building the city: the grid of the Roman colony, the ideal town of the Renaissance, the square and the obelisk of the Baroque, the embellishment plan of the Enlightenment, and the planning science that ended the tradition. The streets, water, sewers and refuse are in Ars Civilis, Ars Sanitaria and Ars Ruderalis, the buildings in Ars Architectura; this is the form of the town as a whole.
+
+| Author | Work | Year | Technical domain |
+|---|---|---:|---|
+| Marcus Vitruvius Pollio | [*De architectura*](/view.html?p=documents/books/vitruvius-1826-architecture-gwilt.md), Book I and Book V | c. 25 BCE | The siting of the town, the walls, the forum and the public square |
+| Corpus Agrimensorum Romanorum (Hyginus Gromaticus, Balbus, Siculus Flaccus) | *Gromatic surveying* | 1st–2nd c. CE | The survey graphic machinery of centuriation and road planning (cross-listed from Antiqua) |
+| Ibn Khaldun | *Muqaddimah* — the chapter on cities | 1377 | The city as a natural and social body — siting, density, luxury and decay (no scan verified) |
+| Filarete (Antonio Averlino) | *Trattato di architettura* | c. 1461–64 | Sforzinda — the first ideal city of the Renaissance, drawn plan by plan (no scan verified) |
+| Pius II (Enea Silvio Piccolomini) | *Commentarii* | c. 1462–64 | Pienza — the pope rebuilds his birthplace as a designed town (no scan verified) |
+| Francesco di Giorgio Martini | *Trattati di architettura, ingegneria e arte militare* | c. 1470s–80s | Siting, streets, squares and the fortified outline of the town (no scan verified) |
+| L. B. Alberti | [*De re aedificatoria*](/view.html?p=documents/books/alberti-1485-de-re-aedificatoria.md) | 1485 | Streets, squares and the beauty of the city — concinnitas |
+| Sebastiano Serlio | *Tutte l'opere d'architettura* | 1537–75 | Antiquities and the street scene — the books that taught the orders (no scan verified) |
+| Pietro Cataneo | *I quattro primi libri di architettura* | 1554 | The fortified city planned whole — walls, streets and the piazza (no scan verified) |
+| Georg Braun & Frans Hogenberg | *Civitates Orbis Terrarum* | 1572–1617 | The city pictured — 546 prospects and plans of the towns of the world (no scan verified) |
+| Laws of the Indies (Ordenanzas de Felipe II) | *Ordenanzas de descubrimiento, nueva población y pacificación de las Indias* | 1573 | The grid, the plaza and the siting of new towns laid down by ordinance (no scan verified) |
+| Domenico Fontana | *Della trasportatione dell'obelisco Vaticano* | 1590 | Sixtus V's Rome — the obelisk moved, the streets aligned, the squares made (no scan verified) |
+| Christopher Wren; Parliament | *A Plan for Rebuilding the City of London; the Rebuilding Act* | 1666–67 | The city redrawn after the fire, and the statute that fixed its streets and its brick (no scan verified) |
+| Marc-Antoine Laugier | *Essai sur l'architecture* | 1753 | Beauty from the primitive hut — the rules of the city derived from nature (no scan verified) |
+| Giovanni Battista Piranesi | *Della magnificenza ed architettura de' Romani* | 1761 | Roman urban magnificence against the Greek line (no scan verified) |
+| Pierre Patte | *Mémoires sur les objets les plus importants de l'architecture* | 1769 | The embellishment plan — alignments, squares, monuments and the city's circulation (no scan verified) |
+| Jacques-François Blondel | *Cours d'architecture* | 1771–77 | The city taught in the academy — public buildings and their settings (no scan verified) |
+| Francesco Milizia | *Principi di architettura civile* | 1781 | The principles of civil architecture and the public beauty of the town (no scan verified) |
+| Ildefonso Cerdá | *Teoría general de la urbanización* (with the 1859 Eixample plan) | 1867 | The word and the science — the city surveyed, theorised and extended (no scan verified) |
+| Camillo Sitte | *Der Städtebau nach seinen künstlerischen Grundsätzen* | 1889 | The city judged as a work of art — the square, the street and the monument (no scan verified) |
+| Baron Haussmann | *Mémoires* | 1890–93 | Paris rebuilt — the boulevard, the expropriation and the municipal works defended by their author (no scan verified) |
+| Ebenezer Howard | *Tomorrow: A Peaceful Path to Real Reform* | 1898 | The garden city — town and country planned together (no scan verified) |
+| Daniel H. Burnham & Edward H. Bennett | *Plan of Chicago* | 1909 | The city plan as a civic document — the lakefront, the boulevards and the region (no scan verified) |
+| Tony Garnier | *Une Cité Industrielle* | 1917 | The industrial city zoned by function — work, housing, health and leisure (no scan verified) |
 
 ## Ars Transportaria
 

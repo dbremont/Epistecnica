@@ -1,8 +1,8 @@
 {
   "title": "Geometric Shape Atlas",
   "abbr": "GSA",
-  "version": "2026-11-11",
-  "generated": "2026-11-11",
+  "version": "2026-11-12",
+  "generated": "2026-11-12",
   "subtitle": "The figures of geometry, from the point and the ray to the solid and the polytope.",
   "intro": "Every geometric shape in the corpus decomposition, rendered as a figure and read as a path. The atlas follows the table in the Geometric Shape note: elemental forms first, then curves, planar and curved regions, solids, higher-dimensional polytopes, and arrangements.",
   "source": "generated from epistemica/mathematical/geometry/geometric-shape.md",
@@ -169,11 +169,12 @@
               "family": "elemental-shapes",
               "dimension": "degenerate",
               "path": "Geometric Shape → Elemental Shapes → Line",
-              "description": "A straight shape with no endpoints — degenerate in $\\mathbb{R}^2$, since it encloses nothing.",
+              "description": "A straight shape with no endpoints — degenerate in $\\mathbb{R}^2$, since it encloses nothing; see Line.",
               "figure": {
                 "kind": "line"
               },
-              "children": []
+              "children": [],
+              "note": "epistemica/mathematical/geometry/line.md"
             },
             {
               "id": "geometric-shape-elemental-shapes-line-segment",

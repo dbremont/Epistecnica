@@ -4591,6 +4591,11 @@
         "summary": "Update the note and re-point its corpus links after the reorganisation.",
         "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
         "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "docs",
+        "summary": "Add the epistemic Formulation, recursive instance decomposition, and conceptual evaluation; repair the taxonomy and technique tables."
       }
     ]
   },
@@ -6668,6 +6673,18 @@
         "kind": "refactor",
         "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
         "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+      },
+      {
+        "date": "2026-11-07",
+        "kind": "fix",
+        "summary": "Restore the singular assets/ image path after the corpus rename.",
+        "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
+        "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "docs",
+        "summary": "Add APA references for the equals sign and repair the note metadata."
       }
     ]
   },
@@ -7156,6 +7173,11 @@
         "date": "2026-11-11",
         "kind": "feat",
         "summary": "Link the Geometric Shape Atlas, the figure-first rendering of this decomposition."
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "docs",
+        "summary": "Link the Line row to the new line note."
       }
     ]
   },
@@ -7197,6 +7219,21 @@
         "kind": "refactor",
         "summary": "Move to epistemica/mathematical/geometry/.",
         "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/mathematical/geometry/line.md",
+    "logs": [
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add the Line note: definition, categorization, properties, and relations."
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "docs",
+        "summary": "Make the 90-degree angle between perpendicular lines explicit in the categorization table."
       }
     ]
   },
@@ -59409,18 +59446,6 @@
     ]
   },
   {
-    "file_path": "epistemica/mathematical/equation/equation.md",
-    "logs": [
-      {
-        "date": "2026-11-07",
-        "kind": "fix",
-        "summary": "Restore the singular assets/ image path after the corpus rename.",
-        "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
-        "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
-      }
-    ]
-  },
-  {
     "file_path": "epistemica/mathematical/geometry/polygon.md",
     "logs": [
       {
@@ -81506,6 +81531,56 @@
         "summary": "Complete the 50-section word-boundary audit across 1,062 canonical authors, inventors and treatises before 1900 (0 misses remaining), adding 177 rows across 40 sections: Lohneyss, Calvor, Delius, Villefosse, Budge, Combes, Gaetzschmann, Smyth, Rittinger (Aufbereitungskunde), Callon, Serlo, Poetsch (ground freezing), Haton de la Goupilliere, Kohler and Posepny/Pumpelly into Telluris; Blenkinsop/Hedley/Hackworth, Seguin, Vignoles/Locke, Gooch/Crampton, Walschaerts/Heusinger/Joy valve gears, D. K. Clark, Saxby & Farmer/Robinson signalling, Ramsbottom/Stroudley, Pullman/Janney coupler, Riggenbach/Abt/Mallet, Forney and Wellington into Transportaria; Hoste, Bouguer (Traite du navire), Euler (Scientia Navalis), Duhamel, Jorge Juan, Dupin, Smith/Ericsson screw propellers, Penn/Elder, Thornycroft/Yarrow/Normand, Sennett & Oram and Biles/Krylov/Taylor into Navalis; Tennant, Mercer, Heilmann, Persoz, Griess/Witt/Bottiger, Graebe/Liebermann/Caro (synthetic alizarin), Schutzenberger, Hummel/Knecht, Georgievics/Herzfeld/Zipser and Northrop automatic loom into Textilis; and full canonical layers across Aeronautica, Automobilis, Velocipedica, Computatoria, Horologia, Acustica, Campanaria, Photographia, Cartographica, Typographica, Papyrologica, Vitraria, Fictilia, Lignaria, Lapidaria, Coriaria, Consutoria, Cerea, Elastica, Petrolea, Thermica, Cryogenica, Pharia, Irrigationis, Molendinaria, Agricola, Silvicultura, Cibaria, Pharmaceutica, Militaris, Bellica, Architectura, Manufactura, Antiqua, Mediaevalia and Extra Europam. The guide now carries 1,616 rows across 50 Ars sections.",
         "commit": "25d1b270d8c8bf57f26178eafa359cee52893987",
         "before": "ce1e04faebc33f21f52c6e81e9ec3ded3262f59e"
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add Wegmann's Design and Construction of Dams (1899) to Ars Civilis — the dedicated dam-engineering treatise the catalogue lacked."
+      },
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add a new Ars Geotechnica section for the ground as a construction material: twelve rows on earth pressure and retaining walls, from Coulomb's 1776 Essai through Mayniel 1808, Pasley 1817, Poncelet-Woodbury 1854, Tate 1873, Baker 1881, Howe-Weyrauch 1886, Cain 1888, Merriman 1892 and Howe 1896, with Poncelet 1840 and Rankine 1857 cross-listed from Ars Structura."
+      },
+      {
+        "date": "2026-11-12",
+        "kind": "feat",
+        "summary": "Add a new Ars Sanitaria section — sanitary engineering from the camp latrine to the septic tank: Deuteronomy 23:12-14, Justinian's Digesta 43.23 De cloacis, the London Assize of Nuisance and Liber Albus, Harington 1596, the Cumming 1775 and Bramah 1778 water-closet patents, Parent-Duchatelet 1836, Moule's dry earth closet 1861, Chesbrough 1855, Bazalgette 1865, the Rivers Pollution Commission and Metropolitan Sewage Discharge reports, Belgrand 1875-87, Waring 1876, Bateman's Buenos Aires drainage 1878, Mouras 1881, Gerhard 1882, Hobrecht 1884, Corfield 1887, Garcia Faria 1891, Rafter & Baker 1894 and Cameron 1895; Chadwick, Latham and Crimp cross-listed from Structura and Civilis."
+      },
+      {
+        "date": "2026-11-12",
+        "kind": "feat",
+        "summary": "Add a new Ars Ruderalis section — waste management, the town's solid refuse: Mayhew's London waste trades 1851, Simmonds on waste products 1862, the Fryer refuse destructor patent 1874, the Public Health Act 1875 street-cleansing and refuse-removal duty, Boulnois's scavenging chapter 1883, the Poubelle refuse-container decrees 1883-84, Tomlinson on refuse destructors 1894 and Waring on street cleaning and refuse disposal 1898; Codrington, Garcia Faria and Maxwell cross-listed from Civilis and Sanitaria."
+      },
+      {
+        "date": "2026-11-12",
+        "kind": "feat",
+        "summary": "Add a new Ars Urbis section — the planning canon: the 1573 Laws of the Indies, Wren's London plan and the 1667 Rebuilding Act, Cerda's Teoria general de la urbanizacion 1867, Baumeister's Stadterweiterungen 1876, Sitte and Stubben's Der Stadtebau 1889-90, Haussmann's Memoires 1890-93, Soria y Mata's Ciudad Lineal 1892, Howard's Tomorrow 1898, Burnham & Bennett's Plan of Chicago 1909, Unwin's Town Planning in Practice 1909, the Housing, Town Planning etc. Act 1909, Geddes's Cities in Evolution 1915 and Garnier's Une Cite Industrielle 1917."
+      },
+      {
+        "date": "2026-11-12",
+        "kind": "feat",
+        "summary": "Rebuild Ars Urbis as the old art of the city rather than modern planning science: Vitruvius (Books I and V, linked), the Corpus Agrimensorum cross-listed from Antiqua, Ibn Khaldun's Muqaddimah, Filarete's Sforzinda, Pius II's Pienza, Francesco di Giorgio, Alberti (linked), Serlio, Cataneo, Braun and Hogenberg's Civitates, the 1573 Laws of the Indies, Fontana, Wren and the Rebuilding Act, Laugier, Piranesi, Patte, J.-F. Blondel and Milizia; the modern tail keeps Cerda, Sitte, Haussmann, Howard, Burnham and Garnier. Baumeister, Stubben, Soria y Mata, Unwin, the 1909 Town Planning Act and Geddes are removed."
+      }
+    ]
+  },
+  {
+    "file_path": "unclassified/on-the-role-of-mathematics-in-technical-practice.md",
+    "logs": [
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add the general essay on mathematics in technical practice — modelling, optimization, model building and design, the limits of the instrument, and links to the Q/A entry and the differential-equation, optimization and model notes."
+      }
+    ]
+  },
+  {
+    "file_path": "epistemica/epistemic/discipline/geotechnical-engineering.md",
+    "logs": [
+      {
+        "date": "2026-11-11",
+        "kind": "feat",
+        "summary": "Add Geotechnical Engineering as an epistemic-practice discipline note: the ground as construction material and support, the five formulation questions, boundary against earth science, civil/structural engineering, soil and rock mechanics, engineering geology, mining and offshore engineering; full instance decomposition covering orientation, agency, segment, access, representation, evaluation, communication, infrastructure, context, guidance, organization, products and member sub-practices; conceptual evaluation against the conceptuum criteria."
       }
     ]
   }
