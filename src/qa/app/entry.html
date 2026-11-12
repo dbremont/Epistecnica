@@ -38,6 +38,17 @@
         .meta { font-family:var(--font-mono); font-size:.66rem; color:var(--text-muted); margin:1rem 0 .4rem; }
         .tag { display:inline-block; margin-right:6px; padding:2px 10px; border:1px solid var(--border-medium); border-radius:999px; font-family:var(--font-mono); font-size:.62rem; color:var(--accent-cyan); }
         .answer { margin-top:1.4rem; padding:16px 18px; background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:var(--radius-md,8px); white-space:pre-wrap; color:var(--text-secondary); line-height:1.7; font-size:.92rem; }
+        .answer.markdown { white-space:normal; overflow-x:auto; }
+        .answer p { margin:.6rem 0; }
+        .answer p:first-child { margin-top:0; }
+        .answer p:last-child { margin-bottom:0; }
+        .answer ul, .answer ol { margin:.6rem 0 .6rem 1.25rem; }
+        .answer li { margin:.25rem 0; }
+        .answer table { width:100%; border-collapse:collapse; margin:.9rem 0; font-size:.84rem; line-height:1.55; }
+        .answer th, .answer td { border:1px solid var(--border-subtle); padding:.45rem .55rem; text-align:left; vertical-align:top; }
+        .answer th { background:var(--bg-surface); color:var(--text-primary); font-family:var(--font-mono); font-size:.68rem; letter-spacing:.04em; }
+        .answer code { font-family:var(--font-mono); font-size:.82em; color:var(--accent-cyan); }
+        .answer a { color:var(--accent-cyan); text-decoration:underline; text-underline-offset:2px; }
         .empty { margin-top:1.4rem; font-family:var(--font-display); font-style:italic; color:var(--accent-amber); }
         .pager { display:flex; justify-content:space-between; margin-top:1.6rem; font-family:var(--font-mono); }
         .pager .ng-button { background:var(--bg-card); border:1px solid var(--border-subtle); border-radius:4px; padding:.45rem .8rem; font-size:.66rem; letter-spacing:.08em; text-transform:uppercase; color:var(--text-secondary); transition:border-color .25s ease, color .25s ease; }
@@ -77,6 +88,7 @@
     </div>
 </footer>
 
+<script src="/vendor/marked.min.js"></script>
 <script>
     (function () {
         'use strict';
@@ -129,12 +141,14 @@
                 document.title = e.id + ' · Q/A Log · Epistecnica';
                 var status = e.status || 'open';
                 var tags = (e.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + '</span>'; }).join('');
+                var hasMarkdown = !!window.marked;
+                var answerHtml = hasMarkdown ? marked.parse(e.answer || '', { breaks: true, gfm: true }) : esc(e.answer);
                 document.getElementById('entry').innerHTML =
                     '<h1>' + esc(e.question) + '</h1>' +
                     '<div class="meta"><span class="status-' + esc(status) + '">' + esc(status) + '</span>' +
                     ' · ' + esc(e.agent || '') + ' · ' + esc(e.run || '') + ' · ' + esc(e.date || '') + ' · source: ' + esc(e.source || '') + '</div>' +
                     (tags ? '<div>' + tags + '</div>' : '') +
-                    (e.answer ? '<div class="answer">' + esc(e.answer) + '</div>' : '<p class="empty">awaiting answer.</p>');
+                    (e.answer ? '<div class="answer' + (hasMarkdown ? ' markdown' : '') + '">' + answerHtml + '</div>' : '<p class="empty">awaiting answer.</p>');
                 var prev = rows[i - 1], next = rows[i + 1];
                 if (prev) document.getElementById('pprev').href = 'entry.html?id=' + encodeURIComponent(prev.id);
                 if (next) document.getElementById('pnext').href = 'entry.html?id=' + encodeURIComponent(next.id);

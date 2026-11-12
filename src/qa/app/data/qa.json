@@ -125,5 +125,23 @@
       "productive-capabilities"
     ],
     "status": "open"
+  },
+  {
+    "id": "qa-00009",
+    "question": "How is mathematics used in technical domains?",
+    "answer": "Mathematics is used in technical practice less as a body of results than as an instrument: it makes a situation representable, compares alternatives, and holds a model steady enough to design against.\n\n- **Modelling** — turn the physical situation into a formal object: state variables, relations, rates, constraints, and boundary or initial conditions.\n- **Optimization** — decide how to change a design, process, or configuration so that it meets the engineering specification: design variables, objective, constraints, trade-offs.\n- **Model building / design** — construct a vivid representation of the system that can be inspected, simulated, compared, and communicated before construction.\n\n| Activity | Description | Role of differential equations |\n|---|---|---|\n| **System Description** | Mathematically describe the physical behavior and dynamics of an engineering system. | Formulate and solve equations representing rates of change, interactions, and system evolution. |\n| **Selection & Optimization** | Evaluate alternative designs and determine suitable or optimal engineering configurations. | Use differential-equation models and their solutions to assess performance, compare alternatives, and optimize design parameters. |\n| **Model Building** (A Vivid Model of the System) (Design) (Representation) | Construct a representation of the system vivid enough to support design: variables, relations, boundary and initial conditions, performance criteria, and the proposed intervention. | Supply the dynamic skeleton of the model — rates of change, interactions, and constraints — so the model can be simulated, compared, and used to justify design decisions before construction. |\n\nDifferential equations are one instrument among several; the table names where they do work, not why every technical problem is continuous or dynamic. The specification, the admissible changes, and the criteria of success remain technical and normative inputs to the mathematics, not products of it.",
+    "agent": "human",
+    "run": "derived-003",
+    "date": "2026-11-11",
+    "source": "manual",
+    "tags": [
+      "mathematics",
+      "engineering",
+      "technical-practice",
+      "modelling",
+      "optimization",
+      "differential-equations"
+    ],
+    "status": "answered"
   }
 ]

@@ -18,6 +18,8 @@ src/qa/
 
 - Entries are `{id, question, answer, agent, run, date, source, tags, status}`;
   ids are stable (`qa-%05d`) and never reused — new entries append.
+- Answers are Markdown: `entry.html` renders them with the vendored `marked`
+  (`/vendor/marked.min.js`), so tables, lists, and links display as written.
 - Regenerate the index after any `qa.json` change: `make qa-index`
   (`bin/build_qa_index.py`, chunked and progress-aware).
 - The catalog and the viewer feed the universal search (`make search-index`).
