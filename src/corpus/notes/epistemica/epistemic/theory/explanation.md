@@ -4,7 +4,7 @@ tags: [note, epistemology, tooling]
 
 # Explanation
 
-Related: [Truth](/view.html?p=notes/epistemica/epistemic/theory/truth.md), [Reason](/view.html?p=notes/epistemica/epistemic/theory/reason.md), [Evolutionary Explanation](/view.html?p=notes/epistemica/epistemic/theory/evolutionary-explanation.md), [Causality](/view.html?p=notes/nature/theory/causality.md)
+Related: [Truth](/view.html?p=notes/epistemica/epistemic/theory/truth.md), [Reason](/view.html?p=notes/epistemica/epistemic/theory/reason.md), [Evolutionary Explanation](/view.html?p=notes/epistemica/epistemic/theory/evolutionary-explanation.md), [Causality](/view.html?p=notes/nature/meta/causality.md)
 
 > In this note we will explain **explanations**—one of the most useful, if not the most useful, **epistemic praxis**.
 > 

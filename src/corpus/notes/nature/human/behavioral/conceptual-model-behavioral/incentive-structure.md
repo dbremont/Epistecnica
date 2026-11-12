@@ -61,9 +61,9 @@ This means examining:
 
 ## Reference(s)
 
-- [Human](/view.html?p=notes/nature/human.md)
-- [Cognitive](/view.html?p=notes/nature/cognitive.md)
-- [Behavioral](/view.html?p=notes/nature/behavioral.md)
+- [Human](/view.html?p=notes/nature/human/human.md)
+- [Cognitive](/view.html?p=notes/nature/human/cognitive.md)
+- [Behavioral](/view.html?p=notes/nature/human/behavioral.md)
 - [Behavior](/view.html?p=notes/nature/human/behavioral/conceptual-model-behavioral/behavior.md)
 - https://en.wikipedia.org/wiki/Incentive_system
 

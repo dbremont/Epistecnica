@@ -174,7 +174,7 @@ notes, preserving the export's subcollection tree
 
 ## Human corpus
 
-`data/nature/human/` holds the human cognition and behaviour notes migrated
+`data/nature/human/human/` holds the human cognition and behaviour notes migrated
 from the Notion *Human* space. They live under `nature/` because their object
 is the human natural system; the subsection keeps the source's collection tree
 (`nature/human/cognitive/conceptual-model-cognition/...`).

@@ -18,7 +18,7 @@ tags: [note, nature, phenomenon, phenomena, physics]
 
 ## Related
 
-- [Radio Wave](/view.html?p=notes/nature/radio-wave.md)
+- [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 
 ## Provenance
 

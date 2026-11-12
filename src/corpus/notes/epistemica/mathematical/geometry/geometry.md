@@ -1,6 +1,10 @@
 ---
 tags: [note, mathematics, framework, geometry]
 order: 0
+qa:
+  - Which geometric objects (spaces) are not locally homeomorphic to Euclidean space?
+  - What does it mean to be an euclidean space?
+  
 ---
 
 # Geometry
@@ -10,6 +14,17 @@ order: 0
 > **Note: The concepts of line** and angle are abstract. Different geometries can define and formalize them differently. One of the greatest developments in geometry was the realization — whether conscious or not — that these concepts **could be operationalized** within distinct **axiomatic frameworks**.
 
 > **What is the essence of geometry?** Geometry is the mathematical language for encoding the spatial structure of reality. It abstracts properties such as distance, position, shape, size, orientation, and curvature into idealized objects—points, lines, planes, curves, and geometric figures—allowing us to reason about space independently of any particular physical object.
+
+## Terminology
+
+| Concept | Meaning |
+|---|---|
+| Space | Mathematical domain equipped with a particular structure |
+| Geometry | Study of geometric structures and their properties |
+| Geometric object | An entity characterized by geometric properties |
+| Embedding | Representation of one space within another |
+| Ambient space | Space containing an embedded object |
+| Intrinsic space | Space characterized by the object's own structure |
 
 ## Formulation
 

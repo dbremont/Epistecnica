@@ -278,7 +278,7 @@ En castellano, especialmente porque **`b` y `v` normalmente representan el mismo
 
 ## Related
 
-- [Language](/view.html?p=notes/nature/language.md)
+- [Language](/view.html?p=notes/nature/human/language.md)
 
 ## Provenance
 

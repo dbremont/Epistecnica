@@ -3,8 +3,8 @@
 
 Parses the decomposition tables of the technica notes — never the
 directory layout — and merges them into one forest store
-(data/technica/meta/atlas.json), the store the atlas page
-(data/technica/meta/atlas.html) renders.
+(data/technica/atlas.json), the store the atlas page
+(data/technica/atlas.html) renders.
 
 The table form is the guide's canonical one:
 
@@ -23,7 +23,16 @@ Node model (EES-compatible, see epistemica/ees.json):
 
 Every node records the notes whose tables define it (`sources`), and an
 instance whose label matches exactly one corpus note carries that note's
-path (`note`). The store is generated data: never hand-edit it.
+path (`note`). The store also carries the hand-authored technical-object
+classification the note tables do not carry — the role and the economic
+reading of an object — under `taxonomy` (authored in the store itself, and
+carried over verbatim on every rebuild), so both the atlas page and the
+taxonomy page read one file.
+
+The forest under `roots` is generated data: never hand-edit it. The
+`taxonomy` section is authored data: it is the only copy, so a rebuild
+re-emits it unchanged, and a store without it is an error, not an empty
+section.
 
 Usage: python3 bin/build_technica_atlas.py
 """
@@ -39,7 +48,9 @@ from indexlib import Progress, atomic_write_text, run_builder
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / 'src' / 'corpus' / 'notes'
 TECH = DATA / 'technica'
-OUT = TECH / 'meta' / 'atlas.json'
+OUT = TECH / 'atlas.json'
+TAXONOMY_KEY = 'taxonomy'
+ARCHIVED = TECH / 'atlas-taxonomy.json'
 
 GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
          'main/app/notes/data/meta/philosophia-artium-technicarum-et-operis.md')
@@ -223,12 +234,65 @@ def note_links(notes):
     return resolve
 
 
+def _counts(nodes):
+    counts = {}
+    for node in nodes:
+        level = node.get('level') if isinstance(node, dict) else None
+        counts[level] = counts.get(level, 0) + 1
+    return counts
+
+
+def load_taxonomy():
+    """The authored technical-object classification carried in the store.
+
+    The section lives in `atlas.json` itself (there is no separate authored
+    file): the builder reads it back from the existing store before writing
+    the new one, so a rebuild refreshes the forest and leaves the
+    classification untouched. A store without a usable section is an error —
+    writing an empty one would silently delete the only copy.
+    """
+    rel = OUT.relative_to(REPO)
+    if not OUT.is_file():
+        if ARCHIVED.is_file():
+            # first build of a fresh checkout: seed from the archived copy
+            try:
+                nodes = json.loads(ARCHIVED.read_text(encoding='utf-8'))
+            except (OSError, json.JSONDecodeError) as exc:
+                raise SystemExit(f'atlas: {ARCHIVED.relative_to(REPO)} '
+                                 f'unreadable ({exc})')
+            return {'title': 'Technical Object Taxonomy', 'version': 'v1',
+                    'source': ARCHIVED.relative_to(REPO).as_posix(),
+                    'levels': ['domain', 'kind', 'class', 'object'],
+                    'count': len(nodes),
+                    'counts': _counts(nodes),
+                    'nodes': nodes}
+        raise SystemExit(f'atlas: {rel} missing — it carries the authored '
+                         'taxonomy section; restore it before rebuilding')
+    try:
+        data = json.loads(OUT.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f'atlas: {rel} unreadable ({exc}) — it carries the '
+                         'authored taxonomy section; restore it before '
+                         'rebuilding')
+    tax = data.get(TAXONOMY_KEY)
+    if not isinstance(tax, dict) or not isinstance(tax.get('nodes'), list) \
+            or not tax['nodes']:
+        raise SystemExit(f'atlas: {rel} has no taxonomy section with nodes '
+                         '— restore it before rebuilding')
+    tax['count'] = len(tax['nodes'])
+    tax['counts'] = _counts(tax['nodes'])
+    return tax
+
+
 def build(progress=None) -> bool:
     if not TECH.is_dir():
         print('atlas: technica corpus missing', file=sys.stderr)
         return False
 
-    md_files = [p for p in sorted(TECH.rglob('*.md')) if 'meta' not in p.relative_to(TECH).parts]
+    # the atlas page and its companion note are about the forest, not in it
+    md_files = [p for p in sorted(TECH.rglob('*.md'))
+                if 'meta' not in p.relative_to(TECH).parts
+                and p.name != 'atlas.md']
     if progress is not None:
         progress.set_total(len(md_files))
         progress.start("scanning %d technica notes" % len(md_files))
@@ -296,17 +360,21 @@ def build(progress=None) -> bool:
         'abbr': 'TEF',
         'generated': date.today().isoformat(),
         'source': 'generated from the decomposition tables of the technica '
-                  'corpus (src/corpus/notes/technica, meta/ excluded)',
+                  'corpus (src/corpus/notes/technica)',
         'guide': GUIDE,
-        'note': 'technica/meta/atlas.md',
+        'note': 'technica/atlas.md',
         'stats': stats,
         'roots': [forest.root],
+        'taxonomy': load_taxonomy(),
     }
     atomic_write_text(OUT, json.dumps(store, indent=1, ensure_ascii=False) + '\n')
+    tax = store['taxonomy']
+    tax_note = (f"{tax['count']} taxonomy nodes"
+                if tax else 'taxonomy absent')
     print(f"atlas: {stats['rows']} table rows from {stats['tables']} tables "
           f"-> {stats['nodes']} nodes ({stats['groupings']} groupings, "
           f"{stats['instances']} instances), {stats['branches']} branches, "
-          f"depth {stats['maxDepth']}, {linked} note links -> "
+          f"depth {stats['maxDepth']}, {linked} note links, {tax_note} -> "
           f"{OUT.relative_to(REPO)}")
     if progress is not None:
         progress.finish("%d rows, %d nodes" % (stats['rows'], stats['nodes']))

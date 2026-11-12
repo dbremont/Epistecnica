@@ -116,7 +116,7 @@ where:
 
 - [Energy](/view.html?p=notes/nature/energy.md)
 - [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
-- [Radio Wave](/view.html?p=notes/nature/radio-wave.md)
+- [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 
 ## Provenance
 

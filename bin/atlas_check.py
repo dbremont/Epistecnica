@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the technica atlas store (data/technica/meta/atlas.json).
+"""Validate the technica atlas store (data/technica/atlas.json).
 
 The store is derived from the decomposition tables of the technica notes
 (bin/build_technica_atlas.py), so this checker validates the
@@ -23,7 +23,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / 'src' / 'corpus' / 'notes'
-STORE = DATA / 'technica' / 'meta' / 'atlas.json'
+STORE = DATA / 'technica' / 'atlas.json'
 
 KINDS = {'root', 'grouping', 'instance'}
 HEADER = ('title', 'generated', 'source', 'guide', 'note', 'stats', 'roots')

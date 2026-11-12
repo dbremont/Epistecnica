@@ -167,10 +167,10 @@ Note. Incomplete Model of an Animal Cell.
 ## Related
 
 - [Chromosome](/view.html?p=notes/nature/chromosome.md)
-- [Human](/view.html?p=notes/nature/human.md)
-- [Cardiovascular System](/view.html?p=notes/nature/cardiovascular-system.md)
+- [Human](/view.html?p=notes/nature/human/human.md)
+- [Cardiovascular System](/view.html?p=notes/nature/human/cardiovascular-system.md)
 - [Nutrition](/view.html?p=notes/nature/nutrition.md)
-- [Hormone](/view.html?p=notes/nature/hormone.md)
+- [Hormone](/view.html?p=notes/nature/human/hormone.md)
 - [Protein](/view.html?p=notes/nature/protein.md)
 - [Living System](/view.html?p=notes/nature/living-system.md)
 

@@ -14,7 +14,7 @@ src/app/data/courses-index.json
 src/app/data/search-index.json
 src/app/data/library-index.json
 src/app/data/tree-index.json
-src/corpus/notes/technica/meta/atlas.json
+src/corpus/notes/technica/atlas.json
 src/glossarium/app/data/index.json
 src/qa/app/data/qa-index.json
 src/app/data/index-status.json

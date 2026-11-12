@@ -38,9 +38,9 @@ QA:
 ## Related
 
 - [Spectroscopy](/view.html?p=notes/nature/spectroscopy.md)
-- [Wave](/view.html?p=notes/nature/wave.md)
+- [Wave](/view.html?p=notes/nature/wave/wave.md)
 - [Light](/view.html?p=notes/nature/light.md)
-- [Radio Wave](/view.html?p=notes/nature/radio-wave.md)
+- [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 
 ## Provenance
 

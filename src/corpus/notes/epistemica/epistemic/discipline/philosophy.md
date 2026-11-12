@@ -171,7 +171,7 @@ the quality of its own argumentation.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md) — the domain note on natural philosophy
 - [Ontology](/explorer.html?dir=nature/theory) — the ontology concept notes
-- [Philosophia Naturalis](/view.html?p=notes/nature/theory/philosophia-naturalis.md)
+- [Philosophia Naturalis](/view.html?p=notes/nature/meta/philosophia-naturalis.md)
 - [Logic](/view.html?p=notes/epistemica/epistemic/discipline/logic.md) — the carved-out discipline of valid inference
 - [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) · [Statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md) · [Computer Science](/view.html?p=notes/epistemica/epistemic/discipline/computer-science.md)
 - [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in

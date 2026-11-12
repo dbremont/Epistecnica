@@ -648,7 +648,6 @@
         var state = { q: '', view: 'browse', dir: '', section: 'all', page: 1, pageSize: GRID_PAGE, liveOnly: false, unfinishedOnly: false };
         var PINS = [];          /* pinned note paths, server order */
         var LINKS = [];         /* embedded support links {from, to, label, kind} */
-        var LINKS_BY_FROM = {}; /* note/dir path -> outgoing links */
         var NOTE_BY_PATH = {};  /* note path -> note */
         var pinsAvailable = false;
         var lastTotalPages = 1;
@@ -1006,6 +1005,10 @@
            file link (the target's own file card) or a dir link (a folder card
            for the scope). Shown only without a search query, outside
            pagination like folder cards. */
+        function linksFrom(k) {
+            return LINKS.filter(function (l) { return l && l.from === k; });
+        }
+
         function linkedTargets() {
             var seen = {};
             var out = [];
@@ -1016,15 +1019,17 @@
                     out.push(l);
                 });
             }
-            /* Directory-node links: declared with a dir `from` equal to the
-               browsed directory. Shown only on that directory, never on its
-               descendants. */
-            push(LINKS_BY_FROM[state.dir]);
-            push(LINKS_BY_FROM[state.dir + '/']);
-            /* File-node links: declared with a note `from` in this directory. */
+            /* Directory-node links: declared with a dir `from` (trailing
+               slash in the registry) equal to the browsed directory. Shown
+               only on that directory, never on its descendants. */
+            if (state.dir) push(linksFrom(state.dir + '/'));
+            /* File-node links: declared with a note `from` in this directory.
+               The registry is filtered on every call rather than indexed into
+               an object: a key derived from a path (`constructor`, `object`)
+               would otherwise read through Object.prototype. */
             NOTES.forEach(function (n) {
                 if (parentDir(n.path) !== state.dir) return;
-                push(LINKS_BY_FROM[n.path]);
+                push(linksFrom(n.path));
             });
             return out;
         }
@@ -1369,12 +1374,6 @@
                 LINKS = idx.links || [];
                 NOTE_BY_PATH = {};
                 NOTES.forEach(function (n) { NOTE_BY_PATH[n.path] = n; });
-                LINKS_BY_FROM = {};
-                LINKS.forEach(function (l) {
-                    if (!l || !l.from) return;
-                    if (!LINKS_BY_FROM[l.from]) LINKS_BY_FROM[l.from] = [];
-                    LINKS_BY_FROM[l.from].push(l);
-                });
                 var tagset = {};
                 NOTES.forEach(function (n) {
                     (n.tags || []).forEach(function (t) { tagset[t] = (tagset[t] || 0) + 1; });

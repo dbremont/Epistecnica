@@ -26,7 +26,7 @@ Readable secondarily as a `Building Block`: at the level of the polymers it comp
 >
 > That single geometry at C1 is the fork the whole carbohydrate world turns on. Linking glucose α-1,4 gives chains that fold into **starch** and **glycogen** — digestible stores. Linking it β-1,4 gives a straight, hydrogen-bonded ribbon that no human enzyme cleaves — **cellulose**, the structural material of the plant world. Same monomer, same bond chemistry, one stereocentre inverted.
 >
-> Glucose is also the hub of the metabolic map: glycolysis splits it, the pentose phosphate pathway harvests reducing power from it, glycogen and starch store it, and the blood carries it at a concentration the body defends within narrow limits. The note [Blood Glucose Level](/view.html?p=notes/nature/blood-glucose-level.md) takes the regulatory side; this note is the molecule.
+> Glucose is also the hub of the metabolic map: glycolysis splits it, the pentose phosphate pathway harvests reducing power from it, glycogen and starch store it, and the blood carries it at a concentration the body defends within narrow limits. The note [Blood Glucose Level](/view.html?p=notes/nature/human/blood-glucose-level.md) takes the regulatory side; this note is the molecule.
 >
 > Two structural facts discipline the literature. Because the open chain is an aldehyde and the ring is a hemiacetal, glucose is a **reducing sugar** — the property the classical colour tests detect, and the reason its measurement has a chemistry of its own. And because it is chiral with four asymmetric carbons, its configuration had to be proved rather than assumed: Fischer established the family's stereochemistry, and Haworth fixed the ring.
 
@@ -70,5 +70,5 @@ Readable secondarily as a `Building Block`: at the level of the polymers it comp
 - [Carbohydrate](/view.html?p=notes/nature/carbohydrate.md)
 - [Starch](/view.html?p=notes/nature/starch.md)
 - [Cellulose](/view.html?p=notes/nature/cellulose.md)
-- [Blood Glucose Level](/view.html?p=notes/nature/blood-glucose-level.md)
+- [Blood Glucose Level](/view.html?p=notes/nature/human/blood-glucose-level.md)
 - [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)

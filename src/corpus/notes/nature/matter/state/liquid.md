@@ -22,7 +22,7 @@ tags: [note, nature, substance-matter, materials-science, matter]
 
 ## Related
 
-- [Fluid](/view.html?p=notes/nature/fluid.md)
+- [Fluid](/view.html?p=notes/nature/physical-object/fluid.md)
 
 ## Provenance
 

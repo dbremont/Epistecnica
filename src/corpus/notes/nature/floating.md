@@ -16,7 +16,7 @@ tags: [note, nature, phenomenon, phenomena, physics, unfinished]
 
 ## Related
 
-- [Fluid](/view.html?p=notes/nature/fluid.md)
+- [Fluid](/view.html?p=notes/nature/physical-object/fluid.md)
 
 ## Provenance
 

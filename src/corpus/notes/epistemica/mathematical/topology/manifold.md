@@ -4,7 +4,7 @@ tags: [note, mathematics, geometry, space, topology]
 
 # Manifold
 
- : Topological Space (Topological%20Space%20a2ad890d81b84a3bb674e007bbdc8f78.md), Smoothness (Smoothness%2019fc0f5171ec80089ecae31fc54e509d.md), Geometry (Geometry%201acc0f5171ec809ab11ad964fbff6df1.md), Differential Form (Differential%20Form%20e30db9e63d3840ba9aa2b1f929d36d50.md), Space (Space%2019fc0f5171ec80a88882f0b8b4d96331.md)
+
 
 > A **topological space** that locally resembles **Euclidean space** and allows for calculus.
 > 
@@ -62,3 +62,9 @@ QA:
 - [Coordinate System](../coordinate-system.md)
 - https://www.youtube.com/watch?v=KZjoxwUxlIs
 - https://www.youtube.com/playlist?list=PLRlVmXqzHjUQHEx63ZFxV-0Ortgf-rpJo
+- Topological Space (Topological%20Space%20a2ad890d81b84a3bb674e007bbdc8f78.md)
+- Smoothness (Smoothness%2019fc0f5171ec80089ecae31fc54e509d.md)
+- Geometry (Geometry%201acc0f5171ec809ab11ad964fbff6df1.md)
+- Differential Form (Differential%20Form%20e30db9e63d3840ba9aa2b1f929d36d50.md)
+- Space (Space%2019fc0f5171ec80a88882f0b8b4d96331.md)
+

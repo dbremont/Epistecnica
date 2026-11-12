@@ -82,7 +82,7 @@ As for what to write in the commonplace books themselves, Le Clerc [advised](htt
 
 ## Related
 
-- [Learning](/view.html?p=notes/nature/learning.md)
+- [Learning](/view.html?p=notes/nature/human/learning.md)
 - [Practice](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/practice.md)
 
 ## Provenance

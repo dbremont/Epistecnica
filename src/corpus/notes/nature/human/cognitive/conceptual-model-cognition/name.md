@@ -148,12 +148,12 @@ A **name** is a cognitive token or symbol that:
 ## Related
 
 - [Representation](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
-- [Language](/view.html?p=notes/nature/language.md)
+- [Language](/view.html?p=notes/nature/human/language.md)
 - [Symbol](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
 - [Consciouses](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/consciouses.md)
 - [Concept](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/concept.md)
-- [Meaning](/view.html?p=notes/nature/cognition/meaning.md)
-- [Reference](/view.html?p=notes/nature/reference.md)
+- [Meaning](/view.html?p=notes/nature/human/cognitive/meaning.md)
+- [Reference](/view.html?p=notes/nature/human/reference.md)
 
 ## Provenance
 

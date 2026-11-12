@@ -17,8 +17,9 @@ and the hub points at it.
   graphs; the hub links to it from its entry index, and the old local graph
   apps were retired (their URLs 302). The lexical corpus (glossarium) and the
   Q/A log are served locally next to the note corpus (`/glossarium/`, `/qa/`),
-  which now also carries the natural material (including the human cognition
-  and behaviour corpus under `nature/human/`), social, historical and essay
+  which now also carries the natural material (including the human corpus —
+  body, physiology, mind, cognition and behaviour — under `nature/human/`),
+  social, historical and essay
   material migrated from the Naturgnosis note space.
 - **Corpora** — `src/corpus/notes`, `src/corpus/courses`, `src/corpus/documents`: catalogs + viewers
   over a local markdown corpus, with generated JSON indexes.
@@ -293,21 +294,54 @@ instance-decomposition table:
 - Self-check after any table edit: instance paths unique; every backticked
   segment names a guide type; no branch-terminating type segments. Then run
   `make notes-index` (below).
-- **Technical-element atlas** — `data/technica/meta/atlas.html` renders
-  the forest: the decomposition tables of the technica notes merged into
-  one typed instance tree, never the directory layout. The tables use the
-  canonical `| Instance Tree Path | Description |` form (`→` paths,
-  backticked type groupings, plain instances). `meta/` is excluded from parsing, so the
-  atlas never indexes itself. Every new instance in a decomposition table
-  is in the forest by construction: regenerate the store after any table
-  edit under `src/corpus/notes/technica/` with `make atlas-index`
-  (validated by `make atlas-check`, part of `make check` — one synthetic
-  root, unique sibling labels, sources exist, note links resolve, stats;
-  table grammar conformance stays `conform.py`'s job). The atlas page and
-  catalog card are `atlas.html` / `technica/meta/` in the
-  `?dir=technica` browse view; the page carries outline, card, and
-  dendrogram views. The store is generated data — never hand-edit it,
-  never changelog it.
+- **Technical-element atlas** — `technica/atlas.html` (with the generated
+  `technica/atlas.json` beside it) renders the forest: the decomposition
+  tables of the technica notes merged into one typed instance tree, never
+  the directory layout. The tables use the canonical
+  `| Instance Tree Path | Description |` form (`→` paths, backticked type
+  groupings, plain instances). The page, its companion note `atlas.md` and
+  `meta/` are excluded from parsing, so the atlas never indexes itself.
+  Every new instance in a decomposition table is in the forest by
+  construction: regenerate the store after any table edit under
+  `src/corpus/notes/technica/` with `make atlas-index` (validated by
+  `make atlas-check`, part of `make check` — one synthetic root, unique
+  sibling labels, sources exist, note links resolve, stats; table grammar
+  conformance stays `conform.py`'s job). The page uses the same form as
+  `technical-object-taxonomy.html`: one `TreeCatalog` mount over the forest
+  (the left tree is the instance tree — the node id *is* the `→` path —
+  opened two levels with `openDepth`, filled lazily on expand) and a
+  node inspector on the right (kind/type chips, description, instance tree
+  path, the notes that decompose it, `Contains` children). `?node=<path>`
+  deep-links; `#<path>` is written by the shared viewer. There is no card or
+  dendrogram view. The store is generated data — never hand-edit it, never
+  changelog it.
+- **Technical-object taxonomy** — `technica/technical-object-taxonomy.{html,json}`
+  under `src/corpus/notes/` is the *classification* of the corpus's
+  technical objects, distinct from the atlas *decomposition*: four levels,
+  **object domain → object kind → class → object**, where the object kind is
+  the canonical guide's own technical-element type (`Producing Technical
+  Element` and its four good-producer kinds, `Constitutive Technical Object`,
+  the five `Production Support` kinds, `Machine`, `Production Virtual
+  Technical Object`, `Production Technical System`). Every object node also
+  carries its **good reading** (`good`: excludability & rivalry · durability ·
+  production · use, quoting `social/good/good.md`'s classification table), an
+  indicative HS heading, its atlas instance path, and its source note — the
+  bridge that makes the goods ⇄ technical-object relation in `links.json`
+  checkable rather than rhetorical. There is **no separate taxonomy file**:
+  the classification is authored data carried in the store's **`taxonomy`
+  section** (`{title, version, source, levels, count, counts, nodes}`),
+  authored in the tracked archive `technica/atlas-taxonomy.json` and seeded
+  from it into `atlas.json` on the first build, then carried over verbatim
+  by every `make atlas-index` (the builder reads the section back before
+  writing; a store without it is an error, never an empty section). The
+  page and the checker read one file:
+  `technical-object-taxonomy.html` fetches `atlas.json` and mounts
+  `taxonomy.nodes`, the atlas page mounts `roots`. Edit
+  `atlas-taxonomy.json`, then `make atlas-index`; `make object-taxonomy-check`
+  (part of `make check`) validates the built section and fails when it has
+  drifted from the archive — ids, the domain-root forest, level chain, kind
+  and good enums, HS shape, atlas paths into the same store's forest, and
+  note links. It is a live note, so no changelog log.
 
 ## On Epistemical Notes
 
@@ -463,12 +497,28 @@ instance-decomposition table:
   in notes. The directory is created with the first note (like the other
   sections, the top-level dir is the section); run `make notes-index`
   after any corpus edit.
-- `nature/human/` is the human cognition and behaviour corpus (the former
-  top-level `human/` section, folded in on 2026-11-06). It is filed under
-  `nature/` because its object is the human natural system; its masters
-  (`human`, `cognitive`, `behavioral`) and the element notes that duplicated a
-  natural note were merged into the `nature/` notes of the same name and are
-  not present twice. Links use `n=nature/human/…`.
+- `nature/wave/` is the wave corpus: the wave and oscillation elements off the
+  `nature/` root — the master (`wave`), the phenomena and formal notes
+  (`wave-phenomena`, `wave-propagation`, `wave-equation`, `wave-speed-v`,
+  `wavelength`, `wave-function`, `wave-particle-duality`, `wave-energy`), the
+  specific waves (`radio-wave`, `gravitational-wave` and its detection,
+  `spin-waves-magnons`, `physical-properties-of-sound-waves`) and the
+  oscillation notes (`oscillating-electric-current`,
+  `plasma-or-charge-separation-oscillations`, `square-wave-ac`,
+  `triangular-wave-ac`). Wave *properties* and observations that are not
+  themselves waves (`frequency-periodicity`, `amplitude-a`, `pitch`,
+  `loudness`, `propagation-of-sound`, `interferometry`, light, photons,
+  radiation) stay on the `nature/` root. Links use `n=nature/wave/…`.
+- `nature/human/` is the human corpus: every natural element whose instance
+  is the human being — the body (organs, organ systems, tissues, fluids), the
+  physiology (metabolism, homeostasis, hormones, sleep, immunity), the senses
+  and the mind (perception, attention, memory, emotion, cognition,
+  behaviour), plus the `cognitive/` and `behavioral/` branches with their
+  conceptual-model sets. Notes about human nature that get moved off the
+  `nature/` root land here rather than being duplicated; the branch masters
+  are `human`, `cognitive` and `behavioral`, and a natural note that already
+  exists under `nature/` is never copied in twice. Links use
+  `n=nature/human/…`.
 
 ## On Extracting Content from a Document
 
@@ -511,7 +561,7 @@ Verification (no test suite exists; `make check` covers the first):
 - `python3 -m py_compile bin/*.py`
 - Catalog literals: `bin/check_catalog_literals.py` fails when a catalog page hardcodes a corpus entry, a directory special case, or a `data/<corpus>/…` href (part of `make check`)
 - EES tree: `make ees-check` (legacy alias: `make rees-check`; validates `src/corpus/notes/epistemica/ees.json` — unique paths, no branch-terminating type segments, stats) — part of `make check`
-- Technica atlas: `make atlas-index` (regenerates `src/corpus/notes/technica/meta/atlas.json` from the canonical two-column decomposition tables of the technica corpus, `meta/` excluded — after any table edit under `src/corpus/notes/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/corpus/notes/technica/meta/atlas.html` (outline / cards / dendrogram), reached in the catalog through the `technica/meta/` folder (no promoted card)
+- Technica atlas: `make atlas-index` (regenerates `src/corpus/notes/technica/atlas.json` from the canonical two-column decomposition tables of the technica corpus, the atlas page/note and `meta/` excluded — after any table edit under `src/corpus/notes/technica/`) → `make atlas-check` (one root, kinds, sibling labels, sources exist, note links resolve, stats) — part of `make check`; page `curl -s :8000/corpus/notes/technica/atlas.html` (tree + node inspector, `?node=<instance path>` deep links), reached in the catalog at the `technica/` root beside the technical-object taxonomy
 - Geometric Shape Atlas: `make shape-atlas-index` (regenerates `src/corpus/notes/epistemica/mathematical/geometry/atlas.json` from the decomposition table of `geometric-shape.md`) → `make shape-atlas-check` (unique paths, family/dimension consistency, figure spec on every node, note links resolve) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/mathematical/geometry/atlas.html` (outline / families / table views, figure modal, `?view=`, `?family=`, `?dimension=`, `?q=`, and `?id=` deep links), reached in the catalog through the `epistemica/mathematical/geometry/` folder and linked from `geometric-shape.md` (no promoted card)
 - Terminology crimes: `make terminology-check` (validates `src/corpus/notes/epistemica/horror/terminology.json` — unique kebab ids, enum domains/crimes/severities, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/horror/terminology.html`, reached in the catalog through the `epistemica/horror/` folder (no promoted card)
 - Symbol atlas: `make symbols-check` (validates `src/corpus/notes/epistemica/symbols.json` — unique ids, enum categories, non-empty symbol/description/origins/usage, resolving related ids, existing note links, well-formed sources) — part of `make check`; page `curl -s :8000/corpus/notes/epistemica/symbols.html`, reached in the catalog through the `epistemica/` root (no promoted card)
