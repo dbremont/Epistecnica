@@ -85911,6 +85911,21 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "Add the Trigonometric Playground card to the mathematical notebook index."
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Add the Hyperbolic Playground card to the mathematical notebook index."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/playground/hyperbolic-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New Hyperbolic Playground live note: the unit hyperbola x² − y² = 1 with t as twice the sector area — read x = cosh t and y = sinh t, then take every hyperbolic function as a ratio, with the exponential connection and the inverse directions shown."
    }
   ]
  }
