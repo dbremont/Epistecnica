@@ -83086,6 +83086,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/living-system.md into nature/bio/organism/: the bio family is filed by ontic kind, not by field of study."
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "refactor",
+    "summary": "Link the biochemical-sensing row and the Related list to the Biosensor note, so the claim that detects micro living systems carries its instrument."
    }
   ]
  },
@@ -84796,6 +84801,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/biochemical-sensors.md into nature/bio/molecular/: the bio family is filed by ontic kind, not by field of study."
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "refactor",
+    "summary": "Retype from Natural System to Interaction-Derived Quantity: the note is the sensing interaction a biosensor exploits, not the instrument; the instrument is decomposed in technica/general/biosensor.md."
    }
   ]
  },
@@ -85516,6 +85526,16 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/biogas.md into nature/bio/process/: the bio family is filed by ontic kind, not by field of study."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/biosensor.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New Biosensor note: a Production Instrument readable as a Production Technical System, decomposed into bioreceptor, transducer, signal conditioning, fluidics and housing, with its metrological parameters and standards."
    }
   ]
  }

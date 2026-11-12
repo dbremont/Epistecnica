@@ -211,7 +211,7 @@ Gray Areas:
 | **Electron Microscopy** | Viruses, organelles, nano-structures | SEM or TEM (up to millions of ×) |
 | **Culturing** | Viable microbes (bacteria, fungi) | Petri dishes with growth media |
 | **Molecular Methods** | DNA/RNA (for identity & abundance) | PCR, qPCR, metagenomics |
-| **Biochemical Sensors** | Enzymatic activity, ATP levels, respiration | Luminometers, biosensors |
+| **Biochemical Sensing** | Enzymatic activity, ATP levels, respiration — the interaction read by a [Biosensor](/view.html?p=notes/technica/general/biosensor.md) | Luminometers, biosensors |
 | **Flow Cytometry** | Size, shape, and fluorescence of tiny cells | Laser-based counting system |
 
 ### What are the main classes?
@@ -244,6 +244,8 @@ Gray Areas:
 - [Gene](/view.html?p=notes/nature/bio/genome/gene.md)
 - [DNA](/view.html?p=notes/nature/bio/genome/dna.md)
 - [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
+- [Biochemical Sensors](/view.html?p=notes/nature/bio/molecular/biochemical-sensors.md) — the sensing interaction a biosensor exploits
+- [Biosensor](/view.html?p=notes/technica/general/biosensor.md) — the instrument built on the biological element this note describes
 
 ## Provenance
 
