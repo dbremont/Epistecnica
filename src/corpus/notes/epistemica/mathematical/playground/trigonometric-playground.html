@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trigonometric Playground</title>
+  <link rel="icon" href="/img/favicon.ico">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       EPISTEMICA — shared tokens + live-note chrome
+       (canonical blocks: docs/live-note-chrome.md)
+       ============================================ */
+
+    :root {
+      --bg-void: #04050A;
+      --bg-surface: #0B0D14;
+      --bg-card: #11141D;
+      --text-primary: #E2E4EB;
+      --text-secondary: #8A8FA6;
+      --text-muted: #737891;
+      --accent-gold: #C5A467;
+      --accent-gold-dim: rgba(197, 164, 103, 0.15);
+      --accent-cyan: #5BF0E7;
+      --accent-cyan-dim: rgba(91, 240, 231, 0.1);
+      --border-subtle: rgba(255, 255, 255, 0.07);
+      --card-bg: rgba(11, 13, 20, 0.72);
+      --nav-bg: rgba(4, 5, 10, 0.82);
+      --footer-bg: rgba(4, 5, 10, 0.7);
+      --danger: #ff6b6b;
+      --danger-dim: rgba(255, 107, 107, 0.15);
+      --font-display: 'Cormorant Garamond', serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      /* lab palette — the sine / cosine / tangent coding of the unit circle */
+      --lab-sin: #f2a33c;
+      --lab-cos: #5b8def;
+      --lab-hyp: #7b86a0;
+      --lab-acc: #a78bfa;
+      --lab-tan: #4ec9b0;
+      --lab-acc-dim: rgba(167, 139, 250, 0.18);
+      --lab-axis: #232b3a;
+      --lab-circle: #3a4459;
+      --lab-tick: #5c6680;
+      --lab-label: #141926;
+    }
+
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0;
+      --bg-surface: #F1EEE7;
+      --bg-card: #FFFFFF;
+      --text-primary: #1A1D24;
+      --text-secondary: #4A4F5E;
+      --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F;
+      --accent-gold-dim: rgba(154, 123, 63, 0.12);
+      --accent-cyan: #0E7C72;
+      --accent-cyan-dim: rgba(14, 124, 114, 0.08);
+      --border-subtle: rgba(20, 22, 30, 0.10);
+      --card-bg: rgba(255, 255, 255, 0.72);
+      --nav-bg: rgba(247, 245, 240, 0.85);
+      --footer-bg: rgba(247, 245, 240, 0.75);
+      --danger: #b3261e;
+      --danger-dim: rgba(179, 38, 30, 0.10);
+
+      --lab-sin: #c07d14;
+      --lab-cos: #2f62c4;
+      --lab-hyp: #5b6478;
+      --lab-acc: #6d4fc4;
+      --lab-tan: #10796a;
+      --lab-acc-dim: rgba(109, 79, 196, 0.14);
+      --lab-axis: #d8d2c6;
+      --lab-circle: #b9b2a4;
+      --lab-tick: #6b7180;
+      --lab-label: #fffdf8;
+    }
+
+    body { transition: opacity 180ms ease; }
+    html.theme-fading body { opacity: 0; }
+    @media (prefers-reduced-motion: reduce) { body { transition: none; } }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    #ambientCanvas {
+      position: fixed;
+      top: 0; left: 0;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+
+    .layout {
+      position: relative;
+      z-index: 1;
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem 3.5rem;
+    }
+
+    .cols { display: flex; gap: 2.5rem; }
+    .note-main { flex: 9 1 0; min-width: 0; }
+
+    .crumbs {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+      overflow-wrap: anywhere;
+    }
+    .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.35em; opacity: 0.5; }
+    .crumbs .here { color: var(--accent-gold); }
+
+    h1.note-title {
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      padding-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 2rem;
+    }
+
+    .note-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      margin: -1.2rem 0 2rem;
+      position: relative;
+      top: 0.8rem;
+    }
+
+    .chip {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.35rem 0.7rem;
+      text-decoration: none;
+    }
+
+    .note-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: 10px;
+      padding: 2.5rem;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .sidebar {
+      flex: 1 1 0;
+      min-width: 180px;
+      position: sticky;
+      top: 3.5rem;
+      height: fit-content;
+      max-height: calc(100vh - 5rem);
+      overflow-y: auto;
+      padding: 0 1.25rem 0 0;
+    }
+
+    .sidebar-title {
+      font-family: var(--font-mono);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.9rem;
+      text-align: right;
+    }
+
+    .toc-item {
+      display: block;
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--text-secondary);
+      text-decoration: none;
+      text-align: right;
+      padding: 0.3rem 0.75rem 0.3rem 0;
+      border-right: 1px solid transparent;
+      margin-right: -1.25rem;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    .toc-item:hover { color: var(--text-primary); }
+    .toc-item.active { color: var(--accent-cyan); border-right-color: var(--accent-cyan); }
+
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .note-card { padding: 1.5rem; }
+    }
+
+    /* ---- markdown-body typography (mirrors notes.css) ---- */
+    .markdown-body {
+      font-weight: 300;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+      word-wrap: break-word;
+    }
+    .markdown-body h2 {
+      font-family: var(--font-display);
+      font-weight: 400;
+      font-size: 1.55rem;
+      line-height: 1.25;
+      color: var(--text-primary);
+      margin: 2.2em 0 0.8em;
+      padding-bottom: 0.35em;
+      border-bottom: 1px solid var(--border-subtle);
+      scroll-margin-top: 6rem;
+    }
+    .markdown-body h2:first-child { margin-top: 0; }
+    .markdown-body p { margin: 0 0 1.1em; }
+    .markdown-body a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-subtle);
+      transition: border-color 0.3s ease;
+    }
+    .markdown-body a:hover { border-bottom-color: var(--accent-cyan); }
+    .markdown-body strong { font-weight: 500; color: var(--text-primary); }
+    .markdown-body ul { margin: 0 0 1.1em; padding-left: 1.6em; }
+    .markdown-body li { margin-bottom: 0.35em; }
+    .markdown-body li::marker { color: var(--accent-gold); }
+    .markdown-body code, .font-mono { font-family: var(--font-mono); font-size: 0.85em; }
+    .markdown-body blockquote {
+      margin: 0 0 1.1em;
+      padding: 0.2em 0 0.2em 1.25em;
+      border-left: 1px solid var(--accent-gold);
+      font-style: italic;
+      color: var(--text-secondary);
+    }
+    .markdown-body table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin: 0 0 1.2em; }
+    .markdown-body th {
+      font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-muted); text-align: left;
+      padding: 0 0.6rem 0.5rem 0; border-bottom: 1px solid var(--border-subtle);
+    }
+    .markdown-body td {
+      padding: 0.45rem 0.6rem 0.45rem 0; border-bottom: 1px solid var(--border-subtle);
+      vertical-align: top;
+    }
+
+    .site-nav {
+      position: sticky; top: 0; z-index: 60;
+      background: var(--nav-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .site-nav .nav-inner {
+      max-width: 1280px; margin: 0 auto; padding: 0.95rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .site-nav .nav-brand {
+      display: inline-flex; align-items: center; gap: 0.55rem;
+      font-family: var(--font-display); font-size: 1.2rem; font-weight: 400;
+      letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none;
+    }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+
+    .theme-toggle {
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-secondary);
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      transition: color 0.3s ease, border-color 0.3s ease;
+    }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+
+    .site-footer {
+      border-top: 1px solid var(--border-subtle);
+      background: var(--footer-bg);
+      position: relative; z-index: 1;
+    }
+    .site-footer .foot-inner {
+      max-width: 1280px; margin: 0 auto; padding: 1.5rem 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .site-footer a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    /* ---------------- the notebook ---------------- */
+    .nb-act { margin-top: 2.2rem; padding-top: 0.6rem; }
+    .nb-act h2 { margin-top: 0.5rem; }
+
+    .nb-lab { display: grid; grid-template-columns: 1fr; gap: 1.1rem; margin: 0.6rem 0 0.4rem; align-items: start; }
+    @media (min-width: 1024px) { .nb-lab { grid-template-columns: 1.15fr 1fr; } }
+
+    .nb-stage {
+      position: relative; background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-radius: 8px; overflow: hidden; touch-action: none;
+    }
+    .nb-stage .nb-overlay {
+      position: absolute; top: 10px; left: 12px; pointer-events: none; user-select: none;
+      font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--text-muted);
+    }
+    .nb-stage .nb-overlay div + div { opacity: 0.7; margin-top: 2px; letter-spacing: 0.06em; }
+
+    #unitCircle {
+      display: block; width: 100%;
+      aspect-ratio: 1 / 1;
+      max-height: min(78vh, 620px);
+      cursor: grab;
+    }
+    #unitCircle:active { cursor: grabbing; }
+
+    .nb-controls { display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+    .nb-h {
+      font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.55rem;
+    }
+
+    .angle-box { display: flex; gap: 8px; align-items: stretch; }
+    .angle-box input[type=text] {
+      flex: 1; min-width: 0;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+      font-family: var(--font-mono); font-size: 1.15rem; font-weight: 500;
+      padding: 0.6rem 0.75rem; border-radius: 7px; outline: none;
+    }
+    .angle-box input[type=text]:focus {
+      border-color: var(--lab-acc);
+      box-shadow: 0 0 0 3px var(--lab-acc-dim);
+    }
+    .angle-box select {
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      color: var(--text-primary); border-radius: 7px; padding: 0 0.7rem;
+      font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em;
+      outline: none; cursor: pointer;
+    }
+
+    input[type=range].pl-range {
+      -webkit-appearance: none; appearance: none;
+      width: 100%; height: 22px; background: transparent; margin: 10px 0 0; cursor: pointer;
+    }
+    input[type=range].pl-range::-webkit-slider-runnable-track {
+      height: 5px; border-radius: 99px;
+      background: linear-gradient(90deg, var(--lab-cos), var(--lab-acc), var(--lab-sin));
+    }
+    input[type=range].pl-range::-webkit-slider-thumb {
+      -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%;
+      background: var(--text-primary); border: 3px solid var(--lab-acc); margin-top: -6px;
+    }
+    input[type=range].pl-range::-moz-range-track {
+      height: 5px; border-radius: 99px;
+      background: linear-gradient(90deg, var(--lab-cos), var(--lab-acc), var(--lab-sin));
+    }
+    input[type=range].pl-range::-moz-range-thumb {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: var(--text-primary); border: 3px solid var(--lab-acc);
+    }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+    .chip-btn {
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      color: var(--text-secondary); border-radius: 999px;
+      padding: 4px 9px; font-family: var(--font-mono); font-size: 0.62rem;
+      cursor: pointer; transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+      font-variant-numeric: tabular-nums;
+    }
+    .chip-btn:hover { color: var(--text-primary); border-color: var(--border-strong, var(--border-subtle)); }
+    .chip-btn.on {
+      background: var(--lab-acc-dim); border-color: var(--lab-acc); color: var(--lab-acc);
+    }
+
+    /* ---- steps ---- */
+    .step-block { margin-top: 1.1rem; }
+    .step-header {
+      display: flex; align-items: center; gap: 9px;
+      font-size: 0.85rem; font-weight: 500; color: var(--text-primary);
+      margin-bottom: 0.65rem;
+    }
+    .step-n {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--lab-acc); color: var(--bg-void);
+      font-family: var(--font-mono); font-size: 11px; font-weight: 700; flex-shrink: 0;
+    }
+
+    .angle-display {
+      background: var(--lab-acc-dim);
+      border: 1px solid var(--lab-acc);
+      border-radius: 7px;
+      padding: 7px 11px;
+      font-family: var(--font-mono); font-size: 0.68rem;
+      color: var(--text-secondary); font-weight: 500;
+      text-align: center; font-variant-numeric: tabular-nums;
+      margin-bottom: 9px;
+    }
+    .angle-display b { color: var(--lab-acc); font-weight: 700; }
+
+    .measure-item {
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--c); border-radius: 7px;
+      padding: 8px 12px; margin-top: 7px;
+      display: grid; grid-template-columns: 1fr auto; gap: 2px 12px;
+      align-items: baseline;
+    }
+    .mi-label {
+      grid-column: 1; font-family: var(--font-mono); font-size: 0.54rem;
+      letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted);
+    }
+    .mi-value {
+      grid-column: 2; grid-row: 1 / span 2;
+      font-family: var(--font-mono); font-size: 1.2rem; font-weight: 700;
+      color: var(--text-primary); font-variant-numeric: tabular-nums;
+    }
+    .mi-detail {
+      grid-column: 1; font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted);
+    }
+
+    .check {
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-radius: 7px; padding: 8px 12px; margin-top: 9px;
+      font-family: var(--font-mono); font-size: 0.64rem;
+      color: var(--text-secondary); line-height: 1.7; font-variant-numeric: tabular-nums;
+    }
+    .check b { color: var(--lab-tan); font-weight: 700; }
+
+    .fn-note { font-size: 0.75rem; color: var(--text-muted); font-style: italic; margin-bottom: 0.6rem; }
+    .fn-group {
+      font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--lab-acc); font-weight: 600;
+      margin: 0.9rem 0 0.2rem;
+    }
+    .fn-group-hint {
+      text-transform: none; letter-spacing: 0; color: var(--text-muted);
+      font-weight: 400; font-style: italic;
+    }
+    .fn-row {
+      display: grid; grid-template-columns: 78px 1fr; gap: 12px;
+      padding: 6px 11px;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--c); border-radius: 6px;
+      margin-top: 5px; align-items: center;
+    }
+    .fn-name { font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700; color: var(--c); }
+    .fn-calc {
+      font-family: var(--font-mono); font-size: 0.66rem; color: var(--text-secondary);
+      font-variant-numeric: tabular-nums; word-break: break-word;
+    }
+    .fn-calc b { color: var(--text-primary); font-weight: 700; }
+    .undef { color: var(--danger); font-weight: 700; }
+
+    .fn-out {
+      margin-top: 0.9rem; padding: 9px 12px;
+      background: var(--bg-surface); border: 1px solid var(--border-subtle);
+      border-radius: 7px; font-size: 0.74rem; color: var(--text-muted); line-height: 1.6;
+    }
+    .fn-out b { color: var(--lab-acc); font-weight: 600; }
+
+    .kbd {
+      background: var(--bg-card); border: 1px solid var(--border-subtle);
+      border-radius: 4px; padding: 0 5px; font-family: var(--font-mono); font-size: 0.7em;
+    }
+
+    @media (max-width: 900px) {
+      .site-nav .nav-inner { padding-left: 1.2rem; padding-right: 1.2rem; }
+      .layout { padding-left: 1.2rem; padding-right: 1.2rem; }
+    }
+  </style>
+
+  <link rel="stylesheet" href="/shared/usearch.css">
+</head>
+
+<body>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <nav class="site-nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+      <div class="nav-right">
+        <div class="usearch-wrap">
+          <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+          <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+          <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+        </div>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <div class="note-header">
+      <div class="crumbs"><a href="/explorer.html">notes</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica">epistemica</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica/mathematical">mathematical</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica/mathematical/playground">playground</a> <span class="sep">/</span> <span class="here">trigonometric</span></div>
+      <h1 class="note-title">Trigonometric Playground</h1>
+      <div class="note-meta"><span class="chip">live note</span><span class="chip">playground</span><span class="chip">#geometry</span><span class="chip">#trigonometry</span></div>
+    </div>
+
+    <div class="cols">
+      <main class="note-main">
+        <article class="note-card">
+          <div class="markdown-body">
+
+            <blockquote>
+              <p>On the <strong>unit circle</strong> every trigonometric function is a ratio of two of three
+              numbers: the horizontal coordinate <em>x</em>, the vertical coordinate <em>y</em>, and the
+              radius <em>r</em> — which is 1 by definition. Measure x and y once, and every function follows.
+              Every number on this page is computed in the browser from the angle you set.</p>
+            </blockquote>
+
+            <section class="nb-act">
+              <h2 id="the-lab">The lab</h2>
+              <p>Drag the point around the circle, type an angle (degrees or radians, <code>pi/6</code> works),
+              or pick a quick angle. Hold <span class="kbd">Shift</span> while dragging to snap to 15° steps.
+              The blue bar is x, the orange bar is y, and the dashed grey segment is the radius r = 1.</p>
+
+              <div class="nb-lab">
+                <div class="nb-stage" id="stage">
+                  <canvas id="unitCircle" role="img" aria-label="The unit circle with the point P, its x and y coordinates and the angle"></canvas>
+                  <div class="nb-overlay"><div>drag the point</div><div>shift to snap to 15°</div></div>
+                </div>
+
+                <div class="nb-controls">
+                  <div>
+                    <div class="nb-h">Angle</div>
+                    <div class="angle-box">
+                      <input id="angleInput" type="text" value="30" inputmode="decimal" spellcheck="false" autocomplete="off" aria-label="Angle">
+                      <select id="unitSelect">
+                        <option value="deg">deg °</option>
+                        <option value="rad">rad</option>
+                      </select>
+                    </div>
+                    <input id="slider" class="pl-range" type="range" min="0" max="360" step="0.5" value="30" aria-label="Angle slider">
+                    <div class="chips" id="chips"></div>
+                  </div>
+
+                  <div class="step-block">
+                    <div class="step-header"><span class="step-n">1</span> Measure x and y</div>
+                    <div id="measureContent"></div>
+                  </div>
+
+                  <div class="step-block">
+                    <div class="step-header"><span class="step-n">2</span> Compute the functions</div>
+                    <div id="functionsContent"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="nb-act">
+              <h2 id="what-the-page-computes">What the page computes</h2>
+              <p>Each function is one ratio of the three numbers the circle gives you. With
+              <code>r = 1</code> the radius drops out of the arithmetic and the values are just the coordinates
+              or their reciprocals.</p>
+
+              <table>
+                <thead><tr><th>Function</th><th>Ratio</th><th>On the unit circle</th></tr></thead>
+                <tbody>
+                  <tr><td>sin θ</td><td>y / r</td><td>y</td></tr>
+                  <tr><td>cos θ</td><td>x / r</td><td>x</td></tr>
+                  <tr><td>tan θ</td><td>y / x</td><td>y / x</td></tr>
+                  <tr><td>csc θ</td><td>r / y</td><td>1 / y</td></tr>
+                  <tr><td>sec θ</td><td>r / x</td><td>1 / x</td></tr>
+                  <tr><td>cot θ</td><td>x / y</td><td>x / y</td></tr>
+                  <tr><td>haversin θ</td><td>(r − x) / (2r)</td><td>(1 − x) / 2</td></tr>
+                  <tr><td>versin θ</td><td>(r − x) / r</td><td>1 − x</td></tr>
+                  <tr><td>coversin θ</td><td>(r − y) / r</td><td>1 − y</td></tr>
+                  <tr><td>exsec θ</td><td>(r − x) / x</td><td>1/x − 1</td></tr>
+                </tbody>
+              </table>
+
+              <p>A quotient is <strong>undefined</strong> exactly when its denominator is zero — tan and sec at
+              90°, cot and csc at 0° — which is the geometric fact that those ratios have no value there, not
+              a numerical accident. The page marks those cells in red.</p>
+
+              <p><strong>Out of scope.</strong> Hyperbolic functions (sinh, cosh, tanh) are built from
+              <code>eˣ</code>, not from x and y on the circle; inverse functions (arcsin, arccos, arctan) go the
+              other direction — they recover the angle from a ratio.</p>
+            </section>
+
+            <section class="nb-act">
+              <h2 id="references">References</h2>
+              <ul>
+                <li><a href="/view.html?p=notes/epistemica/mathematical/geometry/trigonometry.md">Trigonometry</a> — the corpus note this notebook runs.</li>
+                <li><a href="/view.html?p=notes/epistemica/mathematical/geometry/angle.md">Angle</a> — the quantity the circle parameterizes.</li>
+                <li><a href="/view.html?p=notes/epistemica/mathematical/geometry/triangle.md">Triangle</a> — where the ratios come from in the right triangle.</li>
+                <li><a href="/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md">Euclidean Geometry</a> — the system the circle lives in.</li>
+                <li><a href="https://en.wikipedia.org/wiki/Unit_circle">Unit circle</a> — Wikipedia.</li>
+              </ul>
+            </section>
+
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-title">Contents</div>
+        <nav id="toc">
+          <a class="toc-item" href="#the-lab">The lab</a>
+          <a class="toc-item" href="#what-the-page-computes">What the page computes</a>
+          <a class="toc-item" href="#references">References</a>
+        </nav>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="foot-inner">
+      <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+      <a href="/explorer.html">&larr; CATALOG</a>
+    </div>
+  </footer>
+
+<script>
+/* ══════════════════════════════════════════════════════════
+   UNIT CIRCLE — measure x and y, then compute the functions
+   ══════════════════════════════════════════════════════════ */
+"use strict";
+
+var TAU = Math.PI * 2;
+
+function cssVar(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+var C = {};
+function readColors() {
+  C = {
+    sin: cssVar('--lab-sin'), cos: cssVar('--lab-cos'), hyp: cssVar('--lab-hyp'),
+    acc: cssVar('--lab-acc'), tan: cssVar('--lab-tan'),
+    axis: cssVar('--lab-axis'), circle: cssVar('--lab-circle'),
+    tick: cssVar('--lab-tick'), label: cssVar('--lab-label'),
+    text: cssVar('--text-primary'), muted: cssVar('--text-muted')
+  };
+}
+
+function gcd(a, b) { return b ? gcd(b, a % b) : a; }
+function clean(v) { return Math.abs(v) < 1e-12 ? 0 : v; }
+
+function num(v, d) {
+  d = d === undefined ? 4 : d;
+  if (!isFinite(v)) return '—';
+  var s = v.toFixed(d);
+  if (s.indexOf('.') >= 0) s = s.replace(/0+$/, '').replace(/\.$/, '');
+  return s === '-0' ? '0' : s;
+}
+
+function piString(rad) {
+  var x = rad / Math.PI;
+  for (var d = 1; d <= 24; d++) {
+    var n = Math.round(x * d);
+    if (Math.abs(x * d - n) < 1e-9) {
+      if (n === 0) return '0';
+      var g = gcd(Math.abs(n), d);
+      var nn = n / g, dd = d / g;
+      var head = Math.abs(nn) === 1 ? 'π' : Math.abs(nn) + 'π';
+      return (nn < 0 ? '-' : '') + head + (dd === 1 ? '' : '/' + dd);
+    }
+  }
+  return null;
+}
+
+var EXACT = {
+  0:   { sin: '0',     cos: '1' },
+  30:  { sin: '1/2',   cos: '√3/2' },
+  45:  { sin: '√2/2',  cos: '√2/2' },
+  60:  { sin: '√3/2',  cos: '1/2' },
+  90:  { sin: '1',     cos: '0' },
+  120: { sin: '√3/2',  cos: '-1/2' },
+  135: { sin: '√2/2',  cos: '-√2/2' },
+  150: { sin: '1/2',   cos: '-√3/2' },
+  180: { sin: '0',     cos: '-1' },
+  210: { sin: '-1/2',  cos: '-√3/2' },
+  225: { sin: '-√2/2', cos: '-√2/2' },
+  240: { sin: '-√3/2', cos: '-1/2' },
+  270: { sin: '-1',    cos: '0' },
+  300: { sin: '-√3/2', cos: '1/2' },
+  315: { sin: '-√2/2', cos: '√2/2' },
+  330: { sin: '-1/2',  cos: '√3/2' },
+  360: { sin: '0',     cos: '1' }
+};
+
+function exactFor(deg) {
+  var key = Math.round(deg);
+  if (Math.abs(deg - key) > 1e-7) return null;
+  return EXACT[((key % 360) + 360) % 360] || null;
+}
+
+var angleRad = Math.PI / 6;
+var unit = 'deg';
+var geom = { cx: 0, cy: 0, R: 1 };
+
+var unitCircle = document.getElementById('unitCircle');
+var angleInput = document.getElementById('angleInput');
+var unitSelect = document.getElementById('unitSelect');
+var slider = document.getElementById('slider');
+var chipsEl = document.getElementById('chips');
+var measureEl = document.getElementById('measureContent');
+var functionsEl = document.getElementById('functionsContent');
+
+function fitCanvas(canvas) {
+  var dpr = window.devicePixelRatio || 1;
+  var rect = canvas.getBoundingClientRect();
+  var w = Math.max(1, Math.round(rect.width));
+  var h = Math.max(1, Math.round(rect.height));
+  var bw = Math.round(w * dpr), bh = Math.round(h * dpr);
+  if (canvas.width !== bw || canvas.height !== bh) {
+    canvas.width = bw; canvas.height = bh;
+  }
+  var ctx = canvas.getContext('2d');
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  return { w: w, h: h, ctx: ctx };
+}
+
+function roundRect(ctx, x, y, w, h, r) {
+  if (ctx.roundRect) { ctx.beginPath(); ctx.roundRect(x, y, w, h, r); return; }
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+
+function dimLine(ctx, x1, y1, x2, y2, label, color) {
+  var dx = x2 - x1, dy = y2 - y1;
+  var len = Math.hypot(dx, dy);
+  if (len < 10) return;
+  var ux = dx / len, uy = dy / len;
+  var ax = 9, aw = 4.5;
+
+  ctx.strokeStyle = color;
+  ctx.lineWidth = 1.5;
+  ctx.beginPath();
+  ctx.moveTo(x1 + ux * ax, y1 + uy * ax);
+  ctx.lineTo(x2 - ux * ax, y2 - uy * ax);
+  ctx.stroke();
+
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.moveTo(x1, y1);
+  ctx.lineTo(x1 + ux * ax - uy * aw, y1 + uy * ax + ux * aw);
+  ctx.lineTo(x1 + ux * ax + uy * aw, y1 + uy * ax - ux * aw);
+  ctx.closePath(); ctx.fill();
+
+  ctx.beginPath();
+  ctx.moveTo(x2, y2);
+  ctx.lineTo(x2 - ux * ax - uy * aw, y2 - uy * ax + ux * aw);
+  ctx.lineTo(x2 - ux * ax + uy * aw, y2 - uy * ax - ux * aw);
+  ctx.closePath(); ctx.fill();
+
+  var mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
+  ctx.font = '700 12px "JetBrains Mono", monospace';
+  var tw = ctx.measureText(label).width;
+  var bw = tw + 14, bh = 20;
+  ctx.fillStyle = C.label;
+  roundRect(ctx, mx - bw / 2, my - bh / 2, bw, bh, 5);
+  ctx.fill();
+  ctx.strokeStyle = C.axis;
+  ctx.lineWidth = 1;
+  ctx.stroke();
+  ctx.fillStyle = color;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(label, mx, my);
+}
+
+function drawCircle() {
+  var f = fitCanvas(unitCircle);
+  var w = f.w, h = f.h, ctx = f.ctx;
+  var cx = w / 2, cy = h / 2;
+  var R = Math.max(20, Math.min(w, h) / 2 - 76);
+  geom = { cx: cx, cy: cy, R: R };
+
+  var th = angleRad;
+  var c = clean(Math.cos(th));
+  var s = clean(Math.sin(th));
+  function X(v) { return cx + v * R; }
+  function Y(v) { return cy - v * R; }
+
+  ctx.clearRect(0, 0, w, h);
+  ctx.lineCap = 'round';
+
+  ctx.strokeStyle = C.axis;
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(X(-1.32), cy); ctx.lineTo(X(1.32), cy);
+  ctx.moveTo(cx, Y(-1.32)); ctx.lineTo(cx, Y(1.32));
+  ctx.stroke();
+
+  ctx.fillStyle = C.tick;
+  ctx.font = '11px "Inter", sans-serif';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+  ctx.fillText('1', X(1), cy + 6);
+  ctx.fillText('-1', X(-1), cy + 6);
+  ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+  ctx.fillText('1', cx - 7, Y(1));
+  ctx.fillText('-1', cx - 7, Y(-1));
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, R, 0, TAU);
+  ctx.strokeStyle = C.circle;
+  ctx.lineWidth = 1.5;
+  ctx.stroke();
+
+  if (th > 1e-6) {
+    ctx.beginPath();
+    ctx.moveTo(cx, cy);
+    ctx.arc(cx, cy, R, 0, -th, true);
+    ctx.closePath();
+    ctx.fillStyle = C.acc;
+    ctx.globalAlpha = 0.10;
+    ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, R * 0.30, 0, -th, true);
+  ctx.strokeStyle = C.acc;
+  ctx.lineWidth = 2;
+  ctx.stroke();
+  var mid = th / 2;
+  ctx.fillStyle = C.acc;
+  ctx.font = '600 12px "Inter", sans-serif';
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText('θ', cx + Math.cos(mid) * R * 0.44, cy - Math.sin(mid) * R * 0.44);
+
+  ctx.beginPath();
+  ctx.moveTo(cx, cy);
+  ctx.lineTo(X(c), Y(s));
+  ctx.strokeStyle = C.hyp;
+  ctx.lineWidth = 2;
+  ctx.setLineDash([6, 5]);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.beginPath();
+  ctx.moveTo(X(c), cy);
+  ctx.lineTo(X(c), Y(s));
+  ctx.strokeStyle = C.sin;
+  ctx.lineWidth = 6;
+  ctx.stroke();
+
+  ctx.beginPath();
+  ctx.moveTo(cx, cy);
+  ctx.lineTo(X(c), cy);
+  ctx.strokeStyle = C.cos;
+  ctx.lineWidth = 8;
+  ctx.stroke();
+
+  if (Math.abs(c) > 0.05 && Math.abs(s) > 0.05) {
+    var t = 11;
+    var sx = Math.sign(c), sy = Math.sign(s);
+    ctx.beginPath();
+    ctx.moveTo(X(c) - sx * t, cy);
+    ctx.lineTo(X(c) - sx * t, cy - sy * t);
+    ctx.lineTo(X(c), cy - sy * t);
+    ctx.strokeStyle = C.tick;
+    ctx.lineWidth = 1.2;
+    ctx.stroke();
+  }
+
+  var dimY = cy + 42;
+  dimLine(ctx, cx, dimY, X(c), dimY, 'x = ' + num(c, 4), C.cos);
+
+  var side = c >= 0 ? 1 : -1;
+  var dimX = X(c) + side * 42;
+  dimLine(ctx, dimX, cy, dimX, Y(s), 'y = ' + num(s, 4), C.sin);
+
+  ctx.fillStyle = C.hyp;
+  ctx.font = '600 12px "Inter", sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('r = 1', cx + c * R * 0.5, cy - s * R * 0.5 - 14);
+
+  ctx.beginPath();
+  ctx.arc(X(c), Y(s), 7, 0, TAU);
+  ctx.fillStyle = C.label;
+  ctx.fill();
+  ctx.strokeStyle = C.sin;
+  ctx.lineWidth = 3;
+  ctx.stroke();
+
+  ctx.fillStyle = C.muted;
+  ctx.font = '11px "JetBrains Mono", monospace';
+  ctx.textAlign = c >= 0 ? 'left' : 'right';
+  ctx.textBaseline = 'bottom';
+  var pLab = 'P = (' + c.toFixed(2) + ', ' + s.toFixed(2) + ')';
+  if (c >= 0 && ctx.measureText(pLab).width + 12 > w - X(c) - 10) ctx.textAlign = 'right';
+  else if (c < 0 && ctx.measureText(pLab).width + 12 > X(c)) ctx.textAlign = 'left';
+  ctx.fillText(pLab, X(c) + (ctx.textAlign === 'left' ? 12 : -12), Y(s) - 12);
+}
+
+/* ── step 1: measure x and y ─────────────────────────── */
+function updateMeasure() {
+  var th = angleRad;
+  var c = clean(Math.cos(th));
+  var s = clean(Math.sin(th));
+  var degVal = th * 180 / Math.PI;
+  var piStr = piString(th);
+  var exact = exactFor(degVal);
+
+  var angleDisplay =
+    '<b>' + num(degVal, 4) + '°</b>' +
+    (piStr ? ' &nbsp;=&nbsp; <b>' + piStr + '</b> rad' : '') +
+    ' &nbsp;=&nbsp; ' + num(th, 5) + ' rad';
+
+  var sumSq = c * c + s * s;
+  var check = Math.abs(sumSq - 1) < 1e-9 ? '✓' : '';
+
+  measureEl.innerHTML =
+    '<div class="angle-display">θ = ' + angleDisplay + '</div>' +
+
+    '<div class="measure-item" style="--c:var(--lab-cos)">' +
+      '<span class="mi-label">x · horizontal coordinate</span>' +
+      '<span class="mi-value">' + num(c, 6) + '</span>' +
+      '<span class="mi-detail">where P lands on the x-axis' + (exact ? ' &nbsp;·&nbsp; exact ' + exact.cos : '') + '</span>' +
+    '</div>' +
+
+    '<div class="measure-item" style="--c:var(--lab-sin)">' +
+      '<span class="mi-label">y · vertical coordinate</span>' +
+      '<span class="mi-value">' + num(s, 6) + '</span>' +
+      '<span class="mi-detail">how high P sits above the x-axis' + (exact ? ' &nbsp;·&nbsp; exact ' + exact.sin : '') + '</span>' +
+    '</div>' +
+
+    '<div class="check">' +
+      'r = 1 &nbsp;(unit circle)<br>' +
+      'x² + y² = ' + num(c * c, 6) + ' + ' + num(s * s, 6) + ' = <b>' + num(sumSq, 6) + '</b> ' + check +
+    '</div>';
+}
+
+/* ── step 2: compute the functions as ratios of x, y, r ─ */
+function updateFunctions() {
+  var th = angleRad;
+  var c = clean(Math.cos(th));
+  var s = clean(Math.sin(th));
+
+  function div(a, b) { return Math.abs(b) < 1e-12 ? null : a / b; }
+  var tanV = div(s, c);
+  var cscV = div(1, s);
+  var secV = div(1, c);
+  var cotV = div(c, s);
+
+  function val(v) { return v === null ? '<span class="undef">undefined</span>' : '<b>' + num(v, 6) + '</b>'; }
+
+  var vercosinV = 1 + c;
+  var covercosinV = 1 + s;
+  var haversinV = (1 - c) / 2;
+  var hacoversinV = (1 - s) / 2;
+  var exsecV = div(1, c) === null ? null : 1 / c - 1;
+  var excscV = div(1, s) === null ? null : 1 / s - 1;
+
+  function row(name, color, formula) {
+    return '<div class="fn-row" style="--c:' + color + '">' +
+      '<span class="fn-name">' + name + '</span>' +
+      '<span class="fn-calc">' + formula + '</span></div>';
+  }
+
+  functionsEl.innerHTML =
+    '<div class="fn-note">Every function below is a ratio of x, y, r — with r = 1.</div>' +
+
+    '<div class="fn-group">Primary</div>' +
+    row('sin θ', 'var(--lab-sin)', 'y / r = ' + num(s, 6) + ' / 1 = ' + val(s)) +
+    row('cos θ', 'var(--lab-cos)', 'x / r = ' + num(c, 6) + ' / 1 = ' + val(c)) +
+    row('tan θ', 'var(--lab-tan)', 'y / x = ' + num(s, 6) + ' / ' + num(c, 6) + ' = ' + val(tanV)) +
+    row('csc θ', 'var(--lab-sin)', 'r / y = 1 / ' + num(s, 6) + ' = ' + val(cscV)) +
+    row('sec θ', 'var(--lab-cos)', 'r / x = 1 / ' + num(c, 6) + ' = ' + val(secV)) +
+    row('cot θ', 'var(--lab-tan)', 'x / y = ' + num(c, 6) + ' / ' + num(s, 6) + ' = ' + val(cotV)) +
+
+    '<div class="fn-group">Derived circular <span class="fn-group-hint">— ordered by relevance</span></div>' +
+    row('haversin θ', 'var(--lab-sin)', '(r − x) / (2r) = (1 − ' + num(c, 6) + ') / 2 = ' + val(haversinV)) +
+    row('versin θ', 'var(--lab-cos)', '(r − x) / r = 1 − ' + num(c, 6) + ' = ' + val(1 - c)) +
+    row('coversin θ', 'var(--lab-sin)', '(r − y) / r = 1 − ' + num(s, 6) + ' = ' + val(1 - s)) +
+    row('hacoversin θ', 'var(--lab-sin)', '(r − y) / (2r) = (1 − ' + num(s, 6) + ') / 2 = ' + val(hacoversinV)) +
+    row('exsec θ', 'var(--lab-tan)', '(r − x) / x = 1 / ' + num(c, 6) + ' − 1 = ' + val(exsecV)) +
+    row('excsc θ', 'var(--lab-tan)', '(r − y) / y = 1 / ' + num(s, 6) + ' − 1 = ' + val(excscV)) +
+    row('vercosin θ', 'var(--lab-cos)', '(r + x) / r = 1 + ' + num(c, 6) + ' = ' + val(vercosinV)) +
+    row('covercosin θ', 'var(--lab-sin)', '(r + y) / r = 1 + ' + num(s, 6) + ' = ' + val(covercosinV)) +
+
+    '<div class="fn-out"><b>Out of scope for this ratio method:</b> hyperbolic functions (sinh, cosh, tanh, …)' +
+    ' are built from <code>eˣ</code>, not from x and y on the unit circle; inverse functions' +
+    ' (arcsin, arccos, arctan, …) go the other direction — they recover θ from the ratio.</div>';
+}
+
+/* ── render ──────────────────────────────────────────── */
+function render() {
+  drawCircle();
+  updateMeasure();
+  updateFunctions();
+  highlightChip();
+}
+
+function highlightChip() {
+  var degVal = angleRad * 180 / Math.PI;
+  var kids = chipsEl.children;
+  for (var i = 0; i < kids.length; i++) {
+    kids[i].classList.toggle('on', Math.abs(degVal - Number(kids[i].dataset.deg)) < 1e-6);
+  }
+}
+
+function setAngle(rad, opts) {
+  opts = opts || {};
+  if (!isFinite(rad)) return;
+  angleRad = ((rad % TAU) + TAU) % TAU;
+  render();
+  if (opts.syncInput !== false) syncInput();
+  if (opts.syncSlider !== false) syncSlider();
+}
+
+function syncInput() {
+  angleInput.value = unit === 'deg'
+    ? num(angleRad * 180 / Math.PI, 4)
+    : num(angleRad, 6);
+}
+
+function syncSlider() {
+  if (unit === 'deg') {
+    slider.min = 0; slider.max = 360; slider.step = 0.5;
+    slider.value = angleRad * 180 / Math.PI;
+  } else {
+    slider.min = 0; slider.max = TAU; slider.step = 0.005;
+    slider.value = angleRad;
+  }
+}
+
+function parseExpr(str) {
+  var s = String(str).trim().toLowerCase().replace(/π/g, 'pi');
+  if (!s) return null;
+  var cleaned = s.replace(/pi/g, '(' + Math.PI + ')');
+  if (!/^[0-9+\-*/().\s]*$/.test(cleaned)) return null;
+  try {
+    var v = Function('"use strict";return (' + cleaned + ')')();
+    return Number.isFinite(v) ? v : null;
+  } catch (e) { return null; }
+}
+
+function inputToRad(v) {
+  return unit === 'deg' ? v * Math.PI / 180 : v;
+}
+
+angleInput.addEventListener('input', function () {
+  var v = parseExpr(angleInput.value);
+  if (v === null) return;
+  setAngle(inputToRad(v), { syncInput: false });
+});
+angleInput.addEventListener('change', syncInput);
+angleInput.addEventListener('keydown', function (e) { if (e.key === 'Enter') angleInput.blur(); });
+
+unitSelect.addEventListener('change', function () {
+  unit = unitSelect.value;
+  buildChips();
+  syncSlider();
+  syncInput();
+  render();
+});
+
+slider.addEventListener('input', function () {
+  setAngle(inputToRad(parseFloat(slider.value)), { syncSlider: false });
+});
+
+var dragging = false;
+function angleFromPointer(e) {
+  var rect = unitCircle.getBoundingClientRect();
+  var x = (e.clientX - rect.left - geom.cx) / geom.R;
+  var y = -(e.clientY - rect.top - geom.cy) / geom.R;
+  if (Math.hypot(x, y) < 0.12) return null;
+  var a = Math.atan2(y, x);
+  if (e.shiftKey) a = Math.round(a / (Math.PI / 12)) * (Math.PI / 12);
+  return a;
+}
+unitCircle.addEventListener('pointerdown', function (e) {
+  dragging = true;
+  unitCircle.setPointerCapture(e.pointerId);
+  var a = angleFromPointer(e);
+  if (a !== null) setAngle(a);
+});
+unitCircle.addEventListener('pointermove', function (e) {
+  if (!dragging) return;
+  var a = angleFromPointer(e);
+  if (a !== null) setAngle(a);
+});
+function stopDrag(e) {
+  dragging = false;
+  if (unitCircle.hasPointerCapture && unitCircle.hasPointerCapture(e.pointerId)) {
+    unitCircle.releasePointerCapture(e.pointerId);
+  }
+}
+unitCircle.addEventListener('pointerup', stopDrag);
+unitCircle.addEventListener('pointercancel', stopDrag);
+
+var QUICK_DEG = [0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330, 360];
+function buildChips() {
+  var html = '';
+  for (var i = 0; i < QUICK_DEG.length; i++) {
+    var d = QUICK_DEG[i];
+    var rad = d * Math.PI / 180;
+    var label;
+    if (unit === 'deg') {
+      label = d + '°';
+    } else {
+      var p = piString(rad);
+      label = p !== null ? p : num(rad, 3);
+    }
+    html += '<button class="chip-btn" data-deg="' + d + '">' + label + '</button>';
+  }
+  chipsEl.innerHTML = html;
+}
+chipsEl.addEventListener('click', function (e) {
+  var chip = e.target.closest ? e.target.closest('.chip-btn') : null;
+  if (!chip) return;
+  setAngle(Number(chip.dataset.deg) * Math.PI / 180);
+});
+
+/* ── theme + ambient chrome (shared live-note blocks) ─── */
+(function () {
+  var toggle = document.getElementById('themeToggle');
+  var label = document.getElementById('themeLabel');
+  function apply() {
+    label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT';
+    readColors();
+    render();
+  }
+  toggle.addEventListener('click', function () {
+    var root = document.documentElement;
+    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function swap() {
+      root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+      try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+      apply();
+      root.classList.remove('theme-fading');
+      window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+    }
+    if (reduced) { swap(); return; }
+    root.classList.add('theme-fading');
+    setTimeout(swap, 190);
+  });
+  apply();
+})();
+
+(function () {
+  var cv = document.getElementById('ambientCanvas');
+  var ctx = cv.getContext('2d');
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var stars = [], W = 0, H = 0, raf = 0;
+
+  function colors() {
+    var s = getComputedStyle(document.documentElement);
+    return {
+      gold: s.getPropertyValue('--accent-gold').trim(),
+      cyan: s.getPropertyValue('--accent-cyan').trim()
+    };
+  }
+
+  function resize() {
+    W = window.innerWidth; H = window.innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr;
+    cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = Math.round((W * H) / 26000);
+    stars = [];
+    for (var i = 0; i < n; i++) {
+      stars.push({
+        x: Math.random() * W, y: Math.random() * H,
+        r: Math.random() * 1.3 + 0.3,
+        a: Math.random() * 0.5 + 0.15,
+        s: Math.random() * 0.00012 + 0.00004,
+        p: Math.random() * Math.PI * 2
+      });
+    }
+  }
+
+  function frame(t) {
+    var c = colors();
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      var a = s.a * (0.55 + 0.45 * Math.sin(t * s.s + s.p));
+      ctx.globalAlpha = Math.max(0.04, a);
+      ctx.fillStyle = i % 7 === 0 ? c.gold : c.cyan;
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    raf = requestAnimationFrame(frame);
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) raf = requestAnimationFrame(frame);
+})();
+
+/* ── toc highlight ───────────────────────────────────── */
+(function () {
+  var items = [].slice.call(document.querySelectorAll('.toc-item'));
+  if (!items.length || !('IntersectionObserver' in window)) return;
+  var map = {};
+  items.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      items.forEach(function (a) { a.classList.remove('active'); });
+      var a = map[en.target.id];
+      if (a) a.classList.add('active');
+    });
+  }, { rootMargin: '-20% 0px -70% 0px' });
+  Object.keys(map).forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) io.observe(el);
+  });
+})();
+
+/* ── boot ────────────────────────────────────────────── */
+var rafId = null;
+window.addEventListener('resize', function () {
+  if (rafId) cancelAnimationFrame(rafId);
+  rafId = requestAnimationFrame(render);
+});
+
+readColors();
+unit = unitSelect.value;
+buildChips();
+syncSlider();
+syncInput();
+render();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(render);
+window.addEventListener('epistecnica-theme', render);
+</script>
+
+<script src="/shared/usearch.js" data-root="../../../../../"></script>
+</body>
+</html>

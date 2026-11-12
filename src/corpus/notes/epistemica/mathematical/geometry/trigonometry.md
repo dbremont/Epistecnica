@@ -234,6 +234,10 @@ tags: [note, mathematics, framework]
 | **Elliptic Geometry** (Closed, no parallel lines) | Like spherical but without antipodal points identified | Similar trig functions to spherical geometry, with variations | Used in some cosmological models and theoretical physics. |
 | **General Riemannian Geometry** | Curved spaces with varying curvature | Trigonometric relations generalized using metric tensors | Trig functions generalized via Jacobi fields, comparison theorems, etc. |
 
+## Notebook
+
+- [Trigonometric Playground](/corpus/notes/epistemica/mathematical/playground/trigonometric-playground.html) — the unit circle as a runner: measure x and y, then read every function off the ratios.
+
 ## References
 
 - https://en.wikipedia.org/wiki/Trigonometry

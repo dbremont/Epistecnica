@@ -7324,6 +7324,11 @@
     "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Link the Trigonometric Playground notebook from a new Notebook section."
    }
   ]
  },
@@ -85886,6 +85891,26 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "Fill the Rotation stub: the matrix definition and determinant test against reflection, the classification by angle/dimension/composition, its properties, the answer to the QA (an Epistemic Construction, not a Property or Method), and the space of rotations (SO(2) a circle, SO(3) as RP3 with the quaternion double cover)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/playground/trigonometric-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New Trigonometric Playground live note: the unit circle as a runner for trigonometry — drag, type an angle or snap to 15°, measure x and y, then read every function off the ratios of x, y, r, with the undefined quotients marked where the denominator vanishes."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/playground/index.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Add the Trigonometric Playground card to the mathematical notebook index."
    }
   ]
  }
