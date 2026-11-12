@@ -6910,6 +6910,11 @@
     "kind": "refactor",
     "summary": "Move to epistemica/mathematical/geometry/.",
     "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "refactor",
+    "summary": "Rebuild the References: four dangling Notion exports resolved to their corpus notes (Inner Product Space, Euclidean Geometry, Trigonometry, Wavelet), the Complex Numbers and solid-angle sources added, grouped into Sources and Corpus with every link resolving."
    }
   ]
  },

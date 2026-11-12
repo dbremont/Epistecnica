@@ -42,11 +42,32 @@ tags: [note, mathematics, geometry]
 | By Position | **Same-Side Interior** | Interior angles on the same side of a transversal. | Sum to \(180^\circ\) if lines are parallel. |
 | By Position | **Same-Side Exterior** | Exterior angles on the same side of a transversal. | Sum to \(180^\circ\) if lines are parallel. |
 
+## Measurement System
+
+| Measurement System | Description |
+|---|---|
+| **Degree System** | Divides a complete revolution into 360 equal parts, each called a degree (°). |
+| **Radian System** | Measures angles using the ratio between the arc length and the radius of a circle. A complete revolution is \(2\pi\) radians. |
+| **Gradian System** | Divides a complete revolution into 400 equal parts, each called a gradian (gon). |
+
 ## References
 
-- [Angle](https://en.wikipedia.org/wiki/Angle)
-- Inner Product Space (Inner%20Product%20Space%20ccdaf9b41b20443cb416c7b1bd5e4ef7.md)
-- Euclidean  Geometry (Euclidean%20Geometry%20858b34433a204b55bb716919101bdcc6.md)
-- Trigonometry (Trigonometry%201d6c0f5171ec80529c03fd3d402539db.md)
-- Wavelet (Wavelet%207b19eaee77db4a42bf9c1c9027f158c2.md)
+**Sources**
 
+- https://en.wikipedia.org/wiki/Angle
+- https://en.wikipedia.org/wiki/Radian
+- https://en.wikipedia.org/wiki/Gradian
+- https://en.wikipedia.org/wiki/Solid_angle
+- Euclid, *Elements*, Book I (the definitions of angle and the parallel postulate the angle relations rest on)
+
+**Corpus**
+
+- [Euclidean Geometry](/view.html?p=notes/epistemica/mathematical/geometry/euclidean-geometry.md) — the system an angle is defined in
+- [Trigonometry](/view.html?p=notes/epistemica/mathematical/geometry/trigonometry.md) — the functions of the angle
+- [Triangle](/view.html?p=notes/epistemica/mathematical/geometry/triangle.md) — interior and exterior angles, the angle sum
+- [Polygon](/view.html?p=notes/epistemica/mathematical/geometry/polygon.md) — interior angles and convexity
+- [Rotation](/view.html?p=notes/epistemica/mathematical/geometry/rotation.md) — the transformation an angle measures
+- [Symmetry](/view.html?p=notes/epistemica/mathematical/symmetry.md) — the axes and rotations that preserve the angle
+- [Inner Product Space](/view.html?p=notes/epistemica/mathematical/space/inner-product-space.md) — the angle between vectors
+- [Complex Numbers](/view.html?p=notes/epistemica/mathematical/complex/complex-numbers-c.md) — the angle as the argument of a complex number
+- [Wavelet](/view.html?p=notes/epistemica/mathematical/mapping/wavelet.md) — the phase reading of an angle in a transform
