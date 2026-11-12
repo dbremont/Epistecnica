@@ -678,7 +678,7 @@ Aphorisms:
 - https://www.nature.com/articles/s41586-022-05543-x
 - Peer review is an honor-based system ([lemire.me](http://lemire.me/))
 [https://news.ycombinator.com/item?id=38982912](https://news.ycombinator.com/item?id=38982912)
-- [Ontology](/view.html?p=notes/nature/theory/ontology.md)
+- [Ontology](/view.html?p=notes/nature/meta/ontology.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.
@@ -689,4 +689,4 @@ Aphorisms:
 - Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
 - Pearl, J. (2009). *Causality: Models, Reasoning, and Inference* (2nd ed.). Cambridge University Press.
 
-Related: [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md), [Representation](/view.html?p=notes/epistemica/epistemic/theory/representation.md), [Affirmation Space](/view.html?p=notes/epistemica/epistemic/theory/affirmation-space.md), [Variable](/view.html?p=notes/epistemica/epistemic/theory/variable.md), [State](/view.html?p=notes/epistemica/epistemic/theory/state.md), [Activity](/view.html?p=notes/epistemica/epistemic/theory/activity.md), [Reality](/view.html?p=notes/nature/theory/reality.md), [Quasi-Open Interaction Field](/view.html?p=notes/nature/theory/quasi-open-interaction-field.md)
+Related: [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md), [Representation](/view.html?p=notes/epistemica/epistemic/theory/representation.md), [Affirmation Space](/view.html?p=notes/epistemica/epistemic/theory/affirmation-space.md), [Variable](/view.html?p=notes/epistemica/epistemic/theory/variable.md), [State](/view.html?p=notes/epistemica/epistemic/theory/state.md), [Activity](/view.html?p=notes/epistemica/epistemic/theory/activity.md), [Reality](/view.html?p=notes/nature/meta/reality.md), [Quasi-Open Interaction Field](/view.html?p=notes/nature/meta/quasi-open-interaction-field.md)

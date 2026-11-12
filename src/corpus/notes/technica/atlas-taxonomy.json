@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "dom-energy",
+    "label": "Energy Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects producing, converting, storing, or distributing energy: generators, turbines, batteries, inverters, and the dams and grids that carry their output."
+  },
+  {
+    "id": "knd-energy-producer",
+    "label": "Energy good producer",
+    "level": "kind",
+    "parent": "dom-energy",
+    "kind": "Energy Good Producer",
+    "desc": "Transforms energy into delivered power, force, or conditioned energy — the producing technical element whose delivered good is energy."
+  },
+  {
+    "id": "cls-primary-gen",
+    "label": "Primary generation",
+    "level": "class",
+    "parent": "knd-energy-producer",
+    "desc": "Plants that convert a primary resource — falling water, radiation, wind — into electrical energy."
+  },
+  {
+    "id": "obj-three-gorges-dam",
+    "label": "Three Gorges Dam",
+    "level": "object",
+    "parent": "cls-primary-gen",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Final",
+    "hs": "6810.99",
+    "note": "technica/general/cto/industry/energy-technology.md",
+    "atlas": "Technical Element → Technical Element Set → Energy Technology → Production Technical System → Generation System → Production Technical Object → Three Gorges Dam",
+    "desc": "Hydroelectric generating dam in the Yangtze basin: concrete barrier, spillway, ship lift and a turbine hall of 32 units. Typed `Production Technical Object` inside `Generation System`; the corpus decomposition gives the dam body and turbine hall, not its economics — that is the good taxonomy's job."
+  },
+  {
+    "id": "cls-storage",
+    "label": "Stationary storage",
+    "level": "class",
+    "parent": "knd-energy-producer",
+    "desc": "Objects that hold energy for later delivery: electrochemical banks, pumped-hydro reservoirs, and the inverters that couple them to the grid."
+  },
+  {
+    "id": "obj-battery-bank",
+    "label": "Battery Bank",
+    "level": "object",
+    "parent": "cls-storage",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8507.60",
+    "note": "technica/general/cto/industry/stationary-energy-storage.md",
+    "atlas": "Technical Element → Production Technical System → Stationary Energy Storage → Constitutive Technical Object → Battery Bank",
+    "desc": "The electrochemical store at the heart of a stationary installation: cell stacks, modules and racks whose operative structure is the reversible reaction. Constitutive of the installed system, traded as lithium-ion accumulators."
+  },
+  {
+    "id": "dom-materials",
+    "label": "Material Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects whose identity is their substance: alloys, ceramics, polymers, raw materials and the minerals they are won from. Generally `Constitutive Technical Object` — they constitute larger objects rather than acting."
+  },
+  {
+    "id": "knd-materials-constitutive",
+    "label": "Constitutive object",
+    "level": "kind",
+    "parent": "dom-materials",
+    "kind": "Constitutive Technical Object",
+    "desc": "Component or constituent constituting a larger technical object or system — the stuff-kind of production, not a producer and not a support."
+  },
+  {
+    "id": "cls-metals",
+    "label": "Metals & alloys",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Material families won from ore and refined by smelting, then traded as grade."
+  },
+  {
+    "id": "obj-steel",
+    "label": "Steel",
+    "level": "object",
+    "parent": "cls-metals",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "7208.10",
+    "note": "technica/general/cto/industry/steel.md",
+    "atlas": "Technical Element → Technical Resource → Technical Material → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Steel",
+    "desc": "The iron-carbon alloy family, classified by composition, microstructure, treatment and use — A36 and 1018 for construction, 4140 low-alloy, 304 stainless, DP600 auto sheet, M2 and D2 tool steel. A stuff-kind: it constitutes structures, machines and tools."
+  },
+  {
+    "id": "obj-rare-earths",
+    "label": "Rare Earth Elements",
+    "level": "object",
+    "parent": "cls-metals",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "2805.30",
+    "note": "technica/general/cto/industry/rare-earth-elements.md",
+    "atlas": "Technical Element → Constitutive Technical Object → Rare Earth Elements",
+    "desc": "The lanthanide family separated from monazite and bastnäsite and embedded as NdFeB magnets, phosphors and catalysts. A raw-material object whose value is almost entirely downstream."
+  },
+  {
+    "id": "cls-ceramics-glass",
+    "label": "Ceramics & glass",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Non-metallic mineral material families fired or melted into a finished substance."
+  },
+  {
+    "id": "obj-portland-cement",
+    "label": "Portland Cement",
+    "level": "object",
+    "parent": "cls-ceramics-glass",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "2523.29",
+    "note": "technica/general/cto/industry/material-technology.md",
+    "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Portland Cement",
+    "desc": "Calcium-silicate clinker ground with gypsum — the binder that, with aggregate and water, constitutes concrete. The classic intermediate object: never used as such, always consumed into something else."
+  },
+  {
+    "id": "obj-float-glass",
+    "label": "Float Glass",
+    "level": "object",
+    "parent": "cls-ceramics-glass",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "7005.10",
+    "note": "technica/general/cto/industry/nonmetallic-production.md",
+    "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Float Glass",
+    "desc": "Glass cast on a molten-tin bath into a flat, fire-polished sheet — the substrate of windows, displays and solar modules."
+  },
+  {
+    "id": "cls-semiconductor-material",
+    "label": "Semiconductor materials",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Single-crystal substrates and wide-bandgap compounds whose materiality is a controlled defect structure."
+  },
+  {
+    "id": "obj-silicon-wafer",
+    "label": "Silicon Wafer",
+    "level": "object",
+    "parent": "cls-semiconductor-material",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "3818.00",
+    "note": "technica/general/cto/industry/semiconductor-technology.md",
+    "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Silicon Wafer",
+    "desc": "A sliced, lapped and polished single-crystal silicon disc — the substrate every integrated circuit is built on. Untyped by function, typed by purity."
+  },
+  {
+    "id": "obj-sic-wafer",
+    "label": "SiC Wafer",
+    "level": "object",
+    "parent": "cls-semiconductor-material",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "3818.00",
+    "note": "technica/general/cto/industry/semiconductor-technology.md",
+    "atlas": "Technical Element → Technical Element Set → Material Technology Set → Constitutive Technical Object → SiC Wafer",
+    "desc": "Silicon-carbide substrate for power and RF devices: a wide-bandgap material that survives electric fields silicon cannot."
+  },
+  {
+    "id": "cls-phase-semiconductor",
+    "label": "Semiconductor compounds",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Compound crystals that are the active medium of a device rather than a substrate under it."
+  },
+  {
+    "id": "obj-gallium-nitride",
+    "label": "Gallium Nitride",
+    "level": "object",
+    "parent": "cls-phase-semiconductor",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "3818.00",
+    "note": "technica/general/cto/industry/gallium-nitride.md",
+    "atlas": "Technical Element → Constitutive Technical Object → Gallium Nitride",
+    "desc": "A III–V wide-bandgap compound: the gain medium of blue LEDs and the channel of fast, high-voltage power transistors. Its materiality is the product."
+  },
+  {
+    "id": "cls-biopolymers",
+    "label": "Polymers & bioplastics",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Long-chain material families — petroleum-derived or fermented — formed into parts by extrusion and moulding."
+  },
+  {
+    "id": "obj-petroleum-polymer",
+    "label": "Petroleum Polymer",
+    "level": "object",
+    "parent": "cls-biopolymers",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "3901.10",
+    "note": "technica/general/cto/industry/plastics-production.md",
+    "atlas": "Technical Element → Technical Resource → Technical Material → Constitutive Technical Object → Petroleum Polymer",
+    "desc": "Polymer resin grades — PE, PP, PS, PVC, PET — sold as pellets and melt-formed into parts. The material of choice wherever a part must be cheap and shaped in one shot."
+  },
+  {
+    "id": "obj-bioplastic",
+    "label": "Bioplastic",
+    "level": "object",
+    "parent": "cls-biopolymers",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "3907.61",
+    "note": "technica/general/cto/industry/plastics-production.md",
+    "atlas": "Technical Element → Technical Resource → Technical Biogenic Material Set → Constitutive Technical Object → Bioplastic",
+    "desc": "Fermented or crop-derived polymer resin — PLA, PHA — with the same forming behaviour as a petroleum polymer and a different end-of-life story."
+  },
+  {
+    "id": "cls-biogenic",
+    "label": "Biogenic materials",
+    "level": "class",
+    "parent": "knd-materials-constitutive",
+    "desc": "Material families grown rather than won: timber, fibre, leather."
+  },
+  {
+    "id": "obj-lumber",
+    "label": "Lumber",
+    "level": "object",
+    "parent": "cls-biogenic",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "4407.11",
+    "note": "technica/general/cto/industry/technical-biogenic-material.md",
+    "atlas": "Technical Element → Technical Resource → Technical Biogenic Material Set → Constitutive Technical Object → Lumber",
+    "desc": "Sawn and graded timber — the structural material of frame construction and the raw stock of furniture and formwork."
+  },
+  {
+    "id": "dom-machinery",
+    "label": "Machinery & Machine Elements",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects that do mechanical work or transmit it: producing machines, machine tools, drives, gearing, bearings and the couplings between them."
+  },
+  {
+    "id": "knd-machine",
+    "label": "Machine",
+    "level": "kind",
+    "parent": "dom-machinery",
+    "kind": "Machine",
+    "desc": "Drive, motion, or power package that actuates a tool or equipment — the guide's `Machine` support kind, used here where the object's identity is the motion it generates."
+  },
+  {
+    "id": "cls-driving-machines",
+    "label": "Driving machinery",
+    "level": "class",
+    "parent": "knd-machine",
+    "desc": "Prime movers and drive packages that turn fuel, electricity or fluid into shaft work."
+  },
+  {
+    "id": "obj-motor-shop",
+    "label": "Motor Shop",
+    "level": "object",
+    "parent": "cls-driving-machines",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8501.52",
+    "note": "technica/general/cto/industry/appliance-production.md",
+    "atlas": "Technical Element → Production Technical System → Appliance Production → Production Technical Object → Motor Shop",
+    "desc": "The electric-motor line of an appliance plant: stator winding, rotor stacking, magnet insertion and test — the drive package the finished appliance is built around."
+  },
+  {
+    "id": "cls-transmission",
+    "label": "Transmission elements",
+    "level": "class",
+    "parent": "knd-machine",
+    "desc": "Elements that carry, reduce or redirect motion between a machine and what it drives."
+  },
+  {
+    "id": "obj-gear-train",
+    "label": "Gear Train",
+    "level": "object",
+    "parent": "cls-transmission",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8483.40",
+    "note": "technica/general/cto/industry/mechanical-system.md",
+    "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Gear Train",
+    "desc": "A meshed set of toothed wheels fixing the ratio between input and output shaft — the canonical machine element from the corpus's `Mechanical System` decomposition."
+  },
+  {
+    "id": "obj-bearing-set",
+    "label": "Bearing Set",
+    "level": "object",
+    "parent": "cls-transmission",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8482.10",
+    "note": "technica/general/cto/industry/mechanical-system.md",
+    "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Bearing Set",
+    "desc": "Rolling or plain bearing elements that constrain a rotating shaft while carrying its load — the element that decides a machine's life."
+  },
+  {
+    "id": "knd-machinery-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-machinery",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — formed, shaped, treated, or relocated matter whose finished state is the output."
+  },
+  {
+    "id": "cls-machine-tools",
+    "label": "Machine tools",
+    "level": "class",
+    "parent": "knd-machinery-producer",
+    "desc": "Machines whose product is a machined surface: a lathe, a mill, a drill press, a grinder."
+  },
+  {
+    "id": "obj-lathe-bed",
+    "label": "Lathe Bed",
+    "level": "object",
+    "parent": "cls-machine-tools",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8458.19",
+    "note": "technica/general/cto/industry/machine-tool-production.md",
+    "atlas": "Technical Element → Production Technical System → Machine Tool Production → Production Technical Object → Lathe Bed",
+    "desc": "The cast bed that carries the headstock, saddle and tailstock of a lathe — the object that fixes the straightness of everything machined on it."
+  },
+  {
+    "id": "obj-cnc-machining",
+    "label": "CNC machining cell",
+    "level": "object",
+    "parent": "cls-machine-tools",
+    "guide": "Production Technical System",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8457.10",
+    "note": "technica/general/cto/industry/cnc-machining.md",
+    "desc": "A numerically controlled machine tool with its fixture, tool magazine and post-processor: the object whose output is a tolerance rather than a shape."
+  },
+  {
+    "id": "knd-machinery-facility",
+    "label": "Production facility",
+    "level": "kind",
+    "parent": "dom-machinery",
+    "kind": "Production Facility",
+    "desc": "Built structure or site that houses, protects, and services production — read here as the works in which machines are installed."
+  },
+  {
+    "id": "cls-machine-building",
+    "label": "Manufacturing works",
+    "level": "class",
+    "parent": "knd-machinery-facility",
+    "desc": "Industrial buildings: machine halls, foundries, mills — the shell a production line is set into."
+  },
+  {
+    "id": "obj-machine-hall",
+    "label": "Machine Hall",
+    "level": "object",
+    "parent": "cls-machine-building",
+    "guide": "Production Facility",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "7308.90",
+    "note": "technica/general/cto/industry/industrial-machinery.md",
+    "desc": "The long-span, crane-served hall in which machine tools and lines are installed — structure, foundation block and power drop treated as one object."
+  },
+  {
+    "id": "dom-tools",
+    "label": "Tools & Instruments",
+    "level": "domain",
+    "parent": null,
+    "desc": "Implements that bear on the workpiece or measure the process: hand and power tools, cutting tools, gauges, sensors and laboratory apparatus."
+  },
+  {
+    "id": "knd-tool",
+    "label": "Support — tool",
+    "level": "kind",
+    "parent": "dom-tools",
+    "kind": "Production Tool",
+    "desc": "Implement that bears directly on the workpiece or target, shaping, holding, cutting, or joining it."
+  },
+  {
+    "id": "cls-hand-tools",
+    "label": "Hand & power tools",
+    "level": "class",
+    "parent": "knd-tool",
+    "desc": "Held implements driven by the hand or by a small integral motor."
+  },
+  {
+    "id": "obj-hand-power-tools",
+    "label": "Hand power tool line",
+    "level": "object",
+    "parent": "cls-hand-tools",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Consumer, Intermediate",
+    "hs": "8467.21",
+    "note": "technica/general/cto/industry/hand-power-tool-production.md",
+    "desc": "The manufactured class of corded and cordless tools — drill, grinder, saw — assembled on a shared motor-and-switch platform."
+  },
+  {
+    "id": "knd-instrument",
+    "label": "Support — instrument",
+    "level": "kind",
+    "parent": "dom-tools",
+    "kind": "Production Instrument",
+    "desc": "Implement that measures, indicates, regulates, or monitors a production variable."
+  },
+  {
+    "id": "cls-metrology",
+    "label": "Metrology instruments",
+    "level": "class",
+    "parent": "knd-instrument",
+    "desc": "Instruments whose reading is a length, an angle or a shape."
+  },
+  {
+    "id": "obj-cmm",
+    "label": "Coordinate Measuring Machine",
+    "level": "object",
+    "parent": "cls-metrology",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9031.49",
+    "note": "technica/general/cto/industry/metrology-services.md",
+    "atlas": "Technical Element → Technical Element Set → Metrology Services Set → Production Technical Object → Coordinate Measuring Machine",
+    "desc": "A granite-and-air-bearing bridge that touches a part at sampled points and reports coordinates — the instrument that arbitrates whether the machine that made it was right."
+  },
+  {
+    "id": "cls-sensors",
+    "label": "Sensors & probes",
+    "level": "class",
+    "parent": "knd-instrument",
+    "desc": "Instruments that transduce a physical variable into a signal a controller can read."
+  },
+  {
+    "id": "obj-sensor",
+    "label": "Process Sensor",
+    "level": "object",
+    "parent": "cls-sensors",
+    "guide": "Constitutive Technical Object, readable as Technical Element of a measurement chain",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9027.89",
+    "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+    "atlas": "Technical Element → Technical Element Set → Biotechnology → Production Technical System → Upstream → Constitutive Technical Object → Sensor",
+    "desc": "pH, dissolved-oxygen, CO₂ and temperature probes in a production line: constitutive of the control loop, and the element whose drift silently invalidates a batch."
+  },
+  {
+    "id": "dom-construction",
+    "label": "Construction & Built Works",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects built in place out of earth, concrete, steel and masonry: structures, foundations, earth-retaining works, tunnels and the plant that raises them."
+  },
+  {
+    "id": "knd-construction-facility",
+    "label": "Support — facility",
+    "level": "kind",
+    "parent": "dom-construction",
+    "kind": "Production Facility",
+    "desc": "Built structure or site that houses, protects, and services production — here the works that carry, protect or service other activity."
+  },
+  {
+    "id": "cls-earth-works",
+    "label": "Earthworks & retaining",
+    "level": "class",
+    "parent": "knd-construction-facility",
+    "desc": "Works whose material is the ground itself, placed or held back."
+  },
+  {
+    "id": "obj-retaining-wall",
+    "label": "Retaining Wall",
+    "level": "object",
+    "parent": "cls-earth-works",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Final",
+    "hs": "6810.99",
+    "note": "technica/discipline/geotechnical-engineering.md",
+    "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Retaining Wall",
+    "desc": "A structure that holds a soil mass at a different elevation on its two faces. Its constitution includes a natural element — the retained soil — which is why it is typed as an object of the geotechnical site, not of a factory."
+  },
+  {
+    "id": "obj-embankment",
+    "label": "Embankment",
+    "level": "object",
+    "parent": "cls-earth-works",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Final",
+    "hs": "6810.99",
+    "note": "technica/discipline/geotechnical-engineering.md",
+    "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Embankment",
+    "desc": "A raised earth structure carrying a road, rail line or water — compacted fill whose stability is a slope-stability, not a strength-of-material, question."
+  },
+  {
+    "id": "obj-foundation",
+    "label": "Foundation",
+    "level": "object",
+    "parent": "cls-earth-works",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Intermediate",
+    "hs": "6810.99",
+    "note": "technica/discipline/geotechnical-engineering.md",
+    "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Foundation",
+    "desc": "The deep or shallow element that transfers a structure's load into the ground — a facility in the guide's sense, since it merely holds what it carries."
+  },
+  {
+    "id": "obj-tunnel-lining",
+    "label": "Tunnel Lining",
+    "level": "object",
+    "parent": "cls-earth-works",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Final",
+    "hs": "6810.99",
+    "note": "technica/discipline/geotechnical-engineering.md",
+    "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Tunnel Lining",
+    "desc": "Segmental or cast-in-place support lining an excavated tunnel against the ground it passes through — the structure that makes an opening permanent."
+  },
+  {
+    "id": "cls-buildings",
+    "label": "Buildings & envelopes",
+    "level": "class",
+    "parent": "knd-construction-facility",
+    "desc": "Enclosed works: housing, halls, containers for people and production."
+  },
+  {
+    "id": "obj-house-system",
+    "label": "House",
+    "level": "object",
+    "parent": "cls-buildings",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Consumer, Final",
+    "hs": "9406.00",
+    "note": "technica/general/op/house/house-system.md",
+    "desc": "The dwelling as a technical object: envelope, structure, services and interior environment — an assembly whose operative behaviour is shelter, not transformation."
+  },
+  {
+    "id": "knd-construction-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-construction",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here the site plant that builds works out of raw site conditions."
+  },
+  {
+    "id": "cls-site-plant",
+    "label": "Site plant",
+    "level": "class",
+    "parent": "knd-construction-producer",
+    "desc": "Machines deployed on a construction site to lift, place, compact or excavate."
+  },
+  {
+    "id": "obj-tower-crane",
+    "label": "Tower Crane",
+    "level": "object",
+    "parent": "cls-site-plant",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8426.20",
+    "note": "technica/general/cto/industry/construction-technology.md",
+    "atlas": "Technical Element → Technical Element Set → Construction Technology Set → Production Technical Object → Tower Crane",
+    "desc": "A vertical mast with a rotating jib that raises materials through a building's height — a producer in the narrow sense that it relocates matter, and a support in the guide's sense that it transforms nothing itself."
+  },
+  {
+    "id": "dom-transport",
+    "label": "Transport Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects that relocate goods and people: vehicles, vessels, rolling stock, aircraft, drones and the conveyor systems that move matter inside a plant."
+  },
+  {
+    "id": "knd-transport-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-transport",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here the located matter, since transport's output is a change of place."
+  },
+  {
+    "id": "cls-vehicles",
+    "label": "Road & rail vehicles",
+    "level": "class",
+    "parent": "knd-transport-producer",
+    "desc": "Self-propelled and towed objects that move on a road or a track."
+  },
+  {
+    "id": "obj-automobile",
+    "label": "Automobile",
+    "level": "object",
+    "parent": "cls-vehicles",
+    "guide": "Production Technical System",
+    "good": "Private, Durable, Consumer, Final",
+    "hs": "8703.23",
+    "note": "technica/general/cto/industry/automobile-system.md",
+    "atlas": "Technical Element → Production Technical System → Automobile System",
+    "desc": "A road vehicle as a production technical system: body, powertrain, chassis, electrical architecture and the assembly line that constitutes it."
+  },
+  {
+    "id": "cls-vessels",
+    "label": "Vessels",
+    "level": "class",
+    "parent": "knd-transport-producer",
+    "desc": "Floating objects built to carry cargo or perform work at sea."
+  },
+  {
+    "id": "obj-shipbuilding",
+    "label": "Hull Structure",
+    "level": "object",
+    "parent": "cls-vessels",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Final",
+    "hs": "8901.90",
+    "note": "technica/general/cto/industry/naval-shipbuilding.md",
+    "atlas": "Technical Element → Production Technical System → Naval Shipbuilding → Constitutive Technical Object → Hull Structure",
+    "desc": "The welded steel shell, decks and bulkheads of a vessel — the object whose fabrication is the shipyard's whole craft."
+  },
+  {
+    "id": "cls-aerial",
+    "label": "Aerial objects",
+    "level": "class",
+    "parent": "knd-transport-producer",
+    "desc": "Objects that displace themselves and their payload through the air."
+  },
+  {
+    "id": "obj-uav",
+    "label": "Unmanned Aerial Vehicle",
+    "level": "object",
+    "parent": "cls-aerial",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8806.10",
+    "note": "technica/general/cto/industry/unmanned-aerial-vehicle.md",
+    "atlas": "Technical Element → Production Technical System → Unmanned Aerial Vehicle",
+    "desc": "An airframe with flight controller, propulsion and payload whose production work is surveying, spraying or inspection rather than carriage."
+  },
+  {
+    "id": "knd-transport-equipment",
+    "label": "Support — equipment",
+    "level": "kind",
+    "parent": "dom-transport",
+    "kind": "Production Equipment",
+    "desc": "Apparatus that conveys, holds, positions, or otherwise enables production without transforming the delivered good."
+  },
+  {
+    "id": "cls-conveying",
+    "label": "Conveying systems",
+    "level": "class",
+    "parent": "knd-transport-equipment",
+    "desc": "Equipment that carries material between stations of a process."
+  },
+  {
+    "id": "obj-conveyor-line",
+    "label": "Conveyor Line",
+    "level": "object",
+    "parent": "cls-conveying",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8428.33",
+    "note": "technica/general/cto/industry/industrial-machinery.md",
+    "atlas": "Technical Element → Production Technical System → Industrial Machinery → Production Technical Object → Conveyor Line",
+    "desc": "A belt or roller track linking stations of a line. Inside a bottling plant it transforms nothing and produces nothing — the guide's textbook demotion from producer to `Production Equipment` support."
+  },
+  {
+    "id": "dom-chemicals",
+    "label": "Chemical & Process Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects whose operation is a chemical or physical transformation carried out in vessels, columns, reactors and the piping that joins them."
+  },
+  {
+    "id": "knd-chemical-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-chemicals",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here by reaction, separation or formulation rather than by shaping."
+  },
+  {
+    "id": "cls-reaction",
+    "label": "Reaction vessels",
+    "level": "class",
+    "parent": "knd-chemical-producer",
+    "desc": "Objects that hold a reacting mixture and control its temperature and agitation."
+  },
+  {
+    "id": "obj-reactor-train",
+    "label": "Reactor Train",
+    "level": "object",
+    "parent": "cls-reaction",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8419.89",
+    "note": "technica/general/cto/industry/chemical-basics.md",
+    "atlas": "Technical Element → Production Technical System → Basic Chemicals Production → Production Technical Object → Reactor Train",
+    "desc": "A cascade of reactors and heat exchangers carrying a reaction to conversion — the train, not the vessel, is the producing object."
+  },
+  {
+    "id": "obj-bioreactor",
+    "label": "Bioreactor",
+    "level": "object",
+    "parent": "cls-reaction",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8479.82",
+    "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+    "desc": "A stirred, sparged, jacketed vessel in which cells grow: agitator, sparger and the probes that hold pH and dissolved oxygen. Stainless or single-use, the object is the same."
+  },
+  {
+    "id": "cls-separation",
+    "label": "Separation equipment",
+    "level": "class",
+    "parent": "knd-chemical-producer",
+    "desc": "Objects that split a mixture into its components by boiling point, solubility or size."
+  },
+  {
+    "id": "obj-distillation-column",
+    "label": "Distillation Column",
+    "level": "object",
+    "parent": "cls-separation",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8419.40",
+    "note": "technica/general/cto/industry/chemical-basics.md",
+    "atlas": "Technical Element → Production Technical System → Basic Chemicals Production → Production Technical Object → Distillation Column",
+    "desc": "A vertical shell of trays or packing in which rising vapour and falling liquid exchange and split by volatility."
+  },
+  {
+    "id": "knd-chemical-equipment",
+    "label": "Support — equipment",
+    "level": "kind",
+    "parent": "dom-chemicals",
+    "kind": "Production Equipment",
+    "desc": "Apparatus that conveys, holds, positions, or otherwise enables production without transforming the delivered good — here the piping and valving of a plant."
+  },
+  {
+    "id": "cls-piping",
+    "label": "Piping & valving",
+    "level": "class",
+    "parent": "knd-chemical-equipment",
+    "desc": "The static equipment that routes and stops flow between vessels."
+  },
+  {
+    "id": "obj-valve-assembly",
+    "label": "Valve Assembly",
+    "level": "object",
+    "parent": "cls-piping",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8481.80",
+    "note": "technica/general/cto/industry/mechanical-system.md",
+    "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Valve Assembly",
+    "desc": "Body, trim, stem and actuator forming one controllable flow restriction — the smallest object of a plant that can be said to decide anything."
+  },
+  {
+    "id": "dom-electronics",
+    "label": "Electronics & Computing",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects whose operation is electrical or computational: devices, components, boards, hardware platforms and the virtual objects software constitutes."
+  },
+  {
+    "id": "knd-electronics-constitutive",
+    "label": "Constitutive object",
+    "level": "kind",
+    "parent": "dom-electronics",
+    "kind": "Constitutive Technical Object",
+    "desc": "Component or constituent constituting a larger technical object — here the devices soldered into a board or a module."
+  },
+  {
+    "id": "cls-devices",
+    "label": "Discrete devices",
+    "level": "class",
+    "parent": "knd-electronics-constitutive",
+    "desc": "Single-function semiconductor and passive devices."
+  },
+  {
+    "id": "obj-transistor",
+    "label": "Transistor",
+    "level": "object",
+    "parent": "cls-devices",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8541.21",
+    "note": "technica/general/cto/industry/transistor.md",
+    "atlas": "Technical Element → Constitutive Technical Object → Transistor",
+    "desc": "A three-terminal switch and amplifier — the element every digital object is composed of, and the corpus's canonical case of a constitutive object."
+  },
+  {
+    "id": "obj-igbt-module",
+    "label": "IGBT Module",
+    "level": "object",
+    "parent": "cls-devices",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8541.29",
+    "note": "technica/general/cto/industry/semiconductor-technology.md",
+    "atlas": "Technical Element → Constitutive Technical Object → Transistor → Constitutive Technical Object → IGBT Module",
+    "desc": "Insulated-gate bipolar switches packaged with their diode and driver — the device that lets an inverter move kilowatts."
+  },
+  {
+    "id": "cls-circuit-boards",
+    "label": "Boards & modules",
+    "level": "class",
+    "parent": "knd-electronics-constitutive",
+    "desc": "Assemblies that mount devices on a substrate and provide their interconnect."
+  },
+  {
+    "id": "obj-electrical-board",
+    "label": "Electrical Board",
+    "level": "object",
+    "parent": "cls-circuit-boards",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8534.00",
+    "note": "technica/general/cto/industry/electronic-circuit.md",
+    "atlas": "Technical Element → Production Technical System → House System → Constitutive Technical Object → Electrical Board",
+    "desc": "A populated board — passive components, devices and connectors on the interconnect that binds them into a circuit."
+  },
+  {
+    "id": "knd-electronics-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-electronics",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here the fabricated wafer and the assembled device."
+  },
+  {
+    "id": "cls-fabs",
+    "label": "Semiconductor fabrication",
+    "level": "class",
+    "parent": "knd-electronics-producer",
+    "desc": "The process objects that turn a substrate into finished devices."
+  },
+  {
+    "id": "obj-lithography-cell",
+    "label": "Lithography Cell",
+    "level": "object",
+    "parent": "cls-fabs",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8486.20",
+    "note": "technica/general/cto/industry/semiconductor-technology.md",
+    "atlas": "Technical Element → Production Technical System → Semiconductor Fabrication → Production Technical Object → Lithography Cell",
+    "desc": "Scanner, track and metrology bound into one cell that prints a layer of a wafer — the tool whose resolution sets what a node means."
+  },
+  {
+    "id": "knd-electronics-system",
+    "label": "Production technical system",
+    "level": "kind",
+    "parent": "dom-electronics",
+    "kind": "Production Technical System",
+    "desc": "A system producing or operating technical objects — objects that are only meaningful as an integrated whole of parts."
+  },
+  {
+    "id": "cls-computing-platforms",
+    "label": "Computing platforms",
+    "level": "class",
+    "parent": "knd-electronics-system",
+    "desc": "Finished computing objects sold as such."
+  },
+  {
+    "id": "obj-smartphone",
+    "label": "Smartphone",
+    "level": "object",
+    "parent": "cls-computing-platforms",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Consumer, Final",
+    "hs": "8517.12",
+    "note": "technica/general/cto/industry/semiconductor-technology.md",
+    "atlas": "Technical Element → Technical Element Set → Electronics Technology Set → Production Technical Object → Smartphone",
+    "desc": "Radio, application processor, display and battery in a sealed case — the technical object that the goods taxonomy also lists as a consumer product, which is exactly the overlap the two catalogues exist to show."
+  },
+  {
+    "id": "obj-wifi-router",
+    "label": "Wi-Fi Router",
+    "level": "object",
+    "parent": "cls-computing-platforms",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Consumer, Final",
+    "hs": "8517.62",
+    "note": "technica/general/cto/industry/software-technology.md",
+    "atlas": "Technical Element → Technical Element Set → Electronics Technology Set → Production Technical Object → Wi-Fi Router",
+    "desc": "An embedded switch, radio and forwarding engine — a technical object whose behaviour is almost entirely its firmware."
+  },
+  {
+    "id": "knd-virtual",
+    "label": "Virtual object",
+    "level": "kind",
+    "parent": "dom-electronics",
+    "kind": "Production Virtual Technical Object",
+    "desc": "A technical object whose operative structure is primarily informational or computational and whose operation is realized through computation."
+  },
+  {
+    "id": "cls-runtime-software",
+    "label": "Runtime platforms",
+    "level": "class",
+    "parent": "knd-virtual",
+    "desc": "Software whose operative structure is a deployable runtime: a scheduler, an application server, a cache."
+  },
+  {
+    "id": "obj-jobrunr",
+    "label": "JobRunr",
+    "level": "object",
+    "parent": "cls-runtime-software",
+    "guide": "Production Virtual Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "note": "technica/general/cto/es/multinode/jobrunr.md",
+    "atlas": "Technical Element → Constitutive Technical Object → JobRunr",
+    "desc": "A JVM background-job scheduler distributed as a library: dashboards, queues, a recurring-job store. The corpus's clearest virtual technical object — no mass, one behaviour."
+  },
+  {
+    "id": "obj-wildfly",
+    "label": "WildFly",
+    "level": "object",
+    "parent": "cls-runtime-software",
+    "guide": "Production Virtual Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "note": "technica/general/cto/es/multinode/wildfly.md",
+    "desc": "A Jakarta EE application server: an object assembled from a core, extension modules, a deployment repository and an Undertow listener."
+  },
+  {
+    "id": "cls-model-artifacts",
+    "label": "Trained models",
+    "level": "class",
+    "parent": "knd-virtual",
+    "desc": "Computational objects whose value is their parameters, not their code."
+  },
+  {
+    "id": "obj-transformer-model",
+    "label": "Transformer Model",
+    "level": "object",
+    "parent": "cls-model-artifacts",
+    "guide": "Production Virtual Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "note": "technica/ais/architecture/transformer/transformer.md",
+    "atlas": "Technical Element → Production Technical System → Transformer System → Production Technical Object → Transformer Model",
+    "desc": "A stack of attention and feed-forward sublayers with learned weights — a virtual object whose identity is a checkpoint and a tokenizer."
+  },
+  {
+    "id": "dom-agrifood",
+    "label": "Food & Agricultural Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects of field, barn, greenhouse and processing plant: machinery, housing, stores and the processing lines that turn harvest and herd into food."
+  },
+  {
+    "id": "knd-agri-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-agrifood",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here cultivated biomass and processed food."
+  },
+  {
+    "id": "cls-field-machinery",
+    "label": "Field machinery",
+    "level": "class",
+    "parent": "knd-agri-producer",
+    "desc": "Machines deployed on open land to sow, tend and harvest."
+  },
+  {
+    "id": "obj-combine-harvester",
+    "label": "Combine Harvester",
+    "level": "object",
+    "parent": "cls-field-machinery",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8433.51",
+    "note": "technica/general/cto/industry/agriculture-system.md",
+    "atlas": "Technical Element → Technical Element Set → Plant Cultivation Technical Domain Set → Technical Element Set → Field Operations And Mechanization Set → Production Technical Object → Combine Harvester",
+    "desc": "A self-propelled machine that cuts, threshes and winnows grain in one pass — three classical operations fused into a single producing object."
+  },
+  {
+    "id": "cls-processing-lines",
+    "label": "Processing lines",
+    "level": "class",
+    "parent": "knd-agri-producer",
+    "desc": "Lines that convert raw harvest or milk into a storable, traded food."
+  },
+  {
+    "id": "obj-pasteurization-line",
+    "label": "Pasteurization Line",
+    "level": "object",
+    "parent": "cls-processing-lines",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8419.89",
+    "note": "technica/general/cto/industry/dairy-production.md",
+    "atlas": "Technical Element → Production Technical System → Dairy Production → Production Technical Object → Pasteurization Line",
+    "desc": "Heat exchanger, holding tube, cooler and valves that take raw milk through a time–temperature kill step."
+  },
+  {
+    "id": "obj-bottling-line",
+    "label": "Bottling Line",
+    "level": "object",
+    "parent": "cls-processing-lines",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8422.30",
+    "note": "technica/general/cto/industry/beverage-production.md",
+    "desc": "Washer, filler, capper and labeller synchronized by accumulation conveyors — the line as one producing object, every conveyor in it a support."
+  },
+  {
+    "id": "knd-agri-facility",
+    "label": "Support — facility",
+    "level": "kind",
+    "parent": "dom-agrifood",
+    "kind": "Production Facility",
+    "desc": "Built structure or site that houses, protects, and services production — here housing, greenhouses, barns and stores."
+  },
+  {
+    "id": "cls-animal-housing",
+    "label": "Animal housing",
+    "level": "class",
+    "parent": "knd-agri-facility",
+    "desc": "Built environments that shelter and service livestock."
+  },
+  {
+    "id": "obj-barn-housing",
+    "label": "Barn & Housing Structure",
+    "level": "object",
+    "parent": "cls-animal-housing",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9406.00",
+    "note": "technica/general/cto/industry/livestock-farming-system.md",
+    "atlas": "Technical Element → Technical Element Set → Animal Husbandry Technical Set → Production Technical Object → Barn And Housing Structure",
+    "desc": "The shed, ventilation and restraint system that shelters a herd — a facility whose environment is the production variable."
+  },
+  {
+    "id": "cls-controlled-environment",
+    "label": "Controlled environments",
+    "level": "class",
+    "parent": "knd-agri-facility",
+    "desc": "Enclosed growing or storing environments where climate is engineered."
+  },
+  {
+    "id": "obj-greenhouse",
+    "label": "Greenhouse",
+    "level": "object",
+    "parent": "cls-controlled-environment",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9406.90",
+    "note": "technica/general/cto/industry/agriculture-system.md",
+    "desc": "A glazed or film-clad envelope with heating, venting and fertigation — a building whose whole point is to be a controlled environment."
+  },
+  {
+    "id": "dom-health",
+    "label": "Medical & Laboratory Objects",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects that act on patients or on samples: instruments, diagnostic devices, implants and the laboratory apparatus that makes evidence."
+  },
+  {
+    "id": "knd-health-producer",
+    "label": "Service good producer",
+    "level": "kind",
+    "parent": "dom-health",
+    "kind": "Service Good Producer",
+    "desc": "Transforms reality by performing a service on entities, patients, or stocks, where the performed service *is* the good."
+  },
+  {
+    "id": "cls-diagnostics",
+    "label": "Diagnostic instruments",
+    "level": "class",
+    "parent": "knd-health-producer",
+    "desc": "Instruments that convert a sample or a body into a recorded signal."
+  },
+  {
+    "id": "obj-sequencer",
+    "label": "Sequencing Instrument",
+    "level": "object",
+    "parent": "cls-diagnostics",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9027.80",
+    "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+    "atlas": "Technical Element → Technical Element Set → Plant Health Technical Set → Technical Element Set → Diagnostic And Detection Set → Constitutive Technical Object → Sequencing Instrument",
+    "desc": "A fluidic, optical and computational object that reads a DNA strand base by base — a producer whose delivered good is information."
+  },
+  {
+    "id": "obj-electron-microscope",
+    "label": "Electron Microscope",
+    "level": "object",
+    "parent": "cls-diagnostics",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9012.10",
+    "note": "technica/general/cto/industry/laboratory-tooling.md",
+    "atlas": "Technical Element → Technical Element Set → Laboratory Tooling Set → Production Technical Object → Electron Microscope",
+    "desc": "Column, lenses, specimen stage and detectors forming one instrument that turns an electron beam into an image of a surface."
+  },
+  {
+    "id": "knd-health-constitutive",
+    "label": "Constitutive object",
+    "level": "kind",
+    "parent": "dom-health",
+    "kind": "Constitutive Technical Object",
+    "desc": "Component or constituent constituting a larger technical object — here the material installed inside a body."
+  },
+  {
+    "id": "cls-implants",
+    "label": "Implant materials",
+    "level": "class",
+    "parent": "knd-health-constitutive",
+    "desc": "Biomaterials that constitute a device remaining in the body."
+  },
+  {
+    "id": "obj-titanium-implant",
+    "label": "Titanium Implant",
+    "level": "object",
+    "parent": "cls-implants",
+    "guide": "Constitutive Technical Object",
+    "good": "Private, Durable, Capital, Final",
+    "hs": "9021.29",
+    "note": "technica/general/cto/industry/laboratory-tooling.md",
+    "atlas": "Technical Element → Technical Element Set → Material Technology Set → Constitutive Technical Object → Titanium Implant",
+    "desc": "A machined titanium body — screw, plate, joint — whose constitutive material is chosen for biocompatibility as much as strength."
+  },
+  {
+    "id": "knd-health-instrument",
+    "label": "Support — instrument",
+    "level": "kind",
+    "parent": "dom-health",
+    "kind": "Production Instrument",
+    "desc": "Implement that measures, indicates, regulates, or monitors a production variable — here the bench apparatus of a clinical or QC lab."
+  },
+  {
+    "id": "cls-lab-apparatus",
+    "label": "Laboratory apparatus",
+    "level": "class",
+    "parent": "knd-health-instrument",
+    "desc": "Bench instruments that condition, separate or read a sample."
+  },
+  {
+    "id": "obj-thermocycler",
+    "label": "Thermocycler",
+    "level": "object",
+    "parent": "cls-lab-apparatus",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8419.89",
+    "note": "technica/general/cto/industry/laboratory-tooling.md",
+    "atlas": "Technical Element → Technical Element Set → Plant Health Technical Set → Technical Element Set → Diagnostic And Detection Set → Constitutive Technical Object → Thermocycler",
+    "desc": "A heated block and lid that drive a PCR reaction through cycles of temperature — the instrument that made molecular biology a routine."
+  },
+  {
+    "id": "dom-water",
+    "label": "Water & Environmental Works",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects that supply, move, store, treat or dispose of water and waste: pumping sets, treatment trains, dams and irrigation assemblies."
+  },
+  {
+    "id": "knd-water-producer",
+    "label": "Material good producer",
+    "level": "kind",
+    "parent": "dom-water",
+    "kind": "Material Good Producer",
+    "desc": "Transforms matter into a delivered material good — here potable water and treated effluent."
+  },
+  {
+    "id": "cls-irrigation",
+    "label": "Irrigation & water supply",
+    "level": "class",
+    "parent": "knd-water-producer",
+    "desc": "Objects that move water to where it is needed."
+  },
+  {
+    "id": "obj-drip-irrigation",
+    "label": "Drip Irrigation Assembly",
+    "level": "object",
+    "parent": "cls-irrigation",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8424.81",
+    "note": "technica/general/cto/industry/agriculture-system.md",
+    "atlas": "Technical Element → Technical Element Set → Plant Cultivation Technical Domain Set → Technical Element Set → Water And Irrigation Set → Production Technical Object → Drip Irrigation Assembly",
+    "desc": "Headworks, filter, mainline and emitters delivering metered water to roots — equipment that conveys rather than transforms."
+  },
+  {
+    "id": "cls-pumping",
+    "label": "Pumping & fluid handling",
+    "level": "class",
+    "parent": "knd-water-producer",
+    "desc": "Machines that add head and flow to a liquid."
+  },
+  {
+    "id": "obj-pump",
+    "label": "Pump",
+    "level": "object",
+    "parent": "cls-pumping",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "8413.70",
+    "note": "technica/general/cto/industry/chemical-basics.md",
+    "desc": "A casing and impeller (or a reciprocating chamber) that converts shaft work into fluid head. The corpus decomposes it inside every plant it serves; it stands here as its own object."
+  },
+  {
+    "id": "knd-water-facility",
+    "label": "Support — facility",
+    "level": "kind",
+    "parent": "dom-water",
+    "kind": "Production Facility",
+    "desc": "Built structure or site that houses, protects, and services production — here the works that contain water."
+  },
+  {
+    "id": "cls-containments",
+    "label": "Containment works",
+    "level": "class",
+    "parent": "knd-water-facility",
+    "desc": "Civil works built to hold or contain water and residue."
+  },
+  {
+    "id": "obj-tailings-facility",
+    "label": "Tailings Facility",
+    "level": "object",
+    "parent": "cls-containments",
+    "guide": "Production Technical Object",
+    "good": "Public, Durable, Capital, Final",
+    "hs": "6810.99",
+    "note": "technica/general/cto/industry/mining-system.md",
+    "atlas": "Technical Element → Production Technical System → Mining System → Production Technical Object → Tailings Facility",
+    "desc": "A dammed impoundment for mine residue — a work whose retained material is the hazard, and whose failure mode is the design question."
+  },
+  {
+    "id": "dom-facilities",
+    "label": "Facilities & Infrastructure",
+    "level": "domain",
+    "parent": null,
+    "desc": "Objects whose product is the service a place provides: logistics hubs, warehouses, terminals, retail and service premises."
+  },
+  {
+    "id": "knd-facility",
+    "label": "Support — facility",
+    "level": "kind",
+    "parent": "dom-facilities",
+    "kind": "Production Facility",
+    "desc": "Built structure or site that houses, protects, and services production."
+  },
+  {
+    "id": "cls-logistics",
+    "label": "Logistics & storage",
+    "level": "class",
+    "parent": "knd-facility",
+    "desc": "Premises where goods are held, sorted or transferred rather than made."
+  },
+  {
+    "id": "obj-cold-store",
+    "label": "Cold Store",
+    "level": "object",
+    "parent": "cls-logistics",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9406.90",
+    "note": "technica/general/cto/industry/logistics-system.md",
+    "atlas": "Technical Element → Production Technical System → Dairy Production → Production Technical Object → Cold Store",
+    "desc": "An insulated envelope with refrigeration plant, evaporators and monitoring — a facility whose stored good is time."
+  },
+  {
+    "id": "obj-warehouse",
+    "label": "Warehouse",
+    "level": "object",
+    "parent": "cls-logistics",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Intermediate",
+    "hs": "9406.90",
+    "note": "technica/general/cto/industry/logistics-system.md",
+    "desc": "Racking, floor, dock and handling equipment forming one storage object — the node where goods stop being in transit."
+  },
+  {
+    "id": "cls-service-premises",
+    "label": "Service premises",
+    "level": "class",
+    "parent": "knd-facility",
+    "desc": "Built objects whose product is a hospitality, retail or maintenance service."
+  },
+  {
+    "id": "obj-hotel-property",
+    "label": "Hotel Property",
+    "level": "object",
+    "parent": "cls-service-premises",
+    "guide": "Production Technical Object",
+    "good": "Private, Durable, Capital, Final",
+    "hs": "9406.00",
+    "note": "technica/general/cto/industry/tourism-system.md",
+    "atlas": "Technical Element → Production Technical System → Tourism System → Production Technical Object → Hotel Property",
+    "desc": "Rooms, plant and front-of-house systems as one facility — a technical object whose delivered good is a stay."
+  }
+]

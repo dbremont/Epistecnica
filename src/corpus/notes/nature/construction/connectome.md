@@ -126,7 +126,7 @@ Overall, connectome research holds great promise for advancing our understanding
 
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md)
-- [Nervous system](/view.html?p=notes/nature/nervous-system.md)
+- [Nervous system](/view.html?p=notes/nature/human/nervous-system.md)
 - [The human connectome: A complex network](/research/?node=sporns-2011-human-connectome-complex-network-annals)
 - Sporns, O. (2011). The human connectome: a complex network. 1224(1), 109–125.
 - The human connectome: a structural description of the human brain” by O. Sporns et al. (2013)

@@ -9,7 +9,7 @@ tags: [note]
 > soils, waters, air, and every product of life from metabolite to peat bed. The first cut
 > below intention: what remains when all deliberately transformed matter (the technical
 > reading) is set aside. Parent instance [Nature](/view.html?p=notes/nature/nature.md); children
-> [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) and
+> [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md) and
 > [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md). Worked per
 > [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
 > Presupposed definitions (`Reality`, segments, levels of organization, the ontology/epistemology
@@ -84,7 +84,7 @@ technically, the formation naturally
 > It precedes every split: origin-agnostic (biogenic and abiogenic alike), composition-free
 > (no chemistry or lattice in the criterion), and level-spanning (molecule to formation).
 > Its single individuating mark is negative — *not intentionally transformed* — which is why
-> the origin-defined [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) is the most
+> the origin-defined [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md) is the most
 > abstract *positive* category beneath it, and why all worked matter falls outside it
 > entirely, into the technical reading.
 
@@ -95,7 +95,7 @@ technically, the formation naturally
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (multi-root forest rule)
 - [Nature](/view.html?p=notes/nature/nature.md) (parent: all observer-independent reality)
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
-- [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (child: all matter made by life)
+- [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md) (child: all matter made by life)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (child: all physical matter not made by life)
 - [Technical Material](/view.html?p=notes/technica/general/cto/industry/technical-material.md) (counterpart: all intentionally transformed matter)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

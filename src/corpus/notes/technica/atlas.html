@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Element Forest</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="stylesheet" href="/shared/usearch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-void:#0b0e14; --bg-surface:#11151e; --bg-card:#161b26; --bg-elevated:#1d2330;
+            --text-primary:#f4f3f1; --text-secondary:#a8a5b0; --text-muted:#9290aa; --text-ghost:#82809a;
+            --accent-gold:#c9956c; --accent-cyan:#4dd4c4; --border-subtle:rgba(255,255,255,0.05); --border-medium:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.12);
+            --card-bg:rgba(22,27,38,0.72); --nav-bg:rgba(11,14,20,0.85); --font-display:'Cormorant Garamond',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace; }
+        html[data-theme="light"] { --bg-void:#f5f2ea; --bg-surface:#efe9dc; --bg-card:#fffdf8; --bg-elevated:#ffffff;
+            --text-primary:#1a1d24; --text-secondary:#4a4f5e; --text-muted:#7a7f8e; --text-ghost:#9aa0ae;
+            --accent-gold:#9a7b3f; --accent-cyan:#0e7c72; --border-subtle:rgba(20,22,30,0.10); --border-medium:rgba(20,22,30,0.14); --border-strong:rgba(20,22,30,0.22);
+            --card-bg:rgba(255,253,248,0.72); --nav-bg:rgba(245,242,234,0.85); }
+        * { margin:0; padding:0; box-sizing:border-box; } html { scroll-behavior:smooth; background:var(--bg-void); }
+        body { background:var(--bg-void); color:var(--text-primary); font-family:var(--font-body); min-height:100vh; transition:opacity 180ms ease; }
+        html.theme-fading body { opacity:0; }
+        a { color:inherit; text-decoration:none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline:1px solid var(--accent-cyan); outline-offset:3px; }
+
+        /* ---------- detail extras (TreeCatalog supplies the .tc-* shell) ---------- */
+        .tc-detail .desc { white-space:normal; }
+        .tc-detail .path { font-family:var(--font-mono); font-size:.68rem; line-height:1.9; color:var(--text-muted); word-break:break-word; }
+        .tc-detail .srcs { list-style:none; margin:0; }
+        .tc-detail .srcs li { margin-bottom:.2rem; white-space:normal; overflow-wrap:anywhere; }
+    </style>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="filter this tree…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="masthead">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/technica">technica</a><span class="sep">/</span>
+        <span class="here">Atlas</span>
+    </nav>
+    <h1 class="note-title">Technical Element Forest</h1>
+    <p class="subtitle">The <em>decomposition</em> of the technica corpus — every row of every <code>| Instance Tree Path | Description |</code> table merged into one instance tree, read off the notes and never off the file layout, rendered from <a href="atlas.json">atlas.json</a>. Paths split on <code>→</code>: backticked segments are type groupings, plain segments are instances typed by their nearest grouping. Types are named by the canonical guide <a href="/view.html?p=notes/philosophia-artium-technicarum-et-operis.md">Philosophia Artium Technicarum et Operis</a>; each node lists the notes whose tables decompose it. This is the <em>forest</em>; the <a href="technical-object-taxonomy.html">technical-object taxonomy</a> is the classification <em>object domain → kind → class → object</em> over the same corpus.</p>
+</div>
+
+<div id="treeCatalog"></div>
+
+<footer class="page-foot">
+    <p>Data: <code>atlas.json</code> — Technical Element Forest, generated from the decomposition tables of the technica notes (<span id="atlasCount">14,536 nodes</span>); never hand-edited, so the store is rebuilt after any table edit and validated by the atlas check. The selected node lives in the URL fragment (<code>#Technical Element → …</code>), so a reload reopens it.</p>
+</footer>
+
+<script src="/data/live/tree-catalog.js"></script>
+<script>
+(function () {
+    "use strict";
+
+    var SEP = " \u2192 ";
+
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+    function fmt(n) { return Number(n || 0).toLocaleString(); }
+    function noteHref(p) { return "/view.html?p=notes/" + String(p).split("/").map(encodeURIComponent).join("/"); }
+
+    /* the store is a forest of {label, kind, type, description, sources, children};
+       TreeCatalog wants a flat id/parent list. The id IS the instance-tree path,
+       which is unique in the store by construction. */
+    function flatten(roots) {
+        var nodes = [];
+        function rec(node, parentId) {
+            var id = parentId == null ? node.label : parentId + SEP + node.label;
+            nodes.push({
+                id: id,
+                label: node.label,
+                parent: parentId,
+                level: node.type || node.kind || "",
+                kind: node.kind,
+                type: node.type || "",
+                description: node.description || "",
+                sources: node.sources || [],
+                hasChildren: !!(node.children && node.children.length)
+            });
+            (node.children || []).forEach(function (c) { rec(c, id); });
+        }
+        roots.forEach(function (r) { rec(r, null); });
+        return nodes;
+    }
+
+    fetch("atlas.json", { cache: "no-cache" })
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (data) {
+            var root = data.roots[0];
+            var nodes = flatten(data.roots);
+            var stats = data.stats || {};
+
+            var lbl = document.getElementById("atlasCount");
+            if (stats.nodes) {
+                lbl.textContent = fmt(stats.nodes) + " nodes (" + fmt(stats.groupings) +
+                    " groupings, " + fmt(stats.instances) + " instances) from " +
+                    fmt(stats.rows) + " table rows \u00b7 " + fmt(stats.branches) +
+                    " branches \u00b7 depth " + fmt(stats.maxDepth);
+            }
+
+            var tree = TreeCatalog.mount("#treeCatalog", {
+                rootLabel: "Technical Elements",
+                openDepth: 2,
+                nodes: nodes,
+                subtitle: "decomposition forest",
+                searchPlaceholder: "Search instance, grouping, or path\u2026",
+                detail: {
+                    code: function (n) { return n.kind === "instance" ? "" : (n.type || ""); },
+                    chips: function (n) {
+                        var out = [n.kind];
+                        if (n.kind === "grouping" && n.type && n.type !== n.label) out.push(n.type);
+                        return out;
+                    },
+                    body: function (n) {
+                        var h = "";
+                        var desc = String(n.description || "").replace(/^Type grouping:\s*/, "");
+                        if (desc) h += "<h4>What it is</h4><p class=\"desc\">" + esc(desc) + "</p>";
+                        if (n.kind === "grouping" && n.type) {
+                            h += "<h4>Type grouping</h4><p>Instances below are typed <code>" + esc(n.type) + "</code> by their nearest grouping segment; the type is quoted from the canonical technica guide.</p>";
+                        }
+                        if (n.kind === "instance" && n.type) {
+                            h += "<h4>Typed as</h4><p><code>" + esc(n.type) + "</code> in the technica corpus.</p>";
+                        }
+                        h += "<h4>Instance tree path</h4><p class=\"path\">" + n.id.split(SEP).map(function (p) { return esc(p); }).join(' \u2192 ') + "</p>";
+                        if (n.sources.length) {
+                            h += "<h4>Decomposed in</h4><ul class=\"srcs\">" + n.sources.map(function (s) {
+                                return '<li><a href="' + esc(noteHref(s)) + '">' + esc(s) + " \u2197</a></li>";
+                            }).join("") + "</ul>";
+                        }
+                        if (!n.hasChildren) {
+                            h += "<h4>Leaf instance</h4><p>No further decomposition in the corpus.</p>";
+                        }
+                        return h;
+                    }
+                }
+            });
+
+            var q = null;
+            try { q = new URLSearchParams(location.search).get("node"); } catch (e) { q = null; }
+            if (q) tree.select(q, true);
+        })
+        .catch(function (e) {
+            document.getElementById("treeCatalog").innerHTML = '<div class="tc-empty">Could not load atlas data \u2014 ' + esc(e.message) + "</div>";
+        });
+})();
+</script>
+<script src="/shared/usearch.js" data-root="../../../../" data-mode="filter"></script>
+</body>
+</html>

@@ -39,7 +39,7 @@ Below is a **table of biomolecules**, including their **types**, **functions**, 
 
 ## Related
 
-- [Protein](/view.html?p=notes/nature/protein.md)
+- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
 - [Bond](/view.html?p=notes/nature/matter/bond.md)
 
 ## Provenance

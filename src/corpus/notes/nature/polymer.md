@@ -19,8 +19,8 @@ tags: [note, nature, substance-matter, matter]
 
 ## Related
 
-- [RNA](/view.html?p=notes/nature/rna.md)
-- [Biopolymer](/view.html?p=notes/nature/biopolymer.md)
+- [RNA](/view.html?p=notes/nature/bio/genome/rna.md)
+- [Biopolymer](/view.html?p=notes/nature/bio/molecular/biopolymer.md)
 
 ## Provenance
 

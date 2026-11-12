@@ -276,7 +276,7 @@ conditions and the representativeness of the observer.
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Physical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) — the family whose Optics member supplies the stimulus
 - [Statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md) — the inference discipline behind observer variability and tolerance setting
-- [Light](/view.html?p=notes/nature/light.md) · [Human Vision System](/view.html?p=notes/nature/human-vision-system.md) · [Optical Phenomena](/view.html?p=notes/nature/optical-phenomena.md) · [Perception](/view.html?p=notes/nature/perception.md) — the stimulus, the observer, and the perceptual context
+- [Light](/view.html?p=notes/nature/light.md) · [Human Vision System](/view.html?p=notes/nature/human/human-vision-system.md) · [Optical Phenomena](/view.html?p=notes/nature/optical-phenomena.md) · [Perception](/view.html?p=notes/nature/human/perception.md) — the stimulus, the observer, and the perceptual context
 - [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - CIE. *Commission Internationale de l'Éclairage Proceedings* and the CIE 15 colorimetry standard.
 - Wyszecki, G., & Stiles, W. S. *Color Science: Concepts and Methods, Quantitative Data and Formulae*. Wiley.

@@ -140,8 +140,8 @@
     },
     {
       "from": "epistemica/epistemic/",
-      "to": "nature/theory/",
-      "label": "Theory of Nature",
+      "to": "nature/meta/",
+      "label": "Metaphysics of Nature",
       "kind": "hierarchy"
     },
     {
@@ -194,8 +194,20 @@
     },
     {
       "from": "nature/human/cognitive/conceptual-model-cognition/",
-      "to": "nature/cognition/meaning.md",
+      "to": "nature/human/cognitive/meaning.md",
       "label": "Meaning",
+      "kind": "related"
+    },
+    {
+      "from": "social/good/",
+      "to": "technica/",
+      "label": "Technical Objects",
+      "kind": "related"
+    },
+    {
+      "from": "technica/",
+      "to": "social/good/",
+      "label": "Goods",
       "kind": "related"
     }
   ]

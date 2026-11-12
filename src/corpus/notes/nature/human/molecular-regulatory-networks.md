@@ -77,7 +77,7 @@ Readable secondarily as a `Mechanism`, since the network is what produces regula
 ## Related
 
 - [Human Biomolecular Architecture](/view.html?p=notes/nature/human/biomolecular-architecture.md)
-- [Metabolic Pathway](/view.html?p=notes/nature/metabolic-pathway.md)
+- [Metabolic Pathway](/view.html?p=notes/nature/bio/process/metabolic-pathway.md)
 - [Enzyme Regulation](/view.html?p=notes/nature/enzyme/enzyme-regulation.md)
-- [Protein Complex](/view.html?p=notes/nature/protein-complex.md)
-- [Protein](/view.html?p=notes/nature/protein.md)
+- [Protein Complex](/view.html?p=notes/nature/bio/molecular/protein-complex.md)
+- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)

@@ -32,7 +32,7 @@ tags: [note, nature, substance-matter, chemistry, materials-science, matter]
 
 ## Related
 
-- [Cellulose](/view.html?p=notes/nature/cellulose.md)
+- [Cellulose](/view.html?p=notes/nature/bio/molecular/cellulose.md)
 
 ## Provenance
 

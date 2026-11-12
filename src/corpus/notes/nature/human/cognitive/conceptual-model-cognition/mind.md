@@ -60,7 +60,7 @@ tags: [note, human, cognition]
 
 ## References
 
-- [Brain](/view.html?p=notes/nature/brain.md)
+- [Brain](/view.html?p=notes/nature/human/brain.md)
 - https://en.wikipedia.org/wiki/Mind
 - https://en.wikipedia.org/wiki/Philosophy_of_mind
 - https://en.wikipedia.org/wiki/Conatus

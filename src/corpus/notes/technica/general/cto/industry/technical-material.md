@@ -63,7 +63,7 @@ No-repetition exception); full expansion lives in the child notes, not here.
 ### Why do petroleum-derived polymers classify at Technical Material?
 
 > Because forcing them into either origin family is false precision. Their feedstock is
-> paleo-living petroleum — a transformed [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md)
+> paleo-living petroleum — a transformed [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md)
 > substance — which reads biogenic; yet refining, cracking, and polymerization erase every
 > origin character the biogenic family is individuated by, which reads abiogenic. When
 > origin is ambiguous it does not make sense to classify either way, so the instance rises
@@ -78,7 +78,7 @@ No-repetition exception); full expansion lives in the child notes, not here.
 - [Material Technology](/view.html?p=notes/technica/general/cto/industry/material-technology.md) (the matter-manipulation domain set)
 - [Materiotecnia](/view.html?p=notes/technica/general/cto/industry/materiotecnia.md) (material investigation and design discipline)
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (counterpart: all untransformed matter)
-- [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (feedstock reading: all matter made by life)
+- [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md) (feedstock reading: all matter made by life)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (feedstock reading: all physical matter not made by life)
 - [Technical Biogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-biogenic-material.md) (child: living-feedstock family)
 - [Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md) (child: mineral-feedstock family)

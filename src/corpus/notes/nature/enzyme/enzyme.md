@@ -144,13 +144,13 @@ Three details are worth keeping. First, **RuBisCO is a lyase, not a ligase** —
 
 ## References
 
-- [Protein](/view.html?p=notes/nature/protein.md)
+- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
 - [Enzyme Regulation](/view.html?p=notes/nature/enzyme/enzyme-regulation.md)
 - [Enzyme Catalysis](/view.html?p=notes/nature/enzyme/enzyme-catalysis.md)
 - [Enzyme Activity / Kinetics (E, kcat, Km)](/view.html?p=notes/nature/enzyme/enzyme-activity-kinetics-e-kcat-km.md)
 - [Enzyme Assays](/view.html?p=notes/nature/enzyme/enzyme-assays.md)
-- [Glucose](/view.html?p=notes/nature/glucose.md)
-- [Starch](/view.html?p=notes/nature/starch.md)
+- [Glucose](/view.html?p=notes/nature/bio/molecular/glucose.md)
+- [Starch](/view.html?p=notes/nature/bio/molecular/starch.md)
 - [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO)
 
 - https://enzyme.expasy.org/

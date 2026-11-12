@@ -237,7 +237,7 @@ There are several kinds of mental representations beyond concepts, including:
 
 ## References
 
-- [Cognitive](/view.html?p=notes/nature/cognitive.md)
+- [Cognitive](/view.html?p=notes/nature/human/cognitive.md)
 - [Guia Mayor](https://app.notion.com/p/Guia-Mayor-cce02f04c4724677ba46b314151134db?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [A Guide to Language and Cognition](https://app.notion.com/p/A-Guide-to-Language-and-Cognition-1aac0f5171ec804794dbc97bc4999e9c?pvs=21)

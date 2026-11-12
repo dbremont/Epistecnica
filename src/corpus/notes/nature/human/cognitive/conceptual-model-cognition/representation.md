@@ -640,7 +640,7 @@ A **theory of knowledge** is a systematic framework that tries to explain:
 > What are the main theories of brain representations?
 >
 
-> **Note:** These theories are generally broad theories of cognition, not solely focused on representation. For more details, see [Cognitive](/view.html?p=notes/nature/cognitive.md).
+> **Note:** These theories are generally broad theories of cognition, not solely focused on representation. For more details, see [Cognitive](/view.html?p=notes/nature/human/cognitive.md).
 >
 
 | **Theory** | **Representation Type** | **Description** | **History** |
@@ -865,7 +865,7 @@ Meaning as function, not essence:
 
 ## References
 
-- [Cognitive](/view.html?p=notes/nature/cognitive.md)
+- [Cognitive](/view.html?p=notes/nature/human/cognitive.md)
 - [Guia Mayor](https://app.notion.com/p/Guia-Mayor-cce02f04c4724677ba46b314151134db?pvs=21)
 - [A Guide to Study](https://app.notion.com/p/A-Guide-to-Study-c24ba1c6d4084de1b741ff4fef7a1749?pvs=21)
 - [General Topic Note Template](https://app.notion.com/p/General-Topic-Note-Template-1cec0f5171ec801e86e6c894702cfe23?pvs=21)
@@ -885,9 +885,9 @@ Meaning as function, not essence:
 - **Finley, K. (2025).** *Embodied Cognition and the Grip of Computational Metaphors*. Ergo.
 - Anderson, M. L. (2003). Embodied cognition: A field guide. 149(1), 91–130.
 - [Epistemology](https://app.notion.com/p/Epistemology-0e47f3d857c544c6b08bc991c24c8891?pvs=21)
-- [Human Memory](/view.html?p=notes/nature/human-memory.md)
+- [Human Memory](/view.html?p=notes/nature/human/human-memory.md)
 - [Reference System](/view.html?p=notes/nature/human/cognitive/reference-system.md)
-- [What are the different cognitive states achieved after learning?](/view.html?p=notes/nature/human-memory.md)
+- [What are the different cognitive states achieved after learning?](/view.html?p=notes/nature/human/human-memory.md)
 - https://www.youtube.com/watch?v=3Eqr780xUuY&t=13s
 - https://www.youtube.com/watch?v=DgvV3IbUedo&t=196s
 - https://www.youtube.com/watch?v=jvdo-SlGl4A

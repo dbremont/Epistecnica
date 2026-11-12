@@ -360,4 +360,4 @@ QA:
  - [ ] 
  - [ ] Cognitive
     - [ ]  https://en.wikipedia.org/wiki/Prima_facie
- - [ ] [Philosophia Naturalis](/view.html?p=notes/nature/theory/philosophia-naturalis.md)
+ - [ ] [Philosophia Naturalis](/view.html?p=notes/nature/meta/philosophia-naturalis.md)

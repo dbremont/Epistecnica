@@ -4,7 +4,9 @@
 Merges the three corpus indexes into one lightweight metadata file,
 src/app/data/library-index.json, consumed by the hub and the unified
 library page. Each entry keeps {corpus, kind, path, title, section,
-tags, words}; full text stays in the per-corpus indexes.
+tags, words}; full text stays in the per-corpus indexes. The notes
+index's `links` registry (data/links.json, embedded by notes_index.py)
+is carried through so the explorer renders its linked group.
 
 Usage: python3 bin/build_library_index.py
 """
@@ -26,11 +28,11 @@ SOURCES = [
 ]
 
 
-def load(path: Path, key: str) -> list:
+def load(path: Path, key: str):
     if not path.exists():
         raise SystemExit(f"ERROR: missing index {path} — run make index first")
     data = json.loads(path.read_text(encoding="utf-8"))
-    return data.get(key, [])
+    return data.get(key, []), data.get("links", [])
 
 
 def build(progress=None) -> bool:
@@ -38,8 +40,11 @@ def build(progress=None) -> bool:
         progress.start("merging the corpus indexes")
 
     entries = []
+    links = []
     for corpus, path, key in SOURCES:
-        items = load(path, key)
+        items, corpus_links = load(path, key)
+        if corpus == "note":
+            links = corpus_links
         for item in items:
             prefix = {"note": "notes", "document": "documents", "course": "courses"}[corpus]
             entry = {
@@ -75,11 +80,13 @@ def build(progress=None) -> bool:
         "count": len(entries),
         "kinds": dict(counts),
         "sections": {k: dict(v) for k, v in sections.items()},
+        "links": links,
         "entries": entries,
     }, ensure_ascii=False, separators=(",", ":")))
 
     kb = OUT.stat().st_size / 1024
-    print(f"library-index: {len(entries)} entries -> src/app/data/library-index.json ({kb:.0f} KB)")
+    print(f"library-index: {len(entries)} entries, {len(links)} links "
+          f"-> src/app/data/library-index.json ({kb:.0f} KB)")
     for corpus, count in sorted(counts.items()):
         print(f"  {corpus}: {count}")
     if progress is not None:

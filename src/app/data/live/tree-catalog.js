@@ -270,6 +270,20 @@
                 if (el) frag.appendChild(el);
             });
             treeEl.appendChild(frag);
+            /* `openDepth` opens the top levels on landing (1 = roots only,
+               2 = roots + their children), so a big catalog shows its
+               structure instead of a single row */
+            var depth = Number(cfg.openDepth || 0);
+            if (depth > 0) {
+                (function openLevel(ids, d) {
+                    ids.forEach(function (id) {
+                        if (d <= 0) return;
+                        OPEN[id] = true;
+                        if (T[id]) { T[id].el.open = true; fill(id); T[id].open = true; }
+                        openLevel(kids[id] || [], d - 1);
+                    });
+                })(roots, depth);
+            }
         }
 
         function ancestorsOf(id) {

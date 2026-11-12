@@ -128,4 +128,4 @@ The learned-society reading is primary; the Institute and its rooms are parts of
 - [French Academy of Sciences](/view.html?p=notes/social/collective/actor/public/catalog/research/fra/french-academy-of-sciences.md)
 - [Prussian Academy of Sciences](/view.html?p=notes/social/collective/actor/public/catalog/research/deu/prussian-academy-of-sciences.md)
 - [Research](/view.html?p=notes/social/facet/research.md)
-- [Gluten](/view.html?p=notes/nature/gluten.md)
+- [Gluten](/view.html?p=notes/nature/bio/molecular/gluten.md)

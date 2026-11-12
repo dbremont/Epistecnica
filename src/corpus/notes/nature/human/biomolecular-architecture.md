@@ -91,23 +91,23 @@ The elements and small ions the body is assembled from, together with water. Wat
 
 Large molecules built from the constituents, held by covalent bonds. Four families do most of the work, and a fifth class — the small metabolic intermediates — carries material between them.
 
-- **Proteins** — [Protein](/view.html?p=notes/nature/protein.md). The largest class by dry mass: enzymes, structural filaments, receptors, transporters, transcription factors.
-- **Lipids** — [Lipid](/view.html?p=notes/nature/lipid.md). Hydrophobic molecules that form the membranes, store energy, and act as hormones and second messengers.
-- **Carbohydrates** — [Carbohydrate](/view.html?p=notes/nature/carbohydrate.md). Sugars and their polymers: energy, storage, and the glycan marks on proteins and lipids.
+- **Proteins** — [Protein](/view.html?p=notes/nature/bio/molecular/protein.md). The largest class by dry mass: enzymes, structural filaments, receptors, transporters, transcription factors.
+- **Lipids** — [Lipid](/view.html?p=notes/nature/bio/molecular/lipid.md). Hydrophobic molecules that form the membranes, store energy, and act as hormones and second messengers.
+- **Carbohydrates** — [Carbohydrate](/view.html?p=notes/nature/bio/molecular/carbohydrate.md). Sugars and their polymers: energy, storage, and the glycan marks on proteins and lipids.
 - **Nucleic Acids** — [Nucleic Acid](/view.html?p=notes/nature/nucleic-acid.md). DNA as the archive and the RNAs as the working copies, messengers and catalysts.
-- **Metabolites** — [Metabolite](/view.html?p=notes/nature/metabolite.md). The small molecules that are the substrates, products and signals of every pathway above.
+- **Metabolites** — [Metabolite](/view.html?p=notes/nature/bio/molecular/metabolite.md). The small molecules that are the substrates, products and signals of every pathway above.
 
 ### Molecular Complexes
 
-Separate chains bound to one another to act as a single functional unit — haemoglobin, the ribosome, the proteasome, ATP synthase. The defining property is not proximity but that the assembly is what does the work. [Protein Complex](/view.html?p=notes/nature/protein-complex.md).
+Separate chains bound to one another to act as a single functional unit — haemoglobin, the ribosome, the proteasome, ATP synthase. The defining property is not proximity but that the assembly is what does the work. [Protein Complex](/view.html?p=notes/nature/bio/molecular/protein-complex.md).
 
 ### Molecular Assemblies
 
-Larger structures built by non-covalent association: lipid bilayers and membranes, collagen fibrils, actin filaments, microtubules, and the membrane-less condensates of the cytoplasm and nucleus. Assemblies are where the architecture becomes **material**: because their bonds are weak, they can be assembled, reshaped and disassembled on the timescale of a cell's needs, and that reversibility is the point. [Molecular Assembly](/view.html?p=notes/nature/molecular-assembly.md).
+Larger structures built by non-covalent association: lipid bilayers and membranes, collagen fibrils, actin filaments, microtubules, and the membrane-less condensates of the cytoplasm and nucleus. Assemblies are where the architecture becomes **material**: because their bonds are weak, they can be assembled, reshaped and disassembled on the timescale of a cell's needs, and that reversibility is the point. [Molecular Assembly](/view.html?p=notes/nature/bio/molecular/molecular-assembly.md).
 
 ### Biochemical Pathways
 
-Ordered sequences of enzyme-catalysed conversions, in which the product of one step is the substrate of the next — glycolysis, the citric acid cycle, β-oxidation, the urea cycle, the pentose phosphate pathway. A pathway answers the question *what becomes what*, and it does so without reference to control: it is a route, not a regulator. See [Metabolic Pathway](/view.html?p=notes/nature/metabolic-pathway.md).
+Ordered sequences of enzyme-catalysed conversions, in which the product of one step is the substrate of the next — glycolysis, the citric acid cycle, β-oxidation, the urea cycle, the pentose phosphate pathway. A pathway answers the question *what becomes what*, and it does so without reference to control: it is a route, not a regulator. See [Metabolic Pathway](/view.html?p=notes/nature/bio/process/metabolic-pathway.md).
 
 ### Molecular Regulatory Networks
 
@@ -127,13 +127,13 @@ Above the pathway sits the level at which conversions are **controlled** rather 
 ## Related
 
 - [Molecular Regulatory Network](/view.html?p=notes/nature/human/molecular-regulatory-networks.md)
-- [Protein](/view.html?p=notes/nature/protein.md)
-- [Lipid](/view.html?p=notes/nature/lipid.md)
-- [Carbohydrate](/view.html?p=notes/nature/carbohydrate.md)
+- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
+- [Lipid](/view.html?p=notes/nature/bio/molecular/lipid.md)
+- [Carbohydrate](/view.html?p=notes/nature/bio/molecular/carbohydrate.md)
 - [Nucleic Acid](/view.html?p=notes/nature/nucleic-acid.md)
-- [Metabolite](/view.html?p=notes/nature/metabolite.md)
+- [Metabolite](/view.html?p=notes/nature/bio/molecular/metabolite.md)
 - [Biomolecule](/view.html?p=notes/nature/matter/biomolecule.md)
-- [Protein Complex](/view.html?p=notes/nature/protein-complex.md)
-- [Molecular Assembly](/view.html?p=notes/nature/molecular-assembly.md)
-- [Metabolic Pathway](/view.html?p=notes/nature/metabolic-pathway.md)
+- [Protein Complex](/view.html?p=notes/nature/bio/molecular/protein-complex.md)
+- [Molecular Assembly](/view.html?p=notes/nature/bio/molecular/molecular-assembly.md)
+- [Metabolic Pathway](/view.html?p=notes/nature/bio/process/metabolic-pathway.md)
 - [Cognitive](/view.html?p=notes/nature/human/cognition.md)

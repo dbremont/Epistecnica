@@ -11,7 +11,7 @@ tags: [note]
 > term lives in this heading.) Parent instances [Nature](/view.html?p=notes/nature/nature.md),
 > [Earth](/view.html?p=notes/nature/earth.md), and
 > [Natural Material](/view.html?p=notes/nature/natural-material.md); sibling
-> [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md); composed of
+> [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md); composed of
 > [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) kinds; exemplified by the worked
 > [Quarry](/view.html?p=notes/nature/quarry.md). Worked per
 > [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md).
@@ -80,7 +80,7 @@ it is a Social node tagged `production-view`); readable as epistemic — petrogr
 standards and stratigraphic scales (decompose under the epistemicarum grammar). The
 instrument technically, the formation naturally
 (`guideline/ambiguity_resolution.md`). Biogenic coatings and
-admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md).
+admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md).
 
 ## References
 
@@ -90,6 +90,6 @@ admixtures belong to [Natural Biogenic](/view.html?p=notes/nature/biogenic-mater
 - [Nature](/view.html?p=notes/nature/nature.md) (root: all observer-independent reality)
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) (parent: all untransformed matter)
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
-- [Natural Biogenic](/view.html?p=notes/nature/biogenic-material.md) (sibling: all matter made by life)
+- [Natural Biogenic](/view.html?p=notes/nature/bio/molecular/biogenic-material.md) (sibling: all matter made by life)
 - [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) (child: crystalline solid kinds composing aggregates)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

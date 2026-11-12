@@ -4,7 +4,7 @@ tags: [note]
 
 # Compound Effect
 
-Related: [Multiplicative Effect](/view.html?p=notes/epistemica/epistemic/theory/multiplicative-effect.md), [Non Linear System](/view.html?p=notes/nature/theory/non-linear-system.md)
+Related: [Multiplicative Effect](/view.html?p=notes/epistemica/epistemic/theory/multiplicative-effect.md), [Non Linear System](/view.html?p=notes/nature/meta/non-linear-system.md)
 
 > What are the sources of nonlinearity in the system?
 > 

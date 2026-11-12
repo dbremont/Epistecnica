@@ -13,7 +13,7 @@ tags: [note, nature, phenomenon, chemistry, phenomena, physics, unfinished]
 
 ## Related
 
-- [Evolution](/view.html?p=notes/nature/evolution.md)
+- [Evolution](/view.html?p=notes/nature/bio/process/evolution.md)
 
 ## Provenance
 
