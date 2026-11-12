@@ -85858,5 +85858,25 @@
     "summary": "Move up from concurrency/conceptual-model-coordination/ into concurrency/: the group is flat, the master first."
    }
   ]
+ },
+ {
+  "file_path": "epistemica/measurement/system.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/measurement/isu.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units."
+   }
+  ]
  }
 ]
