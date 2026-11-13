@@ -9750,7 +9750,9 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Return to epistemica/mathematical/ after the quantification scope took the wrong note; the directory was renamed quantification/ and this note never belonged in it."
+    "summary": "Return to epistemica/mathematical/ after the quantification scope took the wrong note; the directory was renamed quantification/ and this note never belonged in it.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -18091,7 +18093,9 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move out of epistemica/mathematical/number/quantification.md into the quantification scope, as its master; a symlink stays at the former address."
+    "summary": "Move out of epistemica/mathematical/number/quantification.md into the quantification scope, as its master; a symlink stays at the former address.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -49894,7 +49898,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "New persona note for François Guizot: the career table through the Guizot law of 1833 and the July Monarchy ministry, the Doctrinaire position (pays legal against pays reel), civilisation as process, the relations that place him among the Restoration historians, and his works."
+    "summary": "New persona note for François Guizot: the career table through the Guizot law of 1833 and the July Monarchy ministry, the Doctrinaire position (pays legal against pays reel), civilisation as process, the relations that place him among the Restoration historians, and his works.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -81513,7 +81519,9 @@
    {
     "date": "2026-11-13",
     "kind": "refactor",
-    "summary": "Cross-link the Three Gorges Dam row to the new Dam System note."
+    "summary": "Cross-link the Three Gorges Dam row to the new Dam System note.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -81807,7 +81815,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Add Irrigation Canal to the Water And Irrigation Set."
+    "summary": "Add Irrigation Canal to the Water And Irrigation Set.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -82412,7 +82422,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "New Dam System note: the barrier with its spillway, outlet works, intake, abutments and cutoff, the dam kinds (embankment, gravity, arch, buttress) and the failure modes the design is judged on."
+    "summary": "New Dam System note: the barrier with its spillway, outlet works, intake, abutments and cutoff, the dam kinds (embankment, gravity, arch, buttress) and the failure modes the design is judged on.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -82657,7 +82669,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Add Pulley to the Constitutive Technical Object grouping."
+    "summary": "Add Pulley to the Constitutive Technical Object grouping.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -83075,7 +83089,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "New Waste Management System note: collection, materials recovery, biological treatment, waste-to-energy and sanitary landfill, with the diversion and capture measures that judge it."
+    "summary": "New Waste Management System note: collection, materials recovery, biological treatment, waste-to-energy and sanitary landfill, with the diversion and capture measures that judge it.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
@@ -83085,7 +83101,9 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "New Wastewater Treatment System note: collection, the treatment stages, the on-site facility types, and the discharge parameters (BOD, COD, TSS, nutrients, pathogens) the system is judged by."
+    "summary": "New Wastewater Treatment System note: collection, the treatment stages, the on-site facility types, and the discharge parameters (BOD, COD, TSS, nutrients, pathogens) the system is judged by.",
+    "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
+    "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
    }
   ]
  },
