@@ -85938,5 +85938,35 @@
     "summary": "New Elliptic Function note: the definition as a meromorphic function on a torus, the consequences (no non-constant holomorphic elliptic function, order and residues), the Weierstrass ℘ construction with its differential equation, Jacobi's sn/cn/dn from the elliptic integral, where they arise (exact pendulum, ellipse perimeter, addition theorems, modular forms), and the disambiguation of function, integral, curve and PDE."
    }
   ]
+ },
+ {
+  "file_path": "epistemica/observational/playground/approximation-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New Approximation Playground: a topic-driven estimation and mental-arithmetic runner over 21 single-concept topics and 77 problem schemes, judged by stated tolerances (exponent, factor, percent, exact, choice)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/playground/index.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Add the Approximation Playground card to the observational notebook index."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/playground/approximation-problems.json",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New problem bank for the Approximation Playground: 21 topics with 77 scheme specs, split from the page so a topic can be added as data."
+   }
+  ]
  }
 ]

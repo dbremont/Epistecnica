@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Approximation Playground</title>
+  <link rel="icon" href="/img/favicon.ico">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-void: #04050A; --bg-surface: #0B0D14; --bg-card: #11141D;
+      --text-primary: #E2E4EB; --text-secondary: #8A8FA6; --text-muted: #737891;
+      --accent-gold: #C5A467; --accent-cyan: #5BF0E7; --accent-cyan-dim: rgba(91,240,231,0.1);
+      --border-subtle: rgba(255,255,255,0.07); --card-bg: rgba(11,13,20,0.72);
+      --nav-bg: rgba(4,5,10,0.82); --footer-bg: rgba(4,5,10,0.7);
+      --good: #4ec9b0; --bad: #f87171;
+      --font-display: 'Cormorant Garamond', serif; --font-body: 'Inter', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+    }
+    html[data-theme="light"] {
+      --bg-void: #F7F5F0; --bg-surface: #F1EEE7; --bg-card: #FFFFFF;
+      --text-primary: #1A1D24; --text-secondary: #4A4F5E; --text-muted: #7A7F8E;
+      --accent-gold: #9A7B3F; --accent-cyan: #0E7C72; --accent-cyan-dim: rgba(14,124,114,0.08);
+      --border-subtle: rgba(20,22,30,0.10); --card-bg: rgba(255,255,255,0.72);
+      --nav-bg: rgba(247,245,240,0.85); --footer-bg: rgba(247,245,240,0.75);
+      --good: #10796a; --bad: #b3261e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; background: var(--bg-void); }
+    body { font-family: var(--font-body); background: var(--bg-void); color: var(--text-primary);
+      min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
+    a { color: inherit; text-decoration: none; }
+    #ambientCanvas { position: fixed; top: 0; left: 0; z-index: 0; opacity: 0.4; pointer-events: none; }
+    .layout { position: relative; z-index: 1; flex: 1; width: 100%; max-width: 1180px; margin: 0 auto; padding: 2.5rem 2rem 3.5rem; }
+    .crumbs { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--text-muted); margin-bottom: 1.2rem; }
+    .crumbs a { color: var(--text-muted); } .crumbs a:hover { color: var(--accent-cyan); }
+    .crumbs .sep { margin: 0 0.35em; opacity: 0.5; } .crumbs .here { color: var(--accent-gold); }
+    h1.note-title { font-family: var(--font-display); font-weight: 300; font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border-subtle); margin-bottom: 2rem; }
+    .note-meta { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: -1.2rem 0 2rem; position: relative; top: 0.8rem; }
+    .chip { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--text-muted); background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 0.35rem 0.7rem; }
+    .note-card { background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 2rem 2.2rem; }
+    .site-nav { position: sticky; top: 0; z-index: 60; background: var(--nav-bg);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border-subtle); }
+    .site-nav .nav-inner { max-width: 1180px; margin: 0 auto; padding: 0.95rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .site-nav .nav-brand { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-display);
+      font-size: 1.2rem; color: var(--text-primary); }
+    .site-nav .nav-mark { height: 26px; width: auto; }
+    .site-nav .nav-brand em { font-style: italic; color: var(--accent-gold); }
+    .site-nav .nav-right { display: flex; align-items: center; gap: 1.2rem; }
+    .theme-toggle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle); padding: 0.45rem 0.75rem; cursor: pointer; }
+    .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
+    .site-footer { border-top: 1px solid var(--border-subtle); background: var(--footer-bg); position: relative; z-index: 1; }
+    .site-footer .foot-inner { max-width: 1180px; margin: 0 auto; padding: 1.5rem 2rem; display: flex;
+      align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem;
+      font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); }
+    .site-footer a:hover { color: var(--accent-cyan); }
+
+    button { font: inherit; cursor: pointer; border-radius: 8px; border: 1px solid var(--border-subtle);
+      background: var(--bg-surface); color: var(--text-primary); padding: 8px 14px; font-size: 12.5px; font-weight: 600; }
+    button:hover { border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    button.primary { background: var(--accent-cyan-dim); border-color: var(--accent-cyan); color: var(--accent-cyan); }
+    button.ghost { background: transparent; }
+    button:disabled { opacity: .4; cursor: not-allowed; }
+
+    .intro { font-size: 0.86rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.6rem; max-width: 82ch; }
+    .screen { display: none; } .screen.active { display: block; }
+
+    .home-header { display: flex; justify-content: space-between; align-items: center; margin: 0 0 12px; }
+    .home-header h2 { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--text-muted); }
+    .quick-sel { display: flex; gap: 6px; }
+
+    .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 9px; margin-bottom: 20px; }
+    .topic-chip { display: flex; align-items: center; gap: 9px; padding: 10px 12px; border-radius: 10px;
+      border: 1.5px solid var(--border-subtle); background: var(--bg-surface); cursor: pointer;
+      text-align: left; font: inherit; color: var(--text-primary); min-height: 52px; position: relative; overflow: hidden; }
+    .topic-chip::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--c); opacity: .3; }
+    .topic-chip:hover { border-color: var(--border-subtle); background: var(--bg-card); }
+    .topic-chip.selected { border-color: var(--c); }
+    .topic-chip.selected::before { opacity: 1; }
+    .topic-chip .tc-icon { font-size: 16px; flex-shrink: 0; }
+    .topic-chip .tc-name { font-size: 12.5px; font-weight: 600; flex: 1; line-height: 1.3; }
+    .topic-chip .tc-check { font-size: 13px; font-weight: 800; color: var(--c); opacity: 0; }
+    .topic-chip.selected .tc-check { opacity: 1; }
+
+    .start-bar { display: flex; gap: 9px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+    .sel-info { flex: 1; min-width: 140px; font-size: 12.5px; color: var(--text-muted); }
+    .sel-info b { color: var(--text-primary); }
+    .overall-summary { font-size: 12.5px; color: var(--text-muted); padding: 11px 14px; background: var(--bg-surface);
+      border: 1px solid var(--border-subtle); border-radius: 10px; display: flex; justify-content: space-between;
+      align-items: center; gap: 10px; flex-wrap: wrap; }
+    .overall-summary b { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+
+    .practice-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+    .topic-tag { display: inline-flex; align-items: center; gap: 7px; background: var(--bg-surface);
+      border: 1px solid var(--border-subtle); border-radius: 999px; padding: 6px 13px; font-size: 12.5px; font-weight: 600; color: var(--c); }
+    .topic-tag .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+    .top-right { display: flex; align-items: center; gap: 8px; }
+    .session-stats { font-size: 12.5px; color: var(--text-muted); font-variant-numeric: tabular-nums;
+      padding: 6px 10px; background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 7px; }
+    .session-stats b { color: var(--text-primary); }
+
+    .problem-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 12px; padding: 20px 22px; }
+    .tol-badge { display: inline-block; font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--accent-gold); border: 1px solid var(--accent-gold);
+      border-radius: 999px; padding: 2px 9px; margin-bottom: 10px; }
+    .problem-prompt { font-size: 14.5px; line-height: 1.7; color: var(--text-primary); }
+    .problem-prompt b { color: var(--text-primary); font-weight: 700; }
+    .problem-prompt small { display: block; margin-top: 7px; font-size: 12px; color: var(--text-muted); font-style: italic; }
+
+    .answer-area { margin-top: 18px; }
+    .num-input { display: flex; align-items: stretch; gap: 8px; }
+    .num-input input { flex: 1; min-width: 0; background: var(--bg-void); border: 1px solid var(--border-subtle);
+      color: var(--text-primary); font-family: var(--font-mono); font-size: 1.1rem; font-weight: 600;
+      padding: 11px 14px; border-radius: 8px; outline: none; }
+    .num-input input:focus { border-color: var(--accent-cyan); }
+    .num-unit { display: flex; align-items: center; padding: 0 14px; background: var(--bg-void);
+      border: 1px solid var(--border-subtle); border-radius: 8px; font-family: var(--font-mono);
+      font-size: 0.7rem; color: var(--text-muted); min-width: 52px; justify-content: center; }
+    .input-hint { font-size: 11px; color: var(--text-muted); margin-top: 6px; font-family: var(--font-mono); }
+
+    .choices { display: flex; flex-direction: column; gap: 7px; }
+    .choice { display: flex; align-items: center; gap: 10px; background: var(--bg-void);
+      border: 1px solid var(--border-subtle); border-radius: 9px; padding: 10px 14px; cursor: pointer; font-size: 13.5px; }
+    .choice:hover { border-color: var(--accent-cyan); }
+    .choice .radio { width: 15px; height: 15px; border-radius: 50%; border: 2px solid var(--text-muted); flex-shrink: 0; }
+    .choice.selected { border-color: var(--accent-cyan); }
+    .choice.selected .radio { border-color: var(--accent-cyan); background: var(--accent-cyan); }
+    .choice.correct { border-color: var(--good); } .choice.correct .radio { border-color: var(--good); background: var(--good); }
+    .choice.wrong { border-color: var(--bad); } .choice.wrong .radio { border-color: var(--bad); background: var(--bad); }
+    .choice.disabled { cursor: default; }
+
+    .feedback { margin-top: 16px; padding: 11px 14px; border-radius: 9px; font-size: 13px; line-height: 1.6; }
+    .feedback.ok { background: rgba(78,201,176,0.12); border: 1px solid var(--good); color: var(--good); }
+    .feedback.no { background: rgba(248,113,113,0.10); border: 1px solid var(--bad); color: var(--bad); }
+    .feedback b { color: var(--text-primary); }
+    .steps-box { margin-top: 12px; }
+    .steps-box h4 { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+    .step-line { background: var(--bg-void); border: 1px solid var(--border-subtle); border-radius: 7px;
+      padding: 8px 12px; margin-top: 5px; font-family: var(--font-mono); font-size: 11.5px;
+      color: var(--text-secondary); line-height: 1.6; font-variant-numeric: tabular-nums; }
+    .action-bar { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+
+    .stats-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 16px; }
+    .sum-box { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px; padding: 12px 14px; }
+    .sum-box .lab { font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
+    .sum-box .val { font-size: 1.5rem; font-weight: 700; font-variant-numeric: tabular-nums; margin-top: 2px; }
+    .stat-topic { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: 10px;
+      padding: 12px 16px; margin-bottom: 8px; position: relative; overflow: hidden; }
+    .stat-topic::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--c); }
+    .st-head { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .st-name { font-size: 13px; font-weight: 600; }
+    .st-meta { font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+    .st-bar { height: 5px; border-radius: 99px; background: var(--bg-void); margin-top: 9px; overflow: hidden; }
+    .st-bar-fill { height: 100%; background: var(--c); border-radius: 99px; }
+    .empty { color: var(--text-muted); text-align: center; padding: 34px 18px; font-size: 13px; }
+    .load-error { color: var(--bad); font-family: var(--font-mono); font-size: 12.5px; line-height: 1.7; }
+
+    @media (max-width: 700px) {
+      .layout { padding-left: 1.1rem; padding-right: 1.1rem; }
+      .note-card { padding: 1.3rem; }
+      .site-nav .nav-inner { padding-left: 1.1rem; padding-right: 1.1rem; }
+    }
+  </style>
+  <link rel="stylesheet" href="/shared/usearch.css">
+  <script src="/vendor/mathjax-setup.js"></script>
+  <script src="/vendor/mathjax/tex-svg-full.js"></script>
+</head>
+<body>
+
+<canvas id="ambientCanvas" aria-hidden="true"></canvas>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="../../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+    <div class="nav-right">
+      <div class="usearch-wrap">
+        <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" id="usearch" placeholder="search everything…  ( / · r dice )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+        <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+        <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+      </div>
+      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="layout">
+  <div class="note-header">
+    <div class="crumbs"><a href="/explorer.html">notes</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica">epistemica</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica/observational">observational</a> <span class="sep">/</span> <a href="/explorer.html?dir=epistemica/observational/playground">playground</a> <span class="sep">/</span> <span class="here">approximation</span></div>
+    <h1 class="note-title">Approximation Playground</h1>
+    <div class="note-meta"><span class="chip">live note</span><span class="chip">playground</span><span class="chip">#estimation</span><span class="chip">#mental-arithmetic</span></div>
+  </div>
+
+  <div class="note-card">
+    <p class="intro" id="introText">Loading the problem bank…</p>
+
+    <div id="screen-home" class="screen active">
+      <div class="home-header">
+        <h2>Topics</h2>
+        <div class="quick-sel">
+          <button class="ghost" id="selectAllBtn">All</button>
+          <button class="ghost" id="selectNoneBtn">None</button>
+        </div>
+      </div>
+      <div class="topic-grid" id="topicGrid"></div>
+      <div class="start-bar">
+        <div class="sel-info" id="selInfo"></div>
+        <button class="primary" id="startBtn">Start practice →</button>
+        <button class="ghost" id="statsBtn">📊 Stats</button>
+      </div>
+      <div class="overall-summary">
+        <div id="overallText">No attempts yet.</div>
+        <button class="ghost" id="resetAllBtn" style="font-size:11.5px;padding:5px 11px">Reset all progress</button>
+      </div>
+    </div>
+
+    <div id="screen-practice" class="screen">
+      <div class="practice-top">
+        <button class="ghost" id="backBtn">← Topics</button>
+        <div class="topic-tag" id="topicTag"><span class="dot"></span><span id="topicTagName"></span></div>
+        <div class="top-right">
+          <div class="session-stats" id="sessionStats"></div>
+          <button class="ghost" id="statsBtn2" title="Stats">📊</button>
+        </div>
+      </div>
+      <div class="problem-card">
+        <div class="tol-badge" id="tolBadge"></div>
+        <div class="problem-prompt" id="problemPrompt"></div>
+        <div class="answer-area" id="answerArea"></div>
+        <div id="resultArea"></div>
+      </div>
+      <div class="action-bar" id="actionBar"></div>
+    </div>
+
+    <div id="screen-stats" class="screen">
+      <div class="practice-top">
+        <button class="ghost" id="backStatsBtn">← Back</button>
+        <div style="font-size:13px;font-weight:600">Performance</div>
+        <button class="ghost" id="resetAllStatsBtn" style="font-size:11.5px;padding:5px 11px">Reset all</button>
+      </div>
+      <div class="stats-summary" id="statsSummary"></div>
+      <div id="statsTopics"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="foot-inner">
+    <div>Episte<em style="color:var(--accent-gold);font-style:italic">cnica</em> &middot; notes</div>
+    <a href="/explorer.html">&larr; CATALOG</a>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+/* ──────────────────────────────────────────────────────────
+   utilities
+   ────────────────────────────────────────────────────────── */
+const ri = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
+const rf = (a, b, d) => +(a + Math.random() * (b - a)).toFixed(d === undefined ? 2 : d);
+const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+
+function fmt(v, d) {
+  if (!Number.isFinite(v)) return '—';
+  d = d === undefined ? 2 : d;
+  let s = v.toFixed(d);
+  if (s.indexOf('.') >= 0) s = s.replace(/0+$/, '').replace(/\.$/, '');
+  return s === '-0' ? '0' : s;
+}
+function fmtMoney(v, d) {
+  d = d === undefined ? 0 : d;
+  const s = Math.abs(v).toFixed(d);
+  const parts = s.split('.');
+  const ip = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return (v < 0 ? '−$' : '$') + ip + (parts[1] ? '.' + parts[1] : '');
+}
+function sci(v) {
+  if (!Number.isFinite(v)) return '—';
+  if (v === 0) return '0';
+  const e = Math.floor(Math.log10(Math.abs(v)));
+  const m = v / Math.pow(10, e);
+  return fmt(m, 2) + ' × 10^' + e;
+}
+function parseUserNumber(str) {
+  let s = String(str).trim().replace(/[$%,]/g, '').replace(/\s+/g, '').replace(/−/g, '-');
+  if (!s) return NaN;
+  if (!/^[0-9+\-*/().eE]+$/.test(s)) return NaN;
+  try {
+    const v = Function('"use strict";return (' + s + ')')();
+    return Number.isFinite(v) ? v : NaN;
+  } catch (e) { return NaN; }
+}
+function checkAnswer(user, answer, tol) {
+  if (isNaN(user)) return false;
+  switch (tol.kind) {
+    case 'order':  return Math.abs(user - answer) < 1e-9;
+    case 'rel':    return Math.abs(answer) < 1e-12 ? Math.abs(user) < (tol.pct || 1) / 100 : Math.abs(user - answer) / Math.abs(answer) <= (tol.pct || 1) / 100;
+    case 'abs':    return Math.abs(user - answer) <= (tol.value || 0) + 1e-12;
+    case 'factor': {
+      if (answer === 0) return Math.abs(user) < 1e-9;
+      const r = user / answer;
+      const f = tol.value || 3;
+      return r >= 1 / f && r <= f;
+    }
+    default: return false;
+  }
+}
+function toleranceLabel(tol) {
+  switch (tol.kind) {
+    case 'order':  return 'exponent only';
+    case 'factor': return 'within ×' + (tol.value || 3);
+    case 'rel':    return 'within ' + (tol.pct || 1) + '%';
+    case 'abs':    return 'within ±' + fmt(tol.value || 0, 4);
+    case 'choice': return 'pick one';
+    default: return '';
+  }
+}
+
+/* ──────────────────────────────────────────────────────────
+   storage
+   ────────────────────────────────────────────────────────── */
+const STORE_KEY = 'epis-approximation-v1';
+const SEL_KEY = 'epis-approximation-selected-v1';
+function emptyPerf() { return { topics: {}, totalAttempts: 0, totalCorrect: 0 }; }
+function loadPerf() {
+  try {
+    const raw = localStorage.getItem(STORE_KEY);
+    if (!raw) return emptyPerf();
+    const p = JSON.parse(raw);
+    if (!p || typeof p !== 'object') return emptyPerf();
+    if (!p.topics) p.topics = {};
+    if (typeof p.totalAttempts !== 'number') p.totalAttempts = 0;
+    if (typeof p.totalCorrect !== 'number') p.totalCorrect = 0;
+    return p;
+  } catch (e) { return emptyPerf(); }
+}
+let perf = loadPerf();
+function savePerf() { try { localStorage.setItem(STORE_KEY, JSON.stringify(perf)); } catch (e) {} }
+
+/* ──────────────────────────────────────────────────────────
+   table data
+   ────────────────────────────────────────────────────────── */
+const TABLES = {
+  "magnitudes": [
+    { q: "seconds in a year", v: 31536000 },
+    { q: "seconds in a day", v: 86400 },
+    { q: "heartbeats in a lifetime (80 yr, 60 bpm)", v: 2522880000 },
+    { q: "molecules in a drop of water (0.05 mL)", v: 1.67e21 },
+    { q: "stars in the observable universe (estimate)", v: 1e24 },
+    { q: "neurons in the human brain", v: 8.6e10 },
+    { q: "cells in the human body", v: 3.7e13 },
+    { q: "atoms in a grain of sand", v: 1e19 },
+    { q: "people on Earth", v: 8.1e9 },
+    { q: "grains of sand on Earth (estimate)", v: 7.5e18 },
+    { q: "bytes in a human genome", v: 7.5e8 },
+    { q: "years since the Big Bang", v: 1.38e10 }
+  ],
+  "money-scale": [
+    { q: "a cup of coffee", v: 5 },
+    { q: "a new laptop", v: 1500 },
+    { q: "a new mid-range car", v: 30000 },
+    { q: "a mid-size house", v: 350000 },
+    { q: "one year of in-state university tuition", v: 12000 },
+    { q: "the lifetime earnings of a graduate", v: 3000000 },
+    { q: "the GDP of a small country like Iceland", v: 30000000000 },
+    { q: "a typical household's net worth", v: 120000 }
+  ]
+};
+
+/* ──────────────────────────────────────────────────────────
+   the play area: which part of the table a scheme picks from
+   (the JSON keeps the tables here so the page stays the single
+    editable source of the numbers)
+   ────────────────────────────────────────────────────────── */
+
+/* ──────────────────────────────────────────────────────────
+   GENERATORS — one per `kind`
+   Each returns { prompt, answerType, answer, tolerance, unit, steps, choices?, correctChoice? }
+   ────────────────────────────────────────────────────────── */
+const GENS = {
+  'const-table': (s) => {
+    const rows = TABLES[s.table];
+    const row = pick(rows);
+    const exp = Math.floor(Math.log10(row.v));
+    const isOrder = s.tolerance.kind === 'order';
+    return {
+      prompt: (s.promptText || s.prompt).replace('{q}', row.q),
+      answerType: 'number',
+      answer: isOrder ? exp : row.v,
+      tolerance: s.tolerance,
+      unit: s.unit,
+      steps: (s.steps || []).map(t => t
+        .replace('{q}', row.q)
+        .replace('{vE}', row.v.toExponential(2))
+        .replace('{v}', fmtMoney(row.v))
+        .replace('{exp}', exp)
+        .replace('{lo}', fmtMoney(row.v / 3))
+        .replace('{hi}', fmtMoney(row.v * 3)))
+    };
+  },
+
+  'doubling': (s) => {
+    const a = pick([100, 500, 1000, 5000, 10000]);
+    const n = ri(3, 12);
+    const b = a * Math.pow(2, n);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', fmtMoney(a)).replace('{b}', fmtMoney(b)),
+      answerType: 'number', answer: n, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{b}', fmtMoney(b)).replace('{a}', fmtMoney(a))
+        .replace('{ratio}', fmt(Math.pow(2, n), 0)).replace('{n}', n))
+    };
+  },
+
+  'divide': (s) => {
+    const a = ri(120, 9900), b = ri(2, 97);
+    const ans = a / b;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a).replace('{b}', b),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{b}', b)
+        .replace('{ans}', fmt(ans, 4)).replace('{aE}', Math.floor(Math.log10(a)))
+        .replace('{bE}', Math.floor(Math.log10(b)) ? Math.floor(Math.log10(b)) : 1)
+        .replace('{ansE}', fmt(Math.round(Math.pow(10, Math.floor(Math.log10(a)) - Math.max(1, Math.floor(Math.log10(b))))), 0)))
+    };
+  },
+
+  'percent-of': (s) => {
+    const p = pick([5, 7.5, 12, 15, 18, 20, 25, 30, 40, 60, 75]);
+    const a = ri(40, 900) * (pick([1, 10, 100]));
+    const ans = a * p / 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{p}', p).replace('{a}', fmt(a)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{p}', p).replace('{a}', fmt(a)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'ratio-simple': (s) => {
+    const a = ri(10, 900), b = ri(2, 90);
+    const ans = a / b;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a).replace('{b}', b),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{b}', b).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'remainder': (s) => {
+    const b = ri(3, 19), q = ri(3, 40), r = ri(0, b - 1), a = b * q + r;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a).replace('{b}', b),
+      answerType: 'number', answer: r, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{b}', b).replace('{q}', q)
+        .replace('{bq}', b * q).replace('{r}', r))
+    };
+  },
+
+  'power': (s) => {
+    const x = ri(2, 12), n = ri(2, 4);
+    const ans = Math.pow(x, n);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{x}', x).replace('{n}', n),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{x}', x).replace('{n}', n).replace('{ans}', fmt(ans, 0))
+        .replace('{exp}', Math.floor(Math.log10(ans))))
+    };
+  },
+
+  'sqrt': (s) => {
+    const x = ri(20, 900);
+    const lo = Math.floor(Math.sqrt(x)), hi = lo + 1;
+    const ans = Math.sqrt(x);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{x}', x),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{x}', x).replace('{ans}', fmt(ans, 3))
+        .replace('{lo}', lo).replace('{hi}', hi)
+        .replace('{lo2}', lo * lo).replace('{hi2}', hi * hi))
+    };
+  },
+
+  'cbrt': (s) => {
+    const x = ri(100, 9999);
+    const ans = Math.cbrt(x);
+    const lo = Math.floor(ans), hi = lo + 1;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{x}', x),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{x}', x).replace('{ans}', fmt(ans, 3))
+        .replace('{lo}', lo).replace('{hi}', hi)
+        .replace('{lo3}', lo * lo * lo).replace('{hi3}', hi * hi * hi)
+        .replace('{exp}', Math.floor(Math.log10(ans))))
+    };
+  },
+
+  'rule72': (s) => {
+    const r = pick([2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 20]);
+    const approx = 72 / r, exact = Math.log(2) / Math.log(1 + r / 100);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r}', r),
+      answerType: 'number', answer: approx, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{r}', r).replace('{approx}', fmt(approx, 2)).replace('{exact}', fmt(exact, 2)))
+    };
+  },
+
+  'exact-double': (s) => {
+    const r = pick([3, 5, 7, 8, 10, 12]);
+    const denom = Math.log(1 + r / 100);
+    const ans = Math.log(2) / denom;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r}', r),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{r}', r).replace('{denom}', fmt(denom, 4)).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'log-return': (s) => {
+    const p0 = pick([50, 100, 200, 500, 1000]);
+    const ret = pick([-30, -20, -10, 10, 20, 30, 50, 100]);
+    const p1 = Math.round(p0 * (1 + ret / 100));
+    const ratio = p1 / p0;
+    const ans = Math.log(ratio);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{p0}', '$' + p0).replace('{p1}', '$' + p1),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{p0}', '$' + p0).replace('{p1}', '$' + p1)
+        .replace('{ratio}', fmt(ratio, 4)).replace('{ans}', fmt(ans, 4)).replace('{pct}', fmt(ans * 100, 1)))
+    };
+  },
+
+  'pct-points': (s) => {
+    const a = pick([1, 2, 3, 4, 5, 6, 8]);
+    const delta = pick([0.25, 0.5, 0.75, 1, 1.5, 2]);
+    const b = a + delta;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a).replace('{b}', fmt(b, 2)),
+      answerType: 'number', answer: delta, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{b}', fmt(b, 2))
+        .replace('{ans}', fmt(delta, 2)).replace('{rel}', fmt(delta / a * 100, 1)))
+    };
+  },
+
+  'decades': (s) => {
+    const F = pick([10, 100, 1000, 100000, 2, 5, 50]);
+    const ans = Math.log10(F);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{F}', F),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{F}', F).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'trig-exact': (s) => {
+    const deg = pick([0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330]);
+    const fn = pick(['sin', 'cos', 'tan']);
+    const rad = deg * Math.PI / 180;
+    let val;
+    if (fn === 'sin') val = Math.sin(rad);
+    else if (fn === 'cos') val = Math.cos(rad);
+    else val = Math.tan(rad);
+    const exact = [
+      [0,'0','1','0'],[30,'1/2','√3/2','√3/3'],[45,'√2/2','√2/2','1'],[60,'√3/2','1/2','√3'],
+      [90,'1','0','undef'],[120,'√3/2','-1/2','-√3'],[135,'√2/2','-√2/2','-1'],[150,'1/2','-√3/2','-√3/3'],
+      [180,'0','-1','0'],[210,'-1/2','-√3/2','√3/3'],[225,'-√2/2','-√2/2','1'],[240,'-√3/2','-1/2','√3'],
+      [270,'-1','0','undef'],[300,'-√3/2','1/2','-√3'],[315,'-√2/2','√2/2','-1'],[330,'-1/2','√3/2','-√3/3']
+    ].find(r => r[0] === deg);
+    const exactStr = fn === 'sin' ? exact[1] : fn === 'cos' ? exact[2] : exact[3];
+    return {
+      prompt: (s.promptText || s.prompt).replace('{fn}', fn).replace('{deg}', deg),
+      answerType: 'number', answer: val, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{fn}', fn).replace('{deg}', deg).replace('{exact}', exactStr).replace('{ans}', fmt(val, 4)))
+    };
+  },
+
+  'trig-decimal': (s) => {
+    const deg = pick([10, 20, 25, 35, 40, 50, 55, 65, 70, 80, 100, 110, 145, 205, 260, 320]);
+    const fn = pick(['sin', 'cos', 'tan']);
+    const rad = deg * Math.PI / 180;
+    const val = fn === 'sin' ? Math.sin(rad) : fn === 'cos' ? Math.cos(rad) : Math.tan(rad);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{fn}', fn).replace('{deg}', deg),
+      answerType: 'number', answer: val, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{fn}', fn).replace('{deg}', deg)
+        .replace('{rad}', fmt(rad, 4)).replace('{ans}', fmt(val, 4)))
+    };
+  },
+
+  'deg-to-rad': (s) => {
+    const deg = pick([15, 30, 45, 60, 75, 90, 120, 135, 150, 180, 270, 360]);
+    const ans = deg * Math.PI / 180;
+    let pi;
+    const g = (function gg(a, b) { return b ? gg(b, a % b) : a; })(deg, 180);
+    const n = deg / g, d = 180 / g;
+    pi = (n === 1 ? 'π' : n + 'π') + (d === 1 ? '' : '/' + d);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{deg}', deg),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{deg}', deg).replace('{ans}', fmt(ans, 4))
+        .replace('{pi}', pi).replace('{pi180}', fmt(Math.PI / 180, 6)))
+    };
+  },
+
+  'small-angle': (s) => {
+    const mrad = pick([5, 10, 20, 30, 50, 80]);
+    const rad = mrad / 1000;
+    const exact = Math.sin(rad);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{mrad}', mrad),
+      answerType: 'number', answer: rad, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{mrad}', mrad).replace('{rad}', fmt(rad, 5)).replace('{exact}', fmt(exact, 6)))
+    };
+  },
+
+  'exp-value': (s) => {
+    const x = pick([0.5, 1, 1.5, 2, 2.5, 3, -0.5, -1, -2]);
+    const ans = Math.exp(x);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{x}', x),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{x}', x).replace('{ans}', fmt(ans, 4)))
+    };
+  },
+
+  'half-life': (s) => {
+    const n = ri(1, 8);
+    const ans = Math.pow(0.5, n);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{n}', n),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{n}', n).replace('{ans}', fmt(ans, 5)).replace('{pct}', fmt(ans * 100, 3)))
+    };
+  },
+
+  'half-life-count': (s) => {
+    const hl = pick([5, 12, 30, 5730, 1.3e9, 710e6]);
+    const t = hl * rf(0.5, 6, 2);
+    const ans = t / hl;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{t}', fmt(t, 1)).replace('{hl}', fmt(hl, 0)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t2 => t2.replace('{t}', fmt(t, 1)).replace('{hl}', fmt(hl, 0)).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'half-life-time': (s) => {
+    const hl = pick([5, 12, 30, 5730]);
+    const denom = pick([4, 8, 16, 32]);
+    const k = Math.log2(denom);
+    const ans = k * hl;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{hl}', fmt(hl)).replace('{denom}', denom),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{hl}', fmt(hl)).replace('{denom}', denom).replace('{k}', k).replace('{ans}', fmt(ans, 1)))
+    };
+  },
+
+  'growth-factor': (s) => {
+    const p = pick([2, 3, 4, 5, 7, 10, 15]);
+    const n = ri(2, 10);
+    const base = 1 + p / 100;
+    const ans = Math.pow(base, n);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{p}', p).replace('{n}', n),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{p}', p).replace('{n}', n).replace('{base}', fmt(base, 3)).replace('{ans}', fmt(ans, 4)))
+    };
+  },
+
+  'circle': (s) => {
+    const r = ri(2, 40);
+    const ans = Math.PI * r * r;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r}', r),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{r}', r).replace('{r2}', r * r).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'triangle-area': (s) => {
+    const b = ri(4, 40), h = ri(3, 30);
+    const ans = 0.5 * b * h;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{b}', b).replace('{h}', h),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{b}', b).replace('{h}', h).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'sphere': (s) => {
+    const r = ri(2, 20);
+    const ans = (4 / 3) * Math.PI * Math.pow(r, 3);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r}', r),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{r}', r).replace('{r3}', r * r * r).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'hypotenuse': (s) => {
+    const triples = [[3, 4, 5], [5, 12, 13], [8, 15, 17], [7, 24, 25], [6, 8, 10], [9, 12, 15]];
+    const t2 = pick(triples);
+    const a = t2[0], b = t2[1], ans = t2[2];
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a).replace('{b}', b),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{b}', b).replace('{a2}', a * a)
+        .replace('{b2}', b * b).replace('{sum}', a * a + b * b).replace('{ans}', ans))
+    };
+  },
+
+  'c-to-f': (s) => {
+    const c = pick([-10, 0, 10, 15, 20, 25, 30, 37, 40, 100]);
+    const ans = c * 9 / 5 + 32;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{c}', c),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{c}', c).replace('{ans}', fmt(ans, 1)))
+    };
+  },
+
+  'km-to-mi': (s) => {
+    const km = pick([1, 5, 10, 20, 42, 100, 160]);
+    const ans = km / 1.609;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{km}', km),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{km}', km).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'kwh-to-j': (s) => {
+    const kwh = pick([0.5, 1, 2, 5, 10, 100]);
+    const ans = kwh * 3.6e6;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{kwh}', kwh),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{kwh}', kwh).replace('{ansSci}', sci(ans)))
+    };
+  },
+
+  'ms-to-s': (s) => {
+    const ms = pick([5, 20, 50, 100, 250, 500, 1500]);
+    const ans = ms / 1000;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{ms}', ms),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{ms}', ms).replace('{ans}', fmt(ans, 4)))
+    };
+  },
+
+  'mean-list': (s) => {
+    const n = ri(4, 7);
+    const vals = Array.from({ length: n }, () => ri(10, 100));
+    const sum = vals.reduce((a, b) => a + b, 0);
+    const ans = sum / n;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', vals.join(', ')),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{list}', vals.join(' + ')).replace('{sum}', sum)
+        .replace('{n}', n).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'mean-outlier': (s) => {
+    const n = ri(4, 6);
+    const old = rf(20, 60, 1);
+    const add = pick([200, 500, 1000, 2000]);
+    const oldSum = old * n;
+    const newSum = oldSum + add;
+    const ans = newSum / (n + 1);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{n}', n).replace('{old}', fmt(old, 1)).replace('{add}', add),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{n}', n).replace('{old}', fmt(old, 1))
+        .replace('{add}', add).replace('{oldSum}', fmt(oldSum, 1)).replace('{newSum}', fmt(newSum, 1))
+        .replace('{n1}', n + 1).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'mean-vs-median': (s) => {
+    const n = ri(4, 6);
+    const vals = Array.from({ length: n }, () => ri(10, 50));
+    vals.push(pick([300, 500, 800, 1000]));
+    const sorted = vals.slice().sort((a, b) => a - b);
+    const mean = vals.reduce((a, b) => a + b, 0) / vals.length;
+    const median = sorted.length % 2 === 0
+      ? (sorted[sorted.length / 2 - 1] + sorted[sorted.length / 2]) / 2
+      : sorted[(sorted.length - 1) / 2];
+    const correct = mean > median ? 0 : mean < median ? 1 : 2;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', vals.join(', ')),
+      answerType: 'choice', choices: s.choices, correctChoice: correct,
+      tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{sorted}', sorted.join(', '))
+        .replace('{mean}', fmt(mean, 2)).replace('{median}', fmt(median, 2))
+        .replace('{verdict}', correct === 0 ? 'The outlier drags the mean above the median.'
+          : correct === 1 ? 'The outlier drags the mean below the median.' : 'They coincide.'))
+    };
+  },
+
+  'median-list': (s) => {
+    const n = pick([4, 5, 6, 7, 8, 9]);
+    const vals = Array.from({ length: n }, () => ri(10, 100));
+    const sorted = vals.slice().sort((a, b) => a - b);
+    const ans = n % 2 === 1 ? sorted[(n - 1) / 2] : (sorted[n / 2 - 1] + sorted[n / 2]) / 2;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', vals.join(', ')),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{sorted}', sorted.join(', ')).replace('{n}', n).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'median-robust': (s) => {
+    const base = [ri(15, 20), ri(25, 30), ri(35, 40), ri(45, 50), ri(55, 60)];
+    const sorted = base.slice().sort((a, b) => a - b);
+    const old = sorted[2];
+    const add = pick([500, 1000, 2000]);
+    const sn = base.concat(add).sort((a, b) => a - b);
+    const ans = (sn[2] + sn[3]) / 2;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', sorted.join(', ')).replace('{old}', old).replace('{add}', add),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{sorted}', sn.join(', ')).replace('{n1}', 6).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'mode-list': (s) => {
+    const bimodal = s.id.indexOf('tie') >= 0;
+    let vals;
+    if (bimodal) {
+      const a = pick([10, 20, 30]), b = pick([40, 50, 60]);
+      const others = [];
+      while (others.length < 2) {
+        const v = pick([10, 20, 30, 40, 50, 60, 70, 80]);
+        if (v !== a && v !== b && others.indexOf(v) < 0) others.push(v);
+      }
+      vals = [a, a, b, b].concat(others);
+    } else {
+      const m = pick([10, 20, 30, 40, 50]);
+      const base = Array.from({ length: 5 }, () => pick([10, 20, 30, 40, 50]));
+      vals = base.concat([m, m]);
+    }
+    vals = vals.sort(() => Math.random() - 0.5);
+    const counts = {};
+    vals.forEach(v => counts[v] = (counts[v] || 0) + 1);
+    const max = Math.max.apply(null, Object.keys(counts).map(k => counts[k]));
+    const modes = Object.keys(counts).filter(k => counts[k] === max).map(Number).sort((a, b) => a - b);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', vals.join(', ')),
+      answerType: 'number', answer: modes[0], tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{counts}', Object.keys(counts).map(k => k + '×' + counts[k]).join(', '))
+        .replace('{modes}', modes.join(', ')).replace('{ans}', modes[0]))
+    };
+  },
+
+  'two-period': (s) => {
+    const r1 = pick([-40, -30, -20, -10, 10, 20, 30, 50]);
+    const r2 = pick([-40, -30, -20, -10, 10, 20, 30, 50]);
+    const f1 = 1 + r1 / 100, f2 = 1 + r2 / 100;
+    const ans = (f1 * f2 - 1) * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r1}', (r1 > 0 ? '+' : '') + r1 + '%').replace('{r2}', (r2 > 0 ? '+' : '') + r2 + '%'),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{f1}', fmt(f1, 3)).replace('{f2}', fmt(f2, 3))
+        .replace('{ans}', fmt(ans, 2)).replace('{sum}', r1 + r2))
+    };
+  },
+
+  'cagr': (s) => {
+    const start = pick([1000, 5000, 10000, 50000, 100000]);
+    const end = Math.round(start * (1.5 + Math.random() * 3));
+    const n = ri(3, 10);
+    const ans = (Math.pow(end / start, 1 / n) - 1) * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{start}', fmtMoney(start)).replace('{end}', fmtMoney(end)).replace('{n}', n),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{start}', start).replace('{end}', end).replace('{n}', n).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'future-value': (s) => {
+    const pv = pick([1000, 5000, 10000, 50000]);
+    const r = pick([3, 5, 7, 8, 10, 12]);
+    const t = ri(5, 30);
+    const ans = pv * Math.pow(1 + r / 100, t);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pv}', fmtMoney(pv)).replace('{r}', r).replace('{t}', t),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(x => x.replace('{pv}', fmtMoney(pv)).replace('{r}', r).replace('{t}', t).replace('{ans}', fmtMoney(ans)))
+    };
+  },
+
+  'loss-recovery': (s) => {
+    const L = pick([10, 20, 25, 30, 40, 50, 60, 75, 80, 90]);
+    const factor = 1 - L / 100;
+    const inv = 1 / factor;
+    const ans = (inv - 1) * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{L}', L),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{L}', L).replace('{factor}', fmt(factor, 3))
+        .replace('{inv}', fmt(inv, 3)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'continuous': (s) => {
+    const pv = pick([1000, 5000, 10000]);
+    const r = pick([3, 5, 7, 8, 10]);
+    const t = ri(5, 25);
+    const rt = r / 100 * t;
+    const ans = pv * Math.exp(rt);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pv}', fmtMoney(pv)).replace('{r}', r).replace('{t}', t),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(x => x.replace('{pv}', fmtMoney(pv)).replace('{rt}', fmt(rt, 3)).replace('{ans}', fmtMoney(ans)))
+    };
+  },
+
+  'bacteria': (s) => {
+    const d = pick([15, 20, 30, 45, 60]);
+    const n0 = pick([100, 500, 1000]);
+    const t = ri(2, 8);
+    const k = (t * 60) / d;
+    const ans = n0 * Math.pow(2, k);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{d}', d).replace('{n0}', n0).replace('{t}', t),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(x => x.replace('{d}', d).replace('{n0}', n0).replace('{t}', t)
+        .replace('{k}', fmt(k, 2)).replace('{ans}', sci(ans)))
+    };
+  },
+
+  'up-down': (s) => {
+    const r1 = pick([30, 40, 50, 60, 70]);
+    const r2 = pick([30, 40, 50, 60, 70]);
+    const f1 = 1 + r1 / 100, f2 = 1 - r2 / 100;
+    const ans = (f1 * f2 - 1) * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r1}', r1).replace('{r2}', r2),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{r1}', r1).replace('{r2}', r2)
+        .replace('{f1}', fmt(f1, 3)).replace('{f2}', fmt(f2, 3)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'geometric': (s) => {
+    const rs = [pick([10, 15, 20, 25, 30, -10, -15, -20]), pick([10, 15, 20, 25, 30, -10, -15, -20]), pick([10, 15, 20, 25, 30, -10, -15, -20])];
+    const prod = rs.reduce((a, r) => a * (1 + r / 100), 1);
+    const ans = (Math.pow(prod, 1 / 3) - 1) * 100;
+    const arith = rs.reduce((a, b) => a + b, 0) / 3;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{r1}', rs[0]).replace('{r2}', rs[1]).replace('{r3}', rs[2]),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{ans}', fmt(ans, 2)).replace('{arith}', fmt(arith, 2)))
+    };
+  },
+
+  'vol-drag': (s) => {
+    const mu = rf(6, 15, 1);
+    const sigma = rf(10, 30, 1);
+    const drag = sigma * sigma / 200;
+    const ans = mu - drag;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{mu}', mu).replace('{sigma}', sigma),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{mu}', mu).replace('{sigma}', sigma).replace('{drag}', fmt(drag, 2)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'vol-drag-gap': (s) => {
+    const mu = pick([8, 10, 12, 15]);
+    const sigma = pick([15, 20, 25, 30]);
+    const ans = sigma * sigma / 200;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{mu}', mu).replace('{sigma}', sigma),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{sigma}', sigma).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'portfolio': (s) => {
+    const w1 = pick([0.3, 0.4, 0.5, 0.6, 0.7]);
+    const w2 = 1 - w1;
+    const s1 = pick([10, 15, 20, 25, 30]);
+    const s2 = pick([10, 15, 20, 25, 30]);
+    const rho = pick([-0.5, 0, 0.3, 0.5, 0.7, 1]);
+    const a = w1 * w1 * s1 * s1, b = w2 * w2 * s2 * s2, c = 2 * w1 * w2 * rho * s1 * s2;
+    const variance = a + b + c;
+    const ans = Math.sqrt(variance);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{w1}', fmt(w1 * 100, 0)).replace('{w2}', fmt(w2 * 100, 0))
+        .replace('{s1}', s1).replace('{s2}', s2).replace('{rho}', rho),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', fmt(a, 2)).replace('{b}', fmt(b, 2)).replace('{c}', fmt(c, 2))
+        .replace('{var}', fmt(variance, 2)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'corr-angle': (s) => {
+    const rho = pick([-1, -0.7, -0.5, -0.3, 0, 0.3, 0.5, 0.7, 1]);
+    const ans = Math.acos(rho) * 180 / Math.PI;
+    const verdict = rho === 1 ? 'ρ = 1 → 0°, no diversification.'
+      : rho === 0 ? 'ρ = 0 → 90°, full diversification.'
+      : rho === -1 ? 'ρ = −1 → 180°, a perfect hedge.' : 'Smaller angles mean less diversification benefit.';
+    return {
+      prompt: (s.promptText || s.prompt).replace('{rho}', rho),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{rho}', rho).replace('{ans}', fmt(ans, 1)).replace('{verdict}', verdict))
+    };
+  },
+
+  'zero-variance': (s) => {
+    const s1 = pick([10, 15, 20, 25, 30]);
+    const s2 = pick([10, 15, 20, 25, 30]);
+    const w1 = s2 / (s1 + s2);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{s1}', s1).replace('{s2}', s2),
+      answerType: 'number', answer: w1 * 100, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{s1}', s1).replace('{s2}', s2).replace('{ans}', fmt(w1 * 100, 2)))
+    };
+  },
+
+  'drawdown': (s) => {
+    const peak = pick([100, 120, 150, 200, 500]);
+    const trough = +(peak * (1 - rf(0.15, 0.55, 2))).toFixed(2);
+    const ans = (peak - trough) / peak * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{peak}', fmt(peak, 2)).replace('{trough}', fmt(trough, 2)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{peak}', fmt(peak, 2)).replace('{trough}', fmt(trough, 2)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'pe': (s) => {
+    const price = ri(20, 200), eps = rf(1, 10, 2);
+    const ans = price / eps;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{price}', '$' + price).replace('{eps}', '$' + eps),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{price}', price).replace('{eps}', eps).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'earnings-yield': (s) => {
+    const price = ri(20, 200), eps = rf(1, 10, 2);
+    const ans = eps / price * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{price}', '$' + price).replace('{eps}', '$' + eps),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'sharpe': (s) => {
+    const mu = rf(5, 20, 1), rfRate = rf(1, 5, 1), sigma = rf(8, 25, 1);
+    const ans = (mu - rfRate) / sigma;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{mu}', mu).replace('{rf}', rfRate).replace('{sigma}', sigma),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{mu}', mu).replace('{rf}', rfRate).replace('{sigma}', sigma).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'concentration': (s) => {
+    const mass = pick([0.5, 2, 5, 10, 25, 50]);
+    const vol = pick([0.5, 1, 2, 5, 10]);
+    const ans = mass / vol;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{mass}', mass).replace('{vol}', vol),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{mass}', mass).replace('{vol}', vol)
+        .replace('{ans}', fmt(ans, 3)).replace('{ppm}', fmt(ans, 1)))
+    };
+  },
+
+  'unit-price': (s) => {
+    const price = pick([2.99, 5.49, 12, 24.5, 40]);
+    const qty = pick([0.5, 1, 2, 2.5, 5]);
+    const ans = price / qty;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{price}', fmtMoney(price, 2)).replace('{qty}', qty),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{price}', fmt(price, 2)).replace('{qty}', qty).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'dice': (s) => {
+    const faces = ri(4, 10);
+    const ans = (faces + 1) / 2;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{faces}', faces),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{faces}', faces).replace('{sum}', faces * (faces + 1) / 2).replace('{ans}', ans))
+    };
+  },
+
+  'bet': (s) => {
+    const pw = pick([0.3, 0.4, 0.5, 0.6, 0.7]);
+    const win = pick([100, 200, 500, 1000]);
+    const lose = pick([50, 100, 200, 500]);
+    const ans = pw * win - (1 - pw) * lose;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pw}', Math.round(pw * 100)).replace('{win}', fmtMoney(win)).replace('{lose}', fmtMoney(lose)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{up}', fmt(pw * win, 2)).replace('{down}', fmt((1 - pw) * lose, 2)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'fair-price': (s) => {
+    const p = pick([0.1, 0.2, 0.25, 0.5]);
+    const win = pick([100, 200, 500]);
+    const ans = p * win;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{p}', p).replace('{win}', fmtMoney(win)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{p}', p).replace('{win}', win).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'present-value': (s) => {
+    const fv = pick([1000, 5000, 10000, 50000]);
+    const r = pick([3, 5, 7, 8, 10]);
+    const t = ri(3, 20);
+    const ans = fv / Math.pow(1 + r / 100, t);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{fv}', fmtMoney(fv)).replace('{t}', t).replace('{r}', r),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(x => x.replace('{fv}', fmtMoney(fv)).replace('{r}', r).replace('{t}', t).replace('{ans}', fmtMoney(ans)))
+    };
+  },
+
+  'perpetuity': (s) => {
+    const c = pick([100, 500, 1000, 5000]);
+    const r = pick([3, 4, 5, 6, 8]);
+    const rFrac = r / 100;
+    const ans = c / rFrac;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{c}', fmtMoney(c)).replace('{r}', r),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{c}', fmtMoney(c)).replace('{rFrac}', rFrac).replace('{ans}', fmtMoney(ans)))
+    };
+  },
+
+  'time-to-value': (s) => {
+    const pv = pick([500, 1000, 5000]);
+    const fv = +(pv * (1.5 + Math.random() * 2)).toFixed(2);
+    const r = pick([5, 7, 8, 10]);
+    const lnRatio = Math.log(fv / pv), lnRate = Math.log(1 + r / 100);
+    const ans = lnRatio / lnRate;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pv}', fmtMoney(pv)).replace('{r}', r).replace('{fv}', fmtMoney(fv)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{lnRatio}', fmt(lnRatio, 4)).replace('{lnRate}', fmt(lnRate, 4)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'std-list': (s) => {
+    const n = pick([4, 5]);
+    const vals = Array.from({ length: n }, () => pick([-20, -10, 0, 10, 20, 30]));
+    const mean = vals.reduce((a, b) => a + b, 0) / n;
+    const sq = vals.map(v => (v - mean) * (v - mean));
+    const variance = sq.reduce((a, b) => a + b, 0) / n;
+    const ans = Math.sqrt(variance);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{list}', vals.map(v => v + '%').join(', ')),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{mean}', fmt(mean, 2)).replace('{sq}', sq.map(x => fmt(x, 2)).join(', '))
+        .replace('{var}', fmt(variance, 2)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'std-from-var': (s) => {
+    const v = pick([100, 144, 225, 400, 625, 900]);
+    const ans = Math.sqrt(v);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{v}', v),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{v}', v).replace('{ans}', ans))
+    };
+  },
+
+  'annualise': (s) => {
+    const m = pick([2, 3, 4, 5, 6, 8, 10]);
+    const ans = m * Math.sqrt(12);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{m}', m),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{m}', m).replace('{sqrt12}', fmt(Math.sqrt(12), 4)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'daily': (s) => {
+    const a = pick([10, 12, 15, 18, 20, 25, 30]);
+    const ans = a / Math.sqrt(252);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{a}', a),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{a}', a).replace('{sqrt252}', fmt(Math.sqrt(252), 4)).replace('{ans}', fmt(ans, 3)))
+    };
+  },
+
+  'bayes': (s) => {
+    const prev = pick([0.001, 0.005, 0.01, 0.02, 0.05]);
+    const sens = pick([0.9, 0.95, 0.99]);
+    const spec = pick([0.9, 0.95, 0.99]);
+    const esc = 1 - spec;
+    const pPos = sens * prev + esc * (1 - prev);
+    const ans = sens * prev / pPos * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{prev}', fmt(prev * 100, 2)).replace('{sens}', Math.round(sens * 100)).replace('{spec}', Math.round(spec * 100)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{prev}', fmt(prev * 100, 2)).replace('{sens}', Math.round(sens * 100))
+        .replace('{esc}', Math.round(esc * 100)).replace('{pPos}', fmt(pPos * 100, 3))
+        .replace('{pFlag}', fmt(pPos * 100, 3)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'bayes-generic': (s) => {
+    const pa = pick([0.01, 0.05, 0.1, 0.2]);
+    const pbA = pick([0.7, 0.8, 0.9]);
+    const pbNotA = pick([0.05, 0.1, 0.15]);
+    const paNot = 1 - pa;
+    const pB = pbA * pa + pbNotA * paNot;
+    const ans = pbA * pa / pB * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pa}', Math.round(pa * 100)).replace('{pbA}', Math.round(pbA * 100)).replace('{pbNotA}', Math.round(pbNotA * 100)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{pa}', Math.round(pa * 100)).replace('{pbA}', Math.round(pbA * 100))
+        .replace('{pbNotA}', Math.round(pbNotA * 100)).replace('{paNot}', Math.round(paNot * 100))
+        .replace('{pB}', fmt(pB * 100, 3)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'bayes-neglect': (s) => {
+    const pa = pick([0.02, 0.05, 0.1]);
+    const pbA = pick([0.7, 0.8, 0.9]);
+    const pbNotA = pick([0.1, 0.15, 0.2]);
+    const paNot = 1 - pa;
+    const pB = pbA * pa + pbNotA * paNot;
+    const ans = pbA * pa / pB * 100;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{pa}', Math.round(pa * 100)).replace('{pbA}', Math.round(pbA * 100)).replace('{pbNotA}', Math.round(pbNotA * 100)),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{pa}', Math.round(pa * 100)).replace('{pbA}', Math.round(pbA * 100))
+        .replace('{pbNotA}', Math.round(pbNotA * 100)).replace('{paNot}', Math.round(paNot * 100))
+        .replace('{pB}', fmt(pB * 100, 3)).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'ph-from': (s) => {
+    const h = pick([1, 2, 5]) ;
+    const e = pick([-2, -3, -4, -5, -6, -7]);
+    const ans = -(Math.log10(h) + e);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{h}', h).replace('{e}', String(e).replace('-', '−')),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{h}', h).replace('{e}', String(e).replace('-', '−')).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'ph-dilute': (s) => {
+    const ph = pick([2, 3, 4, 5, 6, 7]);
+    const k = pick([10, 100, 1000]);
+    const delta = Math.log10(k);
+    const ans = ph + delta;
+    return {
+      prompt: (s.promptText || s.prompt).replace('{ph}', ph).replace('{k}', k),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{ph}', ph).replace('{k}', k).replace('{delta}', delta).replace('{ans}', fmt(ans, 2)))
+    };
+  },
+
+  'decibels': (s) => {
+    const F = pick([10, 100, 1000, 2, 4, 10000]);
+    const ans = 10 * Math.log10(F);
+    return {
+      prompt: (s.promptText || s.prompt).replace('{F}', F),
+      answerType: 'number', answer: ans, tolerance: s.tolerance, unit: s.unit,
+      steps: (s.steps || []).map(t => t.replace('{F}', F).replace('{ans}', fmt(ans, 2)))
+    };
+  }
+};
+
+/* ──────────────────────────────────────────────────────────
+   state
+   ────────────────────────────────────────────────────────── */
+let DATA = null;
+const state = {
+  selected: new Set(),
+  problem: null,
+  answered: false,
+  userAnswer: null,
+  userChoice: null,
+  sessionCorrect: 0,
+  sessionAttempts: 0,
+  sessionStreak: 0,
+  prevScreen: 'home'
+};
+const $ = id => document.getElementById(id);
+
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  $('screen-' + name).classList.add('active');
+  state.screen = name;
+}
+
+/* ──────────────────────────────────────────────────────────
+   home
+   ────────────────────────────────────────────────────────── */
+function renderHome() {
+  const grid = $('topicGrid');
+  grid.innerHTML = DATA.topics.map(t => {
+    const sel = state.selected.has(t.id);
+    return '<button class="topic-chip ' + (sel ? 'selected' : '') + '" data-topic="' + t.id + '" style="--c:' + t.color + '" type="button">' +
+      '<span class="tc-icon">' + t.icon + '</span><span class="tc-name">' + t.name + '</span><span class="tc-check">✓</span></button>';
+  }).join('');
+  grid.querySelectorAll('.topic-chip').forEach(ch => ch.addEventListener('click', () => {
+    const id = ch.dataset.topic;
+    if (state.selected.has(id)) state.selected.delete(id); else state.selected.add(id);
+    try { localStorage.setItem(SEL_KEY, JSON.stringify([...state.selected])); } catch (e) {}
+    renderHome();
+  }));
+  const n = state.selected.size;
+  $('selInfo').innerHTML = '<b>' + n + '</b> of ' + DATA.topics.length + ' topics selected';
+  $('startBtn').disabled = n === 0;
+  const a = perf.totalAttempts, c = perf.totalCorrect;
+  $('overallText').innerHTML = a === 0 ? 'No attempts yet — pick topics and start.'
+    : 'Overall: <b>' + c + '/' + a + '</b> correct &nbsp;·&nbsp; accuracy <b>' + fmt(c / a * 100, 1) + '%</b>';
+}
+
+/* ──────────────────────────────────────────────────────────
+   practice
+   ────────────────────────────────────────────────────────── */
+function nextProblem() {
+  const ids = [...state.selected].filter(id => DATA.topics.some(t => t.id === id));
+  if (!ids.length) ids.push(DATA.topics[0].id);
+  const topic = DATA.topics.find(t => t.id === pick(ids));
+  const scheme = pick(topic.schemes);
+  const gen = GENS[scheme.kind];
+  if (!gen) {
+    $('problemPrompt').innerHTML = 'No generator for kind <code>' + scheme.kind + '</code>.';
+    return;
+  }
+  const inst = gen(Object.assign({}, scheme, { id: scheme.id, promptText: scheme.prompt }));
+  state.problem = Object.assign(inst, { topicId: topic.id, topicName: topic.name, topicColor: topic.color, schemeId: scheme.id });
+  state.answered = false; state.userAnswer = null; state.userChoice = null;
+  renderPractice();
+}
+
+function renderPractice() {
+  const p = state.problem;
+  $('topicTag').style.setProperty('--c', p.topicColor);
+  $('topicTagName').textContent = state.selected.size > 1 ? 'Mixed · ' + p.topicName : p.topicName;
+  $('tolBadge').textContent = 'tolerance · ' + toleranceLabel(p.tolerance);
+  $('problemPrompt').innerHTML = p.prompt;
+  updateSession();
+  const area = $('answerArea');
+  if (p.answerType === 'choice') {
+    area.innerHTML = '<div class="choices">' + p.choices.map((c, i) =>
+      '<div class="choice" data-choice="' + i + '"><span class="radio"></span><span>' + c + '</span></div>').join('') + '</div>';
+    area.querySelectorAll('.choice').forEach(el => el.addEventListener('click', () => {
+      if (state.answered) return;
+      state.userChoice = Number(el.dataset.choice);
+      area.querySelectorAll('.choice').forEach(c => c.classList.remove('selected'));
+      el.classList.add('selected');
+    }));
+  } else {
+    area.innerHTML = '<div class="num-input"><input id="answerInput" type="text" inputmode="decimal" placeholder="your answer" autocomplete="off" spellcheck="false"><div class="num-unit">' + (p.unit || '—') + '</div></div>' +
+      '<div class="input-hint">expressions work: <code>72/6</code>, <code>1.5e3</code></div>';
+    const inp = $('answerInput');
+    setTimeout(() => inp.focus(), 30);
+    inp.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); submitAnswer(); } });
+  }
+  $('resultArea').innerHTML = '';
+  renderActions();
+}
+
+function updateSession() {
+  const a = state.sessionAttempts, c = state.sessionCorrect;
+  $('sessionStats').innerHTML = a === 0 ? 'Session <b>0/0</b>'
+    : 'Session <b>' + c + '/' + a + '</b> · ' + Math.round(c / a * 100) + '%' + (state.sessionStreak >= 2 ? ' · 🔥 ' + state.sessionStreak : '');
+}
+
+function renderActions() {
+  const bar = $('actionBar');
+  if (!state.answered) {
+    bar.innerHTML = '<button class="primary" id="submitBtn">Submit answer</button><button class="ghost" id="skipBtn">Skip / show answer</button>';
+    $('submitBtn').addEventListener('click', submitAnswer);
+    $('skipBtn').addEventListener('click', () => { state.userAnswer = NaN; state.userChoice = null; evaluate(true); });
+  } else {
+    bar.innerHTML = '<button class="primary" id="nextBtn">Next problem →</button><button class="ghost" id="changeBtn">Change topics</button>';
+    $('nextBtn').addEventListener('click', nextProblem);
+    $('changeBtn').addEventListener('click', () => { renderHome(); showScreen('home'); });
+    setTimeout(() => $('nextBtn') && $('nextBtn').focus(), 30);
+  }
+}
+
+function submitAnswer() {
+  if (state.answered) return;
+  const p = state.problem;
+  if (p.answerType === 'choice') {
+    if (state.userChoice === null) return;
+    state.userAnswer = state.userChoice;
+  } else {
+    const inp = $('answerInput');
+    if (!inp || !inp.value.trim()) return;
+    const v = parseUserNumber(inp.value);
+    if (isNaN(v)) { $('resultArea').innerHTML = '<div class="feedback no">Could not read that as a number.</div>'; return; }
+    state.userAnswer = v;
+  }
+  evaluate(false);
+}
+
+function evaluate(skipped) {
+  const p = state.problem;
+  const correct = !skipped && (p.answerType === 'choice'
+    ? state.userAnswer === p.correctChoice
+    : checkAnswer(state.userAnswer, p.answer, p.tolerance));
+
+  state.answered = true;
+  state.sessionAttempts++;
+  if (correct) { state.sessionCorrect++; state.sessionStreak++; } else state.sessionStreak = 0;
+
+  /* stats */
+  if (!perf.topics[p.topicId]) perf.topics[p.topicId] = { attempts: 0, correct: 0, schemes: {} };
+  const ts = perf.topics[p.topicId];
+  ts.attempts++; if (correct) ts.correct++;
+  if (!ts.schemes[p.schemeId]) ts.schemes[p.schemeId] = { attempts: 0, correct: 0 };
+  ts.schemes[p.schemeId].attempts++; if (correct) ts.schemes[p.schemeId].correct++;
+  perf.totalAttempts++; if (correct) perf.totalCorrect++;
+  savePerf();
+
+  if (p.answerType === 'choice') {
+    $('answerArea').querySelectorAll('.choice').forEach(el => {
+      el.classList.add('disabled');
+      const i = Number(el.dataset.choice);
+      if (i === p.correctChoice) el.classList.add('correct');
+      else if (i === state.userAnswer && !correct) el.classList.add('wrong');
+    });
+  } else {
+    const inp = $('answerInput');
+    if (inp) { inp.disabled = true; inp.blur(); }
+  }
+
+  const shown = p.answerType === 'choice' ? p.choices[p.correctChoice]
+    : fmt(p.answer, Math.abs(p.answer) < 10 ? 4 : 2) + (p.unit ? ' ' + p.unit : '');
+
+  const fb = correct
+    ? '<div class="feedback ok">✓ <b>Correct.</b></div>'
+    : '<div class="feedback no">' + (skipped ? '↷ <b>Skipped.</b>' : '✗ <b>Not close enough.</b>') + ' The answer is <b>' + shown + '</b>.</div>';
+
+  const steps = '<div class="steps-box"><h4>Detailed calculation</h4>' +
+    (p.steps || []).map(s => '<div class="step-line">' + s + '</div>').join('') + '</div>';
+
+  $('resultArea').innerHTML = fb + steps;
+  updateSession();
+  renderActions();
+}
+
+/* ──────────────────────────────────────────────────────────
+   stats
+   ────────────────────────────────────────────────────────── */
+function renderStats() {
+  const a = perf.totalAttempts, c = perf.totalCorrect;
+  $('statsSummary').innerHTML =
+    '<div class="sum-box"><div class="lab">Attempts</div><div class="val">' + a + '</div></div>' +
+    '<div class="sum-box"><div class="lab">Correct</div><div class="val">' + c + '</div></div>' +
+    '<div class="sum-box"><div class="lab">Accuracy</div><div class="val">' + (a ? fmt(c / a * 100, 1) + '%' : '—') + '</div></div>' +
+    '<div class="sum-box"><div class="lab">Topics started</div><div class="val">' + Object.keys(perf.topics).length + '/' + DATA.topics.length + '</div></div>';
+
+  if (a === 0) {
+    $('statsTopics').innerHTML = '<div class="empty">No attempts yet — go back and practise a topic.</div>';
+    return;
+  }
+  $('statsTopics').innerHTML = DATA.topics.map(t => {
+    const ts = perf.topics[t.id];
+    if (!ts) return '';
+    const acc = ts.attempts ? Math.round(ts.correct / ts.attempts * 100) : 0;
+    const schemes = Object.keys(ts.schemes).map(k => {
+      const s = ts.schemes[k];
+      return k + ': ' + s.correct + '/' + s.attempts;
+    }).join(' · ');
+    return '<div class="stat-topic" style="--c:' + t.color + '">' +
+      '<div class="st-head"><div class="st-name">' + t.icon + ' ' + t.name + '</div>' +
+      '<div class="st-meta"><b>' + ts.correct + '/' + ts.attempts + '</b> · ' + acc + '%</div></div>' +
+      '<div class="st-bar"><div class="st-bar-fill" style="width:' + acc + '%"></div></div>' +
+      (schemes ? '<div class="st-meta" style="margin-top:7px;font-size:10.5px;font-family:var(--font-mono)">' + schemes + '</div>' : '') +
+      '<button class="ghost" data-reset="' + t.id + '" style="margin-top:8px;font-size:10.5px;padding:4px 9px">Reset</button></div>';
+  }).join('');
+  $('statsTopics').querySelectorAll('[data-reset]').forEach(b => b.addEventListener('click', () => {
+    const id = b.dataset.reset;
+    const ts = perf.topics[id];
+    if (!ts) return;
+    perf.totalAttempts -= ts.attempts;
+    perf.totalCorrect -= ts.correct;
+    delete perf.topics[id];
+    savePerf(); renderStats(); renderHome();
+  }));
+}
+
+/* ──────────────────────────────────────────────────────────
+   wiring
+   ────────────────────────────────────────────────────────── */
+$('selectAllBtn').addEventListener('click', () => { state.selected = new Set(DATA.topics.map(t => t.id)); renderHome(); });
+$('selectNoneBtn').addEventListener('click', () => { state.selected = new Set(); renderHome(); });
+$('startBtn').addEventListener('click', () => {
+  if (!state.selected.size) return;
+  state.sessionCorrect = 0; state.sessionAttempts = 0; state.sessionStreak = 0;
+  showScreen('practice'); nextProblem();
+});
+$('resetAllBtn').addEventListener('click', () => {
+  if (!confirm('Reset ALL progress?')) return;
+  perf = emptyPerf(); savePerf(); renderHome();
+});
+$('backBtn').addEventListener('click', () => { renderHome(); showScreen('home'); });
+$('statsBtn').addEventListener('click', () => { state.prevScreen = 'home'; renderStats(); showScreen('stats'); });
+$('statsBtn2').addEventListener('click', () => { state.prevScreen = 'practice'; renderStats(); showScreen('stats'); });
+$('backStatsBtn').addEventListener('click', () => {
+  if (state.prevScreen === 'practice' && state.problem) showScreen('practice');
+  else { renderHome(); showScreen('home'); }
+});
+$('resetAllStatsBtn').addEventListener('click', () => {
+  if (!confirm('Reset ALL progress?')) return;
+  perf = emptyPerf(); savePerf(); renderStats(); renderHome();
+});
+
+document.addEventListener('keydown', e => {
+  if (state.screen !== 'practice') return;
+  if (e.key === 'Enter' && state.answered) {
+    const ae = document.activeElement;
+    if (ae && ae.tagName === 'INPUT' && !ae.disabled) return;
+    e.preventDefault(); nextProblem();
+  }
+});
+
+/* theme */
+(function () {
+  var toggle = document.getElementById('themeToggle');
+  var label = document.getElementById('themeLabel');
+  function apply() { label.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
+  toggle.addEventListener('click', function () {
+    var root = document.documentElement;
+    root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
+    try { localStorage.setItem('epistecnica-theme', root.dataset.theme); } catch (e) {}
+    apply();
+    window.dispatchEvent(new CustomEvent('epistecnica-theme'));
+  });
+  apply();
+})();
+
+/* ambient */
+(function () {
+  var cv = document.getElementById('ambientCanvas'), ctx = cv.getContext('2d');
+  var dpr = Math.min(window.devicePixelRatio || 1, 2), stars = [], W = 0, H = 0;
+  function colors() {
+    var s = getComputedStyle(document.documentElement);
+    return { gold: s.getPropertyValue('--accent-gold').trim(), cyan: s.getPropertyValue('--accent-cyan').trim() };
+  }
+  function resize() {
+    W = window.innerWidth; H = window.innerHeight;
+    cv.width = W * dpr; cv.height = H * dpr; cv.style.width = W + 'px'; cv.style.height = H + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    var n = Math.round((W * H) / 26000);
+    stars = [];
+    for (var i = 0; i < n; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, r: Math.random() * 1.3 + 0.3, a: Math.random() * 0.5 + 0.15, s: Math.random() * 0.00012 + 0.00004, p: Math.random() * Math.PI * 2 });
+  }
+  function frame(t) {
+    var c = colors();
+    ctx.clearRect(0, 0, W, H);
+    for (var i = 0; i < stars.length; i++) {
+      var s = stars[i];
+      ctx.globalAlpha = Math.max(0.04, s.a * (0.55 + 0.45 * Math.sin(t * s.s + s.p)));
+      ctx.fillStyle = i % 7 === 0 ? c.gold : c.cyan;
+      ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(frame);
+  }
+  resize(); window.addEventListener('resize', resize);
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) requestAnimationFrame(frame);
+})();
+
+/* boot: load the bank */
+fetch('approximation-problems.json', { cache: 'no-cache' })
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(data => {
+    /* validate the kinds before the first render */
+    const missing = [];
+    data.topics.forEach(t => t.schemes.forEach(s => { if (!GENS[s.kind]) missing.push(t.id + '/' + s.id + ' → ' + s.kind); }));
+    if (missing.length) throw new Error('unknown generator kinds: ' + missing.join(', '));
+    DATA = data;
+    $('introText').textContent = data.intro;
+    state.selected = new Set(data.topics.map(t => t.id));
+    try {
+      const raw = localStorage.getItem(SEL_KEY);
+      if (raw) {
+        const arr = JSON.parse(raw);
+        const valid = new Set(arr.filter(id => data.topics.some(t => t.id === id && t.schemes && t.schemes.length)));
+        state.selected = valid.size ? valid : new Set(data.topics.map(t => t.id));
+      }
+    } catch (e) {}
+    renderHome();
+    showScreen('home');
+    if (typeof window.renderTeX === 'function') window.renderTeX();
+  })
+  .catch(err => {
+    $('introText').innerHTML = '<span class="load-error">Could not load approximation-problems.json — ' + err.message + '</span>';
+  });
+</script>
+
+<script src="/shared/usearch.js" data-root="../../../../../"></script>
+</body>
+</html>

@@ -327,6 +327,18 @@ instance-decomposition table:
   deep-links; `#<path>` is written by the shared viewer. There is no card or
   dendrogram view. The store is generated data — never hand-edit it, never
   changelog it.
+- **Approximation Playground** — `epistemica/observational/playground/approximation-playground.html`
+  with its bank `approximation-problems.json` beside it. Twenty-one topics
+  (estimation, division, powers & roots, log, trigonometry, exponentials,
+  geometry, unit conversion, mean, median, mode, compounding, averaging, risk,
+  ratio, expected value, discounting, volatility, base rates, pH & scales,
+  half-life), each a single concept; a user selects several topics and the
+  runner mixes them. The JSON holds the **scheme specs** — `kind`, prompt and
+  steps templates, tolerance — and the page holds the **generators**, so a new
+  topic is data plus a generator only if its kind is new. `make
+  approximation-check` (part of `make check`) validates ids, kinds, table
+  references, tolerance kinds and that every `{placeholder}` a template uses is
+  one its generator supplies.
 - **Technical-object taxonomy** — `technica/technical-object-taxonomy.{html,json}`
   under `src/corpus/notes/` is the *classification* of the corpus's
   technical objects, distinct from the atlas *decomposition*: four levels,

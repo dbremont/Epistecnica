@@ -1,0 +1,1381 @@
+{
+  "version": 1,
+  "title": "Approximation Playground",
+  "intro": "Pick the topics you want to drill, then answer with an estimate close enough to count. Every problem states its tolerance: guessed magnitudes are judged as factors, computed values as percentages.",
+  "toleranceKinds": {
+    "order": {
+      "label": "exponent only",
+      "note": "answer with the exponent, e.g. 7 for 10⁷"
+    },
+    "factor": {
+      "label": "within ×{value}",
+      "note": "a rough estimate counts"
+    },
+    "rel": {
+      "label": "within {pct}%",
+      "note": "apply the formula"
+    },
+    "abs": {
+      "label": "within ±{value}",
+      "note": "exact arithmetic"
+    },
+    "choice": {
+      "label": "pick one",
+      "note": "a qualitative answer"
+    }
+  },
+  "topics": [
+    {
+      "id": "estimation",
+      "name": "Estimation",
+      "icon": "🎯",
+      "color": "#f2a33c",
+      "blurb": "Order of magnitude before mantissa — the Fermi tool, on its own.",
+      "schemes": [
+        {
+          "id": "est-magnitude",
+          "kind": "const-table",
+          "table": "magnitudes",
+          "prompt": "What is the <b>exponent</b> of 10 for the number of <b>{q}</b>?",
+          "tolerance": {
+            "kind": "order"
+          },
+          "unit": "",
+          "steps": [
+            "Look up or estimate: {q} ≈ {vE}.",
+            "floor(log₁₀({vE})) = {exp}.",
+            "So it is on the order of 10^{exp}."
+          ]
+        },
+        {
+          "id": "est-money",
+          "kind": "const-table",
+          "table": "money-scale",
+          "prompt": "Roughly how much is <b>{q}</b>?",
+          "tolerance": {
+            "kind": "factor",
+            "value": 3,
+            "pct": 200
+          },
+          "unit": "$",
+          "steps": [
+            "A reasonable estimate is {v}.",
+            "Order of magnitude: 10^{exp}.",
+            "Accepted: {lo} to {hi}."
+          ]
+        },
+        {
+          "id": "est-doublings",
+          "kind": "doubling",
+          "prompt": "How many <b>doublings</b> take <b>{a}</b> to <b>{b}</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0
+          },
+          "unit": "",
+          "steps": [
+            "Ratio = {b} / {a} = {ratio}.",
+            "log₂({ratio}) = {n}.",
+            "So it doubles {n} times."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "division",
+      "name": "Division",
+      "icon": "➗",
+      "color": "#5b8def",
+      "blurb": "Quotients, percent-of, ratio-of — the workhorse.",
+      "schemes": [
+        {
+          "id": "div-quotient",
+          "kind": "divide",
+          "prompt": "What is <b>{a} ÷ {b}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "{a} ÷ {b} = {ans}.",
+            "Check the order: {a} is about {aE}, {b} about {bE}, so the quotient is near {ansE}."
+          ]
+        },
+        {
+          "id": "div-percent-of",
+          "kind": "percent-of",
+          "prompt": "What is <b>{p}%</b> of <b>{a}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "{p}% of {a} means {p}/100 × {a}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "div-ratio",
+          "kind": "ratio-simple",
+          "prompt": "<b>{a}</b> is <b>{b}</b> — what is the ratio <b>a / b</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "Ratio = {a} / {b} = {ans}.",
+            "Equivalently {ans} : 1."
+          ]
+        },
+        {
+          "id": "div-remainder",
+          "kind": "remainder",
+          "prompt": "<b>{a}</b> divided by <b>{b}</b> — what is the <b>remainder</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0
+          },
+          "unit": "",
+          "steps": [
+            "{b} × {q} = {bq}, which leaves {r}.",
+            "So the remainder is {r}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "powers",
+      "name": "Powers & Roots",
+      "icon": "√",
+      "color": "#4ec9b0",
+      "blurb": "x^n, square root, cube root — with the size checked first.",
+      "schemes": [
+        {
+          "id": "pow-integer",
+          "kind": "power",
+          "prompt": "What is <b>{x}^{n}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "{x}^{n} = {ans}.",
+            "Order check: 10^{exp} — the answer should sit near there."
+          ]
+        },
+        {
+          "id": "pow-sqrt",
+          "kind": "sqrt",
+          "prompt": "What is <b>√{x}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "Nearest perfect square: {lo}² = {lo2}, {hi}² = {hi2}.",
+            "√{x} ≈ {ans}.",
+            "So the root sits between {lo} and {hi}."
+          ]
+        },
+        {
+          "id": "pow-cbrt",
+          "kind": "cbrt",
+          "prompt": "What is the <b>cube root of {x}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "{lo}³ = {lo3}, {hi}³ = {hi3}.",
+            "∛{x} ≈ {ans}.",
+            "Magnitude: 10^{exp}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "log",
+      "name": "Log",
+      "icon": "📈",
+      "color": "#a78bfa",
+      "blurb": "Doubling time, log returns, percentage vs percentage-point, decades.",
+      "schemes": [
+        {
+          "id": "log-rule72",
+          "kind": "rule72",
+          "prompt": "At <b>{r}%</b> per year, roughly how many years to <b>double</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 2
+          },
+          "unit": "years",
+          "steps": [
+            "Rule of 72: t ≈ 72/r = {approx} years.",
+            "Exact: ln(2)/ln(1 + {r}/100) = {exact} years."
+          ]
+        },
+        {
+          "id": "log-exact-double",
+          "kind": "exact-double",
+          "prompt": "At <b>{r}%</b>, how many years does it <em>exactly</em> take to double?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "years",
+          "steps": [
+            "t = ln(2) / ln(1 + {r}/100).",
+            "= 0.6931 / {denom}.",
+            "= {ans} years."
+          ]
+        },
+        {
+          "id": "log-logreturn",
+          "kind": "log-return",
+          "prompt": "A value goes from <b>{p0}</b> to <b>{p1}</b>. What is the <b>log return</b> ln(P₁/P₀)?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "ln({p1}/{p0}) = ln({ratio}).",
+            "= {ans}.",
+            "Roughly {pct}% — log returns add across time."
+          ]
+        },
+        {
+          "id": "log-points",
+          "kind": "pct-points",
+          "prompt": "A rate moves from <b>{a}%</b> to <b>{b}%</b>. What is the change in <b>percentage points</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.001
+          },
+          "unit": "pp",
+          "steps": [
+            "{b}% − {a}% = {ans} pp.",
+            "The relative change is different: ({ans}) / {a} × 100% = {rel}%."
+          ]
+        },
+        {
+          "id": "log-decades",
+          "kind": "decades",
+          "prompt": "A quantity grows by <b>×{F}</b>. How many <b>decades</b> (powers of ten) is that?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "decades",
+          "steps": [
+            "log₁₀({F}) = {ans}.",
+            "So the quantity rose by {ans} orders of magnitude."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trigonometry",
+      "name": "Trigonometry",
+      "icon": "📐",
+      "color": "#f472b6",
+      "blurb": "Sine, cosine, tangent — exact angles and small-angle estimates.",
+      "schemes": [
+        {
+          "id": "trig-exact",
+          "kind": "trig-exact",
+          "prompt": "What is <b>{fn} {deg}°</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.001
+          },
+          "unit": "",
+          "steps": [
+            "{deg}° is one of the standard angles.",
+            "{fn} {deg}° = {exact}.",
+            "Check against the unit circle: x = cos θ, y = sin θ."
+          ]
+        },
+        {
+          "id": "trig-decimal",
+          "kind": "trig-decimal",
+          "prompt": "What is <b>{fn} {deg}°</b>, to 3 decimals?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.002
+          },
+          "unit": "",
+          "steps": [
+            "{deg}° = {rad} rad.",
+            "{fn} {deg}° = {ans}.",
+            "In the first quadrant both sin and cos grow from 0 to 1."
+          ]
+        },
+        {
+          "id": "trig-radians",
+          "kind": "deg-to-rad",
+          "prompt": "How many radians is <b>{deg}°</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "rad",
+          "steps": [
+            "rad = deg × π/180.",
+            "= {deg} × {pi180} = {ans}.",
+            "Exact: {pi}."
+          ]
+        },
+        {
+          "id": "trig-small-angle",
+          "kind": "small-angle",
+          "prompt": "For a small angle <b>θ = {mrad} mrad</b>, roughly what is <b>sin θ</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "sin θ ≈ θ for small θ, in radians.",
+            "θ = {mrad} mrad = {rad} rad.",
+            "sin θ ≈ {rad}; the exact value is {exact}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exponentials",
+      "name": "Exponentials",
+      "icon": "📉",
+      "color": "#fb923c",
+      "blurb": "e^x, half-lives, growth factors — the shape of change.",
+      "schemes": [
+        {
+          "id": "exp-e",
+          "kind": "exp-value",
+          "prompt": "What is <b>e^{x}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "e^{x} = {ans}.",
+            "Check: e^0 = 1 and e^1 = 2.718."
+          ]
+        },
+        {
+          "id": "exp-half-life",
+          "kind": "half-life",
+          "prompt": "After <b>{n}</b> half-lives, what <b>fraction</b> of the substance remains?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "Remaining = (1/2)^{n}.",
+            "= {ans}.",
+            "That is {pct}% of the original."
+          ]
+        },
+        {
+          "id": "exp-growth-factor",
+          "kind": "growth-factor",
+          "prompt": "A quantity grows <b>{p}%</b> per period for <b>{n}</b> periods. What is the <b>growth factor</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "Factor = (1 + {p}/100)^{n}.",
+            "= {base}^{n} = {ans}.",
+            "After {n} periods the quantity is {ans}× its start."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "icon": "🔺",
+      "color": "#34d399",
+      "blurb": "Areas, volumes, hypotenuses — the standard shapes.",
+      "schemes": [
+        {
+          "id": "geo-circle",
+          "kind": "circle",
+          "prompt": "A circle has radius <b>{r}</b>. What is its <b>area</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "units²",
+          "steps": [
+            "A = πr² = π × {r}².",
+            "= π × {r2}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "geo-triangle",
+          "kind": "triangle-area",
+          "prompt": "A triangle has base <b>{b}</b> and height <b>{h}</b>. What is its <b>area</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "units²",
+          "steps": [
+            "A = ½ · base · height.",
+            "= ½ × {b} × {h}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "geo-sphere",
+          "kind": "sphere",
+          "prompt": "A sphere has radius <b>{r}</b>. What is its <b>volume</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "units³",
+          "steps": [
+            "V = (4/3)πr³.",
+            "= (4/3)π × {r3}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "geo-hypotenuse",
+          "kind": "hypotenuse",
+          "prompt": "A right triangle has legs <b>{a}</b> and <b>{b}</b>. What is the <b>hypotenuse</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "c = √(a² + b²) = √({a2} + {b2}).",
+            "= √{sum}.",
+            "= {ans}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit-conversion",
+      "name": "Unit Conversion",
+      "icon": "🔄",
+      "color": "#22d3ee",
+      "blurb": "The conversions that bite: °C↔°F, km↔mi, kWh↔J.",
+      "schemes": [
+        {
+          "id": "conv-temperature",
+          "kind": "c-to-f",
+          "prompt": "<b>{c} °C</b> — what is that in <b>°F</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.5
+          },
+          "unit": "°F",
+          "steps": [
+            "F = C × 9/5 + 32.",
+            "= {c} × 1.8 + 32.",
+            "= {ans} °F."
+          ]
+        },
+        {
+          "id": "conv-distance",
+          "kind": "km-to-mi",
+          "prompt": "<b>{km} km</b> — how many <b>miles</b>? (1 mi = 1.609 km)",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "mi",
+          "steps": [
+            "mi = km / 1.609.",
+            "= {km} / 1.609.",
+            "= {ans} mi."
+          ]
+        },
+        {
+          "id": "conv-energy",
+          "kind": "kwh-to-j",
+          "prompt": "<b>{kwh} kWh</b> — how many <b>joules</b>? (1 kWh = 3.6 × 10⁶ J)",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "J",
+          "steps": [
+            "J = kWh × 3.6 × 10⁶.",
+            "= {kwh} × 3.6 × 10⁶.",
+            "= {ansSci} J."
+          ]
+        },
+        {
+          "id": "conv-millisecond",
+          "kind": "ms-to-s",
+          "prompt": "<b>{ms} ms</b> — how many <b>seconds</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 1e-09
+          },
+          "unit": "s",
+          "steps": [
+            "s = ms / 1000.",
+            "= {ms} / 1000.",
+            "= {ans} s."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mean",
+      "name": "Mean",
+      "icon": "📊",
+      "color": "#a78bfa",
+      "blurb": "The arithmetic average, and how one outlier moves it.",
+      "schemes": [
+        {
+          "id": "mean-list",
+          "kind": "mean-list",
+          "prompt": "Mean of: <b>{list}</b>",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "Sum = {list} = {sum}.",
+            "Mean = {sum} / {n} = {ans}."
+          ]
+        },
+        {
+          "id": "mean-outlier",
+          "kind": "mean-outlier",
+          "prompt": "<b>{n}</b> values average <b>{old}</b>. Add one value <b>{add}</b>. What is the new mean?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "Old sum = {n} × {old} = {oldSum}.",
+            "New sum = {oldSum} + {add} = {newSum}.",
+            "New mean = {newSum} / {n1} = {ans}."
+          ]
+        },
+        {
+          "id": "mean-vs-median",
+          "kind": "mean-vs-median",
+          "prompt": "With one large outlier — <b>{list}</b> — which is larger?",
+          "tolerance": {
+            "kind": "choice"
+          },
+          "unit": "",
+          "choices": [
+            "mean > median",
+            "mean < median",
+            "mean = median"
+          ],
+          "steps": [
+            "Sorted: {sorted}.",
+            "Mean = {mean}, median = {median}.",
+            "{verdict}"
+          ],
+          "correctChoice": 0
+        }
+      ]
+    },
+    {
+      "id": "median",
+      "name": "Median",
+      "icon": "📍",
+      "color": "#c084fc",
+      "blurb": "The middle value, and why an outlier barely moves it.",
+      "schemes": [
+        {
+          "id": "median-odd",
+          "kind": "median-list",
+          "prompt": "Median of: <b>{list}</b>",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "Sorted: {sorted}.",
+            "n = {n} (odd) — the middle value.",
+            "Median = {ans}."
+          ]
+        },
+        {
+          "id": "median-even",
+          "kind": "median-list",
+          "prompt": "Median of: <b>{list}</b>",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "Sorted: {sorted}.",
+            "n = {n} (even) — average the two middle values.",
+            "Median = {ans}."
+          ]
+        },
+        {
+          "id": "median-robust",
+          "kind": "median-robust",
+          "prompt": "Dataset <b>{list}</b> (median {old}). Add outlier <b>{add}</b>. What is the new median?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "Sorted with the outlier: {sorted}.",
+            "n = {n1} (even) — average the two middle values.",
+            "New median = {ans}. It barely moved: the median is robust."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mode",
+      "name": "Mode",
+      "icon": "🔢",
+      "color": "#e879f9",
+      "blurb": "The most frequent value — and what a tie means.",
+      "schemes": [
+        {
+          "id": "mode-basic",
+          "kind": "mode-list",
+          "prompt": "Mode of: <b>{list}</b><br><small>If there is a tie, answer the smallest.</small>",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0
+          },
+          "unit": "",
+          "steps": [
+            "Counts: {counts}.",
+            "Most frequent: {modes}.",
+            "Mode = {ans}."
+          ]
+        },
+        {
+          "id": "mode-tie",
+          "kind": "mode-list",
+          "prompt": "Mode of: <b>{list}</b><br><small>Bimodal — answer the smallest.</small>",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0
+          },
+          "unit": "",
+          "steps": [
+            "Counts: {counts}.",
+            "Two values tie: {modes}.",
+            "Answer: {ans}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compounding",
+      "name": "Compounding",
+      "icon": "🌱",
+      "color": "#f87171",
+      "blurb": "Growth multiplies: (1+r)(1+r), not 1+r+r.",
+      "schemes": [
+        {
+          "id": "comp-two-year",
+          "kind": "two-period",
+          "prompt": "Year 1: <b>{r1}</b>. Year 2: <b>{r2}</b>. What is the <b>total return</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "Total = (1 + r₁)(1 + r₂) − 1.",
+            "= {f1} × {f2} − 1.",
+            "= {ans}%.",
+            "Adding the returns would give {sum}% — wrong, because compounding multiplies."
+          ]
+        },
+        {
+          "id": "comp-cagr",
+          "kind": "cagr",
+          "prompt": "A value grows from <b>{start}</b> to <b>{end}</b> in <b>{n}</b> years. What is the <b>CAGR</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "CAGR = (end/start)^(1/n) − 1.",
+            "= ({end}/{start})^(1/{n}) − 1.",
+            "= {ans}%."
+          ]
+        },
+        {
+          "id": "comp-fv",
+          "kind": "future-value",
+          "prompt": "<b>{pv}</b> at <b>{r}%</b> for <b>{t}</b> years. What is the <b>future value</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "FV = PV × (1 + r)^t.",
+            "= {pv} × (1 + {r}/100)^{t}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "comp-loss-recovery",
+          "kind": "loss-recovery",
+          "prompt": "You lose <b>{L}%</b>. What return do you need to break even, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "After a {L}% loss you hold {factor}.",
+            "Required multiplier = 1 / {factor} = {inv}.",
+            "Required return = {ans}%."
+          ]
+        },
+        {
+          "id": "comp-continuous",
+          "kind": "continuous",
+          "prompt": "<b>{pv}</b> compounding <em>continuously</em> at <b>{r}%</b> for <b>{t}</b> years — what is the <b>future value</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "FV = PV × e^(rt).",
+            "= {pv} × e^{rt} with rt = {rt}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "comp-bacteria",
+          "kind": "bacteria",
+          "prompt": "A colony doubles every <b>{d}</b> minutes. Starting from <b>{n0}</b>, how many after <b>{t}</b> hours?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "cells",
+          "steps": [
+            "Doublings = ({t} × 60) / {d} = {k}.",
+            "Count = {n0} × 2^{k}.",
+            "= {ans}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "averaging",
+      "name": "Averaging",
+      "icon": "🔁",
+      "color": "#fb7185",
+      "blurb": "The average of returns is not the return you get.",
+      "schemes": [
+        {
+          "id": "avg-up-down",
+          "kind": "up-down",
+          "prompt": "A value rises <b>{r1}%</b> then falls <b>{r2}%</b>. What is the <b>total return</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "Total = (1 + {r1}/100)(1 − {r2}/100) − 1.",
+            "= {f1} × {f2} − 1.",
+            "= {ans}%.",
+            "The arithmetic average was 0%, yet the value lost money — volatility drag."
+          ]
+        },
+        {
+          "id": "avg-geometric",
+          "kind": "geometric",
+          "prompt": "Returns over 3 years: <b>{r1}%, {r2}%, {r3}%</b>. What is the <b>geometric mean</b> return, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "Geometric = [(1+r₁)(1+r₂)(1+r₃)]^(1/3) − 1.",
+            "= {ans}%.",
+            "The arithmetic mean was {arith}% — never smaller."
+          ]
+        },
+        {
+          "id": "avg-vol-drag",
+          "kind": "vol-drag",
+          "prompt": "Arithmetic mean <b>{mu}%</b>, volatility <b>{sigma}%</b>. What is the approximate <b>geometric return</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "g ≈ μ − σ²/2.",
+            "= {mu}% − {drag}%.",
+            "= {ans}%.",
+            "The gap of {drag}% per year is the volatility drag."
+          ]
+        },
+        {
+          "id": "avg-gap",
+          "kind": "vol-drag-gap",
+          "prompt": "Arithmetic mean <b>{mu}%</b>, volatility <b>{sigma}%</b>. What is the <b>gap</b> to the geometric mean, in pp?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "pp",
+          "steps": [
+            "Gap ≈ σ²/2.",
+            "= {sigma}² / 200.",
+            "= {ans} pp."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "risk",
+      "name": "Risk",
+      "icon": "📐",
+      "color": "#fbbf24",
+      "blurb": "Portfolios are vector sums; correlation is an angle.",
+      "schemes": [
+        {
+          "id": "risk-portfolio",
+          "kind": "portfolio",
+          "prompt": "Weights <b>{w1}% / {w2}%</b>, volatilities <b>{s1}% / {s2}%</b>, ρ = <b>{rho}</b>. What is the portfolio <b>volatility</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "σ_p² = w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂.",
+            "= {a} + {b} + {c}.",
+            "= {var}.",
+            "σ_p = √{var} = {ans}%."
+          ]
+        },
+        {
+          "id": "risk-angle",
+          "kind": "corr-angle",
+          "prompt": "Two assets have ρ = <b>{rho}</b>. What is the <b>angle</b> between their risk vectors, in degrees?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 1
+          },
+          "unit": "°",
+          "steps": [
+            "angle = arccos(ρ) = arccos({rho}).",
+            "= {ans}°.",
+            "{verdict}"
+          ]
+        },
+        {
+          "id": "risk-zero-variance",
+          "kind": "zero-variance",
+          "prompt": "σ₁ = <b>{s1}%</b>, σ₂ = <b>{s2}%</b>, ρ = <b>−1</b>. What weight in asset A gives <b>zero variance</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "At ρ = −1, zero variance needs w₁σ₁ = w₂σ₂.",
+            "w₁ = σ₂/(σ₁+σ₂) = {s2}/({s1}+{s2}).",
+            "= {ans}%."
+          ]
+        },
+        {
+          "id": "risk-drawdown",
+          "kind": "drawdown",
+          "prompt": "A portfolio peaks at <b>{peak}</b>, bottoms at <b>{trough}</b>. What is the <b>max drawdown</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "Drawdown = (peak − trough)/peak × 100%.",
+            "= ({peak} − {trough}) / {peak} × 100%.",
+            "= {ans}%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ratio",
+      "name": "Ratio",
+      "icon": "⚖️",
+      "color": "#4ec9b0",
+      "blurb": "Dimensionless comparisons: P/E, yields, concentrations.",
+      "schemes": [
+        {
+          "id": "ratio-pe",
+          "kind": "pe",
+          "prompt": "A share trades at <b>{price}</b> and earns <b>{eps}</b> per share. What is the <b>P/E ratio</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "P/E = price / EPS.",
+            "= {price} / {eps}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "ratio-earnings-yield",
+          "kind": "earnings-yield",
+          "prompt": "Price <b>{price}</b>, EPS <b>{eps}</b>. What is the <b>earnings yield</b>, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "%",
+          "steps": [
+            "Earnings yield = EPS / price × 100%.",
+            "= {ans}%.",
+            "It is the reciprocal of the P/E ratio."
+          ]
+        },
+        {
+          "id": "ratio-sharpe",
+          "kind": "sharpe",
+          "prompt": "Expected return <b>{mu}%</b>, risk-free <b>{rf}%</b>, volatility <b>{sigma}%</b>. What is the <b>Sharpe ratio</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "Sharpe = (μ − r_f) / σ.",
+            "= ({mu}% − {rf}%) / {sigma}%.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "ratio-concentration",
+          "kind": "concentration",
+          "prompt": "<b>{mass} mg</b> of a substance dissolved in <b>{vol} L</b> of water. What is the concentration, in <b>mg/L</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "mg/L",
+          "steps": [
+            "Concentration = mass / volume.",
+            "= {mass} / {vol}.",
+            "= {ans} mg/L, i.e. {ppm} ppm."
+          ]
+        },
+        {
+          "id": "ratio-unit-price",
+          "kind": "unit-price",
+          "prompt": "<b>{price}</b> for <b>{qty} kg</b>. What is the price per <b>kg</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "/kg",
+          "steps": [
+            "Unit price = price / quantity.",
+            "= {price} / {qty}.",
+            "= {ans} per kg."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expected-value",
+      "name": "Expected Value",
+      "icon": "🎲",
+      "color": "#34d399",
+      "blurb": "Weighted average of outcomes: E[X] = Σ pᵢxᵢ.",
+      "schemes": [
+        {
+          "id": "ev-dice",
+          "kind": "dice",
+          "prompt": "A fair <b>{faces}</b>-sided die is rolled. What is the <b>expected value</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "",
+          "steps": [
+            "E[X] = (1 + 2 + … + {faces}) / {faces}.",
+            "= {sum} / {faces}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "ev-bet",
+          "kind": "bet",
+          "prompt": "<b>{pw}%</b> chance to win <b>{win}</b>, otherwise lose <b>{lose}</b>. What is the <b>expected value</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "E[X] = p·win − (1−p)·lose.",
+            "= {up} − {down}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "ev-fair-price",
+          "kind": "fair-price",
+          "prompt": "A gamble pays <b>{win}</b> with probability <b>{p}</b>, and nothing otherwise. What is the <b>fair price</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "",
+          "steps": [
+            "Fair price = expected payoff = p × win.",
+            "= {p} × {win}.",
+            "= {ans}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discounting",
+      "name": "Discounting",
+      "icon": "💸",
+      "color": "#60a5fa",
+      "blurb": "Money later is worth less now: PV = FV/(1+r)^t.",
+      "schemes": [
+        {
+          "id": "disc-pv",
+          "kind": "present-value",
+          "prompt": "You receive <b>{fv}</b> in <b>{t}</b> years. Discount rate <b>{r}%</b>. What is the <b>present value</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "PV = FV / (1+r)^t.",
+            "= {fv} / (1 + {r}/100)^{t}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "disc-perpetuity",
+          "kind": "perpetuity",
+          "prompt": "A perpetuity pays <b>{c}</b> per year forever. Discount rate <b>{r}%</b>. What is the <b>present value</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "PV = C / r.",
+            "= {c} / {rFrac}.",
+            "= {ans}.",
+            "The geometric series Σ C/(1+r)^t sums to C/r."
+          ]
+        },
+        {
+          "id": "disc-time",
+          "kind": "time-to-value",
+          "prompt": "<b>{pv}</b> at <b>{r}%</b> — how many <b>years</b> to reach <b>{fv}</b>?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "years",
+          "steps": [
+            "t = ln(FV/PV) / ln(1+r).",
+            "= {lnRatio} / {lnRate}.",
+            "= {ans} years."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volatility",
+      "name": "Volatility",
+      "icon": "🌊",
+      "color": "#f472b6",
+      "blurb": "How far a series swings: σ, and how it scales with time.",
+      "schemes": [
+        {
+          "id": "vol-std",
+          "kind": "std-list",
+          "prompt": "Returns: <b>{list}</b>. What is the <b>standard deviation</b> (population, ÷n)?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "Mean = {mean}.",
+            "Squared deviations: {sq}.",
+            "Variance = {var}.",
+            "σ = √{var} = {ans}."
+          ]
+        },
+        {
+          "id": "vol-from-variance",
+          "kind": "std-from-var",
+          "prompt": "A return series has <b>variance {v}</b> (in %²). What is the <b>standard deviation</b>, in %?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.01
+          },
+          "unit": "%",
+          "steps": [
+            "σ = √variance.",
+            "= √{v}.",
+            "= {ans}%."
+          ]
+        },
+        {
+          "id": "vol-annual",
+          "kind": "annualise",
+          "prompt": "Monthly volatility is <b>{m}%</b>. What is the <b>annualised</b> volatility, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "σ_annual = σ_monthly × √12.",
+            "= {m} × {sqrt12}.",
+            "= {ans}%.",
+            "Volatility scales with the square root of time."
+          ]
+        },
+        {
+          "id": "vol-daily",
+          "kind": "daily",
+          "prompt": "Annual volatility is <b>{a}%</b>. What is the <b>daily</b> volatility, in %?<br><small>252 trading days.</small>",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "σ_daily = σ_annual / √252.",
+            "= {a} / {sqrt252}.",
+            "= {ans}%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "base-rates",
+      "name": "Base Rates",
+      "icon": "🏥",
+      "color": "#f59e0b",
+      "blurb": "Bayes in disguise: rare things stay rare after a positive test.",
+      "schemes": [
+        {
+          "id": "base-medical",
+          "kind": "bayes",
+          "prompt": "A disease affects <b>{prev}%</b>. Test sensitivity <b>{sens}%</b>, specificity <b>{spec}%</b>. You test positive — what is the chance you actually have it, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "P(+ | disease)·P(disease) / P(+)",
+            "P(+ | disease) = {sens}, P(disease) = {prev}, P(+) = {pPos}",
+            "P(disease | +) = {ans}%",
+            "The base rate of {prev}% dominates: most positives are false positives."
+          ]
+        },
+        {
+          "id": "base-fraud",
+          "kind": "bayes",
+          "prompt": "Fraud rate <b>{prev}%</b>. Detector catches <b>{sens}%</b> of frauds, flags <b>{esc}%</b> of honest ones. A transaction is flagged — what is the probability it is fraud, in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "P(fraud | flag) = P(flag | fraud)·P(fraud) / P(flag).",
+            "= ({sens}% × {prev}%) / {pFlag}%.",
+            "= {ans}%.",
+            "A low base rate means most flags are false alarms."
+          ]
+        },
+        {
+          "id": "base-posterior",
+          "kind": "bayes-generic",
+          "prompt": "P(A) = <b>{pa}%</b>. P(B | A) = <b>{pbA}%</b>, P(B | ¬A) = <b>{pbNotA}%</b>. B happened — what is P(A | B), in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "P(A|B) = P(B|A)P(A) / P(B).",
+            "P(B) = {pbA}% × {pa}% + {pbNotA}% × {paNot}% = {pB}%.",
+            "P(A|B) = ({pbA}% × {pa}%) / {pB}%.",
+            "= {ans}%."
+          ]
+        },
+        {
+          "id": "base-neglect",
+          "kind": "bayes-neglect",
+          "prompt": "Base rate <b>{pa}%</b>. Test: P(B|A) = <b>{pbA}%</b>, P(B|¬A) = <b>{pbNotA}%</b>. Given B, what is P(A|B), in %?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "%",
+          "steps": [
+            "P(B) = {pbA}% × {pa}% + {pbNotA}% × {paNot}% = {pB}%.",
+            "P(A|B) = ({pbA}% × {pa}%) / {pB}%.",
+            "= {ans}%.",
+            "Answering {pbA}% means you forgot the base rate — the usual mistake."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-and-scale",
+      "name": "pH & Scales",
+      "icon": "🌡️",
+      "color": "#22d3ee",
+      "blurb": "Logarithmic scales: pH, electrical, sound.",
+      "schemes": [
+        {
+          "id": "ph-from-h",
+          "kind": "ph-from",
+          "prompt": "A solution has [H⁺] = <b>{h} × 10^{e} mol/L</b>. What is the <b>pH</b>?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.05
+          },
+          "unit": "",
+          "steps": [
+            "pH = −log₁₀[H⁺].",
+            "= −log₁₀({h} × 10^{e}).",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "ph-dilution",
+          "kind": "ph-dilute",
+          "prompt": "A solution at pH <b>{ph}</b> is diluted <b>{k}×</b> more. What is the new pH?",
+          "tolerance": {
+            "kind": "abs",
+            "value": 0.05
+          },
+          "unit": "",
+          "steps": [
+            "Diluting k× raises pH by log₁₀(k).",
+            "log₁₀({k}) = {delta}.",
+            "New pH = {ph} + {delta} = {ans}."
+          ]
+        },
+        {
+          "id": "scale-decibels",
+          "kind": "decibels",
+          "prompt": "Sound intensity rises <b>×{F}</b>. How many <b>dB</b> louder is that?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 2
+          },
+          "unit": "dB",
+          "steps": [
+            "dB = 10 log₁₀(intensity ratio).",
+            "= 10 × log₁₀({F}).",
+            "= {ans} dB."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "half-life",
+      "name": "Half-Life",
+      "icon": "☢️",
+      "color": "#94a3b8",
+      "blurb": "Decay is exponential: what fraction survives, and when.",
+      "schemes": [
+        {
+          "id": "hl-remaining",
+          "kind": "half-life",
+          "prompt": "After <b>{n}</b> half-lives, what <b>fraction</b> of the original remains?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "",
+          "steps": [
+            "Fraction = (1/2)^{n}.",
+            "= {ans}.",
+            "That is {pct}% of the original."
+          ]
+        },
+        {
+          "id": "hl-count",
+          "kind": "half-life-count",
+          "prompt": "A sample decays for <b>{t} years</b>; its half-life is <b>{hl} years</b>. How many <b>half-lives</b> is that?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "half-lives",
+          "steps": [
+            "n = t / half-life.",
+            "= {t} / {hl}.",
+            "= {ans}."
+          ]
+        },
+        {
+          "id": "hl-time",
+          "kind": "half-life-time",
+          "prompt": "Half-life <b>{hl} years</b> — how long until only <b>1/{denom}</b> remains?",
+          "tolerance": {
+            "kind": "rel",
+            "pct": 1
+          },
+          "unit": "years",
+          "steps": [
+            "1/{denom} needs log₂({denom}) = {k} half-lives.",
+            "Time = {k} × {hl}.",
+            "= {ans} years."
+          ]
+        }
+      ]
+    }
+  ]
+}

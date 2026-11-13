@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check math-atlas-check shape-atlas-index shape-atlas-check object-taxonomy-check search-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check approximation-check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check math-atlas-check shape-atlas-index shape-atlas-check object-taxonomy-check search-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -46,6 +46,7 @@ check: ## py_compile all servers + index builders + validate the EES tree + tech
 	python3 bin/math_atlas_check.py
 	python3 bin/shape_atlas_check.py
 	python3 bin/object_taxonomy_check.py
+	python3 bin/approximation_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 bin/notes_index.py
@@ -102,6 +103,9 @@ shape-atlas-check: ## validate the geometric shape atlas store (src/corpus/notes
 
 object-taxonomy-check: ## validate the technical-object taxonomy section of the atlas store (atlas.json → taxonomy)
 	python3 bin/object_taxonomy_check.py
+
+approximation-check: ## validate the approximation playground problem bank (approximation-problems.json)
+	python3 bin/approximation_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py
