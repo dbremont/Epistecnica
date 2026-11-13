@@ -1391,11 +1391,11 @@ function updateSession() {
 function renderActions() {
   const bar = $('actionBar');
   if (!state.answered) {
-    bar.innerHTML = '<button class="primary" id="submitBtn">Submit answer</button><button class="ghost" id="skipBtn">Skip / show answer</button>';
+    bar.innerHTML = '<button class="primary" id="submitBtn">Submit Answer</button><button class="ghost" id="skipBtn">Show Answer</button>';
     $('submitBtn').addEventListener('click', submitAnswer);
     $('skipBtn').addEventListener('click', () => { state.userAnswer = NaN; state.userChoice = null; evaluate(true); });
   } else {
-    bar.innerHTML = '<button class="primary" id="nextBtn">Next problem →</button><button class="ghost" id="changeBtn">Change topics</button>';
+    bar.innerHTML = '<button class="primary" id="nextBtn">Next Problem →</button><button class="ghost" id="changeBtn">Change Topics</button>';
     $('nextBtn').addEventListener('click', nextProblem);
     $('changeBtn').addEventListener('click', () => { renderHome(); showScreen('home'); });
     setTimeout(() => $('nextBtn') && $('nextBtn').focus(), 30);

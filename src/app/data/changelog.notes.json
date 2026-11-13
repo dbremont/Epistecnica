@@ -86063,5 +86063,15 @@
     "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
    }
   ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/francois-pierre-guillaume-guizot.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "New persona note for François Guizot: the career table through the Guizot law of 1833 and the July Monarchy ministry, the Doctrinaire position (pays legal against pays reel), civilisation as process, the relations that place him among the Restoration historians, and his works."
+   }
+  ]
  }
 ]
