@@ -62585,6 +62585,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
    }
   ]
  },
@@ -62597,6 +62602,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
    }
   ]
  },
@@ -81881,6 +81891,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/blood-vessel-length.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
    }
   ]
  },
