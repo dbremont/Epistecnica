@@ -86385,5 +86385,15 @@
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/hab/habsburg-monarchy.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures."
+   }
+  ]
  }
 ]

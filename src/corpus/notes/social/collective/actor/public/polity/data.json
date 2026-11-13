@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-01",
   "root": "social/collective/actor/public/polity",
-  "count": 174,
+  "count": 175,
   "codes": {
     "abb": {
       "name": "Abbasid Caliphate",
@@ -1621,6 +1621,32 @@
         {
           "path": "social/collective/actor/public/polity/grc/region/thessaloniki.md",
           "title": "Thessaloniki",
+          "kind": "explanation"
+        }
+      ]
+    },
+    "hab": {
+      "name": "Habsburg Monarchy",
+      "native": "",
+      "flag": "",
+      "has_node": false,
+      "counts": {
+        "explanation": 1,
+        "representation": 0
+      },
+      "works": [
+        {
+          "id": "habsburg-monarchy",
+          "type": "note",
+          "status": "active",
+          "title": "Habsburg Monarchy",
+          "link": "/view.html?p=notes/social/collective/actor/public/polity/hab/habsburg-monarchy.md"
+        }
+      ],
+      "notes": [
+        {
+          "path": "social/collective/actor/public/polity/hab/habsburg-monarchy.md",
+          "title": "Habsburg Monarchy",
           "kind": "explanation"
         }
       ]
