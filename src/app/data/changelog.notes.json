@@ -18096,6 +18096,11 @@
     "summary": "Move out of epistemica/mathematical/number/quantification.md into the quantification scope, as its master; a symlink stays at the former address.",
     "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
     "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add an APA bibliography with the historical literature of quantification (foundations, the history of the practice, quantification as a social technology) and link the Roberts, Kohlrausch, Porter and Frangsmyr entries."
    }
   ]
  },
