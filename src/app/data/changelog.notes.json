@@ -12701,7 +12701,9 @@
    {
     "date": "2026-11-12",
     "kind": "feat",
-    "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units."
+    "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
+    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
    }
   ]
  },
@@ -12745,7 +12747,9 @@
    {
     "date": "2026-11-12",
     "kind": "feat",
-    "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI."
+    "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
+    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
    }
   ]
  },
@@ -18060,7 +18064,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/isu.md when the measurement scope was renamed quantization and quantization moved in beside it."
+    "summary": "Move from epistemica/measurement/isu.md when the measurement scope was renamed quantization and quantization moved in beside it.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
  },
@@ -18070,7 +18075,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/measurement-theory.md when the measurement scope was renamed quantization and quantization moved in beside it."
+    "summary": "Move from epistemica/measurement/measurement-theory.md when the measurement scope was renamed quantization and quantization moved in beside it.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
  },
@@ -18080,7 +18086,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/quantization.md into the quantization scope; a symlink stays at the former address."
+    "summary": "Move from epistemica/mathematical/quantization.md into the quantization scope; a symlink stays at the former address.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
  },
@@ -18090,7 +18097,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/system.md when the measurement scope was renamed quantization and quantization moved in beside it."
+    "summary": "Move from epistemica/measurement/system.md when the measurement scope was renamed quantization and quantization moved in beside it.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
  },
