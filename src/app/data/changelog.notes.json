@@ -39035,7 +39035,9 @@
    {
     "date": "2026-11-13",
     "kind": "remove",
-    "summary": "Remove the import stub: it typed measurement and observation as Substance / Matter, which files an epistemic act under a natural substance; the practice lives in epistemica/quantization/ (measurement-theory, system, isu) and the scope it was wrongly filed in cannot carry it."
+    "summary": "Remove the import stub: it typed measurement and observation as Substance / Matter, which files an epistemic act under a natural substance; the practice lives in epistemica/quantization/ (measurement-theory, system, isu) and the scope it was wrongly filed in cannot carry it.",
+    "commit": "00add77150dd1ea697d48018d4e0c60b413e9896",
+    "before": "04d6e7e27647a71064b109c317e692bdd63eac8d"
    }
   ]
  },
