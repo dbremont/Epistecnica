@@ -12786,7 +12786,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Cite Mari, Maul, Torres Irribarra and Wilson (2017), which argues that quantification is neither necessary nor sufficient for measurement — the scope rename's own thesis — in the references and in the evaluation's answer to the standing objection."
+    "summary": "Cite Mari, Maul, Torres Irribarra and Wilson (2017), which argues that quantification is neither necessary nor sufficient for measurement — the scope rename's own thesis — in the references and in the evaluation's answer to the standing objection.",
+    "commit": "32c68cd51773fadd8aef627b71edd646a7d277a6",
+    "before": "c73dfb51bdbdb476acb24218ec827389b7c19642"
    }
   ]
  },
