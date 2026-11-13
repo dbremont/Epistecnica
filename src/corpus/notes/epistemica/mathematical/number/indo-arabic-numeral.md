@@ -104,6 +104,42 @@ tags: [note, mathematics, quantity]
 - The system, especially the use of zero, was passed to the **Islamic world** by the 9th century. **Al-Khwarizmi** and other scholars played a key role in popularizing it.
 - In the 12th century, **European mathematicians** began adopting the system, particularly through the translations of Arabic texts, such as those by **Fibonacci** in his book *Liber Abaci* (1202).
 
+## Integer Place Value Names
+
+> The integers climb by the same ladder the fractions descend: each rung is a factor of ten. The names are where the system gets treacherous, because **English and Spanish disagree from 10⁹ upward** — the short scale counts by thousands (10⁹ = billion), the long scale by millions (10⁹ = *mil millones*, 10¹² = *un billón*). Reading a large number across the two languages is the most common error in this table.
+
+| Power | English (short scale) | Español (long scale) | Our era |
+|---|---|---|---|
+| \(10^3\) | one thousand | mil | a thousand — a village |
+| \(10^6\) | one million | un millón | a regional city's population |
+| \(10^9\) | one **billion** | mil millones (un *millardo*) | world population, 8 billion |
+| \(10^{12}\) | one **trillion** | **un billón** | world GDP, ~100 trillion dollars |
+| \(10^{15}\) | one quadrillion | mil billones (un *billiard*) | world data, ~180 zettabytes = 180,000 quadrillion bytes |
+| \(10^{18}\) | one quintillion | un trillón | grains of sand on Earth, ~7.5 × 10¹⁸ |
+| \(10^{21}\) | one sextillion | mil trillones (un *trilliard*) | — |
+| \(10^{24}\) | one septillion | un cuatrillón | stars in the observable universe, ~10²⁴ |
+| \(10^{27}\) | one octillion | mil cuatrillones | — |
+| \(10^{30}\) | one nonillion | un quintillón | — |
+| \(10^{33}\) | one decillion | mil quintillones | — |
+| \(10^{36}\) | one undecillion | un sextillón | — |
+| \(10^{39}\) | one duodecillion | mil sextillones | — |
+| \(10^{42}\) | one tredecillion | un septillón | — |
+| \(10^{45}\) | one quattuordecillion | mil septillones | — |
+| \(10^{48}\) | one quindecillion | un octillón | — |
+| \(10^{51}\) | one sexdecillion | mil octillones | — |
+| \(10^{54}\) | one septendecillion | un nonillón | — |
+| \(10^{57}\) | one octodecillion | mil nonillones | — |
+| \(10^{60}\) | one novemdecillion | un decillón | — |
+| \(10^{63}\) | one vigintillion | mil decillones | — |
+| \(10^{100}\) | one googol | un gúgol | the named ceiling of everyday mathematics |
+
+Two rules make the table readable:
+
+- **Short scale (English):** every new name is a thousand times the previous one — billion 10⁹, trillion 10¹², quadrillion 10¹⁵. The `-illion` sequence names the power of a thousand, so 10⁹ is the *third* -illion.
+- **Long scale (Spanish, French, German):** every new `-illón` is a **million** times the previous one — *billón* 10¹², *trillón* 10¹⁸, *cuatrillón* 10²⁴. The missing thousand-multiples are the `-illiard` forms (*millardo* 10⁹, *billiard* 10¹⁵), which the short scale simply skips.
+
+The sequence continues past the table; beyond 10⁶³ both scales are pure Latin roots with no quantity anyone counts.
+
 ## Decimal Place Value Names
 
 | Fraction | English | Español | Decimal |

@@ -9017,6 +9017,11 @@
     "kind": "refactor",
     "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
     "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Add an Integer Place Value Names section: the power-of-ten ladder from 10^3 to 10^100 with the English short scale against the Spanish long scale, the -illiard bridge, and one concrete anchor per rung for our era."
    }
   ]
  },
