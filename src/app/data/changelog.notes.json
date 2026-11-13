@@ -12772,7 +12772,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add a lectures-and-talks subsection to the references: the Kozaj foundations series and two Royal Institution lectures (de Podesta, and the 1981 Christmas Lectures)."
+    "summary": "Add a lectures-and-talks subsection to the references: the Kozaj foundations series and two Royal Institution lectures (de Podesta, and the 1981 Christmas Lectures).",
+    "commit": "4d509bfd718d26bb6dd2fd22a5518bf987670372",
+    "before": "1aff4073676652bdd706d949b5e5f3458f624415"
    }
   ]
  },
