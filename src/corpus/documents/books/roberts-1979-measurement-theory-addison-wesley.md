@@ -25,7 +25,7 @@ will use it: the numerical representations are derived, the uniqueness theorems
 are stated with their admissible transformations, and the applications to
 decision-making and the social sciences are worked rather than gestured at.
 
-It sits exactly one level below [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md).
+It sits exactly one level below [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md).
 That note decomposes the *scheme* — a scale, a unit, a numeral — and takes the
 four scale levels as given. Roberts supplies the machinery under them: the
 algebraic axioms of a qualitative structure, the homomorphism into the reals
@@ -48,8 +48,8 @@ Two things it fixes that the note's readers will want:
 
 ## References
 
-- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
-- [System of Units of Measurement](/view.html?p=notes/epistemica/quantification/isu.md)
+- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
+- [System of Units of Measurement](/view.html?p=notes/epistemica/measurement/isu.md)
 - Roberts, F. S. (1979). *Measurement theory* (Encyclopedia of Mathematics and its Applications, Vol. 7). Addison-Wesley.
 - <https://archive.org/details/measurementtheor0000robe>

@@ -171,7 +171,7 @@ qa:
 - [Rounding](/view.html?p=notes/epistemica/mathematical/number/rounding.md)
 - [Signal](/view.html?p=notes/epistemica/signal/signal.md)
 - [Scale](/view.html?p=notes/epistemica/mathematical/scale.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
 - [Geometric Quantization](/view.html?p=notes/epistemica/singular/geometric-quantization.md)
 - [Quantum Framework](/view.html?p=notes/epistemica/singular/quantum-framework.md)
 - [Quantization (engineering treatment)](/view.html?p=notes/technica/ais/inference/quantization.md)

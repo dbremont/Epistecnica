@@ -26,7 +26,7 @@ convention, a table) before the numbers could be written down at all.
 This is the historical middle between [Crosby's](/view.html?p=documents/books/crosby-1997-measure-reality-quantification-western-europe.md)
 late-medieval "measure of reality" and [Porter's](/view.html?p=documents/books/porter-1995-trust-in-numbers-princeton.md)
 modern trust in numbers — and it is where the
-[Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+[Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
 scheme's components were most visibly *invented one at a time*: a scale before a
 unit, a unit before a system, a system before a standard anyone else would use.
 Reading it beside the note is a corrective to the impression the formal account
@@ -34,7 +34,7 @@ gives, that the three components arrive together.
 
 ## References
 
-- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
 - [Crosby (1997)](/view.html?p=documents/books/crosby-1997-measure-reality-quantification-western-europe.md)
 - [Porter (1995)](/view.html?p=documents/books/porter-1995-trust-in-numbers-princeton.md)
 - Frängsmyr, T., Heilbron, J. L., & Rider, R. E. (Eds.). (1990). *The quantifying spirit in the 18th century*. University of California Press.

@@ -8,7 +8,7 @@ tags: [note, measurement, system, si]
 
 ## Definition
 
-The system is the point of [Measurement System](/view.html?p=notes/epistemica/quantification/system.md)'s space at which the base quantities are the seven below, the system is coherent and rationalised, multiples are decimal, and the realization basis is a set of fixed constants.
+The system is the point of [Measurement System](/view.html?p=notes/epistemica/measurement/system.md)'s space at which the base quantities are the seven below, the system is coherent and rationalised, multiples are decimal, and the realization basis is a set of fixed constants.
 
 | Base quantity | Base unit | Symbol |
 | --- | --- | --- |
@@ -66,13 +66,13 @@ The system does not derive everything scientists use. A short accepted list surv
 
 - **Customary systems** — the US customary and imperial systems remain the legal systems for trade in some jurisdictions, so a measurement system is a legal object as well as a scientific one.
 - **Non-coherent specialised units** — the bar, the atmosphere, the calorie, the kilowatt-hour: convenient, defined in SI terms, not coherent.
-- **The measurement theory** — *which* attribute is being measured and *how* its numbers are justified is [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)'s question; SI only fixes the units the numbers carry.
+- **The measurement theory** — *which* attribute is being measured and *how* its numbers are justified is [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)'s question; SI only fixes the units the numbers carry.
 
 ## References
 
 - https://en.wikipedia.org/wiki/International_System_of_Units
 - https://www.bipm.org/en/measurement-units
 - [SI Brochure: The International System of Units](https://www.bipm.org/en/publications/si-brochure) — 9th edition, 2019
-- [Measurement System](/view.html?p=notes/epistemica/quantification/system.md) — the space of systems this one sits in
-- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md) — the representation the units realize
+- [Measurement System](/view.html?p=notes/epistemica/measurement/system.md) — the space of systems this one sits in
+- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) — the representation the units realize
 - [Symbol Atlas](/corpus/notes/epistemica/symbols.html) — the notation of the unit symbols

@@ -126,16 +126,25 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
   `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
   reporting member, moved out of the observational domain).
-- The quantification scope lives in `epistemica/quantification/` (the former
-  `epistemica/measurement/`, renamed when the quantification note joined it):
-  `quantification.md` (the representational scheme that binds a magnitude to a
-  number -- a scale, a unit, a numeral; the scope master, moved in from
-  `epistemica/mathematical/number/`), `measurement-theory.md` (measurement as a
-  structure-preserving assignment of numbers to attributes; the representation
-  and procedure problems), `system.md` (the constellation of units, standards
-  and rules a body of work measures with), and `isu.md` (the International
-  System of Units). Measurement theory moved out of the science scope with the
-  first note of the scope; the technica performance `measure.md` points here.
+- The measurement scope lives in `epistemica/measurement/` — so named because
+  **quantification is one class of measurement, not its whole**: `measurement.md`
+  (the scope master; assigns a value to an observable under a declared scale and
+  decomposes the genus), `categorization.md` (the *nominal* class — a declared
+  partition, labels, equality alone, bijections the only admissible
+  transformation; reliability is inter-assigner agreement, never an uncertainty),
+  `ordering.md` (the *ordinal* class — a total preorder, ranks, monotone
+  transformations, ties as structure; the conjoint-measurement route out to
+  interval lives in its QA), and `quantification.md` (the *quantitative* class —
+  interval, ratio and absolute levels; the scheme binding a magnitude to a
+  number through a scale, a unit and a numeral). Supporting members:
+  `measurement-theory.md` (the representational account of the assignment; the
+  representation and procedure problems), `system.md` (the constellation of
+  units, standards and rules a body of work measures with), and `isu.md` (the
+  International System of Units). Measurement theory moved out of the science
+  scope with the first note of the scope; the technica performance `measure.md`
+  points here. The taxonomy is Measurement → Categorization (Nominal) /
+  Ordering (Ordinal) / Quantification (Interval, Ratio), and the classes appear
+  as `scale` instances in both the master's and the quantitative note's tables.
   Quantization -- the discretization that replaces a continuum value by one of
   finitely many levels -- is the scheme's downstream neighbour and stays in
   `epistemica/mathematical/quantization.md`; the two are distinguished in both

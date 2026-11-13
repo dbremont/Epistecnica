@@ -150,7 +150,7 @@ tags: [note, calibration, identifiability, validation, estimation]
 - [Identification](/view.html?p=notes/epistemica/epistemic/theory/identification.md)
 - [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 - [Simulation](/view.html?p=notes/epistemica/simulation/simulation.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
 - Anstett-Collin, F., Denis-Vidal, L., & Millérioux, L. (2020). A priori identifiability: An overview on definitions and approaches. *Annual Reviews in Control*, 50, 139–149.
 - Gneiting, T., & Raftery, A. E. (2007). Strictly proper scoring rules, prediction, and estimation. *Journal of the American Statistical Association*, 102(477), 359–378.
 - Murphy, A. H. (1973). A new vector partition of the probability score. *Journal of Applied Meteorology*, 12(4), 595–600.

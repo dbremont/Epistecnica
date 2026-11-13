@@ -1234,6 +1234,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the System of Units link after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -3927,6 +3932,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/modelling.md to epistemica/epistemic/theory/modelling.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the System of Units of Measurement link after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -8261,6 +8271,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the Quantification and Measurement Theory links after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -9100,6 +9115,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the measurement link after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -9753,6 +9773,11 @@
     "summary": "Return to epistemica/mathematical/ after the quantification scope took the wrong note; the directory was renamed quantification/ and this note never belonged in it.",
     "commit": "14f6b13aaa0b9ab4b9bf617d22f93f34bc612588",
     "before": "13fd21334c58ba5b3c6ab957ad8381a02af4aea8"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -12711,6 +12736,46 @@
     "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
     "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope links after the measurement/ rename."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/measurement/measurement.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/measurement/categorization.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the nominal class of measurement: a declared partition, labels, equality alone, bijections as the only admissible transformation, and inter-assigner agreement in place of an uncertainty."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/measurement/ordering.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the ordinal class of measurement: a total preorder, ranks, strictly increasing transformations, ties as structure, and the conjoint-measurement route out to the interval class."
    }
   ]
  },
@@ -12728,6 +12793,16 @@
     "kind": "refactor",
     "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note.",
     "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope link after the measurement/ rename."
    }
   ]
  },
@@ -12757,6 +12832,16 @@
     "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
     "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope links after the measurement/ rename."
    }
   ]
  },
@@ -18066,29 +18151,39 @@
   ]
  },
  {
-  "file_path": "epistemica/quantification/isu.md",
+  "file_path": "epistemica/measurement/isu.md",
   "logs": [
    {
     "date": "2026-11-13",
     "kind": "move",
     "summary": "Move from epistemica/measurement/isu.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
    }
   ]
  },
  {
-  "file_path": "epistemica/quantification/measurement-theory.md",
+  "file_path": "epistemica/measurement/measurement-theory.md",
   "logs": [
    {
     "date": "2026-11-13",
     "kind": "move",
     "summary": "Move from epistemica/measurement/measurement-theory.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
    }
   ]
  },
  {
-  "file_path": "epistemica/quantification/quantification.md",
+  "file_path": "epistemica/measurement/quantification.md",
   "logs": [
    {
     "date": "2026-11-13",
@@ -18103,17 +18198,32 @@
     "summary": "Add an APA bibliography with the historical literature of quantification (foundations, the history of the practice, quantification as a social technology) and link the Roberts, Kohlrausch, Porter and Frangsmyr entries.",
     "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9",
     "before": "b142c2024ba07c601146e5616370a7e48f20dace"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Narrow the note to the quantitative branch: nominal and ordinal are classes of measurement, not levels of quantification, so the nominal and ordinal convention rows move out, the table re-roots at measurement with a scale grouping carrying the three classes, the intro gains the genus, and the malformed front-matter questions are rewritten."
    }
   ]
  },
  {
-  "file_path": "epistemica/quantification/system.md",
+  "file_path": "epistemica/measurement/system.md",
   "logs": [
    {
     "date": "2026-11-13",
     "kind": "move",
     "summary": "Move from epistemica/measurement/system.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
    }
   ]
  },
@@ -23422,6 +23532,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/."
    }
   ]
  },
@@ -75259,6 +75374,11 @@
     "summary": "Add a References section pointing at the epistemica measurement scope (Measurement Theory, System of Units of Measurement) and the measurement folder.",
     "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
     "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the Measurement Theory and System of Units links, and the folder link, after the quantification/ scope was renamed to measurement/."
    }
   ]
  },

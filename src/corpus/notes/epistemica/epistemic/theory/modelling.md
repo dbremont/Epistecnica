@@ -438,7 +438,7 @@ Aphorisms:
 [Adaptative](/view.html?p=notes/epistemica/adaptative/adaptative.md)
 [Computational Science](/view.html?p=notes/epistemica/singular/science.md)
 [Formal Concept Analysis (FCA)](/view.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
-[**System of Units of Measurement**](/view.html?p=notes/epistemica/quantification/isu.md)
+[**System of Units of Measurement**](/view.html?p=notes/epistemica/measurement/isu.md)
 [Exploratory Data Analysis (EDA)](/view.html?p=notes/epistemica/observational/exploratory-data-analysis-eda.md)
 
 #### Relations among connectors

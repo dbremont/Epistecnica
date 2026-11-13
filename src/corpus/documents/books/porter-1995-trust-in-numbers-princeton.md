@@ -24,7 +24,7 @@ quantitative social sciences — and shows the price: quantification is adopted
 hardest where discretion is most suspect, and it displaces the tacit knowledge
 that judgement carries.
 
-For [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+For [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
 this is the external reading of the scheme. The note asks what a number must
 carry to bind a magnitude (a scale, a unit, a numeral); Porter asks what makes
 the number *believable* to a party who did not produce it. That is a claim about
@@ -39,7 +39,7 @@ critical line on metrics that descends from it.
 
 ## References
 
-- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
 - [Crosby (1997)](/view.html?p=documents/books/crosby-1997-measure-reality-quantification-western-europe.md)
 - [Quantifying Spirit in the 18th Century (1990)](/view.html?p=documents/books/frangsmyr-heilbron-rider-1990-quantifying-spirit-university-california.md)
 - Porter, T. M. (1995). *Trust in numbers: The pursuit of objectivity in science and public life*. Princeton University Press.
