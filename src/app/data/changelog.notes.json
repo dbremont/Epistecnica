@@ -39031,6 +39031,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "remove",
+    "summary": "Remove the import stub: it typed measurement and observation as Substance / Matter, which files an epistemic act under a natural substance; the practice lives in epistemica/quantization/ (measurement-theory, system, isu) and the scope it was wrongly filed in cannot carry it."
    }
   ]
  },
