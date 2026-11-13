@@ -1238,7 +1238,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the System of Units link after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the System of Units link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -3936,7 +3938,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the System of Units of Measurement link after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the System of Units of Measurement link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -8275,7 +8279,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the Quantification and Measurement Theory links after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the Quantification and Measurement Theory links after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -9119,7 +9125,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the measurement link after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the measurement link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -9777,7 +9785,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -12745,7 +12755,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the scope links after the measurement/ rename."
+    "summary": "Retarget the scope links after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -12755,7 +12766,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement."
+    "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -12765,7 +12777,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Add the nominal class of measurement: a declared partition, labels, equality alone, bijections as the only admissible transformation, and inter-assigner agreement in place of an uncertainty."
+    "summary": "Add the nominal class of measurement: a declared partition, labels, equality alone, bijections as the only admissible transformation, and inter-assigner agreement in place of an uncertainty.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -12775,7 +12788,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Add the ordinal class of measurement: a total preorder, ranks, strictly increasing transformations, ties as structure, and the conjoint-measurement route out to the interval class."
+    "summary": "Add the ordinal class of measurement: a total preorder, ranks, strictly increasing transformations, ties as structure, and the conjoint-measurement route out to the interval class.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -12802,7 +12816,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the scope link after the measurement/ rename."
+    "summary": "Retarget the scope link after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -12841,7 +12856,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the scope links after the measurement/ rename."
+    "summary": "Retarget the scope links after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -18162,7 +18178,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -18178,7 +18195,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -18207,7 +18225,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Narrow the note to the quantitative branch: nominal and ordinal are classes of measurement, not levels of quantification, so the nominal and ordinal convention rows move out, the table re-roots at measurement with a scale grouping carrying the three classes, the intro gains the genus, and the malformed front-matter questions are rewritten."
+    "summary": "Narrow the note to the quantitative branch: nominal and ordinal are classes of measurement, not levels of quantification, so the nominal and ordinal convention rows move out, the table re-roots at measurement with a scale grouping carrying the three classes, the intro gains the genus, and the malformed front-matter questions are rewritten.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -18223,7 +18242,8 @@
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -23536,7 +23556,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -75378,7 +75400,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Retarget the Measurement Theory and System of Units links, and the folder link, after the quantification/ scope was renamed to measurement/."
+    "summary": "Retarget the Measurement Theory and System of Units links, and the folder link, after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },

@@ -12963,7 +12963,9 @@
       {
         "date": "2026-11-13",
         "kind": "docs",
-        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus."
+        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus.",
+        "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+        "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
       }
     ]
   },
@@ -12979,7 +12981,9 @@
       {
         "date": "2026-11-13",
         "kind": "docs",
-        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus."
+        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus.",
+        "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+        "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
       }
     ]
   },
@@ -12995,7 +12999,9 @@
       {
         "date": "2026-11-13",
         "kind": "docs",
-        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus."
+        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus.",
+        "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+        "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
       }
     ]
   },
@@ -13011,7 +13017,9 @@
       {
         "date": "2026-11-13",
         "kind": "docs",
-        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus."
+        "summary": "Retarget the measurement links after the quantification/ scope was renamed to measurement/: quantification is one class of measurement, and the scope now names the genus.",
+        "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+        "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
       }
     ]
   },
