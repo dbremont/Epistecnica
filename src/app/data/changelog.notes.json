@@ -12768,6 +12768,11 @@
     "kind": "feat",
     "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add a lectures-and-talks subsection to the references: the Kozaj foundations series and two Royal Institution lectures (de Podesta, and the 1981 Christmas Lectures)."
    }
   ]
  },

@@ -210,3 +210,11 @@ qa:
 - narens, l. (1985). *abstract measurement theory*. mit press.
 - michell, j. (1997). quantitative science and the definition of measurement in psychology. *british journal of psychology*, 88(3), 355–383.
 - tal, e. (2017). measurement in science. in e. n. zalta (ed.), *the stanford encyclopedia of philosophy*. stanford university.
+
+### lectures and talks
+
+> titles, makers and channels as published; the gloss says what each is, not what it covers.
+
+- *foundations of measurement* — lecture series, kristina kozaj. a series on the foundations of measurement. <https://www.youtube.com/playlist?list=PLrKlhVqlZwK6UcJ7K-XpaLmWoGehnXLAX>
+- *how we measure the world* — michael de podesta, the royal institution. a lecture on measurement as metrology practises it. <https://www.youtube.com/watch?v=dguZLChkRV8>
+- *reginald victor jones' 1981 christmas lectures* — the royal institution. the royal institution's 1981 christmas lectures. <https://www.youtube.com/playlist?list=PLbnrZHfNEDZw-UIpDJcH_g8d6Ii84pEDs>
