@@ -57,7 +57,7 @@ A **measurement** is a function $M: E \rightarrow N$, where:
 - [Suppes — Measurement Theory, IMSSS technical report (PDF)](https://web.stanford.edu/group/csli-suppes/techreports/IMSSS_45.pdf)
 - [Hand — Statistics and the Theory of Measurement (PDF)](https://sites.socsci.uci.edu/~johnsonk/CLASSES/MeasurementTheory/Hand1996.StatisticsAndTheTheoryOfMeasurement.pdf)
 - [Measurement Theory and Practice: The World Through Quantification (Wiley)](https://www.wiley.com/en-us/Measurement+Theory+and+Practice%3A+The+World+Through+Quantification-p-9780470685679)
-- [System of Units of Measurement](/view.html?p=notes/epistemica/quantization/isu.md)
+- [System of Units of Measurement](/view.html?p=notes/epistemica/quantification/isu.md)
 - Hand, David J. (2004). *Measurement theory and practice: The world through quantification*. London: Hodder.
 - Matthews, Robert (2007). *The measure of mind: Propositional attitudes and their attribution.* Oxford: OUP.
 - Narens, Louis (1985). *Abstract measurement theory.* Cambridge, MA: MIT.

@@ -9746,6 +9746,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Return to epistemica/mathematical/ after the quantification scope took the wrong note; the directory was renamed quantification/ and this note never belonged in it."
    }
   ]
  },
@@ -18059,23 +18064,44 @@
   ]
  },
  {
-  "file_path": "epistemica/quantization/isu.md",
+  "file_path": "epistemica/quantification/isu.md",
   "logs": [
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/isu.md when the measurement scope was renamed quantization and quantization moved in beside it.",
+    "summary": "Move from epistemica/measurement/isu.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
  },
  {
-  "file_path": "epistemica/quantization/measurement-theory.md",
+  "file_path": "epistemica/quantification/measurement-theory.md",
   "logs": [
    {
     "date": "2026-11-13",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/measurement-theory.md when the measurement scope was renamed quantization and quantization moved in beside it.",
+    "summary": "Move from epistemica/measurement/measurement-theory.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/quantification/quantification.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move out of epistemica/mathematical/number/quantification.md into the quantification scope, as its master; a symlink stays at the former address."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/quantification/system.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/system.md when the measurement scope was renamed quantification and the quantification note moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]
@@ -18087,17 +18113,6 @@
     "date": "2026-11-13",
     "kind": "move",
     "summary": "Move from epistemica/mathematical/quantization.md into the quantization scope; a symlink stays at the former address.",
-    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/quantization/system.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "move",
-    "summary": "Move from epistemica/measurement/system.md when the measurement scope was renamed quantization and quantization moved in beside it.",
     "commit": "82355efb200351261f3d8717c3f9e646e581f8ee"
    }
   ]

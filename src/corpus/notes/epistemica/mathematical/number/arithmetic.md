@@ -144,7 +144,7 @@ Comparisons do not produce numbers, so they cannot compose into arithmetic expre
 | **Strict Inequality** | $<$, $>$ | One quantity is less, or greater, than another | Ordering: with trichotomy, it fixes a position on an ordered set |
 | **Weak Inequality** | $\leq$, $\geq$ | One quantity is less than, greater than, or equal to another | Bounds — the form in which a constraint or an optimum is stated |
 | **Non-Equality** | $\neq$ | Two expressions denote different values | Distinction alone; on an ordered set it is the disjunction of the two strict inequalities |
-| **Approximation** | $\approx$ | Two values agree within a declared tolerance | The only equality a measured value can license; the tolerance is fixed by the scale it was quantified on (see [Quantification](/view.html?p=notes/epistemica/mathematical/number/quantification.md)) |
+| **Approximation** | $\approx$ | Two values agree within a declared tolerance | The only equality a measured value can license; the tolerance is fixed by the scale it was quantified on (see [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)) |
 | **Congruence** | $\cong$ | Two figures or structures agree under an admissible transformation | Sameness up to rotation, translation, or isomorphism — the relation that makes a class of objects one object |
 | **Congruence modulo n** | $\equiv \pmod n$ | Two integers leave the same remainder on division by $n$ | Equality in $\mathbb{Z}/n\mathbb{Z}$: arithmetic that wraps, and the reason a clock and a hash table share a calculus |
 | **Identity** | $\equiv$ | Two expressions agree for every value of their variables | Not an equation to solve but an equivalence to use; the same glyph as congruence modulo $n$, so the context decides |

@@ -126,19 +126,22 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
   `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
   reporting member, moved out of the observational domain).
-- The quantization scope lives in `epistemica/quantization/` (the former
-  `epistemica/measurement/`, renamed when quantization joined it):
-  `quantization.md` (replacing a continuum value by one of finitely many
-  levels -- the partition rule, the codebook, quantization error; moved in
-  from `epistemica/mathematical/`), `measurement-theory.md` (measurement as a
+- The quantification scope lives in `epistemica/quantification/` (the former
+  `epistemica/measurement/`, renamed when the quantification note joined it):
+  `quantification.md` (the representational scheme that binds a magnitude to a
+  number -- a scale, a unit, a numeral; the scope master, moved in from
+  `epistemica/mathematical/number/`), `measurement-theory.md` (measurement as a
   structure-preserving assignment of numbers to attributes; the representation
   and procedure problems), `system.md` (the constellation of units, standards
   and rules a body of work measures with), and `isu.md` (the International
   System of Units). Measurement theory moved out of the science scope with the
   first note of the scope; the technica performance `measure.md` points here.
-  `epistemica/mathematical/quantization.md` is a symlink kept at the note's
-  former address -- the indexer skips symlinks, so it never becomes a second
-  corpus entry.
+  Quantization -- the discretization that replaces a continuum value by one of
+  finitely many levels -- is the scheme's downstream neighbour and stays in
+  `epistemica/mathematical/quantization.md`; the two are distinguished in both
+  notes' tables. `epistemica/mathematical/number/quantification.md` is a
+  symlink kept at the note's former address -- the indexer skips symlinks, so
+  it never becomes a second corpus entry.
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live
