@@ -218,3 +218,4 @@ qa:
 - *foundations of measurement* — lecture series, kristina kozaj. a series on the foundations of measurement. <https://www.youtube.com/playlist?list=PLrKlhVqlZwK6UcJ7K-XpaLmWoGehnXLAX>
 - *how we measure the world* — michael de podesta, the royal institution. a lecture on measurement as metrology practises it. <https://www.youtube.com/watch?v=dguZLChkRV8>
 - *reginald victor jones' 1981 christmas lectures* — the royal institution. the royal institution's 1981 christmas lectures. <https://www.youtube.com/playlist?list=PLbnrZHfNEDZw-UIpDJcH_g8d6Ii84pEDs>
+- *measurement science* — tu delft opencourseware, coord. m. pertijs. a bachelor course on measurement systems: sensors, readout and signal conditioning, instrumentation amplifiers, adcs, and instruments; error sources and uncertainty in results. <https://ocw.tudelft.nl/courses/measurement-science/>
