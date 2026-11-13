@@ -29,6 +29,7 @@ tags: [note, mechanics]
 | `General Technique` → Mechanical System → `Constitutive Technical Object` → Gear Train | Torque-transmission block family. |
 | `General Technique` → Mechanical System → `Constitutive Technical Object` → Bearing Set | Friction-management block family. |
 | `General Technique` → Mechanical System → `Constitutive Technical Object` → Valve Assembly | Flow-control block family. |
+| `General Technique` → Mechanical System → `Constitutive Technical Object` → Pulley | Rope-and-sheave block family: redirects a force and trades distance for effort. |
 | `General Technique` → Mechanical System → `Operative Technique` | Grouping: applied branches of the discipline. |
 | `General Technique` → Mechanical System → `Operative Technique` → Turbine Operation | Rotary energy-conversion branch. |
 

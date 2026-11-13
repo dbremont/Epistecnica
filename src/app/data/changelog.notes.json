@@ -55489,6 +55489,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "refactor",
+    "summary": "Cross-link the Three Gorges Dam row to the new Dam System note."
    }
   ]
  },
@@ -55754,6 +55759,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add Irrigation Canal to the Water And Irrigation Set."
    }
   ]
  },
@@ -80359,6 +80369,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add Pulley to the Constitutive Technical Object grouping."
    }
   ]
  },
@@ -86071,6 +86086,36 @@
     "date": "2026-11-13",
     "kind": "feat",
     "summary": "New persona note for François Guizot: the career table through the Guizot law of 1833 and the July Monarchy ministry, the Doctrinaire position (pays legal against pays reel), civilisation as process, the relations that place him among the Restoration historians, and his works."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/dam-system.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "New Dam System note: the barrier with its spillway, outlet works, intake, abutments and cutoff, the dam kinds (embankment, gravity, arch, buttress) and the failure modes the design is judged on."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/wastewater-treatment.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "New Wastewater Treatment System note: collection, the treatment stages, the on-site facility types, and the discharge parameters (BOD, COD, TSS, nutrients, pathogens) the system is judged by."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/waste-management.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "New Waste Management System note: collection, materials recovery, biological treatment, waste-to-energy and sanitary landfill, with the diversion and capture measures that judge it."
    }
   ]
  }

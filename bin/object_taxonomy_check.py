@@ -231,21 +231,22 @@ def main():
 
     # Resolve depth, detecting cycles. A domain is its own level 1; every
     # other node is one level below its nearest domain ancestor.
-    def depth_of(nid):
-        if depth.get(nid) is not None:
+    def depth_of(nid, chain=()):
+        # `chain` is the ancestry of this call only: a node is on the stack
+        # while its own descendants are being resolved, and off it afterwards.
+        # (A module-level "in progress" marker leaked across sibling subtrees
+        # and reported a cycle for any parent with more than one child.)
+        if depth.get(nid) is not None and depth[nid] is not None and depth[nid] >= 0:
             return depth[nid]
+        if nid in chain:
+            err(f'{nid}: parent cycle through {nid!r}')
+            depth[nid] = -1
+            return -1
         node = by_id[nid]
         if node.get('parent') is None:
             depth[nid] = 0        # domain: level = depth + 1
             return 0
-        parent = node['parent']
-        if depth.get(parent) == -99:
-            err(f'{nid}: parent cycle through {parent!r}')
-            depth[nid] = -1
-            return -1
-        if depth.get(parent) is None:
-            depth[parent] = -99      # in progress: a revisit is a cycle
-        d = depth_of(parent)
+        d = depth_of(node['parent'], chain + (nid,))
         depth[nid] = -1 if d < 0 else d + 1
         return depth[nid]
 
