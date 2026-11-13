@@ -62589,7 +62589,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename.",
+    "commit": "26341e3b5490ffefbf3fa7df96d3b8631f346d42"
    }
   ]
  },
@@ -62606,7 +62607,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename.",
+    "commit": "26341e3b5490ffefbf3fa7df96d3b8631f346d42"
    }
   ]
  },
@@ -81895,7 +81897,8 @@
    {
     "date": "2026-11-13",
     "kind": "feat",
-    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename."
+    "summary": "Restore the note after the concurrency refactor deleted it as collateral damage of the same broad file operation that corrupted the restricted-n-body rename.",
+    "commit": "26341e3b5490ffefbf3fa7df96d3b8631f346d42"
    }
   ]
  },
