@@ -18100,7 +18100,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add an APA bibliography with the historical literature of quantification (foundations, the history of the practice, quantification as a social technology) and link the Roberts, Kohlrausch, Porter and Frangsmyr entries."
+    "summary": "Add an APA bibliography with the historical literature of quantification (foundations, the history of the practice, quantification as a social technology) and link the Roberts, Kohlrausch, Porter and Frangsmyr entries.",
+    "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9",
+    "before": "b142c2024ba07c601146e5616370a7e48f20dace"
    }
   ]
  },

@@ -12957,7 +12957,8 @@
       {
         "date": "2026-11-13",
         "kind": "feat",
-        "summary": "Add Frangsmyr, Heilbron and Rider (1990), The Quantifying Spirit in the 18th Century, the period in which the Quantification scheme components were invented one at a time; linked from it."
+        "summary": "Add Frangsmyr, Heilbron and Rider (1990), The Quantifying Spirit in the 18th Century, the period in which the Quantification scheme components were invented one at a time; linked from it.",
+        "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9"
       }
     ]
   },
@@ -12967,7 +12968,8 @@
       {
         "date": "2026-11-13",
         "kind": "feat",
-        "summary": "Add Porter (1995), Trust in Numbers, the account of what makes a numeral believable to a party that did not produce it; linked from Quantification."
+        "summary": "Add Porter (1995), Trust in Numbers, the account of what makes a numeral believable to a party that did not produce it; linked from Quantification.",
+        "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9"
       }
     ]
   },
@@ -12977,7 +12979,8 @@
       {
         "date": "2026-11-13",
         "kind": "feat",
-        "summary": "Add Kohlrausch (1894), An Introduction to Physical Measurements, the late-19th-century laboratory manual that shows the practice the Quantification scheme formalizes; linked from it."
+        "summary": "Add Kohlrausch (1894), An Introduction to Physical Measurements, the late-19th-century laboratory manual that shows the practice the Quantification scheme formalizes; linked from it.",
+        "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9"
       }
     ]
   },
@@ -12987,7 +12990,8 @@
       {
         "date": "2026-11-13",
         "kind": "feat",
-        "summary": "Add Roberts (1979), Measurement Theory, the standard monograph of the representational theory the Quantification note takes as given; linked from it."
+        "summary": "Add Roberts (1979), Measurement Theory, the standard monograph of the representational theory the Quantification note takes as given; linked from it.",
+        "commit": "2e1ebd7ab9c24de9abfc7fd132a936591fa193e9"
       }
     ]
   },
