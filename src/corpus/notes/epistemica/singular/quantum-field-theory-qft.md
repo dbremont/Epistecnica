@@ -427,7 +427,7 @@ tags: [note, framework, physics]
 - [Topological Quantum Field Theory (TQFT)](/view.html?p=notes/epistemica/singular/topological-quantum-field-theory-tqft.md)
 - [String Theory](/view.html?p=notes/epistemica/singular/string-theory.md)
 - [Statistical Mechanics](/view.html?p=notes/epistemica/singular/statistical-mechanics.md)
-- [Quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)
+- [Quantization](/view.html?p=notes/epistemica/quantization/quantization.md)
 - [Hilbert Space](/view.html?p=notes/epistemica/mathematical/space/hilbert-space.md)
 - [Quantum Field Theory](https://en.wikipedia.org/wiki/Quantum_field_theory)
 - [Classical field theory](https://en.wikipedia.org/wiki/Classical_field_theory)

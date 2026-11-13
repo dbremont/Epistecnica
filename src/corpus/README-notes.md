@@ -126,12 +126,19 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
   `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
   reporting member, moved out of the observational domain).
-- The measurement scope lives in `epistemica/measurement/`:
-  `measurement-theory.md` (measurement as a structure-preserving assignment of
-  numbers to attributes; the representation and procedure problems) and
-  `system-of-units-of-measurement.md` (units and non-SI units). Measurement
-  theory moved out of the science scope with the first note of
-  this scope; the technica performance `measure.md` points here.
+- The quantization scope lives in `epistemica/quantization/` (the former
+  `epistemica/measurement/`, renamed when quantization joined it):
+  `quantization.md` (replacing a continuum value by one of finitely many
+  levels -- the partition rule, the codebook, quantization error; moved in
+  from `epistemica/mathematical/`), `measurement-theory.md` (measurement as a
+  structure-preserving assignment of numbers to attributes; the representation
+  and procedure problems), `system.md` (the constellation of units, standards
+  and rules a body of work measures with), and `isu.md` (the International
+  System of Units). Measurement theory moved out of the science scope with the
+  first note of the scope; the technica performance `measure.md` points here.
+  `epistemica/mathematical/quantization.md` is a symlink kept at the note's
+  former address -- the indexer skips symlinks, so it never becomes a second
+  corpus entry.
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live

@@ -52,7 +52,7 @@ qa:
 | --- | --- | --- |
 | **Measure** | a size to a measurable set | — |
 | **Quantification** | a magnitude to an item under a unit and scale | the relatum is an item, not a set, and the unit is external (see [Quantification](/view.html?p=notes/epistemica/mathematical/number/quantification.md)) |
-| **Measurement** | a value to an observable under a scale | an empirical act, not a set function (see [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)) |
+| **Measurement** | a value to an observable under a scale | an empirical act, not a set function (see [Measurement Theory](/view.html?p=notes/epistemica/quantization/measurement-theory.md)) |
 | **Metric** | a distance to a pair of points | its relatum is a pair, and it is not additive over sets (see [Metric](/view.html?p=notes/epistemica/mathematical/metric/metric.md)) |
 | **Outer measure** | a size to *every* set | monotone and countably subadditive but not additive; a measure is recovered from it by restricting to the Carathéodory-measurable sets |
 | **Content / pre-measure** | a size to a ring of sets | finitely additive only; the extension theorem turns it into a measure |
@@ -175,7 +175,7 @@ qa:
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Quantification](/view.html?p=notes/epistemica/mathematical/number/quantification.md) · [Cardinality](/view.html?p=notes/epistemica/mathematical/number/cardinality.md) · [Measurable Function](/view.html?p=notes/epistemica/mathematical/measure/measurable-function.md) · [Metric](/view.html?p=notes/epistemica/mathematical/metric/metric.md) · [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) · [Enumeration (Counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
+- [Quantification](/view.html?p=notes/epistemica/mathematical/number/quantification.md) · [Cardinality](/view.html?p=notes/epistemica/mathematical/number/cardinality.md) · [Measurable Function](/view.html?p=notes/epistemica/mathematical/measure/measurable-function.md) · [Metric](/view.html?p=notes/epistemica/mathematical/metric/metric.md) · [Measurement Theory](/view.html?p=notes/epistemica/quantization/measurement-theory.md) · [Enumeration (Counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
 - [Measure (mathematics)](https://en.wikipedia.org/wiki/Measure_(mathematics))
 - Halmos, P. R. (1950). *Measure Theory*. Van Nostrand.
 - Rudin, W. (1987). *Real and Complex Analysis*, 3rd edition. McGraw-Hill.

@@ -4,7 +4,7 @@ tags: [note, measurement, system]
 
 # Measurement System
 
-> A **measurement system** is the constellation of units, standards and rules that a body of work uses to attach numbers to quantities: a set of **base quantities**, a **base unit** chosen for each, and the **rules** that derive every other unit from those and tie each to a physical realization. It is what turns the mapping of [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) — empirical relational system → numerical relational system — into numbers anyone can reproduce.
+> A **measurement system** is the constellation of units, standards and rules that a body of work uses to attach numbers to quantities: a set of **base quantities**, a **base unit** chosen for each, and the **rules** that derive every other unit from those and tie each to a physical realization. It is what turns the mapping of [Measurement Theory](/view.html?p=notes/epistemica/quantization/measurement-theory.md) — empirical relational system → numerical relational system — into numbers anyone can reproduce.
 
 ## Definition
 
@@ -64,7 +64,7 @@ The trajectory is a walk through that space, not a succession of unrelated conve
 - **Accepted non-SI units** — units a system admits without deriving them, because they are too entrenched to displace: the minute and hour, the litre, the ångström ($10^{-10}\,\mathrm{m}$) in crystallography, the electronvolt in particle physics.
 - **Realization and traceability** — for each unit, the physical procedure that produces it and the chain of calibrations that links a working instrument back to it. This is the coordinate that makes a system *usable* rather than merely named.
 
-The system in current scientific use is the [International System of Units](/view.html?p=notes/epistemica/measurement/isu.md), which sits at one point of this space.
+The system in current scientific use is the [International System of Units](/view.html?p=notes/epistemica/quantization/isu.md), which sits at one point of this space.
 
 ## References
 
@@ -72,6 +72,6 @@ The system in current scientific use is the [International System of Units](/vie
 - [Non-SI units](https://www.sciencelearn.org.nz/resources/1872-non-si-units)
 - [Ångström](https://en.wikipedia.org/wiki/Angstrom)
 - [Dimensional analysis](https://en.wikipedia.org/wiki/Dimensional_analysis)
-- [International System of Units](/view.html?p=notes/epistemica/measurement/isu.md) — the system in current use
-- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) — the representation the system realizes
+- [International System of Units](/view.html?p=notes/epistemica/quantization/isu.md) — the system in current use
+- [Measurement Theory](/view.html?p=notes/epistemica/quantization/measurement-theory.md) — the representation the system realizes
 - [Symbol Atlas](/corpus/notes/epistemica/symbols.html) — the notation units are written in

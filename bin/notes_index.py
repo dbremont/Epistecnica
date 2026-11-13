@@ -256,6 +256,11 @@ def build(progress=None) -> bool:
     files = []
     for pattern, parser in (("*.md", parse), ("*.html", parse_html)):
         for path in sorted(NOTES.rglob(pattern)):
+            # A symlink is a compatibility shim kept at a note's former address
+            # (e.g. epistemica/mathematical/quantization.md -> quantization/),
+            # not a second corpus entry: index the real file only.
+            if path.is_symlink():
+                continue
             files.append((path, parser))
     files.sort(key=lambda item: item[0])
 
