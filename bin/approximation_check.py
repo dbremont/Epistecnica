@@ -2,7 +2,7 @@
 """Validate the approximation playground bank.
 
 The problems are generated in the browser from the scheme specs in
-src/corpus/notes/epistemica/observational/playground/approximation-problems.json;
+src/corpus/notes/epistemica/playground/approximation-problems.json;
 this checker guards the data so a broken scheme is caught in `make check`
 rather than in the page.
 
@@ -31,7 +31,7 @@ import sys
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
-STORE = (REPO / 'src' / 'corpus' / 'notes' / 'epistemica' / 'observational'
+STORE = (REPO / 'src' / 'corpus' / 'notes' / 'epistemica'
          / 'playground' / 'approximation-problems.json')
 
 KINDS = {

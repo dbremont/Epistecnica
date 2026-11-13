@@ -327,7 +327,7 @@ instance-decomposition table:
   deep-links; `#<path>` is written by the shared viewer. There is no card or
   dendrogram view. The store is generated data — never hand-edit it, never
   changelog it.
-- **Approximation Playground** — `epistemica/observational/playground/approximation-playground.html`
+- **Approximation Playground** — `epistemica/playground/approximation-playground.html`
   with its bank `approximation-problems.json` beside it. Twenty-one topics
   (estimation, division, powers & roots, log, trigonometry, exponentials,
   geometry, unit conversion, mean, median, mode, compounding, averaging, risk,
@@ -452,10 +452,13 @@ instance-decomposition table:
   page is a live note reached through the catalog's
   `epistemica/validation/atlas/` folder and linked from `goodness-of-fit.md`,
   no promoted card.
-- **Playgrounds** — one interactive notebook surface per domain,
-  `epistemica/<domain>/playground/`: `index.html` is the notebook index (one
-  card per notebook, the book icon opening the corpus note and `▶ play` opening
-  the notebook), and each notebook is a live note beside it. The observational
+- **Playgrounds** — one centralised interactive notebook surface at
+  `epistemica/playground/`: `index.html` is the notebook index (one card per
+  notebook, grouped under *Estimation & statistics* and *Geometry*, the book
+  icon opening the corpus note and `▶ play` opening the notebook), and each
+  notebook is a live page beside it. The former per-domain surfaces
+  (`epistemica/observational/playground/`, `epistemica/mathematical/playground/`)
+  were consolidated here. The
   playground's `principal-component-analysis.html` is a six-act narrative — the
   shadow problem, projection, the variance/reconstruction-error duality, the
   centre → covariance → eigenvector algorithm with a drag-rotatable 3-D lab, a

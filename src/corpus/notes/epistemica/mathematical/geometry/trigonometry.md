@@ -236,7 +236,7 @@ tags: [note, mathematics, framework]
 
 ## Notebook
 
-- [Trigonometric Playground](/corpus/notes/epistemica/mathematical/playground/trigonometric-playground.html) — the unit circle as a runner: measure x and y, then read every function off the ratios.
+- [Trigonometric Playground](/corpus/notes/epistemica/playground/trigonometric-playground.html) — the unit circle as a runner: measure x and y, then read every function off the ratios.
 
 ## References
 

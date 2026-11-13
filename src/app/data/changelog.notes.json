@@ -85968,5 +85968,95 @@
     "summary": "New problem bank for the Approximation Playground: 21 topics with 77 scheme specs, split from the page so a topic can be added as data."
    }
   ]
+ },
+ {
+  "file_path": "epistemica/playground/approximation-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/approximation-problems.json",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/burstiness-index.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/central-tendency.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/principal-component-analysis.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/standard-deviation.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/hyperbolic-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/rotation-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/playground/trigonometric-playground.html",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from the per-domain playground surface into the centralised epistemica/playground/."
+   }
+  ]
  }
 ]

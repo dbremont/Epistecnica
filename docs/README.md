@@ -49,8 +49,7 @@ with the subprojects.
 | `/corpus/notes` | Notes: searchable catalog (`index.html`), markdown viewer (`view.html?p=<corpus>/<path>`, section deep link `&toc-item=<slug>`), corpus (`data/**.md`) |
 | `/corpus/notes/epistemica/ees.html` | The EES atlas (local companion to the guide) |
 | `/corpus/notes/epistemica/validation/atlas/pvalue.html` | The P-Value Atlas: playground over the null laws — pick, parameterize, move `t_obs`, read the live tails and Monte Carlo calibration |
-| `/corpus/notes/epistemica/observational/playground/index.html` | The observational playground: one card per interactive notebook (note icon + `▶ play`); the PCA notebook is a six-act narrative from the shadow problem to 64-dimensional digit PCA |
-| `/corpus/notes/epistemica/mathematical/playground/index.html` | The mathematical playground: one card per interactive notebook; the rotation notebook turns a figure about the origin, its centre, a vertex, or a dragged point, with per-vertex arcs and live coordinates |
+| `/corpus/notes/epistemica/playground/index.html` | The playground index: one card per interactive notebook, grouped under *Estimation & statistics* (approximation, PCA, burstiness, central tendency, standard deviation) and *Geometry* (rotation, trigonometric, hyperbolic); the book icon opens the corpus note, `▶ play` runs the notebook |
 | `/corpus/courses` | Courses catalog, course view (`course.html?c=`), lecture view (`lecture.html?l=`) |
 | `/corpus/documents` | Documents catalog (`index.html`) + viewer (`document.html?d=`) |
 | `/epistemica/`, `/tecnica/` | **302** → `/corpus/notes/epistemica/ees.html` (graphs moved to the Autoregia PKS) |

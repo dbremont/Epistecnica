@@ -254,7 +254,7 @@ Listen for `epistecnica-theme` (section 5) and redraw when practical.
 Live notes render inside the same frame as the markdown viewer — ambient
 constellation background, 1280px layout, crumbs + title + meta chips, card,
 and sticky `Contents` sidebar. No grid/gradient background divs, no second
-footer. Exemplar: `src/corpus/notes/epistemica/observational/playground/burstiness-index.html`.
+footer. Exemplar: `src/corpus/notes/epistemica/playground/burstiness-index.html`.
 
 ```html
 <body>
@@ -310,7 +310,7 @@ relative to the page (so prefix mounting keeps working):
 
 ## 8. Conversion record (live notes unified, Sept 2026)
 
-Exemplar: `data/epistemica/observational/playground/burstiness-index.html` (converted
+Exemplar: `data/epistemica/playground/burstiness-index.html` (converted
 first). The other live notes were converted in one pass with the same recipe;
 `<title>`/h1 text and all copy, formulas, tables, and JS ids preserved
 verbatim throughout. The financial-sector explorer was later removed.
