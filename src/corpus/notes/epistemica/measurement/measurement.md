@@ -168,7 +168,7 @@ qa:
 | normative justification | strong | the only norm imposed is the declaration requirement, and it is a condition of intelligibility rather than a value judgement. |
 | misuse resistance | moderate | the declaration and the admissibility rule block the central abuses, and the genus still permits a class to be declared on convention alone, which is where institutional pressure enters. |
 
-> **standing objection, answered.** the representational theory's critics hold that nominal and ordinal assignments are not measurement, because measurement is the discovery of ratios among magnitudes and a label discovers none. the precised genus neither refutes nor concedes that: it holds that the three classes differ in the relations assigned, and that only the quantitative class establishes the ratio a quantitative science is built on. the common word denotes the family; the class decides how much of the claim is made.
+> **standing objection, answered.** the representational theory's critics hold that nominal and ordinal assignments are not measurement, because measurement is the discovery of ratios among magnitudes and a label discovers none. the precised genus neither refutes nor concedes that: it holds that the three classes differ in the relations assigned, and that only the quantitative class establishes the ratio a quantitative science is built on. the common word denotes the family; the class decides how much of the claim is made. the position is not this note's invention — mari, maul, torres irribarra and wilson (2017) argue the metrological case that quantification is neither necessary nor sufficient for measurement, and separate the three concepts so that a definition of measurement can apply beyond physics without being trivialized.
 
 ## qa
 
@@ -209,6 +209,7 @@ qa:
 - roberts, f. s. (1979). *measurement theory: with applications to decisionmaking, utility, and the social sciences*. addison-wesley. see [the entry](/view.html?p=documents/books/roberts-1979-measurement-theory-addison-wesley.md).
 - narens, l. (1985). *abstract measurement theory*. mit press.
 - michell, j. (1997). quantitative science and the definition of measurement in psychology. *british journal of psychology*, 88(3), 355–383.
+- mari, l., maul, a., torres irribarra, d., & wilson, m. (2017). quantities, quantification, and the necessary and sufficient conditions for measurement. *measurement*, 100, 115–121. <https://doi.org/10.1016/j.measurement.2016.12.050>
 - tal, e. (2017). measurement in science. in e. n. zalta (ed.), *the stanford encyclopedia of philosophy*. stanford university.
 
 ### lectures and talks

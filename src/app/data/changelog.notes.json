@@ -12782,6 +12782,11 @@
     "summary": "Add the TU Delft OpenCourseWare Measurement Science course to the lectures-and-talks references.",
     "commit": "4dcc25b267b6dfc0dd44231916d3acbf74bb2c52",
     "before": "3afecd8c73cd6463fc3512270fabdc6b8f46f786"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Cite Mari, Maul, Torres Irribarra and Wilson (2017), which argues that quantification is neither necessary nor sufficient for measurement — the scope rename's own thesis — in the references and in the evaluation's answer to the standing objection."
    }
   ]
  },
