@@ -49375,7 +49375,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note."
+    "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff",
+    "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
    }
   ]
  },
@@ -51997,7 +51999,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add Legislature and Committee to the Public Organization kind table, after Council: the rule-making organ of a polity and the delegated body drawn from an assembly."
+    "summary": "Add Legislature and Committee to the Public Organization kind table, after Council: the rule-making organ of a polity and the delegated body drawn from an assembly.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff",
+    "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
    }
   ]
  },
@@ -86485,7 +86489,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the Legislature type note: the assembly that deliberates and enacts binding rules, decomposed through warrant, membership, chambers, presiding officer and business committee, the committee system, procedure, the four products (statute, appropriation, ratification, confirmation), oversight, support, and the structural lineage from the assembly of estates to the committee-centric and delegating forms."
+    "summary": "Add the Legislature type note: the assembly that deliberates and enacts binding rules, decomposed through warrant, membership, chambers, presiding officer and business committee, the committee system, procedure, the four products (statute, appropriation, ratification, confirmation), oversight, support, and the structural lineage from the assembly of estates to the committee-centric and delegating forms.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
    }
   ]
  },
@@ -86495,7 +86500,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the Committee type note the board note already named but the corpus had not worked: a body of members drawn from a larger assembly, prepared through its standing, select, joint, conference, ad hoc and subcommittee kinds, its warrant in standing orders, membership and offices, remit and initiative, evidence-taking and markup, the report as product, the secretariat, and the unified versus divided structures."
+    "summary": "Add the Committee type note the board note already named but the corpus had not worked: a body of members drawn from a larger assembly, prepared through its standing, select, joint, conference, ad hoc and subcommittee kinds, its warrant in standing orders, membership and offices, remit and initiative, evidence-taking and markup, the report as product, the secretariat, and the unified versus divided structures.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
    }
   ]
  },
@@ -86505,7 +86511,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation."
+    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
    }
   ]
  }
