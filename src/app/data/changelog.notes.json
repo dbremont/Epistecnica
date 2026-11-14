@@ -86423,7 +86423,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Reference the University of Bologna instance from the University kind, which names it as the founding instance of the students' constitution."
+    "summary": "Reference the University of Bologna instance from the University kind, which names it as the founding instance of the students' constitution.",
+    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88",
+    "before": "8236339cb58285dd6e7fc993b81380baefb22d46"
    }
   ]
  },
@@ -86433,7 +86435,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the University of Bologna instance under the education family (ita/): the founding instance of the student-run constitution, typed Education Actor -> University, decomposing its corporations of students and their nations, the elected council and the student strike, the colleges of doctors, faculties and departments, degree authority, the Authentica habita and relief from collective punishment, the colleges, and the student-run, chartered public, and state university structures."
+    "summary": "Add the University of Bologna instance under the education family (ita/): the founding instance of the student-run constitution, typed Education Actor -> University, decomposing its corporations of students and their nations, the elected council and the student strike, the colleges of doctors, faculties and departments, degree authority, the Authentica habita and relief from collective punishment, the colleges, and the student-run, chartered public, and state university structures.",
+    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88"
    }
   ]
  }
