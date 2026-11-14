@@ -35932,7 +35932,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repoint the Drug related link to the new product family path."
+    "summary": "Repoint the Drug related link to the new product family path.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173",
+    "before": "76505c261fac4b844b866c43509c206662065fca"
    }
   ]
  },
@@ -86699,7 +86701,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the specification-sold substance at the head of the chain; the industry directory keeps the production systems and materials it is named for."
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the specification-sold substance at the head of the chain; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  },
@@ -86709,7 +86712,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the active principle read by its action on a target; the industry directory keeps the production systems and materials it is named for."
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the active principle read by its action on a target; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  },
@@ -86719,7 +86723,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the formulated, packaged, authorised medicine; the industry directory keeps the production systems and materials it is named for."
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the formulated, packaged, authorised medicine; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  },
@@ -86729,7 +86734,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add the healthcare product as a delivered physical production technical object: the classification of product classes (pharmaceutical product, medical device, in vitro diagnostic, combination product, borderline biocide), settled by principal mode of action rather than technology; the constituents, the release properties (safety, efficacy, biocompatibility, sterility, traceability) and the regimes (MDR, IVDR, ISO 13485, ISO 14971, authorisation)."
+    "summary": "Add the healthcare product as a delivered physical production technical object: the classification of product classes (pharmaceutical product, medical device, in vitro diagnostic, combination product, borderline biocide), settled by principal mode of action rather than technology; the constituents, the release properties (safety, efficacy, biocompatibility, sterility, traceability) and the regimes (MDR, IVDR, ISO 13485, ISO 14971, authorisation).",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  },
@@ -86739,7 +86745,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family."
+    "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  }
