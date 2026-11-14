@@ -86430,7 +86430,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Reference the University of Basel instance from the University kind, which now names both the students' and the civic constitutions."
+    "summary": "Reference the University of Basel instance from the University kind, which now names both the students' and the civic constitutions.",
+    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804",
+    "before": "1448b456ff380940bba26429887039e7829401d8"
    }
   ]
  },
@@ -86451,7 +86453,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the University of Basel instance under the education family (che/), the civic constitution: founded 4 April 1460 out of the Council of Basel and endowed by the town, with the closure debated from 1497 and refused in 1501, the decline to sixty students in 1785, the 1833 cantonal split that took two-thirds of the assets including the library, the three faculties added 1937-2003, and independence from the cantonal government in 1996 followed by parity sponsorship in 2007."
+    "summary": "Add the University of Basel instance under the education family (che/), the civic constitution: founded 4 April 1460 out of the Council of Basel and endowed by the town, with the closure debated from 1497 and refused in 1501, the decline to sixty students in 1785, the 1833 cantonal split that took two-thirds of the assets including the library, the three faculties added 1937-2003, and independence from the cantonal government in 1996 followed by parity sponsorship in 2007.",
+    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804"
    }
   ]
  }
