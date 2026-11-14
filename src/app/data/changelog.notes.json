@@ -673,7 +673,9 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add a Methods section pointing the collection inventory at the new experimental-method scope, and repair the experiments link, which was a stale relative path that resolved against the viewer page."
+    "summary": "Add a Methods section pointing the collection inventory at the new experimental-method scope, and repair the experiments link, which was a stale relative path that resolved against the viewer page.",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41",
+    "before": "0888cc5e655e8f49822f403752765e4ba6dd65b0"
    }
   ]
  },
@@ -689,7 +691,9 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "State the design/method boundary and link the experimental-method scope, optogenetics, the collection inventory and the dated cases."
+    "summary": "State the design/method boundary and link the experimental-method scope, optogenetics, the collection inventory and the dated cases.",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41",
+    "before": "0888cc5e655e8f49822f403752765e4ba6dd65b0"
    }
   ]
  },
@@ -86766,7 +86770,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add the experimental-method scope master: the routines by which a system is made to yield observations, filed by what the routine does to the system (perturbation, stimulation, ablation, recording, imaging, preparation), with the access, infrastructure and evaluation lanes and one shared controls spine (sham, negative control, specificity, dosimetry, pre-registration). States the boundary against design, instrument, case, principle and the technica reading, and records that the guide's action slot has no Intervention type."
+    "summary": "Add the experimental-method scope master: the routines by which a system is made to yield observations, filed by what the routine does to the system (perturbation, stimulation, ablation, recording, imaging, preparation), with the access, infrastructure and evaluation lanes and one shared controls spine (sham, negative control, specificity, dosimetry, pre-registration). States the boundary against design, instrument, case, principle and the technica reading, and records that the guide's action slot has no Intervention type.",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41"
    }
   ]
  },
@@ -86776,7 +86781,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add optogenetics as the first routine note: the six-part routine (targeting, expression, delivery, actuation, readout, control), the actuator families with their temporal and silencing limits, the necessity/sufficiency reading of activation against silencing, and the two empirical bounds that limit the claim (expression specificity, light penetration)."
+    "summary": "Add optogenetics as the first routine note: the six-part routine (targeting, expression, delivery, actuation, readout, control), the actuator families with their temporal and silencing limits, the necessity/sufficiency reading of activation against silencing, and the two empirical bounds that limit the claim (expression specificity, light penetration).",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41"
    }
   ]
  }
