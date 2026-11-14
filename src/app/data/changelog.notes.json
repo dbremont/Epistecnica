@@ -35925,7 +35925,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repoint the Drug related link to the technica drug note, where the substance is now decomposed as a technical element."
+    "summary": "Repoint the Drug related link to the technica drug note, where the substance is now decomposed as a technical element.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3",
+    "before": "26a64e6cb8c566f9d93c49dd473cb8cd0e9ab1ea"
    }
   ]
  },
@@ -86659,7 +86661,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from nature/fine-chemicals.md into the technica industry family and rename to the singular fine-chemical: the note is a constitutive technical object, not a natural substance, and the import taxonomy is rebuilt as a labelled instance tree (application families, functional roles, structural families, production routes, specified properties, governing standards) around the boundary against commodity, specialty and drug."
+    "summary": "Move from nature/fine-chemicals.md into the technica industry family and rename to the singular fine-chemical: the note is a constitutive technical object, not a natural substance, and the import taxonomy is rebuilt as a labelled instance tree (application families, functional roles, structural families, production routes, specified properties, governing standards) around the boundary against commodity, specialty and drug.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
    }
   ]
  },
@@ -86669,7 +86672,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from nature/drug.md into the technica industry family: the drug is the active principle constituting a pharmaceutical product, so the note is retyped as a constitutive technical object and rebuilt on the canonical shell — the pharmacodynamic target table (receptors, enzymes, ion channels, transporters, nucleic acids, membranes) with named exemplars, the target-mediated mechanisms and pharmacological properties in the tree, and the boundary against the fine chemical and the product."
+    "summary": "Move from nature/drug.md into the technica industry family: the drug is the active principle constituting a pharmaceutical product, so the note is retyped as a constitutive technical object and rebuilt on the canonical shell — the pharmacodynamic target table (receptors, enzymes, ion channels, transporters, nucleic acids, membranes) with named exemplars, the target-mediated mechanisms and pharmacological properties in the tree, and the boundary against the fine chemical and the product.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
    }
   ]
  },
@@ -86679,7 +86683,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add the pharmaceutical product as a delivered physical production technical object: the classification of product classes (drug product, vaccine, biological and blood products, advanced therapy, radiopharmaceutical, diagnostic, herbal, medical gas), the constituents, dosage form and route configuration, the release properties and the governing standards; the drug substance stays in drug.md and the formulation detail is linked, not duplicated."
+    "summary": "Add the pharmaceutical product as a delivered physical production technical object: the classification of product classes (drug product, vaccine, biological and blood products, advanced therapy, radiopharmaceutical, diagnostic, herbal, medical gas), the constituents, dosage form and route configuration, the release properties and the governing standards; the drug substance stays in drug.md and the formulation detail is linked, not duplicated.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
    }
   ]
  }
