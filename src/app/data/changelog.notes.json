@@ -24029,7 +24029,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Related: nicotine, the plant alkaloid that named the nicotinic receptor and acts where acetylcholine does."
+    "summary": "Related: nicotine, the plant alkaloid that named the nicotinic receptor and acts where acetylcholine does.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
+    "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
    }
   ]
  },
@@ -24286,7 +24288,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Point the alkaloid class at its decomposed instance: nicotine, the pyridine-pyrrolidine alkaloid of tobacco."
+    "summary": "Point the alkaloid class at its decomposed instance: nicotine, the pyridine-pyrrolidine alkaloid of tobacco.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
+    "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
    }
   ]
  },
@@ -26175,7 +26179,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Related: nicotine, a root-made secondary metabolite transported to the leaves."
+    "summary": "Related: nicotine, a root-made secondary metabolite transported to the leaves.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
+    "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
    }
   ]
  },
@@ -26520,7 +26526,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Related: nicotine, a plant defence neurotoxin that became a human drug."
+    "summary": "Related: nicotine, a plant defence neurotoxin that became a human drug.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
+    "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
    }
   ]
  },
@@ -27120,7 +27128,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the undelivered Nicotiana tabacum placeholder (single imported row, retired four-column table, decomposition pending) in favour of the substance note it was gesturing at: nicotine, at nature/bio/molecular/nicotine.md. The species survives in the corpus as a name in the tobacco genome row of dna.md; no note linked to this file."
+    "summary": "Remove the undelivered Nicotiana tabacum placeholder (single imported row, retired four-column table, decomposition pending) in favour of the substance note it was gesturing at: nicotine, at nature/bio/molecular/nicotine.md. The species survives in the corpus as a name in the tobacco genome row of dna.md; no note linked to this file.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
+    "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
    }
   ]
  },
@@ -86613,7 +86623,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments."
+    "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd"
    }
   ]
  }
