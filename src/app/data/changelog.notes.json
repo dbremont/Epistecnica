@@ -86457,5 +86457,15 @@
     "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804"
    }
   ]
+ },
+ {
+  "file_path": "social/action/public/informe/policy/programa-gripen-brasileiro.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement."
+   }
+  ]
  }
 ]
