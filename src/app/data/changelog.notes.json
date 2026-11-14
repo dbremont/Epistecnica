@@ -86540,7 +86540,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add Alexis de Tocqueville as a persona: the Norman count and great-grandson of Malesherbes who made democracy an object of observation, the 1831 American journey with Beaumont and the penitentiary report behind Democracy in America, the thirteen years as deputy for Valognes, the 1848 constitution commission, his months as foreign minister in 1849, and the late history of the Old Regime; the decomposition keeps his contradictions rather than resolving them, recording the abolitionism and free trade alongside his support for the colonisation of Algeria and his approval of the state of siege and the 1849 laws restricting clubs and the press."
+    "summary": "Add Alexis de Tocqueville as a persona: the Norman count and great-grandson of Malesherbes who made democracy an object of observation, the 1831 American journey with Beaumont and the penitentiary report behind Democracy in America, the thirteen years as deputy for Valognes, the 1848 constitution commission, his months as foreign minister in 1849, and the late history of the Old Regime; the decomposition keeps his contradictions rather than resolving them, recording the abolitionism and free trade alongside his support for the colonisation of Algeria and his approval of the state of siege and the 1849 laws restricting clubs and the press.",
+    "commit": "c91a724991a15c799212ba022b0faff37029be24"
    }
   ]
  },
@@ -86550,7 +86551,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Fill the Claude-Frederic Bastiat stub: the Sengresse estate at Mugron and the Landes wine crisis he first wrote about in Le fisc et la vigne, the magistracy and the Conseil general, the free-trade association of 1846 and Le Libre-Echange with Cobden, the 1848-49 assembly seats, the sophism and the petition as his instruments, the candlemakers and the broken window, The Law's definition of legal plunder and its test, the 1849-50 debate with Proudhon, and the death in Rome in 1850."
+    "summary": "Fill the Claude-Frederic Bastiat stub: the Sengresse estate at Mugron and the Landes wine crisis he first wrote about in Le fisc et la vigne, the magistracy and the Conseil general, the free-trade association of 1846 and Le Libre-Echange with Cobden, the 1848-49 assembly seats, the sophism and the petition as his instruments, the candlemakers and the broken window, The Law's definition of legal plunder and its test, the 1849-50 debate with Proudhon, and the death in Rome in 1850.",
+    "commit": "c91a724991a15c799212ba022b0faff37029be24",
+    "before": "932cd661b69d9804b83dba89be9917ccbe1f0800"
    }
   ]
  }
