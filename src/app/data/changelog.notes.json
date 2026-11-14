@@ -35928,6 +35928,11 @@
     "summary": "Repoint the Drug related link to the technica drug note, where the substance is now decomposed as a technical element.",
     "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3",
     "before": "26a64e6cb8c566f9d93c49dd473cb8cd0e9ab1ea"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repoint the Drug related link to the new product family path."
    }
   ]
  },
@@ -86685,6 +86690,56 @@
     "kind": "feat",
     "summary": "Add the pharmaceutical product as a delivered physical production technical object: the classification of product classes (drug product, vaccine, biological and blood products, advanced therapy, radiopharmaceutical, diagnostic, herbal, medical gas), the constituents, dosage form and route configuration, the release properties and the governing standards; the drug substance stays in drug.md and the formulation detail is linked, not duplicated.",
     "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/fine-chemical.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the specification-sold substance at the head of the chain; the industry directory keeps the production systems and materials it is named for."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/drug.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the active principle read by its action on a target; the industry directory keeps the production systems and materials it is named for."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/pharmaceutical-product.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the formulated, packaged, authorised medicine; the industry directory keeps the production systems and materials it is named for."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/healthcare-product.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the healthcare product as a delivered physical production technical object: the classification of product classes (pharmaceutical product, medical device, in vitro diagnostic, combination product, borderline biocide), settled by principal mode of action rather than technology; the constituents, the release properties (safety, efficacy, biocompatibility, sterility, traceability) and the regimes (MDR, IVDR, ISO 13485, ISO 14971, authorisation)."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family."
    }
   ]
  }

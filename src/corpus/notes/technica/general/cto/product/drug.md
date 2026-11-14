@@ -109,8 +109,9 @@ The concept under evaluation is **Drug**, defined above as *the active principle
 
 ## Related
 
-- [Fine Chemical](/view.html?p=notes/technica/general/cto/industry/fine-chemical.md) — the same substance read by its specification rather than its action.
-- [Pharmaceutical Product](/view.html?p=notes/technica/general/cto/industry/pharmaceutical-product.md) — the formulated article the drug is delivered in.
+- [Fine Chemical](/view.html?p=notes/technica/general/cto/product/fine-chemical.md) — the same substance read by its specification rather than its action.
+- [Pharmaceutical Product](/view.html?p=notes/technica/general/cto/product/pharmaceutical-product.md) — the formulated article the drug is delivered in.
+- [Healthcare Product](/view.html?p=notes/technica/general/cto/product/healthcare-product.md) — the umbrella over medicines, devices and diagnostics.
 - [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/cto/industry/pharma-pipeline.md) — the regulated system that turns the molecule into a medicine.
 - [Human](/view.html?p=notes/nature/human/human.md) — the organism the drug acts on.
 - [Neuron](/view.html?p=notes/nature/human/neuron.md) — the cell whose channels, receptors and transporters most drugs target.
