@@ -30,8 +30,11 @@ where:
 > Choosing a **good** evaluation model is an art; and requires a deep understanding of the problem; and the solution.
 > 
 
+> The cost side of the model is made explicit by [Opportunity Cost](/view.html?p=notes/epistemica/observational/decision/opportunity-cost.md): selecting one solution costs the value of the best alternative in $S$ that the selection excludes.
+
 ## References
 
 - [Decision Theory](/view.html?p=notes/epistemica/observational/decision/theory.md) — the field entry: branches, methods, and links.
 - [Trade-Off](/view.html?p=notes/epistemica/optimization/trade-off.md)
+- [Opportunity Cost](/view.html?p=notes/epistemica/observational/decision/opportunity-cost.md)
 - …

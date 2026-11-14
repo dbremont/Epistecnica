@@ -14658,6 +14658,11 @@
     "kind": "refactor",
     "summary": "Move to epistemica/observational/decision/.",
     "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Make the cost side of the evaluation model explicit: selecting one solution costs the value of the best alternative in the solution space that the selection excludes, linked to the new Opportunity Cost note and cited in the references."
    }
   ]
  },
@@ -14769,6 +14774,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the Opportunity Cost concept to the Decision Theory decomposition under Epistemic Construction as a Concept row, and an entry-map row pointing at the new note as the cost side of the evaluation model."
    }
   ]
  },
@@ -86554,6 +86564,16 @@
     "summary": "Fill the Claude-Frederic Bastiat stub: the Sengresse estate at Mugron and the Landes wine crisis he first wrote about in Le fisc et la vigne, the magistracy and the Conseil general, the free-trade association of 1846 and Le Libre-Echange with Cobden, the 1848-49 assembly seats, the sophism and the petition as his instruments, the candlemakers and the broken window, The Law's definition of legal plunder and its test, the 1849-50 debate with Proudhon, and the death in Rome in 1850.",
     "commit": "c91a724991a15c799212ba022b0faff37029be24",
     "before": "932cd661b69d9804b83dba89be9917ccbe1f0800"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/decision/opportunity-cost.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive."
    }
   ]
  }

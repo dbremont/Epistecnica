@@ -83,6 +83,7 @@ The primary reading is unambiguous: the note documents the organized field, an `
 | `Aggregate` → Decision Theory → `Epistemic Construction` → Bounded Rationality Model | The descriptive model: satisficing under cognitive, informational, and temporal limits. |
 | `Aggregate` → Decision Theory → `Epistemic Construction` → Game Theory | The strategic theory: choice when outcomes depend on other agents' choices. |
 | `Aggregate` → Decision Theory → `Epistemic Construction` → Markov Decision Process | The sequential theory: states, actions, transitions, and rewards over time. |
+| `Aggregate` → Decision Theory → `Epistemic Construction` → `Concept` → Opportunity Cost | The valuation rule: the cost of a selection is the value of the best alternative forgone. |
 | `Aggregate` → Decision Theory → `Epistemic Operation` | Grouping: procedures that structure or solve a decision. |
 | `Aggregate` → Decision Theory → `Epistemic Operation` → `Action` | Grouping: direct operations on a decision problem. |
 | `Aggregate` → Decision Theory → `Epistemic Operation` → `Action` → Decision Analysis | Structuring alternatives, probabilities, consequences, and values into a comparable form. |
@@ -119,6 +120,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | --- | --- | --- |
 | Decision making | [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md) | The cognitive process, glossary, pathologies, and practical frameworks. |
 | Decision problem | [Decision Problem](/view.html?p=notes/epistemica/observational/decision/decision-problem.md) | The formal $(S, E)$ structure: solution space and evaluation model. |
+| Opportunity cost | [Opportunity Cost](/view.html?p=notes/epistemica/observational/decision/opportunity-cost.md) | The cost side of the evaluation model: the value of the best alternative forgone. |
 | Expected value | [Expected Value](/view.html?p=notes/epistemica/observational/probability/expected-value.md) | The probability-weighted average underlying expected utility. |
 | Trade-offs | [Trade-Off](/view.html?p=notes/epistemica/optimization/trade-off.md) | Competing criteria and the compromises between them. |
 | Uncertainty | [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md), [Possibility](/view.html?p=notes/epistemica/observational/probability/possibility.md) | The belief-side foundations: graded uncertainty and the space of alternatives. |
