@@ -151,6 +151,17 @@ companion is `/corpus/notes/epistemica/ees.md`.
   notes' tables. `epistemica/mathematical/number/quantification.md` is a
   symlink kept at the note's former address -- the indexer skips symlinks, so
   it never becomes a second corpus entry.
+- The experimental-method scope lives in `epistemica/experimental-method/`:
+  `experimental-method.md` (master, `order: 0`) is the catalogue of the routines
+  by which a system is made to yield observations, filed by what the routine
+  does to the system — perturbation, stimulation, ablation, recording, imaging,
+  preparation — with three lanes (access, infrastructure, evaluation) and one
+  shared controls spine (sham, negative control, specificity, dosimetry,
+  pre-registration). One note per routine follows, `optogenetics.md` first. The
+  material side stays in `epistemica/data/` (collection techniques, design, the
+  dated cases), the identification reading in `epistemica/causality/`, and the
+  same routine read as production is a technica `Technique`, not a second
+  epistemica note.
 - The p-value atlas lives in `epistemica/validation/atlas/`:
   `pvalue.json` (the null-distribution store) and `pvalue.html` (the
   playground: pick a law, move its parameters and `t_obs`, read the live

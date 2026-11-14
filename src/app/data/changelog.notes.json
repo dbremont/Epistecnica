@@ -669,6 +669,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/observational/data-collection/data-collection.md to epistemica/data/data-collection.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add a Methods section pointing the collection inventory at the new experimental-method scope, and repair the experiments link, which was a stale relative path that resolved against the viewer page."
    }
   ]
  },
@@ -680,6 +685,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/experimental-design.md to epistemica/data/experimental-design.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "State the design/method boundary and link the experimental-method scope, optogenetics, the collection inventory and the dated cases."
    }
   ]
  },
@@ -86747,6 +86757,26 @@
     "kind": "feat",
     "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family.",
     "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/experimental-method/experimental-method.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the experimental-method scope master: the routines by which a system is made to yield observations, filed by what the routine does to the system (perturbation, stimulation, ablation, recording, imaging, preparation), with the access, infrastructure and evaluation lanes and one shared controls spine (sham, negative control, specificity, dosimetry, pre-registration). States the boundary against design, instrument, case, principle and the technica reading, and records that the guide's action slot has no Intervention type."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/experimental-method/optogenetics.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add optogenetics as the first routine note: the six-part routine (targeting, expression, delivery, actuation, readout, control), the actuator families with their temporal and silencing limits, the necessity/sufficiency reading of activation against silencing, and the two empirical bounds that limit the claim (expression specificity, light penetration)."
    }
   ]
  }

@@ -44,7 +44,11 @@ QA:
 |  | Enzymatic Assays | ~19th–20th century | Monitors biochemical activities via substrate transformation. | Metabolism, food chemistry |
 |  | DNA/RNA Sequencing | 1977 (Sanger, Maxam-Gilbert) | Identifies genetic material from organisms or environments. | Microbiome analysis, biodiversity studies |
 
-[Natural Science: Data Collection & Experimentation](data/data-collection/natural-science-data-collection-experimentation.csv)
+[Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/data/natural-science-data-collection-experimentation.csv)
+
+## Methods
+
+The techniques tabulated above are the *instruments* of collection — what turns a sample into a measurement. The routines by which a condition is imposed and its consequence registered are the method side of the same work and live in the [experimental-method scope](/view.html?p=notes/epistemica/experimental-method/experimental-method.md), seeded with [optogenetics](/view.html?p=notes/epistemica/experimental-method/optogenetics.md); the allocation of conditions across units is [experimental design](/view.html?p=notes/epistemica/data/experimental-design.md), and the dated cases are the [natural-science collection](/corpus/notes/epistemica/data/natural-science-data-collection-experimentation.csv).
 
 ## References
 

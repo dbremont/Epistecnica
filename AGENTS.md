@@ -406,6 +406,17 @@ instance-decomposition table:
   `goodness-of-fit.md`, and `confidence-interval.md` (procedure-coverage
   reporting, moved out of the observational domain); calibration is a distinct
   practice, not a synonym for validation.
+- The **experimental-method scope** lives in `epistemica/experimental-method/`:
+  `experimental-method.md` is the scope master (`order: 0`) — the routines by
+  which a system is made to yield observations, filed by what the routine does
+  to the system (perturbation, stimulation, ablation, recording, imaging,
+  preparation) with the access / infrastructure / evaluation lanes and one
+  shared controls spine — and `optogenetics.md` is the first routine note.
+  Method notes decompose the routine into sub-methods only; tools and standards
+  are carried by the scope's lanes. The material side stays in `epistemica/data/`
+  (collection, design, the dated cases) and the identification reading in
+  `epistemica/causality/`; the same routine read as production is a technica
+  `Technique`, never a second epistemica note.
 - The **singular scope** lives in `epistemica/singular/`: the former
   `science/` notes together with the notes that bind one particular
   epistemic-element instance rather than a domain — `firm-clustering`,
