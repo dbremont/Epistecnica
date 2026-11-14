@@ -66,6 +66,7 @@ Readable secondarily as a `Research Actor` — from the nineteenth century the p
 - [Studium generale — Wikipedia](https://en.wikipedia.org/wiki/Studium_generale) (the medieval university's customary name)
 - [Alma Mater Studiorum – Università di Bologna](/view.html?p=notes/social/collective/actor/private/education/ita/university-of-bologna.md) (the founding instance of the students' constitution; teaching dated by convention to 1088, *Authentica habita* 1158)
 - [University of Basel](/view.html?p=notes/social/collective/actor/private/education/che/university-of-basel.md) (the civic constitution: the city's university from 1460 to 1833, self-governing from 1996)
+- [KTH Royal Institute of Technology](/view.html?p=notes/social/collective/actor/private/education/swe/royal-institute-of-technology.md) (the state constitution: the polytechnic ordered by the crown in 1825 to give an industrialising country its engineers)
 - [University of Bologna — Wikipedia](https://en.wikipedia.org/wiki/University_of_Bologna) (teaching from ca. 1088; *universitas scholarium*)
 - [University of Paris](https://en.wikipedia.org/wiki/University_of_Paris) (corporate from ca. 1150; chartered 1200, recognized 1215)
 - [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md)
