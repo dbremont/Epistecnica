@@ -49364,6 +49364,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference."
    }
   ]
  },
@@ -49388,6 +49393,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Reference the new University note forward from the education actor, closing the gap its lead opens between warranted teaching bodies and the chartered corporation of scholars."
    }
   ]
  },
@@ -86394,6 +86404,16 @@
     "kind": "docs",
     "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
     "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/university.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures."
    }
   ]
  }

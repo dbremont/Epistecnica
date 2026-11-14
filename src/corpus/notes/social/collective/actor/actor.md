@@ -53,6 +53,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 | Actor `(→ Kind)` Functional Actor `(→ Kind)` Trade Actor | Actor promoting and governing exchange across borders. |
 | Actor `(→ Kind)` Functional Actor `(→ Kind)` Industry Actor | Actor organizing production in a sector or territory. |
 | Actor `(→ Kind)` Functional Actor `(→ Kind)` Education Actor | Warranted body transmitting certified knowledge across generations. |
+| Actor `(→ Kind)` Functional Actor `(→ Kind)` Education Actor `(→ Kind)` University | Self-governing corporation of teachers and scholars, chartered to teach, examine, and confer degrees. |
 | Actor `(→ Kind)` Functional Actor `(→ Kind)` Party | Political organization fielding candidates and programs in collective choice. |
 | Actor `(→ Kind)` Functional Actor `(→ Kind)` Firm | Bounded collective converting capability into exchangeable value. |
 | Actor `(→ Part)` Agency | Grouping: structured capacities forming intention and selecting action. |
@@ -97,6 +98,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Family](/view.html?p=notes/social/collective/actor/family.md) (kinship unit)
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
 - [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md) (warranted teaching body)
+- [University](/view.html?p=notes/social/collective/actor/university.md) (chartered corporation of scholars: the degree-conferring kind of education actor)
 - [Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md) (research host unit)
 - [Public Research Institutes](/view.html?p=notes/social/collective/actor/public/catalog/pri.md) (public-research role)
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (research-functional subtype hub: the research actor family)
