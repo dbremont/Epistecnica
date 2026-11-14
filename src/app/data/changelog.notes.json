@@ -14662,7 +14662,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Make the cost side of the evaluation model explicit: selecting one solution costs the value of the best alternative in the solution space that the selection excludes, linked to the new Opportunity Cost note and cited in the references."
+    "summary": "Make the cost side of the evaluation model explicit: selecting one solution costs the value of the best alternative in the solution space that the selection excludes, linked to the new Opportunity Cost note and cited in the references.",
+    "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a",
+    "before": "efbfbe18f844cfb0a078d78cd705973ceed9cc29"
    }
   ]
  },
@@ -14778,7 +14780,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the Opportunity Cost concept to the Decision Theory decomposition under Epistemic Construction as a Concept row, and an entry-map row pointing at the new note as the cost side of the evaluation model."
+    "summary": "Add the Opportunity Cost concept to the Decision Theory decomposition under Epistemic Construction as a Concept row, and an entry-map row pointing at the new note as the cost side of the evaluation model.",
+    "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a",
+    "before": "efbfbe18f844cfb0a078d78cd705973ceed9cc29"
    }
   ]
  },
@@ -86573,7 +86577,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive."
+    "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive.",
+    "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a"
    }
   ]
  }
