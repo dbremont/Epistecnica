@@ -86451,7 +86451,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Reference KTH Royal Institute of Technology from the University kind, which now names the state constitution alongside the students', the masters' and the civic ones."
+    "summary": "Reference KTH Royal Institute of Technology from the University kind, which now names the state constitution alongside the students', the masters' and the civic ones.",
+    "commit": "801b6b019ece6e0def4610315533617004b6012c",
+    "before": "cb5ca91fb408a599092feaa2e5806324a0564275"
    }
   ]
  },
@@ -86527,7 +86529,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add KTH Royal Institute of Technology as the state constitution of the University kind: Polhem's Laboratorium Mechanicum of 1697 and the School of Mechanics of 1798 behind the Technological Institute ordered by Charles XIV John in 1825 and opened on 6 June 1827 on the polytechnic model, the Schwartz conflict and Akerman's reorganisation, the 1867 scientific reform and the 1877 renaming with architecture added, the civilingenjor title made legally protected in 1915 and the 1927 right to confer doctorates, the Lallerstedt campus of 1917, the R1 reactor critical in 1954 and decommissioned in 1970, the five schools of 2018, and the 2025 closure of the Kista and Sodertalje campuses."
+    "summary": "Add KTH Royal Institute of Technology as the state constitution of the University kind: Polhem's Laboratorium Mechanicum of 1697 and the School of Mechanics of 1798 behind the Technological Institute ordered by Charles XIV John in 1825 and opened on 6 June 1827 on the polytechnic model, the Schwartz conflict and Akerman's reorganisation, the 1867 scientific reform and the 1877 renaming with architecture added, the civilingenjor title made legally protected in 1915 and the 1927 right to confer doctorates, the Lallerstedt campus of 1917, the R1 reactor critical in 1954 and decommissioned in 1970, the five schools of 2018, and the 2025 closure of the Kista and Sodertalje campuses.",
+    "commit": "801b6b019ece6e0def4610315533617004b6012c"
    }
   ]
  }
