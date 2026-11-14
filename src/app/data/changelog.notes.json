@@ -86419,6 +86419,21 @@
     "kind": "docs",
     "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures.",
     "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Reference the University of Bologna instance from the University kind, which names it as the founding instance of the students' constitution."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/education/ita/university-of-bologna.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the University of Bologna instance under the education family (ita/): the founding instance of the student-run constitution, typed Education Actor -> University, decomposing its corporations of students and their nations, the elected council and the student strike, the colleges of doctors, faculties and departments, degree authority, the Authentica habita and relief from collective punishment, the colleges, and the student-run, chartered public, and state university structures."
    }
   ]
  }

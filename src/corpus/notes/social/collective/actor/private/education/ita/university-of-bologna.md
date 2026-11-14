@@ -1,0 +1,76 @@
+---
+tags: [note, actor, education, university, italy, bologna, medieval, history, social-element]
+---
+
+# Alma Mater Studiorum – Università di Bologna
+
+> The **University of Bologna** (Italian: *Alma Mater Studiorum – Università di Bologna*, abbreviated Unibo) is a public research university in Bologna, Italy: the oldest university in continuous operation in the world, and the first degree-awarding institution of higher learning in the West. Its emblem carries the motto *Alma Mater Studiorum* — "nourishing mother of studies" — and the date A.D. 1088. It is the founding instance of the student-run constitution the [University](/view.html?p=notes/social/collective/actor/university.md) kind began with.
+
+## Formulation
+
+### What social element type does this social instance belong to?
+
+**The University of Bologna belongs to the `Collective (→ Kind)` `Education Actor (→ Kind)` `University` social element type — the self-governing corporation of teachers and scholars chartered to teach, examine, and confer degrees.**
+
+Its layer is **Ontic** — the *Studium* exists extra-mentally, with its nations, its schools, its professors on the city's payroll, its buildings and its observatory — and **Synontic** where it exists through shared recognition, since the doctorate it conferred was honoured wherever a licensed master went. Its facet is ideational-educational, with a legal face: the university was set up in large part to study the *Digest*, and canon and civil law were its centre.
+
+Readable secondarily as a `Research Actor` — the observatory of 1711 and the institutes that followed carry research as a function of the same corporation — and as a `State University`, in the sense the [University](/view.html?p=notes/social/collective/actor/university.md) note gives the form: the city, and later the Italian state, pay the professors and the corporation keeps its degree authority. Those readings are prose, not second roots.
+
+### What is this social instance?
+
+> The founding date is conventional rather than certain. The university was granted a charter — the *Authentica habita* — by the Holy Roman Emperor Frederick I in 1158, but in the nineteenth century a committee of historians led by Giosuè Carducci traced its founding back to 1088, which makes it the oldest continuously operating university; the institution's development into a university was gradual, and Paul Grendler holds that enough instruction and organization to merit the name before the 1150s is unlikely, and before the 1180s possible. The emblem keeps 1088.
+>
+> Its origin is the students'. Teaching arose around mutual-aid societies of foreign students — *universitates scholarium*, grouped into "nations" by nationality — formed for protection against city laws imposing collective punishment on foreigners for the crimes and debts of their countrymen. These students hired scholars from the city's pre-existing lay and ecclesiastical schools to teach them the liberal arts, notarial law, theology, and *ars dictaminis*, in informal schools called *scholae*; in time the *universitates scholarium* formed one larger association, the *Studium*. The *Studium* then bargained collectively: by the initiation or threat of a student strike the students enforced their demands on course content and professors' pay; an elected council of two representatives from every nation hired, fired, and set the pay of the professors, with the most important decisions ratified by a majority of all students; professors could be fined for failing to finish classes on time or the course material by the semester's end, and a student committee — the "Denouncers of Professors" — reported their misbehaviour. The professors were not powerless: their *collegia doctorum*, one per faculty, secured the rights to set examination fees and degree requirements. Eventually the city ended the arrangement, paying the professors from tax revenue and making it a chartered public university.
+>
+> Lineage: the mutual-aid nations and the hired *scholae* (ca. 1088) → the *Authentica habita* (1158) and the *Studium*'s collective bargaining with city and professors → the dominance of canon and civil law, built around the *Digest* rediscovered in Italy in 1070, with the doctorate as the only degree until modern times → the Archiginnasio as the main seat (1563–1803) → the Observatory of Bologna (1711), the first public astronomical observatory in Italy → the modern public research university, with schools, departments, and campuses across Emilia-Romagna.
+
+### What is the recursive instance decomposition of this social instance?
+
+> Boundary: one university — its corporation, its constitution as a body of students, its faculties and degree authority, its charter and privileges, its support, its doings, and the structures it passed through. The city that paid its professors and the Italian state that funds it are associated, not parts.
+>
+> Stopping rule: a row is terminal when it names a constituent, a faculty or school kind, a degree, a privilege, an activity, or a structural form.
+>
+> Identity: Instance Tree Path is the stable identifier of each row; every path is unique. Rows name constitution and organs, never sitting individuals.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna | Bound root instance: the Italian university whose teaching is dated by convention to 1088, chartered by the *Authentica habita* of 1158. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students | Its constitution at origin: the body made of students, not of masters. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students `(→ Part)` Universitas Scholarium | The mutual-aid association of foreign students that grew into the *Studium*. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students `(→ Part)` Universitas Scholarium `(→ Part)` Student Nation | The grouping of the students by nationality — the unit of representation and the reason the body could bargain with the city at all. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students `(→ Part)` Elected Student Council | Two representatives from every nation, electing, hiring, and paying the professors and setting their terms. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students `(→ Part)` Student Strike | The collective action — initiated or threatened — through which the students enforced course content and professors' pay. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Corporation Of Students `(→ Part)` Denouncers Of Professors | The student committee that watched the professors and reported lateness, unfinished material, and misbehaviour, against which the fines were levied. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` College Of Doctors | The professors' committee in each faculty, holding the rights to set examination fees and degree requirements — the masters' counterweight inside the students' university. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Faculty | The teaching division by discipline, from the medieval faculties to the eleven schools that replaced twenty-three faculties. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Faculty `(→ Kind)` School Of Law | The school descending from the faculty of canon and civil law, the core of the university's medieval eminence. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Faculty `(→ Kind)` School Of Arts, Humanities, And Cultural Heritage | The humanities school descending from the faculty of letters and arts, which hosted Umberto Eco and the DAMS course founded in 1971. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Faculty `(→ Kind)` School Of Medicine And Surgery | The medical school, within the healthcare area of the modern university. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Faculty `(→ Kind)` Department | The research domain below the schools: thirty-three departments, down from sixty-six in 2012. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Degree Authority | The right to examine and to confer degrees, holding the doctorate as its only degree until modern times. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Degree Authority `(→ Kind)` Doctorate | The sole degree the university granted until modern times — the one Laura Bassi took in 1732. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Degree Authority `(→ Kind)` Laurea | The three-year first-level degree of the harmonized European cycle. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Degree Authority `(→ Kind)` Laurea Magistrale | The two-year second-level degree, alongside the single-cycle five- and six-year courses. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Degree Authority `(→ Kind)` Research Doctorate | The PhD reached after the second-level degree, through specialisation schools or a doctorate. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Privilege | The rights granted by charter that set the corporation above the city's ordinary law. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Privilege `(→ Part)` Authentica Habita | Frederick I Barbarossa's document setting out the rights and privileges of students and scholars — the first such instrument in Europe, and the university's first warrant. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Privilege `(→ Part)` Relief From Collective Punishment | The removal of the city's collective liability of foreigners for their countrymen's crimes and debts — the grievance that produced the nations. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Endowment | The supported houses and revenues attached to the corporation. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Endowment `(→ Part)` Collegio Di Spagna | The Royal Spanish College, one of the historical colleges attached to the university. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Endowment `(→ Part)` Collegio Superiore | The excellence college founded in 1998 as the *Collegio d'Eccellenza*, granting full-ride scholarships and an interdisciplinary programme within the university. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` `Activity` | The recurrent bundles the corporation carries out. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` `Activity` `(→ Kind)` Teaching And Examination Activity | The lectures, disputations, and examinations by which the nations hired and the colleges examined. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` `Activity` `(→ Kind)` Astronomical Observation | The work of the Observatory of Bologna, established 1711 as the first public astronomical observatory in Italy. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Composite Structure | The forms the university took as its constitution and its relation to the city and the state changed. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Composite Structure `(→ Kind)` Student-Run Studium | The medieval constitution: the students' university, its nations bargaining with the city and their own hired professors. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Composite Structure `(→ Kind)` Chartered Public University | The arrangement the city imposed when it ended the students' control, paying the professors from tax revenue and chartering the university as a public body. |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Education Actor `(→ Kind)` University `(→ Instance)` University Of Bologna `(→ Part)` Composite Structure `(→ Kind)` State University | The contemporary form: funded by the Italian state, structured in schools and departments, with campuses at Cesena, Forlì, Ravenna, Rimini, and Imola and branches abroad. |
+
+## References
+
+- [University of Bologna — Wikipedia](https://en.wikipedia.org/wiki/University_of_Bologna) (names, 1088 and the *Authentica habita* of 1158, the nations and student government, the Observatory, Bassi and Gozzadini, organization, 11 schools and 33 departments)
+- [Authentica habita](https://en.wikipedia.org/wiki/Authentica_habita) (Frederick I Barbarossa's document of c. 1155, setting out the rights of students and scholars; dated 1158 for Bologna)
+- [University](/view.html?p=notes/social/collective/actor/university.md) (the kind this instance realizes; the students' constitution)
+- [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md)
+- [Leiden University](/view.html?p=notes/social/collective/actor/private/education/nld/leiden-university.md) (the masters' constitution, in 1575)
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
