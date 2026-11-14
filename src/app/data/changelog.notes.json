@@ -36222,6 +36222,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/nervous-system.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Replace the import placeholder with the type-level naturalis decomposition of the nervous system: its cell families and bundle structures, the signalling mechanisms, the processes it performs, and the attributes that distinguish the three grades of organisation (nerve net, ganglionated cords, centralised system); the human instance stays in human-nervous-system.md."
    }
   ]
  },
@@ -86625,6 +86630,16 @@
     "kind": "docs",
     "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments.",
     "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/human/nerve.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract."
    }
   ]
  }
