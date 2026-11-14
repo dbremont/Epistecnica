@@ -49371,6 +49371,11 @@
     "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference.",
     "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef",
     "before": "ced09f0c22b31acb17836728e428b5f2d28b58f5"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note."
    }
   ]
  },
@@ -51988,6 +51993,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add Legislature and Committee to the Public Organization kind table, after Council: the rule-making organ of a polity and the delegated body drawn from an assembly."
    }
   ]
  },
@@ -86466,6 +86476,36 @@
     "kind": "docs",
     "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement.",
     "commit": "4a71469ce9cced529f2b54c1bcd28ad8f04e8cf1"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/legislature.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Legislature type note: the assembly that deliberates and enacts binding rules, decomposed through warrant, membership, chambers, presiding officer and business committee, the committee system, procedure, the four products (statute, appropriation, ratification, confirmation), oversight, support, and the structural lineage from the assembly of estates to the committee-centric and delegating forms."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/committee.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Committee type note the board note already named but the corpus had not worked: a body of members drawn from a larger assembly, prepared through its standing, select, joint, conference, ad hoc and subcommittee kinds, its warrant in standing orders, membership and offices, remit and initiative, evidence-taking and markup, the report as product, the secretariat, and the unified versus divided structures."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/legislature/swe/committee-of-ways-and-means.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation."
    }
   ]
  }
