@@ -34,6 +34,10 @@ methods transforming or measuring this instance decompose under the technicarum 
 readable as social — actors and institutions drawn around it under the socialium grammar;
 readable as epistemic — models and warrants about it under the epistemicarum grammar.
 
+## Related
+
+- [Nicotine](/view.html?p=notes/nature/bio/molecular/nicotine.md) — the plant alkaloid that gave the nicotinic receptor its name; it acts where acetylcholine does.
+
 ## References
 
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)

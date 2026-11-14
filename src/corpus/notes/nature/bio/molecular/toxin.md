@@ -10,6 +10,10 @@ tags: [note, nature, natural-system, biology, system, unfinished]
 > Biotoxin: …
 >
 
+## Related
+
+- [Nicotine](/view.html?p=notes/nature/bio/molecular/nicotine.md) — a plant defence neurotoxin, and the case where the toxin became a drug.
+
 ## References
 
 - https://en.wikipedia.org/wiki/Toxin

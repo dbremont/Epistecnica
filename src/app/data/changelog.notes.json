@@ -24025,6 +24025,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Related: nicotine, the plant alkaloid that named the nicotinic receptor and acts where acetylcholine does."
    }
   ]
  },
@@ -24277,6 +24282,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Point the alkaloid class at its decomposed instance: nicotine, the pyridine-pyrrolidine alkaloid of tobacco."
    }
   ]
  },
@@ -26161,6 +26171,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/metabolite.md into nature/bio/molecular/: the bio family is filed by ontic kind, not by field of study."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Related: nicotine, a root-made secondary metabolite transported to the leaves."
    }
   ]
  },
@@ -26501,6 +26516,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/toxin.md into nature/bio/molecular/: the bio family is filed by ontic kind, not by field of study."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Related: nicotine, a plant defence neurotoxin that became a human drug."
    }
   ]
  },
@@ -27096,6 +27116,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/tobacco-nicotiana-tabacum.md into nature/bio/organism/plant/: the bio family is filed by ontic kind, not by field of study."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the undelivered Nicotiana tabacum placeholder (single imported row, retired four-column table, decomposition pending) in favour of the substance note it was gesturing at: nicotine, at nature/bio/molecular/nicotine.md. The species survives in the corpus as a name in the tobacco genome row of dna.md; no note linked to this file."
    }
   ]
  },
@@ -86579,6 +86604,16 @@
     "kind": "docs",
     "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive.",
     "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/bio/molecular/nicotine.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments."
    }
   ]
  }
