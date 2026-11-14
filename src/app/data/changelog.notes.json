@@ -49368,7 +49368,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference."
+    "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference.",
+    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef",
+    "before": "ced09f0c22b31acb17836728e428b5f2d28b58f5"
    }
   ]
  },
@@ -49397,7 +49399,9 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Reference the new University note forward from the education actor, closing the gap its lead opens between warranted teaching bodies and the chartered corporation of scholars."
+    "summary": "Reference the new University note forward from the education actor, closing the gap its lead opens between warranted teaching bodies and the chartered corporation of scholars.",
+    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef",
+    "before": "ced09f0c22b31acb17836728e428b5f2d28b58f5"
    }
   ]
  },
@@ -86413,7 +86417,8 @@
    {
     "date": "2026-11-13",
     "kind": "docs",
-    "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures."
+    "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures.",
+    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef"
    }
   ]
  }
