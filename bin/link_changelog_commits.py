@@ -156,7 +156,7 @@ def main(argv=None):
             for entry in data:
                 entry["logs"] = [ordered_log(l) for l in entry.get("logs", [])]
             path.write_text(
-                json.dumps(data, indent=2, ensure_ascii=False) + "\n",
+                json.dumps(data, indent=1, ensure_ascii=False) + "\n",
                 encoding="utf-8",
             )
         total += stamped

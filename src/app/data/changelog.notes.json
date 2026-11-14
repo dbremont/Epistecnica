@@ -36201,7 +36201,9 @@
    {
     "date": "2026-11-12",
     "kind": "move",
-    "summary": "Move from nature/nerves.md into nature/human/ so the human-related natural elements sit with the human corpus."
+    "summary": "Move from nature/nerves.md into nature/human/ so the human-related natural elements sit with the human corpus.",
+    "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498",
+    "before": "c2110e61bc6b0d98c403c6f4c03f71d35fb5b3b1"
    }
   ]
  },
@@ -36226,7 +36228,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Replace the import placeholder with the type-level naturalis decomposition of the nervous system: its cell families and bundle structures, the signalling mechanisms, the processes it performs, and the attributes that distinguish the three grades of organisation (nerve net, ganglionated cords, centralised system); the human instance stays in human-nervous-system.md."
+    "summary": "Replace the import placeholder with the type-level naturalis decomposition of the nervous system: its cell families and bundle structures, the signalling mechanisms, the processes it performs, and the attributes that distinguish the three grades of organisation (nerve net, ganglionated cords, centralised system); the human instance stays in human-nervous-system.md.",
+    "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498",
+    "before": "c2110e61bc6b0d98c403c6f4c03f71d35fb5b3b1"
    }
   ]
  },
@@ -86639,7 +86643,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract."
+    "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract.",
+    "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498"
    }
   ]
  }
