@@ -26543,6 +26543,11 @@
     "summary": "Related: nicotine, a plant defence neurotoxin that became a human drug.",
     "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd",
     "before": "0c8ac86880ee9a051643ad24fe52d00bc521b285"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Fill the note: the Formulation now carries the schema questions that compose the graph (the functional definition, the Substance binding, the toxin/toxicant/venom ambiguity, the limitation factors) and the recursive decomposition of the toxin kind across source class, chemical class, mechanism class with reference compounds, properties and processes. Fills the toxin-space dimensions, the exemplar table, the stoichiometric-versus-catalytic mechanism table, the detection heuristic ladder, and a literature review across terminology, mechanism, source biology, dose and mixtures, detection, and repurposed toxins."
    }
   ]
  },
