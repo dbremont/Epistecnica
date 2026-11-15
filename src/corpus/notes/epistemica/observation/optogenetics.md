@@ -32,7 +32,7 @@ tags: [note, experiment, method, optogenetics, neuroscience]
 
 > `readable as` an `Epistemic Access` regime when attention falls on the interface rather than the order of acts — light in, fluorescence out, one tissue path serving both. `readable as` an `Epistemic Protocol` when it is written down as a lab procedure. The primary type is the method, because the note is about what the routine licenses, not about the hardware it runs on.
 
-> The implements — viral vector, laser, fibre, cranial window, camera — are `Epistemic Tool`s carried under the infrastructure lane of the [experimental method scope](/view.html?p=notes/epistemica/experimental-method/experimental-method.md); the controls are `Epistemic Standard`s carried under its evaluation lane. This note decomposes the routine; the scope note decomposes what every routine needs.
+> The implements — viral vector, laser, fibre, cranial window, camera — are `Epistemic Tool`s carried under the infrastructure lane of the [experimental method scope](/view.html?p=notes/epistemica/observation/experimental-method.md); the controls are `Epistemic Standard`s carried under its evaluation lane. This note decomposes the routine; the scope note decomposes what every routine needs.
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
@@ -112,8 +112,8 @@ tags: [note, experiment, method, optogenetics, neuroscience]
 
 ## Related
 
-- [Experimental Method](/view.html?p=notes/epistemica/experimental-method/experimental-method.md) — the scope this routine belongs to; its perturbation exemplar.
-- [Data Collection](/view.html?p=notes/epistemica/data/data-collection.md) — the collection techniques the readout half produces material for.
+- [Experimental Method](/view.html?p=notes/epistemica/observation/experimental-method.md) — the scope this routine belongs to; its perturbation exemplar.
+- [Data Collection](/view.html?p=notes/epistemica/observation/data-collection.md) — the collection techniques the readout half produces material for.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) — the population-scale intervention, with the same necessity/sufficiency logic.
 - [Do-Calculus](/view.html?p=notes/epistemica/causality/do-calculus.md) — the formal reading of the intervention optogenetics performs physically.
 - [Biological Sciences](/view.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) — the practice that carries the method.

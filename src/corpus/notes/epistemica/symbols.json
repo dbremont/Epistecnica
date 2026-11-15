@@ -137,7 +137,7 @@
       ],
       "notes": [
         "epistemica/mathematical/set.md",
-        "epistemica/mathematical/construction/brouwer-fixed-point-theorem.md"
+        "epistemica/epistemic/construction/mathematical/brouwer-fixed-point-theorem.md"
       ],
       "sources": [
         {
@@ -955,7 +955,7 @@
       ],
       "notes": [
         "epistemica/mathematical/change/divergence-operator.md",
-        "epistemica/mathematical/construction/gradient-theorem.md"
+        "epistemica/epistemic/construction/mathematical/gradient-theorem.md"
       ],
       "sources": [
         {

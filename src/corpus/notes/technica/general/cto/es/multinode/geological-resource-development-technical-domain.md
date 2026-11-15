@@ -25,7 +25,7 @@ Technical Element Set
 └── Geological Resource Development Technical Domain (bounded field: occurrence → marketable product → closed site)
 ```
 
-It is a set rather than a `Production Technical System` because it owns no pit, no plant, and no concession: the members own those, and what this scope adds is the family and its boundary. That is the same move as the [Technical Core Catalog](/view.html?p=notes/technica/general/cto/industry/technical-core-catalog.md), which is the corpus's existing precedent for a set whose members are themselves sets; here the member family is the full-chain development techniques rather than the transformation domains.
+It is a set rather than a `Production Technical System` because it owns no pit, no plant, and no concession: the members own those, and what this scope adds is the family and its boundary. That is the same move as the technical core catalog, which is the corpus's existing precedent for a set whose members are themselves sets; here the member family is the full-chain development techniques rather than the transformation domains.
 
 The `Technical Element Set` grouping below the root is admitted by the No-repetition exception: it scopes the instance family of the member sets that would otherwise hang untyped off the root's own segment, and it appears exactly once. Composite members take the `Set` suffix at this depth. No row below carries two types.
 
@@ -83,7 +83,7 @@ Lineage: surface gathering and shallow digging → prospecting by outcrop and fl
 ## References
 
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; recursion rule for composites)
-- [Technical Core Catalog](/view.html?p=notes/technica/general/cto/industry/technical-core-catalog.md) (the corpus precedent for a set whose members are sets)
+- technical core catalog (the corpus precedent for a set whose members are sets)
 - Members: [Well Logging](/view.html?p=notes/technica/general/cto/industry/well-logging.md) · [Mining System](/view.html?p=notes/technica/general/cto/industry/mining-system.md) · [Metals Production](/view.html?p=notes/technica/general/cto/industry/metals-production.md) · [Nonmetallic Production](/view.html?p=notes/technica/general/cto/industry/nonmetallic-production.md)
 - Boundary, deliberately not members: Petroleum Oil (a resource, not a technique) · Metalworking (downstream fabrication) · Materiotecnia (knowledge scaffolding for the processing member)
 - Knowledge: [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the production-side science the exploration member consumes)

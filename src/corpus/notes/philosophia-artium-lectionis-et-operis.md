@@ -16,5 +16,5 @@ Content (Epistemic, Technical, Normative)  Type;  Instance Path Tree; Descriptio
 - [Philosophia Socialium et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/app/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Moralis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/app/view.html?p=notes/philosophia-moralis-et-operis.md)
 - [Dialectic](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/app/view.html?p=notes/epistemica/dialectic.md)
-- [Principle](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/app/view.html?p=notes/epistemica/principle.md)
+- [Principle](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/app/view.html?p=notes/epistemica/epistemic/guidance/principle.md)
 - [Ambiguity Resolution](https://raw.githubusercontent.com/csiglab/Naturgnosis/main/guideline/ambiguity_resolution.md)

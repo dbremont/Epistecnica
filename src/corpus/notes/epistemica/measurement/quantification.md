@@ -14,6 +14,8 @@ qa:
   - "how do we distinguish precision from accuracy?"
   - "what makes a measurement traceable and reproducible?"
   - "what do we gain with quantification — comparison, operation, relation?"
+  - What makes something worth quantifying? or by measuring?
+  - How to evaluation a measurement procedure?
 ---
 
 # quantification
@@ -184,6 +186,64 @@ qa:
 | representational adequacy | strong | elements, foundations, conventions, formation rules, transformations, and interpretations are carried in separate branches, so a scale-level claim is never confused with a notational one and a predicate is never mistaken for a constituent. |
 | purpose adequacy | strong | the scheme serves the three uses quantification exists for — comparison, combination, and conversion — and it never claims a magnitude reading where only an ordering one is licensed, which is what the class boundary in [measurement](/view.html?p=notes/epistemica/measurement/measurement.md) enforces. |
 
+## Which is the structure of a quantification scheme?
+
+| Element | Description |
+|---|---|
+| **Observable** | The object, phenomenon, event, or system being observed. |
+| **Property** | The particular characteristic selected for quantification. |
+| **Observation** | The empirical determination of the property's state or occurrence. |
+| **Mapping** | The rule connecting observations to their representations. |
+| **Representation** | The numerical or categorical value assigned to an observation. |
+| **Scale** | The system of relationships preserved by the representation (nominal, ordinal, interval, ratio). |
+| **Unit** | The standardized reference quantity used for expressing measurements, where applicable. |
+| **Aggregation** | The rules for combining multiple observations or measurements, where meaningful. |
+| **Distribution** | The representation of variation across observations or possible outcomes, where applicable. |
+
+## Evaluation
+
+> How do we evaluate a quantification procedure?
+
+| Criteria | Description |
+|---|---|
+| **Validity** | Does the procedure adequately represent the property or phenomenon it intends to quantify? |
+| **Reliability** | Does it produce consistent results under equivalent observation conditions? |
+| **Accuracy** | How closely do the resulting values correspond to the actual or reference values? |
+| **Precision** | How finely can the procedure distinguish between different values? |
+| **Sensitivity** | Can it detect meaningful variations in the property being quantified? |
+| **Discrimination** | Can it distinguish meaningfully between different observations or states? |
+| **Comparability** | Does it enable meaningful comparisons across observations, objects, or conditions? |
+| **Reproducibility** | Can the procedure be independently repeated with equivalent results? |
+| **Robustness** | Does it remain reliable under variations in observation conditions? |
+| **Consistency** | Are the mapping rules and resulting representations logically and mathematically consistent? |
+| **Completeness** | Does it adequately cover the relevant range of observable states or outcomes? |
+| **Interpretability** | Can the resulting values be meaningfully interpreted? |
+| **Operational Utility** | Does the resulting quantification support explanation, prediction, monitoring, or decision-making? |
+| **Computational Tractability** | Can the procedure be implemented and applied with reasonable computational resources? |
+
+## Case Study
+
+| Type | Quantification Instance | Description | Structure |
+|---|---|---|---|
+| Measurement | Temperature Measurement | Quantifying the thermal state of a physical system. | Physical system → Thermal property → Observation → Numerical value → Unit |
+| Measurement | Length Measurement | Quantifying the linear extent of an object. | Physical object → Spatial extent → Observation → Numerical value → Unit |
+| Measurement | Mass Measurement | Quantifying the mass of a physical object. | Physical object → Mass property → Observation → Numerical value → Unit |
+| Measurement | Area Measurement | Quantifying the two-dimensional extent of a surface. | Surface → Spatial extent → Observation → Numerical value → Unit |
+| Measurement | Volume Measurement | Quantifying the three-dimensional extent of a body. | Body → Spatial extent → Observation → Numerical value → Unit |
+| Measurement | Time Measurement | Quantifying the duration or temporal separation of events. | Events → Temporal interval → Observation → Numerical value → Unit |
+| Counting | Population Counting | Quantifying the number of individuals in a defined population. | Population → Membership criterion → Individual identification → Count |
+| Categorization | Categorical Classification | Assigning observations to distinct qualitative categories. | Observable → Qualitative property → Category definitions → Category assignment |
+| Ordinal Quantification | Ordinal Measurement | Representing observations according to an ordered set of categories. | Observable → Property → Ordered categories → Ordinal value |
+| Random Variable | Discrete Random Variable | Mapping outcomes of a random experiment to numerical values. | Random experiment → Sample space → Outcome → Numerical mapping → Random variable |
+| Random Variable | Continuous Random Variable | Mapping outcomes to values within a continuous numerical domain. | Random experiment → Sample space → Outcome → Numerical mapping → Random variable |
+| Probability Assignment | Event Probability | Assigning probabilities to events within a sample space. | Sample space → Event → Probability assignment → Probability value |
+| Frequency Quantification | Event Frequency | Quantifying the occurrence of an event within an observation interval. | Event → Observation interval → Event counting → Frequency |
+| Rate Quantification | Occurrence Rate | Quantifying the occurrence of a phenomenon relative to an interval or another quantity. | Phenomenon → Event count → Reference quantity → Ratio → Rate |
+| Ratio Quantification | Density | Quantifying mass per unit volume. | Physical body → Mass measurement + Volume measurement → Ratio → Density |
+| Index Construction | Economic Index | Representing changes in an economic phenomenon through a normalized numerical indicator. | Phenomenon → Variables → Observations → Normalization → Weighting → Index |
+
+
+
 ## qa
 
 ### why does a ratio scale license "twice as much" while an interval scale does not?
@@ -205,6 +265,44 @@ qa:
 > because the relata differ. logical quantification binds a *variable* to a domain — $\forall x\, p(x)$, $\exists x\, p(x)$ — and its product is a truth condition for a formula, not a value for a magnitude. nothing in it names a unit or a scale, and no comparison, combination, or conversion of magnitudes is licensed by it: "for all $x$" ranges over a domain, not over how much of an attribute an item carries.
 
 > the confusion is etymological — both senses descend from *quantum*, "how much" — but the questions are different. the logical sense asks how many *things* in a domain satisfy a predicate; the quantitative sense asks how much of an attribute an item bears. the two meet in one place: the cardinality of a finite domain, which is why the boundary is worth stating rather than erasing. the logical construct is decomposed in logic, and the quantifier glyph is as inert in this scheme as the operator glyphs are in arithmetic.
+
+### What makes something worth measuring or quantifying?
+
+- **Relevance**: Does the property matter to understanding the phenomenon?
+- **Discrimination**: Can measuring it reveal meaningful differences?
+- **Explanatory value**: Does it help explain how or why something happens?
+- **Predictive value**: Can it improve predictions about future states or events?
+- **Comparability**: Does quantification enable meaningful comparisons?
+- **Decision value**: Can the resulting information improve decisions or actions?
+- **Reliability**: Can the property be measured with sufficient accuracy and consistency?
+- **Variability Tracking**: Can measuring it reveal, characterize, and monitor variations over time or across different conditions?
+
+### What happens when the observable is non-additive?
+
+> A non-additive observable is one whose value cannot be meaningfully obtained by simply summing the values of its constituent parts.
+
+| Observable | Additivity |
+|---|---|
+| Mass | Additive |
+| Length (of contiguous segments) | Additive |
+| Volume | Additive |
+| Temperature | Non-additive |
+| Density | Non-additive |
+| Entropy | Depends on the system and conditions |
+| Complexity | Generally non-additive |
+
+### Which are the propiertes that can be attributed to observables?
+
+- Additivity: Whether quantities can be meaningfully summed.
+- Comparability: Whether quantities can be meaningfully compared.
+- Orderability: Whether quantities can be ordered.
+- Divisibility: Whether quantities can be meaningfully partitioned.
+- Scalability: Whether multiplication by a scalar is meaningful.
+- Composability: Whether quantities can be combined according to some meaningful operation.
+
+### What is the value of quantifying temperature?
+
+> Adding two temperatures is mathematically possible, but it generally has no direct physical meaning because temperature is not an additive quantity. For example, adding 20 °C and 30 °C does not produce the temperature of a system combining two objects at those temperatures. The resulting temperature depends on other physical properties, such as mass and specific heat capacity. Thus, an operation can be mathematically valid without having a meaningful physical interpretation for the quantities involved.
 
 ## references
 

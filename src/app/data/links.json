@@ -104,7 +104,7 @@
     },
     {
       "from": "epistemica/mathematical/space/",
-      "to": "epistemica/construction/state-space-model.md",
+      "to": "epistemica/epistemic/construction/state-space-model.md",
       "label": "State-Space Models",
       "kind": "related"
     },

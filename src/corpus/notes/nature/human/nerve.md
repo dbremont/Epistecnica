@@ -13,6 +13,8 @@ qa:
 
 > A **nerve** is an enclosed bundle of axons running outside the central nervous system, together with the Schwann cells that sheath them, the connective tissue that binds them, and the small vessels that feed them. It is the peripheral nervous system's cable: not a cell — the cells are the neurons whose processes it carries — but a **structure** assembled from many fibres, and the unit a surgeon cuts, a graft replaces, or an electrode records from.
 
+> A nerve Abiological communication highway containing many individual signal-conducting fibers (axons).
+
 ## Formulation
 
 ### What natural element type does this nerve instance belong to?

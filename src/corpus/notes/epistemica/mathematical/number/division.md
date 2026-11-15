@@ -5,19 +5,16 @@ tags: [note, mathematics, arithmetic, function, quantity]
 # Division
 
 > A Note on the  analysis of the **`division functional (/)`**.
-> 
 
 > **Interpretation**: A division represents a relation between two quantitative; the  relation is relative in nature; and can have many equivalent. (A:  B) → (How many A : Per 1B)
-> 
 
 > **Technique: Division** represents the process of **partitioning a quantity into equal parts,** or **determining how many times one number (the divisor) fits into another (the dividend).**
-> 
 
 > **Note:** Division is one of the most powerful tools in mathematics, as it captures  a **kind relationship  between** two numbers - shared by a class of pairs numbers also.
-> 
 
 > Division expresses the **relative magnitude** of one quantity with respect to another by normalizing one quantity by the other.
-> 
+
+> **Note:** We call division *relative* because it expresses a relationship between two quantities.
 
 ## Formulation
 
@@ -39,9 +36,22 @@ Mathematically, given: $a \div b = c$:
 - **Quotient as a Rate**: The result represents a rate of change or speed.
 - **Quotient as Scaling (Multiplicative Inverse Interpretation)**:  Division by a number is equivalent to multiplying by its reciprocal.
 - **Quotient as a Slope (Linear Interpretation)**: In graphs, division can represent a slope or rate of change.
-- **Quotient as a Conversion Factor**:  A **conversion factor** is a fraction that equals **1**, where the numerator and denominator are **equivalent quantities in different units**.
+- **Quotient as a Conversion Factor** - **Equivalence Ratio (Equivalence Factor) (Unit Conversion Factor) (Unit Equivalence)**:  A **conversion factor** is a fraction that equals **1**, where the numerator and denominator are **equivalent quantities in different units**.
 
 > See more: [Scale](/view.html?p=notes/epistemica/mathematical/scale.md), [Percentage](/view.html?p=notes/epistemica/mathematical/number/percentage.md), [Slope](https://en.wikipedia.org/wiki/Slope) and [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor).
+
+## History
+
+- The term *ratio* originates from the Latin *ratiō*, derived from *rērī*, meaning to reckon, calculate, consider, or think.
+- In classical Latin, *ratiō* referred to reckoning, calculation, accounting, reasoning, and the rational basis for an argument.
+- Ancient Greek mathematics used the term *logos* (λόγος) to describe a quantitative relationship between two magnitudes.
+- Euclid's *Elements* (c. 300 BCE), particularly Book V, formalized the mathematical theory of ratios and proportions.
+- The Greek mathematical conception of ratio concerned the relationship between magnitudes, rather than necessarily the numerical result of division.
+- Medieval Latin mathematical literature predominantly used *proportio* to designate what is now called a ratio.
+- During the medieval period and Renaissance, mathematicians increasingly developed arithmetic treatments of ratios, connecting them to numerical operations and quotients.
+- Renaissance translations of Greek mathematical works contributed to the reintroduction and standardization of *ratio* as mathematical terminology in Latin.
+- The English word *ratio* appeared in the seventeenth century, initially retaining meanings associated with reason and calculation before acquiring its established mathematical meaning.
+- In modern mathematics, ratio generally denotes a quantitative relationship between two quantities, commonly expressed as \(a:b\) or \(a/b\).
 
 ## Ratio (**Razón**)
 
@@ -156,6 +166,12 @@ You break 3, eat 4, and cook 5.
 How many eggs do you have?
 > 
 
+## QA
+
+### How to Interpret 10/6?
+
+> 10 sixths: ten units, each representing one-sixth of a whole.
+
 ## References
 
 - [Normalization](/view.html?p=notes/epistemica/mathematical/method/normalization.md)
@@ -172,3 +188,4 @@ How many eggs do you have?
 - [Conversion factor](https://en.wikipedia.org/wiki/Conversion_factor)
 - [Division (mathematics)](https://en.wikipedia.org/wiki/Division_(mathematics))
 - [The Bat-and-Ball Problem: Stronger evidence in support of a conscious error process](https://pmc.ncbi.nlm.nih.gov/articles/PMC6800670/)
+- Wilbur R. Knorr, On the Term Ratio in Early Mathematics (1994).

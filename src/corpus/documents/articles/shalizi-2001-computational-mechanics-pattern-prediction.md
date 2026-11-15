@@ -32,5 +32,5 @@ tags: [document, physical]
 - [Vafa et al. — Evaluating the World Model Implicit in a Generative Model](/view.html?p=documents/papers/vafa-2024-evaluating-world-model-implicit-generative.md)
 - [Generative Model](/view.html?p=notes/epistemica/observational/computational/generative-model.md)
 - [Computational Learning](/view.html?p=notes/epistemica/observational/computational/computational-learning.md)
-- [Probability Model Validation](/view.html?p=notes/epistemica/observational/probability-model-validation.md)
+- [Probability Model Validation](/view.html?p=notes/epistemica/validation/probability-model-validation.md)
 

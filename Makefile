@@ -80,7 +80,7 @@ atlas-index: ## rebuild the technica atlas store (after any technica corpus chan
 atlas-check: ## validate the technica atlas store (src/corpus/notes/technica/atlas.json)
 	python3 bin/atlas_check.py
 
-terminology-check: ## validate the terminology-crimes store (src/corpus/corpus/?dir=notesepistemica/horror/terminology.json)
+terminology-check: ## validate the terminology-crimes store (src/corpus/notes/epistemica/epistemic/horror/terminology.json)
 	python3 bin/terminology_check.py
 
 symbols-check: ## validate the symbol-atlas store (src/corpus/corpus/?dir=notesepistemica/symbols.json)

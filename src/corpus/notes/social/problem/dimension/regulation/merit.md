@@ -2,7 +2,7 @@
 tags: [note]
 ---
 
-# **Merit System**
+# Merit System
 
 > A **Merit System** is a **normative-institutional framework** for allocating roles, resources, and opportunities based on **individual qualifications, performance, or competencies**, rather than on personal relationships, social status, or political favoritism. It aims to ensure fairness, efficiency, and legitimacy in selection, promotion, and reward processes within organizations or broader social systems.
 
@@ -24,3 +24,4 @@ tags: [note]
 | **Evaluation Mechanisms**   | Exams, interviews, peer reviews, performance assessments                   |
 | **Impartial Procedures**    | Transparent and standardized processes to minimize bias                    |
 | **Institutional Embedding** | Found in civil service systems, competitive hiring, university admissions  |
+

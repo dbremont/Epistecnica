@@ -150,7 +150,7 @@ frontend-facing surface in the deployment; there is no database behind it
   `natural-computing/` scope was dissolved on 2026-10-31 into the scopes that
   own each note's operation (`optimization/` for the evolutionary and swarm
   optimizers, `complexity/` for swarm intelligence and self-organized
-  criticality, `mathematical/change/` for cellular automata, `construction/` for
+  criticality, `mathematical/change/` for cellular automata, `singular/` for
   flux balance analysis) and its members carry `tags: [natural-computing]`; do
   not reintroduce it.
 - The mathematical domain is filed by branch: `structure/` (`algebra/`,
@@ -163,12 +163,25 @@ frontend-facing surface in the deployment; there is no database behind it
   `ranking`, `inequality`),
   `equation/`, `change/`, `space/`, `metric/`, `measure/`, `norm/` (the norm
   family, with `norm.md` as its central note and `order: 0`),
-  `geometry/`, `construction/`, `method/` (filed by what a routine does to the
+  `geometry/`, `method/` (filed by what a routine does to the
   problem: `proof/`, `reduction/`, `approximation/`, `transform/`, `certify/`),
   with `transformation.md` at the domain root. A new mathematical note goes in
   the branch that owns the object it is about — a *rule* (multiplication,
   differentiation) is a `Transformation Rule` of a representational system,
   never an "operator" note and never an act; see `mathematical/transformation.md`.
+- The **constructions** — the results an inquiry leaves behind — are not filed
+  inside the branch that produced them. They live under
+  `epistemica/epistemic/construction/`: `mathematical/` for theorems,
+  inequalities and convergence results, `observational/` for the asymptotic
+  results (CLT, LLN, Glivenko–Cantelli, Crámer–Rao, LIL), and the root for the
+  cross-domain models and formalisms (branching, DFT, Fick, general
+  equilibrium, IOM, Lotka–Volterra, molecular orbital, Mori–Zwanzig,
+  Navier–Stokes, phase-field, state-space). `construction.md` is the root's
+  type note. A note that is *about* a construction rather than one of them —
+  a framework overview such as `observational/theory-of-statistics.md`, an
+  operator family such as `observational/statistical-function.md`, a principle
+  such as `epistemic/guidance/principle/compositionality.md` — stays out and
+  sits at the domain root or in the scope that owns its type.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import

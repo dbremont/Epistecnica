@@ -1,5 +1,35 @@
 [
  {
+  "file_path": "documents/articles/shalizi-2001-computational-mechanics-pattern-prediction.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
+  "file_path": "documents/books/axler-2015-linear-algebra-done-right-springer.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
+  "file_path": "documents/books/strang-2005-linear-algebra-applications-brooks-cole.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/adaptative.md",
   "logs": [
    {
@@ -1259,6 +1289,506 @@
   ]
  },
  {
+  "file_path": "epistemica/epistemic/construction/branching-model.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/branching-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/construction.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/construction.md: it defines what a construction is rather than being one, so it becomes the family's type note."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/density-functional-theory-dft-2.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/density-functional-theory-dft-2.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/density-functional-theory-dft.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/density-functional-theory-dft.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/fick-s-laws-of-diffusion.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/fick-s-laws-of-diffusion.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/general-equilibrium-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/general-equilibrium-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/input-output-modeling-iom.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/input-output-modeling-iom.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/lotka-volterra.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/lotka-volterra.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/am-gm-inequality.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/am-gm-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/banach-fixed-point-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/banach-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/brouwer-fixed-point-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/brouwer-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/cauchy-schwarz-inequality.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/cauchy-schwarz-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/cayley-hamilton-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/cayley-hamilton-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/chebyshev-s-inequality.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/chebyshev-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/de-moivres-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/de-moivres-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/divergence-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/divergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/euclids-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/euclids-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/fubinis-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/fubinis-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/fundamental-theorem-of-calculus-ftc.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/fundamental-theorem-of-calculus-ftc.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/fundamental-theory-of-algebra.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/fundamental-theory-of-algebra.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/gradient-descent-convergence-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/gradient-descent-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/gradient-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/gradient-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/green-s-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/green-s-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/greens-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/greens-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/hahn-banach-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/hahn-banach-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/heine-borel-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/heine-borel-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/intermediate-value-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/intermediate-value-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/inverse-function-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/inverse-function-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/jensen-s-inequality.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/jensen-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/l-hopital-s-rule.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/l-hopital-s-rule.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/lebesgues-dominated-convergence-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/lebesgues-dominated-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/mean-value-theorem-mvt.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/mean-value-theorem-mvt.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/noethers-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/noethers-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/perceptron-convergence-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/perceptron-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/rieszfrechet-representation-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/rieszfrechet-representation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/schurs-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/schurs-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/stokes-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/stokes-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/taylors-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/taylors-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/the-weierstrass-approximation-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/the-weierstrass-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/universal-approximation-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/construction/universal-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/molecular-orbital-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/molecular-orbital-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mori-zwanzig-formalism.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/mori-zwanzig-formalism.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/navierstokes-equations.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/navierstokes-equations.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/observational/central-limit-theorem-clt.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/central-limit-theorem-clt.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/observational/cramerrao-lower-bound-crlb.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/cramerrao-lower-bound-crlb.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/observational/glivenkocantelli-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/glivenkocantelli-theorem.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/observational/law-of-large-number.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/law-of-large-number.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/observational/law-of-the-iterated-logarithm.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/law-of-the-iterated-logarithm.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/phase-field-model.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/phase-field-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/state-space-model.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/state-space-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/epistemic/discipline/agricultural-science.md",
   "logs": [
    {
@@ -1860,6 +2390,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -1985,6 +2520,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -2698,6 +3238,26 @@
     "kind": "refactor",
     "summary": "Move from epistemica/guidance/preferential-attachment.md to epistemica/epistemic/guidance/preferential-attachment.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/guidance/principle.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/principle.md: a principle is guidance for inquiry, so it is filed with the other principles rather than as a general element."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/guidance/principle/compositionality.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/construction/principle/compositionality.md: a principle guides inquiry, so it is filed with the other principles rather than as a general element."
    }
   ]
  },
@@ -9258,6 +9818,11 @@
     "summary": "Retarget the normalization and factorization links to mathematical/method/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the note that division is relative — it expresses a relationship between two quantities — and a History section."
    }
   ]
  },
@@ -9310,6 +9875,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the fraction-compatibility question and its answer: what comparability of two fractions requires, worked on a common-denominator case."
    }
   ]
  },
@@ -10533,6 +11103,11 @@
     "summary": "Retarget the Coordinate System link to mathematical/geometry/coordinate-system.md.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -11657,6 +12232,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -12229,6 +12809,11 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "Fill the Symmetry stub: definition as the stabilizer subgroup, the Line of Symmetry section (reflection formula, folding test, the axis counts and the one-centre fact), the four isometries, the finite planar symmetry groups and the figure-to-group taxonomy."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -12904,6 +13489,316 @@
     "kind": "docs",
     "summary": "Retarget the scope links after the measurement/ rename.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/data-based-modeling-dbm.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/data-based-modeling-dbm.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/data-collection.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/data-collection.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/dataset/patent.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/patent.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/asch-conformity-experiments.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/asch-conformity-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/bell-test.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/bell-test.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/boseeinstein-condensate.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/boseeinstein-condensate.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/davissongermer-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/davissongermer-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/discovery-of-penicillin.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-penicillin.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/discovery-of-the-higgs-boson.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-the-higgs-boson.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/double-slit-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/double-slit-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/einsteinpodolskyrosen-paradox.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/einsteinpodolskyrosen-paradox.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/franckhertz-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/franckhertz-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/laws-of-motion-and-universal-gravitation.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/laws-of-motion-and-universal-gravitation.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/michelson-morley-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/michelson-morley-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/observation-of-cells.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/observation-of-cells.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/piagets-conservation-task.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/piagets-conservation-task.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/quantum-eraser-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-eraser-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/quantum-teleportation.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-teleportation.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/quantum-zeno-effect.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-zeno-effect.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/rutherford-scattering-experiments.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/rutherford-scattering-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/sterngerlach-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/sterngerlach-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/telescopic-observations.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/telescopic-observations.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/the-bobo-doll-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-bobo-doll-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/the-little-albert-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-little-albert-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/the-marshmallow-test.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-marshmallow-test.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experiment/wheeler-s-delayed-choice-experiment.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/wheeler-s-delayed-choice-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experimental-design.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/data/experimental-design.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/experimental-method.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/experimental-method/experimental-method.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observation/optogenetics.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/experimental-method/optogenetics.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -16818,6 +17713,11 @@
     "summary": "Repoint the Inequality reference at the new relation/ scope.",
     "commit": "7cb6662c42ccbb0049ddc5042060d5707f7450c1",
     "before": "16178b850430c8114eb8bff72755618ae1cc5dbd"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -17480,6 +18380,16 @@
   ]
  },
  {
+  "file_path": "epistemica/observational/statistical-function.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/statistical-function.md: an operator family is not a result, so it returns to the observational root."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/observational/statistics.md",
   "logs": [
    {
@@ -17563,6 +18473,16 @@
     "kind": "feat",
     "summary": "Import Theory of Probability from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/theory-of-statistics.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/construction/theory-of-statistics.md: a framework overview of the field is about the constructions, not one of them, so it returns to the observational root."
    }
   ]
  },
@@ -18298,6 +19218,11 @@
     "kind": "docs",
     "summary": "Narrow the note to the quantitative branch: nominal and ordinal are classes of measurement, not levels of quantification, so the nominal and ordinal convention rows move out, the table re-roots at measurement with a scale grouping carrying the three classes, the intro gains the genus, and the malformed front-matter questions are rewritten.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Fill the quantification note: the structure of a quantification scheme, its evaluation, a case study, and the properties attributable to observables, including the non-additive case."
    }
   ]
  },
@@ -20156,6 +21081,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/science.md to epistemica/singular/science.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -24682,6 +25612,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -27989,6 +28924,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -29412,6 +30352,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -30726,6 +31671,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -36271,6 +37221,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/nervous-system-regulation.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -41397,6 +42352,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -45912,6 +46872,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -46056,6 +47021,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -47883,6 +48853,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -47967,6 +48942,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -48953,6 +49933,16 @@
   ]
  },
  {
+  "file_path": "personal/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Open the personal section with its readme."
+   }
+  ]
+ },
+ {
   "file_path": "philosophia-artium-epistemicarum-et-operis.md",
   "logs": [
    {
@@ -48983,6 +49973,11 @@
     "kind": "refactor",
     "summary": "Move out of notes/meta/ to the corpus root: the meta shelf is dissolved and the guides sit at the level of the sections.",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -49244,6 +50239,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -49467,6 +50467,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/memorial/a-model-of-research-commercial-university.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the institutional names and the Grande École reference list."
    }
   ]
  },
@@ -49816,6 +50826,16 @@
     "kind": "feat",
     "summary": "add Soviet political leader persona note",
     "commit": "9b51f58b16f929de3bf3a4be73c92c7d1ef24e1e"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/alfonso-luis-bravo-juega.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
    }
   ]
  },
@@ -51203,6 +52223,16 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/private/persona/robert-wade.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/private/persona/rosa-luxemburg.md",
   "logs": [
    {
@@ -52098,6 +53128,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/swe/sweden.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the history of Swedish machine-production industry."
    }
   ]
  },
@@ -54004,6 +55044,16 @@
   ]
  },
  {
+  "file_path": "social/problem/dimension/regulation/merit.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Normalise the title heading."
+   }
+  ]
+ },
+ {
   "file_path": "social/problem/policy-problem.md",
   "logs": [
    {
@@ -55063,6 +56113,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -80839,6 +81894,11 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "New Biosensor note: a Production Instrument readable as a Production Technical System, decomposed into bioreceptor, transducer, signal conditioning, fluidics and housing, with its metrological parameters and standards."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -81867,6 +82927,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -81886,6 +82951,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
    }
   ]
  },
@@ -86537,6 +87607,11 @@
     "kind": "docs",
     "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
     "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment."
    }
   ]
  },
@@ -86702,6 +87777,11 @@
     "kind": "move",
     "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract.",
     "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the definition line: a nerve as a biological communication highway carrying many signal-conducting fibres."
    }
   ]
  },

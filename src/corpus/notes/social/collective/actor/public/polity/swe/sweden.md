@@ -251,6 +251,10 @@ Would you like details on a specific STU-funded project or how it compares to mo
 - [ ]  NUTEK **(1991–2009)**
 - [ ]  https://sv.wikipedia.org/wiki/Styrelsen_f%C3%B6r_teknisk_utveckling
 
+## History of Sweden Machine Production Industry
+
+> ...
+
 ## References
 
 - Erixon, Lennart. "The golden age of the Swedish model." *Manuscript, Department of Economics, Stockholm University* (1996).
@@ -265,3 +269,7 @@ Would you like details on a specific STU-funded project or how it compares to mo
 - [List of companies of Sweden](https://en.wikipedia.org/wiki/List_of_companies_of_Sweden)
 - https://en.wikipedia.org/wiki/Wallenberg_family
 - https://en.wikipedia.org/wiki/Privy_Council_of_Sweden
+- Geoffrey D. Gooch and Reinhold Castensson (1991), The Transfer of Technology from Great Britain to Sweden, 1825–1850.
+- Hamark, J. and Prado, S., ‘ Modifying the success story of Sweden: Revised output and labour productivity figures for manufacturing, 1869–1950’, Economic History Review, 78 (2025), pp. 113–151. https://doi.org/10.1111/ehr.13332
+- https://sv.wikipedia.org/wiki/Jernkontoret  (Early R&D Patron)
+- 

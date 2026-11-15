@@ -15,7 +15,7 @@ order: 0
 
 > The method scope of experimental science: the routines by which a system is made to yield observations, gathered as one catalogue and filed by **what the routine does to the system** — impose a state, remove a part, read a state without imposing one, or prepare the system so that any of the three can be done at all.
 
-> The corpus divides the work along this boundary. The material side stays in [data collection](/view.html?p=notes/epistemica/data/data-collection.md): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/data/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/data/natural-science-data-collection-experimentation.csv). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
+> The corpus divides the work along this boundary. The material side stays in [data collection](/view.html?p=notes/epistemica/observation/data-collection.md): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/observation/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/observation/experiment.csv). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
 
 > A method prescribes acts and never contains them. The bearer of a method is an activity — one run, one session, one campaign — and the acts are recorded on the activity's node, not on the method's. That is why one method appears under many activities, and why an experiment is not a method: the *Michelson–Morley experiment* is a dated activity, *interferometry* is the routine it applied.
 
@@ -31,13 +31,13 @@ order: 0
 
 > Yes, in five ways the decomposition keeps apart.
 
-> Against a **design**: the design decides which condition is applied to which unit, in what order and how many times — the [experimental-design](/view.html?p=notes/epistemica/data/experimental-design.md) note owns it. The method decides how a condition is made to hold once the design has placed it. A badly designed good method and a well-designed bad method fail differently.
+> Against a **design**: the design decides which condition is applied to which unit, in what order and how many times — the [experimental-design](/view.html?p=notes/epistemica/observation/experimental-design.md) note owns it. The method decides how a condition is made to hold once the design has placed it. A badly designed good method and a well-designed bad method fail differently.
 
 > Against an **instrument**: the microscope, the laser and the electrode are `Epistemic Tool`s, carried under the infrastructure lane. The method is the order of acts that works through them; changing the instrument does not change the method, changing the order of acts does.
 
-> Against a **case**: an experiment is a dated instance with its own history, accident and interpretation. The corpus keeps those separately, in the [natural-science collection](/corpus/notes/epistemica/data/natural-science-data-collection-experimentation.csv), and this scope keeps what recurs across them.
+> Against a **case**: an experiment is a dated instance with its own history, accident and interpretation. The corpus keeps those separately, in the [natural-science collection](/corpus/notes/epistemica/observation/experiment.csv), and this scope keeps what recurs across them.
 
-> Against a **principle**: a principle directs inquiry without prescribing an order of acts — *strong inference* says to devise alternative hypotheses and kill them, while the control condition that makes the killing possible is a standard of the method. The [principle scope](/view.html?p=notes/epistemica/principle.md) owns the directives; this scope owns the routines that satisfy them.
+> Against a **principle**: a principle directs inquiry without prescribing an order of acts — *strong inference* says to devise alternative hypotheses and kill them, while the control condition that makes the killing possible is a standard of the method. The [principle scope](/view.html?p=notes/epistemica/epistemic/guidance/principle.md) owns the directives; this scope owns the routines that satisfy them.
 
 > Against a **technical practice**: the same routine, read as a way of producing an effect rather than of learning one, belongs to the technica corpus as a `Technique`. Optogenetics is the clean case — a biotechnical technique there, an epistemic method here — and the two notes decompose the same activity along different axes: the device chain there, the order of inquiry acts here.
 
@@ -56,7 +56,7 @@ order: 0
 | `Aggregate` → Experimental Method Set | The catalogue of the routines by which a system is made to yield observations on purpose. |
 | `Aggregate` → Experimental Method Set → `Epistemic Method` | Grouping: the routines themselves, filed by what each does to the system under study. |
 | `Aggregate` → Experimental Method Set → `Epistemic Method` → Perturbation Method | Grouping: routines that impose a state on a defined part of the system. |
-| `Aggregate` → Experimental Method Set → `Epistemic Method` → Perturbation Method → [Optogenetics](/view.html?p=notes/epistemica/experimental-method/optogenetics.md) | Drive or silence a genetically named cell population with light; the perturbation is specific in cell type and precise in time. |
+| `Aggregate` → Experimental Method Set → `Epistemic Method` → Perturbation Method → [Optogenetics](/view.html?p=notes/epistemica/observation/optogenetics.md) | Drive or silence a genetically named cell population with light; the perturbation is specific in cell type and precise in time. |
 | `Aggregate` → Experimental Method Set → `Epistemic Method` → Perturbation Method → Chemogenetic Method | Impose a state by a designer receptor activated by an inert ligand; slower and more diffuse than light, but durable and less invasive. |
 | `Aggregate` → Experimental Method Set → `Epistemic Method` → Perturbation Method → Genetic Perturbation Screen | Remove or force the expression of genes across a library of targets and read which ones change the phenotype. |
 | `Aggregate` → Experimental Method Set → `Epistemic Method` → Stimulation Method | Grouping: routines that excite tissue without naming which cells inside it are driven. |
@@ -118,9 +118,9 @@ order: 0
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Data Collection](/view.html?p=notes/epistemica/data/data-collection.md) — the inventory of collection techniques this scope's routines produce material for.
-- [Experimental Design](/view.html?p=notes/epistemica/data/experimental-design.md) — the allocation of conditions, which this scope does not own.
-- [Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/data/natural-science-data-collection-experimentation.csv) — the dated cases the routines recur across.
+- [Data Collection](/view.html?p=notes/epistemica/observation/data-collection.md) — the inventory of collection techniques this scope's routines produce material for.
+- [Experimental Design](/view.html?p=notes/epistemica/observation/experimental-design.md) — the allocation of conditions, which this scope does not own.
+- [Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/observation/experiment.csv) — the dated cases the routines recur across.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) and [Do-Calculus](/view.html?p=notes/epistemica/causality/do-calculus.md) — the identification reading of an intervention.
 - [Biological Sciences](/view.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) — the practice that carries most of these routines.
 - Hacking, I. (1983). *Representing and Intervening: Introductory Topics in the Philosophy of Natural Science*. Cambridge University Press.
@@ -131,7 +131,7 @@ order: 0
 
 ## Related
 
-- [Optogenetics](/view.html?p=notes/epistemica/experimental-method/optogenetics.md) — the perturbation exemplar: the first method note in this scope.
+- [Optogenetics](/view.html?p=notes/epistemica/observation/optogenetics.md) — the perturbation exemplar: the first method note in this scope.
 - [Mathematical Method](/view.html?p=notes/epistemica/mathematical/method/method.md) — the sibling scope note, filed by what the routine does to the problem.
-- [Experimental Design](/view.html?p=notes/epistemica/data/experimental-design.md) — the design side of the same boundary.
+- [Experimental Design](/view.html?p=notes/epistemica/observation/experimental-design.md) — the design side of the same boundary.
 - [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) — instrument calibration, which readies a method's implements without being one.

@@ -8,6 +8,11 @@ tags: [note]
 
 > The new type of institution will be called `Tecnosis`.
 
+Names:
+- (General Mark) Universitas (Particlal Mark) Paris.
+- (General Mark) Tecnosis    (Santo Domingo) Paris.
+- ENS 
+
 ## Goal
 
 > What are the goals of the new institutional design?
@@ -131,3 +136,8 @@ tags: [note]
 - [Research university](https://en.wikipedia.org/wiki/Research_university)
 - [Hebrew University - Technology Transfer Company](https://www.yissum.co.il/)
 - [Governing boards of colleges and universities in the United States](https://en.wikipedia.org/wiki/Governing_boards_of_colleges_and_universities_in_the_United_States)
+- [Grande École](https://en.wikipedia.org/wiki/Grande_%C3%A9cole)
+- [...](...)
+
+
+

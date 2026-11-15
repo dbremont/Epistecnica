@@ -19,7 +19,7 @@ Technical Element Set
 └── Food Production Technical Domain (bounded field: organism → harvestable food product)
 ```
 
-It is a set rather than a `Production Technical System` because it owns no plant, no herd, and no line: the members own those, and what this scope adds is the family and its boundary. That is the same move as the [Technical Core Catalog](/view.html?p=notes/technica/general/cto/industry/technical-core-catalog.md), which is the corpus's existing precedent for a set whose members are themselves sets; here the member family is the primary-production techniques rather than the transformation domains.
+It is a set rather than a `Production Technical System` because it owns no plant, no herd, and no line: the members own those, and what this scope adds is the family and its boundary. That is the same move as the technical core catalog, which is the corpus's existing precedent for a set whose members are themselves sets; here the member family is the primary-production techniques rather than the transformation domains.
 
 The `Technical Element Set` grouping below the root is admitted by the No-repetition exception: it scopes the instance family of the six member sets that would otherwise hang untyped off the root's own segment, and it appears exactly once. Composite members take the `Set` suffix at this depth. No row below carries two types.
 
@@ -84,7 +84,7 @@ Lineage: foraging and domestication → selection without theory → controlled 
 ## References
 
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md) (decomposition schema; No-repetition and Composite Instance Naming rules; recursion rule for composites)
-- [Technical Core Catalog](/view.html?p=notes/technica/general/cto/industry/technical-core-catalog.md) (the corpus precedent for a set whose members are sets)
+- technical core catalog (the corpus precedent for a set whose members are sets)
 - Members: [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md) · [Plant Genetic Improvement](/view.html?p=notes/technica/general/cto/es/multinode/plant-genetic-improvement.md) · [Plant Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/plant-health-technical-set.md) · [Dairy Production](/view.html?p=notes/technica/general/cto/industry/dairy-production.md) · [Meat Production](/view.html?p=notes/technica/general/cto/industry/meat-production.md) · [Seafood Production](/view.html?p=notes/technica/general/cto/industry/seafood-production.md)
 - Animal-side depth: [Dairy Husbandry Set](/view.html?p=notes/technica/general/cto/es/multinode/dairy-husbandry.md) · [Animal Husbandry Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-husbandry-technical-set.md) · [Livestock Breeding And Genetics Set](/view.html?p=notes/technica/general/cto/es/multinode/livestock-breeding-and-genetics.md) · [Animal Health Technical Set](/view.html?p=notes/technica/general/cto/es/multinode/animal-health-technical-set.md) (the husbandry, breeding, and health decompositions beneath the Dairy/Meat/Seafood seed members)
 - Boundary: Food Value Chain (the post-harvest half, deliberately not contained; note removed) · Agriculture Production (the sector frame, deliberately not a member; note removed)

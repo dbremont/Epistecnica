@@ -116,7 +116,7 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `swe-productivity`, `problematization`, …). The root keeps the domain
   catalogues, the master `ees.md`, and the general forms such as
   `production-function`.
-- The construction scope lives in `epistemica/construction/`: the named
+- The construction scope lives in `epistemica/epistemic/construction/`: the named
   constructions — the theories, laws, and models stated about particular
   systems (Navier–Stokes, Fick's laws, Lotka–Volterra, general equilibrium,
   DFT, molecular-orbital theory, the Mori–Zwanzig formalism, …) — split out of

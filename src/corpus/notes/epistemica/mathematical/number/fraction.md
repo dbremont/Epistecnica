@@ -4,6 +4,7 @@ qa:
   - "Which are the types of fractions: proper, improper, mixed, unit, decimal, complex, continued, algebraic?"
   - "Is a fraction a number or an expression?"
   - "Why can the denominator never be zero?"
+  - Does an improper fraction have any physical meaning?
 ---
 
 # Fraction
@@ -201,6 +202,12 @@ qa:
 > **Relationship :** Because it describes how two quantities compare or correspond to each other.
 
 > Division expresses a multiplicative relationship (ratio) between quantities, rather than their additive difference.
+
+### What is fraction compatibility?
+
+> **Fraction compatibility** is the degree to which two or more fractions can be meaningfully compared, combined, or operated on under the same mathematical conditions.
+
+> 1/4 + 1/2` — the fractions initially have different denominators; to make them compatible for addition, convert them to a common denominator: `1/4 + 2/4 = 3/4`.
 
 ## References
 

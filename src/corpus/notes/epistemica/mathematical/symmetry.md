@@ -74,7 +74,7 @@ For a bounded figure in the plane, the symmetry group is always finite and alway
 | $C_n$ | $n$ rotations | a pinwheel, a swastika-like figure with no reflection axis |
 | $D_n$ | $n$ rotations and $n$ reflections | regular $n$-gon, equilateral and isosceles triangles ($n = 3$, $n = 1$), square ($n = 4$) |
 
-So the classification of a figure's symmetry is the classification of its group: *what subgroup of the isometries fixes it*. The algebraic treatment of these groups is in [Symmetry Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md); the physical use of invariance — conservation laws, gauge symmetry — is the separate reading in [Symmetry (natural)](/view.html?p=notes/nature/symmetry.md), and the symmetric reduction of a problem by exploiting its symmetries is [Symmetry Reduction](/view.html?p=notes/epistemica/mathematical/method/reduction/symmetry-reduction.md).
+So the classification of a figure's symmetry is the classification of its group: *what subgroup of the isometries fixes it*. The algebraic treatment of these groups is in [Symmetry Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md); the physical use of invariance — conservation laws, gauge symmetry — is the separate reading in [Gauge Symmetry](/view.html?p=notes/nature/gauge-symmetry.md), and the symmetric reduction of a problem by exploiting its symmetries is [Symmetry Reduction](/view.html?p=notes/epistemica/mathematical/method/reduction/symmetry-reduction.md).
 
 ## Taxonomy
 

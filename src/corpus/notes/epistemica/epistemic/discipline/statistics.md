@@ -477,7 +477,7 @@ design and the honesty of the reader.
 > What inferences can we make from a statistical representation or from raw pieces of reality? What are the tools used to make these inferences?
 > 
 
-> See [Problem Space](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md), [Statistical Function](/view.html?p=notes/epistemica/observational/construction/statistical-function.md),  [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md), …
+> See [Problem Space](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md), [Statistical Function](/view.html?p=notes/epistemica/observational/statistical-function.md),  [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md), …
 > 
 
 | **Category** | **Inference** | **Description** |
@@ -495,7 +495,7 @@ design and the honesty of the reader.
 
 ### Description
 
-> See more in [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and [Statistical Function](/view.html?p=notes/epistemica/observational/construction/statistical-function.md).
+> See more in [(Statistic) Estimator](/view.html?p=notes/epistemica/observational/estimator/statistic-estimator.md) and [Statistical Function](/view.html?p=notes/epistemica/observational/statistical-function.md).
 > 
 
 ### Principle
@@ -683,7 +683,7 @@ design and the honesty of the reader.
 > What is the theoretical grounding of statistics? When should a **statistical procedure** be used?
 > 
 
-> See more in [Theory of Statistics](/view.html?p=notes/epistemica/observational/construction/theory-of-statistics.md) and [Theory of Probability](/view.html?p=notes/epistemica/observational/probability/theory-of-probability.md).
+> See more in [Theory of Statistics](/view.html?p=notes/epistemica/observational/theory-of-statistics.md) and [Theory of Probability](/view.html?p=notes/epistemica/observational/probability/theory-of-probability.md).
 > 
 
 ### Induction

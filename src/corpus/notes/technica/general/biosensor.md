@@ -21,7 +21,7 @@ Technical Element
 
 It is readable as a `Production Technical System` when the bioreceptor, the transducer, the fluidics and the signal chain are taken together as the organized set whose interaction realizes the measurement capability, and in that reading the rows below grow under a **Biosensor System**.
 
-It is **not** a natural system: a biosensor has no autopoiesis, no metabolism and no homeostasis — its "recognition" is a binding affinity, not a living process. It is **not** the biological element it borrows: the enzyme, antibody or aptamer is read under the naturalis grammar and linked out, not re-typed here. It is **not** the sensing phenomenon itself: binding affinity and electron transfer are `Interaction-Derived Quantities`, carried by the instrument, and the note describing the biological side is [Biochemical Sensors](/view.html?p=notes/nature/bio/molecular/biochemical-sensors.md).
+It is **not** a natural system: a biosensor has no autopoiesis, no metabolism and no homeostasis — its "recognition" is a binding affinity, not a living process. It is **not** the biological element it borrows: the enzyme, antibody or aptamer is read under the naturalis grammar and linked out, not re-typed here. It is **not** the sensing phenomenon itself: binding affinity and electron transfer are `Interaction-Derived Quantities`, carried by the instrument, and the note describing the biological side is biochemical sensors.
 
 ### What is this technical instance?
 
@@ -77,7 +77,7 @@ The concept under evaluation is **Biosensor**, defined above as *an analytical i
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Living System](/view.html?p=notes/nature/bio/organism/living-system.md) — the natural element the instrument is built on
-- [Biochemical Sensors](/view.html?p=notes/nature/bio/molecular/biochemical-sensors.md) — the sensing interaction, read naturally
+- biochemical sensors — the sensing interaction, read naturally
 - [Protein](/view.html?p=notes/nature/bio/molecular/protein.md) — the recognition element's material in most instruments
 - [Metrology Services Set](/view.html?p=notes/technica/general/cto/industry/metrology-services.md) — the traceability domain the calibration sits in
 - [Technica Atlas](/corpus/notes/technica/atlas.html) — the forest this decomposition feeds
