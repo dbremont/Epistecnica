@@ -1294,7 +1294,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/branching-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/branching-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1304,7 +1305,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/construction.md: it defines what a construction is rather than being one, so it becomes the family's type note."
+    "summary": "Move from epistemica/mathematical/construction/construction.md: it defines what a construction is rather than being one, so it becomes the family's type note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1314,7 +1316,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/density-functional-theory-dft-2.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/density-functional-theory-dft-2.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1324,7 +1327,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/density-functional-theory-dft.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/density-functional-theory-dft.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1334,7 +1338,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/fick-s-laws-of-diffusion.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/fick-s-laws-of-diffusion.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1344,7 +1349,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/general-equilibrium-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/general-equilibrium-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1354,7 +1360,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/input-output-modeling-iom.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/input-output-modeling-iom.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1364,7 +1371,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/lotka-volterra.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/lotka-volterra.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1374,7 +1382,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/am-gm-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/am-gm-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1384,7 +1393,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/banach-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/banach-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1394,7 +1404,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/brouwer-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/brouwer-fixed-point-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1404,7 +1415,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/cauchy-schwarz-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/cauchy-schwarz-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1414,7 +1426,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/cayley-hamilton-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/cayley-hamilton-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1424,7 +1437,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/chebyshev-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/chebyshev-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1434,7 +1448,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/de-moivres-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/de-moivres-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1444,7 +1459,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/divergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/divergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1454,7 +1470,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/euclids-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/euclids-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1464,7 +1481,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/fubinis-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/fubinis-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1474,7 +1492,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/fundamental-theorem-of-calculus-ftc.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/fundamental-theorem-of-calculus-ftc.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1484,7 +1503,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/fundamental-theory-of-algebra.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/fundamental-theory-of-algebra.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1494,7 +1514,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/gradient-descent-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/gradient-descent-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1504,7 +1525,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/gradient-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/gradient-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1514,7 +1536,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/green-s-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/green-s-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1524,7 +1547,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/greens-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/greens-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1534,7 +1558,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/hahn-banach-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/hahn-banach-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1544,7 +1569,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/heine-borel-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/heine-borel-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1554,7 +1580,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/intermediate-value-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/intermediate-value-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1564,7 +1591,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/inverse-function-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/inverse-function-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1574,7 +1602,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/jensen-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/jensen-s-inequality.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1584,7 +1613,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/l-hopital-s-rule.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/l-hopital-s-rule.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1594,7 +1624,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/lebesgues-dominated-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/lebesgues-dominated-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1604,7 +1635,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/mean-value-theorem-mvt.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/mean-value-theorem-mvt.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1614,7 +1646,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/noethers-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/noethers-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1624,7 +1657,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/perceptron-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/perceptron-convergence-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1634,7 +1668,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/rieszfrechet-representation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/rieszfrechet-representation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1644,7 +1679,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/schurs-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/schurs-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1654,7 +1690,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/stokes-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/stokes-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1664,7 +1701,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/taylors-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/taylors-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1674,7 +1712,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/the-weierstrass-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/the-weierstrass-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1684,7 +1723,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/construction/universal-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them."
+    "summary": "Move from epistemica/mathematical/construction/universal-approximation-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1694,7 +1734,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/molecular-orbital-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/molecular-orbital-theory.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1704,7 +1745,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/mori-zwanzig-formalism.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/mori-zwanzig-formalism.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1714,7 +1756,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/navierstokes-equations.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/navierstokes-equations.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1724,7 +1767,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/central-limit-theorem-clt.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+    "summary": "Move from epistemica/observational/construction/central-limit-theorem-clt.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1734,7 +1778,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/cramerrao-lower-bound-crlb.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+    "summary": "Move from epistemica/observational/construction/cramerrao-lower-bound-crlb.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1744,7 +1789,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/glivenkocantelli-theorem.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+    "summary": "Move from epistemica/observational/construction/glivenkocantelli-theorem.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1754,7 +1800,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/law-of-large-number.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+    "summary": "Move from epistemica/observational/construction/law-of-large-number.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1764,7 +1811,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/law-of-the-iterated-logarithm.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them."
+    "summary": "Move from epistemica/observational/construction/law-of-the-iterated-logarithm.md: the asymptotic results are constructions like any other, filed with them rather than under the scope that derives them.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1774,7 +1822,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/phase-field-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/phase-field-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -1784,7 +1833,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/state-space-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together."
+    "summary": "Move from epistemica/construction/state-space-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -2394,7 +2444,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -2524,7 +2576,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -3247,7 +3301,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/principle.md: a principle is guidance for inquiry, so it is filed with the other principles rather than as a general element."
+    "summary": "Move from epistemica/principle.md: a principle is guidance for inquiry, so it is filed with the other principles rather than as a general element.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -3257,7 +3312,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/construction/principle/compositionality.md: a principle guides inquiry, so it is filed with the other principles rather than as a general element."
+    "summary": "Move from epistemica/construction/principle/compositionality.md: a principle guides inquiry, so it is filed with the other principles rather than as a general element.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -9822,7 +9878,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the note that division is relative — it expresses a relationship between two quantities — and a History section."
+    "summary": "Add the note that division is relative — it expresses a relationship between two quantities — and a History section.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -9862,7 +9920,9 @@
    {
     "date": "2026-11-10",
     "kind": "fix",
-    "summary": "Move the improper-fraction figure into the shared asset store and rewrite both figure references as viewer-relative ../assets/ paths."
+    "summary": "Move the improper-fraction figure into the shared asset store and rewrite both figure references as viewer-relative ../assets/ paths.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -9879,7 +9939,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the fraction-compatibility question and its answer: what comparability of two fractions requires, worked on a common-denominator case."
+    "summary": "Add the fraction-compatibility question and its answer: what comparability of two fractions requires, worked on a common-denominator case.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -11107,7 +11169,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -12236,7 +12300,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -12813,7 +12879,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -13498,7 +13566,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/data-based-modeling-dbm.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+    "summary": "Move from epistemica/data/data-based-modeling-dbm.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13513,7 +13582,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13523,7 +13593,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/patent.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf."
+    "summary": "Move from epistemica/data/patent.md: the collection inventory, the design, the dated cases and the routines that produce them are one observation scope, not a separate data shelf.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13533,7 +13604,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/asch-conformity-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/asch-conformity-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13543,7 +13615,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/bell-test.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/bell-test.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13553,7 +13626,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/boseeinstein-condensate.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/boseeinstein-condensate.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13563,7 +13637,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/davissongermer-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/davissongermer-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13573,7 +13648,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-penicillin.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-penicillin.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13583,7 +13659,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-the-higgs-boson.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/discovery-of-the-higgs-boson.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13593,7 +13670,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/double-slit-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/double-slit-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13603,7 +13681,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/einsteinpodolskyrosen-paradox.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/einsteinpodolskyrosen-paradox.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13613,7 +13692,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/franckhertz-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/franckhertz-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13623,7 +13703,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/laws-of-motion-and-universal-gravitation.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/laws-of-motion-and-universal-gravitation.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13633,7 +13714,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/michelson-morley-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/michelson-morley-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13643,7 +13725,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/observation-of-cells.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/observation-of-cells.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13653,7 +13736,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/piagets-conservation-task.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/piagets-conservation-task.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13663,7 +13747,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-eraser-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-eraser-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13673,7 +13758,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-teleportation.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-teleportation.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13683,7 +13769,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-zeno-effect.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/quantum-zeno-effect.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13693,7 +13780,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/rutherford-scattering-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/rutherford-scattering-experiments.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13703,7 +13791,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/sterngerlach-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/sterngerlach-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13713,7 +13802,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/telescopic-observations.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/telescopic-observations.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13723,7 +13813,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-bobo-doll-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-bobo-doll-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13733,7 +13824,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-little-albert-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-little-albert-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13743,7 +13835,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-marshmallow-test.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/the-marshmallow-test.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13753,7 +13846,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/wheeler-s-delayed-choice-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope."
+    "summary": "Move from epistemica/data/natural-science-data-collection-experimentation/wheeler-s-delayed-choice-experiment.md: the dated case sits beside the routines that produce it, in the same observation scope.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13768,7 +13862,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13783,7 +13878,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -13798,7 +13894,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -17717,7 +17814,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -18385,7 +18484,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/statistical-function.md: an operator family is not a result, so it returns to the observational root."
+    "summary": "Move from epistemica/observational/construction/statistical-function.md: an operator family is not a result, so it returns to the observational root.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -18482,7 +18582,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/observational/construction/theory-of-statistics.md: a framework overview of the field is about the constructions, not one of them, so it returns to the observational root."
+    "summary": "Move from epistemica/observational/construction/theory-of-statistics.md: a framework overview of the field is about the constructions, not one of them, so it returns to the observational root.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -19222,7 +19323,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Fill the quantification note: the structure of a quantification scheme, its evaluation, a case study, and the properties attributable to observables, including the non-additive case."
+    "summary": "Fill the quantification note: the structure of a quantification scheme, its evaluation, a case study, and the properties attributable to observables, including the non-additive case.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -21085,7 +21188,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -25616,7 +25721,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -28928,7 +29035,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -30356,7 +30465,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -31675,7 +31786,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -37225,7 +37338,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -42356,7 +42471,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -46876,7 +46993,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -47025,7 +47144,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -48857,7 +48978,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -48946,7 +49069,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -49938,7 +50063,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Open the personal section with its readme."
+    "summary": "Open the personal section with its readme.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
    }
   ]
  },
@@ -49977,7 +50103,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -50243,7 +50371,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -50476,7 +50606,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the institutional names and the Grande École reference list."
+    "summary": "Add the institutional names and the Grande École reference list.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -50835,7 +50967,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -52228,7 +52362,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note."
+    "summary": "Remove the note: retired in the corpus reorganisation, with no replacement note.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -53137,7 +53273,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the history of Swedish machine-production industry."
+    "summary": "Add the history of Swedish machine-production industry.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -55049,7 +55187,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Normalise the title heading."
+    "summary": "Normalise the title heading.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -56117,7 +56257,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -81898,7 +82040,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -82931,7 +83075,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -82955,7 +83101,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist."
+    "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -87611,7 +87759,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment."
+    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -87781,7 +87931,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the definition line: a nerve as a biological communication highway carrying many signal-conducting fibres."
+    "summary": "Add the definition line: a nerve as a biological communication highway carrying many signal-conducting fibres.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
