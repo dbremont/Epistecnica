@@ -1311,7 +1311,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Narrow the type note to constructions discharged by proof: the named theories and models leave the scope for the science scope, the boundary paragraph states the distinction, the note is retitled Construction, and the observational asymptotic results join the decomposition table."
+    "summary": "Narrow the type note to constructions discharged by proof: the named theories and models leave the scope for the science scope, the boundary paragraph states the distinction, the note is retitled Construction, and the observational asymptotic results join the decomposition table.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -1327,7 +1329,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the duplicate DFT note: its one paragraph on simulations folds into the main density functional theory note."
+    "summary": "Remove the duplicate DFT note: its one paragraph on simulations folds into the main density functional theory note.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -1838,7 +1842,9 @@
    {
     "date": "2026-11-14",
     "kind": "remove",
-    "summary": "Remove the stub: the phase-field model folds into the phase field method note in the science scope, which describes the technique it is integrated by."
+    "summary": "Remove the stub: the phase-field model folds into the phase field method note in the science scope, which describes the technique it is integrated by.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -11191,7 +11197,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Retarget the state-space model link after the note moved to the science scope."
+    "summary": "Retarget the state-space model link after the note moved to the science scope.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -17183,7 +17191,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Repair the branching model reference: the old relative link pointed at a retired science directory, so it now resolves to the note in the science scope."
+    "summary": "Repair the branching model reference: the old relative link pointed at a retired science directory, so it now resolves to the note in the science scope.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -19659,7 +19669,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/branching-model.md: the branching model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/branching-model.md: the branching model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -19903,7 +19914,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the simulation reading from the duplicate note: DFT simulations investigate the structure and properties of large molecules and materials."
+    "summary": "Add the simulation reading from the duplicate note: DFT simulations investigate the structure and properties of large molecules and materials.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20093,7 +20105,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/fick-s-laws-of-diffusion.md: Fick's laws of diffusion is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/fick-s-laws-of-diffusion.md: Fick's laws of diffusion is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20388,7 +20401,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/general-equilibrium-theory.md: general equilibrium theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/general-equilibrium-theory.md: general equilibrium theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20540,7 +20554,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/input-output-modeling-iom.md: input–output modeling is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/input-output-modeling-iom.md: input–output modeling is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20665,7 +20680,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/lotka-volterra.md: Lotka–Volterra is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/lotka-volterra.md: Lotka–Volterra is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20751,7 +20767,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/molecular-orbital-theory.md: molecular orbital theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/molecular-orbital-theory.md: molecular orbital theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20761,7 +20778,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/mori-zwanzig-formalism.md: the Mori–Zwanzig formalism is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/mori-zwanzig-formalism.md: the Mori–Zwanzig formalism is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20794,7 +20812,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/navierstokes-equations.md: Navier–Stokes equations is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/navierstokes-equations.md: Navier–Stokes equations is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -20965,7 +20984,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Add the phase-field model to the note: the continuous field the technique integrates, with the reference the separate stub carried."
+    "summary": "Add the phase-field model to the note: the continuous field the technique integrates, with the reference the separate stub carried.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -21320,7 +21341,9 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Read the scope in four parts with the named theories, laws and models filed here rather than in the construction scope: relabel the bullet, move seven links to their local paths, and add the input–output, branching and state-space notes."
+    "summary": "Read the scope in four parts with the named theories, laws and models filed here rather than in the construction scope: relabel the bullet, move seven links to their local paths, and add the input–output, branching and state-space notes.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
+    "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
    }
   ]
  },
@@ -21436,7 +21459,8 @@
    {
     "date": "2026-11-14",
     "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/state-space-model.md: the state-space model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+    "summary": "Move from epistemica/epistemic/construction/state-space-model.md: the state-space model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
