@@ -26547,7 +26547,9 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Fill the note: the Formulation now carries the schema questions that compose the graph (the functional definition, the Substance binding, the toxin/toxicant/venom ambiguity, the limitation factors) and the recursive decomposition of the toxin kind across source class, chemical class, mechanism class with reference compounds, properties and processes. Fills the toxin-space dimensions, the exemplar table, the stoichiometric-versus-catalytic mechanism table, the detection heuristic ladder, and a literature review across terminology, mechanism, source biology, dose and mixtures, detection, and repurposed toxins."
+    "summary": "Fill the note: the Formulation now carries the schema questions that compose the graph (the functional definition, the Substance binding, the toxin/toxicant/venom ambiguity, the limitation factors) and the recursive decomposition of the toxin kind across source class, chemical class, mechanism class with reference compounds, properties and processes. Fills the toxin-space dimensions, the exemplar table, the stoichiometric-versus-catalytic mechanism table, the detection heuristic ladder, and a literature review across terminology, mechanism, source biology, dose and mixtures, detection, and repurposed toxins.",
+    "commit": "db9d10ff66f979787731411252f3c7809e75d013",
+    "before": "7eb0409ec6c167f95298955e983753b65977d03e"
    }
   ]
  },
