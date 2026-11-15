@@ -116,11 +116,14 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `swe-productivity`, `problematization`, …). The root keeps the domain
   catalogues, the master `ees.md`, and the general forms such as
   `production-function`.
-- The construction scope lives in `epistemica/epistemic/construction/`: the named
-  constructions — the theories, laws, and models stated about particular
-  systems (Navier–Stokes, Fick's laws, Lotka–Volterra, general equilibrium,
-  DFT, molecular-orbital theory, the Mori–Zwanzig formalism, …) — split out of
-  the science scope.
+- The construction scope lives in `epistemica/epistemic/construction/`: the
+  results an inquiry discharges by proof — theorems and inequalities under
+  `mathematical/`, the asymptotic results under `observational/`, with
+  `construction.md` at the root as the family's type note. A named theory, law
+  or model of a particular system (Navier–Stokes, Fick's laws, DFT,
+  molecular-orbital theory, Lotka–Volterra, the Mori–Zwanzig formalism, …) is a
+  theoretical result rather than a construction and lives in the science scope,
+  `epistemica/singular/`.
 - The validation scope lives in `epistemica/validation/`: `validation.md`
   (master), `probability-model-validation.md`, `calibration.md`,
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,

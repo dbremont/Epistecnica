@@ -1307,6 +1307,11 @@
     "kind": "move",
     "summary": "Move from epistemica/mathematical/construction/construction.md: it defines what a construction is rather than being one, so it becomes the family's type note.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Narrow the type note to constructions discharged by proof: the named theories and models leave the scope for the science scope, the boundary paragraph states the distinction, the note is retitled Construction, and the observational asymptotic results join the decomposition table."
    }
   ]
  },
@@ -1318,6 +1323,11 @@
     "kind": "move",
     "summary": "Move from epistemica/construction/density-functional-theory-dft-2.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the duplicate DFT note: its one paragraph on simulations folds into the main density functional theory note."
    }
   ]
  },
@@ -1824,6 +1834,11 @@
     "kind": "move",
     "summary": "Move from epistemica/construction/phase-field-model.md: a construction is a result the inquiry leaves behind, and the constructions are filed together.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "remove",
+    "summary": "Remove the stub: the phase-field model folds into the phase field method note in the science scope, which describes the technique it is integrated by."
    }
   ]
  },
@@ -11172,6 +11187,11 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Retarget the state-space model link after the note moved to the science scope."
    }
   ]
  },
@@ -17159,6 +17179,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Repair the branching model reference: the old relative link pointed at a retired science directory, so it now resolves to the note in the science scope."
    }
   ]
  },
@@ -19629,6 +19654,16 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/branching-model.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/branching-model.md: the branching model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/chemical-space.md",
   "logs": [
    {
@@ -19858,6 +19893,21 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/density-functional-theory-dft.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/density-functional-theory-dft.md: density functional theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the simulation reading from the duplicate note: DFT simulations investigate the structure and properties of large molecules and materials."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/discrete-element-method-dem.md",
   "logs": [
    {
@@ -20034,6 +20084,16 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/fast-fourier-transform-fft.md to epistemica/singular/fast-fourier-transform-fft.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/fick-s-laws-of-diffusion.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/fick-s-laws-of-diffusion.md: Fick's laws of diffusion is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
    }
   ]
  },
@@ -20323,6 +20383,16 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/general-equilibrium-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/general-equilibrium-theory.md: general equilibrium theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/genetic-modelling.md",
   "logs": [
    {
@@ -20465,6 +20535,16 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/input-output-modeling-iom.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/input-output-modeling-iom.md: input–output modeling is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/kinetic-theory.md",
   "logs": [
    {
@@ -20580,6 +20660,16 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/lotka-volterra.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/lotka-volterra.md: Lotka–Volterra is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/material-space.md",
   "logs": [
    {
@@ -20656,6 +20746,26 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/molecular-orbital-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/molecular-orbital-theory.md: molecular orbital theory is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/mori-zwanzig-formalism.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/mori-zwanzig-formalism.md: the Mori–Zwanzig formalism is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/multibody-system.md",
   "logs": [
    {
@@ -20675,6 +20785,16 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/multibody-system.md to epistemica/singular/multibody-system.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/navierstokes-equations.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/navierstokes-equations.md: Navier–Stokes equations is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
    }
   ]
  },
@@ -20841,6 +20961,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/phase-field-method.md to epistemica/singular/phase-field-method.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the phase-field model to the note: the continuous field the technique integrates, with the reference the separate stub carried."
    }
   ]
  },
@@ -21191,6 +21316,11 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Read the scope in four parts with the named theories, laws and models filed here rather than in the construction scope: relabel the bullet, move seven links to their local paths, and add the input–output, branching and state-space notes."
    }
   ]
  },
@@ -21297,6 +21427,16 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/state-estimation.md to epistemica/singular/state-estimation.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/state-space-model.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/state-space-model.md: the state-space model is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with."
    }
   ]
  },

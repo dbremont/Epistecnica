@@ -243,7 +243,7 @@ tags: [note, mathematics, space]
 
 - [Phase Space](/view.html?p=notes/epistemica/singular/phase-space.md)
 - [Configuration Space](/view.html?p=notes/epistemica/singular/configuration-space.md)
-- [State-Space Models](/view.html?p=notes/epistemica/epistemic/construction/state-space-model.md)
+- [State-Space Models](/view.html?p=notes/epistemica/singular/state-space-model.md)
 - [Reference Frame](/view.html?p=notes/epistemica/singular/reference-frame.md)
 - [Quantum Framework](/view.html?p=notes/epistemica/singular/quantum-framework.md)
 - [Quantum Field Theory (QFT)](/view.html?p=notes/epistemica/singular/quantum-field-theory-qft.md)

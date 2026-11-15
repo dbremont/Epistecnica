@@ -173,15 +173,19 @@ frontend-facing surface in the deployment; there is no database behind it
   inside the branch that produced them. They live under
   `epistemica/epistemic/construction/`: `mathematical/` for theorems,
   inequalities and convergence results, `observational/` for the asymptotic
-  results (CLT, LLN, Glivenko–Cantelli, Crámer–Rao, LIL), and the root for the
-  cross-domain models and formalisms (branching, DFT, Fick, general
-  equilibrium, IOM, Lotka–Volterra, molecular orbital, Mori–Zwanzig,
-  Navier–Stokes, phase-field, state-space). `construction.md` is the root's
-  type note. A note that is *about* a construction rather than one of them —
-  a framework overview such as `observational/theory-of-statistics.md`, an
-  operator family such as `observational/statistical-function.md`, a principle
-  such as `epistemic/guidance/principle/compositionality.md` — stays out and
-  sits at the domain root or in the scope that owns its type.
+  results (CLT, LLN, Glivenko–Cantelli, Crámer–Rao, LIL), with
+  `construction.md` at the root as the family's type note. A construction is a
+  result **discharged by proof**; a named *theory*, *law* or *model* of a
+  particular system (Navier–Stokes, Fick's laws, DFT, molecular orbital theory,
+  Lotka–Volterra, Mori–Zwanzig, general equilibrium, IOM, branching,
+  state-space) is a theoretical result rather than a construction, and lives in
+  the science scope — `epistemica/singular/`, beside the physical theories,
+  systems and methods it belongs with. A note that is *about* a construction
+  rather than one of them — a framework overview such as
+  `observational/theory-of-statistics.md`, an operator family such as
+  `observational/statistical-function.md`, a principle such as
+  `epistemic/guidance/principle/compositionality.md` — stays out and sits at
+  the domain root or in the scope that owns its type.
 - `data/nature/theory/` holds the natural-ontology theory scope moved out of
   `epistemica/theory/ontology/`: the ontic element notes (event, causality,
   system, segment, reality, …), the local *Philosophia Naturalis* import
