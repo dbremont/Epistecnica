@@ -35,6 +35,25 @@ def load(path: Path, key: str):
     return data.get(key, []), data.get("links", [])
 
 
+def note_link_path(p: str) -> str:
+    """Lift a registry path into the library namespace.
+
+    The registry is corpus-relative (`social/action/…`); every entry here gains
+    the corpus prefix the explorer browses by (`notes/social/action/…`). `""`
+    and `"/"` name the notes root, which is the prefix itself.
+    """
+    if p in ("", "/"):
+        return "notes/"
+    return "notes/" + p
+
+
+def links_for_notes(corpus_links):
+    """The registry embedded as library paths, so the explorer's dir keys match."""
+    return [dict(l, **{"from": note_link_path(l.get("from", "")),
+                       "to": note_link_path(l.get("to", ""))})
+            for l in corpus_links]
+
+
 def build(progress=None) -> bool:
     if progress is not None:
         progress.start("merging the corpus indexes")
@@ -44,7 +63,7 @@ def build(progress=None) -> bool:
     for corpus, path, key in SOURCES:
         items, corpus_links = load(path, key)
         if corpus == "note":
-            links = corpus_links
+            links = links_for_notes(corpus_links)
         for item in items:
             prefix = {"note": "notes", "document": "documents", "course": "courses"}[corpus]
             entry = {

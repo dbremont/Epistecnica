@@ -202,8 +202,10 @@ def load_links(index_paths: set, warnings: list) -> list:
     a note, never naming-validated). Each entry declares a directed support link;
     `from` is a directory node, `to` is a directory or a note. A dir `from` stays
     a directory node (embedded as {from: "<dir>/", ...}) — it is not expanded onto
-    its descendants; a dir `to` stays a scope link. Unknown endpoints warn and are
-    dropped, never failing the build.
+    its descendants; a dir `to` stays a scope link. `"/"` (or an empty string)
+    is the notes root itself, which needs its own case: joined onto the corpus
+    path, an absolute `/` would resolve to the filesystem root. Unknown
+    endpoints warn and are dropped, never failing the build.
     """
     if not LINKS.is_file():
         return []
@@ -222,7 +224,9 @@ def load_links(index_paths: set, warnings: list) -> list:
         to = e.get("to", "") or ""
         label = e.get("label", "") or ""
         kind = e.get("kind", "") or ""
-        if frm.endswith("/"):
+        if frm in ("", "/"):
+            sources = [frm]
+        elif frm.endswith("/"):
             if not (NOTES / frm).is_dir():
                 warnings.append(f"links.json (unknown dir: {frm})")
                 continue

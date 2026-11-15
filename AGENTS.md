@@ -723,7 +723,12 @@ when switching over.
   at image build so the image is self-contained. The exception is
   `src/app/data/links.json`: it is the hand-maintained support-link
   registry (an input the indexer reads, not a generated index), so it is
-  tracked and must be committed with its edits.
+  tracked and must be committed with its edits. Its paths are **corpus-
+  relative** (`social/action/…`, `epistemica/`) and `"/"` is the notes root;
+  `bin/build_library_index.py` lifts them into the library namespace
+  (`notes/…`) because that is what the explorer browses by. The explorer
+  renders an entry as a linked card group on the browse dir named by `from`
+  (`/explorer.html?dir=notes` for a root entry) — never on its descendants.
 - `rg` can fail with "JSON record exceeded 65536 bytes" on huge single-file
   HTML pages (the catalog/viewer pages and the generated `*.json` indexes).
   Scope the include pattern or use `bash` + `rg` directly.
