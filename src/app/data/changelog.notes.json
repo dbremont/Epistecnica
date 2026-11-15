@@ -1994,7 +1994,8 @@
    {
     "date": "2026-11-14",
     "kind": "feat",
-    "summary": "Add Toxicology as an epistemic discipline: the practice that owns the harmful interaction between substance and living system rather than the substance or the organism. States the cut against pharmacology, medicine and chemistry, and decomposes the discipline across orientation, segment (the Toxic Interaction), observable, access, representation, evaluation (reference values and risk standards), guidance, the four-step method, construction, infrastructure and agency, with sixteen member practices from general and mechanistic toxicology through ecotoxicology, genetic toxicology, toxicokinetics, computational toxicology, analytical toxicology and toxinology."
+    "summary": "Add Toxicology as an epistemic discipline: the practice that owns the harmful interaction between substance and living system rather than the substance or the organism. States the cut against pharmacology, medicine and chemistry, and decomposes the discipline across orientation, segment (the Toxic Interaction), observable, access, representation, evaluation (reference values and risk standards), guidance, the four-step method, construction, infrastructure and agency, with sixteen member practices from general and mechanistic toxicology through ecotoxicology, genetic toxicology, toxicokinetics, computational toxicology, analytical toxicology and toxinology.",
+    "commit": "66b7828a1789dd80aef967730204be43105155ac"
    }
   ]
  },
@@ -15604,7 +15605,8 @@
    {
     "date": "2026-11-14",
     "kind": "docs",
-    "summary": "Open the forecast directory: a forecast binds a target value, a time origin and horizon, a stated uncertainty and a scoring rule, and the directory holds the practices that produce such claims (point, interval, density, probabilistic and ensemble, nowcasting, judgmental, scenario). Defers the calibration sense to validation/calibration.md and states the three-part judgement: proper scoring, reliability, skill."
+    "summary": "Open the forecast directory: a forecast binds a target value, a time origin and horizon, a stated uncertainty and a scoring rule, and the directory holds the practices that produce such claims (point, interval, density, probabilistic and ensemble, nowcasting, judgmental, scenario). Defers the calibration sense to validation/calibration.md and states the three-part judgement: proper scoring, reliability, skill.",
+    "commit": "66b7828a1789dd80aef967730204be43105155ac"
    }
   ]
  },
