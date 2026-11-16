@@ -104879,7 +104879,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/inertia.md into nature/property/: the property shelf gathers the notes whose instance is a feature carried by a physical element."
+    "summary": "Move from nature/inertia.md into nature/property/: the property shelf gathers the notes whose instance is a feature carried by a physical element.",
+    "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28"
    }
   ]
  },
@@ -104889,7 +104890,8 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Open the property shelf under nature/: the Property type, the intrinsic versus interaction-derived split, and inertia as its first member."
+    "summary": "Open the property shelf under nature/: the Property type, the intrinsic versus interaction-derived split, and inertia as its first member.",
+    "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28"
    }
   ]
  },
@@ -104899,7 +104901,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the inertia link to the property shelf it moved to."
+    "summary": "Retarget the inertia link to the property shelf it moved to.",
+    "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28",
+    "before": "e0f47cdec2eb3e9a436f0e6124c51428207ff39c"
    }
   ]
  }
