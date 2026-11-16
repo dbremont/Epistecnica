@@ -11451,6 +11451,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Point the Clifford algebra stub at the new note on its irreducible modules."
    }
   ]
  },
@@ -11838,6 +11843,16 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/structure/algebra/spinor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the spinor note: the double-cover definition and the Clifford-module definition stated as one object read two ways, why the 2pi sign is pi_1(SO(n)) rather than a notation choice (with the Spin(2) case as the exception), the three constructions (Chevalley exterior algebra, minimal left ideal, spinor bundle), the low-dimensional table including the Weyl/Dirac/Majorana trichotomy, the real-complex-quaternionic period eight, the uses (vectors as symmetrized spinors, fermions and spin-statistics, the Dirac equation, Wigner's classification, spin geometry, twistors and qubits), and what a spinor is not."
    }
   ]
  },

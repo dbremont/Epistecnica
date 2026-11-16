@@ -18,6 +18,8 @@ tags: [note, mathematics]
 > Generalizes complex numbers and quaternions using vectors, bivectors, etc.
 > 
 
+Its irreducible modules are the [spinors](/view.html?p=notes/epistemica/mathematical/structure/algebra/spinor.md) — the objects the algebra acts on, and the reason the algebra is the natural home of fermionic degrees of freedom.
+
 ## References
 
 - https://en.wikipedia.org/wiki/Clifford_algebra
