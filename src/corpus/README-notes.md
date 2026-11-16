@@ -129,7 +129,8 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `statistical-hypothesis-testing.md`, `p-value.md`, `e-value.md`,
   `goodness-of-fit.md`, and `confidence-interval.md` (the procedure-coverage
   reporting member, moved out of the observational domain).
-- The measurement scope lives in `epistemica/measurement/` — so named because
+- The quantification scope lives in `epistemica/quantification/`, named for the
+  class the corpus develops furthest while the master note holds the genus —
   **quantification is one class of measurement, not its whole**: `measurement.md`
   (the scope master; assigns a value to an observable under a declared scale and
   decomposes the genus), `categorization.md` (the *nominal* class — a declared

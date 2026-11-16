@@ -1285,6 +1285,11 @@
     "summary": "Retarget the System of Units link after the quantification/ scope was renamed to measurement/.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
     "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
    }
   ]
  },
@@ -4622,6 +4627,11 @@
     "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
    }
   ]
  },
@@ -5047,6 +5057,28 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/variable.md to epistemica/epistemic/theory/variable.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/experimental-method/experimental-method.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the experimental-method scope master: the routines by which a system is made to yield observations, filed by what the routine does to the system (perturbation, stimulation, ablation, recording, imaging, preparation), with the access, infrastructure and evaluation lanes and one shared controls spine (sham, negative control, specificity, dosimetry, pre-registration). States the boundary against design, instrument, case, principle and the technica reading, and records that the guide's action slot has no Intervention type.",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/experimental-method/optogenetics.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add optogenetics as the first routine note: the six-part routine (targeting, expression, delivery, actuation, readout, control), the actuator families with their temporal and silencing limits, the necessity/sufficiency reading of activation against silencing, and the two empirical bounds that limit the claim (expression specificity, light penetration).",
+    "commit": "f5c2cde468651141323161e741681e428a46ec41"
    }
   ]
  },
@@ -9010,6 +9042,11 @@
     "summary": "Retarget the Quantification and Measurement Theory links after the quantification/ scope was renamed to measurement/.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
     "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ links point at quantification/."
    }
   ]
  },
@@ -9875,6 +9912,11 @@
     "summary": "Retarget the polynomial and classical-algebra links to mathematical/cossical/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
    }
   ]
  },
@@ -10532,6 +10574,11 @@
     "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
     "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
    }
   ]
  },
@@ -13528,111 +13575,6 @@
   ]
  },
  {
-  "file_path": "epistemica/measurement/isu.md",
-  "logs": [
-   {
-    "date": "2026-11-12",
-    "kind": "feat",
-    "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units.",
-    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
-    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Retarget the scope links after the measurement/ rename.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/measurement/measurement.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "feat",
-    "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add a lectures-and-talks subsection to the references: the Kozaj foundations series and two Royal Institution lectures (de Podesta, and the 1981 Christmas Lectures).",
-    "commit": "4d509bfd718d26bb6dd2fd22a5518bf987670372",
-    "before": "1aff4073676652bdd706d949b5e5f3458f624415"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the TU Delft OpenCourseWare Measurement Science course to the lectures-and-talks references.",
-    "commit": "4dcc25b267b6dfc0dd44231916d3acbf74bb2c52",
-    "before": "3afecd8c73cd6463fc3512270fabdc6b8f46f786"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Cite Mari, Maul, Torres Irribarra and Wilson (2017), which argues that quantification is neither necessary nor sufficient for measurement — the scope rename's own thesis — in the references and in the evaluation's answer to the standing objection.",
-    "commit": "32c68cd51773fadd8aef627b71edd646a7d277a6",
-    "before": "c73dfb51bdbdb476acb24218ec827389b7c19642"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/measurement/categorization.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "feat",
-    "summary": "Add the nominal class of measurement: a declared partition, labels, equality alone, bijections as the only admissible transformation, and inter-assigner agreement in place of an uncertainty.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/measurement/ordering.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "feat",
-    "summary": "Add the ordinal class of measurement: a total preorder, ranks, strictly increasing transformations, ties as structure, and the conjoint-measurement route out to the interval class.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/measurement/measurement-theory.md",
-  "logs": [
-   {
-    "date": "2026-10-17",
-    "kind": "feat",
-    "summary": "Import Measurement Theory from the Modelado Notion export.",
-    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-   },
-   {
-    "date": "2026-10-30",
-    "kind": "refactor",
-    "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note.",
-    "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Retarget the scope link after the measurement/ rename.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
-   }
-  ]
- },
- {
   "file_path": "epistemica/measurement/system-of-units-of-measurement.md",
   "logs": [
    {
@@ -13646,29 +13588,6 @@
     "kind": "refactor",
     "summary": "Move to epistemica/measurement/: units of measurement belong to the measurement scope; rewrite the References in [title](url) form and link measurement theory.",
     "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/measurement/system.md",
-  "logs": [
-   {
-    "date": "2026-11-12",
-    "kind": "feat",
-    "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI.",
-    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
-    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "move",
-    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Retarget the scope links after the measurement/ rename.",
-    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
    }
   ]
  },
@@ -15794,6 +15713,17 @@
     "summary": "Make the cost side of the evaluation model explicit: selecting one solution costs the value of the best alternative in the solution space that the selection excludes, linked to the new Opportunity Cost note and cited in the references.",
     "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a",
     "before": "efbfbe18f844cfb0a078d78cd705973ceed9cc29"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/decision/opportunity-cost.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive.",
+    "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a"
    }
   ]
  },
@@ -19378,8 +19308,42 @@
   ]
  },
  {
-  "file_path": "epistemica/measurement/isu.md",
+  "file_path": "epistemica/quantification/categorization.md",
   "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the nominal class of measurement: a declared partition, labels, equality alone, bijections as the only admissible transformation, and inter-assigner agreement in place of an uncertainty.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/categorization.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/quantification/isu.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "New International System of Units note: the seven base quantities and units, the 2019 realization by fixed constants, the coherent derived units, prefixes and the accepted non-SI units.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
+    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope links after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
    {
     "date": "2026-11-13",
     "kind": "move",
@@ -19391,12 +19355,40 @@
     "kind": "move",
     "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/isu.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
    }
   ]
  },
  {
-  "file_path": "epistemica/measurement/measurement-theory.md",
+  "file_path": "epistemica/quantification/measurement-theory.md",
   "logs": [
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Measurement Theory from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "refactor",
+    "summary": "Move to epistemica/measurement/: measurement theory heads the measurement scope; rewrite the References in [title](url) form and link the units note.",
+    "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope link after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
    {
     "date": "2026-11-13",
     "kind": "move",
@@ -19408,11 +19400,69 @@
     "kind": "move",
     "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/measurement-theory.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
    }
   ]
  },
  {
-  "file_path": "epistemica/measurement/quantification.md",
+  "file_path": "epistemica/quantification/measurement.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the measurement scope master: assigns a value to an observable under a declared scale and decomposes the genus whose classes are categorization, ordering and quantification — the title the scope should have carried, since quantification is one class of measurement.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add a lectures-and-talks subsection to the references: the Kozaj foundations series and two Royal Institution lectures (de Podesta, and the 1981 Christmas Lectures).",
+    "commit": "4d509bfd718d26bb6dd2fd22a5518bf987670372",
+    "before": "1aff4073676652bdd706d949b5e5f3458f624415"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the TU Delft OpenCourseWare Measurement Science course to the lectures-and-talks references.",
+    "commit": "4dcc25b267b6dfc0dd44231916d3acbf74bb2c52",
+    "before": "3afecd8c73cd6463fc3512270fabdc6b8f46f786"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Cite Mari, Maul, Torres Irribarra and Wilson (2017), which argues that quantification is neither necessary nor sufficient for measurement — the scope rename's own thesis — in the references and in the evaluation's answer to the standing objection.",
+    "commit": "32c68cd51773fadd8aef627b71edd646a7d277a6",
+    "before": "c73dfb51bdbdb476acb24218ec827389b7c19642"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/measurement.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/quantification/ordering.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "feat",
+    "summary": "Add the ordinal class of measurement: a total preorder, ranks, strictly increasing transformations, ties as structure, and the conjoint-measurement route out to the interval class.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/ordering.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/quantification/quantification.md",
   "logs": [
    {
     "date": "2026-11-13",
@@ -19445,12 +19495,35 @@
     "summary": "Fill the quantification note: the structure of a quantification scheme, its evaluation, a case study, and the properties attributable to observables, including the non-additive case.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/quantification.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
    }
   ]
  },
  {
-  "file_path": "epistemica/measurement/system.md",
+  "file_path": "epistemica/quantification/system.md",
   "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "feat",
+    "summary": "Fill the Measurement System stub: the definition as (base quantities, base units, rules), the unit/dimension/quantity distinction, and the space of systems with its coordinates (base set, coherence, rationalisation, realization basis, prefixes) and the historic walk CGS → MKS → MKSA → SI.",
+    "commit": "82355efb200351261f3d8717c3f9e646e581f8ee",
+    "before": "f7ed13dd26f7c0585af0cfc249fb9080a032776d"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "move",
+    "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name."
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the scope links after the measurement/ rename.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
    {
     "date": "2026-11-13",
     "kind": "move",
@@ -19462,6 +19535,11 @@
     "kind": "move",
     "summary": "Move from epistemica/quantification/ to epistemica/measurement/: the scope is measurement, and quantification is one of its classes rather than its name.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "move",
+    "summary": "Move from epistemica/measurement/system.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
    }
   ]
  },
@@ -24913,6 +24991,11 @@
     "summary": "Retarget the Measurement Theory link after the quantification/ scope was renamed to measurement/.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
     "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
    }
   ]
  },
@@ -27648,6 +27731,17 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/nad-nadp-fad.md into nature/bio/molecular/: the bio family is filed by ontic kind, not by field of study."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/bio/molecular/nicotine.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments.",
+    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd"
    }
   ]
  },
@@ -37599,6 +37693,24 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/musculoskeletal.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/human/nerve.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract.",
+    "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the definition line: a nerve as a biological communication highway carrying many signal-conducting fibres.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -56141,6 +56253,17 @@
   ]
  },
  {
+  "file_path": "social/action/public/informe/policy/programa-gripen-brasileiro.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement.",
+    "commit": "4a71469ce9cced529f2b54c1bcd28ad8f04e8cf1"
+   }
+  ]
+ },
+ {
   "file_path": "social/action/public/intervention.md",
   "logs": [
    {
@@ -56203,6 +56326,17 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/committee.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Committee type note the board note already named but the corpus had not worked: a body of members drawn from a larger assembly, prepared through its standing, select, joint, conference, ad hoc and subcommittee kinds, its warrant in standing orders, membership and offices, remit and initiative, evidence-taking and markup, the report as product, the secretariat, and the unified versus divided structures.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/education-actor.md",
   "logs": [
    {
@@ -56258,6 +56392,17 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/legislature.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Legislature type note: the assembly that deliberates and enacts binding rules, decomposed through warrant, membership, chambers, presiding officer and business committee, the committee system, procedure, the four products (statute, appropriation, ratification, confirmation), oversight, support, and the structural lineage from the assembly of estates to the committee-centric and delegating forms.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/organization.md",
   "logs": [
    {
@@ -56273,6 +56418,17 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/education/che/university-of-basel.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the University of Basel instance under the education family (che/), the civic constitution: founded 4 April 1460 out of the Council of Basel and endowed by the town, with the closure debated from 1497 and refused in 1501, the decline to sixty students in 1785, the 1833 cantonal split that took two-thirds of the assets including the library, the three faculties added 1937-2003, and independence from the cantonal government in 1996 followed by parity sponsorship in 2007.",
+    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804"
    }
   ]
  },
@@ -56295,6 +56451,17 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/private/education/ita/university-of-bologna.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the University of Bologna instance under the education family (ita/): the founding instance of the student-run constitution, typed Education Actor -> University, decomposing its corporations of students and their nations, the elected council and the student strike, the colleges of doctors, faculties and departments, degree authority, the Authentica habita and relief from collective punishment, the colleges, and the student-run, chartered public, and state university structures.",
+    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88"
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/private/education/nld/leiden-university.md",
   "logs": [
    {
@@ -56302,6 +56469,17 @@
     "kind": "docs",
     "summary": "Add the Leiden University actor note under the education actors, with the Wikipedia reference.",
     "commit": "5bfb788ea8de66d83ad6e090c8582e9e885daf59"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/education/swe/royal-institute-of-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add KTH Royal Institute of Technology as the state constitution of the University kind: Polhem's Laboratorium Mechanicum of 1697 and the School of Mechanics of 1798 behind the Technological Institute ordered by Charles XIV John in 1825 and opened on 6 June 1827 on the polytechnic model, the Schwartz conflict and Akerman's reorganisation, the 1867 scientific reform and the 1877 renaming with architecture added, the civilingenjor title made legally protected in 1915 and the 1927 right to confer doctorates, the Lallerstedt campus of 1917, the R1 reactor critical in 1954 and decommissioned in 1970, the five schools of 2018, and the 2025 closure of the Kista and Sodertalje campuses.",
+    "commit": "801b6b019ece6e0def4610315533617004b6012c"
    }
   ]
  },
@@ -56510,6 +56688,17 @@
     "kind": "feat",
     "summary": "add Soviet political leader persona note",
     "commit": "9b51f58b16f929de3bf3a4be73c92c7d1ef24e1e"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/alexis-de-tocqueville.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add Alexis de Tocqueville as a persona: the Norman count and great-grandson of Malesherbes who made democracy an object of observation, the 1831 American journey with Beaumont and the penitentiary report behind Democracy in America, the thirteen years as deputy for Valognes, the 1848 constitution commission, his months as foreign minister in 1849, and the late history of the Old Regime; the decomposition keeps his contradictions rather than resolving them, recording the abolitionism and free trade alongside his support for the colonisation of Algeria and his approval of the state of siege and the 1849 laws restricting clubs and the press.",
+    "commit": "c91a724991a15c799212ba022b0faff37029be24"
    }
   ]
  },
@@ -56768,6 +56957,18 @@
     "kind": "docs",
     "summary": "Add the Christian Wolff persona note: the Leibnizian system, the mathematical method, the Halle controversy, and the Kantian legacy.",
     "commit": "2eb057c389bdf653872f10b232ef73095d886925"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/claude-frederic-bastiat.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Fill the Claude-Frederic Bastiat stub: the Sengresse estate at Mugron and the Landes wine crisis he first wrote about in Le fisc et la vigne, the magistracy and the Conseil general, the free-trade association of 1846 and Le Libre-Echange with Cobden, the 1848-49 assembly seats, the sophism and the petition as his instruments, the candlemakers and the broken window, The Law's definition of legal plunder and its test, the 1849-50 debate with Proudhon, and the death in Rome in 1850.",
+    "commit": "c91a724991a15c799212ba022b0faff37029be24",
+    "before": "932cd661b69d9804b83dba89be9917ccbe1f0800"
    }
   ]
  },
@@ -58740,6 +58941,17 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/public/legislature/swe/committee-of-ways-and-means.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/public/municipal-government.md",
   "logs": [
    {
@@ -58844,6 +59056,24 @@
   ]
  },
  {
+  "file_path": "social/collective/actor/public/polity/hab/habsburg-monarchy.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
+    "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/actor/public/polity/ita/region/piamonte.md",
   "logs": [
    {
@@ -58938,6 +59168,38 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/university.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures.",
+    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Reference the University of Bologna instance from the University kind, which names it as the founding instance of the students' constitution.",
+    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88",
+    "before": "8236339cb58285dd6e7fc993b81380baefb22d46"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Reference the University of Basel instance from the University kind, which now names both the students' and the civic constitutions.",
+    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804",
+    "before": "1448b456ff380940bba26429887039e7829401d8"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Reference KTH Royal Institute of Technology from the University kind, which now names the state constitution alongside the students', the masters' and the civic ones.",
+    "commit": "801b6b019ece6e0def4610315533617004b6012c",
+    "before": "cb5ca91fb408a599092feaa2e5806324a0564275"
    }
   ]
  },
@@ -82352,6 +82614,11 @@
     "summary": "Retarget the Measurement Theory and System of Units links, and the folder link, after the quantification/ scope was renamed to measurement/.",
     "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
     "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Follow the scope rename: the measurement/ links and the folder link point at quantification/."
    }
   ]
  },
@@ -89586,6 +89853,17 @@
   ]
  },
  {
+  "file_path": "technica/general/cto/industry/drug.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from nature/drug.md into the technica industry family: the drug is the active principle constituting a pharmaceutical product, so the note is retyped as a constitutive technical object and rebuilt on the canonical shell — the pharmacodynamic target table (receptors, enzymes, ion channels, transporters, nucleic acids, membranes) with named exemplars, the target-mediated mechanisms and pharmacological properties in the tree, and the boundary against the fine chemical and the product.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
+   }
+  ]
+ },
+ {
   "file_path": "technica/general/cto/industry/electronic-circuit.md",
   "logs": [
    {
@@ -89618,6 +89896,17 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/fine-chemical.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from nature/fine-chemicals.md into the technica industry family and rename to the singular fine-chemical: the note is a constitutive technical object, not a natural substance, and the import taxonomy is rebuilt as a labelled instance tree (application families, functional roles, structural families, production routes, specified properties, governing standards) around the boundary against commodity, specialty and drug.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
    }
   ]
  },
@@ -89901,6 +90190,17 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/pharmaceutical-product.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the pharmaceutical product as a delivered physical production technical object: the classification of product classes (drug product, vaccine, biological and blood products, advanced therapy, radiopharmaceutical, diagnostic, herbal, medical gas), the constituents, dosage form and route configuration, the release properties and the governing standards; the drug substance stays in drug.md and the formulation detail is linked, not duplicated.",
+    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
    }
   ]
  },
@@ -90754,6 +91054,61 @@
     "kind": "refactor",
     "summary": "Move to technica/general/.",
     "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/drug.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the active principle read by its action on a target; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/fine-chemical.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the specification-sold substance at the head of the chain; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/healthcare-product.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the healthcare product as a delivered physical production technical object: the classification of product classes (pharmaceutical product, medical device, in vitro diagnostic, combination product, borderline biocide), settled by principal mode of action rather than technology; the constituents, the release properties (safety, efficacy, biocompatibility, sterility, traceability) and the regimes (MDR, IVDR, ISO 13485, ISO 14971, authorisation).",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/pharmaceutical-product.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the formulated, packaged, authorised medicine; the industry directory keeps the production systems and materials it is named for.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/product/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-14",
+    "kind": "feat",
+    "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family.",
+    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
    }
   ]
  },
@@ -93332,306 +93687,6 @@
     "kind": "refactor",
     "summary": "Move from essays/what-is-the-used-of-a-keyboard-strokes-dataset.md to unclassified/what-is-the-used-of-a-keyboard-strokes-dataset.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/public/polity/hab/habsburg-monarchy.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
-    "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment.",
-    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
-    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/university.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the University type note: the self-governing corporation of teachers and scholars (Collective -> Education Actor -> University), decomposed into its corporation of masters or students, faculties, degree authority, charter privileges, endowment and colleges, teaching activity, and the Studium Generale, Research University, and State University structures.",
-    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Reference the University of Bologna instance from the University kind, which names it as the founding instance of the students' constitution.",
-    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88",
-    "before": "8236339cb58285dd6e7fc993b81380baefb22d46"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Reference the University of Basel instance from the University kind, which now names both the students' and the civic constitutions.",
-    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804",
-    "before": "1448b456ff380940bba26429887039e7829401d8"
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Reference KTH Royal Institute of Technology from the University kind, which now names the state constitution alongside the students', the masters' and the civic ones.",
-    "commit": "801b6b019ece6e0def4610315533617004b6012c",
-    "before": "cb5ca91fb408a599092feaa2e5806324a0564275"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/private/education/ita/university-of-bologna.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the University of Bologna instance under the education family (ita/): the founding instance of the student-run constitution, typed Education Actor -> University, decomposing its corporations of students and their nations, the elected council and the student strike, the colleges of doctors, faculties and departments, degree authority, the Authentica habita and relief from collective punishment, the colleges, and the student-run, chartered public, and state university structures.",
-    "commit": "cbc0ac7ba1f3e078605f7bdb5acacfc851a90b88"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/private/education/che/university-of-basel.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the University of Basel instance under the education family (che/), the civic constitution: founded 4 April 1460 out of the Council of Basel and endowed by the town, with the closure debated from 1497 and refused in 1501, the decline to sixty students in 1785, the 1833 cantonal split that took two-thirds of the assets including the library, the three faculties added 1937-2003, and independence from the cantonal government in 1996 followed by parity sponsorship in 2007.",
-    "commit": "f4c04fcc21d9a98f2b5d9d355aa9ed7586edb804"
-   }
-  ]
- },
- {
-  "file_path": "social/action/public/informe/policy/programa-gripen-brasileiro.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement.",
-    "commit": "4a71469ce9cced529f2b54c1bcd28ad8f04e8cf1"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/legislature.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Legislature type note: the assembly that deliberates and enacts binding rules, decomposed through warrant, membership, chambers, presiding officer and business committee, the committee system, procedure, the four products (statute, appropriation, ratification, confirmation), oversight, support, and the structural lineage from the assembly of estates to the committee-centric and delegating forms.",
-    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/committee.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Committee type note the board note already named but the corpus had not worked: a body of members drawn from a larger assembly, prepared through its standing, select, joint, conference, ad hoc and subcommittee kinds, its warrant in standing orders, membership and offices, remit and initiative, evidence-taking and markup, the report as product, the secretariat, and the unified versus divided structures.",
-    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/public/legislature/swe/committee-of-ways-and-means.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation.",
-    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/private/education/swe/royal-institute-of-technology.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add KTH Royal Institute of Technology as the state constitution of the University kind: Polhem's Laboratorium Mechanicum of 1697 and the School of Mechanics of 1798 behind the Technological Institute ordered by Charles XIV John in 1825 and opened on 6 June 1827 on the polytechnic model, the Schwartz conflict and Akerman's reorganisation, the 1867 scientific reform and the 1877 renaming with architecture added, the civilingenjor title made legally protected in 1915 and the 1927 right to confer doctorates, the Lallerstedt campus of 1917, the R1 reactor critical in 1954 and decommissioned in 1970, the five schools of 2018, and the 2025 closure of the Kista and Sodertalje campuses.",
-    "commit": "801b6b019ece6e0def4610315533617004b6012c"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/private/persona/alexis-de-tocqueville.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add Alexis de Tocqueville as a persona: the Norman count and great-grandson of Malesherbes who made democracy an object of observation, the 1831 American journey with Beaumont and the penitentiary report behind Democracy in America, the thirteen years as deputy for Valognes, the 1848 constitution commission, his months as foreign minister in 1849, and the late history of the Old Regime; the decomposition keeps his contradictions rather than resolving them, recording the abolitionism and free trade alongside his support for the colonisation of Algeria and his approval of the state of siege and the 1849 laws restricting clubs and the press.",
-    "commit": "c91a724991a15c799212ba022b0faff37029be24"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/actor/private/persona/claude-frederic-bastiat.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Fill the Claude-Frederic Bastiat stub: the Sengresse estate at Mugron and the Landes wine crisis he first wrote about in Le fisc et la vigne, the magistracy and the Conseil general, the free-trade association of 1846 and Le Libre-Echange with Cobden, the 1848-49 assembly seats, the sophism and the petition as his instruments, the candlemakers and the broken window, The Law's definition of legal plunder and its test, the 1849-50 debate with Proudhon, and the death in Rome in 1850.",
-    "commit": "c91a724991a15c799212ba022b0faff37029be24",
-    "before": "932cd661b69d9804b83dba89be9917ccbe1f0800"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/observational/decision/opportunity-cost.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add Opportunity Cost as a concept of decision theory: the value of the best alternative forgone, OC(a_i) = max over j != i of V(a_j), with its four well-definedness conditions (availability, exclusivity, comparable valuation, selection) and the five essential elements (scarcity, alternatives, exclusivity, selection, forgone value). The note separates the best-forgone rule from the sum of all rejected alternatives with the government-budget example (144 -> 120, net advantage 30), bounds the concept against explicit, accounting and sunk cost and against regret, reads it as ex ante (Buchanan: cost is displaced by choice), declares the valuation rather than assuming it, and records the two failures of operationalizability: the counterfactual is unobservable, and the alternative set is a modelling choice that widening can make arbitrarily expensive.",
-    "commit": "7bee663a60e3ecec2d014e3d6a1b6a487e53ae5a"
-   }
-  ]
- },
- {
-  "file_path": "nature/bio/molecular/nicotine.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add Nicotine as a substance of the molecular family: C10H14N2, a pyridine ring and a pyrrolidine ring joined by one bond with a methyl on the pyrrolidine nitrogen and a single stereocentre at C2', the natural (S)-enantiomer. The note carries the two precursors (nicotinic acid through the NAD route for the pyridine ring, ornithine through putrescine and the N-methyl-Delta1-pyrrolinium cation for the pyrrolidine) and the still-unsettled coupling between them, root synthesis and xylem transport with the grafting experiment that shows the plant is not its own target, antiherbivore neurotoxicity against Manduca sexta's counter-adaptations, alpha4-beta2 receptor affinity near 1 nM and dopaminergic reinforcement, and the attributes that fix the substance: the 8.1 and 3.4 pKa pair, membrane permeability, 247 C volatility and green tobacco sickness, optical activity, toxicity, teratogenicity, and the point the literature blurs -- nicotine is not classified as a carcinogen while the smoke carries the carcinogens, and the usual 60 mg lethal dose descends from nineteenth-century self-experiments.",
-    "commit": "ad7f00d76b085824245f301c100d6e568b8b7fcd"
-   }
-  ]
- },
- {
-  "file_path": "nature/human/nerve.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Rename nerves.md to nerve.md: the singular names the structure the note types, and the note is filled in the same change set — the peripheral axon bundle with its sheaths and vessels, the fibre classes and their conduction velocities, saltatory conduction, Wallerian degeneration and peripheral regeneration, and the boundary against the neuron and the central tract.",
-    "commit": "98e9dcce468dca5f7ec98fb6c84af4ada6224498"
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add the definition line: a nerve as a biological communication highway carrying many signal-conducting fibres.",
-    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
-    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/industry/fine-chemical.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from nature/fine-chemicals.md into the technica industry family and rename to the singular fine-chemical: the note is a constitutive technical object, not a natural substance, and the import taxonomy is rebuilt as a labelled instance tree (application families, functional roles, structural families, production routes, specified properties, governing standards) around the boundary against commodity, specialty and drug.",
-    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/industry/drug.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from nature/drug.md into the technica industry family: the drug is the active principle constituting a pharmaceutical product, so the note is retyped as a constitutive technical object and rebuilt on the canonical shell — the pharmacodynamic target table (receptors, enzymes, ion channels, transporters, nucleic acids, membranes) with named exemplars, the target-mediated mechanisms and pharmacological properties in the tree, and the boundary against the fine chemical and the product.",
-    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/industry/pharmaceutical-product.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "feat",
-    "summary": "Add the pharmaceutical product as a delivered physical production technical object: the classification of product classes (drug product, vaccine, biological and blood products, advanced therapy, radiopharmaceutical, diagnostic, herbal, medical gas), the constituents, dosage form and route configuration, the release properties and the governing standards; the drug substance stays in drug.md and the formulation detail is linked, not duplicated.",
-    "commit": "2ced5c543d8bee94d38e4accc7dd75509b8a25e3"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/product/fine-chemical.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the specification-sold substance at the head of the chain; the industry directory keeps the production systems and materials it is named for.",
-    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/product/drug.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the active principle read by its action on a target; the industry directory keeps the production systems and materials it is named for.",
-    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/product/pharmaceutical-product.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from technica/general/cto/industry/ into the new product family, which gathers the delivered goods the formulated, packaged, authorised medicine; the industry directory keeps the production systems and materials it is named for.",
-    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/product/healthcare-product.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "feat",
-    "summary": "Add the healthcare product as a delivered physical production technical object: the classification of product classes (pharmaceutical product, medical device, in vitro diagnostic, combination product, borderline biocide), settled by principal mode of action rather than technology; the constituents, the release properties (safety, efficacy, biocompatibility, sterility, traceability) and the regimes (MDR, IVDR, ISO 13485, ISO 14971, authorisation).",
-    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
-   }
-  ]
- },
- {
-  "file_path": "technica/general/cto/product/readme.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "feat",
-    "summary": "Add the product family readme, indexing the delivered-goods notes and stating the split from the industry family.",
-    "commit": "7a56b1ab1b236e7cb420d23ec9894b1d69175173"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/experimental-method/experimental-method.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "feat",
-    "summary": "Add the experimental-method scope master: the routines by which a system is made to yield observations, filed by what the routine does to the system (perturbation, stimulation, ablation, recording, imaging, preparation), with the access, infrastructure and evaluation lanes and one shared controls spine (sham, negative control, specificity, dosimetry, pre-registration). States the boundary against design, instrument, case, principle and the technica reading, and records that the guide's action slot has no Intervention type.",
-    "commit": "f5c2cde468651141323161e741681e428a46ec41"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/experimental-method/optogenetics.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "feat",
-    "summary": "Add optogenetics as the first routine note: the six-part routine (targeting, expression, delivery, actuation, readout, control), the actuator families with their temporal and silencing limits, the necessity/sufficiency reading of activation against silencing, and the two empirical bounds that limit the claim (expression specificity, light penetration).",
-    "commit": "f5c2cde468651141323161e741681e428a46ec41"
    }
   ]
  }

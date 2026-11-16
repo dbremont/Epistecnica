@@ -11,7 +11,7 @@ qa:
 
 # ordering
 
-> **ordering** assigns a rank to an observable: each item receives a value from a declared ordered range, and the value records where the item stands relative to the others. it is the middle class of [measurement](/view.html?p=notes/epistemica/measurement/measurement.md) — stronger than a label, weaker than a magnitude — and it is what inquiry uses whenever it can compare without being able to say by how much.
+> **ordering** assigns a rank to an observable: each item receives a value from a declared ordered range, and the value records where the item stands relative to the others. it is the middle class of [measurement](/view.html?p=notes/epistemica/quantification/measurement.md) — stronger than a label, weaker than a magnitude — and it is what inquiry uses whenever it can compare without being able to say by how much.
 
 > the scale licenses order and nothing further. if one item ranks above another, the observable stands above it too; what the gap between two ranks amounts to is not information. the admissible transformation is any strictly increasing map: reassigning `1, 2, 3` as `10, 20, 25` or as `0, 5, 6` rearranges the numerals and preserves every ordering claim. a mean of ranks and a difference of ranks are therefore not licensed — they shrink or stretch as the relabelling shifts, and what they report is an artefact of the numerals.
 
@@ -45,7 +45,7 @@ qa:
 
 > `readable as` an **`epistemic act`** when attention falls on ordering one item against others. `readable as` an **`epistemic practice`** when attention falls on the organized doing — psychometric scaling, judging panels, competitive ranking, the institutional work that maintains a ranking. `readable as` an **`epistemic construction`** when attention falls on a ranking as a description of a segment.
 
-> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the comparison criterion and the preorder conditions would have no home under it. the practice is [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)'s subject when its yardstick is formalized, and a ranking is one product of the scheme.
+> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the comparison criterion and the preorder conditions would have no home under it. the practice is [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)'s subject when its yardstick is formalized, and a ranking is one product of the scheme.
 
 > the items ranked are read in the **ontic order**; the comparative relation they bear is ontic as well, and its decomposition belongs to the naturalis grammar.
 
@@ -55,7 +55,7 @@ qa:
 
 > **aspect.** *ordering* names the act of ranking, the scheme that makes the ranking well formed, and the result — a ranking. this note types the scheme; the act and the result stay `readable as` prose.
 
-> **class.** the class sits between a label and a magnitude, and both boundaries are live. below it, a ranking whose values are used as classes collapses into [categorization](/view.html?p=notes/epistemica/measurement/categorization.md), and what is lost is the order. above it, a ranking whose gaps have been given an empirical basis is a [quantification](/view.html?p=notes/epistemica/measurement/quantification.md), and what was added is a difference the observable exhibits — see the QA below on how that crossing is licensed.
+> **class.** the class sits between a label and a magnitude, and both boundaries are live. below it, a ranking whose values are used as classes collapses into [categorization](/view.html?p=notes/epistemica/quantification/categorization.md), and what is lost is the order. above it, a ranking whose gaps have been given an empirical basis is a [quantification](/view.html?p=notes/epistemica/quantification/quantification.md), and what was added is a difference the observable exhibits — see the QA below on how that crossing is licensed.
 
 > **sense.** the false friends are load-bearing, and every one of them is a different construct:
 
@@ -63,11 +63,11 @@ qa:
 | --- | --- | --- |
 | **ordering** | assigns a rank under a declared preorder | — |
 | **ranking** | the result of an ordering | the product, not the scheme |
-| **sorting** | places items into ordered bins | a coarser case whose bins are classes first and ranks second; sorting alone preserves no fine order (see [categorization](/view.html?p=notes/epistemica/measurement/categorization.md)) |
+| **sorting** | places items into ordered bins | a coarser case whose bins are classes first and ranks second; sorting alone preserves no fine order (see [categorization](/view.html?p=notes/epistemica/quantification/categorization.md)) |
 | **preference** | records a stated choice | a preference can be intransitive or incomplete, in which case it is not a warrant for an ordering of the observable (see [decision making](/view.html?p=notes/epistemica/observational/decision/decision-making.md)) |
 | **voting rule** | aggregates preferences into an order | the aggregate order is constructed by a rule, not registered from the observable; what it measures is the rule's output |
 | **rating scale** | a labelled ladder a judge uses | the ladder supplies ranks; whether it supplies more is the empirical question the class settles (see [ordering versus quantification](#how-does-an-ordinal-scale-become-an-interval-scale-1)) |
-| **quantification** | binds a magnitude to a numeral in a unit | order plus differences plus a unit, which the ordinal class lacks (see [quantification](/view.html?p=notes/epistemica/measurement/quantification.md)) |
+| **quantification** | binds a magnitude to a numeral in a unit | order plus differences plus a unit, which the ordinal class lacks (see [quantification](/view.html?p=notes/epistemica/quantification/quantification.md)) |
 
 > **relatum.** only a segment whose items bear a comparative relation can be ordered. the relation is declared by the criterion and checkable by it; an order imposed by the procedure rather than read from the observable is a ranking of the procedure's output.
 
@@ -183,10 +183,10 @@ qa:
 
 ## references
 
-- [Measurement](/view.html?p=notes/epistemica/measurement/measurement.md)
-- [Categorization](/view.html?p=notes/epistemica/measurement/categorization.md)
-- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
+- [Measurement](/view.html?p=notes/epistemica/quantification/measurement.md)
+- [Categorization](/view.html?p=notes/epistemica/quantification/categorization.md)
+- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
 - [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)

@@ -18,7 +18,7 @@ qa:
 
 > the classes share one act. to measure is to declare an empirical relational structure, choose a value system, and map the one into the other preserving the relations the class exploits. what changes between the classes is which relations are preserved: identity alone at categorization, identity and order at ordering, identity, order, difference, and — with a natural zero — ratio at quantification. that single requirement is what makes these one construct rather than three practices that happen to share a word.
 
-> the scheme is empirical in a way a number is not. `3` measures nothing; `3 rd`, `class 3` and `3 kg` are three measurements of three classes, and only the last has a unit. see [quantification](/view.html?p=notes/epistemica/measurement/quantification.md) for the class that binds a magnitude, and [number](/view.html?p=notes/epistemica/mathematical/number/number.md) for the notation all three classes write in.
+> the scheme is empirical in a way a number is not. `3` measures nothing; `3 rd`, `class 3` and `3 kg` are three measurements of three classes, and only the last has a unit. see [quantification](/view.html?p=notes/epistemica/quantification/quantification.md) for the class that binds a magnitude, and [number](/view.html?p=notes/epistemica/mathematical/number/number.md) for the notation all three classes write in.
 
 ## formulation
 
@@ -44,7 +44,7 @@ qa:
 
 > `readable as` an **`epistemic act`** when attention falls on a single act of assigning a value to one item. `readable as` an **`epistemic practice`** when attention falls on the organized doing — metrology, psychometrics, taxonomy, the institutional work that sustains a scale. `readable as` an **`epistemic construction`** when attention falls on a measurement statement as a description of a segment.
 
-> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the scale, the declaration, and the class rules would have no home under it; the act fires the scheme, it is not what the scheme is made of. the practice is [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)'s subject, and a measurement statement is one product of the scheme, not the scheme.
+> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the scale, the declaration, and the class rules would have no home under it; the act fires the scheme, it is not what the scheme is made of. the practice is [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)'s subject, and a measurement statement is one product of the scheme, not the scheme.
 
 > the observables measured are read in the **ontic order**; the scheme that binds them is epistemic. the ontic decomposition of a property or a magnitude belongs to the naturalis grammar: it is named here and never grown.
 
@@ -54,17 +54,17 @@ qa:
 
 > **aspect.** *measurement* names the act of assigning a value, the scheme that makes the assignment well formed, and the result — a measurement statement. this note types the scheme; the act and the result stay `readable as` prose, so no row below carries two types.
 
-> **class.** this is the ambiguity the note exists to resolve. a nominal, an ordinal and an interval reading share a notation and a vocabulary but not a licenced set of operations, and they are filed here as three classes of one scheme rather than as three schemes. the classes are decomposed in the notes that own them — [categorization](/view.html?p=notes/epistemica/measurement/categorization.md), [ordering](/view.html?p=notes/epistemica/measurement/ordering.md), [quantification](/view.html?p=notes/epistemica/measurement/quantification.md) — and this note decomposes the shared structure.
+> **class.** this is the ambiguity the note exists to resolve. a nominal, an ordinal and an interval reading share a notation and a vocabulary but not a licenced set of operations, and they are filed here as three classes of one scheme rather than as three schemes. the classes are decomposed in the notes that own them — [categorization](/view.html?p=notes/epistemica/quantification/categorization.md), [ordering](/view.html?p=notes/epistemica/quantification/ordering.md), [quantification](/view.html?p=notes/epistemica/quantification/quantification.md) — and this note decomposes the shared structure.
 
 > **sense.** the false friends are load-bearing, and every one of them is a different construct:
 
 | construct | what it does | why it is not this |
 | --- | --- | --- |
 | **measurement** | assigns a value to an observable under a declared scale | — |
-| **quantification** | binds a magnitude to a numeral in a unit | one class of this scheme, the one that carries a unit (see [quantification](/view.html?p=notes/epistemica/measurement/quantification.md)) |
-| **categorization** | assigns a label to an observable | one class, equality alone, no unit (see [categorization](/view.html?p=notes/epistemica/measurement/categorization.md)) |
-| **ordering** | assigns a rank to an observable | one class, order without distance (see [ordering](/view.html?p=notes/epistemica/measurement/ordering.md)) |
-| **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)) |
+| **quantification** | binds a magnitude to a numeral in a unit | one class of this scheme, the one that carries a unit (see [quantification](/view.html?p=notes/epistemica/quantification/quantification.md)) |
+| **categorization** | assigns a label to an observable | one class, equality alone, no unit (see [categorization](/view.html?p=notes/epistemica/quantification/categorization.md)) |
+| **ordering** | assigns a rank to an observable | one class, order without distance (see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md)) |
+| **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)) |
 | **measure** in mathematics | assigns a size to a set | a set function in measure theory, whose relatum is a set and whose value is not read on a declared scale of an attribute (see [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)) |
 | **quantization** | replaces a continuum value by one of finitely many levels | it discretizes a range of values; it assigns nothing to an observable under a scale (see [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)) |
 | **operationalization** | decides which observable stands for an attribute | the construction that precedes measurement — it fixes *what* is observed, not *how* the value is read (see [quantitative property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md)) |
@@ -77,7 +77,7 @@ qa:
 
 > **boundary.** this table decomposes one epistemic instance — the measurement scheme — into the value system that carries an assigned value, the rules and structures constituting class membership, and the predicates it carries. the classes themselves are named here and decomposed in their own notes; the acts that exercise the scheme are named in prose and linked, never grown here; the observables measured belong to the naturalis grammar.
 
-> **stopping rule.** a row is terminal when it names a scale level, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the arithmetic that consumes a quantitative value is not decomposed here (see [arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)), nor is the metrology that sustains a scale (see [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)).
+> **stopping rule.** a row is terminal when it names a scale level, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the arithmetic that consumes a quantitative value is not decomposed here (see [arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)), nor is the metrology that sustains a scale (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)).
 
 > **identity.** instance tree path holds instances only — never epistemic element types; every path in this table is unique, and no type segment terminates a branch.
 
@@ -182,7 +182,7 @@ qa:
 
 > because the order it establishes is the empirical relation measurement exists to preserve. an ordinal assignment reports a real fact — that one item is more than another — and the fact is what the procedure was built to register; the distance it cannot report was never observed, so the class is exact at what it does rather than approximate at what it does not.
 
-> the class becomes a preliminary only through a category mistake: treating the assigned rank as a spacing, computing means and differences with it, and calling the result quantitative. the correction is not to stop ordering but to stop reading the order at the wrong class — see [ordering](/view.html?p=notes/epistemica/measurement/ordering.md).
+> the class becomes a preliminary only through a category mistake: treating the assigned rank as a spacing, computing means and differences with it, and calling the result quantitative. the correction is not to stop ordering but to stop reading the order at the wrong class — see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md).
 
 ### what exactly does a ratio scale license that an interval scale does not?
 
@@ -190,12 +190,12 @@ qa:
 
 ## references
 
-- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
-- [Categorization](/view.html?p=notes/epistemica/measurement/categorization.md)
-- [Ordering](/view.html?p=notes/epistemica/measurement/ordering.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
-- [Measurement System](/view.html?p=notes/epistemica/measurement/system.md)
-- [International System of Units](/view.html?p=notes/epistemica/measurement/isu.md)
+- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+- [Categorization](/view.html?p=notes/epistemica/quantification/categorization.md)
+- [Ordering](/view.html?p=notes/epistemica/quantification/ordering.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
+- [Measurement System](/view.html?p=notes/epistemica/quantification/system.md)
+- [International System of Units](/view.html?p=notes/epistemica/quantification/isu.md)
 - [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)
 - [Quantitative Property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)

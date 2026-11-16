@@ -26,9 +26,11 @@ qa:
 
 > a quantity is never a bare number. `42` quantifies nothing until a unit and a scale say what kind of magnitude it stands for and which operations it admits: `42 kg` is a mass, `42 °c` an interval-scaled temperature, and `42` alone is as likely a count as a line number. remove the unit and the quantity is gone, though the number remains.
 
-> quantification is one class of [measurement](/view.html?p=notes/epistemica/measurement/measurement.md), not its whole. categorization assigns a label, ordering assigns a rank, and only quantification assigns a magnitude. the three share the act of assigning a value under a declared scale, which is why one genus covers them; they part at the unit, which only this class has.
+> quantification is one class of [measurement](/view.html?p=notes/epistemica/quantification/measurement.md), not its whole. categorization assigns a label, ordering assigns a rank, and only quantification assigns a magnitude. the three share the act of assigning a value under a declared scale, which is why one genus covers them; they part at the unit, which only this class has.
 
 > numbers and the schemes that bind them to magnitudes co-evolve: what counts as quantifiable is partly fixed by the notation available for it, and the notation is extended by what inquiry needs to quantify (see [number](/view.html?p=notes/epistemica/mathematical/number/number.md)).
+
+> **note on the shelf.** the scope is named for this class because it is the one the corpus develops furthest, but the shelf is not the genus: [measurement](/view.html?p=notes/epistemica/quantification/measurement.md) is the genus and [categorization](/view.html?p=notes/epistemica/quantification/categorization.md) and [ordering](/view.html?p=notes/epistemica/quantification/ordering.md) are its two weaker classes, filed here because all three share the act and part at the unit — this one carries the unit and the arithmetic, the other two do not.
 
 ## formulation
 
@@ -36,7 +38,7 @@ qa:
 
 > the **quantification instance** is the representational scheme that assigns a numeric value to a magnitude under a declared unit and scale. three components carry it, and none stands alone:
 >
-> 1. **a scale** — the structure of admissible comparisons. within the quantitative class the assignment licenses two levels: *interval* (order and differences, no ratios) and *ratio* (order, differences, and ratios, with a meaningful zero). an *absolute* scale is the ratio case whose unit is the natural count. the other two classes of measurement — *categorization*, whose scale licenses equality alone, and *ordering*, whose scale licenses order without distance — carry no unit and no magnitude, so they are decomposed in their own notes and reached from [measurement](/view.html?p=notes/epistemica/measurement/measurement.md), never from here.
+> 1. **a scale** — the structure of admissible comparisons. within the quantitative class the assignment licenses two levels: *interval* (order and differences, no ratios) and *ratio* (order, differences, and ratios, with a meaningful zero). an *absolute* scale is the ratio case whose unit is the natural count. the other two classes of measurement — *categorization*, whose scale licenses equality alone, and *ordering*, whose scale licenses order without distance — carry no unit and no magnitude, so they are decomposed in their own notes and reached from [measurement](/view.html?p=notes/epistemica/quantification/measurement.md), never from here.
 > 2. **a unit** — the reference magnitude in which the value is expressed, together with the system that fixes which units are admitted and how derived ones compose (si, cgs, imperial, natural).
 > 3. **a numeral** — the value written against that unit: how many times the reference magnitude the magnitude is.
 
@@ -54,7 +56,7 @@ qa:
 
 > `readable as` an **`epistemic act`** when attention falls on a single act of assigning a value — the guide types `measurement` as an action element, and counting, estimating, and ranking sit at the same grain. `readable as` an **`epistemic practice`** when attention falls on the organized doing — metrology, the laboratories and standards bodies that sustain it. `readable as` an **`epistemic construction`** when attention falls on a quantity statement as a description of a segment.
 
-> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the scale levels, the unit systems, and the conversion rules decomposed below would have no home under it — the act is what fires the scheme, not what the scheme is made of. the practice is [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)'s subject, and a quantity statement is one product of the scheme, not the scheme.
+> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the scale levels, the unit systems, and the conversion rules decomposed below would have no home under it — the act is what fires the scheme, not what the scheme is made of. the practice is [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)'s subject, and a quantity statement is one product of the scheme, not the scheme.
 
 > the magnitudes quantified are read in the **ontic order**; the scheme that binds them is epistemic. the ontic decomposition of a magnitude belongs to the naturalis grammar: it is named here and never grown.
 
@@ -69,16 +71,16 @@ qa:
 | construct | what it does | why it is not this |
 | --- | --- | --- |
 | **quantification** | binds a magnitude to a number under a declared unit and scale | — |
-| **measurement** (the genus) | assigns a value to an observable under a declared scale | wider: it also covers the classes that assign a label or a rank and bind no magnitude (see [measurement](/view.html?p=notes/epistemica/measurement/measurement.md)) |
+| **measurement** (the genus) | assigns a value to an observable under a declared scale | wider: it also covers the classes that assign a label or a rank and bind no magnitude (see [measurement](/view.html?p=notes/epistemica/quantification/measurement.md)) |
 | **quantization** | replaces a value drawn from a continuum by one of finitely many levels | it discretizes a range of values; it binds nothing to a unit or a scale (see [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)) |
-| **categorization** | assigns a label to an observable | a class of measurement that licenses equality alone — no order, no unit (see [categorization](/view.html?p=notes/epistemica/measurement/categorization.md)) |
-| **ordering** | assigns a rank to an observable | a class of measurement that licenses order but no distance (see [ordering](/view.html?p=notes/epistemica/measurement/ordering.md)) |
-| **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)) |
+| **categorization** | assigns a label to an observable | a class of measurement that licenses equality alone — no order, no unit (see [categorization](/view.html?p=notes/epistemica/quantification/categorization.md)) |
+| **ordering** | assigns a rank to an observable | a class of measurement that licenses order but no distance (see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md)) |
+| **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)) |
 | **counting** | assigns a cardinality to a collection | the scheme's discrete case, with the unit implicit (see [enumeration](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)) |
 | **measure** in mathematics | assigns a size to a set | a set function in measure theory, not a binding of a magnitude to a unit (see [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)) |
 | **logical quantification** | binds a variable under ∀ or ∃ | it ranges over a domain of things, not over how much of an attribute an item carries |
 
-> **level.** the magnitude reading is licensed only from the interval level up. "twice as hot" is meaningless on an interval scale, and "twice the number" is meaningless on a nominal one — but the nominal case is not a *quantification* at all. it is categorization, a class of measurement that assigns a label where this scheme assigns a magnitude. the boundary is drawn in [measurement](/view.html?p=notes/epistemica/measurement/measurement.md) and developed in [categorization](/view.html?p=notes/epistemica/measurement/categorization.md) and [ordering](/view.html?p=notes/epistemica/measurement/ordering.md); this note carries only the two levels that bind a magnitude.
+> **level.** the magnitude reading is licensed only from the interval level up. "twice as hot" is meaningless on an interval scale, and "twice the number" is meaningless on a nominal one — but the nominal case is not a *quantification* at all. it is categorization, a class of measurement that assigns a label where this scheme assigns a magnitude. the boundary is drawn in [measurement](/view.html?p=notes/epistemica/quantification/measurement.md) and developed in [categorization](/view.html?p=notes/epistemica/quantification/categorization.md) and [ordering](/view.html?p=notes/epistemica/quantification/ordering.md); this note carries only the two levels that bind a magnitude.
 
 > **relatum.** only a quantitative property can be quantified. turning a quality into a measurable attribute is itself a construction — operationalization — and its warrant belongs to measurement theory rather than here; see [quantitative property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md).
 
@@ -88,7 +90,7 @@ qa:
 
 > **boundary.** this table decomposes one epistemic instance — the quantification scheme — into the sign system that carries it, the rules and structures constituting it, and the predicates it carries. the acts that exercise the scheme are named in prose and linked, never grown here; the same holds for the magnitudes bound, whose decomposition belongs to the naturalis grammar.
 
-> **stopping rule.** a row is terminal when it names a notation element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the arithmetic that consumes the value is not decomposed here (see [arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)), and neither is the metrology that produces it (see [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)).
+> **stopping rule.** a row is terminal when it names a notation element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the arithmetic that consumes the value is not decomposed here (see [arithmetic](/view.html?p=notes/epistemica/mathematical/number/arithmetic.md)), and neither is the metrology that produces it (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)).
 
 > **identity.** instance tree path holds instances only — never epistemic element types; every path in this table is unique, and no type segment terminates a branch.
 
@@ -98,12 +100,12 @@ qa:
 
 | instance tree path | description |
 | --- | --- |
-| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement | the scheme assigning a value to an observable under a declared scale — the genus through which categorization, ordering and quantification are read as one construct. see [measurement](/view.html?p=notes/epistemica/measurement/measurement.md). |
+| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement | the scheme assigning a value to an observable under a declared scale — the genus through which categorization, ordering and quantification are read as one construct. see [measurement](/view.html?p=notes/epistemica/quantification/measurement.md). |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` | grouping: the sign system carrying the bound value — one system elaborated by three classes. |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale | the structure of admissible comparisons over the observable: which relations among items the assigned values must preserve. the class is the declared content of the scale, never an extra component. |
-| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) categorization class | grouping: values are labels; equality and difference of label alone are licensed. see [categorization](/view.html?p=notes/epistemica/measurement/categorization.md). |
+| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) categorization class | grouping: values are labels; equality and difference of label alone are licensed. see [categorization](/view.html?p=notes/epistemica/quantification/categorization.md). |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) categorization class (→ instance) nominal scale | the scale whose admissible transformation is any bijection of the label set — labels name classes and fix nothing about order, distance or amount. |
-| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) ordering class | grouping: values are ranks; order is licensed, distance is not. see [ordering](/view.html?p=notes/epistemica/measurement/ordering.md). |
+| `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) ordering class | grouping: values are ranks; order is licensed, distance is not. see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md). |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) ordering class (→ instance) ordinal scale | the scale whose admissible transformation is any strictly increasing map — the order among items survives, the gaps between them do not. |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) quantification class | grouping: values are magnitudes in a unit; order, difference, and — with a natural zero — ratio. |
 | `epistemic element` (→ kind) `epistemic representation` (→ instance) measurement (→ has) `representational system` (→ instance) scale (→ instance) quantification class (→ instance) interval scale | the quantitative scale whose admissible transformation is affine — order and differences survive, ratios do not; the zero is a convention. |
@@ -184,7 +186,7 @@ qa:
 | conceptual determinacy | moderate | boundary rule: a claim is a quantification iff a magnitude is bound to a value under a declared scale. borderline cases — ordinal indices, composite scores, proxy metrics — are decided by the declared level rather than by the numeral, which is why the level must be recorded, not assumed. |
 | internal consistency | strong | the interval and ratio levels are conventions of one substrate, never rival definitions of the scheme, and the other two classes of measurement are excluded from the table rather than demoted to it; the conversion rules preserve the magnitude exactly as the interpretation says they must, so notation and meaning cannot drift apart. |
 | representational adequacy | strong | elements, foundations, conventions, formation rules, transformations, and interpretations are carried in separate branches, so a scale-level claim is never confused with a notational one and a predicate is never mistaken for a constituent. |
-| purpose adequacy | strong | the scheme serves the three uses quantification exists for — comparison, combination, and conversion — and it never claims a magnitude reading where only an ordering one is licensed, which is what the class boundary in [measurement](/view.html?p=notes/epistemica/measurement/measurement.md) enforces. |
+| purpose adequacy | strong | the scheme serves the three uses quantification exists for — comparison, combination, and conversion — and it never claims a magnitude reading where only an ordering one is licensed, which is what the class boundary in [measurement](/view.html?p=notes/epistemica/quantification/measurement.md) enforces. |
 
 ## Which is the structure of a quantification scheme?
 
@@ -308,7 +310,7 @@ qa:
 
 - [philosophia artium epistemicarum et operis](https://raw.githubusercontent.com/csiglab/naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [number](/view.html?p=notes/epistemica/mathematical/number/number.md) · [quantitative property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md) · [ratio](/view.html?p=notes/epistemica/mathematical/number/ratio.md) · [fraction](/view.html?p=notes/epistemica/mathematical/number/fraction.md) · [numeric system](/view.html?p=notes/epistemica/mathematical/number/numeric-system.md) · [rounding](/view.html?p=notes/epistemica/mathematical/number/rounding.md)
-- [measurement theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md) · [system of units of measurement](/view.html?p=notes/epistemica/measurement/isu.md) · [enumeration (counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)
+- [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md) · [system of units of measurement](/view.html?p=notes/epistemica/quantification/isu.md) · [enumeration (counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)
 - [quantification (science)](https://en.wikipedia.org/wiki/quantification_(science))
 - stevens, s. s. (1946). on the theory of scales of measurement. *science*, 103(2684), 677–680.
 - suppes, p., krantz, d. h., luce, r. d., & tversky, a. (1971). *foundations of measurement, vol. i: additive and polynomial representations*. academic press.

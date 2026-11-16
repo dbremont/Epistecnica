@@ -11,7 +11,7 @@ qa:
 
 # categorization
 
-> **categorization** assigns a label to an observable: each item of the observed segment receives a value drawn from a declared label set, and the value records which class of items the item belongs to. it is the weakest class of [measurement](/view.html?p=notes/epistemica/measurement/measurement.md) and the one most of inquiry uses, because most observables are registered by deciding *which kind* they are before anything else is asked of them.
+> **categorization** assigns a label to an observable: each item of the observed segment receives a value drawn from a declared label set, and the value records which class of items the item belongs to. it is the weakest class of [measurement](/view.html?p=notes/epistemica/quantification/measurement.md) and the one most of inquiry uses, because most observables are registered by deciding *which kind* they are before anything else is asked of them.
 
 > the scale licenses equality and nothing else. two items are the same under the assignment exactly when they carry the same label; an item is different exactly when it carries another. the labels' order is not information, their distances are not information, and a mean of labels has no referent at all. the admissible transformation is any one-to-one relabelling of the label set: reassigning `A, B, C` as `1, 2, 3` or as `red, green, blue` changes the notation and no claim.
 
@@ -45,7 +45,7 @@ qa:
 
 > `readable as` an **`epistemic act`** when attention falls on placing one item: classifying this specimen. `readable as` an **`epistemic practice`** when attention falls on the organized doing — taxonomy, nosology, coding standards, the institutional work that maintains a classification. `readable as` an **`epistemic construction`** when attention falls on a classification statement or a reported code as a description of a segment.
 
-> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the partition, the label set, and the admissibility rule would have no home under it. the practice is a [measurement system](/view.html?p=notes/epistemica/measurement/system.md)'s register, and a reported code is one product of the scheme, not the scheme.
+> the exclusion is argued, not asserted. an act has no constitutive parts to grow, so the partition, the label set, and the admissibility rule would have no home under it. the practice is a [measurement system](/view.html?p=notes/epistemica/quantification/system.md)'s register, and a reported code is one product of the scheme, not the scheme.
 
 > the items categorized are read in the **ontic order**; the scheme that sorts them is epistemic. the ontic decomposition of the kinds sorted belongs to the naturalis grammar, and the sorted population's ontic character to the sciences that study it: neither is grown here.
 
@@ -55,7 +55,7 @@ qa:
 
 > **aspect.** *categorization* names the act of placing, the scheme that makes the placing well formed, and the result — a classification. this note types the scheme; the act and the result stay `readable as` prose.
 
-> **class.** the class is the weakest of the three in [measurement](/view.html?p=notes/epistemica/measurement/measurement.md), and the boundary that matters runs upward: a classification that also fixes an order is [ordering](/view.html?p=notes/epistemica/measurement/ordering.md) as well, and one that also fixes a magnitude is [quantification](/view.html?p=notes/epistemica/measurement/quantification.md). the common case is a classification read as the weaker of the two declarations, which is the safe error only if the order or magnitude is genuinely not claimed.
+> **class.** the class is the weakest of the three in [measurement](/view.html?p=notes/epistemica/quantification/measurement.md), and the boundary that matters runs upward: a classification that also fixes an order is [ordering](/view.html?p=notes/epistemica/quantification/ordering.md) as well, and one that also fixes a magnitude is [quantification](/view.html?p=notes/epistemica/quantification/quantification.md). the common case is a classification read as the weaker of the two declarations, which is the safe error only if the order or magnitude is genuinely not claimed.
 
 > **sense.** the false friends are load-bearing, and every one of them is a different construct:
 
@@ -66,8 +66,8 @@ qa:
 | **taxonomy** | an ordered hierarchy of kinds | a special case with a second structure — parenthood and rank — which is what makes a hierarchy more than a flat partition |
 | **coding** | assigns a token by an external convention | the convention can be arbitrary, and a categorization is answerable to the item's relations; coding is categorization only when the code tracks the partition |
 | **clustering** | forms classes from the data | it induces the partition where categorization declares one; the classes arrive after, not before (see [formal concept analysis](/view.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)) |
-| **quantification** | binds a magnitude to a numeral in a unit | a label has no unit and no magnitude (see [quantification](/view.html?p=notes/epistemica/measurement/quantification.md)) |
-| **ordering** | assigns a rank | order is a further structure a label may or may not carry (see [ordering](/view.html?p=notes/epistemica/measurement/ordering.md)) |
+| **quantification** | binds a magnitude to a numeral in a unit | a label has no unit and no magnitude (see [quantification](/view.html?p=notes/epistemica/quantification/quantification.md)) |
+| **ordering** | assigns a rank | order is a further structure a label may or may not carry (see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md)) |
 
 > **relatum.** only a countable item of a segment can be categorized. the partition sorts items, not their properties, and a property itself can be categorized only when properties are the items of the observed segment.
 
@@ -172,10 +172,10 @@ qa:
 
 ## references
 
-- [Measurement](/view.html?p=notes/epistemica/measurement/measurement.md)
-- [Ordering](/view.html?p=notes/epistemica/measurement/ordering.md)
-- [Quantification](/view.html?p=notes/epistemica/measurement/quantification.md)
-- [Measurement Theory](/view.html?p=notes/epistemica/measurement/measurement-theory.md)
+- [Measurement](/view.html?p=notes/epistemica/quantification/measurement.md)
+- [Ordering](/view.html?p=notes/epistemica/quantification/ordering.md)
+- [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md)
+- [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
 - [Formal Concept Analysis](/view.html?p=notes/epistemica/singular/formal-concept-analysis-fca.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md)
