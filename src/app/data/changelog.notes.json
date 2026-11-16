@@ -106564,6 +106564,11 @@
     "summary": "Add the olive oil row to the agricultural product space.",
     "commit": "329948edc9f1b0eba1244dc30bd81f98613a71d1",
     "before": "e4e341965926d253b3bb565fcce536013d484764"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the resin row to the agricultural product space."
    }
   ]
  },
@@ -106619,6 +106624,26 @@
     "summary": "The transition law is named as a Markov kernel and its action as a Markov operator, with both Wikipedia entries added to the references.",
     "commit": "1896d10e735821593974c199b2e0704f057c2fb5",
     "before": "c8523dccd2202b5a114e9a10890d076f31ae7848"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/resin.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: resin as a natural substance — the terpenoid plant exudate, with the boundary that separates it from synthetic resins and from the polysaccharide gums, its composition and amorphous structure with the glass transition in place of a melting point, the oleoresin/hardened/fossil states, the ducts and wound surfaces, and the bounds (volatile loss, oxidation, thermal limit, biological origin)."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/agriculture/resin.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New good: the tapped exudate sold as the naval-stores pair. The note gives the three pine supply routes (gum, wood, tall oil) and why tall-oil rosin sets the marginal price, the colour and acid-value grading, and the value reading — a feedstock priced by grade rather than a branded product."
    }
   ]
  }
