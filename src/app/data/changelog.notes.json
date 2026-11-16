@@ -25558,7 +25558,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder: a Standard Model phenomenon note imported from Notion with its definition and decomposition never worked."
+    "summary": "Remove the undecomposed placeholder: a Standard Model phenomenon note imported from Notion with its definition and decomposition never worked.",
+    "commit": "d1b68c5a15a2a7531e1da7326a81457dc2991f8c",
+    "before": "f271a5424deb40ab68647d12dce44707dd572dfa"
    }
   ]
  },
@@ -31383,7 +31385,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder: a phenomenon note imported from Notion with its definition and decomposition never worked; steady current is carried by electric-current.md."
+    "summary": "Remove the undecomposed placeholder: a phenomenon note imported from Notion with its definition and decomposition never worked; steady current is carried by electric-current.md.",
+    "commit": "d1b68c5a15a2a7531e1da7326a81457dc2991f8c",
+    "before": "f271a5424deb40ab68647d12dce44707dd572dfa"
    }
   ]
  },
@@ -32156,7 +32160,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder: a note typed Property with no definition and no decomposition, imported from Notion and never worked."
+    "summary": "Remove the undecomposed placeholder: a note typed Property with no definition and no decomposition, imported from Notion and never worked.",
+    "commit": "d1b68c5a15a2a7531e1da7326a81457dc2991f8c",
+    "before": "f271a5424deb40ab68647d12dce44707dd572dfa"
    }
   ]
  },
@@ -105561,7 +105567,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Tidy the note: the title takes sentence-style capitalisation as Charge Carrier, and the Notion provenance line drops."
+    "summary": "Tidy the note: the title takes sentence-style capitalisation as Charge Carrier, and the Notion provenance line drops.",
+    "commit": "d1b68c5a15a2a7531e1da7326a81457dc2991f8c",
+    "before": "f271a5424deb40ab68647d12dce44707dd572dfa"
    }
   ]
  }
