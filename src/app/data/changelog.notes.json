@@ -105030,5 +105030,15 @@
     "commit": "228f4f441b71e9126a2ede670358c463277ff162"
    }
   ]
+ },
+ {
+  "file_path": "epistemica/singular/a-guide-to-model-physical-reality.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the guide: physical reality cut into entities, properties, interactions and phenomena, with the description layer (frames, spaces, frameworks) kept apart and every node linked to its corpus note."
+   }
+  ]
  }
 ]
