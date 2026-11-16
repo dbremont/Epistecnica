@@ -21445,7 +21445,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Link the inertia property row and the reference list to nature/property/inertia.md, the note that decomposes the inertial/non-inertial distinction."
+    "summary": "Link the inertia property row and the reference list to nature/property/inertia.md, the note that decomposes the inertial/non-inertial distinction.",
+    "commit": "3cab9a248a7a164236a77d583a593fe8558e28db",
+    "before": "d9360d81208ebceda421ff63f2ed1d9cbf0f8046"
    }
   ]
  },
