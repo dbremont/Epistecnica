@@ -13,7 +13,7 @@ tags: [note, nature, phenomenon, phenomena, physics, unfinished]
 
 ## Related
 
-- [Electron](/view.html?p=notes/nature/electron.md) — the particle whose charge, spin and motion produce the magnetic moment
+- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the particle whose charge, spin and motion produce the magnetic moment
 - [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — the property a magnetic field acts on
 - [Electric Current](/view.html?p=notes/nature/electric-current.md) — charge in motion, the source of the field
 - [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field whose magnetic aspect this note studies

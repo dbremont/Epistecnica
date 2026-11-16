@@ -88,6 +88,3 @@ They **mean**:
 - [Magnetism](/view.html?p=notes/nature/magnetism.md) — what its charge, spin and motion produce
 - [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field it sources and responds to
 
-## Provenance
-
-- Notion export: `Modelo/Nature/Conceptual Model Natural System/Electron 4a58d4f541064542a3a7ca2a62efd4de.md`

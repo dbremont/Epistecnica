@@ -2503,6 +2503,11 @@
     "date": "2026-11-09",
     "kind": "feat",
     "summary": "Add Radiology as an epistemic discipline: the study of electromagnetic radiation across the whole spectrum, integrating optics, radiometry, photometry, spectroscopy, and radiation physics, with medical radiology excluded."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md."
    }
   ]
  },
@@ -32705,6 +32710,11 @@
     "summary": "Add the Related list the note never had, pointing the phenomenon family at the charge, the current, magnetism, the field and the system it is observed in, plus the electron at the micro level.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -40819,6 +40829,11 @@
     "summary": "Retarget the bond reference to the generalized Bond note at nature/matter/bond.md.",
     "commit": "8532475cf002a0e1848cf38e5e2b2196ecbd1ad7",
     "before": "a92e3ab817134222a1c9f139de65778e6febe0b2"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -44975,6 +44990,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro as a composite particle, the placeholder definition is replaced, and the root row names the hadron chain rather than a property root."
    }
   ]
  },
@@ -105191,6 +105211,11 @@
     "summary": "Retarget the link to spin now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md."
    }
   ]
  },
@@ -105321,6 +105346,11 @@
     "summary": "Extend Related past Matter and Electrical Circuit: the electron that carries the elementary charge, the current that is charge in motion, magnetism as what the motion produces, the field the charge sources, and the electrical phenomena.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -105495,6 +105525,11 @@
     "summary": "Extend Related past the circuit and wave entries: the electron whose drift is the current, the charge it counts in motion, the magnetic field the current produces, and the field description it is read through.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -105526,6 +105561,11 @@
     "summary": "Extend Related past energy and the fundamental interaction: the charge that sources the field, the current that is its source in motion, magnetism as the field's magnetic aspect, the electron at the micro level, and the field as a named element.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -105610,6 +105650,11 @@
     "summary": "Add the Related list the note never had: the electron whose charge, spin and motion produce the moment, the charge the field acts on, the current that sources it, the field it is the magnetic aspect of, and the system and phenomenon family it belongs to.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -105622,6 +105667,11 @@
     "summary": "Add the Related list the note never had: magnetism as the field's magnetic aspect, the charge that sources it, the current that acts on it, the system it is read with, and the electron it acts on.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
    }
   ]
  },
@@ -105634,6 +105684,246 @@
     "summary": "Move the open questions into the qa block so they are indexed as metadata rather than as body headings, and extend Related past Protonuclide: the charge the electron carries, the current its drift constitutes, the magnetism its spin and motion produce, and the field it sources and responds to.",
     "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
     "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/elementary-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary-particle.md: the note becomes the shelf master, and the shelf collects the particles the standard model does not compose, their fields and the modelling concepts that use the term."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note as the shelf master. The import typed the family `Substance / Matter` at meso level and left the decomposition pending in the retired four-column form; the note now types it at micro, carries the full two-column decomposition (fermion/boson split, quark flavours, charged leptons and neutrinos, gauge and scalar bosons, the hypothetical graviton, and the attributes that individuate a kind), a taxonomy table, and the scope that names the fields, the modelling concepts and the composites the tree excludes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/boson.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/fermions-matter-particles.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/fermions-matter-particles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/leptons-matter-fermions.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/leptons-matter-fermions.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/lepton-antiparticles.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/lepton-antiparticles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/quark.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/quark.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/quark-antiquarks.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/quark-antiquarks.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/gauge-boson.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/gauge-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/scalar-boson.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/scalar-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/electron.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/electron.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to. The Notion provenance line drops in the same pass, as it did across the electromagnetic cluster."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/muon.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/muon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro, the placeholder definition is replaced by the particle, and the root row becomes the elementary-particle path instead of a bare property root."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/neutrinos.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/neutrinos.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/photon.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/photon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/gluon-g.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/gluon-g.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/higgs-boson-h.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/higgs-boson-h.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/graviton.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/graviton.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/neutrino-field.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/neutrino-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/higgs-field.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/higgs-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/quantum-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/quantum-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/classical-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/classical-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/free-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/free-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/elementary/mediator-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/mediator-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/physical-object/physical-object.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the moves: the elementary-particle, classical-particle and quantum-particle links point at nature/elementary/, and the directory sentence says where those notes sit — the elementary shelf for the particles the standard model does not compose, the nature root for the composites and the matter kinds."
    }
   ]
  }

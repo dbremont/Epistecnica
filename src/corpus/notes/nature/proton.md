@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, property]
+tags: [note, nature, substance-matter, particle-physics]
 ---
 
 # Proton
@@ -10,11 +10,11 @@ tags: [note, nature, property]
 
 ### What natural element type does this natural instance belong to?
 
-`Property` at meso level of organization (Quantity category), per the Tabular view.
+`Substance / Matter` (Ontic; Existential) at **micro** level of organization, per the Tabular view — read as *parsed reality*, never as inquiry. The import typed this note as a `Property`, which reads the particle as a quantity; a proton is a composite matter kind (two up quarks and one down quark, bound), and the quantities it carries are decomposed in `nature/property/`.
 
 ### What is this natural instance?
 
-**Proton**: natural instance imported from the Notion export; definition not yet worked.
+**Proton**: the stable bound state of two up quarks and one down quark — the charge carrier of the atomic nucleus, with charge +1 and 1836 times the electron's mass. It is **not** elementary: its decomposition descends into quark content and binding energy, which is why the hadron and nucleus notes, not the elementary shelf, own the expansion.
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -23,7 +23,7 @@ natural instance. Root row below binds the placeholder; expansion not yet worked
 
 | Instance Tree Path | Description | Natural Category | Natural Element Type Tree Path |
 | --- | --- | --- | --- |
-| **Proton** | Imported instance; decomposition pending. | Quantity | `(root) := Property` |
+| `Ontic Element` `(→ Kind)` `Substantive` `(→ Kind)` `Substance` `(→ Kind)` `Substance / Matter` `(→ Kind)` Composite Particle `(→ Instance)` Proton | Stable bound state of two up quarks and one down quark: charge +1, 1836 electron masses, the nucleus's charge carrier. Micro. |
 
 Imported aliases (same referent, pending merge review): **protons**.
 
@@ -40,4 +40,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
-- Notion export provenance: `Electric Charge 1b0c0f5171ec80e98af5c745a32f391b.md`; `Chemical Element 16cc0f5171ec80819c22dc5852e3fe06.md`
+- [Composite Particle (Hadron)](/view.html?p=notes/nature/composite-particle-hadron.md) — the class of bound states this particle belongs to
+- [Atomic Nucleus](/view.html?p=notes/nature/atomic-nucleus.md) — the bound system whose charge it carries
+- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the elementary charge carrier it binds
