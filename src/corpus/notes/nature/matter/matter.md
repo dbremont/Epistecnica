@@ -30,6 +30,8 @@ qa:
 
 ## Index
 
+- [Elementary Particle](/view.html?p=notes/nature/matter/elementary/elementary-particle.md) — the matter kinds with no composition to give, filed in the `elementary/` sub-shelf
+
 ## Which are the types of subdivision of matter?
 
 > A **matter type** is distinguished by what makes two samples the same type — its identity criterion — not by size or by level of organisation. Two samples are the same element because they share a proton number; the same molecule because they share a connectivity; the same mixture because they share a set of constituents.

@@ -40759,6 +40759,11 @@
     "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Point the matter master at its new sub-shelf: the empty Index section gains the Elementary Particle line, so the particles with no composition to give are reachable from the family that owns their stuff-kind."
    }
   ]
  },
@@ -105993,6 +105998,11 @@
     "summary": "Follow the moves: the elementary-particle, classical-particle and quantum-particle links point at nature/elementary/, and the directory sentence says where those notes sit — the elementary shelf for the particles the standard model does not compose, the nature root for the composites and the matter kinds.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the shelf named in the directory sentence is nature/matter/elementary/."
    }
   ]
  },
@@ -106132,6 +106142,236 @@
     "kind": "move",
     "summary": "Move from production/catalog/product.md and rename to product-catalog.md: a names-only list of products belongs with the goods rather than with the production catalog, and the suffix keeps it distinct from the Product note beside it.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/boson.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/boson.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/classical-particle.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/classical-particle.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/electron.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/electron.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/elementary-particle.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/elementary-particle.md: the shelf becomes a sub-shelf of matter, and its master still indexes the particles the standard model does not compose, now under matter/elementary/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/fermions-matter-particles.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/fermions-matter-particles.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/free-particle.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/free-particle.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/gauge-boson.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/gauge-boson.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/gluon-g.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/gluon-g.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/graviton.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/graviton.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/higgs-boson-h.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/higgs-boson-h.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/higgs-field.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/higgs-field.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/lepton-antiparticles.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/lepton-antiparticles.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/leptons-matter-fermions.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/leptons-matter-fermions.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/mediator-particle.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/mediator-particle.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/muon.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/muon.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/neutrino-field.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/neutrino-field.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/neutrinos.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/neutrinos.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/photon.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/photon.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/quantum-particle.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/quantum-particle.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/quark-antiquarks.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/quark-antiquarks.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/quark.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/quark.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/scalar-boson.md.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/elementary/scalar-boson.md: the elementary shelf becomes a sub-shelf of matter, the family whose stuff-kinds it specializes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/elementary-particle.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the shelf path in the note is nature/matter/elementary/, and the shelf is now the limiting case of the matter family it sits inside rather than a second particle family at the nature root."
    }
   ]
  }

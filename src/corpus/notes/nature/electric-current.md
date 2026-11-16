@@ -117,7 +117,7 @@ where:
 - [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
 - [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
-- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the carrier whose drift is the current
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md) — the carrier whose drift is the current
 - [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — the quantity the current counts in motion
 - [Magnetism](/view.html?p=notes/nature/magnetism.md) — the field a current produces
 - [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field description a current is read through

@@ -17,7 +17,7 @@ tags: [note, nature, natural-system, unfinished]
 - [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — what sources the field
 - [Electric Current](/view.html?p=notes/nature/electric-current.md) — moving charge, which the field also acts on
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md) — the field read together with its sources
-- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the charged particle the field acts on at the micro level
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md) — the charged particle the field acts on at the micro level
 
 ## Provenance
 

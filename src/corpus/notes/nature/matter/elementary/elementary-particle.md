@@ -11,7 +11,7 @@ qa:
 
 > An **elementary particle** is a `Substance / Matter` kind the Standard Model does not compose from anything smaller: a quantum of a field, individuated by its spin, its mass and its charges rather than by its constituents or its phase — the electron, the six quarks, the three neutrinos, the gauge bosons and the Higgs.
 
-This note is the directory index and the classification of the elementary family under `nature/elementary/`: the notes whose instance is a particle the standard model does not decompose further. It is the limiting case of the matter shelf — the point where `Substance / Matter` stops carrying composition and the field reading takes over. The fields the particles are excitations of, the modelling concepts that say what "particle" means at a resolution, and the composites this tree deliberately excludes are named at the end of the note.
+This note is the directory index and the classification of the elementary family under `nature/matter/elementary/`: the notes whose instance is a particle the standard model does not decompose further. It is the limiting case of the matter shelf — the point where `Substance / Matter` stops carrying composition and the field reading takes over. The fields the particles are excitations of, the modelling concepts that say what "particle" means at a resolution, and the composites this tree deliberately excludes are named at the end of the note.
 
 ## Formulation
 
@@ -71,22 +71,22 @@ The table states the split and the criterion each type is individuated by; each 
 
 | Elementary Particle Type | Identity criterion | Members on this shelf |
 | --- | --- | --- |
-| Fermion | Half-integer spin; antisymmetric under exchange, so two never occupy one state | [Fermions (Matter Particles)](/view.html?p=notes/nature/elementary/fermions-matter-particles.md) |
-| Quark | Colour charge; confined, never observed free | [Quark](/view.html?p=notes/nature/elementary/quark.md), [Quark Antiquarks](/view.html?p=notes/nature/elementary/quark-antiquarks.md) |
-| Lepton | Colour-neutral fermion | [Leptons (matter fermions)](/view.html?p=notes/nature/elementary/leptons-matter-fermions.md), [Lepton Antiparticles](/view.html?p=notes/nature/elementary/lepton-antiparticles.md) |
-| Charged lepton | Lepton carrying electric charge | [Electron](/view.html?p=notes/nature/elementary/electron.md), [Muon](/view.html?p=notes/nature/elementary/muon.md) |
-| Neutrino | Neutral lepton, weak interaction only | [neutrinos](/view.html?p=notes/nature/elementary/neutrinos.md) |
-| Boson | Integer spin; symmetric under exchange | [boson](/view.html?p=notes/nature/elementary/boson.md) |
-| Gauge boson | Spin-1 carrier of a fundamental interaction | [Photon](/view.html?p=notes/nature/elementary/photon.md), [Gluon (g)](/view.html?p=notes/nature/elementary/gluon-g.md) |
-| Scalar boson | Spin-0 | [Higgs Boson (H)](/view.html?p=notes/nature/elementary/higgs-boson-h.md) |
-| Graviton | Spin-2, hypothetical — no observation | [Graviton](/view.html?p=notes/nature/elementary/graviton.md) |
+| Fermion | Half-integer spin; antisymmetric under exchange, so two never occupy one state | [Fermions (Matter Particles)](/view.html?p=notes/nature/matter/elementary/fermions-matter-particles.md) |
+| Quark | Colour charge; confined, never observed free | [Quark](/view.html?p=notes/nature/matter/elementary/quark.md), [Quark Antiquarks](/view.html?p=notes/nature/matter/elementary/quark-antiquarks.md) |
+| Lepton | Colour-neutral fermion | [Leptons (matter fermions)](/view.html?p=notes/nature/matter/elementary/leptons-matter-fermions.md), [Lepton Antiparticles](/view.html?p=notes/nature/matter/elementary/lepton-antiparticles.md) |
+| Charged lepton | Lepton carrying electric charge | [Electron](/view.html?p=notes/nature/matter/elementary/electron.md), [Muon](/view.html?p=notes/nature/matter/elementary/muon.md) |
+| Neutrino | Neutral lepton, weak interaction only | [neutrinos](/view.html?p=notes/nature/matter/elementary/neutrinos.md) |
+| Boson | Integer spin; symmetric under exchange | [boson](/view.html?p=notes/nature/matter/elementary/boson.md) |
+| Gauge boson | Spin-1 carrier of a fundamental interaction | [Photon](/view.html?p=notes/nature/matter/elementary/photon.md), [Gluon (g)](/view.html?p=notes/nature/matter/elementary/gluon-g.md) |
+| Scalar boson | Spin-0 | [Higgs Boson (H)](/view.html?p=notes/nature/matter/elementary/higgs-boson-h.md) |
+| Graviton | Spin-2, hypothetical — no observation | [Graviton](/view.html?p=notes/nature/matter/elementary/graviton.md) |
 
 ## What else sits on this shelf
 
 The directory holds three kinds of note that the tree does **not** contain, because none of them is an elementary particle:
 
-- **The fields** — [Neutrino Field](/view.html?p=notes/nature/elementary/neutrino-field.md) and [Higgs Field](/view.html?p=notes/nature/elementary/higgs-field.md). They are the substrate the particles are excitations of, typed beside the particles rather than under them; the tree reads them through `(→ Substrate)`, never as a part.
-- **The modelling concepts** — [Quantum Particle](/view.html?p=notes/nature/elementary/quantum-particle.md), [Classical Particle](/view.html?p=notes/nature/elementary/classical-particle.md), [Free Particle](/view.html?p=notes/nature/elementary/free-particle.md), [Mediator Particle](/view.html?p=notes/nature/elementary/mediator-particle.md). They state what "particle" means at a resolution, or what role a particle plays in an interaction; a free particle is not a kind of elementary particle, it is an elementary particle in a state.
+- **The fields** — [Neutrino Field](/view.html?p=notes/nature/matter/elementary/neutrino-field.md) and [Higgs Field](/view.html?p=notes/nature/matter/elementary/higgs-field.md). They are the substrate the particles are excitations of, typed beside the particles rather than under them; the tree reads them through `(→ Substrate)`, never as a part.
+- **The modelling concepts** — [Quantum Particle](/view.html?p=notes/nature/matter/elementary/quantum-particle.md), [Classical Particle](/view.html?p=notes/nature/matter/elementary/classical-particle.md), [Free Particle](/view.html?p=notes/nature/matter/elementary/free-particle.md), [Mediator Particle](/view.html?p=notes/nature/matter/elementary/mediator-particle.md). They state what "particle" means at a resolution, or what role a particle plays in an interaction; a free particle is not a kind of elementary particle, it is an elementary particle in a state.
 - **The composites, which stay at the root** — [Proton](/view.html?p=notes/nature/proton.md), [Composite Particle (Hadron)](/view.html?p=notes/nature/composite-particle-hadron.md), [Atomic Nucleus](/view.html?p=notes/nature/atomic-nucleus.md), [Atom](/view.html?p=notes/nature/atom.md). The tree stops where composition stops: a proton is a bound state of quarks, so it is decomposed in the hadron and nucleus notes, not here.
 
 **Limitation checklist.** The segment exhibits *Scale* (where the particle reading gives way to the field reading is a resolution choice, and the same object answers to both), *Uncertainty* (the graviton is unobserved, and colour confinement means a quark is never met alone), *Emergence* (mass arrives through the Higgs condensate, and hadron masses come from binding energy rather than from constituent masses), *Computational Complexity* (the predictions that individuate these kinds are lattice-gauge computations) and *Many-Body coupling* (no elementary particle is observed outside the interactions that create it).

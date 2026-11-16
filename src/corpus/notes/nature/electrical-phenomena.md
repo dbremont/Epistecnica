@@ -47,4 +47,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [Magnetism](/view.html?p=notes/nature/magnetism.md) — the magnetic side of the family
 - [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field that carries them
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md) — the system they are observed in
-- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the carrier at the micro level
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md) — the carrier at the micro level

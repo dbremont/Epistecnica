@@ -164,5 +164,5 @@ This definition is grounded in **quantum electrodynamics** and **nuclear physics
 - [Chemical Substance](/view.html?p=notes/nature/chemical-substance.md)
 - [Bond](/view.html?p=notes/nature/matter/bond.md)
 - [Atom](/view.html?p=notes/nature/atom.md)
-- [Electron](/view.html?p=notes/nature/elementary/electron.md)
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md)
 

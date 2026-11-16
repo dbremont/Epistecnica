@@ -38,6 +38,6 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
-- [Elementary Particle](/view.html?p=notes/nature/elementary/elementary-particle.md) — the shelf this particle belongs to
-- [Leptons (matter fermions)](/view.html?p=notes/nature/elementary/leptons-matter-fermions.md) — the class it is a generation of
-- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the lightest charged lepton, of which the muon is the heavier copy
+- [Elementary Particle](/view.html?p=notes/nature/matter/elementary/elementary-particle.md) — the shelf this particle belongs to
+- [Leptons (matter fermions)](/view.html?p=notes/nature/matter/elementary/leptons-matter-fermions.md) — the class it is a generation of
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md) — the lightest charged lepton, of which the muon is the heavier copy

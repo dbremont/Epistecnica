@@ -42,4 +42,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - [Composite Particle (Hadron)](/view.html?p=notes/nature/composite-particle-hadron.md) — the class of bound states this particle belongs to
 - [Atomic Nucleus](/view.html?p=notes/nature/atomic-nucleus.md) — the bound system whose charge it carries
-- [Electron](/view.html?p=notes/nature/elementary/electron.md) — the elementary charge carrier it binds
+- [Electron](/view.html?p=notes/nature/matter/elementary/electron.md) — the elementary charge carrier it binds
