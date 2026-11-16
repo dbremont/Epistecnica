@@ -141,7 +141,7 @@ Miscelanea
 
 [Quantum Computation](/view.html?p=notes/technica/computation/quantum-computation.md)
 
-[**Computational Complexity Theory**](/view.html?p=notes/technica/computation/computational-complexity-theory.md)
+[**Computational Complexity Theory**](/view.html?p=notes/technica/computation/theory/computational-complexity-theory.md)
 
 [**Enterprise Information System (EIS)**](/view.html?p=notes/technica/computation/enterprise-information-system-eis.md)
 

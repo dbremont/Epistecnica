@@ -65633,6 +65633,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the computational-complexity-theory link into the new theory shelf."
    }
   ]
  },
@@ -66011,6 +66016,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the computational-complexity-theory link into the new theory shelf."
    }
   ]
  },
@@ -66033,7 +66043,7 @@
   ]
  },
  {
-  "file_path": "technica/computation/computational-complexity-theory.md",
+  "file_path": "technica/computation/theory/computational-complexity-theory.md",
   "logs": [
    {
     "date": "2026-11-07",
@@ -66041,6 +66051,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from technica/computation/computational-complexity-theory.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
    }
   ]
  },
@@ -96426,6 +96441,11 @@
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the lambda-calculus link into the new theory shelf."
    }
   ]
  },
@@ -96954,6 +96974,11 @@
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the lambda-calculus link into the new theory shelf."
    }
   ]
  },
@@ -97394,6 +97419,11 @@
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the turing-machine link into the new theory shelf."
    }
   ]
  },
@@ -97860,13 +97890,18 @@
   ]
  },
  {
-  "file_path": "technica/computation/language-system/lambda-calculus.md",
+  "file_path": "technica/computation/theory/lambda-calculus.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from technica/computation/language-system/lambda-calculus.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
    }
   ]
  },
@@ -100247,13 +100282,18 @@
   ]
  },
  {
-  "file_path": "technica/computation/language-system/turing-machine.md",
+  "file_path": "technica/computation/theory/turing-machine.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from technica/computation/language-system/turing-machine.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
    }
   ]
  },
@@ -106949,6 +106989,36 @@
     "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/theory.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New entry page for the theory shelf: the three questions the theory of computation asks — what a machine of a given structure recognises, what any machine can decide, and what it can decide within a budget — with the notes that carry each, and the boundary against the language-system shelf (the realisation) and the algorithm shelf (the procedures)."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/theory/p-versus-np.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note on the open question: the two classes by machine and by witness, the completeness result that makes one problem stand for all of them, what each answer would settle (including the gap between a separation and the average-case hardness cryptography needs), the ladder of inclusions, and the four barriers a proof must evade — relativization, natural proofs, algebrization and proof complexity. States plainly that the statement is not known to be independent, and that the belief in separation is evidence rather than proof."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/discrete/permutation.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note on the permutation: the arrangement and the bijection as the same fact read twice, the counts (n!, partial, words with repetition, multiset, derangements, cycles), cycle structure and its arithmetic form in the Stirling numbers, parity and the alternating group, permutation matrices and Cayley, and the boundary against combination, word, ordering and the permutation test."
    }
   ]
  }

@@ -4,7 +4,7 @@ tags: [note, model-of-computation]
 
 # Imperative Model of Computation
 
-- [State Machine](/view.html?p=notes/technica/computation/language-system/state-machine.md), [Turing Machine](/view.html?p=notes/technica/computation/language-system/turing-machine.md)
+- [State Machine](/view.html?p=notes/technica/computation/language-system/state-machine.md), [Turing Machine](/view.html?p=notes/technica/computation/theory/turing-machine.md)
 
 > The **Imperative Model of Computation** is a programming paradigm where computations are expressed as a sequence of explicit instructions that change the state of the program’s variables and memory.
 > 

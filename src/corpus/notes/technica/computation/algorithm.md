@@ -198,7 +198,7 @@ Conceptual Model: Algorithm
 - https://news.ycombinator.com/item?id=43155839
 - [How to profile an algorithm?](https://app.notion.com/p/How-to-profile-an-algorithm-1bcc0f5171ec8064abecf4faf209cb4b?pvs=21)
 - [**Induction**](https://app.notion.com/p/Induction-3f5aa91bbe094d6ca92d955b7fb6080b?pvs=21)
-- [**Computational Complexity Theory**](/view.html?p=notes/technica/computation/computational-complexity-theory.md)
+- [**Computational Complexity Theory**](/view.html?p=notes/technica/computation/theory/computational-complexity-theory.md)
 - [‣](https://app.notion.com/p/17bc0f5171ec80608b34de6922b560e4?pvs=21)
 - [Modelado](https://app.notion.com/p/Modelado-a6727ea210124fb9a00ff6bb5bcf7cd5?pvs=21)
 - https://www.ime.usp.br/~pf/algorithms/

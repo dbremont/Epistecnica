@@ -4,7 +4,7 @@ tags: [note]
 
 # Functional Model of Computation
 
-- [Lambda Calculus](/view.html?p=notes/technica/computation/language-system/lambda-calculus.md), [Declarative Model of Computation](/view.html?p=notes/technica/computation/language-system/declarative-model-of-computation.md), [SKI Combinator Calculus](/view.html?p=notes/technica/computation/language-system/ski-combinator-calculus.md)
+- [Lambda Calculus](/view.html?p=notes/technica/computation/theory/lambda-calculus.md), [Declarative Model of Computation](/view.html?p=notes/technica/computation/language-system/declarative-model-of-computation.md), [SKI Combinator Calculus](/view.html?p=notes/technica/computation/language-system/ski-combinator-calculus.md)
 
 > Functional programming is a programming paradigm that emphasizes the use of functions as the primary means of computation, treating them as first-class citizens that can be composed and combined to build more complex programs.
 > 
