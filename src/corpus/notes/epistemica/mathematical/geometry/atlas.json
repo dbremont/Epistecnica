@@ -944,7 +944,7 @@
               "family": "one-dimensional-shapes",
               "dimension": "1d",
               "path": "Geometric Shape → One-Dimensional Shapes → Fractal Curve",
-              "description": "A curve of non-integer dimension, self-similar at every scale.",
+              "description": "A curve of non-integer dimension, self-similar at every scale; the family is read by Fractal.",
               "figure": {
                 "kind": "fractal",
                 "variant": "koch-curve"
@@ -1076,7 +1076,8 @@
                   },
                   "children": []
                 }
-              ]
+              ],
+              "note": "epistemica/mathematical/geometry/fractal.md"
             }
           ]
         },
@@ -2187,7 +2188,7 @@
               "family": "planar-shapes",
               "dimension": "2d",
               "path": "Geometric Shape → Planar Shapes → Fractal Region",
-              "description": "A planar region whose boundary is self-similar.",
+              "description": "A planar region whose boundary is self-similar; the family is read by Fractal.",
               "figure": {
                 "kind": "fractal",
                 "variant": "sierpinski-triangle"
@@ -2305,7 +2306,8 @@
                   },
                   "children": []
                 }
-              ]
+              ],
+              "note": "epistemica/mathematical/geometry/fractal.md"
             }
           ]
         },
@@ -3379,7 +3381,7 @@
               "family": "solid-shapes",
               "dimension": "3d",
               "path": "Geometric Shape → Solid Shapes → Fractal Solid",
-              "description": "A 3-D self-similar body of non-integer dimension.",
+              "description": "A 3-D self-similar body of non-integer dimension; the family is read by Fractal.",
               "figure": {
                 "kind": "fractal",
                 "variant": "fractal-solid"
@@ -3413,7 +3415,8 @@
                   },
                   "children": []
                 }
-              ]
+              ],
+              "note": "epistemica/mathematical/geometry/fractal.md"
             },
             {
               "id": "geometric-shape-solid-shapes-ruled-surface",

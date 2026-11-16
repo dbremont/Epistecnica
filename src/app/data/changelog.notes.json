@@ -8167,6 +8167,11 @@
     "date": "2026-11-11",
     "kind": "docs",
     "summary": "Link the Line row to the new line note."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "The three fractal rows (curve, region, solid), the regularity list and the relations now name the new fractal note, so the family has an entry point from the decomposition and the shape atlas links it on those rows."
    }
   ]
  },
@@ -106436,6 +106441,16 @@
     "summary": "New good: the pluggable module that converts an electrical signal to light and back for a fibre link. The note gives the form factors by lane count and rate, the parameters that actually define a part number, and where the value sits — interoperability and reach rather than a proprietary interface.",
     "commit": "9cb553fcd2d506a18829b26400b533007fc5bbf1",
     "before": "655c6805abf6bb7ce0e8bc528078af623f11e86a"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/geometry/fractal.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: the fractal, filed under geometry where the shape atlas already types the fractal curve, region and solid rows. The note takes the dimensional definition (dimension exceeding topological dimension), separates it from self-similarity as the generator, gives the four generation mechanisms, the log N / log r dimension with the five standard values, and the natural, time-series and network appearances."
    }
   ]
  }
