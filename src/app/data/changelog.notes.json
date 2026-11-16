@@ -11455,7 +11455,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Point the Clifford algebra stub at the new note on its irreducible modules."
+    "summary": "Point the Clifford algebra stub at the new note on its irreducible modules.",
+    "commit": "97196eddbeb2ff9d527fc19f2ab53d0e3819cf8d",
+    "before": "740e59c2d4ed7e1eb542c2b494ee10283aa60d03"
    }
   ]
  },
@@ -11852,7 +11854,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Add the spinor note: the double-cover definition and the Clifford-module definition stated as one object read two ways, why the 2pi sign is pi_1(SO(n)) rather than a notation choice (with the Spin(2) case as the exception), the three constructions (Chevalley exterior algebra, minimal left ideal, spinor bundle), the low-dimensional table including the Weyl/Dirac/Majorana trichotomy, the real-complex-quaternionic period eight, the uses (vectors as symmetrized spinors, fermions and spin-statistics, the Dirac equation, Wigner's classification, spin geometry, twistors and qubits), and what a spinor is not."
+    "summary": "Add the spinor note: the double-cover definition and the Clifford-module definition stated as one object read two ways, why the 2pi sign is pi_1(SO(n)) rather than a notation choice (with the Spin(2) case as the exception), the three constructions (Chevalley exterior algebra, minimal left ideal, spinor bundle), the low-dimensional table including the Weyl/Dirac/Majorana trichotomy, the real-complex-quaternionic period eight, the uses (vectors as symmetrized spinors, fermions and spin-statistics, the Dirac equation, Wigner's classification, spin geometry, twistors and qubits), and what a spinor is not.",
+    "commit": "97196eddbeb2ff9d527fc19f2ab53d0e3819cf8d"
    }
   ]
  },
