@@ -106612,6 +106612,11 @@
     "summary": "New note: the process the model represents — the class defined by the Markov property, with the property section (three readings, what it does and does not say, higher order and generalisations), the transition law as a Markov kernel and its action as a Markov operator, Chapman-Kolmogorov, the time x state classification, the generator, and the canonical examples.",
     "commit": "dcf43d518f9540b16e39801e4954ba2455b08a96",
     "before": "2fe62ec4cceb77605e0d90d1c56be2cf77f33a90"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "The transition law is named as a Markov kernel and its action as a Markov operator, with both Wikipedia entries added to the references."
    }
   ]
  }

@@ -94,6 +94,8 @@ Nothing about long-run behaviour follows from being Markov. A chain may be trans
 - Ethier, S. N., & Kurtz, T. G. (1986). *Markov processes: Characterization and convergence*. Wiley. https://doi.org/10.1002/9780470316658
 - Kemeny, J. G., & Snell, J. L. (1960). *Finite Markov chains*. Van Nostrand.
 - Markov, A. A. (1906/1971). Extension of the limit theorems of probability theory to a sum of variables connected in a chain. In R. A. Howard (Ed.), *Dynamic probabilistic systems: Vol. 1. Markov models* (pp. 552–577). Wiley.
+- Markov kernel. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_kernel
+- Markov operator. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_operator
 - Meyn, S. P., & Tweedie, R. L. (2009). *Markov chains and stochastic stability* (2nd ed.). Cambridge University Press.
 - Norris, J. R. (1998). *Markov chains*. Cambridge University Press.
 - Seneta, E. (1996). Markov and the birth of chain dependence theory. *International Statistical Review*, 64(3), 255–263. https://doi.org/10.2307/1403785
