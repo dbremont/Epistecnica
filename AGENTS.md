@@ -48,7 +48,10 @@ src/app/                hub (index.html, /) + explorer.html (directory explorer)
                             + shared/ (nav search + viewer script + index chip)
 src/corpus/             content only: notes/ (sections + live notes), documents/
                             (papers, articles, books), courses/ (course dirs with
-                            readme.md + lectures); the three READMEs sit here
+                            readme.md + lectures); the three READMEs sit here.
+                            Notes sections: epistemica, nature, personal,
+                            production (the Produciologia lab corpus), social,
+                            technica, unclassified
 src/glossarium/…        lexical corpus + catalog/term view + lookup popup — see src/glossarium/README.md
 src/qa/…                Q/A log + catalog/entry viewer — see src/qa/README.md
 spec/                   general spec + shared design system + epistemic-content extraction method

@@ -52015,6 +52015,3306 @@
   ]
  },
  {
+  "file_path": "production/breviarium/a-guide-to-invest-in-a-shared-property.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-ipo.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-profile-a-firm.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-profile-a-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-profile-a-value-chain.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-profile-an-industry.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/a-guide-to-profile-production.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/an-essay-on-digital-transformation-index.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/an-essay-on-enterprise-research-labs.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/market/a-guide-to-the-enterprise-software-market.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/technique/regime/automation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/technique/regime/digitalization.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/technique/regime/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/breviarium/technique/regime/technoetism.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/firm/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/agriculture/lemon.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/cheese.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/chicken.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/ham.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/semiconductor/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/software/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/soybean.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/tobacco.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/wine.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/good/wood.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/product.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/research/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/science/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/catalog/service/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/consumption/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/bond.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/derivative.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/etf.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/future.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/loan.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/reit.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/security.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/asset/share.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/capital/stock.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/consumer/credit.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/dr/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/money/money.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/pe/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/rating.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/stock/ipo.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/finance/venture/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/firm.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/branding/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/comercialization/commercialization.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/comercialization/e-commerce.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/comercialization/invoicing.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/comercialization/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/customer/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/design/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/finance/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/governance/business-mail.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/governance/enterprise-information-flow-models.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/governance/leadership.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/governance/mail-strategies.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/governance/meetings-models.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/internationalization/export-finance.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/internationalization/export-insurance.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/internationalization/exporting.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/internationalization/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/internationalization/trade-insurance.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/inventory/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/investment/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/mangement/accounting.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/mangement/corporate-governance.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/mangement/corporate-strategy.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/mangement/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/mangement/vsm.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/marketing/advertising.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/marketing/market-development.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/marketing/market-reseach.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/marketing/market.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/marketing/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/modelling/evaluation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/modelling/margin.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/modelling/roi.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/operation/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/pricing/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/product/minimum-viable-product.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/product/product-differentiation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/product/product-lifecycle.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/product/product-strategy.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/product/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/risk/insurance.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/risk/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/strategy/strategy.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/team/hr.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/team/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/trading/quantitative-trading-qt.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/trading/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/trading/technical-analysis-ta.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/trading/technique/short.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/firm/toolkit/valuation/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/carbon-fiber.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/oil.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/rare-earth.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/semiconductor/gallium-nitride-gan.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/foundation/steel.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/meta/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/meta/research.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/agriculture/animal/beef-cattle-production.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/agriculture/animal/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/agriculture/banana/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/agriculture/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/apparel/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/appliances/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/chemical/fertilizer.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/chemical/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/commerce/ecommerce.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/commerce/firm/retail.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/commerce/retail.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/commerce/trading.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/construction/construction.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/creative/advertising.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/creative/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/defense/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/education/edtech.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/education/education.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/electronics/consumer.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/electronics/display.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/electronics/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/electronics/semiconductor/production/cpu.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/electronics/semiconductor/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/energy/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/food/diary.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/food/food.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/food/meat.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/food/seafood.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/footwear/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/forest/industry/paper.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/forest/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/health/health-industry.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/imachinary/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/legal/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/licensing/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/logistic/logistics-transportation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/logistic/logistics.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/machinetool/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/material/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/metal/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/metallurgical/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/mining/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/nonmetallic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/nuclear/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/packaging/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/personalcare/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/pharmaceutical/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/plastic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/realstate/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/retail/production/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/retail/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/rubber/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/firm/productivity.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/firm/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/autoprogram.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/constitutive/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/constitutive/security.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/model.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/program.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/prototype/model.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/prototype/program.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/production/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/software/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/telecommunication/telecommunications.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/textile/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/tool/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/tourism/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/transportation/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/industry/transportation/shipbuilding.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/biotecnica/biosensing.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/biotecnica/genetic/plant-genetic-engineering.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/biotecnica/polymerase-chain-reaction.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/biotecnica/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/aromatization/an-essay-on-clothes-aromataization.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/aromatization/an-essay-on-essential-oils.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/aromatization/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cleaning/a-guide-on-book-cleaning.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-cleaning-electronic-devices.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-clothing-cleaning.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-house-cleaning.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cleaning/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-air-fryer.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-fridge-organization.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-induction-cooking.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/processing/conseva/conserva.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/processing/conseva/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/processing/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/cooking/recipe/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-air-conditioning.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-bricolage.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-ceiling-fan.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-drill.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-house-electricty.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-screw.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-wall-mountin.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/an-essay-on-washer-dryer.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/organization/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/house/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/breviarium/personal/an-essay-on-hair-loss.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/biotech.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/construction.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/electronics.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/energy.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/material.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/medtech.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/metrology.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/robotics.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/semiconductors.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/software.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/catalog/unmanned-aerial-vehicle.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/design/ffe.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/design/interior.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/analog-to-digital-converter.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/asic.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/camera.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/capacitor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/electronic-circuit.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/i2c.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/ic.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/clock-rate.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/cmos.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/components.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/digital.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/electronic-design-automation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/pcb.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/soc.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/electronic-visual-display.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/esp32.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/fpga.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/gpio.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/hdl.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/inductor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/laser.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/lidar.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/logic-synthesis.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mems-oscillator.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mems.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/microcontroller.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/microprocessor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mosfet.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/photolithography.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/radar.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/remote-sensing.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/schematic.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/telescope.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/transistor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/verilator.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/verilog.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/electromagnetic/vhdl.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/automolbile-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/differential-pulley.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/domestic-water-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/drilling.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/gear.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/heat-engine.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/mechatronic-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/naval.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/naval/shipbuilding.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/rail.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/steam-engine.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/thermomechanical-jet-engine-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/mechanical/turbine.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/aerosol-spray-dispenser.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/energy-storage.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/ess.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/peeler-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/thermomechanical-food-holding-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/miscellanea/topic.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/robotic/cnc.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/fisicatecnica/robotic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/alloy.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/biogas.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/cement.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/ceramic.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/composite.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/glass.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/nanomaterial.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/polymer.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/semiconductor.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/smart-material.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/materiotecnia/tooling.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/meta/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/camara.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/cleaning-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/derivativesystem.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/digitaltwin.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/house.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/hvac-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/imaging.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/masonry.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/mass-flow-controller.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/peeling-machine.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/productionsystemc.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/propulsion-system.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/sensing.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/miscellanea/visiotecnica.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/production/technique/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Make the imported guide the section master: retitle it Production, lead with the corpus summary and point at the breviarium that holds the lab's guides."
+   }
+  ]
+ },
+ {
+  "file_path": "production/reflection/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/research/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/data/nomenclature.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/data/patent.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/data/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/data/sec/form-k.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/data/sec/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/method/clustering.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/reflection/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
+  "file_path": "production/toolkit/type/industry.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store."
+   }
+  ]
+ },
+ {
   "file_path": "social/action/activity/economic/commerce-economic-activity.md",
   "logs": [
    {
