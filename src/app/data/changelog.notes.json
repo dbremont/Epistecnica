@@ -105037,7 +105037,8 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the guide: physical reality cut into entities, properties, interactions and phenomena, with the description layer (frames, spaces, frameworks) kept apart and every node linked to its corpus note."
+    "summary": "Add the guide: physical reality cut into entities, properties, interactions and phenomena, with the description layer (frames, spaces, frameworks) kept apart and every node linked to its corpus note.",
+    "commit": "f4942a26b7f6f8e79bafae39d71e45d326fad05d"
    }
   ]
  }
