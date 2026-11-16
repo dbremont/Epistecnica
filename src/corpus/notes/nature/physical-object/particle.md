@@ -172,7 +172,7 @@ Contrast with wave-like behavior:
 - https://en.wikipedia.org/wiki/Elementary_particle
 - https://www.quantamagazine.org/what-is-a-particle-20201112/
 - https://en.wikipedia.org/wiki/Free_particle
-- [Inertia](/view.html?p=notes/nature/inertia.md)
+- [Inertia](/view.html?p=notes/nature/property/inertia.md)
 
 ## Related
 
