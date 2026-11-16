@@ -65,7 +65,7 @@ where:
 | --- | --- |
 | **Orthogonality** | A set of polynomials is orthogonal over an interval with respect to a weight function if the inner product of any two distinct polynomials in the set is zero. Common in approximation theory and spectral methods. |
 | **Degree** | The highest power of the variable in the polynomial. Determines the polynomial’s growth, shape, and the maximum number of roots it can have. |
-| **Zeros** | The values of the variable for which the polynomial evaluates to zero. Also called roots; a polynomial of degree $n$ has at most $n$ zeros. |
+| **Zeros** | The values of the variable for which the polynomial evaluates to zero. Also called roots; a polynomial of degree $n$ has at most $n$ zeros. The general concept — the factor theorem, multiplicity, the zero root and the named special cases — is [Root](/view.html?p=notes/epistemica/mathematical/mapping/root.md). |
 | **Symmetry** | Refers to whether the polynomial is even ($p(-x) = p(x)$), odd ($p(-x) = -p(x)$), or has other symmetric properties. Important in simplifying computations and understanding function behavior. |
 | **Coefficient Pattern** | Some polynomials have coefficients with special structures (e.g., binomial coefficients in $(x+1)^n$, Fibonacci polynomials, or Chebyshev coefficients). These patterns are often exploited in combinatorics and numerical methods. |
 | **Leading Coefficient** | The coefficient of the highest-degree term. Influences end behavior of the polynomial as $x \to \pm\infty$. |

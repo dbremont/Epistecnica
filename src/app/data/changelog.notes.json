@@ -6873,6 +6873,11 @@
     "summary": "Point the Tschirnhaus Transformation section at its own note instead of carrying the whole technique in a survey entry.",
     "commit": "0427a690099ecce5d2e53466a7d6d6acc4d157cf",
     "before": "b866b738f3cc22010359dffe83ef93977891b720"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Point the Zeros property row at the new general note on roots."
    }
   ]
  },
@@ -8841,6 +8846,16 @@
     "kind": "refactor",
     "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
     "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/mapping/root.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the general concept of a root: the equation/function readings and the zero set, the factor theorem and multiplicity, the zero root as the case a=0, the table of named senses (radical, root of unity, unit root, algebraic number, eigenvalue) each restricted from the general notion, what a root is not, and the separation of the concept from the techniques that locate one."
    }
   ]
  },

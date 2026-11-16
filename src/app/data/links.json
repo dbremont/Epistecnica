@@ -1,6 +1,12 @@
 {
   "links": [
     {
+      "from": "epistemica/mathematical/cossical/",
+      "to": "epistemica/mathematical/mapping/root.md",
+      "label": "Root",
+      "kind": "related"
+    },
+    {
       "from": "/",
       "to": "social/action/activity/economic/production/",
       "label": "Production",
