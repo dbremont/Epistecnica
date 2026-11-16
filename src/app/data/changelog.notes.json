@@ -106853,7 +106853,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -106939,7 +106941,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -106980,7 +106984,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -106997,7 +107003,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -107014,7 +107022,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -107043,7 +107053,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -107060,7 +107072,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  },
@@ -107077,7 +107091,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
+    "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
+    "before": "3e1eaa93d0fece653f27b88885334058edfab733"
    }
   ]
  }
