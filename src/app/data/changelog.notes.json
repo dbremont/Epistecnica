@@ -54107,7 +54107,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the commented ham link now points at social/good/ham.md."
+    "summary": "Follow the move: the commented ham link now points at social/good/ham.md.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1",
+    "before": "e81fc9c583a978da2a34ea9a9b96550e1d051dd6"
    }
   ]
  },
@@ -54519,7 +54521,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the Software Product Space link now points at social/good/software/readme.md."
+    "summary": "Follow the move: the Software Product Space link now points at social/good/software/readme.md.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1",
+    "before": "e81fc9c583a978da2a34ea9a9b96550e1d051dd6"
    }
   ]
  },
@@ -54601,7 +54605,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the Good Catalog link now points at social/good/readme.md."
+    "summary": "Follow the move: the Good Catalog link now points at social/good/readme.md.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1",
+    "before": "e81fc9c583a978da2a34ea9a9b96550e1d051dd6"
    }
   ]
  },
@@ -105996,7 +106002,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/cheese.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/cheese.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106006,7 +106013,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/chicken.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/chicken.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106016,7 +106024,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/ham.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/ham.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106026,7 +106035,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/wine.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/wine.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106036,7 +106046,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/wood.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/wood.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106046,7 +106057,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/soybean.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/soybean.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106056,7 +106068,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/tobacco.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/tobacco.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106066,7 +106079,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/agriculture/lemon.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+    "summary": "Move from production/catalog/good/agriculture/lemon.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106076,7 +106090,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/semiconductor/readme.md: the semiconductor product space lists concrete goods, and the shelf that decomposes the Good holds them."
+    "summary": "Move from production/catalog/good/semiconductor/readme.md: the semiconductor product space lists concrete goods, and the shelf that decomposes the Good holds them.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106086,7 +106101,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/software/readme.md: the software product space lists concrete goods, and the shelf that decomposes the Good holds them."
+    "summary": "Move from production/catalog/good/software/readme.md: the software product space lists concrete goods, and the shelf that decomposes the Good holds them.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  },
@@ -106096,12 +106112,15 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/good/readme.md: it becomes the readme of the goods shelf."
+    "summary": "Move from production/catalog/good/readme.md: it becomes the readme of the goods shelf.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    },
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retitle the readme to Good Catalog: as \"Good\" it would sit one row from good.md, the shelf master of that name, and the browse directory would show two identically titled notes."
+    "summary": "Retitle the readme to Good Catalog: as \"Good\" it would sit one row from good.md, the shelf master of that name, and the browse directory would show two identically titled notes.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1",
+    "before": "e81fc9c583a978da2a34ea9a9b96550e1d051dd6"
    }
   ]
  },
@@ -106111,7 +106130,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from production/catalog/product.md and rename to product-catalog.md: a names-only list of products belongs with the goods rather than with the production catalog, and the suffix keeps it distinct from the Product note beside it."
+    "summary": "Move from production/catalog/product.md and rename to product-catalog.md: a names-only list of products belongs with the goods rather than with the production catalog, and the suffix keeps it distinct from the Product note beside it.",
+    "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
    }
   ]
  }
