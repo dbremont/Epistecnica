@@ -2,7 +2,7 @@
 tags: [note, catalog]
 ---
 
-# Good
+# Good Catalog
 
 - ...
 

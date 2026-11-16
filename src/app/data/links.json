@@ -217,6 +217,12 @@
       "kind": "related"
     },
     {
+      "from": "production/",
+      "to": "social/good/",
+      "label": "Goods",
+      "kind": "related"
+    },
+    {
       "from": "epistemica/quantification/",
       "to": "epistemica/mathematical/norm/",
       "label": "Norm",

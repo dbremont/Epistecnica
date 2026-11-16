@@ -87,7 +87,7 @@ tags: [note, production]
 
 - [Good Nomenclature System](/view.html?p=notes/production/toolkit/data/nomenclature.md)
 - Technology Catalog
-- [Good Catalog](/view.html?p=notes/production/catalog/good/readme.md)
+- [Good Catalog](/view.html?p=notes/social/good/readme.md)
 - [Service Catalog](/view.html?p=notes/production/catalog/service/readme.md)
 - [Firm Catalog](/view.html?p=notes/production/catalog/firm/readme.md)
 - [Market Catalog](/view.html?p=notes/production/catalog/firm/readme.md)

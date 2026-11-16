@@ -149,4 +149,4 @@ Dataset
 * [Software Market Size](https://www.grandviewresearch.com/industry-analysis/software-market-report)
 * [The Software Complexity of Nations](https://arxiv.org/abs/2407.13880)
 * [A Guide Computational System Implementation Toolkit](https://righteous-guardian-68f.notion.site/A-Guide-Computational-System-Implementation-Toolkit-1b5c0f5171ec8038909ef15467f06fb2?source=copy_link)
-* [Software Product Space](/view.html?p=notes/production/catalog/good/software/readme.md)
+* [Software Product Space](/view.html?p=notes/social/good/software/readme.md)

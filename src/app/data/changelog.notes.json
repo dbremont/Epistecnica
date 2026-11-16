@@ -54103,6 +54103,11 @@
     "kind": "feat",
     "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store.",
     "commit": "19aead3fd6708c70899d5ffa9d8736f273b85a1d"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the commented ham link now points at social/good/ham.md."
    }
   ]
  },
@@ -54510,6 +54515,11 @@
     "kind": "feat",
     "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store.",
     "commit": "19aead3fd6708c70899d5ffa9d8736f273b85a1d"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the Software Product Space link now points at social/good/software/readme.md."
    }
   ]
  },
@@ -54587,6 +54597,11 @@
     "kind": "feat",
     "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store.",
     "commit": "19aead3fd6708c70899d5ffa9d8736f273b85a1d"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Follow the move: the Good Catalog link now points at social/good/readme.md."
    }
   ]
  },
@@ -105972,6 +105987,131 @@
     "summary": "Follow the moves: the elementary-particle, classical-particle and quantum-particle links point at nature/elementary/, and the directory sentence says where those notes sit — the elementary shelf for the particles the standard model does not compose, the nature root for the composites and the matter kinds.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/cheese.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/cheese.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/chicken.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/chicken.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/ham.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/ham.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/wine.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/wine.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/wood.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/wood.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/soybean.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/soybean.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/tobacco.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/tobacco.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/agriculture/lemon.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/agriculture/lemon.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/semiconductor/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/semiconductor/readme.md: the semiconductor product space lists concrete goods, and the shelf that decomposes the Good holds them."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/software/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/software/readme.md: the software product space lists concrete goods, and the shelf that decomposes the Good holds them."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/good/readme.md: it becomes the readme of the goods shelf."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retitle the readme to Good Catalog: as \"Good\" it would sit one row from good.md, the shelf master of that name, and the browse directory would show two identically titled notes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/product-catalog.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from production/catalog/product.md and rename to product-catalog.md: a names-only list of products belongs with the goods rather than with the production catalog, and the suffix keeps it distinct from the Product note beside it."
    }
   ]
  }
