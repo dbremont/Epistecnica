@@ -426,4 +426,4 @@ The **root file system** is mounted during the **boot process** of a Linux or Un
 - https://notes.eatonphil.com/2025-03-27-things-that-go-wrong-with-disk-io.html
 - [Berkeley Socket](/view.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
 
-[Recovery](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/recovery.md)
+[Recovery](/view.html?p=notes/technica/computation/data-system/recovery.md)

@@ -228,7 +228,7 @@ qemu-system-x86_64 \
 - https://wiki.archlinux.org/title/List_of_applications
 - https://wiki.archlinux.org/title/General_recommendations
 - https://gist.github.com/mjkstra/96ce7a5689d753e7a6bdd92cdc169bae
-- [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
+- [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/qemu-quick-emulator.md)
 - [**Interconnect**](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/interconnect.md)
 - https://wiki.archlinux.org/title/Iwd
 - https://wiki.archlinux.org/title/Installation_guide

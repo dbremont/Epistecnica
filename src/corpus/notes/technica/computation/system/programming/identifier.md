@@ -57,5 +57,5 @@ QA:
 - https://en.wikipedia.org/wiki/Universally_unique_identifier
 - [Naming](/view.html?p=notes/technica/computation/system/programming/naming.md)
 - [Name](/view.html?p=notes/technica/computation/language-system/name.md) [Names In a  **Computer Process Object Space**]
-- [Database Record Identifier Models](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/database-record-identifier-models.md)
+- [Database Record Identifier Models](/view.html?p=notes/technica/computation/data-system/database-record-identifier-models.md)
 - [Program Element](/view.html?p=notes/technica/computation/language-system/program-element.md)

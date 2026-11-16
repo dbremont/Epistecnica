@@ -120,6 +120,6 @@ Retrieval System: Conceptual Model
 - Miller, D. R. H., Leek, T., Schwartz, R. M. (1999). A hidden Markov model information retrieval system. Proceedings of the 22nd Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 1999, 214–221.
 - [Information retrieval](https://en.wikipedia.org/wiki/Information_retrieval)
 - [Search](/view.html?p=notes/technica/computation/algorithm/search.md)
-- [Data Maps (Index)](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/data-maps-index.md)
-    - [**Inverted Index**](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/inverted-index.md)
+- [Data Maps (Index)](/view.html?p=notes/technica/computation/data-system/data-maps-index.md)
+    - [**Inverted Index**](/view.html?p=notes/technica/computation/data-system/inverted-index.md)
 - https://github.com/dbremont/documentorum/blob/main/lib/Lunr.js

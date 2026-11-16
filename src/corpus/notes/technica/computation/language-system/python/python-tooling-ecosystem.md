@@ -215,7 +215,7 @@ References:
 
 ## Package Manager
 
-> [uv](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/uv.md)
+> [uv](/view.html?p=notes/technica/computation/system/operation/uv.md)
 > 
 
 > pip - https://pip.pypa.io/en/stable/

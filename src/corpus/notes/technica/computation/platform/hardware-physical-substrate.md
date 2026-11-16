@@ -318,7 +318,7 @@ Conceptual Model: Hardware
 
 - [Time](/view.html?p=notes/technica/computation/miscelanea/time.md)
 - [Energy](https://app.notion.com/p/Energy-39f21c7cc02545e289e03578281bd13f?pvs=21)
-- [Workload](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
+- [Workload](/view.html?p=notes/technica/computation/system/design/workload.md)
 - https://en.wikipedia.org/wiki/InfiniBand
 - [Cloud Computing System](/view.html?p=notes/technica/computation/platform/cloud-computing-system.md)
 - https://en.wikipedia.org/wiki/Computer_hardware

@@ -704,10 +704,10 @@ A system may need to evolve because of:
 ## References
 
 - [Task](/view.html?p=notes/technica/computation/language-system/task.md)
-- [Jenkins](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/jenkins.md)
+- [Jenkins](/view.html?p=notes/technica/computation/system/operation/jenkins.md)
 - [Platform](/view.html?p=notes/technica/computation/platform.md)
 - [Dataflow](/view.html?p=notes/technica/computation/concurrency/dataflow.md)
-- [**Build System**](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
+- [**Build System**](/view.html?p=notes/technica/computation/system/operation/build-system.md)
 - [Dependability](/view.html?p=notes/technica/computation/dependability.md)
 - [Unit of Computation](/view.html?p=notes/technica/computation/language-system/unit-of-computation.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)

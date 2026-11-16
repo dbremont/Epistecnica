@@ -227,7 +227,7 @@ These dimensions help define how the application is deployed, hosted, and manage
 Operation: Conceptual Model
 
 - [What is CI/CD?](https://about.gitlab.com/topics/ci-cd/)
-- [Log Processing](/view.html?p=notes/technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/log-processing.md)
+- [Log Processing](/view.html?p=notes/technica/computation/system/evaluation/monitoring/log-processing.md)
 - https://www.reddit.com/r/devops/
 - https://en.wikipedia.org/wiki/DevOps
 - [A Guide to Akamai-Linode](https://app.notion.com/p/A-Guide-to-Akamai-Linode-155c0f5171ec805d8d20e63d32f68077?pvs=21)

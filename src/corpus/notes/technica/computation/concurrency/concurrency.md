@@ -690,7 +690,7 @@ Design Principles
 
 ### **Fault Tolerance**
 
-> See more in [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21) and [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
+> See more in [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21) and [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/fault-tolerant-design.md)
 > 
 - Checkpointing
 - Consensus Protocols
@@ -830,7 +830,7 @@ Conceptual Model: Coordination
 - [Language System](/view.html?p=notes/technica/computation/language-system.md)
 - [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
-- [**Message Delivery Guarantee**](/view.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md)
+- [**Message Delivery Guarantee**](/view.html?p=notes/technica/computation/distributed-computing/message-delivery-guarantee.md)
 - https://en.wikipedia.org/wiki/Cache_coherence
 - https://stackoverflow.com/questions/10989403/how-is-x86-instruction-cache-synchronized
 - https://stackoverflow.com/questions/2368164/how-is-thread-synchronization-implemented-at-the-assembly-language-level

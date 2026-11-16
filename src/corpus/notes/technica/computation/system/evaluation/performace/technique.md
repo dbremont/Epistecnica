@@ -116,7 +116,7 @@ QA:
 > Use prepared statements to avoid SQL injection attacks and improve query performance.
 > 
 
-> Use connection pooling to reduce the overhead of opening and closing database connections. See more in [**Connection Pool**](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/connection-pool.md).
+> Use connection pooling to reduce the overhead of opening and closing database connections. See more in [**Connection Pool**](/view.html?p=notes/technica/computation/data-system/connection-pool.md).
 > 
 
 ## DNS System

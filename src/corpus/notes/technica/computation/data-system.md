@@ -232,7 +232,7 @@ Data System: Conceptual Model
 - An Empirical Evaluation of Columnar Storage Formats [pdf] ([vldb.org](http://vldb.org/))
 [https://news.ycombinator.com/item?id=40370613](https://news.ycombinator.com/item?id=40370613)
 - [https://en.wikipedia.org/wiki/DB-Engines_ranking](https://en.wikipedia.org/wiki/DB-Engines_ranking)
-- [Workload](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/workload.md)
+- [Workload](/view.html?p=notes/technica/computation/system/design/workload.md)
 - [Storage System](/view.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
 - OLTP Through the Looking Glass 16 Years Later: Communication is the New Bottleneck /  [https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf](https://www.vldb.org/cidrdb/papers/2025/p17-zhou.pdf)z
 - Wang, Hao, et al. "LavaStore: ByteDance's Purpose-Built, High-Performance, Cost-Effective Local Storage Engine for Cloud Services." Proceedings of the VLDB Endowment 17.12 (2024): 3799-3812.

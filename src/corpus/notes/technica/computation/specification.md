@@ -99,7 +99,7 @@ tags: [note]
 ## References
 
 - [Documentation](/view.html?p=notes/technica/computation/system/documentation.md)
-- [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md)
+- [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/fault-tolerant-design.md)
 - https://www.bremontix.xyz/lab/pro/Catalog/Production/Regime/Technoetism/
 - https://githubnext.com/projects/speclang/
 - [A Guide on AI-Assisted Programming](https://app.notion.com/p/A-Guide-on-AI-Assisted-Programming-2c1c0f5171ec802f8be1d2b1d6d6c92c?pvs=21)

@@ -262,6 +262,6 @@ tags: [note, representation]
 
 ## References
 
-- [Relational Data System Storage Management](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md)
-- [**Object Storage Data System**](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/object-storage-data-system.md)
-- [Heap File Organization](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md)
+- [Relational Data System Storage Management](/view.html?p=notes/technica/computation/data-system/relational-data-system-storage-management.md)
+- [**Object Storage Data System**](/view.html?p=notes/technica/computation/data-system/object-storage-data-system.md)
+- [Heap File Organization](/view.html?p=notes/technica/computation/data-system/heap-file-organization.md)

@@ -224,7 +224,7 @@ QA:
 > A **Web API (Application Programming Interface)** is a set of rules and protocols for building and interacting with web-based applications, allowing different software systems to communicate over the internet using HTTP methods.
 > 
 
-> See more in [Interaction Protocol](/view.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md)
+> See more in [Interaction Protocol](/view.html?p=notes/technica/computation/distributed-computing/interaction-protocol.md)
 > 
 
 | **Communication Method** | **Description** | **Key Features** | **Use Cases** |
@@ -494,7 +494,7 @@ Telecom: Conceptual Model
 - [Web API](https://en.wikipedia.org/wiki/Web_API)
 - [Stable APIs are a Pipe Dream](https://note89.github.io/pipe-dream/)
 - [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
-- [Network Virtualization](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md)
+- [Network Virtualization](/view.html?p=notes/technica/computation/platform/virtualization/network-virtualization.md)
 - https://github.com/alex/what-happens-when
 - https://en.wikipedia.org/wiki/Telecommunications
 - [Electromagnetism](https://app.notion.com/p/Electromagnetism-ecb3d9ce10f0425a85326aa81634a0d9?pvs=21)

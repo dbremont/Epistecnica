@@ -24,7 +24,7 @@ tags: [note, language-system]
 
 ## References
 
-- [Emulator](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/emulator.md)
+- [Emulator](/view.html?p=notes/technica/computation/platform/virtualization/emulator.md)
 - [Virtualization](/view.html?p=notes/technica/computation/platform/virtualization.md)
 - https://github.com/dbremont/isa-labs
 - https://github.com/dbremont/linux-api-labs

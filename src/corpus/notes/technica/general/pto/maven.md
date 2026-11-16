@@ -4,7 +4,7 @@ tags: [note, build-system, package-manager]
 
 # Apache Maven
 
-- [Build System](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
+- [Build System](/view.html?p=notes/technica/computation/system/operation/build-system.md)
 
 > In this note, we will explore **Apache Maven**, a technical system that allows developers to **specify build execution plans**—descriptions of the computations that a build engine must carry out to transform project sources and resources into build artifacts.
 > 
@@ -1390,5 +1390,5 @@ project/
 - [Java](/view.html?p=notes/technica/computation/language-system/java.md)
 - https://maven.apache.org/pom.html
 - [Java](/view.html?p=notes/technica/computation/language-system/java.md)
-- [Jenkins](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/jenkins.md)
+- [Jenkins](/view.html?p=notes/technica/computation/system/operation/jenkins.md)
 - [Apache Maven](https://www.notion.so/Apache-Maven-d84ccddd5a5840a98866c124ef937703?source=copy_link)

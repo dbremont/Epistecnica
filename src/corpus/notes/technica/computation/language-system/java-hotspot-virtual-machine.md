@@ -172,7 +172,7 @@ public class MyAgent {
 ## References
 
 - https://github.com/openjdk/jdk
-- [GNU Autotools](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md)
+- [GNU Autotools](/view.html?p=notes/technica/computation/system/operation/gnu-autotools.md)
 - https://hg.openjdk.org/jdk/jdk11/raw-file/tip/doc/building.html
 - https://github.com/openjdk
 - https://wiki.openjdk.org/display/HotSpot/Main

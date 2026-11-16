@@ -16,7 +16,7 @@ tags: [note]
 > Our study of the **OS Systems** will be organized in terms of the study of ([Linux](/view.html?p=notes/technica/computation/operating-system/linux/linux.md)).
 > 
 
-> **Note:** A useful way to study a computer system from the ground up is by using a virtualization system like [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md).
+> **Note:** A useful way to study a computer system from the ground up is by using a virtualization system like [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/qemu-quick-emulator.md).
 > 
 
 ## Formulation

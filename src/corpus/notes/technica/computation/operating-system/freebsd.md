@@ -130,4 +130,4 @@ file kernel.debug
 - https://www.freebsd.org/
 - https://github.com/freebsd/freebsd-src
 - [Berkeley Socket](/view.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
-- [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md)
+- [QEMU (Quick Emulator)](/view.html?p=notes/technica/computation/platform/virtualization/qemu-quick-emulator.md)

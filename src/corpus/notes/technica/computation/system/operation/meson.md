@@ -1,0 +1,13 @@
+---
+tags: [note, build-system, tool]
+---
+
+# Meson
+
+- [Build System](/view.html?p=notes/technica/computation/system/operation/build-system.md)
+
+> 
+
+## References
+
+- https://mesonbuild.com/

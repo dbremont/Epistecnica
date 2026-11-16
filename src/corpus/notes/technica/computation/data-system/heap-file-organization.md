@@ -1,0 +1,14 @@
+---
+tags: [note, storage-system]
+---
+
+# Heap File Organization
+
+- [Relational Data System Storage Management](/view.html?p=notes/technica/computation/data-system/relational-data-system-storage-management.md)
+
+> A file organization where **data pages are unordered**, and records can be stored in any page with available space. There is no intrinsic physical ordering of records.
+> 
+
+## References
+
+- …

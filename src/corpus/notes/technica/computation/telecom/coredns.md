@@ -85,4 +85,4 @@ This makes CoreDNS:
 ## References
 
 - https://coredns.io/
-- [**Kubernetes**](/view.html?p=notes/technica/computation/platform/virtualization/virtualization-conceptual-model/kubernetes.md)
+- [**Kubernetes**](/view.html?p=notes/technica/computation/platform/virtualization/kubernetes.md)

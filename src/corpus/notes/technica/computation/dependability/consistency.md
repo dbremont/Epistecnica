@@ -129,7 +129,7 @@ tags: [note]
 
 ## References
 
-- [Isolation Model](/view.html?p=notes/technica/computation/data-system/data-system-conceptual-model/isolation-model.md)
+- [Isolation Model](/view.html?p=notes/technica/computation/data-system/isolation-model.md)
 - [Visualizing Linearizability](https://mwhittaker.github.io/blog/visualizing_linearizability/)
 - [Linearizability versus Serializability](http://www.bailis.org/blog/linearizability-versus-serializability/)
 - [Eventual Consistency Today: Limitations, Extensions, and Beyond](https://queue.acm.org/detail.cfm?id=2462076)
