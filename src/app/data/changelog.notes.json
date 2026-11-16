@@ -28433,6 +28433,16 @@
   ]
  },
  {
+  "file_path": "nature/bio/organism/plant/sargassum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the natural note for the genus: typed as an organism at micro level, with the brown-alga placement stated against the plant folder that holds it, the holopelagic life cycle of S. natans and S. fluitans, the thallus architecture and the pneumatocysts, the processes (photosynthesis, nutrient uptake, apical growth, sexual and vegetative reproduction, senescence), the attached and free-floating states, the Sargasso Sea and Great Atlantic Sargassum Belt environments, the substrates, the temperature, nutrient and advection bounds, and the level and limitation records."
+   }
+  ]
+ },
+ {
   "file_path": "nature/bio/organism/plant/tobacco-nicotiana-tabacum.md",
   "logs": [
    {
@@ -32282,6 +32292,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/el-nino-southern-oscillation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the natural note for ENSO: typed as a phenomenon at macro level (the coupled oscillation as a regularity) with a second decomposition of the natural-system reading it is readable as. Records the phases and the cycle, the Southern Oscillation Index and the Oceanic Nino Index as the operational measures, the equatorial Pacific domain and the interannual band, the tropical Pacific background state, the seasonal phase locking, the basin-width bound and the spring predictability barrier; the system reading adds the warm pool, cold tongue and thermocline as parts and the Bjerknes feedback, recharge-discharge oscillator and equatorial waveguide as mechanisms."
    }
   ]
  },
