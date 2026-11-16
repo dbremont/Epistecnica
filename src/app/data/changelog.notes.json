@@ -106849,6 +106849,11 @@
     "summary": "New note: the fractal, filed under geometry where the shape atlas already types the fractal curve, region and solid rows. The note takes the dimensional definition (dimension exceeding topological dimension), separates it from self-similarity as the generator, gives the four generation mechanisms, the log N / log r dimension with the five standard values, and the natural, time-series and network appearances.",
     "commit": "8ff13b3f0604a223771c7128d17c875bfdca08f1",
     "before": "9d4cc80275fc74fb84be3973b699645015d20f42"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -106930,6 +106935,11 @@
     "summary": "The transition law is named as a Markov kernel and its action as a Markov operator, with both Wikipedia entries added to the references.",
     "commit": "1896d10e735821593974c199b2e0704f057c2fb5",
     "before": "c8523dccd2202b5a114e9a10890d076f31ae7848"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -106966,6 +106976,11 @@
     "summary": "New family page for the force shelf: the four axes a force is classified by (contact, origin, range, frame) and an index of the sixteen notes, with the boundary that the quantity itself is carried by nature/property/force.md.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -106978,6 +106993,11 @@
     "summary": "New family page for the interaction shelf: the four axes (status, description, scope, domain) and an index of the fourteen notes, with the boundary against the force shelf the interactions produce.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -106990,6 +107010,11 @@
     "summary": "New note: the frame-acceleration term written as a force — its four kinds (translational, centrifugal, Coriolis, Euler), the mass proportionality and frame dependence it carries, the non-inertial frame it needs, and the two bounds that define it: it vanishes in an inertial frame, and it is locally indistinguishable from gravity. The boundary keeps it on the force shelf while saying plainly that it names no interaction.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -107014,6 +107039,11 @@
     "summary": "New entry page for the theory shelf: the three questions the theory of computation asks — what a machine of a given structure recognises, what any machine can decide, and what it can decide within a budget — with the notes that carry each, and the boundary against the language-system shelf (the realisation) and the algorithm shelf (the procedures).",
     "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
     "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -107026,6 +107056,11 @@
     "summary": "New note on the open question: the two classes by machine and by witness, the completeness result that makes one problem stand for all of them, what each answer would settle (including the gap between a separation and the average-case hardness cryptography needs), the ladder of inclusions, and the four barriers a proof must evade — relativization, natural proofs, algebrization and proof complexity. States plainly that the statement is not known to be independent, and that the belief in separation is evidence rather than proof.",
     "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
     "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  },
@@ -107038,6 +107073,11 @@
     "summary": "New note on the permutation: the arrangement and the bijection as the same fact read twice, the counts (n!, partial, words with repetition, multiset, derangements, cycles), cycle structure and its arithmetic form in the Stirling numbers, parity and the alternating group, permutation matrices and Cayley, and the boundary against combination, word, ordering and the permutation test.",
     "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
     "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly."
    }
   ]
  }

@@ -26,11 +26,11 @@ A problem is **NP-complete** when it is in NP and every problem in NP reduces to
 | Problem | Where it lives in the corpus | Why it is complete |
 | --- | --- | --- |
 | **Satisfiability (SAT / 3-SAT)** | — (no note yet) | the root: a machine's accepting computation is encoded as a formula whose satisfying assignment is the certificate |
-| **Travelling salesman (decision)** | [Travelling Salesman Problem](../algorithm/traveling-salesman-problem.md) | Hamiltonian cycle, which reduces from 3-SAT |
-| **Knapsack / subset sum (decision)** | [Knapsack Problem](../algorithm/knapsack-problem.md) | exact cover and partition constructions |
-| **Graph colouring** | [Coloring](../algorithm/coloring.md) | 3-colourability reduces from 3-SAT; $k$-colourability from 3-colourability |
-| **Bin packing** | [Bin Packing Problem](../algorithm/bin-packing-problem.md) | partition |
-| **Job scheduling** | [Job Scheduling Problem](../algorithm/job-scheduling-problem.md) | partition and 3-partition, in the strong sense |
+| **Travelling salesman (decision)** | [Travelling Salesman Problem](/view.html?p=notes/technica/computation/algorithm/traveling-salesman-problem.md) | Hamiltonian cycle, which reduces from 3-SAT |
+| **Knapsack / subset sum (decision)** | [Knapsack Problem](/view.html?p=notes/technica/computation/algorithm/knapsack-problem.md) | exact cover and partition constructions |
+| **Graph colouring** | [Coloring](/view.html?p=notes/technica/computation/algorithm/coloring.md) | 3-colourability reduces from 3-SAT; $k$-colourability from 3-colourability |
+| **Bin packing** | [Bin Packing Problem](/view.html?p=notes/technica/computation/algorithm/bin-packing-problem.md) | partition |
+| **Job scheduling** | [Job Scheduling Problem](/view.html?p=notes/technica/computation/algorithm/job-scheduling-problem.md) | partition and 3-partition, in the strong sense |
 
 The notes above describe the optimisation problems; their decision versions — "is there a tour of length at most $k$?" — are the NP-complete ones. This is not a technicality: the optimisation problem is at least as hard, and the reduction runs on the decision version.
 
@@ -41,7 +41,7 @@ The notes above describe the optimisation problems; their decision versions — 
 | The class collapses: every NP-complete problem has a polynomial algorithm, and finding a solution becomes no harder than checking one | Search is genuinely harder than verification |
 | Public-key cryptography as practised — RSA, discrete logarithm, elliptic curves — falls, since its hardness assumptions are in NP | One-way functions may exist, but cryptography additionally needs *average-case* hardness over the distributions keys are drawn from; the worst-case separation supplies none of that |
 | The polynomial hierarchy collapses to P, and with it most of the open separation questions in the shelf | NP-intermediate problems exist (Ladner): in NP, not in P, not complete — integer factoring is the standing candidate |
-| Approximation, learning and combinatorial optimisation change character: exact answers become feasible where only heuristics were | The practical response is already in place: approximation ratios, parameterised algorithms, and average-case analysis, which is what [Computational Complexity Theory](computational-complexity-theory.md) exists to state precisely |
+| Approximation, learning and combinatorial optimisation change character: exact answers become feasible where only heuristics were | The practical response is already in place: approximation ratios, parameterised algorithms, and average-case analysis, which is what [Computational Complexity Theory](/view.html?p=notes/technica/computation/theory/computational-complexity-theory.md) exists to state precisely |
 
 The gap between "P ≠ NP" and "cryptography is possible" is Impagliazzo's five worlds, and it is worth keeping the ladder in view:
 
@@ -90,4 +90,4 @@ The belief rests on evidence, and the evidence is inductive: a class of problems
 - Levin, L. A. (1973). Universal sequential search problems. *Problems of Information Transmission, 9*(3), 265–266.
 - Razborov, A. A., & Rudich, S. (1997). Natural proofs. *Journal of Computer and System Sciences, 55*(1), 24–35. https://doi.org/10.1006/jcss.1997.1494
 - Sipser, M. (2013). *Introduction to the theory of computation* (3rd ed.). Cengage Learning. — the class definitions and the completeness proofs in full.
-- [Computational Complexity Theory](computational-complexity-theory.md) — the taxonomy this question is asked about · [Turing Machine](turing-machine.md) — the machine the classes count steps of · [Algorithm](../algorithm.md) — the procedures whose cost is at stake
+- [Computational Complexity Theory](/view.html?p=notes/technica/computation/theory/computational-complexity-theory.md) — the taxonomy this question is asked about · [Turing Machine](/view.html?p=notes/technica/computation/theory/turing-machine.md) — the machine the classes count steps of · [Algorithm](/view.html?p=notes/technica/computation/algorithm.md) — the procedures whose cost is at stake

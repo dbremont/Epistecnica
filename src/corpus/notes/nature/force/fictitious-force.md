@@ -14,7 +14,7 @@ tags: [note, nature, force, physics, property]
 
 `Interaction-Derived Quantity` at meso level of organization (Ontic; Qualitative), specialized from `Property` — a quantity carried by a state of motion rather than by a body.
 
-**Boundary.** Every other note on the [force shelf](forces.md) describes a quantity derived from an *interaction between bodies*. This one is derived from the relation between a body and a **frame**: the acceleration of the observer's coordinate system. That is why the type still holds — it is a derived quantity of a joint state — while the reading as an interaction does not. It is also not a [fundamental force](fundamental-forces.md): the four interactions have agents and fields, and this has neither. And it is not a violation of Newtonian mechanics: the law holds in the inertial frame, and the fictitious force is the correction that lets the same law be written in a frame that accelerates.
+**Boundary.** Every other note on the [force shelf](/view.html?p=notes/nature/force/forces.md) describes a quantity derived from an *interaction between bodies*. This one is derived from the relation between a body and a **frame**: the acceleration of the observer's coordinate system. That is why the type still holds — it is a derived quantity of a joint state — while the reading as an interaction does not. It is also not a [fundamental force](/view.html?p=notes/nature/force/fundamental-forces.md): the four interactions have agents and fields, and this has neither. And it is not a violation of Newtonian mechanics: the law holds in the inertial frame, and the fictitious force is the correction that lets the same law be written in a frame that accelerates.
 
 ### What is this natural instance?
 
@@ -60,5 +60,5 @@ Each is the same situation: an observer in an accelerating frame, insisting on w
 - https://en.wikipedia.org/wiki/Fictitious_force
 - Lanczos, C. (1970). *The variational principles of mechanics* (4th ed.). University of Toronto Press. — the classical treatment of inertial forces and the rotating frame.
 - Taylor, J. R. (2005). *Classical mechanics*. University Science Books. — the derivations of the centrifugal, Coriolis and Euler terms.
-- [Forces](forces.md) — the shelf this note belongs to · [Fundamental Forces](fundamental-forces.md) — the interactions it is *not* · [Force](/view.html?p=notes/nature/property/force.md) — the quantity it imitates
+- [Forces](/view.html?p=notes/nature/force/forces.md) — the shelf this note belongs to · [Fundamental Forces](/view.html?p=notes/nature/force/fundamental-forces.md) — the interactions it is *not* · [Force](/view.html?p=notes/nature/property/force.md) — the quantity it imitates
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)

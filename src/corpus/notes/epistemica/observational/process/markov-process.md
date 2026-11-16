@@ -4,7 +4,7 @@ tags: [note, probability, stochastic-process]
 
 # Markov Process
 
-Related: [Stochastic Process](stochastic-process.md), [Markov Model](markov-model.md), [CTMC](ctmc-continuous-time-markov-chain.md), [Random Walk](random-walk-drunkard-s-walk.md), [Poisson Process](poisson-process.md), [Brownian Motion](brownian-motion.md), [Stationary Process](stationary-process.md).
+Related: [Stochastic Process](/view.html?p=notes/epistemica/observational/process/stochastic-process.md), [Markov Model](/view.html?p=notes/epistemica/observational/process/markov-model.md), [CTMC](/view.html?p=notes/epistemica/observational/process/ctmc-continuous-time-markov-chain.md), [Random Walk](/view.html?p=notes/epistemica/observational/process/random-walk-drunkard-s-walk.md), [Poisson Process](/view.html?p=notes/epistemica/observational/process/poisson-process.md), [Brownian Motion](/view.html?p=notes/epistemica/observational/process/brownian-motion.md), [Stationary Process](/view.html?p=notes/epistemica/observational/process/stationary-process.md).
 
 > A **Markov process** is a stochastic process that satisfies the Markov property: given the present state, the future is conditionally independent of the past. The class is exactly the processes the property admits — nothing else is assumed, and everything a Markov process allows follows from that one condition.
 
@@ -61,8 +61,8 @@ The class is indexed by two choices, the time set and the state space; the famil
 
 | | **Discrete state space** | **General state space** |
 | --- | --- | --- |
-| **Discrete time** | [Markov chain](ctmc-continuous-time-markov-chain.md) — random walk, Ehrenfest urn, Galton–Watson, PageRank | Markov chain on a general state space, driven by a transition kernel; iterated random maps |
-| **Continuous time** | Markov jump process — CTMC, [Poisson process](poisson-process.md), birth–death and queueing processes | Diffusion — [Brownian motion](brownian-motion.md), Ornstein–Uhlenbeck, Itô diffusions; more generally Lévy-type processes |
+| **Discrete time** | [Markov chain](/view.html?p=notes/epistemica/observational/process/ctmc-continuous-time-markov-chain.md) — random walk, Ehrenfest urn, Galton–Watson, PageRank | Markov chain on a general state space, driven by a transition kernel; iterated random maps |
+| **Continuous time** | Markov jump process — CTMC, [Poisson process](/view.html?p=notes/epistemica/observational/process/poisson-process.md), birth–death and queueing processes | Diffusion — [Brownian motion](/view.html?p=notes/epistemica/observational/process/brownian-motion.md), Ornstein–Uhlenbeck, Itô diffusions; more generally Lévy-type processes |
 
 The vertical axis decides whether the generator is a matrix (a rate matrix $Q$) or a differential operator; the horizontal axis decides whether the state is counted or measured.
 

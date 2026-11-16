@@ -16,31 +16,31 @@ A force is classified here along four axes, and the notes in the folder are the 
 | **Contact** | contact / non-contact | whether the bodies have to touch for the force to act |
 | **Origin** | fundamental / derived / effective | whether it is one of the four interactions, or a consequence of them at a larger scale |
 | **Range** | long-range / short-range | whether the force survives separation — gravity and electromagnetism do, the nuclear forces do not |
-| **Frame** | real / frame-dependent | whether it survives the change to an inertial frame; a [fictitious force](fictitious-force.md) does not |
+| **Frame** | real / frame-dependent | whether it survives the change to an inertial frame; a [fictitious force](/view.html?p=notes/nature/force/fictitious-force.md) does not |
 
 ## What is in the shelf
 
 | Note | What it carries |
 | --- | --- |
-| [Contact Forces](contact-forces.md) | Forces that require the bodies to touch — normal, friction, tension, applied load. |
-| [Non-Contact Forces](non-contact-forces.md) | Forces that act at a distance — gravitational, electric, magnetic. |
-| [Fundamental Forces](fundamental-forces.md) | The four interactions read as forces: strong, electromagnetic, weak, gravitational. |
-| [Derived Forces](derived-forces.md) | Forces that are consequences of the fundamental ones at the scale where the object is met. |
-| [Fictitious Force](fictitious-force.md) | The frame's acceleration written as a force — centrifugal, Coriolis, Euler, translational. |
-| [Force Imbalance](force-imbalance.md) | The net force that is left when the forces on a body do not cancel. |
-| [Energy/Force](energy-force.md) | The pair read together: work as the transfer of energy, force as the rate of momentum change. |
-| [Intramolecular Forces](intramolecular-forces.md) | The forces inside a molecule that hold its atoms in a bond. |
-| [Van der Waals Forces](van-der-waals-forces.md) | The short-range attractions and repulsions between neutral molecules. |
-| [Dipole-Dipole Forces](dipole-dipole-forces.md) | The interaction between permanent molecular dipoles. |
-| [Ion-Dipole Forces](ion-dipole-forces.md) | The interaction between an ion and a polar molecule — the reason salts dissolve. |
-| [London Dispersion Forces](london-dispersion-forces.md) | The instantaneous-dipole attraction present between any two molecules. |
-| [Driving Forces](driving-forces.md) | The force that sustains a process against resistance rather than balancing it. |
-| [By Pressure and Forces](iv-by-pressure-forces.md) | Forces read through the pressure they exert on a surface. |
-| [Vis (Force)](vis-force.md) | The historical notion of force as an active power — the Latin *vis*. |
-| [Vis mortua (Dead Force)](vis-mortua-dead-force.md) | The historical counterpart: pressure, weight at rest, force that does no work. |
+| [Contact Forces](/view.html?p=notes/nature/force/contact-forces.md) | Forces that require the bodies to touch — normal, friction, tension, applied load. |
+| [Non-Contact Forces](/view.html?p=notes/nature/force/non-contact-forces.md) | Forces that act at a distance — gravitational, electric, magnetic. |
+| [Fundamental Forces](/view.html?p=notes/nature/force/fundamental-forces.md) | The four interactions read as forces: strong, electromagnetic, weak, gravitational. |
+| [Derived Forces](/view.html?p=notes/nature/force/derived-forces.md) | Forces that are consequences of the fundamental ones at the scale where the object is met. |
+| [Fictitious Force](/view.html?p=notes/nature/force/fictitious-force.md) | The frame's acceleration written as a force — centrifugal, Coriolis, Euler, translational. |
+| [Force Imbalance](/view.html?p=notes/nature/force/force-imbalance.md) | The net force that is left when the forces on a body do not cancel. |
+| [Energy/Force](/view.html?p=notes/nature/force/energy-force.md) | The pair read together: work as the transfer of energy, force as the rate of momentum change. |
+| [Intramolecular Forces](/view.html?p=notes/nature/force/intramolecular-forces.md) | The forces inside a molecule that hold its atoms in a bond. |
+| [Van der Waals Forces](/view.html?p=notes/nature/force/van-der-waals-forces.md) | The short-range attractions and repulsions between neutral molecules. |
+| [Dipole-Dipole Forces](/view.html?p=notes/nature/force/dipole-dipole-forces.md) | The interaction between permanent molecular dipoles. |
+| [Ion-Dipole Forces](/view.html?p=notes/nature/force/ion-dipole-forces.md) | The interaction between an ion and a polar molecule — the reason salts dissolve. |
+| [London Dispersion Forces](/view.html?p=notes/nature/force/london-dispersion-forces.md) | The instantaneous-dipole attraction present between any two molecules. |
+| [Driving Forces](/view.html?p=notes/nature/force/driving-forces.md) | The force that sustains a process against resistance rather than balancing it. |
+| [By Pressure and Forces](/view.html?p=notes/nature/force/iv-by-pressure-forces.md) | Forces read through the pressure they exert on a surface. |
+| [Vis (Force)](/view.html?p=notes/nature/force/vis-force.md) | The historical notion of force as an active power — the Latin *vis*. |
+| [Vis mortua (Dead Force)](/view.html?p=notes/nature/force/vis-mortua-dead-force.md) | The historical counterpart: pressure, weight at rest, force that does no work. |
 
 Several of these are still undecomposed imports — they state their type (`Interaction-Derived Quantity` at meso) and mark the expansion as pending. The shelf exists so that they can be worked in one place rather than at the corpus root.
 
 ## References
 
-- [Force](/view.html?p=notes/nature/property/force.md) — the quantity these notes are instances of · [Interaction](../interaction/interactions.md) — the shelf that files the interactions themselves · [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)
+- [Force](/view.html?p=notes/nature/property/force.md) — the quantity these notes are instances of · [Interaction](/view.html?p=notes/nature/interaction/interactions.md) — the shelf that files the interactions themselves · [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)

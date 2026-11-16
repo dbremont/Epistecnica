@@ -12,7 +12,7 @@ tags: [note, mathematics, geometry]
 
 > **What it is.** The scale-invariant shape. A smooth curve resolves into a straight line under magnification; a fractal does not — magnify it and the same structure reappears, so no scale exists at which the detail is exhausted.
 >
-> **Type.** A `Concept` — a predicate on a point set, stated in the vocabulary of [measure](../measure/measure.md). It is not a figure kind: the rows that file fractal curves, regions and solids under [Geometric Shape](geometric-shape.md) are figures that *carry* the property, and the same set can be read as a smooth curve at one magnification and as a fractal at another.
+> **Type.** A `Concept` — a predicate on a point set, stated in the vocabulary of [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md). It is not a figure kind: the rows that file fractal curves, regions and solids under [Geometric Shape](/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md) are figures that *carry* the property, and the same set can be read as a smooth curve at one magnification and as a fractal at another.
 >
 > **Boundary.** The dimensional definition and the self-similar generator are not the same test, and sets pass one while failing the other. A space-filling curve — Hilbert's, Peano's, Moore's — is exactly self-similar and has integer dimension $2$, so it is not a fractal by the definition, yet the shape atlas files it among the fractal curves. A coastline is statistically self-similar but exhibits no exact copy of itself at any scale. The word is used for both, which is why "fractal" names a family of readings rather than a closed class.
 
@@ -33,7 +33,7 @@ The last three are the ways a set becomes fractal; the first is what makes it on
 | --- | --- | --- |
 | **Recursive replacement** | every segment, triangle or cube is replaced by scaled copies of itself | Koch curve, Cantor dust, Sierpiński triangle and carpet, Menger sponge |
 | **Iterated function system** | the attractor of a finite set of contractions | Cantor dust, Sierpiński triangle, dragon curve, Barnsley fern |
-| **Escape-time iteration** | the parameter set for which an orbit stays bounded | [Mandelbrot set](../change/mandelbrot-set.md), its [Julia sets](../change/mandelbrot-set.md) |
+| **Escape-time iteration** | the parameter set for which an orbit stays bounded | [Mandelbrot set](/view.html?p=notes/epistemica/mathematical/change/mandelbrot-set.md), its [Julia sets](/view.html?p=notes/epistemica/mathematical/change/mandelbrot-set.md) |
 | **Random growth** | a stochastic rule with no exact copy of the whole | diffusion-limited aggregation, Brownian trail, river networks |
 
 The first two are the same object: an iterated function system is the rewriting rule stated in the language of maps, and its attractor is the limit of the replacement. Escape-time sets are different in kind — the fractal is a set of *parameters* or *initial conditions*, not a shape traced by the iteration, which is why the Mandelbrot set's own boundary is not a self-similar construction.
@@ -54,19 +54,19 @@ the exponent that makes the number of copies grow like the inverse scale raised 
 | Sierpiński carpet | eight copies at ratio $1/3$ | $\log 8/\log 3 \approx 1.893$ |
 | Menger sponge | twenty copies at ratio $1/3$ | $\log 20/\log 3 \approx 2.727$ |
 
-The values are what the dimension means: the Koch curve is more than a line but less than a plane, and the Cantor dust is more than a point and less than a line. The dimension is a *quantity* only because the [Hausdorff measure](../measure/measure.md) turns it into one — the measure at exponent $D$ is finite and positive, and every other exponent gives zero or infinity.
+The values are what the dimension means: the Koch curve is more than a line but less than a plane, and the Cantor dust is more than a point and less than a line. The dimension is a *quantity* only because the [Hausdorff measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) turns it into one — the measure at exponent $D$ is finite and positive, and every other exponent gives zero or infinity.
 
 Not every fractal dimension is fractional: the boundary of the Mandelbrot set has Hausdorff dimension $2$, and the Julia set of $z \mapsto z^2$ is the unit circle, dimension $1$. The definition asks for excess over the topological dimension, not for a fraction.
 
 ## Where they appear
 
-- **In nature.** A coastline has no finite length — the measured length grows as the ruler shrinks, and the growth exponent is a fractal dimension. River networks, fracture surfaces, clouds and diffusion-limited aggregation are the same reading: a structure whose [power law](../../../nature/power-law.md) over scales is the signature of self-similarity. The constructions behind them are the stochastic processes of [Cellular Automata](../change/cellular-automata.md).
-- **In time series.** A persistent or anti-persistent series has a fractal dimension estimate, and the Hurst exponent — with detrended fluctuation analysis beside it — measures the same self-similarity in the time domain rather than in space ([Statistical Function](../../observational/statistical-function.md)).
-- **In networks.** A network is fractal when its box-counting over renormalised neighbourhoods follows a power law, which is how hierarchical, self-similar topologies are distinguished from random ones ([Network Science](../../network/network-science.md)).
+- **In nature.** A coastline has no finite length — the measured length grows as the ruler shrinks, and the growth exponent is a fractal dimension. River networks, fracture surfaces, clouds and diffusion-limited aggregation are the same reading: a structure whose [power law](/view.html?p=notes/nature/power-law.md) over scales is the signature of self-similarity. The constructions behind them are the stochastic processes of [Cellular Automata](/view.html?p=notes/epistemica/mathematical/change/cellular-automata.md).
+- **In time series.** A persistent or anti-persistent series has a fractal dimension estimate, and the Hurst exponent — with detrended fluctuation analysis beside it — measures the same self-similarity in the time domain rather than in space ([Statistical Function](/view.html?p=notes/epistemica/observational/statistical-function.md)).
+- **In networks.** A network is fractal when its box-counting over renormalised neighbourhoods follows a power law, which is how hierarchical, self-similar topologies are distinguished from random ones ([Network Science](/view.html?p=notes/epistemica/network/network-science.md)).
 
 ## References
 
 - https://en.wikipedia.org/wiki/Fractal
 - Mandelbrot, B. *How Long Is the Coast of Britain? Statistical Self-Similarity and Fractional Dimension* (1967) — the paper that made the dimension measurable in nature.
 - Falconer, K. *Fractal Geometry: Mathematical Foundations and Applications* — the standard treatment of Hausdorff and box dimension.
-- [Geometric Shape](geometric-shape.md) — the figure rows that carry the property · [Dimension](../structure/linear/dimension.md) — the overloaded word, and the vector-space sense this note does not use · [Hausdorff Measure](../measure/measure.md) · [Mandelbrot Set](../change/mandelbrot-set.md)
+- [Geometric Shape](/view.html?p=notes/epistemica/mathematical/geometry/geometric-shape.md) — the figure rows that carry the property · [Dimension](/view.html?p=notes/epistemica/mathematical/structure/linear/dimension.md) — the overloaded word, and the vector-space sense this note does not use · [Hausdorff Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [Mandelbrot Set](/view.html?p=notes/epistemica/mathematical/change/mandelbrot-set.md)
