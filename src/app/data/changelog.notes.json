@@ -6865,6 +6865,26 @@
   ]
  },
  {
+  "file_path": "epistemica/mathematical/cossical/polynomial.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Point the Tschirnhaus Transformation section at its own note instead of carrying the whole technique in a survey entry."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/cossical/tschirnhaus-transformation.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the technique note: the replacement of the unknown by a function of a new indeterminate, one coefficient for one parameter in the shift, the general substitution and its auxiliary system, the reason the method stops at the quintic (Bring, Jerrard, Abel), and the field-theoretic reading as a change of primitive element."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/mathematical/differential-form.md",
   "logs": [
    {
@@ -56729,6 +56749,11 @@
     "summary": "Add the Medicina mentis references (the 1695 Leipzig edition on Open Library and its digitised copy) and name the work in the opening description.",
     "commit": "503a8e7150f35e0a3676a4cc2bcc3f67be37fca3",
     "before": "4375ad368994012fc5fd3c9510858663f5552da9"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Reference the corpus note on the transformation that carries his name."
    }
   ]
  },

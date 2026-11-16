@@ -99,6 +99,8 @@ The general form of Vieta's formulas for a polynomial of degree nn is:
 > The Tschirnhaus transformation is a change of variables that aims to eliminate certain terms from a polynomial equation, typically the higher-degree terms, to make the equation simpler to solve or analyze. It is commonly used to simplify the form of a given polynomial, especially quartic or higher-degree polynomials, by removing certain terms like the cubic term in a general polynomial.
 > 
 
+> **Survey entry.** What follows is the shape of the transformation. The technique itself — the substitution, the coefficient conditions, the auxiliary system they require, and why the method stops at the quintic — has [its own note](/view.html?p=notes/epistemica/mathematical/cossical/tschirnhaus-transformation.md).
+
 **General Form:**
 
 Consider a polynomial of degree $n$ in the variable $x$:  $P(x) = a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x + a_0$.

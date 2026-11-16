@@ -14,3 +14,4 @@ type: person
 - https://mathshistory.st-andrews.ac.uk/Biographies/Tschirnhaus/
 - [Medicina mentis (Leipzig, 1695)](https://openlibrary.org/books/OL24475005M/Medicina_mentis)
 - [Medicina mentis, digitised](https://archive.org/details/medicinamentissi00tsch)
+- [Tschirnhaus transformation — the technique](/view.html?p=notes/epistemica/mathematical/cossical/tschirnhaus-transformation.md)
