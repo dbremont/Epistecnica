@@ -12012,7 +12012,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -30487,7 +30489,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to heat now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to heat now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -40710,7 +40714,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -49375,7 +49381,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the 2 links to energy and heat now that the quantity is filed under nature/property/."
+    "summary": "Retarget the 2 links to energy and heat now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -94026,7 +94034,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105131,7 +105141,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite for a populated shelf: the decomposition gains a row per member under the intrinsic and interaction-derived kinds, the taxonomy table lists the members it files, the introduction no longer claims the shelf is thin, and the QA that promised the root notes would move 'as each is formulated' is replaced by the cut it now applies. A new QA records that heat's filing is the family's weakest, since it names a transfer rather than a carried state."
+    "summary": "Rewrite for a populated shelf: the decomposition gains a row per member under the intrinsic and interaction-derived kinds, the taxonomy table lists the members it files, the introduction no longer claims the shelf is thin, and the QA that promised the root notes would move 'as each is formulated' is replaced by the cut it now applies. A new QA records that heat's filing is the family's weakest, since it names a transfer rather than a carried state.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105148,7 +105160,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105225,7 +105239,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the 3 links to mass, electric charge and spin now that the quantity is filed under nature/property/."
+    "summary": "Retarget the 3 links to mass, electric charge and spin now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105246,7 +105262,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/mass.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/mass.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105256,7 +105273,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/weight.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/weight.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105266,7 +105284,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/electric-charge.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/electric-charge.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105276,7 +105295,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/spin.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/spin.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105286,7 +105306,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/temperature.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/temperature.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105296,7 +105317,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/volume.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/volume.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105306,7 +105328,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/pressure.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/pressure.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105316,7 +105339,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/force.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/force.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105326,7 +105350,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105336,7 +105361,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/energy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/energy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105346,7 +105372,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/acceleration.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/acceleration.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105356,7 +105383,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/work.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/work.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105366,7 +105394,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/power.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/power.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105376,7 +105405,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/angular-momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/angular-momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105386,7 +105416,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/heat.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/heat.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105396,7 +105427,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/entropy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+    "summary": "Move from nature/entropy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
    }
   ]
  },
@@ -105406,7 +105438,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105416,7 +105450,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105426,7 +105462,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105436,7 +105474,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105446,7 +105486,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the 3 links to energy, force and momentum now that the quantity is filed under nature/property/."
+    "summary": "Retarget the 3 links to energy, force and momentum now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105456,7 +105498,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to force now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to force now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105466,7 +105510,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to force now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to force now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105476,7 +105522,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  },
@@ -105486,7 +105534,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the link to acceleration now that the quantity is filed under nature/property/."
+    "summary": "Retarget the link to acceleration now that the quantity is filed under nature/property/.",
+    "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
+    "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
    }
   ]
  }
