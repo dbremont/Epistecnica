@@ -56722,6 +56722,11 @@
     "kind": "feat",
     "summary": "Open the persona note: the Tschirnhaus transformation, the optical researches and the hard-paste porcelain work with Bottger, with the encyclopedia and MacTutor references.",
     "commit": "0d5da8b3a59ae7114feb290e6244edd3a05ee034"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Add the Medicina mentis references (the 1695 Leipzig edition on Open Library and its digitised copy) and name the work in the opening description."
    }
   ]
  },
