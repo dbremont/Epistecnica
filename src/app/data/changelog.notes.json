@@ -105719,7 +105719,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Related list names the magnet note: the phenomenon and the body that carries it are now separated."
+    "summary": "Related list names the magnet note: the phenomenon and the body that carries it are now separated.",
+    "commit": "8b7f923778e6a4bef3fb35a7c79978a4c7c5b14d",
+    "before": "d15dad0ac160c5216af1ce4d291f774269775e77"
    }
   ]
  },
@@ -106530,7 +106532,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note: the magnet as a body rather than as the phenomenon — a material particular whose aligned domains produce a field of its own. The note gives the type reading (Natural Object, readable as a constitutive technical object, not a property, substance or system), the decomposition into domains, walls, poles, material instances, the five properties and the three bounds, the kinds by where the field comes from, and the reason the alignment survives its own demagnetizing field."
+    "summary": "New note: the magnet as a body rather than as the phenomenon — a material particular whose aligned domains produce a field of its own. The note gives the type reading (Natural Object, readable as a constitutive technical object, not a property, substance or system), the decomposition into domains, walls, poles, material instances, the five properties and the three bounds, the kinds by where the field comes from, and the reason the alignment survives its own demagnetizing field.",
+    "commit": "8b7f923778e6a4bef3fb35a7c79978a4c7c5b14d",
+    "before": "d15dad0ac160c5216af1ce4d291f774269775e77"
    }
   ]
  }
