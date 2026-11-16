@@ -221,6 +221,18 @@
       "to": "social/good/",
       "label": "Goods",
       "kind": "related"
+    },
+    {
+      "from": "epistemica/quantification/",
+      "to": "epistemica/mathematical/norm/",
+      "label": "Norm",
+      "kind": "related"
+    },
+    {
+      "from": "epistemica/quantification/",
+      "to": "epistemica/mathematical/metric/",
+      "label": "Metric",
+      "kind": "related"
     }
   ]
 }
