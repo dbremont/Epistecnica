@@ -25554,6 +25554,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder: a Standard Model phenomenon note imported from Notion with its definition and decomposition never worked."
    }
   ]
  },
@@ -31374,6 +31379,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder: a phenomenon note imported from Notion with its definition and decomposition never worked; steady current is carried by electric-current.md."
    }
   ]
  },
@@ -32142,6 +32152,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder: a note typed Property with no definition and no decomposition, imported from Notion and never worked."
    }
   ]
  },
@@ -105537,6 +105552,16 @@
     "summary": "Retarget the link to acceleration now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/charge-carrier.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Tidy the note: the title takes sentence-style capitalisation as Charge Carrier, and the Notion provenance line drops."
    }
   ]
  }
