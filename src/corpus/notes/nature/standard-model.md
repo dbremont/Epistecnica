@@ -15,7 +15,7 @@ tags: [note, nature, substance-matter, particle-physics]
 
 ## Related
 
-- [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
+- [Fundamental Interaction](/view.html?p=notes/nature/interaction/fundamental-interaction.md)
 
 ## Provenance
 

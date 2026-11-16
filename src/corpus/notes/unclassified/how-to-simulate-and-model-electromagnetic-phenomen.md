@@ -124,7 +124,7 @@ See  [Maxwell's Fundamental Electromagnetic Formulation](https://app.notion.com/
 ## References
 
 - https://www.openems.de/
-- [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
+- [Fundamental Interaction](/view.html?p=notes/nature/interaction/fundamental-interaction.md)
 -
 - [Electromagnetic Field (EM)](/view.html?p=notes/nature/electromagnetic-field-em.md)
 - [**Electromagnetic Radiation** (**EMR**)](/view.html?p=notes/nature/electromagnetic-radiation-emr.md)

@@ -31172,7 +31172,7 @@
   ]
  },
  {
-  "file_path": "nature/configuration-interaction-ci.md",
+  "file_path": "nature/interaction/configuration-interaction-ci.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -31180,6 +31180,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/configuration-interaction-ci.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -31375,7 +31380,7 @@
   ]
  },
  {
-  "file_path": "nature/contact-forces.md",
+  "file_path": "nature/force/contact-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -31383,6 +31388,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/contact-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -31538,7 +31548,7 @@
   ]
  },
  {
-  "file_path": "nature/cosmological-interactions.md",
+  "file_path": "nature/interaction/cosmological-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -31546,6 +31556,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/cosmological-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -31982,7 +31997,7 @@
   ]
  },
  {
-  "file_path": "nature/derived-forces.md",
+  "file_path": "nature/force/derived-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -31990,6 +32005,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/derived-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -32126,7 +32146,7 @@
   ]
  },
  {
-  "file_path": "nature/dipole-dipole-forces.md",
+  "file_path": "nature/force/dipole-dipole-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -32134,6 +32154,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/dipole-dipole-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -32421,7 +32446,7 @@
   ]
  },
  {
-  "file_path": "nature/driving-forces.md",
+  "file_path": "nature/force/driving-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -32429,6 +32454,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/driving-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -32850,7 +32880,7 @@
   ]
  },
  {
-  "file_path": "nature/electromagnetic-interactions.md",
+  "file_path": "nature/interaction/electromagnetic-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -32858,6 +32888,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/electromagnetic-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -32898,7 +32933,7 @@
   ]
  },
  {
-  "file_path": "nature/electron-interaction.md",
+  "file_path": "nature/interaction/electron-interaction.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -32906,6 +32941,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/electron-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -33042,7 +33082,7 @@
   ]
  },
  {
-  "file_path": "nature/emergent-and-collective-interactions.md",
+  "file_path": "nature/interaction/emergent-and-collective-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -33050,6 +33090,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/emergent-and-collective-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -34325,7 +34370,7 @@
   ]
  },
  {
-  "file_path": "nature/force-imbalance.md",
+  "file_path": "nature/force/force-imbalance.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -34333,6 +34378,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/force-imbalance.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -34757,7 +34807,7 @@
   ]
  },
  {
-  "file_path": "nature/fundamental-forces.md",
+  "file_path": "nature/force/fundamental-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -34765,6 +34815,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/fundamental-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -39005,7 +39060,7 @@
   ]
  },
  {
-  "file_path": "nature/interaction-effects.md",
+  "file_path": "nature/interaction/interaction-effects.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39013,11 +39068,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/interaction-effects.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
  {
-  "file_path": "nature/interaction-space.md",
+  "file_path": "nature/interaction/interaction-space.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39025,11 +39085,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/interaction-space.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
  {
-  "file_path": "nature/interactions-outcomes.md",
+  "file_path": "nature/interaction/interactions-outcomes.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39037,6 +39102,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/interactions-outcomes.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -39136,7 +39206,7 @@
   ]
  },
  {
-  "file_path": "nature/intramolecular-forces.md",
+  "file_path": "nature/force/intramolecular-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39144,6 +39214,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/intramolecular-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -39196,7 +39271,7 @@
   ]
  },
  {
-  "file_path": "nature/ion-dipole-forces.md",
+  "file_path": "nature/force/ion-dipole-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39204,6 +39279,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/ion-dipole-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -39280,7 +39360,7 @@
   ]
  },
  {
-  "file_path": "nature/iv-by-pressure-forces.md",
+  "file_path": "nature/force/iv-by-pressure-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -39288,6 +39368,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/iv-by-pressure-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -40141,7 +40226,7 @@
   ]
  },
  {
-  "file_path": "nature/london-dispersion-forces.md",
+  "file_path": "nature/force/london-dispersion-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -40149,6 +40234,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/london-dispersion-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -40821,6 +40911,11 @@
     "summary": "Point the matter master at its new sub-shelf: the empty Index section gains the Elementary Particle line, so the particles with no composition to give are reachable from the family that owns their stuff-kind.",
     "commit": "4b09cfd1d2d2acc3cec14c7dbb6ac614a65010e7",
     "before": "9d68f823c6fc5ff9aae38171d364e7e44c72d68f"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -42688,7 +42783,7 @@
   ]
  },
  {
-  "file_path": "nature/non-contact-forces.md",
+  "file_path": "nature/force/non-contact-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -42696,6 +42791,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/non-contact-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -43933,7 +44033,7 @@
   ]
  },
  {
-  "file_path": "nature/physical-interaction.md",
+  "file_path": "nature/interaction/physical-interaction.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -43941,6 +44041,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/physical-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -45321,7 +45426,7 @@
   ]
  },
  {
-  "file_path": "nature/quantum-mechanical-interactions.md",
+  "file_path": "nature/interaction/quantum-mechanical-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -45329,6 +45434,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/quantum-mechanical-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -47136,7 +47246,7 @@
   ]
  },
  {
-  "file_path": "nature/specialized-and-niche-interactions.md",
+  "file_path": "nature/interaction/specialized-and-niche-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -47144,6 +47254,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/specialized-and-niche-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -48212,7 +48327,7 @@
   ]
  },
  {
-  "file_path": "nature/taxonomy-of-interactions.md",
+  "file_path": "nature/interaction/taxonomy-of-interactions.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -48220,6 +48335,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/taxonomy-of-interactions.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -49988,7 +50108,7 @@
   ]
  },
  {
-  "file_path": "nature/van-der-waals-forces.md",
+  "file_path": "nature/force/van-der-waals-forces.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -49996,6 +50116,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/van-der-waals-forces.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -50204,7 +50329,7 @@
   ]
  },
  {
-  "file_path": "nature/vis-force.md",
+  "file_path": "nature/force/vis-force.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -50212,11 +50337,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/vis-force.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
  {
-  "file_path": "nature/vis-mortua-dead-force.md",
+  "file_path": "nature/force/vis-mortua-dead-force.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -50224,6 +50354,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/vis-mortua-dead-force.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
@@ -94034,6 +94169,11 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105316,6 +105456,11 @@
     "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105453,6 +105598,11 @@
     "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105508,6 +105658,11 @@
     "kind": "move",
     "summary": "Move from nature/force.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the energy-force link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105519,6 +105674,11 @@
     "kind": "move",
     "summary": "Move from nature/momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105530,6 +105690,11 @@
     "kind": "move",
     "summary": "Move from nature/energy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the energy-force link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105608,6 +105773,11 @@
     "summary": "Retarget the link to mass now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
@@ -105672,11 +105842,16 @@
     "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  },
  {
-  "file_path": "nature/energy-force.md",
+  "file_path": "nature/force/energy-force.md",
   "logs": [
    {
     "date": "2026-11-16",
@@ -105684,11 +105859,16 @@
     "summary": "Retarget the 3 links to energy, force and momentum now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/energy-force.md: the force quantities now sit in their own shelf, beside the force property note and the family page that indexes them."
    }
   ]
  },
  {
-  "file_path": "nature/fundamental-interaction.md",
+  "file_path": "nature/interaction/fundamental-interaction.md",
   "logs": [
    {
     "date": "2026-11-16",
@@ -105696,11 +105876,16 @@
     "summary": "Retarget the link to force now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/fundamental-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
  {
-  "file_path": "nature/fundamental-molecular-interaction.md",
+  "file_path": "nature/interaction/fundamental-molecular-interaction.md",
   "logs": [
    {
     "date": "2026-11-16",
@@ -105708,6 +105893,11 @@
     "summary": "Retarget the link to force now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/fundamental-molecular-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them."
    }
   ]
  },
@@ -106664,6 +106854,46 @@
     "summary": "New good: the tapped exudate sold as the naval-stores pair. The note gives the three pine supply routes (gum, wood, tall oil) and why tall-oil rosin sets the marginal price, the colour and acid-value grading, and the value reading — a feedstock priced by grade rather than a branded product.",
     "commit": "347da1f21d117937145e284b5365bd0513d7c76a",
     "before": "b72268784e2c80bef48fad0205d97bb001aba204"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/force/forces.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New family page for the force shelf: the four axes a force is classified by (contact, origin, range, frame) and an index of the sixteen notes, with the boundary that the quantity itself is carried by nature/property/force.md."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/interaction/interactions.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New family page for the interaction shelf: the four axes (status, description, scope, domain) and an index of the fourteen notes, with the boundary against the force shelf the interactions produce."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/force/fictitious-force.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: the frame-acceleration term written as a force — its four kinds (translational, centrifugal, Coriolis, Euler), the mass proportionality and frame dependence it carries, the non-inertial frame it needs, and the two bounds that define it: it vanishes in an inertial frame, and it is locally indistinguishable from gravity. The boundary keeps it on the force shelf while saying plainly that it names no interaction."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/standard-model.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in."
    }
   ]
  }

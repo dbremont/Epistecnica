@@ -23,7 +23,7 @@ tags: [note, nature, property]
 > Which are the carrier of **Electric Charger**?
 >
 
-> See [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
+> See [Fundamental Interaction](/view.html?p=notes/nature/interaction/fundamental-interaction.md)
 >
 
 | Carrier | Description |
