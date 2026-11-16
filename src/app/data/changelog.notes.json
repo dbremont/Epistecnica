@@ -15198,6 +15198,11 @@
     "summary": "Add the history the method was missing: an Origins section tracing the line from Buffon and Laplace through Fermi, Ulam and von Neumann, the 1949 naming paper and the 1953 algorithm, to the annealing, Gibbs and MCMC generation and on to HMC, pseudo-marginal and multilevel variants — with the point that the 1980s shift from integrals to inference is why the note sits here. References split into primary sources, books and surveys, and links, and the duplicated processing table and case-study rows removed.",
     "commit": "e73cbd49d7fc08b18bed138ab9894fa2ea71e916",
     "before": "01db454fb8356bc4e0cf6b2ab3705c16ef127341"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "style",
+    "summary": "Rewrite the origins as prose with APA citations instead of a table, and flatten the references into one alphabetical APA list — the bibliography-by-type grouping was not a reference list. Adds the sources the prose now cites in text: Buffon, Laplace, Metropolis 1987 and Ulam 1976."
    }
   ]
  },

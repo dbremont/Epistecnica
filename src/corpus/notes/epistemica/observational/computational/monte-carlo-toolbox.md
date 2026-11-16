@@ -23,34 +23,21 @@ tags: [note, probability, simulation, technique]
   - Construct empirical distributions to approximate probability distributions.
   - Calculate weighted averages to account for unequal sampling probabilities.
 
-
 ## Origins
 
-> The method is older than its name. It began as a way of estimating an integral or a transport problem whose analysis was impossible, invented inside a weapons programme, and only decades later became the machinery of inference — the shift that is why this note is filed under observational at all.
+> The method is older than its name. It began as a way of estimating an integral whose analysis was impossible, was built inside a weapons programme, and only decades later became the machinery of inference — which is why this note sits beside the models it is used to infer rather than beside the approximation methods it resembles.
 
-| Work | Year | What it introduced |
-| --- | --- | --- |
-| Buffon's needle — *Essai d'arithmétique morale* | 1777 | The first quantity obtained by sampling: a needle thrown on a ruled plane estimates $\pi$ — the ancestor of the dartboard method in the case study below. |
-| Laplace — *Théorie analytique des probabilités* | 1812 | Expectation read as an integral and estimated by ratios of counts; the analytic frame the method would later invert. |
-| Fermi — neutron diffusion at Rome and Los Alamos | 1930s–40s | Neutron histories sampled by hand, then with the FERMIAC analogue machine (1947); unpublished, and the reason the method existed before it had a name. |
-| Ulam & von Neumann — solitaire and neutron shielding | 1946 | The modern idea: replace a computation that cannot be done by many trials that can. The name comes from Ulam's uncle, who gambled in Monaco. |
-| Metropolis & Ulam — *The Monte Carlo Method* | 1949 | The method named and stated publicly, with the ENIAC runs behind it. |
-| Metropolis, Rosenbluth, Rosenbluth, Teller & Teller | 1953 | Sampling from a *distribution* rather than estimating an integral: the acceptance rule later called the Metropolis algorithm. |
-| Kahn & Marshall | 1953 | Sample-size reduction as a design problem — variance reduction rather than brute force. |
-| Hammersley & Morton — *Poor man's Monte Carlo* | 1954 | The same idea on a lattice gas, and the first accounting of what a given accuracy costs in samples. |
-| RAND — *A Million Random Digits* | 1955 | The random stream as a published, reproducible object — the infrastructure the method silently assumed. |
-| Hastings — *Biometrika* | 1970 | Asymmetric proposals: the transition rule generalised into Metropolis–Hastings. |
-| Kirkpatrick, Gelatt & Vecchi; Černý | 1983, 1985 | Simulated annealing: the sampling rule turned into an optimiser. |
-| Geman & Geman — image restoration | 1984 | The Gibbs sampler, as stochastic relaxation on a lattice. |
-| Gelfand & Smith | 1990 | Gibbs sampling arrives in Bayesian statistics; the MCMC boom begins. |
-| Gordon, Salmond & Smith — bootstrap filter | 1993 | Sequential Monte Carlo: the sample population follows the state through time. |
-| Green — reversible jump | 1995 | The chain moves between models, not only within one. |
-| Halton; Sobol' | 1960, 1967 | Low-discrepancy sequences: the deterministic cousin that trades randomness for equidistribution. |
-| Giles — multilevel Monte Carlo | 2008 | The same estimator at several resolutions, combined to cut cost. |
-| Andrieu, Doucet & Holenstein — particle MCMC | 2010 | Unbiased estimators inside the chain: the pseudo-marginal family. |
-| Neal; Hoffman & Gelman | 2011, 2014 | Hamiltonian Monte Carlo and NUTS: gradients instead of random walks. |
+The first appearance is a geometric-probability puzzle. Buffon's needle, thrown on a ruled plane, estimates $\pi$ from the fraction of throws that cross a line (Buffon, 1777) — the ancestor of the dartboard method in the case study below. Laplace gave the frame rather than the practice: an expectation is an integral, and an integral can be estimated by a ratio of counts (Laplace, 1812). For a century it stayed a curiosity, because the arithmetic had to be done by hand.
 
-> Two shifts are visible in the column. The first, from 1949 to 1955, is a method for **integrals and transport**: a hard deterministic computation replaced by many cheap random ones, with the error bought down as $1/\sqrt{N}$ and the cost paid in random digits. The second, from 1983 to 1995, is a method for **inference**: once the target is a probability distribution rather than a number, sampling from it becomes the computation, and the same acceptance rule serves a posterior. The second shift is why the note sits beside the models it is used to infer, rather than beside the approximation methods it mathematically resembles.
+The computer gave it a problem worth the arithmetic. Fermi sampled neutron histories at Rome and Los Alamos through the 1930s, first by hand and later with the FERMIAC analogue machine, and never published it (Metropolis, 1987). The modern statement belongs to Ulam and von Neumann in 1946, working on solitaire and on neutron shielding at Los Alamos: replace a computation that cannot be carried out by many trials that can. The name is Ulam's, taken from an uncle who gambled in Monaco (Ulam, 1976). The method's public statement is Metropolis and Ulam (1949), with the ENIAC runs behind it.
+
+The step from estimating a number to sampling from a distribution came with Metropolis, Rosenbluth, Rosenbluth, Teller, and Teller (1953), whose acceptance rule — later the Metropolis algorithm — produced configurations of a many-body system from its equilibrium distribution rather than a single expectation. The accounting of what accuracy costs arrived beside it: Kahn and Marshall (1953) on reducing sample size, Hammersley and Morton (1954) on the lattice gas and on the number of samples a given precision requires. Random digits became a published, reproducible object in the same decade (RAND Corporation, 1955).
+
+Then the inference turn. Hastings (1970) generalised the acceptance rule to asymmetric proposals; Kirkpatrick, Gelatt, and Vecchi (1983) turned the sampling rule into an optimiser; Geman and Geman (1984) produced the Gibbs sampler as stochastic relaxation on a lattice; and Gelfand and Smith (1990) brought Gibbs sampling into Bayesian statistics, from which the practice spread across the discipline.
+
+The rest of the line is the modern family: sequential Monte Carlo (Gordon, Salmond, & Smith, 1993), reversible jump (Green, 1995), multilevel estimators (Giles, 2008), particle MCMC (Andrieu, Doucet, & Holenstein, 2010), Hamiltonian Monte Carlo and its No-U-Turn variant (Neal, 2011; Hoffman & Gelman, 2014) — with low-discrepancy sequences running alongside from the start (Halton, 1960; Sobol', 1967).
+
+Two shifts are visible across that line, and the second is why this note is where it is. From 1949 to 1955 the method is for **integrals and transport**: a hard deterministic computation replaced by many cheap random ones, with the error bought down as $1/\sqrt{N}$ and the cost paid in random digits. From 1983 to 1995 it becomes a method for **inference**: once the target is a probability distribution rather than a number, sampling from it *is* the computation, and the same acceptance rule serves a posterior.
 
 ## Which are the components of a Monte Carlo method?
 
@@ -298,39 +285,31 @@ tags: [note, probability, simulation, technique]
 
 ## References
 
-**Primary sources**
-
-- Metropolis, N. & Ulam, S. (1949). The Monte Carlo method. *Journal of the American Statistical Association* 44(247), 335–341. https://doi.org/10.1080/01621459.1949.10483310
-- Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H. & Teller, E. (1953). Equation of state calculations by fast computing machines. *Journal of Chemical Physics* 21(6), 1087–1092. https://doi.org/10.1063/1.1699114
-- Kahn, H. & Marshall, A. W. (1953). Methods of reducing sample size in Monte Carlo computations. *Operations Research* 1(5), 263–278. https://doi.org/10.1287/opre.1.5.263
-- Hammersley, J. M. & Morton, K. W. (1954). Poor man's Monte Carlo. *Journal of the Royal Statistical Society B* 16(1), 23–38. https://doi.org/10.1111/j.2517-6161.1954.tb00143.x
-- Halton, J. H. (1960). On the efficiency of certain quasi-random sequences of points in evaluating multi-dimensional integrals. *Numerische Mathematik* 2, 84–90. https://doi.org/10.1007/BF01386213
-- Sobol', I. M. (1967). On the distribution of points in a cube and the approximate evaluation of integrals. *USSR Computational Mathematics and Mathematical Physics* 7(4), 86–112. https://doi.org/10.1016/0041-5553(67)90144-9
-- Hastings, W. K. (1970). Monte Carlo sampling methods using Markov chains and their applications. *Biometrika* 57(1), 97–109. https://doi.org/10.1093/biomet/57.1.97
-- Kirkpatrick, S., Gelatt, C. D. & Vecchi, M. P. (1983). Optimization by simulated annealing. *Science* 220(4598), 671–680. https://doi.org/10.1126/science.220.4598.671
-- Geman, S. & Geman, D. (1984). Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. *IEEE Transactions on Pattern Analysis and Machine Intelligence* PAMI-6(6), 721–741. https://doi.org/10.1109/TPAMI.1984.4767596
-- Gelfand, A. E. & Smith, A. F. M. (1990). Sampling-based approaches to calculating marginal densities. *Journal of the American Statistical Association* 85(410), 398–409. https://doi.org/10.1080/01621459.1990.10476213
-- Gordon, N. J., Salmond, D. J. & Smith, A. F. M. (1993). Novel approach to nonlinear/non-Gaussian Bayesian state estimation. *IEE Proceedings F* 140(2), 107–113. https://doi.org/10.1049/ip-f-2.1993.0015
-- Green, P. J. (1995). Reversible jump Markov chain Monte Carlo computation and Bayesian model determination. *Biometrika* 82(4), 711–732. https://doi.org/10.1093/biomet/82.4.711
-- Giles, M. B. (2008). Multilevel Monte Carlo path simulation. *Operations Research* 56(3), 607–617. https://doi.org/10.1287/opre.1070.0496
-- Andrieu, C., Doucet, A. & Holenstein, R. (2010). Particle Markov chain Monte Carlo methods. *Journal of the Royal Statistical Society B* 72(3), 269–342. https://doi.org/10.1111/j.1467-9868.2009.00736.x
-
-**Books and surveys**
-
-- Hammersley, J. M. & Handscomb, D. C. (1964). *Monte Carlo Methods*. Methuen.
-- Kalos, M. H. & Whitlock, P. A. (2008). *Monte Carlo Methods* (2nd ed.). Wiley.
-- Liu, J. S. (2001). *Monte Carlo Strategies in Scientific Computing*. Springer.
-- Robert, C. P. & Casella, G. (2004). *Monte Carlo Statistical Methods* (2nd ed.). Springer.
-- MacKay, D. J. C. (1998). Introduction to Monte Carlo methods. In *Learning in Graphical Models*, 175–204. Springer. https://doi.org/10.1007/978-94-011-5014-9_7
-- Andrieu, C., de Freitas, N., Doucet, A. & Jordan, M. I. (2003). An introduction to MCMC for machine learning. *Machine Learning* 50, 5–43. https://doi.org/10.1023/A:1020281327116
-- Neal, R. M. (2011). MCMC using Hamiltonian dynamics. In *Handbook of Markov Chain Monte Carlo*, 113–162. CRC Press. https://arxiv.org/abs/1206.1901
-- Hoffman, M. D. & Gelman, A. (2014). The No-U-Turn Sampler. *Journal of Machine Learning Research* 15, 1593–1623. https://arxiv.org/abs/1111.4246
-
-**Sources, links and the note's own trail**
-
-- [FERMIAC](https://www.wikiwand.com/en/FERMIAC) — the analogue machine Fermi and Richtmyer built to mechanise neutron-history sampling
-- [Metropolis & Ulam (1949), scan](https://web.williams.edu/Mathematics/sjmiller/public_html/341Fa09/handouts/MetropolisUlam_TheMonteCarloMethod.pdf)
-- Bauer, W. F. (1958). The Monte Carlo method. *Journal of the Society for Industrial and Applied Mathematics* 6(4), 438–451. https://doi.org/10.1137/0106028
-- [Monte Carlo method — Wikipedia](https://en.wikipedia.org/wiki/Monte_Carlo_method) · [Introduction to Monte Carlo methods](https://austingwalters.com/introduction-to-monte-carlo-methods/) · [video course](https://www.youtube.com/playlist?list=PLLyj1Zd4UWrNwo2LFGDzKmfqvJCocCFTQ)
-- https://arxiv.org/abs/2405.16359
-- [Sampling](sampling.md) — the sampling side of the toolbox · [Observational](../observational.md) — the scope this shelf serves
+- Andrieu, C., de Freitas, N., Doucet, A., & Jordan, M. I. (2003). An introduction to MCMC for machine learning. *Machine Learning*, 50(1–2), 5–43. https://doi.org/10.1023/A:1020281327116
+- Andrieu, C., Doucet, A., & Holenstein, R. (2010). Particle Markov chain Monte Carlo methods. *Journal of the Royal Statistical Society: Series B*, 72(3), 269–342. https://doi.org/10.1111/j.1467-9868.2009.00736.x
+- Bauer, W. F. (1958). The Monte Carlo method. *Journal of the Society for Industrial and Applied Mathematics*, 6(4), 438–451. https://doi.org/10.1137/0106028
+- Buffon, G.-L. L. de. (1777). *Essai d'arithmétique morale*. Imprimerie Royale.
+- Gelfand, A. E., & Smith, A. F. M. (1990). Sampling-based approaches to calculating marginal densities. *Journal of the American Statistical Association*, 85(410), 398–409. https://doi.org/10.1080/01621459.1990.10476213
+- Geman, S., & Geman, D. (1984). Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, PAMI-6(6), 721–741. https://doi.org/10.1109/TPAMI.1984.4767596
+- Giles, M. B. (2008). Multilevel Monte Carlo path simulation. *Operations Research*, 56(3), 607–617. https://doi.org/10.1287/opre.1070.0496
+- Gordon, N. J., Salmond, D. J., & Smith, A. F. M. (1993). Novel approach to nonlinear/non-Gaussian Bayesian state estimation. *IEE Proceedings F: Radar and Signal Processing*, 140(2), 107–113. https://doi.org/10.1049/ip-f-2.1993.0015
+- Green, P. J. (1995). Reversible jump Markov chain Monte Carlo computation and Bayesian model determination. *Biometrika*, 82(4), 711–732. https://doi.org/10.1093/biomet/82.4.711
+- Halton, J. H. (1960). On the efficiency of certain quasi-random sequences of points in evaluating multi-dimensional integrals. *Numerische Mathematik*, 2, 84–90. https://doi.org/10.1007/BF01386213
+- Hammersley, J. M., & Handscomb, D. C. (1964). *Monte Carlo methods*. Methuen.
+- Hammersley, J. M., & Morton, K. W. (1954). Poor man's Monte Carlo. *Journal of the Royal Statistical Society: Series B*, 16(1), 23–38. https://doi.org/10.1111/j.2517-6161.1954.tb00143.x
+- Hastings, W. K. (1970). Monte Carlo sampling methods using Markov chains and their applications. *Biometrika*, 57(1), 97–109. https://doi.org/10.1093/biomet/57.1.97
+- Hoffman, M. D., & Gelman, A. (2014). The No-U-Turn Sampler: Adaptively setting path lengths in Hamiltonian Monte Carlo. *Journal of Machine Learning Research*, 15, 1593–1623. https://arxiv.org/abs/1111.4246
+- Kahn, H., & Marshall, A. W. (1953). Methods of reducing sample size in Monte Carlo computations. *Operations Research*, 1(5), 263–278. https://doi.org/10.1287/opre.1.5.263
+- Kalos, M. H., & Whitlock, P. A. (2008). *Monte Carlo methods* (2nd ed.). Wiley.
+- Kirkpatrick, S., Gelatt, C. D., & Vecchi, M. P. (1983). Optimization by simulated annealing. *Science*, 220(4598), 671–680. https://doi.org/10.1126/science.220.4598.671
+- Laplace, P.-S. (1812). *Théorie analytique des probabilités*. Courcier.
+- Liu, J. S. (2001). *Monte Carlo strategies in scientific computing*. Springer.
+- MacKay, D. J. C. (1998). Introduction to Monte Carlo methods. In M. I. Jordan (Ed.), *Learning in graphical models* (pp. 175–204). Springer. https://doi.org/10.1007/978-94-011-5014-9_7
+- Metropolis, N. (1987). The beginning of the Monte Carlo method. *Los Alamos Science*, 15, 125–130.
+- Metropolis, N., & Ulam, S. (1949). The Monte Carlo method. *Journal of the American Statistical Association*, 44(247), 335–341. https://doi.org/10.1080/01621459.1949.10483310
+- Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H., & Teller, E. (1953). Equation of state calculations by fast computing machines. *The Journal of Chemical Physics*, 21(6), 1087–1092. https://doi.org/10.1063/1.1699114
+- Neal, R. M. (2011). MCMC using Hamiltonian dynamics. In S. Brooks, A. Gelman, G. L. Jones, & X.-L. Meng (Eds.), *Handbook of Markov chain Monte Carlo* (pp. 113–162). CRC Press. https://arxiv.org/abs/1206.1901
+- RAND Corporation. (1955). *A million random digits with 100,000 normal deviates*. Free Press.
+- Robert, C. P., & Casella, G. (2004). *Monte Carlo statistical methods* (2nd ed.). Springer.
+- Sobol', I. M. (1967). On the distribution of points in a cube and the approximate evaluation of integrals. *USSR Computational Mathematics and Mathematical Physics*, 7(4), 86–112. https://doi.org/10.1016/0041-5553(67)90144-9
+- Ulam, S. M. (1976). *Adventures of a mathematician*. Scribner.
