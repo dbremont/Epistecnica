@@ -13073,6 +13073,11 @@
     "kind": "feat",
     "summary": "Add the tensor-field note.",
     "commit": "ed4514cdb0a31e442cdd2770810a595d952b1a0c"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Link the field-equation construction this tensor is the left-hand side of; the note previously had nowhere to point."
    }
   ]
  },
@@ -31130,6 +31135,16 @@
   ]
  },
  {
+  "file_path": "nature/construction/gravitation/einstein-field-equations.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the Einstein field equations as a construction about a natural target: the law is a result, obtained by requiring the geometry side to be divergence-free (contracted Bianchi) and closed to a single admissible form by Lovelock's uniqueness theorem, while general relativity is the theory that carries it and the gravitational field is the segment of reality it represents. Types the root as an Epistemic Construction, kind Model; decomposes the Einstein tensor, the stress-energy source, the cosmological term, the metric field, the initial-value split, the Newtonian limit and the exact solutions; states the equivalence principle, the uniqueness requirement and the classical domain as the standards licensing the form; records the classical and strong-field tests and the singularity, cosmological-constant and quantum-gravity limits as the constraints the law carries inside itself; and evaluates it against the conceptuum criteria, where the weak verdicts are determinacy as a condition rather than a solution and adequacy as an effective rather than a fundamental law."
+   }
+  ]
+ },
+ {
   "file_path": "nature/construction/principle/minimal.md",
   "logs": [
    {
@@ -35192,6 +35207,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Re-point the Einstein field equations reference at the construction note that replaces the unclassified stub."
    }
   ]
  },
@@ -93227,18 +93247,18 @@
     "kind": "refactor",
     "summary": "Move from essays/einstein-field-equations.md to unclassified/einstein-field-equations.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
-  "file_path": "unclassified/einstein-field-equations.md",
-  "logs": [
+   },
    {
     "date": "2026-11-07",
     "kind": "fix",
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "remove",
+    "summary": "Retire the Notion learning stub: the equations now have a construction note at nature/construction/gravitation/einstein-field-equations.md, filed per the epistemic grammar with its natural target cited. The stub's formula, its left/right reading and its learning links are absorbed there; its two rows labelling G and c as the stress-energy tensor were wrong and are not carried over."
    }
   ]
  },
