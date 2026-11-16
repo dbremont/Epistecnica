@@ -280,7 +280,7 @@ tags: [note]
 
 ### Technique
 
-> See more in [Technique](/view.html?p=notes/technica/computation/system/evaluation/performace/conceptual-model-performance/technique.md).
+> See more in [Technique](/view.html?p=notes/technica/computation/system/evaluation/performace/technique.md).
 > 
 
 | **Category** | **Sub-Category** | **Tip** | **Description** |
@@ -371,7 +371,7 @@ Conceptual Model: Performance
 
 ## References
 
-- [CPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/cpu.md)
+- [CPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/cpu.md)
 - García-Risueño, Pablo, and Pablo E. Ibáñez. "A review of High Performance Computing foundations for scientists." International journal of modern physics C 23.07 (2012): 1230001.
 - Schroeder, Bianca, and Garth A. Gibson. "A large-scale study of failures in high-performance computing systems." IEEE transactions on Dependable and Secure Computing 7.4 (2009): 337-350.
 - [OpenMP](https://hpc-tutorials.llnl.gov/openmp/)
@@ -405,11 +405,11 @@ Conceptual Model: Performance
 - https://github.com/csiglab/distributed-system-lab
 - https://github.com/dbremont/isa-labs
 - https://github.com/dbremont/linux-api-labs
-- [GPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/gpu.md)
+- [GPU](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/gpu.md)
 - [Numpy](https://app.notion.com/p/Numpy-b254722a30ce4401ab0ecd49f59aec7d?pvs=21)
 - [Pandas](https://app.notion.com/p/Pandas-8640191e6b994831b1633753d8c43271?pvs=21)
-- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
-- [Matplotlib](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/matplotlib.md)
+- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/opencl.md)
+- [Matplotlib](/view.html?p=notes/technica/computation/system/interface/ui/matplotlib.md)
 - [ ]  [‣](https://app.notion.com/p/1be598edb79080da9af2c8fdc0428eb7?pvs=21)
 - [ ]  https://arxiv.org/abs/2503.05116
 - https://colin-scott.github.io/personal_website/research/interactive_latency.html

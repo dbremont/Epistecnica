@@ -43,7 +43,7 @@ Parts of Writing a new Language
 > Model of Computation: A **model of computation** (computation model) (**or computational formalism)** is a formal system that defines how computations are represented and executed. How is this process represented? And what are the **semantics** of this **representation**?
 > 
 
-> See in  [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> See in  [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md).
 > 
 
 ## Language System
@@ -68,7 +68,7 @@ Parts of Writing a new Language
 
 ### Implementation
 
-> See more in [Compiler System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/compiler-system.md), [Bytecode Virtual Machine](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/bytecode-virtual-machine.md),  [Interpreter System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/interpreter-system.md) & [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in [Compiler System](/view.html?p=notes/technica/computation/language-system/compiler-system.md), [Bytecode Virtual Machine](/view.html?p=notes/technica/computation/language-system/bytecode-virtual-machine.md),  [Interpreter System](/view.html?p=notes/technica/computation/language-system/interpreter-system.md) & [Language Execution System](/view.html?p=notes/technica/computation/language-system/language-execution-system.md).
 > 
 
 How to Implement a Description of Computation:
@@ -122,7 +122,7 @@ How to Implement a Description of Computation:
 > aka: Lexing or Lexical Analysis.
 > 
 
-> See more in [Scanning](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/scanning.md).
+> See more in [Scanning](/view.html?p=notes/technica/computation/language-system/scanning.md).
 > 
 
 ### Parsing
@@ -155,7 +155,7 @@ How to Implement a Description of Computation:
 > Which are the language systems study in this notes?
 > 
 
-> [Clojure](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/clojure.md), [Erlang](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/erlang.md),  [Elixir](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elixir.md),  [Coq](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coq.md),  [Haskell](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/haskell.md), [Vala](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/vala.md),   [Standard ML](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/standard-ml.md),  [R Language](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/r-language.md),  [Lisp](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lisp.md),  [Lua](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/lua.md),  [Perl](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/perl.md),  [Python](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/python.md),  [Rust](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/rust.md),  [C++](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c-2.md),  [OCaml](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ocaml.md),  [Racket](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/racket.md),  [AWK](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/awk.md),  [Java](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/java.md),  [Javascript](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/javascript.md),  [C Language](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c-language.md),  [PHP: Hypertext Preprocessor](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/php-hypertext-preprocessor.md),  [Ruby Language](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/ruby-language.md),  [C#](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/c.md), [Go](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/go.md).
+> [Clojure](/view.html?p=notes/technica/computation/language-system/clojure.md), [Erlang](/view.html?p=notes/technica/computation/language-system/erlang.md),  [Elixir](/view.html?p=notes/technica/computation/language-system/elixir.md),  [Coq](/view.html?p=notes/technica/computation/language-system/coq.md),  [Haskell](/view.html?p=notes/technica/computation/language-system/haskell.md), [Vala](/view.html?p=notes/technica/computation/language-system/vala.md),   [Standard ML](/view.html?p=notes/technica/computation/language-system/standard-ml.md),  [R Language](/view.html?p=notes/technica/computation/language-system/r-language.md),  [Lisp](/view.html?p=notes/technica/computation/language-system/lisp.md),  [Lua](/view.html?p=notes/technica/computation/language-system/lua.md),  [Perl](/view.html?p=notes/technica/computation/language-system/perl.md),  [Python](/view.html?p=notes/technica/computation/language-system/python.md),  [Rust](/view.html?p=notes/technica/computation/language-system/rust.md),  [C++](/view.html?p=notes/technica/computation/language-system/c-2.md),  [OCaml](/view.html?p=notes/technica/computation/language-system/ocaml.md),  [Racket](/view.html?p=notes/technica/computation/language-system/racket.md),  [AWK](/view.html?p=notes/technica/computation/language-system/awk.md),  [Java](/view.html?p=notes/technica/computation/language-system/java.md),  [Javascript](/view.html?p=notes/technica/computation/language-system/javascript.md),  [C Language](/view.html?p=notes/technica/computation/language-system/c-language.md),  [PHP: Hypertext Preprocessor](/view.html?p=notes/technica/computation/language-system/php-hypertext-preprocessor.md),  [Ruby Language](/view.html?p=notes/technica/computation/language-system/ruby-language.md),  [C#](/view.html?p=notes/technica/computation/language-system/c.md), [Go](/view.html?p=notes/technica/computation/language-system/go.md).
 > 
 
 ## Optimization
@@ -170,7 +170,7 @@ efficiently—we can **optimize** it.
 > **Runtime:** The collection of services, mechanisms, and infrastructure provided by the execution environment that supports and manages the behavior of a program while it runs.
 > 
 
-> See more in [Language Execution System](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-execution-system.md).
+> See more in [Language Execution System](/view.html?p=notes/technica/computation/language-system/language-execution-system.md).
 > 
 
 ## Concurrency System
@@ -184,8 +184,8 @@ Conceptual Model: Language System
 
 ## References
 
-- [Naming](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
-- [Reification](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/reification.md)
+- [Naming](/view.html?p=notes/technica/computation/system/programming/naming.md)
+- [Reification](/view.html?p=notes/technica/computation/system/programming/reification.md)
 - [Formal System](https://app.notion.com/p/Formal-System-41d02881d0544314b0e7ad3e6ada608a?pvs=21)
 - [Formal Language](https://app.notion.com/p/Formal-Language-195c0f5171ec8012bf0fd0530a135871?pvs=21)
 - https://github.com/csiglab/language-system-labs

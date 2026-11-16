@@ -165,4 +165,4 @@ Drivers:
 - https://en.wikipedia.org/wiki/Video_Acceleration_API
 - [Alsa] https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture
 - [OpenGL](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/opengl.md)
-- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/opencl.md)
+- [OpenCL](/view.html?p=notes/technica/computation/system/interface/ui/opencl.md)

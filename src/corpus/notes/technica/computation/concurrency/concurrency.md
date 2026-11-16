@@ -586,7 +586,7 @@ Guiding questions:
 
 ### **Units of Computation**
 
-> See more in [Unit of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md).
+> See more in [Unit of Computation](/view.html?p=notes/technica/computation/language-system/unit-of-computation.md).
 > 
 
 | **Unit** | **Description** | **Type** | **Use Case** |
@@ -822,13 +822,13 @@ Conceptual Model: Coordination
 - https://en.wikipedia.org/wiki/Multiversion_concurrency_control
 - [x86](/view.html?p=notes/technica/computation/operating-system/x86.md)
 - [‣](https://app.notion.com/p/fe6e9732f0ce4104b49c95bc3e106a70?pvs=21)
-- [Instruction Set Architecture (ISA)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/instruction-set-architecture-isa.md)
-- [Reduced Instruction Set Computer (RISC-V)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/reduced-instruction-set-computer-risc-v.md)
+- [Instruction Set Architecture (ISA)](/view.html?p=notes/technica/computation/language-system/instruction-set-architecture-isa.md)
+- [Reduced Instruction Set Computer (RISC-V)](/view.html?p=notes/technica/computation/language-system/reduced-instruction-set-computer-risc-v.md)
 - [‣](https://app.notion.com/p/57a6a0bb4bec4f7590dd95f4076ecdf2?pvs=21)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
 - [Real-Time Computing](/view.html?p=notes/technica/computation/miscelanea/real-time-computing.md)
 - [Language System](/view.html?p=notes/technica/computation/language-system.md)
-- [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
 - [**Message Delivery Guarantee**](/view.html?p=notes/technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md)
 - https://en.wikipedia.org/wiki/Cache_coherence

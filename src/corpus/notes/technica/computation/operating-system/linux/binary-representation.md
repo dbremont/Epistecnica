@@ -9,4 +9,4 @@ tags: [note, representation]
 
 ## References
 
-- [Binary Representation](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/binary-representation.md)
+- [Binary Representation](/view.html?p=notes/technica/computation/representation/binary-representation.md)

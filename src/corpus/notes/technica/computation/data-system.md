@@ -15,7 +15,7 @@ tags: [note]
 > **The External-Memory Model (EMM) of Computation** is an organizing model for computation in data systems in which algorithms that are straightforward to express when their data fits in RAM must be **reformulated for execution over data that exceeds RAM capacity**. The computation is realized through a sequence of operations over **bounded portions of the data resident in RAM**, together with transfers of data between RAM and external memory.
 > 
 
-> See more in [External Memory Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
+> See more in [External Memory Model of Computation](/view.html?p=notes/technica/computation/language-system/external-memory-model-of-computation.md).
 > 
 
 ## Data System Space
@@ -162,7 +162,7 @@ tags: [note]
 > How to store the data for the long term?
 > 
 
-> See [Representation](/view.html?p=notes/technica/computation/representation.md), [Apache Parquet](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/apache-parquet.md),  [Data File Format](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/data-file-format.md).
+> See [Representation](/view.html?p=notes/technica/computation/representation.md), [Apache Parquet](/view.html?p=notes/technica/computation/representation/apache-parquet.md),  [Data File Format](/view.html?p=notes/technica/computation/representation/data-file-format.md).
 > 
 
 ## World Simplest Data System
@@ -193,7 +193,7 @@ Data System: Conceptual Model
 > Databases use **external-memory algorithms**, partitioning, streaming, buffering, and temporary disk-based structures so computation can proceed over data larger than available RAM.
 > 
 
-> See more in [External Memory Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/external-memory-model-of-computation.md).
+> See more in [External Memory Model of Computation](/view.html?p=notes/technica/computation/language-system/external-memory-model-of-computation.md).
 > 
 
 ### Which operations are particularly difficult to perform when the data exceeds available working memory? Are there any operations that cannot be performed under these conditions?
@@ -207,7 +207,7 @@ Data System: Conceptual Model
 
 ### Which are the `Models of Computation`  that grounds computation descriptions in a `data system`?
 
-> See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md).
+> See more in [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md).
 > 
 
 ## References

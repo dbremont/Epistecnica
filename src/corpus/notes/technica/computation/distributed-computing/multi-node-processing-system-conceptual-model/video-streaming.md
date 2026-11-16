@@ -54,7 +54,7 @@ QA:
 
 ## References
 
-- [Firefox](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
+- [Firefox](/view.html?p=notes/technica/computation/system/interface/ui/firefox.md)
 - [‣](https://app.notion.com/p/65b8a74e2a474ef2b72983934b205626?pvs=21)
 - [Data Streaming](/view.html?p=notes/technica/computation/telecom/data-streaming.md)
 - [Video Processing](/view.html?p=notes/technica/computation/graphical-heterogeneous-high-performance-computing-system/graphical-computing-system/video-processing.md)

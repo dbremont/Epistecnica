@@ -160,6 +160,6 @@ Everything about a process:
 
 - [x86](/view.html?p=notes/technica/computation/operating-system/x86.md)
 - https://en.wikipedia.org/wiki/Chroot
-- [ELF (Executable and Linkable Format)](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/elf-executable-and-linkable-format.md)
+- [ELF (Executable and Linkable Format)](/view.html?p=notes/technica/computation/language-system/elf-executable-and-linkable-format.md)
 - https://stackoverflow.com/questions/13112038/difference-between-system-getenv-system-getproperty
 - https://anadoxin.org/blog/the-linux-binfmt-subsystem.html/

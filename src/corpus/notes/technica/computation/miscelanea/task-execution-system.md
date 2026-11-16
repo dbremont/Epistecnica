@@ -703,14 +703,14 @@ A system may need to evolve because of:
 
 ## References
 
-- [Task](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/task.md)
+- [Task](/view.html?p=notes/technica/computation/language-system/task.md)
 - [Jenkins](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/jenkins.md)
 - [Platform](/view.html?p=notes/technica/computation/platform.md)
 - [Dataflow](/view.html?p=notes/technica/computation/concurrency/dataflow.md)
 - [**Build System**](/view.html?p=notes/technica/computation/system/operation/operation-conceptual-model/build-system.md)
 - [Dependability](/view.html?p=notes/technica/computation/dependability.md)
-- [Unit of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/unit-of-computation.md)
+- [Unit of Computation](/view.html?p=notes/technica/computation/language-system/unit-of-computation.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
-- [Job Scheduling Problem](/view.html?p=notes/technica/computation/algorithm/conceptual-model-algorithm/job-scheduling-problem.md)
+- [Job Scheduling Problem](/view.html?p=notes/technica/computation/algorithm/job-scheduling-problem.md)
 - [Computational Learning System](/view.html?p=notes/technica/ais/system/computational-learning-system.md)
 - [Philosophia Artium Technicarum et Operis](https://app.notion.com/p/Philosophia-Artium-Technicarum-et-Operis-355c0f5171ec808b82f8d7a85e8134cd?pvs=21)

@@ -475,10 +475,10 @@ QA:
 
 Telecom: Conceptual Model
 
-- [Apache APISIX](/view.html?p=notes/technica/computation/enterprise-information-system-eis/conceptual-model-enterprise-system/apache-apisix.md)
+- [Apache APISIX](/view.html?p=notes/technica/computation/enterprise-information-system-eis/apache-apisix.md)
 - [Berkeley Socket](/view.html?p=notes/technica/computation/operating-system/linux/berkeley-socket.md)
 - [Linux Network Stack](/view.html?p=notes/technica/computation/operating-system/linux/linux-network-stack.md)
-- [Network Interface Card (NICs)](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/network-interface-card-nics.md)
+- [Network Interface Card (NICs)](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/network-interface-card-nics.md)
 - [Sending ethernet packet to a device with a specific mac address](https://serverfault.com/questions/988050/sending-ethernet-packet-to-a-device-with-a-specific-mac-address)
 - [Sending raw Ethernet frames from Python](https://csl.name/post/raw-ethernet-frames/)
 - [Computer network](https://en.wikipedia.org/wiki/Computer_network)

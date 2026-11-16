@@ -254,7 +254,7 @@ Multi-Node Processing System: Conceptual Model
 - [The many faces of consistency](http://sites.computer.org/debull/A16mar/p3.pdf)
 - [Awesome Distributed Systems](https://github.com/theanalyst/awesome-distributed-systems)
 - [Distributed Systems Reading List](https://people.cs.rutgers.edu/~pxk/417/readinglist.html)
-- [Firefox](/view.html?p=notes/technica/computation/system/interface/ui/conceptual-model-computing-system-interface/firefox.md)
+- [Firefox](/view.html?p=notes/technica/computation/system/interface/ui/firefox.md)
 - [Data Streaming](/view.html?p=notes/technica/computation/telecom/data-streaming.md)
 - https://dancres.github.io/Pages/
 - https://ferd.ca/a-distributed-systems-reading-list.html

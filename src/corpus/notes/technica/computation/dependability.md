@@ -123,6 +123,6 @@ tags: [note]
 - [System](/view.html?p=notes/technica/computation/system.md)
 - [Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
 - [Consistency](/view.html?p=notes/technica/computation/dependability/consistency.md)
-- [Transaction](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/transaction.md)
+- [Transaction](/view.html?p=notes/technica/computation/language-system/transaction.md)
 - [**Transactional System**](/view.html?p=notes/technica/computation/concurrency/transactional-system.md)
 - Laprie, Jean-Claude, and Brian Randell. "Fundamental concepts of dependability." *Report N01145, LAAS-CNRS* (2001).

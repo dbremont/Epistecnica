@@ -195,7 +195,7 @@ companion is `/corpus/notes/epistemica/ees.md`.
 `data/technica/computation/` holds the computation notes — the domain notes
 (`algorithm.md`, `language-system.md`, `system.md`, …) and their element
 notes, preserving the export's subcollection tree
-(`computation/language-system/conceptual-model-language-system/python.md`).
+(`computation/language-system/python.md`).
 
 - Imported mechanically from the Notion *Computacion* export (a one-off
   migration; the importer was not kept): names normalized, CSV tags as front

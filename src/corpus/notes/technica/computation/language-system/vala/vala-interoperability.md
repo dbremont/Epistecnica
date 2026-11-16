@@ -1,0 +1,15 @@
+---
+tags: [note]
+---
+
+# Vala: 🔗Interoperability
+
+> 
+
+Guiding Question:
+
+- Which type of **Interoperability  Mechanisms  does this Language Supports?**
+
+## References
+
+- [Interoperability](/view.html?p=notes/technica/computation/language-system/interoperability.md)

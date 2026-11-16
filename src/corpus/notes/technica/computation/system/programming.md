@@ -115,7 +115,7 @@ OpenAPI, backward compatibility strategies.
 > **aka** Programming Paradigms → Models of Computation.
 > 
 
-> See the models  of computation in [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md) and Paradigms Here [ Programming Paradigm](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/programming-paradigm.md).
+> See the models  of computation in [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md) and Paradigms Here [ Programming Paradigm](/view.html?p=notes/technica/computation/language-system/programming-paradigm.md).
 > 
 
 > **Programming Paradigm:** A programming paradigm is a fundamental style or approach to programming that shapes how problems are conceptualized and how solutions are expressed. It defines the structure, patterns, and techniques used in writing and organizing code.
@@ -170,7 +170,7 @@ OpenAPI, backward compatibility strategies.
 
 ### Language Construct
 
-> See more in [Building Block](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/building-block.md).
+> See more in [Building Block](/view.html?p=notes/technica/computation/system/programming/building-block.md).
 > 
 
 > Building blocks provided by a programming language, such as **variables, functions, classes, types**, and **control structures**.
@@ -229,7 +229,7 @@ A **computing substrate** can be characterized by:
 > Which Principles Should Guide Programming?
 > 
 
-> See more in [Programming Principle](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/programming-principle.md).
+> See more in [Programming Principle](/view.html?p=notes/technica/computation/system/programming/programming-principle.md).
 > 
 
 ## Technique  Space Structure
@@ -320,7 +320,7 @@ Conceptual Model: Programming
 ## References
 
 - https://en.wikipedia.org/wiki/Computer_program
-- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/language-specification.md)
 - [Algorithm](/view.html?p=notes/technica/computation/algorithm.md)
 - [Trade-Off](https://app.notion.com/p/Trade-Off-2edd6d82fe1d488ebdff70cab3dc4f7b?pvs=21)
 - [Design](/view.html?p=notes/technica/computation/system/design.md)
@@ -330,7 +330,7 @@ Conceptual Model: Programming
 - https://en.wikipedia.org/wiki/Computer_programming
 - https://www.bremontix.xyz/lab/pro/Production/Industry/Software/Production/Program/
 - https://www.bremontix.xyz/lab/pro/Production/Industry/Software/Production/Constitutive/
-- [Program](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md)
+- [Program](/view.html?p=notes/technica/computation/language-system/program.md)
 - https://apenwarr.ca/log/20101213
 - https://news.ycombinator.com/item?id=47099401
 -

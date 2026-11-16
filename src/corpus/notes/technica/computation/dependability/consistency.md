@@ -13,7 +13,7 @@ tags: [note]
 > Etymology: **Consistency** derives from the Latin *consistentia* ("standing together," "agreement," or "coherence"), from *consistere* ("to stand together, remain firm"), reflecting the idea that the parts of a system remain in agreement without contradiction.
 > 
 
-> **Note:** The consistency specification is part of the broader **correctness (**[Correctness](/view.html?p=notes/technica/computation/dependability/verification/conceptual-model-verification/correctness.md)**) specification** of the software system.
+> **Note:** The consistency specification is part of the broader **correctness (**[Correctness](/view.html?p=notes/technica/computation/dependability/verification/correctness.md)**) specification** of the software system.
 > 
 
 ## Formulation

@@ -281,7 +281,7 @@ www            3600 IN CNAME example.com.
 - Mockapetris, P. (1987). [RFC 882] Domain Names-Concepts and Facilities.
 - Mockapetris, P., & Dunlap, K. J. (1988). Development of the Domain Name System. 123–133.
 - [The 6 Best Free Dynamic DNS Providers](https://www.makeuseof.com/tag/5-best-dynamic-dns-providers-can-lookup-free-today/)
-- [Naming](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/naming.md)
+- [Naming](/view.html?p=notes/technica/computation/system/programming/naming.md)
 - https://dnschecker.org/
 - https://www.dnsperf.com/
 - https://www.nic.do/

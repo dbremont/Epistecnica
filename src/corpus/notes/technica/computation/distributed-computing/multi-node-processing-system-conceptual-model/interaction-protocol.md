@@ -60,4 +60,4 @@ QA:
 - [ ]  https://github.com/csiglab/networking-labs
 - [ ]  [Representation](https://app.notion.com/p/Representation-4afbffa763ec46eeb10d8c87c248edf1?pvs=21)
 - https://github.com/csiglab/performance-labs
-- [MessagePack](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/messagepack.md)
+- [MessagePack](/view.html?p=notes/technica/computation/representation/messagepack.md)

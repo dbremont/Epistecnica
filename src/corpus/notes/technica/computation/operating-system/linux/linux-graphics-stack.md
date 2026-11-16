@@ -99,7 +99,7 @@ Switching
 
 ### References
 
-- [Graphics Card](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/graphics-card.md)
+- [Graphics Card](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/graphics-card.md)
 - [Window Manager](https://en.wikipedia.org/wiki/Window_manager)
 - [List of display servers](https://en.wikipedia.org/wiki/List_of_display_servers)
 - [The Linux Graphics Stack](http://blog.mecheye.net/2012/06/the-linux-graphics-stack/)

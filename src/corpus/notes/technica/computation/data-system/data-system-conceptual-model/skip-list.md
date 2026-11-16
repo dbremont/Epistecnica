@@ -55,6 +55,6 @@ Each of these parameters plays a critical role in the performance and scalabilit
 - Pugh, William (April 1989). Concurrent Maintenance of Skip Lists (PS, PDF) (Technical report). Dept. of Computer Science, U. Maryland. CS-TR-2222.
 - Pugh, W. (1990). "Skip lists: A probabilistic alternative to balanced trees" (PDF). Communications of the ACM. 33 (6): 668–676. doi:10.1145/78973.78977. S2CID 207691558.
 
-[Augmentation](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/augmentation.md)
+[Augmentation](/view.html?p=notes/technica/computation/representation/augmentation.md)
 
-[Probabilistic Data Structure](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/probabilistic-data-structure.md)
+[Probabilistic Data Structure](/view.html?p=notes/technica/computation/representation/probabilistic-data-structure.md)

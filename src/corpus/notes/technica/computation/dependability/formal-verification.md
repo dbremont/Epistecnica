@@ -36,7 +36,7 @@ Guiding questions:
 
 ## References
 
-- [Coq](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/coq.md)
+- [Coq](/view.html?p=notes/technica/computation/language-system/coq.md)
 - [Hoare logic](https://en.wikipedia.org/wiki/Hoare_logic)
 - [Verification](/view.html?p=notes/technica/computation/dependability/verification.md)
 - [Formal System](https://app.notion.com/p/Formal-System-41d02881d0544314b0e7ad3e6ada608a?pvs=21)

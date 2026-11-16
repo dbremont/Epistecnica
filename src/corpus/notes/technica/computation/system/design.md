@@ -79,7 +79,7 @@ QA:
 > Note: **Design techniques** and **implementation techniques** are deeply interconnected. Many language-agnostic techniques lean toward design, but some also apply at the implementation level. Rather than enforcing a rigid boundary, it's more practical to view them as a continuum.
 > 
 
-> See [Program](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/program.md) and [Programming](/view.html?p=notes/technica/computation/system/programming.md).
+> See [Program](/view.html?p=notes/technica/computation/language-system/program.md) and [Programming](/view.html?p=notes/technica/computation/system/programming.md).
 > 
 
 | **Concept** | **Definition** | **Scope/Level** | **Purpose/Role** | **Characteristics** | **Examples** |
@@ -376,7 +376,7 @@ Computer System Design: Conceptual Model
 - [Representation](/view.html?p=notes/technica/computation/representation.md)
 - [Agentic System](https://app.notion.com/p/Agentic-System-1b5c0f5171ec802db3b2f70081ecaf6a?pvs=21)
 - [Language System](/view.html?p=notes/technica/computation/language-system.md)
-- [Model of Computation](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/model-of-computation.md)
+- [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md)
 - https://plato.stanford.edu/entries/mereology/
 - [UI](/view.html?p=notes/technica/computation/system/interface/ui.md)
 - [Cloud Computing System](/view.html?p=notes/technica/computation/platform/cloud-computing-system.md)
@@ -411,6 +411,6 @@ Computer System Design: Conceptual Model
 - https://news.ycombinator.com/item?id=43267095
 - https://newsletter.systemdesignclassroom.com/
 - https://github.com/dbremont/system-design-labs
-- [Language Specification](/view.html?p=notes/technica/computation/language-system/conceptual-model-language-system/language-specification.md)
+- [Language Specification](/view.html?p=notes/technica/computation/language-system/language-specification.md)
 - https://www.seangoedecke.com/good-system-design/
 - https://github.com/rrweb-io/rrweb

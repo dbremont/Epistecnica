@@ -490,7 +490,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 
 ## In-Memory Data Structure
 
-> See more in [In-Memory Representation](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/in-memory-representation.md).
+> See more in [In-Memory Representation](/view.html?p=notes/technica/computation/representation/in-memory-representation.md).
 >
 > Typed reading: `Technical Element` `(→ Kind)` `Technical Element Set` `(→ Instance)` Computational Representation Set `(→ Has)` `Technical Mechanism` `(→ Instance)` In-Memory Carrier.
 > 
@@ -500,7 +500,7 @@ The guide's default for a multi-typed instance is multi-root decomposition, and 
 > How to represent data outside memory?
 > 
 
-> See more in [Out-Memory Data Structure](/view.html?p=notes/technica/computation/representation/conceptual-model-computational-representation/out-memory-data-structure.md).
+> See more in [Out-Memory Data Structure](/view.html?p=notes/technica/computation/representation/out-memory-data-structure.md).
 > 
 
 > See https://en.wikipedia.org/wiki/External_memory_algorithm

@@ -117,7 +117,7 @@ tags: [note]
 > How do different hardware elements connect? How to model **`connection topology`**? Which are the concepts that helps to represent this?
 > 
 
-> See more in [**Interconnect**](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/conceptual-model-hardware/interconnect.md).
+> See more in [**Interconnect**](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate/interconnect.md).
 > 
 
 ## Technology Tree(s)

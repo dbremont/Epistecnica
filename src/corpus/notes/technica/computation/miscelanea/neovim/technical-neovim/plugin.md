@@ -23,5 +23,5 @@ tags: [note, extension]
 ## References
 
 - https://dotfyle.com/neovim/plugins/top
-- [System Change](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/system-change.md)
-- [Plugin Based Architecture](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/plugin-based-architecture.md)
+- [System Change](/view.html?p=notes/technica/computation/system/programming/system-change.md)
+- [Plugin Based Architecture](/view.html?p=notes/technica/computation/system/programming/plugin-based-architecture.md)

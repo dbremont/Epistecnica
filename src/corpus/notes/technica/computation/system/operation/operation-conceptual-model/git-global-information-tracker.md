@@ -202,7 +202,7 @@ Key properties:
 > The **Git Hooking Model** allows users to trigger custom scripts at specific points in Git's workflow (e.g., before a commit or after a merge), enabling automation, policy enforcement, and integration with external tools.
 > 
 
-> See more here for the general concept - [Adaptation](/view.html?p=notes/technica/computation/system/programming/conceptual-model-programming/adaptation.md).
+> See more here for the general concept - [Adaptation](/view.html?p=notes/technica/computation/system/programming/adaptation.md).
 > 
 
 | **Hook Name** | **Trigger Point** | **Purpose** | **Common Use Cases** |
