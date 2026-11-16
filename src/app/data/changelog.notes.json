@@ -32702,7 +32702,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the Related list the note never had, pointing the phenomenon family at the charge, the current, magnetism, the field and the system it is observed in, plus the electron at the micro level."
+    "summary": "Add the Related list the note never had, pointing the phenomenon family at the charge, the current, magnetism, the field and the system it is observed in, plus the electron at the micro level.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105316,7 +105318,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Extend Related past Matter and Electrical Circuit: the electron that carries the elementary charge, the current that is charge in motion, magnetism as what the motion produces, the field the charge sources, and the electrical phenomena."
+    "summary": "Extend Related past Matter and Electrical Circuit: the electron that carries the elementary charge, the current that is charge in motion, magnetism as what the motion produces, the field the charge sources, and the electrical phenomena.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105488,7 +105492,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Extend Related past the circuit and wave entries: the electron whose drift is the current, the charge it counts in motion, the magnetic field the current produces, and the field description it is read through."
+    "summary": "Extend Related past the circuit and wave entries: the electron whose drift is the current, the charge it counts in motion, the magnetic field the current produces, and the field description it is read through.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105517,7 +105523,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Extend Related past energy and the fundamental interaction: the charge that sources the field, the current that is its source in motion, magnetism as the field's magnetic aspect, the electron at the micro level, and the field as a named element."
+    "summary": "Extend Related past energy and the fundamental interaction: the charge that sources the field, the current that is its source in motion, magnetism as the field's magnetic aspect, the electron at the micro level, and the field as a named element.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105599,7 +105607,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the Related list the note never had: the electron whose charge, spin and motion produce the moment, the charge the field acts on, the current that sources it, the field it is the magnetic aspect of, and the system and phenomenon family it belongs to."
+    "summary": "Add the Related list the note never had: the electron whose charge, spin and motion produce the moment, the charge the field acts on, the current that sources it, the field it is the magnetic aspect of, and the system and phenomenon family it belongs to.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105609,7 +105619,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the Related list the note never had: magnetism as the field's magnetic aspect, the charge that sources it, the current that acts on it, the system it is read with, and the electron it acts on."
+    "summary": "Add the Related list the note never had: magnetism as the field's magnetic aspect, the charge that sources it, the current that acts on it, the system it is read with, and the electron it acts on.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  },
@@ -105619,7 +105631,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Move the open questions into the qa block so they are indexed as metadata rather than as body headings, and extend Related past Protonuclide: the charge the electron carries, the current its drift constitutes, the magnetism its spin and motion produce, and the field it sources and responds to."
+    "summary": "Move the open questions into the qa block so they are indexed as metadata rather than as body headings, and extend Related past Protonuclide: the charge the electron carries, the current its drift constitutes, the magnetism its spin and motion produce, and the field it sources and responds to.",
+    "commit": "e903dd1830e9e68efc73ba6cf61e036f8049e9a3",
+    "before": "26b71b0f59f7a4a169cb5d4dfa0a5159e1024471"
    }
   ]
  }
