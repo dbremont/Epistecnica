@@ -65637,7 +65637,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the computational-complexity-theory link into the new theory shelf."
+    "summary": "Retarget the computational-complexity-theory link into the new theory shelf.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -66020,7 +66022,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the computational-complexity-theory link into the new theory shelf."
+    "summary": "Retarget the computational-complexity-theory link into the new theory shelf.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -66055,7 +66059,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/computational-complexity-theory.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
+    "summary": "Move from technica/computation/computational-complexity-theory.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804"
    }
   ]
  },
@@ -96445,7 +96450,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the lambda-calculus link into the new theory shelf."
+    "summary": "Retarget the lambda-calculus link into the new theory shelf.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -96978,7 +96985,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the lambda-calculus link into the new theory shelf."
+    "summary": "Retarget the lambda-calculus link into the new theory shelf.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -97423,7 +97432,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the turing-machine link into the new theory shelf."
+    "summary": "Retarget the turing-machine link into the new theory shelf.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -97901,7 +97912,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/language-system/lambda-calculus.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
+    "summary": "Move from technica/computation/language-system/lambda-calculus.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804"
    }
   ]
  },
@@ -100293,7 +100305,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/language-system/turing-machine.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path."
+    "summary": "Move from technica/computation/language-system/turing-machine.md: the theory of computation now has its own shelf under computation, so the models of computation and the cost of computation sit together instead of inside the language-system folder and the computation root. Inbound links and the note's image reference retargeted to the new path.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804"
    }
   ]
  },
@@ -106998,7 +107011,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New entry page for the theory shelf: the three questions the theory of computation asks — what a machine of a given structure recognises, what any machine can decide, and what it can decide within a budget — with the notes that carry each, and the boundary against the language-system shelf (the realisation) and the algorithm shelf (the procedures)."
+    "summary": "New entry page for the theory shelf: the three questions the theory of computation asks — what a machine of a given structure recognises, what any machine can decide, and what it can decide within a budget — with the notes that carry each, and the boundary against the language-system shelf (the realisation) and the algorithm shelf (the procedures).",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -107008,7 +107023,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note on the open question: the two classes by machine and by witness, the completeness result that makes one problem stand for all of them, what each answer would settle (including the gap between a separation and the average-case hardness cryptography needs), the ladder of inclusions, and the four barriers a proof must evade — relativization, natural proofs, algebrization and proof complexity. States plainly that the statement is not known to be independent, and that the belief in separation is evidence rather than proof."
+    "summary": "New note on the open question: the two classes by machine and by witness, the completeness result that makes one problem stand for all of them, what each answer would settle (including the gap between a separation and the average-case hardness cryptography needs), the ladder of inclusions, and the four barriers a proof must evade — relativization, natural proofs, algebrization and proof complexity. States plainly that the statement is not known to be independent, and that the belief in separation is evidence rather than proof.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  },
@@ -107018,7 +107035,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note on the permutation: the arrangement and the bijection as the same fact read twice, the counts (n!, partial, words with repetition, multiset, derangements, cycles), cycle structure and its arithmetic form in the Stirling numbers, parity and the alternating group, permutation matrices and Cayley, and the boundary against combination, word, ordering and the permutation test."
+    "summary": "New note on the permutation: the arrangement and the bijection as the same fact read twice, the counts (n!, partial, words with repetition, multiset, derangements, cycles), cycle structure and its arithmetic form in the Stirling numbers, parity and the alternating group, permutation matrices and Cayley, and the boundary against combination, word, ordering and the permutation test.",
+    "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
+    "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
    }
   ]
  }
