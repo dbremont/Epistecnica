@@ -106568,7 +106568,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the resin row to the agricultural product space."
+    "summary": "Add the resin row to the agricultural product space.",
+    "commit": "347da1f21d117937145e284b5365bd0513d7c76a",
+    "before": "b72268784e2c80bef48fad0205d97bb001aba204"
    }
   ]
  },
@@ -106633,7 +106635,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note: resin as a natural substance — the terpenoid plant exudate, with the boundary that separates it from synthetic resins and from the polysaccharide gums, its composition and amorphous structure with the glass transition in place of a melting point, the oleoresin/hardened/fossil states, the ducts and wound surfaces, and the bounds (volatile loss, oxidation, thermal limit, biological origin)."
+    "summary": "New note: resin as a natural substance — the terpenoid plant exudate, with the boundary that separates it from synthetic resins and from the polysaccharide gums, its composition and amorphous structure with the glass transition in place of a melting point, the oleoresin/hardened/fossil states, the ducts and wound surfaces, and the bounds (volatile loss, oxidation, thermal limit, biological origin).",
+    "commit": "347da1f21d117937145e284b5365bd0513d7c76a",
+    "before": "b72268784e2c80bef48fad0205d97bb001aba204"
    }
   ]
  },
@@ -106643,7 +106647,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New good: the tapped exudate sold as the naval-stores pair. The note gives the three pine supply routes (gum, wood, tall oil) and why tall-oil rosin sets the marginal price, the colour and acid-value grading, and the value reading — a feedstock priced by grade rather than a branded product."
+    "summary": "New good: the tapped exudate sold as the naval-stores pair. The note gives the three pine supply routes (gum, wood, tall oil) and why tall-oil rosin sets the marginal price, the colour and acid-value grading, and the value reading — a feedstock priced by grade rather than a branded product.",
+    "commit": "347da1f21d117937145e284b5365bd0513d7c76a",
+    "before": "b72268784e2c80bef48fad0205d97bb001aba204"
    }
   ]
  }
