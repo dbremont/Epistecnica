@@ -32698,6 +32698,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the Related list the note never had, pointing the phenomenon family at the charge, the current, magnetism, the field and the system it is observed in, plus the electron at the micro level."
    }
   ]
  },
@@ -105307,6 +105312,11 @@
     "kind": "move",
     "summary": "Move from nature/electric-charge.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Extend Related past Matter and Electrical Circuit: the electron that carries the elementary charge, the current that is charge in motion, magnetism as what the motion produces, the field the charge sources, and the electrical phenomena."
    }
   ]
  },
@@ -105474,6 +105484,11 @@
     "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Extend Related past the circuit and wave entries: the electron whose drift is the current, the charge it counts in motion, the magnetic field the current produces, and the field description it is read through."
    }
   ]
  },
@@ -105498,6 +105513,11 @@
     "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Extend Related past energy and the fundamental interaction: the charge that sources the field, the current that is its source in motion, magnetism as the field's magnetic aspect, the electron at the micro level, and the field as a named element."
    }
   ]
  },
@@ -105570,6 +105590,36 @@
     "summary": "Tidy the note: the title takes sentence-style capitalisation as Charge Carrier, and the Notion provenance line drops.",
     "commit": "d1b68c5a15a2a7531e1da7326a81457dc2991f8c",
     "before": "f271a5424deb40ab68647d12dce44707dd572dfa"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/magnetism.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the Related list the note never had: the electron whose charge, spin and motion produce the moment, the charge the field acts on, the current that sources it, the field it is the magnetic aspect of, and the system and phenomenon family it belongs to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/electromagnetic-field-em.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the Related list the note never had: magnetism as the field's magnetic aspect, the charge that sources it, the current that acts on it, the system it is read with, and the electron it acts on."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/electron.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Move the open questions into the qa block so they are indexed as metadata rather than as body headings, and extend Related past Protonuclide: the charge the electron carries, the current its drift constitutes, the magnetism its spin and motion produce, and the field it sources and responds to."
    }
   ]
  }

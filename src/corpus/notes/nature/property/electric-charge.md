@@ -108,6 +108,11 @@ tags: [note, nature, property]
 
 - [Matter](/view.html?p=notes/nature/matter/matter.md)
 - [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
+- [Electron](/view.html?p=notes/nature/electron.md) — the particle that carries the elementary negative charge
+- [Electric Current](/view.html?p=notes/nature/electric-current.md) — charge in motion through a conductor
+- [Magnetism](/view.html?p=notes/nature/magnetism.md) — what a moving charge produces, and what acts back on it
+- [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field a charge sources
+- [Electrical Phenomena](/view.html?p=notes/nature/electrical-phenomena.md) — the phenomenon family the charge's effects belong to
 
 ## Provenance
 

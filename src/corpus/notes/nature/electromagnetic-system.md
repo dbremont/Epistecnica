@@ -200,6 +200,11 @@ In **electromagnetism**, $\vec{B}$ and $\vec{E}$ are intertwined:
 - [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Potential Energy](/view.html?p=notes/nature/potential-energy.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
+- [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — the source quantity of the field the system carries
+- [Electric Current](/view.html?p=notes/nature/electric-current.md) — the source motion, and what the system drives
+- [Magnetism](/view.html?p=notes/nature/magnetism.md) — the magnetic aspect of the field
+- [Electron](/view.html?p=notes/nature/electron.md) — the carrier of the charge, at the micro level
+- [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field itself, as a named element
 
 ## Provenance
 

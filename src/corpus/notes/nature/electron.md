@@ -1,17 +1,6 @@
 ---
 tags: [note, nature, building-block, materials-science, matter, particle-physics, physics]
----
-
-# Electron
-
-> An electron is a subatomic particle with a negative electric charge, found in all atoms, and is fundamental to electricity, magnetism, and chemical bonding due to its role in atomic structure and interactions.
->
-
-> Electrons exhibit both particle-like and wave-like properties, a concept known as wave-particle duality. While they can be described as particles with mass and charge, they also demonstrate wave behavior, such as interference and diffraction, according to quantum mechanics.
->
-
-## QA
-
+qa:
 - What is an electron — particle, wave, or something else entirely?
 - How do we determine the number of electrons associated with a given atomic nucleus?
 - Is the electron truly elementary, or is it made of something more fundamental?
@@ -25,6 +14,22 @@ tags: [note, nature, building-block, materials-science, matter, particle-physics
 - Is the electron best understood as an excitation of the quantum field, or does the particle description still hold meaning?
 - How does the electron interact with the vacuum, and what does the electron’s self-energy really mean?
 - Why does quantum electrodynamics (QED) make such accurate predictions for the electron's magnetic moment, and what does that imply?
+---
+
+# Electron
+
+> An electron is a subatomic particle with a negative electric charge, found in all atoms, and is fundamental to electricity, magnetism, and chemical bonding due to its role in atomic structure and interactions.
+>
+
+> Electrons exhibit both particle-like and wave-like properties, a concept known as wave-particle duality. While they can be described as particles with mass and charge, they also demonstrate wave behavior, such as interference and diffraction, according to quantum mechanics.
+>
+
+
+- Why are some materials magnetic while others are not?
+- Why does electricity magnetize some materials but not others?
+- Which phenomena arise from the electron?
+- Which properties can be defined in terms of the electron?
+
 
 ## What is an electron — particle, wave, or something else entirely?
 
@@ -78,6 +83,10 @@ They **mean**:
 ## Related
 
 - [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
+- [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — the property the electron carries, the elementary negative charge
+- [Electric Current](/view.html?p=notes/nature/electric-current.md) — the charge in motion the electron's drift constitutes
+- [Magnetism](/view.html?p=notes/nature/magnetism.md) — what its charge, spin and motion produce
+- [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field it sources and responds to
 
 ## Provenance
 

@@ -39,3 +39,12 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Electric Charge 1b0c0f5171ec80e98af5c745a32f391b.md`; `Solid State Phenomena 1aec0f5171ec808eb99af6ab105bb046.md`
+
+## Related
+
+- [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) — the property the phenomena are of
+- [Electric Current](/view.html?p=notes/nature/electric-current.md) — the first of them, charge in motion
+- [Magnetism](/view.html?p=notes/nature/magnetism.md) — the magnetic side of the family
+- [Electromagnetic Field](/view.html?p=notes/nature/electromagnetic-field-em.md) — the field that carries them
+- [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md) — the system they are observed in
+- [Electron](/view.html?p=notes/nature/electron.md) — the carrier at the micro level
