@@ -1289,7 +1289,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -4631,7 +4633,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -9046,7 +9050,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ links point at quantification/."
+    "summary": "Follow the scope rename: the measurement/ links point at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -9916,7 +9922,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -10578,7 +10586,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -19319,7 +19329,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/categorization.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/categorization.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19359,7 +19370,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/isu.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/isu.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19404,7 +19416,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/measurement-theory.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/measurement-theory.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19441,7 +19454,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/measurement.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/measurement.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19457,7 +19471,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/ordering.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/ordering.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19499,7 +19514,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/quantification.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/quantification.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -19539,7 +19555,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from epistemica/measurement/system.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus."
+    "summary": "Move from epistemica/measurement/system.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
    }
   ]
  },
@@ -24995,7 +25012,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ link points at quantification/."
+    "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
@@ -82618,7 +82637,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Follow the scope rename: the measurement/ links and the folder link point at quantification/."
+    "summary": "Follow the scope rename: the measurement/ links and the folder link point at quantification/.",
+    "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
+    "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
    }
   ]
  },
