@@ -105715,6 +105715,11 @@
     "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
     "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
     "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Related list names the magnet note: the phenomenon and the body that carries it are now separated."
    }
   ]
  },
@@ -106516,6 +106521,16 @@
     "summary": "New product space: the agricultural goods gathered under one page, in the Product/Description/Tags form of the semiconductor, software and telecom spaces. It links the production scope the goods come out of — whose sub-sector table is also why wood is filed here — and the food industries that process them.",
     "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc",
     "before": "bfe72a5e63bb1043ac4f6f3384cead9ecb08eb87"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/magnet.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: the magnet as a body rather than as the phenomenon — a material particular whose aligned domains produce a field of its own. The note gives the type reading (Natural Object, readable as a constitutive technical object, not a property, substance or system), the decomposition into domains, walls, poles, material instances, the five properties and the three bounds, the kinds by where the field comes from, and the reason the alignment survives its own demagnetizing field."
    }
   ]
  }
