@@ -106409,7 +106409,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New sub-shelf of the goods: the telecom product space opens with its first two goods, in the Product/Description/Tags form the semiconductor and software spaces use."
+    "summary": "New sub-shelf of the goods: the telecom product space opens with its first two goods, in the Product/Description/Tags form the semiconductor and software spaces use.",
+    "commit": "9cb553fcd2d506a18829b26400b533007fc5bbf1",
+    "before": "655c6805abf6bb7ce0e8bc528078af623f11e86a"
    }
   ]
  },
@@ -106419,7 +106421,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New good: the device that transmits and receives in one unit. The note splits the two goods sold under the name — the radio station duplexed on one antenna, and the pluggable module that drives a cable — and states that the name is functional, fixed by the duplex role rather than by the medium."
+    "summary": "New good: the device that transmits and receives in one unit. The note splits the two goods sold under the name — the radio station duplexed on one antenna, and the pluggable module that drives a cable — and states that the name is functional, fixed by the duplex role rather than by the medium.",
+    "commit": "9cb553fcd2d506a18829b26400b533007fc5bbf1",
+    "before": "655c6805abf6bb7ce0e8bc528078af623f11e86a"
    }
   ]
  },
@@ -106429,7 +106433,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New good: the pluggable module that converts an electrical signal to light and back for a fibre link. The note gives the form factors by lane count and rate, the parameters that actually define a part number, and where the value sits — interoperability and reach rather than a proprietary interface."
+    "summary": "New good: the pluggable module that converts an electrical signal to light and back for a fibre link. The note gives the form factors by lane count and rate, the parameters that actually define a part number, and where the value sits — interoperability and reach rather than a proprietary interface.",
+    "commit": "9cb553fcd2d506a18829b26400b533007fc5bbf1",
+    "before": "655c6805abf6bb7ce0e8bc528078af623f11e86a"
    }
   ]
  }
