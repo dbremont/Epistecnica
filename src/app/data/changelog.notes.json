@@ -6919,7 +6919,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Split the title: the h1 becomes the note's name and the question it answers, 'How He Used It and Why', moves into the intro quote."
+    "summary": "Split the title: the h1 becomes the note's name and the question it answers, 'How He Used It and Why', moves into the intro quote.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -6968,7 +6970,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the modelling section: the classical families compared by the property that makes each one useful, the properties that decide between them (orthogonality, weight, completeness, stability, boundary behaviour), and the matching of family to system characteristic."
+    "summary": "Add the modelling section: the classical families compared by the property that makes each one useful, the properties that decide between them (orthogonality, weight, completeness, stability, boundary behaviour), and the matching of family to system characteristic.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -8190,7 +8194,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the two map tables under the QA: the operations on geometric objects (rigid, similarity, affine, projective, set, construction, subdivision, deformation) and the transformation classes with the properties each one preserves."
+    "summary": "Add the two map tables under the QA: the operations on geometric objects (rigid, similarity, affine, projective, set, construction, subdivision, deformation) and the transformation classes with the properties each one preserves.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -9843,7 +9849,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Answer the norm/metric QA: a norm quantifies the elements of a vector space, a metric quantifies the joint relation between two of them, and the induction runs one way only."
+    "summary": "Answer the norm/metric QA: a norm quantifies the elements of a vector space, a metric quantifies the joint relation between two of them, and the induction runs one way only.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -10156,7 +10164,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the fraction-multiplication visual model: the area model of $2/3 \\times 3/4$ worked as an interactive grid embedded under the reasoning QA."
+    "summary": "Add the fraction-multiplication visual model: the area model of $2/3 \\times 3/4$ worked as an interactive grid embedded under the reasoning QA.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -13328,7 +13338,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Expand the QA: what makes something a tensor, what a rank-2 tensor actually does (a bilinear map on $V$ or on $V^*$), and the object-versus-representation warning; the stray Notion link line moves down into References."
+    "summary": "Expand the QA: what makes something a tensor, what a rank-2 tensor actually does (a bilinear map on $V$ or on $V^*$), and the object-versus-representation warning; the stray Notion link line moves down into References.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -19624,7 +19636,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the schemes table: the mathematical elements that operationalise quantification — absolute value, norm, metric, semimetric and pseudometric, inner product, similarity and dissimilarity, measure, probability, functional, operator, variance, entropy."
+    "summary": "Add the schemes table: the mathematical elements that operationalise quantification — absolute value, norm, metric, semimetric and pseudometric, inner product, similarity and dissimilarity, measure, probability, functional, operator, variance, entropy.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -21543,7 +21557,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the fifteen-question qa block (relativity of motion, inertial versus non-inertial frames, fictitious forces, Galilean and relativistic transformations, inertia's measured status) and the concepts table the frame is built from: system, observer, reference body, frame, coordinate system, clock, reference system, transformation."
+    "summary": "Add the fifteen-question qa block (relativity of motion, inertial versus non-inertial frames, fictitious forces, Galilean and relativistic transformations, inertia's measured status) and the concepts table the frame is built from: system, observer, reference body, frame, coordinate system, clock, reference system, transformation.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -25782,7 +25798,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder: imported from the Notion 'Soil' page, its definition and decomposition were never worked."
+    "summary": "Remove the undecomposed placeholder: imported from the Notion 'Soil' page, its definition and decomposition were never worked.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -31256,7 +31274,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Extend the qa block and add the QA section on the expanded, contracted and trace-reversed forms of the equations and on what the reformulations are for."
+    "summary": "Extend the qa block and add the QA section on the expanded, contracted and trace-reversed forms of the equations and on what the reformulations are for.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -36853,7 +36873,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the misnomer QA: the phenomenon in which a term's signifier misrepresents its referent, with the case list it collects (random variable, imaginary number, negative number, real number, virtual particle, dark matter, genetic code, junk DNA, big bang); Related folds into References and the provenance line drops."
+    "summary": "Add the misnomer QA: the phenomenon in which a term's signifier misrepresents its referent, with the case list it collects (random variable, imaginary number, negative number, real number, virtual particle, dark matter, genetic code, junk DNA, big bang); Related folds into References and the provenance line drops.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -40212,7 +40234,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder, imported from the Notion 'Solid State Phenomena' page and never worked; the phenomena are carried by nature/magnetism.md."
+    "summary": "Remove the undecomposed placeholder, imported from the Notion 'Solid State Phenomena' page and never worked; the phenomena are carried by nature/magnetism.md.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -43542,7 +43566,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the undecomposed placeholder: it was imported from the same Notion 'Electromagnetic System' page that electromagnetic-system.md carries, and was never worked."
+    "summary": "Remove the undecomposed placeholder: it was imported from the same Notion 'Electromagnetic System' page that electromagnetic-system.md carries, and was never worked.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -45576,7 +45602,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Quasiparticle import, which has no note of its own."
+    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Quasiparticle import, which has no note of its own.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -45593,7 +45621,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Body (Object) import, which the body notes already cover."
+    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Body (Object) import, which the body notes already cover.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -51629,7 +51659,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the template: its artifact definition is restated in the surviving companion epistemic-tool-template.md, and its own index was never filled."
+    "summary": "Remove the template: its artifact definition is restated in the surviving companion epistemic-tool-template.md, and its own index was never filled.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -51645,7 +51677,9 @@
    {
     "date": "2026-11-16",
     "kind": "fix",
-    "summary": "Drop the Contains link to the retired artifact-type template, which no longer exists."
+    "summary": "Drop the Contains link to the retired artifact-type template, which no longer exists.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -52329,7 +52363,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add two question sets: the general questions to ask about a mathematical element (essence, role, connection to reality, formalisation, genealogy, sufficient and necessary conditions) and the twelve questions that ground mediation about epistemic practice."
+    "summary": "Add two question sets: the general questions to ask about a mathematical element (essence, role, connection to reality, formalisation, genealogy, sufficient and necessary conditions) and the twelve questions that ground mediation about epistemic practice.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -57092,7 +57128,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the documentary reference on the Soviet Union's workhorse computer."
+    "summary": "Add the documentary reference on the Soviet Union's workhorse computer.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -93592,7 +93630,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the empty import: a title and a provenance line, no content."
+    "summary": "Remove the empty import: a title and a provenance line, no content.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -105048,7 +105088,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the Formulation questions: the history of inertia theories, the operational identification and measurement of the property, and what 'non-inertial reference frame' means."
+    "summary": "Add the Formulation questions: the history of inertia theories, the operational identification and measurement of the property, and what 'non-inertial reference frame' means.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
    }
   ]
  },
@@ -105153,7 +105195,8 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Add the mathematical scope readme: the essence table of the mathematical areas and the fundamental families of mathematical practice."
+    "summary": "Add the mathematical scope readme: the essence table of the mathematical areas and the fundamental families of mathematical practice.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694"
    }
   ]
  }
