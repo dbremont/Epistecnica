@@ -54124,6 +54124,11 @@
     "summary": "Follow the move: the commented ham link now points at social/good/ham.md.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1",
     "before": "e81fc9c583a978da2a34ea9a9b96550e1d051dd6"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the commented ham reference to the new agricultural goods path."
    }
   ]
  },
@@ -106018,79 +106023,114 @@
   ]
  },
  {
-  "file_path": "social/good/cheese.md",
+  "file_path": "social/good/agriculture/cheese.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/cheese.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/cheese.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/chicken.md",
+  "file_path": "social/good/agriculture/chicken.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/chicken.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/chicken.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/ham.md",
+  "file_path": "social/good/agriculture/ham.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/ham.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/ham.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/wine.md",
+  "file_path": "social/good/agriculture/wine.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/wine.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/wine.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/wood.md",
+  "file_path": "social/good/agriculture/wood.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/wood.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/wood.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/soybean.md",
+  "file_path": "social/good/agriculture/soybean.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/soybean.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/soybean.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
  {
-  "file_path": "social/good/tobacco.md",
+  "file_path": "social/good/agriculture/tobacco.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move from production/catalog/good/tobacco.md: a concrete good is an instance of the Good the shelf decomposes, so it is filed with the Good rather than with the catalog of what production makes.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from social/good/tobacco.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
    }
   ]
  },
@@ -106455,6 +106495,16 @@
     "summary": "New note: the fractal, filed under geometry where the shape atlas already types the fractal curve, region and solid rows. The note takes the dimensional definition (dimension exceeding topological dimension), separates it from self-similarity as the generator, gives the four generation mechanisms, the log N / log r dimension with the five standard values, and the natural, time-series and network appearances.",
     "commit": "8ff13b3f0604a223771c7128d17c875bfdca08f1",
     "before": "9d4cc80275fc74fb84be3973b699645015d20f42"
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/agriculture/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New product space: the agricultural goods gathered under one page, in the Product/Description/Tags form of the semiconductor, software and telecom spaces. It links the production scope the goods come out of — whose sub-sector table is also why wood is filed here — and the food industries that process them."
    }
   ]
  }

@@ -65,4 +65,4 @@ It's important to note that meat production practices and regulations vary signi
 ## References
 
 - [Maduración de la carne en casa](https://www.valorcarne.com.ar/maduracion-de-la-carne-en-casa/)
-<!-- [Ham](/view.html?p=notes/social/good/ham.md) -->
+<!-- [Ham](/view.html?p=notes/social/good/agriculture/ham.md) -->
