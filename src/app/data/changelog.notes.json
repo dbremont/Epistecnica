@@ -6880,6 +6880,11 @@
     "summary": "Point the Zeros property row at the new general note on roots.",
     "commit": "2a223dd0fd30ae6e8bbb1e3981abd61730733681",
     "before": "d03602e21f546e57d8b328effb8bb74437759d75"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Expand the polynomial taxonomy from 25 to 57 families in 12 categories: the algebraic-property group (monic, irreducible, primitive, minimal, square-free, reciprocal, cyclotomic), the completed classical orthogonal set (Chebyshev of the second kind, Zolotarev/Solotarev, Askey-Wilson), the discrete orthogonal lattice families (Hahn, Krawtchouk, Meixner, Charlier), interpolation and approximation (Bernstein, Lagrange basis, Newton), the combinatorial sequence polynomials (Fibonacci, Lucas, Pell, Abel, Bell/Touchard, Eulerian, Narayana), graph polynomials (chromatic, Tutte, independence), the coefficient-domain families (Boolean, tropical, Puiseux), and the trinomial term count. Corrects three rows that named the wrong object: the Bessel row is now the reverse Bessel polynomial, Taylor is the polynomial truncation of the series, and the quasi-polynomial is marked as not a polynomial."
    }
   ]
  },
