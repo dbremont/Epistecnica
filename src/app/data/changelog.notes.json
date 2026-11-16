@@ -2507,7 +2507,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md."
+    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -32714,7 +32716,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -40833,7 +40837,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -44994,7 +45000,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro as a composite particle, the placeholder definition is replaced, and the root row names the hadron chain rather than a property root."
+    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro as a composite particle, the placeholder definition is replaced, and the root row names the hadron chain rather than a property root.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105215,7 +105223,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md."
+    "summary": "Follow the move: the link to the photon note now points at nature/elementary/photon.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105350,7 +105360,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105529,7 +105541,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105565,7 +105579,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105654,7 +105670,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105671,7 +105689,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md."
+    "summary": "Follow the move: the link to the electron note now points at nature/elementary/electron.md.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105693,12 +105713,15 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/elementary-particle.md: the note becomes the shelf master, and the shelf collects the particles the standard model does not compose, their fields and the modelling concepts that use the term."
+    "summary": "Move from nature/elementary-particle.md: the note becomes the shelf master, and the shelf collects the particles the standard model does not compose, their fields and the modelling concepts that use the term.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    },
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Rewrite the note as the shelf master. The import typed the family `Substance / Matter` at meso level and left the decomposition pending in the retired four-column form; the note now types it at micro, carries the full two-column decomposition (fermion/boson split, quark flavours, charged leptons and neutrinos, gauge and scalar bosons, the hypothetical graviton, and the attributes that individuate a kind), a taxonomy table, and the scope that names the fields, the modelling concepts and the composites the tree excludes."
+    "summary": "Rewrite the note as the shelf master. The import typed the family `Substance / Matter` at meso level and left the decomposition pending in the retired four-column form; the note now types it at micro, carries the full two-column decomposition (fermion/boson split, quark flavours, charged leptons and neutrinos, gauge and scalar bosons, the hypothetical graviton, and the attributes that individuate a kind), a taxonomy table, and the scope that names the fields, the modelling concepts and the composites the tree excludes.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105708,7 +105731,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105718,7 +105742,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/fermions-matter-particles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/fermions-matter-particles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105728,7 +105753,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/leptons-matter-fermions.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/leptons-matter-fermions.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105738,7 +105764,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/lepton-antiparticles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/lepton-antiparticles.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105748,7 +105775,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/quark.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/quark.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105758,7 +105786,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/quark-antiquarks.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/quark-antiquarks.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105768,7 +105797,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/gauge-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/gauge-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105778,7 +105808,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/scalar-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification."
+    "summary": "Move from nature/scalar-boson.md: a kind of elementary particle, filed on the shelf whose master indexes the classification.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105788,7 +105819,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/electron.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to. The Notion provenance line drops in the same pass, as it did across the electromagnetic cluster."
+    "summary": "Move from nature/electron.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to. The Notion provenance line drops in the same pass, as it did across the electromagnetic cluster.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105798,12 +105830,15 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/muon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/muon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    },
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro, the placeholder definition is replaced by the particle, and the root row becomes the elementary-particle path instead of a bare property root."
+    "summary": "Re-type the import: the note declared `Property` in the Quantity category, which reads a particle as a quantity. It is typed `Substance / Matter` at micro, the placeholder definition is replaced by the particle, and the root row becomes the elementary-particle path instead of a bare property root.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  },
@@ -105813,7 +105848,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/neutrinos.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/neutrinos.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105823,7 +105859,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/photon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/photon.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105833,7 +105870,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/gluon-g.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/gluon-g.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105843,7 +105881,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/higgs-boson-h.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/higgs-boson-h.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105853,7 +105892,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/graviton.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to."
+    "summary": "Move from nature/graviton.md: an elementary particle, filed on the shelf whose master decomposes the family it belongs to.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105863,7 +105903,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/neutrino-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition."
+    "summary": "Move from nature/neutrino-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105873,7 +105914,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/higgs-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition."
+    "summary": "Move from nature/higgs-field.md: the field is the substrate these particles are excitations of, and sits beside them on the shelf rather than inside the decomposition.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105883,7 +105925,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/quantum-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+    "summary": "Move from nature/quantum-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105893,7 +105936,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/classical-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+    "summary": "Move from nature/classical-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105903,7 +105947,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/free-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+    "summary": "Move from nature/free-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105913,7 +105958,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from nature/mediator-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term."
+    "summary": "Move from nature/mediator-particle.md: the note says what a particle is at a resolution or in an interaction rather than naming a kind, and sits on the shelf that uses the term.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1"
    }
   ]
  },
@@ -105923,7 +105969,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Follow the moves: the elementary-particle, classical-particle and quantum-particle links point at nature/elementary/, and the directory sentence says where those notes sit — the elementary shelf for the particles the standard model does not compose, the nature root for the composites and the matter kinds."
+    "summary": "Follow the moves: the elementary-particle, classical-particle and quantum-particle links point at nature/elementary/, and the directory sentence says where those notes sit — the elementary shelf for the particles the standard model does not compose, the nature root for the composites and the matter kinds.",
+    "commit": "2a8aa89530fca9a9a1e5d5209274dd427f3c83b1",
+    "before": "b9075d2022a4225990d1ad89dc5ad78cf39564ca"
    }
   ]
  }
