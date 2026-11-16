@@ -3397,6 +3397,16 @@
   ]
  },
  {
+  "file_path": "epistemica/epistemic/guidance/principle/maximum-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the maximum principle as an epistemic principle: the extremal-degeneracy theorems of potential theory and second-order PDE read as a directive about where the information is -- bound the interior by describing the boundary, transfer bounds by comparison, and treat an interior extremum as a diagnostic. States the four statements that carry the name (Hopf/Nirenberg/elliptic comparison, Hamilton's tensor form, the viscosity and discrete reformulations, and Pontryagin's homonym), grows the family as a member set because the guide licenses no part-link for a principle, shows why the sign condition and the operator order carry the result (the first eigenfunction and the biharmonic counterexample, the hyperbolic domain of dependence), and contrasts it with least action and stationarity, where the extremum is held inside the admissible set."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/epistemic/guidance/principle/minimal.md",
   "logs": [
    {
