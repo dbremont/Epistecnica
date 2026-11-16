@@ -93755,7 +93755,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide."
+    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93765,7 +93766,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association."
+    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93775,7 +93777,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested."
+    "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0",
+    "before": "9514e35123e319756dd9c964c4ead11d9f69da45"
    }
   ]
  },
@@ -93785,7 +93789,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "List the stratum shelf among the structural notes."
+    "summary": "List the stratum shelf among the structural notes.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0",
+    "before": "9514e35123e319756dd9c964c4ead11d9f69da45"
    }
   ]
  },
@@ -93795,7 +93801,9 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the cultural activity family: the doings by which a collective produces, transmits and performs meaning, with sociability, cultivation and ceremony as its kinds and commemoration left out."
+    "summary": "Open the cultural activity family: the doings by which a collective produces, transmits and performs meaning, with sociability, cultivation and ceremony as its kinds and commemoration left out.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93805,7 +93813,9 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Add the salon as the family's first worked instance: the hosted gathering of cultivated conversation, its conventions, its brokerage, and the contested public-sphere reading."
+    "summary": "Add the salon as the family's first worked instance: the hosted gathering of cultivated conversation, its conventions, its brokerage, and the contested public-sphere reading.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93815,7 +93825,9 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Add the Free City of Lübeck: the merchant republic of the Baltic, its patriciate and trading houses, and the economic bourgeoisie the Bildungsbürgertum is named against."
+    "summary": "Add the Free City of Lübeck: the merchant republic of the Baltic, its patriciate and trading houses, and the economic bourgeoisie the Bildungsbürgertum is named against.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93825,7 +93837,9 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Add the scholar-official as an actor type: the examination-recruited administrator of the Chinese imperial state, decomposed through intention, guidance, organization, instrumentation and activity, with the examination evaluated against the German credential stratum."
+    "summary": "Add the scholar-official as an actor type: the examination-recruited administrator of the Chinese imperial state, decomposed through intention, guidance, organization, instrumentation and activity, with the examination evaluated against the German credential stratum.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93835,7 +93849,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Name the three activity families in the action hub, including the new cultural branch."
+    "summary": "Name the three activity families in the action hub, including the new cultural branch.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93845,7 +93861,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison."
+    "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -93855,7 +93873,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor."
+    "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  }
