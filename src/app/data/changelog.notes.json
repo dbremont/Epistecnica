@@ -15087,7 +15087,7 @@
   ]
  },
  {
-  "file_path": "epistemica/observational/computational/markov-model.md",
+  "file_path": "epistemica/observational/process/markov-model.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -15100,6 +15100,12 @@
     "kind": "refactor",
     "summary": "move into the observational/computational scope",
     "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/computational/markov-model.md: a Markov model is a representation of a process, not a computational method, and the process shelf already holds its object. Rewritten in the same pass: the definition now reads the model side rather than calling it a stochastic process, the boundary against the Markov process is stated, the twelve types are given their axis (time x state x observability x control), and the references are integrated into one APA list.",
+    "commit": "dcf43d518f9540b16e39801e4954ba2455b08a96"
    }
   ]
  },
@@ -18416,6 +18422,13 @@
     "summary": "Link the Martingale note and replace the imported Notion relation line.",
     "commit": "cc056f044ca533c8bbdbb397b825a4fb5d6ab868",
     "before": "e21b19c9388fd5b534be7e879d86a7de935c7ee7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Related list names the Markov process and the Markov model, so the shelf links the class to the models built on it.",
+    "commit": "dcf43d518f9540b16e39801e4954ba2455b08a96",
+    "before": "2fe62ec4cceb77605e0d90d1c56be2cf77f33a90"
    }
   ]
  },
@@ -106587,6 +106600,18 @@
     "summary": "New good: the oil pressed from the olive drupe. The note gives the mechanical extraction chain, the grade structure with its acidity thresholds, the parameters that define a lot (cultivar, harvest date, acidity, peroxide value, polyphenols, sensory panel, origin), and the value reading — commodity at the lampante end, vintage at the extra-virgin end.",
     "commit": "329948edc9f1b0eba1244dc30bd81f98613a71d1",
     "before": "e4e341965926d253b3bb565fcce536013d484764"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/process/markov-process.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: the process the model represents — the class defined by the Markov property, with the property section (three readings, what it does and does not say, higher order and generalisations), the transition law as a Markov kernel and its action as a Markov operator, Chapman-Kolmogorov, the time x state classification, the generator, and the canonical examples.",
+    "commit": "dcf43d518f9540b16e39801e4954ba2455b08a96",
+    "before": "2fe62ec4cceb77605e0d90d1c56be2cf77f33a90"
    }
   ]
  }
