@@ -6877,7 +6877,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Point the Zeros property row at the new general note on roots."
+    "summary": "Point the Zeros property row at the new general note on roots.",
+    "commit": "2a223dd0fd30ae6e8bbb1e3981abd61730733681",
+    "before": "d03602e21f546e57d8b328effb8bb74437759d75"
    }
   ]
  },
@@ -8855,7 +8857,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the general concept of a root: the equation/function readings and the zero set, the factor theorem and multiplicity, the zero root as the case a=0, the table of named senses (radical, root of unity, unit root, algebraic number, eigenvalue) each restricted from the general notion, what a root is not, and the separation of the concept from the techniques that locate one."
+    "summary": "Open the general concept of a root: the equation/function readings and the zero set, the factor theorem and multiplicity, the zero root as the case a=0, the table of named senses (radical, root of unity, unit root, algebraic number, eigenvalue) each restricted from the general notion, what a root is not, and the separation of the concept from the techniques that locate one.",
+    "commit": "2a223dd0fd30ae6e8bbb1e3981abd61730733681"
    }
   ]
  },
