@@ -66759,7 +66759,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/b-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/b-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66775,7 +66776,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/bayesian-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/bayesian-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66810,7 +66812,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/buffer-manager.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/buffer-manager.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66826,7 +66829,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/ceph-object-gateway.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/ceph-object-gateway.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66842,7 +66846,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/columnar-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/columnar-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66858,7 +66863,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/concurrency-control.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/concurrency-control.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66874,7 +66880,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/connection-pool.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/connection-pool.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66890,7 +66897,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-backup.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-backup.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66906,7 +66914,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-maps-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-maps-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66922,7 +66931,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-migration.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-migration.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66938,7 +66948,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-partition-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-partition-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66954,7 +66965,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-schema-versioning.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-schema-versioning.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66970,7 +66982,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/database-record-identifier-models.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/database-record-identifier-models.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -66986,7 +66999,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/distribute-database.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/distribute-database.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67009,7 +67023,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/distributed-file-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/distributed-file-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67025,7 +67040,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/geosharding.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/geosharding.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67041,7 +67057,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/graph-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/graph-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67057,7 +67074,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/graphql.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/graphql.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67073,7 +67091,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/hash-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/hash-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67089,7 +67108,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/heap-file-organization.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67105,7 +67125,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/idempotency.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/idempotency.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67121,7 +67142,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/in-memory-data-grid-imdg.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/in-memory-data-grid-imdg.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67137,7 +67159,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/in-memory-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/in-memory-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67153,7 +67176,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/inverted-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/inverted-index.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67169,7 +67193,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/isolation-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/isolation-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67185,7 +67210,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/key-value-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/key-value-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67201,7 +67227,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/lsm-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/lsm-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67217,7 +67244,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/memtable.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/memtable.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67233,7 +67261,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/metadata-discovery-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/metadata-discovery-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67249,7 +67278,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/multidimensional-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/multidimensional-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67265,7 +67295,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/object-storage-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/object-storage-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67281,7 +67312,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/odata-open-data-protocol.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/odata-open-data-protocol.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67297,7 +67329,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/pg-vectorize.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/pg-vectorize.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67313,7 +67346,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/query-language.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/query-language.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67329,7 +67363,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/r-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/r-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67345,7 +67380,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/recovery.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/recovery.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67361,7 +67397,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67377,7 +67414,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67419,7 +67457,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system-storage-management.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67435,7 +67474,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67451,7 +67491,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/replication-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/replication-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67467,7 +67508,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/share-memory-systems.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/share-memory-systems.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67490,7 +67532,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/skip-list.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/skip-list.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67525,7 +67568,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/sql.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/sql.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67541,7 +67585,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/sstable.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/sstable.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67557,7 +67602,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/suffix-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/suffix-tree.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67573,7 +67619,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/time-series-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/time-series-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67589,7 +67636,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/topic.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/topic.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67605,7 +67653,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/vector-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/vector-data-model.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67621,7 +67670,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/vector-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/vector-data-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67644,7 +67694,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/very-long-term-backup-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/data-system/data-system-conceptual-model/very-long-term-backup-system.md: the data-system-conceptual-model wrapper is dissolved — technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67946,7 +67997,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/apache-thrift.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/apache-thrift.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67962,7 +68014,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/asp-net-core.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/asp-net-core.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67978,7 +68031,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/batch-processing.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/batch-processing.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -67994,7 +68048,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/caddy.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/caddy.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68010,7 +68065,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/common-gateway-interface-cgi.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/common-gateway-interface-cgi.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68045,7 +68101,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/distributed-counter.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/distributed-counter.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68061,7 +68118,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/distributed-system-specification.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/distributed-system-specification.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68077,7 +68135,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/express.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/express.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68093,7 +68152,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/fastify.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/fastify.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68109,7 +68169,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/flp-impossibility-theorem.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/flp-impossibility-theorem.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68125,7 +68186,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/grpc.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/grpc.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68141,7 +68203,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/gunicorn.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/gunicorn.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68157,7 +68220,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/haproxy.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/haproxy.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68206,7 +68270,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/interaction-protocol.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68222,7 +68287,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-delivery-guarantee.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68238,7 +68304,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-queue.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/message-queue.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68254,7 +68321,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/nestjs.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/nestjs.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68270,7 +68338,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/stream-system.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/stream-system.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68286,7 +68355,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/topic.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/topic.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -68323,7 +68393,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/video-streaming.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/distributed-computing/multi-node-processing-system-conceptual-model/video-streaming.md: the multi-node-processing-system-conceptual-model wrapper is dissolved — technica/computation/distributed-computing already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -74878,7 +74949,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/miscelanea/geocomputation/geocomputation-conceptual-model/topic.md: the geocomputation-conceptual-model wrapper is dissolved — technica/computation/miscelanea/geocomputation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/miscelanea/geocomputation/geocomputation-conceptual-model/topic.md: the geocomputation-conceptual-model wrapper is dissolved — technica/computation/miscelanea/geocomputation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -75176,7 +75248,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/retrieval-model.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/retrieval-model.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -75192,7 +75265,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/search-engine.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/search-engine.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -75208,7 +75282,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/topic.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/miscelanea/retrieval-system-search-system/retrieval-system-conceptual-model/topic.md: the retrieval-system-conceptual-model wrapper is dissolved — technica/computation/miscelanea/retrieval-system-search-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81097,7 +81172,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/ansible.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/ansible.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81113,7 +81189,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/apache-cloudstack.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/apache-cloudstack.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81129,7 +81206,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/apache-mesos.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/apache-mesos.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81145,7 +81223,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/bocker.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/bocker.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81161,7 +81240,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container-orchestration.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container-orchestration.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81177,7 +81257,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container-registry.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container-registry.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81193,7 +81274,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/container.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81209,7 +81291,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-compose.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-compose.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81225,7 +81308,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-image.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-image.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81241,7 +81325,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-network.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker-network.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81264,7 +81349,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/docker.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81280,7 +81366,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/emulator.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/emulator.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81296,7 +81383,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/infrastructure-as-a-service-iaas.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/infrastructure-as-a-service-iaas.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81312,7 +81400,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/k3s-lightweight-kubernetes.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/k3s-lightweight-kubernetes.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81328,7 +81417,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/kubernetes.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/kubernetes.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81344,7 +81434,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/kvm.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/kvm.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81367,7 +81458,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/network-virtualization.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81383,7 +81475,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/open-vswitch.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/open-vswitch.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81399,7 +81492,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/openstack.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/openstack.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81415,7 +81509,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/proxmox-virtual-environment.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/proxmox-virtual-environment.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81438,7 +81533,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qcow.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qcow.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81468,7 +81564,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81484,7 +81581,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/qemu-bios-system.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/qemu-bios-system.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81507,7 +81605,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/qemu-system-x86-64.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/qemu-system-x86-64.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81523,7 +81622,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/topic.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/qemu-quick-emulator/qemu-quick-emulator-conceptual-model/topic.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization/qemu-quick-emulator already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81539,7 +81639,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/topic.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/topic.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81555,7 +81656,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/virt-manager.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/virt-manager.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -81571,7 +81673,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/virtualbox.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/platform/virtualization/virtualization-conceptual-model/virtualbox.md: the virtualization-conceptual-model wrapper is dissolved — technica/computation/platform/virtualization already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82855,7 +82958,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/agile-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/agile-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82871,7 +82975,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/bi-temporality-dynamic-state-recording.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/bi-temporality-dynamic-state-recording.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82887,7 +82992,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/blackboard-system.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/blackboard-system.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82903,7 +83009,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/client-server-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/client-server-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82919,7 +83026,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/cloud-native-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/cloud-native-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82935,7 +83043,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/component-based-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/component-based-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82951,7 +83060,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/computational-system-evaluation.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/computational-system-evaluation.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82967,7 +83077,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/computational-system-security.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/computational-system-security.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82983,7 +83094,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/cross-cutting-concern.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/cross-cutting-concern.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -82999,7 +83111,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/dependence.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/dependence.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83015,7 +83128,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/event-driven-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/event-driven-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83031,7 +83145,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/extreme-programming-xp.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/extreme-programming-xp.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83047,7 +83162,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/fault-tolerant-design.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83063,7 +83179,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/feature-driven-development-fdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/feature-driven-development-fdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83079,7 +83196,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/hexagonal-architecture-ports-and-adapters.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/hexagonal-architecture-ports-and-adapters.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83095,7 +83213,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/incremental-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/incremental-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83111,7 +83230,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/information-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/information-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83127,7 +83247,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/iterative-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/iterative-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83143,7 +83264,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/layered-n-tier-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/layered-n-tier-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83159,7 +83281,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/lean-software-development.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/lean-software-development.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83175,7 +83298,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/master-slave-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/master-slave-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83191,7 +83315,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/microkernel-plug-in-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/microkernel-plug-in-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83207,7 +83332,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/microservices-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/microservices-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83223,7 +83349,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-driven-development-mdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-driven-development-mdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83239,7 +83366,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-view-controller-mvc.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-view-controller-mvc.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83255,7 +83383,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-view-view-model-mvvm-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/model-view-view-model-mvvm-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83271,7 +83400,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/monolithic-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/monolithic-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83287,7 +83417,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/overengineering.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/overengineering.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83303,7 +83434,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/peer-to-peer-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/peer-to-peer-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83319,7 +83451,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/peer-to-peer-p2p-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/peer-to-peer-p2p-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83335,7 +83468,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/pipe-and-filter-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/pipe-and-filter-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83351,7 +83485,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/publish-subscribe-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/publish-subscribe-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83367,7 +83502,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/robustness.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/robustness.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83383,7 +83519,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/scrum.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/scrum.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83399,7 +83536,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/self-optimizing-system.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/self-optimizing-system.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83415,7 +83553,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/serverless-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/serverless-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83431,7 +83570,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/service-oriented-architecture-soa.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/service-oriented-architecture-soa.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83447,7 +83587,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-specification.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-specification.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83463,7 +83604,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-supply-chain-management.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-supply-chain-management.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83479,7 +83621,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-supply-chain-policy.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-supply-chain-policy.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83495,7 +83638,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-versioning.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software-versioning.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83511,7 +83655,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/software.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83527,7 +83672,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/space-based-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/space-based-architecture.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83543,7 +83689,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/test-driven-development-tdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/test-driven-development-tdd.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83559,7 +83706,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/topic.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/topic.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83575,7 +83723,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/waterfall-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/waterfall-model.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83591,7 +83740,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/workload.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/design/computer-system-design-conceptual-model/workload.md: the computer-system-design-conceptual-model wrapper is dissolved — technica/computation/system/design already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83618,7 +83768,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/documentation/documentation-conceptual-model/topic.md: the documentation-conceptual-model wrapper is dissolved — technica/computation/system/documentation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/documentation/documentation-conceptual-model/topic.md: the documentation-conceptual-model wrapper is dissolved — technica/computation/system/documentation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83678,7 +83829,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/datalog.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/datalog.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83701,7 +83853,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/log-processing.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/log-processing.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83717,7 +83870,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/serilog.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/serilog.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83740,7 +83894,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/signal.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/signal.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83756,7 +83911,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/status-page.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/status-page.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83772,7 +83928,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/topic.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/topic.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83788,7 +83945,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/untitled-2.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/untitled-2.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -83804,7 +83962,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/untitled.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/evaluation/monitoring/monitoring-conceptual-model/untitled.md: the monitoring-conceptual-model wrapper is dissolved — technica/computation/system/evaluation/monitoring already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85840,7 +85999,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/apache-zookeeper.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/apache-zookeeper.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85863,7 +86023,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/build-system.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/build-system.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85879,7 +86040,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/certificate-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/certificate-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85895,7 +86057,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/cluster-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/cluster-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85911,7 +86074,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/cmake.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/cmake.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85927,7 +86091,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/composer.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/composer.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85943,7 +86108,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/configuration-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/configuration-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85959,7 +86125,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-delivery-cd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-delivery-cd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85975,7 +86142,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-deployment-cd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-deployment-cd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -85991,7 +86159,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-integration-ci.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/continuous-integration-ci.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86007,7 +86176,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/dpkg.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/dpkg.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86023,7 +86193,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/etcd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/etcd.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86046,7 +86217,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86279,7 +86451,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gnu-autotools.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86295,7 +86468,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gnu-libtool.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gnu-libtool.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86311,7 +86485,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gradle.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/gradle.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86327,7 +86502,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/hashicorp-vault.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/hashicorp-vault.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86343,7 +86519,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/how-to-make-sure-that-unwanted-files-are-not-committed.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86385,7 +86562,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/jenkins-code-reading.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86401,7 +86579,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/jenkins.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/jenkins.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86417,7 +86596,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/make.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/make.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86433,7 +86613,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/meson.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/meson.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86449,7 +86630,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/mlops.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/mlops.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86465,7 +86647,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ninja.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ninja.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86481,7 +86664,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/nvm-node-version-manager.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/nvm-node-version-manager.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86497,7 +86681,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/paas.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/paas.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86513,7 +86698,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/package-manager.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/package-manager.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86529,7 +86715,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/pkg-config.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/pkg-config.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86545,7 +86732,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/rbenv.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/rbenv.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86561,7 +86749,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ruby-bundler.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ruby-bundler.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86577,7 +86766,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ruby-gem.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/ruby-gem.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86600,7 +86790,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/sandboxing-isolation.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/sandboxing-isolation.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86616,7 +86807,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/secret-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/secret-management.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86632,7 +86824,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/source-code.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/source-code.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86648,7 +86841,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/topic.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/topic.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86664,7 +86858,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/uv.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/uv.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -86680,7 +86875,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/yarn.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/yarn.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -93670,7 +93866,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/robotics/automatum-conceptual-model/computer-numerical-control-cnc.md: the automatum-conceptual-model wrapper is dissolved — technica/robotics already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/robotics/automatum-conceptual-model/computer-numerical-control-cnc.md: the automatum-conceptual-model wrapper is dissolved — technica/robotics already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -93692,7 +93889,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/robotics/automatum-conceptual-model/topic.md: the automatum-conceptual-model wrapper is dissolved — technica/robotics already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/robotics/automatum-conceptual-model/topic.md: the automatum-conceptual-model wrapper is dissolved — technica/robotics already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105195,7 +105393,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/a-guide-to-version-control-worlflow.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/a-guide-to-version-control-worlflow.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105211,7 +105410,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-config.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-config.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105227,7 +105427,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-data-model.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-data-model.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105243,7 +105444,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-garbage-collection.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-garbage-collection.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105259,7 +105461,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-hooks.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-hooks.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105275,7 +105478,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-index.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-index.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105291,7 +105495,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-modules.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-modules.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105307,7 +105512,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-notes.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-notes.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105323,7 +105529,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-packfile.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-packfile.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105339,7 +105546,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-performace.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-performace.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105355,7 +105563,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-protocols.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-protocols.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105371,7 +105580,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-rebase.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-rebase.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105387,7 +105597,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-security.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-security.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105403,7 +105614,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-snapshot-history-operation.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-snapshot-history-operation.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105419,7 +105631,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-stash.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-stash.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105435,7 +105648,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-toolbox.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/git-toolbox.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105451,7 +105665,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/gitignore.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/gitignore.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
@@ -105467,7 +105682,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/topic.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone."
+    "summary": "Move from technica/computation/system/operation/operation-conceptual-model/git-global-information-tracker/topic.md: the operation-conceptual-model wrapper is dissolved — technica/computation/system/operation/git-global-information-tracker already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
+    "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
    }
   ]
  },
