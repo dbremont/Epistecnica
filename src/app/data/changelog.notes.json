@@ -54128,7 +54128,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Retarget the commented ham reference to the new agricultural goods path."
+    "summary": "Retarget the commented ham reference to the new agricultural goods path.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc",
+    "before": "bfe72a5e63bb1043ac4f6f3384cead9ecb08eb87"
    }
   ]
  },
@@ -106034,7 +106036,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/cheese.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/cheese.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106050,7 +106053,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/chicken.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/chicken.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106066,7 +106070,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/ham.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/ham.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106082,7 +106087,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/wine.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/wine.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106098,7 +106104,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/wood.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/wood.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106114,7 +106121,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/soybean.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/soybean.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106130,7 +106138,8 @@
    {
     "date": "2026-11-16",
     "kind": "move",
-    "summary": "Move from social/good/tobacco.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root."
+    "summary": "Move from social/good/tobacco.md: the agricultural goods are filed with the agricultural product space, which the new readme now indexes, rather than loose at the goods root.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc"
    }
   ]
  },
@@ -106504,7 +106513,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New product space: the agricultural goods gathered under one page, in the Product/Description/Tags form of the semiconductor, software and telecom spaces. It links the production scope the goods come out of — whose sub-sector table is also why wood is filed here — and the food industries that process them."
+    "summary": "New product space: the agricultural goods gathered under one page, in the Product/Description/Tags form of the semiconductor, software and telecom spaces. It links the production scope the goods come out of — whose sub-sector table is also why wood is filed here — and the food industries that process them.",
+    "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc",
+    "before": "bfe72a5e63bb1043ac4f6f3384cead9ecb08eb87"
    }
   ]
  }
