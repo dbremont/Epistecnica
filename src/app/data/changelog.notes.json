@@ -15209,7 +15209,9 @@
    {
     "date": "2026-11-16",
     "kind": "fix",
-    "summary": "Restore the sources the previous pass deleted, integrated into the list rather than dropped: FERMIAC, the Monte Carlo Wikipedia entry, the Metropolis–Ulam scan (joined to its citation), the Sanz-Alonso and Al-Ghattas preprint, the Walters blog post, the video playlist, the internal sampling note and the epistemic tool template — all formatted and alphabetised with the rest. The list is now 35 entries."
+    "summary": "Restore the sources the previous pass deleted, integrated into the list rather than dropped: FERMIAC, the Monte Carlo Wikipedia entry, the Metropolis–Ulam scan (joined to its citation), the Sanz-Alonso and Al-Ghattas preprint, the Walters blog post, the video playlist, the internal sampling note and the epistemic tool template — all formatted and alphabetised with the rest. The list is now 35 entries.",
+    "commit": "b89264f36d1e37ed899b09b1af388c2c13521bad",
+    "before": "adbea3203b00e4507f9f68da2efaca65b0f21c7f"
    }
   ]
  },
