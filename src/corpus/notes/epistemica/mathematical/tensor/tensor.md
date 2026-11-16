@@ -5,13 +5,16 @@ tags: [note, mathematics, analytical, type]
 
 # Tensor
 
- : Vector (Vector%20171c0f5171ec80ad8609e882652c59be.md), Indo-Arabic Numeral (Indo-Arabic%20Numeral%20a3d9c8f22c444f89a7daf097cc1d29d3.md), Matrix (Matrix%20171c0f5171ec80c58898c4e26151fbb8.md), Multilinear Map (Multilinear%20Map%208989cd621d7a407d9137711e88aac9d1.md)
-
 > **Note:** The definition of a tensor can be confusing. In computer science, it is often treated simply as a generalization of an n-dimensional data structure. In mathematics, tensors are sometimes described similarly, but this is often mixed with their use as multilinear maps or bilinear forms. In this note, we aim to be as precise as possible.
 > 
 
 > In this note, the word `m-tensor`  denotes the concept of tensor used in mathematics,  not the Computer Science  one.
-> 
+
+>  The tensor the qunititsnetial elmetn - that has furnction but not form. No! A rank-2 tensor is not simply a matrix. A matrix is one possible coordinate representation of a rank-2 tensor in a chosen basis. 
+
+> Note: In Comptuer Science the term tensor is wornlgy used for the idea of a higher order matrix or array of number.
+
+> **a tensor is a mathematical object characterized by its transformation behavior and multilinear function, not by its representation.**
 
 ## Meta
 
@@ -123,7 +126,27 @@ A^{i_1}{k_1} \dots A^{i_n}{k_n} (A^{-1})^{l_1}{j_1} \dots (A^{-1})^{l_m}{j_m} T^
 
 ## ❓ QA
 
-> 
+### What makes something a tensor?
+
+### What does a rank-2 tensor actually do?
+
+A rank-2 covariant tensor, for example, is a bilinear map:
+
+\[
+T:V\times V\rightarrow \mathbb{R}
+\]
+
+It takes two vectors and returns a scalar.
+
+A rank-2 contravariant tensor can be understood as a bilinear map on the dual space:
+
+\[
+T:V^*\times V^*\rightarrow\mathbb{R}
+\]
+
+A mixed tensor has a different combination of vector and covector arguments.
+
+> Note: A Tensor is a function - in that can have a reperstaion, like a matrix,  but  along as many others - we cannot confuse the object; with its representation.
 
 ## References
 
@@ -138,3 +161,8 @@ A^{i_1}{k_1} \dots A^{i_n}{k_n} (A^{-1})^{l_1}{j_1} \dots (A^{-1})^{l_m}{j_m} T^
 - [What, Exactly, Is a Tensor?](https://math.stackexchange.com/questions/657494/what-exactly-is-a-tensor)
 - [Norm](../norm/norm.md)
 - [**Representation Problem: Tensor**](https://app.notion.com/p/Representation-Problem-Tensor-3bf10e509aeb46088ba27c4a17cd31d9?pvs=21)
+- Vector (Vector%20171c0f5171ec80ad8609e882652c59be.md)
+- Indo-Arabic Numeral (Indo-Arabic%20Numeral%20a3d9c8f22c444f89a7daf097cc1d29d3.md)
+- Matrix (Matrix%20171c0f5171ec80c58898c4e26151fbb8.md)
+- Multilinear Map (Multilinear%20Map%208989cd621d7a407d9137711e88aac9d1.md)
+

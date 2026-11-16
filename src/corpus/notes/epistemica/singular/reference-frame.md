@@ -1,5 +1,21 @@
 ---
 tags: [note, framework]
+qa:
+   - What is a reference frame, and which physical and mathematical elements define it?
+   - Why is motion relative to a reference frame rather than an absolute property of an object?
+   - Can an object be simultaneously stationary, moving, and accelerating depending on the reference frame? Explain with a physical example.
+   - What is the difference between an object's velocity relative to its immediate surroundings and its velocity relative to an external observer?
+   - How do position, velocity, and acceleration transform when changing from one reference frame to another?
+   - What distinguishes an inertial reference frame from a non-inertial reference frame, and how can this distinction be established experimentally?
+   - Why does Newton's first law play a fundamental role in identifying inertial reference frames?
+   - Can an object remain stationary relative to an accelerating reference frame while simultaneously accelerating relative to an inertial frame? Explain why.
+   - What happens to the apparent motion of an object when an observer transitions from an inertial to a non-inertial reference frame?
+   - What are fictitious forces, why are they introduced in non-inertial reference frames, and how do they differ from forces arising from physical interactions?
+   - How do Galilean transformations relate the descriptions of motion in two inertial reference frames, and under what assumptions are they valid?
+   - How does the distinction between inertial and non-inertial reference frames change in the context of special and general relativity?
+   - How can inertia be distinguished experimentally from other physical properties, operationally characterized, and quantitatively measured?
+   - Is inertia a property of matter, a consequence of Newton's laws, or a relationship between matter and spacetime? How do competing physical theories interpret it?
+   - How did the understanding of inertia evolve historically, from Aristotle and Galileo through Newton, Mach, and Einstein?
 ---
 
 # Reference Frame
@@ -108,6 +124,19 @@ Open question,  see:
 | Frame Isolation | Structural | Treating frames as independent | No transformation between frames | Frames form a **connected transformation structure** |
 | Manifold Misplacement | Geometric | Confusing physical object with geometric space | “Earth is the manifold” | Manifold ≠ physical object; frame is defined **on** it |
 | Absolute Rest Assumption | Conceptual | Treating rest as absolute | “This object is truly at rest” | Rest means **v = 0 relative to a frame** |
+
+### Which are the concepts needed to understand the idea of a reference frame?
+
+| Concept | Meaning | Example |
+|---|---|---|
+| Physical system | The physical entity or process being studied | Earth |
+| Observer | An entity or idealized observational structure relative to which measurements are defined | An observer on Earth |
+| Reference body | A physical body used as a basis for describing motion | Earth |
+| Reference frame | The reference structure used to describe physical events and motion | Earth-fixed frame |
+| Coordinate system | A mathematical assignment of coordinates to events or positions | Latitude, longitude, altitude |
+| Clock | A device or idealized standard for measuring time | Atomic clock |
+| Reference system | A potentially broader arrangement of reference frames, coordinates, clocks, and conventions | An astronomical reference system |
+| Transformation | A mathematical mapping relating descriptions in different frames | Galilean or Lorentz transformation |
 
 ## References
 

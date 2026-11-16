@@ -6,7 +6,9 @@ qa:
  - Is the triple the technique really reduces to — resolvent expression, permutation analysis, resolvent polynomial — clean, or do the middle two fuse in the operation?
 ---
 
-# Lagrange's Resolvent: How He Used It and Why
+# Lagrange's Resolvent
+
+> How He Used It and Why?
 
 > The important thing about Lagrange's work is that **he was not simply trying to find another formula for solving polynomial equations. He was trying to understand the mathematical mechanism that made existing solution formulas possible.**
 

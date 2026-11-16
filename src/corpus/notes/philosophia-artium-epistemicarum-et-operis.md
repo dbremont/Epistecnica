@@ -610,6 +610,28 @@ Epistemic Element (parent)
 | Performative Effects | Moderate | **Effects of classification:** admission still reorganises how an inquiry is taught, funded, and governed, now with a test behind it. |
 | Misuse Resistance | Moderate | **Resistance to abuse:** the role test blocks mere relabelling, though "intelligible" can still be stretched by a determined user. |
 
+### Which are the set of good - and general questions to ask about mathematics?
+
+- What is the essense of this mathematical element? What its iss role?  How does it connect to reality (if any)? How does this elmetn was formalized? What is its intelectual genealogy?
+- How can group theory; or abstract algebra can helps into the solutions of problems in analysis?
+- Which are the suffcient conditions for this property?
+- Which are the necessary conditions? Or How can we reduced this?
+
+### Which are the fundamtneal quisotn that shoudl ground our mediation about epistemic practice?
+
+- How should we think? — Intellectual operations and reasoning.
+- How should we investigate? — Methods of inquiry, observation, experimentation, and exploration.
+- How should we discover? — Methods of discovery, invention, and demonstration.
+- How can we know? — Foundations, conditions, origins, and limits of knowledge.
+- What is an autonomous epistemic agent? — Agency, autonomy, intentionality, and epistemic capabilities.
+- How do we construct knowledge? — Concept formation, abstraction, measurement, modeling, and theorization.
+- How do we represent knowledge? — Concepts, propositions, models, theories, and representational systems.
+- How do we justify and validate knowledge? — Evidence, verification, falsification, justification, and reproducibility.
+- How do we validate our methods of validation? — Methodological soundness, criteria, assumptions, and standards of evidence.
+- How do we manage epistemic uncertainty? — Error, approximation, incomplete information, and degrees of confidence.
+- How do we recognize our epistemic limitations? — Bias, fallibility, incompleteness, and methodological constraints.
+- How does knowledge evolve and accumulate? — Revision, criticism, transmission, integration, and cumulative development.
+
 ### Which note schema used - in order to document an epistemic element?
 
 ```bash

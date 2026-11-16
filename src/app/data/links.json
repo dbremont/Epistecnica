@@ -7,12 +7,6 @@
       "kind": "related"
     },
     {
-      "from": "/",
-      "to": "social/action/activity/economic/production/",
-      "label": "Production",
-      "kind": "hierarchy"
-    },
-    {
       "from": "epistemica/",
       "to": "epistemica/epistemic/guidance/",
       "label": "Guidance",

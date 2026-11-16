@@ -12,3 +12,5 @@ type: person
 
 - https://en.wikipedia.org/wiki/Bashir_Rameev
 - http://www.computer-museum.ru/english/galglory_en/rameev.htm
+- [The Rise and Fall of the Soviet Union's Workhorse Computer](https://www.youtube.com/watch?v=ZQ_1cH6_2N4)
+

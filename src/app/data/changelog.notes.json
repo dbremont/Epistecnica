@@ -6915,6 +6915,11 @@
     "summary": "Link the Reflexions reference to the new corpus document entry (Wikisource text beside it).",
     "commit": "c2f21fead514a21376b65fee5b65f8c07b161a60",
     "before": "d133d7c2e553a10bcf3993dc56bd71b0480a489f"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Split the title: the h1 becomes the note's name and the question it answers, 'How He Used It and Why', moves into the intro quote."
    }
   ]
  },
@@ -6959,6 +6964,11 @@
     "summary": "Point the Orthogonality property row at the new note on orthogonal polynomials.",
     "commit": "5ccf8a9b64a6a22f0c1948c74241e47b260198e3",
     "before": "0d5753b50fe96bded9319881f6ff5c5509bef7f7"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the modelling section: the classical families compared by the property that makes each one useful, the properties that decide between them (orthogonality, weight, completeness, stability, boundary behaviour), and the matching of family to system characteristic."
    }
   ]
  },
@@ -8176,6 +8186,11 @@
     "summary": "Link the framework notes under geometry/framework/ in the Framework table.",
     "commit": "e8490ed112dd15a4d9cd4f992e1a3caf3feea4ba",
     "before": "a995f328ad13ee28247e1e05ff6123c2a947d5b2"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the two map tables under the QA: the operations on geometric objects (rigid, similarity, affine, projective, set, construction, subdivision, deformation) and the transformation classes with the properties each one preserves."
    }
   ]
  },
@@ -9824,6 +9839,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/mathematical/structure/linear/norm.md to epistemica/mathematical/norm/norm.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Answer the norm/metric QA: a norm quantifies the elements of a vector space, a metric quantifies the joint relation between two of them, and the induction runs one way only."
    }
   ]
  },
@@ -10132,6 +10152,11 @@
     "summary": "Add the fraction-compatibility question and its answer: what comparability of two fractions requires, worked on a common-denominator case.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the fraction-multiplication visual model: the area model of $2/3 \\times 3/4$ worked as an interactive grid embedded under the reasoning QA."
    }
   ]
  },
@@ -13299,6 +13324,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Expand the QA: what makes something a tensor, what a rank-2 tensor actually does (a bilinear map on $V$ or on $V^*$), and the object-versus-representation warning; the stray Notion link line moves down into References."
    }
   ]
  },
@@ -19590,6 +19620,11 @@
     "kind": "move",
     "summary": "Move from epistemica/measurement/quantification.md: the scope is renamed quantification — the class the corpus develops furthest — while measurement.md keeps the genus.",
     "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the schemes table: the mathematical elements that operationalise quantification — absolute value, norm, metric, semimetric and pseudometric, inner product, similarity and dissimilarity, measure, probability, functional, operator, variance, entropy."
    }
   ]
  },
@@ -21504,6 +21539,11 @@
     "summary": "Link the inertia property row and the reference list to nature/property/inertia.md, the note that decomposes the inertial/non-inertial distinction.",
     "commit": "3cab9a248a7a164236a77d583a593fe8558e28db",
     "before": "d9360d81208ebceda421ff63f2ed1d9cbf0f8046"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the fifteen-question qa block (relativity of motion, inertial versus non-inertial frames, fictitious forces, Galilean and relativistic transformations, inertia's measured status) and the concepts table the frame is built from: system, observer, reference body, frame, coordinate system, clock, reference system, transformation."
    }
   ]
  },
@@ -25738,6 +25778,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder: imported from the Notion 'Soil' page, its definition and decomposition were never worked."
    }
   ]
  },
@@ -31207,6 +31252,11 @@
     "kind": "feat",
     "summary": "Open the Einstein field equations as a construction about a natural target: the law is a result, obtained by requiring the geometry side to be divergence-free (contracted Bianchi) and closed to a single admissible form by Lovelock's uniqueness theorem, while general relativity is the theory that carries it and the gravitational field is the segment of reality it represents. Types the root as an Epistemic Construction, kind Model; decomposes the Einstein tensor, the stress-energy source, the cosmological term, the metric field, the initial-value split, the Newtonian limit and the exact solutions; states the equivalence principle, the uniqueness requirement and the classical domain as the standards licensing the form; records the classical and strong-field tests and the singularity, cosmological-constant and quantum-gravity limits as the constraints the law carries inside itself; and evaluates it against the conceptuum criteria, where the weak verdicts are determinacy as a condition rather than a solution and adequacy as an effective rather than a fundamental law.",
     "commit": "f95cbe63c4e54dc8dfe8701f8716ed80eadc5ed8"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Extend the qa block and add the QA section on the expanded, contracted and trace-reversed forms of the equations and on what the reformulations are for."
    }
   ]
  },
@@ -36799,6 +36849,11 @@
     "kind": "refactor",
     "summary": "Move from the retired human section into nature/human/.",
     "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the misnomer QA: the phenomenon in which a term's signifier misrepresents its referent, with the case list it collects (random variable, imaginary number, negative number, real number, virtual particle, dark matter, genetic code, junk DNA, big bang); Related folds into References and the provenance line drops."
    }
   ]
  },
@@ -40153,6 +40208,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder, imported from the Notion 'Solid State Phenomena' page and never worked; the phenomena are carried by nature/magnetism.md."
    }
   ]
  },
@@ -43478,6 +43538,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the undecomposed placeholder: it was imported from the same Notion 'Electromagnetic System' page that electromagnetic-system.md carries, and was never worked."
    }
   ]
  },
@@ -45507,6 +45572,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Quasiparticle import, which has no note of its own."
    }
   ]
  },
@@ -45519,6 +45589,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the stray file: its name is a misspelling and its content is the unworked Body (Object) import, which the body notes already cover."
    }
   ]
  },
@@ -51550,6 +51625,11 @@
     "kind": "feat",
     "summary": "Import from the Breviarium Notion export: the export's uuid suffix dropped from the filename, the Notion tags lifted into front matter, the property noise removed, the child list kept as a Contains line, links retargeted to the corpus and images moved to the shared asset store.",
     "commit": "f8cc7e0184a142c36466126c7a605e3524cd2958"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the template: its artifact definition is restated in the surviving companion epistemic-tool-template.md, and its own index was never filled."
    }
   ]
  },
@@ -51561,6 +51641,11 @@
     "kind": "feat",
     "summary": "Import from the Breviarium Notion export: the export's uuid suffix dropped from the filename, the Notion tags lifted into front matter, the property noise removed, the child list kept as a Contains line, links retargeted to the corpus and images moved to the shared asset store.",
     "commit": "f8cc7e0184a142c36466126c7a605e3524cd2958"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "fix",
+    "summary": "Drop the Contains link to the retired artifact-type template, which no longer exists."
    }
   ]
  },
@@ -52240,6 +52325,11 @@
     "kind": "refactor",
     "summary": "Move out of notes/meta/ to the corpus root: the meta shelf is dissolved and the guides sit at the level of the sections.",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add two question sets: the general questions to ask about a mathematical element (essence, role, connection to reality, formalisation, genealogy, sufficient and necessary conditions) and the twelve questions that ground mediation about epistemic practice."
    }
   ]
  },
@@ -56998,6 +57088,11 @@
     "kind": "feat",
     "summary": "Open the persona note: the Soviet computing pioneer, his 1948 digital-machine patent and the Strela and Ural designs, with the encyclopedia and computer-museum references.",
     "commit": "7b05db3743a7fd568539fd2c09b75c424b6d31a2"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the documentary reference on the Soviet Union's workhorse computer."
    }
   ]
  },
@@ -93493,6 +93588,11 @@
     "kind": "refactor",
     "summary": "Move from essays/brexit-referendum.md to unclassified/brexit-referendum.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the empty import: a title and a provenance line, no content."
    }
   ]
  },
@@ -104944,6 +105044,11 @@
     "kind": "move",
     "summary": "Move from nature/inertia.md into nature/property/: the property shelf gathers the notes whose instance is a feature carried by a physical element.",
     "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the Formulation questions: the history of inertia theories, the operational identification and measurement of the property, and what 'non-inertial reference frame' means."
    }
   ]
  },
@@ -105039,6 +105144,16 @@
     "kind": "feat",
     "summary": "Add the guide: physical reality cut into entities, properties, interactions and phenomena, with the description layer (frames, spaces, frameworks) kept apart and every node linked to its corpus note.",
     "commit": "f4942a26b7f6f8e79bafae39d71e45d326fad05d"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Add the mathematical scope readme: the essence table of the mathematical areas and the fundamental families of mathematical practice."
    }
   ]
  }

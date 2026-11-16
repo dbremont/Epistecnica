@@ -131,6 +131,28 @@ A **name** is a cognitive token or symbol that:
 - **Meta-representation** – thinking about or labeling one’s own representations.
 - **Language / Lexicon** – system of names and words within which the name operates.
 
+## QA
+
+### What is the phenomenon called when a term's signifier misrepresents the nature or properties of its referent?
+
+- Misnomer: A name that inaccurately describes the thing it denotes.
+- Semantic Mismatch: A discrepancy between a term's meaning and the nature of its referent.
+
+Cases:
+
+- **Random Variable** — a function, not an independently random variable.
+- **Imaginary Number** — a mathematically well-defined number, not an imaginary or fictitious quantity.
+- **Negative Number** — not a number that is inherently less real or represents an absence.
+- **Irrational Number** — not an unreasonable or illogical number.
+- **Complex Number** — not necessarily complicated.
+- **Natural Number** — a conventional mathematical category, not something inherently natural.
+- **Real Number** — a mathematical classification, not a claim about physical reality.
+- **Virtual Particle** — not simply a particle that exists virtually in the ordinary sense.
+- **Dark Matter** — named for its lack of electromagnetic visibility, not because it is literally dark.
+- **Genetic Code** — not a code in precisely the same sense as a human-designed encoding system.
+- **Junk DNA** — not necessarily functionless DNA.
+- **Big Bang** — not an explosion occurring at a particular location in pre-existing space.
+
 ## References
 
 - https://symsys.stanford.edu/about/whats-name
@@ -144,9 +166,6 @@ A **name** is a cognitive token or symbol that:
 - https://philosophy.stackexchange.com/questions/112977/a-combined-theory-of-reference-for-proper-names
 - https://plato.stanford.edu/entries/reference/
 - [Property](https://app.notion.com/p/Property-271c0f5171ec80498865e3db652beafb?pvs=21)
-
-## Related
-
 - [Representation](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/representation.md)
 - [Language](/view.html?p=notes/nature/human/language.md)
 - [Symbol](/view.html?p=notes/nature/human/cognitive/conceptual-model-cognition/symbol.md)
@@ -155,6 +174,3 @@ A **name** is a cognitive token or symbol that:
 - [Meaning](/view.html?p=notes/nature/human/cognitive/meaning.md)
 - [Reference](/view.html?p=notes/nature/human/reference.md)
 
-## Provenance
-
-- Notion export: `Modelo/Human/Cognitive/Conceptual Model Cognition/Name 283c0f5171ec800ca9e0dce8f1f6b659.md`

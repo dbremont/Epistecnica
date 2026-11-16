@@ -106,6 +106,16 @@ $\|f\|_{\text{TV}} = \int |f'(x)| \, dx$. This measures the integral of the abso
 | [Inner Product](/view.html?p=notes/epistemica/mathematical/structure/linear/inner-product.md) | The stronger structure a norm may come from: every inner product induces a norm, and none of the reverse |
 | [Metric](/view.html?p=notes/epistemica/mathematical/metric/metric.md) | The sibling notion on a bare set: a norm induces a metric by $d(x,y) = \lVert x - y \rVert$, never the reverse |
 
+## QA
+
+### What is the relation between a norm and a metric?
+
+> A norm is a kind of quantification - subject to  set of properties - of elemetns in a Vector Space.
+
+> A `metric` is a bit of a misnomor - and its basically a quantification - of a joint relational property betweeen two elmetns of an space, so called distance.
+
+> Note: Every norm induces a metric. $[ d(x,y)=|x-y|]$.
+
 ## References
 
 - https://en.wikipedia.org/wiki/Total_variation

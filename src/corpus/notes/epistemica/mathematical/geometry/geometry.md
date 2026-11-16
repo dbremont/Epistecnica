@@ -292,6 +292,43 @@ Where:
 | **Mean Curvature** | Average of the two principal curvatures at a point on a surface. | m⁻¹ |
 | **Principal Curvatures** | Maximum and minimum normal curvatures at a point on a surface. | m⁻¹ |
 
+### Which are the maps between geometric objects?
+
+| Category | Operation | Description | Profile | Tags |
+|---|---|---|---|---|
+| **Rigid transformation** | Translation | Displaces an object without changing its shape or dimensions. | Isometry | Displacement |
+| Rigid transformation | Rotation | Rotates an object around an axis or center. | Isometry | Orientation |
+| Rigid transformation | Reflection | Produces the mirror image of an object. | Isometry | Symmetry |
+| **Similarity transformation** | Uniform scaling | Changes the object's size while preserving its shape. | Similarity | Magnification |
+| Similarity transformation | Dilation | Expands or contracts an object relative to a center. | Similarity | Scale |
+| **Affine transformation** | Shearing | Changes angular relationships while preserving parallelism. | Affine map | Distortion |
+| Affine transformation | Nonuniform scaling | Scales different directions by different factors. | Affine map | Anisotropic scaling |
+| Affine transformation | Affine mapping | Applies a linear transformation followed by a translation. | Affine map | Linearity |
+| **Projective transformation** | Perspective transformation | Maps an object through a projective transformation. | Projective map | Perspective |
+| **Set operations** | Union | Combines two geometric objects into a single object. | Set-theoretic | Aggregation |
+| Set operations | Intersection | Produces the common geometric region of two objects. | Set-theoretic | Overlap |
+| Set operations | Difference | Removes one object's region from another. | Set-theoretic | Subtraction |
+| **Geometric construction** | Extrusion | Generates a higher-dimensional object from a lower-dimensional profile. | Dimensional construction | 2D → 3D |
+| Geometric construction | Revolution | Generates a solid by rotating a profile around an axis. | Rotational construction | 2D → 3D |
+| Geometric construction | Sweeping | Generates an object by moving a profile along a path. | Parametric construction | Path |
+| Geometric construction | Lofting | Constructs a surface or solid through multiple profiles. | Interpolative construction | Cross-sections |
+| **Subdivision** | Partitioning | Divides an object into smaller geometric objects. | Decomposition | Segmentation |
+| Subdivision | Triangulation | Decomposes a polygon or surface into triangles. | Mesh construction | Triangles |
+| **Deformation** | Bending | Changes an object's curvature through deformation. | Non-rigid transformation | Curvature |
+| Deformation | Twisting | Introduces rotational deformation along an object's extent. | Non-rigid transformation | Torsion |
+| Deformation | Warping | Changes the spatial configuration of an object according to a deformation field. | Non-rigid transformation | Displacement field |
+
+### which are teh clases of maps between geometric ojbects?
+
+| Transformation class | Preserved properties |
+|---|---|
+| Isometry | Distances and angles |
+| Similarity | Angles and proportional distances |
+| Affine | Collinearity, parallelism and ratios along a line |
+| Projective | Collinearity and incidence |
+| Topological | Continuity and topological properties |
+| General deformation | Depends on the deformation mapping |
+
 
 ## Geometry
 

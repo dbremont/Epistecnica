@@ -4,7 +4,7 @@ tags: [note, guia]
 
 # Epistemic Tool Template
 
-**Contains:** [General Topic Note Template](/view.html?p=notes/personal/general-topic-note-template.md), [Epistemic Artifact Type Template](/view.html?p=notes/personal/epistemic-artifact-type-template.md)
+**Contains:** [General Topic Note Template](/view.html?p=notes/personal/general-topic-note-template.md)
 
 > An **epistemic tool** is any technique, method, or formal mechanism used by an observer to construct, represent, and validate descriptions of reality.
 > 

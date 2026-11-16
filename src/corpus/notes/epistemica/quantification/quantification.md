@@ -306,6 +306,25 @@ qa:
 
 > Adding two temperatures is mathematically possible, but it generally has no direct physical meaning because temperature is not an additive quantity. For example, adding 20 °C and 30 °C does not produce the temperature of a system combining two objects at those temperatures. The resulting temperature depends on other physical properties, such as mass and specific heat capacity. Thus, an operation can be mathematically valid without having a meaningful physical interpretation for the quantities involved.
 
+### Which are the matehamticla ements that seved toperatnization or deinfed quantificaions of elmetns?
+
+| Scheme | What it quantifies | Mathematical object | Example |
+|---|---|---|---|
+| **Absolute value** | Magnitude of a real or complex number | Scalar | \(|x|\) |
+| **Norm** | Magnitude or length of a vector | Vector | \(\|x\|\) |
+| **Metric** | Distance between two elements | Pair of elements | \(d(x,y)\) |
+| **Semimetric** | Generalized distance, without necessarily satisfying all metric axioms | Pair of elements | \(d(x,y)\) |
+| **Pseudometric** | Distance where distinct elements may have zero distance | Pair of elements | \(d(x,y)\) |
+| **Inner product** | Relationship between two vectors, including angle and projection | Pair of vectors | \(\langle x,y\rangle\) |
+| **Similarity function** | Degree of similarity between two objects | Pair of objects | \(s(x,y)\) |
+| **Dissimilarity function** | Degree of difference between two objects | Pair of objects | \(\delta(x,y)\) |
+| **Measure** | Size or extent of a mathematical set | Set | \(\mu(A)\) |
+| **Probability measure** | Probability assigned to an event | Event | \(P(A)\) |
+| **Functional** | A scalar quantity associated with a function | Function | \(J[f]\) |
+| **Operator** | Transformation of one mathematical object into another | Mathematical object | \(T(x)\) |
+| **Variance** | Dispersion of a distribution or dataset | Distribution | \(\operatorname{Var}(X)\) |
+| **Entropy** | Uncertainty or informational dispersion | Probability distribution | \(H(X)\) |
+
 ## references
 
 - [philosophia artium epistemicarum et operis](https://raw.githubusercontent.com/csiglab/naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
