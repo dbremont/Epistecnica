@@ -12141,6 +12141,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "remove",
+    "summary": "Remove the note whose slug misspelled the object: the content folds into adjoint-operator.md, which is the correct spelling and the fuller note. No note linked to this path."
    }
   ]
  },
@@ -12164,6 +12169,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Merge the misspelled adjoin-operator note into this one: the five reasons the abstraction exists and the two QA questions are carried over, the broken T*T^* fragments are fixed, the finite and infinite dimensional cases are separated, and the relations to self-adjointness, the Hermitian matrix and the spectral theorem are stated."
    }
   ]
  },
