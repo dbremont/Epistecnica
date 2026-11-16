@@ -106402,5 +106402,35 @@
     "before": "9d68f823c6fc5ff9aae38171d364e7e44c72d68f"
    }
   ]
+ },
+ {
+  "file_path": "social/good/telecom/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New sub-shelf of the goods: the telecom product space opens with its first two goods, in the Product/Description/Tags form the semiconductor and software spaces use."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/telecom/transceiver.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New good: the device that transmits and receives in one unit. The note splits the two goods sold under the name — the radio station duplexed on one antenna, and the pluggable module that drives a cable — and states that the name is functional, fixed by the duplex role rather than by the medium."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/telecom/optical-transceiver.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New good: the pluggable module that converts an electrical signal to light and back for a fibre link. The note gives the form factors by lane count and rate, the parameters that actually define a part number, and where the value sits — interoperability and reach rather than a proprietary interface."
+   }
+  ]
  }
 ]
