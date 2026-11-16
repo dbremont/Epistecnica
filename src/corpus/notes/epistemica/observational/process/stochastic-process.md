@@ -5,7 +5,7 @@ tags: [note, probability, stochastic-process]
 
 # Stochastic Process
 
-Related: [Lévy Process](/view.html?p=notes/epistemica/observational/process/levy-process.md), [Martingale](/view.html?p=notes/epistemica/observational/process/martingale.md), [Filtration](/view.html?p=notes/epistemica/observational/process/filtration.md), [Hawkes Process](/view.html?p=notes/epistemica/observational/process/hawkes-process.md), [Marked Point Process](/view.html?p=notes/epistemica/observational/process/marked-point-process.md).
+Related: [Lévy Process](/view.html?p=notes/epistemica/observational/process/levy-process.md), [Martingale](/view.html?p=notes/epistemica/observational/process/martingale.md), [Filtration](/view.html?p=notes/epistemica/observational/process/filtration.md), [Hawkes Process](/view.html?p=notes/epistemica/observational/process/hawkes-process.md), [Marked Point Process](/view.html?p=notes/epistemica/observational/process/marked-point-process.md), [Markov Process](/view.html?p=notes/epistemica/observational/process/markov-process.md), [Markov Model](/view.html?p=notes/epistemica/observational/process/markov-model.md).
 
 > A **stochastic process** is formally defined as a **family of random variables** ${X_t}_{t \in T}$ indexed by a parameter (t) (often representing time), which models the evolution of a system under uncertainty - defined  by a given **probability space**.
 > 

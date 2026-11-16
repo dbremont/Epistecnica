@@ -1,27 +1,31 @@
 ---
-tags: [note, learning-system]
+tags: [note, probability, stochastic-process, markov]
 ---
 
 # Markov Model
 
+Related: [Markov Process](markov-process.md), [Stochastic Process](stochastic-process.md), [CTMC](ctmc-continuous-time-markov-chain.md), [HMM](../computational/hmm-hidden-markov-model.md), [MDP](../../adaptative/markov-decision-processes-mdp.md), [State Estimation](../../singular/state-estimation.md).
 
-> A Markov model is a stochastic process in which the probability of each future state depends only on the present state and not on the sequence of events that preceded it.
-> 
+> A **Markov model** is a model of a stochastic process that assumes the [Markov property](markov-process.md#sec-the-property): the state carries everything about the past that bears on the future, so the transition law together with the initial law is the whole model.
 
-> A discrete-time stochastic process satisfying the Markov property is known as a [Markov chain](https://en.wikipedia.org/wiki/Markov_chain).
-> 
+> It is a *representation*, not the process it represents. The [Markov process](markov-process.md) is the object — a family of random variables on a probability space; the Markov model is the assumption plus the parameters that follow from it, chosen so that a trajectory can be described, predicted from, or controlled.
 
-> The result is a class of probability distributions on the possible trajectories.
-> 
+Its transition law is a [Markov kernel](https://en.wikipedia.org/wiki/Markov_kernel) — a stochastic kernel from a state to a probability law on the next state — and that object, plus the initial law, is what the model consists of.
 
-> In the early 1900s Markov himself already observed this "bug" and proposed an n-gram model to rectify it. That style of model designs transitions of pairs (or triplets, or 4-tuples, etc) of words. So your first example is modelled as the state transition (what, the) -> (the, fuck) in a 2-gram Markov Chain.
-> 
+**Boundary.** The term is used for both sides of that relation, and the two readings should be kept apart. "Markov model" is routinely said of the process itself — a Markov chain, a diffusion — and the corpus keeps a note for each: [Markov process](markov-process.md) for the object, this note for the model. The distinction has consequences. A process satisfies or fails the property; a model *assumes* it, and can therefore be wrong — which is what makes the assumption testable, and what makes a poor choice of state (a state that hides part of the memory) look like a failure of the model rather than of the state definition.
 
-> **Transition Probabilities:** Probabilities associated with moving from one state to another.
-> 
+## The axis
 
-> **Markov Property:** Whether the future state depends only on the present state and not on the sequence of events that preceded it.
-> 
+The twelve named types below are one family specialised along four parameters. Stating the axis first makes the table readable as a grid rather than a list.
+
+| Axis | Values | What it fixes |
+| --- | --- | --- |
+| **Time** | discrete / continuous | Whether transitions happen at steps or at any instant, and whether holding times matter |
+| **State** | discrete / continuous | Whether the state is counted (a finite or countable set) or measured (a general state space) |
+| **Observability** | full / partial | Whether the state is seen directly or inferred from emissions that depend on it |
+| **Control** | absent / present | Whether the transition depends on a decision taken at the state |
+
+DTMC is discrete × discrete × full × none; CTMC the same with continuous time; HMM adds partial observability; MDP adds control; POMDP adds both. The quasi-birth–death process is a CTMC with block-structured states; the Markov jump process is the continuous-time, discrete-state case where the generator is a rate matrix.
 
 ## Types of Markov Models
 
@@ -60,15 +64,23 @@ tags: [note, learning-system]
 | **Insurance** | **Risk Assessment** | Used to predict the likelihood of events like claims or accidents over time, assisting in setting premiums and reserves. |
 | **Neuroscience** | **Neuronal Activity Modeling** | Models the firing patterns of neurons as they transition between different states, helping to understand brain activity and information processing. |
 
+## A note on the name
+
+The n-gram case is the one that shows why the state definition matters. A second-order model over words is not first-order Markov in the *word*; it is first-order Markov in the *pair of words*, and the transition is written (what, the) → (the, …). Markov observed the same gap in the early 1900s and constructed his chain on dependent trials precisely to show that dependence does not require independence of the increments — the model class was born as a counterexample, not as an approximation.
+
 ## References
 
-- https://en.wikipedia.org/wiki/Markov_model
-- [‣](https://app.notion.com/p/489031f368a14dc2a5b4f65709bb8f80?pvs=21)
-- [Markov chain](https://en.wikipedia.org/wiki/Markov_chain)
-- https://en.wikipedia.org/wiki/Markov_property
-- https://www.youtube.com/playlist?list=PLu0UjEkXuQyo_tqRSqht_vNyB8zeejSx-
-- https://www.youtube.com/watch?v=CIe869Rce2k
-- An introduction to the theory of Markov processes [https://fys.kuleuven.be/english/staff/christ/files/pdf/pub/markovlectures2015.pdf](https://fys.kuleuven.be/english/staff/christ/files/pdf/pub/markovlectures2015.pdf)
-- [‣](https://app.notion.com/p/489031f368a14dc2a5b4f65709bb8f80?pvs=21)
-- [Using a Markov chain to generate readable nonsense with 20 lines of Python](https://news.ycombinator.com/item?id=38829772) ([benhoyt.com](http://benhoyt.com/))
-- [Examples of Markov chains](https://en.wikipedia.org/wiki/Examples_of_Markov_chains)
+- Examples of Markov chains. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Examples_of_Markov_chains
+- Hoyt, B. (2024). *Using a Markov chain to generate readable nonsense with 20 lines of Python* [Blog post]. https://benhoyt.com/writings/markov-chain/ · discussion: https://news.ycombinator.com/item?id=38829772
+- *An introduction to the theory of Markov processes* [Lecture notes]. (2015). KU Leuven. https://fys.kuleuven.be/english/staff/christ/files/pdf/pub/markovlectures2015.pdf
+- Kemeny, J. G., & Snell, J. L. (1960). *Finite Markov chains*. Van Nostrand.
+- Markov, A. A. (1906/1971). Extension of the limit theorems of probability theory to a sum of variables connected in a chain. In R. A. Howard (Ed.), *Dynamic probabilistic systems: Vol. 1. Markov models* (pp. 552–577). Wiley.
+- Markov chain. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_chain
+- Markov kernel. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_kernel
+- Markov model. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_model
+- Markov model (working note). (n.d.). *Notion*. https://app.notion.com/p/489031f368a14dc2a5b4f65709bb8f80
+- Markov property. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Markov_property
+- Meyn, S. P., & Tweedie, R. L. (2009). *Markov chains and stochastic stability* (2nd ed.). Cambridge University Press.
+- Norris, J. R. (1998). *Markov chains*. Cambridge University Press.
+- Video on Markov chains [Video]. (n.d.). *YouTube*. https://www.youtube.com/watch?v=CIe869Rce2k
+- Video playlist on Markov chains [Video playlist]. (n.d.). *YouTube*. https://www.youtube.com/playlist?list=PLu0UjEkXuQyo_tqRSqht_vNyB8zeejSx-
