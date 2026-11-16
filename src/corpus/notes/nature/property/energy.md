@@ -365,11 +365,11 @@ Questions:
 
 ## Related
 
-- [Force](/view.html?p=notes/nature/force.md)
+- [Force](/view.html?p=notes/nature/property/force.md)
 - [Energy/Force](/view.html?p=notes/nature/energy-force.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md)
-- [Mass](/view.html?p=notes/nature/mass.md)
+- [Mass](/view.html?p=notes/nature/property/mass.md)
 - [Electric Current](/view.html?p=notes/nature/electric-current.md)
 
 ## Provenance

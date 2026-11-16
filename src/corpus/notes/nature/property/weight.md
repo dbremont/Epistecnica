@@ -30,7 +30,7 @@ The value of  $(g)$ varies depending on the location. On the Earth's surface, th
 
 ## Related
 
-- [Mass](/view.html?p=notes/nature/mass.md)
+- [Mass](/view.html?p=notes/nature/property/mass.md)
 
 ## Provenance
 

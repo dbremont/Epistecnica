@@ -107,5 +107,5 @@ All three readings are in use, and the note fixes which one it means. As a **thi
 - [Reaction](/view.html?p=notes/nature/reaction.md)
 - [Matter](/view.html?p=notes/nature/matter/matter.md)
 - [Thermodynamics](/view.html?p=notes/nature/thermodynamics.md)
-- [Entropy](/view.html?p=notes/nature/entropy.md)
-- [Energy](/view.html?p=notes/nature/energy.md)
+- [Entropy](/view.html?p=notes/nature/property/entropy.md)
+- [Energy](/view.html?p=notes/nature/property/energy.md)

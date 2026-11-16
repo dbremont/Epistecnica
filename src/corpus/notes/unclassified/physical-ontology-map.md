@@ -61,7 +61,7 @@ tags: [note, miscellanea, model]
 
 - [Nature](/view.html?p=notes/nature/nature.md)
 - [Particle](/view.html?p=notes/nature/physical-object/particle.md)
-- [Energy](/view.html?p=notes/nature/energy.md)
+- [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Reference Frame](https://app.notion.com/p/Reference-Frame-16dc0f5171ec80d18ecdea1ed8201ee6?pvs=21)
 - [‣](https://app.notion.com/p/10e598edb79081a49d9bcb8b219c6ec0?pvs=21)
 

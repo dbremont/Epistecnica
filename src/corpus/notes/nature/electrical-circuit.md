@@ -68,7 +68,7 @@ Type:
 
 ## Related
 
-- [Electric Charge](/view.html?p=notes/nature/electric-charge.md)
+- [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md)
 - [Electric Current](/view.html?p=notes/nature/electric-current.md)
 
 ## Provenance

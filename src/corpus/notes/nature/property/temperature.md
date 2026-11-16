@@ -20,7 +20,7 @@ tags: [note, nature, natural-system, system, thermodynamics, unfinished]
 
 ## Related
 
-- [Heat](/view.html?p=notes/nature/heat.md)
+- [Heat](/view.html?p=notes/nature/property/heat.md)
 
 ## Provenance
 

@@ -13,7 +13,7 @@ tags: [note, nature, natural-process, physics, process]
 
 ## Related
 
-- [Momentum](/view.html?p=notes/nature/momentum.md)
+- [Momentum](/view.html?p=notes/nature/property/momentum.md)
 
 ## Provenance
 

@@ -96,4 +96,4 @@ The oscillation is bounded by the basin. The warm pool sits in the west over the
 - [Philosophia Naturalis et Operis](/view.html?p=notes/philosophia-naturalis-et-operis.md) — the decomposition grammar used above
 - [Atmosphere](/view.html?p=notes/nature/atmosphere.md) — the fluid the atmospheric half of the oscillation lives in
 - [Ocean Current](/view.html?p=notes/nature/ocean-current.md) — the circulation the thermocline and the waveguide belong to
-- [Pressure](/view.html?p=notes/nature/pressure.md) — the quantity the Southern Oscillation indexes
+- [Pressure](/view.html?p=notes/nature/property/pressure.md) — the quantity the Southern Oscillation indexes

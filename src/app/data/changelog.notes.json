@@ -12008,6 +12008,11 @@
     "kind": "feat",
     "summary": "Add the spinor note: the double-cover definition and the Clifford-module definition stated as one object read two ways, why the 2pi sign is pi_1(SO(n)) rather than a notation choice (with the Spin(2) case as the exception), the three constructions (Chevalley exterior algebra, minimal left ideal, spinor bundle), the low-dimensional table including the Weyl/Dirac/Majorana trichotomy, the real-complex-quaternionic period eight, the uses (vectors as symmetrized spinors, fermions and spin-statistics, the Dirac equation, Wigner's classification, spin geometry, twistors and qubits), and what a spinor is not.",
     "commit": "97196eddbeb2ff9d527fc19f2ab53d0e3819cf8d"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -30478,6 +30483,11 @@
     "kind": "move",
     "summary": "Move from nature/el-nino-southern-oscillation.md: the climate modes get their own scope, as the waves do.",
     "commit": "f31f58610a44a64ccec48e61a8c02580d48e20dc"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to heat now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -40696,6 +40706,11 @@
     "summary": "Link the Nanoparticle and Microparticle rows to their notes.",
     "commit": "cd47dda5352908ae2f0ab24a858138e5fe26d308",
     "before": "cd9d95108951fd5163419795107cfd6a9d5129ae"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -49356,6 +49371,11 @@
     "summary": "Fill the transformation-of-matter note: give it a Formulation typed as a Phenomenon with the Aspect reading as prose, a sixteen-row decomposition of states, paths, quantities and constraints, the promised table of transformation types ordered by depth of change, the modelling-element table, and repaired references.",
     "commit": "32ccf67dddb1280bee300970c6d0cf59e1ac33bf",
     "before": "dc91eac5c6100e9c9ac9e9658758cd779dcd6c6b"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the 2 links to energy and heat now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -94002,6 +94022,11 @@
     "kind": "refactor",
     "summary": "Move from essays/physical-ontology-map.md to unclassified/physical-ontology-map.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -105102,6 +105127,11 @@
     "kind": "feat",
     "summary": "Open the property shelf under nature/: the Property type, the intrinsic versus interaction-derived split, and inertia as its first member.",
     "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Rewrite for a populated shelf: the decomposition gains a row per member under the intrinsic and interaction-derived kinds, the taxonomy table lists the members it files, the introduction no longer claims the shelf is thin, and the QA that promised the root notes would move 'as each is formulated' is replaced by the cut it now applies. A new QA records that heat's filing is the family's weakest, since it names a transfer rather than a carried state."
    }
   ]
  },
@@ -105114,6 +105144,11 @@
     "summary": "Retarget the inertia link to the property shelf it moved to.",
     "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28",
     "before": "e0f47cdec2eb3e9a436f0e6124c51428207ff39c"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to spin now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -105186,6 +105221,11 @@
     "kind": "feat",
     "summary": "Add the guide: physical reality cut into entities, properties, interactions and phenomena, with the description layer (frames, spaces, frameworks) kept apart and every node linked to its corpus note.",
     "commit": "f4942a26b7f6f8e79bafae39d71e45d326fad05d"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the 3 links to mass, electric charge and spin now that the quantity is filed under nature/property/."
    }
   ]
  },
@@ -105197,6 +105237,256 @@
     "kind": "feat",
     "summary": "Add the mathematical scope readme: the essence table of the mathematical areas and the fundamental families of mathematical practice.",
     "commit": "46808c904c7fa07af0beb8acf88d5b5856072694"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/mass.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/mass.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/weight.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/weight.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/electric-charge.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/electric-charge.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/spin.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/spin.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/temperature.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/temperature.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/volume.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/volume.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/pressure.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/pressure.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/force.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/force.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/momentum.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/energy.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/energy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/acceleration.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/acceleration.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/work.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/work.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/power.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/power.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/angular-momentum.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/angular-momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/heat.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/heat.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/entropy.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from nature/entropy.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/atom.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/electric-current.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/electrical-circuit.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/electromagnetic-system.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to electric charge now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/energy-force.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the 3 links to energy, force and momentum now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/fundamental-interaction.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to force now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/fundamental-molecular-interaction.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to force now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/mass-transport.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to mass now that the quantity is filed under nature/property/."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/motion.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the link to acceleration now that the quantity is filed under nature/property/."
    }
   ]
  }

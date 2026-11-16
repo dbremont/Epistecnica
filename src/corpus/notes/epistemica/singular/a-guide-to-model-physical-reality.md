@@ -60,9 +60,9 @@ Description of physical reality
 | Body | Entity | [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) | noted — the body family |
 | Continuous body | Entity | [Continuous Medium (Body)](/view.html?p=notes/nature/physical-object/continuous-medium.md) | noted |
 | Matter | Entity | [Matter](/view.html?p=notes/nature/matter/matter.md) | noted — the substance side |
-| Mass | Property | [Mass](/view.html?p=notes/nature/mass.md) | noted |
-| Electric charge | Property | [Electric Charge](/view.html?p=notes/nature/electric-charge.md) | noted |
-| Spin | Property | [Spin](/view.html?p=notes/nature/spin.md) | noted |
+| Mass | Property | [Mass](/view.html?p=notes/nature/property/mass.md) | noted |
+| Electric charge | Property | [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) | noted |
+| Spin | Property | [Spin](/view.html?p=notes/nature/property/spin.md) | noted |
 | Inertia | Property | [Inertia](/view.html?p=notes/nature/property/inertia.md) | noted — family master: [Property](/view.html?p=notes/nature/property/property.md) |
 | Gravitational | Interaction | [Gravity](/view.html?p=notes/nature/gravity.md) | noted |
 | Electromagnetic | Interaction | [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md) | noted — theory: [Electromagnetism](/view.html?p=notes/epistemica/singular/electromagnetism.md) |

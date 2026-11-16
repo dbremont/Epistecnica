@@ -45,7 +45,7 @@ QA:
 ## Related
 
 - [Standard Model](/view.html?p=notes/nature/standard-model.md)
-- [Energy](/view.html?p=notes/nature/energy.md)
+- [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/fundamental-molecular-interaction.md)
 - [Interaction](/view.html?p=notes/nature/meta/interaction.md)
 - [Atom](/view.html?p=notes/nature/atom.md)

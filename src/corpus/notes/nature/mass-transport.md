@@ -55,7 +55,7 @@ QA:
 ## Related
 
 - [Transport Phenomena](/view.html?p=notes/nature/transport-phenomena.md)
-- [Mass](/view.html?p=notes/nature/mass.md)
+- [Mass](/view.html?p=notes/nature/property/mass.md)
 
 ## Provenance
 

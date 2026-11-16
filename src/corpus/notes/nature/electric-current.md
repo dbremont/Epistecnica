@@ -114,7 +114,7 @@ where:
 
 ## Related
 
-- [Energy](/view.html?p=notes/nature/energy.md)
+- [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Electrical Circuit](/view.html?p=notes/nature/electrical-circuit.md)
 - [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 

@@ -177,7 +177,7 @@ Contrast with wave-like behavior:
 ## Related
 
 - [Photon](/view.html?p=notes/nature/photon.md)
-- [Mass](/view.html?p=notes/nature/mass.md)
+- [Mass](/view.html?p=notes/nature/property/mass.md)
 - [Field](/view.html?p=notes/nature/field.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
 

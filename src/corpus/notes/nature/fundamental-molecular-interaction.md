@@ -31,7 +31,7 @@ tags: [note, nature, substance-matter, interaction, materials-science, matter, m
 ## Related
 
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
-- [Force](/view.html?p=notes/nature/force.md)
+- [Force](/view.html?p=notes/nature/property/force.md)
 - [Interaction](/view.html?p=notes/nature/meta/interaction.md)
 - [Matter](/view.html?p=notes/nature/matter/matter.md)
 

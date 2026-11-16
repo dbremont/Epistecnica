@@ -167,7 +167,7 @@ Three groupings in this table are easy to misunderstand and worth naming.
 - [Interaction](/view.html?p=notes/nature/meta/interaction.md)
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/fundamental-molecular-interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
-- [Electric Charge](/view.html?p=notes/nature/electric-charge.md)
+- [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md)
 - [Heisenberg Uncertainty Principle](/view.html?p=notes/nature/heisenberg-uncertainty-principle.md)
 
 

@@ -218,7 +218,7 @@ Reasons:
 - [Protonuclide](/view.html?p=notes/nature/matter/protonuclide.md)
 - [Interaction](/view.html?p=notes/nature/meta/interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/fundamental-interaction.md)
-- [Spin](/view.html?p=notes/nature/spin.md)
+- [Spin](/view.html?p=notes/nature/property/spin.md)
 
 ## Provenance
 
