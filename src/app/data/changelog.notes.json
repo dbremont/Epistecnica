@@ -108399,7 +108399,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: the offensive reading — the attack-surface inventory by category (network, web, identity, software, data, cloud, infrastructure, hardware, physical, supply chain, trust, human) and the attacks that enter through it. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: the offensive reading — the attack-surface inventory by category (network, web, identity, software, data, cloud, infrastructure, hardware, physical, supply chain, trust, human) and the attacks that enter through it. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108409,7 +108411,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: the classic memory-safety failure and the capability set a successful overflow buys, from arbitrary code execution to sandbox escape. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: the classic memory-safety failure and the capability set a successful overflow buys, from arbitrary code execution to sandbox escape. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108419,7 +108423,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: the defensive reading, and the largest note of the block: the defense problem space, task space, product space and technique space in the technical shell, with the categorical decomposition kept as the export had it. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: the defensive reading, and the largest note of the block: the defense problem space, task space, product space and technique space in the technical shell, with the categorical decomposition kept as the export had it. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108429,7 +108435,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Audit Log Model**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Audit Log Model**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108439,7 +108447,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Cryptographic Data**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Cryptographic Data**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108449,7 +108459,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Cryptography Hash Function**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Cryptography Hash Function**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108459,7 +108471,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Cryptography System**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Cryptography System**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108469,7 +108483,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Cryptography**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Cryptography**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108479,7 +108495,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Digital Certificate**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Digital Certificate**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108489,7 +108507,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Digital Signature**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Digital Signature**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108499,7 +108519,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Identity Model**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Identity Model**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108509,7 +108531,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **JSON Web Key (JWK)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **JSON Web Key (JWK)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108519,7 +108543,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **JSON Web Signature (JWS)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **JSON Web Signature (JWS)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108529,7 +108555,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **JSON Web Token (JWT)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **JSON Web Token (JWT)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108539,7 +108567,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Malware**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Malware**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108549,7 +108579,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Message Authentication Code (MAC)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Message Authentication Code (MAC)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108559,7 +108591,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **OAuth**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **OAuth**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108569,7 +108603,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **OpenID**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **OpenID**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108579,7 +108615,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Passkey**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Passkey**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108589,7 +108627,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: authorization and the models that decide it. The export misspells the page as \"Permision Model\"; the note is filed correctly and the title corrected. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: authorization and the models that decide it. The export misspells the page as \"Permision Model\"; the note is filed correctly and the title corrected. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108599,7 +108639,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Authentication Schemes**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Authentication Schemes**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108609,7 +108651,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **One-Time Password (OTP)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **One-Time Password (OTP)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108619,7 +108663,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Password**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Password**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108629,7 +108675,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Phishing**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Phishing**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108639,7 +108687,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Public Key Infrastructure (PKI)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Public Key Infrastructure (PKI)**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108649,7 +108699,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Secure Multi-Party Computation**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Secure Multi-Party Computation**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108659,7 +108711,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: what can go wrong, stated as a structured inventory. The export files it as \"Thread Model\"; the title is corrected to what the body says. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: what can go wrong, stated as a structured inventory. The export files it as \"Thread Model\"; the title is corrected to what the body says. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108669,7 +108723,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: the ITU-T certificate standard: structure, fields and validation rules. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: the ITU-T certificate standard: structure, fields and validation rules. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108679,7 +108735,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: **Zero Trust System**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: **Zero Trust System**, filed in the new security scope. Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  },
@@ -108689,7 +108747,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "Imported from the Notion `Security` export block: the scope entry note, which states the two sides of the shelf (attack and defense), indexes the thirty notes, and points at the security notes that stay with the objects they secure (x86, Java, Linux, TLS, certificates, git, SSH). Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted."
+    "summary": "Imported from the Notion `Security` export block: the scope entry note, which states the two sides of the shelf (attack and defense), indexes the thirty notes, and points at the security notes that stay with the objects they secure (x86, Java, Linux, TLS, certificates, git, SSH). Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
+    "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
+    "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
    }
   ]
  }
