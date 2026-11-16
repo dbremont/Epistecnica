@@ -8171,7 +8171,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "The three fractal rows (curve, region, solid), the regularity list and the relations now name the new fractal note, so the family has an entry point from the decomposition and the shape atlas links it on those rows."
+    "summary": "The three fractal rows (curve, region, solid), the regularity list and the relations now name the new fractal note, so the family has an entry point from the decomposition and the shape atlas links it on those rows.",
+    "commit": "8ff13b3f0604a223771c7128d17c875bfdca08f1",
+    "before": "9d4cc80275fc74fb84be3973b699645015d20f42"
    }
   ]
  },
@@ -106450,7 +106452,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note: the fractal, filed under geometry where the shape atlas already types the fractal curve, region and solid rows. The note takes the dimensional definition (dimension exceeding topological dimension), separates it from self-similarity as the generator, gives the four generation mechanisms, the log N / log r dimension with the five standard values, and the natural, time-series and network appearances."
+    "summary": "New note: the fractal, filed under geometry where the shape atlas already types the fractal curve, region and solid rows. The note takes the dimensional definition (dimension exceeding topological dimension), separates it from self-similarity as the generator, gives the four generation mechanisms, the log N / log r dimension with the five standard values, and the natural, time-series and network appearances.",
+    "commit": "8ff13b3f0604a223771c7128d17c875bfdca08f1",
+    "before": "9d4cc80275fc74fb84be3973b699645015d20f42"
    }
   ]
  }
