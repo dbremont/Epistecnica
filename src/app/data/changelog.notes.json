@@ -15191,6 +15191,11 @@
     "kind": "refactor",
     "summary": "move into the observational/computational scope",
     "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the history the method was missing: an Origins section tracing the line from Buffon and Laplace through Fermi, Ulam and von Neumann, the 1949 naming paper and the 1953 algorithm, to the annealing, Gibbs and MCMC generation and on to HMC, pseudo-marginal and multilevel variants — with the point that the 1980s shift from integrals to inference is why the note sits here. References split into primary sources, books and surveys, and links, and the duplicated processing table and case-study rows removed."
    }
   ]
  },
