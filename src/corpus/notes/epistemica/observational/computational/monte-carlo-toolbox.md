@@ -289,6 +289,8 @@ Two shifts are visible across that line, and the second is why this note is wher
 - Andrieu, C., Doucet, A., & Holenstein, R. (2010). Particle Markov chain Monte Carlo methods. *Journal of the Royal Statistical Society: Series B*, 72(3), 269–342. https://doi.org/10.1111/j.1467-9868.2009.00736.x
 - Bauer, W. F. (1958). The Monte Carlo method. *Journal of the Society for Industrial and Applied Mathematics*, 6(4), 438–451. https://doi.org/10.1137/0106028
 - Buffon, G.-L. L. de. (1777). *Essai d'arithmétique morale*. Imprimerie Royale.
+- Epistemic Tool Template. (n.d.). *Notion*. https://app.notion.com/p/Epistemic-Tool-Template-2e5c0f5171ec800fa9caf91bb16bcab9
+- FERMIAC. (n.d.). In *Wikipedia*. https://www.wikiwand.com/en/FERMIAC
 - Gelfand, A. E., & Smith, A. F. M. (1990). Sampling-based approaches to calculating marginal densities. *Journal of the American Statistical Association*, 85(410), 398–409. https://doi.org/10.1080/01621459.1990.10476213
 - Geman, S., & Geman, D. (1984). Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, PAMI-6(6), 721–741. https://doi.org/10.1109/TPAMI.1984.4767596
 - Giles, M. B. (2008). Multilevel Monte Carlo path simulation. *Operations Research*, 56(3), 607–617. https://doi.org/10.1287/opre.1070.0496
@@ -306,10 +308,15 @@ Two shifts are visible across that line, and the second is why this note is wher
 - Liu, J. S. (2001). *Monte Carlo strategies in scientific computing*. Springer.
 - MacKay, D. J. C. (1998). Introduction to Monte Carlo methods. In M. I. Jordan (Ed.), *Learning in graphical models* (pp. 175–204). Springer. https://doi.org/10.1007/978-94-011-5014-9_7
 - Metropolis, N. (1987). The beginning of the Monte Carlo method. *Los Alamos Science*, 15, 125–130.
-- Metropolis, N., & Ulam, S. (1949). The Monte Carlo method. *Journal of the American Statistical Association*, 44(247), 335–341. https://doi.org/10.1080/01621459.1949.10483310
 - Metropolis, N., Rosenbluth, A. W., Rosenbluth, M. N., Teller, A. H., & Teller, E. (1953). Equation of state calculations by fast computing machines. *The Journal of Chemical Physics*, 21(6), 1087–1092. https://doi.org/10.1063/1.1699114
+- Metropolis, N., & Ulam, S. (1949). The Monte Carlo method. *Journal of the American Statistical Association*, 44(247), 335–341. https://doi.org/10.1080/01621459.1949.10483310 · scan: https://web.williams.edu/Mathematics/sjmiller/public_html/341Fa09/handouts/MetropolisUlam_TheMonteCarloMethod.pdf
+- Monte Carlo method. (n.d.). In *Wikipedia*. https://en.wikipedia.org/wiki/Monte_Carlo_method
+- Monte Carlo methods [Video playlist]. (n.d.). *YouTube*. https://www.youtube.com/playlist?list=PLLyj1Zd4UWrNwo2LFGDzKmfqvJCocCFTQ
 - Neal, R. M. (2011). MCMC using Hamiltonian dynamics. In S. Brooks, A. Gelman, G. L. Jones, & X.-L. Meng (Eds.), *Handbook of Markov chain Monte Carlo* (pp. 113–162). CRC Press. https://arxiv.org/abs/1206.1901
 - RAND Corporation. (1955). *A million random digits with 100,000 normal deviates*. Free Press.
 - Robert, C. P., & Casella, G. (2004). *Monte Carlo statistical methods* (2nd ed.). Springer.
+- Sampling. (n.d.). Epistecnica corpus [Internal note]. [sampling.md](sampling.md)
+- Sanz-Alonso, D., & Al-Ghattas, O. (2024). *A first course in Monte Carlo methods* [Preprint]. arXiv. https://arxiv.org/abs/2405.16359
 - Sobol', I. M. (1967). On the distribution of points in a cube and the approximate evaluation of integrals. *USSR Computational Mathematics and Mathematical Physics*, 7(4), 86–112. https://doi.org/10.1016/0041-5553(67)90144-9
 - Ulam, S. M. (1976). *Adventures of a mathematician*. Scribner.
+- Walters, A. (n.d.). *Introduction to Monte Carlo methods* [Blog post]. https://austingwalters.com/introduction-to-monte-carlo-methods/

@@ -15205,6 +15205,11 @@
     "summary": "Rewrite the origins as prose with APA citations instead of a table, and flatten the references into one alphabetical APA list — the bibliography-by-type grouping was not a reference list. Adds the sources the prose now cites in text: Buffon, Laplace, Metropolis 1987 and Ulam 1976.",
     "commit": "989dab1099597204c0a5d1ebd41941fd5d2cb392",
     "before": "80e7cdc2faacd9d0e96c3fe125cdf7408f13de19"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "fix",
+    "summary": "Restore the sources the previous pass deleted, integrated into the list rather than dropped: FERMIAC, the Monte Carlo Wikipedia entry, the Metropolis–Ulam scan (joined to its citation), the Sanz-Alonso and Al-Ghattas preprint, the Walters blog post, the video playlist, the internal sampling note and the epistemic tool template — all formatted and alphabetised with the rest. The list is now 35 entries."
    }
   ]
  },
