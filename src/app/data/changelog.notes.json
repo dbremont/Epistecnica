@@ -13077,7 +13077,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Link the field-equation construction this tensor is the left-hand side of; the note previously had nowhere to point."
+    "summary": "Link the field-equation construction this tensor is the left-hand side of; the note previously had nowhere to point.",
+    "commit": "f95cbe63c4e54dc8dfe8701f8716ed80eadc5ed8",
+    "before": "22b8a80c2ada625a70b7167fac4a87a878ee33e5"
    }
   ]
  },
@@ -31140,7 +31142,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the Einstein field equations as a construction about a natural target: the law is a result, obtained by requiring the geometry side to be divergence-free (contracted Bianchi) and closed to a single admissible form by Lovelock's uniqueness theorem, while general relativity is the theory that carries it and the gravitational field is the segment of reality it represents. Types the root as an Epistemic Construction, kind Model; decomposes the Einstein tensor, the stress-energy source, the cosmological term, the metric field, the initial-value split, the Newtonian limit and the exact solutions; states the equivalence principle, the uniqueness requirement and the classical domain as the standards licensing the form; records the classical and strong-field tests and the singularity, cosmological-constant and quantum-gravity limits as the constraints the law carries inside itself; and evaluates it against the conceptuum criteria, where the weak verdicts are determinacy as a condition rather than a solution and adequacy as an effective rather than a fundamental law."
+    "summary": "Open the Einstein field equations as a construction about a natural target: the law is a result, obtained by requiring the geometry side to be divergence-free (contracted Bianchi) and closed to a single admissible form by Lovelock's uniqueness theorem, while general relativity is the theory that carries it and the gravitational field is the segment of reality it represents. Types the root as an Epistemic Construction, kind Model; decomposes the Einstein tensor, the stress-energy source, the cosmological term, the metric field, the initial-value split, the Newtonian limit and the exact solutions; states the equivalence principle, the uniqueness requirement and the classical domain as the standards licensing the form; records the classical and strong-field tests and the singularity, cosmological-constant and quantum-gravity limits as the constraints the law carries inside itself; and evaluates it against the conceptuum criteria, where the weak verdicts are determinacy as a condition rather than a solution and adequacy as an effective rather than a fundamental law.",
+    "commit": "f95cbe63c4e54dc8dfe8701f8716ed80eadc5ed8"
    }
   ]
  },
@@ -35211,7 +35214,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Re-point the Einstein field equations reference at the construction note that replaces the unclassified stub."
+    "summary": "Re-point the Einstein field equations reference at the construction note that replaces the unclassified stub.",
+    "commit": "f95cbe63c4e54dc8dfe8701f8716ed80eadc5ed8",
+    "before": "22b8a80c2ada625a70b7167fac4a87a878ee33e5"
    }
   ]
  },
@@ -93258,7 +93263,9 @@
    {
     "date": "2026-11-15",
     "kind": "remove",
-    "summary": "Retire the Notion learning stub: the equations now have a construction note at nature/construction/gravitation/einstein-field-equations.md, filed per the epistemic grammar with its natural target cited. The stub's formula, its left/right reading and its learning links are absorbed there; its two rows labelling G and c as the stress-energy tensor were wrong and are not carried over."
+    "summary": "Retire the Notion learning stub: the equations now have a construction note at nature/construction/gravitation/einstein-field-equations.md, filed per the epistemic grammar with its natural target cited. The stub's formula, its left/right reading and its learning links are absorbed there; its two rows labelling G and c as the stress-energy tensor were wrong and are not carried over.",
+    "commit": "f95cbe63c4e54dc8dfe8701f8716ed80eadc5ed8",
+    "before": "22b8a80c2ada625a70b7167fac4a87a878ee33e5"
    }
   ]
  },
