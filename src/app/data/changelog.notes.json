@@ -6870,7 +6870,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the note behind the taxonomy's orthogonal categories: the definition against a measure, what orthogonality buys (independent coefficients, optimal truncation, tridiagonal multiplication by x) against the Hilbert-matrix conditioning of the monomial basis, the three-term recurrence with the Jacobi matrix (Clenshaw, Golub-Welsch, Christoffel-Darboux), the five mechanisms that generate the families (Sturm-Liouville, the classical equations, quadrature, approximation and filters, distributions and random matrices), the Bochner and Askey classifications, and the misconceptions the word invites."
+    "summary": "Open the note behind the taxonomy's orthogonal categories: the definition against a measure, what orthogonality buys (independent coefficients, optimal truncation, tridiagonal multiplication by x) against the Hilbert-matrix conditioning of the monomial basis, the three-term recurrence with the Jacobi matrix (Clenshaw, Golub-Welsch, Christoffel-Darboux), the five mechanisms that generate the families (Sturm-Liouville, the classical equations, quadrature, approximation and filters, distributions and random matrices), the Bochner and Askey classifications, and the misconceptions the word invites.",
+    "commit": "5ccf8a9b64a6a22f0c1948c74241e47b260198e3"
    }
   ]
  },
@@ -6901,7 +6902,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Point the Orthogonality property row at the new note on orthogonal polynomials."
+    "summary": "Point the Orthogonality property row at the new note on orthogonal polynomials.",
+    "commit": "5ccf8a9b64a6a22f0c1948c74241e47b260198e3",
+    "before": "0d5753b50fe96bded9319881f6ff5c5509bef7f7"
    }
   ]
  },
