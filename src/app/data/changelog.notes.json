@@ -6870,7 +6870,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Point the Tschirnhaus Transformation section at its own note instead of carrying the whole technique in a survey entry."
+    "summary": "Point the Tschirnhaus Transformation section at its own note instead of carrying the whole technique in a survey entry.",
+    "commit": "0427a690099ecce5d2e53466a7d6d6acc4d157cf",
+    "before": "b866b738f3cc22010359dffe83ef93977891b720"
    }
   ]
  },
@@ -6880,7 +6882,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the technique note: the replacement of the unknown by a function of a new indeterminate, one coefficient for one parameter in the shift, the general substitution and its auxiliary system, the reason the method stops at the quintic (Bring, Jerrard, Abel), and the field-theoretic reading as a change of primitive element."
+    "summary": "Open the technique note: the replacement of the unknown by a function of a new indeterminate, one coefficient for one parameter in the shift, the general substitution and its auxiliary system, the reason the method stops at the quintic (Bring, Jerrard, Abel), and the field-theoretic reading as a change of primitive element.",
+    "commit": "0427a690099ecce5d2e53466a7d6d6acc4d157cf"
    }
   ]
  },
@@ -56753,7 +56756,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Reference the corpus note on the transformation that carries his name."
+    "summary": "Reference the corpus note on the transformation that carries his name.",
+    "commit": "0427a690099ecce5d2e53466a7d6d6acc4d157cf",
+    "before": "b866b738f3cc22010359dffe83ef93977891b720"
    }
   ]
  },
