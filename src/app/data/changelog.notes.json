@@ -93748,5 +93748,45 @@
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
+ },
+ {
+  "file_path": "social/structural/stratum/stratum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/bildungsburgertum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/social-class.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "List the stratum shelf among the structural notes."
+   }
+  ]
  }
 ]

@@ -46,6 +46,7 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 | Social Class `(→ Part)` Class Interest | The material stakes common to occupants of the position. |
 | Social Class `(→ Part)` Class Consciousness | Shared recognition of common position and interest; the class *for itself*. |
 | Social Class `(→ Part)` Class Organization | Parties, unions, and associations through which the class acts. |
+| Social Class `(→ Association)` `Social Compound` `(→ Instance)` Bildungsbürgertum | The educated stratum named against the economic bourgeoisie — standing by cultivation and credential rather than position in production; associated with this typology, never a kind of it. |
 
 ### Which are the tags that can be used to enrich the nodes of the decomposition?
 
@@ -93,6 +94,8 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 ### Class versus stratum?
 
 > A stratum is a gradational layer — higher/lower on some scale. A class is a relational position — defined by its place *against* other positions in production. Strata rank; classes oppose. Type gradational layers as strata, relational positions as classes, and never merge them into one row.
+
+> The [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) is the case where the cut is contested: a German formation defined by cultivation rather than by production position, whose name nonetheless claims membership in the *Bürgertum*. It is filed on the [stratum](/view.html?p=notes/social/structural/stratum/stratum.md) shelf as a `Social Compound` and linked here by association — the class typology gains no fourth kind, and the stratum keeps its own tree.
 
 ## References
 
