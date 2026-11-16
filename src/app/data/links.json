@@ -233,6 +233,12 @@
       "to": "epistemica/mathematical/metric/",
       "label": "Metric",
       "kind": "related"
+    },
+    {
+      "from": "social/collective/actor/public/polity/chn/",
+      "to": "social/collective/actor/scholar-official.md",
+      "label": "Scholar-Official",
+      "kind": "related"
     }
   ]
 }

@@ -12,6 +12,8 @@ tags: [note, stratum, bildungsburgertum, collective, social-element, europe, mod
 
 > The stratum of pastors, Gymnasium teachers, professors, physicians, jurists and higher officials — with their households — that carried the German educated middle class from roughly 1770 to 1933. Its unity was cultural before it was economic: the parsonage and the professorial household reproduced it, the Gymnasium and the university credentialed it, and the state service employed it. Cultivation was not a decoration on its standing; it *was* the standing, and the family invested in schooling what the trading house invested in stock.
 
+> Its sociability was an institution of its own — the [Salon](/view.html?p=notes/social/action/activity/cultural/salon.md), where Berlin households met nobility and financiers on terms set by cultivation — and its mirror image was the merchant city: [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md), where standing was credit, the trading house was the family's instrument, and cultivation was a private accomplishment rather than a title to office.
+
 > **Note on the name.** *Bildungsbürgertum* is a historians' category of the twentieth century; the stratum's own word for itself was *Bildungsbürger*, and the pairing with *Wirtschaftsbürgertum* belongs to the social history written around Werner Conze and Jürgen Kocka in the 1980s. The term therefore names a formation that did not call itself by that name — a fact worth holding, because it makes the concept's retrospective character part of what it is.
 
 > **Note on the period.** The formation is dated by its own institutions: the neo-humanist school reforms and the founding of the University of Berlin (1809–10) gave it its curriculum and its credential; the inflation of 1923 destroyed the incomes and endowments that had supported it; the seizure of 1933 displaced it as a public formation. Its afterlife in the Federal Republic — as a self-description, and later as a term of mild ridicule — is a separate story, and the concept is weaker there.
@@ -120,6 +122,10 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 > Because the German formation ran on the state. Office, title, examination, and pension organized the careers; fees and clients did not. The Anglo-American professional class is a market formation, the *Bildungsbürger* a service formation, and the untranslatable word carries that difference — which is also why the concept transposes so badly.
 
+### How does it compare with the Chinese scholar-official?
+
+> Both are strata ranked on canonical learning, and the comparison is what shows where the German case is peculiar. The [scholar-official](/view.html?p=notes/social/collective/actor/scholar-official.md) was examined by the state, ranked in a register, and paid in office; the *Bildungsbürger* was examined too — the Abitur and the *Staatsexamen* are state examinations — but the examination certified admission to a profession rather than a rank in a bureaucracy, and the canon was literary rather than doctrinal. One stratum is **documentary**, measured in degrees and dossiers; the other **performative**, measured in the deference of a room. That is why the Chinese concept has the sharper definition and the German one the sharper history.
+
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
@@ -132,6 +138,9 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 - [University](/view.html?p=notes/social/collective/actor/university.md) (the Humboldtian form as a kind, and the professor's institution)
 - [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md) (the older transmission actor the Gymnasium and university descend from)
 - [Germany](/view.html?p=notes/social/collective/actor/public/polity/deu/germany.md) (the polity whose service employed the stratum)
+- [Salon](/view.html?p=notes/social/action/activity/cultural/salon.md) (the sociability in which cultivation was performed and recognized)
+- [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md) (the merchant city that is the stratum's mirror image)
+- [Scholar-Official](/view.html?p=notes/social/collective/actor/scholar-official.md) (the examined credential stratum: the documentary case against the performative one)
 - [Max Weber](/view.html?p=notes/social/collective/actor/private/persona/maximilian-carl-emil-weber.md) (the *Stand* against the *Klasse* — the distinction this note works with)
 - [Jürgen Habermas](/view.html?p=notes/social/collective/actor/private/persona/jurgen-habermas.md) (the public sphere the stratum's sociability helped constitute)
 - Ringer, F. K. (1969). *The decline of the German mandarins: The German academic community, 1890–1933*. Harvard University Press.

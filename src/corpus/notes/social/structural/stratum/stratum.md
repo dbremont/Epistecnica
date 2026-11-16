@@ -18,6 +18,8 @@ tags: [note, stratum, social-class, collective, social-element]
 
 > Where the scale is cultivation and the credential that certifies it, the stratum acquires a further property: its ranking can be *transmitted* through schooling without being *convertible* into property. That is the case the [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) note works out.
 
+> The other great case is the Chinese [Scholar-Official](/view.html?p=notes/social/collective/actor/scholar-official.md) — a stratum ranked on canonical learning and certified by state examination. It is not filed here: the note at the actor hub types the office-holder, the individual actor, and the stratum reading of the corps of degree-holders is carried as prose there. The shelf links it as the comparison, not the member, which keeps "stratum" a reading and not a kind.
+
 ## Members
 
 | Stratum | Scale | Case |

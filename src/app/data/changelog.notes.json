@@ -93788,5 +93788,75 @@
     "summary": "List the stratum shelf among the structural notes."
    }
   ]
+ },
+ {
+  "file_path": "social/action/activity/cultural/cultural-activity.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the cultural activity family: the doings by which a collective produces, transmits and performs meaning, with sociability, cultivation and ceremony as its kinds and commemoration left out."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/activity/cultural/salon.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the salon as the family's first worked instance: the hosted gathering of cultivated conversation, its conventions, its brokerage, and the contested public-sphere reading."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/deu/region/lubeck.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Free City of Lübeck: the merchant republic of the Baltic, its patriciate and trading houses, and the economic bourgeoisie the Bildungsbürgertum is named against."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/scholar-official.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the scholar-official as an actor type: the examination-recruited administrator of the Chinese imperial state, decomposed through intention, guidance, organization, instrumentation and activity, with the examination evaluated against the German credential stratum."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Name the three activity families in the action hub, including the new cultural branch."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/bildungsburgertum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/stratum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor."
+   }
+  ]
  }
 ]
