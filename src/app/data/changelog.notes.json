@@ -106527,7 +106527,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Add the olive oil row to the agricultural product space."
+    "summary": "Add the olive oil row to the agricultural product space.",
+    "commit": "329948edc9f1b0eba1244dc30bd81f98613a71d1",
+    "before": "e4e341965926d253b3bb565fcce536013d484764"
    }
   ]
  },
@@ -106549,7 +106551,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New note: the olive tree, the first cultivated plant written in the current natural grammar — Organism at meso, with adaptations (drought, sclerophylly, resprouting, calcareous soil), living processes (evergreen photosynthesis, flowering, alternate bearing, longevity), properties and bearing states, the Mediterranean climate and terraced slope, the calcareous substrate, and the four bounds (winter chill, frost, water, the alternate-bearing cycle). The taxonomic and grafting position is stated once, and the oil is left to its own good note."
+    "summary": "New note: the olive tree, the first cultivated plant written in the current natural grammar — Organism at meso, with adaptations (drought, sclerophylly, resprouting, calcareous soil), living processes (evergreen photosynthesis, flowering, alternate bearing, longevity), properties and bearing states, the Mediterranean climate and terraced slope, the calcareous substrate, and the four bounds (winter chill, frost, water, the alternate-bearing cycle). The taxonomic and grafting position is stated once, and the oil is left to its own good note.",
+    "commit": "329948edc9f1b0eba1244dc30bd81f98613a71d1",
+    "before": "e4e341965926d253b3bb565fcce536013d484764"
    }
   ]
  },
@@ -106559,7 +106563,9 @@
    {
     "date": "2026-11-16",
     "kind": "feat",
-    "summary": "New good: the oil pressed from the olive drupe. The note gives the mechanical extraction chain, the grade structure with its acidity thresholds, the parameters that define a lot (cultivar, harvest date, acidity, peroxide value, polyphenols, sensory panel, origin), and the value reading — commodity at the lampante end, vintage at the extra-virgin end."
+    "summary": "New good: the oil pressed from the olive drupe. The note gives the mechanical extraction chain, the grade structure with its acidity thresholds, the parameters that define a lot (cultivar, harvest date, acidity, peroxide value, polyphenols, sensory panel, origin), and the value reading — commodity at the lampante end, vintage at the extra-virgin end.",
+    "commit": "329948edc9f1b0eba1244dc30bd81f98613a71d1",
+    "before": "e4e341965926d253b3bb565fcce536013d484764"
    }
   ]
  }
