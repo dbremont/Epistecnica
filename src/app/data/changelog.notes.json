@@ -30201,7 +30201,8 @@
    {
     "date": "2026-11-15",
     "kind": "move",
-    "summary": "Move from nature/el-nino-southern-oscillation.md: the climate modes get their own scope, as the waves do."
+    "summary": "Move from nature/el-nino-southern-oscillation.md: the climate modes get their own scope, as the waves do.",
+    "commit": "f31f58610a44a64ccec48e61a8c02580d48e20dc"
    }
   ]
  },
