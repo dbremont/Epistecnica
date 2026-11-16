@@ -56726,7 +56726,9 @@
    {
     "date": "2026-11-15",
     "kind": "docs",
-    "summary": "Add the Medicina mentis references (the 1695 Leipzig edition on Open Library and its digitised copy) and name the work in the opening description."
+    "summary": "Add the Medicina mentis references (the 1695 Leipzig edition on Open Library and its digitised copy) and name the work in the opening description.",
+    "commit": "503a8e7150f35e0a3676a4cc2bcc3f67be37fca3",
+    "before": "4375ad368994012fc5fd3c9510858663f5552da9"
    }
   ]
  },
