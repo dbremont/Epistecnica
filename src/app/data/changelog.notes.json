@@ -30911,7 +30911,8 @@
    {
     "date": "2026-11-15",
     "kind": "feat",
-    "summary": "Open the construction note for the onset of elastic instability in a slender continuous body: the eigenvalue criterion and its effective-length rule, the four end conditions, the ideal-column and slenderness standards that condition it, the imperfection-sensitivity and inelastic-range constraints that bound it, and a conceptual evaluation against the conceptuum criteria."
+    "summary": "Open the construction note for the onset of elastic instability in a slender continuous body: the eigenvalue criterion and its effective-length rule, the four end conditions, the ideal-column and slenderness standards that condition it, the imperfection-sensitivity and inelastic-range constraints that bound it, and a conceptual evaluation against the conceptuum criteria.",
+    "commit": "8cc7f017fe7e1e2f2536a4ea17f05ceb7d65390b"
    }
   ]
  },
