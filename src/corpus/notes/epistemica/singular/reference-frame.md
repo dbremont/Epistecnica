@@ -40,7 +40,7 @@ tags: [note, framework]
 |  | **Directionality** | Causal/Thermodynamic | The "Arrow of Time"; whether the frame accounts for entropy or remains T-invariant (time-reversible). |
 | **Kinematic** | **State of Motion** | Relative / Vectorial | Characterizes the frame as stationary, moving at a constant velocity, or accelerating relative to a primary origin. |
 |  | **Orthogonality** | Structural | Whether the basis vectors (axes) are perpendicular to one another, simplifying the metric tensor. |
-| **Physical** | **Inertia** | Foundational Assumption | Defines if the frame is **Inertial** (Newton's First Law holds) or **Non-Inertial** (requires pseudo-forces like centrifugal or Coriolis). |
+| **Physical** | [**Inertia**](/view.html?p=notes/nature/property/inertia.md) | Foundational Assumption | Defines if the frame is **Inertial** (Newton's First Law holds) or **Non-Inertial** (requires pseudo-forces like centrifugal or Coriolis). |
 |  | **Locality** | Scope | Whether the frame is valid globally or only within a specific local coordinate patch (crucial in General Relativity). |
 
 ## Space
@@ -111,6 +111,7 @@ Open question,  see:
 
 ## References
 
+- [Inertia](/view.html?p=notes/nature/property/inertia.md)
 - [Space](../mathematical/space/space.md)
 - [Motion](https://app.notion.com/p/Motion-32ac0f5171ec80dca1b8fd42eaaf5f1c?pvs=21)
 - [Reference System](https://app.notion.com/p/Reference-System-1c3c0f5171ec803c8457da5ed1936028?pvs=21)

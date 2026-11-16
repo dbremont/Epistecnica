@@ -21441,6 +21441,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/reference-frame.md to epistemica/singular/reference-frame.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Link the inertia property row and the reference list to nature/property/inertia.md, the note that decomposes the inertial/non-inertial distinction."
    }
   ]
  },
