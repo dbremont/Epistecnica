@@ -12145,7 +12145,9 @@
    {
     "date": "2026-11-16",
     "kind": "remove",
-    "summary": "Remove the note whose slug misspelled the object: the content folds into adjoint-operator.md, which is the correct spelling and the fuller note. No note linked to this path."
+    "summary": "Remove the note whose slug misspelled the object: the content folds into adjoint-operator.md, which is the correct spelling and the fuller note. No note linked to this path.",
+    "commit": "fdac325f039de2fbc78d5ccd0bf246ac6eca719a",
+    "before": "8fa61fd2ec7a6662b29132420bbf310fe68f99dd"
    }
   ]
  },
@@ -12173,7 +12175,9 @@
    {
     "date": "2026-11-16",
     "kind": "docs",
-    "summary": "Merge the misspelled adjoin-operator note into this one: the five reasons the abstraction exists and the two QA questions are carried over, the broken T*T^* fragments are fixed, the finite and infinite dimensional cases are separated, and the relations to self-adjointness, the Hermitian matrix and the spectral theorem are stated."
+    "summary": "Merge the misspelled adjoin-operator note into this one: the five reasons the abstraction exists and the two QA questions are carried over, the broken T*T^* fragments are fixed, the finite and infinite dimensional cases are separated, and the relations to self-adjointness, the Hermitian matrix and the spectral theorem are stated.",
+    "commit": "fdac325f039de2fbc78d5ccd0bf246ac6eca719a",
+    "before": "8fa61fd2ec7a6662b29132420bbf310fe68f99dd"
    }
   ]
  },
