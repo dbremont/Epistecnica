@@ -74,6 +74,7 @@ Observations:
 [https://news.ycombinator.com/item?id=39509414](https://news.ycombinator.com/item?id=39509414)
 - [List of functional analysis topics](https://en.wikipedia.org/wiki/List_of_functional_analysis_topics)
 - [Schwartz space](https://en.wikipedia.org/wiki/Schwartz_space)
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md) · [Dirac Delta](/view.html?p=notes/epistemica/mathematical/mapping/distribution/dirac-delta-function.md) — the unit of the convolution algebra and the class it closes on
 - https://en.wikipedia.org/wiki/Convolution_power
 - https://en.wikipedia.org/wiki/Convolution_theorem
 - [https://www.youtube.com/watch?v=KuXjwB4LzSA](https://www.youtube.com/watch?v=KuXjwB4LzSA)

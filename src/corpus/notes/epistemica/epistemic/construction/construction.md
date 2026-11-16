@@ -62,6 +62,8 @@ tags: [note, mathematics, statistics]
 | `Aggregate` → Construction → Geometry Construction → Pythagorean Theorem | The square on the hypotenuse is the sum of the squares on the legs. |
 | `Aggregate` → Construction → Symmetry Construction | Grouping: results deriving conservation from invariance. |
 | `Aggregate` → Construction → Symmetry Construction → Noether's Theorem | Every continuous symmetry of an action yields a conserved quantity. |
+| `Aggregate` → Construction → Impossibility Construction | Grouping: results that rule out a construct, marking what a theory cannot admit. |
+| `Aggregate` → Construction → Impossibility Construction → Schwartz's Impossibility of Multiplication | No associative product on distributions extends the continuous product and obeys the product rule. |
 
 | `Aggregate` → Construction → Asymptotic Construction | Grouping: results about how a statistic behaves as the sample grows. |
 | `Aggregate` → Construction → Asymptotic Construction → Central Limit Theorem | A sum of independent terms approaches the normal law. |

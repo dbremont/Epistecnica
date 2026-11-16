@@ -176,6 +176,7 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Quantification](/view.html?p=notes/epistemica/quantification/quantification.md) · [Cardinality](/view.html?p=notes/epistemica/mathematical/number/cardinality.md) · [Measurable Function](/view.html?p=notes/epistemica/mathematical/measure/measurable-function.md) · [Metric](/view.html?p=notes/epistemica/mathematical/metric/metric.md) · [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md) · [Enumeration (Counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md)
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) — every Radon measure is a distribution, and the inclusion is proper
 - [Measure (mathematics)](https://en.wikipedia.org/wiki/Measure_(mathematics))
 - Halmos, P. R. (1950). *Measure Theory*. Van Nostrand.
 - Rudin, W. (1987). *Real and Complex Analysis*, 3rd edition. McGraw-Hill.

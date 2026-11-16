@@ -17,6 +17,10 @@ A **functional** is a special kind of function that maps functions to scalars: $
 - Example: the **integral functional**: $F(f) = \int_a^b f(x)\,dx$
 - Functionals are central in variational calculus, optimization, and quantum mechanics (e.g., expectation values).
 
+A distribution is a functional of a specific kind — linear, and continuous for the topology of the [test functions](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) — and the whole theory of [distributions](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) is the study of that class.
+
 ## References
 
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md)
+- [Functional (mathematics)](https://en.wikipedia.org/wiki/Functional_(mathematics))
 - …

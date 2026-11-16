@@ -10,7 +10,7 @@ tags: [note, mathematics, method, technique, analytical]
 
 > **What it is.** The inversion routine for linear operators. The Green's function is the response to a unit impulse at one point; by linearity and superposition, the response to any source is the integral of responses.
 >
-> **Type.** An `Epistemic Method`. The Green's function itself is an object — often a [generalized function](../../mapping/generalized-function.md) — while the method is the reduction of a boundary-value problem to an integral equation.
+> **Type.** An `Epistemic Method`. The Green's function itself is an object — often a [distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md), and in the constant-coefficient case the response to a [Dirac delta](/view.html?p=notes/epistemica/mathematical/mapping/distribution/dirac-delta-function.md) — while the method is the reduction of a boundary-value problem to an integral equation.
 >
 > **Boundary.** The method requires linearity, a known operator, and boundary conditions encoded in $G$. For nonlinear problems the impulse response does not superpose, and the Green's function survives only as a linearization.
 
@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, analytical]
 ## References
 
 - https://en.wikipedia.org/wiki/Green%27s_function
-- [Generalized Function](../../mapping/generalized-function.md) · [Differential Equation](../../change/differential-equation.md) · [Variational Method](../reduction/variational-method.md) · [Feynman Diagram](../../feynman-diagram.md)
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Generalized Function](/view.html?p=notes/epistemica/mathematical/mapping/generalized-function.md) · [Differential Equation](/view.html?p=notes/epistemica/mathematical/change/differential-equation.md) · [Variational Method](/view.html?p=notes/epistemica/mathematical/method/reduction/variational-method.md) · [Feynman Diagram](/view.html?p=notes/epistemica/mathematical/feynman-diagram.md)

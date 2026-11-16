@@ -144,3 +144,4 @@ and corresponding norm:  $\|f\|_{L^2} := \left( \int_0^1 |f(x)|^2 \, dx \right)^
 - Maz'ya, V. (2011). *Sobolev spaces: With applications to elliptic partial differential equations* (2nd rev. ed.). Springer. https://doi.org/10.1007/978-3-642-15564-2
 - Leoni, G. (2017). *A first course in Sobolev spaces* (2nd ed.). American Mathematical Society. https://doi.org/10.1090/gsm/181
 - [Distribution - Mathematical Analysis](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis))
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) — the weak-derivative framework this note is built on

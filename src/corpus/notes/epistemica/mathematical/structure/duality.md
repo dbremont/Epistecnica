@@ -19,7 +19,7 @@ tags: [note, mathematics, structure, algebraic]
 | Domain | Object | Dual | What the duality buys |
 | --- | --- | --- | --- |
 | Linear algebra | vector space $V$ | $V^* = \mathrm{Hom}(V, k)$ | Coordinates as functionals; the [dual basis](../structure/linear/basis.md) |
-| Analysis | function space | its dual of measures/distributions | [Weak convergence](../space/weak-convergence.md), [distributions](../mapping/generalized-function.md) |
+| Analysis | function space | its dual of measures/distributions | [Weak convergence](../space/weak-convergence.md), [distributions](../mapping/distribution/distribution.md) |
 | Optimization | primal problem | [dual problem](../method/certify/convex-duality.md) | Certificates of optimality; strong duality for convex problems |
 | Category theory | category $C$ | $C^{op}$ | Every statement has a free dual — see [category](category.md) |
 | Projective geometry | points | hyperplanes | Theorems about incidence come in pairs |

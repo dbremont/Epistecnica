@@ -1321,6 +1321,11 @@
     "summary": "Narrow the type note to constructions discharged by proof: the named theories and models leave the scope for the science scope, the boundary paragraph states the distinction, the note is retitled Construction, and the observational asymptotic results join the decomposition table.",
     "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
     "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the Impossibility Construction grouping and Schwartz's multiplication result to the catalogue."
    }
   ]
  },
@@ -8497,6 +8502,11 @@
     "kind": "refactor",
     "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
     "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Link the distribution shelf: the delta is the unit of the convolution algebra."
    }
   ]
  },
@@ -8599,6 +8609,11 @@
     "kind": "refactor",
     "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
     "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Link the distribution shelf: a distribution is a continuous linear functional of a specific kind."
    }
   ]
  },
@@ -8645,6 +8660,11 @@
     "kind": "refactor",
     "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
     "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Point the genus at the distribution shelf and separate its species (distributions, hyperfunctions, Colombeau algebras, ultradistributions)."
    }
   ]
  },
@@ -9064,6 +9084,11 @@
     "summary": "Follow the scope rename: the measurement/ links point at quantification/.",
     "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
     "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Link the distribution shelf: every Radon measure is a distribution, and the inclusion is proper."
    }
   ]
  },
@@ -9693,6 +9718,11 @@
     "kind": "refactor",
     "summary": "Move into the method family that names its principal move.",
     "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Read the Green's function as a distribution (the delta response) and retarget the stub links to working viewer links."
    }
   ]
  },
@@ -11240,6 +11270,11 @@
     "summary": "Repoint the Measure link into the measure scope.",
     "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd",
     "before": "d397df9f1663965b6fc1827e1e06627660ff4c59"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Retarget the dangling Wikipedia distribution reference to the corpus shelf that now carries it."
    }
   ]
  },
@@ -12006,6 +12041,11 @@
     "summary": "Repoint links after the method-scope reorganisation.",
     "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
     "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Point the analysis row at the distribution shelf rather than the generalized-function stub."
    }
   ]
  },
@@ -104911,6 +104951,61 @@
     "summary": "Retarget the inertia link to the property shelf it moved to.",
     "commit": "07aa46e93830a51fca9039ff89ad393fb1051e28",
     "before": "e0f47cdec2eb3e9a436f0e6124c51428207ff39c"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/mapping/distribution/distribution.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Open the distribution shelf with the master note: the continuous linear functional on test functions, its notation, rules, kinds and predicates, and the three ambiguities (probability distribution, generalized function, measure)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/mapping/distribution/test-function.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "The probe scheme: smooth compactly supported test functions, the seminorm topology, the bump/mollifier/partition-of-unity rules, and why the point had to be given up."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/mapping/distribution/tempered-distribution.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "The growth-bounded species: Schwartz space and its dual, the Fourier transform as an isomorphism, the inclusion chain, and the objects temperedness excludes."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/mapping/distribution/dirac-delta-function.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "move",
+    "summary": "Move from mathematical/mapping/ into the distribution shelf: the delta is the canonical instance of the scheme, and the shelf is where its family lives."
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "Grow the stub into a note: the evaluation functional, the measure/function/distribution readings, the scaling and convolution rules, and the delta-sequence distinction."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/construction/mathematical/schwartz-impossibility-of-multiplication.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "State Schwartz's impossibility: no associative product extends the continuous product and obeys the product rule, with the positive counterparts (disjoint singular supports, wavefront sets, paraproducts, Colombeau algebras, hyperfunctions)."
    }
   ]
  }

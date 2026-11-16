@@ -1641,7 +1641,7 @@
       ],
       "notes": [
         "epistemica/optimization/backpropagation.md",
-        "epistemica/mathematical/mapping/dirac-delta-function.md"
+        "epistemica/mathematical/mapping/distribution/dirac-delta-function.md"
       ],
       "sources": [
         {
