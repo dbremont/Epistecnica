@@ -106523,6 +106523,11 @@
     "summary": "New product space: the agricultural goods gathered under one page, in the Product/Description/Tags form of the semiconductor, software and telecom spaces. It links the production scope the goods come out of — whose sub-sector table is also why wood is filed here — and the food industries that process them.",
     "commit": "7054d732bd71ffd46986a17aeba6a9a7dce2c9cc",
     "before": "bfe72a5e63bb1043ac4f6f3384cead9ecb08eb87"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the olive oil row to the agricultural product space."
    }
   ]
  },
@@ -106535,6 +106540,26 @@
     "summary": "New note: the magnet as a body rather than as the phenomenon — a material particular whose aligned domains produce a field of its own. The note gives the type reading (Natural Object, readable as a constitutive technical object, not a property, substance or system), the decomposition into domains, walls, poles, material instances, the five properties and the three bounds, the kinds by where the field comes from, and the reason the alignment survives its own demagnetizing field.",
     "commit": "8b7f923778e6a4bef3fb35a7c79978a4c7c5b14d",
     "before": "d15dad0ac160c5216af1ce4d291f774269775e77"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/bio/organism/plant/olive-tree-olea-europaea.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New note: the olive tree, the first cultivated plant written in the current natural grammar — Organism at meso, with adaptations (drought, sclerophylly, resprouting, calcareous soil), living processes (evergreen photosynthesis, flowering, alternate bearing, longevity), properties and bearing states, the Mediterranean climate and terraced slope, the calcareous substrate, and the four bounds (winter chill, frost, water, the alternate-bearing cycle). The taxonomic and grafting position is stated once, and the oil is left to its own good note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/good/agriculture/olive-oil.md",
+  "logs": [
+   {
+    "date": "2026-11-16",
+    "kind": "feat",
+    "summary": "New good: the oil pressed from the olive drupe. The note gives the mechanical extraction chain, the grade structure with its acidity thresholds, the parameters that define a lot (cultivar, harvest date, acidity, peroxide value, polyphenols, sensory panel, origin), and the value reading — commodity at the lampante end, vintage at the extra-virgin end."
    }
   ]
  }

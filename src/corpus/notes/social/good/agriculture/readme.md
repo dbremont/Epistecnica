@@ -12,6 +12,7 @@ tags: [note, catalog]
 | [Chicken](/view.html?p=notes/social/good/agriculture/chicken.md) | Poultry raised and sold as meat, live or processed | poultry, meat, livestock |
 | [Ham](/view.html?p=notes/social/good/agriculture/ham.md) | The cured hind leg of a pig, sold by cure and by origin | pork, cured, meat |
 | [Lemon](/view.html?p=notes/social/good/agriculture/lemon.md) | A citrus fruit, sold fresh or as juice, peel and essential oil | citrus, fruit, crop |
+| [Olive Oil](/view.html?p=notes/social/good/agriculture/olive-oil.md) | The mechanically pressed oil of the olive drupe, sold by grade, polyphenols and origin | oil, pressed, food |
 | [Soybean](/view.html?p=notes/social/good/agriculture/soybean.md) | An oilseed legume, crushed for oil and meal or sold whole | oilseed, legume, feed |
 | [Tobacco](/view.html?p=notes/social/good/agriculture/tobacco.md) | Cured leaf, sold by grade to the manufacturers of smoked and smokeless products | leaf, cash-crop, nicotine |
 | [Wine](/view.html?p=notes/social/good/agriculture/wine.md) | Fermented grape juice, sold by appellation, variety and vintage | grape, fermented, beverage |
