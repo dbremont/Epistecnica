@@ -53,7 +53,7 @@ Third, the historical attribution: the 1744 *Additamentum* derives the elastica,
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Part)` `Concept` | Grouping: the discriminators the criterion turns on. |
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Part)` `Concept` `(→ Instance)` Critical Load | The load at which the straight configuration ceases to be stable — an eigenvalue of the whole body-plus-supports problem, not a material constant. |
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Part)` `Concept` `(→ Instance)` Effective Length | `KL`: the length of the equivalent hinged–hinged column that buckles at the same load. |
-| `Model` `(→ Instance)` Euler's Critical Load `(→ Represents)` `Segment of Reality` `(→ Instance)` Slender Column Under Compression | The natural target: one continuous body whose slenderness makes instability precede strength failure. Cited, not decomposed here — its naturalis reading is [Continuous Medium (Body)](/view.html?p=notes/nature/physical-object/continuous-medium.md). |
+| `Model` `(→ Instance)` Euler's Critical Load `(→ Represents)` `Segment of Reality` `(→ Instance)` Slender Column Under Compression | The natural target: one continuous body whose slenderness makes instability precede strength failure. Cited, not decomposed here — its naturalis reading is [Continuous Medium (Body)](/view.html?p=notes/nature/body/continuous-medium.md). |
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Governed By)` `Epistemic Standard` | Grouping: the conditions the criterion must satisfy to be applied at all. |
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Governed By)` `Epistemic Standard` `(→ Instance)` Ideal-Column Assumptions | Straight, prismatic, homogeneous, isotropic; load perfectly axial; no initial imperfection, no residual stress; small deflection; linear elastic response. |
 | `Model` `(→ Instance)` Euler's Critical Load `(→ Governed By)` `Epistemic Standard` `(→ Instance)` Slenderness Condition | The criterion holds only while elastic instability precedes yielding: the slenderness above which the column buckles before it crushes. Below it the governing mode is strength, and this criterion has no content. |
@@ -84,7 +84,7 @@ The concept under evaluation is **Euler's critical load**, precised as *the lowe
 - Euler, L. (1744). *Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes*, Additamentum I: *De curvis elasticis*. — the elastica
 - Euler, L. (1757). Sur la force des colonnes. *Mémoires de l'Académie des Sciences de Berlin* 13, 252–282. — the column problem and the four cases
 - Timoshenko, S. P. (1953). *History of Strength of Materials*. McGraw-Hill. — the historical reconstruction of both memoirs
-- [Continuous Medium (Body)](/view.html?p=notes/nature/physical-object/continuous-medium.md) — the natural target and its fields
-- [Structure](/view.html?p=notes/nature/physical-object/structure.md) — the discrete body the column is a member of
+- [Continuous Medium (Body)](/view.html?p=notes/nature/body/continuous-medium.md) — the natural target and its fields
+- [Structure](/view.html?p=notes/nature/body/structure.md) — the discrete body the column is a member of
 - [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) — the technical principle supplying the equation
 - [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the constitutive technique that applies the criterion

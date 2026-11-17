@@ -54,11 +54,11 @@ Description of physical reality
 
 | Node | Family | Note | Status |
 | --- | --- | --- | --- |
-| Particles | Entity | [Particle](/view.html?p=notes/nature/physical-object/particle.md) | noted |
+| Particles | Entity | [Particle](/view.html?p=notes/nature/body/particle.md) | noted |
 | Fields | Entity | [Field](/view.html?p=notes/nature/field.md) | noted |
 | Physical systems | Entity | [Physical System](/view.html?p=notes/epistemica/singular/physical-system.md) | noted |
-| Body | Entity | [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) | noted — the body family |
-| Continuous body | Entity | [Continuous Medium (Body)](/view.html?p=notes/nature/physical-object/continuous-medium.md) | noted |
+| Body | Entity | [Physical Object](/view.html?p=notes/nature/body/physical-object.md) | noted — the body family |
+| Continuous body | Entity | [Continuous Medium (Body)](/view.html?p=notes/nature/body/continuous-medium.md) | noted |
 | Matter | Entity | [Matter](/view.html?p=notes/nature/matter/matter.md) | noted — the substance side |
 | Mass | Property | [Mass](/view.html?p=notes/nature/property/mass.md) | noted |
 | Electric charge | Property | [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md) | noted |
@@ -88,7 +88,7 @@ Two boundaries carry most of the work. **Entity versus property**: mass, charge,
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Reality](/view.html?p=notes/epistemica/epistemic/nature/reality.md) · [Segment](/view.html?p=notes/epistemica/epistemic/nature/segment.md) · [Modeling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) — the ontic and epistemic sides of the same cut
-- [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) · [Property](/view.html?p=notes/nature/property/property.md) · [Reference Frame](/view.html?p=notes/epistemica/singular/reference-frame.md) · [Physical System](/view.html?p=notes/epistemica/singular/physical-system.md)
+- [Physical Object](/view.html?p=notes/nature/body/physical-object.md) · [Property](/view.html?p=notes/nature/property/property.md) · [Reference Frame](/view.html?p=notes/epistemica/singular/reference-frame.md) · [Physical System](/view.html?p=notes/epistemica/singular/physical-system.md)
 - [Frame of reference](https://en.wikipedia.org/wiki/Frame_of_reference)
 - [Physical property](https://en.wikipedia.org/wiki/Physical_property)
 - [Fundamental interaction](https://en.wikipedia.org/wiki/Fundamental_interaction)

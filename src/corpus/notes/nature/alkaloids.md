@@ -36,7 +36,7 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## Related
 
-- [Nicotine](/view.html?p=notes/nature/bio/molecular/nicotine.md) — the pyridine–pyrrolidine alkaloid of tobacco: one instance of the class, decomposed.
+- [Nicotine](/view.html?p=notes/nature/life/molecular/nicotine.md) — the pyridine–pyrrolidine alkaloid of tobacco: one instance of the class, decomposed.
 
 ## References
 

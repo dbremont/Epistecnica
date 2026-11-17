@@ -31,7 +31,7 @@ QA:
 
 ## Related
 
-- [Particle](/view.html?p=notes/nature/physical-object/particle.md)
+- [Particle](/view.html?p=notes/nature/body/particle.md)
 
 ## Provenance
 

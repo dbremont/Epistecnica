@@ -37,7 +37,7 @@ QA:
 
 ## Related
 
-- [Cell Signaling](/view.html?p=notes/nature/bio/cell/cell-signaling.md)
+- [Cell Signaling](/view.html?p=notes/nature/life/cell/cell-signaling.md)
 
 ## Provenance
 

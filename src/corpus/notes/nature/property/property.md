@@ -79,8 +79,8 @@ The table states the family split, the criterion each type is individuated by, a
 
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)
 - [Inertia](/view.html?p=notes/nature/property/inertia.md) — the shelf's first member
-- [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) — the bearer family a property is an attribute of
-- [Particle](/view.html?p=notes/nature/physical-object/particle.md) — the bearer that carries inertia at the micro level
+- [Physical Object](/view.html?p=notes/nature/body/physical-object.md) — the bearer family a property is an attribute of
+- [Particle](/view.html?p=notes/nature/body/particle.md) — the bearer that carries inertia at the micro level
 - [Mass](/view.html?p=notes/nature/property/mass.md) — the quantity that measures inertia
 - [Moment of Inertia Tensor](/view.html?p=notes/epistemica/mathematical/tensor/moment-of-inertia-tensor.md) — the rotational analogue, a mathematical object rather than a second natural element
 - [Matter](/view.html?p=notes/nature/matter/matter.md) — the stuff-kind side of the same instantiation

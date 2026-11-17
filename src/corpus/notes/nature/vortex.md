@@ -17,7 +17,7 @@ tags: [note, nature, natural-system, physics, system]
 
 ## Related
 
-- [Fluid](/view.html?p=notes/nature/physical-object/fluid.md)
+- [Fluid](/view.html?p=notes/nature/body/fluid.md)
 - [Earth Water System](/view.html?p=notes/nature/earth-water-system.md)
 
 ## Provenance

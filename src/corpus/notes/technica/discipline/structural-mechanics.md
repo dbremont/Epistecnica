@@ -118,7 +118,7 @@ The concept under evaluation is **Structural Mechanics**, defined above as *the 
 - [Geotechnical Engineering](/view.html?p=notes/technica/discipline/geotechnical-engineering.md) — the neighbouring practice that owns the ground and the foundation's interaction with it
 - [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the constitutive technique this practice runs on
 - [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) — the beam model stated on its own
-- [Structure](/view.html?p=notes/nature/physical-object/structure.md) — the natural reading of a load-bearing body
+- [Structure](/view.html?p=notes/nature/body/structure.md) — the natural reading of a load-bearing body
 - [Construction Technology](/view.html?p=notes/technica/general/cto/industry/construction-technology.md) — the methods that build the designed members
 - [Technica Atlas](/corpus/notes/technica/atlas.html) — the forest this decomposition feeds
 - https://en.wikipedia.org/wiki/Solid_mechanics

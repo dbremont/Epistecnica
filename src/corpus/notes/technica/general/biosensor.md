@@ -76,9 +76,9 @@ The concept under evaluation is **Biosensor**, defined above as *an analytical i
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Living System](/view.html?p=notes/nature/bio/organism/living-system.md) — the natural element the instrument is built on
+- [Living System](/view.html?p=notes/nature/life/organism/living-system.md) — the natural element the instrument is built on
 - biochemical sensors — the sensing interaction, read naturally
-- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md) — the recognition element's material in most instruments
+- [Protein](/view.html?p=notes/nature/life/molecular/protein.md) — the recognition element's material in most instruments
 - [Metrology Services Set](/view.html?p=notes/technica/general/cto/industry/metrology-services.md) — the traceability domain the calibration sits in
 - [Technica Atlas](/corpus/notes/technica/atlas.html) — the forest this decomposition feeds
 - IUPAC Recommendations 1999. "Definition of a biosensor" — an integrated receptor–transducer device.

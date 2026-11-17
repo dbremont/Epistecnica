@@ -109,4 +109,4 @@ The concept under evaluation is **Healthcare Product**, defined above as *the ar
 - [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/cto/industry/pharma-pipeline.md) — the production system behind the medicinal class.
 - [Biotech Production Ecosystem](/view.html?p=notes/technica/general/cto/industry/biotech-production-ecosystem.md) — the production ecosystem biological products depend on.
 - [Laboratory Tooling](/view.html?p=notes/technica/general/cto/industry/laboratory-tooling.md) — the instruments the diagnostic class is built around.
-- [Human](/view.html?p=notes/nature/human/human.md) — the organism the article is used on.
+- [Human](/view.html?p=notes/nature/life/organism/human/human.md) — the organism the article is used on.

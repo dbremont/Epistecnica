@@ -77,7 +77,7 @@ The concept under evaluation is **Euler–Bernoulli Beam Theory**, defined above
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md) — the practice this principle governs the members of
 - [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the technique that uses the member stiffness this principle defines
-- [Structure](/view.html?p=notes/nature/physical-object/structure.md) — the natural reading of the body the member belongs to
+- [Structure](/view.html?p=notes/nature/body/structure.md) — the natural reading of the body the member belongs to
 - https://en.wikipedia.org/wiki/Euler%E2%80%93Bernoulli_beam_theory
 - Timoshenko, S. P. "History of Strength of Materials" (1953), ch. on Euler and Bernoulli.
 - Gere, J. M., and Timoshenko, S. P. *Mechanics of Materials*. PWS.

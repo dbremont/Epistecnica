@@ -51,7 +51,7 @@ QA:
 - [Atom](/view.html?p=notes/nature/atom.md)
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md)
 - [Matter](/view.html?p=notes/nature/matter/matter.md)
-- [Particle](/view.html?p=notes/nature/physical-object/particle.md)
+- [Particle](/view.html?p=notes/nature/body/particle.md)
 
 ## Provenance
 

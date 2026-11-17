@@ -19,7 +19,7 @@ qa:
 
 **An enzyme, read as a natural instance, belongs to `Ontic Element (→ Kind) Substance (→ Kind) Substance / Matter` — a stuff-kind individuated by composition, and by the arrangement of that composition in a pocket that catalyses.**
 
-It is also an instance of `Entity` when a single molecule is counted or tracked, which is what "one enzyme molecule" names. Readable secondarily as a `Building Block` — the unit a metabolic pathway or a regulatory network is assembled from, which is how the [Human Biomolecular Architecture](/view.html?p=notes/nature/human/biomolecular-architecture.md) note meets it. Readable again as a `Mechanism`, since an enzyme *causes* conversion; but the enzyme is the bearer of the causing, not the causing itself, so the mechanism reading stays prose. Those readings are prose here, not second roots.
+It is also an instance of `Entity` when a single molecule is counted or tracked, which is what "one enzyme molecule" names. Readable secondarily as a `Building Block` — the unit a metabolic pathway or a regulatory network is assembled from, which is how the [Human Biomolecular Architecture](/view.html?p=notes/nature/life/organism/human/biomolecular-architecture.md) note meets it. Readable again as a `Mechanism`, since an enzyme *causes* conversion; but the enzyme is the bearer of the causing, not the causing itself, so the mechanism reading stays prose. Those readings are prose here, not second roots.
 
 ### What is this natural instance?
 
@@ -144,13 +144,13 @@ Three details are worth keeping. First, **RuBisCO is a lyase, not a ligase** —
 
 ## References
 
-- [Protein](/view.html?p=notes/nature/bio/molecular/protein.md)
+- [Protein](/view.html?p=notes/nature/life/molecular/protein.md)
 - [Enzyme Regulation](/view.html?p=notes/nature/enzyme/enzyme-regulation.md)
 - [Enzyme Catalysis](/view.html?p=notes/nature/enzyme/enzyme-catalysis.md)
 - [Enzyme Activity / Kinetics (E, kcat, Km)](/view.html?p=notes/nature/enzyme/enzyme-activity-kinetics-e-kcat-km.md)
 - [Enzyme Assays](/view.html?p=notes/nature/enzyme/enzyme-assays.md)
-- [Glucose](/view.html?p=notes/nature/bio/molecular/glucose.md)
-- [Starch](/view.html?p=notes/nature/bio/molecular/starch.md)
+- [Glucose](/view.html?p=notes/nature/life/molecular/glucose.md)
+- [Starch](/view.html?p=notes/nature/life/molecular/starch.md)
 - [RuBisCO](https://en.wikipedia.org/wiki/RuBisCO)
 
 - https://enzyme.expasy.org/

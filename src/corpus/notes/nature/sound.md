@@ -35,7 +35,7 @@ tags: [note, nature, phenomenon, sound, acoustic]
 
 ## Perception
 
-> The ear converts the mechanical wave into neural signal, and the auditory system reads frequency as **pitch**, pressure amplitude as **loudness**, and the partial structure as **timbre**. The perceptual reading is a distinct natural note: [Perception of Sound](/view.html?p=notes/nature/human/perception-of-sound.md), with the organ in [Human Auditory System](/view.html?p=notes/nature/human/human-auditory-system.md).
+> The ear converts the mechanical wave into neural signal, and the auditory system reads frequency as **pitch**, pressure amplitude as **loudness**, and the partial structure as **timbre**. The perceptual reading is a distinct natural note: [Perception of Sound](/view.html?p=notes/nature/life/organism/human/perception-of-sound.md), with the organ in [Human Auditory System](/view.html?p=notes/nature/life/organism/human/human-auditory-system.md).
 
 ## Sound in different media
 
@@ -50,7 +50,7 @@ tags: [note, nature, phenomenon, sound, acoustic]
 - [Wave](/view.html?p=notes/nature/wave/wave.md) — the general phenomenon this is the mechanical case of
 - [Oscillation](/view.html?p=notes/nature/wave/oscillation.md) — the temporal pattern a sound wave carries
 - [Propagation of Sound](/view.html?p=notes/nature/propagation-of-sound.md) — how the wave travels, and how the medium changes it
-- [Perception of Sound](/view.html?p=notes/nature/human/perception-of-sound.md) — the perceptual reading of the same wave
+- [Perception of Sound](/view.html?p=notes/nature/life/organism/human/perception-of-sound.md) — the perceptual reading of the same wave
 - [Acoustics](/view.html?p=notes/epistemica/epistemic/discipline/acoustics.md) — the discipline that inquires into it
 
 ## References

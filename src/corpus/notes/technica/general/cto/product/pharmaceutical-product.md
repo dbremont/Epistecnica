@@ -119,4 +119,4 @@ The concept under evaluation is **Pharmaceutical Product**, defined above as *th
 - [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/cto/industry/pharma-pipeline.md) — the production system that makes and authorises the article.
 - [Pharmaceutical Technical Domain Set](/view.html?p=notes/technica/general/cto/es/multinode/pharmaceutical-technical-domain-set.md) — the whole medicine-making ensemble.
 - [Biotech Production Ecosystem](/view.html?p=notes/technica/general/cto/industry/biotech-production-ecosystem.md) — the production ecosystem biological products depend on.
-- [Human](/view.html?p=notes/nature/human/human.md) — the organism the article is administered to.
+- [Human](/view.html?p=notes/nature/life/organism/human/human.md) — the organism the article is administered to.

@@ -99,5 +99,5 @@ Secondary readings (kept as prose, never merged into the tree): readable as tech
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - [Matter](/view.html?p=notes/nature/matter/matter.md) — the stuff-kind side of the same instantiation, at the scale where these kinds compose into atoms
 - [Property](/view.html?p=notes/nature/property/property.md) — the family the attributes branch is drawn from: mass, charge and spin
-- [Particle](/view.html?p=notes/nature/physical-object/particle.md) — the term as it is used across physics, elementary and composite
-- [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) — the body side of the same instantiation
+- [Particle](/view.html?p=notes/nature/body/particle.md) — the term as it is used across physics, elementary and composite
+- [Physical Object](/view.html?p=notes/nature/body/physical-object.md) — the body side of the same instantiation

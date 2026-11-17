@@ -36,7 +36,7 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## Related
 
-- [Nicotine](/view.html?p=notes/nature/bio/molecular/nicotine.md) — the plant alkaloid that gave the nicotinic receptor its name; it acts where acetylcholine does.
+- [Nicotine](/view.html?p=notes/nature/life/molecular/nicotine.md) — the plant alkaloid that gave the nicotinic receptor its name; it acts where acetylcholine does.
 
 ## References
 

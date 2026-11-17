@@ -18,7 +18,8 @@ and the hub points at it.
   apps were retired (their URLs 302). The lexical corpus (glossarium) and the
   Q/A log are served locally next to the note corpus (`/glossarium/`, `/qa/`),
   which now also carries the natural material (including the human corpus —
-  body, physiology, mind, cognition and behaviour — under `nature/human/`),
+  body, physiology, mind, cognition and behaviour — under
+  `nature/life/organism/human/`),
   social, historical and essay
   material migrated from the Naturgnosis note space.
 - **Corpora** — `src/corpus/notes`, `src/corpus/courses`, `src/corpus/documents`: catalogs + viewers
@@ -558,37 +559,44 @@ instance-decomposition table:
   in notes. The directory is created with the first note (like the other
   sections, the top-level dir is the section); run `make notes-index`
   after any corpus edit.
-- `nature/bio/` is the life family, filed by **ontic kind**, never by field
+- `nature/life/` is the life family, filed by **ontic kind**, never by field
   of study: `organism/` (with `virus/`, `bacteria/`, `protist/`, `fungus/`,
-  `plant/`, `animal/`), `genome/`, `molecular/`, `cell/`, `ecosystem/`,
-  `process/`. `bio.md` is its master and carries the kind table. There is no
+  `plant/`, `animal/`, and `human/`), `genome/`, `molecular/`, `cell/`,
+  `process/`. `life.md` is its master and carries the kind table. There is no
   `genetics/`, `biochemistry/` or `ecology/` dir — those are epistemic
-  disciplines; the corpus files the element (genome, protein, ecosystem) and
-  leaves the discipline reading to `epistemica/`. `nature/human/` holds the
-  human instance of the same family and is not duplicated here. Links use
-  `n=nature/bio/…`.
+  disciplines; the corpus files the element (organism, genome, protein) and
+  leaves the discipline reading to `epistemica/`. Two boundaries are settled
+  and should not drift back: an **ecosystem is not an organism**, so the
+  ecosystem notes live on their own shelf at `nature/ecosystem/`; and the
+  **human is one organism among others**, so the human corpus is
+  `organism/human/` rather than a sibling of the life family. General
+  organism notes (`organism`, `organism-type`, `tissue`, `organ`,
+  `organ-system`) sit at `organism/`, not inside `human/`. Links use
+  `/view.html?p=notes/nature/life/…`.
 - `nature/wave/` is the wave corpus: the wave and oscillation elements off the
-  `nature/` root — the master (`wave`), the phenomena and formal notes
-  (`wave-phenomena`, `wave-propagation`, `wave-equation`, `wave-speed-v`,
-  `wavelength`, `wave-function`, `wave-particle-duality`, `wave-energy`), the
-  specific waves (`radio-wave`, `gravitational-wave` and its detection,
-  `spin-waves-magnons`, `physical-properties-of-sound-waves`) and the
-  oscillation notes (`oscillating-electric-current`,
-  `plasma-or-charge-separation-oscillations`, `square-wave-ac`,
-  `triangular-wave-ac`). Wave *properties* and observations that are not
-  themselves waves (`frequency-periodicity`, `amplitude-a`, `pitch`,
-  `loudness`, `propagation-of-sound`, `interferometry`, light, photons,
-  radiation) stay on the `nature/` root. Links use `n=nature/wave/…`.
-- `nature/human/` is the human corpus: every natural element whose instance
-  is the human being — the body (organs, organ systems, tissues, fluids), the
-  physiology (metabolism, homeostasis, hormones, sleep, immunity), the senses
-  and the mind (perception, attention, memory, emotion, cognition,
-  behaviour), plus the `cognitive/` and `behavioral/` branches with their
-  conceptual-model sets. Notes about human nature that get moved off the
-  `nature/` root land here rather than being duplicated; the branch masters
-  are `human`, `cognitive` and `behavioral`, and a natural note that already
-  exists under `nature/` is never copied in twice. Links use
-  `n=nature/human/…`.
+  `nature/` root — the master (`wave`, which now carries the 65-row instance
+  table of the waves of nature grouped by substrate family), the formal notes
+  (`wave-equation`, `wave-function`, `wave-particle-duality`), the specific
+  waves (`radio-wave`, `gravitational-wave`) and the master of the temporal
+  pattern (`oscillation`). The corpus was consolidated: the placeholder
+  per-wave notes were deleted and their material folded into `wave.md`, so a
+  new wave is a row of that table, not a 41-line stub. Wave *properties* and
+  observations that are not themselves waves (`frequency-periodicity`,
+  `amplitude-a`, `pitch`, `loudness`, `propagation-of-sound`,
+  `interferometry`, light, photons, radiation) stay on the `nature/` root,
+  and `oscillation` is the temporal pattern a wave carries. Links use
+  `/view.html?p=notes/nature/wave/…`.
+- `nature/life/organism/human/` is the human corpus: every natural element
+  whose instance is the human being — the body (organs, organ systems,
+  tissues, fluids), the physiology (metabolism, homeostasis, hormones, sleep,
+  immunity), the senses and the mind (perception, attention, memory, emotion,
+  cognition, behaviour), plus the `cognitive/` and `behavioral/` branches
+  with their conceptual-model sets. It is filed **inside** the organisms
+  because a human is an organism, not a sibling family; the branch masters
+  are `human`, `cognitive` and `behavioral`. Notes about human nature that
+  get moved off the `nature/` root land here rather than being duplicated,
+  and a natural note that already exists under `nature/` is never copied in
+  twice. Links use `/view.html?p=notes/nature/life/organism/human/…`.
 
 ## On Extracting Content from a Document
 
