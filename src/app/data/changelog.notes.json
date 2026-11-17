@@ -8405,7 +8405,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -9825,7 +9827,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -20973,12 +20977,16 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the contents section the scope needs: the nine ideas it now carries — Fourier transform and series, the FFT and the Fourier toolkit, the wavelet, the integral-transform family, convolution as the filter operation, and the Wiener and Savitzky–Golay filters — each with one line on its role in signal processing."
+    "summary": "Add the contents section the scope needs: the nine ideas it now carries — Fourier transform and series, the FFT and the Fourier toolkit, the wavelet, the integral-transform family, convolution as the filter operation, and the Wiener and Savitzky–Golay filters — each with one line on its role in signal processing.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    },
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -22856,7 +22864,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -109739,7 +109749,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -109766,7 +109778,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -109788,7 +109802,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -109847,7 +109863,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -112580,7 +112598,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120873,7 +120893,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053",
+    "before": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120928,7 +120950,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mapping/convolution-operator.md: the operation behind every linear filter."
+    "summary": "Move from epistemica/mathematical/mapping/convolution-operator.md: the operation behind every linear filter.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120938,7 +120961,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/singular/fast-fourier-transform-fft.md: the algorithm that made spectral processing practical."
+    "summary": "Move from epistemica/singular/fast-fourier-transform-fft.md: the algorithm that made spectral processing practical.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120948,7 +120972,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/singular/fourier-decomposition-toolkit.md: the working collection of Fourier tools."
+    "summary": "Move from epistemica/singular/fourier-decomposition-toolkit.md: the working collection of Fourier tools.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120958,7 +120983,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mapping/fourier-series.md: the periodic transform that reads a signal as its harmonics."
+    "summary": "Move from epistemica/mathematical/mapping/fourier-series.md: the periodic transform that reads a signal as its harmonics.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120968,7 +120994,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/singular/fourier-transform.md: the map from signal to spectrum."
+    "summary": "Move from epistemica/singular/fourier-transform.md: the map from signal to spectrum.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120978,7 +121005,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mapping/integral-transform.md: the transform family the Fourier, Laplace and Hankel transforms belong to, used to move a signal between domains."
+    "summary": "Move from epistemica/mathematical/mapping/integral-transform.md: the transform family the Fourier, Laplace and Hankel transforms belong to, used to move a signal between domains.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120988,7 +121016,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/observational/filter/savitzkygolay-sg-filter.md: local polynomial smoothing that keeps the shape of peaks."
+    "summary": "Move from epistemica/observational/filter/savitzkygolay-sg-filter.md: local polynomial smoothing that keeps the shape of peaks.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -120998,7 +121027,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mapping/wavelet.md: a basis built for localisation in time and frequency — a signal-processing idea, not a general mapping."
+    "summary": "Move from epistemica/mathematical/mapping/wavelet.md: a basis built for localisation in time and frequency — a signal-processing idea, not a general mapping.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  },
@@ -121008,7 +121038,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/observational/filter/wiener-filter.md: the optimal linear filter for a known signal and noise spectrum."
+    "summary": "Move from epistemica/observational/filter/wiener-filter.md: the optimal linear filter for a known signal and noise spectrum.",
+    "commit": "e03a1a05a50addd84e409596654e448965ad4053"
    }
   ]
  }
