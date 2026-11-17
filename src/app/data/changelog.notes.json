@@ -122449,6 +122449,11 @@
     "kind": "create",
     "summary": "New note on the wireless communication system as a technical element: the full chain from source to sink, plus the two coordination layers a cable does not need — duplexing and medium access — on the argument that the system is defined by the absence of a guided medium, and that every decision in it answers that absence. Architecture table with the wireless-specific problem at each stage, then transmission (electromagnetic waves, modulation, and the three physical resources plus Shannon's limit). The historical developments table is the note's centre and now carries the patents: Marconi UK 12039 of 1896 as the first radio patent, Tesla 1900, de Forest's audion 1907, the transistor patents of 1950, Kilby and Noyce on the integrated circuit in 1959, Cooper's radio telephone system patent of 1975. The table is read in three waves — physics and patent, then components, then systems — with the observation that each wave was financed by a claim to exclusivity and that the priority disputes are as much part of the history as the circuits. A generations table (1G to 5G by multiple access) and a relation table close it.",
     "commit": "fde0264e9dc4294af9e81ee3090440277a917d15"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "History: the claims that lost added, with their patents. Drawbaugh (application 1880, Telephone Cases 1888) as the claimant whose conception was held not to be reduction to practice; Landell de Moura with Brazilian patent 3,279 and the three U.S. patents of 1904 (771,917 Wave Transmitter, 775,337 Wireless Telephone, 775,846 Wireless Telegraph, on applications filed 1901-02, after public demonstrations in 1899-1900); and Armstrong and Orling with the British patents of 1899, 1900 and 1903 and the U.S. Aerophone patent 744,001, whose claim was conduction through earth and water rather than radiation. A new passage states what the four rows have in common — the filter is not physics but reduction to practice, disclosure in the form the office recognises, the fee that keeps a claim alive, and the capital behind it — and links the Meucci persona as the same filter seen from the wire side."
    }
   ]
  }
