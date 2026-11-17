@@ -60891,7 +60891,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA: a sixteen-row table of leadership selection models — who selects the top leader, by what mechanism, in which organization form — placed after the comparative question on autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms, because it is the same subject seen from the appointment side. The table is the mapping rather than the method: what each model concedes about where a form's autonomy really sits (a statutory agency whose head the minister appoints is autonomous in its operations and not in its tenure). The Board placeholder is rewritten accordingly — Board keeps how an appointment should be run, this note keeps which model a form uses."
+    "summary": "QA: a sixteen-row table of leadership selection models — who selects the top leader, by what mechanism, in which organization form — placed after the comparative question on autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms, because it is the same subject seen from the appointment side. The table is the mapping rather than the method: what each model concedes about where a form's autonomy really sits (a statutory agency whose head the minister appoints is autonomous in its operations and not in its tenure). The Board placeholder is rewritten accordingly — Board keeps how an appointment should be run, this note keeps which model a form uses.",
+    "commit": "8d84dcea1e83b1416bf3d24030450690619787fc",
+    "before": "b74b411f62998bc2632fe14a6ef1baacf264f598"
    }
   ]
  },
