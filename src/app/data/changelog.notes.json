@@ -12204,6 +12204,11 @@
     "summary": "Retarget the links into the shelves the notes moved to.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e",
     "before": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -31146,6 +31151,11 @@
     "summary": "Write the note: the transport equation for the distribution function with its collision integral, the molecular-chaos closure, the H-theorem and the Maxwell–Boltzmann fixed point, the Chapman–Enskog hydrodynamic limit and the transport coefficients it predicts; decomposed to its parts, standards, checks and constraints, with the Loschmidt and Zermelo objections kept as constraints rather than resolved away, and typed as an epistemic construction of kind Model under the conceptuum evaluation.",
     "commit": "c817fe9cc97feda9d0e955e2d2fedad9c3171774",
     "before": "c817fe9cc97feda9d0e955e2d2fedad9c3171774"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -33116,6 +33126,11 @@
     "summary": "Retarget the links into the shelves the notes moved to.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e",
     "before": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -33752,6 +33767,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the 41-line template stub at the nature root; the written epistemic note is epistemica/singular/density-functional-theory-dft.md and every link points there."
    }
   ]
  },
@@ -42839,6 +42859,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the 41-line template stub at the nature root; the written epistemic note is epistemica/singular/kinetic-theory.md and every link points there."
    }
   ]
  },
@@ -42966,6 +42991,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the 41-line template stub at the nature root; the written epistemic note is epistemica/singular/lattice-boltzmann-method-lbm.md and every link points there."
    }
   ]
  },
@@ -44243,6 +44273,11 @@
     "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/.",
     "commit": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402",
     "before": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -51042,6 +51077,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the 41-line template stub at the nature root; the written epistemic note is epistemica/singular/statistical-mechanics.md and every link points there."
    }
   ]
  },
@@ -113279,6 +113319,11 @@
     "summary": "Rewrite the note cross-links as absolute viewer URLs: a relative .md target resolves against /view.html and reaches a 404, so every link now names notes/<path>.md explicitly.",
     "commit": "42196317886be47f716cda3a3e763f9f8e1420c4",
     "before": "3e1eaa93d0fece653f27b88885334058edfab733"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -115431,6 +115476,11 @@
     "kind": "move",
     "summary": "Move from nature/proton.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  },
@@ -115675,6 +115725,1516 @@
     "summary": "Retarget the links into the shelves the notes moved to.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e",
     "before": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/alphafold-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/alphafold-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/anfinsens-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/anfinsens-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/avogadro-s-law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/avogadro-s-law.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/bayesian-inference-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/bayesian-inference-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/bayesian-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/bayesian-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/biophysical-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/biophysical-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/bohr-model-1913.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/bohr-model-1913.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/bonding-theories.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/bonding-theories.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/causal-inference.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/causal-inference.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/character-based-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/character-based-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/chemical-formula.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/chemical-formula.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/chemical-kinetics-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/chemical-kinetics-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/chemical-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/chemical-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/chemotaxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/chemotaxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/chromosomal-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/chromosomal-theory.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/cladistic-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/cladistic-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/clarifying-bells-theorem.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/clarifying-bells-theorem.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/classical-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/classical-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/classical-theories.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/classical-theories.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/coalescent-based-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/coalescent-based-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/complex-phasor-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/complex-phasor-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/computational-framework.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/computational-framework.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/computational-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/computational-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/computational-simulation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/computational-simulation.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/constitutive-equation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/constitutive-equation.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/constitutive-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/constitutive-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/cooperative-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/cooperative-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/coupled-cluster-cc-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/coupled-cluster-cc-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/differential-equation-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/differential-equation-frameworks.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/dirac-equation-for-the-hydrogen-atom.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/dirac-equation-for-the-hydrogen-atom.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/dirac-equation-relativistic.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/dirac-equation-relativistic.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/direct-simulation-monte-carlo-dsmc.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/direct-simulation-monte-carlo-dsmc.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/distance-based-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/distance-based-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/earth-orbit-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/earth-orbit-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/ecotype-taxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/ecotype-taxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/effective-field-theories-nrqed.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/effective-field-theories-nrqed.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/empirical-correlation-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/empirical-correlation-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/equilibrium-law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/equilibrium-law.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/essential-laws-underlying-chemical-reactions.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/essential-laws-underlying-chemical-reactions.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/evaluating-a-classification-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/evaluating-a-classification-system.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/fitzhugh-nagumo-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/fitzhugh-nagumo-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/fluid-dynamics-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/fluid-dynamics-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/flux-balance-analysis-fba.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/flux-balance-analysis-fba.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/formal-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/formal-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/formalism.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/formalism.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/fourier-analysis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/fourier-analysis.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/fourier-spectral-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/fourier-spectral-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/graph-theoretic-property.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/graph-theoretic-property.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hartree-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hartree-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hartreefock-hf-method.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hartreefock-hf-method.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hinge-bending-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hinge-bending-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hodgkin-huxley-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hodgkin-huxley-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/homology-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/homology-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hydrogenic-atom-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hydrogenic-atom-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hypothesis-on-the-origin-of-life.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hypothesis-on-the-origin-of-life.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/hypothesis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/hypothesis.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/ideal-gas-law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/ideal-gas-law.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/induced-fit-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/induced-fit-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/information-theoretic-thermodynamics.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/information-theoretic-thermodynamics.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/information-theory-computation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/information-theory-computation.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/information-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/information-theory.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/integrate-and-fire-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/integrate-and-fire-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/integrate-theories.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/integrate-theories.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/interpretation-and-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/interpretation-and-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/izhikevich-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/izhikevich-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/kinetic-theory-of-gases.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/kinetic-theory-of-gases.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/lattice-dynamics-and-phonon-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/lattice-dynamics-and-phonon-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/law.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/leaky-integrate-and-fire-lif-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/leaky-integrate-and-fire-lif-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/level-of-analysis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/level-of-analysis.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/likelihood-based-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/likelihood-based-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/linnaean-taxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/linnaean-taxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/list-of-theories.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/list-of-theories.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/lock-and-key-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/lock-and-key-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mathematical-model-near-earth-s-surface.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mathematical-model-near-earth-s-surface.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mathematical-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mathematical-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mathematical-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mathematical-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mcculloch-pitts-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mcculloch-pitts-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mechanisms-underlying-power-law-patterns.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mechanisms-underlying-power-law-patterns.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/mllerplesset-perturbation-theory-mpn.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/mllerplesset-perturbation-theory-mpn.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/model-limits.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/model-limits.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/model-name.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/model-name.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/modeling-approaches.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/modeling-approaches.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/modeling-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/modeling-frameworks.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/modeling-simulation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/modeling-simulation.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/modelling-tools.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/modelling-tools.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/modulation-signal-encoding-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/modulation-signal-encoding-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/numerical-algorithms.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/numerical-algorithms.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/numerical-methods-fdtd-fem-method-of-moments.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/numerical-methods-fdtd-fem-method-of-moments.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/numerical-taxonomy-phenetics.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/numerical-taxonomy-phenetics.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/one-dimensional-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/one-dimensional-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/paleotaxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/paleotaxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/phase-field-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/phase-field-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/phenomenological-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/phenomenological-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/physics-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/physics-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/power-law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/power-law.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/anthropic-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/anthropic-principle.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/conservation-laws.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/conservation-laws.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/equivalence-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/equivalence-principle.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/galilean-relativity-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/galilean-relativity-principle.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/heisenberg-uncertainty-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/heisenberg-uncertainty-principle.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/pauli-exclusion-principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/pauli-exclusion-principle.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/principle-of-ph-measurement.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/principle-of-ph-measurement.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/principle-of-relativity.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/principle-of-relativity.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/principle/principle-of-superposition.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/principle-of-superposition.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/quantum-formalism-photon-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/quantum-formalism-photon-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/quantum-mechanics-based-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/quantum-mechanics-based-frameworks.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/quantum-statistical-mechanics.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/quantum-statistical-mechanics.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/reaction-modelling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/reaction-modelling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/reaction-rate-laws.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/reaction-rate-laws.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/representation-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/representation-frameworks.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/representation-type.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/representation-type.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/representational-ontology.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/representational-ontology.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/rutherford-model-1911.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/rutherford-model-1911.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/schrodinger-equation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/schrodinger-equation.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/semiclassical-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/semiclassical-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/signal-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/signal-representation.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/simplified-combustion-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/simplified-combustion-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/simulation-tools.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/simulation-tools.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/skeletal-formula.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/skeletal-formula.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/soil-classification-systems.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/soil-classification-systems.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/specific-formulation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/specific-formulation.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/spectral-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/spectral-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/statistical-methods.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/statistical-methods.md: a method is a construction of the inquiry about nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/statistical-tools.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/statistical-tools.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/stochastic-noise-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/stochastic-noise-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/structural-ensemble-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/structural-ensemble-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/structural-formula.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/structural-formula.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/system-taxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/system-taxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/systems-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/systems-theory.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/taxonomic-rank.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/taxonomic-rank.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/taxonomy.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/taxonomy.md: a classification scheme is a construction about natural targets."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/theoretical-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/theoretical-frameworks.md: a theory is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/theoretical-modelling-school-s.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/theoretical-modelling-school-s.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/thermal-statistical-effects.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/thermal-statistical-effects.md: the note is a construction about nature — a product of inquiry — not a natural element."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/thermodynamic-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/thermodynamic-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/threading-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/threading-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/time-frequency-analysis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/time-frequency-analysis.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/tool-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/tool-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/topological-and-modern-quantum-frameworks.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/topological-and-modern-quantum-frameworks.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/transport-equations.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/transport-equations.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/turbulence-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/turbulence-modeling.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/uncertainty-quantification-in-transport-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/uncertainty-quantification-in-transport-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/value-representations.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/value-representations.md: a formal representation of nature is a construction, not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/van-der-waals-equation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/van-der-waals-equation.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/vii-by-theoretical-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/vii-by-theoretical-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/virial-equation-of-state.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/virial-equation-of-state.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/wilson-cowan-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/wilson-cowan-model.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/construction/zero-dimensional-models.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/zero-dimensional-models.md: a model is a construction about a natural target, not the target itself."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/time-dilation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into nature/construction/, where the constructions now live."
    }
   ]
  }
