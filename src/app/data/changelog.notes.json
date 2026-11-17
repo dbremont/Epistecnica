@@ -57188,7 +57188,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Reference the Human Formation Facet — the dimension this actor carries — beside the University kind."
+    "summary": "Reference the Human Formation Facet — the dimension this actor carries — beside the University kind.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
+    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -60146,7 +60148,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Add the Educational facet to the authoritative catalog, linking the per-facet note that grounds it; the catalog listed fifteen facets and no row named formation."
+    "summary": "Add the Educational facet to the authoritative catalog, linking the per-facet note that grounds it; the catalog listed fifteen facets and no row named formation.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
+    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110430,7 +110434,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Human Formation Facet reference to its new home in social/facet/, and name it for the mechanism the three ecosystems divide rather than for a technical pairing."
+    "summary": "Retarget the Human Formation Facet reference to its new home in social/facet/, and name it for the mechanism the three ecosystems divide rather than for a technical pairing.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
+    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110440,7 +110446,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/antwerp-industrial-school.md: it is an industrial school: a warranted body transmitting certified technical knowledge, which is an education actor and not a technica operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/antwerp-industrial-school.md: it is an industrial school: a warranted body transmitting certified technical knowledge, which is an education actor and not a technica operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110450,7 +110457,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/servico-nacional-de-aprendizagem-industrial.md: SENAI is a training body — an education actor — and its industrial clients are the content, not the mechanism. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/servico-nacional-de-aprendizagem-industrial.md: SENAI is a training body — an education actor — and its industrial clients are the content, not the mechanism. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110460,7 +110468,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/sebrae.md: Sebrae is the sibling formation service to SENAI, training and advising micro and small enterprises: an education actor. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/sebrae.md: Sebrae is the sibling formation service to SENAI, training and advising micro and small enterprises: an education actor. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110470,7 +110479,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/copenhagen-business-school.md: it is a business school: an education actor, whatever the subject its graduates practice. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/copenhagen-business-school.md: it is a business school: an education actor, whatever the subject its graduates practice. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110480,7 +110490,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/centro-superior-de-hosteleria-de-galicia.md: it is a hospitality school: an education actor by mechanism, hospitality being content. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/centro-superior-de-hosteleria-de-galicia.md: it is a hospitality school: an education actor by mechanism, hospitality being content. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110490,7 +110501,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/ecole-centrale-des-arts-et-manufactures.md: it is an engineering school — the French technical-education model — and schools are education actors. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/ecole-centrale-des-arts-et-manufactures.md: it is an engineering school — the French technical-education model — and schools are education actors. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110500,7 +110512,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/king-abdullah-university-of-science-and-technology.md: it is a university: a chartered education actor, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/king-abdullah-university-of-science-and-technology.md: it is a university: a chartered education actor, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110510,7 +110523,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/nanyang-technological-university.md: it is a university: a chartered education actor, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/nanyang-technological-university.md: it is a university: a chartered education actor, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110520,7 +110534,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/karolinska-institute.md: it is a medical university: an education actor whose research sits in the Scientific facet. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/karolinska-institute.md: it is a medical university: an education actor whose research sits in the Scientific facet. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110530,7 +110545,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/fab-academy.md: it is a distributed school — a curriculum and a certification — so an education actor, not a workshop. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/fab-academy.md: it is a distributed school — a curriculum and a certification — so an education actor, not a workshop. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110540,7 +110556,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/harvard-university-medical-school.md: it is a medical school: an education actor. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/harvard-university-medical-school.md: it is a medical school: an education actor. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110550,7 +110567,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/mayo-clinic-alix-school-of-medicine.md: it is a medical school: an education actor inside a clinic, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/mayo-clinic-alix-school-of-medicine.md: it is a medical school: an education actor inside a clinic, not a technical operation. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110560,7 +110578,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/mit/mit.md: it is a university: a chartered education actor; the flat note replaces the single-file directory. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/mit/mit.md: it is a university: a chartered education actor; the flat note replaces the single-file directory. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110570,7 +110589,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/academia-de-atenas.md: the Academy of Athens is a national learned society — a scientific collective producing and certifying knowledge — so a research actor, not a school. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/academia-de-atenas.md: the Academy of Athens is a national learned society — a scientific collective producing and certifying knowledge — so a research actor, not a school. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110580,7 +110600,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/st-jude-children-s-research-hospital.md: St. Jude is a research hospital: its mechanism is knowledge production and treatment, so a research actor; its graduate school is the formation side. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf."
+    "summary": "Move from technica/general/op/formation/st-jude-children-s-research-hospital.md: St. Jude is a research hospital: its mechanism is knowledge production and treatment, so a research actor; its graduate school is the formation side. Tags retyped from `formation` to `education`/`research` and given the country tag of its shelf.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  },
@@ -110590,12 +110611,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/general/op/formation/human-formation-facet.md: the note is a facet of social reality, not a technica operation."
+    "summary": "Move from technica/general/op/formation/human-formation-facet.md: the note is a facet of social reality, not a technica operation.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec"
    },
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Write the facet out of the five-line stub: the mechanism (formation of persons, not the subject taught), the three cuts that separate it from the education actor, the stage of life and the research facet that warrants what it teaches, and where its elements live in the corpus."
+    "summary": "Write the facet out of the five-line stub: the mechanism (formation of persons, not the subject taught), the three cuts that separate it from the education actor, the stage of life and the research facet that warrants what it teaches, and where its elements live in the corpus.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
+    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
    }
   ]
  }
