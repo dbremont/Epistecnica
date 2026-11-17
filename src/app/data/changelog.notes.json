@@ -119192,6 +119192,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/bayesian-inference-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119247,6 +119252,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/causal-inference.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119258,6 +119268,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/character-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119324,6 +119339,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/cladistic-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119357,6 +119377,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/coalescent-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119368,6 +119393,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/complex-phasor-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119379,6 +119409,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/computational-framework.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119445,6 +119480,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/coupled-cluster-cc-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119478,6 +119518,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/direct-simulation-monte-carlo-dsmc.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119489,6 +119534,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/distance-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119566,6 +119616,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/evaluating-a-classification-system.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119599,6 +119654,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/formal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119610,6 +119670,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/formalism.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119676,6 +119741,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/homology-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119709,6 +119779,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/hypothesis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119775,6 +119850,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/integrate-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119786,6 +119866,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/interpretation-and-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119841,6 +119926,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/likelihood-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119863,6 +119953,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/list-of-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119896,6 +119991,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/mathematical-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119929,6 +120029,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/mllerplesset-perturbation-theory-mpn.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -119940,6 +120045,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/model-limits.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119951,6 +120061,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -119973,6 +120088,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/numerical-methods-fdtd-fem-method-of-moments.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -120083,6 +120203,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/principle/principle-of-ph-measurement.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a measurement procedure, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120127,6 +120252,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/quantum-formalism-photon-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120149,6 +120279,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/reaction-modelling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -120171,6 +120306,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/representation-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120182,6 +120322,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/representation-type.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120215,6 +120360,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/signal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120237,6 +120387,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/skeletal-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120259,6 +120414,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/specific-formulation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120292,6 +120452,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/structural-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120347,6 +120512,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/theoretical-modelling-school-s.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it is a meta note about modelling or theorising, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120391,6 +120561,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/time-frequency-analysis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -120402,6 +120577,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/tool-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120424,6 +120604,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/turbulence-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -120435,6 +120620,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/uncertainty-quantification-in-transport-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a method — a procedure of the inquiry — not a result about nature. No note linked it."
    }
   ]
  },
@@ -120446,6 +120636,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/value-representations.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
@@ -120468,6 +120663,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/vii-by-theoretical-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub; it names a representation or a notational form, not a result about nature. No note linked it."
    }
   ]
  },
