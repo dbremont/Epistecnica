@@ -121845,5 +121845,15 @@
     "commit": "714e6e6cc7ba00d1b1d1a72610b740446f450826"
    }
   ]
+ },
+ {
+  "file_path": "social/collective/actor/private/research/hkg/hong-kong-microelectronics-research-and-development-institute.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New actor note: the Hong Kong Microelectronics Research and Development Institute, established 2024 on a HK$2,838.4 million commitment under the Innovation and Technology Fund (LegCo Finance Committee, 17 May 2024, FCR(2024-25)6), announced in the 2023 Policy Address and reaffirmed in the 2026 Policy Address and the first Five-Year Plan as one of five key R&D institutions. The note is written as a real note rather than an Observatorio stub. Its content is the mandate in the institute's own terms — third-generation semiconductor core technologies, the \"1 to N\" translation stage, and convening universities, research centres and industry — with the reading that the funding instrument reveals the diagnosis: a single lump-sum commitment buys an institution that is held rather than rented, which is what a state does when it decides a capability must persist. Filed on the research-institute shelf beside MERICS, the Swiss Finance Institute, NINT and KARI, under a new hkg/ country directory."
+   }
+  ]
  }
 ]
