@@ -8393,13 +8393,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/eulermascheroni-constant.md",
+  "file_path": "epistemica/mathematical/number/eulermascheroni-constant.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Euler–Mascheroni Constant from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/eulermascheroni-constant.md: a constant of arithmetic and analysis, filed with the other numbers and constants."
    }
   ]
  },
@@ -9007,13 +9012,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/laplacian-matrix.md",
+  "file_path": "epistemica/mathematical/discrete/laplacian-matrix.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Laplacian Matrix from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/laplacian-matrix.md: a graph-theoretic matrix: the Laplacian of a discrete structure, filed with graph and the combinatorial objects."
    }
   ]
  },
@@ -14589,24 +14599,34 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/tuple.md",
+  "file_path": "epistemica/mathematical/discrete/tuple.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Tuple from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/tuple.md: a finite ordered collection, a combinatorial object rather than a branch of its own."
    }
   ]
  },
  {
-  "file_path": "epistemica/mathematical/ultrafilter.md",
+  "file_path": "epistemica/mathematical/topology/ultrafilter.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Ultrafilter from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/ultrafilter.md: a set-theoretic object whose work is done in topology and logic, filed beside the topology that uses it."
    }
   ]
  },
@@ -14639,13 +14659,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/vitali-set.md",
+  "file_path": "epistemica/mathematical/measure/vitali-set.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Vitali Set from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/vitali-set.md: the canonical non-measurable set: its content is the failure of measurability, so it belongs with measure."
    }
   ]
  },
