@@ -1,256 +1,262 @@
 {
-  "links": [
-    {
-      "from": "epistemica/mathematical/cossical/",
-      "to": "epistemica/mathematical/mapping/root.md",
-      "label": "Root",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/",
-      "to": "epistemica/epistemic/guidance/",
-      "label": "Guidance",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "epistemica/",
-      "to": "epistemica/epistemic/discipline/",
-      "label": "Discipline",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "technica/cybernetics/",
-      "to": "epistemica/observational/",
-      "label": "Observational",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/structure/mathematical-structure.md",
-      "label": "Mathematical Structure",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/mathematical-object.md",
-      "label": "Mathematical Object",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/geometry/geometry.md",
-      "label": "Geometry",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/topology/topology.md",
-      "label": "Topology",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/relation/order.md",
-      "label": "Order",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/measure/measure.md",
-      "label": "Measure",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/structure/algebra/algebra.md",
-      "label": "Algebra",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/topology/manifold.md",
-      "label": "Manifold",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/geometry/coordinate-system.md",
-      "label": "Coordinate System",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/vector.md",
-      "label": "Vector",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/structure/linear/linear-algebra.md",
-      "label": "Linear Algebra",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/mathematical/mapping/operator.md",
-      "label": "Operator",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/phase-space.md",
-      "label": "Phase Space",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/configuration-space.md",
-      "label": "Configuration Space",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/state-space-model.md",
-      "label": "State-Space Models",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/reference-frame.md",
-      "label": "Reference Frame",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/quantum-framework.md",
-      "label": "Quantum Framework",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/mathematical/space/",
-      "to": "epistemica/singular/quantum-field-theory-qft.md",
-      "label": "Quantum Field Theory",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/observational/computational/",
-      "to": "technica/cybernetics/architecture/transformer/transformer.md",
-      "label": "Transformer",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/observational/computational/",
-      "to": "technica/cybernetics/",
-      "label": "Active Inference System",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/epistemic/",
-      "to": "epistemica/epistemic/nature/",
-      "label": "Metaphysics of Nature",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/collective/actor/",
-      "to": "social/action/",
-      "label": "Action",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/collective/actor/public/",
-      "to": "social/action/public/",
-      "label": "Action",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/action/public/informe/",
-      "to": "social/action/guidance/",
-      "label": "Guidance",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/collective/actor/public/",
-      "to": "social/collective/",
-      "label": "Collective",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "social/collective/actor/public/atlas/",
-      "to": "social/collective/actor/public/public-organization.md",
-      "label": "public organization",
-      "kind": "atlas"
-    },
-    {
-      "from": "social/collective/actor/public/atlas/",
-      "to": "social/collective/actor/public/gov-wide-administration.md",
-      "label": "government-wide administration",
-      "kind": "atlas"
-    },
-    {
-      "from": "social/collective/actor/public/informe/",
-      "to": "social/action/public/informe/",
-      "label": "Public Action Informe",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "nature/result/",
-      "to": "epistemica/",
-      "label": "Results",
-      "kind": "hierarchy"
-    },
-    {
-      "from": "nature/life/organism/human/cognitive/conceptual-model-cognition/",
-      "to": "nature/life/organism/human/cognitive/meaning.md",
-      "label": "Meaning",
-      "kind": "related"
-    },
-    {
-      "from": "social/good/",
-      "to": "technica/",
-      "label": "Technical Objects",
-      "kind": "related"
-    },
-    {
-      "from": "social/good/",
-      "to": "production/",
-      "label": "Production",
-      "kind": "related"
-    },
-    {
-      "from": "technica/",
-      "to": "social/good/",
-      "label": "Goods",
-      "kind": "related"
-    },
-    {
-      "from": "production/catalog/",
-      "to": "social/good/",
-      "label": "Goods",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/quantification/",
-      "to": "epistemica/mathematical/norm/",
-      "label": "Norm",
-      "kind": "related"
-    },
-    {
-      "from": "epistemica/quantification/",
-      "to": "epistemica/mathematical/metric/",
-      "label": "Metric",
-      "kind": "related"
-    },
-    {
-      "from": "social/collective/actor/public/polity/chn/",
-      "to": "social/collective/actor/scholar-official.md",
-      "label": "Scholar-Official",
-      "kind": "related"
-    },
-    {
-      "from": "nature/",
-      "to": "epistemica/epistemic/nature/",
-      "label": "Metaphysics of Nature",
-      "kind": "hierarchy"
-    }
-  ]
+ "links": [
+  {
+   "from": "epistemica/mathematical/cossical/",
+   "to": "epistemica/mathematical/mapping/root.md",
+   "label": "Root",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/",
+   "to": "epistemica/epistemic/guidance/",
+   "label": "Guidance",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "epistemica/",
+   "to": "epistemica/epistemic/discipline/",
+   "label": "Discipline",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "technica/cybernetics/",
+   "to": "epistemica/observational/",
+   "label": "Observational",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/structure/mathematical-structure.md",
+   "label": "Mathematical Structure",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/mathematical-object.md",
+   "label": "Mathematical Object",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/geometry/geometry.md",
+   "label": "Geometry",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/topology/topology.md",
+   "label": "Topology",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/relation/order.md",
+   "label": "Order",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/measure/measure.md",
+   "label": "Measure",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/structure/algebra/algebra.md",
+   "label": "Algebra",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/topology/manifold.md",
+   "label": "Manifold",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/geometry/coordinate-system.md",
+   "label": "Coordinate System",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/vector.md",
+   "label": "Vector",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/structure/linear/linear-algebra.md",
+   "label": "Linear Algebra",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/mathematical/mapping/operator.md",
+   "label": "Operator",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/phase-space.md",
+   "label": "Phase Space",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/configuration-space.md",
+   "label": "Configuration Space",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/state-space-model.md",
+   "label": "State-Space Models",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/reference-frame.md",
+   "label": "Reference Frame",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/quantum-framework.md",
+   "label": "Quantum Framework",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/mathematical/space/",
+   "to": "epistemica/singular/quantum-field-theory-qft.md",
+   "label": "Quantum Field Theory",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/observational/computational/",
+   "to": "technica/cybernetics/architecture/transformer/transformer.md",
+   "label": "Transformer",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/observational/computational/",
+   "to": "technica/cybernetics/",
+   "label": "Active Inference System",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/epistemic/",
+   "to": "epistemica/epistemic/nature/",
+   "label": "Metaphysics of Nature",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/collective/actor/",
+   "to": "social/action/",
+   "label": "Action",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/collective/actor/public/",
+   "to": "social/action/public/",
+   "label": "Action",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/action/public/informe/",
+   "to": "social/action/guidance/",
+   "label": "Guidance",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/collective/actor/public/",
+   "to": "social/collective/",
+   "label": "Collective",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/collective/actor/public/atlas/",
+   "to": "social/collective/actor/public/public-organization.md",
+   "label": "public organization",
+   "kind": "atlas"
+  },
+  {
+   "from": "social/collective/actor/public/atlas/",
+   "to": "social/collective/actor/public/gov-wide-administration.md",
+   "label": "government-wide administration",
+   "kind": "atlas"
+  },
+  {
+   "from": "social/collective/actor/public/informe/",
+   "to": "social/action/public/informe/",
+   "label": "Public Action Informe",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "nature/result/",
+   "to": "epistemica/",
+   "label": "Results",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "nature/life/organism/human/cognitive/conceptual-model-cognition/",
+   "to": "nature/life/organism/human/cognitive/meaning.md",
+   "label": "Meaning",
+   "kind": "related"
+  },
+  {
+   "from": "social/good/",
+   "to": "technica/",
+   "label": "Technical Objects",
+   "kind": "related"
+  },
+  {
+   "from": "social/good/",
+   "to": "production/",
+   "label": "Production",
+   "kind": "related"
+  },
+  {
+   "from": "technica/",
+   "to": "social/good/",
+   "label": "Goods",
+   "kind": "related"
+  },
+  {
+   "from": "production/catalog/",
+   "to": "social/good/",
+   "label": "Goods",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/quantification/",
+   "to": "epistemica/mathematical/norm/",
+   "label": "Norm",
+   "kind": "related"
+  },
+  {
+   "from": "epistemica/quantification/",
+   "to": "epistemica/mathematical/metric/",
+   "label": "Metric",
+   "kind": "related"
+  },
+  {
+   "from": "social/collective/actor/public/polity/chn/",
+   "to": "social/collective/actor/scholar-official.md",
+   "label": "Scholar-Official",
+   "kind": "related"
+  },
+  {
+   "from": "nature/",
+   "to": "epistemica/epistemic/nature/",
+   "label": "Metaphysics of Nature",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "epistemica/mathematical/cossical/",
+   "to": "epistemica/mathematical/structure/algebra/polynomial-ring.md",
+   "label": "Polynomial Ring",
+   "kind": "related"
+  }
+ ]
 }
