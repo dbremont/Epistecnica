@@ -32132,7 +32132,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the kinetic-theory link to the written epistemic note, now that the construction stub is gone."
+    "summary": "Retarget the kinetic-theory link to the written epistemic note, now that the construction stub is gone.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5",
+    "before": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117325,7 +117327,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observational/computational/bayesian-network.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observational/computational/bayesian-network.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117484,7 +117487,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/classical-models.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/classical-models.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117533,7 +117537,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117549,7 +117554,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117763,7 +117769,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/flux-balance-analysis.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/flux-balance-analysis.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117801,7 +117808,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -117817,7 +117825,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118031,7 +118040,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/kinetic-theory.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/kinetic-theory.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118080,7 +118090,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/level-of-organization.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/level-of-organization.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118151,7 +118162,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118222,7 +118234,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118238,7 +118251,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118254,7 +118268,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118270,7 +118285,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118286,7 +118302,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/theory/modelling.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/theory/modelling.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118324,7 +118341,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/mathematical/method/method.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/mathematical/method/method.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118384,7 +118402,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/phase-field-method.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/phase-field-method.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118411,7 +118430,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118449,7 +118469,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/guidance/principle/conservation-law.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/guidance/principle/conservation-law.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118564,7 +118585,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/statistical-mechanics.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/statistical-mechanics.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118624,7 +118646,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/ontology.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/ontology.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118640,7 +118663,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/experiment/rutherford-scattering-experiments.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/experiment/rutherford-scattering-experiments.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118700,7 +118724,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118749,7 +118774,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/spectral-method-toolbox.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/spectral-method-toolbox.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118765,7 +118791,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/validation/statistical-hypothesis-testing.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/validation/statistical-hypothesis-testing.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118781,7 +118808,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/statistical-methods.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/statistical-methods.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118874,7 +118902,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
@@ -118967,7 +118996,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/navierstokes-equations.md; the corpus keeps the note that has content."
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/navierstokes-equations.md; the corpus keeps the note that has content.",
+    "commit": "6e3c57c0a7bb09d0d66777c62d99d7acd2516ec5"
    }
   ]
  },
