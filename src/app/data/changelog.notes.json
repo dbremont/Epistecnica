@@ -120833,5 +120833,38 @@
     "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
+ },
+ {
+  "file_path": "epistemica/singular/hartree-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/result/hartree-model.md: the Hartree model is an approximation procedure — an iterative self-consistent field — not a result about nature, and it belongs beside the Hartree–Fock method that refines it.",
+    "commit": "4f80310d68f134fadc1dbe3d7c26153e3487044c"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/chemical/chemical-formula.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/result/chemical-formula.md: a formula is how a chemical substance is written down, not a result about nature; it sits with the chemical substances it denotes.",
+    "commit": "4f80310d68f134fadc1dbe3d7c26153e3487044c"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/chemical/chemical-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/result/chemical-representation.md: the note is a representational system for substances, not a result about nature; it sits with the chemical substances it represents.",
+    "commit": "4f80310d68f134fadc1dbe3d7c26153e3487044c"
+   }
+  ]
  }
 ]
