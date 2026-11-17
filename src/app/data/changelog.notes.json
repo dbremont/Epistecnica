@@ -122291,5 +122291,15 @@
     "before": "74d0f5e2186522cacd622d2c096eec635cb657b7"
    }
   ]
+ },
+ {
+  "file_path": "social/action/activity/economic/logistics/logistics-hub.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note and a new logistics/ directory on the economic-activity shelf, beside trade/, production/ and interaction/: logistics is the activity family, and a hub is the node it is organised around. The note asks its own question in the front matter and answers it in the body — the economic function of a logistics hub, in five functions (consolidation and break-bulk, time and place utility, modal transshipment, value-added services, information and institutions), with the point made that a hub with only the first is a terminal rather than a hub. The role is then stated plainly: a hub does not merely move goods, it lowers the cost of distance and so rewrites the effective map of a region, which is why governments build them and why returns are so uneven. Typology table over seaport, airport, rail terminal, dry port, distribution centre and free zone, each with what it trades away; the three mechanisms connecting node to economy (agglomeration, gateway effects, routing power); and the limits — the enclave problem, the transshipment trap, subsidy races, and measurement by throughput, the flattering figure that rises regardless of who keeps the margin."
+   }
+  ]
  }
 ]
