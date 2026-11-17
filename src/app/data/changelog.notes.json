@@ -19490,6 +19490,11 @@
     "summary": "Related list names the Markov process and the Markov model, so the shelf links the class to the models built on it.",
     "commit": "dcf43d518f9540b16e39801e4954ba2455b08a96",
     "before": "2fe62ec4cceb77605e0d90d1c56be2cf77f33a90"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the first book to the reference list: Parzen, E. (1962). Stochastic processes. Holden-Day, with the Internet Archive scan of the Digital Library of India copy."
    }
   ]
  },

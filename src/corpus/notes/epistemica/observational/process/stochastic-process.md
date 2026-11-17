@@ -215,3 +215,4 @@ Which others affirmation can be made about the event stream?
 - [‣](https://app.notion.com/p/140598edb7908081baf3f5000be015eb?pvs=21)
 - https://mathworld.wolfram.com/topics/Time-SeriesAnalysis.html
 - [Affirmation Space](https://app.notion.com/p/Affirmation-Space-336c0f5171ec80928f75ddbde09d7121?pvs=21)
+- Parzen, E. (1962). *Stochastic processes*. Holden-Day. https://archive.org/details/in.ernet.dli.2015.134174
