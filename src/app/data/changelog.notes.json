@@ -121272,7 +121272,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New guide: the venues rather than the works. Twelve Logia sections — the academy proceedings, mathematics, physics, astronomy, chemistry, earth sciences, life sciences, medicine, psychology, engineering, economics, and the electronic era — each a table of journals with founding year, body and what the venue is known for. The framing is the journal as an institution with four functions (registration, certification, dissemination, archiving) and the story of those functions separating: the academies did registration and archiving for a century before refereeing existed, and the preprint server has now taken registration and dissemination back. The Comptes rendus page is cited in the academy section and in the references, as the venue behind the integral-operator citations."
+    "summary": "New guide: the venues rather than the works. Twelve Logia sections — the academy proceedings, mathematics, physics, astronomy, chemistry, earth sciences, life sciences, medicine, psychology, engineering, economics, and the electronic era — each a table of journals with founding year, body and what the venue is known for. The framing is the journal as an institution with four functions (registration, certification, dissemination, archiving) and the story of those functions separating: the academies did registration and archiving for a century before refereeing existed, and the preprint server has now taken registration and dissemination back. The Comptes rendus page is cited in the academy section and in the references, as the venue behind the integral-operator citations.",
+    "commit": "14df278e1d9a9a83bff6543afb431d4dddd76cda",
+    "before": "14df278e1d9a9a83bff6543afb431d4dddd76cda"
    }
   ]
  }
