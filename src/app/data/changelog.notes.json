@@ -6240,7 +6240,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The 1715b entry now links its library record, as the 1715a one does."
+    "summary": "The 1715b entry now links its library record, as the 1715a one does.",
+    "commit": "a63a662aa2c7e48fa8152e312f5fffd9346ddc0e",
+    "before": "ded0a546e2d45da6ddd4164d5fbf523354a44c2e"
    }
   ]
  },
@@ -121562,7 +121564,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The 1715b entry now links its library record, so both 1715 volumes are cited through the corpus."
+    "summary": "The 1715b entry now links its library record, so both 1715 volumes are cited through the corpus.",
+    "commit": "a63a662aa2c7e48fa8152e312f5fffd9346ddc0e",
+    "before": "ded0a546e2d45da6ddd4164d5fbf523354a44c2e"
    }
   ]
  },
