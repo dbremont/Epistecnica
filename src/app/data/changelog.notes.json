@@ -58047,6 +58047,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Board Selection and Composition: the seven questions moved in from public-organization.md — composition types, the principles and methods of board-member selection, their integration into a selection system, and executive selection, which belongs here because the executive is appointed by the board. One subject, one home; the note now runs composition and decomposition, then selection, then the Spanish-terms table and the evaluation."
    }
   ]
  },
@@ -60866,6 +60871,11 @@
     "summary": "Add Legislature and Committee to the Public Organization kind table, after Council: the rule-making organ of a polity and the delegated body drawn from an assembly.",
     "commit": "d087333df006fa5b289979e758f1df403a5744ff",
     "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The board-composition and selection block is replaced by a placeholder question saying where it went and why: the board's composition and the selection of its members and executive are the board's own subject, and this note keeps the public-organization reading — statutory boards, arm's-length forms, and the board as a component."
    }
   ]
  },
