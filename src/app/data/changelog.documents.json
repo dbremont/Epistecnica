@@ -37702,7 +37702,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "Library entry for Taleb (2018), \"Election predictions as martingales\", Quantitative Finance 18(1), 1-5, with the arXiv preprint recorded as the open copy. The note states the paper's central identity: pricing a binary outcome by arbitrage yields the valuation that minimises the Brier score, so the proper scoring rule used to judge probability assessors and the no-arbitrage price are the same object. It carries the dual martingale Y in [L,H] read as votes needed, the two consequences with teeth (a high-uncertainty estimate migrates toward 50% and should not swing on poll noise), the arbitrage relations among binary value, estimate and volatility, and the 2016 finding that the forecasting groups violated them by scoring only the final assessment."
+    "summary": "Library entry for Taleb (2018), \"Election predictions as martingales\", Quantitative Finance 18(1), 1-5, with the arXiv preprint recorded as the open copy. The note states the paper's central identity: pricing a binary outcome by arbitrage yields the valuation that minimises the Brier score, so the proper scoring rule used to judge probability assessors and the no-arbitrage price are the same object. It carries the dual martingale Y in [L,H] read as votes needed, the two consequences with teeth (a high-uncertainty estimate migrates toward 50% and should not swing on poll noise), the arbitrage relations among binary value, estimate and volatility, and the 2016 finding that the forecasting groups violated them by scoring only the final assessment.",
+    "commit": "7902a585596d5a4ac0c4164f4ce2e4b85e467b60"
    }
   ]
  }

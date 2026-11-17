@@ -19339,7 +19339,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: Taleb (2018) linked through the new library entry — the election estimate priced as a binary option, and the arbitrage valuation that minimises the Brier score. The application of the note's own \"fair game\" reading to probability assessment."
+    "summary": "References: Taleb (2018) linked through the new library entry — the election estimate priced as a binary option, and the arbitrage valuation that minimises the Brier score. The application of the note's own \"fair game\" reading to probability assessment.",
+    "commit": "7902a585596d5a4ac0c4164f4ce2e4b85e467b60",
+    "before": "b39ff639b6f63f76bdedd218f135b7c0cf851623"
    }
   ]
  },
