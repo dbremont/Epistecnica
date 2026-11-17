@@ -11032,6 +11032,11 @@
     "kind": "refactor",
     "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
     "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Reference line added: Jost Bürgi and the independent tables of progressions, so the note's claim about the invention is credited to Napier's publication without implying he was alone in it."
    }
   ]
  },
@@ -121584,6 +121589,21 @@
     "kind": "create",
     "summary": "New note, independent of the derivative: the finite difference as an operator and a calculus of its own. It takes the discrete calculus as primary and the derivative as its limit, and the argument is that this is not stylistic — the difference is defined on every lattice function with no convergence hypothesis, while D = (1/h) ln(1+Delta) is a series in Delta, so the dependency runs the other way. Sections: the three differences and the binomial form of the nth difference; the shift algebra (Delta = E - 1, E = exp(hD)) and the twisted Leibniz rule that carries the discreteness as a correction term; summation as the exact inverse, with no constant of integration, and the falling factorials that lower the index; Newton forward-difference formula as the discrete Taylor theorem, with the Stirling numbers conjugating powers into falling factorials and the umbral calculus as the reason identities transfer; and the uses — numerical differentiation, discretisation, difference equations, telescoping sums, generating functions. Three QA answers, including why the constant of integration is the price of the continuum rather than a feature of inversion. References: Taylor 1717 through LeVeque 2007.",
     "commit": "ad23d676a1ca0e33a0765c9def1df8a943611f1c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Milne-Thomson line now links its library entry instead of citing a bare title."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/jost-burgi.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New persona: Jost Bürgi (1552-1632), Swiss clockmaker, instrument maker and autodidact mathematician, at Kassel under Wilhelm IV and in Prague beside Kepler. The note holds two careers in one person: the cross-beat escapement and the remontoire, which made the clock accurate enough to time a star across a telescope crosshair and so turned it into a scientific instrument; and the mathematics — the Kunstweg sine iteration behind a lost Canon Sinuum that Kepler called the most precise known table, and a table of progressions built independently of Napier around 1600 and published only in 1620. The priority section records both verdicts without adopting either: Kepler's preface line about the \"indolent man\" who deserted his child at birth, and the conceptual counter-verdict that a table of antilogarithms is not a theory of the logarithm. References 1620 to 2016, including the Folkerts-Launert-Thom convergence proof."
    }
   ]
  }

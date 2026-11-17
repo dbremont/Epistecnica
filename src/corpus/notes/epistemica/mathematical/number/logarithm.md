@@ -68,6 +68,7 @@ tags: [note, mathematics, function]
 
 ## References
 
+- [Jost Bürgi](/view.html?p=notes/social/collective/actor/private/persona/jost-burgi.md) — the tables of progressions built independently of Napier around 1600 and published only in 1620; the invention above is Napier's publication, not Napier's alone
 - https://en.wikipedia.org/wiki/Logarithm
 - https://en.wikipedia.org/wiki/History_of_logarithms
 - https://betterexplained.com/articles/using-logs-in-the-real-world/

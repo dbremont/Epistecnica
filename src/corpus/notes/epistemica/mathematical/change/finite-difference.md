@@ -110,7 +110,7 @@ so powers and falling factorials are two coordinate systems on the same ring, an
 - Stirling, J. (1730). *Methodus differentialis: Sive tractatus de summatione et interpolatione serierum infinitarum*. Bowyer. — the numbers that convert powers into falling factorials, and with them interpolation into a routine
 - Euler, L. (1755). *Institutiones calculi differentialis*. Imperial Academy of Sciences. — the calculus of differences taught as part of analysis, with the operator identities in their modern form
 - Boole, G. (1860). *A treatise on the calculus of finite differences*. Macmillan. — the standard nineteenth-century treatment: the operator algebra, the inverse-sum method and the symbolic solution of difference equations
-- Milne-Thomson, L. M. (1933). *The calculus of finite differences*. Macmillan. — the twentieth-century reference, with the summation theory in full
+- [Milne-Thomson, L. M. (1933). *The calculus of finite differences*. Macmillan.](/view.html?p=documents/books/milne-thomson-1933-calculus-of-finite-differences-macmillan.md) — the twentieth-century reference, with the summation theory in full
 - Jordan, C. (1950). *Calculus of finite differences* (2nd ed.). Chelsea. — the operator calculus and its applications, still the working handbook
 - Graham, R. L., Knuth, D. E., & Patashnik, O. (1994). *Concrete mathematics* (2nd ed.). Addison-Wesley. — the finite calculus as a working method: falling powers, Stirling numbers, summation by parts
 - LeVeque, R. J. (2007). *Finite difference methods for ordinary and partial differential equations*. SIAM. — the same operator used to discretise equations, with consistency and stability stated as properties of the discretisation
