@@ -27445,7 +27445,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line import stub with the definition never worked; the atom that contains the nucleus is nature/atom.md, and the three notes that pointed here now point there."
+    "summary": "Removed: a 41-line import stub with the definition never worked; the atom that contains the nucleus is nature/atom.md, and the three notes that pointed here now point there.",
+    "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d"
    }
   ]
  },
@@ -111033,7 +111034,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone.",
+    "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d",
+    "before": "f69d82d3d95f853a66f64c47618f40990425ec9d"
    }
   ]
  },
@@ -113262,7 +113265,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone.",
+    "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d",
+    "before": "f69d82d3d95f853a66f64c47618f40990425ec9d"
    }
   ]
  },
@@ -113499,7 +113504,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone.",
+    "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d",
+    "before": "f69d82d3d95f853a66f64c47618f40990425ec9d"
    }
   ]
  },
