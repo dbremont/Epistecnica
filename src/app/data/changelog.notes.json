@@ -97414,6 +97414,11 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "Rebuild Ars Urbis as the old art of the city rather than modern planning science: Vitruvius (Books I and V, linked), the Corpus Agrimensorum cross-listed from Antiqua, Ibn Khaldun's Muqaddimah, Filarete's Sforzinda, Pius II's Pienza, Francesco di Giorgio, Alberti (linked), Serlio, Cataneo, Braun and Hogenberg's Civitates, the 1573 Laws of the Indies, Fontana, Wren and the Rebuilding Act, Laugier, Piranesi, Patte, J.-F. Blondel and Milizia; the modern tail keeps Cerda, Sitte, Haussmann, Howard, Burnham and Garnier. Baumeister, Stubben, Soria y Mata, Unwin, the 1909 Town Planning Act and Geddes are removed."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The Mumford and Singer reference lines now link their library entries, so the pre-1900 catalogue points at the surveys those works are narrated in."
    }
   ]
  },
@@ -121982,6 +121987,16 @@
     "kind": "create",
     "summary": "New technica note: the laser Doppler vibrometer, filed beside radar on the industry shelf and typed the same way — a Production Technical Object, a produced electromagnetic measurement instrument rather than a production plant. The note is organised around the three details that make the instrument what it is: the factor of two (the beam goes to the surface and back, so the shift is 2v/lambda and the output is velocity directly), heterodyne detection with a Bragg cell (without the carrier a fringe-counting system measures speed but not sign), and speckle (the surface is rarely a mirror, which is why retroreflective tape is part of the method). The instance tree decomposes the assembly, the configuration that decides validity (stand-off and focus, velocity range, surface treatment), the instrument kinds by function (single-point, scanning, three-dimensional, differential) and the evaluations that bound it: line-of-sight constraint, speckle dropout, and calibration traceability through the wavelength rather than a shaker.",
     "commit": "f5f850b2a578d33450f231ced13a4dfe15ae9fe9"
+   }
+  ]
+ },
+ {
+  "file_path": "unclassified/a-guide-to-the-study-of-the-history-of-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New guide: the study of the history of technology, as a field rather than as another catalogue. Its organising distinction is that the history of science studies what was known and its evidence is mostly text, while the history of technology studies what was made and its evidence is mostly not text — an asymmetry that makes the field methodologically distinct rather than a branch of history with odd sources. Sections: the four objects a technical history can be about (artefact, technique, system, knowledge), since a note that cannot say which will drift between them; the evidence problem as a table of what each kind establishes and cannot establish, including experimental reconstruction, the field's most distinctive and most dangerous method; the interpretive traditions read as positions to be declared (technological determinism, Mumford's cultural critique, social construction, systems, evolution); a six-step method for writing a technical history in this corpus, which amounts to decomposing the artefact with the technica grammar and dating the change rather than the period; and the shelf of works."
    }
   ]
  }

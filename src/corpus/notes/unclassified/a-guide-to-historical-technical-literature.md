@@ -2242,4 +2242,13 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 - Jacquard, J. M. (1804). Métier à tisser les étoffes façonnées [Loom for weaving figured fabrics] (French patent). French Patent Office.
 - Smith, D. (1849). The dyer’s instructor. Henry Carey Baird.
 - Millar, W. (c. 1890). The practical plasterer. Crosby Lockwood and Son.
-
+- Basalla, G. (1988). The evolution of technology. Cambridge University Press.
+- Cardwell, D. (1995). The Norton history of technology. W. W. Norton & Company.
+- Edgerton, D. (2006). The shock of the old: Technology and global history since 1900. Profile Books.
+- Hughes, T. P. (1983). Networks of power: Electrification in Western society, 1880–1930. Johns Hopkins University Press.
+- Landes, D. S. (1969). The unbound Prometheus: Technological change and industrial development in Western Europe from 1750 to the present. Cambridge University Press.
+- McClellan, J. E., III, & Dorn, H. (2015). Science and technology in world history: An introduction (3rd ed.). Johns Hopkins University Press.
+- Mokyr, J. (1990). The lever of riches: Technological creativity and economic progress. Oxford University Press.
+- [Mumford, L. (1934). *Technics and civilization*. Harcourt, Brace and Company.](/view.html?p=documents/books/mumford-1934-technics-and-civilization-harcourt.md) — the interpretive classic behind the field's periodisation
+- Pacey, A., & Bray, F. (2021). Technology in world civilization: A thousand-year history (Rev. and expanded ed.). MIT Press.
+- [Singer, C., Holmyard, E. J., Hall, A. R., & Williams, T. I. (Eds.). (1954–1984). *A history of technology* (Vols. 1–8). Oxford University Press.](/view.html?p=documents/books/singer-holmyard-hall-1954-history-of-technology-oxford.md) — the collaborative survey, with the volume scans
