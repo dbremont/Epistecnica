@@ -6180,6 +6180,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/mathematical/integral-operator.md to epistemica/mathematical/change/integral-operator.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add a History of the Integral section, eight stages from Eudoxus' exhaustion to the Kurzweil-Henstock gauge integral: indivisibles and the inverse-tangent relation, the algorithms of Newton and Leibniz, Euler's integrals as functions, the Cauchy-Riemann-Darboux rigour, Stieltjes and Lebesgue and the integral as a functional, and the Volterra-Fredholm-Hilbert moment when the kernel becomes an operator. It closes with the argument for the operator reading: convolution, the Fourier and Laplace transforms, Green's functions and fractional integrals are all kernels of one kind. The references are rebuilt as one APA 7 list of the historical primaries and the standard textbooks, with the wiki links kept as a lookup group and the corpus cross-links (operator, differential operator, Green's function, differential form, Lebesgue integral, convolution, transforms, path integral, the equation shelf) added; the Notion artifacts, the duplicated URL and the doubled heading marker are removed."
    }
   ]
  },
