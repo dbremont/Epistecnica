@@ -12514,6 +12514,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Fill the empty References placeholder with the counterpart: the outer product is the product that expands where the inner product contracts, and the trace identity joins them."
    }
   ]
  },
@@ -13003,6 +13008,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the outer product named in the formulation to the new note, so the term the sum is built on is readable rather than assumed."
    }
   ]
  },
@@ -110365,6 +110375,16 @@
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
     "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
     "commit": "309bf67e367e361856f3a69db25461c8d1894617"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/structure/linear/outer-product.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "feat",
+    "summary": "Add the Outer Product note: the product that expands two vectors into a matrix rather than contracting them into a number — definition and entries, the inner/outer/Kronecker distinction, rank, trace and projector properties, the SVD as a sum of dyads, and the constructions in the corpus that are built from it (scatter, covariance, Gram, projection, density)."
    }
   ]
  }

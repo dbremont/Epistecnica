@@ -37,4 +37,4 @@ Let $V$ be a vector space over a field $\mathbb{F}$, where $\mathbb{F} = \mathbb
 
 ## References
 
-- …
+- [Outer Product](/view.html?p=notes/epistemica/mathematical/structure/linear/outer-product.md) — the product that expands instead of contracting: $\operatorname{tr}(u v^{\mathsf T}) = \langle u, v\rangle$

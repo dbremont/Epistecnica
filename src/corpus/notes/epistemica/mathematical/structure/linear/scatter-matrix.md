@@ -29,7 +29,7 @@ $S = \sum_{i=1}^{n} (x_i - \mu)(x_i - \mu)^T$
 Where:
 
 - Each $x_i \in \mathbb{R}^d$ is a **column vector** of $d$ features.
-- $(x_i - \mu)(x_i - \mu)^T$ is an **outer product** of a $d \times 1$ vector with itself, producing a $d \times d$ matrix.
+- $(x_i - \mu)(x_i - \mu)^T$ is an **[outer product](/view.html?p=notes/epistemica/mathematical/structure/linear/outer-product.md)** of a $d \times 1$ vector with itself, producing a $d \times d$ matrix.
 
 Therefore:
 
