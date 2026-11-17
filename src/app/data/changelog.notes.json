@@ -60976,7 +60976,7 @@
   ]
  },
  {
-  "file_path": "social/collective/philosophical-transactions-of-the-royal-society.md",
+  "file_path": "social/collective/journal/philosophical-transactions-of-the-royal-society.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -60984,6 +60984,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/collective/philosophical-transactions-of-the-royal-society.md: a bound instance does not belong at the genus root, beside collective.md, polity.md and society.md, which are type notes. Filed in a journal/ kind shelf, where the next serial scholarly compound goes."
    }
   ]
  },
