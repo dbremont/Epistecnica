@@ -33,6 +33,7 @@ Related: [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemol
 
 ## References
 
+- [Descartes, R. (1912). *A discourse on method; Meditations on first philosophy; Principles of philosophy* (J. Veitch, Trans.). J. M. Dent.](/view.html?p=documents/books/descartes-1912-discourse-on-method-meditations-principles-dent.md) — the method, and the system built on it, in the Everyman volume
 - [Reason](/view.html?p=notes/epistemica/epistemic/theory/reason.md)
 - https://plato.stanford.edu/entries/descartes-method/
 - https://www.youtube.com/watch?v=trwXp6hMN8M

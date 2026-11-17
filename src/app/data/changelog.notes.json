@@ -3220,6 +3220,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/guidance/method/descartes-method.md to epistemica/epistemic/guidance/method/descartes-method.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Descartes method now cites the Everyman volume (Dent, 1912, Veitch translation) through its library entry — the Discourse with the Meditations and the Principles, so the method and the system it yields are cited together."
    }
   ]
  },
