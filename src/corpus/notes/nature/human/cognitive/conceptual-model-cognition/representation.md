@@ -239,7 +239,7 @@ Index Quaestionum:
 | --- | --- | --- |
 | **Neural Firing Pattern** | Information is encoded in the rate, timing, and pattern of action potentials across individual neurons. | Coding, Single-Neuron |
 | **Synaptic Weight** | Strength of synaptic connections encodes learned associations via plasticity mechanisms such as Long-Term Potentiation (LTP) and Long-Term Depression (LTD). | Plasticity, Memory |
-| **Population Coding** | Information is distributed across the activity of many neurons, enabling robust and high-capacity representation. | Distributed, Robustness |
+| **[Population Coding](/view.html?p=documents/papers/pouget-2000-information-processing-population-codes.md)** | Information is distributed across the activity of many neurons, enabling robust and high-capacity representation. | Distributed, Robustness |
 | **Oscillatory Synchronization** | Neurons coordinate their activity through rhythmic oscillations (gamma, theta, beta) to bind features and integrate information across networks. | Temporal Coding, Binding |
 | **Neural Ensemble** | Groups of neurons that co-activate represent specific percepts, concepts, or memories, forming stable attractor states. | Attractor Dynamics, Concept Representation |
 | **Sparse Coding** | Only a small subset of neurons is active at a time, improving efficiency, storage, and noise reduction. | Efficiency, Compression |

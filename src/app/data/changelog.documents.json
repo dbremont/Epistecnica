@@ -37626,5 +37626,25 @@
     "summary": "Add Wegmann, The Design and Construction of Dams (1899); 1899 first-edition scan — masonry, earth, rock-fill, timber and movable dams."
    }
   ]
+ },
+ {
+  "file_path": "papers/pouget-2000-information-processing-population-codes.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "feat",
+    "summary": "Add Pouget, Dayan & Zemel, Information processing with population codes (Nature Reviews Neuroscience, 2000): the foundational review of population coding — encoding and decoding by populations, computation with them, and the claim that a code can carry stimulus uncertainty directly."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/sanger-2003-neural-population-codes.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "feat",
+    "summary": "Add Sanger, Neural population codes (Current Opinion in Neurobiology, 2003): the mathematical treatment — Poisson neurons, tuning functions, decoding methods, computation in interconnected populations, and the design of an optimal code."
+   }
+  ]
  }
 ]

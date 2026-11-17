@@ -36499,6 +36499,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/brain.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Cite the population-coding literature in the modelling considerations: the Pouget, Dayan & Zemel (2000) review for the code and Sanger (2003) for its mathematics."
    }
   ]
  },
@@ -37350,6 +37355,11 @@
     "kind": "refactor",
     "summary": "Move from the retired human section into nature/human/.",
     "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the Population Coding row of the mechanism table to the Pouget, Dayan & Zemel (2000) review, so the row names a reading of the code rather than standing as an unreferenced claim."
    }
   ]
  },

@@ -276,7 +276,7 @@ The brain performs complex computations that mirror key mathematical and algorit
 🧠 Modeling Considerations
 
 - Neural networks may need **lognormally initialized weights** to reflect realistic distributions.
-- Models of population coding should account for **skewed activity levels**.
+- Models of population coding should account for **skewed activity levels** — the review is [Pouget, Dayan & Zemel (2000)](/view.html?p=documents/papers/pouget-2000-information-processing-population-codes.md), the mathematics of the code [Sanger (2003)](/view.html?p=documents/papers/sanger-2003-neural-population-codes.md).
 - **Mean-based assumptions** in statistics or learning models may fail to capture important minority effects (e.g., hyperactive neurons).
 
 🧬 Broader Significance
