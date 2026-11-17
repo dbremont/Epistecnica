@@ -37801,7 +37801,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "Library entry: Cary's Essay on the State of England (1695). The title is the argument — trade, the poor and taxes are one system seen from three sides, with the French war as the occasion that makes it visible: a war is paid for out of trade, trade is carried by the hands it employs, and the hands are the poor whose employment is the question. Notes on the merchant's perspective behind it (Bristol: sugar, tobacco, slaves, and a corporation of the poor), the Nine Years' War and recoinage context, and the two scans — the Early English Books microfilm and the 1755 French translation in two volumes."
+    "summary": "Library entry: Cary's Essay on the State of England (1695). The title is the argument — trade, the poor and taxes are one system seen from three sides, with the French war as the occasion that makes it visible: a war is paid for out of trade, trade is carried by the hands it employs, and the hands are the poor whose employment is the question. Notes on the merchant's perspective behind it (Bristol: sugar, tobacco, slaves, and a corporation of the poor), the Nine Years' War and recoinage context, and the two scans — the Early English Books microfilm and the 1755 French translation in two volumes.",
+    "commit": "17d3285e4d2e04e30ade5c3282ca82f81264a7a0"
    }
   ]
  }

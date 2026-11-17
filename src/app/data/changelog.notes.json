@@ -98890,7 +98890,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Cary row links the 1695 library entry, so the corpus cites the book rather than describing it."
+    "summary": "References: the Cary row links the 1695 library entry, so the corpus cites the book rather than describing it.",
+    "commit": "17d3285e4d2e04e30ade5c3282ca82f81264a7a0",
+    "before": "35a6c29329e8b71a9f57d5a406838ad0fe76cab5"
    }
   ]
  },
@@ -122207,7 +122209,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the 1695 essay now cites the library entry rather than a bare citation, and the works table links it."
+    "summary": "References: the 1695 essay now cites the library entry rather than a bare citation, and the works table links it.",
+    "commit": "17d3285e4d2e04e30ade5c3282ca82f81264a7a0",
+    "before": "35a6c29329e8b71a9f57d5a406838ad0fe76cab5"
    }
   ]
  },
