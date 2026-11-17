@@ -27441,6 +27441,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked; the atom that contains the nucleus is nature/atom.md, and the three notes that pointed here now point there."
    }
   ]
  },
@@ -111024,6 +111029,11 @@
     "summary": "Retarget the links into the shelves the notes moved to.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e",
     "before": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
    }
   ]
  },
@@ -113248,6 +113258,11 @@
     "summary": "Retarget the links into nature/construction/, where the constructions now live.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c",
     "before": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
    }
   ]
  },
@@ -113480,6 +113495,11 @@
     "summary": "Retarget the links into the shelves the notes moved to.",
     "commit": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e",
     "before": "98f53ecc9bcbe6bdc962de4bcfb20b343d8acf7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone."
    }
   ]
  },
@@ -117432,7 +117452,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Cite Buzsáki & Mizuseki (2014) for the lognormal organization of the brain parameters."
+    "summary": "Cite Buzsáki & Mizuseki (2014) for the lognormal organization of the brain parameters.",
+    "commit": "2912c05fefb01cd6bf13d9072616df3062d60539",
+    "before": "2912c05fefb01cd6bf13d9072616df3062d60539"
    }
   ]
  },
