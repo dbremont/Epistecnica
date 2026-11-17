@@ -37750,5 +37750,15 @@
     "commit": "842308fb5aaee7709023273b9439da328a43b42c"
    }
   ]
+ },
+ {
+  "file_path": "books/taylor-1715-linear-perspective-knaplock.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "Library entry for the other 1715 Taylor volume: Linear Perspective, the first mathematical treatment of the subject, where the vanishing point becomes a consequence of projection rather than a convention of drawing. The note records the difficulty beside the merit — brief to the point of obscurity, needing Kirby (1754) and Fournier (1761) to explain it, reissued in 1719 as New Principles of Linear Perspective, revised by Colson in 1749 and translated into French in 1757. Its pairing with the Methodus is what the a/b suffix marks: two 1715 volumes, one founding a numerical branch, the other a representational one, both written so tersely that their readers supplied the exposition."
+   }
+  ]
  }
 ]

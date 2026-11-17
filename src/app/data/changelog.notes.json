@@ -6236,6 +6236,11 @@
     "summary": "The two Taylor entries are reordered to 1715a (Methodus) and 1715b (Linear perspective), with the Methodus linked to its library record.",
     "commit": "842308fb5aaee7709023273b9439da328a43b42c",
     "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The 1715b entry now links its library record, as the 1715a one does."
    }
   ]
  },
@@ -121553,6 +121558,11 @@
     "summary": "References and work section: the Methodus is cited as 1715a, the date sentence now records both the bibliographic year and the title page, and the QA question is rephrased to match.",
     "commit": "842308fb5aaee7709023273b9439da328a43b42c",
     "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The 1715b entry now links its library record, so both 1715 volumes are cited through the corpus."
    }
   ]
  },
