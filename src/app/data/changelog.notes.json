@@ -12518,7 +12518,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Fill the empty References placeholder with the counterpart: the outer product is the product that expands where the inner product contracts, and the trace identity joins them."
+    "summary": "Fill the empty References placeholder with the counterpart: the outer product is the product that expands where the inner product contracts, and the trace identity joins them.",
+    "commit": "ff8fa27c34d154da611a3a2b56de1992303f36a7",
+    "before": "ff8fa27c34d154da611a3a2b56de1992303f36a7"
    }
   ]
  },
@@ -13012,7 +13014,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the outer product named in the formulation to the new note, so the term the sum is built on is readable rather than assumed."
+    "summary": "Link the outer product named in the formulation to the new note, so the term the sum is built on is readable rather than assumed.",
+    "commit": "ff8fa27c34d154da611a3a2b56de1992303f36a7",
+    "before": "ff8fa27c34d154da611a3a2b56de1992303f36a7"
    }
   ]
  },
@@ -110384,7 +110388,9 @@
    {
     "date": "2026-11-17",
     "kind": "feat",
-    "summary": "Add the Outer Product note: the product that expands two vectors into a matrix rather than contracting them into a number — definition and entries, the inner/outer/Kronecker distinction, rank, trace and projector properties, the SVD as a sum of dyads, and the constructions in the corpus that are built from it (scatter, covariance, Gram, projection, density)."
+    "summary": "Add the Outer Product note: the product that expands two vectors into a matrix rather than contracting them into a number — definition and entries, the inner/outer/Kronecker distinction, rank, trace and projector properties, the SVD as a sum of dyads, and the constructions in the corpus that are built from it (scatter, covariance, Gram, projection, density).",
+    "commit": "ff8fa27c34d154da611a3a2b56de1992303f36a7",
+    "before": "ff8fa27c34d154da611a3a2b56de1992303f36a7"
    }
   ]
  }
