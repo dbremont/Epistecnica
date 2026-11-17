@@ -11,7 +11,7 @@ order: 0
 
 ### What is this epistemic instance?
 
-> The method scope of the mathematical domain: the routines by which mathematics is done, gathered as one catalogue and filed by what the routine *does to the problem*. A result belongs to the [construction scope](../construction/construction.md); the rule a method operates on belongs to the representational system that carries it, catalogued in [transformation.md](../transformation.md).
+> The method scope of the mathematical domain: the routines by which mathematics is done, gathered as one catalogue and filed by what the routine *does to the problem*. A result belongs to the [construction scope](/view.html?p=notes/epistemica/epistemic/construction/construction.md); the rule a method operates on belongs to the representational system that carries it, catalogued in [transformation.md](../transformation.md).
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -54,8 +54,6 @@ order: 0
 | `Aggregate` → Mathematical Method → Approximation Routine → [Asymptotic Analysis](approximation/asymptotic-analysis.md) | Characterize behaviour in a limit instead of solving exactly. |
 | `Aggregate` → Mathematical Method → Approximation Routine → [Perturbation Method](approximation/perturbation-method.md) | Expand in a small parameter, order by order. |
 | `Aggregate` → Mathematical Method → Approximation Routine → [Stationary Phase](approximation/stationary-phase.md) | Localize an oscillatory integral to its critical points. |
-| `Aggregate` → Mathematical Method → Approximation Routine → [Discretization](approximation/discretization.md) | Replace a continuum problem by a finite one. |
-| `Aggregate` → Mathematical Method → Approximation Routine → [Iterative Method](approximation/iterative-method.md) | Approach the solution by repeated correction. |
 | `Aggregate` → Mathematical Method → Transform Routine | Grouping: routines that move the problem to a representation where it is trivial. |
 | `Aggregate` → Mathematical Method → Transform Routine → [Generating Function](transform/generating-function.md) | Encode a sequence as coefficients, compute by algebra. |
 | `Aggregate` → Mathematical Method → Transform Routine → [Green's Function Method](transform/green-s-function.md) | Solve for a point source; superpose for any source. |

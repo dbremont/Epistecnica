@@ -10,7 +10,7 @@ tags: [note, mathematics, method, technique, numerical]
 
 > **What it is.** The computational form of the fixed-point routine. Instead of solving an equation directly, one designs a map whose fixed point is the answer and whose iteration converges; the design (and the proof) is the method.
 >
-> **Type.** An `Epistemic Method`; it needs a convergence argument, usually a [contraction](../reduction/contraction-mapping.md) or a spectral radius condition.
+> **Type.** An `Epistemic Method`; it needs a convergence argument, usually a [contraction](../mathematical/method/reduction/contraction-mapping.md) or a spectral radius condition.
 >
 > **Boundary.** An iteration can diverge, cycle, or converge to the wrong fixed point. Convergence is local unless the map is globally contracting, and the rate decides whether the method is usable at all.
 
@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, numerical]
 ## References
 
 - https://en.wikipedia.org/wiki/Iterative_method
-- [Contraction Mapping](../reduction/contraction-mapping.md) · [Discretization](discretization.md) · [Newton–Raphson Method](/view.html?p=notes/epistemica/singular/newton-raphson-method.md) · [Fixed Point](../../change/fixed-point.md)
+- [Contraction Mapping](../mathematical/method/reduction/contraction-mapping.md) · [Discretization](discretization.md) · [Newton–Raphson Method](/view.html?p=notes/epistemica/singular/newton-raphson-method.md) · [Fixed Point](../mathematical/change/fixed-point.md)

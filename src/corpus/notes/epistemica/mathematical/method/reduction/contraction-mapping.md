@@ -10,7 +10,7 @@ tags: [note, mathematics, method, technique, analytical]
 
 > **What it is.** The existence-and-uniqueness routine. It does two jobs at once: it proves a solution exists, and it gives the algorithm that finds it — iterate. That combination is why it is the most used fixed-point theorem in analysis.
 >
-> **Type.** An `Epistemic Method`; its warrant is the [Banach fixed-point theorem](../../construction/banach-fixed-point-theorem.md) on a [complete space](../../space/complete-space.md).
+> **Type.** An `Epistemic Method`; its warrant is the [Banach fixed-point theorem](/view.html?p=notes/epistemica/epistemic/construction/mathematical/banach-fixed-point-theorem.md) on a [complete space](../../space/complete-space.md).
 >
 > **Boundary.** The contraction constant must be strictly below one, uniformly. A merely non-expansive map ($q = 1$) can fail to have a fixed point (a translation), and a contraction on an incomplete space can push its fixed point out of the space.
 
@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, analytical]
 ## References
 
 - https://en.wikipedia.org/wiki/Contraction_mapping
-- [Banach Fixed-Point Theorem](../../construction/banach-fixed-point-theorem.md) · [Complete Space](../../space/complete-space.md) · [Iterative Method](../approximation/iterative-method.md) · [Fixed Point](../../change/fixed-point.md)
+- [Banach Fixed-Point Theorem](/view.html?p=notes/epistemica/epistemic/construction/mathematical/banach-fixed-point-theorem.md) · [Complete Space](../../space/complete-space.md) · [Iterative Method](../../../singular/iterative-method.md) · [Fixed Point](../../change/fixed-point.md)

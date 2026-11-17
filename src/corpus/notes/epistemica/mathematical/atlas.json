@@ -1895,11 +1895,11 @@
       "notes": [
         {
           "label": "Discretization",
-          "path": "epistemica/mathematical/method/approximation/discretization.md"
+          "path": "epistemica/singular/discretization.md"
         },
         {
           "label": "Iterative Method",
-          "path": "epistemica/mathematical/method/approximation/iterative-method.md"
+          "path": "epistemica/singular/iterative-method.md"
         },
         {
           "label": "Asymptotic Analysis",
@@ -2098,11 +2098,11 @@
         },
         {
           "label": "Discretization",
-          "path": "epistemica/mathematical/method/approximation/discretization.md"
+          "path": "epistemica/singular/discretization.md"
         },
         {
           "label": "Iterative Method",
-          "path": "epistemica/mathematical/method/approximation/iterative-method.md"
+          "path": "epistemica/singular/iterative-method.md"
         },
         {
           "label": "Perturbation Method",

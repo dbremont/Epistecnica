@@ -37672,5 +37672,15 @@
     "before": "7b11565e995da012fc7a2562910721b707afc3a9"
    }
   ]
+ },
+ {
+  "file_path": "books/nayfeh-1981-introduction-to-perturbation-techniques-wiley.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New book entry: Nayfeh's Introduction to Perturbation Techniques (Wiley, 1981), the techniques catalogue behind the perturbation-method note, with the scan link recorded as given even though the host answered 500 at filing time."
+   }
+  ]
  }
 ]

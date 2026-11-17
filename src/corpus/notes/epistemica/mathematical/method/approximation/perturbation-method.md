@@ -24,5 +24,6 @@ tags: [note, mathematics, method, technique, analytical]
 
 ## References
 
+- [Nayfeh, A. H. (1981). *Introduction to perturbation techniques*. Wiley.](/view.html?p=documents/books/nayfeh-1981-introduction-to-perturbation-techniques-wiley.md) — the techniques catalogue: strained coordinates, multiple scales, averaging, matched expansions
 - https://en.wikipedia.org/wiki/Perturbation_theory
 - [Asymptotic Analysis](asymptotic-analysis.md) · [Linearization](../reduction/linearization.md) · [Stationary Phase](stationary-phase.md) · [Differential Equation](../../change/differential-equation.md)

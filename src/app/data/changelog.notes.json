@@ -9729,66 +9729,6 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/method/approximation/discretization.md",
-  "logs": [
-   {
-    "date": "2026-10-17",
-    "kind": "feat",
-    "summary": "Import Discretization from the Modelado Notion export.",
-    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-   },
-   {
-    "date": "2026-10-31",
-    "kind": "refactor",
-    "summary": "move into the mathematical/method scope: a routine, not a result",
-    "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
-   },
-   {
-    "date": "2026-10-31",
-    "kind": "refactor",
-    "summary": "Move into the method family that names its principal move.",
-    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/mathematical/method/approximation/iterative-method.md",
-  "logs": [
-   {
-    "date": "2026-10-17",
-    "kind": "feat",
-    "summary": "Import Iterative Method from the Modelado Notion export.",
-    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-   },
-   {
-    "date": "2026-10-31",
-    "kind": "refactor",
-    "summary": "move into the mathematical/method scope: a routine, not a result",
-    "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
-   },
-   {
-    "date": "2026-10-31",
-    "kind": "refactor",
-    "summary": "Move into the method family that names its principal move.",
-    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   }
-  ]
- },
- {
   "file_path": "epistemica/mathematical/method/approximation/laplace-method.md",
   "logs": [
    {
@@ -9819,6 +9759,11 @@
     "kind": "refactor",
     "summary": "Move into the method family that names its principal move.",
     "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the book behind the technique: Nayfeh (1981), Introduction to Perturbation Techniques, linked to its library entry — the catalogue of strained coordinates, multiple scales, averaging and matched expansions the note describes but does not cite."
    }
   ]
  },
@@ -9886,6 +9831,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Drop Discretization and Iterative Method from the Approximation Routine family: they are computational procedures, and they now sit with the numerical methods in the singular scope. The family keeps the asymptotic routines — asymptotic analysis, perturbation, stationary phase."
    }
   ]
  },
@@ -10151,6 +10101,11 @@
     "kind": "refactor",
     "summary": "Move into the method family that names its principal move.",
     "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Iterative Method link into the singular scope, where the numerical procedures now live."
    }
   ]
  },
@@ -11427,6 +11382,11 @@
     "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
     "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
     "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Discretization link into the singular scope."
    }
   ]
  },
@@ -13391,6 +13351,11 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Iterative Method link into the singular scope."
    }
   ]
  },
@@ -121204,6 +121169,86 @@
     "summary": "Carry the essay's source list into the note: the same APA 7 references, from Llull's Ars magna to Curren's SEP entry on the philosophy of education, plus the six psychological sources (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) and the local Cognitive Development note. Front matter added so the note is indexed with its tags.",
     "commit": "4aca02349cc82c6bf8765e6ea4b027d90106989f",
     "before": "4aca02349cc82c6bf8765e6ea4b027d90106989f"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/discretization.md",
+  "logs": [
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Discretization from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the mathematical/method scope: a routine, not a result",
+    "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the method family that names its principal move.",
+    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/method/approximation/discretization.md: a computational procedure rather than a mathematical approximation: it replaces the continuum by a mesh so a machine can solve it, and it belongs beside the other numerical methods."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/iterative-method.md",
+  "logs": [
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Iterative Method from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the mathematical/method scope: a routine, not a result",
+    "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the method family that names its principal move.",
+    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/method/approximation/iterative-method.md: a computational procedure rather than a mathematical approximation: the answer is reached by repeated correction, and it belongs beside the other numerical methods."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/atlas.json",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the two moved notes at their new paths in the singular scope."
    }
   ]
  }
