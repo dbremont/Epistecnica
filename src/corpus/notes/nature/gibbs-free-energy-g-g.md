@@ -14,7 +14,7 @@ tags: [note, nature, living-process]
 
 ### What is this natural instance?
 
-**Gibbs Free Energy (ΔG, ΔG°')**: natural instance imported from the Notion export; definition not yet worked.
+**Gibbs Free Energy (ΔG, ΔG°')**: a thermodynamic potential — the maximum reversible work a system at constant temperature and pressure can perform, and the criterion of spontaneity at those conditions, since a process runs in the direction that lowers $G$. Natural instance imported from the Notion export; the decomposition is not yet worked.
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -39,3 +39,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Metabolism 7d21780dc490459c96366df8f171cd76.md`
+- [Gibbs free energy](https://en.wikipedia.org/wiki/Gibbs_free_energy)

@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, analytical]
 ## References
 
 - https://en.wikipedia.org/wiki/Green%27s_function
-- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Generalized Function](/view.html?p=notes/epistemica/mathematical/mapping/generalized-function.md) · [Differential Equation](/view.html?p=notes/epistemica/mathematical/change/differential-equation.md) · [Variational Method](/view.html?p=notes/epistemica/mathematical/method/reduction/variational-method.md) · [Feynman Diagram](/view.html?p=notes/epistemica/mathematical/feynman-diagram.md)
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Generalized Function](/view.html?p=notes/epistemica/mathematical/mapping/generalized-function.md) · [Differential Equation](/view.html?p=notes/epistemica/mathematical/change/differential-equation.md) · [Variational Method](/view.html?p=notes/epistemica/mathematical/method/reduction/variational-method.md) · [Feynman Diagram](/view.html?p=notes/epistemica/singular/feynman-diagram.md)

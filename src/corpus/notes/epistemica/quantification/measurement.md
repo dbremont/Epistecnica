@@ -66,7 +66,7 @@ qa:
 | **ordering** | assigns a rank to an observable | one class, order without distance (see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md)) |
 | **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)) |
 | **measure** in mathematics | assigns a size to a set | a set function in measure theory, whose relatum is a set and whose value is not read on a declared scale of an attribute (see [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)) |
-| **quantization** | replaces a continuum value by one of finitely many levels | it discretizes a range of values; it assigns nothing to an observable under a scale (see [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)) |
+| **quantization** | replaces a continuum value by one of finitely many levels | it discretizes a range of values; it assigns nothing to an observable under a scale (see [quantization](/view.html?p=notes/epistemica/signal/quantization.md)) |
 | **operationalization** | decides which observable stands for an attribute | the construction that precedes measurement — it fixes *what* is observed, not *how* the value is read (see [quantitative property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md)) |
 
 > **relatum.** only a property of a segment can be measured. the properties read here are ontic; the value assigned is epistemic. the naturalis grammar owns the decomposition of the property, and this note binds it without growing it.

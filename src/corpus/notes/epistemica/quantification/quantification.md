@@ -72,7 +72,7 @@ qa:
 | --- | --- | --- |
 | **quantification** | binds a magnitude to a number under a declared unit and scale | — |
 | **measurement** (the genus) | assigns a value to an observable under a declared scale | wider: it also covers the classes that assign a label or a rank and bind no magnitude (see [measurement](/view.html?p=notes/epistemica/quantification/measurement.md)) |
-| **quantization** | replaces a value drawn from a continuum by one of finitely many levels | it discretizes a range of values; it binds nothing to a unit or a scale (see [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)) |
+| **quantization** | replaces a value drawn from a continuum by one of finitely many levels | it discretizes a range of values; it binds nothing to a unit or a scale (see [quantization](/view.html?p=notes/epistemica/signal/quantization.md)) |
 | **categorization** | assigns a label to an observable | a class of measurement that licenses equality alone — no order, no unit (see [categorization](/view.html?p=notes/epistemica/quantification/categorization.md)) |
 | **ordering** | assigns a rank to an observable | a class of measurement that licenses order but no distance (see [ordering](/view.html?p=notes/epistemica/quantification/ordering.md)) |
 | **measurement theory** | explains where a numerical assignment comes from | the representational account of the map, not the scheme it analyses (see [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)) |
@@ -329,7 +329,7 @@ qa:
 
 - [philosophia artium epistemicarum et operis](https://raw.githubusercontent.com/csiglab/naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [number](/view.html?p=notes/epistemica/mathematical/number/number.md) · [quantitative property](/view.html?p=notes/epistemica/mathematical/number/quantitative-property.md) · [ratio](/view.html?p=notes/epistemica/mathematical/number/ratio.md) · [fraction](/view.html?p=notes/epistemica/mathematical/number/fraction.md) · [numeric system](/view.html?p=notes/epistemica/mathematical/number/numeric-system.md) · [rounding](/view.html?p=notes/epistemica/mathematical/number/rounding.md)
-- [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md) · [system of units of measurement](/view.html?p=notes/epistemica/quantification/isu.md) · [enumeration (counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [quantization](/view.html?p=notes/epistemica/mathematical/quantization.md)
+- [measurement theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md) · [system of units of measurement](/view.html?p=notes/epistemica/quantification/isu.md) · [enumeration (counting)](/view.html?p=notes/epistemica/mathematical/discrete/enumeration-counting.md) · [measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [quantization](/view.html?p=notes/epistemica/signal/quantization.md)
 - [quantification (science)](https://en.wikipedia.org/wiki/quantification_(science))
 - stevens, s. s. (1946). on the theory of scales of measurement. *science*, 103(2684), 677–680.
 - suppes, p., krantz, d. h., luce, r. d., & tversky, a. (1971). *foundations of measurement, vol. i: additive and polynomial representations*. academic press.

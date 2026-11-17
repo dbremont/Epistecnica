@@ -8421,7 +8421,7 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/feynman-diagram.md",
+  "file_path": "epistemica/singular/feynman-diagram.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -8440,6 +8440,11 @@
     "summary": "Update Mean Field Theory and Renormalization Group links after the observational-scope flatten.",
     "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
     "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/feynman-diagram.md: a calculation technique of quantum field theory, filed with the physics that uses it."
    }
   ]
  },
@@ -8941,17 +8946,6 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/gibbs-free-energy.md",
-  "logs": [
-   {
-    "date": "2026-10-17",
-    "kind": "feat",
-    "summary": "Import Gibbs Free Energy from the Modelado Notion export.",
-    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
-   }
-  ]
- },
- {
   "file_path": "epistemica/mathematical/mapping/homogeneous-function.md",
   "logs": [
    {
@@ -9002,13 +8996,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/ising-model.md",
+  "file_path": "epistemica/singular/ising-model.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Ising Model from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/ising-model.md: a named model of a particular system — spins on a lattice — so it belongs to the science scope, not to the mathematics branch."
    }
   ]
  },
@@ -11415,7 +11414,7 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/quantization.md",
+  "file_path": "epistemica/signal/quantization.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -11485,6 +11484,11 @@
     "summary": "Retarget the Discretization link into the singular scope.",
     "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
     "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/quantization.md: the note is about *digitisation* — bits, signal-to-quantization noise, dithering — not about quantum quantisation, so it belongs with the signal corpus."
    }
   ]
  },
@@ -11625,13 +11629,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/scalar-field.md",
+  "file_path": "epistemica/mathematical/tensor/scalar-field.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Scalar Field from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/scalar-field.md: a rank-0 tensor field, filed with tensor-field and the field tensors it generalises."
    }
   ]
  },
@@ -14635,13 +14644,18 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/universal-induction.md",
+  "file_path": "epistemica/epistemic/guidance/principle/universal-induction.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Universal Induction from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/universal-induction.md: an inductive principle rather than a mathematical object; filed on the principle shelf with Occam, MDL and the pigeonhole principle."
    }
   ]
  },

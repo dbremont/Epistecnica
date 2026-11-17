@@ -12,7 +12,7 @@ tags: [note, mathematics, method, technique, foundation]
 >
 > **Type.** An `Epistemic Method` — a reproducible order of acts (base case, induction hypothesis, step). It is not the axiom it rests on, and not the [ordinal](/view.html?p=notes/epistemica/epistemic/theory/foundation/ordinal.md) recursion that generalizes it.
 >
-> **Boundary.** Induction proves statements about *discrete, well-founded* structures. It does not prove real-valued statements, and "induction" in the epistemic sense — [universal induction](../../universal-induction.md), Solomonoff's prior — is a different thing entirely.
+> **Boundary.** Induction proves statements about *discrete, well-founded* structures. It does not prove real-valued statements, and "induction" in the epistemic sense — [universal induction](../../../epistemic/guidance/principle/universal-induction.md), Solomonoff's prior — is a different thing entirely.
 
 ## The forms
 

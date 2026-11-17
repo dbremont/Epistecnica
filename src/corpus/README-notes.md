@@ -155,7 +155,7 @@ companion is `/corpus/notes/epistemica/ees.md`.
   as `scale` instances in both the master's and the quantitative note's tables.
   Quantization -- the discretization that replaces a continuum value by one of
   finitely many levels -- is the scheme's downstream neighbour and stays in
-  `epistemica/mathematical/quantization.md`; the two are distinguished in both
+  `epistemica/signal/quantization.md`; the two are distinguished in both
   notes' tables. `epistemica/mathematical/number/quantification.md` is a
   symlink kept at the note's former address -- the indexer skips symlinks, so
   it never becomes a second corpus entry.
