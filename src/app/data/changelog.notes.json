@@ -110413,7 +110413,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the theoretical pedagogues: twelve theories of formation — Kant's autonomy, Humboldt's Bildung, Herbart's ordered instruction, Confucius's cultivation, and the didactic, natural, progressive, constructivist and critical lines that follow them — with their works in the references, and link the Human Formation Facet the empty reference list was pointing at."
+    "summary": "Add the theoretical pedagogues: twelve theories of formation — Kant's autonomy, Humboldt's Bildung, Herbart's ordered instruction, Confucius's cultivation, and the didactic, natural, progressive, constructivist and critical lines that follow them — with their works in the references, and link the Human Formation Facet the empty reference list was pointing at.",
+    "commit": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c",
+    "before": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c"
    }
   ]
  }
