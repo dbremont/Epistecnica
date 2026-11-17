@@ -98886,6 +98886,11 @@
     "summary": "Add the SEP frame and school map, expand the statecraft table with mercantilist, cameralist, Iberian, Scandinavian and Russian figures, and link existing persona notes.",
     "commit": "b88c07d17dc3b74c51f5705af64bd8edccc76bdb",
     "before": "f3977a4ac97c936d6f4aca713da97a7615bacc3b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Cary row links the 1695 library entry, so the corpus cites the book rather than describing it."
    }
   ]
  },
@@ -122198,6 +122203,11 @@
     "summary": "The stub becomes a note on the Bristol merchant John Cary (c. 1645–1720), and the wrong link is gone: it pointed at John Cary the surveyor and map-maker (c. 1754–1835), a different man two generations later. Position table on employment rather than the balance of coin, the poor as a matter of regulation rather than alms, money as an instrument of trade, and commerce as a public ordering; works table for the Essay of 1695, the essay on regulating trade and employing the poor of 1717, and the posthumous Discourse; and a note on why his Bristol explains the shape of the argument.",
     "commit": "9c1fa9dfd1491f81bf6b79f2b67afdfb83afcfad",
     "before": "4382894b7b550c82929b56dff24ab49f4a253194"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the 1695 essay now cites the library entry rather than a bare citation, and the works table links it."
    }
   ]
  },
