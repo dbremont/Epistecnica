@@ -372,11 +372,11 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 - [Patria](https://es.wikipedia.org/wiki/Patria)
 - [Matria](https://es.wikipedia.org/wiki/Matria)
 - [Metrópoli](https://es.wikipedia.org/wiki/Metr%C3%B3poli)
-- David M. Schneider — A Critique of the Study of Kinship (1984)
+- [David M. Schneider](/view.html?p=notes/social/collective/actor/private/persona/david-m-schneider.md) — A Critique of the Study of Kinship (1984)
 - Eduardo Viveiros de Castro — The Relative Native: Essays on Indigenous Conceptual Worlds (2015)
 - Janet Carsten — After Kinship (2004).
 - Janet Carsten — The Heat of the Hearth: The Process of Kinship in a Malay Fishing Community (1997)
-- Margaret Gilbert — On Social Facts (1989)
+- [Margaret Gilbert](/view.html?p=notes/social/collective/actor/private/persona/margaret-gilbert.md) — On Social Facts (1989)
 - Christian List and Philip Pettit — Group Agency: The Possibility, Design, and Status of Corporate Agents (2011)
 - John R. Searle — Making the Social World: The Structure of Human Civilization (2010)
 - Raimo Tuomela — Social Ontology: Collective Intentionality and Group Agents (2013)
