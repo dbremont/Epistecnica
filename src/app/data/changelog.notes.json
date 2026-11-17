@@ -13996,7 +13996,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home."
+    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950",
+    "before": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -38459,7 +38461,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home."
+    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950",
+    "before": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -45290,7 +45294,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home."
+    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950",
+    "before": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119117,7 +119123,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home."
+    "summary": "Retarget the links to the renamed `nature/result/` shelf and to the Hartree–Fock method at its new home.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950",
+    "before": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119138,7 +119146,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hartreefock-hf-method.md: the Hartree–Fock method is a routine of the inquiry, not a result about nature — a method belongs with the science scope, beside the other quantum-chemistry methods, not on the results shelf."
+    "summary": "Move from nature/construction/hartreefock-hf-method.md: the Hartree–Fock method is a routine of the inquiry, not a result about nature — a method belongs with the science scope, beside the other quantum-chemistry methods, not on the results shelf.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119148,7 +119157,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/alphafold-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/alphafold-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119158,7 +119168,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/anfinsens-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/anfinsens-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119168,7 +119179,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/avogadro-s-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/avogadro-s-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119178,7 +119190,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/bayesian-inference-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/bayesian-inference-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119188,7 +119201,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/biophysical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/biophysical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119198,7 +119212,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/bohr-model-1913.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/bohr-model-1913.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119208,7 +119223,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/boltzmann-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/boltzmann-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119218,7 +119234,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/bonding-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/bonding-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119228,7 +119245,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/causal-inference.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/causal-inference.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119238,7 +119256,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/character-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/character-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119248,7 +119267,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/chemical-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/chemical-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119258,7 +119278,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/chemical-kinetics-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/chemical-kinetics-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119268,7 +119289,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/chemical-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/chemical-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119278,7 +119300,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/chemotaxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/chemotaxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119288,7 +119311,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/chromosomal-theory.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/chromosomal-theory.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119298,7 +119322,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/cladistic-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/cladistic-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119308,7 +119333,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/clarifying-bells-theorem.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/clarifying-bells-theorem.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119318,7 +119344,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/classical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/classical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119328,7 +119355,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/coalescent-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/coalescent-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119338,7 +119366,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/complex-phasor-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/complex-phasor-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119348,7 +119377,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/computational-framework.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/computational-framework.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119358,7 +119388,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/connectome.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/connectome.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119368,7 +119399,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/constitutive-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/constitutive-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119378,7 +119410,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/constitutive-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/constitutive-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119388,7 +119421,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/continuous-body/eulers-critical-load.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/continuous-body/eulers-critical-load.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119398,7 +119432,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/cooperative-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/cooperative-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119408,7 +119443,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/coupled-cluster-cc-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/coupled-cluster-cc-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119418,7 +119454,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/differential-equation-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/differential-equation-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119428,7 +119465,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/dirac-equation-for-the-hydrogen-atom.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/dirac-equation-for-the-hydrogen-atom.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119438,7 +119476,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/direct-simulation-monte-carlo-dsmc.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/direct-simulation-monte-carlo-dsmc.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119448,7 +119487,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/distance-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/distance-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119458,7 +119498,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/earth-orbit-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/earth-orbit-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119468,7 +119509,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/ecotype-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/ecotype-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119478,7 +119520,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/effective-field-theories-nrqed.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/effective-field-theories-nrqed.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119488,7 +119531,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/empirical-correlation-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/empirical-correlation-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119498,7 +119542,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/equilibrium-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/equilibrium-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119508,7 +119553,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/essential-laws-underlying-chemical-reactions.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/essential-laws-underlying-chemical-reactions.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119518,7 +119564,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/evaluating-a-classification-system.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/evaluating-a-classification-system.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119528,7 +119575,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/fitzhugh-nagumo-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/fitzhugh-nagumo-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119538,7 +119586,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/fluid-dynamics-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/fluid-dynamics-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119548,7 +119597,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/formal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/formal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119558,7 +119608,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/formalism.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/formalism.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119568,7 +119619,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/graph-theoretic-property.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/graph-theoretic-property.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119578,7 +119630,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/gravitation/einstein-field-equations.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/gravitation/einstein-field-equations.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119588,7 +119641,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hartree-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hartree-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119598,7 +119652,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hinge-bending-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hinge-bending-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119608,7 +119663,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hodgkin-huxley-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hodgkin-huxley-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119618,7 +119674,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/homology-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/homology-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119628,7 +119685,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hydrogenic-atom-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hydrogenic-atom-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119638,7 +119696,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hypothesis-on-the-origin-of-life.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hypothesis-on-the-origin-of-life.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119648,7 +119707,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/hypothesis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/hypothesis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119658,7 +119718,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/ideal-gas-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/ideal-gas-law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119668,7 +119729,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/induced-fit-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/induced-fit-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119678,7 +119740,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/information-theoretic-thermodynamics.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/information-theoretic-thermodynamics.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119688,7 +119751,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/information-theory-computation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/information-theory-computation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119698,7 +119762,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/integrate-and-fire-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/integrate-and-fire-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119708,7 +119773,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/integrate-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/integrate-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119718,7 +119784,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/interpretation-and-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/interpretation-and-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119728,7 +119795,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/izhikevich-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/izhikevich-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119738,7 +119806,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/lattice-dynamics-and-phonon-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/lattice-dynamics-and-phonon-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119748,7 +119817,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/law.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119758,7 +119828,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/leaky-integrate-and-fire-lif-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/leaky-integrate-and-fire-lif-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119768,7 +119839,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/likelihood-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/likelihood-based-methods.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119778,7 +119850,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/linnaean-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/linnaean-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119788,7 +119861,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/list-of-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/list-of-theories.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119798,7 +119872,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/lock-and-key-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/lock-and-key-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119808,7 +119883,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/mathematical-model-near-earth-s-surface.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/mathematical-model-near-earth-s-surface.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119818,7 +119894,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/mathematical-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/mathematical-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119828,7 +119905,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/mcculloch-pitts-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/mcculloch-pitts-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119838,7 +119916,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/mechanisms-underlying-power-law-patterns.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/mechanisms-underlying-power-law-patterns.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119848,7 +119927,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/mllerplesset-perturbation-theory-mpn.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/mllerplesset-perturbation-theory-mpn.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119858,7 +119938,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/model-limits.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/model-limits.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119868,7 +119949,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119878,7 +119960,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/modulation-signal-encoding-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/modulation-signal-encoding-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119888,7 +119971,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/numerical-methods-fdtd-fem-method-of-moments.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/numerical-methods-fdtd-fem-method-of-moments.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119898,7 +119982,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/numerical-taxonomy-phenetics.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/numerical-taxonomy-phenetics.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119908,7 +119993,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/one-dimensional-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/one-dimensional-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119918,7 +120004,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/paleotaxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/paleotaxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119928,7 +120015,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/phenomenological-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/phenomenological-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119938,7 +120026,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/anthropic-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/anthropic-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119948,7 +120037,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/equivalence-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/equivalence-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119958,7 +120048,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/galilean-relativity-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/galilean-relativity-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119968,7 +120059,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/heisenberg-uncertainty-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/heisenberg-uncertainty-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119978,7 +120070,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/pauli-exclusion-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/pauli-exclusion-principle.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119988,7 +120081,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/principle-of-ph-measurement.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/principle-of-ph-measurement.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -119998,7 +120092,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/principle-of-relativity.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/principle-of-relativity.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120008,7 +120103,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/principle-of-superposition.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/principle-of-superposition.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120018,7 +120114,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/principle/symmetry.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/principle/symmetry.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120028,7 +120125,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/quantum-formalism-photon-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/quantum-formalism-photon-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120038,7 +120136,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/quantum-mechanics-based-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/quantum-mechanics-based-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120048,7 +120147,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/reaction-modelling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/reaction-modelling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120058,7 +120158,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/reaction-rate-laws.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/reaction-rate-laws.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120068,7 +120169,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/representation-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/representation-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120078,7 +120180,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/representation-type.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/representation-type.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120088,7 +120191,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/schrodinger-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/schrodinger-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120098,7 +120202,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/semiclassical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/semiclassical-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120108,7 +120213,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/signal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/signal-representation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120118,7 +120224,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/simplified-combustion-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/simplified-combustion-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120128,7 +120235,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/skeletal-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/skeletal-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120138,7 +120246,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/soil-classification-systems.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/soil-classification-systems.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120148,7 +120257,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/specific-formulation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/specific-formulation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120158,7 +120268,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/stochastic-noise-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/stochastic-noise-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120168,7 +120279,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/structural-ensemble-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/structural-ensemble-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120178,7 +120290,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/structural-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/structural-formula.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120188,7 +120301,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/system-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/system-taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120198,7 +120312,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/systems-theory.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/systems-theory.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120208,7 +120323,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/taxonomic-rank.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/taxonomic-rank.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120218,7 +120334,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/taxonomy.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120228,7 +120345,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/theoretical-modelling-school-s.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/theoretical-modelling-school-s.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120238,7 +120356,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/thermal-statistical-effects.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/thermal-statistical-effects.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120248,7 +120367,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/thermodynamic-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/thermodynamic-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120258,7 +120378,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/threading-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/threading-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120268,7 +120389,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/time-frequency-analysis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/time-frequency-analysis.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120278,7 +120400,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/tool-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/tool-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120288,7 +120411,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/topological-and-modern-quantum-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/topological-and-modern-quantum-frameworks.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120298,7 +120422,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/turbulence-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/turbulence-modeling.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120308,7 +120433,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/uncertainty-quantification-in-transport-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/uncertainty-quantification-in-transport-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120318,7 +120444,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/value-representations.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/value-representations.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120328,7 +120455,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/van-der-waals-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/van-der-waals-equation.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120338,7 +120466,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/vii-by-theoretical-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/vii-by-theoretical-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120348,7 +120477,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/virial-equation-of-state.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/virial-equation-of-state.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120358,7 +120488,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/wilson-cowan-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/wilson-cowan-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  },
@@ -120368,7 +120499,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/construction/zero-dimensional-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves."
+    "summary": "Move from nature/construction/zero-dimensional-models.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
+    "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
    }
   ]
  }
