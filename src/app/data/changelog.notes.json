@@ -18030,6 +18030,11 @@
     "date": "2026-10-29",
     "kind": "fix",
     "summary": "Retarget the Distribution link to the renamed distribution.md."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link where optimal transport meets statistical inference."
    }
   ]
  },
@@ -20113,6 +20118,11 @@
     "kind": "feat",
     "summary": "Import Combinatorial Optimization from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the transportation theory as the continuous relaxation of the assignment problem."
    }
   ]
  },
@@ -23202,6 +23212,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/transportation-system.md to epistemica/singular/transportation-system.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the disambiguation from the mathematics of optimal transfer."
    }
   ]
  },
@@ -59151,6 +59166,11 @@
     "kind": "feat",
     "summary": "add Soviet-era scientist persona note",
     "commit": "6a471a0d242cf746352d0ce6279c65b9ecf47578"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the theory he recast as a linear program."
    }
   ]
  },
@@ -120779,6 +120799,26 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/meaning.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/transport/transport.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "New branch master for transport: the transfer problem framed by its four slots — source, target, carrier, cost or constraint — with a table of what is carried (mass, flow, density, probability, information, indivisible units), a table of the branches (optimal transport, network flow, transport equations, Markov kernels, assignment, channels), and QA on why a flow is not a transport, why the cost is what makes transport optimal, why the assignment problem is its discrete case, and why the physical transport equations stay in the natural corpus."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/transport/transportation-theory.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "New note on the Monge–Kantorovich theory: Monge’s 1781 earthworks problem and why his map can fail to exist, Kantorovich’s 1942 coupling and the linear program it becomes, Kantorovich duality and the shipper’s prices, Brenier’s gradient-of-a-convex-potential theorem, McCann’s displacement convexity and Otto’s Wasserstein geometry, the Benamou–Brenier dynamic formulation, and the Sinkhorn/Cuturi computational turn. The literature map sorts the field into seven clusters — origins and the linear program, the measure-theoretic formulation, geometry and PDE, computation, economics and matching, statistics and machine learning, applications — each with its canonical works and what they established, plus one integrated APA list of 30 sources and QA on the plan versus the map, the role of the cost, and whether Wasserstein is a metric."
    }
   ]
  }

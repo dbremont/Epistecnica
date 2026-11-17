@@ -56,6 +56,10 @@ Manifold View
 - How does problems related to core statitical - proabilty thoery?
 - What are the tools used?
 
+## Related
+
+- [Transportation Theory](/view.html?p=notes/epistemica/mathematical/transport/transportation-theory.md) — where optimal transport meets statistical inference
+
 ## References
 
 - https://en.wikipedia.org/wiki/Information_geometry
