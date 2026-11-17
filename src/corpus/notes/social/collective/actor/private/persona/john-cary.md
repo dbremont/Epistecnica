@@ -22,7 +22,7 @@ tags: [note, actor, person, trade, england]
 
 | **Work** | **Year** | **Type** | **Description** |
 | --- | --- | --- | --- |
-| [*An Essay on the State of England, in Relation to its Trade, its Poor, and its Taxes*](/view.html?p=documents/books/cary-1695-essay-on-the-state-of-england-bonny.md) | 1695 | Political economy | The systematic statement: trade, employment, poor relief and taxation argued together, in war time. |
+| [*An Essay on the State of England, in Relation to its Trade, its Poor, and its Taxes, for Carrying on the Present War against France*](/view.html?p=documents/books/cary-1695-essay-on-the-state-of-england-bonny.md) | 1695 | Political economy | The systematic statement: trade, employment, poor relief and taxation argued together, in war time. |
 | *An Essay towards Regulating the Trade, and Employing the Poor of this Kingdom* | 1717 | Political economy | The institutional proposal — regulation of trade and the employment of the poor as one scheme. |
 | *A Discourse on Trade, and Other Matters Relative to It* | 1745 | Political economy | Posthumous collection; the pieces gathered and reprinted through the eighteenth century. |
 
@@ -34,7 +34,7 @@ His Bristol is the reason the argument has a shape. A port city whose trade ran 
 
 ## References
 
-- [*An essay on the state of England, in relation to its trade, its poor, and its taxes*](/view.html?p=documents/books/cary-1695-essay-on-the-state-of-england-bonny.md) (1695) — the library entry, with the Early English Books scan
+- Cary, J. (1695). *An essay on the state of England, in relation to its trade, its poor, and its taxes, for carrying on the present war against France*. Bristol: W. Bonny. — [library entry](/view.html?p=documents/books/cary-1695-essay-on-the-state-of-england-bonny.md), with the Early English Books scan
 - Cary, J. (1717). *An essay towards regulating the trade, and employing the poor of this kingdom*. London.
 - Cary, J. (1745). *A discourse on trade, and other matters relative to it*. London: T. Osborne.
 - [The Art of Economic Statecraft](/view.html?p=notes/unclassified/the-art-of-economic-statecraft.md) — where he is cited for the 1695 essay
