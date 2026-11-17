@@ -121876,6 +121876,11 @@
     "kind": "create",
     "summary": "New note: the Doppler effect, filed as a propagation phenomenon rather than a property of frequency. The note's content is the asymmetry the classical formula encodes — a moving source changes the wavelength in the medium, a moving observer only changes how often wavefronts are met, and in light the two are one case, which is where special relativity starts. Regimes: acoustic, relativistic, and the transverse term that has no classical analogue. Its sharpest section separates the effect from cosmological redshift, which looks like its recession term at low redshift and is a statement about the metric rather than about motion.",
     "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the laser Doppler vibrometer added beside radar, with the note that its shift is doubled by the return path."
    }
   ]
  },
@@ -121964,6 +121969,16 @@
     "kind": "create",
     "summary": "New note: the piezoelectric effect as one reversible coupling read in two directions, and the single structural condition that makes it exist at all — the absence of a centre of symmetry, which is why quartz has it and table salt does not. Direct and converse kinds, the resonator as the standard application, poling as the trick that gives a cheap ceramic the effect, and the Curie temperature as the operating bound.",
     "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/laser-doppler-vibrometer.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New technica note: the laser Doppler vibrometer, filed beside radar on the industry shelf and typed the same way — a Production Technical Object, a produced electromagnetic measurement instrument rather than a production plant. The note is organised around the three details that make the instrument what it is: the factor of two (the beam goes to the surface and back, so the shift is 2v/lambda and the output is velocity directly), heterodyne detection with a Bragg cell (without the carrier a fringe-counting system measures speed but not sign), and speckle (the surface is rarely a mirror, which is why retroreflective tape is part of the method). The instance tree decomposes the assembly, the configuration that decides validity (stand-off and focus, velocity range, surface treatment), the instrument kinds by function (single-point, scanning, three-dimensional, differential) and the evaluations that bound it: line-of-sight constraint, speckle dropout, and calibration traceability through the wavelength rather than a shaker."
    }
   ]
  }
