@@ -12,8 +12,6 @@ qa:
 
 > It is not a university laboratory with a budget. It is one of Hong Kong's **five key R&D institutions**, funded as a standing piece of the innovation system rather than as a project, and it has been given the operation of Hong Kong's first **national manufacturing innovation centre** — which says the government's diagnosis of the bottleneck was not discovery but the industrial uptake of it.
 
-![alt text](image.png)
-
 ## Profile
 
 | Dimension | Value |
@@ -111,6 +109,7 @@ The centre of the chart states the mandate in the institute's own words: *"Colla
 - Hong Kong Special Administrative Region Government. (2023). *The Chief Executive's 2023 Policy Address*. — the announcement
 - Hong Kong Special Administrative Region Government. (2026). *The Chief Executive's 2026 Policy Address* and the *First Five-Year Plan for Economic and Social Development (2026–2030)*. — the reaffirmation as one of five key R&D institutions, and the national manufacturing innovation centre
 - [SCMP — Hong Kong to seek HK$2.84 billion funding for chip research institute](https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3245655/hong-kong-seek-hk284-billion-funding-chip-research-institute-us-led-tech-restrictions-will-not)
+- [Board](/view.html?p=notes/social/collective/actor/board.md) — the collegial body the chart puts at the top: mandate-holders who decide direction and answer for conduct
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the type this instance is: an organization wielding delegated public authority under law
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) — the parent type; what individuates a public organization is its relation to authority, not its internal machinery
 - [Government](/view.html?p=notes/social/collective/actor/public/government.md) · [Public Administration](/view.html?p=notes/social/collective/actor/public/administration.md) · [Civil Service](/view.html?p=notes/social/collective/actor/public/civil-service.md) · [Government-Wide Administrative System](/view.html?p=notes/social/collective/actor/public/gov-wide-administration.md) · [Municipal Government](/view.html?p=notes/social/collective/actor/public/municipal-government.md)

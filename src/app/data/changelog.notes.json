@@ -121880,6 +121880,11 @@
     "summary": "Governance section added, with the organisation chart moved into the shared asset store (note/social/collective/actor/private/research/hkg/mrdi-organisation-chart.png). The chart changes the note rather than illustrating it: the board splits into Audit, Finance and Administration, and Technology committees, so the technology judgement cannot audit itself; the Internal Audit Section reports up the board line, outside the executive divisions, which is the control that makes a HK$2.8 billion institution credible; and the five divisions under the CEO are Corporate Services, Process and Technology, Third Generation Semiconductor Packaging and Modules, Design and Application, and Quality Control and Reliability — four of them technical and none of them called research. The 1-to-N mandate is therefore drawn into the structure, which is the evidence the note previously carried only as a quotation.",
     "commit": "cfbe2bd607ca7cb95d0655e95ec1d688b20448c9",
     "before": "099df2bd9dea7dc09970d20a6443cc546f96002d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Board note added at the head of the public-organisation block — the collegial body the organisation chart puts at the top, and the note that types it (Agency; Governing Board)."
    }
   ]
  },
