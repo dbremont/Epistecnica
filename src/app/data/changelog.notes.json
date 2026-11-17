@@ -6191,7 +6191,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Present the literature as one flat list in chronological order, from Cavalieri (1635) to the DLMF (2024), instead of alphabetically with bold group headers; the undated lookup pages and corpus links keep their order at the end."
+    "summary": "Present the literature as one flat list in chronological order, from Cavalieri (1635) to the DLMF (2024), instead of alphabetically with bold group headers; the undated lookup pages and corpus links keep their order at the end.",
+    "commit": "ef2a8d88054a5b0d5eca45a40c4a809eabf4cafb",
+    "before": "ef2a8d88054a5b0d5eca45a40c4a809eabf4cafb"
    }
   ]
  },
