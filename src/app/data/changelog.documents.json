@@ -37655,7 +37655,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the paper: APA citation, bibtex, DOI/PubMed/PMC links, and a real note section — the thesis that brain parameters are lognormal rather than Gaussian, the multiplicative mechanism behind it, the seven levels it surveys from LFP power to axon calibres, the \"selected minority does most of the work\" reading, and the sampling caveats that truncate the slow-firing tail."
+    "summary": "Add the paper: APA citation, bibtex, DOI/PubMed/PMC links, and a real note section — the thesis that brain parameters are lognormal rather than Gaussian, the multiplicative mechanism behind it, the seven levels it surveys from LFP power to axon calibres, the \"selected minority does most of the work\" reading, and the sampling caveats that truncate the slow-firing tail.",
+    "commit": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6",
+    "before": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6"
    }
   ]
  }

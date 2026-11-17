@@ -37034,7 +37034,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Cite Buzsáki & Mizuseki (2014) for the firing-rate distribution."
+    "summary": "Cite Buzsáki & Mizuseki (2014) for the firing-rate distribution.",
+    "commit": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6",
+    "before": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6"
    }
   ]
  },
@@ -119146,7 +119148,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Cite Buzsáki & Mizuseki (2014) for the distinction between the power law and the lognormal."
+    "summary": "Cite Buzsáki & Mizuseki (2014) for the distinction between the power law and the lognormal.",
+    "commit": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6",
+    "before": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6"
    }
   ]
  },
