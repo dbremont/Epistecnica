@@ -121864,7 +121864,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the public-organisation notes added — Public Organization as the type, Organization as its parent, the government, administration, civil-service, government-wide and municipal notes, Legislature and Committee for the Finance Committee approval, and the Hong Kong polity that established the institute."
+    "summary": "References: the public-organisation notes added — Public Organization as the type, Organization as its parent, the government, administration, civil-service, government-wide and municipal notes, Legislature and Committee for the Finance Committee approval, and the Hong Kong polity that established the institute.",
+    "commit": "2cecfb2f6809cd9d0c8fc7b1919a70d8717380c1",
+    "before": "3c2ee12b070c1bd361cf29069a6743c3cb182b6c"
    }
   ]
  },
