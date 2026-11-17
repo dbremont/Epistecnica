@@ -26,6 +26,52 @@ qa:
 
 The ministries are deliberately small — their business is preparation and coordination, not operations — and the agencies are deliberately many, each with a defined field, a director-general appointed by the government for a fixed term, and an annual report against its instructions.
 
+## The model in one table
+
+| **Element** | **Swedish model** |
+| --- | --- |
+| **Legal status** | Separate government authority |
+| **Parent** | Government, through the relevant ministry's field |
+| **Political control** | Government collectively |
+| **Operational management** | Agency leadership |
+| **Head** | Director-General or equivalent |
+| **Funding** | State budget appropriation (*anslag*) |
+| **General mandate** | Government ordinance and instructions (*instruktion*) |
+| **Annual direction** | Appropriation directions (*regleringsbrev*) |
+| **Reporting** | Annual report to the government |
+| **Evaluation** | Government follow-up and evaluation, plus audit |
+| **Individual cases** | **Ministers cannot intervene** |
+| **Staff** | Agency employees, not ministry employees |
+
+The pair that does the work is **general mandate** and **annual direction**: the instruction states what the agency is for, and the appropriation directions state what it is to do this year and what it must report. Both are government instruments; neither may be used to decide a case.
+
+## The steering cycle
+
+```text
+       GOVERNMENT
+           │  mandate
+           │  budget
+           │  objectives
+           ▼
+      ┌───────────┐
+      │   AGENCY  │
+      └───────────┘
+           │  operations
+           │  outputs
+           │  outcomes
+           ▼
+      ANNUAL REPORT
+           │
+           ▼
+       GOVERNMENT
+           │
+           ▼
+     FOLLOW-UP /
+      EVALUATION
+```
+
+The cycle is the whole trick: the government steers **ex ante** by mandate, budget and objectives, and **ex post** by report, evaluation and audit — and never in the case, which is what the constitutional prohibition removes from the repertoire. Independence is therefore not the absence of steering; it is steering at a different distance.
+
 ## The constitutional core
 
 The prohibition of ministerial rule (*förbud mot ministerstyre*) is the load-bearing clause, and it is worth being precise about what it does and does not say. It does not say that ministers are uninformed or unaccountable; they answer in the Riksdag for the agency's field, and they appoint its head. It says that the *decision in the case* belongs to the agency, and that no one above it may take that decision away.
@@ -36,6 +82,30 @@ Two supporting institutions make the arrangement work rather than merely exist:
 
 - **The principle of public access** (*offentlighetsprincipen*), in the Freedom of the Press Act since 1766: official documents are public by default, which turns the agency's independence into something a citizen can inspect rather than something a minister can vouch for.
 - **Administrative courts** and the ombudsmen: appeals and oversight run on legality, so an agency's error is corrected by review rather than by ministerial direction.
+
+## Who appoints whom
+
+| **Position** | **Who appoints** | **Typical role** |
+| --- | --- | --- |
+| **Director-General / agency head** | **The government** | Chief executive, responsible for the agency's operations |
+| **Deputy Director-General** | **The government** | Deputy and second-in-command |
+| **County Governor / County Director** | **The government** | Leadership of the county administrative boards |
+| **Other senior positions** | Usually **the agency itself** | Internal management |
+
+The appointment of an agency head is the one place where the government reaches inside the agency, and it is a single appointment rather than a continuing power: the government chooses the person, the person then runs the agency. Swedish government policy states the constraint on that choice — applicants assessed **solely on merit and competence**, in a process intended to be **predictable, open and traceable**. The rule exists because an appointment power that is unchecked would restore, once per term, exactly the patronage the prohibition of ministerial rule removes case by case.
+
+Staff selection follows from the same logic: the agency hires its own people, who are **agency employees and not ministry employees**. The separation is constitutional at the top and everyday at the bottom.
+
+## Who does what
+
+| **Question** | **Answer** |
+| --- | --- |
+| Who appoints leadership? | The government |
+| Who actually manages? | The agency's leadership |
+| Who defines the mandate? | The Riksdag (by law and budget) and the government (by instruction) |
+| Who evaluates and monitors results? | The government, with the audit and evaluation institutions |
+| Who decides individual cases? | The agency, independently of ministerial intervention |
+| Who employs the staff? | The agency |
 
 ## The costs
 
@@ -63,6 +133,8 @@ The Swedish form is the one that makes independence a constitutional fact rather
 - Pierre, J. (Ed.). (2016). *The Oxford handbook of Swedish politics*. Oxford University Press. — the arrangement set in its political and administrative context
 - [Government agencies in Sweden](https://en.wikipedia.org/wiki/Government_agencies_in_Sweden)
 - [Politics of Sweden](https://en.wikipedia.org/wiki/Politics_of_Sweden)
+- [Public agencies and how they are governed](https://www.government.se/how-sweden-is-governed/public-agencies-and-how-they-are-governed/) — the government's own account of the mandate, direction and reporting relationship
+- [How state administration works in Sweden](https://www.government.se/government-policy/central-government-administration/how-state-administration-works-in-sweden/) — the appointment of agency heads, and the merit principle stated as policy
 - [Sweden](/view.html?p=notes/social/collective/actor/public/polity/swe/sweden.md) — the polity whose machinery this is
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — where the Swedish Government Agency is a kind, and the three forms are compared
 - [Government](/view.html?p=notes/social/collective/actor/public/government.md) · [Public Administration](/view.html?p=notes/social/collective/actor/public/administration.md) — the generic elements this system instantiates
