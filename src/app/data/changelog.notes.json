@@ -6201,6 +6201,11 @@
     "summary": "References completed with the discrete counterpart of the integral: Taylor's *Linear perspective* (1715) and *Methodus incrementorum directa et inversa* (1717), both with archive.org scans, inserted in year order between Leibniz (1686) and Newton (1736). The 1717 entry is annotated as the method of increments — finite differences and the sum as their inverse — which is what the \"sum\" in Leibniz's ∫ denotes. Four Wikipedia links added to the notation line: fundamental theorem of calculus, limits of integration, indefinite sum, finite difference.",
     "commit": "be5582a3723cd5c6eb3b0262660944c8eb26210b",
     "before": "be5582a3723cd5c6eb3b0262660944c8eb26210b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with the spectral volume named as the operator reading the note takes."
    }
   ]
  },
@@ -10297,6 +10302,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with Vol. I named for the calculus of variations, the Dirichlet principle and the eigenvalue problems."
    }
   ]
  },

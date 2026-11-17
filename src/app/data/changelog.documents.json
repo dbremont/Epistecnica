@@ -37706,5 +37706,15 @@
     "commit": "7902a585596d5a4ac0c4164f4ce2e4b85e467b60"
    }
   ]
+ },
+ {
+  "file_path": "books/courant-hilbert-1953-1962-methods-of-mathematical-physics-interscience.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "Library entry for the two-volume Courant-Hilbert, citing the expanded English edition (Vol. 1 1953, Vol. 2 1962) of Methoden der mathematischen Physik. The note divides the volumes by problem and by apparatus: Vol. 1 takes the calculus of variations and the PDE theory and never separates the variational from the differential reading of an equation, while Vol. 2 carries the advanced PDE theory with Hilbert's integral-equation apparatus, reducing a differential operator to a kernel so that the spectrum becomes computable. The archive.org lending copies of both volumes are recorded, with Courant's 1941 NYU lecture course as the related item from which the volumes grew. Cited from the integral-operator and variational-method notes."
+   }
+  ]
  }
 ]

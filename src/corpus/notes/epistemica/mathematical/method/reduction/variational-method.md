@@ -276,7 +276,7 @@ For any normalized $|\psi\rangle$ that is not the true ground state $|0\rangle$,
 - Ritz, W. (1909). Über eine neue Methode zur Lösung gewisser Variationsprobleme der mathematischen Physik. *Journal für die reine und angewandte Mathematik*.
 - Hilbert, D. (1904). Über das Dirichletsche Prinzip. *Jahresbericht der Deutschen Mathematiker-Vereinigung*.
 - Noether, E. (1918). Invariante Variationsprobleme. *Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen*.
-- Courant, R. & Hilbert, D. (1953). *Methods of Mathematical Physics*, Vol. I. Interscience.
+- [Courant, R., & Hilbert, D. (1953–1962). *Methods of mathematical physics* (Vols. 1–2). Interscience.](/view.html?p=documents/books/courant-hilbert-1953-1962-methods-of-mathematical-physics-interscience.md) — the calculus of variations in Vol. I, with the Dirichlet principle and the eigenvalue problems
 - Gelfand, I. M. & Fomin, S. V. (1963). *Calculus of Variations*. Prentice-Hall.
 - Lanczos, C. (1970). *The Variational Principles of Mechanics* (4th ed.). University of Toronto Press.
 - Heitler, W. & London, F. (1927). Die Wechselwirkung neutraler Atome und homöopolare Bindung nach der Quantenmechanik. *Zeitschrift für Physik*, 44, 455–472.

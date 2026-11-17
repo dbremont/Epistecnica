@@ -194,7 +194,7 @@ Note:
 - Itô, K. (1944). Stochastic integral. *Proceedings of the Imperial Academy (Tokyo)*, 20(8), 519–524.
 - Feynman, R. P. (1948). Space-time approach to non-relativistic quantum mechanics. *Reviews of Modern Physics*, 20(2), 367–387.
 - Ritt, J. F. (1948). *Integration in finite terms: Liouville's theory of elementary methods*. Columbia University Press.
-- Courant, R., & Hilbert, D. (1953). *Methods of mathematical physics* (Vol. 1). Interscience.
+- [Courant, R., & Hilbert, D. (1953–1962). *Methods of mathematical physics* (Vols. 1–2). Interscience.](/view.html?p=documents/books/courant-hilbert-1953-1962-methods-of-mathematical-physics-interscience.md) — the spectral volume is the operator reading this note takes
 - Kurzweil, J. (1957). Generalized ordinary differential equations and continuous dependence on a parameter. *Czechoslovak Mathematical Journal*, 7(82), 418–449.
 - Tricomi, F. G. (1957). *Integral equations*. Interscience.
 - Henstock, R. (1963). *Theory of integration*. Butterworths. — the gauge integral, which integrates every derivative
