@@ -121736,7 +121736,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-growth-and-industry-structure-1844-2020.md: a country study of a development path: 1844 to 2020 of Dominican growth and industry structure is the kind of report the informe shelf is defined for, not a memorial proposal."
+    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-growth-and-industry-structure-1844-2020.md: a country study of a development path: 1844 to 2020 of Dominican growth and industry structure is the kind of report the informe shelf is defined for, not a memorial proposal.",
+    "commit": "01cd202a00c01f8b825b798d47de86ba8f499605"
    }
   ]
  },
@@ -121746,7 +121747,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/action/public/memorial/case-study-an-analysis-of-the-dominican-republics.md: a country case study, filed with the informe country studies rather than among the memorial proposals."
+    "summary": "Move from social/action/public/memorial/case-study-an-analysis-of-the-dominican-republics.md: a country case study, filed with the informe country studies rather than among the memorial proposals.",
+    "commit": "01cd202a00c01f8b825b798d47de86ba8f499605"
    }
   ]
  },
@@ -121756,7 +121758,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/action/public/memorial/an-essay-on-the-dominican-of-a-development-thinking.md: a school-of-thought essay, the same kind as the German historical school guide the informe shelf already carries."
+    "summary": "Move from social/action/public/memorial/an-essay-on-the-dominican-of-a-development-thinking.md: a school-of-thought essay, the same kind as the German historical school guide the informe shelf already carries.",
+    "commit": "01cd202a00c01f8b825b798d47de86ba8f499605"
    }
   ]
  },
@@ -121766,7 +121769,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-macroeconomics-stability.md: a country study of macroeconomic stability, filed with the informe country studies."
+    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-macroeconomics-stability.md: a country study of macroeconomic stability, filed with the informe country studies.",
+    "commit": "01cd202a00c01f8b825b798d47de86ba8f499605"
    }
   ]
  },
@@ -121776,7 +121780,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Index: the four Dominican notes moved in from memorial/ are listed."
+    "summary": "Index: the four Dominican notes moved in from memorial/ are listed.",
+    "commit": "01cd202a00c01f8b825b798d47de86ba8f499605",
+    "before": "1f397d9b2655ccbd45259eb5ca97ce07d693918e"
    }
   ]
  }
