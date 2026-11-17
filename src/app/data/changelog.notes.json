@@ -121863,7 +121863,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/phenomena.md: the note becomes the master of a new phenomena shelf, holding the general phenomena that recur across sound, light and matter, and the note itself is rewritten from a two-quote definition into the family index with the typing and the membership table."
+    "summary": "Move from nature/phenomena.md: the note becomes the master of a new phenomena shelf, holding the general phenomena that recur across sound, light and matter, and the note itself is rewritten from a two-quote definition into the family index with the typing and the membership table.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121873,7 +121874,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the Doppler effect, filed as a propagation phenomenon rather than a property of frequency. The note's content is the asymmetry the classical formula encodes — a moving source changes the wavelength in the medium, a moving observer only changes how often wavefronts are met, and in light the two are one case, which is where special relativity starts. Regimes: acoustic, relativistic, and the transverse term that has no classical analogue. Its sharpest section separates the effect from cosmological redshift, which looks like its recession term at low redshift and is a statement about the metric rather than about motion."
+    "summary": "New note: the Doppler effect, filed as a propagation phenomenon rather than a property of frequency. The note's content is the asymmetry the classical formula encodes — a moving source changes the wavelength in the medium, a moving observer only changes how often wavefronts are met, and in light the two are one case, which is where special relativity starts. Regimes: acoustic, relativistic, and the transverse term that has no classical analogue. Its sharpest section separates the effect from cosmological redshift, which looks like its recession term at low redshift and is a statement about the metric rather than about motion.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121883,7 +121885,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: interference as the visible content of superposition, and the argument that it belongs to neither wave alone — either wave gives a smooth intensity, only the pair gives structure. Mechanism through the path difference and the intensity law, with the fringe spacing as a ruler and visibility as the trace of coherence. Kinds: constructive, destructive, thin film; bounds: coherence and conservation of energy."
+    "summary": "New note: interference as the visible content of superposition, and the argument that it belongs to neither wave alone — either wave gives a smooth intensity, only the pair gives structure. Mechanism through the path difference and the intensity law, with the fringe spacing as a ruler and visibility as the trace of coherence. Kinds: constructive, destructive, thin film; bounds: coherence and conservation of energy.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121893,7 +121896,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: diffraction as the unavoidable consequence of a wave passing an aperture, and therefore the floor under every instrument's resolution. Fraunhofer and Fresnel regimes, the Rayleigh criterion, and the inversion that makes the same phenomenon an instrument — X-ray crystallography, electron diffraction, the grating."
+    "summary": "New note: diffraction as the unavoidable consequence of a wave passing an aperture, and therefore the floor under every instrument's resolution. Fraunhofer and Fresnel regimes, the Rayleigh criterion, and the inversion that makes the same phenomenon an instrument — X-ray crystallography, electron diffraction, the grating.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121903,7 +121907,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: resonance, the phenomenon vibration.md lists as a bound and had no note for. The mechanism is a phase condition plus an energy balance, and its consequence is that amplitude at resonance is set by dissipation rather than by the drive — halve the damping and double the peak, remove it and there is no steady state. Kinds by domain (mechanical, acoustic, electrical), attributes (quality factor, bandwidth), bounds (dissipation, structural capacity)."
+    "summary": "New note: resonance, the phenomenon vibration.md lists as a bound and had no note for. The mechanism is a phase condition plus an energy balance, and its consequence is that amplitude at resonance is set by dissipation rather than by the drive — halve the damping and double the peak, remove it and there is no steady state. Kinds by domain (mechanical, acoustic, electrical), attributes (quality factor, bandwidth), bounds (dissipation, structural capacity).",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121913,7 +121918,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: dispersion as the dependence of speed on frequency, with the two velocities it forces apart — phase and group — and the pulse broadening that follows from their difference. Material, waveguide and modal kinds; the zero-dispersion design as the case where two causes cancel; angular dispersion as the instrument."
+    "summary": "New note: dispersion as the dependence of speed on frequency, with the two velocities it forces apart — phase and group — and the pulse broadening that follows from their difference. Material, waveguide and modal kinds; the zero-dispersion design as the case where two causes cancel; angular dispersion as the instrument.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121923,7 +121929,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: polarisation as the orientation of a transverse wave, and the observation that makes it a separate degree of freedom — two beams of orthogonal polarisation do not interfere. Kinds (linear, circular, birefringence), the states and their Stokes description, and the bounds: transversality as the test of the wave\\'s nature, and Malus\\'s law as the quantitative one."
+    "summary": "New note: polarisation as the orientation of a transverse wave, and the observation that makes it a separate degree of freedom — two beams of orthogonal polarisation do not interfere. Kinds (linear, circular, birefringence), the states and their Stokes description, and the bounds: transversality as the test of the wave\\'s nature, and Malus\\'s law as the quantitative one.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121933,7 +121940,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: capillary rise and depression as a competition between surface tension and adhesion, with the height inversely proportional to the passage radius — negligible in a bucket, dominant in a pore. Contact angle as the switch, Lucas-Washburn kinetics as the square-root-of-time front, and the phenomenon as a pump with no moving parts, which is why paper microfluidics works."
+    "summary": "New note: capillary rise and depression as a competition between surface tension and adhesion, with the height inversely proportional to the passage radius — negligible in a bucket, dominant in a pore. Contact angle as the switch, Lucas-Washburn kinetics as the square-root-of-time front, and the phenomenon as a pump with no moving parts, which is why paper microfluidics works.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121943,7 +121951,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: cavitation — vapour bubbles from a pressure drop rather than a temperature rise, and the violence of their collapse, which concentrates the energy of the bubble volume into a point and erodes steel in water that never boiled. Inception as a pressure condition (cavitation number), nucleation sites as the reason clean liquids resist, and the double life of the phenomenon as damage mechanism and as tool."
+    "summary": "New note: cavitation — vapour bubbles from a pressure drop rather than a temperature rise, and the violence of their collapse, which concentrates the energy of the bubble volume into a point and erodes steel in water that never boiled. Inception as a pressure condition (cavitation number), nucleation sites as the reason clean liquids resist, and the double life of the phenomenon as damage mechanism and as tool.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  },
@@ -121953,7 +121962,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the piezoelectric effect as one reversible coupling read in two directions, and the single structural condition that makes it exist at all — the absence of a centre of symmetry, which is why quartz has it and table salt does not. Direct and converse kinds, the resonator as the standard application, poling as the trick that gives a cheap ceramic the effect, and the Curie temperature as the operating bound."
+    "summary": "New note: the piezoelectric effect as one reversible coupling read in two directions, and the single structural condition that makes it exist at all — the absence of a centre of symmetry, which is why quartz has it and table salt does not. Direct and converse kinds, the resonator as the standard application, poling as the trick that gives a cheap ceramic the effect, and the Curie temperature as the operating bound.",
+    "commit": "d5c74f5fdedf84e0e3fb1f8ce1c63ed933c68326"
    }
   ]
  }
