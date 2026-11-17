@@ -6233,7 +6233,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The two Taylor entries are reordered to 1715a (Methodus) and 1715b (Linear perspective), with the Methodus linked to its library record."
+    "summary": "The two Taylor entries are reordered to 1715a (Methodus) and 1715b (Linear perspective), with the Methodus linked to its library record.",
+    "commit": "842308fb5aaee7709023273b9439da328a43b42c",
+    "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
    }
   ]
  },
@@ -7566,7 +7568,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The Taylor’s-theorem entry and the results-table attribution now read 1715a, with the title-page date noted, and link the library record."
+    "summary": "The Taylor’s-theorem entry and the results-table attribution now read 1715a, with the title-page date noted, and link the library record.",
+    "commit": "842308fb5aaee7709023273b9439da328a43b42c",
+    "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
    }
   ]
  },
@@ -121546,7 +121550,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References and work section: the Methodus is cited as 1715a, the date sentence now records both the bibliographic year and the title page, and the QA question is rephrased to match."
+    "summary": "References and work section: the Methodus is cited as 1715a, the date sentence now records both the bibliographic year and the title page, and the QA question is rephrased to match.",
+    "commit": "842308fb5aaee7709023273b9439da328a43b42c",
+    "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
    }
   ]
  },
@@ -121595,7 +121601,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References and body: the Methodus is cited as 1715a, with the title-page date 1717 noted, and links its library record."
+    "summary": "References and body: the Methodus is cited as 1715a, with the title-page date 1717 noted, and links its library record.",
+    "commit": "842308fb5aaee7709023273b9439da328a43b42c",
+    "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
    }
   ]
  },
@@ -121629,7 +121637,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Methodus entry now cites 1715a and links its library record."
+    "summary": "References: the Methodus entry now cites 1715a and links its library record.",
+    "commit": "842308fb5aaee7709023273b9439da328a43b42c",
+    "before": "cbce2d6eaa5fa3cfd2fbf48e7e028455dea98fba"
    }
   ]
  },
