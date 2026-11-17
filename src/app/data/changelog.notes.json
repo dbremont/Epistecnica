@@ -36503,7 +36503,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Cite the population-coding literature in the modelling considerations: the Pouget, Dayan & Zemel (2000) review for the code and Sanger (2003) for its mathematics."
+    "summary": "Cite the population-coding literature in the modelling considerations: the Pouget, Dayan & Zemel (2000) review for the code and Sanger (2003) for its mathematics.",
+    "commit": "87bd3881de7705ec2f63b9d4158e904e203f2d23",
+    "before": "87bd3881de7705ec2f63b9d4158e904e203f2d23"
    }
   ]
  },
@@ -37359,7 +37361,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the Population Coding row of the mechanism table to the Pouget, Dayan & Zemel (2000) review, so the row names a reading of the code rather than standing as an unreferenced claim."
+    "summary": "Link the Population Coding row of the mechanism table to the Pouget, Dayan & Zemel (2000) review, so the row names a reading of the code rather than standing as an unreferenced claim.",
+    "commit": "87bd3881de7705ec2f63b9d4158e904e203f2d23",
+    "before": "87bd3881de7705ec2f63b9d4158e904e203f2d23"
    }
   ]
  },

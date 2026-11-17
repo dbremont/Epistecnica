@@ -37633,7 +37633,8 @@
    {
     "date": "2026-11-17",
     "kind": "feat",
-    "summary": "Add Pouget, Dayan & Zemel, Information processing with population codes (Nature Reviews Neuroscience, 2000): the foundational review of population coding — encoding and decoding by populations, computation with them, and the claim that a code can carry stimulus uncertainty directly."
+    "summary": "Add Pouget, Dayan & Zemel, Information processing with population codes (Nature Reviews Neuroscience, 2000): the foundational review of population coding — encoding and decoding by populations, computation with them, and the claim that a code can carry stimulus uncertainty directly.",
+    "commit": "87bd3881de7705ec2f63b9d4158e904e203f2d23"
    }
   ]
  },
@@ -37643,7 +37644,8 @@
    {
     "date": "2026-11-17",
     "kind": "feat",
-    "summary": "Add Sanger, Neural population codes (Current Opinion in Neurobiology, 2003): the mathematical treatment — Poisson neurons, tuning functions, decoding methods, computation in interconnected populations, and the design of an optimal code."
+    "summary": "Add Sanger, Neural population codes (Current Opinion in Neurobiology, 2003): the mathematical treatment — Poisson neurons, tuning functions, decoding methods, computation in interconnected populations, and the design of an optimal code.",
+    "commit": "87bd3881de7705ec2f63b9d4158e904e203f2d23"
    }
   ]
  }
