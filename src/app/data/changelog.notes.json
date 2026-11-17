@@ -11615,7 +11615,8 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The body bullet list now names and links its family: series as the sequence of partial sums, power series, recursive sequences through the recurrence equation, and the Cauchy sequence with the limit that defines convergence."
+    "summary": "The body bullet list now names and links its family: series as the sequence of partial sums, power series, recursive sequences through the recurrence equation, and the Cauchy sequence with the limit that defines convergence.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05"
    }
   ]
  },
@@ -11636,7 +11637,8 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Retitled to the English Series, the power-series and Taylor-series entries now link their notes, and a reference line gathers the family: sequence, power series, recurrence equation, convergence modes, Cauchy sequence."
+    "summary": "Retitled to the English Series, the power-series and Taylor-series entries now link their notes, and a reference line gathers the family: sequence, power series, recurrence equation, convergence modes, Cauchy sequence.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05"
    }
   ]
  },
@@ -17287,7 +17289,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Reference links retargeted after the move of Sequence and Series into mathematical/change/."
+    "summary": "Reference links retargeted after the move of Sequence and Series into mathematical/change/.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05",
+    "before": "9ac834a74ec261708e48efb4b7af710891e98d26"
    }
   ]
  },
@@ -121406,7 +121410,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The power-series row now points at the power-series note itself rather than the general series note."
+    "summary": "The power-series row now points at the power-series note itself rather than the general series note.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05",
+    "before": "9ac834a74ec261708e48efb4b7af710891e98d26"
    }
   ]
  },
@@ -121422,7 +121428,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The power-series row now points at the power-series note itself rather than the general series note."
+    "summary": "The power-series row now points at the power-series note itself rather than the general series note.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05",
+    "before": "9ac834a74ec261708e48efb4b7af710891e98d26"
    }
   ]
  },
@@ -121432,7 +121440,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the power series as an object rather than as a representation. Convergence first — the set of points is an interval or disc, Cauchy-Hadamard fixes the radius from the coefficients, and the boundary is undecided by the formula and decided point by point, which is where the interesting failures live. Then the two readings: inside the disc it is an analytic function (term-by-term operations, identity theorem, radius as distance to the nearest singularity), and with convergence dropped it is the formal ring R[[x]] containing R[x] as the terminating subring, where 1/(1-x) is an identity without any hypothesis and invertibility is a condition on the constant term — the setting of generating functions. A closing section keeps three distinctions the corpus needs: power series against polynomial, against the Taylor representation (coefficients fixed by derivatives of a given function), and against the general series."
+    "summary": "New note: the power series as an object rather than as a representation. Convergence first — the set of points is an interval or disc, Cauchy-Hadamard fixes the radius from the coefficients, and the boundary is undecided by the formula and decided point by point, which is where the interesting failures live. Then the two readings: inside the disc it is an analytic function (term-by-term operations, identity theorem, radius as distance to the nearest singularity), and with convergence dropped it is the formal ring R[[x]] containing R[x] as the terminating subring, where 1/(1-x) is an identity without any hypothesis and invertibility is a condition on the constant term — the setting of generating functions. A closing section keeps three distinctions the corpus needs: power series against polynomial, against the Taylor representation (coefficients fixed by derivatives of a given function), and against the general series.",
+    "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05"
    }
   ]
  }
