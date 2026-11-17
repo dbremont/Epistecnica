@@ -121367,7 +121367,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Function Representation: a new section giving the representation table — Taylor, Fourier, Laurent, power series, Chebyshev, wavelet — with its building blocks, and a subsection on the Taylor representation. The subsection states the conversion the representation performs (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence and operations on the function become operations on the sequence), links it to Function and Map, to the Taylor series page, and to Brook Taylor; and separates the three consequences: it is local and bounded by the nearest singularity, the series and its truncation are different objects, and differentiation, integration and composition are algebraic on the coefficients, which is why the representation belongs here and not under approximation."
+    "summary": "Function Representation: a new section giving the representation table — Taylor, Fourier, Laurent, power series, Chebyshev, wavelet — with its building blocks, and a subsection on the Taylor representation. The subsection states the conversion the representation performs (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence and operations on the function become operations on the sequence), links it to Function and Map, to the Taylor series page, and to Brook Taylor; and separates the three consequences: it is local and bounded by the nearest singularity, the series and its truncation are different objects, and differentiation, integration and composition are algebraic on the coefficients, which is why the representation belongs here and not under approximation.",
+    "commit": "7609dca7e913538d541431de44fa474a790cb522",
+    "before": "d5525ad8a42e465caa751b1b8a5b115b7782b1db"
    }
   ]
  }
