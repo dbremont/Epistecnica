@@ -112653,7 +112653,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Replace the loose reading list with the essay's actual sources. A new \"The Tradition of Method\" table carries the seventeen works from Llull's Ars magna to Vico's De nostri temporis studiorum ratione, in chronological order, with what each contributes; the References section becomes one integrated APA 7 list — those seventeen, the six psychological sources already cited (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) in full editions with translators, and Curren's SEP entry now that its author and 2025 date are known. The dead Notion link is replaced by the local Cognitive Development note. Bacon cites the Clarendon edition the library holds."
+    "summary": "Replace the loose reading list with the essay's actual sources. A new \"The Tradition of Method\" table carries the seventeen works from Llull's Ars magna to Vico's De nostri temporis studiorum ratione, in chronological order, with what each contributes; the References section becomes one integrated APA 7 list — those seventeen, the six psychological sources already cited (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) in full editions with translators, and Curren's SEP entry now that its author and 2025 date are known. The dead Notion link is replaced by the local Cognitive Development note. Bacon cites the Clarendon edition the library holds.",
+    "commit": "9938e5bb77208135a6345834eed89c08fa488134",
+    "before": "9938e5bb77208135a6345834eed89c08fa488134"
    }
   ]
  },
