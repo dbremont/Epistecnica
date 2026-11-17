@@ -8,7 +8,9 @@ qa:
  - Why does the direction of a transformation need more than its rate?
 ---
 
-# Transformation of Matter
+# Matter Change
+
+> Transformation of Matter.
 
 > **The transformation of matter** is a unifying abstraction that models all changes in matter — whether physical or chemical — as transitions between distinct **states** of a material system, governed by the interactions and rearrangements of its constituent particles under physical laws.
 

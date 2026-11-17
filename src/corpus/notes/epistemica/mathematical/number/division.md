@@ -172,6 +172,34 @@ How many eggs do you have?
 
 > 10 sixths: ten units, each representing one-sixth of a whole.
 
+### Which problems involve division and allow us to reason about its physical meaning?
+
+- A farmer harvests 84 apples and distributes them equally among 7 baskets. How many apples go into each basket?
+- A water tank contains 240 liters of water. The water is transferred equally into 8 containers. How many liters does each container hold?
+- A 96-meter cable is cut into 12 equal pieces. What is the length of each piece?
+- A factory produces 720 bottles during a 9-hour shift. How many bottles does it produce per hour on average?
+- A car travels 360 kilometers in 6 hours. What is its average speed?
+- A rectangular field has an area of 240 square meters and a width of 12 meters. What is its length?
+- A warehouse has 450 kilograms of rice. Each package contains 15 kilograms. How many packages can be prepared?
+- A population of 2,400 people occupies an area of 12 square kilometers. How many people live in each square kilometer on average?
+- A recipe requires 600 grams of flour to prepare 12 identical cakes. How much flour is needed for each cake?
+- A machine consumes 48 liters of fuel while operating for 8 hours. How many liters does it consume per hour on average?
+- A rectangular swimming pool holds 180 cubic meters of water. Its base has an area of 30 square meters. What is its depth?
+- A school purchases 1,260 notebooks for 35 classrooms. Each classroom receives the same quantity. How many notebooks does each classroom receive?
+- A truck transports 3,600 kilograms of material in 12 identical loads. How much material does it transport per load?
+- A metal block has a mass of 540 grams and a volume of 60 cubic centimeters. What is its mass per cubic centimeter?
+- A runner completes 15 kilometers in 75 minutes. How many kilometers does the runner cover per minute on average?
+- A rectangular wall has an area of 42 square meters and a height of 3 meters. What is its width?
+- A factory packages 2,400 candies into boxes containing 40 candies each. How many boxes are required?
+- A farmer has 1,500 liters of milk and fills containers with 25 liters each. How many containers can be filled?
+- A vehicle travels 480 kilometers, while another travels 120 kilometers during the same period. How many times the distance does the first vehicle cover compared with the second?
+- A wire measuring 15 meters is divided into pieces measuring 0.5 meters each. How many pieces are obtained?
+- A hospital uses 840 disposable gloves over 7 days. Assuming constant daily consumption, how many gloves does it use per day?
+- A printing machine produces 3,600 pages in 45 minutes. How many pages does it print per minute?
+- A rectangular container has a volume of 1,200 cm³ and a base measuring 20 cm by 10 cm. What is its height?
+- A farmer harvests 2,400 kilograms of potatoes from 8 hectares. How many kilograms does the farm produce per hectare on average?
+- A cyclist travels 42 kilometers using 3 liters of water. How many kilometers does the cyclist travel per liter?
+
 ## References
 
 - [Normalization](/view.html?p=notes/epistemica/mathematical/method/normalization.md)

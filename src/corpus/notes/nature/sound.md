@@ -48,6 +48,7 @@ tags: [note, nature, phenomenon, sound, acoustic]
 ## Related
 
 - [Wave](/view.html?p=notes/nature/wave/wave.md) — the general phenomenon this is the mechanical case of
+- [Oscillation](/view.html?p=notes/nature/wave/oscillation.md) — the temporal pattern a sound wave carries
 - [Propagation of Sound](/view.html?p=notes/nature/propagation-of-sound.md) — how the wave travels, and how the medium changes it
 - [Perception of Sound](/view.html?p=notes/nature/human/perception-of-sound.md) — the perceptual reading of the same wave
 - [Acoustics](/view.html?p=notes/epistemica/epistemic/discipline/acoustics.md) — the discipline that inquires into it

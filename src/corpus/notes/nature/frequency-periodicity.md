@@ -109,6 +109,7 @@ tags: [note, nature, property]
 
 ## Related
 
+- [Oscillation](/view.html?p=notes/nature/wave/oscillation.md) — the pattern whose repetition this property counts
 - [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 
 ## Provenance

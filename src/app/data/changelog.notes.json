@@ -6004,6 +6004,11 @@
     "kind": "refactor",
     "summary": "rename the dynamical-systems scope to change",
     "commit": "bde39a998fe635eef26d40673a38fee96d911bee"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Add a Related list linking the natural pattern (Oscillation) and its spectral reading (Harmonic Analysis)."
    }
   ]
  },
@@ -10225,6 +10230,11 @@
     "summary": "Add the note that division is relative — it expresses a relationship between two quantities — and a History section.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add a section of twenty-five word problems that give division its physical meanings — sharing, measuring, rate, density, ratio — so the operation is read as a question asked of a quantity rather than as a procedure."
    }
   ]
  },
@@ -25944,6 +25954,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left."
    }
   ]
  },
@@ -31525,6 +31540,11 @@
     "summary": "Extend the qa block and add the QA section on the expanded, contracted and trace-reversed forms of the equations and on what the reformulations are for.",
     "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
     "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the GW150914 waveform link to nature/wave/gravitational-wave.md, the note that remains after the wave corpus was consolidated."
    }
   ]
  },
@@ -38592,6 +38612,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/psychoacoustics-perception.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -47115,6 +47140,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left."
    }
   ]
  },
@@ -47578,6 +47608,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -50051,6 +50086,11 @@
     "summary": "Retarget the 2 links to energy and heat now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the note moved to nature/matter/change.md, under the shelf that owns change of matter."
    }
   ]
  },
@@ -50995,6 +51035,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51017,6 +51062,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/gravitational-wave-detection-measurement.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51037,6 +51087,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/oscillating-electric-current.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51047,6 +51102,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/physical-properties-of-sound-waves.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51057,6 +51117,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/plasma-or-charge-separation-oscillations.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51077,6 +51142,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/spin-waves-magnons.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51087,6 +51157,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/square-wave-ac.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51097,6 +51172,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/triangular-wave-ac.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51107,6 +51187,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave-energy.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51147,6 +51232,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave-phenomena.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51157,6 +51247,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave-propagation.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51167,6 +51262,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave-radiation-phenomena.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51177,6 +51277,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave-speed-v.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -51194,6 +51299,11 @@
     "summary": "Fold the bare links into one APA list and add the classical sources: d'Alembert (1747), Fourier (1822), Rayleigh, Crawford, Feynman I, Kinsler et al.; the Wavelet Notion page moves to provenance, and the wave-parameter and Acoustics links join Related.",
     "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
     "before": "69ab54c28dd1845c82d5979295580172d5de6256"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the instance inventory the deleted wave notes used to carry: a 65-row table of the waves of nature grouped by substrate family — mechanical, electromagnetic, gravitational, plasma, astrophysical, biological, chemical and quantum — each with its substrate and propagation mechanism; the references keep the corrected link list (oscillation and wave equation) and drop the pointers to the notes that no longer exist."
    }
   ]
  },
@@ -51204,6 +51314,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wavelength.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
    }
   ]
  },
@@ -52254,6 +52369,11 @@
     "kind": "feat",
     "summary": "Import from the Breviarium Notion export: the export's uuid suffix dropped from the filename, the Notion tags lifted into front matter, the property noise removed, the child list kept as a Contains line, links retargeted to the corpus and images moved to the shared asset store.",
     "commit": "f8cc7e0184a142c36466126c7a605e3524cd2958"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the essay moved to personal/an-essay-on-self-education.md."
    }
   ]
  },
@@ -96352,6 +96472,11 @@
     "kind": "refactor",
     "summary": "Move from essays/an-essay-on-education.md to unclassified/an-essay-on-education.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Add the Stanford Encyclopedia entry on the philosophy of education to the reference list."
    }
   ]
  },
@@ -111205,6 +111330,11 @@
     "summary": "Point the Related list at the notes that exist — Propagation of Sound and Perception of Sound — replacing two paths the note had named but never carried.",
     "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
     "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link Oscillation from Related — the temporal pattern a sound wave carries."
    }
   ]
  },
@@ -111224,6 +111354,11 @@
     "summary": "Point the perceptual and propagation references at the notes that exist — Perception of Sound and Propagation of Sound.",
     "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
     "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the wave references to the notes that remain — Wave Equation, Oscillation, Propagation of Sound — after the wave corpus was consolidated into nature/wave/wave.md."
    }
   ]
  },
@@ -111319,6 +111454,101 @@
     "summary": "Rewrite as a discipline note in the formulation grammar: the practice framing, the three senses of \"harmonic\" (overtone, sinusoidal component, solution of Laplace’s equation), the line of descent from Fourier 1822 through Dirichlet, Plancherel, Wiener, Zygmund and Calderón–Zygmund to wavelets, the five formulation questions, a decomposition of orientation, agency, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization plus five member sub-practices, the conceptuum evaluation with name–object drift as the principal risk, the original description kept in its own section, and one integrated APA reference list.",
     "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
     "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link Oscillation from the references: the natural case whose harmonics the discipline decomposes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/wave/oscillation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "New natural note: oscillation typed as `Phenomenon` — a regularity predicated over a trajectory that repeatedly returns toward equilibrium — with the second readings (property, bound process) stated as prose, a 26-row decomposition over the predicated states, the cycle, its quantities, the variable aspects, the environment and the conditions that select the regime, a table of the eight kinds ordered by what sustains the repetition, and QA separating oscillation from wave, from a transformation of matter, from rotation, and from the system that oscillates."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the note from the quantities it uses and from the wave and sound notes that share its segment."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/change.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/transformation-of-matter.md and retitle Matter Change: the note is about matter changing, and the `change` shelf word belongs to the natural scope rather than to a single transformation."
+   }
+  ]
+ },
+ {
+  "file_path": "personal/an-essay-on-self-education.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from personal/an-essay-on-intellectual-development.md and retitle An Essay on Self Education, keeping “intellectual development, self cultivation” as the alternative names."
+   }
+  ]
+ },
+ {
+  "file_path": "social/facet/facet.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/facet/readme.md, which was the directory master; the facet shelf takes its concept note at `facet.md`, the pattern the other shelf masters follow."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Write the note out as the shelf master: the per-facet notes are where an analytical dimension is grounded on its own, while the facet concept and the authoritative catalogue stay in social/framework/facet.md."
+   }
+  ]
+ },
+ {
+  "file_path": "social/facet/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: the directory master moved to social/facet/facet.md."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/frequency-periodicity.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link Oscillation — the pattern this property counts."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/periodic.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Add a Related list naming Oscillation and Frequency, so the weaker property points at the pattern it describes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/reaction.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Transformation of Matter link to nature/matter/change.md, where the note now lives."
    }
   ]
  }

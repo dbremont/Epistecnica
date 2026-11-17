@@ -36,3 +36,4 @@ Related Terms:
 - https://www.globaltimes.cn/page/202412/1324671.shtml
 - Education in China / [https://documents1.worldbank.org/curated/pt/216651508745207540/pdf/120583-WP-P150980-PUBLIC-China-NQF-summary.pdf](https://documents1.worldbank.org/curated/pt/216651508745207540/pdf/120583-WP-P150980-PUBLIC-China-NQF-summary.pdf)
 - Report on the Development of Vocational Education / Yixuan Tian
+- https://plato.stanford.edu/entries/education-philosophy/
