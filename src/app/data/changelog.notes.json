@@ -11599,24 +11599,44 @@
   ]
  },
  {
-  "file_path": "epistemica/mathematical/sequence.md",
+  "file_path": "epistemica/mathematical/change/sequence.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Sequence from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/sequence.md: a sequence is a discrete analysis object, and change/ already holds the limit, convergence and Cauchy-sequence notes that define it; the mathematical root is a holding area for cross-branch objects, not a branch."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The body bullet list now names and links its family: series as the sequence of partial sums, power series, recursive sequences through the recurrence equation, and the Cauchy sequence with the limit that defines convergence."
    }
   ]
  },
  {
-  "file_path": "epistemica/mathematical/serie.md",
+  "file_path": "epistemica/mathematical/change/series.md",
   "logs": [
    {
     "date": "2026-10-17",
     "kind": "feat",
     "summary": "Import Serie from the Modelado Notion export.",
     "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/serie.md: filed with its own limit theory, and renamed to the English series from the Italian serie; the title now reads Series, and the note links its own members."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Retitled to the English Series, the power-series and Taylor-series entries now link their notes, and a reference line gathers the family: sequence, power series, recurrence equation, convergence modes, Cauchy sequence."
    }
   ]
  },
@@ -17263,6 +17283,11 @@
     "summary": "Repoint a link after the mathematical branch reorganisation.",
     "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
     "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Reference links retargeted after the move of Sequence and Series into mathematical/change/."
    }
   ]
  },
@@ -121377,6 +121402,11 @@
     "summary": "Function Representation section reduced to the master: the table of representations stays, the Taylor subsection becomes a pointer to its own note. Two pre-existing dead links repaired while the file was open — Decomposition now resolves to reduction/decomposition.md and dimensionality reduction to ../../observational/.",
     "commit": "035b6a0f7fd44fa9617fea22a8875fd2c253afbd",
     "before": "ea139b88d7986cfad1f398195229f773f6bff7c2"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The power-series row now points at the power-series note itself rather than the general series note."
    }
   ]
  },
@@ -121388,6 +121418,21 @@
     "kind": "create",
     "summary": "New note: the Taylor representation as a representation in its own right, split out of the representation master because its building blocks carry their own theory. The note states the conversion (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence), places it in the table of representations with how each one extracts its coefficients (derivatives, inner products, contour integrals, projection under a weight), and works the three consequences: local data becomes a sequence, operations become algebra on formal power series, truncation becomes an approximation governed by a remainder. Then the failure the representation hides: it represents the germ, not the function — the radius is bounded by the nearest singularity, and a smooth function like exp(-1/x^2) has the zero series at the origin, so analyticity is exactly the condition under which the representation determines its object. A section keeps the series and its truncation apart, since the polynomial is routinely called the series. References: Taylor 1717, Rudin 1976, Feigenbaum 1985, Krantz & Parks 2002, plus the corpus links and the persona.",
     "commit": "035b6a0f7fd44fa9617fea22a8875fd2c253afbd"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The power-series row now points at the power-series note itself rather than the general series note."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/change/power-series.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the power series as an object rather than as a representation. Convergence first — the set of points is an interval or disc, Cauchy-Hadamard fixes the radius from the coefficients, and the boundary is undecided by the formula and decided point by point, which is where the interesting failures live. Then the two readings: inside the disc it is an analytic function (term-by-term operations, identity theorem, radius as distance to the nearest singularity), and with convergence dropped it is the formal ring R[[x]] containing R[x] as the terminating subring, where 1/(1-x) is an identity without any hypothesis and invertibility is a condition on the constant term — the setting of generating functions. A closing section keeps three distinctions the corpus needs: power series against polynomial, against the Taylor representation (coefficients fixed by derivatives of a given function), and against the general series."
    }
   ]
  }

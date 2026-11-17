@@ -115,7 +115,7 @@ tags: [note, mathematics, representation, technique]
 | **Taylor representation** | Powers of $x-a$ |
 | [Fourier representation](/view.html?p=notes/epistemica/signal/fourier-series.md) | Sines and cosines |
 | Laurent representation | Positive and negative integer powers |
-| [Power series representation](/view.html?p=notes/epistemica/mathematical/serie.md) | Integer powers of a variable |
+| [Power series representation](/view.html?p=notes/epistemica/mathematical/change/power-series.md) | Integer powers of a variable |
 | [Chebyshev representation](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) | Chebyshev polynomials |
 | [Wavelet representation](/view.html?p=notes/epistemica/signal/wavelet.md) | Wavelets |
 

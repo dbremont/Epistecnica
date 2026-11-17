@@ -50,6 +50,6 @@ The probability that the first success occurs **on or before** the *k*-th trial:
 
 ## References
 
-- [Serie](../../mathematical/serie.md)
-- [Sequence](../../mathematical/sequence.md)
+- [Series](../../mathematical/change/series.md)
+- [Sequence](../../mathematical/change/sequence.md)
 - https://en.wikipedia.org/wiki/Geometric_distribution

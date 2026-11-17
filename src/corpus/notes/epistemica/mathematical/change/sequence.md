@@ -9,9 +9,10 @@ tags: [note, mathematics, type]
 > **Ordered** lists of elements, often numbers.
 > 
 
-- Series
-- Recursives Sequence
-- …
+- [Series](series.md) — the sequence of partial sums
+- [Power Series](power-series.md) — a series whose terms are powers of a variable
+- Recursive Sequences — a sequence defined by a [recurrence equation](recurrence-equation.md)
+- A **Cauchy sequence** is a sequence whose terms eventually stay arbitrarily close: [Cauchy Sequence](cauchy-sequence.md), and the [limit of a sequence](limit.md) defines what it converges to
 
 ## References
 

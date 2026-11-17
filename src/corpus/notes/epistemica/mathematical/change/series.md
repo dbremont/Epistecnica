@@ -2,7 +2,7 @@
 tags: [note, mathematics, type]
 ---
 
-# Serie
+# Series
 
  : Sequence (Sequence%20c94965faab844ad0b6d456021a27f952.md), Recurrence Equation (Recurrence%20Equation%20122c0f5171ec8029b62aebd9ef062806.md)
 
@@ -23,13 +23,13 @@ tags: [note, mathematics, type]
 > **Geometric Series**: A series where each term is obtained by multiplying the previous term by a constant ratio.  $a+ar+ar^2+…$
 > 
 
-> **Power Series**: A series of the form $\sum_{n=0}^{\infty} a_n (x - c)^n$, where $a_a$ are coefficients, $c$ is a constant, and $x$ is a variable.
+> **Power Series**: A series of the form $\sum_{n=0}^{\infty} a_n (x - c)^n$, where $a_n$ are coefficients, $c$ is a constant, and $x$ is a variable — the object, not yet a function of $x$ until the values of $x$ for which it converges are determined. See [Power Series](power-series.md).
 > 
 
-> **Taylor Series**: A specific type of power series that represents a function as an infinite sum of terms calculated from the values of its derivatives at a single point.
+> **Taylor Series**: A specific type of power series that represents a function as an infinite sum of terms calculated from the values of its derivatives at a single point — the representation, treated at [Taylor Representation](../method/representation/taylor-representation.md).
 > 
 
-> **Fourier Series**: A way to represent a function as a sum of sine and cosine functions, often used in signal processing.
+> **Fourier Series**: A way to represent a function as a sum of sine and cosine functions, often used in signal processing. See [Fourier Series](../../signal/fourier-series.md).
 > 
 
 > **Telescoping Series**: A **telescoping series** is a series whose terms mostly cancel out when summed, leaving only a few terms, much like a collapsing telescope.
@@ -43,6 +43,8 @@ tags: [note, mathematics, type]
 > 
 
 ## References
+
+- [Sequence](sequence.md) · [Power Series](power-series.md) · [Recurrence Equation](recurrence-equation.md) · [Convergence Modes](convergence-modes.md) · [Cauchy Sequence](cauchy-sequence.md)
 
 - [Series](https://en.wikipedia.org/wiki/Series_(mathematics))
 - [List of mathematical series](https://en.wikipedia.org/wiki/List_of_mathematical_series)

@@ -27,7 +27,7 @@ The family it belongs to, with each member's blocks:
 | **Taylor representation** | Powers of $x-a$ | Derivatives at $a$ |
 | [Fourier representation](/view.html?p=notes/epistemica/signal/fourier-series.md) | Sines and cosines | Inner products against the basis |
 | Laurent representation | Positive and negative integer powers | Contour integrals around the annulus |
-| [Power series representation](/view.html?p=notes/epistemica/mathematical/serie.md) | Integer powers of a variable | Derivatives at the centre, as a special case |
+| [Power series representation](/view.html?p=notes/epistemica/mathematical/change/power-series.md) | Integer powers of a variable | Derivatives at the centre, as a special case |
 | [Chebyshev representation](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) | Chebyshev polynomials | Projection under the weight $1/\sqrt{1-x^2}$ |
 | [Wavelet representation](/view.html?p=notes/epistemica/signal/wavelet.md) | Wavelets | Inner products at each scale and position |
 
