@@ -139,6 +139,8 @@ $\frac{d}{dx}\left(f(g(x))\right) = f'(g(x)) \cdot g'(x)$
 
 ### **Finite Differences**
 
+> The quotients below are the operator $\Delta$ of the [finite-difference calculus](finite-difference.md) divided by the step; the calculus itself — its Leibniz rule, its exact inverse and its Newton series — is a subject of its own.
+
 - **Forward**: $f'(x) \approx \frac{f(x+h) - f(x)}{h}$
 - **Backward:** $f'(x) \approx \frac{f(x) - f(x-h)}{h}$
 - **Central** (more accurate): $f'(x) \approx \frac{f(x+h) - f(x-h)}{2h}$

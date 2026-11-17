@@ -10,5 +10,7 @@ tags: [note]
 
 ## References
 
+- [Finite Difference](/view.html?p=notes/epistemica/mathematical/change/finite-difference.md) — the operator the method discretises with
+
 - https://en.wikipedia.org/wiki/Finite_difference_method
 -

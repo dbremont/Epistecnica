@@ -5913,6 +5913,11 @@
     "kind": "refactor",
     "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
     "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The numerical Finite Differences subsection now states that its three quotients are Delta divided by the step, and links the finite-difference calculus, which is a subject of its own."
    }
   ]
  },
@@ -5930,6 +5935,11 @@
     "kind": "refactor",
     "summary": "Move into the change scope with the differential-equation elements and repoint the outbound links.",
     "commit": "fa3cef3a0003c9dcdcdd1a72cd0d743daf4631ce"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Reference line added: the operator these equations are written in."
    }
   ]
  },
@@ -21816,6 +21826,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/finite-difference-method-fdm.md to epistemica/singular/finite-difference-method-fdm.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Reference line added: the operator the method discretises with."
    }
   ]
  },
@@ -121552,6 +121567,16 @@
     "kind": "create",
     "summary": "New note: the power series as an object rather than as a representation. Convergence first — the set of points is an interval or disc, Cauchy-Hadamard fixes the radius from the coefficients, and the boundary is undecided by the formula and decided point by point, which is where the interesting failures live. Then the two readings: inside the disc it is an analytic function (term-by-term operations, identity theorem, radius as distance to the nearest singularity), and with convergence dropped it is the formal ring R[[x]] containing R[x] as the terminating subring, where 1/(1-x) is an identity without any hypothesis and invertibility is a condition on the constant term — the setting of generating functions. A closing section keeps three distinctions the corpus needs: power series against polynomial, against the Taylor representation (coefficients fixed by derivatives of a given function), and against the general series.",
     "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/change/finite-difference.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note, independent of the derivative: the finite difference as an operator and a calculus of its own. It takes the discrete calculus as primary and the derivative as its limit, and the argument is that this is not stylistic — the difference is defined on every lattice function with no convergence hypothesis, while D = (1/h) ln(1+Delta) is a series in Delta, so the dependency runs the other way. Sections: the three differences and the binomial form of the nth difference; the shift algebra (Delta = E - 1, E = exp(hD)) and the twisted Leibniz rule that carries the discreteness as a correction term; summation as the exact inverse, with no constant of integration, and the falling factorials that lower the index; Newton forward-difference formula as the discrete Taylor theorem, with the Stirling numbers conjugating powers into falling factorials and the umbral calculus as the reason identities transfer; and the uses — numerical differentiation, discretisation, difference equations, telescoping sums, generating functions. Three QA answers, including why the constant of integration is the price of the continuum rather than a feature of inversion. References: Taylor 1717 through LeVeque 2007."
    }
   ]
  }
