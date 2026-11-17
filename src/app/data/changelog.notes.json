@@ -121867,6 +121867,11 @@
     "summary": "References: the public-organisation notes added — Public Organization as the type, Organization as its parent, the government, administration, civil-service, government-wide and municipal notes, Legislature and Committee for the Finance Committee approval, and the Hong Kong polity that established the institute.",
     "commit": "2cecfb2f6809cd9d0c8fc7b1919a70d8717380c1",
     "before": "3c2ee12b070c1bd361cf29069a6743c3cb182b6c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Governance section added, with the organisation chart moved into the shared asset store (note/social/collective/actor/private/research/hkg/mrdi-organisation-chart.png). The chart changes the note rather than illustrating it: the board splits into Audit, Finance and Administration, and Technology committees, so the technology judgement cannot audit itself; the Internal Audit Section reports up the board line, outside the executive divisions, which is the control that makes a HK$2.8 billion institution credible; and the five divisions under the CEO are Corporate Services, Process and Technology, Third Generation Semiconductor Packaging and Modules, Design and Application, and Quality Control and Reliability — four of them technical and none of them called research. The 1-to-N mandate is therefore drawn into the structure, which is the evidence the note previously carried only as a quotation."
    }
   ]
  },
