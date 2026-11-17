@@ -100,6 +100,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "rename dynamical intelligence to adaptative",
+    "commit": "39ed185055e1a6e54082662bd88eea296c80e863"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the complexity link after the scope rename",
+    "commit": "5727077e658bdc9f9d542c993fe7421ca06171cc",
+    "before": "d968bde8d0a088175a5b33f4e23a7d49b98ff06e"
    }
   ]
  },
@@ -2303,6 +2316,53 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "feat",
+    "summary": "Add the Mathematics discipline Aggregate note, folding in the retired mathematical.md.",
+    "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "summary": "Remove the retired order label from the decomposition preamble.",
+    "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+    "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "docs",
+    "summary": "Retarget the epistemic element set inventory link to EES.",
+    "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
+    "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mathematical branch reorganisation.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+    "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mapping-scope rename.",
+    "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
+    "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint links after the structure/ reorganisation.",
+    "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
+    "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/discipline/mathematics.md to epistemica/epistemic/discipline/mathematics.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -2517,6 +2577,111 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Probability from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-21",
+    "kind": "docs",
+    "summary": "Update Statistical Mechanics links after the construction-scope move.",
+    "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+    "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "refactor",
+    "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
+    "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+    "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "fix",
+    "summary": "Retarget the four Distribution links after the move to observational/distribution/.",
+    "commit": "9f5db18e0b6aeefe0772184f44466e0fa6771353",
+    "before": "ed68c96b41a728eda935cd9e51a1531414c5de37"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "fix",
+    "summary": "Retarget the four Distribution links to the renamed distribution.md."
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "fix",
+    "summary": "Retarget the four Distribution links to the renamed distribution.md."
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "refactor",
+    "summary": "Move to epistemica/discipline/. Its same-dir links to notes that stayed in observational/ gain the ../observational/ prefix, and the Statistical Mechanics and Validation links (absolute corpus paths) are unaffected.",
+    "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the computational links after the computational move",
+    "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
+    "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the estimator links after the estimator move",
+    "commit": "85f208c59904456b9885fefe4f705fea910dd121",
+    "before": "823af59ec183e7716714739499a8d032ee047280"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the construction links after the theory move",
+    "commit": "e9d1049344d80aa156f080b3ded34e0718a25fa7",
+    "before": "3cb08f96e06148f391d53d87e5998ac30e633372"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the result links after the construction move",
+    "commit": "9864871186a5d72106416e44b21ef0c94fa107bc",
+    "before": "48881d027cad326a62cdbb3c144c56636667d2f8"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mathematical branch reorganisation.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+    "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "docs",
+    "summary": "Repoint the Measure link into the measure scope.",
+    "commit": "b2638bb93ae9d63452ec1920ff90ce38fdd02bdd",
+    "before": "d397df9f1663965b6fc1827e1e06627660ff4c59"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint links after the method-scope reorganisation.",
+    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0",
+    "before": "1241a661149a8c7f6f442b941a1d40dda011b298"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/discipline/probability.md to epistemica/epistemic/discipline/probability.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -2656,6 +2821,93 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "feat",
+    "summary": "Add the Statistics discipline Aggregate note."
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "refactor",
+    "summary": "Fold the observational statistics framework note into this discipline Aggregate.",
+    "commit": "1850a604a573854d75a8b9871d00767cb456dc32"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "summary": "Remove the retired order label from the decomposition preamble.",
+    "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+    "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "docs",
+    "summary": "Retarget the epistemic element set inventory link to EES.",
+    "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
+    "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "fix",
+    "summary": "Retarget the Probability link after its move to this directory.",
+    "commit": "715c12bb9f89eebc766b057fb9f9bebea2c8e949",
+    "before": "36b08d70f0df8ca37c140ae71ad4451f709dbeb0"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget dynamical-systems links after the ds rename",
+    "commit": "4dde2f61ba26083ef93ac665f02c484e226e3432",
+    "before": "82fb1246fd13d0cef208c58fff853e02185df257"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget probability links under observational",
+    "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70",
+    "before": "537b414df2c8466fc26e7841d16a2598b50cd7b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the computational links after the computational move",
+    "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
+    "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the estimator links after the estimator move",
+    "commit": "85f208c59904456b9885fefe4f705fea910dd121",
+    "before": "823af59ec183e7716714739499a8d032ee047280"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the construction links after the theory move",
+    "commit": "e9d1049344d80aa156f080b3ded34e0718a25fa7",
+    "before": "3cb08f96e06148f391d53d87e5998ac30e633372"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the change-scope link after the folder rename",
+    "commit": "bde39a998fe635eef26d40673a38fee96d911bee",
+    "before": "688b4a2087836c20f73e267508b160e50c0625e7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the EDA link after the observational move",
+    "commit": "10157e197438d0126738ae03b77a4dc872790316",
+    "before": "2975449d856b1de5edfd50854a446ff94f143c35"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/discipline/statistics.md to epistemica/epistemic/discipline/statistics.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -3581,6 +3833,38 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Pigeonhole Principle from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the guidance principle scope: a directive, not a result",
+    "commit": "9864871186a5d72106416e44b21ef0c94fa107bc"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mathematical branch reorganisation.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+    "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/guidance/principle/pigeonhole-principle.md to epistemica/epistemic/guidance/principle/pigeonhole-principle.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -4630,6 +4914,25 @@
     "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/.",
     "commit": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402",
     "before": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "flatten practice into the theory scope",
+    "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the flattened theory links",
+    "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
+    "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/theory/model.md to epistemica/epistemic/theory/model.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -4766,6 +5069,60 @@
     "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/.",
     "commit": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402",
     "before": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "flatten practice into the theory scope",
+    "commit": "035c7c35362d113df0524f118a7663baf9f9c4e6"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the adaptative scope links",
+    "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
+    "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the flattened theory links",
+    "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde",
+    "before": "56e6f43c11f0cf5a16d0551dcf1f7bdbd19f9c45"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the tucked scope notes",
+    "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d",
+    "before": "65a570eafea2191c3b73535a163a9c190a8b5c84"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "add the modelling-practice material to the theory note",
+    "commit": "2a60a182bd9b028ae2d79c1a74fde27528f22757",
+    "before": "10157e197438d0126738ae03b77a4dc872790316"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Drop Natural Computing from the Modelling Domains list; the scope is dissolved into its neighbour scopes.",
+    "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+    "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/theory/modelling.md to epistemica/epistemic/theory/modelling.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the System of Units of Measurement link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -5092,6 +5449,18 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "flatten the theory general scope",
+    "commit": "5edb2c4195a8cd0ba709acb5fb8d6744047bbfde"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/theory/survivorship-bias.md to epistemica/epistemic/theory/survivorship-bias.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -8404,6 +8773,12 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move to epistemica/mathematical/geometry/.",
+    "commit": "034f50fe039b3feb0248bef4e2514abd9ca32337"
    }
   ]
  },
@@ -8946,6 +9321,31 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Integral Transform from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mapping scope after the function scope was renamed; repoint links.",
+    "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6"
    }
   ]
  },
@@ -9500,6 +9900,31 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Bijective Method from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the mathematical/method scope: a routine, not a result",
+    "commit": "5abb4fb106f5366096e9ab35742bff4a9f0aa9d8"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the method family that names its principal move.",
+    "commit": "e777c953fba2a872849d712ab95a2f9bc91c6ac0"
    }
   ]
  },
@@ -10167,6 +10592,56 @@
     "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
     "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
     "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Arithmetic from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint links after the structure/ reorganisation.",
+    "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af",
+    "before": "4ea2152aa3ad7ccd98f771dde0ed2417dec919da"
+   },
+   {
+    "date": "2026-11-04",
+    "kind": "feat",
+    "summary": "Fill the Arithmetic System Set section: twenty systems as number set bound to operation set, with the use each serves — the classical number systems, the algebraic ones (modular, finite field, boolean, polynomial, matrix, ordinal, cardinal), the non-Archimedean and non-standard ones (p-adic, hyperreal, tropical), and the computational ones (floating point, fixed point, interval, arbitrary precision, computable)."
+   },
+   {
+    "date": "2026-11-04",
+    "kind": "feat",
+    "summary": "Fill the Operator section: every operator given a description and a meaning, the broken symbol cells repaired, the section split into operators (which compose) and comparisons (which terminate an expression), and ten operations added — nth root, reciprocal, factorial, binomial coefficient, summation and product, minimum and maximum, signum, complex conjugate, exponential function, and congruence modulo n."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Retarget the measurement link after the quantification/ scope was renamed to measurement/.",
+    "commit": "6fda9c138d8e91de1adec3df0fe165c7b27543a1",
+    "before": "2ae1b29c9bd27b0d95fba74c2774b76f38c7193c"
    }
   ]
  },
@@ -10267,6 +10742,51 @@
     "summary": "Add a section of twenty-five word problems that give division its physical meanings — sharing, measuring, rate, density, ratio — so the operation is read as a question asked of a quantity rather than as a procedure.",
     "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
     "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Division from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "fix",
+    "summary": "Replace the stray Notion-export link line under the title with proper Reference entries for Normalization and Multiplication, rewrite the References and see-more links to the working note.html?n= viewer form, and point Scale and Proportionality at their new mathematical/ location."
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "fix",
+    "summary": "Point the Ratio reference and its see-more line at the new Ratio note.",
+    "commit": "227cf78e9172ac019fc7d0570fce218ba3a7e286",
+    "before": "12d4a1dc35fb9d721a326bef9d778e66f046f2e3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-11-02",
+    "kind": "docs",
+    "summary": "Add the Fraction note to the references.",
+    "commit": "a280281d335049499d128fe7570349046c080f3d",
+    "before": "58dec66c90c37c32eab15e197ed35ea8af6954db"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
    }
   ]
  },
@@ -10342,6 +10862,26 @@
     "summary": "Add \"How to interpret a fraction?\" — the six readings of one inscription (part–whole, quotient, ratio, multiplicative operator, measure on the number line, partitive division) — and replace the visual area-model section with the multiplication case it was illustrating.",
     "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
     "commit": "309bf67e367e361856f3a69db25461c8d1894617"
+   },
+   {
+    "date": "2026-11-02",
+    "kind": "feat",
+    "summary": "Add the Fraction note: the epistemic schema with its five formulation questions, the decomposition into forms, elements, rules, conventions, and readings, and the conceptual evaluation.",
+    "commit": "a280281d335049499d128fe7570349046c080f3d"
+   },
+   {
+    "date": "2026-11-02",
+    "kind": "docs",
+    "summary": "Point the interpretation question at the moved part-whole figure and correct its counts to match the picture (1:2 part-to-part, 1 x 1/3, and 3/3 = 1).",
+    "commit": "12a209b59ac7c3954c0554fcd473eb9632a15274",
+    "before": "b28e4ef76c78ea473f85dcdf11c62ee237d98dbf"
+   },
+   {
+    "date": "2026-11-10",
+    "kind": "fix",
+    "summary": "Move the improper-fraction figure into the shared asset store and rewrite both figure references as viewer-relative ../assets/ paths.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
    }
   ]
  },
@@ -11972,6 +12512,31 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Group from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the structure scope and repoint links.",
+    "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
    }
   ]
  },
@@ -12976,6 +13541,31 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Matrix from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the mathematical branch scope after the branch reorganisation; repoint outbound links.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move into the structure scope and repoint links.",
+    "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
    }
   ]
  },
@@ -14689,6 +15279,25 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Computation Graph from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the observational/computational scope",
+    "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
    }
   ]
  },
@@ -14788,6 +15397,88 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Computational Learning from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-21",
+    "kind": "docs",
+    "summary": "Update Statistical Mechanics links after the construction-scope move.",
+    "commit": "5e63f64d70b5030b783c9bcbeddb38db66d6982e",
+    "before": "f04515269778e88df2522ef36e067ec3427b02ff"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-24",
+    "kind": "fix",
+    "summary": "Retarget the Chain-of-Thought link after its move to technica/ais/system/.",
+    "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5",
+    "before": "b10a76b6c8307876dc8c2fe9994af7a435bdc087"
+   },
+   {
+    "date": "2026-10-24",
+    "kind": "fix",
+    "summary": "Retarget the chain-of-thought link to technica/ais/system/application/.",
+    "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d",
+    "before": "eb26c07ce2a2ebfccacc44edc4f9b1a3e45a07bf"
+   },
+   {
+    "date": "2026-10-24",
+    "kind": "fix",
+    "summary": "Retarget the technica/ais/system/<dir>/ links to the ais/ level paths.",
+    "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9",
+    "before": "1bf074e0f15a696167af5d877c92ae1462b2e6c5"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "refactor",
+    "summary": "Point the Model Validation link at epistemica/validation/validation.md.",
+    "commit": "caf8979dfabfa0ffd2460a794119c1b13e6930d0",
+    "before": "c84e7da355fd7758f50a794090127267460e9c3e"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "retarget the adaptative scope links",
+    "commit": "39ed185055e1a6e54082662bd88eea296c80e863",
+    "before": "3ae6b63d00af63b20cb419cc2ceacc241f14e2d6"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the observational/computational scope",
+    "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mathematical branch reorganisation.",
+    "commit": "eeb83a100560acfaf52c472c5bd9adde563e507a",
+    "before": "d573cea2f3f5c25cd7b64e5add6366a366a56167"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Repoint a link after the mapping-scope rename.",
+    "commit": "80b06d2c8f53289f91b85b30a970487fd7e964f6",
+    "before": "5188787ce5aaf5749f7a9b3f5afc554ff7e1d7e7"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
    }
   ]
  },
@@ -14994,6 +15685,25 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Flow Model from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the observational/computational scope",
+    "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
    }
   ]
  },
@@ -15115,6 +15825,25 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import (HMM) Hidden Markov Model from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "move into the observational/computational scope",
+    "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb"
    }
   ]
  },
@@ -17450,6 +18179,80 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Shannon Information Theory from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-18",
+    "kind": "docs",
+    "summary": "Link the Shannon information content note and the information-theory atlas.",
+    "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596",
+    "before": "1f029a3e107357b138c4956c2362f1099749b4c7"
+   },
+   {
+    "date": "2026-10-18",
+    "kind": "feat",
+    "summary": "Add the Shannon information content note with the guide-conformant two-column decomposition.",
+    "commit": "c78bb1d7b6caa13e266a6a2aead4b51d9192b596"
+   },
+   {
+    "date": "2026-10-21",
+    "kind": "docs",
+    "summary": "Conform the type question to the guide's wording (ambiguous?)."
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "summary": "Remove the retired order label from the decomposition wording.",
+    "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+    "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "refactor",
+    "summary": "Move to epistemica/observational/information/.",
+    "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "refactor",
+    "summary": "Move out of it/ into epistemica/observational/information/.",
+    "commit": "d7dbde604c3d27557f4e2126d1b9576fde9e4fa9"
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "refactor",
+    "summary": "Absorb the Shannon information content note as a section of this note; the concept keeps its guide-conformant formulation and is reached at #sec-shannon-information-content."
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "refactor",
+    "summary": "Merge the theory and the Shannon information content into one five-question formulation with a single decomposition rooted at the theory."
+   },
+   {
+    "date": "2026-10-29",
+    "kind": "docs",
+    "summary": "Expand the references with the foundational papers, canonical texts, estimation methods, and semantic-gap sources; order them by kind and tidy the existing entries.",
+    "commit": "d0ca5a5388777c2257f37bbc55e82166f1b57678",
+    "before": "48c09e6ee9f797c869bb3f7fcdb6267d597f0e4e"
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "docs",
+    "summary": "Rename The Tower of Abstractions to Shannon Theory Toolbox, fold Shannon Information Content into the Shannon Information subsection with its formula and unit readings, add the how-to-think-about-surprisal table, extend the references, and retarget the moved anchors.",
+    "commit": "de92470069cd11fa9a773dfdc195c7d70a248a19",
+    "before": "18020ab4af7306710aa167dfe1e1243aa8221789"
    }
   ]
  },
@@ -18005,6 +18808,12 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "scope the probability notes under observational",
+    "commit": "feb28d9c5ce650483491f27dfee6092b87e0bf70"
    }
   ]
  },
@@ -18904,6 +19713,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Standard Deviation from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -19224,6 +20046,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Backpropagation from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -19497,6 +20332,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "tuck the scope note into its own folder",
+    "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "docs",
+    "summary": "Add the nature-inspired methods index and point the family at the @natural-computing tag.",
+    "commit": "36f2000ce48ccdec65361e858687afdc289f3587",
+    "before": "f14f4de3c2e3c5c331b7c1e80e24ce1d4bf4fec6"
    }
   ]
  },
@@ -19577,6 +20425,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Trade-Off from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -20571,6 +21432,31 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import Durand–Kerner Method from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-30",
+    "kind": "refactor",
+    "summary": "Move into the epistemica/science/ scope (renamed from computational-science/).",
+    "commit": "780546eb8645071b97fbdbb72787d7438a5b6578"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/science/durandkerner-method.md to epistemica/singular/durandkerner-method.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -25631,6 +26517,88 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-17",
+    "kind": "feat",
+    "summary": "Import p-value from the Modelado Notion export.",
+    "commit": "25e20b2d4d87e45937b17af16a2816e9eaab4ca1"
+   },
+   {
+    "date": "2026-10-25",
+    "kind": "refactor",
+    "summary": "Move to epistemica/validation/.",
+    "commit": "fb7393fe14548db2f04f5e5aeef270761de02cad"
+   },
+   {
+    "date": "2026-10-25",
+    "kind": "docs",
+    "summary": "Add the null-hypothesis trick note and restore the Hypothesis Testing relation to the references.",
+    "commit": "6fb8e123adfffcf231c2d234d15cd34d997cbdfe",
+    "before": "e23cf6d58258e16dc8110015b5502b9ebe6064a0"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "summary": "Convert to the epistemic-element schema: type the p-value as a statistical quantity and its calculation as a hypothesis-testing operation, decompose both under the Epistemic Element root, and answer the interpretation QA.",
+    "commit": "1b039d6a80ed0d56c21e72700121349529c738c7",
+    "before": "5b0f638be7203c648551d41fb6f3626db5099d66"
+   },
+   {
+    "date": "2026-10-26",
+    "kind": "docs",
+    "summary": "Remove the retired order label from the decomposition wording and drop the order declaration.",
+    "commit": "b4aa088d35028ad0afd206241db418684b7e87e4",
+    "before": "b9af1688e8d3a5ef3347442551b844a5da0794b3"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "docs",
+    "summary": "Retarget the epistemic element set atlas link to EES and move the p-value image to the shared asset store.",
+    "commit": "3ec23618d0805d81eea2e20eec56c7fcf46817da",
+    "before": "a9cc919ae1a3ecb2bed5773c58fe3114b118b05a"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "docs",
+    "summary": "Link the P-Value Atlas (null distributions, tail formulas, simulation lab) from the references.",
+    "commit": "59b3ff69afcf678a2a70300646f65a2c57558791",
+    "before": "683507a9cee4fadb481544f187601fd2b29af0f0"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "docs",
+    "summary": "Add the Inference Framework node (Fisherian, Neyman–Pearson, NHST, Bayesian) to the decomposition and answer the framework question.",
+    "commit": "479010f80c75e2a6691fa01cd00f4f913becc671",
+    "before": "aec6a7587918a32c1422aba05dbb8f4a4636b612"
+   },
+   {
+    "date": "2026-10-27",
+    "kind": "refactor",
+    "summary": "Reorganize the operation branch under Statistical Significance Validation and name its four formulations (Fisherian, Neyman–Pearson, NHST, Bayesian).",
+    "commit": "04cea4019002cc9996637b39a59d5ee4c12c981e",
+    "before": "a6590e82ae05d26672842be91ed733cf2b8d05a7"
+   },
+   {
+    "date": "2026-10-28",
+    "kind": "docs",
+    "summary": "Point the common-tests table at the full procedure space in Statistical Hypothesis Testing and drop the duplicated conventions heading.",
+    "commit": "f1a1b4674239cfba4898b1f33a859c8d6b8197a5",
+    "before": "3f588c7f7a7215196a58ba0e55e66aef20d7c457"
+   },
+   {
+    "date": "2026-10-28",
+    "kind": "docs",
+    "summary": "Add the p-value properties table and the what-the-p-value-is-not table to the QA, with both questions in the front matter.",
+    "commit": "fe40f6461887cb3613a25ab242e58b0cee3984e9",
+    "before": "27ec5dbfa402d08ddeed9ce07e632d6010ed68b3"
+   },
+   {
+    "date": "2026-10-28",
+    "kind": "docs",
+    "summary": "Move the decomposition note and the compatibility statement above their tables.",
+    "commit": "d6ac66626223f7b1623de82372f046f1bd7bf57f",
+    "before": "c2238697a631c4061af60b2b36d53f457b251fc4"
    }
   ]
  },
@@ -33971,6 +34939,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/structure/algebra/spinor.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus."
    }
   ]
  },
@@ -42260,6 +43233,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move back from nature/construction/: the mathematical atlas points at this path, and the atlas is an epistemica store this pass does not touch — so the note returns to the root rather than break `make check`."
    }
   ]
  },
@@ -68830,6 +69808,25 @@
     "kind": "move",
     "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Computational Learning System from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-24",
+    "kind": "refactor",
+    "summary": "Move to technica/ais/system/ and follow the images into the shared /assets/ mirror.",
+    "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
    }
   ]
  },
@@ -70592,6 +71589,19 @@
     "summary": "Retarget the computational-complexity-theory link into the new theory shelf.",
     "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
     "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Algorithm from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -70977,6 +71987,26 @@
     "summary": "Retarget the computational-complexity-theory link into the new theory shelf.",
     "commit": "fda714973608e615a916cf0e542ebecf26cbf804",
     "before": "3de7842386eb6480d5977958e3bb53bb73c607d1"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Computacion from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
    }
   ]
  },
@@ -72678,6 +73708,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Data Visualization from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -72726,6 +73769,19 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Dependability from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -72763,6 +73819,19 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Consistency from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -73472,6 +74541,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Information Systems Integration from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -73909,6 +74991,19 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Language System from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -75167,6 +76262,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import ELF (Executable and Linkable Format) from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -77073,6 +78181,26 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Model of Computation from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
    }
   ]
  },
@@ -77147,6 +78275,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import NodeJS from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -77496,6 +78637,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Petri Net from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -77819,6 +78973,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Python from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -79092,6 +80259,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Type Variance from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -79276,6 +80456,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Unit of Computation from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -79577,6 +80770,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import x86: 📜 Language Specification from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -79731,6 +80937,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Calendar from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -80185,6 +81404,19 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Retrieval System (Search System) from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -80288,6 +81520,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Search Engine Optimization (SEO) from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -83162,6 +84407,12 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move to technica/computation/operating-system/linux/.",
+    "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f"
    }
   ]
  },
@@ -85702,6 +86953,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import CPU from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -86080,6 +87344,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Universal Serial Bus (USB) from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -87851,6 +89128,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import System from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -87895,6 +89185,26 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Design from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
    }
   ]
  },
@@ -88960,6 +90270,26 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Performace from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
+    "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
+    "before": "098f29d6622b12217c8248f372a4dc39fca21357"
    }
   ]
  },
@@ -89180,6 +90510,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import GDB (GNU Project Debugger) from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -89579,6 +90922,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Tracing from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -89912,6 +91268,33 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Firefox from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Retarget the Telecom links after the move to technica/computation/telecom/.",
+    "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15",
+    "before": "2f17c75ca2ae7a6fc552578c11dea20a205ab759"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
+    "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
+    "before": "098f29d6622b12217c8248f372a4dc39fca21357"
    }
   ]
  },
@@ -90356,6 +91739,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Network Diagram from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -90496,6 +91892,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Progress Bar from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -91322,6 +92731,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import GIT: Rebase from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -92086,6 +93508,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import Computational System Architecture from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -92834,6 +94269,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-20",
+    "kind": "feat",
+    "summary": "Import SOLID from the Computacion Notion export.",
+    "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
    }
   ]
  },
@@ -93248,6 +94696,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+    "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
+    "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
+    "before": "098f29d6622b12217c8248f372a4dc39fca21357"
    }
   ]
  },
@@ -94608,6 +96069,19 @@
     "summary": "Retarget the links into the flattened conceptual-model folders after the tree was flattened.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470",
     "before": "99c53944f90d28af568fe7b394cab7f007e03ffa"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move the Telecom landing note into telecom/ and pin it first with order: 0.",
+    "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Retarget the Linux links after the move to technica/computation/operating-system/linux/.",
+    "commit": "4e63342f8340c15da7391389efbf4e8b95a3547f",
+    "before": "098f29d6622b12217c8248f372a4dc39fca21357"
    }
   ]
  },
@@ -94664,6 +96138,12 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-31",
+    "kind": "refactor",
+    "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
+    "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
    }
   ]
  },
@@ -95773,6 +97253,19 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-10-22",
+    "kind": "refactor",
+    "summary": "Move images to the shared /assets/ store and update the references.",
+    "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
+    "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-10-24",
+    "kind": "refactor",
+    "summary": "Move to technica/general/ and follow the images into the shared /assets/ mirror.",
+    "commit": "6419d48be2a5328cb4dd352d4169ddbccbfe9211"
    }
   ]
  },
@@ -100454,6 +101947,12 @@
     "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from essays/how-to-simulate-and-model-electromagnetic-phenomen.md to unclassified/how-to-simulate-and-model-electromagnetic-phenomen.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
  },
@@ -100871,6 +102370,13 @@
     "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested.",
     "commit": "4e343945710a0c22fa72d10f08af85176656b2c0",
     "before": "9514e35123e319756dd9c964c4ead11d9f69da45"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
    }
   ]
  },
@@ -100955,6 +102461,12 @@
     "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison.",
     "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
     "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -100967,6 +102479,12 @@
     "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor.",
     "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
     "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
    }
   ]
  },
@@ -117403,6 +118921,16 @@
     "summary": "Retarget the links into nature/construction/, where the constructions now live.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c",
     "before": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/power-law.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/geometry/fractal.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus."
    }
   ]
  }
