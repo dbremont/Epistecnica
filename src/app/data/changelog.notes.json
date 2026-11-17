@@ -19497,6 +19497,11 @@
     "summary": "Add the first book to the reference list: Parzen, E. (1962). Stochastic processes. Holden-Day, with the Internet Archive scan of the Digital Library of India copy.",
     "commit": "630b8b78e5fd65007728418461c45f0a3027df19",
     "before": "630b8b78e5fd65007728418461c45f0a3027df19"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the Parzen citation at its new library entry instead of the raw archive.org URL."
    }
   ]
  },

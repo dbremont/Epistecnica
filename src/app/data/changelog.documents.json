@@ -37660,5 +37660,15 @@
     "before": "dbfa5df6dcef53f9f2ef945986827ed6c56a84d6"
    }
   ]
+ },
+ {
+  "file_path": "books/parzen-1962-stochastic-processes-holden-day.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New book entry: Parzen's 1962 Holden-Day text on stochastic processes, with the Internet Archive scan of the Digital Library of India copy and the note that cites it."
+   }
+  ]
  }
 ]
