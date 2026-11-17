@@ -60697,6 +60697,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The Sovereignty row of the concept inventory now links its note; the concept table had named it since the inventory was written and pointed nowhere."
    }
   ]
  },
@@ -61016,6 +61021,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: Sovereignty linked as the property this note grades as Dependent Standing."
    }
   ]
  },
@@ -62920,6 +62930,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Catalog: Romanitas added under the Civilizational worldview category."
    }
   ]
  },
@@ -122102,6 +122117,26 @@
     "kind": "create",
     "summary": "New note: imperialism, on the social-dynamic shelf beside globalization. It names the relation rather than the empire — the empires are filed as polities — and opens by admitting that the term is pejorative by construction: no state calls its own expansion imperialism, and a note that ignores the charge will misread half its sources. Readings kept as readings rather than competing types (relation of domination, process, regime, ideology, structure), then composition, six forms (colonial, informal free-trade, settler, protectorate, extractive enclave, cultural) and five theories stated with the objection each has to answer: Hobson, Lenin, Schumpeter, Gallagher and Robinson, Said. The point the table makes is that they are not rivals — two explain why the metropole wanted expansion, one how little formal control was needed, one the politics, one the categories. Closes on the five limits that actually ended empires: fiscal cost, military overstretch, legitimation at home, resistance in the periphery, rivalry between empires.",
     "commit": "f76fcbba6f43d4e1cc5ae7a9a324bc073a9e5dcd"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/sovereignty.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sovereignty, filed beside the polity it is a property of rather than on the normative shelf, because sovereignty is carried by a polity and does not exist apart from it. Typed as `Social Property` (Ontic, read synontically where it depends on recognition) and explicitly not a kind of polity nor a part of one; distinguished from authority (the entitlement to decide inside the order) and legitimacy (the rightness of exercising it). Decomposition under three groupings: locus (personal, legal, parliamentary, popular, national), extension (territorial, economic, technological), the four classical marks (absoluteness, indivisibility, perpetuity, inalienability) each with its standing objection, and standing grades (full, pooled, bounded, absent) that restate as degrees what polity.md calls Dependent Standing. Then the theories table with what each cost, the limits that actually bind a sovereign, and the de jure / de facto and formal / substantive distinctions. The note says plainly that sovereignty is a claim treated as a fact, and that the vocabulary survives because it is what makes the violations legible."
+   }
+  ]
+ },
+ {
+  "file_path": "social/synontic/ideational/romanitas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: Romanitas, on the ideational shelf as a civilizational worldview and catalogued in the ideational family table beside Civilization. Opens with the word's provenance — attested in Tertullian, a Carthaginian provincial writing around 210, and rare in Latin, which prefers humanitas, civilitas, mos maiorum, urbanitas — and makes that the problem: the name for Roman-ness was coined at the edge of the empire. Content decomposed into Latinity, ius, civitas, mos maiorum, humanitas, cultus and urbanitas; phases from the city through the Christian empire to Byzantine Romania; associated with Hellenism, Christianity and imperial ideology. Then the extension mechanism (grants of citizenship to 212, the army, the colony, the co-optation of provincial elites, the common law), the history of the standard and the membership, and the critique: an elite construction, the legitimation half of empire, and a modern word for a Roman absence given the revisionist case against Romanisation since the 1990s."
    }
   ]
  }

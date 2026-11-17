@@ -81,6 +81,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 | Ethical / philosophical school | [Humanism](/view.html?p=notes/social/synontic/ideational/humanity.md) | Human dignity and flourishing as the measure of value. |
 | Ethical / philosophical school | [Good](/view.html?p=notes/social/synontic/good.md) | The evaluative target of moral and ideational judgment. |
 | Civilizational worldview | [Civilization](/view.html?p=notes/social/synontic/ideational/civilization.md) | A complex, contested framing of collective historical order. |
+| Civilizational worldview | [Romanitas](/view.html?p=notes/social/synontic/ideational/romanitas.md) | The Roman self-conception of empire: a standard of life and a claim to membership. |
 | Meta-concept | [Ideology](/view.html?p=notes/social/synontic/ideology.md) | The general structure of stabilized idea-and-value systems. |
 | Meta-concept | [Belief System](/view.html?p=notes/social/synontic/ideational/belief.md) | The structure maintaining and revising belief content. |
 | Meta-concept | [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md) | Shared moral schemas transmitted within a philosophy of conduct. |
