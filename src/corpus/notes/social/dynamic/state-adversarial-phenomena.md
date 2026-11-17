@@ -1,5 +1,7 @@
 ---
 tags: [note]
+qa:
+ - What type of ontic element was "The Great Game"?
 ---
 
 # State Adversarial Interaction Phenomena
