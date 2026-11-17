@@ -173,6 +173,8 @@ Note:
 - Wallis, J. (1656). *Arithmetica infinitorum*. Oxford. — the arithmetisation of indivisibles
 - Barrow, I. (1670). *Lectiones geometricae*. London. — the geometric inverse relation between tangents and areas
 - Leibniz, G. W. (1686). De geometria recondita et analysi indivisibilium atque infinitorum. *Acta Eruditorum*, 5, 292–300. — where the sign $\int$ was published
+- Taylor, B. (1715). *Linear perspective: or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock. [scan](https://archive.org/details/bim_eighteenth-century_linear-perspective-or-_taylor-brook_1715/mode/2up)
+- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. [scan](https://archive.org/details/bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1717) — the method of increments: finite differences, and the sum as their inverse
 - Newton, I. (1736). *The method of fluxions and infinite series* (J. Colson, Trans.). Henry Woodfall. (Original work written 1671)
 - Euler, L. (1748). *Introductio in analysin infinitorum* (Vol. 1). Lausanne. — the integral as a function
 - Cauchy, A.-L. (1823). *Résumé des leçons données à l'École Royale Polytechnique sur le calcul infinitésimal*. Imprimerie Royale. — the definite integral as a limit of sums
@@ -209,7 +211,7 @@ Note:
 - Kanwal, R. P. (2013). *Linear integral equations* (3rd ed.). Birkhäuser.
 - Gradshteyn, I. S., & Ryzhik, I. M. (2014). *Table of integrals, series, and products* (8th ed.). Academic Press.
 - Olver, F. W. J., Olde Daalhuis, A. B., Lozier, D. W., Schneider, B. I., Boisvert, R. F., Clark, C. W., Miller, B. R., Saunders, B. V., Cohl, H. S., & McClain, M. A. (Eds.). (2024). *NIST digital library of mathematical functions*. https://dlmf.nist.gov/
-- [Integral symbol](https://en.wikipedia.org/wiki/Integral_symbol) · [Integral](https://en.wikipedia.org/wiki/Integral) · [Riemann integral](https://en.wikipedia.org/wiki/Riemann_integral) · [Lebesgue integral](https://en.wikipedia.org/wiki/Lebesgue_integral) · [Antiderivative](https://en.wikipedia.org/wiki/Antiderivative) · [Integral linear operator](https://en.wikipedia.org/wiki/Integral_linear_operator)
+- [Integral symbol](https://en.wikipedia.org/wiki/Integral_symbol) · [Integral](https://en.wikipedia.org/wiki/Integral) · [Riemann integral](https://en.wikipedia.org/wiki/Riemann_integral) · [Lebesgue integral](https://en.wikipedia.org/wiki/Lebesgue_integral) · [Antiderivative](https://en.wikipedia.org/wiki/Antiderivative) · [Fundamental theorem of calculus](https://en.wikipedia.org/wiki/Fundamental_theorem_of_calculus) · [Limits of integration](https://en.wikipedia.org/wiki/Limits_of_integration) · [Indefinite sum](https://en.wikipedia.org/wiki/Indefinite_sum) · [Finite difference](https://en.wikipedia.org/wiki/Finite_difference) · [Integral linear operator](https://en.wikipedia.org/wiki/Integral_linear_operator)
 - [Lists of integrals](https://en.wikipedia.org/wiki/Lists_of_integrals) · [Special functions](https://en.wikipedia.org/wiki/Special_functions) · [Elementary function](https://en.wikipedia.org/wiki/Elementary_function) · [Risch algorithm](https://en.wikipedia.org/wiki/Risch_algorithm)
 - [Integral kernel — Wolfram MathWorld](https://mathworld.wolfram.com/IntegralKernel.html)
 - [Equation](../../../nature/result/equation.md) — why an equation travels between fields, and where the differential and integral forms of the same law diverge

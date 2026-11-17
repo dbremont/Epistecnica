@@ -6194,6 +6194,11 @@
     "summary": "Present the literature as one flat list in chronological order, from Cavalieri (1635) to the DLMF (2024), instead of alphabetically with bold group headers; the undated lookup pages and corpus links keep their order at the end.",
     "commit": "ef2a8d88054a5b0d5eca45a40c4a809eabf4cafb",
     "before": "ef2a8d88054a5b0d5eca45a40c4a809eabf4cafb"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References completed with the discrete counterpart of the integral: Taylor's *Linear perspective* (1715) and *Methodus incrementorum directa et inversa* (1717), both with archive.org scans, inserted in year order between Leibniz (1686) and Newton (1736). The 1717 entry is annotated as the method of increments — finite differences and the sum as their inverse — which is what the \"sum\" in Leibniz's ∫ denotes. Four Wikipedia links added to the notation line: fundamental theorem of calculus, limits of integration, indefinite sum, finite difference."
    }
   ]
  },
