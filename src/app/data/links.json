@@ -19,7 +19,7 @@
       "kind": "hierarchy"
     },
     {
-      "from": "technica/ais/",
+      "from": "technica/cybernetics/",
       "to": "epistemica/observational/",
       "label": "Observational",
       "kind": "related"
@@ -134,13 +134,13 @@
     },
     {
       "from": "epistemica/observational/computational/",
-      "to": "technica/ais/architecture/transformer/transformer.md",
+      "to": "technica/cybernetics/architecture/transformer/transformer.md",
       "label": "Transformer",
       "kind": "related"
     },
     {
       "from": "epistemica/observational/computational/",
-      "to": "technica/ais/",
+      "to": "technica/cybernetics/",
       "label": "Active Inference System",
       "kind": "related"
     },

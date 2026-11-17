@@ -403,7 +403,7 @@ Properties:
 > An **inference strategy** is a method used to guide, structure, or augment a model’s behavior *at inference time* (when it is generating outputs, not being trained).
 > 
 
-> See more in [Chain-of-thought (CoT)](/view.html?p=notes/technica/ais/application/chain-of-thought-cot.md).
+> See more in [Chain-of-thought (CoT)](/view.html?p=notes/technica/cybernetics/application/chain-of-thought-cot.md).
 > 
 
 | **Strategy** | **Description** |

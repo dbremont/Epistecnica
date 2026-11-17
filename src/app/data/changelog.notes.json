@@ -61744,7 +61744,7 @@
   ]
  },
  {
-  "file_path": "technica/ais/ais.md",
+  "file_path": "technica/cybernetics/ais.md",
   "logs": [
    {
     "date": "2026-10-22",
@@ -61765,11 +61765,16 @@
     "summary": "Follow the robotic-system branch rename to technica/robotics/.",
     "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
     "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/ais.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/abstract-reasoning.md",
+  "file_path": "technica/cybernetics/application/abstract-reasoning.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61782,11 +61787,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/agentic-system.md",
+  "file_path": "technica/cybernetics/application/agentic-system.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -61813,11 +61823,16 @@
     "summary": "Retarget the retrieval/lgm link to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40",
     "before": "b7b9cf11e3c365951587f25131c0ad703916eae9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/application.md",
+  "file_path": "technica/cybernetics/application/application.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61830,11 +61845,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/application.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/chain-of-thought-cot.md",
+  "file_path": "technica/cybernetics/application/chain-of-thought-cot.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -61859,11 +61879,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/chain-of-thought-cot.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/dbt.md",
+  "file_path": "technica/cybernetics/application/dbt.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61876,11 +61901,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/interaction-layer.md",
+  "file_path": "technica/cybernetics/application/interaction-layer.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61893,11 +61923,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/interoperability.md",
+  "file_path": "technica/cybernetics/application/interoperability.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61910,11 +61945,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/mixed-system.md",
+  "file_path": "technica/cybernetics/application/mixed-system.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61927,11 +61967,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/mixed-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/model-context-protocol-mcp.md",
+  "file_path": "technica/cybernetics/application/model-context-protocol-mcp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61944,11 +61989,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/optical-flow.md",
+  "file_path": "technica/cybernetics/application/optical-flow.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61961,11 +62011,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/recommender-system.md",
+  "file_path": "technica/cybernetics/application/recommender-system.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61978,11 +62033,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/system-prompt.md",
+  "file_path": "technica/cybernetics/application/system-prompt.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -61995,11 +62055,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/virtual-assistant.md",
+  "file_path": "technica/cybernetics/application/virtual-assistant.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62012,11 +62077,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/visual-encoding.md",
+  "file_path": "technica/cybernetics/application/visual-encoding.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62029,11 +62099,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/world-model.md",
+  "file_path": "technica/cybernetics/application/world-model.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62053,11 +62128,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/application/yolo-real-time-object-detection.md",
+  "file_path": "technica/cybernetics/application/yolo-real-time-object-detection.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62077,11 +62157,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/application/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/application/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/architecture.md",
+  "file_path": "technica/cybernetics/architecture/architecture.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62094,11 +62179,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/architecture.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/autoencoder.md",
+  "file_path": "technica/cybernetics/architecture/autoencoder.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62130,11 +62220,16 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/autoencoder.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/boltzmann-machine.md",
+  "file_path": "technica/cybernetics/architecture/boltzmann-machine.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62159,11 +62254,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/boltzmann-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/convolutional-neural-network-cnn.md",
+  "file_path": "technica/cybernetics/architecture/convolutional-neural-network-cnn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62188,11 +62288,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/convolutional-neural-network-cnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/deep-belief-networks-dbn.md",
+  "file_path": "technica/cybernetics/architecture/deep-belief-networks-dbn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62217,11 +62322,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/deep-belief-networks-dbn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/diffusion-model.md",
+  "file_path": "technica/cybernetics/architecture/diffusion-model.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62246,11 +62356,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/diffusion-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/energy-based-model-ebm.md",
+  "file_path": "technica/cybernetics/architecture/energy-based-model-ebm.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62275,11 +62390,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/energy-based-model-ebm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/feedforward-neural-network-fnn.md",
+  "file_path": "technica/cybernetics/architecture/feedforward-neural-network-fnn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62304,11 +62424,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/feedforward-neural-network-fnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
+  "file_path": "technica/cybernetics/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62333,11 +62458,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/generative-adversarial-network-gan.md",
+  "file_path": "technica/cybernetics/architecture/generative-adversarial-network-gan.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62362,11 +62492,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/generative-adversarial-network-gan.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/graph-neural-networks-gnn.md",
+  "file_path": "technica/cybernetics/architecture/graph-neural-networks-gnn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62391,11 +62526,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/graph-neural-networks-gnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/helmholtz-machine.md",
+  "file_path": "technica/cybernetics/architecture/helmholtz-machine.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62420,11 +62560,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/helmholtz-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/hierarchical-temporal-memory-htm.md",
+  "file_path": "technica/cybernetics/architecture/hierarchical-temporal-memory-htm.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62449,11 +62594,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/hierarchical-temporal-memory-htm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/hopfield-network.md",
+  "file_path": "technica/cybernetics/architecture/hopfield-network.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62478,11 +62628,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/hopfield-network.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/kanerva-machine.md",
+  "file_path": "technica/cybernetics/architecture/kanerva-machine.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62507,11 +62662,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/kanerva-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/lstm-networks.md",
+  "file_path": "technica/cybernetics/architecture/lstm-networks.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62536,11 +62696,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/lstm-networks.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/multilayer-perceptron-mlp.md",
+  "file_path": "technica/cybernetics/architecture/multilayer-perceptron-mlp.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62572,11 +62737,16 @@
     "summary": "retarget the model links after the computational model move",
     "commit": "d80e97695a85d4e0a37863c5a58a6382498721cb",
     "before": "14ffe2e962f328e67dfebe5933334249c774cf3f"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/multilayer-perceptron-mlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/neural-network-nn.md",
+  "file_path": "technica/cybernetics/architecture/neural-network-nn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62615,11 +62785,16 @@
     "summary": "retarget the computational links after the computational move",
     "commit": "32149a42a186e240cf4d58a1020285fb2dec68ee",
     "before": "7c4bddcbdb76bcf65771a1ccb0d7c35f45171d0c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/neural-network-nn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/perceptron-mccullochpitts-neuron.md",
+  "file_path": "technica/cybernetics/architecture/perceptron-mccullochpitts-neuron.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62698,11 +62873,16 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/perceptron-mccullochpitts-neuron.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/recurrent-neural-network-rnn.md",
+  "file_path": "technica/cybernetics/architecture/recurrent-neural-network-rnn.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62727,11 +62907,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/recurrent-neural-network-rnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/self-organizing-map.md",
+  "file_path": "technica/cybernetics/architecture/self-organizing-map.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62756,11 +62941,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/self-organizing-map.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/sequence-to-sequence-seq2seq.md",
+  "file_path": "technica/cybernetics/architecture/sequence-to-sequence-seq2seq.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62785,11 +62975,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/sequence-to-sequence-seq2seq.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/transformer/attention.md",
+  "file_path": "technica/cybernetics/architecture/transformer/attention.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -62836,11 +63031,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/transformer/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/transformer/attention.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/transformer/transformer-system-training.md",
+  "file_path": "technica/cybernetics/architecture/transformer/transformer-system-training.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -62859,11 +63059,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/transformer/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/transformer/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/transformer/transformer.md",
+  "file_path": "technica/cybernetics/architecture/transformer/transformer.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -62903,11 +63108,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/transformer/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/transformer/transformer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/variational-autoencoder-vae.md",
+  "file_path": "technica/cybernetics/architecture/variational-autoencoder-vae.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62932,11 +63142,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/variational-autoencoder-vae.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/architecture/word2vec.md",
+  "file_path": "technica/cybernetics/architecture/word2vec.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -62961,22 +63176,32 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/architecture/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/architecture/word2vec.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/domain.md",
+  "file_path": "technica/cybernetics/domain/domain.md",
   "logs": [
    {
     "date": "2026-10-24",
     "kind": "feat",
     "summary": "Add the Domain index note grouping the AIS problem domains (language, retrieval).",
     "commit": "8a895b96798ee72c1c48faeb5e64e19787b530f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/domain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/constituency-parsing.md",
+  "file_path": "technica/cybernetics/domain/language/constituency-parsing.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -62995,11 +63220,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/dependency-parsing.md",
+  "file_path": "technica/cybernetics/domain/language/dependency-parsing.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63018,11 +63248,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/document-classification.md",
+  "file_path": "technica/cybernetics/domain/language/document-classification.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63041,11 +63276,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/language.md",
+  "file_path": "technica/cybernetics/domain/language/language.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63064,11 +63304,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/language.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/n-gram.md",
+  "file_path": "technica/cybernetics/domain/language/n-gram.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -63093,11 +63338,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/n-gram.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/named-entity-recognition-ner.md",
+  "file_path": "technica/cybernetics/domain/language/named-entity-recognition-ner.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63116,11 +63366,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/natural-language-processing-nlp.md",
+  "file_path": "technica/cybernetics/domain/language/natural-language-processing-nlp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63139,11 +63394,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/natural-language-toolkit-nltk.md",
+  "file_path": "technica/cybernetics/domain/language/natural-language-toolkit-nltk.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63162,11 +63422,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/paraphrase-detection.md",
+  "file_path": "technica/cybernetics/domain/language/paraphrase-detection.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63185,11 +63450,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/parts-of-speech-pos-tags.md",
+  "file_path": "technica/cybernetics/domain/language/parts-of-speech-pos-tags.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63208,11 +63478,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/spacy.md",
+  "file_path": "technica/cybernetics/domain/language/spacy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63231,11 +63506,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/term-frequency-inverse-document-frequency-tf-idf.md",
+  "file_path": "technica/cybernetics/domain/language/term-frequency-inverse-document-frequency-tf-idf.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63254,11 +63534,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/language/topic-modelling.md",
+  "file_path": "technica/cybernetics/domain/language/topic-modelling.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63277,11 +63562,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/language/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/language/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/code-search.md",
+  "file_path": "technica/cybernetics/domain/retrieval/code-search.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63300,11 +63590,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/full-text-search.md",
+  "file_path": "technica/cybernetics/domain/retrieval/full-text-search.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63323,11 +63618,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/haystack.md",
+  "file_path": "technica/cybernetics/domain/retrieval/haystack.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63346,11 +63646,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/knowledge-graph.md",
+  "file_path": "technica/cybernetics/domain/retrieval/knowledge-graph.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63369,11 +63674,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/langchain.md",
+  "file_path": "technica/cybernetics/domain/retrieval/langchain.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63392,11 +63702,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/lgm.md",
+  "file_path": "technica/cybernetics/domain/retrieval/lgm.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -63421,11 +63736,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/lgm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/retrieval-augmented-generation-rag.md",
+  "file_path": "technica/cybernetics/domain/retrieval/retrieval-augmented-generation-rag.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63444,11 +63764,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/retrieval.md",
+  "file_path": "technica/cybernetics/domain/retrieval/retrieval.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63467,11 +63792,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/retrieval.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/semantic-search.md",
+  "file_path": "technica/cybernetics/domain/retrieval/semantic-search.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63490,11 +63820,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/domain/retrieval/similarity-search.md",
+  "file_path": "technica/cybernetics/domain/retrieval/similarity-search.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63513,176 +63848,256 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/domain/retrieval/.",
     "commit": "09b7cdc9e7359cf1a5e2a098d657987562481b40"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/domain/retrieval/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation.md",
+  "file_path": "technica/cybernetics/evaluation.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Evaluation from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/cifar-10-100.md",
+  "file_path": "technica/cybernetics/evaluation/cifar-10-100.md",
   "logs": [
    {
     "date": "2026-10-24",
     "kind": "refactor",
     "summary": "Move to technica/ais/evaluation/.",
     "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/cityscapes.md",
+  "file_path": "technica/cybernetics/evaluation/cityscapes.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Cityscapes from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/cityscapes.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/coco-common-objects-in-context.md",
+  "file_path": "technica/cybernetics/evaluation/coco-common-objects-in-context.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import COCO (Common Objects in Context) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/coco-common-objects-in-context.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/evaluation.md",
+  "file_path": "technica/cybernetics/evaluation/evaluation.md",
   "logs": [
    {
     "date": "2026-10-23",
     "kind": "refactor",
     "summary": "Move the Evaluation landing note from the ais root into ais/evaluation/.",
     "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/fashion-mnist.md",
+  "file_path": "technica/cybernetics/evaluation/fashion-mnist.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Fashion-MNIST from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/fashion-mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/glue-general-language-understanding-evaluation.md",
+  "file_path": "technica/cybernetics/evaluation/glue-general-language-understanding-evaluation.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import GLUE (General Language Understanding Evaluation) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/glue-general-language-understanding-evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/imagenet.md",
+  "file_path": "technica/cybernetics/evaluation/imagenet.md",
   "logs": [
    {
     "date": "2026-10-24",
     "kind": "refactor",
     "summary": "Move to technica/ais/evaluation/.",
     "commit": "5a5c413bf21ec1d7a1bcf19a34449a9c7aef2c5d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/kitti.md",
+  "file_path": "technica/cybernetics/evaluation/kitti.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import KITTI from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/kitti.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/librispeech.md",
+  "file_path": "technica/cybernetics/evaluation/librispeech.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import LibriSpeech from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/librispeech.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/mnist.md",
+  "file_path": "technica/cybernetics/evaluation/mnist.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import MNIST from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/pascal-voc.md",
+  "file_path": "technica/cybernetics/evaluation/pascal-voc.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import PASCAL VOC from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/pascal-voc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/squad-stanford-question-answering-dataset.md",
+  "file_path": "technica/cybernetics/evaluation/squad-stanford-question-answering-dataset.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import SQuAD (Stanford Question Answering Dataset) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/squad-stanford-question-answering-dataset.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/timit.md",
+  "file_path": "technica/cybernetics/evaluation/timit.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import TIMIT from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/timit.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/evaluation/topic.md",
+  "file_path": "technica/cybernetics/evaluation/topic.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import topic from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/evaluation/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/dual-chunk-attention-dca.md",
+  "file_path": "technica/cybernetics/inference/dual-chunk-attention-dca.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63695,11 +64110,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/inference.md",
+  "file_path": "technica/cybernetics/inference/inference.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63712,11 +64132,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/inference.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/moe.md",
+  "file_path": "technica/cybernetics/inference/moe.md",
   "logs": [
    {
     "date": "2026-10-22",
@@ -63735,11 +64160,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/multi-level-attention-mla.md",
+  "file_path": "technica/cybernetics/inference/multi-level-attention-mla.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63752,11 +64182,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/multi-tensor-processing-mtp.md",
+  "file_path": "technica/cybernetics/inference/multi-tensor-processing-mtp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63769,11 +64204,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/performace.md",
+  "file_path": "technica/cybernetics/inference/performace.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63786,11 +64226,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/quantization.md",
+  "file_path": "technica/cybernetics/inference/quantization.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63803,11 +64248,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/temperature.md",
+  "file_path": "technica/cybernetics/inference/temperature.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63820,11 +64270,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/inference/test-time-compute-ttc.md",
+  "file_path": "technica/cybernetics/inference/test-time-compute-ttc.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63837,55 +64292,80 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/inference/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/inference/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/operation.md",
+  "file_path": "technica/cybernetics/operation.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Operation from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/operation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/robotic-system.md",
+  "file_path": "technica/cybernetics/robotic-system.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Robotic System from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/robotic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md",
+  "file_path": "technica/cybernetics/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Computer Numerical Control (CNC) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/robotic-system/automatum-conceptual-model/topic.md",
+  "file_path": "technica/cybernetics/robotic-system/automatum-conceptual-model/topic.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import topic from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/active-learning.md",
+  "file_path": "technica/cybernetics/synthesis/active-learning.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63898,11 +64378,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/curriculum-learning.md",
+  "file_path": "technica/cybernetics/synthesis/curriculum-learning.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63915,11 +64400,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/data-augmentation.md",
+  "file_path": "technica/cybernetics/synthesis/data-augmentation.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63932,11 +64422,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/differentiable-computing.md",
+  "file_path": "technica/cybernetics/synthesis/differentiable-computing.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63949,11 +64444,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/distributed-training.md",
+  "file_path": "technica/cybernetics/synthesis/distributed-training.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63966,11 +64466,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/knowledge-distillation.md",
+  "file_path": "technica/cybernetics/synthesis/knowledge-distillation.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -63983,11 +64488,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/classification.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/classification.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64018,11 +64528,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/clustering-model.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/clustering-model.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64053,11 +64568,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/clustering-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/conditional-random-fields-crfs.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/conditional-random-fields-crfs.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64088,11 +64608,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/conditional-random-fields-crfs.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/decision-tree.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/decision-tree.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64123,11 +64648,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/decision-tree.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/ensemble-learning.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/ensemble-learning.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64153,11 +64683,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/latent-dirichlet-allocation-lda.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/latent-dirichlet-allocation-lda.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64188,11 +64723,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/latent-dirichlet-allocation-lda.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/learning-method.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/learning-method.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64211,11 +64751,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/learning-method.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/naive-bayes-classifier.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/naive-bayes-classifier.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64246,11 +64791,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/naive-bayes-classifier.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/random-forest.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/random-forest.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64281,11 +64831,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/random-forest.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/learning-method/support-vector-machine.md",
+  "file_path": "technica/cybernetics/synthesis/learning-method/support-vector-machine.md",
   "logs": [
    {
     "date": "2026-10-17",
@@ -64316,11 +64871,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/learning-method/.",
     "commit": "7fa8ed1a42d87af3682cdc12ce2d7fbc7ac38c82"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/learning-method/support-vector-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/reinforcement-learning-with-human-feedback-rlhf.md",
+  "file_path": "technica/cybernetics/synthesis/reinforcement-learning-with-human-feedback-rlhf.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64333,11 +64893,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/synthesis.md",
+  "file_path": "technica/cybernetics/synthesis/synthesis.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64357,11 +64922,16 @@
     "summary": "Add the training decomposition outline to the synthesis landing note.",
     "commit": "e4583b7a0137ab228ab6634675190adf2c671359",
     "before": "b58aeeca081c9636075f489266d9f8460f7ddaf1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/synthesis.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/training.md",
+  "file_path": "technica/cybernetics/synthesis/training.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64374,11 +64944,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/synthesis/transfer-learning.md",
+  "file_path": "technica/cybernetics/synthesis/transfer-learning.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64391,22 +64966,32 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/synthesis/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/synthesis/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system.md",
+  "file_path": "technica/cybernetics/system.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import System from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/bert.md",
+  "file_path": "technica/cybernetics/system/bert.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -64419,11 +65004,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ (the synthesized systems).",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/computational-learning-system.md",
+  "file_path": "technica/cybernetics/system/computational-learning-system.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -64443,11 +65033,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ and follow the images into the shared /assets/ mirror.",
     "commit": "31117f5478e4743cd038f7b8d2c2cdffce025ea5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/computational-learning-system.md",
+  "file_path": "technica/cybernetics/system/computational-learning-system.md",
   "logs": [
    {
     "date": "2026-11-07",
@@ -64455,814 +65050,1184 @@
     "summary": "Restore the singular assets/ image path after the corpus rename.",
     "commit": "8a3e2f5e309a8e2a7e9b48cd0da5bd7f36bdd4c8",
     "before": "f73e80ab5b055726822aa9af922e7c243554f2b7"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/abstract-reasoning.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/abstract-reasoning.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Abstract Reasoning from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/active-learning.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/active-learning.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Active Learning from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/agentic-system.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/agentic-system.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Agentic System from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/bert.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/bert.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import BERT from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/cifar-10-100.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/cifar-10-100.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import CIFAR-10/100 from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/code-search.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/code-search.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Code Search from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/constituency-parsing.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/constituency-parsing.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Constituency Parsing from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/curriculum-learning.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/curriculum-learning.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Curriculum Learning from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/data-augmentation.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/data-augmentation.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Data Augmentation from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/dbt.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/dbt.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import dbt from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/deepseek-r1.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/deepseek-r1.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import DeepSeek R1 from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/deepseek-v3.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/deepseek-v3.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import DeepSeek V3 from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/dependency-parsing.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/dependency-parsing.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Dependency Parsing from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/differentiable-computing.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/differentiable-computing.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Differentiable Computing from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/distributed-training.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/distributed-training.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Distributed Training from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/document-classification.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/document-classification.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Document Classification from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/dual-chunk-attention-dca.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/dual-chunk-attention-dca.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Dual Chunk Attention (DCA) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/ensemble-learning.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/ensemble-learning.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Ensemble Learning from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/full-text-search.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/full-text-search.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Full-Text Search from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/gpt2.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/gpt2.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import GPT2 from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/gpt3.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/gpt3.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import GPT3 from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/haystack.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/haystack.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Haystack from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/imagenet.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/imagenet.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import ImageNet from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/interaction-layer.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/interaction-layer.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Interaction Layer from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/interoperability.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/interoperability.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Interoperability from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/jax.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/jax.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import JAX from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/keras.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/keras.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Keras from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/knowledge-distillation.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/knowledge-distillation.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Knowledge Distillation from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/knowledge-graph.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/knowledge-graph.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Knowledge Graph from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/langchain.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/langchain.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import LangChain from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/language-modelling-lm.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/language-modelling-lm.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Language Modelling (LM) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/language-modelling-lm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/mixture-of-experts-moe.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/mixture-of-experts-moe.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Mixture of Experts (MoE) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/mixture-of-experts-moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/model-context-protocol-mcp.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/model-context-protocol-mcp.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Model Context Protocol (MCP) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/multi-level-attention-mla.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/multi-level-attention-mla.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Multi-Level Attention (MLA) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Multi-Tensor Processing (MTP) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/n-grams.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/n-grams.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import n-grams from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/n-grams.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/named-entity-recognition-ner.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/named-entity-recognition-ner.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Named Entity Recognition (NER) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/natural-language-processing-nlp.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/natural-language-processing-nlp.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Natural Language Processing (NLP) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Natural Language Toolkit (nltk) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/numpy.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/numpy.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Numpy from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/ollama.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/ollama.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import ollama from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/opencv.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/opencv.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import OpenCV from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/openxla.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/openxla.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import OpenXLA from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/optical-flow.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/optical-flow.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Optical Flow from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/pandas.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/pandas.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Pandas from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/paraphrase-detection.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/paraphrase-detection.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Paraphrase Detection from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Parts of Speech (POS) Tags from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/performace.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/performace.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Performace from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/quantization.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/quantization.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Quantization from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/recommender-system.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/recommender-system.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Recommender System from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Reinforcement Learning with Human Feedback (RLHF) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Retrieval-Augmented Generation (RAG) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/scikit-learn.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/scikit-learn.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Scikit-learn from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/scipy.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/scipy.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Scipy from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/semantic-search.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/semantic-search.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Semantic Search from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/similarity-search.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/similarity-search.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Similarity Search from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/spacy.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/spacy.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import spaCy from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/statsmodels.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/statsmodels.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Statsmodels from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/system-prompt.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/system-prompt.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import System Prompt from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/temperature.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/temperature.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Temperature from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/tensorflow.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/tensorflow.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import TensorFlow from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Term Frequency-Inverse Document Frequency (TF-IDF) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/test-time-compute-ttc.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/test-time-compute-ttc.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Test Time Compute (TTC) from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/topic-modelling.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/topic-modelling.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Topic Modelling from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/topic.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/topic.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import topic from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/training.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/training.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Training from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/transfer-learning.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/transfer-learning.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Transfer Learning from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/transformer-system-training.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/transformer-system-training.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Transformer System: Training from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/transformer-system.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/transformer-system.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Transformer System from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/virtual-assistant.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/virtual-assistant.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Virtual Assistant from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/visual-encoding.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/visual-encoding.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Visual Encoding from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/world-model.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/world-model.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import World Model from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/conceptual-model-ml-system/yolo-real-time-object-detection.md",
+  "file_path": "technica/cybernetics/system/conceptual-model-ml-system/yolo-real-time-object-detection.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import YOLO: Real-Time Object Detection from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/deepseek-r1.md",
+  "file_path": "technica/cybernetics/system/deepseek-r1.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65275,11 +66240,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ (the synthesized systems).",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/deepseek-v3.md",
+  "file_path": "technica/cybernetics/system/deepseek-v3.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65292,11 +66262,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ (the synthesized systems).",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/gpt2.md",
+  "file_path": "technica/cybernetics/system/gpt2.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65309,11 +66284,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ (the synthesized systems).",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/gpt3.md",
+  "file_path": "technica/cybernetics/system/gpt3.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65326,22 +66306,32 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/system/ (the synthesized systems).",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/system.md",
+  "file_path": "technica/cybernetics/system/system.md",
   "logs": [
    {
     "date": "2026-10-23",
     "kind": "refactor",
     "summary": "Move the System landing note from the ais root into ais/system/.",
     "commit": "917a432482987b4332889d2afe4fe602ffc8ed46"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/system/transformer/transformer-system.md",
+  "file_path": "technica/cybernetics/system/transformer/transformer-system.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -65355,44 +66345,64 @@
     "summary": "Remove the stub note: it carried nothing but a broken Notion link and duplicated the Transformer System characterization.",
     "commit": "28e47fbcaa93f9e737a5f6fbcfa4b35d75db9d55",
     "before": "4b7e7f4e512d09a578617ce69f87772f67af3f5a"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/system/transformer/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/theory/coding-model-continuation-study.md",
+  "file_path": "technica/cybernetics/theory/coding-model-continuation-study.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Coding Model Continuation Study from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/theory/coding-model-continuation-study.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/theory/llm-system-modelling.md",
+  "file_path": "technica/cybernetics/theory/llm-system-modelling.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import LLM System Modelling from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/theory/llm-system-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/theory/study-framework.md",
+  "file_path": "technica/cybernetics/theory/study-framework.md",
   "logs": [
    {
     "date": "2026-10-22",
     "kind": "feat",
     "summary": "Import Study Framework from the Machine Active Inference Notion export.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/theory/study-framework.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/jax.md",
+  "file_path": "technica/cybernetics/tooling/jax.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65405,11 +66415,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/keras.md",
+  "file_path": "technica/cybernetics/tooling/keras.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65422,11 +66437,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/numpy.md",
+  "file_path": "technica/cybernetics/tooling/numpy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65439,11 +66459,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/ollama.md",
+  "file_path": "technica/cybernetics/tooling/ollama.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65456,11 +66481,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/opencv.md",
+  "file_path": "technica/cybernetics/tooling/opencv.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65473,11 +66503,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/openxla.md",
+  "file_path": "technica/cybernetics/tooling/openxla.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65490,11 +66525,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/pandas.md",
+  "file_path": "technica/cybernetics/tooling/pandas.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65507,11 +66547,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/scikit-learn.md",
+  "file_path": "technica/cybernetics/tooling/scikit-learn.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65524,11 +66569,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/scipy.md",
+  "file_path": "technica/cybernetics/tooling/scipy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65541,11 +66591,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/statsmodels.md",
+  "file_path": "technica/cybernetics/tooling/statsmodels.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65558,11 +66613,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/tensorflow.md",
+  "file_path": "technica/cybernetics/tooling/tensorflow.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65575,11 +66635,16 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },
  {
-  "file_path": "technica/ais/tooling/tooling.md",
+  "file_path": "technica/cybernetics/tooling/tooling.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -65592,6 +66657,11 @@
     "kind": "refactor",
     "summary": "Move to technica/ais/tooling/.",
     "commit": "8a97ddd39f2b7a838a3d78a8ed73b67a048620f9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/ais/tooling/tooling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
    }
   ]
  },

@@ -132,7 +132,7 @@ Each branch of the decomposition is developed in the corpus by the notes below.
 | Sequential decisions | [Markov Decision Processes (MDP)](/view.html?p=notes/epistemica/adaptative/markov-decision-processes-mdp.md) | States, actions, transitions, and rewards over time. |
 | Control | [Control Theory](/view.html?p=notes/epistemica/adaptative/control-theory.md), [Optimal Control Theory](/view.html?p=notes/epistemica/adaptative/optimal-control-theory.md), [Model Predictive Control (MPC)](/view.html?p=notes/epistemica/adaptative/model-predictive-control-mpc.md) | Regulating a dynamical system, with and without an explicit objective. |
 | Computational decisions | [Combinatorial Optimization](/view.html?p=notes/epistemica/optimization/combinatorial-optimization.md), [Dynamic Programming](/view.html?p=notes/epistemica/optimization/dynamic-programming.md), [Knapsack Problem](/view.html?p=notes/epistemica/optimization/knapsack-problem.md) | Decision problems in the computer-science sense. |
-| Decision trees | [Decision Tree](/view.html?p=notes/technica/ais/synthesis/learning-method/decision-tree.md) | The trainable ML model — distinct from the decision-analysis tree. |
+| Decision trees | [Decision Tree](/view.html?p=notes/technica/cybernetics/synthesis/learning-method/decision-tree.md) | The trainable ML model — distinct from the decision-analysis tree. |
 | Information value | [Shannon Information Content](/view.html?p=notes/epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content) | The surprisal that information reduces; the atom of value-of-information reasoning. |
 
 ## QA

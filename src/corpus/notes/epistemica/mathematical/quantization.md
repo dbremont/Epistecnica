@@ -161,7 +161,7 @@ qa:
 
 ### Is quantizing a neural network's weights the same operation as quantizing a signal?
 
-> The operation is the same — replace values by finitely many representatives under a declared partition and codebook — but the apparatus and the budget differ. A signal quantizer is designed against a source density over a fixed dynamic range, at a fixed rate per sample, and judged by distortion. A weight quantizer is designed against a weight distribution that is learned, with **scales** chosen per tensor or per channel, often at rate 8 or 4 bits, and judged by downstream task loss rather than by reconstruction error — which is why it accepts large per-weight distortion when the loss is flat in that direction. See [Quantization](/view.html?p=notes/technica/ais/inference/quantization.md) for the engineering treatment.
+> The operation is the same — replace values by finitely many representatives under a declared partition and codebook — but the apparatus and the budget differ. A signal quantizer is designed against a source density over a fixed dynamic range, at a fixed rate per sample, and judged by distortion. A weight quantizer is designed against a weight distribution that is learned, with **scales** chosen per tensor or per channel, often at rate 8 or 4 bits, and judged by downstream task loss rather than by reconstruction error — which is why it accepts large per-weight distortion when the loss is flat in that direction. See [Quantization](/view.html?p=notes/technica/cybernetics/inference/quantization.md) for the engineering treatment.
 
 ## References
 
@@ -174,7 +174,7 @@ qa:
 - [Measurement Theory](/view.html?p=notes/epistemica/quantification/measurement-theory.md)
 - [Geometric Quantization](/view.html?p=notes/epistemica/singular/geometric-quantization.md)
 - [Quantum Framework](/view.html?p=notes/epistemica/singular/quantum-framework.md)
-- [Quantization (engineering treatment)](/view.html?p=notes/technica/ais/inference/quantization.md)
+- [Quantization (engineering treatment)](/view.html?p=notes/technica/cybernetics/inference/quantization.md)
 - [Quantization (signal processing)](https://en.wikipedia.org/wiki/Quantization_(signal_processing))
 - [Vector quantization](https://en.wikipedia.org/wiki/Vector_quantization)
 - [Dither](https://en.wikipedia.org/wiki/Dither)

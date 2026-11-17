@@ -18,7 +18,7 @@ $$\log p(x) = \underbrace{\mathbb{E}_{q}\big[\log p(x, z)\big] - \mathbb{E}_{q}\
 
 so that maximizing $\mathrm{ELBO}(q)$ over $q \in \mathcal{Q}$ is exactly minimizing $\mathrm{KL}(q \,\|\, p(z \mid x))$ — the identity that turns posterior inference into a bound-optimization problem.
 
-The family $\mathcal{Q}$ ranges from fully factorized **mean-field** ansätze $q(z) = \prod_i q(z_i)$ to structured and **amortized** families $q_\phi(z \mid x)$ parameterized by an inference network. The gradients are computed either through **reparameterization** (low-variance pathwise derivatives) or score-function estimates, in full-batch or **stochastic** mini-batch ascent. The auto-encoder realization of the pattern is the [variational autoencoder](/view.html?p=notes/technica/ais/architecture/variational-autoencoder-vae.md); the classical statistical realization is expectation–maximization with free-parameters fixed.
+The family $\mathcal{Q}$ ranges from fully factorized **mean-field** ansätze $q(z) = \prod_i q(z_i)$ to structured and **amortized** families $q_\phi(z \mid x)$ parameterized by an inference network. The gradients are computed either through **reparameterization** (low-variance pathwise derivatives) or score-function estimates, in full-batch or **stochastic** mini-batch ascent. The auto-encoder realization of the pattern is the [variational autoencoder](/view.html?p=notes/technica/cybernetics/architecture/variational-autoencoder-vae.md); the classical statistical realization is expectation–maximization with free-parameters fixed.
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -209,7 +209,7 @@ Prefer VI when the dataset is too large for MCMC mixing, when per-observation in
 - [Kullback–Leibler Divergence](/view.html?p=notes/epistemica/observational/kullbackleibler-divergence.md) — the divergence the family is projected in.
 - [Expectation–Maximization (EM) Algorithm](/view.html?p=notes/epistemica/observational/computational/expectation-maximization-em-algorithm.md) — the coordinate-ascent special case.
 - [Mixture Model](/view.html?p=notes/epistemica/observational/computational/mixture-model.md) and [Generative Model](/view.html?p=notes/epistemica/observational/computational/generative-model.md) — canonical model classes fitted by VI.
-- [Variational Autoencoder (VAE)](/view.html?p=notes/technica/ais/architecture/variational-autoencoder-vae.md) — the amortized auto-encoding realization.
+- [Variational Autoencoder (VAE)](/view.html?p=notes/technica/cybernetics/architecture/variational-autoencoder-vae.md) — the amortized auto-encoding realization.
 - [Bayes' Theorem](/view.html?p=notes/epistemica/observational/probability/bayes-theorem.md) and [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md) — the posterior the method approximates.
 - [Jordan, M. I., Ghahramani, Z., Jaakkola, T. S., & Saul, L. K. (1999). An introduction to variational methods for graphical models. Machine Learning, 37, 183–233.](/view.html?p=documents/articles/jordan-1999-introduction-variational-methods-graphical-models.md)
 - [Wainwright, M. J., & Jordan, M. I. (2008). Graphical models, exponential families, and variational inference. Foundations and Trends in Machine Learning, 1(1–2), 1–305.](/view.html?p=documents/articles/wainwright-2008-graphical-models-exponential-families-variational.md)
