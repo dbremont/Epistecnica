@@ -113842,7 +113842,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Stale path corrected: the family prose said nature/physical-object/ while the directory is nature/body/."
+    "summary": "Stale path corrected: the family prose said nature/physical-object/ while the directory is nature/body/.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc",
+    "before": "5ee6f2c43005f049ab0d873d1394ed3172356c67"
    }
   ]
  },
@@ -121623,7 +121625,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the structural member, the building block structure.md names but had no note for. Typed as a Building Block specialized to Structural Member, and read as a body in its own right: the same steel section is a beam where it bends, a column where it is compressed and a tie where it hangs, so the member kinds are classified by the state of stress they are designed for rather than by shape. Six member kinds (bar, beam, column, cable, surface), the attributes that decide behaviour (cross-section, span) and the two bounds every member meets (strength, stability)."
+    "summary": "New note: the structural member, the building block structure.md names but had no note for. Typed as a Building Block specialized to Structural Member, and read as a body in its own right: the same steel section is a beam where it bends, a column where it is compressed and a tie where it hangs, so the member kinds are classified by the state of stress they are designed for rather than by shape. Six member kinds (bar, beam, column, cable, surface), the attributes that decide behaviour (cross-section, span) and the two bounds every member meets (strength, stability).",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121633,7 +121636,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the beam, the member in bending. Three quantities decide it — span, second moment of area and elastic modulus — and deflection scales with the fourth power of the span, which is why a small increase in span is a large increase in depth. Kinds by support condition (simply supported, cantilever, continuous), attributes (second moment of area, deflection) and two distinct bounds: bending stress for strength, serviceability for use. It is also the corpus case of a theory with a stated bound, since Euler-Bernoulli assumes small deflections."
+    "summary": "New note: the beam, the member in bending. Three quantities decide it — span, second moment of area and elastic modulus — and deflection scales with the fourth power of the span, which is why a small increase in span is a large increase in depth. Kinds by support condition (simply supported, cantilever, continuous), attributes (second moment of area, deflection) and two distinct bounds: bending stress for strength, serviceability for use. It is also the corpus case of a theory with a stated bound, since Euler-Bernoulli assumes small deflections.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121643,7 +121647,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the column, the member in axial compression whose characteristic failure is buckling rather than crushing. The Euler load pi^2 EI/L^2 makes the point in its exponents: capacity falls with the square of the length, so slenderness governs rather than area, and effective length rather than physical length is what enters. Three regimes — short crushes, long buckles elastically, intermediate does both and is empirical — and the stability bound is the shelf case where imperfections matter most, because the ideal formula is an upper bound."
+    "summary": "New note: the column, the member in axial compression whose characteristic failure is buckling rather than crushing. The Euler load pi^2 EI/L^2 makes the point in its exponents: capacity falls with the square of the length, so slenderness governs rather than area, and effective length rather than physical length is what enters. Three regimes — short crushes, long buckles elastically, intermediate does both and is empirical — and the stability bound is the shelf case where imperfections matter most, because the ideal formula is an upper bound.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121653,7 +121658,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the cable, the tension-only member. Its shape is found rather than chosen: it takes the funicular of its loads, catenary under self weight and parabola under a uniform horizontal deck load, and the horizontal component of tension is constant along it. Three consequences worth keeping: sag sets the tension rather than decorating the form; transverse stiffness comes from geometry and pretension, not from material, so a slack cable is not stiff; and the structure must supply the compression the pull of the cable implies. Filed as the dual of the arch, same equilibrium with the sign reversed."
+    "summary": "New note: the cable, the tension-only member. Its shape is found rather than chosen: it takes the funicular of its loads, catenary under self weight and parabola under a uniform horizontal deck load, and the horizontal component of tension is constant along it. Three consequences worth keeping: sag sets the tension rather than decorating the form; transverse stiffness comes from geometry and pretension, not from material, so a slack cable is not stiff; and the structure must supply the compression the pull of the cable implies. Filed as the dual of the arch, same equilibrium with the sign reversed.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121663,7 +121669,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the foundation, the support through which a structure delivers its load to the ground — the one building block whose other half is a substance. Shallow (strip, pad, raft) and deep (pile, caisson) families, the joint quantities of the ground-foundation system (bearing pressure, settlement) and four bounds (bearing capacity, tolerable movement, sliding, overturning). Its most important statement is about which bound governs: foundations rarely break, they move, which is why the settlement bound — about use rather than survival — usually decides the size."
+    "summary": "New note: the foundation, the support through which a structure delivers its load to the ground — the one building block whose other half is a substance. Shallow (strip, pad, raft) and deep (pile, caisson) families, the joint quantities of the ground-foundation system (bearing pressure, settlement) and four bounds (bearing capacity, tolerable movement, sliding, overturning). Its most important statement is about which bound governs: foundations rarely break, they move, which is why the settlement bound — about use rather than survival — usually decides the size.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121673,7 +121680,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the structural connection, the joint that transmits action between members and the place where the strength of the structure is actually decided, since the shelf defines strength as the capacity of the weakest member or connection. Classified by mechanism of transmission — fused (weld), friction and bearing (bolt, rivet), contact (pin, bearing), anchorage into a substrate — each with its own characteristic failure. Two properties make it governing: the load path changes direction there, so combined actions meet; and it is the most redundant part of the structure, which is what lets a ductile joint redistribute and a brittle one fail progressively."
+    "summary": "New note: the structural connection, the joint that transmits action between members and the place where the strength of the structure is actually decided, since the shelf defines strength as the capacity of the weakest member or connection. Classified by mechanism of transmission — fused (weld), friction and bearing (bolt, rivet), contact (pin, bearing), anchorage into a substrate — each with its own characteristic failure. Two properties make it governing: the load path changes direction there, so combined actions meet; and it is the most redundant part of the structure, which is what lets a ductile joint redistribute and a brittle one fail progressively.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121683,7 +121691,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the load path, the attribute that makes a structure one body rather than a heap of members, and the one the corpus leans on without a note. Interaction-derived quantity, with three attributes and a failure mode each: continuity (an unbroken route in media that can carry the action — the failure behind most collapses), directness (what the optimal trusses of Michell minimise) and redundancy (the number of independent routes, which is what makes failure graceful). Kinds: primary, secondary and funicular paths."
+    "summary": "New note: the load path, the attribute that makes a structure one body rather than a heap of members, and the one the corpus leans on without a note. Interaction-derived quantity, with three attributes and a failure mode each: continuity (an unbroken route in media that can carry the action — the failure behind most collapses), directness (what the optimal trusses of Michell minimise) and redundancy (the number of independent routes, which is what makes failure graceful). Kinds: primary, secondary and funicular paths.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121693,7 +121702,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the arch, filed on the body shelf as an instance of Structure, not as a new root and not in technica. The curve is a path rather than a profile: the arch stands when a line of thrust can be found inside its own material for every load it must carry, and falls when none exists. It is distinguished from the beam by material requirement rather than by shape — a beam needs a material that can pull, an arch only one that can push, which is why masonry builds arches. Forms (semicircular, segmental, pointed, flat), parts (voussoir, abutment), quantities (thrust, rise, thickness) and two bounds: no tension, and the four-hinge mechanism."
+    "summary": "New note: the arch, filed on the body shelf as an instance of Structure, not as a new root and not in technica. The curve is a path rather than a profile: the arch stands when a line of thrust can be found inside its own material for every load it must carry, and falls when none exists. It is distinguished from the beam by material requirement rather than by shape — a beam needs a material that can pull, an arch only one that can push, which is why masonry builds arches. Forms (semicircular, segmental, pointed, flat), parts (voussoir, abutment), quantities (thrust, rise, thickness) and two bounds: no tension, and the four-hinge mechanism.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121703,7 +121713,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: vibration as the mechanical case of oscillation, filed beside the oscillation master that already defines the distinction — oscillation is the pattern, vibration the case where matter moves, wave the case where the pattern travels. Four quantities each with a bound attached (natural frequency, mode shape, damping ratio, amplitude) and three driving regimes: free, forced (resonance when driver and natural frequency meet) and self-excited (amplitude set by the system, which is why it cannot be damped away by removing a driver). The closing point is that amplitude decides which bound is met: small and long is fatigue, large and once is resonance or yielding."
+    "summary": "New note: vibration as the mechanical case of oscillation, filed beside the oscillation master that already defines the distinction — oscillation is the pattern, vibration the case where matter moves, wave the case where the pattern travels. Four quantities each with a bound attached (natural frequency, mode shape, damping ratio, amplitude) and three driving regimes: free, forced (resonance when driver and natural frequency meet) and self-excited (amplitude set by the system, which is why it cannot be damped away by removing a driver). The closing point is that amplitude decides which bound is met: small and long is fatigue, large and once is resonance or yielding.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc"
    }
   ]
  },
@@ -121713,7 +121724,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The instance prose names the arch, and the reference list now links the six member, support and connection notes the table had asserted without notes, plus the load-path property."
+    "summary": "The instance prose names the arch, and the reference list now links the six member, support and connection notes the table had asserted without notes, plus the load-path property.",
+    "commit": "024ab4e4979c825ddd09d24ab21c50f67fc5f8dc",
+    "before": "5ee6f2c43005f049ab0d873d1394ed3172356c67"
    }
   ]
  }
