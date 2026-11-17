@@ -66880,13 +66880,23 @@
   ]
  },
  {
-  "file_path": "technica/budgeting.md",
+  "file_path": "technica/general/budgeting.md",
   "logs": [
    {
     "date": "2026-11-06",
     "kind": "refactor",
     "summary": "Move from epistemica/budgeting.md to technica/budgeting.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/budgeting.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Drop the Notion relation-count property line left by the export at the top of the body."
    }
   ]
  },
@@ -95122,13 +95132,23 @@
   ]
  },
  {
-  "file_path": "technica/organizational.md",
+  "file_path": "technica/general/organizational.md",
   "logs": [
    {
     "date": "2026-11-06",
     "kind": "refactor",
     "summary": "Move from epistemica/theory/organizational.md to technica/organizational.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from technica/organizational.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Drop the Notion relation-count property line left by the export at the top of the body."
    }
   ]
  },

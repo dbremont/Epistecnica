@@ -4,7 +4,6 @@ tags: [note]
 
 # Budgeting
 
-: 9
 
 > Create and manage budgets, forecast financial performance, and compare actuals against budgeted figures.
 > 

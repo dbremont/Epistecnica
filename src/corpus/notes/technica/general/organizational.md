@@ -4,7 +4,6 @@ tags: [note]
 
 # Organizational Theory
 
-: 21
 
 > **Organizational Theory** is the study of how organizations are structured, how they function, and how they interact with their environment to achieve goals and improve performance.
 > 
