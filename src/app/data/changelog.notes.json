@@ -8444,7 +8444,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/feynman-diagram.md: a calculation technique of quantum field theory, filed with the physics that uses it."
+    "summary": "Move from epistemica/mathematical/feynman-diagram.md: a calculation technique of quantum field theory, filed with the physics that uses it.",
+    "commit": "386ec252be2a326929b65fdff1637015e3e5bfd0"
    }
   ]
  },
@@ -9007,7 +9008,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/ising-model.md: a named model of a particular system — spins on a lattice — so it belongs to the science scope, not to the mathematics branch."
+    "summary": "Move from epistemica/mathematical/ising-model.md: a named model of a particular system — spins on a lattice — so it belongs to the science scope, not to the mathematics branch.",
+    "commit": "386ec252be2a326929b65fdff1637015e3e5bfd0"
    }
   ]
  },
@@ -11488,7 +11490,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/quantization.md: the note is about *digitisation* — bits, signal-to-quantization noise, dithering — not about quantum quantisation, so it belongs with the signal corpus."
+    "summary": "Move from epistemica/mathematical/quantization.md: the note is about *digitisation* — bits, signal-to-quantization noise, dithering — not about quantum quantisation, so it belongs with the signal corpus.",
+    "commit": "386ec252be2a326929b65fdff1637015e3e5bfd0"
    }
   ]
  },
@@ -11640,7 +11643,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/scalar-field.md: a rank-0 tensor field, filed with tensor-field and the field tensors it generalises."
+    "summary": "Move from epistemica/mathematical/scalar-field.md: a rank-0 tensor field, filed with tensor-field and the field tensors it generalises.",
+    "commit": "386ec252be2a326929b65fdff1637015e3e5bfd0"
    }
   ]
  },
@@ -14655,7 +14659,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/universal-induction.md: an inductive principle rather than a mathematical object; filed on the principle shelf with Occam, MDL and the pigeonhole principle."
+    "summary": "Move from epistemica/mathematical/universal-induction.md: an inductive principle rather than a mathematical object; filed on the principle shelf with Occam, MDL and the pigeonhole principle.",
+    "commit": "386ec252be2a326929b65fdff1637015e3e5bfd0"
    }
   ]
  },
