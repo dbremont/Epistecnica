@@ -37724,7 +37724,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "Library entry for the Everyman Descartes: J. M. Dent, 1912, John Veitch translation, carrying the Discourse on Method with the Meditations and the Principles in one volume. The note records what the edition is rather than only what it contains — Veitch as the nineteenth-century English Descartes, and the volume binding the programme of the Discourse to one worked-out system in the Principles — and, decisively for citation, what it lacks: the original 1637 Discours was printed with La dioptrique, Les meteores and La geometrie, and the Everyman volume contains none of the mathematical appendix, so it cannot be cited for the rule of signs or analytic geometry. Cited from the Descartes method note."
+    "summary": "Library entry for the Everyman Descartes: J. M. Dent, 1912, John Veitch translation, carrying the Discourse on Method with the Meditations and the Principles in one volume. The note records what the edition is rather than only what it contains — Veitch as the nineteenth-century English Descartes, and the volume binding the programme of the Discourse to one worked-out system in the Principles — and, decisively for citation, what it lacks: the original 1637 Discours was printed with La dioptrique, Les meteores and La geometrie, and the Everyman volume contains none of the mathematical appendix, so it cannot be cited for the rule of signs or analytic geometry. Cited from the Descartes method note.",
+    "commit": "b0ad7b474a0e27f365351dd08739b73f38d50a41"
    }
   ]
  }
