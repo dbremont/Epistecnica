@@ -122216,7 +122216,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The citation is restored whole: the reference line carries the full title with the war clause and the imprint (Bristol: W. Bonny), with the library entry linked on it, and the works table uses the full title too. Trimming a citation to its first clause is not a saving; it is a different book on the shelf."
+    "summary": "The citation is restored whole: the reference line carries the full title with the war clause and the imprint (Bristol: W. Bonny), with the library entry linked on it, and the works table uses the full title too. Trimming a citation to its first clause is not a saving; it is a different book on the shelf.",
+    "commit": "7d81ef10c5fb67526b375961638137370ba81b27",
+    "before": "08dc8065f5061d51a9caf242054fc716ff85f826"
    }
   ]
  },
