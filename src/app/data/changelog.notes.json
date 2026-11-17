@@ -29451,7 +29451,7 @@
   ]
  },
  {
-  "file_path": "nature/boltzmann-equation.md",
+  "file_path": "nature/construction/boltzmann-equation.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -29459,6 +29459,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move into nature/construction/: the equation is not a natural element but the construction built about one — a dilute gas — and the shelf now holds it with the connectome, Euler's critical load and the field equations."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Write the note: the transport equation for the distribution function with its collision integral, the molecular-chaos closure, the H-theorem and the Maxwell–Boltzmann fixed point, the Chapman–Enskog hydrodynamic limit and the transport coefficients it predicts; decomposed to its parts, standards, checks and constraints, with the Loschmidt and Zermelo objections kept as constraints rather than resolved away, and typed as an epistemic construction of kind Model under the conceptuum evaluation."
    }
   ]
  },
