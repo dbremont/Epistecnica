@@ -121166,5 +121166,15 @@
     "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
+ },
+ {
+  "file_path": "epistemica/practice.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Carry the essay's source list into the note: the same APA 7 references, from Llull's Ars magna to Curren's SEP entry on the philosophy of education, plus the six psychological sources (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) and the local Cognitive Development note. Front matter added so the note is indexed with its tags."
+   }
+  ]
  }
 ]
