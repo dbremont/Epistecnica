@@ -169,7 +169,7 @@ The concept under evaluation is **the Einstein field equations**, precised as *t
 - [Equivalence Principle](/view.html?p=notes/nature/equivalence-principle.md) — the standard the law must respect
 - [Principle of Relativity](/view.html?p=notes/nature/principle-of-relativity.md) — the invariance read at constant velocity
 - [Gravity](/view.html?p=notes/nature/gravity.md) — the phenomenon the geometry is read as
-- [Gravitational Field](/view.html?p=notes/nature/gravitational-field.md) — the natural target, pending its own decomposition
+- [Gravitational Field](/view.html?p=notes/nature/matter/elementary/gravitational-field.md) — the natural target, pending its own decomposition
 - [Spacetime (as Substrate)](/view.html?p=notes/nature/spacetime-as-substrate.md) — the manifold read as substance
 - [Gravitational Wave](/view.html?p=notes/nature/wave/gravitational-wave.md) — the propagating solution
 - [Dark Energy](/view.html?p=notes/nature/dark-energy.md) — the observed effect the cosmological term is read as

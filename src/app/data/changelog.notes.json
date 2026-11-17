@@ -12197,6 +12197,11 @@
     "summary": "Retarget the link to spin now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
    }
   ]
  },
@@ -33102,6 +33107,11 @@
     "summary": "Retarget the GW150914 waveform link to nature/wave/gravitational-wave.md, the note that remains after the wave corpus was consolidated.",
     "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
     "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
    }
   ]
  },
@@ -33708,6 +33718,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/matter/state/degenerate-matter.md."
    }
   ]
  },
@@ -35869,6 +35884,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/matter/state/fermionic-condensate.md."
    }
   ]
  },
@@ -47381,6 +47401,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/matter/state/photonic-matter.md."
    }
   ]
  },
@@ -49930,6 +49955,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/matter/state/rydberg-matter.md."
    }
   ]
  },
@@ -51311,6 +51341,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/body/structure.md."
    }
   ]
  },
@@ -52804,6 +52839,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line template stub with the definition never worked, duplicated by the written note at nature/matter/state/time-crystal.md."
    }
   ]
  },
@@ -112298,6 +112338,11 @@
     "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
     "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
    }
   ]
  },
@@ -113160,6 +113205,11 @@
     "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
     "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
    }
   ]
  },
@@ -115136,6 +115186,436 @@
     "summary": "Retarget the Gland link to the note’s new home and add the neighbouring body-part links.",
     "commit": "67e2c97ab146f02a9defac2ae5c79c8f8a62fd37",
     "before": "67e2c97ab146f02a9defac2ae5c79c8f8a62fd37"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/enzyme/industrial-enzyme.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/industrial-enzyme.md: the note is an enzyme, and the enzyme shelf holds the enzyme notes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/enzyme/oxidoreductases.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/oxidoreductases.md: the note is an enzyme, and the enzyme shelf holds the enzyme notes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/molecular/acetyl-coa.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/acetyl-coa.md: the note is a molecule or a metabolite, and the molecular shelf holds the molecules organisms assemble."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/molecular/co2.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/co2.md: the note is a molecule or a metabolite, and the molecular shelf holds the molecules organisms assemble."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/molecular/neurotransmitter.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/neurotransmitter.md: the note is a molecule or a metabolite, and the molecular shelf holds the molecules organisms assemble."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/molecular/scopolamine.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/scopolamine.md: the note is a molecule or a metabolite, and the molecular shelf holds the molecules organisms assemble."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/bacteria/e-coli-escherichia-coli.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/e-coli-escherichia-coli.md: E. coli is a bacterium — an organism — and the bacteria shelf holds the bacteria."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/process/clotting.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/clotting.md: a living process belongs with the metabolic and evolutionary notes on the process shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/process/conception.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/conception.md: a living process belongs with the metabolic and evolutionary notes on the process shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/process/gluconeogenesis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/gluconeogenesis.md: a living process belongs with the metabolic and evolutionary notes on the process shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/coal-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/coal-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/axion-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/axion-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/composite-particle-hadron.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/composite-particle-hadron.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/dark-energy-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/dark-energy-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/dark-matter-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/dark-matter-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/dirac-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/dirac-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/gravitational-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/gravitational-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/inflaton-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/inflaton-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/magnon-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/magnon-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/phonon-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/phonon-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/proton.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/proton.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/quantum-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/quantum-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/standard-model.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/standard-model.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/elementary/superfluid-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/superfluid-field.md: the note is a particle or a field, and the elementary shelf holds the particles and the fields they come from."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/alluvial-soil.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/alluvial-soil.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/calcite.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/calcite.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/colluvial-soil.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/colluvial-soil.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/desert-aeolian-soils.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/desert-aeolian-soils.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/feldspar.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/feldspar.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/glacial-till-moraines.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/glacial-till-moraines.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/peat-organic-soils.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/peat-organic-soils.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/quartz.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/quartz.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/regolith-weathered-bedrock.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/regolith-weathered-bedrock.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/sedimentary-cover.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/sedimentary-cover.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/soil-profiles-pedons.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/soil-profiles-pedons.md: a soil or a mineral is a `Substance / Matter` of the geological shelf, which already holds soil, sediment, rock, mineral, ore and loess."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/lpg-liquefied-petroleum-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/lpg-liquefied-petroleum-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/natural-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/natural-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/producer-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/producer-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/steam.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/steam.md: steam is water in the vapour state, and the state shelf holds the states of matter."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/syngas-synthesis-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/syngas-synthesis-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/water-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/water-gas.md: a fuel gas is a substance, and the matter shelf holds the substances the chemical shelf does not — ammonia, compound, mixture."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/physical-object.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/cell/cell-signaling.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the shelves the notes moved to."
    }
   ]
  }
