@@ -161,5 +161,22 @@
    "epistemology"
   ],
   "status": "answered"
+ },
+ {
+  "id": "qa-00011",
+  "question": "Is the concept of SME a trap for techno-productive policy?\n\nSME — small and medium-sized enterprise — is defined by size: headcount, turnover, balance sheet. It is not defined by what the firm does, what it knows, or whether it is capable of developing technique.\n\nSo: when policy targets \"SMEs\", does it target a real population with a common problem, or a statistical bracket that mixes a toolmaker with a shop and a software company, and then hands the toolmaker's needs the shop's instrument? And if the aim is techno-productive capability — the capacity to create and adopt technique rather than merely to operate — is size the wrong axis altogether, such that an SME category built for credit guarantees and administrative relief becomes a trap when it is used to justify innovation policy?",
+  "answer": "",
+  "agent": "human",
+  "run": "derived-005",
+  "date": "2026-11-17",
+  "source": "manual",
+  "tags": [
+   "economic",
+   "sme",
+   "industrial-policy",
+   "technological-capability",
+   "policy"
+  ],
+  "status": "open"
  }
 ]
