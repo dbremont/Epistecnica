@@ -115577,7 +115577,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Place the note in its hierarchy: link the exact Liouville equation it truncates, the Vlasov equation that keeps only its streaming term, the Jeans equations taken from its collisionless case, and the new shelf master on why the form travels and the closure does not."
+    "summary": "Place the note in its hierarchy: link the exact Liouville equation it truncates, the Vlasov equation that keeps only its streaming term, the Jeans equations taken from its collisionless case, and the new shelf master on why the form travels and the closure does not.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121092,7 +121094,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New shelf master, order 0: the equation as a representational system rather than a construction — its four roles (closure, bookkeeping, definition, classification), the five modes by which a form reaches a field that was not its target (bookkeeping, definition, limit, moment, universality), and the three-part test that makes a transfer legitimate: the quantity must exist there, the derivation assumptions must hold, and the move must be a nameable limit rather than an analogy. Form travels, interpretation is re-bound, closure does not travel."
+    "summary": "New shelf master, order 0: the equation as a representational system rather than a construction — its four roles (closure, bookkeeping, definition, classification), the five modes by which a form reaches a field that was not its target (bookkeeping, definition, limit, moment, universality), and the three-part test that makes a transfer legitimate: the quantity must exist there, the derivation assumptions must hold, and the move must be a nameable limit rather than an analogy. Form travels, interpretation is re-bound, closure does not travel.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121102,7 +121106,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New model: the elliptic law of a sourced potential, with its six readings (electrostatic potential, Newtonian gravity, steady conduction, seepage, Saint-Venant torsion, 2D stream function), the Green's function and superposition, and the screened Debye-Hückel/Yukawa extension. The corpus's clearest case of one form serving fields it was never written for: Poisson wrote it for gravitation, electrostatics adopted it, and the other four readings changed a symbol, not a line."
+    "summary": "New model: the elliptic law of a sourced potential, with its six readings (electrostatic potential, Newtonian gravity, steady conduction, seepage, Saint-Venant torsion, 2D stream function), the Green's function and superposition, and the screened Debye-Hückel/Yukawa extension. The corpus's clearest case of one form serving fields it was never written for: Poisson wrote it for gravitation, electrostatics adopted it, and the other four readings changed a symbol, not a line.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121112,7 +121118,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New model and the root of the kinetic family: the exact conservation of phase-space density under a Hamiltonian flow. It assumes nothing, so it produces no irreversibility — fine-grained entropy is constant, recurrence forbids monotone entropy, and every usable kinetic equation below it is a truncation. The note states that exactness is why it cannot describe a gas."
+    "summary": "New model and the root of the kinetic family: the exact conservation of phase-space density under a Hamiltonian flow. It assumes nothing, so it produces no irreversibility — fine-grained entropy is constant, recurrence forbids monotone entropy, and every usable kinetic equation below it is a truncation. The note states that exactness is why it cannot describe a gas.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121122,7 +121130,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New model: the collisionless kinetic equation, in both readings — a plasma (Vlasov 1938, Maxwell field, Debye screening) and a stellar system (Jeans 1915, Poisson field, no screening). Includes the mean-field self-consistency that is the actual closure, the dispersion relations, Landau damping as damping without dissipation, and the two constraints the readings carry: negative heat capacity and the Jeans swindle."
+    "summary": "New model: the collisionless kinetic equation, in both readings — a plasma (Vlasov 1938, Maxwell field, Debye screening) and a stellar system (Jeans 1915, Poisson field, no screening). Includes the mean-field self-consistency that is the actual closure, the dispersion relations, Landau damping as damping without dissipation, and the two constraints the readings carry: negative heat capacity and the Jeans swindle.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121132,7 +121142,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New model: the velocity moments of the collisionless kinetic equation — continuity plus momentum, with a velocity-dispersion tensor nobody can measure. The note is explicit that four equations with ten unknowns make the mass an output of an assumed anisotropy rather than of the data, and that the same moment-taking closes with thermodynamics in a fluid and does not close here."
+    "summary": "New model: the velocity moments of the collisionless kinetic equation — continuity plus momentum, with a velocity-dispersion tensor nobody can measure. The note is explicit that four equations with ten unknowns make the mass an output of an assumed anisotropy rather than of the data, and that the same moment-taking closes with thermodynamics in a fluid and does not close here.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  },
@@ -121142,7 +121154,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New model: the local statement of conservation, with its five readings (mass, charge, quantum probability, chemical species, traffic) and its two forms — the differential one that fails at shocks and the integral one that survives there. The note argues the equation is a schema: exact, universal, and empty until a constitutive law supplies the flux, and it separates it from the topological homonym in the mathematical corpus."
+    "summary": "New model: the local statement of conservation, with its five readings (mass, charge, quantum probability, chemical species, traffic) and its two forms — the differential one that fails at shocks and the integral one that survives there. The note argues the equation is a schema: exact, universal, and empty until a constitutive law supplies the flux, and it separates it from the topological homonym in the mathematical corpus.",
+    "commit": "7a92420c75eb24ecf388e924f68ad54621f0c88c",
+    "before": "7a92420c75eb24ecf388e924f68ad54621f0c88c"
    }
   ]
  }
