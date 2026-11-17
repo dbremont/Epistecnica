@@ -3450,7 +3450,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Harmonic Analysis link to the discipline note and state the distinction the line was blurring: the maximum principle is stated for the harmonic functions in the kernel of the Laplacian, not for the eigenfunctions harmonic analysis decomposes."
+    "summary": "Retarget the Harmonic Analysis link to the discipline note and state the distinction the line was blurring: the maximum principle is stated for the harmonic functions in the kernel of the Laplacian, not for the eigenfunctions harmonic analysis decomposes.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
+    "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    }
   ]
  },
@@ -8687,7 +8689,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the dead relative links (harmonic analysis, Hilbert space, wavelet) to absolute viewer paths, point Harmonic Analysis at the discipline shelf, and fold the bare links into an APA list with Dirichlet, Fourier and Stein & Shakarchi."
+    "summary": "Retarget the dead relative links (harmonic analysis, Hilbert space, wavelet) to absolute viewer paths, point Harmonic Analysis at the discipline shelf, and fold the bare links into an APA list with Dirichlet, Fourier and Stein & Shakarchi.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
+    "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    }
   ]
  },
@@ -111198,7 +111202,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the Related list at the notes that exist — Propagation of Sound and Perception of Sound — replacing two paths the note had named but never carried."
+    "summary": "Point the Related list at the notes that exist — Propagation of Sound and Perception of Sound — replacing two paths the note had named but never carried.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
+    "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    }
   ]
  },
@@ -111215,7 +111221,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the perceptual and propagation references at the notes that exist — Perception of Sound and Propagation of Sound."
+    "summary": "Point the perceptual and propagation references at the notes that exist — Perception of Sound and Propagation of Sound.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
+    "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    }
   ]
  },
@@ -111302,12 +111310,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mapping/harmonic-analysis.md: harmonic analysis is a discipline — an organized inquiry — not a mapping, and the mapping shelf holds the objects it works on (Fourier series, wavelet, integral transform), not the practice itself."
+    "summary": "Move from epistemica/mathematical/mapping/harmonic-analysis.md: harmonic analysis is a discipline — an organized inquiry — not a mapping, and the mapping shelf holds the objects it works on (Fourier series, wavelet, integral transform), not the practice itself.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    },
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Rewrite as a discipline note in the formulation grammar: the practice framing, the three senses of \"harmonic\" (overtone, sinusoidal component, solution of Laplace’s equation), the line of descent from Fourier 1822 through Dirichlet, Plancherel, Wiener, Zygmund and Calderón–Zygmund to wavelets, the five formulation questions, a decomposition of orientation, agency, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization plus five member sub-practices, the conceptuum evaluation with name–object drift as the principal risk, the original description kept in its own section, and one integrated APA reference list."
+    "summary": "Rewrite as a discipline note in the formulation grammar: the practice framing, the three senses of \"harmonic\" (overtone, sinusoidal component, solution of Laplace’s equation), the line of descent from Fourier 1822 through Dirichlet, Plancherel, Wiener, Zygmund and Calderón–Zygmund to wavelets, the five formulation questions, a decomposition of orientation, agency, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization plus five member sub-practices, the conceptuum evaluation with name–object drift as the principal risk, the original description kept in its own section, and one integrated APA reference list.",
+    "commit": "f288831d6ee45e3943e8717553f1207dc0da7d0d",
+    "before": "f288831d6ee45e3943e8717553f1207dc0da7d0d"
    }
   ]
  }
