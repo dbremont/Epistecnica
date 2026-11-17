@@ -16,6 +16,7 @@ tags: [note, nature, natural-system, system]
 ## Related
 
 - [Organ](/view.html?p=notes/nature/life/organism/organ.md)
+- [Gland](/view.html?p=notes/nature/life/organism/gland.md) — the secretory organ, exocrine or endocrine
 
 ## Provenance
 

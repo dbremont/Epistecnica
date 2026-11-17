@@ -105,6 +105,6 @@ This note is the family-level decomposition; each member discipline is a practic
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Physical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) · [Chemical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/chemical-sciences.md) · [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) · [Life](/view.html?p=notes/nature/life/life.md) · [Organism](/view.html?p=notes/nature/life/organism/organism.md) · [Levels of Biological Organization](/view.html?p=notes/nature/levels-of-biological-organization.md)
+- [Physical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) · [Chemical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/chemical-sciences.md) · [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) · [Life](/view.html?p=notes/nature/life/life.md) · [Organism](/view.html?p=notes/nature/life/organism/organism.md) · [Levels of Biological Organization](/view.html?p=notes/nature/life/levels-of-biological-organization.md)
 - https://en.wikipedia.org/wiki/Outline_of_biology
 - https://en.wikipedia.org/wiki/Level_of_organization

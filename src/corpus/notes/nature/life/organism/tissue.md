@@ -15,7 +15,7 @@ tags: [note, nature, substance-matter, biology, biomaterial]
 
 - [Human](/view.html?p=notes/nature/life/organism/human/human.md)
 - [Muscle](/view.html?p=notes/nature/life/organism/human/muscle.md)
-- [Adipose Tissue](/view.html?p=notes/nature/adipose-tissue.md)
+- [Adipose Tissue](/view.html?p=notes/nature/life/organism/human/adipose-tissue.md)
 - [Organ](/view.html?p=notes/nature/life/organism/organ.md)
 
 ## Provenance

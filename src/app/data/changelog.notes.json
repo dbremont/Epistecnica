@@ -1928,6 +1928,11 @@
     "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
     "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the levels-of-biological-organization link to the life family root."
    }
   ]
  },
@@ -35808,6 +35813,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line stub on fat that typed adipose tissue as an Organism and carried no content; the written note is human/adipose-tissue.md, and every link now points there."
    }
   ]
  },
@@ -114979,6 +114989,131 @@
     "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
     "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/gland.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/gland.md: a gland is a part of an organism — a secretory organ — not a natural element at the section root, and the general body-part notes now sit at the organism level beside organ and tissue."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Write the stub out: the gland as a Natural System — the secretory unit, the duct or vascular route, the capsule — decomposed over its parts, the secretion mechanism, the secretion cycle, the quantities (product, rate, release mode, route) and the conditions (duct continuity, vascular supply, feedback loop); a kinds table ordered by where the secretion goes, exocrine through endocrine, mixed, paracrine and single-celled; QA on whether a gland is an organ, why the pancreas is both, whether a hormone is a secretion, and why the note stays at the organism level; and one APA list from Bloom & Fawcett to Ross & Pawlina."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/adipose-tissue.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/adipose-tissue.md: the note is about the human fat depots and their distribution, so it belongs in the human corpus; it is also the note that survives the fat duplicate."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/connective-tissue.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/connective-tissue.md: a tissue is a part of an organism, so it sits at the organism level beside the tissue note."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/cell/compartment-organelle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/compartment-organelle.md: an organelle is a bounded compartment inside a cell, so it belongs with the cell notes."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/levels-of-biological-organization.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/levels-of-biological-organization.md: the note spans the life family from molecule to population, so it sits at the family root rather than at the section root."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/occurrence-in-biological-organisms.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/occurrence-in-biological-organisms.md: the note is about organisms, so it joins the organism level."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/surfactant-secretion.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/surfactant-secretion.md: the note is the alveolar secretion of the human lung, so it belongs in the human corpus."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/human.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Adipose Tissue link to the note’s new home and add the neighbouring body-part links."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/tissue.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Adipose Tissue link to the note’s new home and add the neighbouring body-part links."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/organ.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Gland link to the note’s new home and add the neighbouring body-part links."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/organ-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Gland link to the note’s new home and add the neighbouring body-part links."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/endocrine-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Gland link to the note’s new home and add the neighbouring body-part links."
    }
   ]
  }

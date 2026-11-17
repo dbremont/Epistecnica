@@ -52,7 +52,11 @@ tags: [note, nature, natural-system, system]
 
 - https://en.wikipedia.org/wiki/Organ_(biology)
 
+
 ## Related
+
+- [Gland](/view.html?p=notes/nature/life/organism/gland.md) — the secretory organ, the functional class inside this structural one
+- [Tissue](/view.html?p=notes/nature/life/organism/tissue.md) · [Organ System](/view.html?p=notes/nature/life/organism/organ-system.md) — the level below and the level above
 
 - [Tissue](/view.html?p=notes/nature/life/organism/tissue.md)
 - [Organ System](/view.html?p=notes/nature/life/organism/organ-system.md)

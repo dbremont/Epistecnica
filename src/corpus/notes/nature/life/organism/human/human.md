@@ -155,7 +155,7 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 - [Cell](/view.html?p=notes/nature/life/cell/cell.md)
 - [Tissue](/view.html?p=notes/nature/life/organism/tissue.md)
 - [Muscle](/view.html?p=notes/nature/life/organism/human/muscle.md)
-- [Adipose Tissue](/view.html?p=notes/nature/adipose-tissue.md)
+- [Adipose Tissue](/view.html?p=notes/nature/life/organism/human/adipose-tissue.md)
 - [Cardiovascular System](/view.html?p=notes/nature/life/organism/human/cardiovascular-system.md)
 - [Metabolism](/view.html?p=notes/nature/life/organism/human/metabolism.md)
 

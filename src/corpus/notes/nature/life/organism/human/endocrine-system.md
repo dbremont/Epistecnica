@@ -69,6 +69,7 @@ The endocrine system often works through **negative feedback** mechanisms:
 
 ## Related
 
+- [Gland](/view.html?p=notes/nature/life/organism/gland.md) — the organ class this system organizes
 - [Hormone](/view.html?p=notes/nature/life/organism/human/hormone.md)
 - [Cardiovascular System](/view.html?p=notes/nature/life/organism/human/cardiovascular-system.md)
 
