@@ -196,3 +196,4 @@ SMITH, Clifford W.; STULZ, Rene M. The determinants of firms' hedging policies.
 - [International Finance](https://en.wikipedia.org/wiki/International_finance)
 - [Capital Account](https://en.wikipedia.org/wiki/Capital_account)
 - [Robert Wade Analysis](https://www.youtube.com/watch?v=9kgoPECn4cs&t=676s)
+- [Money Market](/view.html?p=notes/social/coordinator/market/instance/finantial/money-market.md) — the short-term, wholesale instance: liquidity as the product, a rate as the price

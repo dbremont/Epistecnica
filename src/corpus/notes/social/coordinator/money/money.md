@@ -102,6 +102,7 @@ A Principle account:
 
 - [Money](https://www.wikiwand.com/en/Money)
 - [Time value of money](https://www.wikiwand.com/en/Time_value_of_money)
+- [Interest Rate](/view.html?p=notes/social/coordinator/money/interest-rate.md) — the price of money over time, and the concept this note uses throughout
 - Graeber, D. (2012). Debt: The First 5,000 Years. Melville House Publishing.
 - “The Optimum Quantity of Money” by Milton Friedman (1969)
 - “The Role of Monetary Policy” by Milton Friedman (1968)

@@ -122376,5 +122376,45 @@
     "commit": "c5a4d4dd5deda10563360a99a143520215b0cd7e"
    }
   ]
+ },
+ {
+  "file_path": "social/coordinator/market/instance/finantial/money-market.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note on the money market as a market instance beside financial-market, stock and consumer: the wholesale market for short-term debt whose product is liquidity and whose price is a rate. Instruments table (Treasury bills, commercial paper, CDs, repo, interbank, acceptances, money market funds), then the four features that make it a market apart — short maturity, wholesale size, engineered low credit risk, collateral — each of which is also a source of fragility. Functions: liquidity management, bank and corporate funding, policy transmission, benchmarking, cash-collateral transformation. The pathologies are the substance: the 2007-08 freeze in the market whose instruments were supposed to be as good as cash, where the assumption was the collateral; LIBOR as a survey rather than a transaction, and what transaction-based benchmarks do and do not fix; the fund that breaks the buck; and the shadow boundary that reappears whenever the regulated market tightens."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/money/interest-rate.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note on the interest rate — the concept money.md and state-finance.md both use and neither defined. Opens on the point that a rate is not a price: it needs a base, a period and a risk, and \"the interest rate\" in ordinary speech is several different objects. Composition table (real return, expected inflation, credit risk, maturity premium, liquidity premium) with the note that the components are inferred and never observed, so two economists can agree on the rate and disagree on its meaning. The family (policy, interbank, lending, bond yield, real) leading to the yield curve and the three readings that fit it. What it does: discounts the future, allocates over time, rations credit where it is capped, transmits policy, and becomes an instrument of the state in directed credit — the link to state capital allocation. Disputes: price versus administered number, negative real rates, the unobservable natural rate, and usury caps as distributional decisions made in moral language."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/money/money.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: interest rate linked as the price of money over time."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/market/instance/finantial/financial-market.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: money market linked as the short-term wholesale instance of the family."
+   }
+  ]
  }
 ]
