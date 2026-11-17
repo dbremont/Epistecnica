@@ -3446,6 +3446,11 @@
     "kind": "feat",
     "summary": "Add the maximum principle as an epistemic principle: the extremal-degeneracy theorems of potential theory and second-order PDE read as a directive about where the information is -- bound the interior by describing the boundary, transfer bounds by comparison, and treat an interior extremum as a diagnostic. States the four statements that carry the name (Hopf/Nirenberg/elliptic comparison, Hamilton's tensor form, the viscosity and discrete reformulations, and Pontryagin's homonym), grows the family as a member set because the guide licenses no part-link for a principle, shows why the sign condition and the operator order carry the result (the first eigenfunction and the biharmonic counterexample, the hyperbolic domain of dependence), and contrasts it with least action and stationarity, where the extremum is held inside the admissible set.",
     "commit": "7ff26e058d2367dafb6b6909ed1d69d51c625968"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Harmonic Analysis link to the discipline note and state the distinction the line was blurring: the maximum principle is stated for the harmonic functions in the kernel of the Laplacian, not for the eigenfunctions harmonic analysis decomposes."
    }
   ]
  },
@@ -8678,6 +8683,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the dead relative links (harmonic analysis, Hilbert space, wavelet) to absolute viewer paths, point Harmonic Analysis at the discipline shelf, and fold the bare links into an APA list with Dirichlet, Fourier and Stein & Shakarchi."
    }
   ]
  },
@@ -111184,6 +111194,11 @@
     "summary": "Write the note out as the phenomenon: sound as a longitudinal pressure wave in an elastic medium, the property table, the sine and Fourier representation, propagation and boundary behaviour, perception as a pointer to the psychoacoustics note, sound in different media, and references (Rayleigh, Kinsler et al., Feynman I ch. 47–48, the Wikipedia entries) folded into one APA list.",
     "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
     "before": "69ab54c28dd1845c82d5979295580172d5de6256"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the Related list at the notes that exist — Propagation of Sound and Perception of Sound — replacing two paths the note had named but never carried."
    }
   ]
  },
@@ -111196,6 +111211,11 @@
     "summary": "New discipline note: acoustics as an Epistemic Practice over mechanical waves — the five formulation questions, the boundary against continuum mechanics, signal processing, psychoacoustics and noise-control engineering, a decomposition of orientation, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization, nine member sub-practices from physical and architectural to electroacoustics and musical acoustics, the conceptuum evaluation, and the old corpus description carried in its own section.",
     "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
     "before": "69ab54c28dd1845c82d5979295580172d5de6256"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the perceptual and propagation references at the notes that exist — Perception of Sound and Propagation of Sound."
    }
   ]
  },
@@ -111273,6 +111293,21 @@
     "kind": "move",
     "summary": "Move from nature/phase.md: the thermodynamic reading of a state of matter, which the state shelf carries.",
     "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/discipline/harmonic-analysis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/mapping/harmonic-analysis.md: harmonic analysis is a discipline — an organized inquiry — not a mapping, and the mapping shelf holds the objects it works on (Fourier series, wavelet, integral transform), not the practice itself."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Rewrite as a discipline note in the formulation grammar: the practice framing, the three senses of \"harmonic\" (overtone, sinusoidal component, solution of Laplace’s equation), the line of descent from Fourier 1822 through Dirichlet, Plancherel, Wiener, Zygmund and Calderón–Zygmund to wavelets, the five formulation questions, a decomposition of orientation, agency, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization plus five member sub-practices, the conceptuum evaluation with name–object drift as the principal risk, the original description kept in its own section, and one integrated APA reference list."
    }
   ]
  }

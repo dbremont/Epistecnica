@@ -196,8 +196,8 @@ of the chain behind the number.
 - [Physical Sciences](/view.html?p=notes/epistemica/epistemic/discipline/physical-sciences.md) — the family this discipline is a member of
 - [Mathematics](/view.html?p=notes/epistemica/epistemic/discipline/mathematics.md) — the formalism the wave equation is written in
 - [Statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md) — the inference behind uncertainty, band averaging and survey design
-- [Sound](/view.html?p=notes/nature/sound.md) · [Wave](/view.html?p=notes/nature/wave/wave.md) · [Wave Equation](/view.html?p=notes/nature/wave/wave-equation.md) · [Wave Propagation](/view.html?p=notes/nature/wave/wave-propagation.md) · [Physical Properties of Sound Waves](/view.html?p=notes/nature/wave/physical-properties-of-sound-waves.md) — the segment, decomposed in the naturalis grammar
-- [Psychoacoustics of Perception](/view.html?p=notes/nature/human/psychoacoustics-perception.md) · [Human Auditory System](/view.html?p=notes/nature/human/human-auditory-system.md) — the perceptual reading of the same field
+- [Sound](/view.html?p=notes/nature/sound.md) · [Wave](/view.html?p=notes/nature/wave/wave.md) · [Wave Equation](/view.html?p=notes/nature/wave/wave-equation.md) · [Wave Propagation](/view.html?p=notes/nature/wave/wave-propagation.md) · [Propagation of Sound](/view.html?p=notes/nature/propagation-of-sound.md) — the segment, decomposed in the naturalis grammar
+- [Perception of Sound](/view.html?p=notes/nature/human/perception-of-sound.md) · [Human Auditory System](/view.html?p=notes/nature/human/human-auditory-system.md) — the perceptual reading of the same field
 - [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - Strutt, J. W., Baron Rayleigh. (1877–1878). *The theory of sound* (2 vols.). Macmillan.
 - Morse, P. M., & Ingard, K. U. (1968). *Theoretical acoustics*. McGraw-Hill.

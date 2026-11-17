@@ -23,5 +23,9 @@ tags: [note, mathematics, analytical, function, representation]
 
 ## References
 
-- https://en.wikipedia.org/wiki/Fourier_series
-- [Fourier Transform](/view.html?p=notes/epistemica/singular/fourier-transform.md) · [Harmonic Analysis](harmonic-analysis.md) · [Hilbert Space](../space/hilbert-space.md) · [Wavelet](wavelet.md)
+- [Harmonic Analysis](/view.html?p=notes/epistemica/epistemic/discipline/harmonic-analysis.md) — the discipline this series is the oldest case of
+- [Fourier Transform](/view.html?p=notes/epistemica/singular/fourier-transform.md) · [Hilbert Space](/view.html?p=notes/epistemica/mathematical/space/hilbert-space.md) · [Wavelet](/view.html?p=notes/epistemica/mathematical/mapping/wavelet.md) — the non-periodic case, the space the basis lives in, and the localized alternative
+- Dirichlet, G. L. (1829). Sur la convergence des séries trigonométriques qui servent à représenter une fonction arbitraire entre des limites données. *Journal für die reine und angewandte Mathematik*, 4, 157–169.
+- Fourier, J. (1822). *Théorie analytique de la chaleur*. Firmin Didot.
+- Stein, E. M., & Shakarchi, R. (2011). *Fourier analysis: An introduction*. Princeton University Press.
+- [Fourier series](https://en.wikipedia.org/wiki/Fourier_series)
