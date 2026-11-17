@@ -122354,5 +122354,15 @@
     "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9"
    }
   ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/chn/nsfc/national-natural-science-foundation-of-china.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the National Natural Science Foundation of China, filed under the chn research catalogue beside cas. The note is about the funding schema rather than the money. Four layers: nine discipline codes (A-H plus T for interdisciplinary), the project types from General Program and Key through Major Research Plans and the two non-consensual escape hatches to Joint Funds and the regional and international programmes; the talent ladder C-B-A with its former names, plus research groups and basic science centres; and the review, with the 2020 reviewer performance assessment and the rectification of string-pulling. The schema's consequences are stated as consequences: fields grow where panels are, people and projects are funded separately so the ladder shapes what the next proposal can promise, the label economy is intrinsic to any ladder that marks people (hence a renaming reform alongside a new continuation fund, two reforms in opposite directions), and the mission line is thin — Major Research Plans are a small share, so the national five-year plan does not travel through this instrument. The odds are given from the foundation's own numbers: about one in six across 2023, and 15.70% for the Young Scientists Fund C in chemical sciences in 2025. A set of papers closes the note, with the caveat that the figures are snapshots."
+   }
+  ]
  }
 ]
