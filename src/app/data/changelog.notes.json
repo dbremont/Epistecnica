@@ -7404,7 +7404,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/convex-hull.md: the smallest convex figure containing a set: a geometric object."
+    "summary": "Move from epistemica/mathematical/convex-hull.md: the smallest convex figure containing a set: a geometric object.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -7420,7 +7421,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/convexity.md: a geometric property of sets and figures."
+    "summary": "Move from epistemica/mathematical/convexity.md: a geometric property of sets and figures.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -7567,7 +7569,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/differential-form.md: an object of differential geometry, with bundle, connection and curvature."
+    "summary": "Move from epistemica/mathematical/differential-form.md: an object of differential geometry, with bundle, connection and curvature.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -8954,7 +8957,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/homogeneous-function.md: a property of functions, filed with the functions it constrains."
+    "summary": "Move from epistemica/mathematical/homogeneous-function.md: a property of functions, filed with the functions it constrains.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -9025,7 +9029,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/linear-functional.md: a functional is a map to the scalars; filed beside functional and operator."
+    "summary": "Move from epistemica/mathematical/linear-functional.md: a functional is a map to the scalars; filed beside functional and operator.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -9683,7 +9688,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/mathematical-embedding.md: an embedding is a structure-preserving map, filed with map and function."
+    "summary": "Move from epistemica/mathematical/mathematical-embedding.md: an embedding is a structure-preserving map, filed with map and function.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -11601,7 +11607,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/ricci-flow.md: a geometric evolution equation, filed with the curvature notes."
+    "summary": "Move from epistemica/mathematical/ricci-flow.md: a geometric evolution equation, filed with the curvature notes.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -12295,7 +12302,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/spectrum.md: a property of operators, filed beside the spectral theorem and the eigenvalue notes."
+    "summary": "Move from epistemica/mathematical/spectrum.md: a property of operators, filed beside the spectral theorem and the eigenvalue notes.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
@@ -14625,7 +14633,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/vector.md: the object of linear algebra, filed with basis, determinant and the operator notes it belongs to."
+    "summary": "Move from epistemica/mathematical/vector.md: the object of linear algebra, filed with basis, determinant and the operator notes it belongs to.",
+    "commit": "c7053d3f979e61ae36795bf63aa0ea2d26d941f6"
    }
   ]
  },
