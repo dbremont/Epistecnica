@@ -97418,7 +97418,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The Mumford and Singer reference lines now link their library entries, so the pre-1900 catalogue points at the surveys those works are narrated in."
+    "summary": "The Mumford and Singer reference lines now link their library entries, so the pre-1900 catalogue points at the surveys those works are narrated in.",
+    "commit": "a7aa9230a40d2f74590df0829ce94ad3850aca3b",
+    "before": "a1be343a83e1e5ab00c1e9144a789dbbac62bd99"
    }
   ]
  },
@@ -121996,7 +121998,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New guide: the study of the history of technology, as a field rather than as another catalogue. Its organising distinction is that the history of science studies what was known and its evidence is mostly text, while the history of technology studies what was made and its evidence is mostly not text — an asymmetry that makes the field methodologically distinct rather than a branch of history with odd sources. Sections: the four objects a technical history can be about (artefact, technique, system, knowledge), since a note that cannot say which will drift between them; the evidence problem as a table of what each kind establishes and cannot establish, including experimental reconstruction, the field's most distinctive and most dangerous method; the interpretive traditions read as positions to be declared (technological determinism, Mumford's cultural critique, social construction, systems, evolution); a six-step method for writing a technical history in this corpus, which amounts to decomposing the artefact with the technica grammar and dating the change rather than the period; and the shelf of works."
+    "summary": "New guide: the study of the history of technology, as a field rather than as another catalogue. Its organising distinction is that the history of science studies what was known and its evidence is mostly text, while the history of technology studies what was made and its evidence is mostly not text — an asymmetry that makes the field methodologically distinct rather than a branch of history with odd sources. Sections: the four objects a technical history can be about (artefact, technique, system, knowledge), since a note that cannot say which will drift between them; the evidence problem as a table of what each kind establishes and cannot establish, including experimental reconstruction, the field's most distinctive and most dangerous method; the interpretive traditions read as positions to be declared (technological determinism, Mumford's cultural critique, social construction, systems, evolution); a six-step method for writing a technical history in this corpus, which amounts to decomposing the artefact with the technica grammar and dating the change rather than the period; and the shelf of works.",
+    "commit": "a7aa9230a40d2f74590df0829ce94ad3850aca3b"
    }
   ]
  }
