@@ -86,6 +86,8 @@ First Exhibition (1760)
 - https://en.wikipedia.org/wiki/Henry_John_Temple,_3rd_Viscount_Palmerston
 - Plan to Study the English Industry & Commerce → **John Wyatt.**
 
+- [John Cary](/view.html?p=notes/social/collective/actor/private/persona/john-cary.md) — Bristol merchant on trade, employment and the poor (1695, 1717): the political economy of manufactures and shipping that this note's industrial policy descends from.
+
 https://en.wikipedia.org/wiki/Andrew_Ure
 
 https://en.wikipedia.org/wiki/John_Wyatt_(inventor)
