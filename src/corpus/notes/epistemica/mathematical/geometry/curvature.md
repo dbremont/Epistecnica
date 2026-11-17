@@ -17,7 +17,7 @@ tags: [note, mathematics, geometry, differentialgeometrical]
 ## Key results
 
 - **Riemann tensor.** The full curvature, with the symmetries $R_{abcd} = -R_{bacd} = -R_{abdc} = R_{cdab}$.
-- **Ricci and scalar.** $\mathrm{Ric}_{ab} = R^c{}_{acb}$ and $R = g^{ab}\mathrm{Ric}_{ab}$ — the two contractions that appear in general relativity and in the [Ricci flow](../ricci-flow.md).
+- **Ricci and scalar.** $\mathrm{Ric}_{ab} = R^c{}_{acb}$ and $R = g^{ab}\mathrm{Ric}_{ab}$ — the two contractions that appear in general relativity and in the [Ricci flow](ricci-flow.md).
 - **Theorema egregium.** Gaussian curvature of a surface is intrinsic: it can be measured by an inhabitant, without reference to the ambient space.
 - **Holonomy.** Curvature is the infinitesimal holonomy of a connection; flat connections are exactly those with trivial holonomy around every contractible loop.
 - **Einstein's equation.** $R_{ab} - \tfrac{1}{2}R g_{ab} = 8\pi T_{ab}$ — the physical reading of the Ricci contraction.
@@ -25,4 +25,4 @@ tags: [note, mathematics, geometry, differentialgeometrical]
 ## References
 
 - https://en.wikipedia.org/wiki/Curvature_of_Riemannian_manifolds
-- [Connection](connection.md) · [Geodesic](geodesic.md) · [Ricci Tensor](../tensor/ricci-tensor.md) · [Ricci Flow](../ricci-flow.md)
+- [Connection](connection.md) · [Geodesic](geodesic.md) · [Ricci Tensor](../tensor/ricci-tensor.md) · [Ricci Flow](ricci-flow.md)

@@ -20,9 +20,9 @@ tags: [note, mathematics, linear-algebra, spectrum]
 - **Trace and determinant.** $\operatorname{tr} A = \sum \lambda_i$ and $\det A = \prod \lambda_i$ — the shortest bridge between the matrix and its spectrum.
 - **Diagonalization.** $A$ is diagonalizable iff it has $n$ independent eigenvectors; symmetric real matrices always are — see the [spectral theorem](spectral-theorem.md).
 - **Stability.** In a [dynamical system](../../change/dynamical-system.md), the eigenvalues of the linearization decide whether a fixed point attracts or repels: $\operatorname{Re}\lambda < 0$ is stable.
-- **Spectrum.** For operators on infinite-dimensional spaces the eigenvalue notion generalizes to the [spectrum](../../spectrum.md), where $\lambda I - A$ may fail to be invertible without ever vanishing on a vector.
+- **Spectrum.** For operators on infinite-dimensional spaces the eigenvalue notion generalizes to the [spectrum](spectrum.md), where $\lambda I - A$ may fail to be invertible without ever vanishing on a vector.
 
 ## References
 
 - https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors
-- [Eigenvector](eigenvector.md) · [Characteristic Polynomial](characteristic-polynomial.md) · [Spectral Theorem](spectral-theorem.md) · [Spectrum](../../spectrum.md)
+- [Eigenvector](eigenvector.md) · [Characteristic Polynomial](characteristic-polynomial.md) · [Spectral Theorem](spectral-theorem.md) · [Spectrum](spectrum.md)

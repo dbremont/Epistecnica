@@ -66,8 +66,8 @@ Completeness is what separates a Hilbert space from a mere inner product space; 
 - [Adjoint Operator](/view.html?p=notes/epistemica/mathematical/structure/linear/adjoint-operator.md)
 - [Self-adjoint Operator](/view.html?p=notes/epistemica/mathematical/structure/linear/self-adjoint-operator.md)
 - [Compact Operator](/view.html?p=notes/epistemica/mathematical/structure/linear/compact-operator.md)
-- [Spectrum](/view.html?p=notes/epistemica/mathematical/spectrum.md)
-- [Linear Functional](/view.html?p=notes/epistemica/mathematical/linear-functional.md)
+- [Spectrum](/view.html?p=notes/epistemica/mathematical/structure/linear/spectrum.md)
+- [Linear Functional](/view.html?p=notes/epistemica/mathematical/mapping/linear-functional.md)
 - [Quantum Framework](/view.html?p=notes/epistemica/singular/quantum-framework.md)
 - [Quantum Field Theory (QFT)](/view.html?p=notes/epistemica/singular/quantum-field-theory-qft.md)
 

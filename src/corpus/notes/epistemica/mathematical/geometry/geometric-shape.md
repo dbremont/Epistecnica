@@ -424,7 +424,7 @@ This turns shape comparison into a metric question: two shapes are *close* when 
 - [Fractal](/view.html?p=notes/epistemica/mathematical/geometry/fractal.md) — the scale-invariant shape, and the dimension that measures it instead of counting tangents.
 - [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md) — the local model of shape spaces themselves.
 - [Symmetry Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/symmetry-group.md) — the stabilizer of a shape inside its transformation group.
-- [Convex Hull](/view.html?p=notes/epistemica/mathematical/convex-hull.md) — the smallest convex shape containing a figure.
+- [Convex Hull](/view.html?p=notes/epistemica/mathematical/geometry/convex-hull.md) — the smallest convex shape containing a figure.
 - [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md) — the representation a shape is written in, which the shape itself does not fix.
 
 ## QA

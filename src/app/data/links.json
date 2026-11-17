@@ -80,7 +80,7 @@
   },
   {
    "from": "epistemica/mathematical/space/",
-   "to": "epistemica/mathematical/vector.md",
+   "to": "epistemica/mathematical/structure/linear/vector.md",
    "label": "Vector",
    "kind": "related"
   },

@@ -4210,7 +4210,8 @@
                 "kind": "property",
                 "variant": "convexity"
               },
-              "children": []
+              "children": [],
+              "note": "epistemica/mathematical/geometry/convexity.md"
             },
             {
               "id": "geometric-shape-shape-properties-regularity",

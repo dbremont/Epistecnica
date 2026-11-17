@@ -24,4 +24,4 @@ tags: [note, mathematics, linear-algebra, theorem, operator]
 ## References
 
 - https://en.wikipedia.org/wiki/Spectral_theorem
-- [Eigenvalue](eigenvalue.md) · [Self-Adjoint Operator](self-adjoint-operator.md) · [Spectrum](../../spectrum.md) · [Hilbert Space](../../space/hilbert-space.md)
+- [Eigenvalue](eigenvalue.md) · [Self-Adjoint Operator](self-adjoint-operator.md) · [Spectrum](spectrum.md) · [Hilbert Space](../../space/hilbert-space.md)

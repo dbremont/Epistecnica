@@ -25,4 +25,4 @@ tags: [note, mathematics, method, technique, optimization]
 ## References
 
 - https://en.wikipedia.org/wiki/Duality_(optimization)
-- [Optimization](../../../optimization/optimization.md) · [Lagrange Multiplier](../../../optimization/lagrange-multiplier.md) · [Convexity](../../convexity.md) · [Duality](../../structure/duality.md)
+- [Optimization](../../../optimization/optimization.md) · [Lagrange Multiplier](../../../optimization/lagrange-multiplier.md) · [Convexity](../../geometry/convexity.md) · [Duality](../../structure/duality.md)

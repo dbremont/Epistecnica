@@ -4,7 +4,7 @@ tags: [note, mathematics, analytical, operator]
 
 # Integral Operator
 
-Related: [Operator](../mapping/operator.md) · [Differential Operator](differential-operator.md) · [Green's Function](../method/transform/green-s-function.md) · [Differential Form](../differential-form.md)
+Related: [Operator](../mapping/operator.md) · [Differential Operator](differential-operator.md) · [Green's Function](../method/transform/green-s-function.md) · [Differential Form](../geometry/differential-form.md)
 
 > This note explore a powerful model of accumulation in mathematics, the **Integral Operator**. Knowing the **history of changes in a state system**; reconstruct the **state history of the system**.
 
@@ -81,7 +81,7 @@ Related: [Operator](../mapping/operator.md) · [Differential Operator](different
 |  | Contour Integral | $\oint_C f(z) \, dz$ | Integral around a closed loop (residue theorem). |
 | **Functional Analysis** | [Lebesgue Integral](../mapping/lebesgue-integral.md) | $\int_X f \, d\mu$ | Generalization of the integral for measurable functions. |
 |  | Bochner Integral | $\int_X f \, d\mu$ | Extension of Lebesgue integral to Banach spaces. |
-| **Differential Geometry** | [Integration on Manifolds](../differential-form.md) | $\int_M \omega$ | Integral of a differential form over a manifold. |
+| **Differential Geometry** | [Integration on Manifolds](../geometry/differential-form.md) | $\int_M \omega$ | Integral of a differential form over a manifold. |
 |  | Stokes’ Theorem | $\int_{\partial M} \omega = \int_M d\omega$ | Relates boundary and interior integrals. |
 | **Fourier & Transforms** | [Fourier Transform](../../signal/fourier-transform.md) | $\mathcal{F}\{f\}(\xi) = \int_{-\infty}^\infty f(x) e^{-i\xi x} dx$ | Transforms a function to frequency domain. |
 |  | [Laplace Transform](../../signal/integral-transform.md) | $\mathcal{L}\{f\}(s) = \int_0^\infty f(t) e^{-st} dt$ | Converts time-domain functions to complex frequency. |
@@ -105,6 +105,10 @@ Related: [Operator](../mapping/operator.md) · [Differential Operator](different
 - Bounded Variation in the Neighborhood
 - Absence of Discontinuities in Higher-Order Oscillations
 - Local Linear Approximability
+
+## Multiple Integral
+
+> ...
 
 ## ❓ QA
 

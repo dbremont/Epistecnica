@@ -20,9 +20,9 @@ tags: [note, mathematics, analytical, geometry, type]
 - **Scalar curvature.** $R = g^{\mu\nu}\mathrm{Ric}_{\mu\nu}$ — the second, complete contraction.
 - **Einstein's equation.** $\mathrm{Ric}_{\mu\nu} - \tfrac12 R g_{\mu\nu} = 8\pi G\,T_{\mu\nu}$; equivalently $\mathrm{Ric}_{\mu\nu}$ equals the stress-energy up to its trace (see [Einstein tensor](einstein-tensor.md)).
 - **Volume distortion.** $\ddot{V}/V = -\mathrm{Ric}_{\mu\nu}u^\mu u^\nu$ along a geodesic congruence — the Raychaudhuri equation, and the reason positive Ricci focuses.
-- **Ricci flow.** $\partial_t g_{\mu\nu} = -2\mathrm{Ric}_{\mu\nu}$ deforms the metric by its own Ricci curvature; Perelman's use of it proved the geometrization conjecture. See [Ricci flow](../ricci-flow.md).
+- **Ricci flow.** $\partial_t g_{\mu\nu} = -2\mathrm{Ric}_{\mu\nu}$ deforms the metric by its own Ricci curvature; Perelman's use of it proved the geometrization conjecture. See [Ricci flow](../geometry/ricci-flow.md).
 
 ## References
 
 - https://en.wikipedia.org/wiki/Ricci_curvature
-- [Riemann Tensor](riemann-tensor.md) · [Einstein Tensor](einstein-tensor.md) · [Weyl Tensor](weyl-tensor.md) · [Ricci Flow](../ricci-flow.md) · [Curvature](../geometry/curvature.md)
+- [Riemann Tensor](riemann-tensor.md) · [Einstein Tensor](einstein-tensor.md) · [Weyl Tensor](weyl-tensor.md) · [Ricci Flow](../geometry/ricci-flow.md) · [Curvature](../geometry/curvature.md)

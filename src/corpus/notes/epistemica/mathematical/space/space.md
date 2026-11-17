@@ -236,7 +236,7 @@ tags: [note, mathematics, space]
 - [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md)
 - [Algebra](/view.html?p=notes/epistemica/mathematical/structure/algebra/algebra.md)
 - [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md)
-- [Vector](/view.html?p=notes/epistemica/mathematical/vector.md)
+- [Vector](/view.html?p=notes/epistemica/mathematical/structure/linear/vector.md)
 - [Linear Algebra](/view.html?p=notes/epistemica/mathematical/structure/linear/linear-algebra.md)
 - [Coordinate System](/view.html?p=notes/epistemica/mathematical/geometry/coordinate-system.md)
 
