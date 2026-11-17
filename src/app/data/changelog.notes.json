@@ -121173,7 +121173,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Carry the essay's source list into the note: the same APA 7 references, from Llull's Ars magna to Curren's SEP entry on the philosophy of education, plus the six psychological sources (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) and the local Cognitive Development note. Front matter added so the note is indexed with its tags."
+    "summary": "Carry the essay's source list into the note: the same APA 7 references, from Llull's Ars magna to Curren's SEP entry on the philosophy of education, plus the six psychological sources (Piaget, Vygotsky, Newell, Marr, Stanovich, Simon) and the local Cognitive Development note. Front matter added so the note is indexed with its tags.",
+    "commit": "4aca02349cc82c6bf8765e6ea4b027d90106989f",
+    "before": "4aca02349cc82c6bf8765e6ea4b027d90106989f"
    }
   ]
  }
