@@ -58051,7 +58051,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Board Selection and Composition: the seven questions moved in from public-organization.md — composition types, the principles and methods of board-member selection, their integration into a selection system, and executive selection, which belongs here because the executive is appointed by the board. One subject, one home; the note now runs composition and decomposition, then selection, then the Spanish-terms table and the evaluation."
+    "summary": "Board Selection and Composition: the seven questions moved in from public-organization.md — composition types, the principles and methods of board-member selection, their integration into a selection system, and executive selection, which belongs here because the executive is appointed by the board. One subject, one home; the note now runs composition and decomposition, then selection, then the Spanish-terms table and the evaluation.",
+    "commit": "52cc6e872f87e3d5d43c90ea3ad750372c3f7caa",
+    "before": "bc173d3106826c89ffae5dfd676fd24a2e61be6b"
    }
   ]
  },
@@ -60875,7 +60877,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The board-composition and selection block is replaced by a placeholder question saying where it went and why: the board's composition and the selection of its members and executive are the board's own subject, and this note keeps the public-organization reading — statutory boards, arm's-length forms, and the board as a component."
+    "summary": "The board-composition and selection block is replaced by a placeholder question saying where it went and why: the board's composition and the selection of its members and executive are the board's own subject, and this note keeps the public-organization reading — statutory boards, arm's-length forms, and the board as a component.",
+    "commit": "52cc6e872f87e3d5d43c90ea3ad750372c3f7caa",
+    "before": "bc173d3106826c89ffae5dfd676fd24a2e61be6b"
    }
   ]
  },
