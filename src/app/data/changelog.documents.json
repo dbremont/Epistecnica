@@ -37735,7 +37735,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "Library entry for Milne-Thomson (1933), The Calculus of Finite Differences, with the archive.org scan. The note is organised by the argument the book makes: the operators first as algebra, then Newton interpolation with the falling factorial as the basis that lowers the index, and only then the inversion — the indefinite sum worked out as a technique, with summation by parts and the telescoping identity behind it. The Euler-Maclaurin formula and the Bernoulli polynomials keep the discrete and continuous calculi in one view, so the constant of integration and the correction terms read as the same bookkeeping on two domains. Cited from the finite-difference note, whose reference list was already carrying the line."
+    "summary": "Library entry for Milne-Thomson (1933), The Calculus of Finite Differences, with the archive.org scan. The note is organised by the argument the book makes: the operators first as algebra, then Newton interpolation with the falling factorial as the basis that lowers the index, and only then the inversion — the indefinite sum worked out as a technique, with summation by parts and the telescoping identity behind it. The Euler-Maclaurin formula and the Bernoulli polynomials keep the discrete and continuous calculi in one view, so the constant of integration and the correction terms read as the same bookkeeping on two domains. Cited from the finite-difference note, whose reference list was already carrying the line.",
+    "commit": "88132dc1dda517f75927b3c1c471501610dfa018"
    }
   ]
  }

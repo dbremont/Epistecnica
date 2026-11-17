@@ -11036,7 +11036,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Reference line added: Jost Bürgi and the independent tables of progressions, so the note's claim about the invention is credited to Napier's publication without implying he was alone in it."
+    "summary": "Reference line added: Jost Bürgi and the independent tables of progressions, so the note's claim about the invention is credited to Napier's publication without implying he was alone in it.",
+    "commit": "88132dc1dda517f75927b3c1c471501610dfa018",
+    "before": "8bc31193f4ee0ea98a8374fbecf3fbf82431c27e"
    }
   ]
  },
@@ -121593,7 +121595,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Milne-Thomson line now links its library entry instead of citing a bare title."
+    "summary": "References: the Milne-Thomson line now links its library entry instead of citing a bare title.",
+    "commit": "88132dc1dda517f75927b3c1c471501610dfa018",
+    "before": "8bc31193f4ee0ea98a8374fbecf3fbf82431c27e"
    }
   ]
  },
@@ -121603,7 +121607,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New persona: Jost Bürgi (1552-1632), Swiss clockmaker, instrument maker and autodidact mathematician, at Kassel under Wilhelm IV and in Prague beside Kepler. The note holds two careers in one person: the cross-beat escapement and the remontoire, which made the clock accurate enough to time a star across a telescope crosshair and so turned it into a scientific instrument; and the mathematics — the Kunstweg sine iteration behind a lost Canon Sinuum that Kepler called the most precise known table, and a table of progressions built independently of Napier around 1600 and published only in 1620. The priority section records both verdicts without adopting either: Kepler's preface line about the \"indolent man\" who deserted his child at birth, and the conceptual counter-verdict that a table of antilogarithms is not a theory of the logarithm. References 1620 to 2016, including the Folkerts-Launert-Thom convergence proof."
+    "summary": "New persona: Jost Bürgi (1552-1632), Swiss clockmaker, instrument maker and autodidact mathematician, at Kassel under Wilhelm IV and in Prague beside Kepler. The note holds two careers in one person: the cross-beat escapement and the remontoire, which made the clock accurate enough to time a star across a telescope crosshair and so turned it into a scientific instrument; and the mathematics — the Kunstweg sine iteration behind a lost Canon Sinuum that Kepler called the most precise known table, and a table of progressions built independently of Napier around 1600 and published only in 1620. The priority section records both verdicts without adopting either: Kepler's preface line about the \"indolent man\" who deserted his child at birth, and the conceptual counter-verdict that a table of antilogarithms is not a theory of the logarithm. References 1620 to 2016, including the Folkerts-Launert-Thom convergence proof.",
+    "commit": "88132dc1dda517f75927b3c1c471501610dfa018"
    }
   ]
  }
