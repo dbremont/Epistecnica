@@ -110267,6 +110267,11 @@
     "kind": "move",
     "summary": "Move from nature/angular-momentum.md: the property shelf now files the quantities a body carries and the joint-state quantities defined over it, so the canonical quantities are collected here.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Reply to the placeholder: the whole note reformulated to the naturalis grammar and filled. The retired four-column table is replaced by the two-column labelled-link form, the root path now runs from Ontic Element through Property and Interaction-Derived Quantity instead of starting at a bare Quantity, levels are declared per row (meso for the quantity, micro for spin and the quantum bound), and the Limitation paragraph names the factors the instance exhibits (Scale, Uncertainty, Measurement Disturbance, Many-Body coupling) instead of saying they are unworked. Content: the moment of momentum with its axis dependence and the shift L + R x P, L = I omega with the inertia tensor and the resulting non-parallelism of L and omega, conservation as rotational symmetry (Kepler second law, Noether), and the quantum rewriting with non-commuting components graded in hbar. An eleven-row tree gives the kinds (orbital, spin, total), the attributes (axis dependence, magnitude, handedness) and the bounds (conservation, quantization). Two QA answers: whether the quantity belongs to a body or to a body and an origin, and whether spin makes the word name one quantity or two. References chronological, Kepler 1609 to Goldstein 1980. The Notion provenance line is kept."
    }
   ]
  },
