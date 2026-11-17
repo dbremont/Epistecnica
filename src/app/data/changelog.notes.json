@@ -29463,12 +29463,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move into nature/construction/: the equation is not a natural element but the construction built about one — a dilute gas — and the shelf now holds it with the connectome, Euler's critical load and the field equations."
+    "summary": "Move into nature/construction/: the equation is not a natural element but the construction built about one — a dilute gas — and the shelf now holds it with the connectome, Euler's critical load and the field equations.",
+    "commit": "c817fe9cc97feda9d0e955e2d2fedad9c3171774"
    },
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Write the note: the transport equation for the distribution function with its collision integral, the molecular-chaos closure, the H-theorem and the Maxwell–Boltzmann fixed point, the Chapman–Enskog hydrodynamic limit and the transport coefficients it predicts; decomposed to its parts, standards, checks and constraints, with the Loschmidt and Zermelo objections kept as constraints rather than resolved away, and typed as an epistemic construction of kind Model under the conceptuum evaluation."
+    "summary": "Write the note: the transport equation for the distribution function with its collision integral, the molecular-chaos closure, the H-theorem and the Maxwell–Boltzmann fixed point, the Chapman–Enskog hydrodynamic limit and the transport coefficients it predicts; decomposed to its parts, standards, checks and constraints, with the Loschmidt and Zermelo objections kept as constraints rather than resolved away, and typed as an epistemic construction of kind Model under the conceptuum evaluation.",
+    "commit": "c817fe9cc97feda9d0e955e2d2fedad9c3171774",
+    "before": "c817fe9cc97feda9d0e955e2d2fedad9c3171774"
    }
   ]
  },
