@@ -200,13 +200,54 @@ It is not merely the accumulation of information. Instead, it involves:
 
 - **Generation of Original Ideas:** How many original ideas does a researcher typically produce in their career?
 
+## The Tradition of Method
+
+> The books below are the corpus's own history of the question this essay asks: what it is to develop the intellect, and by what discipline one does it. Each was written as an answer to that question before there was a psychology of education to answer it — a combinatorial art of discovery, a logic of method, a rule for directing the mind, a medicine of the mind.
+
+| Author | Work | Year | What it contributes |
+| --- | --- | ---: | --- |
+| Ramon Llull | *Ars magna* | c. 1305 | A combinatorial system for generating propositions and exploring relationships between concepts. |
+| Petrus Ramus | *Dialecticae libri duo* | 1556 | Reorganizes logic and dialectical reasoning around methods of division, classification, and demonstration. |
+| Jacopo Zabarella | *Opera logica* | 1578 | Examines demonstrative and investigative reasoning, particularly the methods of resolution and composition. |
+| Francis Bacon | *Novum Organum* | 1620 | Proposes a systematic method of scientific investigation based on induction, experimentation, and the correction of intellectual errors. |
+| Marin Mersenne | *La Vérité des sciences* | 1625 | Examines the foundations, reliability, and methods of scientific knowledge. |
+| René Descartes | *Regulae ad directionem ingenii* | 1628 | Establishes rules for directing the intellect and discovering unknown truths through methodical reasoning. |
+| Johann Heinrich Alsted | *Encyclopaedia* | 1630 | An extensive attempt to organize the sciences, disciplines, and methods of knowledge into a unified system. |
+| Joachim Jungius | *Logica Hamburgensis* | 1638 | A systematic treatment of logic, method, and scientific reasoning. |
+| Thomas Hobbes | *De Corpore* | 1655 | Develops a method of scientific reasoning based on definitions, computation, and the demonstration of consequences. |
+| Antoine Arnauld & Pierre Nicole | *La Logique ou l'art de penser* | 1662 | Known as Port-Royal Logic; examines the operations of understanding, judgment, reasoning, and method. |
+| Gottfried Wilhelm Leibniz | *Dissertatio de arte combinatoria* | 1666 | Develops a combinatorial method of reasoning and explores the possibility of a general logic of invention. |
+| Athanasius Kircher | *Ars magna sciendi* | 1669 | Proposes a universal method of knowledge based on combinations, classification, and logical relations. |
+| Ehrenfried Walther von Tschirnhaus | *Medicina mentis* | 1687 | Develops a general method for improving the intellect and discovering truths through systematic reasoning and mathematical principles. |
+| Bernard de Fontenelle | *Digression sur les anciens et les modernes* | 1688 | Discusses the development, accumulation, and progress of human knowledge. |
+| John Locke | *An Essay Concerning Human Understanding* | 1690 | Investigates the origin, nature, limits, and operations of human understanding. |
+| Giambattista Vico | *De nostri temporis studiorum ratione* | 1708 | Examines methods of learning, reasoning, mathematics, and the relationship between intellectual disciplines. |
+| Christian Wolff | *Vernünftige Gedanken von den Kräften des menschlichen Verstandes* | 1713 | Systematically examines the powers of human understanding and the methods of acquiring knowledge. |
+
 ## References
 
-- Piaget, J. *The Psychology of Intelligence*
-- Vygotsky, L. *Thought and Language*
-- Newell, A. *Unified Theories of Cognition*
-- Marr, D. *Vision* (levels of analysis)
-- Stanovich, K. *Rationality and the Reflective Mind*
-- Simon, H. *Sciences of the Artificial*
-- [Cognitive Development](https://app.notion.com/p/Cognitive-Development-24cc0f5171ec80859297ef1b49f84740?pvs=21)
-- https://plato.stanford.edu/entries/education-philosophy/
+- Alsted, J. H. (1630). *Encyclopaedia septem tomis distincta*. Herborn.
+- Arnauld, A., & Nicole, P. (1662). *La logique, ou l'art de penser*. Paris.
+- [Bacon](/view.html?p=documents/books/bacon-1878-novum-organum-clarendon-press.md), F. (1878). *Novum organum* (T. Fowler, Ed.). Clarendon Press. (Original work published 1620)
+- Curren, R. (2025). Philosophy of education. In E. N. Zalta & U. Nodelman (Eds.), *The Stanford encyclopedia of philosophy*. Stanford University. https://plato.stanford.edu/entries/education-philosophy/
+- Descartes, R. (1985). Rules for the direction of the mind. In J. Cottingham, R. Stoothoff, & D. Murdoch (Trans.), *The philosophical writings of Descartes* (Vol. 1, pp. 9–78). Cambridge University Press. (Original work written 1628)
+- Fontenelle, B. le Bovier de (1688). *Digression sur les anciens et les modernes*. Paris.
+- Hobbes, T. (1655). *De corpore*. London.
+- Jungius, J. (1638). *Logica Hamburgensis*. Hamburg.
+- Kircher, A. (1669). *Ars magna sciendi*. Amsterdam.
+- Leibniz, G. W. (1666). *Dissertatio de arte combinatoria*. Leipzig.
+- Llull, R. (ca. 1305). *Ars magna, generalis et ultima*.
+- Locke, J. (1690). *An essay concerning human understanding*. London.
+- Marr, D. (1982). *Vision: A computational investigation into the human representation and processing of visual information*. W. H. Freeman.
+- Mersenne, M. (1625). *La vérité des sciences*. Paris.
+- Newell, A. (1990). *Unified theories of cognition*. Harvard University Press.
+- Piaget, J. (1950). *The psychology of intelligence* (M. Piercy & D. E. Berlyne, Trans.). Routledge & Kegan Paul. (Original work published 1947)
+- Ramus, P. (1556). *Dialecticae libri duo*. Paris.
+- Simon, H. A. (1969). *The sciences of the artificial*. MIT Press.
+- Stanovich, K. E. (2011). *Rationality and the reflective mind*. Oxford University Press.
+- Tschirnhaus, E. W. von (1687). *Medicina mentis*. Amsterdam. (2nd ed., Leipzig, 1695)
+- Vico, G. (1708). *De nostri temporis studiorum ratione*. Naples.
+- Vygotsky, L. S. (1986). *Thought and language* (A. Kozulin, Ed. & Trans.). MIT Press. (Original work published 1934)
+- Wolff, C. (1713). *Vernünftige Gedanken von den Kräften des menschlichen Verstandes*. Halle.
+- Zabarella, J. (1578). *Opera logica*. Venice.
+- [Cognitive Development](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/cognitive-development.md) — the corpus note this essay's developmental reading draws on
