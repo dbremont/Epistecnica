@@ -368,7 +368,7 @@ This is one of the most important reasons why different orthogonal polynomial fa
 | **Irreducibility Criterion** | Establishes conditions under which a polynomial cannot be factored into lower-degree polynomials over a specified coefficient field. Important examples include Eisenstein's criterion. | Gottfried Wilhelm Leibniz and others; Eisenstein, 1850. |
 | **Sturm's Theorem** | Determines the exact number of distinct real roots of a polynomial in a given interval using a sequence of polynomial divisions. | Jacques Charles François Sturm, 1829. |
 | **Polynomial Interpolation Theorem** | Given \(n+1\) distinct points and their corresponding values, there exists a unique polynomial of degree at most \(n\) passing through all those points. | Classical interpolation; developed by Newton and others in the 17th century. |
-| **Taylor's Theorem for Polynomials** | A polynomial can be expressed exactly as a finite Taylor expansion around any point, with coefficients determined by its derivatives. | Brook Taylor, 1717. |
+| **Taylor's Theorem for Polynomials** | A polynomial can be expressed exactly as a finite Taylor expansion around any point, with coefficients determined by its derivatives. | [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md), 1717. |
 | **Newton's Identities** | Relate the power sums of polynomial roots to the coefficients of the polynomial. | Isaac Newton, 17th century. |
 | **Symmetric Polynomial Theorem** | Every symmetric polynomial can be expressed uniquely as a polynomial in the elementary symmetric polynomials. | Developed in 19th-century algebra; foundational work by Cauchy and others. |
 | **Resultant Theorem** | The resultant of two polynomials vanishes if and only if they have a common root in the algebraic closure of their coefficient field. | Étienne Bézout, 1779; the determinant formulation by James Joseph Sylvester, 1853. |
@@ -460,3 +460,9 @@ This is one of the most important reasons why different orthogonal polynomial fa
 - https://en.wikipedia.org/wiki/Quadratic_form
 - https://en.wikipedia.org/wiki/System_of_polynomial_equations
 - https://en.wikipedia.org/wiki/Rodrigues%27_formula
+- https://en.wikipedia.org/wiki/List_of_polynomial_topics
+- https://en.wikipedia.org/wiki/Gauss%E2%80%93Lucas_theorem 
+- https://en.wikipedia.org/wiki/Geometrical_properties_of_polynomial_roots 
+- https://en.wikipedia.org/wiki/Rational_root_theorem
+- https://en.wikipedia.org/wiki/Symmetric_polynomial 
+- https://en.wikipedia.org/wiki/Newton's_identities

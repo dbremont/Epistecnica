@@ -7524,6 +7524,11 @@
     "summary": "References: the eighteen bare URLs kept, and a dated literature list added beneath the same heading — sixty-four entries from Viete (1591) to Maclagan & Sturmfels (2015), chronological, one integrated list, APA. The list is built to match the note's own tables rather than to be a general bibliography: a primary source for every named result (Viete for the coefficient-root relations, Newton 1707 for the identities, Bezout 1779 and Sylvester 1853 for the resultant and discriminant, Sturm 1835, Abel 1826, Galois 1846, Eisenstein 1850, Puiseux 1850, Hilbert 1890, Taylor 1717), the family sources for the orthogonal rows (Legendre, Rodrigues, Chebyshev, Hermite, Charlier, Krawtchouk, Meixner, Zernike, Hahn, Krall-Frink, Askey-Wilson) and the discrete and combinatorial rows, Funkhouser (1930) on the history of symmetric functions of roots, and the modern texts that carry the field (Szego 1939 through Maclagan-Sturmfels 2015). Three attributions in the results table corrected, since the sources now contradict them: the resultant belongs to Bezout and Sylvester, not Cartan; Taylor's theorem is 1717, not 1715; the basis theorem was proved 1888 and published 1890.",
     "commit": "aa8887e8ad43c294f4e28242f0a4a4f4fa10aedb",
     "before": "5ebb9e73770e47c334a4984b9e81b6e14ddb1ff7"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Links: the Taylor attribution in the results table now points at the Brook Taylor persona."
    }
   ]
  },
@@ -121340,6 +121345,16 @@
     "kind": "create",
     "summary": "New note: the polynomial ring as a structure rather than as an object. Filed under structure/algebra, with a directory link from cossical/ where the polynomial itself lives. The note defines R[x] as finitely supported sequences under convolution, then answers its own QA question — what \"the algebraic structure\" means — by showing that the operations reading (commutative ring, free R-module, graded ring, R-algebra) and the construction reading (free commutative R-algebra on one generator, with Hom_{R-Alg}(R[x],S) congruent to S) are the same description, so that every relation on x is a quotient and adjoining a root is the same operation as adjoining any element. It tabulates what R[x] inherits from R (field to Euclidean to PID to UFD; Gauss; Hilbert; the degree law and its failure under zero divisors), separates the polynomial from the polynomial function (eval is injective exactly when R is infinite; over F_p the kernel is (x^p - x)), and closes on quotients as the point of the construction. References: Kronecker 1882, Hilbert 1890, Steinitz 1910, Noether 1921 and 1927, van der Waerden 1931, Zariski-Samuel 1958, Atiyah-Macdonald 1969, Lang 2002, Dummit-Foote 2004, Cox-Little-O'Shea 2015.",
     "commit": "6284b49a34b2c13250e2acca31581192b5b962ce"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/brook-taylor.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New persona: Brook Taylor (1685-1731), English mathematician and barrister — LL.B. 1709 and LL.D. 1714 at St John's, mathematics under Machin and Keill, the centre of oscillation unpublished until 1714 and contested by Johann Bernoulli, FRS 1712 and on the committee judging Newton against Leibniz, Secretary of the Royal Society 1714-1718 (the office in which both books were written). The note records the date problem that matters to citation: the Methodus incrementorum is dated 1717 on its title page while parts of the secondary literature catalogue it as 1715, and the corpus keeps 1717. Its argument is the obscurity: the 1911 Britannica diagnosis that his demonstrations lacked clarity, with the theorem waiting for Lagrange in 1772 and Linear Perspective waiting for Kirby and Fournier to annotate it."
    }
   ]
  }
