@@ -6205,7 +6205,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with the spectral volume named as the operator reading the note takes."
+    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with the spectral volume named as the operator reading the note takes.",
+    "commit": "a65819e841645ee0ad9cc6bcd16fadfb9b6f0a53",
+    "before": "b2ba73f670ec6e8617da690700c0f810b04213a4"
    }
   ]
  },
@@ -10306,7 +10308,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with Vol. I named for the calculus of variations, the Dirichlet principle and the eigenvalue problems."
+    "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with Vol. I named for the calculus of variations, the Dirichlet principle and the eigenvalue problems.",
+    "commit": "a65819e841645ee0ad9cc6bcd16fadfb9b6f0a53",
+    "before": "b2ba73f670ec6e8617da690700c0f810b04213a4"
    }
   ]
  },
