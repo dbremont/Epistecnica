@@ -8942,7 +8942,8 @@
     "date": "2026-11-17",
     "kind": "content",
     "summary": "Add the operator-properties table: the thirty-five properties operator theory attaches to an operator — linearity, boundedness, compactness, the adjoint family, the spectral family and the rest — set beside the note's account of the operator kind, with the differential instances still read as transformation rules.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -10192,7 +10193,8 @@
     "date": "2026-11-17",
     "kind": "content",
     "summary": "Add \"How to interpret a fraction?\" — the six readings of one inscription (part–whole, quotient, ratio, multiplicative operator, measure on the number line, partitive division) — and replace the visual area-model section with the multiplication case it was illustrating.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -10295,7 +10297,8 @@
     "date": "2026-11-17",
     "kind": "content",
     "summary": "Add a reference: Wildberger's arithmetic lecture, the source of the note's reading of multiplication as a number-building operation.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -33470,7 +33473,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Environmental / Signaling Inputs (I) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -33624,7 +33628,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Equation of State Databases (e.g. NIST REFPROP) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34440,7 +34445,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Force vive (Living force) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34458,7 +34464,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Biology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34476,7 +34483,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Cosmology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34494,7 +34502,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Deformation stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34512,7 +34521,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Electromagnetism stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34530,7 +34540,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Engineering stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34548,7 +34559,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Environmental Science stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34566,7 +34578,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Everyday Life stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34584,7 +34597,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Fluids stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34602,7 +34616,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Motion stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34620,7 +34635,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Quantum Mechanics stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34638,7 +34654,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Relativity stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34656,7 +34673,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Rotational Motion stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34674,7 +34692,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Space Exploration stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34692,7 +34711,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Sports stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34710,7 +34730,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Forces in Technology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -34824,7 +34845,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Fractal Structure and Scale-Invariance stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -39156,7 +39178,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Input stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -42366,7 +42389,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Multi-Dimensional Models stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -42384,7 +42408,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Multi-modal convergence stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -42414,7 +42439,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Multi-phase Transport stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -42444,7 +42470,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Multiple Proportions stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -44001,7 +44028,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Permeability of Free Space stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -44019,7 +44047,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Permittivity of Free Space stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -48760,7 +48789,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Theory stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -95951,7 +95981,8 @@
     "date": "2026-11-17",
     "kind": "docs",
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -96661,7 +96692,8 @@
     "date": "2026-11-17",
     "kind": "docs",
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -97469,7 +97501,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the change-making problem stub: a title, an empty quote and a Wikipedia link, with no formulation, no decomposition and no treatment of the problem. Nothing links to it.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -99930,7 +99963,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move and rename from green-threads.md (Green Threads) to the singular Green Thread, matching the corpus convention of one note per kind, and drop the stray empty quote line under the intro. The body is unchanged."
+    "summary": "Move and rename from green-threads.md (Green Threads) to the singular Green Thread, matching the corpus convention of one note per kind, and drop the stray empty quote line under the intro. The body is unchanged.",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -109361,7 +109395,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Product Abstract Catalog: a names-only list whose own header says details belong in the Good or Services notes, which now carry their product tables. Nothing links to it.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -110278,7 +110313,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move and retitle from social/dynamic/change.md (Change): the note is about change in social reality — state transition, action, intervention — not change at large, and the title now says so. The body is unchanged."
+    "summary": "Move and retitle from social/dynamic/change.md (Change): the note is about change in social reality — state transition, action, intervention — not change at large, and the title now says so. The body is unchanged.",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -110289,7 +110325,8 @@
     "date": "2026-11-17",
     "kind": "remove",
     "summary": "Remove the Al-Futtaim / Carrefour UAE stub: a firm note with three properties restated as a list — country, business models, commerce role — and no treatment of the firm. Nothing links to it.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -110300,7 +110337,8 @@
     "date": "2026-11-17",
     "kind": "docs",
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  },
@@ -110311,7 +110349,8 @@
     "date": "2026-11-17",
     "kind": "docs",
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617"
    }
   ]
  }
