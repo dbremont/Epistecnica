@@ -17,8 +17,13 @@ tags: [note, nature, substance-matter, materials-science, matter]
 
 ## References
 
-- https://en.m.wikipedia.org/wiki/Liquid
-- https://en.m.wikipedia.org/wiki/Purified_water
+- Barrat, J.-L., & Hansen, J.-P. (2003). *Basic concepts for simple and complex liquids*. Cambridge University Press. — the liquid as a many-body problem: structure factors, correlation functions, and the liquid–glass boundary.
+- Chandler, D. (1987). *Introduction to modern statistical mechanics*. Oxford University Press. — the statistical-mechanical reading of the liquid state, and why it is not the gas with a smaller volume.
+- Frenkel, D., & Smit, B. (2002). *Understanding molecular simulation: From algorithms to applications* (2nd ed.). Academic Press. — how a liquid is simulated, and what the simulation warrants.
+- Hansen, J.-P., & McDonald, I. R. (2013). *Theory of simple liquids: With applications to soft matter* (4th ed.). Academic Press. — the standard theory of the state.
+- van der Waals, J. D. (1873). *Over de continuïteit van den gas- en vloeistoftoestand* [On the continuity of the gaseous and liquid state] (Doctoral dissertation, University of Leiden). — the equation of state that treats liquid and gas as one continuous regime.
+- [Liquid](https://en.wikipedia.org/wiki/Liquid)
+- [Purified water](https://en.wikipedia.org/wiki/Purified_water)
 
 ## Related
 
@@ -27,3 +32,4 @@ tags: [note, nature, substance-matter, materials-science, matter]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Liquid 21bc0f5171ec80fba418dc54bd3385ef.md`
+- Shelf: [State — the States of Matter](/view.html?p=notes/nature/matter/state/readme.md)

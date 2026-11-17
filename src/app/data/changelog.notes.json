@@ -2349,6 +2349,11 @@
     "kind": "refactor",
     "summary": "Add the note in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Add Acoustics as a member discipline beside Optics, and link it from the references."
    }
   ]
  },
@@ -25797,6 +25802,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a placeholder for the same Notion export (Acoustics Phenomena 1aec0f5171ec806fb1f2e35f9adfd2fb.md) as the note now at nature/sound.md, carrying the retired 4-column table and no content of its own."
    }
   ]
  },
@@ -37979,6 +37989,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/human-auditory-system.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Acoustics Phenomena link to nature/sound.md, where the note now lives."
    }
   ]
  },
@@ -41354,6 +41369,11 @@
     "kind": "refactor",
     "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
     "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Fold the bare links into one APA list and add the sources the note was arguing from: Maxwell (1860), Boltzmann (1872), van der Waals (1873), Chapman & Cowling, Hirschfelder/Curtiss/Bird, Cercignani, and the NIST REFPROP database; the Notion page moves to provenance."
    }
   ]
  },
@@ -41365,6 +41385,11 @@
     "kind": "refactor",
     "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
     "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Fold the bare links into one APA list and add the theory of the state: Hansen & McDonald, Barrat & Hansen, Chandler, Frenkel & Smit, and van der Waals (1873); the shelf link joins the provenance."
    }
   ]
  },
@@ -41409,6 +41434,11 @@
     "kind": "feat",
     "summary": "Add the states hub: one row per state of the state table, linking the thirteen notes of the directory.",
     "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Name the concept and sub-notes the shelf now carries — State of Matter, Phase, Type of Gas, Viscous Liquid, Non-conductive Liquid, Crystalline Solids, Liquid Crystal — so the directory covers everything about how matter is arranged."
    }
   ]
  },
@@ -41431,6 +41461,11 @@
     "kind": "refactor",
     "summary": "Move the state note from nature/ into nature/matter/state/ with the other states of the state table.",
     "commit": "6c306c1e3063ddac5c76594b3a8eb38fff68c7ff"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the sources the state rests on — Kittel, Ashcroft & Mermin, Born & Huang, Callister, Bragg (1913) — to the placeholder's reference list, with the state shelf named."
    }
   ]
  },
@@ -51125,6 +51160,11 @@
     "date": "2026-11-12",
     "kind": "move",
     "summary": "Move from nature/wave.md into nature/wave/ so the wave and oscillation elements sit together."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Fold the bare links into one APA list and add the classical sources: d'Alembert (1747), Fourier (1822), Rayleigh, Crawford, Feynman I, Kinsler et al.; the Wavelet Notion page moves to provenance, and the wave-parameter and Acoustics links join Related."
    }
   ]
  },
@@ -109397,6 +109437,11 @@
     "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/.",
     "commit": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402",
     "before": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Phase link to the state shelf (nature/matter/state/phase.md)."
    }
   ]
  },
@@ -111104,6 +111149,101 @@
     "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/).",
     "commit": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402",
     "before": "aa820a9bcd63d1acd9fd6c87a3aef8fe3dbd0402"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/sound.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/acoustics-phenomena.md and retitle to Sound: the file is the natural note on sound, not the discipline that studies it; the discipline material moved to epistemica/epistemic/discipline/acoustics.md."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Write the note out as the phenomenon: sound as a longitudinal pressure wave in an elastic medium, the property table, the sine and Fourier representation, propagation and boundary behaviour, perception as a pointer to the psychoacoustics note, sound in different media, and references (Rayleigh, Kinsler et al., Feynman I ch. 47–48, the Wikipedia entries) folded into one APA list."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/discipline/acoustics.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "New discipline note: acoustics as an Epistemic Practice over mechanical waves — the five formulation questions, the boundary against continuum mechanics, signal processing, psychoacoustics and noise-control engineering, a decomposition of orientation, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization, nine member sub-practices from physical and architectural to electroacoustics and musical acoustics, the conceptuum evaluation, and the old corpus description carried in its own section."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/state-of-matter.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/state-of-matter.md: the general concept the state table's rows are cases of, and the shelf is where the states and their concept are filed."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/type-of-gas.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/type-of-gas.md: it is a sub-note of the gas state, not a separate natural element at the section root."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/non-conductive-liquid.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/non-conductive-liquid.md: it is a sub-note of the liquid state."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/viscous-liquid.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/viscous-liquid.md: it is a sub-note of the liquid state."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/crystalline-solids.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/crystalline-solids.md: it is a sub-note of the solid state."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/liquid-crystal-lc.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/liquid-crystal-lc.md: a liquid crystal is a mesophase — a state of matter — so it belongs with the states."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/phase.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/phase.md: the thermodynamic reading of a state of matter, which the state shelf carries."
    }
   ]
  }

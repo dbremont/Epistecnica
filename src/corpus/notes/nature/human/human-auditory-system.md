@@ -18,7 +18,7 @@ tags: [note, nature, natural-system, biology, system]
 
 ## Related
 
-- [Acoustics Phenomena](/view.html?p=notes/nature/acoustics-phenomena.md)
+- [Acoustics Phenomena](/view.html?p=notes/nature/sound.md)
 
 ## Provenance
 

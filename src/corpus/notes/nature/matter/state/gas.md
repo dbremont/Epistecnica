@@ -49,10 +49,16 @@ tags: [note, nature, substance-matter, materials-science, matter]
 
 ## References
 
-- https://en.wikipedia.org/wiki/Gas
-- https://en.wikipedia.org/wiki/Gas_kinetics
-- https://en.wikipedia.org/wiki/Compressible_flow
-- [‣](https://app.notion.com/p/22cc0f5171ec80e3a9f9e918a2641063?pvs=21)
+- Boltzmann, L. (1872). Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen. *Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften*, 66, 275–370. — the kinetic equation behind every transport property a gas has.
+- Chapman, S., & Cowling, T. G. (1970). *The mathematical theory of non-uniform gases* (3rd ed.). Cambridge University Press. — transport coefficients derived from the Boltzmann equation.
+- Cercignani, C. (1988). *The Boltzmann equation and its applications*. Springer. — the equation as a working instrument, with its boundary conditions.
+- Hirschfelder, J. O., Curtiss, C. F., & Bird, R. B. (1954). *Molecular theory of gases and liquids*. Wiley. — the intermolecular potential and the properties it predicts.
+- Lemmon, E. W., Bell, I. H., Huber, M. L., & McLinden, M. O. (2023). *NIST Standard Reference Database 23: Reference fluid thermodynamic and transport properties — REFPROP* (Version 10.0). National Institute of Standards and Technology. — the tabulated equations of state the engineering column of this note relies on.
+- Maxwell, J. C. (1860). Illustrations of the dynamical theory of gases. *Philosophical Magazine*, 19, 19–32. — the first derivation of transport properties from molecular motion.
+- van der Waals, J. D. (1873). *Over de continuïteit van den gas- en vloeistoftoestand* [On the continuity of the gaseous and liquid state] (Doctoral dissertation, University of Leiden). — the equation that makes the gas–liquid transition continuous.
+- [Gas](https://en.wikipedia.org/wiki/Gas)
+- [Kinetic theory of gases](https://en.wikipedia.org/wiki/Kinetic_theory_of_gases)
+- [Compressible flow](https://en.wikipedia.org/wiki/Compressible_flow)
 
 ## Related
 
@@ -61,3 +67,5 @@ tags: [note, nature, substance-matter, materials-science, matter]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Gas 1bac0f5171ec803d8072e7bf9b5c96ff.md`
+- Notion page carried by the import: https://app.notion.com/p/22cc0f5171ec80e3a9f9e918a2641063?pvs=21
+- Shelf: [State — the States of Matter](/view.html?p=notes/nature/matter/state/readme.md)
