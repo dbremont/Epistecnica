@@ -54,7 +54,7 @@ tags: [note]
 
 ## References
 
-- [Human Formation Facet](/view.html?p=notes/technica/general/op/formation/human-formation-facet.md) — the technical formation facet the general ecosystem pairs with
+- [Human Formation Facet](/view.html?p=notes/social/facet/human-formation.md) — the facet whose mechanism the three ecosystems divide between them
 - [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) — the stratum the *Bildung* idea produced
 - [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md) — the body that carries the curriculum, as against the theory of what it should do
 - Kant, I. (1803). *Über Pädagogik* (F. T. Rink, Ed.). — autonomy as the aim of education

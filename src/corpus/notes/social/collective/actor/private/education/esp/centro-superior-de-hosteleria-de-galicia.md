@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, formation]
+tags: [note, actor, education, spain]
 ---
 
 # Centro Superior de Hostelería de Galicia

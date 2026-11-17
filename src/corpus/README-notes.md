@@ -43,7 +43,11 @@ filing rules that shaped it:
   production notes live under `technica/general/cto/industry/`, technical
   domain sets under `technica/general/cto/es/multinode/`, and formation
   institutions (schools, universities) under
-  `technica/general/op/formation/`.
+  `technica/general/op/formation/` — refiled on 2026-11-17: schools and
+  universities are education actors, so they now sit under
+  `social/collective/actor/private/education/<code>/`, research academies and
+  research hospitals under `social/collective/actor/private/research/<code>/`,
+  and `technica/general/op/formation/` no longer exists.
 - `general/` and `miscellanea/` became `unclassified/` (initially `essays/`).
 - `data-collection/` moved under `epistemica/data/`.
 - On collisions the Epistecnica note was kept and the incoming file skipped

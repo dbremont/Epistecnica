@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, formation, medical]
+tags: [note, actor, research-institute, medical, united-states, research]
 ---
 
 # St. Jude Children's Research Hospital

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, formation, technical-diffusion]
+tags: [note, actor, education, brazil, technical-diffusion]
 ---
 
 # Serviço Nacional de Aprendizagem Industrial (SENAI)
