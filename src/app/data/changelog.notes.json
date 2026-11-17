@@ -121880,7 +121880,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the laser Doppler vibrometer added beside radar, with the note that its shift is doubled by the return path."
+    "summary": "References: the laser Doppler vibrometer added beside radar, with the note that its shift is doubled by the return path.",
+    "commit": "f5f850b2a578d33450f231ced13a4dfe15ae9fe9",
+    "before": "3d930ec38d4f937308bd3bce764154ec278bd598"
    }
   ]
  },
@@ -121978,7 +121980,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New technica note: the laser Doppler vibrometer, filed beside radar on the industry shelf and typed the same way — a Production Technical Object, a produced electromagnetic measurement instrument rather than a production plant. The note is organised around the three details that make the instrument what it is: the factor of two (the beam goes to the surface and back, so the shift is 2v/lambda and the output is velocity directly), heterodyne detection with a Bragg cell (without the carrier a fringe-counting system measures speed but not sign), and speckle (the surface is rarely a mirror, which is why retroreflective tape is part of the method). The instance tree decomposes the assembly, the configuration that decides validity (stand-off and focus, velocity range, surface treatment), the instrument kinds by function (single-point, scanning, three-dimensional, differential) and the evaluations that bound it: line-of-sight constraint, speckle dropout, and calibration traceability through the wavelength rather than a shaker."
+    "summary": "New technica note: the laser Doppler vibrometer, filed beside radar on the industry shelf and typed the same way — a Production Technical Object, a produced electromagnetic measurement instrument rather than a production plant. The note is organised around the three details that make the instrument what it is: the factor of two (the beam goes to the surface and back, so the shift is 2v/lambda and the output is velocity directly), heterodyne detection with a Bragg cell (without the carrier a fringe-counting system measures speed but not sign), and speckle (the surface is rarely a mirror, which is why retroreflective tape is part of the method). The instance tree decomposes the assembly, the configuration that decides validity (stand-off and focus, velocity range, surface treatment), the instrument kinds by function (single-point, scanning, three-dimensional, differential) and the evaluations that bound it: line-of-sight constraint, speckle dropout, and calibration traceability through the wavelength rather than a shaker.",
+    "commit": "f5f850b2a578d33450f231ced13a4dfe15ae9fe9"
    }
   ]
  }
