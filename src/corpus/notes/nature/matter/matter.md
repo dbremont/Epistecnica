@@ -170,6 +170,6 @@ Three groupings in this table are easy to misunderstand and worth naming.
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/interaction/fundamental-molecular-interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/interaction/fundamental-interaction.md)
 - [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md)
-- [Heisenberg Uncertainty Principle](/view.html?p=notes/nature/construction/principle/heisenberg-uncertainty-principle.md)
+- [Heisenberg Uncertainty Principle](/view.html?p=notes/nature/result/principle/heisenberg-uncertainty-principle.md)
 
 

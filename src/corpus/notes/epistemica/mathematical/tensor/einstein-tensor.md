@@ -26,5 +26,5 @@ tags: [note, mathematics, analytical, geometry, type]
 
 - https://en.wikipedia.org/wiki/Einstein_tensor
 - https://en.wikipedia.org/wiki/Einstein_field_equations
-- [Einstein Field Equations](/view.html?p=notes/nature/construction/gravitation/einstein-field-equations.md) — the construction this tensor is the left-hand side of
+- [Einstein Field Equations](/view.html?p=notes/nature/result/gravitation/einstein-field-equations.md) — the construction this tensor is the left-hand side of
 - [Ricci Tensor](ricci-tensor.md) · [Metric Tensor](metric-tensor.md) · [Stress-Energy Tensor](stress-energy-tensor.md) · [Riemann Tensor](riemann-tensor.md)

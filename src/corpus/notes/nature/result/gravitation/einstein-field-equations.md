@@ -62,7 +62,7 @@ First, the name covers three different elements: the **equations** (the law, doc
 
 Second, the same name sits on the mathematical side. The [Einstein tensor](/view.html?p=notes/epistemica/mathematical/tensor/einstein-tensor.md) describes itself as "the left-hand side of Einstein's field equation", and the [stress-energy tensor](/view.html?p=notes/epistemica/mathematical/tensor/stress-energy-tensor.md) as its source. Those notes state the objects and their identities; this note states the equation that binds them, the conservation argument that licenses the binding, and the uniqueness that closes it. The tensor notes cite the equation; none of them is it.
 
-Third, the ordinary name for the system is "Einstein's law of gravitation", and the guide licenses no `Law` kind among constructions. Read as a written statement it is the `Model` documented here; read as the regularity itself it is a natural element, [Law](/view.html?p=notes/nature/construction/law.md) on the naturalis side — a placeholder in this corpus, but the right side of the boundary. The word "law" names both without distinguishing them; the type does.
+Third, the ordinary name for the system is "Einstein's law of gravitation", and the guide licenses no `Law` kind among constructions. Read as a written statement it is the `Model` documented here; read as the regularity itself it is a natural element, [Law](/view.html?p=notes/nature/result/law.md) on the naturalis side — a placeholder in this corpus, but the right side of the boundary. The word "law" names both without distinguishing them; the type does.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -166,8 +166,8 @@ The concept under evaluation is **the Einstein field equations**, precised as *t
 - [Metric Tensor](/view.html?p=notes/epistemica/mathematical/tensor/metric-tensor.md) — the field variable
 - [Riemann Tensor](/view.html?p=notes/epistemica/mathematical/tensor/riemann-tensor.md) — the curvature the system is built from
 - [Manifold](/view.html?p=notes/epistemica/mathematical/topology/manifold.md) — the space the solution lives on
-- [Equivalence Principle](/view.html?p=notes/nature/construction/principle/equivalence-principle.md) — the standard the law must respect
-- [Principle of Relativity](/view.html?p=notes/nature/construction/principle/principle-of-relativity.md) — the invariance read at constant velocity
+- [Equivalence Principle](/view.html?p=notes/nature/result/principle/equivalence-principle.md) — the standard the law must respect
+- [Principle of Relativity](/view.html?p=notes/nature/result/principle/principle-of-relativity.md) — the invariance read at constant velocity
 - [Gravity](/view.html?p=notes/nature/gravity.md) — the phenomenon the geometry is read as
 - [Gravitational Field](/view.html?p=notes/nature/matter/elementary/gravitational-field.md) — the natural target, pending its own decomposition
 - [Spacetime (as Substrate)](/view.html?p=notes/nature/spacetime-as-substrate.md) — the manifold read as substance

@@ -193,14 +193,14 @@
       "kind": "hierarchy"
     },
     {
-      "from": "nature/construction/",
+      "from": "nature/result/",
       "to": "epistemica/",
-      "label": "Construction",
+      "label": "Results",
       "kind": "hierarchy"
     },
     {
-      "from": "nature/human/cognitive/conceptual-model-cognition/",
-      "to": "nature/human/cognitive/meaning.md",
+      "from": "nature/life/organism/human/cognitive/conceptual-model-cognition/",
+      "to": "nature/life/organism/human/cognitive/meaning.md",
       "label": "Meaning",
       "kind": "related"
     },
@@ -210,14 +210,12 @@
       "label": "Technical Objects",
       "kind": "related"
     },
-    
     {
       "from": "social/good/",
       "to": "production/",
       "label": "Production",
       "kind": "related"
     },
-    
     {
       "from": "technica/",
       "to": "social/good/",
