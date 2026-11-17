@@ -169,55 +169,49 @@ Note:
 
 ## 📚 References
 
-- Abramowitz, M., & Stegun, I. A. (Eds.). (1964). *Handbook of mathematical functions with formulas, graphs, and mathematical tables* (Applied Mathematics Series No. 55). National Bureau of Standards. — the scan the QA points at
-- Archimedes. (1897). *The works of Archimedes* (T. L. Heath, Ed. & Trans.). Cambridge University Press. — the *Quadrature of the Parabola* and the *Method*
-- Barrow, I. (1670). *Lectiones geometricae*. London. — the geometric inverse relation between tangents and areas
-- Bochner, S. (1933). Integration von Funktionen, deren Werte die Elemente eines Vektorraumes sind. *Fundamenta Mathematicae*, 20, 262–276.
-- Cauchy, A.-L. (1823). *Résumé des leçons données à l'École Royale Polytechnique sur le calcul infinitésimal*. Imprimerie Royale. — the definite integral as a limit of sums
 - Cavalieri, B. (1635). *Geometria indivisibilibus continuorum nova quadam ratione promota*. Bologna.
-- Courant, R., & Hilbert, D. (1953). *Methods of mathematical physics* (Vol. 1). Interscience.
-- Daniell, P. J. (1918). A general form of integral. *Annals of Mathematics*, 19(4), 279–294. — the functional first, the measure after
-- Darboux, G. (1875). Mémoire sur les fonctions discontinues. *Annales scientifiques de l'École Normale Supérieure*, 2e série, 4, 57–112.
-- Euler, L. (1748). *Introductio in analysin infinitorum* (Vol. 1). Lausanne. — the integral as a function
-- Feynman, R. P. (1948). Space-time approach to non-relativistic quantum mechanics. *Reviews of Modern Physics*, 20(2), 367–387.
-- Folland, G. B. (1999). *Real analysis: Modern techniques and their applications* (2nd ed.). Wiley.
-- Fredholm, I. (1903). Sur une classe d'équations fonctionnelles. *Acta Mathematica*, 27, 365–390.
-- Gradshteyn, I. S., & Ryzhik, I. M. (2014). *Table of integrals, series, and products* (8th ed.). Academic Press.
-- Henstock, R. (1963). *Theory of integration*. Butterworths. — the gauge integral, which integrates every derivative
-- Hilbert, D. (1912). *Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen*. Teubner.
-- Hochstadt, H. (1973). *Integral equations*. Wiley.
-- Itô, K. (1944). Stochastic integral. *Proceedings of the Imperial Academy (Tokyo)*, 20(8), 519–524.
-- Kanwal, R. P. (2013). *Linear integral equations* (3rd ed.). Birkhäuser.
-- Kurzweil, J. (1957). Generalized ordinary differential equations and continuous dependence on a parameter. *Czechoslovak Mathematical Journal*, 7(82), 418–449.
-- Lebesgue, H. (1904). *Leçons sur l'intégration et la recherche des fonctions primitives*. Gauthier-Villars.
+- Wallis, J. (1656). *Arithmetica infinitorum*. Oxford. — the arithmetisation of indivisibles
+- Barrow, I. (1670). *Lectiones geometricae*. London. — the geometric inverse relation between tangents and areas
 - Leibniz, G. W. (1686). De geometria recondita et analysi indivisibilium atque infinitorum. *Acta Eruditorum*, 5, 292–300. — where the sign $\int$ was published
 - Newton, I. (1736). *The method of fluxions and infinite series* (J. Colson, Trans.). Henry Woodfall. (Original work written 1671)
-- Olver, F. W. J., Olde Daalhuis, A. B., Lozier, D. W., Schneider, B. I., Boisvert, R. F., Clark, C. W., Miller, B. R., Saunders, B. V., Cohl, H. S., & McClain, M. A. (Eds.). (2024). *NIST digital library of mathematical functions*. https://dlmf.nist.gov/
-- Polyanin, A. D., & Manzhirov, A. V. (2008). *Handbook of integral equations* (2nd ed.). Chapman & Hall/CRC.
-- Reed, M., & Simon, B. (1980). *Methods of modern mathematical physics I: Functional analysis*. Academic Press.
+- Euler, L. (1748). *Introductio in analysin infinitorum* (Vol. 1). Lausanne. — the integral as a function
+- Cauchy, A.-L. (1823). *Résumé des leçons données à l'École Royale Polytechnique sur le calcul infinitésimal*. Imprimerie Royale. — the definite integral as a limit of sums
 - Riemann, B. (1868). Über die Darstellbarkeit einer Function durch eine trigonometrische Reihe. *Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen*, 13, 87–132.
-- Riesz, F. (1910). Untersuchungen über Systeme integrierbarer Funktionen. *Mathematische Annalen*, 69, 449–497. — the representation of functionals as integrals
-- Riesz, F., & Sz.-Nagy, B. (1990). *Functional analysis*. Dover.
-- Risch, R. H. (1969). The problem of integration in finite terms. *Transactions of the American Mathematical Society*, 139, 167–189.
-- Ritt, J. F. (1948). *Integration in finite terms: Liouville's theory of elementary methods*. Columbia University Press.
-- Rudin, W. (1987). *Real and complex analysis* (3rd ed.). McGraw-Hill.
-- Samko, S. G., Kilbas, A. A., & Marichev, O. I. (1993). *Fractional integrals and derivatives: Theory and applications*. Gordon and Breach.
-- Schmidt, E. (1907). Zur Theorie der linearen und nichtlinearen Integralgleichungen. *Mathematische Annalen*, 63, 433–476.
+- Darboux, G. (1875). Mémoire sur les fonctions discontinues. *Annales scientifiques de l'École Normale Supérieure*, 2e série, 4, 57–112.
 - Stieltjes, T.-J. (1894). Recherches sur les fractions continues. *Annales de la Faculté des Sciences de Toulouse*, 8, J1–J122.
-- Tricomi, F. G. (1957). *Integral equations*. Interscience.
 - Volterra, V. (1896). Sulla inversione degli integrali definiti. *Atti della Reale Accademia delle Scienze di Torino*, 31, 311–324.
-- Wallis, J. (1656). *Arithmetica infinitorum*. Oxford. — the arithmetisation of indivisibles
+- Archimedes. (1897). *The works of Archimedes* (T. L. Heath, Ed. & Trans.). Cambridge University Press. (Original work published ca. 250 B.C.E.) — the *Quadrature of the Parabola* and the *Method*
+- Fredholm, I. (1903). Sur une classe d'équations fonctionnelles. *Acta Mathematica*, 27, 365–390.
+- Lebesgue, H. (1904). *Leçons sur l'intégration et la recherche des fonctions primitives*. Gauthier-Villars.
+- Schmidt, E. (1907). Zur Theorie der linearen und nichtlinearen Integralgleichungen. *Mathematische Annalen*, 63, 433–476.
+- Riesz, F. (1910). Untersuchungen über Systeme integrierbarer Funktionen. *Mathematische Annalen*, 69, 449–497. — the representation of functionals as integrals
+- Hilbert, D. (1912). *Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen*. Teubner.
+- Daniell, P. J. (1918). A general form of integral. *Annals of Mathematics*, 19(4), 279–294. — the functional first, the measure after
 - Wiener, N. (1923). Differential-space. *Journal of Mathematics and Physics*, 2, 131–174.
+- Bochner, S. (1933). Integration von Funktionen, deren Werte die Elemente eines Vektorraumes sind. *Fundamenta Mathematicae*, 20, 262–276.
+- Itô, K. (1944). Stochastic integral. *Proceedings of the Imperial Academy (Tokyo)*, 20(8), 519–524.
+- Feynman, R. P. (1948). Space-time approach to non-relativistic quantum mechanics. *Reviews of Modern Physics*, 20(2), 367–387.
+- Ritt, J. F. (1948). *Integration in finite terms: Liouville's theory of elementary methods*. Columbia University Press.
+- Courant, R., & Hilbert, D. (1953). *Methods of mathematical physics* (Vol. 1). Interscience.
+- Kurzweil, J. (1957). Generalized ordinary differential equations and continuous dependence on a parameter. *Czechoslovak Mathematical Journal*, 7(82), 418–449.
+- Tricomi, F. G. (1957). *Integral equations*. Interscience.
+- Henstock, R. (1963). *Theory of integration*. Butterworths. — the gauge integral, which integrates every derivative
+- Abramowitz, M., & Stegun, I. A. (Eds.). (1964). *Handbook of mathematical functions with formulas, graphs, and mathematical tables* (Applied Mathematics Series No. 55). National Bureau of Standards. — the scan the QA points at
+- Risch, R. H. (1969). The problem of integration in finite terms. *Transactions of the American Mathematical Society*, 139, 167–189.
+- Hochstadt, H. (1973). *Integral equations*. Wiley.
+- Reed, M., & Simon, B. (1980). *Methods of modern mathematical physics I: Functional analysis*. Academic Press.
 - Yosida, K. (1980). *Functional analysis* (6th ed.). Springer.
-
-**Lookup pages**
-
+- Rudin, W. (1987). *Real and complex analysis* (3rd ed.). McGraw-Hill.
+- Riesz, F., & Sz.-Nagy, B. (1990). *Functional analysis*. Dover.
+- Samko, S. G., Kilbas, A. A., & Marichev, O. I. (1993). *Fractional integrals and derivatives: Theory and applications*. Gordon and Breach.
+- Folland, G. B. (1999). *Real analysis: Modern techniques and their applications* (2nd ed.). Wiley.
+- Polyanin, A. D., & Manzhirov, A. V. (2008). *Handbook of integral equations* (2nd ed.). Chapman & Hall/CRC.
+- Kanwal, R. P. (2013). *Linear integral equations* (3rd ed.). Birkhäuser.
+- Gradshteyn, I. S., & Ryzhik, I. M. (2014). *Table of integrals, series, and products* (8th ed.). Academic Press.
+- Olver, F. W. J., Olde Daalhuis, A. B., Lozier, D. W., Schneider, B. I., Boisvert, R. F., Clark, C. W., Miller, B. R., Saunders, B. V., Cohl, H. S., & McClain, M. A. (Eds.). (2024). *NIST digital library of mathematical functions*. https://dlmf.nist.gov/
 - [Integral symbol](https://en.wikipedia.org/wiki/Integral_symbol) · [Integral](https://en.wikipedia.org/wiki/Integral) · [Riemann integral](https://en.wikipedia.org/wiki/Riemann_integral) · [Lebesgue integral](https://en.wikipedia.org/wiki/Lebesgue_integral) · [Antiderivative](https://en.wikipedia.org/wiki/Antiderivative) · [Integral linear operator](https://en.wikipedia.org/wiki/Integral_linear_operator)
 - [Lists of integrals](https://en.wikipedia.org/wiki/Lists_of_integrals) · [Special functions](https://en.wikipedia.org/wiki/Special_functions) · [Elementary function](https://en.wikipedia.org/wiki/Elementary_function) · [Risch algorithm](https://en.wikipedia.org/wiki/Risch_algorithm)
 - [Integral kernel — Wolfram MathWorld](https://mathworld.wolfram.com/IntegralKernel.html)
-
-**Corpus**
-
 - [Equation](../../../nature/result/equation.md) — why an equation travels between fields, and where the differential and integral forms of the same law diverge
 - [Lebesgue Integral](../mapping/lebesgue-integral.md) — the domain on which the kernels are defined
 - [Differential Operator](differential-operator.md) — the object an integral operator inverts
