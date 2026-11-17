@@ -121284,5 +121284,15 @@
     "before": "14df278e1d9a9a83bff6543afb431d4dddd76cda"
    }
   ]
+ },
+ {
+  "file_path": "nature/matter/chemical/hydrogen.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: Cavendish (1766), the three papers on factitious air, linked through the new library entry — the isolation and weighing of inflammable air, and therefore the standard citation for hydrogen entering the literature."
+   }
+  ]
  }
 ]

@@ -48,6 +48,7 @@ QA:
 
 ## References
 
+- [Cavendish, H. (1766). *Three papers, containing experiments on factitious air*. *Philosophical Transactions of the Royal Society of London, 56*, 141–184.](/view.html?p=documents/papers/cavendish-1766-three-papers-experiments-factitious-air-philosophical-transactions.md) — the isolation and weighing of inflammable air
 - https://en.wikipedia.org/wiki/Hydrogen
 - https://www.youtube.com/watch?v=G0aGlipKacI
 - https://en.wikipedia.org/wiki/Hydrogen_atom
