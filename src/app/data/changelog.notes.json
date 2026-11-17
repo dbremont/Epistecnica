@@ -9763,7 +9763,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the book behind the technique: Nayfeh (1981), Introduction to Perturbation Techniques, linked to its library entry — the catalogue of strained coordinates, multiple scales, averaging and matched expansions the note describes but does not cite."
+    "summary": "Add the book behind the technique: Nayfeh (1981), Introduction to Perturbation Techniques, linked to its library entry — the catalogue of strained coordinates, multiple scales, averaging and matched expansions the note describes but does not cite.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -9835,7 +9837,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Drop Discretization and Iterative Method from the Approximation Routine family: they are computational procedures, and they now sit with the numerical methods in the singular scope. The family keeps the asymptotic routines — asymptotic analysis, perturbation, stationary phase."
+    "summary": "Drop Discretization and Iterative Method from the Approximation Routine family: they are computational procedures, and they now sit with the numerical methods in the singular scope. The family keeps the asymptotic routines — asymptotic analysis, perturbation, stationary phase.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -10105,7 +10109,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Iterative Method link into the singular scope, where the numerical procedures now live."
+    "summary": "Retarget the Iterative Method link into the singular scope, where the numerical procedures now live.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -11386,7 +11392,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Discretization link into the singular scope."
+    "summary": "Retarget the Discretization link into the singular scope.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -13355,7 +13363,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Iterative Method link into the singular scope."
+    "summary": "Retarget the Iterative Method link into the singular scope.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -121203,7 +121213,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/method/approximation/discretization.md: a computational procedure rather than a mathematical approximation: it replaces the continuum by a mesh so a machine can solve it, and it belongs beside the other numerical methods."
+    "summary": "Move from epistemica/mathematical/method/approximation/discretization.md: a computational procedure rather than a mathematical approximation: it replaces the continuum by a mesh so a machine can solve it, and it belongs beside the other numerical methods.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -121238,7 +121249,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from epistemica/mathematical/method/approximation/iterative-method.md: a computational procedure rather than a mathematical approximation: the answer is reached by repeated correction, and it belongs beside the other numerical methods."
+    "summary": "Move from epistemica/mathematical/method/approximation/iterative-method.md: a computational procedure rather than a mathematical approximation: the answer is reached by repeated correction, and it belongs beside the other numerical methods.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  },
@@ -121248,7 +121260,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the two moved notes at their new paths in the singular scope."
+    "summary": "Point the two moved notes at their new paths in the singular scope.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  }

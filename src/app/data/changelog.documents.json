@@ -37679,7 +37679,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New book entry: Nayfeh's Introduction to Perturbation Techniques (Wiley, 1981), the techniques catalogue behind the perturbation-method note, with the scan link recorded as given even though the host answered 500 at filing time."
+    "summary": "New book entry: Nayfeh's Introduction to Perturbation Techniques (Wiley, 1981), the techniques catalogue behind the perturbation-method note, with the scan link recorded as given even though the host answered 500 at filing time.",
+    "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
+    "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
    }
   ]
  }
