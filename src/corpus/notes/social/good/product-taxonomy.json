@@ -259,6 +259,37 @@
     "social": "good-wine"
   },
   {
+    "desc": "Widest grouping: the produced means of moving goods and people.",
+    "id": "cat-transport",
+    "label": "Transport Equipment",
+    "level": "category",
+    "parent": null
+  },
+  {
+    "desc": "Technical family: vehicles that carry load on wheels over roads.",
+    "id": "sub-roadveh",
+    "label": "Road Vehicles",
+    "level": "subcategory",
+    "parent": "cat-transport"
+  },
+  {
+    "desc": "Class sharing a goods-carrying chassis and a regulated axle-load architecture.",
+    "id": "cls-trucks",
+    "label": "Trucks",
+    "level": "class",
+    "parent": "sub-roadveh"
+  },
+  {
+    "desc": "Motor vehicle for the transport of goods, designed around axle loads and payload. No HS code in Social Space.",
+    "hs": "",
+    "id": "good-truck",
+    "label": "Truck",
+    "level": "product",
+    "link": "../../../../../social/web/?node=good-truck",
+    "parent": "cls-trucks",
+    "social": "good-truck"
+  },
+  {
     "desc": "Boundary grouping: the generic product, the firm portfolio position, and the adjacent production process — closes the 17-node population.",
     "id": "cat-boundary",
     "label": "Portfolio & Process (boundary)",

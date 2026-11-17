@@ -122015,5 +122015,15 @@
     "commit": "a7aa9230a40d2f74590df0829ce94ad3850aca3b"
    }
   ]
+ },
+ {
+  "file_path": "technica/general/cto/industry/truck.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New technica note: the truck, filed on the industry shelf and typed as a Production Technical Object inside the transportation-vehicles system. The note is built on the three numbers set outside the engineering — axle load, gross weight and dimensions, and duty cycle — and on the one that explains the axle limit: pavement damage scales with roughly the fourth power of axle mass, which is why a heavy vehicle has many axles rather than one strong one. Payload is named as the design variable, which is where electrification bites: a battery is mass that earns nothing, and whether the trade closes is a question about the duty cycle, not about the vehicle. It also records the modular cut (a rigid truck and a tractor-trailer are one architecture in two products, because length limits count the trailer) and the evaluations that bound the object, including driver hours, which no design can remove. The instance tree covers ten constituents, five kinds, four configuration values and four evaluations."
+   }
+  ]
  }
 ]
