@@ -6008,7 +6008,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Add a Related list linking the natural pattern (Oscillation) and its spectral reading (Harmonic Analysis)."
+    "summary": "Add a Related list linking the natural pattern (Oscillation) and its spectral reading (Harmonic Analysis).",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -10234,7 +10236,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add a section of twenty-five word problems that give division its physical meanings — sharing, measuring, rate, density, ratio — so the operation is read as a question asked of a quantity rather than as a procedure."
+    "summary": "Add a section of twenty-five word problems that give division its physical meanings — sharing, measuring, rate, density, ratio — so the operation is read as a question asked of a quantity rather than as a procedure.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -25958,7 +25962,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left."
+    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -31544,7 +31549,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the GW150914 waveform link to nature/wave/gravitational-wave.md, the note that remains after the wave corpus was consolidated."
+    "summary": "Retarget the GW150914 waveform link to nature/wave/gravitational-wave.md, the note that remains after the wave corpus was consolidated.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -38616,7 +38623,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -47144,7 +47152,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left."
+    "summary": "Removed: a 41-line placeholder from the Notion import with the definition never worked, and no inbound links left.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -47612,7 +47621,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -50090,7 +50100,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: the note moved to nature/matter/change.md, under the shelf that owns change of matter."
+    "summary": "Removed: the note moved to nature/matter/change.md, under the shelf that owns change of matter.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51039,7 +51050,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51066,7 +51078,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51091,7 +51104,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51106,7 +51120,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51121,7 +51136,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51146,7 +51162,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51161,7 +51178,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51176,7 +51194,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51191,7 +51210,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51236,7 +51256,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51251,7 +51272,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51266,7 +51288,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51281,7 +51304,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51303,7 +51327,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the instance inventory the deleted wave notes used to carry: a 65-row table of the waves of nature grouped by substrate family — mechanical, electromagnetic, gravitational, plasma, astrophysical, biological, chemical and quantum — each with its substrate and propagation mechanism; the references keep the corrected link list (oscillation and wave equation) and drop the pointers to the notes that no longer exist."
+    "summary": "Add the instance inventory the deleted wave notes used to carry: a 65-row table of the waves of nature grouped by substrate family — mechanical, electromagnetic, gravitational, plasma, astrophysical, biological, chemical and quantum — each with its substrate and propagation mechanism; the references keep the corrected link list (oscillation and wave equation) and drop the pointers to the notes that no longer exist.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -51318,7 +51344,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md."
+    "summary": "Removed: a 41-line placeholder from the Notion import — title, the template formulation and provenance, with the definition never worked — and no inbound links left; the instance it named is now a row of the wave instance table in nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -52373,7 +52400,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: the essay moved to personal/an-essay-on-self-education.md."
+    "summary": "Removed: the essay moved to personal/an-essay-on-self-education.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -96476,7 +96504,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Add the Stanford Encyclopedia entry on the philosophy of education to the reference list."
+    "summary": "Add the Stanford Encyclopedia entry on the philosophy of education to the reference list.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111334,7 +111364,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link Oscillation from Related — the temporal pattern a sound wave carries."
+    "summary": "Link Oscillation from Related — the temporal pattern a sound wave carries.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111358,7 +111390,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the wave references to the notes that remain — Wave Equation, Oscillation, Propagation of Sound — after the wave corpus was consolidated into nature/wave/wave.md."
+    "summary": "Retarget the wave references to the notes that remain — Wave Equation, Oscillation, Propagation of Sound — after the wave corpus was consolidated into nature/wave/wave.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111458,7 +111492,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link Oscillation from the references: the natural case whose harmonics the discipline decomposes."
+    "summary": "Link Oscillation from the references: the natural case whose harmonics the discipline decomposes.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111468,12 +111504,16 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "New natural note: oscillation typed as `Phenomenon` — a regularity predicated over a trajectory that repeatedly returns toward equilibrium — with the second readings (property, bound process) stated as prose, a 26-row decomposition over the predicated states, the cycle, its quantities, the variable aspects, the environment and the conditions that select the regime, a table of the eight kinds ordered by what sustains the repetition, and QA separating oscillation from wave, from a transformation of matter, from rotation, and from the system that oscillates."
+    "summary": "New natural note: oscillation typed as `Phenomenon` — a regularity predicated over a trajectory that repeatedly returns toward equilibrium — with the second readings (property, bound process) stated as prose, a 26-row decomposition over the predicated states, the cycle, its quantities, the variable aspects, the environment and the conditions that select the regime, a table of the eight kinds ordered by what sustains the repetition, and QA separating oscillation from wave, from a transformation of matter, from rotation, and from the system that oscillates.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    },
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the note from the quantities it uses and from the wave and sound notes that share its segment."
+    "summary": "Link the note from the quantities it uses and from the wave and sound notes that share its segment.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111483,7 +111523,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/transformation-of-matter.md and retitle Matter Change: the note is about matter changing, and the `change` shelf word belongs to the natural scope rather than to a single transformation."
+    "summary": "Move from nature/transformation-of-matter.md and retitle Matter Change: the note is about matter changing, and the `change` shelf word belongs to the natural scope rather than to a single transformation.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111493,7 +111534,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from personal/an-essay-on-intellectual-development.md and retitle An Essay on Self Education, keeping “intellectual development, self cultivation” as the alternative names."
+    "summary": "Move from personal/an-essay-on-intellectual-development.md and retitle An Essay on Self Education, keeping “intellectual development, self cultivation” as the alternative names.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111503,12 +111545,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/facet/readme.md, which was the directory master; the facet shelf takes its concept note at `facet.md`, the pattern the other shelf masters follow."
+    "summary": "Move from social/facet/readme.md, which was the directory master; the facet shelf takes its concept note at `facet.md`, the pattern the other shelf masters follow.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    },
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Write the note out as the shelf master: the per-facet notes are where an analytical dimension is grounded on its own, while the facet concept and the authoritative catalogue stay in social/framework/facet.md."
+    "summary": "Write the note out as the shelf master: the per-facet notes are where an analytical dimension is grounded on its own, while the facet concept and the authoritative catalogue stay in social/framework/facet.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111518,7 +111563,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: the directory master moved to social/facet/facet.md."
+    "summary": "Removed: the directory master moved to social/facet/facet.md.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111528,7 +111574,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link Oscillation — the pattern this property counts."
+    "summary": "Link Oscillation — the pattern this property counts.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111538,7 +111586,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Add a Related list naming Oscillation and Frequency, so the weaker property points at the pattern it describes."
+    "summary": "Add a Related list naming Oscillation and Frequency, so the weaker property points at the pattern it describes.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  },
@@ -111548,7 +111598,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Transformation of Matter link to nature/matter/change.md, where the note now lives."
+    "summary": "Retarget the Transformation of Matter link to nature/matter/change.md, where the note now lives.",
+    "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
+    "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
    }
   ]
  }
