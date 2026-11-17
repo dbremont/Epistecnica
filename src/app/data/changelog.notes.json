@@ -92881,6 +92881,11 @@
     "kind": "refactor",
     "summary": "Move to technica/computation/telecom/ and retarget its corpus links.",
     "commit": "c02e366ffa872a0867abd55650808bf1d00e3b15"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Merged into wireless-communication-system.md and deleted. The stub held the definition (electromagnetic waves, modulation) and a set of Notion links; all of it is now in the system note, where transmission is a stage of the chain rather than a note of its own. The inbound link in wire-data-transmission.md now points at the system note."
    }
   ]
  },
@@ -122431,6 +122436,16 @@
     "kind": "create",
     "summary": "New persona: Antonio Meucci, kept honest about the claim. Four columns of position — what the record supports and what it does not: that he transmitted speech is documentary rather than tested; that he was before Bell in date is not before him in law, since the 1871 caveat lapsed in 1874 for want of the fee; that the system failed him is true but the system was a fee-and-form regime, not a secret; and that the 2002 House resolution honoured his contribution without declaring him the inventor, whatever the retellings say. The sequence runs Havana, Staten Island, the caveat, its lapse, Bell's 1876 patent, and H.Res. 269 in 2002. The note exists for three reasons rather than the grievance: priority is procedural — a patent system rewards the maintenance of a claim, not the invention; symbolic correction changes memory and not the legal record; and the myth has a national function, saying more about the tellers than about the 1870s. Links the telecom technical decomposition, which is the corrective to reading an invention as a single moment.",
     "commit": "9bdecf7fb5fa8d9c86e1a669423bdb8e8d216ff6"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/telecom/wireless-communication-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note on the wireless communication system as a technical element: the full chain from source to sink, plus the two coordination layers a cable does not need — duplexing and medium access — on the argument that the system is defined by the absence of a guided medium, and that every decision in it answers that absence. Architecture table with the wireless-specific problem at each stage, then transmission (electromagnetic waves, modulation, and the three physical resources plus Shannon's limit). The historical developments table is the note's centre and now carries the patents: Marconi UK 12039 of 1896 as the first radio patent, Tesla 1900, de Forest's audion 1907, the transistor patents of 1950, Kilby and Noyce on the integrated circuit in 1959, Cooper's radio telephone system patent of 1975. The table is read in three waves — physics and patent, then components, then systems — with the observation that each wave was financed by a claim to exclusivity and that the priority disputes are as much part of the history as the circuits. A generations table (1G to 5G by multiple access) and a relation table close it."
    }
   ]
  }

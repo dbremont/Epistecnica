@@ -4,7 +4,7 @@ tags: [note, wire-data-transmission]
 
 # Wire Data Transmission
 
-- [Ethernet](/view.html?p=notes/technica/computation/telecom/ethernet.md), [Twisted Pair Cable](/view.html?p=notes/technica/computation/telecom/twisted-pair-cable.md), [Wireless Data Transmission](/view.html?p=notes/technica/computation/telecom/wireless-data-transmission.md)
+- [Ethernet](/view.html?p=notes/technica/computation/telecom/ethernet.md), [Twisted Pair Cable](/view.html?p=notes/technica/computation/telecom/twisted-pair-cable.md), [Wireless Communication System](/view.html?p=notes/technica/computation/telecom/wireless-communication-system.md)
 
 > Signal: In [electronics](https://en.wikipedia.org/wiki/Electronics) and [telecommunications](https://en.wikipedia.org/wiki/Telecommunications), *signal* refers to any time-varying [voltage](https://en.wikipedia.org/wiki/Voltage), [current](https://en.wikipedia.org/wiki/Electric_current), or [electromagnetic wave](https://en.wikipedia.org/wiki/Electromagnetic_wave) that carries information.
 > 
