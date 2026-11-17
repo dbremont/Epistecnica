@@ -121360,5 +121360,15 @@
     "commit": "952f16610da933a60586ca53bf1cadc18baa1118"
    }
   ]
+ },
+ {
+  "file_path": "epistemica/mathematical/method/representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Function Representation: a new section giving the representation table — Taylor, Fourier, Laurent, power series, Chebyshev, wavelet — with its building blocks, and a subsection on the Taylor representation. The subsection states the conversion the representation performs (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence and operations on the function become operations on the sequence), links it to Function and Map, to the Taylor series page, and to Brook Taylor; and separates the three consequences: it is local and bounded by the nearest singularity, the series and its truncation are different objects, and differentiation, integration and composition are algebraic on the coefficients, which is why the representation belongs here and not under approximation."
+   }
+  ]
  }
 ]

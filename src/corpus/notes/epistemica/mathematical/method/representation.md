@@ -104,6 +104,35 @@ tags: [note, mathematics, representation, technique]
 |  | **Gamma Incomplete (γ, Γ)** | Partial gamma integral | Probability, statistics, special integrals |
 |  | **Barnes G-function** | Multivariate generalization of gamma | Combinatorics, number theory, determinants |
 
+## Function Representation
+
+> A number is represented by its digits; a **function** is represented by its coefficients. To represent a function is to choose a set of building blocks and write the function as a combination of them, so that the coefficients — not the pointwise values — carry the information, and the operations of the calculus become operations on coefficients.
+
+> The choice of building blocks **is** the representation. The same function has a Taylor representation near a point, a Fourier representation over a period, a Chebyshev representation on an interval: these are not competing approximations of one object but different bases on the same object, and what each one makes easy is fixed by what its blocks are.
+
+| Representation | Building blocks |
+| --- | --- |
+| **Taylor representation** | Powers of $x-a$ |
+| [Fourier representation](/view.html?p=notes/epistemica/signal/fourier-series.md) | Sines and cosines |
+| Laurent representation | Positive and negative integer powers |
+| [Power series representation](/view.html?p=notes/epistemica/mathematical/serie.md) | Integer powers of a variable |
+| [Chebyshev representation](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) | Chebyshev polynomials |
+| [Wavelet representation](/view.html?p=notes/epistemica/signal/wavelet.md) | Wavelets |
+
+### Taylor Representation
+
+> The **Taylor representation** of a [function](/view.html?p=notes/epistemica/mathematical/mapping/function.md) — or of a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between two spaces, where the same expansion is taken in a Banach space — writes it as a combination of the powers of $x-a$, with the coefficients fixed by the derivatives at the point $a$:
+
+$$f(x)=\sum_{k\ge 0}\frac{f^{(k)}(a)}{k!}\,(x-a)^k$$
+
+> Its blocks are the powers of $x-a$ and its coefficients are the derivatives. That is the whole conversion: the **local behaviour of $f$ at one point** becomes a sequence of numbers, and every operation on the function becomes an operation on that sequence. Published by [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1717), it is the representation behind every linearisation in this corpus — see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
+
+Three things follow, and they are what the representation is for:
+
+- **Local, not global.** The series describes $f$ on a neighbourhood of $a$ only, and converges on a disc whose radius is the distance to the nearest singularity. A Taylor representation is therefore a statement about a point: it says what the function is doing there, and nothing about what it does a domain away.
+- **The representation and its truncation are different objects.** The infinite series is the representation; the finite Taylor polynomial is an *approximation* in that representation, and the two are so often conflated that the polynomial is called the series. What is true of one is not always true of the other — the series may converge where no truncation is accurate, and a truncation may be useful outside the radius of convergence.
+- **Operations become algebraic.** Differentiation multiplies the $k$-th coefficient by $k$ and shifts the index; integration divides and shifts it the other way; composition, inversion and solution of equations become the algebra of formal power series in $R[[x]]$. This is why the representation belongs under [Representation](/view.html?p=notes/epistemica/mathematical/method/representation.md) and not under approximation: its power is not that it is accurate near $a$, but that it turns a differential problem into a sequence problem.
+
 # Re Representation
 
 > How can epistemic artifacts can be re-representation?
