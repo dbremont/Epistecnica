@@ -7528,7 +7528,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Links: the Taylor attribution in the results table now points at the Brook Taylor persona."
+    "summary": "Links: the Taylor attribution in the results table now points at the Brook Taylor persona.",
+    "commit": "952f16610da933a60586ca53bf1cadc18baa1118",
+    "before": "a2c727b0aabedd13c1143da11d7893e127270cce"
    }
   ]
  },
@@ -121354,7 +121356,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New persona: Brook Taylor (1685-1731), English mathematician and barrister — LL.B. 1709 and LL.D. 1714 at St John's, mathematics under Machin and Keill, the centre of oscillation unpublished until 1714 and contested by Johann Bernoulli, FRS 1712 and on the committee judging Newton against Leibniz, Secretary of the Royal Society 1714-1718 (the office in which both books were written). The note records the date problem that matters to citation: the Methodus incrementorum is dated 1717 on its title page while parts of the secondary literature catalogue it as 1715, and the corpus keeps 1717. Its argument is the obscurity: the 1911 Britannica diagnosis that his demonstrations lacked clarity, with the theorem waiting for Lagrange in 1772 and Linear Perspective waiting for Kirby and Fournier to annotate it."
+    "summary": "New persona: Brook Taylor (1685-1731), English mathematician and barrister — LL.B. 1709 and LL.D. 1714 at St John's, mathematics under Machin and Keill, the centre of oscillation unpublished until 1714 and contested by Johann Bernoulli, FRS 1712 and on the committee judging Newton against Leibniz, Secretary of the Royal Society 1714-1718 (the office in which both books were written). The note records the date problem that matters to citation: the Methodus incrementorum is dated 1717 on its title page while parts of the secondary literature catalogue it as 1715, and the corpus keeps 1717. Its argument is the obscurity: the 1911 Britannica diagnosis that his demonstrations lacked clarity, with the theorem waiting for Lagrange in 1772 and Linear Perspective waiting for Kirby and Fournier to annotate it.",
+    "commit": "952f16610da933a60586ca53bf1cadc18baa1118"
    }
   ]
  }
