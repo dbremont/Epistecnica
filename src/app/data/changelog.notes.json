@@ -60887,6 +60887,11 @@
     "summary": "The board-composition and selection block is replaced by a placeholder question saying where it went and why: the board's composition and the selection of its members and executive are the board's own subject, and this note keeps the public-organization reading — statutory boards, arm's-length forms, and the board as a component.",
     "commit": "52cc6e872f87e3d5d43c90ea3ad750372c3f7caa",
     "before": "bc173d3106826c89ffae5dfd676fd24a2e61be6b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA: a sixteen-row table of leadership selection models — who selects the top leader, by what mechanism, in which organization form — placed after the comparative question on autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms, because it is the same subject seen from the appointment side. The table is the mapping rather than the method: what each model concedes about where a form's autonomy really sits (a statutory agency whose head the minister appoints is autonomous in its operations and not in its tenure). The Board placeholder is rewritten accordingly — Board keeps how an appointment should be run, this note keeps which model a form uses."
    }
   ]
  },

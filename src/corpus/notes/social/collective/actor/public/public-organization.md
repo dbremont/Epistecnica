@@ -80,11 +80,42 @@ It is the government subtype of Organization: what individuates it is not its in
 
 > Along the five dimensions above: the **Autonomous Statutory Public Agency** draws autonomy from its own statute and legal personality; the **(Japan) Incorporated Administrative Agency** trades incorporation for bounded autonomy inside minister-set objectives; the **UK Executive Agency** trades a framework document for operational autonomy without separate legal personality; the **Swedish Government Agency** is constitutionally insulated from individual ministerial command while remaining under collective government direction; the **Crown Corporation** sits at the commercial pole — Crown-owned, board-governed, revenue-funded — bordering the Private Organization reading.
 
-### Where did the board-composition and selection questions go?
+### Which are some mechanisms of organization leadership selection?
 
-> Moved to [Board](/view.html?p=notes/social/collective/actor/board.md), which now carries them: board-composition types, the principles and methods of board-member selection, their integration into a selection system, and the selection of executive leadership — the last because the executive is appointed by the board and the appointment is therefore a board function, not an organization-form question.
+> Who selects the top leader is one of the dimensions on which the forms above differ, and it is the dimension that most visibly separates a ministry from an arm's-length agency, and both from a crown corporation or a research institute: the same autonomy that a statute or a framework document confers is a statement about who may appoint and remove the head.
 
-> This note keeps the *public-organization* reading: the statutory board as an organization, the arm's-length forms and their comparative autonomy, and the board as a component of the organization. What the board is and how its members are chosen is one subject with one home.
+| Leadership selection model | Who selects the top leader? | Typical mechanism | Example |
+| --- | --- | --- | --- |
+| **Direct Political Appointment** | Minister / government | Political appointment | Government agencies |
+| **Cabinet Appointment** | Cabinet / Council of Ministers | Formal government decision | Some European agencies |
+| **Head-of-Government Appointment** | President / Prime Minister | Direct appointment | Some executive agencies |
+| **Ministerial Appointment from Shortlist** | Minister | Expert search + ministerial decision | Many specialized agencies |
+| **Board Appointment** | Board of Directors | Board selects CEO | State-owned corporations |
+| **Board + Government Approval** | Board proposes; government approves | Two-stage appointment | Some public corporations |
+| **Board Search Committee** | Search committee → Board | Competitive executive search | Research corporations |
+| **Independent Search Committee** | Independent committee | Open international search → appointment | Advanced research institutions |
+| **Competitive Public Recruitment** | Institution / board | Public vacancy + competitive selection | Some public institutions |
+| **Academic/Scientific Peer Selection** | Scientific body / peers | Peer election or selection | Some research institutions |
+| **Membership Election** | Members / association | Election by members | Fraunhofer-type associations |
+| **Foundation Trustee Appointment** | Trustees | Trustees appoint executive | Foundation research institutes |
+| **Shareholder Appointment** | Shareholder(s) | AGM/shareholder decision | State-owned companies |
+| **Dual Appointment** | Government + board | Joint appointment authority | Hybrid public corporations |
+| **Internal Succession** | Existing leadership/board | Promotion from within | Mature organizations |
+| **Mixed Model** | Government + expert search + board | Multi-stage selection | Complex mission-oriented institutions |
+
+> The table is the **mapping**, not the method: it says which selection model is available to which organization form, and what each model concedes about where the form's autonomy really sits. A statutory agency whose head the minister appoints is autonomous in its operations and not in its tenure; a research corporation that searches internationally and lets the board decide has bought distance at the price of a slower appointment.
+
+> How an appointment should actually be run — composition types, the principles and methods of board-member selection, their integration into one selection system — is worked in [Board](/view.html?p=notes/social/collective/actor/board.md). What a form is, and who appoints its head, belongs to this note.
+
+### How are the members of the Board appointed and controlled?
+
+> Board composition, the principles and methods of board-member selection, their integration into a selection system, and the selection of executive leadership are worked in [Board](/view.html?p=notes/social/collective/actor/board.md) — the last because the executive is appointed by the board, and the appointment is therefore a board function.
+
+> This note keeps the *comparative* reading: the statutory board as an organization, the arm's-length forms and their comparative autonomy, the board as a component of the organization, and the selection model each form uses (the table above). What the board is and how its members should be chosen is one subject with one home; which model a given form uses is an organization-form fact and stays here.
+
+### How should we conceptualize the scope of public organizations? Where should their boundaries lie, and what degree of organizational modularity should they exhibit?
+
+> ...
 
 ## References
 
