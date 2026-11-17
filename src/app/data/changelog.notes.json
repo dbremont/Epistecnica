@@ -5917,7 +5917,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The numerical Finite Differences subsection now states that its three quotients are Delta divided by the step, and links the finite-difference calculus, which is a subject of its own."
+    "summary": "The numerical Finite Differences subsection now states that its three quotients are Delta divided by the step, and links the finite-difference calculus, which is a subject of its own.",
+    "commit": "ad23d676a1ca0e33a0765c9def1df8a943611f1c",
+    "before": "20aaa3d587ff40e748b09e3e2b82ed8c215dbe60"
    }
   ]
  },
@@ -5939,7 +5941,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Reference line added: the operator these equations are written in."
+    "summary": "Reference line added: the operator these equations are written in.",
+    "commit": "ad23d676a1ca0e33a0765c9def1df8a943611f1c",
+    "before": "20aaa3d587ff40e748b09e3e2b82ed8c215dbe60"
    }
   ]
  },
@@ -21830,7 +21834,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Reference line added: the operator the method discretises with."
+    "summary": "Reference line added: the operator the method discretises with.",
+    "commit": "ad23d676a1ca0e33a0765c9def1df8a943611f1c",
+    "before": "20aaa3d587ff40e748b09e3e2b82ed8c215dbe60"
    }
   ]
  },
@@ -121576,7 +121582,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note, independent of the derivative: the finite difference as an operator and a calculus of its own. It takes the discrete calculus as primary and the derivative as its limit, and the argument is that this is not stylistic — the difference is defined on every lattice function with no convergence hypothesis, while D = (1/h) ln(1+Delta) is a series in Delta, so the dependency runs the other way. Sections: the three differences and the binomial form of the nth difference; the shift algebra (Delta = E - 1, E = exp(hD)) and the twisted Leibniz rule that carries the discreteness as a correction term; summation as the exact inverse, with no constant of integration, and the falling factorials that lower the index; Newton forward-difference formula as the discrete Taylor theorem, with the Stirling numbers conjugating powers into falling factorials and the umbral calculus as the reason identities transfer; and the uses — numerical differentiation, discretisation, difference equations, telescoping sums, generating functions. Three QA answers, including why the constant of integration is the price of the continuum rather than a feature of inversion. References: Taylor 1717 through LeVeque 2007."
+    "summary": "New note, independent of the derivative: the finite difference as an operator and a calculus of its own. It takes the discrete calculus as primary and the derivative as its limit, and the argument is that this is not stylistic — the difference is defined on every lattice function with no convergence hypothesis, while D = (1/h) ln(1+Delta) is a series in Delta, so the dependency runs the other way. Sections: the three differences and the binomial form of the nth difference; the shift algebra (Delta = E - 1, E = exp(hD)) and the twisted Leibniz rule that carries the discreteness as a correction term; summation as the exact inverse, with no constant of integration, and the falling factorials that lower the index; Newton forward-difference formula as the discrete Taylor theorem, with the Stirling numbers conjugating powers into falling factorials and the umbral calculus as the reason identities transfer; and the uses — numerical differentiation, discretisation, difference equations, telescoping sums, generating functions. Three QA answers, including why the constant of integration is the price of the continuum rather than a feature of inversion. References: Taylor 1717 through LeVeque 2007.",
+    "commit": "ad23d676a1ca0e33a0765c9def1df8a943611f1c"
    }
   ]
  }
