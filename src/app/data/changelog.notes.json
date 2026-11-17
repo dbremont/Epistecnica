@@ -60988,7 +60988,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from social/collective/philosophical-transactions-of-the-royal-society.md: a bound instance does not belong at the genus root, beside collective.md, polity.md and society.md, which are type notes. Filed in a journal/ kind shelf, where the next serial scholarly compound goes."
+    "summary": "Move from social/collective/philosophical-transactions-of-the-royal-society.md: a bound instance does not belong at the genus root, beside collective.md, polity.md and society.md, which are type notes. Filed in a journal/ kind shelf, where the next serial scholarly compound goes.",
+    "commit": "ea64d414a66f7c62daf141d951b7bc811cfe00b0"
    }
   ]
  },
