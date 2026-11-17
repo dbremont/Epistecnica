@@ -34943,7 +34943,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/structure/algebra/spinor.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus."
+    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/structure/algebra/spinor.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus.",
+    "commit": "c1e8cc7d94667baa44403ec56ac2d46efadcbb76"
    }
   ]
  },
@@ -43237,7 +43238,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move back from nature/construction/: the mathematical atlas points at this path, and the atlas is an epistemica store this pass does not touch — so the note returns to the root rather than break `make check`."
+    "summary": "Move back from nature/construction/: the mathematical atlas points at this path, and the atlas is an epistemica store this pass does not touch — so the note returns to the root rather than break `make check`.",
+    "commit": "c1e8cc7d94667baa44403ec56ac2d46efadcbb76"
    }
   ]
  },
@@ -118930,7 +118932,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/geometry/fractal.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus."
+    "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/geometry/fractal.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus.",
+    "commit": "c1e8cc7d94667baa44403ec56ac2d46efadcbb76"
    }
   ]
  }
