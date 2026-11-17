@@ -22871,7 +22871,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the Fast Fourier Transform entry at epistemica/signal/, where the note now lives."
+    "summary": "Point the Fast Fourier Transform entry at epistemica/signal/, where the note now lives.",
+    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
+    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
    }
   ]
  },
@@ -120994,7 +120996,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Fourier-transform and wavelet links into the signal shelf; the two stale paths were the last ones the move left behind."
+    "summary": "Retarget the Fourier-transform and wavelet links into the signal shelf; the two stale paths were the last ones the move left behind.",
+    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
+    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
    }
   ]
  },
@@ -121059,7 +121063,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New persona: the Polish economist who designed the Balcerowicz Plan, the 1990 shock-therapy package that moved Poland from a planned to a market economy, and who later presided over the National Bank of Poland."
+    "summary": "New persona: the Polish economist who designed the Balcerowicz Plan, the 1990 shock-therapy package that moved Poland from a planned to a market economy, and who later presided over the National Bank of Poland.",
+    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
+    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
    }
   ]
  },
@@ -121069,7 +121075,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note."
+    "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note.",
+    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
+    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
    }
   ]
  }
