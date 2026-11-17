@@ -8401,6 +8401,11 @@
     "date": "2026-11-12",
     "kind": "refactor",
     "summary": "Rebuild the References: four dangling Notion exports resolved to their corpus notes (Inner Product Space, Euclidean Geometry, Trigonometry, Wavelet), the Complex Numbers and solid-angle sources added, grouped into Sources and Corpus with every link resolving."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -9816,6 +9821,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -20959,6 +20969,16 @@
     "kind": "refactor",
     "summary": "tuck the scope note into its own folder",
     "commit": "aa9dc98747defe04f40cf2c2bfa6e8377a8c032d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the contents section the scope needs: the nine ideas it now carries — Fourier transform and series, the FFT and the Fourier toolkit, the wavelet, the integral-transform family, convolution as the filter operation, and the Wiener and Savitzky–Golay filters — each with one line on its role in signal processing."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -22832,6 +22852,11 @@
     "summary": "Read the scope in four parts with the named theories, laws and models filed here rather than in the construction scope: relabel the bullet, move seven links to their local paths, and add the input–output, branching and state-space notes.",
     "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a",
     "before": "761cdc6638b7a548535e343ecf07a0d354a679df"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -109710,6 +109735,11 @@
     "kind": "feat",
     "summary": "Open the distribution shelf with the master note: the continuous linear functional on test functions, its notation, rules, kinds and predicates, and the three ambiguities (probability distribution, generalized function, measure).",
     "commit": "228f4f441b71e9126a2ede670358c463277ff162"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -109732,6 +109762,11 @@
     "kind": "feat",
     "summary": "The growth-bounded species: Schwartz space and its dual, the Fourier transform as an isomorphism, the inclusion chain, and the objects temperedness excludes.",
     "commit": "228f4f441b71e9126a2ede670358c463277ff162"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -109749,6 +109784,11 @@
     "kind": "feat",
     "summary": "Grow the stub into a note: the evaluation functional, the measure/function/distribution readings, the scaling and convolution rules, and the delta-sequence distinction.",
     "commit": "228f4f441b71e9126a2ede670358c463277ff162"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -109803,6 +109843,11 @@
     "kind": "feat",
     "summary": "Add the mathematical scope readme: the essence table of the mathematical areas and the fundamental families of mathematical practice.",
     "commit": "46808c904c7fa07af0beb8acf88d5b5856072694"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -112531,6 +112576,11 @@
     "summary": "Link Oscillation from the references: the natural case whose harmonics the discipline decomposes.",
     "commit": "cf270cae66506d0fac2400eda17196c6bbff40c9",
     "before": "cf270cae66506d0fac2400eda17196c6bbff40c9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -120819,6 +120869,11 @@
     "summary": "New branch master for transport: the transfer problem framed by its four slots — source, target, carrier, cost or constraint — with a table of what is carried (mass, flow, density, probability, information, indivisible units), a table of the branches (optimal transport, network flow, transport equations, Markov kernels, assignment, channels), and QA on why a flow is not a transport, why the cost is what makes transport optimal, why the assignment problem is its discrete case, and why the physical transport equations stay in the natural corpus.",
     "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
     "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live."
    }
   ]
  },
@@ -120864,6 +120919,96 @@
     "kind": "move",
     "summary": "Move from nature/result/chemical-representation.md: the note is a representational system for substances, not a result about nature; it sits with the chemical substances it represents.",
     "commit": "4f80310d68f134fadc1dbe3d7c26153e3487044c"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/convolution-operator.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/mapping/convolution-operator.md: the operation behind every linear filter."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/fast-fourier-transform-fft.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/fast-fourier-transform-fft.md: the algorithm that made spectral processing practical."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/fourier-decomposition-toolkit.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/fourier-decomposition-toolkit.md: the working collection of Fourier tools."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/fourier-series.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/mapping/fourier-series.md: the periodic transform that reads a signal as its harmonics."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/fourier-transform.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/fourier-transform.md: the map from signal to spectrum."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/integral-transform.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/mapping/integral-transform.md: the transform family the Fourier, Laplace and Hankel transforms belong to, used to move a signal between domains."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/savitzkygolay-sg-filter.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/filter/savitzkygolay-sg-filter.md: local polynomial smoothing that keeps the shape of peaks."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/wavelet.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/mathematical/mapping/wavelet.md: a basis built for localisation in time and frequency — a signal-processing idea, not a general mapping."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/signal/wiener-filter.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from epistemica/observational/filter/wiener-filter.md: the optimal linear filter for a known signal and noise spectrum."
    }
   ]
  }

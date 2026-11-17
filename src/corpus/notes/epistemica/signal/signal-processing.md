@@ -140,6 +140,22 @@ List of examples:
 
 Signal Processing: Conceptual Model
 
+## The ideas this scope now carries
+
+> The mathematical ideas signal processing is built from live in this directory, not scattered between `mathematical/mapping/` and `singular/`: the transforms, the basis that localises, the operation that filters, and the two practical filters.
+
+| Note | What it is in signal processing |
+| --- | --- |
+| [Fourier Transform](/view.html?p=notes/epistemica/signal/fourier-transform.md) | The map from a signal to its spectrum — the operation every filter is designed in |
+| [Fourier Series](/view.html?p=notes/epistemica/signal/fourier-series.md) | The periodic case: a signal as a list of harmonics |
+| [Fast Fourier Transform](/view.html?p=notes/epistemica/signal/fast-fourier-transform-fft.md) | The algorithm that made spectral processing practical |
+| [Fourier Decomposition Toolkit](/view.html?p=notes/epistemica/signal/fourier-decomposition-toolkit.md) | The working collection of Fourier tools |
+| [Wavelet](/view.html?p=notes/epistemica/signal/wavelet.md) | The basis that trades frequency resolution for time localisation |
+| [Integral Transform](/view.html?p=notes/epistemica/signal/integral-transform.md) | The general family the Fourier, Laplace and Hankel transforms belong to |
+| [Convolution Operator](/view.html?p=notes/epistemica/signal/convolution-operator.md) | Filtering, stated as an operation: the output is the signal convolved with the impulse response |
+| [Wiener Filter](/view.html?p=notes/epistemica/signal/wiener-filter.md) | The optimal linear filter for a known signal and noise spectrum |
+| [Savitzky–Golay Filter](/view.html?p=notes/epistemica/signal/savitzkygolay-sg-filter.md) | Local polynomial smoothing that keeps the shape of peaks |
+
 ## References
 
 - …

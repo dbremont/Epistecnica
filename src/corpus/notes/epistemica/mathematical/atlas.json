@@ -1654,15 +1654,15 @@
         },
         {
           "label": "Fourier Series",
-          "path": "epistemica/mathematical/mapping/fourier-series.md"
+          "path": "epistemica/signal/fourier-series.md"
         },
         {
           "label": "Wavelet",
-          "path": "epistemica/mathematical/mapping/wavelet.md"
+          "path": "epistemica/signal/wavelet.md"
         },
         {
           "label": "Integral Transform",
-          "path": "epistemica/mathematical/mapping/integral-transform.md"
+          "path": "epistemica/signal/integral-transform.md"
         }
       ],
       "related": [

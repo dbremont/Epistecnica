@@ -128,7 +128,7 @@ qa:
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) · [Dirac Delta](/view.html?p=notes/epistemica/mathematical/mapping/distribution/dirac-delta-function.md)
-- [Fourier Series](/view.html?p=notes/epistemica/mathematical/mapping/fourier-series.md) · [Integral Transform](/view.html?p=notes/epistemica/mathematical/mapping/integral-transform.md) · [Function Space](/view.html?p=notes/epistemica/mathematical/space/function-space.md) · [Sobolev Space](/view.html?p=notes/epistemica/mathematical/space/sobolev-space.md) · [Dual Vector Space](/view.html?p=notes/epistemica/mathematical/space/dual-vector-space.md)
+- [Fourier Series](/view.html?p=notes/epistemica/signal/fourier-series.md) · [Integral Transform](/view.html?p=notes/epistemica/signal/integral-transform.md) · [Function Space](/view.html?p=notes/epistemica/mathematical/space/function-space.md) · [Sobolev Space](/view.html?p=notes/epistemica/mathematical/space/sobolev-space.md) · [Dual Vector Space](/view.html?p=notes/epistemica/mathematical/space/dual-vector-space.md)
 - [Distribution (mathematical analysis)](https://en.wikipedia.org/wiki/Distribution_(mathematical_analysis))
 - [Schwartz space](https://en.wikipedia.org/wiki/Schwartz_space)
 - Schwartz, L. (1950–1951). *Théorie des distributions* (Vols. I–II). Hermann.

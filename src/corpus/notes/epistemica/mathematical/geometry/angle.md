@@ -70,4 +70,4 @@ tags: [note, mathematics, geometry]
 - [Symmetry](/view.html?p=notes/epistemica/mathematical/symmetry.md) — the axes and rotations that preserve the angle
 - [Inner Product Space](/view.html?p=notes/epistemica/mathematical/space/inner-product-space.md) — the angle between vectors
 - [Complex Numbers](/view.html?p=notes/epistemica/mathematical/complex/complex-numbers-c.md) — the angle as the argument of a complex number
-- [Wavelet](/view.html?p=notes/epistemica/mathematical/mapping/wavelet.md) — the phase reading of an angle in a transform
+- [Wavelet](/view.html?p=notes/epistemica/signal/wavelet.md) — the phase reading of an angle in a transform
