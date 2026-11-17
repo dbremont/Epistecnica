@@ -92885,7 +92885,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Merged into wireless-communication-system.md and deleted. The stub held the definition (electromagnetic waves, modulation) and a set of Notion links; all of it is now in the system note, where transmission is a stage of the chain rather than a note of its own. The inbound link in wire-data-transmission.md now points at the system note."
+    "summary": "Merged into wireless-communication-system.md and deleted. The stub held the definition (electromagnetic waves, modulation) and a set of Notion links; all of it is now in the system note, where transmission is a stage of the chain rather than a note of its own. The inbound link in wire-data-transmission.md now points at the system note.",
+    "commit": "fde0264e9dc4294af9e81ee3090440277a917d15",
+    "before": "0453f1065fac0bd272397675cc973ca34ef41955"
    }
   ]
  },
@@ -122445,7 +122447,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note on the wireless communication system as a technical element: the full chain from source to sink, plus the two coordination layers a cable does not need — duplexing and medium access — on the argument that the system is defined by the absence of a guided medium, and that every decision in it answers that absence. Architecture table with the wireless-specific problem at each stage, then transmission (electromagnetic waves, modulation, and the three physical resources plus Shannon's limit). The historical developments table is the note's centre and now carries the patents: Marconi UK 12039 of 1896 as the first radio patent, Tesla 1900, de Forest's audion 1907, the transistor patents of 1950, Kilby and Noyce on the integrated circuit in 1959, Cooper's radio telephone system patent of 1975. The table is read in three waves — physics and patent, then components, then systems — with the observation that each wave was financed by a claim to exclusivity and that the priority disputes are as much part of the history as the circuits. A generations table (1G to 5G by multiple access) and a relation table close it."
+    "summary": "New note on the wireless communication system as a technical element: the full chain from source to sink, plus the two coordination layers a cable does not need — duplexing and medium access — on the argument that the system is defined by the absence of a guided medium, and that every decision in it answers that absence. Architecture table with the wireless-specific problem at each stage, then transmission (electromagnetic waves, modulation, and the three physical resources plus Shannon's limit). The historical developments table is the note's centre and now carries the patents: Marconi UK 12039 of 1896 as the first radio patent, Tesla 1900, de Forest's audion 1907, the transistor patents of 1950, Kilby and Noyce on the integrated circuit in 1959, Cooper's radio telephone system patent of 1975. The table is read in three waves — physics and patent, then components, then systems — with the observation that each wave was financed by a claim to exclusivity and that the priority disputes are as much part of the history as the circuits. A generations table (1G to 5G by multiple access) and a relation table close it.",
+    "commit": "fde0264e9dc4294af9e81ee3090440277a917d15"
    }
   ]
  }
