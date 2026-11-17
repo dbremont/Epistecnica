@@ -37667,7 +37667,9 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New book entry: Parzen's 1962 Holden-Day text on stochastic processes, with the Internet Archive scan of the Digital Library of India copy and the note that cites it."
+    "summary": "New book entry: Parzen's 1962 Holden-Day text on stochastic processes, with the Internet Archive scan of the Digital Library of India copy and the note that cites it.",
+    "commit": "7b11565e995da012fc7a2562910721b707afc3a9",
+    "before": "7b11565e995da012fc7a2562910721b707afc3a9"
    }
   ]
  }

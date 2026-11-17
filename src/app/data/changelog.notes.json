@@ -19501,7 +19501,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Point the Parzen citation at its new library entry instead of the raw archive.org URL."
+    "summary": "Point the Parzen citation at its new library entry instead of the raw archive.org URL.",
+    "commit": "7b11565e995da012fc7a2562910721b707afc3a9",
+    "before": "7b11565e995da012fc7a2562910721b707afc3a9"
    }
   ]
  },
