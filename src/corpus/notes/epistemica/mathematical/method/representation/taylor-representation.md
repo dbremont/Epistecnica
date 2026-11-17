@@ -14,7 +14,7 @@ $$f(x)=\sum_{k\ge 0}\frac{f^{(k)}(a)}{k!}\,(x-a)^k
 \qquad\text{with}\qquad
 f^{(k)}(a)=\left.\frac{d^k f}{dx^k}\right|_{x=a}$$
 
-> The same expansion is taken for a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between spaces where a derivative and a power make sense — in a Banach space, in several variables, and in the formal setting of a polynomial ring. Published by [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1717); see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
+> The same expansion is taken for a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between spaces where a derivative and a power make sense — in a Banach space, in several variables, and in the formal setting of a polynomial ring. Published by [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1715a; title page 1717); see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
 
 ## 1. The representation
 
@@ -66,7 +66,7 @@ The Taylor representation is the linearisation used everywhere in these notes: [
 
 ## References
 
-- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. — the theorem stated, in the book that also created the calculus of finite differences
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the theorem stated, in the book that also created the calculus of finite differences
 - Rudin, W. (1976). *Principles of mathematical analysis* (3rd ed.). McGraw-Hill. — Taylor's theorem with remainder, in the form the truncation argument uses
 - Feigenbaum, L. (1985). Brook Taylor and the method of increments. *Archive for History of Exact Sciences*, 34(1–2), 1–140. https://doi.org/10.1007/BF00329903 — the reception: why the theorem waited until Lagrange for its importance to be recognised
 - Krantz, S. G., & Parks, H. R. (2002). *A primer of real analytic functions* (2nd ed.). Birkhäuser. — the germ, and the smooth-but-not-analytic counterexamples

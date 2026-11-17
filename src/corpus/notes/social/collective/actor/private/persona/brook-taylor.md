@@ -3,7 +3,7 @@ type: person
 tags: [note, actor, person, mathematics, analysis, perspective]
 qa:
  - Was the obscurity a defect of the man or of the genre — a theorem that waited fifty-five years for Lagrange to see what it was for?
- - The *Methodus* is dated 1717 on its title page and catalogued as 1715 in places: which is the printing, which the publication, and which one should a citation use?
+ - The *Methodus* is cited as 1715a and its title page reads 1717: which is the printing, which the publication, and which one should a citation use?
  - He sat on the committee judging Newton against Leibniz in 1712 and served as the Society's secretary while writing the *Methodus*: did the verdict shape what English analysis could afterwards read?
 ---
 
@@ -21,7 +21,7 @@ From 1715 his interests turned philosophical and theological: he corresponded wi
 
 ## Work
 
-**The method of increments.** *Methodus Incrementorum Directa et Inversa* (London: William Innys) is dated **1717** on its title page and is still catalogued as 1715 in some places — a discrepancy that runs through the secondary literature, and the reason the citations in this corpus use 1717. The book created the calculus of finite differences as a branch of its own, and it contains the theorem that a function is determined by its value and its successive derivatives at a point. Taylor used the method on the vibrating string and gave the first satisfactory treatment of astronomical refraction. The theorem's importance went unrecognised for half a century: it was Lagrange, in 1772, who called it the main foundation of the differential calculus, and the name *Taylor series* is later still.
+**The method of increments.** *Methodus Incrementorum Directa et Inversa* (London: William Innys) is cited as **1715a** — the *a* distinguishing it from *Linear Perspective* of the same year, *1715b* — while its title page reads **MDCCXVII, 1717**. Both dates are in circulation; the corpus uses the bibliographic 1715a and records the title-page date here. The book created the calculus of finite differences as a branch of its own, and it contains the theorem that a function is determined by its value and its successive derivatives at a point. Taylor used the method on the vibrating string and gave the first satisfactory treatment of astronomical refraction. The theorem's importance went unrecognised for half a century: it was Lagrange, in 1772, who called it the main foundation of the differential calculus, and the name *Taylor series* is later still.
 
 **Perspective.** *Linear Perspective: Or, a New Method of Representing Justly All Manner of Objects as They Appear to the Eye in All Situations* (London: R. Knaplock, 1715) put the practice of perspective painters into a mathematical form, with the vanishing point as a theorem rather than a rule of thumb. It was brief and compressed to the point of obscurity, and needed explaining by Joshua Kirby (1754) and Daniel Fournier (1761); Taylor reissued it as *New Principles of Linear Perspective* in 1719, and John Colson revised it in 1749.
 
@@ -37,8 +37,8 @@ The 1911 *Encyclopædia Britannica* says of him that a lack of clarity affected 
 - https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/
 - Feigenbaum, L. (1985). Brook Taylor and the method of increments. *Archive for History of Exact Sciences*, 34(1–2), 1–140. https://doi.org/10.1007/BF00329903
 - Andersen, K. (1992). *Brook Taylor's work on linear perspective*. Springer.
-- Taylor, B. (1715). *Linear perspective: Or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock.
-- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys.
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the method of increments, and the theorem
+- Taylor, B. (1715b). *Linear perspective: Or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock.
 - [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) — Taylor's theorem in the results table, and the finite Taylor expansion
 - [Integral Operator](/view.html?p=notes/epistemica/mathematical/change/integral-operator.md) — the discrete inverse: the sum as the inverse of the difference, which is what the *Methodus* names
 - [Historical Scientific Literature Review](/view.html?p=notes/unclassified/a-guide-to-historical-scientific-literature.md) — where the works are catalogued

@@ -6229,6 +6229,11 @@
     "summary": "References: the Courant-Hilbert entry now covers both volumes and links the library record, with the spectral volume named as the operator reading the note takes.",
     "commit": "a65819e841645ee0ad9cc6bcd16fadfb9b6f0a53",
     "before": "b2ba73f670ec6e8617da690700c0f810b04213a4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The two Taylor entries are reordered to 1715a (Methodus) and 1715b (Linear perspective), with the Methodus linked to its library record."
    }
   ]
  },
@@ -7557,6 +7562,11 @@
     "summary": "Links: the Taylor attribution in the results table now points at the Brook Taylor persona.",
     "commit": "952f16610da933a60586ca53bf1cadc18baa1118",
     "before": "a2c727b0aabedd13c1143da11d7893e127270cce"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The Taylor’s-theorem entry and the results-table attribution now read 1715a, with the title-page date noted, and link the library record."
    }
   ]
  },
@@ -121532,6 +121542,11 @@
     "kind": "create",
     "summary": "New persona: Brook Taylor (1685-1731), English mathematician and barrister — LL.B. 1709 and LL.D. 1714 at St John's, mathematics under Machin and Keill, the centre of oscillation unpublished until 1714 and contested by Johann Bernoulli, FRS 1712 and on the committee judging Newton against Leibniz, Secretary of the Royal Society 1714-1718 (the office in which both books were written). The note records the date problem that matters to citation: the Methodus incrementorum is dated 1717 on its title page while parts of the secondary literature catalogue it as 1715, and the corpus keeps 1717. Its argument is the obscurity: the 1911 Britannica diagnosis that his demonstrations lacked clarity, with the theorem waiting for Lagrange in 1772 and Linear Perspective waiting for Kirby and Fournier to annotate it.",
     "commit": "952f16610da933a60586ca53bf1cadc18baa1118"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References and work section: the Methodus is cited as 1715a, the date sentence now records both the bibliographic year and the title page, and the QA question is rephrased to match."
    }
   ]
  },
@@ -121576,6 +121591,11 @@
     "summary": "The power-series row now points at the power-series note itself rather than the general series note.",
     "commit": "f1081e98e1e0b948eda97999f250fefa4de35f05",
     "before": "9ac834a74ec261708e48efb4b7af710891e98d26"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References and body: the Methodus is cited as 1715a, with the title-page date 1717 noted, and links its library record."
    }
   ]
  },
@@ -121605,6 +121625,11 @@
     "summary": "References: the Milne-Thomson line now links its library entry instead of citing a bare title.",
     "commit": "88132dc1dda517f75927b3c1c471501610dfa018",
     "before": "8bc31193f4ee0ea98a8374fbecf3fbf82431c27e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Methodus entry now cites 1715a and links its library record."
    }
   ]
  },

@@ -177,8 +177,8 @@ Note:
 - Wallis, J. (1656). *Arithmetica infinitorum*. Oxford. — the arithmetisation of indivisibles
 - Barrow, I. (1670). *Lectiones geometricae*. London. — the geometric inverse relation between tangents and areas
 - Leibniz, G. W. (1686). De geometria recondita et analysi indivisibilium atque infinitorum. *Acta Eruditorum*, 5, 292–300. — where the sign $\int$ was published
-- Taylor, B. (1715). *Linear perspective: or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock. [scan](https://archive.org/details/bim_eighteenth-century_linear-perspective-or-_taylor-brook_1715/mode/2up)
-- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. [scan](https://archive.org/details/bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1717) — the method of increments: finite differences, and the sum as their inverse
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the method of increments: finite differences, and the sum as their inverse
+- Taylor, B. (1715b). *Linear perspective: or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock. [scan](https://archive.org/details/bim_eighteenth-century_linear-perspective-or-_taylor-brook_1715/mode/2up)
 - Newton, I. (1736). *The method of fluxions and infinite series* (J. Colson, Trans.). Henry Woodfall. (Original work written 1671)
 - Euler, L. (1748). *Introductio in analysin infinitorum* (Vol. 1). Lausanne. — the integral as a function
 - Cauchy, A.-L. (1823). *Résumé des leçons données à l'École Royale Polytechnique sur le calcul infinitésimal*. Imprimerie Royale. — the definite integral as a limit of sums

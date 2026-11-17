@@ -368,7 +368,7 @@ This is one of the most important reasons why different orthogonal polynomial fa
 | **Irreducibility Criterion** | Establishes conditions under which a polynomial cannot be factored into lower-degree polynomials over a specified coefficient field. Important examples include Eisenstein's criterion. | Gottfried Wilhelm Leibniz and others; Eisenstein, 1850. |
 | **Sturm's Theorem** | Determines the exact number of distinct real roots of a polynomial in a given interval using a sequence of polynomial divisions. | Jacques Charles François Sturm, 1829. |
 | **Polynomial Interpolation Theorem** | Given \(n+1\) distinct points and their corresponding values, there exists a unique polynomial of degree at most \(n\) passing through all those points. | Classical interpolation; developed by Newton and others in the 17th century. |
-| **Taylor's Theorem for Polynomials** | A polynomial can be expressed exactly as a finite Taylor expansion around any point, with coefficients determined by its derivatives. | [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md), 1717. |
+| **Taylor's Theorem for Polynomials** | A polynomial can be expressed exactly as a finite Taylor expansion around any point, with coefficients determined by its derivatives. | [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md), 1715a (title page 1717). |
 | **Newton's Identities** | Relate the power sums of polynomial roots to the coefficients of the polynomial. | Isaac Newton, 17th century. |
 | **Symmetric Polynomial Theorem** | Every symmetric polynomial can be expressed uniquely as a polynomial in the elementary symmetric polynomials. | Developed in 19th-century algebra; foundational work by Cauchy and others. |
 | **Resultant Theorem** | The resultant of two polynomials vanishes if and only if they have a common root in the algebraic closure of their coefficient field. | Étienne Bézout, 1779; the determinant formulation by James Joseph Sylvester, 1853. |
@@ -383,7 +383,7 @@ This is one of the most important reasons why different orthogonal polynomial fa
 - Tschirnhaus, E. W. von (1683). Methodus auferendi omnes terminos intermedios ex data aequatione. *Acta Eruditorum*, 2, 204–207.
 - Newton, I. (1707). *Arithmetica universalis*. Cambridge University Press. — the identities relating power sums of roots to coefficients
 - Bernoulli, J. (1713). *Ars conjectandi*. Thurnisius. — the Bernoulli numbers behind the Bernoulli polynomials
-- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. — the finite Taylor expansion of a polynomial
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the finite Taylor expansion of a polynomial
 - Euler, L. (1755). *Institutiones calculi differentialis*. Imperial Academy of Sciences. — the Eulerian polynomials and the power-sum generating function
 - Bézout, É. (1779). *Théorie générale des équations algébriques*. Ph.-D. Pierres. — the identity $AP + BQ = \gcd(P,Q)$ and the elimination theory behind the resultant
 - Legendre, A.-M. (1785). Recherches sur l'attraction des sphéroïdes homogènes. *Mémoires de mathématique et de physique présentés à l'Académie royale des sciences par divers savants*, 10, 411–434.

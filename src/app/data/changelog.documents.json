@@ -37739,5 +37739,15 @@
     "commit": "88132dc1dda517f75927b3c1c471501610dfa018"
    }
   ]
+ },
+ {
+  "file_path": "books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "Library entry for Taylor's Methodus incrementorum directa et inversa — the book that made the calculus of finite differences a branch of mathematics and gave the theorem that carries his name. The note records what the book does rather than only what it contains: the algebra of increments, then three worked applications (the vibrating string, astronomical refraction, the expansion itself), and the reception gap — the theorem went nearly unremarked until Lagrange called it the main foundation of the differential calculus in 1772. The date is stated once and honestly: the title page reads MDCCXVII (1717), the bibliographies report 1715, hence 1715a, the a distinguishing it from the Linear Perspective of the same year, 1715b. Cited from the finite-difference, Taylor-representation, polynomial and integral-operator notes, and from the persona."
+   }
+  ]
  }
 ]

@@ -106,7 +106,7 @@ so powers and falling factorials are two coordinate systems on the same ring, an
 
 ## References
 
-- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. — the book that made the calculus of finite differences a branch of its own, and gave the theorem that carries its name; see [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md)
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the book that made the calculus of finite differences a branch of its own, and gave the theorem that carries its name; see [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md)
 - Stirling, J. (1730). *Methodus differentialis: Sive tractatus de summatione et interpolatione serierum infinitarum*. Bowyer. — the numbers that convert powers into falling factorials, and with them interpolation into a routine
 - Euler, L. (1755). *Institutiones calculi differentialis*. Imperial Academy of Sciences. — the calculus of differences taught as part of analysis, with the operator identities in their modern form
 - Boole, G. (1860). *A treatise on the calculus of finite differences*. Macmillan. — the standard nineteenth-century treatment: the operator algebra, the inverse-sum method and the symbolic solution of difference equations
