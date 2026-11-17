@@ -66891,12 +66891,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/budgeting.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas."
+    "summary": "Move from technica/budgeting.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas.",
+    "commit": "0e4cea5a7df01ebec273659caf31ad27cfdf0377"
    },
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Drop the Notion relation-count property line left by the export at the top of the body."
+    "summary": "Drop the Notion relation-count property line left by the export at the top of the body.",
+    "commit": "0e4cea5a7df01ebec273659caf31ad27cfdf0377",
+    "before": "0e4cea5a7df01ebec273659caf31ad27cfdf0377"
    }
   ]
  },
@@ -95143,12 +95146,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/organizational.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas."
+    "summary": "Move from technica/organizational.md: the note is general technical material — management, not a computational scope — so it sits with the cto, op and pto scopes instead of loose at the technica root, where it was the last file beside the atlas.",
+    "commit": "0e4cea5a7df01ebec273659caf31ad27cfdf0377"
    },
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Drop the Notion relation-count property line left by the export at the top of the body."
+    "summary": "Drop the Notion relation-count property line left by the export at the top of the body.",
+    "commit": "0e4cea5a7df01ebec273659caf31ad27cfdf0377",
+    "before": "0e4cea5a7df01ebec273659caf31ad27cfdf0377"
    }
   ]
  },
