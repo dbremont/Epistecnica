@@ -37691,7 +37691,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "Library entry for Cavendish's 1766 paper on factitious air: the three series of experiments that isolate and weigh \"inflammable air\" (hydrogen) against common air, with the acid-on-metals generation, the collection over water, and the density measurement. The note records the split between the measurement and its phlogiston reading — Cavendish files the gas under a theory that has no room for an element, and Lavoisier renames a substance whose weight was already established. Cited from the hydrogen note. DOI 10.1098/rstl.1766.0019 (Crossref: volume 56, 141-184); the article-level Internet Archive scan is recorded beside it."
+    "summary": "Library entry for Cavendish's 1766 paper on factitious air: the three series of experiments that isolate and weigh \"inflammable air\" (hydrogen) against common air, with the acid-on-metals generation, the collection over water, and the density measurement. The note records the split between the measurement and its phlogiston reading — Cavendish files the gas under a theory that has no room for an element, and Lavoisier renames a substance whose weight was already established. Cited from the hydrogen note. DOI 10.1098/rstl.1766.0019 (Crossref: volume 56, 141-184); the article-level Internet Archive scan is recorded beside it.",
+    "commit": "da4cd0536ac8b1f3bd149de543887d87e05f6e48"
    }
   ]
  }
