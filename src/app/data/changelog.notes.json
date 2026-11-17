@@ -121785,5 +121785,15 @@
     "before": "1f397d9b2655ccbd45259eb5ca97ce07d693918e"
    }
   ]
+ },
+ {
+  "file_path": "social/action/public/memorial/an-essay-on-the-dominican-scientific-and-technical-documentation-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New memorial essay: the Dominican scientific and technical documentation system. Its thesis is a distinction rather than a complaint — the country has a science system (Ley 139-01 of 2001: SNESCYT, MESCYT, FONDOCYT, with INDOTEC, IDIA and the Academia de Ciencias integrated at Art. 26) and no documentation system, so the memory of research is missing while the laboratory is not. Structured as seven questions, each answered: the problem, stated as five functions of which the country holds only the heritage halves; the scope, drawn by the rule harvest-do-not-build and by three things the system must refuse to become (a ranking agency, a second repository, a heritage digitisation programme); the incentive structure, which ties deposit to disbursement, funds the mandate with an overhead line, returns visibility to the depositor and penalises institutions rather than authors; the design and the run-time evaluations, with the metric that must not be the headline; five case studies (RCAAP, RECOLECTA, BDTD/Oasisbr, SNRD, ALICIA) and the history from the 1895 documentation movement and UNISIST 1971 through CONACITE 1983, the open-access turn and LAReferencia 2012 to the UNESCO recommendation of 2021."
+   }
+  ]
  }
 ]
