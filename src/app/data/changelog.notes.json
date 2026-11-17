@@ -32128,6 +32128,11 @@
     "summary": "Retarget the links into nature/construction/, where the constructions now live.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c",
     "before": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the kinetic-theory link to the written epistemic note, now that the construction stub is gone."
    }
   ]
  },
@@ -117316,6 +117321,11 @@
     "kind": "move",
     "summary": "Move from nature/bayesian-models.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observational/computational/bayesian-network.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117470,6 +117480,11 @@
     "kind": "move",
     "summary": "Move from nature/classical-theories.md: a theory is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/classical-models.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117514,6 +117529,11 @@
     "kind": "move",
     "summary": "Move from nature/computational-modeling.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117525,6 +117545,11 @@
     "kind": "move",
     "summary": "Move from nature/computational-simulation.md: the note is a construction about nature — a product of inquiry — not a natural element.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117734,6 +117759,11 @@
     "kind": "move",
     "summary": "Move from nature/flux-balance-analysis-fba.md: a formal representation of nature is a construction, not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/flux-balance-analysis.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117767,6 +117797,11 @@
     "kind": "move",
     "summary": "Move from nature/fourier-analysis.md: a formal representation of nature is a construction, not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117778,6 +117813,11 @@
     "kind": "move",
     "summary": "Move from nature/fourier-spectral-representation.md: a formal representation of nature is a construction, not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/fourier-decomposition-toolkit.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -117987,6 +118027,11 @@
     "kind": "move",
     "summary": "Move from nature/kinetic-theory-of-gases.md: a theory is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/kinetic-theory.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118031,6 +118076,11 @@
     "kind": "move",
     "summary": "Move from nature/level-of-analysis.md: a formal representation of nature is a construction, not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/level-of-organization.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118097,6 +118147,11 @@
     "kind": "move",
     "summary": "Move from nature/mathematical-modeling.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118163,6 +118218,11 @@
     "kind": "move",
     "summary": "Move from nature/model-name.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118174,6 +118234,11 @@
     "kind": "move",
     "summary": "Move from nature/modeling-approaches.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118185,6 +118250,11 @@
     "kind": "move",
     "summary": "Move from nature/modeling-frameworks.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118196,6 +118266,11 @@
     "kind": "move",
     "summary": "Move from nature/modeling-simulation.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118207,6 +118282,11 @@
     "kind": "move",
     "summary": "Move from nature/modelling-tools.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/theory/modelling.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118240,6 +118320,11 @@
     "kind": "move",
     "summary": "Move from nature/numerical-algorithms.md: a method is a construction of the inquiry about nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/mathematical/method/method.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118295,6 +118380,11 @@
     "kind": "move",
     "summary": "Move from nature/phase-field-models.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/phase-field-method.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118317,6 +118407,11 @@
     "kind": "move",
     "summary": "Move from nature/physics-modeling.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/data-based-modeling-dbm.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118350,6 +118445,11 @@
     "kind": "move",
     "summary": "Move from nature/conservation-laws.md: a principle about reality is a construction of the natural scope, and it sits with the principles the construction shelf already carries.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/guidance/principle/conservation-law.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118460,6 +118560,11 @@
     "kind": "move",
     "summary": "Move from nature/quantum-statistical-mechanics.md: the note is a construction about nature — a product of inquiry — not a natural element.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/statistical-mechanics.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118515,6 +118620,11 @@
     "kind": "move",
     "summary": "Move from nature/representational-ontology.md: a formal representation of nature is a construction, not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/epistemic/nature/ontology.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118526,6 +118636,11 @@
     "kind": "move",
     "summary": "Move from nature/rutherford-model-1911.md: a model is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/observation/experiment/rutherford-scattering-experiments.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118581,6 +118696,11 @@
     "kind": "move",
     "summary": "Move from nature/simulation-tools.md: the note is a construction about nature — a product of inquiry — not a natural element.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/simulation/simulation.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118625,6 +118745,11 @@
     "kind": "move",
     "summary": "Move from nature/spectral-methods.md: a method is a construction of the inquiry about nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/spectral-method-toolbox.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118636,6 +118761,11 @@
     "kind": "move",
     "summary": "Move from nature/statistical-methods.md: a method is a construction of the inquiry about nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/validation/statistical-hypothesis-testing.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118647,6 +118777,11 @@
     "kind": "move",
     "summary": "Move from nature/statistical-tools.md: the note is a construction about nature — a product of inquiry — not a natural element.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/statistical-methods.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118735,6 +118870,11 @@
     "kind": "move",
     "summary": "Move from nature/theoretical-frameworks.md: a theory is a construction about a natural target, not the target itself.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating nature/construction/models.md; the corpus keeps the note that has content."
    }
   ]
  },
@@ -118823,6 +118963,11 @@
     "kind": "move",
     "summary": "Move from nature/transport-equations.md: an equation or a law about reality is a construction — a stated result about a class of natural targets — not an element of nature.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed: a 41-line import stub with the definition never worked, duplicating epistemica/singular/navierstokes-equations.md; the corpus keeps the note that has content."
    }
   ]
  },
