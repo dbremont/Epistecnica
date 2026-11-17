@@ -110,6 +110,8 @@ tags: [note, nature, substance-matter, matter]
 
 [Scale](https://app.notion.com/p/Scale-7094813ac4c44738bd80ba6c6d13f70e?pvs=21)
 
+- Buzsáki, G., & Mizuseki, K. (2014). The log-dynamic brain: How skewed distributions affect network operations. *Nature Reviews Neuroscience*, 15(4), 264–278. [Paper](/view.html?p=documents/papers/buzsaki-2014-log-dynamic-brain.md)
+
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Power Law b3b74b36ef5d410dae3b1ad0a2b9fd52.md`

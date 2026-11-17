@@ -37030,6 +37030,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Cite Buzsáki & Mizuseki (2014) for the firing-rate distribution."
    }
   ]
  },
@@ -119137,6 +119142,11 @@
     "kind": "move",
     "summary": "Move back from nature/construction/: the only inbound link is from epistemica/mathematical/geometry/fractal.md, and this pass does not touch the epistemica notes — so the note returns to the root rather than leave a dangling link outside the natural corpus.",
     "commit": "c1e8cc7d94667baa44403ec56ac2d46efadcbb76"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Cite Buzsáki & Mizuseki (2014) for the distinction between the power law and the lognormal."
    }
   ]
  },

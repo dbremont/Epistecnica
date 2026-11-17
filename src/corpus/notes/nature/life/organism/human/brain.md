@@ -320,6 +320,8 @@ The brain performs complex computations that mirror key mathematical and algorit
 - [Organ](/view.html?p=notes/nature/life/organism/organ.md)
 - [Human Memory](/view.html?p=notes/nature/life/organism/human/human-memory.md)
 
+- Buzsáki, G., & Mizuseki, K. (2014). The log-dynamic brain: How skewed distributions affect network operations. *Nature Reviews Neuroscience*, 15(4), 264–278. [Paper](/view.html?p=documents/papers/buzsaki-2014-log-dynamic-brain.md)
+
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Brain a0dba22360494722a05b837c34806772.md`

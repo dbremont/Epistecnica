@@ -37648,5 +37648,15 @@
     "commit": "87bd3881de7705ec2f63b9d4158e904e203f2d23"
    }
   ]
+ },
+ {
+  "file_path": "papers/buzsaki-2014-log-dynamic-brain.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the paper: APA citation, bibtex, DOI/PubMed/PMC links, and a real note section — the thesis that brain parameters are lognormal rather than Gaussian, the multiplicative mechanism behind it, the seven levels it surveys from LFP power to axon calibres, the \"selected minority does most of the work\" reading, and the sampling caveats that truncate the slow-firing tail."
+   }
+  ]
  }
 ]
