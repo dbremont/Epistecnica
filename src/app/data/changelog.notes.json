@@ -121884,7 +121884,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Board note added at the head of the public-organisation block — the collegial body the organisation chart puts at the top, and the note that types it (Agency; Governing Board)."
+    "summary": "References: the Board note added at the head of the public-organisation block — the collegial body the organisation chart puts at the top, and the note that types it (Agency; Governing Board).",
+    "commit": "03037e5074fc4683e70d5860dc2ba6da27425cd0",
+    "before": "db01d0a6fd3ec8b42535031e4d795e1f2b852f9f"
    }
   ]
  },
