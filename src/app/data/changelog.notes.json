@@ -122365,5 +122365,15 @@
     "commit": "95ef4b01aabaeb17f5a4017413ca6703b06fc4af"
    }
   ]
+ },
+ {
+  "file_path": "social/coordinator/market/auction.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the auction, on the coordinator shelf beside market-system.md — the structure note describes the market, this one describes a clearing procedure it can use. Filed outside market/instance/, which holds what is traded (financial, forex, housing, labour), because an auction is how trade is organised and cuts across all of them. The frame: a market whose clearing procedure is the product, which is why the rule is the whole subject. Forms table (English, Dutch, first-price, Vickrey, double, clock, reverse) and then the conflict that shapes the field — price discovery, efficient allocation and revenue cannot be served at once, and choosing among them is a decision taken once in the design and then out of politics. Theory that matters: revenue equivalence as a benchmark rather than a prediction, strategy-proofness in the second-price format and its rarity in practice, the winner's curse in common-value sales, and the recurring lesson that who shows up determines the result before the rule does. Cases: spectrum as the design field's laboratory, Treasury debt, Dutch auctions for perishables and their fit to spoilage, reverse auctions in procurement, clock auctions for carbon and electricity. Pathologies: auctioning to the extractor rather than the user, collusion, reserves as policy by stealth, and design capture by advisers."
+   }
+  ]
  }
 ]
