@@ -113838,6 +113838,11 @@
     "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone.",
     "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d",
     "before": "f69d82d3d95f853a66f64c47618f40990425ec9d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Stale path corrected: the family prose said nature/physical-object/ while the directory is nature/body/."
    }
   ]
  },
@@ -121609,6 +121614,106 @@
     "kind": "create",
     "summary": "New persona: Jost Bürgi (1552-1632), Swiss clockmaker, instrument maker and autodidact mathematician, at Kassel under Wilhelm IV and in Prague beside Kepler. The note holds two careers in one person: the cross-beat escapement and the remontoire, which made the clock accurate enough to time a star across a telescope crosshair and so turned it into a scientific instrument; and the mathematics — the Kunstweg sine iteration behind a lost Canon Sinuum that Kepler called the most precise known table, and a table of progressions built independently of Napier around 1600 and published only in 1620. The priority section records both verdicts without adopting either: Kepler's preface line about the \"indolent man\" who deserted his child at birth, and the conceptual counter-verdict that a table of antilogarithms is not a theory of the logarithm. References 1620 to 2016, including the Folkerts-Launert-Thom convergence proof.",
     "commit": "88132dc1dda517f75927b3c1c471501610dfa018"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/member.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the structural member, the building block structure.md names but had no note for. Typed as a Building Block specialized to Structural Member, and read as a body in its own right: the same steel section is a beam where it bends, a column where it is compressed and a tie where it hangs, so the member kinds are classified by the state of stress they are designed for rather than by shape. Six member kinds (bar, beam, column, cable, surface), the attributes that decide behaviour (cross-section, span) and the two bounds every member meets (strength, stability)."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/beam.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the beam, the member in bending. Three quantities decide it — span, second moment of area and elastic modulus — and deflection scales with the fourth power of the span, which is why a small increase in span is a large increase in depth. Kinds by support condition (simply supported, cantilever, continuous), attributes (second moment of area, deflection) and two distinct bounds: bending stress for strength, serviceability for use. It is also the corpus case of a theory with a stated bound, since Euler-Bernoulli assumes small deflections."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/column.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the column, the member in axial compression whose characteristic failure is buckling rather than crushing. The Euler load pi^2 EI/L^2 makes the point in its exponents: capacity falls with the square of the length, so slenderness governs rather than area, and effective length rather than physical length is what enters. Three regimes — short crushes, long buckles elastically, intermediate does both and is empirical — and the stability bound is the shelf case where imperfections matter most, because the ideal formula is an upper bound."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/cable.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the cable, the tension-only member. Its shape is found rather than chosen: it takes the funicular of its loads, catenary under self weight and parabola under a uniform horizontal deck load, and the horizontal component of tension is constant along it. Three consequences worth keeping: sag sets the tension rather than decorating the form; transverse stiffness comes from geometry and pretension, not from material, so a slack cable is not stiff; and the structure must supply the compression the pull of the cable implies. Filed as the dual of the arch, same equilibrium with the sign reversed."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/foundation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the foundation, the support through which a structure delivers its load to the ground — the one building block whose other half is a substance. Shallow (strip, pad, raft) and deep (pile, caisson) families, the joint quantities of the ground-foundation system (bearing pressure, settlement) and four bounds (bearing capacity, tolerable movement, sliding, overturning). Its most important statement is about which bound governs: foundations rarely break, they move, which is why the settlement bound — about use rather than survival — usually decides the size."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/connection.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the structural connection, the joint that transmits action between members and the place where the strength of the structure is actually decided, since the shelf defines strength as the capacity of the weakest member or connection. Classified by mechanism of transmission — fused (weld), friction and bearing (bolt, rivet), contact (pin, bearing), anchorage into a substrate — each with its own characteristic failure. Two properties make it governing: the load path changes direction there, so combined actions meet; and it is the most redundant part of the structure, which is what lets a ductile joint redistribute and a brittle one fail progressively."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/property/load-path.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the load path, the attribute that makes a structure one body rather than a heap of members, and the one the corpus leans on without a note. Interaction-derived quantity, with three attributes and a failure mode each: continuity (an unbroken route in media that can carry the action — the failure behind most collapses), directness (what the optimal trusses of Michell minimise) and redundancy (the number of independent routes, which is what makes failure graceful). Kinds: primary, secondary and funicular paths."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/arch.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the arch, filed on the body shelf as an instance of Structure, not as a new root and not in technica. The curve is a path rather than a profile: the arch stands when a line of thrust can be found inside its own material for every load it must carry, and falls when none exists. It is distinguished from the beam by material requirement rather than by shape — a beam needs a material that can pull, an arch only one that can push, which is why masonry builds arches. Forms (semicircular, segmental, pointed, flat), parts (voussoir, abutment), quantities (thrust, rise, thickness) and two bounds: no tension, and the four-hinge mechanism."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/wave/vibration.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: vibration as the mechanical case of oscillation, filed beside the oscillation master that already defines the distinction — oscillation is the pattern, vibration the case where matter moves, wave the case where the pattern travels. Four quantities each with a bound attached (natural frequency, mode shape, damping ratio, amplitude) and three driving regimes: free, forced (resonance when driver and natural frequency meet) and self-excited (amplitude set by the system, which is why it cannot be damped away by removing a driver). The closing point is that amplitude decides which bound is met: small and long is fatigue, large and once is resonance or yielding."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/body/structure.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The instance prose names the arch, and the reference list now links the six member, support and connection notes the table had asserted without notes, plus the load-path property."
    }
   ]
  }

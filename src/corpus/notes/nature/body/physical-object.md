@@ -6,7 +6,7 @@ tags: [note, nature, physical-object, ontology, unfinished]
 
 > A **physical object** is a substantive natural object: a fully specified material particular — a bounded piece of matter with persistence, extension, and a location — that can be counted, referred to, and decomposed into its building blocks. It is not a substance (the stuff it is made of), not a property (what it carries), and not a process (what it undergoes).
 
-This note is the directory index and the classification of the physical-object family under `nature/physical-object/`: the notes whose instance is a *body* — discrete or continuous, single or multiple, single-phase or many-phase. Particles, atoms, fields and phases are physical objects too, but they stay outside this directory — the elementary ones on the [`nature/matter/elementary/`](/view.html?p=notes/nature/matter/elementary/elementary-particle.md) shelf, the composites and the matter kinds at the `nature/` root — because their identity is set by the particle and matter notes, not by the body criteria below.
+This note is the directory index and the classification of the physical-object family under `nature/body/`: the notes whose instance is a *body* — discrete or continuous, single or multiple, single-phase or many-phase. Particles, atoms, fields and phases are physical objects too, but they stay outside this directory — the elementary ones on the [`nature/matter/elementary/`](/view.html?p=notes/nature/matter/elementary/elementary-particle.md) shelf, the composites and the matter kinds at the `nature/` root — because their identity is set by the particle and matter notes, not by the body criteria below.
 
 ## Formulation
 

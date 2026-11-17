@@ -18,7 +18,7 @@ It is **not** a `Natural System`: a system is the members plus their interaction
 
 ### What is this natural instance?
 
-> A bridge span, a frame, a roof truss, a retaining wall, a dam, a crane jib, a bone. Every one of them is a set of members in relation, and the relation is fixed by where the load enters and where it leaves. Two arrangements of the same steel are two different structures because the load takes two different paths — and one may be stable while the other is not.
+> A bridge span, a frame, an [arch](/view.html?p=notes/nature/body/arch.md), a roof truss, a retaining wall, a dam, a crane jib, a bone. Every one of them is a set of members in relation, and the relation is fixed by where the load enters and where it leaves. Two arrangements of the same steel are two different structures because the load takes two different paths — and one may be stable while the other is not.
 
 ### What is the recursive instance decomposition of this natural instance?
 
@@ -51,6 +51,8 @@ It is **not** a `Natural System`: a system is the members plus their interaction
 
 ## References
 
+- [Member](/view.html?p=notes/nature/body/member.md) · [Beam](/view.html?p=notes/nature/body/beam.md) · [Column](/view.html?p=notes/nature/body/column.md) · [Cable](/view.html?p=notes/nature/body/cable.md) · [Connection](/view.html?p=notes/nature/body/connection.md) · [Foundation](/view.html?p=notes/nature/body/foundation.md) · [Arch](/view.html?p=notes/nature/body/arch.md)
+- [Load Path](/view.html?p=notes/nature/property/load-path.md) — the attribute that makes the body one structure rather than a heap
 - [Physical Object](/view.html?p=notes/nature/body/physical-object.md) — the family and the discrete-body criterion this note instantiates
 - [Continuous Medium](/view.html?p=notes/nature/body/continuous-medium.md) — the field-side reading a member can be taken in
 - [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md) — the practice that designs such a body

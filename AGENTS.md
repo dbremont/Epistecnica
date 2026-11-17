@@ -262,7 +262,7 @@ frontend-facing surface in the deployment; there is no database behind it
   equilibrium, energy) and `euler-bernoulli-beam-theory.md`
   (`Technical Principle`: `EI w⁗ = q`, its assumptions and bounds). The
   structure such a practice designs is read naturally as a `Natural Object` —
-  `nature/physical-object/structure.md`, the discrete body whose parts are
+  `nature/body/structure.md`, the discrete body whose parts are
   held by a load path — never as a second technica root.
 
 Multinode notes (`src/corpus/notes/technica/general/cto/es/multinode/`, e.g. `openapi.md`,
