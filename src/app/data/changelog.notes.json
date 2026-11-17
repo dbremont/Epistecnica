@@ -121729,5 +121729,55 @@
     "before": "5ee6f2c43005f049ab0d873d1394ed3172356c67"
    }
   ]
+ },
+ {
+  "file_path": "social/action/public/informe/an-essay-on-dominican-growth-and-industry-structure-1844-2020.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-growth-and-industry-structure-1844-2020.md: a country study of a development path: 1844 to 2020 of Dominican growth and industry structure is the kind of report the informe shelf is defined for, not a memorial proposal."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/informe/case-study-an-analysis-of-the-dominican-republics.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/action/public/memorial/case-study-an-analysis-of-the-dominican-republics.md: a country case study, filed with the informe country studies rather than among the memorial proposals."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/informe/an-essay-on-the-dominican-of-a-development-thinking.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/action/public/memorial/an-essay-on-the-dominican-of-a-development-thinking.md: a school-of-thought essay, the same kind as the German historical school guide the informe shelf already carries."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/informe/an-essay-on-dominican-macroeconomics-stability.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/action/public/memorial/an-essay-on-dominican-macroeconomics-stability.md: a country study of macroeconomic stability, filed with the informe country studies."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/informe/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Index: the four Dominican notes moved in from memorial/ are listed."
+   }
+  ]
  }
 ]

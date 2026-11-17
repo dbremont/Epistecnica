@@ -14,3 +14,7 @@ tags: [note]
 - [German Historical School of Economics](/view.html?p=notes/social/action/public/informe/a-guide-to-german-historical-school-of-economics.md)
 - [Early European Development Finance](/view.html?p=notes/social/action/public/informe/an-essay-on-early-european-development-finance.md)
 - [Latin America Economic Craft](/view.html?p=notes/social/action/public/informe/an-essay-on-latin-america-economic-craft.md)
+- [Dominican Growth and Industry Structure, 1844–2020](/view.html?p=notes/social/action/public/informe/an-essay-on-dominican-growth-and-industry-structure-1844-2020.md)
+- [Dominican Development Thinking](/view.html?p=notes/social/action/public/informe/an-essay-on-the-dominican-of-a-development-thinking.md)
+- [Case Study: An Analysis of the Dominican Republic's…](/view.html?p=notes/social/action/public/informe/case-study-an-analysis-of-the-dominican-republics.md)
+- [Dominican Macroeconomic Stability](/view.html?p=notes/social/action/public/informe/an-essay-on-dominican-macroeconomics-stability.md)
