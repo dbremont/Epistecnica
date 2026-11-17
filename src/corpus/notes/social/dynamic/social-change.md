@@ -2,7 +2,7 @@
 tags: [note]
 ---
 
-# Change
+# Social Change
 
 > In this note, we explore one of the most central concepts of this project: **social change** (state transition) , action and intervention.
 

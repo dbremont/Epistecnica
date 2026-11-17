@@ -210,6 +210,14 @@
       "label": "Technical Objects",
       "kind": "related"
     },
+    
+    {
+      "from": "social/good/",
+      "to": "production/",
+      "label": "Production",
+      "kind": "related"
+    },
+    
     {
       "from": "technica/",
       "to": "social/good/",
@@ -217,7 +225,7 @@
       "kind": "related"
     },
     {
-      "from": "production/",
+      "from": "production/catalog/",
       "to": "social/good/",
       "label": "Goods",
       "kind": "related"

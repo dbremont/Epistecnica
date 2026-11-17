@@ -131,6 +131,15 @@ qa:
 | **Reduced Fraction** | Lowest-terms representative of the class. | $6/8 \to 3/4$ |
 | **Algebraic Fraction** | Quotient of two algebraic expressions. | $\frac{x+1}{x-1}$ |
 
+### How to interpret a fraction?
+
+- **Unitary Part Distribution (Part–Whole):** The denominator represents the number of equal parts into which one unit is divided, while the numerator represents how many of those parts are selected.
+- **Division (Quotient):** A fraction represents the result of dividing the numerator by the denominator.
+- **Ratio:** A fraction represents a multiplicative relationship between two quantities.
+- **Operator (Multiplicative):** A fraction represents an operation that scales another quantity by the factor it expresses.
+- **Measure (Number Line):** A fraction represents a numerical magnitude or position relative to a unit of measurement.
+- **Partitive Division:** A fraction represents the size of each equal share when a quantity is distributed among a specified number of recipients.
+
 ### Is a fraction a number or an expression?
 
 > Both, in different roles, and the roles must be kept apart. As an **expression** the fraction is an inscription — a numerator, a denominator, and a bar — that the equivalence and reduction rules rewrite. As a **number** it is the value the inscription denotes: the rational number that is the equivalence class of all its inscriptions. The expression is what the `Computation` acts on; the number is what the `Concept` names. Confusing them produces the classic errors: reading $6/8$ as a different number from $3/4$ (an expression-level difference mistaken for a value-level difference), or reading $0.75$ as a different number from $3/4$ (a notation-level difference mistaken for a value-level difference).
@@ -209,126 +218,9 @@ qa:
 
 > 1/4 + 1/2` — the fractions initially have different denominators; to make them compatible for addition, convert them to a common denominator: `1/4 + 2/4 = 3/4`.
 
-### How to reason about fractions?
+### How to interpre $\frac{2}{3}\times\frac{3}{4}$?
 
-# Fraction multiplication: Visual model
-
-The **area model** shows fraction multiplication as taking a fraction of another fraction.
-
-Let's visualize:
-
-\[
-\frac{2}{3}\times\frac{3}{4}
-\]
-
-Imagine a rectangle divided into **3 rows and 4 columns**.
-
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fraction Multiplication Model</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 40px;
-        background: #f5f7fa;
-        color: #263445;
-    }
-
-    h2 { margin-bottom: 30px; }
-
-    .model {
-        display: grid;
-        grid-template-columns: repeat(4, 90px);
-        grid-template-rows: repeat(3, 90px);
-        width: fit-content;
-        margin: 30px auto;
-        border: 2px solid #263445;
-    }
-
-    .cell {
-        border: 1px solid white;
-        background: #f0f0f0;
-    }
-
-    /* First fraction: 3/4 of the width */
-    .column {
-        background: #93b9dc;
-    }
-
-    /* Second fraction: 2/3 of the height */
-    .row {
-        background: #e5bd76;
-    }
-
-    /* Overlapping area */
-    .overlap {
-        background: #598d75;
-    }
-
-    .equation {
-        font-size: 28px;
-        font-weight: bold;
-        margin-top: 30px;
-    }
-
-    .explanation {
-        font-size: 17px;
-        margin-top: 20px;
-        line-height: 1.7;
-    }
-</style>
-</head>
-<body>
-
-<h2>Fraction Multiplication: Area Model</h2>
-
-<p>3/4 of 2/3</p>
-
-<div class="model">
-    <!-- Row 1 -->
-    <div class="cell overlap"></div>
-    <div class="cell overlap"></div>
-    <div class="cell overlap"></div>
-    <div class="cell row"></div>
-
-    <!-- Row 2 -->
-    <div class="cell overlap"></div>
-    <div class="cell overlap"></div>
-    <div class="cell overlap"></div>
-    <div class="cell row"></div>
-
-    <!-- Row 3 -->
-    <div class="cell column"></div>
-    <div class="cell column"></div>
-    <div class="cell column"></div>
-    <div class="cell"></div>
-</div>
-
-<div class="equation">
-    2/3 × 3/4 = 6/12 = 1/2
-</div>
-
-<div class="explanation">
-    Total equal parts: 3 × 4 = 12<br>
-    Overlapping parts: 2 × 3 = 6<br>
-    Result: 6 out of 12 equal parts.
-</div>
-
-</body>
-</html>
-```
-
-
-- Shade 3 of the 4 columns: \(\frac34\).
-- Shade 2 of the 3 rows in another direction: \(\frac23\).
-- The overlapping region represents the product.
-
+> ...
 
 ### How to interpre 3 % (1/8)?
 

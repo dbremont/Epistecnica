@@ -8937,6 +8937,12 @@
     "date": "2026-11-10",
     "kind": "docs",
     "summary": "Tighten the operator definition to function space -> function space, and replace the unlinked operator list with a linked inventory by branch."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the operator-properties table: the thirty-five properties operator theory attaches to an operator — linearity, boundedness, compactness, the adjoint family, the spectral family and the rest — set beside the note's account of the operator kind, with the differential instances still read as transformation rules.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -10181,6 +10187,12 @@
     "summary": "Add the fraction-multiplication visual model: the area model of $2/3 \\times 3/4$ worked as an interactive grid embedded under the reasoning QA.",
     "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
     "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add \"How to interpret a fraction?\" — the six readings of one inscription (part–whole, quotient, ratio, multiplicative operator, measure on the number line, partitive division) — and replace the visual area-model section with the multiplication case it was illustrating.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -10278,6 +10290,12 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add a reference: Wildberger's arithmetic lecture, the source of the note's reading of multiplication as a number-building operation.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -33447,6 +33465,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Environmental / Signaling Inputs (I) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -33595,6 +33619,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Equation of State Databases (e.g. NIST REFPROP) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34405,6 +34435,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Force vive (Living force) stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34417,6 +34453,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Biology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34429,6 +34471,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Cosmology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34441,6 +34489,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Deformation stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34453,6 +34507,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Electromagnetism stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34465,6 +34525,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Engineering stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34477,6 +34543,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Environmental Science stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34489,6 +34561,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Everyday Life stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34501,6 +34579,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Fluids stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34513,6 +34597,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Motion stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34525,6 +34615,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Quantum Mechanics stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34537,6 +34633,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Relativity stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34549,6 +34651,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Rotational Motion stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34561,6 +34669,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Space Exploration stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34573,6 +34687,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Sports stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34585,6 +34705,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Forces in Technology stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -34693,6 +34819,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Fractal Structure and Scale-Invariance stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -39019,6 +39151,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Input stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -42223,6 +42361,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Multi-Dimensional Models stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -42235,6 +42379,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Multi-modal convergence stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -42259,6 +42409,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Multi-phase Transport stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -42283,6 +42439,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Multiple Proportions stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -43834,6 +43996,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Permeability of Free Space stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -43846,6 +44014,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Permittivity of Free Space stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -48581,6 +48755,12 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Theory stub: an auto-generated natural placeholder — definition not yet worked, a single unexpanded root row, the retired four-column table, a Notion provenance line. No note links to it and nothing is lost by its going.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -95766,6 +95946,12 @@
     "kind": "refactor",
     "summary": "Move from essays/agent-social-reality-reflection-problem.md to unclassified/agent-social-reality-reflection-problem.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -96470,6 +96656,12 @@
     "kind": "refactor",
     "summary": "Move from essays/articulation/on-the-nature-of-the-agentic-driven-social-reality-evolution.md to unclassified/articulation/on-the-nature-of-the-agentic-driven-social-reality-evolution.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -97272,6 +97464,12 @@
     "kind": "move",
     "summary": "Move up from technica/computation/algorithm/conceptual-model-algorithm/ into technica/computation/algorithm/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the change-making problem stub: a title, an empty quote and a Wikipedia link, with no formulation, no decomposition and no treatment of the problem. Nothing links to it.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -99721,13 +99919,18 @@
   ]
  },
  {
-  "file_path": "technica/computation/language-system/green-threads.md",
+  "file_path": "technica/computation/language-system/green-thread.md",
   "logs": [
    {
     "date": "2026-11-16",
     "kind": "move",
     "summary": "Move up from technica/computation/language-system/conceptual-model-language-system/ into technica/computation/language-system/: flatten the redundant conceptual-model nesting level.",
     "commit": "76bd9aba86c7ec688952c7a579742c5734143470"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move and rename from green-threads.md (Green Threads) to the singular Green Thread, matching the corpus convention of one note per kind, and drop the stray empty quote line under the intro. The body is unchanged."
    }
   ]
  },
@@ -109153,6 +109356,12 @@
     "kind": "move",
     "summary": "Move from production/catalog/product.md and rename to product-catalog.md: a names-only list of products belongs with the goods rather than with the production catalog, and the suffix keeps it distinct from the Product note beside it.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Product Abstract Catalog: a names-only list whose own header says details belong in the Good or Services notes, which now carry their product tables. Nothing links to it.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  },
@@ -110060,6 +110269,49 @@
     "summary": "Imported from the Notion `Security` export block: the scope entry note, which states the two sides of the shelf (attack and defense), indexes the thirty notes, and points at the security notes that stay with the objects they secure (x86, Java, Linux, TLS, certificates, git, SSH). Content normalized mechanically — uuid stripped from the name, the conceptual-model wrapper dissolved, Notion property lines dropped, links and images retargeted.",
     "commit": "c7232caff32f17134fba31878c6a3fc9f0684720",
     "before": "71f9906defe510afa4f158bb9cb2aefedb95aa34"
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/social-change.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move and retitle from social/dynamic/change.md (Change): the note is about change in social reality — state transition, action, intervention — not change at large, and the title now says so. The body is unchanged."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/firm/al-futtaim-carrefour-uae.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Remove the Al-Futtaim / Carrefour UAE stub: a firm note with three properties restated as a list — country, business models, commerce role — and no treatment of the firm. Nothing links to it.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/informe/framework/social-region-change-toolkit-foundation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    }
   ]
  }

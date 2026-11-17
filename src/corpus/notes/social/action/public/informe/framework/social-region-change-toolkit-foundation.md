@@ -128,7 +128,7 @@ QA:
 
 - Social Ontology
 
-- [Social Change](/view.html?p=notes/social/dynamic/change.md)
+- [Social Change](/view.html?p=notes/social/dynamic/social-change.md)
 
 - [Turkey’s 2030 Industry And Technology Strategy](https://www.setav.org/en/turkeys-2030-industry-and-technology-strategy)
 

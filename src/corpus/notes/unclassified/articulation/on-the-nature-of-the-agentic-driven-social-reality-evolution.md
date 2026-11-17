@@ -12,5 +12,5 @@ tags: [note, unfinished]
 - [Technique](https://www.notion.so/Technique-15f598edb790814db56bd7b10a4de600?v=15f598edb79081e2b0e7000c9d41b09a&source=copy_link)
 - [Technology](/view.html?p=notes/social/structural/technical/technology.md)
 - [Agency - Locus Instrumentorum](../../social/action/public/agency.md)
-- [Social Ontology · Change](/view.html?p=notes/social/dynamic/change.md)
+- [Social Ontology · Change](/view.html?p=notes/social/dynamic/social-change.md)
 - [Social Region Change Toolkit Foundation](/view.html?p=notes/social/action/public/informe/framework/social-region-change-toolkit-foundation.md)

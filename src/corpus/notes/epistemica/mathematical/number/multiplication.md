@@ -83,4 +83,4 @@ qa:
 - [Multiplication Table](https://en.wikipedia.org/wiki/Multiplication_table)
 - [Tsinghua Bamboo Slips](https://en.wikipedia.org/wiki/Tsinghua_Bamboo_Slips)
 - [Mathematical table](https://en.wikipedia.org/wiki/Mathematical_table)
-
+- [Arithmetic with numbers | Arithmetic and Geometry Math Foundations 2 | N J Wildberger](https://www.youtube.com/watch?v=-96tlu_sShM&list=PLIljB45xT85DGxj1x_dyaSggbauAgrB6R&index=2)
