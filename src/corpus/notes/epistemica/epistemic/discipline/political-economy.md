@@ -117,4 +117,5 @@ QA:
 
 ## References
 
-- MCRC Alicante Economía política y política económica / https://mcrcalicante.wordpress.com/2015/11/26/economia-politica-y-politica-economica/
+- [MCRC Alicante — Economía política y política económica](https://mcrcalicante.wordpress.com/2015/11/26/economia-politica-y-politica-economica/)
+- [Political Economy](https://en.wikipedia.org/wiki/Political_economy)
