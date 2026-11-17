@@ -60997,7 +60997,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the Schneider and Gilbert entries become links to their persona notes; both had been cited as names without notes."
+    "summary": "References: the Schneider and Gilbert entries become links to their persona notes; both had been cited as names without notes.",
+    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c",
+    "before": "81034f7d572f05bab774268782a32d8005ae7f03"
    }
   ]
  },
@@ -122159,7 +122161,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New persona: Margaret Gilbert, philosopher of social ontology and the reference for joint commitment. The note gives her question — what has to be true for \"we intend\" to be more than a summary of what several people each intend — and her answer: a plural subject constituted by joint commitment, binding each party and giving each the standing to demand of the others. The position table sets her against Bratman and Tuomela (who build the collective out of individual attitudes plus coordination and cannot yield the demand) and against any group mind (commitments are individual acts with a joint object). Work table through the six books from On Social Facts to Rights and Demands, and the corpus placement where the Synontic catalogue already credits her with Joint Commitment beside Searle and Bratman."
+    "summary": "New persona: Margaret Gilbert, philosopher of social ontology and the reference for joint commitment. The note gives her question — what has to be true for \"we intend\" to be more than a summary of what several people each intend — and her answer: a plural subject constituted by joint commitment, binding each party and giving each the standing to demand of the others. The position table sets her against Bratman and Tuomela (who build the collective out of individual attitudes plus coordination and cannot yield the demand) and against any group mind (commitments are individual acts with a joint object). Work table through the six books from On Social Facts to Rights and Demands, and the corpus placement where the Synontic catalogue already credits her with Joint Commitment beside Searle and Bratman.",
+    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c"
    }
   ]
  },
@@ -122169,7 +122172,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New persona: David M. Schneider, the anthropologist who made the corpus's own category visible. American Kinship read the American system through its two symbols, blood and love; the critique of 1984 argued that kinship is not a cross-cultural category at all but a European folk model in analytic dress, and that the discipline had been studying its own assumptions. The note marks what that means here: relatedness in the collective typology is recognition-constituted, not a biological fact with a social gloss, and the household, the descent group and the kin network are not one thing counted three ways."
+    "summary": "New persona: David M. Schneider, the anthropologist who made the corpus's own category visible. American Kinship read the American system through its two symbols, blood and love; the critique of 1984 argued that kinship is not a cross-cultural category at all but a European folk model in analytic dress, and that the discipline had been studying its own assumptions. The note marks what that means here: relatedness in the collective typology is recognition-constituted, not a biological fact with a social gloss, and the household, the descent group and the kin network are not one thing counted three ways.",
+    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c"
    }
   ]
  },
@@ -122179,7 +122183,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The Joint Commitment row now links Gilbert's persona instead of naming her in plain text."
+    "summary": "The Joint Commitment row now links Gilbert's persona instead of naming her in plain text.",
+    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c",
+    "before": "81034f7d572f05bab774268782a32d8005ae7f03"
    }
   ]
  }
