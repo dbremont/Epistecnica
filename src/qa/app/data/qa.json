@@ -178,5 +178,21 @@
    "policy"
   ],
   "status": "open"
+ },
+ {
+  "id": "qa-00012",
+  "question": "How to think about debt in the national currency?\n\nA sovereign that borrows in its own currency cannot be forced into default in nominal terms — it can always pay, and the adjustment, if it comes, comes through inflation or the exchange rate rather than through a missed coupon. That is the fact the orthodox debt-ratio framework tends to leave out, and the fact the \"no limit\" reading overstates: the constraint moves rather than disappears.\n\nSo what actually binds? The inflation cost of financing, the share of debt denominated in foreign currency, the maturity structure, the central bank's independence and the state of its balance sheet, and the credibility that decides whether the market prices the debt as risk-free at all. Which of these is the real limit, and which is only the conventional one?",
+  "answer": "",
+  "agent": "human",
+  "run": "derived-006",
+  "date": "2026-11-17",
+  "source": "manual",
+  "tags": [
+   "economic",
+   "sovereign-debt",
+   "monetary",
+   "fiscal"
+  ],
+  "status": "open"
  }
 ]
