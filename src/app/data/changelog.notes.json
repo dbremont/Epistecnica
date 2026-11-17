@@ -18034,7 +18034,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link where optimal transport meets statistical inference."
+    "summary": "Link where optimal transport meets statistical inference.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  },
@@ -20122,7 +20124,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the transportation theory as the continuous relaxation of the assignment problem."
+    "summary": "Link the transportation theory as the continuous relaxation of the assignment problem.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  },
@@ -23216,7 +23220,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the disambiguation from the mathematics of optimal transfer."
+    "summary": "Link the disambiguation from the mathematics of optimal transfer.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  },
@@ -59170,7 +59176,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Link the theory he recast as a linear program."
+    "summary": "Link the theory he recast as a linear program.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  },
@@ -120808,7 +120816,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "New branch master for transport: the transfer problem framed by its four slots — source, target, carrier, cost or constraint — with a table of what is carried (mass, flow, density, probability, information, indivisible units), a table of the branches (optimal transport, network flow, transport equations, Markov kernels, assignment, channels), and QA on why a flow is not a transport, why the cost is what makes transport optimal, why the assignment problem is its discrete case, and why the physical transport equations stay in the natural corpus."
+    "summary": "New branch master for transport: the transfer problem framed by its four slots — source, target, carrier, cost or constraint — with a table of what is carried (mass, flow, density, probability, information, indivisible units), a table of the branches (optimal transport, network flow, transport equations, Markov kernels, assignment, channels), and QA on why a flow is not a transport, why the cost is what makes transport optimal, why the assignment problem is its discrete case, and why the physical transport equations stay in the natural corpus.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  },
@@ -120818,7 +120828,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "New note on the Monge–Kantorovich theory: Monge’s 1781 earthworks problem and why his map can fail to exist, Kantorovich’s 1942 coupling and the linear program it becomes, Kantorovich duality and the shipper’s prices, Brenier’s gradient-of-a-convex-potential theorem, McCann’s displacement convexity and Otto’s Wasserstein geometry, the Benamou–Brenier dynamic formulation, and the Sinkhorn/Cuturi computational turn. The literature map sorts the field into seven clusters — origins and the linear program, the measure-theoretic formulation, geometry and PDE, computation, economics and matching, statistics and machine learning, applications — each with its canonical works and what they established, plus one integrated APA list of 30 sources and QA on the plan versus the map, the role of the cost, and whether Wasserstein is a metric."
+    "summary": "New note on the Monge–Kantorovich theory: Monge’s 1781 earthworks problem and why his map can fail to exist, Kantorovich’s 1942 coupling and the linear program it becomes, Kantorovich duality and the shipper’s prices, Brenier’s gradient-of-a-convex-potential theorem, McCann’s displacement convexity and Otto’s Wasserstein geometry, the Benamou–Brenier dynamic formulation, and the Sinkhorn/Cuturi computational turn. The literature map sorts the field into seven clusters — origins and the linear program, the measure-theoretic formulation, geometry and PDE, computation, economics and matching, statistics and machine learning, applications — each with its canonical works and what they established, plus one integrated APA list of 30 sources and QA on the plan versus the map, the role of the cost, and whether Wasserstein is a metric.",
+    "commit": "f72bedaae708797b5c9b0b07f38c5125c112b7e9",
+    "before": "f72bedaae708797b5c9b0b07f38c5125c112b7e9"
    }
   ]
  }
