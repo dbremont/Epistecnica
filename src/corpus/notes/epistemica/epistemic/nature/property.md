@@ -4,7 +4,7 @@ tags: [note, reality]
 
 # Property
 
-Related: [Ontology](/view.html?p=notes/nature/meta/ontology.md), [Principle](/view.html?p=notes/nature/meta/principle.md)
+Related: [Ontology](/view.html?p=notes/epistemica/epistemic/nature/ontology.md), [Principle](/view.html?p=notes/epistemica/epistemic/nature/principle.md)
 
 > In this note we will explore the abstract concept - of a property - that describes a characteristic, attribute, or quality that an object, entity, or system can have. It is a **meta-level descriptor** rather than a concrete object itself.
 > 

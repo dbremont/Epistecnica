@@ -4,7 +4,7 @@ tags: [note, reality]
 
 # Principle
 
-Related: [Property](/view.html?p=notes/nature/meta/property.md)
+Related: [Property](/view.html?p=notes/epistemica/epistemic/nature/property.md)
 
 > In this note let’s explore the term `Principle`.
 > 

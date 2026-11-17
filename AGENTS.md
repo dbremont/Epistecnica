@@ -189,11 +189,14 @@ frontend-facing surface in the deployment; there is no database behind it
   `observational/statistical-function.md`, a principle such as
   `epistemic/guidance/principle/compositionality.md` — stays out and sits at
   the domain root or in the scope that owns its type.
-- `data/nature/theory/` holds the natural-ontology theory scope moved out of
-  `epistemica/theory/ontology/`: the ontic element notes (event, causality,
-  system, segment, reality, …), the local *Philosophia Naturalis* import
-  (`theory/philosophia-naturalis.md`), and the Change note. The imported
-  notes keep the source template and have no philosophia schema conversion.
+- `epistemica/epistemic/nature/` holds the natural-ontology theory scope: the
+  ontic element notes (event, causality, system, segment, reality, …), the
+  local *Philosophia Naturalis* import (`philosophia-naturalis.md`), and the
+  Change note. They are epistemic readings of natural elements, so they file
+  under `epistemica/`, with a registry dir link from the `nature/` shelf
+  (`links.json`, `from: "nature/"`) so the natural corpus still reaches them;
+  the imported notes keep the source template and have no philosophia schema
+  conversion.
 - Regenerate the corpus index after any edit: `make index` (all of them),
   or individually `make notes-index`,
   `make course-index`, `make document-index`, `make glossarium-index`,

@@ -87,7 +87,7 @@ Two boundaries carry most of the work. **Entity versus property**: mass, charge,
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Reality](/view.html?p=notes/nature/meta/reality.md) · [Segment](/view.html?p=notes/nature/meta/segment.md) · [Modeling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) — the ontic and epistemic sides of the same cut
+- [Reality](/view.html?p=notes/epistemica/epistemic/nature/reality.md) · [Segment](/view.html?p=notes/epistemica/epistemic/nature/segment.md) · [Modeling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) — the ontic and epistemic sides of the same cut
 - [Physical Object](/view.html?p=notes/nature/physical-object/physical-object.md) · [Property](/view.html?p=notes/nature/property/property.md) · [Reference Frame](/view.html?p=notes/epistemica/singular/reference-frame.md) · [Physical System](/view.html?p=notes/epistemica/singular/physical-system.md)
 - [Frame of reference](https://en.wikipedia.org/wiki/Frame_of_reference)
 - [Physical property](https://en.wikipedia.org/wiki/Physical_property)

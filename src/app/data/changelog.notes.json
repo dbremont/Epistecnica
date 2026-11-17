@@ -2331,6 +2331,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/discipline/philosophy.md to epistemica/epistemic/discipline/philosophy.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -3130,6 +3135,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/guidance/method/philosophical-system.md to epistemica/epistemic/guidance/method/philosophical-system.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -3215,6 +3225,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/guidance/method/spinoza-method.md to epistemica/epistemic/guidance/method/spinoza-method.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -3835,6 +3850,11 @@
     "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -3852,6 +3872,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/compound-effect.md to epistemica/epistemic/theory/compound-effect.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4002,6 +4027,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/dualism.md to epistemica/epistemic/theory/dualism.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4203,6 +4233,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/explanation.md to epistemica/epistemic/theory/explanation.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4532,6 +4567,11 @@
     "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4661,6 +4701,11 @@
     "summary": "Follow the scope rename: the measurement/ link points at quantification/.",
     "commit": "33736ab249e582af06bc36e77fb61e9e253c44bb",
     "before": "dffa56953a81a6d55ae0fe6b6a84fc01fe211bdc"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4825,6 +4870,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/economy/philosophy.md to epistemica/epistemic/theory/philosophy.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -4927,6 +4977,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/theory/state.md to epistemica/epistemic/theory/state.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -5038,6 +5093,11 @@
     "summary": "Retarget the Ontology link to nature/theory/ontology.md after the ontology note moved out of epistemica/theory/.",
     "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
     "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -41138,6 +41198,11 @@
     "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -108523,6 +108588,11 @@
     "summary": "Retarget the 3 links to mass, electric charge and spin now that the quantity is filed under nature/property/.",
     "commit": "44458d5e2a5cf71aaa3c6a557f31575950224cf5",
     "before": "464e15afb4986e76edcf6962bad3412b8acf5910"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -108650,6 +108720,11 @@
     "summary": "Retarget the energy-force link into the new nature shelf it now lives in.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -108771,6 +108846,11 @@
     "summary": "Retarget the fundamental-interaction link into the new nature shelf it now lives in.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273",
     "before": "cf561a11b864f59f98fa921c967817e1000c0b00"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -108878,6 +108958,11 @@
     "kind": "move",
     "summary": "Move from nature/fundamental-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -108896,6 +108981,11 @@
     "kind": "move",
     "summary": "Move from nature/fundamental-molecular-interaction.md: the interaction notes now sit in their own shelf, beside the forces they produce and the family page that indexes them.",
     "commit": "c4b2483bfb76103b77f8ea18c7a28385211f5273"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -109264,6 +109354,11 @@
     "summary": "Follow the move: the shelf named in the directory sentence is nature/matter/elementary/.",
     "commit": "4b09cfd1d2d2acc3cec14c7dbb6ac614a65010e7",
     "before": "9d68f823c6fc5ff9aae38171d364e7e44c72d68f"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links to the natural-ontology notes, moved from nature/meta/ to epistemica/epistemic/nature/."
    }
   ]
  },
@@ -110620,6 +110715,351 @@
     "summary": "Write the facet out of the five-line stub: the mechanism (formation of persons, not the subject taught), the three cuts that separate it from the education actor, the stage of life and the research facet that warrants what it teaches, and where its elements live in the corpus.",
     "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
     "before": "f691aff8221640e328188d98997de2fe0f2cecec"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/bifurcation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/bifurcation.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/causality.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/causality.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/change.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/change.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/dynamic.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/dynamic.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/emergence.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/emergence.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/endogeneity.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/endogeneity.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/epiphenomenon.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/epiphenomenon.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/event-stream.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/event-stream.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/event.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/event.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/interaction.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/interaction.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/irreversible-process.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/irreversible-process.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/level-of-organization.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/level-of-organization.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/materialism.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/materialism.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/monism.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/monism.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/non-linear-system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/non-linear-system.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/ontology.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/ontology.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/philosophia-naturalis.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/philosophia-naturalis.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/principle.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/principle.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/property.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/property.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/quasi-open-interaction-field.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/quasi-open-interaction-field.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/reality.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/reality.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/segment.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/segment.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/epistemic/nature/system.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/meta/system.md: the natural-ontology notes are the concepts by which reality is represented — epistemic readings of natural elements, not natural elements themselves — so they file with the epistemic theory scope and the nature shelf links to the dir."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Retarget the note's links to the shelf at its new path (epistemica/epistemic/nature/)."
    }
   ]
  }

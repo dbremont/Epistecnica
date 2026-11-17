@@ -4,9 +4,9 @@ tags: [note, reality]
 
 # Reality
 
-Related: [Segment](/view.html?p=notes/nature/meta/segment.md), [State](/view.html?p=notes/epistemica/epistemic/theory/state.md), [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
+Related: [Segment](/view.html?p=notes/epistemica/epistemic/nature/segment.md), [State](/view.html?p=notes/epistemica/epistemic/theory/state.md), [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 
-> For now - see [Reality](/view.html?p=notes/nature/meta/philosophia-naturalis.md).
+> For now - see [Reality](/view.html?p=notes/epistemica/epistemic/nature/philosophia-naturalis.md).
 > 
 
 Guiding questions:

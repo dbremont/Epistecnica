@@ -166,7 +166,7 @@ Three groupings in this table are easy to misunderstand and worth naming.
 - https://en.wikipedia.org/wiki/State_of_matter
 - https://en.wikipedia.org/wiki/Standard_Model
 - https://www.symmetrymagazine.org/article/the-planck-scale?language_content_entity=und
-- [Interaction](/view.html?p=notes/nature/meta/interaction.md)
+- [Interaction](/view.html?p=notes/epistemica/epistemic/nature/interaction.md)
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/interaction/fundamental-molecular-interaction.md)
 - [Fundamental Interaction](/view.html?p=notes/nature/interaction/fundamental-interaction.md)
 - [Electric Charge](/view.html?p=notes/nature/property/electric-charge.md)

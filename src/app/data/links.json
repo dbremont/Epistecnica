@@ -146,7 +146,7 @@
     },
     {
       "from": "epistemica/epistemic/",
-      "to": "nature/meta/",
+      "to": "epistemica/epistemic/nature/",
       "label": "Metaphysics of Nature",
       "kind": "hierarchy"
     },
@@ -247,6 +247,12 @@
       "to": "social/collective/actor/scholar-official.md",
       "label": "Scholar-Official",
       "kind": "related"
+    },
+    {
+      "from": "nature/",
+      "to": "epistemica/epistemic/nature/",
+      "label": "Metaphysics of Nature",
+      "kind": "hierarchy"
     }
   ]
 }

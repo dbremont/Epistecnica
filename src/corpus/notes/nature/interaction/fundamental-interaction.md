@@ -47,7 +47,7 @@ QA:
 - [Standard Model](/view.html?p=notes/nature/standard-model.md)
 - [Energy](/view.html?p=notes/nature/property/energy.md)
 - [Fundamental Molecular Interaction](/view.html?p=notes/nature/interaction/fundamental-molecular-interaction.md)
-- [Interaction](/view.html?p=notes/nature/meta/interaction.md)
+- [Interaction](/view.html?p=notes/epistemica/epistemic/nature/interaction.md)
 - [Atom](/view.html?p=notes/nature/atom.md)
 - [Electromagnetic System](/view.html?p=notes/nature/electromagnetic-system.md)
 - [Matter](/view.html?p=notes/nature/matter/matter.md)

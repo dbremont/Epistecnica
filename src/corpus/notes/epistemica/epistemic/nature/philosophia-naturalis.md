@@ -69,7 +69,7 @@ apple's position, a person's anxiety, a market's volatility).
 
 ### Reality
 
-> See more in Nature and [Reality](/view.html?p=notes/nature/meta/reality.md).
+> See more in Nature and [Reality](/view.html?p=notes/epistemica/epistemic/nature/reality.md).
 > 
 
 > **Reality** is the total set of phenomena, entities, and processes that exist or occur, **independently of an observer’s perception or conceptualization**, and which can, in principle, interact, change, or produce effects.
@@ -108,7 +108,7 @@ The following principles summarize these features:
 > In highly technical terms, the **"Level of Organization"** of a system refers to the hierarchical stratification of its structural and functional components, ranging from fundamental microscopic interactions to emergent macroscopic behaviors. This concept is crucial in physics, biology, complexity science, and engineering when modeling systems with multiscale dynamics, memory, or adaptive laws.
 > 
 
-> See more in [Level of Organization](/view.html?p=notes/nature/meta/level-of-organization.md).
+> See more in [Level of Organization](/view.html?p=notes/epistemica/epistemic/nature/level-of-organization.md).
 > 
 - **Micro-level:** Individual elements and their local interactions.
 - **Meso-level:** Subsystems, modules, clusters of interactions.
@@ -120,7 +120,7 @@ The following principles summarize these features:
 > What is reality like? Which are the elements that makes up reality? How do we identify such elements?  How to think deeply about changed? How to think about changed as an element of reality itself?
 > 
 
-> See more in [Ontology](/view.html?p=notes/nature/meta/ontology.md).
+> See more in [Ontology](/view.html?p=notes/epistemica/epistemic/nature/ontology.md).
 > 
 
 ### Level of Reality
@@ -134,7 +134,7 @@ The following principles summarize these features:
 > How new ontic entities arises  - from lower elements? How to they give rise to new pieces of reality?
 > 
 
-> See more in [Level of Organization](/view.html?p=notes/nature/meta/level-of-organization.md).
+> See more in [Level of Organization](/view.html?p=notes/epistemica/epistemic/nature/level-of-organization.md).
 > 
 
 ### Template of Realty
@@ -142,7 +142,7 @@ The following principles summarize these features:
 > The templates of reality are not ontic concepts; rather, they are epistemic constructs that allow us to parse and structure reality.
 > 
 
-> See more in [Ontology Template](/view.html?p=notes/nature/meta/ontology.md) and [Segment](/view.html?p=notes/nature/meta/segment.md).
+> See more in [Ontology Template](/view.html?p=notes/epistemica/epistemic/nature/ontology.md) and [Segment](/view.html?p=notes/epistemica/epistemic/nature/segment.md).
 > 
 
 | **Category** | **Notion** | **Description** |
@@ -179,7 +179,7 @@ The following principles summarize these features:
 > **What constitutes an epistemic tool, and how does it mediate access to reality?**
 > 
 
-> See more in [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/view.html?p=notes/nature/meta/ontology.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md) and Observer.
+> See more in [Epistemology](/view.html?p=notes/epistemica/epistemic/theory/epistemology.md), [Ontology](/view.html?p=notes/epistemica/epistemic/nature/ontology.md), [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md) and Observer.
 > 
 
 > Note:  For reality section -  and a abstract template to encoded - see Ontology.
@@ -446,14 +446,14 @@ On this setting to what do we attribute compression of observations? or What hum
 - https://en.wikipedia.org/wiki/Reality
 - https://www.youtube.com/watch?v=X4PdPnQuwjY&t=19s
 - A Guide to Reading
-- [System](/view.html?p=notes/nature/meta/system.md)
+- [System](/view.html?p=notes/epistemica/epistemic/nature/system.md)
 - Energy
 - [Epistemic Artifact](/view.html?p=notes/epistemica/epistemic/theory/epistemic-artifact.md)
 - [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md)
 - [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
 - https://en.wikipedia.org/wiki/Reality
 - Nature
-- [Reality](/view.html?p=notes/nature/meta/reality.md)
-- [Ontology](/view.html?p=notes/nature/meta/ontology.md)
+- [Reality](/view.html?p=notes/epistemica/epistemic/nature/reality.md)
+- [Ontology](/view.html?p=notes/epistemica/epistemic/nature/ontology.md)
 
 [Philosophy](/view.html?p=notes/epistemica/epistemic/theory/philosophy.md)
