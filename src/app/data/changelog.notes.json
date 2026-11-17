@@ -122032,5 +122032,15 @@
     "commit": "e7f23d5ffbc0aabef353e11b68a131d62bf55ce9"
    }
   ]
+ },
+ {
+  "file_path": "nature/life/organism/sociality.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission."
+   }
+  ]
  }
 ]
