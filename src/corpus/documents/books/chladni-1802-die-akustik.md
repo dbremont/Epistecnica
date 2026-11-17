@@ -1,5 +1,5 @@
 ---
-tags: [document, acoustics, experimental, mathematical, historical-technique]
+tags: [document, acoustics, experimental, mathematics, historical-technique]
 qa:
  - What does Chladni's Akustik carry — the sand-patterns' own founding text, the vibration figures the acoustic branch's economy began?
  - Does the 1802 treatise stand beside Kundt's dust figures and Rayleigh's mathematical theory, the experimental tradition's founder?

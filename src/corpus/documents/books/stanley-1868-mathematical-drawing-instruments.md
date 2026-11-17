@@ -1,5 +1,5 @@
 ---
-tags: [document, drawing-instruments, mathematical, historical-technique]
+tags: [document, drawing-instruments, mathematics, historical-technique]
 qa:
  - What does Stanley's descriptive treatise teach — the mathematical drawing instruments' making, adjusting and use as one trade manual?
  - Does the 1868 volume stand beside the maker's trade the firm's name carries — whose drawing offices ran its tools?
