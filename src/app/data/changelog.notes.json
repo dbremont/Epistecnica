@@ -122269,7 +122269,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Renamed from political.md. The note was already titled Political Economy, but the filename read as political science — a different discipline — and the shelf names its entries after the discipline (econometrics, economic-research, history-of-economic-thinking). No inbound links pointed at the old path. References also reformatted: the MCRC Alicante link made a proper line, and the Wikipedia entry on political economy added beside it."
+    "summary": "Renamed from political.md. The note was already titled Political Economy, but the filename read as political science — a different discipline — and the shelf names its entries after the discipline (econometrics, economic-research, history-of-economic-thinking). No inbound links pointed at the old path. References also reformatted: the MCRC Alicante link made a proper line, and the Wikipedia entry on political economy added beside it.",
+    "commit": "a9895c104bc7152eda858575449d10096e7afe0d"
    }
   ]
  },
@@ -122279,7 +122280,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: the Swedish administrative system, filed with the polity rather than with the generic forms, which already carry the Swedish Government Agency as a kind. The argument is that the split between policy and delivery is not what makes the system distinctive — most states have one — but that the split is constitutional: the Instrument of Government forbids ministerial rule, a minister may not decide how an agency decides a particular case, and decisions are taken by the government collectively. Structure table (Riksdag, government, ministries, agencies, oversight) with what each may and may not do; then the two supporting institutions that make independence work rather than merely exist — the principle of public access since 1766, and review on legality through the administrative courts and the ombudsmen. The costs are stated plainly: nobody below the government can reconcile two agencies that disagree, ministerial accountability is real but diffused, and the model assumes a small high-capacity civil service and a culture of collective decision. Compared against the UK executive agency (insulation in a framework document) and the Japanese incorporated administrative agency (insulation in incorporation): the Swedish form puts it in the constitution."
+    "summary": "New note: the Swedish administrative system, filed with the polity rather than with the generic forms, which already carry the Swedish Government Agency as a kind. The argument is that the split between policy and delivery is not what makes the system distinctive — most states have one — but that the split is constitutional: the Instrument of Government forbids ministerial rule, a minister may not decide how an agency decides a particular case, and decisions are taken by the government collectively. Structure table (Riksdag, government, ministries, agencies, oversight) with what each may and may not do; then the two supporting institutions that make independence work rather than merely exist — the principle of public access since 1766, and review on legality through the administrative courts and the ombudsmen. The costs are stated plainly: nobody below the government can reconcile two agencies that disagree, ministerial accountability is real but diffused, and the model assumes a small high-capacity civil service and a culture of collective decision. Compared against the UK executive agency (insulation in a framework document) and the Japanese incorporated administrative agency (insulation in incorporation): the Swedish form puts it in the constitution.",
+    "commit": "a9895c104bc7152eda858575449d10096e7afe0d"
    }
   ]
  }
