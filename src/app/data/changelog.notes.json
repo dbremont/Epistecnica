@@ -122067,5 +122067,15 @@
     "commit": "5a8cca4663dca8848029aa592f845d4e36603b37"
    }
   ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/sgp/astar/agency-for-science-technology-and-research-a-star.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the governance notes added — Board (the collegial body the Profile names, Agency (Part) Governing Board, here a Board of Directors), Public Organization (the statutory-board type it instantiates under the 1990 Act), Organization (the actor type carrying Governing Board as a part) and Singapore (the polity whose ministry appoints the Board). The Profile had described a board-governed statutory board with no link to any of them."
+   }
+  ]
  }
 ]
