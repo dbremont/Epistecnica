@@ -90,7 +90,7 @@ Here's a detailed table summarizing key economic and industrial strategists in P
 | **Władysław Grabski** | 1923-1925 | Prime Minister, Minister of Treasury | Introduced the zloty, stabilized the economy post-WWI, and initiated economic reforms. |
 | **Eugeniusz Kwiatkowski** | 1926-1930, 1935-1939 | Minister of Industry and Trade | Architect of the Central Industrial Region (COP), promoting heavy industry and infrastructure development. |
 | **Edward Gierek** | 1970-1980 | First Secretary of the Polish United Workers' Party | Modernized industry through foreign loans, expanded industrial capacity, and improved living standards. |
-| **Leszek Balcerowicz** | 1989-1991, 1997-2000 | Deputy Prime Minister, Minister of Finance | Implemented "shock therapy" economic reforms to transition from a centrally planned economy to a market economy. |
+| **[Leszek Balcerowicz](/view.html?p=notes/social/collective/actor/private/persona/leszek-balcerowicz.md)** | 1989-1991, 1997-2000 | Deputy Prime Minister, Minister of Finance | Implemented "shock therapy" economic reforms to transition from a centrally planned economy to a market economy. |
 | **Jerzy Hausner** | 2003-2005 | Deputy Prime Minister, Minister of Economy and Labor | Developed the "Hausner Plan" for economic recovery and public sector reform. |
 | **Marek Belka** | 2004-2005 | Prime Minister, President of the National Bank of Poland (2010-2016) | Guided Poland through EU accession and promoted monetary stability. |
 | **Mateusz Morawiecki** | 2015-present | Prime Minister, previously Minister of Development, Minister of Finance | Advocated for the "Strategy for Responsible Development," focusing on innovation, infrastructure, and social equity. |
@@ -243,7 +243,7 @@ Here's a detailed table summarizing key economic and industrial strategists in P
 ### 1. Background Context
 
 * Transition from centrally planned economy to market economy starting 1989.
-* Key reforms under "Shock Therapy" (Balcerowicz Plan).
+* Key reforms under "Shock Therapy" ([Balcerowicz Plan](/view.html?p=notes/social/collective/actor/private/persona/leszek-balcerowicz.md)).
 * Integration with global economy and EU accession (2004).
 
 ### 2. Strategic Objectives

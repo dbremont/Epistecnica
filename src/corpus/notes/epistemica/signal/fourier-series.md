@@ -10,7 +10,7 @@ tags: [note, mathematics, analytical, function, representation]
 
 > **What it is.** The periodic case of the Fourier transform, and the oldest instance of an orthonormal expansion: the functions $e^{inx}$ form an orthogonal basis of $L^2$ on a period, so a function is its list of coefficients in that basis.
 >
-> **Type.** A `Concept` — a representational construction. The [Fourier transform](/view.html?p=notes/epistemica/singular/fourier-transform.md) is its non-periodic limit; the [integral transform](integral-transform.md) is the general frame.
+> **Type.** A `Concept` — a representational construction. The [Fourier transform](/view.html?p=notes/epistemica/signal/fourier-transform.md) is its non-periodic limit; the [integral transform](integral-transform.md) is the general frame.
 >
 > **Boundary.** Pointwise convergence is delicate (Gibbs phenomenon, Dirichlet conditions); $L^2$ convergence is the clean statement, because there the harmonics really are a basis of a [Hilbert space](../space/hilbert-space.md).
 
@@ -24,7 +24,7 @@ tags: [note, mathematics, analytical, function, representation]
 ## References
 
 - [Harmonic Analysis](/view.html?p=notes/epistemica/epistemic/discipline/harmonic-analysis.md) — the discipline this series is the oldest case of
-- [Fourier Transform](/view.html?p=notes/epistemica/singular/fourier-transform.md) · [Hilbert Space](/view.html?p=notes/epistemica/mathematical/space/hilbert-space.md) · [Wavelet](/view.html?p=notes/epistemica/mathematical/mapping/wavelet.md) — the non-periodic case, the space the basis lives in, and the localized alternative
+- [Fourier Transform](/view.html?p=notes/epistemica/signal/fourier-transform.md) · [Hilbert Space](/view.html?p=notes/epistemica/mathematical/space/hilbert-space.md) · [Wavelet](/view.html?p=notes/epistemica/signal/wavelet.md) — the non-periodic case, the space the basis lives in, and the localized alternative
 - Dirichlet, G. L. (1829). Sur la convergence des séries trigonométriques qui servent à représenter une fonction arbitraire entre des limites données. *Journal für die reine und angewandte Mathematik*, 4, 157–169.
 - Fourier, J. (1822). *Théorie analytique de la chaleur*. Firmin Didot.
 - Stein, E. M., & Shakarchi, R. (2011). *Fourier analysis: An introduction*. Princeton University Press.

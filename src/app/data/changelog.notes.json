@@ -22867,6 +22867,11 @@
     "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053",
     "before": "e03a1a05a50addd84e409596654e448965ad4053"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Point the Fast Fourier Transform entry at epistemica/signal/, where the note now lives."
    }
   ]
  },
@@ -120985,6 +120990,11 @@
     "kind": "move",
     "summary": "Move from epistemica/mathematical/mapping/fourier-series.md: the periodic transform that reads a signal as its harmonics.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Fourier-transform and wavelet links into the signal shelf; the two stale paths were the last ones the move left behind."
    }
   ]
  },
@@ -121040,6 +121050,26 @@
     "kind": "move",
     "summary": "Move from epistemica/observational/filter/wiener-filter.md: the optimal linear filter for a known signal and noise spectrum.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/leszek-balcerowicz.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New persona: the Polish economist who designed the Balcerowicz Plan, the 1990 shock-therapy package that moved Poland from a planned to a market economy, and who later presided over the National Bank of Poland."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/pol/poland.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note."
    }
   ]
  }
