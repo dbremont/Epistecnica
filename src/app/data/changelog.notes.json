@@ -19335,6 +19335,11 @@
     "summary": "Document the martingale concept in the epistemic schema: five Formulation questions, recursive decomposition, conceptual evaluation, and references.",
     "commit": "cc056f044ca533c8bbdbb397b825a4fb5d6ab868",
     "before": "e21b19c9388fd5b534be7e879d86a7de935c7ee7"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: Taleb (2018) linked through the new library entry — the election estimate priced as a binary option, and the arbitrage valuation that minimises the Brier score. The application of the note's own \"fair game\" reading to probability assessment."
    }
   ]
  },

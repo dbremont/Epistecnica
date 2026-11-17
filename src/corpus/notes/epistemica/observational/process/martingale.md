@@ -139,4 +139,5 @@ tags: [note, probability, stochastic-process]
 - Doob, J. L. (1953). *Stochastic Processes*. Wiley.
 - Williams, D. (1991). *Probability with Martingales*. Cambridge University Press.
 - Billingsley, P. (1995). *Probability and Measure* (3rd ed.). Wiley.
+- [Taleb, N. N. (2018). *Election predictions as martingales: An arbitrage approach*. *Quantitative Finance, 18*(1), 1–5.](/view.html?p=documents/papers/taleb-2018-election-predictions-martingales-arbitrage-quantitative-finance.md) — an election estimate priced as a binary option, and the arbitrage value that minimises the Brier score
 - Wikipedia contributors. (n.d.). Martingale (probability theory). In *Wikipedia*. https://en.wikipedia.org/wiki/Martingale_(probability_theory)
