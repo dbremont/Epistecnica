@@ -122338,7 +122338,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: state capital allocation linked — the decision half of the same question the instrument space answers."
+    "summary": "References: state capital allocation linked — the decision half of the same question the instrument space answers.",
+    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9",
+    "before": "644df8747d789ece5312797a9ecaac75be5f604b"
    }
   ]
  },
@@ -122348,7 +122350,8 @@
    {
     "date": "2026-11-17",
     "kind": "create",
-    "summary": "New note: state capital allocation, filed beside finance.md rather than in instrument/, because it is the decision that chooses among instruments and not an instrument itself — a state can hold every instrument in the space and still allocate badly. The spine: the state allocates capital with objectives that are not returns and with no single price to aggregate them, so the decision is political-administrative and its characteristic failures are political rather than computational. Allocation problem table (how much, to whom, on what terms, for what, for how long), the six criteria an allocation is judged on (market failure, additionality, leverage, capability, autonomy, fiscal cost) with the honest measure for each and the note that the criteria conflict — which is where allocations acquire their alibis. Four routes with their characteristic failure: direct/soft budget constraint, intermediated/mission drift, indirect/invisibility of tax expenditure and guarantees, portfolio/mandate displacement. Then the pathologies (picking winners as a failure to stop, capture, crowding out, flagship cycles, measurement by disbursement) and four instruments of discipline in ascending order of rarity: additionality testing, cost per outcome, composition reporting, sunset clauses."
+    "summary": "New note: state capital allocation, filed beside finance.md rather than in instrument/, because it is the decision that chooses among instruments and not an instrument itself — a state can hold every instrument in the space and still allocate badly. The spine: the state allocates capital with objectives that are not returns and with no single price to aggregate them, so the decision is political-administrative and its characteristic failures are political rather than computational. Allocation problem table (how much, to whom, on what terms, for what, for how long), the six criteria an allocation is judged on (market failure, additionality, leverage, capability, autonomy, fiscal cost) with the honest measure for each and the note that the criteria conflict — which is where allocations acquire their alibis. Four routes with their characteristic failure: direct/soft budget constraint, intermediated/mission drift, indirect/invisibility of tax expenditure and guarantees, portfolio/mandate displacement. Then the pathologies (picking winners as a failure to stop, capture, crowding out, flagship cycles, measurement by disbursement) and four instruments of discipline in ascending order of rarity: additionality testing, cost per outcome, composition reporting, sunset clauses.",
+    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9"
    }
   ]
  }
