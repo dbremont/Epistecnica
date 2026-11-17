@@ -1,5 +1,7 @@
 ---
 tags: [note, mathematics, algebraic, function]
+qa:
+ - Which are the thoeiretical reulsts about polynomiasl?
 ---
 
 # Polynomial
@@ -177,6 +179,28 @@ where:
 2. **Eigenvalues**: The roots of $p_A(\lambda)$ are exactly the eigenvalues of $A$.
 3. **Coefficients**: The sum of the eigenvalues equals the trace of $A$, and the product of the eigenvalues equals $\det(A)$.
 
+## Descartes's Rule of Signs
+
+> Take a polynomial - analye \[
+P(x)=x^4-3x^3-2x^2+5x-1
+\]
+
+aanmd alyze the singn changes Its coefficient signs are:
+\[
+\boxed{+\quad -\quad -\quad +\quad -}
+\]
+There are three sign changes:
+\[
++\rightarrow-,\qquad -\rightarrow+,\qquad +\rightarrow-
+\]
+Therefore, the polynomial has either:
+\[
+\boxed{3\text{ or }1\text{ positive real roots}}
+\]
+The number of positive real roots, counting multiplicities, differs from the number of sign changes by an even integer.
+
+Thsi chnges boudn teh number of roots.
+
 ## To Be Work 
 
 # The Role of Polynomials in Mathematical Modelling
@@ -310,8 +334,114 @@ One final distinction is worth emphasizing: **orthogonality is not inherently a 
 
 This is one of the most important reasons why different orthogonal polynomial families are useful for different mathematical problems.
 
+### Which are the main questino gtaht guides theoiretical results about polynomails?
+
+| Mathematical question | Principal results |
+|---|---|
+| How do we manipulate polynomials? | Division Algorithm, Remainder Theorem, Factor Theorem |
+| How are roots related to coefficients? | Vieta's Formulas, Newton's Identities, Symmetric Polynomial Theorem |
+| How many roots exist? | Fundamental Theorem of Algebra, Descartes's Rule of Signs, Sturm's Theorem |
+| How do we find or characterize roots? | Rational Root Theorem, Multiplicity of Roots, Polynomial Interpolation |
+| How do we factor polynomials? | Gauss's Lemma, Irreducibility Criteria, Euclidean Algorithm |
+| How do we determine common roots? | Bézout's Identity, Resultant Theorem |
+| How do we characterize repeated roots? | Discriminant |
+| When can polynomial equations be solved algebraically? | Galois Theory |
+| What is the general algebraic structure of polynomial rings? | Hilbert's Basis Theorem |
+
+### What are the main theoretical results concerning polynomials?
+
+> Some results concern the algebraic structure of polynomials themselves (division, factorization, irreducibility), others concern their roots (existence, number, multiplicity), and others establish connections with broader mathematical structures (fields, groups, rings, and geometry).
+
+| Result | Description | Origin |
+|---|---|---|
+| **Polynomial Division Algorithm** | Given polynomials \(P(x)\) and \(D(x)\neq 0\), there exist unique polynomials \(Q(x)\) and \(R(x)\) such that \(P(x)=D(x)Q(x)+R(x)\), where \(\deg R<\deg D\). | Classical algebra; formalized in modern algebra by the 19th century. |
+| **Remainder Theorem** | The remainder obtained by dividing \(P(x)\) by \(x-a\) is \(P(a)\). | Classical algebra; formalized in the 18th–19th centuries. |
+| **Factor Theorem** | \(x-a\) is a factor of \(P(x)\) if and only if \(P(a)=0\). | Follows from polynomial division; classical algebra. |
+| **Fundamental Theorem of Algebra** | Every nonconstant polynomial with complex coefficients has at least one complex root. Consequently, a polynomial of degree \(n\) has exactly \(n\) complex roots, counting multiplicities. | Carl Friedrich Gauss, 1799. |
+| **Vieta's Formulas** | Establish relationships between polynomial coefficients and the elementary symmetric sums of its roots. | François Viète, 1591. |
+| **Descartes's Rule of Signs** | The number of positive real roots of a polynomial, counted with multiplicity, is at most the number of sign changes in its coefficient sequence, differing from it by an even integer. | René Descartes, 1637. |
+| **Rational Root Theorem** | For a polynomial with integer coefficients, any rational root \(p/q\), in lowest terms, must have \(p\) dividing the constant coefficient and \(q\) dividing the leading coefficient. | Classical number-theoretic result; established in early modern algebra. |
+| **Multiplicity of Roots** | A root \(a\) has multiplicity \(m\) if \((x-a)^m\) divides the polynomial but \((x-a)^{m+1}\) does not. | Classical algebra; developed through polynomial factorization. |
+| **Euclidean Algorithm for Polynomials** | Computes the greatest common divisor of two polynomials through successive divisions with remainders. | Classical Euclidean algorithm adapted to polynomials; formalized in modern algebra. |
+| **Bézout's Identity for Polynomials** | For polynomials \(P,Q\), there exist polynomials \(A,B\) such that \(AP+BQ=\gcd(P,Q)\). | Étienne Bézout, 18th century. |
+| **Gauss's Lemma** | The product of two primitive integer polynomials is primitive. It provides a fundamental connection between factorization over the integers and over the rationals. | Carl Friedrich Gauss, 1801. |
+| **Irreducibility Criterion** | Establishes conditions under which a polynomial cannot be factored into lower-degree polynomials over a specified coefficient field. Important examples include Eisenstein's criterion. | Gottfried Wilhelm Leibniz and others; Eisenstein, 1850. |
+| **Sturm's Theorem** | Determines the exact number of distinct real roots of a polynomial in a given interval using a sequence of polynomial divisions. | Jacques Charles François Sturm, 1829. |
+| **Polynomial Interpolation Theorem** | Given \(n+1\) distinct points and their corresponding values, there exists a unique polynomial of degree at most \(n\) passing through all those points. | Classical interpolation; developed by Newton and others in the 17th century. |
+| **Taylor's Theorem for Polynomials** | A polynomial can be expressed exactly as a finite Taylor expansion around any point, with coefficients determined by its derivatives. | Brook Taylor, 1717. |
+| **Newton's Identities** | Relate the power sums of polynomial roots to the coefficients of the polynomial. | Isaac Newton, 17th century. |
+| **Symmetric Polynomial Theorem** | Every symmetric polynomial can be expressed uniquely as a polynomial in the elementary symmetric polynomials. | Developed in 19th-century algebra; foundational work by Cauchy and others. |
+| **Resultant Theorem** | The resultant of two polynomials vanishes if and only if they have a common root in the algebraic closure of their coefficient field. | Étienne Bézout, 1779; the determinant formulation by James Joseph Sylvester, 1853. |
+| **Discriminant of a Polynomial** | Provides an algebraic expression in the coefficients that vanishes precisely when the polynomial has a repeated root. | 19th-century algebra; developed by Sylvester and others. |
+| **Galois Theory** | Establishes a correspondence between field extensions and groups of automorphisms, providing criteria for whether polynomial equations can be solved by radicals. | Évariste Galois, 1830s. |
+| **Hilbert's Basis Theorem** | Every ideal in a polynomial ring over a Noetherian ring is finitely generated. | David Hilbert, 1890 (proved 1888). |
+
 ## References
 
+- Viète, F. (1591). *In artem analyticem isagoge*. Jamet Mettayer. — the relations between roots and coefficients, before the symbolic notation existed
+- Descartes, R. (1637). *Discours de la méthode, plus La dioptrique, Les météores et La géométrie*. Ian Maire. — the rule of signs, in the *Géométrie*
+- Tschirnhaus, E. W. von (1683). Methodus auferendi omnes terminos intermedios ex data aequatione. *Acta Eruditorum*, 2, 204–207.
+- Newton, I. (1707). *Arithmetica universalis*. Cambridge University Press. — the identities relating power sums of roots to coefficients
+- Bernoulli, J. (1713). *Ars conjectandi*. Thurnisius. — the Bernoulli numbers behind the Bernoulli polynomials
+- Taylor, B. (1717). *Methodus incrementorum directa et inversa*. William Innys. — the finite Taylor expansion of a polynomial
+- Euler, L. (1755). *Institutiones calculi differentialis*. Imperial Academy of Sciences. — the Eulerian polynomials and the power-sum generating function
+- Bézout, É. (1779). *Théorie générale des équations algébriques*. Ph.-D. Pierres. — the identity $AP + BQ = \gcd(P,Q)$ and the elimination theory behind the resultant
+- Legendre, A.-M. (1785). Recherches sur l'attraction des sphéroïdes homogènes. *Mémoires de mathématique et de physique présentés à l'Académie royale des sciences par divers savants*, 10, 411–434.
+- Bring, E. S. (1786). *Meletemata quaedam mathematica circa transformationem aequationum algebraicarum*. Lund.
+- Lagrange, J.-L. (1795). Leçons élémentaires sur les mathématiques. *Séances des Écoles Normales*, 2. — the interpolating basis that carries his name
+- Gauss, C. F. (1799). *Demonstratio nova theorematis omnem functionem algebraicam rationalem integram unius variabilis in factores reales primi vel secundi gradus resolvi posse*. Fleckeisen. — the fundamental theorem of algebra
+- Gauss, C. F. (1801). *Disquisitiones arithmeticae*. Fleischer. — the lemma on primitive polynomials, and the irreducibility of the cyclotomic polynomials
+- Rodrigues, O. (1816). De l'attraction des sphéroïdes. *Correspondence sur l'École Impériale Polytechnique*, 3, 361–385.
+- Abel, N. H. (1826a). Beweis eines Ausdrucks, von welchem die Binomial-Formel ein einzelner Fall ist. *Journal für die reine und angewandte Mathematik*, 1, 159–160.
+- Abel, N. H. (1826b). Démonstration de l'impossibilité de la résolution algébrique des équations générales qui passent le quatrième degré. *Journal für die reine und angewandte Mathematik*, 1, 65–84.
+- Jerrard, G. B. (1834). *An essay on the resolution of equations*. Taylor & Walton. — the reduction of the quintic to the Bring–Jerrard form
+- Sturm, J. C. F. (1835). Mémoire sur la résolution des équations numériques. *Mémoires présentés par divers savants à l'Académie royale des sciences de l'Institut de France*, 6, 271–318. — the sequence that counts distinct real roots in an interval
+- Galois, É. (1846). Mémoire sur les conditions de résolubilité des équations par radicaux. *Journal de mathématiques pures et appliquées*, 11, 417–433.
+- Eisenstein, G. (1850). Über die Irreducibilität und einige andere Eigenschaften der Gleichung, von welcher die Theilung der ganzen Lemniscate abhängt. *Journal für die reine und angewandte Mathematik*, 39, 160–179. — the criterion on the coefficients
+- Puiseux, V. (1850). Recherches sur les fonctions algébriques. *Journal de mathématiques pures et appliquées*, 15, 365–480. — the fractional-power series that resolve a branch at a singular point
+- Sylvester, J. J. (1853). On a theory of the syzygetic relations of two rational integral functions, comprising an application to the theory of Sturm's functions, and that of the greatest algebraical common measure. *Philosophical Transactions of the Royal Society of London*, 143, 407–548. — the determinant whose vanishing is the common root: the resultant, and the discriminant
+- Chebyshev, P. L. (1859). Sur les questions de minima qui se rattachent à la représentation approximative des fonctions. *Mémoires de l'Académie Impériale des Sciences de St.-Pétersbourg*, 7, 199–291. — the polynomial of least sup norm
+- Hermite, C. (1864). Sur un nouveau développement en série des fonctions. *Comptes rendus de l'Académie des sciences*, 58, 93–100, 266–273.
+- Lucas, É. (1878). Théorie des fonctions numériques simplement périodiques. *American Journal of Mathematics*, 1(2), 184–240. — the Fibonacci and Lucas polynomials
+- Appell, P. (1880). Sur une classe de polynômes. *Annales scientifiques de l'École Normale Supérieure*, 9, 119–144. — the sequences whose derivative is the shifted sequence
+- Hilbert, D. (1890). Über die Theorie der algebraischen Formen. *Mathematische Annalen*, 36, 473–534. — the basis theorem for ideals in a polynomial ring (proved 1888, published here)
+- Weber, H. (1895). *Lehrbuch der Algebra* (Vol. 1). Vieweg. — the polynomial ring stated as an algebraic structure
+- Charlier, C. V. L. (1905). Über die Darstellung willkürlicher Funktionen. *Arkiv för Matematik, Astronomi och Fysik*, 2(20), 1–35.
+- Steinitz, E. (1910). Algebraische Theorie der Körper. *Journal für die reine und angewandte Mathematik*, 137, 167–309.
+- Birkhoff, G. D. (1912). A determinant formula for the number of ways of coloring a map. *Annals of Mathematics*, 14(1), 42–46. — the chromatic polynomial
+- Zhegalkin, I. I. (1927). On the technique of calculating propositions in symbolic logic. *Matematicheskii Sbornik*, 34, 9–28. — the algebraic normal form of a Boolean polynomial
+- Alexander, J. W. (1928). Topological invariants of knots and links. *Transactions of the American Mathematical Society*, 30(2), 275–306.
+- Krawtchouk, M. (1929). Sur une généralisation des polynômes d'Hermite. *Comptes rendus de l'Académie des sciences*, 189, 620–622.
+- Funkhouser, H. G. (1930). A short account of the history of symmetric functions of roots of equations. *The American Mathematical Monthly*, 37(7), 357–365. https://doi.org/10.1080/00029890.1930.11987092 — the history behind Vieta's formulas, Newton's identities and the symmetric-polynomial theorem
+- Bell, E. T. (1934). Exponential polynomials. *Annals of Mathematics*, 35(2), 258–277. https://doi.org/10.2307/1968431
+- Meixner, J. (1934). Orthogonale Polynomsysteme mit einer besonderen Gestalt der erzeugenden Funktion. *Journal of the London Mathematical Society*, s1-9(1), 6–13. https://doi.org/10.1112/jlms/s1-9.1.6
+- Zernike, F. (1934). Beugungstheorie des Schneidenverfahrens und seiner verbesserten Form, der Phasenkontrastmethode. *Physica*, 1(8), 689–704. https://doi.org/10.1016/S0031-8914(34)80259-5 — the polynomials orthogonal on the unit disk
+- Szegő, G. (1939). *Orthogonal polynomials* (AMS Colloquium Publications No. 23). American Mathematical Society. — the standard account of the recurrence, the weights and the asymptotics
+- Touchard, J. (1939). Sur les cycles des substitutions. *Acta Mathematica*, 70, 243–297. https://doi.org/10.1007/BF02547349
+- Hahn, W. (1949). Über Orthogonalpolynome, die q-Differenzengleichungen genügen. *Mathematische Nachrichten*, 2(1), 4–34. https://doi.org/10.1002/mana.19490020103 — the general family of the lattice
+- Krall, H. L., & Frink, O. (1949). A new class of orthogonal polynomials: The Bessel polynomials. *Transactions of the American Mathematical Society*, 65(1), 100–115.
+- Tutte, W. T. (1954). A contribution to the theory of chromatic polynomials. *Canadian Journal of Mathematics*, 6, 80–91. https://doi.org/10.4153/CJM-1954-010-9 — deletion–contraction, and the two-variable polynomial that specializes to the rest
+- Narayana, T. V. (1955). Sur les treillis formés par les partitions d'un entier et leurs applications à la théorie des probabilités. *Comptes rendus de l'Académie des sciences*, 240, 1188–1189.
+- Ehrhart, E. (1962). Sur les polyèdres rationnels homothétiques à n dimensions. *Comptes rendus de l'Académie des sciences*, 254, 616–618. — lattice-point counting, where the quasi-polynomial appears
+- Chihara, T. S. (1978). *An introduction to orthogonal polynomials*. Gordon and Breach.
+- Gutman, I., & Harary, F. (1983). Generalizations of the matching polynomial. *Utilitas Mathematica*, 24, 97–106.
+- Askey, R., & Wilson, J. (1985). *Some basic hypergeometric orthogonal polynomials that generalize Jacobi polynomials* (Memoirs of the American Mathematical Society No. 319). American Mathematical Society. — the top of the scheme
+- Freyd, P., Yetter, D., Hoste, J., Lickorish, W. B. R., Millett, K., & Ocneanu, A. (1985). A new polynomial invariant of knots and links. *Bulletin of the American Mathematical Society*, 12(2), 239–246. https://doi.org/10.1090/S0273-0979-1985-15361-3 — the HOMFLY polynomial
+- Jones, V. F. R. (1985). A polynomial invariant for knots via von Neumann algebras. *Bulletin of the American Mathematical Society*, 12(1), 103–111. https://doi.org/10.1090/S0273-0979-1985-15304-2
+- Borwein, P., & Erdélyi, T. (1995). *Polynomials and polynomial inequalities*. Springer. — Chebyshev, Zolotarev and the extremal problems between them
+- Lang, S. (2002). *Algebra* (3rd ed.). Springer.
+- Rahman, Q. I., & Schmeisser, G. (2002). *Analytic theory of polynomials*. Oxford University Press.
+- Sturmfels, B. (2002). *Solving systems of polynomial equations* (CBMS Regional Conference Series No. 97). American Mathematical Society.
+- Dummit, D. S., & Foote, R. M. (2004). *Abstract algebra* (3rd ed.). Wiley.
+- Gautschi, W. (2004). *Orthogonal polynomials: Computation and approximation*. Oxford University Press. — the three-term recurrence as an algorithm
+- Prasolov, V. V. (2004). *Polynomials*. Springer. — the classical theory as a problem book
+- Ismail, M. E. H. (2005). *Classical and quantum orthogonal polynomials in one variable*. Cambridge University Press.
+- Simon, B. (2005). *Orthogonal polynomials on the unit circle* (Vols. 1–2; AMS Colloquium Publications No. 54). American Mathematical Society. — the Szegő recurrence and the Verblunsky coefficients
+- Basu, S., Pollack, R., & Roy, M.-F. (2006). *Algorithms in real algebraic geometry* (2nd ed.). Springer. — Sturm, Descartes and the decision procedures built on them
+- Koekoek, R., Lesky, P. A., & Swarttouw, R. F. (2010). *Hypergeometric orthogonal polynomials and their q-analogues*. Springer. — the Askey scheme as a table
+- Cox, D. A. (2012). *Galois theory* (2nd ed.). Wiley.
+- Cox, D., Little, J., & O'Shea, D. (2015). *Ideals, varieties, and algorithms* (4th ed.). Springer. — the basis theorem, resultants and the algorithms that use them
+- Maclagan, D., & Sturmfels, B. (2015). *Introduction to tropical geometry* (Graduate Studies in Mathematics No. 161). American Mathematical Society. — the tropical polynomial and its breakpoints
 - [Polynomial](https://en.wikipedia.org/wiki/Polynomial)
 - https://en.wikipedia.org/wiki/Delta_operator
 - https://en.wikipedia.org/wiki/Polynomial_ring
