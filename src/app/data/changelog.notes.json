@@ -122074,7 +122074,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: the governance notes added — Board (the collegial body the Profile names, Agency (Part) Governing Board, here a Board of Directors), Public Organization (the statutory-board type it instantiates under the 1990 Act), Organization (the actor type carrying Governing Board as a part) and Singapore (the polity whose ministry appoints the Board). The Profile had described a board-governed statutory board with no link to any of them."
+    "summary": "References: the governance notes added — Board (the collegial body the Profile names, Agency (Part) Governing Board, here a Board of Directors), Public Organization (the statutory-board type it instantiates under the 1990 Act), Organization (the actor type carrying Governing Board as a part) and Singapore (the polity whose ministry appoints the Board). The Profile had described a board-governed statutory board with no link to any of them.",
+    "commit": "01b9bfae8b4dbaf26845ce495a51735dc1c48a11",
+    "before": "fd1ea69507cfe85ab22fc38c6c8c2f7ed3320796"
    }
   ]
  }
