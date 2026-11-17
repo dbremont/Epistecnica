@@ -61769,7 +61769,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/ais.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/ais.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61791,7 +61792,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61827,7 +61829,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61849,7 +61852,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/application.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/application.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61883,7 +61887,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/chain-of-thought-cot.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/chain-of-thought-cot.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61905,7 +61910,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61927,7 +61933,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61949,7 +61956,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61971,7 +61979,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/mixed-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/mixed-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -61993,7 +62002,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62015,7 +62025,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62037,7 +62048,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62059,7 +62071,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62081,7 +62094,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62103,7 +62117,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62132,7 +62147,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62161,7 +62177,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/application/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/application/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62183,7 +62200,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/architecture.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/architecture.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62224,7 +62242,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/autoencoder.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/autoencoder.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62258,7 +62277,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/boltzmann-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/boltzmann-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62292,7 +62312,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/convolutional-neural-network-cnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/convolutional-neural-network-cnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62326,7 +62347,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/deep-belief-networks-dbn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/deep-belief-networks-dbn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62360,7 +62382,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/diffusion-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/diffusion-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62394,7 +62417,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/energy-based-model-ebm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/energy-based-model-ebm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62428,7 +62452,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/feedforward-neural-network-fnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/feedforward-neural-network-fnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62462,7 +62487,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/gaussian-bernoulli-restricted-boltzmann-machines-grbm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62496,7 +62522,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/generative-adversarial-network-gan.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/generative-adversarial-network-gan.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62530,7 +62557,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/graph-neural-networks-gnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/graph-neural-networks-gnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62564,7 +62592,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/helmholtz-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/helmholtz-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62598,7 +62627,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/hierarchical-temporal-memory-htm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/hierarchical-temporal-memory-htm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62632,7 +62662,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/hopfield-network.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/hopfield-network.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62666,7 +62697,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/kanerva-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/kanerva-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62700,7 +62732,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/lstm-networks.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/lstm-networks.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62741,7 +62774,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/multilayer-perceptron-mlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/multilayer-perceptron-mlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62789,7 +62823,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/neural-network-nn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/neural-network-nn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62877,7 +62912,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/perceptron-mccullochpitts-neuron.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/perceptron-mccullochpitts-neuron.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62911,7 +62947,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/recurrent-neural-network-rnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/recurrent-neural-network-rnn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62945,7 +62982,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/self-organizing-map.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/self-organizing-map.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -62979,7 +63017,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/sequence-to-sequence-seq2seq.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/sequence-to-sequence-seq2seq.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63035,7 +63074,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/transformer/attention.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/transformer/attention.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63063,7 +63103,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/transformer/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/transformer/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63112,7 +63153,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/transformer/transformer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/transformer/transformer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63146,7 +63188,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/variational-autoencoder-vae.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/variational-autoencoder-vae.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63180,7 +63223,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/architecture/word2vec.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/architecture/word2vec.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63196,7 +63240,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/domain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/domain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63224,7 +63269,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63252,7 +63298,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63280,7 +63327,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63308,7 +63356,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/language.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/language.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63342,7 +63391,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/n-gram.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/n-gram.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63370,7 +63420,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63398,7 +63449,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63426,7 +63478,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63454,7 +63507,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63482,7 +63536,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63510,7 +63565,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63538,7 +63594,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63566,7 +63623,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/language/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/language/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63594,7 +63652,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63622,7 +63681,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63650,7 +63710,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63678,7 +63739,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63706,7 +63768,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63740,7 +63803,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/lgm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/lgm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63768,7 +63832,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63796,7 +63861,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/retrieval.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/retrieval.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63824,7 +63890,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63852,7 +63919,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/domain/retrieval/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/domain/retrieval/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63868,7 +63936,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63884,7 +63953,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63900,7 +63970,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/cityscapes.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/cityscapes.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63916,7 +63987,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/coco-common-objects-in-context.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/coco-common-objects-in-context.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63932,7 +64004,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63948,7 +64021,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/fashion-mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/fashion-mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63964,7 +64038,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/glue-general-language-understanding-evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/glue-general-language-understanding-evaluation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63980,7 +64055,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -63996,7 +64072,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/kitti.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/kitti.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64012,7 +64089,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/librispeech.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/librispeech.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64028,7 +64106,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/mnist.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64044,7 +64123,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/pascal-voc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/pascal-voc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64060,7 +64140,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/squad-stanford-question-answering-dataset.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/squad-stanford-question-answering-dataset.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64076,7 +64157,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/timit.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/timit.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64092,7 +64174,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/evaluation/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/evaluation/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64114,7 +64197,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64136,7 +64220,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/inference.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/inference.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64164,7 +64249,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64186,7 +64272,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64208,7 +64295,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64230,7 +64318,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64252,7 +64341,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64274,7 +64364,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64296,7 +64387,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/inference/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/inference/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64312,7 +64404,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/operation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/operation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64328,7 +64421,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/robotic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/robotic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64344,7 +64438,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/computer-numerical-control-cnc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64360,7 +64455,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/robotic-system/automatum-conceptual-model/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64382,7 +64478,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64404,7 +64501,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64426,7 +64524,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64448,7 +64547,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64470,7 +64570,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64492,7 +64593,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64532,7 +64634,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64572,7 +64675,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/clustering-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/clustering-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64612,7 +64716,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/conditional-random-fields-crfs.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/conditional-random-fields-crfs.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64652,7 +64757,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/decision-tree.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/decision-tree.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64687,7 +64793,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64727,7 +64834,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/latent-dirichlet-allocation-lda.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/latent-dirichlet-allocation-lda.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64755,7 +64863,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/learning-method.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/learning-method.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64795,7 +64904,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/naive-bayes-classifier.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/naive-bayes-classifier.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64835,7 +64945,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/random-forest.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/random-forest.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64875,7 +64986,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/learning-method/support-vector-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/learning-method/support-vector-machine.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64897,7 +65009,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64926,7 +65039,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/synthesis.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/synthesis.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64948,7 +65062,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64970,7 +65085,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/synthesis/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/synthesis/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -64986,7 +65102,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65008,7 +65125,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65037,7 +65155,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65054,7 +65173,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/computational-learning-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65070,7 +65190,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/abstract-reasoning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65086,7 +65207,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/active-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65102,7 +65224,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/agentic-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65118,7 +65241,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/bert.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65134,7 +65258,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/cifar-10-100.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65150,7 +65275,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/code-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65166,7 +65292,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/constituency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65182,7 +65309,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/curriculum-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65198,7 +65326,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/data-augmentation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65214,7 +65343,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dbt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65230,7 +65360,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65246,7 +65377,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65262,7 +65394,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dependency-parsing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65278,7 +65411,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/differentiable-computing.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65294,7 +65428,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/distributed-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65310,7 +65445,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/document-classification.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65326,7 +65462,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/dual-chunk-attention-dca.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65342,7 +65479,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ensemble-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65358,7 +65496,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/full-text-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65374,7 +65513,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65390,7 +65530,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65406,7 +65547,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/haystack.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65422,7 +65564,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/imagenet.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65438,7 +65581,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interaction-layer.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65454,7 +65598,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/interoperability.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65470,7 +65615,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65486,7 +65632,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65502,7 +65649,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-distillation.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65518,7 +65666,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/knowledge-graph.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65534,7 +65683,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/langchain.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65550,7 +65700,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/language-modelling-lm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/language-modelling-lm.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65566,7 +65717,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/mixture-of-experts-moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/mixture-of-experts-moe.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65582,7 +65734,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/model-context-protocol-mcp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65598,7 +65751,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-level-attention-mla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65614,7 +65768,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/multi-tensor-processing-mtp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65630,7 +65785,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/n-grams.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/n-grams.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65646,7 +65802,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/named-entity-recognition-ner.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65662,7 +65819,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-processing-nlp.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65678,7 +65836,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/natural-language-toolkit-nltk.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65694,7 +65853,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65710,7 +65870,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65726,7 +65887,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65742,7 +65904,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65758,7 +65921,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/optical-flow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65774,7 +65938,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65790,7 +65955,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/paraphrase-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65806,7 +65972,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/parts-of-speech-pos-tags.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65822,7 +65989,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/performace.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65838,7 +66006,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/quantization.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65854,7 +66023,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/recommender-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65870,7 +66040,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/reinforcement-learning-with-human-feedback-rlhf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65886,7 +66057,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/retrieval-augmented-generation-rag.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65902,7 +66074,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65918,7 +66091,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65934,7 +66108,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/semantic-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65950,7 +66125,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/similarity-search.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65966,7 +66142,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/spacy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65982,7 +66159,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -65998,7 +66176,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/system-prompt.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66014,7 +66193,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/temperature.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66030,7 +66210,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66046,7 +66227,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/term-frequency-inverse-document-frequency-tf-idf.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66062,7 +66244,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/test-time-compute-ttc.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66078,7 +66261,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66094,7 +66278,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/topic.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66110,7 +66295,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66126,7 +66312,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transfer-learning.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66142,7 +66329,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system-training.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66158,7 +66346,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66174,7 +66363,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/virtual-assistant.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66190,7 +66380,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/visual-encoding.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66206,7 +66397,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/world-model.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66222,7 +66414,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/conceptual-model-ml-system/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/conceptual-model-ml-system/yolo-real-time-object-detection.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66244,7 +66437,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/deepseek-r1.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66266,7 +66460,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/deepseek-v3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66288,7 +66483,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/gpt2.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66310,7 +66506,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/gpt3.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66326,7 +66523,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66349,7 +66547,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/system/transformer/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/system/transformer/transformer-system.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66365,7 +66564,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/theory/coding-model-continuation-study.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/theory/coding-model-continuation-study.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66381,7 +66581,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/theory/llm-system-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/theory/llm-system-modelling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66397,7 +66598,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/theory/study-framework.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/theory/study-framework.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66419,7 +66621,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/jax.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66441,7 +66644,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/keras.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66463,7 +66667,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/numpy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66485,7 +66690,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/ollama.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66507,7 +66713,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/opencv.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66529,7 +66736,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/openxla.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66551,7 +66759,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/pandas.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66573,7 +66782,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/scikit-learn.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66595,7 +66805,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/scipy.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66617,7 +66828,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/statsmodels.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66639,7 +66851,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/tensorflow.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
@@ -66661,7 +66874,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from technica/ais/tooling/tooling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf."
+    "summary": "Move from technica/ais/tooling/tooling.md: the scope is named for what it studies — cybernetics, the control and inference of systems through feedback — rather than for the abbreviation that had come to stand for the machine-learning shelf.",
+    "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
    }
   ]
  },
