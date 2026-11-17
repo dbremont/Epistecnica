@@ -122034,13 +122034,28 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/sociality.md",
+  "file_path": "social/collective/sociality.md",
   "logs": [
    {
     "date": "2026-11-17",
     "kind": "create",
     "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission.",
     "commit": "f880b5f63b1f61e669f70098bc61aa855d328c58"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/sociality.md: physically moved into the social shelf, beside society.md, at the user's instruction. The propensity is still typed as a Property and the decomposition is unchanged; the tags now lead with social rather than nature."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/tertullian.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New persona: Tertullian (c. 155 - c. 240), the first Christian author to write in Latin and the builder of the vocabulary Western theology argues in — trinitas, persona, substantia, sacramentum. The note separates three contributions: the apology (Apologeticus, c. 197, with the seed-of-the-martyrs sentence), the rule of faith (De praescriptione haereticorum, a procedural claim about the conditions under which an argument is possible rather than obscurantism), and the materialist psychology of De anima. It also records what he is remembered for wrongly: credo quia absurdum is a hostile paraphrase, and what he wrote in De carne Christi is narrower — credible because unfitting, certain because impossible — a claim about which criterion applies rather than a fideist slogan. Filed as the archetype of the polemic, which is now a glossarium term."
    }
   ]
  }

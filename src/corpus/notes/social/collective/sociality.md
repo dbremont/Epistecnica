@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, organism, behavior, evolution, sociality]
+tags: [note, social, sociality, organism, behavior, evolution]
 qa:
  - Is sociality a property of an individual, a property of a population, or a pattern that exists only between them — and does the answer change what counts as its evidence?
  - Eusociality evolves where relatedness is high and dispersal is hard; when the ecology changes, does the behaviour follow, or does it persist as a constraint?
