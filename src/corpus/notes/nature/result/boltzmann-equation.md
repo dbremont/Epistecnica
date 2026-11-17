@@ -15,6 +15,8 @@ qa:
 
 > Note: the equation is a **closure**, not a reduction. It does not follow from the mechanics of $N$ particles — it follows from that mechanics *plus* the assumption that pairs of particles about to collide are statistically independent, and that assumption is the whole difficulty: it is what makes the equation solvable, what makes it irreversible, and what its critics have attacked since 1876.
 
+> It is one member of a hierarchy, and the note is easier to read beside its relatives: the [Liouville equation](/view.html?p=notes/nature/result/liouville-equation.md) is the exact equation it truncates, the [Vlasov equation](/view.html?p=notes/nature/result/vlasov-equation.md) is what remains when the collision term is deleted, and the [Jeans equations](/view.html?p=notes/nature/result/jeans-equations.md) are its velocity moments in the collisionless case. The shelf master, [Equation](/view.html?p=notes/nature/result/equation.md), states why the form travels and the closure does not.
+
 ## Formulation
 
 ### What is this epistemic instance?
