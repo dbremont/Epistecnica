@@ -1,147 +1,165 @@
 [
-  {
-    "id": "qa-00001",
-    "question": "In what material forms do chemical elements naturally occur? To what extent do they exist as isolated elements versus being chemically or structurally incorporated into higher-order substances and systems such as compounds, minerals, rocks, fluids, and biological matter?",
-    "answer": "",
-    "agent": "human",
-    "run": "seed-001",
-    "date": "2026-09-30",
-    "source": "manual",
-    "tags": [
-      "nature",
-      "chemical-elements",
-      "material-forms"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00002",
-    "question": "Why does Singapore use the GIC?",
-    "answer": "",
-    "agent": "human",
-    "run": "seed-002",
-    "date": "2026-10-07",
-    "source": "manual",
-    "tags": [
-      "singapore",
-      "gic",
-      "sovereign-wealth",
-      "economic"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00003",
-    "question": "How do currency markets work in Singapore?",
-    "answer": "",
-    "agent": "human",
-    "run": "seed-003",
-    "date": "2026-10-07",
-    "source": "manual",
-    "tags": [
-      "singapore",
-      "currency",
-      "monetary-authority",
-      "economic"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00004",
-    "question": "How does Singapore's external economic interaction happen?",
-    "answer": "",
-    "agent": "human",
-    "run": "seed-004",
-    "date": "2026-10-07",
-    "source": "manual",
-    "tags": [
-      "singapore",
-      "trade",
-      "external-economic",
-      "economic"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00005",
-    "question": "What is the relation between a mathematical norm and a metric?",
-    "answer": "A norm is a size on a vector space; a metric is a distance on a bare set. Every norm induces a metric by d(x,y) = ‖x − y‖, and that induced metric carries two marks an arbitrary metric need not carry: it is translation-invariant, d(x+z, y+z) = d(x,y), and homogeneous, d(λx, λy) = |λ| d(x,y). A metric induces a norm only when the carrier is a vector space and both marks hold — then ‖x‖ = d(x,0) is a norm and d is recovered from it.\n\nWithout both marks the converse fails: the discrete metric, and any bounded metric such as min(d,1), satisfy the metric axioms and produce no norm. So the implication runs one way, and it is a chain of losses — inner product → norm → metric → topology. An inner product adds angles, a norm adds linear structure to lengths, a metric keeps distances but forgets addition and scaling, a topology keeps only openness. Two norms that induce the same metric are equal; two norms that induce the same topology may differ on every vector, which is why equivalence of norms is weaker than equality.",
-    "agent": "human",
-    "run": "derived-001",
-    "date": "2026-11-04",
-    "source": "manual",
-    "tags": [
-      "mathematics",
-      "norm",
-      "metric",
-      "space"
-    ],
-    "status": "answered"
-  },
-  {
-    "id": "qa-00006",
-    "question": "What is the relation of quantification and a measure in mathematics?",
-    "answer": "They are siblings with different relata. Quantification binds a magnitude to an item under a declared unit and scale; a measure binds a size to a set under an internal normalization. That is why the unit is external in the one and absent in the other: 3.2 m names the metre, while μ(A) names nothing — the unit cube is worth one because the scheme says so.\n\nThe relation is a generalisation in the second argument: a measure assigns its value to a whole collection, so how much becomes defined for sets that are not items at all. They meet in three places. The counting measure is cardinality read as a measure — the counting quantification with its implicit unit made explicit. A probability measure is the measure an event algebra carries, and the one fitted to observations rather than declared. The Lebesgue measure is what makes length, area and volume quantified attributes in the first place, the mathematical object standing behind the unit.\n\nThe test that separates them in a sentence: ask whether the value attaches to an item or to a set, and whether the unit is external or internal. Applied to a finite collection the two coincide — which is why counting sits on the boundary; applied to a single body's mass, only quantification applies.",
-    "agent": "human",
-    "run": "derived-001",
-    "date": "2026-11-04",
-    "source": "manual",
-    "tags": [
-      "mathematics",
-      "quantification",
-      "measure",
-      "quantity"
-    ],
-    "status": "answered"
-  },
-  {
-    "id": "qa-00007",
-    "question": "What differentiates a molecule from a nanoparticle?",
-    "answer": "",
-    "agent": "human",
-    "run": "derived-002",
-    "date": "2026-11-08",
-    "source": "manual",
-    "tags": [
-      "nature",
-      "molecule",
-      "matter",
-      "nanoparticle"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00008",
-    "question": "What are the economic implications of foreign ownership and control of domestic firms for a country's productive capabilities, technological development, capital accumulation, and long-term economic autonomy?",
-    "answer": "",
-    "agent": "human",
-    "run": "seed-005",
-    "date": "2026-11-08",
-    "source": "manual",
-    "tags": [
-      "economic",
-      "foreign-ownership",
-      "capital-accumulation",
-      "productive-capabilities"
-    ],
-    "status": "open"
-  },
-  {
-    "id": "qa-00009",
-    "question": "How is mathematics used in technical domains?",
-    "answer": "Mathematics is used in technical practice less as a body of results than as an instrument: it makes a situation representable, compares alternatives, and holds a model steady enough to design against.\n\n- **Modelling** — turn the physical situation into a formal object: state variables, relations, rates, constraints, and boundary or initial conditions.\n- **Optimization** — decide how to change a design, process, or configuration so that it meets the engineering specification: design variables, objective, constraints, trade-offs.\n- **Model building / design** — construct a vivid representation of the system that can be inspected, simulated, compared, and communicated before construction.\n\n| Activity | Description | Role of differential equations |\n|---|---|---|\n| **System Description** | Mathematically describe the physical behavior and dynamics of an engineering system. | Formulate and solve equations representing rates of change, interactions, and system evolution. |\n| **Selection & Optimization** | Evaluate alternative designs and determine suitable or optimal engineering configurations. | Use differential-equation models and their solutions to assess performance, compare alternatives, and optimize design parameters. |\n| **Model Building** (A Vivid Model of the System) (Design) (Representation) | Construct a representation of the system vivid enough to support design: variables, relations, boundary and initial conditions, performance criteria, and the proposed intervention. | Supply the dynamic skeleton of the model — rates of change, interactions, and constraints — so the model can be simulated, compared, and used to justify design decisions before construction. |\n\nDifferential equations are one instrument among several; the table names where they do work, not why every technical problem is continuous or dynamic. The specification, the admissible changes, and the criteria of success remain technical and normative inputs to the mathematics, not products of it.",
-    "agent": "human",
-    "run": "derived-003",
-    "date": "2026-11-11",
-    "source": "manual",
-    "tags": [
-      "mathematics",
-      "engineering",
-      "technical-practice",
-      "modelling",
-      "optimization",
-      "differential-equations"
-    ],
-    "status": "answered"
-  }
+ {
+  "id": "qa-00001",
+  "question": "In what material forms do chemical elements naturally occur? To what extent do they exist as isolated elements versus being chemically or structurally incorporated into higher-order substances and systems such as compounds, minerals, rocks, fluids, and biological matter?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-001",
+  "date": "2026-09-30",
+  "source": "manual",
+  "tags": [
+   "nature",
+   "chemical-elements",
+   "material-forms"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00002",
+  "question": "Why does Singapore use the GIC?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-002",
+  "date": "2026-10-07",
+  "source": "manual",
+  "tags": [
+   "singapore",
+   "gic",
+   "sovereign-wealth",
+   "economic"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00003",
+  "question": "How do currency markets work in Singapore?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-003",
+  "date": "2026-10-07",
+  "source": "manual",
+  "tags": [
+   "singapore",
+   "currency",
+   "monetary-authority",
+   "economic"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00004",
+  "question": "How does Singapore's external economic interaction happen?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-004",
+  "date": "2026-10-07",
+  "source": "manual",
+  "tags": [
+   "singapore",
+   "trade",
+   "external-economic",
+   "economic"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00005",
+  "question": "What is the relation between a mathematical norm and a metric?",
+  "answer": "A norm is a size on a vector space; a metric is a distance on a bare set. Every norm induces a metric by d(x,y) = ‖x − y‖, and that induced metric carries two marks an arbitrary metric need not carry: it is translation-invariant, d(x+z, y+z) = d(x,y), and homogeneous, d(λx, λy) = |λ| d(x,y). A metric induces a norm only when the carrier is a vector space and both marks hold — then ‖x‖ = d(x,0) is a norm and d is recovered from it.\n\nWithout both marks the converse fails: the discrete metric, and any bounded metric such as min(d,1), satisfy the metric axioms and produce no norm. So the implication runs one way, and it is a chain of losses — inner product → norm → metric → topology. An inner product adds angles, a norm adds linear structure to lengths, a metric keeps distances but forgets addition and scaling, a topology keeps only openness. Two norms that induce the same metric are equal; two norms that induce the same topology may differ on every vector, which is why equivalence of norms is weaker than equality.",
+  "agent": "human",
+  "run": "derived-001",
+  "date": "2026-11-04",
+  "source": "manual",
+  "tags": [
+   "mathematics",
+   "norm",
+   "metric",
+   "space"
+  ],
+  "status": "answered"
+ },
+ {
+  "id": "qa-00006",
+  "question": "What is the relation of quantification and a measure in mathematics?",
+  "answer": "They are siblings with different relata. Quantification binds a magnitude to an item under a declared unit and scale; a measure binds a size to a set under an internal normalization. That is why the unit is external in the one and absent in the other: 3.2 m names the metre, while μ(A) names nothing — the unit cube is worth one because the scheme says so.\n\nThe relation is a generalisation in the second argument: a measure assigns its value to a whole collection, so how much becomes defined for sets that are not items at all. They meet in three places. The counting measure is cardinality read as a measure — the counting quantification with its implicit unit made explicit. A probability measure is the measure an event algebra carries, and the one fitted to observations rather than declared. The Lebesgue measure is what makes length, area and volume quantified attributes in the first place, the mathematical object standing behind the unit.\n\nThe test that separates them in a sentence: ask whether the value attaches to an item or to a set, and whether the unit is external or internal. Applied to a finite collection the two coincide — which is why counting sits on the boundary; applied to a single body's mass, only quantification applies.",
+  "agent": "human",
+  "run": "derived-001",
+  "date": "2026-11-04",
+  "source": "manual",
+  "tags": [
+   "mathematics",
+   "quantification",
+   "measure",
+   "quantity"
+  ],
+  "status": "answered"
+ },
+ {
+  "id": "qa-00007",
+  "question": "What differentiates a molecule from a nanoparticle?",
+  "answer": "",
+  "agent": "human",
+  "run": "derived-002",
+  "date": "2026-11-08",
+  "source": "manual",
+  "tags": [
+   "nature",
+   "molecule",
+   "matter",
+   "nanoparticle"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00008",
+  "question": "What are the economic implications of foreign ownership and control of domestic firms for a country's productive capabilities, technological development, capital accumulation, and long-term economic autonomy?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-005",
+  "date": "2026-11-08",
+  "source": "manual",
+  "tags": [
+   "economic",
+   "foreign-ownership",
+   "capital-accumulation",
+   "productive-capabilities"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00009",
+  "question": "How is mathematics used in technical domains?",
+  "answer": "Mathematics is used in technical practice less as a body of results than as an instrument: it makes a situation representable, compares alternatives, and holds a model steady enough to design against.\n\n- **Modelling** — turn the physical situation into a formal object: state variables, relations, rates, constraints, and boundary or initial conditions.\n- **Optimization** — decide how to change a design, process, or configuration so that it meets the engineering specification: design variables, objective, constraints, trade-offs.\n- **Model building / design** — construct a vivid representation of the system that can be inspected, simulated, compared, and communicated before construction.\n\n| Activity | Description | Role of differential equations |\n|---|---|---|\n| **System Description** | Mathematically describe the physical behavior and dynamics of an engineering system. | Formulate and solve equations representing rates of change, interactions, and system evolution. |\n| **Selection & Optimization** | Evaluate alternative designs and determine suitable or optimal engineering configurations. | Use differential-equation models and their solutions to assess performance, compare alternatives, and optimize design parameters. |\n| **Model Building** (A Vivid Model of the System) (Design) (Representation) | Construct a representation of the system vivid enough to support design: variables, relations, boundary and initial conditions, performance criteria, and the proposed intervention. | Supply the dynamic skeleton of the model — rates of change, interactions, and constraints — so the model can be simulated, compared, and used to justify design decisions before construction. |\n\nDifferential equations are one instrument among several; the table names where they do work, not why every technical problem is continuous or dynamic. The specification, the admissible changes, and the criteria of success remain technical and normative inputs to the mathematics, not products of it.",
+  "agent": "human",
+  "run": "derived-003",
+  "date": "2026-11-11",
+  "source": "manual",
+  "tags": [
+   "mathematics",
+   "engineering",
+   "technical-practice",
+   "modelling",
+   "optimization",
+   "differential-equations"
+  ],
+  "status": "answered"
+ },
+ {
+  "id": "qa-00010",
+  "question": "How can we reconstruct otherwise unobservable aspects of reality from the information physically encoded in the environment?\n\nConsider that sound is not merely something we hear: it is a propagating physical field generated by events and interactions in an environment. Its variations carry information about the objects that produced it, their movements, their physical properties, and the spaces through which the waves propagate. By combining signal analysis, physical models, and independent sources of data, it is possible to infer events, trajectories, locations, and other properties of reality that were never explicitly recorded.\n\nWhat is the general principle behind this phenomenon? How do different physical processes—acoustic waves, electromagnetic radiation, light, thermal radiation, vibrations, magnetic fields, seismic waves, and other environmental phenomena—encode information about the world? What kinds of information can be recovered from these signals, and through which measurement techniques, mathematical models, and inverse problems?\n\nIn particular:\n\n1. What physical properties of an event or object become encoded in the signals it generates or modifies?\n2. How do signals preserve information about their sources, interactions, trajectories, and surrounding environments?\n3. What can be reconstructed from these signals even when the original event was never directly observed?\n4. How can multiple independent signals and external datasets be combined to recover information that no individual signal could reveal?\n5. What are the fundamental limits of reconstruction imposed by noise, incomplete observations, physical ambiguity, and measurement resolution?\n6. What are the most remarkable scientific and technological examples of using environmental signals to reconstruct hidden aspects of reality?",
+  "answer": "The general principle is one sentence long: **a physical process imprints the state of a source on a field that propagates, and the imprint is lossy but structured** — lossy because the field cannot carry everything, structured because the transformation is governed by a known law. Reconstruction is therefore the inversion of a forward model under noise, and every case in this answer is that sentence specialised.\n\nThe alternative to a general principle is a catalogue of tricks, and the catalogue cannot answer question 4 (why combining channels works) or question 5 (what makes a reconstruction impossible in principle rather than merely difficult). The principle can.\n\n## 1. Encoding: what a signal is\n\nAn environmental signal is a **field with structure left in it by its history**. Four things are encoded, and almost every reconstruction problem is a request for one of them:\n\n| Encoded | How it gets into the field | Example |\n| --- | --- | --- |\n| **Source properties** | Amplitude, spectrum and polarisation at emission | Temperature from thermal emission; composition from spectral lines; size from scattering |\n| **Kinematics** | Frequency shift, time delay, phase evolution | Velocity from the Doppler shift; trajectory from arrival times; distance from propagation delay |\n| **Environment** | Reflection, refraction, scattering, absorption along the path | Density from seismic travel times; humidity from sound attenuation; geometry from echoes |\n| **Timing and causal order** | Onset, duration, repetition, correlation between channels | When a rupture began, and in which order its parts moved |\n\nThe carrier decides which of these is legible. Sound is a pressure field, so it encodes motion and geometry well and composition hardly at all; light is an electromagnetic field, so it encodes composition and temperature superbly and penetration badly; seismic waves are elastic waves in a solid, so they encode the interior of a planet and almost nothing about its surface chemistry. Every instrument is a choice of which row of that table it wants.\n\n## 2. The general account, step by step\n\n**(a) A forward model.** State the physics that connects the hidden quantity $\\theta$ to the observation $y$: $y = F(\\theta) + \\epsilon$. For a moving surface measured by a laser vibrometer, $F$ is the factor-of-two Doppler shift, $f_D = 2v/\\lambda$; for the Earth's interior, $F$ is the travel-time equation of a seismic ray through a velocity structure; for a black body, $F$ is Planck's law.\n\n**(b) An inverse problem.** Solve for $\\theta$ given $y$. This is the whole of the mathematical content, and it is a subject in its own right — see [Inverse Problem](/view.html?p=notes/epistemica/mathematical/equation/inverse-problem.md). Three regimes, in increasing difficulty: *well-posed* (unique, stable solution), *ill-posed* (the reconstruction amplifies noise), and *underdetermined* (many worlds produce the same signal).\n\n**(c) A measurement design.** Choose the geometry that makes the inverse problem as well-posed as it can be: multiple receivers, multiple frequencies, multiple times. This is where question 4 lives — a second independent channel usually does not add precision, it **breaks a degeneracy**.\n\n## 3. The carriers\n\n| Carrier | Encodes | Blind to | Reconstructs |\n| --- | --- | --- | --- |\n| **Acoustic and elastic** | Motion, geometry, medium density and elasticity | Composition directly | Speech and its speaker; room geometry; ocean temperature (acoustic thermometry); the sea floor |\n| **Electromagnetic — radio to X-ray** | Temperature, composition, velocity, magnetic field (Zeeman), structure | Anything opaque at that wavelength | Stars and galaxies; the cosmic microwave background; radar and SAR imaging; the atmosphere's profiles |\n| **Thermal infrared** | Surface temperature and emissivity | What is behind the surface | Heat leaks, wildfires, subsurface fires, planetary surfaces |\n| **Visible light** | Composition, shape, motion, polarisation | Depth | Photogrammetry; stellar spectroscopy; the sky's polarisation as a compass |\n| **Magnetic and electric** | Currents, magnetisation, conductivity | Non-magnetic matter | Subsurface structures, ore bodies, brain activity (MEG/EEG), geomagnetic reversal history |\n| **Seismic** | Elastic structure of a solid body | The surface | The Earth's core and mantle; oil reservoirs; earthquake rupture kinematics |\n| **Gravitational** | Mass distribution and its acceleration | Anything not massive enough | Gravitational waves from merging black holes; the mass distribution under a planet's surface (GRACE) |\n\nThe list looks heterogeneous and is not: each row is the same principle applied to a field with different coupling constants, and each has a characteristic **wavelength**, which sets its resolution and its penetration in one move. That trade — short wavelength resolves finely and penetrates badly, long wavelength penetrates and blurs — is the single most useful thing to know about environmental sensing, and it is why a geophysicist uses seismic waves for the mantle and gravity for the core.\n\n## 4. What can be recovered when nothing was recorded\n\nThe cases divide by *what kind of absence* is being repaired:\n\n- **Never observed from the right place.** The interior of a planet: never visited, reconstructed from waves that passed through it. Seismic tomography, helioseismology, asteroseismology, and the inference of the Earth's core from the shadow zone are one method.\n- **Never observed at the right time.** A past event reconstructed from its residue: ice cores and isotope ratios for climate, tree rings, sediment layers, and the cosmic microwave background as the residue of recombination.\n- **Never observed at the right resolution.** A structure smaller than the instrument's aperture, recovered from the pattern it casts: X-ray crystallography, diffraction-limited super-resolution, synthetic-aperture radar, and the reconstruction of a speaker's vocal tract from speech.\n- **Never observed at all, because it emitted nothing.** Mass distributions from their gravitational effect: dark matter from lensing and rotation curves; exoplanets from transit and radial-velocity wobble.\n\nThat last class is worth naming separately, since it is the strongest form of the claim: **gravitational lensing reconstructs a mass that emits no light**, and the reconstruction is not an inference from a proxy but a measurement of geometry.\n\n## 5. Combining channels\n\nIndependent signals add information only when they are **not functions of each other** — when each is blind to something the others see. Four combining strategies recur:\n\n1. **Triangulation** — the same event seen from several positions fixes its location; the geometry does the work, not the precision of any single measurement.\n2. **Multi-modal fusion** — light plus radar plus sound in a single model, where one modality supplies the boundary the other cannot see.\n3. **Joint inversion with priors** — external datasets enter as constraints that select among the worlds consistent with the signal: a velocity model from well logs, an atmosphere model from radiosondes, a catalogue of known sources.\n4. **Cross-correlation of ambient noise** — the strongest modern case: the background noise of the Earth or the ocean, correlated between two receivers, yields the travel time between them, so the environment's own noise is used as the source. See [Interference](/view.html?p=notes/nature/phenomena/interference.md).\n\n## 6. The limits, and which of them are fundamental\n\nFour limits, and only two are fundamental:\n\n| Limit | What it is | Fundamental? |\n| --- | --- | --- |\n| **Noise** | A random component that bounds precision | Yes, but reducible by averaging — the bound falls as the square root of the number of samples, so it is a cost, not a wall |\n| **Diffraction** | The wavelength sets the smallest resolvable structure — see [Diffraction](/view.html?p=notes/nature/phenomena/diffraction.md) | Yes, and it is why every imaging discipline is a fight over wavelength |\n| **Identifiability** | Two different worlds produce the same signal; the inverse problem has several solutions | Yes, and the worst of the four, because no amount of data removes it |\n| **Regularisation** | The bias–variance trade-off any stable reconstruction must make | A choice, not a law — but a choice that always has to be made |\n\nThe third is the interesting one and the one most often missed. It is not a defect of instruments but a property of the forward model: from a single seismic station, the depth of an interface and its velocity trade off exactly; from a single Doppler measurement, a fast distant object and a slow near one are indistinguishable. The remedy is never better data on the same channel — it is a different channel, which is why question 4 and question 5 are the same question.\n\n## 7. The remarkable cases\n\n| Case | The hidden thing | The signal | Why it is remarkable |\n| --- | --- | --- | --- |\n| **Seismic tomography** | The Earth's mantle and core | Travel times of earthquake waves | A body no one can visit, imaged to hundreds of kilometres |\n| **Helio- and asteroseismology** | The interior of stars | Their oscillations, microhertz | The Sun's core rotation and a star's age, from its ringing |\n| **Gravitational waves** | Merging black holes, 1.3 billion light years away | A strain of $10^{-21}$ in a 4 km arm | A measurement of geometry itself, made by interferometry |\n| **Cosmic microwave background** | The state of the universe at 380 000 years | A 2.7 K background with $10^{-5}$ anisotropy | The composition and geometry of the whole universe from its oldest light |\n| **Ice cores and isotope ratios** | Past climate and atmospheric composition | Trapped air and oxygen isotopes | A record of a world with no observers |\n| **Photoacoustic and ultrasound imaging** | Tissue structure and function | Sound generated *inside* the body by absorbed light | The signal is created where the information is, then read outside |\n| **Synthetic-aperture radar** | Ground structure and motion | Phase history along a flight path | Centimetre motion over kilometres, from orbit |\n| **Echolocation and biomimetic sonar** | Objects and space, in the dark | Emitted clicks and their returns | The general principle implemented in a bat's auditory system |\n| **Forensic audio reconstruction** | A room, a speaker's position, the number of people present | Reverberation of ambient sound | The environment encoded in a recording nobody made for the purpose |\n\nThe common structure across all nine: a **forward model** established by physics, an **inverse problem** made tractable by geometry and priors, and a **limit** stated rather than hidden. That triad, not the technology, is the general account.\n\n## The answer to the question, in one paragraph\n\nReality leaves traces because physical fields are changed by what they pass through and by what produced them; the changes are governed by laws that can be written down; and given enough independent channels, the laws can be inverted to recover the hidden state — subject to three real limits: the wavelength sets the resolution, the forward model may not be invertible in principle, and noise bounds the precision. Nothing about the reconstruction is magical, and nothing about it is discipline-specific: the same triad reconstructs a bat's world, the Earth's core, and the first light of the universe.\n",
+  "agent": "human",
+  "run": "derived-004",
+  "date": "2026-11-17",
+  "source": "manual",
+  "tags": [
+   "nature",
+   "physics",
+   "measurement",
+   "inverse-problems",
+   "signal-analysis",
+   "epistemology"
+  ],
+  "status": "answered"
+ }
 ]
