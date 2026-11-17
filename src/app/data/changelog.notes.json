@@ -2353,7 +2353,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Add Acoustics as a member discipline beside Optics, and link it from the references."
+    "summary": "Add Acoustics as a member discipline beside Optics, and link it from the references.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -25806,7 +25808,8 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed: a placeholder for the same Notion export (Acoustics Phenomena 1aec0f5171ec806fb1f2e35f9adfd2fb.md) as the note now at nature/sound.md, carrying the retired 4-column table and no content of its own."
+    "summary": "Removed: a placeholder for the same Notion export (Acoustics Phenomena 1aec0f5171ec806fb1f2e35f9adfd2fb.md) as the note now at nature/sound.md, carrying the retired 4-column table and no content of its own.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -37993,7 +37996,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Acoustics Phenomena link to nature/sound.md, where the note now lives."
+    "summary": "Retarget the Acoustics Phenomena link to nature/sound.md, where the note now lives.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -41373,7 +41378,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Fold the bare links into one APA list and add the sources the note was arguing from: Maxwell (1860), Boltzmann (1872), van der Waals (1873), Chapman & Cowling, Hirschfelder/Curtiss/Bird, Cercignani, and the NIST REFPROP database; the Notion page moves to provenance."
+    "summary": "Fold the bare links into one APA list and add the sources the note was arguing from: Maxwell (1860), Boltzmann (1872), van der Waals (1873), Chapman & Cowling, Hirschfelder/Curtiss/Bird, Cercignani, and the NIST REFPROP database; the Notion page moves to provenance.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -41389,7 +41396,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Fold the bare links into one APA list and add the theory of the state: Hansen & McDonald, Barrat & Hansen, Chandler, Frenkel & Smit, and van der Waals (1873); the shelf link joins the provenance."
+    "summary": "Fold the bare links into one APA list and add the theory of the state: Hansen & McDonald, Barrat & Hansen, Chandler, Frenkel & Smit, and van der Waals (1873); the shelf link joins the provenance.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -41438,7 +41447,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Name the concept and sub-notes the shelf now carries — State of Matter, Phase, Type of Gas, Viscous Liquid, Non-conductive Liquid, Crystalline Solids, Liquid Crystal — so the directory covers everything about how matter is arranged."
+    "summary": "Name the concept and sub-notes the shelf now carries — State of Matter, Phase, Type of Gas, Viscous Liquid, Non-conductive Liquid, Crystalline Solids, Liquid Crystal — so the directory covers everything about how matter is arranged.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -41465,7 +41476,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Add the sources the state rests on — Kittel, Ashcroft & Mermin, Born & Huang, Callister, Bragg (1913) — to the placeholder's reference list, with the state shelf named."
+    "summary": "Add the sources the state rests on — Kittel, Ashcroft & Mermin, Born & Huang, Callister, Bragg (1913) — to the placeholder's reference list, with the state shelf named.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -51164,7 +51177,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Fold the bare links into one APA list and add the classical sources: d'Alembert (1747), Fourier (1822), Rayleigh, Crawford, Feynman I, Kinsler et al.; the Wavelet Notion page moves to provenance, and the wave-parameter and Acoustics links join Related."
+    "summary": "Fold the bare links into one APA list and add the classical sources: d'Alembert (1747), Fourier (1822), Rayleigh, Crawford, Feynman I, Kinsler et al.; the Wavelet Notion page moves to provenance, and the wave-parameter and Acoustics links join Related.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -109441,7 +109456,9 @@
    {
     "date": "2026-11-17",
     "kind": "docs",
-    "summary": "Retarget the Phase link to the state shelf (nature/matter/state/phase.md)."
+    "summary": "Retarget the Phase link to the state shelf (nature/matter/state/phase.md).",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111158,12 +111175,15 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/acoustics-phenomena.md and retitle to Sound: the file is the natural note on sound, not the discipline that studies it; the discipline material moved to epistemica/epistemic/discipline/acoustics.md."
+    "summary": "Move from nature/acoustics-phenomena.md and retitle to Sound: the file is the natural note on sound, not the discipline that studies it; the discipline material moved to epistemica/epistemic/discipline/acoustics.md.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    },
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "Write the note out as the phenomenon: sound as a longitudinal pressure wave in an elastic medium, the property table, the sine and Fourier representation, propagation and boundary behaviour, perception as a pointer to the psychoacoustics note, sound in different media, and references (Rayleigh, Kinsler et al., Feynman I ch. 47–48, the Wikipedia entries) folded into one APA list."
+    "summary": "Write the note out as the phenomenon: sound as a longitudinal pressure wave in an elastic medium, the property table, the sine and Fourier representation, propagation and boundary behaviour, perception as a pointer to the psychoacoustics note, sound in different media, and references (Rayleigh, Kinsler et al., Feynman I ch. 47–48, the Wikipedia entries) folded into one APA list.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111173,7 +111193,9 @@
    {
     "date": "2026-11-17",
     "kind": "content",
-    "summary": "New discipline note: acoustics as an Epistemic Practice over mechanical waves — the five formulation questions, the boundary against continuum mechanics, signal processing, psychoacoustics and noise-control engineering, a decomposition of orientation, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization, nine member sub-practices from physical and architectural to electroacoustics and musical acoustics, the conceptuum evaluation, and the old corpus description carried in its own section."
+    "summary": "New discipline note: acoustics as an Epistemic Practice over mechanical waves — the five formulation questions, the boundary against continuum mechanics, signal processing, psychoacoustics and noise-control engineering, a decomposition of orientation, segment, observables, access, representation, evaluation, communication, infrastructure, context, guidance and organization, nine member sub-practices from physical and architectural to electroacoustics and musical acoustics, the conceptuum evaluation, and the old corpus description carried in its own section.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256",
+    "before": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111183,7 +111205,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/state-of-matter.md: the general concept the state table's rows are cases of, and the shelf is where the states and their concept are filed."
+    "summary": "Move from nature/state-of-matter.md: the general concept the state table's rows are cases of, and the shelf is where the states and their concept are filed.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111193,7 +111216,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/type-of-gas.md: it is a sub-note of the gas state, not a separate natural element at the section root."
+    "summary": "Move from nature/type-of-gas.md: it is a sub-note of the gas state, not a separate natural element at the section root.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111203,7 +111227,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/non-conductive-liquid.md: it is a sub-note of the liquid state."
+    "summary": "Move from nature/non-conductive-liquid.md: it is a sub-note of the liquid state.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111213,7 +111238,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/viscous-liquid.md: it is a sub-note of the liquid state."
+    "summary": "Move from nature/viscous-liquid.md: it is a sub-note of the liquid state.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111223,7 +111249,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/crystalline-solids.md: it is a sub-note of the solid state."
+    "summary": "Move from nature/crystalline-solids.md: it is a sub-note of the solid state.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111233,7 +111260,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/liquid-crystal-lc.md: a liquid crystal is a mesophase — a state of matter — so it belongs with the states."
+    "summary": "Move from nature/liquid-crystal-lc.md: a liquid crystal is a mesophase — a state of matter — so it belongs with the states.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  },
@@ -111243,7 +111271,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Move from nature/phase.md: the thermodynamic reading of a state of matter, which the state shelf carries."
+    "summary": "Move from nature/phase.md: the thermodynamic reading of a state of matter, which the state shelf carries.",
+    "commit": "69ab54c28dd1845c82d5979295580172d5de6256"
    }
   ]
  }
