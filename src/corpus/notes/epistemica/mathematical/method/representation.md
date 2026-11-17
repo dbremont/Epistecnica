@@ -119,19 +119,9 @@ tags: [note, mathematics, representation, technique]
 | [Chebyshev representation](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) | Chebyshev polynomials |
 | [Wavelet representation](/view.html?p=notes/epistemica/signal/wavelet.md) | Wavelets |
 
-### Taylor Representation
+### The members
 
-> The **Taylor representation** of a [function](/view.html?p=notes/epistemica/mathematical/mapping/function.md) — or of a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between two spaces, where the same expansion is taken in a Banach space — writes it as a combination of the powers of $x-a$, with the coefficients fixed by the derivatives at the point $a$:
-
-$$f(x)=\sum_{k\ge 0}\frac{f^{(k)}(a)}{k!}\,(x-a)^k$$
-
-> Its blocks are the powers of $x-a$ and its coefficients are the derivatives. That is the whole conversion: the **local behaviour of $f$ at one point** becomes a sequence of numbers, and every operation on the function becomes an operation on that sequence. Published by [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1717), it is the representation behind every linearisation in this corpus — see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
-
-Three things follow, and they are what the representation is for:
-
-- **Local, not global.** The series describes $f$ on a neighbourhood of $a$ only, and converges on a disc whose radius is the distance to the nearest singularity. A Taylor representation is therefore a statement about a point: it says what the function is doing there, and nothing about what it does a domain away.
-- **The representation and its truncation are different objects.** The infinite series is the representation; the finite Taylor polynomial is an *approximation* in that representation, and the two are so often conflated that the polynomial is called the series. What is true of one is not always true of the other — the series may converge where no truncation is accurate, and a truncation may be useful outside the radius of convergence.
-- **Operations become algebraic.** Differentiation multiplies the $k$-th coefficient by $k$ and shifts the index; integration divides and shifts it the other way; composition, inversion and solution of equations become the algebra of formal power series in $R[[x]]$. This is why the representation belongs under [Representation](/view.html?p=notes/epistemica/mathematical/method/representation.md) and not under approximation: its power is not that it is accurate near $a$, but that it turns a differential problem into a sequence problem.
+Each representation has its own note, because its blocks bring their own theory. The Taylor representation — powers of $x-a$, with the coefficients fixed by the derivatives at a point — is treated in full at [Taylor Representation](representation/taylor-representation.md): what the conversion buys, why the series is a representation of the *germ* and not always of the function, and why the series and its truncation must be kept apart.
 
 # Re Representation
 
@@ -154,7 +144,7 @@ Three things follow, and they are what the representation is for:
 > What the power of the idea of Decomposition? Decomposition is powerful because it converts global complexity into local simplicity, reveals hidden structure, enables computation, and provides conceptual clarity.
 > 
 
-> See more [Decomposition](decomposition.md).
+> See more [Decomposition](reduction/decomposition.md).
 > 
 
 ## QA
@@ -166,4 +156,4 @@ Three things follow, and they are what the representation is for:
 - [Representation](https://app.notion.com/p/Representation-4afbffa763ec46eeb10d8c87c248edf1?pvs=21)
 - https://en.wikipedia.org/wiki/Representation
 - https://en.wikipedia.org/wiki/Representation_(mathematics)
-- [**Dimensionality Reduction**](../observational/dimensionality-reduction.md)
+- [**Dimensionality Reduction**](../../observational/dimensionality-reduction.md)

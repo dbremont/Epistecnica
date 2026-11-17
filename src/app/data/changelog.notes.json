@@ -121370,6 +121370,21 @@
     "summary": "Function Representation: a new section giving the representation table — Taylor, Fourier, Laurent, power series, Chebyshev, wavelet — with its building blocks, and a subsection on the Taylor representation. The subsection states the conversion the representation performs (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence and operations on the function become operations on the sequence), links it to Function and Map, to the Taylor series page, and to Brook Taylor; and separates the three consequences: it is local and bounded by the nearest singularity, the series and its truncation are different objects, and differentiation, integration and composition are algebraic on the coefficients, which is why the representation belongs here and not under approximation.",
     "commit": "7609dca7e913538d541431de44fa474a790cb522",
     "before": "d5525ad8a42e465caa751b1b8a5b115b7782b1db"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Function Representation section reduced to the master: the table of representations stays, the Taylor subsection becomes a pointer to its own note. Two pre-existing dead links repaired while the file was open — Decomposition now resolves to reduction/decomposition.md and dimensionality reduction to ../../observational/."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/mathematical/method/representation/taylor-representation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the Taylor representation as a representation in its own right, split out of the representation master because its building blocks carry their own theory. The note states the conversion (blocks are the powers of x-a, coefficients are the derivatives, so local behaviour at a point becomes a sequence), places it in the table of representations with how each one extracts its coefficients (derivatives, inner products, contour integrals, projection under a weight), and works the three consequences: local data becomes a sequence, operations become algebra on formal power series, truncation becomes an approximation governed by a remainder. Then the failure the representation hides: it represents the germ, not the function — the radius is bounded by the nearest singularity, and a smooth function like exp(-1/x^2) has the zero series at the origin, so analyticity is exactly the condition under which the representation determines its object. A section keeps the series and its truncation apart, since the polynomial is routinely called the series. References: Taylor 1717, Rudin 1976, Feigenbaum 1985, Krantz & Parks 2002, plus the corpus links and the persona."
    }
   ]
  }
