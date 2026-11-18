@@ -98,5 +98,5 @@ Lineage: postwar reconstruction of Norwegian scientific capacity → the 1952 es
 - [A short history of the Norwegian Computing Center — NR](https://nr.no/en/about/a-short-history-of-nr) (1952 founding, 1958 incorporation, 1985 foundation turn, 2002 commemorative volume)
 - [Norsk Regnesentral (NR) — Joining Forces 2018, SODIR](https://www.sodir.no/49eb0e/globalassets/2-force/2019/documents/archive-2010-2018/joining-forces-2018/norsk-regnesentral-abrahamsen.pdf) (the institute's own presentation of its legal form, activities, and funding mix)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Well Logging (companion note)](/view.html?p=notes/technica/cto/industry/well-logging.md) (the technical counterpart: measurement whose warrant is epistemic)
+- [Well Logging (companion note)](/view.html?p=notes/technica/general/industry/well-logging.md) (the technical counterpart: measurement whose warrant is epistemic)
 - [Earth Science (companion note)](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domain whose inversion methods NR applies)

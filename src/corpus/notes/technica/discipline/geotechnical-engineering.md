@@ -370,8 +370,8 @@ Verbs: a drilling rig, a piezometer or an analysis code *implements* the techniq
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) — the neighbouring inquiry into the Earth as an object
 - [Soil](/view.html?p=notes/nature/matter/geological/soil.md) — the natural reading of the material
-- [Construction Technology](/view.html?p=notes/technica/cto/industry/construction-technology.md) — the construction methods this practice designs for
-- [Construction Project System](/view.html?p=notes/technica/cto/industry/construction-project-system.md) — the delivery system the works belong to
+- [Construction Technology](/view.html?p=notes/technica/general/industry/construction-technology.md) — the construction methods this practice designs for
+- [Construction Project System](/view.html?p=notes/technica/general/industry/construction-project-system.md) — the delivery system the works belong to
 - [EES](/view.html?p=notes/epistemica/ees.md) — the epistemic companion reading
 - [Technica Atlas](/corpus/notes/technica/atlas.html) — the forest this decomposition feeds
 - [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md) — the neighbouring practice that owns the superstructure and the load path

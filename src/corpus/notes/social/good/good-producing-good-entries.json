@@ -23744,7 +23744,7 @@
    "sources": [],
    "image": null,
    "repo": {
-    "note": "technica/cto/industry/electronic-design-automation.md"
+    "note": "technica/general/industry/electronic-design-automation.md"
    },
    "wikidata": "",
    "id": "gpe-virtual-electronic-design-automation-suite"
@@ -23772,7 +23772,7 @@
    "sources": [],
    "image": null,
    "repo": {
-    "note": "technica/cto/industry/digital-twin.md"
+    "note": "technica/general/industry/digital-twin.md"
    },
    "wikidata": "",
    "id": "gpe-virtual-digital-twin-platform"
@@ -23787,7 +23787,7 @@
    "sources": [],
    "image": null,
    "repo": {
-    "note": "technica/cto/industry/product-lifecycle.md"
+    "note": "technica/general/industry/product-lifecycle.md"
    },
    "wikidata": "",
    "id": "gpe-virtual-product-lifecycle-management-system"
@@ -23841,7 +23841,7 @@
    "sources": [],
    "image": null,
    "repo": {
-    "note": "technica/cto/industry/software-production.md"
+    "note": "technica/general/industry/software-production.md"
    },
    "wikidata": "",
    "id": "gpe-virtual-integrated-development-environment"

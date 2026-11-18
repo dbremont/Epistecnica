@@ -40,8 +40,8 @@ filing rules that shaped it:
   `social/history/`), `unclassified/` and `meta/` are their own sections. The
   former `human/` section was later folded into `nature/human/` (2026-11-06).
 - `technique/` became `technica/`: industrial, material, energy and
-  production notes live under `technica/cto/industry/`, technical
-  domain sets under `technica/cto/es/multinode/`, and formation
+  production notes live under `technica/general/industry/`, technical
+  domain sets under `technica/general/es/multinode/`, and formation
   institutions (schools, universities) under
   `technica/op/formation/` — refiled on 2026-11-17: schools and
   universities are education actors, so they now sit under
@@ -297,7 +297,7 @@ facet bars: sections are reached as folders and tags through the search box.
   chrome blocks plus the container spec and conversion record live in
   `docs/live-note-chrome.md`; no CDN libraries are allowed. The catalog
   still indexes it (title, headings, text) and links directly to the page,
-  marked with a `live` chip. Examples: `technica/cto/lib/concurrent-map.html`
+  marked with a `live` chip. Examples: `technica/general/lib/concurrent-map.html`
   ("Concurrent Map"),
   `epistemica/observational/distribution/atlas/poisson-distribution.html` ("Poisson Distribution"),
   `epistemica/observational/process/hawkes-process.html` ("Hawkes Process"),

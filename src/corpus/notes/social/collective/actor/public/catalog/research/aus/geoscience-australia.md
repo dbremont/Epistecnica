@@ -88,6 +88,6 @@ Lineage (to verify against the agency's history page at next pass): colonial geo
 - [Geoscience Australia](https://www.ga.gov.au/) (mandate and programs: earthquake monitoring, Positioning Australia, Digital Earth Australia, Resourcing Australia's Prosperity, education centre, open data)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (decomposition schema; single-type root; instance vs. type path rules)
 - [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the production-side science this agency applies; its Geological Survey infrastructure row)
-- [Geological Resource Development Technical Domain](/view.html?p=notes/technica/cto/es/multinode/geological-resource-development-technical-domain.md) (the agency's precompetitive data feeds that domain's Exploration Set)
+- [Geological Resource Development Technical Domain](/view.html?p=notes/technica/general/es/multinode/geological-resource-development-technical-domain.md) (the agency's precompetitive data feeds that domain's Exploration Set)
 - [NINA (companion note)](/view.html?p=notes/social/collective/actor/public/catalog/research/nor/nina.md) (sibling state survey body)
 - [NIBIO (companion note)](/view.html?p=notes/social/collective/actor/public/catalog/research/nor/nibio.md) (sibling state survey body)

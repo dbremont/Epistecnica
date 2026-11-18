@@ -33,7 +33,7 @@ working — **mineral** kinds, **earth materials** (rock, sediment, soil), **wat
 and **biogenic substances** (tissues, secretions, metabolites, organic sediments, biogenic
 rocks). The cut includes every untransformed substance at every level of organization; it
 excludes all intentionally transformed matter — smelted metal, fired ceramic, sawn lumber,
-synthesized polymer — which is the technical reading ([Technical Material](/view.html?p=notes/technica/cto/industry/technical-material.md)),
+synthesized polymer — which is the technical reading ([Technical Material](/view.html?p=notes/technica/general/industry/technical-material.md)),
 each with its own tree. The biogenic/abiogenic split below is by origin (made by life or
 not), never by use or price.
 
@@ -67,9 +67,9 @@ instance, do not assume.
 
 Secondary readings (kept as prose, never merged into the tree above): readable as technique —
 every working of this matter (quarrying, smelting, sawing, synthesis) with its products
-([Technical Material](/view.html?p=notes/technica/cto/industry/technical-material.md),
-[Technical Biogenic Material](/view.html?p=notes/technica/cto/industry/technical-biogenic-material.md),
-[Technical Abiogenic Material](/view.html?p=notes/technica/cto/industry/technical-abiogenic-material.md))
+([Technical Material](/view.html?p=notes/technica/general/industry/technical-material.md),
+[Technical Biogenic Material](/view.html?p=notes/technica/general/industry/technical-biogenic-material.md),
+[Technical Abiogenic Material](/view.html?p=notes/technica/general/industry/technical-abiogenic-material.md))
 decomposes under the technicarum grammar; readable as social — tenures, grades, firms, and
 prices drawn around materials (decompose under the socialium grammar; production-role nodes
 are Social nodes tagged `production-view`); readable as epistemic — assay standards and
@@ -97,5 +97,5 @@ technically, the formation naturally
 - [Earth](/view.html?p=notes/nature/earth.md) (parent: the planet system)
 - [Natural Biogenic](/view.html?p=notes/nature/life/molecular/biogenic-material.md) (child: all matter made by life)
 - [Natural Abiogenic](/view.html?p=notes/nature/earth-material.md) (child: all physical matter not made by life)
-- [Technical Material](/view.html?p=notes/technica/cto/industry/technical-material.md) (counterpart: all intentionally transformed matter)
+- [Technical Material](/view.html?p=notes/technica/general/industry/technical-material.md) (counterpart: all intentionally transformed matter)
 - [Quarry](/view.html?p=notes/nature/quarry.md) (worked instance: excavated rock mass)

@@ -113,4 +113,4 @@ Lineage: scattered agricultural experiment stations and forestry research under 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (decomposition schema; layer and facet test)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (the science this institute produces)
 - [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) · [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domains NIBIO's output enters)
-- [Plant Genetic Improvement](/view.html?p=notes/technica/cto/es/multinode/plant-genetic-improvement.md) (the activity its gene bank and breeding division feed)
+- [Plant Genetic Improvement](/view.html?p=notes/technica/general/es/multinode/plant-genetic-improvement.md) (the activity its gene bank and breeding division feed)

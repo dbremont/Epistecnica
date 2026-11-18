@@ -93226,7 +93226,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/marketing-technical-practice.md",
+  "file_path": "technica/general/es/multinode/marketing-technical-practice.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93318,7 +93318,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/ackee.md",
+  "file_path": "technica/general/es/ackee.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93329,7 +93329,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/apache-airflow.md",
+  "file_path": "technica/general/es/apache-airflow.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93340,7 +93340,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/apache-bookkeeper.md",
+  "file_path": "technica/general/es/apache-bookkeeper.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93351,7 +93351,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/apache-helix.md",
+  "file_path": "technica/general/es/apache-helix.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93362,7 +93362,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/apache-ignite.md",
+  "file_path": "technica/general/es/apache-ignite.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93373,7 +93373,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/carla.md",
+  "file_path": "technica/general/es/carla.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93384,7 +93384,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-calcite.md",
+  "file_path": "technica/general/es/data/apache-calcite.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93395,7 +93395,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-cassandra.md",
+  "file_path": "technica/general/es/data/apache-cassandra.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93406,7 +93406,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-doris.md",
+  "file_path": "technica/general/es/data/apache-doris.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93417,7 +93417,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-drill.md",
+  "file_path": "technica/general/es/data/apache-drill.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93428,7 +93428,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-druid.md",
+  "file_path": "technica/general/es/data/apache-druid.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93439,7 +93439,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-hive.md",
+  "file_path": "technica/general/es/data/apache-hive.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93456,7 +93456,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-pinot.md",
+  "file_path": "technica/general/es/data/apache-pinot.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93473,7 +93473,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-sorl.md",
+  "file_path": "technica/general/es/data/apache-sorl.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93484,7 +93484,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-spark.md",
+  "file_path": "technica/general/es/data/apache-spark.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93495,7 +93495,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/apache-storm.md",
+  "file_path": "technica/general/es/data/apache-storm.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93506,7 +93506,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/clickhouse.md",
+  "file_path": "technica/general/es/data/clickhouse.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93517,7 +93517,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/data-system-concurrency-control.md",
+  "file_path": "technica/general/es/data/data-system-concurrency-control.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93534,7 +93534,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/delta-lake.md",
+  "file_path": "technica/general/es/data/delta-lake.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93545,7 +93545,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/duckdb.md",
+  "file_path": "technica/general/es/data/duckdb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93556,7 +93556,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/elasticsearch.md",
+  "file_path": "technica/general/es/data/elasticsearch.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93567,7 +93567,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/facebook-ai-similarity-search-faiss.md",
+  "file_path": "technica/general/es/data/facebook-ai-similarity-search-faiss.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93578,7 +93578,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/flexsearch.md",
+  "file_path": "technica/general/es/data/flexsearch.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93589,7 +93589,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/fluend.md",
+  "file_path": "technica/general/es/data/fluend.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93600,7 +93600,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/hazelcast.md",
+  "file_path": "technica/general/es/data/hazelcast.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93611,7 +93611,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/hikaricp.md",
+  "file_path": "technica/general/es/data/hikaricp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93622,7 +93622,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/influxdb.md",
+  "file_path": "technica/general/es/data/influxdb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93633,7 +93633,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/leveldb.md",
+  "file_path": "technica/general/es/data/leveldb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93644,7 +93644,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/memcached.md",
+  "file_path": "technica/general/es/data/memcached.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93655,7 +93655,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/milvus.md",
+  "file_path": "technica/general/es/data/milvus.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93666,7 +93666,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/monetdb.md",
+  "file_path": "technica/general/es/data/monetdb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93677,7 +93677,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/mongodb.md",
+  "file_path": "technica/general/es/data/mongodb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93688,7 +93688,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/mysql.md",
+  "file_path": "technica/general/es/data/mysql.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93699,7 +93699,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/neo4j.md",
+  "file_path": "technica/general/es/data/neo4j.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93710,7 +93710,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/openmetadata.md",
+  "file_path": "technica/general/es/data/openmetadata.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93721,7 +93721,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/opentsdb.md",
+  "file_path": "technica/general/es/data/opentsdb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93732,7 +93732,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/oracle.md",
+  "file_path": "technica/general/es/data/oracle.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93743,7 +93743,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/postgresql.md",
+  "file_path": "technica/general/es/data/postgresql.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93754,7 +93754,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/postgrest.md",
+  "file_path": "technica/general/es/data/postgrest.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93765,7 +93765,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/readme.md",
+  "file_path": "technica/general/es/data/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93776,7 +93776,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/redis.md",
+  "file_path": "technica/general/es/data/redis.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93787,7 +93787,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/rocksdb.md",
+  "file_path": "technica/general/es/data/rocksdb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93798,7 +93798,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/scylladb.md",
+  "file_path": "technica/general/es/data/scylladb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93809,7 +93809,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/seaweedfs.md",
+  "file_path": "technica/general/es/data/seaweedfs.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93826,7 +93826,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/sharedb.md",
+  "file_path": "technica/general/es/data/sharedb.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93837,7 +93837,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/sqlite.md",
+  "file_path": "technica/general/es/data/sqlite.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93848,7 +93848,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/trino.md",
+  "file_path": "technica/general/es/data/trino.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -93865,7 +93865,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/data/vespa-vector-search.md",
+  "file_path": "technica/general/es/data/vespa-vector-search.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93876,7 +93876,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/discourse.md",
+  "file_path": "technica/general/es/discourse.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93887,7 +93887,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/dtrace.md",
+  "file_path": "technica/general/es/dtrace.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93898,7 +93898,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/fastapi.md",
+  "file_path": "technica/general/es/fastapi.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93909,7 +93909,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/filebeat.md",
+  "file_path": "technica/general/es/filebeat.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93920,7 +93920,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/gazebo.md",
+  "file_path": "technica/general/es/gazebo.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93931,7 +93931,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/glowroot.md",
+  "file_path": "technica/general/es/glowroot.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93942,7 +93942,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/gnu-stow.md",
+  "file_path": "technica/general/es/gnu-stow.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93953,7 +93953,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/graphviz.md",
+  "file_path": "technica/general/es/graphviz.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93964,7 +93964,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/hamcrest.md",
+  "file_path": "technica/general/es/hamcrest.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93975,7 +93975,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/ip.md",
+  "file_path": "technica/general/es/ip.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93986,7 +93986,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/jekyll.md",
+  "file_path": "technica/general/es/jekyll.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -93997,7 +93997,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/keycloak.md",
+  "file_path": "technica/general/es/keycloak.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94008,7 +94008,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/metaculus.md",
+  "file_path": "technica/general/es/metaculus.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94019,7 +94019,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/mitmproxy.md",
+  "file_path": "technica/general/es/mitmproxy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94030,7 +94030,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/mkdocs.md",
+  "file_path": "technica/general/es/mkdocs.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94041,7 +94041,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/mockito.md",
+  "file_path": "technica/general/es/mockito.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94052,7 +94052,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/mockserver.md",
+  "file_path": "technica/general/es/mockserver.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94063,7 +94063,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/animal-health-technical-set.md",
+  "file_path": "technica/general/es/multinode/animal-health-technical-set.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94075,7 +94075,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/animal-husbandry-technical-set.md",
+  "file_path": "technica/general/es/multinode/animal-husbandry-technical-set.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94087,7 +94087,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-camel.md",
+  "file_path": "technica/general/es/multinode/apache-camel.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94098,7 +94098,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-flink.md",
+  "file_path": "technica/general/es/multinode/apache-flink.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94109,7 +94109,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-hadoop.md",
+  "file_path": "technica/general/es/multinode/apache-hadoop.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94120,7 +94120,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-http-server.md",
+  "file_path": "technica/general/es/multinode/apache-http-server.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94131,7 +94131,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-kafka.md",
+  "file_path": "technica/general/es/multinode/apache-kafka.md",
   "logs": [
    {
     "date": "2026-10-22",
@@ -94149,7 +94149,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-kafka.md",
+  "file_path": "technica/general/es/multinode/apache-kafka.md",
   "logs": [
    {
     "date": "2026-11-07",
@@ -94174,7 +94174,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-nifi.md",
+  "file_path": "technica/general/es/multinode/apache-nifi.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94185,7 +94185,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-nutch.md",
+  "file_path": "technica/general/es/multinode/apache-nutch.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94196,7 +94196,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-pulsar.md",
+  "file_path": "technica/general/es/multinode/apache-pulsar.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94207,7 +94207,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/apache-tomcat.md",
+  "file_path": "technica/general/es/multinode/apache-tomcat.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94218,7 +94218,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/biotechnology.md",
+  "file_path": "technica/general/es/multinode/biotechnology.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -94250,7 +94250,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/dairy-husbandry.md",
+  "file_path": "technica/general/es/multinode/dairy-husbandry.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94262,7 +94262,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/dapr.md",
+  "file_path": "technica/general/es/multinode/dapr.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94273,7 +94273,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/django.md",
+  "file_path": "technica/general/es/multinode/django.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94284,7 +94284,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/energy-technology.md",
+  "file_path": "technica/general/es/multinode/energy-technology.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -94329,7 +94329,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/flask.md",
+  "file_path": "technica/general/es/multinode/flask.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94340,7 +94340,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/food-production-technical-domain.md",
+  "file_path": "technica/general/es/multinode/food-production-technical-domain.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94366,7 +94366,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/geological-resource-development-technical-domain.md",
+  "file_path": "technica/general/es/multinode/geological-resource-development-technical-domain.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94392,7 +94392,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/graphql.md",
+  "file_path": "technica/general/es/multinode/graphql.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94403,7 +94403,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/java-ee-jakarta-ee.md",
+  "file_path": "technica/general/es/multinode/java-ee-jakarta-ee.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -94435,7 +94435,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/jobrunr.md",
+  "file_path": "technica/general/es/multinode/jobrunr.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -94467,7 +94467,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/laravel.md",
+  "file_path": "technica/general/es/multinode/laravel.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94478,7 +94478,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/livestock-breeding-and-genetics.md",
+  "file_path": "technica/general/es/multinode/livestock-breeding-and-genetics.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94490,7 +94490,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/marketing-technical-practice.md",
+  "file_path": "technica/general/es/multinode/marketing-technical-practice.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94509,7 +94509,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/meilisearch.md",
+  "file_path": "technica/general/es/multinode/meilisearch.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94520,7 +94520,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/nginx.md",
+  "file_path": "technica/general/es/multinode/nginx.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94531,7 +94531,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/openapi.md",
+  "file_path": "technica/general/es/multinode/openapi.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -94563,7 +94563,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/pharmaceutical-technical-domain-set.md",
+  "file_path": "technica/general/es/multinode/pharmaceutical-technical-domain-set.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94575,7 +94575,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/physical-material-technology.md",
+  "file_path": "technica/general/es/multinode/physical-material-technology.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -94613,7 +94613,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/plant-cultivation-technical-domain-set.md",
+  "file_path": "technica/general/es/multinode/plant-cultivation-technical-domain-set.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94639,7 +94639,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/plant-genetic-improvement.md",
+  "file_path": "technica/general/es/multinode/plant-genetic-improvement.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94658,7 +94658,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/plant-health-technical-set.md",
+  "file_path": "technica/general/es/multinode/plant-health-technical-set.md",
   "logs": [
    {
     "date": "2026-11-06",
@@ -94677,7 +94677,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/puma.md",
+  "file_path": "technica/general/es/multinode/puma.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94688,7 +94688,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/robotics-technical-domain-set.md",
+  "file_path": "technica/general/es/multinode/robotics-technical-domain-set.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -94700,7 +94700,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/ruby-on-rails.md",
+  "file_path": "technica/general/es/multinode/ruby-on-rails.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94711,7 +94711,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/seastar.md",
+  "file_path": "technica/general/es/multinode/seastar.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94722,7 +94722,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/service-weaver.md",
+  "file_path": "technica/general/es/multinode/service-weaver.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94733,7 +94733,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/sidekiq.md",
+  "file_path": "technica/general/es/multinode/sidekiq.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94744,7 +94744,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/sinatra.md",
+  "file_path": "technica/general/es/multinode/sinatra.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94755,7 +94755,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/spring-boot.md",
+  "file_path": "technica/general/es/multinode/spring-boot.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94766,7 +94766,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/supabase.md",
+  "file_path": "technica/general/es/multinode/supabase.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94777,7 +94777,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/traefik.md",
+  "file_path": "technica/general/es/multinode/traefik.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94788,7 +94788,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/wildfly.md",
+  "file_path": "technica/general/es/multinode/wildfly.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -94813,7 +94813,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/n8n.md",
+  "file_path": "technica/general/es/n8n.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94824,7 +94824,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/networkx.md",
+  "file_path": "technica/general/es/networkx.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94835,7 +94835,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/npx.md",
+  "file_path": "technica/general/es/npx.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94846,7 +94846,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/phpdocumentor.md",
+  "file_path": "technica/general/es/phpdocumentor.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94857,7 +94857,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/pm2.md",
+  "file_path": "technica/general/es/pm2.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94868,7 +94868,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/poetry.md",
+  "file_path": "technica/general/es/poetry.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94879,7 +94879,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/rabbitmq.md",
+  "file_path": "technica/general/es/rabbitmq.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94890,7 +94890,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/rake.md",
+  "file_path": "technica/general/es/rake.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94901,7 +94901,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/readme.md",
+  "file_path": "technica/general/es/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94912,7 +94912,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/rubocop.md",
+  "file_path": "technica/general/es/rubocop.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94923,7 +94923,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/sdkman.md",
+  "file_path": "technica/general/es/sdkman.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94934,7 +94934,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/serve.md",
+  "file_path": "technica/general/es/serve.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94945,7 +94945,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/signoz.md",
+  "file_path": "technica/general/es/signoz.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94956,7 +94956,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/ui/ember-js.md",
+  "file_path": "technica/general/es/ui/ember-js.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94967,7 +94967,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/ui/nextjs.md",
+  "file_path": "technica/general/es/ui/nextjs.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94978,7 +94978,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/ui/vue.md",
+  "file_path": "technica/general/es/ui/vue.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -94989,7 +94989,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/varnish-cache-service.md",
+  "file_path": "technica/general/es/varnish-cache-service.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -95000,7 +95000,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/vite.md",
+  "file_path": "technica/general/es/vite.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -95011,7 +95011,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/vsftpd.md",
+  "file_path": "technica/general/es/vsftpd.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -95022,7 +95022,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/webpack.md",
+  "file_path": "technica/general/es/webpack.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -95033,7 +95033,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/xdebug.md",
+  "file_path": "technica/general/es/xdebug.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -95044,7 +95044,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/financial-sector.md",
+  "file_path": "technica/general/financial-sector.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95056,7 +95056,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/advertising-services.md",
+  "file_path": "technica/general/industry/advertising-services.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95068,7 +95068,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/apparel-production.md",
+  "file_path": "technica/general/industry/apparel-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95080,7 +95080,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/appliance-production.md",
+  "file_path": "technica/general/industry/appliance-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95092,7 +95092,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/aromatization-practice.md",
+  "file_path": "technica/general/industry/aromatization-practice.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95104,7 +95104,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/automation-regime.md",
+  "file_path": "technica/general/industry/automation-regime.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95116,7 +95116,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/automobile-system.md",
+  "file_path": "technica/general/industry/automobile-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95128,7 +95128,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/biotech-production-ecosystem.md",
+  "file_path": "technica/general/industry/biotech-production-ecosystem.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95140,7 +95140,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/chemical-basics.md",
+  "file_path": "technica/general/industry/chemical-basics.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95152,7 +95152,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/city-system.md",
+  "file_path": "technica/general/industry/city-system.md",
   "logs": [
    {
     "date": "2026-11-12",
@@ -95169,7 +95169,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/cleaning-practice.md",
+  "file_path": "technica/general/industry/cleaning-practice.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95181,7 +95181,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/cnc-machining.md",
+  "file_path": "technica/general/industry/cnc-machining.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95193,7 +95193,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/construction-project-system.md",
+  "file_path": "technica/general/industry/construction-project-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95205,7 +95205,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/construction-technology.md",
+  "file_path": "technica/general/industry/construction-technology.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95217,7 +95217,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/cooking-practice.md",
+  "file_path": "technica/general/industry/cooking-practice.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95229,7 +95229,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/dairy-production.md",
+  "file_path": "technica/general/industry/dairy-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95241,7 +95241,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/dam-system.md",
+  "file_path": "technica/general/industry/dam-system.md",
   "logs": [
    {
     "date": "2026-11-13",
@@ -95253,7 +95253,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/defense-systems.md",
+  "file_path": "technica/general/industry/defense-systems.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95265,7 +95265,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/digital-twin.md",
+  "file_path": "technica/general/industry/digital-twin.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95277,7 +95277,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/digitalization-regime.md",
+  "file_path": "technica/general/industry/digitalization-regime.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95289,7 +95289,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/drug.md",
+  "file_path": "technica/general/industry/drug.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -95300,7 +95300,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/electronic-circuit.md",
+  "file_path": "technica/general/industry/electronic-circuit.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95312,7 +95312,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/electronic-design-automation.md",
+  "file_path": "technica/general/industry/electronic-design-automation.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95324,7 +95324,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/electronics-technology.md",
+  "file_path": "technica/general/industry/electronics-technology.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95336,7 +95336,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/fine-chemical.md",
+  "file_path": "technica/general/industry/fine-chemical.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -95347,7 +95347,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/footwear-production.md",
+  "file_path": "technica/general/industry/footwear-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95359,7 +95359,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/gallium-nitride.md",
+  "file_path": "technica/general/industry/gallium-nitride.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95371,7 +95371,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/hand-power-tool-production.md",
+  "file_path": "technica/general/industry/hand-power-tool-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95383,7 +95383,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/home-maintenance-practice.md",
+  "file_path": "technica/general/industry/home-maintenance-practice.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95395,7 +95395,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/house-system.md",
+  "file_path": "technica/general/industry/house-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95407,7 +95407,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/industrial-machinery.md",
+  "file_path": "technica/general/industry/industrial-machinery.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95419,7 +95419,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/interior-environment.md",
+  "file_path": "technica/general/industry/interior-environment.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95431,7 +95431,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/laboratory-tooling.md",
+  "file_path": "technica/general/industry/laboratory-tooling.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95443,7 +95443,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/logistics-system.md",
+  "file_path": "technica/general/industry/logistics-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95455,7 +95455,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/machine-tool-production.md",
+  "file_path": "technica/general/industry/machine-tool-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95467,7 +95467,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/material-technology.md",
+  "file_path": "technica/general/industry/material-technology.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95479,7 +95479,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/materiotecnia.md",
+  "file_path": "technica/general/industry/materiotecnia.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95491,7 +95491,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/meat-production.md",
+  "file_path": "technica/general/industry/meat-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95503,7 +95503,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/mechanical-system.md",
+  "file_path": "technica/general/industry/mechanical-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95522,7 +95522,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/metals-production.md",
+  "file_path": "technica/general/industry/metals-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95534,7 +95534,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/metrology-services.md",
+  "file_path": "technica/general/industry/metrology-services.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95546,7 +95546,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/mining-system.md",
+  "file_path": "technica/general/industry/mining-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95558,7 +95558,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/naval-shipbuilding.md",
+  "file_path": "technica/general/industry/naval-shipbuilding.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95570,7 +95570,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/nonmetallic-production.md",
+  "file_path": "technica/general/industry/nonmetallic-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95582,7 +95582,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/nuclear-system.md",
+  "file_path": "technica/general/industry/nuclear-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95594,7 +95594,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/paper-production.md",
+  "file_path": "technica/general/industry/paper-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95606,7 +95606,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/personal-care-production.md",
+  "file_path": "technica/general/industry/personal-care-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95618,7 +95618,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/pharma-pipeline.md",
+  "file_path": "technica/general/industry/pharma-pipeline.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95630,7 +95630,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/pharmaceutical-product.md",
+  "file_path": "technica/general/industry/pharmaceutical-product.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -95641,7 +95641,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/plastics-production.md",
+  "file_path": "technica/general/industry/plastics-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95653,7 +95653,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/product-lifecycle.md",
+  "file_path": "technica/general/industry/product-lifecycle.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95665,7 +95665,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/radar.md",
+  "file_path": "technica/general/industry/radar.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95677,7 +95677,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/rare-earth-elements.md",
+  "file_path": "technica/general/industry/rare-earth-elements.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95689,7 +95689,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/remote-sensing.md",
+  "file_path": "technica/general/industry/remote-sensing.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95701,7 +95701,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/retail-supply-demand-matching.md",
+  "file_path": "technica/general/industry/retail-supply-demand-matching.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95713,7 +95713,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/robotics-systems.md",
+  "file_path": "technica/general/industry/robotics-systems.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95725,7 +95725,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/rubber-production.md",
+  "file_path": "technica/general/industry/rubber-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95737,7 +95737,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/seafood-production.md",
+  "file_path": "technica/general/industry/seafood-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95749,7 +95749,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/semiconductor-fabrication.md",
+  "file_path": "technica/general/industry/semiconductor-fabrication.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95761,7 +95761,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/semiconductor-technology.md",
+  "file_path": "technica/general/industry/semiconductor-technology.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95773,7 +95773,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/software-production.md",
+  "file_path": "technica/general/industry/software-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95785,7 +95785,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/software-technology.md",
+  "file_path": "technica/general/industry/software-technology.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95797,7 +95797,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/stationary-energy-storage.md",
+  "file_path": "technica/general/industry/stationary-energy-storage.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95809,7 +95809,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/steel.md",
+  "file_path": "technica/general/industry/steel.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95821,7 +95821,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/technical-abiogenic-material.md",
+  "file_path": "technica/general/industry/technical-abiogenic-material.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95833,38 +95833,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/technical-biogenic-material.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "docs",
-    "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
-    "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "technica/cto/industry/technical-core-catalog.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   }
-  ]
- },
- {
-  "file_path": "technica/cto/industry/technical-material.md",
+  "file_path": "technica/general/industry/technical-biogenic-material.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95883,7 +95852,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/textile-production.md",
+  "file_path": "technica/general/industry/technical-core-catalog.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95895,7 +95864,26 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/tourism-system.md",
+  "file_path": "technica/general/industry/technical-material.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
+    "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/industry/textile-production.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95907,7 +95895,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/transistor.md",
+  "file_path": "technica/general/industry/tourism-system.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95919,7 +95907,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/transportation-vehicles.md",
+  "file_path": "technica/general/industry/transistor.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95931,7 +95919,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/unmanned-aerial-vehicle.md",
+  "file_path": "technica/general/industry/transportation-vehicles.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95943,7 +95931,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/visiotechnology.md",
+  "file_path": "technica/general/industry/unmanned-aerial-vehicle.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95955,7 +95943,19 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/waste-management.md",
+  "file_path": "technica/general/industry/visiotechnology.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/industry/waste-management.md",
   "logs": [
    {
     "date": "2026-11-13",
@@ -95967,7 +95967,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/wastewater-treatment.md",
+  "file_path": "technica/general/industry/wastewater-treatment.md",
   "logs": [
    {
     "date": "2026-11-13",
@@ -95979,7 +95979,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/well-logging.md",
+  "file_path": "technica/general/industry/well-logging.md",
   "logs": [
    {
     "date": "2026-11-08",
@@ -95991,7 +95991,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/apache-caffeine.md",
+  "file_path": "technica/general/lib/apache-caffeine.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96002,7 +96002,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/apache-commons.md",
+  "file_path": "technica/general/lib/apache-commons.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96013,7 +96013,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/apache-lucene.md",
+  "file_path": "technica/general/lib/apache-lucene.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96024,7 +96024,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/apache-opennlp.md",
+  "file_path": "technica/general/lib/apache-opennlp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96035,7 +96035,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/apache-tika.md",
+  "file_path": "technica/general/lib/apache-tika.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96046,7 +96046,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/beautiful-soup.md",
+  "file_path": "technica/general/lib/beautiful-soup.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96057,7 +96057,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/binascii.md",
+  "file_path": "technica/general/lib/binascii.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96068,7 +96068,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/celery.md",
+  "file_path": "technica/general/lib/celery.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96079,7 +96079,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/checker-framework.md",
+  "file_path": "technica/general/lib/checker-framework.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96090,7 +96090,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/dapper.md",
+  "file_path": "technica/general/lib/dapper.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96101,7 +96101,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/falcor.md",
+  "file_path": "technica/general/lib/falcor.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96112,7 +96112,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/folly.md",
+  "file_path": "technica/general/lib/folly.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96123,7 +96123,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/gensim.md",
+  "file_path": "technica/general/lib/gensim.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96134,7 +96134,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/ggplot2.md",
+  "file_path": "technica/general/lib/ggplot2.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96145,7 +96145,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/google-guava.md",
+  "file_path": "technica/general/lib/google-guava.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96156,7 +96156,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/google-guice.md",
+  "file_path": "technica/general/lib/google-guice.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96167,7 +96167,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/hamcrest.md",
+  "file_path": "technica/general/lib/hamcrest.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96178,7 +96178,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/hibernate.md",
+  "file_path": "technica/general/lib/hibernate.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96189,7 +96189,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/htmx.md",
+  "file_path": "technica/general/lib/htmx.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96200,7 +96200,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/libuv.md",
+  "file_path": "technica/general/lib/libuv.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96211,7 +96211,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/linq.md",
+  "file_path": "technica/general/lib/linq.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96222,7 +96222,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/lmax-disruptor.md",
+  "file_path": "technica/general/lib/lmax-disruptor.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96233,7 +96233,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/lunr-js.md",
+  "file_path": "technica/general/lib/lunr-js.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96244,7 +96244,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/openmp.md",
+  "file_path": "technica/general/lib/openmp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96255,7 +96255,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/openpyxl.md",
+  "file_path": "technica/general/lib/openpyxl.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96266,7 +96266,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/pillow.md",
+  "file_path": "technica/general/lib/pillow.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96277,7 +96277,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/presto.md",
+  "file_path": "technica/general/lib/presto.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96288,7 +96288,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/project-lombok.md",
+  "file_path": "technica/general/lib/project-lombok.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96299,7 +96299,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/pydantic.md",
+  "file_path": "technica/general/lib/pydantic.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96310,7 +96310,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/pytorch/readme.md",
+  "file_path": "technica/general/lib/pytorch/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96321,7 +96321,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/reactivex.md",
+  "file_path": "technica/general/lib/reactivex.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96332,7 +96332,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/redux.md",
+  "file_path": "technica/general/lib/redux.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96343,7 +96343,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/requests.md",
+  "file_path": "technica/general/lib/requests.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96354,7 +96354,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/resilience4j.md",
+  "file_path": "technica/general/lib/resilience4j.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96365,7 +96365,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/rspec.md",
+  "file_path": "technica/general/lib/rspec.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96376,7 +96376,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/scapy.md",
+  "file_path": "technica/general/lib/scapy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96387,7 +96387,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/scrapy.md",
+  "file_path": "technica/general/lib/scrapy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96398,7 +96398,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/sqlalchemy.md",
+  "file_path": "technica/general/lib/sqlalchemy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96409,7 +96409,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/struct.md",
+  "file_path": "technica/general/lib/struct.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96420,7 +96420,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/sympy.md",
+  "file_path": "technica/general/lib/sympy.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96431,7 +96431,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/thor.md",
+  "file_path": "technica/general/lib/thor.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96442,7 +96442,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/typer.md",
+  "file_path": "technica/general/lib/typer.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96453,7 +96453,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/xpath.md",
+  "file_path": "technica/general/lib/xpath.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96464,7 +96464,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/lib/zstd.md",
+  "file_path": "technica/general/lib/zstd.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96475,7 +96475,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/platform/aws.md",
+  "file_path": "technica/general/platform/aws.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96486,7 +96486,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/platform/ray.md",
+  "file_path": "technica/general/platform/ray.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96497,7 +96497,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/platform/runpod.md",
+  "file_path": "technica/general/platform/runpod.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96508,7 +96508,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/product/drug.md",
+  "file_path": "technica/general/product/drug.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -96526,7 +96526,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/product/fine-chemical.md",
+  "file_path": "technica/general/product/fine-chemical.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -96537,7 +96537,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/product/healthcare-product.md",
+  "file_path": "technica/general/product/healthcare-product.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -96555,7 +96555,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/product/pharmaceutical-product.md",
+  "file_path": "technica/general/product/pharmaceutical-product.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -96573,7 +96573,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/product/readme.md",
+  "file_path": "technica/general/product/readme.md",
   "logs": [
    {
     "date": "2026-11-14",
@@ -96584,7 +96584,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/readme.md",
+  "file_path": "technica/general/constitutive-technical-object.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96595,7 +96595,7 @@
   ]
  },
  {
-  "file_path": "technica/op/computational.md",
+  "file_path": "technica/general/computational.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96606,7 +96606,7 @@
   ]
  },
  {
-  "file_path": "technica/op/house/cleaning/readme.md",
+  "file_path": "technica/general/house/cleaning/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96617,7 +96617,7 @@
   ]
  },
  {
-  "file_path": "technica/op/house/nutrition/readme.md",
+  "file_path": "technica/general/house/nutrition/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96628,7 +96628,7 @@
   ]
  },
  {
-  "file_path": "technica/op/house/readme.md",
+  "file_path": "technica/general/house/readme.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96639,7 +96639,7 @@
   ]
  },
  {
-  "file_path": "technica/op/readme.md",
+  "file_path": "technica/general/operation.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96650,7 +96650,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/aider.md",
+  "file_path": "technica/general/aider.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96661,7 +96661,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/appimage.md",
+  "file_path": "technica/general/appimage.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96672,7 +96672,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/awk.md",
+  "file_path": "technica/general/awk.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96683,7 +96683,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/bazel.md",
+  "file_path": "technica/general/bazel.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96694,7 +96694,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/berkeley-packet-filter-bpf.md",
+  "file_path": "technica/general/berkeley-packet-filter-bpf.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96705,7 +96705,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/blender.md",
+  "file_path": "technica/general/blender.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96716,7 +96716,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/btop.md",
+  "file_path": "technica/general/btop.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96727,7 +96727,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/cloudflared.md",
+  "file_path": "technica/general/cloudflared.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96738,7 +96738,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/copilot.md",
+  "file_path": "technica/general/copilot.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96749,7 +96749,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/dbeaver.md",
+  "file_path": "technica/general/dbeaver.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96760,7 +96760,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/dd.md",
+  "file_path": "technica/general/dd.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96771,7 +96771,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/doxygen.md",
+  "file_path": "technica/general/doxygen.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96782,7 +96782,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/eclipse.md",
+  "file_path": "technica/general/eclipse.md",
   "logs": [
    {
     "date": "2026-10-23",
@@ -96821,7 +96821,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/file.md",
+  "file_path": "technica/general/file.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96832,7 +96832,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/find.md",
+  "file_path": "technica/general/find.md",
   "logs": [
    {
     "date": "2026-10-20",
@@ -96850,7 +96850,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/firefox.md",
+  "file_path": "technica/general/firefox.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96861,7 +96861,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/jepsen.md",
+  "file_path": "technica/general/jepsen.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96872,7 +96872,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/kitty.md",
+  "file_path": "technica/general/kitty.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96883,7 +96883,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/latex.md",
+  "file_path": "technica/general/latex.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96894,7 +96894,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/libreoffice.md",
+  "file_path": "technica/general/libreoffice.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96905,7 +96905,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/linux.md",
+  "file_path": "technica/general/linux.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96916,7 +96916,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/maven.md",
+  "file_path": "technica/general/maven.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96941,7 +96941,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/neovim.md",
+  "file_path": "technica/general/neovim.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96952,7 +96952,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/npm.md",
+  "file_path": "technica/general/npm.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96963,7 +96963,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/ollama.md",
+  "file_path": "technica/general/ollama.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96974,7 +96974,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/openclaw.md",
+  "file_path": "technica/general/openclaw.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96985,7 +96985,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/opencode.md",
+  "file_path": "technica/general/opencode.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -96996,7 +96996,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/openssl.md",
+  "file_path": "technica/general/openssl.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97007,7 +97007,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/opentelemetry.md",
+  "file_path": "technica/general/opentelemetry.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97018,7 +97018,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/portainer.md",
+  "file_path": "technica/general/portainer.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97029,7 +97029,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/pretty-good-privacy-pgp.md",
+  "file_path": "technica/general/pretty-good-privacy-pgp.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97040,7 +97040,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/pytest.md",
+  "file_path": "technica/general/pytest.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97051,7 +97051,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/readelf.md",
+  "file_path": "technica/general/readelf.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97062,7 +97062,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/readme.md",
+  "file_path": "technica/general/production-technical-object.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97073,7 +97073,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/ss.md",
+  "file_path": "technica/general/ss.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97084,7 +97084,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/ssh/ssh-config.md",
+  "file_path": "technica/general/ssh/ssh-config.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97095,7 +97095,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/ssh/ssh-secure-shell.md",
+  "file_path": "technica/general/ssh/ssh-secure-shell.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97106,7 +97106,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/strace.md",
+  "file_path": "technica/general/strace.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97117,7 +97117,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/strings.md",
+  "file_path": "technica/general/strings.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97128,7 +97128,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/tc.md",
+  "file_path": "technica/general/tc.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97139,7 +97139,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/tcpdump.md",
+  "file_path": "technica/general/tcpdump.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97150,7 +97150,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/uv.md",
+  "file_path": "technica/general/uv.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97161,7 +97161,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/vlc-media-player.md",
+  "file_path": "technica/general/vlc-media-player.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97172,7 +97172,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/vscode.md",
+  "file_path": "technica/general/vscode.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97183,7 +97183,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/xxd.md",
+  "file_path": "technica/general/xxd.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -97194,7 +97194,7 @@
   ]
  },
  {
-  "file_path": "technica/pto/zsh.md",
+  "file_path": "technica/general/zsh.md",
   "logs": [
    {
     "date": "2026-10-24",
@@ -122423,7 +122423,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/laser-doppler-vibrometer.md",
+  "file_path": "technica/general/industry/laser-doppler-vibrometer.md",
   "logs": [
    {
     "date": "2026-11-17",
@@ -122445,7 +122445,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/industry/truck.md",
+  "file_path": "technica/general/industry/truck.md",
   "logs": [
    {
     "date": "2026-11-17",
@@ -123331,7 +123331,7 @@
   ]
  },
  {
-  "file_path": "technica/cto/es/multinode/separation-science-and-technology.md",
+  "file_path": "technica/general/es/multinode/separation-science-and-technology.md",
   "logs": [
    {
     "date": "2026-11-18",

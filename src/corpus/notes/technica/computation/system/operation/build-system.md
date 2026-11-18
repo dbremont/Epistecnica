@@ -4,7 +4,7 @@ tags: [note, build-system, tool]
 
 # Build System
 
-- [Make](/view.html?p=notes/technica/computation/system/operation/make.md), [Meson](/view.html?p=notes/technica/computation/system/operation/meson.md), [Ninja](/view.html?p=notes/technica/computation/system/operation/ninja.md), [CMake](/view.html?p=notes/technica/computation/system/operation/cmake.md), [GNU Autotools](/view.html?p=notes/technica/computation/system/operation/gnu-autotools.md), [Apache Maven](/view.html?p=notes/technica/pto/maven.md), [Gradle](/view.html?p=notes/technica/computation/system/operation/gradle.md)
+- [Make](/view.html?p=notes/technica/computation/system/operation/make.md), [Meson](/view.html?p=notes/technica/computation/system/operation/meson.md), [Ninja](/view.html?p=notes/technica/computation/system/operation/ninja.md), [CMake](/view.html?p=notes/technica/computation/system/operation/cmake.md), [GNU Autotools](/view.html?p=notes/technica/computation/system/operation/gnu-autotools.md), [Apache Maven](/view.html?p=notes/technica/general/maven.md), [Gradle](/view.html?p=notes/technica/computation/system/operation/gradle.md)
 
 > In this note, we will explore **build systems**: the tools used to turn source code and its dependencies into software that can be executed, packaged, and delivered.
 > 

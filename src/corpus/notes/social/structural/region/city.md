@@ -215,10 +215,10 @@ Three frames act on the same object at different scales, and the corpus files ea
 - [Waste Management & Valorisation](/view.html?p=notes/social/problem/dimension/urbanism/waste-management-valorisation.md) — the waste system of the settlement
 - [Architecture](/view.html?p=notes/social/problem/dimension/urbanism/architecture.md) — the building scale the city aggregates
 - [Residential Building](/view.html?p=notes/social/problem/dimension/urbanism/residential-building.md) — the dwelling stock's building type
-- [Construction Technology](/view.html?p=notes/technica/cto/industry/construction-technology.md) — how the fabric is built
-- [Construction Project System](/view.html?p=notes/technica/cto/industry/construction-project-system.md) — the project form that delivers it
-- [Logistics System](/view.html?p=notes/technica/cto/industry/logistics-system.md) — the goods flow the city depends on
-- [Energy Technology](/view.html?p=notes/technica/cto/es/multinode/energy-technology.md) — the energy systems the city hosts
+- [Construction Technology](/view.html?p=notes/technica/general/industry/construction-technology.md) — how the fabric is built
+- [Construction Project System](/view.html?p=notes/technica/general/industry/construction-project-system.md) — the project form that delivers it
+- [Logistics System](/view.html?p=notes/technica/general/industry/logistics-system.md) — the goods flow the city depends on
+- [Energy Technology](/view.html?p=notes/technica/general/es/multinode/energy-technology.md) — the energy systems the city hosts
 - [Region](/view.html?p=notes/social/structural/region/region.md) — the interaction field the city sits in
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the actor form that governs the compound
 - Lynch, K. (1960). *The Image of the City*. MIT Press. — legibility, and the paths, edges, districts, nodes and landmarks a resident reads a city by
