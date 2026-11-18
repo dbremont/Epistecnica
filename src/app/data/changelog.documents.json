@@ -38039,7 +38039,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Hansmann & Kraakman 2002: property rights bind strangers, so they must be verifiable at low cost; the numerus clausus and the limits on divisibility are the legal system’s answer, which is the cost tokenization claims to lower."
+    "summary": "Entry created. Hansmann & Kraakman 2002: property rights bind strangers, so they must be verifiable at low cost; the numerus clausus and the limits on divisibility are the legal system’s answer, which is the cost tokenization claims to lower.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38049,7 +38050,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Merrill & Smith 2000: the closed list of property forms as a standardisation device driven by third-party information costs; read against tokenization as the reason a bespoke token is legible to the chain and illegible to the court."
+    "summary": "Entry created. Merrill & Smith 2000: the closed list of property forms as a standardisation device driven by third-party information costs; read against tokenization as the reason a bespoke token is legible to the chain and illegible to the court.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38059,7 +38061,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Fairfield 2005: rivalrous, persistent, interconnected virtual objects treated as property, with claims against other users and against the operator whose code defines them; the boundary case where the same record is the title and the thing titled."
+    "summary": "Entry created. Fairfield 2005: rivalrous, persistent, interconnected virtual objects treated as property, with claims against other users and against the operator whose code defines them; the boundary case where the same record is the title and the thing titled.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38069,7 +38072,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Lessig 1999: law, norms, market and architecture as four modalities of regulation; in a digital register the architecture is the enforcement apparatus, which makes holdings cheap to protect and moves their constitution into an artefact the holder does not control."
+    "summary": "Entry created. Lessig 1999: law, norms, market and architecture as four modalities of regulation; in a digital register the architecture is the enforcement apparatus, which makes holdings cheap to protect and moves their constitution into an artefact the holder does not control.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38079,7 +38083,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Nakamoto 2008: proof-of-work chained timestamping as the answer to double spending without a trusted third party; the holding becomes a position in a public history, unforgeable and still unresolved as to what the token entitles."
+    "summary": "Entry created. Nakamoto 2008: proof-of-work chained timestamping as the answer to double spending without a trusted third party; the holding becomes a position in a public history, unforgeable and still unresolved as to what the token entitles.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38089,7 +38094,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. Buterin 2014: a blockchain with a Turing-complete virtual machine, so the rules attached to an entry execute on the ledger; the incidents travel inside the instrument, bounded by what the machine can see."
+    "summary": "Entry created. Buterin 2014: a blockchain with a Turing-complete virtual machine, so the rules attached to an entry execute on the ledger; the incidents travel inside the instrument, bounded by what the machine can see.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  },
@@ -38099,7 +38105,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Entry created. BBVA Switzerland (undated) on the tokenization thesis: the BCG projection of USD 16 trillion and 10% of global GDP by 2030, the WEF 2027 date, and the Sygnum Picasso split into 4,000 tokens; recorded as an object of study, since the piece states the claim without the entitlement behind the token."
+    "summary": "Entry created. BBVA Switzerland (undated) on the tokenization thesis: the BCG projection of USD 16 trillion and 10% of global GDP by 2030, the WEF 2027 date, and the Sygnum Picasso split into 4,000 tokens; recorded as an object of study, since the piece states the claim without the entitlement behind the token.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
  }

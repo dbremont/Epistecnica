@@ -122898,7 +122898,9 @@
    {
     "date": "2026-11-18",
     "kind": "docs",
-    "summary": "Tokenization and digital representation added to the references: the note now carries the verification frame (Hansmann & Kraakman), the closed title vocabulary (Merrill & Smith), virtual property (Fairfield), code as enforcement apparatus (Lessig), the ledger as title record (Nakamoto, Antonopoulos) and the programmable instrument (Buterin), plus the BBVA tokenization thesis as its own object of study. Body: the history sentence ends at the register that executes its own transfer; the type answer states that the title system has a digital instrument and the object domain a virtual member, pointing to the relation note rather than duplicating it; one decomposition row added under Title System for the Digital Register."
+    "summary": "Tokenization and digital representation added to the references: the note now carries the verification frame (Hansmann & Kraakman), the closed title vocabulary (Merrill & Smith), virtual property (Fairfield), code as enforcement apparatus (Lessig), the ledger as title record (Nakamoto, Antonopoulos) and the programmable instrument (Buterin), plus the BBVA tokenization thesis as its own object of study. Body: the history sentence ends at the register that executes its own transfer; the type answer states that the title system has a digital instrument and the object domain a virtual member, pointing to the relation note rather than duplicating it; one decomposition row added under Title System for the Digital Register.",
+    "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200",
+    "before": "bdde47381172fb3b9ba7919a5879b3529868f48a"
    }
   ]
  }
