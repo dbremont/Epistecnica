@@ -38109,5 +38109,45 @@
     "commit": "aab566b0ab9ed55338265de7eafac7bbaef9e200"
    }
   ]
+ },
+ {
+  "file_path": "papers/liu-2022-advancing-rare-earth-separation-machine-learning.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Liu, Johnson, Jansone-Popova and Jiang (2022), JACS Au 2(6):1428-1434, doi 10.1021/jacsau.2c00122. the paper that made the later automated work possible: a deep-learning model that predicts solvent-extraction distribution coefficients for lanthanides from a ligand's structure, replacing trial-and-error ligand discovery with a regression over a representation. The note records the dataset (1202 D values, 109 ligands, more than 60 entries per Ln(III), log D spanning -4 to +4, 117 points held out for validation), the representation that is the method's contribution (physicochemical descriptors plus extended-connectivity fingerprints plus the extraction conditions, 2291 inputs per output), the fully connected networks in PyTorch with the best configuration and its scores (training R2 0.92, RMSE 0.40, MAE 0.19; validation R2 0.85, RMSE 0.53, MAE 0.34, about 0.5 in log D), and the prospective test on four newly synthesised DGA ligands (predicted versus measured R2 0.78-0.92, per-ligand MAE 0.21/0.41/0.38/0.22). Two limits are kept: errors concentrate on ligands with rare groups such as -SR that the training set barely covers, and the pooled literature conditions mean the model learns the literature as much as the chemistry. Links the Separation Science and Technology domain, Rare Earth, Rare Earth Elements and Chemical Engineering."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/augustine-2024-advancing-rare-earth-actinide-separation.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Augustine et al. (2024), ACS Sustainable Chem. Eng. 12(45):16692-16699, doi 10.1021/acssuschemeng.4c06166. Bayesian Optimization driving the LANL Super Separator, a custom robotics platform for actinide campaigns that automates most steps of liquid-liquid extraction, chromatography, crystallization and (co)precipitation. The note gives the chemistry (Th(IV) from aqueous HNO3 into 20 v% TBP/n-dodecane with DEHBA as extractant, four variables varied at once, distribution ratio as response) and the result: 339 distribution-ratio measurements over 113 unique conditions, against an estimated 1296 measurements for a complete characterization of the same space, an estimated 74% saving. It also keeps the number honest — the baseline is the authors' estimate of a full grid, not a measured screening campaign — and separates the equilibrium quantity measured from the process it feeds. Notes the safety reading (fewer actinide experiments, less dose and waste) and the deposit in the Separation Archive for f-elements (SAFE). Links the domain note and the two rare-earth material notes."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/augustine-2026-coupling-dft-automated-experimentation-rare-earth.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Augustine et al. (2026), JACS 148(38):40676-40687, doi 10.1021/jacs.6c04301. the companion study that moves selectivity into the aqueous phase: database screening, DFT and initial experiments identified oxaloacetic acid as a holdback agent, paired with HDEHP (D2EHPA) as extractant, over a four-dimensional matrix of pH, extractant concentration, holdback concentration and salt concentration, explored with automated high-throughput experiments under multi-objective Bayesian Optimization. The note records the result as a selectivity switch rather than a yield knob: Eu, Dy and Ho extracted selectively over Nd at pH about 2.0, the selectivity shifting at pH about 0.5 so that Eu separates from Dy and Ho, with a 4-fold increase in separation factors over the HDEHP-only system and no exhaustive grid. Keeps what it does not show: four elements, one holdback/extractant pair, bench scale, separation factors rather than purities, and an abstract-level source. Links the preceding 2024 paper and the domain note."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/zhang-2026-augmenting-large-language-models-f-element-extractants.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Zhang et al. (2026), JACS 148(5):5520-5532, doi 10.1021/jacs.5c19738, epub 2026-01-28. the quasi-autonomous workflow that generates the extractant rather than optimizing a chosen one: SAFE-MolGen, a large-language-model agentic system proposing ligands from curated extraction data and ranking them with a supervised model trained on experimental data that accounts for realistic conditions; a human approval gate; then an automated pipeline that builds 3D metal-ligand complexes and runs quantum-mechanical free-energy calculations to adjudicate metal selectivity. The note reads the architecture as the argument — the LLM is a generator, the free-energy calculation is what judges — and records the demonstration for Am(III)/Eu(III) with several new ligands predicted to beat CyMe4BTBP. States plainly that the abstract reports predictions from screening and free-energy calculation, not synthesised-and-measured separations. Closes by placing the four papers as successive moves of the discovery bottleneck: predicting a distribution coefficient, optimizing conditions for a chosen system, and generating the molecule itself."
+   }
+  ]
  }
 ]
