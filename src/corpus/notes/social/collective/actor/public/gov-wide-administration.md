@@ -471,11 +471,84 @@ It is not an `Organizational Administration` (the internal administration of one
 - When does administration become excessive?
 - How to evalute the scability of **Public Administration**?
 
+### How to design a performance evaluation system?
+
+- Alach, Z. (2017). Towards a standard conceptual typology of public sector performance measurement. *Kōtuitui: New Zealand Journal of Social Sciences Online, 12*(1), 56–69.
+- Ambiguity in public sector performance measurement: A systematic literature review. (2022).
+- Andersen, L. B., Boesen, A., & Pedersen, L. H. (2016). Performance in public organizations: Clarifying the conceptual space. *Public Administration Review, 76*(6), 852–862.
+- Arnaboldi, M., & Azzone, G. (2010). Constructing performance measurement in the public sector. *Critical Perspectives on Accounting, 21*(4), 266–282.
+- Behn, R. D. (2003). Why measure performance? Different purposes require different measures. *Public Administration Review, 63*(5), 586–606.
+- Cavalluzzo, K. S., & Ittner, C. D. (2004). Implementing performance measurement innovations: Evidence from government. *Accounting, Organizations and Society, 29*(3–4), 243–267.
+- Febriyanti, et al. (2024). The typology and determinant of performance measurement for public sector organizations.
+- Gerrish, E. (2016). The impact of performance management on performance in public organizations: A meta-analysis. *Public Administration Review, 76*(1), 48–66.
+- Heinrich, C. J. (2002). Outcomes-based performance management in the public sector: Implications for government accountability and effectiveness. *Public Administration Review, 62*(6), 712–725.
+- Heinrich, C. J., & Marschke, G. (2010). Incentives and their dynamics in public sector performance management systems. *Journal of Policy Analysis and Management, 29*(1), 183–208.
+- Johnsen, Å., Solholm, K., & Tufte, P. A. (2024). Performance measurement system design as link between strategy formulation and performance information use in public sector organizations. *Public Performance & Management Review, 47*(4), 813–848.
+- Oh, Y., & Bush, C. B. (2015). Assessing public sector performance and untangling the complexity of public performance measurement. *International Review of Public Administration, 20*(3), 256–272.
+- Poister, T. H., Pasha, O. Q., & Edwards, L. H. (2013). Does performance management lead to better outcomes? Evidence from the U.S. public transit industry. *Public Administration Review, 73*(4), 625–636.
+- The use of performance measurement systems in the public sector: Effects on performance. (2014). *Management Accounting Research, 25*(2), 131–146.
+- Tuck, N., & Zaleski, G. (1996). Criteria for developing performance measurement systems in the public sector. *International Journal of Public Administration, 19*(11–12), 1945–1978.
+- van der Kolk, B. (2022). Performance measurement in the public sector: Mapping 20 years of survey research. *Financial Accountability & Management, 38*(4), 703–729.
+- Wholey, J. S., & Hatry, H. P. (1992). The case for performance monitoring. *Public Administration Review*.
+- A little bit of everything? Conceptualising performance measurement in hybrid public sector organisations. (2020).
+
+*Duplicates removed. Entries with incomplete bibliographic information have been retained rather than guessed.*
+
+### How to design an audit system?
+
+> ...
+
+### Who audit the auditors?
+
+- Clench (2010), “Auditing the auditors – International Standards to hold Supreme Audit Institutions to account”
+- Lagos (2026), “How Have the Transformations of Supreme Audit Institutions Shaped Contemporary Public Auditing?”
+- Johnsen et al. (2019), “Supreme Audit Institutions in a High-impact Context”
+- Viana & Carpinteiro, “Performance audit and public policy evaluation: the case of supreme audit institutions”
+- Lennox & Pittman (2010), “Auditing the auditors”
+- “How should the auditors be audited?” (2010)
+- Ramesh & Ramanathan (2021), “Auditing the auditors: A comparative study about India, UK, and the USA”
+
+
+### How to think about incentive sysetms in public organizations?
+
+> ...
+
 ### How to Organize Systematic Reflection and Research on Public Administration?
 
 - Research
 - Audit
 - Performance Evaluation
+
+### How does the Swedish Government-Wide Administrative System work?
+
+> Government → ministries → autonomous government agencies → annual appropriation directions and funding allocations → agency implementation → annual reporting → government monitoring and evaluation → external audit.
+
+```
+
+                         RIKSDAG
+                       Parliament
+                           │
+                    legislation / budget
+                           │
+                       GOVERNMENT
+                  Prime Minister + Ministers
+                           │
+                    GOVERNMENT OFFICES
+                PM Office + 11 Ministries
+                           │
+             ┌─────────────┴─────────────┐
+             │                           │
+      Government Agencies          State-owned companies
+       (≈400 central bodies)          (companies)
+             │
+       implementation
+             │
+     citizens / firms / society
+```
+
+### How does the Finnish Government-Wide Administrative System work?
+
+> Government → ministries → subordinate agencies and institutions → performance agreements and budget allocations → performance targets → agency implementation → annual reporting and financial statements → evaluation and external audit.
 
 ## References
 

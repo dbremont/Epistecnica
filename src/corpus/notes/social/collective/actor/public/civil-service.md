@@ -1,6 +1,12 @@
 ---
 tags: [note, unfinished]
+qa:
+- Is civil service design part of policy, or should we consider it separately for practical and analytical purposes?
 ---
+
+
+
+
 
 Guiding Questions:
 
@@ -239,6 +245,39 @@ Los cargos que generalmente se eligen o se accede mediante un tribunal de oposic
 | Hong Kong grades           | Neutralidad colonial          |
 | Singapore elite service    | Desarrollo económico dirigido |
 
+## Literature Review
+
+| Research problem                            | Key literature or sources                                                  | Analytical object                                                         |
+| ------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Official recruitment**                    | Elman; Miyazaki; Northcote–Trevelyan; Macaulay Report                      | Eligibility, selection, examinations, appointment                         |
+| **Qualifications and training**             | Elman; studies of European officialdom; historical recruitment regulations | Required knowledge, educational credentials, professional preparation     |
+| **Career and advancement**                  | Ho; Elman; comparative histories of European officialdom                   | Promotion, rank, career progression, status                               |
+| **Position and rank structures**            | Page; European administrative histories; civil service regulations         | Offices, grades, hierarchies, classifications                             |
+| **Social composition of the bureaucracy**   | Ho; Elman; comparative recruitment research                                | Social origins, elite reproduction, access to office                      |
+| **Political control of appointments**       | Elman; Hardenberg; Stein; comparative recruitment studies                  | Patronage, royal authority, political influence, institutional autonomy   |
+| **Personnel discipline and accountability** | Historical administrative regulations and institutional histories          | Duties, sanctions, supervision, responsibility                            |
+| **Reform and institutional change**         | Northcote–Trevelyan; Macaulay; Hardenberg; Fulton                          | Reform objectives, implementation, institutional resistance, consequences |
+
+## History of Civil Service Reform
+
+
+| Country            | Foundational document or reform                                                                      |                                Date | What to investigate                                                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **United Kingdom** | [Northcote–Trevelyan Report](https://commonslibrary.parliament.uk/research-briefings/cbp-10819/)     |                                1854 | Open competitive recruitment, merit, classification, and permanent public service.                                                    |
+| **United States**  | Pendleton Civil Service Reform Act                                                                   |                                1883 | The transition away from the spoils system and the institutionalization of merit-based recruitment.                                   |
+| **France**         | Ordinance establishing the École nationale d'administration (ENA)                                    |                                1945 | Centralized training and recruitment of senior officials; subsequent reforms to the higher civil service.                             |
+| **Spain**          | Royal Decree of 18 June 1852, associated with the Bravo Murillo reform                               |                                1852 | Administrative categories, entry examinations, remuneration, promotion, and personnel regulation.                                     |
+| **Germany**        | German civil service legislation and Prussian administrative reforms                                 | Particularly the nineteenth century | Professional qualifications, legal status, rank structures, and the relationship between bureaucratic office and career.              |
+| **Sweden**         | Constitutional and administrative reforms establishing the modern framework of public administration |  Particularly the twentieth century | Agency autonomy, administrative impartiality, and the development of position-based employment.                                       |
+| **Singapore**      | Public-service reforms following independence                                                        |                    From 1965 onward | Meritocratic recruitment, scholarship systems, leadership development, and central coordination of personnel.                         |
+| **Japan**          | National Public Service Act                                                                          |                                1947 | Competitive examinations, personnel administration, and the organization of a professional public service after the Second World War. |
+| **India**          | Macaulay's 1854 report on the Indian Civil Service and subsequent civil service reforms              |                         1854 onward | Competitive recruitment, imperial administrative institutions, and the transition to a national civil service.                        |
+| **Brazil**         | Federal constitutional and administrative reforms, particularly the 1930s onward                     |                        1930s onward | Professionalization, competitive recruitment, administrative modernization, and the organization of statutory careers.                |
+
+
+
+
+
 ### Which are the concepts neded to maeks sense of the civil service?
 
 - Position
@@ -404,3 +443,4 @@ Los cargos que generalmente se eligen o se accede mediante un tribunal de oposic
 - The Rise of Managerial Bureaucracy: Reforming the British Civil Service
 - Hood & Dixon’s A Government That Worked Better and Cost Less?
 - Oposición
+- https://commonslibrary.parliament.uk/research-briefings/cbp-10819/?utm_source=chatgpt.com

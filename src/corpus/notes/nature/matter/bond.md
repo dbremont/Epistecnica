@@ -2,7 +2,7 @@
 tags: [note, nature, phenomenon, building-block, chemistry, phenomena]
 ---
 
-# Bond
+# Chemical Bond
 
 > A **bond** is a stable attractive association that holds constituents together — atoms, ions, molecules, groups, aggregates — in a stable arrangement, through the interaction of their electrons, charges or fields. The **chemical bond** is the canonical kind: the association of [atoms](https://en.wikipedia.org/wiki/Atom) or [ions](https://en.wikipedia.org/wiki/Ion) to form [molecules](https://en.wikipedia.org/wiki/Molecule), [crystals](https://en.wikipedia.org/wiki/Crystal), and other structures. The taxonomy below carries the chemical bond's own kinds — the primary (intramolecular: covalent, ionic, metallic, coordinate), secondary (intermolecular: hydrogen, dipole–dipole, van der Waals) and specialized covalent (peptide, disulfide) — each a distinct mechanism of the same general fact.
 >

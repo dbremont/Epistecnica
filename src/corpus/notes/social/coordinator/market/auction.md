@@ -34,7 +34,7 @@ Three objectives, and a design can serve only one of them well:
 | **Efficient allocation** — the good goes to whoever values it most | Second-price, or open ascending with truthful values | Revenue, because the seller gives up the winner's information rent |
 | **Revenue** | First-price with a well-set reserve | Participation: high reserves deter entry and can yield less |
 
-The conflict is not a technicality. The state selling a spectrum licence is not selling a painting: it wants the licence to go to the operator who will use it well, the treasury wants the highest price, and the entrant wants a chance. An auction rule is a decision about which of those the state actually cares about — taken once, in the design, and then out of politics.
+The conflict is not a technicalit. The state selling a spectrum licence is not selling a painting: it wants the licence to go to the operator who will use it well, the treasury wants the highest price, and the entrant wants a chance. An auction rule is a decision about which of those the state actually cares about — taken once, in the design, and then out of politics.
 
 ## The theory that matters
 
@@ -80,3 +80,10 @@ The conflict is not a technicality. The state selling a spectrum licence is not 
 - [Auction](https://en.wikipedia.org/wiki/Auction)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md) · [Market System](/view.html?p=notes/social/coordinator/market/market-system.md) — the arena and its structure
 - [Price](/view.html?p=notes/social/coordinator/price-asset/price.md) — the clearing price an auction discovers
+
+- Cattle Auction System
+  - https://mylivestock.co.nz/go/home/index
+  - https://www.royalfloraholland.com/Entidade
+  - Chicago Board of Trade
+  - ...
+- ...

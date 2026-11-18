@@ -5,6 +5,10 @@ order: 0
 
 # Transport
 
+- What is meant by transport?
+- Which kinds of problems can be modeled as transport problems?
+- What is the essence of transport?
+
 > **Transport** is the mathematical study of moving something from where it is to where it is wanted: a distribution, a mass, a flow, a probability, a signal or a quantity, carried from a source to a target under a cost, a capacity, or a conservation law.
 
 > The word names one problem in several mathematical clothes. Move dirt from a pile into a hole at least cost: that is **optimal transport**, a measure-theoretic optimization problem. Ship a commodity from warehouses to markets through a network with capacities: that is a **flow problem**, a linear program on a graph. Carry a density along a velocity field while it is conserved: that is a **transport equation**, a PDE. Push a distribution through a channel and read what comes out: that is a **Markov kernel**, probability's version of the same move. Assign workers to jobs one apiece: that is the **assignment problem**, transport with indivisible units.

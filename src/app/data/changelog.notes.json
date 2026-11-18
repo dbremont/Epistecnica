@@ -1744,6 +1744,11 @@
     "kind": "move",
     "summary": "Move from epistemica/mathematical/construction/taylors-theorem.md: the results an inquiry leaves behind are filed together under epistemic/construction/, not inside the branch that produced them.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -9885,6 +9890,11 @@
     "summary": "Add the book behind the technique: Nayfeh (1981), Introduction to Perturbation Techniques, linked to its library entry — the catalogue of strained coordinates, multiple scales, averaging and matched expansions the note describes but does not cite.",
     "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6",
     "before": "6606969ade90285a706928c0bc36b3aeeff86ea6"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References built out chronologically from Strutt and Lindstedt through Poincare and Fredholm: the perturbation of a frequency before the method had a name, then the asymptotic series and functional equations that followed."
    }
   ]
  },
@@ -21247,6 +21257,11 @@
     "kind": "refactor",
     "summary": "rename the scope folder to signal",
     "commit": "5727077e658bdc9f9d542c993fe7421ca06171cc"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27272,6 +27287,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27411,6 +27431,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27617,6 +27642,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27629,6 +27659,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27689,6 +27724,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27725,6 +27765,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -27755,6 +27800,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -32595,6 +32645,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -32662,6 +32717,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -32674,6 +32734,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -32686,6 +32751,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -34703,6 +34773,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -34715,6 +34790,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -35950,6 +36030,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -38040,6 +38125,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -38052,6 +38142,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -41523,6 +41618,11 @@
     "kind": "refactor",
     "summary": "Move the chemical-bond note into matter/ and generalize it: retitled Bond, the general definition leads (stable attractive association across constituents), with the chemical bond as the canonical specialization and the taxonomy carrying its intramolecular, intermolecular and specialized covalent kinds.",
     "commit": "8532475cf002a0e1848cf38e5e2b2196ecbd1ad7"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Title corrected to Chemical Bond, matching what the note is about."
    }
   ]
  },
@@ -43013,6 +43113,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -44287,6 +44392,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -44831,6 +44941,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -47458,6 +47573,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -48412,6 +48532,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -49428,6 +49553,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -50350,6 +50480,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -50741,6 +50876,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -50777,6 +50917,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -52039,6 +52184,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -58054,6 +58204,11 @@
     "summary": "Board Selection and Composition: the seven questions moved in from public-organization.md — composition types, the principles and methods of board-member selection, their integration into a selection system, and executive selection, which belongs here because the executive is appointed by the board. One subject, one home; the note now runs composition and decomposition, then selection, then the Spanish-terms table and the evaluation.",
     "commit": "52cc6e872f87e3d5d43c90ea3ad750372c3f7caa",
     "before": "bc173d3106826c89ffae5dfd676fd24a2e61be6b"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA on appointment authority: whether the power to appoint implies control of decisions, how the distribution of appointment powers affects independence, which arrangements concentrate authority, how open competition and political appointment differ in board composition, and whether stakeholder boards govern differently from competency-based ones."
    }
   ]
  },
@@ -58249,6 +58404,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Operational conditions added: the strategy has to be paired with matching funds to align incentives and target the investment; the operating funds must not be state-aligned, must be periodically audited, and must carry a proven history."
    }
   ]
  },
@@ -60685,6 +60845,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "New QA on designing a performance evaluation system, with the measurement literature gathered under it: the typology and ambiguity reviews, Andersen, Boesen and Pedersen on the conceptual space, Arnaboldi and Azzone on constructing measurement in the public sector."
    }
   ]
  },
@@ -60894,6 +61059,11 @@
     "summary": "QA: a sixteen-row table of leadership selection models — who selects the top leader, by what mechanism, in which organization form — placed after the comparative question on autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms, because it is the same subject seen from the appointment side. The table is the mapping rather than the method: what each model concedes about where a form's autonomy really sits (a statutory agency whose head the minister appoints is autonomous in its operations and not in its tenure). The Board placeholder is rewritten accordingly — Board keeps how an appointment should be run, this note keeps which model a form uses.",
     "commit": "8d84dcea1e83b1416bf3d24030450690619787fc",
     "before": "b74b411f62998bc2632fe14a6ef1baacf264f598"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA on evaluation and monitoring, with the Scottish progress review and the innovation-centre programme evaluation cited as the worked examples."
    }
   ]
  },
@@ -110182,6 +110352,11 @@
     "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053",
     "before": "e03a1a05a50addd84e409596654e448965ad4053"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "A table of fundamental ideas and the mathematical areas each becomes, read as the building blocks of the areas the corpus files by branch."
    }
   ]
  },
@@ -116533,6 +116708,11 @@
     "kind": "move",
     "summary": "Move from nature/construction/integrate-and-fire-model.md: the shelf is renamed `nature/result/` — it holds the results of inquiry about nature (equations, laws, models, principles), and `construction` read as if it belonged to the natural elements themselves.",
     "commit": "49d73a6c5008e9f749463e3c35da7ee5a20ff950"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
    }
   ]
  },
@@ -121240,6 +121420,11 @@
     "summary": "Retarget the links into epistemica/signal/, where the signal-processing ideas now live.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053",
     "before": "e03a1a05a50addd84e409596654e448965ad4053"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA opened: what transport means, which problems are modelled as transport problems, and what the essence of the formulation is."
    }
   ]
  },
@@ -121919,6 +122104,11 @@
     "kind": "create",
     "summary": "New memorial essay: the Dominican scientific and technical documentation system. Its thesis is a distinction rather than a complaint — the country has a science system (Ley 139-01 of 2001: SNESCYT, MESCYT, FONDOCYT, with INDOTEC, IDIA and the Academia de Ciencias integrated at Art. 26) and no documentation system, so the memory of research is missing while the laboratory is not. Structured as seven questions, each answered: the problem, stated as five functions of which the country holds only the heritage halves; the scope, drawn by the rule harvest-do-not-build and by three things the system must refuse to become (a ranking agency, a second repository, a heritage digitisation programme); the incentive structure, which ties deposit to disbursement, funds the mandate with an overhead line, returns visibility to the depositor and penalises institutions rather than authors; the design and the run-time evaluations, with the metric that must not be the headline; five case studies (RCAAP, RECOLECTA, BDTD/Oasisbr, SNRD, ALICIA) and the history from the 1895 documentation movement and UNISIST 1971 through CONACITE 1983, the open-access turn and LAReferencia 2012 to the UNESCO recommendation of 2021.",
     "commit": "714e6e6cc7ba00d1b1d1a72610b740446f450826"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Substantially rewritten and extended, 229 lines added and 112 removed: the essay reorganised with the documentary-system material developed in place rather than appended."
    }
   ]
  },
@@ -122151,6 +122341,11 @@
     "kind": "create",
     "summary": "New note: imperialism, on the social-dynamic shelf beside globalization. It names the relation rather than the empire — the empires are filed as polities — and opens by admitting that the term is pejorative by construction: no state calls its own expansion imperialism, and a note that ignores the charge will misread half its sources. Readings kept as readings rather than competing types (relation of domination, process, regime, ideology, structure), then composition, six forms (colonial, informal free-trade, settler, protectorate, extractive enclave, cultural) and five theories stated with the objection each has to answer: Hobson, Lenin, Schumpeter, Gallagher and Robinson, Said. The point the table makes is that they are not rivals — two explain why the metropole wanted expansion, one how little formal control was needed, one the politics, one the categories. Closes on the five limits that actually ended empires: fiscal cost, military overstretch, legitimation at home, resistance in the periphery, rivalry between empires.",
     "commit": "f76fcbba6f43d4e1cc5ae7a9a324bc073a9e5dcd"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA opened on the questions that define the note: imperialism where sovereignty is concentrated in a dictatorship, where the polity is internally divided, and where formal sovereignty and effective control diverge."
    }
   ]
  },
@@ -122381,6 +122576,11 @@
     "kind": "create",
     "summary": "New note: the auction, on the coordinator shelf beside market-system.md — the structure note describes the market, this one describes a clearing procedure it can use. Filed outside market/instance/, which holds what is traded (financial, forex, housing, labour), because an auction is how trade is organised and cuts across all of them. The frame: a market whose clearing procedure is the product, which is why the rule is the whole subject. Forms table (English, Dutch, first-price, Vickrey, double, clock, reverse) and then the conflict that shapes the field — price discovery, efficient allocation and revenue cannot be served at once, and choosing among them is a decision taken once in the design and then out of politics. Theory that matters: revenue equivalence as a benchmark rather than a prediction, strategy-proofness in the second-price format and its rarity in practice, the winner's curse in common-value sales, and the recurring lesson that who shows up determines the result before the rule does. Cases: spectrum as the design field's laboratory, Treasury debt, Dutch auctions for perishables and their fit to spoilage, reverse auctions in procurement, clock auctions for carbon and electricity. Pathologies: auctioning to the extractor rather than the user, collusion, reserves as policy by stealth, and design capture by advisers.",
     "commit": "c5a4d4dd5deda10563360a99a143520215b0cd7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The auction note gains the cattle-auction instance, a livestock system priced by descending clock, and a correction in the passage on how the state objectives conflict."
    }
   ]
  },
@@ -122463,6 +122663,86 @@
     "summary": "The Landell de Moura row corrected on two points and given its comparison. The year is 1900, not 1899-1900, and the patent is named properly as Brazilian Patent No. 3,279. More importantly the claim is now stated correctly: June 1900 is six months before Fessenden's December transmission, so he is first by date and second by record — a new paragraph separates the three firsts that get collapsed (Bell's speech on light in 1880, Landell's radio voice in June 1900, Fessenden's in December 1900) and names the asymmetry: his demonstration is documented by the press rather than by a published test anyone could reproduce, which is why the standard account omits him. The earlier \"early, not first\" wording was simply wrong about the chronology.",
     "commit": "35a344b63aec8b3d73f0647aafc6bc39d19500e5",
     "before": "6e67ca6bc1c1ec659a346caaf731c35b4deccc48"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/cell/transport-proteins.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/organism-type.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/perturbation-testing.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+   }
+  ]
+ },
+ {
+  "file_path": "social/framework/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+   }
+  ]
+ },
+ {
+  "file_path": "social/framework/society.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "remove",
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/society.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Moved from social/framework/society.md into social/collective/, where the genus notes of the collective shelf live. Society is the collective it describes, not a framework category, and the shelf now says so."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/civil-service.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA: whether civil-service design is part of policy or a separate object of analysis for practical purposes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/sgp/hr/hr.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Title corrected to Hong Kong Civil HR, naming the polity instead of the generic label."
    }
   ]
  }

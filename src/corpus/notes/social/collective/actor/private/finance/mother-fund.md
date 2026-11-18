@@ -9,6 +9,15 @@ tags: [note, mother-fund, fund-of-funds, capital, actor]
 - Fondo Guia Mayor.
 - Fondo Guid Sectorial Menor <Sector>
 
+Note:
+
+- This strategy must be combined with a matching-fund mechanism to align investment incentives, ensure the appropriate targeting of investment destinations, and leverage the knowledge and informational capabilities of the surrounding investment ecosystem when identifying priority sectors, firms, and specific investment opportunities.  Also money, the matchign rule can be 50:50, etc.
+- The operating funds must not be state align.
+- The operating funds must be periodicaly audited.
+- The operating funds must have ceratin proven history.
+- Remember I have a war wiwh the idea of SME; in the sense that economic activaties, dictate relationship of firm size (capital, etc) -> theoritical price of cost archivable.
+- We should promote competitive, firms, and we shoudl not be pre-emptubly be selecting the size, we shoudl select the sector, and let the operating funds select the size, i mean we can have policy of concentration, etc.
+
 Mother Fund
 → Guidance Fund A (FoF) → VC / PE / infrastructure / credit funds
 → Guidance Fund B (FoF) → VC / growth / technology funds
@@ -79,6 +88,21 @@ It is a capital pool with an allocation compass: investors commit capital that t
 | **Distributed state funds**     | Multiple agencies      | Multiple agencies  | Funds                |
 | **Institutional-capital model** | State/regulator        | Institutions       | Markets              |
 | **Tax/incentive model**         | State                  | Private markets    | Private investors    |
+
+### Which are some case study?
+
+| Country | Case | Description |
+|---|---|---|
+| Israel | **Yozma Fund (1993)** | Government-backed fund-of-funds that invested in ten privately managed venture capital funds, attracting foreign investors, domestic financial institutions, and private capital. Private partners had the option to buy out the government's participation. One of the strongest examples of catalytic public investment and independent fund management. |
+| Canada | **Venture Capital Catalyst Initiative (VCCI)** | Federal investment program allocating capital to privately managed venture capital funds, including specialized streams for life sciences and clean technology. Combines public commitments with private fundraising. |
+| China | **Government Guidance Funds (GGFs)** | A large system of central and subnational government-backed funds that establish or invest in sectoral and regional subfunds. Targets strategic industries, including semiconductors, biotechnology, advanced manufacturing, and clean energy. Particularly relevant to the proposed multi-tier architecture, although government direction can extend into operating investment decisions. |
+| India | **National Investment and Infrastructure Fund (NIIF)** | Government-sponsored investment platform that mobilizes domestic and international institutional capital into infrastructure and other strategic sectors through specialized investment vehicles and co-investment arrangements. |
+| Sweden | **Regional Co-investment Funds** | Public-private regional venture capital funds matching public resources with private investment to finance early-stage companies and strengthen regional investment ecosystems. |
+| Australia | **Innovation Investment Fund (IIF)** | Government-supported venture capital program providing capital to privately managed funds, with preferential financial arrangements designed to attract private investors and stimulate investment in innovative firms. |
+| Netherlands | **Dutch Good Growth Fund (DGGF)** | Fund-of-funds that invests in local and regional investment funds, which subsequently finance SMEs. Uses blended finance and accepts higher investment risks to mobilize private capital in underserved markets. |
+| Indonesia | **Indonesia Investment Authority (INA)** | Sovereign investment institution that mobilizes domestic and international institutional capital through co-investments, investment platforms, and partnerships in infrastructure, healthcare, digital infrastructure, and other sectors. |
+| Germany | **High-Tech Gründerfonds (HTGF)** | Public-private venture capital fund investing in technology-based startups, combining government and corporate participation. Useful for examining institutional cooperation between public capital and private industrial investors. |
+| United Kingdom | **British Business Bank – Enterprise Capital Funds** | Government-backed investment structure supporting independently managed venture capital funds through public-private financing arrangements, particularly for companies facing financing gaps. |
 
 ## References
 

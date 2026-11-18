@@ -62,6 +62,18 @@ It is the government subtype of Organization: what individuates it is not its in
 
 > See in [Atlas of Public Organization Comparative Representation Systems -- Model-Derived Set](data/social/collective/actor/public/atlas/public-organization-characterization-systems.html#model-derived).
 
+### How to evaluation and monitor them?
+
+- https://www.gov.scot/publications/progress-review-scottish-government-relationships-public-bodies/pages/7/
+- https://www.scottish-enterprise.com/insights-and-events/research-evaluation-and-insight/2023/evaluation-of-innovation-centre-programme-2023-summary
+- https://www.treasury.govt.nz/publications/guide/agency-level-performance-reporting-intervention-logic-based-practices
+- https://www.gao.gov/products/gao-24-106786
+- https://www.fma.govt.nz/library/corporate-publications/statement-of-performance-expectations/
+- https://www.efk.admin.ch/en/
+- https://www.performancereports.gov.sg/
+- https://www.ago.gov.sg/publications/annual-reports/
+
+
 ## QA
 
 ### What Is a Characterization System for the `Public Organization Space`?

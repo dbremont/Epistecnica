@@ -4,13 +4,27 @@ tags: [note]
 
 # Mathematical
 
-## Which are the essense of different kidns of mathematical areas?
+## Which are the essences of different kinds of ideas? How do these ideas become building blocks of mathematical areas?
 
-- Area                  Essense
-- Arithmetic;           Quantive Porpeties encoding, plus operation.
-- Geometry:             Spacial Properties Represenation.
-- Analitical Geometry   Take geometric objects - figures -model then  with ...
-- ...
+| Fundamental Idea | Essence | Mathematical Areas |
+|---|---|---|
+| Quantification | Representing quantitative properties through numerical values and operating on them. | Arithmetic, Number Theory |
+| Shape | Representing and studying spatial properties, configurations, dimensions, and geometric relationships. | Geometry |
+| Spatial Representation | Representing geometric objects through numerical coordinates and algebraic relationships. | Analytic Geometry |
+| Transport | Studying the transfer of entities, quantities, or resources between locations, states, or configurations, subject to constraints and objectives. | Transportation Theory, Network Flow Theory, Optimal Transport |
+| Change | Studying how quantities, properties, and systems vary with respect to other quantities or time. | Calculus, Differential Equations |
+| Variability | Studying variation, uncertainty, distributions, and patterns of variation across observations or events. | Probability Theory, Statistics |
+| Information | Representing, measuring, transmitting, and transforming information. | Information Theory |
+| Computation | Transforming inputs into outputs through defined operations and procedures. | Computer Science, Computability Theory, Numerical Analysis |
+| Control | Influencing the behavior and evolution of a system through interventions and feedback. | Control Theory, Dynamical Systems |
+| Strategy | Studying decisions and interactions between decision-makers pursuing objectives under particular conditions. | Game Theory, Decision Theory |
+| Optimization | Finding the best feasible solution among a set of alternatives according to a specified objective and constraints. | Mathematical Optimization, Operations Research |
+| Restriction | Defining conditions, restrictions, and admissibility requirements that delimit the possible values, configurations, or solutions of a problem. | Algebra, Constraint Satisfaction, Mathematical Programming |
+| Order | Representing precedence, ranking, hierarchy, and arrangements among elements. | Order Theory, Combinatorics, Lattice Theory |
+| Combination | Bringing together elements, objects, or components to form collections, arrangements, or more complex configurations. | Combinatorics, Algebra, Set Theory |
+
+- Signal
+- Summatization (Accumulation of Change) (Integral)
 
 
 ## Which are the most fundamental ideas in mathematical epistemic practice?

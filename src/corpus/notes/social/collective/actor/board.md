@@ -1,5 +1,18 @@
 ---
 tags: [note, board, governance, organization, agency, social-element]
+qa:
+- Does the authority to appoint board members necessarily imply control over the board's decisions?
+- How does the distribution of appointment powers affect the independence of the governing body?
+- Which selection arrangements produce the greatest concentration of appointment authority?
+- How do open competition and direct political appointment differ in the professional composition of boards?
+- Do stakeholder-representative boards produce different governance outcomes from competency-based boards?
+- How does the institutional origin of a board member affect their accountability and loyalty?
+- Can a board be genuinely independent when all its members are appointed by the same political authority?
+- How do staggered appointments and fixed terms affect political continuity and institutional stability?
+- What mechanisms prevent the executive management from controlling the selection of the very board responsible for supervising it?
+- How does the appointment of the chairperson alter the distribution of power within the board?
+- Does the selection system optimize individual competence, collective board competence, institutional representation, or political control?
+- How do board-selection systems change following political transitions, institutional reforms, or changes in government?
 ---
 
 # Board
@@ -185,6 +198,20 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 > **One-tier and two-tier systems differ structurally.** Where a supervisory board and an executive board are separate bodies, collapsing both into "board of directors" hides who appoints whom, who monitors, and who commands. The decomposition keeps `Supervisory Board` and `Executive Board` as distinct kinds.
 
 > **A statutory board is read twice.** The governing body that decides and oversees is an agency of an organization; the statutory body that holds legal personality is itself a public organization. The two readings answer different questions and are cross-linked, never merged into one row.
+
+### Which are some concrete case studies?
+
+| Country | Organization (Case Study) | Board Selection Model | Candidate Identification | Evaluation / Recommendation | Final Appointment Authority |
+|---|---|---|---|---|---|
+| United Kingdom | Non-Departmental Public Bodies (NDPBs) | Open competitive, merit-based appointment | Public applications and professional search | Independent Advisory Assessment Panel | Responsible Minister |
+| United States | Federal Trade Commission (FTC) | Presidential nomination and legislative confirmation | Presidential nomination | Executive assessment and Senate confirmation | President, subject to Senate confirmation |
+| Canada | Crown Corporations | Governor-in-Council appointment | Government recruitment and candidate identification | Executive and ministerial assessment | Governor in Council |
+| Australia | Commonwealth Public Sector Boards | Ministerial, merit-based appointment | Open recruitment and candidate search | Departmental assessment and independent panels where appropriate | Responsible Minister |
+| Singapore | Enterprise Singapore | Direct statutory ministerial appointment | Ministerial candidate identification | Ministerial assessment under statutory requirements | Responsible Minister |
+| Germany | Large Corporations (Supervisory Boards) | Shareholder and employee co-determination | Shareholder nominations and employee elections | Shareholder voting and employee electoral procedures | General Meeting and employee constituencies |
+| South Korea | Public Corporations and Quasi-Governmental Institutions | Executive Recommendation Committee | Institutional nominations and committee identification | Executive Recommendation Committee and Steering Committee, as applicable | President or competent Minister, depending on position |
+| India | Central Public Sector Enterprises (CPSEs) | Specialized professional selection | Open applications and professional candidate search | Public Enterprises Selection Board (PESB) | Government appointment authorities |
+| France | Public Educational Establishments | Legally prescribed constituency representation | Designated constituencies and institutional representation | Electoral and statutory designation procedures | Relevant constituencies and designated authorities |
 
 ## References
 

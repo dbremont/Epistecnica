@@ -32,3 +32,5 @@ The context is the Nine Years' War and the recoinage crisis, and the perspective
 - [John Cary](/view.html?p=notes/social/collective/actor/private/persona/john-cary.md) — the author
 - [The Art of Economic Statecraft](/view.html?p=notes/unclassified/the-art-of-economic-statecraft.md) — the note that cites it
 - [United Kingdom](/view.html?p=notes/social/collective/actor/public/polity/gbr/uk.md) — the polity whose industrial policy descends from this argument
+- https://www.cyberlibrary.org/en/books/an-essay-on-the-state-of-england-in-relation-to-its-trade-its-p-b5de75b8/
+
