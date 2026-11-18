@@ -57433,7 +57433,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Institutions table gains a fourteenth row for UFSCar's CeRTEV, linked to its new actor note, carrying glass and glass-ceramics into a directory that had been entirely ceramic."
+    "summary": "Institutions table gains a fourteenth row for UFSCar's CeRTEV, linked to its new actor note, carrying glass and glass-ceramics into a directory that had been entirely ceramic.",
+    "commit": "6b77c8144411bf03d12751a8cdb07bffa9121155",
+    "before": "12338b53033183bd72744bc629558308c0a3bbd9"
    }
   ]
  },
@@ -123106,7 +123108,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. CeRTEV as the Brazilian glass centre: a FAPESP Research, Innovation and Dissemination Center hosted by UFSCar, started in 2013, directed by Edgar Dutra Zanotto, with USP and UNESP participating; noted that FAPESP renders the name as the Center for Research, Teaching, and Innovation in Glass while the institute uses the Center for Research, Technology and Education in Vitreous Materials. Focus bullets (physics of the vitreous state and the glass-genome framing, crystallisation and nucleation kinetics, glass-ceramics, bioactive and functional glasses, processing and properties, the Sao Carlos School and education). Place in the field states the CEPID instrument's research-innovation-dissemination mandate and argues the shelf placement: glass is a ceramic in the materials-science sense and glass-ceramics are glasses crystallised on purpose, so the boundary is a processing boundary and the centre works across it."
+    "summary": "Note created. CeRTEV as the Brazilian glass centre: a FAPESP Research, Innovation and Dissemination Center hosted by UFSCar, started in 2013, directed by Edgar Dutra Zanotto, with USP and UNESP participating; noted that FAPESP renders the name as the Center for Research, Teaching, and Innovation in Glass while the institute uses the Center for Research, Technology and Education in Vitreous Materials. Focus bullets (physics of the vitreous state and the glass-genome framing, crystallisation and nucleation kinetics, glass-ceramics, bioactive and functional glasses, processing and properties, the Sao Carlos School and education). Place in the field states the CEPID instrument's research-innovation-dissemination mandate and argues the shelf placement: glass is a ceramic in the materials-science sense and glass-ceramics are glasses crystallised on purpose, so the boundary is a processing boundary and the centre works across it.",
+    "commit": "6b77c8144411bf03d12751a8cdb07bffa9121155"
    }
   ]
  }
