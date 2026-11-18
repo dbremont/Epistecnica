@@ -122456,6 +122456,11 @@
     "summary": "History: the claims that lost added, with their patents. Drawbaugh (application 1880, Telephone Cases 1888) as the claimant whose conception was held not to be reduction to practice; Landell de Moura with Brazilian patent 3,279 and the three U.S. patents of 1904 (771,917 Wave Transmitter, 775,337 Wireless Telephone, 775,846 Wireless Telegraph, on applications filed 1901-02, after public demonstrations in 1899-1900); and Armstrong and Orling with the British patents of 1899, 1900 and 1903 and the U.S. Aerophone patent 744,001, whose claim was conduction through earth and water rather than radiation. A new passage states what the four rows have in common — the filter is not physics but reduction to practice, disclosure in the form the office recognises, the fee that keeps a claim alive, and the capital behind it — and links the Meucci persona as the same filter seen from the wire side.",
     "commit": "36da7e5ed6776ecf18b2e6a9c1677f4f5524b608",
     "before": "ffce5d5a91a20dca0fc9d69fbccdfcedd097bd7e"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The Landell de Moura row corrected on two points and given its comparison. The year is 1900, not 1899-1900, and the patent is named properly as Brazilian Patent No. 3,279. More importantly the claim is now stated correctly: June 1900 is six months before Fessenden's December transmission, so he is first by date and second by record — a new paragraph separates the three firsts that get collapsed (Bell's speech on light in 1880, Landell's radio voice in June 1900, Fessenden's in December 1900) and names the asymmetry: his demonstration is documented by the press rather than by a published test anyone could reproduce, which is why the standard account omits him. The earlier \"early, not first\" wording was simply wrong about the chronology."
    }
   ]
  }
