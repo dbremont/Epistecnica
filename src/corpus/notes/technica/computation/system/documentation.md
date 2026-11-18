@@ -263,6 +263,7 @@ tags: [note]
 | **Conceptual Documentation** | Explains concepts, principles, architecture, and relationships to build understanding. |
 | **User Guide / User Manual** | Provides instructions and explanations for end users on installing, configuring, and using a system or product. |
 | **Developer Documentation** | Technical information required by developers to build, integrate, extend, maintain, or contribute to a system. |
+| **Product Requirements Document** | States what a product must do for its users and its business without prescribing how it is built — the requirements-side artifact that precedes the functional or technical specification. |
 | **Technical Specification** | Formal description of requirements, interfaces, behaviors, constraints, and system properties. |
 | **Architecture Document** | Describes system structure, components, interactions, architecture, and major design decisions. |
 | **Design Document** | Describes proposed solutions, design rationale, implementation approaches, and trade-offs. |

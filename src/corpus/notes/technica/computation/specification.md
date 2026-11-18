@@ -98,6 +98,7 @@ tags: [note]
 
 ## References
 
+- [Product Requirements Document](/view.html?p=notes/technica/computation/product-requirements-document.md) (the requirements-side document whose requirement set instantiates the types above)
 - [Documentation](/view.html?p=notes/technica/computation/system/documentation.md)
 - [Fault-Tolerant Design](/view.html?p=notes/technica/computation/system/design/fault-tolerant-design.md)
 - https://www.bremontix.xyz/lab/pro/Catalog/Production/Regime/Technoetism/

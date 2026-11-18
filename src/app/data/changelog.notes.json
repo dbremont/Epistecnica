@@ -85979,6 +85979,11 @@
     "kind": "feat",
     "summary": "Import Specification from the Computacion Notion export.",
     "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "refactor",
+    "summary": "Reference added to the new Product Requirements Document note, as the requirements-side document whose requirement set instantiates the requirement types this note tabulates. No other change."
    }
   ]
  },
@@ -86896,6 +86901,11 @@
     "kind": "feat",
     "summary": "Import Documentation from the Computacion Notion export.",
     "commit": "f4b99e39d09f7d6c7647e08b855781542b3f9187"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "The Documentation Type table gains a Product Requirements Document row, placed before Technical Specification, because it is the requirements-side artifact that precedes the specification and the registry of document kinds had no entry for it. The row states the defining rule — what the product must do, without prescribing how it is built — rather than listing components."
    }
   ]
  },
@@ -123366,6 +123376,16 @@
     "kind": "feat",
     "summary": "New city note: Hamburg, sibling to the Luebeck note and in the same compact shape (lead, five sections, references) rather than the socialium Formulation shell. Constitutional history as a chain of settlements: the 1241 alliance with Luebeck as the League's founding moment, the 1266 contract with Henry III allowing a hanse in London, the 1270 Ordeelbook, the 1410 Rezess counted as the first constitution, free imperial city, 1814-15 sovereignty confirmed at Vienna, the semi-democratic 1860 constitution with the Senate elected by adult taxpaying males, entry into the customs union only in 1888, the federal state of 1871, the Greater Hamburg Act of 1937 (Altona, Harburg, Wandsbek), and the state of West Germany in 1949. A section on the Hanseatic republic names the oligarchy plainly and hands the class and the legal order to their own notes. Then the port, the three destructions (1842 fire, 1943 firestorm, 1962 flood), and the modern city. Links the Hanseaten, Grand Burgher, Luebeck, the League, Germany and City.",
     "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/computation/product-requirements-document.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New technical note: the Product Requirements Document, from the Wikipedia article, in the technica shell with the four Formulation questions and a 24-row instance decomposition. Typed Technical Specification as its primary kind, with the argument turning on exclusion: the guide’s Technical Blueprint is a description that prescribes how to create an artifact, and the PRD is the artifact that refuses to prescribe, so its own rule disqualifies the blueprint reading — the note is typed by its prohibition as well as by its content. Readable secondarily as a Technical Element Set (the requirements-document family) and as a blueprint only in the degenerate case where the document has swallowed the design, which the note keeps as the concept’s characteristic failure. Contents: the requirements chain (user or client or marketing → PRD, or MRD when marketing authors it → analysis by the maker → functional specification or technical requirements document); the two regimes the article names (cascading, where the requirements are fixed in their entirety before work, and agile, where they are framed at a high level for prioritisation and elaborated per cycle — a change of granularity, not of existence); the component list as a template for a class rather than a definition, with the article’s own caveat that non-software PRDs drop the software-specific elements and add their own; and the failure modes (user misunderstanding, incomplete or inaccurate information, unclear communication, unrealistic timeframes) against the three problems it is claimed to prevent (architecture mismatch, overlooked dependencies, underestimated complexity). The note records that the article marks its two load-bearing claims — the what-not-how rule and the component list — as uncited, and states them as the article’s formulation rather than as settled doctrine. Evaluation: strong on identification, discriminative power, performative effects and purpose adequacy; weak on definitional clarity, temporal stability and misuse resistance, with the verdict that the concept describes a role in a development regime more reliably than it describes a text. Five QA entries (is it a specification, why it must not say how, against the MRD, against agile, technical element against management artifact)."
    }
   ]
  }
