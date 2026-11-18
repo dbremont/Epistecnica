@@ -620,7 +620,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Course entry created from MIT OpenCourseWare. 10.34 Numerical Methods Applied to Chemical Engineering, Fall 2015, graduate, Chemical Engineering, taught by William Green, Jr. and James W. Swan. Entry records the course's actual contention: numerical linear algebra, nonlinear equations and ODEs, PDEs including Navier-Stokes, and molecular dynamics and geometry optimisation, each presented inside a chemical-engineering problem rather than as abstract mathematics; structured-programming familiarity assumed. Topics list drawn from the OCW description, resources line (lecture notes, videos, programming assignments, exams with solutions), reference to the OCW page, and a cross-link to the chemical-engineering discipline note."
+    "summary": "Course entry created from MIT OpenCourseWare. 10.34 Numerical Methods Applied to Chemical Engineering, Fall 2015, graduate, Chemical Engineering, taught by William Green, Jr. and James W. Swan. Entry records the course's actual contention: numerical linear algebra, nonlinear equations and ODEs, PDEs including Navier-Stokes, and molecular dynamics and geometry optimisation, each presented inside a chemical-engineering problem rather than as abstract mathematics; structured-programming familiarity assumed. Topics list drawn from the OCW description, resources line (lecture notes, videos, programming assignments, exams with solutions), reference to the OCW page, and a cross-link to the chemical-engineering discipline note.",
+    "commit": "935d61638edd65809c782e34261ac1a0ce58e8c4"
    }
   ]
  },
@@ -630,7 +631,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Course entry created from MIT OpenCourseWare. ESD.273J Logistics and Supply Chain Management, Fall 2009, graduate, Engineering Systems Division and Civil and Environmental Engineering, taught by David Simchi-Levi. Entry records the operations-research framing of multi-echelon logistical planning: vehicle routing, dynamic lot sizing, stochastic and deterministic multi-echelon inventory, the bullwhip effect, pricing models and supply-chain integration, with probability and linear programming assumed. Topics list drawn from the OCW description, resources line (lecture notes and problem sets), reference to the OCW page, and cross-links to the supply-chain and logistics notes. The OCW page names only the two departments, so the course's cross-listings are not asserted."
+    "summary": "Course entry created from MIT OpenCourseWare. ESD.273J Logistics and Supply Chain Management, Fall 2009, graduate, Engineering Systems Division and Civil and Environmental Engineering, taught by David Simchi-Levi. Entry records the operations-research framing of multi-echelon logistical planning: vehicle routing, dynamic lot sizing, stochastic and deterministic multi-echelon inventory, the bullwhip effect, pricing models and supply-chain integration, with probability and linear programming assumed. Topics list drawn from the OCW description, resources line (lecture notes and problem sets), reference to the OCW page, and cross-links to the supply-chain and logistics notes. The OCW page names only the two departments, so the course's cross-listings are not asserted.",
+    "commit": "935d61638edd65809c782e34261ac1a0ce58e8c4"
    }
   ]
  }
