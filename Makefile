@@ -25,7 +25,7 @@ ifneq (,$(wildcard .env))
 ENV_MOUNT := -v $(CURDIR)/.env:/srv/.env:ro
 endif
 
-.PHONY: help run check approximation-check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check math-atlas-check shape-atlas-index shape-atlas-check object-taxonomy-check search-index index changelog-link build deploy-local deploy-server logs stop
+.PHONY: help run check approximation-check index-status index-list index-background glossarium-index qa-index notes-index course-index document-index ees-check rees-check atlas-index atlas-check terminology-check symbols-check pvalue-check gof-check math-atlas-check shape-atlas-index shape-atlas-check object-taxonomy-check safety-check search-index index changelog-link build deploy-local deploy-server logs stop
 
 help: ## list targets
 	@grep -E '^[a-zA-Z_-]+:.*## ' Makefile | awk 'BEGIN {FS = ":.*## "}; {printf "  %-15s %s\n", $$1, $$2}'
@@ -33,7 +33,7 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010; index API on)
 	EPISTECNICA_ALLOW_INDEX_API=1 python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + mathematical area atlas + geometric shape atlas + technical-object taxonomy + catalog literals + corpus tags
+check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + mathematical area atlas + geometric shape atlas + technical-object taxonomy + product-safety store + catalog literals + corpus tags
 	python3 -m py_compile bin/*.py
 	python3 bin/check_catalog_literals.py
 	python3 bin/check_corpus_tags.py
@@ -47,6 +47,7 @@ check: ## py_compile all servers + index builders + validate the EES tree + tech
 	python3 bin/shape_atlas_check.py
 	python3 bin/object_taxonomy_check.py
 	python3 bin/approximation_check.py
+	python3 bin/safety_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 bin/notes_index.py
@@ -106,6 +107,9 @@ object-taxonomy-check: ## validate the technical-object taxonomy section of the 
 
 approximation-check: ## validate the approximation playground problem bank (approximation-problems.json)
 	python3 bin/approximation_check.py
+
+safety-check: ## validate the product-safety hazard store (src/corpus/notes/social/good/safety.json)
+	python3 bin/safety_check.py
 
 search-index: ## build the universal search snapshot (before build/deploy)
 	python3 bin/build_search_index.py

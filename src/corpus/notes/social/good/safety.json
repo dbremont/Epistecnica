@@ -1,0 +1,475 @@
+{
+  "title": "Product Safety",
+  "version": "2026-11",
+  "intro": "A product-safety hazard catalogue over the goods corpus: seven hazard classes, the mechanism that produces the injury, the exposure route, the product domains it reaches, the three-tier control hierarchy, the indicative regulatory anchors, and the field signals that precede a recall. Read beside the product taxonomy — the same object, taken as a source of harm rather than as a good.",
+  "source": "notes/social/good/product.md",
+  "sourceLabel": "Product",
+  "hierarchy": [
+    "inherent",
+    "safeguarding",
+    "information"
+  ],
+  "hierarchyLabels": {
+    "inherent": "Inherently safe design",
+    "safeguarding": "Safeguarding and protection",
+    "information": "Information for use"
+  },
+  "classes": [
+    {
+      "id": "chemical",
+      "label": "Chemical exposure",
+      "desc": "The product carries a substance that enters the body by ingestion, inhalation or skin contact — deliberately, as an ingredient, or as a residue, contaminant or migrant."
+    },
+    {
+      "id": "food-contact",
+      "label": "Food contact",
+      "desc": "The product touches food and transfers something into it: packaging migrants, coatings, or an article not intended for food use."
+    },
+    {
+      "id": "mechanical",
+      "label": "Mechanical",
+      "desc": "The product's geometry, mass or moving parts produce injury by impact, cutting, crushing, choking or falling."
+    },
+    {
+      "id": "thermal",
+      "label": "Thermal and fire",
+      "desc": "The product reaches a temperature that burns, or ignites, or feeds a fire once ignited."
+    },
+    {
+      "id": "electrical",
+      "label": "Electrical and energy",
+      "desc": "Stored or mains energy escapes the enclosure: shock through failed insulation, or the violent failure of a cell."
+    },
+    {
+      "id": "child",
+      "label": "Child-specific",
+      "desc": "Hazards that are tolerable for an adult and severe for a child — the class where size and behaviour, not the product's function, decide the injury."
+    },
+    {
+      "id": "digital",
+      "label": "Digital and software",
+      "desc": "The product's behaviour is set by software, so a defect, a lost function or a remote actor can produce a physical hazard."
+    }
+  ],
+  "hazards": [
+    {
+      "id": "pesticide-residue",
+      "class": "chemical",
+      "label": "Pesticide residue in food",
+      "mechanism": "An active substance or its metabolites remain on or in produce after harvest and reach the consumer through the diet, above or below the residue level set for that crop.",
+      "outcome": "Chronic dietary exposure; acute effects at high residues; the assessment question is the residue level against the acceptable daily intake and the acute reference dose.",
+      "exposure": "ingestion",
+      "domains": ["fresh fruit and vegetables", "cereals", "processed food", "imported produce"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Grow without the substance, or choose substances with a residue profile that clears before harvest.",
+        "safeguarding": "Maximum residue levels enforced at the border and at retail; washing and peeling reduce surface residues but not systemic ones.",
+        "information": "Residue monitoring published per substance and crop, so a consumer can see which combinations are repeatedly found."
+      },
+      "standards": ["EU Regulation (EC) 396/2005 — maximum residue levels"],
+      "signals": ["repeat findings on one crop", "emergency authorisation for a substance withdrawn elsewhere", "import batch rejections"],
+      "refs": ["eu-pesticides-db", "ewg-dirty-dozen", "glufosinate"]
+    },
+    {
+      "id": "food-additive",
+      "class": "chemical",
+      "label": "Additive exposure above accepted intake",
+      "mechanism": "A colour, preservative, sweetener or emulsifier is present at a level that, taken across the products a person actually eats, exceeds the acceptable daily intake — or is present without being declared.",
+      "outcome": "Dose-dependent effects in sensitive groups; undeclared additives defeat avoidance for allergy and intolerance.",
+      "exposure": "ingestion",
+      "domains": ["processed food", "beverages", "confectionery", "dietary supplements"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Reformulate so the additive is not needed — stabilise, preserve or colour by process rather than by addition.",
+        "safeguarding": "Restricted lists with maximum levels per food category; intake assessment against the acceptable daily intake.",
+        "information": "Ingredient declaration by class and name, so a consumer can total their own exposure across products."
+      },
+      "standards": ["EU Regulation (EC) 1333/2008 — food additives"],
+      "signals": ["same additive across a whole category", "reformulation announcements", "intake studies exceeding the accepted daily intake in children"],
+      "refs": ["yuka", "ewg-apps"]
+    },
+    {
+      "id": "processing-contaminant",
+      "class": "chemical",
+      "label": "Contaminants formed in processing",
+      "mechanism": "Heat, smoke or fermentation generates a substance that was not in the raw material — acrylamide from asparagine and sugars in fried or baked starch, polycyclic aromatics from smoke, ethyl carbamate in spirits.",
+      "outcome": "Genotoxic and carcinogenic exposure that cannot be removed by washing, because it is in the product's substance.",
+      "exposure": "ingestion",
+      "domains": ["fried and baked starch", "smoked and grilled food", "roasted coffee", "spirits"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Change the process — lower the temperature, shorten the time, blanch before frying, control the precursor.",
+        "safeguarding": "Benchmark levels and mitigation plans for the categories where the contaminant forms.",
+        "information": "Guidance for catering and home cooking on the browning point that raises the level."
+      },
+      "standards": ["EU Regulation (EU) 2017/2158 — acrylamide mitigation"],
+      "signals": ["category-wide benchmark exceedance", "mitigation plans failing on repeat sampling"],
+      "refs": []
+    },
+    {
+      "id": "cosmetic-sensitiser",
+      "class": "chemical",
+      "label": "Fragrance and preservative sensitisers",
+      "mechanism": "A fragrance allergen or a preservative reaches the skin at a concentration that sensitises it, so that later contact produces dermatitis at a dose that was previously tolerated.",
+      "outcome": "Allergic contact dermatitis; once sensitised, the person reacts to many products, not only the one that sensitised them.",
+      "exposure": "dermal",
+      "domains": ["cosmetics", "personal care", "household cleaning", "detergents"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Remove the sensitiser from the formula, or reduce it below the labelling threshold.",
+        "safeguarding": "Restricted concentrations for the recognised sensitisers; leave-on products treated more strictly than rinse-off.",
+        "information": "Ingredient list with the allergens named, so a sensitised person can read the label rather than the marketing."
+      },
+      "standards": ["EU Regulation (EC) 1223/2009 — cosmetic products"],
+      "signals": ["patch-test clusters for one allergen", "rise in a category's reported reactions", "reformulation without a label change"],
+      "refs": ["yuka", "ewg-apps"]
+    },
+    {
+      "id": "heavy-metal-migration",
+      "class": "chemical",
+      "label": "Lead and cadmium migration from consumer articles",
+      "mechanism": "A metal in the article's material — glaze, pigment, solder, alloy, recycled plastic — migrates into food, drink or the hand and then the mouth.",
+      "outcome": "Neurodevelopmental harm in children at exposures far below the acute threshold; the harm is cumulative and irreversible.",
+      "exposure": "ingestion",
+      "domains": ["ceramic tableware", "toys and jewellery", "cookware", "recycled plastics", "electronic enclosures"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Do not use the metal in the material: lead-free glaze, cadmium-free pigment, virgin polymer where recycled stock cannot be characterised.",
+        "safeguarding": "Migration limits tested per article type, with the test condition matched to how the article is used.",
+        "information": "Declaration of conformity and the test report behind it, available to the distributor rather than only to the importer."
+      },
+      "standards": ["EU REACH (EC) 1907/2006 — Annex XVII restrictions", "EN 71-3 — toy migration limits"],
+      "signals": ["border rejections of one origin", "cheap jewellery clusters", "recycled stock with an unverified provenance"],
+      "refs": []
+    },
+    {
+      "id": "voc-emission",
+      "class": "chemical",
+      "label": "Volatile organic compounds from furnishings and finishes",
+      "mechanism": "Formaldehyde from board adhesives, solvents from paints and lacquers, and finishes on textiles evaporate into indoor air over months.",
+      "outcome": "Irritation and respiratory symptoms in the short term; formaldehyde is a recognised carcinogen, so the concern is chronic indoor concentration.",
+      "exposure": "inhalation",
+      "domains": ["furniture and board", "paints and lacquers", "flooring", "textiles", "mattresses"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Use board and adhesive classes that do not emit, and water-based finishes.",
+        "safeguarding": "Emission classes and mandatory declaration for the product as placed on the market.",
+        "information": "Ventilation guidance and the emission class stated on the product rather than in a technical annex."
+      },
+      "standards": ["EU Regulation (EU) 2023/988 — general product safety (emission information)"],
+      "signals": ["indoor-air complaints clustered in new buildings", "one board supplier behind many brands"],
+      "refs": []
+    },
+    {
+      "id": "packaging-migration",
+      "class": "food-contact",
+      "label": "Packaging migrants into food",
+      "mechanism": "A monomer, plasticiser, ink component or mineral oil moves from the packaging into the food, more readily at higher temperature, longer contact and higher fat content.",
+      "outcome": "Chronic low-dose exposure to substances never assessed as food; the level depends on storage conditions, not on the food's recipe.",
+      "exposure": "ingestion",
+      "domains": ["plastic packaging", "cans and coatings", "printed cartons", "reusable containers"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Choose a packaging material whose migrants are authorised and whose barrier keeps the food-side layer from the ink and the adhesive.",
+        "safeguarding": "Migration testing under the worst foreseeable condition of use, and functional barriers where the material requires one.",
+        "information": "Food-contact declaration and the conditions of use, including whether the article is single-use."
+      },
+      "standards": ["EU Regulation (EC) 1935/2004 — food contact materials", "EU Regulation (EU) 10/2011 — plastics"],
+      "signals": ["migration above the limit in one simulant", "recycled-content streams without a decontamination step"],
+      "refs": []
+    },
+    {
+      "id": "food-contact-reuse",
+      "class": "food-contact",
+      "label": "Non-food article reused for food",
+      "mechanism": "A container, bucket, crate or decorative vessel made for another purpose is used for food, so a material never assessed for food contact becomes the food's surface.",
+      "outcome": "Unauthorised migrants, including ink and industrial-grade polymer additives, at levels no food-contact test would have allowed.",
+      "exposure": "ingestion",
+      "domains": ["household containers", "catering equipment", "decorative ceramics", "market crates"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Mark the article unambiguously as not for food, so the reuse is hard to make by accident.",
+        "safeguarding": "Market surveillance at the catering supplier rather than at the consumer.",
+        "information": "The food-contact symbol, and its absence read as a warning rather than as a formality."
+      },
+      "standards": ["EU Regulation (EC) 1935/2004 — food contact materials"],
+      "signals": ["catering supplies sold without a declaration", "decorative ceramics sold beside tableware"],
+      "refs": []
+    },
+    {
+      "id": "small-parts",
+      "class": "mechanical",
+      "label": "Small parts and choking",
+      "mechanism": "A component small enough to enter a child's mouth lodges in the airway, or a larger part breaks into such a component under the force a child applies.",
+      "outcome": "Airway obstruction; the injury is decided by the part's size and shape against the child's anatomy, not by the product's purpose.",
+      "exposure": "ingestion",
+      "domains": ["toys", "children's clothing", "household articles", "packaging"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Design the part out, or make it too large to swallow and too strong to break into a swallowable fragment.",
+        "safeguarding": "Small-parts cylinder and tension tests on the components a child can reach.",
+        "information": "Age marking and the warning that the product is not for children under the stated age."
+      },
+      "standards": ["EN 71-1 — toy mechanical and physical properties", "EU Directive 2009/48/EC — toy safety"],
+      "signals": ["detachment complaints on one mould", "one component supplier across many toy lines"],
+      "refs": []
+    },
+    {
+      "id": "sharp-edge",
+      "class": "mechanical",
+      "label": "Sharp edges and points",
+      "mechanism": "A cut edge, a burr, a point or a glass fragment left by manufacture or exposed by breakage contacts the skin or the eye.",
+      "outcome": "Laceration or eye injury; the severity depends on where the edge is reachable, which is an accessibility question before it is a sharpness question.",
+      "exposure": "contact",
+      "domains": ["tools", "furniture", "toys", "glassware", "packaging"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Roll, radius or cover the edge at design, rather than adding a guard at the end of the line.",
+        "safeguarding": "Edge and point tests on the surfaces reachable in normal use, including after the drop the product must survive.",
+        "information": "Handling and disposal instruction where the edge is inherent to the function, as with a blade."
+      },
+      "standards": ["ISO 12100 — risk assessment and risk reduction"],
+      "signals": ["hand-injury reports clustered on one part", "tooling wear after a production change"],
+      "refs": []
+    },
+    {
+      "id": "tip-over",
+      "class": "mechanical",
+      "label": "Furniture tip-over",
+      "mechanism": "A tall or front-heavy article overturns when a child climbs it or a drawer is loaded, because it is not anchored and its stability margin is small.",
+      "outcome": "Crushing injury to a child; the failure is usually the absence of an anchor, not the article's mass.",
+      "exposure": "contact",
+      "domains": ["storage furniture", "televisions", "shelving", "appliances"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Lower the centre of mass, limit drawer travel, and design the anchor point into the article rather than selling it as an accessory.",
+        "safeguarding": "Stability test with drawers open and with a simulated climber, plus an anchor supplied in the box.",
+        "information": "Assembly instruction that makes anchoring the default, not an optional extra."
+      },
+      "standards": ["ISO 12100 — risk assessment and risk reduction"],
+      "signals": ["anchor kits bought separately", "injury reports in rented housing where anchoring is not permitted"],
+      "refs": []
+    },
+    {
+      "id": "cord-strangulation",
+      "class": "child",
+      "label": "Cords and strangulation",
+      "mechanism": "A cord, ribbon or loop at neck height catches on play equipment or a cot, and the child's weight closes the loop.",
+      "outcome": "Asphyxiation within minutes; the hazard is a dimension and a location, not a material.",
+      "exposure": "contact",
+      "domains": ["children's clothing", "window blinds", "toys", "dummies and tethers"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Remove the cord or make it short enough to break away under load.",
+        "safeguarding": "Cord length and loop limits at the neck and waist, tested in the size range the garment is sold for.",
+        "information": "Warning on the garment and at the point of sale that the item is not nightwear."
+      },
+      "standards": ["EN 14682 — cords and drawstrings on children's clothing"],
+      "signals": ["one style across sizes", "blinds sold with a looped pull"],
+      "refs": []
+    },
+    {
+      "id": "button-battery",
+      "class": "child",
+      "label": "Button-cell ingestion",
+      "mechanism": "A coin cell released from a toy, remote or greeting card lodges in the oesophagus, where the residual current generates hydroxide and burns the tissue.",
+      "outcome": "Perforation and stricture within hours; the injury continues after the cell is removed.",
+      "exposure": "ingestion",
+      "domains": ["toys", "remotes", "small electronics", "novelty items"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Solder the cell in, or require a tool for the compartment, so the cell is not a removable part a child can reach.",
+        "safeguarding": "Compartment security test with the force a child can apply, and a bitter coating on the cell.",
+        "information": "Warning that names the injury and the action — the child must be taken to emergency care, not made to vomit."
+      },
+      "standards": ["EN 71-1 — toy mechanical and physical properties", "IEC 62133 — secondary cells and batteries"],
+      "signals": ["compartment opening after a drop", "cheap remote controls sold without a screw"],
+      "refs": []
+    },
+    {
+      "id": "magnet-ingestion",
+      "class": "child",
+      "label": "High-flux magnet ingestion",
+      "mechanism": "Two or more small magnets are swallowed at different times and attract each other across bowel loops.",
+      "outcome": "Necrosis, fistula and obstruction; a single magnet is usually benign, which is why the hazard is easy to miss.",
+      "exposure": "ingestion",
+      "domains": ["toys", "desk accessories", "novelty items", "fasteners"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Keep the magnet inside the housing so it is not a part at all, or size it beyond swallowing.",
+        "safeguarding": "Flux index and size limits for the magnets a child can reach.",
+        "information": "The warning that a swallowed magnet is a medical emergency even without symptoms."
+      },
+      "standards": ["EN 71-1 — toy mechanical and physical properties"],
+      "signals": ["magnet sets sold as adult desk toys", "housings that open after impact"],
+      "refs": []
+    },
+    {
+      "id": "hot-surface",
+      "class": "thermal",
+      "label": "Accessible hot surfaces",
+      "mechanism": "A surface that must be hot to work is reachable in normal use — a hob, an oven door, a heater grille, a kettle body — and contact occurs faster than the withdrawal reflex.",
+      "outcome": "Contact burns, deep in children and the elderly because the skin is thinner and the reflex slower.",
+      "exposure": "contact",
+      "domains": ["cooking appliances", "heaters", "irons", "small kitchen appliances"],
+      "severity": "medium",
+      "controls": {
+        "inherent": "Insulate or double-wall the reachable surface, or reduce the temperature the surface must reach.",
+        "safeguarding": "Guards and distance, plus a test of the surfaces reachable while the appliance operates.",
+        "information": "The residual-heat warning and the cooling time stated where the user will see it."
+      },
+      "standards": ["IEC 60335-1 — household and similar electrical appliances"],
+      "signals": ["burns reported after the appliance is switched off", "one model's door glass"],
+      "refs": []
+    },
+    {
+      "id": "flammable-upholstery",
+      "class": "thermal",
+      "label": "Flammable upholstery and sleepwear",
+      "mechanism": "A textile ignites from a small source and burns fast enough that the victim cannot escape, or melts onto the skin.",
+      "outcome": "Full-thickness burns over a large area; survival depends on the fabric and the fit, not on the ignition source.",
+      "exposure": "thermal",
+      "domains": ["upholstered furniture", "mattresses", "children's sleepwear", "costumes"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Choose a fabric and filling that resist ignition, or a design that cannot trap a flame against the body.",
+        "safeguarding": "Ignition and flame-spread tests matched to the article's use; nightwear held to a stricter standard than daywear.",
+        "information": "The warning label and the instruction to keep the article away from ignition sources."
+      },
+      "standards": ["EU Regulation (EU) 2023/988 — general product safety"],
+      "signals": ["loose-fitting nightwear sold as daywear", "filling changed without a retest"],
+      "refs": []
+    },
+    {
+      "id": "insulation-failure",
+      "class": "electrical",
+      "label": "Insulation failure and electric shock",
+      "mechanism": "Creepage, clearance or insulation breaks down under heat, moisture or contamination, so a live conductor becomes reachable.",
+      "outcome": "Ventricular fibrillation at mains current in a fraction of a second; the failure can also start a fire.",
+      "exposure": "electrical",
+      "domains": ["household appliances", "chargers", "lighting", "power tools"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Double or reinforced insulation and protective earthing where the class requires it, designed into the layout.",
+        "safeguarding": "Dielectric strength, creepage and clearance tests after the environmental sequence the product must survive.",
+        "information": "Rating plate and the conditions of use, including that a charger is not a wet-environment product."
+      },
+      "standards": ["IEC 60335-1 — household appliances", "IEC 62368-1 — audio/video and ICT equipment"],
+      "signals": ["failures concentrated after a humid season", "a component change that shortened a creepage path"],
+      "refs": []
+    },
+    {
+      "id": "battery-runaway",
+      "class": "electrical",
+      "label": "Lithium-cell thermal runaway",
+      "mechanism": "An internal short, overcharge or external abuse drives a cell into exothermic decomposition, which propagates to its neighbours.",
+      "outcome": "Jet-flame ejection, ejection of the cell from the enclosure, and a fire that water does not readily extinguish.",
+      "exposure": "thermal",
+      "domains": ["batteries and power banks", "e-bikes and scooters", "cordless tools", "phones and laptops"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Cell chemistry and format chosen for the abuse the product will see, with a management circuit that cannot be bypassed.",
+        "safeguarding": "Cell-level tests for overcharge, external short, crush and thermal propagation; enclosure that contains the ejection.",
+        "information": "Charging instruction, and the warning not to charge unattended or in an exit path."
+      },
+      "standards": ["IEC 62133 — secondary cells and batteries", "EU Regulation (EU) 2023/1542 — batteries"],
+      "signals": ["cell supplier changes", "cheap replacement batteries sold for a known model", "charging in corridors and stairwells"],
+      "refs": []
+    },
+    {
+      "id": "safety-function-loss",
+      "class": "digital",
+      "label": "Loss of a safety function in a connected product",
+      "mechanism": "A safety function is implemented in software or depends on a remote service, so an update, a configuration error or a server shutdown removes the protection while the product still appears to work.",
+      "outcome": "The hazard the safety function was guarding reappears silently; the user has no signal that protection is gone.",
+      "exposure": "none",
+      "domains": ["connected appliances", "locks and access control", "medical devices", "child monitors"],
+      "severity": "high",
+      "controls": {
+        "inherent": "Keep the safety function local and fail-safe, so that a lost connection leaves the product in a safe state.",
+        "safeguarding": "Independent verification of the safety function, and update mechanisms that cannot remove it silently.",
+        "information": "Statement of the product's support lifetime and of what happens to the safety function at end of support."
+      },
+      "standards": ["ISO 14971 — medical device risk management", "EU Radio Equipment Directive 2014/53/EU with Delegated Regulation (EU) 2022/30"],
+      "signals": ["service shutdown announcements", "updates shipped without a safety regression test", "support lifetime shorter than the product's use life"],
+      "refs": []
+    },
+    {
+      "id": "cyber-actuation",
+      "class": "digital",
+      "label": "Remote manipulation of an actuator",
+      "mechanism": "An unauthenticated interface lets a remote party command a lock, a motor, a heater or a camera, turning a software compromise into a physical action.",
+      "outcome": "Physical harm or loss of protection at a distance, without the user's device ever being touched.",
+      "exposure": "none",
+      "domains": ["smart locks", "cameras and monitors", "thermostats and heaters", "industrial and building controllers"],
+      "severity": "high",
+      "controls": {
+        "inherent": "No actuator reachable without authentication, and a physical override that does not depend on the network.",
+        "safeguarding": "Security testing of the shipped firmware and of the update channel, including the default credential.",
+        "information": "The disclosure route for a found vulnerability, and the response time the vendor commits to."
+      },
+      "standards": ["EU Radio Equipment Directive 2014/53/EU with Delegated Regulation (EU) 2022/30", "ISO 12100 — risk assessment and risk reduction"],
+      "signals": ["default password across a product line", "one cloud provider behind many brands", "no coordinated disclosure contact"],
+      "refs": []
+    }
+  ],
+  "referenceGroups": [
+    {
+      "id": "chemical-substances",
+      "number": 1,
+      "label": "Chemical Substances and Toxicity"
+    },
+    {
+      "id": "assessment",
+      "number": 2,
+      "label": "Consumer Product and Food Safety Assessment"
+    },
+    {
+      "id": "residues",
+      "number": 3,
+      "label": "Pesticide Residues in Food"
+    },
+    {
+      "id": "regulatory",
+      "number": 4,
+      "label": "Regulatory Databases and Official Assessments"
+    }
+  ],
+  "references": [
+    {
+      "id": "glufosinate",
+      "group": "chemical-substances",
+      "title": "Glufosinate — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Glufosinate",
+      "desc": "Overview of glufosinate, including its chemical properties, herbicidal applications, toxicity, human exposure pathways, and regulatory status."
+    },
+    {
+      "id": "ewg-apps",
+      "group": "assessment",
+      "title": "Environmental Working Group (EWG) — Apps",
+      "url": "https://www.ewg.org/apps/",
+      "desc": "Collection of consumer-oriented tools for assessing potential chemical exposures, product ingredients, food contamination, and environmental health risks."
+    },
+    {
+      "id": "yuka",
+      "group": "assessment",
+      "title": "Yuka",
+      "url": "https://yuka.io/en/",
+      "desc": "Consumer application for evaluating food and cosmetic products based on nutritional quality, additives, and ingredient-related risk assessments."
+    },
+    {
+      "id": "ewg-dirty-dozen",
+      "group": "residues",
+      "title": "EWG — Dirty Dozen",
+      "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+      "desc": "Annual ranking of fruits and vegetables based on pesticide-residue findings, intended to help consumers evaluate potential dietary exposure."
+    },
+    {
+      "id": "eu-pesticides-db",
+      "group": "regulatory",
+      "title": "European Commission — EU Pesticides Database",
+      "url": "https://food.ec.europa.eu/plants/pesticides/eu-pesticides-database_en",
+      "desc": "Official database providing information on pesticide active substances, approval status, maximum residue levels (MRLs) in food products, and emergency authorisations within the European Union."
+    }
+  ]
+}

@@ -251,6 +251,20 @@ frontend-facing surface in the deployment; there is no database behind it
   sections. The phase plane opens on the **initial state** (no trajectories)
   and reveals as the user plays/steps.
 
+- **Product-safety store** — `social/good/safety.{json,html}` renders the
+  product-safety hazard catalogue over the goods shelf: seven hazard classes
+  (chemical, food contact, mechanical, thermal, electrical, child-specific,
+  digital), each hazard carrying its mechanism, outcome, exposure route,
+  product domains, the three-tier control hierarchy (inherent design →
+  safeguarding → information), indicative regulatory anchors, field signals,
+  and its linked sources; the page also renders the grouped, annotated
+  external references (`referenceGroups` + `references`). `make safety-check`
+  validates the store and its companion page (part of `make check`). The page
+  is a live note reached through the catalog's `social/good/` folder beside
+  `product-taxonomy.html` and `hs-explorer.html`; `?hazard=` and `?class=`
+  deep-link, and standards are indicative anchors rather than a conformity
+  assessment.
+
 ## On Technical Notes
 
 - **Discipline notes** live in `technica/discipline/` — one note per technical

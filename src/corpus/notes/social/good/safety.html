@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Safety</title>
+    <link rel="icon" href="/img/favicon.ico">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="stylesheet" href="/shared/usearch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg-void:#0b0e14; --bg-surface:#11151e; --bg-card:#161b26; --bg-elevated:#1d2330;
+            --text-primary:#f4f3f1; --text-secondary:#a8a5b0; --text-muted:#9290aa; --text-ghost:#82809a;
+            --accent-gold:#c9956c; --accent-cyan:#4dd4c4; --border-subtle:rgba(255,255,255,0.05); --border-medium:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.12);
+            --card-bg:rgba(22,27,38,0.72); --nav-bg:rgba(11,14,20,0.85); --font-display:'Cormorant Garamond',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace; }
+        html[data-theme="light"] { --bg-void:#f5f2ea; --bg-surface:#efe9dc; --bg-card:#fffdf8; --bg-elevated:#ffffff;
+            --text-primary:#1a1d24; --text-secondary:#4a4f5e; --text-muted:#7a7f8e; --text-ghost:#9aa0ae;
+            --accent-gold:#9a7b3f; --accent-cyan:#0e7c72; --border-subtle:rgba(20,22,30,0.10); --border-medium:rgba(20,22,30,0.14); --border-strong:rgba(20,22,30,0.22);
+            --card-bg:rgba(255,253,248,0.72); --nav-bg:rgba(245,242,234,0.85); }
+        * { margin:0; padding:0; box-sizing:border-box; } html { scroll-behavior:smooth; background:var(--bg-void); }
+        body { background:var(--bg-void); color:var(--text-primary); font-family:var(--font-body); min-height:100vh; transition:opacity 180ms ease; }
+        html.theme-fading body { opacity:0; }
+        a { color:inherit; text-decoration:none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline:1px solid var(--accent-cyan); outline-offset:3px; }
+
+        .wrap { max-width:1280px; margin:0 auto; padding:2.5rem 2rem 3.5rem; }
+        .crumbs { font-family:var(--font-mono); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; color:var(--text-muted); margin-bottom:1rem; }
+        .crumbs .sep { margin:0 .5rem; color:var(--text-ghost); }
+        .crumbs .here { color:var(--accent-gold); }
+        h1 { font-family:var(--font-display); font-weight:400; font-size:2.6rem; letter-spacing:.01em; line-height:1.1; }
+        .lead { max-width:78ch; color:var(--text-secondary); font-size:.95rem; line-height:1.7; margin-top:.9rem; }
+        .lead a { color:var(--accent-cyan); }
+
+        .toolbar { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin:1.6rem 0 1.1rem; }
+        .chip { font-family:var(--font-mono); font-size:.68rem; letter-spacing:.06em; text-transform:uppercase; padding:.4rem .7rem; border:1px solid var(--border-medium); border-radius:999px; color:var(--text-secondary); background:transparent; cursor:pointer; }
+        .chip[aria-pressed="true"] { border-color:var(--accent-gold); color:var(--accent-gold); }
+        .chip .n { color:var(--text-ghost); margin-left:.4rem; }
+        .search { flex:1 1 240px; min-width:200px; background:var(--bg-card); border:1px solid var(--border-medium); border-radius:6px; color:var(--text-primary); font-family:var(--font-body); font-size:.85rem; padding:.5rem .7rem; }
+
+        .layout { display:grid; grid-template-columns:minmax(240px,320px) 1fr; gap:1.5rem; align-items:start; margin-top:.4rem; }
+        @media (max-width:820px) { .layout { grid-template-columns:1fr; } }
+
+        .list { border:1px solid var(--border-subtle); border-radius:10px; background:var(--card-bg); overflow:hidden; }
+        .cls-head { font-family:var(--font-mono); font-size:.62rem; letter-spacing:.1em; text-transform:uppercase; color:var(--text-ghost); padding:.7rem .9rem .3rem; }
+        .item { display:block; width:100%; text-align:left; background:none; border:0; border-left:2px solid transparent; color:var(--text-secondary); font-family:var(--font-body); font-size:.86rem; line-height:1.4; padding:.5rem .9rem; cursor:pointer; }
+        .item:hover { color:var(--text-primary); background:var(--bg-elevated); }
+        .item[aria-current="true"] { color:var(--text-primary); border-left-color:var(--accent-gold); background:var(--bg-elevated); }
+        .sev { display:inline-block; width:.45rem; height:.45rem; border-radius:50%; margin-right:.5rem; vertical-align:middle; }
+        .sev.high { background:#d4614a; } .sev.medium { background:var(--accent-gold); } .sev.low { background:var(--accent-cyan); }
+
+        .detail { border:1px solid var(--border-subtle); border-radius:10px; background:var(--card-bg); padding:1.4rem 1.5rem 1.6rem; min-height:320px; }
+        .detail h2 { font-family:var(--font-display); font-weight:400; font-size:1.75rem; line-height:1.2; }
+        .chips { display:flex; flex-wrap:wrap; gap:.4rem; margin:.8rem 0 1.1rem; }
+        .tag { font-family:var(--font-mono); font-size:.62rem; letter-spacing:.06em; text-transform:uppercase; color:var(--text-muted); border:1px solid var(--border-subtle); border-radius:999px; padding:.2rem .55rem; }
+        .detail h3 { font-family:var(--font-mono); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase; color:var(--text-ghost); margin:1.2rem 0 .4rem; }
+        .detail p { color:var(--text-secondary); font-size:.9rem; line-height:1.65; }
+        .domains { display:flex; flex-wrap:wrap; gap:.35rem; }
+        .domains span { font-size:.76rem; color:var(--text-secondary); border-bottom:1px dotted var(--border-strong); }
+        .tiers { display:grid; gap:.6rem; }
+        .tier { display:grid; grid-template-columns:150px 1fr; gap:.8rem; padding:.55rem .7rem; border-left:2px solid var(--border-medium); background:var(--bg-surface); border-radius:0 6px 6px 0; }
+        .tier b { font-family:var(--font-mono); font-size:.64rem; letter-spacing:.06em; text-transform:uppercase; color:var(--accent-gold); font-weight:400; }
+        .tier span { font-size:.86rem; color:var(--text-secondary); line-height:1.55; }
+        @media (max-width:520px) { .tier { grid-template-columns:1fr; gap:.25rem; } }
+        .indicative { color:var(--text-ghost); font-size:.75rem; margin-top:.3rem; }
+        .refchip { display:inline-block; font-family:var(--font-mono); font-size:.66rem; color:var(--accent-cyan); border:1px solid var(--border-medium); border-radius:6px; padding:.25rem .5rem; margin:.25rem .3rem 0 0; }
+
+        .refs { margin-top:3rem; border-top:1px solid var(--border-subtle); padding-top:1.8rem; }
+        .refs > h2 { font-family:var(--font-display); font-weight:400; font-size:2rem; }
+        .refs h3 { font-family:var(--font-display); font-weight:500; font-size:1.15rem; margin:1.6rem 0 .5rem; color:var(--text-primary); }
+        .refs ul { list-style:none; display:grid; gap:.75rem; max-width:90ch; }
+        .refs li { padding-left:1rem; border-left:1px solid var(--border-subtle); }
+        .refs li a { color:var(--accent-cyan); font-size:.9rem; }
+        .refs li a:hover { text-decoration:underline; }
+        .refs li p { color:var(--text-muted); font-size:.82rem; line-height:1.55; margin-top:.15rem; }
+
+        .foot { margin-top:2.5rem; color:var(--text-ghost); font-family:var(--font-mono); font-size:.68rem; line-height:1.7; letter-spacing:.02em; }
+        .foot code { color:var(--text-muted); }
+    </style>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<main class="wrap">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/good">good</a><span class="sep">/</span>
+        <span class="here">Product Safety</span>
+    </nav>
+    <h1>Product Safety</h1>
+    <p class="lead" id="lead">Loading the hazard catalogue…</p>
+
+    <div class="toolbar" id="classChips" role="group" aria-label="Hazard classes"></div>
+    <div class="toolbar" style="margin-top:-.6rem">
+        <input class="search" id="hazSearch" type="search" placeholder="filter hazards by name, mechanism, domain or standard…" aria-label="Filter hazards">
+        <span class="tag" id="count" aria-live="polite"></span>
+    </div>
+
+    <div class="layout">
+        <div class="list" id="hazList" role="navigation" aria-label="Hazards"></div>
+        <div class="detail" id="detail" aria-live="polite"></div>
+    </div>
+
+    <section class="refs" id="refs" aria-labelledby="refsTitle">
+        <h2 id="refsTitle">References</h2>
+        <div id="refsBody"></div>
+    </section>
+
+    <p class="foot">
+        Data: <code id="footData">safety.json</code> · versions <span id="footVersion"></span> · <span id="footCount"></span> hazards.<br>
+        Standards are indicative anchors, not the full list applying to any product. References are external;
+        descriptions are those of their publishers. A hazard catalogue is not a conformity assessment, a legal opinion, or safety advice.
+    </p>
+</main>
+
+<script src="/shared/usearch.js"></script>
+<script>
+(function () {
+    "use strict";
+    function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+    var $ = function (id) { return document.getElementById(id); };
+    var state = { data: null, cls: "all", q: "", current: null };
+
+    function qs(name) {
+        var m = new RegExp("[?&]" + name + "=([^&]*)").exec(location.search);
+        return m ? decodeURIComponent(m[1]) : null;
+    }
+    function pushQuery(hazard, cls) {
+        var p = new URLSearchParams(location.search);
+        if (hazard) p.set("hazard", hazard); else p.delete("hazard");
+        if (cls && cls !== "all") p.set("class", cls); else p.delete("class");
+        var s = p.toString();
+        history.replaceState(null, "", s ? "?" + s : location.pathname);
+    }
+
+    function hazards() { return state.data.hazards; }
+    function classOf(id) { return state.data.classes.filter(function (c) { return c.id === id; })[0]; }
+    function refOf(id) { return state.data.references.filter(function (r) { return r.id === id; })[0]; }
+
+    function matches(h) {
+        if (state.cls !== "all" && h.class !== state.cls) return false;
+        if (!state.q) return true;
+        var hay = [h.label, h.mechanism, h.outcome, (h.domains || []).join(" "), (h.standards || []).join(" "), (h.signals || []).join(" ")].join(" ").toLowerCase();
+        return hay.indexOf(state.q) !== -1;
+    }
+
+    function renderChips() {
+        var all = ['<button class="chip" data-cls="all" aria-pressed="' + (state.cls === "all") + '">All hazards<span class="n">' + hazards().length + "</span></button>"];
+        state.data.classes.forEach(function (c) {
+            var n = hazards().filter(function (h) { return h.class === c.id; }).length;
+            all.push('<button class="chip" data-cls="' + esc(c.id) + '" aria-pressed="' + (state.cls === c.id) + '" title="' + esc(c.desc) + '">' + esc(c.label) + '<span class="n">' + n + "</span></button>");
+        });
+        $("classChips").innerHTML = all.join("");
+    }
+
+    function renderList() {
+        var visible = hazards().filter(matches);
+        var byClass = {};
+        visible.forEach(function (h) { (byClass[h.class] = byClass[h.class] || []).push(h); });
+        var html = "";
+        state.data.classes.forEach(function (c) {
+            var rows = byClass[c.id];
+            if (!rows || !rows.length) return;
+            html += '<div class="cls-head">' + esc(c.label) + "</div>";
+            rows.forEach(function (h) {
+                html += '<button class="item" data-id="' + esc(h.id) + '" aria-current="' + (state.current === h.id) + '">' +
+                        '<span class="sev ' + esc(h.severity) + '" aria-hidden="true"></span>' + esc(h.label) + "</button>";
+            });
+        });
+        $("hazList").innerHTML = html || '<div class="cls-head">No hazard matches the filter.</div>';
+        $("count").textContent = visible.length + " / " + hazards().length + " shown";
+    }
+
+    function tierRow(key, value) {
+        var label = (state.data.hierarchyLabels || {})[key] || key;
+        return '<div class="tier"><b>' + esc(label) + "</b><span>" + esc(value) + "</span></div>";
+    }
+
+    function renderDetail() {
+        var h = hazards().filter(function (x) { return x.id === state.current; })[0];
+        if (!h) { $("detail").innerHTML = '<p>Select a hazard from the list.</p>'; return; }
+        var c = classOf(h.class);
+        var tiers = state.data.hierarchy.map(function (k) {
+            return h.controls && h.controls[k] ? tierRow(k, h.controls[k]) : "";
+        }).join("");
+        var refs = (h.refs || []).map(function (id) {
+            var r = refOf(id);
+            return r ? '<a class="refchip" href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + " ↗</a>" : "";
+        }).join("");
+        var html = "";
+        html += "<h2>" + esc(h.label) + "</h2>";
+        html += '<div class="chips"><span class="tag">' + esc(c ? c.label : h.class) + "</span>" +
+                '<span class="tag">severity · ' + esc(h.severity) + "</span>" +
+                '<span class="tag">exposure · ' + esc(h.exposure) + "</span></div>";
+        html += "<h3>Mechanism</h3><p>" + esc(h.mechanism) + "</p>";
+        html += "<h3>Outcome</h3><p>" + esc(h.outcome) + "</p>";
+        html += "<h3>Product domains</h3><p class=\"domains\">" +
+                (h.domains || []).map(function (d) { return "<span>" + esc(d) + "</span>"; }).join(" ") + "</p>";
+        html += "<h3>Controls — in the order they should be tried</h3><div class=\"tiers\">" + tiers + "</div>";
+        html += "<h3>Regulatory anchors</h3><p>" + (h.standards || []).map(esc).join(" · ") +
+                "</p><p class=\"indicative\">Indicative, not exhaustive; the anchors name the regime, not the test the product must pass.</p>";
+        html += "<h3>Field signals</h3><p>" + (h.signals || []).map(esc).join(" · ") + "</p>";
+        if (refs) html += "<h3>Sources</h3><div>" + refs + "</div>";
+        $("detail").innerHTML = html;
+    }
+
+    function select(id, opts) {
+        state.current = id;
+        renderList();
+        renderDetail();
+        if (!opts || !opts.silent) pushQuery(id, state.cls);
+    }
+
+    function renderRefs() {
+        var groups = state.data.referenceGroups.slice().sort(function (a, b) { return a.number - b.number; });
+        $("refsBody").innerHTML = groups.map(function (g) {
+            var items = state.data.references.filter(function (r) { return r.group === g.id; });
+            if (!items.length) return "";
+            return "<h3>" + g.number + ". " + esc(g.label) + "</h3><ul>" + items.map(function (r) {
+                return '<li><a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.title) + "</a><p>" + esc(r.desc) + "</p></li>";
+            }).join("") + "</ul>";
+        }).join("");
+    }
+
+    function wire() {
+        $("classChips").addEventListener("click", function (e) {
+            var b = e.target.closest(".chip"); if (!b) return;
+            state.cls = b.getAttribute("data-cls");
+            var visible = hazards().filter(matches);
+            state.current = visible.length ? visible[0].id : null;
+            renderChips(); renderList(); renderDetail();
+            pushQuery(state.current, state.cls);
+        });
+        $("hazList").addEventListener("click", function (e) {
+            var b = e.target.closest(".item"); if (!b) return;
+            select(b.getAttribute("data-id"));
+        });
+        $("hazSearch").addEventListener("input", function (e) {
+            state.q = e.target.value.trim().toLowerCase();
+            renderList();
+        });
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "/" && document.activeElement !== $("hazSearch") && document.activeElement !== $("usearch")) {
+                e.preventDefault(); $("hazSearch").focus();
+            }
+            if (e.key === "Escape" && document.activeElement === $("hazSearch")) {
+                $("hazSearch").value = ""; state.q = ""; renderList(); $("hazSearch").blur();
+            }
+        });
+    }
+
+    fetch("safety.json", { cache: "no-cache" })
+        .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+        .then(function (data) {
+            state.data = data;
+            var src = data.source ? ' The product it ranges over is the <a href="/view.html?p=' + esc(data.source) + '">' + esc(data.sourceLabel || "product") + "</a> note." : "";
+            $("lead").innerHTML = esc(data.intro) + src;
+            $("footVersion").textContent = data.version || "—";
+            $("footCount").textContent = data.hazards.length;
+            var c = qs("class"); var h = qs("hazard");
+            if (c && data.classes.some(function (x) { return x.id === c; })) state.cls = c;
+            var visible = data.hazards.filter(matches);
+            state.current = (h && data.hazards.some(function (x) { return x.id === h; })) ? h : (visible[0] || {}).id || null;
+            renderChips(); renderList(); renderDetail(); renderRefs(); wire();
+        })
+        .catch(function (e) {
+            $("lead").textContent = "Could not load the hazard catalogue — " + e.message;
+            $("detail").innerHTML = "";
+        });
+})();
+</script>
+</body>
+</html>
