@@ -37812,5 +37812,205 @@
     "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
+ },
+ {
+  "file_path": "articles/hohfeld-1913-some-fundamental-legal-conceptions-yale.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Hohfeld 1913: the correlative pairs right/duty and privilege/no-right, and the move that turns property from a person-thing relation into relations among persons about a thing."
+   }
+  ]
+ },
+ {
+  "file_path": "articles/hohfeld-1917-fundamental-legal-conceptions-yale.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Hohfeld 1917: power/liability and immunity/disability, the incidents that make the property relation dynamic — what a holder may change and what cannot be changed against him."
+   }
+  ]
+ },
+ {
+  "file_path": "articles/demsetz-1967-toward-theory-property-rights-american-economic-review.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Demsetz 1967: property rights form when the gain from internalising an externality exceeds the cost of the right; the fur-trade case, and emergence as a cost problem rather than a moral discovery."
+   }
+  ]
+ },
+ {
+  "file_path": "articles/alchian-demsetz-1973-property-right-paradigm-journal-economic-history.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Alchian and Demsetz 1973: property as socially sanctioned decision rights, and the four regimes described in one vocabulary."
+   }
+  ]
+ },
+ {
+  "file_path": "articles/radin-1982-property-personhood-stanford-law-review.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Radin 1982: personal against fungible property, and the objection that the holder's relation to the object changes what the right is."
+   }
+  ]
+ },
+ {
+  "file_path": "books/commons-1924-legal-foundations-capitalism-macmillan.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Commons 1924: the transaction as the unit of analysis, property as a going concern of expectations the courts will enforce."
+   }
+  ]
+ },
+ {
+  "file_path": "books/berle-means-1932-modern-corporation-private-property-macmillan.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Berle and Means 1932: ownership separated from control in the large corporation."
+   }
+  ]
+ },
+ {
+  "file_path": "books/honore-1961-ownership-oxford.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Honore 1961: the eleven incidents of ownership, stated as a standard rather than a test."
+   }
+  ]
+ },
+ {
+  "file_path": "books/penner-1997-idea-property-law-oxford.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Penner 1997: the critique of the bundle, and property as the right to exclude."
+   }
+  ]
+ },
+ {
+  "file_path": "books/ostrom-1990-governing-commons-cambridge.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Ostrom 1990: open access, private, state and common property separated, and the design principles of a working commons."
+   }
+  ]
+ },
+ {
+  "file_path": "books/desoto-2000-mystery-capital-basic.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. de Soto 2000: dead capital, formalisation, and titling as the creation of a holder."
+   }
+  ]
+ },
+ {
+  "file_path": "books/blackstone-1766-commentaries-laws-england-book-ii.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Blackstone 1766: sole and despotic dominion, and the estates and servitudes that qualify it in the chapters that follow."
+   }
+  ]
+ },
+ {
+  "file_path": "books/maine-1861-ancient-law-murray.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Maine 1861: status to contract, collective holding to individual title, and the criticism that a Roman sequence was read as a universal law."
+   }
+  ]
+ },
+ {
+  "file_path": "books/nicholas-1962-introduction-roman-law-oxford.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Nicholas 1962: dominium, possessio, usufruct and servitude — the Roman vocabulary of the title branch."
+   }
+  ]
+ },
+ {
+  "file_path": "books/berman-1983-law-revolution-harvard.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Berman 1983: the Western legal tradition formed in the papal revolution, and the institutional contest the great categories came out of."
+   }
+  ]
+ },
+ {
+  "file_path": "books/rose-1994-property-persuasion-westview.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Rose 1994: ownership as a claim that persuades, and possession as a rhetorical act."
+   }
+  ]
+ },
+ {
+  "file_path": "books/merryman-1969-civil-law-tradition-stanford.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Merryman 1969: unified civil-law ownership against the common law of estates, and why the two traditions do not translate."
+   }
+  ]
+ },
+ {
+  "file_path": "books/watson-1981-making-civil-law-harvard.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Watson 1981: legal change by transplant, and the portability of the Roman property vocabulary."
+   }
+  ]
+ },
+ {
+  "file_path": "books/locke-1690-two-treatises-government-churchill.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Locke 1690: the labour justification, the sufficiency proviso, and property as prior to government."
+   }
+  ]
+ },
+ {
+  "file_path": "books/proudhon-1840-quest-ce-que-la-propriete-brocard.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created. Proudhon 1840: possession defended, property as the right to another's product, and the critique in its strongest form."
+   }
+  ]
  }
 ]
