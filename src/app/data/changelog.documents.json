@@ -37807,7 +37807,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References: a second full-text source added, the Cyberlibrary copy of the 1695 essay, beside the Early English Books microfilm and the French translation."
+    "summary": "References: a second full-text source added, the Cyberlibrary copy of the 1695 essay, beside the Early English Books microfilm and the French translation.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  }

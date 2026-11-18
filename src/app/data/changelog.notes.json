@@ -1748,7 +1748,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -9894,7 +9896,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "References built out chronologically from Strutt and Lindstedt through Poincare and Fredholm: the perturbation of a frequency before the method had a name, then the asymptotic series and functional equations that followed."
+    "summary": "References built out chronologically from Strutt and Lindstedt through Poincare and Fredholm: the perturbation of a frequency before the method had a name, then the asymptotic series and functional equations that followed.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -21261,7 +21265,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27291,7 +27297,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27435,7 +27443,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27646,7 +27656,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27663,7 +27675,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27728,7 +27742,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27769,7 +27785,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -27804,7 +27822,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -32649,7 +32669,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -32721,7 +32743,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -32738,7 +32762,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -32755,7 +32781,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -34777,7 +34805,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -34794,7 +34824,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -36034,7 +36066,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -38129,7 +38163,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -38146,7 +38182,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -41622,7 +41660,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Title corrected to Chemical Bond, matching what the note is about."
+    "summary": "Title corrected to Chemical Bond, matching what the note is about.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -43117,7 +43157,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -44396,7 +44438,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -44945,7 +44989,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -47577,7 +47623,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -48536,7 +48584,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -49557,7 +49607,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -50484,7 +50536,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -50880,7 +50934,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -50921,7 +50977,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -52188,7 +52246,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -58208,7 +58268,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA on appointment authority: whether the power to appoint implies control of decisions, how the distribution of appointment powers affects independence, which arrangements concentrate authority, how open competition and political appointment differ in board composition, and whether stakeholder boards govern differently from competency-based ones."
+    "summary": "QA on appointment authority: whether the power to appoint implies control of decisions, how the distribution of appointment powers affects independence, which arrangements concentrate authority, how open competition and political appointment differ in board composition, and whether stakeholder boards govern differently from competency-based ones.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -58408,7 +58470,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Operational conditions added: the strategy has to be paired with matching funds to align incentives and target the investment; the operating funds must not be state-aligned, must be periodically audited, and must carry a proven history."
+    "summary": "Operational conditions added: the strategy has to be paired with matching funds to align incentives and target the investment; the operating funds must not be state-aligned, must be periodically audited, and must carry a proven history.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -60849,7 +60913,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "New QA on designing a performance evaluation system, with the measurement literature gathered under it: the typology and ambiguity reviews, Andersen, Boesen and Pedersen on the conceptual space, Arnaboldi and Azzone on constructing measurement in the public sector."
+    "summary": "New QA on designing a performance evaluation system, with the measurement literature gathered under it: the typology and ambiguity reviews, Andersen, Boesen and Pedersen on the conceptual space, Arnaboldi and Azzone on constructing measurement in the public sector.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -61063,7 +61129,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA on evaluation and monitoring, with the Scottish progress review and the innovation-centre programme evaluation cited as the worked examples."
+    "summary": "QA on evaluation and monitoring, with the Scottish progress review and the innovation-centre programme evaluation cited as the worked examples.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -110356,7 +110424,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "A table of fundamental ideas and the mathematical areas each becomes, read as the building blocks of the areas the corpus files by branch."
+    "summary": "A table of fundamental ideas and the mathematical areas each becomes, read as the building blocks of the areas the corpus files by branch.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -116712,7 +116782,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -121424,7 +121496,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA opened: what transport means, which problems are modelled as transport problems, and what the essence of the formulation is."
+    "summary": "QA opened: what transport means, which problems are modelled as transport problems, and what the essence of the formulation is.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122108,7 +122182,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Substantially rewritten and extended, 229 lines added and 112 removed: the essay reorganised with the documentary-system material developed in place rather than appended."
+    "summary": "Substantially rewritten and extended, 229 lines added and 112 removed: the essay reorganised with the documentary-system material developed in place rather than appended.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122345,7 +122421,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA opened on the questions that define the note: imperialism where sovereignty is concentrated in a dictatorship, where the polity is internally divided, and where formal sovereignty and effective control diverge."
+    "summary": "QA opened on the questions that define the note: imperialism where sovereignty is concentrated in a dictatorship, where the polity is internally divided, and where formal sovereignty and effective control diverge.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122580,7 +122658,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The auction note gains the cattle-auction instance, a livestock system priced by descending clock, and a correction in the passage on how the state objectives conflict."
+    "summary": "The auction note gains the cattle-auction instance, a livestock system priced by descending clock, and a correction in the passage on how the state objectives conflict.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122672,7 +122752,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122682,7 +122764,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122692,7 +122776,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122702,7 +122788,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122712,7 +122800,9 @@
    {
     "date": "2026-11-17",
     "kind": "remove",
-    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path."
+    "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122722,7 +122812,8 @@
    {
     "date": "2026-11-17",
     "kind": "move",
-    "summary": "Moved from social/framework/society.md into social/collective/, where the genus notes of the collective shelf live. Society is the collective it describes, not a framework category, and the shelf now says so."
+    "summary": "Moved from social/framework/society.md into social/collective/, where the genus notes of the collective shelf live. Society is the collective it describes, not a framework category, and the shelf now says so.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b"
    }
   ]
  },
@@ -122732,7 +122823,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "QA: whether civil-service design is part of policy or a separate object of analysis for practical purposes."
+    "summary": "QA: whether civil-service design is part of policy or a separate object of analysis for practical purposes.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  },
@@ -122742,7 +122835,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "Title corrected to Hong Kong Civil HR, naming the polity instead of the generic label."
+    "summary": "Title corrected to Hong Kong Civil HR, naming the polity instead of the generic label.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
    }
   ]
  }
