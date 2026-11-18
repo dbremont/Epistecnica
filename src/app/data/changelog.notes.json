@@ -57426,7 +57426,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "New Institutions section between the families and the references: a linked directory of thirteen ceramics research organisations, seven supplied and six added (SICCAS, KICET, Penn State MRI, Empa, NASA Glenn, Lucideon), each row linking its new actor note under social/collective/actor/private/research/<country>/."
+    "summary": "New Institutions section between the families and the references: a linked directory of thirteen ceramics research organisations, seven supplied and six added (SICCAS, KICET, Penn State MRI, Empa, NASA Glenn, Lucideon), each row linking its new actor note under social/collective/actor/private/research/<country>/.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634",
+    "before": "1bbbbabc063b6478064bc8e9b0c988f6d27cb8aa"
    }
   ]
  },
@@ -122956,7 +122958,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Fraunhofer IKTS as the applied ceramics institute of the Fraunhofer-Gesellschaft: founded in Dresden in 1992, run from Dresden and Hermsdorf, contract-funded, so its agenda is set by what industry pays to have solved. Ceramic focus bullets (advanced and structural ceramics, composites, manufacturing, energy materials, membranes, electronic ceramics, characterisation); place in the field stated as the German translation institute between the universities and a fragmented mid-sized industry, and explicitly not a standards body or a university."
+    "summary": "Note created. Fraunhofer IKTS as the applied ceramics institute of the Fraunhofer-Gesellschaft: founded in Dresden in 1992, run from Dresden and Hermsdorf, contract-funded, so its agenda is set by what industry pays to have solved. Ceramic focus bullets (advanced and structural ceramics, composites, manufacturing, energy materials, membranes, electronic ceramics, characterisation); place in the field stated as the German translation institute between the universities and a fragmented mid-sized industry, and explicitly not a standards body or a university.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -122966,7 +122969,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. JFCC as the Japanese fine-ceramics centre in Nagoya, established 1985 with money from several hundred companies — the industry financing the laboratory that would evaluate the materials it meant to sell. Focus bullets (fine ceramics, nanostructure and electron microscopy, functional and battery materials, computational materials science, shared evaluation); place in the field stated as the shared evaluation laboratory, distinct from a university and a manufacturer, because a firm's own lab has an interest in its powder looking good."
+    "summary": "Note created. JFCC as the Japanese fine-ceramics centre in Nagoya, established 1985 with money from several hundred companies — the industry financing the laboratory that would evaluate the materials it meant to sell. Focus bullets (fine ceramics, nanostructure and electron microscopy, functional and battery materials, computational materials science, shared evaluation); place in the field stated as the shared evaluation laboratory, distinct from a university and a manufacturer, because a firm's own lab has an interest in its powder looking good.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -122976,7 +122980,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. NIMS as Japan's national materials institute at Tsukuba, formed in 2001 by merging the National Research Institute for Metals and the National Institute for Research in Inorganic Materials, under MEXT. Focus bullets (transparent and optical ceramics, functional ceramics, high-temperature materials, sintering science, nanomaterials, characterisation); place in the field stated as upstream of JFCC and industry — long-horizon, publicly funded, with an instrument base no single firm would carry."
+    "summary": "Note created. NIMS as Japan's national materials institute at Tsukuba, formed in 2001 by merging the National Research Institute for Metals and the National Institute for Research in Inorganic Materials, under MEXT. Focus bullets (transparent and optical ceramics, functional ceramics, high-temperature materials, sintering science, nanomaterials, characterisation); place in the field stated as upstream of JFCC and industry — long-horizon, publicly funded, with an instrument base no single firm would carry.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -122986,7 +122991,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. ORNL as a DOE national laboratory, established 1943 for the Manhattan Project and managed by UT-Battelle since 2000, with ceramics read as a mission programme rather than a materials department. Focus bullets (nuclear ceramics, ceramic matrix composites, refractories, advanced processing including additive manufacturing, neutron and X-ray characterisation at SNS and HFIR, coatings); place in the field stated as measurement-led and duty-driven."
+    "summary": "Note created. ORNL as a DOE national laboratory, established 1943 for the Manhattan Project and managed by UT-Battelle since 2000, with ceramics read as a mission programme rather than a materials department. Focus bullets (nuclear ceramics, ceramic matrix composites, refractories, advanced processing including additive manufacturing, neutron and X-ray characterisation at SNS and HFIR, coatings); place in the field stated as measurement-led and duty-driven.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -122996,7 +123002,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. ICV-CSIC as the ceramics and glass institute of the Spanish National Research Council: a silicates section in 1954, raised to an institute in June 1964, on the Cantoblanco campus since 2002, with four departments (Ceramics, Electroceramics, Surface Physics and Processes, Glasses). Focus bullets (ceramic engineering, glass and glass-ceramics, bioceramics, electroceramics, colloidal processing, archaeometry); place in the field stated against Spain's tile industry and its technology centres, with the archaeometry line noted as keeping the institute close to the pottery record."
+    "summary": "Note created. ICV-CSIC as the ceramics and glass institute of the Spanish National Research Council: a silicates section in 1954, raised to an institute in June 1964, on the Cantoblanco campus since 2002, with four departments (Ceramics, Electroceramics, Surface Physics and Processes, Glasses). Focus bullets (ceramic engineering, glass and glass-ceramics, bioceramics, electroceramics, colloidal processing, archaeometry); place in the field stated against Spain's tile industry and its technology centres, with the archaeometry line noted as keeping the institute close to the pottery record.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123006,7 +123013,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. CACT as a New York State Center for Advanced Technology at Alfred University, first designated 1987 and renewed 2018. Focus bullets (electronic ceramics, high-temperature structural ceramics, ceramic additive manufacturing, glass and photonic ceramics, testing and analysis, workforce); place in the field stated as the state-level American answer to the Fraunhofer model: access rather than a product line, at the scale of one state and one material."
+    "summary": "Note created. CACT as a New York State Center for Advanced Technology at Alfred University, first designated 1987 and renewed 2018. Focus bullets (electronic ceramics, high-temperature structural ceramics, ceramic additive manufacturing, glass and photonic ceramics, testing and analysis, workforce); place in the field stated as the state-level American answer to the Fraunhofer model: access rather than a product line, at the scale of one state and one material.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123016,7 +123024,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. CASC as the structural-ceramics centre in Imperial College London's Department of Materials, started July 2008 on a five-year EPSRC grant of 5.5 million pounds, with an industry consortium and an annual summer school. Focus bullets (structural ceramics, ultra-high-temperature ceramics, composites, mechanical behaviour, processing and joining, coatings); place in the field stated through the choice of structural: load-bearing at temperature, with the consortium model tying research to a requirement rather than a grant cycle."
+    "summary": "Note created. CASC as the structural-ceramics centre in Imperial College London's Department of Materials, started July 2008 on a five-year EPSRC grant of 5.5 million pounds, with an industry consortium and an annual summer school. Focus bullets (structural ceramics, ultra-high-temperature ceramics, composites, mechanical behaviour, processing and joining, coatings); place in the field stated through the choice of structural: load-bearing at temperature, with the consortium model tying research to a requirement rather than a grant cycle.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123026,7 +123035,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. KICET as Korea's dedicated ceramics institute: lineage from the ceramics department of the Central Testing Laboratory in 1912, government-funded from 2000, independent corporation from 4 May 2009. Focus bullets (materials and processes, electronic and display ceramics, energy ceramics, bioceramics, structural and refractory ceramics, testing and certification); place in the field stated through the certification role — a KICET test result is a market document, which is why the name says engineering and technology rather than science. No city asserted, because the institute's sites conflict across sources."
+    "summary": "Note created. KICET as Korea's dedicated ceramics institute: lineage from the ceramics department of the Central Testing Laboratory in 1912, government-funded from 2000, independent corporation from 4 May 2009. Focus bullets (materials and processes, electronic and display ceramics, energy ceramics, bioceramics, structural and refractory ceramics, testing and certification); place in the field stated through the certification role — a KICET test result is a market document, which is why the name says engineering and technology rather than science. No city asserted, because the institute's sites conflict across sources.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123036,7 +123046,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. SICCAS as the ceramics institute of the Chinese Academy of Sciences: lineage from the Engineering Institute of 1928, the ceramic part separated in 1959, the present name from 1984. Focus bullets (high-performance ceramics, functional materials and devices, energy materials, artificial crystals, biomaterials, coatings and eco-materials, characterisation, ancient and industrial ceramics); place in the field stated through the two unusual programmes — crystal growth and archaeometry, with the International Symposium on Ancient Ceramics run from the institute since 1982."
+    "summary": "Note created. SICCAS as the ceramics institute of the Chinese Academy of Sciences: lineage from the Engineering Institute of 1928, the ceramic part separated in 1959, the present name from 1984. Focus bullets (high-performance ceramics, functional materials and devices, energy materials, artificial crystals, biomaterials, coatings and eco-materials, characterisation, ancient and industrial ceramics); place in the field stated through the two unusual programmes — crystal growth and archaeometry, with the International Symposium on Ancient Ceramics run from the institute since 1982.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123046,7 +123057,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Penn State's Materials Research Institute as the university's interdisciplinary materials institute, with ceramic science at Penn State dating from 1923 and the Center for Dielectrics and Piezoelectrics as its best-known ceramics consortium. Focus bullets (dielectrics and piezoelectrics, structural and electronic ceramics, powder and colloidal processing, characterisation, 2D materials and thin films, education); place in the field stated as the university-institute model whose translation channel is the industry consortium."
+    "summary": "Note created. Penn State's Materials Research Institute as the university's interdisciplinary materials institute, with ceramic science at Penn State dating from 1923 and the Center for Dielectrics and Piezoelectrics as its best-known ceramics consortium. Focus bullets (dielectrics and piezoelectrics, structural and electronic ceramics, powder and colloidal processing, characterisation, 2D materials and thin films, education); place in the field stated as the university-institute model whose translation channel is the industry consortium.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123056,7 +123068,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Empa as the Swiss Federal Laboratories for Materials Science and Technology, based in Dubendorf with sites in St. Gallen and Thun, begun in 1880 as the federal material-testing laboratory and renamed in 1988. Focus bullets (high-performance ceramics, nanostructured and nanocomposite ceramics, thin films and photovoltaics, joining and corrosion, mechanical and thermal testing, energy materials); place in the field stated as an ETH-domain applied laboratory where ceramics meets thin films and interfaces, with the testing duty of the original laboratory still present."
+    "summary": "Note created. Empa as the Swiss Federal Laboratories for Materials Science and Technology, based in Dubendorf with sites in St. Gallen and Thun, begun in 1880 as the federal material-testing laboratory and renamed in 1988. Focus bullets (high-performance ceramics, nanostructured and nanocomposite ceramics, thin films and photovoltaics, joining and corrosion, mechanical and thermal testing, energy materials); place in the field stated as an ETH-domain applied laboratory where ceramics meets thin films and interfaces, with the testing duty of the original laboratory still present.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123066,7 +123079,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. NASA Glenn as the Cleveland laboratory founded in 1941 as the Aircraft Engine Research Laboratory and named for John Glenn in 1999, with ceramics read as aerospace ceramics. Focus bullets (ceramic matrix composites, environmental and thermal barrier coatings, high-temperature ceramics, processing and joining, testing at temperature); place in the field stated as the case where the requirement precedes the science, with the composite programme as the reference example of a ceramic replacing a superalloy and the oxidation problem driving the coating programme."
+    "summary": "Note created. NASA Glenn as the Cleveland laboratory founded in 1941 as the Aircraft Engine Research Laboratory and named for John Glenn in 1999, with ceramics read as aerospace ceramics. Focus bullets (ceramic matrix composites, environmental and thermal barrier coatings, high-temperature ceramics, processing and joining, testing at temperature); place in the field stated as the case where the requirement precedes the science, with the composite programme as the reference example of a ceramic replacing a superalloy and the oxidation problem driving the coating programme.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  },
@@ -123076,7 +123090,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Lucideon as the direct descendant of the British Ceramic Research Association: BRRA 1920 and BPRA 1937 merged as the BCRA in April 1948, became British Ceramic Research Ltd and CERAM in 1986, rebranded Lucideon on 1 February 2014. Focus bullets (testing and analysis, materials development, advanced ceramics, assurance and certification, failure investigation, information services); place in the field stated as the industrial-research model that predates the modern institute, including the 1950s turn to sintered oxides and dielectrics that made a pottery association into a technical-ceramics laboratory."
+    "summary": "Note created. Lucideon as the direct descendant of the British Ceramic Research Association: BRRA 1920 and BPRA 1937 merged as the BCRA in April 1948, became British Ceramic Research Ltd and CERAM in 1986, rebranded Lucideon on 1 February 2014. Focus bullets (testing and analysis, materials development, advanced ceramics, assurance and certification, failure investigation, information services); place in the field stated as the industrial-research model that predates the modern institute, including the 1950s turn to sintered oxides and dielectrics that made a pottery association into a technical-ceramics laboratory.",
+    "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
    }
   ]
  }
