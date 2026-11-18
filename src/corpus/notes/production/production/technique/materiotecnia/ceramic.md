@@ -6,6 +6,8 @@ tags: [note, production]
 
 > A **Ceramic** is an inorganic, non-metallic solid shaped from a clay body or a powder and consolidated by heat — the class that runs from a hand-thrown cooking pot to a spark-plug insulator, a furnace lining and a hip socket. What holds the class together is not a single chemistry but a processing contract: a particulate body is formed and then fired, and the firing is what turns it into a solid.
 
+> Note:  Ceramic is a material class defined by its material constitution and characteristic bonding, not by its function, shape, or intended application.
+
 ## What the class is
 
 Ceramics are inorganic and non-metallic, and their bonding is ionic and covalent, which is where the properties come from: high melting points, hardness, wear resistance, chemical inertness, low thermal and electrical conductivity, and brittleness. Structurally they are crystalline (alumina, zirconia, silicon carbide), glassy (vitreous silica), or — most often — mixed: a porcelain body is mullite and residual quartz in a glassy matrix, and a glaze is glass fused onto both.
@@ -60,6 +62,26 @@ Firing is the step that makes the class. A dried clay body is friable and water-
 | Bioceramics | Ceramics implanted in the body. | Alumina and zirconia joints, hydroxyapatite, bioactive glass. |
 | Advanced structural ceramics | Monolithic ceramics designed for load-bearing service. | Alumina, zirconia-toughened alumina, silicon nitride, silicon carbide, ultra-high-temperature ceramics. |
 | Ceramic matrix composites | A ceramic reinforced with fibres or whiskers. | SiC/SiC, oxide/oxide. |
+
+## Institutions
+
+The research capacity behind the technical end of the field is concentrated in a small number of dedicated institutes and centres:
+
+| Institution | Country | Main research orientation |
+|---|---|---|
+| [Fraunhofer Institute for Ceramic Technologies and Systems (IKTS)](/view.html?p=notes/social/collective/actor/private/research/deu/fraunhofer-institute-for-ceramic-technologies-and-systems.md) | Germany | Advanced ceramics, ceramic composites, manufacturing, energy materials, membranes, electronic ceramics. |
+| [Japan Fine Ceramics Center (JFCC)](/view.html?p=notes/social/collective/actor/private/research/jpn/japan-fine-ceramics-center.md) | Japan | Fine ceramics, nanostructures, electron microscopy, functional materials, battery materials, computational materials science. |
+| [National Institute for Materials Science (NIMS)](/view.html?p=notes/social/collective/actor/private/research/jpn/national-institute-for-materials-science.md) | Japan | Optical ceramics, transparent ceramics, functional ceramics, high-temperature materials, sintering. |
+| [Oak Ridge National Laboratory (ORNL)](/view.html?p=notes/social/collective/actor/private/research/usa/oak-ridge-national-laboratory.md) | United States | Ceramic composites, nuclear and energy ceramics, refractory materials, advanced processing and characterization. |
+| [Institute of Ceramics and Glass (ICV-CSIC)](/view.html?p=notes/social/collective/actor/private/research/esp/instituto-de-ceramica-y-vidrio.md) | Spain | Ceramic engineering, glass, bioceramics, functional ceramics, colloidal processing and electrochemical materials. |
+| [Center for Advanced Ceramic Technology (CACT)](/view.html?p=notes/social/collective/actor/private/research/usa/center-for-advanced-ceramic-technology.md) | United States | Electronic ceramics, high-temperature structural ceramics, ceramic additive manufacturing, glass and photonic ceramics. |
+| [Centre for Advanced Structural Ceramics (CASC)](/view.html?p=notes/social/collective/actor/private/research/gbr/centre-for-advanced-structural-ceramics.md) | United Kingdom | Structural ceramics, ultra-high-temperature ceramics, ceramic composites, mechanical behavior and processing. |
+| [Shanghai Institute of Ceramics (SICCAS)](/view.html?p=notes/social/collective/actor/private/research/chn/shanghai-institute-of-ceramics.md) | China | Structural and functional ceramics, artificial crystals, transparent ceramics, energy materials, biomaterials, ancient ceramics. |
+| [Korea Institute of Ceramic Engineering and Technology (KICET)](/view.html?p=notes/social/collective/actor/private/research/kor/korea-institute-of-ceramic-engineering-and-technology.md) | South Korea | Ceramic materials and processes, electronic and energy ceramics, testing, evaluation and certification. |
+| [Penn State Materials Research Institute](/view.html?p=notes/social/collective/actor/private/research/usa/penn-state-materials-research-institute.md) | United States | Dielectrics and piezoelectrics, structural and electronic ceramics, ceramic processing, characterization. |
+| [Empa](/view.html?p=notes/social/collective/actor/private/research/che/empa.md) | Switzerland | High-performance and damage-tolerant ceramics, nanostructured ceramics, thin films, joining and corrosion. |
+| [NASA Glenn Research Center](/view.html?p=notes/social/collective/actor/private/research/usa/nasa-glenn-research-center.md) | United States | Ceramic matrix composites, environmental and thermal barrier coatings, high-temperature aerospace ceramics. |
+| [Lucideon](/view.html?p=notes/social/collective/actor/private/research/gbr/lucideon.md) | United Kingdom | Ceramic testing and analysis, materials development, assurance, failure investigation. |
 
 ## References
 
