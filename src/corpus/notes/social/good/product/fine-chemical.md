@@ -103,9 +103,9 @@ The concept under evaluation is **Fine Chemical**, defined above as *the low-vol
 
 ## Related
 
-- [Drug](/view.html?p=notes/technica/general/product/drug.md) — the substance read by its pharmacological action rather than its specification.
-- [Pharmaceutical Product](/view.html?p=notes/technica/general/product/pharmaceutical-product.md) — the delivered article an API is formulated into.
-- [Healthcare Product](/view.html?p=notes/technica/general/product/healthcare-product.md) — the umbrella over medicines, devices and diagnostics.
+- [Drug](/view.html?p=notes/social/good/product/drug.md) — the substance read by its pharmacological action rather than its specification.
+- [Pharmaceutical Product](/view.html?p=notes/social/good/product/pharmaceutical-product.md) — the delivered article an API is formulated into.
+- [Healthcare Product](/view.html?p=notes/social/good/product/healthcare-product.md) — the umbrella over medicines, devices and diagnostics.
 - [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/industry/pharma-pipeline.md) — the regulated system in which the API becomes a medicine.
 - [Basic Chemicals Production](/view.html?p=notes/technica/general/industry/chemical-basics.md) — the commodity upstream the fine-chemical route starts from.
 - [Chemical Synthesis](/view.html?p=notes/nature/chemical-synthesis.md) — the reaction classes the multi-step route uses.

@@ -103,9 +103,9 @@ The concept under evaluation is **Healthcare Product**, defined above as *the ar
 
 ## Related
 
-- [Pharmaceutical Product](/view.html?p=notes/technica/general/product/pharmaceutical-product.md) — the medicinal kind of healthcare product.
-- [Drug](/view.html?p=notes/technica/general/product/drug.md) — the active substance a medicinal product carries.
-- [Fine Chemical](/view.html?p=notes/technica/general/product/fine-chemical.md) — the specification-sold substance at the head of the chain.
+- [Pharmaceutical Product](/view.html?p=notes/social/good/product/pharmaceutical-product.md) — the medicinal kind of healthcare product.
+- [Drug](/view.html?p=notes/social/good/product/drug.md) — the active substance a medicinal product carries.
+- [Fine Chemical](/view.html?p=notes/social/good/product/fine-chemical.md) — the specification-sold substance at the head of the chain.
 - [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/industry/pharma-pipeline.md) — the production system behind the medicinal class.
 - [Biotech Production Ecosystem](/view.html?p=notes/technica/general/industry/biotech-production-ecosystem.md) — the production ecosystem biological products depend on.
 - [Laboratory Tooling](/view.html?p=notes/technica/general/industry/laboratory-tooling.md) — the instruments the diagnostic class is built around.
