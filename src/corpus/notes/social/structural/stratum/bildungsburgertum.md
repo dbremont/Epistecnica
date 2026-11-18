@@ -77,7 +77,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 | **Category** | **Criteria** | **Bildungsbürgertum** |
 | --- | --- | --- |
-| Conceptual Specification | **Conceptual Identification** | Moderate–Low (boundary work against intelligentsia, professional class, gentry, and *Bildungsbürger* as an insult is constant) |
+| Conceptual Specification | **Conceptual Identification** | Moderate–Low (boundary work against [intelligentsia](/view.html?p=notes/social/structural/stratum/intelligentsia.md), professional class, gentry, and *Bildungsbürger* as an insult is constant) |
 | Conceptual Specification | **Definitional Clarity** | Low–Moderate (*Bildung* is untranslatable and has no settled definition; membership is inferred from occupation plus schooling) |
 | Conceptual Specification | **Conceptual Determinacy** | Low–Moderate (drifts into a residual for "the educated who are not capitalists") |
 | Conceptual Specification | **Internal Consistency** | Moderate (four candidate criteria — credential, occupation, income, bearing — dissociate across the period) |
@@ -86,7 +86,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 | Representational Adequacy | **Intensional Adequacy** | Moderate–High (the cultivation-plus-credential core captures the defining property) |
 | Representational Adequacy | **Discriminative Power** | Moderate (separates educated from economic bourgeoisie sharply; blurs among the professions) |
 | Representational Adequacy | **Granularity Adequacy** | Moderate (one stratum over-aggregates pastor and professor; the historiography subdivides) |
-| Conceptual Economy | **Ontological Parsimony** | Moderate (overlaps intelligentsia, professional class, clerisy, gentry) |
+| Conceptual Economy | **Ontological Parsimony** | Moderate (overlaps [intelligentsia](/view.html?p=notes/social/structural/stratum/intelligentsia.md), professional class, clerisy, gentry) |
 | Conceptual Economy | **Conceptual Distinctiveness** | High (the pairing against the *Wirtschaftsbürgertum* is a genuine analytic cut, not a synonym) |
 | Conceptual Economy | **Redundancy Control** | Moderate (much of its extension is the professional class under another name) |
 | Conceptual Economy | **Boundary Differentiation** | Moderate (period and national boundaries are clear; the outer edge of "the educated" is not) |

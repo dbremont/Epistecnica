@@ -25,10 +25,13 @@ tags: [note, stratum, social-class, collective, social-element]
 | Stratum | Scale | Case |
 | --- | --- | --- |
 | [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) | Cultivation and the educational credential | The German-speaking lands, c. 1770–1933 |
+| [Grand Burgher](/view.html?p=notes/social/structural/stratum/grand-burgher.md) | Civic right and hereditary legal privilege | The German-speaking free cities and city-republics, to 1919 |
+| [Hanseaten](/view.html?p=notes/social/structural/stratum/hanseaten.md) | Family rank and civic standing | Hamburg, Bremen, and Lübeck, c. 1650–1918 |
+| [Intelligentsia](/view.html?p=notes/social/structural/stratum/intelligentsia.md) | Education and cultural capital, held as a title to speak | Poland and Russia, c. 1840 into the twentieth century |
 
 ## Scales
 
-> A stratum is only as determinate as the scale it is drawn on, and the scale is part of the definition rather than an afterthought. The scales this corpus uses are cultivation (schooling, canon, credential), income and wealth, prestige (the standing a collective confers — see [Status](/view.html?p=notes/social/synontic/status.md)), occupation, and authority. Naming a stratum without naming its scale leaves the gradation unmeasured, and a gradation nobody can order is not a stratum.
+> A stratum is only as determinate as the scale it is drawn on, and the scale is part of the definition rather than an afterthought. The scales this corpus uses are cultivation (schooling, canon, credential), income and wealth, prestige (the standing a collective confers — see [Status](/view.html?p=notes/social/synontic/status.md)), occupation, authority, and civic right (the legal standing of municipal membership, where a charter rather than a market sets the rank). Naming a stratum without naming its scale leaves the gradation unmeasured, and a gradation nobody can order is not a stratum.
 
 ## References
 

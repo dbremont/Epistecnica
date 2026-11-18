@@ -99376,6 +99376,11 @@
     "kind": "feat",
     "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
     "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "refactor",
+    "summary": "Two unlinked mentions of the intelligentsia in the conceptuum evaluation table (Conceptual Identification and Ontological Parsimony) now link the new intelligentsia note, which is the boundary the evaluation already names. No other change."
    }
   ]
  },
@@ -99394,6 +99399,11 @@
     "kind": "feat",
     "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
     "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Shelf updated for three new members: the Members table gains Grand Burgher (civic right and hereditary legal privilege), Hanseaten (family rank and civic standing) and Intelligentsia (education and cultural capital held as a title to speak), each with its scale and case. The Scales paragraph gains a sixth scale, civic right — the legal standing of municipal membership, where a charter rather than a market sets the rank — because the Grand Burgher and the Hanseaten are ranked on a constitutional threshold rather than on cultivation, income, prestige, occupation or authority."
    }
   ]
  },
@@ -123308,6 +123318,46 @@
     "kind": "feat",
     "summary": "New technical domain: Separation Science and Technology, a shallow domain set in the corpus's Technical Element Set idiom (the Geological Resource Development and Food Production pattern): three blockquotes (definition, complement-of-the-observation, the cut), the three Formulation questions, one Instance Tree Path table, and References. The root is declared Technical Element Set and carries ten direct sub-domain constituents — solvent extraction, ion exchange and sorption, membranes, distillation and evaporation, crystallization and precipitation, chromatography, filtration and mechanical separation, flotation, gas separation, and electrochemical/electromembrane separation — over the flat spine (Technical Evolution, Technical Purpose, Technical Domain Reality Model, Technical Requirement, Technical Standard), 36 rows in all, no member re-decomposed. Three judgements are recorded rather than smoothed over. The name: the field's own name carries a science whose inquiry half is epistemic and belongs to Chemical Engineering and the chemical sciences, while the set composes only the techniques that realize a separation, and the note says so. The boundary: mineral beneficiation is deliberately not a member because it is the application of this family, already carried inside Geological Resource Development as its Beneficiation And Processing Set; chemical reaction is excluded because a reactor transforms a substance while a separator only redistributes it, and where a reaction is the instrument (precipitation, electrodeposition) the separation is the end. The state of the members: no member has a note, the corpus's only separation material is two natural stubs (Separation Process and Chromatography, both undecomposed) plus the discipline note that names separation as a plant question without decomposing it, and the depth the corpus does have is bench-scale and one system at a time — recorded as a Member Coverage Requirement in the spine rather than presented as an even frontage. The reality model carries the domain's real constraint: a separator redistributes matter and cannot change the elements it separates, so mass balance and the energy/entropy floor bound every member; chemical similarity is the axis of difficulty. The Technical Evolution spine runs fire assay and parting → distillation → industrial extraction of the 1940s → sorption and membranes → simulation and energy integration → the data-driven discovery era, whose instances are the four papers added with this note. References integrated into one list (guide, sibling domains, knowledge, natural stubs, application, bench cases).",
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/grand-burgher.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: Grand Burgher (Grossbuerger, Grossbuergerrecht), the highest tier of urban citizenship in the German-speaking city-states of the Holy Roman Empire, from the Wikipedia article. The note works the legal order rather than the class: the three-tier hierarchy (hereditary grand burghers, petty burghers, non-burghers) into which the legally coequal burghers split before the fifteenth century; the privileges as Hamburg defined them (full unrestricted large-scale trade including foreign import and export, a bank account, eligibility for the Senate); the fees that made the order self-reproducing (50 Reichstaler against 7 in 1600, 758 Mark 8 Schilling against 46 in 1833); conferral by purchase, inheritance through male and female lines, and marriage; the abolition with the Weimar Constitution on 11 August 1919, with titles surviving only as family names, and the explicit point that the repeal did not touch the wealth or the firms. Typed Social Compound with the conferred status carried as a Social Property reading — the shelf's hardest case, since the rank is a threshold rather than a degree — and the ambiguity is stated as the concept's subject. 22-row decomposition, a 24-criterion conceptuum evaluation and verdict, and five QA entries (noble or not, why the right cost money, what 1919 abolished, whether the Hanseaten are the same thing, and the New Amsterdam 1657 borrowing)."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/hanseaten.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: the Hanseaten, the First Families of Hamburg, Bremen and Luebeck, from the Wikipedia article. The note is built on the paradox the sources state and the concept has to hold: a strictly republican oligarchy that banned the nobility from property, political life and residence inside Hamburg, then occupied the place nobles held elsewhere. Contents: the families as holders of hereditary grand burghership; the offices they held (mayor, senator, city diplomat, senior pastor); the family firm and the private bank; the endogamous marriage network and the unwanted traffic with the nobility; and the republican ethos — the honourable merchant, the hanseatic rejection of foreign honours, and the resistance to ennoblement, with the Berenberg-Gossler and Burchard anecdotes. Dated from about 1650 to 1918-19, with the point kept distinct: the constitutional order ended, the families did not. Boundary with Grand Burgher drawn explicitly in both notes — the right is the instrument, the Hanseaten are the formation that held it. 25-row decomposition, a 24-criterion evaluation whose verdict turns on the class's self-description, and five QA entries."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/stratum/intelligentsia.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: the intelligentsia, from the Wikipedia article. The note keeps the two national formations apart because the difference is the concept: the Polish inteligencja coined by Trentowski in the 1840s and given its programme by Libelt in 1844, and the Russian intelligentsiya as an oppositional order — Berlin's 'dedicated order, almost a secular priesthood' quoted — with the growth from 20,000 professionals in 1860 to 85,000 in 1900, Bulgakov on Peter the Great, the Narodniks and nihilists, the Bolshevik reading of a prosloyka without class character, the 1917 split and the Philosophers' steamers, the Soviet formalisation into scientific-technical and creative intelligentsia (engineering graduates 15,000 to 250,000, 1917-41), the post-Soviet decline, and the derived mass and free-floating intelligentsia. The boundary with the corpus's own Bildungsbuergertum is stated as functional rather than national: office and state service there, critique and the journal here. Lenin's polemic is carried in substance without its obscenity. 28-row decomposition, 24-criterion evaluation, six QA entries."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/deu/region/hamburg.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New city note: Hamburg, sibling to the Luebeck note and in the same compact shape (lead, five sections, references) rather than the socialium Formulation shell. Constitutional history as a chain of settlements: the 1241 alliance with Luebeck as the League's founding moment, the 1266 contract with Henry III allowing a hanse in London, the 1270 Ordeelbook, the 1410 Rezess counted as the first constitution, free imperial city, 1814-15 sovereignty confirmed at Vienna, the semi-democratic 1860 constitution with the Senate elected by adult taxpaying males, entry into the customs union only in 1888, the federal state of 1871, the Greater Hamburg Act of 1937 (Altona, Harburg, Wandsbek), and the state of West Germany in 1949. A section on the Hanseatic republic names the oligarchy plainly and hands the class and the legal order to their own notes. Then the port, the three destructions (1842 fire, 1943 firestorm, 1962 flood), and the modern city. Links the Hanseaten, Grand Burgher, Luebeck, the League, Germany and City."
    }
   ]
  }
