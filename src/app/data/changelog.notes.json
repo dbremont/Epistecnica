@@ -122892,7 +122892,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Property as the institution of ownership, filed beside property-right: what the arrangement settles (use, exclusion, transfer, liability), its history as successive rearrangements (Roman dominium, feudal tenure, absolute ownership in the codes, corporate shareholding, the register), and its canonical instances. Typed as Social Compound — rights, regime, title system and enforcement apparatus — and distinguished from the relation (property-right.md), the attribute sense (the Social Property shelf) and the object (asset.md). 25-row decomposition across components, recognition, object domain, historical forms and four attributes; evaluation on the guide's minimum set, verdict first. References cite the library entries already holding the literature, chronological."
+    "summary": "Note created. Property as the institution of ownership, filed beside property-right: what the arrangement settles (use, exclusion, transfer, liability), its history as successive rearrangements (Roman dominium, feudal tenure, absolute ownership in the codes, corporate shareholding, the register), and its canonical instances. Typed as Social Compound — rights, regime, title system and enforcement apparatus — and distinguished from the relation (property-right.md), the attribute sense (the Social Property shelf) and the object (asset.md). 25-row decomposition across components, recognition, object domain, historical forms and four attributes; evaluation on the guide's minimum set, verdict first. References cite the library entries already holding the literature, chronological.",
+    "commit": "81ac49b1aac615722be83187fcc64719466d0c4c"
    }
   ]
  }
