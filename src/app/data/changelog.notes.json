@@ -122921,7 +122921,8 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Note created. Royal Commission as a public-inquiry actor: appointed by the Crown (in practice the government) under letters patent, an order in council or a statute, with the compulsive powers the instrument confers, dissolved on reporting. Typed as Public Organization, kind Task Group, and stated against Committee (drawn from a parent assembly and preparing its business), Court (adjudicates and binds, where a commission inquires and recommends), standing Regulator and Department; the borrowed character of its powers is carried by the contempt-certification row. 34-row decomposition over the warrant (instrument, terms of reference, appointing authority), membership (commissioner, panel, counsel assisting, secretariat), powers (summons, document production, examination on oath, non-publication, contempt certification), the work (evidence gathering, hearing, research, finding), the products (final and interim reports, recommendation, evidence record), the relations (affected persons, witnesses and public, courts, government response) and the composite forms (royal commission proper, statutory commission of inquiry, standing commission). The government-response row carries where a recommendation actually lands. Wikipedia reference linked."
+    "summary": "Note created. Royal Commission as a public-inquiry actor: appointed by the Crown (in practice the government) under letters patent, an order in council or a statute, with the compulsive powers the instrument confers, dissolved on reporting. Typed as Public Organization, kind Task Group, and stated against Committee (drawn from a parent assembly and preparing its business), Court (adjudicates and binds, where a commission inquires and recommends), standing Regulator and Department; the borrowed character of its powers is carried by the contempt-certification row. 34-row decomposition over the warrant (instrument, terms of reference, appointing authority), membership (commissioner, panel, counsel assisting, secretariat), powers (summons, document production, examination on oath, non-publication, contempt certification), the work (evidence gathering, hearing, research, finding), the products (final and interim reports, recommendation, evidence record), the relations (affected persons, witnesses and public, courts, government response) and the composite forms (royal commission proper, statutory commission of inquiry, standing commission). The government-response row carries where a recommendation actually lands. Wikipedia reference linked.",
+    "commit": "bb566b44c458f27ef7219030152b7155caf7457e"
    }
   ]
  },
@@ -122931,7 +122932,9 @@
    {
     "date": "2026-11-18",
     "kind": "docs",
-    "summary": "Task Group decomposition row now links the Royal Commission note, and the references list carries it as the inquiry form that kind holds: appointed for one matter, dissolved on reporting."
+    "summary": "Task Group decomposition row now links the Royal Commission note, and the references list carries it as the inquiry form that kind holds: appointed for one matter, dissolved on reporting.",
+    "commit": "bb566b44c458f27ef7219030152b7155caf7457e",
+    "before": "439bdcd4be993f4da246ee7d7af8efa5b6167ff3"
    }
   ]
  }
