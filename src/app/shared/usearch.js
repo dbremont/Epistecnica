@@ -257,11 +257,15 @@
         var matches = (p.text || p.tags.length) ? ufilter(p) : [];
         var suggestions = p.partial !== null ? usuggestTags(p.partial) : [];
 
+        /* Every match renders, in its section. The only limit is a single global
+           one, so that a one-letter query cannot render thousands of rows into
+           the dropdown — and the summary below says so when it bites. */
+        var URENDER_MAX = 300;
         var byGroup = {};
         matches.forEach(function (x) {
             var g = x.e.surface;
             if (!byGroup[g]) byGroup[g] = [];
-            if (byGroup[g].length < 6) byGroup[g].push(x.e);
+            byGroup[g].push(x.e);
         });
 
         uflat = [];
@@ -283,22 +287,24 @@
         }
 
         var groupsHtml = [];
+        var truncated = false;
         UGROUPS.forEach(function (g) {
             var list = byGroup[g[0]];
             if (!list || !list.length) return;
             groupsHtml.push('<div class="ugroup-label">' + uesc(g[1]) + '</div>');
-            list.forEach(function (e) {
-                groupsHtml.push(uentryRow(e, p.text));
+            for (var i = 0; i < list.length; i++) {
+                if (shown >= URENDER_MAX) { truncated = true; break; }
+                groupsHtml.push(uentryRow(list[i], p.text));
                 shown++;
-            });
+            }
         });
 
-        if (matches.length > shown) {
+        if (truncated) {
             var label = p.tags.length
                 ? '@' + p.tags.join(' @')
                 : p.text;
             out.push('<div class="usearch-summary">' + matches.length + ' matches for ' +
-                uesc(label) + ' · showing ' + shown + '</div>');
+                uesc(label) + ' · showing the first ' + shown + ' — keep typing to narrow</div>');
         }
 
         out = out.concat(groupsHtml);
