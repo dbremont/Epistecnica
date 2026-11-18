@@ -36,5 +36,5 @@ The data from the thorium campaign are deposited in the **Separation Archive for
 - https://doi.org/10.1021/acssuschemeng.4c06166
 - [PubMed 39545104](https://pubmed.ncbi.nlm.nih.gov/39545104/) · [PMC11558677](https://pmc.ncbi.nlm.nih.gov/articles/PMC11558677/)
 - [SAFE — Separation Archive for f-elements](https://safe.lanl.gov)
-- [Separation Science and Technology](/view.html?p=notes/technica/general/cto/es/multinode/separation-science-and-technology.md) — the technical domain this paper works inside
-- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/general/cto/industry/rare-earth-elements.md) — the material the separation serves
+- [Separation Science and Technology](/view.html?p=notes/technica/cto/es/multinode/separation-science-and-technology.md) — the technical domain this paper works inside
+- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/cto/industry/rare-earth-elements.md) — the material the separation serves

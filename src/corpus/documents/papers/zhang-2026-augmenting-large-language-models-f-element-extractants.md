@@ -35,7 +35,7 @@ The work is also a statement about where the discovery bottleneck has moved. The
 
 - https://doi.org/10.1021/jacs.5c19738
 - [PubMed 41605809](https://pubmed.ncbi.nlm.nih.gov/41605809/)
-- [Separation Science and Technology](/view.html?p=notes/technica/general/cto/es/multinode/separation-science-and-technology.md) — the technical domain this paper works inside
+- [Separation Science and Technology](/view.html?p=notes/technica/cto/es/multinode/separation-science-and-technology.md) — the technical domain this paper works inside
 - [Liu et al. (2022) — distribution-coefficient prediction](/view.html?p=documents/papers/liu-2022-advancing-rare-earth-separation-machine-learning.md)
 - [Augustine et al. (2026) — adaptive experimental design for the same metals](/view.html?p=documents/papers/augustine-2026-coupling-dft-automated-experimentation-rare-earth.md)
-- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/general/cto/industry/rare-earth-elements.md)
+- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/cto/industry/rare-earth-elements.md)

@@ -144,7 +144,7 @@ QA:
 
 - [Java](/view.html?p=notes/technica/computation/language-system/java.md)
 - [**AspectJ**](/view.html?p=notes/technica/computation/language-system/aspectj.md)
-- [Apache Maven](/view.html?p=notes/technica/general/pto/maven.md)
+- [Apache Maven](/view.html?p=notes/technica/pto/maven.md)
 - https://github.com/akullpp/awesome-java
 - https://docs.oracle.com/javase/8/docs/technotes/guides/jar/index.html
 - https://en.wikipedia.org/wiki/JAR_(file_format)

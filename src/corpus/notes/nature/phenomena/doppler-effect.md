@@ -71,5 +71,5 @@ At small redshift the two are numerically indistinguishable, which is why the co
 - [Doppler effect](https://en.wikipedia.org/wiki/Doppler_effect)
 - [Phenomena](/view.html?p=notes/nature/phenomena/phenomena.md) — the shelf, and the family this belongs to
 - [Frequency (Periodicity)](/view.html?p=notes/nature/frequency-periodicity.md) · [Pitch](/view.html?p=notes/nature/pitch.md) · [Wave](/view.html?p=notes/nature/wave/wave.md) · [Universe](/view.html?p=notes/nature/universe.md)
-- [Radar](/view.html?p=notes/technica/general/cto/industry/radar.md) — the echo instrument that turns the effect into a measurement of range and speed
-- [Laser Doppler Vibrometer](/view.html?p=notes/technica/general/cto/industry/laser-doppler-vibrometer.md) — the interferometric one, where the effect measures a surface's vibration with the shift doubled by the return path
+- [Radar](/view.html?p=notes/technica/cto/industry/radar.md) — the echo instrument that turns the effect into a measurement of range and speed
+- [Laser Doppler Vibrometer](/view.html?p=notes/technica/cto/industry/laser-doppler-vibrometer.md) — the interferometric one, where the effect measures a surface's vibration with the shift doubled by the return path

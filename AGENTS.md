@@ -272,7 +272,7 @@ frontend-facing surface in the deployment; there is no database behind it
   The `virtual` kind carries the `Production Virtual Technical Object`
   producers (CAD, CAM, CAE, CFD, EDA, BIM, digital twin, PLM, simulation,
   technical documentation, rendering, IDE), each linked to the technica note
-  that decomposes it. Moved off `technica/general/cto/industry/`, where it had
+  that decomposes it. Moved off `technica/cto/industry/`, where it had
   been a producer list without a shelf home.
 
 ## On Technical Notes
@@ -289,7 +289,7 @@ frontend-facing surface in the deployment; there is no database behind it
   `nature/body/structure.md`, the discrete body whose parts are
   held by a load path — never as a second technica root.
 
-Multinode notes (`src/corpus/notes/technica/general/cto/es/multinode/`, e.g. `openapi.md`,
+Multinode notes (`src/corpus/notes/technica/cto/es/multinode/`, e.g. `openapi.md`,
 `wildfly.md`, `jobrunr.md`) document one technical
 instance with the shell from the canonical technica guide
 (`https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md`)
@@ -678,7 +678,7 @@ Verification (no test suite exists; `make check` covers the first):
   and `curl -s -X POST -d '{"builders":["notes"]}' :8010/api/index/build`
   (`202` started, `409` busy, `400` unknown builder)
 - Legacy graphs: `curl -sI :8000/epistemica/` and `:8000/tecnica/` → `302` → `/corpus/notes/epistemica/ees.html`
-- Notes: `curl -s :8000/corpus/notes` (catalog), `/view.html?p=notes/technica/general/pto/zsh.md` (viewer), `/corpus/notes/technica/general/cto/lib/concurrent-map.html` (live note, served as-is), `/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
+- Notes: `curl -s :8000/corpus/notes` (catalog), `/view.html?p=notes/technica/pto/zsh.md` (viewer), `/corpus/notes/technica/cto/lib/concurrent-map.html` (live note, served as-is), `/data/notes-index.json` (generated — run `make notes-index` after any corpus edit; naming conventions + notes-vs-live-notes + tags in `src/corpus/README-notes.md`)
 - EES atlas: `curl -s :8000/corpus/notes/epistemica/ees.html` (the multi-view atlas) and `/corpus/notes/epistemica/ees.json` (the canonical tree store it renders)
 - Courses: `curl -s :8000/corpus/courses` (catalog), `/view.html?p=courses/version-control-basics` (course view: entry + lectures), `/view.html?p=courses/version-control-basics/01-why-version-control.md` (lecture), `/data/courses-index.json` (generated — run `make course-index` after any corpus edit; course-dir/readme + lectures + tags in `src/corpus/README-courses.md`; bulk import via `bin/course_import.py <notion-export-dir>`), `/data/changelog.courses.json` (per-file history)
 - Documents: `curl -s :8000/corpus/documents` (catalog), `/view.html?p=documents/books/bertsekas-2008-introduction-probability-athena-scientific.md` (viewer), `/data/documents-index.json` (generated — run `make document-index` after any corpus edit; sections + tags in `src/corpus/README-documents.md`; bulk import via `bin/document_import.py <notion-export-dir>`), `/data/changelog.documents.json` (per-file history)

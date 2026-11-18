@@ -18,7 +18,7 @@ Useful terms:
 
 ## Problem Specification
 
-> What problem does commerce solve? In short — commerce solves at its core a [Supply–Demand Matching Problem](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md), worked here through its retail instance.
+> What problem does commerce solve? In short — commerce solves at its core a [Supply–Demand Matching Problem](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md), worked here through its retail instance.
 
 > **Note:** Matching supply and demand is the core problem, but it gives rise to a set of related problems that must also be addressed.
 
@@ -187,10 +187,10 @@ Useful terms:
 | ↳ | Price discovery | The process by which buyer and seller offers converge on a transactable price; see [Market](/view.html?p=notes/social/coordinator/market/market.md). |
 | ↳ | Demand forecasting | Projecting future quantities from history, signals, and models. |
 | ↳ | Product information | Descriptions, specifications, and provenance attached to goods so buyers can choose without inspecting. |
-| ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md). |
+| ↳ | Advertising | Paid demand activation through media and placements; see [Marketing Technical Practice](/view.html?p=notes/technica/cto/es/multinode/marketing-technical-practice.md). |
 | ↳ | Reputation systems | Aggregated ratings and reviews that substitute for direct inspection of an unfamiliar seller. |
 | ↳ | Market research | Structured inquiry into preferences, segments, and competitors. |
-| **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md). |
+| **Logistics** | Transportation | Physical movement of goods between facilities and to demand; see [Logistics System](/view.html?p=notes/technica/cto/industry/logistics-system.md). |
 | ↳ | Warehousing | Receiving, storing, preserving, and retrieving goods before they reach demand. |
 | ↳ | Cold chain | Temperature-controlled handling that keeps perishables within required conditions; the perishable instance is worked in [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md). |
 | ↳ | Fulfillment | Picking, packing, and preparing customer orders for delivery or pickup. |
@@ -206,7 +206,7 @@ Useful terms:
 | ↳ | Dispute resolution | Structured processes — mediation, arbitration, courts — for settling claims between parties. |
 | ↳ | Intellectual property | Exclusive rights to marks, designs, and inventions that make brands and products defensible. |
 | ↳ | Regulatory compliance | The ongoing work of meeting the rules that gate an activity: food safety, labeling, weights and measures. |
-| **Technology** | Marketplaces | Platforms that host many sellers and buyers and intermediate their transactions; see [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md). |
+| **Technology** | Marketplaces | Platforms that host many sellers and buyers and intermediate their transactions; see [Retail Supply–Demand Matching](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md). |
 | ↳ | ERP | Integrated planning and record systems that run procurement, inventory, and finance as one ledger. |
 | ↳ | POS | The point where a purchase is confirmed and payment collected, physical or digital. |
 | ↳ | Supply-chain systems | Shared planning, ordering, and visibility systems across independent actors. |
@@ -767,11 +767,11 @@ $$
 
 | **Value Creation Mechanism** | **Description** |
 | --- | --- |
-| **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
+| **Search-cost reduction** | Matching buyers with sellers they would not otherwise find. Every avoided search is value: the match in [Retail Supply–Demand Matching](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md) exists only because direct search was costlier than the intermediary. |
 | **Assortment and curation** | Choosing which products to offer so the shopper faces a tractable choice, not an ocean of SKUs. Curation compresses the consumer's decision cost; see [Product](/view.html?p=notes/social/good/product.md). |
 | **Aggregation of fragmented supply** | Combining many small supply items into a sellable quantity, making producers too small to reach the consumer directly reachable at all. |
 | **Transformation and repackaging** | Grading, packing, cutting, assembling: changing the good so it fits a use it did not fit before. |
-| **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
+| **Time-and-place convenience** | Holding goods where and when demand arrives. Availability is the product; see [Logistics System](/view.html?p=notes/technica/cto/industry/logistics-system.md). Decay makes this mechanism time-bounded, as the perishable industry shows. |
 | **Price formation and inventory risk-bearing** | Offering a firm price and immediate availability while absorbing demand and price uncertainty: the intermediary buys the consumer time and certainty, and the inventory position is the cost of that service. |
 | **Financing and credit enablement** | Decoupling payment from consumption — trade credit, installments, buy-now-pay-later — so purchases constrained by timing, not by means, can happen. |
 | **Verification and trust** | Inspection, certification, guarantees, and reputation: removing the risk discount the buyer would otherwise apply to an unfamiliar seller or product. |
@@ -1493,9 +1493,9 @@ $$
 - [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md)
 - [Production Function](/view.html?p=notes/epistemica/singular/production-function.md)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md)
-- [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)
-- [Logistics System](/view.html?p=notes/technica/general/cto/industry/logistics-system.md)
-- [Marketing Technical Practice](/view.html?p=notes/technica/general/cto/es/multinode/marketing-technical-practice.md)
+- [Retail Supply–Demand Matching](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md)
+- [Logistics System](/view.html?p=notes/technica/cto/industry/logistics-system.md)
+- [Marketing Technical Practice](/view.html?p=notes/technica/cto/es/multinode/marketing-technical-practice.md)
 - [Costco Wholesale Corporation](/view.html?p=notes/social/collective/actor/private/firm/costco-wholesale-corporation.md)
 - [Amazon.com, Inc.](/view.html?p=notes/social/collective/actor/private/firm/amazon-com-inc.md)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

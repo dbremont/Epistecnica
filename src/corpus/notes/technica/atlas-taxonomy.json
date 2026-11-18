@@ -29,7 +29,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/energy-technology.md",
+  "note": "technica/cto/industry/energy-technology.md",
   "atlas": "Technical Element → Production Technical System → Dam System → Production Technical Object → Production Facility → Three Gorges Dam",
   "desc": "Hydroelectric generating dam in the Yangtze basin: concrete barrier, spillway, ship lift and a turbine hall of 32 units. Typed `Production Technical Object` inside `Generation System`; the corpus decomposition gives the dam body and turbine hall, not its economics — that is the good taxonomy's job."
  },
@@ -48,7 +48,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8507.60",
-  "note": "technica/general/cto/industry/stationary-energy-storage.md",
+  "note": "technica/cto/industry/stationary-energy-storage.md",
   "atlas": "Technical Element → Production Technical System → Stationary Energy Storage → Constitutive Technical Object → Battery Bank",
   "desc": "The electrochemical store at the heart of a stationary installation: cell stacks, modules and racks whose operative structure is the reversible reaction. Constitutive of the installed system, traded as lithium-ion accumulators."
  },
@@ -82,7 +82,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "7208.10",
-  "note": "technica/general/cto/industry/steel.md",
+  "note": "technica/cto/industry/steel.md",
   "atlas": "Technical Element → Technical Resource → Technical Material → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Steel",
   "desc": "The iron-carbon alloy family, classified by composition, microstructure, treatment and use — A36 and 1018 for construction, 4140 low-alloy, 304 stainless, DP600 auto sheet, M2 and D2 tool steel. A stuff-kind: it constitutes structures, machines and tools."
  },
@@ -94,7 +94,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "2805.30",
-  "note": "technica/general/cto/industry/rare-earth-elements.md",
+  "note": "technica/cto/industry/rare-earth-elements.md",
   "atlas": "Technical Element → Constitutive Technical Object → Rare Earth Elements",
   "desc": "The lanthanide family separated from monazite and bastnäsite and embedded as NdFeB magnets, phosphors and catalysts. A raw-material object whose value is almost entirely downstream."
  },
@@ -113,7 +113,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "2523.29",
-  "note": "technica/general/cto/industry/material-technology.md",
+  "note": "technica/cto/industry/material-technology.md",
   "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Portland Cement",
   "desc": "Calcium-silicate clinker ground with gypsum — the binder that, with aggregate and water, constitutes concrete. The classic intermediate object: never used as such, always consumed into something else."
  },
@@ -125,7 +125,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "7005.10",
-  "note": "technica/general/cto/industry/nonmetallic-production.md",
+  "note": "technica/cto/industry/nonmetallic-production.md",
   "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Float Glass",
   "desc": "Glass cast on a molten-tin bath into a flat, fire-polished sheet — the substrate of windows, displays and solar modules."
  },
@@ -144,7 +144,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "3818.00",
-  "note": "technica/general/cto/industry/semiconductor-technology.md",
+  "note": "technica/cto/industry/semiconductor-technology.md",
   "atlas": "Technical Element → Technical Resource → Technical Abiogenic Material Set → Constitutive Technical Object → Silicon Wafer",
   "desc": "A sliced, lapped and polished single-crystal silicon disc — the substrate every integrated circuit is built on. Untyped by function, typed by purity."
  },
@@ -156,7 +156,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "3818.00",
-  "note": "technica/general/cto/industry/semiconductor-technology.md",
+  "note": "technica/cto/industry/semiconductor-technology.md",
   "atlas": "Technical Element → Technical Element Set → Material Technology Set → Constitutive Technical Object → SiC Wafer",
   "desc": "Silicon-carbide substrate for power and RF devices: a wide-bandgap material that survives electric fields silicon cannot."
  },
@@ -175,7 +175,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "3818.00",
-  "note": "technica/general/cto/industry/gallium-nitride.md",
+  "note": "technica/cto/industry/gallium-nitride.md",
   "atlas": "Technical Element → Constitutive Technical Object → Gallium Nitride",
   "desc": "A III–V wide-bandgap compound: the gain medium of blue LEDs and the channel of fast, high-voltage power transistors. Its materiality is the product."
  },
@@ -194,7 +194,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "3901.10",
-  "note": "technica/general/cto/industry/plastics-production.md",
+  "note": "technica/cto/industry/plastics-production.md",
   "atlas": "Technical Element → Technical Resource → Technical Material → Constitutive Technical Object → Petroleum Polymer",
   "desc": "Polymer resin grades — PE, PP, PS, PVC, PET — sold as pellets and melt-formed into parts. The material of choice wherever a part must be cheap and shaped in one shot."
  },
@@ -206,7 +206,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "3907.61",
-  "note": "technica/general/cto/industry/plastics-production.md",
+  "note": "technica/cto/industry/plastics-production.md",
   "atlas": "Technical Element → Technical Resource → Technical Biogenic Material Set → Constitutive Technical Object → Bioplastic",
   "desc": "Fermented or crop-derived polymer resin — PLA, PHA — with the same forming behaviour as a petroleum polymer and a different end-of-life story."
  },
@@ -225,7 +225,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "4407.11",
-  "note": "technica/general/cto/industry/technical-biogenic-material.md",
+  "note": "technica/cto/industry/technical-biogenic-material.md",
   "atlas": "Technical Element → Technical Resource → Technical Biogenic Material Set → Constitutive Technical Object → Lumber",
   "desc": "Sawn and graded timber — the structural material of frame construction and the raw stock of furniture and formwork."
  },
@@ -259,7 +259,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8501.52",
-  "note": "technica/general/cto/industry/appliance-production.md",
+  "note": "technica/cto/industry/appliance-production.md",
   "atlas": "Technical Element → Production Technical System → Appliance Production → Production Technical Object → Motor Shop",
   "desc": "The electric-motor line of an appliance plant: stator winding, rotor stacking, magnet insertion and test — the drive package the finished appliance is built around."
  },
@@ -278,7 +278,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8483.40",
-  "note": "technica/general/cto/industry/mechanical-system.md",
+  "note": "technica/cto/industry/mechanical-system.md",
   "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Gear Train",
   "desc": "A meshed set of toothed wheels fixing the ratio between input and output shaft — the canonical machine element from the corpus's `Mechanical System` decomposition."
  },
@@ -290,7 +290,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8482.10",
-  "note": "technica/general/cto/industry/mechanical-system.md",
+  "note": "technica/cto/industry/mechanical-system.md",
   "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Bearing Set",
   "desc": "Rolling or plain bearing elements that constrain a rotating shaft while carrying its load — the element that decides a machine's life."
  },
@@ -317,7 +317,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8458.19",
-  "note": "technica/general/cto/industry/machine-tool-production.md",
+  "note": "technica/cto/industry/machine-tool-production.md",
   "atlas": "Technical Element → Production Technical System → Machine Tool Production → Production Technical Object → Lathe Bed",
   "desc": "The cast bed that carries the headstock, saddle and tailstock of a lathe — the object that fixes the straightness of everything machined on it."
  },
@@ -329,7 +329,7 @@
   "guide": "Production Technical System",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8457.10",
-  "note": "technica/general/cto/industry/cnc-machining.md",
+  "note": "technica/cto/industry/cnc-machining.md",
   "desc": "A numerically controlled machine tool with its fixture, tool magazine and post-processor: the object whose output is a tolerance rather than a shape."
  },
  {
@@ -355,7 +355,7 @@
   "guide": "Production Facility",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "7308.90",
-  "note": "technica/general/cto/industry/industrial-machinery.md",
+  "note": "technica/cto/industry/industrial-machinery.md",
   "desc": "The long-span, crane-served hall in which machine tools and lines are installed — structure, foundation block and power drop treated as one object."
  },
  {
@@ -388,7 +388,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Consumer, Intermediate",
   "hs": "8467.21",
-  "note": "technica/general/cto/industry/hand-power-tool-production.md",
+  "note": "technica/cto/industry/hand-power-tool-production.md",
   "desc": "The manufactured class of corded and cordless tools — drill, grinder, saw — assembled on a shared motor-and-switch platform."
  },
  {
@@ -414,7 +414,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9031.49",
-  "note": "technica/general/cto/industry/metrology-services.md",
+  "note": "technica/cto/industry/metrology-services.md",
   "atlas": "Technical Element → Technical Element Set → Metrology Services Set → Production Technical Object → Coordinate Measuring Machine",
   "desc": "A granite-and-air-bearing bridge that touches a part at sampled points and reports coordinates — the instrument that arbitrates whether the machine that made it was right."
  },
@@ -433,7 +433,7 @@
   "guide": "Constitutive Technical Object, readable as Technical Element of a measurement chain",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9027.89",
-  "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+  "note": "technica/cto/industry/biotech-production-ecosystem.md",
   "atlas": "Technical Element → Technical Element Set → Biotechnology → Production Technical System → Upstream → Constitutive Technical Object → Sensor",
   "desc": "pH, dissolved-oxygen, CO₂ and temperature probes in a production line: constitutive of the control loop, and the element whose drift silently invalidates a batch."
  },
@@ -522,7 +522,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Consumer, Final",
   "hs": "9406.00",
-  "note": "technica/general/op/house/house-system.md",
+  "note": "technica/op/house/house-system.md",
   "desc": "The dwelling as a technical object: envelope, structure, services and interior environment — an assembly whose operative behaviour is shelter, not transformation."
  },
  {
@@ -548,7 +548,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8426.20",
-  "note": "technica/general/cto/industry/construction-technology.md",
+  "note": "technica/cto/industry/construction-technology.md",
   "atlas": "Technical Element → Technical Element Set → Construction Technology Set → Production Technical Object → Tower Crane",
   "desc": "A vertical mast with a rotating jib that raises materials through a building's height — a producer in the narrow sense that it relocates matter, and a support in the guide's sense that it transforms nothing itself."
  },
@@ -582,7 +582,7 @@
   "guide": "Production Technical System",
   "good": "Private, Durable, Consumer, Final",
   "hs": "8703.23",
-  "note": "technica/general/cto/industry/automobile-system.md",
+  "note": "technica/cto/industry/automobile-system.md",
   "atlas": "Technical Element → Production Technical System → Automobile System",
   "desc": "A road vehicle as a production technical system: body, powertrain, chassis, electrical architecture and the assembly line that constitutes it."
  },
@@ -601,7 +601,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Final",
   "hs": "8901.90",
-  "note": "technica/general/cto/industry/naval-shipbuilding.md",
+  "note": "technica/cto/industry/naval-shipbuilding.md",
   "atlas": "Technical Element → Production Technical System → Naval Shipbuilding → Constitutive Technical Object → Hull Structure",
   "desc": "The welded steel shell, decks and bulkheads of a vessel — the object whose fabrication is the shipyard's whole craft."
  },
@@ -620,7 +620,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8806.10",
-  "note": "technica/general/cto/industry/unmanned-aerial-vehicle.md",
+  "note": "technica/cto/industry/unmanned-aerial-vehicle.md",
   "atlas": "Technical Element → Production Technical System → Unmanned Aerial Vehicle",
   "desc": "An airframe with flight controller, propulsion and payload whose production work is surveying, spraying or inspection rather than carriage."
  },
@@ -647,7 +647,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8428.33",
-  "note": "technica/general/cto/industry/industrial-machinery.md",
+  "note": "technica/cto/industry/industrial-machinery.md",
   "atlas": "Technical Element → Production Technical System → Industrial Machinery → Production Technical Object → Conveyor Line",
   "desc": "A belt or roller track linking stations of a line. Inside a bottling plant it transforms nothing and produces nothing — the guide's textbook demotion from producer to `Production Equipment` support."
  },
@@ -681,7 +681,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8419.89",
-  "note": "technica/general/cto/industry/chemical-basics.md",
+  "note": "technica/cto/industry/chemical-basics.md",
   "atlas": "Technical Element → Production Technical System → Basic Chemicals Production → Production Technical Object → Reactor Train",
   "desc": "A cascade of reactors and heat exchangers carrying a reaction to conversion — the train, not the vessel, is the producing object."
  },
@@ -693,7 +693,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8479.82",
-  "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+  "note": "technica/cto/industry/biotech-production-ecosystem.md",
   "desc": "A stirred, sparged, jacketed vessel in which cells grow: agitator, sparger and the probes that hold pH and dissolved oxygen. Stainless or single-use, the object is the same."
  },
  {
@@ -711,7 +711,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8419.40",
-  "note": "technica/general/cto/industry/chemical-basics.md",
+  "note": "technica/cto/industry/chemical-basics.md",
   "atlas": "Technical Element → Production Technical System → Basic Chemicals Production → Production Technical Object → Distillation Column",
   "desc": "A vertical shell of trays or packing in which rising vapour and falling liquid exchange and split by volatility."
  },
@@ -738,7 +738,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8481.80",
-  "note": "technica/general/cto/industry/mechanical-system.md",
+  "note": "technica/cto/industry/mechanical-system.md",
   "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Valve Assembly",
   "desc": "Body, trim, stem and actuator forming one controllable flow restriction — the smallest object of a plant that can be said to decide anything."
  },
@@ -772,7 +772,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8541.21",
-  "note": "technica/general/cto/industry/transistor.md",
+  "note": "technica/cto/industry/transistor.md",
   "atlas": "Technical Element → Constitutive Technical Object → Transistor",
   "desc": "A three-terminal switch and amplifier — the element every digital object is composed of, and the corpus's canonical case of a constitutive object."
  },
@@ -784,7 +784,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8541.29",
-  "note": "technica/general/cto/industry/semiconductor-technology.md",
+  "note": "technica/cto/industry/semiconductor-technology.md",
   "atlas": "Technical Element → Constitutive Technical Object → Transistor → Constitutive Technical Object → IGBT Module",
   "desc": "Insulated-gate bipolar switches packaged with their diode and driver — the device that lets an inverter move kilowatts."
  },
@@ -803,7 +803,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8534.00",
-  "note": "technica/general/cto/industry/electronic-circuit.md",
+  "note": "technica/cto/industry/electronic-circuit.md",
   "atlas": "Technical Element → Production Technical System → House System → Constitutive Technical Object → Electrical Board",
   "desc": "A populated board — passive components, devices and connectors on the interconnect that binds them into a circuit."
  },
@@ -830,7 +830,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8486.20",
-  "note": "technica/general/cto/industry/semiconductor-technology.md",
+  "note": "technica/cto/industry/semiconductor-technology.md",
   "atlas": "Technical Element → Production Technical System → Semiconductor Fabrication → Production Technical Object → Lithography Cell",
   "desc": "Scanner, track and metrology bound into one cell that prints a layer of a wafer — the tool whose resolution sets what a node means."
  },
@@ -857,7 +857,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Consumer, Final",
   "hs": "8517.12",
-  "note": "technica/general/cto/industry/semiconductor-technology.md",
+  "note": "technica/cto/industry/semiconductor-technology.md",
   "atlas": "Technical Element → Technical Element Set → Electronics Technology Set → Production Technical Object → Smartphone",
   "desc": "Radio, application processor, display and battery in a sealed case — the technical object that the goods taxonomy also lists as a consumer product, which is exactly the overlap the two catalogues exist to show."
  },
@@ -869,7 +869,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Consumer, Final",
   "hs": "8517.62",
-  "note": "technica/general/cto/industry/software-technology.md",
+  "note": "technica/cto/industry/software-technology.md",
   "atlas": "Technical Element → Technical Element Set → Electronics Technology Set → Production Technical Object → Wi-Fi Router",
   "desc": "An embedded switch, radio and forwarding engine — a technical object whose behaviour is almost entirely its firmware."
  },
@@ -895,7 +895,7 @@
   "parent": "cls-runtime-software",
   "guide": "Production Virtual Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
-  "note": "technica/general/cto/es/multinode/jobrunr.md",
+  "note": "technica/cto/es/multinode/jobrunr.md",
   "atlas": "Technical Element → Constitutive Technical Object → JobRunr",
   "desc": "A JVM background-job scheduler distributed as a library: dashboards, queues, a recurring-job store. The corpus's clearest virtual technical object — no mass, one behaviour."
  },
@@ -906,7 +906,7 @@
   "parent": "cls-runtime-software",
   "guide": "Production Virtual Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
-  "note": "technica/general/cto/es/multinode/wildfly.md",
+  "note": "technica/cto/es/multinode/wildfly.md",
   "desc": "A Jakarta EE application server: an object assembled from a core, extension modules, a deployment repository and an Undertow listener."
  },
  {
@@ -957,7 +957,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8433.51",
-  "note": "technica/general/cto/industry/agriculture-system.md",
+  "note": "technica/cto/industry/agriculture-system.md",
   "atlas": "Technical Element → Technical Element Set → Plant Cultivation Technical Domain Set → Technical Element Set → Field Operations And Mechanization Set → Production Technical Object → Combine Harvester",
   "desc": "A self-propelled machine that cuts, threshes and winnows grain in one pass — three classical operations fused into a single producing object."
  },
@@ -976,7 +976,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8419.89",
-  "note": "technica/general/cto/industry/dairy-production.md",
+  "note": "technica/cto/industry/dairy-production.md",
   "atlas": "Technical Element → Production Technical System → Dairy Production → Production Technical Object → Pasteurization Line",
   "desc": "Heat exchanger, holding tube, cooler and valves that take raw milk through a time–temperature kill step."
  },
@@ -988,7 +988,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8422.30",
-  "note": "technica/general/cto/industry/beverage-production.md",
+  "note": "technica/cto/industry/beverage-production.md",
   "desc": "Washer, filler, capper and labeller synchronized by accumulation conveyors — the line as one producing object, every conveyor in it a support."
  },
  {
@@ -1014,7 +1014,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9406.00",
-  "note": "technica/general/cto/industry/livestock-farming-system.md",
+  "note": "technica/cto/industry/livestock-farming-system.md",
   "atlas": "Technical Element → Technical Element Set → Animal Husbandry Technical Set → Production Technical Object → Barn And Housing Structure",
   "desc": "The shed, ventilation and restraint system that shelters a herd — a facility whose environment is the production variable."
  },
@@ -1033,7 +1033,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9406.90",
-  "note": "technica/general/cto/industry/agriculture-system.md",
+  "note": "technica/cto/industry/agriculture-system.md",
   "desc": "A glazed or film-clad envelope with heating, venting and fertigation — a building whose whole point is to be a controlled environment."
  },
  {
@@ -1066,7 +1066,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9027.80",
-  "note": "technica/general/cto/industry/biotech-production-ecosystem.md",
+  "note": "technica/cto/industry/biotech-production-ecosystem.md",
   "atlas": "Technical Element → Technical Element Set → Plant Health Technical Set → Technical Element Set → Diagnostic And Detection Set → Constitutive Technical Object → Sequencing Instrument",
   "desc": "A fluidic, optical and computational object that reads a DNA strand base by base — a producer whose delivered good is information."
  },
@@ -1078,7 +1078,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9012.10",
-  "note": "technica/general/cto/industry/laboratory-tooling.md",
+  "note": "technica/cto/industry/laboratory-tooling.md",
   "atlas": "Technical Element → Technical Element Set → Laboratory Tooling Set → Production Technical Object → Electron Microscope",
   "desc": "Column, lenses, specimen stage and detectors forming one instrument that turns an electron beam into an image of a surface."
  },
@@ -1105,7 +1105,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Final",
   "hs": "9021.29",
-  "note": "technica/general/cto/industry/laboratory-tooling.md",
+  "note": "technica/cto/industry/laboratory-tooling.md",
   "atlas": "Technical Element → Technical Element Set → Material Technology Set → Constitutive Technical Object → Titanium Implant",
   "desc": "A machined titanium body — screw, plate, joint — whose constitutive material is chosen for biocompatibility as much as strength."
  },
@@ -1132,7 +1132,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8419.89",
-  "note": "technica/general/cto/industry/laboratory-tooling.md",
+  "note": "technica/cto/industry/laboratory-tooling.md",
   "atlas": "Technical Element → Technical Element Set → Plant Health Technical Set → Technical Element Set → Diagnostic And Detection Set → Constitutive Technical Object → Thermocycler",
   "desc": "A heated block and lid that drive a PCR reaction through cycles of temperature — the instrument that made molecular biology a routine."
  },
@@ -1166,7 +1166,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8424.81",
-  "note": "technica/general/cto/industry/agriculture-system.md",
+  "note": "technica/cto/industry/agriculture-system.md",
   "atlas": "Technical Element → Technical Element Set → Plant Cultivation Technical Domain Set → Technical Element Set → Water And Irrigation Set → Production Technical Object → Drip Irrigation Assembly",
   "desc": "Headworks, filter, mainline and emitters delivering metered water to roots — equipment that conveys rather than transforms."
  },
@@ -1185,7 +1185,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8413.70",
-  "note": "technica/general/cto/industry/chemical-basics.md",
+  "note": "technica/cto/industry/chemical-basics.md",
   "desc": "A casing and impeller (or a reciprocating chamber) that converts shaft work into fluid head. The corpus decomposes it inside every plant it serves; it stands here as its own object."
  },
  {
@@ -1211,7 +1211,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/mining-system.md",
+  "note": "technica/cto/industry/mining-system.md",
   "atlas": "Technical Element → Production Technical System → Mining System → Production Technical Object → Tailings Facility",
   "desc": "A dammed impoundment for mine residue — a work whose retained material is the hazard, and whose failure mode is the design question."
  },
@@ -1245,7 +1245,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9406.90",
-  "note": "technica/general/cto/industry/logistics-system.md",
+  "note": "technica/cto/industry/logistics-system.md",
   "atlas": "Technical Element → Production Technical System → Dairy Production → Production Technical Object → Cold Store",
   "desc": "An insulated envelope with refrigeration plant, evaporators and monitoring — a facility whose stored good is time."
  },
@@ -1257,7 +1257,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "9406.90",
-  "note": "technica/general/cto/industry/logistics-system.md",
+  "note": "technica/cto/industry/logistics-system.md",
   "desc": "Racking, floor, dock and handling equipment forming one storage object — the node where goods stop being in transit."
  },
  {
@@ -1275,7 +1275,7 @@
   "guide": "Production Technical Object",
   "good": "Private, Durable, Capital, Final",
   "hs": "9406.00",
-  "note": "technica/general/cto/industry/tourism-system.md",
+  "note": "technica/cto/industry/tourism-system.md",
   "atlas": "Technical Element → Production Technical System → Tourism System → Production Technical Object → Hotel Property",
   "desc": "Rooms, plant and front-of-house systems as one facility — a technical object whose delivered good is a stay."
  },
@@ -1294,7 +1294,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/dam-system.md",
+  "note": "technica/cto/industry/dam-system.md",
   "atlas": "Technical Element → Production Technical System → Dam System → Production Technical Object → Production Facility → Embankment Dam",
   "desc": "Earth-and-rock barrier sealed by a low-permeability core or membrane."
  },
@@ -1306,7 +1306,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/dam-system.md",
+  "note": "technica/cto/industry/dam-system.md",
   "atlas": "Technical Element → Production Technical System → Dam System → Production Technical Object → Production Facility → Gravity Dam",
   "desc": "Mass-concrete barrier resisting thrust by its own weight."
  },
@@ -1318,7 +1318,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/dam-system.md",
+  "note": "technica/cto/industry/dam-system.md",
   "atlas": "Technical Element → Production Technical System → Dam System → Production Technical Object → Production Facility → Arch Dam",
   "desc": "Curved barrier carrying the thrust into its abutments."
  },
@@ -1330,7 +1330,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/dam-system.md",
+  "note": "technica/cto/industry/dam-system.md",
   "atlas": "Technical Element → Production Technical System → Dam System → Production Technical Object → Production Facility → Buttress Dam",
   "desc": "Slab on a row of piers, economising concrete."
  },
@@ -1349,7 +1349,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Treatment Plant",
   "desc": "Centralized works combining the treatment stages at municipal scale."
  },
@@ -1361,7 +1361,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Septic Tank System",
   "desc": "Buried settling and digestion tank with its drainfield."
  },
@@ -1373,7 +1373,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Aerobic Treatment Unit",
   "desc": "On-site tank that aerates to reach secondary quality."
  },
@@ -1385,7 +1385,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Mound System",
   "desc": "Raised drainfield where the water table or soil depth rule out a conventional field."
  },
@@ -1397,7 +1397,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Sand Filter",
   "desc": "Packed bed polishing effluent before dispersal."
  },
@@ -1409,7 +1409,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/wastewater-treatment.md",
+  "note": "technica/cto/industry/wastewater-treatment.md",
   "atlas": "Technical Element → Production Technical System → Wastewater Treatment System → Production Technical Object → Production Facility → Constructed Wetland",
   "desc": "Planted bed whose biofilm and root zone polish the effluent."
  },
@@ -1421,7 +1421,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/general/cto/es/multinode/plant-cultivation-technical-domain-set.md",
+  "note": "technica/cto/es/multinode/plant-cultivation-technical-domain-set.md",
   "atlas": "Technical Element → Technical Element Set → Plant Cultivation Technical Domain Set → Technical Element Set → Water And Irrigation Set → Production Technical Object → Irrigation Canal",
   "desc": "Open conduit carrying water by gravity from source to field, with its offtakes and gates."
  },
@@ -1433,7 +1433,7 @@
   "guide": "Constitutive Technical Object",
   "good": "Private, Durable, Capital, Intermediate",
   "hs": "8483.50",
-  "note": "technica/general/cto/industry/mechanical-system.md",
+  "note": "technica/cto/industry/mechanical-system.md",
   "atlas": "Technical Element → General Technique → Mechanical System → Constitutive Technical Object → Pulley",
   "desc": "Rope-and-sheave block family: redirects a force and trades distance for effort."
  },
@@ -1467,7 +1467,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "8479.89",
-  "note": "technica/general/cto/industry/waste-management.md",
+  "note": "technica/cto/industry/waste-management.md",
   "atlas": "Technical Element → Production Technical System → Waste Management System → Production Technical Object → Production Facility → Materials Recovery Facility",
   "desc": "Sorting plant separating recyclables by mechanical and optical means."
  },
@@ -1479,7 +1479,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "8479.89",
-  "note": "technica/general/cto/industry/waste-management.md",
+  "note": "technica/cto/industry/waste-management.md",
   "atlas": "Technical Element → Production Technical System → Waste Management System → Production Technical Object → Production Facility → Anaerobic Digester",
   "desc": "Sealed reactor turning organic waste into biogas and digestate."
  },
@@ -1491,7 +1491,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "8479.89",
-  "note": "technica/general/cto/industry/waste-management.md",
+  "note": "technica/cto/industry/waste-management.md",
   "atlas": "Technical Element → Production Technical System → Waste Management System → Production Technical Object → Production Facility → Composting Facility",
   "desc": "Aerated windrow or in-vessel system producing stable organic matter."
  },
@@ -1510,7 +1510,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/general/cto/industry/waste-management.md",
+  "note": "technica/cto/industry/waste-management.md",
   "atlas": "Technical Element → Production Technical System → Waste Management System → Production Technical Object → Production Facility → Sanitary Landfill",
   "desc": "Engineered cell with liner, leachate collection, gas capture and final cover."
  },
@@ -1522,7 +1522,7 @@
   "guide": "Energy Good Producer",
   "good": "Public, Durable, Capital, Final",
   "hs": "8417.80",
-  "note": "technica/general/cto/industry/waste-management.md",
+  "note": "technica/cto/industry/waste-management.md",
   "atlas": "Technical Element → Production Technical System → Waste Management System → Production Technical Object → Production Facility → Waste-to-Energy Plant",
   "desc": "Thermal plant recovering electricity or heat from residual waste."
  },
@@ -1534,7 +1534,7 @@
   "guide": "Energy Good Producer",
   "good": "Public, Durable, Capital, Final",
   "hs": "8502.31",
-  "note": "technica/general/cto/es/multinode/energy-technology.md",
+  "note": "technica/cto/es/multinode/energy-technology.md",
   "atlas": "Technical Element → Technical Element Set → Energy Technology → Production Technical System → Generation System → Production Technical Object → Wind fleet",
   "desc": "Sited turbine array converting wind into grid electricity — the energy domain's representative producer once the dam is filed as a water work."
  }

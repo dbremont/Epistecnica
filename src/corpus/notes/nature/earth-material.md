@@ -73,7 +73,7 @@ body shows them — record per instance, do not assume.
 
 Secondary readings (kept as prose, never merged into the tree above): readable as technique —
 drill-blast-crush-screen, sawing, dewatering, and soil-working methods and their products
-([Technical Abiogenic Material](/view.html?p=notes/technica/general/cto/industry/technical-abiogenic-material.md))
+([Technical Abiogenic Material](/view.html?p=notes/technica/cto/industry/technical-abiogenic-material.md))
 (decompose under the technicarum grammar); readable as production resource — the material as aggregate product
 with grades and firm (decompose under the socialium grammar; if it plays a production role
 it is a Social node tagged `production-view`); readable as epistemic — petrographic

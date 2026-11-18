@@ -29,7 +29,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 > unfolding as `Process / Event`.
 >
 > Readable, secondarily, as technique (the retail matching apparatus,
-> [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md)) and as
+> [Retail Supply–Demand Matching](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md)) and as
 > epistemic (demand estimates, market taxonomies — see
 > Profile Templates). Those readings are
 > cross-links here, not second trees.
@@ -144,7 +144,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) — firm as `Collective / Organization`
 - Profile Templates — production and industry profiling blueprints, incl. firm-space tables
 - [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
-- [Retail Supply–Demand Matching](/view.html?p=notes/technica/general/cto/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
+- [Retail Supply–Demand Matching](/view.html?p=notes/technica/cto/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) — decomposition workflow, type table, social-element note schema
 - Foster, Haltiwanger, & Krizan (2002) — aggregate change through reallocation (as cited in Commerce)
 - Maruyama & Hirogaki (2007) — "The evolution of fresh produce supply chains: From spot markets to contracts" (as cited in Perishable Agricultural Products)

@@ -110,7 +110,7 @@ Two neighbouring kinds must be kept out. A **fat or oil** is a triglyceride — 
 - [Substance](/view.html?p=notes/nature/matter/substance.md) — the stuff-kind the class specializes
 - [Mixture](/view.html?p=notes/nature/matter/mixture.md) — the composition-side reading a commercial wax also answers to
 - [Natural Material](/view.html?p=notes/nature/natural-material.md) — untransformed matter, the cut this note respects
-- [Technical Material](/view.html?p=notes/technica/general/cto/industry/technical-material.md) — the transformed reading the uses section points at
+- [Technical Material](/view.html?p=notes/technica/cto/industry/technical-material.md) — the transformed reading the uses section points at
 - [State of Matter](/view.html?p=notes/nature/matter/state/state-of-matter.md) · [Solid](/view.html?p=notes/nature/matter/state/solid.md) · [Phase](/view.html?p=notes/nature/matter/state/phase.md) — the phase vocabulary the melting range invokes
 - [Lipid](/view.html?p=notes/nature/life/molecular/lipid.md) — the molecular family the biological waxes belong to
 - [Property](/view.html?p=notes/nature/property/property.md) — the attribute type the class is individuated through

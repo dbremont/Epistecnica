@@ -48,7 +48,7 @@ The security notes that live with the objects they secure, rather than here — 
 - [Transport Layer Security (TLS)](/view.html?p=notes/technica/computation/telecom/transport-layer-security-tls.md) — the channel
 - [Certificate Management](/view.html?p=notes/technica/computation/system/operation/certificate-management.md) — the operational life of a certificate
 - [Git Security](/view.html?p=notes/technica/computation/system/operation/git-global-information-tracker/git-security.md) — the supply chain's own history
-- [SSH (Secure Shell)](/view.html?p=notes/technica/general/pto/ssh/ssh-secure-shell.md) — remote access, secured
+- [SSH (Secure Shell)](/view.html?p=notes/technica/pto/ssh/ssh-secure-shell.md) — remote access, secured
 
 ## References
 
