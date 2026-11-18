@@ -95367,6 +95367,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Append the compound note from the foundation source: element composition, basic properties, why GaN matters (efficiency, switching speed, frequency), key applications, the GaN vs Si and SiC comparison, and who buys GaN in what form. Tables and lists verbatim; heading markup normalised."
    }
   ]
  },
@@ -95685,6 +95690,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Append the foundation tables: the uses of the seventeen elements by element and application, the R&D focus areas, the processing R&D stages with their methods and challenges, and why R&D in rare earths is hard. Same Produceologia source the note cites; tables verbatim."
    }
   ]
  },
@@ -95817,6 +95827,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Append the characterization table and the 33-row steel taxonomy carried by the Produceologia foundation source the note already cites (docs/Foundation/Steel.md). The note had the technical reading and a five-row decomposition but not the classification material; the tables are carried verbatim, headings normalised."
    }
   ]
  },
@@ -95879,6 +95894,11 @@
     "summary": "Retarget the links into the restructured natural tree: nature/bio/ → nature/life/, ecosystem out to nature/ecosystem/, human under life/organism/human/, physical-object → nature/body/, and the general organism notes up to life/organism/.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0",
     "before": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Global Industrial Material Usage section: the raw-material definition and the annual-production and usage-share table for concrete, cement, steel, aluminum, plastics and composites. It sat in the production foundation readme, where it had no family to belong to."
    }
   ]
  },
@@ -123393,6 +123413,36 @@
     "kind": "feat",
     "summary": "New technical note: the Product Requirements Document, from the Wikipedia article, in the technica shell with the four Formulation questions and a 24-row instance decomposition. Typed Technical Specification as its primary kind, with the argument turning on exclusion: the guide’s Technical Blueprint is a description that prescribes how to create an artifact, and the PRD is the artifact that refuses to prescribe, so its own rule disqualifies the blueprint reading — the note is typed by its prohibition as well as by its content. Readable secondarily as a Technical Element Set (the requirements-document family) and as a blueprint only in the degenerate case where the document has swallowed the design, which the note keeps as the concept’s characteristic failure. Contents: the requirements chain (user or client or marketing → PRD, or MRD when marketing authors it → analysis by the maker → functional specification or technical requirements document); the two regimes the article names (cascading, where the requirements are fixed in their entirety before work, and agile, where they are framed at a high level for prioritisation and elaborated per cycle — a change of granularity, not of existence); the component list as a template for a class rather than a definition, with the article’s own caveat that non-software PRDs drop the software-specific elements and add their own; and the failure modes (user misunderstanding, incomplete or inaccurate information, unclear communication, unrealistic timeframes) against the three problems it is claimed to prevent (architecture mismatch, overlooked dependencies, underestimated complexity). The note records that the article marks its two load-bearing claims — the what-not-how rule and the component list — as uncited, and states them as the article’s formulation rather than as settled doctrine. Evaluation: strong on identification, discriminative power, performative effects and purpose adequacy; weak on definitional clarity, temporal stability and misuse resistance, with the verdict that the concept describes a role in a development regime more reliably than it describes a text. Five QA entries (is it a specification, why it must not say how, against the MRD, against agile, technical element against management artifact).",
     "commit": "c7c68ca56476680ac242459cfd6e6a74c4124689"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/industry/carbon-fiber.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New note in the industry family: carbon fibre as the reinforcement of composites, with the reference the stub carried. The source held nothing beyond title and reference, so the note states the definition and stops."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/geological/petroleum.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New natural note filed with the geological materials: petroleum as the inflammable hydrocarbon liquid extracted from the subsoil, the Spanish term kept as the alternate name, and the four crude-oil benchmark references from the stub."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/firm/firm-ecosystem.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New note on the firm's supporting ecosystem — energy, infrastructure, government interface — carrying the data-market references that sat in the production foundation readme alongside the material tables. The fragment and the references had no other home."
    }
   ]
  }
