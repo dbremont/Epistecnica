@@ -82,6 +82,7 @@ The research capacity behind the technical end of the field is concentrated in a
 | [Empa](/view.html?p=notes/social/collective/actor/private/research/che/empa.md) | Switzerland | High-performance and damage-tolerant ceramics, nanostructured ceramics, thin films, joining and corrosion. |
 | [NASA Glenn Research Center](/view.html?p=notes/social/collective/actor/private/research/usa/nasa-glenn-research-center.md) | United States | Ceramic matrix composites, environmental and thermal barrier coatings, high-temperature aerospace ceramics. |
 | [Lucideon](/view.html?p=notes/social/collective/actor/private/research/gbr/lucideon.md) | United Kingdom | Ceramic testing and analysis, materials development, assurance, failure investigation. |
+| [UFSCar — Center for Research, Technology and Education in Vitreous Materials (CeRTEV)](/view.html?p=notes/social/collective/actor/private/research/bra/center-for-research-technology-and-education-in-vitreous-materials.md) | Brazil | Glass and glass-ceramics, crystallisation and nucleation, bioactive and optical glasses, vitreous-materials physics and education. |
 
 ## References
 

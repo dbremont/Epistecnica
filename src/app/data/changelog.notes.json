@@ -57429,6 +57429,11 @@
     "summary": "New Institutions section between the families and the references: a linked directory of thirteen ceramics research organisations, seven supplied and six added (SICCAS, KICET, Penn State MRI, Empa, NASA Glenn, Lucideon), each row linking its new actor note under social/collective/actor/private/research/<country>/.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634",
     "before": "1bbbbabc063b6478064bc8e9b0c988f6d27cb8aa"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Institutions table gains a fourteenth row for UFSCar's CeRTEV, linked to its new actor note, carrying glass and glass-ceramics into a directory that had been entirely ceramic."
    }
   ]
  },
@@ -123092,6 +123097,16 @@
     "kind": "feat",
     "summary": "Note created. Lucideon as the direct descendant of the British Ceramic Research Association: BRRA 1920 and BPRA 1937 merged as the BCRA in April 1948, became British Ceramic Research Ltd and CERAM in 1986, rebranded Lucideon on 1 February 2014. Focus bullets (testing and analysis, materials development, advanced ceramics, assurance and certification, failure investigation, information services); place in the field stated as the industrial-research model that predates the modern institute, including the 1950s turn to sintered oxides and dielectrics that made a pottery association into a technical-ceramics laboratory.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/research/bra/center-for-research-technology-and-education-in-vitreous-materials.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Note created. CeRTEV as the Brazilian glass centre: a FAPESP Research, Innovation and Dissemination Center hosted by UFSCar, started in 2013, directed by Edgar Dutra Zanotto, with USP and UNESP participating; noted that FAPESP renders the name as the Center for Research, Teaching, and Innovation in Glass while the institute uses the Center for Research, Technology and Education in Vitreous Materials. Focus bullets (physics of the vitreous state and the glass-genome framing, crystallisation and nucleation kinetics, glass-ceramics, bioactive and functional glasses, processing and properties, the Sao Carlos School and education). Place in the field states the CEPID instrument's research-innovation-dissemination mandate and argues the shelf placement: glass is a ceramic in the materials-science sense and glass-ceramics are glasses crystallised on purpose, so the boundary is a processing boundary and the centre works across it."
    }
   ]
  }
