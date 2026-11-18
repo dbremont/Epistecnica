@@ -122852,5 +122852,15 @@
     "before": "8fbba69bdcf9626cec2e955b6452255e70141ee8"
    }
   ]
+ },
+ {
+  "file_path": "social/normative/property-right.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Formulation written. The type is settled as Social Relation — the recognized standing of a holder over an object against the duty-bearers, read as Ontic where it is enforced and Synontic where its content exists through recognition — and the recursive decomposition added: the four incidents (claim right, liberty, power, immunity), the holder kinds, the specified and unspecified duty-bearers that separate property from contract, the object kinds including the virtual object, the title forms from ownership to security interest, the five property regimes, and the four attributes of exclusivity, transferability, divisibility and duration. The heading typo (Formunation) corrected."
+   }
+  ]
  }
 ]

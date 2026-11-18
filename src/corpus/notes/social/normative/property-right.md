@@ -1,12 +1,6 @@
 ---
 tags: [note, unfinished]
----
-# Property Rights
-
-> Note: Property can be understood as a type of boolean function — something is either possessed or not — but its meaning extends far beyond this binary logic, encompassing legal, social, cognitive, and psychological dimensions.
-
-Guiding Questions:
-
+qa:
 - How to compare  property models?
 - How to characterized a property regime?
 - Can property exist outside of social recognition?
@@ -17,71 +11,107 @@ Guiding Questions:
 - What fundamental problems does the concept of property aim to solve?
 - What are the biological, cognitive, and psychological foundations of property?
 - What are the main theories of property (e.g. natural rights, social contract, labor-based, utilitarian, legal-institutional)?
-
-> Digitalize the economy.
-
-- https://www.bbva.ch/en/blog/innovacion/blockchain/hacia-un-mundo-tokenizado-en-2030-el-10-del-pib-mundial-se-movera-en-tokenes.html
-- https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-tokenization
-
-
-## Ownership
-
-> ...
-
-## Organizational Ownership
-
-> Legal Forms of Enterprises.
-
-> Business organizational forms vary widely, each with specific characteristics, legal structures, and implications for ownership, liability, taxation, and governance.
-
-Here's a list of typical **business organizational forms**:
-
-1. **Sole Proprietorship: This type of business is o**wned and operated by a single individual, with no legal distinction between the owner and the business entity.
-2. **Partnership:**
-    - **General Partnership (GP):** A business owned by two or more individuals with shared liability and management responsibilities.
-    - **Limited Partnership (LP):** Includes at least one general partner with unlimited liability and one or more limited partners with liability proportional to their investment.
-    - **Limited Liability Partnership (LLP):** This is similar to an LP but offers some form of liability protection for the general partners.
-3. **Corporation:**
-    - A legal entity separate from its owners, providing limited liability protection and owned by shareholders. It can be:
-        - **C Corporation:** Subject to corporate income tax.
-        - **S Corporation:** This type of corporation allows profits and losses to be passed through to shareholders' tax returns to avoid double taxation, subject to specific IRS rules.
-4. **Limited Liability Company (LLC):** Combines the limited liability protection of a corporation with the tax efficiencies and operational flexibility of a partnership.
-5. **Cooperative (Co-op):** Owned and operated by individuals for their mutual benefit. Members vote on major decisions and may receive dividends based on the cooperative's profitability.
-6. **Nonprofit Organization: This type o**perates for charitable, educational, or other purposes benefiting the public. Profits are not distributed to members or directors but reinvested to further the mission.
-7. **Social Enterprise:** A business model that aims to solve social problems or meet community needs through commercial strategies, often blending nonprofit and for-profit approaches.
-8. **Franchise:** A license obtained by a franchisee from a franchisor to access the proprietary knowledge, processes, and trademarks, allowing the franchisee to sell a product or provide a service under the business's name.
-9. **Family Business:** Owned and operated by multiple family members, often passed down through generations.
-10. **Multinational Corporation (MNC):** A corporate organization that owns or controls the production of goods or services in at least one country other than its home.
-11. **Conglomerate:** A corporation that owns a controlling stake in smaller companies of unrelated industries.
-12. **Joint Venture:** A business entity created by two or more parties, generally characterized by shared ownership, shared returns and risks, and shared governance.
-13. **Public Sector Organization:** Part of the economy comprises public services and public enterprises.
-14. **Informal Business/Unincorporated Business:** These are typically small businesses without formal legal status, often found in the informal sector.
-15. **Sociedad Anónima (S.A.)**: Empresa cuyo capital está dividido en acciones, con accionistas que tienen responsabilidad limitada al capital aportado.
-16. **Sociedad de Responsabilidad Limitada (S.R.L.) o Sociedad Limitada (S.L.)**: Tipo de empresa con socios cuya responsabilidad está limitada al capital aportado, y el capital está dividido en participaciones sociales, no en acciones.
-17. **Empresa Individual de Responsabilidad Limitada (E.I.R.L.)**: Empresa unipersonal donde el propietario tiene limitada su responsabilidad al capital aportado a la empresa.
-18. **Sociedad Comanditaria**: Existente en algunas jurisdicciones, se divide en socios comanditados, con responsabilidad ilimitada, y socios comanditarios, con responsabilidad limitada.
-19. **Sociedad Colectiva**: Empresa formada por dos o más socios que comparten de manera ilimitada las responsabilidades y deudas de la empresa.
-20. **Limited Liability Company (LLC)**: Específica de algunos países como Estados Unidos, combina la responsabilidad limitada de una corporación con las ventajas fiscales y flexibilidad operativa de una sociedad.
-21. **Corporation (Corp.)**: En el ámbito anglosajón, se refiere a una entidad legal separada de sus propietarios, con responsabilidad limitada y la capacidad de emitir acciones.
-
-Each organizational form has specific advantages, disadvantages, regulatory requirements, and tax implications, making a critical decision based on the business's goals, needs, and scale.
-
+- Role (Essense)
+- Technique Reification
 ---
 
-Las formas jurídicas para empresas varían según la legislación de cada país, pero muchas tienen equivalentes o conceptos similares entre distintas jurisdicciones. Aquí te dejo un listado general de algunas de las formas jurídicas más comunes para empresas:
+# Property Right
 
-1.
-2.
-3.
-4. **Sociedad por Acciones Simplificada (S.A.S.)**: Modalidad empresarial que permite crear sociedades por acciones con un proceso simplificado y con responsabilidad limitada.
-5. 
-6. 
-7. **Cooperativa**: Asociación autónoma de personas unidas voluntariamente para satisfacer sus necesidades y aspiraciones económicas, sociales y culturales comunes a través de una empresa de propiedad conjunta y democráticamente controlada.
-8. **Sociedad Civil**: Forma de organización compuesta por personas que acuerdan poner en común recursos o esfuerzos para lograr un objetivo acordado, sin que necesariamente tengan ánimo de lucro.
-9. **Empresa Unipersonal**: Empresa propiedad de una sola persona, donde el propietario tiene responsabilidad ilimitada sobre las deudas y obligaciones de la empresa.
-10. **Partnership o Sociedad de Personas**: En países anglosajones, se refiere a una asociación de personas que gestionan y operan un negocio en común con el objetivo de obtener beneficios.
+> In this note we will explore the idea of property rights.
 
-Cada forma jurídica tiene sus propias características, ventajas y desventajas, y la elección depende de factores como el tamaño del negocio, el número de propietarios o socios, la estructura fiscal deseada y el nivel de responsabilidad legal que los propietarios están dispuestos a asumir.
+## Formulation
+
+### What social element type does this social instance belong to?
+
+**A property right belongs to `Social Relation`** — `Social Element (→ Kind)` `Ontic (→ Kind)` `Social Relation` — the recognized standing of a holder over an object, held against the parties on whom the correlative duty falls. It is a property neither of the holder nor of the thing: the same person, holding the same object, has a different property right under a different regime, and the object is unchanged by the transfer.
+
+Read as **Ontic** where it is enforced: a claim that courts, police and neighbours actually honour. Read as **Synontic** where its content exists through recognition alone: which incidents the bundle contains, who may hold it and what may be owned are settled by a rule-complex, not found in the thing. The two are the same relation seen from its effective and its constituted side, and the note's question whether property can exist outside social recognition is the question of what remains when the second is withdrawn.
+
+It is **not a kind of object** — the object is what the relation ranges over, documented at [Asset](/view.html?p=notes/social/synontic/asset.md), which is why a thing can be an asset under one property right and not under another. It is **not its genus**: [Rights](/view.html?p=notes/social/normative/right.md) is the recognized claim with its duty-bearer, and property is the species whose duty-bearers are unspecified and whose object is held rather than owed. It is **not possession** — factual control, which the law may protect without a right and which a thief has — nor **ownership**, which is the fullest bundle one title among several can carry.
+
+### What is the recursive instance decomposition of this social instance?
+
+> Boundary: property right as the relation itself — the incidents it bundles, the party in whom they sit, the parties they bind, the object they range over, the form they take in law, and the regime that fixes who may hold which bundle.
+>
+> Stopping rule: a row is terminal when it names an incident, a holder kind, a duty-bearer kind, an object kind, a title, a regime or an attribute.
+>
+> Identity: paths begin at `Social Element`, one labelled link per row, type segments backticked, instances Title Case.
+
+| Instance Tree Path | Description |
+| --- | --- |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right | The recognized standing of a holder over an object against the duty-bearers. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Incident | An incident is one of the several relations the bundle is composed of; a property right is not one relation but a set, and which members it contains is the whole of the disagreement between regimes. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Incident `(→ Kind)` Claim Right | The claim that others not interfere — the incident that makes the relation property rather than mere use. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Incident `(→ Kind)` Liberty | The holder's privilege to use, consume, alter, exclude or leave idle, with no duty to use it well. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Incident `(→ Kind)` Power | The capacity to alter the relation itself: sell, lease, mortgage, bequeath, abandon, or grant another a right within it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Incident `(→ Kind)` Immunity | Protection against divestment without the holder's own act — expropriation and taxation work only by a further rule, never by the incidents the bundle already contains. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Holder | The party in whom the incidents sit; the same bundle held by a different kind of party is a different property regime. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Holder `(→ Kind)` Individual Holder | A natural person, holding alone. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Holder `(→ Kind)` Collective Holder | Several parties holding together — joint tenancy, co-ownership, shareholder equity, cooperative membership — with the incidents divided by agreement or by rule. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Holder `(→ Kind)` Public Holder | The state, an agency or a state-owned enterprise, holding in a public capacity rather than as a legal person among others. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Holder `(→ Kind)` Common Holder | A bounded community of users holding jointly under its own rules of access and withdrawal, distinct from both private and public holding. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Duty-Bearer | The party on whom the correlative duty falls; whether it is everyone or someone in particular is what separates property from contract. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Duty-Bearer `(→ Kind)` Unspecified Duty-Bearer | Everyone else: the *in rem* exclusion that makes property a claim against the world, and the reason the relation survives changes in who the neighbours are. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Has)` Duty-Bearer `(→ Kind)` Specified Duty-Bearer | A particular party bound by the relation — tenant, licensee, borrower, covenantor — the *in personam* side every lease and mortgage adds to the *in rem* core. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Association)` Object | What the relation ranges over. Associated, never part: the object is not a constituent of the right, and the right survives the object's replacement. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Association)` Object `(→ Kind)` Material Object | Land, buildings, machines, vehicles, inventory, livestock — the paradigm case, and the one every theory of property was written against. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Association)` Object `(→ Kind)` Intangible Object | Patent, copyright, trademark, trade secret, design: an object whose boundaries are drawn by the rule that creates it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Association)` Object `(→ Kind)` Financial Claim | Share, bond, deposit, derivative: an object that is itself a relation of indebtedness, held as property by being a claim on someone. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Association)` Object `(→ Kind)` Virtual Object | Token, account entry, licence key, in-world asset: an object that exists only as an entry in a system, where the property right and the access rule cannot be separated. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title | The form the bundle takes in law; titles differ in which incidents they carry, not in what they are rights over. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Ownership | The fullest bundle the regime allows one holder: claim, liberty, power and immunity together, subject only to the rules that constitute them. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Possession | Factual control recognized as a title — the root of prescriptive and adverse acquisition, and the state of the holder who has no right but is protected anyway. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Usufruct | Use and enjoyment of another's object, including its fruits, without the power to dispose of it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Leasehold | Time-bounded use on terms, held of another's larger bundle. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Servitude | A partial right over another's object that persists with the object rather than the holder — way, water, light, support. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Title `(→ Kind)` Security Interest | A power of disposition held conditionally, as security for a debt: mortgage, charge, pledge, lien. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime | The rule-complex that fixes which party may hold which incidents over which objects, and how they transfer. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime `(→ Kind)` Private Property | Incidents concentrated in private holders with free transfer, the state guaranteeing the relation rather than holding it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime `(→ Kind)` Public Property | Incidents held by the state or its agencies, with access and disposal fixed by public law rather than by the holder's will. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime `(→ Kind)` Cooperative Property | Incidents held by members as a body, with control democratic and surplus allocated by participation rather than by contributed capital. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime `(→ Kind)` Common Property | Incidents held by a bounded community under rules of access, use and exclusion it makes for itself — not open access, which is the absence of a property relation rather than a form of it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Kind)` Regime `(→ Kind)` Mixed Property | Incidents split across holders of different kinds — public ownership with private concession, state equity beside private equity, municipal land under a long lease. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` | A characteristic attributed to the relation itself — how exclusive, transferable, divisible and durable it is — as distinct from the incidents that compose it. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Exclusivity | How far the holder can keep others out, and at what cost to them: absolute against the world at one end, shared access at the other. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Transferability | Whether and how the incidents can move to another holder — sale, gift, inheritance, or inalienable title held for as long as the holder lives. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Divisibility | How finely the bundle can be split across holders: the reason a single object can carry ownership, lease, mortgage and servitude at once. |
+| `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Duration | Whether the relation runs indefinitely or for a term — and, for terms, what happens to the incidents at the end. |
+
+### Which are the related concepts?
+
+## QA
+
+### What are the different legal forms of firms and their associated property-right structures?
+
+> Legal Organizational Form: Corporation, partnership, LLC, cooperative, statutory corporation, etc.
+> Ownership Structure: Private individual, family, institutional, collective, cooperative, public, mixed, etc.
+> Property-Right Configuration: Asset ownership, control rights, residual income rights, liability, transferability and residual control.
+
+| Legal Tradition | Legal Form | Description | Property-Right Structure |
+|---|---|---|---|
+| Individual / Civil Law | Sole Proprietorship | Business owned and operated by one individual without a separate legal personality. | Individual ownership; direct control; individual appropriation of profits; unlimited personal liability. |
+| Individual / Civil Law | Empresa Unipersonal | Individually owned enterprise, generally without a separate legal personality. | Individual ownership and residual claims; typically unlimited personal liability. |
+| Civil Law | Empresa Individual de Responsabilidad Limitada (E.I.R.L.) | Separate legal entity established by one individual, with liability limited to contributed capital. | Single-owner equity; separate enterprise patrimony; limited liability. |
+| Common Law | General Partnership (GP) | Business jointly owned and operated by two or more partners. | Joint ownership; shared management and residual claims; generally unlimited partner liability. |
+| Common Law | Limited Partnership (LP) | Partnership comprising general partners and limited partners. | General partners hold management authority and unlimited liability; limited partners hold investment claims with limited liability. |
+| Common Law | Limited Liability Partnership (LLP) | Partnership structure providing liability protection to partners, subject to jurisdiction-specific rules. | Partner ownership and participation rights; shared or delegated management; limited liability protection. |
+| Civil Law | Sociedad Colectiva | Partnership in which two or more partners jointly conduct business. | Joint ownership; shared management; generally unlimited and joint liability. |
+| Civil Law | Sociedad en Comandita | Partnership comprising general partners (socios comanditados) and limited partners (socios comanditarios). | General partners exercise management and bear unlimited liability; limited partners contribute capital and have limited liability. |
+| Civil Law | Sociedad Civil | Organization formed by individuals pooling resources or efforts toward a common economic or other purpose. | Contractual ownership and participation rights; property and residual claims determined by the agreement and applicable law. |
+| Civil Law | Sociedad de Responsabilidad Limitada (S.R.L.) / Sociedad Limitada (S.L.) | Limited-liability company whose capital is divided into social participations rather than freely transferable shares. | Ownership through equity participations; limited liability; governance rights generally proportional to ownership, subject to statutory and contractual provisions. |
+| Civil Law | Sociedad Anónima (S.A.) | Corporation whose capital is divided into shares held by shareholders. | Shareholder equity ownership; transferable shares; limited liability; corporate governance separated from ownership. |
+| Civil Law / Hybrid | Sociedad por Acciones Simplificada (S.A.S.) | Simplified corporate form allowing flexible incorporation and governance. | Share-based ownership; limited liability; flexible allocation of governance and shareholder rights. |
+| Common Law | Corporation (Corp.) | Separate legal entity with perpetual succession and the capacity to issue shares. | Shareholder equity; separate corporate asset ownership; limited liability; residual claims through shares. |
+| Common Law | C Corporation | Corporation taxed separately from its shareholders under the US tax system. | Shareholder ownership; corporate legal personality; limited liability; separate corporate taxation. |
+| Common Law | S Corporation | US corporation electing a specific pass-through tax treatment, subject to eligibility restrictions. | Shareholder ownership; limited liability; pass-through taxation; restrictions on shareholders and share classes. |
+| Common Law | Limited Liability Company (LLC) | Flexible legal entity combining limited liability with flexible management and taxation arrangements. | Membership interests; limited liability; flexible allocation of management, economic and distribution rights. |
+| Cooperative Tradition | Cooperative (Co-op) | Enterprise jointly owned and democratically controlled by its members. | Member ownership; democratic control; typically one-member-one-vote; surplus distribution based on participation or patronage. |
+| Civil Law / Cooperative | Sociedad Cooperativa | Legally constituted cooperative enterprise governed by cooperative principles. | Collective member ownership; democratic governance; member participation and surplus allocation according to cooperative rules. |
+| Common Law / Nonprofit | Nonprofit Corporation | Legal entity established for charitable, educational, social or other non-distribution purposes. | No conventional residual equity ownership; assets dedicated to organizational purposes; surplus reinvestment; restrictions on private distributions. |
+| Public Law | Public Enterprise / State-Owned Enterprise (SOE) | Enterprise owned or controlled by the state and engaged in economic activities. | Public ownership; state-appointed governance; residual claims held by the public authority; varying degrees of operational autonomy. |
+| Public Law | Public Corporation / Statutory Corporation | Entity created by legislation with a distinct legal personality and specific public mandate. | Public or statutory ownership; rights and control established by legislation; potentially restricted transferability of assets. |
+| Informal / Unincorporated | Informal Business | Economic enterprise operating without full formal registration or incorporation. | Actual ownership and control determined by individuals or groups; often weakly formalized property claims and contractual protections. |
+| Contractual / Common Law | Joint Venture (JV) | Business arrangement through which two or more parties undertake an economic activity jointly. | Shared equity or contractual participation; jointly allocated control, risks, returns and residual claims. |
 
 ## References
 
@@ -90,3 +120,5 @@ Cada forma jurídica tiene sus propias características, ventajas y desventajas,
 - Chaebol
 - [Business Conglomerate](https://en.wikipedia.org/wiki/Conglomerate_(company))
 - [Property](https://en.wikipedia.org/wiki/Property)
+- https://www.bbva.ch/en/blog/innovacion/blockchain/hacia-un-mundo-tokenizado-en-2030-el-10-del-pib-mundial-se-movera-en-tokenes.html
+- https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-tokenization
