@@ -122880,7 +122880,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "References rebuilt: twenty works on property rights, their history and the legal traditions, in chronological APA, each citing its corpus entry rather than a raw link — Locke (1690), Blackstone (1766), Proudhon (1840), Maine (1861), Hohfeld (1913, 1917), Commons (1924), Berle and Means (1932), Honore (1961), Nicholas (1962), Demsetz (1967), Merryman (1969), Alchian and Demsetz (1973), Watson (1981), Radin (1982), Berman (1983), Ostrom (1990), Rose (1994), Penner (1997), de Soto (2000), each with a clause naming what it carries in the note. The guides and the corpus links stay at the head; the Wikipedia and tokenization links stay at the end."
+    "summary": "References rebuilt: twenty works on property rights, their history and the legal traditions, in chronological APA, each citing its corpus entry rather than a raw link — Locke (1690), Blackstone (1766), Proudhon (1840), Maine (1861), Hohfeld (1913, 1917), Commons (1924), Berle and Means (1932), Honore (1961), Nicholas (1962), Demsetz (1967), Merryman (1969), Alchian and Demsetz (1973), Watson (1981), Radin (1982), Berman (1983), Ostrom (1990), Rose (1994), Penner (1997), de Soto (2000), each with a clause naming what it carries in the note. The guides and the corpus links stay at the head; the Wikipedia and tokenization links stay at the end.",
+    "commit": "b48e14c3c4ad187002efec0e33877597482f499c",
+    "before": "682beb588df15e421ec4a816183f30c354e3c3da"
    }
   ]
  }
