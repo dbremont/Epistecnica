@@ -1,8 +1,8 @@
 ---
 tags: [note, unfinished]
 qa:
-- How to compare  property models?
-- How to characterized a property regime?
+- How to compare property models?
+- How to characterize a property regime?
 - Can property exist outside of social recognition?
 - What are the different models or theories of property?
 - How does property emerge in non-human species, if at all?
@@ -11,13 +11,20 @@ qa:
 - What fundamental problems does the concept of property aim to solve?
 - What are the biological, cognitive, and psychological foundations of property?
 - What are the main theories of property (e.g. natural rights, social contract, labor-based, utilitarian, legal-institutional)?
-- Role (Essense)
+- Role (Essence)
 - Technique Reification
 ---
 
 # Property Right
 
 > In this note we will explore the idea of property rights.
+
+Asset (Subject):
+
+- Ownership: What is the legal relationship?
+- Title: On what legal basis is ownership attributed?
+- Titularidad: Who holds that legal position?
+- Right of ownership: What is the legally protected entitlement?
 
 ## Formulation
 
@@ -167,6 +174,7 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Rights](/view.html?p=notes/social/normative/right.md) — the genus this concept specializes
 - [Asset](/view.html?p=notes/social/synontic/asset.md) — the object the relation ranges over
+- [Ownership](https://en.wikipedia.org/wiki/Ownership)
 - [Locke, J. (1690). *Two treatises of government*. Awnsham Churchill.](/view.html?p=documents/books/locke-1690-two-treatises-government-churchill.md) — the labour justification, stated as a right that precedes government
 - [Blackstone, W. (1766). *Commentaries on the laws of England* (Book II). Clarendon Press.](/view.html?p=documents/books/blackstone-1766-commentaries-laws-england-book-ii.md) — sole and despotic dominion: the absolute statement of the reading this note rejects
 - [Proudhon, P.-J. (1840). *Qu'est-ce que la propriété ?* Brocard.](/view.html?p=documents/books/proudhon-1840-quest-ce-que-la-propriete-brocard.md) — property as theft, and the critique the concept has never escaped
