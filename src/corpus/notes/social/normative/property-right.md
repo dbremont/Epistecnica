@@ -79,6 +79,42 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 
 ### Which are the related concepts?
 
+### What is a critical conceptual evaluation of this social element instance?
+
+> Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
+
+> **Verdict:** the concept is ontologically sound once typed as a `Social Relation` and structurally coherent — incidents, holder, duty-bearer, object, title and regime are separable dimensions and the decomposition keeps them apart. It is conceptually over-extended: one word names the whole bundle (ownership) and any single incident (a lease, an easement), so identification and determinacy stay moderate until the incident is named, and the boundary with contract, possession and access is drawn by argument rather than carried by the term. The category is old, portable and productive — Roman law to tokenised assets — and its weaknesses are boundary weaknesses, not failures at the core.
+
+| **Category** | **Criteria** | **Property Right** |
+| --- | --- | --- |
+| Conceptual Specification | **Conceptual Identification** | Moderate (one term covers the whole bundle and each of its incidents; identification requires naming which incident is meant) |
+| Conceptual Specification | **Definitional Clarity** | Moderate–High (holder, duty-bearer, object and incident stated explicitly here; ordinary usage leaves them implicit) |
+| Conceptual Specification | **Conceptual Determinacy** | Moderate (intangible and virtual objects, and the property/contract boundary, leave borderline cases open) |
+| Conceptual Specification | **Definitional Completeness** | Moderate (which incidents count is fixed by the regime, not by the definition) |
+| Conceptual Specification | **Internal Consistency** | High (the incident decomposition is mutually compatible; no member of the bundle contradicts another) |
+| Conceptual Specification | **Structural Coherence** | High (incidents, holder, duty-bearer, object, title and regime are distinct dimensions, kept apart in the decomposition) |
+| Conceptual Specification | **Conceptual Tractability** | High (decomposes to terminal leaves and is usable without further stipulation) |
+| Representational Adequacy | **Extensional Fidelity** | Moderate (common property and open access leak into one another; effective control is often property in fact without title) |
+| Representational Adequacy | **Intensional Adequacy** | High (the incidents capture exclusion, use, disposition and security — what the concept is for) |
+| Representational Adequacy | **Ontological Adequacy** | High as a `Social Relation` (the ordinary "property is an object" reading mischaracterises a relation as a thing, and is the failure this typing repairs) |
+| Representational Adequacy | **Discriminative Power** | Moderate–High (separates property from possession, licence and contract sharply in law, weakly in speech) |
+| Representational Adequacy | **Granularity Adequacy** | High (the bundle splits to whatever depth a question needs) |
+| Conceptual Economy | **Ontological Parsimony** | Moderate (overlaps ownership, title, right and asset; each does work the others do not, but the overlap invites double counting) |
+| Conceptual Economy | **Conceptual Distinctiveness** | High against contract and possession; Moderate against ownership, which is a title within the relation rather than another concept) |
+| Conceptual Economy | **Redundancy Control** | Moderate ("property" and "ownership" duplicate in ordinary use; the corpus keeps both, ownership as a title and property as the relation) |
+| Conceptual Economy | **Boundary Differentiation** | Moderate (separable from possession and access by explicit criteria; separable from contract only by the duty-bearer test) |
+| Epistemic Performance | **Epistemic Leverage** | High (carries exclusion, investment, titling, inequality and regime comparison) |
+| Epistemic Performance | **Inferential Productivity** | High (predicts who bears the cost of exclusion, who can pledge, what can be sold) |
+| Epistemic Performance | **Explanatory Power** | High (explains investment, the tragedy-of-the-commons misdiagnosis, and dead capital held without title) |
+| Integration and Generality | **Contextual Robustness** | High (travels across civil and common law, and across regimes that disagree about its content) |
+| Integration and Generality | **Temporal Stability** | Moderate–High (the concept persists from Roman law to tokens; the incidents it bundles do not) |
+| Integration and Generality | **Combinatorial Fluidity** | High (couples with contract, status, sovereignty, capital and the technical object) |
+| Operational and Methodological Validity | **Operationalizability** | High (registries, cadastre, title deeds, share ledgers) |
+| Operational and Methodological Validity | **Measurement Validity** | Moderate (formal title is measurable, effective control is not, and the two are routinely conflated) |
+| Normative and Strategic Adequacy | **Purpose Adequacy** | High (adequate for regime comparison and allocation questions; weak if asked to settle which regime is just) |
+| Normative and Strategic Adequacy | **Performative Effects** | Notable (titling creates the holder it records, and the register changes what it measures) |
+| Normative and Strategic Adequacy | **Misuse Resistance** | Low–Moderate (the word absorbs any claim — "intellectual property", "my property" for access — which is how the boundary erodes) |
+
 ## QA
 
 ### What are the different legal forms of firms and their associated property-right structures?
@@ -115,6 +151,10 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 
 ## References
 
+- [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
+- [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
+- [Rights](/view.html?p=notes/social/normative/right.md) — the genus this concept specializes
+- [Asset](/view.html?p=notes/social/synontic/asset.md) — the object the relation ranges over
 - [Zaibatsu](https://en.wikipedia.org/wiki/Zaibatsu)
 - Keiretsu
 - Chaebol
