@@ -122894,6 +122894,11 @@
     "kind": "feat",
     "summary": "Note created. Property as the institution of ownership, filed beside property-right: what the arrangement settles (use, exclusion, transfer, liability), its history as successive rearrangements (Roman dominium, feudal tenure, absolute ownership in the codes, corporate shareholding, the register), and its canonical instances. Typed as Social Compound — rights, regime, title system and enforcement apparatus — and distinguished from the relation (property-right.md), the attribute sense (the Social Property shelf) and the object (asset.md). 25-row decomposition across components, recognition, object domain, historical forms and four attributes; evaluation on the guide's minimum set, verdict first. References cite the library entries already holding the literature, chronological.",
     "commit": "81ac49b1aac615722be83187fcc64719466d0c4c"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "docs",
+    "summary": "Tokenization and digital representation added to the references: the note now carries the verification frame (Hansmann & Kraakman), the closed title vocabulary (Merrill & Smith), virtual property (Fairfield), code as enforcement apparatus (Lessig), the ledger as title record (Nakamoto, Antonopoulos) and the programmable instrument (Buterin), plus the BBVA tokenization thesis as its own object of study. Body: the history sentence ends at the register that executes its own transfer; the type answer states that the title system has a digital instrument and the object domain a virtual member, pointing to the relation note rather than duplicating it; one decomposition row added under Title System for the Digital Register."
    }
   ]
  }
