@@ -38153,5 +38153,15 @@
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
    }
   ]
+ },
+ {
+  "file_path": "papers/dehghani-2024-physical-computing-category-theoretic-perspective.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Dehghani and Caterina (2024), Journal of Physics: Complexity 5(3):035005, doi 10.1088/2632-072X/ad6051, preprint arXiv:2210.00392 v4 dated 31 December 2023. Written from the full arXiv text, not the abstract. The Notes reconstruct the argument as a single arc: the two failure modes of the question (Putnam's simple mapping account, which licenses pancomputationalism, and a behavioural criterion, which licenses a falling rock), then Horsman/Stepney/Kendon Abstraction/Representation theory as the right shape with an unconstrained mapping, then the category-theoretic repair. The construction is given concretely: PhysProc (physical systems as objects, finite-time processes as morphisms, sequential composition), Comp as a pragmatic AbsProc (data types as objects, programs as morphisms) with a null object that is initial and final and stands for systems with no representation under a given theory; and the definition as a pair of functors whose two round trips are the identity functors, quoted in a text block. The consequences are recorded: computational power as the size of the image of the representation functor, universal computation as a maximal image, and the absence of such a functor for a system that computes nothing. The compositionality results are separated one per paragraph: categorical composition, refinement and hierarchical composition as natural transformations, multiple realizability as adjoint pairs with the strict inverse relaxed, and nested composition. The discussion is summarised by the four topics it actually treats (representation, scale, dynamics/information/causality, pancomputationalism) and by the Deutsch hard-to-vary argument closing it. What the framework does not settle is stated plainly: the representation functor is theory-indexed, so the choice of representation stays the modeller's act and the formalism makes ascriptions precise rather than discovering which systems compute. The YouTube talk supplied with the request is in the reference list as the first author's talk, with the note that 'computational closure' is the talk's framing and does not appear in the paper. Corpus links: Theory of Computation, Category, (Hardware) Physical Substrate, Quantum Computation, Computer Science."
+   }
+  ]
  }
 ]
