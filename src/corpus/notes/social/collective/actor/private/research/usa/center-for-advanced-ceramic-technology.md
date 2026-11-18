@@ -23,6 +23,6 @@ CACT is a state technology centre, not a federal laboratory and not a company: i
 
 - [Center for Advanced Ceramic Technology — Alfred University](https://www.alfred.edu/cact/)
 - [CACT at a glance](https://www.alfred.edu/cact/cact-at-a-glance.cfm) — designated 1987, renewed 2018
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [University](/view.html?p=notes/social/collective/actor/university.md) — the host institution
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form

@@ -25,6 +25,6 @@ SICCAS is a CAS institute, which in the Chinese system means long-horizon public
 
 - [Shanghai Institute of Ceramics — About](https://english.sic.cas.cn/au/)
 - [SICCAS — History](https://english.sic.cas.cn/au/hy/) — 1928 origin, 1959 separation, 1984 renaming
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the type a state academy institute reads as

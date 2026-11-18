@@ -25,6 +25,6 @@ It is the odd one out among the ceramic institutes, and deliberately so. Glass i
 
 - [CeRTEV — About](https://www.certev.ufscar.br/en/about/about)
 - [FAPESP — Center for Research, Teaching, and Innovation in Glass (CeRTEV), CEPID 2013–2024](https://cepid.fapesp.br/center-for-research-teaching-and-innovation-in-glass)
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class, and the boundary this centre works across
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class, and the boundary this centre works across
 - [University](/view.html?p=notes/social/collective/actor/university.md) — the host institution
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form the centre is organised as

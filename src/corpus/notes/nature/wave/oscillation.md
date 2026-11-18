@@ -116,7 +116,7 @@ The choice matters, and the other readings fail for reasons worth stating. An os
 - [Harmonic Analysis](/view.html?p=notes/epistemica/epistemic/discipline/harmonic-analysis.md) — the discipline that decomposes an oscillation into its harmonics
 - [Stability Theory](/view.html?p=notes/epistemica/mathematical/change/stability-theory.md) — the dynamical reading: equilibrium, linearization, limit cycle
 - [Coupled Oscillator Network](/view.html?p=notes/epistemica/mathematical/change/rsp/coupled-oscillator-network.html) — the playground that simulates the coupled case
-- [MEMS Oscillator](/view.html?p=notes/production/production/technique/fisicatecnica/electromagnetic/mems-oscillator.md) — the engineered instance
+- [MEMS Oscillator](/view.html?p=notes/production/technique/fisicatecnica/electromagnetic/mems-oscillator.md) — the engineered instance
 - Andronov, A. A., Vitt, A. A., & Khaikin, S. E. (1966). *Theory of oscillators*. Pergamon Press.
 - Den Hartog, J. P. (1985). *Mechanical vibrations*. Dover.
 - Galileo, G. (1638). *Discorsi e dimostrazioni matematiche intorno a due nuove scienze*. Lodewijk Elzevir. — the isochronism of the pendulum, the first oscillation measured against time.

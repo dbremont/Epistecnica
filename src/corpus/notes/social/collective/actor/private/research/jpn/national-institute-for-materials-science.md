@@ -23,6 +23,6 @@ NIMS sits upstream of JFCC and of industry: long-horizon, publicly funded, and e
 
 - [NIMS](https://www.nims.go.jp/english/)
 - [National Institute for Materials Science — Wikipedia](https://en.wikipedia.org/wiki/National_Institute_for_Materials_Science)
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [Japan Fine Ceramics Center](/view.html?p=notes/social/collective/actor/private/research/jpn/japan-fine-ceramics-center.md) — the industry-facing neighbour

@@ -55389,7 +55389,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/agriculture/animal/beef-cattle-production.md",
+  "file_path": "production/industry/agriculture/animal/beef-cattle-production.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55400,7 +55400,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/agriculture/animal/readme.md",
+  "file_path": "production/industry/agriculture/animal/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55411,7 +55411,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/agriculture/banana/readme.md",
+  "file_path": "production/industry/agriculture/banana/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55422,7 +55422,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/agriculture/readme.md",
+  "file_path": "production/industry/agriculture/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55433,7 +55433,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/apparel/readme.md",
+  "file_path": "production/industry/apparel/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55444,7 +55444,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/appliances/readme.md",
+  "file_path": "production/industry/appliances/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55455,7 +55455,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/chemical/fertilizer.md",
+  "file_path": "production/industry/chemical/fertilizer.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55466,7 +55466,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/chemical/readme.md",
+  "file_path": "production/industry/chemical/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55477,7 +55477,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/commerce/ecommerce.md",
+  "file_path": "production/industry/commerce/ecommerce.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55488,7 +55488,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/commerce/firm/retail.md",
+  "file_path": "production/industry/commerce/firm/retail.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55499,7 +55499,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/commerce/retail.md",
+  "file_path": "production/industry/commerce/retail.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55510,7 +55510,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/commerce/trading.md",
+  "file_path": "production/industry/commerce/trading.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55521,7 +55521,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/construction/construction.md",
+  "file_path": "production/industry/construction/construction.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55532,7 +55532,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/creative/advertising.md",
+  "file_path": "production/industry/creative/advertising.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55543,7 +55543,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/creative/readme.md",
+  "file_path": "production/industry/creative/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55554,7 +55554,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/defense/readme.md",
+  "file_path": "production/industry/defense/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55565,7 +55565,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/education/edtech.md",
+  "file_path": "production/industry/education/edtech.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55576,7 +55576,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/education/education.md",
+  "file_path": "production/industry/education/education.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55587,7 +55587,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/electronics/consumer.md",
+  "file_path": "production/industry/electronics/consumer.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55598,7 +55598,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/electronics/display.md",
+  "file_path": "production/industry/electronics/display.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55609,7 +55609,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/electronics/readme.md",
+  "file_path": "production/industry/electronics/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55620,7 +55620,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/electronics/semiconductor/production/cpu.md",
+  "file_path": "production/industry/electronics/semiconductor/production/cpu.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55631,7 +55631,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/electronics/semiconductor/readme.md",
+  "file_path": "production/industry/electronics/semiconductor/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55642,7 +55642,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/energy/readme.md",
+  "file_path": "production/industry/energy/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55653,7 +55653,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/food/diary.md",
+  "file_path": "production/industry/food/diary.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55664,7 +55664,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/food/food.md",
+  "file_path": "production/industry/food/food.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55675,7 +55675,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/food/meat.md",
+  "file_path": "production/industry/food/meat.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55700,7 +55700,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/food/seafood.md",
+  "file_path": "production/industry/food/seafood.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55711,7 +55711,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/footwear/readme.md",
+  "file_path": "production/industry/footwear/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55722,7 +55722,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/forest/industry/paper.md",
+  "file_path": "production/industry/forest/industry/paper.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55733,7 +55733,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/forest/readme.md",
+  "file_path": "production/industry/forest/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55744,7 +55744,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/health/health-industry.md",
+  "file_path": "production/industry/health/health-industry.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55755,7 +55755,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/imachinary/readme.md",
+  "file_path": "production/industry/imachinary/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55766,7 +55766,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/legal/readme.md",
+  "file_path": "production/industry/legal/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55777,7 +55777,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/licensing/readme.md",
+  "file_path": "production/industry/licensing/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55788,7 +55788,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/logistic/logistics-transportation.md",
+  "file_path": "production/industry/logistic/logistics-transportation.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55799,7 +55799,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/logistic/logistics.md",
+  "file_path": "production/industry/logistic/logistics.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55810,7 +55810,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/machinetool/readme.md",
+  "file_path": "production/industry/machinetool/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55821,7 +55821,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/material/readme.md",
+  "file_path": "production/industry/material/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55832,7 +55832,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/metal/readme.md",
+  "file_path": "production/industry/metal/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55843,7 +55843,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/metallurgical/readme.md",
+  "file_path": "production/industry/metallurgical/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55854,7 +55854,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/mining/readme.md",
+  "file_path": "production/industry/mining/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55865,7 +55865,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/nonmetallic/readme.md",
+  "file_path": "production/industry/nonmetallic/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55876,7 +55876,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/nuclear/readme.md",
+  "file_path": "production/industry/nuclear/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55887,7 +55887,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/packaging/readme.md",
+  "file_path": "production/industry/packaging/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55898,7 +55898,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/personalcare/readme.md",
+  "file_path": "production/industry/personalcare/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55909,7 +55909,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/pharmaceutical/readme.md",
+  "file_path": "production/industry/pharmaceutical/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55920,7 +55920,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/plastic/readme.md",
+  "file_path": "production/industry/plastic/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55931,7 +55931,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/readme.md",
+  "file_path": "production/industry/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55942,7 +55942,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/realstate/readme.md",
+  "file_path": "production/industry/realstate/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55953,7 +55953,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/retail/production/readme.md",
+  "file_path": "production/industry/retail/production/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55964,7 +55964,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/retail/readme.md",
+  "file_path": "production/industry/retail/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55975,7 +55975,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/rubber/readme.md",
+  "file_path": "production/industry/rubber/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55986,7 +55986,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/firm/productivity.md",
+  "file_path": "production/industry/software/firm/productivity.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -55997,7 +55997,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/firm/readme.md",
+  "file_path": "production/industry/software/firm/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56008,7 +56008,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/autoprogram.md",
+  "file_path": "production/industry/software/production/autoprogram.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56019,7 +56019,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/constitutive/readme.md",
+  "file_path": "production/industry/software/production/constitutive/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56030,7 +56030,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/constitutive/security.md",
+  "file_path": "production/industry/software/production/constitutive/security.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56041,7 +56041,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/model.md",
+  "file_path": "production/industry/software/production/model.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56052,7 +56052,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/program.md",
+  "file_path": "production/industry/software/production/program.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56063,7 +56063,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/prototype/model.md",
+  "file_path": "production/industry/software/production/prototype/model.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56074,7 +56074,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/prototype/program.md",
+  "file_path": "production/industry/software/production/prototype/program.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56085,7 +56085,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/production/readme.md",
+  "file_path": "production/industry/software/production/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56096,7 +56096,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/software/readme.md",
+  "file_path": "production/industry/software/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56114,7 +56114,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/telecommunication/telecommunications.md",
+  "file_path": "production/industry/telecommunication/telecommunications.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56125,7 +56125,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/textile/readme.md",
+  "file_path": "production/industry/textile/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56136,7 +56136,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/tool/readme.md",
+  "file_path": "production/industry/tool/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56147,7 +56147,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/tourism/readme.md",
+  "file_path": "production/industry/tourism/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56158,7 +56158,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/transportation/readme.md",
+  "file_path": "production/industry/transportation/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56169,7 +56169,7 @@
   ]
  },
  {
-  "file_path": "production/production/industry/transportation/shipbuilding.md",
+  "file_path": "production/industry/transportation/shipbuilding.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56180,7 +56180,7 @@
   ]
  },
  {
-  "file_path": "production/production/readme.md",
+  "file_path": "production/production.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56198,7 +56198,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/biotecnica/biosensing.md",
+  "file_path": "production/technique/biotecnica/biosensing.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56209,7 +56209,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/biotecnica/genetic/plant-genetic-engineering.md",
+  "file_path": "production/technique/biotecnica/genetic/plant-genetic-engineering.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56220,7 +56220,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/biotecnica/polymerase-chain-reaction.md",
+  "file_path": "production/technique/biotecnica/polymerase-chain-reaction.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56231,7 +56231,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/biotecnica/readme.md",
+  "file_path": "production/technique/biotecnica/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56242,7 +56242,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/aromatization/an-essay-on-clothes-aromataization.md",
+  "file_path": "production/technique/breviarium/aromatization/an-essay-on-clothes-aromataization.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56253,7 +56253,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/aromatization/an-essay-on-essential-oils.md",
+  "file_path": "production/technique/breviarium/aromatization/an-essay-on-essential-oils.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56264,7 +56264,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/aromatization/readme.md",
+  "file_path": "production/technique/breviarium/aromatization/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56275,7 +56275,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cleaning/a-guide-on-book-cleaning.md",
+  "file_path": "production/technique/breviarium/cleaning/a-guide-on-book-cleaning.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56286,7 +56286,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-cleaning-electronic-devices.md",
+  "file_path": "production/technique/breviarium/cleaning/an-essay-on-cleaning-electronic-devices.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56297,7 +56297,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-clothing-cleaning.md",
+  "file_path": "production/technique/breviarium/cleaning/an-essay-on-clothing-cleaning.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56308,7 +56308,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cleaning/an-essay-on-house-cleaning.md",
+  "file_path": "production/technique/breviarium/cleaning/an-essay-on-house-cleaning.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56319,7 +56319,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cleaning/readme.md",
+  "file_path": "production/technique/breviarium/cleaning/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56330,7 +56330,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-air-fryer.md",
+  "file_path": "production/technique/breviarium/cooking/an-essay-on-air-fryer.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56341,7 +56341,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-fridge-organization.md",
+  "file_path": "production/technique/breviarium/cooking/an-essay-on-fridge-organization.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56352,7 +56352,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/an-essay-on-induction-cooking.md",
+  "file_path": "production/technique/breviarium/cooking/an-essay-on-induction-cooking.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56363,7 +56363,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/processing/conseva/conserva.md",
+  "file_path": "production/technique/breviarium/cooking/processing/conseva/conserva.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56374,7 +56374,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/processing/conseva/readme.md",
+  "file_path": "production/technique/breviarium/cooking/processing/conseva/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56385,7 +56385,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/processing/readme.md",
+  "file_path": "production/technique/breviarium/cooking/processing/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56396,7 +56396,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/readme.md",
+  "file_path": "production/technique/breviarium/cooking/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56407,7 +56407,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/cooking/recipe/readme.md",
+  "file_path": "production/technique/breviarium/cooking/recipe/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56418,7 +56418,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-air-conditioning.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-air-conditioning.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56429,7 +56429,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-bricolage.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-bricolage.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56440,7 +56440,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-ceiling-fan.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-ceiling-fan.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56451,7 +56451,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-drill.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-drill.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56462,7 +56462,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-house-electricty.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-house-electricty.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56473,7 +56473,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-screw.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-screw.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56484,7 +56484,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-wall-mountin.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-wall-mountin.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56495,7 +56495,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/an-essay-on-washer-dryer.md",
+  "file_path": "production/technique/breviarium/house/an-essay-on-washer-dryer.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56506,7 +56506,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/organization/readme.md",
+  "file_path": "production/technique/breviarium/house/organization/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56517,7 +56517,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/house/readme.md",
+  "file_path": "production/technique/breviarium/house/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56528,7 +56528,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/breviarium/personal/an-essay-on-hair-loss.md",
+  "file_path": "production/technique/breviarium/personal/an-essay-on-hair-loss.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56539,7 +56539,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/biotech.md",
+  "file_path": "production/technique/catalog/biotech.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56550,7 +56550,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/construction.md",
+  "file_path": "production/technique/catalog/construction.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56561,7 +56561,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/electronics.md",
+  "file_path": "production/technique/catalog/electronics.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56572,7 +56572,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/energy.md",
+  "file_path": "production/technique/catalog/energy.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56583,7 +56583,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/material.md",
+  "file_path": "production/technique/catalog/material.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56594,7 +56594,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/medtech.md",
+  "file_path": "production/technique/catalog/medtech.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56605,7 +56605,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/metrology.md",
+  "file_path": "production/technique/catalog/metrology.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56616,7 +56616,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/readme.md",
+  "file_path": "production/technique/catalog/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56627,7 +56627,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/robotics.md",
+  "file_path": "production/technique/catalog/robotics.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56638,7 +56638,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/semiconductors.md",
+  "file_path": "production/technique/catalog/semiconductors.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56649,7 +56649,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/software.md",
+  "file_path": "production/technique/catalog/software.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56660,7 +56660,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/catalog/unmanned-aerial-vehicle.md",
+  "file_path": "production/technique/catalog/unmanned-aerial-vehicle.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56671,7 +56671,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/design/ffe.md",
+  "file_path": "production/technique/design/ffe.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56682,7 +56682,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/design/interior.md",
+  "file_path": "production/technique/design/interior.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56693,7 +56693,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/analog-to-digital-converter.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/analog-to-digital-converter.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56704,7 +56704,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/asic.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/asic.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56715,7 +56715,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/camera.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/camera.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56726,7 +56726,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/capacitor.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/capacitor.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56737,7 +56737,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/electronic-circuit.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/circuit/electronic-circuit.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56748,7 +56748,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/i2c.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/circuit/i2c.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56759,7 +56759,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/ic.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/circuit/ic.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56770,7 +56770,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/circuit/readme.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/circuit/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56781,7 +56781,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/clock-rate.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/clock-rate.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56792,7 +56792,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/cmos.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/cmos.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56803,7 +56803,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/components.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/components.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56814,7 +56814,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/digital.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/design/digital.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56825,7 +56825,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/electronic-design-automation.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/design/electronic-design-automation.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56836,7 +56836,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/pcb.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/design/pcb.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56847,7 +56847,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/design/soc.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/design/soc.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56858,7 +56858,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/electronic-visual-display.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/electronic-visual-display.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56869,7 +56869,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/esp32.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/esp32.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56880,7 +56880,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/fpga.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/fpga.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56891,7 +56891,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/gpio.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/gpio.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56902,7 +56902,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/hdl.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/hdl.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56913,7 +56913,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/inductor.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/inductor.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56924,7 +56924,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/laser.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/laser.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56935,7 +56935,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/lidar.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/lidar.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56946,7 +56946,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/logic-synthesis.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/logic-synthesis.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56957,7 +56957,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mems-oscillator.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/mems-oscillator.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56968,7 +56968,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mems.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/mems.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56979,7 +56979,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/microcontroller.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/microcontroller.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -56990,7 +56990,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/microprocessor.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/microprocessor.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57001,7 +57001,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/mosfet.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/mosfet.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57012,7 +57012,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/photolithography.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/photolithography.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57023,7 +57023,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/radar.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/radar.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57034,7 +57034,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/readme.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57045,7 +57045,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/remote-sensing.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/remote-sensing.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57056,7 +57056,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/schematic.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/schematic.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57067,7 +57067,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/telescope.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/telescope.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57078,7 +57078,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/transistor.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/transistor.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57089,7 +57089,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/verilator.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/verilator.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57100,7 +57100,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/verilog.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/verilog.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57111,7 +57111,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/electromagnetic/vhdl.md",
+  "file_path": "production/technique/fisicatecnica/electromagnetic/vhdl.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57122,7 +57122,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/automolbile-system.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/automolbile-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57133,7 +57133,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/differential-pulley.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/differential-pulley.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57144,7 +57144,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/domestic-water-system.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/domestic-water-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57155,7 +57155,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/drilling.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/drilling.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57166,7 +57166,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/gear.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/gear.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57177,7 +57177,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/heat-engine.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/heat-engine.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57188,7 +57188,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/mechatronic-system.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/mechatronic-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57199,7 +57199,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/naval.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/naval.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57210,7 +57210,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/naval/shipbuilding.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/naval/shipbuilding.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57221,7 +57221,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/rail.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/rail.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57232,7 +57232,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/readme.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57243,7 +57243,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/steam-engine.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/steam-engine.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57254,7 +57254,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/thermomechanical-jet-engine-system.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/thermomechanical-jet-engine-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57265,7 +57265,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/mechanical/turbine.md",
+  "file_path": "production/technique/fisicatecnica/mechanical/turbine.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57276,7 +57276,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/aerosol-spray-dispenser.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/aerosol-spray-dispenser.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57287,7 +57287,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/energy-storage.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/energy-storage.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57298,7 +57298,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/ess.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/ess.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57309,7 +57309,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/peeler-system.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/peeler-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57320,7 +57320,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/thermomechanical-food-holding-system.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/thermomechanical-food-holding-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57331,7 +57331,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/miscellanea/topic.md",
+  "file_path": "production/technique/fisicatecnica/miscellanea/topic.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57342,7 +57342,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/readme.md",
+  "file_path": "production/technique/fisicatecnica/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57353,7 +57353,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/robotic/cnc.md",
+  "file_path": "production/technique/fisicatecnica/robotic/cnc.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57364,7 +57364,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/fisicatecnica/robotic/readme.md",
+  "file_path": "production/technique/fisicatecnica/robotic/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57375,7 +57375,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/alloy.md",
+  "file_path": "production/technique/materiotecnia/alloy.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57386,7 +57386,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/biogas.md",
+  "file_path": "production/technique/materiotecnia/biogas.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57397,7 +57397,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/cement.md",
+  "file_path": "production/technique/materiotecnia/cement.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57408,7 +57408,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/ceramic.md",
+  "file_path": "production/technique/materiotecnia/ceramic.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57440,7 +57440,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/composite.md",
+  "file_path": "production/technique/materiotecnia/composite.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57451,7 +57451,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/glass.md",
+  "file_path": "production/technique/materiotecnia/glass.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57462,7 +57462,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/nanomaterial.md",
+  "file_path": "production/technique/materiotecnia/nanomaterial.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57473,7 +57473,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/polymer.md",
+  "file_path": "production/technique/materiotecnia/polymer.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57484,7 +57484,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/readme.md",
+  "file_path": "production/technique/materiotecnia/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57495,7 +57495,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/semiconductor.md",
+  "file_path": "production/technique/materiotecnia/semiconductor.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57506,7 +57506,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/smart-material.md",
+  "file_path": "production/technique/materiotecnia/smart-material.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57517,7 +57517,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/materiotecnia/tooling.md",
+  "file_path": "production/technique/materiotecnia/tooling.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57528,7 +57528,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/meta/readme.md",
+  "file_path": "production/technique/meta/readme.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57539,7 +57539,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/camara.md",
+  "file_path": "production/technique/miscellanea/camara.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57550,7 +57550,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/cleaning-system.md",
+  "file_path": "production/technique/miscellanea/cleaning-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57561,7 +57561,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/derivativesystem.md",
+  "file_path": "production/technique/miscellanea/derivativesystem.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57572,7 +57572,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/digitaltwin.md",
+  "file_path": "production/technique/miscellanea/digitaltwin.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57583,7 +57583,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/house.md",
+  "file_path": "production/technique/miscellanea/house.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57594,7 +57594,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/hvac-system.md",
+  "file_path": "production/technique/miscellanea/hvac-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57605,7 +57605,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/imaging.md",
+  "file_path": "production/technique/miscellanea/imaging.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57616,7 +57616,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/masonry.md",
+  "file_path": "production/technique/miscellanea/masonry.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57627,7 +57627,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/mass-flow-controller.md",
+  "file_path": "production/technique/miscellanea/mass-flow-controller.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57638,7 +57638,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/peeling-machine.md",
+  "file_path": "production/technique/miscellanea/peeling-machine.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57649,7 +57649,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/productionsystemc.md",
+  "file_path": "production/technique/miscellanea/productionsystemc.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57660,7 +57660,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/propulsion-system.md",
+  "file_path": "production/technique/miscellanea/propulsion-system.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57671,7 +57671,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/sensing.md",
+  "file_path": "production/technique/miscellanea/sensing.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57682,7 +57682,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/miscellanea/visiotecnica.md",
+  "file_path": "production/technique/miscellanea/visiotecnica.md",
   "logs": [
    {
     "date": "2026-11-15",
@@ -57693,7 +57693,7 @@
   ]
  },
  {
-  "file_path": "production/production/technique/readme.md",
+  "file_path": "production/technique/readme.md",
   "logs": [
    {
     "date": "2026-11-15",

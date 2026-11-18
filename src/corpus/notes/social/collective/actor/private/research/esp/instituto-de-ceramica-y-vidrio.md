@@ -23,6 +23,6 @@ Spain's ceramic industry is large and tile-based, and its own industrial researc
 
 - [Instituto de Cerámica y Vidrio — CSIC](https://www.icv.csic.es/)
 - [Instituto de Cerámica y Vidrio — Wikipedia (es)](https://es.wikipedia.org/wiki/Instituto_de_Cer%C3%A1mica_y_Vidrio) — the 1954 section, the 1964 institute, the 2002 move to Cantoblanco
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [University](/view.html?p=notes/social/collective/actor/university.md) — the campus host

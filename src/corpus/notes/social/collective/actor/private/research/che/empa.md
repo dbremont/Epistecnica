@@ -23,6 +23,6 @@ Empa is an applied federal laboratory in the ETH domain: part of its budget come
 
 - [Empa](https://www.empa.ch/)
 - [Swiss Federal Laboratories for Materials Science and Technology — Wikipedia](https://en.wikipedia.org/wiki/Swiss_Federal_Laboratories_for_Materials_Science_and_Technology)
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [Fraunhofer Institute for Ceramic Technologies and Systems](/view.html?p=notes/social/collective/actor/private/research/deu/fraunhofer-institute-for-ceramic-technologies-and-systems.md) — the larger applied-research comparison

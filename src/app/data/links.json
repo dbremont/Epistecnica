@@ -257,6 +257,12 @@
    "to": "epistemica/mathematical/structure/algebra/polynomial-ring.md",
    "label": "Polynomial Ring",
    "kind": "related"
+  },
+  {
+   "from": "tecnica/",
+   "to": "production/industry/",
+   "label": "Production",
+   "kind": "related"
   }
  ]
 }

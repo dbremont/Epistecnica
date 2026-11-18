@@ -23,6 +23,6 @@ ORNL is a mission laboratory: the ceramics agenda is set by what the energy and 
 
 - [Oak Ridge National Laboratory](https://www.ornl.gov/)
 - [Oak Ridge National Laboratory — Wikipedia](https://en.wikipedia.org/wiki/Oak_Ridge_National_Laboratory)
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the type a government laboratory reads as

@@ -23,5 +23,5 @@ Guiding Questions:
 ## References
 
 - [AI-First Company Memos](https://the-ai-native.company/)
-- [Software Production](/view.html?p=notes/production/production/industry/software/production/readme.md)
+- [Software Production](/view.html?p=notes/production/industry/software/production/readme.md)
 - [The 2028 Chinese Intelligence Crisis](https://www.eastisread.com/p/the-2028-chinese-intelligence-crisis)

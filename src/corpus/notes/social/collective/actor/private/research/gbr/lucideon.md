@@ -24,6 +24,6 @@ Lucideon is the industrial-research model that predates the modern institute: a 
 - [Lucideon](https://www.lucideon.com/)
 - [Lucideon — Company history](https://www.lucideon.com/our-company/history) — BRRA 1920, BPRA 1937, BCRA 1948, CERAM 1986, Lucideon 2014
 - [Lucideon — Wikipedia](https://en.wikipedia.org/wiki/Lucideon)
-- [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) — the actor type it became
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form it grew out of
