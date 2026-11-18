@@ -1,11 +1,12 @@
 {
- "generated": "2026-10-02",
- "count": 1562,
+ "generated": "2026-11-18",
+ "count": 1574,
  "by_kind": {
   "energy": 398,
   "information": 328,
   "material": 645,
-  "service": 191
+  "service": 191,
+  "virtual": 12
  },
  "by_role": {
   "equipment": 213,
@@ -27,12 +28,15 @@
   "chemical-process": 10,
   "cleaning-laundry": 23,
   "computing": 50,
-  "construction": 22,
+  "construction": 23,
   "data-acquisition": 20,
   "data-management": 32,
+  "design-engineering": 2,
   "display-hardware": 30,
   "district-heating": 17,
   "electrical-equipment": 24,
+  "electronics-design": 1,
+  "engineering-analysis": 3,
   "engines": 45,
   "food-processing": 9,
   "food-service": 32,
@@ -44,11 +48,12 @@
   "heat-treatment": 14,
   "hydrogen": 18,
   "imaging": 15,
-  "industrial-control": 26,
+  "industrial-control": 27,
   "inspection": 3,
   "laboratory-automation": 1,
   "logistics": 8,
   "meat-processing": 8,
+  "media-production": 1,
   "medical": 13,
   "metal-forming": 21,
   "metalworking": 32,
@@ -70,12 +75,15 @@
   "power-generation": 80,
   "power-transmission": 26,
   "printing": 2,
+  "production-engineering": 1,
   "pulp-paper": 29,
   "robotics": 20,
   "semiconductor-equipment": 28,
+  "software-production": 1,
   "storage": 38,
   "sugar-starch": 8,
   "surface-finishing": 93,
+  "technical-publication": 1,
   "telecommunications": 8,
   "testing": 5,
   "textiles": 25,
@@ -23673,6 +23681,170 @@
    "repo": null,
    "wikidata": "Q1388910",
    "id": "gpe-service-scrubber"
+  },
+  {
+   "name": "Computer-Aided Design (CAD) System",
+   "kind": "virtual",
+   "role": "equipment",
+   "domain": "design-engineering",
+   "transforms": "design intent → geometric model",
+   "description": "authoring environment in which a part or assembly is drawn, constrained and edited as a parametric geometric model",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-computer-aided-design-system"
+  },
+  {
+   "name": "Computer-Aided Manufacturing (CAM) System",
+   "kind": "virtual",
+   "role": "system",
+   "domain": "production-engineering",
+   "transforms": "geometric model → machine toolpath",
+   "description": "software that turns a CAD model into toolpaths, operation sequences and post-processed code for a machine tool",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-computer-aided-manufacturing-system"
+  },
+  {
+   "name": "Computer-Aided Engineering (CAE) Solver",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "engineering-analysis",
+   "transforms": "model and boundary conditions → field solution",
+   "description": "solver that discretizes a model into finite elements and computes its stress, thermal, modal or fatigue response",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-computer-aided-engineering-solver"
+  },
+  {
+   "name": "Computational Fluid Dynamics (CFD) Solver",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "engineering-analysis",
+   "transforms": "geometry and flow conditions → flow field",
+   "description": "solver that divides a fluid domain into cells and integrates the conservation equations to predict flow, pressure and heat transfer",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-computational-fluid-dynamics-solver"
+  },
+  {
+   "name": "Electronic Design Automation (EDA) Suite",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "electronics-design",
+   "transforms": "circuit intent → netlist, layout, mask data",
+   "description": "toolchain that takes a circuit description through schematic capture, simulation, layout and mask-data generation",
+   "sources": [],
+   "image": null,
+   "repo": {
+    "note": "technica/general/cto/industry/electronic-design-automation.md"
+   },
+   "wikidata": "",
+   "id": "gpe-virtual-electronic-design-automation-suite"
+  },
+  {
+   "name": "Building Information Modelling (BIM) Authoring System",
+   "kind": "virtual",
+   "role": "system",
+   "domain": "construction",
+   "transforms": "building intent → coordinated model",
+   "description": "authoring environment that holds a building as a coordinated object model of spaces, elements and systems rather than as a set of drawings",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-building-information-modelling-system"
+  },
+  {
+   "name": "Digital Twin Platform",
+   "kind": "virtual",
+   "role": "system",
+   "domain": "industrial-control",
+   "transforms": "sensor stream → live asset model",
+   "description": "platform that keeps a computational model of an asset synchronized with its sensor stream, so the model's state tracks the asset's",
+   "sources": [],
+   "image": null,
+   "repo": {
+    "note": "technica/general/cto/industry/digital-twin.md"
+   },
+   "wikidata": "",
+   "id": "gpe-virtual-digital-twin-platform"
+  },
+  {
+   "name": "Product Lifecycle Management (PLM) System",
+   "kind": "virtual",
+   "role": "system",
+   "domain": "design-engineering",
+   "transforms": "product records → controlled configuration",
+   "description": "system that holds a product's requirements, bills of material, changes and revisions as one controlled configuration across its life",
+   "sources": [],
+   "image": null,
+   "repo": {
+    "note": "technica/general/cto/industry/product-lifecycle.md"
+   },
+   "wikidata": "",
+   "id": "gpe-virtual-product-lifecycle-management-system"
+  },
+  {
+   "name": "Simulation Environment",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "engineering-analysis",
+   "transforms": "system model → executed behaviour",
+   "description": "environment that runs a system model forward under scenarios, producing state trajectories rather than a single closed-form answer",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-simulation-environment"
+  },
+  {
+   "name": "Technical Documentation Authoring System",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "technical-publication",
+   "transforms": "source topics → published manual",
+   "description": "structured authoring system that holds topics, reuse and metadata and renders them into manuals and online help",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-technical-documentation-system"
+  },
+  {
+   "name": "Rendering and Visualisation Pipeline",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "media-production",
+   "transforms": "scene description → image sequence",
+   "description": "renderer and compositing chain that turns geometry, materials and lighting into still frames or animation",
+   "sources": [],
+   "image": null,
+   "repo": null,
+   "wikidata": "",
+   "id": "gpe-virtual-rendering-pipeline"
+  },
+  {
+   "name": "Integrated Development Environment (IDE)",
+   "kind": "virtual",
+   "role": "tool",
+   "domain": "software-production",
+   "transforms": "source text → built, tested artifact",
+   "description": "editor, build, debug and test toolchain for one language or platform, holding a project as source plus configuration",
+   "sources": [],
+   "image": null,
+   "repo": {
+    "note": "technica/general/cto/industry/software-production.md"
+   },
+   "wikidata": "",
+   "id": "gpe-virtual-integrated-development-environment"
   }
  ]
 }

@@ -3,46 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Good-Producing Technical Element Catalog</title>
+    <title>Good-Producing Goods</title>
     <link rel="icon" href="/img/favicon.ico">
-    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+    <link rel="stylesheet" href="/shared/usearch.css">
+    <link rel="stylesheet" href="/shared/chrome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Oxford Common Room tokens — keep identical to app/shared/theme.css
-               (mirrors app/notes/note.html). */
             --bg-void: #0b0e14;
             --bg-surface: #11151e;
             --bg-card: #161b26;
             --bg-elevated: #1d2330;
-            --bg-hover: rgba(255, 255, 255, 0.04);
-            --gilt: #C4B998;
-            --parchment: #D6D1C4;
             --text-primary: #f4f3f1;
             --text-secondary: #a8a5b0;
             --text-muted: #9290aa;
             --text-ghost: #82809a;
             --accent-copper: #c9956c;
-            --accent-copper-light: #dbb08a;
             --accent-sage: #7ba388;
             --accent-plum: #9b7eb0;
             --accent-rose: #c47d8a;
             --accent-amber: #d4a857;
-            --accent-steel: #6b8caa;
             --accent-gold: #c9956c;
-            --accent-gold-dim: rgba(201, 149, 108, 0.14);
             --accent-cyan: #4dd4c4;
-            --accent-cyan-dim: rgba(77, 212, 196, 0.1);
             --border-subtle: rgba(255, 255, 255, 0.05);
             --border-medium: rgba(255, 255, 255, 0.08);
             --border-strong: rgba(255, 255, 255, 0.12);
             --radius-sm: 5px;
             --radius-md: 8px;
-            --radius-lg: 12px;
-            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
-            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
             --card-bg: rgba(22, 27, 38, 0.72);
             --nav-bg: rgba(11, 14, 20, 0.85);
             --font-display: 'Cormorant Garamond', serif;
@@ -54,24 +44,17 @@
             --bg-surface: #efe9dc;
             --bg-card: #fffdf8;
             --bg-elevated: #ffffff;
-            --bg-hover: rgba(20, 22, 30, 0.04);
-            --gilt: #9a7b3f;
-            --parchment: #2b2620;
             --text-primary: #1a1d24;
             --text-secondary: #4a4f5e;
             --text-muted: #7a7f8e;
             --text-ghost: #9aa0ae;
             --accent-copper: #9a7b3f;
-            --accent-copper-light: #7a6132;
             --accent-sage: #4e7a5e;
             --accent-plum: #7a5f8c;
             --accent-rose: #a55a68;
             --accent-amber: #9a742f;
-            --accent-steel: #4e6e8c;
             --accent-gold: #9a7b3f;
-            --accent-gold-dim: rgba(154, 123, 63, 0.12);
             --accent-cyan: #0e7c72;
-            --accent-cyan-dim: rgba(14, 124, 114, 0.08);
             --border-subtle: rgba(20, 22, 30, 0.10);
             --border-medium: rgba(20, 22, 30, 0.14);
             --border-strong: rgba(20, 22, 30, 0.22);
@@ -89,33 +72,12 @@
             transition: opacity 180ms ease;
         }
         html.theme-fading body { opacity: 0; }
+        a { color: inherit; text-decoration: none; }
+        a:focus-visible, button:focus-visible, input:focus-visible { outline: 1px solid var(--accent-cyan); outline-offset: 3px; }
         @media (prefers-reduced-motion: reduce) { body { transition: none; } }
 
-        .layout { max-width: 1320px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
-
-        .crumbs {
-            font-family: var(--font-mono);
-            font-size: 0.6rem;
-            letter-spacing: 0.16em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-bottom: 1.2rem;
-        }
-        .crumbs a { color: var(--text-muted); text-decoration: none; }
-        .crumbs a:hover { color: var(--accent-cyan); }
-        .crumbs .sep { margin: 0 0.5em; opacity: 0.5; }
-        .crumbs .here { color: var(--accent-gold); }
-
-        h1.note-title {
-            font-family: var(--font-display);
-            font-weight: 300;
-            font-size: clamp(2rem, 4vw, 3rem);
-            line-height: 1.1;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid var(--border-subtle);
-        }
-        .subtitle { color: var(--text-secondary); margin: 1rem 0 1.4rem; max-width: 70ch; line-height: 1.6; }
-        .subtitle code { font-family: var(--font-mono); font-size: 0.85em; color: var(--accent-gold); }
+        .wrap { max-width: 1280px; margin: 0 auto; padding: 1.6rem 2rem 3rem; }
+        @media (max-width: 900px) { .wrap { padding-left: 1.2rem; padding-right: 1.2rem; } }
 
         .rule {
             border: 1px solid var(--border-subtle);
@@ -123,17 +85,17 @@
             border-radius: var(--radius-sm);
             background: var(--card-bg);
             padding: 0.9rem 1.1rem;
-            margin: 0 0 1.6rem;
+            margin: 1.3rem 0 0;
             color: var(--text-secondary);
             font-size: 0.86rem;
             line-height: 1.55;
             max-width: 90ch;
         }
         .rule strong { color: var(--text-primary); }
+        .rule code { font-family: var(--font-mono); font-size: 0.82em; color: var(--accent-gold); }
 
-        /* toolbar */
         .toolbar {
-            position: sticky; top: 0; z-index: 20;
+            position: sticky; top: 4.1rem; z-index: 20;
             background: var(--nav-bg);
             backdrop-filter: blur(8px);
             border: 1px solid var(--border-subtle);
@@ -212,6 +174,12 @@
             border: 1px solid var(--border-medium); color: var(--text-secondary);
         }
         .card .desc { color: var(--text-secondary); font-size: 0.8rem; line-height: 1.5; flex: 1; }
+        .card .xf {
+            font-family: var(--font-mono); font-size: 0.62rem; line-height: 1.5;
+            color: var(--text-ghost); border-top: 1px dotted var(--border-medium);
+            padding-top: 0.4rem;
+        }
+        .card .xf b { color: var(--accent-copper); font-weight: 400; }
         .card .links { display: flex; gap: 0.6rem; align-items: center; }
         .card .links a { color: var(--accent-cyan); text-decoration: none; font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.06em; }
         .card .links a:hover { text-decoration: underline; }
@@ -227,44 +195,54 @@
 
         .empty { color: var(--text-muted); padding: 3rem 0; text-align: center; font-family: var(--font-mono); font-size: 0.8rem; }
         .err { color: var(--accent-rose); }
-
-        footer { border-top: 1px solid var(--border-subtle); margin-top: 3rem; padding-top: 1.2rem; color: var(--text-muted); font-size: 0.72rem; line-height: 1.6; }
-        footer a { color: var(--text-secondary); }
-
-        #themeToggle {
-            position: fixed; top: 1rem; right: 1rem; z-index: 50;
-            background: var(--nav-bg); border: 1px solid var(--border-medium);
-            color: var(--text-secondary); border-radius: 999px;
-            font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em;
-            padding: 0.4rem 0.8rem; cursor: pointer;
-        }
     </style>
 </head>
 <body>
-<button id="themeToggle" type="button" aria-label="Toggle theme"><span id="themeLabel">LIGHT</span></button>
-<div class="layout">
-    <nav class="crumbs">
-        <a href="/explorer.html">Naturgnosis</a><span class="sep">/</span>
-        <a href="/explorer.html?view=browse&dir=technique">Technique</a><span class="sep">/</span>
-        <a href="/view.html?p=notes/philosophia-artium-technicarum-et-operis.md">Philosophia Artium Technicarum</a><span class="sep">/</span>
-        <span class="here">Good-Producing Technical Element</span>
-    </nav>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
 
-    <h1 class="note-title">Good-Producing Technical Element Catalog</h1>
+<div class="masthead">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/good">good</a><span class="sep">/</span>
+        <span class="here">Good-Producing Goods</span>
+    </nav>
+    <h1 class="note-title">Good-Producing Goods</h1>
     <p class="subtitle">
-        Market-offered <em>types</em> of technical elements whose primary function is to transform reality itself,
-        yielding a Good, organised by the kind of Good they deliver and their implement role. Generated from the
-        <code>Good-Producing Technical Element</code> branch of
-        <a href="/view.html?p=notes/philosophia-artium-technicarum-et-operis.md" style="color:var(--accent-cyan)">Philosophia Artium Technicarum et Operis</a>.
+        The goods whose product is another good — the capital and intermediate side of the shelf, filed by the
+        kind of good each one delivers and by its implement role. Each card is a <em>type</em>: the
+        <code>Good-Producing Technical Element</code> branch of the
+        <a href="/view.html?p=notes/philosophia-artium-technicarum-et-operis.md">Philosophia Artium Technicarum et Operis</a>,
+        with the virtual producers added from the technica corpus. The goods themselves are classified in
+        <a href="/view.html?p=notes/social/good/good.md">Good</a> and
+        <a href="/view.html?p=notes/social/good/product.md">Product</a>.
     </p>
 
     <div class="rule">
         <strong>The test.</strong> An element is a producer when the transformation <em>is</em> the delivered Good.
         A conveyor that relocates goods it delivers is a producer (material/service good); the same belt moving another
-        producer's output to the next station is a support implement, not a producer. <strong>Kinds:</strong>
-        material, energy, information, service. <strong>Roles:</strong> machine, equipment, tool, facility, instrument, system.
+        producer's output to the next station is a support implement, not a producer.
+        <strong>Kinds:</strong> material, energy, information, service, virtual — the virtual good is the design,
+        model or document a <code>Production Virtual Technical Object</code> carries.
+        <strong>Roles:</strong> machine, equipment, tool, facility, instrument, system.
     </div>
+</div>
 
+<main class="wrap">
     <div class="toolbar">
         <input id="search" class="search" type="text" placeholder="Search types, descriptions, domains…" autocomplete="off">
         <div class="facet" id="kindFacet"><span class="facet-label">Kind</span></div>
@@ -282,26 +260,31 @@
     <div class="result-count" id="resultCount"></div>
     <div class="grid" id="grid"></div>
     <div class="pager" id="pager"></div>
+</main>
 
-    <footer id="footer">
-        <p>Dataset: <code>entries.json</code> — the catalog, projected into Technique Space by a one-time migration (see the technique graph); every card links its <code>?node=</code> deep link. Enumeration base Wikidata (CC0).</p>
-        <p id="credits">Images: none vendored yet — cards render a role glyph.</p>
-    </footer>
-</div>
+<footer class="page-foot">
+    <p>Data: <code>good-producing-good-entries.json</code> — <span id="footCount">1,574</span> types.
+    Enumeration base Wikidata (CC0); the virtual producers are added by hand from the technica notes, each card
+    linking the note that decomposes it. A catalogue of types, not a stock list, a price list, or a customs
+    classification. <span id="footCredits">No images vendored yet — cards render a role glyph.</span></p>
+</footer>
 
+<script src="/shared/usearch.js"></script>
+<script src="/shared/chrome.js"></script>
 <script>
 (function () {
     "use strict";
-    var DATA_URL = "good-producers-entries.json";
+    var DATA_URL = "good-producing-good-entries.json";
     var PAGE_SIZE = 60;
 
     var KIND_COLORS = {
         material: "var(--accent-copper)",
         energy: "var(--accent-amber)",
         information: "var(--accent-cyan)",
-        service: "var(--accent-sage)"
+        service: "var(--accent-sage)",
+        virtual: "var(--accent-plum)"
     };
-    var KINDS = ["material", "energy", "information", "service"];
+    var KINDS = ["material", "energy", "information", "service", "virtual"];
     var ROLES = ["machine", "equipment", "tool", "facility", "instrument", "system"];
     var state = { entries: [], kind: "all", role: "all", domain: "all", q: "", sort: "name", page: 1 };
 
@@ -316,6 +299,11 @@
         if (e.wikidata) return "https://www.wikidata.org/wiki/" + encodeURIComponent(e.wikidata);
         return (e.sources && e.sources[0]) || "";
     }
+    function noteLink(e) {
+        if (!e.repo || !e.repo.note) return "";
+        var path = "notes/" + e.repo.note.split("/").map(encodeURIComponent).join("/");
+        return '<a href="/view.html?p=' + path + '">note</a>';
+    }
 
     function filtered() {
         var q = state.q.trim().toLowerCase();
@@ -324,7 +312,7 @@
             if (state.role !== "all" && e.role !== state.role) return false;
             if (state.domain !== "all" && e.domain !== state.domain) return false;
             if (!q) return true;
-            return (e.name + " " + e.description + " " + e.domain + " " + e.kind + " " + e.role).toLowerCase().indexOf(q) !== -1;
+            return (e.name + " " + e.description + " " + (e.transforms || "") + " " + e.domain + " " + e.kind + " " + e.role).toLowerCase().indexOf(q) !== -1;
         });
     }
     function sorted(rows) {
@@ -377,11 +365,11 @@
                 var img = (e.image && e.image.file)
                     ? '<div class="thumb"><img loading="lazy" src="images/' + encodeURIComponent(e.image.file) + '" alt="' + esc(e.name) + '"></div>'
                     : '<div class="thumb">' + roleGlyph(e.role, e.kind) + "</div>";
-                var repo = (e.repo && e.repo.note)
-                    ? '<a href="/view.html?p=notes/' + encodeURIComponent(e.repo.note) + '">note</a>' : "";
-                var node = '<a href="/notes/?view=browse&dir=technica' + encodeURIComponent('gpe_' + e.kind + '_' + slug(e.name)) + '">node</a>';
+                var xf = e.transforms ? '<div class="xf"><b>→</b> ' + esc(e.transforms) + "</div>" : "";
                 var wd = wikiLink(e);
-                var links = '<div class="links">' + (wd ? '<a href="' + esc(wd) + '" target="_blank" rel="noopener">source</a>' : "") + node + repo + "</div>";
+                var links = '<div class="links">' +
+                    (wd ? '<a href="' + esc(wd) + '" target="_blank" rel="noopener">source</a>' : "") +
+                    noteLink(e) + "</div>";
                 return '<article class="card" id="card-' + esc(e.id || slug(e.name)) + '">' + img +
                     '<div class="body">' +
                     '<div class="name">' + esc(e.name) + "</div>" +
@@ -391,7 +379,7 @@
                     '<span class="tag">' + esc(e.domain) + "</span>" +
                     "</div>" +
                     '<div class="desc">' + esc(e.description) + "</div>" +
-                    links +
+                    xf + links +
                     "</div></article>";
             }).join("");
         }
@@ -436,32 +424,15 @@
         el("sort").addEventListener("change", function (ev) { state.sort = ev.target.value; render(); });
     }
 
-    function themeToggle() {
-        var btn = el("themeToggle"), label = el("themeLabel");
-        function paint() { label.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT"; }
-        paint();
-        btn.addEventListener("click", function () {
-            var root = document.documentElement;
-            root.classList.add("theme-fading");
-            setTimeout(function () {
-                root.dataset.theme = root.dataset.theme === "light" ? "dark" : "light";
-                try { localStorage.setItem("naturgnosis-theme", root.dataset.theme); } catch (e) {}
-                paint();
-                root.classList.remove("theme-fading");
-            }, 120);
-        });
-    }
-
     function deepLink() {
         var id = null;
         try { id = new URLSearchParams(window.location.search).get("id"); } catch (e) { id = null; }
         if (!id) return;
-        var idx = -1;
+        var target = null;
         for (var i = 0; i < state.entries.length; i++) {
-            if (state.entries[i].id === id) { idx = i; break; }
+            if (state.entries[i].id === id) { target = state.entries[i]; break; }
         }
-        if (idx < 0) return;
-        var target = state.entries[idx];
+        if (!target) return;
         state.kind = "all"; state.role = "all"; state.domain = "all"; state.q = ""; state.sort = "name";
         rebuildFacets();
         var rows = sorted(filtered());
@@ -477,23 +448,19 @@
     }
 
     function boot() {
-        themeToggle();
         bind();
         fetch(DATA_URL, { cache: "no-cache" })
             .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
             .then(function (data) {
                 state.entries = data.entries || [];
-                var withImg = state.entries.filter(function (e) { return e.image && e.image.file; }).length;
-                el("credits").textContent = withImg
-                    ? "Images: " + withImg + " vendored thumbnails (see credits.txt); remaining cards render a role glyph."
-                    : "Images: none vendored yet — cards render a role glyph.";
+                el("footCount").textContent = state.entries.length.toLocaleString("en-US");
                 renderStats();
                 rebuildFacets();
                 render();
                 deepLink();
             })
             .catch(function (err) {
-                el("grid").innerHTML = '<div class="empty err">could not load ' + DATA_URL + " (" + esc(err.message) + ")</div>";
+                el("grid").innerHTML = '<div class="empty err">could not load ' + DATA_URL + " (" + esc(err.message) + ")" + "</div>";
             });
     }
     boot();

@@ -265,6 +265,16 @@ frontend-facing surface in the deployment; there is no database behind it
   deep-link, and standards are indicative anchors rather than a conformity
   assessment.
 
+- **Good-producing goods** — `social/good/good-producing-good.{html,json}` is the
+  catalogue of goods whose product is another good (the capital and
+  intermediate side of the shelf), filed by the kind of good delivered —
+  material, energy, information, service, **virtual** — and by implement role.
+  The `virtual` kind carries the `Production Virtual Technical Object`
+  producers (CAD, CAM, CAE, CFD, EDA, BIM, digital twin, PLM, simulation,
+  technical documentation, rendering, IDE), each linked to the technica note
+  that decomposes it. Moved off `technica/general/cto/industry/`, where it had
+  been a producer list without a shelf home.
+
 ## On Technical Notes
 
 - **Discipline notes** live in `technica/discipline/` — one note per technical
@@ -766,6 +776,13 @@ when switching over.
   Autoregia index. Vendored runtime bundles: the notes MathJax under
   `src/app/vendor/mathjax/`, d3 under `src/app/vendor/d3.min.js`
   (the technica atlas dendrogram) — third-party copies, keep names as-is.
+- **Standard page chrome** — `src/app/shared/chrome.css` + `chrome.js` carry the
+  nav (brand, usearch, theme toggle), masthead/crumbs, `.note-title`/`.subtitle`
+  and `.page-foot` rules, and the `epistecnica-theme` toggle wiring, for the live
+  corpus pages that do **not** mount a TreeCatalog. The catalog surfaces get the
+  same rules injected by `src/app/data/live/tree-catalog.js`. A live page links
+  `/shared/usearch.css`, `/shared/chrome.css`, `/shared/usearch.js` and
+  `/shared/chrome.js` and never re-declares the nav or footer in page CSS.
 - AI (DeepSeek) is called browser-direct in the editors; the token lives only
   in the browser. The backend has no AI endpoints and must never hold keys.
 - User-facing pages must not reference backend scripts (`bin/...`,
