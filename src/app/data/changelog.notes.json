@@ -58209,7 +58209,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the host unit the governance regime binds was linked to Laboratory, whose note was retired into Research Actor; the link now points at Research Actor."
+    "summary": "Reference retargeted: the host unit the governance regime binds was linked to Laboratory, whose note was retired into Research Actor; the link now points at Research Actor.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -58275,7 +58277,9 @@
    {
     "date": "2026-11-18",
     "kind": "refactor",
-    "summary": "Reference list: the Laboratory see-also line is dropped, since that note was retired into Research Actor and repointing it would have repeated the Research Actor entry already in the same list."
+    "summary": "Reference list: the Laboratory see-also line is dropped, since that note was retired into Research Actor and repointing it would have repeated the Research Actor entry already in the same list.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -61186,7 +61190,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Research Center merged in. The research center was a separate note (laboratory.md) and a half-reworked draft (research-center.md); it is the host unit of this actor, so it is now a body section here rather than a sibling note. New section places the center as the equipped environment where groups, roles, facilities and a budget assemble into one address, keeps the three definition quotes (controlled environment, a lab is a set of research groups, what a research group is), and carries the two pasted tables verbatim: the eight roles of a research group with responsibilities and notes, and the indicative budget shares by category. The chat-scaffold lead-ins were replaced with plain ones and the draft's placeholder qa lines (a firm model set and a finance model) were not carried over. The decomposition prose no longer lists Laboratory among the entries whose subtype detail is worked elsewhere, since that material is now here, and the reference list swaps the Laboratory link for the works the section draws on: Hamberg 1963, Holt 1995, Klein 2008, Goldstein and Avasthi 2021, Hickman and Zahn 2024, the Nature piece on successful labs, and the Wikipedia laboratory article. The Nature item carries no author or year in the source and is left as a titled URL rather than given invented metadata; the Wikipedia link appeared twice in the draft and is kept once."
+    "summary": "Research Center merged in. The research center was a separate note (laboratory.md) and a half-reworked draft (research-center.md); it is the host unit of this actor, so it is now a body section here rather than a sibling note. New section places the center as the equipped environment where groups, roles, facilities and a budget assemble into one address, keeps the three definition quotes (controlled environment, a lab is a set of research groups, what a research group is), and carries the two pasted tables verbatim: the eight roles of a research group with responsibilities and notes, and the indicative budget shares by category. The chat-scaffold lead-ins were replaced with plain ones and the draft's placeholder qa lines (a firm model set and a finance model) were not carried over. The decomposition prose no longer lists Laboratory among the entries whose subtype detail is worked elsewhere, since that material is now here, and the reference list swaps the Laboratory link for the works the section draws on: Hamberg 1963, Holt 1995, Klein 2008, Goldstein and Avasthi 2021, Hickman and Zahn 2024, the Nature piece on successful labs, and the Wikipedia laboratory article. The Nature item carries no author or year in the source and is left as a titled URL rather than given invented metadata; the Wikipedia link appeared twice in the draft and is kept once.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -122986,7 +122992,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it belongs to."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it belongs to.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123002,7 +123010,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123018,7 +123028,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123034,7 +123046,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123050,7 +123064,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123066,7 +123082,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123093,7 +123111,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123109,7 +123129,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123136,7 +123158,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123152,7 +123176,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123168,7 +123194,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it grew out of."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it grew out of.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123184,7 +123212,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form the centre is organised as."
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form the centre is organised as.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  },
@@ -123205,7 +123235,9 @@
    {
     "date": "2026-11-18",
     "kind": "remove",
-    "summary": "Note retired. Its content was the research center material — the definition quotes, the research-group roles table and the budget-share table — now merged into Research Actor, of which the laboratory was the host unit. No content was lost in the merge except the placeholder qa lines and the duplicate Wikipedia reference; the draft replacement research-center.md was never committed. The fifteen notes that linked this file now link Research Actor."
+    "summary": "Note retired. Its content was the research center material — the definition quotes, the research-group roles table and the budget-share table — now merged into Research Actor, of which the laboratory was the host unit. No content was lost in the merge except the placeholder qa lines and the duplicate Wikipedia reference; the draft replacement research-center.md was never committed. The fifteen notes that linked this file now link Research Actor.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
    }
   ]
  }
