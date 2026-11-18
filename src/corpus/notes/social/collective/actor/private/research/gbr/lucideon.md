@@ -26,4 +26,4 @@ Lucideon is the industrial-research model that predates the modern institute: a 
 - [Lucideon — Wikipedia](https://en.wikipedia.org/wiki/Lucideon)
 - [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) — the actor type it became
-- [Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md) — the actor form it grew out of
+- [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form it grew out of

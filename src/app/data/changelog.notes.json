@@ -58205,6 +58205,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the host unit the governance regime binds was linked to Laboratory, whose note was retired into Research Actor; the link now points at Research Actor."
    }
   ]
  },
@@ -58266,6 +58271,11 @@
     "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note.",
     "commit": "d087333df006fa5b289979e758f1df403a5744ff",
     "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "refactor",
+    "summary": "Reference list: the Laboratory see-also line is dropped, since that note was retired into Research Actor and repointing it would have repeated the Research Actor entry already in the same list."
    }
   ]
  },
@@ -61172,6 +61182,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Research Center merged in. The research center was a separate note (laboratory.md) and a half-reworked draft (research-center.md); it is the host unit of this actor, so it is now a body section here rather than a sibling note. New section places the center as the equipped environment where groups, roles, facilities and a budget assemble into one address, keeps the three definition quotes (controlled environment, a lab is a set of research groups, what a research group is), and carries the two pasted tables verbatim: the eight roles of a research group with responsibilities and notes, and the indicative budget shares by category. The chat-scaffold lead-ins were replaced with plain ones and the draft's placeholder qa lines (a firm model set and a finance model) were not carried over. The decomposition prose no longer lists Laboratory among the entries whose subtype detail is worked elsewhere, since that material is now here, and the reference list swaps the Laboratory link for the works the section draws on: Hamberg 1963, Holt 1995, Klein 2008, Goldstein and Avasthi 2021, Hickman and Zahn 2024, the Nature piece on successful labs, and the Wikipedia laboratory article. The Nature item carries no author or year in the source and is left as a titled URL rather than given invented metadata; the Wikipedia link appeared twice in the draft and is kept once."
    }
   ]
  },
@@ -122967,6 +122982,11 @@
     "kind": "feat",
     "summary": "Note created. Fraunhofer IKTS as the applied ceramics institute of the Fraunhofer-Gesellschaft: founded in Dresden in 1992, run from Dresden and Hermsdorf, contract-funded, so its agenda is set by what industry pays to have solved. Ceramic focus bullets (advanced and structural ceramics, composites, manufacturing, energy materials, membranes, electronic ceramics, characterisation); place in the field stated as the German translation institute between the universities and a fragmented mid-sized industry, and explicitly not a standards body or a university.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it belongs to."
    }
   ]
  },
@@ -122978,6 +122998,11 @@
     "kind": "feat",
     "summary": "Note created. JFCC as the Japanese fine-ceramics centre in Nagoya, established 1985 with money from several hundred companies — the industry financing the laboratory that would evaluate the materials it meant to sell. Focus bullets (fine ceramics, nanostructure and electron microscopy, functional and battery materials, computational materials science, shared evaluation); place in the field stated as the shared evaluation laboratory, distinct from a university and a manufacturer, because a firm's own lab has an interest in its powder looking good.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -122989,6 +123014,11 @@
     "kind": "feat",
     "summary": "Note created. NIMS as Japan's national materials institute at Tsukuba, formed in 2001 by merging the National Research Institute for Metals and the National Institute for Research in Inorganic Materials, under MEXT. Focus bullets (transparent and optical ceramics, functional ceramics, high-temperature materials, sintering science, nanomaterials, characterisation); place in the field stated as upstream of JFCC and industry — long-horizon, publicly funded, with an instrument base no single firm would carry.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123000,6 +123030,11 @@
     "kind": "feat",
     "summary": "Note created. ORNL as a DOE national laboratory, established 1943 for the Manhattan Project and managed by UT-Battelle since 2000, with ceramics read as a mission programme rather than a materials department. Focus bullets (nuclear ceramics, ceramic matrix composites, refractories, advanced processing including additive manufacturing, neutron and X-ray characterisation at SNS and HFIR, coatings); place in the field stated as measurement-led and duty-driven.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123011,6 +123046,11 @@
     "kind": "feat",
     "summary": "Note created. ICV-CSIC as the ceramics and glass institute of the Spanish National Research Council: a silicates section in 1954, raised to an institute in June 1964, on the Cantoblanco campus since 2002, with four departments (Ceramics, Electroceramics, Surface Physics and Processes, Glasses). Focus bullets (ceramic engineering, glass and glass-ceramics, bioceramics, electroceramics, colloidal processing, archaeometry); place in the field stated against Spain's tile industry and its technology centres, with the archaeometry line noted as keeping the institute close to the pottery record.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123022,6 +123062,11 @@
     "kind": "feat",
     "summary": "Note created. CACT as a New York State Center for Advanced Technology at Alfred University, first designated 1987 and renewed 2018. Focus bullets (electronic ceramics, high-temperature structural ceramics, ceramic additive manufacturing, glass and photonic ceramics, testing and analysis, workforce); place in the field stated as the state-level American answer to the Fraunhofer model: access rather than a product line, at the scale of one state and one material.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123044,6 +123089,11 @@
     "kind": "feat",
     "summary": "Note created. KICET as Korea's dedicated ceramics institute: lineage from the ceramics department of the Central Testing Laboratory in 1912, government-funded from 2000, independent corporation from 4 May 2009. Focus bullets (materials and processes, electronic and display ceramics, energy ceramics, bioceramics, structural and refractory ceramics, testing and certification); place in the field stated through the certification role — a KICET test result is a market document, which is why the name says engineering and technology rather than science. No city asserted, because the institute's sites conflict across sources.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123055,6 +123105,11 @@
     "kind": "feat",
     "summary": "Note created. SICCAS as the ceramics institute of the Chinese Academy of Sciences: lineage from the Engineering Institute of 1928, the ceramic part separated in 1959, the present name from 1984. Focus bullets (high-performance ceramics, functional materials and devices, energy materials, artificial crystals, biomaterials, coatings and eco-materials, characterisation, ancient and industrial ceramics); place in the field stated through the two unusual programmes — crystal growth and archaeometry, with the International Symposium on Ancient Ceramics run from the institute since 1982.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123077,6 +123132,11 @@
     "kind": "feat",
     "summary": "Note created. Empa as the Swiss Federal Laboratories for Materials Science and Technology, based in Dubendorf with sites in St. Gallen and Thun, begun in 1880 as the federal material-testing laboratory and renamed in 1988. Focus bullets (high-performance ceramics, nanostructured and nanocomposite ceramics, thin films and photovoltaics, joining and corrosion, mechanical and thermal testing, energy materials); place in the field stated as an ETH-domain applied laboratory where ceramics meets thin films and interfaces, with the testing duty of the original laboratory still present.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123088,6 +123148,11 @@
     "kind": "feat",
     "summary": "Note created. NASA Glenn as the Cleveland laboratory founded in 1941 as the Aircraft Engine Research Laboratory and named for John Glenn in 1999, with ceramics read as aerospace ceramics. Focus bullets (ceramic matrix composites, environmental and thermal barrier coatings, high-temperature ceramics, processing and joining, testing at temperature); place in the field stated as the case where the requirement precedes the science, with the composite programme as the reference example of a ceramic replacing a superalloy and the oxidation problem driving the coating programme.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form an actor form."
    }
   ]
  },
@@ -123099,6 +123164,11 @@
     "kind": "feat",
     "summary": "Note created. Lucideon as the direct descendant of the British Ceramic Research Association: BRRA 1920 and BPRA 1937 merged as the BCRA in April 1948, became British Ceramic Research Ltd and CERAM in 1986, rebranded Lucideon on 1 February 2014. Focus bullets (testing and analysis, materials development, advanced ceramics, assurance and certification, failure investigation, information services); place in the field stated as the industrial-research model that predates the modern institute, including the 1950s turn to sintered oxides and dielectrics that made a pottery association into a technical-ceramics laboratory.",
     "commit": "247fda19f5fd896d10c2b5c6d3f245ed091d2634"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form it grew out of."
    }
   ]
  },
@@ -123110,6 +123180,11 @@
     "kind": "feat",
     "summary": "Note created. CeRTEV as the Brazilian glass centre: a FAPESP Research, Innovation and Dissemination Center hosted by UFSCar, started in 2013, directed by Edgar Dutra Zanotto, with USP and UNESP participating; noted that FAPESP renders the name as the Center for Research, Teaching, and Innovation in Glass while the institute uses the Center for Research, Technology and Education in Vitreous Materials. Focus bullets (physics of the vitreous state and the glass-genome framing, crystallisation and nucleation kinetics, glass-ceramics, bioactive and functional glasses, processing and properties, the Sao Carlos School and education). Place in the field states the CEPID instrument's research-innovation-dissemination mandate and argues the shelf placement: glass is a ceramic in the materials-science sense and glass-ceramics are glasses crystallised on purpose, so the boundary is a processing boundary and the centre works across it.",
     "commit": "6b77c8144411bf03d12751a8cdb07bffa9121155"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the Laboratory link, whose note was retired into Research Actor, now points at Research Actor — the actor form the centre is organised as."
    }
   ]
  },
@@ -123121,6 +123196,16 @@
     "kind": "feat",
     "summary": "Note created. Chemical engineering as its own discipline rather than a member of chemical sciences: the family note asks which substance and by which transformation, this one asks how that transformation is carried at industrial scale, and its warrant is a plant in specification rather than an assay that reproduces. Full Formulation with the five questions, the boundary / stopping-rule / identity / typing block, and a 121-row instance tree: orientation (industrial transformation purpose, on-specification and envelope-integrity goals, the scale-up, transport, separation, dynamics and safety-envelope gaps), agents, the segment (reaction system, transport path, separation train, flowsheet, operating envelope), observables (conversion, selectivity, space-time yield, residence-time distribution, pressure drop, purity and recovery, energy demand), access (lab reactor to pilot plant to instrumented plant, PAT, calorimetry), representation (balances, rate laws, the transport equations, PFD and P&ID, dimensionless groups, reactor, simulator, CFD and control models), evaluation, communication, infrastructure, context, guidance (conservation, rate-limiting step, unit-operation decomposition, similarity, inherent safety, recycle and purge) and fifteen member practices from reaction engineering to process intensification. Critical evaluation leads with the verdict that the warrant is local while the claim is general, grades scale-up validity and empirical warrant moderate, and closes on the limits of pilot-plant evidence and on the discipline's silence about whether a product should be made at all.",
     "commit": "2e8ecd5bb42e4b45286f9d01cf917254938698d4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/laboratory.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "remove",
+    "summary": "Note retired. Its content was the research center material — the definition quotes, the research-group roles table and the budget-share table — now merged into Research Actor, of which the laboratory was the host unit. No content was lost in the merge except the placeholder qa lines and the duplicate Wikipedia reference; the draft replacement research-center.md was never committed. The fifteen notes that linked this file now link Research Actor."
    }
   ]
  }

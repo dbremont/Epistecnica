@@ -25,5 +25,5 @@ IKTS is the translation institute of the German ceramic system. The universities
 - [IKTS — History](https://www.ikts.fraunhofer.de/en/aboutus/history.html) — founded in Dresden in 1992
 - [Fraunhofer-Gesellschaft](https://www.fraunhofer.de/en.html)
 - [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class the institute works on
-- [Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md) — the actor form it belongs to
+- [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form it belongs to
 - [Enterprise Research Lab](/view.html?p=notes/social/collective/actor/enterprise-research-lab.md) — the industrial-research contrast

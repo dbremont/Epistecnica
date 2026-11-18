@@ -23,5 +23,5 @@ JFCC is the shared evaluation laboratory of the Japanese ceramics industry. A fi
 
 - [Japan Fine Ceramics Center](https://www.jfcc.or.jp/en/about/) — establishment in 1985
 - [Ceramic](/view.html?p=notes/production/production/technique/materiotecnia/ceramic.md) — the material class
-- [Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md) — the actor form
+- [Research Actor](/view.html?p=notes/social/collective/actor/research.md) — the actor form
 - [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) — the smaller unit a centre like this coordinates

@@ -32,7 +32,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md), [Research Group](/view.html?p=notes/social/collective/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/collective/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/collective/actor/public/catalog/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
+> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/collective/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/collective/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/collective/actor/public/catalog/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
 >
 > Stopping rule: a row is terminal when it names a subtype, a national system, a concrete institute, an agency, a role, a norm, an obligation, or a practice, or when it links an already-decomposed entry.
 >
@@ -84,6 +84,44 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 | Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United Kingdom Research System Set | The UK's national laboratories, councils, and institutes (`gbr/`). |
 | Collective / Organization `(→ Part)` Research Actor `(→ Part)` `Social Compound` `(→ Part)` United Kingdom Research System Set `(→ Part)` Collective / Organization `(→ Part)` National Physical Laboratory | The UK's national measurement institute (`gbr/`). |
 
+## Research Center
+
+> The **research center** is the host unit of the research actor: the equipped, controlled environment in which inquiry is carried out, and the level at which groups, roles, facilities and a budget are assembled into one address.
+
+> A **laboratory** is a controlled environment equipped with specialized equipment and facilities where scientific research, experiments, and measurements are conducted to advance knowledge in various fields.
+
+> A lab is a set of research groups.
+
+> A **research group** is a collaborative team of scientists and researchers working together on specific scientific inquiries, projects, or programs within a lab, often led by a principal investigator and sharing common goals and resources.
+
+### Research Group
+
+The roles a research group typically carries, with their responsibilities:
+
+| **Role** | **Responsibilities** | **Notes** |
+| --- | --- | --- |
+| **Principal Investigator (PI)** | Leads the research group, secures funding, defines research direction, oversees projects, mentors team members | Often, a senior faculty member or experienced researcher |
+| **Researcher SR** | Conducts advanced research, designs experiments, analyzes data, mentors graduate students, writes papers | Typically holds a PhD and is gaining additional research experience |
+| **Researcher JR** | Conducts research as part of their thesis/dissertation, collects and analyzes data, presents findings | Pursuing a master's or doctoral degree |
+| **Research Technician** | Supports lab operations, maintains equipment, prepares reagents, assists with experiments | May have a bachelor's or master's degree |
+| **Research Apprentice** | Assists with research projects, performs basic experiments, data entry, and literature reviews | Gaining research experience as part of their education |
+| **Lab Manager** | Manages day-to-day lab operations, ensures compliance with safety regulations, and orders supplies. | May also assist with research activities |
+| **Collaborator** | Provides specialized expertise, participates in joint research projects, co-authors publications | May be from different institutions or disciplines |
+| **Administrative Staff** | Handles administrative tasks, manages grants and budgets, coordinates meetings and communications | Supports the logistical needs of the research group |
+
+### Cost Structure
+
+Approximate shares of a research group's total budget:
+
+| **Category** | **Percentage of Total Budget** | **Description** |
+| --- | --- | --- |
+| **Salaries and Benefits** | 40–60% | Compensation for researchers, administrative staff, and technical support. |
+| **Infrastructure and Facilities** | 15–25% | Maintenance of buildings, utilities, and overhead costs. |
+| **Equipment** | 10–20% | Purchase, maintenance, and depreciation of research tools and technology. |
+| **Materials and Consumables** | 5–15% | Supplies like chemicals, software licenses, and other expendables. |
+| **Grants and External Collaboration** | 5–10% | Funding for partnerships, visiting scholars, and collaborative projects. |
+| **Miscellaneous** | 5–10% | Travel, training, workshops, and contingency reserves. |
+
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
@@ -91,7 +129,6 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) (parent: the generic collective/organization type)
 - [Research Activity](/view.html?p=notes/social/action/activity/research/research.md) (the doing family this actor performs)
 - [Science](/view.html?p=notes/social/action/activity/research/science/science.md) (the scientific activity family that scopes inquiry)
-- [Laboratory](/view.html?p=notes/social/collective/actor/laboratory.md) (host unit of research groups)
 - [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) (quasi-firm team subtype)
 - [Enterprise Research Lab](/view.html?p=notes/social/collective/actor/enterprise-research-lab.md) (corporate subtype)
 - [Public Research Institutes (PRI)](/view.html?p=notes/social/collective/actor/public/catalog/pri.md) (public-research subtype)
@@ -107,3 +144,10 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 - [U.S. National Science Foundation (NSF)](/view.html?p=notes/social/collective/actor/public/catalog/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
 - [ITRI](/view.html?p=notes/social/collective/actor/public/catalog/research/twn/itri.md) (`twn/`)
 - [Royal Bohemian Society of Sciences](/view.html?p=notes/social/collective/actor/private/research/cze/royal-bohemian-society-of-sciences.md) (learned society, `cze/`)
+- Hamberg, D. (1963). Invention in the industrial research laboratory. *Journal of Political Economy*, 71(2), 95–115.
+- Holt, C. A. (1995). Industrial organization: A survey of laboratory research. *The handbook of experimental economics*, 349–402.
+- Klein, U. (2008). The laboratory challenge: Some revisions of the standard view of early modern experimentation. *Isis*, 99(4), 769–782.
+- Goldstein, B., & Avasthi, P. (2021). A guide to setting up and managing a lab at a research-intensive institution. *BMC Proceedings*, 15(Suppl 2).
+- Hickman, K. J. E., & Zahn, G. (2024). Ten simple rules for leading a successful undergraduate-intensive research lab. *PLOS Computational Biology*, 20(4), e1011994.
+- The strategy behind one of the most successful labs in the world. *Nature*. https://www.nature.com/articles/d41586-024-02085-2
+- [Laboratory](https://en.wikipedia.org/wiki/Laboratory)
