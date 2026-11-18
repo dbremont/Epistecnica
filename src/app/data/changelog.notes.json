@@ -95135,6 +95135,11 @@
     "date": "2026-11-12",
     "kind": "feat",
     "summary": "New `City` note: the city typed as a `Production Technical System` (readable as `Technical Element Set`) decomposing the 10 urban systems and 30 components of the integrated urban technology catalog into a 77-row guide-conforming table under `Technical Element → Production Technical System → City System`, plus the conceptual evaluation. Integrates and removes social/problem/dimension/urbanism/city-technology-infrastructure.md."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "remove",
+    "summary": "Note removed: merged into social/structural/region/city.md and deleted. Its content was the city read as a Production Technical System — the type statement, the boundary and identity preamble, the 77-row decomposition of the ten urban systems and their objects, and the conceptuum evaluation — and all of it is carried verbatim in the merged note's section 'The city as a technical system'. The merge was made because the city is a settlement (a Social Compound) and the technical system is one reading of its fabric; the industry shelf was the wrong home for the settlement. Consequence: the City branch leaves the technica atlas forest on regeneration; its member systems remain in the forest through their own notes (energy, construction, logistics, dam, house, water, waste)."
    }
   ]
  },
@@ -123249,6 +123254,16 @@
     "kind": "feat",
     "summary": "Note created. The spectrogram as the time-frequency reading of a signal: the squared magnitude of the short-time Fourier transform, one spectrum per frame, time across and frequency down with power carried by intensity. Records the construction chain (frame, window, FFT, square, assemble) and the two quantities that follow from the parameters alone, the bin spacing f_s/N and the column spacing H/f_s, with a parameter table for sampling rate, frame length, hop, window and dB scaling. The central section is the resolution trade-off: a short frame localises a click and smears its pitch, a long frame resolves close partials and smears their onsets, bounded by the Gabor limit and restated by every window function as leakage against main-lobe width — so a spectrogram is read as a choice about which structures to resolve rather than measured. Adds a reading table (harmonics as parallel bands, vibrato as wobble, transients as vertical stripes, chirps as slopes, noise as a floor, aliasing as a fold), a variants table (linear, mel, log-frequency and constant-Q, reassigned, synchrosqueezed, scalogram), and the limits: phase discarded so reconstruction needs Griffin-Lim or the complex STFT, quasi-stationarity assumed inside each frame, leakage and scalloping, and the trade-off as the shape of the object rather than a defect. References: Wikipedia spectrogram, STFT, Gabor limit and mel scale, Allen and Rabiner 1977, Harris 1978, Griffin and Lim 1984, Oppenheim and Schafer, plus links into the signal cluster and to Frequency (Periodicity).",
     "commit": "706e158ec6d7d556e130d18182f9abcf3dc61a02"
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/region/city.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Note rebuilt as the single city note: the technical system note technica/general/cto/industry/city-system.md merged into it and deleted. The note now leads with the settlement definition, keeps the original Ontological Signature table verbatim (with a line noting it is the original signature and that the type is settled under Formulation), and adds a social Formulation: City typed as a Social Compound (Ontic, structural-spatial facet), with the contrasts that do the work — not an Interaction Unit (the governing public organization is an actor inside the compound), not a Region (an interaction field rather than a settlement with fabric and institutions), not a Polity (a city-state is both), and not a Production Technical System simpliciter (that is the second reading). A 29-row settlement-level decomposition covers territory, population (resident, household, resident organization), built fabric (dwelling stock, civic premises, public space, technical networks as a grouping), institutions (governance, property regime, planning regime, market, culture and memory), relations (region, supply, network of cities) and composite forms (town, metropolitan city, conurbation, city-state); the technical fabric is named once as a grouping and decomposed in the carried section. New section 'The city as a technical system' carries the former note's type statement and its 77-row Production Technical System tree verbatim, plus its conceptuum evaluation, so no technical content was lost in the move. New section 'Planning, architecture and zoning' sets the three frames that act on the settlement at different scales, with zoning described as the legal instrument binding them and as the place where settlement and technical system meet, anchored on Euclid v. Ambler (1926), the UK Town and Country Planning Act 1947 and Sweden's Plan- och bygglagen (2010:900) with Boverket as national board. References integrated into one list: the corpus urbanism and construction links (urbanismo, urban design, urban mobility, urban drainage, microclimate engineering, waste management and valorisation, architecture, residential building, construction technology, construction project system, logistics system, energy technology, region, public organization), the literature (Lynch 1960, Jacobs 1961, Alexander 1977, Mumford 1961, Sitte 1889, Le Corbusier 1925, Kostof 1991, Frampton 1980, Vitruvius), the planning-law anchors and the standards (ISO 37122, UN SDGs), with the note's existing Camargo reference kept."
    }
   ]
  }
