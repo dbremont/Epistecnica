@@ -21,6 +21,14 @@ qa:
 
 ## Formulation
 
+### What is this social instance?
+
+> A property right fixes *who stands in what relation to which object, and against whom*: the standing that makes an object someone's rather than anyone's, and the answer to what its holder may do, what others may not, and who may change the arrangement. It is the relation, not the thing and not the person — one field can carry ownership, a lease, an easement and a mortgage at once, held by four different parties, and the field itself carries none of them.
+
+> The concept was made by Roman law's separation of *dominium* from mere *possessio*, and has been remade twice since. Hohfeld's analysis (1913, 1917) dissolved "property" into jural relations — claim and duty, privilege and no-right, power and liability, immunity and disability — so that what had been read as a relation between a person and a thing became a set of relations among persons about a thing. Honoré's incidents (1961) gave ownership an internal structure: to possess, to use, to manage, to take the income, to take the capital, to be secure, to transmit, to hold without term, to prevent harm, to be liable to execution, and to hold a residuary title. Berle and Means (1932) then split the bundle along the seam every shareholder now lives in — ownership from control.
+
+> Two consequences follow, and both are already in the decomposition below. First, "property right" names a bundle *and* any of its members: a tenant holds a property right without owning, so a question about property stays under-specified until the incident is named. Second, the object has drifted off the land — the intangible and the virtual object now carry the same incidents — which is why the tokenization material in the references is a property question and not a technical one.
+
 ### What social element type does this social instance belong to?
 
 **A property right belongs to `Social Relation`** — `Social Element (→ Kind)` `Ontic (→ Kind)` `Social Relation` — the recognized standing of a holder over an object, held against the parties on whom the correlative duty falls. It is a property neither of the holder nor of the thing: the same person, holding the same object, has a different property right under a different regime, and the object is unchanged by the transfer.
@@ -28,6 +36,10 @@ qa:
 Read as **Ontic** where it is enforced: a claim that courts, police and neighbours actually honour. Read as **Synontic** where its content exists through recognition alone: which incidents the bundle contains, who may hold it and what may be owned are settled by a rule-complex, not found in the thing. The two are the same relation seen from its effective and its constituted side, and the note's question whether property can exist outside social recognition is the question of what remains when the second is withdrawn.
 
 It is **not a kind of object** — the object is what the relation ranges over, documented at [Asset](/view.html?p=notes/social/synontic/asset.md), which is why a thing can be an asset under one property right and not under another. It is **not its genus**: [Rights](/view.html?p=notes/social/normative/right.md) is the recognized claim with its duty-bearer, and property is the species whose duty-bearers are unspecified and whose object is held rather than owed. It is **not possession** — factual control, which the law may protect without a right and which a thief has — nor **ownership**, which is the fullest bundle one title among several can carry.
+
+### Which facet does this element belong to, if applicable?
+
+> Legal first: the rule that allocates and enforces the incidents is the dominant causal mechanism — who may exclude, use and dispose, and who bears the correlative duty. Economic where provisioning, investment and exchange explain what the allocation is *for*; political where the regime itself is legislated, expropriated or redistributed; normative where the justification of the bundle is at issue. See [Facet](/view.html?p=notes/social/framework/facet.md).
 
 ### What is the recursive instance decomposition of this social instance?
 
@@ -77,8 +89,6 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 | `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Divisibility | How finely the bundle can be split across holders: the reason a single object can carry ownership, lease, mortgage and servitude at once. |
 | `Social Element` `(→ Kind)` `Ontic` `(→ Kind)` `Social Relation` `(→ Instance)` Property Right `(→ Attribute)` `Social Property` `(→ Instance)` Duration | Whether the relation runs indefinitely or for a term — and, for terms, what happens to the incidents at the end. |
 
-### Which are the related concepts?
-
 ### What is a critical conceptual evaluation of this social element instance?
 
 > Evaluated with the concept-assessment criteria of [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md), covering its minimum set (identification, clarity, determinacy, consistency, representational and purpose adequacy) plus the criteria where this concept scores notably high or low:
@@ -114,6 +124,8 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 | Normative and Strategic Adequacy | **Purpose Adequacy** | High (adequate for regime comparison and allocation questions; weak if asked to settle which regime is just) |
 | Normative and Strategic Adequacy | **Performative Effects** | Notable (titling creates the holder it records, and the register changes what it measures) |
 | Normative and Strategic Adequacy | **Misuse Resistance** | Low–Moderate (the word absorbs any claim — "intellectual property", "my property" for access — which is how the boundary erodes) |
+
+### Which are the related concepts?
 
 ## QA
 
