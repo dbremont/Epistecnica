@@ -122460,7 +122460,9 @@
    {
     "date": "2026-11-17",
     "kind": "edit",
-    "summary": "The Landell de Moura row corrected on two points and given its comparison. The year is 1900, not 1899-1900, and the patent is named properly as Brazilian Patent No. 3,279. More importantly the claim is now stated correctly: June 1900 is six months before Fessenden's December transmission, so he is first by date and second by record — a new paragraph separates the three firsts that get collapsed (Bell's speech on light in 1880, Landell's radio voice in June 1900, Fessenden's in December 1900) and names the asymmetry: his demonstration is documented by the press rather than by a published test anyone could reproduce, which is why the standard account omits him. The earlier \"early, not first\" wording was simply wrong about the chronology."
+    "summary": "The Landell de Moura row corrected on two points and given its comparison. The year is 1900, not 1899-1900, and the patent is named properly as Brazilian Patent No. 3,279. More importantly the claim is now stated correctly: June 1900 is six months before Fessenden's December transmission, so he is first by date and second by record — a new paragraph separates the three firsts that get collapsed (Bell's speech on light in 1880, Landell's radio voice in June 1900, Fessenden's in December 1900) and names the asymmetry: his demonstration is documented by the press rather than by a published test anyone could reproduce, which is why the standard account omits him. The earlier \"early, not first\" wording was simply wrong about the chronology.",
+    "commit": "35a344b63aec8b3d73f0647aafc6bc39d19500e5",
+    "before": "6e67ca6bc1c1ec659a346caaf731c35b4deccc48"
    }
   ]
  }
