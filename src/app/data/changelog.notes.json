@@ -122873,7 +122873,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "The two remaining Formulation questions filled. What is this social instance: the relation stated as who stands over what against whom, with the concept history at its real strength — Roman dominium against possessio, Hohfeld dissolving property into jural relations, Honore giving ownership its eleven incidents, Berle and Means splitting ownership from control — and the two consequences the decomposition already encodes. Which facet: legal first, with economic, political and normative as the secondary readings."
+    "summary": "The two remaining Formulation questions filled. What is this social instance: the relation stated as who stands over what against whom, with the concept history at its real strength — Roman dominium against possessio, Hohfeld dissolving property into jural relations, Honore giving ownership its eleven incidents, Berle and Means splitting ownership from control — and the two consequences the decomposition already encodes. Which facet: legal first, with economic, political and normative as the secondary readings.",
+    "commit": "e9e884c59d140c7d150ca2efe948441cbdf6e4f6",
+    "before": "8fbbb7c9f22d3cb4d5e6fd37579dec773d36e732"
    }
   ]
  }
