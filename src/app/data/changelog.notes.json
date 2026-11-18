@@ -123112,5 +123112,15 @@
     "commit": "6b77c8144411bf03d12751a8cdb07bffa9121155"
    }
   ]
+ },
+ {
+  "file_path": "epistemica/epistemic/discipline/chemical-engineering.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Note created. Chemical engineering as its own discipline rather than a member of chemical sciences: the family note asks which substance and by which transformation, this one asks how that transformation is carried at industrial scale, and its warrant is a plant in specification rather than an assay that reproduces. Full Formulation with the five questions, the boundary / stopping-rule / identity / typing block, and a 121-row instance tree: orientation (industrial transformation purpose, on-specification and envelope-integrity goals, the scale-up, transport, separation, dynamics and safety-envelope gaps), agents, the segment (reaction system, transport path, separation train, flowsheet, operating envelope), observables (conversion, selectivity, space-time yield, residence-time distribution, pressure drop, purity and recovery, energy demand), access (lab reactor to pilot plant to instrumented plant, PAT, calorimetry), representation (balances, rate laws, the transport equations, PFD and P&ID, dimensionless groups, reactor, simulator, CFD and control models), evaluation, communication, infrastructure, context, guidance (conservation, rate-limiting step, unit-operation decomposition, similarity, inherent safety, recycle and purge) and fifteen member practices from reaction engineering to process intensification. Critical evaluation leads with the verdict that the warrant is local while the claim is general, grades scale-up validity and empirical warrant moderate, and closes on the limits of pilot-plant evidence and on the discipline's silence about whether a product should be made at all."
+   }
+  ]
  }
 ]
