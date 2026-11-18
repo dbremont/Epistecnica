@@ -122903,5 +122903,15 @@
     "before": "bdde47381172fb3b9ba7919a5879b3529868f48a"
    }
   ]
+ },
+ {
+  "file_path": "nature/matter/wax.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Note created. Wax as a substance class: lipophilic solid, malleable at ambient temperature, melting above ~40 C into a thin liquid; the class is individuated by property regime rather than by ratio, which is stated against compound, natural object, fat and resin (Japan wax as the false friend). 40-row decomposition over the origin kinds (animal, plant, mineral, petroleum, synthetic), their named waxes, the constituents, the five individuating properties, the two states, the three environments and the melting threshold as the single natural constraint; limitations paragraph. A technical-uses section follows, drawn from the Wikipedia reference: illumination, sacrificial pattern in lost-wax casting, barrier coating, release and slip, polish, plastics and paint additives, writing and closure (wax tablets, sealing wax, carbon paper, crayons, encaustic), cosmetics, sport, modelling and wax bullets, with the lost-wax and sealing-wax cases singled out because they turn on the wax being destroyed or broken."
+   }
+  ]
  }
 ]
