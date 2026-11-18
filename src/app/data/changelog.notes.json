@@ -57415,6 +57415,11 @@
     "kind": "feat",
     "summary": "Import from the Produciologia (Laboratorium Productivum et Mercatorum) export: the export's uuid suffixes and capitals dropped from every path, README.md renamed to readme.md, the section tag added to front matter, relative links retargeted to the corpus viewer and the five images moved to the shared asset store.",
     "commit": "19aead3fd6708c70899d5ffa9d8736f273b85a1d"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Stub replaced with a full note. Ceramic defined by its processing contract rather than one chemistry: an inorganic, non-metallic body formed as clay or powder and consolidated by firing; the class boundary drawn against glass (amorphous, melt-formed), cement and plaster (hydrated at ambient temperature), metals (slip versus fracture), polymers and composites, with the property signature and its exceptions (ionic conduction, piezoelectricity, ferroelectricity, magnetism, superconductivity, transparency). The production chain is a five-stage table (body preparation, forming, drying, firing and sintering, glazing and finishing) with the techniques at each stage. The history runs from the fired-clay Venus of Dolni Vestonice through the East Asian earliest pottery (Xianrendong ~20,000 cal BP, Yuchanyan ~18,000-17,000), the Neolithic kiln and the Mesopotamian fast wheel, Egyptian faience and Chinese high-fired stoneware and porcelain, Islamic tin glaze and its European transmission, Meissen 1708 and Wedgwood, the nineteenth-century refractory and electrical-porcelain turn, and twentieth-century materials science (sintering theory, alumina and zirconia, SiC and Si3N4, glass-ceramics, bioceramics) to additive manufacturing. A ten-family table follows. References: an integrated chronological APA list of 28 works from Binns (1910) and Hobson (1915) to Rice (2015), no library entries created."
    }
   ]
  },
