@@ -93260,7 +93260,9 @@
    {
     "date": "2026-11-12",
     "kind": "refactor",
-    "summary": "Retype geotechnical engineering from `Epistemic Practice` to the technica grammar and move it from epistemica/epistemic/discipline/ to technica/discipline/. The note now answers the three technica formulation questions (type, instance, recursive decomposition) plus the conceptual evaluation, and its decomposition is a 303-row `Technical Practice` table grown from purposes, problems, the ground model and its parameters through constraints, standards, research, principles, frameworks, strategies, institutions, agents, five task/technique/act chains (investigation, laboratory, design, construction, monitoring), interfaces, architecture, blueprints, evaluation, feedback, hazards, risks, failures, maintenance, lifecycle and evolution to the member practices and the construction site. Soil and rock mechanics are typed as `Technical Research`; the epistemic reading survives as prose."
+    "summary": "Retype geotechnical engineering from `Epistemic Practice` to the technica grammar and move it from epistemica/epistemic/discipline/ to technica/discipline/. The note now answers the three technica formulation questions (type, instance, recursive decomposition) plus the conceptual evaluation, and its decomposition is a 303-row `Technical Practice` table grown from purposes, problems, the ground model and its parameters through constraints, standards, research, principles, frameworks, strategies, institutions, agents, five task/technique/act chains (investigation, laboratory, design, construction, monitoring), interfaces, architecture, blueprints, evaluation, feedback, hazards, risks, failures, maintenance, lifecycle and evolution to the member practices and the construction site. Soil and rock mechanics are typed as `Technical Research`; the epistemic reading survives as prose.",
+    "commit": "aca6bf3e26fa9e567dc2fcbd4a5d475995320265",
+    "before": "9863985ba906093eee0210504eed30630a722576"
    }
   ]
  },
