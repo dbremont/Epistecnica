@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Electric Waves (1893 English trans.)](https://archive.org/details/electricwavesbe00hertgoog)
 - [Archive.org — Untersuchungen über die Ausbreitung der elektrischen Kraft (1894)](https://archive.org/details/untersuchungenb00hertgoog)
 - [Marconi & Lodge, Wireless and syntonic telegraphy papers (1896–99) — the practical development](/view.html?p=documents/books/marconi-lodge-1896-wireless-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

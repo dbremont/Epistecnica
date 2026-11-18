@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Experimenta nova (ut vocantur) magdeburgica (1672)](https://archive.org/details/experimentanovau00gueruoft)
 - [Boyle, New Experiments Physico-Mechanical (1660-69 scans in the guide)](/view.html?p=documents/books/glauber-1651-furni-novi-philosophici.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

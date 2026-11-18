@@ -116,7 +116,7 @@ The concept under evaluation is **Pharmaceutical Product**, defined above as *th
 - [Healthcare Product](/view.html?p=notes/social/good/product/healthcare-product.md) — the umbrella class this product is a kind of.
 - [Drug](/view.html?p=notes/social/good/product/drug.md) — the active substance the product delivers.
 - [Fine Chemical](/view.html?p=notes/social/good/product/fine-chemical.md) — the specification-sold substance the active ingredient starts as.
-- [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/industry/pharma-pipeline.md) — the production system that makes and authorises the article.
-- [Pharmaceutical Technical Domain Set](/view.html?p=notes/technica/general/es/multinode/pharmaceutical-technical-domain-set.md) — the whole medicine-making ensemble.
-- [Biotech Production Ecosystem](/view.html?p=notes/technica/general/industry/biotech-production-ecosystem.md) — the production ecosystem biological products depend on.
+- [Pharmaceutical Pipeline](/view.html?p=notes/technica/production/industry/pharma-pipeline.md) — the production system that makes and authorises the article.
+- [Pharmaceutical Technical Domain Set](/view.html?p=notes/technica/general/pharmaceutical-technical-domain-set.md) — the whole medicine-making ensemble.
+- [Biotech Production Ecosystem](/view.html?p=notes/technica/production/industry/biotech-production-ecosystem.md) — the production ecosystem biological products depend on.
 - [Human](/view.html?p=notes/nature/life/organism/human/human.md) — the organism the article is administered to.

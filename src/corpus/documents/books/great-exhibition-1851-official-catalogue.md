@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Official descriptive and illustrated catalogue of the Great Exhibition (1851)](https://archive.org/details/bub_gb_uvvNAAAAMAAJ)
 - [Eiffel, La Tour de 300 mètres (1900) — the iron structure at the century's close](/view.html?p=documents/books/eiffel-1900-tour-300-metres.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

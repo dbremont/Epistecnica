@@ -23,6 +23,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Twining, The Fundamental Ice-Making Invention (1870) — the mechanics side of the same patents decade](/view.html?p=documents/books/twining-1870-fundamental-ice-making-invention.md)
 - [Selfe, The Machinery Employed for Artificial Refrigeration (1896) — the machinery literature that followed](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md)

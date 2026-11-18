@@ -26,4 +26,4 @@ qa:
 ## References
 
 - [Archive.org — A handbook of chemical technology (1872)](https://archive.org/details/ahandbookchemic02wagngoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

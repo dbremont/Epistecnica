@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A text-book on the mechanics of materials (1895 printing)](https://archive.org/details/atextbookonmech04merrgoog)
 - [Archive.org — A Treatise on Hydraulics (1889)](https://archive.org/details/atreatiseonhydr06merrgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

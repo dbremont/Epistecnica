@@ -39,3 +39,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Energy 39f21c7cc02545e289e03578281bd13f.md`
+- [Kesterite](/view.html?p=notes/nature/matter/geological/kesterite.md) — the earth-abundant CZTS absorber, and the earth-abundance thesis test

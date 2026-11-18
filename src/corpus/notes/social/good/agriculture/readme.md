@@ -21,7 +21,7 @@ tags: [note, catalog]
 
 ## References
 
-- [Agriculture](/view.html?p=notes/production/industry/agriculture/readme.md) — the production scope these goods come out of, whose sub-sector table is also why wood is filed here: forestry and logging sit inside it as biologically contiguous with farming
-- [Food](/view.html?p=notes/production/industry/food/food.md) — the industries that process the edible goods once they leave the farm
+- [Agriculture](/view.html?p=notes/technica/production/industry/agriculture/readme.md) — the production scope these goods come out of, whose sub-sector table is also why wood is filed here: forestry and logging sit inside it as biologically contiguous with farming
+- [Food](/view.html?p=notes/technica/production/industry/food/food.md) — the industries that process the edible goods once they leave the farm
 - [Semiconductor Product Space](/view.html?p=notes/social/good/semiconductor/readme.md) · [Software Product Space](/view.html?p=notes/social/good/software/readme.md) · [Telecom Product Space](/view.html?p=notes/social/good/telecom/readme.md) — the sibling spaces
 - [Good](/view.html?p=notes/social/good/good.md) — the shelf master: what a good is, and why these are instances of it

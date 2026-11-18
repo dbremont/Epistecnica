@@ -66,6 +66,19 @@ tags: [note, mathematics, function]
 > **Differentiation and marginal analysis**: Logarithms make it easier to differentiate complex expressions, especially in models involving growth, production, and utility. The derivative of a logarithmic function is simpler (i.e., ) compared to directly differentiating the original function.
 > 
 
+## The Family of Inverses
+
+> A logarithm is one instance of a general move: **invert a monotone operation to recover what was applied**. The exponential composes a base with an exponent, and $\ln$ recovers the exponent. The product $x e^x$ composes a variable with its own exponential, and the [Lambert W function](/view.html?p=notes/epistemica/mathematical/mapping/lambert-w-function.md) recovers the variable. The two functions are the same representational act applied to different products — and the difference in difficulty is the difference between isolating an exponent and solving an implicit equation.
+
+| Operation | Inverse | What it recovers | Domain of the inverse |
+| --- | --- | --- | --- |
+| $e^x$ | $\ln x$ | The exponent, given the power | $x > 0$ |
+| $a^x$ | $\log_a x$ | The exponent, given base and power | $x > 0$ |
+| $x e^x$ | $W(x)$ | The variable, given the product | $x \ge -1/e$, two real branches |
+| $x^x$ | $\dfrac{\ln y}{W(\ln y)}$ | The base, given the power tower's value | where the tower converges |
+
+> Read this way, the logarithm is not only a computational convenience but the **first** member of a family of inverse operators, and the special functions the corpus files beside it — gamma, beta, Bessel, Lambert W — are the members that answer questions the elementary inverses cannot. The representational lesson is constant: the function is the inverse of a construction, and the construction determines how hard the inversion is.
+
 ## References
 
 - [Jost Bürgi](/view.html?p=notes/social/collective/actor/private/persona/jost-burgi.md) — the tables of progressions built independently of Napier around 1600 and published only in 1620; the invention above is Napier's publication, not Napier's alone

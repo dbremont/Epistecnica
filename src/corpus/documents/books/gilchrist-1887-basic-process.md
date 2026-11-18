@@ -23,6 +23,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Archive.org — the later basic open-hearth process literature (1910)](https://archive.org/details/in.ernet.dli.2015.161355)
 - [Percy, Metallurgy: Iron and Steel (1864) — the pre-Bessemer-era reference](/view.html?p=documents/books/percy-1864-metallurgy-iron-and-steel.md)

@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Le four electrique (1897)](https://archive.org/details/lefourelectrique00moisuoft)
 - [Archive.org — a second printing of the same book](https://archive.org/details/LeFourElectrique)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

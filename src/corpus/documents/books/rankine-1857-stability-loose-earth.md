@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — On the stability of loose earth (1857 Phil. Trans.)](https://archive.org/details/philtrans06913183)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

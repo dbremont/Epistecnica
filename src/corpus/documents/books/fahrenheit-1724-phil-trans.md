@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Experimenta et Observationes de Congelatione (1724 Phil. Trans.)](https://archive.org/details/paper-doi-10_1098_rstl_1724_0016)
 - [Archive.org — the 1753 Phil. Trans. printing](https://archive.org/details/philtrans02211855)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

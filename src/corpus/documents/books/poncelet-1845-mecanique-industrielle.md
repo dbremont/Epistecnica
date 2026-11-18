@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Traite de mecanique industrielle (1845)](https://archive.org/details/A039a423)
 - [Archive.org — the second volume](https://archive.org/details/A039a424)
 - [Navier, Resume des Lecons (1826) — the corps teaching beside it](/view.html?p=documents/books/navier-1826-resume-des-lecons.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

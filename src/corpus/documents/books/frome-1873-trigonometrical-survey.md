@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Outline of the method of conducting a trigonometrical survey (1873)](https://archive.org/details/outlinemethodco03fromgoog)
 - [White, The Ordnance Survey of the United Kingdom (1886) — the national survey described](/view.html?p=documents/books/white-1886-ordnance-survey-united-kingdom.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

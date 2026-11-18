@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — New principles of gunnery (1805 Hutton edition)](https://archive.org/details/bub_gb_3j8FAAAAMAAJ)
 - [Muller, A Treatise Containing the Practical Part of Fortification (1755) — the Woolwich teaching beside it](/view.html?p=documents/books/muller-1755-practical-fortification.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

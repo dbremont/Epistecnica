@@ -52,4 +52,4 @@ The member's identity is its **action**, not its material or its name. The same 
 - Gordon, J. E. (1978). *Structures: Or why things don't fall down*. Penguin. — tension, compression and bending read as three ways of carrying a load
 - [Structure](/view.html?p=notes/nature/body/structure.md) — the assembly a member constitutes
 - [Beam](/view.html?p=notes/nature/body/beam.md) · [Column](/view.html?p=notes/nature/body/column.md) · [Cable](/view.html?p=notes/nature/body/cable.md) · [Connection](/view.html?p=notes/nature/body/connection.md) · [Foundation](/view.html?p=notes/nature/body/foundation.md)
-- [Load Path](/view.html?p=notes/nature/property/load-path.md) · [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md)
+- [Load Path](/view.html?p=notes/nature/property/load-path.md) · [Structural Mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md)

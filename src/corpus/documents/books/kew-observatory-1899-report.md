@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Report of the Kew Observatory Committee (1899)](https://archive.org/details/philtrans04814174)
 - [Arago, Meteorological Essays (1855) — the meteorology the observatory practised](/view.html?p=documents/books/arago-1855-meteorological-essays.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

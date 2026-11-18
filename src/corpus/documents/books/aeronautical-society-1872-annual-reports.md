@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Annual report of the Aeronautical Society of Great Britain (7th–12th, 1872–77)](https://archive.org/details/annualreportaer7roya)
 - [Cayley, Practical Remarks on Aerial Navigation (1837) — the principle the society inherited](/view.html?p=documents/books/cayley-1837-practical-remarks-aerial-navigation.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

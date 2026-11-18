@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Skeleton construction in buildings (1893)](https://archive.org/details/skeletonconstruc00birk)
 - [Eiffel, La Tour de 300 Metres (1900) — the tower form of the same iron grammar](/view.html?p=documents/books/eiffel-1900-tour-300-metres.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

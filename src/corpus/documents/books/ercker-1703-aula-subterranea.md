@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Aula subterranea (1703 edition)](https://archive.org/details/b3045590x)
 - [Gellert, Metallurgic Chymistry (1776) — the Freiberg successor](/view.html?p=documents/books/gellert-1776-metallurgic-chymistry.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

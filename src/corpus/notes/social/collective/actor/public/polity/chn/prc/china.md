@@ -72,6 +72,10 @@ Truffle pigs in China can fine truffles in mountains faster than specially train
 
 ## Knowledge Sysetm
 
+> Education was an early channel of foreign collaboration, and the joint-venture campus was its instrument: an offshore award delivered in China with a Chinese partner, under a regulator that was still writing the rules. [Sullivan & Silver (1997)](/view.html?p=documents/papers/sullivan-silver-1997-rmit-wuhan-project.md) report the RMIT Wuhan project, one of the first, and the problems they name are the ones that stayed: accreditation of the partner, equivalence of the award, and who controls the curriculum when the awarding body sits offshore.
+
+> The distinction from an industrial joint venture is worth keeping: what diffuses here is not a technology but a **curriculum, a quality regime and a credential**. That is why the form spread faster than most manufacturing joint ventures, and why its output is counted in graduates rather than in products.
+
 - [ ]  https://english.beijing.gov.cn/investinginbeijing/InvestmentSpecial/DigitalEconomy/PolicesAndInterpretations/202412/t20241225_3973328.html
 - [ ]  https://english.beijing.gov.cn/government/policytoolkittwo/index.html
 - [ ]  https://english.beijing.gov.cn/government/policytoolkittwo/INV_Policy_Text/202505/t20250515_4089823.html

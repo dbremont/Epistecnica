@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — A treatise on friction and lost work (1885)](https://archive.org/details/treatiseonfricti00thur)
 - [Archive.org — Friction and Lubrication (1879, the earlier form)](https://archive.org/details/frictionandlubr00thurgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

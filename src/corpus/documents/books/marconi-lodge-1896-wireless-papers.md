@@ -26,4 +26,4 @@ qa:
 
 - [Heaviside, Electrical Papers (1892) — the circuit theory the tuning assumed](/view.html?p=documents/books/heaviside-1892-electrical-papers.md)
 - [Bright, Submarine Telegraphs (1898) — the cable system wireless was measured against](/view.html?p=documents/books/bright-1898-submarine-telegraphs.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

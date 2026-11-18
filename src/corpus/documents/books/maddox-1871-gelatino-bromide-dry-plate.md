@@ -26,4 +26,4 @@ qa:
 
 - [Eastman, Illustrated Catalogue and Price List (1886) — the dry plate as a manufactured good](/view.html?p=documents/books/eastman-1886-dry-plate-film-catalogue.md)
 - [Archer, A Manual of the Collodion Process (1852) — the wet process it displaced](/view.html?p=documents/books/archer-1852-manual-collodion-process.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — A treatise on the rocket system (1827 Clowes printing)](https://archive.org/details/10220954bsb)
 - [Archive.org — The Details of the Rocket System](https://archive.org/details/detailsrocketsy00Cong)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

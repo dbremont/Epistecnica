@@ -135,6 +135,10 @@ System; Description; Note
 | Phase VIII: Integrated ML Compiler System Construction | Integration | Dynamic Shape Compiler | Compile graphs with symbolic tensor dimensions. | Expert | Introduces modern adaptive compilation systems. |
 | Phase VIII: Integrated ML Compiler System Construction | Integration | Heterogeneous Runtime Stack | Coordinate execution across CPUs, GPUs, and accelerators. | Expert | Develops full-stack computational orchestration competence. |
 
+## Minimal Instance: tinygrad
+
+> [tinygrad](https://github.com/tinygrad/tinygrad) is the smallest complete instance of the stack this note describes: a tensor abstraction, a lazy graph, a scheduler that decides what to fuse and what to materialise, and a set of backends that lower the scheduled kernels to CPU, GPU or accelerator code. It is useful precisely because it is small — every stage that a production framework hides behind an API is visible in a few thousand lines, which makes it the reference implementation for reading a compiler rather than using one.
+
 ## References
 
 - https://docs.tinygrad.org/

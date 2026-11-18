@@ -14,3 +14,4 @@ tags: [note]
 - https://en.wikipedia.org/wiki/Industrial_Revolution_in_Scotland
 - https://en.wikipedia.org/wiki/Economic_history_of_Scotland
 - https://es.wikipedia.org/wiki/Bank_of_Scotland
+- [Public Bodies of the Scottish Government](/view.html?p=notes/social/collective/actor/public/polity/scotland/public-bodies.md) — the forms outside the directorates, and how far each sits from ministers

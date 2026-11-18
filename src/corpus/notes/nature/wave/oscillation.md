@@ -99,7 +99,7 @@ The choice matters, and the other readings fail for reasons worth stating. An os
 
 ### Is the pendulum an oscillation, or the system that oscillates?
 
-> The pendulum is the `Natural Object`; its swinging is the oscillation. The distinction matters for decomposition: the pendulum decomposes as a body with a suspension, a bob and a restoring torque, while the oscillation decomposes as the pattern above. A worked dissipative case of the pair is [A case study of a dissipative system: damped pendulum](/view.html?p=notes/unclassified/a-case-study-of-a-dissipative-system-damped-pendul.md).
+> The pendulum is the `Natural Object`; its swinging is the oscillation. The distinction matters for decomposition: the pendulum decomposes as a body with a suspension, a bob and a restoring torque, while the oscillation decomposes as the pattern above. A worked dissipative case of the pair is [A case study of a dissipative system: damped pendulum](/view.html?p=notes/miscellanea/unclassified/a-case-study-of-a-dissipative-system-damped-pendul.md).
 
 ### Why does the self-sustained case matter more than the harmonic one?
 
@@ -113,10 +113,10 @@ The choice matters, and the other readings fail for reasons worth stating. An os
 - [Frequency (Periodicity)](/view.html?p=notes/nature/frequency-periodicity.md) · [Periodic](/view.html?p=notes/nature/periodic.md) · [Amplitude](/view.html?p=notes/nature/amplitude-a.md) — the quantities and the weaker property
 - [Oscillation](/view.html?p=notes/nature/wave/oscillation.md) — the pattern this quantity counts
 - [Alternating Current](/view.html?p=notes/nature/alternating-current-ac.md) — the electrical instance of the pattern
-- [Harmonic Analysis](/view.html?p=notes/epistemica/epistemic/discipline/harmonic-analysis.md) — the discipline that decomposes an oscillation into its harmonics
+- [Harmonic Analysis](/view.html?p=notes/miscellanea/discipline/harmonic-analysis.md) — the discipline that decomposes an oscillation into its harmonics
 - [Stability Theory](/view.html?p=notes/epistemica/mathematical/change/stability-theory.md) — the dynamical reading: equilibrium, linearization, limit cycle
 - [Coupled Oscillator Network](/view.html?p=notes/epistemica/mathematical/change/rsp/coupled-oscillator-network.html) — the playground that simulates the coupled case
-- [MEMS Oscillator](/view.html?p=notes/production/technique/fisicatecnica/electromagnetic/mems-oscillator.md) — the engineered instance
+- [MEMS Oscillator](/view.html?p=notes/technica/general/fisicatecnica/electromagnetic/mems-oscillator.md) — the engineered instance
 - Andronov, A. A., Vitt, A. A., & Khaikin, S. E. (1966). *Theory of oscillators*. Pergamon Press.
 - Den Hartog, J. P. (1985). *Mechanical vibrations*. Dover.
 - Galileo, G. (1638). *Discorsi e dimostrazioni matematiche intorno a due nuove scienze*. Lodewijk Elzevir. — the isochronism of the pendulum, the first oscillation measured against time.

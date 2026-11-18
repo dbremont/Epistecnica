@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Appletons' cyclopaedia of applied mechanics (1895 edition, vol. 1)](https://archive.org/details/appletonscyclopa0001park)
 - [Archive.org — the second volume](https://archive.org/details/appletonscyclopa0002park)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

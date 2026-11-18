@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Le figure reciproche nella statica grafica (1872)](https://archive.org/details/bub_gb_IuhsAF6aSZ8C)
 - [Archive.org — a further copy](https://archive.org/details/bub_gb_L07MKlwNulsC)
 - [Culmann, Die Graphische Statik (1866) — the German founding of the same method](/view.html?p=documents/books/culmann-1866-graphische-statik.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

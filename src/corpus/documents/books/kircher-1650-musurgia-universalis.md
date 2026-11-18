@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Musurgia Universalis (1650)](https://archive.org/details/chepfl-lipr-AXC19_01)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

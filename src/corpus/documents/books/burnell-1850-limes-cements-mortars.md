@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Law & Burnell, Rudiments of Civil Engineering (1869) — the series the treatise belongs to](/view.html?p=documents/books/law-burnell-1869-rudiments-civil-engineering.md)

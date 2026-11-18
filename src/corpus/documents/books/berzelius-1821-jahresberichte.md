@@ -26,4 +26,4 @@ qa:
 
 - [Berzelius, Lehrbuch der Chemie (1825–) — the systematic work the reports fed](/view.html?p=documents/books/berzelius-1825-lehrbuch-der-chemie.md)
 - [Thorpe, A Dictionary of Applied Chemistry (1891–94) — the later reference form](/view.html?p=documents/books/thorpe-1891-dictionary-of-applied-chemistry.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

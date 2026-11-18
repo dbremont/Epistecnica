@@ -67,4 +67,4 @@ A **measurement** is a function $M: E \rightarrow N$, where:
 - Trout, J.D. (1998). *Measuring the intentional world: Realism, naturalism, and quantitative methods in the behavioral sciences.* Oxford: OUP.
 - Krantz, D. H., Luce, R. D., Suppes, P., and Tversky, A. (1971). Foundations of Measurement Volume 1: Additive and Polynomial Representations. Academic Press, Inc., San Diego.
 - [Level of measurement  (Type of Scale)](https://en.wikipedia.org/wiki/Level_of_measurement)
-
+- [Observation Technology and Method Catalog](/corpus/notes/epistemica/observation/organon.html) — the instrument side of the measurement relation this note theorises

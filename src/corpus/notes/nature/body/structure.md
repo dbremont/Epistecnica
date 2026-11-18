@@ -22,7 +22,7 @@ It is **not** a `Natural System`: a system is the members plus their interaction
 
 ### What is the recursive instance decomposition of this natural instance?
 
-> Boundary: one structural body, decomposed to its members, connections, supports and the load path that holds them together — not to the design practice, which is decomposed in `technica/discipline/structural-mechanics.md`.
+> Boundary: one structural body, decomposed to its members, connections, supports and the load path that holds them together — not to the design practice, which is decomposed in `miscellanea/discipline/structural-mechanics.md`.
 >
 > Identity: paths begin at `Ontic Element`, one labelled link per row; grouping types are `` `code` ``, instances Title Case.
 
@@ -55,7 +55,7 @@ It is **not** a `Natural System`: a system is the members plus their interaction
 - [Load Path](/view.html?p=notes/nature/property/load-path.md) — the attribute that makes the body one structure rather than a heap
 - [Physical Object](/view.html?p=notes/nature/body/physical-object.md) — the family and the discrete-body criterion this note instantiates
 - [Continuous Medium](/view.html?p=notes/nature/body/continuous-medium.md) — the field-side reading a member can be taken in
-- [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md) — the practice that designs such a body
-- [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) — the rule its members obey
-- [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the technique that decides whether it holds
+- [Structural Mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md) — the practice that designs such a body
+- [Euler–Bernoulli Beam Theory](/view.html?p=notes/miscellanea/discipline/euler-bernoulli-beam-theory.md) — the rule its members obey
+- [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md) — the technique that decides whether it holds
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)

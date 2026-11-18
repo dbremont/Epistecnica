@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Metallurgic chymistry (1776)](https://archive.org/details/metallurgicchym00gellgoog)
 - [Ercker, Aula Subterranea (1703) — the earlier assaying book](/view.html?p=documents/books/ercker-1703-aula-subterranea.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

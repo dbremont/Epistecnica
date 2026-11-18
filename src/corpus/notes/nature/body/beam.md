@@ -21,7 +21,7 @@ It is **not** the [column](/view.html?p=notes/nature/body/column.md): both are m
 
 > A floor joist, a roof rafter, a bridge girder, a lintel over a door, a shelf, a bone in bending. Each receives load across its length and delivers it to the two ends.
 
-Three quantities decide the response, and the theory that relates them is [Euler–Bernoulli beam theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md): the **span** between the supports, the **second moment of area** of the cross-section — the geometric quantity that says how far the material sits from the neutral axis, and therefore how much curvature a moment buys — and the **material's** elastic modulus. Deflection scales with span to the fourth power, which is why a small increase in span is a large increase in depth; strength scales with the section modulus, which is why the same steel can be shallow and strong or deep and stiff.
+Three quantities decide the response, and the theory that relates them is [Euler–Bernoulli beam theory](/view.html?p=notes/miscellanea/discipline/euler-bernoulli-beam-theory.md): the **span** between the supports, the **second moment of area** of the cross-section — the geometric quantity that says how far the material sits from the neutral axis, and therefore how much curvature a moment buys — and the **material's** elastic modulus. Deflection scales with span to the fourth power, which is why a small increase in span is a large increase in depth; strength scales with the section modulus, which is why the same steel can be shallow and strong or deep and stiff.
 
 The beam is also the corpus's cleanest example of a *theory with a stated bound*: the Euler–Bernoulli model assumes small deflections, plane sections remain plane, and shear deformation is negligible. Beyond those assumptions the same body is still a beam, but the note that describes it is a different one.
 
@@ -50,5 +50,5 @@ The beam is also the corpus's cleanest example of a *theory with a stated bound*
 - Euler, L. (1744). *Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes*. Bousquet. — the elastica: the bent beam solved as a variational problem
 - Timoshenko, S. P. (1953). *History of strength of materials*. McGraw-Hill. — how the beam became a computable body
 - Gordon, J. E. (1978). *Structures: Or why things don't fall down*. Penguin. — bending explained by curvature rather than by formula
-- [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) — the rule this body obeys
+- [Euler–Bernoulli Beam Theory](/view.html?p=notes/miscellanea/discipline/euler-bernoulli-beam-theory.md) — the rule this body obeys
 - [Member](/view.html?p=notes/nature/body/member.md) · [Column](/view.html?p=notes/nature/body/column.md) · [Cable](/view.html?p=notes/nature/body/cable.md) · [Structure](/view.html?p=notes/nature/body/structure.md)

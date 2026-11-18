@@ -40,6 +40,7 @@ QA:
 
 | **Video Server** | **Supported Protocols** | **Use Case** | **Key Features** | **Scalability** | **Licensing** | **Popular Platforms** |
 | --- | --- | --- | --- | --- | --- | --- |
+| **Owncast** ([source](https://github.com/owncast/owncast)) | RTMP in, HLS out | Self-hosted live streaming for a single broadcaster | Single binary, built-in chat, ActivityPub federation, no transcoding ladder | One stream per instance | Open source (MIT) | Small broadcasters, community streams |
 | **Nginx with RTMP module** | RTMP, HLS, HDS, RTSP | Live streaming, On-demand | Low-latency live streaming, adaptive bitrate support, HTTP streaming | Highly scalable | Open source (MIT license) | YouTube, Twitch (for RTMP) |
 | **Wowza Streaming Engine** | RTMP, HLS, DASH, HDS, RTSP, MPEG-DASH | Live and on-demand streaming | Adaptive bitrate, live transcoding, DRM support | Very scalable | Commercial (paid) | Media companies, broadcasters |
 | **Red5** | RTMP, WebRTC, HLS, RTSP, MPEG-DASH | Live and interactive video streaming | WebRTC support, real-time communication, low-latency | Scalable with clusters | Open source (Apache License 2.0) | Educational platforms, real-time apps |

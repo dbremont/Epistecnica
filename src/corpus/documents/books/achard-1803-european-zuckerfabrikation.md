@@ -26,4 +26,4 @@ qa:
 
 - [Burgh, Sugar Machinery (1863) — the machinery the beet refineries ran beside](/view.html?p=documents/books/burgh-1863-treatise-sugar-machinery.md)
 - [Manley, The Sugar Cane (1884) — the cane side the beet's rival documented](/view.html?p=documents/books/manley-1884-manufacture-sugar-cane.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

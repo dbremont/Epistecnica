@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Effects of the Principal Arts, Trades and Professions (1831)](https://archive.org/details/b33093805)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

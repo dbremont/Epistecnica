@@ -151,7 +151,7 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 
 ## Related
 
-- [Drug](/view.html?p=notes/technica/general/product/drug.md)
+- [Drug](/view.html?p=notes/social/good/product/drug.md)
 - [Cell](/view.html?p=notes/nature/life/cell/cell.md)
 - [Tissue](/view.html?p=notes/nature/life/organism/tissue.md)
 - [Muscle](/view.html?p=notes/nature/life/organism/human/muscle.md)

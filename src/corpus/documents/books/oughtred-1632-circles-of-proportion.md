@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — The circles of proportion and the horizontall instrument (1632 first edition)](https://archive.org/details/bim_early-english-books-1475-1640_the-circles-of-proportio_oughtred-william_1632)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

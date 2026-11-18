@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The chemistry of pottery (1895)](https://archive.org/details/chemistryofpotte00langrich)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

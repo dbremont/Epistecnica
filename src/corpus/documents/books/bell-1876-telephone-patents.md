@@ -26,4 +26,4 @@ qa:
 
 - [Bell, Visible Speech (1867) — the speech science the telephone applied](/view.html?p=documents/books/bell-1867-visible-speech.md)
 - [Prescott, Electricity and the Electric Telegraph (1877) — the telegraph system the telephone entered](/view.html?p=documents/books/prescott-1877-electricity-electric-telegraph.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The scientific papers of James Clerk Maxwell (1890, vol. 1)](https://archive.org/details/scientificpapers01maxw)
 - [Culmann, Die Graphische Statik (1866) — the graphical form of the same method](/view.html?p=documents/books/culmann-1866-graphische-statik.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Économie rurale (1851)](https://archive.org/details/bub_gb_RoGQ2dFClEMC)
 - [Lawes & Gilbert, The Rothamsted Memoirs — the English experimental programme](/view.html?p=documents/books/lawes-gilbert-rothamsted-memoirs.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

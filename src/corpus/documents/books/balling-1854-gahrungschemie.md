@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Die Gährungschemie (1854)](https://archive.org/details/10071908bsb)
 - [Combrune, The Theory and Practice of Brewing (1762) — the earlier brewing book](/view.html?p=documents/books/combrune-1762-theory-and-practice-of-brewing.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

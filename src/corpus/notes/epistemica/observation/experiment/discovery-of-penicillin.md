@@ -9,7 +9,8 @@ tags: [note, data-collection, experiment]
 
 ## References
 
-- …
+- [Antibiotic](/view.html?p=notes/social/good/product/antibiotic.md) — the class this experiment opened
+- [Antibiótico](https://es.wikipedia.org/wiki/Antibi%C3%B3tico)
 
 ## Provenance
 

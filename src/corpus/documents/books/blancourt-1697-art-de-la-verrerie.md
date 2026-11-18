@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — The art of glass (1699 English trans.)](https://archive.org/details/gri_artofglasssh00haud)
 - [Archive.org — the 1752 French Art de la verrerie de Neri, Merret et Kunckel, with Blancourt's additions](https://archive.org/details/bub_gb_FjBvgdvI5aUC)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

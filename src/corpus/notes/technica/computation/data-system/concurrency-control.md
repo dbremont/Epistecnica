@@ -54,6 +54,18 @@ tags: [note]
 > An **isolation level** specifies the **concurrency guarantees** that a data system provides to a transaction, while **concurrency control** is the set of mechanisms used to enforce those guarantees during concurrent execution.
 > 
 
+> The relation is best read as a **permission table**. An isolation level names the anomalies that must not occur; the concurrency-control mechanism decides how to prevent them. The matrix below is therefore a specification of what each level permits, not a description of any particular implementation.
+
+| Level | Dirty read | Non-repeatable read | Phantom read | Lost update | Write skew |
+| --- | --- | --- | --- | --- | --- |
+| **Read Uncommitted** | possible | possible | possible | possible | possible |
+| **Read Committed** | prevented | possible | possible | possible | possible |
+| **Repeatable Read** | prevented | prevented | possible (implementation-dependent) | possible | possible |
+| **Snapshot Isolation** | prevented | prevented | prevented | prevented | **possible** |
+| **Serializable** | prevented | prevented | prevented | prevented | prevented |
+
+> Snapshot isolation is the row that shows why the levels are not a ladder. It prevents phantoms — the anomaly the standard's ladder treats as the last step before serialisability — and still permits **write skew**, two transactions reading disjoint state and writing on the strength of what the other read. A system can therefore be stronger than Repeatable Read on one axis and weaker than Serializable on another, which is why an isolation level should be chosen per workload and verified by its anomalies rather than by its name.
+
 ## Can the selected isolation level and concurrency-control mechanism conflict with each other?
 
 > The selected isolation level and concurrency-control mechanism can be semantically incompatible when the mechanism permits concurrent executions whose observable effects violate the execution histories or visibility guarantees required by that isolation level.
@@ -66,3 +78,4 @@ tags: [note]
 
 - [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md)
 - https://shopify.engineering/scaling-inventory-reservations
+- [What are Database Isolation Levels? — ByteByteGo](https://bytebytego.com/guides/what-are-database-isolation-levels/) — the compact statement of the level ladder this note maps onto concurrency-control mechanisms

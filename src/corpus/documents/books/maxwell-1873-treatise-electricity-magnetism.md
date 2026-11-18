@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A treatise on electricity and magnetism (archive.clarendon edition)](https://archive.org/details/atreatiseonelec04maxwgoog)
 - [Thompson, Dynamo-Electric Machinery (1884) — the dynamo manual running Maxwell's theory](/view.html?p=documents/books/thompson-1884-dynamo-electric-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

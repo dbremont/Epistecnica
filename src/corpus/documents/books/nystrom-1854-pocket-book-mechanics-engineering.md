@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Pocket-book of mechanics and engineering (1856 edition)](https://archive.org/details/pocketbookofmech00nyst_2)
 - [Haswell, Engineers and Mechanics Pocket-Book (1844) — the tradition it joined](/view.html?p=documents/books/haswell-1844-engineers-mechanics-pocket-book.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

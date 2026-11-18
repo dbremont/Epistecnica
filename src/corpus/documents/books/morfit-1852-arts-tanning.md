@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The arts of tanning (1852)](https://archive.org/details/artsoftanningcur00morf)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

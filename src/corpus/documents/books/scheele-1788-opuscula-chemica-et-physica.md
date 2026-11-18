@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Opuscula chemica et physica (1788)](https://archive.org/details/b28781600)
 - [Gay-Lussac, Cours de chimie (1828) — the next generation's course](/view.html?p=documents/books/gay-lussac-1828-cours-de-chimie.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

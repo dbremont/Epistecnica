@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Bericht über den Arithmometer des Herrn Thomas (1857)](https://archive.org/details/biostor-221421)
 - [Shaw, The Theory of Continuous Calculating Machines (1885) — the other calculating tradition](/view.html?p=documents/books/shaw-1885-continuous-calculating-machines.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

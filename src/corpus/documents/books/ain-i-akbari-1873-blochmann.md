@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Ain I Akbari, vol. I (1873)](https://archive.org/details/in.ernet.dli.2015.279471)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

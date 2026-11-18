@@ -243,7 +243,7 @@ the ontic condition notes at its root (`equilibrium`, `stable`, …),
 `minimum-description-length-mdl`, …), and `guidance/method/` for the
 philosophical-method notes.
 
-`/corpus/notes/epistemica/epistemic/discipline/` holds the discipline catalogues
+`/corpus/notes/miscellanea/discipline/` holds the discipline catalogues
 (mathematics, statistics, computer science, …).
 
 `data/nature/theory/` holds the natural-ontology theory scope: the ontic

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — John Fowler & Co., Steam Cultivating Machinery catalogue (1909, boundary record)](https://archive.org/details/JohnFowlerAndCoCatalogue1909)
 - [Ransome, The Implements of Agriculture (1843) — the implement trade before steam](/view.html?p=documents/books/ransome-1843-implements-of-agriculture.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

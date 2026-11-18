@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Opticks (1730 printing of 1704)](https://archive.org/details/b30412316)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

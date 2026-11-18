@@ -30,6 +30,8 @@ tags: [note, program, organization, action, social-element]
 | Program `(→ Part)` Program `(→ Kind)` Public Program | Course-bound set a polity funds toward a collective good. |
 | Program `(→ Part)` Program `(→ Kind)` Public Program `(→ Kind)` Vaccination Program | Set of procurement, logistics, and delivery projects immunizing a population. |
 | Program `(→ Part)` Program `(→ Kind)` Public Program `(→ Kind)` Electrification Program | Set of generation, grid, and connection projects extending power. |
+| Program `(→ Part)` Program `(→ Kind)` Public Program `(→ Kind)` Training Program | Set of education and training projects producing a trained workforce. |
+| Program `(→ Part)` Program `(→ Kind)` Public Program `(→ Kind)` Training Program `(→ Kind)` Medical Scientist Training Program | Federal dual-degree training program producing physician-scientists. |
 | Program `(→ Part)` Program `(→ Kind)` Portfolio Program | Enterprise set aligning projects with strategic objectives. |
 | Program `(→ Part)` Program `(→ Kind)` Research Program | Set of inquiry projects advancing one agenda. |
 | Program `(→ Part)` Program `(→ Kind)` Assistance Program | Set of transfer and service projects relieving want. |
@@ -50,3 +52,4 @@ tags: [note, program, organization, action, social-element]
 - [Project](/view.html?p=notes/social/action/organization/project.md) (the member effort a program contains)
 - [Policy](/view.html?p=notes/social/action/public/guidance/policy.md) (the course a program executes)
 - [Plan](/view.html?p=notes/social/action/organization/plan.md) (the arrangement sequencing a member project)
+- [Medical Scientist Training Program](/view.html?p=notes/social/action/organization/medical-scientist-training-program.md) (the training-program instance)

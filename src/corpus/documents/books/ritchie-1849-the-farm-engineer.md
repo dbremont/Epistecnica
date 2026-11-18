@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Thomas, Farm Implements and Farm Machinery (1869) — the machinery literature's later American volume](/view.html?p=documents/books/thomas-1869-farm-implements.md)

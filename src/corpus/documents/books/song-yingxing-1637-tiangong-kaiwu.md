@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Tiangong Kaiwu (1637 edition)](https://archive.org/details/tiangong-kaiwu-nature-works-encyclopedia)
 - [Archive.org — T'ien-kung k'ai-wu: Chinese technology in the seventeenth century (1966 translation)](https://archive.org/details/tienkungkaiwuchi0000song)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

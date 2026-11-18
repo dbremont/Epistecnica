@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Liquid Hydrogen (1900)](https://archive.org/details/jstor-1625807)
 - [Faraday, The Liquefaction of Gases (1896) — the papers the work continued](/view.html?p=documents/books/faraday-1896-liquefaction-of-gases.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

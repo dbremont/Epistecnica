@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — An essay on the cultivation and manufacture of coffee (1849)](https://archive.org/details/essayoncultivati00mara)
 - [Money, The Cultivation and Manufacture of Tea (1878) — the companion commodity study](/view.html?p=documents/books/money-1878-cultivation-manufacture-tea.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

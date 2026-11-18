@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Philosophiae naturalis principia mathematica (1822 printing of 1687)](https://archive.org/details/philosophinatur00newtgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — La Tour de 300 mètres (1900)](https://archive.org/details/n-0106381-pdf-1-400)
 - [The Great Exhibition catalogue (1851) — the Crystal Palace at the other end of the iron century](/view.html?p=documents/books/great-exhibition-1851-official-catalogue.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

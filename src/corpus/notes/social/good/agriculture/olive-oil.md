@@ -49,4 +49,4 @@ It is classified under HS 1509, virgin oils in 1509.10 and the rest in 1509.90 �
 - https://en.wikipedia.org/wiki/Olive_oil
 - [International Olive Council](https://www.internationaloliveoil.org/) — the trade standard that fixes the grades, the acidity limits and the sensory method
 - Commission Delegated Regulation (EU) 2022/2104 — the marketing standards that make the grade names and the cold-extraction claim enforceable in the single market
-- [Olive Tree (Olea europaea)](/view.html?p=notes/nature/life/organism/plant/olive-tree-olea-europaea.md) — the organism the drupe comes from · [Agricultural Product Space](/view.html?p=notes/social/good/agriculture/readme.md) — the shelf this good belongs to · [Food](/view.html?p=notes/production/industry/food/food.md) — the industries that process it
+- [Olive Tree (Olea europaea)](/view.html?p=notes/nature/life/organism/plant/olive-tree-olea-europaea.md) — the organism the drupe comes from · [Agricultural Product Space](/view.html?p=notes/social/good/agriculture/readme.md) — the shelf this good belongs to · [Food](/view.html?p=notes/technica/production/industry/food/food.md) — the industries that process it

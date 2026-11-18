@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Knight American mechanical dictionary (a scanned volume)](https://archive.org/details/knightsamericanm01knig)
 - [Knight, The Mechanician (1879) — the author bench book adjacent](/view.html?p=documents/books/knight-1879-the-mechanician.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — Sketches of the works for the tunnel under the Thames (1829)](https://archive.org/details/sketchesworksfo00cruigoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

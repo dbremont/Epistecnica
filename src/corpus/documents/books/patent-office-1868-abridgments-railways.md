@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Abridgments of specifications relating to railways, 1770–1863 (1868)](https://archive.org/details/patentsforinven20offigoog)
 - [Smiles, The Life of George Stephenson (1859) — the career the abridgments document](/view.html?p=documents/books/smiles-1859-life-george-stephenson.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

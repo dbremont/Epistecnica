@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Organic materia medica and therapeutics (1885)](https://archive.org/details/organicmateriame00simp)
 - [The British Pharmacopoeia (1864) — the British standard beside the American](/view.html?p=documents/books/british-pharmacopoeia-1864.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

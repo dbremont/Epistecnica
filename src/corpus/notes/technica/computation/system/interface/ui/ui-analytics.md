@@ -115,10 +115,11 @@ It captures granular behavioral telemetry, including:
 | Web Interaction Analytics | Umami | Lightweight, privacy-focused web analytics for visitor tracking. | Page views, referrers, device/browser data, GDPR-friendly, self-hostable, no cookies. |
 |  | Plausible | Simple, privacy-first alternative to Google Analytics. | Real-time stats, traffic sources, goals, no cookies, script <1 KB, self-hosting available. |
 |  | GoAccess | Terminal-based real-time log analyzer for web servers. | CLI UI, real-time metrics from server logs, no JavaScript required. |
-| Session Replay | OpenReplay | Self-hosted session replay suite for web apps. | Replay user sessions, DevTools integration, performance monitoring, user segmentation, GDPR compliance. |
+| Session Replay | [OpenReplay](https://github.com/openreplay/openreplay) | Self-hosted session replay suite for web apps. | Replay user sessions, DevTools integration, performance monitoring, user segmentation, GDPR compliance. |
 |  | PostHog | Product analytics with session replay and feature flags. | Event tracking, funnels, heatmaps, recordings, feature flags, A/B testing, self-hosted option. |
 |  | FullStory | Enterprise-grade session replay and analytics tool. | Heatmaps, click tracking, AI-based issue detection, funnel analysis, search-based replay filtering. |
 |  | Smartlook | Session recording and analytics for websites and mobile apps. | Clicks, events, funnels, user journeys, mobile SDKs, retroactive event tracking. |
+| Capture Library | [rrweb](https://github.com/rrweb-io/rrweb) | Open-source library that records and replays web page interactions. | Records a DOM snapshot plus incremental mutations and input events into a JSON stream; the recording engine under many replay products, OpenReplay among them; masking and ignore rules built in. |
 | UX Metrics | Hotjar | Tool for heatmaps, session recordings, and surveys. | Heatmaps, scroll maps, session replays, feedback widgets, form analytics. |
 |  | Crazy Egg | Visual analytics for UX improvement. | Click heatmaps, A/B testing, scroll maps, confetti reports, segmentation. |
 |  | Microsoft Clarity | Free session recording and heatmap analytics by Microsoft. | Session recordings, rage click detection, heatmaps, filtering, GDPR/CCPA compliant. |
@@ -128,6 +129,20 @@ It captures granular behavioral telemetry, including:
 | User Testing & Research | Lookback | Remote user research platform with live/interview capabilities. | Session recording, live testing, collaborative notes, timeline tagging, stakeholder sharing. |
 |  | UserTesting | On-demand usability testing with user panels. | Task-based UX studies, video feedback, sentiment analysis, broad test panel availability. |
 |  | UXtweak | Comprehensive UX research platform. | Tree testing, card sorting, surveys, session recording, heatmaps. |
+
+### How a session recording works
+
+> A replay is not a video. The recorder takes a **full DOM snapshot** at the start and then streams **incremental events** — mutations, mouse movement, scroll, input (masked), console output, network metadata — each stamped against one clock. Replay rebuilds the DOM and applies the events in order, which is why the result is inspectable and seekable rather than a frame sequence.
+
+| Component | What it captures |
+| --- | --- |
+| **DOM snapshot** | The document at the moment recording starts — the base state every later mutation applies to |
+| **Mutation stream** | Added, removed and changed nodes and attributes, in order |
+| **Input events** | Clicks, keys and pointer movement — the *intent*, unlike the mutations it causes |
+| **Side channels** | Console, network requests, and sometimes canvas frames or storage |
+| **Clock** | The timestamp that orders all of the above into a single replayable timeline |
+
+> Three limits are worth stating because they are what a vendor demo hides. **Fidelity**: canvas, WebGL, cross-origin iframes and video do not replay from DOM mutations, so they are either captured as frames or lost. **Cost**: the stream is large and grows with session length, which is why products sample sessions and why the recorder is a performance decision as much as a privacy one. **Privacy**: input masking and block/ignore selectors must be part of the recording contract — a field recorded in clear cannot be un-recorded later by a filter.
 
 ## Current Tool Criticism
 
@@ -154,3 +169,5 @@ It captures granular behavioral telemetry, including:
     - [ ]  https://www.patrick-wied.at/static/heatmapjs/
     - [ ]  [https://clarity.microsoft.com/demo/projects/view/3t0wlogvdz/heatmaps?URL=2%3B4%3Bhttps%3A%2F%2Fclarity.microsoft.com%2F&date=Last 3 days&heatmapType=0&heatmapDeviceType=2](https://clarity.microsoft.com/demo/projects/view/3t0wlogvdz/heatmaps?URL=2%3B4%3Bhttps%3A%2F%2Fclarity.microsoft.com%2F&date=Last%203%20days&heatmapType=0&heatmapDeviceType=2)
     - [ ]  …
+- [openreplay/openreplay — GitHub](https://github.com/openreplay/openreplay) — the self-hosted replay suite
+- [rrweb-io/rrweb — GitHub](https://github.com/rrweb-io/rrweb) — the DOM record-and-replay library the section above describes

@@ -23,5 +23,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Sigsbee, Deep-Sea Sounding and Dredging (1880) — the deep-sea adjoining](/view.html?p=documents/books/sigsbee-1880-deep-sea-sounding-dredging.md)

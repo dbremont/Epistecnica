@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Gum-elastic and its varieties (1853)](https://archive.org/details/gumelasticitsva121853good)
 - [Archive.org — (1853, Google copy)](https://archive.org/details/gumelasticandit00goodgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

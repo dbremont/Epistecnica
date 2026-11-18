@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The American electro magnetic telegraph (1845)](https://archive.org/details/bub_gb_PGw8AAAAYAAJ)
 - [Cooke & Wheatstone, Telegraph patents and specifications (1837–) — the English needle telegraph beside it](/view.html?p=documents/books/cooke-wheatstone-1837-telegraph-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

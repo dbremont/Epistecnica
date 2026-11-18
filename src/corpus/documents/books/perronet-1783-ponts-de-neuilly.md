@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Description des projets et de la construction des ponts (1783)](https://archive.org/details/chepfl-lipr-axd-20-02)
 - [Gauthey, Traité de la construction des ponts (1809–16) — the successor treatise](/view.html?p=documents/books/gauthey-1809-traite-des-ponts.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

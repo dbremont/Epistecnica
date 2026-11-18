@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Wilkinson, Submarine Cable Laying and Repairing (1896) — the repair trade the faults served](/view.html?p=documents/books/wilkinson-1896-submarine-cable-laying.md)

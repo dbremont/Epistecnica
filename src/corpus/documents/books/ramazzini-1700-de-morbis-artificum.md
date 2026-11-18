@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — De morbis artificum diatriba (1700)](https://archive.org/details/b30502925)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

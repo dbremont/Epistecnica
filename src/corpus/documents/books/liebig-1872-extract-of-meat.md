@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Extract of meat (1872)](https://archive.org/details/b2236738x)
 - [Payen, Des Substances Alimentaires (1856) — the food chemistry the extract assumed](/view.html?p=documents/books/payen-1856-substances-alimentaires.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

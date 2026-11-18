@@ -28,4 +28,4 @@ qa:
 - [Archive.org — Reports of the late John Smeaton (1812, vol. 1)](https://archive.org/details/reportslatejohn00smeagoog)
 - [Archive.org — (1812, DLI copy)](https://archive.org/details/dli.ministry.05699)
 - [Archive.org — (1837 printing)](https://archive.org/details/reportslatejohn01smeagoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -37,6 +37,6 @@ What it does not show is a plant. Four elements, one holdback/extractant pair, b
 
 - https://doi.org/10.1021/jacs.6c04301
 - [PubMed 42479975](https://pubmed.ncbi.nlm.nih.gov/42479975/)
-- [Separation Science and Technology](/view.html?p=notes/technica/general/es/multinode/separation-science-and-technology.md) — the technical domain this paper works inside
+- [Separation Science and Technology](/view.html?p=notes/technica/general/separation-science-and-technology.md) — the technical domain this paper works inside
 - [Augustine et al. (2024) — the preceding optimization study](/view.html?p=documents/papers/augustine-2024-advancing-rare-earth-actinide-separation.md)
-- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/general/industry/rare-earth-elements.md)
+- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md)

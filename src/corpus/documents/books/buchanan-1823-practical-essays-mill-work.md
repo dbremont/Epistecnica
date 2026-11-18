@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Practical essays on mill work and other machinery (1823)](https://archive.org/details/practicalessays01buchgoog)
 - [Archive.org — the 1841 edition](https://archive.org/details/practicalessays00nasmgoog)
-- [Buchanan belongs beside Evans and Grimshaw in the milling section](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [Buchanan belongs beside Evans and Grimshaw in the milling section](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

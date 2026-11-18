@@ -37,7 +37,7 @@ order: 0
 
 ## Probability
 
-> See more here [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md).
+> See more here [Probability](/view.html?p=notes/miscellanea/discipline/probability.md).
 > 
 
 > The mathematical framework for modeling uncertainty and quantifying the likelihood of events.
@@ -50,7 +50,7 @@ order: 0
 
 ## Statistics
 
-> See more in [Statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md).
+> See more in [Statistics](/view.html?p=notes/miscellanea/discipline/statistics.md).
 > 
 
 > Statistics: The science of collecting, analyzing, interpreting, and presenting data.

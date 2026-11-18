@@ -25,5 +25,5 @@ qa:
 ## References
 
 - [Appert, L'Art de Conserver (1810) — the canning chemistry the tradition carried](/view.html?p=documents/books/appert-1810-art-de-conserver.md)
-- [Perrot, Traité de la culture du blé — the grain-trade architecture printed alongside](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [Perrot, Traité de la culture du blé — the grain-trade architecture printed alongside](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

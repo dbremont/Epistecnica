@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Lectures de potentia restitutiva (1678)](https://archive.org/details/bim_early-english-books-1641-1700_lectures-de-potentia-restitutiva-or-of-spring-explaining-the-power-of-springing-bodies_1678)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

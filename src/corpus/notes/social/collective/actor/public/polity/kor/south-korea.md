@@ -21,6 +21,22 @@ Here is a table summarizing the key periods and events in South Korea's economic
 | **2000s** | **Information Technology and Innovation** | Focus on IT, innovation, and high-tech industries | Became a global leader in technology and innovation, significant growth in the ICT sector |
 | **2010s-Present** | **Sustainable Growth and Globalization** | Emphasis on sustainable development, green technology, and further globalization | Continued economic growth, leadership in green technologies, and strong global economic presence |
 
+## Actors
+
+> The industrial-policy institutions, and what each offers to an investigation of Korean industrial policy: the ministry that sets direction, the research institutes that analyse and evaluate, and the development bank that finances.
+
+| Organization | Principal role | Industrial-policy capacity to investigate |
+| --- | --- | --- |
+| **MOTIR** — Ministry of Trade, Industry and Resources | Industrial strategy, sectoral policy, industrial competitiveness, trade | Strategic direction, interagency coordination, industrial-policy design |
+| **KIET** — Korea Institute for Industrial Economics & Trade | Industrial and economic research | Industrial analysis, technology and sectoral assessment, policy evaluation |
+| **KEIT** — Korea Evaluation Institute of Industrial Technology | Industrial technology R&D programs | Technology-program design, project evaluation, R&D portfolio management |
+| **KIAT** — Korea Institute for Advancement of Technology | Industrial technology advancement and industrial cooperation | Technology commercialization, industrial capability development, technology transfer |
+| **KISTEP** — Korea Institute of S&T Evaluation and Planning | Science and technology planning and evaluation | National R&D priorities, investment analysis, research-program evaluation |
+| **KDB** — Korea Development Bank | Development finance and industrial financing | Long-term finance, industrial investment, financing of large-scale projects |
+| **KOTRA** — Korea Trade-Investment Promotion Agency | Trade promotion and international business support | Export development, market intelligence, international industrial cooperation |
+
+> MOTIR is recorded here under that name, and the statecraft table below carries the ministry as MOTIE; the two designations are kept as found and should be reconciled to the current official name before the note is used as a source.
+
 ## Economic Statecraft Institutions
 
 > Here is a table summarizing key economic statecraft institutions in South Korea from 1900 onwards, including their establishment and defunct dates:

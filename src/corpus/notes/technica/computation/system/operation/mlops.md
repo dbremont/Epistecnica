@@ -17,10 +17,15 @@ tags: [note]
 | **Model Training & Development** | Model Development | Frameworks for building machine learning models. | **TensorFlow**, **PyTorch**, **Scikit-learn**, **Keras**, **XGBoost** |
 |  | Model Training & Tuning | Tools for optimizing and tuning models. | **Optuna**, **Hyperopt**, **Keras Tuner**, **Ray Tune** |
 | **Model Deployment & Serving** | Model Serving | Systems that serve trained models for inference in production. | **TensorFlow Serving**, **TorchServe**, **FastAPI**, **Flask** |
+|  | LLM Serving | Frameworks that serve large language models with prefix caching and continuous batching. | **SGLang**, **vLLM**, **TensorRT-LLM** |
+|  | Disaggregated Serving | Separates prefill from decode and moves the KV cache between the pools. | **Mooncake** (Kimi), **llm-d**, **NVIDIA Dynamo** |
+|  | Teaching Implementation | The minimal reimplementation that makes the serving stack legible. | **nano-vllm**, **nanoGPT** |
+|  | Local Runtime | Serves the model on the user's own machine, offline. | **Jan**, **Ollama**, **llama.cpp** |
 |  | Model Deployment | Tools for automating model deployment pipelines. | **Kubeflow**, **MLflow**, **Seldon Core**, **TFX** |
 | **Continuous Integration/Continuous Deployment (CI/CD)** | CI/CD Pipelines | Tools for automating the building, testing, and deployment of ML models. | **Jenkins**, **GitLab CI/CD**, **CircleCI**, **Azure DevOps** |
 |  | Version Control | Tools for versioning models, data, and code. | **Git**, **DVC (Data Version Control)**, **MLflow** |
 | **Monitoring & Observability** | Model Monitoring | Tools to monitor the performance of ML models in production. | **Prometheus**, **Grafana**, **Datadog**, **Kibana** |
+|  | LLM Evaluation & Observability | Tracing and evaluating LLM applications: spans, datasets, scored outputs, regression suites. | **Opik**, **Langfuse**, **Weights & Biases Weave** |
 |  | Log Monitoring | Systems to track, analyze, and visualize logs from applications and services. | **ELK Stack (Elasticsearch, Logstash, Kibana)**, **Graylog**, **Splunk** |
 | **Automated ML (AutoML)** | Automated Model Selection | Tools to automate the selection and training of ML models. | **H2O.ai**, **Auto-Sklearn**, **TPOT**, **Google Cloud AutoML** |
 |  | Hyperparameter Optimization | Tools for automating the hyperparameter tuning process. | **Optuna**, **Hyperopt**, **Ray Tune**, **Keras Tuner** |
@@ -39,3 +44,4 @@ tags: [note]
 - https://huyenchip.com/mlops/
 - https://github.com/visenger/awesome-mlops
 - https://blog.vllm.ai/2025/12/17/large-scale-serving.html
+- [Opik — GitHub](https://github.com/comet-ml/opik) — open-source LLM evaluation and observability platform

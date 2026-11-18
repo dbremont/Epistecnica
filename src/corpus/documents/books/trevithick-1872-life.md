@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Life of Richard Trevithick (1872)](https://archive.org/details/lifeofrichardtre02trevrich)
 - [Trevithick & Woolf, High-pressure steam papers and patents — the papers beside the life](/view.html?p=documents/books/trevithick-woolf-1800s-high-pressure-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

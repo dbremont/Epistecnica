@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Recherches chimiques sur les corps gras (1823)](https://archive.org/details/rechercheschimi00chevgoog)
 - [Archive.org — a British Library copy of the same](https://archive.org/details/b29299949)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

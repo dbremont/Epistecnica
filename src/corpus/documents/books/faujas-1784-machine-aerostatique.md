@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Rapport fait à l'Académie des Sciences (1784)](https://archive.org/details/bub_gb_tdArqIHRlEwC)
 - [Cavallo, The History and Practice of Aerostation (1785) — the English balloon trade](/view.html?p=documents/books/cavallo-1785-history-practice-aerostation.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

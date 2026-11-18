@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Wood-working machinery (the British trade)](https://archive.org/details/woodworkingmach02balegoog)
 - [Archive.org — Saw-mills, Their Arrangement and Management (1883. Companion Volume)](https://archive.org/details/sawmillstheirar00balegoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

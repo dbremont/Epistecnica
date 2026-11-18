@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Hütte, des Ingenieurs Taschenbuch (1857 first edition)](https://archive.org/details/huettedesingeni00berlgoog)
 - [Karmarsch, Handbuch der mechanischen Technologie (1837) — the systematic teaching beside it](/view.html?p=documents/books/karmarsch-1837-handbuch-mechanischen-technologie.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Animal and vegetable fixed oils (1894)](https://archive.org/details/animalandvegeta00wriggoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

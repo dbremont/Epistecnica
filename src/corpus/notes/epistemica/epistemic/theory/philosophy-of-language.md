@@ -100,3 +100,4 @@ Here’s a summary of the **theory of names** as articulated by several prominen
 - Searle, J. (2014). What is a speech act?. In Philosophy in America (pp. 221-239). Routledge.
 - Bruner, J. S. (1975). The ontogenesis of speech acts. Journal of child language, 2(1), 1-19.
 - https://www.monash.edu/student-academic-success/improve-your-academic-english/the-language-of/adopting-a-critical-position/evaluative-language
+- [Philosophy of Language — the discipline](/view.html?p=notes/miscellanea/discipline/philosophy-of-language.md) — this concept note's discipline entry: object, canon, method, venues

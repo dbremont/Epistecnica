@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Works of Archimedes, Heath ed. (1897)](https://archive.org/details/abw0362.0001.001.umich.edu)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

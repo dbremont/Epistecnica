@@ -27,7 +27,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -162,7 +162,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -213,7 +213,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -231,7 +231,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -326,7 +326,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -432,7 +432,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -545,7 +545,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses — seven main OCW course entries with references",
+    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -633,6 +633,46 @@
     "kind": "feat",
     "summary": "Course entry created from MIT OpenCourseWare. ESD.273J Logistics and Supply Chain Management, Fall 2009, graduate, Engineering Systems Division and Civil and Environmental Engineering, taught by David Simchi-Levi. Entry records the operations-research framing of multi-echelon logistical planning: vehicle routing, dynamic lot sizing, stochastic and deterministic multi-echelon inventory, the bullwhip effect, pricing models and supply-chain integration, with probability and linear programming assumed. Topics list drawn from the OCW description, resources line (lecture notes and problem sets), reference to the OCW page, and cross-links to the supply-chain and logistics notes. The OCW page names only the two departments, so the course's cross-listings are not asserted.",
     "commit": "935d61638edd65809c782e34261ac1a0ce58e8c4"
+   }
+  ]
+ },
+ {
+  "file_path": "15-401-finance-theory-i/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Course entry created from MIT OpenCourseWare. 15.401 Finance Theory I, Fall 2008, graduate, Sloan School of Management, taught by Andrew Lo. Entry records the financial-economics framing - present value relations, fixed income, equities, forwards and futures, options, risk and return, portfolio theory, CAPM and APT, capital budgeting, efficient markets - with the twelve session topics and the resource set (notes, videos, recitations, problem sets, exams), and links to the finance toolkit, the finance industry, the asset notes and the financial discipline."
+   }
+  ]
+ },
+ {
+  "file_path": "2-25-advanced-fluid-mechanics-fall-2013/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Course entry created from MIT OCW 2.25: the topic index (continuum viewpoint, statics, inviscid flow, control volumes, viscous equations, dimensional analysis, viscous-dominated flows, potential flow, vorticity, boundary layers, surface tension, exams) and the note that the course's spine is the transition of viewpoint between regimes."
+   }
+  ]
+ },
+ {
+  "file_path": "nptel-advanced-fluid-mechanics/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Course entry for the NPTEL Advanced Fluid Mechanics course (IIT Kharagpur, Prof. Suman Chakraborty, 12 weeks), with the identification caveat that the course ID is listed as Advanced Fluid Mechanics by NPTEL while a mirror lists it as Introduction to Fluid Mechanics, and the comparison with 2.25 (viewpoint versus worked problem)."
+   }
+  ]
+ },
+ {
+  "file_path": "psych-302-neuroscience-of-the-mind/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Course entry for PSYCH 302 Neuroscience of the Mind with the resource site, the reading of the course as the bridge between neural physiology and cognitive science, and links into the human/cognition corpus."
    }
   ]
  }

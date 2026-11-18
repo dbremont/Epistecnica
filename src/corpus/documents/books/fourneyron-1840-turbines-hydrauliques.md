@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Memoire sur les turbines hydrauliques (1840)](https://archive.org/details/mmoiresurlestur00fourgoog)
 - [Archive.org — the same Memoire, further copy](https://archive.org/details/bub_gb_SHxQpxCzo3AC)
 - [Francis, Lowell Hydraulic Experiments (1855) — the measured form of turbine practice](/view.html?p=documents/books/francis-1855-lowell-hydraulic-experiments.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -1,1978 +1,1978 @@
 {
-  "title": "Symbol Atlas",
-  "abbr": "SY",
-  "version": "2026-10-26",
-  "intro": "The signs the corpus leans on, each with what it means, where it came from, and what it does in the notes — from the turnstile to the circled dot.",
-  "source": "hand-authored store; epistemica/symbols/symbols.json",
-  "categories": {
-    "logic": "Connectives, quantifiers and the entailment relations.",
-    "set-theory": "Membership, containment and the operations on sets.",
-    "algebra": "Products, structure maps and the operators of algebra.",
-    "analysis": "Calculus, limits and the differential operators.",
-    "order": "Comparison, identity and approximation.",
-    "probability": "Laws, conditioning and dependence.",
-    "parameters": "The Greek letters the corpus uses for parameters.",
-    "notation": "Definitions, mappings and the glue between statements."
-  },
-  "symbols": [
+ "title": "Symbol Atlas",
+ "abbr": "SY",
+ "version": "2026-10-26",
+ "intro": "The signs the corpus leans on, each with what it means, where it came from, and what it does in the notes \u2014 from the turnstile to the circled dot.",
+ "source": "hand-authored store; epistemica/symbols/symbols.json",
+ "categories": {
+  "logic": "Connectives, quantifiers and the entailment relations.",
+  "set-theory": "Membership, containment and the operations on sets.",
+  "algebra": "Products, structure maps and the operators of algebra.",
+  "analysis": "Calculus, limits and the differential operators.",
+  "order": "Comparison, identity and approximation.",
+  "probability": "Laws, conditioning and dependence.",
+  "parameters": "The Greek letters the corpus uses for parameters.",
+  "notation": "Definitions, mappings and the glue between statements."
+ },
+ "symbols": [
+  {
+   "id": "turnstile",
+   "symbol": "\u22a2",
+   "latex": "\\vdash",
+   "codepoint": "U+22A2",
+   "name": "Turnstile",
+   "aliases": [
+    "proves",
+    "right tack",
+    "derivability"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "A sequent mark: what sits on the right is derivable from what sits on the left inside a formal system.",
+   "origins": "From the logical notation of Peirce and the early-20th-century proof theory that followed Principia Mathematica; encoded as U+22A2 in the Unicode Mathematical Operators block (1993); TeX: \\vdash.",
+   "usage": "\u0393 \u22a2 \u03c6 \u2014 an inference step of a calculus; the syntactic twin of \u22a8, and the judgment behind Curry\u2013Howard in type theory.",
+   "related": [
+    "models",
+    "therefore"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
     {
-      "id": "turnstile",
-      "symbol": "⊢",
-      "latex": "\\vdash",
-      "codepoint": "U+22A2",
-      "name": "Turnstile",
-      "aliases": [
-        "proves",
-        "right tack",
-        "derivability"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "A sequent mark: what sits on the right is derivable from what sits on the left inside a formal system.",
-      "origins": "From the logical notation of Peirce and the early-20th-century proof theory that followed Principia Mathematica; encoded as U+22A2 in the Unicode Mathematical Operators block (1993); TeX: \\vdash.",
-      "usage": "Γ ⊢ φ — an inference step of a calculus; the syntactic twin of ⊨, and the judgment behind Curry–Howard in type theory.",
-      "related": [
-        "models",
-        "therefore"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Turnstile (symbol)",
-          "url": "https://en.wikipedia.org/wiki/Turnstile_(symbol)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
+     "label": "Wikipedia: Turnstile (symbol)",
+     "url": "https://en.wikipedia.org/wiki/Turnstile_(symbol)"
     },
     {
-      "id": "models",
-      "symbol": "⊨",
-      "latex": "\\models",
-      "codepoint": "U+22A8",
-      "name": "Double Turnstile",
-      "aliases": [
-        "satisfies",
-        "models",
-        "entails"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "The semantic turnstile: the structure on the left makes the sentence on the right true.",
-      "origins": "The double turnstile of mid-20th-century model theory, marking the syntax/semantics split it encodes; U+22A8; TeX: \\models.",
-      "usage": "M ⊨ φ — satisfaction; Γ ⊨ φ — semantic consequence, set against Γ ⊢ φ — syntactic derivability.",
-      "related": [
-        "turnstile"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Model theory",
-          "url": "https://en.wikipedia.org/wiki/Model_theory"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "for-all",
-      "symbol": "∀",
-      "latex": "\\forall",
-      "codepoint": "U+2200",
-      "name": "Universal Quantifier",
-      "aliases": [
-        "for all",
-        "any"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Reads “for every”: the predicate that follows holds across the whole domain.",
-      "origins": "The inverted A for “all”, fixed in the quantifier notation that became standard in the 1930s logic literature; U+2200; TeX: \\forall.",
-      "usage": "∀x ∈ S: P(x) — definitions, axioms and invariants throughout the corpus; always paired with ∃.",
-      "related": [
-        "there-exists",
-        "element-of"
-      ],
-      "notes": [
-        "epistemica/epistemic/theory/definition.md",
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Quantifier (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "there-exists",
-      "symbol": "∃",
-      "latex": "\\exists",
-      "codepoint": "U+2203",
-      "name": "Existential Quantifier",
-      "aliases": [
-        "there is",
-        "exists"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Reads “there is at least one”: a witness for the predicate must exist in the domain.",
-      "origins": "The rotated E descends from Peirce's existential quantifier (1880s) and settled into its modern form with Peano and the 20th-century tradition; U+2203; TeX: \\exists.",
-      "usage": "∃x ∈ S: P(x) — existence claims: fixed points, witnesses, separating hyperplanes.",
-      "related": [
-        "for-all"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md",
-        "epistemica/epistemic/construction/mathematical/brouwer-fixed-point-theorem.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Quantifier (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "negation",
-      "symbol": "¬",
-      "latex": "\\neg",
-      "codepoint": "U+00AC",
-      "name": "Not Sign",
-      "aliases": [
-        "negation",
-        "not"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Flips the truth of the proposition it prefixes.",
-      "origins": "The typographic “not sign” of 20th-century logic, carried in ISO Latin-1 (U+00AC) before Unicode; TeX: \\neg.",
-      "usage": "¬φ — negation, kept apart from the tilde ~ of informal logic and the ! of programming.",
-      "related": [
-        "conjunction",
-        "disjunction"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Negation",
-          "url": "https://en.wikipedia.org/wiki/Negation"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "conjunction",
-      "symbol": "∧",
-      "latex": "\\wedge",
-      "codepoint": "U+2227",
-      "name": "Wedge",
-      "aliases": [
-        "and",
-        "conjunction"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Logical AND: true only when both sides are.",
-      "origins": "The wedge for conjunction, standardised in the early-20th-century logical notation; U+2227; TeX: \\wedge (\\land).",
-      "usage": "φ ∧ ψ — compound conditions; the same glyph is the meet/infimum in orders and lattices.",
-      "related": [
-        "disjunction",
-        "negation"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Logical conjunction",
-          "url": "https://en.wikipedia.org/wiki/Logical_conjunction"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "disjunction",
-      "symbol": "∨",
-      "latex": "\\vee",
-      "codepoint": "U+2228",
-      "name": "Vee",
-      "aliases": [
-        "or",
-        "disjunction"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Logical OR: true when at least one side is.",
-      "origins": "Companion of the wedge in the same logical-notation family; U+2228; TeX: \\vee (\\lor).",
-      "usage": "φ ∨ ψ — alternatives and case splits; join/supremum in lattice theory.",
-      "related": [
-        "conjunction",
-        "union"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Logical disjunction",
-          "url": "https://en.wikipedia.org/wiki/Logical_disjunction"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "implication",
-      "symbol": "⇒",
-      "latex": "\\implies",
-      "codepoint": "U+21D2",
-      "name": "Right Double Arrow",
-      "aliases": [
-        "implies",
-        "material implication"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "The conditional: a material “if…then” between statements.",
-      "origins": "The double arrow of 20th-century logical typography, in the same family as → and ⇔; U+21D2; TeX: \\implies (amsmath), \\Rightarrow.",
-      "usage": "P ⇒ Q — theorem statements; deliberately distinct from the function and limit arrow →.",
-      "related": [
-        "biconditional",
-        "arrow"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Material conditional",
-          "url": "https://en.wikipedia.org/wiki/Material_conditional"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "biconditional",
-      "symbol": "⇔",
-      "latex": "\\iff",
-      "codepoint": "U+21D4",
-      "name": "Left Right Double Arrow",
-      "aliases": [
-        "if and only if",
-        "iff",
-        "equivalence"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Both directions of implication at once: the two sides stand or fall together.",
-      "origins": "The double-headed arrow for logical equivalence, standard in 20th-century texts; U+21D4; TeX: \\iff (amsmath).",
-      "usage": "φ ⇔ ψ — definitional equivalences and the biconditional form of a criterion.",
-      "related": [
-        "implication",
-        "identical"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Biconditional",
-          "url": "https://en.wikipedia.org/wiki/Biconditional"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "therefore",
-      "symbol": "∴",
-      "latex": "\\therefore",
-      "codepoint": "U+2234",
-      "name": "Therefore Sign",
-      "aliases": [
-        "ergo",
-        "conclusion"
-      ],
-      "categories": [
-        "logic"
-      ],
-      "description": "Marks the concluding step: what follows has been derived.",
-      "origins": "The three-dot conclusion mark of 17th-century algebraic writing, abbreviating the Latin ergo; U+2234; TeX: \\therefore (amsmath).",
-      "usage": "P, P ⇒ Q ∴ Q — the informal end of a derivation; its mirror is ∵ (“because”).",
-      "related": [
-        "turnstile"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Therefore sign",
-          "url": "https://en.wikipedia.org/wiki/Therefore_sign"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "element-of",
-      "symbol": "∈",
-      "latex": "\\in",
-      "codepoint": "U+2208",
-      "name": "Element Of",
-      "aliases": [
-        "membership",
-        "belongs to",
-        "in"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "The membership relation: x is a member of S.",
-      "origins": "Peano's ∈ (1889), standing for the Italian è, “is”; U+2208; TeX: \\in.",
-      "usage": "x ∈ S — membership in set theory, type signatures, and the quantifier domains ∀x ∈ S.",
-      "related": [
-        "not-element-of",
-        "subset",
-        "for-all"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Set theory",
-          "url": "https://en.wikipedia.org/wiki/Set_theory"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "not-element-of",
-      "symbol": "∉",
-      "latex": "\\notin",
-      "codepoint": "U+2209",
-      "name": "Not An Element Of",
-      "aliases": [
-        "excluded",
-        "notin"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Membership negated: x lies outside S.",
-      "origins": "The negated form of Peano's ∈; U+2209; TeX: \\notin.",
-      "usage": "x ∉ S — exclusions in definitions and the side conditions of theorems.",
-      "related": [
-        "element-of"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Set theory",
-          "url": "https://en.wikipedia.org/wiki/Set_theory"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "subset",
-      "symbol": "⊆",
-      "latex": "\\subseteq",
-      "codepoint": "U+2286",
-      "name": "Subset Of",
-      "aliases": [
-        "included in",
-        "contained in"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Containment: every member of the left set is a member of the right.",
-      "origins": "The subset signs of early-20th-century set notation, in the Cantor–Peano lineage; U+2286; TeX: \\subseteq.",
-      "usage": "A ⊆ B — containment of sets, σ-algebras and information sets; the reflexive form of ⊂.",
-      "related": [
-        "proper-subset",
-        "element-of"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Subset",
-          "url": "https://en.wikipedia.org/wiki/Subset"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "proper-subset",
-      "symbol": "⊂",
-      "latex": "\\subset",
-      "codepoint": "U+2282",
-      "name": "Subset Of (Proper)",
-      "aliases": [
-        "strict subset",
-        "proper subset"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Containment with something left over: A ⊆ B and A ≠ B.",
-      "origins": "Same family as ⊆; U+2282; TeX: \\subset. Publishers disagree on whether ⊂ means ⊆ or the strict relation — always say which.",
-      "usage": "A ⊂ B — strict containment; check the author's convention before reading a strictness into it.",
-      "related": [
-        "subset",
-        "not-equal"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Subset",
-          "url": "https://en.wikipedia.org/wiki/Subset"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "union",
-      "symbol": "∪",
-      "latex": "\\cup",
-      "codepoint": "U+222A",
-      "name": "Union",
-      "aliases": [
-        "cup",
-        "join of sets"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Everything that is in either set.",
-      "origins": "The upright cup of the set-operation notation, descended from the Cantor–Peano tradition; U+222A; TeX: \\cup.",
-      "usage": "A ∪ B — pooling sets; P(A ∪ B) for events, with inclusion–exclusion bridging it to ∩.",
-      "related": [
-        "intersection",
-        "disjunction"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Union (set theory)",
-          "url": "https://en.wikipedia.org/wiki/Union_(set_theory)"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "intersection",
-      "symbol": "∩",
-      "latex": "\\cap",
-      "codepoint": "U+2229",
-      "name": "Intersection",
-      "aliases": [
-        "cap",
-        "meet of sets"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Everything the two sets share.",
-      "origins": "The inverted cup, paired with ∪ in the same notation; U+2229; TeX: \\cap.",
-      "usage": "A ∩ B — common elements; P(A ∩ B) for joint events, the ∧ of events.",
-      "related": [
-        "union",
-        "conjunction"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Intersection (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Intersection_(mathematics)"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "empty-set",
-      "symbol": "∅",
-      "latex": "\\emptyset",
-      "codepoint": "U+2205",
-      "name": "Empty Set",
-      "aliases": [
-        "null set",
-        "void"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "The set with no members — the unique set of cardinality zero.",
-      "origins": "The slashed zero ∅, popularised by the Bourbaki group's Éléments de mathématique over older forms such as Ø or { }; U+2205; TeX: \\emptyset.",
-      "usage": "∅ — the impossible event P(∅) = 0, the neutral element of ∪, and the base case of constructions.",
-      "related": [
-        "union",
-        "intersection"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Empty set",
-          "url": "https://en.wikipedia.org/wiki/Empty_set"
-        },
-        {
-          "label": "Halmos, P. (1960). Naive Set Theory."
-        }
-      ]
-    },
-    {
-      "id": "cartesian-product",
-      "symbol": "×",
-      "latex": "\\times",
-      "codepoint": "U+00D7",
-      "name": "Multiplication Sign",
-      "aliases": [
-        "cross",
-        "product of sets"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "The cross used for the ordered pairing of sets: all (a, b) with a in A and b in B.",
-      "origins": "The multiplication cross of 17th-century arithmetic typography (attributed to Oughtred's Clavis Mathematicae, 1631), reused for set products; U+00D7; TeX: \\times.",
-      "usage": "A × B — sample spaces of joint outcomes and product spaces; kept distinct from the scalar dot ⋅ and the tensor ⊗.",
-      "related": [
-        "dot-operator",
-        "tensor-product",
-        "union"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Cartesian product",
-          "url": "https://en.wikipedia.org/wiki/Cartesian_product"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "maps-to",
-      "symbol": "↦",
-      "latex": "\\mapsto",
-      "codepoint": "U+21A6",
-      "name": "Rightwards Arrow From Bar",
-      "aliases": [
-        "maplet",
-        "maps to"
-      ],
-      "categories": [
-        "set-theory"
-      ],
-      "description": "Defines a function by rule: each input is sent to its output.",
-      "origins": "The maplet arrow of the Bourbaki school's function notation; U+21A6; TeX: \\mapsto.",
-      "usage": "x ↦ f(x) — the rule itself, against the type declaration f: A → B that names it.",
-      "related": [
-        "arrow",
-        "element-of"
-      ],
-      "notes": [
-        "epistemica/mathematical/mapping/function.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Function (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Function_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "circled-plus",
-      "symbol": "⊕",
-      "latex": "\\oplus",
-      "codepoint": "U+2295",
-      "name": "Circled Plus",
-      "aliases": [
-        "direct sum",
-        "xor",
-        "oplus"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "Addition under a ring: the direct sum of structures, or XOR on bits.",
-      "origins": "The ringed binary-operator convention that separates algebraic products from ordinary ones; U+2295; TeX: \\oplus.",
-      "usage": "G ⊕ H — direct sum of groups and modules; a ⊕ b — XOR in Boolean algebra and error-correcting codes.",
-      "related": [
-        "tensor-product",
-        "circled-dot-operator"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/abelian-group.md",
-        "epistemica/mathematical/structure/algebra/boolean-algebra.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Direct sum",
-          "url": "https://en.wikipedia.org/wiki/Direct_sum"
-        },
-        {
-          "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)",
-          "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
-        }
-      ]
-    },
-    {
-      "id": "tensor-product",
-      "symbol": "⊗",
-      "latex": "\\otimes",
-      "codepoint": "U+2297",
-      "name": "Circled Times",
-      "aliases": [
-        "tensor product",
-        "otimes"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "The multilinear product that combines two structures into all their pairwise interactions.",
-      "origins": "The ringed times of multilinear algebra, encoding a product “larger” than the ordinary one; U+2297; TeX: \\otimes.",
-      "usage": "V ⊗ W — tensor product of spaces; |ψ⟩ ⊗ |φ⟩ — composite quantum states; A ⊗ B — Kronecker product of matrices.",
-      "related": [
-        "circled-plus",
-        "circled-dot-operator",
-        "cartesian-product"
-      ],
-      "notes": [
-        "epistemica/mathematical/tensor/tensor.md",
-        "epistemica/mathematical/structure/linear/density-matrix.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Tensor product",
-          "url": "https://en.wikipedia.org/wiki/Tensor_product"
-        },
-        {
-          "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)",
-          "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
-        }
-      ]
-    },
-    {
-      "id": "circled-dot-operator",
-      "symbol": "⊙",
-      "latex": "\\odot",
-      "codepoint": "U+2299",
-      "name": "Circled Dot Operator",
-      "aliases": [
-        "circle dot",
-        "hadamard product",
-        "element-wise product",
-        "odot"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "A ringed binary operator that writes an element-wise (Hadamard) product: two equally shaped objects multiplied slot by slot, the circle marking that the operation acts componentwise rather than being the structural product the same glyphs would name without a ring.",
-      "origins": "Encoded as U+2299 in the Unicode Mathematical Operators block (Unicode 1.1, 1993) and exposed by TeX as \\odot; the ringed-operator convention that separates ⊕ (direct sum), ⊗ (tensor product) and ⊙ (componentwise product) comes from 19th–20th-century algebraic typography.",
-      "usage": "Element-wise multiplication in the backpropagation note — δᴸ = ∇L ⊙ σ′(zᴸ) — where ⊙ keeps the Hadamard product distinct from matrix multiplication; also the circle dot product in geometry and a modulation product in engineering.",
-      "related": [
-        "dot-operator",
-        "tensor-product",
-        "circled-plus",
-        "nabla"
-      ],
-      "notes": [
-        "epistemica/optimization/backpropagation.md"
-      ],
-      "sources": [
-        {
-          "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)",
-          "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
-        },
-        {
-          "label": "Wikipedia: Hadamard product (matrices)",
-          "url": "https://en.wikipedia.org/wiki/Hadamard_product_(matrices)"
-        }
-      ]
-    },
-    {
-      "id": "dot-operator",
-      "symbol": "⋅",
-      "latex": "\\cdot",
-      "codepoint": "U+22C5",
-      "name": "Dot Operator",
-      "aliases": [
-        "centered dot",
-        "scalar product",
-        "cdot"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "The centred dot for multiplication where × would be misread as a product of sets.",
-      "origins": "U+22C5, the dot operator that displaced the middle dot · of older typography; TeX: \\cdot.",
-      "usage": "a ⋅ b — scalar and dot products, field multiplication; also the “per” of units, written m⋅s⁻¹.",
-      "related": [
-        "circled-dot-operator",
-        "cartesian-product"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/linear/vector.md",
-        "epistemica/mathematical/structure/algebra/field.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Dot product",
-          "url": "https://en.wikipedia.org/wiki/Dot_product"
-        },
-        {
-          "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)",
-          "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
-        }
-      ]
-    },
-    {
-      "id": "isomorphism",
-      "symbol": "≅",
-      "latex": "\\cong",
-      "codepoint": "U+2245",
-      "name": "Congruent To",
-      "aliases": [
-        "isomorphic",
-        "congruence",
-        "cong"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "Same up to relabelling: a structure-preserving bijection in both directions.",
-      "origins": "U+2245; TeX: \\cong; shared by algebra (isomorphism), geometry (congruence) and number theory (modular congruence).",
-      "usage": "G ≅ H — groups, spaces or models that differ only in naming; ≅ says the map, not the elements, is what matters.",
-      "related": [
-        "identical",
-        "angle-brackets"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/algebra/group-theory.md",
-        "epistemica/mathematical/structure/algebra/lie-group.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Isomorphism",
-          "url": "https://en.wikipedia.org/wiki/Isomorphism"
-        },
-        {
-          "label": "Artin, M. (2010). Algebra."
-        }
-      ]
-    },
-    {
-      "id": "angle-brackets",
-      "symbol": "⟨⟩",
-      "latex": "\\langle, \\rangle",
-      "codepoint": "U+27E8 U+27E9",
-      "name": "Mathematical Angle Brackets",
-      "aliases": [
-        "chevrons",
-        "inner product brackets",
-        "langle"
-      ],
-      "categories": [
-        "algebra"
-      ],
-      "description": "Chevrons that delimit inner products, generators and tuples without the ambiguity of parentheses.",
-      "origins": "The Mathematical Angle Brackets of Unicode 3.1 (2001), fixing ⟨⟩ as a pair distinct from < >; TeX: \\langle, \\rangle.",
-      "usage": "⟨x, y⟩ — inner products; ⟨g⟩ — the subgroup generated by g; the bra-ket ⟨ψ|φ⟩ of quantum notation uses the same family.",
-      "related": [
-        "dot-operator",
-        "tensor-product"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/linear/vector.md",
-        "epistemica/mathematical/structure/algebra/group.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Inner product space",
-          "url": "https://en.wikipedia.org/wiki/Inner_product_space"
-        },
-        {
-          "label": "Unicode: Miscellaneous Mathematical Symbols-A chart (U+27E8–U+27FF)",
-          "url": "https://www.unicode.org/charts/PDF/U27E8.pdf"
-        }
-      ]
-    },
-    {
-      "id": "integral",
-      "symbol": "∫",
-      "latex": "\\int",
-      "codepoint": "U+222B",
-      "name": "Integral Sign",
-      "aliases": [
-        "int",
-        "integration"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "The elongated S for summa: accumulation of a quantity over a continuum.",
-      "origins": "Drawn by Leibniz (1675) for the integral of the calculus; U+222B; TeX: \\int; the closed variant ∮ (U+222E) adds “around a contour”.",
-      "usage": "∫ f dx — areas, probabilities and expectations as integrals; ∮ for contour integrals in the theorems of vector calculus.",
-      "related": [
-        "partial",
-        "summation"
-      ],
-      "notes": [
-        "epistemica/mathematical/mapping/lebesgue-integral.md",
-        "epistemica/mathematical/measure/measure.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Integral",
-          "url": "https://en.wikipedia.org/wiki/Integral"
-        },
-        {
-          "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
-        }
-      ]
-    },
-    {
-      "id": "partial",
-      "symbol": "∂",
-      "latex": "\\partial",
-      "codepoint": "U+2202",
-      "name": "Partial Derivative Symbol",
-      "aliases": [
-        "curly d",
-        "partial"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "Differentiation with respect to one variable while the rest are held fixed.",
-      "origins": "The curly d of partial differentiation, in use among 18th–19th-century analysts (Legendre, Jacobi); U+2202; TeX: \\partial.",
-      "usage": "∂f/∂x — partial derivatives and PDEs; ∂L/∂w — the gradients of the loss in the optimisation notes.",
-      "related": [
-        "nabla",
-        "delta"
-      ],
-      "notes": [
-        "epistemica/mathematical/change/differential-equation.md",
-        "epistemica/optimization/backpropagation.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Partial derivative",
-          "url": "https://en.wikipedia.org/wiki/Partial_derivative"
-        },
-        {
-          "label": "Crowe, M. J. (1967). A History of Vector Analysis."
-        }
-      ]
-    },
-    {
-      "id": "nabla",
-      "symbol": "∇",
-      "latex": "\\nabla",
-      "codepoint": "U+2207",
-      "name": "Nabla",
-      "aliases": [
-        "del",
-        "gradient operator",
-        "inverted delta"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "The differential operator that reads a field as gradient, divergence and curl depending on how it is applied.",
-      "origins": "The inverted delta used by Hamilton (1830s) for vector operations, later named “nabla” after the harp-shaped Greek instrument; U+2207; TeX: \\nabla.",
-      "usage": "∇f, ∇·F, ∇×F — gradient, divergence, curl; ∇L — the gradient step of backpropagation; Δ = ∇² in physics notation.",
-      "related": [
-        "partial",
-        "capital-delta",
-        "circled-dot-operator"
-      ],
-      "notes": [
-        "epistemica/mathematical/change/divergence-operator.md",
-        "epistemica/epistemic/construction/mathematical/gradient-theorem.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Del (operator)",
-          "url": "https://en.wikipedia.org/wiki/Del_(operator)"
-        },
-        {
-          "label": "Crowe, M. J. (1967). A History of Vector Analysis."
-        }
-      ]
-    },
-    {
-      "id": "infinity",
-      "symbol": "∞",
-      "latex": "\\infty",
-      "codepoint": "U+221E",
-      "name": "Infinity",
-      "aliases": [
-        "infinite",
-        "lemniscate"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "No bound: the limit that is never reached, and the size of the unbounded.",
-      "origins": "The lemniscate of John Wallis (1655), from the Latin infinitas; U+221E; TeX: \\infty.",
-      "usage": "x → ∞ — limits and asymptotics; [−∞, ∞] — the extended reals; ∞ as the horizon of unbounded operators.",
-      "related": [
-        "much-less",
-        "proportional"
-      ],
-      "notes": [
-        "epistemica/mathematical/change/limit.md",
-        "epistemica/mathematical/change/cauchy-sequence.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Infinity",
-          "url": "https://en.wikipedia.org/wiki/Infinity"
-        },
-        {
-          "label": "Stillwell, J. (2010). Mathematics and Its History."
-        }
-      ]
-    },
-    {
-      "id": "proportional",
-      "symbol": "∝",
-      "latex": "\\propto",
-      "codepoint": "U+221D",
-      "name": "Proportional To",
-      "aliases": [
-        "propto",
-        "scales with"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "Two quantities that keep a fixed ratio: f = c·g for some constant c.",
-      "origins": "The proportionality sign of English mathematical printing, standard in the 20th century; U+221D; TeX: \\propto.",
-      "usage": "F ∝ 1/r² — scaling laws and rate statements: a claim about shape only, never about scale.",
-      "related": [
-        "much-less",
-        "dot-operator"
-      ],
-      "notes": [
-        "epistemica/mathematical/number/order-of-magnitude.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Proportionality (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Proportionality_(mathematics)"
-        },
-        {
-          "label": "Stillwell, J. (2010). Mathematics and Its History."
-        }
-      ]
-    },
-    {
-      "id": "summation",
-      "symbol": "∑",
-      "latex": "\\sum",
-      "codepoint": "U+2211",
-      "name": "N-Ary Summation",
-      "aliases": [
-        "sigma notation",
-        "sum"
-      ],
-      "categories": [
-        "analysis"
-      ],
-      "description": "Adds a family of terms indexed over a range.",
-      "origins": "Capital sigma as the summation operator, standard since Euler's century; U+2211; TeX: \\sum with limits.",
-      "usage": "∑ᵢ xᵢ — means, variances, losses and series; the discrete twin of ∫.",
-      "related": [
-        "integral",
-        "sigma"
-      ],
-      "notes": [
-        "epistemica/mathematical/change/series.md",
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Summation",
-          "url": "https://en.wikipedia.org/wiki/Summation"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "less-equal",
-      "symbol": "≤",
-      "latex": "\\le",
-      "codepoint": "U+2264",
-      "name": "Less-Than Or Equal To",
-      "aliases": [
-        "at most",
-        "leq"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Order with the boundary included: below, or exactly at.",
-      "origins": "The “or equal” inequality of 20th-century printing (an older cut is ⩽); U+2264; TeX: \\le.",
-      "usage": "a ≤ b — bounds and constraints in optimisation, inequalities in analysis, and the ≤ of complexity upper bounds.",
-      "related": [
-        "greater-equal",
-        "much-less"
-      ],
-      "notes": [
-        "epistemica/optimization/optimization.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Inequality (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "greater-equal",
-      "symbol": "≥",
-      "latex": "\\ge",
-      "codepoint": "U+2265",
-      "name": "Greater-Than Or Equal To",
-      "aliases": [
-        "at least",
-        "geq"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Order with the boundary included from above.",
-      "origins": "Companion of ≤ in the same printing convention; U+2265; TeX: \\ge.",
-      "usage": "a ≥ b — lower bounds, non-negativity constraints (λ ≥ 0) and “at least n” claims.",
-      "related": [
-        "less-equal",
-        "lambda"
-      ],
-      "notes": [
-        "epistemica/optimization/optimization.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Inequality (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "not-equal",
-      "symbol": "≠",
-      "latex": "\\neq",
-      "codepoint": "U+2260",
-      "name": "Not Equal To",
-      "aliases": [
-        "unequal",
-        "ne"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "The values differ.",
-      "origins": "The negated equals of 20th-century typography; U+2260; TeX: \\neq.",
-      "usage": "a ≠ b — strict difference, kept apart from ≡ (identity) and ≈ (approximate).",
-      "related": [
-        "identical",
-        "approximate",
-        "proper-subset"
-      ],
-      "notes": [
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Equality (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Equality_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "identical",
-      "symbol": "≡",
-      "latex": "\\equiv",
-      "codepoint": "U+2261",
-      "name": "Identical To",
-      "aliases": [
-        "triple bar",
-        "congruent",
-        "identity"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Stronger than =: the same object, or the same remainder under a modulus.",
-      "origins": "The triple bar of identity and congruence — Gauss's congruence notation in the Disquisitiones (1801) made ≡ standard for “same remainder mod n”; U+2261; TeX: \\equiv.",
-      "usage": "a ≡ b (mod n) — congruence; f ≡ g — identity of functions; definitional equality in type theory.",
-      "related": [
-        "not-equal",
-        "isomorphism",
-        "defined-as"
-      ],
-      "notes": [
-        "epistemica/mathematical/equation/diophantine-equation.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Congruence relation",
-          "url": "https://en.wikipedia.org/wiki/Congruence_relation"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "approximate",
-      "symbol": "≈",
-      "latex": "\\approx",
-      "codepoint": "U+2248",
-      "name": "Almost Equal To",
-      "aliases": [
-        "approximately",
-        "approx"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Close enough for the purpose at hand, at a stated precision.",
-      "origins": "The double-waved similarity sign; U+2248; TeX: \\approx.",
-      "usage": "π ≈ 3.14159 — numerical values and reported estimates; distinct from ∼ (a relation between laws) and ≡ (identity).",
-      "related": [
-        "distributed-as",
-        "not-equal",
-        "identical"
-      ],
-      "notes": [
-        "epistemica/mathematical/number/order-of-magnitude.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Approximation",
-          "url": "https://en.wikipedia.org/wiki/Approximation"
-        },
-        {
-          "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
-        }
-      ]
-    },
-    {
-      "id": "distributed-as",
-      "symbol": "∼",
-      "latex": "\\sim",
-      "codepoint": "U+223C",
-      "name": "Tilde",
-      "aliases": [
-        "distributed as",
-        "similar",
-        "sim"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "A relation of likeness: in probability, the law a random variable follows.",
-      "origins": "The tilde of similarity and distributional notation; U+223C; TeX: \\sim.",
-      "usage": "X ∼ N(0, 1) — the distribution of X; A ∼ B — similar figures; f ∼ g — asymptotic equivalence of functions.",
-      "related": [
-        "approximate",
-        "expectation",
-        "mu"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/probability.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Probability distribution",
-          "url": "https://en.wikipedia.org/wiki/Probability_distribution"
-        },
-        {
-          "label": "Billingsley, P. (1995). Probability and Measure."
-        }
-      ]
-    },
-    {
-      "id": "much-less",
-      "symbol": "≪",
-      "latex": "\\ll",
-      "codepoint": "U+226A",
-      "name": "Much Less Than",
-      "aliases": [
-        "negligible against",
-        "ll"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Not merely smaller — small enough that the leading behaviour ignores it.",
-      "origins": "The doubled inequality of asymptotic comparison; U+226A; TeX: \\ll.",
-      "usage": "ε ≪ 1 — the regime where perturbation expansions hold; n ≫ 1 — the large-sample limit behind asymptotic arguments.",
-      "related": [
-        "much-greater",
-        "proportional",
-        "epsilon"
-      ],
-      "notes": [
-        "epistemica/mathematical/number/order-of-magnitude.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Asymptotic analysis",
-          "url": "https://en.wikipedia.org/wiki/Asymptotic_analysis"
-        },
-        {
-          "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
-        }
-      ]
-    },
-    {
-      "id": "much-greater",
-      "symbol": "≫",
-      "latex": "\\gg",
-      "codepoint": "U+226B",
-      "name": "Much Greater Than",
-      "aliases": [
-        "dominant over",
-        "gg"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "Large enough that everything smaller is dropped at leading order.",
-      "origins": "Counterpart of ≪ in the same asymptotic family; U+226B; TeX: \\gg.",
-      "usage": "N ≫ 1 — dominance in scaling arguments and the thermodynamic limit.",
-      "related": [
-        "much-less"
-      ],
-      "notes": [
-        "epistemica/mathematical/number/order-of-magnitude.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Asymptotic analysis",
-          "url": "https://en.wikipedia.org/wiki/Asymptotic_analysis"
-        },
-        {
-          "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
-        }
-      ]
-    },
-    {
-      "id": "plus-minus",
-      "symbol": "±",
-      "latex": "\\pm",
-      "codepoint": "U+00B1",
-      "name": "Plus-Minus Sign",
-      "aliases": [
-        "plus or minus",
-        "error bar"
-      ],
-      "categories": [
-        "order"
-      ],
-      "description": "A value together with its uncertainty, or the two outcomes of a sign choice.",
-      "origins": "The plus-over-minus of the French “plus ou moins”, standard for error and interval notation; U+00B1; TeX: \\pm.",
-      "usage": "x ± σ — measurement uncertainty and confidence intervals; (a ± b)² — both signs in the expansion.",
-      "related": [
-        "approximate",
-        "sigma"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Plus-minus sign",
-          "url": "https://en.wikipedia.org/wiki/Plus-minus_sign"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "expectation",
-      "symbol": "𝔼",
-      "latex": "\\mathbb{E}",
-      "codepoint": "U+1D53C",
-      "name": "Double-Struck E",
-      "aliases": [
-        "expectation operator",
-        "expected value",
-        "blackboard E"
-      ],
-      "categories": [
-        "probability"
-      ],
-      "description": "The operator that averages a random quantity over its law: the probability-weighted mean.",
-      "origins": "The blackboard-bold E of the double-struck operator family (Mathematical Alphanumeric Symbols, Unicode 3.1, 2001); TeX: \\mathbb{E}.",
-      "usage": "𝔼[X] — expectation behind estimators, variances and risks; 𝔼[X | Y] — conditional expectation.",
-      "related": [
-        "mu",
-        "sigma",
-        "conditional-bar"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/probability.md",
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Expected value",
-          "url": "https://en.wikipedia.org/wiki/Expected_value"
-        },
-        {
-          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
-        }
-      ]
-    },
-    {
-      "id": "independent",
-      "symbol": "⊥",
-      "latex": "\\perp",
-      "codepoint": "U+22A5",
-      "name": "Up Tack",
-      "aliases": [
-        "independent",
-        "orthogonal",
-        "perpendicular"
-      ],
-      "categories": [
-        "probability"
-      ],
-      "description": "No coupling: in probability the joint law factorises; in geometry the directions meet at a right angle.",
-      "origins": "The up tack ⊥ of geometry, reused for statistical independence and orthogonality; U+22A5; TeX: \\perp.",
-      "usage": "X ⊥ Y — independence (X ⊥ Y | Z conditional); v ⊥ w — perpendicular vectors; orthogonal parameters in a model.",
-      "related": [
-        "conditional-bar",
-        "expectation"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/probability.md",
-        "epistemica/mathematical/structure/linear/vector.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Independence (probability theory)",
-          "url": "https://en.wikipedia.org/wiki/Independence_(probability_theory)"
-        },
-        {
-          "label": "Billingsley, P. (1995). Probability and Measure."
-        }
-      ]
-    },
-    {
-      "id": "conditional-bar",
-      "symbol": "|",
-      "latex": "\\mid",
-      "codepoint": "U+007C",
-      "name": "Vertical Bar",
-      "aliases": [
-        "given",
-        "such that",
-        "pipe",
-        "divides"
-      ],
-      "categories": [
-        "probability"
-      ],
-      "description": "The most overloaded glyph in the corpus: conditioning in probability, comprehension in set theory, divisibility in number theory, restriction of a map.",
-      "origins": "The ASCII vertical bar (U+007C) taken over by 20th-century mathematics for “given” and “such that”; TeX: | and \\mid.",
-      "usage": "P(A | B) — conditioning; {x | P(x)} — set-builder; a | b — “a divides b”; f|_A — restriction of a map.",
-      "related": [
-        "distributed-as",
-        "expectation",
-        "element-of"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/probability.md",
-        "epistemica/mathematical/set.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Conditional probability",
-          "url": "https://en.wikipedia.org/wiki/Conditional_probability"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "correlation-coefficient",
-      "symbol": "r",
-      "latex": "r, \\rho",
-      "codepoint": "U+0072",
-      "name": "Correlation Coefficient",
-      "aliases": [
-        "pearson r",
-        "rho",
-        "correlation"
-      ],
-      "categories": [
-        "probability"
-      ],
-      "description": "The sample linear correlation: a Latin letter by Fisher's convention, with ρ reserved for the population value.",
-      "origins": "Karl Pearson's correlation coefficient (1890s), written r for the sample statistic and ρ for the parameter, under Fisher's convention that statistics take Latin letters and parameters Greek ones.",
-      "usage": "r ∈ [−1, 1] — linear association in a sample; report it with the scatter it summarises, since r alone hides nonlinearity and outliers.",
-      "related": [
-        "rho",
-        "independent"
-      ],
-      "notes": [
-        "epistemica/observational/correlation.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Pearson correlation coefficient",
-          "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
-        },
-        {
-          "label": "Stigler, S. M. (1986). The History of Statistics."
-        }
-      ]
-    },
-    {
-      "id": "alpha",
-      "symbol": "α",
-      "latex": "\\alpha",
-      "codepoint": "U+03B1",
-      "name": "Alpha",
-      "aliases": [
-        "significance level",
-        "type-I error rate"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "First Greek letter: in testing, the rate of false alarms you agree to tolerate.",
-      "origins": "Greek alpha (Α), the first letter, adopted as the significance level of a test in Neyman–Pearson theory (1930s); U+03B1; TeX: \\alpha.",
-      "usage": "α = 0.05 — the type-I error rate; also learning rates, exponents and the fine-structure constant.",
-      "related": [
-        "beta",
-        "theta"
-      ],
-      "notes": [
-        "epistemica/validation/statistical-hypothesis-testing.md",
-        "epistemica/validation/p-value.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Type I and type II errors",
-          "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors"
-        },
-        {
-          "label": "Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses."
-        }
-      ]
-    },
-    {
-      "id": "beta",
-      "symbol": "β",
-      "latex": "\\beta",
-      "codepoint": "U+03B2",
-      "name": "Beta",
-      "aliases": [
-        "type-II error rate",
-        "power"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "Second Greek letter: the miss rate — failing to detect an effect that is there.",
-      "origins": "Greek beta (Β); the pair α/β for the two error rates arrives with the Neyman–Pearson testing framework (1930s); U+03B2; TeX: \\beta.",
-      "usage": "β — type-II error, with power = 1 − β; β — regression coefficients and the beta distribution.",
-      "related": [
-        "alpha",
-        "theta"
-      ],
-      "notes": [
-        "epistemica/validation/statistical-hypothesis-testing.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Type I and type II errors",
-          "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors"
-        },
-        {
-          "label": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences."
-        }
-      ]
-    },
-    {
-      "id": "epsilon",
-      "symbol": "ε",
-      "latex": "\\varepsilon",
-      "codepoint": "U+03B5",
-      "name": "Epsilon",
-      "aliases": [
-        "small quantity",
-        "tolerance",
-        "error"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "The stand-in for an arbitrarily small positive quantity: how close is close enough.",
-      "origins": "Greek epsilon (Ε); the ε–δ pair that made limits rigorous is Weierstrass's (1870s); U+03B5; TeX: \\varepsilon (or \\epsilon).",
-      "usage": "ε > 0 — tolerances, error bounds, perturbation parameters; in numerical work, the stopping threshold.",
-      "related": [
-        "delta",
-        "much-less",
-        "much-greater"
-      ],
-      "notes": [
-        "epistemica/mathematical/change/limit.md",
-        "epistemica/mathematical/change/cauchy-sequence.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Limit of a function",
-          "url": "https://en.wikipedia.org/wiki/Limit_of_a_function"
-        },
-        {
-          "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
-        }
-      ]
-    },
-    {
-      "id": "delta",
-      "symbol": "δ",
-      "latex": "\\delta",
-      "codepoint": "U+03B4",
-      "name": "Delta",
-      "aliases": [
-        "small change",
-        "dirac delta",
-        "error signal"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "Small letter delta: an infinitesimal change, an index selector, or the error signal of a layer.",
-      "origins": "Greek delta (Δ/δ), the fourth letter, used for differences since the 18th century; U+03B4; TeX: \\delta.",
-      "usage": "δᴸ — the backpropagation error signal; δ(x) — the Dirac delta; ε–δ limits — the small increment.",
-      "related": [
-        "epsilon",
-        "capital-delta",
-        "nabla",
-        "partial"
-      ],
-      "notes": [
-        "epistemica/optimization/backpropagation.md",
-        "epistemica/mathematical/mapping/distribution/dirac-delta-function.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Dirac delta function",
-          "url": "https://en.wikipedia.org/wiki/Dirac_delta_function"
-        },
-        {
-          "label": "Wikipedia: Limit of a function",
-          "url": "https://en.wikipedia.org/wiki/Limit_of_a_function"
-        }
-      ]
-    },
-    {
-      "id": "capital-delta",
-      "symbol": "Δ",
-      "latex": "\\Delta",
-      "codepoint": "U+0394",
-      "name": "Capital Delta",
-      "aliases": [
-        "finite difference",
-        "change",
-        "laplacian"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "A finite, measurable change — the counterpart of the infinitesimal δ.",
-      "origins": "Greek capital delta (Δ), its triangular shape read as “difference”; used for finite differences since the 18th century; U+0394; TeX: \\Delta.",
-      "usage": "Δx — a finite increment; Δt — a time step; Δ — the Laplacian in physics notation, where mathematics writes ∇².",
-      "related": [
-        "delta",
-        "nabla"
-      ],
-      "notes": [
-        "epistemica/singular/finite-difference-method-fdm.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Finite difference",
-          "url": "https://en.wikipedia.org/wiki/Finite_difference"
-        },
-        {
-          "label": "Crowe, M. J. (1967). A History of Vector Analysis."
-        }
-      ]
-    },
-    {
-      "id": "theta",
-      "symbol": "θ",
-      "latex": "\\theta",
-      "codepoint": "U+03B8",
-      "name": "Theta",
-      "aliases": [
-        "parameter",
-        "angle"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "The generic unknown: the parameter a model is trying to pin down.",
-      "origins": "Greek theta (Θ); Fisher's convention fixes Greek letters for parameters and Latin letters for the statistics computed from data; U+03B8; TeX: \\theta.",
-      "usage": "θ — the true parameter, θ̂ — its estimate, L(θ) — the likelihood over it.",
-      "related": [
-        "mu",
-        "sigma",
-        "alpha"
-      ],
-      "notes": [
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Estimator",
-          "url": "https://en.wikipedia.org/wiki/Estimator"
-        },
-        {
-          "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
-        }
-      ]
-    },
-    {
-      "id": "mu",
-      "symbol": "μ",
-      "latex": "\\mu",
-      "codepoint": "U+03BC",
-      "name": "Mu",
-      "aliases": [
-        "mean",
-        "expectation",
-        "measure"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "The mean of a distribution, and more generally any measure over a space.",
-      "origins": "Greek mu (Μ); μ for the average and for the measure in Lebesgue's measure theory (1902); U+03BC; TeX: \\mu.",
-      "usage": "μ = 𝔼[X] — location of a law; μ(A) — the measure of a set; μ in units (micrometre).",
-      "related": [
-        "expectation",
-        "sigma",
-        "theta"
-      ],
-      "notes": [
-        "epistemica/mathematical/measure/measure.md",
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Measure (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Measure_(mathematics)"
-        },
-        {
-          "label": "Billingsley, P. (1995). Probability and Measure."
-        }
-      ]
-    },
-    {
-      "id": "sigma",
-      "symbol": "σ",
-      "latex": "\\sigma",
-      "codepoint": "U+03C3",
-      "name": "Sigma",
-      "aliases": [
-        "standard deviation",
-        "variance",
-        "sigma-algebra"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "Spread of a distribution, step size of an update, and the σ that makes sets measurable.",
-      "origins": "Greek sigma (Σ); σ for the standard deviation of a normal law and for the σ-algebra of measurable sets (Lebesgue); U+03C3; TeX: \\sigma.",
-      "usage": "σ² — variance, σ — standard deviation and SGD step size; σ-algebra — the family of sets a measure is defined on.",
-      "related": [
-        "mu",
-        "theta",
-        "summation"
-      ],
-      "notes": [
-        "epistemica/mathematical/measure/measure.md",
-        "epistemica/epistemic/discipline/statistics.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Standard deviation",
-          "url": "https://en.wikipedia.org/wiki/Standard_deviation"
-        },
-        {
-          "label": "Wikipedia: Sigma-algebra",
-          "url": "https://en.wikipedia.org/wiki/Sigma-algebra"
-        }
-      ]
-    },
-    {
-      "id": "lambda",
-      "symbol": "λ",
-      "latex": "\\lambda",
-      "codepoint": "U+03BB",
-      "name": "Lambda",
-      "aliases": [
-        "eigenvalue",
-        "lagrange multiplier",
-        "rate"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "Whatever scales without changing direction: an eigenvalue, a multiplier, an arrival rate.",
-      "origins": "Greek lambda (Λ), the seventh letter, adopted for eigenvalues and multipliers in 19th–20th-century analysis; U+03BB; TeX: \\lambda.",
-      "usage": "Av = λv — eigenvalues; λ ≥ 0 — the Lagrange multiplier or the regularisation strength; λ — Poisson arrival rate.",
-      "related": [
-        "rho",
-        "beta",
-        "greater-equal"
-      ],
-      "notes": [
-        "epistemica/mathematical/structure/linear/eigenvector.md",
-        "epistemica/optimization/optimization.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Eigenvalues and eigenvectors",
-          "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors"
-        },
-        {
-          "label": "Wikipedia: Lagrange multiplier",
-          "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier"
-        }
-      ]
-    },
-    {
-      "id": "rho",
-      "symbol": "ρ",
-      "latex": "\\rho",
-      "codepoint": "U+03C1",
-      "name": "Rho",
-      "aliases": [
-        "correlation parameter",
-        "density",
-        "spectral radius"
-      ],
-      "categories": [
-        "parameters"
-      ],
-      "description": "How tightly two things move together, or how much stuff sits at a point.",
-      "origins": "Greek rho (Ρ); Pearson's correlation coefficient ρ for the population value against r for the sample; U+03C1; TeX: \\rho.",
-      "usage": "ρ(X, Y) — the population correlation; ρ — mass or charge density; ρ(A) — the spectral radius of a matrix.",
-      "related": [
-        "correlation-coefficient",
-        "theta",
-        "sigma"
-      ],
-      "notes": [
-        "epistemica/observational/correlation.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Pearson correlation coefficient",
-          "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
-        },
-        {
-          "label": "Stigler, S. M. (1986). The History of Statistics."
-        }
-      ]
-    },
-    {
-      "id": "defined-as",
-      "symbol": ":=",
-      "latex": ":=",
-      "codepoint": "U+003A U+003D",
-      "name": "Colon Equals",
-      "aliases": [
-        "definition",
-        "assign",
-        "def",
-        "coloneq"
-      ],
-      "categories": [
-        "notation"
-      ],
-      "description": "Introduces notation: the left side is being defined, not shown to equal the right.",
-      "origins": "The := of set theory and computer science (also ≔, U+2254); TeX writes it as :=, with \\coloneqq (mathtools) for the spaced form.",
-      "usage": "f(x) := x² — a definition; kept distinct from = (a claim to be proved) and ≡ (identity).",
-      "related": [
-        "identical",
-        "coloneqq",
-        "maps-to"
-      ],
-      "notes": [
-        "epistemica/epistemic/theory/definition.md",
-        "epistemica/epistemic/theory/variable.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Assignment (computer science)",
-          "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "coloneqq",
-      "symbol": "≜",
-      "latex": "\\triangleq",
-      "codepoint": "U+225C",
-      "name": "Delta Equal To",
-      "aliases": [
-        "defined as",
-        "triangleq",
-        "coloneqq"
-      ],
-      "categories": [
-        "notation"
-      ],
-      "description": "Definition with a triangle: the left is shorthand for the right.",
-      "origins": "U+225C, the delta-equal-to of engineering and physics typography; TeX: \\triangleq.",
-      "usage": "A ≜ B — defining a quantity inline, common in the physics-flavoured notes where := would read as an assignment.",
-      "related": [
-        "defined-as",
-        "identical"
-      ],
-      "notes": [
-        "epistemica/epistemic/theory/definition.md"
-      ],
-      "sources": [
-        {
-          "label": "Unicode: Mathematical Operators chart (U+2200–U+22FF)",
-          "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
-    },
-    {
-      "id": "arrow",
-      "symbol": "→",
-      "latex": "\\to",
-      "codepoint": "U+2192",
-      "name": "Rightwards Arrow",
-      "aliases": [
-        "maps to",
-        "tends to",
-        "function arrow"
-      ],
-      "categories": [
-        "notation"
-      ],
-      "description": "The workhorse arrow: a function's type, a sequence's limit, an informal implication.",
-      "origins": "The right arrow of set-theoretic function notation, standard in the 20th century; U+2192; TeX: \\to.",
-      "usage": "f: A → B — the type of a function; xₙ → x — convergence; P → Q — informal implication, weaker in feel than ⇒.",
-      "related": [
-        "maps-to",
-        "implication",
-        "biconditional"
-      ],
-      "notes": [
-        "epistemica/mathematical/mapping/function.md",
-        "epistemica/mathematical/change/limit.md"
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia: Function (mathematics)",
-          "url": "https://en.wikipedia.org/wiki/Function_(mathematics)"
-        },
-        {
-          "label": "Cajori, F. (1928–29). A History of Mathematical Notations."
-        }
-      ]
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
     }
-  ]
+   ]
+  },
+  {
+   "id": "models",
+   "symbol": "\u22a8",
+   "latex": "\\models",
+   "codepoint": "U+22A8",
+   "name": "Double Turnstile",
+   "aliases": [
+    "satisfies",
+    "models",
+    "entails"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "The semantic turnstile: the structure on the left makes the sentence on the right true.",
+   "origins": "The double turnstile of mid-20th-century model theory, marking the syntax/semantics split it encodes; U+22A8; TeX: \\models.",
+   "usage": "M \u22a8 \u03c6 \u2014 satisfaction; \u0393 \u22a8 \u03c6 \u2014 semantic consequence, set against \u0393 \u22a2 \u03c6 \u2014 syntactic derivability.",
+   "related": [
+    "turnstile"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Model theory",
+     "url": "https://en.wikipedia.org/wiki/Model_theory"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "for-all",
+   "symbol": "\u2200",
+   "latex": "\\forall",
+   "codepoint": "U+2200",
+   "name": "Universal Quantifier",
+   "aliases": [
+    "for all",
+    "any"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Reads \u201cfor every\u201d: the predicate that follows holds across the whole domain.",
+   "origins": "The inverted A for \u201call\u201d, fixed in the quantifier notation that became standard in the 1930s logic literature; U+2200; TeX: \\forall.",
+   "usage": "\u2200x \u2208 S: P(x) \u2014 definitions, axioms and invariants throughout the corpus; always paired with \u2203.",
+   "related": [
+    "there-exists",
+    "element-of"
+   ],
+   "notes": [
+    "epistemica/epistemic/theory/definition.md",
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Quantifier (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "there-exists",
+   "symbol": "\u2203",
+   "latex": "\\exists",
+   "codepoint": "U+2203",
+   "name": "Existential Quantifier",
+   "aliases": [
+    "there is",
+    "exists"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Reads \u201cthere is at least one\u201d: a witness for the predicate must exist in the domain.",
+   "origins": "The rotated E descends from Peirce's existential quantifier (1880s) and settled into its modern form with Peano and the 20th-century tradition; U+2203; TeX: \\exists.",
+   "usage": "\u2203x \u2208 S: P(x) \u2014 existence claims: fixed points, witnesses, separating hyperplanes.",
+   "related": [
+    "for-all"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md",
+    "epistemica/epistemic/construction/mathematical/brouwer-fixed-point-theorem.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Quantifier (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Quantifier_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "negation",
+   "symbol": "\u00ac",
+   "latex": "\\neg",
+   "codepoint": "U+00AC",
+   "name": "Not Sign",
+   "aliases": [
+    "negation",
+    "not"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Flips the truth of the proposition it prefixes.",
+   "origins": "The typographic \u201cnot sign\u201d of 20th-century logic, carried in ISO Latin-1 (U+00AC) before Unicode; TeX: \\neg.",
+   "usage": "\u00ac\u03c6 \u2014 negation, kept apart from the tilde ~ of informal logic and the ! of programming.",
+   "related": [
+    "conjunction",
+    "disjunction"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Negation",
+     "url": "https://en.wikipedia.org/wiki/Negation"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "conjunction",
+   "symbol": "\u2227",
+   "latex": "\\wedge",
+   "codepoint": "U+2227",
+   "name": "Wedge",
+   "aliases": [
+    "and",
+    "conjunction"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Logical AND: true only when both sides are.",
+   "origins": "The wedge for conjunction, standardised in the early-20th-century logical notation; U+2227; TeX: \\wedge (\\land).",
+   "usage": "\u03c6 \u2227 \u03c8 \u2014 compound conditions; the same glyph is the meet/infimum in orders and lattices.",
+   "related": [
+    "disjunction",
+    "negation"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Logical conjunction",
+     "url": "https://en.wikipedia.org/wiki/Logical_conjunction"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "disjunction",
+   "symbol": "\u2228",
+   "latex": "\\vee",
+   "codepoint": "U+2228",
+   "name": "Vee",
+   "aliases": [
+    "or",
+    "disjunction"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Logical OR: true when at least one side is.",
+   "origins": "Companion of the wedge in the same logical-notation family; U+2228; TeX: \\vee (\\lor).",
+   "usage": "\u03c6 \u2228 \u03c8 \u2014 alternatives and case splits; join/supremum in lattice theory.",
+   "related": [
+    "conjunction",
+    "union"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Logical disjunction",
+     "url": "https://en.wikipedia.org/wiki/Logical_disjunction"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "implication",
+   "symbol": "\u21d2",
+   "latex": "\\implies",
+   "codepoint": "U+21D2",
+   "name": "Right Double Arrow",
+   "aliases": [
+    "implies",
+    "material implication"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "The conditional: a material \u201cif\u2026then\u201d between statements.",
+   "origins": "The double arrow of 20th-century logical typography, in the same family as \u2192 and \u21d4; U+21D2; TeX: \\implies (amsmath), \\Rightarrow.",
+   "usage": "P \u21d2 Q \u2014 theorem statements; deliberately distinct from the function and limit arrow \u2192.",
+   "related": [
+    "biconditional",
+    "arrow"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Material conditional",
+     "url": "https://en.wikipedia.org/wiki/Material_conditional"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "biconditional",
+   "symbol": "\u21d4",
+   "latex": "\\iff",
+   "codepoint": "U+21D4",
+   "name": "Left Right Double Arrow",
+   "aliases": [
+    "if and only if",
+    "iff",
+    "equivalence"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Both directions of implication at once: the two sides stand or fall together.",
+   "origins": "The double-headed arrow for logical equivalence, standard in 20th-century texts; U+21D4; TeX: \\iff (amsmath).",
+   "usage": "\u03c6 \u21d4 \u03c8 \u2014 definitional equivalences and the biconditional form of a criterion.",
+   "related": [
+    "implication",
+    "identical"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Biconditional",
+     "url": "https://en.wikipedia.org/wiki/Biconditional"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "therefore",
+   "symbol": "\u2234",
+   "latex": "\\therefore",
+   "codepoint": "U+2234",
+   "name": "Therefore Sign",
+   "aliases": [
+    "ergo",
+    "conclusion"
+   ],
+   "categories": [
+    "logic"
+   ],
+   "description": "Marks the concluding step: what follows has been derived.",
+   "origins": "The three-dot conclusion mark of 17th-century algebraic writing, abbreviating the Latin ergo; U+2234; TeX: \\therefore (amsmath).",
+   "usage": "P, P \u21d2 Q \u2234 Q \u2014 the informal end of a derivation; its mirror is \u2235 (\u201cbecause\u201d).",
+   "related": [
+    "turnstile"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Therefore sign",
+     "url": "https://en.wikipedia.org/wiki/Therefore_sign"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "element-of",
+   "symbol": "\u2208",
+   "latex": "\\in",
+   "codepoint": "U+2208",
+   "name": "Element Of",
+   "aliases": [
+    "membership",
+    "belongs to",
+    "in"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "The membership relation: x is a member of S.",
+   "origins": "Peano's \u2208 (1889), standing for the Italian \u00e8, \u201cis\u201d; U+2208; TeX: \\in.",
+   "usage": "x \u2208 S \u2014 membership in set theory, type signatures, and the quantifier domains \u2200x \u2208 S.",
+   "related": [
+    "not-element-of",
+    "subset",
+    "for-all"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Set theory",
+     "url": "https://en.wikipedia.org/wiki/Set_theory"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "not-element-of",
+   "symbol": "\u2209",
+   "latex": "\\notin",
+   "codepoint": "U+2209",
+   "name": "Not An Element Of",
+   "aliases": [
+    "excluded",
+    "notin"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Membership negated: x lies outside S.",
+   "origins": "The negated form of Peano's \u2208; U+2209; TeX: \\notin.",
+   "usage": "x \u2209 S \u2014 exclusions in definitions and the side conditions of theorems.",
+   "related": [
+    "element-of"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Set theory",
+     "url": "https://en.wikipedia.org/wiki/Set_theory"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "subset",
+   "symbol": "\u2286",
+   "latex": "\\subseteq",
+   "codepoint": "U+2286",
+   "name": "Subset Of",
+   "aliases": [
+    "included in",
+    "contained in"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Containment: every member of the left set is a member of the right.",
+   "origins": "The subset signs of early-20th-century set notation, in the Cantor\u2013Peano lineage; U+2286; TeX: \\subseteq.",
+   "usage": "A \u2286 B \u2014 containment of sets, \u03c3-algebras and information sets; the reflexive form of \u2282.",
+   "related": [
+    "proper-subset",
+    "element-of"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Subset",
+     "url": "https://en.wikipedia.org/wiki/Subset"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "proper-subset",
+   "symbol": "\u2282",
+   "latex": "\\subset",
+   "codepoint": "U+2282",
+   "name": "Subset Of (Proper)",
+   "aliases": [
+    "strict subset",
+    "proper subset"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Containment with something left over: A \u2286 B and A \u2260 B.",
+   "origins": "Same family as \u2286; U+2282; TeX: \\subset. Publishers disagree on whether \u2282 means \u2286 or the strict relation \u2014 always say which.",
+   "usage": "A \u2282 B \u2014 strict containment; check the author's convention before reading a strictness into it.",
+   "related": [
+    "subset",
+    "not-equal"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Subset",
+     "url": "https://en.wikipedia.org/wiki/Subset"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "union",
+   "symbol": "\u222a",
+   "latex": "\\cup",
+   "codepoint": "U+222A",
+   "name": "Union",
+   "aliases": [
+    "cup",
+    "join of sets"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Everything that is in either set.",
+   "origins": "The upright cup of the set-operation notation, descended from the Cantor\u2013Peano tradition; U+222A; TeX: \\cup.",
+   "usage": "A \u222a B \u2014 pooling sets; P(A \u222a B) for events, with inclusion\u2013exclusion bridging it to \u2229.",
+   "related": [
+    "intersection",
+    "disjunction"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Union (set theory)",
+     "url": "https://en.wikipedia.org/wiki/Union_(set_theory)"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "intersection",
+   "symbol": "\u2229",
+   "latex": "\\cap",
+   "codepoint": "U+2229",
+   "name": "Intersection",
+   "aliases": [
+    "cap",
+    "meet of sets"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Everything the two sets share.",
+   "origins": "The inverted cup, paired with \u222a in the same notation; U+2229; TeX: \\cap.",
+   "usage": "A \u2229 B \u2014 common elements; P(A \u2229 B) for joint events, the \u2227 of events.",
+   "related": [
+    "union",
+    "conjunction"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Intersection (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Intersection_(mathematics)"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "empty-set",
+   "symbol": "\u2205",
+   "latex": "\\emptyset",
+   "codepoint": "U+2205",
+   "name": "Empty Set",
+   "aliases": [
+    "null set",
+    "void"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "The set with no members \u2014 the unique set of cardinality zero.",
+   "origins": "The slashed zero \u2205, popularised by the Bourbaki group's \u00c9l\u00e9ments de math\u00e9matique over older forms such as \u00d8 or { }; U+2205; TeX: \\emptyset.",
+   "usage": "\u2205 \u2014 the impossible event P(\u2205) = 0, the neutral element of \u222a, and the base case of constructions.",
+   "related": [
+    "union",
+    "intersection"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Empty set",
+     "url": "https://en.wikipedia.org/wiki/Empty_set"
+    },
+    {
+     "label": "Halmos, P. (1960). Naive Set Theory."
+    }
+   ]
+  },
+  {
+   "id": "cartesian-product",
+   "symbol": "\u00d7",
+   "latex": "\\times",
+   "codepoint": "U+00D7",
+   "name": "Multiplication Sign",
+   "aliases": [
+    "cross",
+    "product of sets"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "The cross used for the ordered pairing of sets: all (a, b) with a in A and b in B.",
+   "origins": "The multiplication cross of 17th-century arithmetic typography (attributed to Oughtred's Clavis Mathematicae, 1631), reused for set products; U+00D7; TeX: \\times.",
+   "usage": "A \u00d7 B \u2014 sample spaces of joint outcomes and product spaces; kept distinct from the scalar dot \u22c5 and the tensor \u2297.",
+   "related": [
+    "dot-operator",
+    "tensor-product",
+    "union"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Cartesian product",
+     "url": "https://en.wikipedia.org/wiki/Cartesian_product"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "maps-to",
+   "symbol": "\u21a6",
+   "latex": "\\mapsto",
+   "codepoint": "U+21A6",
+   "name": "Rightwards Arrow From Bar",
+   "aliases": [
+    "maplet",
+    "maps to"
+   ],
+   "categories": [
+    "set-theory"
+   ],
+   "description": "Defines a function by rule: each input is sent to its output.",
+   "origins": "The maplet arrow of the Bourbaki school's function notation; U+21A6; TeX: \\mapsto.",
+   "usage": "x \u21a6 f(x) \u2014 the rule itself, against the type declaration f: A \u2192 B that names it.",
+   "related": [
+    "arrow",
+    "element-of"
+   ],
+   "notes": [
+    "epistemica/mathematical/mapping/function.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Function (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Function_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "circled-plus",
+   "symbol": "\u2295",
+   "latex": "\\oplus",
+   "codepoint": "U+2295",
+   "name": "Circled Plus",
+   "aliases": [
+    "direct sum",
+    "xor",
+    "oplus"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "Addition under a ring: the direct sum of structures, or XOR on bits.",
+   "origins": "The ringed binary-operator convention that separates algebraic products from ordinary ones; U+2295; TeX: \\oplus.",
+   "usage": "G \u2295 H \u2014 direct sum of groups and modules; a \u2295 b \u2014 XOR in Boolean algebra and error-correcting codes.",
+   "related": [
+    "tensor-product",
+    "circled-dot-operator"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/abelian-group.md",
+    "epistemica/mathematical/structure/algebra/boolean-algebra.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Direct sum",
+     "url": "https://en.wikipedia.org/wiki/Direct_sum"
+    },
+    {
+     "label": "Unicode: Mathematical Operators chart (U+2200\u2013U+22FF)",
+     "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
+    }
+   ]
+  },
+  {
+   "id": "tensor-product",
+   "symbol": "\u2297",
+   "latex": "\\otimes",
+   "codepoint": "U+2297",
+   "name": "Circled Times",
+   "aliases": [
+    "tensor product",
+    "otimes"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "The multilinear product that combines two structures into all their pairwise interactions.",
+   "origins": "The ringed times of multilinear algebra, encoding a product \u201clarger\u201d than the ordinary one; U+2297; TeX: \\otimes.",
+   "usage": "V \u2297 W \u2014 tensor product of spaces; |\u03c8\u27e9 \u2297 |\u03c6\u27e9 \u2014 composite quantum states; A \u2297 B \u2014 Kronecker product of matrices.",
+   "related": [
+    "circled-plus",
+    "circled-dot-operator",
+    "cartesian-product"
+   ],
+   "notes": [
+    "epistemica/mathematical/tensor/tensor.md",
+    "epistemica/mathematical/structure/linear/density-matrix.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Tensor product",
+     "url": "https://en.wikipedia.org/wiki/Tensor_product"
+    },
+    {
+     "label": "Unicode: Mathematical Operators chart (U+2200\u2013U+22FF)",
+     "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
+    }
+   ]
+  },
+  {
+   "id": "circled-dot-operator",
+   "symbol": "\u2299",
+   "latex": "\\odot",
+   "codepoint": "U+2299",
+   "name": "Circled Dot Operator",
+   "aliases": [
+    "circle dot",
+    "hadamard product",
+    "element-wise product",
+    "odot"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "A ringed binary operator that writes an element-wise (Hadamard) product: two equally shaped objects multiplied slot by slot, the circle marking that the operation acts componentwise rather than being the structural product the same glyphs would name without a ring.",
+   "origins": "Encoded as U+2299 in the Unicode Mathematical Operators block (Unicode 1.1, 1993) and exposed by TeX as \\odot; the ringed-operator convention that separates \u2295 (direct sum), \u2297 (tensor product) and \u2299 (componentwise product) comes from 19th\u201320th-century algebraic typography.",
+   "usage": "Element-wise multiplication in the backpropagation note \u2014 \u03b4\u1d38 = \u2207L \u2299 \u03c3\u2032(z\u1d38) \u2014 where \u2299 keeps the Hadamard product distinct from matrix multiplication; also the circle dot product in geometry and a modulation product in engineering.",
+   "related": [
+    "dot-operator",
+    "tensor-product",
+    "circled-plus",
+    "nabla"
+   ],
+   "notes": [
+    "epistemica/optimization/backpropagation.md"
+   ],
+   "sources": [
+    {
+     "label": "Unicode: Mathematical Operators chart (U+2200\u2013U+22FF)",
+     "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
+    },
+    {
+     "label": "Wikipedia: Hadamard product (matrices)",
+     "url": "https://en.wikipedia.org/wiki/Hadamard_product_(matrices)"
+    }
+   ]
+  },
+  {
+   "id": "dot-operator",
+   "symbol": "\u22c5",
+   "latex": "\\cdot",
+   "codepoint": "U+22C5",
+   "name": "Dot Operator",
+   "aliases": [
+    "centered dot",
+    "scalar product",
+    "cdot"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "The centred dot for multiplication where \u00d7 would be misread as a product of sets.",
+   "origins": "U+22C5, the dot operator that displaced the middle dot \u00b7 of older typography; TeX: \\cdot.",
+   "usage": "a \u22c5 b \u2014 scalar and dot products, field multiplication; also the \u201cper\u201d of units, written m\u22c5s\u207b\u00b9.",
+   "related": [
+    "circled-dot-operator",
+    "cartesian-product"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/linear/vector.md",
+    "epistemica/mathematical/structure/algebra/field.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Dot product",
+     "url": "https://en.wikipedia.org/wiki/Dot_product"
+    },
+    {
+     "label": "Unicode: Mathematical Operators chart (U+2200\u2013U+22FF)",
+     "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
+    }
+   ]
+  },
+  {
+   "id": "isomorphism",
+   "symbol": "\u2245",
+   "latex": "\\cong",
+   "codepoint": "U+2245",
+   "name": "Congruent To",
+   "aliases": [
+    "isomorphic",
+    "congruence",
+    "cong"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "Same up to relabelling: a structure-preserving bijection in both directions.",
+   "origins": "U+2245; TeX: \\cong; shared by algebra (isomorphism), geometry (congruence) and number theory (modular congruence).",
+   "usage": "G \u2245 H \u2014 groups, spaces or models that differ only in naming; \u2245 says the map, not the elements, is what matters.",
+   "related": [
+    "identical",
+    "angle-brackets"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/algebra/group-theory.md",
+    "epistemica/mathematical/structure/algebra/lie-group.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Isomorphism",
+     "url": "https://en.wikipedia.org/wiki/Isomorphism"
+    },
+    {
+     "label": "Artin, M. (2010). Algebra."
+    }
+   ]
+  },
+  {
+   "id": "angle-brackets",
+   "symbol": "\u27e8\u27e9",
+   "latex": "\\langle, \\rangle",
+   "codepoint": "U+27E8 U+27E9",
+   "name": "Mathematical Angle Brackets",
+   "aliases": [
+    "chevrons",
+    "inner product brackets",
+    "langle"
+   ],
+   "categories": [
+    "algebra"
+   ],
+   "description": "Chevrons that delimit inner products, generators and tuples without the ambiguity of parentheses.",
+   "origins": "The Mathematical Angle Brackets of Unicode 3.1 (2001), fixing \u27e8\u27e9 as a pair distinct from < >; TeX: \\langle, \\rangle.",
+   "usage": "\u27e8x, y\u27e9 \u2014 inner products; \u27e8g\u27e9 \u2014 the subgroup generated by g; the bra-ket \u27e8\u03c8|\u03c6\u27e9 of quantum notation uses the same family.",
+   "related": [
+    "dot-operator",
+    "tensor-product"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/linear/vector.md",
+    "epistemica/mathematical/structure/algebra/group.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Inner product space",
+     "url": "https://en.wikipedia.org/wiki/Inner_product_space"
+    },
+    {
+     "label": "Unicode: Miscellaneous Mathematical Symbols-A chart (U+27E8\u2013U+27FF)",
+     "url": "https://www.unicode.org/charts/PDF/U27E8.pdf"
+    }
+   ]
+  },
+  {
+   "id": "integral",
+   "symbol": "\u222b",
+   "latex": "\\int",
+   "codepoint": "U+222B",
+   "name": "Integral Sign",
+   "aliases": [
+    "int",
+    "integration"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "The elongated S for summa: accumulation of a quantity over a continuum.",
+   "origins": "Drawn by Leibniz (1675) for the integral of the calculus; U+222B; TeX: \\int; the closed variant \u222e (U+222E) adds \u201caround a contour\u201d.",
+   "usage": "\u222b f dx \u2014 areas, probabilities and expectations as integrals; \u222e for contour integrals in the theorems of vector calculus.",
+   "related": [
+    "partial",
+    "summation"
+   ],
+   "notes": [
+    "epistemica/mathematical/mapping/lebesgue-integral.md",
+    "epistemica/mathematical/measure/measure.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Integral",
+     "url": "https://en.wikipedia.org/wiki/Integral"
+    },
+    {
+     "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
+    }
+   ]
+  },
+  {
+   "id": "partial",
+   "symbol": "\u2202",
+   "latex": "\\partial",
+   "codepoint": "U+2202",
+   "name": "Partial Derivative Symbol",
+   "aliases": [
+    "curly d",
+    "partial"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "Differentiation with respect to one variable while the rest are held fixed.",
+   "origins": "The curly d of partial differentiation, in use among 18th\u201319th-century analysts (Legendre, Jacobi); U+2202; TeX: \\partial.",
+   "usage": "\u2202f/\u2202x \u2014 partial derivatives and PDEs; \u2202L/\u2202w \u2014 the gradients of the loss in the optimisation notes.",
+   "related": [
+    "nabla",
+    "delta"
+   ],
+   "notes": [
+    "epistemica/mathematical/change/differential-equation.md",
+    "epistemica/optimization/backpropagation.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Partial derivative",
+     "url": "https://en.wikipedia.org/wiki/Partial_derivative"
+    },
+    {
+     "label": "Crowe, M. J. (1967). A History of Vector Analysis."
+    }
+   ]
+  },
+  {
+   "id": "nabla",
+   "symbol": "\u2207",
+   "latex": "\\nabla",
+   "codepoint": "U+2207",
+   "name": "Nabla",
+   "aliases": [
+    "del",
+    "gradient operator",
+    "inverted delta"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "The differential operator that reads a field as gradient, divergence and curl depending on how it is applied.",
+   "origins": "The inverted delta used by Hamilton (1830s) for vector operations, later named \u201cnabla\u201d after the harp-shaped Greek instrument; U+2207; TeX: \\nabla.",
+   "usage": "\u2207f, \u2207\u00b7F, \u2207\u00d7F \u2014 gradient, divergence, curl; \u2207L \u2014 the gradient step of backpropagation; \u0394 = \u2207\u00b2 in physics notation.",
+   "related": [
+    "partial",
+    "capital-delta",
+    "circled-dot-operator"
+   ],
+   "notes": [
+    "epistemica/mathematical/change/divergence-operator.md",
+    "epistemica/epistemic/construction/mathematical/gradient-theorem.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Del (operator)",
+     "url": "https://en.wikipedia.org/wiki/Del_(operator)"
+    },
+    {
+     "label": "Crowe, M. J. (1967). A History of Vector Analysis."
+    }
+   ]
+  },
+  {
+   "id": "infinity",
+   "symbol": "\u221e",
+   "latex": "\\infty",
+   "codepoint": "U+221E",
+   "name": "Infinity",
+   "aliases": [
+    "infinite",
+    "lemniscate"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "No bound: the limit that is never reached, and the size of the unbounded.",
+   "origins": "The lemniscate of John Wallis (1655), from the Latin infinitas; U+221E; TeX: \\infty.",
+   "usage": "x \u2192 \u221e \u2014 limits and asymptotics; [\u2212\u221e, \u221e] \u2014 the extended reals; \u221e as the horizon of unbounded operators.",
+   "related": [
+    "much-less",
+    "proportional"
+   ],
+   "notes": [
+    "epistemica/mathematical/change/limit.md",
+    "epistemica/mathematical/change/cauchy-sequence.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Infinity",
+     "url": "https://en.wikipedia.org/wiki/Infinity"
+    },
+    {
+     "label": "Stillwell, J. (2010). Mathematics and Its History."
+    }
+   ]
+  },
+  {
+   "id": "proportional",
+   "symbol": "\u221d",
+   "latex": "\\propto",
+   "codepoint": "U+221D",
+   "name": "Proportional To",
+   "aliases": [
+    "propto",
+    "scales with"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "Two quantities that keep a fixed ratio: f = c\u00b7g for some constant c.",
+   "origins": "The proportionality sign of English mathematical printing, standard in the 20th century; U+221D; TeX: \\propto.",
+   "usage": "F \u221d 1/r\u00b2 \u2014 scaling laws and rate statements: a claim about shape only, never about scale.",
+   "related": [
+    "much-less",
+    "dot-operator"
+   ],
+   "notes": [
+    "epistemica/mathematical/number/order-of-magnitude.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Proportionality (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Proportionality_(mathematics)"
+    },
+    {
+     "label": "Stillwell, J. (2010). Mathematics and Its History."
+    }
+   ]
+  },
+  {
+   "id": "summation",
+   "symbol": "\u2211",
+   "latex": "\\sum",
+   "codepoint": "U+2211",
+   "name": "N-Ary Summation",
+   "aliases": [
+    "sigma notation",
+    "sum"
+   ],
+   "categories": [
+    "analysis"
+   ],
+   "description": "Adds a family of terms indexed over a range.",
+   "origins": "Capital sigma as the summation operator, standard since Euler's century; U+2211; TeX: \\sum with limits.",
+   "usage": "\u2211\u1d62 x\u1d62 \u2014 means, variances, losses and series; the discrete twin of \u222b.",
+   "related": [
+    "integral",
+    "sigma"
+   ],
+   "notes": [
+    "epistemica/mathematical/change/series.md",
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Summation",
+     "url": "https://en.wikipedia.org/wiki/Summation"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "less-equal",
+   "symbol": "\u2264",
+   "latex": "\\le",
+   "codepoint": "U+2264",
+   "name": "Less-Than Or Equal To",
+   "aliases": [
+    "at most",
+    "leq"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Order with the boundary included: below, or exactly at.",
+   "origins": "The \u201cor equal\u201d inequality of 20th-century printing (an older cut is \u2a7d); U+2264; TeX: \\le.",
+   "usage": "a \u2264 b \u2014 bounds and constraints in optimisation, inequalities in analysis, and the \u2264 of complexity upper bounds.",
+   "related": [
+    "greater-equal",
+    "much-less"
+   ],
+   "notes": [
+    "epistemica/optimization/optimization.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Inequality (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "greater-equal",
+   "symbol": "\u2265",
+   "latex": "\\ge",
+   "codepoint": "U+2265",
+   "name": "Greater-Than Or Equal To",
+   "aliases": [
+    "at least",
+    "geq"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Order with the boundary included from above.",
+   "origins": "Companion of \u2264 in the same printing convention; U+2265; TeX: \\ge.",
+   "usage": "a \u2265 b \u2014 lower bounds, non-negativity constraints (\u03bb \u2265 0) and \u201cat least n\u201d claims.",
+   "related": [
+    "less-equal",
+    "lambda"
+   ],
+   "notes": [
+    "epistemica/optimization/optimization.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Inequality (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Inequality_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "not-equal",
+   "symbol": "\u2260",
+   "latex": "\\neq",
+   "codepoint": "U+2260",
+   "name": "Not Equal To",
+   "aliases": [
+    "unequal",
+    "ne"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "The values differ.",
+   "origins": "The negated equals of 20th-century typography; U+2260; TeX: \\neq.",
+   "usage": "a \u2260 b \u2014 strict difference, kept apart from \u2261 (identity) and \u2248 (approximate).",
+   "related": [
+    "identical",
+    "approximate",
+    "proper-subset"
+   ],
+   "notes": [
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Equality (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Equality_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "identical",
+   "symbol": "\u2261",
+   "latex": "\\equiv",
+   "codepoint": "U+2261",
+   "name": "Identical To",
+   "aliases": [
+    "triple bar",
+    "congruent",
+    "identity"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Stronger than =: the same object, or the same remainder under a modulus.",
+   "origins": "The triple bar of identity and congruence \u2014 Gauss's congruence notation in the Disquisitiones (1801) made \u2261 standard for \u201csame remainder mod n\u201d; U+2261; TeX: \\equiv.",
+   "usage": "a \u2261 b (mod n) \u2014 congruence; f \u2261 g \u2014 identity of functions; definitional equality in type theory.",
+   "related": [
+    "not-equal",
+    "isomorphism",
+    "defined-as"
+   ],
+   "notes": [
+    "epistemica/mathematical/equation/diophantine-equation.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Congruence relation",
+     "url": "https://en.wikipedia.org/wiki/Congruence_relation"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "approximate",
+   "symbol": "\u2248",
+   "latex": "\\approx",
+   "codepoint": "U+2248",
+   "name": "Almost Equal To",
+   "aliases": [
+    "approximately",
+    "approx"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Close enough for the purpose at hand, at a stated precision.",
+   "origins": "The double-waved similarity sign; U+2248; TeX: \\approx.",
+   "usage": "\u03c0 \u2248 3.14159 \u2014 numerical values and reported estimates; distinct from \u223c (a relation between laws) and \u2261 (identity).",
+   "related": [
+    "distributed-as",
+    "not-equal",
+    "identical"
+   ],
+   "notes": [
+    "epistemica/mathematical/number/order-of-magnitude.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Approximation",
+     "url": "https://en.wikipedia.org/wiki/Approximation"
+    },
+    {
+     "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
+    }
+   ]
+  },
+  {
+   "id": "distributed-as",
+   "symbol": "\u223c",
+   "latex": "\\sim",
+   "codepoint": "U+223C",
+   "name": "Tilde",
+   "aliases": [
+    "distributed as",
+    "similar",
+    "sim"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "A relation of likeness: in probability, the law a random variable follows.",
+   "origins": "The tilde of similarity and distributional notation; U+223C; TeX: \\sim.",
+   "usage": "X \u223c N(0, 1) \u2014 the distribution of X; A \u223c B \u2014 similar figures; f \u223c g \u2014 asymptotic equivalence of functions.",
+   "related": [
+    "approximate",
+    "expectation",
+    "mu"
+   ],
+   "notes": [
+    "miscellanea/discipline/probability.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Probability distribution",
+     "url": "https://en.wikipedia.org/wiki/Probability_distribution"
+    },
+    {
+     "label": "Billingsley, P. (1995). Probability and Measure."
+    }
+   ]
+  },
+  {
+   "id": "much-less",
+   "symbol": "\u226a",
+   "latex": "\\ll",
+   "codepoint": "U+226A",
+   "name": "Much Less Than",
+   "aliases": [
+    "negligible against",
+    "ll"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Not merely smaller \u2014 small enough that the leading behaviour ignores it.",
+   "origins": "The doubled inequality of asymptotic comparison; U+226A; TeX: \\ll.",
+   "usage": "\u03b5 \u226a 1 \u2014 the regime where perturbation expansions hold; n \u226b 1 \u2014 the large-sample limit behind asymptotic arguments.",
+   "related": [
+    "much-greater",
+    "proportional",
+    "epsilon"
+   ],
+   "notes": [
+    "epistemica/mathematical/number/order-of-magnitude.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Asymptotic analysis",
+     "url": "https://en.wikipedia.org/wiki/Asymptotic_analysis"
+    },
+    {
+     "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
+    }
+   ]
+  },
+  {
+   "id": "much-greater",
+   "symbol": "\u226b",
+   "latex": "\\gg",
+   "codepoint": "U+226B",
+   "name": "Much Greater Than",
+   "aliases": [
+    "dominant over",
+    "gg"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "Large enough that everything smaller is dropped at leading order.",
+   "origins": "Counterpart of \u226a in the same asymptotic family; U+226B; TeX: \\gg.",
+   "usage": "N \u226b 1 \u2014 dominance in scaling arguments and the thermodynamic limit.",
+   "related": [
+    "much-less"
+   ],
+   "notes": [
+    "epistemica/mathematical/number/order-of-magnitude.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Asymptotic analysis",
+     "url": "https://en.wikipedia.org/wiki/Asymptotic_analysis"
+    },
+    {
+     "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
+    }
+   ]
+  },
+  {
+   "id": "plus-minus",
+   "symbol": "\u00b1",
+   "latex": "\\pm",
+   "codepoint": "U+00B1",
+   "name": "Plus-Minus Sign",
+   "aliases": [
+    "plus or minus",
+    "error bar"
+   ],
+   "categories": [
+    "order"
+   ],
+   "description": "A value together with its uncertainty, or the two outcomes of a sign choice.",
+   "origins": "The plus-over-minus of the French \u201cplus ou moins\u201d, standard for error and interval notation; U+00B1; TeX: \\pm.",
+   "usage": "x \u00b1 \u03c3 \u2014 measurement uncertainty and confidence intervals; (a \u00b1 b)\u00b2 \u2014 both signs in the expansion.",
+   "related": [
+    "approximate",
+    "sigma"
+   ],
+   "notes": [
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Plus-minus sign",
+     "url": "https://en.wikipedia.org/wiki/Plus-minus_sign"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "expectation",
+   "symbol": "\ud835\udd3c",
+   "latex": "\\mathbb{E}",
+   "codepoint": "U+1D53C",
+   "name": "Double-Struck E",
+   "aliases": [
+    "expectation operator",
+    "expected value",
+    "blackboard E"
+   ],
+   "categories": [
+    "probability"
+   ],
+   "description": "The operator that averages a random quantity over its law: the probability-weighted mean.",
+   "origins": "The blackboard-bold E of the double-struck operator family (Mathematical Alphanumeric Symbols, Unicode 3.1, 2001); TeX: \\mathbb{E}.",
+   "usage": "\ud835\udd3c[X] \u2014 expectation behind estimators, variances and risks; \ud835\udd3c[X | Y] \u2014 conditional expectation.",
+   "related": [
+    "mu",
+    "sigma",
+    "conditional-bar"
+   ],
+   "notes": [
+    "miscellanea/discipline/probability.md",
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Expected value",
+     "url": "https://en.wikipedia.org/wiki/Expected_value"
+    },
+    {
+     "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+    }
+   ]
+  },
+  {
+   "id": "independent",
+   "symbol": "\u22a5",
+   "latex": "\\perp",
+   "codepoint": "U+22A5",
+   "name": "Up Tack",
+   "aliases": [
+    "independent",
+    "orthogonal",
+    "perpendicular"
+   ],
+   "categories": [
+    "probability"
+   ],
+   "description": "No coupling: in probability the joint law factorises; in geometry the directions meet at a right angle.",
+   "origins": "The up tack \u22a5 of geometry, reused for statistical independence and orthogonality; U+22A5; TeX: \\perp.",
+   "usage": "X \u22a5 Y \u2014 independence (X \u22a5 Y | Z conditional); v \u22a5 w \u2014 perpendicular vectors; orthogonal parameters in a model.",
+   "related": [
+    "conditional-bar",
+    "expectation"
+   ],
+   "notes": [
+    "miscellanea/discipline/probability.md",
+    "epistemica/mathematical/structure/linear/vector.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Independence (probability theory)",
+     "url": "https://en.wikipedia.org/wiki/Independence_(probability_theory)"
+    },
+    {
+     "label": "Billingsley, P. (1995). Probability and Measure."
+    }
+   ]
+  },
+  {
+   "id": "conditional-bar",
+   "symbol": "|",
+   "latex": "\\mid",
+   "codepoint": "U+007C",
+   "name": "Vertical Bar",
+   "aliases": [
+    "given",
+    "such that",
+    "pipe",
+    "divides"
+   ],
+   "categories": [
+    "probability"
+   ],
+   "description": "The most overloaded glyph in the corpus: conditioning in probability, comprehension in set theory, divisibility in number theory, restriction of a map.",
+   "origins": "The ASCII vertical bar (U+007C) taken over by 20th-century mathematics for \u201cgiven\u201d and \u201csuch that\u201d; TeX: | and \\mid.",
+   "usage": "P(A | B) \u2014 conditioning; {x | P(x)} \u2014 set-builder; a | b \u2014 \u201ca divides b\u201d; f|_A \u2014 restriction of a map.",
+   "related": [
+    "distributed-as",
+    "expectation",
+    "element-of"
+   ],
+   "notes": [
+    "miscellanea/discipline/probability.md",
+    "epistemica/mathematical/set.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Conditional probability",
+     "url": "https://en.wikipedia.org/wiki/Conditional_probability"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "correlation-coefficient",
+   "symbol": "r",
+   "latex": "r, \\rho",
+   "codepoint": "U+0072",
+   "name": "Correlation Coefficient",
+   "aliases": [
+    "pearson r",
+    "rho",
+    "correlation"
+   ],
+   "categories": [
+    "probability"
+   ],
+   "description": "The sample linear correlation: a Latin letter by Fisher's convention, with \u03c1 reserved for the population value.",
+   "origins": "Karl Pearson's correlation coefficient (1890s), written r for the sample statistic and \u03c1 for the parameter, under Fisher's convention that statistics take Latin letters and parameters Greek ones.",
+   "usage": "r \u2208 [\u22121, 1] \u2014 linear association in a sample; report it with the scatter it summarises, since r alone hides nonlinearity and outliers.",
+   "related": [
+    "rho",
+    "independent"
+   ],
+   "notes": [
+    "epistemica/observational/correlation.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Pearson correlation coefficient",
+     "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
+    },
+    {
+     "label": "Stigler, S. M. (1986). The History of Statistics."
+    }
+   ]
+  },
+  {
+   "id": "alpha",
+   "symbol": "\u03b1",
+   "latex": "\\alpha",
+   "codepoint": "U+03B1",
+   "name": "Alpha",
+   "aliases": [
+    "significance level",
+    "type-I error rate"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "First Greek letter: in testing, the rate of false alarms you agree to tolerate.",
+   "origins": "Greek alpha (\u0391), the first letter, adopted as the significance level of a test in Neyman\u2013Pearson theory (1930s); U+03B1; TeX: \\alpha.",
+   "usage": "\u03b1 = 0.05 \u2014 the type-I error rate; also learning rates, exponents and the fine-structure constant.",
+   "related": [
+    "beta",
+    "theta"
+   ],
+   "notes": [
+    "epistemica/validation/statistical-hypothesis-testing.md",
+    "epistemica/validation/p-value.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Type I and type II errors",
+     "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors"
+    },
+    {
+     "label": "Neyman, J., & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses."
+    }
+   ]
+  },
+  {
+   "id": "beta",
+   "symbol": "\u03b2",
+   "latex": "\\beta",
+   "codepoint": "U+03B2",
+   "name": "Beta",
+   "aliases": [
+    "type-II error rate",
+    "power"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "Second Greek letter: the miss rate \u2014 failing to detect an effect that is there.",
+   "origins": "Greek beta (\u0392); the pair \u03b1/\u03b2 for the two error rates arrives with the Neyman\u2013Pearson testing framework (1930s); U+03B2; TeX: \\beta.",
+   "usage": "\u03b2 \u2014 type-II error, with power = 1 \u2212 \u03b2; \u03b2 \u2014 regression coefficients and the beta distribution.",
+   "related": [
+    "alpha",
+    "theta"
+   ],
+   "notes": [
+    "epistemica/validation/statistical-hypothesis-testing.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Type I and type II errors",
+     "url": "https://en.wikipedia.org/wiki/Type_I_and_type_II_errors"
+    },
+    {
+     "label": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences."
+    }
+   ]
+  },
+  {
+   "id": "epsilon",
+   "symbol": "\u03b5",
+   "latex": "\\varepsilon",
+   "codepoint": "U+03B5",
+   "name": "Epsilon",
+   "aliases": [
+    "small quantity",
+    "tolerance",
+    "error"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "The stand-in for an arbitrarily small positive quantity: how close is close enough.",
+   "origins": "Greek epsilon (\u0395); the \u03b5\u2013\u03b4 pair that made limits rigorous is Weierstrass's (1870s); U+03B5; TeX: \\varepsilon (or \\epsilon).",
+   "usage": "\u03b5 > 0 \u2014 tolerances, error bounds, perturbation parameters; in numerical work, the stopping threshold.",
+   "related": [
+    "delta",
+    "much-less",
+    "much-greater"
+   ],
+   "notes": [
+    "epistemica/mathematical/change/limit.md",
+    "epistemica/mathematical/change/cauchy-sequence.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Limit of a function",
+     "url": "https://en.wikipedia.org/wiki/Limit_of_a_function"
+    },
+    {
+     "label": "Rudin, W. (1976). Principles of Mathematical Analysis."
+    }
+   ]
+  },
+  {
+   "id": "delta",
+   "symbol": "\u03b4",
+   "latex": "\\delta",
+   "codepoint": "U+03B4",
+   "name": "Delta",
+   "aliases": [
+    "small change",
+    "dirac delta",
+    "error signal"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "Small letter delta: an infinitesimal change, an index selector, or the error signal of a layer.",
+   "origins": "Greek delta (\u0394/\u03b4), the fourth letter, used for differences since the 18th century; U+03B4; TeX: \\delta.",
+   "usage": "\u03b4\u1d38 \u2014 the backpropagation error signal; \u03b4(x) \u2014 the Dirac delta; \u03b5\u2013\u03b4 limits \u2014 the small increment.",
+   "related": [
+    "epsilon",
+    "capital-delta",
+    "nabla",
+    "partial"
+   ],
+   "notes": [
+    "epistemica/optimization/backpropagation.md",
+    "epistemica/mathematical/mapping/distribution/dirac-delta-function.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Dirac delta function",
+     "url": "https://en.wikipedia.org/wiki/Dirac_delta_function"
+    },
+    {
+     "label": "Wikipedia: Limit of a function",
+     "url": "https://en.wikipedia.org/wiki/Limit_of_a_function"
+    }
+   ]
+  },
+  {
+   "id": "capital-delta",
+   "symbol": "\u0394",
+   "latex": "\\Delta",
+   "codepoint": "U+0394",
+   "name": "Capital Delta",
+   "aliases": [
+    "finite difference",
+    "change",
+    "laplacian"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "A finite, measurable change \u2014 the counterpart of the infinitesimal \u03b4.",
+   "origins": "Greek capital delta (\u0394), its triangular shape read as \u201cdifference\u201d; used for finite differences since the 18th century; U+0394; TeX: \\Delta.",
+   "usage": "\u0394x \u2014 a finite increment; \u0394t \u2014 a time step; \u0394 \u2014 the Laplacian in physics notation, where mathematics writes \u2207\u00b2.",
+   "related": [
+    "delta",
+    "nabla"
+   ],
+   "notes": [
+    "epistemica/singular/finite-difference-method-fdm.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Finite difference",
+     "url": "https://en.wikipedia.org/wiki/Finite_difference"
+    },
+    {
+     "label": "Crowe, M. J. (1967). A History of Vector Analysis."
+    }
+   ]
+  },
+  {
+   "id": "theta",
+   "symbol": "\u03b8",
+   "latex": "\\theta",
+   "codepoint": "U+03B8",
+   "name": "Theta",
+   "aliases": [
+    "parameter",
+    "angle"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "The generic unknown: the parameter a model is trying to pin down.",
+   "origins": "Greek theta (\u0398); Fisher's convention fixes Greek letters for parameters and Latin letters for the statistics computed from data; U+03B8; TeX: \\theta.",
+   "usage": "\u03b8 \u2014 the true parameter, \u03b8\u0302 \u2014 its estimate, L(\u03b8) \u2014 the likelihood over it.",
+   "related": [
+    "mu",
+    "sigma",
+    "alpha"
+   ],
+   "notes": [
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Estimator",
+     "url": "https://en.wikipedia.org/wiki/Estimator"
+    },
+    {
+     "label": "Casella, G., & Berger, R. L. (2002). Statistical Inference."
+    }
+   ]
+  },
+  {
+   "id": "mu",
+   "symbol": "\u03bc",
+   "latex": "\\mu",
+   "codepoint": "U+03BC",
+   "name": "Mu",
+   "aliases": [
+    "mean",
+    "expectation",
+    "measure"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "The mean of a distribution, and more generally any measure over a space.",
+   "origins": "Greek mu (\u039c); \u03bc for the average and for the measure in Lebesgue's measure theory (1902); U+03BC; TeX: \\mu.",
+   "usage": "\u03bc = \ud835\udd3c[X] \u2014 location of a law; \u03bc(A) \u2014 the measure of a set; \u03bc in units (micrometre).",
+   "related": [
+    "expectation",
+    "sigma",
+    "theta"
+   ],
+   "notes": [
+    "epistemica/mathematical/measure/measure.md",
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Measure (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Measure_(mathematics)"
+    },
+    {
+     "label": "Billingsley, P. (1995). Probability and Measure."
+    }
+   ]
+  },
+  {
+   "id": "sigma",
+   "symbol": "\u03c3",
+   "latex": "\\sigma",
+   "codepoint": "U+03C3",
+   "name": "Sigma",
+   "aliases": [
+    "standard deviation",
+    "variance",
+    "sigma-algebra"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "Spread of a distribution, step size of an update, and the \u03c3 that makes sets measurable.",
+   "origins": "Greek sigma (\u03a3); \u03c3 for the standard deviation of a normal law and for the \u03c3-algebra of measurable sets (Lebesgue); U+03C3; TeX: \\sigma.",
+   "usage": "\u03c3\u00b2 \u2014 variance, \u03c3 \u2014 standard deviation and SGD step size; \u03c3-algebra \u2014 the family of sets a measure is defined on.",
+   "related": [
+    "mu",
+    "theta",
+    "summation"
+   ],
+   "notes": [
+    "epistemica/mathematical/measure/measure.md",
+    "miscellanea/discipline/statistics.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Standard deviation",
+     "url": "https://en.wikipedia.org/wiki/Standard_deviation"
+    },
+    {
+     "label": "Wikipedia: Sigma-algebra",
+     "url": "https://en.wikipedia.org/wiki/Sigma-algebra"
+    }
+   ]
+  },
+  {
+   "id": "lambda",
+   "symbol": "\u03bb",
+   "latex": "\\lambda",
+   "codepoint": "U+03BB",
+   "name": "Lambda",
+   "aliases": [
+    "eigenvalue",
+    "lagrange multiplier",
+    "rate"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "Whatever scales without changing direction: an eigenvalue, a multiplier, an arrival rate.",
+   "origins": "Greek lambda (\u039b), the seventh letter, adopted for eigenvalues and multipliers in 19th\u201320th-century analysis; U+03BB; TeX: \\lambda.",
+   "usage": "Av = \u03bbv \u2014 eigenvalues; \u03bb \u2265 0 \u2014 the Lagrange multiplier or the regularisation strength; \u03bb \u2014 Poisson arrival rate.",
+   "related": [
+    "rho",
+    "beta",
+    "greater-equal"
+   ],
+   "notes": [
+    "epistemica/mathematical/structure/linear/eigenvector.md",
+    "epistemica/optimization/optimization.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Eigenvalues and eigenvectors",
+     "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors"
+    },
+    {
+     "label": "Wikipedia: Lagrange multiplier",
+     "url": "https://en.wikipedia.org/wiki/Lagrange_multiplier"
+    }
+   ]
+  },
+  {
+   "id": "rho",
+   "symbol": "\u03c1",
+   "latex": "\\rho",
+   "codepoint": "U+03C1",
+   "name": "Rho",
+   "aliases": [
+    "correlation parameter",
+    "density",
+    "spectral radius"
+   ],
+   "categories": [
+    "parameters"
+   ],
+   "description": "How tightly two things move together, or how much stuff sits at a point.",
+   "origins": "Greek rho (\u03a1); Pearson's correlation coefficient \u03c1 for the population value against r for the sample; U+03C1; TeX: \\rho.",
+   "usage": "\u03c1(X, Y) \u2014 the population correlation; \u03c1 \u2014 mass or charge density; \u03c1(A) \u2014 the spectral radius of a matrix.",
+   "related": [
+    "correlation-coefficient",
+    "theta",
+    "sigma"
+   ],
+   "notes": [
+    "epistemica/observational/correlation.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Pearson correlation coefficient",
+     "url": "https://en.wikipedia.org/wiki/Pearson_correlation_coefficient"
+    },
+    {
+     "label": "Stigler, S. M. (1986). The History of Statistics."
+    }
+   ]
+  },
+  {
+   "id": "defined-as",
+   "symbol": ":=",
+   "latex": ":=",
+   "codepoint": "U+003A U+003D",
+   "name": "Colon Equals",
+   "aliases": [
+    "definition",
+    "assign",
+    "def",
+    "coloneq"
+   ],
+   "categories": [
+    "notation"
+   ],
+   "description": "Introduces notation: the left side is being defined, not shown to equal the right.",
+   "origins": "The := of set theory and computer science (also \u2254, U+2254); TeX writes it as :=, with \\coloneqq (mathtools) for the spaced form.",
+   "usage": "f(x) := x\u00b2 \u2014 a definition; kept distinct from = (a claim to be proved) and \u2261 (identity).",
+   "related": [
+    "identical",
+    "coloneqq",
+    "maps-to"
+   ],
+   "notes": [
+    "epistemica/epistemic/theory/definition.md",
+    "epistemica/epistemic/variable.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Assignment (computer science)",
+     "url": "https://en.wikipedia.org/wiki/Assignment_(computer_science)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "coloneqq",
+   "symbol": "\u225c",
+   "latex": "\\triangleq",
+   "codepoint": "U+225C",
+   "name": "Delta Equal To",
+   "aliases": [
+    "defined as",
+    "triangleq",
+    "coloneqq"
+   ],
+   "categories": [
+    "notation"
+   ],
+   "description": "Definition with a triangle: the left is shorthand for the right.",
+   "origins": "U+225C, the delta-equal-to of engineering and physics typography; TeX: \\triangleq.",
+   "usage": "A \u225c B \u2014 defining a quantity inline, common in the physics-flavoured notes where := would read as an assignment.",
+   "related": [
+    "defined-as",
+    "identical"
+   ],
+   "notes": [
+    "epistemica/epistemic/theory/definition.md"
+   ],
+   "sources": [
+    {
+     "label": "Unicode: Mathematical Operators chart (U+2200\u2013U+22FF)",
+     "url": "https://www.unicode.org/charts/PDF/U2200.pdf"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  },
+  {
+   "id": "arrow",
+   "symbol": "\u2192",
+   "latex": "\\to",
+   "codepoint": "U+2192",
+   "name": "Rightwards Arrow",
+   "aliases": [
+    "maps to",
+    "tends to",
+    "function arrow"
+   ],
+   "categories": [
+    "notation"
+   ],
+   "description": "The workhorse arrow: a function's type, a sequence's limit, an informal implication.",
+   "origins": "The right arrow of set-theoretic function notation, standard in the 20th century; U+2192; TeX: \\to.",
+   "usage": "f: A \u2192 B \u2014 the type of a function; x\u2099 \u2192 x \u2014 convergence; P \u2192 Q \u2014 informal implication, weaker in feel than \u21d2.",
+   "related": [
+    "maps-to",
+    "implication",
+    "biconditional"
+   ],
+   "notes": [
+    "epistemica/mathematical/mapping/function.md",
+    "epistemica/mathematical/change/limit.md"
+   ],
+   "sources": [
+    {
+     "label": "Wikipedia: Function (mathematics)",
+     "url": "https://en.wikipedia.org/wiki/Function_(mathematics)"
+    },
+    {
+     "label": "Cajori, F. (1928\u201329). A History of Mathematical Notations."
+    }
+   ]
+  }
+ ]
 }

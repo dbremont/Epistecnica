@@ -6,7 +6,7 @@ tags: [note]
 
 > A structured approach to planning, conducting, and analyzing experiments.
 
-> The design decides which condition is applied to which unit, in what order and how many times. It does not decide how a condition is made to hold: that is the routine's job, and the routines live in the [experimental-method scope](/view.html?p=notes/epistemica/observation/experimental-method.md). The techniques the conditions are applied with are tabulated in [data collection](/view.html?p=notes/epistemica/observation/data-collection.md); the dated cases are the [natural-science collection](/corpus/notes/epistemica/observation/experiment.csv).
+> The design decides which condition is applied to which unit, in what order and how many times. It does not decide how a condition is made to hold: that is the routine's job, and the routines live in the [experimental-method scope](/view.html?p=notes/epistemica/observation/experimental-method.md). The techniques the conditions are applied with are tabulated in [data collection](/corpus/notes/epistemica/observation/organon.html); the dated cases are the [natural-science collection](/corpus/notes/epistemica/observation/experiment.csv).
 
 ## References
 
@@ -16,5 +16,5 @@ tags: [note]
 ## Related
 
 - [Optogenetics](/view.html?p=notes/epistemica/observation/optogenetics.md) — the perturbation exemplar.
-- [Data Collection](/view.html?p=notes/epistemica/observation/data-collection.md) — the collection techniques.
+- [Data Collection](/corpus/notes/epistemica/observation/organon.html) — the collection techniques.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) — the design whose intervention is randomised.

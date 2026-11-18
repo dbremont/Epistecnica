@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Handbook of testing materials (1899 English translation)](https://archive.org/details/handbooktesting00martgoog)
 - [Kirkaldy, Result of an Experimental Inquiry (1863) — the private testing house it rationalized](/view.html?p=documents/books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

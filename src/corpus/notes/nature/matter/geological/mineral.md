@@ -38,6 +38,8 @@ tags: [note, nature, substance-matter, geoscience, materials-science, matter, ge
 -
 - https://www.crystallography.net/cod/
 - https://duffy.princeton.edu/mineralogy-and-crystallography-databases
+- [Mindat](https://www.mindat.org/) — the mineral-species database: identity, localities, photographs and associations
+- [Webmineral](https://www.webmineral.com/) — formula, crystallography and physical data per species
 
 ## Related
 

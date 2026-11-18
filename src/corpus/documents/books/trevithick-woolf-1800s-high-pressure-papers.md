@@ -26,4 +26,4 @@ qa:
 
 - [Trevithick and Vivian, high-pressure road locomotive — the patent and the trials described in the engine histories](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md)
 - [Watt, Steam-engine patents — the low-pressure engine they departed from](/view.html?p=documents/books/watt-1769-steam-engine-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

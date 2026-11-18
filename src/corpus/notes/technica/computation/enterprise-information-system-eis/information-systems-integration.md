@@ -10,6 +10,23 @@ tags: [note, integration]
 
 ![image.png](/assets/note/technica/computation/enterprise-information-system-eis/information-systems-integration/image.png)
 
+## Interaction Styles
+
+> Integration patterns describe *how a message is processed*; interaction styles describe *how two systems talk at all*. The style fixes the coupling — temporal, spatial and semantic — and therefore the failure modes, the latency and the operational cost of the link.
+
+| Style | How it works | Coupling it creates | Where it fits |
+| --- | --- | --- | --- |
+| **Request-response** | The caller sends a request and blocks for the reply | Temporal and semantic: both sides must be up and agree on the contract | Synchronous APIs, user-facing reads, CRUD |
+| **Event-driven** | A producer emits an event; consumers react when they can | Loose in time, tighter in schema: the event contract is the coupling | Notifications, state propagation, decoupled workflows |
+| **Publish-subscribe** | A broker fans a message out to all subscribers | Spatial decoupling: the publisher does not know the subscribers | Many consumers of one fact, integration buses |
+| **Streaming** | A continuous flow of records is consumed as it arrives | Ordering and offset semantics become the contract | Telemetry, logs, market data, change data capture |
+| **Batch** | Files or record sets are exchanged on a schedule | Loose in time: the run window is the contract | Bulk settlement, reporting, legacy mainframe feeds |
+| **File-based** | A shared filesystem or transfer drops a file for the other side | The path, the name and the format are the contract | Legacy interchange, partner drops, EDI over files |
+| **Shared database** | Two systems read and write the same schema | The tightest coupling: the schema is the interface | Legacy integration, reporting replicas — and a known anti-pattern for services |
+| **Remote procedure call** | A typed call to a remote function, as if it were local | The interface definition and its versioning | Internal service-to-service calls, gRPC, RPC-style APIs |
+
+> The choice is usually made once and paid for repeatedly: a synchronous request-response link between two services turns every downstream outage into an upstream outage, while an event link buys availability at the price of eventual consistency. The message patterns in the next section are the internal mechanics of these styles.
+
 ## Integration Patterns
 
 > 

@@ -4,7 +4,7 @@ tags: [note, nature, biology, organism, ontology]
 
 # Life
 
-> **Life** is the ontic family of life: the kinds of natural element whose instance is a living organization, the parts it is made of, the information it carries and the processes it runs. It is filed by **ontic kind**, never by field of study — there is no `genetics/`, `biochemistry/` or `ecology/` here, because those are disciplines (epistemic readings), not elements of reality. The element is the *organism*, the *genome*, the *protein*; the field that studies it belongs to `epistemica/epistemic/discipline/`. The ecosystems organisms form are a different kind — a `Natural System`, not an organism — and are filed at `nature/ecosystem/`.
+> **Life** is the ontic family of life: the kinds of natural element whose instance is a living organization, the parts it is made of, the information it carries and the processes it runs. It is filed by **ontic kind**, never by field of study — there is no `genetics/`, `biochemistry/` or `ecology/` here, because those are disciplines (epistemic readings), not elements of reality. The element is the *organism*, the *genome*, the *protein*; the field that studies it belongs to `miscellanea/discipline/`. The ecosystems organisms form are a different kind — a `Natural System`, not an organism — and are filed at `nature/ecosystem/`.
 
 ## Formulation
 
@@ -16,7 +16,8 @@ The family spans the guide's kinds, each dir holding the kind it names:
 | --- | --- | --- |
 | `organism/` | `Substantive (→ Kind) Organism` — self-maintaining, reproducing organization (autopoietic) | organism, living system, multicellular/unicellular, autopoiesis |
 | `organism/virus/` | *readable as* Organism — a virion is not autopoietic, so it is filed under the organisms by convention, marked as the borderline case | virus, virus taxonomy, prion |
-| `organism/bacteria/` | `Organism` | bacteria, archaea, prokaryotes, microbial taxonomy, pathogens |
+| `organism/bacteria/` | `Organism` | bacteria, archaea, prokaryotes, microbial taxonomy |
+| `organism/pathogen.md` | the disease-causing **role**, read across organisms — viruses, bacteria, fungi, protozoa and helminths — and not a kind of its own | pathogen, virulence, host range, transmission, disease triangle |
 | `organism/protist/` | `Organism` | protists, protozoa |
 | `organism/fungus/` | `Organism` | fungi, fungal taxonomy, yeast |
 | `organism/plant/` | `Organism` | plants, their taxonomies, species, growth and nutrition |

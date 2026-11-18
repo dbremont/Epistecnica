@@ -147,7 +147,7 @@ frontend-facing surface in the deployment; there is no database behind it
   `guidance/principle/` for rules of proceeding (`occam-razor`,
   `minimum-description-length-mdl`, `least-action-principle`, …), and
   `guidance/method/` for the philosophical-method notes.
-- `data/epistemica/epistemic/discipline/` holds the discipline catalogues
+- `data/miscellanea/discipline/` holds the discipline catalogues
   (mathematics, statistics, computer science, …).
 - A directory under `data/epistemica/` is a **target/operation scope**, not a
   metaphor: a cross-cutting method family is a tag. The former
@@ -277,7 +277,7 @@ frontend-facing surface in the deployment; there is no database behind it
 
 ## On Technical Notes
 
-- **Discipline notes** live in `technica/discipline/` — one note per technical
+- **Discipline notes** live in `miscellanea/discipline/` — one note per technical
   practice or technique, each with the technica shell and its own
   decomposition table. The engineering family: `geotechnical-engineering.md`
   (the ground as support and container), `structural-mechanics.md` (the load

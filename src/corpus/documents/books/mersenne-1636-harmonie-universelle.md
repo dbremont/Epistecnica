@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Harmonie universelle (1636)](https://archive.org/details/bub_gal_ark_12148_bpt6k5471093v)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

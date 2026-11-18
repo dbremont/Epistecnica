@@ -26,4 +26,4 @@ qa:
 
 - [Stanley, A Descriptive Treatise on Mathematical Drawing Instruments (1868) — the maker's own manual](/view.html?p=documents/books/stanley-1868-mathematical-drawing-instruments.md)
 - [Gurley, A Manual of the Principal Instruments (1870) — the American maker's catalogue](/view.html?p=documents/books/gurley-1870-manual-instruments.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

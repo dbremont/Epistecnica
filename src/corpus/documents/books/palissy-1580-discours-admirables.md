@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Discours admirables (1580)](https://archive.org/details/chepfl-lipr-axa-18)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

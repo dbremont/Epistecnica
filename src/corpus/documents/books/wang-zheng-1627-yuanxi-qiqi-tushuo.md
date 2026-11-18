@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Yuanxi Qiqi Tushuo Luzui (1627)](https://archive.org/details/qiqi-tushuo-wonderful-machines)
 - [Song Yingxing, Tiangong Kaiwu (1637) — the indigenous Ming techniques beside it](/view.html?p=documents/books/song-yingxing-1637-tiangong-kaiwu.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

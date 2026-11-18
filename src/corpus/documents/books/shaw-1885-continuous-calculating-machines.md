@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The theory of continuous calculating machines (1885)](https://archive.org/details/philtrans02799060)
 - [Royal Society Committee, Report on the Scheutz Machine (1854) — the digital engine beside the continuous one](/view.html?p=documents/books/scheutz-1854-report-calculating-machine.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

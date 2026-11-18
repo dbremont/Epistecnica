@@ -113,7 +113,7 @@ Here is a table outlining some of the notable German economic cartels in the lat
 - Tilly, Richard H., and Michael Kopsidis. From old regime to industrial state: a history of German industrialization from the eighteenth century to World War I. University of Chicago Press, 2020.
 - Meyer-Thurow, Georg. "The industrialization of invention: a case study from the German chemical industry." Isis 73.3 (1982): 363-381.
 - Henderson, William O. The State and the Industrial Revolution in Prussia, 1740-1870
-- Clapham, J. H. The Economic Development of France and Germany: 1815-1914
+- [Clapham, J. H. The Economic Development of France and Germany: 1815-1914](/view.html?p=documents/books/clapham-1921-economic-development-france-germany-1815-1914-cambridge.md)
 - From Old Regime to Industrial State: A History of German Industrialization from the Eighteenth Century to World War I.
 - Meyer-Thurow, G. (1982). The industrialization of invention: a case study from the German chemical industry. *Isis*, *73*(3), 363–381.
 

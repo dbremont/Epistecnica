@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Die graphische Statik (1866)](https://archive.org/details/diegraphischesta00culm)
 - [Archive.org — the later printing](https://archive.org/details/diegraphischest01culmgoog)
 - [Cremona, Le Figure Reciproche nella Statica Grafica (1872) — the Italian reciprocal-figures form](/view.html?p=documents/books/cremona-1872-figure-reciproche.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -78,6 +78,10 @@ Two load-bearing caveats.
 
 ## References
 
+- [Paul, H. W. (1985). *From Knowledge to Power*.](/view.html?p=documents/books/paul-1985-knowledge-power-rise-science-empire-france-1860-1939-cambridge.md) — the science empire the Academy anchored
+
+- [Fox, R., & Weisz, G. (eds.) (1980). *The Organization of Science and Technology in France, 1808–1914*.](/view.html?p=documents/books/fox-weisz-1980-organization-science-technology-france-1808-1914-cambridge.md) — the institutional history of the Academy's milieu
+
 - [Académie des sciences](https://www.academie-sciences.fr/en/)
 - [French Academy of Sciences](https://en.wikipedia.org/wiki/French_Academy_of_Sciences)
 - [Institut de France](https://www.institutdefrance.fr/en/)

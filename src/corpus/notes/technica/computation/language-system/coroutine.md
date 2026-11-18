@@ -197,4 +197,6 @@ async def worker():
 
 ## References
 
+- [Design space of async/await](https://cel.cs.brown.edu/blog/design-space-async-await/) — the Brown CEL survey of the type-level and runtime choices a language makes when it adopts async/await
+
 - https://en.wikipedia.org/wiki/Coroutine

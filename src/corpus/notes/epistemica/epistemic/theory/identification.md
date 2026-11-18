@@ -115,3 +115,5 @@ y_{t} &= h_\theta(x_t) + v_t \quad &\text{(observation)}
 - https://en.wikipedia.org/wiki/System_identification
 - https://en.wikipedia.org/wiki/Data-driven_control_system
 - https://en.wikipedia.org/wiki/Nonlinear_system_identification
+- [A priori identifiability (Anstett-Collin et al., 2020)](/view.html?p=documents/papers/anstett-collin-2020-a-priori-identifiability.md) — the structural precondition for the identification problem being solvable
+- [Underdetermination](/view.html?p=notes/epistemica/epistemic/theory/underdetermination.md) — the epistemic version of what identification cannot settle

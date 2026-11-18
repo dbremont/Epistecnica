@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Fanning, Water-Supply Engineering (1877) — the American professional reference of the same decade](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md)

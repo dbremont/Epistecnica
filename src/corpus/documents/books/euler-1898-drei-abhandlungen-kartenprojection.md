@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Drei Abhandlungen über Kartenprojection (1898)](https://archive.org/details/abr2561.0001.001.umich.edu)
 - [Craig, A Treatise on Projections (1882) — the English mathematical treatise](/view.html?p=documents/books/craig-1882-treatise-on-projections.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

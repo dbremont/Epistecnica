@@ -196,6 +196,8 @@ QA:
 
 ## References
 
+- [Lamb, H. (1932). *Hydrodynamics* (6th ed.).](/view.html?p=documents/books/lamb-1932-hydrodynamics-cambridge.md) — the classical treatise: the exact solutions and the derivations this note draws on
+
 - https://en.wikipedia.org/wiki/Transport_phenomena
 - https://en.wikipedia.org/wiki/Mass_transfer
 - https://en.wikipedia.org/wiki/Heat_transfer

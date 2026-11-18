@@ -40,8 +40,8 @@ def check_note(here, path, label):
     if not isinstance(path, str) or not path:
         err(f'{here}: {label} is not a path')
         return
-    if not path.startswith('technica/') or not path.endswith('.md'):
-        err(f'{here}: {label} {path!r} is not a technica note')
+    if not path.endswith('.md'):
+        err(f'{here}: {label} {path!r} is not a note')
     elif not (DATA / path).is_file():
         err(f'{here}: {label} {path!r} does not exist')
 

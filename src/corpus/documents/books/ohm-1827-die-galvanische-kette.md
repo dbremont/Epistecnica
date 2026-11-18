@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Die galvanische Kette (1827 BSB scan)](https://archive.org/details/10860421bsb)
 - [Wheatstone, An Account of Several New Instruments (1843) — the bridge of the circuit measurement](/view.html?p=documents/books/wheatstone-1843-voltaic-circuit.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

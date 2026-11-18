@@ -23,7 +23,7 @@ tags: [note, mathematics, analytical, function, representation]
 
 ## References
 
-- [Harmonic Analysis](/view.html?p=notes/epistemica/epistemic/discipline/harmonic-analysis.md) — the discipline this series is the oldest case of
+- [Harmonic Analysis](/view.html?p=notes/miscellanea/discipline/harmonic-analysis.md) — the discipline this series is the oldest case of
 - [Fourier Transform](/view.html?p=notes/epistemica/signal/fourier-transform.md) · [Hilbert Space](/view.html?p=notes/epistemica/mathematical/space/hilbert-space.md) · [Wavelet](/view.html?p=notes/epistemica/signal/wavelet.md) — the non-periodic case, the space the basis lives in, and the localized alternative
 - Dirichlet, G. L. (1829). Sur la convergence des séries trigonométriques qui servent à représenter une fonction arbitraire entre des limites données. *Journal für die reine und angewandte Mathematik*, 4, 157–169.
 - Fourier, J. (1822). *Théorie analytique de la chaleur*. Firmin Didot.

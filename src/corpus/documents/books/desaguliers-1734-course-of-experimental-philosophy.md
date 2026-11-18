@@ -28,4 +28,4 @@ qa:
 - [Archive.org — A course of experimental philosophy, vol. 1 (1745 printing)](https://archive.org/details/courseofexperime00john)
 - [Archive.org — vol. 2 (1744)](https://archive.org/details/courseofexperime00john_0)
 - [Leupold, Theatrum Machinarum Generale (1724) — the machine-theory tradition the courses taught beside](/view.html?p=documents/books/leupold-1724-theatrum-machinarum-generale.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

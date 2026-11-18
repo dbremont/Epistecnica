@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Sylva (1908 printing)](https://archive.org/details/sylvaordiscourse01evelrich)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -79,8 +79,9 @@ The concept under evaluation is **Biosensor**, defined above as *an analytical i
 - [Living System](/view.html?p=notes/nature/life/organism/living-system.md) — the natural element the instrument is built on
 - biochemical sensors — the sensing interaction, read naturally
 - [Protein](/view.html?p=notes/nature/life/molecular/protein.md) — the recognition element's material in most instruments
-- [Metrology Services Set](/view.html?p=notes/technica/general/industry/metrology-services.md) — the traceability domain the calibration sits in
+- [Metrology Services Set](/view.html?p=notes/technica/production/industry/metrology-services.md) — the traceability domain the calibration sits in
 - [Technica Atlas](/corpus/notes/technica/atlas.html) — the forest this decomposition feeds
 - IUPAC Recommendations 1999. "Definition of a biosensor" — an integrated receptor–transducer device.
 - ISO 15197. *In vitro diagnostic test systems — Requirements for blood-glucose monitoring systems for self-testing*.
 - https://en.wikipedia.org/wiki/Biosensor
+- [Observation Technology and Method Catalog](/corpus/notes/epistemica/observation/organon.html) — the catalogue this technique belongs to

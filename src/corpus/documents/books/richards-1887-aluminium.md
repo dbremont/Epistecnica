@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Aluminium: its history, occurrence, properties, metallurgy (1887)](https://archive.org/details/aluminiumitshis05richgoog)
 - [Le Chatelier et al., or the electric furnace books beside it](/view.html?p=documents/books/rivot-1859-principes-generaux-traitement-minerais.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

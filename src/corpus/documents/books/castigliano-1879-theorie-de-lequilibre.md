@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — Theorie des Gleichgewichtes elastischer Systeme (1886 German translation of the 1879 Turin original)](https://archive.org/details/11650196bsb)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

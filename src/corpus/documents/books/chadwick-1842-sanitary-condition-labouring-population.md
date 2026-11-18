@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Report on the sanitary condition of the labouring population (1842)](https://archive.org/details/b21307313)
 - [Archive.org — the Scottish inquiry, further copy](https://archive.org/details/bub_gb_b21469726)
 - [Latham, Sanitary Engineering (1877) — the sewerage science built on the argument](/view.html?p=documents/books/latham-1877-sanitary-engineering.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

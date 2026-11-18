@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — General Theory of Bridge Construction (later printing of 1851)](https://archive.org/details/generaltheorybr01haupgoog)
 - [Whipple, A Work on Bridge Building (1847) — the founding theory beside it](/view.html?p=documents/books/whipple-1847-work-on-bridge-building.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -34,4 +34,6 @@ tags: [note]
 
 ## References
 
+- [Lamb, H. (1932). *Hydrodynamics* (6th ed.).](/view.html?p=documents/books/lamb-1932-hydrodynamics-cambridge.md) — the classical treatise: the exact solutions and the derivations this note draws on
+
 - https://en.wikipedia.org/wiki/Continuum_mechanics

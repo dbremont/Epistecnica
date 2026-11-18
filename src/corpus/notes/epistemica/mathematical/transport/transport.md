@@ -22,7 +22,7 @@ order: 0
 | Mass, earth, commodity | Two measures or two inventories | A map or a joint plan | Cost per unit moved | [Transportation Theory](/view.html?p=notes/epistemica/mathematical/transport/transportation-theory.md) |
 | Flow through a network | Sources and sinks on a graph | An edge flow | Capacities, conservation at nodes | Network flows — [Flows in Networks](/view.html?p=notes/epistemica/singular/transportation-system.md) |
 | Density or concentration | Initial and boundary data | A velocity field | Conservation law, continuity equation | Diffusion and continuity — [Diffusion](/view.html?p=notes/nature/diffusion.md) |
-| Probability | Two distributions | A coupling or a kernel | Marginal consistency | [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md) |
+| Probability | Two distributions | A coupling or a kernel | Marginal consistency | [Probability](/view.html?p=notes/miscellanea/discipline/probability.md) |
 | Information | An input alphabet | A channel | Capacity, noise | [Information](/view.html?p=notes/epistemica/observational/information/information.md) |
 | Units, not mass | Workers, jobs, schools | A matching | One-to-one, preferences | [Combinatorial Optimization](/view.html?p=notes/epistemica/optimization/combinatorial-optimization.md) |
 
@@ -65,7 +65,7 @@ order: 0
 - [Transportation System](/view.html?p=notes/epistemica/singular/transportation-system.md) — the physical system, a different object with a similar name
 - [Diffusion](/view.html?p=notes/nature/diffusion.md) — the equations that describe transport in matter
 - [Combinatorial Optimization](/view.html?p=notes/epistemica/optimization/combinatorial-optimization.md) · [Calculus of Variations](/view.html?p=notes/epistemica/optimization/calculus-of-variations.md) — the two optimization families the theory sits between
-- [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) — the objects a coupling is built from
+- [Probability](/view.html?p=notes/miscellanea/discipline/probability.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) — the objects a coupling is built from
 - [Information Geometry](/view.html?p=notes/epistemica/observational/information/information-geometry.md) — where optimal transport meets statistical inference
 - [Leonid Vitaliyevich Kantorovich](/view.html?p=notes/social/collective/actor/private/persona/leonid-vitaliyevich-kantorovich.md) — the mathematician who made the problem a linear program
 

@@ -27,4 +27,4 @@ qa:
 - [Archive.org — On the sensations of tone (English, 1885)](https://archive.org/details/onsensationston00unkngoog)
 - [Archive.org — (English, 1895)](https://archive.org/details/india.history.resource.93420)
 - [Rayleigh, The Theory of Sound (1877–78) — the mathematical counterpart](/view.html?p=documents/books/rayleigh-1877-theory-of-sound.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

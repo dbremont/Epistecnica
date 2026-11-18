@@ -26,4 +26,4 @@ qa:
 
 - [Farey, A Treatise on the Steam Engine (1827) — the English account of the American engine](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md)
 - [Trevithick and Woolf, High-pressure steam papers — the British line beside it](/view.html?p=documents/books/trevithick-woolf-1800s-high-pressure-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

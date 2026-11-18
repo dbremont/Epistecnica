@@ -24,6 +24,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Fincham, A History of Naval Architecture (1851) — the history the modern system followed](/view.html?p=documents/books/fincham-1851-history-naval-architecture.md)
 - [Chapman, Architectura Navalis Mercatoria (1768) — the classification the system modernized](/view.html?p=documents/books/chapman-1768-architectura-navalis.md)

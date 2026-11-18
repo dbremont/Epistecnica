@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Guide du verrier (1868)](https://archive.org/details/guideduverriert00bontgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

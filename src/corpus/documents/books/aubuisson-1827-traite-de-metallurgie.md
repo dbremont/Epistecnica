@@ -26,4 +26,4 @@ qa:
 
 - [Jars, Voyages métallurgiques (1774–81) — the French survey that preceded it](/view.html?p=documents/books/jars-1774-voyages-metallurgiques.md)
 - [Rivot, Principes généraux du traitement des minerais (1859) — the successor treatise](/view.html?p=documents/books/rivot-1859-principes-generaux-traitement-minerais.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

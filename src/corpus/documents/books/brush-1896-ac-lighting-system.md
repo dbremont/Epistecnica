@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — The Brush alternating system (1896 case book)](https://archive.org/details/TheBrushAlternatingCurrentElectric)
 - [Archive.org — the Arago system of arc lighting](https://archive.org/details/TheAragoSystemOfElectricArcLightin)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The confectioners' hand-book (1883)](https://archive.org/details/b21506164)
 - [Burgh, A Treatise on Sugar Machinery (1863) — the industrial sugar plant the trade drew on](/view.html?p=documents/books/burgh-1863-treatise-sugar-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -44,47 +44,60 @@ tags: [note]
 | **Multi-Agent Reinforcement Learning (MARL)** | Extends RL to environments with multiple agents interacting and learning. |
 | **General Reinforcement Learning (General RL)** | The most general form of RL, encompassing all possible environments and complexities. |
 
-## **Learning**
+## How to reason about RL
 
-> 
+> Reinforcement learning is a **control problem stated as an inference problem**: an agent chooses actions, the environment answers with a new state and a reward, and the agent updates the rule that chooses. Everything else — value functions, baselines, trust regions, entropy — is machinery for making that update stable and efficient.
 
-| **Category** | **Algorithm** | **Description** |
-| --- | --- | --- |
-| **Value-Based** | Q-Learning | Learns Q-values using Bellman updates and a max over future actions. |
-|  | SARSA | Learns Q-values using the actual next action taken (on-policy variant). |
-|  | DQN | Uses deep neural networks to approximate Q-values in discrete action spaces. |
-| **Policy-Based** | REINFORCE | Monte Carlo policy gradient method that updates policy based on return. |
-|  | PPO | Uses clipped objective to improve training stability in policy gradient. |
-|  | TRPO | Trust region optimization of policies to ensure stable updates. |
-| **Actor-Critic** | A2C (Advantage Actor-Critic) | Learns both a policy (actor) and value function (critic) synchronously. |
-|  | A3C (Asynchronous A2C) | Parallel agents update global policy asynchronously to stabilize training. |
-|  | DDPG | Off-policy actor-critic for continuous actions using deterministic policies. |
-|  | SAC | Stochastic off-policy actor-critic maximizing both reward and entropy. |
-|  | TD3 | Twin critics and delayed policy updates to reduce overestimation in DDPG. |
-| **Model-Based** | Dyna-Q | Integrates planning, acting, and learning using a learned model. |
-| (Planning/Learning) | MBPO | Uses model rollouts in model-based policy optimization. |
-|  | PETS | Probabilistic ensemble models with trajectory sampling for planning. |
-|  | MuZero | Learns dynamics, value, and policy functions directly from raw observations. |
-| **Model-Free** | Q-Learning, PPO, DDPG | Learns optimal behavior directly from experience without modeling environment. |
-| **On-Policy** | SARSA, PPO, A2C | Learns using samples from the current policy (data policy = behavior policy). |
-| **Off-Policy** | Q-Learning, DQN, DDPG, SAC | Learns from data collected under a different policy (e.g., replay buffer). |
-| **Deterministic Policy** | DDPG, TD3 | Outputs a single action per state; useful for continuous control tasks. |
-| **Stochastic Policy** | PPO, REINFORCE, SAC | Outputs a distribution over actions; supports exploration naturally. |
-| **Discrete Action Space** | Q-Learning, DQN, PPO | Designed for tasks with a finite set of actions (e.g., game moves). |
-| **Continuous Action Space** | DDPG, SAC, TD3 | Operates in high-dimensional continuous control environments (e.g., robotics). |
-| **Evolutionary Methods** | Genetic Algorithms | Uses mutation, crossover, and selection to evolve policies. |
-|  | NES (Natural Evolution Strategies) | Gradient-based black-box optimization using evolution. |
-|  | CMA-ES | Covariance matrix adaptation evolution strategy for policy search. |
-| **Hierarchical RL** | Options Framework | Temporal abstraction via macro-actions (options). |
-|  | FeUdal Networks | Hierarchical architecture where high-level managers direct low-level workers. |
-| **Multi-Agent RL** | MADDPG | Multi-agent version of DDPG with centralized training and decentralized exec. |
-|  | QMIX | Decomposes joint Q-values into individual agent utilities. |
-|  | COMA | Counterfactual baseline for actor-critic in multi-agent settings. |
-| **Imitation / Inverse RL** | IRL (Inverse RL) | Infers reward function from expert demonstrations. |
-|  | GAIL | Uses adversarial training to learn policies from expert behavior. |
-|  | Behavioral Cloning | Supervised learning of actions directly from expert trajectories. |
-|  |  |  |
-| **Reward-Free** | Pure exploration, Intrinsic motivation and Imitation. |  |
+The loop, once:
+
+```text
+state s_t ──▶ policy π(a | s) ──▶ action a_t ──▶ environment ──▶ reward r_t, state s_{t+1}
+   ▲                                                                   │
+   └───────────────────── update the policy ◀───────────────────────────┘
+```
+
+> The objective is the expected discounted return of the policy's own behaviour:
+> $$J(\theta) = \mathbb{E}_{\tau \sim \pi_\theta}\left[\sum_{t=0}^{T} \gamma^t r_t\right],$$
+> where $\tau$ is a trajectory sampled under the policy with parameters $\theta$. Two questions organise the whole field: **what is the policy** (a table, a network, a distribution, a deterministic map) and **how is it updated** (a gradient estimate, a Bellman backup, a population, a trust region). The families below are answers to the second question.
+
+## Policy and Parameters
+
+> Almost every modern RL algorithm fixes the policy's **structure** and learns only its **parameters**. The architecture is a design decision made before training — a network depth, a distribution family, a state representation — and the algorithm is the rule that moves the weights.
+
+| Component | Fixed or learned? |
+| --- | --- |
+| **Policy architecture** (the computational blueprint) | Usually **fixed** |
+| **Parameters** (weights, biases, embeddings) | **Learned** |
+| **State and action representation** | Fixed by the problem formulation |
+| **Reward function** | Fixed by the task (or learned in inverse RL) |
+| **Exploration schedule and update rule** | Fixed hyperparameters, sometimes adapted |
+
+> The distinction matters because it bounds what RL can do: RL cannot invent a representation or a reward, only fit the parameters of the one it is given. A change of architecture is a different problem, not a better-trained one.
+
+## The Gradient Update
+
+> For a stochastic policy $\pi_\theta(a\mid s)$, the policy-gradient theorem gives
+> $$\nabla_\theta J(\theta) = \mathbb{E}_{\tau}\left[\sum_t \nabla_\theta \log \pi_\theta(a_t\mid s_t)\, G_t\right],$$
+> where $G_t$ is the return from step $t$ (or an advantage estimate, or a critic's value). The log-derivative rewrites *how the objective changes* as *how the action probabilities change*, weighted by how good the outcome was — so the update is a weighted maximum-likelihood step on the actions the agent actually took.
+
+> The estimate is unbiased and high-variance: one trajectory is one sample. Every practical variant is a variance reduction — a baseline, an advantage, a critic, a trust region, an entropy bonus — or a bias–variance trade made explicit.
+
+## Algorithm Families
+
+| Family | Primary objective | Trainable component | Optimisation signal | Update mechanism |
+| --- | --- | --- | --- | --- |
+| **REINFORCE** | Maximise expected cumulative reward | Policy | Monte Carlo returns | Policy gradient |
+| **Actor-Critic (A2C/A3C)** | Maximise expected cumulative reward | Policy + value function | Advantage estimate | Policy gradient |
+| **TRPO** | Maximise reward while limiting policy change | Policy | Advantage estimate | Trust-region optimisation |
+| **PPO** | Maximise a clipped surrogate objective | Policy + value function | Advantage estimate | Clipped policy gradient |
+| **DQN** | Learn the optimal action-value function | Q-network | Temporal-difference error | Gradient descent |
+| **Double DQN** | Reduce Q-value overestimation | Q-network | TD error | Gradient descent |
+| **DDPG** | Maximise expected return | Deterministic policy + critic | Deterministic policy gradient | Gradient descent |
+| **TD3** | Improve deterministic policy learning | Policy + twin critics | TD error + deterministic gradient | Gradient descent |
+| **SAC** | Maximise reward and policy entropy | Policy + critics | Entropy-regularised objective | Gradient descent |
+| **Evolution Strategies** | Maximise fitness/reward | Policy parameters | Population fitness | Mutation + selection |
+
+> The table reads in two directions. Down the **policy** column it separates what is learned: a policy, a value function, or both. Down the **signal** column it separates where the learning signal comes from: sampled returns, an advantage, a TD error, a population. The methods that follow — model-based, hierarchical, multi-agent, imitation — are combinations of these columns, not a fifth source of signal.
 
 ## Limits
 
@@ -93,6 +106,11 @@ tags: [note]
 
 ## References
 
+- [Policy Gradient Methods](/view.html?p=notes/epistemica/adaptative/policy-gradient-methods.md) — the gradient machinery behind the policy-based families
+- [Markov Decision Processes (MDP)](/view.html?p=notes/epistemica/adaptative/markov-decision-processes-mdp.md) — the formal object the loop samples
+- [Optimal Control](/view.html?p=notes/epistemica/adaptative/optimal-control-theory.md) · [Model Predictive Control](/view.html?p=notes/epistemica/adaptative/model-predictive-control-mpc.md) — the control-theory reading of the same problem
+- [Active Inference](/view.html?p=notes/epistemica/adaptative/active-inference.md) — the Bayesian statement of the objective
+- [RLHF](/view.html?p=notes/technica/cybernetics/synthesis/reinforcement-learning-with-human-feedback-rlhf.md) — the LLM post-training application
 - https://en.wikipedia.org/wiki/Reinforcement_learning
 - [General Reinforcement Learning in the Browser](https://github.com/aslanides/aixijs)
 - [Introduction to Reinforcement Learning](https://www.youtube.com/watch?v=xMZE-9WECQE)

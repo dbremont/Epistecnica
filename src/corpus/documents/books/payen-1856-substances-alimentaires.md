@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Smith, Foods (1873) — the English composition beside the French](/view.html?p=documents/books/smith-1873-foods.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Cocoa and chocolate: their chemistry and manufacture (1912)](https://archive.org/details/cu31924080031101)
 - [Skuse, The Confectioners' Hand-Book (1883) — the confectionery bench beside the works](/view.html?p=documents/books/skuse-1883-confectioners-handbook.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

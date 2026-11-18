@@ -26,4 +26,4 @@ qa:
 
 - [Cavendish, The Electrical Researches — the quantitative layer before the torsion balance](/view.html?p=documents/books/cavendish-1771-electrical-researches.md)
 - [Volta, On the Electricity Excited by the Contact of Conducting Substances (1800) — the pile the measurement made possible](/view.html?p=documents/books/volta-1800-on-electricity-excited-by-contact.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

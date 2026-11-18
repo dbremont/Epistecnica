@@ -13,6 +13,9 @@ tags: [note, unfinished]
 - Law & Legal Space Characterization
 - **Legal Space Dynamics**: Annual Legislation Trends, Evolution of Legal Scope, Jurisdictional Shifts, and Regulatory Developments, ...
 
+- The Regularoty Sector of a Society - Should Be Fundamentally a Certificate Authority; and Than And Action One.
+- Note: Even in Regulated Sector, oen can allow non regulated activities, provided that that the information; that they play outside the rule is very much public.
+
 ### Law Characterization
 
 > Legal Space: The **Legal Space** refers to the domain where legal frameworks, regulations, policies, and systems interact with societal, governmental, and business activities, encompassing the interpretation, application, and enforcement of laws.

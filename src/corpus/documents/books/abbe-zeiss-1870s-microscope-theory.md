@@ -26,4 +26,4 @@ qa:
 
 - [Hooke, Micrographia (1665) — the instrument's founding book](/view.html?p=documents/books/hooke-1665-micrographia.md)
 - [Carpenter, The Microscope and Its Revelations (1856) — the user's manual before Abbe](/view.html?p=documents/books/carpenter-1856-microscope-revelations.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

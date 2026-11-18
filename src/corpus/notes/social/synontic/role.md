@@ -2,7 +2,7 @@
 tags: [note]
 ---
 
-# **Social Role**
+# Social Role
 
 A **Social Role** is not a tangible, ontic object like a tree or a neuron. It is a **relational and emergent construct** that exists within networks of social expectations, interactions, and norms.
 

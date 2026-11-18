@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — The manufacture of leather (1885)](https://archive.org/details/manufactureoflea01davi)
 - [Archive.org — the later edition of 1897](https://archive.org/details/manufactureoflea00davi_0)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

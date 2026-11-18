@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Victor bicycles and tricycles (1886)](https://archive.org/details/victor-bicycles-1886)
 - [Kalamazoo Railroad Velocipede Co. catalogue (1886) — the same year's other wheeled trade](/view.html?p=documents/books/kalamazoo-1886-railroad-velocipede-catalogue.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

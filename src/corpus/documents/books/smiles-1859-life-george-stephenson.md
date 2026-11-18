@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The life of George Stephenson (1859)](https://archive.org/details/lifeofgeorgestep00smile)
 - [Walker & Rastrick, Report on Locomotive and Fixed Engines (1831) — the Rainhill trial judged](/view.html?p=documents/books/walker-1831-report-locomotive-engines.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Tredgold, Strength of Cast Iron (1822) — the handbook the tables extended](/view.html?p=documents/books/tredgold-1822-practical-essay-strength-cast-iron.md)
 - [Rankine, Manual of Applied Mechanics (1858) — the systematization the tables fed](/view.html?p=documents/books/rankine-1858-manual-of-applied-mechanics.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

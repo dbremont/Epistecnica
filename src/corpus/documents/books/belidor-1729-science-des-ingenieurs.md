@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — La science des ingenieurs (1754 printing of 1729)](https://archive.org/details/lasciencedesing00unkngoog)
 - [Navier, Resume des Lecons (1826) — the corps teaching it preceded](/view.html?p=documents/books/navier-1826-resume-des-lecons.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

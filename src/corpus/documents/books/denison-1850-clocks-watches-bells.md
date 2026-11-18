@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — A rudimentary treatise on clocks and watches (1874 edition)](https://archive.org/details/arudimentarytre01grimgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

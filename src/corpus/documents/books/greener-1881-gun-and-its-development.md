@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The gun and its development (1897. Cornell print)](https://archive.org/details/cu31924097286177)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -39,7 +39,7 @@ Write the sides $a, b, c$ opposite the vertices $A, B, C$.
 | Circumradius | $R = \dfrac{a}{2\sin A} = \dfrac{abc}{4K}$ |
 | Inradius | $r = \dfrac{K}{s}$ |
 | Euler line | centroid, circumcentre and orthocentre are collinear; the centroid divides the segment in ratio $2 : 1$ |
-| Rigidity | the side lengths fix the shape — the only polygon with this property, hence the bracing of triangulated frameworks ([Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md)) |
+| Rigidity | the side lengths fix the shape — the only polygon with this property, hence the bracing of triangulated frameworks ([Structural Mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md)) |
 
 ## Theorems
 

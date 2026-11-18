@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Les raisons des forces mouvantes (1615)](https://archive.org/details/lesraisonsdesfor00salo)
 - [Ramelli, Le Diverse et Artificiose Machine (1588) — the founding machine book](/view.html?p=documents/books/ramelli-1588-diverse-machine.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

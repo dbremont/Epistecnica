@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The elements of machine design (1878 printing)](https://archive.org/details/elementsmachine01unkngoog)
 - [Reuleaux, The Kinematics of Machinery (1875) — the theory it naturalized](/view.html?p=documents/books/reuleaux-1875-kinematics-of-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

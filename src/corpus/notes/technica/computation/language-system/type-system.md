@@ -78,6 +78,42 @@ QA:
 > A **type system** is a set of rules and constraints that govern how data types (such as integers, strings, and objects) can be used and manipulated in a programming language, ensuring data integrity and preventing type-related errors.
 > 
 
+## The Space of Admissible Computations
+
+> A type system establishes a **restricted space of admissible computations** by specifying which kinds of entities may participate in which operations. Read negatively, the same claim is the one that matters operationally: a type system **bans invalid computation descriptions**. "They prevent the erroneous use of data types" is the programmer's-eye version of both.
+
+QA:
+
+- What is an invalid computation description?
+- Which are the other ways to have to prevent invalid computation descriptions?
+
+### What is an invalid computation description?
+
+> A description that is syntactically well formed but asks for an operation its entities cannot support: adding a string to an integer, calling a member on the wrong type, passing the wrong number of arguments, indexing with something that is not an index. It is a description for which **no admissible computation exists** — the text parses and denotes something, but what it denotes is outside the language's space of computations. *Ill-typed* is the type system's verdict on exactly that class.
+
+> Two consequences follow. The class is defined **by the system, not by the machine**: `1 + "1"` is an invalid description in OCaml and a valid one in JavaScript, and memory safety is a property of the first and not of the second. And the class is defined **before** the computation runs, which is why the ban is cheap: a program that cannot be admitted is never executed.
+
+### Which are the other ways to prevent invalid computation descriptions?
+
+> The type system is one mechanism in a family, and the family is best read by what each member constrains:
+
+| Mechanism | What it constrains |
+| --- | --- |
+| **Type system** | What kinds of entities may participate in operations |
+| **Grammar / syntax** | How computational expressions may be structurally formed |
+| **Static semantics** | Whether syntactically valid expressions satisfy semantic rules before execution |
+| **Contracts** | Preconditions, postconditions, and invariants of operations |
+| **Schema** | Structure and allowed relationships of data |
+| **Formal specification** | What a computation is required to accomplish |
+| **Proof system / formal verification** | Whether specified properties logically follow from the program |
+| **Effect system** | What kinds of computational effects an operation may produce |
+| **Dependency constraints** | Which computational elements may depend on which others |
+| **Dimensional analysis** | Whether quantities can be legitimately combined according to their dimensions |
+| **Capability / permission system** | Which operations an entity is permitted to perform |
+| **Validation rules** | Whether supplied values satisfy domain-specific conditions |
+
+> The type system is a *part* of static semantics rather than the whole of it: name resolution, arity and scoping are checked before execution without being typing. And the rows differ not only in **what** they constrain but in **when** and **who**: grammar and static semantics at parse and compile time, the type system at compile time, contracts and validation rules at run time, proof systems at verification time, capability systems at the operating-system boundary. A real system stacks several of them at once — a language with types, a schema for its data, a test suite and a release gate is using four rows — which is why "the type system prevents errors" is true and never the whole answer.
+
 ### Terminology
 
 | **Concept** | **Definition** |

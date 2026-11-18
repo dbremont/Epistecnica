@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Procter, A Text-Book of Tanning (1885) — the hides' chemistry the harness used](/view.html?p=documents/books/procter-1885-textbook-of-tanning.md)

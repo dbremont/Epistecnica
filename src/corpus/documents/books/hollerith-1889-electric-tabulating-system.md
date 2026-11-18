@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — An electric tabulating system (1889)](https://archive.org/details/101772027.nlm.nih.gov)
 - [Babbage, A Letter to Sir Humphry Davy (1822) — the calculating engine's lineage](/view.html?p=documents/books/babbage-1822-letter-humphry-davy.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

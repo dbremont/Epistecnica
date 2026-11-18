@@ -182,7 +182,7 @@ que totaliza, engloba o abarca una serie de partes individuales (hechos,  ideas,
 > A variable is a characteristic, property, or quantity that can take on different values in statistics. Variables collect and describe data in various studies, experiments, and analyses.
 > 
 
-> See more in [Variable](/view.html?p=notes/epistemica/epistemic/theory/variable.md).
+> See more in [Variable](/view.html?p=notes/epistemica/epistemic/variable.md).
 > 
 
 ### Latent Variable

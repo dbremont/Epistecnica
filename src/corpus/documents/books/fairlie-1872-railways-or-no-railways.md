@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Railways or no railways (1872)](https://archive.org/details/railwaysornorai00fairgoog)
 - [Smiles, The Life of George Stephenson (1859) — the standard gauge's own history](/view.html?p=documents/books/smiles-1859-life-george-stephenson.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

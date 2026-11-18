@@ -26,4 +26,4 @@ qa:
 
 - [Bourne, A Treatise on the Screw Propeller (1852) — the propeller described in practice](/view.html?p=documents/books/bourne-1852-screw-propeller.md)
 - [Barnaby, Marine Propellers (1891) — the propeller theory it made possible](/view.html?p=documents/books/barnaby-1891-marine-propellers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Cours de chimie (1828)](https://archive.org/details/b33093118_0001)
 - [Dumas, Traité de chimie appliquée aux arts (1848) — the applied treatise](/view.html?p=documents/books/dumas-1848-traite-chimie-appliquee-aux-arts.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

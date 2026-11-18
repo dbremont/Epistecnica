@@ -467,7 +467,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/discipline/geotechnical-engineering.md",
+  "note": "miscellanea/discipline/geotechnical-engineering.md",
   "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Retaining Wall",
   "desc": "A structure that holds a soil mass at a different elevation on its two faces. Its constitution includes a natural element — the retained soil — which is why it is typed as an object of the geotechnical site, not of a factory."
  },
@@ -479,7 +479,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/discipline/geotechnical-engineering.md",
+  "note": "miscellanea/discipline/geotechnical-engineering.md",
   "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Embankment",
   "desc": "A raised earth structure carrying a road, rail line or water — compacted fill whose stability is a slope-stability, not a strength-of-material, question."
  },
@@ -491,7 +491,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Intermediate",
   "hs": "6810.99",
-  "note": "technica/discipline/geotechnical-engineering.md",
+  "note": "miscellanea/discipline/geotechnical-engineering.md",
   "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Foundation",
   "desc": "The deep or shallow element that transfers a structure's load into the ground — a facility in the guide's sense, since it merely holds what it carries."
  },
@@ -503,7 +503,7 @@
   "guide": "Production Technical Object",
   "good": "Public, Durable, Capital, Final",
   "hs": "6810.99",
-  "note": "technica/discipline/geotechnical-engineering.md",
+  "note": "miscellanea/discipline/geotechnical-engineering.md",
   "atlas": "Technical Element → Technical Practice → Geotechnical Engineering → Production Technical System → Geotechnical Construction Site → Production Technical Object → Tunnel Lining",
   "desc": "Segmental or cast-in-place support lining an excavated tunnel against the ground it passes through — the structure that makes an opening permanent."
  },

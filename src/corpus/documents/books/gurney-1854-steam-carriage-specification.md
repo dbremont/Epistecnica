@@ -25,5 +25,5 @@ qa:
 ## References
 
 - [Archive.org — Specification of Goldsworthy Gurney (1854)](https://archive.org/details/b30743424)
-- [Gurney's carriage belongs to the steam power the Energia section documents](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [Gurney's carriage belongs to the steam power the Energia section documents](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

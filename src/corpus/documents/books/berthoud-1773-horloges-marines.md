@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Les longitudes par la mesure du temps (1775)](https://archive.org/details/leslongitudespa00unkngoog)
 - [Harrison, The Principles of Mr. Harrison's Time-Keeper (1767) — the English time-keeper](/view.html?p=documents/books/harrison-1767-principles-time-keeper.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

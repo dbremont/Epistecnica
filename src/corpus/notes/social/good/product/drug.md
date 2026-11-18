@@ -64,6 +64,7 @@ Readable secondarily as a `Technical Resource` (an input consumed by formulation
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Kind)` `Constitutive Technical Object` `(→ Instance)` Small-Molecule Drug | A synthetic or natural molecule of low molecular weight — aspirin, metformin, atorvastatin. |
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Kind)` `Constitutive Technical Object` `(→ Instance)` Biological Drug | A protein, antibody or nucleic acid made in a living system — insulin, trastuzumab, an mRNA therapeutic. |
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Kind)` `Constitutive Technical Object` `(→ Instance)` Prodrug | An inactive precursor converted to the active substance in the body — enalapril to enalaprilat, codeine to morphine. |
+| `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Kind)` `Constitutive Technical Object` `(→ Instance)` Antibiotic | An action-defined class of antibacterial drugs — a cross-cutting reading of the kinds above, decomposed in its own note. |
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Has)` `Technical Mechanism` | Grouping: the target-mediated mechanisms through which the substance acts. |
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Has)` `Technical Mechanism` `(→ Instance)` Receptor-Mediated Action | Agonism or antagonism at a receptor — propranolol blocking β-adrenoceptors. |
 | `Technical Element` `(→ Kind)` `Production Technical Object` `(→ Part)` `Constitutive Technical Object` `(→ Instance)` Drug `(→ Has)` `Technical Mechanism` `(→ Instance)` Enzyme Inhibition | Blocking a catalytic site or an allosteric site — statins on HMG-CoA reductase. |
@@ -110,9 +111,10 @@ The concept under evaluation is **Drug**, defined above as *the active principle
 ## Related
 
 - [Fine Chemical](/view.html?p=notes/social/good/product/fine-chemical.md) — the same substance read by its specification rather than its action.
+- [Antibiotic](/view.html?p=notes/social/good/product/antibiotic.md) — the action-defined class that kills or inhibits bacteria.
 - [Pharmaceutical Product](/view.html?p=notes/social/good/product/pharmaceutical-product.md) — the formulated article the drug is delivered in.
 - [Healthcare Product](/view.html?p=notes/social/good/product/healthcare-product.md) — the umbrella over medicines, devices and diagnostics.
-- [Pharmaceutical Pipeline](/view.html?p=notes/technica/general/industry/pharma-pipeline.md) — the regulated system that turns the molecule into a medicine.
+- [Pharmaceutical Pipeline](/view.html?p=notes/technica/production/industry/pharma-pipeline.md) — the regulated system that turns the molecule into a medicine.
 - [Human](/view.html?p=notes/nature/life/organism/human/human.md) — the organism the drug acts on.
 - [Neuron](/view.html?p=notes/nature/life/organism/human/neuron.md) — the cell whose channels, receptors and transporters most drugs target.
 - [Synapse in Nervous System](/view.html?p=notes/nature/life/organism/human/synapse-in-nervous-system.md) — where the receptor and transporter targets sit.

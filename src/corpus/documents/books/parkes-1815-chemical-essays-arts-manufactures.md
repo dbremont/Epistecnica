@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Chemical essays principally relating to the arts (1815 edition)](https://archive.org/details/b28707874)
 - [Ure, A Dictionary of Arts, Manufactures, and Mines (1839) — the dictionary tradition it preceded](/view.html?p=documents/books/ure-1839-dictionary-of-arts-manufactures-and-mines.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

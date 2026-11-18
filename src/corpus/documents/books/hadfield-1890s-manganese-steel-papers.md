@@ -26,4 +26,4 @@ qa:
 
 - [Howe, The Metallurgy of Steel (1890) — the treatise that catalogued the alloys](/view.html?p=documents/books/howe-1890-metallurgy-of-steel.md)
 - [Osmond, Allotropy and metallography papers — the microscopy beside it](/view.html?p=documents/books/osmond-1890s-allotropy-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

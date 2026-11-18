@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Dr. John Gorrie's apparatus (1854 NLM scan)](https://archive.org/details/62420100R.nlm.nih.gov)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

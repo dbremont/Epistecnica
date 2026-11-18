@@ -26,4 +26,4 @@ qa:
 
 - [Kapp, Electric Transmission of Energy (1886) — the transmission frame traction used](/view.html?p=documents/books/kapp-1886-electric-transmission-of-energy.md)
 - [Barry, Railway Appliances (1876) — the railway the motor entered](/view.html?p=documents/books/barry-1876-railway-appliances.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

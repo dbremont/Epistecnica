@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Thermodynamics, heat motors, and refrigerating machines (1889)](https://archive.org/details/thermodynamicshe00woodrich)
 - [Selfe, The Machinery Employed for Artificial Refrigeration and Ice Making (1896) — the plant practice](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

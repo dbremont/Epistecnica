@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Die mechanische Wärmetheorie (1891 printing)](https://archive.org/details/diemechanischew02claugoog)
 - [Joule, Scientific Papers (1884) — the energy the German machinery designer carried](/view.html?p=documents/books/joule-1884-scientific-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

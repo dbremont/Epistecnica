@@ -23,5 +23,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Mahan, A Treatise on Field Fortification (1836) — the American parallel of the same teaching](/view.html?p=documents/books/mahan-1836-field-fortification.md)

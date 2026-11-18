@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — A treatise on chemistry of soap and candles (1856)](https://archive.org/details/treatiseonchemis00morfrich)
 - [Archive.org — a second printing of the same treatise](https://archive.org/details/10305275bsb)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

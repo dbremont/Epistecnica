@@ -26,4 +26,4 @@ qa:
 
 - [Farey, A Treatise on the Steam Engine (1827) — the historical account of the patents and engines](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md)
 - [Pambour, Théorie de la Machine à Vapeur (1839) — the theory the engine then acquired](/view.html?p=documents/books/pambour-1839-theorie-machine-vapeur.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

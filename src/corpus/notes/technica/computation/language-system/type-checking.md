@@ -52,6 +52,20 @@ Here's a table that organizes the list of type-checking algorithms along with a 
 
 This table encapsulates the essence of each type-checking algorithm, highlighting their primary applications and characteristics, which are crucial for language design and compiler implementation.
 
+## Flow Typing and Type Narrowing
+
+> A **flow-sensitive** checker assigns a type to a variable at each program point rather than once for its whole scope. The type at a point is the union of the types the variable can hold along the paths that reach it; when a test discriminates one case, the checker **narrows** the union on the taken branch — and, where it can, on the complement of that branch too.
+
+| Construct | Language | Effect |
+| --- | --- | --- |
+| `my_var.is_a?(String)` | Crystal | narrows `Int32 \| String` to `String` inside the branch; the compiler then permits the `String` methods |
+| `typeof x === "string"`, `x instanceof T` | TypeScript | the type guard narrows the union in the guarded block |
+| Pattern matching on a sum type | Rust, OCaml, Haskell | the structural form of the same narrowing: each arm binds the constructor's payload |
+
+> The consequence is the one that matters for language design: a statically checked language can **feel** dynamic — a variable changes type through its lifetime and the programmer writes no annotations on it — while every operation is still checked before execution. The price is a more complex analysis, because the checker must reason about control flow and reachability, and a widening wherever it cannot prove which branch was taken.
+
+> The two ideas are the same one seen from opposite ends: flow typing is what the *inference* does, narrowing is what the *checker* does with the result.
+
 ## References
 
 - [Static Checking](https://ocw.mit.edu/ans7870/6/6.005/s16/classes/01-static-checking/)
@@ -60,3 +74,4 @@ This table encapsulates the essence of each type-checking algorithm, highlightin
 - [Type Checking / Princetonce](https://www.cs.princeton.edu/courses/archive/fall18/cos326/lec/17-type-checking.pdf)
 - [So you want to write a type checker (2014)](https://news.ycombinator.com/item?id=15583515) ([languagengine.co](http://languagengine.co/))
 - Dunfield, Jana, and Neelakantan R. Krishnaswami. "Complete and easy bidirectional typechecking for higher-rank polymorphism." ACM SIGPLAN Notices 48.9 (2013): 429-442.
+- [A Few Good Ideas in Programming Languages](https://prydt.xyz/blog/a-few-good-ideas-in-pl/) — flow typing and type narrowing set out compactly, with the Crystal and TypeScript examples

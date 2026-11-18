@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Account of the Skerryvore lighthouse (1848)](https://archive.org/details/accountofskerryv1848stev)
 - [Archive.org — Rudimentary treatise on lighthouses (1850)](https://archive.org/details/dli.ministry.22196)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

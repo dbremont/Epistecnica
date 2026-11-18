@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Robinson, Hydraulic Power and Hydraulic Machinery (1887) — the power plant the lifts ran on](/view.html?p=documents/books/robinson-1887-hydraulic-power.md)

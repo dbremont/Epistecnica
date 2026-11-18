@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The science of brickmaking (1897)](https://archive.org/details/dli.ministry.06204)
 - [Dobson, Foundations and Concrete Works (1850) — the masonry and foundation practice](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

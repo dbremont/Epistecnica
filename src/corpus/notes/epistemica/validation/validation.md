@@ -25,10 +25,17 @@ Related: [Evaluation](/view.html?p=notes/epistemica/epistemic/theory/evaluation.
 | Benchmarking and Comparative Evaluation | Compares multiple models against common datasets, reference solutions, or observed systems. Includes model intercomparison, performance ranking, and ensemble evaluation. |
 | Verification, Validation, and Accreditation (VV&A) | Applies a formal framework for establishing the correctness, credibility, and suitability of models for specified purposes. Includes standardized protocols, documentation, and independent assessment. |
 
+### Is reproducibility validation?
+
+> No. Reproducibility is a property of the **record**; validation is a property of the **inference**. A pipeline that reruns and returns the same numbers has been reproduced even if those numbers answer a question the design cannot support — p-values compared across studies as if they were effect sizes, or AIC used to license a causal claim. What validation requires is a **justified link** from theory to design to model to data, stated well enough that a reader can check it; the code being available is a convenience, not a warrant.
+
+> This is why the activities above separate **verification** (was the model implemented as intended?) from validation (does the implementation answer a well-posed question about the world?). A study can be verified and reproducible and still fail validation, and the failure will replicate.
+
 ## References
 
 - Arbuthnot, J. (1710). An argument for divine providence, taken from the constant regularity observ'd in the births of both sexes. *Philosophical Transactions of the Royal Society of London, 27*, 186–190. [https://doi.org/10.1098/rstl.1710.0011](https://doi.org/10.1098/rstl.1710.0011?utm_source=chatgpt.com)
 - https://en.wikipedia.org/wiki/Statistical_model_validation
 - https://tjfisher19.github.io/introStatModeling/model-validation.html
 - https://www.kaggle.com/code/dansbecker/model-validation
-
+- [McElreath, R. (2025). Which Kind of Science Reform](https://elevanth.org/blog/2025/07/09/which-kind-of-science-reform/) — a reproducible pipeline can still be invalid, and why justification is not the same as availability
+- [Underdetermination](/view.html?p=notes/epistemica/epistemic/theory/underdetermination.md) — why passing validation does not select the theory: the rivals may agree on the evidence

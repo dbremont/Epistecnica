@@ -172,7 +172,7 @@ The draft's term list, sorted into what belongs to possibility, what is a neighb
 - Kolmogorov, A. N. (1933). *Grundbegriffe der Wahrscheinlichkeitsrechnung*.
 - Zadeh, L. A. (1978). Fuzzy sets as a basis for a theory of possibility. *Fuzzy Sets and Systems*, 1, 3–28.
 - Dubois, D. & Prade, H. (1988). *Possibility Theory: An Approach to Computerized Processing of Uncertainty*.
-- [Probability](/view.html?p=notes/epistemica/epistemic/discipline/probability.md) — a probability space is a possibility space equipped with an additive measure; possibility is logically prior.
+- [Probability](/view.html?p=notes/miscellanea/discipline/probability.md) — a probability space is a possibility space equipped with an additive measure; possibility is logically prior.
 - [Theory of Probability](/view.html?p=notes/epistemica/observational/probability/theory-of-probability.md) and [Imprecise Probability](/view.html?p=notes/epistemica/observational/probability/imprecise-probability.md) — the measure-theoretic and interval-valued treatments of the weighting layer.
 - [Information](/view.html?p=notes/epistemica/observational/information/information.md) and [Shannon Information Theory](/view.html?p=notes/epistemica/observational/information/shannon-information-theory.md) — information is the reduction of a possibility space.
 - [Shannon Information Content](/view.html?p=notes/epistemica/observational/information/shannon-information-theory.md&toc-item=shannon-information-content) and the [Information Theory Atlas](/corpus/notes/epistemica/observational/information/atlas/atlas.html) — the single-outcome atom and the operational quantities built on it.

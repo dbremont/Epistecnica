@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Euler Archive E226 on the general principles of fluid motion](https://archive.org/details/euler-e226)
 - [Archive.org — the Continuation of the same theory (E227)](https://archive.org/details/euler-e227)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

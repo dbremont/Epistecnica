@@ -14,3 +14,4 @@ tags: [note, nature, substance-matter, matter, unfinished]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Periodic d77885b6b3be4cd993cf3355e7667714.md`
+- [An Essay on the History of the Periodic Table](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-history-of-the-periodic-table.md) — how a classification became a predictive instrument (gaps, predictions, Moseley)

@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Singer 27-2 vibrating shuttle instruction manual (1894)](https://archive.org/details/singer-27-2_202405)
 - [Urquhart, Sewing Machinery (1881) — the fitter's manual beside the owner's](/view.html?p=documents/books/urquhart-1881-sewing-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

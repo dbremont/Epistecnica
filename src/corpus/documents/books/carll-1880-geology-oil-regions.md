@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Geology of the Oil Regions (1880)](https://archive.org/details/geologyofoilregi00carl)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

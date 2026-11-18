@@ -26,4 +26,4 @@ qa:
 
 - [de Laval, Steam-turbine papers — the impulse wheel they developed](/view.html?p=documents/books/de-laval-1880s-steam-turbine-papers.md)
 - [Parsons, The Steam Turbine (Rede Lecture, 1911) — the reaction machine and the stage doctrine](/view.html?p=documents/books/parsons-1911-steam-turbine-rede.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

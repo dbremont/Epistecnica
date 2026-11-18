@@ -26,4 +26,4 @@ qa:
 
 - [Ericsson, caloric-engine reports in the engineering press — the American development](/view.html?p=documents/books/grashof-1875-theoretische-maschinenlehre.md)
 - [Watt, Steam-engine patents — the engine line that displaced it](/view.html?p=documents/books/watt-1769-steam-engine-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

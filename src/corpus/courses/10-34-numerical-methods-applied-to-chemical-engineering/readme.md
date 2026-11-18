@@ -22,4 +22,4 @@ Lecture notes, lecture videos, programming assignments, and exams with solutions
 ## References
 
 - https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/
-- [Chemical Engineering](/view.html?p=notes/epistemica/epistemic/discipline/chemical-engineering.md) — the discipline whose problems the course is organised around
+- [Chemical Engineering](/view.html?p=notes/miscellanea/discipline/chemical-engineering.md) — the discipline whose problems the course is organised around

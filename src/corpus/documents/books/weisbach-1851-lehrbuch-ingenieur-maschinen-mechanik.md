@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Lehrbuch der ingenieur- und maschinen-mechanik (1851)](https://archive.org/details/bub_gb_M0lDAAAAIAAJ)
 - [Rankine, A Manual of Applied Mechanics (1858) — the English teaching beside it](/view.html?p=documents/books/rankine-1858-manual-of-applied-mechanics.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

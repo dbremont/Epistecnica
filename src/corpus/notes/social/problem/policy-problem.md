@@ -16,7 +16,7 @@ tags: [note]
 > [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process,
 > [Problem](/view.html?p=notes/social/problem/problem.md) for the general element (problem as intentional
 > structure), and
-> [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md) for
+> [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) for
 > the coordination failure that keeps recognized problems unanswered.
 
 ## What is a policy problem?
@@ -57,4 +57,4 @@ tags: [note]
 - [Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [Dimension](/view.html?p=notes/social/problem/dimension/domain.md)
-- [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md)
+- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)

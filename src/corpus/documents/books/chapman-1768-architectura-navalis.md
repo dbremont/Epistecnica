@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Architectura navalis mercatoria (1971 facsimile edition)](https://archive.org/details/architecturanava0000fred)
 - [Archive.org — Chapman, Traité de la construction des vaisseaux (1781, French translation of the shipbuilding treatise)](https://archive.org/details/bub_gb_t_AOAAAAYAAJ)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

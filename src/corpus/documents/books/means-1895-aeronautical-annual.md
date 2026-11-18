@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The Aeronautical Annual (1895)](https://archive.org/details/aeronauticalann01meangoog)
 - [Chanute, Progress in Flying Machines (1894) — the synthesis the annual digested](/view.html?p=documents/books/chanute-1894-progress-in-flying-machines.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

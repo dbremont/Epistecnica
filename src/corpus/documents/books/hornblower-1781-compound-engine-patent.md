@@ -26,4 +26,4 @@ qa:
 
 - [Farey, A Treatise on the Steam Engine (1827) — the compound engine discussed in its history](/view.html?p=documents/books/farey-1827-treatise-on-the-steam-engine.md)
 - [Watt, Steam-engine patents — the monopoly the patent met](/view.html?p=documents/books/watt-1769-steam-engine-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

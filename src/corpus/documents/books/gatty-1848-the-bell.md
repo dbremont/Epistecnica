@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Bell: Its Origin, History and Uses (1848)](https://archive.org/details/bellitsoriginhi00gattgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

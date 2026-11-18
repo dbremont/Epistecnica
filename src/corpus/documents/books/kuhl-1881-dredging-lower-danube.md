@@ -23,5 +23,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Stevenson, D., Canal and River Engineering (1872) — the river regulation the dredges served](/view.html?p=documents/books/stevenson-d-1872-canal-and-river-engineering.md)

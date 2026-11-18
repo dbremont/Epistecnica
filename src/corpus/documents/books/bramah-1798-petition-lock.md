@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The petition and case of Joseph Bramah (1798)](https://archive.org/details/bim_eighteenth-century_the-petition-and-case_bramah-joseph_1798)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

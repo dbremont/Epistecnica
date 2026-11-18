@@ -31,5 +31,5 @@ The terminus is the other thing to note. Like the set it condenses, the survey s
 
 - [Internet Archive — the scan (lending)](https://archive.org/details/shorthistoryofte0000tkde_g1l8)
 - [Singer, Holmyard, Hall & Williams (1954–1958). *A history of technology*](/view.html?p=documents/books/singer-holmyard-hall-1954-history-of-technology-oxford.md) — the five-volume work this condenses
-- [A Guide to the Study of the History of Technology](/view.html?p=notes/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — the field guide that cites it
-- [Historical Technical Library](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md) — the primary works behind the narrative
+- [A Guide to the Study of the History of Technology](/view.html?p=notes/miscellanea/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — the field guide that cites it
+- [Historical Technical Library](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md) — the primary works behind the narrative

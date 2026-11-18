@@ -14,7 +14,7 @@
   },
   {
    "from": "epistemica/",
-   "to": "epistemica/epistemic/discipline/",
+   "to": "miscellanea/discipline/",
    "label": "Discipline",
    "kind": "hierarchy"
   },

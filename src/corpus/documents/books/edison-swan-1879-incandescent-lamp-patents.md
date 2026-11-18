@@ -26,4 +26,4 @@ qa:
 
 - [Gordon, A Practical Treatise on Electric Lighting (1884) — the installation practice the lamp created](/view.html?p=documents/books/gordon-1884-electric-lighting.md)
 - [Atkinson, The Elements of Electric Lighting (1888) — the trade teaching](/view.html?p=documents/books/atkinson-1888-elements-electric-lighting.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

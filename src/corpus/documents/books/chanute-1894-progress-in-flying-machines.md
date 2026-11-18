@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Progress in flying machines (1894)](https://archive.org/details/progressinflying0000chan)
 - [Lilienthal, Der Vogelflug als Grundlage der Fliegekunst (1889) — the experiments Chanute weighed](/view.html?p=documents/books/lilienthal-1889-vogelflug-als-grundlage.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

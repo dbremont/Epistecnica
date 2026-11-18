@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — An account of the Bell Rock light-house (1824)](https://archive.org/details/stevensonbell1824stev)
 - [Archive.org — the modern reprinting](https://archive.org/details/accountofbellroc0000stev)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

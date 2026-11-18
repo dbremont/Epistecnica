@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A general formula for the uniform flow of water (1889 translation)](https://archive.org/details/generalformulafo00ganquoft)
 - [Darcy & Bazin, Recherches hydrauliques (1865) — the coefficients the formula organized](/view.html?p=documents/books/darcy-bazin-1865-recherches-hydrauliques.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

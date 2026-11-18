@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Études sur le vin (1873 edition)](https://archive.org/details/tudessurlevinse01pastgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

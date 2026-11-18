@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Report on the revision of the U.S. Pharmacopoeia (1880)](https://archive.org/details/reportonrevisio00amergoog)
 - [Wood, The United States Pharmacopoeia and the American Medical Association (1877) — the argument before revision](/view.html?p=documents/books/wood-1877-united-states-pharmacopoeia.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

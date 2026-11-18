@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The scientific papers of Sir Charles Wheatstone (1879)](https://archive.org/details/scientificpaper00londgoog)
 - [Prescott, Electricity and the Electric Telegraph (1877) — the system his instruments served](/view.html?p=documents/books/prescott-1877-electricity-electric-telegraph.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -23,5 +23,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Harrison, Remington Type-Writer Manual (1890) — the machine the catalogue offered](/view.html?p=documents/books/harrison-1890-remington-type-writer-manual.md)

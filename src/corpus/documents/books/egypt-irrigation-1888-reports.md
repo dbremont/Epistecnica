@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Reports upon the administration of the irrigation services in Egypt (1888)](https://archive.org/details/reportsuponadmi00deptgoog)
 - [Barois, Irrigation in Egypt (1889) — the technical account beside the reports](/view.html?p=documents/books/barois-1889-irrigation-in-egypt.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

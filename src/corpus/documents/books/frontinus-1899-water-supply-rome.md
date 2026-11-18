@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The two books on the water supply of the city of Rome (1899)](https://archive.org/details/twobooksonwater00frongoog)
 - [Vitruvius, The Architecture in Ten Books (Gwilt trans.) — the classical technical companion](/view.html?p=documents/books/vitruvius-1826-architecture-gwilt.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

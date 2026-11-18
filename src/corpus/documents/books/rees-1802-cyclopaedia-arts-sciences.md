@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The cyclopaedia; or, universal dictionary (a scanned volume)](https://archive.org/details/cyclopaediaoruni03rees)
 - [Diderot & d Alembert, Recueil de planches (1762–72) — the French encyclopedia beside it](/view.html?p=documents/books/diderot-1772-encyclopedie-planches.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

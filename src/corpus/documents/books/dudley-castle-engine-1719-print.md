@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The steam engine near Dudley Castle (1719)](https://archive.org/details/steamengine00ewcomen)
 - [Savery, The Miner's Friend (1702) — the pump engine before the cylinder](/view.html?p=documents/books/savery-1702-miners-friend.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

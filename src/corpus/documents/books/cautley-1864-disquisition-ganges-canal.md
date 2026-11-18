@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Ganges canal: a disquisition on the heads of the Ganges or Jumna canals (1864)](https://archive.org/details/gangescanal00cautgoog)
 - [Cautley, Report on the Ganges Canal Works (1860) — the works described](/view.html?p=documents/books/cautley-1860-report-ganges-canal-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

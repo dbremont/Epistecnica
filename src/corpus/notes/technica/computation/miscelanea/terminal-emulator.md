@@ -70,6 +70,8 @@ Without a terminal abstraction, each interactive application would need to:
 | **Sakura** | A lightweight terminal emulator based on GTK and VTE. It aims to be simple, with few dependencies and a clean interface, providing basic features like tabs. |  |
 | **Cool Retro Term** | A terminal emulator that mimics the look and feel of old CRT monitors, providing a retro experience with a variety of effects and themes. |  |
 
+> The adjacent category is the **multiplexer**, which is not an emulator: it owns pseudo-terminals and sessions and survives the terminal that started it — see [Terminal Multiplexer](/view.html?p=notes/technica/computation/miscelanea/terminal-multiplexer.md).
+
 ## QA
 
 ### How does it related with a TTY?

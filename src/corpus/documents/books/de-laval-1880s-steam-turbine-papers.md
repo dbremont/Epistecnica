@@ -26,4 +26,4 @@ qa:
 
 - [Parsons, The Steam Turbine (Rede Lecture, 1911) — the reaction machine beside the impulse wheel](/view.html?p=documents/books/parsons-1911-steam-turbine-rede.md)
 - [Rateau and Curtis, Steam-turbine patents — the multi-stage and velocity-compounded line](/view.html?p=documents/books/rateau-curtis-1890s-turbine-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

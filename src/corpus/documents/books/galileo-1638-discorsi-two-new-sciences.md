@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Discorsi e dimostrazioni matematiche (1638 Leiden)](https://archive.org/details/discorsiedimostr00gali)
 - [Navier, Resume des Lecons (1826) — the teaching text the beam analysis grew into](/view.html?p=documents/books/navier-1826-resume-des-lecons.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Methodus inveniendi lineas curvas (1744)](https://archive.org/details/methodusinvenie00eulegoog)
 - [Euler Archive — E238, Sur la force des colonnes (1757)](https://archive.org/details/euler-e238)
 - [Hodgkinson, Experimental Researches on the Strength of Pillars (1840) — the pillar tests](/view.html?p=documents/books/hodgkinson-1840-strength-of-pillars.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

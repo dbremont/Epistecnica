@@ -70,5 +70,6 @@ The choice matters. Ore is not a `Mineral`: a mineral is a lattice, whereas an o
 - [Gangue](https://en.wikipedia.org/wiki/Gangue)
 - [Cut-off grade](https://en.wikipedia.org/wiki/Cut-off_grade)
 - [Mineral resource classification](https://en.wikipedia.org/wiki/Mineral_resource_classification)
+- [Mindat](https://www.mindat.org/) — the species database for identifying an ore mineral and its associations
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) (schema and table contract)

@@ -26,4 +26,4 @@ qa:
 
 - [Lawes and Gilbert, The Rothamsted Memoirs — the experimental programme beside it](/view.html?p=documents/books/lawes-gilbert-rothamsted-memoirs.md)
 - [Stöckhardt, Chemical Field Lectures (1853) — the chemistry taught to farmers](/view.html?p=documents/books/stockhardt-1853-chemical-field-lectures-teschemacher.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

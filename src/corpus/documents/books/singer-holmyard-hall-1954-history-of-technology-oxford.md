@@ -51,5 +51,5 @@ Two cautions for anyone following these identifiers. The `B-001-001-77x` numbers
 - [Volume IV — the Industrial Revolution, c. 1750–c. 1850 (1958)](https://archive.org/details/historyoftechnol0004unse_y4d9)
 - [Volume V (1958)](https://archive.org/details/historyoftechnol0005char)
 - [Volume VIII — consolidated indexes (1984)](https://archive.org/details/B-001-001-772)
-- [Historical Technical Library](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md) — the catalogue of the works these volumes narrate
-- [A Guide to the Study of the History of Technology](/view.html?p=notes/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — the field guide that cites this work
+- [Historical Technical Library](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md) — the catalogue of the works these volumes narrate
+- [A Guide to the Study of the History of Technology](/view.html?p=notes/miscellanea/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — the field guide that cites this work

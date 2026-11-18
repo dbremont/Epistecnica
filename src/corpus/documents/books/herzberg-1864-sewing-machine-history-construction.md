@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The sewing machine: its history, construction, and application (1864)](https://archive.org/details/sewingmachineit00herzgoog)
 - [Urquhart, Sewing Machinery (1881) — the later practical manual](/view.html?p=documents/books/urquhart-1881-sewing-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

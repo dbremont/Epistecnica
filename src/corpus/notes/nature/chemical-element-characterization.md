@@ -39,3 +39,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Chemical Element 16cc0f5171ec80819c22dc5852e3fe06.md`
+- [An Essay on the History of the Periodic Table](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-history-of-the-periodic-table.md) — how a classification became a predictive instrument (gaps, predictions, Moseley)

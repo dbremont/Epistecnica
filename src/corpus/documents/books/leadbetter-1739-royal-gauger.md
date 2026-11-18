@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The royal gauger (1750)](https://archive.org/details/royalgauger00leadgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

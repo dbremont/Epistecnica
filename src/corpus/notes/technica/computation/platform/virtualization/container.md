@@ -11,7 +11,8 @@ tags: [note, container]
 
 QA:
 
-- …
+- Is a container a process or an operating system?
+- When a container reports "Linux", whose kernel is running?
 
 ## Virtualization Model
 
@@ -34,6 +35,49 @@ QA:
     - **SELinux/AppArmor**: Mandatory access control (MAC) systems to enforce security policies on containers.
     - **Seccomp**: A Linux kernel feature that filters the system calls a container is allowed to make, limiting the attack surface.
     - **Linux Capabilities**: Containers are often run with a reduced set of capabilities, limiting their ability to perform certain privileged operations.
+
+## Container vs Process
+
+> The question is not rhetorical: a container is a process tree, and the "operating system" it appears to be is a user-space environment mounted around that tree. The image supplies the files; the runtime sets the boundary; the process does the work; the kernel is the host's.
+
+```text
+Docker image
+    ↓
+container runtime
+    ↓
+┌──────────────────────────────┐
+│ Container                    │
+│                              │
+│  filesystem                  │
+│  process namespace           │
+│  network namespace           │
+│  PID namespace               │
+│  mount namespace             │
+│  environment variables       │
+│  resource limits             │
+│                              │
+│       ┌──────────────┐       │
+│       │ application  │       │
+│       │   process    │       │
+│       └──────────────┘       │
+└──────────────────────────────┘
+          ↓
+       Linux kernel
+```
+
+> **The container has no kernel of its own.** When a container "reports Linux", it is the *user-space environment* that is Linux — the distribution's binaries, libraries and configuration files in the image — executing against the **host's** kernel through system calls. The kernel is shared, not copied. That is why a Linux container needs a Linux kernel underneath: on a Linux host it is the host kernel, and on Windows or macOS it is a Linux kernel provided by WSL2 or a virtual machine.
+
+> The process model follows from the same fact. A container is one or more processes in an isolated process tree, with namespaces deciding what each process can see, cgroups deciding what it can consume, and a union mount deciding what it can read and write. The image is read-only; the container's writable layer is where its changes go; the runtime (containerd, CRI-O, runc) is what performs the setup and execs the process.
+
+| | Process | Container | Virtual machine |
+| --- | --- | --- | --- |
+| **Isolation boundary** | None beyond the OS process | Namespaces, cgroups, seccomp, capabilities | Hypervisor and virtual hardware |
+| **Kernel** | Host kernel | Host kernel | Its own guest kernel |
+| **Boot** | A process start | A process start plus boundary setup | A full OS boot |
+| **Density** | Thousands per host | Hundreds per host | Tens per host |
+| **What it runs** | A program | A user-space environment around a program | A complete operating system |
+
+> The distinction that matters in practice: a virtual machine virtualises the *hardware* and runs an operating system; a container virtualises the *environment* and runs a process. The container is lighter because it omits the one thing the VM must have — a kernel.
 
 ## Technologies
 

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Traité de l attaque et de la défense des places (1742 edition)](https://archive.org/details/chepfl-lipr-AXA116)
 - [Muller, The Practical Part of Fortification (1755) — the Woolwich form](/view.html?p=documents/books/muller-1755-practical-fortification.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

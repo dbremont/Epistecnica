@@ -26,4 +26,4 @@ qa:
 
 - [Atkinson, Gas-engine papers — the cycle variations beside it](/view.html?p=documents/books/atkinson-1880s-gas-engine-papers.md)
 - [Grashof, Theoretische Maschinenlehre (1875–) — the machine theory the engine entered](/view.html?p=documents/books/grashof-1875-theoretische-maschinenlehre.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

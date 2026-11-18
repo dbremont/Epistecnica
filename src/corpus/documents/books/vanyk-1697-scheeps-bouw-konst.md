@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — De nederlandsche scheeps-bouw-konst open gestelt (1697)](https://archive.org/details/gri_33125012921124)
 - [Chapman, Architectura Navalis Mercatoria (1768) — the plate classification the Dutch tradition fed](/view.html?p=documents/books/chapman-1768-architectura-navalis.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

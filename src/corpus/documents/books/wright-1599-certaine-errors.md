@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Certaine errors in navigation (1599)](https://archive.org/details/certaineerrorsin00wrig)
 - [Frome, Outline of the Method of Conducting a Trigonometrical Survey (1873) — the survey of the projection system](/view.html?p=documents/books/frome-1873-trigonometrical-survey.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

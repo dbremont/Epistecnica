@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Traité du mouvement des eaux (1700 printing)](https://archive.org/details/traiteydumouvem00mari)
 - [Galileo, Discorsi (1638) — the beam analysis Mariotte corrected](/view.html?p=documents/books/galileo-1638-discorsi-two-new-sciences.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

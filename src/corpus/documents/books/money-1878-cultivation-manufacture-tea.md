@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The cultivation and manufacture of tea (1878)](https://archive.org/details/cultivationandm00monegoog)
 - [Marah, An Essay on the Cultivation and Manufacture of Coffee (1849) — the plantation companion](/view.html?p=documents/books/marah-1849-coffee-cultivation-manufacture.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

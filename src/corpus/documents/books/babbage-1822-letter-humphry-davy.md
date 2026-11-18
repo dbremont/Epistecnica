@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A letter to Sir Humphry Davy (1822)](https://archive.org/details/TO0E039268_TO0324_PNI-1546_000000)
 - [Babbage, Passages from the Life of a Philosopher (1864) — the engine's later career](/view.html?p=documents/books/babbage-1864-passages-from-the-life.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

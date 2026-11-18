@@ -238,6 +238,8 @@ The guide's default for a multi-typed instance is multi-root decomposition, one 
 
 ## References
 
+- [x-transformers — GitHub](https://github.com/lucidrains/x-transformers) — a concise full-attention transformer that carries the experimental variants (attention, positional encoding, routing) one flag at a time; the reference implementation for the architecture's family of modifications
+
 - Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008. https://arxiv.org/abs/1706.03762
 - [Attention Is All You Need — NeurIPS proceedings](https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 - Bahdanau, D., Cho, K., & Bengio, Y. (2015). Neural machine translation by jointly learning to align and translate. *International Conference on Learning Representations*. https://arxiv.org/abs/1409.0473

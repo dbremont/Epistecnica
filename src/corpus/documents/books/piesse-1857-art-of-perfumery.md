@@ -27,4 +27,4 @@ qa:
 - [Archive.org — The art of perfumery (1855 printing)](https://archive.org/details/india.history.resource.93849)
 - [Archive.org — (1857, Google copy)](https://archive.org/details/bub_gb_q2gDAAAAQAAJ)
 - [Project Gutenberg — the transcription](https://archive.org/details/theartofperfumer16378gut)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

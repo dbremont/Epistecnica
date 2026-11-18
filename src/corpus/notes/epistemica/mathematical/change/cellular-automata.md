@@ -146,6 +146,20 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 | **Crystal Growth Simulation** | 2D Moore or hexagonal | Solidification | Dendritic or compact growth fronts | Materials engineering |
 | **3D Life-Like Automata** | 3D Moore (r = 1) | Volumetric pattern emergence | Cloud-like, expanding geometries | Theoretical modeling, 3D data growth |
 
+### Guns and gliders
+
+> The Game of Life's most consequential structures are not the oscillators but the **travelling ones**. A **glider** is a pattern that reproduces itself displaced by one cell diagonally every four generations — information moving across the grid without a wire. A **gun** is a stationary pattern that emits a glider periodically: Bill Gosper's **glider gun** (1970), the first known finite configuration with unbounded growth, is the canonical case.
+
+> The pair is the reason Life is computationally interesting rather than merely pretty. Gliders are the **signals** and guns are the **clock**: place two streams so that they collide at a chosen point, and the collision computes a logic gate; build enough gates and the automaton simulates an arbitrary machine. This is the same architecture that makes Rule 110 Turing-complete in one dimension — a periodic background, a stable carrier, and a collision site — which is why the gun belongs beside the glider in any account of the automaton's computational power.
+
+| Structure | Motion | Role |
+| --- | --- | --- |
+| **Still life** (block, beehive) | None | Memory: a stored state |
+| **Oscillator** (blinker, pulsar) | Periodic, stationary | Clock: a time reference |
+| **Glider** | Translates one cell diagonally per four steps | Signal: information in transit |
+| **Gun** | Stationary, emits gliders on a period | Source: a clocked signal generator |
+| **Eater** | Stationary, absorbs gliders | Sink: a signal terminator |
+
 ## Related Concepts
 
 | **Category** | **Idea** | **Description & Relation to Cellular Automata (CA)** |
@@ -222,3 +236,4 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - Kari, J. (2005). Theory of cellular automata: A survey. *Theoretical Computer Science*, 334(1–3), 3–33. [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S030439750500054X)
 - http://bactra.org/notebooks/cellular-automata.html
 - [Subshift of Finite Type](/view.html?p=notes/epistemica/mathematical/change/subshift-of-finite-type.md)
+- [Gun (cellular automaton) — Wikipedia](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) — the periodic emitter, and Gosper's glider gun as the canonical instance

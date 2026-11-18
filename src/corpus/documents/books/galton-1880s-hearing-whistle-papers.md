@@ -26,4 +26,4 @@ qa:
 
 - [Koenig, Quelques Expériences d'Acoustique (1882) — the acoustic laboratory beside it](/view.html?p=documents/books/koenig-1882-quelques-experiences.md)
 - [Tyndall, Sound (1867) — the lecture course that reported the hearing experiments](/view.html?p=documents/books/tyndall-1867-sound-eight-lectures.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

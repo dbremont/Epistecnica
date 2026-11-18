@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — On the Inhalation of the Vapour of Ether (1847)](https://archive.org/details/oninhalationvap00snowgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

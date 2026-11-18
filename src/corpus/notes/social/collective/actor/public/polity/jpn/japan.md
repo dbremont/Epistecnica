@@ -37,6 +37,47 @@ How japan master the internal combustion engine?
 | **Panasonic Research & Development** | Corporate R&D | 1918 | Develops consumer electronics and industrial solutions | Panasonic Corporation |
 | **Japan Agency for Medical Research and Development (AMED)** | Research Institute | 2015 | … | … |
 
+## Public Policy Research Actors
+
+> The policy-research field is not one kind of institution. What separates the bodies below is **where they sit** — a degree-granting graduate institute, a ministry-affiliated think tank, a privately endowed policy network, a university centre — and that position decides whether the research is commissioned, contracted, or independent, and who reads it.
+
+### Policy research institutions
+
+| Institution | Type | Relevance to public action research | Website |
+| --- | --- | --- | --- |
+| **National Graduate Institute for Policy Studies (GRIPS)** | Public policy graduate institute and research institution | Policy formulation, public-sector management, governance, and cross-ministerial policy research | [grips.ac.jp](https://www.grips.ac.jp/en/) |
+| **GRIPS Alliance** | Cross-sector policy research platform | Research that connects ministries, policymakers, academia, and the private sector; useful for examining policy coordination | [GRIPS Alliance](https://www.grips.ac.jp/en/about/grips_alliance/) |
+| **Center for Research and Education in Program Evaluation (CREPE), University of Tokyo** | University-based policy evaluation center | Empirical policy evaluation, causal analysis, evidence-based policymaking, and collaboration with implementing agencies | [CREPE](https://www.crepe.e.u-tokyo.ac.jp/en/) |
+| **Research Institute of Economy, Trade and Industry (RIETI)** | Government-affiliated policy think tank | Economic policy design, institutional reform, and evidence-based policy proposals | [RIETI](https://www.rieti.go.jp/en/) |
+| **Nippon Institute for Research Advancement (NIRA)** | Policy think tank and research network | Public-sector reform, central–local relations, institutional arrangements, and policy proposals | [NIRA](https://www.english.nira.or.jp/) |
+| **Economic and Social Research Institute (ESRI)** | Cabinet Office research institute | Macroeconomic analysis and research supporting economic and social policymaking | [ESRI](https://www.esri.cao.go.jp/en/) |
+
+### Administrative research institutes
+
+> The bodies attached to ministries: where the state trains its own administrators and produces the sector statistics, projections and evaluation evidence a policy study reads before it interviews anyone.
+
+| Institution | Primary research or administrative domain | Website |
+| --- | --- | --- |
+| **National Institute of Public Administration** | Public administration research and training — verify the exact institutional identity before treating this English description as an official institute name | [Japanese government institutional directory](https://www.moj.go.jp/housouken/housouken02_00002.html) |
+| **Japan Institute for Labour Policy and Training (JILPT)** | Labor policy, employment systems, and workforce research | [JILPT](https://www.jil.go.jp/english/) |
+| **National Institute of Population and Social Security Research (IPSS)** | Population policy, pensions, social security, and demographic projections | [IPSS](https://www.ipss.go.jp/index-e.asp) |
+| **National Institute for Educational Policy Research (NIER)** | Education policy, educational systems, and evaluation | [NIER](https://www.nier.go.jp/English/) |
+| **Information and Communications Policy Institute** | Information and communications policy research | [Ministry of Internal Affairs and Communications](https://www.soumu.go.jp/english/) |
+| **Competition Policy Research Center (CPRC)** | Competition policy and market regulation | [Japan Fair Trade Commission](https://www.jftc.go.jp/en/) |
+
+### Research centres and academic groups
+
+> The router rather than the institution: where to look for the Japanese-language literature and the individual researchers working on bureaucratic organisation, administrative reform, decentralisation and implementation.
+
+| Institution | Research focus | Website |
+| --- | --- | --- |
+| **CREPE, University of Tokyo** | Program evaluation, causal inference, and evidence-based policymaking | [Website](https://www.crepe.e.u-tokyo.ac.jp/en/) |
+| **GRIPS Policy Research Center** | Contemporary policy research and engagement with policymakers | [Website](https://www.grips.ac.jp/en/) |
+| **GRIPS Center for Science, Technology and Innovation Policy** | Research on the design and governance of science, technology, and innovation policy | [GRIPS research centers](https://www.grips.ac.jp/en/) |
+| **Academic research groups in public administration and public policy** | Bureaucratic organization, administrative reform, decentralization, and implementation | [CiNii Research](https://cir.nii.ac.jp/) |
+
+> The three tables are the **mapping** of the field — who commissions, who produces, where it is published — and the caveat is the usual one: affiliation is not influence. The question worth asking of any body here is which one has a channel into a live decision, not which one publishes most.
+
 ## Japan Debt Riddle
 
 Japan Debt:

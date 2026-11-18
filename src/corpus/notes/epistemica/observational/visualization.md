@@ -35,6 +35,38 @@ tags: [note]
 | Comparative | Overlayed Histograms | Multiple histograms together | Relative distributions | Medium | Medium | Medium | Compare distributions |
 | Comparative | Faceted Plots | Separate panels | Full per-group structure | Low–Medium | High | High | Multi-group comparison |
 
+## The Visualization Pipeline
+
+> Every visualization is a chain of four decisions: **data** (what is captured), **encoding** (which marks and channels carry it), **layout** (where the marks are placed), and **rendering** (how the marks become pixels). The first two are the subject of the tables above; the last two are the stages practitioners actually choose between, and they are independent decisions with different criteria — layout is judged by what the picture *means*, rendering by how many marks it can *carry*.
+
+### Layout Algorithms
+
+> The layout decides the positions, and the choice is a claim about the structure of the data: what should be close, what should be comparable, what should be aligned.
+
+| Family | What it positions | Use | Cost |
+| --- | --- | --- | --- |
+| **Force-directed** (spring/repulsion, Barnes–Hut) | Nodes by minimising spring energy | General networks with no known structure | Iterative; O(n log n) per step with the approximation |
+| **Hierarchical / Sugiyama** | Layers of a directed acyclic graph | Flowcharts, taxonomies, dependency graphs | Cycle removal and layering pass before placement |
+| **Tree** (tidy / Reingold–Tilford) | Rooted hierarchies | File trees, org charts, outlines | Linear |
+| **Spectral** | Eigenvectors of the graph Laplacian | Cluster structure, global shape | O(n³) dense; approximation or Lanczos at scale |
+| **Circular / arc** | Perimeter placement | Small dense graphs, chord diagrams | Linear |
+| **Treemap / partition / packing** | Area-encoded hierarchy | Part-to-whole with many categories | Linear |
+| **Projection** (MDS, t-SNE, UMAP) | Distances between points | High-dimensional data — not graphs | O(n²) or approximation; distances are distorted |
+| **Geographic projection** | Fixed coordinates | Maps | Trivial |
+
+### Rendering Algorithms
+
+> The renderer decides how the placed marks reach the screen, and the choice is a systems decision: the number of marks, the interaction model, and whether the output is a document or a frame.
+
+| Renderer | Model | Strength | Limit |
+| --- | --- | --- | --- |
+| **SVG** | Retained-mode scene graph, one node per mark | Crisp at any zoom, accessible, hit-testing for free | Thousands of marks before the DOM dominates |
+| **Canvas 2D** | Immediate mode, redraw per frame | Tens of thousands of marks | No per-mark DOM; hit-testing implemented by the author |
+| **WebGL / GPU** | Batched geometry, shaders | Millions of marks, animated | Complexity; text layout poor, accessibility indirect |
+| **Server-side raster / tiles** | Precomputed image | Static output, print, map tiles | No interaction |
+
+> The pair is the product. *Force-directed + canvas* is a network exploration tool; *hierarchical + SVG* is a documentation diagram; *treemap + raster* is a print report. Changing the renderer does not change what the layout claims, and changing the layout does not fix a renderer that cannot carry the marks.
+
 ## References
 
 - [Data Visualization](https://app.notion.com/p/Data-Visualization-29cc0f5171ec80fdbe89cd26c26feaac?pvs=21)

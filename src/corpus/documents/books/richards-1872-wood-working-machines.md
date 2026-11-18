@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — A treatise on wood-working machines (1872)](https://archive.org/details/gri_33125000707626)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

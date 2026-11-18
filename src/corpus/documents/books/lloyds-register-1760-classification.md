@@ -26,4 +26,4 @@ qa:
 
 - [Fincham, A History of Naval Architecture (1851) — the construction the Register classed](/view.html?p=documents/books/fincham-1851-history-naval-architecture.md)
 - [Reed, Shipbuilding in Iron and Steel (1869) — the iron hull the rules then covered](/view.html?p=documents/books/reed-1869-shipbuilding-iron-steel.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

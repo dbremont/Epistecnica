@@ -41,4 +41,4 @@ The 1911 *Encyclopædia Britannica* says of him that a lack of clarity affected 
 - [Taylor, B. (1715b). *Linear perspective: Or, a new method of representing justly all manner of objects as they appear to the eye in all situations*. R. Knaplock.](/view.html?p=documents/books/taylor-1715-linear-perspective-knaplock.md) — the treatise the two disciples had to explain
 - [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) — Taylor's theorem in the results table, and the finite Taylor expansion
 - [Integral Operator](/view.html?p=notes/epistemica/mathematical/change/integral-operator.md) — the discrete inverse: the sum as the inverse of the difference, which is what the *Methodus* names
-- [Historical Scientific Literature Review](/view.html?p=notes/unclassified/a-guide-to-historical-scientific-literature.md) — where the works are catalogued
+- [Historical Scientific Literature Review](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-scientific-literature.md) — where the works are catalogued

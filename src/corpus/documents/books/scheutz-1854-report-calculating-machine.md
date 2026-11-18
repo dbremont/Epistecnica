@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Report on the Scheutz calculating machine (1854)](https://archive.org/details/philtrans03776254)
 - [Babbage, A Letter to Sir Humphry Davy (1822) — the principle the Scheutz engine realized](/view.html?p=documents/books/babbage-1822-letter-humphry-davy.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

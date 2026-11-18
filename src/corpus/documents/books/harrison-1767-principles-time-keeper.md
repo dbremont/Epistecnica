@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The principles of Mr. Harrison time-keeper (1767)](https://archive.org/details/principlesmrhar00unkngoog)
 - [Bowditch, The New American Practical Navigator (1802) — the navigation the chronometer brought](/view.html?p=documents/books/bowditch-1802-navigator.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

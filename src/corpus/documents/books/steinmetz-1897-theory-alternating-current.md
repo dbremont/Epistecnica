@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Theory and calculation of alternating current phenomena (1900 printing)](https://archive.org/details/theoryandcalcul03berggoog)
 - [Thompson, Dynamo-Electric Machinery (1884) — the DC machine tradition beside it](/view.html?p=documents/books/thompson-1884-dynamo-electric-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

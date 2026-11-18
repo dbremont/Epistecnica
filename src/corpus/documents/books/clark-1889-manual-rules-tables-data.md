@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Manual of rules, tables, and data (1889)](https://archive.org/details/manualrulestabl00clargoog)
 - [Clark, Railway Machinery (1855) — the author's own railway systematics beside it](/view.html?p=documents/books/clark-1855-railway-machinery.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

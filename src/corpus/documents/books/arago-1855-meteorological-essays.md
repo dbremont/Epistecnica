@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Meteorological essays (1855)](https://archive.org/details/meteorologicale00sabigoog)
 - [Kew Observatory Committee, Report for 1899 — the observatory practice](https://archive.org/details/philtrans04814174)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — L'arte vetraria distinta in libri sette (1663 printing)](https://archive.org/details/bub_gb_8f3bEuDiPHUC)
 - [Pellatt, Curiosities of Glass Making (1849) — the English glass trade that borrowed its recipes](/view.html?p=documents/books/pellatt-1849-curiosities-of-glass-making.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

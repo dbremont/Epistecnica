@@ -35,3 +35,7 @@ tags: [note, nature, substance-matter, matter, physical]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Fluid 10cc0f5171ec809b98d9f7a1b292dba4.md`
+
+## References
+
+- [Lamb, H. (1932). *Hydrodynamics* (6th ed.).](/view.html?p=documents/books/lamb-1932-hydrodynamics-cambridge.md) — the classical treatise: the exact solutions and the derivations this note draws on

@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Opticae thesaurus (1572 Basel, Risner ed.)](https://archive.org/details/bub_gb_V27nL0HJd78C)
 - [Archive.org — the McGill copy of the Risner ed.](https://archive.org/details/McGillLibrary-osl_opticae-thesauru)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

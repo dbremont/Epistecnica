@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Nong zheng quan shu (1909 printing of the 1639 treatise)](https://archive.org/details/nongzhengquanshu18xugu)
 - [Song Yingxing, Tiangong Kaiwu (1637) — the Chinese technical encyclopaedia beside it](/view.html?p=documents/books/song-yingxing-1637-tiangong-kaiwu.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

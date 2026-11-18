@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — La Pression barométrique (1878)](https://archive.org/details/b2808584x)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

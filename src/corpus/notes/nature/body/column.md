@@ -53,5 +53,5 @@ Three regimes follow, and they are the note's real content: a **short** column c
 - Euler, L. (1759). Sur la force des colonnes. *Mémoires de l'Académie des Sciences de Berlin*, 13, 252–282. — the critical load, derived from the elasticity of a bent strut
 - Timoshenko, S. P. (1953). *History of strength of materials*. McGraw-Hill. — the long argument between the strength and stability readings of compression
 - Gordon, J. E. (1978). *Structures: Or why things don't fall down*. Penguin. — why a long column fails at a load it could easily have carried in compression
-- [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the technique that decides whether the configuration holds
+- [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md) — the technique that decides whether the configuration holds
 - [Member](/view.html?p=notes/nature/body/member.md) · [Beam](/view.html?p=notes/nature/body/beam.md) · [Cable](/view.html?p=notes/nature/body/cable.md) · [Structure](/view.html?p=notes/nature/body/structure.md)

@@ -259,5 +259,5 @@ Readable secondarily as an `Interaction Unit` — a bounded entity that negotiat
 - [Eurostat](https://ec.europa.eu/eurostat)
 - [Polity](/view.html?p=notes/social/collective/polity.md)
 - [Belgium](/view.html?p=notes/social/collective/actor/public/polity/bel/belgium.md)
-- [A Guide to Profile a Country](/view.html?p=notes/unclassified/a-guide-to-profile-a-country.md)
+- [A Guide to Profile a Country](/view.html?p=notes/miscellanea/unclassified/a-guide-to-profile-a-country.md)
 - [Technology](/view.html?p=notes/social/structural/technical/technology.md)

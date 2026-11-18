@@ -18,3 +18,5 @@ tags: [note]
 - [Dominican Development Thinking](/view.html?p=notes/social/action/public/informe/an-essay-on-the-dominican-of-a-development-thinking.md)
 - [Case Study: An Analysis of the Dominican Republic's…](/view.html?p=notes/social/action/public/informe/case-study-an-analysis-of-the-dominican-republics.md)
 - [Dominican Macroeconomic Stability](/view.html?p=notes/social/action/public/informe/an-essay-on-dominican-macroeconomics-stability.md)
+- [The Defense Industry as Catalyst of General Technical Progress](/view.html?p=notes/social/action/public/informe/the-defense-industry-as-catalyst-of-general-technical-progress.md)
+- [Cross-Sectoral Technical-Production Synergies: Technical Overlap over the Product Space](/view.html?p=notes/social/action/public/informe/an-essay-on-cross-sectoral-technical-production-synergies.md)

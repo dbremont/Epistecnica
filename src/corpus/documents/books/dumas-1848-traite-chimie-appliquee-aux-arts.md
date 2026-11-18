@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Traité de chimie appliquée aux arts (1848)](https://archive.org/details/A041477)
 - [Gay-Lussac, Cours de chimie (1828) — the course before the treatise](/view.html?p=documents/books/gay-lussac-1828-cours-de-chimie.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

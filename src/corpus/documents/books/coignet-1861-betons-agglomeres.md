@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Betons agglomeres appliques a lart de construire (1861)](https://archive.org/details/bub_gb_KWoUAAAAQAAJ)
 - [Dobson, Foundations and Concrete Works (1850) — the concrete practice beside it](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

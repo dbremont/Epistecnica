@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — "Eclipse" refrigerating machines for cold storage depots (1890)](https://archive.org/details/eclipserefriger00pagoog)
 - [Wood, Thermodynamics, Heat Motors, and Refrigerating Machines (1889) — the cycle the plant used](/view.html?p=documents/books/wood-1889-thermodynamics-refrigerating-machines.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

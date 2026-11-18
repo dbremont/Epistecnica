@@ -59,6 +59,10 @@ Here's a table that outlines some of the essential CUDA libraries provided by NV
 
 These libraries are designed to provide high-performance GPU-accelerated implementations of commonly used algorithms and functions, significantly reducing the time and effort required to develop complex, computationally intensive applications.
 
+## Kernel Case Study: DeepGEMM
+
+> [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) is a GEMM (matrix-multiply) kernel library written for the tensor cores of recent GPUs, specialised for the shapes and precisions an LLM actually uses: FP8 with fine-grained scaling, a JIT that compiles the kernel for the shape it is called with, and a small enough codebase to read. It is the layer below the framework — where the `matmul` in a transformer stops being a call and becomes a scheduling problem over shared memory, registers and pipeline stages.
+
 ## References
 
 - [Parallel Thread Execution](https://en.wikipedia.org/wiki/Parallel_Thread_Execution)

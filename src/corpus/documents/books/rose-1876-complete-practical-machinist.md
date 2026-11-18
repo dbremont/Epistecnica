@@ -27,4 +27,4 @@ qa:
 - [Archive.org — The complete practical machinist (1885 printing)](https://archive.org/details/completepractic01rosegoog)
 - [Archive.org — Modern machine-shop practice (later printing)](https://archive.org/details/modernmachinesho01roseuoft)
 - [Knight, The Mechanician (1879) — the workshop instruction beside it](/view.html?p=documents/books/knight-1879-the-mechanician.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

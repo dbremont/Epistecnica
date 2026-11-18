@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — Photogrammetrie und internationale Wolkenmessung (1896)](https://archive.org/details/11822299bsb)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Recherches hydrauliques (1865)](https://archive.org/details/rechercheshydra00bazigoog)
 - [Darcy, Les Fontaines publiques de la Ville de Dijon (1856) — the first subject](/view.html?p=documents/books/darcy-1856-fontaines-publiques-dijon.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

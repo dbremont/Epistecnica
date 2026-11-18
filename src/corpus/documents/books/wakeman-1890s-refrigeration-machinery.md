@@ -23,5 +23,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Selfe, The Machinery Employed for Artificial Refrigeration (1896) — the machinery paper of the same decade](/view.html?p=documents/books/selfe-1896-machinery-artificial-refrigeration.md)

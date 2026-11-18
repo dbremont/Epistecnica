@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — On the economy of machinery and manufactures (1832)](https://archive.org/details/oneconomyofmachi00babb)
 - [Project Gutenberg — ebook of the same](https://archive.org/details/ontheeconomyofma04238gut)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

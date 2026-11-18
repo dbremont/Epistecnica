@@ -26,4 +26,4 @@ qa:
 
 - [Roberts-Austen, An Introduction to the Study of Metallurgy (1891) — the metallography it entered](/view.html?p=documents/books/roberts-austen-1891-introduction-metallurgy.md)
 - [Howe, The Metallurgy of Steel (1890) — the American treatise beside it](/view.html?p=documents/books/howe-1890-metallurgy-of-steel.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

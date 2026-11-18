@@ -26,4 +26,4 @@ qa:
 
 - [Chladni, Die Akustik (1802) — the experimental acoustics the siren entered](/view.html?p=documents/books/chladni-1802-die-akustik.md)
 - [Koenig, Catalogue des Appareils d'Acoustique (1889) — the maker who built the siren into the laboratory](/view.html?p=documents/books/koenig-1889-catalogue-of-acoustic-instruments.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

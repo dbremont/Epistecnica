@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The rifle, and how to use it (1861.)](https://archive.org/details/rifleandhowtous00buskgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Liebig, Extract of Meat (1872) — the same industrial food chemistry](/view.html?p=documents/books/liebig-1872-extract-of-meat.md)
 - [Payen, Des Substances Alimentaires (1856) — the fat chemistry the product assumed](/view.html?p=documents/books/payen-1856-substances-alimentaires.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

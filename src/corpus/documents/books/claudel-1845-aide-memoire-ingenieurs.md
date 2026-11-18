@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Formules, tables et renseignements usuels (1877 edition)](https://archive.org/details/formulestablese04claugoog)
 - [Navier, Resume des Lecons (1826) — the corps teaching the aide-mémoire summarized](/view.html?p=documents/books/navier-1826-resume-des-lecons.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

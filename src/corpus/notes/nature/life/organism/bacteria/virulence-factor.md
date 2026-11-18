@@ -13,7 +13,7 @@ tags: [note, nature, natural-system, biology, system, unfinished]
 
 ## Related
 
-- [Pathogen](/view.html?p=notes/nature/life/organism/bacteria/pathogen.md)
+- [Pathogen](/view.html?p=notes/nature/life/organism/pathogen.md)
 - [Pathogenesis](/view.html?p=notes/nature/life/organism/bacteria/pathogenesis.md)
 
 ## Provenance

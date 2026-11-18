@@ -23,6 +23,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Carré, Machine à faire le froid (1860–62) — the absorption side of the same patents decade](/view.html?p=documents/books/carre-1860-machine-a-faire-le-froid.md)
 - [Twining, The Fundamental Ice-Making Invention (1870)](/view.html?p=documents/books/twining-1870-fundamental-ice-making-invention.md)

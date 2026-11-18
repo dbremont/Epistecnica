@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Géométrie descriptive (1838)](https://archive.org/details/bub_gb_JXf7u-7KacoC)
 - [Archive.org — the Brisson printing](https://archive.org/details/gometriedescrip00brisgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

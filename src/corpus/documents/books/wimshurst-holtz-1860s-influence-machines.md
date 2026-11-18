@@ -26,4 +26,4 @@ qa:
 
 - [Sturgeon, The Annals of Electricity (1836–43) — the instrument reporting tradition](/view.html?p=documents/books/sturgeon-1836-annals-of-electricity.md)
 - [Noad, A Manual of Electricity (1855) — the apparatus manual they entered](/view.html?p=documents/books/noad-1855-manual-of-electricity.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

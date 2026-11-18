@@ -104,6 +104,10 @@ FreeCAD is organized into **workbenches** (specialized tool sets for different t
 4. **Modify Parameters** (change dimensions, update model).
 5. **Export** (e.g., `.STL` for 3D printing).
 
+## The Browser Case: Chili3D
+
+> [Chili3D](https://github.com/xiangechen/chili3d) is a browser-based parametric and direct-modelling CAD, with the OpenCascade kernel compiled to WebAssembly so that the geometry runs client-side. Read beside FreeCAD it is the deployment question rather than a rival feature list: the same kernel, delivered as a tab instead of an installation — at the price of memory, file-system access, and the throughput the desktop keeps for itself.
+
 ## References
 
 - https://en.wikipedia.org/wiki/Archicad

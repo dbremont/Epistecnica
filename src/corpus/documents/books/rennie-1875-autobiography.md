@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Autobiography of Sir John Rennie (1875)](https://archive.org/details/b33763483)
 - [Smeaton, Reports of the Late John Smeaton (1812–14) — the earlier collected reports](/view.html?p=documents/books/smeaton-1812-reports.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -55,4 +55,4 @@ Provenance: the preprint is `arXiv:2210.00392`, first posted in October 2022 and
 - [Category](/view.html?p=notes/epistemica/mathematical/structure/category.md) — the formal language the argument is built in
 - [(Hardware) Physical Substrate](/view.html?p=notes/technica/computation/platform/hardware-physical-substrate.md) — the instantiation side, read technically
 - [Quantum Computation](/view.html?p=notes/technica/computation/quantum-computation.md) — the development that motivates redefining physical computing
-- [Computer Science](/view.html?p=notes/epistemica/epistemic/discipline/computer-science.md) — the discipline that owns the question
+- [Computer Science](/view.html?p=notes/miscellanea/discipline/computer-science.md) — the discipline that owns the question

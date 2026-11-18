@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Talbot, Some account of the art of photogenic drawing (Phil. Trans., 1839)](https://archive.org/details/philtrans05007731)
 - [Archive.org — (1839, second paper copy)](https://archive.org/details/paper-doi-10_1098_rspl_1837_0051)
 - [The Pencil of Nature — plate digitization (MMA item)](https://archive.org/details/mma_the_pencil_of_nature_267022)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

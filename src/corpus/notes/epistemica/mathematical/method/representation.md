@@ -78,7 +78,7 @@ tags: [note, mathematics, representation, technique]
 |  | **Associated Legendre Function (Pn^m)** | Includes order m | Angular solutions in QM, spherical harmonics |
 |  | **Hypergeometric Function (pFq, 2F1)** | General second-order ODE solution | Special solutions, combinatorics, physics |
 |  | **Confluent Hypergeometric (1F1, U)** | Degenerate 2F1 | Quantum mechanics, differential equations |
-|  | **Lambert W Function** | Solves x e^x = y | Analytical solution of transcendental equations |
+|  | **[Lambert W Function](/view.html?p=notes/epistemica/mathematical/mapping/lambert-w-function.md)** | Solves x e^x = y | Analytical solution of transcendental equations |
 |  | **Airy Function (Ai, Bi)** | Linear potential ODE | Quantum mechanics, diffraction, turning points |
 |  | **Heaviside / Step Function** | 0 → 1 switch | Control theory, piecewise solutions |
 |  | **Dirac Delta Function (δ)** | Infinitely concentrated impulse | Green’s functions, signal processing, PDEs |
@@ -113,6 +113,7 @@ tags: [note, mathematics, representation, technique]
 | Representation | Building blocks |
 | --- | --- |
 | **Taylor representation** | Powers of $x-a$ |
+| **Padé representation** | Ratios $P_m(x)/Q_n(x)$ |
 | [Fourier representation](/view.html?p=notes/epistemica/signal/fourier-series.md) | Sines and cosines |
 | Laurent representation | Positive and negative integer powers |
 | [Power series representation](/view.html?p=notes/epistemica/mathematical/change/power-series.md) | Integer powers of a variable |
@@ -122,6 +123,8 @@ tags: [note, mathematics, representation, technique]
 ### The members
 
 Each representation has its own note, because its blocks bring their own theory. The Taylor representation — powers of $x-a$, with the coefficients fixed by the derivatives at a point — is treated in full at [Taylor Representation](representation/taylor-representation.md): what the conversion buys, why the series is a representation of the *germ* and not always of the function, and why the series and its truncation must be kept apart.
+
+The Padé representation — ratios of polynomials, with the coefficients fixed by matching the Taylor series to a chosen order — is treated at [Padé Representation](representation/pade-representation.md): the same coefficient data read through a linear system instead of a derivative, the poles that the Taylor representation cannot carry, the analytic continuation and resummation that follow, and the spurious poles and non-uniqueness that make it evidence rather than proof.
 
 # Re Representation
 

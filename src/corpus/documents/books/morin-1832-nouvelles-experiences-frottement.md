@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Nouvelles expériences sur le frottement (1832)](https://archive.org/details/nouvellesexprie00morigoog)
 - [Archive.org — the 1834 printing](https://archive.org/details/nouvellesexprie00julegoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

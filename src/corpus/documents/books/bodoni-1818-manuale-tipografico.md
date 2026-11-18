@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Manuale tipografico, vol. 2 (1818)](https://archive.org/details/5873-1)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

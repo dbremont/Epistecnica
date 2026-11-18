@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A treatise on projections (1882)](https://archive.org/details/atreatiseonproj00craigoog)
 - [Euler, Drei Abhandlungen über Kartenprojection (1898) — the eighteenth-century papers](/view.html?p=documents/books/euler-1898-drei-abhandlungen-kartenprojection.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

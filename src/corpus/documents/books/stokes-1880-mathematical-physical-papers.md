@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Mathematical and physical papers (1880)](https://archive.org/details/mathematicaland05raylgoog)
 - [Kirchhoff, Vorlesungen über mathematische Physik: Mechanik (1876) — the German course](/view.html?p=documents/books/kirchhoff-1876-vorlesungen-mechanik.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

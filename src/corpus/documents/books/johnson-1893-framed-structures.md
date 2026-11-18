@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The theory and practice of modern framed structures (1893 microform)](https://archive.org/details/theoryandpracti01turngoog)
 - [Whipple, A Work on Bridge Building (1847) — the founding truss theory it continues](/view.html?p=documents/books/whipple-1847-work-on-bridge-building.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

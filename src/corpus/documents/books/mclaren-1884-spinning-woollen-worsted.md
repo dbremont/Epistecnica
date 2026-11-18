@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Spinning woollen and worsted (1884)](https://archive.org/details/spinningwoollen00mclagoog)
 - [Archive.org — a second printing](https://archive.org/details/spinningwoolenwo00mclauoft)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

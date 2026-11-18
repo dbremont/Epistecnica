@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Pharmacopoeia Londinensis (later edition)](https://archive.org/details/b2152290x)
 - [The British Pharmacopoeia (1864) — the nineteenth-century national formulary](/view.html?p=documents/books/british-pharmacopoeia-1864.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

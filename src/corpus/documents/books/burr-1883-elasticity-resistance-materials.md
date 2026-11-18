@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Archive.org — The elasticity and resistance of the materials of engineering (1883)](https://archive.org/details/elasticityresist00burr)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

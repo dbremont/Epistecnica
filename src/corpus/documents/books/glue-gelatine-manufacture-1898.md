@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The manufacture of glue and gelatine (1898)](https://archive.org/details/cu31924003618372)
 - [Holtzapffel, Turning and Mechanical Manipulation (1843–84) — the workshop joinery the adhesive serves](/view.html?p=documents/books/holtzapffel-1843-turning-and-mechanical-manipulation.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

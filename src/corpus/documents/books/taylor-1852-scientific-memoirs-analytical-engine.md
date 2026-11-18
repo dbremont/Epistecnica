@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Scientific Memoirs, Vol. III (1852)](https://archive.org/details/india.history.resource.52795)
 - [Babbage, Passages from the Life of a Philosopher (1864) — the engine despite It](/view.html?p=documents/books/babbage-1864-passages-from-the-life.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

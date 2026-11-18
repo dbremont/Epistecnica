@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A Work on Bridge Building (1847)](https://archive.org/details/aworkonbridgebu00whipgoog)
 - [Baker, Long-Span Railway Bridges (1873) — the later long-span design science](/view.html?p=documents/books/baker-1873-long-span-railway-bridges.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

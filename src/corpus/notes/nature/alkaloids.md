@@ -40,6 +40,8 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## References
 
+- [Nicotine](/view.html?p=notes/nature/life/molecular/nicotine.md) — the pyridine–pyrrolidine alkaloid, decomposed in full
+- [Scopolamine](/view.html?p=notes/nature/life/molecular/scopolamine.md) — the tropane alkaloid, decomposed in full
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Organic Matter 17dc0f5171ec8065af0cf4e9520cf407.md`

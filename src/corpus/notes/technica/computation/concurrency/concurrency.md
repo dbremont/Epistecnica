@@ -504,6 +504,21 @@ Guiding questions:
 | Topology Coordination | Partition Coordination | Coordinates isolated execution regions | Partition maps + routing | Distributed databases | Hybrid | Static partitioning, Dynamic partitioning |
 | Topology Coordination | Rebalancing Coordination | Redistributes ownership/workload | Migration protocols | Sharded systems | Explicit | Incremental rebalance, Full rebalance |
 
+### Spinlock: the implementation ladder
+
+> The mechanism table names the spinlock and its variants; what it cannot show is that the variants are **four steps of one optimisation**, each removing a specific waste. A measured ladder — four threads incrementing a shared counter under the lock — makes the steps explicit: every row is the same lock, and each removes the cache-line traffic or the synchronised wake-up of the row above.
+
+| Version | Mechanism | 4 threads | Energy (4 threads) | What changed |
+| --- | --- | ---: | ---: | --- |
+| **V1** | `exchange` loop, `seq_cst` | 246 ns | 64.92 J | The naive version: every attempt is a locked read-modify-write, so the losers fight the winner for exclusive ownership of the line |
+| **V2** | `acquire` / `release` ordering | 131 ns | 34.45 J | `unlock` becomes a plain store; a lock only needs acquire on entry and release on exit |
+| **V3** | test-and-test-and-set with `pause` | 120 ns | 30.97 J | The losers spin on a read-only load and pause the core — the line stops being written by waiters |
+| **V4** | exponential backoff | 43 ns | 11.92 J | Waiters stop waking together, so the winner is not immediately collided with |
+
+> The arithmetic behind the numbers is cache coherence. A core must own a line exclusively to write it, so a *failed* `exchange` still steals the line from every other waiter: L1-d misses run from 1.3% at one thread to 61.7% at four, and the success branch — decided by the other cores — is mispredicted roughly one time in eight. Test-and-test-and-set removes the write from the losers, `pause` removes the speculation on it, and backoff removes the synchronised wake-up that survives.
+
+> The operational conclusion is the one worth carrying: `std::mutex` is the right default; a spinlock pays only when the threads are pinned to dedicated cores, the critical section is very short, and the choice is made **after measuring**. For one writer and many readers, a seqlock beats both.
+
 ### Hardware Substrate
 
 > See [Hardware Substrate](/view.html?p=notes/technica/computation/concurrency/hardware-substrate.md).
@@ -831,6 +846,8 @@ Conceptual Model: Coordination
 - [Model of Computation](/view.html?p=notes/technica/computation/language-system/model-of-computation.md)
 - [Distributed Computing](/view.html?p=notes/technica/computation/distributed-computing.md)
 - [**Message Delivery Guarantee**](/view.html?p=notes/technica/computation/distributed-computing/message-delivery-guarantee.md)
+- [Optimizing a Spin-Lock](https://david.alvarezrosa.com/posts/optimizing-a-spin-lock/) — the four-step implementation ladder in the mechanism space, measured
+- [C-Thread-Pool — GitHub](https://github.com/Pithikos/C-Thread-Pool) — the minimal thread-pool instance: fixed workers, a task queue and a condition variable, small enough to read as the mechanism the pool section describes
 - https://en.wikipedia.org/wiki/Cache_coherence
 - https://stackoverflow.com/questions/10989403/how-is-x86-instruction-cache-synchronized
 - https://stackoverflow.com/questions/2368164/how-is-thread-synchronization-implemented-at-the-assembly-language-level

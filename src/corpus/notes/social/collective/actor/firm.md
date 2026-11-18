@@ -6,6 +6,8 @@ tags: [note, firm, organization, collective]
 
 > A **Firm** is a bounded, goal-oriented socio-technical collective that mobilizes and coordinates resources, capabilities, and knowledge to produce and exchange value within an environment. Source: Produceologia `docs/Firm/README.md` (read-only import; the original is untouched).
 
+> Social mechanimsm that organized the used of the technique.
+
 ## Formulation
 
 ### What social element type does this social instance belong to?

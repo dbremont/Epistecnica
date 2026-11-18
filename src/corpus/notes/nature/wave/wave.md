@@ -110,7 +110,7 @@ tags: [note, nature, phenomenon, phenomena, physics]
 - [Onda](https://es.wikipedia.org/wiki/Onda)
 - [Radio Wave](/view.html?p=notes/nature/wave/radio-wave.md)
 - [Wave Equation](/view.html?p=notes/nature/wave/wave-equation.md) · [Oscillation](/view.html?p=notes/nature/wave/oscillation.md)
-- [Acoustics](/view.html?p=notes/epistemica/epistemic/discipline/acoustics.md) — the discipline that works the mechanical case
+- [Acoustics](/view.html?p=notes/miscellanea/discipline/acoustics.md) — the discipline that works the mechanical case
 - [Waveform](https://en.wikipedia.org/wiki/Waveform)
 
 

@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Handbook of metallurgy (1898 English)](https://archive.org/details/handbookmetallu00louigoog)
 - [Archive.org — the second volume](https://archive.org/details/handbookofmetall02schnuoft)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

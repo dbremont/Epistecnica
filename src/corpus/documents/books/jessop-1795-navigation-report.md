@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Report on the proposed line of navigation between Newcastle and Maryport (1795)](https://archive.org/details/bim_eighteenth-century_report-on-the-proposed-l_jessop-william_1795)
 - [Sutcliffe, A Treatise on Canals and Reservoirs (1816) — the canal as a water system](/view.html?p=documents/books/sutcliffe-1816-canals-and-reservoirs.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

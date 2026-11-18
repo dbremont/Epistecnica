@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The construction of a gasoline motor vehicle (1901)](https://archive.org/details/constructionofga00bramrich)
 - [Gurney, Specification of the Steam Carriage Apparatus (1854) — the road vehicle before the petrol engine](/view.html?p=documents/books/gurney-1854-steam-carriage-specification.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -225,4 +225,4 @@ It is distinct from the `Holy Roman Empire` — the Habsburgs held its imperial 
 - Matthijs Tieleman (2021), No Intrigue Is Spared: Anglo-American Intelligence Networks in the Eighteenth-Century Dutch Republic.
 - A museum, a university and spies for Franz II (I) – Economic promotion under Franz II (I)
 - Sámuel Mikoviny
-
+- [Peace of Westphalia](/view.html?p=notes/social/history/westphalia/peace-of-westphalia.md) — the 1648 settlement that fixed the Empire's constitution until 1806

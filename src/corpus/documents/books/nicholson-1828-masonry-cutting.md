@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — A popular and practical treatise on masonry (1828)](https://archive.org/details/apopularandprac00nichgoog)
 - [Archive.org — Practical masonry (1841)](https://archive.org/details/practicalmasonry00nich)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

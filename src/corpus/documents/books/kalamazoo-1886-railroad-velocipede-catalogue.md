@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Kalamazoo Railroad Velocipede Co. catalogue (1886)](https://archive.org/details/cihm_60706)
 - [Overman Wheel Company, Victor Bicycles and Tricycles (1886) — the bicycle trade of the same year](/view.html?p=documents/books/overman-1886-victor-bicycles-tricycles.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

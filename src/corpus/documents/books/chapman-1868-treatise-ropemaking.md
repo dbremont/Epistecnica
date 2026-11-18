@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — A treatise on ropemaking (1868)](https://archive.org/details/gri_33125007990779)
 - [Archive.org — a second printing](https://archive.org/details/treatiseonropema00chap)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — I tre libri dell'arte del vasajo (1857 Rome printing)](https://archive.org/details/itrelibridellart00picc)
 - [Archive.org — a further copy of the 1857 printing](https://archive.org/details/itrelibridellar00minigoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

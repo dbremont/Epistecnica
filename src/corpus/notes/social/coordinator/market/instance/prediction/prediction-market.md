@@ -170,6 +170,12 @@ tags: [note]
 
 > Prediction markets represent an innovative fusion of economic theory, technology, and collective epistemology. Their promise rests on careful market design, rigorous incentive alignment, and transparency in resolution. However, inherent limitations — from behavioral biases and liquidity constraints to regulatory hurdles — necessitate ongoing critical evaluation. A sober understanding of their strengths and weaknesses is essential for effective deployment within broader epistemic and decision-support frameworks.
 
+## The Play-Money Instance
+
+> [Manifold Markets](https://github.com/manifoldmarkets/manifold) is the case that isolates the mechanism from the stake: a prediction market where the currency is play money, so the forecasts are produced by the same aggregation of beliefs without any financial incentive. It is analytically useful for exactly that reason — if the calibration survives without money, the aggregation is doing the work; if it collapses, the stake was.
+
+> The design that keeps such a market alive is also instructive: automated market making provides liquidity on every question, so a market with two traders can still produce a price, and the subsidy is the price of the information.
+
 ## References
 
 - [Prediction Markets](https://news.ycombinator.com/item?id=6489135)

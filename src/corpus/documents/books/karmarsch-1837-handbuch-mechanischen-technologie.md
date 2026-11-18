@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Handbuch der mechanischen Technologie (1875 printing)](https://archive.org/details/handbuchdermech03karmgoog)
 - [Archive.org — a further volume of the same Handbuch](https://archive.org/details/handbuchdermech05karmgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

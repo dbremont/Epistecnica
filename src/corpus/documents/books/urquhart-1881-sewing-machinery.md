@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Sewing machinery (1881)](https://archive.org/details/sewingmachinery00urqugoog)
 - [Herzberg, The Sewing Machine (1864) — the earlier mechanism and history](/view.html?p=documents/books/herzberg-1864-sewing-machine-history-construction.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

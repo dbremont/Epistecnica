@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The mechanical engineer pocket-book (1901 printing)](https://archive.org/details/mechanicalengin04kentgoog)
 - [Hütte, Des Ingenieurs Taschenbuch (1857) — the German reference tradition](/view.html?p=documents/books/hutte-1857-des-ingenieurs-taschenbuch.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

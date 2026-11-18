@@ -23,6 +23,6 @@ A university institute, not a mission laboratory: its product is graduates and p
 
 - [Materials Research Institute — Penn State](https://www.mri.psu.edu/)
 - [MRI — History](https://www.mri.psu.edu/about-mri/history) — the 1908 metallurgy and 1923 ceramic science programmes
-- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/technica/general/materiotecnia/ceramic.md) — the material class
 - [University](/view.html?p=notes/social/collective/actor/university.md) — the host institution
 - [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) — the unit the institute coordinates

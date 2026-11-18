@@ -61,5 +61,5 @@ Its position is unusual for a second reason. Ames is a federal laboratory sittin
 - [Organization](/view.html?p=notes/social/collective/actor/organization.md) — the generic collective/organization type
 - [Research Activity](/view.html?p=notes/social/action/activity/research/research.md) — the activity the actor performs
 - [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) — the material family the critical-materials mission works on
-- [Rare Earth Elements](/view.html?p=notes/technica/general/industry/rare-earth-elements.md) — the technical catalogue of the elements and their separation
+- [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md) — the technical catalogue of the elements and their separation
 - [Ames Research Center](/view.html?p=notes/social/collective/actor/public/catalog/research/usa/ames-research-center.md) — the NASA center that shares the name

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — La chaleur solaire et ses applications industrielles (1869)](https://archive.org/details/lachaleursolair00moucgoog)
 - [Mouchot's solar work in the French engineering press — the later experiments](https://archive.org/details/lachaleursolair00moucgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — A treatise on the silk manufacture (1831)](https://archive.org/details/treatiseonorigin00portiala)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -155,7 +155,7 @@
       "notes": [
         {
           "label": "Logic",
-          "path": "epistemica/epistemic/discipline/logic.md"
+          "path": "miscellanea/discipline/logic.md"
         }
       ],
       "related": [
@@ -1650,7 +1650,7 @@
       "notes": [
         {
           "label": "Harmonic Analysis",
-          "path": "epistemica/epistemic/discipline/harmonic-analysis.md"
+          "path": "miscellanea/discipline/harmonic-analysis.md"
         },
         {
           "label": "Fourier Series",
@@ -1705,7 +1705,7 @@
       "notes": [
         {
           "label": "Probability",
-          "path": "epistemica/epistemic/discipline/probability.md"
+          "path": "miscellanea/discipline/probability.md"
         },
         {
           "label": "Probability Density Function",
@@ -1756,7 +1756,7 @@
       "notes": [
         {
           "label": "Statistics",
-          "path": "epistemica/epistemic/discipline/statistics.md"
+          "path": "miscellanea/discipline/statistics.md"
         },
         {
           "label": "Statistical Hypothesis Testing",
@@ -1997,7 +1997,7 @@
       "notes": [
         {
           "label": "Computer Science",
-          "path": "epistemica/epistemic/discipline/computer-science.md"
+          "path": "miscellanea/discipline/computer-science.md"
         }
       ],
       "related": [

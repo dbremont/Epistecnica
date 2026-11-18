@@ -27,4 +27,4 @@ qa:
 - [Archive.org — The theory of the gas engine (1882)](https://archive.org/details/theoryofgasengin00clerrich)
 - [Archive.org — (1882, second copy)](https://archive.org/details/theorygasengine00clergoog)
 - [Archive.org — Clerk, The gas and oil engine (1907, the mature treatise)](https://archive.org/details/gasandoilengine01clergoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

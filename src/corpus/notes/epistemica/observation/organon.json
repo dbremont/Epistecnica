@@ -1,0 +1,838 @@
+{
+  "title": "Organon",
+  "subtitle": "The activities, designs, methods, techniques and instruments by which reality is observed and measured",
+  "version": 1,
+  "updated": "2026-11-18",
+  "types": ["activity", "design", "method", "technique", "instrument", "sensor", "standard", "record", "theory"],
+  "purposes": ["composition", "structure", "separation", "reaction", "trace", "sampling", "biochemical", "imaging", "quantity"],
+  "families": [
+    {
+      "id": "microscopy",
+      "name": "Microscopy",
+      "principle": "Scattering or absorption of light, electrons, or a scanned probe",
+      "observable": "Spatial structure from millimetres to atomic scale",
+      "limit": "Diffraction limit for light; electron optics and probe sharpness beyond it",
+      "note": "notes/nature/microscopy.md"
+    },
+    {
+      "id": "spectroscopy",
+      "name": "Spectroscopy",
+      "principle": "Absorption, emission or scattering of photons as a function of energy or wavelength",
+      "observable": "Composition, bonding, electronic structure",
+      "limit": "Photon range and linewidth; surface sensitivity varies by technique",
+      "note": "notes/nature/spectroscopy.md"
+    },
+    {
+      "id": "separation",
+      "name": "Separation",
+      "principle": "Differential migration or partitioning of components",
+      "observable": "Composition of a mixture",
+      "limit": "Column resolution and detector sensitivity",
+      "note": null
+    },
+    {
+      "id": "mass-analysis",
+      "name": "Mass Analysis",
+      "principle": "Ionisation and mass-to-charge separation",
+      "observable": "Molecular mass and fragmentation",
+      "limit": "Mass resolution and ionisation efficiency",
+      "note": null
+    },
+    {
+      "id": "diffraction",
+      "name": "Diffraction",
+      "principle": "Coherent scattering from a periodic structure",
+      "observable": "Atomic arrangement in crystals",
+      "limit": "Crystal quality and source brightness",
+      "note": null
+    },
+    {
+      "id": "electrochemistry",
+      "name": "Electrochemistry",
+      "principle": "Current-voltage response of an electrode",
+      "observable": "Redox state and ion concentration",
+      "limit": "Electrode kinetics and selectivity",
+      "note": null
+    },
+    {
+      "id": "sensing",
+      "name": "Sensing",
+      "principle": "Transduction of a physical or chemical quantity into a signal",
+      "observable": "Temperature, pressure, force, strain, chemical species",
+      "limit": "Drift, calibration and cross-sensitivity",
+      "note": null
+    },
+    {
+      "id": "remote-observation",
+      "name": "Remote Observation",
+      "principle": "Collection of radiation from a distant source",
+      "observable": "Position, spectrum and flux of a distant object",
+      "limit": "Aperture and detector; the atmosphere for ground-based work",
+      "note": null
+    },
+    {
+      "id": "electrical-measurement",
+      "name": "Electrical Measurement",
+      "principle": "Deflection of a current-carrying conductor in a magnetic field, or the voltage drop across a known resistance",
+      "observable": "Current, voltage, resistance and charge",
+      "limit": "Loading error (burden voltage) on one side, resolution and noise on the other",
+      "note": null
+    }
+  ],
+  "entries": [
+    {
+      "id": "observation",
+      "name": "Observation",
+      "type": "activity",
+      "description": "The registered attention to a system without necessarily intervening: the act that turns a state of the world into a record.",
+      "note": "notes/epistemica/observation.md"
+    },
+    {
+      "id": "measurement",
+      "name": "Measurement",
+      "type": "activity",
+      "description": "The assignment of a value from a defined scale to a property, by a procedure that is stated and repeatable.",
+      "note": "notes/epistemica/quantification/measurement.md"
+    },
+    {
+      "id": "experiment",
+      "name": "Experiment",
+      "type": "activity",
+      "description": "An observation in which a condition is imposed by the observer, so that the effect of that condition can be separated from the rest.",
+      "note": "notes/epistemica/observation/experimental-method.md"
+    },
+    {
+      "id": "sampling",
+      "name": "Sampling",
+      "type": "activity",
+      "description": "The selection of the part of the system that will be observed, and therefore the act that decides what the observation is evidence about.",
+      "note": null
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "type": "activity",
+      "description": "Continuous or repeated observation against an objective, usually with an alarm or a threshold attached.",
+      "note": "notes/technica/computation/system/evaluation/monitoring.md"
+    },
+    {
+      "id": "recording",
+      "name": "Recording",
+      "type": "activity",
+      "description": "The preservation of an observation in a medium that can be re-examined after the event.",
+      "note": null
+    },
+    {
+      "id": "experimental-design",
+      "name": "Experimental Design",
+      "type": "design",
+      "description": "The allocation of conditions to units, fixed before the data are seen, so that the comparison answers the question asked.",
+      "note": "notes/epistemica/observation/experimental-design.md"
+    },
+    {
+      "id": "control-group",
+      "name": "Control Group",
+      "type": "design",
+      "description": "The comparison arm that receives no treatment, so that the treatment effect is separated from time, selection and the measurement itself.",
+      "note": null
+    },
+    {
+      "id": "replication",
+      "name": "Replication",
+      "type": "design",
+      "description": "Independent repetition of the observation, within a study or across studies, which is what converts a single result into a claim about variability.",
+      "note": null
+    },
+    {
+      "id": "blinding",
+      "name": "Blinding",
+      "type": "design",
+      "description": "Withholding the condition assignment from the observer or the subject, so that expectation cannot enter the measurement.",
+      "note": null
+    },
+    {
+      "id": "perturbation",
+      "name": "Perturbation Method",
+      "type": "method",
+      "lane": "perturbation",
+      "description": "The routine that displaces the system from its state and reads the response: the general form of the controlled experiment.",
+      "note": "notes/epistemica/observation/experimental-method.md"
+    },
+    {
+      "id": "stimulation",
+      "name": "Stimulation Method",
+      "type": "method",
+      "lane": "stimulation",
+      "description": "The routine that drives a system with a defined input — electrical, optical, chemical — and measures the evoked output.",
+      "note": null
+    },
+    {
+      "id": "ablation",
+      "name": "Ablation Method",
+      "type": "method",
+      "lane": "ablation",
+      "description": "The routine that removes a component and observes what the system can no longer do, the lesion logic of causal inference.",
+      "note": null
+    },
+    {
+      "id": "recording-method",
+      "name": "Recording Method",
+      "type": "method",
+      "lane": "recording",
+      "description": "The routine that observes without imposing a condition, in order to capture the system's own behaviour.",
+      "note": null
+    },
+    {
+      "id": "imaging-method",
+      "name": "Imaging Method",
+      "type": "method",
+      "lane": "imaging",
+      "description": "The routine that produces a spatially resolved representation of the system rather than a scalar measurement.",
+      "note": null
+    },
+    {
+      "id": "preparation",
+      "name": "Preparation Method",
+      "type": "method",
+      "lane": "preparation",
+      "description": "The routine that makes the system observable — fixation, sectioning, labelling, cleaning, culturing — and therefore the routine that most determines what can be seen.",
+      "note": null
+    },
+    {
+      "id": "optogenetics",
+      "name": "Optogenetics",
+      "type": "method",
+      "lane": "stimulation",
+      "description": "The stimulation routine that makes a cell type responsive to light by expressing an opsin, so that one population can be driven while the others are silent.",
+      "note": "notes/epistemica/observation/optogenetics.md"
+    },
+    {
+      "id": "combustion-analysis",
+      "name": "Combustion Analysis",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "composition",
+      "principle": "Burn the sample and weigh or titrate the products",
+      "observable": "Elemental composition (C, H, N, S)",
+      "limit": "Milligram samples; the products must be separable",
+      "year": 1785,
+      "description": "Lavoisier's method, and the origin of quantitative chemistry: the sample is destroyed, and its composition is read from what it yields.",
+      "note": null
+    },
+    {
+      "id": "gravimetric-analysis",
+      "name": "Gravimetric Analysis",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "composition",
+      "principle": "Precipitate the analyte and weigh it",
+      "observable": "Mass fraction of the analyte",
+      "limit": "Precipitation must be complete and the precipitate pure",
+      "year": 1750,
+      "description": "The reference method of nineteenth-century analytical chemistry: slow, exact, and still the calibration against which instrumental methods are checked.",
+      "note": null
+    },
+    {
+      "id": "titration",
+      "name": "Titration",
+      "type": "technique",
+      "family": "electrochemistry",
+      "purpose": "composition",
+      "principle": "Add a reagent of known concentration until the equivalence point",
+      "observable": "Concentration of the analyte",
+      "limit": "The endpoint must be detectable; the reaction must be stoichiometric",
+      "year": 1795,
+      "description": "Descroizilles' method, and the workhorse of wet chemistry: a known reagent against an unknown sample, with the volume as the measurement.",
+      "note": null
+    },
+    {
+      "id": "elemental-analysis",
+      "name": "Elemental Analysis (CHNS)",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "composition",
+      "principle": "Combust the sample and separate the gases chromatography",
+      "observable": "Mass fractions of C, H, N and S",
+      "limit": "Sample size and matrix interferences",
+      "year": 1830,
+      "description": "Liebig's and Dumas' refinement of combustion analysis into a routine instrument: the elemental composition of almost any organic sample in minutes.",
+      "note": null
+    },
+    {
+      "id": "icp-ms",
+      "name": "ICP-MS",
+      "type": "technique",
+      "family": "mass-analysis",
+      "purpose": "composition",
+      "principle": "Ionise in an inductively coupled plasma and separate by mass-to-charge",
+      "observable": "Trace element concentrations",
+      "limit": "Matrix effects and isobaric interference",
+      "year": 1980,
+      "description": "The technique that made trace-element analysis routine: parts-per-trillion sensitivity across most of the periodic table.",
+      "note": null
+    },
+    {
+      "id": "mass-spectrometry",
+      "name": "Mass Spectrometry",
+      "type": "technique",
+      "family": "mass-analysis",
+      "purpose": "structure",
+      "principle": "Ionise the molecule and measure mass-to-charge",
+      "observable": "Molecular mass and fragmentation pattern",
+      "limit": "Ionisation method decides which molecules are seen",
+      "year": 1912,
+      "description": "Thomson's parabola method, and the technique that turned molecular identity into a measurable quantity — extended by tandem methods into structure determination.",
+      "note": null
+    },
+    {
+      "id": "x-ray-crystallography",
+      "name": "X-ray Crystallography",
+      "type": "technique",
+      "family": "diffraction",
+      "purpose": "structure",
+      "principle": "Diffract X-rays from a crystal and invert the pattern",
+      "observable": "Atomic arrangement in a crystal",
+      "limit": "Requires a crystal; the phase problem must be solved",
+      "year": 1913,
+      "description": "Bragg's method, and the reason the atomic structure of matter is a measured rather than an inferred object — from minerals to proteins.",
+      "note": null
+    },
+    {
+      "id": "infrared-spectroscopy",
+      "name": "Infrared Spectroscopy",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "structure",
+      "principle": "Absorption of infrared photons by molecular vibrations",
+      "observable": "Functional groups and bonding",
+      "limit": "Water interference; overlapping bands in complex mixtures",
+      "year": 1903,
+      "description": "The vibrational fingerprint: which bonds are present, read from the frequencies they absorb.",
+      "note": "notes/nature/infrared-spectroscopy.md"
+    },
+    {
+      "id": "uv-vis-spectroscopy",
+      "name": "UV-Vis Spectroscopy",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "structure",
+      "principle": "Absorption of ultraviolet and visible photons by electronic transitions",
+      "observable": "Electronic transitions; concentration by Beer-Lambert",
+      "limit": "Broad bands; chromophore required",
+      "year": 1940,
+      "description": "The everyday quantitative spectroscopy: a colour is a concentration, and a band position is an electronic structure.",
+      "note": null
+    },
+    {
+      "id": "nmr-spectroscopy",
+      "name": "NMR Spectroscopy",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "structure",
+      "principle": "Resonance of nuclear spins in a magnetic field",
+      "observable": "Chemical environment of specific nuclei",
+      "limit": "Sensitivity; requires a strong magnet",
+      "year": 1946,
+      "description": "Bloch and Purcell's resonance, turned into the structural method of organic chemistry and, later, into imaging.",
+      "note": "notes/nature/nuclear-magnetic-resonance-nmr-spectroscopy.md"
+    },
+    {
+      "id": "arpes",
+      "name": "ARPES",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "structure",
+      "principle": "Photoelectric emission, with angle fixing k-parallel and photon energy tuning k-perpendicular",
+      "observable": "Occupied electronic band structure E(k)",
+      "limit": "Occupied states only; few-angstrom surface depth",
+      "year": 1974,
+      "description": "The direct measurement of the band structure, which made the Fermi surface and the quasiparticle dispersion observable rather than inferred.",
+      "note": "notes/nature/angle-resolved-photoemission-spectroscopy-arpes.md"
+    },
+    {
+      "id": "chromatography",
+      "name": "Chromatography",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "separation",
+      "principle": "Differential partitioning between a mobile and a stationary phase",
+      "observable": "Components of a mixture, separated in time",
+      "limit": "Resolution against run time",
+      "year": 1903,
+      "description": "Tsvet's separation of plant pigments, and the family that made mixture analysis routine.",
+      "note": null
+    },
+    {
+      "id": "gas-chromatography",
+      "name": "Gas Chromatography",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "separation",
+      "principle": "Volatilise the sample and separate in a carrier gas",
+      "observable": "Volatile components",
+      "limit": "The sample must be volatile and thermally stable",
+      "year": 1950,
+      "description": "James and Martin's method, which brought separation to the petrochemical and environmental laboratory.",
+      "note": null
+    },
+    {
+      "id": "hplc",
+      "name": "HPLC",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "separation",
+      "principle": "Pump a liquid mobile phase through a packed column under pressure",
+      "observable": "Non-volatile and thermally labile components",
+      "limit": "Pressure, column life and solvent consumption",
+      "year": 1960,
+      "description": "The high-resolution liquid separation that made pharmaceutical purity and biomolecule analysis practical.",
+      "note": null
+    },
+    {
+      "id": "thin-layer-chromatography",
+      "name": "Thin-Layer Chromatography",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "separation",
+      "principle": "Capillary migration along a coated plate",
+      "observable": "Component pattern by retention factor",
+      "limit": "Qualitative; limited resolution",
+      "year": 1938,
+      "description": "The cheap, fast separation that survived every instrumental revolution because it answers in two minutes whether the reaction worked.",
+      "note": null
+    },
+    {
+      "id": "centrifugation",
+      "name": "Centrifugation",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "separation",
+      "principle": "Separate by density under centrifugal force",
+      "observable": "Fractions by density or sedimentation rate",
+      "limit": "Resolution and sample shear",
+      "year": 1864,
+      "description": "Prandtl's method and the workhorse of biology: the cell is separated into its parts by how fast they sediment.",
+      "note": null
+    },
+    {
+      "id": "calorimetry",
+      "name": "Calorimetry",
+      "type": "technique",
+      "family": "electrochemistry",
+      "purpose": "reaction",
+      "principle": "Measure the heat exchanged in a process",
+      "observable": "Enthalpy of reaction or transition",
+      "limit": "Heat loss; requires a controlled environment",
+      "year": 1780,
+      "description": "Lavoisier and Laplace's ice calorimeter, and the origin of thermochemistry: the heat of a reaction as a measured quantity.",
+      "note": null
+    },
+    {
+      "id": "spectrophotometry",
+      "name": "Spectrophotometry",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "reaction",
+      "principle": "Measure absorption at a fixed wavelength over time",
+      "observable": "Concentration as a function of time",
+      "limit": "Beer-Lambert range; turbidity",
+      "year": 1940,
+      "description": "The kinetic version of UV-Vis: the reaction rate is read from the slope of an absorbance trace.",
+      "note": null
+    },
+    {
+      "id": "ph-monitoring",
+      "name": "pH / Redox Monitoring",
+      "type": "technique",
+      "family": "electrochemistry",
+      "purpose": "reaction",
+      "principle": "Potentiometric response of an electrode",
+      "observable": "Acidity or oxidation state",
+      "limit": "Drift and calibration; narrow linear range",
+      "year": 1906,
+      "description": "The electrode that made the state of a solution a continuous reading, and the ancestor of the modern process sensor.",
+      "note": null
+    },
+    {
+      "id": "cyclic-voltammetry",
+      "name": "Cyclic Voltammetry",
+      "type": "technique",
+      "family": "electrochemistry",
+      "purpose": "trace",
+      "principle": "Sweep the potential and measure the current",
+      "observable": "Redox potentials and reversibility",
+      "limit": "Electrode surface state; capacitive background",
+      "year": 1960,
+      "description": "The electrochemical signature of a species, and the routine first look at any new redox system.",
+      "note": null
+    },
+    {
+      "id": "ion-selective-electrode",
+      "name": "Ion-Selective Electrode",
+      "type": "technique",
+      "family": "electrochemistry",
+      "purpose": "trace",
+      "principle": "A membrane potential that responds to one ion",
+      "observable": "Activity of a specific ion",
+      "limit": "Interference and membrane ageing",
+      "year": 1960,
+      "description": "The sensor that made a single ion measurable in the field, from blood electrolytes to river water.",
+      "note": null
+    },
+    {
+      "id": "fluorescence",
+      "name": "Fluorescence / Luminescence",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "trace",
+      "principle": "Excite and detect the emitted light",
+      "observable": "Presence and concentration of a fluorophore",
+      "limit": "Photobleaching; autofluorescence background",
+      "year": 1852,
+      "description": "Stokes' observation, and the basis of every labelled assay: the detection of a molecule by the light only it emits.",
+      "note": null
+    },
+    {
+      "id": "radiochemical-tracer",
+      "name": "Radiochemical Tracer",
+      "type": "technique",
+      "family": "spectroscopy",
+      "purpose": "trace",
+      "principle": "Follow a radioisotope through a system",
+      "observable": "Pathway and rate of a labelled species",
+      "limit": "Radiation safety; isotope half-life",
+      "year": 1913,
+      "description": "Hevesy's method, and the invention of the tracer: a substance can be followed through a living system by its radioactivity.",
+      "note": null
+    },
+    {
+      "id": "passive-sampling",
+      "name": "Passive Sampling",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "sampling",
+      "principle": "Accumulate the analyte in a sorbent over time",
+      "observable": "Time-integrated concentration",
+      "limit": "Uptake-rate calibration; temperature effects",
+      "year": 1970,
+      "description": "The sampling method that measures exposure rather than a moment: what the environment did to the sampler over weeks.",
+      "note": null
+    },
+    {
+      "id": "soil-water-sampling",
+      "name": "Soil / Water Sampling",
+      "type": "technique",
+      "family": "sensing",
+      "purpose": "sampling",
+      "principle": "Extract a representative portion of a natural matrix",
+      "observable": "Composition of the sampled medium",
+      "limit": "Heterogeneity; the sample is not the field",
+      "year": 1850,
+      "description": "The routine that decides whether every later measurement is about the thing or about the spot.",
+      "note": null
+    },
+    {
+      "id": "immunoassay",
+      "name": "Immunoassay (ELISA)",
+      "type": "technique",
+      "family": "sensing",
+      "purpose": "biochemical",
+      "principle": "Antibody binding, read by an enzymatic or fluorescent label",
+      "observable": "Concentration of a specific biomolecule",
+      "limit": "Cross-reactivity; antibody quality",
+      "year": 1971,
+      "description": "Engvall and Perlmann's method, and the technique that gave biology a specific quantitative assay for almost any molecule.",
+      "note": null
+    },
+    {
+      "id": "enzymatic-assay",
+      "name": "Enzymatic Assay",
+      "type": "technique",
+      "family": "sensing",
+      "purpose": "biochemical",
+      "principle": "Measure the rate at which an enzyme converts its substrate",
+      "observable": "Enzyme activity",
+      "limit": "Substrate saturation; coupled reactions",
+      "year": 1900,
+      "description": "The measurement of biological catalysis, and the reason enzyme kinetics is a quantitative science.",
+      "note": null
+    },
+    {
+      "id": "dna-sequencing",
+      "name": "DNA / RNA Sequencing",
+      "type": "technique",
+      "family": "separation",
+      "purpose": "biochemical",
+      "principle": "Read the order of nucleotides by synthesis or fragmentation",
+      "observable": "Nucleotide sequence",
+      "limit": "Read length against throughput; error rate",
+      "year": 1977,
+      "description": "Sanger and Maxam-Gilbert's method, and the technique that turned the genome into a readable document.",
+      "note": null
+    },
+    {
+      "id": "light-microscopy",
+      "name": "Light Microscopy",
+      "type": "technique",
+      "family": "microscopy",
+      "purpose": "imaging",
+      "principle": "Image with visible light through lenses",
+      "observable": "Structure down to the diffraction limit",
+      "limit": "About 200 nanometres; contrast must be created",
+      "year": 1670,
+      "description": "The instrument that founded biology as an observational science.",
+      "note": "notes/nature/light-microscopy.md"
+    },
+    {
+      "id": "electron-microscopy",
+      "name": "Electron Microscopy",
+      "type": "technique",
+      "family": "microscopy",
+      "purpose": "imaging",
+      "principle": "Image with electron optics",
+      "observable": "Structure at sub-nanometre scale",
+      "limit": "Vacuum; specimen preparation; beam damage",
+      "year": 1931,
+      "description": "Knoll and Ruska's instrument, which broke the diffraction limit of light by changing the wavelength.",
+      "note": "notes/nature/electron-microscopy.md"
+    },
+    {
+      "id": "fluorescence-microscopy",
+      "name": "Fluorescence Microscopy",
+      "type": "technique",
+      "family": "microscopy",
+      "purpose": "imaging",
+      "principle": "Excite fluorophores and image their emission",
+      "observable": "Distribution of labelled molecules",
+      "limit": "Diffraction limit; photobleaching",
+      "year": 1911,
+      "description": "The technique that bought specificity: seeing one molecule among thousands by making only it emit.",
+      "note": "notes/nature/fluorescence-microscopy.md"
+    },
+    {
+      "id": "stm",
+      "name": "Scanning Tunneling Microscopy",
+      "type": "technique",
+      "family": "microscopy",
+      "purpose": "imaging",
+      "principle": "Tunnelling current from a sharp tip",
+      "observable": "Surface topography and electronic density",
+      "limit": "Conducting surfaces; very small field of view",
+      "year": 1981,
+      "description": "Binnig and Rohrer's instrument, and the arrival of atomic-scale surface observation.",
+      "note": "notes/nature/spin-polarized-scanning-tunneling-microscopy-sp-stm.md"
+    },
+    {
+      "id": "telescope-observation",
+      "name": "Telescopic Observation",
+      "type": "technique",
+      "family": "remote-observation",
+      "purpose": "imaging",
+      "principle": "Collect radiation from a distant source with an aperture",
+      "observable": "Position, brightness and spectrum of the source",
+      "limit": "Aperture and detector; the atmosphere",
+      "year": 1609,
+      "description": "Galileo's instrument, and the technique that made the sky an object of measurement rather than of description.",
+      "note": "notes/technica/general/fisicatecnica/electromagnetic/telescope.md"
+    },
+    {
+      "id": "hemispherical-analyser",
+      "name": "Hemispherical Analyser",
+      "type": "instrument",
+      "part_of": "arpes",
+      "description": "The electrostatic energy filter that resolves photoelectron kinetic energy and emission angle — the component that makes ARPES a band-structure measurement.",
+      "note": null
+    },
+    {
+      "id": "chromatographic-column",
+      "name": "Chromatographic Column",
+      "type": "instrument",
+      "part_of": "chromatography",
+      "description": "The stationary phase in a tube: the component whose chemistry decides what separates and how fast.",
+      "note": null
+    },
+    {
+      "id": "mass-analyser",
+      "name": "Mass Analyser",
+      "type": "instrument",
+      "part_of": "mass-spectrometry",
+      "description": "The magnetic, quadrupole or time-of-flight element that separates ions by mass-to-charge.",
+      "note": null
+    },
+    {
+      "id": "scanning-probe-tip",
+      "name": "Scanning Probe Tip",
+      "type": "instrument",
+      "part_of": "stm",
+      "description": "The atomically sharp tip whose tunnelling current is the image; its sharpness is the resolution of the instrument.",
+      "note": null
+    },
+    {
+      "id": "spectrophotometer",
+      "name": "Spectrophotometer",
+      "type": "instrument",
+      "part_of": "spectrophotometry",
+      "description": "The monochromator and detector pair that turns absorbance at a wavelength into a number.",
+      "note": null
+    },
+    {
+      "id": "calorimeter",
+      "name": "Calorimeter",
+      "type": "instrument",
+      "part_of": "calorimetry",
+      "description": "The thermally isolated vessel in which the heat exchanged is measured.",
+      "note": null
+    },
+    {
+      "id": "synchrotron-source",
+      "name": "Synchrotron Light Source",
+      "type": "instrument",
+      "part_of": "arpes",
+      "description": "The tunable, bright photon source that lets ARPES probe different k-perpendicular values and reach the resolution the technique needs.",
+      "note": null
+    },
+    {
+      "id": "biosensor",
+      "name": "Biosensor",
+      "type": "sensor",
+      "description": "A transducer coupled to a biological recognition element, so that a molecule becomes a signal.",
+      "note": "notes/technica/general/biosensor.md"
+    },
+    {
+      "id": "spin-sensor",
+      "name": "Spin-Based Sensor",
+      "type": "sensor",
+      "description": "A sensor that reads a magnetic field through spin-dependent transport or resonance, down to single-spin sensitivity.",
+      "note": "notes/nature/spin-based-sensors.md"
+    },
+    {
+      "id": "glass-electrode",
+      "name": "Glass pH Electrode",
+      "type": "sensor",
+      "part_of": "ph-monitoring",
+      "description": "The membrane electrode whose potential tracks hydrogen-ion activity; the sensor behind every pH reading.",
+      "note": null
+    },
+    {
+      "id": "si-unit",
+      "name": "SI Unit",
+      "type": "standard",
+      "description": "The defined scale a measurement is expressed against; the definitions changed in 2019 from artefacts to constants.",
+      "note": "notes/nature/measurement-units.md"
+    },
+    {
+      "id": "calibration",
+      "name": "Calibration",
+      "type": "standard",
+      "description": "The comparison of an instrument against a reference of known value, and the operation that makes a reading traceable.",
+      "note": "notes/technica/general/metrology.md"
+    },
+    {
+      "id": "traceability",
+      "name": "Traceability",
+      "type": "standard",
+      "description": "The unbroken chain of comparisons that connects a working measurement to a national or international standard.",
+      "note": null
+    },
+    {
+      "id": "dataset",
+      "name": "Dataset",
+      "type": "record",
+      "description": "The structured record of observations that later analysis treats as its input; its schema is part of the observation, not an afterthought.",
+      "note": null
+    },
+    {
+      "id": "spectrum",
+      "name": "Spectrum",
+      "type": "record",
+      "description": "A measured quantity resolved against energy, frequency or wavelength — the record a spectroscopy produces.",
+      "note": null
+    },
+    {
+      "id": "image",
+      "name": "Image",
+      "type": "record",
+      "description": "A spatially resolved record of a signal, whose contrast mechanism is what it actually shows.",
+      "note": null
+    },
+    {
+      "id": "patent-dataset",
+      "name": "Patent Dataset",
+      "type": "record",
+      "description": "The corpus of patent filings treated as an observation record of invention, with the known biases of what is patented rather than invented.",
+      "note": "notes/epistemica/observation/dataset/patent.md"
+    },
+    {
+      "id": "measurement-theory",
+      "name": "Measurement Theory",
+      "type": "theory",
+      "description": "The formal account of what a measurement is: a mapping from a property to a scale, with the conditions under which the mapping is meaningful.",
+      "note": "notes/epistemica/quantification/measurement-theory.md"
+    },
+    {
+      "id": "uncertainty",
+      "name": "Measurement Uncertainty",
+      "type": "theory",
+      "description": "The quantified doubt attached to a value: the statement that makes a measurement a claim rather than a number.",
+      "note": null
+    },
+    {
+      "id": "validity-reliability",
+      "name": "Validity and Reliability",
+      "type": "theory",
+      "description": "The two properties an observation must have — that it measures what it claims to, and that it does so consistently — and which reproducibility alone does not deliver.",
+      "note": "notes/epistemica/validation/validation.md"
+    },
+    {
+      "id": "quantum-measurement",
+      "name": "Quantum Measurement",
+      "type": "theory",
+      "description": "The measurement problem: the interaction between apparatus and system in quantum mechanics, where observation is not a passive read.",
+      "note": "notes/nature/measurement-in-quantum-mechanics.md"
+    },
+    {
+      "id": "quantum-measurement-effects",
+      "name": "Quantum Measurement Effects",
+      "type": "theory",
+      "description": "The observable consequences of measuring a quantum system — back-action, disturbance and the limits they set on simultaneous knowledge.",
+      "note": "notes/nature/quantum-measurement-effects.md"
+    },
+    {
+      "id": "current-measurement",
+      "name": "Current Measurement",
+      "type": "technique",
+      "family": "electrical-measurement",
+      "purpose": "quantity",
+      "principle": "Pass the current through a known resistance or a magnetic field and read the deflection or the voltage",
+      "observable": "Electric current",
+      "limit": "The meter must be inserted in the circuit, so it loads it; burden voltage and range switching set the accuracy",
+      "year": 1820,
+      "description": "Oersted's deflection of a compass needle by a current is the origin: the measuring instrument is a magnetic effect read as a number. The technique divides into direct insertion (ammeter, shunt) and non-invasive sensing (clamp meter, Hall sensor).",
+      "note": "notes/technica/general/fisicatecnica/electromagnetic/ammeter.md"
+    },
+    {
+      "id": "ammeter",
+      "name": "Ammeter",
+      "type": "instrument",
+      "part_of": "current-measurement",
+      "description": "The instrument that measures current by being placed in series with the circuit: a moving-coil movement with a shunt across it, or a digital converter reading the drop across an internal resistor.",
+      "note": "notes/technica/general/fisicatecnica/electromagnetic/ammeter.md"
+    },
+    {
+      "id": "clamp-meter",
+      "name": "Clamp Meter",
+      "type": "instrument",
+      "part_of": "current-measurement",
+      "description": "A current transformer or Hall sensor that measures the field around a conductor without breaking the circuit — the practical instrument for mains work.",
+      "note": null
+    },
+    {
+      "id": "shunt-resistor",
+      "name": "Shunt Resistor",
+      "type": "sensor",
+      "part_of": "current-measurement",
+      "description": "A low, known resistance in the current path whose voltage drop is the measurement; the element that both makes the reading possible and causes the burden voltage.",
+      "note": null
+    }
+  ]
+}

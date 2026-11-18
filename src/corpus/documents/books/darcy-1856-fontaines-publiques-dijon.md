@@ -26,4 +26,4 @@ Henry Darcy (1856). Les Fontaines Publiques de la Ville de Dijon. Paris.
 
 - [Archive.org — Les fontaines publiques de la ville de Dijon (1856)](https://archive.org/details/bub_gb_42EUAAAAQAAJ)
 - [Kirkwood, Report on the Filtration of River Waters (1869) — the municipal filtration science the appendix founded](/view.html?p=documents/books/kirkwood-1869-filtration-of-river-waters.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

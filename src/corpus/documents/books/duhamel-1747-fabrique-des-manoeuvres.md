@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Traité de la fabrique des maneuvres (1747)](https://archive.org/details/traitedelafabriq00duha)
 - [Archive.org — the 1769 second edition](https://archive.org/details/bub_gb_Pg7qA-ebKjgC)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

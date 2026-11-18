@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Helmholtz, On the Sensations of Tone (1863) — the physiology beneath the aesthetics](/view.html?p=documents/books/helmholtz-1863-sensations-of-tone.md)

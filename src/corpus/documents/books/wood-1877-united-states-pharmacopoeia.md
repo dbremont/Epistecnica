@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The United States Pharmacopoeia and the American Medical Association (1877)](https://archive.org/details/9614096.nlm.nih.gov)
 - [American Pharmaceutical Association, Report on the Revision of the U.S. Pharmacopoeia (1880) — the revision that followed](/view.html?p=documents/books/apha-1880-report-revision-usp.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

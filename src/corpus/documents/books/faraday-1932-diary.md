@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Faraday's diary, vol. 1 (1932)](https://archive.org/details/faradaysdiarybei0001fara)
 - [Faraday, Experimental Researches in Electricity (1839) — the published papers](/view.html?p=documents/books/faraday-1839-experimental-researches-electricity.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

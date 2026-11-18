@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Opera geometrica (1644)](https://archive.org/details/operageometrica00torrgoog)
 - [Bernoulli, Hydrodynamica (1738) — the mathematical form the law took](/view.html?p=documents/books/bernoulli-1738-hydrodynamica.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

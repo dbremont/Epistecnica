@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The gentleman and cabinet-maker director (1754)](https://archive.org/details/gri_33125008713980)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

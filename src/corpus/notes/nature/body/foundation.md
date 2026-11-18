@@ -27,7 +27,7 @@ The note's most important statement is about which failure governs. A foundation
 
 ### What is the recursive instance decomposition of this natural instance?
 
-> Boundary: the support body — its families, the quantities of the joint ground-foundation system and the bounds that govern it — not the structure above, not the soil's own classification, and not the design practice, which is [geotechnical engineering](/view.html?p=notes/technica/discipline/geotechnical-engineering.md).
+> Boundary: the support body — its families, the quantities of the joint ground-foundation system and the bounds that govern it — not the structure above, not the soil's own classification, and not the design practice, which is [geotechnical engineering](/view.html?p=notes/miscellanea/discipline/geotechnical-engineering.md).
 >
 > Identity: paths begin at `Ontic Element`, one labelled link per row, types backticked, instances Title Case.
 
@@ -49,5 +49,5 @@ The note's most important statement is about which failure governs. A foundation
 - Terzaghi, K. (1943). *Theoretical soil mechanics*. Wiley. — bearing capacity and settlement as the two governing problems
 - Terzaghi, K., & Peck, R. B. (1948). *Soil mechanics in engineering practice*. Wiley. — the joint ground-foundation system treated as an engineering object
 - [Soil](/view.html?p=notes/nature/matter/geological/soil.md) — the substance that receives the load
-- [Geotechnical Engineering](/view.html?p=notes/technica/discipline/geotechnical-engineering.md) — the practice that designs this support
+- [Geotechnical Engineering](/view.html?p=notes/miscellanea/discipline/geotechnical-engineering.md) — the practice that designs this support
 - [Structure](/view.html?p=notes/nature/body/structure.md) · [Load Path](/view.html?p=notes/nature/property/load-path.md) · [Member](/view.html?p=notes/nature/body/member.md) · [Connection](/view.html?p=notes/nature/body/connection.md)

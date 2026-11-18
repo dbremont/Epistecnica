@@ -33,5 +33,5 @@ The book's context is the 1930s, and its temper is a critique of the machine age
 - [Internet Archive — the scan](https://archive.org/details/in.ernet.dli.2015.49974) — Digital Library of India copy
 - [Singer, Holmyard, Hall & Williams (1954–1958). *A history of technology*](/view.html?p=documents/books/singer-holmyard-hall-1954-history-of-technology-oxford.md) — the collaborative survey written a generation later, and by contrast almost silent on interpretation
 - [Derry & Williams (1960). *A short history of technology*](/view.html?p=documents/books/derry-williams-1960-short-history-of-technology-oxford.md)
-- [A Guide to the Study of the History of Technology](/view.html?p=notes/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — where the interpretive traditions are set against one another
-- [Historical Technical Library](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md) — the works it interprets
+- [A Guide to the Study of the History of Technology](/view.html?p=notes/miscellanea/unclassified/a-guide-to-the-study-of-the-history-of-technology.md) — where the interpretive traditions are set against one another
+- [Historical Technical Library](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md) — the works it interprets

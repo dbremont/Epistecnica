@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Twenty-Three Years Practice (1804)](https://archive.org/details/twentythreeyear00bakegoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Gwilt, An Encyclopaedia of Architecture (1842) — the encyclopaedia that superseded the dictionary](/view.html?p=documents/books/gwilt-1842-encyclopaedia-of-architecture.md)
 - [Cresy, An Encyclopaedia of Civil Engineering (1847) — the companion alphabet](/view.html?p=documents/books/cresy-1847-encyclopaedia-civil-engineering.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

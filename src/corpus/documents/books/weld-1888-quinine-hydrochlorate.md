@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Improvements in the manufacture of hydrochlorate of quinine (1888)](https://archive.org/details/b30735506)
 - [Simpson, Organic Materia Medica (1885) — the alkaloid in the materia medica](/view.html?p=documents/books/simpson-1885-organic-materia-medica.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

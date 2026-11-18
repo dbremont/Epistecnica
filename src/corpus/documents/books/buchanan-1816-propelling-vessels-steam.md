@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A practical treatise on propelling vessels by steam (1816)](https://archive.org/details/10059785bsb)
 - [Bourne, A Treatise on the Screw Propeller (1852) — the later screw-propeller tradition](/view.html?p=documents/books/bourne-1852-screw-propeller.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

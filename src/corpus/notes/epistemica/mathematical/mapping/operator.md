@@ -70,6 +70,8 @@ The `change/` notes named `*-operator.md` — [Derivative Operator](../change/de
 
 ## References
 
+- [Lambert W Function](/view.html?p=notes/epistemica/mathematical/mapping/lambert-w-function.md) — the operator that inverts the product $x e^x$
+
 - [Operator](https://en.wikipedia.org/wiki/Operator_(mathematics))
 - [Operator theory](https://en.wikipedia.org/wiki/Operator_theory)
 - [Bounded operator](https://en.wikipedia.org/wiki/Bounded_operator)

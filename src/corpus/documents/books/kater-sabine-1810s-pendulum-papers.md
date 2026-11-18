@@ -26,4 +26,4 @@ qa:
 
 - [Sabine, Contributions to Terrestrial Magnetism — the surveying programme beside it](/view.html?p=documents/books/sabine-contributions-to-terrestrial-magnetism.md)
 - [Bessel, Gradmessung in Ostpreussen (1838) — the geodetic measurement they fed](/view.html?p=documents/books/bessel-1838-gradmessung-ostpreussen.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

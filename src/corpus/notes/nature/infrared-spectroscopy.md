@@ -39,3 +39,5 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Protein 10cc0f5171ec801baf1edb1f7fadb809.md`
+- [Spectroscopy](/view.html?p=notes/nature/spectroscopy.md) — the family this instance belongs to
+- [Observation Technology and Method Catalog](/corpus/notes/epistemica/observation/organon.html) — the catalogue this technique belongs to

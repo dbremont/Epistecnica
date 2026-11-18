@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Traité de la chaleur (3rd ed. 1844)](https://archive.org/details/traitdelachaleu08pcgoog)
 - [Archive.org — a copy of the same](https://archive.org/details/bub_gb_8CYOAAAAYAAJ)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

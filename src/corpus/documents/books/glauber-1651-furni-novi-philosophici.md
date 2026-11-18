@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Furni novi philosophici (1651)](https://archive.org/details/furninoviphiloso00glau)
 - [Lavoisier, Traite Elementaire de Chimie (1789) — the chemistry the shops inherited](/view.html?p=documents/books/lavoisier-1789-traite-elementaire-de-chimie.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

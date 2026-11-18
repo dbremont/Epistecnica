@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The Jacquard machine analyzed and explained (1887)](https://archive.org/details/jacquardmachinea00poss)
 - [Hollerith, An Electric Tabulating System (1889) — the punched card at the census](/view.html?p=documents/books/hollerith-1889-electric-tabulating-system.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

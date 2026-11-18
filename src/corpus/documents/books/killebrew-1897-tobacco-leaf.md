@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Tobacco leaf: its culture and cure (1897)](https://archive.org/details/tobaccoleafitscu00killiala)
 - [Archive.org — Tobacco. How to cultivate, cure and prepare (1900 companion)](https://archive.org/details/tobaccohowtocult00kill)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

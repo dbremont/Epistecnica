@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Ars vitraria experimentalis (1679)](https://archive.org/details/johanniskunckeli00kunc)
 - [Neri, L'Arte Vetraria — the 1612 original the translation works](/view.html?p=documents/books/neri-1612-arte-vetraria.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

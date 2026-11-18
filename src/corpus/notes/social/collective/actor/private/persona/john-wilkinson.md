@@ -76,4 +76,4 @@ tags: [note, actor, person, engineering, industrial-revolution, iron, machine-to
 - [John Wilkinson](https://en.wikipedia.org/wiki/John_Wilkinson_(industrialist))
 - [Boulton and Watt](https://en.wikipedia.org/wiki/Boulton_and_Watt)
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
-- [Energy Technology](/view.html?p=notes/technica/general/es/multinode/energy-technology.md)
+- [Energy Technology](/view.html?p=notes/technica/general/energy-technology.md)

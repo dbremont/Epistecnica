@@ -26,4 +26,4 @@ qa:
 
 - [Sauveur, Système général des intervalles des sons (1701) — the harmonic foundation](/view.html?p=documents/books/sauveur-1701-systeme-general-intervalles.md)
 - [Helmholtz, On the Sensations of Tone (1863) — the resonance theory that absorbed it](/view.html?p=documents/books/helmholtz-1863-sensations-of-tone.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

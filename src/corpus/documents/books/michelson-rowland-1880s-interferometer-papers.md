@@ -26,4 +26,4 @@ qa:
 
 - [Fraunhofer, Gesammelte Schriften (1888) — the spectral instrument line they extended](/view.html?p=documents/books/fraunhofer-1888-gesammelte-schriften.md)
 - [Dollond and Ramsden, Optical and dividing-engine patents — the engine's ancestry](/view.html?p=documents/books/dollond-ramsden-1750s-optical-patents.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

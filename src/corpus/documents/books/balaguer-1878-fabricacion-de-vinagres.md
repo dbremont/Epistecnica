@@ -24,6 +24,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Archive.org — Balaguer, Las industrias agrícolas (1877)](https://archive.org/details/lasindustriasag00primgoog)
 - [Brannt, A Practical Treatise on the Manufacture of Vinegar (1889) — the English-language companion](/view.html?p=documents/books/brannt-1889-manufacture-of-vinegar.md)

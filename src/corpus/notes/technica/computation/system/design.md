@@ -189,7 +189,7 @@ Fundamental Ideas:
 
 ## Documentation
 
-> 
+> The design decision is argued in a [Design Document](/view.html?p=notes/technica/computation/system/documentation/design-document.md): context and constraints, goals and non-goals, alternatives considered, the proposed design, risks, rollout and open questions — the artefact that turns a design into a decision someone else can disagree with.
 
 ## **Operationalization**
 

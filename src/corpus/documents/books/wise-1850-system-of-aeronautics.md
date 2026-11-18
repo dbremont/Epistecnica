@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A system of aeronautics (1850)](https://archive.org/details/asystemaeronaut00wisegoog)
 - [Archive.org — (1979 reprint)](https://archive.org/details/systemofaeronaut0000wise)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

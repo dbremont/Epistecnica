@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Horseless vehicles (1900)](https://archive.org/details/horselessvehicle00hiscrich)
 - [Bramwell, The Construction of a Gasoline Motor Vehicle (1901) — the petrol trade beside it](/view.html?p=documents/books/bramwell-1901-construction-gasoline-motor-vehicle.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

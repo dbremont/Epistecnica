@@ -55,6 +55,11 @@ tags: [note, intrinsic-technical-problem]
 | Concurrency Coordination Technique Induced Problem | Coordination State Explosion | Synchronization states/interactions become unmanageable. | Verification complexity. |
 | Concurrency Coordination Technique Induced Problem | Heisenbug | Instrumentation/debugging perturbs synchronization behavior. | Difficult reproduction. |
 
+> Two of the pathologies in the table have standard cures worth naming here, because they are the ones a coordination mechanism can be redesigned around. **CAS spin failure** — threads burning CPU retrying a failed atomic operation — is cured by making the *losers stop writing*: **test-and-test-and-set** spins on a read-only load and issues the atomic exchange only when the value looks free, and **exponential backoff** makes the waiters retry at different rates so they stop colliding in lockstep. Together they take a four-thread spinlock from 246 ns to 43 ns and cut the energy drawn by 5.4×, because the cache-line ownership traffic that caused the pathology disappears with it. Where there is one writer and many readers, a **seqlock** removes the contention rather than managing it.
+>
+> The general lesson: a coordination pathology is usually the signature of a **design that makes the losers pay the winner's cost**. Fix the losers' behaviour — their writes, their retry rate, their wake-up — and the pathology goes with it. See [Memory Model](/view.html?p=notes/technica/computation/concurrency/memory-model.md) for the ordering that makes the fix correct, and [Concurrency](/view.html?p=notes/technica/computation/concurrency/concurrency.md) for the mechanism space.
+
 ## References
 
 - https://en.wikipedia.org/wiki/ABA_problem
+- [Optimizing a Spin-Lock](https://david.alvarezrosa.com/posts/optimizing-a-spin-lock/) — the measured cure for CAS spin failure: test-and-test-and-set and exponential backoff, with the cache-miss and energy figures

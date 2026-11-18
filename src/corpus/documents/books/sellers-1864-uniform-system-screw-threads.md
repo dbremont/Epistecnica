@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Whitworth, Miscellaneous Papers on Mechanical Subjects (1858) — the British thread standard it answered](/view.html?p=documents/books/whitworth-1858-miscellaneous-papers.md)

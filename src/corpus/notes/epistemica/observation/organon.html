@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organon — the observation domain</title>
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-void: #04050a;
+    --bg-surface: #0b0d14;
+    --bg-card: #11141d;
+    --text-primary: #e2e4eb;
+    --text-secondary: #8a8fa6;
+    --text-muted: #737891;
+    --accent-gold: #c5a467;
+    --accent-gold-dim: rgba(197,164,103,.14);
+    --accent-cyan: #5bf0e7;
+    --accent-cyan-dim: rgba(91,240,231,.10);
+    --accent-violet: #b48ef0;
+    --accent-violet-dim: rgba(180,142,240,.12);
+    --border-subtle: rgba(255,255,255,.07);
+    --card-bg: rgba(11,13,20,.72);
+    --nav-bg: rgba(4,5,10,.82);
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+  html[data-theme="light"] {
+    --bg-void: #f7f5f0;
+    --bg-surface: #f1eee7;
+    --bg-card: #ffffff;
+    --text-primary: #1a1d24;
+    --text-secondary: #4a4f5e;
+    --text-muted: #7a7f8e;
+    --accent-gold: #8a6d2f;
+    --accent-gold-dim: rgba(138,109,47,.12);
+    --accent-cyan: #0b7f78;
+    --accent-cyan-dim: rgba(11,127,120,.10);
+    --accent-violet: #6a45b5;
+    --accent-violet-dim: rgba(106,69,181,.10);
+    --border-subtle: rgba(20,22,28,.10);
+    --card-bg: rgba(255,255,255,.9);
+    --nav-bg: rgba(247,245,240,.9);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg-void); color: var(--text-primary);
+    font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent-cyan); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem 4rem; }
+
+  header.masthead { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; flex-wrap: wrap; border-bottom: 1px solid var(--border-subtle); padding-bottom: 1.5rem; }
+  .masthead h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.4rem, 5vw, 3.6rem); letter-spacing: .01em; margin: 0; }
+  .masthead h1 em { color: var(--accent-gold); font-style: italic; }
+  .masthead .sub { color: var(--text-secondary); max-width: 46ch; margin: .4rem 0 0; font-size: .95rem; }
+  .stats { text-align: right; color: var(--text-muted); font-size: .78rem; font-family: var(--font-mono); letter-spacing: .04em; text-transform: uppercase; }
+  .stats b { color: var(--accent-gold); font-weight: 500; }
+
+  .controls { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; margin: 1.5rem 0 1rem; }
+  .search { flex: 1 1 260px; display: flex; align-items: center; gap: .5rem; background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: 999px; padding: .5rem .9rem; }
+  .search input { flex: 1; background: none; border: none; outline: none; color: var(--text-primary); font-family: var(--font-body); font-size: .92rem; }
+  .search input::placeholder { color: var(--text-muted); }
+  .search kbd { font-family: var(--font-mono); font-size: .68rem; color: var(--text-muted); border: 1px solid var(--border-subtle); border-radius: 4px; padding: .05rem .3rem; }
+  select, .toggle { background: var(--bg-card); color: var(--text-primary); border: 1px solid var(--border-subtle); border-radius: 999px; padding: .5rem .9rem; font-family: var(--font-body); font-size: .82rem; }
+  .tabs { display: flex; gap: .3rem; border: 1px solid var(--border-subtle); border-radius: 999px; padding: .2rem; background: var(--bg-card); }
+  .tabs button { background: none; border: none; color: var(--text-secondary); padding: .4rem .95rem; border-radius: 999px; font-family: var(--font-body); font-size: .82rem; cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--accent-gold-dim); color: var(--accent-gold); }
+
+  .chiprow { display: flex; gap: .35rem; flex-wrap: wrap; margin: 0 0 .4rem; }
+  .chip { background: none; border: 1px solid var(--border-subtle); color: var(--text-secondary); border-radius: 999px; padding: .25rem .7rem; font-size: .72rem; cursor: pointer; font-family: var(--font-body); letter-spacing: .02em; }
+  .chip[aria-pressed="true"] { border-color: var(--accent-gold); color: var(--accent-gold); background: var(--accent-gold-dim); }
+  .chip .n { opacity: .55; margin-left: .25rem; font-family: var(--font-mono); font-size: .65rem; }
+
+  main { display: grid; grid-template-columns: minmax(0,1fr) 380px; gap: 2rem; align-items: start; margin-top: 1.6rem; }
+  @media (max-width: 980px) { main { grid-template-columns: 1fr; } .panel { position: static !important; } }
+
+  .view { display: none; }
+  .view.active { display: block; }
+
+  .layer { margin-bottom: 1.6rem; }
+  .layer h2 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 400; color: var(--text-primary); margin: 0 0 .15rem; display: flex; align-items: baseline; gap: .6rem; }
+  .layer h2 span { font-family: var(--font-mono); font-size: .66rem; color: var(--text-muted); letter-spacing: .08em; text-transform: uppercase; }
+  .layer p.note { color: var(--text-muted); font-size: .8rem; margin: 0 0 .8rem; max-width: 62ch; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: .6rem; }
+  .card { text-align: left; background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 10px; padding: .7rem .8rem; cursor: pointer; color: var(--text-primary); font-family: var(--font-body); transition: border-color .15s, transform .15s; }
+  .card:hover { border-color: var(--accent-gold); transform: translateY(-1px); }
+  .card.sel { border-color: var(--accent-cyan); background: var(--accent-cyan-dim); }
+  .card b { display: block; font-weight: 500; font-size: .9rem; margin-bottom: .1rem; }
+  .card small { color: var(--text-muted); font-size: .74rem; display: block; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+  table.cat { width: 100%; border-collapse: collapse; font-size: .84rem; }
+  table.cat th { text-align: left; font-weight: 500; color: var(--text-muted); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; padding: .5rem .6rem; border-bottom: 1px solid var(--border-subtle); white-space: nowrap; }
+  table.cat td { padding: .55rem .6rem; border-bottom: 1px solid var(--border-subtle); vertical-align: top; }
+  table.cat tr { cursor: pointer; }
+  table.cat tr:hover td { background: var(--accent-gold-dim); }
+  table.cat tr.sel td { background: var(--accent-cyan-dim); }
+  .fam { color: var(--accent-violet); font-size: .78rem; }
+  .pur { color: var(--text-muted); font-family: var(--font-mono); font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; }
+  .num { font-family: var(--font-mono); font-size: .76rem; color: var(--text-secondary); }
+
+  ul.index { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 2rem; }
+  @media (max-width: 760px) { ul.index { columns: 1; } }
+  ul.index li { break-inside: avoid; border-bottom: 1px solid var(--border-subtle); padding: .45rem .2rem; cursor: pointer; display: flex; gap: .5rem; align-items: baseline; justify-content: space-between; }
+  ul.index li:hover { background: var(--accent-gold-dim); }
+  ul.index li.sel { background: var(--accent-cyan-dim); }
+  .kind { font-family: var(--font-mono); font-size: .62rem; letter-spacing: .06em; text-transform: uppercase; color: var(--text-muted); border: 1px solid var(--border-subtle); border-radius: 4px; padding: .02rem .3rem; white-space: nowrap; }
+
+  aside.panel { position: sticky; top: 1.4rem; background: var(--card-bg); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 1.1rem 1.15rem; min-height: 220px; }
+  .panel .phead { display: flex; align-items: center; gap: .5rem; justify-content: space-between; margin-bottom: .4rem; }
+  .panel h3 { font-family: var(--font-display); font-weight: 400; font-size: 1.6rem; margin: 0; line-height: 1.15; }
+  .panel .meta { color: var(--text-muted); font-size: .74rem; font-family: var(--font-mono); letter-spacing: .04em; text-transform: uppercase; margin: .2rem 0 .9rem; display: flex; gap: .5rem; flex-wrap: wrap; }
+  .panel p { color: var(--text-secondary); font-size: .9rem; margin: 0 0 .8rem; }
+  .panel dl { display: grid; grid-template-columns: 92px 1fr; gap: .35rem .6rem; margin: 0 0 .9rem; font-size: .82rem; }
+  .panel dt { color: var(--text-muted); font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; padding-top: .12rem; }
+  .panel dd { margin: 0; color: var(--text-secondary); }
+  .panel .empty { color: var(--text-muted); font-size: .85rem; font-style: italic; }
+  .panel .link { display: inline-block; margin-top: .3rem; font-size: .82rem; border-top: 1px solid var(--border-subtle); padding-top: .7rem; width: 100%; }
+
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid var(--border-subtle); color: var(--text-muted); font-size: .76rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .err { color: #e0796f; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <div>
+      <h1>Organon <em>— the observation domain</em></h1>
+      <p class="sub">The activities, designs, methods, techniques and instruments by which reality is observed and measured — and the records and theories that make the observation a claim.</p>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="controls">
+    <label class="search"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Search an instrument, a technique, a method…" autocomplete="off"><kbd>/</kbd></label>
+    <div class="tabs" role="tablist">
+      <button role="tab" data-view="stack" aria-selected="true">Stack</button>
+      <button role="tab" data-view="catalogue" aria-selected="false">Catalogue</button>
+      <button role="tab" data-view="index" aria-selected="false">Index</button>
+    </div>
+    <select id="family" aria-label="Filter by family"><option value="">All families</option></select>
+    <select id="purpose" aria-label="Filter by purpose"><option value="">All purposes</option></select>
+    <button class="toggle" id="theme" aria-label="Toggle theme">☾</button>
+  </div>
+
+  <div class="chiprow" id="typeChips"></div>
+
+  <main>
+    <div>
+      <section class="view active" id="view-stack"></section>
+      <section class="view" id="view-catalogue"></section>
+      <section class="view" id="view-index"></section>
+    </div>
+    <aside class="panel" id="panel" aria-live="polite">
+      <p class="empty">Select an entry to read what it is, what it measures, and where in the corpus it is developed.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <span>Data: <code>organon.json</code> — nine kinds (activity, design, method, technique, instrument, sensor, standard, record, theory) in one flat array; validated by <code>make organon-check</code></span>
+    <span id="count"></span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var TYPE_ORDER = ['activity','design','method','technique','instrument','sensor','standard','record','theory'];
+  var TYPE_NOTES = {
+    activity:  'The acts themselves: observing, measuring, experimenting, sampling, monitoring, recording.',
+    design:    'What is fixed before the data are seen, so that the comparison answers the question.',
+    method:    'The routines that impose a condition and register its consequence.',
+    technique: 'The physical procedures that turn a sample or an event into a signal.',
+    instrument:'The objects a technique is built on.',
+    sensor:    'A transducer for a single quantity, usually in the field.',
+    standard:  'Units, calibration and traceability — what makes a value comparable.',
+    record:    'The preserved result: dataset, spectrum, image.',
+    theory:    'What an observation is, and what makes it a warrant.'
+  };
+  var state = { q: '', types: new Set(), family: '', purpose: '', view: 'stack', sel: null };
+  var data = null, byId = {};
+  var els = {
+    q: document.getElementById('q'), family: document.getElementById('family'),
+    purpose: document.getElementById('purpose'), stats: document.getElementById('stats'),
+    chips: document.getElementById('typeChips'), stack: document.getElementById('view-stack'),
+    cat: document.getElementById('view-catalogue'), index: document.getElementById('view-index'),
+    panel: document.getElementById('panel'), count: document.getElementById('count'),
+    theme: document.getElementById('theme')
+  };
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]; }); }
+  function matches(e) {
+    if (state.types.size && !state.types.has(e.type)) return false;
+    if (state.family && e.family !== state.family) return false;
+    if (state.purpose && e.purpose !== state.purpose) return false;
+    if (state.q) {
+      var hay = [e.name, e.description, e.principle, e.observable, e.family, e.purpose, e.lane].join(' ').toLowerCase();
+      if (hay.indexOf(state.q) === -1) return false;
+    }
+    return true;
+  }
+  function visible() {
+    if (!data) return [];
+    var list = data.entries.filter(matches);
+    if (state.family || state.purpose) list = list.filter(function (e) { return e.type === 'technique' || !state.family && !state.purpose; });
+    return list;
+  }
+
+  function renderStats() {
+    var n = data.entries.length, t = data.entries.filter(function (e) { return e.type === 'technique'; }).length;
+    els.stats.innerHTML = '<div><b>' + n + '</b> entries</div><div><b>' + t + '</b> techniques</div><div><b>' + data.families.length + '</b> families</div>';
+  }
+
+  function renderChips() {
+    var counts = {};
+    data.entries.forEach(function (e) { counts[e.type] = (counts[e.type] || 0) + 1; });
+    els.chips.innerHTML = TYPE_ORDER.filter(function (t) { return counts[t]; }).map(function (t) {
+      return '<button class="chip" data-type="' + t + '" aria-pressed="' + state.types.has(t) + '">' + t + '<span class="n">' + counts[t] + '</span></button>';
+    }).join('');
+  }
+
+  function renderStack() {
+    var list = visible();
+    els.stack.innerHTML = TYPE_ORDER.map(function (t) {
+      var items = list.filter(function (e) { return e.type === t; });
+      if (!items.length) return '';
+      return '<div class="layer"><h2>' + t + ' <span>' + items.length + '</span></h2><p class="note">' + (TYPE_NOTES[t] || '') + '</p><div class="cards">' +
+        items.map(function (e) {
+          return '<button class="card' + (state.sel === e.id ? ' sel' : '') + '" data-id="' + e.id + '"><b>' + esc(e.name) + '</b><small>' + esc(e.principle || e.lane || e.description) + '</small></button>';
+        }).join('') + '</div></div>';
+    }).join('') || '<p class="empty">Nothing matches the current filters.</p>';
+  }
+
+  function renderCatalogue() {
+    var items = visible().filter(function (e) { return e.type === 'technique'; });
+    if (!items.length) { els.cat.innerHTML = '<p class="empty">No techniques match the current filters.</p>'; return; }
+    els.cat.innerHTML = '<table class="cat"><thead><tr><th>Technique</th><th>Family</th><th>Purpose</th><th>Principle</th><th>Observable</th><th>Limit</th><th>Year</th></tr></thead><tbody>' +
+      items.map(function (e) {
+        return '<tr data-id="' + e.id + '"' + (state.sel === e.id ? ' class="sel"' : '') + '><td><b>' + esc(e.name) + '</b></td><td class="fam">' + esc(e.family) + '</td><td class="pur">' + esc(e.purpose) + '</td><td>' + esc(e.principle) + '</td><td>' + esc(e.observable) + '</td><td>' + esc(e.limit) + '</td><td class="num">' + (e.year || '—') + '</td></tr>';
+      }).join('') + '</tbody></table>';
+  }
+
+  function renderIndex() {
+    var items = visible().slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+    els.index.innerHTML = '<ul class="index">' + items.map(function (e) {
+      return '<li data-id="' + e.id + '"' + (state.sel === e.id ? ' class="sel"' : '') + '><span>' + esc(e.name) + '</span><span class="kind">' + e.type + '</span></li>';
+    }).join('') + '</ul>';
+  }
+
+  function render() {
+    renderChips(); renderStack(); renderCatalogue(); renderIndex();
+    els.count.textContent = visible().length + ' shown / ' + data.entries.length + ' entries';
+    if (state.sel) renderPanel();
+  }
+
+  function renderPanel() {
+    var e = byId[state.sel];
+    if (!e) return;
+    var fam = e.family ? (data.families.find(function (f) { return f.id === e.family; }) || null) : null;
+    var rows = [];
+    if (fam) rows.push(['Family', '<a href="#" data-family="' + fam.id + '">' + esc(fam.name) + '</a>']);
+    if (e.purpose) rows.push(['Purpose', e.purpose]);
+    if (e.lane) rows.push(['Lane', e.lane]);
+    if (e.principle) rows.push(['Principle', esc(e.principle)]);
+    if (e.observable) rows.push(['Observable', esc(e.observable)]);
+    if (e.limit) rows.push(['Limit', esc(e.limit)]);
+    if (e.year) rows.push(['Since', e.year]);
+    if (e.part_of) rows.push(['Part of', '<a href="#" data-id="' + e.part_of + '">' + esc((byId[e.part_of] || {}).name || e.part_of) + '</a>']);
+    els.panel.innerHTML = '<div class="phead"><span class="kind">' + e.type + '</span><button class="chip" data-close>✕</button></div>' +
+      '<h3>' + esc(e.name) + '</h3><div class="meta">' + [e.family, e.purpose, e.lane].filter(Boolean).map(esc).join(' · ') + '</div>' +
+      '<p>' + esc(e.description) + '</p>' +
+      (rows.length ? '<dl>' + rows.map(function (r) { return '<dt>' + r[0] + '</dt><dd>' + r[1] + '</dd>'; }).join('') + '</dl>' : '') +
+      (fam ? '<p style="font-size:.8rem;color:var(--text-muted)"><b>' + esc(fam.name) + '.</b> ' + esc(fam.principle) + ' — ' + esc(fam.observable) + '; limit: ' + esc(fam.limit) + '.</p>' : '') +
+      (e.note ? '<a class="link" href="/view.html?p=' + esc(e.note) + '">Read the corpus note →</a>' : '');
+  }
+
+  function select(id) { state.sel = id; render(); if (window.matchMedia('(max-width: 980px)').matches) els.panel.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest('[data-id],[data-type],[data-view],[data-family],[data-close],[data-tab]');
+    if (!t) return;
+    if (t.hasAttribute('data-id')) { ev.preventDefault(); select(t.getAttribute('data-id')); return; }
+    if (t.hasAttribute('data-type')) {
+      var ty = t.getAttribute('data-type');
+      state.types.has(ty) ? state.types.delete(ty) : state.types.add(ty); render(); return;
+    }
+    if (t.hasAttribute('data-view')) {
+      state.view = t.getAttribute('data-view');
+      document.querySelectorAll('[data-view]').forEach(function (b) { b.setAttribute('aria-selected', String(b === t)); });
+      document.querySelectorAll('.view').forEach(function (v) { v.classList.toggle('active', v.id === 'view-' + state.view); });
+      return;
+    }
+    if (t.hasAttribute('data-family')) {
+      state.family = t.getAttribute('data-family'); els.family.value = state.family; render(); return;
+    }
+    if (t.hasAttribute('data-close')) {
+      state.sel = null; els.panel.innerHTML = '<p class="empty">Select an entry to read what it is, what it measures, and where in the corpus it is developed.</p>'; render(); return;
+    }
+  });
+
+  els.q.addEventListener('input', function () { state.q = els.q.value.trim().toLowerCase(); render(); });
+  els.family.addEventListener('change', function () { state.family = els.family.value; render(); });
+  els.purpose.addEventListener('change', function () { state.purpose = els.purpose.value; render(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== els.q) { e.preventDefault(); els.q.focus(); }
+    if (e.key === 'Escape') { state.sel = null; els.q.value = ''; state.q = ''; render(); }
+  });
+  els.theme.addEventListener('click', function () {
+    var light = document.documentElement.dataset.theme !== 'light';
+    document.documentElement.dataset.theme = light ? 'light' : 'dark';
+    localStorage.setItem('epistecnica-theme', light ? 'light' : 'dark');
+    document.dispatchEvent(new CustomEvent('epistecnica-theme'));
+    els.theme.textContent = light ? '☀' : '☾';
+  });
+  els.theme.textContent = document.documentElement.dataset.theme === 'light' ? '☀' : '☾';
+
+  fetch('organon.json').then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(function (json) {
+    data = json;
+    data.entries.forEach(function (e) { byId[e.id] = e; });
+    els.family.innerHTML = '<option value="">All families</option>' + data.families.map(function (f) { return '<option value="' + f.id + '">' + esc(f.name) + '</option>'; }).join('');
+    els.purpose.innerHTML = '<option value="">All purposes</option>' + data.purposes.map(function (p) { return '<option value="' + p + '">' + p + '</option>'; }).join('');
+    renderStats();
+    var params = new URLSearchParams(location.search);
+    if (params.get('q')) { state.q = params.get('q').toLowerCase(); els.q.value = params.get('q'); }
+    if (params.get('type')) { state.types.add(params.get('type')); }
+    if (params.get('family')) { state.family = params.get('family'); els.family.value = state.family; }
+    render();
+    if (params.get('id')) select(params.get('id'));
+  }).catch(function (err) {
+    els.stats.innerHTML = '<span class="err">Could not load organon.json: ' + esc(err.message) + '</span>';
+  });
+})();
+</script>
+</body>
+</html>

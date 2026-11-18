@@ -26,4 +26,4 @@ qa:
 
 - [Otto and Langen, Gas-engine patents — the cycle he worked around](/view.html?p=documents/books/otto-langen-1876-gas-engine-patents.md)
 - [Grashof, Theoretische Maschinenlehre (1875–) — the theory the engines were judged by](/view.html?p=documents/books/grashof-1875-theoretische-maschinenlehre.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

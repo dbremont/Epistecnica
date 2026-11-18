@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Fisheries and Fishery Industries of the United States (1884)](https://archive.org/details/fisheriesfishery11goodrich)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

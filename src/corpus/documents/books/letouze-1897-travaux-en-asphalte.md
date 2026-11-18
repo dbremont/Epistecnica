@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Traité pratique des travaux en asphalte (1897)](https://archive.org/details/traitpratiquede00loyegoog)
 - [Dobson, Foundations and Concrete Works (1850) — the groundwork beside the surface](/view.html?p=documents/books/dobson-1850-foundations-and-concrete-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

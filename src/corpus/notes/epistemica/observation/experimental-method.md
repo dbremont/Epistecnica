@@ -15,7 +15,7 @@ order: 0
 
 > The method scope of experimental science: the routines by which a system is made to yield observations, gathered as one catalogue and filed by **what the routine does to the system** — impose a state, remove a part, read a state without imposing one, or prepare the system so that any of the three can be done at all.
 
-> The corpus divides the work along this boundary. The material side stays in [data collection](/view.html?p=notes/epistemica/observation/data-collection.md): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/observation/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/observation/experiment.csv). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
+> The corpus divides the work along this boundary. The material side stays in [data collection](/corpus/notes/epistemica/observation/organon.html): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/observation/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/observation/experiment.csv). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
 
 > A method prescribes acts and never contains them. The bearer of a method is an activity — one run, one session, one campaign — and the acts are recorded on the activity's node, not on the method's. That is why one method appears under many activities, and why an experiment is not a method: the *Michelson–Morley experiment* is a dated activity, *interferometry* is the routine it applied.
 
@@ -118,11 +118,11 @@ order: 0
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner)
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
-- [Data Collection](/view.html?p=notes/epistemica/observation/data-collection.md) — the inventory of collection techniques this scope's routines produce material for.
+- [Data Collection](/corpus/notes/epistemica/observation/organon.html) — the inventory of collection techniques this scope's routines produce material for.
 - [Experimental Design](/view.html?p=notes/epistemica/observation/experimental-design.md) — the allocation of conditions, which this scope does not own.
 - [Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/observation/experiment.csv) — the dated cases the routines recur across.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) and [Do-Calculus](/view.html?p=notes/epistemica/causality/do-calculus.md) — the identification reading of an intervention.
-- [Biological Sciences](/view.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) — the practice that carries most of these routines.
+- [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) — the practice that carries most of these routines.
 - Hacking, I. (1983). *Representing and Intervening: Introductory Topics in the Philosophy of Natural Science*. Cambridge University Press.
 - Franklin, A. (1986). *The Neglect of Experiment*. Cambridge University Press.
 - Mayo, D. G. (1996). *Error and the Growth of Experimental Knowledge*. University of Chicago Press.

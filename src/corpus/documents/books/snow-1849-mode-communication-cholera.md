@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — On the Mode of Communication of Cholera (1849)](https://archive.org/details/b30383158)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

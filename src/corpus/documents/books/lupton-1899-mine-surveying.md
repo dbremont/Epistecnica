@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — A practical treatise on mine surveying (1902 printing)](https://archive.org/details/practicaltreatis00luptuoft)
 - [Archive.org — (1902, second copy)](https://archive.org/details/practicaltreatis00luptrich)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

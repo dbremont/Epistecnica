@@ -26,4 +26,4 @@ qa:
 
 - [Molyneux, Dioptrica Nova (1692) — the optics the achromat answered](/view.html?p=documents/books/molyneux-1692-dioptrica-nova.md)
 - [Brewster, A Treatise on Optics (1831) — the teaching that absorbed the achromat](/view.html?p=documents/books/brewster-1831-treatise-on-optics.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

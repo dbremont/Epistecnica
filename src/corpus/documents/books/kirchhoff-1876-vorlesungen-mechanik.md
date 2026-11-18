@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Vorlesungen über mathematische Physik: Mechanik (1876)](https://archive.org/details/vorlesungenberm02kircgoog)
 - [Stokes, Mathematical and Physical Papers (1880–83) — the English papers](/view.html?p=documents/books/stokes-1880-mathematical-physical-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

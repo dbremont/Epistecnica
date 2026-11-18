@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The materials of construction (1898 printing)](https://archive.org/details/materialsconstr09johngoog)
 - [Burr, The Elasticity and Resistance of the Materials of Engineering (1883) — the working reference it revised](/view.html?p=documents/books/burr-1883-elasticity-resistance-materials.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

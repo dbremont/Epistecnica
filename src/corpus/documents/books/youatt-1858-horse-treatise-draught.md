@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The Horse; with a Treatise on Draught (1858 edition)](https://archive.org/details/cu31924003165507)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

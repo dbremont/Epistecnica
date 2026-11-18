@@ -27,4 +27,4 @@ qa:
 - [Archive.org — Remarks on the present system of road making (1821, second edition)](https://archive.org/details/remarksonpresent00macarich)
 - [Archive.org — (1823, third edition)](https://archive.org/details/remarksonpresen02mcadgoog)
 - [Archive.org — (1823, another printing)](https://archive.org/details/remarksonpresen00mcadgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

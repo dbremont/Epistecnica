@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Recherches experimentales sur les chaux de construction (1818)](https://archive.org/details/recherchesexperi00vica)
 - [Burnell, Rudimentary Treatise on Limes, Cements, Mortars (1850) — the trade teaching built from this science](/view.html?p=documents/books/burnell-1850-limes-cements-mortars.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

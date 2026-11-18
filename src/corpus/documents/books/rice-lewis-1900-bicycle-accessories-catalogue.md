@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Bicycle accessories, 1900 catalogue](https://archive.org/details/bicycleaccess00riceuoft)
 - [The Modern Bicycle and its Accessories (1898) — the trade annual](/view.html?p=documents/books/modern-bicycle-1898-accessories.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

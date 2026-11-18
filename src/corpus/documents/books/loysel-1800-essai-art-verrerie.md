@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Essai sur l art de la verrerie (1800)](https://archive.org/details/b22034638)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

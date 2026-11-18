@@ -90,7 +90,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### How do autonomous statutory, incorporated-administrative, executive-agency, Swedish-agency and crown-corporation forms differ?
 
-> Along the five dimensions above: the **Autonomous Statutory Public Agency** draws autonomy from its own statute and legal personality; the **(Japan) Incorporated Administrative Agency** trades incorporation for bounded autonomy inside minister-set objectives; the **UK Executive Agency** trades a framework document for operational autonomy without separate legal personality; the **Swedish Government Agency** is constitutionally insulated from individual ministerial command while remaining under collective government direction; the **Crown Corporation** sits at the commercial pole — Crown-owned, board-governed, revenue-funded — bordering the Private Organization reading.
+> Along the five dimensions above: the **[Autonomous Statutory Public Agency](/view.html?p=notes/social/collective/actor/public/statutory-corporation.md)** draws autonomy from its own statute and legal personality; the **[(Japan) Incorporated Administrative Agency](/view.html?p=notes/social/collective/actor/public/incorporated-administrative-agency.md)** trades incorporation for bounded autonomy inside minister-set objectives; the **UK Executive Agency** trades a framework document for operational autonomy without separate legal personality; the **Swedish Government Agency** is constitutionally insulated from individual ministerial command while remaining under collective government direction; the **Crown Corporation** sits at the commercial pole — Crown-owned, board-governed, revenue-funded — bordering the Private Organization reading.
 
 ### Which are some mechanisms of organization leadership selection?
 
@@ -146,3 +146,4 @@ It is the government subtype of Organization: what individuates it is not its in
 - Demir (2008) — The Politics–Administration Dichotomy: An Empirical Search for Correspondence between Theory and Practice.
 - Wynen, Verhoest, and Rübecksen (2014) — Decentralization in Public Sector Organizations: Do Organizational Autonomy and Result Control Lead to Decentralization Toward Lower Hierarchical Levels?
 - Aubert and Bourdeau (2012) — Public Sector Performance and Decentralization of Decision Rights.
+- [Audit](/view.html?p=notes/social/action/activity/audit.md) — the audit types, and the *supreme audit institution* among the public-organization forms

@@ -57,4 +57,4 @@ The note's reason to exist is the first attribute. A path is invisible in the fi
 - Heyman, J. (1995). *The stone skeleton*. Cambridge University Press. — the funicular path in masonry, where the route must stay inside the stone
 - [Structure](/view.html?p=notes/nature/body/structure.md) — the body whose identity is its paths
 - [Member](/view.html?p=notes/nature/body/member.md) · [Connection](/view.html?p=notes/nature/body/connection.md) · [Foundation](/view.html?p=notes/nature/body/foundation.md) · [Arch](/view.html?p=notes/nature/body/arch.md) · [Cable](/view.html?p=notes/nature/body/cable.md)
-- [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) · [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md)
+- [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md) · [Structural Mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md)

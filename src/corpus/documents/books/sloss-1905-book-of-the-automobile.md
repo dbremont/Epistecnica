@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The book of the automobile (1905)](https://archive.org/details/bookautomobilea01slosgoog)
 - [Bramwell, The Construction of a Gasoline Motor Vehicle (1901) — the vehicle as a machine](/view.html?p=documents/books/bramwell-1901-construction-gasoline-motor-vehicle.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

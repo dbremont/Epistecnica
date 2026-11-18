@@ -27,4 +27,4 @@ qa:
 
 - [Fairbairn, On the Application of Cast and Wrought Iron to Building Purposes (1857) — the iron construction it anticipated](/view.html?p=documents/books/fairbairn-1857-iron-building.md)
 - [Tredgold, Elementary Principles of Carpentry (1820) — the timber science beside it](/view.html?p=documents/books/tredgold-1820-elementary-principles-carpentry.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

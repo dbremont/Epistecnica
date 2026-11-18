@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Nova stereometria doliorum (1615)](https://archive.org/details/chepfl-lipr-AXB124)
 - [Archive.org — another digitisation](https://archive.org/details/den-kbd-pil-21009000066F-001)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

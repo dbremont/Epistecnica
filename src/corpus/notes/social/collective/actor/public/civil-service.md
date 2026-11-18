@@ -444,3 +444,6 @@ Los cargos que generalmente se eligen o se accede mediante un tribunal de oposic
 - Hood & Dixon’s A Government That Worked Better and Cost Less?
 - Oposición
 - https://commonslibrary.parliament.uk/research-briefings/cbp-10819/?utm_source=chatgpt.com
+- [ ]  https://en.wikipedia.org/wiki/Scholar-official
+- [ ]  https://en.wikipedia.org/wiki/Nine-rank_system
+- [Representation Systems](/view.html?p=notes/social/collective/actor/public/legislature/representation-systems.md) — the design space: how many representatives, selected how, at which level

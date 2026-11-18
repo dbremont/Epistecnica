@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The modern bicycle and its accessories (1898)](https://archive.org/details/modernbicyclean00makegoog)
 - [Garratt, The Modern Safety Bicycle (1899) — the construction manual beside the trade annual](/view.html?p=documents/books/garratt-1899-modern-safety-bicycle.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

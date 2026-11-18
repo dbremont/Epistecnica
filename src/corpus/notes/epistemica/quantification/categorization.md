@@ -77,7 +77,7 @@ qa:
 
 > **boundary.** this table decomposes one epistemic instance — the categorization scheme — into the label system that carries the assigned label, the rules and structures constituting the partition, and the predicates it carries. the acts that place items are named in prose and linked; the sorted kinds belong to the naturalis grammar.
 
-> **stopping rule.** a row is terminal when it names a label element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the statistics of a contingency table are not decomposed here (see [statistics](/view.html?p=notes/epistemica/epistemic/discipline/statistics.md)), and neither is the taxonomy that a hierarchy adds.
+> **stopping rule.** a row is terminal when it names a label element, a foundation, a convention, a formation rule, a transformation rule, an interpretation, or a predicate. the statistics of a contingency table are not decomposed here (see [statistics](/view.html?p=notes/miscellanea/discipline/statistics.md)), and neither is the taxonomy that a hierarchy adds.
 
 > **identity.** instance tree path holds instances only — never epistemic element types; every path in this table is unique, and no type segment terminates a branch.
 

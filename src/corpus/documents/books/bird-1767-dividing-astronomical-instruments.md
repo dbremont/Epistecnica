@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The method of dividing astronomical instruments (1767)](https://archive.org/details/bim_eighteenth-century_the-method-of-dividing-a_bird-john_1767)
 - [Baker, Engineers' Surveying Instruments (1892) — the later instrument book](/view.html?p=documents/books/baker-1892-engineers-surveying-instruments.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

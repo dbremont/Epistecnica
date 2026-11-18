@@ -355,7 +355,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 - [Social Ontology](/view.html?p=notes/social/framework/social-ontology.md)
 - [Facet](/view.html?p=notes/social/framework/facet.md)
 - [Polity](/view.html?p=notes/social/collective/polity.md)
-- [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md)
+- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
 - [Imperialism](https://en.wikipedia.org/wiki/Imperialism)
 - [Romanitas](https://es.wikipedia.org/wiki/Romanitas)
 - [Polity](https://en.wikipedia.org/wiki/Polity)

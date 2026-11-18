@@ -26,4 +26,4 @@ qa:
 
 - [Chladni, Die Akustik (1802) — the experimental acoustics that followed](/view.html?p=documents/books/chladni-1802-die-akustik.md)
 - [Helmholtz, On the Sensations of Tone (1863) — the theory the series became](/view.html?p=documents/books/helmholtz-1863-sensations-of-tone.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

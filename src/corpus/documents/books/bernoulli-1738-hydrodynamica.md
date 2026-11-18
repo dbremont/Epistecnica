@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Hydrodynamica (1738 Strasbourg)](https://archive.org/details/bub_gb_3yRVAAAAcAAJ)
 - [Archive.org — a further copy of the 1738 edition](https://archive.org/details/india.history.resource.74995)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -48,6 +48,7 @@ check: ## py_compile all servers + index builders + validate the EES tree + tech
 	python3 bin/object_taxonomy_check.py
 	python3 bin/approximation_check.py
 	python3 bin/safety_check.py
+	python3 bin/organon_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 bin/notes_index.py
@@ -107,6 +108,9 @@ object-taxonomy-check: ## validate the technical-object taxonomy section of the 
 
 approximation-check: ## validate the approximation playground problem bank (approximation-problems.json)
 	python3 bin/approximation_check.py
+
+organon-check: ## validate the Organon observation-domain catalogue (organon.json)
+	python3 bin/organon_check.py
 
 safety-check: ## validate the product-safety hazard store (src/corpus/notes/social/good/safety.json)
 	python3 bin/safety_check.py

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Illustrated catalogue of wind-mills, pumps, tanks, etc. (1884)](https://archive.org/details/illustratedcatal00bswi)
 - [Evans, The Young Mill-Wright and Miller's Guide (1850) — the wind and water mill tradition](/view.html?p=documents/books/evans-1850-young-mill-wright.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

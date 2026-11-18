@@ -27,6 +27,14 @@ Rust: 📜 Language Specification
 
 Rust: **🏷️** Type System
 
+### Borrow Checking
+
+> Rust's memory safety is enforced by a **borrow checker** at compile time, with no garbage collector. Two rules do the work: a reference may not outlive the value it borrows, and a value has at any moment either exactly one mutable reference (`&mut T`) or any number of shared references (`&T`) — never both.
+
+> The discipline is a **readers–writer lock written into the type system**. Many readers or one writer: since a data race requires a write concurrent with another access, forbidding the combination statically removes the race class rather than detecting it at runtime. That is what makes the guarantee zero-cost — the price is paid in compile-time analysis and in the programmer's obligation to restructure ownership where the analysis refuses.
+
+> It also makes **aliasing** explicit: `&mut` is exclusive, so no mutation can invalidate a reader that is still alive. The checking itself is a flow analysis over the program — see [Type Checking](/view.html?p=notes/technica/computation/language-system/type-checking.md) for the general machinery, and the [Assertion](/view.html?p=notes/technica/computation/system/programming/assertion.md) note for the reading of ownership guarantees as type-encoded invariants.
+
 ## 📚 The Standard Library
 
 > The **Standard Library** provides a comprehensive collection of pre-built modules, functions, and data structures that offer essential utilities and abstractions—such as collections, I/O, concurrency, and networking—serving as a foundational toolkit that enables developers to efficiently build robust and portable applications without reinventing common functionality.
@@ -164,6 +172,7 @@ Rust: 🛠️ Tooling & Ecosystem
     - [https://users.rust-lang.org/](https://users.rust-lang.org/)
 - [The Rust Reference](https://doc.rust-lang.org/reference/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [A Few Good Ideas in Programming Languages](https://prydt.xyz/blog/a-few-good-ideas-in-pl/) — the borrow-checking section as a compact statement of the two rules
 - [Rust Language Cheat Sheet](https://cheats.rs/#the-abstract-machine)
 - [Rust Reading List](https://rsouth.github.io/rust-reading-list/)
 - [Influences](https://doc.rust-lang.org/reference/influences.html)

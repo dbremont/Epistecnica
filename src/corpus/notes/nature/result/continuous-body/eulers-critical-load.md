@@ -33,7 +33,7 @@ What is **in**: the criterion `P_cr = π²EI/(KL)²`; the effective-length facto
 
 First, the name covers three different elements: the **criterion** (a formula, documented here), the **phenomenon** (the elastic instability itself — a behaviour of a continuous body, which belongs to the naturalis reading), and the **derivation** (the eigenvalue problem of the elastica, a `Model` that decomposes as a part below). Only the criterion is the root.
 
-Second, the same name sits on the technical side: [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) is a `Technical Principle` in the technica grammar, and [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) is a `Constitutive Technique` that applies eigenvalue, limit-equilibrium and energy criteria to the same body. Those are practices intervening in the world, not constructions about it; they cite this criterion and are not this note.
+Second, the same name sits on the technical side: [Euler–Bernoulli Beam Theory](/view.html?p=notes/miscellanea/discipline/euler-bernoulli-beam-theory.md) is a `Technical Principle` in the technica grammar, and [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md) is a `Constitutive Technique` that applies eigenvalue, limit-equilibrium and energy criteria to the same body. Those are practices intervening in the world, not constructions about it; they cite this criterion and are not this note.
 
 Third, the historical attribution: the 1744 *Additamentum* derives the elastica, the 1757 memoir poses the column problem and its four cases. The criterion is Euler's in the first sense and Euler's in the second, and the note attributes both.
 
@@ -86,5 +86,5 @@ The concept under evaluation is **Euler's critical load**, precised as *the lowe
 - Timoshenko, S. P. (1953). *History of Strength of Materials*. McGraw-Hill. — the historical reconstruction of both memoirs
 - [Continuous Medium (Body)](/view.html?p=notes/nature/body/continuous-medium.md) — the natural target and its fields
 - [Structure](/view.html?p=notes/nature/body/structure.md) — the discrete body the column is a member of
-- [Euler–Bernoulli Beam Theory](/view.html?p=notes/technica/discipline/euler-bernoulli-beam-theory.md) — the technical principle supplying the equation
-- [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md) — the constitutive technique that applies the criterion
+- [Euler–Bernoulli Beam Theory](/view.html?p=notes/miscellanea/discipline/euler-bernoulli-beam-theory.md) — the technical principle supplying the equation
+- [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md) — the constitutive technique that applies the criterion

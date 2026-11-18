@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — On the Application of Machinery (1855)](https://archive.org/details/onapplicationma00coltgoog)
 - [Whitworth & Wallis, The Industry of the United States (1854) — the English library that fired the American inspection](/view.html?p=documents/books/whitworth-1858-miscellaneous-papers.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

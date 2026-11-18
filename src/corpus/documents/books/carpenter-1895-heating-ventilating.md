@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Heating and ventilating buildings (1902 printing)](https://archive.org/details/cu31924003891391)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

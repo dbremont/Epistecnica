@@ -199,5 +199,5 @@ tags: [note, production]
 ## References
 
 - [House](https://en.wikipedia.org/wiki/House)
-- [Interior Design](/view.html?p=notes/production/technique/design/interior.md)
+- [Interior Design](/view.html?p=notes/technica/general/design/interior.md)
 - [Home Automation](https://en.wikipedia.org/wiki/Home_automation)

@@ -25,4 +25,4 @@ qa:
 
 - [Archive.org — Practical remarks on aerial navigation (1837)](https://archive.org/details/Practicalremark00Cayl)
 - [Wise, A System of Aeronautics (1850) — the balloon practice beside the fixed-wing principle](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Burgh, A Treatise on Sugar Machinery (1863) — the machinery treatise a generation earlier](/view.html?p=documents/books/burgh-1863-treatise-sugar-machinery.md)

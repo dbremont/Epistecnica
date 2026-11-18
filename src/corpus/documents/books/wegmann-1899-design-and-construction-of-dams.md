@@ -28,4 +28,4 @@ qa:
 - [Fanning, A Practical Treatise on Water-Supply Engineering (1877) — the reservoir and waterworks context](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md)
 - [Sutcliffe, A Treatise on Canals and Reservoirs (1816) — the reservoir embankment before the professional dam treatise](/view.html?p=documents/books/sutcliffe-1816-canals-and-reservoirs.md)
 - [Cautley, Report on the Ganges Canal Works (1860) — the canal head works and their masonry](/view.html?p=documents/books/cautley-1860-report-ganges-canal-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

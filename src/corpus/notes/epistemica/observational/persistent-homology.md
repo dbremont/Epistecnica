@@ -14,6 +14,7 @@ tags: [note]
 ## References
 
 - https://gudhi.inria.fr/
+- [Persistence Module](/view.html?p=notes/epistemica/observational/persistence-module.md) — the algebraic structure whose interval decomposition is the barcode
 - https://en.wikipedia.org/wiki/Topological_data_analysis
 - https://www.youtube.com/watch?v=29yNM_PRuUo
 - https://github.com/Ripser/ripser

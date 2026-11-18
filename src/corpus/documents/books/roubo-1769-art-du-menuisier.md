@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Art du menuisier (1828 Roret printing)](https://archive.org/details/bub_gb_n5JUgO_GgyAC)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

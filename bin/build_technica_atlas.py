@@ -56,6 +56,7 @@ GUIDE = ('https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/'
          'main/app/notes/data/meta/philosophia-artium-technicarum-et-operis.md')
 
 TWO = '| Instance Tree Path | Description |'
+TAGS = re.compile(r'^tags:\s*\[(.*?)\]', re.M)
 ROOT_LABEL = 'Technical Element'
 ROOT_TYPE = 'Technical Element Set'
 SNIP = re.compile(r'\s+')
@@ -284,6 +285,14 @@ def load_taxonomy():
     return tax
 
 
+def note_tags(path):
+    """Front-matter tags of a note, read from the head of the file."""
+    m = TAGS.search(read(path)[:4000])
+    if not m:
+        return set()
+    return {t.strip() for t in m.group(1).split(',') if t.strip()}
+
+
 def build(progress=None) -> bool:
     if not TECH.is_dir():
         print('atlas: technica corpus missing', file=sys.stderr)
@@ -293,6 +302,11 @@ def build(progress=None) -> bool:
     md_files = [p for p in sorted(TECH.rglob('*.md'))
                 if 'meta' not in p.relative_to(TECH).parts
                 and p.name != 'atlas.md']
+    # discipline notes now live outside technica/: discover them by the
+    # `technica` tag on the note, not by the directory they sit in
+    extra = [p for p in sorted(DATA.rglob('*.md'))
+             if TECH not in p.parents and 'technica' in note_tags(p)]
+    md_files = sorted(set(md_files) | set(extra))
     if progress is not None:
         progress.set_total(len(md_files))
         progress.start("scanning %d technica notes" % len(md_files))
@@ -300,12 +314,12 @@ def build(progress=None) -> bool:
     notes = []
     table_files = []
     for path in md_files:
-        rel = path.relative_to(TECH)
+        rel = path.relative_to(DATA)
         text = read(path)
         if progress is not None:
             progress.step(message=rel.as_posix())
         title = TITLE.search(text)
-        notes.append(('technica/' + rel.as_posix(),
+        notes.append((rel.as_posix(),
                       title.group(1).strip() if title else path.stem,
                       path.stem))
         if TWO in text:
@@ -316,7 +330,7 @@ def build(progress=None) -> bool:
     forest = Forest()
     rows = 0
     for path, text in table_files:
-        source = 'technica/' + path.relative_to(TECH).as_posix()
+        source = path.relative_to(DATA).as_posix()
         for row in two_rows(text):
             segs = segments(row[0])
             groupings = [label for label, kind in segs[:-1]

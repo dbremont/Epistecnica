@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — The linen trade, ancient and modern (1864)](https://archive.org/details/linentradeancie00wardgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

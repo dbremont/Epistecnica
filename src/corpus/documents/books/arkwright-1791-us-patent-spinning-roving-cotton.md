@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Arkwright, Spinning and Roving Cotton, US Patent 36X (1791)](https://archive.org/details/us-1791-36-x-arkwright)
 - [Baines, History of the Cotton Manufacture (1835) — the history that describes the patent](/view.html?p=documents/books/baines-1835-cotton-manufacture.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

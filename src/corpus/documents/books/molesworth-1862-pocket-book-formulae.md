@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Pocket-book of useful formulae and memoranda (1886 edition)](https://archive.org/details/Pocketbookusefu00Mole)
 - [Trautwine, The Civil Engineer Pocket-Book (1871) — the American match](/view.html?p=documents/books/trautwine-1871-civil-engineers-pocket-book.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

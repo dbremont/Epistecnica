@@ -24,6 +24,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Archive.org — Smithsonian meteorological tables (1893-era, same program)](https://archive.org/details/cu31924003999558)
 - [Negretti & Zambra, A Treatise on Meteorological Instruments (1864) — the apparatus manual that precedes it](/view.html?p=documents/books/negretti-zambra-1864-treatise-on-meteorological-instruments.md)

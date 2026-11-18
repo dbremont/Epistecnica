@@ -26,4 +26,4 @@ qa:
 
 - [Struve, Arc du Méridien (1857–60) — the Russian arc measured on the same principle](/view.html?p=documents/books/struve-1857-arc-du-meridien.md)
 - [Clarke, Geodesy (1880) — the figure of the earth the surveys determined](/view.html?p=documents/books/clarke-1880-geodesy.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

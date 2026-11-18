@@ -503,6 +503,10 @@ Technical Element (parent)
 | Performative Effects | Moderate | **Effects of classification:** admission still reorganises how an element is governed and maintained, now with a test behind it. |
 | Misuse Resistance | Moderate | **Resistance to abuse:** the role test blocks mere relabelling, though "purposeful" can still be stretched by a determined user. |
 
+### Within a technical ontology, what technical concepts and terminology are used to represent the aspects of reality involved in a particular technical domain? For example, in pharmaceuticals, how are elements such as internal transport pathways, target tissues, anatomical compartments, and sites of drug action technically described and classified?
+
+> ...
+
 ### Which note schema used - in order to document a technical element?
 
 ```bash

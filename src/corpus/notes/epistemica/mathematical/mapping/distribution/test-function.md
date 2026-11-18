@@ -134,3 +134,4 @@ qa:
 - Rudin, W. (1991). *Functional analysis* (2nd ed.). McGraw-Hill.
 - Hörmander, L. (1983). *The analysis of linear partial differential operators I*. Springer.
 - Adams, R. A., & Fournier, J. J. F. (2003). *Sobolev spaces* (2nd ed.). Academic Press.
+- [Schwartz Space](/view.html?p=notes/epistemica/mathematical/space/schwartz-space.md) — the smooth rapidly decreasing test space this note presupposes

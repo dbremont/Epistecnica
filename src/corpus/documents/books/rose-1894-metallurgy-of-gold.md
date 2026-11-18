@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — The metallurgy of gold (1898 printing)](https://archive.org/details/metallurgygold00robegoog)
 - [Percy, Metallurgy: The Art of Extracting Metals (1861) — the treatment of gold it authored](/view.html?p=documents/books/percy-1861-metallurgy-art-extracting-metals.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

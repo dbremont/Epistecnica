@@ -26,4 +26,4 @@ qa:
 
 - [Wheatstone, The Scientific Papers (1879) — the collected instrument work](/view.html?p=documents/books/wheatstone-1879-scientific-papers.md)
 - [Prescott, Electricity and the Electric Telegraph (1877) — the system's history and practice](/view.html?p=documents/books/prescott-1877-electricity-electric-telegraph.md)
-- [A Guide of Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide of Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

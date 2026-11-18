@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Papers relating to irrigation in Bengal (1861)](https://archive.org/details/india.history.resource.106814)
 - [Cautley, Report on the Ganges Canal Works (1860) — the neighbouring canal programme](/view.html?p=documents/books/cautley-1860-report-ganges-canal-works.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

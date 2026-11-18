@@ -25,4 +25,4 @@ qa:
 ## References
 
 - [Jago, The Technology of Bread-Making (1895) — the industrial technology beside the chemistry](/view.html?p=documents/books/jago-1895-technology-of-bread-making.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

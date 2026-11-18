@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Irrigation in Egypt (1889)](https://archive.org/details/irrigationinegy00barogoog)
 - [Egypt Irrigation Department, Reports upon the Administration of the Irrigation Services (1888) — the official reports](/view.html?p=documents/books/egypt-irrigation-1888-reports.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -23,6 +23,6 @@ CASC is the UK's structural-ceramics centre, and the choice of "structural" is t
 
 - [Centre for Advanced Structural Ceramics — Imperial College London](https://www.imperial.ac.uk/structural-ceramics/)
 - [Centre for Advanced Structural Ceramics — Wikipedia](https://en.wikipedia.org/wiki/Centre_for_Advanced_Structural_Ceramics)
-- [Ceramic](/view.html?p=notes/production/technique/materiotecnia/ceramic.md) — the material class
+- [Ceramic](/view.html?p=notes/technica/general/materiotecnia/ceramic.md) — the material class
 - [University](/view.html?p=notes/social/collective/actor/university.md) — the host institution
 - [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) — the unit the centre coordinates

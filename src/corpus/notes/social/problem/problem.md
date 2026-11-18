@@ -17,7 +17,7 @@ tags: [note, problem, problematization, intention, agency, goal, social-element]
 
 **Problem belongs to the `Problem / Problematization` social element type (Cognitive category, `Intention` branch of the agentic spine)** — the apprehended gap between conditions and a norm, and the process of forming it. It sits under `Interaction Unit -> Agency -> Intention`, alongside `Deliberation`, `Decision / Choice`, `Goal`, and `Objective / Target`.
 
-It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
+It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
 
 ### What is this social instance?
 
@@ -56,4 +56,4 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [Problem](/view.html?p=notes/social/problem/policy-problem.md)
 - [Dimension](/view.html?p=notes/social/problem/dimension/domain.md)
-- [The Collective Action Problem](/view.html?p=notes/unclassified/collective-action-problem.md)
+- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)

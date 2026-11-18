@@ -24,4 +24,4 @@ qa:
 
 - [Archive.org — Reports of experiments on the properties of metals for cannon (1856)](https://archive.org/details/10220926bsb)
 - [Dahlgren, Shells and Shell-Guns (1856) — the guns the metals were cast for](/view.html?p=documents/books/dahlgren-1856-shells-and-shell-guns.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

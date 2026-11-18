@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The history and practice of aerostation (1785)](https://archive.org/details/bim_eighteenth-century_the-history-and-practice_cavallo-tiberius_1785)
 - [Wise, A System of Aeronautics (1850) — the American practice sixty years later](/view.html?p=documents/books/wise-1850-system-of-aeronautics.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

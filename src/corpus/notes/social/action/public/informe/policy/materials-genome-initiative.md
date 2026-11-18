@@ -8,7 +8,7 @@ tags: [note]
 
 > It is a scope rather than a body. The Initiative owns no laboratories, employs no staff, and has no membership; it is the composite in which those units appear as a program portfolio, held together by an appropriated mandate, a coordinating apparatus, and an institutional data-governance regime.
 
-> This note decomposes the coordination, not the artifacts, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md). The engineering of the platforms and the materials themselves belong to [Physical Material Technology](/view.html?p=notes/technica/general/es/multinode/physical-material-technology.md); the descriptor vocabularies and reference databases belong to the epistemic decomposition.
+> This note decomposes the coordination, not the artifacts, per the guide at [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md). The engineering of the platforms and the materials themselves belong to [Physical Material Technology](/view.html?p=notes/technica/general/physical-material-technology.md); the descriptor vocabularies and reference databases belong to the epistemic decomposition.
 
 ## Formulation
 
@@ -119,7 +119,7 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (layer test, facet assignment, agentic and normative spines, social-element note schema)
-- [Physical Material Technology](/view.html?p=notes/technica/general/es/multinode/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
+- [Physical Material Technology](/view.html?p=notes/technica/general/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
 - [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the host unit the governance regime binds)
 - [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) (the depositing unit in the agentic spine)
 - [Public Research Institutes (PRI)](/view.html?p=notes/social/collective/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)

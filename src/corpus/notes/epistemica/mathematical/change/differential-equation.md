@@ -224,7 +224,7 @@ where:
 |  | **Mellin Transform** | Converts a function into a form amenable to asymptotic analysis and solution of problems in integral equations and PDEs. |
 | **Series** | **Power Series** | Expresses solutions to ODEs as an infinite sum of powers of the independent variable, useful for variable coefficient equations. |
 |  | **Frobenius Method** | A generalization of the power series method for solving second-order linear ODEs near singular points. |
-|  | **Padé Approximation** | A method for approximating functions as rational functions (ratios of polynomials), improving convergence over truncated series. |
+|  | **[Padé Approximation](/view.html?p=notes/epistemica/mathematical/method/representation/pade-representation.md)** | A method for approximating functions as rational functions (ratios of polynomials), improving convergence over truncated series. |
 |  | **Asymptotic Expansions** | A method for approximating the behavior of solutions in the limit of large or small parameters. |
 | **Green's Function** | **Green’s Function for Laplace Equation** | Used to solve boundary value problems, especially for the Laplace or Poisson equation, by representing the solution as an integral over the domain. |
 |  | **Green’s Function for Heat Equation** | Represents the solution to the heat equation as an integral involving the Green’s function, often used in diffusion problems. |

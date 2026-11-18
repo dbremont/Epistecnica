@@ -24,6 +24,6 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Archive.org — Ansted, Geological gossip; or, stray chapters on earth and ocean (1860)](https://archive.org/details/geologicalgossip00anstrich)
 - [Phillips, Manual of Geology (1855) — the survey-era successor](/view.html?p=documents/books/phillips-1855-manual-of-geology.md)

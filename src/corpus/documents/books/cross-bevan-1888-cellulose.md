@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Cellulose (1895)](https://archive.org/details/cellulose0000cros)
 - [A text-book of paper-making (1907 boundary printing)](https://archive.org/details/textbookofpaperm00cros)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

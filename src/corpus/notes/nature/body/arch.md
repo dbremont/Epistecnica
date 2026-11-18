@@ -15,7 +15,7 @@ qa:
 
 `Structure` at **meso** level of organization (Ontic; Existential) — a discrete body whose parts are held by a load path, specialized to the spanning-by-compression form.
 
-It is **not** a [beam](/view.html?p=notes/nature/body/beam.md), although the two span the same opening: a beam carries its load in bending, with tension on one face and compression on the other, while an arch carries it in compression throughout. That difference is a difference of *material requirement*: a beam needs a material that can pull, an arch needs only one that can push, which is why masonry and unreinforced concrete build arches and not beams. It is **not** a `Property` (thrust is carried by it, not identical with it), not a `Natural System` (it is one particular with a path, not a set of interacting components), and not the practice that designs it, which is [structural mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md).
+It is **not** a [beam](/view.html?p=notes/nature/body/beam.md), although the two span the same opening: a beam carries its load in bending, with tension on one face and compression on the other, while an arch carries it in compression throughout. That difference is a difference of *material requirement*: a beam needs a material that can pull, an arch needs only one that can push, which is why masonry and unreinforced concrete build arches and not beams. It is **not** a `Property` (thrust is carried by it, not identical with it), not a `Natural System` (it is one particular with a path, not a set of interacting components), and not the practice that designs it, which is [structural mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md).
 
 ### What is this natural instance?
 
@@ -62,4 +62,4 @@ The historical importance is that the arch is the first structural form whose *s
 - Benvenuto, E. (1991). *An introduction to the history of structural mechanics*. Springer. — how the arch's stability was reasoned about before its strength
 - [Structure](/view.html?p=notes/nature/body/structure.md) · [Member](/view.html?p=notes/nature/body/member.md) · [Cable](/view.html?p=notes/nature/body/cable.md) — the same equilibrium in tension
 - [Load Path](/view.html?p=notes/nature/property/load-path.md) — the funicular the arch is
-- [Structural Mechanics](/view.html?p=notes/technica/discipline/structural-mechanics.md) · [Stability Analysis](/view.html?p=notes/technica/discipline/stability-analysis.md)
+- [Structural Mechanics](/view.html?p=notes/miscellanea/discipline/structural-mechanics.md) · [Stability Analysis](/view.html?p=notes/miscellanea/discipline/stability-analysis.md)

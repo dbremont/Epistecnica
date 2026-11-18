@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Traité des arts céramiques, vol. I (1844)](https://archive.org/details/traiteydesartsc1bron)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

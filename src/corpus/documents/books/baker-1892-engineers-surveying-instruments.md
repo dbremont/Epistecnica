@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Engineers' surveying instruments (1892)](https://archive.org/details/engineerssurvey00bakegoog)
 - [Simms, A Treatise on the Principal Mathematical Instruments (1844) — the earlier instrument treatise](/view.html?p=documents/books/simms-1844-principal-mathematical-instruments.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

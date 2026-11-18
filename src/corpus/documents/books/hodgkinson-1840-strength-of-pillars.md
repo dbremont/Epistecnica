@@ -26,4 +26,4 @@ qa:
 
 - [Fairbairn, Iron to Building (1854) — the structural economy the pillars' tables fed](/view.html?p=documents/books/fairbairn-1854-iron-building.md)
 - [Barlow, Strength of Materials (1837) — the strength tables](/view.html?p=documents/books/barlow-1837-strength-of-materials.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

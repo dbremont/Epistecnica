@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Roentgen Rays and Phenomena of the Anode and Cathode (1899 compendium)](https://archive.org/details/roentgen-rays-and-phenomena-of-the)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

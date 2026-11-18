@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Art de fabriquer le sucre de betteraves (1825)](https://archive.org/details/bub_gb_8LA-AAAAcAAJ)
 - [Dumas, Traité de chimie appliquée aux arts (1848) — the applied chemistry beside the manufacture](/view.html?p=documents/books/dumas-1848-traite-chimie-appliquee-aux-arts.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Engineers and Mechanics Pocket-book (1844)](https://archive.org/details/engineersandmec01haswgoog)
 - [Trautwine, The Civil Engineer Pocket-Book (1871) — the successor](/view.html?p=documents/books/trautwine-1871-civil-engineers-pocket-book.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

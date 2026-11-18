@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Della natura de' fiumi (1697)](https://archive.org/details/b33274691)
 - [Archive.org — a 1821 printing of the tract](https://archive.org/details/bub_gb_0l25z4Zq1N0C)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

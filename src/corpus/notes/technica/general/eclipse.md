@@ -226,6 +226,6 @@ Lineage: IBM VisualAge Micro Edition compiler contribution → Eclipse platform 
 - [Eclipse java debugging: source not found - Stack Overflow](https://stackoverflow.com/questions/6174550/eclipse-java-debugging-source-not-found)
 - [Maven](/view.html?p=notes/technica/general/maven.md)
 - [VS Code](/view.html?p=notes/technica/general/vscode.md)
-- [Java EE / Jakarta EE](/view.html?p=notes/technica/general/es/multinode/java-ee-jakarta-ee.md)
-- [WildFly](/view.html?p=notes/technica/general/es/multinode/wildfly.md)
+- [Java EE / Jakarta EE](/view.html?p=notes/technica/general/java-ee-jakarta-ee.md)
+- [WildFly](/view.html?p=notes/technica/general/wildfly.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

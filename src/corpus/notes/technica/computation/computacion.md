@@ -28,6 +28,8 @@ tags: [note]
 > Note: The terms ***computation*** and ***description of computation*** are not synonymous. However, the term “computation” is often used to refer both to the process itself and to its descriptive representation (i.e., the formal system or language used to specify it). This ambiguity should be handled carefully, as it can create unnecessary linguistic confusion or misleading conceptual impressions even when the underlying distinction is clear. Take the case principle to organize computation - we don’t organize a computation (most of the time - except in computation interaction - let’s say in multi node  - process system, scheduler, etc) - we organize it’s description.
 > 
 
+>  **Description → Computation:** It is very difficult to infer the computations that a description induces, especially under certain models of computation.
+
 > How to integrate ML Driven Computation with Symbolic Driven Computations?
 > 
 

@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — The scientific writings of Joseph Henry (1886)](https://archive.org/details/scientificwriti02henrgoog)
 - [Faraday, Experimental Researches in Electricity (1839) — the English counterpart](/view.html?p=documents/books/faraday-1839-experimental-researches-electricity.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

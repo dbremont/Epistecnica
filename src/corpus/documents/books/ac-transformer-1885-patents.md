@@ -26,4 +26,4 @@ qa:
 
 - [Kapp, Electric Transmission of Energy (1886) — the transmission problem stated for engineers](/view.html?p=documents/books/kapp-1886-electric-transmission-of-energy.md)
 - [Hedges, Central-Station Electric Lighting (1889) — the stations the transformer made possible](/view.html?p=documents/books/hedges-1889-central-station-electric-lighting.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

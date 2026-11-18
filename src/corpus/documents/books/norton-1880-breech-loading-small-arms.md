@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — American inventions in breech-loading small arms (1880)](https://archive.org/details/cu31924030759702)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

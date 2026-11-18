@@ -24,5 +24,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Small, A Treatise on Ploughs and Wheel Carriages (1784) — the wheel-carriage tradition](/view.html?p=documents/books/small-1784-treatise-on-ploughs.md)

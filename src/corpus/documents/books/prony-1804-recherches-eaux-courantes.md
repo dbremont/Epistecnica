@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — Recherches physico-mathematiques sur la theorie des eaux courantes (1804)](https://archive.org/details/recherchesphysi00prongoog)
 - [Fanning, A Practical Treatise on Water-Supply Engineering (1877) — the American form of the same arithmetic](/view.html?p=documents/books/fanning-1877-water-supply-engineering.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

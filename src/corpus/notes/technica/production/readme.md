@@ -131,7 +131,7 @@ tags: [note, production]
 
 ## References
 
-- [Good Nomenclature System](/view.html?p=notes/technica/production/toolkit/data/nomenclature.md)
+- [Good Nomenclature System](/view.html?p=notes/epistemica/singular/production-research/data/nomenclature.md)
 - Technology Catalog
 - [Good Catalog](/view.html?p=notes/social/good/readme.md)
 - [Product](https://en.wikipedia.org/wiki/Product_(business))

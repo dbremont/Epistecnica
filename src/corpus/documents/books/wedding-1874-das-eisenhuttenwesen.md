@@ -26,4 +26,4 @@ qa:
 
 - [Ledebur, Handbuch der Eisen- und Stahlgiesserei (1901) — the foundry handbook that followed](/view.html?p=documents/books/ledebur-1901-handbuch-eisen-stahlgiesserei.md)
 - [Karsten, System der Metallurgie (1831) — the system it revised](/view.html?p=documents/books/karsten-1831-system-der-metallurgie.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

@@ -8,7 +8,7 @@ tags: [note, actor, research-institute, state-agency, norway, bioeconomy]
 
 > It is the instrument through which Norwegian agricultural research became one body rather than five. Before the merger, plant genetics, forest, agricultural economics, and applied agricultural research sat in separate institutes with separate mandates and separate relationships to the state. After it, they answer to one board, under one ministry, from one site at Ås. The institute defines the bioeconomy it serves in its own words: an economy that exploits biological resources from land and sea, and waste, as inputs for food, energy, and other goods and services.
 
-> Framed per [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md). The science it produces is decomposed as [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) and [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md); the instruments it runs are technique; the farming economy it serves is production.
+> Framed per [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md). The science it produces is decomposed as [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md) and [Earth Science](/view.html?p=notes/miscellanea/discipline/earth-science.md); the instruments it runs are technique; the farming economy it serves is production.
 
 ## Formulation
 
@@ -104,6 +104,8 @@ Lineage: scattered agricultural experiment stations and forestry research under 
 
 ## References
 
+- [Agricultural Research Organisations](/view.html?p=notes/technica/general/agro/agro.md#sec-research-organisations) — the register of institutes, funders, universities and databases this organisation belongs to
+
 - [NIBIO — About us](https://www.nibio.no/en/about-eng/about-us) (mission, legal form, size, sites)
 - [NIBIO — Our divisions](https://www.nibio.no/en/about-eng/our-divisions) (the five subject divisions)
 - [Norsk institutt for bioøkonomi — Wikipedia (no)](https://no.wikipedia.org/wiki/Norsk_institutt_for_bio%C3%B8konomi) (establishment date, merger parties, legal form, board, chief executives, services)
@@ -112,5 +114,5 @@ Lineage: scattered agricultural experiment stations and forestry research under 
 - [Brønnøysundregistrene — organization 988983837](https://virksomhet.brreg.no/nb/oppslag/enheter/988983837) (legal identity)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (decomposition schema; layer and facet test)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (the science this institute produces)
-- [Agricultural Science](/view.html?p=notes/epistemica/epistemic/discipline/agricultural-science.md) · [Earth Science](/view.html?p=notes/epistemica/epistemic/discipline/earth-science.md) (the domains NIBIO's output enters)
-- [Plant Genetic Improvement](/view.html?p=notes/technica/general/es/multinode/plant-genetic-improvement.md) (the activity its gene bank and breeding division feed)
+- [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md) · [Earth Science](/view.html?p=notes/miscellanea/discipline/earth-science.md) (the domains NIBIO's output enters)
+- [Plant Genetic Improvement](/view.html?p=notes/technica/general/plant-genetic-improvement.md) (the activity its gene bank and breeding division feed)

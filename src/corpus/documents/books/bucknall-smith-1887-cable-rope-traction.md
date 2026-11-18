@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — A treatise upon cable or rope traction (1887)](https://archive.org/details/atreatiseuponca00smitgoog)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

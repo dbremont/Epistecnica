@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Susruta Samhita (1889 edition)](https://archive.org/details/in.ernet.dli.2015.486259)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

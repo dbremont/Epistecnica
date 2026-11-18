@@ -27,4 +27,4 @@ qa:
 - [Archive.org — The theory and practice of brewing (1762)](https://archive.org/details/bim_eighteenth-century_the-theory-and-practice-_combrune-michael_1762)
 - [Archive.org — (1762, a further copy)](https://archive.org/details/theorypracticeof00comb)
 - [Archive.org — (1804 edition)](https://archive.org/details/b33285044)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

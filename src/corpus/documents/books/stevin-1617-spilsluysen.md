@@ -23,4 +23,4 @@ qa:
 ## References
 
 - [Archive.org — Nieuwe maniere van sterctebou door spilsluysen (1617)](https://archive.org/details/ned-kbn-all-00013787-002)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

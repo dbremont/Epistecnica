@@ -158,6 +158,20 @@ CFLAGS="-g -O0 -fPIC"`
 
 ![](https://ohmyz.sh/img/OMZLogo_BnW.png)
 
+## QA
+
+Understand how shells parse commands (quoting, globbing, expansion, completion).
+-  Which are the abstract descrptioj of the most repetiive task apears on my workflow on bash?
+        - [ ]  Coutnign the lines in a set of files.
+        - [ ]  Finding something nia tpye of file in a dir.
+        - [ ]  Getting the first column of the content rows.
+        - [ ]  How to substiiate text - Transform text
+        - [ ]  …
+        - [ ]  How to `improve` - …?
+        - [ ]  How does autocomplete workd ni zsh?
+        - [ ]  How `whence` works?
+-  How to join a set of lines - by space?
+
 ## References
 
 - https://zsh.sourceforge.io/Arc/source.html

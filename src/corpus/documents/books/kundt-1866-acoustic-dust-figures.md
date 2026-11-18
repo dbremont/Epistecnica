@@ -25,5 +25,5 @@ qa:
 
 ## References
 
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 - [Koenig, Catalogue des appareils d'acoustique (1889) — the apparatus economy Kundt's method fed](/view.html?p=documents/books/koenig-1889-catalogue-of-acoustic-instruments.md)

@@ -237,6 +237,8 @@ tags: [note]
 > Markdown, HTML, PDF, DOCX, XML, DITA XML, AsciiDoc, reStructuredText
 > 
 
+> One document type is treated in its own note: the [Design Document](/view.html?p=notes/technica/computation/system/documentation/design-document.md) — the artefact that argues a design decision before implementation, with its context, non-goals, alternatives, risks and rollout.
+
 ### Software API Specification Format
 
 | **Format** | **Description** |

@@ -27,4 +27,4 @@ qa:
 
 - [Liebig, Chemistry in Its Application to Agriculture and Physiology (1840) — the programme beside it](/view.html?p=documents/books/liebig-1840-chemistry-in-its-application-to-agriculture.md)
 - [Lawes and Gilbert, The Rothamsted Memoirs — the English experimental line](/view.html?p=documents/books/lawes-gilbert-rothamsted-memoirs.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

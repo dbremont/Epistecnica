@@ -27,4 +27,4 @@ qa:
 
 - [Archive.org — Dictionnaire raisonné de l'architecture française, tome 5 (1875)](https://archive.org/details/raisonnedelarchi05viol)
 - [Eiffel, La Tour de 300 mètres (1900) — the other end of the century's construction](/view.html?p=documents/books/eiffel-1900-tour-300-metres.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

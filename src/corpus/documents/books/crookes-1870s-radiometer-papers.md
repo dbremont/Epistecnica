@@ -26,4 +26,4 @@ qa:
 
 - [Crookes, Select Methods in Chemical Analysis (1871) — the same man's bench chemistry](/view.html?p=documents/books/crookes-1871-select-methods-chemical-analysis.md)
 - [Noad, A Manual of Electricity (1855) — the apparatus tradition the tubes entered](/view.html?p=documents/books/noad-1855-manual-of-electricity.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)

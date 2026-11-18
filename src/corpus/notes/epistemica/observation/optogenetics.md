@@ -113,7 +113,7 @@ tags: [note, experiment, method, optogenetics, neuroscience]
 ## Related
 
 - [Experimental Method](/view.html?p=notes/epistemica/observation/experimental-method.md) — the scope this routine belongs to; its perturbation exemplar.
-- [Data Collection](/view.html?p=notes/epistemica/observation/data-collection.md) — the collection techniques the readout half produces material for.
+- [Data Collection](/corpus/notes/epistemica/observation/organon.html) — the collection techniques the readout half produces material for.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) — the population-scale intervention, with the same necessity/sufficiency logic.
 - [Do-Calculus](/view.html?p=notes/epistemica/causality/do-calculus.md) — the formal reading of the intervention optogenetics performs physically.
-- [Biological Sciences](/view.html?p=notes/epistemica/epistemic/discipline/biological-sciences.md) — the practice that carries the method.
+- [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) — the practice that carries the method.

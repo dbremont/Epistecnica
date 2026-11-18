@@ -28,7 +28,7 @@ tags: [note, actor, person, trade, england]
 
 ## Place in the corpus
 
-He is carried by [The Art of Economic Statecraft](/view.html?p=notes/unclassified/the-art-of-economic-statecraft.md) for the *Essay* of 1695, among the seventeenth-century writers on trade and employment. What he contributes there is the **employment** argument: manufactures and shipping as the object of policy, and the poor as the population that policy must organise.
+He is carried by [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md) for the *Essay* of 1695, among the seventeenth-century writers on trade and employment. What he contributes there is the **employment** argument: manufactures and shipping as the object of policy, and the poor as the population that policy must organise.
 
 His Bristol is the reason the argument has a shape. A port city whose trade ran on sugar, tobacco and slaves, and whose poor relief ran on a corporation of the poor, is a place where the connection between commerce, employment and discipline is not an abstraction.
 
@@ -37,5 +37,5 @@ His Bristol is the reason the argument has a shape. A port city whose trade ran 
 - Cary, J. (1695). *An essay on the state of England, in relation to its trade, its poor, and its taxes, for carrying on the present war against France*. Bristol: W. Bonny. — [library entry](/view.html?p=documents/books/cary-1695-essay-on-the-state-of-england-bonny.md), with the Early English Books scan
 - Cary, J. (1717). *An essay towards regulating the trade, and employing the poor of this kingdom*. London.
 - Cary, J. (1745). *A discourse on trade, and other matters relative to it*. London: T. Osborne.
-- [The Art of Economic Statecraft](/view.html?p=notes/unclassified/the-art-of-economic-statecraft.md) — where he is cited for the 1695 essay
+- [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md) — where he is cited for the 1695 essay
 - [United Kingdom](/view.html?p=notes/social/collective/actor/public/polity/gbr/uk.md) — the polity whose industrial policy inherits the employment argument

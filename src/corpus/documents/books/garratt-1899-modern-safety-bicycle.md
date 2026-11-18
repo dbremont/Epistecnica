@@ -26,4 +26,4 @@ qa:
 
 - [Archive.org — The modern safety bicycle (1899)](https://archive.org/details/modernsafetybic00garrgoog)
 - [The Modern Bicycle and its Accessories (1898) — the trade annual beside the manual](/view.html?p=documents/books/modern-bicycle-1898-accessories.md)
-- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/unclassified/a-guide-to-historical-technical-literature.md)
+- [A Guide to Historical Technical Literature — the library guide](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
