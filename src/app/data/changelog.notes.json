@@ -122866,7 +122866,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "References and the conceptual-evaluation question. The References now open with Philosophia Socialium et Operis (the schema this note follows) and Philosophia Conceptuum et Operis (the criteria it is judged by), then Rights (the genus) and Asset (the object). The fifth Formulation question is answered against the conceptuum guide: a verdict first — ontologically sound as a Social Relation, structurally coherent, conceptually over-extended, so weak on identification, determinacy and misuse resistance — then the criteria table across Conceptual Specification, Representational Adequacy, Conceptual Economy, Epistemic Performance, Integration and Generality, Operational Validity and Normative and Strategic Adequacy."
+    "summary": "References and the conceptual-evaluation question. The References now open with Philosophia Socialium et Operis (the schema this note follows) and Philosophia Conceptuum et Operis (the criteria it is judged by), then Rights (the genus) and Asset (the object). The fifth Formulation question is answered against the conceptuum guide: a verdict first — ontologically sound as a Social Relation, structurally coherent, conceptually over-extended, so weak on identification, determinacy and misuse resistance — then the criteria table across Conceptual Specification, Representational Adequacy, Conceptual Economy, Epistemic Performance, Integration and Generality, Operational Validity and Normative and Strategic Adequacy.",
+    "commit": "8f9f5e6e17e9357dd6cb9dbbbb54e91d00938d33",
+    "before": "18926945a89ca83ded88ba26a4ac2c5376112eae"
    }
   ]
  }
