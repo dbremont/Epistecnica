@@ -167,10 +167,30 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Rights](/view.html?p=notes/social/normative/right.md) — the genus this concept specializes
 - [Asset](/view.html?p=notes/social/synontic/asset.md) — the object the relation ranges over
+- [Locke, J. (1690). *Two treatises of government*. Awnsham Churchill.](/view.html?p=documents/books/locke-1690-two-treatises-government-churchill.md) — the labour justification, stated as a right that precedes government
+- [Blackstone, W. (1766). *Commentaries on the laws of England* (Book II). Clarendon Press.](/view.html?p=documents/books/blackstone-1766-commentaries-laws-england-book-ii.md) — sole and despotic dominion: the absolute statement of the reading this note rejects
+- [Proudhon, P.-J. (1840). *Qu'est-ce que la propriété ?* Brocard.](/view.html?p=documents/books/proudhon-1840-quest-ce-que-la-propriete-brocard.md) — property as theft, and the critique the concept has never escaped
+- [Maine, H. S. (1861). *Ancient law*. John Murray.](/view.html?p=documents/books/maine-1861-ancient-law-murray.md) — from status to contract, and collective holding to individual title
+- [Hohfeld, W. N. (1913). Some fundamental legal conceptions as applied in judicial reasoning. *Yale Law Journal*, 23(1), 16–59.](/view.html?p=documents/articles/hohfeld-1913-some-fundamental-legal-conceptions-yale.md) — property dissolved into jural relations: right, duty, privilege, no-right
+- [Hohfeld, W. N. (1917). Fundamental legal conceptions as applied in judicial reasoning. *Yale Law Journal*, 26(8), 710–770.](/view.html?p=documents/articles/hohfeld-1917-fundamental-legal-conceptions-yale.md) — power and liability, immunity and disability: what a holder may change
+- [Commons, J. R. (1924). *Legal foundations of capitalism*. Macmillan.](/view.html?p=documents/books/commons-1924-legal-foundations-capitalism-macmillan.md) — the transaction as the unit, and property as a going concern
+- [Berle, A. A., & Means, G. C. (1932). *The modern corporation and private property*. Macmillan.](/view.html?p=documents/books/berle-means-1932-modern-corporation-private-property-macmillan.md) — ownership separated from control
+- [Honoré, A. M. (1961). Ownership. In A. G. Guest (Ed.), *Oxford essays in jurisprudence* (pp. 107–147). Oxford University Press.](/view.html?p=documents/books/honore-1961-ownership-oxford.md) — the eleven incidents of ownership
+- [Nicholas, B. (1962). *An introduction to Roman law*. Clarendon Press.](/view.html?p=documents/books/nicholas-1962-introduction-roman-law-oxford.md) — *dominium*, *possessio*, usufruct and servitude, the vocabulary of the title branch
+- [Demsetz, H. (1967). Toward a theory of property rights. *American Economic Review*, 57(2), 347–359.](/view.html?p=documents/articles/demsetz-1967-toward-theory-property-rights-american-economic-review.md) — why a regime forms: the internalisation of an externality
+- [Merryman, J. H. (1969). *The civil law tradition*. Stanford University Press.](/view.html?p=documents/books/merryman-1969-civil-law-tradition-stanford.md) — unified ownership in the civil law against the bundle of estates in the common law
+- [Alchian, A. A., & Demsetz, H. (1973). The property right paradigm. *Journal of Economic History*, 33(1), 16–27.](/view.html?p=documents/articles/alchian-demsetz-1973-property-right-paradigm-journal-economic-history.md) — property as the allocation of decision rights
+- [Watson, A. (1981). *The making of the civil law*. Harvard University Press.](/view.html?p=documents/books/watson-1981-making-civil-law-harvard.md) — the concept travels by legal transplant, not by social necessity
+- [Radin, M. J. (1982). Property and personhood. *Stanford Law Review*, 34(5), 957–1015.](/view.html?p=documents/articles/radin-1982-property-personhood-stanford-law-review.md) — personal property against fungible property: the holder's relation changes the right
+- [Berman, H. J. (1983). *Law and revolution*. Harvard University Press.](/view.html?p=documents/books/berman-1983-law-revolution-harvard.md) — the Western legal tradition in which the categories were formed
+- [Ostrom, E. (1990). *Governing the commons*. Cambridge University Press.](/view.html?p=documents/books/ostrom-1990-governing-commons-cambridge.md) — common property as a regime, and open access as the absence of one
+- [Rose, C. M. (1994). *Property and persuasion*. Westview Press.](/view.html?p=documents/books/rose-1994-property-persuasion-westview.md) — ownership established by a claim that persuades
+- [Penner, J. E. (1997). *The idea of property in law*. Oxford University Press.](/view.html?p=documents/books/penner-1997-idea-property-law-oxford.md) — the bundle's best critique: property as a right to exclude
+- [de Soto, H. (2000). *The mystery of capital*. Basic Books.](/view.html?p=documents/books/desoto-2000-mystery-capital-basic.md) — dead capital, and titling as the creation of a holder
+- [Property](https://en.wikipedia.org/wiki/Property)
 - [Zaibatsu](https://en.wikipedia.org/wiki/Zaibatsu)
 - Keiretsu
 - Chaebol
 - [Business Conglomerate](https://en.wikipedia.org/wiki/Conglomerate_(company))
-- [Property](https://en.wikipedia.org/wiki/Property)
 - https://www.bbva.ch/en/blog/innovacion/blockchain/hacia-un-mundo-tokenizado-en-2030-el-10-del-pib-mundial-se-movera-en-tokenes.html
 - https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-tokenization
