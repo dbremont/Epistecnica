@@ -101,7 +101,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) (government subtype; carries the agency-space QA)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (warranted teaching body)
 - [University](/view.html?p=notes/social/actor/university.md) (chartered corporation of scholars: the degree-conferring kind of education actor)
-- [Public Research Institutes](/view.html?p=notes/social/actor/public/catalog/pri.md) (public-research role)
+- [Public Research Institutes](/view.html?p=notes/social/actor/public/instance/pri.md) (public-research role)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (research-functional subtype hub: the research actor family)
 - [Finance Actor](/view.html?p=notes/social/actor/finance.md) (finance-functional subtype hub: the finance actor family)
 - [Political Party](/view.html?p=notes/social/actor/political-party.md) (political subtype)

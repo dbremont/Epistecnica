@@ -93,4 +93,4 @@ QA:
 
 - [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Type/Firm/)
 - [Value-stream mapping](https://en.wikipedia.org/wiki/Value-stream_mapping)
-- [Digitalization](/view.html?p=notes/technica/breviarium/technique/regime/digitalization.md)
+- [Digitalization](/view.html?p=notes/technica/general/breviarium/technique/regime/digitalization.md)

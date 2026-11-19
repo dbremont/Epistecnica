@@ -54,5 +54,5 @@ It is distinct from the `Institution` it helps constitute — the foral regime w
 - Garcia Edo, Vicent (1996). «La redacción y promulgación de la "Costum" de Valencia». *Anuario de estudios medievales* 26(2): 713–728.
 - *Furs e ordinacions del regne de Valencia* (1482), Lambert Palmart.
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Rule](/view.html?p=notes/social/action/guidance/rule.md) (the codified-constraint element type)
+- [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) (the codified-constraint element type)
 - [Licensing Regime](/view.html?p=notes/social/normative/institution/licensing-regime.md) (a sibling institution whose rules allocate rights)

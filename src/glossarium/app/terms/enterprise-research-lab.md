@@ -9,5 +9,5 @@ The enterprise lab is the institutional form in which industrial research become
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [An Essay on Enterprise Research Labs](/view.html?p=notes/technica/breviarium/an-essay-on-enterprise-research-labs.md)
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
+- [An Essay on Enterprise Research Labs](/view.html?p=notes/technica/general/breviarium/an-essay-on-enterprise-research-labs.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)

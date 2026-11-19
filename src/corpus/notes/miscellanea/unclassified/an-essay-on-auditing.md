@@ -21,4 +21,4 @@ Status: Not started
 
 - ‣
 - https://en.wikipedia.org/wiki/Quality_control
-- [Audit](/view.html?p=notes/social/action/activity/audit.md) — the type this essay is about: elements, types, independence and failure modes
+- [Audit](/view.html?p=notes/social/dynamic/audit.md) — the type this essay is about: elements, types, independence and failure modes

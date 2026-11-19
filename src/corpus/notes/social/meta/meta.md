@@ -12,12 +12,14 @@ tags: [note, meta, social-ontology]
 
 | Note | Answers |
 | --- | --- |
-| [Facet](/view.html?p=notes/social/meta/facet.md) | What a facet is, the authoritative catalogue of facets in use, facet against field, and facets against layers. |
+| [Facet](/view.html?p=notes/social/meta/facet.md) | What a facet is, the authoritative catalogue of facets in use, facet against field, facets against layers, and the contract a per-facet note follows. |
 | [Social Ontology](/view.html?p=notes/social/meta/social-ontology.md) | What the elements of social reality are, and the formalism that types them. |
+| [Social Element Types](/view.html?p=notes/social/meta/social-element-types.md) | What element types the corpus types against, the categories its notes declare, and which of them the guide licenses. |
+| [Structure](/view.html?p=notes/social/meta/structure.md) | Why *structure* is an analytical construct rather than an element type, and what the structural reading still has to explain. |
+| [Region](/view.html?p=notes/social/meta/region.md) | The spatial delimitation concept — paired with Facet, and the scale ladder a region is read on. |
 | [Multi Layer](/view.html?p=notes/social/meta/multi-layer.md) | The element that inhabits more than one analytical layer at once — ontic and synontic, for instance. |
 | [Reflexivity](/view.html?p=notes/social/meta/reflexivity.md) | The fact that agents interpret the structures they are part of, and thereby alter them. |
 | [Contingency](/view.html?p=notes/social/meta/contingency.md) | The fact that a social arrangement could have been otherwise, so that its persistence needs explaining. |
-| [Facet Scope](/view.html?p=notes/social/meta/facet/facet.md) | The contract for a per-facet note, and the three in use. |
 
 The last three are placeholders: they are named and held in the shelf so the schema has a home, and they still wait for the note that states them.
 
@@ -38,5 +40,4 @@ Keeping them as separate notes also keeps the facet catalogue usable as a catalo
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Social Ontology](/view.html?p=notes/social/meta/social-ontology.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
-- [Facet Scope](/view.html?p=notes/social/meta/facet/facet.md)
 - [Meta Tecnica](/view.html?p=notes/technica/meta/tecnica.md) (the same shelf in the technica corpus)

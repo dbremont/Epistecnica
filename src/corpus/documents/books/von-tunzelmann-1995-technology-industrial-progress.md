@@ -26,6 +26,6 @@ tags: [document, book, economics, technology, industrial-history, growth]
 ## References
 
 - [Archive.org — Technology and Industrial Progress (von Tunzelmann)](https://archive.org/details/technologyindust0000vont)
-- [Technology](/view.html?p=notes/social/structural/technical/technology.md) — the concept under examination
+- [Technology](/view.html?p=notes/technica/meta/tecnica.md) — the concept under examination
 - [Innovation](/view.html?p=notes/miscellanea/discipline/innovation.md) — the discipline the survey serves
 - [Economic Research](/view.html?p=notes/miscellanea/discipline/economic-research.md) — the research practice

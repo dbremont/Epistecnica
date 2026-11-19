@@ -11,6 +11,6 @@ Read as the **technical facet of humanity**, technicity is the dimension of huma
 ## References
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)
 - [Homo Faber](/glossarium/?t=homo-faber)
 - Simondon, Gilbert, Ninian Mellamphy, and John Hart. On the mode of existence of technical objects. London: University of Western Ontario, 1980.

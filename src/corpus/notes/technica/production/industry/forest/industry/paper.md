@@ -36,4 +36,4 @@ tags: [note, production]
 * [The Navigator Company](https://en.wikipedia.org/wiki/The_Navigator_Company)
 * [Cluster Madeira](https://clustermadeira.com/)
 * [Pulp and Paper Industry](https://en.wikipedia.org/wiki/Pulp_and_paper_industry)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

@@ -29,4 +29,4 @@ tags: [document, book, military, history, memoir]
 
 - [Georgy Zhukov](/view.html?p=notes/social/actor/private/persona/georgy-zhukov.md) — the author, and the commands the memoir records
 - [Antoine-Henri Jomini](/view.html?p=notes/social/actor/private/persona/antoine-henri-jomini.md) — the operational vocabulary the war was fought with
-- [Strategy](/view.html?p=notes/social/action/guidance/strategy.md) — the guidance frame
+- [Strategy](/view.html?p=notes/social/dynamic/action/guidance/strategy.md) — the guidance frame

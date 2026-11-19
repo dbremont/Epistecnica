@@ -24,5 +24,5 @@ Is poverty a lack of resources, a lack of productive capacities, or exclusion fr
 
 ## Refernces
 
-- [Poverty Rate](../social/dynamic/state/economic/social/poverty.md)
+- [Poverty Rate](../social/observation/state/poverty.md)
 - [Cartilla minima para razonar sobre  el desarrollo economico: marcos y modelos](cartilla-minima-para-razonar-sobre-el-desarrollo-economico-marcos-y-modelos.md)

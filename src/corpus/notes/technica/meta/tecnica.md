@@ -17,7 +17,105 @@ tags: [note, technica, meta]
 - **Technique and the human** — the maker, the operator, the user; the question of what technique does to the one who exercises it.
 - **The limits of technical rationality** — what cannot be decided technically, and what the attempt to decide it technically costs.
 
-> The scope is deliberately thin at present: it names the questions and holds the place. The substantive work sits in the notes it points to — [Technique](/view.html?p=notes/technica/meta/technique.md), the [technical-object taxonomy](/view.html?p=notes/technica/technical-object-taxonomy.html), and the [atlas](/view.html?p=notes/technica/atlas.html) — and in the philosophia that governs them.
+> The scope is deliberately thin at present: it names the questions and holds the place. The substantive work sits in the notes it points to — [Technique](/view.html?p=notes/technica/meta/technique.md), [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md), the [technical-object taxonomy](/view.html?p=notes/technica/technical-object-taxonomy.html), and the [atlas](/view.html?p=notes/technica/atlas.html) — and in the philosophia that governs them. The section below, **On Technology**, keeps the concept survey the corpus used to keep in a separate note.
+
+## On Technology
+
+> Technology is a concept of great importance, yet one often surrounded by ambiguity, reductionism and confusion. Understanding what it signifies is essential for clarifying its role in development, policy and the organization of productive systems.
+
+### Notions of Technology
+
+> What are the various levels at which the same element can be understood? How is technology commonly understood? What are the limits of this understanding?
+
+> Among the lay public, the most common notion — or level of understanding — of the element denoted by the word *technology* is that of tools, gadgets and devices. That level is not useful for development policy: it focuses on the **results** of technical research rather than on the whole process — from technical research, through technical constructs, to technical objects designed for consumption or for enabling production — and on the social organization that sustains and evolves around it.
+
+1. **Lay public** — technology as modern tools, gadgets and machines: tangible symbols of progress and convenience, equated with innovation or advancement and stripped of context, technique and systemic interdependence.
+2. **Economist** — technology as a production factor or productivity driver, often modelled as an exogenous variable in growth functions (the Solow model's "technological progress"), equated with efficiency, innovation or knowledge capital.
+3. **Sociologist** — technology as a social construct and mediator: a network of human and non-human actors (Latour, Callon), or material culture shaping behaviour and institutions.
+4. **Engineer** — technology as a body of applied knowledge: the systematic use of scientific principles to design and operate technical systems.
+
+### Formulation
+
+> Technology is best deconstructed into two components: technical objects and techniques — with techniques further divided into constitutive and operative techniques.
+
+> **Technical objects** are physical or digital artifacts, systems or devices created to perform specific functions. They embody the constitutive techniques that enable their operation and are the material manifestation of technology, making techniques usable in practical contexts.
+
+> **Technology:** technical research → technique → technique used.
+>
+> **Innovation:** the transformation of a transformation, **(X → Y) → (X → better Y)** — technical R&D.
+
+### Technical Research
+
+> **Technical research** is systematic inquiry into the underlying principles, mechanisms and possibilities of technical functioning — the ways matter, energy or information can be transformed, controlled or organized to achieve desired outcomes. Its output is new technique.
+
+> Technical research provides the foundation on which innovation builds: it expands the space of technical possibilities that firms later apply, combine or commercialize. Research aims to discover and validate new techniques; innovation aims to apply and exploit them in practical or market contexts.
+
+| Aspect | **Technical Research** | **Innovation in Firms** |
+| --- | --- | --- |
+| **Purpose** | Expand technical knowledge and feasibility. | Apply technical knowledge for competitive or market advantage. |
+| **Output** | New or improved techniques. | New or improved products, services or business models. |
+| **Evaluation** | Technical validity, novelty and performance. | Market adoption, profitability and impact. |
+| **Orientation** | Exploratory, knowledge-generating. | Applied, value-generating. |
+| **Temporal Role** | Precedes and enables innovation. | Implements and commercializes research outcomes. |
+
+### Technique
+
+> A **technique** is a structured method of action that mobilizes knowledge, tools and materials to produce a determined transformation in matter, energy or information. Technical knowledge is the mastery of a technique: it combines understanding how something works with the practical ability to apply it, so it is both know-how and skill embedded in the use or creation of technical objects and processes.
+
+> Genetic modification is not a technical object — it is not a thing manipulated in the world by itself — and it is not an operative technique unless one counts a specific lab protocol. It is a constitutive technique, part of the deep technical knowledge that underlies applied operations. A constitutive technique need not underlie only technical objects; it can also directly underpin processes or methods, as genetic modification does.
+
+| **Type** | **Description** | **Case(s)** |
+| --- | --- | --- |
+| **Constitutive Technique** | Underlies the technical objects that enable production; built into the object's functioning or structure. | Doping in semiconductors, alloying in metallurgy, fermentation in bioprocessing. |
+| **Operative Technique** | Governs the use, operation and coordination of those objects within productive systems. | CNC machine operation, assembly-line balancing, reactor control. |
+
+### Case Study
+
+> How does an industry embody the process from technical research to technical construct and ultimately to product?
+
+> This table is **WRONG**; only the spirit is right.
+
+| **Industry** | **Technical Research** | **Constitutive Technique(s)** | **Operative Technique(s)** | **Product** |
+| --- | --- | --- | --- | --- |
+| **Semiconductors** | Materials science, nanolithography, transistor physics | Doping, photolithography, chemical vapor deposition, etching | Process integration, yield optimization, scaling management | Microprocessors, memory chips, SoC devices |
+| **Aerospace** | Aerodynamics, propulsion, materials engineering | Composite molding, turbine design, avionics integration | Thrust vectoring, flight control, maintenance diagnostics | Aircraft, satellites, drones |
+| **Agricultural Machinery** | Soil mechanics, hydraulics, automation control | Hydraulic actuation, power transmission, machine design | Precision guidance, adaptive soil–tool interaction | Smart tractors, autonomous harvesters |
+| **Biopharmaceuticals** | Molecular biology, protein engineering, bioprocess design | Fermentation, chromatography, cell culture, purification | Process control, scaling, aseptic handling | Vaccines, monoclonal antibodies, biosimilars |
+| **Automotive (EV)** | Electrochemistry, power electronics, control systems | Battery chemistry, inverter design, motor control architecture | Regenerative braking, power management, diagnostics | Electric vehicles, battery packs |
+| **Renewable Energy (Solar)** | Photovoltaic physics, material science, energy conversion | Thin-film deposition, doping, lamination | Tracking systems, energy conversion optimization | Solar panels, integrated solar systems |
+| **Telecommunications** | Signal theory, electromagnetic propagation, optical systems | Modulation, multiplexing, encoding | Network routing, load balancing, error correction | Routers, smartphones, base stations |
+| **Computing / AI Systems** | Parallel computing, machine learning, chip architecture | Hardware acceleration, quantization, tensor computation | Model training, optimization, inference scheduling | AI models, computing platforms, digital tools |
+| **Construction & Materials** | Structural dynamics, composite design, automation | Prefabrication, 3D printing, reinforcement design | Robotic assembly, project sequencing, BIM coordination | Modular buildings, infrastructure systems |
+| **Shipbuilding** | Hydrodynamics, propulsion, naval architecture | Hull shaping, propulsion coupling, material treatment | Navigation control, safety operations, maintenance logistics | Cargo ships, naval vessels |
+| **Mining & Mineral Processing** | Ore characterization, process chemistry, automation | Drilling, separation, flotation | Process monitoring, ore blending, system optimization | Refined metals, industrial minerals |
+| **Textiles** | Polymer chemistry, weaving mechanics, finishing processes | Spinning, weaving, dyeing | Quality control, pattern design, finishing optimization | Technical fabrics, garments |
+| **Food Processing** | Food chemistry, preservation, packaging | Fermentation, dehydration, sterilization | Batch control, temperature regulation, safety inspection | Processed foods, beverages |
+| **Healthcare Devices** | Biomedical engineering, signal acquisition, materials science | Imaging, biosensing, additive manufacturing | Calibration, patient interfacing, feedback control | MRI scanners, prosthetics, smartwatches |
+| **Rail & Transport Systems** | Mechanical engineering, systems automation, power electronics | Traction motor design, signaling circuits | Speed control, route management, energy recovery | High-speed trains, metro systems |
+| **Information Systems** | Software engineering, data modeling, network design | Modularity, encryption, data structuring | Deployment, version control, orchestration | Platforms, enterprise software, web applications |
+
+### Technology-Specific Terms
+
+> The technology vocabulary is defined in the Glossarium — [Technology](/glossarium/?t=technology), [Technical Object](/glossarium/?t=technical-object), [Technique](/glossarium/?t=technique), [Technical Research](/glossarium/?t=technical-research), [Technical Knowledge](/glossarium/?t=technical-knowledge), [Technical Genesis](/glossarium/?t=technical-genesis). The terms this section adds:
+
+| Term | Definition |
+| --- | --- |
+| **Constitutive Technique** | The technique embedded in the structure or function of an object or process (doping, alloying, fermentation, genetic modification). |
+| **Operative Technique** | The technique that governs the use and coordination of objects within a productive system (CNC operation, assembly-line balancing). |
+| **Production Technical Object (Capital Good)** | A technical object used directly for production rather than consumption. |
+| **Constitutive Technical Object** | A technical object forming an integral, functional part of a final product (a microchip in a phone, a battery in an EV). |
+| **Technogenesis (Tecnogenia · Innovación Tecnológica)** | The process by which new techniques, objects and systems originate and evolve — discovery, experimentation, recombination, and the institutional processes through which capabilities stabilize. |
+| **Technogenetic Capacity (Potentia Tecnogenética · Innovative Capability · Technological Capability)** | The generative capacity of an actor to produce technogenesis: to originate new techniques, objects and systems through research, experimentation and recombination. |
+
+### QA
+
+#### Why is a bicycle a technical object?
+
+> A bicycle is a technical object because it is a designed artifact that embodies techniques and materials to perform a specific function — transporting a person efficiently.
+
+#### Which products are not technical objects?
+
+> Products that exist in their natural state or require no applied techniques to function are not technical objects: unprocessed water, fresh fruits and vegetables, raw minerals and unprocessed natural resources.
 
 ## Terminology
 
@@ -209,9 +307,13 @@ tags: [note, technica, meta]
 | **[Absorptive Capacity](/glossarium/?t=absorptive-capacity)** | An organization's ability to acquire, assimilate and apply new knowledge. |
 | **[Technical Element Development](/glossarium/?t=technical-element-development)** | The changes through which an element acquires its constitution and capabilities — the life-cycle phase and the realization-chain step. |
 | **[Technical Element Transfer](/glossarium/?t=technical-element-transfer)** | The movement of an element, or of the capability to make it, between agents, organizations or contexts. |
+| **[Technical Element Acquisition](/glossarium/?t=technical-element-acquisition)** | The obtaining of an element, or of the right and capability to use it, through purchase, licence, transfer or in-house development. |
 | **[Technical Element Commercialization](/glossarium/?t=technical-element-commercialization)** | The transformation of a development into a commercially exploitable product, service or process. |
 | **[Technical Element Industrialization](/glossarium/?t=technical-element-industrialization)** | The establishment of the technical and organizational conditions for industrial-scale production. |
+| **[Technical Adoption](/glossarium/?t=technical-adoption)** | The organizational decision and process by which an external technique, element or system is taken into use, including acquisition, adaptation, assimilation and routinization. |
 | **[Technical Element Adoption](/glossarium/?t=technical-element-adoption)** | The acquisition and incorporation of an element by an organization or technical system. |
+| **[Technical Element Assimilation](/glossarium/?t=technical-element-assimilation)** | The integration of an acquired element into the adopter's routines and knowledge, turning access into durable use. |
+| **[Technology Indigenization](/glossarium/?t=technology-indigenization)** | The reproduction, adaptation, improvement and proprietary development of an introduced technology until the domestic capability no longer depends on the external source. |
 | **[Technical Element Integration](/glossarium/?t=technical-element-integration)** | The incorporation of an element into an existing architecture or operational environment. |
 | **[Technical Element Absorption](/glossarium/?t=technical-element-absorption)** | The acquisition of the knowledge and capability needed to understand, operate, adapt and develop an external element. |
 | **[Technical Element Deployment](/glossarium/?t=technical-element-deployment)** | The introduction of an element into an operational environment. |
@@ -285,4 +387,16 @@ tags: [note, technica, meta]
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the canonical guide for the technica corpus
 - [Philosophy of technology — Wikipedia](https://en.wikipedia.org/wiki/Philosophy_of_technology)
 - [Technique](/view.html?p=notes/technica/meta/technique.md) — the technica concept note
+- [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md) — the activity kind and its social reading
 - [Epistemica](/view.html?p=notes/epistemica/meta/theory/epistemology.md) — the epistemic scope the mirror belongs to
+- [Technology — Wikipedia](https://en.wikipedia.org/wiki/Technology)
+- [Technolog Catalog](https://www.bremontix.xyz/lab/pro/Catalog/Technology/)
+- [Why the USSR failed — and China succeeded](https://kamilkazani.substack.com/p/why-the-ussr-failed)
+- Gilbert Simondon, *Du mode d'existence des objets techniques*.
+- Nathan Rosenberg, *Inside the Black Box: Technology and Economics*.
+- Bernard Stiegler, *Technics and Time*.
+- Paul Romer, endogenous growth literature (1990s).
+- Joseph Schumpeter, *Capitalism, Socialism and Democracy* (1942).
+- Richard Nelson and Sidney Winter, *An Evolutionary Theory of Economic Change* (1982).
+- [Von Tunzelmann (1995) — Technology and Industrial Progress](/view.html?p=documents/books/von-tunzelmann-1995-technology-industrial-progress.md) — what the evidence says about technology as cause or symptom of industrial progress.
+- [Landau & Rosenberg (1986) — The Positive Sum Strategy](/view.html?p=documents/books/rosenberg-1986-positive-sum-strategy-harnessing-technology.md) — technology as the source of non-zero-sum growth.

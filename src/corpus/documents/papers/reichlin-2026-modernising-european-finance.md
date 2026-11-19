@@ -22,11 +22,11 @@ tags: [document, paper, european-union, finance, policy]
 
 > The recurring obstacle it has to address is political rather than technical: the single market in capital requires **common supervision and a common safe asset**, and both transfer authority that member states have kept. The paper's argument is that the cost of not acting — a fragmented market that cannot finance the scale of the transition — is now larger than the sovereignty it protects.
 
-> Read against the corpus's [productive policy](/view.html?p=notes/social/action/public/productive-policy.md) notes, this is the **finance-side** of industrial policy: a capital-market union is the instrument that lets European savings fund European firms, which is what industrial policy needs when it stops subsidising and starts financing.
+> Read against the corpus's [productive policy](/view.html?p=notes/social/dynamic/action/public/productive-policy.md) notes, this is the **finance-side** of industrial policy: a capital-market union is the instrument that lets European savings fund European firms, which is what industrial policy needs when it stops subsidising and starts financing.
 
 ## References
 
 - [Reichlin (2026) — CEPR](https://cepr.org/publications/modernising-european-finance-steps-we-can-take)
 - [Finance — industry readme](/view.html?p=notes/technica/production/industry/finance/readme.md) — the sector the paper reforms
-- [Productive Policy](/view.html?p=notes/social/action/public/productive-policy.md) — the policy frame it serves
-- [European Union — smart specialisation case](/view.html?p=notes/social/action/public/informe/policy/eu-smart-specialisation-strategy.md) — the industrial-policy counterpart
+- [Productive Policy](/view.html?p=notes/social/dynamic/action/public/productive-policy.md) — the policy frame it serves
+- [European Union — smart specialisation case](/view.html?p=notes/social/dynamic/action/public/informe/policy/eu-smart-specialisation-strategy.md) — the industrial-policy counterpart

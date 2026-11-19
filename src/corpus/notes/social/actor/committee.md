@@ -81,6 +81,6 @@ The kind is not one thing: **standing**, **select**, **joint**, **conference**, 
 - [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) (the genus whose kind this is)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) (the parent assembly whose business the committee prepares)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body contrast: a board decides, a committee prepares and reports)
-- [Charter](/view.html?p=notes/social/action/organization/charter.md) (the instrument form a committee's terms of reference take)
-- [Rule](/view.html?p=notes/social/action/guidance/rule.md) (the standing orders under which a committee is constituted)
+- [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md) (the instrument form a committee's terms of reference take)
+- [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) (the standing orders under which a committee is constituted)
 - [Social Role](/view.html?p=notes/social/synontic/role.md) (member, chair, deputy, and rapporteur roles)

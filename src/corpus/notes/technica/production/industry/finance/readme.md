@@ -454,7 +454,7 @@ Ontic - Epistemic Category:
 
 - [Fixed-Income Modelling](/view.html?p=notes/technica/production/industry/finance/fixed-income-modelling.md) — the modelling stack for the debt assets: cash flows, pricing, curves, dynamics, credit and risk
 
-- [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+- [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 - [Financial Sector](https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/financial-sector/)
 - [Financial Srvices](https://en.wikipedia.org/wiki/Financial_services)
 - [Global Industry Classification Standard](https://en.wikipedia.org/wiki/Global_Industry_Classification_Standard)

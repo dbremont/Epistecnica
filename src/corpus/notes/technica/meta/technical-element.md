@@ -28,21 +28,31 @@ That broadness is deliberate. It is what lets a bridge, a protocol, a tolerance,
 
 Read the [Technica Atlas](/view.html?p=notes/technica/atlas.html) for the merged instance tree, the [Technical-Object Taxonomy](/view.html?p=notes/technica/technical-object-taxonomy.html) for the classification of objects, and [Meta Tecnica](/view.html?p=notes/technica/meta/tecnica.md) for the vocabulary in which the decomposition is stated.
 
-## The realization chain
+## Technical Element Production Activity Set
 
 > The **realization chain** is the sequence through which a technical possibility becomes a working element: conception, invention, research, design, development, production and deployment.
 
-| Step | What it produces | Its characteristic failure |
-| --- | --- | --- |
-| **Conception** | The identification of a possibility, a need or a technical problem worth acting on. | The problem is mis-stated, and everything after it is competent work on the wrong object. |
-| **Invention** | A new principle, arrangement or method — a possibility that did not exist. | The principle works in the abstract and does not survive contact with a material. |
-| **Research** | The knowledge and mechanisms the realization requires. | The investigation answers a question adjacent to the one the design needs. |
-| **Design** | A generative description: structure, properties, interfaces, tolerances. | The requirements are each satisfied and the configuration is infeasible. |
-| **Development** | A working instance, plus the knowledge of how to make more. | The prototype works and the process that made it does not scale. |
-| **Production** | Reproducible instances at a cost and a rate. | Capability exists at pilot scale and not at volume. |
-| **Deployment** | An element in an operational environment. | Integration, support and skills were assumed rather than provided. |
+> Technical Element Production Activity Set.
 
-The chain is analytic, not chronological dogma: the steps overlap, iterate and repeat. Its value is that each step answers a different question, and collapsing two of them hides the work the other does. A principle that has not been designed is not yet an element; an element that has not been deployed is not yet in operation.
+| Category | Activity | Description | Output | Activity Linkage | Case |
+|---|---|---|---|---|---|
+| **Problem Formulation** | Conception | Identifying and formulating a technical problem, need or opportunity. | Technical problem, concept or opportunity. | Initiates research or realization activities. | Identifying the need for a new semiconductor fabrication process. |
+| **Technical Research** | Basic Research | Investigating fundamental phenomena, principles and relationships relevant to technical domains. | Fundamental technical knowledge and discoveries. | Provides knowledge for exploratory and applied research. | Investigating electron transport in semiconductor materials. |
+| **Technical Research** | Exploratory Research | Investigating insufficiently understood technical phenomena, possibilities and problem spaces. | New hypotheses, discoveries and research directions. | Can initiate further basic or applied research. | Exploring alternative semiconductor materials. |
+| **Technical Research** | Applied Research | Investigating specific technical problems to establish practical solutions. | Technical knowledge, methods, inventions and potential solutions. | Provides results for design and engineering realization. | Investigating a new transistor architecture. |
+| **Technical Specification** | Design | Establishing the technical architecture, configuration, properties, interfaces and requirements of an element. | Technical designs and specifications. | Guides engineering development. | Designing a transistor architecture. |
+| **Engineering Realization** | Development | Engineering and constructing a functional realization while resolving implementation problems. | Functional prototype or preliminary technical instance. | Implements and refines the technical design. | Developing a transistor prototype. |
+| **Technical Examination** | Testing | Examining technical characteristics, behavior and performance under defined conditions. | Test results and performance evidence. | Informs development, modification and validation. | Measuring transistor switching performance. |
+| **Technical Qualification** | Verification | Establishing whether the realization conforms to its specified requirements. | Verification results. | Supports validation and production approval. | Verifying transistor dimensions against specifications. |
+| **Technical Qualification** | Validation | Establishing whether the realization satisfies its intended purpose and operational requirements. | Validation results and qualified realization. | Supports industrialization and deployment. | Validating transistor performance in its intended circuit. |
+| **Industrial Preparation** | Industrialization | Establishing production processes, infrastructure, equipment and capabilities for reproducible manufacturing. | Industrial production capability. | Prepares the realization for production. | Establishing semiconductor fabrication processes. |
+| **Technical Production** | Production | Manufacturing or constructing reproducible instances of a technical element. | Produced technical instances. | Supplies elements for deployment or integration. | Manufacturing semiconductor chips. |
+| **Operational Introduction** | Deployment | Introducing a technical element into its intended operational environment. | Operational technical element. | Connects production or realization with operational use. | Integrating chips into electronic devices. |
+| **Technical Modification** | Modification | Changing the configuration, properties or structure of an existing element. | Modified technical element. | Can initiate further testing and validation. | Modifying a turbine blade geometry. |
+| **Technical Adaptation** | Adaptation | Changing an element to accommodate different requirements or operating environments. | Adapted technical element. | Often involves redesign and development. | Adapting industrial machinery to a different production environment. |
+| **Technical Improvement** | Improvement | Enhancing the properties, performance, reliability or capabilities of an existing element. | Improved technical element. | Can result from research, testing or operational feedback. | Improving battery energy density. |
+| **Technical Integration** | Integration | Combining technical elements into a functioning larger configuration. | Integrated technical system. | Depends on compatible component designs and interfaces. | Integrating sensors, controllers and actuators into an automation system. |
+| **Technical Maintenance** | Maintenance | Preserving or restoring the required condition and operational capabilities of an element. | Maintained or restored technical element. | Recurrent throughout operational existence. | Maintaining industrial machinery. |
 
 ### The chain's transactions
 

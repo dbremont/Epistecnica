@@ -18,6 +18,6 @@ For the element-scoped reading — what moves when a technique or artifact cross
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
-- [Licensing](/view.html?p=notes/social/structural/technical/interaction/licensing.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
+- [Licensing](/view.html?p=notes/social/dynamic/research/interactions/licensing.md)
 - [Technology Diffusion in Early 19th-Century Europe](/view.html?p=notes/miscellanea/unclassified/on-the-diffusion-of-technology-in-early-19th-century-europe.md)

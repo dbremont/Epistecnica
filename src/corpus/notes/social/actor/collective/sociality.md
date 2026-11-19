@@ -70,5 +70,5 @@ The costs are as real as the benefits. A group is easier to find, a disease trav
 - [Sociality](https://en.wikipedia.org/wiki/Sociality)
 - [Organism](/view.html?p=notes/nature/life/organism/organism.md) — the bearer of the propensity
 - [Adaptation](/view.html?p=notes/nature/adaptation.md) — the heritable-fit reading, where sociality is an adaptation
-- [Social Behavior](/view.html?p=notes/social/action/behavior/social-behavior.md) — the behavioural reading, on the social shelf
+- [Social Behavior](/view.html?p=notes/social/dynamic/behavior/social-behavior.md) — the behavioural reading, on the social shelf
 - [Society](/view.html?p=notes/social/actor/collective/society.md) — the social compound human sociality constitutes

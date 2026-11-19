@@ -144,7 +144,7 @@ Dataset
 * [Bremontix Ars](https://righteous-guardian-68f.notion.site/In-136c0f5171ec80f9a969eb374ac750c6?source=copy_link)
 * Software Technology
 * Technology
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 * [Taxonomy of Software Products](https://righteous-guardian-68f.notion.site/Computational-System-Space-195c0f5171ec80dc9d11e8dc52cbad9c?source=copy_link)
 * [Software Market Size](https://www.grandviewresearch.com/industry-analysis/software-market-report)
 * [The Software Complexity of Nations](https://arxiv.org/abs/2407.13880)

@@ -68,4 +68,4 @@ Value Chain Mapping
 
 ## References
 
-- [Cluster](../social/action/problem/dimension/production/cluster/cluster.md)
+- [Cluster](../social/dynamic/action/public/problem/dimension/production/cluster/cluster.md)

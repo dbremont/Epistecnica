@@ -32,8 +32,8 @@ tags: [note, actor, public-organization]
 
 ## Instances
 
-- [Business Development Bank of Canada](/view.html?p=notes/social/actor/public/catalog/finance/business-development-bank-of-canada.md) — a Crown corporation
-- [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/catalog/finance/scottish-national-investment-bank.md) — the company-form counter-case, chosen for equity powers
+- [Business Development Bank of Canada](/view.html?p=notes/social/actor/public/instance/finance/business-development-bank-of-canada.md) — a Crown corporation
+- [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/instance/finance/scottish-national-investment-bank.md) — the company-form counter-case, chosen for equity powers
 - The BBC — the older statutory-corporation archetype, chartered rather than owned
 
 ## References

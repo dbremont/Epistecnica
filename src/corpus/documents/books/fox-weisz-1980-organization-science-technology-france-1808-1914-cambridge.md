@@ -31,6 +31,6 @@ This is the collected volume that established the **institutional** reading of F
 
 - [The Organization of Science and Technology in France, 1808–1914](https://www.cambridge.org/core/books/organization-of-science-and-technology-in-france-18081914/) — the publisher's record
 - [Paul, H. W. (1985). *From Knowledge to Power*.](/view.html?p=documents/books/paul-1985-knowledge-power-rise-science-empire-france-1860-1939-cambridge.md) — the companion volume carrying the argument to 1939
-- [French Academy of Sciences](/view.html?p=notes/social/actor/public/catalog/research/fra/french-academy-of-sciences.md) · [Institut de France](/view.html?p=notes/social/actor/public/catalog/research/fra/institut-de-france.md) — two of the institutions the essays treat
+- [French Academy of Sciences](/view.html?p=notes/social/actor/public/instance/research/fra/french-academy-of-sciences.md) · [Institut de France](/view.html?p=notes/social/actor/public/instance/research/fra/institut-de-france.md) — two of the institutions the essays treat
 - [France](/view.html?p=notes/social/actor/public/polity/fra/france.md) — the polity whose organisation of science the volume describes
 - [A Guide to Historical Scientific Literature](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-scientific-literature.md) — the corpus's guide to the literature

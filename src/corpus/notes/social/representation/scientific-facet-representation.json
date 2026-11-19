@@ -1,0 +1,2713 @@
+{
+ "meta": {
+  "title": "Scientific Facet Representation",
+  "version": 1,
+  "description": "Indicative profiles of scientific-research facets and the collective actors that compose them.",
+  "updated": "2026-11-19"
+ },
+ "actors": [
+  {
+   "id": "technion-israel-institute-of-technology",
+   "name": "Technion — Israel Institute of Technology",
+   "country": "IL",
+   "note": "notes/social/actor/public/instance/research/isr/technion-israel-institute-of-technology.md",
+   "profile": {
+    "type": "university",
+    "founded": "1912",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~18,000 students (indicative)",
+    "role": "science and engineering research university",
+    "mandate": "Engineering, science and medical research and training in Haifa.",
+    "position": "founding technical university",
+    "domains": [
+     "engineering",
+     "computer science",
+     "physics",
+     "chemistry",
+     "materials",
+     "medicine",
+     "mathematics"
+    ],
+    "disciplines": [
+     "engineering",
+     "computer science",
+     "physics",
+     "chemistry",
+     "materials science",
+     "medicine"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching",
+     "technology transfer"
+    ],
+    "outputs": [
+     "publications",
+     "patents",
+     "trained engineers",
+     "prototypes"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "industry contracts",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "computing",
+     "pilot facilities"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "Israel’s oldest university and a core engineering-science institution",
+    "timeline": [
+     {
+      "date": "1912",
+      "title": "Technion founded",
+      "description": "The Technion is founded in Haifa as a technical university.",
+      "source": "https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology",
+      "tags": [
+       "country:IL",
+       "actor:technion-israel-institute-of-technology",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:technion-israel-institute-of-technology"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "Israel’s founding technical university, combining engineering, exact sciences, computing and medicine with a strong applied-research and industry orientation.",
+    "metrics": {
+     "employees": "~700 faculty (indicative)",
+     "infrastructures": "laboratories, computing and pilot facilities",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Haifa",
+      "Tel Aviv University"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [
+      "Israeli technology firms"
+     ],
+     "government-programs": [
+      "Israel Innovation Authority"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Technion",
+      "url": "https://www.technion.ac.il/en/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hebrew-university-of-jerusalem",
+   "name": "Hebrew University of Jerusalem",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "founded": "1918",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~23,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching across the sciences, medicine, social sciences and humanities.",
+    "position": "first Hebrew university",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "medicine",
+     "agriculture",
+     "social sciences",
+     "humanities"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "medicine",
+     "agriculture",
+     "sociology",
+     "history"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching",
+     "clinical research"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers",
+     "clinical evidence"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy"
+    ],
+    "interaction": [
+     "collaboration",
+     "hospital partnerships",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "libraries",
+     "university hospitals"
+    ],
+    "people": "faculty, clinicians, postdocs and students",
+    "notable": "broadest disciplinary coverage in the Israeli university system",
+    "timeline": [
+     {
+      "date": "1918",
+      "title": "Hebrew University founded",
+      "description": "The Hebrew University of Jerusalem is founded; it opens in 1925.",
+      "source": "https://en.wikipedia.org/wiki/Hebrew_University_of_Jerusalem",
+      "tags": [
+       "country:IL",
+       "actor:hebrew-university-of-jerusalem",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:hebrew-university-of-jerusalem"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A comprehensive research university spanning exact sciences, life sciences, medicine, agriculture, social sciences and the humanities.",
+    "metrics": {
+     "employees": "~1,000 faculty (indicative)",
+     "infrastructures": "laboratories, libraries and university hospitals",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Technion",
+      "Tel Aviv University"
+     ],
+     "research-institutes": [
+      "Israel Academy of Sciences and Humanities"
+     ],
+     "industry-partners": [
+      "Hadassah Medical Organization"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "libraries",
+      "laboratories"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Hebrew University",
+      "url": "https://en.huji.ac.il/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "weizmann-institute-of-science",
+   "name": "Weizmann Institute of Science",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "research institute",
+    "founded": "1934",
+    "ownership": "public",
+    "legal-form": "research institute",
+    "scale": "~250 principal investigators (indicative)",
+    "role": "basic and interdisciplinary research institute",
+    "mandate": "Natural sciences, mathematics and interdisciplinary basic research.",
+    "position": "graduate research institute",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "neuroscience",
+     "computer science"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "neuroscience",
+     "computer science"
+    ],
+    "dominant-stage": "basic research",
+    "activities": [
+     "research",
+     "graduate training"
+    ],
+    "outputs": [
+     "publications",
+     "patents",
+     "trained scientists",
+     "datasets"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy"
+    ],
+    "interaction": [
+     "collaboration",
+     "international consortia",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "research centers",
+     "computing"
+    ],
+    "people": "principal investigators, postdocs and graduate students",
+    "notable": "Israel’s leading basic-research institute",
+    "timeline": [
+     {
+      "date": "1934",
+      "title": "Daniel Sieff Research Institute founded",
+      "description": "The institute is founded in Rehovot; it becomes the Weizmann Institute of Science in 1949.",
+      "source": "https://en.wikipedia.org/wiki/Weizmann_Institute_of_Science",
+      "tags": [
+       "country:IL",
+       "actor:weizmann-institute-of-science",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:weizmann-institute-of-science"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A basic-research institute in Rehovot, strong in mathematics, physics, chemistry, life sciences, neuroscience and computer science.",
+    "metrics": {
+     "employees": "~250 principal investigators (indicative)",
+     "infrastructures": "laboratories and research centers",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Hebrew University of Jerusalem",
+      "Tel Aviv University"
+     ],
+     "research-institutes": [
+      "Israel Academy of Sciences and Humanities"
+     ],
+     "industry-partners": [
+      "Israeli technology firms"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Weizmann Institute",
+      "url": "https://www.weizmann.ac.il/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "tel-aviv-university",
+   "name": "Tel Aviv University",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "founded": "1956",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~30,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching across sciences, engineering, medicine, social sciences and humanities.",
+    "position": "major metropolitan research university",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "medicine",
+     "neuroscience",
+     "computer science",
+     "engineering",
+     "social sciences",
+     "humanities"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "medicine",
+     "neuroscience",
+     "computer science",
+     "engineering",
+     "sociology",
+     "history"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching",
+     "clinical research"
+    ],
+    "outputs": [
+     "publications",
+     "patents",
+     "trained researchers",
+     "datasets"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "hospital partnerships",
+     "industry contracts",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "libraries",
+     "university hospitals"
+    ],
+    "people": "faculty, clinicians, postdocs and students",
+    "notable": "large comprehensive university with strong exact sciences and medicine",
+    "timeline": [
+     {
+      "date": "1956",
+      "title": "Tel Aviv University founded",
+      "description": "Tel Aviv University is established.",
+      "source": "https://en.wikipedia.org/wiki/Tel_Aviv_University",
+      "tags": [
+       "country:IL",
+       "actor:tel-aviv-university",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:tel-aviv-university"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A large comprehensive university with strong mathematics, computer science, physics, life sciences, medicine, engineering and social sciences.",
+    "metrics": {
+     "employees": "~1,200 faculty (indicative)",
+     "infrastructures": "laboratories, libraries and university hospitals",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Technion",
+      "Hebrew University of Jerusalem"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [
+      "Israeli technology firms"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Tel Aviv University",
+      "url": "https://english.tau.ac.il/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ben-gurion-university-of-the-negev",
+   "name": "Ben-Gurion University of the Negev",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "founded": "1969",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~20,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching in the Negev, with strengths in engineering, health, desert and social sciences.",
+    "position": "regional research university",
+    "domains": [
+     "engineering",
+     "life sciences",
+     "medicine",
+     "earth sciences",
+     "social sciences",
+     "computer science",
+     "chemistry"
+    ],
+    "disciplines": [
+     "engineering",
+     "biology",
+     "medicine",
+     "earth science",
+     "sociology",
+     "computer science",
+     "chemistry"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching",
+     "regional development"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers",
+     "applied solutions"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy"
+    ],
+    "interaction": [
+     "collaboration",
+     "regional partnerships",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "desert research facilities",
+     "computing"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "desert and regional research",
+    "timeline": [
+     {
+      "date": "1969",
+      "title": "Ben-Gurion University founded",
+      "description": "The university is established in Beersheba.",
+      "source": "https://en.wikipedia.org/wiki/Ben-Gurion_University_of_the_Negev",
+      "tags": [
+       "country:IL",
+       "actor:ben-gurion-university-of-the-negev",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:ben-gurion-university-of-the-negev"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A regional research university in the Negev, strong in engineering, health, desert and environmental research, and social sciences.",
+    "metrics": {
+     "employees": "~800 faculty (indicative)",
+     "infrastructures": "laboratories and desert research facilities",
+     "presence": "Regional"
+    },
+    "ecosystem": {
+     "universities": [
+      "Technion",
+      "Tel Aviv University"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [
+      "regional industry"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Ben-Gurion University",
+      "url": "https://www.bgu.ac.il/en/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bar-ilan-university",
+   "name": "Bar-Ilan University",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "founded": "1955",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~20,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching across exact sciences, life sciences, social sciences and humanities.",
+    "position": "comprehensive university",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "neuroscience",
+     "social sciences",
+     "humanities",
+     "computer science"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "neuroscience",
+     "sociology",
+     "history",
+     "computer science"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy"
+    ],
+    "interaction": [
+     "collaboration",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "libraries",
+     "computing"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "broad disciplinary university",
+    "timeline": [
+     {
+      "date": "1955",
+      "title": "Bar-Ilan University founded",
+      "description": "Bar-Ilan University is established in Ramat Gan.",
+      "source": "https://en.wikipedia.org/wiki/Bar-Ilan_University",
+      "tags": [
+       "country:IL",
+       "actor:bar-ilan-university",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:bar-ilan-university"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A comprehensive university with strengths in exact sciences, life sciences, neuroscience, social sciences and humanities.",
+    "metrics": {
+     "employees": "~700 faculty (indicative)",
+     "infrastructures": "laboratories, libraries and computing",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Tel Aviv University",
+      "Hebrew University of Jerusalem"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [
+      "Israeli technology firms"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Bar-Ilan University",
+      "url": "https://www.biu.ac.il/en"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "university-of-haifa",
+   "name": "University of Haifa",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "founded": "1963",
+    "ownership": "public",
+    "legal-form": "university",
+    "scale": "~18,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching in the sciences, social sciences, humanities and marine studies.",
+    "position": "comprehensive university",
+    "domains": [
+     "life sciences",
+     "neuroscience",
+     "earth sciences",
+     "social sciences",
+     "humanities",
+     "computer science"
+    ],
+    "disciplines": [
+     "biology",
+     "neuroscience",
+     "marine science",
+     "sociology",
+     "history",
+     "computer science"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching",
+     "marine research"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants"
+    ],
+    "interaction": [
+     "collaboration",
+     "regional partnerships",
+     "co-authorship"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "marine research facilities",
+     "libraries"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "marine and multidisciplinary research",
+    "timeline": [
+     {
+      "date": "1963",
+      "title": "University of Haifa founded",
+      "description": "The University of Haifa is established.",
+      "source": "https://en.wikipedia.org/wiki/University_of_Haifa",
+      "tags": [
+       "country:IL",
+       "actor:university-of-haifa",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:university-of-haifa"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "A comprehensive university with distinctive strengths in marine sciences, life sciences, neuroscience, social sciences and humanities.",
+    "metrics": {
+     "employees": "~600 faculty (indicative)",
+     "infrastructures": "laboratories and marine research facilities",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Technion",
+      "Tel Aviv University"
+     ],
+     "research-institutes": [
+      "Israel Oceanographic and Limnological Research"
+     ],
+     "industry-partners": [
+      "regional industry"
+     ],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "marine facilities",
+      "laboratories"
+     ]
+    },
+    "sources": [
+     {
+      "label": "University of Haifa",
+      "url": "https://www.haifa.ac.il/index.php/en/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "israel-academy-of-sciences-and-humanities",
+   "name": "Israel Academy of Sciences and Humanities",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "learned society",
+    "founded": "1961",
+    "ownership": "public",
+    "legal-form": "academy",
+    "scale": "academy membership",
+    "role": "national academy and scientific advisory body",
+    "mandate": "Promote science and scholarship and advise the state on scientific matters.",
+    "position": "national academy",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "medicine",
+     "humanities",
+     "social sciences"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "medicine",
+     "history",
+     "sociology"
+    ],
+    "dominant-stage": "scientific advice and coordination",
+    "activities": [
+     "scientific advice",
+     "coordination",
+     "research promotion"
+    ],
+    "outputs": [
+     "reports",
+     "advisory opinions",
+     "standards",
+     "fellowships"
+    ],
+    "financing": [
+     "public appropriation",
+     "philanthropy"
+    ],
+    "interaction": [
+     "coordination",
+     "international academies",
+     "policy advice"
+    ],
+    "infrastructure": [
+     "academy secretariat",
+     "committees"
+    ],
+    "people": "academy members and staff",
+    "notable": "national science academy and advisory body",
+    "timeline": [
+     {
+      "date": "1961",
+      "title": "Israel Academy founded",
+      "description": "The Israel Academy of Sciences and Humanities is established.",
+      "source": "https://en.wikipedia.org/wiki/Israel_Academy_of_Sciences_and_Humanities",
+      "tags": [
+       "country:IL",
+       "actor:israel-academy-of-sciences-and-humanities",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:israel-academy-of-sciences-and-humanities"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "The national academy and advisory body for science and scholarship, coordinating scientific advice and research promotion.",
+    "metrics": {
+     "employees": "academy members and staff",
+     "infrastructures": "academy secretariat and committees",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Hebrew University of Jerusalem",
+      "Tel Aviv University",
+      "Technion"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "technology-infrastructure": [
+      "committees"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Israel Academy",
+      "url": "https://www.academy.ac.il/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "israel-science-foundation",
+   "name": "Israel Science Foundation",
+   "country": "IL",
+   "note": "",
+   "profile": {
+    "type": "research funding agency",
+    "founded": "1972",
+    "ownership": "public",
+    "legal-form": "nonprofit foundation",
+    "scale": "national competitive grants",
+    "role": "competitive basic-research funder",
+    "mandate": "Fund basic research in Israel on the basis of scientific excellence.",
+    "position": "national research funder administered by the Israel Academy",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "medicine",
+     "humanities",
+     "social sciences"
+    ],
+    "disciplines": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "biology",
+     "medicine",
+     "history",
+     "sociology"
+    ],
+    "dominant-stage": "research funding",
+    "activities": [
+     "research funding",
+     "priority setting",
+     "evaluation"
+    ],
+    "outputs": [
+     "grants",
+     "fellowships",
+     "research infrastructure"
+    ],
+    "financing": [
+     "public appropriation"
+    ],
+    "interaction": [
+     "peer review",
+     "international collaboration",
+     "policy advice"
+    ],
+    "infrastructure": [
+     "grants administration",
+     "peer-review panels"
+    ],
+    "people": "programme staff and peer reviewers",
+    "notable": "main competitive funder of Israeli basic research",
+    "timeline": [
+     {
+      "date": "1972",
+      "title": "Branch for Basic Research created",
+      "description": "The foundation begins as the Branch for Basic Research; it is renamed the Israel Science Foundation in 1991.",
+      "source": "https://en.wikipedia.org/wiki/Israel_Science_Foundation",
+      "tags": [
+       "country:IL",
+       "actor:israel-science-foundation",
+       "event:founding"
+      ]
+     }
+    ],
+    "confidence": "medium",
+    "tags": [
+     "country:IL",
+     "actor:israel-science-foundation"
+    ],
+    "country": "Israel",
+    "sectors": [],
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "continuity": "continuous",
+    "horizon": "long-term",
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, ISF"
+   },
+   "detail": {
+    "summary": "Israel’s main competitive funder of basic research, administered by the Israel Academy and spanning exact sciences, life sciences, medicine, humanities and social sciences.",
+    "metrics": {
+     "employees": "programme staff and peer reviewers",
+     "infrastructures": "grants administration and peer-review panels",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Hebrew University of Jerusalem",
+      "Tel Aviv University",
+      "Technion"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science"
+     ],
+     "industry-partners": [],
+     "government-programs": [
+      "Israel Academy of Sciences and Humanities"
+     ],
+     "technology-infrastructure": [
+      "peer-review panels"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Israel Science Foundation",
+      "url": "https://www.isf.org.il/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "riken",
+   "name": "Institute of Physical and Chemical Research (RIKEN)",
+   "country": "JP",
+   "note": "notes/social/actor/public/instance/research/jpn/riken.md",
+   "activityLevels": {
+    "problem-formulation": 6,
+    "basic-research": 9,
+    "exploratory-research": 8,
+    "applied-research": 7,
+    "technical-specification": 5,
+    "development": 6,
+    "technical-examination": 7,
+    "technical-production": 2,
+    "dissemination": 6,
+    "technology-transfer": 4,
+    "adoption": 3,
+    "commercialization": 2,
+    "modification": 2,
+    "adaptation": 2,
+    "improvement": 3,
+    "maintenance": 1,
+    "integration": 4
+   },
+   "profile": {
+    "type": "national research institute",
+    "country": "Japan",
+    "founded": "1917",
+    "ownership": "public",
+    "legal-form": "national research and development agency",
+    "scale": "~3,000 researchers (indicative)",
+    "role": "research performer; basic and applied",
+    "mandate": "comprehensive research across the natural sciences",
+    "position": "national upstream research",
+    "domains": [
+     "physics",
+     "chemistry",
+     "biology",
+     "materials",
+     "computing",
+     "neuroscience"
+    ],
+    "sectors": [
+     "science",
+     "technology"
+    ],
+    "disciplines": [
+     "natural sciences",
+     "engineering",
+     "life sciences"
+    ],
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "development",
+     "prototyping",
+     "testing"
+    ],
+    "dominant-stage": "basic and applied research",
+    "upstream": "universities, government",
+    "downstream": "industry, universities",
+    "activities": [
+     "research",
+     "experimentation",
+     "design",
+     "validation"
+    ],
+    "research-mode": "mission-oriented and curiosity-driven",
+    "development-mode": "prototype",
+    "outputs": [
+     "publications",
+     "patents",
+     "prototypes",
+     "data",
+     "spin-offs"
+    ],
+    "flagship-outputs": "RIKEN Nishina Center, SPring-8, supercomputing",
+    "ip-regime": "patents, state-owned IP",
+    "temporal-scope": [
+     "programme",
+     "project",
+     "long-term"
+    ],
+    "horizon": "5–15 years",
+    "continuity": "continuous",
+    "financing": [
+     "public appropriation",
+     "project grant",
+     "co-funding"
+    ],
+    "main-funders": "state",
+    "budget-share": "indicative",
+    "interaction": [
+     "collaboration",
+     "contract research",
+     "personnel mobility",
+     "consortium",
+     "co-authorship"
+    ],
+    "partners": "universities, industry, international labs",
+    "openness": "high within strategic areas",
+    "governance": "national agency",
+    "coordination": "center system",
+    "autonomy": "high within state priorities",
+    "accountability": "state evaluation",
+    "infrastructure": [
+     "laboratories",
+     "large facilities",
+     "computing",
+     "field sites"
+    ],
+    "people": "researchers, engineers, students",
+    "talent": "international recruitment",
+    "metrics": [
+     "publications",
+     "patents",
+     "citations",
+     "spin-offs"
+    ],
+    "notable": "large-scale facilities and interdisciplinary research",
+    "confidence": "medium",
+    "tags": [
+     "country:JP",
+     "actor:riken"
+    ],
+    "timeline": [
+     {
+      "date": "1917",
+      "title": "RIKEN founded",
+      "description": "The Institute of Physical and Chemical Research is established in Tokyo.",
+      "source": "https://www.riken.jp/en/about/",
+      "tags": [
+       "country:JP",
+       "actor:riken",
+       "event:founding"
+      ]
+     },
+     {
+      "date": "1937",
+      "title": "First cyclotron completed",
+      "description": "RIKEN builds Japan’s first cyclotron.",
+      "source": "https://en.wikipedia.org/wiki/RIKEN",
+      "tags": [
+       "country:JP",
+       "actor:riken",
+       "event:research"
+      ]
+     },
+     {
+      "date": "2003",
+      "title": "Independent administrative institution",
+      "description": "RIKEN is reorganized as an independent administrative institution.",
+      "source": "https://www.riken.jp/en/about/",
+      "tags": [
+       "country:JP",
+       "actor:riken",
+       "event:policy"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "comprehensive research across the natural sciences",
+    "roles": [
+     "Research",
+     "Technology Development",
+     "Testing & Validation"
+    ],
+    "lifecycle-involvement": {
+     "Research": "significant",
+     "Concept": "limited",
+     "Design": "significant",
+     "Prototype": "significant",
+     "Testing": "significant",
+     "Validation": "significant",
+     "Industrialization": "limited",
+     "Production": "limited",
+     "Deployment": "limited"
+    },
+    "metrics": {
+     "employees": "~3,000 researchers (indicative)",
+     "infrastructures": "100+",
+     "presence": "Global",
+     "rd-investment": [
+      120,
+      150,
+      180,
+      210,
+      240
+     ]
+    },
+    "ecosystem": {
+     "universities": [
+      "Universities"
+     ],
+     "research-institutes": [
+      "Research institutes"
+     ],
+     "industry-partners": [
+      "Industry partners"
+     ],
+     "government-programs": [],
+     "technology-infrastructure": [
+      "laboratories",
+      "large facilities",
+      "computing",
+      "field sites"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Corpus note",
+      "url": "/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "aist",
+   "name": "AIST",
+   "country": "JP",
+   "note": "notes/social/actor/public/instance/research/jpn/national-institute-of-advanced-industrial-science.md",
+   "activityLevels": {
+    "problem-formulation": 7,
+    "basic-research": 5,
+    "exploratory-research": 7,
+    "applied-research": 9,
+    "technical-specification": 8,
+    "development": 9,
+    "technical-examination": 8,
+    "technical-production": 5,
+    "dissemination": 8,
+    "technology-transfer": 7,
+    "adoption": 6,
+    "commercialization": 4,
+    "modification": 3,
+    "adaptation": 3,
+    "improvement": 4,
+    "maintenance": 2,
+    "integration": 6
+   },
+   "profile": {
+    "type": "public research institute",
+    "country": "Japan",
+    "founded": "1882 / 2001",
+    "ownership": "public",
+    "legal-form": "national research and development agency",
+    "scale": "~2,300 researchers (indicative)",
+    "role": "research performer; applied and industrial",
+    "mandate": "industrial science and technology",
+    "position": "public applied research",
+    "domains": [
+     "materials",
+     "energy",
+     "environment",
+     "ICT",
+     "manufacturing",
+     "metrology"
+    ],
+    "sectors": [
+     "industry",
+     "energy",
+     "environment"
+    ],
+    "disciplines": [
+     "engineering",
+     "chemistry",
+     "physics",
+     "computer science"
+    ],
+    "lifecycle": [
+     "applied research",
+     "development",
+     "prototyping",
+     "testing",
+     "standardization",
+     "demonstration"
+    ],
+    "dominant-stage": "applied research and development",
+    "upstream": "universities, basic research",
+    "downstream": "industry, standards bodies",
+    "activities": [
+     "research",
+     "design",
+     "development",
+     "validation",
+     "standardization",
+     "demonstration"
+    ],
+    "research-mode": "mission-oriented",
+    "development-mode": "prototype and transfer",
+    "outputs": [
+     "patents",
+     "prototypes",
+     "standards",
+     "reports",
+     "software"
+    ],
+    "flagship-outputs": "materials, metrology, energy, industrial ICT",
+    "ip-regime": "patents, licensing",
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "horizon": "2–10 years",
+    "continuity": "continuous",
+    "financing": [
+     "public appropriation",
+     "project grant",
+     "contract research",
+     "co-funding"
+    ],
+    "main-funders": "state + industry",
+    "budget-share": "indicative",
+    "interaction": [
+     "contract research",
+     "collaboration",
+     "licensing",
+     "standards work",
+     "personnel mobility"
+    ],
+    "partners": "industry, universities, standards bodies",
+    "openness": "mixed",
+    "governance": "national agency",
+    "coordination": "research institutes",
+    "autonomy": "bounded by state priorities",
+    "accountability": "state",
+    "infrastructure": [
+     "laboratories",
+     "testbeds",
+     "metrology facilities",
+     "computing"
+    ],
+    "people": "researchers, engineers",
+    "talent": "national recruitment",
+    "metrics": [
+     "patents",
+     "standards",
+     "contracts",
+     "prototypes"
+    ],
+    "notable": "metrology and industrial standards",
+    "confidence": "medium",
+    "tags": [
+     "country:JP",
+     "actor:aist"
+    ],
+    "timeline": [
+     {
+      "date": "2001",
+      "title": "AIST established",
+      "description": "AIST is formed by merging the Agency of Industrial Science and Technology with the Weights and Measures Institute.",
+      "source": "https://www.aist.go.jp/aist_e/about_aist/",
+      "tags": [
+       "country:JP",
+       "actor:aist",
+       "event:founding"
+      ]
+     },
+     {
+      "date": "2014",
+      "title": "Fukushima Renewable Energy Institute opened",
+      "description": "AIST opens a research base for renewable energy in Fukushima.",
+      "source": "https://www.aist.go.jp/aist_e/about_aist/",
+      "tags": [
+       "country:JP",
+       "actor:aist",
+       "event:infrastructure"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "industrial science and technology",
+    "roles": [
+     "Research",
+     "Technology Development",
+     "Technology Transfer",
+     "Testing & Validation"
+    ],
+    "lifecycle-involvement": {
+     "Research": "significant",
+     "Concept": "limited",
+     "Design": "significant",
+     "Prototype": "significant",
+     "Testing": "significant",
+     "Validation": "significant",
+     "Industrialization": "significant",
+     "Production": "limited",
+     "Deployment": "limited"
+    },
+    "metrics": {
+     "employees": "~2,300 researchers (indicative)",
+     "infrastructures": "100+",
+     "presence": "National",
+     "rd-investment": [
+      120,
+      150,
+      180,
+      210,
+      240
+     ]
+    },
+    "ecosystem": {
+     "universities": [
+      "Universities"
+     ],
+     "research-institutes": [],
+     "industry-partners": [
+      "Industry partners"
+     ],
+     "government-programs": [],
+     "technology-infrastructure": [
+      "laboratories",
+      "testbeds",
+      "metrology facilities",
+      "computing"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Corpus note",
+      "url": "/view.html?p=notes/social/actor/public/instance/research/jpn/national-institute-of-advanced-industrial-science.md"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "university-of-tokyo",
+   "name": "University of Tokyo",
+   "country": "JP",
+   "note": "",
+   "profile": {
+    "type": "university",
+    "country": "Japan",
+    "founded": "1877",
+    "ownership": "public",
+    "legal-form": "national university",
+    "scale": "~28,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching across the natural sciences, engineering, medicine, social sciences and humanities.",
+    "position": "flagship national university",
+    "domains": [
+     "physics",
+     "chemistry",
+     "biology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "materials",
+     "medicine",
+     "economics",
+     "social sciences",
+     "humanities"
+    ],
+    "disciplines": [
+     "physics",
+     "chemistry",
+     "biology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "materials science",
+     "medicine",
+     "economics",
+     "sociology",
+     "history"
+    ],
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers",
+     "patents"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "co-authorship",
+     "industry contracts"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "libraries",
+     "computing"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "Japan’s flagship comprehensive university",
+    "confidence": "high",
+    "tags": [
+     "country:JP",
+     "actor:university-of-tokyo"
+    ],
+    "timeline": [
+     {
+      "date": "1877",
+      "title": "University of Tokyo founded",
+      "description": "The University of Tokyo is established as Japan’s first national university.",
+      "source": "https://en.wikipedia.org/wiki/University_of_Tokyo",
+      "tags": [
+       "country:JP",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "Japan’s flagship comprehensive university, spanning physics, chemistry, biology, engineering, medicine, economics, social sciences and the humanities.",
+    "metrics": {
+     "employees": "~2,000 faculty (indicative)",
+     "infrastructures": "laboratories, libraries and computing",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "Kyoto University"
+     ],
+     "research-institutes": [
+      "RIKEN",
+      "AIST"
+     ],
+     "industry-partners": [
+      "Japanese industry"
+     ],
+     "government-programs": [
+      "JST"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "libraries"
+     ]
+    },
+    "sources": [
+     {
+      "label": "University of Tokyo",
+      "url": "https://www.u-tokyo.ac.jp/en/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kyoto-university",
+   "name": "Kyoto University",
+   "country": "JP",
+   "note": "notes/social/actor/private/education/jpn/kyoto-university.md",
+   "profile": {
+    "type": "university",
+    "country": "Japan",
+    "founded": "1897",
+    "ownership": "public",
+    "legal-form": "national university",
+    "scale": "~22,000 students (indicative)",
+    "role": "comprehensive research university",
+    "mandate": "Research and teaching across the natural sciences, engineering, medicine, social sciences and humanities.",
+    "position": "national research university",
+    "domains": [
+     "physics",
+     "chemistry",
+     "biology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "materials",
+     "medicine",
+     "social sciences",
+     "humanities"
+    ],
+    "disciplines": [
+     "physics",
+     "chemistry",
+     "biology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "materials science",
+     "medicine",
+     "sociology",
+     "history"
+    ],
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training"
+    ],
+    "dominant-stage": "research and training",
+    "activities": [
+     "research",
+     "teaching"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "trained researchers",
+     "patents"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "co-authorship",
+     "industry contracts"
+    ],
+    "infrastructure": [
+     "laboratories",
+     "libraries",
+     "computing"
+    ],
+    "people": "faculty, postdocs and students",
+    "notable": "major national research university",
+    "confidence": "high",
+    "tags": [
+     "country:JP",
+     "actor:kyoto-university"
+    ],
+    "timeline": [
+     {
+      "date": "1897",
+      "title": "Kyoto University founded",
+      "description": "Kyoto University is established as Japan’s second imperial university.",
+      "source": "https://en.wikipedia.org/wiki/Kyoto_University",
+      "tags": [
+       "country:JP",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "A major national research university with strengths across physics, chemistry, biology, engineering, medicine, social sciences and the humanities.",
+    "metrics": {
+     "employees": "~1,300 faculty (indicative)",
+     "infrastructures": "laboratories, libraries and computing",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Tokyo"
+     ],
+     "research-institutes": [
+      "RIKEN",
+      "AIST"
+     ],
+     "industry-partners": [
+      "Japanese industry"
+     ],
+     "government-programs": [
+      "JST"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "libraries"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Kyoto University",
+      "url": "https://www.kyoto-u.ac.jp/en"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "japan-science-and-technology-agency",
+   "name": "Japan Science and Technology Agency (JST)",
+   "country": "JP",
+   "note": "",
+   "profile": {
+    "type": "research funding agency",
+    "country": "Japan",
+    "founded": "1996",
+    "ownership": "public",
+    "legal-form": "national research agency",
+    "scale": "national funding programmes",
+    "role": "science and technology funding agency",
+    "mandate": "Promote science and technology and fund research and development.",
+    "position": "MEXT-affiliated funding agency",
+    "domains": [
+     "physics",
+     "chemistry",
+     "biology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "medicine",
+     "social sciences",
+     "humanities"
+    ],
+    "disciplines": [
+     "natural sciences",
+     "engineering",
+     "medicine",
+     "social sciences"
+    ],
+    "lifecycle": [
+     "research funding",
+     "research training"
+    ],
+    "dominant-stage": "research funding",
+    "activities": [
+     "research funding",
+     "priority setting",
+     "evaluation"
+    ],
+    "outputs": [
+     "grants",
+     "fellowships",
+     "research infrastructure"
+    ],
+    "financing": [
+     "public appropriation"
+    ],
+    "interaction": [
+     "peer review",
+     "international collaboration",
+     "policy advice"
+    ],
+    "infrastructure": [
+     "grants administration",
+     "peer-review panels"
+    ],
+    "people": "programme staff and peer reviewers",
+    "notable": "major competitive science funder",
+    "confidence": "high",
+    "tags": [
+     "country:JP",
+     "actor:japan-science-and-technology-agency"
+    ],
+    "timeline": [
+     {
+      "date": "1996",
+      "title": "JST established",
+      "description": "The Japan Science and Technology Agency is established.",
+      "source": "https://en.wikipedia.org/wiki/Japan_Science_and_Technology_Agency",
+      "tags": [
+       "country:JP",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "A national funding agency supporting research across the natural sciences, engineering, medicine, social sciences and humanities.",
+    "metrics": {
+     "employees": "programme staff",
+     "infrastructures": "grants administration and peer-review panels",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Tokyo",
+      "Kyoto University"
+     ],
+     "research-institutes": [
+      "RIKEN",
+      "AIST"
+     ],
+     "industry-partners": [
+      "Japanese industry"
+     ],
+     "government-programs": [
+      "MEXT"
+     ],
+     "technology-infrastructure": [
+      "peer-review panels"
+     ]
+    },
+    "sources": [
+     {
+      "label": "JST",
+      "url": "https://www.jst.go.jp/EN/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rieti",
+   "name": "Research Institute of Economy, Trade and Industry (RIETI)",
+   "country": "JP",
+   "note": "",
+   "profile": {
+    "type": "policy research institute",
+    "country": "Japan",
+    "founded": "2001",
+    "ownership": "public",
+    "legal-form": "policy research institute",
+    "scale": "policy research institute",
+    "role": "economic and industrial-policy research",
+    "mandate": "Economic policy design, institutional reform and evidence-based policy proposals.",
+    "position": "METI-affiliated policy think tank",
+    "domains": [
+     "economics",
+     "industrial policy",
+     "trade",
+     "innovation",
+     "productivity",
+     "social sciences"
+    ],
+    "disciplines": [
+     "economics",
+     "industrial policy",
+     "trade",
+     "innovation studies",
+     "public policy"
+    ],
+    "lifecycle": [
+     "policy research",
+     "applied research",
+     "research dissemination"
+    ],
+    "dominant-stage": "policy research",
+    "activities": [
+     "policy research",
+     "economic analysis",
+     "dissemination"
+    ],
+    "outputs": [
+     "policy papers",
+     "discussion papers",
+     "datasets",
+     "conferences"
+    ],
+    "financing": [
+     "public appropriation"
+    ],
+    "interaction": [
+     "policy advice",
+     "collaboration",
+     "dissemination"
+    ],
+    "infrastructure": [
+     "research staff",
+     "data resources"
+    ],
+    "people": "economists and policy researchers",
+    "notable": "METI-affiliated economic policy think tank",
+    "confidence": "high",
+    "tags": [
+     "country:JP",
+     "actor:rieti"
+    ],
+    "timeline": [
+     {
+      "date": "2001",
+      "title": "RIETI founded",
+      "description": "The Research Institute of Economy, Trade and Industry is established under METI.",
+      "source": "https://en.wikipedia.org/wiki/Research_Institute_of_Economy,_Trade_and_Industry",
+      "tags": [
+       "country:JP",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "detail": {
+    "summary": "A METI-affiliated policy research institute working on economic policy, industrial policy, trade, innovation and productivity.",
+    "metrics": {
+     "employees": "research staff",
+     "infrastructures": "data resources",
+     "presence": "National"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Tokyo",
+      "Kyoto University"
+     ],
+     "research-institutes": [
+      "RIKEN",
+      "AIST"
+     ],
+     "industry-partners": [
+      "Japanese firms"
+     ],
+     "government-programs": [
+      "METI"
+     ],
+     "technology-infrastructure": [
+      "policy data"
+     ]
+    },
+    "sources": [
+     {
+      "label": "RIETI",
+      "url": "https://www.rieti.go.jp/en/"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  }
+ ],
+ "facets": [
+  {
+   "id": "israel-scientific-research",
+   "name": "Israel — Scientific Research Facet",
+   "region": "Israel",
+   "aspect": "scientific research",
+   "actors": [
+    "technion-israel-institute-of-technology",
+    "hebrew-university-of-jerusalem",
+    "weizmann-institute-of-science",
+    "tel-aviv-university",
+    "ben-gurion-university-of-the-negev",
+    "bar-ilan-university",
+    "university-of-haifa",
+    "israel-academy-of-sciences-and-humanities",
+    "israel-science-foundation"
+   ],
+   "note": "",
+   "profile": {
+    "region": "Israel",
+    "aspect": "scientific research",
+    "scope": "the scientific-research facet of Israel: its universities, institutes, academy and funding agency",
+    "actor-types": [
+     "universities",
+     "research-institutes",
+     "government-programs"
+    ],
+    "institutional-mix": "universities + research-institutes + government-programs",
+    "domains": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "life sciences",
+     "medicine",
+     "neuroscience",
+     "computer science",
+     "engineering",
+     "materials",
+     "earth sciences",
+     "agriculture",
+     "social sciences",
+     "humanities"
+    ],
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "research training",
+     "clinical research",
+     "research funding"
+    ],
+    "activities": [
+     "research",
+     "teaching",
+     "clinical research",
+     "research funding",
+     "scientific advice"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "patents",
+     "trained researchers",
+     "grants",
+     "reports"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "philanthropy",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "co-authorship",
+     "personnel mobility",
+     "hospital partnerships",
+     "industry contracts"
+    ],
+    "governance": "national higher-education and science system",
+    "coordination": "Council for Higher Education, Israel Academy, Israel Science Foundation",
+    "temporal-scope": [
+     "programme",
+     "project",
+     "long-term"
+    ],
+    "horizon": "long-term",
+    "continuity": "continuous",
+    "metrics": [
+     "actors",
+     "domains",
+     "publications",
+     "grants"
+    ],
+    "notable": "research universities, a basic-research institute, a national academy and a competitive funder",
+    "confidence": "medium"
+   },
+   "detail": {
+    "summary": "Israel’s scientific research facet combines research universities, a basic-research institute, a national academy and a competitive funding agency, with strengths in mathematics, computer science, physics, chemistry, life sciences, medicine and engineering.",
+    "lifecycle-involvement": {
+     "Research": "significant",
+     "Concept": "significant",
+     "Design": "significant",
+     "Prototype": "limited",
+     "Testing": "significant",
+     "Validation": "significant",
+     "Industrialization": "limited",
+     "Production": "limited",
+     "Deployment": "limited"
+    },
+    "metrics": {
+     "actors": 9,
+     "domains": 13,
+     "stages": 5,
+     "outputs": 6
+    },
+    "composition": {
+     "universities": [
+      "Technion — Israel Institute of Technology",
+      "Hebrew University of Jerusalem",
+      "Tel Aviv University",
+      "Ben-Gurion University of the Negev",
+      "Bar-Ilan University",
+      "University of Haifa"
+     ],
+     "research-institutes": [
+      "Weizmann Institute of Science",
+      "Israel Academy of Sciences and Humanities"
+     ],
+     "industry-partners": [],
+     "government-programs": [
+      "Israel Science Foundation"
+     ],
+     "other": []
+    },
+    "sources": [
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  },
+  {
+   "id": "japan-scientific-research",
+   "name": "Japan — Scientific Research Facet",
+   "region": "Japan",
+   "aspect": "scientific research",
+   "actors": [
+    "riken",
+    "aist",
+    "university-of-tokyo",
+    "kyoto-university",
+    "japan-science-and-technology-agency",
+    "rieti"
+   ],
+   "note": "",
+   "profile": {
+    "region": "Japan",
+    "aspect": "scientific research",
+    "scope": "the scientific-research facet of Japan: universities, national research institutes, a funding agency and a policy think tank",
+    "actor-types": [
+     "universities",
+     "research-institutes",
+     "government-programs"
+    ],
+    "institutional-mix": "universities + research-institutes + government-programs",
+    "domains": [
+     "physics",
+     "chemistry",
+     "biology",
+     "materials",
+     "computing",
+     "neuroscience",
+     "energy",
+     "environment",
+     "ICT",
+     "manufacturing",
+     "metrology",
+     "mathematics",
+     "computer science",
+     "engineering",
+     "medicine",
+     "economics",
+     "social sciences",
+     "humanities",
+     "industrial policy",
+     "trade",
+     "innovation",
+     "productivity"
+    ],
+    "lifecycle": [
+     "basic research",
+     "applied research",
+     "development",
+     "research training",
+     "research funding",
+     "policy research"
+    ],
+    "activities": [
+     "research",
+     "teaching",
+     "research funding",
+     "policy research"
+    ],
+    "outputs": [
+     "publications",
+     "datasets",
+     "patents",
+     "trained researchers",
+     "grants",
+     "policy papers"
+    ],
+    "financing": [
+     "public appropriation",
+     "competitive grants",
+     "industry contracts"
+    ],
+    "interaction": [
+     "collaboration",
+     "co-authorship",
+     "policy advice"
+    ],
+    "governance": "national science and higher-education system",
+    "coordination": "MEXT, METI, universities and national institutes",
+    "temporal-scope": [
+     "programme",
+     "project",
+     "long-term"
+    ],
+    "horizon": "long-term",
+    "continuity": "continuous",
+    "metrics": [
+     "actors",
+     "domains",
+     "publications",
+     "grants"
+    ],
+    "notable": "flagship universities, national institutes, a funding agency and an economic-policy think tank",
+    "confidence": "medium"
+   },
+   "detail": {
+    "summary": "Japan’s scientific research facet combines two flagship universities, two national research institutes, a funding agency and an economic-policy think tank, with strengths across the natural sciences, engineering, social sciences and industrial policy.",
+    "lifecycle-involvement": {
+     "Research": "significant",
+     "Concept": "significant",
+     "Design": "significant",
+     "Prototype": "limited",
+     "Testing": "significant",
+     "Validation": "significant",
+     "Industrialization": "limited",
+     "Production": "limited",
+     "Deployment": "limited"
+    },
+    "metrics": {
+     "actors": 6,
+     "domains": 22,
+     "stages": 5,
+     "outputs": 6
+    },
+    "composition": {
+     "universities": [
+      "University of Tokyo",
+      "Kyoto University"
+     ],
+     "research-institutes": [
+      "Institute of Physical and Chemical Research (RIKEN)",
+      "AIST"
+     ],
+     "industry-partners": [],
+     "government-programs": [
+      "Japan Science and Technology Agency (JST)",
+      "Research Institute of Economy, Trade and Industry (RIETI)"
+     ],
+     "other": []
+    },
+    "sources": [
+     {
+      "label": "Japan note",
+      "url": "/view.html?p=notes/social/actor/public/polity/jpn/japan.md"
+     },
+     {
+      "label": "Profile data",
+      "url": "scientific-facet-representation.json"
+     }
+    ]
+   }
+  }
+ ],
+ "actorDimensions": [
+  {
+   "id": "identity",
+   "label": "Identity",
+   "fields": [
+    {
+     "id": "type",
+     "label": "Actor type",
+     "type": "text"
+    },
+    {
+     "id": "country",
+     "label": "Country",
+     "type": "text"
+    },
+    {
+     "id": "founded",
+     "label": "Founded",
+     "type": "text"
+    },
+    {
+     "id": "ownership",
+     "label": "Ownership",
+     "type": "text"
+    },
+    {
+     "id": "legal-form",
+     "label": "Legal form",
+     "type": "text"
+    },
+    {
+     "id": "scale",
+     "label": "Scale",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "scientific-domain",
+   "label": "Scientific Domain",
+   "fields": [
+    {
+     "id": "domains",
+     "label": "Domains",
+     "type": "set"
+    },
+    {
+     "id": "disciplines",
+     "label": "Disciplines",
+     "type": "set"
+    }
+   ]
+  },
+  {
+   "id": "funding",
+   "label": "Funding",
+   "fields": [
+    {
+     "id": "financing",
+     "label": "Financing models",
+     "type": "set"
+    },
+    {
+     "id": "main-funders",
+     "label": "Main funders",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "collaboration",
+   "label": "Collaboration",
+   "fields": [
+    {
+     "id": "interaction",
+     "label": "Interaction modes",
+     "type": "set"
+    },
+    {
+     "id": "partners",
+     "label": "Partners",
+     "type": "text"
+    },
+    {
+     "id": "openness",
+     "label": "Openness",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "outputs",
+   "label": "Research Outputs",
+   "fields": [
+    {
+     "id": "outputs",
+     "label": "Output types",
+     "type": "set"
+    },
+    {
+     "id": "flagship-outputs",
+     "label": "Flagship outputs",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "label": "Governance",
+   "fields": [
+    {
+     "id": "governance",
+     "label": "Governance",
+     "type": "text"
+    },
+    {
+     "id": "coordination",
+     "label": "Coordination",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "people",
+   "label": "People and Infrastructure",
+   "fields": [
+    {
+     "id": "infrastructure",
+     "label": "Infrastructure",
+     "type": "set"
+    },
+    {
+     "id": "people",
+     "label": "People",
+     "type": "text"
+    },
+    {
+     "id": "talent",
+     "label": "Talent model",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "indicator",
+   "label": "Indicator",
+   "fields": [
+    {
+     "id": "metrics",
+     "label": "Metrics",
+     "type": "set"
+    },
+    {
+     "id": "notable",
+     "label": "Notable",
+     "type": "text"
+    },
+    {
+     "id": "confidence",
+     "label": "Profile confidence",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "facetDimensions": [
+  {
+   "id": "identity",
+   "label": "Identity",
+   "fields": [
+    {
+     "id": "region",
+     "label": "Region",
+     "type": "text"
+    },
+    {
+     "id": "aspect",
+     "label": "Aspect",
+     "type": "text"
+    },
+    {
+     "id": "scope",
+     "label": "Scope",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "domains",
+   "label": "Scientific Domains",
+   "fields": [
+    {
+     "id": "domains",
+     "label": "Domains",
+     "type": "set"
+    },
+    {
+     "id": "disciplines",
+     "label": "Disciplines",
+     "type": "set"
+    }
+   ]
+  },
+  {
+   "id": "composition",
+   "label": "Composition",
+   "fields": [
+    {
+     "id": "actor-types",
+     "label": "Actor types",
+     "type": "set"
+    },
+    {
+     "id": "institutional-mix",
+     "label": "Institutional mix",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "funding",
+   "label": "Funding",
+   "fields": [
+    {
+     "id": "financing",
+     "label": "Financing models",
+     "type": "set"
+    },
+    {
+     "id": "main-funders",
+     "label": "Main funders",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "collaboration",
+   "label": "Collaboration",
+   "fields": [
+    {
+     "id": "interaction",
+     "label": "Interaction modes",
+     "type": "set"
+    },
+    {
+     "id": "partners",
+     "label": "Partners",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "outputs",
+   "label": "Research Outputs",
+   "fields": [
+    {
+     "id": "outputs",
+     "label": "Output types",
+     "type": "set"
+    },
+    {
+     "id": "notable",
+     "label": "Notable",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "governance",
+   "label": "Governance",
+   "fields": [
+    {
+     "id": "governance",
+     "label": "Governance",
+     "type": "text"
+    },
+    {
+     "id": "coordination",
+     "label": "Coordination",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "id": "indicator",
+   "label": "Indicator",
+   "fields": [
+    {
+     "id": "metrics",
+     "label": "Metrics",
+     "type": "set"
+    },
+    {
+     "id": "confidence",
+     "label": "Profile confidence",
+     "type": "text"
+    }
+   ]
+  }
+ ]
+}

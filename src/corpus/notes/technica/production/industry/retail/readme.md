@@ -175,5 +175,5 @@ tags: [note, production]
 - Harvard Business Review: “The Future of Retail” (2023).
 - [Industry](/view.html?p=notes/technica/production/industry/readme.md)
 - [Consumer Defensive](https://finance.yahoo.com/sectors/consumer-defensive/)
-- [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+- [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 - [Consumer Staples Sector Stocks](https://stockanalysis.com/stocks/sector/consumer-staples/)

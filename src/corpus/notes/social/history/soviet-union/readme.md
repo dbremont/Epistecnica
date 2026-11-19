@@ -144,7 +144,7 @@ This is the analytical frame the corpus uses for the Soviet case, and it is why 
 
 **Related**
 - [Risk](/view.html?p=notes/epistemica/observational/decision/risk.md) — the soft budget constraint as an institutional transfer of risk
-- [Country Risk](/view.html?p=notes/social/dynamic/state/economic/macro/country-risk.md) — the sovereign reading of the system's external face
+- [Country Risk](/view.html?p=notes/social/observation/state/country-risk.md) — the sovereign reading of the system's external face
 - [COMECON](/view.html?p=notes/social/history/soviet-union/comecon-council-for-mutual-economic-assistance.md) — the system's international extension
 - [Gulag](/view.html?p=notes/social/history/soviet-union/gulag.md) — the coercive institution the economy's labour mobilisation relied on
 

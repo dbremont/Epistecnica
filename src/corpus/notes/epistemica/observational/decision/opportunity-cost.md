@@ -159,9 +159,9 @@ tags: [note, decision-making, economics, value]
 - [Decision Theory](/view.html?p=notes/epistemica/observational/decision/theory.md) — the field entry: alternatives, states, preferences, and decision rules.
 - [Trade-Off](/view.html?p=notes/epistemica/optimization/trade-off.md) — the multi-criteria case where no single $V$ is available.
 - [Expected Value](/view.html?p=notes/epistemica/observational/probability/expected-value.md) — the expectation that replaces $V$ under uncertainty.
-- [Choice](/view.html?p=notes/social/action/activity/choice.md) — the social action whose cost this concept prices.
-- [Scarcity](/view.html?p=notes/social/dynamic/state/economic/scarcity.md) — the condition that makes alternatives compete.
-- [Utility](/view.html?p=notes/social/dynamic/state/economic/production/utility.md) — one candidate valuation $V$.
+- [Choice](/view.html?p=notes/social/dynamic/choice.md) — the social action whose cost this concept prices.
+- [Scarcity](/view.html?p=notes/social/observation/state/scarcity.md) — the condition that makes alternatives compete.
+- [Utility](/view.html?p=notes/social/observation/state/utility.md) — one candidate valuation $V$.
 - [Value](/view.html?p=notes/social/synontic/value.md) — the synontic element the valuation measures.
 - Wieser, F. von (1927). *Social Economics* (A. F. Hinrichs, Trans.). Adelphi. (Original work *Theorie der gesellschaftlichen Wirtschaft*, 1914 — the source of *Opportunitätskosten*.)
 - Bastiat, F. (1850). *Ce qu'on voit et ce qu'on ne voit pas*. (The unseen cost as the economist's subject.)

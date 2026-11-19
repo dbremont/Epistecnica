@@ -121,7 +121,7 @@ This note is the family-level decomposition; each member discipline is a practic
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Acoustics](/view.html?p=notes/miscellanea/discipline/acoustics.md) — the member for mechanical waves, and the discipline that measures and predicts them
-- [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md) · [Chemical Sciences](/view.html?p=notes/miscellanea/discipline/chemical-sciences.md) · [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) · [Geometry](/view.html?p=notes/epistemica/mathematical/geometry/geometry.md) · [Physics](/view.html?p=notes/nature/physics.md) · [Optical Phenomena](/view.html?p=notes/nature/optical-phenomena.md)
+- [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md) · [Chemical Sciences](/view.html?p=notes/miscellanea/discipline/chemical-sciences.md) · [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) · [Geometry](/view.html?p=notes/epistemica/mathematical/geometry/geometry.md) · [Physics](/view.html?p=notes/miscellanea/discipline/physics.md) · [Optical Phenomena](/view.html?p=notes/nature/optical-phenomena.md)
 - https://en.wikipedia.org/wiki/Outline_of_physics
 - https://en.wikipedia.org/wiki/Optics
 - Feynman, R. P. (1963). *The Feynman Lectures on Physics*. Addison-Wesley.

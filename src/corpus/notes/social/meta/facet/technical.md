@@ -45,8 +45,8 @@ The technical elements themselves, and the social forms that carry them:
 > The facet is a lens; its elements are typed by their own element types and simply read under this mechanism.
 
 - **Technical elements** — the [technica corpus](/view.html?p=notes/technica/atlas.html): practices, techniques, objects and systems decomposed in the technica grammar, and the [technical-object taxonomy](/view.html?p=notes/technica/technical-object-taxonomy.html).
-- **Social forms** — [Research](/view.html?p=notes/social/structural/technical/research.md), [Technology](/view.html?p=notes/social/structural/technical/technology.md), and the [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md) inventory.
-- **The reflexive layer** — [Meta Tecnica](/view.html?p=notes/technica/meta/tecnica.md).
+- **Social forms** — [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md) and the [Knowledge System](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md) inventory — the roles, units and mechanisms by which a society produces, diffuses and holds technical knowledge.
+- **The reflexive layer** — [Meta Tecnica](/view.html?p=notes/technica/meta/tecnica.md), with the concept notes [Technology](/view.html?p=notes/technica/meta/tecnica.md) and [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md).
 - **Adjacent facets** — [Research Facet](/view.html?p=notes/social/meta/facet/research.md) for the Scientific mechanism, [Human Formation Facet](/view.html?p=notes/social/meta/facet/human-formation.md) for the Educational one.
 
 ## QA

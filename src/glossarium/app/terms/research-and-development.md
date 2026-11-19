@@ -13,6 +13,6 @@ R&D is not a single technique but a practice family: it is carried by research e
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
 - [An Essay on R&D Marketization](/view.html?p=notes/miscellanea/unclassified/research/an-essay-on-r-and-d-marketization.md)
-- [An Essay on Enterprise Research Labs](/view.html?p=notes/technica/breviarium/an-essay-on-enterprise-research-labs.md)
+- [An Essay on Enterprise Research Labs](/view.html?p=notes/technica/general/breviarium/an-essay-on-enterprise-research-labs.md)

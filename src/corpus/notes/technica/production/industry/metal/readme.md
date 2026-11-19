@@ -35,7 +35,7 @@ tags: [note, production]
 * [Forging](https://en.wikipedia.org/wiki/Forging)
 * [Machining](https://en.wikipedia.org/wiki/Machining)
 * [NAICS 332 – Fabricated Metal Product Manufacturing](https://www.census.gov/naics/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 - [Metals Industry](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/metals-industry)
 - https://ukmetalscouncil.org/
 - Shmeleva, N. (2019). Innovation ecosystems in metallurgical industry: Evolution, measurements and trends. International Multidisciplinary Scientific GeoConference: SGEM, 19(5.3), 435-443.

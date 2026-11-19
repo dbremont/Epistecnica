@@ -10,4 +10,4 @@ The figure has a history: Bergson's *homo faber* against *homo sapiens*, Simondo
 
 - https://en.wikipedia.org/wiki/Homo_faber
 - [Technicity](/glossarium/?t=technicity)
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)

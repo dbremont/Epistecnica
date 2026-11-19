@@ -38,8 +38,8 @@ def load(path: Path, key: str):
 def note_link_path(p: str) -> str:
     """Lift a registry path into the library namespace.
 
-    The registry is corpus-relative (`social/action/…`); every entry here gains
-    the corpus prefix the explorer browses by (`notes/social/action/…`). `""`
+    The registry is corpus-relative (`social/dynamic/…`); every entry here gains
+    the corpus prefix the explorer browses by (`notes/social/dynamic/…`). `""`
     and `"/"` name the notes root, which is the prefix itself.
     """
     if p in ("", "/"):

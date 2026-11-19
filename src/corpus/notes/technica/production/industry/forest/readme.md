@@ -65,4 +65,4 @@ tags: [note, production]
 * [The Navigator Company](https://en.wikipedia.org/wiki/The_Navigator_Company)
 * [Horizon](https://horizon.ee/)
 * [Rappin](https://www.rappin.ee/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

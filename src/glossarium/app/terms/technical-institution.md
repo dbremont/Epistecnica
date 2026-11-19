@@ -9,6 +9,6 @@ The institution is a technical element because it carries technical practice, no
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)
 - [Meta Tecnica](/view.html?p=notes/technica/meta/tecnica.md)

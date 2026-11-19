@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "Naturgnosis editorial corpus (hand-authored)",
-    "lastUpdated": "2026-09-20",
+    "lastUpdated": "2026-11-19",
     "description": "Representative dataset of Japanese actors (organizations and institutions) since 1600.",
     "country": "Japan",
     "region": "East Asia",
@@ -868,21 +868,81 @@
     },
     {
       "id": "a42",
-      "name": "RIKEN",
+      "name": "Institute of Physical and Chemical Research (RIKEN)",
       "type": "public",
-      "role": "Research institute",
-      "regionOfActivity": "Wako",
-      "description": "Rikagaku Kenkyusho lineage in physics and AI.",
+      "role": "National research institute",
+      "regionOfActivity": "Wako, Saitama",
+      "description": "Japan’s comprehensive natural-science institute, founded in 1917; the chief-scientist laboratory system and the prewar Riken Konzern are its distinctive institutional forms. Now a Designated National Research and Development Institute.",
       "events": [
         {
+          "date": "1913-06-23",
+          "category": "proposal",
+          "description": "Jokichi Takamine proposes a national institute for pure physics and chemistry at the Seiyoken meeting"
+        },
+        {
           "date": "1917-03-20",
-          "category": "birth",
-          "description": "RIKEN founded with imperial donation"
+          "category": "founding",
+          "description": "RIKEN founded as a private foundation in Komagome, Tokyo"
+        },
+        {
+          "date": "1921-09-01",
+          "category": "leadership",
+          "description": "Masatoshi Okochi becomes third director"
+        },
+        {
+          "date": "1922-01-01",
+          "category": "transformation",
+          "description": "Independent chief-scientist laboratories replace the physics and chemistry divisions"
+        },
+        {
+          "date": "1927-01-01",
+          "category": "industry",
+          "description": "Rikagaku Kogyo begins the Riken Konzern"
+        },
+        {
+          "date": "1937-01-01",
+          "category": "research",
+          "description": "First 26-inch cyclotron completed"
+        },
+        {
+          "date": "1945-01-01",
+          "category": "crisis",
+          "description": "Wartime air raids destroy much of RIKEN; the cyclotrons are destroyed after the surrender"
+        },
+        {
+          "date": "1948-01-01",
+          "category": "transformation",
+          "description": "RIKEN reopens as the private company KAKEN; the Riken Konzern is dissolved"
         },
         {
           "date": "1958-01-01",
-          "category": "founding",
-          "description": "Special public corporation re-established"
+          "category": "policy",
+          "description": "RIKEN returns as a public corporation"
+        },
+        {
+          "date": "1967-01-01",
+          "category": "transformation",
+          "description": "Headquarters moves to Wako"
+        },
+        {
+          "date": "2003-10-01",
+          "category": "policy",
+          "description": "RIKEN becomes an Independent Administrative Institution"
+        },
+        {
+          "date": "2015-04-01",
+          "category": "policy",
+          "description": "RIKEN becomes a National Research and Development Institute"
+        },
+        {
+          "date": "2016-01-01",
+          "category": "policy",
+          "description": "RIKEN designated a Designated National Research and Development Institute; nihonium recognised"
+        },
+        {
+          "date": "2017-01-01",
+          "category": "anniversary",
+          "description": "RIKEN centennial"
         }
       ]
     },

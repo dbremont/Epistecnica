@@ -27,6 +27,6 @@ tags: [note, actor, person, military, theory]
 ## References
 
 - [Antoine-Henri Jomini — Wikipedia](https://en.wikipedia.org/wiki/Antoine-Henri_Jomini)
-- [Strategy](/view.html?p=notes/social/action/guidance/strategy.md) — the guidance note this theorist belongs to
+- [Strategy](/view.html?p=notes/social/dynamic/action/guidance/strategy.md) — the guidance note this theorist belongs to
 - [Alexander Suvorov](/view.html?p=notes/social/actor/private/persona/alexander-suvorov.md) — the practitioner against whom the system reads
 - [Mikhail Kutuzov](/view.html?p=notes/social/actor/private/persona/mikhail-kutuzov.md) · [Barclay de Tolly](/view.html?p=notes/social/actor/private/persona/michael-andreas-barclay-de-tolly.md) — the 1812 campaign that tested the geometry

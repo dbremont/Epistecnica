@@ -39,4 +39,4 @@ tags: [note, production]
 * [Glass Manufacturing](https://en.wikipedia.org/wiki/Glass_manufacturing)
 * [Cement Industry](https://en.wikipedia.org/wiki/Cement)
 * [OECD: Nonmetallic Mineral Products Outlook](https://stats.oecd.org/glossary/detail.asp?ID=1857)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

@@ -55,7 +55,7 @@ tags: [note, production]
 
 ## References
 
-- [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+- [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 - [Creative Industries](https://en.wikipedia.org/wiki/Creative_industries)
 - [HK Creative Industries](https://www.cstb.gov.hk/en/policies/creative-industries.html) [Cultural and Creative Industries Development Agency](https://www.ccidahk.gov.hk)
 - [Cultural and Creative Industries](https://single-market-economy.ec.europa.eu/sectors/cultural-and-creative-industries_en)

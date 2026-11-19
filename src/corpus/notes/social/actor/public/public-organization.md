@@ -146,5 +146,5 @@ It is the government subtype of Organization: what individuates it is not its in
 - Demir (2008) — The Politics–Administration Dichotomy: An Empirical Search for Correspondence between Theory and Practice.
 - Wynen, Verhoest, and Rübecksen (2014) — Decentralization in Public Sector Organizations: Do Organizational Autonomy and Result Control Lead to Decentralization Toward Lower Hierarchical Levels?
 - Aubert and Bourdeau (2012) — Public Sector Performance and Decentralization of Decision Rights.
-- [Audit](/view.html?p=notes/social/action/activity/audit.md) — the audit types, and the *supreme audit institution* among the public-organization forms
-- [Government Accountability Office](/view.html?p=notes/social/actor/public/catalog/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting
+- [Audit](/view.html?p=notes/social/dynamic/audit.md) — the audit types, and the *supreme audit institution* among the public-organization forms
+- [Government Accountability Office](/view.html?p=notes/social/actor/public/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

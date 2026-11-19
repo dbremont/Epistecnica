@@ -24,5 +24,5 @@ Lecture notes and problem sets.
 ## References
 
 - https://ocw.mit.edu/courses/esd-273j-logistics-and-supply-chain-management-fall-2009/
-- [Supply Chain](/view.html?p=notes/social/dynamic/economic/supply-chain.md) — the object the course plans
+- [Supply Chain](/view.html?p=notes/social/dynamic/logistics/supply-chain.md) — the object the course plans
 - [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md) — the operations the models schedule

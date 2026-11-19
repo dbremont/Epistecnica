@@ -22,11 +22,11 @@ tags: [note, nature, ecosystem, steppe, grassland, eurasia]
 
 > The same belt is the **steppe road**: the corridor along which mounted pastoralism, trade and invasion moved between the Danube and the Altai for three millennia — Scythians, Sarmatians, Huns, Mongols. The corpus keeps the natural element and the historical use together because the second is only possible given the first: a continuous grassland with fodder on the hoof is a route, and a forest is not.
 
-> Read against the [biome](/view.html?p=notes/nature/ecosystem/biome.md) and [ecology](/view.html?p=notes/nature/ecosystem/ecology.md) notes, it is the case where the **physical** classification (climate, soil, vegetation) and the **historical** one (a corridor) pick out the same object — which is the test of whether a natural unit is real or an artefact of the classifier.
+> Read against the [biome](/view.html?p=notes/nature/ecosystem/biome.md) and [ecology](/view.html?p=notes/ecology.md) notes, it is the case where the **physical** classification (climate, soil, vegetation) and the **historical** one (a corridor) pick out the same object — which is the test of whether a natural unit is real or an artefact of the classifier.
 
 ## References
 
 - [Pontic–Caspian steppe — Wikipedia](https://en.wikipedia.org/wiki/Pontic%E2%80%93Caspian_steppe)
 - [Biome](/view.html?p=notes/nature/ecosystem/biome.md) — the classification it instantiates
-- [Ecology](/view.html?p=notes/nature/ecosystem/ecology.md) — the discipline that reads it
+- [Ecology](/view.html?p=notes/ecology.md) — the discipline that reads it
 - [Ecosystem](/view.html?p=notes/nature/ecosystem/ecosystems.md) — the unit

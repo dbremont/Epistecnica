@@ -9,5 +9,5 @@ The pilot plant is also an institutional device: demonstration facilities and te
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)
 - [Prototype](/glossarium/?t=prototype)

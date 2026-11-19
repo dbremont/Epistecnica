@@ -137,8 +137,19 @@ risk was real.
 - Zhou, Yan & Sun (2022), Research Policy — [Climbing the Ladder: Inward Sourcing as an Upgrading Capability in Global Value Chains](https://doi.org/10.1016/j.respol.2021.104439)
 - …
 
+## Lab-to-Factory: SIAT and the Technology Achievement Supermarket
+
+> At a special supermarket in Shenzhen, the shelves hold cards rather than goods: more than 1,000 frontier achievements from the Shenzhen Institutes of Advanced Technology (SIAT) of the Chinese Academy of Sciences, sorted by track and linked by QR code to the technology, its application scenarios and the developer's contact details. The model is an attempt to make the transfer from laboratory to production line a matching problem rather than an archive problem. [Global Times, 28 October 2026](https://www.globaltimes.cn/page/202610/1373127.shtml?id=11)
+
+The inventory comes from SIAT's ten research divisions and covers medical equipment and scientific instruments, AI and robotics, advanced electronics and energy materials, and synthetic biology. SIAT reports an average of 6.6 patents per day over the past five years and new achievements every month. The supermarket opened in February 2025; by 2025 it had facilitated the commercialization of achievements worth more than 200 million yuan, with an average conversion rate above 29 percent and a matchmaking success rate up by more than 10 percent.
+
+The cases illustrate the model's range: a brain-computer interface consortium with Jiangsu Apon Medical Technology around non-invasive deep-brain stimulation; CO₂-to-organic-carbon biorefining with China Merchants Group, with a 100-tonne demonstration facility and a 1,000-tonne design; human-machine interaction for nuclear power plants with China Nuclear Power Engineering; ordered subnanochannel proton-exchange membranes with the Shenzhen Research Institute of China National Coal Group; and AI property inspection with China Resources Mixc Lifestyle, deployed in more than 1,000 projects.
+
+The article places the supermarket inside a wider policy turn: the 2026 guidelines on promoting the deep integration of scientific and technological innovation and industrial innovation call for an enterprise-led, multi-stakeholder system of industry-academia-research collaboration.
+
 ## References
 
+- [Global Times — Chinese research institutes, enterprises co-innovate from lab to factory](https://www.globaltimes.cn/page/202610/1373127.shtml?id=11)
 - https://www.eastisread.com/p/zhao-shukai-how-china-allowed-private
 - https://www.eastisread.com/p/zhao-shukai-ghostwriters-of-reform
 - https://www.eastisread.com/p/zhao-shukai-where-ezra-vogel-got

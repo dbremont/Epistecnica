@@ -101,6 +101,6 @@ This note is the family-level decomposition; each member discipline is a practic
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Physical Sciences](/view.html?p=notes/miscellanea/discipline/physical-sciences.md) · [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) · [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md) · [Chemistry](/view.html?p=notes/nature/chemistry.md) · [Chemical Substance](/view.html?p=notes/nature/chemical-substance.md)
+- [Physical Sciences](/view.html?p=notes/miscellanea/discipline/physical-sciences.md) · [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) · [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md) · [Chemistry](/view.html?p=notes/miscellanea/discipline/chemistry.md) · [Chemical Substance](/view.html?p=notes/nature/chemical-substance.md)
 - https://en.wikipedia.org/wiki/Outline_of_chemistry
 - https://en.wikipedia.org/wiki/Chemical_synthesis

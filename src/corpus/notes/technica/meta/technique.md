@@ -6,7 +6,7 @@ tags: [note, technica, meta]
 
 > **Technique** is the meta note on technique itself: what a technique is as an object of study, why the branch that studies it cannot take the name *technology*, and the forms of change a technique can undergo.
 
-> The naming problem is real. The branch that studies technique should be called *technology*, but the word has been taken by the technical objects themselves — so the corpus keeps *technica* for the branch and reserves *technology* for the systematic study of technique in the canonical guide. The metonymy is not an error of usage; it is the reason the vocabulary needs a note.
+> The naming problem is real. The branch that studies technique should be called *technology*, but the word has been taken by the technical objects themselves — so the corpus keeps *technica* for the branch and reserves *technology* for the systematic study of technique in the canonical guide. The metonymy is not an error of usage; it is the reason the vocabulary needs a note, and the readings are collected in [Technology](/view.html?p=notes/technica/meta/tecnica.md).
 
 ## Technique as an object of study
 

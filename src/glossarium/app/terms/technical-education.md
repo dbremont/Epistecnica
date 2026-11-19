@@ -9,6 +9,6 @@ Technical education is a diffusion mechanism and a condition of absorptive capac
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)
 - [Apprenticeship](/glossarium/?t=apprenticeship)
 - [Absorptive Capacity](/glossarium/?t=absorptive-capacity)

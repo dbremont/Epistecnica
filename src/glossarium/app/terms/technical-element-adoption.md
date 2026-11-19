@@ -6,7 +6,7 @@
 
 Adoption is the demand-side counterpart of diffusion: diffusion describes the spread through a population, adoption describes the single decision that makes a member of the population a user. The two are often modelled together, but they fail differently — diffusion can stall for lack of adopters, and adoption can succeed while the population effect never appears.
 
-See [Technical Element Integration](/glossarium/?t=technical-element-integration) and [Technical Element Absorption](/glossarium/?t=technical-element-absorption).
+See [Technical Adoption](/glossarium/?t=technical-adoption) for the general process, [Technical Element Acquisition](/glossarium/?t=technical-element-acquisition) for the transaction that precedes it, and [Technical Element Assimilation](/glossarium/?t=technical-element-assimilation) for the step that makes use durable. See also [Technology Indigenization](/glossarium/?t=technology-indigenization), [Technical Element Integration](/glossarium/?t=technical-element-integration) and [Technical Element Absorption](/glossarium/?t=technical-element-absorption).
 
 ## References
 

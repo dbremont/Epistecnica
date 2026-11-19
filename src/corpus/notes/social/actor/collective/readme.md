@@ -13,6 +13,8 @@ tags: [note]
 - **The genus** — [Collective](/view.html?p=notes/social/actor/collective/collective.md), the Social Compound element and its kinds (dyad, triad, crowd, family, neighbourhood, interest group, movement, association, organization, polity).
 - **The unbounded plural** — [Society](/view.html?p=notes/social/actor/collective/society.md) and [Sociality](/view.html?p=notes/social/actor/collective/sociality.md), where the plurality is not bounded by membership.
 - **The bounded plural** — [Polity](/view.html?p=notes/social/actor/collective/polity.md) and [Sovereignty](/view.html?p=notes/social/actor/collective/sovereignty.md), where authority draws the boundary.
+- **Ranked pluralities** — [`class/`](/explorer.html?dir=notes/social/actor/collective/class): [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md), an aggregate defined by position in production, and [Stratum](/view.html?p=notes/social/actor/collective/class/stratum.md), a gradational position on a scale, with their historical instances (Bildungsbürgertum, Grand Burgher, Hanseaten, Intelligentsia).
+- **The settlement** — [City](/view.html?p=notes/social/actor/collective/city.md), a bounded compound with governance, infrastructure and a technical-system reading.
 - **Collective actors** — [Philosophical Transactions of the Royal Society](/view.html?p=notes/social/actor/collective/journal/philosophical-transactions-of-the-royal-society.md) and the journal shelf, as one worked instance of a collective that acts.
 - **The programme** — [Theoretical Framework Program](/view.html?p=notes/social/program.md), which states the theory of the shared action space this branch is read against.
 

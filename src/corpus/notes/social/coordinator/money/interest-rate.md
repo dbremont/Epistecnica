@@ -42,7 +42,7 @@ From the family's shape comes the **yield curve**: the set of yields across matu
 - **Allocates capital over time.** A higher rate moves consumption earlier and investment later, which is the classical account, and the account that organised monetary policy for a century.
 - **Rations credit.** Where the rate is capped or administered, credit is allocated by quantity, queue or favour instead — the mechanism that makes interest-rate ceilings produce rationing rather than cheapness.
 - **Transmits policy.** The central bank's instrument is this market price, and the transmission runs from the policy rate through the curve to lending and asset prices.
-- **Becomes an instrument of the state.** In a directed-credit system the rate is set to favour a sector — subsidised lending, policy banks, preferential rediscount — which is where this note meets [State Capital Allocation](/view.html?p=notes/social/action/problem/dimension/finance/state-capital-allocation.md).
+- **Becomes an instrument of the state.** In a directed-credit system the rate is set to favour a sector — subsidised lending, policy banks, preferential rediscount — which is where this note meets [State Capital Allocation](/view.html?p=notes/social/dynamic/action/public/problem/dimension/finance/state-capital-allocation.md).
 
 ## The disputes
 
@@ -60,7 +60,7 @@ From the family's shape comes the **yield curve**: the set of yields across matu
 | [Money Market](/view.html?p=notes/social/coordinator/market/instance/finantial/money-market.md) | The market where the short rates are actually made |
 | [Price](/view.html?p=notes/social/coordinator/price-asset/price.md) | The general concept a rate is the temporal form of |
 | [Return](/view.html?p=notes/social/relation/economic/return.md) | The realised counterpart: what the rate promised versus what was earned |
-| [State Capital Allocation](/view.html?p=notes/social/action/problem/dimension/finance/state-capital-allocation.md) | Where the rate becomes an instrument rather than a price |
+| [State Capital Allocation](/view.html?p=notes/social/dynamic/action/public/problem/dimension/finance/state-capital-allocation.md) | Where the rate becomes an instrument rather than a price |
 
 ## References
 

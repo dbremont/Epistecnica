@@ -17,4 +17,4 @@ tags: [document, paper, japan, public-administration, evaluation]
 - [Yuasa (2025) — CiNii Research record](https://cir.nii.ac.jp/crid/1390022067668673152)
 - [Japan — public policy research actors](/view.html?p=notes/social/actor/public/polity/jpn/japan.md) — the institutional map
 - [Incorporated Administrative Agency](/view.html?p=notes/social/actor/public/incorporated-administrative-agency.md) — the form whose evaluation the paper discusses
-- [Audit](/view.html?p=notes/social/action/activity/audit.md) — the performance-audit counterpart
+- [Audit](/view.html?p=notes/social/dynamic/audit.md) — the performance-audit counterpart

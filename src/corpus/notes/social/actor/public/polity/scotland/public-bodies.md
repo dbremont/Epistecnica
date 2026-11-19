@@ -14,7 +14,7 @@ tags: [note, actor, public-organization]
 | **Non-departmental public body (NDPB)** | Yes, usually | Own staff | Grant-in-aid from the sponsor | Scottish Enterprise; the environmental and funding bodies |
 | **Public corporation** | Yes | Own staff | Commercial revenue | Scottish Water |
 | **Commissioner / ombudsman body** | Yes | Own staff | Grant-in-aid | The Scottish Public Services Ombudsman |
-| **Company owned by the Scottish Ministers** | Yes — a company | Own staff | Share capital, commercial revenue | [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/catalog/finance/scottish-national-investment-bank.md) |
+| **Company owned by the Scottish Ministers** | Yes — a company | Own staff | Share capital, commercial revenue | [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/instance/finance/scottish-national-investment-bank.md) |
 
 > The classification is **legal and constitutional, not functional**. Two bodies doing similar work can sit in different rows, and the row is what decides whether the minister can direct the body, whether its staff are civil servants, and how its money is voted.
 
@@ -31,4 +31,4 @@ tags: [note, actor, public-organization]
 - [Public bodies of the Scottish Government — Wikipedia](https://en.wikipedia.org/wiki/Public_bodies_of_the_Scottish_Government)
 - [Scotland](/view.html?p=notes/social/actor/public/polity/scotland/scotland.md) — the polity these bodies serve
 - [Statutory Corporation](/view.html?p=notes/social/actor/public/statutory-corporation.md) — the form family
-- [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/catalog/finance/scottish-national-investment-bank.md) — the company-form case
+- [Scottish National Investment Bank](/view.html?p=notes/social/actor/public/instance/finance/scottish-national-investment-bank.md) — the company-form case

@@ -149,6 +149,41 @@ frontend-facing surface in the deployment; there is no database behind it
   `guidance/method/` for the philosophical-method notes.
 - `data/miscellanea/discipline/` holds the discipline catalogues
   (mathematics, statistics, computer science, …).
+- **`social/dynamic/` is the dynamical dimension shelf** — change, action and
+  interaction in social reality. `readme.md` is its entry point and shelf
+  master (the former `dynamical.md` was merged into it on 2026-11-19); the
+  branches are `action/`, `behavior/`, `collective/`, `competition/`,
+  `conflict/`, `consumption/`, `crisis/`, `cultural/`, `finance/`,
+  `globalization/`, `interaction/`, `knowledge/`, `learning/`, `logistics/`,
+  `movement/`, `phenomena/`, `production/`, `research/` and `trade/`. The knowledge shelf carries the [Knowledge
+  System](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md) and
+  the [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
+  (the knowledge production side), with its `readme.md` as entry point. The
+  research folder is the activity shelf, with `science.md` as its entry
+  point, `interactions/` and `relations/` as its only sub-shelves, and the
+  project, dynamics, basic-research, research-system, valley-of-death and
+  talent-attraction notes at the root. Its `links.json` entries point at
+  Meta Tecnica and Meta Tecnica's Technical Activity under the label Research
+  Activity. The conflict shelf is the entry point for organized conflict —
+  violence, state adversarial interaction phenomena and society polarization —
+  with war, rebellion, civil war and revolution named as future members. The
+  economic shelf was distributed into these process shelves on 2026-11-19:
+  `economic-activity.md`, `economic-dynamics.md` and `technical-change.md`
+  sit at the dynamic root; `production/`, `consumption/`, `trade/`,
+  `logistics/`, `interaction/`, `finance/`, `learning/` and `competition/`
+  carry the activity and process notes; `phenomena/` holds the economic
+  phenomena and cycles; `crisis/` holds the crises. The former `state/` shelf
+  moved to the observation shelf (`social/observation/state/`). The shelf
+  reaches the relation shelf through `links.json` (`social/dynamic/` →
+  `social/relation/`, label Social Interaction, kind `related`).
+- **`social/observation/` is the observation shelf** — the notes that
+  describe what a social system *is* at a moment rather than how it changes.
+  `readme.md` is its entry point; `state/` holds the system state, the
+  snapshot and wealth notes, and the flattened economic-state notes
+  (business climate, demand, infrastructure, investment, labour, country
+  risk, hyperinflation, the middle-income trap, monopoly, efficiency, the
+  production matrix, productivity, utility, rent, scarcity, income,
+  poverty, stagflation, technology and trade).
 - A directory under `data/epistemica/` is a **target/operation scope**, not a
   metaphor: a cross-cutting method family is a tag. The former
   `natural-computing/` scope was dissolved on 2026-10-31 into the scopes that
@@ -339,8 +374,23 @@ instance-decomposition table:
 - Technique subtrees follow the taxonomy chain Practice → Task →
   General Technique → Operative Technique → Constitutive Technique →
   Technical Act → Technical Interface & Actuation; do not skip levels or
-  hang Activities under a General Technique. (`Technical Activity` is not a
-  structural type — see the note's QA on why it is excluded.)
+  hang Activities under a General Technique. `Technical Activity` **is** a
+  structural type — the situated bundle a `Technical Practice` has, which
+  decomposes into `Technical Act`s; the philosophia QA reverses the earlier
+  exclusion that is kept there as the history of the decision.
+- **Meta Tecnica is the reflexive shelf** (`technica/meta/`): `tecnica.md`
+  (scope, vocabulary and the **On Technology** section), `technique.md` (the
+  concept and the forms of technical change), `technical-element.md` (the
+  element account), and the concept note `technical-activity.md`. The former
+  `technology.md` was merged into `tecnica.md`'s On Technology section
+  (2026-11-19); `technical-activity.md` moved out of the social research
+  activity shelf in the same change because the technica vocabulary owns the
+  term. The social research folder reaches the shelf through `links.json`
+  (`social/dynamic/research/` → `technica/meta/`, and →
+  `technica/meta/technical-activity.md` under the label Research Activity);
+  `technical-activity.md` keeps its social `Activity` decomposition and
+  cross-links the technical-element reading. `meta/` is excluded from atlas
+  parsing, so these notes never enter the forest.
 - Multi-root decomposition is the default for multi-typed instances (one root
   per candidate type — see the "How to decompose an instance that belongs to
   multiple element types?" QA in the philosophia note). On ambiguous root
@@ -762,7 +812,7 @@ when switching over.
   `src/app/data/links.json`: it is the hand-maintained support-link
   registry (an input the indexer reads, not a generated index), so it is
   tracked and must be committed with its edits. Its paths are **corpus-
-  relative** (`social/action/…`, `epistemica/`) and `"/"` is the notes root;
+  relative** (`social/dynamic/…`, `epistemica/`) and `"/"` is the notes root;
   `bin/build_library_index.py` lifts them into the library namespace
   (`notes/…`) because that is what the explorer browses by. The explorer
   renders an entry as a linked card group on the browse dir named by `from`

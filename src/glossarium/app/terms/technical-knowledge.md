@@ -18,6 +18,6 @@ The knowledge dimension has three companions: the [technical method](/glossarium
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)
 - [Knowledge](/glossarium/?t=knowledge)
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)

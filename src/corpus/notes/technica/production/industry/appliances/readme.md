@@ -33,4 +33,4 @@ tags: [note, production]
 * [Household Appliance Manufacturing – NAICS](https://www.naics.com/search/)
 * [Consumer Electronics & Electrical Appliances Overview](https://en.wikipedia.org/wiki/Consumer_electronics)
 * [Major Appliance Manufacturers](https://en.wikipedia.org/wiki/List_of_home_appliance_brands)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

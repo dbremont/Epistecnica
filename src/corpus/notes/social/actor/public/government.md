@@ -360,7 +360,7 @@ It is not the `State` (the political organization that persists across successiv
 - [Actor](/view.html?p=notes/social/actor/actor.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
 - [Government-Wide Administrative System'](/view.html?p=notes/social/actor/public/gov-wide-administration.md)
-- [Public Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
+- [Public Policy](/view.html?p=notes/social/dynamic/action/public/guidance/policy.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Public Administration](/view.html?p=notes/social/actor/public/administration.md)

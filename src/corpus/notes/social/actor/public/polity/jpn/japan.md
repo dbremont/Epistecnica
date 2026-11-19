@@ -22,7 +22,7 @@ How japan master the internal combustion engine?
 | --- | --- | --- | --- | --- |
 | **Japan Science and Technology Agency (JST)** | Research Agency | 1996 | Promotes science and technology, funds R&D projects | Ministry of Education, Culture, Sports, Science and Technology (MEXT) |
 | **National Institute of Advanced Industrial Science and Technology (AIST)** | Research Institute | 2001 | Conducts multidisciplinary research in industrial technologies | Ministry of Economy, Trade and Industry (METI) |
-| **RIKEN** | Research Institute | 1917 | Conducts research in natural sciences | Independent Administrative Institution |
+| **[RIKEN](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md)** | Research Institute | 1917 | Comprehensive research in the natural sciences | Designated National Research and Development Institute (MEXT) |
 | **Japan Aerospace Exploration Agency (JAXA)** | Space Agency | 2003 | Manages space exploration and research | Government of Japan |
 | **National Institute for Materials Science (NIMS)** | Research Institute | 2001 | Focuses on materials science and engineering research | Independent Administrative Institution |
 | **National Institute of Information and Communications Technology (NICT)** | Research Institute | 2004 | Conducts research in information and communications technology | Ministry of Internal Affairs and Communications (MIC) |
@@ -81,6 +81,8 @@ How japan master the internal combustion engine?
 ## Industrial Policy
 
 > The Japanese industrial policy of the high-growth era is the most cited case in the world and the most contested in the data. The ex-post literature measures **mixed effects**, and the section's claim is the modest one: the MITI legend is weaker than the textbooks suggest, and the evidence is firm-level and programme-specific rather than national and heroic.
+
+The Meiji side of the story had its own institution builders. [Shibusawa Eiichi](/view.html?p=notes/social/actor/private/persona/shibusawa-eiichi.md) promoted the joint-stock company, modern banking and business education, and argued that industrial development had to be carried by a moral economy as well as a technical one.
 
 | Work | What it establishes |
 | --- | --- |
@@ -349,6 +351,15 @@ During the Meiji period (1868–1912), the Japanese government established numer
     
     Focused on woolen fabric production, contributing to the diversification of Japan's textile industry.
 
+
+## Further reading
+
+- [Odagiri (1981) — The Theory of Growth in a Corporate Economy](/view.html?p=documents/books/odagiri-1981-theory-growth-corporate-economy.md)
+- [Odagiri (1992) — Growth through Competition, Competition through Growth](/view.html?p=documents/books/odagiri-1992-growth-through-competition-japan.md)
+- [Teranishi (2005) — Evolution of the Economic System in Japan](/view.html?p=documents/books/teranishi-2005-evolution-economic-system-japan.md)
+- [Stearns (1998) — Schools and Students in Industrial Society](/view.html?p=documents/books/stearns-1998-schools-students-industrial-society-japan-west.md)
+- [International Economic Association (1979) — Economic Growth and Resources](/view.html?p=documents/books/international-economic-association-1979-economic-growth-resources.md)
+- [Lall & Urata (2003) — Competitiveness, FDI and Technological Activity in East Asia](/view.html?p=documents/books/lall-urata-2003-competitiveness-fdi-technological-activity-east-asia.md)
 
 ## References
 

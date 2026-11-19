@@ -376,7 +376,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### How should the workforce in public administration be conceptualized?
 
-> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/actor/public/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/actor/public/catalog/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/actor/public/catalog/employee.md) positions. Personnel detail lives in those entries, not here.
+> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/actor/public/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/actor/public/instance/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/actor/public/instance/employee.md) positions. Personnel detail lives in those entries, not here.
 
 ### Which Frameworks and Guides Can Be Used to Develop a Characterization System for Government-Wide Public Administration Systems?
 
@@ -560,9 +560,9 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Public Administration](/view.html?p=notes/social/actor/public/administration.md)
 - [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md)
 - [Civil Service](/view.html?p=notes/social/actor/public/civil-service.md)
-- [Human Resource Unit](/view.html?p=notes/social/actor/public/catalog/hru.md)
-- [Public Employee](/view.html?p=notes/social/actor/public/catalog/employee.md)
-- [Public Policy](/view.html?p=notes/social/action/public/guidance/policy.md)
+- [Human Resource Unit](/view.html?p=notes/social/actor/public/instance/hru.md)
+- [Public Employee](/view.html?p=notes/social/actor/public/instance/employee.md)
+- [Public Policy](/view.html?p=notes/social/dynamic/action/public/guidance/policy.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)

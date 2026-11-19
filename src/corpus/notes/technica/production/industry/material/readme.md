@@ -40,4 +40,4 @@ tags: [note, production]
 * [OECD Materials and Manufacturing Outlook](https://www.oecd.org/sti/ind/)
 * [Advanced Materials Industry Overview (EU Commission)](https://single-market-economy.ec.europa.eu/sectors/raw-materials_en)
 * [World Materials Forum](https://worldmaterialsforum.com/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

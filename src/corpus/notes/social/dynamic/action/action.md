@@ -1,0 +1,32 @@
+---
+tags: [note]
+---
+
+# Social Action
+
+> Note: This term - denotes 'Any Action' perform by a agent.
+
+> It's a very abstarct notion - a primitive element of our Social Ontology.
+
+## Ontology
+
+> **Ontological** dimension that represents relational events and processes between interaction units.
+
+> The Action element note of the [Dynamic shelf](/view.html?p=notes/social/dynamic/readme.md) and the hub of its [`action/`](/explorer.html?dir=notes/social/dynamic/action) branch, filed beside [Dynamical](/view.html?p=notes/social/dynamic/readme.md): action is the process at the interaction level, dynamics the transformation at the system level. The branch holds what scopes the primitive — [`guidance/`](/explorer.html?dir=notes/social/dynamic/action/guidance), [`organization/`](/explorer.html?dir=notes/social/dynamic/action/organization), and [`public/`](/explorer.html?dir=notes/social/dynamic/action/public), the last carrying the problem dimensions under [`problem/`](/explorer.html?dir=notes/social/dynamic/action/public/problem).
+
+## Type
+
+> Note: This is a prelimary taxonomy - it must be improved.
+
+| **Type**                     | **Description**                                                                                                                   |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Interaction**              | Reciprocal or mutual actions between two or more agents, where each action is meaningful in relation to the others.               |
+| **Solitary Social Action**   | Actions performed by a single agent that have social significance or intended social effects, even without immediate interaction. |
+| **Mediated Action**          | Actions performed through artifacts, technology, or institutions that affect other agents indirectly.                             |
+| **Institutionalized Action** | Actions shaped, constrained, or standardized by social norms, rules, or organizational structures.                                |
+| **[Collective Action](/view.html?p=notes/social/dynamic/action/collective-action.md)** | Coordinated actions by multiple agents toward a shared goal or common interest.                                         |
+
+## References
+
+- [Social Action](https://en.wikipedia.org/wiki/Social_action)
+- "The Strength of Weak Ties" by Mark Granovetter (1973)

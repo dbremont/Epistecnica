@@ -11,4 +11,4 @@ A laboratory is not only a room: it is a configuration of instruments, standards
 - [Research Entity](/glossarium/?t=research-entity)
 - [Technical Evaluation](/glossarium/?t=technical-evaluation)
 - [Experimental Method](/view.html?p=notes/epistemica/observation/experimental-method.md)
-- [Meta Technical & Technical Facet](/view.html?p=notes/social/structural/technical/meta-technical-technical-facet.md)
+- [Meta Technical & Technical Facet](/view.html?p=notes/social/dynamic/knowledge/knowledge-system.md)

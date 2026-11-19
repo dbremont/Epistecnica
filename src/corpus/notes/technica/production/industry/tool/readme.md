@@ -33,4 +33,4 @@ tags: [note, production]
 * [Hardware Store](https://en.wikipedia.org/wiki/Hardware_store)
 * [Tool Manufacturing](https://en.wikipedia.org/wiki/Tool_manufacturing)
 * [NAICS 332 – Fabricated Metal Product Manufacturing](https://www.census.gov/naics/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

@@ -34,4 +34,4 @@ tags: [note, production]
 * [Automation](https://en.wikipedia.org/wiki/Automation)
 * [Electrical Equipment](https://en.wikipedia.org/wiki/Electrical_equipment)
 * [NAICS 333 – Machinery Manufacturing](https://www.census.gov/naics/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

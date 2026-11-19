@@ -57,6 +57,6 @@ tags: [note, actor, firm, plant-breeding, seeds, norway, agriculture, cooperativ
 - [Plant Genetic Improvement](/view.html?p=notes/technica/general/plant-genetic-improvement.md) — the technical apparatus this company runs
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/plant-cultivation-technical-domain-set.md) — the regime the varieties are planted into
 - [Agro](/view.html?p=notes/technica/general/agro/agro.md) — the domain entry note
-- [NIBIO](/view.html?p=notes/social/actor/public/catalog/research/nor/nibio.md) — the institute that co-owns the company
+- [NIBIO](/view.html?p=notes/social/actor/public/instance/research/nor/nibio.md) — the institute that co-owns the company
 - [Norway](/view.html?p=notes/social/actor/public/polity/nor/norway.md) — the polity whose food policy the company serves
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) — the social grammar

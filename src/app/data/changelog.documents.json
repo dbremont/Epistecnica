@@ -20867,6 +20867,16 @@
   "file_path": "books/rosenberg-1986-positive-sum-strategy-harnessing-technology.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the Technology link to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
+   },
+   {
     "date": "2026-09-24",
     "kind": "feat",
     "summary": "courses, documents, personas surfaces with tags plus universal search",
@@ -39108,6 +39118,11 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the problem-dimension link after action/problem/ moved under action/public/."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "feat",
     "summary": "Entry created for Gala & Nicolini Gabriel's 2026 natural-resources-trap paper, with citation, bibtex and DOI: global integration can destroy productive capabilities, the boom pulling labour and capital out of manufacturing and the lost capability not returning; read against the cross-sectoral synergies essay as the mechanism by which integration moves an economy away from its technical overlap.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
@@ -39139,6 +39154,11 @@
  {
   "file_path": "papers/yuasa-2025-policy-implementation-evaluation-japan.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
    {
     "date": "2026-11-19",
     "kind": "feat",
@@ -39273,6 +39293,16 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the Technology link to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "feat",
     "summary": "Entry created for the National Academies volume on technology and employment: the compensation argument through price, wage and demand channels, why the lump-of-labour framing fails, the shift to composition and skill demand, and the commissioned-panel provenance.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
@@ -39284,6 +39314,16 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the Technology link to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "feat",
     "summary": "Entry created for von Tunzelmann's survey: technology as cause or symptom of industrial progress, the theoretical positions set side by side and tested against the record of the industrialising nations, and the book's value as a map of the evidence rather than a thesis.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
@@ -39293,6 +39333,11 @@
  {
   "file_path": "books/clower-etal-1966-growth-without-development-liberia.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the problem-dimension link after action/problem/ moved under action/public/."
+   },
    {
     "date": "2026-11-19",
     "kind": "feat",
@@ -39326,6 +39371,21 @@
  {
   "file_path": "books/rosenbloom-spencer-1996-engines-of-innovation.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the research links after the research shelf was flattened (intersection/, science/, interaction/ and relation/ are gone)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the Breviarium links after technica/breviarium/ moved under technica/general/."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "docs",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
    {
     "date": "2026-11-19",
     "kind": "feat",
@@ -39762,5 +39822,285 @@
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
- }
+ },
+ {
+  "file_path": "books/restrepo-1809-ensayo-sobre-la-geografia.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the 1809 Ensayo sobre la geograf\u00eda, producciones, industria y poblaci\u00f3n de la provincia de Antioquia: bibliographic note, the mining-prosperity passage with an English gloss, and links to the Restrepo persona and Colombia."
+   }
+  ]
+ },
+{
+ "file_path": "books/amann-cooper-1982-industrial-innovation-soviet-union.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Ronald Amann, & Julian Cooper (Eds.). (1982). Industrial Innovation in the Soviet Union. Yale University Press, New Haven. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/cooper-1994-technology-innovation-international-economy.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Charles Cooper (Eds.). (1994). Technology and Innovation in the International Economy. Edward Elgar / United Nations University Press, Aldershot. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/malerba-2004-sectoral-systems-innovation-europe.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Franco Malerba (Eds.). (2004). Sectoral Systems of Innovation: Concepts, Issues and Analyses of Six Major Sectors in Europe. Cambridge University Press, Cambridge. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/sharp-holmes-1989-strategies-new-technology-britain-france.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Margaret Sharp, & Peter Holmes (Eds.). (1989). Strategies for New Technology: Case Studies from Britain and France. Philip Allan, London. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/spilker-1994-multinational-pharmaceutical-companies.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Bert Spilker. (1994). Multinational Pharmaceutical Companies: Principles and Practices. Raven Press, New York. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/branscomb-keller-1998-investing-in-innovation.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Lewis M. Branscomb, & James Keller (Eds.). (1998). Investing in Innovation: Creating a Research and Innovation Policy That Works. MIT Press, Cambridge, MA. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/kingston-1984-political-economy-innovation.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: William Kingston. (1984). The Political Economy of Innovation. Martinus Nijhoff, The Hague. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/teece-1987-competitive-challenge-industrial-innovation.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: David J. Teece (Eds.). (1987). The Competitive Challenge: Strategies for Industrial Innovation and Renewal. Ballinger, Cambridge, MA. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/rosegger-1986-economics-production-innovation.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Gerhard Rosegger. (1986). The Economics of Production and Innovation: An Industrial Perspective. Pergamon Press, Oxford. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/teranishi-2005-evolution-economic-system-japan.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Juro Teranishi. (2005). Evolution of the Economic System in Japan. Edward Elgar, Cheltenham. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/stearns-1998-schools-students-industrial-society-japan-west.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Peter N. Stearns. (1998). Schools and Students in Industrial Society: Japan and the West, 1870–1940. Bedford Books, Boston. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/international-economic-association-1979-economic-growth-resources.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: International Economic Association. (1979). Economic Growth and Resources: Proceedings of the Fifth World Congress of the International Economic Association, Tokyo, 1977. St. Martin's Press, New York. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/lall-urata-2003-competitiveness-fdi-technological-activity-east-asia.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Sanjaya Lall, & Shujiro Urata (Eds.). (2003). Competitiveness, FDI and Technological Activity in East Asia. Edward Elgar, Cheltenham. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/odagiri-1981-theory-growth-corporate-economy.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Hiroyuki Odagiri. (1981). The Theory of Growth in a Corporate Economy: Management Preference, Research and Development, and Economic Growth. Cambridge University Press, Cambridge. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/odagiri-1992-growth-through-competition-japan.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the book entry: Hiroyuki Odagiri. (1992). Growth through Competition, Competition through Growth: Strategic Management and the Economy in Japan. Clarendon Press / Oxford University Press, Oxford. Includes the bibliographic record and archive.org link."
+  }
+ ]
+},
+{
+ "file_path": "books/nakayama-swain-yagi-1974-science-and-society-modern-japan.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Nakayama, S., Swain, D. L., & Yagi, E. (Eds.). (1974). Science and Society in Modern Japan: Selected Historical Sources. University of Tokyo Press / MIT Press, Tokyo / Cambridge, MA. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "books/riken-2019-century-of-discovery.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: RIKEN. (2019). A Century of Discovery: The History of RIKEN. RIKEN, Wako. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/itakura-yagi-1957-japanese-research-system-riken.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Itakura, K., & Yagi, E. (1957). The Japanese Research System and the Establishment of the Institute of Physical and Chemical Research. *Kagakushi Kenkyu*, 41, 5–13; 42, 22–28. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/hirosige-1963-social-conditions-prewar-japanese-nuclear-physics.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Hirosige, T. (1963). Social Conditions for Prewar Japanese Research in Nuclear Physics. *Japanese Studies in the History of Science*, 2, 80–93. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/saito-1986-formation-riken-industrial-group.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Saito, S. (1986). The Formation of the Riken Industrial Group. *Japanese Yearbook on Business History*, 2, 119–140. https://doi.org/10.5029/jrbh1984.2.119. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/harayama-2001-japanese-technology-policy.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Harayama, Y. (2001). Japanese Technology Policy: History and a New Perspective. RIETI Discussion Paper 01-E-001. Research Institute of Economy, Trade and Industry. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/yamanaka-2024-joji-sakurai-commitment-riken.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Yamanaka, C. (2024). Joji Sakurai's Commitment to the Institute of Physical and Chemical Research: Focusing on the Founding and Initial Management of the Institute. *Keiei Shigaku (Japan Business History Review)*, 59(1), 3–29. https://doi.org/10.5029/bhsj.59.1_3. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/yamanaka-2012-joji-sakurai-promotion-science.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Yamanaka, C. (2012). Joji Sakurai's Thoughts and Activities on the Promotion of Science in the Modern Era in Japan. *Journal of History of Science, Japan*, 51(263), 138–147. https://doi.org/10.34336/jhsj.51.263_138. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/cusumano-1989-scientific-industry-prewar-japan.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: Cusumano, M. A. (1989). \"Scientific Industry\": Strategy, Technology, and Entrepreneurship in Prewar Japan. In W. D. Wray (Ed.), *Managing Industrial Enterprise: Cases from Japan's Prewar Experience* (pp. 269–315). Harvard University Asia Center. https://doi.org/10.1163/9781684172801_009. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "articles/nature-1918-institute-physical-chemical-research-japan.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: An Institute of Physical and Chemical Research for Japan. (1918). *Nature*, 102, 294–295. https://doi.org/10.1038/102294b0. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/riken-rsc-2011-white-paper.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add the document entry: RIKEN SPring-8 Center Advisory Council. (2011). White Paper and Activity Report 2011. RIKEN SPring-8 Center. Includes the bibliographic record, notes and source links."
+  }
+ ]
+},
+{
+ "file_path": "papers/mazzoleni-nelson-2007-public-research-institutions-economic-catch-up.md",
+ "logs": [
+  {
+   "date": "2026-11-19",
+   "kind": "feat",
+   "summary": "Add Mazzoleni & Nelson (2007) on public research institutions and economic catch-up, with DOI, RePEc and alternate-copy links."
+  }
+ ]
+}
 ]

@@ -152,19 +152,19 @@
   },
   {
    "from": "social/actor/",
-   "to": "social/action/",
-   "label": "Action",
+   "to": "social/dynamic/",
+   "label": "Dynamic",
    "kind": "hierarchy"
   },
   {
    "from": "social/actor/public/",
-   "to": "social/action/public/",
+   "to": "social/dynamic/action/public/",
    "label": "Action",
    "kind": "hierarchy"
   },
   {
-   "from": "social/action/public/informe/",
-   "to": "social/action/guidance/",
+   "from": "social/dynamic/action/public/informe/",
+   "to": "social/dynamic/action/guidance/",
    "label": "Guidance",
    "kind": "hierarchy"
   },
@@ -187,12 +187,6 @@
    "kind": "atlas"
   },
   {
-   "from": "social/actor/public/informe/",
-   "to": "social/action/public/informe/",
-   "label": "Public Action Informe",
-   "kind": "hierarchy"
-  },
-  {
    "from": "nature/result/",
    "to": "epistemica/",
    "label": "Results",
@@ -212,7 +206,7 @@
   },
   {
    "from": "social/good/",
-   "to": "production/",
+   "to": "technica/production/",
    "label": "Production",
    "kind": "related"
   },
@@ -260,7 +254,31 @@
   },
   {
    "from": "tecnica/",
-   "to": "production/industry/",
+   "to": "technica/production/industry/",
+   "label": "Production",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/research/",
+   "to": "technica/meta/",
+   "label": "Meta Tecnica",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/",
+   "to": "social/relation/",
+   "label": "Social Interaction",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/research/",
+   "to": "technica/meta/technical-activity.md",
+   "label": "Research Activity",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/production/",
+   "to": "technica/production/",
    "label": "Production",
    "kind": "related"
   }

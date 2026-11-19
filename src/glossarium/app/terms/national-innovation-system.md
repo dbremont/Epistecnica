@@ -13,6 +13,6 @@ Policy reads the NIS to find where the flow of knowledge, resources and ideas is
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
 - [An Essay on the Term National Innovation System](/view.html?p=notes/miscellanea/unclassified/research/an-essay-on-the-term-national-innovation-system.md)
 - [Innovation Economics](/view.html?p=notes/miscellanea/discipline/innovation.md)

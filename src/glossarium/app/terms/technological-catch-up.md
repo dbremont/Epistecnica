@@ -9,6 +9,6 @@ The concept links the technical facet to development economics: the gap that mat
 ## References
 
 - Abramovitz, M. (1986). Catching Up, Forging Ahead, and Falling Behind. *The Journal of Economic History*, 46(2), 385–406.
-- [Research](/view.html?p=notes/social/structural/technical/research.md)
+- [Research](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
 - [Absorptive Capacity](/glossarium/?t=absorptive-capacity)
 - [Technology Transfer](/glossarium/?t=technology-transfer)

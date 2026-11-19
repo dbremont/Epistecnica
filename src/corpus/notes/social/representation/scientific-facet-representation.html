@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scientific Facet Representation</title>
+<link rel="icon" href="/img/favicon.ico">
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="stylesheet" href="/shared/usearch.css">
+<link rel="stylesheet" href="/shared/chrome.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-void:#0b0e14; --bg-surface:#11151e; --bg-card:#161b26; --bg-elevated:#1d2330;
+  --text-primary:#f4f3f1; --text-secondary:#a8a5b0; --text-muted:#9290aa; --text-ghost:#82809a;
+  --accent-copper:#c9956c; --accent-sage:#7ba388; --accent-plum:#9b7eb0; --accent-rose:#c47d8a;
+  --accent-amber:#d4a857; --accent-steel:#6b8caa; --accent-gold:#c9956c; --accent-cyan:#4dd4c4;
+  --border-subtle:rgba(255,255,255,0.05); --border-medium:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.12);
+  --card-bg:rgba(22,27,38,0.72); --nav-bg:rgba(11,14,20,0.85);
+  --font-display:'Cormorant Garamond',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  --radius-sm:5px; --radius-md:8px; --radius-lg:12px;
+}
+html[data-theme="light"]{
+  --bg-void:#f5f2ea; --bg-surface:#efe9dc; --bg-card:#fffdf8; --bg-elevated:#ffffff;
+  --text-primary:#1a1d24; --text-secondary:#4a4f5e; --text-muted:#7a7f8e; --text-ghost:#9aa0ae;
+  --accent-copper:#9a7b3f; --accent-sage:#4e7a5e; --accent-plum:#7a5f8c; --accent-rose:#a55a68;
+  --accent-amber:#9a742f; --accent-steel:#4e6e8c; --accent-gold:#9a7b3f; --accent-cyan:#0e7c72;
+  --border-subtle:rgba(20,22,30,0.10); --border-medium:rgba(20,22,30,0.14); --border-strong:rgba(20,22,30,0.22);
+  --card-bg:rgba(255,253,248,0.72); --nav-bg:rgba(245,242,234,0.85);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%}
+body{background:var(--bg-void);color:var(--text-primary);font-family:var(--font-body);line-height:1.55;transition:opacity .18s ease;display:flex;flex-direction:column;min-height:100vh}
+main.wrap{flex:1}
+html.theme-fading body{opacity:0}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--accent-cyan);outline-offset:2px}
+:root{--shell-max:1280px;--shell-pad:2rem}
+.nav-inner,.masthead,.wrap,.tfr-foot{width:100%;max-width:var(--shell-max);margin-left:auto;margin-right:auto;padding-left:var(--shell-pad);padding-right:var(--shell-pad)}
+main.wrap{width:100%}
+.wrap{max-width:1280px;margin:0 auto;padding:1.6rem 2rem 3rem}
+.lib-tabs{display:flex;gap:.5rem;margin-bottom:1rem}
+.lib-tabs button{background:var(--bg-elevated);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.32rem .7rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.lib-tabs button.active{border-color:var(--accent-gold);color:var(--accent-gold)}
+.detail-head{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem}
+.detail-group{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.8rem .95rem;margin-bottom:.8rem}
+.detail-group h3{font-family:var(--font-mono);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-copper);margin-bottom:.55rem}
+.detail-fields{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.55rem .9rem}
+.detail-field{font-size:.75rem;color:var(--text-secondary)}
+.detail-field b{display:block;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:400;margin-bottom:.12rem}
+.detail-field .chips{margin-top:.15rem}
+.member-list{display:flex;flex-wrap:wrap;gap:.35rem;margin-top:.2rem}
+.member-list a{font-family:var(--font-mono);font-size:.58rem;border:1px solid var(--border-medium);border-radius:999px;padding:.16rem .55rem;color:var(--text-secondary)}
+.member-list a:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.view-tabs{display:flex;gap:.5rem;border-bottom:1px solid var(--border-subtle);margin-bottom:1.2rem}
+.view-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:.6rem .2rem .55rem;margin-right:1.2rem;font-family:var(--font-mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.view-tabs button.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold)}
+h2.sec{font-family:var(--font-display);font-weight:300;font-size:1.55rem;margin:1.8rem 0 .25rem}
+h2.sec:first-child{margin-top:0}
+.sec-desc{color:var(--text-muted);font-size:.8rem;margin-bottom:1rem;max-width:80ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.9rem}
+.card{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.9rem 1rem;display:flex;flex-direction:column;gap:.55rem;cursor:pointer;transition:border-color .14s ease,transform .14s ease}
+.card:hover{border-color:var(--border-strong);transform:translateY(-1px)}
+.card{position:relative}
+.card h3{padding-right:1.8rem}
+.card-quick{position:absolute;top:.55rem;right:.6rem;width:26px;height:26px;border-radius:50%;border:1px solid var(--border-medium);background:var(--bg-elevated);color:var(--text-muted);font-size:.9rem;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.card-quick:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.pager{display:flex;gap:.4rem;align-items:center;justify-content:center;margin-top:1.2rem;flex-wrap:wrap}
+.pager button{background:var(--bg-elevated);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.32rem .6rem;font-family:var(--font-mono);font-size:.6rem;color:var(--text-secondary);cursor:pointer}
+.pager button:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.pager button.active{border-color:var(--accent-gold);color:var(--accent-gold)}
+.pager button:disabled{opacity:.35;cursor:default}
+.pager .range{font-family:var(--font-mono);font-size:.56rem;letter-spacing:.06em;color:var(--text-muted);margin-right:.6rem}
+.pager .ellipsis{font-family:var(--font-mono);font-size:.6rem;color:var(--text-muted);padding:0 .15rem}
+.card.selected{border-color:var(--accent-gold);box-shadow:0 0 0 1px var(--accent-gold)}
+.card .kind{font-family:var(--font-mono);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-cyan)}
+.card h3{font-family:var(--font-display);font-weight:400;font-size:1.22rem;line-height:1.15}
+.card .sub{font-family:var(--font-mono);font-size:.6rem;color:var(--text-muted)}
+.card .desc{color:var(--text-secondary);font-size:.78rem;line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:.28rem}
+.chip{display:inline-block;white-space:nowrap;font-family:var(--font-mono);font-size:.53rem;letter-spacing:.05em;padding:.14rem .45rem;border:1px solid var(--border-medium);border-radius:999px;color:var(--text-secondary)}
+.chip.gold{border-color:var(--accent-gold);color:var(--accent-gold)}
+.card-actions{display:flex;gap:.6rem;align-items:center;margin-top:.15rem;border-top:1px dotted var(--border-medium);padding-top:.5rem}
+.btn{background:var(--bg-elevated);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.28rem .55rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.btn:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.btn.gold{border-color:var(--accent-gold);color:var(--accent-gold)}
+.note-link{font-family:var(--font-mono);font-size:.58rem;color:var(--accent-cyan)}
+.note-link:hover{text-decoration:underline}
+.lib-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-bottom:1rem}
+.lib-toolbar input[type=search],#compareSearch{background:var(--bg-surface);color:var(--text-primary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.45rem .6rem;font-family:var(--font-body);font-size:.8rem}
+.lib-toolbar input[type=search]{flex:1;min-width:220px}
+.lib-toolbar select{background:var(--bg-elevated);color:var(--text-secondary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);font-family:var(--font-mono);font-size:.62rem;padding:.4rem .5rem}
+.lib-toolbar .hint{font-family:var(--font-mono);font-size:.56rem;color:var(--text-muted)}
+.compare-head{display:flex;justify-content:space-between;align-items:flex-end;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
+.compare-toolbar{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.toggle{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.toggle input{accent-color:var(--accent-gold)}
+.compare-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.2rem;align-items:start}
+.compare-rail{position:sticky;top:72px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem;max-height:calc(100vh - 92px);display:flex;flex-direction:column;gap:.5rem}
+.rail-head{display:flex;justify-content:space-between;align-items:baseline}
+.rail-head h3{font-family:var(--font-display);font-weight:400;font-size:1.1rem}
+.rail-head span{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.compare-rail input[type=search]{width:100%}
+.rail-actions{display:flex;justify-content:space-between;align-items:center;gap:.5rem}
+.rail-actions span{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.pick-list{overflow:auto;display:flex;flex-direction:column;gap:.1rem;padding-right:.1rem}
+.pick-item{display:flex;align-items:center;gap:.45rem;padding:.3rem .4rem;border-radius:var(--radius-sm);font-size:.72rem;color:var(--text-secondary);cursor:pointer;border:1px solid transparent}
+.pick-item:hover{background:var(--bg-elevated)}
+.pick-item.selected{background:var(--bg-elevated);border-color:var(--border-medium);color:var(--text-primary)}
+.pick-item input{width:auto;margin:0;accent-color:var(--accent-gold)}
+.pick-item .meta{margin-left:auto;font-family:var(--font-mono);font-size:.52rem;color:var(--text-ghost)}
+.compare-main{min-width:0}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.6rem;margin-bottom:.8rem}
+.summary-card{position:relative;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem .8rem}
+.summary-card .kind{font-family:var(--font-mono);font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-cyan)}
+.summary-card h4{font-family:var(--font-display);font-weight:400;font-size:1.08rem;line-height:1.15;margin:.15rem 0;padding-right:1.4rem}
+.summary-card .meta{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.summary-card .chips{margin-top:.32rem}
+.summary-card .remove{position:absolute;top:.45rem;right:.5rem;background:none;border:1px solid var(--border-medium);border-radius:50%;width:20px;height:20px;line-height:1;font-size:.7rem;color:var(--text-muted);cursor:pointer}
+.summary-card .remove:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+.mini-life{display:flex;gap:3px;margin-top:.4rem;align-items:center}
+.mini-life i{height:4px;flex:1;background:var(--border-medium);border-radius:2px}
+.mini-life i.on{background:var(--accent-gold)}
+.diff-summary{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--bg-surface);padding:.5rem .7rem;margin-bottom:.8rem;font-size:.76rem;color:var(--text-secondary)}
+.diff-summary b{color:var(--accent-gold);font-weight:400}
+.dim-card{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);margin-bottom:.7rem;overflow:hidden}
+.dim-head{display:flex;align-items:center;gap:.55rem;padding:.55rem .75rem;background:var(--bg-surface);cursor:pointer;list-style:none}
+.dim-head::-webkit-details-marker{display:none}
+.dim-num{width:20px;height:20px;border-radius:50%;background:var(--accent-gold);color:var(--bg-void);display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:.6rem}
+.dim-title{font-family:var(--font-display);font-size:1.08rem;font-weight:400}
+.dim-diff{margin-left:auto;font-family:var(--font-mono);font-size:.52rem;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-rose)}
+.dim-scroll{overflow-x:auto}
+.dim-table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:.74rem}
+.dim-table th,.dim-table td{border-bottom:1px solid var(--border-subtle);padding:.42rem .6rem;text-align:left;vertical-align:top}
+.dim-table thead th{position:sticky;top:0;background:var(--bg-surface);z-index:1;font-family:var(--font-mono);font-size:.53rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);white-space:normal;word-break:break-word}
+.dim-table thead th:first-child,.dim-table td.field{width:150px}
+.dim-table thead th .t{display:block;font-family:var(--font-display);font-size:.9rem;letter-spacing:0;text-transform:none;color:var(--accent-gold);margin-top:.15rem}
+.dim-table td.field{font-family:var(--font-mono);font-size:.55rem;letter-spacing:.03em;color:var(--text-muted);white-space:normal;word-break:break-word}
+.dim-table tbody tr:nth-child(even){background:rgba(255,255,255,.015)}
+html[data-theme="light"] .dim-table tbody tr:nth-child(even){background:rgba(20,22,30,.025)}
+.dim-table td.val{color:var(--text-secondary);min-width:0;word-break:break-word}
+.dim-table td.val.diff{color:var(--text-primary);background:rgba(196,125,138,.06)}
+.dim-table td.val .chip{margin:.05rem .15rem .05rem 0}
+.empty-state{border:1px dashed var(--border-medium);border-radius:var(--radius-md);padding:2.2rem 1rem;text-align:center;color:var(--text-muted);font-size:.82rem}
+.empty-state b{display:block;font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);font-weight:400;margin-bottom:.3rem}
+.tfr-foot{max-width:1280px;margin:0 auto;width:100%;padding:1rem 2rem;border-top:1px solid var(--border-subtle);display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+.tfr-foot nav{display:flex;align-items:center;gap:.55rem}
+.tfr-foot a{color:var(--text-secondary)}
+.tfr-foot a:hover{color:var(--accent-cyan)}
+.tfr-foot .sep{opacity:.45}
+@media(max-width:900px){.compare-layout{grid-template-columns:1fr}.compare-rail{position:static;max-height:none}.pick-list{max-height:220px}.tfr-foot{padding-left:1.2rem;padding-right:1.2rem}}
+.drawer-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s ease;z-index:55}
+.drawer-backdrop.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--bg-surface);border-left:1px solid var(--border-strong);transform:translateX(100%);transition:transform .24s ease;z-index:60;padding:1.2rem 1.3rem;overflow:auto;display:flex;flex-direction:column;gap:.7rem}
+.drawer.open{transform:translateX(0)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center}
+.drawer-close{background:none;border:1px solid var(--border-medium);border-radius:50%;width:26px;height:26px;font-size:1rem;line-height:1;color:var(--text-muted);cursor:pointer}
+.drawer-close:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+.drawer h2{font-family:var(--font-display);font-weight:300;font-size:1.8rem;line-height:1.1}
+.drawer-sub{font-family:var(--font-mono);font-size:.58rem;color:var(--text-muted)}
+.drawer-body{display:flex;flex-direction:column;gap:.6rem}
+.drawer-card{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--card-bg);padding:.6rem .7rem}
+.drawer-card h4{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-copper);margin-bottom:.3rem}
+.drawer-card p,.drawer-card li{font-size:.75rem;color:var(--text-secondary)}
+.drawer-card ul{list-style:none}
+.drawer-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:auto;padding-top:.6rem;border-top:1px solid var(--border-subtle)}
+@media(max-width:900px){:root{--shell-pad:1.2rem}}
+.empty{color:var(--text-muted);font-family:var(--font-mono);font-size:.78rem;padding:2rem 0;text-align:center}
+.err{color:var(--accent-rose);font-family:var(--font-mono);font-size:.78rem;padding:1rem 0}
+.detail-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1rem;align-items:start}
+.detail-layout.no-rail{grid-template-columns:minmax(0,1fr)}
+.detail-layout.no-rail .detail-rail{display:none}
+.side-block{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.6rem}
+.side-block h4{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.35rem}
+.side-block a{display:block;padding:.3rem .4rem;border-radius:var(--radius-sm);font-size:.76rem;color:var(--text-secondary);text-decoration:none}
+.side-block a:hover,.side-block a.active{background:var(--bg-elevated);color:var(--accent-gold)}
+.detail-main{min-width:0}
+.detail-header{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:1rem 1.1rem;margin-bottom:.9rem}
+.detail-header .top{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:flex-start}
+.detail-name{font-family:var(--font-display);font-weight:300;font-size:2rem;line-height:1.1}
+.detail-type{font-style:italic;color:var(--accent-copper);font-size:.95rem;margin-top:.15rem}
+.detail-meta{display:flex;flex-wrap:wrap;gap:.9rem;margin:.65rem 0;font-family:var(--font-mono);font-size:.6rem;color:var(--text-muted)}
+.detail-meta b{color:var(--text-secondary);font-weight:400}
+.detail-summary{color:var(--text-secondary);font-size:.82rem;line-height:1.6;max-width:80ch}
+.detail-header .chips{margin-top:.55rem}
+.detail-tabs{display:flex;flex-wrap:wrap;gap:.2rem;border-bottom:1px solid var(--border-subtle);margin-bottom:.9rem}
+.detail-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:.55rem .7rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.detail-tabs button.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold)}
+.num-card{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);margin-bottom:.9rem;overflow:hidden}
+.num-head{display:flex;align-items:center;gap:.55rem;padding:.6rem .8rem;border-bottom:1px solid var(--border-subtle);background:var(--bg-surface)}
+.num-badge{width:20px;height:20px;border-radius:50%;background:var(--accent-gold);color:var(--bg-void);display:inline-flex;align-items:center;justify-content:center;font-family:var(--font-mono);font-size:.62rem;font-weight:600}
+.num-title{font-family:var(--font-display);font-size:1.15rem;font-weight:400}
+.num-body{padding:.75rem .85rem}
+.coord-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;align-items:start;margin-bottom:.9rem}
+.coord-grid .num-card{margin-bottom:0}
+.coord-grid .coord-full{grid-column:1/-1}
+.coord-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
+.value-list{list-style:none;margin:0;padding:0}
+.value-list li{position:relative;padding:.3rem 0 .3rem .9rem;border-bottom:1px dotted var(--border-subtle);font-size:.72rem;color:var(--text-secondary)}
+.value-list li:last-child{border-bottom:0}
+.value-list li:before{content:"";position:absolute;left:0;top:.65rem;width:5px;height:5px;border-radius:50%;background:var(--accent-gold)}
+@media(max-width:800px){.coord-grid{grid-template-columns:1fr}.coord-grid .coord-full{grid-column:auto}.coord-rows{grid-template-columns:1fr}}
+
+.identity-grid{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:.9rem}
+.field-row{display:grid;grid-template-columns:120px 1fr;gap:.5rem;padding:.2rem 0;border-bottom:1px dotted var(--border-subtle);font-size:.76rem}
+.field-row:last-child{border-bottom:0}
+.field-row b{font-family:var(--font-mono);font-size:.55rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);font-weight:400}
+.role-panel{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface);padding:.6rem .7rem}
+.role-panel h5{font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-copper);margin-bottom:.4rem}
+.role-item{display:flex;align-items:center;gap:.45rem;font-size:.76rem;color:var(--text-secondary);margin:.28rem 0}
+.role-item .dot{width:8px;height:8px;border-radius:2px;background:var(--accent-cyan);flex-shrink:0}
+.lifecycle{display:flex;align-items:flex-start;gap:.2rem;overflow-x:auto;padding:.4rem 0}
+.lc-stage{flex:1;min-width:60px;text-align:center;position:relative}
+.lc-dot{width:10px;height:10px;border-radius:50%;background:var(--bg-elevated);border:2px solid var(--border-strong);margin:0 auto .3rem;position:relative;z-index:1}
+.lc-stage.significant .lc-dot{background:var(--accent-gold);border-color:var(--accent-gold)}
+.lc-stage.limited .lc-dot{background:var(--bg-elevated);border-color:var(--border-strong);opacity:.45}
+.lc-stage:not(:last-child):after{content:"";position:absolute;top:4px;left:50%;width:100%;height:1px;background:var(--border-medium);z-index:0}
+.lc-label{font-family:var(--font-mono);font-size:.5rem;letter-spacing:.03em;color:var(--text-muted);line-height:1.35;overflow-wrap:anywhere;hyphens:auto}
+.legend-row{display:flex;gap:1rem;font-family:var(--font-mono);font-size:.52rem;color:var(--text-muted);margin-top:.35rem}
+.legend-row i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:.3rem;vertical-align:middle}
+.metric-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem;margin-bottom:.7rem}
+.metric{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface);padding:.55rem .65rem}
+.metric .n{font-family:var(--font-display);font-size:1.55rem;color:var(--accent-gold);line-height:1}
+.metric .l{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-top:.2rem}
+.bar-chart{width:100%;height:auto;border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface)}
+.bar-chart text{font-family:var(--font-mono);font-size:8px;fill:var(--text-muted)}
+.bar-chart rect{fill:var(--accent-steel)}
+.bar-chart rect.hi{fill:var(--accent-gold)}
+.detail-rail{display:flex;flex-direction:column;gap:.8rem;position:sticky;top:70px;max-height:calc(100vh - 90px);overflow:auto;padding-right:.15rem;scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent}
+.detail-rail::-webkit-scrollbar{width:6px}
+.detail-rail::-webkit-scrollbar-thumb{border-radius:3px;background:var(--border-strong)}
+.detail-rail::-webkit-scrollbar-track{background:transparent}
+.rail-card{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem .8rem}
+.rail-card h4{font-family:var(--font-display);font-weight:400;font-size:1rem;margin-bottom:.45rem}
+.eco-svg{width:100%;height:auto}
+.eco-svg text{font-family:var(--font-body);font-size:8px;fill:var(--text-secondary)}
+.eco-svg .hub{fill:var(--accent-gold)}
+.eco-svg .spoke{fill:var(--bg-elevated);stroke:var(--border-strong)}
+.eco-svg line{stroke:var(--border-medium)}
+.check-list{list-style:none;font-size:.72rem;color:var(--text-secondary)}
+.check-list li{padding:.22rem 0;border-bottom:1px dotted var(--border-subtle);display:flex;gap:.4rem;align-items:center}
+.check-list li:last-child{border-bottom:0}
+.check-list .tick{color:var(--accent-sage)}
+.rail-list{display:flex;flex-direction:column;gap:.2rem}
+.rail-list a{font-size:.72rem;color:var(--text-secondary);text-decoration:none;padding:.2rem 0;border-bottom:1px dotted var(--border-subtle)}
+.rail-list a:hover{color:var(--accent-cyan)}
+.source-list{list-style:none;font-size:.72rem}
+.source-list li{padding:.2rem 0}
+.source-list a{color:var(--accent-cyan)}
+.eco-groups{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.6rem}
+.eco-group{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);padding:.5rem .6rem;background:var(--bg-surface)}
+.eco-group h5{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.3rem}
+.actor-treemap{display:flex;gap:.5rem;min-height:260px;overflow-x:auto;padding-bottom:.35rem;scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent}
+.actor-treemap::-webkit-scrollbar{height:6px}
+.actor-treemap::-webkit-scrollbar-thumb{border-radius:3px;background:var(--border-strong)}
+.actor-treemap::-webkit-scrollbar-track{background:transparent}
+.actor-treemap .tm-tile{min-width:88px}
+.actor-group-grid{display:flex;flex-direction:column;gap:.7rem}
+.actor-group{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface);padding:.5rem}
+.actor-group-head{display:flex;justify-content:space-between;gap:.5rem;padding:.15rem .2rem .45rem;font-family:var(--font-mono);font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted)}
+.actor-group-head b{font-weight:400;color:var(--accent-copper)}
+.actor-tile-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:.45rem}
+.actor-tile-grid .tm-tile{min-height:132px}
+.tm-group{display:flex;flex-direction:column;min-width:0;border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface);overflow:hidden}
+.tm-group-head{display:flex;justify-content:space-between;gap:.5rem;padding:.4rem .55rem;border-bottom:1px solid var(--border-subtle);font-family:var(--font-mono);font-size:.52rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted)}
+.tm-group-head b{font-weight:400;color:var(--accent-copper)}
+.tm-tiles{display:flex;flex:1;gap:.35rem;padding:.4rem;min-height:0}
+.tm-tile{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:.5rem;min-width:0;padding:.65rem;border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--card-bg);color:var(--text-primary);text-decoration:none;overflow:hidden;transition:border-color .14s ease,background .14s ease,transform .14s ease}
+.tm-tile:hover{border-color:var(--border-strong);background:var(--bg-elevated);transform:translateY(-1px)}
+.tm-tile .tm-type{font-family:var(--font-mono);font-size:.5rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-cyan)}
+.tm-tile .tm-body{display:flex;flex-direction:column;gap:.22rem;min-width:0}
+.tm-tile strong{font-family:var(--font-display);font-weight:400;font-size:1rem;line-height:1.15}
+.tm-tile .tm-meta{font-family:var(--font-mono);font-size:.55rem;color:var(--text-muted)}
+.tm-tile .tm-role{font-size:.68rem;line-height:1.35;color:var(--text-secondary)}
+.domain-treemap{min-height:240px}
+.domain-treemap .tm-tile{cursor:default;justify-content:flex-end;min-width:0}
+.domain-treemap .tm-tile:hover{transform:none;border-color:var(--border-subtle);background:var(--card-bg)}
+.domain-treemap .tm-tile.is-zero{opacity:.5}
+.domain-family-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:.65rem}
+.domain-family-card{border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-surface);padding:.7rem}
+.domain-family-card h5{display:flex;justify-content:space-between;gap:.5rem;margin:0 0 .55rem;font-family:var(--font-mono);font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);font-weight:400}
+.domain-family-card h5 b{font-weight:400;color:var(--accent-copper)}
+.domain-chip-row{display:flex;justify-content:space-between;gap:.5rem;padding:.3rem 0;border-bottom:1px dotted var(--border-subtle);font-size:.73rem;color:var(--text-primary)}
+.domain-chip-row:last-child{border-bottom:0}
+.domain-chip-row span:last-child{font-family:var(--font-mono);font-size:.55rem;color:var(--text-muted);white-space:nowrap}
+@media(max-width:800px){.domain-family-grid{grid-template-columns:1fr}}
+
+.teas-thumb{position:relative;display:block;width:100%;height:180px;padding:0;overflow:hidden;border:1px solid var(--border-subtle);border-radius:var(--radius-sm);background:var(--bg-void);cursor:pointer}
+.teas-thumb .teas-svg{width:100%;height:auto;display:block;pointer-events:none}
+.teas-thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,var(--bg-surface) 100%);pointer-events:none}
+.teas-thumb-hint{position:absolute;right:.5rem;bottom:.5rem;z-index:1;padding:.2rem .45rem;border:1px solid var(--border-medium);border-radius:var(--radius-sm);background:var(--nav-bg);font-family:var(--font-mono);font-size:.52rem;letter-spacing:.06em;color:var(--accent-gold);text-transform:uppercase}
+.teas-legend{display:flex;align-items:center;gap:.4rem;margin-top:.5rem;font-family:var(--font-mono);font-size:.5rem;letter-spacing:.04em;color:var(--text-muted)}
+.teas-scale{flex:1;height:6px;border:1px solid var(--border-subtle);border-radius:3px;background:linear-gradient(90deg,var(--card-bg),var(--accent-gold))}
+.teas-figure-head{display:flex;align-items:center;justify-content:space-between;gap:.6rem;margin-bottom:.5rem}
+.teas-figure-label{font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+.teas-figure{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--bg-void);overflow:hidden}
+.teas-figure .teas-svg{display:block;width:100%;height:auto}
+.teas-modal{position:fixed;inset:0;z-index:2000;display:none;align-items:center;justify-content:center;padding:1.5rem}
+.teas-modal.open{display:flex}
+.teas-modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.72);backdrop-filter:blur(3px)}
+.teas-modal-panel{position:relative;display:flex;flex-direction:column;width:min(96vw,1540px);max-height:92vh;overflow:hidden;border:1px solid var(--border-strong);border-radius:var(--radius-md);background:var(--bg-surface);box-shadow:0 24px 80px rgba(0,0,0,.55)}
+.teas-modal-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding:1rem 1.2rem;border-bottom:1px solid var(--border-subtle)}
+.teas-modal-head h3{margin:0;font-family:var(--font-display);font-weight:400;font-size:1.35rem}
+.teas-modal-head p{margin:.2rem 0 0;font-family:var(--font-mono);font-size:.58rem;color:var(--text-muted)}
+.teas-modal-close{width:30px;height:30px;border:1px solid var(--border-medium);border-radius:50%;background:var(--bg-elevated);color:var(--text-secondary);font-size:1rem;line-height:1;cursor:pointer}
+.teas-modal-close:hover{border-color:var(--accent-gold);color:var(--accent-gold)}
+.teas-modal-body{padding:1rem 1.2rem 1.2rem;overflow:auto}
+.ref-actions{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.8rem}
+.timeline{position:relative;padding-left:1.05rem}
+.timeline:before{content:"";position:absolute;left:.32rem;top:.35rem;bottom:.35rem;width:1px;background:var(--border-subtle)}
+.tl-item{position:relative;padding:.38rem 0 .55rem}
+.tl-item:before{content:"";position:absolute;left:-.83rem;top:.58rem;width:7px;height:7px;border-radius:50%;background:var(--accent-gold);box-shadow:0 0 0 3px var(--bg-surface)}
+.tl-date{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.08em;color:var(--accent-cyan)}
+.tl-title{font-family:var(--font-display);font-size:.96rem;line-height:1.2;color:var(--text-primary);margin:.08rem 0}
+.tl-desc{font-size:.7rem;line-height:1.45;color:var(--text-secondary)}
+.tl-meta{font-family:var(--font-mono);font-size:.5rem;color:var(--text-muted);margin-top:.15rem}
+.tl-meta a{color:var(--accent-cyan);text-decoration:none}
+.tl-meta a:hover{text-decoration:underline}
+.timeline-compact{max-height:340px;overflow:auto;padding-right:.25rem;scrollbar-width:thin;scrollbar-color:var(--border-strong) transparent}
+.timeline-compact::-webkit-scrollbar{width:6px}
+.timeline-compact::-webkit-scrollbar-thumb{border-radius:3px;background:var(--border-strong)}
+.timeline-compact::-webkit-scrollbar-track{background:transparent}
+.activity-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.6rem}
+.activity-column{border:1px solid var(--border-subtle);border-top:2px solid var(--accent-steel);border-radius:var(--radius-sm);background:var(--bg-surface);padding:.55rem .6rem}
+.activity-column:nth-child(2){border-top-color:var(--accent-cyan)}
+.activity-column:nth-child(3){border-top-color:var(--accent-copper)}
+.activity-column-head{display:flex;align-items:center;justify-content:space-between;gap:.4rem;margin-bottom:.3rem;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+.activity-column-head b{font-weight:400;color:var(--accent-gold)}
+.activity-row{display:flex;align-items:center;gap:.35rem;padding:.24rem 0;border-bottom:1px dotted var(--border-subtle)}
+.activity-row:last-child{border-bottom:0}
+.activity-name{flex:1;min-width:0;font-size:.66rem;line-height:1.25;color:var(--text-secondary)}
+.activity-level{width:1.1rem;text-align:right;font-family:var(--font-mono);font-size:.5rem;color:var(--text-muted)}
+.activity-bar{width:34px;height:4px;border-radius:2px;background:var(--bg-elevated);overflow:hidden}
+.activity-bar i{display:block;height:100%;background:var(--accent-gold)}
+.activity-row.is-zero{opacity:.38}
+.activity-row.is-zero .activity-bar i{background:var(--text-ghost)}
+body.teas-modal-open{overflow:hidden}
+.teas-svg{display:block;width:100%;height:auto;font-family:var(--font-body)}
+.teas-svg .teas-bg{fill:var(--bg-void)}
+.teas-svg .teas-title{font-family:var(--font-display);font-weight:400;font-size:28px;fill:var(--text-primary)}
+.teas-svg .teas-subtitle{font-family:var(--font-mono);font-size:11px;fill:var(--text-muted)}
+.teas-svg .teas-rule{stroke:var(--border-subtle);stroke-width:1}
+.teas-svg .teas-band{stroke:var(--border-subtle);stroke-width:1}
+.teas-svg .teas-band-genesis{fill:color-mix(in srgb,var(--bg-surface),var(--accent-steel) 10%)}
+.teas-svg .teas-band-diffusion{fill:color-mix(in srgb,var(--bg-surface),var(--accent-cyan) 8%)}
+.teas-svg .teas-band-metabole{fill:color-mix(in srgb,var(--bg-surface),var(--accent-copper) 10%)}
+.teas-svg .teas-band-title{font-family:var(--font-display);font-size:20px;fill:var(--text-primary)}
+.teas-svg .teas-greek{font-family:var(--font-mono);font-size:12px;fill:var(--text-muted)}
+.teas-svg .teas-band-desc{font-family:var(--font-mono);font-size:10px;fill:var(--text-secondary)}
+.teas-svg .teas-card-bg{fill:var(--card-bg);stroke:var(--border-subtle);stroke-width:1}
+.teas-svg .teas-card-line{stroke:var(--border-subtle);stroke-width:1}
+.teas-svg .teas-band-line{stroke:var(--border-medium);stroke-width:1}
+.teas-svg [data-activity] .teas-card-bg{fill:color-mix(in srgb,var(--card-bg) calc(100% - var(--level,0) * 3%),var(--accent-gold) calc(var(--level,0) * 3%));stroke:color-mix(in srgb,var(--border-subtle) calc(100% - var(--level,0) * 8%),var(--accent-gold) calc(var(--level,0) * 8%))}
+.teas-svg .teas-subcard-bg{fill:var(--bg-surface);stroke:var(--border-subtle);stroke-width:1}
+.teas-svg [data-activity] .teas-subcard-bg{fill:color-mix(in srgb,var(--bg-surface) calc(100% - var(--level,0) * 4%),var(--accent-gold) calc(var(--level,0) * 4%));stroke:color-mix(in srgb,var(--border-subtle) calc(100% - var(--level,0) * 8%),var(--accent-gold) calc(var(--level,0) * 8%))}
+.teas-svg .teas-card-bar-genesis{fill:var(--accent-steel)}
+.teas-svg .teas-card-bar-diffusion{fill:var(--accent-cyan)}
+.teas-svg .teas-card-bar-metabole{fill:var(--accent-copper)}
+.teas-svg .teas-eyebrow{font-family:var(--font-mono);font-size:9px;font-weight:700;letter-spacing:.8px;fill:var(--text-muted)}
+.teas-svg .teas-card-title{font-family:var(--font-display);font-size:16px;fill:var(--text-primary)}
+.teas-svg .teas-body{font-family:var(--font-body);font-size:11px;fill:var(--text-secondary)}
+.teas-svg .teas-outcome{font-family:var(--font-mono);font-size:10px;font-weight:700;fill:var(--accent-gold)}
+.teas-svg .teas-subcard-label{font-family:var(--font-mono);font-size:9.5px;font-weight:700;fill:var(--text-secondary)}
+.teas-svg .teas-diff-title{font-family:var(--font-display);font-size:14px;fill:var(--text-primary)}
+.teas-svg .teas-diff-body{font-family:var(--font-body);font-size:10.5px;fill:var(--text-secondary)}
+.teas-svg .teas-diff-outcome{font-family:var(--font-mono);font-size:9.5px;font-weight:700;fill:var(--accent-gold)}
+@media(max-width:800px){.teas-modal{padding:.5rem}.teas-modal-panel{max-height:94vh}.teas-modal-head{padding:.8rem}.teas-modal-body{padding:.6rem}.teas-thumb{height:150px}}
+@media(max-width:1100px){.detail-layout{grid-template-columns:1fr}.detail-layout.no-rail{grid-template-columns:1fr}.detail-rail{grid-column:1/-1;position:static;max-height:none;overflow:visible;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}}
+@media(max-width:800px){.detail-layout{grid-template-columns:1fr}.detail-layout.no-rail{grid-template-columns:1fr}.identity-grid{grid-template-columns:1fr}.metric-grid{grid-template-columns:repeat(2,1fr)}.actor-treemap{flex-direction:column;min-height:0}.tm-tiles{min-height:140px}.actor-treemap .tm-tiles{overflow-x:auto;padding-bottom:.2rem}.activity-columns{grid-template-columns:1fr}}
+@media(max-width:900px){.wrap{padding-left:1.2rem;padding-right:1.2rem}.masthead{padding-left:1.2rem;padding-right:1.2rem}}
+</style>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="masthead">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/representation">representation</a><span class="sep">/</span>
+        <span class="here">Scientific Facet Representation</span>
+    </nav>
+    <h1 class="note-title">Scientific Facet Representation</h1>
+    <p class="subtitle">A living representation of scientific-research facets — a social region and its scientific-research aspect — and the collective actors that compose them. Browse facets and actors, open a full profile, and compare facets or actors across their full profile.</p>
+</div>
+
+<main class="wrap">
+    <div class="view-tabs" role="tablist">
+        <button type="button" data-view="library" class="active">Library</button>
+        <button type="button" data-view="compare">Compare</button>
+    </div>
+
+    <section id="view-library">
+        <p class="sec-desc">Scientific facets and actors in one view. Search by name, region, country, type or domain; click a card for the full profile.</p>
+        <div class="lib-toolbar">
+            <input type="search" id="libSearch" placeholder="Search facets and actors…" autocomplete="off">
+            <select id="libType">
+                <option value="all">All</option>
+                <option value="facet">Facets</option>
+                <option value="actor">Actors</option>
+            </select>
+            <span class="hint" id="libCount"></span>
+        </div>
+        <div class="grid" id="libGrid"></div>
+        <div class="pager" id="libPager"></div>
+    </section>
+
+    <section id="view-compare" hidden>
+        <h2 class="sec">Compare</h2>
+        <p class="sec-desc">Select two to six facets or actors of the same type. Each column is a full profile.</p>
+        <div class="compare-layout">
+            <aside class="compare-rail">
+                <div class="lib-tabs" id="compareMode" role="tablist">
+                    <button type="button" data-cmode="actor" class="active">Actors</button>
+                    <button type="button" data-cmode="facet">Facets</button>
+                </div>
+                <div class="rail-actions"><span id="pickCount">0 / 6</span><button type="button" class="btn" id="clearSel">clear</button></div>
+                <input type="search" id="compareSearch" placeholder="filter…" autocomplete="off">
+                <div id="compareList" class="pick-list"></div>
+            </aside>
+            <div class="compare-main">
+                <div id="compareSummary" class="summary-grid"></div>
+                <div id="compareBody" class="compare-body"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="view-detail" hidden>
+        <div class="detail-head">
+            <button type="button" class="btn" id="detailBack">← library</button>
+            <span class="kind" id="detailKind"></span>
+        </div>
+        <div class="detail-layout">
+            <div class="detail-main">
+                <div id="detailHeader"></div>
+                <div class="detail-tabs" id="detailTabs"></div>
+                <div id="detailBody"></div>
+            </div>
+            <aside class="detail-rail" id="detailRail"></aside>
+        </div>
+    </section>
+</main>
+
+<footer class="tfr-foot">
+    <span>Epistecnica · Scientific Facet Representation</span>
+    <nav><a href="/explorer.html">Catalog</a><span class="sep">·</span><a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span><a href="scientific-facet-representation.json">Data</a></nav>
+</footer>
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-labelledby="drawerTitle">
+    <div class="drawer-head"><span class="kind" id="drawerKind"></span><button type="button" class="drawer-close" id="drawerClose" aria-label="Close">×</button></div>
+    <h2 id="drawerTitle"></h2>
+    <p class="drawer-sub" id="drawerSub"></p>
+    <div class="drawer-body" id="drawerBody"></div>
+    <div class="drawer-actions" id="drawerActions"></div>
+</aside>
+
+<script src="/shared/usearch.js" data-root="../../../../"></script>
+<script src="/shared/chrome.js"></script>
+<script>
+(function () {
+    "use strict";
+    var DATA_URL = "scientific-facet-representation.json";
+    var MAX = 6, PAGE_SIZE = 12, CARD_MIN = 290, ROW_BASE = 210, RESERVE = 70;
+    var state = { data: null, view: "library", detail: null, detailTab: "profile", compareMode: "actor", page: 1, layout: null, selected: [], quick: null };
+
+    function $(s) { return document.querySelector(s); }
+    function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
+
+    function allItems() {
+        return (state.data ? state.data.facets.concat(state.data.actors) : []);
+    }
+    function item(type, id) {
+        var arr = type === "facet" ? state.data.facets : state.data.actors;
+        for (var i = 0; i < arr.length; i++) if (arr[i].id === id) return arr[i];
+        return null;
+    }
+    function typeOf(obj) { return state.data.facets.indexOf(obj) >= 0 ? "facet" : "actor"; }
+    function actorById(id) { return item("actor", id); }
+
+    function facetActors(f) {
+        return f.actors.map(actorById).filter(Boolean);
+    }
+    function noteHref(obj) {
+        if (!obj.note) return "";
+        return "/view.html?p=" + obj.note.replace(/^notes\//, "notes/");
+    }
+    function flag(obj) { return obj.profile && obj.profile.confidence ? obj.profile.confidence : "—"; }
+
+    function facetCard(f) {
+        var actors = facetActors(f);
+        return '<article class="card" data-type="facet" data-id="' + esc(f.id) + '">' +
+            '<button type="button" class="card-quick" title="Quick view" aria-label="Quick view">⤢</button>' +
+            '<span class="kind">Facet · ' + esc(f.region) + "</span>" +
+            "<h3>" + esc(f.name) + "</h3>" +
+            '<div class="sub">' + actors.length + " actors · confidence " + esc(flag(f)) + "</div>" +
+            '<div class="chips">' + (f.profile.domains || []).slice(0, 6).map(function (d) { return '<span class="chip">' + esc(d) + "</span>"; }).join("") + "</div>" +
+            "</article>";
+    }
+    function actorCard(a) {
+        return '<article class="card" data-type="actor" data-id="' + esc(a.id) + '">' +
+            '<button type="button" class="card-quick" title="Quick view" aria-label="Quick view">⤢</button>' +
+            '<span class="kind">Actor · ' + esc(a.country) + "</span>" +
+            "<h3>" + esc(a.name) + "</h3>" +
+            '<div class="sub">' + esc(a.profile.type || "") + "</div>" +
+            '<div class="chips">' + (a.profile.domains || []).slice(0, 5).map(function (d) { return '<span class="chip">' + esc(d) + "</span>"; }).join("") + "</div>" +
+            "</article>";
+    }
+    function computeLayout() {
+        var grid = $("#libGrid");
+        if (!grid) return { size: PAGE_SIZE, columns: 4, rows: 3, rowHeight: ROW_BASE };
+        var width = grid.getBoundingClientRect().width;
+        var gap = parseFloat(getComputedStyle(grid).columnGap) || 14;
+        var columns = Math.max(1, Math.floor((width + gap) / (CARD_MIN + gap)));
+        var gridTop = grid.getBoundingClientRect().top + window.scrollY;
+        var pagerH = $("#libPager") ? $("#libPager").getBoundingClientRect().height : 0;
+        var foot = document.querySelector(".tfr-foot");
+        var footH = foot ? foot.getBoundingClientRect().height : 0;
+        var available = window.innerHeight - gridTop - pagerH - footH - RESERVE;
+        if (available < ROW_BASE) available = ROW_BASE;
+        var rowGap = parseFloat(getComputedStyle(grid).rowGap) || gap;
+        var rows = Math.max(1, Math.round((available + rowGap) / (ROW_BASE + rowGap)));
+        var rowHeight = Math.max(ROW_BASE, Math.floor((available - rowGap * (rows - 1)) / rows));
+        return { size: columns * rows, columns: columns, rows: rows, rowHeight: rowHeight };
+    }
+
+    function renderLibrary() {
+        if (!state.data) return;
+        var layout = state.layout;
+        if (state.view === "library" || !$("#view-library").hidden) {
+            layout = computeLayout();
+            state.layout = layout;
+        }
+        if (!layout) layout = { size: PAGE_SIZE, columns: 4, rows: 3, rowHeight: ROW_BASE };
+        var q = ($("#libSearch").value || "").trim().toLowerCase();
+        var type = $("#libType").value || "all";
+        var items = [];
+        if (type !== "actor") state.data.facets.forEach(function (f) { items.push({ o: f, type: "facet" }); });
+        if (type !== "facet") state.data.actors.forEach(function (a) { items.push({ o: a, type: "actor" }); });
+        if (q) items = items.filter(function (x) {
+            var blob = (x.o.name + " " + (x.o.region || "") + " " + (x.o.country || "") + " " + (x.o.profile.type || "") + " " + ((x.o.profile.domains || []).join(" "))).toLowerCase();
+            return blob.indexOf(q) >= 0;
+        });
+        items.sort(function (a, b) {
+            var ta = a.type === "facet" ? 0 : 1, tb = b.type === "facet" ? 0 : 1;
+            return ta - tb || a.o.name.localeCompare(b.o.name);
+        });
+        var total = items.length;
+        var pages = Math.max(1, Math.ceil(total / layout.size));
+        if (state.page > pages) state.page = pages;
+        if (state.page < 1) state.page = 1;
+        var start = (state.page - 1) * layout.size;
+        var slice = items.slice(start, start + layout.size);
+        $("#libCount").textContent = total ? (start + 1) + "–" + Math.min(start + layout.size, total) + " of " + total : "0 shown";
+        $("#libGrid").style.gridAutoRows = layout.rowHeight + "px";
+        $("#libGrid").innerHTML = slice.length ? slice.map(function (x) { return x.type === "facet" ? facetCard(x.o) : actorCard(x.o); }).join("") : '<div class="empty-state"><b>Nothing matched.</b>Try another search or type filter.</div>';
+        $("#libGrid").querySelectorAll(".card").forEach(function (c) {
+            c.addEventListener("click", function (e) { if (e.target.closest("button,select,a")) return; openDetail(c.dataset.type, c.dataset.id); });
+        });
+        $("#libGrid").querySelectorAll(".card-quick").forEach(function (b) {
+            b.addEventListener("click", function (e) {
+                e.stopPropagation();
+                var c = b.closest(".card");
+                openProfile(c.dataset.type, c.dataset.id);
+            });
+        });
+        renderPager(total, pages);
+    }
+
+    function pageList(pages, current) {
+        var out = [], i;
+        if (pages <= 7) {
+            for (i = 1; i <= pages; i++) out.push(i);
+            return out;
+        }
+        out.push(1);
+        var start = Math.max(2, current - 1), end = Math.min(pages - 1, current + 1);
+        if (start > 2) out.push("…");
+        for (i = start; i <= end; i++) out.push(i);
+        if (end < pages - 1) out.push("…");
+        out.push(pages);
+        return out;
+    }
+
+    function renderPager(total, pages) {
+        var p = $("#libPager");
+        if (!p) return;
+        if (pages <= 1) { p.innerHTML = ""; return; }
+        var html = '<span class="range">' + total + ' entries</span>';
+        html += '<button type="button" data-page="prev"' + (state.page <= 1 ? " disabled" : "") + ">←</button>";
+        pageList(pages, state.page).forEach(function (n) {
+            if (n === "…") html += '<span class="ellipsis">…</span>';
+            else html += '<button type="button" data-page="' + n + '"' + (n === state.page ? ' class="active" aria-current="page"' : "") + ">" + n + "</button>";
+        });
+        html += '<button type="button" data-page="next"' + (state.page >= pages ? " disabled" : "") + ">→</button>";
+        p.innerHTML = html;
+        p.querySelectorAll("button[data-page]").forEach(function (b) {
+            b.onclick = function () {
+                var v = b.dataset.page;
+                if (v === "prev") state.page--;
+                else if (v === "next") state.page++;
+                else state.page = parseInt(v, 10);
+                renderLibrary();
+                var grid = $("#libGrid");
+                if (grid) grid.scrollIntoView({ behavior: "smooth", block: "start" });
+            };
+        });
+    }
+
+    function dimensionsFor(type) { return type === "facet" ? state.data.facetDimensions : state.data.actorDimensions; }
+    function selected(type, id) { return state.selected.some(function (s) { return s.type === type && s.id === id; }); }
+
+    function value(obj, field) {
+        var v = obj.profile ? obj.profile[field.id] : null;
+        if (Array.isArray(v)) return v.join(" · ");
+        return v == null || v === "" ? "—" : String(v);
+    }
+
+    function renderComparePicker(mode) {
+        var list = $("#compareList");
+        if (!list || !state.data) return;
+        var q = ($("#compareSearch").value || "").trim().toLowerCase();
+        var items = mode === "facet" ? state.data.facets : state.data.actors;
+        var chosen = state.selected.filter(function (s) { return s.type === mode; }).length;
+        $("#pickCount").textContent = chosen + " / " + MAX;
+        var filtered = items.filter(function (o) {
+            var blob = (o.name + " " + (o.region || "") + " " + (o.country || "") + " " + (o.profile.type || "")).toLowerCase();
+            return !q || blob.indexOf(q) >= 0;
+        }).sort(function (a, b) {
+            var sa = selected(mode, a.id) ? 0 : 1, sb = selected(mode, b.id) ? 0 : 1;
+            return sa - sb || a.name.localeCompare(b.name);
+        });
+        list.innerHTML = filtered.length ? filtered.map(function (o) {
+            var meta = mode === "facet" ? (o.region || "") : (o.country || "");
+            return '<label class="pick-item' + (selected(mode, o.id) ? " selected" : "") + '"><input type="checkbox" data-id="' + esc(o.id) + '"' + (selected(mode, o.id) ? " checked" : "") + '><span>' + esc(o.name) + '</span><span class="meta">' + esc(meta) + '</span></label>';
+        }).join("") : '<div class="empty-state">No matches.</div>';
+        list.querySelectorAll("input[data-id]").forEach(function (cb) {
+            cb.onchange = function () {
+                var id = cb.dataset.id;
+                if (cb.checked) {
+                    if (state.selected.length >= MAX || state.selected.some(function (s) { return s.type !== mode; })) { cb.checked = false; return; }
+                    if (!selected(mode, id)) state.selected.push({ type: mode, id: id });
+                } else {
+                    state.selected = state.selected.filter(function (s) { return !(s.type === mode && s.id === id); });
+                }
+                sync();
+            };
+        });
+    }
+
+    function valueHtml(obj, field) {
+        var v = obj.profile ? obj.profile[field.id] : null;
+        if (Array.isArray(v)) return v.length ? v.map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join("") : "—";
+        return esc(v == null || v === "" ? "—" : v);
+    }
+
+    function summaryCard(x) {
+        var o = x.obj;
+        var remove = '<button type="button" class="remove" data-remove="' + esc(o.id) + '" aria-label="Remove from comparison">×</button>';
+        if (x.type === "facet") {
+            var actors = facetActors(o);
+            var life = (o.detail || {})["lifecycle-involvement"] || {};
+            var stages = ["Research", "Concept", "Design", "Prototype", "Testing", "Validation", "Industrialization", "Production", "Deployment"];
+            return '<div class="summary-card">' + remove + '<span class="kind">Facet</span><h4>' + esc(o.name) + '</h4>' +
+                '<div class="meta">' + esc(o.profile.region || "") + ' · ' + actors.length + ' actors</div>' +
+                '<div class="chips">' + (o.profile.domains || []).slice(0, 4).map(function (d) { return '<span class="chip">' + esc(d) + '</span>'; }).join("") + '</div>' +
+                '<div class="mini-life">' + stages.map(function (s) { return '<i class="' + (life[s] === "significant" ? "on" : "") + '"></i>'; }).join("") + '</div></div>';
+        }
+        return '<div class="summary-card">' + remove + '<span class="kind">Actor</span><h4>' + esc(o.name) + '</h4>' +
+            '<div class="meta">' + esc(o.country || "") + ' · ' + esc(o.profile.type || "") + '</div>' +
+            '<div class="chips">' + (o.profile.domains || []).slice(0, 4).map(function (d) { return '<span class="chip">' + esc(d) + '</span>'; }).join("") + '</div></div>';
+    }
+
+    function renderCompare() {
+        var mode = state.compareMode || "actor";
+        var dims = dimensionsFor(mode);
+        document.querySelectorAll("#compareMode button").forEach(function (b) {
+            b.classList.toggle("active", b.dataset.cmode === mode);
+            b.onclick = function () {
+                state.compareMode = b.dataset.cmode;
+                state.selected = state.selected.filter(function (s) { return s.type === b.dataset.cmode; });
+                sync();
+            };
+        });
+        renderComparePicker(mode);
+        var sel = state.selected.filter(function (s) { return s.type === mode; }).map(function (s) { return { type: s.type, obj: item(s.type, s.id) }; }).filter(function (x) { return x.obj; });
+        $("#compareSummary").innerHTML = sel.map(summaryCard).join("");
+        $("#compareSummary").querySelectorAll(".remove").forEach(function (b) {
+            b.onclick = function () {
+                state.selected = state.selected.filter(function (s) { return !(s.type === mode && s.id === b.dataset.remove); });
+                sync();
+            };
+        });
+
+        var body = $("#compareBody");
+        if (sel.length < 2) {
+            body.innerHTML = '<div class="empty-state"><b>No comparison yet.</b>Select two to six ' + mode + 's in the picker.</div>';
+            return;
+        }
+        var sections = dims.map(function (g, gi) {
+            var rows = g.fields.map(function (fld) {
+                return { field: fld, vals: sel.map(function (x) { return valueHtml(x.obj, fld); }) };
+            });
+            return '<details class="dim-card" open><summary class="dim-head"><span class="dim-num">' + (gi + 1) + '</span><span class="dim-title">' + esc(g.label) + '</span></summary><div class="dim-scroll"><table class="dim-table"><thead><tr><th>Field</th>' +
+                sel.map(function (x) {
+                    var head = x.type === "facet" ? (x.obj.profile.region || x.obj.name) : x.obj.name;
+                    return '<th title="' + esc(x.obj.name) + '">' + esc(head) + '</th>';
+                }).join("") + '</tr></thead><tbody>' +
+                rows.map(function (r) {
+                    return '<tr><td class="field">' + esc(r.field.label) + '</td>' + r.vals.map(function (v) {
+                        return '<td class="val">' + v + '</td>';
+                    }).join("") + '</tr>';
+                }).join("") + '</tbody></table></div></details>';
+        });
+        body.innerHTML = sections.join("");
+    }
+
+    function openDetail(type, id) {
+        if (!item(type, id)) return;
+        state.detail = { type: type, id: id };
+        state.detailTab = "profile";
+        state.view = "detail";
+        sync();
+    }
+
+    function detailData(obj) {
+        var p = obj.profile || {}, d = obj.detail || {};
+        return {
+            summary: d.summary || p.mandate || p.role || "",
+            roles: d.roles || [],
+            life: d["lifecycle-involvement"] || {},
+            metrics: d.metrics || {},
+            eco: d.ecosystem || {},
+            sources: d.sources || []
+        };
+    }
+    function chips(arr) {
+        return '<span class="chips">' + (arr || []).map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join("") + '</span>';
+    }
+    function row(label, val) {
+        return '<div class="field-row"><b>' + esc(label) + '</b><span>' + esc(val == null || val === "" ? "—" : val) + '</span></div>';
+    }
+    function valueListHtml(arr, empty) {
+        if (!arr || !arr.length) return '<p class="sec-desc">' + esc(empty || "—") + '</p>';
+        return '<ul class="value-list">' + arr.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join("") + '</ul>';
+    }
+    function coordCardsHtml(p) {
+        var fin = p.financing || [], inter = p.interaction || [];
+        return '<div class="coord-grid">' +
+            '<div>' + numCard(2, "Financing Models", miniTitle(fin.length + " models") + valueListHtml(fin, "No financing models recorded.")) + '</div>' +
+            '<div>' + numCard(3, "Inter-actor Interaction", miniTitle(inter.length + " modes") + valueListHtml(inter, "No interaction modes recorded.")) + '</div>' +
+            '<div class="coord-full">' + numCard(4, "Governance and Coordination", '<div class="coord-rows"><div>' + row("Governance", p.governance) + '</div><div>' + row("Coordination", p.coordination) + '</div></div>') + '</div>' +
+        '</div>';
+    }
+    function numCard(n, title, body) {
+        return '<div class="num-card"><div class="num-head"><span class="num-badge">' + n + '</span><span class="num-title">' + esc(title) + '</span></div><div class="num-body">' + body + '</div></div>';
+    }
+    function miniTitle(t) {
+        return '<h5 style="font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.35rem">' + esc(t) + '</h5>';
+    }
+    function lifecycleHtml(life) {
+        var stages = ["Research", "Concept", "Design", "Prototype", "Testing", "Validation", "Industrialization", "Production", "Deployment"];
+        return '<div class="lifecycle">' + stages.map(function (s) {
+            var cls = life[s] === "significant" ? "significant" : "limited";
+            return '<div class="lc-stage ' + cls + '"><div class="lc-dot"></div><div class="lc-label">' + esc(s) + '</div></div>';
+        }).join("") + '</div><div class="legend-row"><span><i style="background:var(--accent-gold)"></i>significant involvement</span><span><i style="background:var(--bg-elevated);border:1px solid var(--border-strong)"></i>limited</span></div>';
+    }
+    function barChart(values) {
+        if (!values || !values.length) return '<p class="sec-desc">No series.</p>';
+        var w = 330, h = 150, pad = 22, max = Math.max.apply(null, values) || 1, n = values.length;
+        var step = (w - pad * 2) / n, bw = step * 0.55;
+        var svg = '<svg class="bar-chart" viewBox="0 0 ' + w + ' ' + h + '">';
+        values.forEach(function (v, i) {
+            var x = pad + i * step + (step - bw) / 2;
+            var bh = (h - pad * 2) * (v / max);
+            var y = h - pad - bh;
+            svg += '<rect class="' + (i === n - 1 ? "hi" : "") + '" x="' + x + '" y="' + y + '" width="' + bw + '" height="' + bh + '" rx="2"/>';
+            svg += '<text x="' + (x + bw / 2) + '" y="' + (y - 4) + '" text-anchor="middle">' + v + '</text>';
+            svg += '<text x="' + (x + bw / 2) + '" y="' + (h - 7) + '" text-anchor="middle">' + (2020 + i) + '</text>';
+        });
+        svg += '</svg>';
+        return svg;
+    }
+    function ecoSvg(name, eco) {
+        var cats = [
+            ["universities", "Universities"], ["research-institutes", "Research"],
+            ["industry-partners", "Industry"], ["government-programs", "Government"],
+            ["technology-infrastructure", "Infrastructure"]
+        ];
+        var w = 280, h = 220, cx = w / 2, cy = h / 2;
+        var svg = '<svg class="eco-svg" viewBox="0 0 ' + w + ' ' + h + '">';
+        cats.forEach(function (c, i) {
+            var ang = -Math.PI / 2 + i * 2 * Math.PI / cats.length;
+            var x = cx + Math.cos(ang) * 88, y = cy + Math.sin(ang) * 76;
+            var present = (eco[c[0]] || []).length > 0;
+            svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x + '" y2="' + y + '"/>';
+            svg += '<circle class="spoke" cx="' + x + '" cy="' + y + '" r="19" opacity="' + (present ? 1 : 0.3) + '"/>';
+            svg += '<text x="' + x + '" y="' + (y + 3) + '" text-anchor="middle">' + esc(c[1]) + '</text>';
+            svg += '<text x="' + x + '" y="' + (y + 28) + '" text-anchor="middle" style="fill:var(--text-ghost)">' + esc(present ? (eco[c[0]][0] || "").slice(0, 16) : "—") + '</text>';
+        });
+        svg += '<circle class="hub" cx="' + cx + '" cy="' + cy + '" r="27"/><text x="' + cx + '" y="' + (cy + 3) + '" text-anchor="middle" style="fill:var(--bg-void);font-family:var(--font-mono);font-size:7px">' + esc((name || "").slice(0, 12)) + '</text></svg>';
+        return svg;
+    }
+    function ecoGroupsHtml(eco) {
+        var labels = { universities: "Universities", "research-institutes": "Research institutes", "industry-partners": "Industry partners", "government-programs": "Government programs", "technology-infrastructure": "Technology infrastructure", other: "Other" };
+        return '<div class="eco-groups">' + Object.keys(labels).map(function (k) {
+            var items = eco[k] || [];
+            return '<div class="eco-group"><h5>' + esc(labels[k]) + '</h5>' + (items.length ? chips(items) : '<span style="color:var(--text-ghost);font-size:.7rem">—</span>') + '</div>';
+        }).join("") + '</div>';
+    }
+    function facetData(obj) {
+        var p = obj.profile || {}, d = obj.detail || {};
+        return {
+            summary: d.summary || p.scope || "",
+            life: d["lifecycle-involvement"] || {},
+            metrics: d.metrics || {},
+            composition: d.composition || {},
+            sources: d.sources || []
+        };
+    }
+    var DOMAIN_FAMILIES = [
+        { label: "Mathematics & computer science", keys: ["mathematics", "computer science", "computing", "ai"] },
+        { label: "Physical sciences", keys: ["physics", "chemistry", "materials", "earth sciences", "earth science", "optics"] },
+        { label: "Life sciences & medicine", keys: ["life sciences", "biology", "medicine", "neuroscience", "agriculture", "health"] },
+        { label: "Engineering & technology", keys: ["engineering", "robotics"] },
+        { label: "Economics & policy", keys: ["economics", "industrial policy", "trade", "innovation", "productivity", "public policy", "management"] },
+        { label: "Social sciences & humanities", keys: ["social sciences", "humanities"] },
+        { label: "Defence, space & other", keys: ["defence", "space"] }
+    ];
+    function domainTreemapHtml(obj) {
+        var p = obj.profile || {};
+        var domains = p.domains || [];
+        var actors = facetActors(obj);
+        if (!domains.length) return '<p class="sec-desc">No scientific domains recorded.</p>';
+        var buckets = DOMAIN_FAMILIES.map(function (f) { return { label: f.label, items: [] }; });
+        var other = { label: "Other", items: [] };
+        domains.forEach(function (domain) {
+            var key = String(domain).toLowerCase();
+            var famIndex = -1;
+            for (var i = 0; i < DOMAIN_FAMILIES.length; i++) {
+                if (DOMAIN_FAMILIES[i].keys.indexOf(key) >= 0) { famIndex = i; break; }
+            }
+            var count = actors.filter(function (a) {
+                return (a.profile && a.profile.domains || []).some(function (d) { return String(d).toLowerCase() === key; });
+            }).length;
+            var item = { name: domain, count: count, weight: Math.max(1, count) };
+            (famIndex >= 0 ? buckets[famIndex] : other).items.push(item);
+        });
+        var groups = buckets.filter(function (g) { return g.items.length; });
+        if (other.items.length) groups.push(other);
+        return '<p class="sec-desc" style="margin-bottom:.55rem">Tile area reflects the number of mapped actors that declare each scientific domain.</p>' +
+            '<div class="actor-treemap domain-treemap">' + groups.map(function (g) {
+                var total = g.items.reduce(function (s, x) { return s + x.weight; }, 0);
+                return '<div class="tm-group" style="flex:' + total + ' 1 0">' +
+                    '<div class="tm-group-head"><span>' + esc(g.label) + '</span><b>' + g.items.length + '</b></div>' +
+                    '<div class="tm-tiles">' + g.items.map(function (x) {
+                        return '<div class="tm-tile' + (x.count ? "" : " is-zero") + '" style="flex:' + x.weight + ' 1 0">' +
+                            '<span class="tm-body"><strong>' + esc(x.name) + '</strong>' +
+                            '<span class="tm-meta">' + x.count + ' actor' + (x.count === 1 ? "" : "s") + '</span></span>' +
+                        '</div>';
+                    }).join("") + '</div></div>';
+            }).join("") + '</div>';
+    }
+    function actorGridHtml(obj, fd) {
+        var actors = facetActors(obj);
+        var labels = [
+            ["universities", "Universities"], ["research-institutes", "Research institutes"],
+            ["industry-partners", "Industry partners"], ["government-programs", "Government programs"],
+            ["technology-infrastructure", "Technology infrastructure"], ["other", "Other"]
+        ];
+        var byName = {};
+        actors.forEach(function (a) { byName[a.name] = a; });
+        var composition = fd.composition || {};
+        var seen = {};
+        var groups = labels.map(function (g) {
+            var members = (composition[g[0]] || []).map(function (n) { return byName[n]; }).filter(Boolean);
+            members.forEach(function (a) { seen[a.id] = true; });
+            return { label: g[1], actors: members };
+        }).filter(function (g) { return g.actors.length > 0; });
+        if (!groups.length) groups = [{ label: "Actors", actors: actors }];
+        else {
+            var rest = actors.filter(function (a) { return !seen[a.id]; });
+            if (rest.length) groups.push({ label: "Other", actors: rest });
+        }
+        return '<div class="actor-group-grid">' + groups.map(function (g) {
+            return '<section class="actor-group"><div class="actor-group-head"><span>' + esc(g.label) + '</span><b>' + g.actors.length + '</b></div><div class="actor-tile-grid">' +
+                g.actors.map(function (a) {
+                    var p = a.profile || {};
+                    var domains = (p.domains || []).length;
+                    var role = p.role || p.mandate || "";
+                    return '<a class="tm-tile" href="#view=detail&type=actor&id=' + esc(a.id) + '" data-detail="actor" data-id="' + esc(a.id) + '">' +
+                        '<span class="tm-type">' + esc(p.type || "Actor") + '</span>' +
+                        '<span class="tm-body"><strong>' + esc(a.name) + '</strong>' +
+                        '<span class="tm-meta">' + esc(a.country || "") + (domains ? " · " + domains + " domains" : "") + '</span>' +
+                        (role ? '<span class="tm-role">' + esc(role) + '</span>' : '') + '</span></a>';
+                }).join("") + '</div></section>';
+        }).join("") + '</div>';
+    }
+    function domainGroups(obj) {
+        var domains = (obj.profile || {}).domains || [];
+        var actors = facetActors(obj);
+        var buckets = DOMAIN_FAMILIES.map(function (f) { return { label: f.label, items: [] }; });
+        var other = { label: "Other", items: [] };
+        domains.forEach(function (domain) {
+            var key = String(domain).toLowerCase();
+            var famIndex = -1;
+            for (var i = 0; i < DOMAIN_FAMILIES.length; i++) {
+                if (DOMAIN_FAMILIES[i].keys.indexOf(key) >= 0) { famIndex = i; break; }
+            }
+            var count = actors.filter(function (a) {
+                return (a.profile && a.profile.domains || []).some(function (d) { return String(d).toLowerCase() === key; });
+            }).length;
+            (famIndex >= 0 ? buckets[famIndex] : other).items.push({ name: domain, count: count, key: key });
+        });
+        var groups = buckets.filter(function (g) { return g.items.length; });
+        if (other.items.length) groups.push(other);
+        return groups;
+    }
+    function domainCardsHtml(obj) {
+        var groups = domainGroups(obj);
+        return '<div class="domain-family-grid">' + groups.map(function (g) {
+            return '<section class="domain-family-card"><h5><span>' + esc(g.label) + '</span><b>' + g.items.length + '</b></h5>' +
+                g.items.map(function (d) {
+                    return '<div class="domain-chip-row"><span>' + esc(d.name) + '</span><span>' + d.count + ' actor' + (d.count === 1 ? '' : 's') + '</span></div>';
+                }).join('') + '</section>';
+        }).join('') + '</div>';
+    }
+    function actorTreemapHtml(obj, fd) {
+        var actors = facetActors(obj);
+        if (!actors.length) return '<p class="sec-desc">No actors mapped to this facet.</p>';
+        if (actors.length > 12) return actorGridHtml(obj, fd);
+        var labels = [
+            ["universities", "Universities"],
+            ["research-institutes", "Research institutes"],
+            ["industry-partners", "Industry partners"],
+            ["government-programs", "Government programs"],
+            ["technology-infrastructure", "Technology infrastructure"],
+            ["other", "Other"]
+        ];
+        var byName = {};
+        actors.forEach(function (a) { byName[a.name] = a; });
+        var composition = fd.composition || {};
+        var seen = {};
+        var groups = labels.map(function (g) {
+            var members = (composition[g[0]] || []).map(function (n) { return byName[n]; }).filter(Boolean);
+            members.forEach(function (a) { seen[a.id] = true; });
+            return { label: g[1], actors: members };
+        }).filter(function (g) { return g.actors.length > 0; });
+        if (!groups.length) {
+            groups = [{ label: "Actors", actors: actors }];
+        } else {
+            var rest = actors.filter(function (a) { return !seen[a.id]; });
+            if (rest.length) groups.push({ label: "Other", actors: rest });
+        }
+        return '<div class="actor-treemap">' + groups.map(function (g) {
+            return '<div class="tm-group" style="flex:' + g.actors.length + ' 1 0">' +
+                '<div class="tm-group-head"><span>' + esc(g.label) + '</span><b>' + g.actors.length + '</b></div>' +
+                '<div class="tm-tiles">' + g.actors.map(function (a) {
+                    var p = a.profile || {};
+                    var domains = (p.domains || []).length;
+                    var role = p.role || p.mandate || "";
+                    return '<a class="tm-tile" href="#view=detail&type=actor&id=' + esc(a.id) + '" data-detail="actor" data-id="' + esc(a.id) + '">' +
+                        '<span class="tm-type">' + esc(p.type || "Actor") + '</span>' +
+                        '<span class="tm-body"><strong>' + esc(a.name) + '</strong>' +
+                        '<span class="tm-meta">' + esc(a.country || "") + (domains ? " · " + domains + " domains" : "") + '</span>' +
+                        (role ? '<span class="tm-role">' + esc(role) + '</span>' : '') + '</span>' +
+                    '</a>';
+                }).join("") + '</div></div>';
+        }).join("") + '</div>';
+    }
+    function activityDiagramHtml(obj, levels, label) {
+        var tpl = document.getElementById("activitySvgTemplate");
+        if (!tpl) return "";
+        var svg = tpl.content.firstElementChild.cloneNode(true);
+        levels = levels || obj.activityLevels || {};
+        svg.querySelectorAll("[data-activity]").forEach(function (g) {
+            var n = parseInt(levels[g.getAttribute("data-activity")], 10);
+            if (isNaN(n)) n = 0;
+            n = Math.max(0, Math.min(10, n));
+            g.setAttribute("data-level", n);
+            g.style.setProperty("--level", n);
+        });
+        var title = svg.querySelector("title");
+        if (title) title.textContent = label || ("Technical Element Production Activity Set — " + obj.name);
+        return svg.outerHTML;
+    }
+    function facetActivityLevels(obj) {
+        var actors = facetActors(obj);
+        if (!actors.length) return {};
+        var keys = [
+            "problem-formulation", "basic-research", "exploratory-research", "applied-research",
+            "technical-specification", "development", "technical-examination", "technical-production",
+            "dissemination", "technology-transfer", "adoption", "commercialization",
+            "modification", "adaptation", "improvement", "maintenance", "integration"
+        ];
+        var totals = {};
+        actors.forEach(function (a) {
+            var levels = a.activityLevels || {};
+            keys.forEach(function (k) { totals[k] = (totals[k] || 0) + (parseInt(levels[k], 10) || 0); });
+        });
+        var out = {};
+        keys.forEach(function (k) { out[k] = Math.round(totals[k] / actors.length); });
+        return out;
+    }
+    function activityLegendHtml() {
+        return '<div class="teas-legend"><span>not involved</span><span class="teas-scale"></span><span>core</span><span>0–10</span></div>';
+    }
+    var ACTIVITY_MODEL = [
+        { label: "Genesis", nodes: [
+            ["problem-formulation", "Problem Formulation"],
+            ["basic-research", "Basic Research"],
+            ["exploratory-research", "Exploratory Research"],
+            ["applied-research", "Applied Research"],
+            ["technical-specification", "Technical Specification"],
+            ["development", "Development"],
+            ["technical-examination", "Technical Examination"]
+        ] },
+        { label: "Diffusion", nodes: [
+            ["technical-production", "Technical Production"],
+            ["dissemination", "Dissemination"],
+            ["technology-transfer", "Technology Transfer"],
+            ["adoption", "Adoption"],
+            ["commercialization", "Commercialization"]
+        ] },
+        { label: "Metabole", nodes: [
+            ["modification", "Modification"],
+            ["adaptation", "Adaptation"],
+            ["improvement", "Improvement"],
+            ["maintenance", "Maintenance"],
+            ["integration", "Integration"]
+        ] }
+    ];
+    function activityColumnsHtml(obj) {
+        var levels = obj.activityLevels || {};
+        return '<div class="activity-columns">' + ACTIVITY_MODEL.map(function (d) {
+            var covered = d.nodes.filter(function (n) { return (parseInt(levels[n[0]], 10) || 0) > 0; }).length;
+            return '<div class="activity-column"><div class="activity-column-head"><span>' + esc(d.label) + '</span><b>' + covered + '/' + d.nodes.length + '</b></div>' +
+                d.nodes.map(function (n) {
+                    var lvl = parseInt(levels[n[0]], 10) || 0;
+                    lvl = Math.max(0, Math.min(10, lvl));
+                    return '<div class="activity-row' + (lvl ? "" : " is-zero") + '">' +
+                        '<span class="activity-name">' + esc(n[1]) + '</span>' +
+                        '<span class="activity-level">' + lvl + '</span>' +
+                        '<span class="activity-bar"><i style="width:' + (lvl * 10) + '%"></i></span>' +
+                    '</div>';
+                }).join("") + '</div>';
+        }).join("") + '</div>';
+    }
+    function actorTimeline(obj) {
+        return (((obj.profile || {}).timeline) || []).slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    }
+    function timelineHtml(events, opts) {
+        opts = opts || {};
+        if (!events.length) return '<p class="sec-desc">No events recorded.</p>';
+        return '<div class="timeline' + (opts.compact ? " timeline-compact" : "") + '">' + events.map(function (e) {
+            return '<div class="tl-item">' +
+                '<div class="tl-date">' + esc(e.date) + '</div>' +
+                '<div class="tl-title">' + esc(e.title) + '</div>' +
+                '<div class="tl-desc">' + esc(e.description) + '</div>' +
+                '<div class="tl-meta">' + (opts.showActor && e.actor ? esc(e.actor) + ' · ' : '') + (e.source ? '<a href="' + esc(e.source) + '" target="_blank" rel="noopener">source</a>' : '') + '</div>' +
+            '</div>';
+        }).join("") + '</div>';
+    }
+    function timelineRailHtml(obj) {
+        var events = actorTimeline(obj);
+        if (!events.length) return "";
+        return '<div class="rail-card"><h4>Major Events</h4>' + timelineHtml(events, { compact: true }) + '</div>';
+    }
+    function facetCountryCodes(obj) {
+        var codes = [];
+        facetActors(obj).forEach(function (a) {
+            if (a.country && codes.indexOf(a.country) < 0) codes.push(a.country);
+        });
+        return codes;
+    }
+    function countryTimelineEvents(obj) {
+        var codes = facetCountryCodes(obj), out = [];
+        if (!codes.length) return out;
+        state.data.actors.forEach(function (a) {
+            if (codes.indexOf(a.country) < 0) return;
+            var countryTag = "country:" + a.country;
+            actorTimeline(a).forEach(function (e) {
+                if (!e.tags || e.tags.indexOf(countryTag) < 0) return;
+                var copy = {};
+                Object.keys(e).forEach(function (k) { copy[k] = e[k]; });
+                copy.actor = a.name;
+                out.push(copy);
+            });
+        });
+        return out.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+    }
+    function countryTimelineCardHtml(obj) {
+        var codes = facetCountryCodes(obj), names = [];
+        state.data.actors.forEach(function (a) {
+            if (codes.indexOf(a.country) >= 0 && a.profile && a.profile.country && names.indexOf(a.profile.country) < 0) names.push(a.profile.country);
+        });
+        var label = names.length ? names.join(" · ") : (codes.length ? codes.join(" · ") : "no country inferred");
+        return '<div class="num-card"><div class="num-head"><span class="num-badge">◦</span><span class="num-title">Country Timeline</span></div><div class="num-body">' +
+            '<p class="sec-desc">' + esc(label) + ' · events from all actors tagged with this country.</p>' +
+            timelineHtml(countryTimelineEvents(obj), { showActor: true }) + '</div></div>';
+    }
+    function activityRailHtml(obj) {
+        return '<div class="rail-card teas-rail-card"><h4>Technical Element Production Activity Set</h4>' +
+            '<button type="button" class="teas-thumb" data-activity-expand aria-label="Expand activity diagram">' +
+            activityDiagramHtml(obj) + '<span class="teas-thumb-hint">expand ⤢</span></button>' +
+            activityLegendHtml() + '</div>';
+    }
+    function activityCardHtml(obj) {
+        return '<div class="num-card"><div class="num-head"><span class="num-badge">◦</span><span class="num-title">Technical Element Production Activity Set</span></div><div class="num-body">' +
+            '<div class="teas-figure-head"><span class="teas-figure-label">Actor involvement · 0–10</span><button type="button" class="btn" data-activity-expand>expand</button></div>' +
+            '<div class="teas-figure">' + activityDiagramHtml(obj) + '</div>' + activityLegendHtml() + '</div></div>';
+    }
+    function facetActionCoverageCardHtml(obj) {
+        var levels = facetActivityLevels(obj);
+        return '<div class="num-card"><div class="num-head"><span class="num-badge">6</span><span class="num-title">Action Coverage</span></div><div class="num-body">' +
+            '<div class="teas-figure-head"><span class="teas-figure-label">Actor-set average · 0–10</span><button type="button" class="btn" data-activity-expand>expand</button></div>' +
+            '<div class="teas-figure">' + activityDiagramHtml(obj, levels, "Action Coverage — " + obj.name + " (actor-set average)") + '</div>' + activityLegendHtml() + '</div></div>';
+    }
+    function referencesBody(obj, d, dd) {
+        var note = noteHref(obj);
+        var src = dd.sources && dd.sources.length ? '<ul class="source-list">' + dd.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a></li>'; }).join("") + '</ul>' : '<p class="sec-desc">No sources recorded.</p>';
+        return '<div class="num-card"><div class="num-head"><span class="num-badge">◦</span><span class="num-title">References</span></div><div class="num-body">' +
+            '<div class="ref-actions">' +
+                '<button type="button" class="btn ref-export">export json</button>' +
+                '<button type="button" class="btn ref-quick">quick view</button>' +
+                (note ? '<a class="note-link" href="' + esc(note) + '">corpus note</a>' : '') +
+            '</div>' +
+            miniTitle("Sources") + src +
+            '<p class="sec-desc" style="margin-top:.7rem">Data file: <a class="note-link" href="scientific-facet-representation.json">scientific-facet-representation.json</a></p>' +
+        '</div></div>';
+    }
+    function openActivityModal() {
+        var d = state.detail, obj = d ? item(d.type, d.id) : null;
+        if (!obj) return;
+        var levels = d.type === "facet" ? facetActivityLevels(obj) : (obj.activityLevels || {});
+        var label = d.type === "facet" ? (obj.name + " · actor-set average") : obj.name;
+        $("#activityModalActor").textContent = label;
+        $("#activityModalBody").innerHTML = '<div class="teas-figure">' + activityDiagramHtml(obj, levels, "Technical Element Production Activity Set — " + label) + '</div>' + activityLegendHtml();
+        $("#activityModal").classList.add("open");
+        $("#activityModal").setAttribute("aria-hidden", "false");
+        document.body.classList.add("teas-modal-open");
+        var close = $("#activityModalClose");
+        if (close) close.focus();
+    }
+    function closeActivityModal() {
+        var m = $("#activityModal");
+        if (!m) return;
+        m.classList.remove("open");
+        m.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("teas-modal-open");
+    }
+
+    function facetHeaderHtml(obj, fd) {
+        var p = obj.profile || {};
+        var meta = '<span><b>Region</b> ' + esc(p.region || "—") + '</span>' +
+            '<span><b>Aspect</b> ' + esc(p.aspect || "—") + '</span>' +
+            '<span><b>Actors</b> ' + facetActors(obj).length + '</span>' +
+            '<span><b>Confidence</b> ' + esc(p.confidence || "—") + '</span>';
+        return '<div class="detail-header"><div class="top"><div><div class="detail-name">' + esc(obj.name) + '</div><div class="detail-type">Scientific Research Facet</div></div></div>' +
+            '<div class="detail-meta">' + meta + '</div><p class="detail-summary">' + esc(fd.summary) + '</p>' +
+            '<div class="chips">' + (p.domains || []).slice(0, 7).map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join("") + '</div></div>';
+    }
+    function facetBodyForTab(obj, fd) {
+        var p = obj.profile || {};
+        var tab = state.detailTab || "profile";
+        if (tab === "actors") {
+            return numCard(5, "Actor Set", actorTreemapHtml(obj, fd));
+        }
+        if (tab === "domain") {
+            return numCard(6, "Scientific Domain", domainCardsHtml(obj));
+        }
+        if (tab === "evidence") {
+            var m = fd.metrics || {};
+            var metrics = '<div class="metric-grid">' +
+                '<div class="metric"><div class="n">' + esc(m.actors || 0) + '</div><div class="l">Actors</div></div>' +
+                '<div class="metric"><div class="n">' + esc(m.domains || 0) + '</div><div class="l">Domains</div></div>' +
+                '<div class="metric"><div class="n">' + esc(m.stages || 0) + '</div><div class="l">Life-cycle stages</div></div>' +
+                '<div class="metric"><div class="n">' + esc(m.outputs || 0) + '</div><div class="l">Outputs</div></div></div>';
+            return numCard(7, "Indicator", metrics);
+        }
+        var identity = numCard(1, "Identity",
+            row("Region", p.region) + row("Aspect", p.aspect) + row("Scope", p.scope));
+        return identity + coordCardsHtml(p) + countryTimelineCardHtml(obj);
+    }
+
+    function headerHtml(obj, d, dd) {
+        if (d.type === "facet") return facetHeaderHtml(obj, dd);
+        var p = obj.profile || {};
+        var type = d.type === "facet" ? "Scientific Research Facet" : (p.type || "Actor");
+        var meta = [];
+        meta.push("<span><b>" + (d.type === "facet" ? "Region" : "Country") + "</b> " + esc(obj.region || p.country || "—") + "</span>");
+        if (p.founded) meta.push("<span><b>Established</b> " + esc(p.founded) + "</span>");
+        if (p.ownership) meta.push("<span><b>Affiliation</b> " + esc(p.ownership) + "</span>");
+        if (p["legal-form"]) meta.push("<span><b>Legal form</b> " + esc(p["legal-form"]) + "</span>");
+        return '<div class="detail-header"><div class="top"><div><div class="detail-name">' + esc(obj.name) + '</div><div class="detail-type">' + esc(type) + '</div></div></div>' +
+            '<div class="detail-meta">' + meta.join("") + '</div>' +
+            '<p class="detail-summary">' + esc(dd.summary) + '</p>' +
+            '<div class="chips">' + (p.domains || []).slice(0, 7).map(function (x) { return '<span class="chip">' + esc(x) + '</span>'; }).join("") + '</div></div>';
+    }
+
+    function bodyForTab(obj, d, dd) {
+        if ((state.detailTab || "profile") === "references") return referencesBody(obj, d, dd);
+        if (d.type === "facet") return facetBodyForTab(obj, dd);
+        var p = obj.profile || {};
+        var tab = state.detailTab || "profile";
+        if (tab === "specialization") {
+            return numCard(2, "Scientific Domain", miniTitle("Scientific domains") + chips(p.domains) + '<div style="margin-top:.6rem">' + miniTitle("Disciplines") + chips(p.disciplines) + '</div>');
+        }
+        if (tab === "ecosystem") {
+            return '<div class="num-card"><div class="num-head"><span class="num-badge">◦</span><span class="num-title">Ecosystem</span></div><div class="num-body">' +
+                '<div style="display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:1rem;align-items:start"><div>' + ecoGroupsHtml(dd.eco) + '</div><div>' + ecoSvg(obj.name, dd.eco) + '</div></div></div></div>';
+        }
+        if (tab === "evidence") {
+            var m = dd.metrics || {};
+            var metrics = '<div class="metric-grid">' +
+                '<div class="metric"><div class="n">' + esc(m.employees || "—") + '</div><div class="l">Employees</div></div>' +
+                '<div class="metric"><div class="n">' + esc(m.infrastructures || "—") + '</div><div class="l">Infrastructures</div></div>' +
+                '<div class="metric"><div class="n">' + esc(m.presence || "—") + '</div><div class="l">Presence</div></div></div>';
+            var chart = '<div style="margin:.4rem 0">' + miniTitle("R&D investment (illustrative)") + barChart(m["rd-investment"] || []) + '</div>';
+            return numCard(5, "Indicator", metrics + chart);
+        }
+        // profile
+        var roles = dd.roles.length ? dd.roles : (p.role ? [p.role] : []);
+        var identity = numCard(1, "Identity and Position",
+            '<div class="identity-grid"><div>' +
+                row("Legal form", p["legal-form"]) + row("Ownership", p.ownership) + row("Location", p.country) + row("Founding year", p.founded) + row("Mission", p.mandate) +
+            '</div><div class="role-panel"><h5>Scientific Role(s)</h5>' + roles.map(function (r) { return '<div class="role-item"><span class="dot"></span>' + esc(r) + '</div>'; }).join("") + '</div></div>');
+        var output = numCard(3, "Scientific Output",
+            '<ul class="check-list">' + (p.outputs || []).map(function (x) { return '<li><span class="tick">✓</span>' + esc(x) + '</li>'; }).join("") + '</ul>');
+        var operational = numCard(4, "Operational Configuration",
+            '<div class="identity-grid"><div>' +
+                row("Temporal scope", (p["temporal-scope"] || []).join(" · ")) + row("Work scale", p.scale) + row("Financing model", (p.financing || []).join(" · ")) +
+            '</div><div>' + row("Personnel", p.people) + row("Infrastructure", (p.infrastructure || []).join(" · ")) + '</div></div>');
+        return identity + output + operational;
+    }
+
+    function railHtml(obj, d, dd) {
+        if (d.type === "facet") return "";
+        return '<div class="rail-card"><h4>Ecosystem Overview</h4>' + ecoSvg(obj.name, dd.eco) + '</div>' + timelineRailHtml(obj);
+    }
+
+    function exportDetail(obj) {
+        var blob = new Blob([JSON.stringify(obj, null, 2)], { type: "application/json" });
+        var a = document.createElement("a");
+        a.href = URL.createObjectURL(blob);
+        a.download = obj.id + ".json";
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 500);
+    }
+
+    function renderDetail() {
+        closeActivityModal();
+        var d = state.detail;
+        var obj = d ? item(d.type, d.id) : null;
+        if (!obj) { state.view = "library"; renderView(); return; }
+        var dd = d.type === "facet" ? facetData(obj) : detailData(obj);
+        if (d.type === "facet" && ["specialization", "ecosystem", "action", "coverage", "timeline", "related", "composition", "coordination"].indexOf(state.detailTab) >= 0) state.detailTab = "profile";
+        if (d.type === "actor" && ["actors", "domain", "timeline", "composition", "coverage", "coordination", "related", "action"].indexOf(state.detailTab) >= 0) state.detailTab = "profile";
+        var facetActorCount = d.type === "facet" ? facetActors(obj).length : 0;
+        var tabs = d.type === "facet"
+            ? [["profile", "Profile"], ["actors", "Actor Set"], ["domain", "Scientific Domain"], ["evidence", "Indicator"], ["references", "References"]]
+            : [["profile", "Profile"], ["specialization", "Scientific Domain"], ["ecosystem", "Ecosystem"], ["evidence", "Indicator"], ["references", "References"]];
+        $("#detailTabs").innerHTML = tabs.map(function (t) { return '<button type="button" data-dtab="' + t[0] + '"' + (t[0] === state.detailTab ? ' class="active"' : "") + '>' + t[1] + '</button>'; }).join("");
+        $("#detailKind").textContent = d.type === "facet" ? "Facet" : "Actor";
+        $("#detailHeader").innerHTML = headerHtml(obj, d, dd);
+        $("#detailBody").innerHTML = bodyForTab(obj, d, dd);
+        var layout = document.querySelector(".detail-layout");
+        if (layout) layout.classList.toggle("no-rail", d.type === "facet");
+        $("#detailRail").innerHTML = railHtml(obj, d, dd);
+
+        document.querySelectorAll("#detailTabs button").forEach(function (b) {
+            b.classList.toggle("active", b.dataset.dtab === (state.detailTab || "profile"));
+            b.onclick = function () { state.detailTab = b.dataset.dtab; renderDetail(); };
+        });
+        document.querySelectorAll("#view-detail a[data-detail]").forEach(function (a) {
+            a.addEventListener("click", function (e) { e.preventDefault(); openDetail(a.dataset.detail, a.dataset.id); });
+        });
+        document.querySelectorAll("#view-detail [data-activity-expand]").forEach(function (b) {
+            b.addEventListener("click", function (e) { e.preventDefault(); openActivityModal(); });
+        });
+        var refExport = document.querySelector("#detailBody .ref-export");
+        if (refExport) refExport.onclick = function () { exportDetail(obj); };
+        var refQuick = document.querySelector("#detailBody .ref-quick");
+        if (refQuick) refQuick.onclick = function () { openProfile(d.type, d.id); };
+    }
+
+    function openProfile(type, id) {
+        var obj = item(type, id); if (!obj) return;
+        state.quick = { type: type, id: id };
+        var p = obj.profile || {}, d = obj.detail || {};
+        $("#drawerKind").textContent = type === "facet" ? "Facet" : "Actor";
+        $("#drawerTitle").textContent = obj.name;
+        $("#drawerSub").textContent = type === "facet"
+            ? (p.region || "") + " · " + (p.aspect || "")
+            : (obj.country || "") + " · " + (p.type || "");
+        var body = "";
+        if (type === "facet") {
+            var members = facetActors(obj);
+            body += '<div class="drawer-card"><h4>Scope</h4><p>' + esc(d.summary || p.scope || "") + '</p></div>';
+            body += '<div class="drawer-card"><h4>Actor set · ' + members.length + '</h4><div class="chips">' + members.map(function (a) { return '<span class="chip">' + esc(a.name) + '</span>'; }).join("") + '</div></div>';
+            body += '<div class="drawer-card"><h4>Domains</h4>' + chips(p.domains) + '</div>';
+            body += '<div class="drawer-card"><h4>Life cycle</h4>' + lifecycleHtml(d["lifecycle-involvement"] || {}) + '</div>';
+        } else {
+            body += '<div class="drawer-card"><h4>Role</h4><p>' + esc(p.mandate || p.role || "") + '</p></div>';
+            body += '<div class="drawer-card"><h4>Domains</h4>' + chips(p.domains) + '</div>';
+            var m = d.metrics || {};
+            body += '<div class="drawer-card"><h4>Indicator</h4><ul>' +
+                '<li>Employees: ' + esc(m.employees || "—") + '</li>' +
+                '<li>Infrastructures: ' + esc(m.infrastructures || "—") + '</li>' +
+                '<li>Presence: ' + esc(m.presence || "—") + '</li></ul></div>';
+        }
+        $("#drawerBody").innerHTML = body;
+        var actions = '<button type="button" class="btn" id="drawerOpen">open full detail</button>';
+        if (noteHref(obj)) actions += '<a class="note-link" href="' + esc(noteHref(obj)) + '">note</a>';
+        actions += '<button type="button" class="btn" id="drawerExport">export</button>';
+        $("#drawerActions").innerHTML = actions;
+        $("#drawerOpen").onclick = function () { closeQuick(); openDetail(type, id); };
+        $("#drawerExport").onclick = function () { exportDetail(obj); };
+        $("#drawer").classList.add("open");
+        $("#drawerBackdrop").classList.add("open");
+        $("#drawer").setAttribute("aria-hidden", "false");
+    }
+
+    function closeQuick() {
+        $("#drawer").classList.remove("open");
+        $("#drawerBackdrop").classList.remove("open");
+        $("#drawer").setAttribute("aria-hidden", "true");
+        state.quick = null;
+    }
+
+    function renderView() {
+        document.querySelectorAll(".view-tabs button").forEach(function (b) { b.classList.toggle("active", b.dataset.view === (state.view === "detail" ? "library" : state.view)); });
+        $("#view-library").hidden = state.view !== "library";
+        $("#view-compare").hidden = state.view !== "compare";
+        $("#view-detail").hidden = state.view !== "detail";
+        if (state.view === "compare") renderCompare();
+        if (state.view === "detail") renderDetail();
+    }
+
+    function sync() {
+        renderView(); renderLibrary();
+        var h = "#view=" + state.view;
+        if (state.view === "detail" && state.detail) h += "&type=" + state.detail.type + "&id=" + encodeURIComponent(state.detail.id);
+        if (state.view === "compare") h += "&mode=" + state.compareMode;
+        if (state.selected.length) h += "&sel=" + state.selected.map(function (s) { return s.type + ":" + s.id; }).join(",");
+        try { history.replaceState(null, "", h); } catch (e) {}
+    }
+
+    function fromHash() {
+        var h = location.hash.replace(/^#/, "");
+        if (!h) return;
+        var parts = h.split("&"), dt = null, di = null, quick = null;
+        parts.forEach(function (p) {
+            var kv = p.split("=");
+            if (kv[0] === "view" && ["library", "compare", "detail"].indexOf(kv[1]) >= 0) state.view = kv[1];
+            if (kv[0] === "mode") state.compareMode = kv[1] === "facet" ? "facet" : "actor";
+            if (kv[0] === "type") dt = kv[1];
+            if (kv[0] === "id") di = decodeURIComponent(kv[1] || "");
+            if (kv[0] === "quick") quick = decodeURIComponent(kv[1] || "");
+            if (kv[0] === "sel" && kv[1]) {
+                state.selected = kv[1].split(",").map(function (x) { var a = x.split(":"); return { type: a[0], id: a[1] }; }).filter(function (s) { return item(s.type, s.id); }).slice(0, MAX);
+            }
+        });
+        if (state.view === "detail" && dt && di && item(dt, di)) state.detail = { type: dt, id: di };
+        state.selected = state.selected.filter(function (s) { return s.type === state.compareMode; });
+        if (quick) {
+            var q = quick.split(":");
+            if (q.length === 2 && item(q[0], q[1])) openProfile(q[0], q[1]);
+        }
+    }
+
+    document.querySelectorAll(".view-tabs button").forEach(function (b) {
+        b.addEventListener("click", function () { state.view = b.dataset.view; sync(); });
+    });
+    $("#libSearch").addEventListener("input", function () { state.page = 1; renderLibrary(); });
+    $("#libType").addEventListener("change", function () { state.page = 1; renderLibrary(); });
+    var resizeTimer = null;
+    window.addEventListener("resize", function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            if (state.data && state.view === "library") renderLibrary();
+        }, 150);
+    });
+    $("#detailBack").addEventListener("click", function () { state.view = "library"; state.detail = null; sync(); });
+    $("#clearSel").addEventListener("click", function () { state.selected = []; sync(); });
+    $("#compareSearch").addEventListener("input", function () { renderComparePicker(state.compareMode); });
+    $("#drawerClose").addEventListener("click", closeQuick);
+    $("#drawerBackdrop").addEventListener("click", closeQuick);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") { closeActivityModal(); closeQuick(); } });
+
+    fetch(DATA_URL, { cache: "no-cache" }).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+    }).then(function (data) {
+        state.data = data;
+        fromHash();
+        sync();
+    }).catch(function (err) {
+        document.querySelector("main").innerHTML = '<p class="err">Failed to load ' + DATA_URL + ": " + esc(err.message) + "</p>";
+    });
+})();
+</script>
+</body>
+</html>

@@ -27,5 +27,5 @@ tags: [document, book, economics, technology, employment, labor]
 ## References
 
 - [Archive.org — The Impact of Technological Change on Employment and Economic Growth](https://archive.org/details/impactoftechnolo0000unse)
-- [Technology](/view.html?p=notes/social/structural/technical/technology.md) — the technical concept
+- [Technology](/view.html?p=notes/technica/meta/tecnica.md) — the technical concept
 - [Labor](/view.html?p=notes/social/coordinator/capital-labor/labor.md) — the factor the volume is about

@@ -20,4 +20,4 @@ tags: [note, production]
 - https://www.cer-rec.gc.ca/en/index.html
 
 * Technology
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

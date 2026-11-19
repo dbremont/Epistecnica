@@ -123,4 +123,4 @@ tags: [note, unfinished]
 
 ## References
 
-- [Technology](/view.html?p=notes/social/structural/technical/technology.md)
+- [Technology](/view.html?p=notes/technica/meta/tecnica.md)

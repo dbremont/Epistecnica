@@ -9,5 +9,5 @@ Absorptive capacity is built, not bought: it is the cumulative result of prior r
 ## References
 
 - https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md
-- [Absorptive Capacity](/view.html?p=notes/social/dynamic/economic/learning/absorptive.md)
+- [Absorptive Capacity](/view.html?p=notes/social/dynamic/learning/absorptive-capacity.md)
 - [Technology Transfer](/glossarium/?t=technology-transfer)

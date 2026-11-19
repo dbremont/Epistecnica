@@ -56,4 +56,4 @@ tags: [note, production]
 * [NAICS 221113 — Nuclear Electric Power Generation](https://www.naics.com/naics-code-description/?code=221113)
 * [OECD Nuclear Energy Agency](https://www.oecd-nea.org/)
 * [U.S. Department of Energy — Office of Nuclear Energy](https://www.energy.gov/ne/office-nuclear-energy)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)

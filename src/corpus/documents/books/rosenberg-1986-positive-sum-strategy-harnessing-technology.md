@@ -28,5 +28,5 @@ tags: [document, book, economics, technology, innovation]
 ## References
 
 - [Archive.org — The Positive Sum Strategy (Landau & Rosenberg, eds.)](https://archive.org/details/positivesumstrat0000unse)
-- [Technology](/view.html?p=notes/social/structural/technical/technology.md) — the concept the volume treats as an economic variable
+- [Technology](/view.html?p=notes/technica/meta/tecnica.md) — the concept the volume treats as an economic variable
 - [Innovation](/view.html?p=notes/miscellanea/discipline/innovation.md) — the discipline the volume helped constitute

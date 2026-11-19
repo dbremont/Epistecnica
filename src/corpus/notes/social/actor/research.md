@@ -4,7 +4,7 @@ tags: [note, actor, research-actor, research, collective, social-element]
 
 # Research Actor
 
-> A **Research Actor** is a bounded collective that produces or funds inquiry — the research-functional subtype of [Actor](/view.html?p=notes/social/actor/actor.md): academies and national laboratories, government research agencies and funding councils, public research institutes, enterprise research labs, university research units, and the research groups they host. It is the actor counterpart of [Research Activity](/view.html?p=notes/social/action/activity/research/research.md): the activity says what inquiry does, this element says who carries and pays for it.
+> A **Research Actor** is a bounded collective that produces or funds inquiry — the research-functional subtype of [Actor](/view.html?p=notes/social/actor/actor.md): academies and national laboratories, government research agencies and funding councils, public research institutes, enterprise research labs, university research units, and the research groups they host. It is the actor counterpart of [Research Activity](/explorer.html?dir=notes/social/dynamic/research): the activity says what inquiry does, this element says who carries and pays for it.
 
 ## Formulation
 
@@ -14,7 +14,7 @@ tags: [note, actor, research-actor, research, collective, social-element]
 
 Its layer is **Ontic** where the actor exists extra-mentally (institutes, laboratories, agencies with staff, premises, budgets, and address) and **Synontic** where it is constituted by recognition (a scientific academy's standing, a learned society's mandate, a funding council's authority to allocate). Its facet is **research (scientific)** — the dominant causal mechanism is the production or funding of warranted knowledge, not exchange value and not the transmission of certified knowledge.
 
-It is not an `Agency` (the capacity to form intentions and select action — what the actor acts *with*), not a `Social Role` (the expectation-tag it occupies), and not an `Institution` (the stabilized rules — peer review, grant conditions — it acts *within* and hosts). It is distinct from a [Firm](/view.html?p=notes/social/actor/firm.md) (converting capability into exchangeable value), from an [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (transmitting certified knowledge across generations), and from the [Research Activity](/view.html?p=notes/social/action/activity/research/research.md) it performs; it hosts research groups, occupies research roles, and inhabits research institutions, but is the carrier, never the carried.
+It is not an `Agency` (the capacity to form intentions and select action — what the actor acts *with*), not a `Social Role` (the expectation-tag it occupies), and not an `Institution` (the stabilized rules — peer review, grant conditions — it acts *within* and hosts). It is distinct from a [Firm](/view.html?p=notes/social/actor/firm.md) (converting capability into exchangeable value), from an [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (transmitting certified knowledge across generations), and from the [Research Activity](/explorer.html?dir=notes/social/dynamic/research) it performs; it hosts research groups, occupies research roles, and inhabits research institutions, but is the carrier, never the carried.
 
 Readable secondarily as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested in national research systems and funded collaboration networks. That secondary reading is prose, not a second root; the tree below is typed once.
 
@@ -24,7 +24,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 > The typology below classifies research actors by constitution — public research institute, national laboratory, government research agency, funding council, academy or learned society, enterprise research lab, university research unit, independent foundation, research group — and locates the concrete bodies already worked in this module. Because the family mixes public and private bodies, the instances are split by public authority — **public research actors** under `public/research/` (academies, national laboratories, government agencies, funding councils) and **private research actors** under `private/research/` (universities, think tanks, foundations, enterprise labs) — each grouped by ISO 3166-1 alpha-3 country code, with a nested parent-body folder where a system has a peak body (`chn/cas`, `esp/csic`, `fra/cnrs`, `ita/cnr`, `usa/nsf`, `sgp/astar`, `dnk/dnrf`, `fin/rcf`, `nld/nwo`). This entry is the hub linking both halves; see the support links on the catalog for the two directories.
 
-> Constitution is one axis; the other is **institutional form** — for a national laboratory, whether the state owns the facility and staffs it directly, or owns it and contracts its operation to a university or nonprofit. The form is carried in the tree as a kind branch under `National Laboratory` rather than as a second type, because it fixes who owns the ground, who employs the staff and who answers for the budget, while leaving the research function unchanged. [Ames National Laboratory](/view.html?p=notes/social/actor/public/catalog/research/usa/ames-national-laboratory.md) is the worked contractor-operated instance.
+> Constitution is one axis; the other is **institutional form** — for a national laboratory, whether the state owns the facility and staffs it directly, or owns it and contracts its operation to a university or nonprofit. The form is carried in the tree as a kind branch under `National Laboratory` rather than as a second type, because it fixes who owns the ground, who employs the staff and who answers for the budget, while leaving the research function unchanged. [Ames National Laboratory](/view.html?p=notes/social/actor/public/instance/research/usa/ames-national-laboratory.md) is the worked contractor-operated instance.
 
 **Layer.** **Ontic** — the institutes, laboratories, agencies, staff, instruments, and endowments exist extra-mentally. Their research programmes and classifications are Noetic instruments; the standing of an academy and the authority of a funding council are Synontic.
 
@@ -34,7 +34,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/actor/public/catalog/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
+> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/actor/public/instance/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
 >
 > Stopping rule: a row is terminal when it names a subtype, a national system, a concrete institute, an agency, a role, a norm, an obligation, or a practice, or when it links an already-decomposed entry.
 >
@@ -133,22 +133,22 @@ Approximate shares of a research group's total budget:
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: the actor typology this element belongs to)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic collective/organization type)
-- [Research Activity](/view.html?p=notes/social/action/activity/research/research.md) (the doing family this actor performs)
-- [Science](/view.html?p=notes/social/action/activity/research/science/science.md) (the scientific activity family that scopes inquiry)
+- [Research Activity](/explorer.html?dir=notes/social/dynamic/research) (the doing family this actor performs)
+- [Science](/view.html?p=notes/social/dynamic/research/science.md) (the scientific activity family that scopes inquiry)
 - [Research Group](/view.html?p=notes/social/actor/research-group.md) (quasi-firm team subtype)
 - [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md) (corporate subtype)
-- [Public Research Institutes (PRI)](/view.html?p=notes/social/actor/public/catalog/pri.md) (public-research subtype)
+- [Public Research Institutes (PRI)](/view.html?p=notes/social/actor/public/instance/pri.md) (public-research subtype)
 - [Product Development Center](/view.html?p=notes/social/actor/product-development-center.md) (sibling collective with a product mandate rather than an inquiry mandate)
-- [Max Planck Society](/view.html?p=notes/social/actor/public/catalog/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
-- [Fraunhofer Society](/view.html?p=notes/social/actor/public/catalog/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
-- [Chinese Academy of Sciences (CAS)](/view.html?p=notes/social/actor/public/catalog/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
-- [Centre National de la Recherche Scientifique](/view.html?p=notes/social/actor/public/catalog/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
-- [CSIRO](/view.html?p=notes/social/actor/public/catalog/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
-- [RIKEN](/view.html?p=notes/social/actor/public/catalog/research/jpn/riken.md) (`jpn/`)
-- [A*STAR](/view.html?p=notes/social/actor/public/catalog/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
-- [Defense Advanced Research Projects Agency (DARPA)](/view.html?p=notes/social/actor/public/catalog/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
-- [U.S. National Science Foundation (NSF)](/view.html?p=notes/social/actor/public/catalog/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
-- [ITRI](/view.html?p=notes/social/actor/public/catalog/research/twn/itri.md) (`twn/`)
+- [Max Planck Society](/view.html?p=notes/social/actor/public/instance/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
+- [Fraunhofer Society](/view.html?p=notes/social/actor/public/instance/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
+- [Chinese Academy of Sciences (CAS)](/view.html?p=notes/social/actor/public/instance/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
+- [Centre National de la Recherche Scientifique](/view.html?p=notes/social/actor/public/instance/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
+- [CSIRO](/view.html?p=notes/social/actor/public/instance/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
+- [RIKEN](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md) (`jpn/`)
+- [A*STAR](/view.html?p=notes/social/actor/public/instance/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
+- [Defense Advanced Research Projects Agency (DARPA)](/view.html?p=notes/social/actor/public/instance/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
+- [U.S. National Science Foundation (NSF)](/view.html?p=notes/social/actor/public/instance/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
+- [ITRI](/view.html?p=notes/social/actor/public/instance/research/twn/itri.md) (`twn/`)
 - [Royal Bohemian Society of Sciences](/view.html?p=notes/social/actor/private/research/cze/royal-bohemian-society-of-sciences.md) (learned society, `cze/`)
 - Hamberg, D. (1963). Invention in the industrial research laboratory. *Journal of Political Economy*, 71(2), 95–115.
 - Holt, C. A. (1995). Industrial organization: A survey of laboratory research. *The handbook of experimental economics*, 349–402.

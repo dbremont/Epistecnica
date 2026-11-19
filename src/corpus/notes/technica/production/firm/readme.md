@@ -192,5 +192,5 @@ Business models in enterprises describe the fundamental ways in which organizati
 ## References
 
 * [Firm](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Unit/Firm/)
-* [A Guide to Profile a Firm](/view.html?p=notes/technica/breviarium/a-guide-to-profile-a-firm.md)
+* [A Guide to Profile a Firm](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-a-firm.md)
 * [The Alchemy of Growth: Practical Insights for Building the Enduring Enterprise](https://www.amazon.com/Alchemy-Growth-Practical-Insights-Enterprise/dp/0738203092)

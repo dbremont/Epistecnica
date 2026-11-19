@@ -33,4 +33,4 @@ tags: [note, production]
 * [Machine Tool](https://en.wikipedia.org/wiki/Machine_tool)
 * [CNC Machining](https://en.wikipedia.org/wiki/CNC_machining)
 * [NAICS 3335 – Machine Tool Manufacturing](https://www.census.gov/naics/)
-* [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
+* [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
