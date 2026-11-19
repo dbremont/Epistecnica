@@ -143,3 +143,4 @@ Here is a table of key R&D actors in South Korea, ordered by their establishment
 - [¿Cómo se desarrolló Corea del Sur?](https://cenital.com/como-se-desarrollo-corea-del-sur/)
 - Kim, Kwan S. *The Korean miracle (1962-1980) revisited: myths and realities in strategy and development*. Notre Dame, IN: Helen Kellogg Institute for International Studies, University of Notre Dame, 1991.
 - Korea Export-Import Bank (KEXIM)
+- [Lau (1986) — Models of Development: South Korea and Taiwan](/view.html?p=documents/books/lau-1986-models-development-korea-taiwan.md) — two strategies, one export orientation, 1965–1981

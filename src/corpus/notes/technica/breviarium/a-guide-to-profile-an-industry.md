@@ -142,7 +142,7 @@ tags: [note, breviarium]
 
 - [Technology](https://www.bremontix.xyz/lab/ar/Locus-Social-Realitatis/Facet/Knowledge/Technology/)
 - [Production](/view.html?p=notes/technica/production/readme.md)
-- [Industry Analysis](/view.html?p=notes/production/toolkit/type/industry.md)
+- [Industry Analysis](/view.html?p=notes/epistemica/singular/production-research/type/industry.md)
 - Porter, M. E. Competitive Strategy. Free Press, 1980.
 - Kotler, P., Keller, K. Marketing Management. Pearson, 2016.
 - Barney, J. B. Gaining and Sustaining Competitive Advantage. Pearson, 2011.

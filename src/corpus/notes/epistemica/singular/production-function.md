@@ -71,20 +71,20 @@ It is a form, not an instance: `y = AK^αL^β` with fitted coefficients is a `Co
 
 > The existing nodes in the epistemica dataset (`/corpus/notes/epistemica/?node=<id>`) this note documents and cross-links.
 
-- [Production Function](/corpus/notes/epistemica/?node=production-function) — the blueprint node itself (`epistemicBlueprint`)
-- [Marginal Productivity Theory](/corpus/notes/epistemica/?node=marginal-productivity-theory) — factor payments by marginal contribution (`epistemicFramework`)
-- [Productivity Estimate](/corpus/notes/epistemica/?node=productivity-estimate) — a fitted value instance (`concreteEpistemicArtifact`)
-- [Productivity Measurement Procedure](/corpus/notes/epistemica/?node=productivity-measurement-procedure) — the estimation procedure (`epistemicOperator`)
-- [SWE Productivity Method](/corpus/notes/epistemica/?node=swe-productivity-method) — a sectoral measurement process (`epistemicProcess`)
-- [Input-Output Model](/corpus/notes/epistemica/?node=input-output-model) / [Input-Output Models](/corpus/notes/epistemica/?node=input-output-models) — the fixed-coefficient sibling family (`concreteEpistemicArtifact`)
-- [Optimization Models](/corpus/notes/epistemica/?node=optimization-models) — the optimizing-behavior neighbor (`concreteEpistemicArtifact`)
-- [Optimization Problem](/corpus/notes/epistemica/?node=tool_24) — the formal problem solved in estimation (`epistemicOperator`)
-- [Supply and Demand Theory](/corpus/notes/epistemica/?node=supply-and-demand-theory) — the market-clearing neighbor (`epistemicFramework`)
-- [Capital Asset Pricing Model (CAPM)](/corpus/notes/epistemica/?node=capital-asset-pricing-model-capm) — a fitted-form cousin in finance (`concreteEpistemicArtifact`)
-- [AS-AD Model](/corpus/notes/epistemica/?node=as-ad-model-aggregate-supply-aggregate-demand) — the macro aggregate built on production mappings (`concreteEpistemicArtifact`)
-- [Labor Theory of Value](/corpus/notes/epistemica/?node=labor-theory-of-value) — the rival accounting of value (`epistemicFramework`)
-- [Profile Production Template](/corpus/notes/epistemica/?node=profile-production-template) — a template instance (`epistemicBlueprint`)
-- [General-Purpose Laboratory](/corpus/notes/epistemica/?node=infra_01) — the infrastructure hosting estimation (`epistemicInfrastructure`)
+- [Production Function](/corpus/notes/epistemica/ees.html) — the blueprint node itself (`epistemicBlueprint`)
+- [Marginal Productivity Theory](/corpus/notes/epistemica/ees.html) — factor payments by marginal contribution (`epistemicFramework`)
+- [Productivity Estimate](/corpus/notes/epistemica/ees.html) — a fitted value instance (`concreteEpistemicArtifact`)
+- [Productivity Measurement Procedure](/corpus/notes/epistemica/ees.html) — the estimation procedure (`epistemicOperator`)
+- [SWE Productivity Method](/corpus/notes/epistemica/ees.html) — a sectoral measurement process (`epistemicProcess`)
+- [Input-Output Model](/corpus/notes/epistemica/ees.html) / [Input-Output Models](/corpus/notes/epistemica/ees.html) — the fixed-coefficient sibling family (`concreteEpistemicArtifact`)
+- [Optimization Models](/corpus/notes/epistemica/ees.html) — the optimizing-behavior neighbor (`concreteEpistemicArtifact`)
+- [Optimization Problem](/corpus/notes/epistemica/ees.html) — the formal problem solved in estimation (`epistemicOperator`)
+- [Supply and Demand Theory](/corpus/notes/epistemica/ees.html) — the market-clearing neighbor (`epistemicFramework`)
+- [Capital Asset Pricing Model (CAPM)](/corpus/notes/epistemica/ees.html) — a fitted-form cousin in finance (`concreteEpistemicArtifact`)
+- [AS-AD Model](/corpus/notes/epistemica/ees.html) — the macro aggregate built on production mappings (`concreteEpistemicArtifact`)
+- [Labor Theory of Value](/corpus/notes/epistemica/ees.html) — the rival accounting of value (`epistemicFramework`)
+- [Profile Production Template](/corpus/notes/epistemica/ees.html) — a template instance (`epistemicBlueprint`)
+- [General-Purpose Laboratory](/corpus/notes/epistemica/ees.html) — the infrastructure hosting estimation (`epistemicInfrastructure`)
 
 ## References
 

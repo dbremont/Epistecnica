@@ -10,7 +10,7 @@ tags: [note, laser-doppler-vibrometer, metrology]
 
 ### What technical element type does this technical instance belong to?
 
-**The LDV belongs to the `Production Technical Object` technical element type** — a produced instrument enabling a measurement action, typed as the [radar](/view.html?p=notes/technica/general/industry/radar.md) on the same shelf is typed: an electromagnetic measurement object rather than a production plant.
+**The LDV belongs to the `Production Technical Object` technical element type** — a produced instrument enabling a measurement action, typed as the [radar](/view.html?p=notes/technica/general/fisicatecnica/electromagnetic/radar.md) on the same shelf is typed: an electromagnetic measurement object rather than a production plant.
 
 Readable secondarily as a `Constitutive Technical Object` when it is one element of a modal-analysis or condition-monitoring installation, and as a `Machine` where its function is the actuation of a scanning stage. Those readings are prose, not second roots.
 
@@ -66,5 +66,5 @@ The applications follow from the measurement being non-contact and direct in vel
 - [Laser Doppler vibrometer](https://en.wikipedia.org/wiki/Laser_Doppler_vibrometer)
 - [Doppler Effect](/view.html?p=notes/nature/phenomena/doppler-effect.md) — the phenomenon, and the factor of two
 - [Interference](/view.html?p=notes/nature/phenomena/interference.md) · [Polarisation](/view.html?p=notes/nature/phenomena/polarisation.md) — the physics inside the head
-- [Radar](/view.html?p=notes/technica/general/industry/radar.md) — the sibling instrument, typed the same way
+- [Radar](/view.html?p=notes/technica/general/fisicatecnica/electromagnetic/radar.md) — the sibling instrument, typed the same way
 - [Metrology Services](/view.html?p=notes/technica/production/industry/metrology-services.md) — the practice this instrument serves

@@ -565,3 +565,4 @@ References
 - General R&D Model
 - Industry Specific R&D Model
 - Company Specific R&D Model / [https://en.wikipedia.org/wiki/Wanhua_Chemical_Group](https://en.wikipedia.org/wiki/Wanhua_Chemical_Group) / [https://en.wikipedia.org/wiki/BASF](https://en.wikipedia.org/wiki/BASF) / [https://itif.org/publications/2024/04/15/how-innovative-is-china-in-the-chemicals-industry/](https://itif.org/publications/2024/04/15/how-innovative-is-china-in-the-chemicals-industry/)
+- [Rosenbloom & Spencer (1996) — Engines of Innovation](/view.html?p=documents/books/rosenbloom-spencer-1996-engines-of-innovation.md) — the end of the corporate central research lab

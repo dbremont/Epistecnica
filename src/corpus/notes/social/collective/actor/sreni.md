@@ -48,3 +48,4 @@ Readable secondarily as a coordination `Activity`/`Mechanism` (aggregation-for-c
 - [Firm](/view.html?p=notes/social/collective/actor/firm.md) (modern counterpart of the aggregated enterprise)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md) (arena the aggregation secures)
 - Graph nodes of the same names: `sreni`, `organization`, `reality.market` (Social Space, dataset `social`); kindred instances: `Merchant Guild`, `Grand Bazaar guilds`
+- [Rooney & Murthy (2024) — Management and social order in ancient India](/view.html?p=documents/papers/rooney-murthy-2024-management-social-order-ancient-india.md) — the management reading of the same institutions

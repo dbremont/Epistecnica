@@ -29,3 +29,5 @@ Conceptual Model: Verification
 - https://en.wikipedia.org/wiki/Software_testing
 - https://cacm.acm.org/practice/systems-correctness-practices-at-amazon-web-services/
 - https://emptysqua.re/blog/intro-to-tla-plus-for-the-llm-era/
+- https://alperenkeles.com/posts/formal-verification-is-not-verifiable/   (https://news.ycombinator.com/item?id=50497621)
+

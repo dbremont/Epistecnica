@@ -176,3 +176,8 @@ Through fit against external registries and perimeters (statistical classificati
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md)
 - [Financial Sector explorer (live note)](financial-sector-explorer.html)
 - Financial Sector Technical Practice (companion note, forthcoming)
+
+- [Gorton (2008)](/view.html?p=documents/papers/gorton-2008-panic-2007.md) — the shadow-banking run behind the 2007 panic.
+- [Coval, Jurek & Stafford (2009)](/view.html?p=documents/papers/coval-2009-economics-structured-finance.md) — how the structured-finance instruments were built and why the ratings failed.
+- [Adrian & Shin (2009)](/view.html?p=documents/papers/adrian-shin-2009-shadow-banking-system.md) — the balance-sheet mechanics of the non-bank sector.
+- [Brunnermeier, Gorton & Krishnamurthy (2012)](/view.html?p=documents/papers/brunnermeier-2012-risk-topography.md) — measuring the exposures the sector creates.

@@ -48,7 +48,7 @@ A graph showing that "nations with higher tariffs grow slower" **does not prove*
 - **Key idea**: Understanding and identifying cause-and-effect relationships between economic variables rather than mere correlations.
 - **Modeling focus**: Establishing the direction and magnitude of causal impacts for policy evaluation, forecasting, and theory testing.
 - **Tools and methods**:
-  - **Econometric techniques**: Instrumental  variables (IV), difference-in-differences (DiD), regression discontinuity design (RDD), propensity score matching.
+  - **Econometric techniques**: Instrumental  variables (IV), [difference-in-differences (DiD)](/view.html?p=notes/epistemica/causality/difference-in-differences.md), regression discontinuity design (RDD), propensity score matching.
   - **Structural causal models**: Directed acyclic graphs (DAGs), potential outcomes framework.
   - **Natural experiments**: Exploit exogenous variation to infer causality.
   - **Counterfactual analysis**: Assessing what would happen under alternative scenarios.

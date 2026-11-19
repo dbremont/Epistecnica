@@ -6621,5 +6621,5 @@ Lineage: recombinant DNA (1970s) → PCR and Sanger sequencing (1980s) → indus
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [WildFly (full-recursion structural exemplar)](/view.html?p=notes/technica/general/wildfly.md)
 - [OpenAPI Specification (companion ensemble pattern)](/view.html?p=notes/technica/general/openapi.md)
-- [Marketing Technical Practice (companion Element Set pattern)](https://view.html?p=notes/technica/general/es/multinode/marketing-technical-practice.md)
+- [Marketing Technical Practice (companion Element Set pattern)](https://view.html?p=notes/technica/general/marketing-technical-practice.md)
 - Recombinant DNA / PCR / NGS / CRISPR lineage (general references; deployment specifics belong in exemplar rows)

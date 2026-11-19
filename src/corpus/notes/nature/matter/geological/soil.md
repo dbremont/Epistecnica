@@ -15,6 +15,19 @@ QA:
 - **What is the ontology of the Soil?** Which mental representations (concepts, effective abstractions, notions) correspond to the different aspects at various ontological levels, and how can they be used to describing the soil?
 - **What research methodology is used to study soil?** Which validation methods are employed to ensure the reliability of soil descriptions and analyses?
 
+## Soil Organic Matter
+
+> **Soil organic matter** (SOM) is the dead and decomposing fraction of the soil — plant residues, microbial biomass, and the stabilised residue called **humus**. It is what distinguishes soil from weathered rock, and it does four jobs at once.
+
+| Function | Mechanism |
+| --- | --- |
+| **Structure** | Binds mineral particles into aggregates, which creates pore space and improves infiltration and aeration |
+| **Water retention** | Holds several times its weight in water, buffering drought between rain events |
+| **Cation exchange** | Humus carries negative charges that hold nutrient cations (Ca²⁺, Mg²⁺, K⁺, NH₄⁺) against leaching |
+| **Carbon storage** | Holds carbon out of the atmosphere, which is why soil is a climate variable as well as an agronomic one |
+
+> The **balance** is what matters: inputs (residue, roots, manure) against losses (microbial respiration, erosion, tillage-driven oxidation). The practice that depletes it is the one that exposes it — bare fallow, deep ploughing, residue burning — and the practice that builds it is the one that keeps the soil covered and undisturbed. This is the technical content behind the phrases "soil health", "regenerative agriculture" and "carbon farming", and the reason they are about organic matter more than about any input.
+
 ## Index
 
 ## Soil Space
@@ -183,3 +196,4 @@ QA:
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Soil 17cc0f5171ec809abc69ee3960a03205.md`
+- [Organic matter — Wikipedia](https://en.wikipedia.org/wiki/Organic_matter)

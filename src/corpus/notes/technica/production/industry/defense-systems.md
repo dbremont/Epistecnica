@@ -35,3 +35,4 @@ tags: [note, defense]
 
 - Produceologia `docs/Production/Industry/Defense/README.md`
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- [Green (1995) — Arming Japan](/view.html?p=documents/books/green-1995-arming-japan.md) — defence production as industrial policy under an alliance constraint

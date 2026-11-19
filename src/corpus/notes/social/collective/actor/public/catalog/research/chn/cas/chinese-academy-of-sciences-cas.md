@@ -9,3 +9,4 @@ tags: [note, actor, research-institute, china]
 ## References
 
 - https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences
+- [Chengdu Aircraft Research and Design Institute](/view.html?p=notes/social/collective/actor/public/catalog/research/chn/chengdu-aircraft-research-and-design-institute.md) — the design-institute form in the aviation industry

@@ -220,7 +220,9 @@ It is distinct from the `Holy Roman Empire` — the Habsburgs held its imperial 
 - Karl von Zinzendorf
 - Karl Glave-Kobielski
 - John (Johann) Edler von Thornton (1771–1847) / https://www.erih.net/how-it-started/stories-about-people-biographies/biography/thornton
-- David J. Jeremy (1977), Damming the Flood: British Government Efforts to Check the Outflow of Technicians and Machinery, 1780–1843.
+- [David J. Jeremy (1977), Damming the Flood](/view.html?p=documents/papers/jeremy-1977-damming-flood-british-technicians-machinery.md) — British Government Efforts to Check the Outflow of Technicians and Machinery, 1780–1843.
+- [Klemens Kaps (2018), Cores and Peripheries Reconsidered](/view.html?p=documents/papers/kaps-2018-cores-peripheries-reconsidered-habsburg.md) — economic development, trade and cultural images in the eighteenth-century monarchy: the internal core–periphery relation.
+- [Rupert Pichler (2001), Economic Policy and Development in Austrian Lombardy, 1815–1859](/view.html?p=documents/papers/pichler-2001-economic-policy-austrian-lombardy.md) — the Lombard case of the same relation.
 - J. R. Harris (1985), Industrial Espionage in the Eighteenth Century.
 - Matthijs Tieleman (2021), No Intrigue Is Spared: Anglo-American Intelligence Networks in the Eighteenth-Century Dutch Republic.
 - A museum, a university and spies for Franz II (I) – Economic promotion under Franz II (I)

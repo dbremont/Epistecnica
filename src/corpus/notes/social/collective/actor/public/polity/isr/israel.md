@@ -79,3 +79,7 @@ Here is a table summarizing key elements of Israel's industrial policy, includin
 
 - [List of companies of Israel](https://en.wikipedia.org/wiki/List_of_companies_of_Israel)
 - Levi-Faur, David. "The Developmental State: Israel, South Korea, and Taiwan Compared." *Studies in Comparative International Development* 33 (1998): 65-93.
+
+## References
+
+- [Technion](/view.html?p=notes/social/collective/actor/public/catalog/research/isr/technion-israel-institute-of-technology.md) — the engineering school that supplied the state's technical workforce

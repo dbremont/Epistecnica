@@ -149,7 +149,7 @@ Business models in enterprises describe the fundamental ways in which organizati
 
 > Which techniques can be used to run a firm from (vision - reflection to operations)?
 
-> See more in [🛠️ Generic & Special Toolkit](/view.html?p=notes/production/toolkit/readme.md).
+> See more in [🛠️ Generic & Special Toolkit](/view.html?p=notes/technica/production/firm/toolkit/readme.md).
 
 | Agential Level | Category                     | Description                                                              | Instance(s)                                                                            |
 | -------------- | ---------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |

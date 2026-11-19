@@ -37,4 +37,4 @@ It is classified under **HS 3806** for rosin, resin acids and their derivatives,
 - https://en.wikipedia.org/wiki/Rosin
 - https://en.wikipedia.org/wiki/Turpentine
 - [Resin (natural material)](/view.html?p=notes/nature/matter/resin.md) — the exudate this good is distilled from · [Wood](/view.html?p=notes/social/good/agriculture/wood.md) — the other product of the same forest
-- [Agricultural Product Space](/view.html?p=notes/social/good/agriculture/readme.md) — the shelf this good belongs to · [Forest Industries](/view.html?p=notes/production/industry/forest/readme.md) — the scope that files resin under non-timber forest products
+- [Agricultural Product Space](/view.html?p=notes/social/good/agriculture/readme.md) — the shelf this good belongs to · [Forest Industries](/view.html?p=notes/technica/production/industry/forest/readme.md) — the scope that files resin under non-timber forest products

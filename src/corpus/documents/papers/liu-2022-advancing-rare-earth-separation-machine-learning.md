@@ -40,5 +40,5 @@ What the output is, finally, is a distribution coefficient — one metal, one li
 - https://doi.org/10.1021/jacsau.2c00122
 - [PubMed 35783179](https://pubmed.ncbi.nlm.nih.gov/35783179/) · [PMC9241157](https://pmc.ncbi.nlm.nih.gov/articles/PMC9241157/)
 - [Separation Science and Technology](/view.html?p=notes/technica/general/separation-science-and-technology.md) — the technical domain this paper works inside
-- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md)
+- [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md)
 - [Chemical Engineering](/view.html?p=notes/miscellanea/discipline/chemical-engineering.md) — the discipline that turns a distribution coefficient into a flowsheet

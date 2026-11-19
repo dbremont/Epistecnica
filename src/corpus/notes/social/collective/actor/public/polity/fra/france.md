@@ -164,3 +164,4 @@ France's regional government model is a **unitary but decentralized system**. Th
 - https://es.wikipedia.org/wiki/Estados_generales_de_Francia
 
 - https://www.bretagne.bzh/
+- [Clapham (1921) — The Economic Development of France and Germany, 1815–1914](/view.html?p=documents/books/clapham-1921-economic-development-france-germany-1815-1914-cambridge.md) — the comparative economic history of the two industrialisations

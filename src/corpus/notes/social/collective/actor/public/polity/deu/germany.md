@@ -124,3 +124,4 @@ https://www.degruyter.com/documents/doi/10.1515/ger-2024-0063/html
 - [Baltic Germans](https://en.wikipedia.org/wiki/Baltic_Germans)
 - [Economic history of Germany](https://en.wikipedia.org/wiki/Economic_history_of_Germany)
 - [Hanseatic League](https://en.wikipedia.org/wiki/Hanseatic_League)
+- [Clapham (1921) — The Economic Development of France and Germany, 1815–1914](/view.html?p=documents/books/clapham-1921-economic-development-france-germany-1815-1914-cambridge.md) — the comparative economic history of the two industrialisations

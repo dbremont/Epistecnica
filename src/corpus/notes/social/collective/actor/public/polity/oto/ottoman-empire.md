@@ -22,3 +22,6 @@ detailed.
 ## References
 
 - [Ottoman Empire](https://en.wikipedia.org/wiki/Ottoman_Empire)
+- [Ottomanism — Wikipedia](https://en.wikipedia.org/wiki/Ottomanism) — the nineteenth-century ideology of a single civic loyalty across confessional lines (Tanzimat)
+- [Phanariots — Wikipedia](https://en.wikipedia.org/wiki/Phanariots) — the Greek elite who staffed the administration, the patriarchate and the Danubian principalities: government through a minority intermediary class
+- [Millet — Wikipedia](https://en.wikipedia.org/wiki/Millet_(Ottoman_Empire)) — the confessional community as the legal unit of governance, with its own courts, schools and taxes

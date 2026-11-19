@@ -78,6 +78,24 @@ How japan master the internal combustion engine?
 
 > The three tables are the **mapping** of the field — who commissions, who produces, where it is published — and the caveat is the usual one: affiliation is not influence. The question worth asking of any body here is which one has a channel into a live decision, not which one publishes most.
 
+## Industrial Policy
+
+> The Japanese industrial policy of the high-growth era is the most cited case in the world and the most contested in the data. The ex-post literature measures **mixed effects**, and the section's claim is the modest one: the MITI legend is weaker than the textbooks suggest, and the evidence is firm-level and programme-specific rather than national and heroic.
+
+| Work | What it establishes |
+| --- | --- |
+| Beason, R., & Weinstein, D. E. (1996). Growth, economies of scale, and targeting in Japan (1955–1990). *Review of Economics and Statistics*, 78(2), 286–295. | Targeting did not produce the growth its reputation implies; scale economies were not the engine |
+| Ito, M., & Kiyono, K. (1988). Foreign trade and direct investment. In Komiya, Okuno-Fujiwara & Suzumura (Eds.), *Industrial Policy of Japan* (pp. 155–181). Academic Press. | The standard account of the trade and FDI side of the policy |
+| Kiyota, K., & Okazaki, T. (2005). Foreign technology acquisition policy and firm performance in Japan, 1957–1970. *International Journal of Industrial Organization*, 23(7–8), 563–586. | The technology-import policy at the firm level |
+| Kiyota, K., & Okazaki, T. (2010). Industrial policy cuts two ways: Evidence from cotton spinning firms in Japan. *Journal of Law and Economics*, 53(3), 587–609. | The policy helped some firms and hurt others — the dispersion finding that makes the aggregate story ambiguous |
+| Kiyota, K., & Okazaki, T. (2013). Effects of industrial policy on productivity: The case of import quota removal during postwar Japan. RIETI Discussion Paper No. 13093. | Quota removal and productivity: the policy's effect measured on the firms it actually touched |
+| Nakakita, T. (1993). Trade and capital liberalisation policy. In Kosai & Teranishi (Eds.), *Economic Reform in Post-war Japan* (pp. 275–306). University of Tokyo Press (in Japanese). | The Japanese-language account of liberalisation as policy |
+| Noland, M., & Pack, H. (2003). *Industrial Policy in an Era of Globalization: Lessons from Asia*. Peterson Institute. | The comparative lesson for later industrial policy |
+
+> Two lessons are worth carrying out of the table. The first is methodological: the effects are **heterogeneous across firms**, so a policy that looks good in the aggregate can be a transfer between firms in the same industry — the "cuts two ways" finding. The second is historical: much of what is credited to industrial policy was **liberalisation** (quota removal, technology imports, capital opening), which is a policy of *removing* an instrument rather than adding one.
+
+> The institutional side — who produced the policy and who evaluated it — is mapped in [Public Policy Research Actors](#sec-public-policy-research-actors) above, and the evaluation question is the subject of [Yuasa (2025)](/view.html?p=documents/papers/yuasa-2025-policy-implementation-evaluation-japan.md).
+
 ## Japan Debt Riddle
 
 Japan Debt:
@@ -363,4 +381,4 @@ During the Meiji period (1868–1912), the Japanese government established numer
 - https://en.wikipedia.org/wiki/National_Research_and_Development_Agency_(Japan)
 - [Sogo shosha](https://en.wikipedia.org/wiki/Sogo_shosha). Trading Companies ; Tool used by Japan to Increase Exports.
  - https://cepr.org/voxeu/columns/us-japanese-knowledge-transfer-programme-aftermath-wwii
-
+- [Green (1995) — Arming Japan](/view.html?p=documents/books/green-1995-arming-japan.md) — defence production as industrial policy under an alliance constraint

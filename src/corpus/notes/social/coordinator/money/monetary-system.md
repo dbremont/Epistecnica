@@ -1,5 +1,9 @@
 ---
 tags: [note, unfinished, monetary-system, synontic, coordinator, social-element]
+qa:
+- Money   as Claim on Production.
+- Savings as as Transfer of Consumption Power in Time - Present to Future.
+- Borrowing: As Transsfer of Conmsuption Powe in Time - Future to Present.
 ---
 
 # Monetary System
@@ -71,6 +75,7 @@ Fiscal dominance is generally considered undesirable, as it can lead to inflatio
 
 ## QA
 
+
 ### How to think about the interaction between two monetary areas?
 
 - How to think about currency exchagne value?
@@ -92,3 +97,14 @@ Fiscal dominance is generally considered undesirable, as it can lead to inflatio
 - [Liquidity Trap](https://en.wikipedia.org/wiki/Liquidity_trap)
 - [Monetary System](https://en.wikipedia.org/wiki/Monetary_system)
 - [Fiscal Dominance: How Worried Should We Be?](https://www.mercatus.org/research/policy-briefs/fiscal-dominance-how-worried-should-we-be)
+
+- [Keynes (1943)](/view.html?p=documents/books/keynes-1943-proposals-international-clearing-union.md) — the International Clearing Union and the bancor: symmetric adjustment as the design principle.
+- [Eichengreen (1993)](/view.html?p=documents/papers/eichengreen-1993-payments-mechanism-former-soviet-union.md) — the European Payments Union as a precedent for a post-Soviet payments mechanism.
+- [Debrun, Masson & Pattillo (2010)](/view.html?p=documents/papers/debrun-2010-should-african-monetary-unions-expanded.md) — whether African monetary unions should be expanded, tested against the optimum-currency-area criteria.
+- [Oyadeyi (2024)](/view.html?p=documents/papers/oyadeyi-2024-monetary-integration-west-africa.md) — is West Africa ripe for a monetary union? Convergence, trade and shock symmetry.
+- [Pettifor (2024)](/view.html?p=documents/papers/pettifor-2024-case-african-payments-union.md) — the case for an African payments union rather than a monetary union.
+- [Van Riet (2023)](/view.html?p=documents/papers/van-riet-2023-multilateral-currency-unions-africa-caribbean.md) — currency unions and monetary subordination to an outside hegemon.
+- [Whyman (2015)](/view.html?p=documents/papers/whyman-2015-keynes-international-clearing-union-eurozone.md) — the clearing union as a model for euro-area reform.
+- [Johnson (2023)](/view.html?p=documents/papers/johnson-2023-keynes-clearing-union-eurozone-renminbi.md) — from the clearing union to the euro area and the renminbi.
+- [Mazier & Valdecantos (2019)](/view.html?p=documents/papers/mazier-valdecantos-2019-euro-bancor-stock-flow-consistent.md) — a stock–flow-consistent assessment of a euro-bancor.
+- [UNECA (n.d.)](/view.html?p=documents/papers/uneca-european-american-payments-unions-lessons-africa.md) — European and American payments unions and their lessons for Africa.

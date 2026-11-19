@@ -84,3 +84,4 @@ Status: Not started
 - [List of companies of Taiwan](https://en.wikipedia.org/wiki/List_of_companies_of_Taiwan)
 - [Prof. Robert Wade discusses industrial policy - Rethinking the State](https://www.youtube.com/watch?v=TaxdPb6LZZY)
 - San, Gee, and Patarapong Intarakumnerd, eds. *Industrial development of Taiwan: Past achievement and future challenges beyond 2020*. Routledge, 2021.
+- [Lau (1986) — Models of Development: South Korea and Taiwan](/view.html?p=documents/books/lau-1986-models-development-korea-taiwan.md) — two strategies, one export orientation, 1965–1981

@@ -256,5 +256,5 @@ Lineage: disease attributed to a cause at all → isolation, culture, and Koch's
 - [Plant Genetic Improvement](/view.html?p=notes/technica/general/plant-genetic-improvement.md) (resistance deployment — the genetic route through the control-measure set)
 - [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md) (pathogen populations, isolation-and-inoculation test, Koch's postulates — the knowledge this apparatus produces)
 - [Earth Science](/view.html?p=notes/miscellanea/discipline/earth-science.md) (the climate, weather, and soils that drive infection pressure and the forecast models)
-- [Remote Sensing](/view.html?p=notes/technica/general/industry/remote-sensing.md) (the canopy and stand readings the monitoring set consumes)
+- [Remote Sensing](/view.html?p=notes/technica/production/industry/remote-sensing.md) (the canopy and stand readings the monitoring set consumes)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally: a diagnostic test is technique, the disease is nature)

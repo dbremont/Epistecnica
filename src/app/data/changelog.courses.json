@@ -36,6 +36,11 @@
     "summary": "atlas link follows the atlas into the corpus (courses/atlas.html)",
     "commit": "82e2c8cb0c3dc869e4e829533063e6df52b525fa",
     "before": "09ccee0ff40f20967b8669cc7eff8152ed607b34"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Deep Learning Alchemy as a companion resource."
    }
   ]
  },
@@ -673,6 +678,16 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "Course entry for PSYCH 302 Neuroscience of the Mind with the resource site, the reading of the course as the bridge between neural physiology and cognitive science, and links into the human/cognition corpus."
+   }
+  ]
+ },
+ {
+  "file_path": "15-879-building-serious-system-dynamics-models-from-scratch/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Course added from MIT OCW (Spring 2025, Rahmandad): twelve weeks of archetypes built from scratch - stocks, SIRSb with vaccination, energy-efficiency co-flows, predator-prey, drug pipeline, Ponzi, market growth, endogenous diffusion, field growth - with the reading that the pedagogy is the structure-to-behaviour mapping learned by construction, and co-flows, the Ponzi model and endogenous diffusion singled out as the archetypes carrying more than they appear to."
    }
   ]
  }

@@ -94,7 +94,7 @@ $$\text{sunlight} \;\to\; \text{biomass} \;\to\; \text{carrier} \;\to\; \text{us
 - [Bioenergy](https://en.wikipedia.org/wiki/Bioenergy)
 - [Biomass (energy)](https://en.wikipedia.org/wiki/Biomass_(energy)) · [Biofuel](https://en.wikipedia.org/wiki/Biofuel) · [Biogas](https://en.wikipedia.org/wiki/Biogas)
 - [Energy carrier](/view.html?p=notes/nature/energy-carrier.md) — the concept the carrier forms instantiate
-- [Type of Energy](/view.html?p=notes/nature/type-of-energy.md) — the family of energy quantities
+- [Type of Energy](/view.html?p=notes/nature/property/energy.md) — the family of energy quantities
 - [Energy Transformation](/view.html?p=notes/nature/energy-transformation.md) — the general conversion logic
 - [Chemical Processes](/view.html?p=notes/nature/chemical-processes.md) — the reactions the mechanisms run
 - [Energy](/view.html?p=notes/technica/general/energy.md) — the technical conversion systems, with the biomass and bioenergy row

@@ -6,7 +6,7 @@ tags: [note]
 
 > A structured approach to planning, conducting, and analyzing experiments.
 
-> The design decides which condition is applied to which unit, in what order and how many times. It does not decide how a condition is made to hold: that is the routine's job, and the routines live in the [experimental-method scope](/view.html?p=notes/epistemica/observation/experimental-method.md). The techniques the conditions are applied with are tabulated in [data collection](/corpus/notes/epistemica/observation/organon.html); the dated cases are the [natural-science collection](/corpus/notes/epistemica/observation/experiment.csv).
+> The design decides which condition is applied to which unit, in what order and how many times. It does not decide how a condition is made to hold: that is the routine's job, and the routines live in the [experimental-method scope](/view.html?p=notes/epistemica/observation/experimental-method.md). The techniques the conditions are applied with are tabulated in [data collection](/corpus/notes/epistemica/observation/organon.html); the dated cases are the [natural-science collection](/corpus/notes/epistemica/observation/experiment/).
 
 ## References
 

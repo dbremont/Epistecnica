@@ -12,3 +12,5 @@ tags: [note, actor, person, philosophy, political-philosophy]
 - [Al-Farabi](https://en.wikipedia.org/wiki/Al-Farabi)
 - [Al-Fārābī](https://plato.stanford.edu/entries/al-farabi/)
 - [al-Farabi’s Psychology and Epistemology](https://plato.stanford.edu/archives/sum2020/entries/al-farabi-psych/)
+- [Orwin (2015) — Democracy under the Caliphs](/view.html?p=documents/papers/orwin-2015-democracy-under-the-caliphs.md) — his unusual reading of popular rule and the regime typology
+- [Al-Fārābī — On the Perfect State (Walzer, ed. & trans.)](/view.html?p=documents/books/farabi-walzer-1985-on-the-perfect-state.md) — the critical Arabic text with facing translation: the primary source for the Virtuous City

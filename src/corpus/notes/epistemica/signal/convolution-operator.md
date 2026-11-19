@@ -63,6 +63,7 @@ Observations:
 
 ## References
 
+- [Convolution](https://en.wikipedia.org/wiki/Convolution) — the general binary operation on functions; this note develops its operator reading for linear shift-invariant systems.
 - Functional Analysis
 [https://nptel.ac.in/courses/111105037](https://nptel.ac.in/courses/111105037)
 - [Functional analysis](https://en.wikipedia.org/wiki/Functional_analysis)

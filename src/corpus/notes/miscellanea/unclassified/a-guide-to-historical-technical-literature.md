@@ -368,6 +368,7 @@ tags: [note, technology, engineering, historical-technique, bibliography]
 |---|---|---:|---|
 | David Kirkaldy | [*Result of an Experimental Inquiry into the Tensile Strength of Wrought Iron and Steel*](/view.html?p=documents/books/kirkaldy-1863-tensile-strength-wrought-iron-steel.md) | 1863 | The strength tables put on the footing of experiment — the testing house |
 | Bernard Forest de Bélidor | [*Architecture Hydraulique*](/view.html?p=documents/books/belidor-1737-architecture-hydraulique.md) | 1737–53 | Hydraulic engineering |
+| J. F. d'Aubuisson de Voisins | [*Traité d'hydraulique, à l'usage des ingénieurs*](/view.html?p=documents/books/aubuisson-de-voisins-1840-traite-hydraulique.md) | 1840 | Hydraulic engineering — flow in channels and pipes, discharge measurement, water-raising machinery, canals and supply |
 | Thomas Tredgold | [*A Practical Essay on the Strength of Cast Iron and Other Metals*](/view.html?p=documents/books/tredgold-1822-practical-essay-strength-cast-iron.md) | 1822 | Structural materials |
 | Thomas Tredgold | [*Elementary Principles of Carpentry*](/view.html?p=documents/books/tredgold-1820-elementary-principles-carpentry.md) | 1820 | Structural construction |
 | William J. M. Rankine | [*A Manual of Applied Mechanics*](/view.html?p=documents/books/rankine-1858-manual-of-applied-mechanics.md) | 1858 | Applied mechanics |

@@ -11,6 +11,15 @@ QA:
 
 - Which environmental conditions are necessary for the growth and prosperity of bacteria X?
 
+## QA
+
+- How a bacteria be present trougth the soil?
+- How to reason about the growth of bacteria?
+- but how can they be trasnportation througth the plat systems to the fuit themselves?
+
+
+
+
 ## References
 
 - https://en.wikipedia.org/wiki/Bacteria
@@ -24,11 +33,5 @@ QA:
 - https://genome.jgi.doe.gov/portal/
 - https://bacdive.dsmz.de/
 - https://en.wikipedia.org/wiki/Microaerophile
-
-## Related
-
 - [Leptospira](/view.html?p=notes/nature/life/organism/bacteria/leptospira.md)
-
-## Provenance
-
-- Notion export: `Modelo/Nature/Conceptual Model Natural System/Bacteria 1a1c0f5171ec8035ac82fda7262b73ca.md`
+- https://en.wikipedia.org/wiki/Vascular_tissue

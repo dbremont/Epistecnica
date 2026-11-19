@@ -281,3 +281,5 @@ Here’s a comparison between "Rich Economies" and "Developed Economies":
 - Reinert, Erik S. *How rich countries got rich... and why poor countries stay poor*. Hachette UK, 2019.
 - [Do poor countries need a new development strategy?](https://www.noahpinion.blog/p/do-poor-countries-need-a-new-development?utm_source=profile&utm_medium=reader2)
 - ….
+- [Clower et al. (1966) — Growth without Development: Liberia](/view.html?p=documents/books/clower-etal-1966-growth-without-development-liberia.md) — the enclave diagnostic the phrase names
+- [Lau (1986) — Models of Development: South Korea and Taiwan](/view.html?p=documents/books/lau-1986-models-development-korea-taiwan.md) — two strategies, one export orientation, 1965–1981

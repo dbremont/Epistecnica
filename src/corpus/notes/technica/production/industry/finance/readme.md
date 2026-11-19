@@ -464,3 +464,8 @@ Ontic - Epistemic Category:
 - [Over-the-counter](https://en.wikipedia.org/wiki/Over-the-counter_(finance))
 - [Financial Market](https://en.wikipedia.org/wiki/Financial_market)
 - [Finance](https://en.wikipedia.org/wiki/Finance)
+
+- [Gorton (2008)](/view.html?p=documents/papers/gorton-2008-panic-2007.md) — the Panic of 2007 as a run on the shadow banking system.
+- [Coval, Jurek & Stafford (2009)](/view.html?p=documents/papers/coval-2009-economics-structured-finance.md) — the economics of structured finance: tranching, ratings, and correlation risk.
+- [Brunnermeier, Gorton & Krishnamurthy (2012)](/view.html?p=documents/papers/brunnermeier-2012-risk-topography.md) — risk topography: what a systemic-risk regulator would need to measure.
+- [Adrian & Shin (2009)](/view.html?p=documents/papers/adrian-shin-2009-shadow-banking-system.md) — leverage, maturity mismatch, and the regulatory implications of shadow banking.

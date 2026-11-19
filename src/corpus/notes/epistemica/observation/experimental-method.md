@@ -15,7 +15,7 @@ order: 0
 
 > The method scope of experimental science: the routines by which a system is made to yield observations, gathered as one catalogue and filed by **what the routine does to the system** — impose a state, remove a part, read a state without imposing one, or prepare the system so that any of the three can be done at all.
 
-> The corpus divides the work along this boundary. The material side stays in [data collection](/corpus/notes/epistemica/observation/organon.html): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/observation/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/observation/experiment.csv). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
+> The corpus divides the work along this boundary. The material side stays in [data collection](/corpus/notes/epistemica/observation/organon.html): the inventory of collection techniques, the [allocation of conditions](/view.html?p=notes/epistemica/observation/experimental-design.md), and the [dated cases](/corpus/notes/epistemica/observation/experiment/). The identification reading — what an intervention licenses you to conclude — stays in the [causality scope](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md), with the randomized trial and the do-calculus. What is left, and what this scope holds, is the routine itself: the means by which a condition is made to hold, independently of who runs it and on what.
 
 > A method prescribes acts and never contains them. The bearer of a method is an activity — one run, one session, one campaign — and the acts are recorded on the activity's node, not on the method's. That is why one method appears under many activities, and why an experiment is not a method: the *Michelson–Morley experiment* is a dated activity, *interferometry* is the routine it applied.
 
@@ -35,7 +35,7 @@ order: 0
 
 > Against an **instrument**: the microscope, the laser and the electrode are `Epistemic Tool`s, carried under the infrastructure lane. The method is the order of acts that works through them; changing the instrument does not change the method, changing the order of acts does.
 
-> Against a **case**: an experiment is a dated instance with its own history, accident and interpretation. The corpus keeps those separately, in the [natural-science collection](/corpus/notes/epistemica/observation/experiment.csv), and this scope keeps what recurs across them.
+> Against a **case**: an experiment is a dated instance with its own history, accident and interpretation. The corpus keeps those separately, in the [natural-science collection](/corpus/notes/epistemica/observation/experiment/), and this scope keeps what recurs across them.
 
 > Against a **principle**: a principle directs inquiry without prescribing an order of acts — *strong inference* says to devise alternative hypotheses and kill them, while the control condition that makes the killing possible is a standard of the method. The [principle scope](/view.html?p=notes/epistemica/epistemic/guidance/principle.md) owns the directives; this scope owns the routines that satisfy them.
 
@@ -120,7 +120,7 @@ order: 0
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Data Collection](/corpus/notes/epistemica/observation/organon.html) — the inventory of collection techniques this scope's routines produce material for.
 - [Experimental Design](/view.html?p=notes/epistemica/observation/experimental-design.md) — the allocation of conditions, which this scope does not own.
-- [Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/observation/experiment.csv) — the dated cases the routines recur across.
+- [Natural Science: Data Collection & Experimentation](/corpus/notes/epistemica/observation/experiment/) — the dated cases the routines recur across.
 - [Randomized Controlled Trial (RCT)](/view.html?p=notes/epistemica/causality/randomized-controlled-trial-rct.md) and [Do-Calculus](/view.html?p=notes/epistemica/causality/do-calculus.md) — the identification reading of an intervention.
 - [Biological Sciences](/view.html?p=notes/miscellanea/discipline/biological-sciences.md) — the practice that carries most of these routines.
 - Hacking, I. (1983). *Representing and Intervening: Introductory Topics in the Philosophy of Natural Science*. Cambridge University Press.

@@ -170,3 +170,4 @@ tags: [note, interaction-action-actuator]
 - [ ]  https://github.com/continuedev/continue
 - [ ]  [https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode](https://code.visualstudio.com/blogs/2025/02/24/introducing-copilot-agent-mode)
 - [ ]  https://python.langchain.com/docs/concepts/tool_calling/
+- [Fu et al. (2026) — Cache-to-Cache: semantic communication between LLMs](/view.html?p=documents/papers/cache-to-cache-2025.md) — the interface as the bottleneck: KV-cache transfer instead of text

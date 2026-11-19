@@ -20,3 +20,4 @@ States-General resolutions, VOC and WIC archives, Holland's council records, and
 ## References
 
 - [Dutch Republic](https://en.wikipedia.org/wiki/Dutch_Republic)
+- [Anglo-Dutch wars — Wikipedia](https://en.wikipedia.org/wiki/Anglo-Dutch_wars) — the three seventeenth-century naval wars over trade and colonies

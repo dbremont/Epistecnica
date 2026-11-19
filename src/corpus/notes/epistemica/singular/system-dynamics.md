@@ -169,3 +169,4 @@ Analysis & Policy Design
 - https://www.youtube.com/watch?v=XL_lOoomRTA&t=1348s
 - https://www.youtube.com/watch?v=G1mVnqdlpvo
 - https://www.youtube.com/watch?v=ddmygPTRjc0
+- [15.879 Building Serious System Dynamics Models from Scratch](/view.html?p=courses/15-879-building-serious-system-dynamics-models-from-scratch/readme.md) — twelve archetypes built from scratch, one per week

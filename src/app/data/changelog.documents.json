@@ -15373,6 +15373,11 @@
     "kind": "feat",
     "summary": "add Baumgarten, Deleuze, Korzybski books",
     "commit": "831ab27ca32cfe47ea5c7054011c169a6bc50cec"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The empty Notes section is filled: the forces reading, the anti-dialectic argument (difference as affirmative rather than the negation of the other), and the eternal return as a selective test, with the corpus's use of the book as a source against negation as an explanatory primitive."
    }
   ]
  },
@@ -20864,6 +20869,11 @@
     "kind": "feat",
     "summary": "courses, documents, personas surfaces with tags plus universal search",
     "commit": "a397f68aafcb779cd3d6d9576b455ffc8f84ab4b"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Stub entry completed: corrected to Landau & Rosenberg as editors with the full imprint and ISBN, added the positive-sum thesis (technology as the source of non-zero-sum growth), the anti-mercantilist reading against the 1980s competitiveness panic, the Ralph Landau / Lev Landau distinction, and the archive scan."
    }
   ]
  },
@@ -33073,6 +33083,11 @@
     "kind": "feat",
     "summary": "Add d'Aubuisson de Voisins, Trait\u00e9 de m\u00e9tallurgie (1827) \u2014 the French systematic treatise; honest no-scan note.",
     "commit": "cafd362d4e16ad24d215f391999e0f2640099704"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Cross-link to the same author s 1840 Traite d hydraulique added."
    }
   ]
  },
@@ -38118,6 +38133,11 @@
     "kind": "feat",
     "summary": "Entry created for Liu, Johnson, Jansone-Popova and Jiang (2022), JACS Au 2(6):1428-1434, doi 10.1021/jacsau.2c00122. the paper that made the later automated work possible: a deep-learning model that predicts solvent-extraction distribution coefficients for lanthanides from a ligand's structure, replacing trial-and-error ligand discovery with a regression over a representation. The note records the dataset (1202 D values, 109 ligands, more than 60 entries per Ln(III), log D spanning -4 to +4, 117 points held out for validation), the representation that is the method's contribution (physicochemical descriptors plus extended-connectivity fingerprints plus the extraction conditions, 2291 inputs per output), the fully connected networks in PyTorch with the best configuration and its scores (training R2 0.92, RMSE 0.40, MAE 0.19; validation R2 0.85, RMSE 0.53, MAE 0.34, about 0.5 in log D), and the prospective test on four newly synthesised DGA ligands (predicted versus measured R2 0.78-0.92, per-ligand MAE 0.21/0.41/0.38/0.22). Two limits are kept: errors concentrate on ligands with rare groups such as -SR that the training set barely covers, and the pooled literature conditions mean the model learns the literature as much as the chemistry. Links the Separation Science and Technology domain, Rare Earth, Rare Earth Elements and Chemical Engineering.",
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Removed the dead Rare Earth link; the surviving Rare Earth Elements link points at the note that exists."
    }
   ]
  },
@@ -38129,6 +38149,11 @@
     "kind": "feat",
     "summary": "Entry created for Augustine et al. (2024), ACS Sustainable Chem. Eng. 12(45):16692-16699, doi 10.1021/acssuschemeng.4c06166. Bayesian Optimization driving the LANL Super Separator, a custom robotics platform for actinide campaigns that automates most steps of liquid-liquid extraction, chromatography, crystallization and (co)precipitation. The note gives the chemistry (Th(IV) from aqueous HNO3 into 20 v% TBP/n-dodecane with DEHBA as extractant, four variables varied at once, distribution ratio as response) and the result: 339 distribution-ratio measurements over 113 unique conditions, against an estimated 1296 measurements for a complete characterization of the same space, an estimated 74% saving. It also keeps the number honest \u2014 the baseline is the authors' estimate of a full grid, not a measured screening campaign \u2014 and separates the equilibrium quantity measured from the process it feeds. Notes the safety reading (fewer actinide experiments, less dose and waste) and the deposit in the Separation Archive for f-elements (SAFE). Links the domain note and the two rare-earth material notes.",
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Removed the dead Rare Earth link; the surviving Rare Earth Elements link points at the note that exists."
    }
   ]
  },
@@ -38140,6 +38165,11 @@
     "kind": "feat",
     "summary": "Entry created for Augustine et al. (2026), JACS 148(38):40676-40687, doi 10.1021/jacs.6c04301. the companion study that moves selectivity into the aqueous phase: database screening, DFT and initial experiments identified oxaloacetic acid as a holdback agent, paired with HDEHP (D2EHPA) as extractant, over a four-dimensional matrix of pH, extractant concentration, holdback concentration and salt concentration, explored with automated high-throughput experiments under multi-objective Bayesian Optimization. The note records the result as a selectivity switch rather than a yield knob: Eu, Dy and Ho extracted selectively over Nd at pH about 2.0, the selectivity shifting at pH about 0.5 so that Eu separates from Dy and Ho, with a 4-fold increase in separation factors over the HDEHP-only system and no exhaustive grid. Keeps what it does not show: four elements, one holdback/extractant pair, bench scale, separation factors rather than purities, and an abstract-level source. Links the preceding 2024 paper and the domain note.",
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Removed the dead Rare Earth link; the surviving Rare Earth Elements link points at the note that exists."
    }
   ]
  },
@@ -38151,6 +38181,11 @@
     "kind": "feat",
     "summary": "Entry created for Zhang et al. (2026), JACS 148(5):5520-5532, doi 10.1021/jacs.5c19738, epub 2026-01-28. the quasi-autonomous workflow that generates the extractant rather than optimizing a chosen one: SAFE-MolGen, a large-language-model agentic system proposing ligands from curated extraction data and ranking them with a supervised model trained on experimental data that accounts for realistic conditions; a human approval gate; then an automated pipeline that builds 3D metal-ligand complexes and runs quantum-mechanical free-energy calculations to adjudicate metal selectivity. The note reads the architecture as the argument \u2014 the LLM is a generator, the free-energy calculation is what judges \u2014 and records the demonstration for Am(III)/Eu(III) with several new ligands predicted to beat CyMe4BTBP. States plainly that the abstract reports predictions from screening and free-energy calculation, not synthesised-and-measured separations. Closes by placing the four papers as successive moves of the discovery bottleneck: predicting a distribution coefficient, optimizing conditions for a chosen system, and generating the molecule itself.",
     "commit": "dd2281da16ee6faf28e871b10d7abd15e3dd7290"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Removed the dead Rare Earth link; the surviving Rare Earth Elements link points at the note that exists."
    }
   ]
  },
@@ -38982,6 +39017,656 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "Entry created for Anstett-Collin, Denis-Vidal and Millerioux's 2020 overview of a priori identifiability, with citation and bibtex. Read for the terminological work (global vs local, structural vs practical, parameters vs functions of them) and the mapping of approaches to model classes (differential algebra, generating series, linearisation); closes on the fibre consequence - a calibrated value is a representative of a set, not a measurement, and the gauge convention is part of the report."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/heinecke-2016-polish-public-science-system.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Heinecke's 2016 historical-institutionalist study of the Polish public science system, with citation, bibtex and DOI. Read for the finding that the science system changed stepwise and late while the economy took shock therapy, and that the three research-performing sectors diverged (academy reproduced, applied units dismantled or displaced, higher education expanded by layering); notes that the evidence is macro-statistical and the period predates the 2010 and 2017 reforms."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/weresa-2004-can-fdi-help-poland-catch-up-with-the-eu.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Weresa's 2004 FDI catch-up study, with citation, bibtex and DOI: FDI correlated with innovation effort across Polish industry except in low-technology branches, so the catch-up works where absorptive capacity exists; paired with Domanski & Gwosdz as the aggregate and the firm-level views of the same limit."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/domanski-gwosdz-2009-embedded-production-system-automotive-poland.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Domanski & Gwosdz's 2009 automotive supply-network study, with citation, bibtex and DOI: the 550-supplier survey, the asymmetric upgrading table (quality/cost/adaptability strong, R&D and design weak), localized capabilities as sunk costs that embed the system, and the semi-peripheral ceiling the same FDI imposes."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/kozuch-instruments-of-industrial-policy-restructuring.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for Kozuch's instruments-of-industrial-policy item, with an explicit bibliographic caveat: venue and year unverified, most likely a collective-volume chapter, with the verified 1997 fiscal-instruments article recorded as the sibling. The note reads the item as the Polish-language record of the transformation's instrument set."
+   }
+  ]
+ },
+ {
+  "file_path": "books/oecd-industrial-policy-of-poland-transformation-period.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Entry created for the Ministry of Economy chapter in the OECD collection, with the volume year flagged as unverified. Read as the policy's self-description - diagnosis, instruments, assumptions about the future - whose gap with the statistical record is the object the academic literature argues about."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/gala-nicolini-2026-natural-resources-trap.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Gala & Nicolini Gabriel's 2026 natural-resources-trap paper, with citation, bibtex and DOI: global integration can destroy productive capabilities, the boom pulling labour and capital out of manufacturing and the lost capability not returning; read against the cross-sectoral synergies essay as the mechanism by which integration moves an economy away from its technical overlap."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/orwin-2015-democracy-under-the-caliphs.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Orwin's 2015 paper on Alfarabi's democracy, with citation, bibtex and DOI: the regime type defined by freedom and opinion rather than virtue, why it occupies its place in the taxonomy, and the esoteric-reading question about what kind of book the Virtuous City is."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/reichlin-2026-modernising-european-finance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Reichlin's CEPR Europe 2050 paper on modernising European finance, with citation, bibtex and URL: the plumbing (capital-market integration, common supervision, the savings-and-investment union) and the political obstacle of transferred authority, read as the finance-side counterpart of industrial policy."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/yuasa-2025-policy-implementation-evaluation-japan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Yuasa's 2025 paper on policy implementation and evaluation in Japan, with the CiNii record: the gap between the evaluation system and implementation practice, and what public-administration research can contribute; paired with the Japan research-actors map and the incorporated administrative agency form."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/rooney-murthy-2024-management-social-order-ancient-india.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Rooney & Murthy's Business History paper on management and social order in ancient India, with citation, bibtex and DOI. The entry records the subject rather than findings (abstract not retrievable, stated as a gap): the guild as economic aggregation form, the Arthashastra as administrative manual, and the social order as a coordination device - set beside the gana-sangha polity notes as the economic side of the same aggregation technology."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/emergent-models-2026-intelligence-tiny-substrates.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the 2026 Emergent Models paper, with the arXiv identifier: the substrate architecture (simple local rule, adaptive iteration, interface to the task), evolutionary training rather than gradient descent, the hypothesis stated as a hypothesis, and the reading of the CA-as-learner as the computational claim turned into a learning paradigm."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/k-server-conjecture-2026.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the 2026 proof of the k-server conjecture, with the problem, competitive ratio as the measure, the 1990 conjecture and the work function algorithm's 2k-1 bound, the matrix representation of the work function as the method, and the caveat that a preprint of this weight needs scrutiny."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/ternary-llm-1-58-bit-2026.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the 2026 ternary-LLM compression paper: the log2(3) entropy floor, the five-trit packing and the 1.625-bit rounding of deployed formats, the paper's claim to go below the floor by dropping the independence/uniformity assumption, and the note that the abstract states the direction rather than the full method."
+   }
+  ]
+ },
+ {
+  "file_path": "books/lindgren-1919-mineral-deposits.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Lindgren's Mineral Deposits (1919) with the archive scan: the genetic classification that fixed the classes into which a new find is placed (magmatic, pegmatitic, contact-metamorphic, hydrothermal, sedimentary, residual, secondary enrichment), the exploration consequences of the classification, and the magmatic-hydrothermal debate the book records."
+   }
+  ]
+ },
+ {
+  "file_path": "books/kuzvart-bohmer-1978-prospecting-exploration-mineral-deposits.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Kuzvart & Bohmer's exploration manual (Elsevier 1978) with the archive scan: the staged sequence prospecting to exploration to evaluation, the reserve classification, and the decision logic of killing a project cheaply at each stage."
+   }
+  ]
+ },
+ {
+  "file_path": "books/solovov-1987-geochemical-prospecting.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Solovov's Geochemical Prospecting (Mir 1987) with the archive scan: the dispersion halo and the three media (lithochemical, hydrochemical, biogeochemical), the operational content (sampling density, indicator elements, threshold and background) and the ways an anomaly misleads."
+   }
+  ]
+ },
+ {
+  "file_path": "books/lamb-hydrodynamics.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Lamb's Hydrodynamics (6th ed. 1932, Dover reprint 1945) with the archive scan: the structure of the treatise (irrotational flow and complex methods, wave motion, vortices, viscous fluid as the difficult case) and its place as the analytical counterpart of CFD - the reference solution a numerical method is validated against."
+   }
+  ]
+ },
+ {
+  "file_path": "books/glover-lagai-1959-development-american-industries.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Glover & Lagai's edited volume on American industry (1959) with the archive scan: the industry-as-unit method with uniform questions across chapters, the value as a mid-century comparative baseline for the corpus's industry profiles, and the limits of the genre (descriptive, celebratory, thin on failure and labour)."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/kolvani-nistotskaya-2025-meritocratic-recruitment.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Kolvani & Nistotskaya's paper on meritocratic recruitment, with the two-mechanism table (competence and impartiality, with their failure modes), the methodological consequence that standard indices conflate them, and the warning about institutional naming."
+   }
+  ]
+ },
+ {
+  "file_path": "books/farabi-walzer-1985-on-the-perfect-state.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Walzer's edition of the Virtuous City with the archive scan: the critical Arabic text with facing translation and commentary, the emanationist cosmology and the city as its political analogue, the philosopher-prophet-Imam and religion as the symbolic presentation of philosophy, and the bibliographic correction that the archive's 0950 date is the composition, not the 1985 edition."
+   }
+  ]
+ },
+ {
+  "file_path": "books/cyert-mowery-1988-impact-technological-change-employment-growth.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the National Academies volume on technology and employment: the compensation argument through price, wage and demand channels, why the lump-of-labour framing fails, the shift to composition and skill demand, and the commissioned-panel provenance."
+   }
+  ]
+ },
+ {
+  "file_path": "books/von-tunzelmann-1995-technology-industrial-progress.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for von Tunzelmann's survey: technology as cause or symptom of industrial progress, the theoretical positions set side by side and tested against the record of the industrialising nations, and the book's value as a map of the evidence rather than a thesis."
+   }
+  ]
+ },
+ {
+  "file_path": "books/clower-etal-1966-growth-without-development-liberia.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the Liberia survey that named the diagnostic: growth and structural transformation as different variables, the enclave mechanism (foreign capital, imported inputs, repatriated profits, narrow wage bill), and the survey method that measures enclave and hinterland separately."
+   }
+  ]
+ },
+ {
+  "file_path": "books/lau-1986-models-development-korea-taiwan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the Korea/Taiwan comparison: Myers on Taiwan, Kwack on Korea, Scitovsky comparing; the controlled design holding period and external environment constant, the chaebol-versus-SME contrast, and the survivorship and small-N limits."
+   }
+  ]
+ },
+ {
+  "file_path": "books/guha-1981-evolutionary-view-economic-growth.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Guha's evolutionary view: growth as organic evolution continued, societal selection as the unit, and the book's value as a hypothesis the institutional notes can test rather than a result to absorb."
+   }
+  ]
+ },
+ {
+  "file_path": "books/rosenbloom-spencer-1996-engines-of-innovation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for the volume on the end of the corporate central research lab: the rise and dissolution of the institution, the coupling problem that undid it, and its role as the historical explanation for why dormant capability became rarer after the 1990s."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/cache-to-cache-2025.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Cache-to-Cache (ICLR 2026): the interface as the bottleneck in multi-LLM systems, the oracle evidence that KV-cache semantics can be enriched without enlarging the cache, the projection-and-gate design, the accuracy and latency results against text communication, and the structural caveat that the projection is learned per model pair rather than being a protocol."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/mopd-2026.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for MOPD: the four failed routes to capability integration (off-policy finetune, Mix-RL, cascade RL, parameter merging) tabulated with their specific failure, the multi-teacher on-policy distillation route as the DAgger fix applied per domain, and the structural consequence that capability development becomes parallel and modular."
+   }
+  ]
+ },
+ {
+  "file_path": "books/green-1995-arming-japan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry created for Green's Arming Japan with the archive scan: the autonomy problem (licensed production versus indigenous development, with FSX as the worked case), the 1954 settlement that folded defence work into commercial firms, the export ban and the small-batch high-cost base it produces, and the book as the clearest case of defence production as industrial policy under a strategic constraint."
+   }
+  ]
+ },
+ {
+  "file_path": "books/berliner-1957-factory-manager-ussr-harvard.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Berliner's Factory and Manager in the USSR: the enterprise as an organisation, target bargaining and the ratchet, input hoarding and the tolkach, reporting practice, and resistance to innovation - with the argument that these behaviours are the incentive structure working as designed."
+   }
+  ]
+ },
+ {
+  "file_path": "books/kornai-1980-economics-shortage-north-holland.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kornai's Economics of Shortage: the shortage economy, the soft budget constraint, the quantity drive, investment hunger and paternalism, and the distinction between a planned economy and a shortage economy."
+   }
+  ]
+ },
+ {
+  "file_path": "books/kornai-1982-growth-shortage-efficiency-california.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kornai's Growth, Shortage and Efficiency: the macro model that derives growth, shortage and efficiency jointly from the institutional rules, and the methodological point that no irrational planner is required."
+   }
+  ]
+ },
+ {
+  "file_path": "books/kornai-1992-socialist-system-princeton.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kornai's The Socialist System: the affinity between party rule, state ownership, soft budgets and shortage, the comparative framing against capitalism, and the reform dilemma that partial marketisation produces."
+   }
+  ]
+ },
+ {
+  "file_path": "books/nove-1977-soviet-economic-system-allen-unwin.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Nove's The Soviet Economic System: the descriptive baseline - Gosplan and the ministries, the enterprise and its bonus, agriculture and the private plot, investment and the Kosygin reforms."
+   }
+  ]
+ },
+ {
+  "file_path": "books/zaleski-1980-stalinist-planning-economic-growth-unc.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Zaleski's Stalinist Planning: the reconstruction of what the plans actually said, the moving target of repeated revision, and why plan-as-instrument and plan-as-benchmark pull the growth record apart."
+   }
+  ]
+ },
+ {
+  "file_path": "books/zickel-1991-soviet-union-country-study-library-congress.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for the Library of Congress country study: the standard reference volume for dates, institutions and the structure of the ministries, with the economy chapters as the useful entry point."
+   }
+  ]
+ },
+ {
+  "file_path": "articles/grossman-1977-second-economy-ussr.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Grossman's The Second Economy of the USSR: the definition (private gain, knowingly illegal in some substantial respect, or both), the complementarity with the shortage economy, and the corrosion thesis - with a caveat recording that the requested 1989 Kaser volume attribution could not be verified and the 1977 Problems of Communism article is the verified text."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/harrison-1998-prices-planners-producers-agency-problem.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Harrison's agency-problem paper: planner and enterprise as principal and agent, administered prices that carry no scarcity signal, and the argument that the problem is structural and present from the first five-year plans."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/harrison-1998-trends-soviet-labour-productivity.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Harrison's labour-productivity series: the three regimes (pre-war build-up, war shock, postwar recovery and slowdown) and the transition from reallocation to technical change as the growth source."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/harrison-2005-soviet-quasi-market-inventions-jet-propulsion.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Harrison's jet-propulsion study: the quasi-market for inventions (rival bureaus, patronage as currency, spectacle over reliability), the prototype-to-production bottleneck, and a caveat that the volume and DOI place the article in 2005 rather than the requested 2004."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/kim-shida-2017-shortages-informal-economy-soviet-republics.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kim and Shida's survey-based estimate of the second economy across the Soviet republics, 1965-89: regional variation in informal absorption of shortage and its link to the union's political economy; citation corrected to 70(4), 1346-1374."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/kukic-2024-technical-change-postwar-slowdown-soviet-growth.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kukic's long-run growth accounting, 1885-2019: the slowdown as a technical-change failure rather than a savings or labour failure, with the imperial, Soviet and post-Soviet regimes compared."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/krugman-1979-model-innovation-technology-transfer.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Krugman's innovation-and-transfer model: the North-South product cycle, the steady state as a rate of innovation rather than a stock of technology, and the trade-theoretic form of the Soviet diffusion failure."
+   }
+  ]
+ },
+ {
+  "file_path": "books/macinnes-2007-union-empire-making-united-kingdom-1707.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Macinnes, Union and Empire: the 1707 union as an imperial project, against the background of Darien, the 1690s famine and the bargain over colonial market access."
+   }
+  ]
+ },
+ {
+  "file_path": "books/cullen-1968-anglo-irish-trade-1660-1800.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Cullen, Anglo-Irish Trade 1660-1800: the composition of the trade across the Cattle Acts, the Navigation Acts, the linen preference and the partial free trade of 1779-80, with the argument that restriction redirected rather than suppressed Irish trade."
+   }
+  ]
+ },
+ {
+  "file_path": "books/keynes-1943-proposals-international-clearing-union.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Keynes, Proposals for an International Clearing Union (Cmd. 6437): the bancor, multilateral clearing, symmetric adjustment, and the plan s rejection at Bretton Woods."
+   }
+  ]
+ },
+ {
+  "file_path": "books/aubuisson-de-voisins-1840-traite-hydraulique.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Aubuisson de Voisins, Traite d hydraulique (Paris, 1840, xii + 646 pp., IX plates): the engineer s manual of pre-mid-century French hydraulics, from channel and pipe flow to discharge measurement and water-raising machinery."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/kaps-2018-cores-peripheries-reconsidered-habsburg.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Kaps 2018 (Hungarian Historical Review 7(2), 191-221): the eighteenth-century Habsburg core-periphery division of labour reconstructed from trade, with the cultural images that naturalised it; records that the requested title was a section heading, not the article title."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/pichler-2001-economic-policy-austrian-lombardy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Pichler 2001 (Modern Italy 6(1), 35-58): Austrian economic policy in Lombardy 1815-1859, and growth inside and limited by the imperial frame."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/jeremy-1977-damming-flood-british-technicians-machinery.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Jeremy 1977 (Business History Review 51(1), 1-34): the British prohibition on machinery exports and artisan emigration, its enforcement, its leakage, and its repeal in 1843."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/uusipaikka-2008-what-did-fisher-mean-estimate.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Uusipaikka, What Did Fisher Mean by An Estimate? (arXiv:0807.3397): Fisher s maximum likelihood read as a procedure for likelihood intervals rather than point estimation."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/fisher-1922-mathematical-foundations-theoretical-statistics.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Fisher 1922 (Philosophical Transactions A 222, 309-368): consistency, efficiency, sufficiency and maximum likelihood, and the information bound that founded theoretical statistics."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/debrun-2010-should-african-monetary-unions-expanded.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Debrun, Masson & Pattillo (IMF WP/10/157): the optimum-currency-area test of whether African monetary unions should be expanded."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/eichengreen-1993-payments-mechanism-former-soviet-union.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Eichengreen (CEPR DP 824): the European Payments Union as a partial precedent for a post-Soviet payments mechanism, and the political conditions the precedent requires."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/oyadeyi-2024-monetary-integration-west-africa.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Oyadeyi 2024 (SAGE Open 14(2)): convergence, trade and shock symmetry in West Africa, and the verdict that the region is not yet ripe for a monetary union."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/pettifor-2024-case-african-payments-union.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Pettifor 2024 (Carnegie): the case for an African payments union rather than a monetary union, drawing the double lesson from the EPU and the euro."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/van-riet-2023-multilateral-currency-unions-africa-caribbean.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Van Riet 2023 (UNU-CRIS): currency unions in Africa and the Caribbean and the monetary subordination that an external anchor imposes."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/whyman-2015-keynes-international-clearing-union-eurozone.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Whyman (JCMS 53(2), 399-415): the clearing union adapted to euro-area reform, with the exchange-rate instrument unavailable and the adjustment made fiscal."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/johnson-2023-keynes-clearing-union-eurozone-renminbi.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Johnson 2023: the clearing-union idea from Keynes to the euro area and the renminbi; corrects the venue to the Journal of Economics Library 9(4), 198-214, not the AEA Journal of Economic Literature."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/mazier-valdecantos-2019-euro-bancor-stock-flow-consistent.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Mazier & Valdecantos (EJEEP 16(1), 8-26): a stock-flow-consistent assessment of a euro-bancor, with the result depending on the clearing rules; authors added from the record."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/uneca-european-american-payments-unions-lessons-africa.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for the UNECA document E/CN.14/400 on European and American payments unions and their lessons for Africa, kept at the archive s n.d. rather than assigned a year."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/gorton-2008-panic-2007.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Gorton (NBER WP 14358): the Panic of 2007 as a run on the shadow banking system, with the information problem and the liquidity remedy."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/coval-2009-economics-structured-finance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Coval, Jurek & Stafford (JEP 23(1), 3-25): tranching, model-based ratings, and the correlation risk that made the senior tranches fail in a common shock."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/brunnermeier-2012-risk-topography.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Brunnermeier, Gorton & Krishnamurthy (NBER Macro Annual 26(1), 149-176): the data a systemic-risk regulator would need \u2014 sectoral balance sheets, collateral chains, concentration and liquidation prices."
+   }
+  ]
+ },
+ {
+  "file_path": "papers/adrian-shin-2009-shadow-banking-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Entry for Adrian & Shin (FRBNY Staff Report 382): leverage and maturity mismatch outside regulated banking, the procyclical balance sheet, and the regulatory implication."
    }
   ]
  }

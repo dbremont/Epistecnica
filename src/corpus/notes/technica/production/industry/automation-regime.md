@@ -34,3 +34,4 @@ tags: [note, automation, regime]
 
 - Produceologia `docs/Breviarium/Technique/Regime/Automation.md`
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- [Control System](/view.html?p=notes/technica/cybernetics/control-system.md) — the loop, PID, and the SCADA supervisory layer above it

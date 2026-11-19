@@ -17,7 +17,13 @@ tags: [document, philosophy]
 
 ## Notes
 
----
+> Deleuze's reading made Nietzsche a philosopher of **forces** rather than of values. The world is a play of forces; each force is either **active** (it expands, it affirms) or **reactive** (it responds, it resents); and the question to ask of any phenomenon is not what it means but **which force possesses it**. Meaning is a symptom of the force that holds the thing.
+
+> The book's central argument is against **dialectics**. Nietzsche's rejection of negation is not a stylistic preference but a philosophical position: difference is affirmative, not the negation of the other, and a philosophy that begins from contradiction has already conceded that the negative is productive. That is why Deleuze reads the **eternal return** as a *selective* test rather than a cosmological claim — what returns is only what can be affirmed, so the doctrine functions as an ethic of affirmation.
+
+> The corpus cites the book where it treats negation as an explanatory primitive it distrusts — in the concept note and the social-ontology note — and that is the sense in which it is a source rather than a commentary: it supplies an alternative to the dialectical grammar of explanation.
+
+## References
 
 ## References
 

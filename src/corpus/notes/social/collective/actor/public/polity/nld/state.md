@@ -193,3 +193,4 @@ tags: [note, unfinished]
 - [Kingdom of the Netherlands](https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands)
 - [Netherlands](https://www.government.nl/)
 - [Public Administration](https://www.government.nl/topics/public-administration/organisation-of-central-government)
+- [Royal Netherlands Academy of Arts and Sciences](/view.html?p=notes/social/collective/actor/public/catalog/research/nld/royal-netherlands-academy-of-arts-and-sciences.md) — the academy pillar of the Dutch research system

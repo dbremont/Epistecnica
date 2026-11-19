@@ -132,3 +132,5 @@ Examples include:
 - Endogenous Growth Literature (Paul Romer, 1990s)
 - Joseph Schumpeter – Capitalism, Socialism and Democracy (1942)
 - Richard Nelson & Sidney Winter – An Evolutionary Theory of Economic Change (1982)
+- [Von Tunzelmann (1995) — Technology and Industrial Progress](/view.html?p=documents/books/von-tunzelmann-1995-technology-industrial-progress.md) — the survey of what the evidence says about technology as cause or symptom of industrial progress
+- [Landau & Rosenberg (1986) — The Positive Sum Strategy](/view.html?p=documents/books/rosenberg-1986-positive-sum-strategy-harnessing-technology.md) — technology as the source of non-zero-sum growth

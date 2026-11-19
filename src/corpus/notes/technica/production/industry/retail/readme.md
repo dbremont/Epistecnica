@@ -173,7 +173,7 @@ tags: [note, production]
 - Barney, J. B. *Gaining and Sustaining Competitive Advantage*. Pearson, 2011.  
 - IBISWorld, Statista, and Euromonitor industry reports on retail.  
 - Harvard Business Review: “The Future of Retail” (2023).
-- [Industry](/view.html?p=notes/production/industry/readme.md)
+- [Industry](/view.html?p=notes/technica/production/industry/readme.md)
 - [Consumer Defensive](https://finance.yahoo.com/sectors/consumer-defensive/)
 - [A Guide to Profile an Industry](/view.html?p=notes/technica/breviarium/a-guide-to-profile-an-industry.md)
 - [Consumer Staples Sector Stocks](https://stockanalysis.com/stocks/sector/consumer-staples/)

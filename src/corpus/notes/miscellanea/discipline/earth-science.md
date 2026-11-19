@@ -470,7 +470,7 @@ The claims the domain supports, each carrying its scope conditions: a subsurface
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) (the instrument technically, the formation naturally)
 - [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md) (consumer: crop models, soil, and climate are Earth Science outputs)
 - [Well Logging](/view.html?p=notes/technica/production/industry/well-logging.md) (the borehole as Earth Science's narrowest technical instrument)
-- [Remote Sensing](/view.html?p=notes/technica/general/industry/remote-sensing.md) (the observation layer, decomposed technically)
+- [Remote Sensing](/view.html?p=notes/technica/production/industry/remote-sensing.md) (the observation layer, decomposed technically)
 - [Mining System](/view.html?p=notes/technica/production/industry/mining-system.md) (the extraction interior as technique)
 - [Energy Technology](/view.html?p=notes/technica/general/energy-technology.md) (geothermal and hydrocarbon as energy sources)
 - [Physical and Material Technology](/view.html?p=notes/technica/general/physical-material-technology.md) (the minerals, rocks, and earth materials consumed downstream)

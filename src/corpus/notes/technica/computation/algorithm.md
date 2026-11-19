@@ -210,3 +210,4 @@ Conceptual Model: Algorithm
 - https://www.cs.umd.edu/class/spring2025/cmsc451-0101/lectures.html
 - [Representation](/view.html?p=notes/technica/computation/representation.md)
 - https://en.wikipedia.org/wiki/External_memory_algorithm
+- [The k-server conjecture is true (2026)](/view.html?p=documents/papers/k-server-conjecture-2026.md) — competitive analysis: the work function algorithm attains the ratio k on every metric space

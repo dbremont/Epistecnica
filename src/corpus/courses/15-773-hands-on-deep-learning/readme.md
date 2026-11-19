@@ -16,3 +16,4 @@ tags: [course, ml]
 - [10-414/714 Deep Learning Systems](https://dlsyscourse.org/lectures/) — building the systems deep learning runs on
 - [6.036 Introduction to Machine Learning](/view.html?p=courses/6-036-introduction-to-machine-learning/readme.md) · [6.867 Machine Learning](/view.html?p=courses/6-867-machine-learning/readme.md) — the ML courses this one builds on
 - [Atlas of courses](/corpus/courses/atlas.html)
+- [Deep Learning Alchemy](https://deep-learning-alchemy.github.io/) — companion resource: the hands-on treatment the course material assumes

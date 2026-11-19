@@ -60,3 +60,4 @@ tags: [note, breviarium]
 - [Innovation labs strategy: unfolding the multifaceted role of strategic intent](https://www.sciencedirect.com/science/article/pii/S0166497225000021)
 - [Enterprise R&D, manufacturing innovation and macroeconomic impact: An evaluation of China’s Policy](https://www.sciencedirect.com/science/article/abs/pii/S016189382300100X)
 - [Frascati Manual 2015 Guidelines for Collecting and Reporting Data on Research and Experimental Development](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html)
+- [Rosenbloom & Spencer (1996) — Engines of Innovation](/view.html?p=documents/books/rosenbloom-spencer-1996-engines-of-innovation.md) — the end of the corporate central research lab

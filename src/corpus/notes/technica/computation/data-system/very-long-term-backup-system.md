@@ -95,3 +95,4 @@ QA:
 - [Storage System](/view.html?p=notes/technica/computation/operating-system/linux/storage-system.md)
 - [https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/backup-recovery/backup-recovery.pdf](https://docs.aws.amazon.com/pdfs/prescriptive-guidance/latest/backup-recovery/backup-recovery.pdf)
 - [System](/view.html?p=notes/technica/computation/system.md)
+- [Backups Aren't Simple — Hacker News](https://news.ycombinator.com/item?id=49732513) — backup is a restore problem: the failure is discovered at restore time, not at backup time

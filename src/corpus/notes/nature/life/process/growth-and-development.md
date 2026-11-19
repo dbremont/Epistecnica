@@ -39,3 +39,4 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (workflow, Tabular/Recursive views, Limitation checklist, level gate)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md) (presupposed definitions; restated nowhere here)
 - Notion export provenance: `Living System 17cc0f5171ec8093b664fbee6a672b0e.md`
+- [Morphogenesis](/view.html?p=notes/nature/life/process/morphogenesis.md) — the generation of form: gradients, self-organisation, cell behaviours and tissue mechanics

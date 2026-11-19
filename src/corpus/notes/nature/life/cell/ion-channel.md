@@ -14,3 +14,4 @@ tags: [note, nature, natural-system]
 ## Provenance
 
 - Notion export: `Modelo/Nature/Conceptual Model Natural System/Ion Channel 698cc97114a44233929a29f015a92f0c.md`
+- [KCNQ1](/view.html?p=notes/nature/life/molecular/kcnq1.md) — the Kv7.1 channel gene, and the one-channel/three-tissue case

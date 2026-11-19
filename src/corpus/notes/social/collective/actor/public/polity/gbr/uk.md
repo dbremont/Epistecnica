@@ -93,3 +93,5 @@ https://en.wikipedia.org/wiki/Andrew_Ure
 https://en.wikipedia.org/wiki/John_Wyatt_(inventor)
 
 https://en.wikipedia.org/wiki/Henry_Maudslay
+- [Anglo-Dutch wars — Wikipedia](https://en.wikipedia.org/wiki/Anglo-Dutch_wars) — the three seventeenth-century naval wars that broke Dutch commercial primacy
+- [Macinnes (2007)](/view.html?p=documents/books/macinnes-2007-union-empire-making-united-kingdom-1707.md) — the union of 1707 read as an imperial project: Atlantic access, Darien, and the bargain behind the incorporating union.

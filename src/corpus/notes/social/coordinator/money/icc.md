@@ -26,3 +26,8 @@ tags: [note, exchange-rate, synontic, coordinator, social-element]
 
 - [Exchange Rate](https://en.wikipedia.org/wiki/Exchange_rate)
 - [Exchange Rate Regime](https://en.wikipedia.org/wiki/Exchange_rate_regime)
+
+- [Whyman (2015)](/view.html?p=documents/papers/whyman-2015-keynes-international-clearing-union-eurozone.md) — clearing-union reform of a monetary union whose exchange-rate instrument is gone.
+- [Mazier & Valdecantos (2019)](/view.html?p=documents/papers/mazier-valdecantos-2019-euro-bancor-stock-flow-consistent.md) — the euro-bancor assessed in a stock–flow-consistent model.
+- [Pettifor (2024)](/view.html?p=documents/papers/pettifor-2024-case-african-payments-union.md) — payments union versus monetary union, and what each does to the exchange rate.
+- [Van Riet (2023)](/view.html?p=documents/papers/van-riet-2023-multilateral-currency-unions-africa-caribbean.md) — pegged currency unions and the loss of monetary policy to an external anchor.

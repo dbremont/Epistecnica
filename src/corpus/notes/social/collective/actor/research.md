@@ -157,3 +157,4 @@ Approximate shares of a research group's total budget:
 - Hickman, K. J. E., & Zahn, G. (2024). Ten simple rules for leading a successful undergraduate-intensive research lab. *PLOS Computational Biology*, 20(4), e1011994.
 - The strategy behind one of the most successful labs in the world. *Nature*. https://www.nature.com/articles/d41586-024-02085-2
 - [Laboratory](https://en.wikipedia.org/wiki/Laboratory)
+- [Rosenbloom & Spencer (1996) — Engines of Innovation](/view.html?p=documents/books/rosenbloom-spencer-1996-engines-of-innovation.md) — the end of the corporate central research lab

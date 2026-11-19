@@ -39,3 +39,4 @@ Spain." *Industry and Innovation* 21.5 (2014): 359-379.
 - Silvani, Alberto, Giorgio Sirilli, and Fabrizio Tuzi. "R&D evaluation in Italy: more needs to be done." *Research Evaluation* 14.3 (2005): 207-215.
 - Del Monte, Alfredo, and Erasmo Papagni. "R&D and the growth of firms: empirical analysis of a panel of Italian firms." Research Policy 32.6 (2003): 1003-1014.
 - Cohen, Jon S. "Financing industrialization in Italy, 1894–1914: The partial transformation of a late-comer." The Journal of Economic History 27.3 (1967): 363-382.
+- [Pichler (2001)](/view.html?p=documents/papers/pichler-2001-economic-policy-austrian-lombardy.md) — economic policy and development in Austrian Lombardy, 1815–1859: growth inside, and limited by, the Habsburg frame.

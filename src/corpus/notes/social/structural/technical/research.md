@@ -584,3 +584,4 @@ Elgar (2007).
 - Technology innovation and entrepreneurial state: the development of China's high-speed rail industry - by Zhe Sun
 - Intarakumnerd, Patarapong, and Cristina Chaminade. "Innovation policies in Thailand: towards a system of innovation approach?." Asia Pacific Business Review 17.02 (2011): 241-256.
 - Intarakumnerd, Patarapong, and Akira Goto. "Technology and Innovation Policies for SMEs in East Asia." SMEs (2016): 24.
+- [Rosenbloom & Spencer (1996) — Engines of Innovation](/view.html?p=documents/books/rosenbloom-spencer-1996-engines-of-innovation.md) — the end of the corporate central research lab

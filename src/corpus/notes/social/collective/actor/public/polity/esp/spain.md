@@ -230,3 +230,4 @@ tags: [note]
 * Escuela de Ingenieros Industriales - Escuela Técnica Superior de Ingenieros Industriales
 * Escuela de Arquitectura Técnica
 * Escuela de Maestros de Obras
+- [Real Sociedad Económica de Amantes de la Patria de Guatemala](/view.html?p=notes/social/collective/actor/private/research/gtm/real-sociedad-economica-de-amantes-de-la-patria.md) — the Guatemalan Amigos del País society (1794), the colonial member of the Spanish Enlightenment network

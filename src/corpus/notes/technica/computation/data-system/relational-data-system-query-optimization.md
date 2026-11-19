@@ -27,3 +27,7 @@ Plan de Ejecución: - Cardinalidad: Numero de elementos en un conjunto.
 9. Evitar los siguientes de expressiones complejas: NVL, TO_DATE, TO_NUMBER, y asi sucesivamente. Estas expresiones impiden que el optmizador asigne estimaciones de cardinalidad o puede affectar al plan general y al método de combinación.
 10. Siempre es mejor escribir instrucciones SQL separadas para diferentes tareas, pero si debe usar una sentencia SQL, puede hacer una declaración un poco menos compleja utilizando el operator UNION ALL.
 11. No se recomiendan combinaciones a vistas complejas, en particular las combinaciones de uan vista compleja a otro eso hace que la vista compelta se instancie, y la consulta se ejecutara contra los datatos de la vista.
+
+## References
+
+- [Bansal, R. (2026). Training a 4B model to produce 81% faster query plans than Postgres](https://rohanbansal.com/qorl) — agentic RL on planner hints, with the database itself as the reward oracle

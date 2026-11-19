@@ -33,3 +33,4 @@ tags: [note, polity, republic, ancient-india, history]
 - [Gaṇasaṅgha](/view.html?p=notes/social/collective/actor/public/polity/gana-sangha.md) — the form
 - [Shakya](/view.html?p=notes/social/collective/actor/public/polity/shk/shakya.md) — the small republican neighbour
 - [Maurya Empire](/view.html?p=notes/social/collective/actor/public/polity/mau/maurya-empire.md) — the monarchy that later held the same territory
+- [Rooney & Murthy (2024) — Management and social order in ancient India](/view.html?p=documents/papers/rooney-murthy-2024-management-social-order-ancient-india.md) — the management reading of the same institutions

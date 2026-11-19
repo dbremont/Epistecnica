@@ -62,3 +62,4 @@ tags: [note, audit, governance, accountability, institution]
 - [Netherlands Court of Audit](/view.html?p=notes/social/collective/actor/public/catalog/administration/netherlands-court-of-audit.md) — a supreme audit institution as an instance
 - [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the institutional form the audit bodies take
 - Power, M. (1997). *The Audit Society: Rituals of Verification*. Oxford University Press.
+- [Government Accountability Office](/view.html?p=notes/social/collective/actor/public/catalog/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

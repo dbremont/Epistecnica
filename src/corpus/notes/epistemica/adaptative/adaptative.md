@@ -96,3 +96,4 @@ Conceptual Model: Adaptative
 - Algorithmic Foundations of Interactive Learning **-** [https://interactive-learning-algos.github.io/](https://interactive-learning-algos.github.io/)
 - Watkins, C. J., & Dayan, P. (1992). Q-learning. *Machine Learning*, *8*(3–4), 279–292.
 - [**System Identification**](../../../../../science/system-identification.md)
+- [Emergent Models (2026)](/view.html?p=documents/papers/emergent-models-2026-intelligence-tiny-substrates.md) — learning by evolutionary search on a non-differentiable substrate

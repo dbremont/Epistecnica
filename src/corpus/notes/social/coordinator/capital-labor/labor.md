@@ -135,3 +135,4 @@ Labor therefore exists **in the relation between capacity and enactment**, as th
 - [Ontology](https://righteous-guardian-68f.notion.site/Ontology-138eea37a34f43ed87c16d1818629723?source=copy_link)
 - Mill, J. S. (1848). Principles of Political Economy with Some of Their Applications to Social Philosophy. John W. Parker.
 - Kilponen, J., & Ripatti, A. (2006). Labour and Product Market Competition in a Small Open Economy- Simulation Results Using a DGE Model of the Finnish Economy. Bank of Finland Research Discussion Paper.
+- [Cyert & Mowery (1988) — The Impact of Technological Change on Employment and Economic Growth](/view.html?p=documents/books/cyert-mowery-1988-impact-technological-change-employment-growth.md) — the compensation argument: displacement is real, the employment level is not fixed

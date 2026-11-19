@@ -468,3 +468,8 @@ Press
 - People have [rational preferences](https://en.wikipedia.org/wiki/Rational_choice_theory) between outcomes that can be identified and associated with values.
 - Individuals [maximize utility](https://en.wikipedia.org/wiki/Utility_maximization), and firms [maximize profits](https://en.wikipedia.org/wiki/Profit_maximization).
 - People act independently based on comp[lete and relevant information](https://en.wikipedia.org/wiki/Perfect_information).
+
+## References
+
+- [Von Tunzelmann (1995) — Technology and Industrial Progress](/view.html?p=documents/books/von-tunzelmann-1995-technology-industrial-progress.md) — the survey of what the evidence says about technology as cause or symptom of industrial progress
+- [Guha (1981) — An Evolutionary View of Economic Growth](/view.html?p=documents/books/guha-1981-evolutionary-view-economic-growth.md) — growth as organic evolution continued: societal selection as a hypothesis

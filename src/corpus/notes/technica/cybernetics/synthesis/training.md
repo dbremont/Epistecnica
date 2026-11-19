@@ -42,3 +42,4 @@ Experiment Tracking:
 ## References
 
 - https://github.com/dbremont/mlsys-lab/tree/main/protonn
+- MiMo-7B (Xiaomi LLM-Core, 2025). *Unlocking the Reasoning Potential of Language Model — From Pretraining to Posttraining*. arXiv:2505.07608. https://arxiv.org/abs/2505.07608 — the recipe claim that pretraining primes reasoning and RL releases it

@@ -438,3 +438,4 @@ Resources:
 - https://en.wikipedia.org/wiki/Gabor_filter
 - https://arxiv.org/abs/2405.15164
 - https://arxiv.org/abs/2607.05188  (Read the cosma note on attention - the current - and current token generation - will also say something about the next token - ‘thinking’ ahead of time - that sort of obvious - but look at the cosma notes).
+- [Fu et al. (2026) — Cache-to-Cache: semantic communication between LLMs](/view.html?p=documents/papers/cache-to-cache-2025.md) — the interface as the bottleneck: KV-cache transfer instead of text

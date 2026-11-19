@@ -87,3 +87,6 @@ tags: [note, discipline]
 - [Innovation Economics](https://en.wikipedia.org/wiki/Innovation_economics)
 - Gopalakrishnan, Shanti, and Fariborz Damanpour. "A review of innovation research in economics, sociology and technology management." Omega 25.1 (1997): 15-28.
 - …
+- [Von Tunzelmann (1995) — Technology and Industrial Progress](/view.html?p=documents/books/von-tunzelmann-1995-technology-industrial-progress.md) — the survey of what the evidence says about technology as cause or symptom of industrial progress
+- [Guha (1981) — An Evolutionary View of Economic Growth](/view.html?p=documents/books/guha-1981-evolutionary-view-economic-growth.md) — growth as organic evolution continued: societal selection as a hypothesis
+- [Landau & Rosenberg (1986) — The Positive Sum Strategy](/view.html?p=documents/books/rosenberg-1986-positive-sum-strategy-harnessing-technology.md) — technology as the source of non-zero-sum growth

@@ -44,3 +44,4 @@ These models provide different lenses through which economists analyze and under
 
 - [Inertial Inflation](https://en.wikipedia.org/wiki/Inertial_inflation)
 - [Labor](../../coordinator/capital-labor/labor.md)
+- [GDP deflator — Wikipedia](https://en.wikipedia.org/wiki/GDP_deflator)

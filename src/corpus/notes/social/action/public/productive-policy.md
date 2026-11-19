@@ -166,3 +166,5 @@ Some elements are ‘cluster policy’ / more dynamic R&D Model, quality control
 - Beyond Markets and States: Polycentric Governance of Complex Economic Systems
 [https://www.jstor.org/stable/27871226](https://www.jstor.org/stable/27871226)
 - Andreoni, Antonio, Federico Frattini, and Giorgio Prodi. "Getting robots in ‘our own hands’: Structural drivers, spatial dynamics and multi-scalar industrial policy in China." Competition & Change (2024): 10245294241261878.
+- [Jacobs, J., & Imas, A. (2026). Economic Policy for AGI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7470000) — eleven policy responses scored on welfare, agency, feasibility and durability, with the finding that popular support and scenario durability are negatively correlated
+- [Jeremy (1977)](/view.html?p=documents/papers/jeremy-1977-damming-flood-british-technicians-machinery.md) — the British attempt to block the outflow of technicians and machinery, 1780–1843, and why a legal technology monopoly leaked.

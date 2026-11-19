@@ -1897,7 +1897,7 @@ tags: [note, science, history-of-science, bibliography]
 - [A Case for Industrial Technique — the technica corpus](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) — the schema for epistemic content
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) — the schema for natural content
-- [Documents corpus README](/view.html?p=documents/README-documents.md) — the editions the library holds
+- [Documents corpus README](/corpus/README-documents.md) — the editions the library holds
 - Sarton, G. *Introduction to the History of Science* (3 vols. in 5, 1927–48).
 - Crombie, A. C. *Augustine to Galileo: The History of Science, A.D. 400–1650* (1952).
 - Lindberg, D. C. *The Beginnings of Western Science* (1992).

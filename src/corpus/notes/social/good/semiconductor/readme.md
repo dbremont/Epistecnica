@@ -46,5 +46,5 @@ tags: [note, catalog]
 
 ## References
 
-[Semiconductor Industry](/view.html?p=notes/production/industry/electronics/semiconductor/readme.md)
+[Semiconductor Industry](/view.html?p=notes/technica/production/industry/electronics/semiconductor/readme.md)
 Semiconductor Technology

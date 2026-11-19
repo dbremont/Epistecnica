@@ -73,3 +73,4 @@ The choice matters. Ore is not a `Mineral`: a mineral is a lattice, whereas an o
 - [Mindat](https://www.mindat.org/) — the species database for identifying an ore mineral and its associations
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md) (Tabular and Recursive views, Limitation checklist, level gate)
 - [Philosophia Naturalis et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-naturalis-et-operis.md) (schema and table contract)
+- [Lindgren (1919) — Mineral Deposits](/view.html?p=documents/books/lindgren-1919-mineral-deposits.md) — the genetic classification of the deposits ore is won from

@@ -160,3 +160,5 @@ N Sharif, E Baark International Journal of Technology and Globalisation 1 (3-4),
 - Levantando el Velo Doméstico: El Desafío de Exportar Bienes Diferenciados a Países Desarrollados (with Alejandro Artopoulos and Daniel Friel), Desarrollo Económico, 53(211), pp. 285-311. Enero-Abril 2014.
 - Specialization, Capital Accumulation, and Development (with Doireann Fitzgerald), Journal of International Economics, 64(2), pp. 277-302, December 2004.
 - https://academic.oup.com/cje/article-abstract/38/6/1391/1733718
+- [Clower et al. (1966) — Growth without Development: Liberia](/view.html?p=documents/books/clower-etal-1966-growth-without-development-liberia.md) — the enclave diagnostic the phrase names
+- [Lau (1986) — Models of Development: South Korea and Taiwan](/view.html?p=documents/books/lau-1986-models-development-korea-taiwan.md) — two strategies, one export orientation, 1965–1981

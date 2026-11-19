@@ -10,7 +10,7 @@ tags: [note, truck, vehicles, transport, freight]
 
 ### What technical element type does this technical instance belong to?
 
-**The truck belongs to the `Production Technical Object` technical element type** — a produced machine, typed as the [radar](/view.html?p=notes/technica/general/industry/radar.md) and the [laser Doppler vibrometer](/view.html?p=notes/technica/production/industry/laser-doppler-vibrometer.md) on this shelf are typed.
+**The truck belongs to the `Production Technical Object` technical element type** — a produced machine, typed as the [radar](/view.html?p=notes/technica/general/fisicatecnica/electromagnetic/radar.md) and the [laser Doppler vibrometer](/view.html?p=notes/technica/production/industry/laser-doppler-vibrometer.md) on this shelf are typed.
 
 Its parent is a system: [transportation vehicles](/view.html?p=notes/technica/production/industry/transportation-vehicles.md) is the `Production Technical System` covering autos, trucks, buses and motorcycles, and the truck is one object inside it. Readable secondarily as a `Machine` where its function is the actuation of transport rather than the artefact itself.
 

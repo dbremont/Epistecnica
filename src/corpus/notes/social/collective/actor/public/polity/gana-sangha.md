@@ -37,3 +37,4 @@ tags: [note, polity, republic, ancient-india, political-form]
 - [Shakya](/view.html?p=notes/social/collective/actor/public/polity/shk/shakya.md) — the small instance
 - [Polity](/view.html?p=notes/social/collective/polity.md) — the general form
 - [India](/view.html?p=notes/social/collective/actor/public/polity/ind/india.md) — the modern polity in the same territory
+- [Rooney & Murthy (2024) — Management and social order in ancient India](/view.html?p=documents/papers/rooney-murthy-2024-management-social-order-ancient-india.md) — the management reading of the same institutions

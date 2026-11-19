@@ -38,4 +38,4 @@ The work is also a statement about where the discovery bottleneck has moved. The
 - [Separation Science and Technology](/view.html?p=notes/technica/general/separation-science-and-technology.md) — the technical domain this paper works inside
 - [Liu et al. (2022) — distribution-coefficient prediction](/view.html?p=documents/papers/liu-2022-advancing-rare-earth-separation-machine-learning.md)
 - [Augustine et al. (2026) — adaptive experimental design for the same metals](/view.html?p=documents/papers/augustine-2026-coupling-dft-automated-experimentation-rare-earth.md)
-- [Rare Earth](/view.html?p=notes/production/foundation/rare-earth.md) · [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md)
+- [Rare Earth Elements](/view.html?p=notes/technica/production/industry/rare-earth-elements.md)

@@ -35,3 +35,4 @@ tags: [note, cnc, machining]
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Robotic/CNC.md`
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- [3D Printing](/view.html?p=notes/technica/production/industry/3d-printing.md) — the additive counterpart to machining

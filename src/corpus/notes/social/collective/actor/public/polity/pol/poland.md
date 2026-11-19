@@ -61,6 +61,12 @@ Here is a detailed table summarizing key periods and developments in Poland's in
 | **EU Membership (2004-Present)** | - EU membership in 2004, leading to regulatory alignment with EU standards.<br>- Focus on modernization and innovation.<br>- Development of high-tech industries, including IT and electronics.<br>- Emphasis on small and medium-sized enterprises (SMEs) and entrepreneurship.<br>- Utilization of EU structural funds for regional development.<br>- Promotion of sustainable and green technologies. |
 | **Recent Developments (2010s-2020s)** | - Emphasis on Industry 4.0 and digital transformation.<br>- Development of special economic zones (SEZs) to attract investment.<br>- Implementation of the "Strategy for Responsible Development" focusing on innovation, infrastructure, and human capital.<br>- Support for research and development (R&D) and collaboration between industry and academia.<br>- Focus on energy transition and reducing carbon emissions. |
 
+### The transformation instruments and the supply chain
+
+> The industrial policy of the transition had a menu of instruments rather than a doctrine: tax preferences, subsidies and grants, state guarantees and sureties, tariff and non-tariff protection, sectoral and enterprise restructuring programmes, settlement proceedings with creditors, and the institutions built to administer them. The ministry's own account is in [Industrial Policy of Poland During the Transformation Period](/view.html?p=documents/books/oecd-industrial-policy-of-poland-transformation-period.md); the academic treatment of the instrument set is [Kożuch](/view.html?p=documents/papers/kozuch-instruments-of-industrial-policy-restructuring.md).
+
+> What the instruments produced is the FDI channel, and the corpus keeps the two studies that measure it. [Weresa (2004)](/view.html?p=documents/papers/weresa-2004-can-fdi-help-poland-catch-up-with-the-eu.md) finds FDI correlated with innovation effort across industrial branches — **except in low-technology industries**, so the catch-up works where absorptive capacity exists. [Domański & Gwosdz (2009)](/view.html?p=documents/papers/domanski-gwosdz-2009-embedded-production-system-automotive-poland.md) show the mechanism in the automotive chain, on a survey of over 550 suppliers: strong upgrading in **quality, cost, adaptability and response time**, far weaker in **R&D and design**, with local brands and own IP thin. The localized capabilities that embed the production system are also the ceiling on the country's role.
+
 ## Economic Sectors
 
 Here is an updated table summarizing the key economic sectors in Poland, including their importance and contribution to GDP:
@@ -103,7 +109,7 @@ Here's a detailed table summarizing key economic and industrial strategists in P
 
 | Institution                                                    | Established | Defunct Date | Parent Organization                      | Primary Focus Areas                      | 📝 Annotation                                                      |
 | -------------------------------------------------------------- | ----------- | ------------ | ---------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------ |
-| **Polish Academy of Sciences (PAN)**                           | 1952        | N/A          | Independent                              | Multidisciplinary scientific research    | National academy overseeing over 70 scientific institutes.         |
+| **[Polish Academy of Sciences (PAN)](/view.html?p=notes/social/collective/actor/public/catalog/research/pol/polish-academy-of-sciences.md)**                           | 1952        | N/A          | Independent                              | Multidisciplinary scientific research    | National academy overseeing over 70 scientific institutes.         |
 | **National Centre for Research and Development (NCBR)**        | 2007        | N/A          | Ministry of Science and Higher Education | Research funding and innovation programs | Funds applied R\&D and tech transfer projects.                     |
 | **Institute of Fundamental Technological Research (IPPT PAN)** | 1953        | N/A          | PAN                                      | Engineering and tech research            | PAN’s leading institute for civil engineering, mechanics, and ICT. |
 | **Łukasiewicz Research Network**                               | 2019        | N/A          | Ministry of Economic Development         | Industrial R\&D                          | 26+ institutes under one brand to serve business innovation needs. |
@@ -122,6 +128,20 @@ Here's a detailed table summarizing key economic and industrial strategists in P
 | **Poznań Science and Technology Park**                         | 1995        | N/A          | Adam Mickiewicz University Foundation    | Applied R\&D, business support           | One of the oldest tech parks in Poland.                            |
 | **European Union Programs (Horizon Europe, etc.)**             | N/A         | N/A          | European Commission                      | Funding and partnerships                 | EU-backed R\&D consortia and research mobility programs.           |
 
+
+## The Public Science System
+
+> The science system is the part of the Polish transition that did **not** follow the economy's shock therapy. Where the economy was liberalised in a few years, the public science system changed by accretion over two decades — and it changed differently in each of its three research-performing sectors, which is the finding of [Heinecke (2016)](/view.html?p=documents/papers/heinecke-2016-polish-public-science-system.md).
+
+| Sector | Fate after 1989 | Mechanism |
+| --- | --- | --- |
+| **Polish Academy of Sciences** | [Reproduced](/view.html?p=notes/social/collective/actor/public/catalog/research/pol/polish-academy-of-sciences.md) — institutes and disciplines survived intact | Reproduction |
+| **Governmental applied-R&D units** | Partly dismantled, partly displaced by private-sector R&D | Dismantling |
+| **Higher education** | Strong expansion, new research activity layered onto teaching institutions | Layering |
+
+> The institutional markers since then: the **2010 reform package** created the National Science Centre (NCN) for basic research and the NCBR for applied, adding competitive funding beside the institutional budgets; **parametric evaluation** by publication counts governed the academic units through the 2010s; and the **2017 Constitution for Science** rebuilt the evaluation regime and created doctoral schools. The pattern is the one the R&D actors table above shows: a landscape of layered institutions rather than a single reformed system.
+
+> Read against the note's economics, the contrast is the point. Poland's economy is the textbook case of rapid institutional replacement; its science system is a textbook case of gradual, path-dependent change — the same country, two speeds, and the difference is the sector's relation to the state budget.
 
 ## 🇵🇱 Poland: 1945–1989
 
@@ -318,6 +338,35 @@ Poland's living standards appear to be, in fact, midway between China's and Mexi
 | **EU accession era (post-2004)** | EU funding replace protective tariffs/policies | Upgraded local firms via capacity building, innovation grants |
 
 
+## Firms Competing Internationally
+
+> The industrial policy of the transformation produced a set of firms that compete abroad rather than in the protected domestic market. The mechanism is the same in each row — **an inherited capability plus a demanding first customer, then a product specific enough to export** — and what differs is who the first customer was: the army, the state railway, a research institute, or a foreign OEM. That difference explains why the defence firms depend on procurement politics and the software firms do not.
+
+| # | Company | Products competing internationally | International competitors / market | Why it survived and became competitive |
+|---:|---|---|---|---|
+| 1 | [WB Group](https://www.wbgroup.pl/en/) | Military UAVs (FlyEye), loitering munitions (Warmate), battlefield communications (FONET), artillery command systems (TOPAZ) | AeroVironment, Elbit Systems, IAI, Rheinmetall | **System integration and proprietary engineering** — from military electronics into communications, reconnaissance and command systems; acquisitions built an integrated portfolio; international military customers |
+| 2 | [PESA](https://pesa.pl/en/) | Regional trains, EMUs, locomotives, trams | Siemens Mobility, Alstom, Stadler, Škoda, CAF | **Industrial inheritance and technological upgrading** — railway repair facilities and skills, then modernisation, then original design; domestic orders supplied references before export |
+| 3 | [VIGO Photonics](https://vigophotonics.com/) | Uncooled infrared photon detectors and advanced IR modules | Hamamatsu, Teledyne, Lynred | **Research commercialisation** — spun out of the Military University of Technology; differentiated IR detector technology for space, defence, medicine, industry; NASA Curiosity detector work |
+| 4 | [Creotech Instruments](https://creotech.pl/en/) | Small satellites, platforms, electronics, complete missions | GomSpace, OHB, AAC Clyde Space | **Integrated engineering capability** — own HyperSat platform and the full design-manufacture-test-integrate chain; ESA contracts as the demanding institutional customer |
+| 5 | [XTPL](https://xtpl.com/) | Ultra-precise dispensing and printing for advanced electronics | Specialised microprinting and printed-electronics firms | **Niche technological differentiation** — proprietary precision printing, patents, materials, partnerships; customers in China, Germany and the US. **Emerging rather than mature** |
+| 6 | [Asseco](https://asseco.com/) | Banking, insurance, public administration, healthcare, energy software | SAP, Oracle, Temenos, FIS | **Sector-specific software and international expansion** — complex institutional environments where regulatory knowledge and long relationships matter; growth by acquisition |
+| 7 | [Comarch](https://www.comarch.com/) | ERP, CRM, telecom software, financial systems, loyalty platforms | SAP, Oracle, Salesforce, Ericsson, Amdocs | **Long-term enterprise relationships and adaptable software** — several demanding sectors rather than one domestic market; BP, Vodafone, Telefónica, Carrefour, Heathrow |
+| 8 | [CD Projekt](https://www.cdprojekt.com/en/) | Premium games (The Witcher, Cyberpunk) | EA, Ubisoft, Take-Two, Bethesda | **Intellectual property and product differentiation** — internationally recognisable franchises rather than cost competition; tens of millions of copies sold |
+| 9 | [FAKRO](https://www.fakro.com/) | Roof windows, skylights, loft ladders, blinds | VELUX, Roto | **Product specialisation, scale and distribution** — second-largest roof-window producer by its own account; R&D, patents and distribution in 70+ countries |
+| 10 | [Wielton](https://wieltongroup.com/en/) | Semi-trailers, trailers, truck bodies | Schmitz Cargobull, Krone, Kögel, Kässbohrer | **Manufacturing modernisation and international expansion** — from repairs and modernisation to original production; automated manufacturing, certification, R&D, acquisitions |
+| 11 | [Apator](https://www.apator.com/en/) | Electricity, water, heat and gas meters; grid automation | Landis+Gyr, Itron, Kamstrup, Diehl | **Accumulated specialisation and hardware-software integration** — metering expertise extended into smart meters and utility management; 60+ countries |
+| 12 | [SATEL](https://www.satel.pl/en/) | Intruder alarms, fire detection, access control | Bosch, Honeywell, Siemens, Ajax Systems | **In-house development and manufacturing** — engineering, electronics, firmware, testing kept in-house; installer and distributor networks in 70+ countries |
+| 13 | [APS Energia](https://apsenergia.pl/en/) | UPS, rectifiers, inverters, traction power, energy storage | ABB, Schneider Electric, Siemens, Vertiv | **Specialised engineering and customised solutions** — design, production, installation and service for power, transport, medicine, telecom, defence |
+| 14 | [GOODRAM / Wilk Elektronik](https://www.goodram.com/en/) | DRAM modules, SSDs, flash, industrial memory | Samsung, Kingston, Micron, Crucial | **Niche specialisation, distribution to manufacturing** — a distributor that built its own brand and plant; engineering and quality control in industrial memory |
+| 15 | [Selena Group](https://selena.com/en/) | Polyurethane foams, adhesives, sealants, insulation | Sika, Henkel, Dow, Mapei | **Product development, branding and international manufacturing** — construction chemicals taken abroad through subsidiaries and plants; assembly foams as the defensible niche |
+| 16 | [PCO](https://pcosa.com.pl/en/) | Night vision, thermal imaging, laser systems, military optoelectronics | Thales, Hensoldt, Leonardo, Elbit | **Accumulated defence research** — decades in night vision and thermal imaging, in-house R&D, adaptation to military platforms; domestic defence ecosystem |
+| 17 | [PIT-RADWAR](https://www.pitradwar.com/) | Military radar, air defence, battlefield surveillance, command systems | Thales, Saab, Hensoldt, Rheinmetall | **Specialised electronics and systems engineering** — radar design through production and support; complete lifecycle in demanding defence markets |
+| 18 | [MESKO](https://www.mesko.com.pl/) | Piorun and Grom air-defence missiles, anti-tank missiles, ammunition | RTX (Stinger), MBDA (Mistral), Saab (RBS 70) | **Accumulated defence-industrial capability and product improvement** — inherited ammunition and missile production, then the Piorun system; foreign sales including US procurement |
+| 19 | [Huta Stalowa Wola](https://www.hsw.pl/) | Krab howitzers, Rak mortars, Borsuk IFVs, artillery | Hanwha, KNDS, Rheinmetall, BAE Systems | **Industrial inheritance, state-supported engineering, product development** — heavy manufacturing retained and turned into complex armoured systems; **dependent on product performance, delivery and political procurement relationships** |
+| 20 | [Lubawa](https://lubawa.com.pl/en/) | Body armour, CBRN protection, EOD suits, camouflage, technical textiles | Avon Protection, Mehler, Sioen, Point Blank | **Specialised manufacturing and compliance** — broad protective portfolio, armed-forces and police customers, NATO-related certification and customisation |
+
+> The three clusters worth naming: **defence and optoelectronics** (WB, PCO, PIT-RADWAR, MESKO, HSW, Lubawa, APS), which inherited state defence capability and now depend on procurement politics; **rail and heavy vehicles** (PESA, Wielton), which inherited repair works and upgraded into design; and **software, photonics and instruments** (Asseco, Comarch, CD Projekt, VIGO, XTPL, Apator, SATEL), where the first customer was a bank, a telecom, a research institute or a player — not the state.
+
 ## References
 
 - [https://en.wikipedia.org/wiki/National_Centre_for_Research_and_Development](https://en.wikipedia.org/wiki/National_Centre_for_Research_and_Development)
@@ -327,3 +376,5 @@ Poland's living standards appear to be, in fact, midway between China's and Mexi
 - [https://kuke.com.pl/en/about-us](https://kuke.com.pl/en/about-us)
 - [https://www.esteri.it/en/sala_stampa/archivionotizie/diplomazia-economica/2024/09/polonia-il-governo-da-impulso-ai-progetti-industriali/](https://www.esteri.it/en/sala_stampa/archivionotizie/diplomazia-economica/2024/09/polonia-il-governo-da-impulso-ai-progetti-industriali/)
 - [https://press.wz.uw.edu.pl/cgi/viewcontent.cgi?article=1032&context=monographs](https://press.wz.uw.edu.pl/cgi/viewcontent.cgi?article=1032&context=monographs)
+- [Weresa (2004) — FDI and catch-up](https://doi.org/10.1016/j.postcomstud.2004.06.007)
+- [Domański & Gwosdz (2009) — automotive supply networks](https://doi.org/10.1111/j.1468-2257.2009.00490.x)

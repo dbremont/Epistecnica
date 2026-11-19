@@ -71,7 +71,7 @@ The table states the split and the criterion each type is individuated by; each 
 
 | Elementary Particle Type | Identity criterion | Members on this shelf |
 | --- | --- | --- |
-| Fermion | Half-integer spin; antisymmetric under exchange, so two never occupy one state | [Fermions (Matter Particles)](/view.html?p=notes/nature/matter/elementary/fermions-matter-particles.md) |
+| Fermion | Half-integer spin; antisymmetric under exchange, so two never occupy one state | [Fermions (Matter Particles)](/view.html?p=notes/nature/matter/elementary/fermiom.md) |
 | Quark | Colour charge; confined, never observed free | [Quark](/view.html?p=notes/nature/matter/elementary/quark.md), [Quark Antiquarks](/view.html?p=notes/nature/matter/elementary/quark-antiquarks.md) |
 | Lepton | Colour-neutral fermion | [Leptons (matter fermions)](/view.html?p=notes/nature/matter/elementary/leptons-matter-fermions.md), [Lepton Antiparticles](/view.html?p=notes/nature/matter/elementary/lepton-antiparticles.md) |
 | Charged lepton | Lepton carrying electric charge | [Electron](/view.html?p=notes/nature/matter/elementary/electron.md), [Muon](/view.html?p=notes/nature/matter/elementary/muon.md) |

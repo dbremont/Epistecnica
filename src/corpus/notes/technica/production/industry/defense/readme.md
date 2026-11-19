@@ -78,3 +78,7 @@ It's important to note that the arms industry is highly dynamic, and changes may
 - [MIT Lincoln Laboratory](https://www.ll.mit.edu/)
 - [Mitre](https://www.mitre.org/)
 - [Johns Hopkins Applied Physics Laboratory](https://www.jhuapl.edu/)
+
+## References
+
+- [Green (1995) — Arming Japan](/view.html?p=documents/books/green-1995-arming-japan.md) — defence production as industrial policy under an alliance constraint

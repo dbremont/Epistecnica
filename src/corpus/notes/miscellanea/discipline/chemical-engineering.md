@@ -200,7 +200,7 @@ honesty of the stated scale and the closure of the stated balance.
 - [Industrial](/view.html?p=notes/miscellanea/discipline/industrial.md) — the organizational reading of the same plants
 - [Transport Phenomena](/view.html?p=notes/nature/transport-phenomena.md) · [Chemical Processes](/view.html?p=notes/nature/chemical-processes.md) · [Reaction](/view.html?p=notes/nature/reaction.md) · [Thermodynamics](/view.html?p=notes/nature/thermodynamics.md) — the segment, decomposed in the naturalis grammar
 - [Haber Process](/view.html?p=notes/nature/haber-process.md) · [Hall–Héroult Process](/view.html?p=notes/nature/hall-heroult-process.md) — two processes where the discipline's constraints decided the design
-- [Materiotecnia](/view.html?p=notes/production/technique/materiotecnia/readme.md) — the material classes a chemical plant produces
+- [Materiotecnia](/view.html?p=notes/technica/general/materiotecnia/readme.md) — the material classes a chemical plant produces
 - [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - Hougen, O. A., & Watson, K. M. (1943–1947). *Chemical process principles* (3 vols.). Wiley.
 - Bird, R. B., Stewart, W. E., & Lightfoot, E. N. (1960). *Transport phenomena*. Wiley.

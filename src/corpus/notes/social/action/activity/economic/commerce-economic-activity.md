@@ -792,7 +792,7 @@ $$
 
 ### How is the production function of commerce operationalized?
 
-> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/view.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/?node=production-function).
+> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/view.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/ees.html).
 
 | Decision | The choice that matters | Commerce reading |
 | --- | --- | --- |

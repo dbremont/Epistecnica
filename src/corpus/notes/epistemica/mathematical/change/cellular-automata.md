@@ -88,6 +88,10 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 | Time | Discrete steps | Discrete steps |
 | Universality | Turing-complete (TM) | Some CA are Turing-complete |
 
+### Cellular automata as a learning substrate
+
+> The computation section above treats the automaton as a machine. A 2026 line of work makes it a **learning substrate**: *Emergent Models* fix a local rule, iterate it over a latent space for an adaptive number of steps, attach an interface to the external task, and **evolve** the rule rather than differentiating it. The behaviour that solves the task is then an emergent property of the dynamics, not a function fitted to data — which is the automaton's original promise, turned into a training paradigm. See [Emergent Models (2026)](/view.html?p=documents/papers/emergent-models-2026-intelligence-tiny-substrates.md).
+
 ## 🔍 Uses
 
 - **Physics**: Lattice gases, Ising model
@@ -237,3 +241,4 @@ Some cellular automata are **Turing-complete**, meaning they can simulate any al
 - http://bactra.org/notebooks/cellular-automata.html
 - [Subshift of Finite Type](/view.html?p=notes/epistemica/mathematical/change/subshift-of-finite-type.md)
 - [Gun (cellular automaton) — Wikipedia](https://en.wikipedia.org/wiki/Gun_(cellular_automaton)) — the periodic emitter, and Gosper's glider gun as the canonical instance
+- [Morphogenesis](/view.html?p=notes/nature/life/process/morphogenesis.md) — the biological case for the reaction–diffusion automaton

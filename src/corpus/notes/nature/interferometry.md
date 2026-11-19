@@ -21,7 +21,6 @@ tags: [note, nature, natural-system, technique]
 
 ## Related
 
-- [Perturbation Testing](/view.html?p=notes/nature/perturbation-testing.md)
 
 ## Provenance
 

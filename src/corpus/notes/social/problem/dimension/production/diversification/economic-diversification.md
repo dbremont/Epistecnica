@@ -122,3 +122,4 @@ Catch-Up:
 - Blomstrom, M., and A. Kokko. “Foreign Investment as a Vehicle for International Technology Transfer.” *Creation and Transfer of Knowledge*: *Institutions and Incentives.* Edited by G. Barba Navaretti, et. al. 1998.
 
 - Joint Ventures
+- [Clower et al. (1966) — Growth without Development: Liberia](/view.html?p=documents/books/clower-etal-1966-growth-without-development-liberia.md) — the enclave diagnostic the phrase names

@@ -119,3 +119,4 @@ Status: Not started
 - Eoin O'Malley
 [https://scholar.google.com/citations?user=0dJORVgAAAAJ&hl=en](https://scholar.google.com/citations?user=0dJORVgAAAAJ&hl=en)
 - …
+- [Cullen (1968)](/view.html?p=documents/books/cullen-1968-anglo-irish-trade-1660-1800.md) — Anglo-Irish trade, 1660–1800: the composition of the trade and the legislative frame, and how restriction redirected rather than suppressed it.

@@ -32,5 +32,6 @@ tags: [note, vehicles, transport]
 
 ## References
 
+- [Vehicle](https://en.wikipedia.org/wiki/Vehicle) — the carrier reading of the system's product: a vehicle is the object that holds a payload in transit.
 - Produceologia `docs/Production/Industry/Transportation/README.md`
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

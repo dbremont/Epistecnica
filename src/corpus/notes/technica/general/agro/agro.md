@@ -220,3 +220,4 @@ The concept under evaluation is **Agro**, defined above as *the technical domain
 | **V. 2000–2026** | Intensification with limits, food systems, organic and sustainable redesign, planetary boundaries, models and assessments | The environmental and systems frame replaces the yield-only frame |
 
 > The line that runs through the selection: each period's central artefact is a **method as much as a result** — the trial, the hybrid, the selection index, the epidemic model, the response function, the systems model, the assessment. The agricultural literature is unusually explicit about this, which is why it is a good case for reading science as technique.
+- [Irrigation](/view.html?p=notes/technica/general/agro/irrigation.md) — the water lever: methods, scheduling, and the salinisation cost

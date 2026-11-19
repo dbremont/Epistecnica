@@ -249,6 +249,11 @@
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
     "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The DiD technique named in the methods list now links its own note."
    }
   ]
  },
@@ -6031,6 +6036,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "New Guns and gliders subsection in the case studies: the glider as signal, the gun as clocked source (Gosper 1970, the first finite configuration with unbounded growth), the collision-as-computation argument that makes Life and Rule 110 Turing-complete, and a structure table separating still lifes (memory), oscillators (clock), gliders (signal), guns (source) and eaters (sink). Wikipedia article linked."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the new KCNQ1 / morphogenesis note."
    }
   ]
  },
@@ -13185,6 +13195,11 @@
     "summary": "Retarget the links into nature/construction/, where the constructions now live.",
     "commit": "d85772996f7a00f9a95a41af40d1da903998ef9c",
     "before": "d85772996f7a00f9a95a41af40d1da903998ef9c"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Spin Angular Momentum link repointed to the angular-momentum property note."
    }
   ]
  },
@@ -13846,6 +13861,11 @@
     "kind": "refactor",
     "summary": "Move into the structure scope and repoint links.",
     "commit": "12c217ca42a7cc460bacbfd21e123496bd5311af"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Filled the stub: the map as the object of linear algebra, with the matrix as its basis-dependent representation, kernel/image and rank-nullity, the change-of-basis formula and the category reading, and the kinds of map (operator, functional, automorphism, multilinear)."
    }
   ]
  },
@@ -15320,6 +15340,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "Link now points at the Organon atlas page (organon.html); the organon.md companion note was removed."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory."
    }
   ]
  },
@@ -15346,6 +15371,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "Link now points at the Organon atlas page (organon.html); the organon.md companion note was removed."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory."
    }
   ]
  },
@@ -23134,6 +23164,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ \u2192 notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Links into the retired epistemica graph app replaced with the EES atlas."
    }
   ]
  },
@@ -23763,6 +23798,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/system-dynamics.md to epistemica/singular/system-dynamics.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the 15.879 course - the model-building answer to the note's open TODO."
    }
   ]
  },
@@ -42184,6 +42224,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "References now link Mindat as the species database for identifying an ore mineral and its associations."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Lindgren's Mineral Deposits as the genetic classification of ore deposits."
    }
   ]
  },
@@ -42224,6 +42269,11 @@
     "kind": "docs",
     "summary": "Move the note into nature/matter/geological/ beside the other geological matter types.",
     "commit": "f9996376ebd42e21f3053637a437669f96bfa401"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "New Soil Organic Matter section: the four functions (aggregate structure, water retention, cation exchange, carbon storage), the input-loss balance that decides whether it accumulates, and the reading that soil health and carbon farming are claims about organic matter. Wikipedia reference added."
    }
   ]
  },
@@ -54499,6 +54549,11 @@
     "summary": "Add two question sets: the general questions to ask about a mathematical element (essence, role, connection to reality, formalisation, genealogy, sufficient and necessary conditions) and the twelve questions that ground mediation about epistemic practice.",
     "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
     "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Concept link repointed to the epistemic-theory concept note."
    }
   ]
  },
@@ -58328,6 +58383,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ \u2192 notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link into the retired epistemica graph app replaced with the EES atlas."
    }
   ]
  },
@@ -61608,6 +61668,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "References now link the Peace of Westphalia note as the settlement that fixed the Empire's constitution until 1806."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Kaps (2018) on the internal core-periphery relation and Pichler (2001) on Austrian Lombardy added to the references; the existing Jeremy (1977) citation now links its document entry."
    }
   ]
  },
@@ -61672,6 +61737,11 @@
     "summary": "QA on evaluation and monitoring, with the Scottish progress review and the innovation-centre programme evaluation cited as the worked examples.",
     "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
     "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the GAO note."
    }
   ]
  },
@@ -61705,6 +61775,11 @@
     "summary": "Research-actor type gains the institutional-form axis. A kind branch under National Laboratory now carries the ownership-and-operation arrangement \u2014 Institutional Form, with Government-Owned Contractor-Operated Laboratory (state owns site, facilities and instruments and funds the programme; a university or nonprofit operates under a management-and-operating contract) and its Government-Owned Government-Operated counterpart \u2014 on the pattern the Polity note uses for Constitutional Form. The form is a kind branch and not a second type because it fixes ownership, employment and accountability while leaving the research function unchanged; a prose paragraph in the instance answer says so and points to the worked instance. The United States Research System Set gains one instance row for Ames National Laboratory beside the NSF and DARPA rows, so the new note sits in the type's own tree rather than only in the catalog.",
     "commit": "fb0ff7c822a7b73c962768ead6152bea7c830ed6",
     "before": "ce990d76788d54f198417681d25f5af9fd29eca2"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
    }
   ]
  },
@@ -63574,6 +63649,16 @@
     "kind": "refactor",
     "summary": "Move from history/soviet-union/readme.md to social/history/soviet-union/readme.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Section opened with an orientation to its three notes and given a grouped reading list - anatomy, planning record, the firm, shortage, the second economy, growth and technical change, science - linking the new document entries."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "refactor",
+    "summary": "Folded the separate Soviet Economic System note into this section master \u2014 the command-economy analysis (planning hierarchy, the firm, shortage, agency, second economy, growth and technical change, reform dilemma) now sits here under \"The Economic System\", with the grouped works set and the two clearing-union references (Eichengreen 1993, Keynes 1943) added to the section. The separate note was removed."
    }
   ]
  },
@@ -64028,6 +64113,11 @@
     "kind": "move",
     "summary": "Move from technica/ais/application/model-context-protocol-mcp.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Cache-to-Cache as the latent-interface counter-position to a text-shaped protocol."
    }
   ]
  },
@@ -66372,6 +66462,16 @@
     "kind": "move",
     "summary": "Move from technica/ais/inference/quantization.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the 2026 ternary-LLM paper on the 1.58-bit barrier and the packing overhead of deployed formats."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The ternary-LLM reference now points at the document entry."
    }
   ]
  },
@@ -66624,6 +66724,11 @@
     "kind": "move",
     "summary": "Move from technica/ais/synthesis/knowledge-distillation.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Rewritten from a one-line definition to the two uses of the technique: compression (a large teacher into a smaller student) and integration (many specialists into one generalist), with the on-policy correction explained through the exposure-bias argument and the integration case documented by MOPD."
    }
   ]
  },
@@ -67098,6 +67203,11 @@
     "kind": "move",
     "summary": "Move from technica/ais/synthesis/training.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the MiMo-7B report as the pretraining-primes / RL-releases recipe claim."
    }
   ]
  },
@@ -68578,6 +68688,11 @@
     "kind": "move",
     "summary": "Move from technica/ais/system/system.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Control System note."
    }
   ]
  },
@@ -68636,6 +68751,11 @@
     "kind": "move",
     "summary": "Move from technica/ais/theory/llm-system-modelling.md: the scope is named for what it studies \u2014 cybernetics, the control and inference of systems through feedback \u2014 rather than for the abbreviation that had come to stand for the machine-learning shelf.",
     "commit": "61924ec693a57e409a2e72a60394b31c684a3684"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Cache-to-Cache on the model-to-model interface."
    }
   ]
  },
@@ -69003,6 +69123,16 @@
     "summary": "Move images to the shared /assets/ store and update the references.",
     "commit": "feed6a551203b75b1968e5a2925bbf8a8e890e72",
     "before": "f22da359e0b9733c86bad2a1c3e8310f2f8db3b3"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the 2026 proof of the k-server conjecture (work function algorithm attains ratio k)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The k-server reference now points at the document entry rather than the raw arXiv URL."
    }
   ]
  },
@@ -70317,6 +70447,11 @@
     "kind": "move",
     "summary": "Move from technica/computation/data-system/data-system-conceptual-model/data-backup.md: the data-system-conceptual-model wrapper is dissolved \u2014 technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
     "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem."
    }
   ]
  },
@@ -70834,6 +70969,11 @@
     "kind": "move",
     "summary": "Move from technica/computation/data-system/data-system-conceptual-model/relational-data-system-query-optimization.md: the data-system-conceptual-model wrapper is dissolved \u2014 technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
     "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry Bansal's QORL post (a 4B model emitting planner hints, with Postgres executing each candidate as the reward oracle) as a reference only - no new section."
    }
   ]
  },
@@ -71114,6 +71254,11 @@
     "kind": "move",
     "summary": "Move from technica/computation/data-system/data-system-conceptual-model/very-long-term-backup-system.md: the data-system-conceptual-model wrapper is dissolved \u2014 technica/computation/data-system already names the subject, so the note sits beside that dir entry page and the extra level, which repeated the same word, is gone.",
     "commit": "b0ae10bcec8e65d6fad5b38633892fc3fa86e2c0"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem."
    }
   ]
  },
@@ -95712,6 +95857,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ \u2192 notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Shadow-banking and structured-finance references added: Gorton, Coval et al., Adrian & Shin, Brunnermeier et al."
    }
   ]
  },
@@ -98045,6 +98195,11 @@
     "summary": "add McCarthy kinematics and Cannas da Silva symplectic geometry references",
     "commit": "ce622cca5a84faecad277ee6c64bc7e82b216798",
     "before": "ffb18ea9cff958bfc5fd8b1502d44cddd70fc422"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Control System note."
    }
   ]
  },
@@ -112230,6 +112385,11 @@
     "kind": "move",
     "summary": "Move from production/catalog/good/semiconductor/readme.md: the semiconductor product space lists concrete goods, and the shelf that decomposes the Good holds them.",
     "commit": "7aa5808ad7591f392abc51c365b274e331eb7ed1"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Semiconductor readme link repointed after the corpus reorganisation."
    }
   ]
  },
@@ -112552,6 +112712,11 @@
     "summary": "Point the nucleus link at Atom, the bound system that remains, now that the atomic-nucleus stub is gone.",
     "commit": "f69d82d3d95f853a66f64c47618f40990425ec9d",
     "before": "f69d82d3d95f853a66f64c47618f40990425ec9d"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Fermions link repointed to the Fermion note."
    }
   ]
  },
@@ -112751,6 +112916,11 @@
     "summary": "New good: the tapped exudate sold as the naval-stores pair. The note gives the three pine supply routes (gum, wood, tall oil) and why tall-oil rosin sets the marginal price, the colour and acid-value grading, and the value reading \u2014 a feedstock priced by grade rather than a branded product.",
     "commit": "347da1f21d117937145e284b5365bd0513d7c76a",
     "before": "b72268784e2c80bef48fad0205d97bb001aba204"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Forest-industry readme link repointed after the corpus reorganisation."
    }
   ]
  },
@@ -122466,6 +122636,11 @@
     "kind": "move",
     "summary": "Move from epistemica/mathematical/mapping/convolution-operator.md: the operation behind every linear filter.",
     "commit": "e03a1a05a50addd84e409596654e448965ad4053"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now distinguish the general convolution operation from the operator reading this note develops."
    }
   ]
  },
@@ -122585,6 +122760,11 @@
     "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note.",
     "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
     "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Two additions. Industrial policy now has a transformation block: the instrument menu of the transition (tax preferences, subsidies, guarantees, protection, restructuring programmes, settlement proceedings, institutions), the ministry's own account and Kozuch's academic treatment, and the FDI channel with its measured limit (Weresa: correlated with innovation except in low-technology branches; Domanski & Gwosdz: strong production upgrading, weak R&D and design, localized capabilities as both embedding and ceiling). And a new Firms Competing Internationally section: 20 firms with products, international competitors and the mechanism of survival, read in three clusters - defence and optoelectronics on procurement politics, rail and heavy vehicles upgraded from repair works, software/photonics/instruments with non-state first customers."
    }
   ]
  },
@@ -122705,6 +122885,11 @@
     "kind": "move",
     "summary": "Move from epistemica/mathematical/method/approximation/discretization.md: a computational procedure rather than a mathematical approximation: it replaces the continuum by a mesh so a machine can solve it, and it belongs beside the other numerical methods.",
     "commit": "6606969ade90285a706928c0bc36b3aeeff86ea6"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Taylor's theorem link repointed to the Taylor representation note."
    }
   ]
  },
@@ -123176,6 +123361,11 @@
     "summary": "References: the laser Doppler vibrometer added beside radar, with the note that its shift is doubled by the return path.",
     "commit": "f5f850b2a578d33450f231ced13a4dfe15ae9fe9",
     "before": "3d930ec38d4f937308bd3bce764154ec278bd598"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Radar link repointed to the fisicatecnica radar note."
    }
   ]
  },
@@ -123449,6 +123639,16 @@
     "summary": "References, England list: John Cary linked \u2014 the merchant on trade, employment and the poor whose manufactures-and-shipping argument the industrial policy in this note descends from.",
     "commit": "9c1fa9dfd1491f81bf6b79f2b67afdfb83afcfad",
     "before": "4382894b7b550c82929b56dff24ab49f4a253194"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Anglo-Dutch wars."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Macinnes (2007) added: the 1707 union read as an imperial project rather than only a parliamentary merger."
    }
   ]
  },
@@ -123767,6 +123967,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "References now link the Representation Systems design note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Kolvani & Nistotskaya on the two mechanisms of meritocratic recruitment - competence and impartiality - and why the conflation in standard indices blocks the causal claim."
    }
   ]
  },
@@ -124186,6 +124391,11 @@
     "kind": "feat",
     "summary": "New actor instance: Ames National Laboratory, from ameslab.gov. Typed as a Research Actor of the National Laboratory kind, with the type answer doing the work rather than the label: readable secondarily as a Public Organization only through its sponsor, since the laboratory is not a government body; explicitly not a Government Research Agency (that is DOE's Office of Science), not a University Research Unit (the campus is the site, not the owner) and not an Enterprise Research Lab. New section 'Institutional Form of This Research Organization' sets out the government-owned, contractor-operated form part by part: federal ownership of the site and facilities with the Ames Site Office on site; operation by Iowa State University under contract No. DE-AC02-07CH11358; a mission and budget set by the Department with the contractor executing (~450 employees, ~$65M a year, stated as the laboratory's own figures); and the boundary that follows \u2014 student access and joint faculty appointments, which is also why the actor is not a university research unit. The uniqueness among the seventeen DOE laboratories in sitting on a major research university's campus is attributed to the laboratory rather than asserted. Further sections give the research programme (four divisions, four named programmes, the Materials Preparation Center and Sensitive Instrument Facility), the history from the 1942 Ames Project through the 1947 Atomic Energy Commission establishment, and the place in the field (rare-earth separation as the wartime competence and critical materials as its national-scale successor). The NASA Ames Research Center that shares the name is disambiguated in the intro. References integrated as one list: the three pages read (about, Manhattan Project roots, DOE contract), the two facility pages, and the corpus links to Research Actor, Public Organization, Organization, Research Activity, Rare Earth and Rare Earth Elements.",
     "commit": "fb0ff7c822a7b73c962768ead6152bea7c830ed6"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Rare-earth link repointed to the rare-earth-elements note."
    }
   ]
  },
@@ -124197,6 +124407,11 @@
     "kind": "feat",
     "summary": "New persona instance: Georgius Agricola (born Georg Bauer, 1494-1555), from the Wikipedia article and the corpus's own Agricola holdings. The note is written from his placement rather than from a biographical outline: a humanist who spent his working life in the mining towns of the Erzgebirge \u2014 town physician in Joachimsthal from 1527 and in Chemnitz from 1533, lord mayor of Chemnitz in 1546, 1547, 1551 and 1553, historiographer to Duke George \u2014 which is why his books came from the workings rather than from the library. New section 'The observation-based treatise' quotes the preface's evidential warrant verbatim (excluding what he had not himself seen or read or heard of), sets out the twelve books' scope, the woodcut machinery, fire-setting as a method described as already obsolete, the displacement of Pliny as the standard source with a two-century run, the German-glossary appendix and the words that survive from it (fluorspar, bismuth, basalt), and the 1912 Hoover translation. A nine-row Works table gives the attested titles with dates and what each is, with a note that the printing year of De ortu et causis subterraneorum is given as 1544 or 1546 and that the corpus's scientific-literature guide uses 1546. Two claims are kept at their real strength: the chymia naming is attributed to the sources rather than asserted, and the fossil error is stated plainly \u2014 the man usually called the father of mineralogy held that fossil shells were shaped by a materia pinguis fermented by heat rather than being the remains of living animals. The portrait is captioned as the fictive 1927 likeness it is. Section 'Place in the corpus' links the document the corpus actually holds (documents/books/agricola-1556-de-re-metallica.md, with its verified scans), the two historical-literature guides, the mechanical-system reading list, the mining system and sector, and mineral. A QA entry answers what the corpus holds of him: one work as a document, three more only as guide rows, no scan checked. References integrated into one list.",
     "commit": "c97b71a2853860a894c6fdfb4379474ce563bbcc"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Mining and mechanical-technique links repointed after the corpus reorganisation."
    }
   ]
  },
@@ -124493,6 +124708,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/chemical-engineering.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Materials-technology readme link repointed after the corpus reorganisation."
    }
   ]
  },
@@ -124533,6 +124753,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/developmental.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Liberia growth-without-development survey and the Korea/Taiwan comparison."
    }
   ]
  },
@@ -124543,6 +124768,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/earth-science.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Remote-sensing link repointed to the production/industry note."
    }
   ]
  },
@@ -124563,6 +124793,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/economic-research.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link von Tunzelmann's survey of the evidence and Guha's evolutionary hypothesis."
    }
   ]
  },
@@ -124623,6 +124858,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/innovation.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link von Tunzelmann, Guha's evolutionary view and the Positive Sum Strategy."
    }
   ]
  },
@@ -124773,6 +125013,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/statistics.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Edgeworth persona note."
    }
   ]
  },
@@ -124793,6 +125038,11 @@
     "date": "2026-11-18",
     "kind": "move",
     "summary": "Moved from epistemica/epistemic/discipline/welfare.md into the single discipline shelf at miscellanea/discipline/. The note carries the `discipline` tag so the discipline reading is inferred from the annotation, not from the old directory."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Edgeworth persona note."
    }
   ]
  },
@@ -125108,6 +125358,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "The top-50 agricultural literature list is now carried in the note's own References, under its own subheading, instead of pointing at a separate guide note; the five period sections, the 50 linked entries and the period-reading table are unchanged."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the irrigation note."
    }
   ]
  },
@@ -126378,6 +126633,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "References now link the fixed-income modelling note, the modelling stack for the debt assets."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Structured-finance and crisis references added: Gorton (2008), Coval/Jurek/Stafford (2009), Brunnermeier/Gorton/Krishnamurthy (2012), Adrian & Shin (2009)."
    }
   ]
  },
@@ -126418,6 +126678,11 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "New natural note: bioenergy as the chemical energy stored in biological molecules, typed as an Interaction-Derived Quantity and distinguished from both a substance and a mechanism. Decomposes the carrier forms (wood and residues, energy crops, biogas, liquid biofuel, organic waste), the attributes that decide the yield (energy content, moisture, carbon-to-oxygen ratio, ash), the release mechanisms (combustion, anaerobic digestion, fermentation, gasification and pyrolysis, cellular respiration) and the environmental bound; adds the forms and mechanisms tables, the conversion chain from sunlight to useful energy with the photosynthetic-efficiency and land-use arithmetic, and the carbon-cycle reading. Carries the fuel-molecule-as-energy-carrier distinction and links the energy-carrier, type-of-energy, energy-transformation, chemical-processes and technica energy notes."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Type of energy link repointed to the energy property note."
    }
   ]
  },
@@ -126438,6 +126703,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "The Clapham citation now links the book entry added to the documents corpus."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Clapham's comparative economic history."
    }
   ]
  },
@@ -126503,6 +126773,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "New Actors section: the seven industrial-policy organisations (MOTIR, KIET, KEIT, KIAT, KISTEP, KDB, KOTRA) with their principal roles and the industrial-policy capacity each offers an investigation, plus a note that the ministry's MOTIR and MOTIE designations still need reconciling."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Korea/Taiwan comparative study."
    }
   ]
  },
@@ -126693,6 +126968,11 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "New Public Policy Research Actors section, after the R&D actors: three views of the policy-research field - the policy research institutions (GRIPS, GRIPS Alliance, CREPE, RIETI, NIRA, ESRI) with type and relevance, the ministry-attached administrative research institutes (public administration, JILPT, IPSS, NIER, information and communications, CPRC) with their domains, and the research centres and academic groups (CREPE, the two GRIPS centres, CiNii) as the router into the Japanese-language literature. Closes on affiliation not being influence."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Green's Arming Japan beside the industrial-policy material."
    }
   ]
  },
@@ -126993,6 +127273,11 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "New activity/type note: audit as independent verification of an agent's account, with the four elements (account, standard, independence, recipient) and the cost of each omission; the type table (financial/regularity, compliance, performance, internal, external/supreme, forensic, certification) and the argument that regularity and performance audits are different kinds rather than degrees; independence as a design of tenure, access, publication and a named recipient; and the three failure modes (audit capture, ritual compliance, Power's audit society) read against the corpus's stress-test framing."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the GAO as the legislative instance, and name the third audit product the note lacked."
    }
   ]
  },
@@ -127003,6 +127288,11 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "New actor note: the Algemene Rekenkamer as a supreme audit institution and High Council of State - mandate, powers, tenure, the separation of the regularity audit from the performance audit (a government can pass the first and fail the second), and the reading of the Dutch arrangement as hard-wiring all four independence parameters."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now cross-link the GAO as the legislative contrast."
    }
   ]
  },
@@ -127023,6 +127313,826 @@
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "Both Court of Audit mentions (High Councils of State; statutory bodies) now link the new institution note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the KNAW note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/agro/irrigation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New technique note: irrigation - the application methods (surface, sprinkler and pivot, drip and subsurface drip, sub-irrigation) with what each buys and costs, scheduling by evapotranspiration and soil moisture with deficit irrigation, the two structural long-run costs (waterlogging and salinisation, with the leaching-and-drainage requirement), and irrigation read as a system whose institution - water rights, allocation and pricing - is part of the technique."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/3d-printing.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New technique note: 3D printing / additive manufacturing - the process family (material extrusion, vat photopolymerisation, powder bed fusion, binder jetting, directed energy deposition) with materials and tolerances, what the technique buys (no tooling, geometry that could not exist otherwise, consolidation), what it costs (surface finish, anisotropy, flat per-part cost, the qualification burden), and the process chain with post-processing as the hidden cost centre."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/stationary-energy-storage.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "New Battery Energy Storage Systems section: lithium-ion as the dominant grid chemistry, the services a BESS sells (frequency response, arbitrage, capacity and firming, congestion), and the three engineering realities that set asset life (degradation and augmentation, thermal runaway and the safety codes, round-trip efficiency and duration). Wikipedia reference added."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/cnc-machining.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the 3D printing note as the additive counterpart."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/cybernetics/control-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New technical note: the control system as a feedback loop (reference, sensor, controller, actuator, plant, disturbance) with what fails when each element is absent; the taxonomy by principle and by timescale (open-loop, feedback, feedforward, cascade, PLC sequencing, MPC, supervisory), the PID table with the cost of over-tuning each term, the speed-against-stability trade stated as margins, and the SCADA section with the Purdue/ISA-95 layer table - control must not depend on the network, and SCADA security is a physical-safety problem rather than a data-confidentiality one."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/automation-regime.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Control System note."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/molecular/kcnq1.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New molecular note: KCNQ1 and its channel Kv7.1 - the I_Ks complex with KCNE1, its role as the rate-dependent repolarisation reserve in the heart, its expression in the stria vascularis and epithelia, and the phenotype table (dominant long QT type 1, recessive Jervell and Lange-Nielsen with congenital deafness, gain-of-function atrial fibrillation); read as the cleanest lesion-versus-phenotype case, with the pharmacology point that a channel's role is rate- and tissue-dependent."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/process/morphogenesis.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New process note: morphogenesis as the generation of form - the two explanatory programmes (positional information and Turing-style self-organisation) with the honest state of their dispute, the cell behaviours that execute a pattern (proliferation, apoptosis, apical constriction, convergent extension, migration, adhesion change), the mechanics of differential growth and tension that genetics alone does not predict, and the canonical instances from gastrulation and somites to limb digits and regeneration."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/cell/ion-channel.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the new KCNQ1 / morphogenesis note."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/process/growth-and-development.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the new KCNQ1 / morphogenesis note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/action/public/productive-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry Jacobs & Imas on economic policy for AGI - the eleven responses and the negative correlation between popular support and scenario durability."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Jeremy (1977) added: the British prohibition on the outflow of technicians and machinery, 1780-1843, and why the legal technology monopoly leaked."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/esp/spain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Guatemalan Amigos del Pais society (1794) as a colonial member of the Spanish Enlightenment network."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The Guatemalan society reference now points at the corpus note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/research/gtm/real-sociedad-economica-de-amantes-de-la-patria.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New learned-society note: the 1794 Guatemalan Amigos del Pais society as the colonial instance of an institutional export - the chartered corporation of notables, the prize-question method as research funding before research funding existed, the periodical press as its instrument, and the absorption of its functions by the republican state."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Internet Archive creator search for the society's own publications."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/promotion-agency.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New type note: the promotion agency as the pre-history of the development agency - the function and instrument table (premiums, schools, model farms, exhibitions, standards, statistics) and the four institutional forms in a line of descent (state inspection 1669, chartered improvement society 1731-1775, industry technical society 1855, development agency 20th c.), with the Irish case as the unbroken single line."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The line of descent gains the 1801 national encouragement society, and the references carry the CNAM digitised Bulletin (BSPI) as a primary record."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/royal-dublin-society.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Royal Dublin Society (1731) as arguably the first organisation dedicated to technical-productive improvement, with the premium, school, trial and publication instruments and the reasoned claim (it paid for improvement rather than regulating it), plus the split of its functions into the modern Irish agencies."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/royal-society-of-arts.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Royal Society of Arts (1754) as the London promotion agency - premiums, exhibitions, the technical examinations, standards - and the manufacturing emphasis that distinguishes it from the Dublin society."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/amigos-del-pais.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Amigos del Pais network (Basque 1765, Madrid 1775) as the promotion agency's network variant - the chartered economic society, its instruments, the explicitly imitated statutes as an institutional export, the Guatemalan colonial instance and the decline into state functions."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Internet Archive creator search for the Guatemalan member's publications."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/societe-industrie-minerale.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Societe de l'industrie minerale (1855) as the sectoral turn - congresses, revue, statistics and safety standards, with the industry rather than the state or civic elite as carrier."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/france-inspection-des-manufactures.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Inspection des manufactures (1669) as the regulatory form - reglements, travelling inspectors, quality marks and industrial statistics, abolished in 1791 and succeeded by the labour inspectorate and standards bodies; the inspection-association-agency sequence stated."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/development/societe-encouragement-industrie-nationale.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Societe d'encouragement pour l'industrie nationale (1801) as the national encouragement society - premiums and medals, expert commissions that tested machines, and the Bulletin as clearing-house; the CNAM digitised run (BSPI) recorded as the primary source, and the position in the sequence as the post-revolutionary transition between the civic society and the sectoral society."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/geological-resource-development-technical-domain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the three-layer exploration literature: Lindgren's genetic classification, Kuzvart & Bohmer's prospecting-and-exploration manual, and Solovov's geochemical prospecting."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/oto/ottoman-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the governance triad: Ottomanism (civic loyalty across confessions), Phanariots (the minority intermediary elite) and the millet system (the confessional legal unit)."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/fra/france.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Clapham's comparative economic history."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/firm/corning-incorporated.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New firm note: Corning as process leverage in glass - the market sequence (bulb ribbon machine, Pyrex, fibre optics, catalytic substrates, LCD glass, Gorilla Glass), the dormant-capability case of Chemcor shelved for forty years, and the exposure that follows from having one competence."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/nld/royal-netherlands-academy-of-arts-and-sciences.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: KNAW as the Dutch national academy - 1808 origin, elected membership, advisory function, hosted institutes - and the three-pillar reading of the Dutch system against the Czech and Polish state academies (funding, applied research and recognition kept apart)."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/materiotecnia/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Corning firm note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/nld/nwo/dutch-research-council-nwo.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the KNAW note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/gilles-deleuze.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Nietzsche and Philosophy entry."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/al-farabi.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Walzer edition of On the Perfect State - the primary text beside the encyclopaedia entries."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/technical/technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link von Tunzelmann on technology and industrial progress and Landau & Rosenberg on the positive-sum strategy."
+   }
+  ]
+ },
+ {
+  "file_path": "social/synontic/ideational/developmentalism.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Liberia enclave case and the Korea/Taiwan comparison."
+   }
+  ]
+ },
+ {
+  "file_path": "social/problem/dimension/production/diversification/economic-diversification.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Liberia survey that names growth without development."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/twn/taiwan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Korea/Taiwan comparative study."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/technical/intersection/research-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/breviarium/an-essay-on-enterprise-research-labs.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Engines of Innovation on the same institution."
+   }
+  ]
+ },
+ {
+  "file_path": "social/structural/technical/research.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/capital-labor/labor.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Cyert & Mowery on technology, employment and the compensation argument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/administration/government-accountability-office.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the GAO as the legislative audit institution - the Comptroller General's single 15-year term, the 1921 General Accounting Office to 2004 renaming, and the three products (regularity, performance, and risk designation through the High-Risk List) plus its standard-setting role through GAGAS and the bid-protest jurisdiction."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/defense/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Green's Arming Japan."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/defense-systems.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Green's Arming Japan."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/usa/united-states-of-america-usa.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the GAO note."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/a-guide-to-historical-scientific-literature.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Documents-corpus README link repointed to the static /corpus route."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/interferometry.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Removed a reference to the deleted perturbation-testing note, which has no successor."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/breviarium/a-guide-to-profile-an-industry.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Industry-type link repointed to the production-research type note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/breviarium/technique/regime/technoetism.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Software-production readme link repointed after the corpus reorganisation."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/openapi.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "GraphQL link repointed to the general note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/plant-health-technical-set.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Remote-sensing link repointed to the production/industry note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/separation-science-and-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Rare-earth link repointed to the rare-earth-elements note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/firm/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Toolkit readme link repointed to technica/production/firm/toolkit."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/firm/toolkit/investment/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Finance readme link repointed to the toolkit finance shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/laser-doppler-vibrometer.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Radar links repointed to the fisicatecnica radar note."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/retail/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Industry readme link repointed after the corpus reorganisation."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/truck.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Radar link repointed to the fisicatecnica radar note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/firm/reckitt.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New firm note: Reckitt as brand leverage - the powerbrand portfolio, acquisition-led growth (SSL, Mead Johnson), low R&D against high marketing, and the infant-formula litigation as the case where a brand-only asset has nothing technical to fall back on."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/firm/china-hongqiao-group.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New firm note: China Hongqiao as electricity solidified - the integrated alumina/smelting/captive-power cluster, the two relocations (to Guinea ore and to Yunnan hydro), and the 2017 capacity cap that turned scale into a permit rent."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/firm/societe-miniere-de-boke.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New firm note: SMB as infrastructure-for-resource - the mine, rail and Dapilon terminal financed by offtake, displacing established producers within five years, and the Simandou extension of the same model."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/isr/technion-israel-institute-of-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Technion as technical infrastructure - the engineering school built before the industry, its Nobel chemistry faculty, and the argument that the transferable part of the Israeli case is the university rather than the culture."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/chn/chengdu-aircraft-research-and-design-institute.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New actor note: the Chengdu design institute - the \u6240/\u5382 separation and the chief-designer authority, the J-7 to J-10 to J-20 ladder from copying to designing to integrating, and the contrast with the US mission-agency model."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/francis-ysidro-edgeworth.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New persona note: Edgeworth as the man who made welfare and uncertainty into quantities - the box and contract curve, the conjecture proved by Debreu and Scarf, the expansions in statistics, and the limits of the hedonic calculus."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/ecosystem/pontic-caspian-steppe.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New natural note: the Pontic-Caspian steppe as disturbance-maintained grassland and as the steppe corridor - chernozem, grazers, ploughing as a change of type, and the case where physical and historical classification pick out the same object."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/economic/inflation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the GDP deflator article."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/dut/dutch-republic.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Anglo-Dutch wars."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/isr/israel.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Technion note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/catalog/research/chn/cas/chinese-academy-of-sciences-cas.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Chengdu design-institute note."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/ecosystem/biome.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Pontic-Caspian steppe note."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/observational/decision/risk.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New general concept note on risk: the hazard/exposure/vulnerability decomposition, Knight's risk-uncertainty distinction with ambiguity and model uncertainty after it, the three families of measurement (expected loss, dispersion, tail measures), risk perception as a social reading, and the corpus instances (country risk, the Dominican system, the safety store)."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/matter/state/amorphous-solid.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New state note: the amorphous solid as a kinetically arrested configuration rather than an equilibrium phase, with the glass transition, short-range order and isotropy, the classes (silicate, metallic, polymer, amorphous ice) and devitrification as the bound."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/spore.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New organism-level note on the spore as a strategy rather than a taxon: the bacterial endospore (survival), fungal conidia and ascospores (dispersal), plant micro- and megaspores (life cycle), dormancy and desiccation resistance, and germination condition as the bound."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/fungus/mycosphaerella-fijiensis.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New pathogen note on the black Sigatoka fungus: teleomorph/anamorph naming (Mycosphaerella fijiensis / Pseudocercospora fijiensis), ascospore versus conidium as long- and short-range inoculum, the Cavendish monoculture and fungicide treadmill, with latent period, spore load and leaf wetness as the epidemiological quantities."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/causality/difference-in-differences.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New method note on difference in differences: the 2x2 estimator and its regression forms, parallel trends and the checks that probe it, the Goodman-Bacon decomposition of two-way fixed effects under staggered adoption, the Callaway-Sant'Anna / Sun-Abraham / imputation remedies, and the clustering problem."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/transportation-vehicles.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the vehicle as the carrier of a payload in transit, against the production-system reading of the note."
+   }
+  ]
+ },
+ {
+  "file_path": "social/normative/institution/joint-entrance-examination.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "New institution note on the JEE: the two tiers (Main and Advanced) and their examining bodies, the rank as the product, multi-session percentile normalisation as the measurement problem, reservation and home-state quota inside the rank, and the coaching equilibrium and curriculum backwash the institution produces."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/biotechnology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Repaired the companion-practice link to the marketing technical-practice note at its current path."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/irl/ireland.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Cullen (1968) added: the composition of Anglo-Irish trade, 1660-1800, and how the restrictions redirected rather than suppressed it."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/public/polity/ita/italy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Pichler (2001) added: economic policy and development in Austrian Lombardy, 1815-1859."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/money/monetary-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Clearing-union and monetary-union literature added: Keynes (1943), Eichengreen (1993), Debrun/Masson/Pattillo (2010), Oyadeyi (2024), Pettifor (2024), Van Riet (2023), Whyman (2015), Johnson (2023), Mazier & Valdecantos (2019), UNECA (n.d.)."
+   }
+  ]
+ },
+ {
+  "file_path": "social/coordinator/money/icc.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Monetary-union references added to the exchange-rate note: Whyman, Mazier & Valdecantos, Pettifor, Van Riet."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/a-guide-to-historical-technical-literature.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Aubuisson de Voisins, Traite d hydraulique a l usage des ingenieurs (1840) added to Ars Civilis beside Belidor: flow, discharge measurement, water-raising machinery and canals."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/actor/private/persona/ronald-fisher.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Persona stub filled: Fisher as scientific actor, with a nine-work set (1918 quantitative genetics, 1922 mathematical foundations, 1924 F distribution, 1925 Statistical Methods, 1925 theory of estimation, 1930 Genetical Theory, 1935 Design of Experiments, 1936 discriminant analysis, 1950 Contributions), the contested eugenics record stated, and the 1922 paper and Uusipaikka reading linked."
    }
   ]
  }

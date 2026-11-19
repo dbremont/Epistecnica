@@ -120,5 +120,5 @@ The practical content: "a spinor" is meaningless without the field and the signa
 - [Orthogonal Group](/view.html?p=notes/epistemica/mathematical/structure/algebra/orthogonal-group.md) — $\pi_1$ and the covering
 - [Minkowski Space](/view.html?p=notes/epistemica/mathematical/space/minkowski-space.md) — the signature that produces Weyl, Dirac and Majorana
 - [Tensor](/view.html?p=notes/epistemica/mathematical/tensor/tensor.md) — the class of objects a spinor is not in
-- [Spin](/view.html?p=notes/nature/property/spin.md) and [Spin Angular Momentum](/view.html?p=notes/nature/spin-angular-momentum.md) — the physical reading of the same object
+- [Spin](/view.html?p=notes/nature/property/spin.md) and [Spin Angular Momentum](/view.html?p=notes/nature/property/angular-momentum.md) — the physical reading of the same object
 - [Dirac Equation](/view.html?p=notes/nature/dirac-equation-relativistic.md) and [Dirac Field](/view.html?p=notes/nature/matter/elementary/dirac-field.md) — where the spinor becomes a field

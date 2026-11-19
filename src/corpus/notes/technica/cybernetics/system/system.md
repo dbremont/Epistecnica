@@ -603,3 +603,4 @@ Conceptual Model: ML System
 - https://www.bassimeledath.com/blog/levels-of-agentic-engineering
 - https://lilianweng.github.io/posts/2021-05-31-contrastive/
 - https://llm-timeline.com/
+- [Control System](/view.html?p=notes/technica/cybernetics/control-system.md) — the loop, PID, and the SCADA supervisory layer above it
