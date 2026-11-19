@@ -253,7 +253,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "The DiD technique named in the methods list now links its own note."
+    "summary": "The DiD technique named in the methods list now links its own note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -6040,7 +6042,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the new KCNQ1 / morphogenesis note."
+    "summary": "References now link the new KCNQ1 / morphogenesis note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -13199,7 +13203,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Spin Angular Momentum link repointed to the angular-momentum property note."
+    "summary": "Spin Angular Momentum link repointed to the angular-momentum property note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -13865,7 +13871,9 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "Filled the stub: the map as the object of linear algebra, with the matrix as its basis-dependent representation, kernel/image and rank-nullity, the change-of-basis formula and the category reading, and the kinds of map (operator, functional, automorphism, multilinear)."
+    "summary": "Filled the stub: the map as the object of linear algebra, with the matrix as its basis-dependent representation, kernel/image and rank-nullity, the change-of-basis formula and the category reading, and the kinds of map (operator, functional, automorphism, multilinear).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -15344,7 +15352,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory."
+    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -15375,7 +15385,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory."
+    "summary": "Link to the removed experiment.csv collection repointed to the dated-cases directory.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -23168,7 +23180,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Links into the retired epistemica graph app replaced with the EES atlas."
+    "summary": "Links into the retired epistemica graph app replaced with the EES atlas.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -23802,7 +23816,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the 15.879 course - the model-building answer to the note's open TODO."
+    "summary": "References now link the 15.879 course - the model-building answer to the note's open TODO.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -42228,7 +42244,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Lindgren's Mineral Deposits as the genetic classification of ore deposits."
+    "summary": "References now link Lindgren's Mineral Deposits as the genetic classification of ore deposits.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -42273,7 +42291,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "New Soil Organic Matter section: the four functions (aggregate structure, water retention, cation exchange, carbon storage), the input-loss balance that decides whether it accumulates, and the reading that soil health and carbon farming are claims about organic matter. Wikipedia reference added."
+    "summary": "New Soil Organic Matter section: the four functions (aggregate structure, water retention, cation exchange, carbon storage), the input-loss balance that decides whether it accumulates, and the reading that soil health and carbon farming are claims about organic matter. Wikipedia reference added.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -54553,7 +54573,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Concept link repointed to the epistemic-theory concept note."
+    "summary": "Concept link repointed to the epistemic-theory concept note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -58387,7 +58409,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Link into the retired epistemica graph app replaced with the EES atlas."
+    "summary": "Link into the retired epistemica graph app replaced with the EES atlas.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -61672,7 +61696,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Kaps (2018) on the internal core-periphery relation and Pichler (2001) on Austrian Lombardy added to the references; the existing Jeremy (1977) citation now links its document entry."
+    "summary": "Kaps (2018) on the internal core-periphery relation and Pichler (2001) on Austrian Lombardy added to the references; the existing Jeremy (1977) citation now links its document entry.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -61741,7 +61767,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the GAO note."
+    "summary": "References now link the GAO note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -61779,7 +61807,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -63658,7 +63688,9 @@
    {
     "date": "2026-11-19",
     "kind": "refactor",
-    "summary": "Folded the separate Soviet Economic System note into this section master \u2014 the command-economy analysis (planning hierarchy, the firm, shortage, agency, second economy, growth and technical change, reform dilemma) now sits here under \"The Economic System\", with the grouped works set and the two clearing-union references (Eichengreen 1993, Keynes 1943) added to the section. The separate note was removed."
+    "summary": "Folded the separate Soviet Economic System note into this section master \u2014 the command-economy analysis (planning hierarchy, the firm, shortage, agency, second economy, growth and technical change, reform dilemma) now sits here under \"The Economic System\", with the grouped works set and the two clearing-union references (Eichengreen 1993, Keynes 1943) added to the section. The separate note was removed.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -64117,7 +64149,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Cache-to-Cache as the latent-interface counter-position to a text-shaped protocol."
+    "summary": "References now link Cache-to-Cache as the latent-interface counter-position to a text-shaped protocol.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -66471,7 +66505,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "The ternary-LLM reference now points at the document entry."
+    "summary": "The ternary-LLM reference now points at the document entry.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -66728,7 +66764,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Rewritten from a one-line definition to the two uses of the technique: compression (a large teacher into a smaller student) and integration (many specialists into one generalist), with the on-policy correction explained through the exposure-bias argument and the integration case documented by MOPD."
+    "summary": "Rewritten from a one-line definition to the two uses of the technique: compression (a large teacher into a smaller student) and integration (many specialists into one generalist), with the on-policy correction explained through the exposure-bias argument and the integration case documented by MOPD.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -67207,7 +67245,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the MiMo-7B report as the pretraining-primes / RL-releases recipe claim."
+    "summary": "References now carry the MiMo-7B report as the pretraining-primes / RL-releases recipe claim.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -68692,7 +68732,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Control System note."
+    "summary": "References now link the Control System note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -68755,7 +68797,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Cache-to-Cache on the model-to-model interface."
+    "summary": "References now link Cache-to-Cache on the model-to-model interface.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -69132,7 +69176,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "The k-server reference now points at the document entry rather than the raw arXiv URL."
+    "summary": "The k-server reference now points at the document entry rather than the raw arXiv URL.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -70451,7 +70497,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem."
+    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -70973,7 +71021,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry Bansal's QORL post (a 4B model emitting planner hints, with Postgres executing each candidate as the reward oracle) as a reference only - no new section."
+    "summary": "References now carry Bansal's QORL post (a 4B model emitting planner hints, with Postgres executing each candidate as the reward oracle) as a reference only - no new section.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -71258,7 +71308,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem."
+    "summary": "References now carry the Hacker News discussion of 'Backups Aren't Simple' - backup as a restore problem.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -95861,7 +95913,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Shadow-banking and structured-finance references added: Gorton, Coval et al., Adrian & Shin, Brunnermeier et al."
+    "summary": "Shadow-banking and structured-finance references added: Gorton, Coval et al., Adrian & Shin, Brunnermeier et al.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -98199,7 +98253,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Control System note."
+    "summary": "References now link the Control System note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -112389,7 +112445,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Semiconductor readme link repointed after the corpus reorganisation."
+    "summary": "Semiconductor readme link repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -112716,7 +112774,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Fermions link repointed to the Fermion note."
+    "summary": "Fermions link repointed to the Fermion note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -112920,7 +112980,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Forest-industry readme link repointed after the corpus reorganisation."
+    "summary": "Forest-industry readme link repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -122640,7 +122702,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now distinguish the general convolution operation from the operator reading this note develops."
+    "summary": "References now distinguish the general convolution operation from the operator reading this note develops.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -122764,7 +122828,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "Two additions. Industrial policy now has a transformation block: the instrument menu of the transition (tax preferences, subsidies, guarantees, protection, restructuring programmes, settlement proceedings, institutions), the ministry's own account and Kozuch's academic treatment, and the FDI channel with its measured limit (Weresa: correlated with innovation except in low-technology branches; Domanski & Gwosdz: strong production upgrading, weak R&D and design, localized capabilities as both embedding and ceiling). And a new Firms Competing Internationally section: 20 firms with products, international competitors and the mechanism of survival, read in three clusters - defence and optoelectronics on procurement politics, rail and heavy vehicles upgraded from repair works, software/photonics/instruments with non-state first customers."
+    "summary": "Two additions. Industrial policy now has a transformation block: the instrument menu of the transition (tax preferences, subsidies, guarantees, protection, restructuring programmes, settlement proceedings, institutions), the ministry's own account and Kozuch's academic treatment, and the FDI channel with its measured limit (Weresa: correlated with innovation except in low-technology branches; Domanski & Gwosdz: strong production upgrading, weak R&D and design, localized capabilities as both embedding and ceiling). And a new Firms Competing Internationally section: 20 firms with products, international competitors and the mechanism of survival, read in three clusters - defence and optoelectronics on procurement politics, rail and heavy vehicles upgraded from repair works, software/photonics/instruments with non-state first customers.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -122889,7 +122955,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Taylor's theorem link repointed to the Taylor representation note."
+    "summary": "Taylor's theorem link repointed to the Taylor representation note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -123365,7 +123433,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Radar link repointed to the fisicatecnica radar note."
+    "summary": "Radar link repointed to the fisicatecnica radar note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -123648,7 +123718,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Macinnes (2007) added: the 1707 union read as an imperial project rather than only a parliamentary merger."
+    "summary": "Macinnes (2007) added: the 1707 union read as an imperial project rather than only a parliamentary merger.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -123971,7 +124043,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Kolvani & Nistotskaya on the two mechanisms of meritocratic recruitment - competence and impartiality - and why the conflation in standard indices blocks the causal claim."
+    "summary": "References now link Kolvani & Nistotskaya on the two mechanisms of meritocratic recruitment - competence and impartiality - and why the conflation in standard indices blocks the causal claim.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124090,7 +124164,9 @@
    {
     "date": "2026-11-18",
     "kind": "edit",
-    "summary": "References now link the Audit note, including the supreme audit institution among the public-organization forms."
+    "summary": "References now link the Audit note, including the supreme audit institution among the public-organization forms.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124395,7 +124471,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Rare-earth link repointed to the rare-earth-elements note."
+    "summary": "Rare-earth link repointed to the rare-earth-elements note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124411,7 +124489,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Mining and mechanical-technique links repointed after the corpus reorganisation."
+    "summary": "Mining and mechanical-technique links repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124712,7 +124792,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Materials-technology readme link repointed after the corpus reorganisation."
+    "summary": "Materials-technology readme link repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124757,7 +124839,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Liberia growth-without-development survey and the Korea/Taiwan comparison."
+    "summary": "References now link the Liberia growth-without-development survey and the Korea/Taiwan comparison.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124772,7 +124856,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Remote-sensing link repointed to the production/industry note."
+    "summary": "Remote-sensing link repointed to the production/industry note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124797,7 +124883,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link von Tunzelmann's survey of the evidence and Guha's evolutionary hypothesis."
+    "summary": "References now link von Tunzelmann's survey of the evidence and Guha's evolutionary hypothesis.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -124862,7 +124950,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link von Tunzelmann, Guha's evolutionary view and the Positive Sum Strategy."
+    "summary": "References now link von Tunzelmann, Guha's evolutionary view and the Positive Sum Strategy.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -125017,7 +125107,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Edgeworth persona note."
+    "summary": "References now link the Edgeworth persona note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -125042,7 +125134,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Edgeworth persona note."
+    "summary": "References now link the Edgeworth persona note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -125362,7 +125456,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the irrigation note."
+    "summary": "References now link the irrigation note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -126637,7 +126733,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Structured-finance and crisis references added: Gorton (2008), Coval/Jurek/Stafford (2009), Brunnermeier/Gorton/Krishnamurthy (2012), Adrian & Shin (2009)."
+    "summary": "Structured-finance and crisis references added: Gorton (2008), Coval/Jurek/Stafford (2009), Brunnermeier/Gorton/Krishnamurthy (2012), Adrian & Shin (2009).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -126682,7 +126780,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Type of energy link repointed to the energy property note."
+    "summary": "Type of energy link repointed to the energy property note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -126707,7 +126807,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Clapham's comparative economic history."
+    "summary": "References now link Clapham's comparative economic history.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -126777,7 +126879,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Korea/Taiwan comparative study."
+    "summary": "References now link the Korea/Taiwan comparative study.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -126972,7 +127076,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Green's Arming Japan beside the industrial-policy material."
+    "summary": "References now link Green's Arming Japan beside the industrial-policy material.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127242,7 +127348,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "New polity form note: the gana-sangha as republican oligarchy - the assembly, council and presiding executive, the household-based membership rule, the distinction from democracy (sovereignty shared among a closed set of families, not the population), the three reasons the form matters (counter-example to monarchy, a design without separation of powers, and a case of fragility), the two instances, and the contrast with the command technology of the Maurya empire."
+    "summary": "New polity form note: the gana-sangha as republican oligarchy - the assembly, council and presiding executive, the household-based membership rule, the distinction from democracy (sovereignty shared among a closed set of families, not the population), the three reasons the form matters (counter-example to monarchy, a design without separation of powers, and a case of fragility), the two instances, and the contrast with the command technology of the Maurya empire.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127252,7 +127360,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "New polity note: the Vajjika League as the scale case of the republican form - the eight clans (Licchavis, Videhas, Jnatrikas), the assembly at Vaishali, the conquest by Ajatasatru through division rather than arms, and the fragility condition it states (consensus as constitution, defection as the failure mode), with the contrast against Magadha's command state."
+    "summary": "New polity note: the Vajjika League as the scale case of the republican form - the eight clans (Licchavis, Videhas, Jnatrikas), the assembly at Vaishali, the conquest by Ajatasatru through division rather than arms, and the fragility condition it states (consensus as constitution, defection as the failure mode), with the contrast against Magadha's command state.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127277,7 +127387,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the GAO as the legislative instance, and name the third audit product the note lacked."
+    "summary": "References now link the GAO as the legislative instance, and name the third audit product the note lacked.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127292,7 +127404,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now cross-link the GAO as the legislative contrast."
+    "summary": "References now cross-link the GAO as the legislative contrast.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127317,7 +127431,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the KNAW note."
+    "summary": "References now link the KNAW note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127327,7 +127443,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New technique note: irrigation - the application methods (surface, sprinkler and pivot, drip and subsurface drip, sub-irrigation) with what each buys and costs, scheduling by evapotranspiration and soil moisture with deficit irrigation, the two structural long-run costs (waterlogging and salinisation, with the leaching-and-drainage requirement), and irrigation read as a system whose institution - water rights, allocation and pricing - is part of the technique."
+    "summary": "New technique note: irrigation - the application methods (surface, sprinkler and pivot, drip and subsurface drip, sub-irrigation) with what each buys and costs, scheduling by evapotranspiration and soil moisture with deficit irrigation, the two structural long-run costs (waterlogging and salinisation, with the leaching-and-drainage requirement), and irrigation read as a system whose institution - water rights, allocation and pricing - is part of the technique.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127337,7 +127454,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New technique note: 3D printing / additive manufacturing - the process family (material extrusion, vat photopolymerisation, powder bed fusion, binder jetting, directed energy deposition) with materials and tolerances, what the technique buys (no tooling, geometry that could not exist otherwise, consolidation), what it costs (surface finish, anisotropy, flat per-part cost, the qualification burden), and the process chain with post-processing as the hidden cost centre."
+    "summary": "New technique note: 3D printing / additive manufacturing - the process family (material extrusion, vat photopolymerisation, powder bed fusion, binder jetting, directed energy deposition) with materials and tolerances, what the technique buys (no tooling, geometry that could not exist otherwise, consolidation), what it costs (surface finish, anisotropy, flat per-part cost, the qualification burden), and the process chain with post-processing as the hidden cost centre.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127347,7 +127465,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "New Battery Energy Storage Systems section: lithium-ion as the dominant grid chemistry, the services a BESS sells (frequency response, arbitrage, capacity and firming, congestion), and the three engineering realities that set asset life (degradation and augmentation, thermal runaway and the safety codes, round-trip efficiency and duration). Wikipedia reference added."
+    "summary": "New Battery Energy Storage Systems section: lithium-ion as the dominant grid chemistry, the services a BESS sells (frequency response, arbitrage, capacity and firming, congestion), and the three engineering realities that set asset life (degradation and augmentation, thermal runaway and the safety codes, round-trip efficiency and duration). Wikipedia reference added.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127357,7 +127477,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the 3D printing note as the additive counterpart."
+    "summary": "References now link the 3D printing note as the additive counterpart.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127367,7 +127489,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New technical note: the control system as a feedback loop (reference, sensor, controller, actuator, plant, disturbance) with what fails when each element is absent; the taxonomy by principle and by timescale (open-loop, feedback, feedforward, cascade, PLC sequencing, MPC, supervisory), the PID table with the cost of over-tuning each term, the speed-against-stability trade stated as margins, and the SCADA section with the Purdue/ISA-95 layer table - control must not depend on the network, and SCADA security is a physical-safety problem rather than a data-confidentiality one."
+    "summary": "New technical note: the control system as a feedback loop (reference, sensor, controller, actuator, plant, disturbance) with what fails when each element is absent; the taxonomy by principle and by timescale (open-loop, feedback, feedforward, cascade, PLC sequencing, MPC, supervisory), the PID table with the cost of over-tuning each term, the speed-against-stability trade stated as margins, and the SCADA section with the Purdue/ISA-95 layer table - control must not depend on the network, and SCADA security is a physical-safety problem rather than a data-confidentiality one.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127377,7 +127500,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Control System note."
+    "summary": "References now link the Control System note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127387,7 +127512,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New molecular note: KCNQ1 and its channel Kv7.1 - the I_Ks complex with KCNE1, its role as the rate-dependent repolarisation reserve in the heart, its expression in the stria vascularis and epithelia, and the phenotype table (dominant long QT type 1, recessive Jervell and Lange-Nielsen with congenital deafness, gain-of-function atrial fibrillation); read as the cleanest lesion-versus-phenotype case, with the pharmacology point that a channel's role is rate- and tissue-dependent."
+    "summary": "New molecular note: KCNQ1 and its channel Kv7.1 - the I_Ks complex with KCNE1, its role as the rate-dependent repolarisation reserve in the heart, its expression in the stria vascularis and epithelia, and the phenotype table (dominant long QT type 1, recessive Jervell and Lange-Nielsen with congenital deafness, gain-of-function atrial fibrillation); read as the cleanest lesion-versus-phenotype case, with the pharmacology point that a channel's role is rate- and tissue-dependent.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127397,7 +127523,9 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New process note: morphogenesis as the generation of form - the two explanatory programmes (positional information and Turing-style self-organisation) with the honest state of their dispute, the cell behaviours that execute a pattern (proliferation, apoptosis, apical constriction, convergent extension, migration, adhesion change), the mechanics of differential growth and tension that genetics alone does not predict, and the canonical instances from gastrulation and somites to limb digits and regeneration."
+    "summary": "New process note: morphogenesis as the generation of form - the two explanatory programmes (positional information and Turing-style self-organisation) with the honest state of their dispute, the cell behaviours that execute a pattern (proliferation, apoptosis, apical constriction, convergent extension, migration, adhesion change), the mechanics of differential growth and tension that genetics alone does not predict, and the canonical instances from gastrulation and somites to limb digits and regeneration.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127407,7 +127535,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the new KCNQ1 / morphogenesis note."
+    "summary": "References now link the new KCNQ1 / morphogenesis note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127417,7 +127547,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the new KCNQ1 / morphogenesis note."
+    "summary": "References now link the new KCNQ1 / morphogenesis note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127432,7 +127564,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Jeremy (1977) added: the British prohibition on the outflow of technicians and machinery, 1780-1843, and why the legal technology monopoly leaked."
+    "summary": "Jeremy (1977) added: the British prohibition on the outflow of technicians and machinery, 1780-1843, and why the legal technology monopoly leaked.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127447,7 +127581,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "The Guatemalan society reference now points at the corpus note."
+    "summary": "The Guatemalan society reference now points at the corpus note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127462,7 +127598,8 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the Internet Archive creator search for the society's own publications."
+    "summary": "References now carry the Internet Archive creator search for the society's own publications.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127477,7 +127614,8 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "The line of descent gains the 1801 national encouragement society, and the references carry the CNAM digitised Bulletin (BSPI) as a primary record."
+    "summary": "The line of descent gains the 1801 national encouragement society, and the references carry the CNAM digitised Bulletin (BSPI) as a primary record.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127487,7 +127625,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Royal Dublin Society (1731) as arguably the first organisation dedicated to technical-productive improvement, with the premium, school, trial and publication instruments and the reasoned claim (it paid for improvement rather than regulating it), plus the split of its functions into the modern Irish agencies."
+    "summary": "New actor note: the Royal Dublin Society (1731) as arguably the first organisation dedicated to technical-productive improvement, with the premium, school, trial and publication instruments and the reasoned claim (it paid for improvement rather than regulating it), plus the split of its functions into the modern Irish agencies.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127497,7 +127636,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Royal Society of Arts (1754) as the London promotion agency - premiums, exhibitions, the technical examinations, standards - and the manufacturing emphasis that distinguishes it from the Dublin society."
+    "summary": "New actor note: the Royal Society of Arts (1754) as the London promotion agency - premiums, exhibitions, the technical examinations, standards - and the manufacturing emphasis that distinguishes it from the Dublin society.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127512,7 +127652,8 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the Internet Archive creator search for the Guatemalan member's publications."
+    "summary": "References now carry the Internet Archive creator search for the Guatemalan member's publications.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127522,7 +127663,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Societe de l'industrie minerale (1855) as the sectoral turn - congresses, revue, statistics and safety standards, with the industry rather than the state or civic elite as carrier."
+    "summary": "New actor note: the Societe de l'industrie minerale (1855) as the sectoral turn - congresses, revue, statistics and safety standards, with the industry rather than the state or civic elite as carrier.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127532,7 +127674,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Inspection des manufactures (1669) as the regulatory form - reglements, travelling inspectors, quality marks and industrial statistics, abolished in 1791 and succeeded by the labour inspectorate and standards bodies; the inspection-association-agency sequence stated."
+    "summary": "New actor note: the Inspection des manufactures (1669) as the regulatory form - reglements, travelling inspectors, quality marks and industrial statistics, abolished in 1791 and succeeded by the labour inspectorate and standards bodies; the inspection-association-agency sequence stated.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127542,7 +127685,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Societe d'encouragement pour l'industrie nationale (1801) as the national encouragement society - premiums and medals, expert commissions that tested machines, and the Bulletin as clearing-house; the CNAM digitised run (BSPI) recorded as the primary source, and the position in the sequence as the post-revolutionary transition between the civic society and the sectoral society."
+    "summary": "New actor note: the Societe d'encouragement pour l'industrie nationale (1801) as the national encouragement society - premiums and medals, expert commissions that tested machines, and the Bulletin as clearing-house; the CNAM digitised run (BSPI) recorded as the primary source, and the position in the sequence as the post-revolutionary transition between the civic society and the sectoral society.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127552,7 +127696,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the three-layer exploration literature: Lindgren's genetic classification, Kuzvart & Bohmer's prospecting-and-exploration manual, and Solovov's geochemical prospecting."
+    "summary": "References now carry the three-layer exploration literature: Lindgren's genetic classification, Kuzvart & Bohmer's prospecting-and-exploration manual, and Solovov's geochemical prospecting.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127562,7 +127708,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the governance triad: Ottomanism (civic loyalty across confessions), Phanariots (the minority intermediary elite) and the millet system (the confessional legal unit)."
+    "summary": "References now carry the governance triad: Ottomanism (civic loyalty across confessions), Phanariots (the minority intermediary elite) and the millet system (the confessional legal unit).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127572,7 +127720,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Clapham's comparative economic history."
+    "summary": "References now link Clapham's comparative economic history.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127582,7 +127732,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New firm note: Corning as process leverage in glass - the market sequence (bulb ribbon machine, Pyrex, fibre optics, catalytic substrates, LCD glass, Gorilla Glass), the dormant-capability case of Chemcor shelved for forty years, and the exposure that follows from having one competence."
+    "summary": "New firm note: Corning as process leverage in glass - the market sequence (bulb ribbon machine, Pyrex, fibre optics, catalytic substrates, LCD glass, Gorilla Glass), the dormant-capability case of Chemcor shelved for forty years, and the exposure that follows from having one competence.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127592,7 +127743,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: KNAW as the Dutch national academy - 1808 origin, elected membership, advisory function, hosted institutes - and the three-pillar reading of the Dutch system against the Czech and Polish state academies (funding, applied research and recognition kept apart)."
+    "summary": "New actor note: KNAW as the Dutch national academy - 1808 origin, elected membership, advisory function, hosted institutes - and the three-pillar reading of the Dutch system against the Czech and Polish state academies (funding, applied research and recognition kept apart).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127602,7 +127754,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Corning firm note."
+    "summary": "References now link the Corning firm note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127612,7 +127766,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the KNAW note."
+    "summary": "References now link the KNAW note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127622,7 +127778,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Nietzsche and Philosophy entry."
+    "summary": "References now link the Nietzsche and Philosophy entry.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127632,7 +127790,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Walzer edition of On the Perfect State - the primary text beside the encyclopaedia entries."
+    "summary": "References now link the Walzer edition of On the Perfect State - the primary text beside the encyclopaedia entries.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127642,7 +127802,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link von Tunzelmann on technology and industrial progress and Landau & Rosenberg on the positive-sum strategy."
+    "summary": "References now link von Tunzelmann on technology and industrial progress and Landau & Rosenberg on the positive-sum strategy.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127652,7 +127814,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Liberia enclave case and the Korea/Taiwan comparison."
+    "summary": "References now link the Liberia enclave case and the Korea/Taiwan comparison.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127662,7 +127826,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Liberia survey that names growth without development."
+    "summary": "References now link the Liberia survey that names growth without development.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127672,7 +127838,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Korea/Taiwan comparative study."
+    "summary": "References now link the Korea/Taiwan comparative study.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127682,7 +127850,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127692,7 +127862,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Engines of Innovation on the same institution."
+    "summary": "References now link Engines of Innovation on the same institution.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127702,7 +127874,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Engines of Innovation on the end of the corporate central research lab."
+    "summary": "References now link Engines of Innovation on the end of the corporate central research lab.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127712,7 +127886,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Cyert & Mowery on technology, employment and the compensation argument."
+    "summary": "References now link Cyert & Mowery on technology, employment and the compensation argument.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127722,7 +127898,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the GAO as the legislative audit institution - the Comptroller General's single 15-year term, the 1921 General Accounting Office to 2004 renaming, and the three products (regularity, performance, and risk designation through the High-Risk List) plus its standard-setting role through GAGAS and the bid-protest jurisdiction."
+    "summary": "New actor note: the GAO as the legislative audit institution - the Comptroller General's single 15-year term, the 1921 General Accounting Office to 2004 renaming, and the three products (regularity, performance, and risk designation through the High-Risk List) plus its standard-setting role through GAGAS and the bid-protest jurisdiction.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127732,7 +127909,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Green's Arming Japan."
+    "summary": "References now link Green's Arming Japan.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127742,7 +127921,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Green's Arming Japan."
+    "summary": "References now link Green's Arming Japan.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127752,7 +127933,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the GAO note."
+    "summary": "References now link the GAO note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127762,7 +127945,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Documents-corpus README link repointed to the static /corpus route."
+    "summary": "Documents-corpus README link repointed to the static /corpus route.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127772,7 +127957,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Removed a reference to the deleted perturbation-testing note, which has no successor."
+    "summary": "Removed a reference to the deleted perturbation-testing note, which has no successor.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127782,7 +127969,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Industry-type link repointed to the production-research type note."
+    "summary": "Industry-type link repointed to the production-research type note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127792,7 +127981,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Software-production readme link repointed after the corpus reorganisation."
+    "summary": "Software-production readme link repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127802,7 +127993,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "GraphQL link repointed to the general note."
+    "summary": "GraphQL link repointed to the general note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127812,7 +128005,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Remote-sensing link repointed to the production/industry note."
+    "summary": "Remote-sensing link repointed to the production/industry note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127822,7 +128017,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Rare-earth link repointed to the rare-earth-elements note."
+    "summary": "Rare-earth link repointed to the rare-earth-elements note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127832,7 +128029,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Toolkit readme link repointed to technica/production/firm/toolkit."
+    "summary": "Toolkit readme link repointed to technica/production/firm/toolkit.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127842,7 +128041,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Finance readme link repointed to the toolkit finance shelf."
+    "summary": "Finance readme link repointed to the toolkit finance shelf.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127852,7 +128053,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Radar links repointed to the fisicatecnica radar note."
+    "summary": "Radar links repointed to the fisicatecnica radar note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127862,7 +128065,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Industry readme link repointed after the corpus reorganisation."
+    "summary": "Industry readme link repointed after the corpus reorganisation.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127872,7 +128077,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Radar link repointed to the fisicatecnica radar note."
+    "summary": "Radar link repointed to the fisicatecnica radar note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127882,7 +128089,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New firm note: Reckitt as brand leverage - the powerbrand portfolio, acquisition-led growth (SSL, Mead Johnson), low R&D against high marketing, and the infant-formula litigation as the case where a brand-only asset has nothing technical to fall back on."
+    "summary": "New firm note: Reckitt as brand leverage - the powerbrand portfolio, acquisition-led growth (SSL, Mead Johnson), low R&D against high marketing, and the infant-formula litigation as the case where a brand-only asset has nothing technical to fall back on.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127892,7 +128100,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New firm note: China Hongqiao as electricity solidified - the integrated alumina/smelting/captive-power cluster, the two relocations (to Guinea ore and to Yunnan hydro), and the 2017 capacity cap that turned scale into a permit rent."
+    "summary": "New firm note: China Hongqiao as electricity solidified - the integrated alumina/smelting/captive-power cluster, the two relocations (to Guinea ore and to Yunnan hydro), and the 2017 capacity cap that turned scale into a permit rent.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127902,7 +128111,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New firm note: SMB as infrastructure-for-resource - the mine, rail and Dapilon terminal financed by offtake, displacing established producers within five years, and the Simandou extension of the same model."
+    "summary": "New firm note: SMB as infrastructure-for-resource - the mine, rail and Dapilon terminal financed by offtake, displacing established producers within five years, and the Simandou extension of the same model.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127912,7 +128122,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Technion as technical infrastructure - the engineering school built before the industry, its Nobel chemistry faculty, and the argument that the transferable part of the Israeli case is the university rather than the culture."
+    "summary": "New actor note: the Technion as technical infrastructure - the engineering school built before the industry, its Nobel chemistry faculty, and the argument that the transferable part of the Israeli case is the university rather than the culture.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127922,7 +128133,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New actor note: the Chengdu design institute - the \u6240/\u5382 separation and the chief-designer authority, the J-7 to J-10 to J-20 ladder from copying to designing to integrating, and the contrast with the US mission-agency model."
+    "summary": "New actor note: the Chengdu design institute - the \u6240/\u5382 separation and the chief-designer authority, the J-7 to J-10 to J-20 ladder from copying to designing to integrating, and the contrast with the US mission-agency model.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127932,7 +128144,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New persona note: Edgeworth as the man who made welfare and uncertainty into quantities - the box and contract curve, the conjecture proved by Debreu and Scarf, the expansions in statistics, and the limits of the hedonic calculus."
+    "summary": "New persona note: Edgeworth as the man who made welfare and uncertainty into quantities - the box and contract curve, the conjecture proved by Debreu and Scarf, the expansions in statistics, and the limits of the hedonic calculus.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127942,7 +128155,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New natural note: the Pontic-Caspian steppe as disturbance-maintained grassland and as the steppe corridor - chernozem, grazers, ploughing as a change of type, and the case where physical and historical classification pick out the same object."
+    "summary": "New natural note: the Pontic-Caspian steppe as disturbance-maintained grassland and as the steppe corridor - chernozem, grazers, ploughing as a change of type, and the case where physical and historical classification pick out the same object.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -127952,7 +128166,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the GDP deflator article."
+    "summary": "References now link the GDP deflator article.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127962,7 +128178,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Anglo-Dutch wars."
+    "summary": "References now link the Anglo-Dutch wars.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127972,7 +128190,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Technion note."
+    "summary": "References now link the Technion note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127982,7 +128202,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Chengdu design-institute note."
+    "summary": "References now link the Chengdu design-institute note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -127992,7 +128214,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link the Pontic-Caspian steppe note."
+    "summary": "References now link the Pontic-Caspian steppe note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128002,7 +128226,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New general concept note on risk: the hazard/exposure/vulnerability decomposition, Knight's risk-uncertainty distinction with ambiguity and model uncertainty after it, the three families of measurement (expected loss, dispersion, tail measures), risk perception as a social reading, and the corpus instances (country risk, the Dominican system, the safety store)."
+    "summary": "New general concept note on risk: the hazard/exposure/vulnerability decomposition, Knight's risk-uncertainty distinction with ambiguity and model uncertainty after it, the three families of measurement (expected loss, dispersion, tail measures), risk perception as a social reading, and the corpus instances (country risk, the Dominican system, the safety store).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128012,7 +128237,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New state note: the amorphous solid as a kinetically arrested configuration rather than an equilibrium phase, with the glass transition, short-range order and isotropy, the classes (silicate, metallic, polymer, amorphous ice) and devitrification as the bound."
+    "summary": "New state note: the amorphous solid as a kinetically arrested configuration rather than an equilibrium phase, with the glass transition, short-range order and isotropy, the classes (silicate, metallic, polymer, amorphous ice) and devitrification as the bound.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128022,7 +128248,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New organism-level note on the spore as a strategy rather than a taxon: the bacterial endospore (survival), fungal conidia and ascospores (dispersal), plant micro- and megaspores (life cycle), dormancy and desiccation resistance, and germination condition as the bound."
+    "summary": "New organism-level note on the spore as a strategy rather than a taxon: the bacterial endospore (survival), fungal conidia and ascospores (dispersal), plant micro- and megaspores (life cycle), dormancy and desiccation resistance, and germination condition as the bound.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128032,7 +128259,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New pathogen note on the black Sigatoka fungus: teleomorph/anamorph naming (Mycosphaerella fijiensis / Pseudocercospora fijiensis), ascospore versus conidium as long- and short-range inoculum, the Cavendish monoculture and fungicide treadmill, with latent period, spore load and leaf wetness as the epidemiological quantities."
+    "summary": "New pathogen note on the black Sigatoka fungus: teleomorph/anamorph naming (Mycosphaerella fijiensis / Pseudocercospora fijiensis), ascospore versus conidium as long- and short-range inoculum, the Cavendish monoculture and fungicide treadmill, with latent period, spore load and leaf wetness as the epidemiological quantities.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128042,7 +128270,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New method note on difference in differences: the 2x2 estimator and its regression forms, parallel trends and the checks that probe it, the Goodman-Bacon decomposition of two-way fixed effects under staggered adoption, the Callaway-Sant'Anna / Sun-Abraham / imputation remedies, and the clustering problem."
+    "summary": "New method note on difference in differences: the 2x2 estimator and its regression forms, parallel trends and the checks that probe it, the Goodman-Bacon decomposition of two-way fixed effects under staggered adoption, the Callaway-Sant'Anna / Sun-Abraham / imputation remedies, and the clustering problem.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128052,7 +128281,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now carry the vehicle as the carrier of a payload in transit, against the production-system reading of the note."
+    "summary": "References now carry the vehicle as the carrier of a payload in transit, against the production-system reading of the note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128062,7 +128293,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "New institution note on the JEE: the two tiers (Main and Advanced) and their examining bodies, the rank as the product, multi-session percentile normalisation as the measurement problem, reservation and home-state quota inside the rank, and the coaching equilibrium and curriculum backwash the institution produces."
+    "summary": "New institution note on the JEE: the two tiers (Main and Advanced) and their examining bodies, the rank as the product, multi-session percentile normalisation as the measurement problem, reservation and home-state quota inside the rank, and the coaching equilibrium and curriculum backwash the institution produces.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  },
@@ -128072,7 +128304,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Repaired the companion-practice link to the marketing technical-practice note at its current path."
+    "summary": "Repaired the companion-practice link to the marketing technical-practice note at its current path.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128082,7 +128316,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Cullen (1968) added: the composition of Anglo-Irish trade, 1660-1800, and how the restrictions redirected rather than suppressed it."
+    "summary": "Cullen (1968) added: the composition of Anglo-Irish trade, 1660-1800, and how the restrictions redirected rather than suppressed it.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128092,7 +128328,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Pichler (2001) added: economic policy and development in Austrian Lombardy, 1815-1859."
+    "summary": "Pichler (2001) added: economic policy and development in Austrian Lombardy, 1815-1859.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128102,7 +128340,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Clearing-union and monetary-union literature added: Keynes (1943), Eichengreen (1993), Debrun/Masson/Pattillo (2010), Oyadeyi (2024), Pettifor (2024), Van Riet (2023), Whyman (2015), Johnson (2023), Mazier & Valdecantos (2019), UNECA (n.d.)."
+    "summary": "Clearing-union and monetary-union literature added: Keynes (1943), Eichengreen (1993), Debrun/Masson/Pattillo (2010), Oyadeyi (2024), Pettifor (2024), Van Riet (2023), Whyman (2015), Johnson (2023), Mazier & Valdecantos (2019), UNECA (n.d.).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128112,7 +128352,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Monetary-union references added to the exchange-rate note: Whyman, Mazier & Valdecantos, Pettifor, Van Riet."
+    "summary": "Monetary-union references added to the exchange-rate note: Whyman, Mazier & Valdecantos, Pettifor, Van Riet.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128122,7 +128364,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "Aubuisson de Voisins, Traite d hydraulique a l usage des ingenieurs (1840) added to Ars Civilis beside Belidor: flow, discharge measurement, water-raising machinery and canals."
+    "summary": "Aubuisson de Voisins, Traite d hydraulique a l usage des ingenieurs (1840) added to Ars Civilis beside Belidor: flow, discharge measurement, water-raising machinery and canals.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -128132,7 +128376,9 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "Persona stub filled: Fisher as scientific actor, with a nine-work set (1918 quantitative genetics, 1922 mathematical foundations, 1924 F distribution, 1925 Statistical Methods, 1925 theory of estimation, 1930 Genetical Theory, 1935 Design of Experiments, 1936 discriminant analysis, 1950 Contributions), the contested eugenics record stated, and the 1922 paper and Uusipaikka reading linked."
+    "summary": "Persona stub filled: Fisher as scientific actor, with a nine-work set (1918 quantitative genetics, 1922 mathematical foundations, 1924 F distribution, 1925 Statistical Methods, 1925 theory of estimation, 1930 Genetical Theory, 1935 Design of Experiments, 1936 discriminant analysis, 1950 Contributions), the contested eugenics record stated, and the 1922 paper and Uusipaikka reading linked.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  }

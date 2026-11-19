@@ -40,7 +40,9 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
-    "summary": "References now link Deep Learning Alchemy as a companion resource."
+    "summary": "References now link Deep Learning Alchemy as a companion resource.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
    }
   ]
  },
@@ -687,7 +689,8 @@
    {
     "date": "2026-11-19",
     "kind": "feat",
-    "summary": "Course added from MIT OCW (Spring 2025, Rahmandad): twelve weeks of archetypes built from scratch - stocks, SIRSb with vaccination, energy-efficiency co-flows, predator-prey, drug pipeline, Ponzi, market growth, endogenous diffusion, field growth - with the reading that the pedagogy is the structure-to-behaviour mapping learned by construction, and co-flows, the Ponzi model and endogenous diffusion singled out as the archetypes carrying more than they appear to."
+    "summary": "Course added from MIT OCW (Spring 2025, Rahmandad): twelve weeks of archetypes built from scratch - stocks, SIRSb with vaccination, energy-efficiency co-flows, predator-prey, drug pipeline, Ponzi, market growth, endogenous diffusion, field growth - with the reading that the pedagogy is the structure-to-behaviour mapping learned by construction, and co-flows, the Ponzi model and endogenous diffusion singled out as the archetypes carrying more than they appear to.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f"
    }
   ]
  }
