@@ -194,5 +194,345 @@
    "fiscal"
   ],
   "status": "open"
+ },
+ {
+  "id": "qa-00013",
+  "question": "Why did CORBA fail?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "software",
+   "middleware",
+   "corba",
+   "distributed-systems",
+   "interoperability"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00014",
+  "question": "How not to measure latency?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "systems",
+   "latency",
+   "performance",
+   "measurement",
+   "benchmarking"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00015",
+  "question": "How can UI strings be separated from the code, and by which mechanisms?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "software",
+   "internationalization",
+   "localization",
+   "ui",
+   "architecture"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00016",
+  "question": "How does a photovoltaic panel convert solar radiation into electrical energy?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "nature",
+   "physics",
+   "photovoltaics",
+   "energy",
+   "semiconductor"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00017",
+  "question": "What is the relation between bond maturity and interest rate?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "finance",
+   "bonds",
+   "interest-rate",
+   "maturity",
+   "term-structure"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00018",
+  "question": "How do we turn sparse end-to-end results into fine-grained, attributable engineering feedback that directly guides the next action?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "engineering",
+   "feedback",
+   "attribution",
+   "metrics",
+   "observability"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00019",
+  "question": "Is the concept of a stateless society useful? What are the limits of the concept of society?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "social",
+   "stateless-society",
+   "society",
+   "political-anthropology",
+   "concept"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00020",
+  "question": "Is the concept of the state too limited? Do we need degrees of statehood rather than a nominal set of values?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "social",
+   "state",
+   "statehood",
+   "political-theory",
+   "taxonomy"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00021",
+  "question": "How did the corporation, and legal personhood, come to be established?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "social",
+   "corporation",
+   "legal-personhood",
+   "institution",
+   "history"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00022",
+  "question": "How should savings be interpreted?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "economic",
+   "savings",
+   "macroeconomics",
+   "accounting"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00023",
+  "question": "How should similar institutions be named? The ENS Rennes form: École Normale Supérieure (institution type) — ENS — <distinctive signal — name> Rennes.",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "institutions",
+   "naming",
+   "taxonomy",
+   "education",
+   "france"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00024",
+  "question": "What are China's “Six Networks” — water, power grid, compute, communications, urban underground pipelines, and logistics?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "china",
+   "infrastructure",
+   "networks",
+   "industrial-policy",
+   "energy"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00025",
+  "question": "What are the limits of emergence?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "epistemology",
+   "emergence",
+   "complexity",
+   "systems"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00026",
+  "question": "What are the limits of self-organization?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "epistemology",
+   "self-organization",
+   "complexity",
+   "systems"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00027",
+  "question": "Can technique propagate through books?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "technica",
+   "technique",
+   "transmission",
+   "books",
+   "knowledge"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00028",
+  "question": "What is an inverse problem? (reference: https://en.wikipedia.org/wiki/Inverse_problem)",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "mathematics",
+   "inverse-problems",
+   "modelling",
+   "measurement",
+   "estimation"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00029",
+  "question": "How can countries with weak currencies trade with one another, and how is a currency created where there is no central bank (South East Asia, Africa)? Which quasi-currency exchange mechanisms could underlie such models; which problems must they solve (inflation, local-currency instability); how could the central bank be removed; and what are the OIL1 Stablecoin (Gulf Energy Exchange) and Murabaha structures?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "economic",
+   "currency",
+   "monetary-system",
+   "clearing-union",
+   "africa",
+   "southeast-asia",
+   "stablecoin",
+   "islamic-finance"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00030",
+  "question": "How many GPUs can be connected to a physical node, and how is a system trained across many nodes?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-006",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "hardware",
+   "gpu",
+   "distributed-training",
+   "interconnect",
+   "systems"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00031",
+  "question": "How do the concepts exposed at the interface level affect user interaction with a technical system?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-007",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "concept",
+   "interface",
+   "user-interaction",
+   "technical-system",
+   "conceptual-model"
+  ],
+  "status": "open"
+ },
+ {
+  "id": "qa-00032",
+  "question": "How do the concepts embodied in a system's implementation affect its future evolution and modification?",
+  "answer": "",
+  "agent": "human",
+  "run": "seed-007",
+  "date": "2026-11-19",
+  "source": "manual",
+  "tags": [
+   "concept",
+   "implementation",
+   "technical-evolution",
+   "maintainability",
+   "architecture"
+  ],
+  "status": "open"
  }
 ]
