@@ -23,10 +23,10 @@ tags: [document, book, military, history, memoir]
 
 **What it does supply that no archive substitutes for:** the texture of command under Stalin — how a decision was actually taken, what a front commander could and could not decide, how the General Staff and the Stavka divided the work, and what the cost of an offensive looked like from the headquarters that accepted it. The operational narrative is detailed enough to be checked against the German side and the Soviet archives opened after 1991, which is how the memoir is now used: as a primary claim to be tested, not as an authority.
 
-> The political reading belongs beside the military one: a victorious marshal who was Minister of Defence in 1955–57 and was removed when he became a rival, writing in retirement under a regime that would publish only a certain version of the war. See [Georgy Zhukov](/view.html?p=notes/social/collective/actor/private/persona/georgy-zhukov.md).
+> The political reading belongs beside the military one: a victorious marshal who was Minister of Defence in 1955–57 and was removed when he became a rival, writing in retirement under a regime that would publish only a certain version of the war. See [Georgy Zhukov](/view.html?p=notes/social/actor/private/persona/georgy-zhukov.md).
 
 ## References
 
-- [Georgy Zhukov](/view.html?p=notes/social/collective/actor/private/persona/georgy-zhukov.md) — the author, and the commands the memoir records
-- [Antoine-Henri Jomini](/view.html?p=notes/social/collective/actor/private/persona/antoine-henri-jomini.md) — the operational vocabulary the war was fought with
+- [Georgy Zhukov](/view.html?p=notes/social/actor/private/persona/georgy-zhukov.md) — the author, and the commands the memoir records
+- [Antoine-Henri Jomini](/view.html?p=notes/social/actor/private/persona/antoine-henri-jomini.md) — the operational vocabulary the war was fought with
 - [Strategy](/view.html?p=notes/social/action/guidance/strategy.md) — the guidance frame

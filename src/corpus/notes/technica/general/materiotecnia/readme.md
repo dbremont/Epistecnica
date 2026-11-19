@@ -142,4 +142,4 @@ Research
 - [Data Collection](https://www.notion.so/Data-Collection-1bac0f5171ec80c281a6fe2c60cbfc58?pvs=21)
 - [**Chemical Space**](https://www.notion.so/Chemical-Space-22bc0f5171ec802c9349d638ac6ce749?pvs=21)
 - [Material Space](https://www.notion.so/Material-Space-22bc0f5171ec8035a6afe4eb3dfaf874?pvs=21)
-- [Corning Incorporated](/view.html?p=notes/social/collective/actor/private/firm/corning-incorporated.md) — process leverage in glass: bulb, Pyrex, fibre, Gorilla Glass
+- [Corning Incorporated](/view.html?p=notes/social/actor/private/firm/corning-incorporated.md) — process leverage in glass: bulb, Pyrex, fibre, Gorilla Glass

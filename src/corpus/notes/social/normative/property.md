@@ -35,7 +35,7 @@ Read as **Ontic** where it exists in courts, registers, fences and police; as **
 
 ### Which facet does this element belong to, if applicable?
 
-> Legal first: the institution is constituted by the rules that allocate, record and enforce holdings. Economic where it organises investment, credit and exchange; political where regimes are legislated, redistributed or expropriated; normative where its justification is contested. See [Facet](/view.html?p=notes/social/framework/facet.md).
+> Legal first: the institution is constituted by the rules that allocate, record and enforce holdings. Economic where it organises investment, credit and exchange; political where regimes are legislated, redistributed or expropriated; normative where its justification is contested. See [Facet](/view.html?p=notes/social/meta/facet.md).
 
 ### What is the recursive instance decomposition of this social instance?
 

@@ -212,7 +212,7 @@ exchange through the guide's `Permitted Link Forms` table: an
 - **The full tree** — the [EES atlas](/corpus/notes/epistemica/ees.html) renders the complete, ever-expanding decomposition from the tree store [ees.json](/corpus/notes/epistemica/ees.json): outline, branch cards, an element search, and a node inspector.
 - **Guides** — [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md) (schema owner) and [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) (the technical complement).
 - **Universal index** — [Autoregia, the Personal Knowledge System](http://localhost:8088/pks/) carries the master index; EES is the local mastery layer over it.
-- **Orientation & target catalogues** — [Modelado](/view.html?p=notes/epistemica/epistemic/theory/modelling.md), [Causality](/view.html?p=notes/epistemica/causality/causality.md), [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md).
+- **Orientation & target catalogues** — [Modelado](/view.html?p=notes/epistemica/meta/theory/modelling.md), [Causality](/view.html?p=notes/epistemica/causality/causality.md), [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md).
 - **Access & representation catalogues** — [Observational](/view.html?p=notes/epistemica/observational/observational.md), [Signal Processing](/view.html?p=notes/epistemica/signal/signal-processing.md), [System of Units of Measurement](/view.html?p=notes/epistemica/quantification/isu.md).
 - **Discipline catalogues** — [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md), [Statistics](/view.html?p=notes/miscellanea/discipline/statistics.md), [Computer Science](/view.html?p=notes/miscellanea/discipline/computer-science.md), [Logic](/view.html?p=notes/miscellanea/discipline/logic.md), [Philosophy](/view.html?p=notes/miscellanea/discipline/philosophy.md).
 - **Operation & construction catalogues** — [Mathematical](/explorer.html?dir=epistemica/mathematical), [Computational Science](/view.html?p=notes/epistemica/singular/science.md), [Simulation](/view.html?p=notes/epistemica/simulation/simulation.md), [Optimization](/view.html?p=notes/epistemica/optimization/optimization.md) (incl. the [nature-inspired methods](/explorer.html?q=@natural-computing)), [Statistical Mechanics](/view.html?p=notes/epistemica/singular/statistical-mechanics.md).
@@ -275,7 +275,7 @@ The distinction is one of function:
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
 - [Autoregia — Personal Knowledge System](http://localhost:8088/pks/)
-- [Modelado](/view.html?p=notes/epistemica/epistemic/theory/modelling.md)
+- [Modelado](/view.html?p=notes/epistemica/meta/theory/modelling.md)
 - [Causality](/view.html?p=notes/epistemica/causality/causality.md)
 - [Observational](/view.html?p=notes/epistemica/observational/observational.md)
 - [Mathematics](/view.html?p=notes/miscellanea/discipline/mathematics.md)

@@ -130,7 +130,7 @@ qa:
 ## References
 
 - [Philosophia Artium Epistemicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-epistemicarum-et-operis.md)
-- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md) · [Schwartz's Impossibility of Multiplication](/view.html?p=notes/epistemica/epistemic/construction/mathematical/schwartz-impossibility-of-multiplication.md)
+- [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md) · [Schwartz's Impossibility of Multiplication](/view.html?p=notes/epistemica/meta/construction/mathematical/schwartz-impossibility-of-multiplication.md)
 - [Heaviside Function](/view.html?p=notes/epistemica/mathematical/mapping/heaviside-function.md) · [Generalized Function](/view.html?p=notes/epistemica/mathematical/mapping/generalized-function.md) · [Convolution Operator](/view.html?p=notes/epistemica/signal/convolution-operator.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) · [Lebesgue Integral](/view.html?p=notes/epistemica/mathematical/mapping/lebesgue-integral.md)
 - [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function)
 - [Dirac measure](https://en.wikipedia.org/wiki/Dirac_measure)

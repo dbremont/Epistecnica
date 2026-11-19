@@ -84,5 +84,5 @@ It is distinct from the `Project` (a single student's training is an effort insi
 - [Project](/view.html?p=notes/social/action/organization/project.md) — the member effort each student's training constitutes
 - [Policy](/view.html?p=notes/social/action/public/guidance/policy.md) — the course the award executes
 - [Research](/view.html?p=notes/social/structural/technical/research.md) — the activity the training is for
-- [Harvard Medical School](/view.html?p=notes/social/collective/actor/private/education/usa/harvard-university-medical-school.md) · [Mayo Clinic Alix School of Medicine](/view.html?p=notes/social/collective/actor/private/education/usa/mayo-clinic-alix-school-of-medicine.md) — member institutions
+- [Harvard Medical School](/view.html?p=notes/social/actor/private/education/usa/harvard-university-medical-school.md) · [Mayo Clinic Alix School of Medicine](/view.html?p=notes/social/actor/private/education/usa/mayo-clinic-alix-school-of-medicine.md) — member institutions
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) — the social grammar

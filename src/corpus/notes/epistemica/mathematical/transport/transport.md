@@ -67,7 +67,7 @@ order: 0
 - [Combinatorial Optimization](/view.html?p=notes/epistemica/optimization/combinatorial-optimization.md) · [Calculus of Variations](/view.html?p=notes/epistemica/optimization/calculus-of-variations.md) — the two optimization families the theory sits between
 - [Probability](/view.html?p=notes/miscellanea/discipline/probability.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) — the objects a coupling is built from
 - [Information Geometry](/view.html?p=notes/epistemica/observational/information/information-geometry.md) — where optimal transport meets statistical inference
-- [Leonid Vitaliyevich Kantorovich](/view.html?p=notes/social/collective/actor/private/persona/leonid-vitaliyevich-kantorovich.md) — the mathematician who made the problem a linear program
+- [Leonid Vitaliyevich Kantorovich](/view.html?p=notes/social/actor/private/persona/leonid-vitaliyevich-kantorovich.md) — the mathematician who made the problem a linear program
 
 ## References
 

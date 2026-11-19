@@ -38,5 +38,5 @@ tags: [document, paper, poland, automotive, fdi, economic-geography]
 ## References
 
 - [Domański & Gwosdz (2009) — publisher](https://doi.org/10.1111/j.1468-2257.2009.00490.x)
-- [Poland — the supply chain](/view.html?p=notes/social/collective/actor/public/polity/pol/poland.md) — the polity note
+- [Poland — the supply chain](/view.html?p=notes/social/actor/public/polity/pol/poland.md) — the polity note
 - [Weresa (2004)](/view.html?p=documents/papers/weresa-2004-can-fdi-help-poland-catch-up-with-the-eu.md) — the aggregate FDI question

@@ -1284,7 +1284,7 @@
         },
         {
           "label": "Fundamental Theorem of Calculus",
-          "path": "epistemica/epistemic/construction/mathematical/fundamental-theorem-of-calculus-ftc.md"
+          "path": "epistemica/meta/construction/mathematical/fundamental-theorem-of-calculus-ftc.md"
         }
       ],
       "related": [
@@ -1335,11 +1335,11 @@
         },
         {
           "label": "Mean Value Theorem",
-          "path": "epistemica/epistemic/construction/mathematical/mean-value-theorem-mvt.md"
+          "path": "epistemica/meta/construction/mathematical/mean-value-theorem-mvt.md"
         },
         {
           "label": "Intermediate Value Theorem",
-          "path": "epistemica/epistemic/construction/mathematical/intermediate-value-theorem.md"
+          "path": "epistemica/meta/construction/mathematical/intermediate-value-theorem.md"
         }
       ],
       "related": [
@@ -1954,7 +1954,7 @@
         },
         {
           "label": "Gradient Descent Convergence",
-          "path": "epistemica/epistemic/construction/mathematical/gradient-descent-convergence-theorem.md"
+          "path": "epistemica/meta/construction/mathematical/gradient-descent-convergence-theorem.md"
         }
       ],
       "related": [

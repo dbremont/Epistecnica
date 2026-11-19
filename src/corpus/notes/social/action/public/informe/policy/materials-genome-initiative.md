@@ -120,13 +120,13 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (layer test, facet assignment, agentic and normative spines, social-element note schema)
 - [Physical Material Technology](/view.html?p=notes/technica/general/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
-- [Research Actor](/view.html?p=notes/social/collective/actor/research.md) (the host unit the governance regime binds)
-- [Research Group](/view.html?p=notes/social/collective/actor/research-group.md) (the depositing unit in the agentic spine)
-- [Public Research Institutes (PRI)](/view.html?p=notes/social/collective/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)
-- [Lawrence Berkeley National Laboratory](/view.html?p=notes/social/collective/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
-- [National Renewable Energy Laboratory](/view.html?p=notes/social/collective/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
-- [Argonne National Laboratory](/view.html?p=notes/social/collective/actor/public/catalog/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
-- [SRI International](/view.html?p=notes/social/collective/actor/private/research/usa/sri-international.md) (participant in the curated-data infrastructure)
+- [Research Actor](/view.html?p=notes/social/actor/research.md) (the host unit the governance regime binds)
+- [Research Group](/view.html?p=notes/social/actor/research-group.md) (the depositing unit in the agentic spine)
+- [Public Research Institutes (PRI)](/view.html?p=notes/social/actor/public/catalog/pri.md) (the public-research role the laboratories occupy)
+- [Lawrence Berkeley National Laboratory](/view.html?p=notes/social/actor/public/catalog/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
+- [National Renewable Energy Laboratory](/view.html?p=notes/social/actor/public/catalog/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
+- [Argonne National Laboratory](/view.html?p=notes/social/actor/public/catalog/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)
+- [SRI International](/view.html?p=notes/social/actor/private/research/usa/sri-international.md) (participant in the curated-data infrastructure)
 - National Science and Technology Council (2011). *Materials Genome Initiative for Global Competitiveness*, June 2011
 - NSTC Subcommittee on the Materials Genome Initiative (2016). *The First Five Years of the Materials Genome Initiative: Accomplishments and Technical Highlights*, August 2016
 - Warren, J. A.; Boisvert, R. F. (2012). *Building the Materials Innovation Infrastructure: Data and Standards — A Materials Genome Initiative Workshop*, NIST.IR.7898

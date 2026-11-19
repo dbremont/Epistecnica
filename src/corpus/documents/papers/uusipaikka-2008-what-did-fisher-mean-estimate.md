@@ -31,4 +31,4 @@ tags: [document, paper, statistics, history-of-science, estimation, fisher]
 
 - [arXiv:0807.3397](https://arxiv.org/abs/0807.3397)
 - [Fisher (1922)](/view.html?p=documents/papers/fisher-1922-mathematical-foundations-theoretical-statistics.md) — the paper whose meaning is at issue
-- [Ronald Fisher](/view.html?p=notes/social/collective/actor/private/persona/ronald-fisher.md) — the persona and works set
+- [Ronald Fisher](/view.html?p=notes/social/actor/private/persona/ronald-fisher.md) — the persona and works set

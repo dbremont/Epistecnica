@@ -29,8 +29,8 @@ The context is the Nine Years' War and the recoinage crisis, and the perspective
 
 - [Internet Archive — the scan](https://archive.org/details/bim_early-english-books-1641-1700_an-essay-on-the-state-of_cary-john_1695) — Early English Books microfilm, 1695 edition
 - [Internet Archive — the French translation, vol. 1](https://archive.org/details/essaisurltatduco01cary) · [vol. 2](https://archive.org/details/essaisurltatduco02cary) — *Essai sur l'état du commerce d'Angleterre* (1755)
-- [John Cary](/view.html?p=notes/social/collective/actor/private/persona/john-cary.md) — the author
+- [John Cary](/view.html?p=notes/social/actor/private/persona/john-cary.md) — the author
 - [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md) — the note that cites it
-- [United Kingdom](/view.html?p=notes/social/collective/actor/public/polity/gbr/uk.md) — the polity whose industrial policy descends from this argument
+- [United Kingdom](/view.html?p=notes/social/actor/public/polity/gbr/uk.md) — the polity whose industrial policy descends from this argument
 - https://www.cyberlibrary.org/en/books/an-essay-on-the-state-of-england-in-relation-to-its-trade-its-p-b5de75b8/
 

@@ -53,7 +53,7 @@ This is why risk is an institution as much as a quantity. Insurance pools and pr
 ## In the corpus
 
 - [Country Risk](/view.html?p=notes/social/dynamic/state/economic/macro/country-risk.md) — the sovereign instance: default, expropriation, currency and political risk priced into cross-border capital.
-- [RD 1.0 Dominican Risk Management System](/view.html?p=notes/social/collective/actor/public/polity/dom/security/risk.md) — a national risk-management *system* as an institutional instance.
+- [RD 1.0 Dominican Risk Management System](/view.html?p=notes/social/actor/public/polity/dom/security/risk.md) — a national risk-management *system* as an institutional instance.
 - [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md) · [Decision Problem](/view.html?p=notes/epistemica/observational/decision/decision-problem.md) — the setting in which risk is evaluated.
 - [Expected Value](/view.html?p=notes/epistemica/observational/probability/expected-value.md) — the expectation the expected-loss measure is built on.
 

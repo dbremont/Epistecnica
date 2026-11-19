@@ -28,6 +28,6 @@ tags: [document, paper, identifiability, control-theory, modelling]
 ## References
 
 - [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) — the practical side: the calibration trap and what a fibre does to a calibrated value
-- [Identification](/view.html?p=notes/epistemica/epistemic/theory/identification.md) — system identification, whose solvability this theory conditions
-- [Modelling](/view.html?p=notes/epistemica/epistemic/theory/modelling.md) — the epistemic frame the model structure belongs to
-- [Underdetermination](/view.html?p=notes/epistemica/epistemic/theory/underdetermination.md) — the epistemic version of the same failure
+- [Identification](/view.html?p=notes/epistemica/meta/theory/identification.md) — system identification, whose solvability this theory conditions
+- [Modelling](/view.html?p=notes/epistemica/meta/theory/modelling.md) — the epistemic frame the model structure belongs to
+- [Underdetermination](/view.html?p=notes/epistemica/meta/theory/underdetermination.md) — the epistemic version of the same failure

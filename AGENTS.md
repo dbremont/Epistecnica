@@ -139,10 +139,10 @@ frontend-facing surface in the deployment; there is no database behind it
   naming/tags rules live in their READMEs
   (`src/corpus/README-notes.md`, `src/corpus/README-courses.md`, `src/corpus/README-documents.md`,
   `src/glossarium/README.md`, `src/qa/README.md`).
-- `data/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
+- `data/epistemica/meta/theory/` is the flattened epistemic-theory scope:
   `theory/philosophy.md`, the identifiability note `theory/modelling.md`
   (epistemic-element schema), and the former `theory/practice/` notes.
-- `data/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
+- `data/epistemica/meta/guidance/` holds what grounds and guides inquiry:
   the ontic condition notes at its root (`equilibrium`, `stable`, …),
   `guidance/principle/` for rules of proceeding (`occam-razor`,
   `minimum-description-length-mdl`, `least-action-principle`, …), and
@@ -175,7 +175,7 @@ frontend-facing surface in the deployment; there is no database behind it
   never an "operator" note and never an act; see `mathematical/transformation.md`.
 - The **constructions** — the results an inquiry leaves behind — are not filed
   inside the branch that produced them. They live under
-  `epistemica/epistemic/construction/`: `mathematical/` for theorems,
+  `epistemica/meta/construction/`: `mathematical/` for theorems,
   inequalities and convergence results, `observational/` for the asymptotic
   results (CLT, LLN, Glivenko–Cantelli, Crámer–Rao, LIL), with
   `construction.md` at the root as the family's type note. A construction is a
@@ -188,9 +188,9 @@ frontend-facing surface in the deployment; there is no database behind it
   rather than one of them — a framework overview such as
   `observational/theory-of-statistics.md`, an operator family such as
   `observational/statistical-function.md`, a principle such as
-  `epistemic/guidance/principle/compositionality.md` — stays out and sits at
+  `meta/guidance/principle/compositionality.md` — stays out and sits at
   the domain root or in the scope that owns its type.
-- `epistemica/epistemic/nature/` holds the natural-ontology theory scope: the
+- `epistemica/meta/nature/` holds the natural-ontology theory scope: the
   ontic element notes (event, causality, system, segment, reality, …), the
   local *Philosophia Naturalis* import (`philosophia-naturalis.md`), and the
   Change note. They are epistemic readings of natural elements, so they file

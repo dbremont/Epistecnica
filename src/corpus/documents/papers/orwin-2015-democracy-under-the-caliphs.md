@@ -23,11 +23,11 @@ tags: [document, paper, political-philosophy, islamic-philosophy, democracy]
 
 > The scholarly stake is what kind of book the *Virtuous City* is. If Alfarabi is a straightforward Platonist, democracy is a defective regime on a ladder. If he is writing esoterically — the Straussian reading Orwin works in — then the ranking is a surface and the interest is in what democracy *makes possible*: the freedom that lets philosophy exist, and the rhetoric that lets the philosopher speak to a city that cannot be governed by demonstration.
 
-> For the corpus the paper is the political-philosophy case for the [al-Fārābī persona](/view.html?p=notes/social/collective/actor/private/persona/al-farabi.md): a thinker whose classification of regimes is a technical instrument — with the argument that a regime's *function* (what it can produce) matters as much as its *rank*.
+> For the corpus the paper is the political-philosophy case for the [al-Fārābī persona](/view.html?p=notes/social/actor/private/persona/al-farabi.md): a thinker whose classification of regimes is a technical instrument — with the argument that a regime's *function* (what it can produce) matters as much as its *rank*.
 
 ## References
 
 - [Orwin (2015) — DOI](https://doi.org/10.1017/S0034670515000029)
-- [Al-Fārābī](/view.html?p=notes/social/collective/actor/private/persona/al-farabi.md) — the philosopher
+- [Al-Fārābī](/view.html?p=notes/social/actor/private/persona/al-farabi.md) — the philosopher
 - [Political Representation](/view.html?p=notes/social/relation/representation.md) — the modern concept his regime typology precedes
 - [Al-Fārābī — On the Perfect State (Walzer, ed. & trans.)](/view.html?p=documents/books/farabi-walzer-1985-on-the-perfect-state.md) — the text the reading works on

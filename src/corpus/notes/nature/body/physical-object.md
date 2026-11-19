@@ -62,5 +62,5 @@ Types marked — are stated for the classification; they have no note of their o
 
 - [How to decompose any natural instance?](/view.html?p=notes/philosophia-naturalis-et-operis.md)
 - [Matter](/view.html?p=notes/nature/matter/matter.md) — the stuff-kind side of the same instantiation
-- [Event](/view.html?p=notes/epistemica/epistemic/nature/event.md) — the ontic element a body's trajectory is made of
-- [Segment](/view.html?p=notes/epistemica/epistemic/nature/segment.md) — the operative cut that decides where a body ends
+- [Event](/view.html?p=notes/epistemica/meta/nature/event.md) — the ontic element a body's trajectory is made of
+- [Segment](/view.html?p=notes/epistemica/meta/nature/segment.md) — the operative cut that decides where a body ends

@@ -37,4 +37,4 @@ tags: [document, paper, statistics, estimation, history-of-science, fisher, infe
 - [Royal Society Publishing](https://doi.org/10.1098/rsta.1922.0009)
 - [Uusipaikka (2008)](/view.html?p=documents/papers/uusipaikka-2008-what-did-fisher-mean-estimate.md) — what Fisher meant by “estimate”
 - [Fisher information](/view.html?p=notes/epistemica/observational/information/fisher-information.md) — the concept the paper introduces
-- [Ronald Fisher](/view.html?p=notes/social/collective/actor/private/persona/ronald-fisher.md) — the persona and works set
+- [Ronald Fisher](/view.html?p=notes/social/actor/private/persona/ronald-fisher.md) — the persona and works set

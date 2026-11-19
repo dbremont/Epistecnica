@@ -26,7 +26,7 @@ tags: [note, stratum, intelligentsia, collective, social-element, europe, modern
 
 ### What type of social element does this instance belong to?
 
-**Intelligentsia belongs to `Social Compound` as its primary kind** — an aggregate of people, professions, institutions, and a shared self-understanding, whose identity rests on the last of these. See [Collective](/view.html?p=notes/social/collective/collective.md). Its layer is **Ontic** where the professions and institutions exist extra-mentally, **Synontic** where the standing is a matter of mutual recognition and public deference, and **Noetic** where the self-image, the canon, and the political project live. Its facet is **ideational–cultural first, political second**: its capital was cultural, and its politics was the conversion of that capital into authority.
+**Intelligentsia belongs to `Social Compound` as its primary kind** — an aggregate of people, professions, institutions, and a shared self-understanding, whose identity rests on the last of these. See [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** where the professions and institutions exist extra-mentally, **Synontic** where the standing is a matter of mutual recognition and public deference, and **Noetic** where the self-image, the canon, and the political project live. Its facet is **ideational–cultural first, political second**: its capital was cultural, and its politics was the conversion of that capital into authority.
 
 > Filed on the [stratum](/view.html?p=notes/social/structural/stratum/stratum.md) shelf: it ranks its members on a scale of education and cultural capital, and the gradation is real even where the credential is universal, because what ranked them was not the degree but the claim the degree licensed. The shelf's rule applies — typed once as the compound, with the stratum reading stated rather than made a kind.
 
@@ -153,12 +153,12 @@ Readable secondarily as an **Interaction Unit** where it organized — the journ
 - [Stratum](/view.html?p=notes/social/structural/stratum/stratum.md) (the shelf and the scale of cultivation)
 - [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) (the Western counterpart, and the boundary the two notes share)
 - [Social Class](/view.html?p=notes/social/structural/social-class.md) (the relational cut the *prosloyka* answers in the negative)
-- [Collective](/view.html?p=notes/social/collective/collective.md) (the genus: aggregate kinds of the social compound)
+- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the genus: aggregate kinds of the social compound)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the stratum claimed and was accorded)
-- [University](/view.html?p=notes/social/collective/actor/university.md) (the institution of the credential and the professoriate)
-- [Russia](/view.html?p=notes/social/collective/actor/public/polity/rus/russia.md) (the polity whose opposition the stratum became)
-- [Poland](/view.html?p=notes/social/collective/actor/public/polity/pol/poland.md) (the partitioned nation the stratum was coined to lead)
-- [Scholar-Official](/view.html?p=notes/social/collective/actor/scholar-official.md) (the other examined stratum: rank in a bureaucracy against authority in a public)
+- [University](/view.html?p=notes/social/actor/university.md) (the institution of the credential and the professoriate)
+- [Russia](/view.html?p=notes/social/actor/public/polity/rus/russia.md) (the polity whose opposition the stratum became)
+- [Poland](/view.html?p=notes/social/actor/public/polity/pol/poland.md) (the partitioned nation the stratum was coined to lead)
+- [Scholar-Official](/view.html?p=notes/social/actor/scholar-official.md) (the other examined stratum: rank in a bureaucracy against authority in a public)
 - Berlin, I. (1978). *Russian thinkers*. Hogarth Press.
 - Libelt, K. (1844). *On love of the fatherland* (*O miłości ojczyzny*).
 - Mannheim, K. (1936). *Ideology and utopia* (L. Wirth & E. Shils, Trans.). Harcourt, Brace. (Original work published 1929)

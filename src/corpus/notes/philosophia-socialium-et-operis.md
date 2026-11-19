@@ -162,11 +162,11 @@ Social Element (parent)
 
 ### Why do we need the idea of a facet?
 
-> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](/view.html?p=notes/social/framework/facet.md).
+> Because one configuration of social reality answers to many mechanisms at once, and naming none invites mono-causal explanation. Facets keep inquiry scoped without carving reality into containers or reifying dimensions into substances. See [Facet](/view.html?p=notes/social/meta/facet.md).
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/action/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/action/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -284,10 +284,10 @@ Social Element (parent)
 - [Roadmap](/view.html?p=notes/social/action/organization/roadmap.md)
 - [Charter](/view.html?p=notes/social/action/organization/charter.md)
 - [Agency](/view.html?p=notes/social/action/public/agency.md)
-- [Problem](/view.html?p=notes/social/problem/policy-problem.md)
+- [Problem](/view.html?p=notes/social/action/problem/policy-problem.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Synontic](/view.html?p=notes/social/synontic/synontic.md)
-- [Collective](/view.html?p=notes/social/collective/collective.md)
-- [Social Ontology](/view.html?p=notes/social/framework/social-ontology.md)
+- [Collective](/view.html?p=notes/social/actor/collective/collective.md)
+- [Social Ontology](/view.html?p=notes/social/meta/social-ontology.md)

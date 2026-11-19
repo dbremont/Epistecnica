@@ -197,7 +197,7 @@ Its first mathematical treatise is Niccolò Tartaglia's *Nova Scientia* (1537), 
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) (evaluation criteria)
 - [Physical Sciences](/view.html?p=notes/miscellanea/discipline/physical-sciences.md) — the family whose Mechanics member ballistics specializes
 - [Newtonian Mechanics](/view.html?p=notes/epistemica/singular/newtonian-mechanics.md) · [Lagrangian Mechanics](/view.html?p=notes/epistemica/singular/lagrangian-mechanics.md) · [Rigid-Body Mechanics](/view.html?p=notes/epistemica/singular/rigid-body-mechanics.md) · [Continuum Mechanics Framework](/view.html?p=notes/epistemica/singular/continuum-mechanic-framework.md) — the laws ballistics borrows
-- [Niccolò Tartaglia](/view.html?p=notes/social/collective/actor/private/persona/niccolo-tartaglia.md) — *Nova Scientia* (1537), the first mathematical treatise on ballistics
+- [Niccolò Tartaglia](/view.html?p=notes/social/actor/private/persona/niccolo-tartaglia.md) — *Nova Scientia* (1537), the first mathematical treatise on ballistics
 - [EES](/view.html?p=notes/epistemica/ees.md) — the inventory this discipline is indexed in
 - https://en.wikipedia.org/wiki/Ballistics
 - Carlucci, D. E., & Jacobson, S. S. *Ballistics: Theory and Design of Guns and Ammunition*. CRC Press.

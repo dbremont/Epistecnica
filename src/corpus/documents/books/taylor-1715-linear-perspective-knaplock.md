@@ -31,5 +31,5 @@ The pairing with the *Methodus* of the same year is the reason for the `a`/`b` i
 
 - [Internet Archive — the scan](https://archive.org/details/bim_eighteenth-century_linear-perspective-or-_taylor-brook_1715/mode/2up)
 - [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the other 1715 volume, and the origin of the *a*/*b* distinction
-- [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) — the persona, where the reissue and Colson's revision are recorded
+- [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md) — the persona, where the reissue and Colson's revision are recorded
 - [Integral Operator](/view.html?p=notes/epistemica/mathematical/change/integral-operator.md) — the note that cites both 1715 volumes

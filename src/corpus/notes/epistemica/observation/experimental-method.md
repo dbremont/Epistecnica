@@ -37,7 +37,7 @@ order: 0
 
 > Against a **case**: an experiment is a dated instance with its own history, accident and interpretation. The corpus keeps those separately, in the [natural-science collection](/corpus/notes/epistemica/observation/experiment/), and this scope keeps what recurs across them.
 
-> Against a **principle**: a principle directs inquiry without prescribing an order of acts — *strong inference* says to devise alternative hypotheses and kill them, while the control condition that makes the killing possible is a standard of the method. The [principle scope](/view.html?p=notes/epistemica/epistemic/guidance/principle.md) owns the directives; this scope owns the routines that satisfy them.
+> Against a **principle**: a principle directs inquiry without prescribing an order of acts — *strong inference* says to devise alternative hypotheses and kill them, while the control condition that makes the killing possible is a standard of the method. The [principle scope](/view.html?p=notes/epistemica/meta/guidance/principle.md) owns the directives; this scope owns the routines that satisfy them.
 
 > Against a **technical practice**: the same routine, read as a way of producing an effect rather than of learning one, belongs to the technica corpus as a `Technique`. Optogenetics is the clean case — a biotechnical technique there, an epistemic method here — and the two notes decompose the same activity along different axes: the device chain there, the order of inquiry acts here.
 

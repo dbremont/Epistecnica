@@ -821,4 +821,4 @@ and Modelling, Cambridge University Press, pp. 83-119.
 - https://archive.org/details/practicaldataana0000brya
 - https://www.youtube.com/watch?v=QKplGhhF1E4
 - https://en.wikipedia.org/wiki/Dummy_variable_(statistics)
-- [Francis Ysidro Edgeworth](/view.html?p=notes/social/collective/actor/private/persona/francis-ysidro-edgeworth.md) — the Edgeworth expansions and the approximation of distributions
+- [Francis Ysidro Edgeworth](/view.html?p=notes/social/actor/private/persona/francis-ysidro-edgeworth.md) — the Edgeworth expansions and the approximation of distributions

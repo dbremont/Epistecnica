@@ -23,13 +23,13 @@ tags: [document, book, japan, defense, industrial-policy, political-economy]
 
 > The export ban compounds it. The three principles of 1967 and the blanket restriction of 1976 removed the export market that would have given the industry scale, so the base runs on **small batches at high unit cost** — a procurement pattern the corpus's defence-industry notes should read as a consequence of policy, not of inefficiency.
 
-> For the corpus the book is the clearest case that **defence production is industrial policy conducted under a strategic constraint**: the MITI story of [Johnson's account](/view.html?p=documents/books/johnson-1982-miti-japanese-miracle-growth-industrial.md) with a different objective function, where the state is buying capability it cannot openly want and autonomy it cannot fully have. Read with the [Japan](/view.html?p=notes/social/collective/actor/public/polity/jpn/japan.md) note's industrial-policy section, the contrast is exact: the same bureaucratic instruments, pointed at security rather than growth.
+> For the corpus the book is the clearest case that **defence production is industrial policy conducted under a strategic constraint**: the MITI story of [Johnson's account](/view.html?p=documents/books/johnson-1982-miti-japanese-miracle-growth-industrial.md) with a different objective function, where the state is buying capability it cannot openly want and autonomy it cannot fully have. Read with the [Japan](/view.html?p=notes/social/actor/public/polity/jpn/japan.md) note's industrial-policy section, the contrast is exact: the same bureaucratic instruments, pointed at security rather than growth.
 
 > Its limits are chronological and should be stated: written in 1995, it predates the 2014 reinterpretation of Article 9, the 2022 shift in defence budgeting and the loosened export rules, all of which change the constraints it describes. Read as the **baseline** the later changes depart from.
 
 ## References
 
 - [Archive.org — Arming Japan (Green)](https://archive.org/details/armingjapandefen00gree/page/n5/mode/2up)
-- [Japan](/view.html?p=notes/social/collective/actor/public/polity/jpn/japan.md) — the polity and its industrial policy
+- [Japan](/view.html?p=notes/social/actor/public/polity/jpn/japan.md) — the polity and its industrial policy
 - [Johnson (1982) — MITI and the Japanese Miracle](/view.html?p=documents/books/johnson-1982-miti-japanese-miracle-growth-industrial.md) — the industrial-policy counterpart
 - [Defense — industry readme](/view.html?p=notes/technica/production/industry/defense/readme.md) — the technical shelf

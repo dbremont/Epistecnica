@@ -13,6 +13,6 @@ The genus covers several species, and they are not interchangeable: Schwartz [di
 ## References
 
 - [Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/distribution.md) · [Test Function](/view.html?p=notes/epistemica/mathematical/mapping/distribution/test-function.md) · [Tempered Distribution](/view.html?p=notes/epistemica/mathematical/mapping/distribution/tempered-distribution.md) · [Dirac Delta](/view.html?p=notes/epistemica/mathematical/mapping/distribution/dirac-delta-function.md)
-- [Functional](/view.html?p=notes/epistemica/mathematical/mapping/functional.md) · [Heaviside Function](/view.html?p=notes/epistemica/mathematical/mapping/heaviside-function.md) · [Schwartz's Impossibility of Multiplication](/view.html?p=notes/epistemica/epistemic/construction/mathematical/schwartz-impossibility-of-multiplication.md)
+- [Functional](/view.html?p=notes/epistemica/mathematical/mapping/functional.md) · [Heaviside Function](/view.html?p=notes/epistemica/mathematical/mapping/heaviside-function.md) · [Schwartz's Impossibility of Multiplication](/view.html?p=notes/epistemica/meta/construction/mathematical/schwartz-impossibility-of-multiplication.md)
 - [Generalized Function](https://en.wikipedia.org/wiki/Generalized_function)
 - …

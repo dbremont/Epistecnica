@@ -388,6 +388,6 @@ Entries above are in APA style. Historical works and the well-known papers are g
 - [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md) — the inquiry behind QTL estimation, genomic prediction, and trial design
 - [Earth Science](/view.html?p=notes/miscellanea/discipline/earth-science.md) — the G × E structure and the climate and soils that set the adaptation range
 - [Biotechnology](/view.html?p=notes/technica/general/biotechnology.md) — the wider ensemble this set sits in
-- [Graminor](/view.html?p=notes/social/collective/actor/private/firm/graminor.md) — the Norwegian breeding company that runs the apparatus for the Nordic seed market: the social institution this note's technical scope leaves out
+- [Graminor](/view.html?p=notes/social/actor/private/firm/graminor.md) — the Norwegian breeding company that runs the apparatus for the Nordic seed market: the social institution this note's technical scope leaves out
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`) — the instrument technically, the organism naturally
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)

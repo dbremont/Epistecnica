@@ -85,9 +85,9 @@ Three objections stand:
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Roman Republic](/view.html?p=notes/social/collective/actor/public/polity/rom/roman-republic.md) | The polity in which Roman-ness was the city's and citizenship was worth defending against extension |
+| [Roman Republic](/view.html?p=notes/social/actor/public/polity/rom/roman-republic.md) | The polity in which Roman-ness was the city's and citizenship was worth defending against extension |
 | [Roman Empire](/view.html?p=notes/social/history/castilla/roman-empire.md) | The polity that made the standard universal and the membership grantable |
-| [Eastern Roman Empire](/view.html?p=notes/social/collective/actor/public/polity/byz/eastern-roman-empire.md) | The order that kept the name after it lost the language and the city |
+| [Eastern Roman Empire](/view.html?p=notes/social/actor/public/polity/byz/eastern-roman-empire.md) | The order that kept the name after it lost the language and the city |
 | [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) | The legal machinery through which Roman-ness reached persons |
 | [Civilization](/view.html?p=notes/social/synontic/ideational/civilization.md) | The general concept Romanitas is one historical instance of |
 | [Catholica](/view.html?p=notes/social/synontic/ideational/catholica.md) | The institution that captured the late standard |
@@ -102,6 +102,6 @@ Three objections stand:
 - Ando, C. (2000). *Imperial ideology and provincial loyalty in the Roman Empire*. University of California Press. — how the empire made its rule consentable, and the ideology's working
 - Hingley, R. (2005). *Globalizing Roman culture: Unity, diversity and empire*. Routledge. — the globalisation analogy, and the argument against a single Roman culture
 - [Romanitas](https://es.wikipedia.org/wiki/Romanitas)
-- [Roman Republic](/view.html?p=notes/social/collective/actor/public/polity/rom/roman-republic.md) · [Roman Empire](/view.html?p=notes/social/history/castilla/roman-empire.md) · [Eastern Roman Empire](/view.html?p=notes/social/collective/actor/public/polity/byz/eastern-roman-empire.md) — the polities that carried it
+- [Roman Republic](/view.html?p=notes/social/actor/public/polity/rom/roman-republic.md) · [Roman Empire](/view.html?p=notes/social/history/castilla/roman-empire.md) · [Eastern Roman Empire](/view.html?p=notes/social/actor/public/polity/byz/eastern-roman-empire.md) — the polities that carried it
 - [Ideational](/view.html?p=notes/social/synontic/ideational/ideational.md) — the family this element belongs to
 - [Imperialism](/view.html?p=notes/social/dynamic/imperialism.md) — the relation it legitimated

@@ -43,7 +43,7 @@ tags: [note, production, energy, wind]
 | **Nordex** | Germany | OEM | Onshore turbines, with a strong European and Latin American footprint |
 | **Enercon** | Germany | OEM | Gearless direct-drive onshore turbines |
 | **Goldwind** | China | OEM | Turbines, permanent-magnet direct-drive, and the Chinese market base |
-| **ABB** | Switzerland / Sweden | Component supplier | Generators, power converters, grid connection and substations — see [ABB Ltd.](/view.html?p=notes/social/collective/actor/private/firm/abb-ltd.md) |
+| **ABB** | Switzerland / Sweden | Component supplier | Generators, power converters, grid connection and substations — see [ABB Ltd.](/view.html?p=notes/social/actor/private/firm/abb-ltd.md) |
 | **Beckhoff** | Germany | Automation supplier | PC-based control, PLC, I/O and drives — the controller platform a turbine or a blade factory can be built on |
 | **Bachmann electronic** | Austria | Automation supplier | Wind turbine controllers, condition monitoring and SCADA, sold as a wind-specific control package |
 | **LM Wind Power** | Denmark | Blade supplier | Blades for the OEMs |
@@ -58,4 +58,4 @@ tags: [note, production, energy, wind]
 - [Wind turbine — Wikipedia](https://en.wikipedia.org/wiki/Wind_turbine)
 - [Global Wind Energy Council — statistics and market reports](https://gwec.net/)
 - [IRENA — wind energy data and cost reports](https://www.irena.org/Energy-Transition/Technology/Wind-energy)
-- [ABB Ltd.](/view.html?p=notes/social/collective/actor/private/firm/abb-ltd.md) — the firm note for the electrical supplier
+- [ABB Ltd.](/view.html?p=notes/social/actor/private/firm/abb-ltd.md) — the firm note for the electrical supplier

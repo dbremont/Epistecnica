@@ -12,7 +12,7 @@ qa:
 
 > A **Tschirnhaus transformation** replaces the unknown of a polynomial equation by a polynomial — or rational — function of a new indeterminate, with coefficients chosen so that some or all of the intermediate terms of the transformed equation vanish.
 
-It was published by [Ehrenfried Walther von Tschirnhaus](/view.html?p=notes/social/collective/actor/private/persona/ehrenfried-walther-von-tschirnhaus.md) in the *Acta Eruditorum* of May 1683, pages 204–207, as *Methodus auferendi omnes terminos intermedios ex data aequatione* — a method for removing all intermediate terms from a given equation.
+It was published by [Ehrenfried Walther von Tschirnhaus](/view.html?p=notes/social/actor/private/persona/ehrenfried-walther-von-tschirnhaus.md) in the *Acta Eruditorum* of May 1683, pages 204–207, as *Methodus auferendi omnes terminos intermedios ex data aequatione* — a method for removing all intermediate terms from a given equation.
 
 ## 1. The problem it attacks
 
@@ -154,7 +154,7 @@ The substitution is always available. The conditions are always writable. Only t
 - [Adamchik, V. S. & Jeffrey, D. J. (2003). Polynomial transformations of Tschirnhaus, Bring and Jerrard. *ACM SIGSAM Bulletin* 37(3), 90–94](https://doi.org/10.1145/990353.990371) — [author's copy](https://www.uwo.ca/apmaths/faculty/jeffrey/pdfs/Adamchik.pdf)
 - [Bring–Jerrard normal form — Wikipedia](https://en.wikipedia.org/wiki/Bring_radical)
 - [Weisstein, E. W. — Tschirnhausen Transformation, MathWorld](https://mathworld.wolfram.com/TschirnhausenTransformation.html)
-- [Tschirnhaus, Ehrenfried Walther von — the persona](/view.html?p=notes/social/collective/actor/private/persona/ehrenfried-walther-von-tschirnhaus.md)
+- [Tschirnhaus, Ehrenfried Walther von — the persona](/view.html?p=notes/social/actor/private/persona/ehrenfried-walther-von-tschirnhaus.md)
 - [Tschirnhaus, E. W. von (1695). *Medicina mentis* — the digitised copy](https://archive.org/details/medicinamentissi00tsch)
 - [Polynomial — the transformation family, and its § Tschirnhaus Transformation](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md)
 - [Classical Algebra — the Ars Cossica technique path tree](/view.html?p=notes/epistemica/mathematical/cossical/classical-algebra.md)

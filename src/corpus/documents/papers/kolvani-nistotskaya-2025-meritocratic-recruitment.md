@@ -27,10 +27,10 @@ tags: [document, paper, public-administration, civil-service, institutions, meri
 
 > The consequence for the literature is methodological before it is substantive: the standard indices of bureaucratic quality conflate the two, so an observed correlation between "meritocracy" and growth, or between "meritocracy" and low corruption, cannot say **which** mechanism produced it. Separating them is what makes the causal claim legible.
 
-> For the corpus the distinction is the one the [civil service](/view.html?p=notes/social/collective/actor/public/civil-service.md) note already draws structurally — appointment is not competence, and competence is not accountability — now with the empirical argument that the three must be measured independently. The paper is also a warning about institutional naming: a reform labelled "merit-based" can install either mechanism, and the label does not tell you which.
+> For the corpus the distinction is the one the [civil service](/view.html?p=notes/social/actor/public/civil-service.md) note already draws structurally — appointment is not competence, and competence is not accountability — now with the empirical argument that the three must be measured independently. The paper is also a warning about institutional naming: a reform labelled "merit-based" can install either mechanism, and the label does not tell you which.
 
 ## References
 
 - [Kolvani & Nistotskaya (2025) — DOI](https://doi.org/10.1017/S1744137425000086)
-- [Civil Service](/view.html?p=notes/social/collective/actor/public/civil-service.md) — the note the distinction belongs to
-- [Public Organization](/view.html?p=notes/social/collective/actor/public/public-organization.md) — the institutional typology
+- [Civil Service](/view.html?p=notes/social/actor/public/civil-service.md) — the note the distinction belongs to
+- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) — the institutional typology

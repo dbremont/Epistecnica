@@ -103,7 +103,7 @@
     "element-of"
    ],
    "notes": [
-    "epistemica/epistemic/theory/definition.md",
+    "epistemica/meta/theory/definition.md",
     "epistemica/mathematical/set.md"
    ],
    "sources": [
@@ -137,7 +137,7 @@
    ],
    "notes": [
     "epistemica/mathematical/set.md",
-    "epistemica/epistemic/construction/mathematical/brouwer-fixed-point-theorem.md"
+    "epistemica/meta/construction/mathematical/brouwer-fixed-point-theorem.md"
    ],
    "sources": [
     {
@@ -955,7 +955,7 @@
    ],
    "notes": [
     "epistemica/mathematical/change/divergence-operator.md",
-    "epistemica/epistemic/construction/mathematical/gradient-theorem.md"
+    "epistemica/meta/construction/mathematical/gradient-theorem.md"
    ],
    "sources": [
     {
@@ -1891,8 +1891,8 @@
     "maps-to"
    ],
    "notes": [
-    "epistemica/epistemic/theory/definition.md",
-    "epistemica/epistemic/variable.md"
+    "epistemica/meta/theory/definition.md",
+    "epistemica/meta/variable.md"
    ],
    "sources": [
     {
@@ -1926,7 +1926,7 @@
     "identical"
    ],
    "notes": [
-    "epistemica/epistemic/theory/definition.md"
+    "epistemica/meta/theory/definition.md"
    ],
    "sources": [
     {

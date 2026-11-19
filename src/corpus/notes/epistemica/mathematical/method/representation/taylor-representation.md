@@ -14,7 +14,7 @@ $$f(x)=\sum_{k\ge 0}\frac{f^{(k)}(a)}{k!}\,(x-a)^k
 \qquad\text{with}\qquad
 f^{(k)}(a)=\left.\frac{d^k f}{dx^k}\right|_{x=a}$$
 
-> The same expansion is taken for a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between spaces where a derivative and a power make sense — in a Banach space, in several variables, and in the formal setting of a polynomial ring. Published by [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1715a; title page 1717); see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
+> The same expansion is taken for a [map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) between spaces where a derivative and a power make sense — in a Banach space, in several variables, and in the formal setting of a polynomial ring. Published by [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md) in the *Methodus incrementorum* (1715a; title page 1717); see [Taylor series](https://en.wikipedia.org/wiki/Taylor_series).
 
 ## 1. The representation
 
@@ -73,4 +73,4 @@ The Taylor representation is the linearisation used everywhere in these notes: [
 - [Taylor series](https://en.wikipedia.org/wiki/Taylor_series)
 - [Representation](/view.html?p=notes/epistemica/mathematical/method/representation.md) — the family, and the table of building blocks
 - [Function](/view.html?p=notes/epistemica/mathematical/mapping/function.md) · [Map](/view.html?p=notes/epistemica/mathematical/mapping/map.md) · [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md)
-- [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) — the persona
+- [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md) — the persona

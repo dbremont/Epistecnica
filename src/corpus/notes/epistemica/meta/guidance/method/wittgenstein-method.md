@@ -1,0 +1,7 @@
+---
+tags: [note, philosophical-system]
+---
+
+# Wittgenstein’s Method
+
+Related: [Philosophical System](/view.html?p=notes/epistemica/meta/guidance/method/philosophical-system.md)

@@ -30,4 +30,4 @@ tags: [document, book, research, innovation, industrial-research, management]
 - [Archive.org — Engines of Innovation (Rosenbloom & Spencer, eds.)](https://archive.org/details/isbn_2900875846759)
 - [Research System](/view.html?p=notes/social/structural/technical/intersection/research-system.md) — the institutional system the lab belonged to
 - [An Essay on Enterprise Research Labs](/view.html?p=notes/technica/breviarium/an-essay-on-enterprise-research-labs.md) — the corpus note on the same institution
-- [Corning Incorporated](/view.html?p=notes/social/collective/actor/private/firm/corning-incorporated.md) — the dormant-capability case
+- [Corning Incorporated](/view.html?p=notes/social/actor/private/firm/corning-incorporated.md) — the dormant-capability case

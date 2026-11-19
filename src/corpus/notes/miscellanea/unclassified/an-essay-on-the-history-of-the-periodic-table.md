@@ -70,7 +70,7 @@ tags: [note, history-of-science, chemistry, classification, prediction]
 
 - [Periodic table — Wikipedia](https://en.wikipedia.org/wiki/Periodic_table)
 - [Dmitri Mendeleev — Wikipedia](https://en.wikipedia.org/wiki/Dmitri_Mendeleev)
-- [Dmitri Mendeleev](/view.html?p=notes/social/collective/actor/private/persona/dmitri-mendeleev.md) — the persona note
+- [Dmitri Mendeleev](/view.html?p=notes/social/actor/private/persona/dmitri-mendeleev.md) — the persona note
 - [Periodicity](/view.html?p=notes/nature/periodic.md) — the natural phenomenon the table encodes
 - [Chemical Element Characterization](/view.html?p=notes/nature/chemical-element-characterization.md) — the properties the table orders
 - [Chemical Representation](/view.html?p=notes/nature/matter/chemical/chemical-representation.md) — the notation the table sits inside

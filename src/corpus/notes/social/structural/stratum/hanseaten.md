@@ -8,7 +8,7 @@ tags: [note, stratum, hanseaten, collective, social-element, europe, modern, ger
 
 > The formation is a republican oligarchy, and the paradox is the concept. Hamburg banned the nobility from owning property, from political life, and even from living inside its walls, from the thirteenth century into the nineteenth; the Hanseaten then occupied the place that noble and princely families held elsewhere, while insisting they were not nobles. They refused titles, refused foreign orders, and treated ennoblement as a slight to the family name — the posture the sources call the **hanseatic rejection**. A Hanseat was the equal of a noble in rank and, in his own estimation, his superior in cultivation and in independence.
 
-> It is not a legal order, which is what distinguishes it from the [Grand Burgher](/view.html?p=notes/social/structural/stratum/grand-burgher.md): the grand right is the instrument, defined in the charter of any German city that had one, and the Hanseaten are the families of three particular cities who held it and governed. Nor is it the [Hanseatic League](/view.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md): the League was a confederation of towns that stopped convening, while the families continued into the twentieth century and gave the class its name.
+> It is not a legal order, which is what distinguishes it from the [Grand Burgher](/view.html?p=notes/social/structural/stratum/grand-burgher.md): the grand right is the instrument, defined in the charter of any German city that had one, and the Hanseaten are the families of three particular cities who held it and governed. Nor is it the [Hanseatic League](/view.html?p=notes/social/actor/public/polity/hsa/hanseatic-league.md): the League was a confederation of towns that stopped convening, while the families continued into the twentieth century and gave the class its name.
 
 ## Formulation
 
@@ -24,7 +24,7 @@ tags: [note, stratum, hanseaten, collective, social-element, europe, modern, ger
 
 ### What type of social element does this instance belong to?
 
-**Hanseaten belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a marriage network, a set of offices, a commercial capital, and a shared ethos. See [Collective](/view.html?p=notes/social/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses, and the Senate seats exist extra-mentally, and **Synontic** where the class's rank rests on the deference the city accorded it and on the families' mutual recognition through marriage. Its facet is **familial–political first, economic second**: the capital was the substance, but the identity was descent and office.
+**Hanseaten belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a marriage network, a set of offices, a commercial capital, and a shared ethos. See [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses, and the Senate seats exist extra-mentally, and **Synontic** where the class's rank rests on the deference the city accorded it and on the families' mutual recognition through marriage. Its facet is **familial–political first, economic second**: the capital was the substance, but the identity was descent and office.
 
 > Filed on the [stratum](/view.html?p=notes/social/structural/stratum/stratum.md) shelf: it ranks its families above the petty burghers and the non-burghers on the scale of civic standing and familial prestige, and the gradation is real even though it was fixed by a legal threshold. The shelf's rule applies — the note is typed once as the compound, and the stratum reading is stated rather than made a kind.
 
@@ -75,7 +75,7 @@ Readable secondarily as a **ruling class** — they were the government, and the
 | `Social Compound` `(→ Instance)` Hanseaten `(→ Association)` `Social Class` `(→ Kind)` Bourgeoisie | The class whose economic wing the Hanseaten were — associated, not constitutive: a family's standing was hereditary and civic, and outlived its capital. |
 | `Social Compound` `(→ Instance)` Hanseaten `(→ Association)` `Social Compound` `(→ Instance)` Grand Burgher | The legal order the families held: the hereditary right that defined membership, and that the notes divide between them — the instrument here, the formation there. |
 | `Social Compound` `(→ Instance)` Hanseaten `(→ Association)` Nobility | The rival order: excluded from Hamburg by law, imitated in rank, refused in title, and intermarried with against the families' better judgement. |
-| `Social Compound` `(→ Instance)` Hanseaten `(→ Association)` `Social Compound` `(→ Instance)` Bildungsbürgertum | The neighbouring stratum, and the mirror: standing by cultivation and office there, by capital and hereditary right here — the comparison the [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md) note draws. |
+| `Social Compound` `(→ Instance)` Hanseaten `(→ Association)` `Social Compound` `(→ Instance)` Bildungsbürgertum | The neighbouring stratum, and the mirror: standing by cultivation and office there, by capital and hereditary right here — the comparison the [Lübeck](/view.html?p=notes/social/actor/public/polity/deu/region/lubeck.md) note draws. |
 
 ### Which are the tags that can be used to enrich the nodes of the decomposition?
 
@@ -134,7 +134,7 @@ Readable secondarily as a **ruling class** — they were the government, and the
 
 ### How do the Hanseaten compare with the Bildungsbürgertum?
 
-> They are the two poles of the German bourgeoisie, and the corpus already holds both. The [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) stood on cultivation, the state examination, and office; the Hanseaten on capital, the trading house, and hereditary civic right. The first was employed by the state, the second governed a state — which is why the [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md) note calls the merchant city the mirror in which the educated stratum can be seen, and why *Buddenbrooks*, a Hanseatic family's decline, ends with a son drawn to music rather than to commerce.
+> They are the two poles of the German bourgeoisie, and the corpus already holds both. The [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) stood on cultivation, the state examination, and office; the Hanseaten on capital, the trading house, and hereditary civic right. The first was employed by the state, the second governed a state — which is why the [Lübeck](/view.html?p=notes/social/actor/public/polity/deu/region/lubeck.md) note calls the merchant city the mirror in which the educated stratum can be seen, and why *Buddenbrooks*, a Hanseatic family's decline, ends with a son drawn to music rather than to commerce.
 
 ## References
 
@@ -144,9 +144,9 @@ Readable secondarily as a **ruling class** — they were the government, and the
 - [Grand Burgher](/view.html?p=notes/social/structural/stratum/grand-burgher.md) (the legal order the families held)
 - [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) (the neighbouring stratum, and the mirror)
 - [Social Class](/view.html?p=notes/social/structural/social-class.md) (the relational cut; the class the Hanseaten belonged to)
-- [Hamburg](/view.html?p=notes/social/collective/actor/public/polity/deu/region/hamburg.md) (the largest of the three republics)
-- [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md) (the city of Mann's family and of *Buddenbrooks*)
-- [Hanseatic League](/view.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md) (the medieval confederation the name remembers, and not the class)
+- [Hamburg](/view.html?p=notes/social/actor/public/polity/deu/region/hamburg.md) (the largest of the three republics)
+- [Lübeck](/view.html?p=notes/social/actor/public/polity/deu/region/lubeck.md) (the city of Mann's family and of *Buddenbrooks*)
+- [Hanseatic League](/view.html?p=notes/social/actor/public/polity/hsa/hanseatic-league.md) (the medieval confederation the name remembers, and not the class)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the city conferred)
 - [Salon](/view.html?p=notes/social/action/activity/cultural/salon.md) (the sociability in which the educated stratum met the mercantile one)
 - Mann, T. (1901). *Buddenbrooks: Verfall einer Familie*.

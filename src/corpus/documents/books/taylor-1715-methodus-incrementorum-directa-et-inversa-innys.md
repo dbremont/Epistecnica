@@ -35,4 +35,4 @@ The date needs stating once. The title page reads **MDCCXVII — 1717**; the bib
 - [Taylor Representation](/view.html?p=notes/epistemica/mathematical/method/representation/taylor-representation.md) — the theorem as a representation of a function
 - [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) — the finite Taylor expansion, in the results table
 - [Integral Operator](/view.html?p=notes/epistemica/mathematical/change/integral-operator.md) — the sum as the inverse of the difference, which is what the *Methodus* names
-- [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md) — the persona
+- [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md) — the persona

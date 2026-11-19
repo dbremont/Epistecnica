@@ -125,7 +125,7 @@
           statistics: [], works: works, references: [],
           footer: { entityCode: code.toUpperCase(), region: '', lastRevised: '',
             links: [
-              { label: 'Polity Index', href: '/notes/data/social/collective/actor/public/polity/index.html' },
+              { label: 'Polity Index', href: '/notes/data/social/actor/public/polity/index.html' },
               { label: 'Catalog', href: '/notes/web/index.html' }
             ] }
         };
@@ -137,7 +137,7 @@
         if (subtitle) {
           subtitle.textContent = data.identity.name;
           subtitle.href = '/notes/web/index.html?dir=' +
-            encodeURIComponent('social/collective/actor/public/polity/' + code);
+            encodeURIComponent('social/actor/public/polity/' + code);
         }
       } catch (error) {
         console.error('Failed to load country data:', error);

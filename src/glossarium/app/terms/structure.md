@@ -1,3 +1,7 @@
+---
+aliases: [Technical Structure]
+---
+
 # Structure
 
 > **Structure** is the degree of organization, differentiation, and relational patterning present in a complex situation, whereby entities are arranged into hierarchical or networked configurations that enable multi-level analysis and interpretation.
@@ -24,6 +28,11 @@ A  B  C  D  E  F
     /   \     /  \
    A     B   C    D
 ```
+
+
+## Technical reading
+
+Read as a **technical structure**, the term names the organization and arrangement of components, relations and dependencies that constitutes a technical object — what stays the same across [configurations](/glossarium/?t=technical-configuration) and is fixed by the [architecture](/glossarium/?t=technical-architecture). A structure is identified by its invariants, not by its parts.
 
 ## References
 

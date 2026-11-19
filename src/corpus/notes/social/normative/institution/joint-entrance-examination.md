@@ -76,6 +76,6 @@ The backwash is the second consequence: because the rank decides access to the m
 - [Joint Entrance Examination – Advanced — Wikipedia](https://en.wikipedia.org/wiki/Joint_Entrance_Examination_%E2%80%93_Advanced)
 - [National Testing Agency — Wikipedia](https://en.wikipedia.org/wiki/National_Testing_Agency)
 - [Indian Institutes of Technology — Wikipedia](https://en.wikipedia.org/wiki/Indian_Institutes_of_Technology)
-- [Education Actor](/view.html?p=notes/social/collective/actor/education-actor.md) — the teaching body the examination selects for
-- [Educational Field](/view.html?p=notes/social/problem/dimension/education/educational-field.md) — the formation ecosystem the syllabus belongs to
-- [India](/view.html?p=notes/social/collective/actor/public/polity/ind/india.md) — the polity whose institutions the examination allocates
+- [Education Actor](/view.html?p=notes/social/actor/education-actor.md) — the teaching body the examination selects for
+- [Educational Field](/view.html?p=notes/social/action/problem/dimension/education/educational-field.md) — the formation ecosystem the syllabus belongs to
+- [India](/view.html?p=notes/social/actor/public/polity/ind/india.md) — the polity whose institutions the examination allocates

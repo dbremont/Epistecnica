@@ -72,10 +72,10 @@ tags: [note, framework]
 ## References
 
 - [Inequality](/view.html?p=notes/epistemica/mathematical/relation/inequality.md)
-- [**AM-GM Inequality**](/view.html?p=notes/epistemica/epistemic/construction/mathematical/am-gm-inequality.md)
-- [**Jensen's Inequality**](/view.html?p=notes/epistemica/epistemic/construction/mathematical/jensen-s-inequality.md)
-- [Chebyshev's Inequality](/view.html?p=notes/epistemica/epistemic/construction/mathematical/chebyshev-s-inequality.md)
-- [Cauchy-Schwarz Inequality](/view.html?p=notes/epistemica/epistemic/construction/mathematical/cauchy-schwarz-inequality.md)
+- [**AM-GM Inequality**](/view.html?p=notes/epistemica/meta/construction/mathematical/am-gm-inequality.md)
+- [**Jensen's Inequality**](/view.html?p=notes/epistemica/meta/construction/mathematical/jensen-s-inequality.md)
+- [Chebyshev's Inequality](/view.html?p=notes/epistemica/meta/construction/mathematical/chebyshev-s-inequality.md)
+- [Cauchy-Schwarz Inequality](/view.html?p=notes/epistemica/meta/construction/mathematical/cauchy-schwarz-inequality.md)
 - https://en.wikipedia.org/wiki/Slutsky%27s_theorem
 - https://en.wikipedia.org/wiki/Markov%27s_inequality
 - https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem

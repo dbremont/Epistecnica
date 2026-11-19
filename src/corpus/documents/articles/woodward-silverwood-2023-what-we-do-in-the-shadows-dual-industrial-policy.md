@@ -58,4 +58,4 @@ Industrial policy; Thatcherism; neoliberalism; dual industrial policy; UK politi
 
 ### Related note
 
-- [Margaret Thatcher](/view.html?p=notes/social/collective/actor/private/persona/margaret-thatcher.md)
+- [Margaret Thatcher](/view.html?p=notes/social/actor/private/persona/margaret-thatcher.md)

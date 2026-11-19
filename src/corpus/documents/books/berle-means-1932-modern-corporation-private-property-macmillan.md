@@ -25,4 +25,4 @@ Their normative question — who should the corporation answer to, if the owners
 ## References
 
 - [Property Rights](/view.html?p=notes/social/normative/property-right.md) — the note whose holder and incident branches this split separates
-- [Board](/view.html?p=notes/social/collective/actor/board.md) — the governing body that inherited the control half
+- [Board](/view.html?p=notes/social/actor/board.md) — the governing body that inherited the control half

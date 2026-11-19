@@ -115,4 +115,4 @@ tags: [note, discipline]
 ## References
 
 - [Welfare Economics](https://en.wikipedia.org/wiki/Welfare_economics)
-- [Francis Ysidro Edgeworth](/view.html?p=notes/social/collective/actor/private/persona/francis-ysidro-edgeworth.md) — the box, the contract curve and the hedonic calculus
+- [Francis Ysidro Edgeworth](/view.html?p=notes/social/actor/private/persona/francis-ysidro-edgeworth.md) — the box, the contract curve and the hedonic calculus

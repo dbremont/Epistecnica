@@ -46,3 +46,15 @@ $$
 
 > **Digital Technological Space**: The "Digital Technological Space" refers to the interconnected realm created by the digital infrastructure, encompassing networks, devices, and platforms, where information, communication, and computational processes occur within the digital domain.
 > 
+
+## The technical reading
+
+> In the canonical technica guide, **technology** is properly the systematic study, knowledge or theory of **technique and technical elements**; in everyday language the word is used metonymically for the technical elements themselves — especially technical objects, systems and artifacts.
+
+The corpus's own note traces the notions of technology — lay, economist, and the development-policy reading that follows the whole chain from technical research through technical constructs to technical objects, and the social organization that sustains them. The metonymic reading is not wrong as a description of usage; it is misleading as a basis for policy, because it takes the results of technical research for the whole process.
+
+## References
+
+- [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)
+- [Technology (note)](/view.html?p=notes/social/structural/technical/technology.md)
+- [Technical Element](/glossarium/?t=technical-element)

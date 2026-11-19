@@ -8,11 +8,11 @@ tags: [note, mathematics, method, technique, foundation]
 
 ## Formulation
 
-> **What it is.** The routine that turns an infinite family of claims into two finite ones. It is the fifth [Peano axiom](/view.html?p=notes/epistemica/epistemic/theory/foundation/peano-axioms.md) read as a proof method, and the reason arithmetic can be developed at all.
+> **What it is.** The routine that turns an infinite family of claims into two finite ones. It is the fifth [Peano axiom](/view.html?p=notes/epistemica/meta/theory/foundation/peano-axioms.md) read as a proof method, and the reason arithmetic can be developed at all.
 >
-> **Type.** An `Epistemic Method` — a reproducible order of acts (base case, induction hypothesis, step). It is not the axiom it rests on, and not the [ordinal](/view.html?p=notes/epistemica/epistemic/theory/foundation/ordinal.md) recursion that generalizes it.
+> **Type.** An `Epistemic Method` — a reproducible order of acts (base case, induction hypothesis, step). It is not the axiom it rests on, and not the [ordinal](/view.html?p=notes/epistemica/meta/theory/foundation/ordinal.md) recursion that generalizes it.
 >
-> **Boundary.** Induction proves statements about *discrete, well-founded* structures. It does not prove real-valued statements, and "induction" in the epistemic sense — [universal induction](../../../epistemic/guidance/principle/universal-induction.md), Solomonoff's prior — is a different thing entirely.
+> **Boundary.** Induction proves statements about *discrete, well-founded* structures. It does not prove real-valued statements, and "induction" in the epistemic sense — [universal induction](../../../meta/guidance/principle/universal-induction.md), Solomonoff's prior — is a different thing entirely.
 
 ## The forms
 
@@ -33,4 +33,4 @@ tags: [note, mathematics, method, technique, foundation]
 ## References
 
 - https://en.wikipedia.org/wiki/Mathematical_induction
-- [Peano Axioms](/view.html?p=notes/epistemica/epistemic/theory/foundation/peano-axioms.md) · [Ordinal](/view.html?p=notes/epistemica/epistemic/theory/foundation/ordinal.md) · [Descent](descent.md) · [Extremal Principle](extremal-principle.md)
+- [Peano Axioms](/view.html?p=notes/epistemica/meta/theory/foundation/peano-axioms.md) · [Ordinal](/view.html?p=notes/epistemica/meta/theory/foundation/ordinal.md) · [Descent](descent.md) · [Extremal Principle](extremal-principle.md)

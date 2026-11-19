@@ -10,7 +10,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 > repertoire of viable commerce configurations) and the **firm space** (the population of firms
 > instantiating them) under competitive selection. This note synthesizes
 > [Commerce](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) and
-> [Firm](/view.html?p=notes/social/collective/actor/firm.md); it defines nothing the commerce note already
+> [Firm](/view.html?p=notes/social/actor/firm.md); it defines nothing the commerce note already
 > defines — it traces how the two spaces change together.
 
 ## Formulation
@@ -47,7 +47,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 >
 > The **firm space** is the population of firms — bounded, goal-oriented socio-technical
 > collectives (`Collective / Organization`, Ontic, economic facet; see
-> [Firm](/view.html?p=notes/social/collective/actor/firm.md)) — that instantiate those configurations. Firms
+> [Firm](/view.html?p=notes/social/actor/firm.md)) — that instantiate those configurations. Firms
 > act through intentional agency, operational capacities, market interfaces, reflexive
 > representations, and evolutionary learning (innovation, adaptation). A firm-level performance
 > verdict never transfers to the format: performance is measured for a firm or cohort
@@ -141,7 +141,7 @@ tags: [note, commercial-sector, commerce, business-model, firm, evolution, econo
 ## References
 
 - [Commerce](/view.html?p=notes/social/action/activity/economic/commerce-economic-activity.md) — problem space, interaction models, business-model space, evaluation and evolution metrics
-- [Firm](/view.html?p=notes/social/collective/actor/firm.md) — firm as `Collective / Organization`
+- [Firm](/view.html?p=notes/social/actor/firm.md) — firm as `Collective / Organization`
 - Profile Templates — production and industry profiling blueprints, incl. firm-space tables
 - [Perishable Agricultural Products Industry](/view.html?p=notes/social/action/activity/economic/perishable-agricultural-products-economic-activity.md) — spot-markets-to-contracts trajectory
 - [Retail Supply–Demand Matching](/view.html?p=notes/technica/production/industry/retail-supply-demand-matching.md) — canonical multi-root case (technical primary; social and epistemic secondary)

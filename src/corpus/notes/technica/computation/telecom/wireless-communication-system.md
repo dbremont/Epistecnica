@@ -118,4 +118,4 @@ The filter is not physics. It is reduction to practice, disclosure in the form t
 - [Wireless](https://en.wikipedia.org/wiki/Wireless) · [History of radio](https://en.wikipedia.org/wiki/History_of_radio) · [Cellular network](https://en.wikipedia.org/wiki/Cellular_network)
 - [Telecom](/view.html?p=notes/technica/computation/telecom/telecom.md) — the parent note
 - [Antenna](/view.html?p=notes/technica/computation/telecom/antenna.md) — the component the field is built around
-- [Antonio Meucci](/view.html?p=notes/social/collective/actor/private/persona/antonio-meucci.md) — the telephone caveat that lapsed, as the same filter seen from the wire side
+- [Antonio Meucci](/view.html?p=notes/social/actor/private/persona/antonio-meucci.md) — the telephone caveat that lapsed, as the same filter seen from the wire side

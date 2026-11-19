@@ -356,7 +356,7 @@ Lagrange did not formulate modern group theory, but he established a crucial con
 - [Mathematics SE — Clarifications regarding Lagrange resolvent](https://math.stackexchange.com/questions/1629629/clarifications-regarding-lagrange-resolvent)
 - [Mathematics SE — Finding cube roots of unity: a proper explanation](https://math.stackexchange.com/questions/3835121/finding-cube-roots-of-a-unity-proper-explanation-is-needed)
 - [Clark, A. — Elements of Abstract Algebra (secondary exposition; scanned copy)](https://poincare.matf.bg.ac.rs/~zarkom/Book_Math_Clark_Elements_of_abstract_algebra%202.pdf)
-- [Lagrange, Joseph-Louis — the persona](/view.html?p=notes/social/collective/actor/private/persona/joseph-louis-lagrange.md)
+- [Lagrange, Joseph-Louis — the persona](/view.html?p=notes/social/actor/private/persona/joseph-louis-lagrange.md)
 - [Classical Algebra — the Ars Cossica technique path tree](/view.html?p=notes/epistemica/mathematical/cossical/classical-algebra.md)
 - [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md)
 - [Group Theory](/view.html?p=notes/epistemica/mathematical/structure/algebra/group-theory.md)

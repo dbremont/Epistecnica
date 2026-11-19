@@ -6,7 +6,7 @@ tags: [note, ideational, synontic, social-philosophy, facet, social-element]
 
 > **Ideational** designates the synontic family of **social philosophies**: systems of shared ideas that orient the **conduct of life** — personal and collective — by saying what is to be done and not done, for the individual and for the collective.
 
-> The **Ideational** facet — shared ideas, worldviews, ideologies, and cognitive schemas that influence perception, meaning-making, and social goals — is defined in [Facet](/view.html?p=notes/social/framework/facet.md). This note is the home of the family of elements scoped by that facet: the philosophies of conduct through which agents and collectives make life intelligible and decide how to live it.
+> The **Ideational** facet — shared ideas, worldviews, ideologies, and cognitive schemas that influence perception, meaning-making, and social goals — is defined in [Facet](/view.html?p=notes/social/meta/facet.md). This note is the home of the family of elements scoped by that facet: the philosophies of conduct through which agents and collectives make life intelligible and decide how to live it.
 
 > Morality appears here only insofar as shared moral schemas, norms, and traditions are transmitted, recognized, negotiated, and revised. The normative machinery — justification, duty, imputability, judgment, and repair — belongs to [Philosophia Moralis et Operis](/view.html?p=notes/philosophia-moralis-et-operis.md).
 
@@ -26,7 +26,7 @@ tags: [note, ideational, synontic, social-philosophy, facet, social-element]
 
 > Its type path is nested: `Synontic Element (→ Kind) Ideational Element`. It is the family of synontic elements scoped by the Ideational facet.
 
-Its layer is **Synontic**: an ideational element exists through shared recognition and interpretation — a doctrine has no extra-mental body, though it may be carried by texts, rituals, institutions, and material symbols. Its facet is **Ideational** (see [Facet](/view.html?p=notes/social/framework/facet.md)).
+Its layer is **Synontic**: an ideational element exists through shared recognition and interpretation — a doctrine has no extra-mental body, though it may be carried by texts, rituals, institutions, and material symbols. Its facet is **Ideational** (see [Facet](/view.html?p=notes/social/meta/facet.md)).
 
 ### How does Ideational relate to Ideology, Belief, Morality, Value, Culture, and Symbolic System?
 
@@ -90,7 +90,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 
 ### Is Ideational a facet or an element?
 
-> Both, at different registers. As a **facet**, Ideational is an analytical dimension that scopes inquiry by dominant causal mechanism (meaning-making) and owns no nodes — see [Facet](/view.html?p=notes/social/framework/facet.md). As a **family of elements**, the Ideational Elements are the synontic elements scoped by that facet: the concrete philosophies of conduct. This note holds the family; the facet table holds the lens.
+> Both, at different registers. As a **facet**, Ideational is an analytical dimension that scopes inquiry by dominant causal mechanism (meaning-making) and owns no nodes — see [Facet](/view.html?p=notes/social/meta/facet.md). As a **family of elements**, the Ideational Elements are the synontic elements scoped by that facet: the concrete philosophies of conduct. This note holds the family; the facet table holds the lens.
 
 ### Why is Ideational not decomposed as one social element?
 
@@ -103,7 +103,7 @@ Its layer is **Synontic**: an ideational element exists through shared recogniti
 ## References
 
 - [Synontic](/view.html?p=notes/social/synontic/synontic.md)
-- [Facet](/view.html?p=notes/social/framework/facet.md)
+- [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Ideology](/view.html?p=notes/social/synontic/ideology.md)
 - [Belief System](/view.html?p=notes/social/synontic/ideational/belief.md)
 - [Morality](/view.html?p=notes/social/synontic/ideational/morality/morality.md)

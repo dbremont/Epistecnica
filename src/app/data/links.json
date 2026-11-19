@@ -8,7 +8,7 @@
   },
   {
    "from": "epistemica/",
-   "to": "epistemica/epistemic/guidance/",
+   "to": "epistemica/meta/guidance/",
    "label": "Guidance",
    "kind": "hierarchy"
   },
@@ -145,19 +145,19 @@
    "kind": "related"
   },
   {
-   "from": "epistemica/epistemic/",
-   "to": "epistemica/epistemic/nature/",
+   "from": "epistemica/meta/",
+   "to": "epistemica/meta/nature/",
    "label": "Metaphysics of Nature",
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/",
+   "from": "social/actor/",
    "to": "social/action/",
    "label": "Action",
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/public/",
+   "from": "social/actor/public/",
    "to": "social/action/public/",
    "label": "Action",
    "kind": "hierarchy"
@@ -169,25 +169,25 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/public/",
-   "to": "social/collective/",
+   "from": "social/actor/public/",
+   "to": "social/actor/collective/",
    "label": "Collective",
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/public/atlas/",
-   "to": "social/collective/actor/public/public-organization.md",
+   "from": "social/actor/public/atlas/",
+   "to": "social/actor/public/public-organization.md",
    "label": "public organization",
    "kind": "atlas"
   },
   {
-   "from": "social/collective/actor/public/atlas/",
-   "to": "social/collective/actor/public/gov-wide-administration.md",
+   "from": "social/actor/public/atlas/",
+   "to": "social/actor/public/gov-wide-administration.md",
    "label": "government-wide administration",
    "kind": "atlas"
   },
   {
-   "from": "social/collective/actor/public/informe/",
+   "from": "social/actor/public/informe/",
    "to": "social/action/public/informe/",
    "label": "Public Action Informe",
    "kind": "hierarchy"
@@ -241,14 +241,14 @@
    "kind": "related"
   },
   {
-   "from": "social/collective/actor/public/polity/chn/",
-   "to": "social/collective/actor/scholar-official.md",
+   "from": "social/actor/public/polity/chn/",
+   "to": "social/actor/scholar-official.md",
    "label": "Scholar-Official",
    "kind": "related"
   },
   {
    "from": "nature/",
-   "to": "epistemica/epistemic/nature/",
+   "to": "epistemica/meta/nature/",
    "label": "Metaphysics of Nature",
    "kind": "hierarchy"
   },

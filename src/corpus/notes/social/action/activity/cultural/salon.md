@@ -12,7 +12,7 @@ tags: [note, salon, activity, cultural-activity, sociability, europe, modern, so
 
 **Salon belongs to the `Activity` social element type (Action category)** — the recurring bundle of conversational actions performed as one situated doing, filed in the [Cultural Activity](/view.html?p=notes/social/action/activity/cultural/cultural-activity.md) family. Its layer is **Ontic** (the gathering happens extra-mentally, in a room, at an hour), with a heavy **Synontic** component (admission, standing and the worth of the talk all depend on recognition) and a **Noetic** one (the talk carries ideas, and the salon is a machine for circulating them). Its facet is cultural first; political where the talk is about the state, and economic where the brokerage it performs is the point.
 
-Readable secondarily as a `Social Compound` — host, habitués, conventions and room taken as one institution — and as an instrument of the [public sphere](/view.html?p=notes/social/collective/actor/private/persona/jurgen-habermas.md) where that reading holds. Those readings are prose; the tree below types the doing once.
+Readable secondarily as a `Social Compound` — host, habitués, conventions and room taken as one institution — and as an instrument of the [public sphere](/view.html?p=notes/social/actor/private/persona/jurgen-habermas.md) where that reading holds. Those readings are prose; the tree below types the doing once.
 
 ### What is this social instance?
 
@@ -71,7 +71,7 @@ Readable secondarily as a `Social Compound` — host, habitués, conventions and
 - [Culture](/view.html?p=notes/social/synontic/culture/culture.md) (the pattern the salon enacted)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing suspended inside the room and restored outside it)
 - [Bildungsbürgertum](/view.html?p=notes/social/structural/stratum/bildungsburgertum.md) (the German stratum whose sociability the Berlin salons served)
-- [Jürgen Habermas](/view.html?p=notes/social/collective/actor/private/persona/jurgen-habermas.md) (the public-sphere thesis and its critics)
+- [Jürgen Habermas](/view.html?p=notes/social/actor/private/persona/jurgen-habermas.md) (the public-sphere thesis and its critics)
 - Habermas, J. (1989). *The structural transformation of the public sphere* (T. Burger, Trans.). MIT Press. (Original work published 1962)
 - Elias, N. (1983). *The court society* (E. Jephcott, Trans.). Blackwell. (Original work published 1969)
 - Goodman, D. (1994). *The republic of letters: A cultural history of the French Enlightenment*. Cornell University Press.

@@ -45,8 +45,8 @@ filing rules that shaped it:
   institutions (schools, universities) under
   `technica/op/formation/` — refiled on 2026-11-17: schools and
   universities are education actors, so they now sit under
-  `social/collective/actor/private/education/<code>/`, research academies and
-  research hospitals under `social/collective/actor/private/research/<code>/`,
+  `social/actor/private/education/<code>/`, research academies and
+  research hospitals under `social/actor/private/research/<code>/`,
   and `technica/op/formation/` no longer exists.
 - `general/` and `miscellanea/` became `unclassified/` (initially `essays/`).
 - `data-collection/` moved under `epistemica/data/`.
@@ -120,7 +120,7 @@ companion is `/corpus/notes/epistemica/ees.md`.
   `swe-productivity`, `problematization`, …). The root keeps the domain
   catalogues, the master `ees.md`, and the general forms such as
   `production-function`.
-- The construction scope lives in `epistemica/epistemic/construction/`: the
+- The construction scope lives in `epistemica/meta/construction/`: the
   results an inquiry discharges by proof — theorems and inequalities under
   `mathematical/`, the asymptotic results under `observational/`, with
   `construction.md` at the root as the family's type note. A named theory, law
@@ -233,11 +233,11 @@ is the human natural system; the subsection keeps the source's collection tree
 
 ## Theory corpus
 
-`/corpus/notes/epistemica/epistemic/theory/` is the flattened epistemic-theory scope:
+`/corpus/notes/epistemica/meta/theory/` is the flattened epistemic-theory scope:
 `theory/philosophy.md`, the identifiability note `theory/modelling.md`,
 and the former `theory/practice/` notes.
 
-`/corpus/notes/epistemica/epistemic/guidance/` holds what grounds and guides inquiry:
+`/corpus/notes/epistemica/meta/guidance/` holds what grounds and guides inquiry:
 the ontic condition notes at its root (`equilibrium`, `stable`, …),
 `guidance/principle/` for rules of proceeding (`occam-razor`,
 `minimum-description-length-mdl`, …), and `guidance/method/` for the

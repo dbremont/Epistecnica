@@ -31,6 +31,6 @@ What the volume does not contain is decisive for how it should be cited. The ori
 ## References
 
 - [Internet Archive — A discourse on method (Dent, 1912), lending copy](https://archive.org/details/discourseonmetho0000desc_t8l7)
-- [Descartes's Method](/view.html?p=notes/epistemica/epistemic/guidance/method/descartes-method.md) — the note that cites it
-- [René Descartes](/view.html?p=notes/social/collective/actor/private/persona/rene-descartes.md) — the persona
+- [Descartes's Method](/view.html?p=notes/epistemica/meta/guidance/method/descartes-method.md) — the note that cites it
+- [René Descartes](/view.html?p=notes/social/actor/private/persona/rene-descartes.md) — the persona
 - [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) — the note that cites the 1637 *Discours* for the rule of signs, which this volume does not contain

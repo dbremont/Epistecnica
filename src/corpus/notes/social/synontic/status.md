@@ -14,7 +14,7 @@ tags: [note, status, recognition, social-element]
 
 ### What type of social element does this instance belong to?
 
-**Status belongs to the attributive reading of standing** — it attaches to an actor rather than standing alone: `Social Actor (→ Attribute)` in the guide's own link grammar. Its layer is **Synontic** where it exists through collective recognition (honor, prestige, reputation) with **Ontic** anchors where it is inscribed (badges, titles, offices, registers). It is typed under [Actor](/view.html?p=notes/social/collective/actor/actor.md), the root hub of the actor typology.
+**Status belongs to the attributive reading of standing** — it attaches to an actor rather than standing alone: `Social Actor (→ Attribute)` in the guide's own link grammar. Its layer is **Synontic** where it exists through collective recognition (honor, prestige, reputation) with **Ontic** anchors where it is inscribed (badges, titles, offices, registers). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as **Normative** where rank orders are backed by enforceable rules, and as a **Social Role** where a standing is occupied as an expectation-tag (office, degree, rank). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -55,9 +55,9 @@ Readable secondarily as **Normative** where rank orders are backed by enforceabl
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Actor](/view.html?p=notes/social/collective/actor/actor.md) (root hub: standings attach to actors)
+- [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: standings attach to actors)
 - [Synontic](/view.html?p=notes/social/synontic/synontic.md) (recognition-constituted elements)
-- [Collective](/view.html?p=notes/social/collective/collective.md) (the recognizing body)
+- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the recognizing body)
 - [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (membership standing in a polity)
 - [Legitimacy](/view.html?p=notes/social/normative/legitimacy.md) (the warrant behind recognized standing)
 - Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922)

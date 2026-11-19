@@ -47,7 +47,7 @@ It is **not a kind of object** — the object is what the relation ranges over, 
 
 ### Which facet does this element belong to, if applicable?
 
-> Legal first: the rule that allocates and enforces the incidents is the dominant causal mechanism — who may exclude, use and dispose, and who bears the correlative duty. Economic where provisioning, investment and exchange explain what the allocation is *for*; political where the regime itself is legislated, expropriated or redistributed; normative where the justification of the bundle is at issue. See [Facet](/view.html?p=notes/social/framework/facet.md).
+> Legal first: the rule that allocates and enforces the incidents is the dominant causal mechanism — who may exclude, use and dispose, and who bears the correlative duty. Economic where provisioning, investment and exchange explain what the allocation is *for*; political where the regime itself is legislated, expropriated or redistributed; normative where the justification of the bundle is at issue. See [Facet](/view.html?p=notes/social/meta/facet.md).
 
 ### What is the recursive instance decomposition of this social instance?
 

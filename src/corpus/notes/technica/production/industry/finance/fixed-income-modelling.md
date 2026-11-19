@@ -79,7 +79,7 @@ The boundary against the **asset** is the object: [Bond](/view.html?p=notes/tech
 
 ## The epistemic side
 
-> The models are where the practice meets inquiry, and the corpus files that half under [Epistemic Model](/view.html?p=notes/epistemica/epistemic/theory/model.md), [Calibration](/view.html?p=notes/epistemica/validation/calibration.md), [Identification](/view.html?p=notes/epistemica/epistemic/theory/identification.md) and [Validation](/view.html?p=notes/epistemica/validation/validation.md). Three consequences follow, and they are what the mixed note exists to state.
+> The models are where the practice meets inquiry, and the corpus files that half under [Epistemic Model](/view.html?p=notes/epistemica/meta/theory/model.md), [Calibration](/view.html?p=notes/epistemica/validation/calibration.md), [Identification](/view.html?p=notes/epistemica/meta/theory/identification.md) and [Validation](/view.html?p=notes/epistemica/validation/validation.md). Three consequences follow, and they are what the mixed note exists to state.
 >
 > - **A fitted curve is not a fact.** Nelson–Siegel and Svensson are parametric fits; two of them can pass through the same quotes and disagree about the ten-year forward. The choice is an epistemic decision that the practice must record.
 > - **A short-rate model is a choice of dynamics.** Vasicek admits negative rates and a constant volatility; CIR keeps rates positive at the cost of a square-root diffusion; Hull–White adds time-dependent parameters to fit the initial curve. The practice selects the dynamics; the model's warrant is the fit and the prices it reproduces.
@@ -91,7 +91,7 @@ The boundary against the **asset** is the object: [Bond](/view.html?p=notes/tech
 - [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md) — the instrument the practice models
 - [Firm Finance](/view.html?p=notes/technica/production/firm/toolkit/finance/readme.md) — the firm-side capital and cost-of-capital reading
 - [Halperin (2026) — Three Matrices](/view.html?p=documents/papers/halperin-2026-three-matrices-observable-matrix-dynamics-portfolio-optimization-arxiv.md) — a price-dynamics and portfolio model that deliberately bypasses this stack
-- [Epistemic Model](/view.html?p=notes/epistemica/epistemic/theory/model.md) · [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) · [Validation](/view.html?p=notes/epistemica/validation/validation.md) — the epistemic half
+- [Epistemic Model](/view.html?p=notes/epistemica/meta/theory/model.md) · [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) · [Validation](/view.html?p=notes/epistemica/validation/validation.md) — the epistemic half
 - Fabozzi, F. J. (2013). *Bond markets, analysis, and strategies* (8th ed.). Pearson. — the practice as a stack of layers
 - Brigo, D., & Mercurio, F. (2006). *Interest rate models — theory and practice* (2nd ed.). Springer. — the term-structure and short-rate models
 - Hull, J. C. (2018). *Options, futures, and other derivatives* (10th ed.). Pearson. — duration, convexity, trees and Monte Carlo

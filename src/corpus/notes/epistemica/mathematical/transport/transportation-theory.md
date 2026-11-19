@@ -81,7 +81,7 @@ order: 1
 - [Probability](/view.html?p=notes/miscellanea/discipline/probability.md) · [Measure](/view.html?p=notes/epistemica/mathematical/measure/measure.md) — the objects coupled by a plan
 - [Information Geometry](/view.html?p=notes/epistemica/observational/information/information-geometry.md) — where Wasserstein geometry meets statistical inference
 - [Diffusion](/view.html?p=notes/nature/diffusion.md) — the physical equations of transport
-- [Leonid Vitaliyevich Kantorovich](/view.html?p=notes/social/collective/actor/private/persona/leonid-vitaliyevich-kantorovich.md) — the mathematician behind the relaxation
+- [Leonid Vitaliyevich Kantorovich](/view.html?p=notes/social/actor/private/persona/leonid-vitaliyevich-kantorovich.md) — the mathematician behind the relaxation
 
 ## References
 

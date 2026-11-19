@@ -4,7 +4,7 @@ tags: [note, epistemology]
 
 # Validation
 
-Related: [Evaluation](/view.html?p=notes/epistemica/epistemic/theory/evaluation.md), [Probability Model Validation](/view.html?p=notes/epistemica/validation/probability-model-validation.md), [Calibration](/view.html?p=notes/epistemica/validation/calibration.md), [Confidence Interval](/view.html?p=notes/epistemica/validation/confidence-interval.md), [Goodness of Fit](/view.html?p=notes/epistemica/validation/goodness-of-fit.md)
+Related: [Evaluation](/view.html?p=notes/epistemica/meta/theory/evaluation.md), [Probability Model Validation](/view.html?p=notes/epistemica/validation/probability-model-validation.md), [Calibration](/view.html?p=notes/epistemica/validation/calibration.md), [Confidence Interval](/view.html?p=notes/epistemica/validation/confidence-interval.md), [Goodness of Fit](/view.html?p=notes/epistemica/validation/goodness-of-fit.md)
 
 ## QA
 
@@ -38,4 +38,4 @@ Related: [Evaluation](/view.html?p=notes/epistemica/epistemic/theory/evaluation.
 - https://tjfisher19.github.io/introStatModeling/model-validation.html
 - https://www.kaggle.com/code/dansbecker/model-validation
 - [McElreath, R. (2025). Which Kind of Science Reform](https://elevanth.org/blog/2025/07/09/which-kind-of-science-reform/) — a reproducible pipeline can still be invalid, and why justification is not the same as availability
-- [Underdetermination](/view.html?p=notes/epistemica/epistemic/theory/underdetermination.md) — why passing validation does not select the theory: the rivals may agree on the evidence
+- [Underdetermination](/view.html?p=notes/epistemica/meta/theory/underdetermination.md) — why passing validation does not select the theory: the rivals may agree on the evidence

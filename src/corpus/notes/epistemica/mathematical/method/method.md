@@ -11,7 +11,7 @@ order: 0
 
 ### What is this epistemic instance?
 
-> The method scope of the mathematical domain: the routines by which mathematics is done, gathered as one catalogue and filed by what the routine *does to the problem*. A result belongs to the [construction scope](/view.html?p=notes/epistemica/epistemic/construction/construction.md); the rule a method operates on belongs to the representational system that carries it, catalogued in [transformation.md](../transformation.md).
+> The method scope of the mathematical domain: the routines by which mathematics is done, gathered as one catalogue and filed by what the routine *does to the problem*. A result belongs to the [construction scope](/view.html?p=notes/epistemica/meta/construction/construction.md); the rule a method operates on belongs to the representational system that carries it, catalogued in [transformation.md](../transformation.md).
 
 ### What epistemic element type does this epistemic instance belong to?
 
@@ -20,7 +20,7 @@ order: 0
 
 ### Is the type of this `epistemic element instance` ambiguous?
 
-> Three boundaries are worth stating. Against a **rule**: multiplying is a transformation rule, *Shift-And-Add Multiplication* is a method, and a column-sums session is an activity. Against a **construction**: a theorem is the artifact, the proof routine is the method that produced it. Against a **principle**: a principle guides inquiry without prescribing an order of acts — [pigeonhole](/view.html?p=notes/epistemica/epistemic/guidance/principle/pigeonhole-principle.md) and [inclusion–exclusion](proof/inclusion-exclusion.md) sit on that line, and both are filed here as routines because each is a sequence of counting acts, not a norm of judgment.
+> Three boundaries are worth stating. Against a **rule**: multiplying is a transformation rule, *Shift-And-Add Multiplication* is a method, and a column-sums session is an activity. Against a **construction**: a theorem is the artifact, the proof routine is the method that produced it. Against a **principle**: a principle guides inquiry without prescribing an order of acts — [pigeonhole](/view.html?p=notes/epistemica/meta/guidance/principle/pigeonhole-principle.md) and [inclusion–exclusion](proof/inclusion-exclusion.md) sit on that line, and both are filed here as routines because each is a sequence of counting acts, not a norm of judgment.
 
 ### What are the families of this `epistemic element instance`?
 

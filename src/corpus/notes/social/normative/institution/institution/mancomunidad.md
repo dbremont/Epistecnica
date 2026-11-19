@@ -37,5 +37,5 @@ It is distinct from the `Organization` it constitutes (the mancomunidad as a wor
 
 - [Mancomunidad — Wikipedia (es)](https://es.wikipedia.org/wiki/Mancomunidad) (association of municipalities, legal personality)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Municipal Government](/view.html?p=notes/social/collective/actor/public/municipal-government.md)
+- [Municipal Government](/view.html?p=notes/social/actor/public/municipal-government.md)
 - [Licensing Regime](/view.html?p=notes/social/normative/institution/licensing-regime.md) (a sibling institution whose rules allocate rights)

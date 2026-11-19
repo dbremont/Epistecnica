@@ -40,7 +40,7 @@ A good technical model is vivid: it can be inspected, simulated, compared, and c
 - [Q/A: How is mathematics used in technical domains?](/qa/entry.html?id=qa-00009)
 - [Differential Equation](/view.html?p=notes/epistemica/mathematical/change/differential-equation.md)
 - [Optimization](/view.html?p=notes/epistemica/optimization/optimization.md)
-- [Model](/view.html?p=notes/epistemica/epistemic/theory/model.md)
+- [Model](/view.html?p=notes/epistemica/meta/theory/model.md)
 - [A Guide to Historical Technical Literature](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-technical-literature.md)
 
 ## References

@@ -74,8 +74,8 @@ The figures themselves are not reproduced here. They are in the documents, and a
 
 - [Hong Kong Five-Year Plan 2026–2030 — full text](https://www.hk5yplan.gov.hk/2026-2030/en/plan.html)
 - [Highlights](https://www.hk5yplan.gov.hk/2026-2030/en/highlight.html) · [Infographics](https://www.hk5yplan.gov.hk/2026-2030/en/infographic.html) · [Fact Sheets](https://www.hk5yplan.gov.hk/2026-2030/en/factsheet.html) · [Webcast](https://www.hk5yplan.gov.hk/2026-2030/en/webcast.html)
-- [Hong Kong](/view.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md) — the polity the plan arranges
-- [Hong Kong Social Region Dynamics, 1900–2025](/view.html?p=notes/social/collective/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md) — the trajectory the plan is the next episode of
+- [Hong Kong](/view.html?p=notes/social/actor/public/polity/chn/prc/region/hong-kong/hong-kong.md) — the polity the plan arranges
+- [Hong Kong Social Region Dynamics, 1900–2025](/view.html?p=notes/social/actor/public/polity/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md) — the trajectory the plan is the next episode of
 - [China Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/china-five-year-plan.md) — the instrument this plan aligns with, and what a renewed cycle looks like
 - [South Korea Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/south-korea-five-year-plan.md) · [India Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/india-five-year-plan.md) · [Soviet Five-Year Plan](/view.html?p=notes/social/action/public/informe/framework/soviet-five-year-plan.md) — the comparative cases
 - [Framework](/view.html?p=notes/social/action/guidance/framework.md) · [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

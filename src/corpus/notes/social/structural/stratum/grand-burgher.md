@@ -24,7 +24,7 @@ tags: [note, stratum, grossburger, grand-burgher, collective, social-element, eu
 
 ### What type of social element does this instance belong to?
 
-**Grand Burgher belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a conferred right, a city constitution, the privileges that constitution attached to the right, and the commercial capital the privilege protected. See [Collective](/view.html?p=notes/social/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses and the constitution exist extra-mentally, and **Synontic** where the title's worth is a matter of collective legal recognition and the deference that follows it. Its facet is **legal–constitutional first, economic second**: the privilege created the commerce as much as the commerce bought the privilege.
+**Grand Burgher belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a conferred right, a city constitution, the privileges that constitution attached to the right, and the commercial capital the privilege protected. See [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses and the constitution exist extra-mentally, and **Synontic** where the title's worth is a matter of collective legal recognition and the deference that follows it. Its facet is **legal–constitutional first, economic second**: the privilege created the commerce as much as the commerce bought the privilege.
 
 > Filed on the [stratum](/view.html?p=notes/social/structural/stratum/stratum.md) shelf, and it is the shelf's hardest case. It ranks its holders above petty burghers and non-burghers on the scale of civic right and standing, so the gradational reading applies. But the ranking is not a matter of degree — a family held the right or it did not — and the concept therefore carries a **`Social Property`** reading, the conferred status itself, that the compound reading must not swallow. The shelf's rule is that a note is typed once as the compound it is and the stratum reading is stated; here the property reading is stated too, and named as the reason the case is hard.
 
@@ -143,8 +143,8 @@ Readable secondarily as a **ruling class** where the grand burghers governed —
 - [Social Class](/view.html?p=notes/social/structural/social-class.md) (the relational cut; the class the order's holders belonged to)
 - [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (the municipal membership the right realizes)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the collective conferred on the right)
-- [Hamburg](/view.html?p=notes/social/collective/actor/public/polity/deu/region/hamburg.md) (the republic the right governed until 1919)
-- [Lübeck](/view.html?p=notes/social/collective/actor/public/polity/deu/region/lubeck.md) (the other Hanseatic city-republic)
-- [Hanseatic League](/view.html?p=notes/social/collective/actor/public/polity/hsa/hanseatic-league.md)
+- [Hamburg](/view.html?p=notes/social/actor/public/polity/deu/region/hamburg.md) (the republic the right governed until 1919)
+- [Lübeck](/view.html?p=notes/social/actor/public/polity/deu/region/lubeck.md) (the other Hanseatic city-republic)
+- [Hanseatic League](/view.html?p=notes/social/actor/public/polity/hsa/hanseatic-league.md)
 - Schmalz, T. von (1818). *Lehrbuch des teutschen Privatrechts; Landrecht und Lehnrecht enthaltend*. Duncker und Humblot.
 - [Grand Burgher](https://en.wikipedia.org/wiki/Grand_Burgher)

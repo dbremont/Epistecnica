@@ -99,7 +99,7 @@ The theories are not rivals for a single fact. Hobson and Lenin explain *why the
 - Said, E. W. (1978). *Orientalism*. Pantheon Books. — knowledge as the instrument of domination
 - Darwin, J. (2009). *After Tamerlane: The global history of empire since 1405*. Bloomsbury. — the comparative history, and the case for taking the empires on their own terms
 - [Imperialism](https://en.wikipedia.org/wiki/Imperialism)
-- [British Empire](/view.html?p=notes/social/history/castilla/british-empire.md) · [Ottoman Empire](/view.html?p=notes/social/collective/actor/public/polity/oto/ottoman-empire.md) — instances, filed as polities rather than as relations
+- [British Empire](/view.html?p=notes/social/history/castilla/british-empire.md) · [Ottoman Empire](/view.html?p=notes/social/actor/public/polity/oto/ottoman-empire.md) — instances, filed as polities rather than as relations
 - [Globalization](/view.html?p=notes/social/dynamic/globalization/globalization.md) — the successor regime, and the question of how much of the structure survived the empires
 - [Marxism](/view.html?p=notes/social/synontic/ideational/marxism.md) — the tradition in which the Leninist reading sits
 - Arendt, H. (1951). *The origins of totalitarianism*. Harcourt, Brace.

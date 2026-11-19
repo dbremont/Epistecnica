@@ -106,7 +106,7 @@ so powers and falling factorials are two coordinate systems on the same ring, an
 
 ## References
 
-- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the book that made the calculus of finite differences a branch of its own, and gave the theorem that carries its name; see [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md)
+- [Taylor, B. (1715a). *Methodus incrementorum directa et inversa*. William Innys.](/view.html?p=documents/books/taylor-1715-methodus-incrementorum-directa-et-inversa-innys.md) — the book that made the calculus of finite differences a branch of its own, and gave the theorem that carries its name; see [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md)
 - Stirling, J. (1730). *Methodus differentialis: Sive tractatus de summatione et interpolatione serierum infinitarum*. Bowyer. — the numbers that convert powers into falling factorials, and with them interpolation into a routine
 - Euler, L. (1755). *Institutiones calculi differentialis*. Imperial Academy of Sciences. — the calculus of differences taught as part of analysis, with the operator identities in their modern form
 - Boole, G. (1860). *A treatise on the calculus of finite differences*. Macmillan. — the standard nineteenth-century treatment: the operator algebra, the inverse-sum method and the symbolic solution of difference equations
@@ -117,4 +117,4 @@ so powers and falling factorials are two coordinate systems on the same ring, an
 - [Finite difference](https://en.wikipedia.org/wiki/Finite_difference)
 - [Derivative Operator](/view.html?p=notes/epistemica/mathematical/change/derivative-operator.md) · [Integral Operator](/view.html?p=notes/epistemica/mathematical/change/integral-operator.md) · [Difference Equation](/view.html?p=notes/epistemica/mathematical/change/difference-equation.md) · [Recurrence Equation](/view.html?p=notes/epistemica/mathematical/change/recurrence-equation.md)
 - [Series](/view.html?p=notes/epistemica/mathematical/change/series.md) · [Power Series](/view.html?p=notes/epistemica/mathematical/change/power-series.md) · [Polynomial](/view.html?p=notes/epistemica/mathematical/cossical/polynomial.md) · [Polynomial Ring](/view.html?p=notes/epistemica/mathematical/structure/algebra/polynomial-ring.md)
-- [Finite Difference Method](/view.html?p=notes/epistemica/singular/finite-difference-method-fdm.md) · [Discretization](/view.html?p=notes/epistemica/singular/discretization.md) · [Brook Taylor](/view.html?p=notes/social/collective/actor/private/persona/brook-taylor.md)
+- [Finite Difference Method](/view.html?p=notes/epistemica/singular/finite-difference-method-fdm.md) · [Discretization](/view.html?p=notes/epistemica/singular/discretization.md) · [Brook Taylor](/view.html?p=notes/social/actor/private/persona/brook-taylor.md)

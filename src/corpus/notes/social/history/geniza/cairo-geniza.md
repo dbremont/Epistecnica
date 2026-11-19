@@ -40,4 +40,4 @@ tags: [note, history, medieval, mediterranean, source]
 - [Cambridge University Library — Genizah Research Unit](https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit)
 - [Princeton Geniza Project](https://geniza.princeton.edu/)
 - Goitein, S. D. (1967–1988). *A Mediterranean Society: The Jewish Communities of the Arab World as Portrayed in the Documents of the Cairo Geniza* (6 vols.). University of California Press.
-- [Venice](/view.html?p=notes/social/collective/actor/public/polity/venetia/venetia.md) — the mercantile polity whose archives record the other side of the same sea's trade
+- [Venice](/view.html?p=notes/social/actor/public/polity/venetia/venetia.md) — the mercantile polity whose archives record the other side of the same sea's trade

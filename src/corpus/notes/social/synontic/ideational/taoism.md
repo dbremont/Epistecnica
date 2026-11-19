@@ -36,7 +36,7 @@ Taoism can be read as a **deconstruction of the distinctions that structure ordi
 
 ## Schopenhauer and the Dao
 
-Arthur Schopenhauer's metaphysics has a striking affinity with this tradition. In *The World as Will and Representation* the world we know is **representation** (*Vorstellung*) — appearance structured by a knowing subject — while the thing in itself is **will** (*Wille*): a blind, endless striving that objectifies itself in nature and in our own bodies. Schopenhauer was among the first European philosophers to take the Upanishads and Buddhism seriously, and he prized the "wisdom of the East" precisely for diagnosing **striving as suffering** and for seeking its quieting. The resonance with Taoism is real: both decenter the representing subject, distrust the grasping of concepts, and locate deliverance in the stilling of striving rather than in its satisfaction. The difference is instructive: Schopenhauer's ground is a **Will** to be negated; the Dao is a **Way** to be followed — wu wei is not the cancellation of the will but its unfollowing of force. See [Arthur Schopenhauer](/view.html?p=notes/social/collective/actor/private/persona/arthur-schopenhauer.md).
+Arthur Schopenhauer's metaphysics has a striking affinity with this tradition. In *The World as Will and Representation* the world we know is **representation** (*Vorstellung*) — appearance structured by a knowing subject — while the thing in itself is **will** (*Wille*): a blind, endless striving that objectifies itself in nature and in our own bodies. Schopenhauer was among the first European philosophers to take the Upanishads and Buddhism seriously, and he prized the "wisdom of the East" precisely for diagnosing **striving as suffering** and for seeking its quieting. The resonance with Taoism is real: both decenter the representing subject, distrust the grasping of concepts, and locate deliverance in the stilling of striving rather than in its satisfaction. The difference is instructive: Schopenhauer's ground is a **Will** to be negated; the Dao is a **Way** to be followed — wu wei is not the cancellation of the will but its unfollowing of force. See [Arthur Schopenhauer](/view.html?p=notes/social/actor/private/persona/arthur-schopenhauer.md).
 
 ## Individual social action guidance
 
@@ -61,5 +61,5 @@ At the scale of the person, Taoism is a **guidance for action**: act without con
 - [Daoism](https://plato.stanford.edu/entries/daoism/)
 - [Daoism and Religion](https://plato.stanford.edu/entries/daoism-religion/)
 - [Taoism](https://en.wikipedia.org/wiki/Taoism)
-- [Arthur Schopenhauer](/view.html?p=notes/social/collective/actor/private/persona/arthur-schopenhauer.md)
+- [Arthur Schopenhauer](/view.html?p=notes/social/actor/private/persona/arthur-schopenhauer.md)
 - [Schopenhauer](https://plato.stanford.edu/entries/schopenhauer/)
