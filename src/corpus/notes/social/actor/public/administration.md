@@ -92,7 +92,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### What is the recursive instance decomposition of this instance under activity?
 
-> Boundary: one generic Administrative Activity — its bundle structure only (guidance, organization, instrumentation), at shallow depth. Guidance orients action; organization arranges it; instrumentation steers execution.
+> Boundary: one generic Administrative Activity — its bundle structure only (guidance, organization, instrument), at shallow depth. Guidance orients action; organization arranges it; instrument steers execution.
 >
 > Stopping rule: a row is terminal when it names a bundle, an act, a guidance element, an organizational element, or an instrument.
 >
@@ -114,9 +114,9 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 | `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Guidance `(→ Part)` Administrative Doctrine | Coherent interpretation of how principles are enacted. |
 | `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Organization | Grouping: elements arranging administrative action into coordinated wholes. |
 | `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Organization `(→ Part)` Administrative Process | Repeatable sequence of tasks aimed at administrative objectives. |
-| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrumentation | Grouping: operative means steering execution. |
-| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrumentation `(→ Part)` Administrative Instrument | Tool or mechanism influencing behavior and outcomes. |
-| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrumentation `(→ Part)` Administrative Technique | Concrete method applied by administrators to implement or manage operations. |
+| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrument | Grouping: operative means steering execution. |
+| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrument `(→ Part)` Administrative Instrument | Tool or mechanism influencing behavior and outcomes. |
+| `Activity` `(→ Kind)` Administrative Activity `(→ Component)` Action Instrument `(→ Part)` Administrative Technique | Concrete method applied by administrators to implement or manage operations. |
 
 ### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
 
@@ -142,7 +142,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 | Conceptual Specification | **Definitional Clarity** | Moderate–High (architecture composing agents into coherent operational capacities) |
 | Conceptual Specification | **Conceptual Determinacy** | Moderate (meta vs operational edges and multi-scheme plurality underspecified) |
 | Conceptual Specification | **Internal Consistency** | Moderate–High (mandate, composition, and five functions cohere under one kind) |
-| Conceptual Specification | **Structural Coherence** | Moderate (branch functions blur without the guidance/organization/instrumentation discipline) |
+| Conceptual Specification | **Structural Coherence** | Moderate (branch functions blur without the guidance/organization/instrument discipline) |
 | Representational Adequacy | **Extensional Fidelity** | Moderate–High (covers organizational and government-wide administrations across regime contexts) |
 | Representational Adequacy | **Intensional Adequacy** | High (composed-agent architecture captures the relevant property) |
 | Representational Adequacy | **Discriminative Power** | High (the administration/government/institution/workforce cuts discriminate sharply) |

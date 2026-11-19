@@ -38,7 +38,7 @@ tags: [note, actor, development, institution, industrial-policy]
 ## References
 
 - [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) — the institutional typology
-- [Productive Policy](/view.html?p=notes/social/dynamic/action/public/productive-policy.md) — the modern frame
+- [Productive Policy](/view.html?p=notes/social/dynamic/action/public/instrument/policy/productive-policy.md) — the modern frame
 - [Royal Dublin Society](/view.html?p=notes/social/actor/public/instance/development/royal-dublin-society.md) — the earliest instance
 - [IDA Ireland](/view.html?p=notes/social/actor/public/instance/development/ida-ireland-industrial-development-authority.md) — the latest
 - [Bulletin de la Société d'Encouragement pour l'Industrie Nationale — CNAM (BSPI)](https://cnum.cnam.fr/pgi/redir.php?ident=BSPI) — the digitised run of the 1801 society's journal, a primary record of premiums and commission reports

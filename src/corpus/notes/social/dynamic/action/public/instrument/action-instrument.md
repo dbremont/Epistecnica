@@ -2,12 +2,12 @@
 tags: [note]
 ---
 
-# Action Instrumentation
+# Action Instrument
 
 > The operative means through which action is coordinated and controlled:
 > instruments wielded by agencies to steer, monitor, and enforce organized action.
-> Type: `Action Instrumentation`
-> (`(root) := <<Social Element>> -> Interaction Unit -> Agency -> Social Action -> Action Instrumentation`).
+> Type: `Action Instrument`
+> (`(root) := <<Social Element>> -> Interaction Unit -> Agency -> Social Action -> Action Instrument`).
 
 > Sibling branches: [Action Guidance](../guidance/) orients subsequent action;
 > Action Organization arranges actions into coordinated wholes.
@@ -15,15 +15,15 @@ tags: [note]
 > theories, models — lives there or in Epistemica,
 > not here. Only operative means stay.
 
-> General tools to model and analyze in [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrumentation/instrumentorum-readme.md).
+> General tools to model and analyze in [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrument/instrumentorum-readme.md).
 
 ## Operative instruments
 
-- Staffing the agency: [Selection](/view.html?p=notes/social/dynamic/action/public/instrumentation/bureaucracy/selection.md), [Monetary Compensation](/view.html?p=notes/social/dynamic/action/public/instrumentation/bureaucracy/compensation.md), [Director Appointment](/view.html?p=notes/social/dynamic/action/public/instrumentation/general/src/director-appointment-process.md)
-- Recognition and incentives: [Recognition Systems](/view.html?p=notes/social/dynamic/action/public/instrumentation/general/src/recognition.md), [Incentive](/view.html?p=notes/social/dynamic/action/public/instrumentation/foundation/incentive/incentive.md), [Mechanism Design](/view.html?p=notes/social/dynamic/action/public/instrumentation/foundation/incentive/mechanism.md), [Market Design](/view.html?p=notes/social/dynamic/action/public/instrumentation/market/market-design.md)
-- Diffusion and extension: [Manufacturing Extension](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/manufacturing-extension-partnership.md), [Pilot Plant](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/pilot-plant.md), [Accelerators](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/startup-accelerator.md), [Protofabrica](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/protofabrica.md), [Productivity Promotion](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/productivity-promotion-center.md), [Practice Diffusion](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/industrial-technical-practice-diffusion.md)
-- Monitoring instruments: [Evaluation](/view.html?p=notes/social/dynamic/action/public/instrumentation/evaluation/evaluation.md), [National Accounts](/view.html?p=notes/social/dynamic/action/public/instrumentation/evaluation/sna.md), [National Wealth](/view.html?p=notes/social/dynamic/action/public/instrumentation/evaluation/wealth.md), [Quality Index](/view.html?p=notes/social/dynamic/action/public/instrumentation/production/quality-index.md)
-- Coordination means: [Communication](/view.html?p=notes/social/dynamic/action/public/instrumentation/communication/communication.md), [Documentation](/view.html?p=notes/social/dynamic/action/public/instrumentation/documentation/documentation.md), [Institutional Design](/view.html?p=notes/social/dynamic/action/public/instrumentation/institutional/institutional-design.md)
+- Staffing the agency: [Selection](/view.html?p=notes/social/dynamic/action/public/instrument/bureaucracy/selection.md), [Monetary Compensation](/view.html?p=notes/social/dynamic/action/public/instrument/bureaucracy/compensation.md), [Director Appointment](/view.html?p=notes/social/dynamic/action/public/instrument/general/src/director-appointment-process.md)
+- Recognition and incentives: [Recognition Systems](/view.html?p=notes/social/dynamic/action/public/instrument/general/src/recognition.md), [Incentive](/view.html?p=notes/social/dynamic/action/public/instrument/foundation/incentive/incentive.md), [Mechanism Design](/view.html?p=notes/social/dynamic/action/public/instrument/foundation/incentive/mechanism.md), [Market Design](/view.html?p=notes/social/dynamic/action/public/instrument/market/market-design.md)
+- Diffusion and extension: [Manufacturing Extension](/view.html?p=notes/social/dynamic/action/public/instrument/production/manufacturing-extension-partnership.md), [Pilot Plant](/view.html?p=notes/social/dynamic/action/public/instrument/production/pilot-plant.md), [Accelerators](/view.html?p=notes/social/dynamic/action/public/instrument/production/startup-accelerator.md), [Protofabrica](/view.html?p=notes/social/dynamic/action/public/instrument/production/protofabrica.md), [Productivity Promotion](/view.html?p=notes/social/dynamic/action/public/instrument/production/productivity-promotion-center.md), [Practice Diffusion](/view.html?p=notes/social/dynamic/action/public/instrument/production/industrial-technical-practice-diffusion.md)
+- Monitoring instruments: [Evaluation](/view.html?p=notes/social/dynamic/action/public/instrument/evaluation/evaluation.md), [National Accounts](/view.html?p=notes/social/dynamic/action/public/instrument/evaluation/sna.md), [National Wealth](/view.html?p=notes/social/dynamic/action/public/instrument/evaluation/wealth.md), [Quality Index](/view.html?p=notes/social/dynamic/action/public/instrument/production/quality-index.md)
+- Coordination means: [Communication](/view.html?p=notes/social/dynamic/action/public/instrument/communication/communication.md), [Documentation](/view.html?p=notes/social/dynamic/action/public/instrument/documentation/documentation.md), [Institutional Design](/view.html?p=notes/social/dynamic/action/public/instrument/institutional/institutional-design.md)
 
 ## Action Typology
 
@@ -48,4 +48,4 @@ tags: [note]
 
 ## References
 
-- [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrumentation/instrumentorum-readme.md)
+- [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrument/instrumentorum-readme.md)

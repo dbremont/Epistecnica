@@ -11,7 +11,7 @@ tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
 
 ### What is this social instance?
 
-> This instance is the person Baruch Spinoza as a participant in social reality: an individual whose embodied existence, commitments, occupations, activities, affiliations, and recognized standing compose his social existence. Scope: his constitution and identity, his individual agency (intention and goals), the guidance, organization, and instrumentation of his action, the activities he performs, the associations he keeps, and the attributes by which others place him. His philosophical works are epistemic artifacts and are linked by reference (see [Works](#works)), not integrated here as social constituents.
+> This instance is the person Baruch Spinoza as a participant in social reality: an individual whose embodied existence, commitments, occupations, activities, affiliations, and recognized standing compose his social existence. Scope: his constitution and identity, his individual agency (intention and goals), the guidance, organization, and instrument of his action, the activities he performs, the associations he keeps, and the attributes by which others place him. His philosophical works are epistemic artifacts and are linked by reference (see [Works](#works)), not integrated here as social constituents.
 
 ### What type of social element does this instance belong to?
 
@@ -49,7 +49,7 @@ tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Individual Agency `(→ Has)` Intention `(→ Goal)` Freedom and Adequate Understanding | The end organizing his philosophical work: liberation from passive affects through true knowledge (*blessedness*). |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Guidance | Guidance informing his action; here his own philosophical principles — to live according to reason and to read Scripture historically. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Organization | The arrangement of his working life: a frugal regimen limiting commerce so as to protect the freedom to think. |
-| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrumentation | The means by which he executes: lens-grinding tools and workshop, the press and its clandestine circuits, and the correspondence network. |
+| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrument | The means by which he executes: lens-grinding tools and workshop, the press and its clandestine circuits, and the correspondence network. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` Philosophical Writing Activity | The activity of composing and revising treatises and letters toward his ends. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` Lens-Grinding Activity | His trade, producing optical lenses for microscopes and telescopes. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` Correspondence Activity | His exchange of letters with scholars, scientists, and correspondents. |

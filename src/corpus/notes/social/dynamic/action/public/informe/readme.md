@@ -21,6 +21,7 @@ its comparison atlas stay on the public shelf:
 ## Country and development studies
 
 - [History of the Chinese Economic Policy Toolbox](/view.html?p=notes/social/dynamic/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md)
+- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md)
 - [Comparative Development: Argentina vs. Spain](/view.html?p=notes/social/dynamic/action/public/informe/a-comparative-development-essay-argentina-vs-spain.md)
 - [German Historical School of Economics](/view.html?p=notes/social/dynamic/action/public/informe/a-guide-to-german-historical-school-of-economics.md)
 - [Early European Development Finance](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-early-european-development-finance.md)

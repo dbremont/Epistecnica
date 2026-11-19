@@ -21,6 +21,11 @@ The general problem is older than the supermarket. Joint ventures, licensing, co
 
 - [Technology Acquisition](/view.html?p=notes/social/dynamic/production/technology-acquisition.md) — the staged capability ladder from identification to indigenous development.
 - [Technology Transfer Market](/view.html?p=notes/social/coordinator/market/technology-transfer-market.md) — licensing, know-how, trade agreements and the market failures of technology exchange.
+- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country cases in a hard technology-transfer domain.
+
+## Media
+
+- [The Limits of Nuclear Technology Transfer w/ Michael Seely](https://www.youtube.com/watch?v=8KimzaH8jtA) — Decouple Media. A hard case for the transfer chain: safeguards, export controls, tacit capability and security externalities limit what can move, not only licensing and market access.
 
 ## References
 

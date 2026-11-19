@@ -42,6 +42,7 @@ tags: [note, production]
 | **Heavy Machinery Industry**                | Production of large-scale equipment for mining, construction, energy, and manufacturing sectors.               |
 | **Chemical Industry (Heavy Segment)**       | Production of base chemicals, fertilizers, and industrial materials used in multiple manufacturing sectors.    |
 | **Energy Industry (Industrial Segment)**    | Generation and transmission of electrical power and industrial fuels supporting production activities.         |
+| **Nuclear Industry**                        | Civil production and management of nuclear power, fuel-cycle services, isotopes and radioactive waste.          |
 | **Cement and Nonmetallic Mineral Industry** | Production of cement, glass, ceramics, and other materials used in construction and infrastructure.            |
 | **Railway Equipment Manufacturing**         | Production of locomotives, wagons, and rail infrastructure systems.                                            |
 | **Aerospace and Defense Manufacturing**     | Production of aircraft, spacecraft, and defense equipment—often overlapping with advanced heavy manufacturing. |

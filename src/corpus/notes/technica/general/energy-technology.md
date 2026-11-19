@@ -157,6 +157,11 @@ Lineage: waterwheels and windmills → steam engine and dynamo → AC transmissi
 | `Technical Element Set` → Energy Technology → `Technical Maintenance` → Preventive servicing | Work preserving fleet and network functional state per interval (exemplar schedule per deployment). |
 | `Technical Element Set` → Energy Technology → `Technical Lifecycle` | Grouping: Technical Lifecycle elements. |
 | `Technical Element Set` → Energy Technology → `Technical Lifecycle` → Asset lifecycle | Temporal trajectory of a plant from commissioning through operation to retirement. |
+## See also
+
+- [Nuclear Technical Domain](/view.html?p=notes/technica/general/nuclear-technical-domain.md) — the nuclear-specific civil field inside the energy ensemble.
+- [Nuclear Industry](/view.html?p=notes/technica/production/industry/nuclear/readme.md) — the civil industry that owns and operates nuclear plants and fuel-cycle facilities.
+
 ## References
 
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md)

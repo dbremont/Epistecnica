@@ -61,6 +61,7 @@ Payment follows the same variety. A licence may be paid as a lump sum, a running
 
 - [Cooper (1994) — Technology and Innovation in the International Economy](/view.html?p=documents/books/cooper-1994-technology-innovation-international-economy.md)
 - [Lall & Urata (2003) — Competitiveness, FDI and Technological Activity in East Asia](/view.html?p=documents/books/lall-urata-2003-competitiveness-fdi-technological-activity-east-asia.md)
+- [The Limits of Nuclear Technology Transfer w/ Michael Seely](https://www.youtube.com/watch?v=8KimzaH8jtA) — Decouple Media; a hard case for the market’s limits.
 
 ## References
 

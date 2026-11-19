@@ -55053,6 +55053,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Rename the Action Instrumentation slot to Action Instrument across the schema and worked example."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Retarget the research links after the research shelf was flattened (intersection/, science/, interaction/ and relation/ are gone)."
    },
    {
@@ -58956,6 +58961,11 @@
   "file_path": "social/dynamic/action/public/guidance/policy.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Locus Instrumentorum link after the directory rename."
+   },
+   {
     "date": "2026-11-06",
     "kind": "refactor",
     "summary": "Update the note and re-point its corpus links after the reorganisation.",
@@ -59543,6 +59553,11 @@
   "file_path": "social/actor/private/persona/alexis-de-tocqueville.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the persona decomposition."
+   },
+   {
     "date": "2026-11-14",
     "kind": "docs",
     "summary": "Add Alexis de Tocqueville as a persona: the Norman count and great-grandson of Malesherbes who made democracy an object of observation, the 1831 American journey with Beaumont and the penitentiary report behind Democracy in America, the thirteen years as deputy for Valognes, the 1848 constitution commission, his months as foreign minister in 1849, and the late history of the Old Regime; the decomposition keeps his contradictions rather than resolving them, recording the abolitionism and free trade alongside his support for the colonisation of Algeria and his approval of the state of siege and the 1849 laws restricting clubs and the press.",
@@ -59712,6 +59727,11 @@
   "file_path": "social/actor/private/persona/baruch-spinoza.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the persona decomposition."
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -59818,6 +59838,11 @@
  {
   "file_path": "social/actor/private/persona/claude-frederic-bastiat.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology and the Protectionism link after the policy-note move."
+   },
    {
     "date": "2026-11-14",
     "kind": "docs",
@@ -60339,6 +60364,11 @@
   "file_path": "social/actor/private/persona/john-wilkinson.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the persona decomposition."
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -60421,6 +60451,11 @@
  {
   "file_path": "social/actor/private/persona/joseph-louis-lagrange.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the persona decomposition."
+   },
    {
     "date": "2026-11-08",
     "kind": "feat",
@@ -60962,6 +60997,11 @@
   "file_path": "social/actor/private/persona/pierre-simon-marquis-de-laplace.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the persona decomposition."
+   },
+   {
     "date": "2026-11-08",
     "kind": "feat",
     "summary": "Fill the persona note in the six-question philosophia socialium shell: biographical lead and the demon quotation, a 26-row decomposition of constitution, agency, activities, associations and attributes, a conceptual evaluation of the person-concept, and cross-links to the four Laplace treatises the corpus holds.",
@@ -61499,6 +61539,11 @@
   "file_path": "social/actor/public/administration.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology and the guidance/organization/instrument vocabulary."
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -61818,6 +61863,11 @@
   "file_path": "social/actor/public/gov-wide-administration.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the coordination decomposition."
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -61897,6 +61947,11 @@
  {
   "file_path": "social/actor/public/polity/bel/region/flanders.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the Flanders decomposition."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -62086,6 +62141,11 @@
  {
   "file_path": "social/actor/research.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Policy Institute kind to the Research Actor typology and link the new note."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -100600,6 +100660,11 @@
   "file_path": "social/actor/scholar-official.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology and the Selection link after the instrument rename."
+   },
+   {
     "date": "2026-11-15",
     "kind": "feat",
     "summary": "Add the scholar-official as an actor type: the examination-recruited administrator of the Chinese imperial state, decomposed through intention, guidance, organization, instrumentation and activity, with the examination evaluated against the German credential stratum.",
@@ -123746,6 +123811,11 @@
   "file_path": "social/dynamic/action/public/informe/readme.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Nuclear Technology Emergence essay to the country and development studies list."
+   },
+   {
     "date": "2026-11-17",
     "kind": "edit",
     "summary": "Index: the four Dominican notes moved in from memorial/ are listed.",
@@ -127291,6 +127361,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Update the Productive Policy link after the policy-note move."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Retarget the research links after the research shelf was flattened (intersection/, science/, interaction/ and relation/ are gone)."
    },
    {
@@ -127559,6 +127634,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Update the Productive Policy link after the policy-note move."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Retarget the problem-dimension links after action/problem/ moved under action/public/."
    },
    {
@@ -127683,6 +127763,11 @@
  {
   "file_path": "nature/spectroscopy.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the NMR row to the observation catalogue after the dedicated NMR note was removed."
+   },
    {
     "date": "2026-11-18",
     "kind": "edit",
@@ -128051,23 +128136,6 @@
   ]
  },
  {
-  "file_path": "social/dynamic/action/public/productive-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now carry Jacobs & Imas on economic policy for AGI - the eleven responses and the negative correlation between popular support and scenario durability."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Jeremy (1977) added: the British prohibition on the outflow of technicians and machinery, 1780-1843, and why the legal technology monopoly leaked.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   }
-  ]
- },
- {
   "file_path": "social/actor/public/polity/esp/spain.md",
   "logs": [
    {
@@ -128113,6 +128181,11 @@
  {
   "file_path": "social/actor/public/instance/development/promotion-agency.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Productive Policy link after the policy-note move."
+   },
    {
     "date": "2026-11-19",
     "kind": "feat",
@@ -132178,6 +132251,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Update the instrument terminology and the Locus Instrumentorum link after the directory rename."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Retarget the problem-dimension links after action/problem/ moved under action/public/.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    }
@@ -132561,6 +132639,16 @@
  {
   "file_path": "technica/production/industry/nuclear/readme.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Nuclear Technology Emergence essay to See also."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Reframe the Nuclear Industry note around the civil/peaceful industry, add economics, safeguards and the technical-domain link, and remove defence from the core product space."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -134752,6 +134840,16 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Add the Nuclear Technology Emergence essay to See also."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Decouple Media video on the limits of nuclear technology transfer as a hard case in the transfer chain."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Add see-also links to Technology Acquisition and Technology Transfer Market, connecting the transfer process to the capability ladder and the market for technology."
    },
    {
@@ -134773,6 +134871,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Add the Nuclear Technology Emergence essay to See also."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Add Mazzoleni & Nelson (2007) to further reading on public research capacity and technological learning."
    },
    {
@@ -134791,6 +134894,11 @@
  {
   "file_path": "social/coordinator/market/technology-transfer-market.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Decouple Media video on the limits of nuclear technology transfer to further reading."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -135300,6 +135408,458 @@
     "kind": "feat",
     "summary": "Rewrite the RIKEN note as a sourced institutional profile: founding, Okochi and the chief-scientist system, the Riken Konzern, wartime and postwar history, Wako and big science, governance, current centers and references.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/policy-institute.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Policy Institute actor-type note: definition, distinction from university/firm/advocacy/ministry, organizational forms, recursive decomposition, instances and references."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/action-instrument.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/action-instrumentation.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/bureaucracy/compensation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/bureaucracy/compensation.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/bureaucracy/selection.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/bureaucracy/selection.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/communication/communication.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/communication/communication.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/documentation/documentation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/documentation/documentation.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/competitiveness/comparative-advantage.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/competitiveness/comparative-advantage.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/competitiveness/competitive-advantage.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/competitiveness/competitive-advantage.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/competitiveness/national-competitiveness.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/competitiveness/national-competitiveness.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/evaluation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/evaluation.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/sna.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/sna.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/evaluation/wealth.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/evaluation/wealth.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/foundation/foundation-for-the-meliorandis-toolkit.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/foundation/foundation-for-the-meliorandis-toolkit.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/foundation/incentive/incentive.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/foundation/incentive/incentive.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/foundation/incentive/mechanism.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/foundation/incentive/mechanism.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/foundation/instrumentorum.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/foundation/instrumentorum.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/general/src/director-appointment-process.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/general/src/director-appointment-process.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/general/src/recognition.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/general/src/recognition.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/general/unclassified-tools.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/general/unclassified-tools.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/institutional/institutional-design.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/institutional/institutional-design.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/instrumentorum-readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/instrumentorum-readme.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/market/market-design.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/market/market-design.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/finance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/finance.md into the instrument/policy section."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/productive-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/productive-policy.md into the instrument/policy section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry Jacobs & Imas on economic policy for AGI - the eleven responses and the negative correlation between popular support and scenario durability."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Jeremy (1977) added: the British prohibition on the outflow of technicians and machinery, 1780-1843, and why the legal technology monopoly leaked.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/protectionism.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/protectionism.md into the instrument/policy section."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the policy-type index under the instrument section, with links to the moved policy notes."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/tarrif.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/tarrif.md into the instrument/policy section."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/policy/upgrading.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/upgrading.md into the instrument/policy section."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/industrial-technical-practice-diffusion.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/industrial-technical-practice-diffusion.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/manufacturing-extension-partnership.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/manufacturing-extension-partnership.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/pilot-plant.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/pilot-plant.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/production-toolkit.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/production-toolkit.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/productivity-promotion-center.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/productivity-promotion-center.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/protofabrica.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/protofabrica.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/quality-index.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/quality-index.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/production/startup-accelerator.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/production/startup-accelerator.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/instrument/technology/tecno-productive-policy-toolbox.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/technology/tecno-productive-policy-toolbox.md as part of renaming instrumentation to instrument."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/locus-meliorandis-readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Locus Instrumentorum link after the directory rename."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/nuclear-technical-domain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Nuclear Technology Emergence essay to See also."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Nuclear Technical Domain note: civil fuel cycle, fission, fusion, waste, radiation protection, safety and safeguards, with decomposition and references."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Nuclear Industry to the heavy-industry table."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/energy-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add see-also links to the Nuclear Technical Domain and Nuclear Industry."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the country capability and experimental-lineage appendix, with linked research institutions, reactor engineering organizations, manufacturers and firms."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add research centres and nuclear policy institutes/advocates to the general references as name-and-link lists."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Rebuild the country literature in APA style with peer-reviewed articles and academic books, and separate general references from data and official sources."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the overview essay on nuclear technology emergence: introduction, country paths by genesis, indigenization, transfer limits, policy, cluster, value chain, R&D and literature, and conclusion."
    }
   ]
  }

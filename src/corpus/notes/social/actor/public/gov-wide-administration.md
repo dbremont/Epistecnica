@@ -119,8 +119,8 @@ It is not an `Organizational Administration` (the internal administration of one
 | `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Guidance `(→ Part)` Common Standard | Shared protocol stabilizing conduct across organizations. |
 | `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Organization | Grouping: elements arranging cross-agency action into coordinated wholes. |
 | `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Organization `(→ Part)` Common Process | Repeatable cross-organizational sequence of tasks aimed at administrative objectives. |
-| `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Instrumentation | Grouping: operative means steering cross-agency execution. |
-| `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Instrumentation `(→ Part)` Shared Instrument | Tool or mechanism influencing behavior and outcomes across organizations. |
+| `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Instrument | Grouping: operative means steering cross-agency execution. |
+| `Activity` `(→ Kind)` Government-Wide Coordinating Activity `(→ Component)` Action Instrument `(→ Part)` Shared Instrument | Tool or mechanism influencing behavior and outcomes across organizations. |
 
 ### Which are the tags(adjectives) that can be used to enrich the nodes of the decomposition?
 

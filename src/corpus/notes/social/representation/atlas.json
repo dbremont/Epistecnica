@@ -497,11 +497,11 @@
       ]
     },
     {
-      "id": "action-instrumentation",
-      "name": "Action Instrumentation",
+      "id": "action-instrument",
+      "name": "Action Instrument",
       "type": "action",
       "parent": "social-action",
-      "def": "Instrumentation structure: operative means coordinating and controlling execution — instruments wielded by agencies to steer, monitor, and enforce organized action.",
+      "def": "Instrument structure: operative means coordinating and controlling execution — instruments wielded by agencies to steer, monitor, and enforce organized action.",
       "ex": [
         "Inspection",
         "audit visit",

@@ -119,7 +119,7 @@ QA:
 ## References
 
 - A Defense of Industrial Policy
-- [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrumentation/instrumentorum-readme.md)
+- [Locus Instrumentorum](/view.html?p=notes/social/dynamic/action/public/instrument/instrumentorum-readme.md)
 - The Agent–Social-Reality Hard Coupling Problem
 - An Essay on Self Organization in Social Systems
 - State

@@ -56,7 +56,7 @@ Readable secondarily as an `Interaction Unit` — a bounded entity that negotiat
 | `Social Compound` `(→ Part)` `Collective` `(→ Kind)` `Political Collective` `(→ Kind)` `Polity` `(→ Kind)` `Federated Unit` `(→ Instance)` Flanders `(→ Association)` Walloon Region and Brussels-Capital Region | The sibling units; partners through the inter-regional and inter-ministerial bodies, competitors for investment and for federal transfers. |
 | `Social Compound` `(→ Part)` `Collective` `(→ Kind)` `Political Collective` `(→ Kind)` `Polity` `(→ Kind)` `Federated Unit` `(→ Instance)` Flanders `(→ Has) Intention` Coalition Agreement | The five-year governing programme negotiated by the parties that form the government — the polity's operative intention. |
 | `Social Compound` `(→ Part)` `Collective` `(→ Kind)` `Political Collective` `(→ Kind)` `Polity` `(→ Kind)` `Federated Unit` `(→ Instance)` Flanders `(→ Has) Action Organization` Merged Region–Community Structure | The single-parliament, single-government arrangement adopted in 1980, which no other Belgian entity has. |
-| `Social Compound` `(→ Part)` `Collective` `(→ Kind)` `Political Collective` `(→ Kind)` `Polity` `(→ Kind)` `Federated Unit` `(→ Instance)` Flanders `(→ Has) Action Instrumentation` Fiscal and Funding Instruments | The Flemish tax base and the federal transfers that finance it — autonomy over spending, limited autonomy over revenue. |
+| `Social Compound` `(→ Part)` `Collective` `(→ Kind)` `Political Collective` `(→ Kind)` `Polity` `(→ Kind)` `Federated Unit` `(→ Instance)` Flanders `(→ Has) Action Instrument` Fiscal and Funding Instruments | The Flemish tax base and the federal transfers that finance it — autonomy over spending, limited autonomy over revenue. |
 
 ## Meta
 

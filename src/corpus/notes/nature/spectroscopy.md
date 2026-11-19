@@ -9,7 +9,7 @@ tags: [note, nature, natural-system, observation]
 | Member | What is varied | What is learned | Note |
 | --- | --- | --- | --- |
 | **Infrared** | Photon frequency in the infrared | Molecular vibrations, functional groups | [Infrared Spectroscopy](/view.html?p=notes/nature/infrared-spectroscopy.md) |
-| **Nuclear magnetic resonance** | Radio frequency in a magnetic field | Molecular structure, through nuclear spin environments | [NMR Spectroscopy](/view.html?p=notes/nature/nuclear-magnetic-resonance-nmr-spectroscopy.md) |
+| **Nuclear magnetic resonance** | Radio frequency in a magnetic field | Molecular structure, through nuclear spin environments | [NMR Spectroscopy](/corpus/notes/epistemica/observation/organon.html) |
 | **Angle-resolved photoemission** | Photon energy and emission angle | Electronic band structure, $E(\mathbf{k})$ | [ARPES](/view.html?p=notes/nature/angle-resolved-photoemission-spectroscopy-arpes.md) |
 | **UV-Vis** | Photon energy in the visible and ultraviolet | Electronic transitions, concentration | See the catalogue |
 

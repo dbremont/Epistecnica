@@ -3,8 +3,28 @@
   "subtitle": "The activities, designs, methods, techniques and instruments by which reality is observed and measured",
   "version": 1,
   "updated": "2026-11-18",
-  "types": ["activity", "design", "method", "technique", "instrument", "sensor", "standard", "record", "theory"],
-  "purposes": ["composition", "structure", "separation", "reaction", "trace", "sampling", "biochemical", "imaging", "quantity"],
+  "types": [
+    "activity",
+    "design",
+    "method",
+    "technique",
+    "instrument",
+    "sensor",
+    "standard",
+    "record",
+    "theory"
+  ],
+  "purposes": [
+    "composition",
+    "structure",
+    "separation",
+    "reaction",
+    "trace",
+    "sampling",
+    "biochemical",
+    "imaging",
+    "quantity"
+  ],
   "families": [
     {
       "id": "microscopy",
@@ -334,7 +354,7 @@
       "limit": "Sensitivity; requires a strong magnet",
       "year": 1946,
       "description": "Bloch and Purcell's resonance, turned into the structural method of organic chemistry and, later, into imaging.",
-      "note": "notes/nature/nuclear-magnetic-resonance-nmr-spectroscopy.md"
+      "note": "notes/nature/spectroscopy.md"
     },
     {
       "id": "arpes",

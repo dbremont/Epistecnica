@@ -31,7 +31,7 @@ tags: [note, actor, person, political-thought, liberalism, democracy, france, so
 
 ### What is the recursive instance decomposition of Alexis de Tocqueville?
 
-> Boundary: one person — his constitution, agency, guidance, organisation, instrumentation, activities, associations, and attributes, at a depth sufficient to locate him socially and politically. The books he wrote are epistemic elements and the polity he analysed is a polity: both are referred, not decomposed, here.
+> Boundary: one person — his constitution, agency, guidance, organisation, instrument, activities, associations, and attributes, at a depth sufficient to locate him socially and politically. The books he wrote are epistemic elements and the polity he analysed is a polity: both are referred, not decomposed, here.
 >
 > Stopping rule: a row is terminal when it names a constituent, an intention, a guidance form, an organisation, an instrument, an activity, an association, or an attribute.
 >
@@ -58,10 +58,10 @@ tags: [note, actor, person, political-thought, liberalism, democracy, france, so
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Organization `(→ Part)` American Inquiry | The nine-month journey of 1831 with Gustave de Beaumont, commissioned to report on the penitentiary system and used to study a whole society. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Organization `(→ Part)` Parliamentary Career | The deputy's seat for Valognes in the Manche, held from 1839 to 1851, and the committee and commission work through which his politics were exercised. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Organization `(→ Part)` Constitutional Commission | The 1848 commission drafting the Second Republic's constitution, where he defended bicameralism and the election of the president by universal suffrage. |
-| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrumentation | The means by which he worked. |
-| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrumentation `(→ Part)` Travelling Notebooks | The notes taken continuously through the American journey, on which the treatise was built. |
-| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrumentation `(→ Part)` The Treatise | *De la démocratie en Amérique*, published in 1835 and 1840 — the instrument through which his observation entered the public world. |
-| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrumentation `(→ Part)` The Memoir | *Souvenirs*, the recollections of 1848 written for private circulation and published only after his death. |
+| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrument | The means by which he worked. |
+| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrument `(→ Part)` Travelling Notebooks | The notes taken continuously through the American journey, on which the treatise was built. |
+| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrument `(→ Part)` The Treatise | *De la démocratie en Amérique*, published in 1835 and 1840 — the instrument through which his observation entered the public world. |
+| `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Has)` Action Instrument `(→ Part)` The Memoir | *Souvenirs*, the recollections of 1848 written for private circulation and published only after his death. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` American Journey Activity | The 1831–32 journey: prisons as the pretext, mores, administration, and race as the substance. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` Deputation Activity | Thirteen years of parliamentary practice in the July Monarchy and the Second Republic. |
 | `Interaction Unit` `(→ Kind)` Social Actor `(→ Kind)` Societal Actor `(→ Participation)` Ministerial Activity | His months as Minister of Foreign Affairs, 3 June to 31 October 1849, in Barrot's cabinet. |
