@@ -77049,6 +77049,16 @@
   ]
  },
  {
+  "file_path": "social/cybernetic/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the main entry for the cybernetic world: the facet, the corpus map, the reading rules and the QA."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/action/action.md",
   "logs": [
    {
@@ -90689,6 +90699,21 @@
     "summary": "Merge the Facet Scope note into the catalogue: one note now owns the definition, the authoritative list, the rules for assigning a facet and the contract a per-facet note follows. The register becomes the catalogue’s Note column, Economic is registered, and the “why the concept does not live on this shelf” question is dropped.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
     "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Cybernetic row to the facet catalogue."
+   }
+  ]
+ },
+ {
+  "file_path": "social/meta/facet/cybernetic.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Cybernetic Facet note: mechanism, boundaries, coverage, element paths, QA and references."
    }
   ]
  },

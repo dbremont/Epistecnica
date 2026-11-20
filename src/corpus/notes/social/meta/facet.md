@@ -29,6 +29,7 @@ tags: [note, social, facet, social-ontology, dimension, layers, analytical]
 | **Normative** | Rules, regulations, moral expectations, and social obligations that guide behavior and resolve conflicts. | — |
 | **Ideational** | Shared ideas, worldviews, ideologies, and cognitive schemas that influence perception, meaning-making, and social goals. | — |
 | **Technical** | Material and knowledge systems enabling the transformation of nature and society. | [Technical Facet](/view.html?p=notes/social/meta/facet/technical.md) |
+| **Cybernetic** | Control and delegation through designed systems: sensing, deciding and acting units, and the human–machine ensembles they form. | [Cybernetic Facet](/view.html?p=notes/social/meta/facet/cybernetic.md) |
 | **Political** | Contests and arrangements of power, authority, and collective decision within and across collectives. | — |
 | **Legal** | Codified rules, rights, and enforcement machineries that stabilize conduct through adjudication and sanction. | — |
 | **Symbolic** | Signs, rituals, and meaning-bearing practices through which collectives recognize themselves and coordinate. | — |

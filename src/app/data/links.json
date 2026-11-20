@@ -443,6 +443,42 @@
    "to": "social/koinomia/action/",
    "label": "Action",
    "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "social/actor/",
+   "label": "Actor",
+   "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "social/dynamic/action/",
+   "label": "Action",
+   "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "social/synontic/",
+   "label": "Synontic",
+   "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "social/normative/",
+   "label": "Normative",
+   "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "social/koinomia/action/problem/computation/",
+   "label": "Computation Policy",
+   "kind": "related"
+  },
+  {
+   "from": "social/cybernetic/",
+   "to": "technica/cybernetics/",
+   "label": "Cybernetics (technique)",
+   "kind": "related"
   }
  ]
 }
