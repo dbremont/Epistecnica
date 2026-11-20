@@ -86344,17 +86344,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/actor/instance/employee.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/actor/instance/finance/business-development-bank-of-canada.md",
   "logs": [
    {
@@ -88840,6 +88829,22 @@
     "summary": "Absorb public-organization.md: the shelf master becomes Public Actor, carrying the type definition, the decomposition and the index.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/employee.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the type shelf: the Public Employee is a position type, not a named organization."
    }
   ]
  },
@@ -92723,6 +92728,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Employee link to the type shelf."
    }
   ]
  },
@@ -92832,6 +92842,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Employee link to the type shelf."
    }
   ]
  },
@@ -92897,6 +92912,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Employee link to the type shelf."
    }
   ]
  },

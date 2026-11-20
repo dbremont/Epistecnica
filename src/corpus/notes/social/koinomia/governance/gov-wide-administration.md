@@ -376,7 +376,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### How should the workforce in public administration be conceptualized?
 
-> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md) positions. Personnel detail lives in those entries, not here.
+> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/koinomia/actor/type/employee.md) positions. Personnel detail lives in those entries, not here.
 
 ### Which Frameworks and Guides Can Be Used to Develop a Characterization System for Government-Wide Public Administration Systems?
 
@@ -561,7 +561,7 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
 - [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
-- [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
+- [Public Employee](/view.html?p=notes/social/koinomia/actor/type/employee.md)
 - [Public Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)

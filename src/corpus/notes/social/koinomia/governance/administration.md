@@ -197,7 +197,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### Where do workforce, civil service, and HR units decompose?
 
-> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md). Individual employment positions decompose in [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](/view.html?p=notes/social/koinomia/governance/mandarinate.md) and [Course of Honors](/view.html?p=notes/social/koinomia/governance/course-of-honors.md).
+> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md). Individual employment positions decompose in [Public Employee](/view.html?p=notes/social/koinomia/actor/type/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](/view.html?p=notes/social/koinomia/governance/mandarinate.md) and [Course of Honors](/view.html?p=notes/social/koinomia/governance/course-of-honors.md).
 
 ### Is there an overarching abstraction that allows us to classify and cluster government-wide administrative systems along a single dimension, such as an administrative model, administrative paradigm, administrative philosophy, or system type? What else?
 
@@ -380,7 +380,7 @@ See
 - [Program](/view.html?p=notes/social/dynamic/action/organization/program.md)
 - [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
-- [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
+- [Public Employee](/view.html?p=notes/social/koinomia/actor/type/employee.md)
 - [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)

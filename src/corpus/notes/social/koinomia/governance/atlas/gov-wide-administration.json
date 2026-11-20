@@ -3037,7 +3037,7 @@
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
         "social/koinomia/governance/civil-service.md",
-        "social/koinomia/actor/instance/employee.md",
+        "social/koinomia/actor/type/employee.md",
         "social/koinomia/actor/instance/hru.md",
         "social/koinomia/governance/gov-wide-administration.md"
       ],
@@ -3201,7 +3201,7 @@
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
         "social/koinomia/governance/civil-service.md",
-        "social/koinomia/actor/instance/employee.md",
+        "social/koinomia/actor/type/employee.md",
         "social/koinomia/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",

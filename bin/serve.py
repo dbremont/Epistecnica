@@ -169,6 +169,8 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+PUBLIC_EMPLOYEE_OLD = "/corpus/notes/social/koinomia/actor/instance/employee.md"
+PUBLIC_EMPLOYEE_NEW = "/corpus/notes/social/koinomia/actor/type/employee.md"
 PUBLIC_ACTOR_OLD = "/corpus/notes/social/koinomia/actor/public-organization.md"
 PUBLIC_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/readme.md"
 PUBLIC_TYPE_OLD = "/corpus/notes/social/koinomia/actor/"
@@ -591,6 +593,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == PUBLIC_ACTOR_OLD:
             self._redirect(PUBLIC_ACTOR_NEW)
+            return True
+
+        if path == PUBLIC_EMPLOYEE_OLD:
+            self._redirect(PUBLIC_EMPLOYEE_NEW)
             return True
 
         if path.startswith(PUBLIC_TYPE_OLD):
