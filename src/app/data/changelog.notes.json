@@ -29453,7 +29453,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the toolkit link to the guidance shelf."
+    "summary": "Retarget the toolkit link to the guidance shelf.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
@@ -77156,7 +77158,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe."
+    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267"
    }
   ]
  },
@@ -77291,7 +77294,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe."
+    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267"
    }
   ]
  },
@@ -82349,7 +82353,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Flatten: the case-study method joins the informe shelf root."
+    "summary": "Flatten: the case-study method joins the informe shelf root.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267"
    }
   ]
  },
@@ -83608,7 +83613,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the case-study method link to the informe root."
+    "summary": "Retarget the case-study method link to the informe root.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
@@ -83818,7 +83825,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the change-framework and toolkit links to the guidance shelf."
+    "summary": "Retarget the change-framework and toolkit links to the guidance shelf.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
@@ -83859,7 +83868,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the toolkit link to the guidance shelf."
+    "summary": "Retarget the toolkit link to the guidance shelf.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
@@ -85774,7 +85785,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the toolkit link to the guidance shelf."
+    "summary": "Retarget the toolkit link to the guidance shelf.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
@@ -91349,7 +91362,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the toolkit link to the guidance shelf."
+    "summary": "Retarget the toolkit link to the guidance shelf.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
    }
   ]
  },
