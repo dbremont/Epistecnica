@@ -86146,7 +86146,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add Khazanah Nasional: the Malaysian sovereign wealth fund and state holding, with its literature."
+    "summary": "Add Khazanah Nasional: the Malaysian sovereign wealth fund and state holding, with its literature.",
+    "commit": "2f112cd1de019130061cca638f93b45eee6f2f8a"
    }
   ]
  },
@@ -89786,7 +89787,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link Khazanah, correct its leader and parent organization."
+    "summary": "Link Khazanah, correct its leader and parent organization.",
+    "commit": "2f112cd1de019130061cca638f93b45eee6f2f8a",
+    "before": "458ead60176529aa106ded506313ce510dd76bd2"
    }
   ]
  },
