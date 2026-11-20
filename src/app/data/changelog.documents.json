@@ -37134,7 +37134,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the public-actor link to the shelf master."
+    "summary": "Retarget the public-actor link to the shelf master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
    }
   ]
  },
@@ -40192,7 +40194,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the public-actor link to the shelf master."
+    "summary": "Retarget the public-actor link to the shelf master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
    }
   ]
  },
