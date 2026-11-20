@@ -83822,7 +83822,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the T-PAPS link to the instance shelf."
+    "summary": "Retarget the T-PAPS link to the instance shelf.",
+    "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
+    "before": "33ae077efa5e2ca074b145a963394893e307cf99"
    }
   ]
  },
@@ -85730,7 +85732,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the T-PAPS link to the instance shelf."
+    "summary": "Retarget the T-PAPS link to the instance shelf.",
+    "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
+    "before": "33ae077efa5e2ca074b145a963394893e307cf99"
    }
   ]
  },
@@ -87059,7 +87063,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the China five-year-plan links to the instance shelf."
+    "summary": "Retarget the China five-year-plan links to the instance shelf.",
+    "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
+    "before": "33ae077efa5e2ca074b145a963394893e307cf99"
    }
   ]
  },
@@ -88065,7 +88071,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Materials Genome Initiative link to the instance shelf."
+    "summary": "Retarget the Materials Genome Initiative link to the instance shelf.",
+    "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
+    "before": "33ae077efa5e2ca074b145a963394893e307cf99"
    }
   ]
  },
