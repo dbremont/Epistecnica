@@ -7208,6 +7208,16 @@
   ]
  },
  {
+  "file_path": "epistemica/mathematical/number/riemann-zeta-function.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Riemann zeta function: definition, Euler product, continuation, the hypothesis section, and the QA on difficulty and primes."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/mathematical/number/roman-numeric-system.md",
   "logs": [
    {
