@@ -7,7 +7,7 @@ tags: [note, social, koinomia, actor, catalog]
 > The public-actor apparatus of koinomia: the organizations through which delegated public authority is exercised.
 
 - [Koinomia](/view.html?p=notes/social/koinomia/readme.md)
-- [Polity](/view.html?p=notes/social/koinomia/polity/readme.md)
+- [Polity](/view.html?p=notes/social/koinomia/polity/polity.md)
 - [Action](/view.html?p=notes/social/koinomia/action/readme.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md)

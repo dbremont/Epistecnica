@@ -55,7 +55,8 @@ Readable secondarily as an `Interaction Unit` (a bounded entity capable of inter
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Koinomia](/view.html?p=notes/social/koinomia/readme.md) — the public/commons arrangement this polity is a form of
-- [Polity Shelf](/view.html?p=notes/social/koinomia/polity/readme.md)
+- [Polity Atlas](/corpus/notes/social/koinomia/polity/index.html)
+- [Polity Instance](/view.html?p=notes/social/koinomia/polity/instance/readme.md)
 - [Collective](/view.html?p=notes/social/actor/collective/collective.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md)
 - [Sovereignty](/view.html?p=notes/social/actor/collective/sovereignty.md) — the property of a polity this note grades as Dependent Standing

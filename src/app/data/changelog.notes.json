@@ -70958,6 +70958,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
    }
   ]
  },
@@ -76496,6 +76501,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
    }
   ]
  },
@@ -84797,6 +84807,11 @@
     "summary": "Link the Domain shelf from the action Structure.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
     "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
    }
   ]
  },
@@ -87669,6 +87684,11 @@
     "kind": "feat",
     "summary": "Add the actor sub-shelf master.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
    }
   ]
  },
@@ -89887,6 +89907,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Replace the removed shelf readme link with the Polity Atlas and Instance pages."
    }
   ]
  },

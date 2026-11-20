@@ -7,7 +7,7 @@ tags: [note, social, koinomia, action, catalog]
 > Public action: societies â€” through the actors within them â€” recursively observe themselves, assess their conditions, and formulate diagnoses - imagine different paths  or modifications -  and invoke a set of agentia proceses that derived in action. From this process emerges a shared and distributed mental schema that guides collective action toward the transformation of social reality.
 
 - [Koinomia](/view.html?p=notes/social/koinomia/readme.md)
-- [Polity](/view.html?p=notes/social/koinomia/polity/readme.md)
+- [Polity](/view.html?p=notes/social/koinomia/polity/polity.md)
 - [Actor](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Action shelf](/view.html?p=notes/social/dynamic/action/action.md)
 
