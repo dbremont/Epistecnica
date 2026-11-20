@@ -86617,7 +86617,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
    }
   ]
  },
@@ -86633,7 +86634,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
    }
   ]
  },
@@ -86649,7 +86651,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
    }
   ]
  },
@@ -86665,7 +86668,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
    }
   ]
  },
@@ -86681,7 +86685,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
    }
   ]
  },
@@ -91065,7 +91070,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Removed: an empty concept stub, not an organization; the shelf's organizations moved to the actor instances."
+    "summary": "Removed: an empty concept stub, not an organization; the shelf's organizations moved to the actor instances.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e",
+    "before": "0e0241ac57b1ad1e83e408ee11c414c838473fac"
    }
   ]
  },
