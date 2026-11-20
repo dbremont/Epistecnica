@@ -71061,7 +71061,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the urbanism object links to the technica shelf."
+    "summary": "Retarget the urbanism object links to the technica shelf.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6",
+    "before": "bacedd8d023c146e9709135074498dcf7e152e17"
    }
   ]
  },
@@ -84992,7 +84994,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Technical Objects section pointing into the technica urbanism shelf."
+    "summary": "Add the Technical Objects section pointing into the technica urbanism shelf.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6",
+    "before": "bacedd8d023c146e9709135074498dcf7e152e17"
    }
   ]
  },
@@ -137681,7 +137685,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137715,7 +137720,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137749,7 +137755,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137759,7 +137766,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Urbanism technical shelf master and link the nine moved objects."
+    "summary": "Add the Urbanism technical shelf master and link the nine moved objects.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137793,7 +137801,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137827,7 +137836,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137861,7 +137871,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137895,7 +137906,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137929,7 +137941,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
@@ -137963,7 +137976,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6"
    }
   ]
  },
