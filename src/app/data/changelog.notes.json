@@ -71057,6 +71057,11 @@
     "summary": "Retarget the Domain links to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the urbanism object links to the technica shelf."
    }
   ]
  },
@@ -84929,244 +84934,12 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/problem/urbanism/architecture.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/architecture.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/cartogram.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/cartogram.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/problem/urbanism/mercado.md",
   "logs": [
    {
     "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/dynamic/action/problem/dimension/urbanism/mercado.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/microclimate-engineering.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/microclimate-engineering.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/residential-building.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/residential-building.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/thermal-power-station.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/thermal-power-station.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/urban-design.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-design.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/urban-drainage-system.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-drainage-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/urban-mobility.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-mobility.md. Move into action/public/problem/: the problem dimensions sit with public action.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
    {
@@ -85215,35 +84988,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/urbanism/waste-management-valorisation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/waste-management-valorisation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
    {
     "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+    "kind": "edit",
+    "summary": "Add the Technical Objects section pointing into the technica urbanism shelf."
    }
   ]
  },
@@ -137899,6 +137648,322 @@
     "date": "2026-11-18",
     "kind": "feat",
     "summary": "New tool note: uniq, with its definition, its abstract task, its traditional or modern counterpart, the main advantage, a typical command and the manual or project link."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/architecture.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/architecture.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/cartogram.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/cartogram.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/microclimate-engineering.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/microclimate-engineering.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Urbanism technical shelf master and link the nine moved objects."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/residential-building.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/residential-building.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/thermal-power-station.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/thermal-power-station.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/urban-design.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-design.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/urban-drainage-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-drainage-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/urban-mobility.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-mobility.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/urbanism/waste-management-valorisation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/waste-management-valorisation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the social urbanism shelf to the technica urbanism shelf; the object is technical, not policy."
    }
   ]
  },

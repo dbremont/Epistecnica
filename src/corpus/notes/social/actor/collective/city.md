@@ -208,13 +208,13 @@ Three frames act on the same object at different scales, and the corpus files ea
 - [Philosophia Artium Technicarum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-artium-technicarum-et-operis.md) — the technical schema the carried decomposition follows
 - [Philosophia Conceptuum et Operis](https://raw.githubusercontent.com/csiglab/Naturgnosis/refs/heads/main/app/note/data/meta/philosophia-conceptuum-et-operis.md) — the criteria applied in the evaluation above
 - [Urbanismo](/view.html?p=notes/social/koinomia/action/problem/urbanism/urbanismo.md) — the urbanism scope the settlement is studied in
-- [Urban Design](/view.html?p=notes/social/koinomia/action/problem/urbanism/urban-design.md) — the design of the settlement's form and public space
-- [Urban Mobility](/view.html?p=notes/social/koinomia/action/problem/urbanism/urban-mobility.md) — the movement system the territory organizes
-- [Urban Drainage System](/view.html?p=notes/social/koinomia/action/problem/urbanism/urban-drainage-system.md) — one technical network, worked in full
-- [Microclimate Engineering](/view.html?p=notes/social/koinomia/action/problem/urbanism/microclimate-engineering.md) — the urban climate the fabric produces
-- [Waste Management & Valorisation](/view.html?p=notes/social/koinomia/action/problem/urbanism/waste-management-valorisation.md) — the waste system of the settlement
-- [Architecture](/view.html?p=notes/social/koinomia/action/problem/urbanism/architecture.md) — the building scale the city aggregates
-- [Residential Building](/view.html?p=notes/social/koinomia/action/problem/urbanism/residential-building.md) — the dwelling stock's building type
+- [Urban Design](/view.html?p=notes/technica/general/urbanism/urban-design.md) — the design of the settlement's form and public space
+- [Urban Mobility](/view.html?p=notes/technica/general/urbanism/urban-mobility.md) — the movement system the territory organizes
+- [Urban Drainage System](/view.html?p=notes/technica/general/urbanism/urban-drainage-system.md) — one technical network, worked in full
+- [Microclimate Engineering](/view.html?p=notes/technica/general/urbanism/microclimate-engineering.md) — the urban climate the fabric produces
+- [Waste Management & Valorisation](/view.html?p=notes/technica/general/urbanism/waste-management-valorisation.md) — the waste system of the settlement
+- [Architecture](/view.html?p=notes/technica/general/urbanism/architecture.md) — the building scale the city aggregates
+- [Residential Building](/view.html?p=notes/technica/general/urbanism/residential-building.md) — the dwelling stock's building type
 - [Construction Technology](/view.html?p=notes/technica/production/industry/construction-technology.md) — how the fabric is built
 - [Construction Project System](/view.html?p=notes/technica/production/industry/construction-project-system.md) — the project form that delivers it
 - [Logistics System](/view.html?p=notes/technica/production/industry/logistics-system.md) — the goods flow the city depends on

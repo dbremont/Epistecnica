@@ -133,6 +133,19 @@ INVESTMENT_MD_PREV = "/corpus/notes/social/koinomia/action/domain/investment/inv
 INVESTMENT_MD_ALLOC = "/corpus/notes/social/koinomia/action/domain/finance/state-capital-allocation.md"
 INVESTMENT_MD_ALLOC_FLAT = "/corpus/notes/social/koinomia/action/problem/finance/state-capital-allocation.md"
 INVESTMENT_MD_NEW = "/corpus/notes/social/koinomia/action/problem/finance/investment.md"
+URBANISM_SOCIAL = "/corpus/notes/social/koinomia/action/problem/urbanism/"
+URBANISM_TECH = "/corpus/notes/technica/general/urbanism/"
+URBANISM_MOVED = {
+    "architecture.md",
+    "cartogram.md",
+    "microclimate-engineering.md",
+    "residential-building.md",
+    "thermal-power-station.md",
+    "urban-design.md",
+    "urban-drainage-system.md",
+    "urban-mobility.md",
+    "waste-management-valorisation.md",
+}
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -430,6 +443,12 @@ class HubHandler(SimpleHTTPRequestHandler):
                     INVESTMENT_MD_ALLOC_FLAT):
             self._redirect(INVESTMENT_MD_NEW)
             return True
+
+        if path.startswith(URBANISM_SOCIAL):
+            rest = path[len(URBANISM_SOCIAL):]
+            if rest in URBANISM_MOVED:
+                self._redirect(URBANISM_TECH + rest)
+                return True
 
         for prefix in (KOINOMIA_DOMAIN_OLD, KOINOMIA_DOMAIN_PREV):
             if path == prefix or path.startswith(prefix + "/"):

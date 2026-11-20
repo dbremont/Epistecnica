@@ -395,6 +395,18 @@
    "to": "social/koinomia/polity/",
    "label": "Polity",
    "kind": "hierarchy"
+  },
+  {
+   "from": "social/koinomia/action/problem/urbanism/",
+   "to": "technica/general/urbanism/",
+   "label": "Urbanism (technical)",
+   "kind": "related"
+  },
+  {
+   "from": "technica/general/urbanism/",
+   "to": "social/koinomia/action/problem/urbanism/",
+   "label": "Urbanismo (policy)",
+   "kind": "related"
   }
  ]
 }

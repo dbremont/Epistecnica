@@ -109,6 +109,21 @@ These are just a few examples of the instrumentation and data collection methods
 - Waste Management
 - â€¦.
 
+## Technical Objects
+
+> The built objects and networks of the city are read in the technical shelf, one domain over. This note is the policy and urban-studies reading; the technica shelf holds the objects themselves.
+
+- [Urbanism (technical shelf)](/view.html?p=notes/technica/general/urbanism/readme.md)
+- [Architecture](/view.html?p=notes/technica/general/urbanism/architecture.md)
+- [Residential Building](/view.html?p=notes/technica/general/urbanism/residential-building.md)
+- [Urban Design](/view.html?p=notes/technica/general/urbanism/urban-design.md)
+- [Urban Mobility](/view.html?p=notes/technica/general/urbanism/urban-mobility.md)
+- [Urban Drainage System](/view.html?p=notes/technica/general/urbanism/urban-drainage-system.md)
+- [Waste Management & Valorisation](/view.html?p=notes/technica/general/urbanism/waste-management-valorisation.md)
+- [Microclimate Engineering](/view.html?p=notes/technica/general/urbanism/microclimate-engineering.md)
+- [Thermal Power Station](/view.html?p=notes/technica/general/urbanism/thermal-power-station.md)
+- [Cartogram](/view.html?p=notes/technica/general/urbanism/cartogram.md)
+
 ## References
 
 - [15 Minutes City](https://www.15minutecity.com/)

@@ -1,5 +1,5 @@
 ---
-tags: [note, social, unfinished]
+tags: [note, technica, urbanism, unfinished]
 ---
 # Cartogram
 
