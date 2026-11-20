@@ -77331,6 +77331,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
    }
   ]
  },
@@ -77757,6 +77762,52 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/action/informe/report.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Report social-compound note: official reports, white papers, commission reports, annual and technical reports, with SOU and NOU series and report parts."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the informe shelf as its report-kind master, beside the country-report instances."
    }
   ]
  },
@@ -86408,6 +86459,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
    }
   ]
  },
@@ -86447,6 +86503,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
    }
   ]
  },
@@ -91360,42 +91421,11 @@
     "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
     "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
     "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/report.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "feat",
-    "summary": "Add the Report social-compound note: official reports, white papers, commission reports, annual and technical reports, with SOU and NOU series and report parts."
    },
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
-    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
-    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
-    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
    }
   ]
  },

@@ -4,10 +4,9 @@ tags: [note, social]
 
 # Informe
 
-> Country studies: reports on specific countries' economic policy toolboxes,
-> development paths, and schools of thought. For the concrete instances
-> (named policies and programmes, plans and cases), see `instance/` beside
-> this index.
+> The report shelf: the [Report](/view.html?p=notes/social/collective/action/informe/report.md) kind — an issued account of an inquiry, investigation, review or state of affairs — together with the country studies that instantiate it: reports on specific countries' economic policy toolboxes, development paths, and schools of thought.
+
+For the concrete instances (named policies and programmes, plans and cases), see `instance/` beside this index.
 
 ## Governance
 

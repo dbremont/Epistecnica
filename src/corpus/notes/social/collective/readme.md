@@ -15,7 +15,6 @@ tags: [note, social]
 - **The bounded plural** — [Polity](/view.html?p=notes/social/collective/polity/polity.md) and [Sovereignty](/view.html?p=notes/social/collective/sovereignty.md), where authority draws the boundary; polity is the political core of [Koinomia](/view.html?p=notes/social/collective/koinomia.md).
 - **Ranked pluralities** — [`class/`](/explorer.html?dir=notes/social/collective/class): [Social Class](/view.html?p=notes/social/collective/class/social-class.md), an aggregate defined by position in production, and [Stratum](/view.html?p=notes/social/collective/class/stratum.md), a gradational position on a scale, with their historical instances (Bildungsbürgertum, Grand Burgher, Hanseaten, Intelligentsia).
 - **The settlement** — [City](/view.html?p=notes/social/collective/city.md), a bounded compound with governance, infrastructure and a technical-system reading.
-- **The programme** — [Theoretical Framework Program](/view.html?p=notes/social/program.md), which states the theory of the shared action space this branch is read against.
 
 ## Read it with
 
