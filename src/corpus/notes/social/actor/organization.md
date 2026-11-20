@@ -42,6 +42,7 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 | Organization `(→ Kind)` Private Organization `(→ Kind)` Family Firm | Organization controlled across generations by one kin group. |
 | Organization `(→ Kind)` Private Organization `(→ Kind)` Guild | Grouping: craft and trade collectives aggregating independent members. |
 | Organization `(→ Kind)` Private Organization `(→ Kind)` Guild `(→ Kind)` Śreṇi | Mode of aggregating independent economic actors into a collective coordinating costly activities (canonical instance: ancient Indian merchant-artisan śreṇi). |
+| Organization `(→ Kind)` Publishing Organization | Organization producing and circulating publications — books, journals, and periodicals — as its constitutive output; the kind family is filed at [Publishing](/view.html?p=notes/social/actor/private/publishing/readme.md). |
 | Organization `(→ Kind)` Non-Governmental Organization | Mission-driven organization, neither state nor market, serving a cause. |
 | Organization `(→ Kind)` Non-Governmental Organization `(→ Kind)` Foundation | Endowed organization disbursing grants toward a mission. |
 | Organization `(→ Kind)` Non-Governmental Organization `(→ Kind)` Advocacy Association | Membership organization pressing claims on authorities and publics. |
