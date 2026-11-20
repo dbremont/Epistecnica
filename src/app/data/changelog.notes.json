@@ -76674,6 +76674,13 @@
   "file_path": "social/actor/trading-house.md",
   "logs": [
    {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the social trading-house actor and the commerce activity note.",
+    "commit": "39d246fa217197489d421845bf531251785f62c3",
+    "before": "80c7f8f545f5dbb449673f96e6df9aaa8aab66ba"
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -76693,6 +76700,11 @@
     "summary": "Link the commerce activity, exchange, international trade, retail and operational trading-house notes; the provenance now points at the technica note.",
     "commit": "39d246fa217197489d421845bf531251785f62c3",
     "before": "80c7f8f545f5dbb449673f96e6df9aaa8aab66ba"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Merge the technica trading-house note into the social actor note: the global trading companies table and its references."
    }
   ]
  },
@@ -138818,18 +138830,6 @@
     "summary": "References now link the 3D printing note as the additive counterpart.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   }
-  ]
- },
- {
-  "file_path": "technica/production/industry/commerce/trading.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Link the social trading-house actor and the commerce activity note.",
-    "commit": "39d246fa217197489d421845bf531251785f62c3",
-    "before": "80c7f8f545f5dbb449673f96e6df9aaa8aab66ba"
    }
   ]
  },

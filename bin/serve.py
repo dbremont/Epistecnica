@@ -171,6 +171,8 @@ HUMAN_LANGUAGE_MOVED = {
 }
 GROUP_MD_OLD = "/corpus/notes/social/actor/private/group/group.md"
 GROUP_MD_NEW = "/corpus/notes/epistemica/singular/social-group-modelling.md"
+TRADING_HOUSE_OLD = "/corpus/notes/technica/production/industry/commerce/trading.md"
+TRADING_HOUSE_NEW = "/corpus/notes/social/actor/trading-house.md"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -490,6 +492,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == GROUP_MD_OLD:
             self._redirect(GROUP_MD_NEW)
+            return True
+
+        if path == TRADING_HOUSE_OLD:
+            self._redirect(TRADING_HOUSE_NEW)
             return True
 
         if path.startswith(HUMAN_LANGUAGE_MODEL):

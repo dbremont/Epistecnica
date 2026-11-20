@@ -1,5 +1,5 @@
 ---
-tags: [note, social, organization, trading-house, sogo-shosha]
+tags: [note, social, organization, trading-house, sogo-shosha, commerce]
 ---
 
 # Trading House
@@ -33,6 +33,25 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 | Collective / Organization `(→ Part)` Trading House `(→ Part)` Collective / Organization `(→ Part)` Overseas Office | Local-presence office form. |
 | Collective / Organization `(→ Part)` Trading House `(→ Part)` Social Relation / Network `(→ Part)` Keiretsu Tie | Repeat-dealing stabilizing tie. |
 
+## Global Trading Companies
+
+| Company                          | Country     | Core Sectors                              | Production Ownership | Project Development | Multi-Sector Diversification | Notes                                               |
+| -------------------------------- | ----------- | ----------------------------------------- | -------------------- | ------------------- | ---------------------------- | --------------------------------------------------- |
+| **Marubeni Corporation**         | Japan       | Energy, Agribusiness, Metals, Infra, Food | ✅ Partial            | ✅ Yes               | ✅ Yes                        | Typical *sōgō shōsha*, global integrator            |
+| **Mitsubishi Corporation**       | Japan       | Energy, Mobility, Food, Finance, Infra    | ✅ Partial            | ✅ Yes               | ✅ Yes                        | Largest Japanese trading house                      |
+| **Mitsui & Co.**                 | Japan       | Energy, Chemicals, Healthcare, Logistics  | ✅ Partial            | ✅ Yes               | ✅ Yes                        | Known for financial innovation and LNG              |
+| **Itochu Corporation**           | Japan       | Consumer goods, Food, Textiles, Logistics | ✅ Some               | ✅ Some              | ✅ Yes                        | Strong in B2C, retail, and food systems             |
+| **Sumitomo Corporation**         | Japan       | Infrastructure, Metals, Transportation    | ✅ Some               | ✅ Yes               | ✅ Yes                        | Historical link to Sumitomo Group                   |
+| **Sojitz Corporation**           | Japan       | Chemicals, Automotives, Machinery, Retail | ✅ Some               | ✅ Limited           | ✅ Yes                        | Leaner, more agile sōgō shōsha                      |
+| **Toyota Tsusho**                | Japan       | Automotive, Electronics, Energy           | ✅ Some               | ✅ Some              | ✅ Yes                        | Trading arm of Toyota Group                         |
+| **Glencore**                     | Switzerland | Mining, Metals, Energy Commodities        | ✅ Extensive          | ❌ No                | ❌ Focused                    | Major mining and oil assets; raw materials trader   |
+| **Trafigura**                    | Singapore   | Oil, Metals, Energy Trading               | ✅ Limited            | ❌ No                | ❌ Focused                    | Trading focus; logistics and storage infrastructure |
+| **Cargill**                      | USA         | Agriculture, Food, Commodities            | ✅ Extensive          | ❌ No                | ❌ Agri-focused               | Privately held; global food supply powerhouse       |
+| **ADM (Archer Daniels Midland)** | USA         | Food Ingredients, Grain, Biofuels         | ✅ Extensive          | ❌ No                | ❌ Agri-focused               | Vertically integrated from field to food            |
+| **Louis Dreyfus Company**        | Netherlands | Agricultural Commodities                  | ✅ Some               | ❌ No                | ❌ Agri-focused               | One of the ABCD commodity firms                     |
+| **Sinochem Group**               | China       | Chemicals, Energy, Agriculture            | ✅ Extensive          | ✅ Yes               | ✅ Yes                        | State-owned; strategic industrial operator          |
+| **CNPC International**           | China       | Oil, Gas, Petrochemicals                  | ✅ Extensive          | ✅ Yes               | ❌ Focused                    | Energy state giant; global oil assets               |
+
 ## Read it with
 
 - **Actor**: [Actor](/view.html?p=notes/social/actor/actor.md) · [Firm](/view.html?p=notes/social/actor/firm.md) · [Organization](/view.html?p=notes/social/actor/organization.md)
@@ -40,7 +59,7 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 - **Commerce**: [Commerce](/view.html?p=notes/social/dynamic/trade/commerce-economic-activity.md) · [Trade](/view.html?p=notes/social/dynamic/trade/trade.md) · [Exchange](/view.html?p=notes/social/dynamic/trade/exchange.md) · [International Trade](/view.html?p=notes/social/dynamic/trade/international-trade.md)
 - **Policy**: [Trade](/view.html?p=notes/social/koinomia/action/problem/international/trade/trade.md) · [Export](/view.html?p=notes/social/koinomia/action/problem/international/trade/export.md) · [Industry](/view.html?p=notes/social/koinomia/action/problem/production/industry/industry.md)
 - **Japan**: [Japan](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md) · [JETRO](/view.html?p=notes/social/koinomia/actor/instance/development/japan-external-trade-organization.md) · [MITI](/view.html?p=notes/social/koinomia/actor/instance/development/ministry-of-international-trade-and-industry.md)
-- **Technique**: [Trading House (operation)](/view.html?p=notes/technica/production/industry/commerce/trading.md) · [Retail](/view.html?p=notes/technica/production/industry/commerce/retail.md) · [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md)
+- **Technique**: [Retail](/view.html?p=notes/technica/production/industry/commerce/retail.md) · [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md)
 
 ## References
 
@@ -75,7 +94,14 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 - Milgrom, P. R., North, D. C., & Weingast, B. R. (1990). The role of institutions in the revival of trade: The law merchant, private judges, and the champagne fairs. *Economics & Politics*, 2(1), 1–23.
 - Gereffi, G., Humphrey, J., & Sturgeon, T. (2005). The governance of global value chains. *Review of International Political Economy*, 12(1), 78–104.
 
+### Trading-company references
+
+- [Trading company — Wikipedia](https://en.wikipedia.org/wiki/Trading_company)
+- [List of trading companies — Wikipedia](https://en.wikipedia.org/wiki/List_of_trading_companies)
+- [List of commodity traders — Wikipedia](https://en.wikipedia.org/wiki/List_of_commodity_traders)
+- [List of chartered companies — Wikipedia](https://en.wikipedia.org/wiki/List_of_chartered_companies)
+
 ### Provenance
 
-- Produceologia `docs/Production/Industry/Commerce/Trading.md` → [Trading House](/view.html?p=notes/technica/production/industry/commerce/trading.md)
+- Produceologia `docs/Production/Industry/Commerce/Trading.md` (read-only import)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
