@@ -29438,7 +29438,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the essay on firm minimum viable size: the threshold reading of firm scale and the SME agency diagnosis problem."
+    "summary": "Add the essay on firm minimum viable size: the threshold reading of firm scale and the SME agency diagnosis problem.",
+    "commit": "de28950543268ab9316c16302aa9f51e882cad2d"
    }
   ]
  },
@@ -82132,7 +82133,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Reference the essay on firm minimum viable size."
+    "summary": "Reference the essay on firm minimum viable size.",
+    "commit": "de28950543268ab9316c16302aa9f51e882cad2d",
+    "before": "87c225bcfb358db9d2dc3036f6b519637471027d"
    }
   ]
  },
@@ -92122,7 +92125,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Reference the essay on firm minimum viable size."
+    "summary": "Reference the essay on firm minimum viable size.",
+    "commit": "de28950543268ab9316c16302aa9f51e882cad2d",
+    "before": "87c225bcfb358db9d2dc3036f6b519637471027d"
    }
   ]
  },
