@@ -69,4 +69,4 @@ tags: [note, social]
 - [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) · [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) — the anchor and the vehicle that carry public capital into sectoral funds
 - An Essay on Early European Development Finance
 - [Quantitative Finance](https://righteous-guardian-68f.notion.site/Quantitative-Finance-25bc0f5171ec80dbb0e8f88a73ceb0a4?source=copy_link)
-- [State Capital Allocation](/view.html?p=notes/social/koinomia/action/domain/finance/state-capital-allocation.md) — the decision that chooses among these instruments: criteria, routes, pathologies and the discipline of additionality and sunset
+- [Investment](/view.html?p=notes/social/koinomia/action/domain/finance/investment.md) — the decision that chooses among these instruments: criteria, routes, pathologies and the discipline of additionality and sunset

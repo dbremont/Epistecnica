@@ -128,6 +128,9 @@ KOINOMIA_REGION_MD_CURRENT = "/corpus/notes/social/koinomia/region.md"
 KOINOMIA_REGION_MD_NEW = "/corpus/notes/social/koinomia/space/region.md"
 KOINOMIA_DOMAIN_OLD = "/corpus/notes/social/koinomia/action/problem/dimension"
 KOINOMIA_DOMAIN_NEW = "/corpus/notes/social/koinomia/action/domain"
+INVESTMENT_MD_PREV = "/corpus/notes/social/koinomia/action/domain/investment/investment.md"
+INVESTMENT_MD_ALLOC = "/corpus/notes/social/koinomia/action/domain/finance/state-capital-allocation.md"
+INVESTMENT_MD_NEW = "/corpus/notes/social/koinomia/action/domain/finance/investment.md"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -424,6 +427,10 @@ class HubHandler(SimpleHTTPRequestHandler):
         if path == KOINOMIA_DOMAIN_OLD or path.startswith(KOINOMIA_DOMAIN_OLD + "/"):
             rest = path[len(KOINOMIA_DOMAIN_OLD):]
             self._redirect(KOINOMIA_DOMAIN_NEW + rest)
+            return True
+
+        if path in (INVESTMENT_MD_PREV, INVESTMENT_MD_ALLOC):
+            self._redirect(INVESTMENT_MD_NEW)
             return True
 
         if path == KOINOMIA_POLITY_OLD or path.startswith(KOINOMIA_POLITY_OLD + "/"):

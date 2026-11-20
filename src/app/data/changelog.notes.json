@@ -76893,6 +76893,11 @@
     "summary": "Retarget the Domain links to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
     "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the state allocation references to the Investment note."
    }
   ]
  },
@@ -81698,6 +81703,11 @@
     "kind": "refactor",
     "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the allocation reference to the merged Investment note."
    }
   ]
  },
@@ -81788,6 +81798,34 @@
   ]
  },
  {
+  "file_path": "social/koinomia/action/domain/finance/investment.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/investment/investment.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into finance/ and merge with State Capital Allocation."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/action/domain/finance/state-capital-allocation.md",
   "logs": [
    {
@@ -81827,6 +81865,11 @@
     "kind": "refactor",
     "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Merged into investment.md; the allocation decision is now the Investment note."
    }
   ]
  },
@@ -81975,29 +82018,6 @@
     "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/dynamic/action/problem/dimension/international/trade/trade.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/domain/investment/investment.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/investment/investment.md. Move into action/public/problem/: the problem dimensions sit with public action.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
    {
