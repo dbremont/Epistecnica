@@ -8,7 +8,7 @@ tags: [note, social, social-element, hong-kong, plan, public-policy]
 
 > What makes it worth a note is not the document but the commitment: a polity whose governing doctrine for half a century was **positive non-interventionism** has adopted a five-year development horizon, aligned with the national plan of the People's Republic. Whether that becomes an instrument or stays a document is the question the note leaves open.
 
-> One round is a plan, not yet an instrument. The [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/china-five-year-plan.md) is seventy years of composed rounds; this is the first, and the note treats it as such.
+> One round is a plan, not yet an instrument. The [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md) is seventy years of composed rounds; this is the first, and the note treats it as such.
 
 ## Formulation
 
@@ -76,6 +76,6 @@ The figures themselves are not reproduced here. They are in the documents, and a
 - [Highlights](https://www.hk5yplan.gov.hk/2026-2030/en/highlight.html) · [Infographics](https://www.hk5yplan.gov.hk/2026-2030/en/infographic.html) · [Fact Sheets](https://www.hk5yplan.gov.hk/2026-2030/en/factsheet.html) · [Webcast](https://www.hk5yplan.gov.hk/2026-2030/en/webcast.html)
 - [Hong Kong](/view.html?p=notes/social/koinomia/polity/instance/chn/prc/region/hong-kong/hong-kong.md) — the polity the plan arranges
 - [Hong Kong Social Region Dynamics, 1900–2025](/view.html?p=notes/social/koinomia/polity/instance/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md) — the trajectory the plan is the next episode of
-- [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/china-five-year-plan.md) — the instrument this plan aligns with, and what a renewed cycle looks like
-- [South Korea Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/south-korea-five-year-plan.md) · [India Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/india-five-year-plan.md) · [Soviet Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/soviet-five-year-plan.md) — the comparative cases
+- [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md) — the instrument this plan aligns with, and what a renewed cycle looks like
+- [South Korea Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/south-korea-five-year-plan.md) · [India Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/india-five-year-plan.md) · [Soviet Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/soviet-five-year-plan.md) — the comparative cases
 - [Framework](/view.html?p=notes/social/dynamic/action/guidance/framework.md) · [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

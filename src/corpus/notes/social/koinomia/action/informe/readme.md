@@ -5,9 +5,9 @@ tags: [note, social]
 # Informe
 
 > Country studies: reports on specific countries' economic policy toolboxes,
-> development paths, and schools of thought. For deployed policy instances
-> (country and sector courses and case studies), see the policy cases under
-> `guidance/policy/` beside this index.
+> development paths, and schools of thought. For the concrete instances
+> (named policies and programmes, plans and cases), see `instance/` beside
+> this index.
 
 ## Government-wide administration
 

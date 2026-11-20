@@ -162,9 +162,9 @@ A defense industry passes when it forces competence (P1), anchors a cluster (P2)
 - [Productive Policy](/view.html?p=notes/social/koinomia/action/instrument/policy/productive-policy.md) — the policy frame the test belongs to
 - [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md) — the institutional layer between the laboratory and the firm
 - [Patents](/view.html?p=notes/epistemica/observation/dataset/patent.md) — the evidence base for measuring technical output
-- [Programa Gripen Brasileiro](/view.html?p=notes/social/koinomia/action/informe/policy/programa-gripen-brasileiro.md) — the worked case: offsets as industrial policy
-- [Israel Innovation Policy](/view.html?p=notes/social/koinomia/action/informe/policy/israel-innovation-policy.md) — the state as first customer and the cyber cluster
-- [China National Key Technologies R&D Program](/view.html?p=notes/social/koinomia/action/informe/policy/case-study-china-national-key-technologies-rd-program.md) and [Program 863](/view.html?p=notes/social/koinomia/action/informe/policy/case-study-china-program-863.md) — mission programmes as the deliberate version of the catalyst
+- [Programa Gripen Brasileiro](/view.html?p=notes/social/koinomia/action/instance/programa-gripen-brasileiro.md) — the worked case: offsets as industrial policy
+- [Israel Innovation Policy](/view.html?p=notes/social/koinomia/action/instance/israel-innovation-policy.md) — the state as first customer and the cyber cluster
+- [China National Key Technologies R&D Program](/view.html?p=notes/social/koinomia/action/instance/case-study-china-national-key-technologies-rd-program.md) and [Program 863](/view.html?p=notes/social/koinomia/action/instance/case-study-china-program-863.md) — mission programmes as the deliberate version of the catalyst
 - [Shipbuilding](/view.html?p=notes/technica/production/industry/transportation/shipbuilding.md) — the naval side of the same industrial base
 - Ruttan, V. W. (2006). *Is War Necessary for Economic Growth? Military Procurement and Technology Development*. Oxford University Press.
 - Markusen, A., Hall, P., Campbell, S., & Deitrick, S. (1991). *The Rise of the Gunbelt: The Military Remapping of Industrial America*. Oxford University Press.

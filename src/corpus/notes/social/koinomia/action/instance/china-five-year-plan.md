@@ -78,4 +78,4 @@ Lineage: the First Five-Year Plan (1953–1957) under Soviet assistance → the 
 - [Five-Year Plans of China](https://en.wikipedia.org/wiki/Five-year_plans_of_China)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Framework](/view.html?p=notes/social/dynamic/action/guidance/framework.md)
-- [China Industrial Policy](/view.html?p=notes/social/koinomia/action/informe/policy/china-industrial-policy.md)
+- [China Industrial Policy](/view.html?p=notes/social/koinomia/action/instance/china-industrial-policy.md)

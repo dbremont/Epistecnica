@@ -178,7 +178,43 @@ POLICY_NEW = "/corpus/notes/social/dynamic/action/guidance/policy.md"
 COMMODITY_NEW = "/corpus/notes/social/coordinator/market/instance/commodity/commodity-trading-system.md"
 TALENT_RESEARCH = "/corpus/notes/social/dynamic/research/talent-attraction.md"
 MSTP_OLD = "/corpus/notes/social/dynamic/action/organization/medical-scientist-training-program.md"
-MSTP_NEW = "/corpus/notes/social/koinomia/action/informe/medical-scientist-training-program.md"
+MSTP_NEW = "/corpus/notes/social/koinomia/action/instance/medical-scientist-training-program.md"
+INSTANCE_FROM = "/corpus/notes/social/koinomia/action/informe/"
+INSTANCE_TO = "/corpus/notes/social/koinomia/action/instance/"
+INSTANCE_MOVED = {
+    "case-study-2030-agenda-for-sustainable-development.md",
+    "case-study-brazil-agricultural-industry.md",
+    "case-study-china-go-global.md",
+    "case-study-china-national-key-technologies-rd-program.md",
+    "case-study-china-program-863.md",
+    "case-study-china-program-973.md",
+    "case-study-emergence-of-sweden-textile-productive.md",
+    "case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
+    "case-study-invest-2035-the-uks-modern-industrial.md",
+    "case-study-nova-industria-brasil.md",
+    "case-study-singapore-tecnoproductive-development.md",
+    "case-study-sweden-industrilization.md",
+    "china-financing-policy.md",
+    "china-industrial-policy.md",
+    "china-infrastructure-policy.md",
+    "china-innovation-policy.md",
+    "finland-innovation-policy.md",
+    "israel-innovation-policy.md",
+    "korean-trade-policy.md",
+    "analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
+    "estrategia-de-desarrollo-industrial-de-canarias-20.md",
+    "eu-smart-specialisation-strategy.md",
+    "materials-genome-initiative.md",
+    "programa-gripen-brasileiro.md",
+    "specialized-smes-program.md",
+    "china-five-year-plan.md",
+    "hong-kong-five-year-plan.md",
+    "india-five-year-plan.md",
+    "south-korea-five-year-plan.md",
+    "soviet-five-year-plan.md",
+    "t-paps.md",
+    "medical-scientist-training-program.md",
+}
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -519,6 +555,13 @@ class HubHandler(SimpleHTTPRequestHandler):
         if path == MSTP_OLD:
             self._redirect(MSTP_NEW)
             return True
+
+        if path.startswith(INSTANCE_FROM):
+            rest = path[len(INSTANCE_FROM):]
+            name = rest.split("/")[-1]
+            if name in INSTANCE_MOVED:
+                self._redirect(INSTANCE_TO + name)
+                return True
 
         if path.startswith(HUMAN_LANGUAGE_MODEL):
             rest = path[len(HUMAN_LANGUAGE_MODEL):]

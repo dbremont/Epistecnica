@@ -70,4 +70,4 @@ Lineage: the 1961 coup and the Economic Planning Board's founding → the First 
 - [Five-Year Plans of South Korea](https://en.wikipedia.org/wiki/Five-year_plans_of_South_Korea)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Framework](/view.html?p=notes/social/dynamic/action/guidance/framework.md)
-- [Korean Trade Policy](/view.html?p=notes/social/koinomia/action/informe/policy/korean-trade-policy.md)
+- [Korean Trade Policy](/view.html?p=notes/social/koinomia/action/instance/korean-trade-policy.md)

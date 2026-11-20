@@ -82322,59 +82322,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/informe/framework/china-five-year-plan.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/hong-kong-five-year-plan.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: the Hong Kong Five-Year Plan, 2026–2030, on the framework shelf with the China, India, South Korea and Soviet plans. Filed as a Plan — the first round of a planning instrument in a polity whose doctrine was positive non-interventionism — with the instruction that one round is a plan, not yet an instrument, and the Strategic Planning Instrument reading kept as prose until renewal happens. Decomposition covers how it is published (full text, highlights/fact sheets, infographics and webcast), the seven parts, and the frames it inherits rather than creates (the Four Centres and talent hub from the national 14th plan, the national 15th plan that fixes the horizon, the Greater Bay Area outline). Then the institutional turn: an assigned national position, a land and housing programme too large for an annual budget cycle, and a standing integration commitment all pull toward a horizon longer than the fiscal year. The note refuses to reproduce figures it cannot check and instead names the three things that decide whether the plan is real: quantified targets, named machinery, and a second round.",
-    "commit": "d02e53047d53df006c187423caecbcc5ab866063"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/india-five-year-plan.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/informe/framework/social-region-change-toolkit-foundation.md",
   "logs": [
    {
@@ -82383,42 +82330,6 @@
     "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
     "commit": "309bf67e367e361856f3a69db25461c8d1894617",
     "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/south-korea-five-year-plan.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/soviet-five-year-plan.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
    },
    {
     "date": "2026-11-20",
@@ -82481,355 +82392,7 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/informe/medical-scientist-training-program.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the knowledge-system and research-system links after both moved to dynamic/knowledge/."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New social note: the NIH Medical Scientist Training Program as an instance of the Program type (Public Program to Training Program). States the objective (the physician-scientist workforce), the NIGMS training office, the member MD-PhD programs and allied-institution arrangements, the T32 envelope and the student award, and the review and admissions governance; adds the 1964 origin and LEAD MSTP history, the admissions and funding table, the outcomes reading, and the non-MSTP and allied cases.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a",
-    "before": "73a5695a2f9f93066c551e1eb334be8e02b5b2f6"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move to the informe shelf: it is a program instance (a case), not an action-organization type.",
-    "commit": "a2fa2fcf8ca0bfc071413216fd30c42e28fd2ffd"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-2030-agenda-for-sustainable-development.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-brazil-agricultural-industry.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-china-go-global.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-china-national-key-technologies-rd-program.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-china-program-863.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-china-program-973.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-emergence-of-sweden-textile-productive.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-invest-2035-the-uks-modern-industrial.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-nova-industria-brasil.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-singapore-tecnoproductive-development.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study-sweden-industrilization.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/informe/policy/case-study.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/china-financing-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/china-industrial-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/china-infrastructure-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/china-innovation-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/estrategia-de-desarrollo-industrial-de-canarias-20.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/eu-smart-specialisation-strategy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/finland-innovation-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/israel-innovation-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/korean-trade-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/materials-genome-initiative.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "Reference retargeted: the host unit the governance regime binds was linked to Laboratory, whose note was retired into Research Actor; the link now points at Research Actor.",
-    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
-    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/programa-gripen-brasileiro.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement.",
-    "commit": "4a71469ce9cced529f2b54c1bcd28ad8f04e8cf1"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/specialized-smes-program.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/principle/t-paps.md",
   "logs": [
    {
     "date": "2026-11-20",
@@ -82885,6 +82448,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the shelf note at the new instance/ directory."
    }
   ]
  },
@@ -82942,6 +82510,603 @@
     "summary": "Retarget the Domain links to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/analisis-ley-1-12-estrategia-nacional-de-desarrollo.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-2030-agenda-for-sustainable-development.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-brazil-agricultural-industry.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-china-go-global.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-china-national-key-technologies-rd-program.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-china-program-863.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-china-program-973.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-emergence-of-sweden-textile-productive.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-innovation-fund-for-small-and-medium-technology-based-firms-innofund-program.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-invest-2035-the-uks-modern-industrial.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-nova-industria-brasil.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-singapore-tecnoproductive-development.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/case-study-sweden-industrilization.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/china-financing-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/china-five-year-plan.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/china-industrial-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/china-infrastructure-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/china-innovation-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/estrategia-de-desarrollo-industrial-de-canarias-20.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/eu-smart-specialisation-strategy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/finland-innovation-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/hong-kong-five-year-plan.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the Hong Kong Five-Year Plan, 2026–2030, on the framework shelf with the China, India, South Korea and Soviet plans. Filed as a Plan — the first round of a planning instrument in a polity whose doctrine was positive non-interventionism — with the instruction that one round is a plan, not yet an instrument, and the Strategic Planning Instrument reading kept as prose until renewal happens. Decomposition covers how it is published (full text, highlights/fact sheets, infographics and webcast), the seven parts, and the frames it inherits rather than creates (the Four Centres and talent hub from the national 14th plan, the national 15th plan that fixes the horizon, the Greater Bay Area outline). Then the institutional turn: an assigned national position, a land and housing programme too large for an annual budget cycle, and a standing integration commitment all pull toward a horizon longer than the fiscal year. The note refuses to reproduce figures it cannot check and instead names the three things that decide whether the plan is real: quantified targets, named machinery, and a second round.",
+    "commit": "d02e53047d53df006c187423caecbcc5ab866063"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/india-five-year-plan.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/israel-innovation-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/korean-trade-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/materials-genome-initiative.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Reference retargeted: the host unit the governance regime binds was linked to Laboratory, whose note was retired into Research Actor; the link now points at Research Actor.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/medical-scientist-training-program.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the knowledge-system and research-system links after both moved to dynamic/knowledge/."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New social note: the NIH Medical Scientist Training Program as an instance of the Program type (Public Program to Training Program). States the objective (the physician-scientist workforce), the NIGMS training office, the member MD-PhD programs and allied-institution arrangements, the T32 envelope and the student award, and the review and admissions governance; adds the 1964 origin and LEAD MSTP history, the admissions and funding table, the outcomes reading, and the non-MSTP and allied cases.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a",
+    "before": "73a5695a2f9f93066c551e1eb334be8e02b5b2f6"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the informe shelf: it is a program instance (a case), not an action-organization type.",
+    "commit": "a2fa2fcf8ca0bfc071413216fd30c42e28fd2ffd"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/programa-gripen-brasileiro.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Programa Gripen Brasileiro under the Brazilian policy case studies, typed as a Public Program: the F-X2 competition and the 18 December 2013 selection, the 24 October 2014 contract for 28 Gripen E and 8 Gripen F at 39.3 billion SEK under a subsidised 25-year loan, the US$9 billion compensation package at 1.7 times the order value, Brazil-specific development including the Wide Area Display, the delivery and flight-test phase from 2019, the Gavião Peixoto production line inaugurated in May 2023, and the batch growth from 36 to 40, 45 and beyond against the 108-aircraft requirement.",
+    "commit": "4a71469ce9cced529f2b54c1bcd28ad8f04e8cf1"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/south-korea-five-year-plan.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/soviet-five-year-plan.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/specialized-smes-program.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/t-paps.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
    }
   ]
  },
