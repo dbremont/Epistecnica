@@ -76651,7 +76651,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the sōgō shōsha, keiretsu, merchant and intermediation literature, and link the related actor, market, trade, Japan and logistics notes."
+    "summary": "Add the sōgō shōsha, keiretsu, merchant and intermediation literature, and link the related actor, market, trade, Japan and logistics notes.",
+    "commit": "dbe5f259f2aecbef880389160185c8288ae29662",
+    "before": "193de97d3d44d9f6b60bf4b20e2f1636f278c107"
    }
   ]
  },
