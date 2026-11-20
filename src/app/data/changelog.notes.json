@@ -70997,7 +70997,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the plural branch at koinomia/collective/."
+    "summary": "Point the plural branch at koinomia/collective/.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
+    "before": "e6f148875e5bd2917fec70db30627c154455b65f"
    }
   ]
  },
@@ -76257,7 +76259,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the plural branch at koinomia/collective/."
+    "summary": "Point the plural branch at koinomia/collective/.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
+    "before": "e6f148875e5bd2917fec70db30627c154455b65f"
    }
   ]
  },
@@ -88482,7 +88486,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88530,7 +88535,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88553,7 +88559,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88581,7 +88588,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88604,7 +88612,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88635,7 +88644,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88671,7 +88681,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88716,7 +88727,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88739,7 +88751,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88769,7 +88782,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88791,7 +88805,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88813,7 +88828,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88829,7 +88845,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -88852,7 +88869,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
    }
   ]
  },
@@ -91231,7 +91249,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Collective section linking the social compound branch."
+    "summary": "Add the Collective section linking the social compound branch.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
+    "before": "e6f148875e5bd2917fec70db30627c154455b65f"
    }
   ]
  },
