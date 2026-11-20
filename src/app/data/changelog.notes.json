@@ -85841,7 +85841,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the public-organization instances: a Riksdag committee is a public organization, not a legislature."
+    "summary": "Move to the public-organization instances: a Riksdag committee is a public organization, not a legislature.",
+    "commit": "b06521e132f32e2ea83a2b8268e469d2231a4652"
    }
   ]
  },
@@ -92500,7 +92501,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Representation Systems link to the governance shelf."
+    "summary": "Retarget the Representation Systems link to the governance shelf.",
+    "commit": "b06521e132f32e2ea83a2b8268e469d2231a4652",
+    "before": "0e2b415dba51dd018f917c48ce0bbaae4aed41d3"
    }
   ]
  },
@@ -92753,7 +92756,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Representation Systems link to the governance shelf."
+    "summary": "Retarget the Representation Systems link to the governance shelf.",
+    "commit": "b06521e132f32e2ea83a2b8268e469d2231a4652",
+    "before": "0e2b415dba51dd018f917c48ce0bbaae4aed41d3"
    }
   ]
  },
@@ -92948,7 +92953,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to governance: the representation system is an accountability design, not an actor."
+    "summary": "Move to governance: the representation system is an accountability design, not an actor.",
+    "commit": "b06521e132f32e2ea83a2b8268e469d2231a4652"
    }
   ]
  },
@@ -94035,7 +94041,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Representation Systems link to the governance shelf."
+    "summary": "Retarget the Representation Systems link to the governance shelf.",
+    "commit": "b06521e132f32e2ea83a2b8268e469d2231a4652",
+    "before": "0e2b415dba51dd018f917c48ce0bbaae4aed41d3"
    }
   ]
  },
