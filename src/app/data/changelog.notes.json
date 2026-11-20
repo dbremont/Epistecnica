@@ -47137,7 +47137,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Language link to the language shelf."
+    "summary": "Retarget the Language link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -47210,7 +47212,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Name link to the language shelf."
+    "summary": "Retarget the Name link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -47249,7 +47253,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Name link to the language shelf."
+    "summary": "Retarget the Name link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -47890,7 +47896,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Name link to the language shelf."
+    "summary": "Retarget the Name link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -48014,7 +48022,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Name link to the language shelf."
+    "summary": "Retarget the Name link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -48832,7 +48842,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add Language to the human index."
+    "summary": "Add Language to the human index.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
@@ -48934,7 +48946,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -48956,7 +48969,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -48978,7 +48992,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49000,7 +49015,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49022,7 +49038,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49044,7 +49061,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49066,7 +49084,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49088,7 +49107,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49110,7 +49130,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49132,7 +49153,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49153,7 +49175,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49175,7 +49198,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49204,7 +49228,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49226,7 +49251,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49248,7 +49274,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49270,7 +49297,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the human language shelf."
+    "summary": "Move into the human language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973"
    }
   ]
  },
@@ -49951,7 +49979,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Name link to the language shelf."
+    "summary": "Retarget the Name link to the language shelf.",
+    "commit": "9b057b0756d49c55587b4e66cb4f10b4409da973",
+    "before": "7294c70d0b9b6f2c2bad33a31cb9e501057298ed"
    }
   ]
  },
