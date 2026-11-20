@@ -62,4 +62,4 @@ Readable secondarily as an `Interaction Unit` (a bounded entity capable of inter
 - [Sovereignty](/view.html?p=notes/social/koinomia/collective/sovereignty.md) — the property of a polity this note grades as Dependent Standing
 - [Polity](https://en.wikipedia.org/wiki/Polity)
 - [State (polity)](https://en.wikipedia.org/wiki/State_(polity))
-- [Representation Systems](/view.html?p=notes/social/koinomia/actor/legislature/representation-systems.md) — the design space: how many representatives, selected how, at which level
+- [Representation Systems](/view.html?p=notes/social/koinomia/governance/representation-systems.md) — the design space: how many representatives, selected how, at which level

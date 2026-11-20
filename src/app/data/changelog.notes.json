@@ -85810,6 +85810,42 @@
   ]
  },
  {
+  "file_path": "social/koinomia/actor/instance/administration/committee-of-ways-and-means.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch.",
+    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
+    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the public-organization instances: a Riksdag committee is a public organization, not a legislature."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/actor/instance/administration/government-accountability-office.md",
   "logs": [
    {
@@ -88693,75 +88729,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/actor/legislature/representation-systems.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New legislature note: the design space of political representation. Separates the representative from the executive civil service as two accountability technologies; answers how to reduce the number of representatives with a mechanism table (larger districts, indirect selection, functional representation, unicameralism, sortition, delegation upward) and the point that the headcount is a function of the selection rule; works the city-as-fundamental-entity proposal with a downside table (second-order election, aggregation distortion, accountability dilution, elite cartelisation, scale mismatch, responsiveness lag) against the real counter-case of the Bundesrat and the pre-1913 Senate; and gives the city governance and city representation model tables. Keeps the two design questions open.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the civil-service link to the governance shelf.",
-    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
-    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the polity links to the collective branch.",
-    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
-    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
-    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
-    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/legislature/swe/committee-of-ways-and-means.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Swedish Standing Committee of Ways and Means (Bevillningsutskottet, 1809-1970) as the first instance of the new Committee kind: the Age of Liberty taxation deputation and the committee first named at the Riksdag of 1800, the 1810 Act's twelve members per estate, the post-1866 bicameral 20 elected half by each chamber, the section 37 composition and section 40 duty to calculate revenue and propose the balance, the initiative right confined to taxation, the two divisions, the mid-century fiscal-year tax report, and the 1970 replacement by the Committee on Taxation.",
-    "commit": "d087333df006fa5b289979e758f1df403a5744ff"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the polity links to the collective branch.",
-    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
-    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
-    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
-    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/actor/readme.md",
   "logs": [
    {
@@ -88829,6 +88796,11 @@
     "summary": "Absorb public-organization.md: the shelf master becomes Public Actor, carrying the type definition, the decomposition and the index.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Representation Systems link to the governance shelf."
    }
   ]
  },
@@ -92524,6 +92496,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Representation Systems link to the governance shelf."
    }
   ]
  },
@@ -92772,6 +92749,11 @@
     "kind": "refactor",
     "summary": "Move to the governance shelf: the machinery is not an actor type.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Representation Systems link to the governance shelf."
    }
   ]
  },
@@ -92924,6 +92906,49 @@
     "summary": "Retarget the Public Employee link to the type shelf.",
     "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
     "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/representation-systems.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New legislature note: the design space of political representation. Separates the representative from the executive civil service as two accountability technologies; answers how to reduce the number of representatives with a mechanism table (larger districts, indirect selection, functional representation, unicameralism, sortition, delegation upward) and the point that the headcount is a function of the selection rule; works the city-as-fundamental-entity proposal with a downside table (second-order election, aggregation distortion, accountability dilution, elite cartelisation, scale mismatch, responsiveness lag) against the real counter-case of the Bundesrat and the pre-1913 Senate; and gives the city governance and city representation model tables. Keeps the two design questions open.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the civil-service link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch.",
+    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
+    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to governance: the representation system is an accountability design, not an actor."
    }
   ]
  },
@@ -94006,6 +94031,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Representation Systems link to the governance shelf."
    }
   ]
  },

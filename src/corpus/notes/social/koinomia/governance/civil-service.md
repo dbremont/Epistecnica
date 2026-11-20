@@ -446,5 +446,5 @@ Los cargos que generalmente se eligen o se accede mediante un tribunal de oposic
 - https://commonslibrary.parliament.uk/research-briefings/cbp-10819/?utm_source=chatgpt.com
 - [ ]  https://en.wikipedia.org/wiki/Scholar-official
 - [ ]  https://en.wikipedia.org/wiki/Nine-rank_system
-- [Representation Systems](/view.html?p=notes/social/koinomia/actor/legislature/representation-systems.md) — the design space: how many representatives, selected how, at which level
+- [Representation Systems](/view.html?p=notes/social/koinomia/governance/representation-systems.md) — the design space: how many representatives, selected how, at which level
 - [Kolvani & Nistotskaya (2025) — Meritocratic recruitment: competence and impartiality](/view.html?p=documents/papers/kolvani-nistotskaya-2025-meritocratic-recruitment.md) — the two mechanisms the note separates

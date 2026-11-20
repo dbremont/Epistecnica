@@ -169,6 +169,10 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+LEGISLATURE_REPR_OLD = "/corpus/notes/social/koinomia/actor/legislature/representation-systems.md"
+LEGISLATURE_REPR_NEW = "/corpus/notes/social/koinomia/governance/representation-systems.md"
+LEGISLATURE_COMMITTEE_OLD = "/corpus/notes/social/koinomia/actor/legislature/swe/committee-of-ways-and-means.md"
+LEGISLATURE_COMMITTEE_NEW = "/corpus/notes/social/koinomia/actor/instance/administration/committee-of-ways-and-means.md"
 PUBLIC_EMPLOYEE_OLD = "/corpus/notes/social/koinomia/actor/instance/employee.md"
 PUBLIC_EMPLOYEE_NEW = "/corpus/notes/social/koinomia/actor/type/employee.md"
 PUBLIC_ACTOR_OLD = "/corpus/notes/social/koinomia/actor/public-organization.md"
@@ -597,6 +601,14 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == PUBLIC_EMPLOYEE_OLD:
             self._redirect(PUBLIC_EMPLOYEE_NEW)
+            return True
+
+        if path == LEGISLATURE_REPR_OLD:
+            self._redirect(LEGISLATURE_REPR_NEW)
+            return True
+
+        if path == LEGISLATURE_COMMITTEE_OLD:
+            self._redirect(LEGISLATURE_COMMITTEE_NEW)
             return True
 
         if path.startswith(PUBLIC_TYPE_OLD):
