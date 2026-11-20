@@ -29449,6 +29449,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the toolkit link to the guidance shelf."
    }
   ]
  },
@@ -77140,6 +77145,22 @@
   ]
  },
  {
+  "file_path": "social/dynamic/action/guidance/change-framework.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/action/guidance/doctrine.md",
   "logs": [
    {
@@ -77248,6 +77269,29 @@
     "summary": "Repair the note's links after the corpus reorganisation: retarget the moved notes to their new paths and drop the links whose targets no longer exist.",
     "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
     "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/guidance/social-region-change-toolkit-foundation.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
+    "commit": "309bf67e367e361856f3a69db25461c8d1894617",
+    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the guidance shelf: a framework is action guidance, not an informe."
    }
   ]
  },
@@ -82294,6 +82338,22 @@
   ]
  },
  {
+  "file_path": "social/koinomia/action/informe/case-study.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Flatten: the case-study method joins the informe shelf root."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/action/informe/course-of-honors.md",
   "logs": [
    {
@@ -82301,35 +82361,6 @@
     "kind": "move",
     "summary": "Move from social/actor/public/informe/: the ordered sequence of offices is an instrument of public action, filed with the action informes.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/change-framework.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/framework/social-region-change-toolkit-foundation.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "docs",
-    "summary": "Repair the link to the Social Change note after its move: the note survived under its new name, so the link follows it instead of dying with the old path.",
-    "commit": "309bf67e367e361856f3a69db25461c8d1894617",
-    "before": "1caae08cbe6505df1cbbebffd064727d41bb80ee"
    },
    {
     "date": "2026-11-20",
@@ -82383,17 +82414,6 @@
     "summary": "Move from social/actor/public/informe/: the examination-selected bureaucratic corps is an office of public action, filed with the action informes.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/policy/case-study.md",
-  "logs": [
    {
     "date": "2026-11-20",
     "kind": "move",
@@ -83584,6 +83604,11 @@
     "summary": "Retarget the Policy link to the guidance shelf.",
     "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
     "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the case-study method link to the informe root."
    }
   ]
  },
@@ -83789,6 +83814,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the change-framework and toolkit links to the guidance shelf."
    }
   ]
  },
@@ -83825,6 +83855,11 @@
     "summary": "Retarget the T-PAPS link to the instance shelf.",
     "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
     "before": "33ae077efa5e2ca074b145a963394893e307cf99"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the toolkit link to the guidance shelf."
    }
   ]
  },
@@ -85735,6 +85770,11 @@
     "summary": "Retarget the T-PAPS link to the instance shelf.",
     "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
     "before": "33ae077efa5e2ca074b145a963394893e307cf99"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the toolkit link to the guidance shelf."
    }
   ]
  },
@@ -91305,6 +91345,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the toolkit link to the guidance shelf."
    }
   ]
  },

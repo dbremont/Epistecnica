@@ -181,6 +181,12 @@ MSTP_OLD = "/corpus/notes/social/dynamic/action/organization/medical-scientist-t
 MSTP_NEW = "/corpus/notes/social/koinomia/action/instance/medical-scientist-training-program.md"
 INSTANCE_FROM = "/corpus/notes/social/koinomia/action/informe/"
 INSTANCE_TO = "/corpus/notes/social/koinomia/action/instance/"
+INFORME_FLAT = "/corpus/notes/social/koinomia/action/informe/"
+GUIDANCE_DIR = "/corpus/notes/social/dynamic/action/guidance/"
+INFORME_FRAMEWORK = {
+    "change-framework.md",
+    "social-region-change-toolkit-foundation.md",
+}
 INSTANCE_MOVED = {
     "case-study-2030-agenda-for-sustainable-development.md",
     "case-study-brazil-agricultural-industry.md",
@@ -561,6 +567,16 @@ class HubHandler(SimpleHTTPRequestHandler):
             name = rest.split("/")[-1]
             if name in INSTANCE_MOVED:
                 self._redirect(INSTANCE_TO + name)
+                return True
+
+        if path == INFORME_FLAT + "policy/case-study.md":
+            self._redirect(INFORME_FLAT + "case-study.md")
+            return True
+
+        if path.startswith(INFORME_FLAT + "framework/"):
+            name = path.split("/")[-1]
+            if name in INFORME_FRAMEWORK:
+                self._redirect(GUIDANCE_DIR + name)
                 return True
 
         if path.startswith(HUMAN_LANGUAGE_MODEL):

@@ -13,4 +13,4 @@ tags: [note, unfinished]
 - [Technology](/view.html?p=notes/technica/meta/tecnica.md)
 - [Agency - Locus Instrumentorum](../../social/koinomia/action/agency.md)
 - [Social Ontology · Change](/view.html?p=notes/social/dynamic/social-change.md)
-- [Social Region Change Toolkit Foundation](/view.html?p=notes/social/koinomia/action/informe/framework/social-region-change-toolkit-foundation.md)
+- [Social Region Change Toolkit Foundation](/view.html?p=notes/social/dynamic/action/guidance/social-region-change-toolkit-foundation.md)
