@@ -71235,7 +71235,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -71338,7 +71340,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -71470,7 +71474,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -76254,7 +76260,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move to the actor shelf as a Publishing Organization; retype from the Social Compound reading to the journal organization."
+    "summary": "Move to the actor shelf as a Publishing Organization; retype from the Social Compound reading to the journal organization.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96"
    }
   ]
  },
@@ -76264,7 +76271,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Publishing shelf master: the publishing-organization kind family and its founding journal."
+    "summary": "Add the Publishing shelf master: the publishing-organization kind family and its founding journal.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96"
    }
   ]
  },
@@ -76532,7 +76540,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -76917,7 +76927,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -76975,7 +76987,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -91343,7 +91357,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -91532,7 +91548,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -91967,7 +91985,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -92405,7 +92425,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
@@ -97280,7 +97302,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf."
+    "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
+    "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
+    "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
    }
   ]
  },
