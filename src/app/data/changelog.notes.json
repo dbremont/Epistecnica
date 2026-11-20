@@ -86236,7 +86236,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the representation labels: Public Organization Representation and Public Organization Comparative System Representation."
+    "summary": "Retarget the representation labels: Public Organization Representation and Public Organization Comparative System Representation.",
+    "commit": "d471a7671d57bb157216c67a42b7dcbba376d66a",
+    "before": "5e859b8e1029437a2c603bc4dd29d8f60a96e7bf"
    }
   ]
  },
