@@ -25,6 +25,11 @@ tags: [note, production]
 | **Sinochem Group**               | China       | Chemicals, Energy, Agriculture            | ✅ Extensive          | ✅ Yes               | ✅ Yes                        | State-owned; strategic industrial operator          |
 | **CNPC International**           | China       | Oil, Gas, Petrochemicals                  | ✅ Extensive          | ✅ Yes               | ❌ Focused                    | Energy state giant; global oil assets               |
 
+## Read it with
+
+- [Trading House](/view.html?p=notes/social/actor/trading-house.md) — the social reading: the sōgō shōsha as an organizational actor, its desks, overseas offices and keiretsu ties.
+- [Commerce](/view.html?p=notes/social/dynamic/trade/commerce-economic-activity.md) — the channel the house operates in.
+
 ## References
 
 - [Trading company](https://en.wikipedia.org/wiki/Trading_company)

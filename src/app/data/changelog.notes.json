@@ -76654,6 +76654,11 @@
     "summary": "Add the sōgō shōsha, keiretsu, merchant and intermediation literature, and link the related actor, market, trade, Japan and logistics notes.",
     "commit": "dbe5f259f2aecbef880389160185c8288ae29662",
     "before": "193de97d3d44d9f6b60bf4b20e2f1636f278c107"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the commerce activity, exchange, international trade, retail and operational trading-house notes; the provenance now points at the technica note."
    }
   ]
  },
@@ -138754,6 +138759,16 @@
     "summary": "References now link the 3D printing note as the additive counterpart.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/commerce/trading.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the social trading-house actor and the commerce activity note."
    }
   ]
  },
