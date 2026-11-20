@@ -767,6 +767,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         # The koinomia shelf was renamed to collective; the old branch level
         # collapses, so collective/ paths lose that segment.
+        if path == "/corpus/notes/social/koinomia":
+            self._redirect("/corpus/notes/social/collective/")
+            return True
+
         if path == "/corpus/notes/social/koinomia/readme.md":
             self._redirect("/corpus/notes/social/collective/koinomia.md")
             return True
