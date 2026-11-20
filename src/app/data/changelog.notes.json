@@ -83455,6 +83455,16 @@
   ]
  },
  {
+  "file_path": "social/koinomia/action/problem/computation/computation-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Computation Policy domain: connectivity, compute, data, digital public infrastructure and cybersecurity."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/action/problem/domain.md",
   "logs": [
    {
@@ -83480,6 +83490,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the labor, market, legal and computation domains to the policy-domain list."
    }
   ]
  },
@@ -83961,6 +83976,36 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/problem/labor/labor-market.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Labor Market policy domain: employment, wages, informality, skills and industrial relations."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/problem/legal/legal-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Legal System domain: property, contract, insolvency and adjudication as growth inputs."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/problem/market/market-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Market Policy domain: competition, consumer protection, market design and access regulation."
    }
   ]
  },

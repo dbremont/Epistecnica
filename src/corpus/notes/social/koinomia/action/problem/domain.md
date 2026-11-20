@@ -22,6 +22,10 @@ order: 3
 9. **Joint Cognition** – Collective knowledge, coordination, and decision-making capabilities of society; underpins strategic alignment and innovation.
 10. **Miscellaneous Social Domains** – Welfare, health, and cultural aspects ensure social stability, resilience, and human development.
 11. **The State** — Used to disambiguate (State Finance vs. Social/Regional Finance).
+12. **Labor Market** – Employment, wages, informality and skills; how the market that prices labour works.
+13. **Market Policy** – Competition, consumer protection and market design; keeping markets contestable.
+14. **Legal System** – Property, contract and insolvency; the legal order that makes investment enforceable.
+15. **Computation Policy** – Connectivity, compute, data and e-government; the digital general-purpose infrastructure.
 
 ## Actor Set
 
