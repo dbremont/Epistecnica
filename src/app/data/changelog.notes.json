@@ -77335,7 +77335,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc",
+    "before": "edefac71c0526dc6fa464d0c71772ff7efc89e90"
    }
   ]
  },
@@ -77766,7 +77768,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc",
+    "before": "edefac71c0526dc6fa464d0c71772ff7efc89e90"
    }
   ]
  },
@@ -77807,7 +77811,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move into the informe shelf as its report-kind master, beside the country-report instances."
+    "summary": "Move into the informe shelf as its report-kind master, beside the country-report instances.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc"
    }
   ]
  },
@@ -86463,7 +86468,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc",
+    "before": "edefac71c0526dc6fa464d0c71772ff7efc89e90"
    }
   ]
  },
@@ -86507,7 +86514,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc",
+    "before": "edefac71c0526dc6fa464d0c71772ff7efc89e90"
    }
   ]
  },
@@ -91425,7 +91434,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link."
+    "summary": "File the Report kind master in the informe shelf and drop the dangling programme link.",
+    "commit": "ff0b63c0f96c3c509f1b2613692f004dc2039fcc",
+    "before": "edefac71c0526dc6fa464d0c71772ff7efc89e90"
    }
   ]
  },
