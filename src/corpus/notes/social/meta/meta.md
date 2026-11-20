@@ -16,7 +16,6 @@ tags: [note, social, social-ontology, meta]
 | [Social Ontology](/view.html?p=notes/social/meta/social-ontology.md) | What the elements of social reality are, and the formalism that types them. |
 | [Social Element Types](/view.html?p=notes/social/meta/social-element-types.md) | What element types the corpus types against, the categories its notes declare, and which of them the guide licenses. |
 | [Structure](/view.html?p=notes/social/meta/structure.md) | Why *structure* is an analytical construct rather than an element type, and what the structural reading still has to explain. |
-| [Region](/view.html?p=notes/social/meta/region.md) | The spatial delimitation concept — paired with Facet, and the scale ladder a region is read on. |
 | [Multi Layer](/view.html?p=notes/social/meta/multi-layer.md) | The element that inhabits more than one analytical layer at once — ontic and synontic, for instance. |
 | [Reflexivity](/view.html?p=notes/social/meta/reflexivity.md) | The fact that agents interpret the structures they are part of, and thereby alter them. |
 | [Contingency](/view.html?p=notes/social/meta/contingency.md) | The fact that a social arrangement could have been otherwise, so that its persistence needs explaining. |

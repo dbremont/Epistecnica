@@ -373,12 +373,6 @@
    "kind": "related"
   },
   {
-   "from": "social/koinomia/polity/",
-   "to": "social/observation/state/",
-   "label": "State",
-   "kind": "related"
-  },
-  {
    "from": "social/actor/public/",
    "to": "social/koinomia/action/",
    "label": "Action",

@@ -71008,6 +71008,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Region links to the koinomia shelf."
    }
   ]
  },
@@ -71393,6 +71398,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/interaction-unit.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from social/unit.md to actor/ and name the file for the Interaction Unit element."
    }
   ]
  },
@@ -76620,6 +76635,16 @@
   ]
  },
  {
+  "file_path": "social/coordinator/capital-labor/capital.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from social/capital.md to coordinator/capital-labor/ in the social shelf cleanup."
+   }
+  ]
+ },
+ {
   "file_path": "social/coordinator/capital-labor/labor.md",
   "logs": [
    {
@@ -76628,6 +76653,11 @@
     "summary": "References now link Cyert & Mowery on technology, employment and the compensation argument.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from social/labor.md to coordinator/capital-labor/ in the social shelf cleanup."
    }
   ]
  },
@@ -88950,6 +88980,11 @@
     "kind": "feat",
     "summary": "Add the polity instance sub-shelf master.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the World link after world.md moved to the koinomia shelf root."
    }
   ]
  },
@@ -89439,13 +89474,18 @@
   ]
  },
  {
-  "file_path": "social/koinomia/polity/world.md",
+  "file_path": "social/koinomia/world.md",
   "logs": [
    {
     "date": "2026-11-20",
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move from social/koinomia/polity/ to the koinomia shelf root."
    }
   ]
  },
@@ -89457,6 +89497,11 @@
     "kind": "feat",
     "summary": "Add the koinomia shelf master with the public/commons definition and philosophy of commons.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add World and Region to the shelf index; record the open conceptual framing questions."
    }
   ]
  },
@@ -89627,6 +89672,11 @@
     "summary": "Collapse the duplicate Facet / Facet Scope rows into one Facet row, and drop the Facet Scope reference.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
     "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Remove the Region row; Region now lives at the koinomia shelf root."
    }
   ]
  },
@@ -89685,12 +89735,17 @@
   ]
  },
  {
-  "file_path": "social/meta/region.md",
+  "file_path": "social/koinomia/region.md",
   "logs": [
    {
     "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/structural/region/region.md, absorbing the Geography section of the sibling stub: Region is the spatial delimitation concept paired with Facet, and the city reading points at the actor shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move from social/region.md into the koinomia shelf; Region is the spatial delimitation concept of the public order."
    }
   ]
  },
@@ -89736,6 +89791,16 @@
     "kind": "move",
     "summary": "Move from social/structural/structure.md, and absorb the one-line Hierarchy note: the social section no longer keeps a structural shelf, because this note argues structure is an analytical construct rather than an element type.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   }
+  ]
+ },
+ {
+  "file_path": "social/noetic/industry.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from social/industry.md to noetic/, the shelf for classificatory instruments."
    }
   ]
  },

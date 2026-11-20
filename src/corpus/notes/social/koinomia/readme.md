@@ -8,6 +8,14 @@ tags: [note, social, koinomia, commons, catalog]
 
 The term is a corpus coinage from *koinos* (common) and *nomos* (law, management). It names the public arrangement through which a community governs what it holds in common, not a general theory of institutions.
 
+How should we conceptualize the state, rules, Koinomia, the commons, and related concepts?
+
+- **Interaction Ecosystem** (Shared Resources, Joint Action Rules)
+- **Actor Set**
+- **Agency Realization** (Enabling the Agency of Each Actor)
+- **Collective Constitution** (Aggregate, Collection, Association, Community, Society, Polity, etc.)
+-  Political Regime ? 
+
 ## Philosophy of Commons
 
 The commons is not a kind of good but a regime of access, use, and responsibility: a set of shared resources — land, water, fisheries, forests, knowledge, infrastructure, attention — held and governed under rules that distribute rights and duties among the people who depend on them. Its central question is not who owns the resource in the exclusive sense, but who may use it, on what terms, and who bears the costs of maintaining it.
@@ -26,6 +34,11 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 ## Instance
 
 - [Instance](/view.html?p=notes/social/koinomia/polity/instance/readme.md) — the country, city-state, and historical polity instance directories of the atlas.
+
+## World and Region
+
+- [World](/view.html?p=notes/social/koinomia/world.md) — Planet Earth, the planetary frame of the corpus; still unfinished.
+- [Region](/view.html?p=notes/social/koinomia/region.md) — the spatial delimitation concept: a bounded area of denser internal interaction.
 
 ## Actor
 
