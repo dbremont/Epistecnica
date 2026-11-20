@@ -69,7 +69,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### Which Canonical Characterization System Should We Use?
 
-> See in [Atlas of Public Organization Comparative Representation Systems -- Model-Derived Set](/corpus/notes/social/representation/public-organization-characterization-systems.html#model-derived).
+> See in [Public Organization Comparative System Representation — Model-Derived Set](/corpus/notes/social/representation/public-organization-characterization-systems.html#model-derived).
 
 ### How to evaluation and monitor them?
 
@@ -91,7 +91,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 > The resulting characterization should enable individual organizations to be described consistently, organizational types to be distinguished systematically, and the organization space to be analyzed as a structured domain.
 
-> This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organizations Compared](/corpus/notes/social/representation/public-organization.html).
+> This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Public Organization Comparative System Representation](/corpus/notes/social/representation/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organization Representation](/corpus/notes/social/representation/public-organization.html).
 
 ### How can the degree of separation between policy formulation and operational execution be characterized, measured, and evaluated in relation to an organization's overall performance?
 
@@ -140,8 +140,8 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ## References
 
-- [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html)
-- [Public Organizations Compared](/corpus/notes/social/representation/public-organization.html)
+- [Public Organization Comparative System Representation](/corpus/notes/social/representation/public-organization-characterization-systems.html)
+- [Public Organization Representation](/corpus/notes/social/representation/public-organization.html)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Board](/view.html?p=notes/social/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
@@ -161,8 +161,8 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ## Atlas
 
-- [Public Organization Atlas](/corpus/notes/social/representation/public-organization.html)
-- [Public Organization Characterization Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html)
+- [Public Organization Representation](/corpus/notes/social/representation/public-organization.html)
+- [Public Organization Comparative System Representation](/corpus/notes/social/representation/public-organization-characterization-systems.html)
 
 ## Read it with
 

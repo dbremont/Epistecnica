@@ -86232,6 +86232,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the representation labels: Public Organization Representation and Public Organization Comparative System Representation."
    }
   ]
  },
