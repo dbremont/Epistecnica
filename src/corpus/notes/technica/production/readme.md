@@ -131,7 +131,7 @@ tags: [note, production]
 
 ## References
 
-- [Good Nomenclature System](/view.html?p=notes/epistemica/singular/production-research/data/nomenclature.md)
+- [Good Nomenclature System](/view.html?p=notes/epistemica/singular/industry/data/nomenclature.md)
 - Technology Catalog
 - [Good Catalog](/view.html?p=notes/social/good/readme.md)
 - [Product](https://en.wikipedia.org/wiki/Product_(business))
@@ -143,6 +143,6 @@ tags: [note, production]
 - [Arbitriologia](https://github.com/csiglab/Arbitriologia)
 - [Produceologia](https://github.com/csiglab/Produceologia)
 - [Boston Consulting Group](https://www.bcg.com/)
-- [MIT Industrial Performance Center](https://ipc.mit.edu/)
-- [The Productivity Institute](https://www.productivity.ac.uk/)
-- [Institute for Manufacturing (IfM)](https://www.ifm.eng.cam.ac.uk/)
+- [MIT Industrial Performance Center (IPC)](/view.html?p=notes/social/actor/private/research/usa/mit-industrial-performance-center.md)
+- [The Productivity Institute (TPI)](/view.html?p=notes/social/actor/private/research/gbr/the-productivity-institute.md)
+- [Institute for Manufacturing (IfM)](/view.html?p=notes/social/actor/private/research/gbr/institute-for-manufacturing.md)

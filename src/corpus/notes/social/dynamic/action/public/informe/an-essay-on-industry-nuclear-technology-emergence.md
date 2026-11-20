@@ -138,7 +138,18 @@ The country sections are grouped by path, not ranked. Each section follows the s
 
 - Michanek, G., & Söderholm, P. (2009). Licensing of nuclear power plants: The case of Sweden in an international comparison. *Energy Policy, 37*(10), 4086–4097. https://doi.org/10.1016/j.enpol.2009.04.051
 - Qvist, S. A., & Brook, B. W. (2015). Environmental and health impacts of a policy to phase out nuclear power in Sweden. *Energy Policy, 84*, 1–10. https://doi.org/10.1016/j.enpol.2015.04.023
-
+- Fjaestad, M., & Jonter, T. (2008). The rise of the nuclear system of innovation in Sweden. CESIS Working Paper No. 117, Royal Institute of Technology.
+- Jonter, T. (2010). The Swedish plans to acquire nuclear weapons, 1945–1968: An analysis of the technical preparations. Science & Global Security, 18(2), 61–86. https://doi.org/10.1080/08929882.2010.486722
+- Michanek, G., & Söderholm, P. (2009). Licensing of nuclear power plants: The case of Sweden in an international comparison. Energy Policy, 37(10), 4086–4097. https://doi.org/10.1016/j.enpol.2009.04.051
+- Qvist, S. A., & Brook, B. W. (2015). Environmental and health impacts of a policy to phase out nuclear power in Sweden. Energy Policy, 84, 1–10. https://doi.org/10.1016/j.enpol.2015.04.023
+- Kaiserfeld, T., & Kaijser, A. (2021). Changing the system culture: Mobilizing the social sciences in the Swedish nuclear waste system. Nuclear Technology, 207, 1456–1468. https://doi.org/10.1080/00295450.2020.1832815
+- Lagerlöf, H. (2023). Swedish nuclear waste management as an inert controversy: Using critical constructivism to understand cold technological conflict. Science as Culture, 32(4), 558–582. https://doi.org/10.1080/09505431.2023.2218415
+- Barthe, Y., Elam, M., & Sundqvist, G. (2020). Technological fix or divisible object of collective concern? Histories of conflict over the geological disposal of nuclear waste in Sweden and France. Science as Culture, 29(2), 196–218. https://doi.org/10.1080/09505431.2019.1645108
+- Jonter, T. (2022). Gendering Sweden's nuclear renunciation: A historical analysis. International Affairs. https://doi.org/10.1093/ia/iiac113
+- (2025). The origins of nuclear expertise: The formation of nuclear engineering education in the US and Sweden (1950–1979). Nuclear Technology. https://doi.org/10.1080/00295450.2025.2603803
+- Krayem, A., & Thorin, E. (2024). Sustainability assessment of Sweden's nuclear power: Implications of the new expansion plans. Environment, Development and Sustainability. https://doi.org/10.1007/s10668-024-05219-8
+- Berglund, K. (2026). Delayed and conquered: Phaseout and renaissance of the Swedish nuclear power regime. Energy Research & Social Science, 140, Article 104898. https://doi.org/10.1016/j.erss.2026.104898
+- Sweden. Industridepartementet. (1970). Svensk atomenergipolitik: Motiv och riktlinjer för statens insatser på atomenergiområdet 1947–1970. Allmänna Förlaget, Stockholm. 215 pages.
 
 ## Licensees that indigenized
 

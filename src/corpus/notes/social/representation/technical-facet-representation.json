@@ -24576,6 +24576,526 @@
      }
     ]
    }
+  },
+  {
+   "id": "mit-industrial-performance-center",
+   "name": "MIT Industrial Performance Center (IPC)",
+   "country": "US",
+   "note": "notes/social/actor/private/research/usa/mit-industrial-performance-center.md",
+   "profile": {
+    "type": "university research centre",
+    "country": "United States",
+    "founded": "1992",
+    "ownership": "private",
+    "legal-form": "university research centre",
+    "scale": "interdisciplinary centre",
+    "role": "research performer and convenor",
+    "mandate": "research on industrial performance, manufacturing, productivity, technology adoption and the future of work",
+    "position": "MIT interdisciplinary research centre",
+    "domains": [
+     "manufacturing",
+     "productivity",
+     "automation",
+     "work",
+     "innovation",
+     "technology adoption"
+    ],
+    "sectors": [
+     "research",
+     "industry"
+    ],
+    "disciplines": [
+     "engineering",
+     "management",
+     "social sciences"
+    ],
+    "lifecycle": [
+     "research",
+     "applied research",
+     "testing"
+    ],
+    "dominant-stage": "applied research",
+    "upstream": "MIT",
+    "downstream": "industry, government, universities",
+    "activities": [
+     "research",
+     "experimentation",
+     "convening"
+    ],
+    "research-mode": "interdisciplinary and industry-facing",
+    "development-mode": "applied research",
+    "outputs": [
+     "publications",
+     "reports",
+     "working papers",
+     "policy analysis"
+    ],
+    "flagship-outputs": "Made in America legacy; Work of the Future; manufacturing research",
+    "ip-regime": "university research",
+    "temporal-scope": [
+     "project",
+     "programme"
+    ],
+    "horizon": "medium-term",
+    "continuity": "continuous",
+    "financing": [
+     "university",
+     "foundation",
+     "government",
+     "industry"
+    ],
+    "main-funders": "MIT and project funders",
+    "budget-share": "project-based",
+    "interaction": [
+     "collaboration",
+     "contract research",
+     "convening"
+    ],
+    "partners": "MIT departments, firms, government, universities",
+    "openness": "high",
+    "governance": "MIT",
+    "coordination": "interdisciplinary centre",
+    "autonomy": "high within MIT",
+    "accountability": "MIT and funders",
+    "infrastructure": [
+     "research staff",
+     "data",
+     "convening facilities"
+    ],
+    "people": "faculty, researchers, graduate students",
+    "talent": "MIT students and affiliates",
+    "metrics": [
+     "publications",
+     "reports",
+     "policy uptake"
+    ],
+    "notable": "industry studies and work-of-the-future research",
+    "confidence": "high",
+    "tags": [
+     "country:US",
+     "actor:mit-industrial-performance-center"
+    ],
+    "timeline": [
+     {
+      "date": "1992",
+      "title": "IPC founded",
+      "description": "The MIT Industrial Performance Center is established.",
+      "source": "https://ipc.mit.edu/about-us/",
+      "tags": [
+       "country:US",
+       "actor:mit-industrial-performance-center",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "activityLevels": {
+    "problem-formulation": 7,
+    "basic-research": 6,
+    "exploratory-research": 7,
+    "applied-research": 9,
+    "technical-specification": 6,
+    "development": 5,
+    "technical-examination": 7,
+    "technical-production": 2,
+    "dissemination": 8,
+    "technology-transfer": 5,
+    "adoption": 5,
+    "commercialization": 2,
+    "modification": 3,
+    "adaptation": 4,
+    "improvement": 4,
+    "maintenance": 1,
+    "integration": 5
+   },
+   "detail": {
+    "summary": "MIT research centre studying industrial performance, manufacturing, productivity, technology adoption and the future of work.",
+    "roles": [
+     "Research performer",
+     "Industry studies",
+     "Policy analysis",
+     "Convenor"
+    ],
+    "metrics": {
+     "employees": "interdisciplinary centre",
+     "infrastructures": "MIT research base",
+     "presence": "Global"
+    },
+    "ecosystem": {
+     "universities": [
+      "MIT"
+     ],
+     "research-institutes": [
+      "MIT departments and labs"
+     ],
+     "industry-partners": [
+      "Manufacturing firms"
+     ],
+     "government-programs": [
+      "US federal programmes"
+     ],
+     "technology-infrastructure": [
+      "data",
+      "research facilities"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Corpus note",
+      "url": "/view.html?p=notes/social/actor/private/research/usa/mit-industrial-performance-center.md"
+     },
+     {
+      "label": "MIT IPC",
+      "url": "https://ipc.mit.edu/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "the-productivity-institute",
+   "name": "The Productivity Institute (TPI)",
+   "country": "GB",
+   "note": "notes/social/actor/private/research/gbr/the-productivity-institute.md",
+   "profile": {
+    "type": "research institute",
+    "country": "United Kingdom",
+    "founded": "2020",
+    "ownership": "public",
+    "legal-form": "national research institute",
+    "scale": "UK-wide consortium",
+    "role": "research performer and policy research",
+    "mandate": "research on UK productivity, firms, places, institutions and policy",
+    "position": "ESRC-funded national productivity institute",
+    "domains": [
+     "productivity",
+     "firms",
+     "places",
+     "institutions",
+     "skills",
+     "management",
+     "innovation"
+    ],
+    "sectors": [
+     "research",
+     "policy"
+    ],
+    "disciplines": [
+     "economics",
+     "management",
+     "social sciences"
+    ],
+    "lifecycle": [
+     "research",
+     "evaluation"
+    ],
+    "dominant-stage": "applied research",
+    "upstream": "ESRC, University of Manchester",
+    "downstream": "government, firms, regions",
+    "activities": [
+     "research",
+     "evaluation",
+     "convening",
+     "policy engagement"
+    ],
+    "research-mode": "applied and policy-oriented",
+    "development-mode": "research",
+    "outputs": [
+     "reports",
+     "working papers",
+     "data",
+     "policy briefs"
+    ],
+    "flagship-outputs": "International Productivity Monitor; Productivity Lab; regional forums",
+    "ip-regime": "research outputs",
+    "temporal-scope": [
+     "programme",
+     "project"
+    ],
+    "horizon": "medium-term",
+    "continuity": "continuous",
+    "financing": [
+     "research council grant"
+    ],
+    "main-funders": "ESRC",
+    "budget-share": "core grant plus partners",
+    "interaction": [
+     "collaboration",
+     "convening",
+     "policy engagement"
+    ],
+    "partners": "ten academic partners; regional forums",
+    "openness": "high",
+    "governance": "University of Manchester and ESRC",
+    "coordination": "UK-wide consortium",
+    "autonomy": "academic",
+    "accountability": "ESRC and university",
+    "infrastructure": [
+     "research staff",
+     "data lab",
+     "regional forums"
+    ],
+    "people": "economists, management researchers, policy staff",
+    "talent": "academic partners",
+    "metrics": [
+     "publications",
+     "policy impact",
+     "data"
+    ],
+    "notable": "UK productivity research and regional forums",
+    "confidence": "high",
+    "tags": [
+     "country:GB",
+     "actor:the-productivity-institute"
+    ],
+    "timeline": [
+     {
+      "date": "2020-09",
+      "title": "TPI established",
+      "description": "The Productivity Institute starts as an ESRC-funded UK-wide research organisation.",
+      "source": "https://www.productivity.ac.uk/about-us/",
+      "tags": [
+       "country:GB",
+       "actor:the-productivity-institute",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "activityLevels": {
+    "problem-formulation": 8,
+    "basic-research": 5,
+    "exploratory-research": 6,
+    "applied-research": 9,
+    "technical-specification": 5,
+    "development": 4,
+    "technical-examination": 7,
+    "technical-production": 1,
+    "dissemination": 8,
+    "technology-transfer": 4,
+    "adoption": 4,
+    "commercialization": 1,
+    "modification": 2,
+    "adaptation": 3,
+    "improvement": 3,
+    "maintenance": 1,
+    "integration": 4
+   },
+   "detail": {
+    "summary": "UK-wide research institute studying productivity, firms, places, institutions and policy.",
+    "roles": [
+     "Research performer",
+     "Policy research",
+     "Convenor"
+    ],
+    "metrics": {
+     "employees": "UK-wide consortium",
+     "infrastructures": "Productivity Lab; regional forums",
+     "presence": "United Kingdom"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Manchester",
+      "academic partners"
+     ],
+     "research-institutes": [
+      "TPI research network"
+     ],
+     "industry-partners": [
+      "Business partners"
+     ],
+     "government-programs": [
+      "ESRC"
+     ],
+     "technology-infrastructure": [
+      "Productivity Lab",
+      "data"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Corpus note",
+      "url": "/view.html?p=notes/social/actor/private/research/gbr/the-productivity-institute.md"
+     },
+     {
+      "label": "TPI",
+      "url": "https://www.productivity.ac.uk/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "institute-for-manufacturing",
+   "name": "Institute for Manufacturing (IfM)",
+   "country": "GB",
+   "note": "notes/social/actor/private/research/gbr/institute-for-manufacturing.md",
+   "profile": {
+    "type": "university research centre",
+    "country": "United Kingdom",
+    "founded": "1998",
+    "ownership": "private",
+    "legal-form": "university research institute",
+    "scale": "departmental research institute",
+    "role": "research, education and knowledge transfer",
+    "mandate": "manufacturing research, education and engagement",
+    "position": "University of Cambridge Department of Engineering",
+    "domains": [
+     "manufacturing",
+     "industrial systems",
+     "technology management",
+     "supply chains",
+     "sustainability",
+     "innovation policy"
+    ],
+    "sectors": [
+     "research",
+     "manufacturing"
+    ],
+    "disciplines": [
+     "engineering",
+     "management",
+     "social sciences"
+    ],
+    "lifecycle": [
+     "research",
+     "education",
+     "knowledge transfer"
+    ],
+    "dominant-stage": "applied research",
+    "upstream": "University of Cambridge",
+    "downstream": "firms, government, universities",
+    "activities": [
+     "research",
+     "education",
+     "knowledge transfer",
+     "policy engagement"
+    ],
+    "research-mode": "engineering and management",
+    "development-mode": "applied research and roadmapping",
+    "outputs": [
+     "publications",
+     "tools",
+     "education",
+     "policy analysis"
+    ],
+    "flagship-outputs": "IfM Engage; manufacturing education; roadmapping",
+    "ip-regime": "university research",
+    "temporal-scope": [
+     "programme",
+     "project"
+    ],
+    "horizon": "medium-term",
+    "continuity": "continuous",
+    "financing": [
+     "university",
+     "industry",
+     "government"
+    ],
+    "main-funders": "University of Cambridge and project funders",
+    "budget-share": "mixed",
+    "interaction": [
+     "collaboration",
+     "contract research",
+     "education",
+     "convening"
+    ],
+    "partners": "firms, governments, universities",
+    "openness": "high",
+    "governance": "University of Cambridge",
+    "coordination": "research groups and centres",
+    "autonomy": "academic",
+    "accountability": "University and funders",
+    "infrastructure": [
+     "laboratories",
+     "research groups",
+     "teaching facilities"
+    ],
+    "people": "faculty, researchers, students",
+    "talent": "Cambridge students and industry participants",
+    "metrics": [
+     "publications",
+     "education",
+     "industry engagement"
+    ],
+    "notable": "manufacturing research and IfM Engage",
+    "confidence": "high",
+    "tags": [
+     "country:GB",
+     "actor:institute-for-manufacturing"
+    ],
+    "timeline": [
+     {
+      "date": "1998",
+      "title": "IfM founded",
+      "description": "The Institute for Manufacturing is established at Cambridge.",
+      "source": "https://www.ifm.eng.cam.ac.uk/aboutifm/",
+      "tags": [
+       "country:GB",
+       "actor:institute-for-manufacturing",
+       "event:founding"
+      ]
+     }
+    ]
+   },
+   "activityLevels": {
+    "problem-formulation": 7,
+    "basic-research": 5,
+    "exploratory-research": 6,
+    "applied-research": 9,
+    "technical-specification": 7,
+    "development": 6,
+    "technical-examination": 7,
+    "technical-production": 3,
+    "dissemination": 7,
+    "technology-transfer": 8,
+    "adoption": 6,
+    "commercialization": 3,
+    "modification": 4,
+    "adaptation": 4,
+    "improvement": 4,
+    "maintenance": 2,
+    "integration": 6
+   },
+   "detail": {
+    "summary": "Cambridge research institute for manufacturing, industrial systems, technology management and firm engagement.",
+    "roles": [
+     "Research performer",
+     "Education",
+     "Knowledge transfer"
+    ],
+    "metrics": {
+     "employees": "departmental institute",
+     "infrastructures": "laboratories and research groups",
+     "presence": "United Kingdom"
+    },
+    "ecosystem": {
+     "universities": [
+      "University of Cambridge"
+     ],
+     "research-institutes": [
+      "IfM research groups"
+     ],
+     "industry-partners": [
+      "Manufacturing firms"
+     ],
+     "government-programs": [
+      "UK research programmes"
+     ],
+     "technology-infrastructure": [
+      "laboratories",
+      "roadmapping tools"
+     ]
+    },
+    "sources": [
+     {
+      "label": "Corpus note",
+      "url": "/view.html?p=notes/social/actor/private/research/gbr/institute-for-manufacturing.md"
+     },
+     {
+      "label": "IfM",
+      "url": "https://www.ifm.eng.cam.ac.uk/"
+     }
+    ]
+   }
   }
  ],
  "facets": [
@@ -24626,7 +25146,8 @@
     "national-institute-of-standards-and-technology",
     "national-renewable-energy-laboratory",
     "industry-university-cooperative-research-centers-iucrc",
-    "u-s-national-science-foundation-nsf"
+    "u-s-national-science-foundation-nsf",
+    "mit-industrial-performance-center"
    ],
    "note": "",
    "profile": {
@@ -24724,7 +25245,7 @@
      "Deployment": "limited"
     },
     "metrics": {
-     "actors": 42,
+     "actors": 43,
      "domains": 9,
      "stages": 5,
      "outputs": 6
@@ -24773,7 +25294,8 @@
       "National Aeronautics and Space Administration (NASA)",
       "National Institute of Standards and Technology (NIST)",
       "National Renewable Energy Laboratory (NREL)",
-      "U.S. National Science Foundation (NSF)"
+      "U.S. National Science Foundation (NSF)",
+      "MIT Industrial Performance Center (IPC)"
      ],
      "industry-partners": [],
      "government-programs": [],
@@ -26987,7 +27509,9 @@
     "royal-society-of-arts",
     "agri-food-and-biosciences-institute-afbi",
     "national-physical-laboratory",
-    "rothamsted-research"
+    "rothamsted-research",
+    "the-productivity-institute",
+    "institute-for-manufacturing"
    ],
    "note": "",
    "profile": {
@@ -27048,7 +27572,7 @@
     "summary": "The technical-research landscape of United Kingdom, mapped from its collective research and industrial-development actors.",
     "lifecycle-involvement": {},
     "metrics": {
-     "actors": 12,
+     "actors": 14,
      "domains": 2,
      "stages": 0,
      "outputs": 0
@@ -27067,7 +27591,9 @@
       "UCL Policy Lab",
       "Agri-Food and Biosciences Institute (AFBI)",
       "National Physical Laboratory (NPL)",
-      "Rothamsted Research"
+      "Rothamsted Research",
+      "The Productivity Institute (TPI)",
+      "Institute for Manufacturing (IfM)"
      ],
      "industry-partners": [],
      "government-programs": [

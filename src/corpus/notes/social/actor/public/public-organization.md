@@ -1,5 +1,5 @@
 ---
-tags: [note, public-organization, government, collective, actor]
+tags: [note, social, collective, actor, public-organization, government]
 ---
 
 # Public Organization
@@ -36,6 +36,7 @@ It is the government subtype of Organization: what individuates it is not its in
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Implementation Organization | Delivery body executing bounded programs and projects on the ground, distinct from the standing arm's-length operator. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Policy Research Organization | In-house institute or lab producing evidence, evaluation, and foresight for policy, constituted inside public authority. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Task Group | Temporary cross-unit team for a bounded mandate — task force, reform committee, [royal commission](/view.html?p=notes/social/actor/public/royal-commission.md) — dissolving on delivery. |
+| Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Task Group `(→ Kind)` Public Inquiry | Temporary body appointed to investigate a matter of public concern and report; worked at [Public Inquiry](/view.html?p=notes/social/actor/public/public-inquiry.md). |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency | Operational arm executing mandated functions at arm's length. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` Autonomous Statutory Public Agency | Operating agency created by its own statute, with legal personality and arm's-length autonomy. |
 | Collective / Organization `(→ Part)` Public Organization `(→ Kind)` Public Agency `(→ Kind)` (Japan) Incorporated Administrative Agency | Incorporated body (*dokuritsu gyōsei hōjin*) working to minister-set medium-term objectives with managerial autonomy. |
@@ -140,6 +141,7 @@ It is the government subtype of Organization: what individuates it is not its in
 - [Political Party](/view.html?p=notes/social/actor/political-party.md) (political subtype of Organization)
 - [Municipal Government](/view.html?p=notes/social/actor/public/municipal-government.md) (the governing collective whose wielding body is the Municipal Organization kind)
 - [Royal Commission](/view.html?p=notes/social/actor/public/royal-commission.md) (the inquiry form the Task Group kind carries: appointed for one matter, dissolved on reporting)
+- [Public Inquiry](/view.html?p=notes/social/actor/public/public-inquiry.md) (the generic inquiry kind, with royal, statutory, parliamentary and departmental forms)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md) (arena public organizations buy, employ, and regulate in)
 - Graph nodes of the same names: `public-organization`, `organization`, `government-agencies`, `executive-agency`, `statutory-boards-and-councils` (Social Space, dataset `social`)
 - González (2026) — When Politics Shapes Administration: Bureaucratic Autonomy, Policy Role Separation, and Organizational Capacity in an Institutionally Weak Public Administration.

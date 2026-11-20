@@ -1,5 +1,5 @@
 ---
-tags: [note, sweden, administration, public-organization, social-element]
+tags: [note, social, social-element, public-organization, sweden, administration]
 qa:
  - If a minister cannot instruct an agency in a particular case, who is answerable when the agency gets that case wrong — and is the answer the same in law as in politics?
  - The model assumes a small, high-capacity civil service and a culture of collective government. Which of the two travels, and which one is the constitution actually protecting?
@@ -125,6 +125,10 @@ A system that is this good at insulation is correspondingly bad at coordination,
 | **(Japan) Incorporated Administrative Agency** | In its **incorporation** — bounded autonomy inside minister-set objectives | Yes, with medium-term objectives set by the minister |
 
 The Swedish form is the one that makes independence a constitutional fact rather than an administrative concession, which is why [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) carries it as a kind rather than as an example.
+
+## See also
+
+- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/dynamic/action/public/informe/a-report-on-swedish-agency-performance-and-accountability.md) — the audit-scope and self-audit critique of the model.
 
 ## References
 

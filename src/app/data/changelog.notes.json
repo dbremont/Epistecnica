@@ -6092,6 +6092,11 @@
   "file_path": "epistemica/meta/variable.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Production Function link after the industry shelf move."
+   },
+   {
     "date": "2026-10-31",
     "kind": "refactor",
     "summary": "flatten practice into the theory scope",
@@ -22200,17 +22205,6 @@
   ]
  },
  {
-  "file_path": "epistemica/singular/cluster-modelling.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from epistemica/cluster-modelling.md to epistemica/singular/cluster-modelling.md in the corpus reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
   "file_path": "epistemica/singular/collapsology.md",
   "logs": [
    {
@@ -22650,42 +22644,6 @@
   ]
  },
  {
-  "file_path": "epistemica/singular/firm-clustering.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move the particular element note into the epistemica/singular/ scope.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/singular/firm-profiling.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move the particular element note into the epistemica/singular/ scope.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   }
-  ]
- },
- {
   "file_path": "epistemica/singular/flux-balance-analysis.md",
   "logs": [
    {
@@ -22986,46 +22944,6 @@
     "kind": "refactor",
     "summary": "Move from epistemica/science/hamiltonian-mechanics.md to epistemica/singular/hamiltonian-mechanics.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/singular/industry-analysis.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move the particular element note into the epistemica/singular/ scope.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/singular/industry-mapping.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from epistemica/industry-mapping.md to epistemica/singular/industry-mapping.md in the corpus reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/singular/input-output-modeling-iom.md",
-  "logs": [
-   {
-    "date": "2026-11-14",
-    "kind": "move",
-    "summary": "Move from epistemica/epistemic/construction/input-output-modeling-iom.md: input–output modeling is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
-    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
    }
   ]
  },
@@ -23512,38 +23430,6 @@
   ]
  },
  {
-  "file_path": "epistemica/singular/production-function.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Re-point links after the epistemica/singular/ move.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
-    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from epistemica/production-function.md to epistemica/singular/production-function.md in the corpus reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Links into the retired epistemica graph app replaced with the EES atlas.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   }
-  ]
- },
- {
   "file_path": "epistemica/singular/profile-templates.md",
   "logs": [
    {
@@ -23815,6 +23701,11 @@
  {
   "file_path": "epistemica/singular/science.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Input-Output Modeling link after the industry shelf move."
+   },
    {
     "date": "2026-10-31",
     "kind": "refactor",
@@ -24128,24 +24019,6 @@
     "kind": "refactor",
     "summary": "Move from epistemica/structuralism.md to epistemica/singular/structuralism.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
-   }
-  ]
- },
- {
-  "file_path": "epistemica/singular/swe-productivity.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move the particular element note into the epistemica/singular/ scope.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
    }
   ]
  },
@@ -27949,6 +27822,11 @@
  {
   "file_path": "nature/active-engagement.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "remove",
+    "summary": "Remove the unworked Notion-import stub; no unique content."
+   },
    {
     "date": "2026-11-08",
     "kind": "docs",
@@ -47792,6 +47670,11 @@
   "file_path": "nature/reactive-transport.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "remove",
+    "summary": "Remove the unworked Notion-import stub; no unique content."
+   },
+   {
     "date": "2026-11-08",
     "kind": "docs",
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
@@ -59314,6 +59197,11 @@
   "file_path": "social/actor/private/education/swe/royal-institute-of-technology.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the official KTH website and retire the duplicate firm stub for the same institution."
+   },
+   {
     "date": "2026-11-14",
     "kind": "docs",
     "summary": "Add KTH Royal Institute of Technology as the state constitution of the University kind: Polhem's Laboratorium Mechanicum of 1697 and the School of Mechanics of 1798 behind the Technological Institute ordered by Charles XIV John in 1825 and opened on 6 June 1827 on the polytechnic model, the Schwartz conflict and Akerman's reorganisation, the 1867 scientific reform and the 1877 renaming with architecture added, the civilingenjor title made legally protected in 1915 and the 1927 right to confer doctorates, the Lallerstedt campus of 1917, the R1 reactor critical in 1954 and decommissioned in 1970, the five schools of 2018, and the 2025 closure of the Kista and Sodertalje campuses.",
@@ -62080,6 +61968,21 @@
   "file_path": "social/actor/public/polity/swe/sweden.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the Swedish administrative system and the performance/accountability report from the Sweden note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add a Swedish Model, 1940–1980 section and link the new informe."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the FOI row in the Sweden R&D actors table to the new actor note."
+   },
+   {
     "date": "2026-11-14",
     "kind": "docs",
     "summary": "Add the history of Swedish machine-production industry.",
@@ -62091,6 +61994,11 @@
  {
   "file_path": "social/actor/public/public-organization.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add Public Inquiry as a Task Group kind and link the new note."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -123815,6 +123723,16 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Add the Swedish agency performance and accountability report to the informe list."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Swedish Model informe to the country and development studies list."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Add the Nuclear Technology Emergence essay to the country and development studies list."
    },
    {
@@ -124192,6 +124110,11 @@
   "file_path": "social/actor/public/polity/gbr/uk.md",
   "logs": [
    {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link The Productivity Institute and the Institute for Manufacturing in the UK R&D actors table."
+   },
+   {
     "date": "2026-11-17",
     "kind": "edit",
     "summary": "References, England list: John Cary linked — the merchant on trade, employment and the poor whose manufactures-and-shipping argument the industrial policy in this note descends from.",
@@ -124242,6 +124165,11 @@
  {
   "file_path": "social/actor/public/polity/swe/administrative-system.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the performance and accountability report from the Swedish administrative system note."
+   },
    {
     "date": "2026-11-17",
     "kind": "create",
@@ -124562,6 +124490,11 @@
  {
   "file_path": "social/actor/public/royal-commission.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the Royal Commission to the generic Public Inquiry and Report notes."
+   },
    {
     "date": "2026-11-18",
     "kind": "feat",
@@ -127363,6 +127296,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Update the Firm Clustering link after the industry shelf move."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Update the Productive Policy link after the policy-note move."
    },
    {
@@ -128051,6 +127989,11 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Link the battery technology and industry notes from the storage note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "New Battery Energy Storage Systems section: lithium-ion as the dominant grid chemistry, the services a BESS sells (frequency response, arbitrage, capacity and firming, congestion), and the three engineering realities that set asset life (degradation and augmentation, thermal runaway and the safety codes, round-trip efficiency and duration). Wikipedia reference added.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
@@ -128459,6 +128402,11 @@
  {
   "file_path": "social/actor/public/polity/usa/united-states-of-america-usa.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the MIT Industrial Performance Center in the US R&D actors table."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -132325,6 +132273,11 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Industry Analysis link after the industry shelf move."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from technica/breviarium/a-guide-to-profile-an-industry.md into technica/general/breviarium/: the Breviarium guides and essays sit under the general technique shelf."
    },
@@ -133347,6 +133300,11 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Point the MIT Industrial Performance Center reference to the new actor note."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/dynamic/state/economic/technology/technology.md. Move into social/observation/state/, the new observation shelf (the state/economic subtree was flattened).",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
@@ -134118,6 +134076,11 @@
   "logs": [
    {
     "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Production Function links after the industry shelf move."
+   },
+   {
+    "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/dynamic/economic/perishable-agricultural-products-economic-activity.md. Move into the dynamic process shelves as the economic shelf was distributed."
    },
@@ -134262,6 +134225,11 @@
  {
   "file_path": "social/dynamic/trade/commerce-economic-activity.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Production Function links after the industry shelf move."
+   },
    {
     "date": "2026-11-19",
     "kind": "move",
@@ -135867,6 +135835,16 @@
    {
     "date": "2026-11-19",
     "kind": "edit",
+    "summary": "Update the Product Taxonomy link after the industry shelf move."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Battery Industry to the heavy-industry table."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
     "summary": "Add the Nuclear Industry to the heavy-industry table.",
     "commit": "17006429196e46b2916ac73cfe2e88a3e808f862",
     "before": "6555688ad2b41f8b9291a10bd884391eed04a2f3"
@@ -135876,6 +135854,11 @@
  {
   "file_path": "technica/general/energy-technology.md",
   "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the battery technology and industry notes from the energy domain."
+   },
    {
     "date": "2026-11-19",
     "kind": "edit",
@@ -135908,6 +135891,403 @@
     "kind": "feat",
     "summary": "Add the overview essay on nuclear technology emergence: introduction, country paths by genesis, indigenization, transfer limits, policy, cluster, value chain, R&D and literature, and conclusion.",
     "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/general/battery-technical-domain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Battery Technology Domain note: chemistries, components, cell manufacturing, packs, management, safety, recycling and a recursive decomposition."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/battery/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Battery Industry index: product space, industry segments and links to the supply-chain, cluster and technology notes."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/battery/supply-chain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Battery Industry Supply Chain note: materials, refining, components, cell and pack manufacturing, geography, policy and recycling."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/battery/cluster.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Battery Industry Cluster note: cluster elements, types, country cases, mechanisms and risks."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/public/instance/research/swe/swedish-defence-research-agency.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Swedish Defence Research Agency (FOI) actor note: identity, history, research areas, funding and references."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the informe on the Swedish model of economic and technological development, 1940–1980, with planning debate, Rehn-Meidner, engineering education, state R&D, electricity, regional policy, business interests and the model’s limits."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/public/informe/a-report-on-swedish-agency-performance-and-accountability.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the report to Public Inquiry, Royal Commission and Report."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the report on Swedish agency performance and accountability, arguing that audit-scope fragmentation and self-reporting leave performance accountability largely self-audited."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/collective/report.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Report social-compound note: official reports, white papers, commission reports, annual and technical reports, with SOU and NOU series and report parts."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/public/public-inquiry.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Public Inquiry actor note: royal, statutory, parliamentary and departmental inquiry forms, with powers, activities and report products."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/private/research/usa/mit-industrial-performance-center.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the MIT Industrial Performance Center actor note: industrial performance, manufacturing, productivity and work-of-the-future research."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/private/research/gbr/the-productivity-institute.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add The Productivity Institute actor note: ESRC-funded UK-wide productivity research, regional forums and policy engagement."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/private/research/gbr/institute-for-manufacturing.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Cambridge Institute for Manufacturing actor note: manufacturing research, education and IfM Engage."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the industry research and nomenclature links after the industry shelf move."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Point the MIT IPC, TPI and IfM references to their actor notes."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move the research toolkit from production-research/ and retitle it as the Industry Research Toolkit."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/data/nomenclature.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-research/data/nomenclature.md into the industry research shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/data/patent.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-research/data/patent.md into the industry research shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/data/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-research/data/readme.md into the industry research shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/data/sec/form-k.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-research/data/sec/form-k.md into the industry research shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/data/sec/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-research/data/sec/readme.md into the industry research shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/type/industry-analysis.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/industry-analysis.md and merge with production-research/type/industry.md into the canonical industry-analysis note."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move the particular element note into the epistemica/singular/ scope.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/type/production-function.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/production-function.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Re-point links after the epistemica/singular/ move.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/production-function.md to epistemica/singular/production-function.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Links into the retired epistemica graph app replaced with the EES atlas.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/industry-mapping.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/industry-mapping.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/industry-mapping.md to epistemica/singular/industry-mapping.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/firm-clustering.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/firm-clustering.md and merge with production-research/method/clustering.md into the canonical firm-clustering method."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move the particular element note into the epistemica/singular/ scope.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/firm-profiling.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/firm-profiling.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move the particular element note into the epistemica/singular/ scope.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/input-output-modeling.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/input-output-modeling-iom.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "move",
+    "summary": "Move from epistemica/epistemic/construction/input-output-modeling-iom.md: input–output modeling is a named theory of a particular system — a theoretical result, not a construction discharged by proof — so it is filed in the science scope beside the physical theories, systems and methods it belongs with.",
+    "commit": "baef33b92e76c4f415b8603f26b8027bb0d23f8a"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/cluster-modelling.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/cluster-modelling.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from epistemica/cluster-modelling.md to epistemica/singular/cluster-modelling.md in the corpus reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   }
+  ]
+ },
+ {
+  "file_path": "epistemica/singular/industry/method/swe-productivity.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from epistemica/singular/swe-productivity.md into the industry research shelf."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move the particular element note into the epistemica/singular/ scope.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "nature/active-ingredient.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Fill the Active Ingredient note: API/excipient/product distinctions, classes, specification, regulation, psychoactive ingredients including THC, and references."
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/private/firm/kth-royal-institute-of-technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "remove",
+    "summary": "Remove the duplicate KTH firm stub; the education actor note carries the institution and its official site."
    }
   ]
  }

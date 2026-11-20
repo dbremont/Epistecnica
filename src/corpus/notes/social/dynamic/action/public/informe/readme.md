@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Informe
@@ -22,6 +22,8 @@ its comparison atlas stay on the public shelf:
 
 - [History of the Chinese Economic Policy Toolbox](/view.html?p=notes/social/dynamic/action/public/informe/history-of-the-chinese-economic-policy-toolbox.md)
 - [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md)
+- [An Essay on the Swedish Model of Economic and Technological Development (1940–1980)](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md)
+- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/dynamic/action/public/informe/a-report-on-swedish-agency-performance-and-accountability.md)
 - [Comparative Development: Argentina vs. Spain](/view.html?p=notes/social/dynamic/action/public/informe/a-comparative-development-essay-argentina-vs-spain.md)
 - [German Historical School of Economics](/view.html?p=notes/social/dynamic/action/public/informe/a-guide-to-german-historical-school-of-economics.md)
 - [Early European Development Finance](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-early-european-development-finance.md)

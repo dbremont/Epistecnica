@@ -2,9 +2,22 @@
 tags: [note, toolkit]
 ---
 
-# Research Toolkit
+# Industry Research Toolkit
 
-> The **Research Toolkit** defines the core components that structure, operationalize, and communicate research within each domain. It provides a common architecture to ensure conceptual coherence, methodological rigor, and public value.
+> The **Industry Research Toolkit** defines the core components that structure, operationalize and communicate research on industries, firms and production systems. It provides a common architecture for industry ontology, analysis methods, firm classification, data sources and research outputs.
+
+## Notes
+
+- [Industry Analysis](/view.html?p=notes/epistemica/singular/industry/type/industry-analysis.md)
+- [Production Function](/view.html?p=notes/epistemica/singular/industry/type/production-function.md)
+- [Industry Mapping](/view.html?p=notes/epistemica/singular/industry/method/industry-mapping.md)
+- [Firm Clustering](/view.html?p=notes/epistemica/singular/industry/method/firm-clustering.md)
+- [Firm Profiling](/view.html?p=notes/epistemica/singular/industry/method/firm-profiling.md)
+- [Input-Output Modeling](/view.html?p=notes/epistemica/singular/industry/method/input-output-modeling.md)
+- [Industrial Cluster Modelling](/view.html?p=notes/epistemica/singular/industry/method/cluster-modelling.md)
+- [SWE Productivity](/view.html?p=notes/epistemica/singular/industry/method/swe-productivity.md)
+- [Nomenclature](/view.html?p=notes/epistemica/singular/industry/data/nomenclature.md)
+- [Patent Data](/view.html?p=notes/epistemica/singular/industry/data/patent.md)
 
 ## Dimension(s)
 

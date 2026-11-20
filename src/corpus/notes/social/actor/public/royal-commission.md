@@ -1,10 +1,10 @@
 ---
-tags: [note, royal-commission, commission, public-organization, inquiry, task-group, collective, actor, social-element]
+tags: [note, social, collective, actor, social-element, public-organization, royal-commission, commission, inquiry, task-group]
 ---
 
 # Royal Commission
 
-> A **Royal Commission** is a public inquiry body appointed by the Crown — in practice by the government of the day — to investigate a matter of public concern, given for that purpose the powers to summon witnesses, compel documents and take evidence on oath, and dissolved once it has reported. It is an actor constituted for one question: it finds facts and recommends, it does not adjudicate, and its authority ends with the report it hands to the authority that appointed it.
+> A **Royal Commission** is a public inquiry body appointed by the Crown — in practice by the government of the day — to investigate a matter of public concern, given for that purpose the powers to summon witnesses, compel documents and take evidence on oath, and dissolved once it has reported. It is an actor constituted for one question: it finds facts and recommends, it does not adjudicate, and its authority ends with the report it hands to the authority that appointed it. It is one kind of [Public Inquiry](/view.html?p=notes/social/actor/public/public-inquiry.md).
 
 ## Formulation
 
@@ -77,6 +77,8 @@ The kind is not one thing: the **investigative** commission appointed for one ma
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (note schema, layer test, decomposition contract)
+- [Public Inquiry](/view.html?p=notes/social/actor/public/public-inquiry.md) (the generic inquiry actor this form belongs to)
+- [Report](/view.html?p=notes/social/actor/collective/report.md) (the social compound the commission issues)
 - [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) (the genus, whose Task Group kind this is)
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the body it is most often confused with: drawn from a parent assembly, preparing that assembly's business)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body contrast: a board decides and directs)

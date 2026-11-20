@@ -48,4 +48,6 @@ tags: [note, ess, storage]
 
 - Produceologia `docs/Production/Technique/Fisicatecnica/Miscellanea/ESS.md`
 - [Philosophia Artium Technicarum et Operis](/view.html?p=notes/philosophia-artium-technicarum-et-operis.md)
+- [Battery Technology Domain](/view.html?p=notes/technica/general/battery-technical-domain.md)
+- [Battery Industry](/view.html?p=notes/technica/production/industry/battery/readme.md)
 - [Battery Energy Storage System — Wikipedia](https://en.wikipedia.org/wiki/Battery_energy_storage_system)

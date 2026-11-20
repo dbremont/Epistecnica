@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Sweden
@@ -22,6 +22,20 @@ tags: [note]
 | **Post-WWII (1945-1970s)** | - Economic boom and expansion of the welfare state.<br>- Development of the Swedish model combining capitalism with strong social welfare.<br>- Growth in key industries like automotive (Volvo, Saab), electronics, and pharmaceuticals. |
 | **1980s-1990s** | - Economic challenges including high inflation and unemployment in the early 1980s.<br>- Financial deregulation and economic reforms in the late 1980s.<br>- Banking crisis in the early 1990s leading to major economic restructuring. |
 | **2000s-Present** | - Strong economic growth driven by technology, innovation, and export-oriented industries.<br>- Significant players in technology and telecommunications (e.g., Ericsson, Spotify).<br>- Focus on sustainability, green technologies, and digital economy.<br>- Impact of the global financial crisis in 2008 and subsequent recovery efforts.<br>- Ongoing challenges and opportunities in managing a highly developed welfare state. |
+
+## The Swedish Model, 1940–1980
+
+> The Swedish model was not only a welfare-state settlement. It was a production and innovation regime: solidaristic wage bargaining, active labour-market policy, engineering education, state research institutes, electricity and regional policy, and a business sector that bargained while defending its own reading of the mixed economy.
+
+The model's labour-market core is the **Rehn-Meidner** programme: equal pay for equal work across firms, active labour-market policy to move workers into expanding sectors, restrictive macroeconomic policy, and profits retained by efficient firms. Wage compression pushed low-productivity firms out; mobility policy moved labour in; export firms converted the result into productivity growth and rising real wages.
+
+The model's knowledge core was engineering education. Postwar technical education expanded at KTH, Chalmers, the technical secondary schools and in firm training. Pettersson's study of engineer training shows the connection between technical and structural change: the supply of engineers was a condition of the move into automobiles, electronics, machinery and pharmaceuticals.
+
+The state supplied research institutes, infrastructure and regional policy rather than a central plan. STU, the sectoral research institutes, Vattenfall's electricity system and the regional-policy apparatus connected public money to industrial capability. Business organisations, employers and the free-enterprise press contested the boundaries of the model, but they accepted collective bargaining and much of the welfare architecture.
+
+The model performed well in the 1950s and 1960s and came under strain in the 1970s: wage drift, inflation, profitability, oil shocks, regional subsidies and the fiscal cost of full employment. Blyth's account of the model's transformation shows that the crisis was ideational and distributional as well as macroeconomic.
+
+For the full argument, see [An Essay on the Swedish Model of Economic and Technological Development (1940–1980)](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md). For the administrative machinery and its performance-accountability gap, see the [Swedish Administrative System](/view.html?p=notes/social/actor/public/polity/swe/administrative-system.md) and [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/dynamic/action/public/informe/a-report-on-swedish-agency-performance-and-accountability.md).
 
 ## Economic Statecraft Institutions
 
@@ -62,7 +76,7 @@ tags: [note]
 | **Swedish University of Agricultural Sciences (SLU)** | 1977 | N/A | Ministry of Enterprise and Innovation | Agricultural, environmental, and life sciences research. |
 | **Linköping University** | 1975 | N/A | Independent | Multidisciplinary research, particularly in technology and applied sciences. |
 | **Umeå University** | 1965 | N/A | Independent | Multidisciplinary research with a focus on medicine, biotechnology, and social sciences. |
-| **Swedish Defence Research Agency (FOI)** | 2001 | N/A | Ministry of Defence | Defence, security, and strategic research. |
+| **[Swedish Defence Research Agency (FOI)](/view.html?p=notes/social/actor/public/instance/research/swe/swedish-defence-research-agency.md)** | 2001 | N/A | Ministry of Defence | Defence, security, and strategic research. |
 | **Swedish Research Council (Vetenskapsrådet)** | 2001 | N/A | Ministry of Education and Research | Funding and support for scientific research in all disciplines. |
 | **Swedish Foundation for Strategic Research (SSF)** | 1994 | N/A | Independent | Funding research in science, engineering, and medicine. |
 | **Vinnova (Swedish Innovation Agency)** | 2001 | N/A | Ministry of Enterprise and Innovation | Funding for research and development in innovation. |

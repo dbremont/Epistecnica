@@ -43,13 +43,14 @@ tags: [note, production]
 | **Chemical Industry (Heavy Segment)**       | Production of base chemicals, fertilizers, and industrial materials used in multiple manufacturing sectors.    |
 | **Energy Industry (Industrial Segment)**    | Generation and transmission of electrical power and industrial fuels supporting production activities.         |
 | **Nuclear Industry**                        | Civil production and management of nuclear power, fuel-cycle services, isotopes and radioactive waste.          |
+| **Battery Industry**                        | Manufacturing of electrochemical cells, modules, packs and recycling for vehicles, storage and devices.          |
 | **Cement and Nonmetallic Mineral Industry** | Production of cement, glass, ceramics, and other materials used in construction and infrastructure.            |
 | **Railway Equipment Manufacturing**         | Production of locomotives, wagons, and rail infrastructure systems.                                            |
 | **Aerospace and Defense Manufacturing**     | Production of aircraft, spacecraft, and defense equipment—often overlapping with advanced heavy manufacturing. |
 
 ## References
 
-- [Product Taxonomy](/view.html?p=notes/epistemica/singular/production-research/data/nomenclature.md)
+- [Product Taxonomy](/view.html?p=notes/epistemica/singular/industry/data/nomenclature.md)
 - [Light industry](https://en.wikipedia.org/wiki/Light_industry)
 - [Heavy Industry](https://en.wikipedia.org/wiki/Heavy_industry)
 - Gordon, Andrew. The evolution of labor relations in Japan: Heavy industry, 1853-1955. No. 117. Harvard Univ Asia Center, 1985.

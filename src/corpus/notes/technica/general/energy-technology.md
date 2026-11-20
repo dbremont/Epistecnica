@@ -161,6 +161,8 @@ Lineage: waterwheels and windmills → steam engine and dynamo → AC transmissi
 
 - [Nuclear Technical Domain](/view.html?p=notes/technica/general/nuclear-technical-domain.md) — the nuclear-specific civil field inside the energy ensemble.
 - [Nuclear Industry](/view.html?p=notes/technica/production/industry/nuclear/readme.md) — the civil industry that owns and operates nuclear plants and fuel-cycle facilities.
+- [Battery Technology Domain](/view.html?p=notes/technica/general/battery-technical-domain.md) — electrochemical storage as a technical field.
+- [Battery Industry](/view.html?p=notes/technica/production/industry/battery/readme.md) — the cell, pack and recycling industry.
 
 ## References
 

@@ -1,5 +1,5 @@
 ---
-tags: [note, economic-activity, industry, agriculture, perishable, cold-chain, economic, social-element]
+tags: [note, social, social-element, economic-activity, industry, agriculture, perishable, cold-chain, economic]
 ---
 
 # Perishable Agricultural Products Industry
@@ -266,7 +266,7 @@ $$
 
 ### How is the production function of the industry operationalized?
 
-> The perishable function is an instance of the [Production Function](/view.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
+> The perishable function is an instance of the [Production Function](/view.html?p=notes/epistemica/singular/industry/type/production-function.md) epistemic blueprint whose operational reading is fixed by what rots. The table below states the choices that matter to this industry's content.
 
 | Decision | The choice that matters | Perishable reading |
 | --- | --- | --- |
@@ -596,7 +596,7 @@ $$
 - [Economic Activity](/view.html?p=notes/social/dynamic/economic-activity.md)
 - [Commerce Economic Activity](/view.html?p=notes/social/dynamic/trade/commerce-economic-activity.md)
 - [Agricultural Science](/view.html?p=notes/miscellanea/discipline/agricultural-science.md)
-- [Production Function](/view.html?p=notes/epistemica/singular/production-function.md)
+- [Production Function](/view.html?p=notes/epistemica/singular/industry/type/production-function.md)
 - [Retail Supply–Demand Matching](/view.html?p=notes/technica/production/industry/retail-supply-demand-matching.md)
 - [Logistics System](/view.html?p=notes/technica/production/industry/logistics-system.md)
 - [Plant Cultivation Technical Domain Set](/view.html?p=notes/technica/general/plant-cultivation-technical-domain-set.md)

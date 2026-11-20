@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # UK
@@ -18,6 +18,7 @@ Status: Not started
 | --- | --- | --- | --- | --- |
 | **University of Oxford** | Academic Institution | 1096 | N/A | Conducts multidisciplinary research across various fields |
 | **University of Cambridge** | Academic Institution | 1209 | N/A | Conducts multidisciplinary research across various fields |
+| [Institute for Manufacturing (IfM)](/view.html?p=notes/social/actor/private/research/gbr/institute-for-manufacturing.md) | University Research Institute | 1998 | N/A | Manufacturing research, education and firm engagement |
 | **Royal Society** | Scientific Society | 1660 | N/A | Promotes scientific excellence and collaboration |
 | **Royal Greenwich Observatory** | Research Institution | 1675 | 1998 | Conducted astronomical research |
 | **British Museum** | Museum and Research Institution | 1753 | N/A | Conducts research in arts, history, and culture |
@@ -32,6 +33,7 @@ Status: Not started
 | **Defence Research Agency (DRA)** | Government Agency | 1991 | 1995 (Merged) | Conducted defense-related research |
 | **Agricultural and Food Research Council (AFRC)** | Research Council | 1931 | 1994 (Merged) | Conducted research in agriculture and food science |
 | **UK Research and Innovation** | … |  |  |  |
+| [The Productivity Institute (TPI)](/view.html?p=notes/social/actor/private/research/gbr/the-productivity-institute.md) | National Research Institute | 2020 | N/A | UK-wide research on productivity, firms, places and policy |
 | **Catapult Network** | … |  |  |  |
 
 ## UK Industrial Policy

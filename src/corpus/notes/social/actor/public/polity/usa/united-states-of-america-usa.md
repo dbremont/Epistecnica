@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # United States of America (USA)
 
@@ -52,6 +52,7 @@ tags: [note, unfinished]
 | Defense Advanced Research Projects Agency (DARPA) |  |  |  |
 | ARM Institute (Advanced Robotics for Manufacturing) |  |  |  |
 | Massachusetts Institute of Technology (MIT) |  |  |  |
+| [MIT Industrial Performance Center (IPC)](/view.html?p=notes/social/actor/private/research/usa/mit-industrial-performance-center.md) | Applied research on manufacturing, productivity and the future of work | University research centre | Industrial performance, manufacturing, automation, work |
 | Stanford University |  | Research University |  |
 | Harvard University |  | Research University |  |
 | California Institute of Technology (Caltech) |  | Research University |  |

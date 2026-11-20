@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # Technology
 
@@ -55,7 +55,7 @@ technology and innovation indicators for latecomer economies at the firm
  innovation indicators: What we can learn from the past." *Research policy* 38.4 (2009): 583-589.
 - Soete, Luc LG, Bart Verspagen, and Thomas HW Ziesemer. "The productivity effect of public R&D in the Netherlands." *Economics of Innovation and New Technology* 29.1 (2020): 31-47.
 - Brown, Mark G., and Raynold A. Svenson. "Measuring R&D productivity." Research-Technology Management 31.4 (1988): 11-15.
-- [MIT Industrial Performance Center](https://ipc.mit.edu/)
+- [MIT Industrial Performance Center](/view.html?p=notes/social/actor/private/research/usa/mit-industrial-performance-center.md)
 - [Global Innovation Index](https://en.wikipedia.org/wiki/Global_Innovation_Index)
 - [Economic Complexity Index](https://en.wikipedia.org/wiki/Economic_Complexity_Index)
 - Freeman, Christopher. Technology Policy and Economic Performance: lessons from Japan (London, 1987).

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, sweden, engineering, technology, history, social-element]
+tags: [note, social, actor, social-element, university, education, sweden, engineering, technology, history]
 ---
 
 # KTH Royal Institute of Technology
@@ -82,6 +82,7 @@ It is distinct from the **polytechnic as a local or municipal institution**: KTH
 ## References
 
 - [KTH Royal Institute of Technology — Wikipedia](https://en.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology) (the Polhem lineage, the 1825 order and 1827 opening, the Schwartz conflict and Åkerman's reorganisation, the 1877 renaming, degree titles, the 1927 doctorates, the campuses, the R1 reactor, the five schools)
+- [KTH Royal Institute of Technology — official site](https://www.kth.se/en)
 - [University](/view.html?p=notes/social/actor/university.md) (the kind this instance realizes; the state constitution)
 - [University of Basel](/view.html?p=notes/social/actor/private/education/che/university-of-basel.md) (the civic constitution)
 - [Alma Mater Studiorum – Università di Bologna](/view.html?p=notes/social/actor/private/education/ita/university-of-bologna.md) (the students' constitution)

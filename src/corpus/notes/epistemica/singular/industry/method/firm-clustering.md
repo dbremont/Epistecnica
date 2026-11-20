@@ -1,10 +1,10 @@
 ---
-tags: [note, clustering, firms, 10-k]
+tags: [note, clustering, firms, 10-k, method]
 ---
 
 # Firm Clustering
 
-> **Firm Clustering** is the firm-classification pipeline contrasting NAICS and GICS against data-driven 10-K clustering. Source: Produceologia `docs/Toolkit/Method/Clustering.md` (read-only import; the originals are untouched).
+> **Firm Clustering** is the firm-classification pipeline that contrasts official taxonomies (NAICS, GICS, SIC) with data-driven clustering of firm filings. It is both an epistemic process and an industry-analysis method: it delimits the population of firms, tests where official categories hold, and exposes where they break.
 
 ## Formulation
 
@@ -14,7 +14,7 @@ tags: [note, clustering, firms, 10-k]
 
 ### What is this epistemic instance?
 
-> SEC filings feed a text pipeline (spaCy config plus notebooks) that clusters firms empirically, testing where official taxonomies hold and where they break.
+> SEC filings feed a text pipeline (spaCy config plus notebooks) that clusters firms empirically, testing where official taxonomies hold and where they break. Classification assigns firms to one or more categories — industry, sector, subsector or strategic group — by primary revenue source, input-output relations, production technologies, customer base or strategic behaviour.
 
 ### What is the recursive instance decomposition of this epistemic instance?
 
@@ -27,8 +27,16 @@ tags: [note, clustering, firms, 10-k]
 | Firm Clustering → Clustering Configuration | spaCy pipeline configuration tool. | Methodology | `(root) := <<Epistemic Element>> -> Epistemic Tool` |
 | Firm Clustering → Cluster Map | Empirical grouping output artifact. | Representation | `(root) := <<Epistemic Element>> -> Concrete Epistemic Artifact` |
 
+## Classification questions
+
+- To which market or industry does this firm belong?
+- What other firms belong to the same market or industry?
+- Where do official taxonomies (NAICS, GICS, SIC) agree with empirical clustering, and where do they diverge?
+- Which grouping is stable across data sources and methods?
+
 ## References
 
 - Produceologia `docs/Toolkit/Method/Clustering.md`
 - Produceologia `docs/Toolkit/Data/SEC/README.md` (filing categories)
 - [Philosophia Artium Epistemicarum et Operis](/view.html?p=notes/philosophia-artium-epistemicarum-et-operis.md)
+- [Industry Analysis](/view.html?p=notes/epistemica/singular/industry/type/industry-analysis.md)

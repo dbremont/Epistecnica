@@ -1,5 +1,5 @@
 ---
-tags: [note, defense, industrial-policy, innovation, cluster]
+tags: [note, social, defense, industrial-policy, innovation, cluster]
 ---
 
 # The Defense Industry as Catalyst of General Technical Progress
@@ -157,7 +157,7 @@ A defense industry passes when it forces competence (P1), anchors a cluster (P2)
 - [Defense Systems](/view.html?p=notes/technica/production/industry/defense-systems.md) — the technical ensemble read as a `Production Technical System`
 - [Cluster](/view.html?p=notes/social/dynamic/action/public/problem/dimension/production/cluster/cluster.md) — the industrial cluster, from Marshall's district to Porter's competitive advantage
 - [Spin-offs](/view.html?p=notes/social/dynamic/research/interactions/spin-offs.md) — the transmission mechanism between research and production
-- [Firm Clustering](/view.html?p=notes/epistemica/singular/firm-clustering.md) — the empirical reading of cluster formation
+- [Firm Clustering](/view.html?p=notes/epistemica/singular/industry/method/firm-clustering.md) — the empirical reading of cluster formation
 - [Economic Complexity](/view.html?p=notes/epistemica/complexity/economic-complexity.md) — capability accumulation and the product space
 - [Productive Policy](/view.html?p=notes/social/dynamic/action/public/instrument/policy/productive-policy.md) — the policy frame the test belongs to
 - [Research System](/view.html?p=notes/social/dynamic/research/research-system.md) — the institutional layer between the laboratory and the firm

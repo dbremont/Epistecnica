@@ -1,5 +1,5 @@
 ---
-tags: [note, economic-activity, commerce, retail, economic, social-element]
+tags: [note, social, social-element, economic-activity, commerce, retail, economic]
 ---
 
 # Commerce
@@ -792,7 +792,7 @@ $$
 
 ### How is the production function of commerce operationalized?
 
-> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/view.html?p=notes/epistemica/singular/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/ees.html).
+> The form is the easy part; the decisions below are what make an estimate mean anything. The baseline form is Cobb–Douglas, $Q = A L^{\alpha}K^{\beta}M^{\gamma}$ (labor, capital, materials/space), with CES when input substitution is the live question. Each row is where a fitted instance of the [Production Function](/view.html?p=notes/epistemica/singular/industry/type/production-function.md) epistemic blueprint either earns or loses its claim — see also the [production-function node](/corpus/notes/epistemica/ees.html).
 
 | Decision | The choice that matters | Commerce reading |
 | --- | --- | --- |
@@ -1491,7 +1491,7 @@ $$
 - Williamson, O. E. (1985). *The economic institutions of capitalism: Firms, markets, relational contracting*. Free Press.
 - [Economic Activity](/view.html?p=notes/social/dynamic/economic-activity.md)
 - [Perishable Agricultural Products Industry](/view.html?p=notes/social/dynamic/production/perishable-agricultural-products-economic-activity.md)
-- [Production Function](/view.html?p=notes/epistemica/singular/production-function.md)
+- [Production Function](/view.html?p=notes/epistemica/singular/industry/type/production-function.md)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md)
 - [Retail Supply–Demand Matching](/view.html?p=notes/technica/production/industry/retail-supply-demand-matching.md)
 - [Logistics System](/view.html?p=notes/technica/production/industry/logistics-system.md)
