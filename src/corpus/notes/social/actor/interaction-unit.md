@@ -118,6 +118,7 @@ Guiding Questions:
 | **Organization**              | Firm, NGO, institution, or formal association that acts collectively.        | Tech companies, universities, Red Cross chapters                   |
 | **Family / Household**        | Small, tightly-knit group acting as a basic social unit.                     | Nuclear family, extended family, shared households                 |
 | **Virtual / Networked Group** | Online communities, forums, or decentralized collectives.                    | Reddit communities, open-source software projects, Discord servers |
+| **Cybernetic Unit**           | Software agents, robots and control systems that sense, decide and act.      | See [Cybernetic Interaction Unit](/view.html?p=notes/social/actor/cybernetic-interaction-unit.md) |
 | **Other**                     | Any other bounded entity that can be analyzed as an interaction unit.        | Project teams, coalitions, temporary alliances, task forces        |
 
 ## References

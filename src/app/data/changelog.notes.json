@@ -70972,6 +70972,11 @@
     "summary": "Retarget the Social Group link to the singular modelling note.",
     "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
     "before": "9a7e9b16ebff55958b32a39148656b805f896915"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch."
    }
   ]
  },
@@ -71391,6 +71396,16 @@
   ]
  },
  {
+  "file_path": "social/actor/cybernetic-interaction-unit.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Cybernetic Interaction Unit: the artificial actor kind, its loop, kinds, delegated agency and references."
+   }
+  ]
+ },
+ {
   "file_path": "social/actor/education-actor.md",
   "logs": [
    {
@@ -71474,6 +71489,11 @@
     "kind": "refactor",
     "summary": "Move from social/unit.md to actor/ and name the file for the Interaction Unit element.",
     "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Cybernetic Unit row to the QI table."
    }
   ]
  },

@@ -36,6 +36,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 | Actor `(→ Kind)` Individual Actor | Actor deciding as one mind: a human, a persona. |
 | Actor `(→ Kind)` Individual Actor `(→ Kind)` Human | Biological individual of the species Homo sapiens, bearing cognition, language, and culture; carries personhood as rights, duties, and accountability. |
 | Actor `(→ Kind)` Individual Actor `(→ Kind)` Persona | Performed or attributed self carried through shared recognition across encounters. |
+| Actor `(→ Kind)` Individual Actor `(→ Kind)` Cybernetic Interaction Unit | Designed unit that senses, decides and acts as one, recognized as an actor through delegation; see [Cybernetic Interaction Unit](/view.html?p=notes/social/actor/cybernetic-interaction-unit.md). |
 | Actor `(→ Kind)` Collective Actor | Actor acting as one through membership, rules, and joint agency. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Organization | Bounded compound unit with identity, membership, and rules acting as one. |
 | Actor `(→ Kind)` Collective Actor `(→ Kind)` Social Group | Interacting aggregate with unity but without membership or rules. |
