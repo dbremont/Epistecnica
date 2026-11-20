@@ -179,6 +179,8 @@ INTL_MOVED = {
     "wto.md",
 }
 POLITY_MD = "/corpus/notes/social/koinomia/collective/polity/polity.md"
+ATLAS_GOV_OLD = "/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration"
+ATLAS_GOV_NEW = "/corpus/notes/social/koinomia/governance/atlas/gov-wide-administration"
 POLITY_DIR_OLD = "/corpus/notes/social/koinomia/polity/"
 POLITY_DIR_NEW = "/corpus/notes/social/koinomia/collective/polity/"
 COLLECTIVE_OLD = "/corpus/notes/social/actor/collective/"
@@ -587,6 +589,10 @@ class HubHandler(SimpleHTTPRequestHandler):
         if path.startswith(POLITY_DIR_OLD):
             rest = path[len(POLITY_DIR_OLD):]
             self._redirect(POLITY_DIR_NEW + rest)
+            return True
+
+        if path == ATLAS_GOV_OLD + ".html" or path == ATLAS_GOV_OLD + ".json":
+            self._redirect(ATLAS_GOV_NEW + path[len(ATLAS_GOV_OLD):])
             return True
 
 

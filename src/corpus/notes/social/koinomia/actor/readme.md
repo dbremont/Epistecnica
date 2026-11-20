@@ -24,7 +24,6 @@ tags: [note, social, koinomia, actor, catalog]
 ## Atlas
 
 - [Public Organization Atlas](/corpus/notes/social/koinomia/actor/atlas/public-organization.html)
-- [Government-Wide Administration Atlas](/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration.html)
 - [Public Organization Characterization Systems](/corpus/notes/social/koinomia/actor/atlas/public-organization-characterization-systems.html)
 
 ## Read it with

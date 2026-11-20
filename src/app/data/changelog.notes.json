@@ -88727,6 +88727,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Remove the government-wide administration atlas from the actor Atlas list; it moved with the governance shelf."
    }
   ]
  },
@@ -92510,6 +92515,11 @@
     "kind": "feat",
     "summary": "Add the Governance shelf master: administration, civil service, government-wide administration, the historical regimes, the study method and the country pipeline.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the atlas links at governance/atlas/."
    }
   ]
  },

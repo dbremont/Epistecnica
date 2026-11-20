@@ -181,8 +181,8 @@
    "kind": "atlas"
   },
   {
-   "from": "social/koinomia/actor/atlas/",
-   "to": "social/koinomia/actor/gov-wide-administration.md",
+   "from": "social/koinomia/governance/atlas/",
+   "to": "social/koinomia/governance/gov-wide-administration.md",
    "label": "government-wide administration",
    "kind": "atlas"
   },
