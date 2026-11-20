@@ -87179,6 +87179,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Rename the government-wide representation to Government-Wide Administration Comparative System Representation and fix its link."
    }
   ]
  },
@@ -87283,6 +87288,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Rename the government-wide representation to Government-Wide Administration Comparative System Representation and fix its link."
    }
   ]
  },

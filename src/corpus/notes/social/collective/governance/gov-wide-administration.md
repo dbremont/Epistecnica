@@ -566,4 +566,4 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)
-- [Atlas of Government-Wide Administration Comparative Representation Systems](atlas/gov-wide-administration.html)
+- [Government-Wide Administration Comparative System Representation](/corpus/notes/social/representation/gov-wide-administration.html)
