@@ -76897,7 +76897,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the state allocation references to the Investment note."
+    "summary": "Retarget the state allocation references to the Investment note.",
+    "commit": "5c1d2e13e8bf70f52653f81b20f630d44d4a6aaf",
+    "before": "8ffd47b0bb242d1243d6cc2ae4c78ad9ee07baab"
    }
   ]
  },
@@ -81707,7 +81709,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the allocation reference to the merged Investment note."
+    "summary": "Retarget the allocation reference to the merged Investment note.",
+    "commit": "5c1d2e13e8bf70f52653f81b20f630d44d4a6aaf",
+    "before": "8ffd47b0bb242d1243d6cc2ae4c78ad9ee07baab"
    }
   ]
  },
@@ -81821,7 +81825,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into finance/ and merge with State Capital Allocation."
+    "summary": "Move into finance/ and merge with State Capital Allocation.",
+    "commit": "5c1d2e13e8bf70f52653f81b20f630d44d4a6aaf"
    }
   ]
  },
@@ -81869,7 +81874,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Merged into investment.md; the allocation decision is now the Investment note."
+    "summary": "Merged into investment.md; the allocation decision is now the Investment note.",
+    "commit": "5c1d2e13e8bf70f52653f81b20f630d44d4a6aaf",
+    "before": "8ffd47b0bb242d1243d6cc2ae4c78ad9ee07baab"
    }
   ]
  },
