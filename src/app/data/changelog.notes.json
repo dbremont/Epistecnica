@@ -29433,6 +29433,16 @@
   ]
  },
  {
+  "file_path": "miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the essay on firm minimum viable size: the threshold reading of firm scale and the SME agency diagnosis problem."
+   }
+  ]
+ },
+ {
   "file_path": "miscellanea/unclassified/an-essay-on-poverty.md",
   "logs": [
    {
@@ -82118,6 +82128,11 @@
     "summary": "Merge the Collective Action note into the action shelf master and retitle the master Collective Action.",
     "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
     "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Reference the essay on firm minimum viable size."
    }
   ]
  },
@@ -92103,6 +92118,11 @@
     "summary": "Retarget the Collective Action link to the merged action shelf master.",
     "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
     "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Reference the essay on firm minimum viable size."
    }
   ]
  },

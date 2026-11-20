@@ -28,5 +28,7 @@ tags: [note, social]
 
 ## References
 
+- [An Essay on Firm Minimum Viable Size](/view.html?p=notes/miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md) — collective action applied to the firm's size threshold
+
 - [Social Action](https://en.wikipedia.org/wiki/Social_action)
 - "The Strength of Weak Ties" by Mark Granovetter (1973)

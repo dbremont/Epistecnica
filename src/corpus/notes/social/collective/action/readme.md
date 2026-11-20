@@ -69,6 +69,11 @@ Its facet is not fixed: a case is political when the goal is a public good or a 
 
 ## QA
 
+### How does the minimum viable size of a firm follow from critical mass?
+
+> A firm below its minimum viable size is a critical-mass failure: the threshold is not reached, so marginal support does not make it self-sustaining. The case is worked in [An Essay on Firm Minimum Viable Size](/view.html?p=notes/miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md), including the SME agency's diagnosis problem.
+
+
 - What types of social coordination are necessary to produce specific kinds of change?
 - Can some changes emerge explosively without any form of coordination?
 - How can we develop a meta-theory of change within complex social realities?
@@ -180,6 +185,8 @@ Its facet is not fixed: a case is political when the goal is a public good or a 
 | Program            | **Specialized SMEs Program**                                               | Programmatic initiative fostering specialization and technological upgrading of SMEs.                          | `SMEs`, `Industrial Policy`, `Competitiveness`                         |
 
 ## References
+
+- [An Essay on Firm Minimum Viable Size](/view.html?p=notes/miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md) — the threshold account of firm size
 
 - A Defense of Industrial Policy
 - [Locus Instrumentorum](/view.html?p=notes/social/collective/action/instrument/instrumentorum-readme.md)
