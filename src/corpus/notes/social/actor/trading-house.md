@@ -33,7 +33,48 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 | Collective / Organization `(→ Part)` Trading House `(→ Part)` Collective / Organization `(→ Part)` Overseas Office | Local-presence office form. |
 | Collective / Organization `(→ Part)` Trading House `(→ Part)` Social Relation / Network `(→ Part)` Keiretsu Tie | Repeat-dealing stabilizing tie. |
 
+## Read it with
+
+- **Actor**: [Actor](/view.html?p=notes/social/actor/actor.md) · [Firm](/view.html?p=notes/social/actor/firm.md) · [Organization](/view.html?p=notes/social/actor/organization.md)
+- **Coordination**: [Market](/view.html?p=notes/social/coordinator/market/market.md) · [Capital](/view.html?p=notes/social/coordinator/capital-labor/capital.md)
+- **Policy**: [Trade](/view.html?p=notes/social/koinomia/action/problem/international/trade/trade.md) · [Export](/view.html?p=notes/social/koinomia/action/problem/international/trade/export.md) · [Industry](/view.html?p=notes/social/koinomia/action/problem/production/industry/industry.md)
+- **Japan**: [Japan](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md) · [JETRO](/view.html?p=notes/social/koinomia/actor/instance/development/japan-external-trade-organization.md) · [MITI](/view.html?p=notes/social/koinomia/actor/instance/development/ministry-of-international-trade-and-industry.md)
+- **Technique**: [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md)
+
 ## References
+
+### The Japanese sōgō shōsha
+
+- Yoshihara, K. (1982). *Sogo Shosha: The Vanguard of the Japanese Economy*. Oxford University Press.
+- Young, A. K. (1979). *The Sogo Shosha: Japan's Multinational Trading Companies*. Westview Press.
+- Yoshino, M. Y. (1976). *Japan's Multinational Enterprises*. Harvard University Press.
+- Ozawa, T. (1979). *Multinationalism, Japanese Style: The Political Economy of Outward Dependency*. Princeton University Press.
+- Abegglen, J. C., & Stalk, G. (1985). *Kaisha, the Japanese Corporation*. Basic Books.
+
+### Keiretsu and the Japanese firm
+
+- Gerlach, M. L. (1992). *Alliance Capitalism: The Social Organization of Japanese Business*. University of California Press.
+- Fruin, W. M. (1992). *The Japanese Enterprise System: Competitive Strategies and Cooperative Structures*. Oxford University Press.
+- Dore, R. (1983). *British Factory, Japanese Factory: The Origins of National Diversity in Industrial Relations*. University of California Press.
+
+### Trading houses and commodity merchants
+
+- Blas, J., & Farchy, J. (2021). *The World for Sale: Money, Power, and the Traders Who Barter the Earth's Resources*. Oxford University Press.
+- Morgan, D. (1979). *Merchants of Grain*. Viking.
+- Braudel, F. (1982). *Civilization and Capitalism, 15th–18th Century*, Vol. 2: *The Wheels of Commerce*. Harper & Row.
+- Chaudhuri, K. N. (1978). *The Trading World of Asia and the English East India Company, 1660–1760*. Cambridge University Press.
+
+### Middlemen, intermediation and trade institutions
+
+- Rubinstein, A., & Wolinsky, A. (1987). Middlemen. *Quarterly Journal of Economics*, 102(3), 581–593.
+- Spulber, D. F. (1999). *Market Microstructure: Intermediaries and the Theory of the Firm*. Cambridge University Press.
+- Biglaiser, G. (1993). Middlemen as experts. *RAND Journal of Economics*, 24(2), 212–223.
+- Fafchamps, M. (2004). *Market Institutions in Sub-Saharan Africa: Theory and Evidence*. MIT Press.
+- Greif, A. (2006). *Institutions and the Path to the Modern Economy: Lessons from Medieval Trade*. Cambridge University Press.
+- Milgrom, P. R., North, D. C., & Weingast, B. R. (1990). The role of institutions in the revival of trade: The law merchant, private judges, and the champagne fairs. *Economics & Politics*, 2(1), 1–23.
+- Gereffi, G., Humphrey, J., & Sturgeon, T. (2005). The governance of global value chains. *Review of International Political Economy*, 12(1), 78–104.
+
+### Provenance
 
 - Produceologia `docs/Production/Industry/Commerce/Trading.md`
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
