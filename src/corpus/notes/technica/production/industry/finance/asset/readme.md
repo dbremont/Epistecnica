@@ -14,10 +14,11 @@ Tags: Accounting
 
 | **Category** | **Subcategory** | **Sub-subcategory** | **Examples** |
 | --- | --- | --- | --- |
-| **Financial Assets** | **Tradable Financial Assets (Security)** | **Equity Instruments** | Public Stocks, Exchange-Traded Funds (ETFs), REITs, Preferred Shares |
-|  |  | **Debt Instruments** | Government Bonds, Corporate Bonds, [Convertible Bonds](/view.html?p=notes/technica/production/industry/finance/asset/convertible-bond.md), Treasury Bills, Commercial Papers |
-|  |  | **Derivatives** | Options (Call/Put), Futures Contracts, Forward Contracts, Swaps (Interest Rate, Currency) |
-|  |  | **Currency Instruments** | Foreign Exchange (Forex), Cryptocurrencies |
+| **Financial Assets** | **Tradable Financial Assets ([Security](/view.html?p=notes/technica/production/industry/finance/asset/security.md))** | **Equity Instruments** | [Shares](/view.html?p=notes/technica/production/industry/finance/asset/share.md), [Exchange-Traded Funds (ETFs)](/view.html?p=notes/technica/production/industry/finance/asset/etf.md), [REITs](/view.html?p=notes/technica/production/industry/finance/asset/reit.md), Preferred Shares |
+|  |  | **Debt Instruments** | [Government Bonds](/view.html?p=notes/technica/production/industry/finance/asset/bond.md), [Corporate Bonds](/view.html?p=notes/technica/production/industry/finance/asset/bond.md), [Convertible Bonds](/view.html?p=notes/technica/production/industry/finance/asset/convertible-bond.md), [Treasury Bills](/view.html?p=notes/technica/production/industry/finance/asset/money-market-instrument.md), [Commercial Papers](/view.html?p=notes/technica/production/industry/finance/asset/money-market-instrument.md) |
+|  |  | **Derivatives** | [Options (Call/Put)](/view.html?p=notes/technica/production/industry/finance/asset/option.md), [Futures Contracts](/view.html?p=notes/technica/production/industry/finance/asset/future.md), [Forward Contracts](/view.html?p=notes/technica/production/industry/finance/asset/forward.md), [Swaps (Interest Rate, Currency)](/view.html?p=notes/technica/production/industry/finance/asset/swap.md) |
+|  |  | **Currency Instruments** | [Foreign Exchange (Forex)](/view.html?p=notes/technica/production/industry/finance/asset/foreign-exchange.md), Cryptocurrencies |
+|  |  | **Collective Investment Vehicles** | [Mutual Funds](/view.html?p=notes/technica/production/industry/finance/asset/mutual-fund.md), Unit Trusts, Money-Market Funds |
 |  | **Non-Tradable Financial Assets** | **Savings Instruments** | Bank Savings Accounts, Fixed Deposit Accounts (CDs), Money Market Accounts |
 |  |  | **Retirement and Pension Plans** | 401(k) Accounts, Individual Retirement Accounts (IRAs), Pension Funds |
 |  |  | **Loans and Receivables** | Personal Loans, Promissory Notes, Student Loans, Private Loans |

@@ -138057,12 +138057,97 @@
   ]
  },
  {
+  "file_path": "technica/production/industry/finance/asset/derivative.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Expand the empty stub into the family note: forwards, futures, options and swaps."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/foreign-exchange.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Foreign Exchange note: the currency asset and its instruments."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/forward.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Forward note: the bilateral OTC contract, priced by cost of carry."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/money-market-instrument.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Money Market Instrument note: bills, commercial paper, CDs and repo."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/mutual-fund.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Mutual Fund note: open-end, closed-end, unit trust, ETF and money-market forms."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/option.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Option note: calls and puts, styles, the premium and the Greeks."
+   }
+  ]
+ },
+ {
   "file_path": "technica/production/industry/finance/asset/readme.md",
   "logs": [
    {
     "date": "2026-11-18",
     "kind": "edit",
     "summary": "The debt-instruments row now links the new Convertible Bond note."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the asset index to the filled notes and add the collective investment vehicles row."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/security.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Expand the references-only stub into the security families and securitisation."
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/finance/asset/swap.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Swap note: interest-rate, currency, credit and commodity swaps."
    }
   ]
  },
