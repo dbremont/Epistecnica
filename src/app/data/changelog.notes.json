@@ -77054,7 +77054,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the main entry for the cybernetic world: the facet, the corpus map, the reading rules and the QA."
+    "summary": "Add the main entry for the cybernetic world: the facet, the corpus map, the reading rules and the QA.",
+    "commit": "34c0b20ba978b962d1d06b19d6d5158482875db1"
    }
   ]
  },
@@ -90703,7 +90704,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Cybernetic row to the facet catalogue."
+    "summary": "Add the Cybernetic row to the facet catalogue.",
+    "commit": "34c0b20ba978b962d1d06b19d6d5158482875db1",
+    "before": "38e8351bc016bd3467b40c6ad9723ef38ea680b7"
    }
   ]
  },
@@ -90713,7 +90716,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Cybernetic Facet note: mechanism, boundaries, coverage, element paths, QA and references."
+    "summary": "Add the Cybernetic Facet note: mechanism, boundaries, coverage, element paths, QA and references.",
+    "commit": "34c0b20ba978b962d1d06b19d6d5158482875db1"
    }
   ]
  },
