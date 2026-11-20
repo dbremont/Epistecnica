@@ -8758,6 +8758,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -16283,6 +16288,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -16782,6 +16792,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -16951,6 +16966,11 @@
     "summary": "Retarget the Domain links to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -19486,6 +19506,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -20269,6 +20294,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -20646,6 +20676,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -24191,6 +24226,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -24921,6 +24961,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -26402,6 +26447,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -27122,6 +27172,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -27614,6 +27669,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -28749,6 +28809,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -28866,6 +28931,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -35130,6 +35200,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -35429,6 +35504,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -35860,6 +35940,11 @@
     "summary": "Retarget the Domain links to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -36285,6 +36370,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -36413,6 +36503,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -36538,6 +36633,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -36764,6 +36864,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -36943,6 +37048,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -37137,6 +37247,11 @@
     "summary": "Retarget the public-actor link to the shelf master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -37195,6 +37310,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -37840,6 +37960,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -38511,6 +38636,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -38805,6 +38935,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -38878,6 +39013,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -38951,6 +39091,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -39013,6 +39158,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -39417,6 +39567,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -40003,6 +40158,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -40109,6 +40269,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -40127,6 +40292,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },
@@ -40197,6 +40367,11 @@
     "summary": "Retarget the public-actor link to the shelf master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename."
    }
   ]
  },

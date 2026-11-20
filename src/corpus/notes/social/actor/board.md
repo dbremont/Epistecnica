@@ -27,7 +27,7 @@ qa:
 
 It is not an `Organization` (the actor whose direction it decides — though a statutory board may itself be an organization), not a `Committee` (a delegated subset or a body constituted for a defined matter), not the `Executive / Management` (the capacity that carries decisions into execution), and not an `Advisory Board` (a body that advises without governing authority). It is distinct from `Charter` (the instrument that confers its mandate), from `Social Role` (the expectation-tags its members occupy), and from `Institution` (the stabilized governance arrangement it hosts and reproduces).
 
-Readable secondarily as a `Public Organization` kind when the board itself is a statutory body with legal personality — a statutory board, public board, or board of governors. That reading is carried at `Public Organization (→ Kind) Board` and cross-linked to [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md); it is not merged into this tree. The note's primary reading is the governing body as an agency of an organization.
+Readable secondarily as a `Public Organization` kind when the board itself is a statutory body with legal personality — a statutory board, public board, or board of governors. That reading is carried at `Public Organization (→ Kind) Board` and cross-linked to [Public Organization](/view.html?p=notes/social/collective/actor/readme.md); it is not merged into this tree. The note's primary reading is the governing body as an agency of an organization.
 
 ### What is this social instance?
 
@@ -60,7 +60,7 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 
 ## Board Selection and Composition
 
-> How a board is composed and how its members — and through them the executive — are chosen. Moved here from [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md): this is the board's own subject, and the organization note now keeps only the public-organization reading of the board as a component.
+> How a board is composed and how its members — and through them the executive — are chosen. Moved here from [Public Organization](/view.html?p=notes/social/collective/actor/readme.md): this is the board's own subject, and the organization note now keeps only the public-organization reading of the board as a component.
 
 ### What types of board composition structures exist?
 
@@ -217,7 +217,7 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the actor whose direction the board decides)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (secondary reading: the statutory board as an organization; the composition and selection questions this note now owns came from there)
-- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the compound genus a board is constituted within)
+- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) (secondary reading: the statutory board as an organization; the composition and selection questions this note now owns came from there)
+- [Collective](/view.html?p=notes/social/collective/collective.md) (the compound genus a board is constituted within)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md) (the instrument that confers a board's mandate)
 - [Social Role](/view.html?p=notes/social/synontic/role.md) (the expectation-tags board members and chairs occupy)

@@ -36,4 +36,4 @@ Key Ontological Features:
 - Mansbridge, J. (2003). “Rethinking Representation.” American Political Science Review, 97(4), 515–528.
 - Urbinati, N. (2006). Representative Democracy: Principles and Genealogy. University of Chicago Press.
 - Delegation theory in political science: principal-agent frameworks (e.g., Kiewiet & McCubbins, 1991).
-- [Representation Systems](/view.html?p=notes/social/koinomia/governance/representation-systems.md) — the design space: how many representatives, selected how, at which level
+- [Representation Systems](/view.html?p=notes/social/collective/governance/representation-systems.md) — the design space: how many representatives, selected how, at which level

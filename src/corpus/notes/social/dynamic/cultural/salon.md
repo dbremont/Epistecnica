@@ -70,7 +70,7 @@ Readable secondarily as a `Social Compound` — host, habitués, conventions and
 - [Cultural Activity](/view.html?p=notes/social/dynamic/cultural/cultural-activity.md) (the family this activity belongs to)
 - [Culture](/view.html?p=notes/social/synontic/culture/culture.md) (the pattern the salon enacted)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing suspended inside the room and restored outside it)
-- [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) (the German stratum whose sociability the Berlin salons served)
+- [Bildungsbürgertum](/view.html?p=notes/social/collective/class/bildungsburgertum.md) (the German stratum whose sociability the Berlin salons served)
 - [Jürgen Habermas](/view.html?p=notes/social/actor/private/persona/jurgen-habermas.md) (the public-sphere thesis and its critics)
 - Habermas, J. (1989). *The structural transformation of the public sphere* (T. Burger, Trans.). MIT Press. (Original work published 1962)
 - Elias, N. (1983). *The court society* (E. Jephcott, Trans.). Blackwell. (Original work published 1969)

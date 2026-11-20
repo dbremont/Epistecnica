@@ -50,12 +50,12 @@ It is distinct from `Principle` (the general standard warranting judgment), from
 
 ## References
 
-The planning-framework kind is worked as an instance at [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md).
+The planning-framework kind is worked as an instance at [China Five-Year Plan](/view.html?p=notes/social/collective/action/instance/china-five-year-plan.md).
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Strategy](/view.html?p=notes/social/dynamic/action/guidance/strategy.md)
 - [Social Action Principle](/view.html?p=notes/social/dynamic/action/guidance/social-action-principle.md)
-- [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md)
-- [Soviet Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/soviet-five-year-plan.md)
-- [South Korea Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/south-korea-five-year-plan.md)
-- [India Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/india-five-year-plan.md)
+- [China Five-Year Plan](/view.html?p=notes/social/collective/action/instance/china-five-year-plan.md)
+- [Soviet Five-Year Plan](/view.html?p=notes/social/collective/action/instance/soviet-five-year-plan.md)
+- [South Korea Five-Year Plan](/view.html?p=notes/social/collective/action/instance/south-korea-five-year-plan.md)
+- [India Five-Year Plan](/view.html?p=notes/social/collective/action/instance/india-five-year-plan.md)

@@ -111,28 +111,28 @@ FAVICON_TARGET = "/img/favicon.ico"
 # URLs redirect to the new paths; the source readme stubs stay served so their
 # directory links keep a landing page.
 KOINOMIA_POLITY_OLD = "/corpus/notes/social/actor/public/polity"
-KOINOMIA_POLITY_NEW = "/corpus/notes/social/koinomia/collective/polity"
+KOINOMIA_POLITY_NEW = "/corpus/notes/social/collective/polity"
 KOINOMIA_ACTOR_OLD = "/corpus/notes/social/actor/public/"
-KOINOMIA_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/"
+KOINOMIA_ACTOR_NEW = "/corpus/notes/social/collective/actor/"
 KOINOMIA_ACTION_OLD = "/corpus/notes/social/dynamic/action/public/"
-KOINOMIA_ACTION_NEW = "/corpus/notes/social/koinomia/action/"
+KOINOMIA_ACTION_NEW = "/corpus/notes/social/collective/action/"
 KOINOMIA_POLITY_MD_OLD = "/corpus/notes/social/actor/collective/polity.md"
-KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/koinomia/collective/polity/polity.md"
+KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/collective/polity/polity.md"
 KOINOMIA_WORLD_MD_OLD = "/corpus/notes/social/actor/public/polity/world.md"
 KOINOMIA_WORLD_MD_PREV = "/corpus/notes/social/koinomia/polity/world.md"
 KOINOMIA_WORLD_MD_CURRENT = "/corpus/notes/social/koinomia/world.md"
-KOINOMIA_WORLD_MD_NEW = "/corpus/notes/social/koinomia/space/world.md"
+KOINOMIA_WORLD_MD_NEW = "/corpus/notes/social/collective/space/world.md"
 KOINOMIA_REGION_MD_OLD = "/corpus/notes/social/region.md"
 KOINOMIA_REGION_MD_META = "/corpus/notes/social/meta/region.md"
 KOINOMIA_REGION_MD_CURRENT = "/corpus/notes/social/koinomia/region.md"
-KOINOMIA_REGION_MD_NEW = "/corpus/notes/social/koinomia/space/region.md"
+KOINOMIA_REGION_MD_NEW = "/corpus/notes/social/collective/space/region.md"
 KOINOMIA_DOMAIN_OLD = "/corpus/notes/social/koinomia/action/problem/dimension"
 KOINOMIA_DOMAIN_PREV = "/corpus/notes/social/koinomia/action/domain"
-KOINOMIA_DOMAIN_NEW = "/corpus/notes/social/koinomia/action/problem"
+KOINOMIA_DOMAIN_NEW = "/corpus/notes/social/collective/action/problem"
 INVESTMENT_MD_PREV = "/corpus/notes/social/koinomia/action/domain/investment/investment.md"
 INVESTMENT_MD_ALLOC = "/corpus/notes/social/koinomia/action/domain/finance/state-capital-allocation.md"
 INVESTMENT_MD_ALLOC_FLAT = "/corpus/notes/social/koinomia/action/problem/finance/state-capital-allocation.md"
-INVESTMENT_MD_NEW = "/corpus/notes/social/koinomia/action/problem/finance/investment.md"
+INVESTMENT_MD_NEW = "/corpus/notes/social/collective/action/problem/finance/investment.md"
 URBANISM_SOCIAL = "/corpus/notes/social/koinomia/action/problem/urbanism/"
 URBANISM_TECH = "/corpus/notes/technica/general/urbanism/"
 URBANISM_MOVED = {
@@ -172,7 +172,7 @@ HUMAN_LANGUAGE_MOVED = {
 PRIVATE_ACTOR_OLD = "/corpus/notes/social/actor/actor.md"
 PRIVATE_ACTOR_NEW = "/corpus/notes/social/actor/private-actor.md"
 PUBLIC_AGENCY_OLD = "/corpus/notes/social/koinomia/action/agency.md"
-PUBLIC_AGENCY_NEW = "/corpus/notes/social/koinomia/action/public-agency.md"
+PUBLIC_AGENCY_NEW = "/corpus/notes/social/collective/action/public-agency.md"
 HUMAN_BEHAVIORAL_OLD = "/corpus/notes/nature/life/organism/human/behavioral.md"
 HUMAN_BEHAVIORAL_NEW = "/corpus/notes/social/dynamic/behavior/human/behavioral.md"
 REPRESENTATION_OLD = "/corpus/notes/social/koinomia/representation/"
@@ -180,17 +180,17 @@ REPRESENTATION_NEW = "/corpus/notes/social/representation/"
 ATLAS_PO_OLD = "/corpus/notes/social/koinomia/actor/atlas/"
 ATLAS_GOV_SHELF_OLD = "/corpus/notes/social/koinomia/governance/atlas/"
 ATLAS_ACTION_OLD = "/corpus/notes/social/koinomia/action/atlas/"
-REPRESENTATION_DIR = "/corpus/notes/social/koinomia/representation/"
+REPRESENTATION_DIR = "/corpus/notes/social/collective/representation/"
 LEGISLATURE_REPR_OLD = "/corpus/notes/social/koinomia/actor/legislature/representation-systems.md"
-LEGISLATURE_REPR_NEW = "/corpus/notes/social/koinomia/governance/representation-systems.md"
+LEGISLATURE_REPR_NEW = "/corpus/notes/social/collective/governance/representation-systems.md"
 LEGISLATURE_COMMITTEE_OLD = "/corpus/notes/social/koinomia/actor/legislature/swe/committee-of-ways-and-means.md"
-LEGISLATURE_COMMITTEE_NEW = "/corpus/notes/social/koinomia/actor/instance/administration/committee-of-ways-and-means.md"
+LEGISLATURE_COMMITTEE_NEW = "/corpus/notes/social/collective/actor/instance/administration/committee-of-ways-and-means.md"
 PUBLIC_EMPLOYEE_OLD = "/corpus/notes/social/koinomia/actor/instance/employee.md"
-PUBLIC_EMPLOYEE_NEW = "/corpus/notes/social/koinomia/actor/type/employee.md"
+PUBLIC_EMPLOYEE_NEW = "/corpus/notes/social/collective/actor/type/employee.md"
 PUBLIC_ACTOR_OLD = "/corpus/notes/social/koinomia/actor/public-organization.md"
-PUBLIC_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/readme.md"
+PUBLIC_ACTOR_NEW = "/corpus/notes/social/collective/actor/readme.md"
 PUBLIC_TYPE_OLD = "/corpus/notes/social/koinomia/actor/"
-PUBLIC_TYPE_NEW = "/corpus/notes/social/koinomia/actor/type/"
+PUBLIC_TYPE_NEW = "/corpus/notes/social/collective/actor/type/"
 PUBLIC_TYPE_MOVED = {
     "government.md",
     "municipal-government.md",
@@ -201,11 +201,11 @@ PUBLIC_TYPE_MOVED = {
     "pri.md",
 }
 HRU_OLD = "/corpus/notes/social/koinomia/actor/instance/hru.md"
-HRU_NEW = "/corpus/notes/social/koinomia/governance/hru.md"
+HRU_NEW = "/corpus/notes/social/collective/governance/hru.md"
 SUZHOU_OLD = "/corpus/notes/social/koinomia/actor/instance/suzhou-industrial-park.md"
-SUZHOU_NEW = "/corpus/notes/social/koinomia/action/instance/suzhou-industrial-park.md"
+SUZHOU_NEW = "/corpus/notes/social/collective/action/instance/suzhou-industrial-park.md"
 INTL_POLITY_OLD = "/corpus/notes/social/koinomia/polity/international/"
-INTL_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/instance/international/"
+INTL_ACTOR_NEW = "/corpus/notes/social/collective/actor/instance/international/"
 INTL_MOVED = {
     "comision-economica-para-america-latina-y-el-caribe.md",
     "nordic-council-of-ministers.md",
@@ -213,14 +213,14 @@ INTL_MOVED = {
     "onu.md",
     "wto.md",
 }
-POLITY_MD = "/corpus/notes/social/koinomia/collective/polity/polity.md"
+POLITY_MD = "/corpus/notes/social/collective/polity/polity.md"
 ATLAS_GOV_OLD = "/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration"
-ATLAS_GOV_NEW = "/corpus/notes/social/koinomia/governance/atlas/gov-wide-administration"
+ATLAS_GOV_NEW = "/corpus/notes/social/collective/governance/atlas/gov-wide-administration"
 POLITY_DIR_OLD = "/corpus/notes/social/koinomia/polity/"
-POLITY_DIR_NEW = "/corpus/notes/social/koinomia/collective/polity/"
+POLITY_DIR_NEW = "/corpus/notes/social/collective/polity/"
 COLLECTIVE_OLD = "/corpus/notes/social/actor/collective/"
-COLLECTIVE_NEW = "/corpus/notes/social/koinomia/collective/"
-GOVERNANCE_DIR = "/corpus/notes/social/koinomia/governance/"
+COLLECTIVE_NEW = "/corpus/notes/social/collective/"
+GOVERNANCE_DIR = "/corpus/notes/social/collective/governance/"
 GOVERNANCE_MOVED = {
     "/corpus/notes/social/koinomia/actor/administration.md": GOVERNANCE_DIR + "administration.md",
     "/corpus/notes/social/koinomia/actor/civil-service.md": GOVERNANCE_DIR + "civil-service.md",
@@ -238,7 +238,7 @@ POLICY_NEW = "/corpus/notes/social/dynamic/action/guidance/policy.md"
 COMMODITY_NEW = "/corpus/notes/social/coordinator/market/instance/commodity/commodity-trading-system.md"
 TALENT_RESEARCH = "/corpus/notes/social/dynamic/research/talent-attraction.md"
 MSTP_OLD = "/corpus/notes/social/dynamic/action/organization/medical-scientist-training-program.md"
-MSTP_NEW = "/corpus/notes/social/koinomia/action/instance/medical-scientist-training-program.md"
+MSTP_NEW = "/corpus/notes/social/collective/action/instance/medical-scientist-training-program.md"
 INSTANCE_FROM = "/corpus/notes/social/koinomia/action/informe/"
 INSTANCE_TO = "/corpus/notes/social/koinomia/action/instance/"
 INFORME_FLAT = "/corpus/notes/social/koinomia/action/informe/"
@@ -763,6 +763,22 @@ class HubHandler(SimpleHTTPRequestHandler):
         if path == KOINOMIA_ACTION_OLD.rstrip("/") or path.startswith(KOINOMIA_ACTION_OLD):
             rest = path[len(KOINOMIA_ACTION_OLD):]
             self._redirect(KOINOMIA_ACTION_NEW + rest)
+            return True
+
+        # The koinomia shelf was renamed to collective; the old branch level
+        # collapses, so collective/ paths lose that segment.
+        if path == "/corpus/notes/social/koinomia/readme.md":
+            self._redirect("/corpus/notes/social/collective/koinomia.md")
+            return True
+
+        if path.startswith("/corpus/notes/social/koinomia/collective/"):
+            rest = path[len("/corpus/notes/social/koinomia/collective/"):]
+            self._redirect("/corpus/notes/social/collective/" + rest)
+            return True
+
+        if path.startswith("/corpus/notes/social/koinomia/"):
+            rest = path[len("/corpus/notes/social/koinomia/"):]
+            self._redirect("/corpus/notes/social/collective/" + rest)
             return True
 
         return False

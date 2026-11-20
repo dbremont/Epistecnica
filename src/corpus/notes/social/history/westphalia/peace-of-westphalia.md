@@ -25,5 +25,5 @@ tags: [note, social, history, treaty, sovereignty, europe]
 
 - [Peace of Westphalia — Wikipedia](https://en.wikipedia.org/wiki/Peace_of_Westphalia)
 - [Collège des Quatre-Nations](/view.html?p=notes/social/actor/private/education/fra/college-des-quatre-nations.md) — the Paris college endowed for the provinces this treaty annexed
-- [Habsburg Monarchy](/view.html?p=notes/social/koinomia/collective/polity/instance/hab/habsburg-monarchy.md) — the Empire whose constitution the settlement fixed
+- [Habsburg Monarchy](/view.html?p=notes/social/collective/polity/instance/hab/habsburg-monarchy.md) — the Empire whose constitution the settlement fixed
 - Gross, L. (1948). The Peace of Westphalia, 1648–1948. *American Journal of International Law*, 42(1), 20–41. — the essay that made "Westphalian sovereignty" a term

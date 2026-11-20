@@ -35,5 +35,5 @@ tags: [document, paper, history, habsburg, economic-history, trade, core-periphe
 ## References
 
 - [Hungarian Historical Review — article page](https://hunghist.org/83-articles/502-2018-2-kaps)
-- [Habsburg Monarchy](/view.html?p=notes/social/koinomia/collective/polity/instance/hab/habsburg-monarchy.md) — the polity this article analyses
+- [Habsburg Monarchy](/view.html?p=notes/social/collective/polity/instance/hab/habsburg-monarchy.md) — the polity this article analyses
 - [Pichler (2001)](/view.html?p=documents/papers/pichler-2001-economic-policy-austrian-lombardy.md) — the Lombard case of the same relation

@@ -126,7 +126,7 @@
           statistics: [], works: works, references: [],
           footer: { entityCode: code.toUpperCase(), region: '', lastRevised: '',
             links: [
-              { label: 'Polity Index', href: '/corpus/notes/social/koinomia/collective/polity/index.html' },
+              { label: 'Polity Index', href: '/corpus/notes/social/collective/polity/index.html' },
               { label: 'Catalog', href: '/explorer.html' }
             ] }
         };
@@ -138,7 +138,7 @@
         if (subtitle) {
           subtitle.textContent = data.identity.name;
           subtitle.href = '/explorer.html?dir=' +
-            encodeURIComponent('social/koinomia/collective/polity/instance/' + code);
+            encodeURIComponent('social/collective/polity/instance/' + code);
         }
       } catch (error) {
         console.error('Failed to load country data:', error);

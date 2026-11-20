@@ -12,7 +12,7 @@ tags: [note, social, actor, learned-society, scientific-collective, bohemia, cze
 
 > The society grew out of the Prague learned circles of the 1770s and was founded in 1784 on the model of the European academies. Its founding members included the philologist Josef Dobrovský, the historian Gelasius Dobner, and the mathematician Joseph Stepling; the historian František Palacký later presided. It was a bilingual body — German and Czech — and its *Abhandlungen* carried natural-philosophical, historical and philological work, including Bernard Bolzano’s 1817 proof of the intermediate-value theorem.
 
-> In 1890 the Czech Academy of Sciences and Arts was founded alongside it as a Czech-language academy; in 1952 the society was dissolved and its tradition transferred to the newly founded Czechoslovak Academy of Sciences, whose successor is the [Czech Academy of Sciences](/view.html?p=notes/social/koinomia/actor/instance/research/cze/czech-academy-of-sciences.md) (1992). The society is not the modern academy: it is the private learned society that preceded it. Its constitution was a set of statutes and a royal title, not a public mandate; its members were elected, not appointed; its work was publication and scholarly exchange, not the management of a national research system.
+> In 1890 the Czech Academy of Sciences and Arts was founded alongside it as a Czech-language academy; in 1952 the society was dissolved and its tradition transferred to the newly founded Czechoslovak Academy of Sciences, whose successor is the [Czech Academy of Sciences](/view.html?p=notes/social/collective/actor/instance/research/cze/czech-academy-of-sciences.md) (1992). The society is not the modern academy: it is the private learned society that preceded it. Its constitution was a set of statutes and a royal title, not a public mandate; its members were elected, not appointed; its work was publication and scholarly exchange, not the management of a national research system.
 
 ### What social element type does this social instance belong to?
 
@@ -87,5 +87,5 @@ Two load-bearing caveats.
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (the family this society belongs to)
 - [The Royal Society of London for Improving Natural Knowledge](/view.html?p=notes/social/actor/private/research/gbr/the-royal-society-of-london-for-improving-natural-knowledge.md) (sibling learned society)
-- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
+- [Collective](/view.html?p=notes/social/collective/collective.md)
 - [Actor](/view.html?p=notes/social/actor/private-actor.md)

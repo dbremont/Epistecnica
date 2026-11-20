@@ -101,5 +101,5 @@ For all its limits, De Witt's career marks the height of the Dutch Republic's co
 ## See also
 
 - [Baruch Spinoza](/view.html?p=notes/social/actor/private/persona/baruch-spinoza.md)
-- [Netherlands](/view.html?p=notes/social/koinomia/collective/polity/instance/nld/netherlands.md)
+- [Netherlands](/view.html?p=notes/social/collective/polity/instance/nld/netherlands.md)
 - [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md)

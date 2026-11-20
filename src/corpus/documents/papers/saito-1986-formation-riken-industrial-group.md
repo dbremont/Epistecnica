@@ -26,4 +26,4 @@ tags: [document, paper, japan, business-history, riken]
 
 - [J-STAGE — full text PDF](https://www.jstage.jst.go.jp/article/jrbh1984/2/0/2_0_119/_pdf/-char/en)
 - [J-STAGE — article page](https://www.jstage.jst.go.jp/article/jrbh1984/2/0/2_0_119/_article/-char/en)
-- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)

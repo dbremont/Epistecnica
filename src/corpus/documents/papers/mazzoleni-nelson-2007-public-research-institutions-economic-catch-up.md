@@ -30,6 +30,6 @@ tags: [document, paper, innovation, catch-up, public-research, industrial-policy
 - [DOI / ScienceDirect — article page](https://doi.org/10.1016/j.respol.2007.06.007)
 - [RePEc / IDEAS — bibliographic record](https://ideas.repec.org/a/eee/respol/v36y2007i10p1512-1528.html)
 - [Paperzz — alternate copy](https://paperzz.com/doc/9419081/-public-research-institutions-and-economic-catch-up)
-- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)
 - [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
 - [Technology Acquisition](/view.html?p=notes/social/dynamic/production/technology-acquisition.md)

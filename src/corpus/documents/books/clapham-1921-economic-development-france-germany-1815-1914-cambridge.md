@@ -27,7 +27,7 @@ Clapham's book is the comparative economic history of the two economies that ind
 ## References
 
 - [The economic development of France and Germany, 1815–1914](https://archive.org/details/cu31924013709641) — the Cornell University Library scan on the Internet Archive
-- [Germany](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/germany.md) — the polity whose industrialisation the book narrates
-- [France](/view.html?p=notes/social/koinomia/collective/polity/instance/fra/france.md) — the comparative case
+- [Germany](/view.html?p=notes/social/collective/polity/instance/deu/germany.md) — the polity whose industrialisation the book narrates
+- [France](/view.html?p=notes/social/collective/polity/instance/fra/france.md) — the comparative case
 - [Economic History](/view.html?p=notes/miscellanea/unclassified/history/economy/history-of-economic-thinking-and-practice.md) — the corpus's economic-history shelf
 - [Industrialisation](https://en.wikipedia.org/wiki/Industrialisation)

@@ -28,4 +28,4 @@ tags: [document, paper, japan, science-history, science-policy]
 
 - [J-STAGE — article page](https://www.jstage.jst.go.jp/article/jhsj/51/263/51_138/_article/-char/en)
 - [J-STAGE — full text PDF](https://www.jstage.jst.go.jp/article/jhsj/51/263/51_138/_pdf/-char/en)
-- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)

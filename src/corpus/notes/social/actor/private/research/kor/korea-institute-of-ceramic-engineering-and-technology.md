@@ -24,4 +24,4 @@ Korea built a ceramics industry — sanitary ware, tile, electronic components �
 - [KICET](https://kicet.re.kr/)
 - [Ceramic](/view.html?p=notes/technica/general/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/actor/research.md) — the actor form
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the type a government-funded institute reads as
+- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) — the type a government-funded institute reads as

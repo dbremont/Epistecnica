@@ -14,5 +14,5 @@ tags: [document, book, chapter, poland, industrial-policy, oecd]
 
 ## References
 
-- [Poland — industrial policy](/view.html?p=notes/social/koinomia/collective/polity/instance/pol/poland.md) — the polity note
+- [Poland — industrial policy](/view.html?p=notes/social/collective/polity/instance/pol/poland.md) — the polity note
 - [Kożuch — instruments of industrial policy](/view.html?p=documents/papers/kozuch-instruments-of-industrial-policy-restructuring.md) — the academic treatment of the same instrument set

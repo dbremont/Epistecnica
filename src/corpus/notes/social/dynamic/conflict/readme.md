@@ -10,9 +10,9 @@ tags: [note, social, conflict]
 
 ## Neighbours
 
-- [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) — the authoritative order conflict runs against.
+- [Polity](/view.html?p=notes/social/collective/polity/polity.md) — the authoritative order conflict runs against.
 - [Relation](/view.html?p=notes/social/relation/social-relation.md) — the ties that bind actors, and whose breaking conflict is.
-- [Public Action](/view.html?p=notes/social/koinomia/action/readme.md) — the policy and intervention that respond to conflict.
+- [Public Action](/view.html?p=notes/social/collective/action/readme.md) — the policy and intervention that respond to conflict.
 
 ## References
 

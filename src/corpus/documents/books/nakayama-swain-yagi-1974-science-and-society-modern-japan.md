@@ -26,4 +26,4 @@ tags: [document, book, japan, science-history, science-and-society]
 - [Archive.org — Science and Society in Modern Japan](https://archive.org/details/sciencesocietyin0000unse_l6n6)
 - [Itakura & Yagi (1957) — The Japanese Research System and the Establishment of the Institute of Physical and Chemical Research](/view.html?p=documents/papers/itakura-yagi-1957-japanese-research-system-riken.md)
 - [Hirosige (1963) — Social Conditions for Prewar Japanese Research in Nuclear Physics](/view.html?p=documents/papers/hirosige-1963-social-conditions-prewar-japanese-nuclear-physics.md)
-- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)

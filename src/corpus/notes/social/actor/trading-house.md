@@ -57,8 +57,8 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 - **Actor**: [Actor](/view.html?p=notes/social/actor/private-actor.md) · [Firm](/view.html?p=notes/social/actor/firm.md) · [Organization](/view.html?p=notes/social/actor/organization.md)
 - **Coordination**: [Market](/view.html?p=notes/social/coordinator/market/market.md) · [Capital](/view.html?p=notes/social/coordinator/capital-labor/capital.md)
 - **Commerce**: [Commerce](/view.html?p=notes/social/dynamic/trade/commerce-economic-activity.md) · [Trade](/view.html?p=notes/social/dynamic/trade/trade.md) · [Exchange](/view.html?p=notes/social/dynamic/trade/exchange.md) · [International Trade](/view.html?p=notes/social/dynamic/trade/international-trade.md)
-- **Policy**: [Trade](/view.html?p=notes/social/koinomia/action/problem/international/trade/trade.md) · [Export](/view.html?p=notes/social/koinomia/action/problem/international/trade/export.md) · [Industry](/view.html?p=notes/social/koinomia/action/problem/production/industry/industry.md)
-- **Japan**: [Japan](/view.html?p=notes/social/koinomia/collective/polity/instance/jpn/japan.md) · [JETRO](/view.html?p=notes/social/koinomia/actor/instance/development/japan-external-trade-organization.md) · [MITI](/view.html?p=notes/social/koinomia/actor/instance/development/ministry-of-international-trade-and-industry.md)
+- **Policy**: [Trade](/view.html?p=notes/social/collective/action/problem/international/trade/trade.md) · [Export](/view.html?p=notes/social/collective/action/problem/international/trade/export.md) · [Industry](/view.html?p=notes/social/collective/action/problem/production/industry/industry.md)
+- **Japan**: [Japan](/view.html?p=notes/social/collective/polity/instance/jpn/japan.md) · [JETRO](/view.html?p=notes/social/collective/actor/instance/development/japan-external-trade-organization.md) · [MITI](/view.html?p=notes/social/collective/actor/instance/development/ministry-of-international-trade-and-industry.md)
 - **Technique**: [Retail](/view.html?p=notes/technica/production/industry/commerce/retail.md) · [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md)
 
 ## References

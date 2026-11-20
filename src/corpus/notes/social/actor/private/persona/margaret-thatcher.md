@@ -63,5 +63,5 @@ She remains a polarizing figure rather than a settled one. Her admirers see conv
 
 ## See also
 
-- [United Kingdom](/view.html?p=notes/social/koinomia/collective/polity/instance/gbr/uk.md)
+- [United Kingdom](/view.html?p=notes/social/collective/polity/instance/gbr/uk.md)
 - [What We Do in the Shadows](/view.html?p=documents/articles/woodward-silverwood-2023-what-we-do-in-the-shadows-dual-industrial-policy.md)

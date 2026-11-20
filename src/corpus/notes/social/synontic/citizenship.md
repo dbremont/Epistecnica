@@ -61,6 +61,6 @@ Readable secondarily as **Normative** (the rights–obligations bundle: vote, pr
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the genus: standing recognized by a collective)
 - [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: standings attach to actors)
-- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the conferring body)
+- [Collective](/view.html?p=notes/social/collective/collective.md) (the conferring body)
 - Marshall, T. H. (1950). Citizenship and social class. In *Citizenship and social class and other essays* (pp. 1–85). Cambridge University Press.
 - Brubaker, R. (1992). *Citizenship and nationhood in France and Germany*. Harvard University Press.

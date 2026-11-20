@@ -25,10 +25,10 @@
       "title": "Submodel Characterisation Frame",
       "description": "The note's own characterisation system: an orthogonal decomposition of a well-functioning government-wide administration into 23 submodels, each carrying the dimensions that locate a system within its domain.",
       "frame_basis": "Functional submodel decomposition, optimised for comprehensive coverage and orthogonality.",
-      "provenance": "note: social/koinomia/governance/gov-wide-administration.md",
+      "provenance": "note: social/collective/governance/gov-wide-administration.md",
       "related_notes": [
-        "social/koinomia/governance/gov-wide-administration.md",
-        "social/koinomia/governance/administration.md"
+        "social/collective/governance/gov-wide-administration.md",
+        "social/collective/governance/administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Full submodel characterization: every administrative submodel contributes characteristic elements to one profile.",
@@ -2393,7 +2393,7 @@
       "frame_basis": "Organizational-structure coordinates (the Aston/Pugh structural school).",
       "provenance": "authored frame: organizational-structure dimensions",
       "related_notes": [
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare structural configuration: how the administration is shaped.",
@@ -2569,7 +2569,7 @@
       "frame_basis": "Extension of the note's properties table (centralization, standardization, integration, sharing, interoperability) into a full property space.",
       "provenance": "authored frame: system-wide property spectra",
       "related_notes": [
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare system-wide properties: centralization, formalization, and coherence.",
@@ -2754,7 +2754,7 @@
       "frame_basis": "Distribution of the core administrative functions across performers.",
       "provenance": "authored frame: functional allocation coordinates",
       "related_notes": [
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare how administrative functions are allocated across units.",
@@ -2901,7 +2901,7 @@
       "frame_basis": "Distribution of formal decision rights across the administrative system.",
       "provenance": "authored frame: decision-rights coordinates",
       "related_notes": [
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare where administrative decision rights sit.",
@@ -3036,10 +3036,10 @@
       "frame_basis": "World Bank Worldwide Bureaucracy Indicators (WWBI) - public employment demographics (commercial indicator framework: public sector footprint and workforce composition).",
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
-        "social/koinomia/governance/civil-service.md",
-        "social/koinomia/actor/type/employee.md",
-        "social/koinomia/actor/instance/hru.md",
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/civil-service.md",
+        "social/collective/actor/type/employee.md",
+        "social/collective/actor/instance/hru.md",
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare public-employment profiles using World Bank WWBI indicators.",
@@ -3200,9 +3200,9 @@
       "frame_basis": "World Bank Worldwide Bureaucracy Indicators (WWBI) - wage premiums, pay compression, gender pay gaps, and the public sector wage bill (commercial indicator framework: compensation and fiscal footprint).",
       "provenance": "World Bank Worldwide Bureaucracy Indicators (WWBI), 302 indicators, 202 economies",
       "related_notes": [
-        "social/koinomia/governance/civil-service.md",
-        "social/koinomia/actor/type/employee.md",
-        "social/koinomia/governance/gov-wide-administration.md"
+        "social/collective/governance/civil-service.md",
+        "social/collective/actor/type/employee.md",
+        "social/collective/governance/gov-wide-administration.md"
       ],
       "universe": "Government-wide administrative systems: the cross-government coordinating arrangements of a polity over its ministries, agencies, and territorial administrations.",
       "purpose": "Compare public-compensation profiles using World Bank WWBI indicators.",

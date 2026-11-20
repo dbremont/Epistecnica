@@ -26,4 +26,4 @@ tags: [document, paper, japan, science-history, riken]
 
 - [English translation — Science and Society in Modern Japan (archive.org)](https://archive.org/details/sciencesocietyin0000unse_l6n6)
 - [Nakayama, Swain & Yagi (1974) — Science and Society in Modern Japan](/view.html?p=documents/books/nakayama-swain-yagi-1974-science-and-society-modern-japan.md)
-- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)
