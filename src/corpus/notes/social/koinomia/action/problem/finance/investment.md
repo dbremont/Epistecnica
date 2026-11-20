@@ -12,14 +12,14 @@ qa:
 
 > The state's investment is a different problem from the market's in one decisive respect: it has objectives that are not returns — mission, externality, capability, strategic autonomy — and **no single price to aggregate them**. The decision is therefore political-administrative, and its characteristic failures are political rather than computational: capture, visibility, and the inability to stop.
 
-> This note is the decision and the mechanisms through which the state invests. The instrument space it chooses from is [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md); the market allocation it departs from is [Allocation](/view.html?p=notes/social/dynamic/finance/allocation.md); the claims it ends up holding are classified in the finance asset shelf — [Security](/view.html?p=notes/technica/production/industry/finance/asset/security.md), [Share](/view.html?p=notes/technica/production/industry/finance/asset/share.md), [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md), [Option](/view.html?p=notes/technica/production/industry/finance/asset/option.md).
+> This note is the decision and the mechanisms through which the state invests. The instrument space it chooses from is [Finance](/view.html?p=notes/social/koinomia/action/problem/finance/finance.md); the market allocation it departs from is [Allocation](/view.html?p=notes/social/dynamic/finance/allocation.md); the claims it ends up holding are classified in the finance asset shelf — [Security](/view.html?p=notes/technica/production/industry/finance/asset/security.md), [Share](/view.html?p=notes/technica/production/industry/finance/asset/share.md), [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md), [Option](/view.html?p=notes/technica/production/industry/finance/asset/option.md).
 
 ## Investment forms
 
 | **Form** | **The choice** | **Where it is read** |
 | --- | --- | --- |
 | **Financial or real** | A claim on someone else's cash flow, or a productive asset itself | [Security](/view.html?p=notes/technica/production/industry/finance/asset/security.md), [Share](/view.html?p=notes/technica/production/industry/finance/asset/share.md), [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md); real estate, commodities |
-| **Direct or portfolio** | The state lends or holds the asset itself, or holds it through a fund | [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md), [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) |
+| **Direct or portfolio** | The state lends or holds the asset itself, or holds it through a fund | [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/mother-fund.md), [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) |
 | **Equity, debt, grant, guarantee** | The claim the state takes in return | [Capital](/view.html?p=notes/social/coordinator/capital-labor/capital.md), [Loan](/view.html?p=notes/technica/production/industry/finance/asset/loan.md), tax expenditure |
 | **Domestic or foreign** | Where the asset sits | FDI, portfolio flows, export credit |
 
@@ -51,7 +51,7 @@ The criteria conflict, and pretending otherwise is where allocations acquire the
 | **Route** | **How capital reaches the firm** | **Typical forms** | **Characteristic failure** |
 | --- | --- | --- | --- |
 | **Direct** | The state lends or takes equity itself | Development bank lending, sovereign equity stakes, project finance | **Soft budget constraint**: the borrower that cannot be allowed to fail because the state is the lender |
-| **Intermediated** | The state capitalises funds that invest | [Mother fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) → [fund of funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) → firms | **Mission drift** down the chain: each layer optimises for the layer above |
+| **Intermediated** | The state capitalises funds that invest | [Mother fund](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/mother-fund.md) → [fund of funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) → firms | **Mission drift** down the chain: each layer optimises for the layer above |
 | **Indirect** | The state forgoes revenue or absorbs risk | Tax credits, guarantees, subsidised insurance, accelerated depreciation | **Invisibility**: the cost never appears as spending, so it is never debated as spending |
 | **Portfolio** | The state allocates as an owner | Sovereign wealth funds, holding companies | **Mandate displacement**: return logic quietly replaces the development purpose |
 
@@ -105,15 +105,15 @@ Four instruments of discipline, in ascending order of how rarely they are used:
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) | The instrument space; this note is the decision that chooses among the instruments |
-| [State Finance](/view.html?p=notes/social/koinomia/action/domain/state/finance/state-finance.md) | The state's own financial position — the envelope the investment draws on |
+| [Finance](/view.html?p=notes/social/koinomia/action/problem/finance/finance.md) | The instrument space; this note is the decision that chooses among the instruments |
+| [State Finance](/view.html?p=notes/social/koinomia/action/problem/state/finance/state-finance.md) | The state's own financial position — the envelope the investment draws on |
 | [Allocation](/view.html?p=notes/social/dynamic/finance/allocation.md) | The generic activity; this note is its state-directed form |
 | [Saving](/view.html?p=notes/social/dynamic/finance/saving.md) | The other side of the household decision — income not consumed |
 | [Capital](/view.html?p=notes/social/coordinator/capital-labor/capital.md) | What the investment commits |
 | [Market](/view.html?p=notes/social/coordinator/market/market.md) | The arena the instruments are priced in, and the allocation it departs from |
 | [Finance Actor](/view.html?p=notes/social/actor/finance.md) | The bodies that carry the allocation: banks, funds, holdings |
-| [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) | The intermediated route's anchor, and its mandate problem in miniature |
-| [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) | The vehicle that carries the allocation into the funds below |
+| [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/mother-fund.md) | The intermediated route's anchor, and its mandate problem in miniature |
+| [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) | The vehicle that carries the allocation into the funds below |
 | [Private Equity](/view.html?p=notes/technica/production/industry/finance/pe/readme.md) · [Venture Capital](/view.html?p=notes/technica/production/industry/finance/venture/readme.md) | The private vehicles the state co-invests with |
 | [Return](/view.html?p=notes/social/relation/economic/return.md) | The criterion the state subordinates to its objectives — and the source of the tension |
 
@@ -131,5 +131,5 @@ Four instruments of discipline, in ascending order of how rarely they are used:
 - OECD (2015). *OECD guidelines on corporate governance of state-owned enterprises*. OECD Publishing. — the ownership discipline for the holding route
 - [State capitalism](https://en.wikipedia.org/wiki/State_capitalism) · [Industrial policy](https://en.wikipedia.org/wiki/Industrial_policy)
 - [Yozma](https://en.wikipedia.org/wiki/Yozma) · [Sovereign wealth fund](https://en.wikipedia.org/wiki/Sovereign_wealth_fund)
-- [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) · [State Finance](/view.html?p=notes/social/koinomia/action/domain/state/finance/state-finance.md) — the instrument space and the fiscal envelope
-- [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) · [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) — the intermediated route
+- [Finance](/view.html?p=notes/social/koinomia/action/problem/finance/finance.md) · [State Finance](/view.html?p=notes/social/koinomia/action/problem/state/finance/state-finance.md) — the instrument space and the fiscal envelope
+- [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/mother-fund.md) · [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) — the intermediated route

@@ -1,5 +1,6 @@
 ---
 tags: [note, social, social-element, problem, problematization, intention, agency, goal]
+order: 0
 ---
 
 # Problem
@@ -47,7 +48,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 ### When does a problem become policy-actionable?
 
-> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](/view.html?p=notes/social/koinomia/action/problem/policy-problem.md); the [Dimension](/view.html?p=notes/social/koinomia/action/domain/domain.md) index scopes in which domain of social reality it sits.
+> Through problematization to agenda to mandate: the gap is formulated and evidenced, the formulation wins collective attention (agenda), an authority adopts it as its course (mandate), and instruments are chosen and tasked. That chain is documented at [Problem](/view.html?p=notes/social/koinomia/action/problem/policy-problem.md); the [Dimension](/view.html?p=notes/social/koinomia/action/problem/domain.md) index scopes in which domain of social reality it sits.
 
 ## References
 
@@ -55,5 +56,5 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 - [Agency](/view.html?p=notes/social/koinomia/action/agency.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [Problem](/view.html?p=notes/social/koinomia/action/problem/policy-problem.md)
-- [Dimension](/view.html?p=notes/social/koinomia/action/domain/domain.md)
+- [Dimension](/view.html?p=notes/social/koinomia/action/problem/domain.md)
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)

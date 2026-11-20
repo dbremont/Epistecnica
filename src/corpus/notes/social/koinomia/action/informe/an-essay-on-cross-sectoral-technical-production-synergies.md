@@ -119,8 +119,8 @@ The construction has three virtues that keep it in use. It is **measurable** fro
 ## References
 
 - [Economic Complexity](/view.html?p=notes/epistemica/complexity/economic-complexity.md) — the complexity index and the product-space frame this essay argues beside
-- [Economic Diversification](/view.html?p=notes/social/koinomia/action/domain/production/diversification/economic-diversification.md) — diversification policy and its smart-specialisation variant
-- [Cluster](/view.html?p=notes/social/koinomia/action/domain/production/cluster/cluster.md) — the cluster as the physical form of a production stack
+- [Economic Diversification](/view.html?p=notes/social/koinomia/action/problem/production/diversification/economic-diversification.md) — diversification policy and its smart-specialisation variant
+- [Cluster](/view.html?p=notes/social/koinomia/action/problem/production/cluster/cluster.md) — the cluster as the physical form of a production stack
 - [Productive Policy](/view.html?p=notes/social/koinomia/action/instrument/policy/productive-policy.md) — the policy frame the test belongs to
 - [A Defense of Industrial Policy](/view.html?p=notes/miscellanea/unclassified/a-defense-of-industrial-policy.md) — the case for intervention the overlap test has to serve
 - [The Defense Industry as Catalyst of General Technical Progress](/view.html?p=notes/social/koinomia/action/informe/the-defense-industry-as-catalyst-of-general-technical-progress.md) — the companion essay on capability transfer through procurement

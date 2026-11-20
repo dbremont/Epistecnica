@@ -8,7 +8,7 @@ qa:
 
 # Mother Fund
 
-> A **mother fund** is a public anchor fund that capitalises a family of **daughter funds**: it sets their mandate — sector, stage, geography — provides the anchor or first-loss capital that makes them viable, and holds the structure, usually through a [fund of funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md). It is the state's capital placed one level above the funds that invest, and two levels above the firms.
+> A **mother fund** is a public anchor fund that capitalises a family of **daughter funds**: it sets their mandate — sector, stage, geography — provides the anchor or first-loss capital that makes them viable, and holds the structure, usually through a [fund of funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md). It is the state's capital placed one level above the funds that invest, and two levels above the firms.
 
 > Its economic function is **signalling and leverage, not ownership**. The public money is not meant to be the investment; it is meant to make the private investment happen — to price the risk that private capital will not take first, and to give private co-investors the confidence that someone with a longer horizon is already in.
 
@@ -59,14 +59,14 @@ Both are invisible in the two numbers usually reported — capital committed and
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) | The vehicle through which the anchor usually holds the family of funds |
+| [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) | The vehicle through which the anchor usually holds the family of funds |
 | [Investment](/view.html?p=notes/social/dynamic/finance/investment.md) | The activity the daughter funds perform |
 | [Return](/view.html?p=notes/social/relation/economic/return.md) | What the anchor subordinates to the mandate, and the tension the note is about |
-| [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) | The instrument space this belongs to, beside sovereign wealth and public venture capital |
+| [Finance](/view.html?p=notes/social/koinomia/action/problem/finance/finance.md) | The instrument space this belongs to, beside sovereign wealth and public venture capital |
 
 ## References
 
 - [Fund of funds](https://en.wikipedia.org/wiki/Fund_of_funds) · [Sovereign wealth fund](https://en.wikipedia.org/wiki/Sovereign_wealth_fund) · [Development finance institution](https://en.wikipedia.org/wiki/Development_finance_institution)
-- [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) — the vehicle
-- [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) — the instrument space this note belongs to
+- [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/finance/instrument/fund-of-funds.md) — the vehicle
+- [Finance](/view.html?p=notes/social/koinomia/action/problem/finance/finance.md) — the instrument space this note belongs to
 - [Hong Kong Investment Corporation](https://www.hkic.org.hk/) · [Temasek](https://en.wikipedia.org/wiki/Temasek_Holdings) · [EDB Investments](https://edbi.com/) — the instruments cited by the finance note; whether any of them is a mother fund in this sense is a question of mandate, not of name

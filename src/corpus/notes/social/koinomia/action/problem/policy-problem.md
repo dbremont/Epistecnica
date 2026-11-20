@@ -1,5 +1,6 @@
 ---
 tags: [note, social]
+order: 1
 ---
 
 # Policy Problem
@@ -11,7 +12,7 @@ tags: [note, social]
 > rule, and review.
 
 > Problematization formulates the problem; [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md)
-> answers it with a course; the [Dimension](/view.html?p=notes/social/koinomia/action/domain/domain.md)
+> answers it with a course; the [Dimension](/view.html?p=notes/social/koinomia/action/problem/domain.md)
 > index scopes in which domain of social reality it sits. See
 > [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process,
 > [Problem](/view.html?p=notes/social/koinomia/action/problem/problem.md) for the general element (problem as intentional
@@ -45,7 +46,7 @@ tags: [note, social]
 ## Dimensions
 
 > Every policy problem sits in a domain, at a scale, with a tractability and a
-> mandate-holder: which [Domain](/view.html?p=notes/social/koinomia/action/domain/domain.md)
+> mandate-holder: which [Domain](/view.html?p=notes/social/koinomia/action/problem/domain.md)
 > of social reality it belongs to (production, infrastructure, human capital, monetary,
 > governance, research, international, urban, cognition, welfare, the state); how
 > severe and wide it runs; whether instruments exist that can close it; and whose
@@ -56,5 +57,5 @@ tags: [note, social]
 - [Problem](/view.html?p=notes/social/koinomia/action/problem/problem.md)
 - [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
-- [Dimension](/view.html?p=notes/social/koinomia/action/domain/domain.md)
+- [Dimension](/view.html?p=notes/social/koinomia/action/problem/domain.md)
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
