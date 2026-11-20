@@ -52,7 +52,7 @@ tags: [note, human, cognition]
 ## Related
 
 - [Representation](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/representation.md)
-- [Language](/view.html?p=notes/nature/life/organism/human/language.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 
 ## Provenance
 

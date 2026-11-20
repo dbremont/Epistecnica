@@ -79,7 +79,7 @@ Theory:
 
 - [Concept](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/concept.md)
 - [Object](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/object.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
 - [Meaning](/view.html?p=notes/nature/life/organism/human/cognitive/meaning.md)
 
 ## Provenance

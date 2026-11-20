@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, unfinished]
+tags: [note, human, cognition, unfinished, language]
 ---
 
 # Grammatical Tense

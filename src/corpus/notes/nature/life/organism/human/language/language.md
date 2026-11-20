@@ -1,5 +1,5 @@
 ---
-tags: [note, nature, natural-system, human, cognition, linguistics]
+tags: [note, nature, natural-system, human, cognition, linguistics, language]
 ---
 
 # Language
@@ -132,12 +132,12 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 ## Related
 
 - [Cognition](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/cognition.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
-- [Castellano](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/castellano.md)
-- [Latin](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/latin.md)
-- [German](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/german.md)
-- [Swedish](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/swedish.md)
-- [English](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/english.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
+- [Castellano](/view.html?p=notes/nature/life/organism/human/language/castellano.md)
+- [Latin](/view.html?p=notes/nature/life/organism/human/language/latin.md)
+- [German](/view.html?p=notes/nature/life/organism/human/language/german.md)
+- [Swedish](/view.html?p=notes/nature/life/organism/human/language/swedish.md)
+- [English](/view.html?p=notes/nature/life/organism/human/language/english.md)
 
 ## References
 

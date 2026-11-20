@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, linguistics]
+tags: [note, human, cognition, linguistics, language]
 ---
 
 # German
@@ -67,12 +67,12 @@ sind -> ...
 [https://www.youtube.com/playlist?list=PLDSaNmesMVOh5WdZ7Rx-nIei_MGhdBO-X](https://www.youtube.com/playlist?list=PLDSaNmesMVOh5WdZ7Rx-nIei_MGhdBO-X)
 - Etymology of Dutch word for bicycle cracked after 140 years
 [https://www.24oranges.nl/2012/02/23/etymology-of-dutch-word-for-bicycle-cracked-after-140-years/](https://www.24oranges.nl/2012/02/23/etymology-of-dutch-word-for-bicycle-cracked-after-140-years/)
-- [Grammar](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/grammar.md)
+- [Grammar](/view.html?p=notes/nature/life/organism/human/language/grammar.md)
 - …
 
 ## Related
 
-- [Language](/view.html?p=notes/nature/life/organism/human/language.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 
 ## Provenance
 

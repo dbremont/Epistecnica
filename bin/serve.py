@@ -149,6 +149,26 @@ URBANISM_MOVED = {
 BEHAVIOR_MODEL_OLD = "/corpus/notes/nature/life/organism/human/behavioral/conceptual-model-behavioral"
 BEHAVIOR_MODEL_DIR = "/corpus/notes/nature/life/organism/human/behavioral/"
 BEHAVIOR_SOCIAL = "/corpus/notes/social/dynamic/behavior/"
+HUMAN_LANGUAGE_MD = "/corpus/notes/nature/life/organism/human/language.md"
+HUMAN_LANGUAGE_MODEL = "/corpus/notes/nature/life/organism/human/cognitive/conceptual-model-cognition/"
+HUMAN_LANGUAGE_DIR = "/corpus/notes/nature/life/organism/human/language/"
+HUMAN_LANGUAGE_MOVED = {
+    "language-acquisition.md",
+    "human-language-origin.md",
+    "grammar.md",
+    "grammatical-tense.md",
+    "syntax.md",
+    "name.md",
+    "castellano.md",
+    "english.md",
+    "french.md",
+    "german.md",
+    "greek.md",
+    "hebrew.md",
+    "latin.md",
+    "polish.md",
+    "swedish.md",
+}
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -461,6 +481,16 @@ class HubHandler(SimpleHTTPRequestHandler):
             rest = path[len(BEHAVIOR_MODEL_OLD) + 1:]
             self._redirect(BEHAVIOR_SOCIAL + rest)
             return True
+
+        if path == HUMAN_LANGUAGE_MD:
+            self._redirect(HUMAN_LANGUAGE_DIR + "language.md")
+            return True
+
+        if path.startswith(HUMAN_LANGUAGE_MODEL):
+            rest = path[len(HUMAN_LANGUAGE_MODEL):]
+            if rest in HUMAN_LANGUAGE_MOVED:
+                self._redirect(HUMAN_LANGUAGE_DIR + rest)
+                return True
 
         for prefix in (KOINOMIA_DOMAIN_OLD, KOINOMIA_DOMAIN_PREV):
             if path == prefix or path.startswith(prefix + "/"):

@@ -10,6 +10,7 @@ tags: [note, nature, natural-system, biology, system, human, behavior, unfinishe
 ## Index
 
 - [Cognitive](/view.html?p=notes/nature/life/organism/human/cognitive.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 - [Behavioral](/view.html?p=notes/nature/life/organism/human/behavioral.md)
 
 ## Systems Catalog

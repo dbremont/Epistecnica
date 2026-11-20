@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, representation]
+tags: [note, human, cognition, representation, language]
 ---
 
 # Name
@@ -167,7 +167,7 @@ Cases:
 - https://plato.stanford.edu/entries/reference/
 - [Property](https://app.notion.com/p/Property-271c0f5171ec80498865e3db652beafb?pvs=21)
 - [Representation](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/representation.md)
-- [Language](/view.html?p=notes/nature/life/organism/human/language.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 - [Symbol](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/symbol.md)
 - [Consciouses](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/consciouses.md)
 - [Concept](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/concept.md)

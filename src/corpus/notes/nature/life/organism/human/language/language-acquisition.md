@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, linguistics]
+tags: [note, human, cognition, linguistics, language]
 ---
 
 # Language Acquisition

@@ -87,7 +87,7 @@ A theory of consciousness typically provides:
 ## Related
 
 - [Representation](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/representation.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
 
 ## Provenance
 

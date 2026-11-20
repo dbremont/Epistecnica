@@ -268,7 +268,7 @@ There are several kinds of mental representations beyond concepts, including:
 - [Symbol](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/symbol.md)
 - [Object](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/object.md)
 - [Abstraction](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/abstraction.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
 
 ## Provenance
 

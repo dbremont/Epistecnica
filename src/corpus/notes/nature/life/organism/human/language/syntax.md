@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition]
+tags: [note, human, cognition, language]
 ---
 
 # Syntax

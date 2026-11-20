@@ -914,7 +914,7 @@ Meaning as function, not essence:
 
 - [Cognition](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/cognition.md)
 - [Consciouses](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/consciouses.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
 - [Intelligibility](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/intelligibility.md)
 
 ## Provenance

@@ -47069,23 +47069,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/castellano.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/castellano.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/categorization.md",
   "logs": [
    {
@@ -47150,6 +47133,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/cognition.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Language link to the language shelf."
    }
   ]
  },
@@ -47218,6 +47206,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/concept.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Name link to the language shelf."
    }
   ]
  },
@@ -47252,6 +47245,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/consciouses.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Name link to the language shelf."
    }
   ]
  },
@@ -47285,23 +47283,6 @@
     "date": "2026-11-17",
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/dunning-kruger-effect.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/english.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/english.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
    }
   ]
@@ -47358,40 +47339,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/french.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/french.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/german.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/german.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/golem-effect.md",
   "logs": [
    {
@@ -47404,57 +47351,6 @@
     "date": "2026-11-17",
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/golem-effect.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/grammar.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/grammar.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/grammatical-tense.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/grammatical-tense.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/greek.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/greek.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
    }
   ]
@@ -47494,23 +47390,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/hebrew.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/hebrew.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/horn-effect.md",
   "logs": [
    {
@@ -47523,23 +47402,6 @@
     "date": "2026-11-17",
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/horn-effect.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/human-language-origin.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/human-language-origin.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
    }
   ]
@@ -47659,40 +47521,6 @@
     "date": "2026-11-17",
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/kolb-s-experiential-learning-cycle.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/language-acquisition.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/language-acquisition.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/latin.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/latin.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
    }
   ]
@@ -47851,30 +47679,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/name.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-16",
-    "kind": "docs",
-    "summary": "Add the misnomer QA: the phenomenon in which a term's signifier misrepresents its referent, with the case list it collects (random variable, imaginary number, negative number, real number, virtual particle, dark matter, genetic code, junk DNA, big bang); Related folds into References and the provenance line drops.",
-    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
-    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/name.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/neuroplasticity.md",
   "logs": [
    {
@@ -47972,23 +47776,6 @@
     "date": "2026-11-17",
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/phonology.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/polish.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/polish.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
    }
   ]
@@ -48099,6 +47886,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/representation.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Name link to the language shelf."
    }
   ]
  },
@@ -48205,23 +47997,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/swedish.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/swedish.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/symbol.md",
   "logs": [
    {
@@ -48235,23 +48010,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/symbol.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/cognitive/conceptual-model-cognition/syntax.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
    },
    {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/syntax.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Name link to the language shelf."
    }
   ]
  },
@@ -49065,6 +48828,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/human.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add Language to the human index."
    }
   ]
  },
@@ -49149,7 +48917,227 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/language.md",
+  "file_path": "nature/life/organism/human/language/castellano.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/castellano.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/english.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/english.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/french.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/french.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/german.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/german.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/grammar.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/grammar.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/grammatical-tense.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/grammatical-tense.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/greek.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/greek.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/hebrew.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/hebrew.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/human-language-origin.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/human-language-origin.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/language-acquisition.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/language-acquisition.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/language.md",
   "logs": [
    {
     "date": "2026-11-12",
@@ -49161,6 +49149,128 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/language.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/latin.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/latin.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/name.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-16",
+    "kind": "docs",
+    "summary": "Add the misnomer QA: the phenomenon in which a term's signifier misrepresents its referent, with the case list it collects (random variable, imaginary number, negative number, real number, virtual particle, dark matter, genetic code, junk DNA, big bang); Related folds into References and the provenance line drops.",
+    "commit": "46808c904c7fa07af0beb8acf88d5b5856072694",
+    "before": "fae3816813f4b6825d77d132e2e92dadf1eb0c1f"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/name.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/polish.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/polish.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/swedish.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/swedish.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "nature/life/organism/human/language/syntax.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/cognitive/conceptual-model-cognition/syntax.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the human language shelf."
    }
   ]
  },
@@ -49837,6 +49947,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/reference.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Name link to the language shelf."
    }
   ]
  },

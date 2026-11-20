@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, linguistics, unfinished]
+tags: [note, human, cognition, linguistics, unfinished, language]
 ---
 
 # Hebrew

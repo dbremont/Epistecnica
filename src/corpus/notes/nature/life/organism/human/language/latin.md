@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, linguistics, unfinished]
+tags: [note, human, cognition, linguistics, unfinished, language]
 ---
 
 # Latin
@@ -13,7 +13,7 @@ tags: [note, human, cognition, linguistics, unfinished]
 
 ## Related
 
-- [Language](/view.html?p=notes/nature/life/organism/human/language.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 
 ## Provenance
 

@@ -130,7 +130,7 @@ And because: $|\mathcal{R}(n)| \geq 1 \quad \text{and possibly} \quad |\mathcal{
 ## Related
 
 - [Meaning](/view.html?p=notes/nature/life/organism/human/cognitive/meaning.md)
-- [Name](/view.html?p=notes/nature/life/organism/human/cognitive/conceptual-model-cognition/name.md)
+- [Name](/view.html?p=notes/nature/life/organism/human/language/name.md)
 
 ## References
 

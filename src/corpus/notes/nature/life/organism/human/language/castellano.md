@@ -1,5 +1,5 @@
 ---
-tags: [note, human, cognition, linguistics]
+tags: [note, human, cognition, linguistics, language]
 ---
 
 # Castellano
@@ -278,7 +278,7 @@ En castellano, especialmente porque **`b` y `v` normalmente representan el mismo
 
 ## Related
 
-- [Language](/view.html?p=notes/nature/life/organism/human/language.md)
+- [Language](/view.html?p=notes/nature/life/organism/human/language/language.md)
 
 ## Provenance
 
