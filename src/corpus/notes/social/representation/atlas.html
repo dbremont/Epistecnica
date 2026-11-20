@@ -5,11 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Architecture of Social Reality</title>
 <link rel="icon" href="/img/favicon.ico">
-<script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="stylesheet" href="/shared/usearch.css">
+<link rel="stylesheet" href="/shared/chrome.css">
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<script src="/notes/vendor/d3.min.js"></script>
+<script src="/vendor/d3.min.js"></script>
 <style>
 :root{
   /* Oxford Common Room tokens — mirror app/shared/theme.css */
@@ -45,38 +47,14 @@ button{font:inherit;color:inherit}
 button:focus-visible{outline:2px solid var(--accent-gold);outline-offset:2px}
 
 /* ---------- nav ---------- */
-.nav,.foot-inner{background:var(--nav-bg);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
-.nav{position:sticky;top:0;z-index:20;border-bottom:1px solid var(--border-subtle);flex-shrink:0}
-.nav-inner{max-width:1560px;margin:0 auto;padding:.85rem 36px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem 2rem;min-height:3.4rem}
-.nav-brand{display:inline-flex;align-items:center;gap:.55rem;font-family:var(--font-display);font-size:1.2rem;font-weight:400;letter-spacing:.03em;color:var(--text-primary);text-decoration:none}
-.nav-brand em{font-style:italic;color:var(--accent-gold)}
-.nav-right{display:flex;align-items:center;gap:1.2rem}
-.nav-links{display:flex;gap:1.2rem}
-.nav-links a{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);text-decoration:none;transition:color .3s ease}
-.nav-links a:hover{color:var(--accent-cyan)}
-.theme-toggle{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-secondary);background:var(--bg-card);border:1px solid var(--border-subtle);padding:.45rem .75rem;cursor:pointer;transition:color .3s ease,border-color .3s ease}
-.theme-toggle:hover{color:var(--accent-cyan);border-color:var(--accent-cyan)}
 
 /* ---------- breadcrumbs ---------- */
-.crumbs{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted);padding:.7rem 36px 0;flex-shrink:0}
-.crumbs a{color:var(--text-muted);text-decoration:none;transition:color .3s ease}
-.crumbs a:hover{color:var(--accent-cyan)}
-.crumbs .sep{margin:0 .5em;opacity:.5}
-.crumbs .here{color:var(--accent-gold)}
 
 /* ---------- header ---------- */
-header{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;padding:26px 36px 20px;border-bottom:1px solid var(--border-strong);flex-shrink:0;flex-wrap:wrap}
-.kicker{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--text-muted);display:flex;align-items:center;gap:9px;margin-bottom:10px}
-.kicker::before{content:"";width:7px;height:7px;background:var(--accent-gold);display:inline-block}
-h1{font-family:var(--font-display);font-weight:600;font-size:clamp(26px,3vw,38px);line-height:1.05;letter-spacing:-.01em;color:var(--text-primary)}
-h1 em{font-style:italic;color:var(--accent-gold)}
-.standfirst{margin-top:10px;max-width:620px;font-size:13.5px;line-height:1.5;color:var(--text-secondary)}
-.standfirst b{font-family:var(--font-mono);font-weight:400;font-size:11px;letter-spacing:.04em;color:var(--text-muted)}
-#tabs{display:flex;flex-direction:column;width:330px;flex-shrink:0}
-.tab{display:flex;align-items:baseline;gap:10px;padding:8px 2px;border:0;border-top:1px solid var(--border-subtle);background:none;cursor:pointer;text-align:left;opacity:.45;transition:opacity .18s}
-.tab:last-child{border-bottom:1px solid var(--border-subtle)}
-.tab:hover{opacity:.8}
-.tab.on{opacity:1}
+#tabs{display:flex;flex-direction:row;width:100%;max-width:1280px;margin:0 auto;padding:0 2rem;flex-shrink:0;border-bottom:1px solid var(--border-subtle)}
+.tab{display:flex;align-items:baseline;gap:10px;padding:10px 20px 10px 0;border:0;border-bottom:2px solid transparent;background:none;cursor:pointer;text-align:left;opacity:.5;transition:opacity .18s}
+.tab:hover{opacity:.85}
+.tab.on{opacity:1;border-bottom-color:var(--accent-gold)}
 .tno{font-family:var(--font-mono);font-size:9.5px;color:var(--text-muted)}
 .tab.on .tno{color:var(--accent-gold)}
 .tname{font-family:var(--font-display);font-size:15.5px;font-weight:600;white-space:nowrap}
@@ -119,9 +97,6 @@ main{flex:1;display:flex;min-height:0}
 .crow .cn{margin-left:auto;color:var(--text-primary)}
 .crow.total{border-top:1px solid var(--border-subtle);margin-top:4px;padding-top:8px}
 
-footer{display:flex;justify-content:space-between;gap:20px;padding:8px 36px;border-top:1px solid var(--border-subtle);font-family:var(--font-mono);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);flex-shrink:0;background:var(--footer-bg)}
-footer a{color:var(--text-muted);text-decoration:none;transition:color .3s ease}
-footer a:hover{color:var(--accent-cyan)}
 
 /* ---------- svg ---------- */
 svg text{font-family:var(--font-mono);user-select:none}
@@ -134,35 +109,43 @@ svg text{font-family:var(--font-mono);user-select:none}
 #tip b{font-weight:500}
 #tip .ts{opacity:.65}
 @media (max-width:1100px){#inspector{width:280px}}
-</style>
+h1.note-title em{font-style:italic;color:var(--accent-gold)}
+.subtitle b{font-family:var(--font-mono);font-weight:400;font-size:11px;letter-spacing:.04em;color:var(--text-muted)}
+    </style>
 </head>
 <body>
 
 <nav class="nav">
-  <div class="nav-inner">
-    <a class="nav-brand" href="/explorer.html">Naturgnosis<em>.</em></a>
-    <div class="nav-right">
-      <div class="nav-links"><a href="/explorer.html">Catalog</a></div>
-      <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
     </div>
-  </div>
 </nav>
 
+<div class="masthead">
 <nav class="crumbs" aria-label="Breadcrumbs">
-  <a href="/explorer.html">notes</a><span class="sep">/</span><a href="/explorer.html?view=browse&dir=social">social</a><span class="sep">/</span><span class="here">atlas</span>
-</nav>
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/representation">representation</a><span class="sep">/</span>
+        <span class="here">The Architecture of Social Reality</span>
+    </nav>
+<h1 class="note-title">The Architecture of <em>Social&nbsp;Reality</em></h1>
+<p class="subtitle">From the abstract <b>Social Element</b> — whose type of order is the <b>Social Order</b> — expanded into the full type tree of <i>Philosophia Socialium et Operis</i>: agents, agencies, intentions, actions, relations, norms, coordinators, structures and dynamics. Two instruments, one dataset: the taxonomy and its proportions.</p>
+</div>
 
-<header>
-  <div class="masthead">
-    <div class="kicker">Social ontology · an interactive atlas</div>
-    <h1>The Architecture of <em>Social&nbsp;Reality</em></h1>
-    <p class="standfirst">From the abstract <b>Social Element</b> — whose type of order is the <b>Social Order</b> — expanded into the full type tree of <i>Philosophia Socialium et Operis</i>: agents, agencies, intentions, actions, relations, norms, coordinators, structures and dynamics. Two instruments, one dataset: the taxonomy and its proportions.</p>
-  </div>
-  <nav id="tabs">
+<nav id="tabs">
     <button class="tab" data-view="tree"><span class="tno">01</span><span class="tname">Dendrogram</span><span class="td">the taxonomy</span></button>
     <button class="tab" data-view="sunburst"><span class="tno">02</span><span class="tname">Sunburst</span><span class="td">the proportions</span></button>
   </nav>
-</header>
 
 <div class="viewbar"><p id="viewDesc"></p><div id="viewControls"></div></div>
 
@@ -171,13 +154,19 @@ svg text{font-family:var(--font-mono);user-select:none}
   <aside id="inspector"></aside>
 </main>
 
-<footer>
-  <span>Naturgnosis · notes</span>
-  <a href="/explorer.html">← Catalog</a>
+<footer class="tfr-foot">
+    <span>Epistecnica · The Architecture of Social Reality</span>
+    <nav>
+        <a href="/explorer.html">Catalog</a><span class="sep">·</span>
+        <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
+        <a href="atlas.json">Data</a>
+    </nav>
 </footer>
 
 <div id="tip"></div>
 
+<script src="/shared/usearch.js" data-root="../../../../"></script>
+<script src="/shared/chrome.js"></script>
 <script>
 (function () {
 "use strict";
@@ -550,18 +539,13 @@ function wireShell() {
     rsT = setTimeout(function () { if (CURRENT) { SURFACE = currentSurface(); VIEWS[CURRENT].build(); if (VIEWS[CURRENT].restore) VIEWS[CURRENT].restore(); } }, 200);
   });
 }
-var themeBtn = document.getElementById('themeToggle'), themeLabel = document.getElementById('themeLabel');
-function applyThemeLabel() { if (themeLabel) themeLabel.textContent = document.documentElement.dataset.theme === 'light' ? 'DARK' : 'LIGHT'; }
-if (themeBtn) {
-  themeBtn.addEventListener('click', function () {
-    var r = document.documentElement;
-    r.dataset.theme = r.dataset.theme === 'light' ? 'dark' : 'light';
-    try { localStorage.setItem('naturgnosis-theme', r.dataset.theme); } catch (e) {}
-    applyThemeLabel();
-    if (CURRENT) { SURFACE = currentSurface(); VIEWS[CURRENT].build(); if (VIEWS[CURRENT].restore) VIEWS[CURRENT].restore(); }
-  });
-  applyThemeLabel();
-}
+/* the shared chrome flips the theme; rebuild the surface when it does */
+new MutationObserver(function () {
+  if (!CURRENT) return;
+  SURFACE = currentSurface();
+  VIEWS[CURRENT].build();
+  if (VIEWS[CURRENT].restore) VIEWS[CURRENT].restore();
+}).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 
 /* ================= boot ================= */
 fetch('atlas.json', { cache: 'no-cache' }).then(function (r) {

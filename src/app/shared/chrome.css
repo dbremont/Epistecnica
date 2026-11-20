@@ -59,6 +59,19 @@
 }
 .page-foot a { color: var(--text-secondary); }
 .page-foot code { font-family: var(--font-mono); font-size: 0.66rem; }
+/* Standard live-note footer used by the representation surfaces. */
+.tfr-foot {
+    max-width: 1280px; margin: 0 auto; width: 100%;
+    padding: 1rem 2rem; border-top: 1px solid var(--border-subtle);
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 1rem; flex-wrap: wrap;
+    font-family: var(--font-mono); font-size: 0.54rem; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--text-muted);
+}
+.tfr-foot nav { display: flex; align-items: center; gap: 0.55rem; flex-wrap: wrap; }
+.tfr-foot a { color: var(--text-secondary); }
+.tfr-foot a:hover { color: var(--accent-cyan); }
+.tfr-foot .sep { opacity: 0.45; }
 
 @media (max-width: 900px) {
     .nav-inner, .masthead, .page-foot { padding-left: 1.2rem; padding-right: 1.2rem; }

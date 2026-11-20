@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas of State Action</title>
     <link rel="icon" href="/img/favicon.ico">
-    <script>document.documentElement.dataset.theme = localStorage.getItem('naturgnosis-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="stylesheet" href="/shared/usearch.css">
+<link rel="stylesheet" href="/shared/chrome.css">
+    <script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
@@ -102,42 +104,12 @@
             html { scroll-behavior: auto; }
             body { transition: none; }
         }
-        #ambientCanvas { position: fixed; top: 0; left: 0; z-index: 0; opacity: 0.4; pointer-events: none; }
-        .nav, footer { background: var(--nav-bg);
-            backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-        .nav { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--border-subtle); }
-        .nav-inner, .foot-inner { max-width: 1560px; margin: 0 auto; padding: 0.95rem 2rem; display: flex;
-            align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem 2rem; min-height: 3.75rem; }
-        .nav-brand { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-display); font-size: 1.2rem;
-            font-weight: 400; letter-spacing: 0.03em; color: var(--text-primary); text-decoration: none; }
-        .nav-links { display: flex; gap: 1.2rem; }
-        .nav-right { display: flex; align-items: center; gap: 1.2rem; }
-        .theme-toggle { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
-            color: var(--text-secondary); background: var(--bg-card); border: 1px solid var(--border-subtle);
-            padding: 0.45rem 0.75rem; cursor: pointer; transition: color 0.3s ease, border-color 0.3s ease; }
-        .theme-toggle:hover { color: var(--accent-cyan); border-color: var(--accent-cyan); }
-        .nav-links a { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase;
-            color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
-        .nav-links a:hover { color: var(--accent-cyan); }
         .layout { position: relative; z-index: 1; flex: 1; min-height: 0; display: flex; flex-direction: column; width: 100%; max-width: 1560px; margin: 0 auto; padding: 0 2rem 1.5rem; }
-        header { position: relative; padding: 1.5rem 0 2.5rem; }
         .header-cols { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0,1fr) 19rem; gap: 2rem; align-items: start; }
         .header-lead { min-width: 0; }
         .header-quote { margin: 0; font-family: var(--font-display); font-style: italic; font-size: 1.05rem; line-height: 1.5; color: var(--text-secondary); }
         .header-quote-rule { display: inline-block; width: 2.5rem; height: 1px; background: var(--accent-gold); margin-top: 0.9rem; }
-        .header-engraving { position: absolute; top: 0; right: 0; height: 100%; width: auto; max-width: 55%; object-fit: contain; object-position: right center; opacity: 0.4; pointer-events: none; user-select: none; z-index: 0; }
         html[data-theme="light"] .header-engraving { opacity: 0.6; }
-        .crumbs { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.16em; text-transform: uppercase;
-            color: var(--text-muted); margin-bottom: 1.2rem; }
-        .crumbs a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
-        .crumbs a:hover { color: var(--accent-cyan); }
-        .crumbs .sep { margin: 0 0.5em; color: var(--text-muted); opacity: 0.5; }
-        .crumbs .here { color: var(--accent-gold); }
-        h1 { font-family: var(--font-display); font-weight: 300; font-size: clamp(2.6rem, 5vw, 4.2rem); line-height: 1.05; }
-        h1 em { font-style: italic; color: var(--accent-gold); }
-        .lede { margin-top: 1.6rem; max-width: 44rem; font-size: 1rem; font-weight: 300; line-height: 1.7;
-            color: var(--text-secondary); border-left: 1px solid var(--accent-gold); padding-left: 1.25rem; }
-        .lede strong { font-weight: 500; color: var(--text-primary); }
         .toolbar { display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; margin:0 0 1.2rem; }
         #search { flex:1 1 16rem; background:var(--bg-card); border:1px solid var(--border-medium); color:var(--text-primary); border-radius:var(--radius-md); padding:0.55rem 0.8rem 0.55rem 2rem; font-size:0.8rem;
             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237a87a0' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:0.6rem center; }
@@ -253,42 +225,37 @@
         table.matrix td.name, table.matrix th.name { text-align:left; }
         .cell { cursor:pointer; border-radius:var(--radius-sm); }
         .cell:hover { background:var(--bg-surface); }
-        footer { flex: 0 0 auto; position: relative; z-index: 1; border-top: 1px solid var(--border-subtle); }
-        .foot-inner { font-family: var(--font-mono);
-            font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); }
-        .foot-inner a { color: var(--text-muted); text-decoration: none; transition: color 0.3s ease; }
-        .foot-inner a:hover { color: var(--accent-cyan); }
         .hidden { display:none !important; }
+    h1.note-title em{font-style:italic;color:var(--accent-gold)}
     </style>
 </head>
 <body>
-<canvas id="ambientCanvas" aria-hidden="true"></canvas>
 <nav class="nav">
     <div class="nav-inner">
-        <a class="nav-brand" href="/explorer.html">Naturgnosis</a>
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
         <div class="nav-right">
-            <div class="nav-links"><a href="/explorer.html">Catalog</a></div>
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
             <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
         </div>
     </div>
 </nav>
 <div class="layout">
-<header>
+<div class="masthead">
 <nav class="crumbs" aria-label="Breadcrumbs">
-    <a href="/explorer.html">notes</a><span class="sep">/</span><a href="/explorer.html?dir=social">social</a><span class="sep">/</span><a href="/explorer.html?dir=social/actor">collective</a><span class="sep">/</span><a href="/explorer.html?dir=social/actor">agency</a><span class="sep">/</span><span class="here">Atlas</span>
-</nav>
-<div class="header-cols">
-<div class="header-lead">
-<h1>Atlas of State Action<em>.</em></h1>
-
-<p class="lede">
-  A map of how the state connects <strong>problems</strong> to <strong>goals</strong> and <strong>instruments</strong> for shaping social and economic conditions.
-</p>
-
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/representation">representation</a><span class="sep">/</span>
+        <span class="here">Atlas of State Action</span>
+    </nav>
+<h1 class="note-title">Atlas of State Action<em>.</em></h1>
+<p class="subtitle">A map of how the state connects <strong>problems</strong> to <strong>goals</strong> and <strong>instruments</strong> for shaping social and economic conditions.</p>
 </div>
-</div>
-<img class="header-engraving" src="/shared/img/naturgnosis_architectural_engraving.png" alt="" aria-hidden="true">
-</header>
 <div class="toolbar">
         <input id="search" type="search" placeholder="Search problems, instruments, or keywords…" autocomplete="off">
 </div>
@@ -361,89 +328,19 @@
     </aside>
 </div>
 </div>
-<footer>
-    <div class="foot-inner">
-        <div>Naturgnosis &middot; notes</div>
-        <a href="/explorer.html">&larr; CATALOG</a>
-    </div>
+<footer class="tfr-foot">
+    <span>Epistecnica · Atlas of State Action</span>
+    <nav>
+        <a href="/explorer.html">Catalog</a><span class="sep">·</span>
+        <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
+        <a href="action-atlas.json">Data</a>
+    </nav>
 </footer>
+<script src="/shared/usearch.js" data-root="../../../../"></script>
+<script src="/shared/chrome.js"></script>
 <script>
 (function () {
     "use strict";
-    var btn = document.getElementById("themeToggle"), label = document.getElementById("themeLabel");
-    function applyThemeLabel() {
-        label.textContent = document.documentElement.dataset.theme === "light" ? "DARK" : "LIGHT";
-    }
-    var themeFading = false;
-    btn.addEventListener("click", function () {
-        if (themeFading) return;
-        themeFading = true;
-        var r = document.documentElement;
-        var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        var swap = function () {
-            r.dataset.theme = r.dataset.theme === "light" ? "dark" : "light";
-            try { localStorage.setItem("naturgnosis-theme", r.dataset.theme); } catch (e) {}
-            applyThemeLabel();
-            r.classList.remove("theme-fading");
-            themeFading = false;
-        };
-        if (reduced) { swap(); return; }
-        r.classList.add("theme-fading");
-        setTimeout(swap, 190);
-    });
-    applyThemeLabel();
-
-    /* ---------- ambient constellation (as in note.html) ---------- */
-    (function ambient() {
-        var canvas = document.getElementById("ambientCanvas");
-        if (!canvas) return;
-        var ctx = canvas.getContext("2d");
-        var pts = [];
-        var LINK_DIST = 130;
-        function resize() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            var count = Math.max(20, Math.floor((canvas.width * canvas.height) / 40000));
-            pts = [];
-            for (var i = 0; i < count; i++) {
-                pts.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height,
-                    vx: (Math.random() - 0.5) * 0.22, vy: (Math.random() - 0.5) * 0.22, r: Math.random() * 1.4 + 0.4 });
-            }
-        }
-        function tick() {
-            var light = document.documentElement.dataset.theme === "light";
-            var dotRGB = light ? "26, 29, 36" : "226, 228, 235";
-            var linkRGB = light ? "154, 123, 63" : "201, 149, 108";
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (var i = 0; i < pts.length; i++) {
-                var p = pts[i];
-                p.x += p.vx; p.y += p.vy;
-                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-                ctx.beginPath();
-                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-                ctx.fillStyle = "rgba(" + dotRGB + ", 0.5)";
-                ctx.fill();
-                for (var j = i + 1; j < pts.length; j++) {
-                    var m = pts[j];
-                    var dx = p.x - m.x, dy = p.y - m.y;
-                    var dist = Math.sqrt(dx * dx + dy * dy);
-                    if (dist < LINK_DIST) {
-                        ctx.beginPath();
-                        ctx.moveTo(p.x, p.y);
-                        ctx.lineTo(m.x, m.y);
-                        ctx.strokeStyle = "rgba(" + linkRGB + ", " + (0.10 * (1 - dist / LINK_DIST)) + ")";
-                        ctx.lineWidth = 1;
-                        ctx.stroke();
-                    }
-                }
-            }
-            requestAnimationFrame(tick);
-        }
-        window.addEventListener("resize", resize);
-        resize();
-        requestAnimationFrame(tick);
-    })();
 
     var S = { data: null, mode: "network", chosen: {}, focusV: null, selI: null,
         hasSelection: false, detailSide: "problem", detailKind: "problem",
