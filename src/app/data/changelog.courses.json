@@ -674,7 +674,9 @@
    {
     "date": "2026-11-18",
     "kind": "feat",
-    "summary": "Course entry created from MIT OpenCourseWare. 15.401 Finance Theory I, Fall 2008, graduate, Sloan School of Management, taught by Andrew Lo. Entry records the financial-economics framing - present value relations, fixed income, equities, forwards and futures, options, risk and return, portfolio theory, CAPM and APT, capital budgeting, efficient markets - with the twelve session topics and the resource set (notes, videos, recitations, problem sets, exams), and links to the finance toolkit, the finance industry, the asset notes and the financial discipline."
+    "summary": "Course entry created from MIT OpenCourseWare. 15.401 Finance Theory I, Fall 2008, graduate, Sloan School of Management, taught by Andrew Lo. Entry records the financial-economics framing - present value relations, fixed income, equities, forwards and futures, options, risk and return, portfolio theory, CAPM and APT, capital budgeting, efficient markets - with the twelve session topics and the resource set (notes, videos, recitations, problem sets, exams), and links to the finance toolkit, the finance industry, the asset notes and the financial discipline.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
    }
   ]
  },
