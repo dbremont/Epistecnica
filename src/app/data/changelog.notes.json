@@ -88844,7 +88844,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the type shelf: the Public Employee is a position type, not a named organization."
+    "summary": "Move to the type shelf: the Public Employee is a position type, not a named organization.",
+    "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886"
    }
   ]
  },
@@ -92732,7 +92733,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Employee link to the type shelf."
+    "summary": "Retarget the Public Employee link to the type shelf.",
+    "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
+    "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
    }
   ]
  },
@@ -92846,7 +92849,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Employee link to the type shelf."
+    "summary": "Retarget the Public Employee link to the type shelf.",
+    "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
+    "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
    }
   ]
  },
@@ -92916,7 +92921,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Employee link to the type shelf."
+    "summary": "Retarget the Public Employee link to the type shelf.",
+    "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
+    "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
    }
   ]
  },
