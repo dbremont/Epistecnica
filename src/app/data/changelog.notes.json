@@ -24348,7 +24348,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the singular epistemic scope: the note is group modelling, not the Group actor type."
+    "summary": "Move to the singular epistemic scope: the note is group modelling, not the Group actor type.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b"
    }
   ]
  },
@@ -70968,7 +70969,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Social Group link to the singular modelling note."
+    "summary": "Retarget the Social Group link to the singular modelling note.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
+    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
    }
   ]
  },
@@ -71257,7 +71260,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Social Group links to the singular modelling note."
+    "summary": "Retarget the Social Group links to the singular modelling note.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
+    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
    }
   ]
  },
@@ -71529,7 +71534,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Social Group links to the singular modelling note."
+    "summary": "Retarget the Social Group links to the singular modelling note.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
+    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
    }
   ]
  },
