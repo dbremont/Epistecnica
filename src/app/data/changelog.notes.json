@@ -88731,7 +88731,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Remove the government-wide administration atlas from the actor Atlas list; it moved with the governance shelf."
+    "summary": "Remove the government-wide administration atlas from the actor Atlas list; it moved with the governance shelf.",
+    "commit": "f0bd35aacd14649f75d0832b777b282576aab47f",
+    "before": "fcab1dfbc92977a7e41a62ab630d6805985d3274"
    }
   ]
  },
@@ -92519,7 +92521,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the atlas links at governance/atlas/."
+    "summary": "Point the atlas links at governance/atlas/.",
+    "commit": "f0bd35aacd14649f75d0832b777b282576aab47f",
+    "before": "fcab1dfbc92977a7e41a62ab630d6805985d3274"
    }
   ]
  },
