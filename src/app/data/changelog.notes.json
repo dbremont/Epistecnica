@@ -77338,6 +77338,16 @@
   ]
  },
  {
+  "file_path": "social/dynamic/behavior/social-behavior.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Fill the Social Behavior note: forms, explanatory traditions, historical and empirical literature, and the corpus links."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/choice.md",
   "logs": [
    {
