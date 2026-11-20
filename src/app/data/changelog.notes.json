@@ -70962,7 +70962,9 @@
    {
     "date": "2026-11-20",
     "kind": "fix",
-    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
    }
   ]
  },
@@ -76505,7 +76507,9 @@
    {
     "date": "2026-11-20",
     "kind": "fix",
-    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
    }
   ]
  },
@@ -84811,7 +84815,9 @@
    {
     "date": "2026-11-20",
     "kind": "fix",
-    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
    }
   ]
  },
@@ -87688,7 +87694,9 @@
    {
     "date": "2026-11-20",
     "kind": "fix",
-    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept."
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
    }
   ]
  },
@@ -89911,7 +89919,9 @@
    {
     "date": "2026-11-20",
     "kind": "fix",
-    "summary": "Replace the removed shelf readme link with the Polity Atlas and Instance pages."
+    "summary": "Replace the removed shelf readme link with the Polity Atlas and Instance pages.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
    }
   ]
  },
