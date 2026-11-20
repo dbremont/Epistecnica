@@ -67243,7 +67243,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy links to the guidance shelf."
+    "summary": "Retarget the Policy links to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -74199,7 +74201,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -76862,7 +76866,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the commodity market instance shelf: the note is a list of exchanges."
+    "summary": "Move to the commodity market instance shelf: the note is a list of exchanges.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370"
    }
   ]
  },
@@ -77196,7 +77201,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the generic action-guidance shelf: Policy is a guidance type, not a koinomia-specific note."
+    "summary": "Move to the generic action-guidance shelf: Policy is a guidance type, not a koinomia-specific note.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370"
    }
   ]
  },
@@ -77220,7 +77226,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the same shelf."
+    "summary": "Retarget the Policy link to the same shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77263,7 +77271,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the same shelf."
+    "summary": "Retarget the Policy link to the same shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77287,7 +77297,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77311,7 +77323,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77335,7 +77349,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77369,7 +77385,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77393,7 +77411,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -77423,7 +77443,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -82044,7 +82066,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Removed as a duplicate of social/dynamic/research/talent-attraction.md (the research note keeps the correct title)."
+    "summary": "Removed as a duplicate of social/dynamic/research/talent-attraction.md (the research note keeps the correct title).",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -83345,7 +83369,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -84575,7 +84601,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf."
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -85478,7 +85506,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Guidance directory link to the Structure list."
+    "summary": "Add the Guidance directory link to the Structure list.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -85506,7 +85536,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf."
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -85571,7 +85603,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf."
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
@@ -85601,7 +85635,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf."
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
    }
   ]
  },
