@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, ireland]
+tags: [note, social, actor, research-institute, agriculture, ireland]
 ---
 
 # Teagasc

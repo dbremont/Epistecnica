@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # Banco Nacional de Desenvolvimento Econômico e Social (BNDES)

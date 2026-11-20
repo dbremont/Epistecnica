@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, switzerland, basel, early-modern, history, social-element]
+tags: [note, social, actor, social-element, university, education, switzerland, basel, early-modern, history]
 ---
 
 # University of Basel

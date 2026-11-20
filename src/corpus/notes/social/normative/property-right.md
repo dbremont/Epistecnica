@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 qa:
 - How to compare property models?
 - How to characterize a property regime?

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, history, economics]
+tags: [note, social, actor, person, history, economics]
 ---
 
 # Vasily Tatishchev

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, free-trade, liberalism, france, social-element]
+tags: [note, social, actor, social-element, person, economist, free-trade, liberalism, france]
 ---
 
 # Claude-Frédéric Bastiat

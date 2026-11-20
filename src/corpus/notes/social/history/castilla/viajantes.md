@@ -1,5 +1,5 @@
 ---
-tags: [note, reflexion, unfinished]
+tags: [note, social, reflexion, unfinished]
 ---
 
 # Viajantes

@@ -1,5 +1,5 @@
 ---
-tags: [note, impuesto, unfinished]
+tags: [note, social, impuesto, unfinished]
 ---
 
 # Tributos

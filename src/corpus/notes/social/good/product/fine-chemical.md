@@ -1,5 +1,5 @@
 ---
-tags: [note, chemicals, fine-chemical]
+tags: [note, social, chemicals, fine-chemical]
 qa:
  - Is a fine chemical a chemical or a product?
  - What separates a fine chemical from a commodity chemical?

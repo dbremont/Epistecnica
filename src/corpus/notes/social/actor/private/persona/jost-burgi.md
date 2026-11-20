@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, horology, mathematics, astronomy, instruments]
+tags: [note, social, actor, person, horology, mathematics, astronomy, instruments]
 qa:
  - Was the delay in publishing the logarithms a defect of Bürgi or of the station he worked from — a craftsman at a court, not a scholar with a press?
  - If Kepler's sentence fixed the reputation, how much of the "indolent man" is Bürgi and how much is Kepler explaining why the tables he used carried another man's name?

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, person, scientist, physics, mathematics]
+tags: [note, social, actor, person, scientist, physics, mathematics]
 type: person
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # An Essay of Strategies for Boosting Exports

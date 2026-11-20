@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics]
+tags: [note, social, actor, person, mathematics]
 ---
 
 # Adrien-Marie Legendre

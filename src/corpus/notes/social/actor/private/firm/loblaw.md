@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, canada, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, canada, supermarket, omnichannel]
 ---
 
 # Loblaw

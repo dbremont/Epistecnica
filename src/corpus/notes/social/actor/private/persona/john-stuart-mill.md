@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, sociology]
+tags: [note, social, actor, person, philosophy, sociology]
 ---
 
 # John Stuart Mill

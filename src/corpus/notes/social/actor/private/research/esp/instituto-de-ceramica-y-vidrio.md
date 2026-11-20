@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, spain]
+tags: [note, social, actor, research-institute, ceramics, spain]
 ---
 
 # Instituto de Cerámica y Vidrio (ICV-CSIC)

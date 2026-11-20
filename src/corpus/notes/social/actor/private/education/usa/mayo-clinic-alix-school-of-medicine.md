@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, university, united-states]
+tags: [note, social, actor, university, education, medical, united-states]
 ---
 
 # Mayo Clinic Alix School of Medicine

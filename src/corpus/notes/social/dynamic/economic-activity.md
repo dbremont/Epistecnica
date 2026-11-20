@@ -1,5 +1,5 @@
 ---
-tags: [note, economic-activity, producer, economic, social-element]
+tags: [note, social, social-element, economic-activity, producer, economic]
 ---
 
 # Economic Activity

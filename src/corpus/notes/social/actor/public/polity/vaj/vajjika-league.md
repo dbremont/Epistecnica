@@ -1,5 +1,5 @@
 ---
-tags: [note, polity, republic, ancient-india, history]
+tags: [note, social, polity, republic, ancient-india, history]
 ---
 
 # Vajjika League

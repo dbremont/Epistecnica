@@ -1,5 +1,5 @@
 ---
-tags: [note, city, settlement, urbanism, social-compound]
+tags: [note, social, city, settlement, urbanism, social-compound]
 ---
 
 # City

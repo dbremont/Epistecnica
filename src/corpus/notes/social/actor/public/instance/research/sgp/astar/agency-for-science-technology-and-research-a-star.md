@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, singapore]
+tags: [note, social, actor, research-institute, singapore]
 ---
 
 # Agency for Science, Technology and Research (A*STAR)

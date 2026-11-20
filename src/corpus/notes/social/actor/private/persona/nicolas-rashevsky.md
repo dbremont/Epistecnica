@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, biology, mathematics, neuroscience, physics, sociology]
+tags: [note, social, actor, person, biology, mathematics, neuroscience, physics, sociology]
 ---
 
 # Nicolas Rashevsky

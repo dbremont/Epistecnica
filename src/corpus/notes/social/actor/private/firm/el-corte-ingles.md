@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, spain, department-store, omnichannel]
+tags: [note, social, actor, firm, commerce, spain, department-store, omnichannel]
 ---
 
 # El Corte Inglés

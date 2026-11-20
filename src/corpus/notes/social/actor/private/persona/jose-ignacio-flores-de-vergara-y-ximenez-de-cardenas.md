@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # José Ignacio Flores de Vergara y Ximénez de Cárdenas

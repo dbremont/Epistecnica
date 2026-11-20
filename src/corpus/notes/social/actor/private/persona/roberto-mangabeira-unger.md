@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega, sociology]
+tags: [note, social, actor, person, estratega, sociology]
 ---
 
 # Roberto Mangabeira Unger

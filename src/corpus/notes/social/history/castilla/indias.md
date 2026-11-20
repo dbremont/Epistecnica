@@ -1,5 +1,5 @@
 ---
-tags: [note, geografia, unfinished]
+tags: [note, social, geografia, unfinished]
 ---
 
 # Indias

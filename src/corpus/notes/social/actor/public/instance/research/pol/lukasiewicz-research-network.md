@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, poland, network]
+tags: [note, social, actor, research, poland, network]
 ---
 
 # Łukasiewicz Research Network

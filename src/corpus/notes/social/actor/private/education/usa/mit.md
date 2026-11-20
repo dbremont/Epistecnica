@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, united-states]
+tags: [note, social, actor, education, medical, united-states]
 ---
 
 # MIT

@@ -1,5 +1,5 @@
 ---
-tags: [note, dinastia, politica, unfinished]
+tags: [note, social, dinastia, politica, unfinished]
 ---
 
 # Austrias

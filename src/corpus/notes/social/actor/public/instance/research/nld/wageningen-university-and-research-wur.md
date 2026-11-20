@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university, agriculture, netherlands]
+tags: [note, social, actor, university, agriculture, netherlands]
 ---
 
 # Wageningen University & Research (WUR)

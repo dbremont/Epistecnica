@@ -1,5 +1,5 @@
 ---
-tags: [note, cultural-activity, activity, culture, social-element]
+tags: [note, social, activity, social-element, cultural-activity, culture]
 ---
 
 # Cultural Activity

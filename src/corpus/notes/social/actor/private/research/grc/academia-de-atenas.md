@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, learned-society, scientific-collective, greece, research]
+tags: [note, social, actor, learned-society, scientific-collective, greece, research, unfinished]
 ---
 
 # Academia de Atenas

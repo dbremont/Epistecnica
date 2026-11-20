@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, political-party]
+tags: [note, social, actor, political-party, unfinished]
 ---
 
 # Kuomintang

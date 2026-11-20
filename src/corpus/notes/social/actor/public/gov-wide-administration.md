@@ -1,5 +1,5 @@
 ---
-tags: [note, administration, government-wide, collective]
+tags: [note, social, collective, administration, government-wide]
 ---
 
 # Government-Wide Administrative System

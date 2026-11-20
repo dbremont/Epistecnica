@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, sovereign-fund]
+tags: [note, social, actor, firm, sovereign-fund]
 ---
 
 # Temasek  Holdings

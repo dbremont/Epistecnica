@@ -1,5 +1,5 @@
 ---
-tags: [note, stratum, hanseaten, collective, social-element, europe, modern, germany, hanse]
+tags: [note, social, collective, social-element, stratum, hanseaten, europe, modern, germany, hanse]
 ---
 
 # Hanseaten

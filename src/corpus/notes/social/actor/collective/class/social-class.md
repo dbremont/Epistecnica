@@ -1,5 +1,5 @@
 ---
-tags: [note, social-class, collective, social-element, actor]
+tags: [note, social, collective, social-element, actor, social-class]
 ---
 
 # Social Class

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, canada, specialty, omnichannel]
+tags: [note, social, actor, firm, commerce, canada, specialty, omnichannel]
 ---
 
 # Indigo

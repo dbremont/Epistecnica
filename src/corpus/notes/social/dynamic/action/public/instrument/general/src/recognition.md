@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Social Recognition-Based Systems

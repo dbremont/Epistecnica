@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, history, travel]
+tags: [note, social, actor, person, history, travel]
 ---
 
 # Ibn Baṭṭūṭa

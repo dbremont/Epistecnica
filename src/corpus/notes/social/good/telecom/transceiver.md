@@ -1,5 +1,5 @@
 ---
-tags: [note, catalog, good, hardware]
+tags: [note, social, good, catalog, hardware]
 ---
 
 # Transceiver

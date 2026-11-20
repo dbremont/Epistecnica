@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, china, marketplace, platform-commerce]
+tags: [note, social, actor, firm, commerce, china, marketplace, platform-commerce]
 ---
 
 # Alibaba

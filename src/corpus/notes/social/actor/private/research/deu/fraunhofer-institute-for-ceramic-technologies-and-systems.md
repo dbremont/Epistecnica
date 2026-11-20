@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, germany]
+tags: [note, social, actor, research-institute, ceramics, germany]
 ---
 
 # Fraunhofer Institute for Ceramic Technologies and Systems (IKTS)

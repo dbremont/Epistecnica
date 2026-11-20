@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, france, research]
+tags: [note, social, actor, learned-society, scientific-collective, france, research]
 ---
 
 # Institut de France

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, military]
+tags: [note, social, actor, person, military]
 ---
 
 # Count Baltzar Bogislaus von Platen

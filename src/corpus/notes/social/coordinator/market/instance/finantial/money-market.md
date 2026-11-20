@@ -1,5 +1,5 @@
 ---
-tags: [note, money-market, finance, market-instance, liquidity, social-element]
+tags: [note, social, social-element, money-market, finance, market-instance, liquidity]
 qa:
  - A money market is a market whose product is liquidity and whose price is a rate. Does that make it a market at all, or a utility that markets depend on?
  - The 2008 freeze happened in the one market whose instruments were supposed to be as good as cash. Which assumption failed — the credit risk, the liquidity, or the belief that both could be priced?

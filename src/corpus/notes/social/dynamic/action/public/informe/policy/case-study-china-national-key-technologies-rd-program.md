@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # National Key Technologies R&D Program

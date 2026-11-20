@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, north-africa, ancient, city-state]
+tags: [note, social, north-africa, ancient, city-state, unfinished]
 ---
 
 # Carthage

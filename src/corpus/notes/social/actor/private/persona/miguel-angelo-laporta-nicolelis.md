@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, neuroscience]
+tags: [note, social, actor, person, neuroscience]
 ---
 
 # Miguel Ângelo Laporta Nicolelis

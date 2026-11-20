@@ -1,5 +1,5 @@
 ---
-tags: [note, research-lab, r-and-d, organization]
+tags: [note, social, organization, research-lab, r-and-d]
 ---
 
 # Enterprise Research Lab

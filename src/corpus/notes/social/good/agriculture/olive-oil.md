@@ -1,5 +1,5 @@
 ---
-tags: [note, catalog, good, food]
+tags: [note, social, good, catalog, food]
 ---
 
 # Olive Oil

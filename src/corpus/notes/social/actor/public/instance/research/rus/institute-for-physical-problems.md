@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, physics, low-temperature-physics, russia, soviet-union]
+tags: [note, social, actor, research-institute, physics, low-temperature-physics, russia, soviet-union]
 qa:
  - One institution wearing seven official names: where does the institute's identity live — in the mandate, the personnel, or the building?
  - Was the small size a condition of its greatness (a handpicked core) or a cost of the 1950s atomic era it absorbed?

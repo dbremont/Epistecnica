@@ -1,5 +1,5 @@
 ---
-tags: [note, evento, institucion, politica, unfinished]
+tags: [note, social, evento, institucion, politica, unfinished]
 ---
 
 # Juntas Generales de Guipúzcoa

@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # A Design Proposal for Techno-industrial Intelligence System

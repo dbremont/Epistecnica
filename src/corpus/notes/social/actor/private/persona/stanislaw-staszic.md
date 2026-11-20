@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, science, politics]
+tags: [note, social, actor, person, science, politics]
 ---
 
 # Stanisław Staszic

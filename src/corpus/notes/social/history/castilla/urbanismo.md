@@ -1,5 +1,5 @@
 ---
-tags: [note, urbanismo]
+tags: [note, social, urbanismo]
 ---
 
 # Urbanismo

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, scientist]
+tags: [note, social, actor, person, scientist]
 ---
 
 # Juan Luis Vives y March

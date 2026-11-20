@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, logic, mathematics]
+tags: [note, social, actor, person, logic, mathematics]
 ---
 
 # George Boole

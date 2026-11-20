@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute]
+tags: [note, social, actor, research-institute]
 ---
 
 # RISE: Research Institutes of Sweden

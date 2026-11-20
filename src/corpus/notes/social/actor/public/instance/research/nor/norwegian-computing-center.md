@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, research-foundation, norway, computing]
+tags: [note, social, actor, research-institute, research-foundation, norway, computing]
 ---
 
 # Norwegian Computing Center (NR)

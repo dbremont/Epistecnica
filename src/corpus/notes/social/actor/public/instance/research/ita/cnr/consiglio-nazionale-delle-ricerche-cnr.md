@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, italy]
+tags: [note, social, actor, research-institute, italy]
 ---
 
 # Consiglio Nazionale delle Ricerche  (CNR)

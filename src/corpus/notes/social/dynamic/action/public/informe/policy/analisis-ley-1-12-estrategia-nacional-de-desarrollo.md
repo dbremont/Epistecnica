@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Analisis: Ley 1-12 Estrategia Nacional de Desarrollo (END) 2030

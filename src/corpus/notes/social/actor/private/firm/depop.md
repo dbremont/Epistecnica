@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-kingdom, p2p, social-commerce, resale]
+tags: [note, social, actor, firm, commerce, united-kingdom, p2p, social-commerce, resale]
 ---
 
 # Depop

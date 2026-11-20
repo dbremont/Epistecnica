@@ -1,5 +1,5 @@
 ---
-tags: [note, initiative, organization, action, social-element]
+tags: [note, social, action, social-element, organization, initiative]
 ---
 
 # Initiative

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, history, maritime]
+tags: [note, social, actor, person, history, maritime]
 ---
 
 # Zheng He

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, business, estratega]
+tags: [note, social, actor, person, business, estratega]
 ---
 
 # Michael Porter

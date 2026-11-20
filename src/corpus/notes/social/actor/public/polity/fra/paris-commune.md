@@ -1,5 +1,5 @@
 ---
-tags: [note, europe, modern, republic]
+tags: [note, social, europe, modern, republic]
 ---
 
 # Paris Commune

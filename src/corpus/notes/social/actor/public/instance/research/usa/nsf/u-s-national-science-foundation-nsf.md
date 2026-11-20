@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, research-institute, usa]
+tags: [note, social, actor, research-institute, usa, unfinished]
 ---
 
 # U.S. National Science Foundation (NSF)

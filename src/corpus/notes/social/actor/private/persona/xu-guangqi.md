@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, china, statesman, science]
+tags: [note, social, actor, person, china, statesman, science]
 ---
 
 # Xu Guangqi

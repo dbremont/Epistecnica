@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 qa:
 - Is civil service design part of policy, or should we consider it separately for practical and analytical purposes?
 ---

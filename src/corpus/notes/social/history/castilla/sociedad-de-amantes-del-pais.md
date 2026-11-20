@@ -1,5 +1,5 @@
 ---
-tags: [note, conocimiento]
+tags: [note, social, conocimiento]
 ---
 
 # Sociedad de Amantes del País

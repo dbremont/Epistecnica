@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, computer-science, philosophy]
+tags: [note, social, actor, person, computer-science, philosophy]
 ---
 
 # Eliezer Yudkowsky

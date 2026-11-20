@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, monetary-system, synontic, coordinator, social-element]
+tags: [note, social, social-element, monetary-system, synontic, coordinator, unfinished]
 qa:
 - Money   as Claim on Production.
 - Savings as as Transfer of Consumption Power in Time - Present to Future.

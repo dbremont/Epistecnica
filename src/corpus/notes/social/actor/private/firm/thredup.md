@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, resale, recommerce]
+tags: [note, social, actor, firm, commerce, united-states, resale, recommerce]
 ---
 
 # thredUP

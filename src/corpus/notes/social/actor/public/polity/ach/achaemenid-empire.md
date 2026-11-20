@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, middle-east, ancient, empire]
+tags: [note, social, middle-east, ancient, empire, unfinished]
 ---
 
 # Achaemenid Empire

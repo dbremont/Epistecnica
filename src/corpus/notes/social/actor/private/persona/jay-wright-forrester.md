@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega, scientist]
+tags: [note, social, actor, person, estratega, scientist]
 ---
 
 # Jay Wright Forrester

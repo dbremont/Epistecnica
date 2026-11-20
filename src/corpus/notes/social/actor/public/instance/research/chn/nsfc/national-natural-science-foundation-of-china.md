@@ -1,5 +1,5 @@
 ---
-tags: [note, china, nsfc, research-funding, public-organization, science-policy]
+tags: [note, social, public-organization, china, nsfc, research-funding, science-policy]
 qa:
  - The schema allocates by discipline and by project type, not by mission. What does a state give up when its main basic-research fund has no mission line?
  - The talent ladder funds people while the program ladder funds projects. Which one actually builds a research capacity, and which one builds a queue?

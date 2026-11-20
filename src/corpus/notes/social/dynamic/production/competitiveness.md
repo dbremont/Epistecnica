@@ -1,5 +1,5 @@
 ---
-tags: [note, competitiveness, productivity, production, economic, social]
+tags: [note, social, production, competitiveness, productivity, economic]
 qa:
  - If productivity can rise while a production system loses its position, what exactly does the productivity series measure — the system's efficiency, or the efficiency of a technique that may already be obsolete?
  - Krugman says the word competitiveness is dangerous because nations do not compete like firms. Does the objection hold against a *capability* reading, or only against the trade-balance reading it was aimed at?

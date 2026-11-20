@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # José Justo Gómez de la Cortina y Gómez de la Cortina

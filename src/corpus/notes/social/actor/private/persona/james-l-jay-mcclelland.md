@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, neuroscience]
+tags: [note, social, actor, person, neuroscience]
 ---
 
 # James L. (Jay) McClelland

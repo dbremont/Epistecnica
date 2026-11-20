@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Hong Kong - Social Region Dynamics 1900 - 2025

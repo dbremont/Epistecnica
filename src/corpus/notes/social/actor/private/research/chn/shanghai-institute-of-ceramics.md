@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, china]
+tags: [note, social, actor, research-institute, ceramics, china]
 ---
 
 # Shanghai Institute of Ceramics (SICCAS)

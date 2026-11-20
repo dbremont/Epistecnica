@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, estratega, industrialist]
+tags: [note, social, actor, person, estratega, industrialist, unfinished]
 type: person
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [note, board, governance, organization, agency, social-element]
+tags: [note, social, social-element, organization, board, governance, agency]
 qa:
 - Does the authority to appoint board members necessarily imply control over the board's decisions?
 - How does the distribution of appointment powers affect the independence of the governing body?

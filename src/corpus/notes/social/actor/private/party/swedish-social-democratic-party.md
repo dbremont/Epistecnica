@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, political-party]
+tags: [note, social, actor, political-party]
 ---
 
 # Swedish Social Democratic Party (SAP)

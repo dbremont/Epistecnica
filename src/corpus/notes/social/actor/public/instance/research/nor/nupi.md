@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, norway, foreign-policy]
+tags: [note, social, actor, research-institute, norway, foreign-policy]
 ---
 
 # Norwegian Institute of International Affairs (NUPI)

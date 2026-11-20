@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, germany, e-commerce, marketplace]
+tags: [note, social, actor, firm, commerce, germany, e-commerce, marketplace]
 ---
 
 # Zalando

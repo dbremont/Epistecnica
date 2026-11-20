@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, mechanics, analysis, algebra, astronomy]
+tags: [note, social, actor, person, mathematics, mechanics, analysis, algebra, astronomy]
 qa:
  - Did the diagramless Mécanique analytique cost mechanics its reading of machines, and what did the analytic discipline gain where it lost the figure?
  - What did the Berlin-to-Paris transfer of 1787 do to the production of his mathematics — and to whom its memoirs were addressed?

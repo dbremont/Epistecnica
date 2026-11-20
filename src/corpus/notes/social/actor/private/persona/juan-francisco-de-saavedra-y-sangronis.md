@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega, politics]
+tags: [note, social, actor, person, estratega, politics]
 ---
 
 # Juan Francisco de Saavedra y Sangronís

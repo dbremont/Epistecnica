@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, business]
+tags: [note, social, actor, person, business]
 ---
 
 # Jack Welch

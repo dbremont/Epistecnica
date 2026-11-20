@@ -1,5 +1,5 @@
 ---
-tags: [note, software, organization, collective]
+tags: [note, social, collective, organization, software]
 ---
 
 # Software Firm Organization

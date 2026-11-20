@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, sweden, specialty, self-service, omnichannel]
+tags: [note, social, actor, firm, commerce, sweden, specialty, self-service, omnichannel]
 ---
 
 # IKEA

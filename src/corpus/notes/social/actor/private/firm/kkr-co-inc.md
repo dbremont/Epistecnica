@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, finance, private-equity, asset-management, united-states, social-element]
+tags: [note, social, actor, social-element, firm, finance, private-equity, asset-management, united-states]
 ---
 
 # KKR & Co. Inc.

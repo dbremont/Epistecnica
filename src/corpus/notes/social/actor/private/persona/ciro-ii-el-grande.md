@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Ciro II el Grande

@@ -1,5 +1,5 @@
 ---
-tags: [note, gobierno, politica]
+tags: [note, social, gobierno, politica]
 ---
 
 # Disolucion

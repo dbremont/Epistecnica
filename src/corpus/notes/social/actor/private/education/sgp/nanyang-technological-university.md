@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, university, singapore]
+tags: [note, social, actor, university, education, medical, singapore]
 ---
 
 # Nanyang Technological University (NTU)

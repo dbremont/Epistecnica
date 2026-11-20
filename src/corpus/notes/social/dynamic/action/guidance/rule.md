@@ -1,5 +1,5 @@
 ---
-tags: [note, rule, guidance, normative, social-element]
+tags: [note, social, guidance, social-element, rule, normative]
 ---
 
 # Rule

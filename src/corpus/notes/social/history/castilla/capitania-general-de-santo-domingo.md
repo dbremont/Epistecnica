@@ -1,5 +1,5 @@
 ---
-tags: [note, geografia, gobierno, politica]
+tags: [note, social, geografia, gobierno, politica]
 ---
 
 # Capitania General de Santo Domingo

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega, policy]
+tags: [note, social, actor, person, estratega, policy]
 ---
 
 # Slavo Radosevic

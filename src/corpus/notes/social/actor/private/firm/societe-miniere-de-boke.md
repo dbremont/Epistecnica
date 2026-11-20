@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, mining, bauxite, guinea, infrastructure]
+tags: [note, social, actor, firm, mining, bauxite, guinea, infrastructure]
 ---
 
 # Société Minière de Boké

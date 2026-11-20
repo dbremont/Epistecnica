@@ -1,5 +1,5 @@
 ---
-tags: [note, action, collective-action, social-element]
+tags: [note, social, action, social-element, collective-action]
 ---
 
 # Collective Action

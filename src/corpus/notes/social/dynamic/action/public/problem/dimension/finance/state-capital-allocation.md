@@ -1,5 +1,5 @@
 ---
-tags: [note, finance, state-capital, allocation, industrial-policy, social-element]
+tags: [note, social, social-element, finance, state-capital, allocation, industrial-policy]
 qa:
  - Additionality is the test every allocation is supposed to pass and almost none is measured against. What would an honest counterfactual look like, and who would pay for it?
  - A tax credit and a direct loan can move the same capital with very different visibility. Is the preference for the invisible instrument a design choice or an accounting one?

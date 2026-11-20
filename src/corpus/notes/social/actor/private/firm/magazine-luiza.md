@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, brazil, omnichannel, e-commerce, marketplace]
+tags: [note, social, actor, firm, commerce, brazil, omnichannel, e-commerce, marketplace]
 ---
 
 # Magazine Luiza

@@ -1,5 +1,5 @@
 ---
-tags: [note, gobierno]
+tags: [note, social, gobierno]
 ---
 
 # Ciudad

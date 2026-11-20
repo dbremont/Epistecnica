@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, national-laboratory, usa]
+tags: [note, social, actor, research-institute, national-laboratory, usa]
 ---
 
 # Ames National Laboratory

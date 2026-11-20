@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, economist, sociology]
+tags: [note, social, actor, person, economist, sociology, unfinished]
 type: person
 ---
 

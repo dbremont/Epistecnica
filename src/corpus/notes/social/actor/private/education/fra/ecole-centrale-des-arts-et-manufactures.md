@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, france]
+tags: [note, social, actor, education, france]
 ---
 
 # École Centrale des Arts et Manufactures

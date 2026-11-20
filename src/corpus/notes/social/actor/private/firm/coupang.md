@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, south-korea, e-commerce, on-demand, integrated-fulfillment]
+tags: [note, social, actor, firm, commerce, south-korea, e-commerce, on-demand, integrated-fulfillment]
 ---
 
 # Coupang

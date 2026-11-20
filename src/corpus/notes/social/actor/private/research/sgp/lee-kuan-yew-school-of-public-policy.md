@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university]
+tags: [note, social, actor, university]
 ---
 
 # Lee Kuan Yew School of Public Policy

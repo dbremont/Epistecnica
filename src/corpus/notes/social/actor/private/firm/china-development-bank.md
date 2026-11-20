@@ -1,4 +1,4 @@
 ---
-tags: [note, unfinished, actor, firm, development-bank]
+tags: [note, social, actor, firm, development-bank, unfinished]
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [note, expansion, legal, politica, unfinished]
+tags: [note, social, expansion, legal, politica, unfinished]
 ---
 
 # Expansión

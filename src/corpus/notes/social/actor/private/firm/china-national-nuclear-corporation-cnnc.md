@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # China National Nuclear Corporation (CNNC)

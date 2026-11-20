@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # A Proposal on a New Political Representation Organization
 

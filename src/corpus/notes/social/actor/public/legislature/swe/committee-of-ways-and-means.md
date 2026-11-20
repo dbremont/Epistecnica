@@ -1,5 +1,5 @@
 ---
-tags: [note, committee, legislature, sweden, riksdag, taxation, public-finance, history, political-economy]
+tags: [note, social, committee, legislature, sweden, riksdag, taxation, public-finance, history, political-economy]
 ---
 
 # Standing Committee of Ways and Means

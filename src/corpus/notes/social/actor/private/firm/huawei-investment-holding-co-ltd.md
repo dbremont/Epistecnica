@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # Huawei Investment & Holding Co., Ltd.

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, laboratory, health, diagnostics]
+tags: [note, social, actor, laboratory, health, diagnostics]
 ---
 
 # Medical Laboratory

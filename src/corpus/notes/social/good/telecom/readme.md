@@ -1,5 +1,5 @@
 ---
-tags: [note, catalog]
+tags: [note, social, catalog]
 ---
 
 # Telecom Product Space

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, sovereign-fund]
+tags: [note, social, actor, sovereign-fund]
 ---
 
 # Government Pension Fund of Norway

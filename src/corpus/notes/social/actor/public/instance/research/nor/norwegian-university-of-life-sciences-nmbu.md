@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university, agriculture, norway]
+tags: [note, social, actor, university, agriculture, norway]
 ---
 
 # Norwegian University of Life Sciences (NMBU)

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, institute, serbia, research, automation, ICT]
+tags: [note, social, actor, institute, serbia, research, automation, ICT]
 ---
 
 # Mihajlo Pupin Institute (IMP)

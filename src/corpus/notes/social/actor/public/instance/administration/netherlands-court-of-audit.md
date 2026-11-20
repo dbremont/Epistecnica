@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, public-organization, audit, netherlands]
+tags: [note, social, actor, public-organization, audit, netherlands]
 ---
 
 # Netherlands Court of Audit

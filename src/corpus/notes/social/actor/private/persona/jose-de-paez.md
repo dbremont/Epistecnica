@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, person, painter, painting, new-spain]
+tags: [note, social, actor, person, painter, painting, new-spain]
 type: person
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # An Essay on Dominican Growth and Industry Structure 1844-2020

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # Campofrío Food Group S.A.U.

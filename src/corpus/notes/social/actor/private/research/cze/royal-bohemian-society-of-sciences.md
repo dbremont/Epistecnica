@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, bohemia, czechia, research]
+tags: [note, social, actor, learned-society, scientific-collective, bohemia, czechia, research]
 ---
 
 # Royal Bohemian Society of Sciences

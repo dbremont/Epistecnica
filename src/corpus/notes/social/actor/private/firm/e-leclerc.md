@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, france, cooperative, general-retail]
+tags: [note, social, actor, firm, commerce, france, cooperative, general-retail]
 ---
 
 # E.Leclerc

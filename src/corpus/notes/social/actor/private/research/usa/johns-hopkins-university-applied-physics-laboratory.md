@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university]
+tags: [note, social, actor, university]
 ---
 
 # Johns Hopkins University Applied Physics Laboratory (APL)

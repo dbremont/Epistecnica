@@ -1,5 +1,5 @@
 ---
-tags: [note, monarquia-catolica, unfinished]
+tags: [note, social, monarquia-catolica, unfinished]
 ---
 
 # Chile

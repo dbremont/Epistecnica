@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, astronomy, mathematics, history]
+tags: [note, social, actor, person, astronomy, mathematics, history]
 ---
 
 # Antonio de León y Gama

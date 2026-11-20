@@ -1,5 +1,5 @@
 ---
-tags: [note, brasil, defence, procurement, program, industrial-policy, technology-transfer, offsets]
+tags: [note, social, brasil, defence, procurement, program, industrial-policy, technology-transfer, offsets]
 ---
 
 # Programa Gripen Brasileiro

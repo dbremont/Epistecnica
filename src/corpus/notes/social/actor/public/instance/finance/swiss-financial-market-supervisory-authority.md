@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, financial-regulator]
+tags: [note, social, actor, financial-regulator]
 ---
 
 # Swiss Financial Market Supervisory Authority

@@ -1,5 +1,5 @@
 ---
-tags: [note, auction, market, coordination, price, social-element]
+tags: [note, social, market, social-element, auction, coordination, price]
 qa:
  - An auction can discover the price, allocate to the highest-value use, or raise revenue — and the three do not coincide. Which one is a given auction for, and who decided that?
  - Second-price bidding is strategy-proof in theory and rare in practice. Is the gap ignorance, or does the revealed preference of designers know something the theory does not?

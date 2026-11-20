@@ -1,5 +1,5 @@
 ---
-tags: [note, social-compound, scholarly-journal, publishing, royal-society, social-element]
+tags: [note, social, social-element, social-compound, scholarly-journal, publishing, royal-society]
 ---
 
 # Philosophical Transactions of the Royal Society

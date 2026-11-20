@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, south-asia, early-modern, empire]
+tags: [note, social, south-asia, early-modern, empire, unfinished]
 ---
 
 # Mughal Empire

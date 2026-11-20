@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # John Sheffield, 1st Duke of Buckingham and Normanby

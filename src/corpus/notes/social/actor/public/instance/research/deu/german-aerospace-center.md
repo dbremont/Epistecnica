@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, space-agency]
+tags: [note, social, actor, research-institute, space-agency]
 ---
 
 # German Aerospace Center

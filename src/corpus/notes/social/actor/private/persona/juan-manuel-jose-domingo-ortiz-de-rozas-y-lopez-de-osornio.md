@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Juan Manuel José Domingo Ortiz de Rozas y López de Osornio

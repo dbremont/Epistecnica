@@ -1,5 +1,5 @@
 ---
-tags: [note, doctrine, guidance, cognitive, social-element]
+tags: [note, social, guidance, social-element, doctrine, cognitive]
 ---
 
 # Doctrine

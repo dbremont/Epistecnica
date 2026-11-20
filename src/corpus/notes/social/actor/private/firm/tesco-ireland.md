@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, ireland, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, ireland, supermarket, omnichannel]
 ---
 
 # Tesco Ireland

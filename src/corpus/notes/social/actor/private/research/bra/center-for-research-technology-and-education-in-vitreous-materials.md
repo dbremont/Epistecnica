@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, glass, ceramics, brazil]
+tags: [note, social, actor, research-institute, glass, ceramics, brazil]
 ---
 
 # Center for Research, Technology and Education in Vitreous Materials (CeRTEV)

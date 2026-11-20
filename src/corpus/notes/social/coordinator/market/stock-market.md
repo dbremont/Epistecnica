@@ -1,5 +1,5 @@
 ---
-tags: [note, stock-market, equity]
+tags: [note, social, stock-market, equity]
 ---
 
 # Stock Market

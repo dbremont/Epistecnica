@@ -357,6 +357,18 @@ tags: [note, java, debugging, osgi]
 # Title
 ```
 
+Notes under `notes/social/` carry `social` as the **second** tag, followed by
+their kind and subtype (`actor`, `firm`, `person`, `research-institute`, …),
+then country and topic tags, with status tags such as `unfinished` last.
+Live HTML notes under `notes/social/` get the same `["note", "social"]` prefix
+from the indexer:
+
+```markdown
+---
+tags: [note, social, actor, firm, japan, manufacturing]
+---
+```
+
 - Tags follow the same naming rules as paths: ASCII, lowercase,
   kebab-case. The indexer warns on violations and drops the bad tag.
 - Tags are indexed into `src/corpus/app/data/notes-index.json`, surface as `@tag` search tokens

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, political-thought, liberalism, democracy, france, social-element]
+tags: [note, social, actor, social-element, person, political-thought, liberalism, democracy, france]
 ---
 
 # Alexis de Tocqueville

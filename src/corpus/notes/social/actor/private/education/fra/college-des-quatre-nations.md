@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, france, history]
+tags: [note, social, actor, education, france, history]
 ---
 
 # Collège des Quatre-Nations

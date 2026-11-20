@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, canada, discount]
+tags: [note, social, actor, firm, commerce, canada, discount]
 ---
 
 # Dollarama

@@ -1,5 +1,5 @@
 ---
-tags: [note, pharma, drug, antibiotic, antimicrobial, medicine]
+tags: [note, social, pharma, drug, antibiotic, antimicrobial, medicine]
 qa:
  - Is an antibiotic defined by what it is made of, by what it kills, or by how it kills?
  - Why does selectivity — a target the human cell does not have — matter more for antibiotics than for any other drug class?

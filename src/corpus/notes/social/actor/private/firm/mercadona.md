@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, spain, supermarket]
+tags: [note, social, actor, firm, commerce, spain, supermarket]
 ---
 
 # Mercadona

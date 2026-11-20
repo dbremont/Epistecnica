@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, france, recommerce, refurbishment, marketplace]
+tags: [note, social, actor, firm, commerce, france, recommerce, refurbishment, marketplace]
 ---
 
 # Back Market

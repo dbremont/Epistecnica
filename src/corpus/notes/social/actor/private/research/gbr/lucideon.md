@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, united-kingdom]
+tags: [note, social, actor, research-institute, ceramics, united-kingdom]
 ---
 
 # Lucideon

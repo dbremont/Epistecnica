@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, anthropology, kinship]
+tags: [note, social, actor, person, anthropology, kinship]
 ---
 
 # David M. Schneider

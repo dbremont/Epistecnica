@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study: 2030 Agenda for Sustainable Development:  Neither Development Nor Sustainable

@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # Foundation for the Meliorandis Toolkit
 

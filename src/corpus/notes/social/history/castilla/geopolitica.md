@@ -1,5 +1,5 @@
 ---
-tags: [note, politica, relacion-internacional, unfinished]
+tags: [note, social, politica, relacion-internacional, unfinished]
 ---
 
 # Geopolitica

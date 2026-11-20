@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, denmark, supermarket, discount, omnichannel]
+tags: [note, social, actor, firm, commerce, denmark, supermarket, discount, omnichannel]
 ---
 
 # Salling Group

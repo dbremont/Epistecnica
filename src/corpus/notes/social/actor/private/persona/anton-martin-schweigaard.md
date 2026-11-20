@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economics, politics]
+tags: [note, social, actor, person, economics, politics]
 ---
 
 # Anton Martin Schweigaard

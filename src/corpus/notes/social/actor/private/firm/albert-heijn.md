@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, netherlands, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, netherlands, supermarket, omnichannel]
 ---
 
 # Albert Heijn

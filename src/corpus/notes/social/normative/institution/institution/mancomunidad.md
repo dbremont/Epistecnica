@@ -1,5 +1,5 @@
 ---
-tags: [note, institution, spain, local-government, municipal, public-law, social-element]
+tags: [note, social, institution, social-element, spain, local-government, municipal, public-law]
 ---
 
 # Mancomunidad

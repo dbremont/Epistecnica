@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, specialty-retail, omnichannel]
+tags: [note, social, actor, firm, commerce, united-states, specialty-retail, omnichannel]
 ---
 
 # Home Depot

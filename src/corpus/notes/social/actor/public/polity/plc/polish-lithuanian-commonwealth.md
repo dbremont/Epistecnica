@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, europe, early-modern, commonwealth, anti-pattern]
+tags: [note, social, europe, early-modern, commonwealth, anti-pattern, unfinished]
 ---
 
 # Polish-Lithuanian Commonwealth

@@ -1,5 +1,5 @@
 ---
-tags: [note, periodo, unfinished]
+tags: [note, social, periodo, unfinished]
 ---
 
 # Trienio Liberal

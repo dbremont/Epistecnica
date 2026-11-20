@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, public-organization]
+tags: [note, social, actor, public-organization]
 ---
 
 # Public Bodies of the Scottish Government

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, direct-selling]
+tags: [note, social, actor, firm, commerce, united-states, direct-selling]
 ---
 
 # Avon

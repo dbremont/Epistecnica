@@ -1,5 +1,5 @@
 ---
-tags: [note, property, ownership, social-element, institution]
+tags: [note, social, property, social-element, institution, ownership]
 qa:
 - Is property one institution or a family of them that share a name?
 - What does a property regime do that a single property right cannot?

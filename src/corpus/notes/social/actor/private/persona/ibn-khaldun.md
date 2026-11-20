@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, history, sociology]
+tags: [note, social, actor, person, history, sociology]
 ---
 
 # Ibn Khaldūn

@@ -1,5 +1,5 @@
 ---
-tags: [note, trade, terms-of-trade, economic]
+tags: [note, social, trade, terms-of-trade, economic]
 ---
 
 # Terms of Trade

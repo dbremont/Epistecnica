@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, rental]
+tags: [note, social, actor, firm, commerce, united-states, rental]
 ---
 
 # Rent the Runway

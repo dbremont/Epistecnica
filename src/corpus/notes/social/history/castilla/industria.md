@@ -1,5 +1,5 @@
 ---
-tags: [note, aclaratorio, economia]
+tags: [note, social, aclaratorio, economia]
 ---
 
 # Industria

@@ -1,5 +1,5 @@
 ---
-tags: [note, industrial-policy, diversification, technology, production]
+tags: [note, social, production, industrial-policy, diversification, technology]
 ---
 
 # An Essay on Cross-Sectoral Technical-Production Synergies: Technical Overlap over the Product Space

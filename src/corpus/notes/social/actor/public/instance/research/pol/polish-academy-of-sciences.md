@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, poland, academy]
+tags: [note, social, actor, research, poland, academy]
 ---
 
 # Polish Academy of Sciences

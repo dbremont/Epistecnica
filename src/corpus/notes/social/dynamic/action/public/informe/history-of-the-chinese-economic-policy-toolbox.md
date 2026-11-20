@@ -1,5 +1,5 @@
 ---
-tags: [note, economic-policy, china, toolbox, general]
+tags: [note, social, economic-policy, china, toolbox, general]
 ---
 
 # History of the Chinese Economic Policy Toolbox: Ideas and Techniques

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university]
+tags: [note, social, actor, university]
 ---
 
 # The Stockholm School of Economics (SSE)

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, dominicano]
+tags: [note, social, actor, person, dominicano]
 ---
 
 # Marino Vinicio Castillo Rodríguez

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, united-states, supermarket, omnichannel]
 ---
 
 # Kroger

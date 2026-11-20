@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, social-ontology]
+tags: [note, social, actor, social-ontology, person, philosophy]
 ---
 
 # Margaret Gilbert

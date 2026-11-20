@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, knowledge-transmission, university, history]
+tags: [note, social, actor, university, education, knowledge-transmission, history]
 ---
 
 # Education Actor

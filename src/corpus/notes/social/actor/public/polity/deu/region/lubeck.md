@@ -1,5 +1,5 @@
 ---
-tags: [note, city, polity, europe, medieval, modern, germany, hanse]
+tags: [note, social, city, polity, europe, medieval, modern, germany, hanse]
 ---
 
 # Lübeck

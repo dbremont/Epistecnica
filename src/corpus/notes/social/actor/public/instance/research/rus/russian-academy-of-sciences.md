@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, russia, research]
+tags: [note, social, actor, learned-society, scientific-collective, russia, research]
 ---
 
 # Russian Academy of Sciences

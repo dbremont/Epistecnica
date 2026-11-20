@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, united-kingdom, research]
+tags: [note, social, actor, learned-society, scientific-collective, united-kingdom, research]
 ---
 
 # The Royal Society of London for Improving Natural Knowledge

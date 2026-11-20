@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, science]
+tags: [note, social, actor, person, economist, science]
 ---
 
 # Johan Fischerström

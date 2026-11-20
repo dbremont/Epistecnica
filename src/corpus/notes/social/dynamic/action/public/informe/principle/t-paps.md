@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Techno-Productivist Agential Principle Set (T-PAPS)

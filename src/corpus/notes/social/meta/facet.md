@@ -1,5 +1,5 @@
 ---
-tags: [note, facet, social-ontology, dimension, layers, analytical]
+tags: [note, social, facet, social-ontology, dimension, layers, analytical]
 ---
 
 # Facet

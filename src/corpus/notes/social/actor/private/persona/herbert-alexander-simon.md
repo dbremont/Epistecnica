@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, cognitive-scientist, computer-science, economist]
+tags: [note, social, actor, person, cognitive-scientist, computer-science, economist]
 ---
 
 # Herbert Alexander Simon

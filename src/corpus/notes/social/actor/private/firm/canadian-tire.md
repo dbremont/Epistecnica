@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, canada, general-merchandise, omnichannel]
+tags: [note, social, actor, firm, commerce, canada, general-merchandise, omnichannel]
 ---
 
 # Canadian Tire

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-kingdom, factory-outlet]
+tags: [note, social, actor, firm, commerce, united-kingdom, factory-outlet]
 ---
 
 # McArthurGlen

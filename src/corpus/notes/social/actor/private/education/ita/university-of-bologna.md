@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, italy, bologna, medieval, history, social-element]
+tags: [note, social, actor, social-element, university, education, italy, bologna, medieval, history]
 ---
 
 # Alma Mater Studiorum – Università di Bologna

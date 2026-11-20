@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, italy, research]
+tags: [note, social, actor, learned-society, scientific-collective, italy, research]
 qa:
  - Is the academy of 1714 the same institution as the academy of today?
  - Was the Institute of Sciences an academy that researched, or a research institute that elected members?

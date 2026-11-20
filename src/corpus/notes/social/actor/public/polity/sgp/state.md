@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study: Singapore’s Government and Institutional Architecture

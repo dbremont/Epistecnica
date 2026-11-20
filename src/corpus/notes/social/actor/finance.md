@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, finance-actor, finance, collective, social-element]
+tags: [note, social, actor, collective, social-element, finance-actor, finance]
 ---
 
 # Finance Actor

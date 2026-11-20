@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, theology]
+tags: [note, social, actor, person, philosophy, theology]
 ---
 
 # Santo Tomás de Aquino

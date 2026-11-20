@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, space-agency]
+tags: [note, social, actor, space-agency]
 ---
 
 # National Aeronautics and Space Administration (NASA)

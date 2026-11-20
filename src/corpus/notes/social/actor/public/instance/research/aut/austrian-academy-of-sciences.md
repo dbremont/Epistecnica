@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, austria, research]
+tags: [note, social, actor, learned-society, scientific-collective, austria, research]
 ---
 
 # Austrian Academy of Sciences

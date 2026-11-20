@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, academy, netherlands]
+tags: [note, social, actor, research, academy, netherlands]
 ---
 
 # Royal Netherlands Academy of Arts and Sciences

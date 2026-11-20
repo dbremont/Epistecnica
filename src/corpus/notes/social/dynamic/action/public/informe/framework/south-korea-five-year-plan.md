@@ -1,5 +1,5 @@
 ---
-tags: [note, south-korea, plan, public-policy, social-element]
+tags: [note, social, social-element, south-korea, plan, public-policy]
 ---
 
 # South Korea Five-Year Plan

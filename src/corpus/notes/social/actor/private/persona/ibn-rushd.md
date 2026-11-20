@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, jurisprudence]
+tags: [note, social, actor, person, philosophy, jurisprudence]
 ---
 
 # Ibn Rushd

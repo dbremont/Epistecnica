@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, china, social, group-buying, marketplace]
+tags: [note, social, actor, firm, commerce, china, group-buying, marketplace]
 ---
 
 # PDD Holdings

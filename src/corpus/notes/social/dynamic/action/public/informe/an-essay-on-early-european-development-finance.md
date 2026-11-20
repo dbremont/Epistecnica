@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # An Essay on Early European Development Finance (1800–1850)

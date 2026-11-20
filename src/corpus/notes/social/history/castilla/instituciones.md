@@ -1,5 +1,5 @@
 ---
-tags: [note, gobierno, organizacion, unfinished]
+tags: [note, social, gobierno, organizacion, unfinished]
 ---
 
 # Instituciones

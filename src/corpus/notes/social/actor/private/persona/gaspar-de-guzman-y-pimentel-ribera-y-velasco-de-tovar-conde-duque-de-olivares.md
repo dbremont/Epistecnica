@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Gaspar de Guzmán y Pimentel Ribera y Velasco de Tovar, conde-duque de Olivares

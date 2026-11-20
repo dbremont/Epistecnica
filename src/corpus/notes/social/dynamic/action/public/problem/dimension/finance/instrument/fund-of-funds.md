@@ -1,5 +1,5 @@
 ---
-tags: [note, finance, fund, investment, collective-investment, social-element]
+tags: [note, social, social-element, finance, fund, investment, collective-investment]
 qa:
  - A fund of funds charges its own fee on top of the fees of the funds it buys. Under what conditions is that second layer worth paying — and who is it worth paying to?
  - If the public purpose is to reach firms, why route capital through a fund that reaches other funds rather than investing directly or granting?

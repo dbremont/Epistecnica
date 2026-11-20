@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, military, history]
+tags: [note, social, actor, person, military, history]
 ---
 
 # Mikhail Kutuzov

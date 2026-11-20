@@ -1,5 +1,5 @@
 ---
-tags: [note, plan, organization, action, social-element]
+tags: [note, social, action, social-element, organization, plan]
 ---
 
 # Plan

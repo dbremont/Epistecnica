@@ -1,5 +1,5 @@
 ---
-tags: [note, status, recognition, social-element]
+tags: [note, social, social-element, status, recognition]
 ---
 
 # Status

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, logic, mathematics, philosophy]
+tags: [note, social, actor, person, logic, mathematics, philosophy]
 ---
 
 # Gottfried Wilhelm Leibniz

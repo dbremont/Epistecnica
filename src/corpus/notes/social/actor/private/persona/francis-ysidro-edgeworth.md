@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, person, economics, statistics, philosophy]
+tags: [note, social, actor, person, economics, statistics, philosophy]
 ---
 
 # Francis Ysidro Edgeworth

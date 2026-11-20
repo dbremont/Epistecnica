@@ -1,5 +1,5 @@
 ---
-tags: [note, principle, guidance, normative, social-element]
+tags: [note, social, guidance, social-element, principle, normative]
 ---
 
 # Social Action Principle

@@ -1,4 +1,4 @@
 ---
-tags: [note, unfinished, actor, industrial-policy]
+tags: [note, social, actor, industrial-policy, unfinished]
 ---
 

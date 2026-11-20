@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-arab-emirates, e-commerce, marketplace]
+tags: [note, social, actor, firm, commerce, united-arab-emirates, e-commerce, marketplace]
 ---
 
 # Noon

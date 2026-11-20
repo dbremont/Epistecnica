@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, politics, economics]
+tags: [note, social, actor, person, politics, economics]
 ---
 
 # István Széchenyi

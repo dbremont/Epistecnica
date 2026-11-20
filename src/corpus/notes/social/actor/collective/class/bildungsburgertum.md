@@ -1,5 +1,5 @@
 ---
-tags: [note, stratum, bildungsburgertum, collective, social-element, europe, modern, germany]
+tags: [note, social, collective, social-element, stratum, bildungsburgertum, europe, modern, germany]
 ---
 
 # Bildungsbürgertum

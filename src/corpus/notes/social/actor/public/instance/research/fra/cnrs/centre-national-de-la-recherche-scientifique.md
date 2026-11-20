@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, france]
+tags: [note, social, actor, research-institute, france]
 ---
 
 # Centre National de la Recherche Scientifique

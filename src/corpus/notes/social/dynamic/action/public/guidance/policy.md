@@ -1,5 +1,5 @@
 ---
-tags: [note, policy, guidance, normative, government, social-element]
+tags: [note, social, guidance, social-element, policy, normative, government]
 ---
 
 # Public Policy

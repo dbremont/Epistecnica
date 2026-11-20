@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, materials, glass, manufacturing]
+tags: [note, social, actor, firm, materials, glass, manufacturing]
 ---
 
 # Corning Incorporated

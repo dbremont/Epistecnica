@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, learned-society, ireland]
+tags: [note, social, actor, learned-society, development, ireland]
 ---
 
 # Royal Dublin Society

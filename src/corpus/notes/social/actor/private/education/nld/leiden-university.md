@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, netherlands, research]
+tags: [note, social, actor, university, education, netherlands, research]
 ---
 
 # Leiden University

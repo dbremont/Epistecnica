@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, germany, cash-and-carry, membership]
+tags: [note, social, actor, firm, commerce, germany, cash-and-carry, membership]
 ---
 
 # Metro AG

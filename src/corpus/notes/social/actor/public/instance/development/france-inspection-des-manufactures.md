@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, state, france, regulation]
+tags: [note, social, actor, state, development, france, regulation]
 ---
 
 # Inspection des manufactures

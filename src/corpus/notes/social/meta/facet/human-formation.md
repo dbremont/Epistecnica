@@ -1,5 +1,5 @@
 ---
-tags: [note, facet, education, formation, social-ontology]
+tags: [note, social, facet, social-ontology, education, formation]
 ---
 
 # Human Formation Facet

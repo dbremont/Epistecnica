@@ -1,5 +1,5 @@
 ---
-tags: [note, organization, collective, actor, social-element]
+tags: [note, social, collective, actor, social-element, organization]
 ---
 
 # Organization

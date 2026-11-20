@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, belgium, nanoelectronics]
+tags: [note, social, actor, research-institute, belgium, nanoelectronics]
 qa:
  - Is contract-revenue dominance of public money the right frame: was imec a public body that sells, or a market actor that is publicly chartered?
  - Does the 2016 iMinds merger read as one actor absorbing a peer, or as two research-function actors (nanoelectronics and digital) being consolidated?

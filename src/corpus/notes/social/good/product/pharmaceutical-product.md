@@ -1,5 +1,5 @@
 ---
-tags: [note, pharma, pharmaceutical-product, medicine]
+tags: [note, social, pharma, pharmaceutical-product, medicine]
 qa:
  - Is a pharmaceutical product the same thing as a drug?
  - Why is a vaccine a pharmaceutical product but not a drug?

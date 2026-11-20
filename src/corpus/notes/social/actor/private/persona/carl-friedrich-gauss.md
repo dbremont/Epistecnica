@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, astronomy, physics]
+tags: [note, social, actor, person, mathematics, astronomy, physics]
 ---
 
 # Carl Friedrich Gauss

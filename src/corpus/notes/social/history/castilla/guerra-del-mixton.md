@@ -1,5 +1,5 @@
 ---
-tags: [note, conflicto, unfinished]
+tags: [note, social, conflicto, unfinished]
 ---
 
 # Guerra del Mixton

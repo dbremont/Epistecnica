@@ -1,5 +1,5 @@
 ---
-tags: [note, framework, guidance, normative, social-element]
+tags: [note, social, guidance, social-element, framework, normative]
 ---
 
 # Framework

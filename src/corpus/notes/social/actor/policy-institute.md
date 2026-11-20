@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, policy-institute, research-actor, policy, social-element]
+tags: [note, social, actor, social-element, policy-institute, research-actor, policy]
 ---
 
 # Policy Institute

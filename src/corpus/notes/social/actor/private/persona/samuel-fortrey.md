@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist]
+tags: [note, social, actor, person, economist]
 ---
 
 # Samuel Fortrey

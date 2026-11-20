@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 qa:
  - Is the Soviet economy best described as a plan, a hierarchy, a shortage economy, or a set of informal practices that made the plan operable?
  - If the soft budget constraint is the defining rule, was the system's failure one of incentives or of information?

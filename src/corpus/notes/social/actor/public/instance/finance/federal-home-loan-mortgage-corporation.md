@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, housing-finance]
+tags: [note, social, actor, housing-finance]
 ---
 
 # Federal Home Loan Mortgage Corporation (Freddie Mac)

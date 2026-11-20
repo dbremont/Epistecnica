@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, logic]
+tags: [note, social, actor, person, logic]
 ---
 
 # Bertrand Arthur William Russell

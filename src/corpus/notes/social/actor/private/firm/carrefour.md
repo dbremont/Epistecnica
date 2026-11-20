@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, france, supermarket, hypermarket, convenience, omnichannel]
+tags: [note, social, actor, firm, commerce, france, supermarket, hypermarket, convenience, omnichannel]
 ---
 
 # Carrefour

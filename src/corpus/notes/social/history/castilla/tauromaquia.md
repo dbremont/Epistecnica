@@ -1,5 +1,5 @@
 ---
-tags: [note, cultura]
+tags: [note, social, cultura]
 ---
 
 # Tauromaquia

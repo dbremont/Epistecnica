@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, scientist, theology]
+tags: [note, social, actor, person, philosophy, scientist, theology]
 ---
 
 # Robert Grosseteste

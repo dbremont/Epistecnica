@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, east-asia, early-modern, dynasty]
+tags: [note, social, east-asia, early-modern, dynasty, unfinished]
 ---
 
 # Ming dynasty

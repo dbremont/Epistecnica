@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # Shanghai Micro Electronics Equipment (Group) Co., Ltd. (SMEE)

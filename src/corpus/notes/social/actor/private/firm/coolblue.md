@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, netherlands, e-commerce, omnichannel]
+tags: [note, social, actor, firm, commerce, netherlands, e-commerce, omnichannel]
 ---
 
 # Coolblue

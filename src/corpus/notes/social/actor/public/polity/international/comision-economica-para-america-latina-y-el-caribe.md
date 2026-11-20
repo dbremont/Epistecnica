@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # CEPAL: Comisión Económica para América Latina y el Caribe

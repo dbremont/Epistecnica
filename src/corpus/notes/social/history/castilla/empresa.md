@@ -1,5 +1,5 @@
 ---
-tags: [note, economia]
+tags: [note, social, economia]
 ---
 
 # Empresa

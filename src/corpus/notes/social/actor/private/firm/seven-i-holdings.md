@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, japan, convenience, multi-format, franchise]
+tags: [note, social, actor, firm, commerce, japan, convenience, multi-format, franchise]
 ---
 
 # Seven & i Holdings

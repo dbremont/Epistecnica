@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, south-asia, ancient, empire]
+tags: [note, social, south-asia, ancient, empire, unfinished]
 ---
 
 # Maurya Empire

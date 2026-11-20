@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, sweden]
+tags: [note, social, actor, education, medical, sweden]
 ---
 
 # Karolinska Institute

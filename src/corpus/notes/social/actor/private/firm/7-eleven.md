@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, convenience, franchise]
+tags: [note, social, actor, firm, commerce, united-states, convenience, franchise]
 ---
 
 # 7-Eleven

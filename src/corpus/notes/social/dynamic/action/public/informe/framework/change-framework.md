@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Techno-Productivist Social Region Agential Transformation Framework (TP-SF-ATF)

@@ -1,5 +1,5 @@
 ---
-tags: [note, strategy, guidance, normative, social-element]
+tags: [note, social, guidance, social-element, strategy, normative]
 ---
 
 # Strategy

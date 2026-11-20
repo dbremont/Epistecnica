@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, professional-association]
+tags: [note, social, actor, professional-association]
 ---
 
 # Colegio Oficial de Ingenieros Industriales de Navarra

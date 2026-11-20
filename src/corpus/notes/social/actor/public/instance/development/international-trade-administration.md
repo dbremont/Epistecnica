@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, trade-promotion]
+tags: [note, social, actor, trade-promotion]
 ---
 
 # International Trade Administration (ITA)

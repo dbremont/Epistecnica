@@ -1,5 +1,5 @@
 ---
-tags: [note, polity, republic, ancient-india, political-form]
+tags: [note, social, polity, republic, ancient-india, political-form]
 ---
 
 # Gaṇasaṅgha

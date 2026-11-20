@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study: An Analysis of the Dominican Republic's Tourism and Hospitality Cluster

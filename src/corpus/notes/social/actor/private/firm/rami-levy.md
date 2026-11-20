@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, israel, discount, supermarket]
+tags: [note, social, actor, firm, commerce, israel, discount, supermarket]
 ---
 
 # Rami Levy

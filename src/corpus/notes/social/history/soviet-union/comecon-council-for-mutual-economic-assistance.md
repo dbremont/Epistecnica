@@ -1,5 +1,5 @@
 ---
-tags: [note, observatorio, unfinished]
+tags: [note, social, observatorio, unfinished]
 ---
 
 # (COMECON) Council for Mutual Economic Assistance

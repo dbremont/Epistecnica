@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, japan, research]
+tags: [note, social, actor, education, japan, research]
 ---
 
 # Kyoto University

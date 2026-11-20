@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, canada]
+tags: [note, social, actor, research-institute, agriculture, canada]
 ---
 
 # Agriculture and Agri-Food Canada

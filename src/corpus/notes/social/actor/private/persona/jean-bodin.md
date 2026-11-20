@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, estratega, politics]
+tags: [note, social, actor, person, economist, estratega, politics]
 ---
 
 # Jean Bodin

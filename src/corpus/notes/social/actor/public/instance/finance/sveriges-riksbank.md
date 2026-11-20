@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, central-bank]
+tags: [note, social, actor, central-bank, unfinished]
 ---
 
 # Sveriges Riksbank

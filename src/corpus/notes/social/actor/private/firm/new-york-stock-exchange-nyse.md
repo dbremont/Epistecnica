@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, stock-exchange]
+tags: [note, social, actor, firm, stock-exchange]
 ---
 
 # New York Stock Exchange (NYSE)

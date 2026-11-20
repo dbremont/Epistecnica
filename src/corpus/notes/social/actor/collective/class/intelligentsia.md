@@ -1,5 +1,5 @@
 ---
-tags: [note, stratum, intelligentsia, collective, social-element, europe, modern, russia, poland]
+tags: [note, social, collective, social-element, stratum, intelligentsia, europe, modern, russia, poland]
 ---
 
 # Intelligentsia

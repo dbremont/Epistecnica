@@ -1,5 +1,5 @@
 ---
-tags: [note, conflict]
+tags: [note, social, conflict]
 ---
 
 # Society Polarization

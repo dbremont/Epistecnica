@@ -1,5 +1,5 @@
 ---
-tags: [note, rol, unfinished]
+tags: [note, social, rol, unfinished]
 ---
 
 # Valido

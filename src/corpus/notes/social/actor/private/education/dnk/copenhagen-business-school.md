@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, denmark]
+tags: [note, social, actor, university, education, denmark]
 ---
 
 # Copenhagen Business School (CBS)

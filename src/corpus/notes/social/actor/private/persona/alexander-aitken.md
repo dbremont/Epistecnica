@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, mathematics]
+tags: [note, social, actor, person, mathematics, unfinished]
 type: person
 ---
 

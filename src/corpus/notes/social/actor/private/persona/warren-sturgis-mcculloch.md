@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, cognitive-scientist, neuroscience]
+tags: [note, social, actor, person, cognitive-scientist, neuroscience, unfinished]
 type: person
 ---
 

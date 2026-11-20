@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, political-party]
+tags: [note, social, actor, political-party, unfinished]
 ---
 
 **La République En Marche! (LREM)** — now officially renamed **Renaissance** (since 2022) — is a **centrist, pro-European political party in France**, founded by **Emmanuel Macron** in 2016. It is one of the most modern and structurally distinctive parties in Europe.

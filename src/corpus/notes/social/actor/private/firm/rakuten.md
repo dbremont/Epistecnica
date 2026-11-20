@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, japan, marketplace, platform-commerce]
+tags: [note, social, actor, firm, commerce, japan, marketplace, platform-commerce]
 ---
 
 # Rakuten

@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study: Nova Indústria Brasil - Plano de Ação para a Neoindustrialização 2024-2026

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university]
+tags: [note, social, actor, university]
 ---
 
 # London School of Economics and Political Science (LSE)

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, theology]
+tags: [note, social, actor, person, theology]
 ---
 
 # Aurelio Agustín de Hipona

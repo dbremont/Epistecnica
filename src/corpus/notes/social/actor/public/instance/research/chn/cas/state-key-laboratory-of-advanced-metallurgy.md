@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, china]
+tags: [note, social, actor, research-institute, china]
 ---
 
 # State Key Laboratory of Advanced Metallurgy

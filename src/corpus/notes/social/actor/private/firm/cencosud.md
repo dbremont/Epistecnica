@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, chile, supermarket, hypermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, chile, supermarket, hypermarket, omnichannel]
 ---
 
 # Cencosud

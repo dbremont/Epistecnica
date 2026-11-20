@@ -1,5 +1,5 @@
 ---
-tags: [note, norm, rule, law, fueros, legal-system, valencia, aragon, social-element]
+tags: [note, social, norm, social-element, rule, law, fueros, legal-system, valencia, aragon]
 ---
 
 # Costum de València

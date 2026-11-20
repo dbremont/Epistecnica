@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, politics]
+tags: [note, social, actor, person, philosophy, politics]
 ---
 
 # José Miguel Gambra Gutiérrez

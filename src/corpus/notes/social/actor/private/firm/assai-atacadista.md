@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, brazil, cash-and-carry]
+tags: [note, social, actor, firm, commerce, brazil, cash-and-carry]
 ---
 
 # Assaí Atacadista

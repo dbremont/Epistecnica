@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, sociology]
+tags: [note, social, actor, person, sociology]
 ---
 
 # José Moñino y Redondo, I conde de Floridablanca

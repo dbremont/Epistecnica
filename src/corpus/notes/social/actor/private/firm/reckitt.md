@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, consumer-goods, health, brands]
+tags: [note, social, actor, firm, consumer-goods, health, brands]
 ---
 
 # Reckitt

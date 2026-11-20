@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, japan, industrial-policy]
+tags: [note, social, actor, person, japan, industrial-policy, unfinished]
 type: person
 ---
 

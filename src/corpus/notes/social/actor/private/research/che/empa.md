@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, switzerland]
+tags: [note, social, actor, research-institute, ceramics, switzerland]
 ---
 
 # Empa (Swiss Federal Laboratories for Materials Science and Technology)

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, china, statesman, philosophy]
+tags: [note, social, actor, person, china, statesman, philosophy]
 ---
 
 # Guan Zhong

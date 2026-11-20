@@ -1,5 +1,5 @@
 ---
-tags: [note, gobierno, unfinished]
+tags: [note, social, gobierno, unfinished]
 ---
 
 # Municipio

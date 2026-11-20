@@ -1,5 +1,5 @@
 ---
-tags: [note, aclaratorio, unfinished]
+tags: [note, social, aclaratorio, unfinished]
 ---
 
 # Mita

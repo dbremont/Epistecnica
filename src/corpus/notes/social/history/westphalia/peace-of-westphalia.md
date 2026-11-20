@@ -1,5 +1,5 @@
 ---
-tags: [note, history, treaty, sovereignty, europe]
+tags: [note, social, history, treaty, sovereignty, europe]
 ---
 
 # Peace of Westphalia

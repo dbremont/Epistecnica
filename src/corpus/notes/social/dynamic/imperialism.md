@@ -1,5 +1,5 @@
 ---
-tags: [note, imperialism, empire, political-economy, social]
+tags: [note, social, imperialism, empire, political-economy]
 qa:
 - If a polity is a dictatorship, with sovereignty concentrated in the hands of a few, how should we conceptualize imperialism  - wheen the local population is also 'dominated'?
 - If imperialism is a relation of asymmetric control over the conditions of another population's political, economic, and social reproduction, what distinguishes it from other forms of domination, and what are the necessary and sufficient conditions for identifying an imperial relationship?

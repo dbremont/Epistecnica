@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy]
+tags: [note, social, actor, person, philosophy]
 ---
 
 # Thomas Hobbes

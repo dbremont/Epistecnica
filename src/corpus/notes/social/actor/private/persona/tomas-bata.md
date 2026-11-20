@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, industry, economics]
+tags: [note, social, actor, person, industry, economics]
 ---
 
 # Tomáš Baťa

@@ -1,5 +1,5 @@
 ---
-tags: [note, activity, science, scientific-activity, research, social-element]
+tags: [note, social, activity, social-element, science, scientific-activity, research]
 ---
 
 # Science

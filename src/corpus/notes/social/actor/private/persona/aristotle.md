@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, logic, philosophy]
+tags: [note, social, actor, person, logic, philosophy]
 ---
 
 # Aristotle

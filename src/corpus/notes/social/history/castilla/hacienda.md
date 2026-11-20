@@ -1,5 +1,5 @@
 ---
-tags: [note, gobierno, impuesto]
+tags: [note, social, gobierno, impuesto]
 ---
 
 # Hacienda

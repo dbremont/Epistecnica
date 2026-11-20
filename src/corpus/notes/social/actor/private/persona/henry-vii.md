@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, estratega]
+tags: [note, social, actor, person, economist, estratega]
 ---
 
 # Henry VII

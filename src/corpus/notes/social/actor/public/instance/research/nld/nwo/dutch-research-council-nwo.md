@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, netherlands]
+tags: [note, social, actor, research-institute, netherlands]
 ---
 
 # Dutch Research Council (NWO)

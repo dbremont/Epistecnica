@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, on-demand, marketplace]
+tags: [note, social, actor, firm, commerce, united-states, on-demand, marketplace]
 ---
 
 # Instacart

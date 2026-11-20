@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm]
+tags: [note, social, actor, firm]
 ---
 
 # China Northern Rare Earth (Group) High-tech Co., Ltd.

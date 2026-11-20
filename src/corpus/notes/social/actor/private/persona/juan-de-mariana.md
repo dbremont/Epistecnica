@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, sociology, theology]
+tags: [note, social, actor, person, economist, sociology, theology]
 ---
 
 # Juan de Mariana

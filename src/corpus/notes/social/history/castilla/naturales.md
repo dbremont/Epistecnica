@@ -1,5 +1,5 @@
 ---
-tags: [note, grupo-social]
+tags: [note, social, grupo-social]
 ---
 
 # Naturales

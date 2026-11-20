@@ -1,5 +1,5 @@
 ---
-tags: [note, impuesto]
+tags: [note, social, impuesto]
 ---
 
 # Fiscalidad

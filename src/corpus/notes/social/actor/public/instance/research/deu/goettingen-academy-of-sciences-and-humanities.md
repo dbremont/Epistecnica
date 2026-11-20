@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, scientific-collective, germany, research]
+tags: [note, social, actor, learned-society, scientific-collective, germany, research]
 ---
 
 # Göttingen Academy of Sciences and Humanities

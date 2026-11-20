@@ -1,5 +1,5 @@
 ---
-tags: [note, stratum, grossburger, grand-burgher, collective, social-element, europe, medieval, early-modern, germany]
+tags: [note, social, collective, social-element, stratum, grossburger, grand-burgher, europe, medieval, early-modern, germany]
 ---
 
 # Grand Burgher

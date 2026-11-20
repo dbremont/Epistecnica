@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, physics]
+tags: [note, social, actor, person, mathematics, physics]
 ---
 
 # Siméon Denis Poisson

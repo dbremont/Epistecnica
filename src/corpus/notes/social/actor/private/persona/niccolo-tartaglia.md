@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, scientist, mathematics]
+tags: [note, social, actor, person, scientist, mathematics]
 ---
 
 # Niccolò Tartaglia

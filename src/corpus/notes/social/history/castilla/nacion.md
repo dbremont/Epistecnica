@@ -1,5 +1,5 @@
 ---
-tags: [note, identidad, politica, unfinished]
+tags: [note, social, identidad, politica, unfinished]
 ---
 
 # Nacion

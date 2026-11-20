@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, industrial-policy]
+tags: [note, social, actor, industrial-policy]
 ---
 
 # State-owned Assets Supervision and Administration Commission of the State Council (SASAC)

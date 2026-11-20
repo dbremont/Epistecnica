@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mineralogy, metallurgy, humanist]
+tags: [note, social, actor, person, mineralogy, metallurgy, humanist]
 ---
 
 # Georgius Agricola

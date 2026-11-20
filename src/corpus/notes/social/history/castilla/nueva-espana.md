@@ -1,5 +1,5 @@
 ---
-tags: [note, geografia]
+tags: [note, social, geografia]
 ---
 
 # Nueva España

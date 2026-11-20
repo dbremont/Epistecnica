@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, off-price, opportunistic-retail]
+tags: [note, social, actor, firm, commerce, united-states, off-price, opportunistic-retail]
 ---
 
 # TJX Companies

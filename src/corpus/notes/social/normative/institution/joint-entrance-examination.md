@@ -1,5 +1,5 @@
 ---
-tags: [note, institution, education, india, examination, selection]
+tags: [note, social, institution, education, india, examination, selection]
 qa:
  - Is the JEE an examination or an allocation mechanism? The ranking is the product, and the exam is only how the ranking is produced.
  - Multi-session percentile normalisation compares candidates who took different papers on different days. What does the rank mean when the equating is a statistical construction rather than a shared test?

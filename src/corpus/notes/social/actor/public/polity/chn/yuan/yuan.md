@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, east-asia, medieval, dynasty]
+tags: [note, social, east-asia, medieval, dynasty, unfinished]
 ---
 
 # Yuan dynasty

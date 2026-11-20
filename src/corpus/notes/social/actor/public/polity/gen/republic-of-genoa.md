@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, europe, early-modern, republic]
+tags: [note, social, europe, early-modern, republic, unfinished]
 ---
 
 # Republic of Genoa

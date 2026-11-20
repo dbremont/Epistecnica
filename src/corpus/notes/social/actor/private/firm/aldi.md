@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, germany, hard-discount]
+tags: [note, social, actor, firm, commerce, germany, hard-discount]
 ---
 
 # ALDI

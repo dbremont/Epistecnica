@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, state-agency, norway, public-health]
+tags: [note, social, actor, research-institute, state-agency, norway, public-health]
 ---
 
 # Norwegian Institute of Public Health (NIPH)

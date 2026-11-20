@@ -1,5 +1,5 @@
 ---
-tags: [note, roadmap, organization, action, social-element]
+tags: [note, social, action, social-element, organization, roadmap]
 ---
 
 # Roadmap

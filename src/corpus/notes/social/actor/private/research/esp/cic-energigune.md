@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, research-institute]
+tags: [note, social, actor, research-institute, unfinished]
 ---
 
 # CIC energiGUNE

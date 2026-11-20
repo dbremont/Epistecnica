@@ -1,5 +1,5 @@
 ---
-tags: [note, identidad]
+tags: [note, social, identidad]
 ---
 
 # Identidad

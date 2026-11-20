@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, university, israel, engineering]
+tags: [note, social, actor, university, research, israel, engineering]
 ---
 
 # Technion — Israel Institute of Technology

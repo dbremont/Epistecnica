@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, research-institute, brazil]
+tags: [note, social, actor, research-institute, brazil, unfinished]
 ---
 
 # Empresa Brasileira de Pesquisa e Inovação Industrial (Embrapii)

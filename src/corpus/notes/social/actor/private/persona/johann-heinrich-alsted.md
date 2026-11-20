@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, theology, logic]
+tags: [note, social, actor, person, philosophy, theology, logic]
 ---
 
 # Johann Heinrich Alsted

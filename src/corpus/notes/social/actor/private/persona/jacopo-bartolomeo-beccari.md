@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, chemist]
+tags: [note, social, actor, person, chemist]
 ---
 
 # Jacopo Bartolomeo Beccari

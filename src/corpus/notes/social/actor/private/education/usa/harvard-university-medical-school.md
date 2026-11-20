@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, university, united-states]
+tags: [note, social, actor, university, education, medical, united-states]
 ---
 
 # Harvard University Medical School

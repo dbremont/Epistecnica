@@ -1,5 +1,5 @@
 ---
-tags: [note, exchange-rate, synontic, coordinator, social-element]
+tags: [note, social, social-element, exchange-rate, synontic, coordinator]
 ---
 
 # Exchange Rate

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute]
+tags: [note, social, actor, research-institute]
 ---
 
 # Laboratory for Information & Decision Systems

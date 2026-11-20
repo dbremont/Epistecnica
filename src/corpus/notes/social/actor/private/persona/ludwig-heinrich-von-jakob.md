@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, philosopher]
+tags: [note, social, actor, person, economist, philosopher]
 ---
 
 # Ludwig Heinrich von Jakob

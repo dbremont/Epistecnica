@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university, norway, education, research]
+tags: [note, social, actor, university, norway, education, research]
 ---
 
 # Norwegian University of Science and Technology (NTNU)

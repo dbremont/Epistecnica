@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, person, politics, criminal]
+tags: [note, social, actor, person, politics, criminal]
 type: person
 ---
 

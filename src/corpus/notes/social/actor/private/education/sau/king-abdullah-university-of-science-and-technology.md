@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, medical, university, saudi-arabia]
+tags: [note, social, actor, university, education, medical, saudi-arabia]
 ---
 
 # King Abdullah University of Science and Technology (KAUST)

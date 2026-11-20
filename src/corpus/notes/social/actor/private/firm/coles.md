@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, australia, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, australia, supermarket, omnichannel]
 ---
 
 # Coles

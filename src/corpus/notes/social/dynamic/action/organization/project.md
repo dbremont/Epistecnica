@@ -1,5 +1,5 @@
 ---
-tags: [note, project, organization, action, social-element]
+tags: [note, social, action, social-element, organization, project]
 ---
 
 # Project

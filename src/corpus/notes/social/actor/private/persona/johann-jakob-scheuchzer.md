@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, science, history]
+tags: [note, social, actor, person, science, history]
 ---
 
 # Johann Jakob Scheuchzer

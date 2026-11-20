@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, research-foundation, norway, biodiversity]
+tags: [note, social, actor, research-institute, research-foundation, norway, biodiversity]
 ---
 
 # Norwegian Institute for Nature Research (NINA)

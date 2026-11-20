@@ -1,5 +1,5 @@
 ---
-tags: [note, collective, social-compound, social-element, actor]
+tags: [note, social, collective, social-element, actor, social-compound]
 ---
 
 # Collective

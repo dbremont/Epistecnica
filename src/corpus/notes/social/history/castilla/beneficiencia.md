@@ -1,5 +1,5 @@
 ---
-tags: [note, beneficiencia, unfinished]
+tags: [note, social, beneficiencia, unfinished]
 ---
 
 # Beneficiencia

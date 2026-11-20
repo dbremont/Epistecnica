@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, denmark]
+tags: [note, social, actor, research-institute, denmark]
 ---
 
 # Danish National Research Foundation

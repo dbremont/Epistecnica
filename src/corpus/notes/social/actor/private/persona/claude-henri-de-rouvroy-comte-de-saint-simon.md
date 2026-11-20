@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, sociology]
+tags: [note, social, actor, person, sociology]
 ---
 
 # Claude Henri de Rouvroy, comte de Saint-Simon

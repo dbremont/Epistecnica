@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, ireland, discount]
+tags: [note, social, actor, firm, commerce, ireland, discount]
 ---
 
 # Aldi Ireland

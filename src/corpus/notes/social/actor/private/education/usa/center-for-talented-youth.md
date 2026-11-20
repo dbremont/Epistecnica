@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, gifted-education, united-states, university]
+tags: [note, social, actor, university, education, gifted-education, united-states]
 ---
 
 # Johns Hopkins Center for Talented Youth

@@ -1,6 +1,6 @@
 ---
 type: architecture
-tags: [note, actor, architecture, event-driven, microservices]
+tags: [note, social, actor, architecture, event-driven, microservices]
 ---
 
 # Event-Driven Microservices

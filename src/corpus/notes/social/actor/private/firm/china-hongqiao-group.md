@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, aluminium, china, commodities, energy]
+tags: [note, social, actor, firm, aluminium, china, commodities, energy]
 ---
 
 # China Hongqiao Group

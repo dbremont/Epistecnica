@@ -1,5 +1,5 @@
 ---
-tags: [note, product, good, economic, social-element]
+tags: [note, social, good, social-element, product, economic]
 ---
 
 # Product

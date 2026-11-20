@@ -1,5 +1,5 @@
 ---
-tags: [note, region, city, greece, peloponnese, port, social-element]
+tags: [note, social, social-element, region, city, greece, peloponnese, port]
 ---
 
 # Patras

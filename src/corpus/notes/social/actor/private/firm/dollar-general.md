@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, discount-retail]
+tags: [note, social, actor, firm, commerce, united-states, discount-retail]
 ---
 
 # Dollar General

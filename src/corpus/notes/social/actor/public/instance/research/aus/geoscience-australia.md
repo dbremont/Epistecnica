@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, australia, geoscience, survey]
+tags: [note, social, actor, australia, geoscience, survey]
 ---
 
 # Geoscience Australia

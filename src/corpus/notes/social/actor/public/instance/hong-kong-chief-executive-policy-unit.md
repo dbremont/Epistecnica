@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, institution, government, public-organization, hong-kong, china]
+tags: [note, social, actor, institution, public-organization, government, hong-kong, china]
 ---
 
 # Chief Executive's Policy Unit (CePU)

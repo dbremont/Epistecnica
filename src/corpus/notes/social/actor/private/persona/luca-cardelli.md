@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, person, biology, chemist, computer-science]
+tags: [note, social, actor, person, biology, chemist, computer-science, unfinished]
 type: person
 ---
 

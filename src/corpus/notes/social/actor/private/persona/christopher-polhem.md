@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, r-d]
+tags: [note, social, actor, person, r-d]
 ---
 
 # Christopher Polhem

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, germany, supermarket, cooperative, omnichannel]
+tags: [note, social, actor, firm, commerce, germany, supermarket, cooperative, omnichannel]
 ---
 
 # REWE

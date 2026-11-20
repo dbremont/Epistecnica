@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, engineering, industrial-revolution, iron, machine-tools]
+tags: [note, social, actor, person, engineering, industrial-revolution, iron, machine-tools]
 ---
 
 # John Wilkinson

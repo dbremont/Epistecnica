@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, p2p, marketplace, auction]
+tags: [note, social, actor, firm, commerce, united-states, p2p, marketplace, auction]
 ---
 
 # eBay

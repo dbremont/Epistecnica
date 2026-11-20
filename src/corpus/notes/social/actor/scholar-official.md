@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, individual, scholar-official, china, state, bureaucracy, social-element]
+tags: [note, social, actor, state, social-element, individual, scholar-official, china, bureaucracy]
 ---
 
 # Scholar-Official

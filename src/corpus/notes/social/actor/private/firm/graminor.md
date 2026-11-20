@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, plant-breeding, seeds, norway, agriculture, cooperative]
+tags: [note, social, actor, firm, plant-breeding, seeds, norway, agriculture, cooperative]
 ---
 
 # Graminor

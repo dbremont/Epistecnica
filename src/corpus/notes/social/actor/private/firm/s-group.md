@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, finland, cooperative, membership]
+tags: [note, social, actor, firm, commerce, finland, cooperative, membership]
 ---
 
 # S Group (SOK)

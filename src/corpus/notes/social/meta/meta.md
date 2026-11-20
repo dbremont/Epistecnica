@@ -1,5 +1,5 @@
 ---
-tags: [note, meta, social-ontology]
+tags: [note, social, social-ontology, meta]
 ---
 
 # Social Meta

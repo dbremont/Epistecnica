@@ -1,5 +1,5 @@
 ---
-tags: [note, region, city, greece, capital, attica, social-element]
+tags: [note, social, social-element, region, city, greece, capital, attica]
 ---
 
 # Athens

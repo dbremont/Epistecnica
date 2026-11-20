@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # Organisation for Economic Co-operation and Development (OECD)
 

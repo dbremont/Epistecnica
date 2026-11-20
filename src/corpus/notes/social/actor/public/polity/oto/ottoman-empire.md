@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, middle-east, early-modern, empire]
+tags: [note, social, middle-east, early-modern, empire, unfinished]
 ---
 
 # Ottoman Empire

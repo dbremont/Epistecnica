@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega]
+tags: [note, social, actor, person, estratega]
 ---
 
 # Nelson Marconi

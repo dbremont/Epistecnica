@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, theology, latin, rhetoric, philosophy]
+tags: [note, social, actor, person, theology, latin, rhetoric, philosophy]
 qa:
  - Tertullian gave Latin the words for doctrines the Greeks had already argued; how much of a doctrine is its vocabulary, and what changes when it changes language?
  - The rule of faith refuses the argument rather than winning it; is that a method of inquiry, or a way of ending one?

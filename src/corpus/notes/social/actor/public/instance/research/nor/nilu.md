@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, research-foundation, norway, environment]
+tags: [note, social, actor, research-institute, research-foundation, norway, environment]
 ---
 
 # Norwegian Institute for Air Research (NILU)

@@ -1,5 +1,5 @@
 ---
-tags: [note, india, plan, public-policy, social-element]
+tags: [note, social, social-element, india, plan, public-policy]
 ---
 
 # India Five-Year Plan

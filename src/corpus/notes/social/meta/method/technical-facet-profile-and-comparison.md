@@ -1,5 +1,5 @@
 ---
-tags: [note, social, meta, method, facet]
+tags: [note, social, facet, meta, method]
 ---
 
 # Technical Facet Profile and Comparison

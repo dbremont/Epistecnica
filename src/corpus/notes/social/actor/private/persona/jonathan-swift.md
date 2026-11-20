@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, politics, literature]
+tags: [note, social, actor, person, politics, literature]
 ---
 
 # Jonathan Swift

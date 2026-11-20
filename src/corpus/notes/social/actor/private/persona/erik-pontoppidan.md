@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, history]
+tags: [note, social, actor, person, economist, history]
 ---
 
 # Erik Pontoppidan

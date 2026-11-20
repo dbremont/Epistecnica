@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economics, politics, philosophy]
+tags: [note, social, actor, person, economics, politics, philosophy]
 ---
 
 # Pieter de la Court

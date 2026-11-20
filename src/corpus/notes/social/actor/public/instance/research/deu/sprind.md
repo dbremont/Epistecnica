@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, innovation-agency, germany, research]
+tags: [note, social, actor, innovation-agency, germany, research]
 ---
 
 # Federal Agency for Breakthrough Innovation (SPRIND)

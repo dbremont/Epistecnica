@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, political-philosophy]
+tags: [note, social, actor, person, philosophy, political-philosophy]
 ---
 
 # Al-Fārābī

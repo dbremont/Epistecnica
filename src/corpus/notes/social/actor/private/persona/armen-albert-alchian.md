@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, sociology]
+tags: [note, social, actor, person, economist, sociology]
 ---
 
 # Armen Albert Alchian

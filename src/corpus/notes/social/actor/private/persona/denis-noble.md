@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, biology]
+tags: [note, social, actor, person, biology]
 ---
 
 # Denis Noble

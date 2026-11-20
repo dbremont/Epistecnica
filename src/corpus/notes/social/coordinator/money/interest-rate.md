@@ -1,5 +1,5 @@
 ---
-tags: [note, interest-rate, money, monetary, price, social-element]
+tags: [note, social, social-element, interest-rate, money, monetary, price]
 qa:
  - A rate is not a price: it needs a base, a period and a risk to mean anything. How much of what is called "the interest rate" is a number with those three things left implicit?
  - The components of a rate — real return, expected inflation, credit risk, maturity — are inferred, never observed. Which inference carries the most weight, and what happens when it is wrong?

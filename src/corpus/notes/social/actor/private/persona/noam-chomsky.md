@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, linguist, scientist]
+tags: [note, social, actor, person, linguist, scientist]
 ---
 
 # Noam Chomsky

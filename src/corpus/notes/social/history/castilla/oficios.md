@@ -1,5 +1,5 @@
 ---
-tags: [note, cultura, economia]
+tags: [note, social, cultura, economia]
 ---
 
 # Oficios

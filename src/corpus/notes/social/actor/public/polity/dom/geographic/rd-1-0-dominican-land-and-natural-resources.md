@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # RD 1.0 Dominican Land and Natural Resources

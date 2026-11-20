@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, central-bank]
+tags: [note, social, actor, firm, central-bank]
 ---
 
 # Bank of England

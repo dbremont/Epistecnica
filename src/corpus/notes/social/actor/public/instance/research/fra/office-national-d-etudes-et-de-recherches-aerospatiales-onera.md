@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute]
+tags: [note, social, actor, research-institute]
 ---
 
 # Office National d'Études et de Recherches Aérospatiales (ONERA)

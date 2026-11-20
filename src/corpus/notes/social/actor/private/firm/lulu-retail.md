@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-arab-emirates, hypermarket, supermarket]
+tags: [note, social, actor, firm, commerce, united-arab-emirates, hypermarket, supermarket]
 ---
 
 # LuLu Retail

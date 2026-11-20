@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, multilateral]
+tags: [note, social, actor, firm, multilateral]
 ---
 
 # Bank for International Settlements

@@ -1,5 +1,5 @@
 ---
-tags: [note, region, italy, piedmont, turin, alps, social-element]
+tags: [note, social, social-element, region, italy, piedmont, turin, alps]
 ---
 
 # Piamonte

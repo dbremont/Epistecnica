@@ -1,5 +1,5 @@
 ---
-tags: [note, problem, problematization, intention, agency, goal, social-element]
+tags: [note, social, social-element, problem, problematization, intention, agency, goal]
 ---
 
 # Problem

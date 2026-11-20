@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, south-asia, medieval, empire]
+tags: [note, social, south-asia, medieval, empire, unfinished]
 ---
 
 # Chola Empire

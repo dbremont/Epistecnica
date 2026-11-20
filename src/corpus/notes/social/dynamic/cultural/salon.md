@@ -1,5 +1,5 @@
 ---
-tags: [note, salon, activity, cultural-activity, sociability, europe, modern, social-element]
+tags: [note, social, activity, social-element, salon, cultural-activity, sociability, europe, modern]
 ---
 
 # Salon

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, netherlands, supermarket, multi-format, omnichannel]
+tags: [note, social, actor, firm, commerce, netherlands, supermarket, multi-format, omnichannel]
 ---
 
 # Ahold Delhaize

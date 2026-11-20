@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, gifted-education, hong-kong, ngo]
+tags: [note, social, actor, education, gifted-education, hong-kong, ngo]
 ---
 
 # Hong Kong Academy for Gifted Education

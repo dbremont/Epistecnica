@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, university, organization, europe, medieval, social-element]
+tags: [note, social, actor, social-element, university, organization, education, europe, medieval]
 ---
 
 # University

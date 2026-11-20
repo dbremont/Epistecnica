@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, conflict]
+tags: [note, social, conflict, unfinished]
 ---
 # Violence
 

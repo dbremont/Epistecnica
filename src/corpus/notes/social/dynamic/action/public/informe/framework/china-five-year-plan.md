@@ -1,5 +1,5 @@
 ---
-tags: [note, china, plan, public-policy, social-element]
+tags: [note, social, social-element, china, plan, public-policy]
 ---
 
 # China Five-Year Plan

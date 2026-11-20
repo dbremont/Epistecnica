@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, academy, france]
+tags: [note, social, actor, learned-society, academy, france]
 ---
 
 # Institut de France

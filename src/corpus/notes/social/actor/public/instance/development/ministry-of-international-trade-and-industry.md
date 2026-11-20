@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, trade-promotion, industrial-policy]
+tags: [note, social, actor, trade-promotion, industrial-policy]
 ---
 
 # Ministry of International Trade and Industry (MITI)

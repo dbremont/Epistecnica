@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, germany]
+tags: [note, social, actor, research-institute, germany]
 ---
 
 # Fraunhofer Institute for Systems and Innovation Research (ISI)

@@ -1,5 +1,5 @@
 ---
-tags: [note, municipal-government, local-government, collective, social-element, actor]
+tags: [note, social, collective, social-element, actor, municipal-government, local-government]
 ---
 
 # Municipal Government

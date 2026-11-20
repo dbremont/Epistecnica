@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, guatemala, enlightenment, research]
+tags: [note, social, actor, learned-society, guatemala, enlightenment, research]
 ---
 
 # Real Sociedad Económica de Amantes de la Patria de Guatemala

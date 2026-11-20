@@ -1,5 +1,5 @@
 ---
-tags: [note, program, organization, action, social-element]
+tags: [note, social, action, social-element, organization, program]
 ---
 
 # Program

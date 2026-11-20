@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, trade-promotion]
+tags: [note, social, actor, firm, trade-promotion]
 ---
 
 # New Zealand Trade and Enterprise (NZTE)

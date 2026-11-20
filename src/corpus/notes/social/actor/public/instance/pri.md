@@ -1,5 +1,5 @@
 ---
-tags: [note, research-institute]
+tags: [note, social, research-institute]
 ---
 
 # Public Research Institutes (PRI)

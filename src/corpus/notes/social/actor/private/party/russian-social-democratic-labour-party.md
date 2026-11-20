@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, political-party]
+tags: [note, social, actor, political-party]
 ---
 
 # Russian Social Democratic Labour Party

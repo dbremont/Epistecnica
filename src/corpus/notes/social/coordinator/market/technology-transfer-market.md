@@ -1,5 +1,5 @@
 ---
-tags: [note, market, technology-transfer, coordination]
+tags: [note, social, market, technology-transfer, coordination]
 ---
 
 # Technology Transfer Market

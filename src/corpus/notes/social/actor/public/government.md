@@ -1,5 +1,5 @@
 ---
-tags: [note, government, collective, social-element, actor]
+tags: [note, social, collective, social-element, actor, government]
 ---
 
 # Government

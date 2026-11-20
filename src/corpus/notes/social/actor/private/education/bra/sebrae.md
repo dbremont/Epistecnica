@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, brazil, sme-support]
+tags: [note, social, actor, education, brazil, sme-support]
 ---
 
 # Sebrae

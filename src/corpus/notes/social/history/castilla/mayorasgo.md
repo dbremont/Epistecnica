@@ -1,5 +1,5 @@
 ---
-tags: [note, legal]
+tags: [note, social, legal]
 ---
 
 # Mayorasgo

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, australia, specialty, omnichannel]
+tags: [note, social, actor, firm, commerce, australia, specialty, omnichannel]
 ---
 
 # JB Hi-Fi

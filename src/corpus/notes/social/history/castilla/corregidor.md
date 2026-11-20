@@ -1,5 +1,5 @@
 ---
-tags: [note, politica, unfinished]
+tags: [note, social, politica, unfinished]
 ---
 
 # Corregidor

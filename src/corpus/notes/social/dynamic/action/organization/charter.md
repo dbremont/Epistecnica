@@ -1,5 +1,5 @@
 ---
-tags: [note, charter, organization, action, social-element]
+tags: [note, social, action, social-element, organization, charter]
 ---
 
 # Charter

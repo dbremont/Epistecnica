@@ -1,5 +1,5 @@
 ---
-tags: [note, sovereignty, polity, political-collective, social-element]
+tags: [note, social, social-element, sovereignty, polity, political-collective]
 qa:
  - Is sovereignty divisible? Every federation says no in principle and divides it in practice — so is indivisibility a mark of the concept or a claim about it?
  - Does recognition constitute sovereignty or merely record it? The gap between de facto and de jure is where the answer has consequences.

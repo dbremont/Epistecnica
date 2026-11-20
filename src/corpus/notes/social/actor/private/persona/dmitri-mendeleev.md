@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, chemistry, history-of-science]
+tags: [note, social, actor, person, chemistry, history-of-science]
 ---
 
 # Dmitri Mendeleev

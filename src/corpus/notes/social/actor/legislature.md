@@ -1,5 +1,5 @@
 ---
-tags: [note, legislature, assembly, public-organization, governance, collective, actor, social-element]
+tags: [note, social, collective, actor, social-element, public-organization, legislature, assembly, governance]
 ---
 
 # Legislature

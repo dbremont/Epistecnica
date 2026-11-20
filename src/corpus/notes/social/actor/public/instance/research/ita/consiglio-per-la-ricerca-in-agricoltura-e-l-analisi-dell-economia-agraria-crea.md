@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, italy]
+tags: [note, social, actor, research-institute, agriculture, italy]
 ---
 
 # CREA

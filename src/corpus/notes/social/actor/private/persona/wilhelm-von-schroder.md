@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, cameralist]
+tags: [note, social, actor, person, economist, cameralist]
 ---
 
 # Wilhelm von Schröder

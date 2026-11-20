@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, multilateral]
+tags: [note, social, actor, multilateral]
 ---
 
 # World Bank

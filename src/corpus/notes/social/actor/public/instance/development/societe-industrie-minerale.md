@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, learned-society, france, mining]
+tags: [note, social, actor, learned-society, development, france, mining]
 ---
 
 # Société de l'industrie minérale

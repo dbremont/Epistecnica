@@ -1,5 +1,5 @@
 ---
-tags: [note, politica]
+tags: [note, social, politica]
 ---
 
 # Monarquía Hispánica

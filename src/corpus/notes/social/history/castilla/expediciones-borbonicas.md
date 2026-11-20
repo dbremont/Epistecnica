@@ -1,5 +1,5 @@
 ---
-tags: [note, evento, unfinished]
+tags: [note, social, evento, unfinished]
 ---
 
 # Expediciones Borbonicas

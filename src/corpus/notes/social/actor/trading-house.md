@@ -1,5 +1,5 @@
 ---
-tags: [note, trading-house, sogo-shosha, organization]
+tags: [note, social, organization, trading-house, sogo-shosha]
 ---
 
 # Trading House

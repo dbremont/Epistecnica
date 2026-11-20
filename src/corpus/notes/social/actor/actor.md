@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, interaction-unit, agents, social-element]
+tags: [note, social, actor, social-element, interaction-unit, agents]
 ---
 
 # Actor

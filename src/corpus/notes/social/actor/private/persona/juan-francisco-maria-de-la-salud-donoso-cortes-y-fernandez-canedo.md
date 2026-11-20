@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, sociology]
+tags: [note, social, actor, person, sociology]
 ---
 
 # Juan Francisco María de la Salud Donoso Cortés y Fernández Canedo

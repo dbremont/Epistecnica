@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, institution, industrial-policy]
+tags: [note, social, actor, institution, development, industrial-policy]
 ---
 
 # Promotion Agency

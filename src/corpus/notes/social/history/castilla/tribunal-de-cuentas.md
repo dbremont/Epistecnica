@@ -1,5 +1,5 @@
 ---
-tags: [note, institucion]
+tags: [note, social, institucion]
 ---
 
 # Tribunal de Cuentas

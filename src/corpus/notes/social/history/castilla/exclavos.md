@@ -1,5 +1,5 @@
 ---
-tags: [note, trabajo, unfinished]
+tags: [note, social, trabajo, unfinished]
 ---
 
 # Exclavos

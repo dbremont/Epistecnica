@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study:  Invest 2035: The UK’s Modern Industrial Strategy

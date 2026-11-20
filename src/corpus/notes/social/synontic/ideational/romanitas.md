@@ -1,5 +1,5 @@
 ---
-tags: [note, romanitas, ideational, synontic, social]
+tags: [note, social, romanitas, ideational, synontic]
 qa:
  - Was there ever a Romanitas the provincials wanted, or only a bundle of advantages — citizenship, law, tax status, exemption — that the word later dressed up as a culture?
  - The word is late and rare in Latin. Does that mean the Romans had no concept of it, or that they named it with several words we now collapse into one?

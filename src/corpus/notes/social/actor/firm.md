@@ -1,5 +1,5 @@
 ---
-tags: [note, firm, organization, collective]
+tags: [note, social, collective, firm, organization]
 ---
 
 # Firm

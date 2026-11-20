@@ -1,5 +1,5 @@
 ---
-tags: [note, market, economic, coordination, social-element]
+tags: [note, social, market, social-element, economic, coordination]
 ---
 
 # Market

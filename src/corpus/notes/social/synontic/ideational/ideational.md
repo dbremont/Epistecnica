@@ -1,5 +1,5 @@
 ---
-tags: [note, ideational, synontic, social-philosophy, facet, social-element]
+tags: [note, social, facet, social-element, ideational, synontic, social-philosophy]
 ---
 
 # Ideational

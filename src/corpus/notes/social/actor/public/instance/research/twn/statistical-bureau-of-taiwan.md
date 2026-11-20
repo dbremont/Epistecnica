@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, statistics]
+tags: [note, social, actor, statistics]
 ---
 
 # Statistical Bureau of Taiwan

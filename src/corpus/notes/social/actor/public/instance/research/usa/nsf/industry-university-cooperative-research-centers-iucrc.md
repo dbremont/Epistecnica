@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, usa, university]
+tags: [note, social, actor, university, usa]
 ---
 
 # Industry-University Cooperative Research Centers (IUCRC)

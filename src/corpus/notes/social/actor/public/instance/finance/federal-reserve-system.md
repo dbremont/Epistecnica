@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, central-bank]
+tags: [note, social, actor, central-bank]
 ---
 
 # Federal Reserve System

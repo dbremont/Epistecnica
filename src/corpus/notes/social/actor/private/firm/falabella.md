@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, chile, department-store, marketplace, omnichannel]
+tags: [note, social, actor, firm, commerce, chile, department-store, marketplace, omnichannel]
 ---
 
 # Falabella

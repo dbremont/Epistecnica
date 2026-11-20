@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-funder, agriculture, australia]
+tags: [note, social, actor, research-funder, agriculture, australia]
 ---
 
 # Grains Research and Development Corporation (GRDC)

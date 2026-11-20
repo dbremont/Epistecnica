@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, law]
+tags: [note, social, actor, person, economist, law]
 ---
 
 # Eric Salander

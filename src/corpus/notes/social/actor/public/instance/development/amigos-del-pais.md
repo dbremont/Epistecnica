@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, learned-society, spain, enlightenment]
+tags: [note, social, actor, learned-society, development, spain, enlightenment]
 ---
 
 # Amigos del País

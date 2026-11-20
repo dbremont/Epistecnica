@@ -1,5 +1,5 @@
 ---
-tags: [note, organizacion, unfinished]
+tags: [note, social, organizacion, unfinished]
 ---
 
 # Gremios

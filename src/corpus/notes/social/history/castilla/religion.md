@@ -1,5 +1,5 @@
 ---
-tags: [note, religion]
+tags: [note, social, religion]
 ---
 
 # Religion

@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, middle-east, medieval, caliphate]
+tags: [note, social, middle-east, medieval, caliphate, unfinished]
 ---
 
 # Umayyad Caliphate

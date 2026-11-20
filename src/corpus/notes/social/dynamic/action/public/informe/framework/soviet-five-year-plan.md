@@ -1,5 +1,5 @@
 ---
-tags: [note, soviet, plan, public-policy, social-element]
+tags: [note, social, social-element, soviet, plan, public-policy]
 ---
 
 # Soviet Five-Year Plan

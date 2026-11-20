@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, political-party]
+tags: [note, social, actor, political-party]
 ---
 
 # General German Workers' Association

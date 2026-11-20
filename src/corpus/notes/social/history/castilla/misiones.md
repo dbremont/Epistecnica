@@ -1,5 +1,5 @@
 ---
-tags: [note, politica, religion, unfinished]
+tags: [note, social, politica, religion, unfinished]
 ---
 
 # Misiones

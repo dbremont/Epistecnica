@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, physics]
+tags: [note, social, actor, person, physics]
 ---
 
 # Giovanni Battista Beccaria

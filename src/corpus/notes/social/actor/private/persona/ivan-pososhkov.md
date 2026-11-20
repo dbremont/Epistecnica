@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economics, history]
+tags: [note, social, actor, person, economics, history]
 ---
 
 # Ivan Pososhkov

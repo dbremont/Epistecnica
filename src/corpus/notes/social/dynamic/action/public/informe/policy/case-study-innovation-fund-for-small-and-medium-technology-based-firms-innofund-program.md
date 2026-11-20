@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Case Study: Innovation Fund for Small and Medium Technology-based Firms (Innofund) Program

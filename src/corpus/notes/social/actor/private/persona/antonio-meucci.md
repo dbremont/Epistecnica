@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, invention, telecommunications, italy]
+tags: [note, social, actor, person, invention, telecommunications, italy]
 ---
 
 # Antonio Meucci

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, aviation, china, defense]
+tags: [note, social, actor, research, aviation, china, defense]
 ---
 
 # Chengdu Aircraft Research and Design Institute

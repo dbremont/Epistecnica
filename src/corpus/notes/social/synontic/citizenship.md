@@ -1,5 +1,5 @@
 ---
-tags: [note, citizenship, status, polity, social-element]
+tags: [note, social, social-element, citizenship, status, polity]
 ---
 
 # Citizenship

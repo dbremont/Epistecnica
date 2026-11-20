@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, rural-extension]
+tags: [note, social, actor, rural-extension, unfinished]
 ---
 
 # EMATER

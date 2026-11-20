@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, astronomy, celestial-mechanics, probability]
+tags: [note, social, actor, person, mathematics, astronomy, celestial-mechanics, probability]
 qa:
  - Did Laplace's state determinism survive his own probability theory, or did he hold both and hold them apart?
  - Administrative science: what did the bureau work and the metric commission owe to the celestial mechanic?

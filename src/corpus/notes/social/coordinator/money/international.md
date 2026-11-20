@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, international-monetary-system, synontic, coordinator, social-element]
+tags: [note, social, social-element, international-monetary-system, synontic, coordinator, unfinished]
 ---
 
 # International Monetary System (IMS)

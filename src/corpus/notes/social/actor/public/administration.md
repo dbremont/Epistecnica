@@ -1,5 +1,5 @@
 ---
-tags: [note, administration, collective, social-element, actor]
+tags: [note, social, collective, social-element, actor, administration]
 ---
 
 # Public Administration

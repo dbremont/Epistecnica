@@ -1,5 +1,5 @@
 ---
-tags: [note, facet, technical, social-ontology]
+tags: [note, social, facet, social-ontology, technical]
 ---
 
 # Technical Facet

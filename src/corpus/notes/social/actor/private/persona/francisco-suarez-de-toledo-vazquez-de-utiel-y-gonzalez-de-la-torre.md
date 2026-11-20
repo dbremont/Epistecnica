@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Francisco Suárez de Toledo Vázquez de Utiel y González de la Torre

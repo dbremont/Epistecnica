@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, europe, medieval, empire]
+tags: [note, social, europe, medieval, empire, unfinished]
 ---
 
 # Eastern Roman Empire

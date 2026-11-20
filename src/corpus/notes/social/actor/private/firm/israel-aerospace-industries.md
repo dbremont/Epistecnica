@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, space-agency]
+tags: [note, social, actor, firm, space-agency]
 ---
 
 # Israel Aerospace Industries

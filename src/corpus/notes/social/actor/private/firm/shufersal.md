@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, israel, supermarket, omnichannel]
+tags: [note, social, actor, firm, commerce, israel, supermarket, omnichannel]
 ---
 
 # Shufersal

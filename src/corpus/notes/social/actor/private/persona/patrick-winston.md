@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, computer-science]
+tags: [note, social, actor, person, computer-science]
 ---
 
 # Patrick Winston

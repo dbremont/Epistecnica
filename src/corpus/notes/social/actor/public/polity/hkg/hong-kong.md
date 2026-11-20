@@ -1,5 +1,5 @@
 ---
-tags: [note, hong-kong, sar, east-asia]
+tags: [note, social, hong-kong, sar, east-asia]
 ---
 
 # Hong Kong

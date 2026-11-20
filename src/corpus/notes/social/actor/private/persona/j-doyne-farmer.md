@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, physics]
+tags: [note, social, actor, person, economist, physics]
 ---
 
 # J. Doyne Farmer

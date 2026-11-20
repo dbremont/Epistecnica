@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, northern-ireland]
+tags: [note, social, actor, research-institute, agriculture, northern-ireland]
 ---
 
 # Agri-Food and Biosciences Institute (AFBI)

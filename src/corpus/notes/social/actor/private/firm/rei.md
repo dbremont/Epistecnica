@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, cooperative-retail]
+tags: [note, social, actor, firm, commerce, united-states, cooperative-retail]
 ---
 
 # REI

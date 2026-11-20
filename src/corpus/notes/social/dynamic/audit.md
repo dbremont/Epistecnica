@@ -1,5 +1,5 @@
 ---
-tags: [note, audit, governance, accountability, institution]
+tags: [note, social, institution, audit, governance, accountability]
 ---
 
 # Audit

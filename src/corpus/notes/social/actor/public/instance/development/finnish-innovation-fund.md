@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, innovation-agency]
+tags: [note, social, actor, innovation-agency]
 ---
 
 # Finnish Innovation Fund

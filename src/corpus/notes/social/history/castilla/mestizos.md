@@ -1,5 +1,5 @@
 ---
-tags: [note, grupo-social, unfinished]
+tags: [note, social, grupo-social, unfinished]
 ---
 
 # Mestizos

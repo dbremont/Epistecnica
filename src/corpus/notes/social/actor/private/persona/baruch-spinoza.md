@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, metaphysics, political-philosophy]
+tags: [note, social, actor, person, philosophy, metaphysics, political-philosophy]
 ---
 
 # Baruch Spinoza

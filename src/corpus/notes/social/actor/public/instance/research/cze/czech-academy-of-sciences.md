@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research, czechia]
+tags: [note, social, actor, research, czechia]
 ---
 
 # Czech Academy of Sciences

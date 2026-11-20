@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university, agriculture, sweden]
+tags: [note, social, actor, university, agriculture, sweden]
 ---
 
 # Swedish University of Agricultural Sciences (SLU)

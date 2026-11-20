@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, group-buying, e-commerce, marketplace, social-element]
+tags: [note, social, actor, social-element, firm, commerce, united-states, group-buying, e-commerce, marketplace]
 ---
 
 # Groupon, Inc.

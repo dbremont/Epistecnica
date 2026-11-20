@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, sociology]
+tags: [note, social, actor, person, sociology]
 ---
 
 # Jaime Luciano Antonio Balmes y Urpiá

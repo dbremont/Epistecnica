@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, united-states]
+tags: [note, social, actor, education, united-states]
 ---
 
 # Fab Academy

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, stock-exchange]
+tags: [note, social, actor, stock-exchange]
 ---
 
 # Japan Exchange Group (JPX)

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, japan, science-policy]
+tags: [note, social, actor, research-institute, japan, science-policy]
 ---
 
 # Institute of Physical and Chemical Research (RIKEN)

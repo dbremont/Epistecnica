@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, military, theory]
+tags: [note, social, actor, person, military, theory]
 ---
 
 # Antoine-Henri Jomini

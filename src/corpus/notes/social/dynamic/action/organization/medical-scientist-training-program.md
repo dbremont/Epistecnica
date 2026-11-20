@@ -1,5 +1,5 @@
 ---
-tags: [note, program, education, medicine, research-training, united-states, social-element]
+tags: [note, social, social-element, program, education, medicine, research-training, united-states]
 ---
 
 # Medical Scientist Training Program

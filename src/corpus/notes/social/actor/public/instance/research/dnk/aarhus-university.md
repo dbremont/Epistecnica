@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, university, agriculture, denmark]
+tags: [note, social, actor, university, agriculture, denmark]
 ---
 
 # Aarhus University

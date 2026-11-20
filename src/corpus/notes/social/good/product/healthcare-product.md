@@ -1,5 +1,5 @@
 ---
-tags: [note, healthcare, medical-device, regulation]
+tags: [note, social, healthcare, medical-device, regulation]
 qa:
  - Is a medical device a healthcare product even though it has no active substance?
  - What decides whether an article is a medicine or a device?

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, politics]
+tags: [note, social, actor, person, politics]
 ---
 
 # Johan de Witt

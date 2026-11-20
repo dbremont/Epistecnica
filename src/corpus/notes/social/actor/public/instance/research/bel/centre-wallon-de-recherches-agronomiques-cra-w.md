@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, belgium]
+tags: [note, social, actor, research-institute, agriculture, belgium]
 ---
 
 # Centre wallon de Recherches agronomiques (CRA-W)

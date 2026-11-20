@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, firm]
+tags: [note, social, actor, firm, unfinished]
 ---
 
 # Arbutus Biopharma Corporation (ABUS)

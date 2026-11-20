@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, japan]
+tags: [note, social, actor, research-institute, ceramics, japan]
 ---
 
 # Japan Fine Ceramics Center (JFCC)

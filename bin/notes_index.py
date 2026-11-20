@@ -170,7 +170,8 @@ def parse_html(path: Path, rel: Path, warnings: list) -> dict:
 
     text = unescape(HTML_TAG_RE.sub(" ", body))
     text = re.sub(r"\s+", " ", text).strip().lower()
-    return entry(rel, title, headings, text, ["note"], [], kind="live")
+    tags = ["note", "social"] if rel.parts[:1] == ("social",) else ["note"]
+    return entry(rel, title, headings, text, tags, [], kind="live")
 
 
 def entry(rel: Path, title: str, headings: list, text: str, tags: list, qa: list, kind: str, order: int = None) -> dict:

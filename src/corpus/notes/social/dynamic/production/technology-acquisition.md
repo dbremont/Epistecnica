@@ -1,5 +1,5 @@
 ---
-tags: [note, social, dynamic, production, technology-acquisition]
+tags: [note, social, production, dynamic, technology-acquisition]
 ---
 
 # Technology Acquisition

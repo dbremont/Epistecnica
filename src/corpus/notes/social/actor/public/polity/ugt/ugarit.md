@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, middle-east, ancient, city-state]
+tags: [note, social, middle-east, ancient, city-state, unfinished]
 ---
 
 # Ugarit

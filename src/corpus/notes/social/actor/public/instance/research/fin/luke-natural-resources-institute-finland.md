@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, agriculture, finland]
+tags: [note, social, actor, research-institute, agriculture, finland]
 ---
 
 # Natural Resources Institute Finland (Luke)

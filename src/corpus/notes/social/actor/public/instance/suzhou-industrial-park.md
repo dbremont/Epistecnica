@@ -1,5 +1,5 @@
 ---
-tags: [note, actor]
+tags: [note, social, actor]
 ---
 
 # Suzhou Industrial Park

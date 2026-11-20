@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, actor, firm]
+tags: [note, social, actor, firm, unfinished]
 ---
 
 # Guangzhou Xiaopeng Motors Technology Co., Ltd

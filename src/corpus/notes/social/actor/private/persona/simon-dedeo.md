@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, physics, sociology]
+tags: [note, social, actor, person, physics, sociology]
 ---
 
 # Simon DeDeo

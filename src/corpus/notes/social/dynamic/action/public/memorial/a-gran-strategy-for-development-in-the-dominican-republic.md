@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # A Gran Strategy for Development in the Dominican Republic

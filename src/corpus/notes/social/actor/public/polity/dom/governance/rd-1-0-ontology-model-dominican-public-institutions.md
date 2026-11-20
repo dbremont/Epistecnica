@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # RD 1.0 Ontology Model: Dominican Public Institutions

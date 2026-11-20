@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, ceramics, south-korea]
+tags: [note, social, actor, research-institute, ceramics, south-korea]
 ---
 
 # Korea Institute of Ceramic Engineering and Technology (KICET)

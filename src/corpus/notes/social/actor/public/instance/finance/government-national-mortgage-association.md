@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, housing-finance]
+tags: [note, social, actor, housing-finance]
 ---
 
 # Government National Mortgage Association  (Ginnie Mae)

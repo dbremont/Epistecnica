@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, science, sociology]
+tags: [note, social, actor, person, science, sociology]
 ---
 
 # Patrick Geddes

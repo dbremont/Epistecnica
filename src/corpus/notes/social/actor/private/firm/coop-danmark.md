@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, denmark, cooperative-retail]
+tags: [note, social, actor, firm, commerce, denmark, cooperative-retail]
 ---
 
 # Coop Danmark

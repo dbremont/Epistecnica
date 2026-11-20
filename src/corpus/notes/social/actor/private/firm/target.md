@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, general-merchandise, omnichannel]
+tags: [note, social, actor, firm, commerce, united-states, general-merchandise, omnichannel]
 ---
 
 # Target

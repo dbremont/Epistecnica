@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, scientist, computer-science, mathematics, physics]
+tags: [note, social, actor, person, scientist, computer-science, mathematics, physics]
 ---
 
 # Andrey Nikolaevich Kolmogorov

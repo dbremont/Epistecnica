@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, state-agency, norway, bioeconomy]
+tags: [note, social, actor, research-institute, state-agency, norway, bioeconomy]
 ---
 
 # Norwegian Institute of Bioeconomy Research (NIBIO)

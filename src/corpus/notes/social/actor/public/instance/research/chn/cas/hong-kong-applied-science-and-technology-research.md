@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, china]
+tags: [note, social, actor, research-institute, china]
 ---
 
 # Hong Kong Applied Science and Technology Research Institute (ASTRI)

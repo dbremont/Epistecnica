@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development-bank]
+tags: [note, social, actor, development-bank]
 ---
 
 # Development Bank of Singapore

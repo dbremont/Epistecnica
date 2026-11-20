@@ -1,5 +1,5 @@
 ---
-tags: [note, guidance-fund, china, industrial-policy, capital, actor]
+tags: [note, social, actor, guidance-fund, china, industrial-policy, capital]
 ---
 
 # Government Guidance Fund

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, philosophy, medieval]
+tags: [note, social, actor, person, philosophy, medieval]
 ---
 
 # Albert of Saxony

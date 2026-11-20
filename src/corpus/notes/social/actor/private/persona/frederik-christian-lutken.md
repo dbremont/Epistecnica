@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, agriculture]
+tags: [note, social, actor, person, economist, agriculture]
 ---
 
 # Frederik Christian Lütken

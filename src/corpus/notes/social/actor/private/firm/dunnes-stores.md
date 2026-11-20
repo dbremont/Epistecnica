@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, ireland, supermarket, department-store]
+tags: [note, social, actor, firm, commerce, ireland, supermarket, department-store]
 ---
 
 # Dunnes Stores

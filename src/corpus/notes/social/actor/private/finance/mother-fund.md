@@ -1,5 +1,5 @@
 ---
-tags: [note, mother-fund, fund-of-funds, capital, actor]
+tags: [note, social, actor, mother-fund, fund-of-funds, capital]
 ---
 
 # Mother Fund

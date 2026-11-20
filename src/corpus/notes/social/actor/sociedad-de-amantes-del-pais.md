@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, learned-society, social-element]
+tags: [note, social, actor, social-element, learned-society]
 ---
 
 # Sociedad de Amantes del País

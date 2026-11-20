@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, literature, politics]
+tags: [note, social, actor, person, literature, politics]
 ---
 
 # Germaine de Staël

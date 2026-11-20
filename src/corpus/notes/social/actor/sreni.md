@@ -1,5 +1,5 @@
 ---
-tags: [note, sreni, guild, india, aggregation, private-organization, actor, social-element]
+tags: [note, social, actor, social-element, private-organization, sreni, guild, india, aggregation]
 ---
 
 # Śreṇi

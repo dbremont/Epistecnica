@@ -1,5 +1,5 @@
 ---
-tags: [note, history, medieval, mediterranean, source]
+tags: [note, social, history, medieval, mediterranean, source]
 ---
 
 # Cairo Geniza

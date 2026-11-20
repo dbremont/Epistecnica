@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, philosophy]
+tags: [note, social, actor, person, mathematics, philosophy]
 ---
 
 # Christian Wolff

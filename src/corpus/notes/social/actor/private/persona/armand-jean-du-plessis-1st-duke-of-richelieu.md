@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, estratega, politics]
+tags: [note, social, actor, person, estratega, politics]
 ---
 
 # Armand Jean du Plessis, 1st Duke of Richelieu

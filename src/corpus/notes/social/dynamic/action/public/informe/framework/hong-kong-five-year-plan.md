@@ -1,5 +1,5 @@
 ---
-tags: [note, hong-kong, plan, public-policy, social-element]
+tags: [note, social, social-element, hong-kong, plan, public-policy]
 ---
 
 # Hong Kong Five-Year Plan

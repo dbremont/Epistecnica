@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, china, philosophy]
+tags: [note, social, actor, person, china, philosophy]
 ---
 
 # Mozi

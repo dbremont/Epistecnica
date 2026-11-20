@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, lithuania, p2p, resale-marketplace]
+tags: [note, social, actor, firm, commerce, lithuania, p2p, resale-marketplace]
 ---
 
 # Vinted

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Simón José Antonio de la Santísima Trinidad Bolívar Ponte y Palacios Blanco

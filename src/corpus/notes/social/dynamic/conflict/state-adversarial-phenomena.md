@@ -1,5 +1,5 @@
 ---
-tags: [note, conflict]
+tags: [note, social, conflict]
 qa:
  - What type of ontic element was "The Great Game"?
 ---

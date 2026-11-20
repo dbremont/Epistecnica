@@ -1,5 +1,5 @@
 ---
-tags: [note, taoism, daoism, ideational, synontic, philosophy, chinese-philosophy]
+tags: [note, social, taoism, daoism, ideational, synontic, philosophy, chinese-philosophy]
 ---
 
 # Taoism

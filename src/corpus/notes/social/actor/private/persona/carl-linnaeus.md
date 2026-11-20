@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, science, economics]
+tags: [note, social, actor, person, science, economics]
 ---
 
 # Carl Linnaeus

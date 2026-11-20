@@ -1,4 +1,4 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, unfinished]
 ---
 # Microclimate Engineering

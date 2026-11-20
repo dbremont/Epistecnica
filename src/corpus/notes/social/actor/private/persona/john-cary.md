@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, trade, england]
+tags: [note, social, actor, person, trade, england]
 ---
 
 # John Cary

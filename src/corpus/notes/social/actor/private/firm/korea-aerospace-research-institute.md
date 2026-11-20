@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, research-institute, space-agency]
+tags: [note, social, actor, firm, research-institute, space-agency]
 ---
 
 # Korea Aerospace Research Institute

@@ -1,5 +1,5 @@
 ---
-tags: [note, agenda, organization, action, social-element]
+tags: [note, social, action, social-element, organization, agenda]
 ---
 
 # Agenda

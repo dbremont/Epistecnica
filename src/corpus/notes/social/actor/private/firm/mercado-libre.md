@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, argentina, marketplace, e-commerce]
+tags: [note, social, actor, firm, commerce, argentina, marketplace, e-commerce]
 ---
 
 # Mercado Libre

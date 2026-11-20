@@ -1,6 +1,6 @@
 ---
 type: paper
-tags: [note, actor, paper, consensus, distributed-systems]
+tags: [note, social, actor, paper, consensus, distributed-systems]
 ---
 
 # Impossibility of Distributed Consensus with One Faulty Process (FLP)

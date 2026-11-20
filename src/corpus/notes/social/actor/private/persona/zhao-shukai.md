@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, official, rural-policy]
+tags: [note, social, actor, person, official, rural-policy]
 ---
 
 # Zhao Shukai

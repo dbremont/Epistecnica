@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, stock-exchange]
+tags: [note, social, actor, firm, stock-exchange]
 ---
 
 # Toronto Stock Exchange (TSX)

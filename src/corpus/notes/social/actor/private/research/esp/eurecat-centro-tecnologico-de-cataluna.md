@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, spain]
+tags: [note, social, actor, research-institute, spain]
 ---
 
 # Eurecat Centro Tecnológico de Cataluña

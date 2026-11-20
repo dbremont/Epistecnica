@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, learned-society, france, industry]
+tags: [note, social, actor, learned-society, development, france, industry]
 ---
 
 # Société d'encouragement pour l'industrie nationale

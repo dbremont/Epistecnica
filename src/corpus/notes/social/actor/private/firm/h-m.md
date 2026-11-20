@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, sweden, brand-owned, omnichannel]
+tags: [note, social, actor, firm, commerce, sweden, brand-owned, omnichannel]
 ---
 
 # H&M

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-kingdom, e-commerce-grocery, automated-fulfillment]
+tags: [note, social, actor, firm, commerce, united-kingdom, e-commerce-grocery, automated-fulfillment]
 ---
 
 # Ocado

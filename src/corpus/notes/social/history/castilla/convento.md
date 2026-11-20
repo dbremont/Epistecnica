@@ -1,5 +1,5 @@
 ---
-tags: [note, religion, unfinished]
+tags: [note, social, religion, unfinished]
 ---
 
 # Convento

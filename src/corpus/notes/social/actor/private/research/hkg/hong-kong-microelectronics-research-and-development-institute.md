@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, microelectronics, semiconductors, hong-kong]
+tags: [note, social, actor, research-institute, microelectronics, semiconductors, hong-kong]
 qa:
  - Is the gap the institute fills a gap in research or a gap in translation — and does the funding instrument reveal which one the government thinks it is?
  - A single-technology institute concentrates a country's bet; what does Hong Kong lose if third-generation semiconductors are not where the value ends up?

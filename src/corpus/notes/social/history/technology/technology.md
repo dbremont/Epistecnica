@@ -1,5 +1,5 @@
 ---
-tags: [note, tecnologia]
+tags: [note, social, tecnologia]
 ---
 
 # Technology

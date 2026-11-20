@@ -1,5 +1,5 @@
 ---
-tags: [note, cultura, unfinished]
+tags: [note, social, cultura, unfinished]
 ---
 
 # Música

@@ -1,5 +1,5 @@
 ---
-tags: [note, economia, unfinished]
+tags: [note, social, economia, unfinished]
 ---
 
 # Comercio

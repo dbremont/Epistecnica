@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, middle-east, medieval, empire]
+tags: [note, social, middle-east, medieval, empire, unfinished]
 ---
 
 # Seljuk Empire

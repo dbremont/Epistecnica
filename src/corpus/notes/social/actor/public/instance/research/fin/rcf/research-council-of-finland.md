@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-institute, finland]
+tags: [note, social, actor, research-institute, finland]
 ---
 
 # Research Council of Finland

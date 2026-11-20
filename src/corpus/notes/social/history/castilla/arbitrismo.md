@@ -1,5 +1,5 @@
 ---
-tags: [note, conocimiento, unfinished]
+tags: [note, social, conocimiento, unfinished]
 ---
 
 # Arbitrismo

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, colombia, historian, politician]
+tags: [note, social, actor, person, colombia, historian, politician]
 ---
 
 # José Manuel Restrepo Vélez

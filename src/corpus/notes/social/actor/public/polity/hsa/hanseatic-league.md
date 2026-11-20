@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, europe, medieval, league]
+tags: [note, social, europe, medieval, league, unfinished]
 ---
 
 # Hanseatic League

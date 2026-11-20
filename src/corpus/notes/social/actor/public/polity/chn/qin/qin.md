@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, east-asia, ancient, dynasty]
+tags: [note, social, east-asia, ancient, dynasty, unfinished]
 ---
 
 # Qin dynasty

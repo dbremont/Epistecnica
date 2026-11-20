@@ -1,5 +1,5 @@
 ---
-tags: [note, polity, representation, legislature, governance]
+tags: [note, social, representation, polity, legislature, governance]
 ---
 
 # Representation Systems

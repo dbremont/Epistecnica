@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-arab-emirates, p2p-marketplace]
+tags: [note, social, actor, firm, commerce, united-arab-emirates, p2p-marketplace]
 ---
 
 # Dubizzle

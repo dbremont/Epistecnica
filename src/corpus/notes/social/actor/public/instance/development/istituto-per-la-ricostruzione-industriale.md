@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, industrial-policy]
+tags: [note, social, actor, industrial-policy]
 ---
 
 # Istituto per la Ricostruzione Industriale (IRI)

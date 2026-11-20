@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, sme-support]
+tags: [note, social, actor, sme-support]
 ---
 
 # United States Small Business Administration (SBA)

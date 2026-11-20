@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, europe, ancient, republic]
+tags: [note, social, europe, ancient, republic, unfinished]
 ---
 
 # Roman Republic

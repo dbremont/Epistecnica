@@ -1,5 +1,5 @@
 ---
-tags: [note, product-development, organization]
+tags: [note, social, organization, product-development]
 ---
 
 # Product Development Center

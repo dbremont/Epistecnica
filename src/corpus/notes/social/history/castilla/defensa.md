@@ -1,5 +1,5 @@
 ---
-tags: [note, seguridad]
+tags: [note, social, seguridad]
 ---
 
 # Defensa

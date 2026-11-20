@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person]
+tags: [note, social, actor, person]
 ---
 
 # Otto, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg

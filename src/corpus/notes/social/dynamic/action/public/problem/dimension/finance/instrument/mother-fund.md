@@ -1,5 +1,5 @@
 ---
-tags: [note, finance, fund, investment, state-capital, social-element]
+tags: [note, social, social-element, finance, fund, investment, state-capital]
 qa:
  - A mother fund is meant to make private investment happen that would not otherwise. How much of the money it moves would have been invested anyway, and does anybody measure the difference?
  - First-loss capital buys risk-taking with public money. At what point does absorbing the first loss stop being a subsidy to entry and become a subsidy to the return?

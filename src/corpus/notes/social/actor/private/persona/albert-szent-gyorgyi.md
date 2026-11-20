@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, person, biochemistry, physiology, vitamin-c, metabolism]
+tags: [note, social, actor, person, biochemistry, physiology, vitamin-c, metabolism]
 qa:
  - Was vitamin C discovered by design, by illness, or by the availability of paprika?
  - Szent-Györgyi found the fumarate–succinate catalysis before Krebs found the cycle. What is the difference between the two claims?

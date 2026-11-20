@@ -1,5 +1,5 @@
 ---
-tags: [note, pharma, drug, pharmacology]
+tags: [note, social, pharma, drug, pharmacology]
 qa:
  - Is a drug the same thing as a pharmaceutical product?
  - What separates a drug from a fine chemical when the molecule is identical?

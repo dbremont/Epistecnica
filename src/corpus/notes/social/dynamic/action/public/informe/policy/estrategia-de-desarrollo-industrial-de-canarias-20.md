@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # Estrategia de Desarrollo Industrial de Canarias 2022-2027

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, education, belgium]
+tags: [note, social, actor, education, belgium]
 ---
 
 # Antwerp Industrial School

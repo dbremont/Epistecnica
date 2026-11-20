@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, mathematics, analysis, perspective]
+tags: [note, social, actor, person, mathematics, analysis, perspective]
 qa:
  - Was the obscurity a defect of the man or of the genre — a theorem that waited fifty-five years for Lagrange to see what it was for?
  - The *Methodus* is cited as 1715a and its title page reads 1717: which is the printing, which the publication, and which one should a citation use?

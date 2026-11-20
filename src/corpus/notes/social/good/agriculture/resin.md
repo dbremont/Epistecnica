@@ -1,5 +1,5 @@
 ---
-tags: [note, catalog, good, forestry]
+tags: [note, social, good, catalog, forestry]
 ---
 
 # Resin

@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, research-actor, research, collective, social-element]
+tags: [note, social, actor, collective, social-element, research-actor, research]
 ---
 
 # Research Actor

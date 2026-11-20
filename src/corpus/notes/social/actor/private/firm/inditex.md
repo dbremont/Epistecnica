@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, spain, brand-owned, omnichannel, fast-fashion]
+tags: [note, social, actor, firm, commerce, spain, brand-owned, omnichannel, fast-fashion]
 ---
 
 # Inditex

@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, history, politics]
+tags: [note, social, actor, person, history, politics]
 ---
 
 # František Palacký

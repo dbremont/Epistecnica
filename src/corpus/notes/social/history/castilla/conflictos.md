@@ -1,5 +1,5 @@
 ---
-tags: [note, conflicto, gobierno, unfinished]
+tags: [note, social, conflicto, gobierno, unfinished]
 ---
 
 # Conflictos

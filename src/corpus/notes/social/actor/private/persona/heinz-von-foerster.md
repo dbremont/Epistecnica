@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, complexity]
+tags: [note, social, actor, person, complexity]
 ---
 
 # Heinz von Foerster

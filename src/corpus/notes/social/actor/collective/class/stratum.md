@@ -1,5 +1,5 @@
 ---
-tags: [note, stratum, social-class, collective, social-element]
+tags: [note, social, collective, social-element, stratum, social-class]
 ---
 
 # Stratum

@@ -1,5 +1,5 @@
 ---
-tags: [note, monarchy, empire, composite-monarchy, europe, early-modern, social-element, polity]
+tags: [note, social, social-element, monarchy, empire, composite-monarchy, europe, early-modern, polity]
 qa:
  - Early industrialization created the conditions for substantial population growth. However, it was not sufficient to sustain that growth at a satisfactory standard of living. Consequently, aggregate economic performance and average living standards remained relatively modest, despite a dramatic expansion of the productive space and the establishment of significant industrial capabilities and efficiencies.
  

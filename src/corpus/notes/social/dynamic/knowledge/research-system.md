@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished, knowledge]
+tags: [note, social, knowledge, unfinished]
 ---
 # Research 
 

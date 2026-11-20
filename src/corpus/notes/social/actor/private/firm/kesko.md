@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, finland, multi-format, omnichannel]
+tags: [note, social, actor, firm, commerce, finland, multi-format, omnichannel]
 ---
 
 # Kesko

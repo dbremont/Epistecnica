@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social]
 ---
 
 # 🇦🇪 United Arab Emirates (UAE)

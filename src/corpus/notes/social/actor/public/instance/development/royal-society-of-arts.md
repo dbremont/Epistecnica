@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, development, learned-society, britain]
+tags: [note, social, actor, learned-society, development, britain]
 ---
 
 # Royal Society of Arts

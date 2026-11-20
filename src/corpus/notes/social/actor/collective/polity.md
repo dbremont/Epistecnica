@@ -1,5 +1,5 @@
 ---
-tags: [note, polity, political-collective, social-element, actor]
+tags: [note, social, social-element, actor, polity, political-collective]
 ---
 
 # Polity

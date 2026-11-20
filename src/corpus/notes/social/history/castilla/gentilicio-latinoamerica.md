@@ -1,5 +1,5 @@
 ---
-tags: [note, aclaratorio]
+tags: [note, social, aclaratorio]
 ---
 
 # Gentilicio Latinoamérica

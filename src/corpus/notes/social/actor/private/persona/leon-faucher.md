@@ -1,6 +1,6 @@
 ---
 type: person
-tags: [note, actor, person, economist, politics]
+tags: [note, social, actor, person, economist, politics]
 ---
 
 # Léon Faucher

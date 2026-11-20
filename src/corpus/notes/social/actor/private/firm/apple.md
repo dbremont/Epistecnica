@@ -1,5 +1,5 @@
 ---
-tags: [note, actor, firm, commerce, united-states, brand-owned, dtc]
+tags: [note, social, actor, firm, commerce, united-states, brand-owned, dtc]
 ---
 
 # Apple

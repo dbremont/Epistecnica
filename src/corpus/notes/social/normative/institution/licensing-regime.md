@@ -1,5 +1,5 @@
 ---
-tags: [note, licensing, ip, institution]
+tags: [note, social, institution, licensing, ip]
 ---
 
 # Licensing Regime
