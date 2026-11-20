@@ -169,6 +169,10 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+ATLAS_PO_OLD = "/corpus/notes/social/koinomia/actor/atlas/"
+ATLAS_GOV_SHELF_OLD = "/corpus/notes/social/koinomia/governance/atlas/"
+ATLAS_ACTION_OLD = "/corpus/notes/social/koinomia/action/atlas/"
+REPRESENTATION_DIR = "/corpus/notes/social/koinomia/representation/"
 LEGISLATURE_REPR_OLD = "/corpus/notes/social/koinomia/actor/legislature/representation-systems.md"
 LEGISLATURE_REPR_NEW = "/corpus/notes/social/koinomia/governance/representation-systems.md"
 LEGISLATURE_COMMITTEE_OLD = "/corpus/notes/social/koinomia/actor/legislature/swe/committee-of-ways-and-means.md"
@@ -605,6 +609,22 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == LEGISLATURE_REPR_OLD:
             self._redirect(LEGISLATURE_REPR_NEW)
+            return True
+
+        if path.startswith(ATLAS_PO_OLD):
+            self._redirect(REPRESENTATION_DIR + path[len(ATLAS_PO_OLD):])
+            return True
+
+        if path.startswith(ATLAS_GOV_SHELF_OLD):
+            self._redirect(REPRESENTATION_DIR + path[len(ATLAS_GOV_SHELF_OLD):])
+            return True
+
+        if path == ATLAS_ACTION_OLD + "index.html":
+            self._redirect(REPRESENTATION_DIR + "action-atlas.html")
+            return True
+
+        if path == ATLAS_ACTION_OLD + "atlas.json":
+            self._redirect(REPRESENTATION_DIR + "action-atlas.json")
             return True
 
         if path == LEGISLATURE_COMMITTEE_OLD:

@@ -21,7 +21,7 @@ Governance is not an actor and not an actor type: it is the administrative machi
 
 ## How to study a system
 
-> Take one polity and period, reconstruct its coordinating layer (centers, standards, shared services, authority distribution, oversight), and record its coordinates axis by axis. Compare configurations across cases; do not reduce a system to a single type or score. Each study locates its system with the reference frames of the [characterization atlas](/corpus/notes/social/koinomia/governance/atlas/gov-wide-administration.html): pick the applicable frames, assign one value per axis, read the resulting configuration. Method and caveats live in [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md).
+> Take one polity and period, reconstruct its coordinating layer (centers, standards, shared services, authority distribution, oversight), and record its coordinates axis by axis. Compare configurations across cases; do not reduce a system to a single type or score. Each study locates its system with the reference frames of the [characterization atlas](/corpus/notes/social/koinomia/representation/gov-wide-administration.html): pick the applicable frames, assign one value per axis, read the resulting configuration. Method and caveats live in [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md).
 
 ## Studies
 
@@ -124,4 +124,4 @@ Governance is not an actor and not an actor type: it is the administrative machi
 - [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
 - [Public Employee](/view.html?p=notes/social/koinomia/actor/type/employee.md)
 - [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
-- [Atlas of Government-Wide Administration Comparative Representation Systems](/corpus/notes/social/koinomia/governance/atlas/gov-wide-administration.html)
+- [Atlas of Government-Wide Administration Comparative Representation Systems](/corpus/notes/social/koinomia/representation/gov-wide-administration.html)

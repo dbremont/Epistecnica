@@ -998,7 +998,7 @@
         renderTable();
     }); });
 
-    fetch("atlas.json", { cache: "no-cache" }).then(function (r) {
+    fetch("action-atlas.json", { cache: "no-cache" }).then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
     }).then(function (data) {
@@ -1029,7 +1029,7 @@
         syncRel();
         setMode(S.mode);
     }).catch(function (err) {
-        console.error("Failed to load atlas.json:", err);
+        console.error("Failed to load action-atlas.json:", err);
     });
 })();
 </script>
