@@ -71019,7 +71019,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Region links to the space/ shelf."
+    "summary": "Retarget the Region links to the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
+    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
    }
   ]
  },
@@ -89001,7 +89003,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the World link to the space/ shelf."
+    "summary": "Retarget the World link to the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
+    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
    }
   ]
  },
@@ -89509,7 +89513,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the shelf index to the space/ shelf and add Territory."
+    "summary": "Retarget the shelf index to the space/ shelf and add Territory.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
+    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
    }
   ]
  },
@@ -89519,7 +89525,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Space shelf master: the spatial frame of the public order, distinct from the representation of space."
+    "summary": "Add the Space shelf master: the spatial frame of the public order, distinct from the representation of space.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
    }
   ]
  },
@@ -89540,7 +89547,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from koinomia/region.md into the space/ shelf."
+    "summary": "Move from koinomia/region.md into the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
    }
   ]
  },
@@ -89550,7 +89558,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Territory note: the bounded domain over which a polity claims authority, read against Region, Jurisdiction and the State."
+    "summary": "Add the Territory note: the bounded domain over which a polity claims authority, read against Region, Jurisdiction and the State.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
    }
   ]
  },
@@ -89572,7 +89581,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from koinomia/world.md into the space/ shelf."
+    "summary": "Move from koinomia/world.md into the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
    }
   ]
  },
