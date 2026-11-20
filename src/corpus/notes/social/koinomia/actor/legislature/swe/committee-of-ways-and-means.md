@@ -73,7 +73,7 @@ Readable secondarily as a **fiscal agency of the assembly** — the capacity in 
 - [Committee of Ways and Means (Sweden) — Wikipedia](https://en.wikipedia.org/wiki/Committee_of_Ways_and_Means_(Sweden)) (the whole account: origins in the Age of Liberty, the 1810 Act, § 37 and § 40, the two divisions, the 1951 remit, abolition in 1970)
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the kind this instance realizes)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) (the Riksdag as the parent assembly)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Sweden](/view.html?p=notes/social/koinomia/collective/polity/instance/swe/sweden.md) (the polity whose finances the committee's calculations governed)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 

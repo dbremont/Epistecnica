@@ -169,6 +169,23 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+PUBLIC_ACTOR_OLD = "/corpus/notes/social/koinomia/actor/public-organization.md"
+PUBLIC_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/readme.md"
+PUBLIC_TYPE_OLD = "/corpus/notes/social/koinomia/actor/"
+PUBLIC_TYPE_NEW = "/corpus/notes/social/koinomia/actor/type/"
+PUBLIC_TYPE_MOVED = {
+    "government.md",
+    "municipal-government.md",
+    "statutory-corporation.md",
+    "incorporated-administrative-agency.md",
+    "public-inquiry.md",
+    "royal-commission.md",
+    "pri.md",
+}
+HRU_OLD = "/corpus/notes/social/koinomia/actor/instance/hru.md"
+HRU_NEW = "/corpus/notes/social/koinomia/governance/hru.md"
+SUZHOU_OLD = "/corpus/notes/social/koinomia/actor/instance/suzhou-industrial-park.md"
+SUZHOU_NEW = "/corpus/notes/social/koinomia/action/instance/suzhou-industrial-park.md"
 INTL_POLITY_OLD = "/corpus/notes/social/koinomia/polity/international/"
 INTL_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/instance/international/"
 INTL_MOVED = {
@@ -570,6 +587,24 @@ class HubHandler(SimpleHTTPRequestHandler):
         target = GOVERNANCE_MOVED.get(path)
         if target is not None:
             self._redirect(target)
+            return True
+
+        if path == PUBLIC_ACTOR_OLD:
+            self._redirect(PUBLIC_ACTOR_NEW)
+            return True
+
+        if path.startswith(PUBLIC_TYPE_OLD):
+            rest = path[len(PUBLIC_TYPE_OLD):]
+            if "/" not in rest and rest in PUBLIC_TYPE_MOVED:
+                self._redirect(PUBLIC_TYPE_NEW + rest)
+                return True
+
+        if path == HRU_OLD:
+            self._redirect(HRU_NEW)
+            return True
+
+        if path == SUZHOU_OLD:
+            self._redirect(SUZHOU_NEW)
             return True
 
         if path.startswith(COLLECTIVE_OLD):

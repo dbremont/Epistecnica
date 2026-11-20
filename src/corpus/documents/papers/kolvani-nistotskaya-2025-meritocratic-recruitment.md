@@ -33,4 +33,4 @@ tags: [document, paper, public-administration, civil-service, institutions, meri
 
 - [Kolvani & Nistotskaya (2025) — DOI](https://doi.org/10.1017/S1744137425000086)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) — the note the distinction belongs to
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional typology
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the institutional typology

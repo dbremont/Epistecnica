@@ -28,7 +28,7 @@ tags: [note, social, collective, social-element, actor, administration]
 
 ### What type of social element does this instance belong to?
 
-**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/government.md).
+**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
 
 Its layer is **Ontic** where the administration exists extra-mentally (staff, offices, premises, budgets, systems) with **Synontic** aspects (authority, jurisdiction, legitimacy exist through shared recognition and legal warrant).
 
@@ -197,7 +197,7 @@ It is not the `Government` (the mandate-bound governing collective), not the `St
 
 ### Where do workforce, civil service, and HR units decompose?
 
-> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md). Individual employment positions decompose in [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](/view.html?p=notes/social/koinomia/governance/mandarinate.md) and [Course of Honors](/view.html?p=notes/social/koinomia/governance/course-of-honors.md).
+> The workforce is the administered agent set, not the administration. The civil service is its merit-governed subset and decomposes in [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md). The HR unit administers its own agents to deliver staffing services consumed by operational units, and decomposes in [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md). Individual employment positions decompose in [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md). Historical staffing regimes are instances, not kinds: [Mandarin](/view.html?p=notes/social/koinomia/governance/mandarinate.md) and [Course of Honors](/view.html?p=notes/social/koinomia/governance/course-of-honors.md).
 
 ### Is there an overarching abstraction that allows us to classify and cluster government-wide administrative systems along a single dimension, such as an administrative model, administrative paradigm, administrative philosophy, or system type? What else?
 
@@ -371,8 +371,8 @@ See
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md)
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
+- [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Public Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
@@ -381,7 +381,7 @@ See
 - [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
 - [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
-- [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md)
+- [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
 - [Government at a Glance 2025](https://www.oecd.org/en/publications/2025/06/government-at-a-glance-2025_70e14c6c/full-report/employment-in-general-government_dafcfac5.html)
 - [Public Administration Review](https://en.wikipedia.org/wiki/Public_Administration_Review)
 - [Public Administration: Journal Rankings](https://ooir.org/journals.php?category=Public%20Administration&field=Social%20Sciences&metric=jif)

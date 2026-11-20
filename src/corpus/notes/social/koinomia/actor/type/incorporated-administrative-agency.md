@@ -35,5 +35,5 @@ tags: [note, social, actor, public-organization]
 ## References
 
 - [Incorporated administrative agency — Wikipedia](https://en.wikipedia.org/wiki/Incorporated_administrative_agency)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the comparative reading of public forms
-- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) — the alternative solution to the same problem
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the comparative reading of public forms
+- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/type/statutory-corporation.md) — the alternative solution to the same problem

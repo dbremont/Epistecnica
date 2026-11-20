@@ -90,7 +90,7 @@ Four consequences follow from funding by discipline and by ladder rather than by
 | --- | --- |
 | [Chinese Academy of Sciences](/view.html?p=notes/social/koinomia/actor/instance/research/chn/cas/chinese-academy-of-sciences-cas.md) | The institutional funder-performer: institutes that both receive NSFC money and run their own programmes |
 | [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md) | The mission layer the schema sits below |
-| [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) | The type: a public agency wielding delegated authority over the allocation of research money |
+| [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) | The type: a public agency wielding delegated authority over the allocation of research money |
 | [Peer review](https://en.wikipedia.org/wiki/Peer_review) | The mechanism, and the reason the escape hatches exist |
 
 ## Papers

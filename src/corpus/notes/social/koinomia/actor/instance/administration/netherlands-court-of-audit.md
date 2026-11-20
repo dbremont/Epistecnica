@@ -36,6 +36,6 @@ tags: [note, social, actor, public-organization, audit, netherlands]
 - [Algemene Rekenkamer — website](https://www.rekenkamer.nl/)
 - [Audit](/view.html?p=notes/social/dynamic/audit.md) — the type: elements, types, independence parameters and failure modes
 - [Dutch State](/view.html?p=notes/social/koinomia/collective/polity/instance/nld/state.md) — the polity it audits
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional form
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the institutional form
 - [Supreme audit institution — Wikipedia](https://en.wikipedia.org/wiki/Supreme_audit_institution) — the international family
 - [Government Accountability Office](/view.html?p=notes/social/koinomia/actor/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

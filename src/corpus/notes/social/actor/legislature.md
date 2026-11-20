@@ -81,9 +81,9 @@ The type is also not uniform in structure: a **unicameral** and a **bicameral** 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (note schema, layer test, decomposition contract)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the genus whose kind this is)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (the genus whose kind this is)
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the body through which the assembly prepares what it decides)
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md) (the executive organ the assembly constitutes or constrains)
+- [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) (the executive organ the assembly constitutes or constrains)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) (the normative form a statute carries)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md) (the instrument through which a legislature's own warrant is conferred)
 - [Social Role](/view.html?p=notes/social/synontic/role.md) (the representative, presiding officer, and member roles)

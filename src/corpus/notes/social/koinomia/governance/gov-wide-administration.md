@@ -23,7 +23,7 @@ tags: [note, social, collective, administration, government-wide]
 
 ### What type of social element does this instance belong to?
 
-**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md), the parent hub, and [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), and its participating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/government.md).
+**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md), the parent hub, and [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), and its participating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
 
 Its layer is **Ontic** where the system exists extra-mentally (centers, staff, shared platforms, budgets) with **Synontic** aspects (authority, standards, and compliance exist through legal warrant and shared recognition).
 
@@ -39,7 +39,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### What is the recursive instance decomposition of this instance under collective?
 
-> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](/view.html?p=notes/social/koinomia/actor/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
+> Boundary: one generic Government-Wide Administrative System — its system anatomy at hub depth, one branch per characterization category. The full characterization table lives in [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) and is not duplicated here; rows below name the constituents the table characterizes.
 >
 > Stopping rule: a row is terminal when it names a constituent, a center, a norm, a role, a standard, a process, a service, or a linked entry.
 >
@@ -338,7 +338,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ## Terminology
 
-> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](/view.html?p=notes/social/koinomia/actor/government.md) carries the dimensional detail.
+> The working vocabulary of this note. Each term below is used with the stated sense; the characterization table in [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) carries the dimensional detail.
 
 | Term | Definition |
 | --- | --- |
@@ -376,7 +376,7 @@ It is not an `Organizational Administration` (the internal administration of one
 
 ### How should the workforce in public administration be conceptualized?
 
-> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md) positions. Personnel detail lives in those entries, not here.
+> As the administered agent set, not the administration. The workforce agents are staffed through [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) arrangements, supplied through [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md) services, and occupied as [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md) positions. Personnel detail lives in those entries, not here.
 
 ### Which Frameworks and Guides Can Be Used to Develop a Characterization System for Government-Wide Public Administration Systems?
 
@@ -556,11 +556,11 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md)
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md)
+- [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
 - [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
-- [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md)
+- [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
 - [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
 - [Public Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)

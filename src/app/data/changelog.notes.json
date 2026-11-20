@@ -71014,6 +71014,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71047,6 +71052,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71065,6 +71075,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71140,6 +71155,11 @@
     "summary": "Add the State Holding and Investment Company kind to the Finance Actor decomposition.",
     "commit": "f8951242365ac74abd00026c322d413ef3cfce4b",
     "before": "2200b001b35ef504b1b86988fd0eb48ad5b7a77b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71200,6 +71220,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71233,6 +71258,11 @@
     "summary": "Retarget the Social Group links to the singular modelling note.",
     "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
     "before": "9a7e9b16ebff55958b32a39148656b805f896915"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71251,6 +71281,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -71393,6 +71428,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -73552,6 +73592,11 @@
     "summary": "Retarget the administration link to the governance shelf.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
     "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -75893,6 +75938,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -75978,6 +76028,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76080,6 +76135,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76132,6 +76192,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76193,6 +76258,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76265,6 +76335,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76290,6 +76365,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -76441,6 +76521,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -77337,6 +77422,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -81956,6 +82046,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -82839,6 +82934,11 @@
     "kind": "refactor",
     "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
     "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -82975,6 +83075,22 @@
     "kind": "refactor",
     "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
     "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/instance/suzhou-industrial-park.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the action instances: the park is a development-zone instance, not a public-actor type."
    }
   ]
  },
@@ -85653,62 +85769,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/actor/government.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "The Sovereignty row of the concept inventory now links its note; the concept table had named it since the inventory was written and pointed nowhere.",
-    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c",
-    "before": "49b46257102f1efa8f40b99bc5747d11f0d34c78"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the administration link to the governance shelf.",
-    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
-    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/incorporated-administrative-agency.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New form note: the Japanese incorporated administrative agency - separate legal personality, mid-term objective set by the minister, agency-drawn mid-term plan, block grant, ex-post evaluation; the policy/implementation split the form enables and the three standard limits (the evaluator sets the objective, the soft budget, the rotating staff), with JAXA, RIKEN and NIMS as instances.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/actor/instance/administration/government-accountability-office.md",
   "logs": [
    {
@@ -85734,6 +85794,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -85769,6 +85834,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -86073,6 +86143,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -86246,6 +86321,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -86456,6 +86536,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -86507,17 +86592,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/instance/hru.md",
-  "logs": [
+   },
    {
     "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -86603,17 +86682,6 @@
     "kind": "refactor",
     "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity.",
     "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/instance/pri.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
    }
   ]
  },
@@ -87038,6 +87106,11 @@
     "summary": "Retarget the China five-year-plan links to the instance shelf.",
     "commit": "54b4c95960302698b2f846a0bc6606bcff4917ea",
     "before": "33ae077efa5e2ca074b145a963394893e307cf99"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -87854,6 +87927,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -88263,6 +88341,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -88397,6 +88480,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -88555,17 +88643,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/actor/instance/suzhou-industrial-park.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/actor/legislature/representation-systems.md",
   "logs": [
    {
@@ -88593,6 +88670,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -88617,59 +88699,16 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/municipal-government.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
    },
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the administration link to the governance shelf.",
-    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
-    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
  {
-  "file_path": "social/koinomia/actor/public-inquiry.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "feat",
-    "summary": "Add the Public Inquiry actor note: royal, statutory, parliamentary and departmental inquiry forms, with powers, activities and report products."
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/public-organization.md",
+  "file_path": "social/koinomia/actor/readme.md",
   "logs": [
    {
     "date": "2026-11-18",
@@ -88695,12 +88734,7 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/readme.md",
-  "logs": [
+   },
    {
     "date": "2026-11-20",
     "kind": "feat",
@@ -88734,11 +88768,176 @@
     "summary": "Remove the government-wide administration atlas from the actor Atlas list; it moved with the governance shelf.",
     "commit": "f0bd35aacd14649f75d0832b777b282576aab47f",
     "before": "fcab1dfbc92977a7e41a62ab630d6805985d3274"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Absorb public-organization.md: the shelf master becomes Public Actor, carrying the type definition, the decomposition and the index."
    }
   ]
  },
  {
-  "file_path": "social/koinomia/actor/royal-commission.md",
+  "file_path": "social/koinomia/actor/type/government.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The Sovereignty row of the concept inventory now links its note; the concept table had named it since the inventory was written and pointed nowhere.",
+    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c",
+    "before": "49b46257102f1efa8f40b99bc5747d11f0d34c78"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/incorporated-administrative-agency.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New form note: the Japanese incorporated administrative agency - separate legal personality, mid-term objective set by the minister, agency-drawn mid-term plan, block grant, ex-post evaluation; the policy/implementation split the form enables and the three standard limits (the evaluator sets the objective, the soft budget, the rotating staff), with JAXA, RIKEN and NIMS as instances.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/municipal-government.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/pri.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the type shelf: Public Research Institutes is a type, not an instance."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/public-inquiry.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Public Inquiry actor note: royal, statutory, parliamentary and departmental inquiry forms, with powers, activities and report products."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/type/royal-commission.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -88756,11 +88955,21 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
  {
-  "file_path": "social/koinomia/actor/statutory-corporation.md",
+  "file_path": "social/koinomia/actor/type/statutory-corporation.md",
   "logs": [
    {
     "date": "2026-11-18",
@@ -88773,6 +88982,16 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the actor type shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -88838,6 +89057,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -91681,6 +91905,11 @@
     "kind": "refactor",
     "summary": "Move under the collective branch: polity is the political core of the Social Compound genus.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -91844,6 +92073,11 @@
     "kind": "refactor",
     "summary": "Move under the collective branch: polity is the political core of the Social Compound genus.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -92197,6 +92431,11 @@
     "kind": "refactor",
     "summary": "Move under the collective branch: polity is the political core of the Social Compound genus.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -92274,6 +92513,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -92345,6 +92589,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -92381,6 +92630,11 @@
     "kind": "refactor",
     "summary": "Move to the governance shelf: the machinery is not an actor type.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -92483,6 +92737,27 @@
     "kind": "refactor",
     "summary": "Move to the governance shelf: the machinery is not an actor type.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/hru.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to governance: the HR unit and system is machinery, not an actor."
    }
   ]
  },
@@ -92524,6 +92799,11 @@
     "summary": "Point the atlas links at governance/atlas/.",
     "commit": "f0bd35aacd14649f75d0832b777b282576aab47f",
     "before": "fcab1dfbc92977a7e41a62ab630d6805985d3274"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },
@@ -93001,6 +93281,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master."
    }
   ]
  },

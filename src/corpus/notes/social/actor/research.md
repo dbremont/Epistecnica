@@ -34,7 +34,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/koinomia/actor/instance/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
+> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/koinomia/actor/type/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
 >
 > Stopping rule: a row is terminal when it names a subtype, a national system, a concrete institute, an agency, a role, a norm, an obligation, or a practice, or when it links an already-decomposed entry.
 >
@@ -138,7 +138,7 @@ Approximate shares of a research group's total budget:
 - [Science](/view.html?p=notes/social/dynamic/research/science.md) (the scientific activity family that scopes inquiry)
 - [Research Group](/view.html?p=notes/social/actor/research-group.md) (quasi-firm team subtype)
 - [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md) (corporate subtype)
-- [Public Research Institutes (PRI)](/view.html?p=notes/social/koinomia/actor/instance/pri.md) (public-research subtype)
+- [Public Research Institutes (PRI)](/view.html?p=notes/social/koinomia/actor/type/pri.md) (public-research subtype)
 - [Product Development Center](/view.html?p=notes/social/actor/product-development-center.md) (sibling collective with a product mandate rather than an inquiry mandate)
 - [Max Planck Society](/view.html?p=notes/social/koinomia/actor/instance/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
 - [Fraunhofer Society](/view.html?p=notes/social/koinomia/actor/instance/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)

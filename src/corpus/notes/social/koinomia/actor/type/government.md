@@ -16,7 +16,7 @@ tags: [note, social, collective, social-element, actor, government]
 
 ### What type of social element does this instance belong to?
 
-**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) instances.
+**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances.
 
 Its layer is **Ontic** where the government exists extra-mentally (office-holders, ministries, premises, budgets) with **Synontic** aspects (authority, legitimacy, and jurisdiction exist through shared recognition and constitutional warrant).
 
@@ -45,7 +45,7 @@ It is not the `State` (the political organization that persists across successiv
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` National Government | Government exercising public power at the level of the state as a whole. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Regional Government | Government exercising public power within a constituent region, federal unit, or autonomous territory. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government | Government exercising public power over a bounded locality and its services. |
-| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government `(→ Kind)` Municipal Government | Local Government kind governing a bounded urban locality and its services; worked in [Municipal Government](/view.html?p=notes/social/koinomia/actor/municipal-government.md). |
+| `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Kind)` Local Government `(→ Kind)` Municipal Government | Local Government kind governing a bounded urban locality and its services; worked in [Municipal Government](/view.html?p=notes/social/koinomia/actor/type/municipal-government.md). |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution | The constituents and constitutive relations through which a plurality constitutes an identifiable government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set | The persons, agents, and organizations that constitute the government. |
 | `Social Compound` `(→ Part)` Collective `(→ Kind)` Political Collective `(→ Kind)` Government `(→ Part)` Constitution `(→ Part)` Constituent Set `(→ Part)` Constituent Agent Set | Office-holders — head of government, ministers, junior ministers — who constitute the government directly. |
@@ -364,7 +364,7 @@ It is not the `State` (the political organization that persists across successiv
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
-- [Municipal Government](/view.html?p=notes/social/koinomia/actor/municipal-government.md) (Local Government sub-type, urban-locality kind)
+- [Municipal Government](/view.html?p=notes/social/koinomia/actor/type/municipal-government.md) (Local Government sub-type, urban-locality kind)
 - [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
 - [Law](/view.html?p=notes/social/normative/law.md)
 - [Government](https://en.wikipedia.org/wiki/Government)

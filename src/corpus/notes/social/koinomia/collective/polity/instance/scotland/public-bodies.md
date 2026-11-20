@@ -24,11 +24,11 @@ tags: [note, social, actor, public-organization]
 
 ## The development bank in this landscape
 
-> The Scottish National Investment Bank is a **company** wholly owned by the ministers, not an NDPB. That choice is the argument: a company can take equity, co-invest with private capital and hold an investment board, where a grant-funded body cannot. It is the same trade a [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) makes — powers of a firm, purpose of the state — with the company form chosen to signal commercial intent.
+> The Scottish National Investment Bank is a **company** wholly owned by the ministers, not an NDPB. That choice is the argument: a company can take equity, co-invest with private capital and hold an investment board, where a grant-funded body cannot. It is the same trade a [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/type/statutory-corporation.md) makes — powers of a firm, purpose of the state — with the company form chosen to signal commercial intent.
 
 ## References
 
 - [Public bodies of the Scottish Government — Wikipedia](https://en.wikipedia.org/wiki/Public_bodies_of_the_Scottish_Government)
 - [Scotland](/view.html?p=notes/social/koinomia/collective/polity/instance/scotland/scotland.md) — the polity these bodies serve
-- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) — the form family
+- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/type/statutory-corporation.md) — the form family
 - [Scottish National Investment Bank](/view.html?p=notes/social/koinomia/actor/instance/finance/scottish-national-investment-bank.md) — the company-form case

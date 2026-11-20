@@ -4,7 +4,7 @@ tags: [note, social, collective, actor, social-element, public-organization, roy
 
 # Royal Commission
 
-> A **Royal Commission** is a public inquiry body appointed by the Crown — in practice by the government of the day — to investigate a matter of public concern, given for that purpose the powers to summon witnesses, compel documents and take evidence on oath, and dissolved once it has reported. It is an actor constituted for one question: it finds facts and recommends, it does not adjudicate, and its authority ends with the report it hands to the authority that appointed it. It is one kind of [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md).
+> A **Royal Commission** is a public inquiry body appointed by the Crown — in practice by the government of the day — to investigate a matter of public concern, given for that purpose the powers to summon witnesses, compel documents and take evidence on oath, and dissolved once it has reported. It is an actor constituted for one question: it finds facts and recommends, it does not adjudicate, and its authority ends with the report it hands to the authority that appointed it. It is one kind of [Public Inquiry](/view.html?p=notes/social/koinomia/actor/type/public-inquiry.md).
 
 ## Formulation
 
@@ -30,7 +30,7 @@ The kind is not one thing: the **investigative** commission appointed for one ma
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one royal commission, decomposed at middle depth — its warrant, membership, powers, work, products, relations and the forms the inquiry has taken. Individual commissions are instances, not rows here; the genus is cross-linked at [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md), and the body it is most often confused with at [Committee](/view.html?p=notes/social/actor/committee.md).
+> Boundary: one royal commission, decomposed at middle depth — its warrant, membership, powers, work, products, relations and the forms the inquiry has taken. Individual commissions are instances, not rows here; the genus is cross-linked at [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md), and the body it is most often confused with at [Committee](/view.html?p=notes/social/actor/committee.md).
 >
 > Stopping rule: a row is terminal when it names a kind, a role, a power, a work form, a product, a relation, or a support structure.
 >
@@ -77,9 +77,9 @@ The kind is not one thing: the **investigative** commission appointed for one ma
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (note schema, layer test, decomposition contract)
-- [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md) (the generic inquiry actor this form belongs to)
+- [Public Inquiry](/view.html?p=notes/social/koinomia/actor/type/public-inquiry.md) (the generic inquiry actor this form belongs to)
 - [Report](/view.html?p=notes/social/koinomia/collective/report.md) (the social compound the commission issues)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the genus, whose Task Group kind this is)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (the genus, whose Task Group kind this is)
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the body it is most often confused with: drawn from a parent assembly, preparing that assembly's business)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body contrast: a board decides and directs)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) (the assembly a commission reports to where the warrant comes from statute)

@@ -6,7 +6,7 @@ tags: [note, social, collective, social-element, actor, municipal-government, lo
 
 > A **Municipal Government** is the government of a bounded urban locality — the **Local Government** kind that is constituted to exercise public power over a municipality and the local services attached to it, under the legal order of a higher-tier state.
 
-> **Note:** This note documents the generic municipal kind. It is a specialization of [Local Government](/view.html?p=notes/social/koinomia/actor/government.md), itself a kind of [Government](/view.html?p=notes/social/koinomia/actor/government.md). Named municipal governments (a city, a capital district, a particular council) are instances, not kinds, and are documented as case studies.
+> **Note:** This note documents the generic municipal kind. It is a specialization of [Local Government](/view.html?p=notes/social/koinomia/actor/type/government.md), itself a kind of [Government](/view.html?p=notes/social/koinomia/actor/type/government.md). Named municipal governments (a city, a capital district, a particular council) are instances, not kinds, and are documented as case studies.
 
 ## Formulation
 
@@ -18,13 +18,13 @@ tags: [note, social, collective, social-element, actor, municipal-government, lo
 
 ### What type of social element does this instance belong to?
 
-**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) instances, notably the `Municipal Organization` kind.
+**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances, notably the `Municipal Organization` kind.
 
-> Its type path is nested: `Government (→ Kind) Local Government (→ Kind) Municipal Government`. **Local Government** is the sub-type of [Government](/view.html?p=notes/social/koinomia/actor/government.md); **Municipal Government** is its urban-locality kind, beside the district and metropolitan variants.
+> Its type path is nested: `Government (→ Kind) Local Government (→ Kind) Municipal Government`. **Local Government** is the sub-type of [Government](/view.html?p=notes/social/koinomia/actor/type/government.md); **Municipal Government** is its urban-locality kind, beside the district and metropolitan variants.
 
 Its layer is **Ontic** where the municipal government exists extra-mentally (office-holders, municipal offices, premises, budgets, service fleets) with **Synontic** aspects (local authority, legitimacy, and jurisdiction exist through shared recognition and statutory warrant).
 
-It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](/view.html?p=notes/social/history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](/view.html?p=notes/social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](/view.html?p=notes/social/koinomia/actor/government.md) (national or regional) from which its competence is delegated.
+It is not the `Municipio` (the historical and territorial unit — see the study at [Municipio](/view.html?p=notes/social/history/castilla/municipio.md)), not the `Municipality` (the locality and corporate entity it governs), not a [Mancomunidad](/view.html?p=notes/social/normative/institution/institution/mancomunidad.md) (an inter-municipal association), not the `Municipal Organization` (the wielding body — decompose the body where authority is wielded), and not the higher-tier [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) (national or regional) from which its competence is delegated.
 
 ### Is the type of this `social element instance` unambiguous?
 
@@ -137,11 +137,11 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### Is a municipal government the same as a local government?
 
-> No — it is a kind of it. **Local Government** is the sub-type of [Government](/view.html?p=notes/social/koinomia/actor/government.md) covering the subnational level below regional and national tiers; **Municipal Government** is its urban-locality kind, beside district and metropolitan kinds. A rural district council is local government but not municipal; a metropolitan authority is municipal in scale but not bounded to a single city.
+> No — it is a kind of it. **Local Government** is the sub-type of [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) covering the subnational level below regional and national tiers; **Municipal Government** is its urban-locality kind, beside district and metropolitan kinds. A rural district council is local government but not municipal; a metropolitan authority is municipal in scale but not bounded to a single city.
 
 ### Where do the municipal body, its staff, and its administration decompose?
 
-> The wielding body decomposes as a [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
+> The wielding body decomposes as a [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
 
 ### Where do inter-municipal arrangements decompose?
 
@@ -155,9 +155,9 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ## References
 
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md) (parent kind; Local Government is its sub-type)
+- [Government](/view.html?p=notes/social/koinomia/actor/type/government.md) (parent kind; Local Government is its sub-type)
 - [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the wielding body; carries the Municipal Organization kind)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (the wielding body; carries the Municipal Organization kind)
 - [Mancomunidad](/view.html?p=notes/social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md)

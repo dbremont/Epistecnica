@@ -57,7 +57,7 @@ Its position is unusual for a second reason. Ames is a federal laboratory sittin
 - [Materials Preparation Center](https://www.ameslab.gov/dmse/materials-preparation-center) — the purification, preparation and characterization service
 - [Sensitive Instrument Facility](https://sif.ameslab.gov/) — the electron-microscopy facility
 - [Research Actor](/view.html?p=notes/social/actor/research.md) — the actor type, its `National Laboratory` kind and its `Institutional Form` branch
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the sponsor's public-authority form, the reading that attaches to the Department rather than to the laboratory
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the sponsor's public-authority form, the reading that attaches to the Department rather than to the laboratory
 - [Organization](/view.html?p=notes/social/actor/organization.md) — the generic collective/organization type
 - [Research Activity](/explorer.html?dir=notes/social/dynamic/research) — the activity the actor performs
 - [Rare Earth](/view.html?p=notes/technica/production/industry/rare-earth-elements.md) — the material family the critical-materials mission works on

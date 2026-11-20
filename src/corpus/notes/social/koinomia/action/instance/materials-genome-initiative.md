@@ -122,7 +122,7 @@ Lineage: the 2009–2011 computational-materials argument (density-functional th
 - [Physical Material Technology](/view.html?p=notes/technica/general/physical-material-technology.md) (companion decomposition: the artifacts and their engineering)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (the host unit the governance regime binds)
 - [Research Group](/view.html?p=notes/social/actor/research-group.md) (the depositing unit in the agentic spine)
-- [Public Research Institutes (PRI)](/view.html?p=notes/social/koinomia/actor/instance/pri.md) (the public-research role the laboratories occupy)
+- [Public Research Institutes (PRI)](/view.html?p=notes/social/koinomia/actor/type/pri.md) (the public-research role the laboratories occupy)
 - [Lawrence Berkeley National Laboratory](/view.html?p=notes/social/koinomia/actor/instance/research/usa/laboratorio-nacional-lawrence-berkeley.md) (host of the Materials Project)
 - [National Renewable Energy Laboratory](/view.html?p=notes/social/koinomia/actor/instance/research/usa/national-renewable-energy-laboratory.md) (host of the high-throughput facility and Energy Frontier centers)
 - [Argonne National Laboratory](/view.html?p=notes/social/koinomia/actor/instance/research/usa/argonne-national-laboratory.md) (participant in the hierarchical design center)

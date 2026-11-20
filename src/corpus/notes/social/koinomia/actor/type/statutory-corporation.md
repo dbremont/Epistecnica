@@ -28,7 +28,7 @@ tags: [note, social, actor, public-organization]
 
 ## Variants and neighbours
 
-> The **Crown corporation** is the Canadian variant of the same idea; the Japanese [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/incorporated-administrative-agency.md) is the same problem solved with mid-term objectives and ex-post evaluation instead of a board and a remit letter; the UK's non-departmental public body is a broader class that includes statutory corporations among other forms. The [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) note compares them along the autonomy dimension.
+> The **Crown corporation** is the Canadian variant of the same idea; the Japanese [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/type/incorporated-administrative-agency.md) is the same problem solved with mid-term objectives and ex-post evaluation instead of a board and a remit letter; the UK's non-departmental public body is a broader class that includes statutory corporations among other forms. The [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) note compares them along the autonomy dimension.
 
 ## Instances
 
@@ -39,5 +39,5 @@ tags: [note, social, actor, public-organization]
 ## References
 
 - [Statutory corporation — Wikipedia](https://en.wikipedia.org/wiki/Statutory_corporation)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the comparative reading of public forms
-- [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/incorporated-administrative-agency.md) — the Japanese counterpart
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the comparative reading of public forms
+- [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/type/incorporated-administrative-agency.md) — the Japanese counterpart

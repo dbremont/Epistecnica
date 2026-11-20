@@ -10,7 +10,7 @@ tags: [note, social, actor, development-bank]
 
 | Attribute | Value |
 | --- | --- |
-| **Legal form** | Crown corporation, wholly owned by the Government of Canada — a [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) variant |
+| **Legal form** | Crown corporation, wholly owned by the Government of Canada — a [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/type/statutory-corporation.md) variant |
 | **Mandate** | Financing, capital and advisory services for SMEs, with a complementary national purpose |
 | **Instruments** | Term loans, working capital, equipment and real-estate financing, subordinated debt, venture and growth equity through BDC Capital, advisory services |
 | **Accountability** | Reports to Parliament through the Minister of Innovation, Science and Industry; annual report and corporate plan |
@@ -29,5 +29,5 @@ tags: [note, social, actor, development-bank]
 
 - [Business Development Bank of Canada — Wikipedia](https://en.wikipedia.org/wiki/Business_Development_Bank_of_Canada)
 - [BDC — website](https://www.bdc.ca/)
-- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) — the legal form it instantiates
+- [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/type/statutory-corporation.md) — the legal form it instantiates
 - [Scottish National Investment Bank](/view.html?p=notes/social/koinomia/actor/instance/finance/scottish-national-investment-bank.md) — the other pole of development banking

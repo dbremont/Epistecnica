@@ -37,7 +37,7 @@ tags: [note, social, actor, institution, development, industrial-policy]
 
 ## References
 
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional typology
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the institutional typology
 - [Productive Policy](/view.html?p=notes/social/koinomia/action/instrument/policy/productive-policy.md) — the modern frame
 - [Royal Dublin Society](/view.html?p=notes/social/koinomia/actor/instance/development/royal-dublin-society.md) — the earliest instance
 - [IDA Ireland](/view.html?p=notes/social/koinomia/actor/instance/development/ida-ireland-industrial-development-authority.md) — the latest

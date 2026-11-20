@@ -60,6 +60,6 @@ tags: [note, social, institution, audit, governance, accountability]
 - [Supreme audit institution — Wikipedia](https://en.wikipedia.org/wiki/Supreme_audit_institution)
 - [An Essay on Auditing](/view.html?p=notes/miscellanea/unclassified/an-essay-on-auditing.md) — the corpus essay this note supplies the concept for
 - [Netherlands Court of Audit](/view.html?p=notes/social/koinomia/actor/instance/administration/netherlands-court-of-audit.md) — a supreme audit institution as an instance
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional form the audit bodies take
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the institutional form the audit bodies take
 - Power, M. (1997). *The Audit Society: Rituals of Verification*. Oxford University Press.
 - [Government Accountability Office](/view.html?p=notes/social/koinomia/actor/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

@@ -20,7 +20,7 @@ tags: [note, social, actor, research, academy, netherlands]
 
 > The Dutch system is the clearest European case of a **three-pillar** research architecture: a council that funds (**NWO**), an organisation that does applied research (**TNO**), and an academy that recognises, advises and hosts institutes (**KNAW**). The three are distinct because they answer different questions — who gets the money, who solves the practical problem, who certifies the standing of the field — and the corpus keeps all three for that reason.
 
-> Read against the [Czech](/view.html?p=notes/social/koinomia/actor/instance/research/cze/czech-academy-of-sciences.md) and [Polish](/view.html?p=notes/social/koinomia/actor/instance/research/pol/polish-academy-of-sciences.md) academies, the Dutch case is the **advisory** variant: the same form, but with the funding and the applied research deliberately placed outside it. That is the design decision that distinguishes the Netherlands from the state-academy model, and the one worth comparing in the [public organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) typology.
+> Read against the [Czech](/view.html?p=notes/social/koinomia/actor/instance/research/cze/czech-academy-of-sciences.md) and [Polish](/view.html?p=notes/social/koinomia/actor/instance/research/pol/polish-academy-of-sciences.md) academies, the Dutch case is the **advisory** variant: the same form, but with the funding and the applied research deliberately placed outside it. That is the design decision that distinguishes the Netherlands from the state-academy model, and the one worth comparing in the [public organization](/view.html?p=notes/social/koinomia/actor/readme.md) typology.
 
 ## References
 

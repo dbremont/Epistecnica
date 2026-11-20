@@ -29,7 +29,7 @@ tags: [note, social, city, settlement, urbanism, social-compound]
 
 Its layer is **Ontic**: the ground, the buildings, the people, the pipes and the budgets exist extra-mentally. Its facet is **structural-spatial** — the dominant causal mechanism is co-residence within one bounded territory, which is what makes a city a unit of social life rather than an aggregate of unrelated actors.
 
-It is not an `Interaction Unit` — a city does not decide as one mind. The [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) that governs it is an actor *inside* the compound; its decisions are one part of the city, never the whole. It is not a `Region` — a [Region](/view.html?p=notes/social/koinomia/space/region.md) is a field of interaction density, while a city is a settlement with a built fabric and institutions, though every city is a region of a kind and regions are often named after one. It is not a `Polity` — that is the political community organized under a common authority; a city-state is both, and the compound/polity split is how the corpus keeps them apart. And it is not, strictly, a `Production Technical System`: that is the reading of its fabric, carried in the next section, not a second root.
+It is not an `Interaction Unit` — a city does not decide as one mind. The [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) that governs it is an actor *inside* the compound; its decisions are one part of the city, never the whole. It is not a `Region` — a [Region](/view.html?p=notes/social/koinomia/space/region.md) is a field of interaction density, while a city is a settlement with a built fabric and institutions, though every city is a region of a kind and regions are often named after one. It is not a `Polity` — that is the political community organized under a common authority; a city-state is both, and the compound/polity split is how the corpus keeps them apart. And it is not, strictly, a `Production Technical System`: that is the reading of its fabric, carried in the next section, not a second root.
 
 Readable secondarily as a `Production Technical System` (the technical reading below) and as a `Technical Element Set` — the ensemble of heterogeneous technical members. Those readings are prose and a carried decomposition, not additional roots.
 
@@ -220,7 +220,7 @@ Three frames act on the same object at different scales, and the corpus files ea
 - [Logistics System](/view.html?p=notes/technica/production/industry/logistics-system.md) — the goods flow the city depends on
 - [Energy Technology](/view.html?p=notes/technica/general/energy-technology.md) — the energy systems the city hosts
 - [Region](/view.html?p=notes/social/koinomia/space/region.md) — the interaction field the city sits in
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the actor form that governs the compound
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the actor form that governs the compound
 - Lynch, K. (1960). *The Image of the City*. MIT Press. — legibility, and the paths, edges, districts, nodes and landmarks a resident reads a city by
 - Jacobs, J. (1961). *The Death and Life of Great American Cities*. Random House. — density, mixed use, and the sidewalk as the city's safety
 - Alexander, C., Ishikawa, S., & Silverstein, M. (1977). *A Pattern Language*. Oxford University Press. — recurrent settlement patterns at every scale

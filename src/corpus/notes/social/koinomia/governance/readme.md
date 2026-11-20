@@ -120,8 +120,8 @@ Governance is not an actor and not an actor type: it is the administrative machi
 
 ## Related
 
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the actors that wield the authority
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the actors that wield the authority
+- [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
 - [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
-- [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md)
+- [Human Resource Unit](/view.html?p=notes/social/koinomia/governance/hru.md)
 - [Atlas of Government-Wide Administration Comparative Representation Systems](/corpus/notes/social/koinomia/governance/atlas/gov-wide-administration.html)

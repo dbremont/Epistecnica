@@ -58,8 +58,8 @@ Readable secondarily as an `Action Instrument` of the appointing authority, and 
 ## See also
 
 - [Report](/view.html?p=notes/social/koinomia/collective/report.md) — the social compound an inquiry issues.
-- [Royal Commission](/view.html?p=notes/social/koinomia/actor/royal-commission.md) — the worked royal-commission form.
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the genus whose Task Group kind this is.
+- [Royal Commission](/view.html?p=notes/social/koinomia/actor/type/royal-commission.md) — the worked royal-commission form.
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the genus whose Task Group kind this is.
 - [Committee](/view.html?p=notes/social/actor/committee.md) — the body an inquiry is most often confused with.
 
 ## References

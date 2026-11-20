@@ -176,7 +176,7 @@
   },
   {
    "from": "social/koinomia/actor/atlas/",
-   "to": "social/koinomia/actor/public-organization.md",
+   "to": "social/koinomia/actor/readme.md",
    "label": "public organization",
    "kind": "atlas"
   },

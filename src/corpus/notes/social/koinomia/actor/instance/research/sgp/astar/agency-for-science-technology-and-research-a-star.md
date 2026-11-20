@@ -107,7 +107,7 @@ The Agency for Science, Technology and Research (A*STAR) is a statutory board un
 ## References
 
 - [Board](/view.html?p=notes/social/actor/board.md) — the collegial body the Profile names: mandate-holders who decide direction, control execution and answer for the agency's conduct (`Agency (→ Part)` Governing Board; here a `Board of Directors`)
-- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the type this instance is: a statutory board wielding delegated public authority under the 1990 Act
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) — the type this instance is: a statutory board wielding delegated public authority under the 1990 Act
 - [Organization](/view.html?p=notes/social/actor/organization.md) — the actor type, and the note that carries `Governing Board` as a part
 - [Singapore](/view.html?p=notes/social/koinomia/collective/polity/instance/sgp/singapore.md) — the polity whose ministry appoints the Board and holds the supervisory line
 - [A*STAR Organization Chart](https://www.a-star.edu.sg/api/media/2cae5f7c-1bf7-4d36-abd2-80d554dbb2a6.pdf)
