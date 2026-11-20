@@ -7213,7 +7213,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Riemann zeta function: definition, Euler product, continuation, the hypothesis section, and the QA on difficulty and primes."
+    "summary": "Add the Riemann zeta function: definition, Euler product, continuation, the hypothesis section, and the QA on difficulty and primes.",
+    "commit": "498093955503f0e7d3df99cea062bf637deb1009"
    }
   ]
  },
