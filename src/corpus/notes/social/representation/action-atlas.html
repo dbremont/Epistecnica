@@ -258,12 +258,12 @@
 <div class="layout">
 
 <div class="toolbar">
-        <input id="search" type="search" placeholder="Search problems, instruments, or keywords…" autocomplete="off">
+        <input id="search" type="search" placeholder="Search domains, problems, instruments…" autocomplete="off">
 </div>
 <div class="grid">
     <aside class="panel" id="explorer">
-        <h2>Problem Space</h2>
-        <p class="hint">Select problems to compare. All selected initially.</p>
+        <h2>Problem Domains</h2>
+        <p class="hint">Select domains to compare. All selected initially.</p>
         <div class="linkrow"><button class="linklike" id="checkAll" type="button">Select all</button><button class="linklike" id="clearAll" type="button">Clear</button></div>
         <div class="tree" id="tree"></div>
         <div class="seglabel">Filters <button class="linklike" id="clearFilters" type="button">Clear all</button></div>
@@ -290,24 +290,24 @@
         <section class="panel" id="networkPanel">
             <div class="maphead">
                 <div>
-                	<h2>Problem × Instrument Network</h2>        
-			<p class="hint">An N × N map of problem–instrument relationships.</p> 
+                	<h2>Domain × Instrument Network</h2>        
+			<p class="hint">An N × N map of domain–instrument relationships.</p> 
 		</div>
             </div>
             <div id="mapWrap">
-            <div class="mapscroll"><svg id="map" role="img" aria-label="Problem to instrument network map"></svg></div>
+            <div class="mapscroll"><svg id="map" role="img" aria-label="Domain to instrument network map"></svg></div>
             </div>
             <div id="matrixWrap" class="hidden">
-            <h2 style="margin-top:1rem">Problem × Instrument Matrix</h2>
+            <h2 style="margin-top:1rem">Domain × Instrument Matrix</h2>
             <p class="hint">Cell dots mark a relationship; dot count marks strength on a 1–5 scale. Click a cell to inspect the pair.</p>
             <div style="overflow:auto"><table class="atlas matrix" id="matrixTable"></table></div>
             </div>
             <div id="tableWrap" class="hidden">
-            <h2 style="margin-top:1rem">Problem Table</h2>
+            <h2 style="margin-top:1rem">Domain Table</h2>
             <p class="hint">Click a header to sort.</p>
             <div style="overflow-x:auto"><table class="atlas" id="dataTable">
                 <thead><tr>
-                    <th data-key="statement">Problem</th><th data-key="name">Intervention</th>
+                    <th data-key="statement">Domain</th><th data-key="name">Intervention</th>
                     <th data-key="description">Description</th><th data-key="instrumentName">Instrument</th><th data-key="name">Name</th>
                 </tr></thead><tbody></tbody>
             </table></div>
@@ -317,10 +317,10 @@
     <aside class="panel" id="detail">
         <div class="detailhead">
             <span class="kicker" id="detailKicker">Inspector</span>
-            <h2 id="detailTitle">Select a problem or instrument</h2>
+            <h2 id="detailTitle">Select a domain or instrument</h2>
         </div>
         <div class="minitabs" id="detailTabs">
-            <button class="tab active" data-side="problem" type="button">Problem</button>
+            <button class="tab active" data-side="problem" type="button">Domain</button>
             <button class="tab" data-side="instrument" type="button">Instrument</button>
         </div>
         <div class="asidescroll">
@@ -486,7 +486,7 @@
         var g = gLeft;
         if (!drawn.length) {
             var t = svgEl("text", { x: W / 2, y: H / 2, "text-anchor": "middle", fill: "var(--text-muted)", "font-size": "13" });
-            t.textContent = "Nothing selected — choose problems in the Problem Space to populate the map.";
+            t.textContent = "Nothing selected — choose domains in the Problem Domains to populate the map.";
             g.appendChild(t);
         }
         // left nodes (chosen problems, level-marked)
@@ -702,7 +702,7 @@
         if (!v || !ins) return "";
         var inner = "<div class=\"relhead\"><span class=\"icontile\" style=\"background:" + esc(ins.hue || "#999") + "\">" + esc(ins.icon || "?") + "</span><span>With <strong>" + esc(v.name) + "</strong></span></div>";
         if (!r) return "<div class=\"specsection\"><div class=\"label\">Relationship</div><div class=\"relsection\">" + inner +
-            "<p style=\"font-size:0.68rem;color:var(--text-muted);margin-top:0.45rem\">No direct relationship recorded between this instrument and the selected problem.</p></div></div>";
+            "<p style=\"font-size:0.68rem;color:var(--text-muted);margin-top:0.45rem\">No direct relationship recorded between this instrument and the selected domain.</p></div></div>";
         var tags = "<span class=\"tag\">" + esc(r.role) + "</span><span class=\"tag\">" + esc(r.name) + "</span><span class=\"tag\">strength " + r.strength + "/5</span>";
         var html = "<div class=\"specsection\"><div class=\"label\">Relationship</div><div class=\"relsection\">" + inner + "<div class=\"relmeta\">" + tags + "</div>";
         if (r.functions && r.functions.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Functions</div>" + listHTML(r.functions);
@@ -752,7 +752,7 @@
         if (!S.hasSelection) {
             tabs.classList.remove("hidden");
             kicker.className = "kicker"; kicker.textContent = "Inspector";
-            title.textContent = "Select a problem or instrument";
+            title.textContent = "Select a domain or instrument";
             document.querySelectorAll("#detailTabs .tab").forEach(function (t) { t.classList.remove("active"); t.setAttribute("disabled", "disabled"); });
             body.innerHTML = "<p style=\"font-size:0.72rem;color:var(--text-muted)\">Nothing selected — click a problem, instrument, or link in the network.</p>";
             return;
@@ -768,7 +768,7 @@
         S.detailKind = "problem";
         tabs.classList.remove("hidden");
         kicker.className = "kicker";
-        kicker.innerHTML = "<span class=\"pk\">Problem</span><span class=\"x\">×</span><span class=\"ik\">Instrument</span>";
+        kicker.innerHTML = "<span class=\"pk\">Domain</span><span class=\"x\">×</span><span class=\"ik\">Instrument</span>";
         if (S.detailSide === "instrument" && !ins) S.detailSide = "problem";
         if (S.detailSide === "problem" && !v) S.detailSide = "instrument";
         document.querySelectorAll("#detailTabs .tab").forEach(function (t) {

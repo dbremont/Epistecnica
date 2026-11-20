@@ -1,13 +1,13 @@
 {
   "meta": {
-    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize. Seven concrete root problems replace the single abstract 'middle-income trap' root. Each root is directly mappable to policy instruments.",
-    "version": 2
+    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eight root problem domains, each directly mappable to policy instruments.",
+    "version": 3
   },
   "problems": [
     {
       "id": 1,
       "parent": null,
-      "name": "Low Enterprise Productivity and Quality",
+      "name": "Firm Domain",
       "statement": "Domestic firms, especially SMEs, operate with low productivity and poor quality, limiting their ability to compete and upgrade.",
       "description": "Weak firm-level capability is a root cause of failed industrial upgrading. SMEs lack management, technical, and quality control capabilities, and cannot absorb technology effectively.",
       "goals": [
@@ -22,13 +22,21 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        },
+        {
+          "label": "Production",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/production.md"
+        },
+        {
+          "label": "Firm Policy",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/firm/firm-policy.md"
         }
       ]
     },
     {
       "id": 2,
       "parent": null,
-      "name": "Missing Supporting Industries and Weak FDI Linkages",
+      "name": "FDI–Local Firm Linkage Domain",
       "statement": "Domestic supporting industries are too weak to supply core firms, and FDI operates in enclaves with few local linkages.",
       "description": "Without supplier development and local absorptive capacity, FDI generates limited spillovers. Supporting industries are essential for clustering and value chain integration.",
       "goals": [
@@ -43,13 +51,21 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        },
+        {
+          "label": "Industrial Structure",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/structure.md"
+        },
+        {
+          "label": "Industry",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/industry/industry.md"
         }
       ]
     },
     {
       "id": 3,
       "parent": null,
-      "name": "Shortage of Industrial Human Resources",
+      "name": "Industrial Human Resources Domain",
       "statement": "There is a critical shortage of engineers, technicians, managers, and skilled workers needed for industrial upgrading.",
       "description": "Industrialization requires a critical mass of capable people who can absorb, adapt, and create technology. TVET systems are disconnected from industry needs, and skill mismatch is widespread.",
       "goals": [
@@ -64,13 +80,21 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 5). Routledge."
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
         }
       ]
     },
     {
       "id": 4,
       "parent": null,
-      "name": "Financial Constraints for Industrial Investment",
+      "name": "Industrial Finance Domain",
       "statement": "Firms, especially SMEs, cannot obtain adequate finance for equipment, technology, and working capital.",
       "description": "Financial constraints prevent firms from upgrading. Collateral requirements, weak credit information, and lack of long-term finance are key obstacles.",
       "goals": [
@@ -85,13 +109,21 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 4). Routledge."
+        },
+        {
+          "label": "Finance",
+          "url": "/view.html?p=notes/social/collective/action/problem/finance/finance.md"
+        },
+        {
+          "label": "Investment",
+          "url": "/view.html?p=notes/social/collective/action/problem/finance/investment.md"
         }
       ]
     },
     {
       "id": 5,
       "parent": null,
-      "name": "Weak Policy Process and Governance",
+      "name": "Policy Process and Governance Domain",
       "statement": "Government lacks the capability to design, implement, and adapt industrial policies suited to local conditions.",
       "description": "Policy capacity includes diagnosis, dialogue with the private sector, learning from international experience, coordination across agencies, and implementation discipline.",
       "goals": [
@@ -106,13 +138,25 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 6-7). Routledge."
+        },
+        {
+          "label": "Civil Service",
+          "url": "/view.html?p=notes/social/collective/action/problem/bureaucracy/civil-service.md"
+        },
+        {
+          "label": "Regulation",
+          "url": "/view.html?p=notes/social/collective/action/problem/regulation/regulation.md"
+        },
+        {
+          "label": "Governance",
+          "url": "/view.html?p=notes/social/collective/action/problem/state/governance/governance.md"
         }
       ]
     },
     {
       "id": 6,
       "parent": null,
-      "name": "Infrastructure and Business Environment Bottlenecks",
+      "name": "Infrastructure and Business Environment Domain",
       "statement": "Poor infrastructure, logistics, and administrative burden raise costs and reduce industrial competitiveness.",
       "description": "Reliable power, transport, industrial parks, and efficient administration are necessary for industrial investment and cluster development.",
       "goals": [
@@ -127,13 +171,21 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
+        },
+        {
+          "label": "Infrastructure",
+          "url": "/view.html?p=notes/social/collective/action/problem/infrastructure/infrastructure.md"
+        },
+        {
+          "label": "Regulation",
+          "url": "/view.html?p=notes/social/collective/action/problem/regulation/regulation.md"
         }
       ]
     },
     {
       "id": 7,
       "parent": null,
-      "name": "Dependence on Given Growth Sources",
+      "name": "Structural Change Domain",
       "statement": "Growth depends on externally given advantages—resources, aid, big projects, or FDI enclaves—rather than on created value.",
       "description": "Given growth arises from FDI, aid, resource rents, or large public projects. It can produce temporary growth but does not build endogenous industrial capability.",
       "goals": [
@@ -148,6 +200,14 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 1-2). Routledge."
+        },
+        {
+          "label": "Production Change",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/change.md"
+        },
+        {
+          "label": "Industrial Structure",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/structure.md"
         }
       ]
     },
@@ -688,6 +748,177 @@
       "references": [
         {
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapters 1 and 6). Routledge."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "parent": null,
+      "name": "Technical Research Human Capital Domain",
+      "statement": "The technical research system has too few researchers and scientists, and the careers, training and incentives that would produce and retain them are weak.",
+      "description": "The domain covers the human capital of technical research: the supply of researchers and scientists, the career structure that retains them, the research training that connects universities and industry, and the incentives that direct their work.",
+      "goals": [
+        "Expand the researcher base",
+        "Retain researchers through viable careers",
+        "Align research training with industry",
+        "Reward long-horizon and high-risk work"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Researchers, Scientists, Universities, Research Institutes",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "parent": 1,
+      "name": "Suboptimal Firm Size",
+      "statement": "Many firms operate below the minimum viable size, so support keeps them afloat without making them viable.",
+      "description": "Firm size is a threshold, not a continuum. Below the minimum viable size — the bundle of scale, capability, capital, demand access and coordination at which the firm reproduces itself — marginal support only postpones the choice between growth and consolidation. SME agencies often cannot separate a viability gap from a scale gap, and a portfolio-survival metric rewards keeping sub-scale firms alive instead of facilitating the merger that reaches the threshold.",
+      "goals": [
+        "Diagnose the binding constraint on firm size",
+        "Facilitate consolidation to the minimum viable size",
+        "Condition support on a credible path to the threshold"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Enterprise Development",
+      "targetGroup": "SMEs, Small Firms",
+      "references": [
+        {
+          "label": "An Essay on Firm Minimum Viable Size",
+          "url": "/view.html?p=notes/miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md"
+        },
+        {
+          "label": "Firm Policy",
+          "url": "/view.html?p=notes/social/collective/action/problem/production/firm/firm-policy.md"
+        },
+        {
+          "label": "Firm (minimum efficient scale)",
+          "url": "/view.html?p=notes/technica/business/firm.md"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "parent": 35,
+      "name": "Shortage of Technical Researchers",
+      "statement": "Too few researchers and scientists to staff the technical research system and its institutes.",
+      "description": "The research system depends on a critical mass of researchers; below it, institutes cannot sustain programmes or train successors.",
+      "goals": [
+        "Expand the researcher base",
+        "Staff research institutes"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Researchers, Scientists",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "parent": 35,
+      "name": "Research Career Bottlenecks",
+      "statement": "Postdocs and researchers face few permanent positions — a pyramid structure that pushes talent out.",
+      "description": "A research career with no permanent rung above the postdoc is a threshold failure: the system trains more people than it can retain, and the surplus leaves.",
+      "goals": [
+        "Create viable research careers",
+        "Retain senior researchers"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Researchers, Postdocs",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "parent": 35,
+      "name": "Weak Industry–Academia Research Training",
+      "statement": "Research training is disconnected from industry needs; programmes mix research with routine training.",
+      "description": "Training that is not aligned with industrial research demand produces credentials without absorptive capacity, and institutes that train but do not research.",
+      "goals": [
+        "Align research training with industry",
+        "Separate research from routine training"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Universities, Research Institutes, Industry",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "parent": 35,
+      "name": "Short-Term Research Incentives",
+      "statement": "Funding cycles reward trendy topics over long-horizon work; bold and high-risk research is not rewarded.",
+      "description": "Incentives that reward short cycles and safe topics select against the long-horizon, high-risk work that technical research needs.",
+      "goals": [
+        "Reward long-horizon research",
+        "Protect high-risk work"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Researchers, Funders",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+        },
+        {
+          "label": "Educational Field",
+          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+        },
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
         }
       ]
     }
@@ -1275,8 +1506,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Provides strategic framework for structural change",
-      "conditions": ["Political commitment", "Diagnostic capacity"],
-      "functions": ["Shifting from given growth to value creation"]
+      "conditions": [
+        "Political commitment",
+        "Diagnostic capacity"
+      ],
+      "functions": [
+        "Shifting from given growth to value creation"
+      ]
     },
     {
       "problem": 5,
@@ -1284,8 +1520,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Enables policy learning and adaptation",
-      "conditions": ["Trust between government and private sector"],
-      "functions": ["Formulating concrete policies based on international experience"]
+      "conditions": [
+        "Trust between government and private sector"
+      ],
+      "functions": [
+        "Formulating concrete policies based on international experience"
+      ]
     },
     {
       "problem": 7,
@@ -1293,8 +1533,13 @@
       "role": "secondary",
       "strength": 4,
       "name": "Directs investment toward priority activities",
-      "conditions": ["Effective administration", "Avoidance of rent-seeking"],
-      "functions": ["Attracting investment in targeted industries"]
+      "conditions": [
+        "Effective administration",
+        "Avoidance of rent-seeking"
+      ],
+      "functions": [
+        "Attracting investment in targeted industries"
+      ]
     },
     {
       "problem": 1,
@@ -1302,8 +1547,13 @@
       "role": "primary",
       "strength": 4,
       "name": "Builds firm-level value-creating capability",
-      "conditions": ["Qualified technical staff", "Sustained follow-up"],
-      "functions": ["Helping firms improve processes and products"]
+      "conditions": [
+        "Qualified technical staff",
+        "Sustained follow-up"
+      ],
+      "functions": [
+        "Helping firms improve processes and products"
+      ]
     },
     {
       "problem": 1,
@@ -1311,8 +1561,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Directly improves enterprise productivity",
-      "conditions": ["Hands-on, gemba-oriented training", "Sustained follow-up"],
-      "functions": ["SME upgrading in manufacturing"]
+      "conditions": [
+        "Hands-on, gemba-oriented training",
+        "Sustained follow-up"
+      ],
+      "functions": [
+        "SME upgrading in manufacturing"
+      ]
     },
     {
       "problem": 1,
@@ -1320,8 +1575,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Diagnoses firm-level constraints",
-      "conditions": ["Institutionalized diagnostic system"],
-      "functions": ["Identifying management and technical problems"]
+      "conditions": [
+        "Institutionalized diagnostic system"
+      ],
+      "functions": [
+        "Identifying management and technical problems"
+      ]
     },
     {
       "problem": 3,
@@ -1329,8 +1588,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Builds technical skills",
-      "conditions": ["Industry participation", "Qualified instructors"],
-      "functions": ["Creating a pipeline of engineers and technicians"]
+      "conditions": [
+        "Industry participation",
+        "Qualified instructors"
+      ],
+      "functions": [
+        "Creating a pipeline of engineers and technicians"
+      ]
     },
     {
       "problem": 3,
@@ -1338,8 +1602,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Finances human capital development",
-      "conditions": ["Mandatory employer contributions or budget allocation"],
-      "functions": ["Scaling up training for existing workers"]
+      "conditions": [
+        "Mandatory employer contributions or budget allocation"
+      ],
+      "functions": [
+        "Scaling up training for existing workers"
+      ]
     },
     {
       "problem": 5,
@@ -1347,8 +1615,13 @@
       "role": "primary",
       "strength": 4,
       "name": "Builds policy analysis and adaptation capacity",
-      "conditions": ["Skilled staff", "Access to international experience"],
-      "functions": ["Comparative policy analysis and adaptation"]
+      "conditions": [
+        "Skilled staff",
+        "Access to international experience"
+      ],
+      "functions": [
+        "Comparative policy analysis and adaptation"
+      ]
     },
     {
       "problem": 4,
@@ -1356,8 +1629,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Reduces credit risk for banks",
-      "conditions": ["Credit information system", "Bank participation"],
-      "functions": ["Enabling SMEs without sufficient collateral to obtain loans"]
+      "conditions": [
+        "Credit information system",
+        "Bank participation"
+      ],
+      "functions": [
+        "Enabling SMEs without sufficient collateral to obtain loans"
+      ]
     },
     {
       "problem": 4,
@@ -1365,8 +1643,13 @@
       "role": "secondary",
       "strength": 4,
       "name": "Channels subsidized credit",
-      "conditions": ["Clear targeting criteria", "Monitoring capacity"],
-      "functions": ["Directing credit to priority industries"]
+      "conditions": [
+        "Clear targeting criteria",
+        "Monitoring capacity"
+      ],
+      "functions": [
+        "Directing credit to priority industries"
+      ]
     },
     {
       "problem": 2,
@@ -1374,8 +1657,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Attracts anchor firms to create linkages",
-      "conditions": ["Ability to provide customized infrastructure and incentives"],
-      "functions": ["Building clusters around a large MNC"]
+      "conditions": [
+        "Ability to provide customized infrastructure and incentives"
+      ],
+      "functions": [
+        "Building clusters around a large MNC"
+      ]
     },
     {
       "problem": 2,
@@ -1383,8 +1670,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Upgrades local suppliers for MNC linkage",
-      "conditions": ["MNC commitment", "Supplier absorptive capacity"],
-      "functions": ["Integrating local firms into global value chains"]
+      "conditions": [
+        "MNC commitment",
+        "Supplier absorptive capacity"
+      ],
+      "functions": [
+        "Integrating local firms into global value chains"
+      ]
     },
     {
       "problem": 6,
@@ -1392,8 +1684,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Provides serviced industrial land and facilities",
-      "conditions": ["Effective park management", "Reliable utilities"],
-      "functions": ["Attracting industrial investment"]
+      "conditions": [
+        "Effective park management",
+        "Reliable utilities"
+      ],
+      "functions": [
+        "Attracting industrial investment"
+      ]
     },
     {
       "problem": 6,
@@ -1401,8 +1698,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Provides essential industrial infrastructure",
-      "conditions": ["Public investment capacity"],
-      "functions": ["Reducing production costs and improving reliability"]
+      "conditions": [
+        "Public investment capacity"
+      ],
+      "functions": [
+        "Reducing production costs and improving reliability"
+      ]
     },
     {
       "problem": 7,
@@ -1410,8 +1711,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Diversifies investment toward non-resource activities",
-      "conditions": ["Clear priority sectors"],
-      "functions": ["Using resource revenues to build manufacturing"]
+      "conditions": [
+        "Clear priority sectors"
+      ],
+      "functions": [
+        "Using resource revenues to build manufacturing"
+      ]
     },
     {
       "problem": 7,
@@ -1419,8 +1724,12 @@
       "role": "secondary",
       "strength": 3,
       "name": "Builds non-resource industrial clusters",
-      "conditions": ["Infrastructure and skills"],
-      "functions": ["Promoting new industrial sectors"]
+      "conditions": [
+        "Infrastructure and skills"
+      ],
+      "functions": [
+        "Promoting new industrial sectors"
+      ]
     },
     {
       "problem": 7,
@@ -1428,8 +1737,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Integrates aid into a capability-building strategy",
-      "conditions": ["Country ownership"],
-      "functions": ["Using aid to support industrial policy"]
+      "conditions": [
+        "Country ownership"
+      ],
+      "functions": [
+        "Using aid to support industrial policy"
+      ]
     },
     {
       "problem": 7,
@@ -1437,8 +1750,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Balances big projects with broad industrial support",
-      "conditions": ["Political discipline"],
-      "functions": ["Linking large projects to local suppliers"]
+      "conditions": [
+        "Political discipline"
+      ],
+      "functions": [
+        "Linking large projects to local suppliers"
+      ]
     },
     {
       "problem": 7,
@@ -1446,8 +1763,12 @@
       "role": "secondary",
       "strength": 3,
       "name": "Ensures broad stakeholder input",
-      "conditions": ["Inclusive dialogue"],
-      "functions": ["Avoiding bias toward showcase projects"]
+      "conditions": [
+        "Inclusive dialogue"
+      ],
+      "functions": [
+        "Avoiding bias toward showcase projects"
+      ]
     },
     {
       "problem": 2,
@@ -1455,8 +1776,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Breaks FDI enclave by developing local suppliers",
-      "conditions": ["MNC sourcing policy", "Supplier upgrading"],
-      "functions": ["Increasing local content"]
+      "conditions": [
+        "MNC sourcing policy",
+        "Supplier upgrading"
+      ],
+      "functions": [
+        "Increasing local content"
+      ]
     },
     {
       "problem": 2,
@@ -1464,8 +1790,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Uses anchor firms to catalyze linkages",
-      "conditions": ["Targeted attraction"],
-      "functions": ["Building clusters around MNCs"]
+      "conditions": [
+        "Targeted attraction"
+      ],
+      "functions": [
+        "Building clusters around MNCs"
+      ]
     },
     {
       "problem": 1,
@@ -1473,8 +1803,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Improves SME management and productivity",
-      "conditions": ["Hands-on training", "Management commitment"],
-      "functions": ["SME upgrading"]
+      "conditions": [
+        "Hands-on training",
+        "Management commitment"
+      ],
+      "functions": [
+        "SME upgrading"
+      ]
     },
     {
       "problem": 1,
@@ -1482,8 +1817,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Diagnoses SME weaknesses",
-      "conditions": ["Institutionalized diagnosis"],
-      "functions": ["Tailored SME support"]
+      "conditions": [
+        "Institutionalized diagnosis"
+      ],
+      "functions": [
+        "Tailored SME support"
+      ]
     },
     {
       "problem": 1,
@@ -1491,8 +1830,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Improves quality and reduces defects",
-      "conditions": ["Worker involvement"],
-      "functions": ["Quality upgrading"]
+      "conditions": [
+        "Worker involvement"
+      ],
+      "functions": [
+        "Quality upgrading"
+      ]
     },
     {
       "problem": 1,
@@ -1500,8 +1843,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Engages workers in quality problem-solving",
-      "conditions": ["Training and facilitation"],
-      "functions": ["Continuous quality improvement"]
+      "conditions": [
+        "Training and facilitation"
+      ],
+      "functions": [
+        "Continuous quality improvement"
+      ]
     },
     {
       "problem": 2,
@@ -1509,8 +1856,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Develops supporting industries",
-      "conditions": ["Anchor firm demand", "Supplier capability building"],
-      "functions": ["Local content development"]
+      "conditions": [
+        "Anchor firm demand",
+        "Supplier capability building"
+      ],
+      "functions": [
+        "Local content development"
+      ]
     },
     {
       "problem": 2,
@@ -1518,8 +1870,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Promotes supplier clusters",
-      "conditions": ["Infrastructure and coordination"],
-      "functions": ["Building industrial clusters"]
+      "conditions": [
+        "Infrastructure and coordination"
+      ],
+      "functions": [
+        "Building industrial clusters"
+      ]
     },
     {
       "problem": 1,
@@ -1527,8 +1883,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Builds technology absorption capability",
-      "conditions": ["Technical staff", "Firm commitment"],
-      "functions": ["Adapting imported technology"]
+      "conditions": [
+        "Technical staff",
+        "Firm commitment"
+      ],
+      "functions": [
+        "Adapting imported technology"
+      ]
     },
     {
       "problem": 1,
@@ -1536,8 +1897,13 @@
       "role": "secondary",
       "strength": 4,
       "name": "Facilitates technology transfer",
-      "conditions": ["Partner willingness", "Absorptive capacity"],
-      "functions": ["Learning from foreign firms"]
+      "conditions": [
+        "Partner willingness",
+        "Absorptive capacity"
+      ],
+      "functions": [
+        "Learning from foreign firms"
+      ]
     },
     {
       "problem": 3,
@@ -1545,8 +1911,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Expands engineering and technician training",
-      "conditions": ["Industry-relevant curricula"],
-      "functions": ["Building technical manpower"]
+      "conditions": [
+        "Industry-relevant curricula"
+      ],
+      "functions": [
+        "Building technical manpower"
+      ]
     },
     {
       "problem": 3,
@@ -1554,8 +1924,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Certifies technical skills",
-      "conditions": ["National standards"],
-      "functions": ["Improving labor market signaling"]
+      "conditions": [
+        "National standards"
+      ],
+      "functions": [
+        "Improving labor market signaling"
+      ]
     },
     {
       "problem": 3,
@@ -1563,8 +1937,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Reforms and expands TVET",
-      "conditions": ["Industry participation", "Qualified instructors"],
-      "functions": ["Strengthening vocational education"]
+      "conditions": [
+        "Industry participation",
+        "Qualified instructors"
+      ],
+      "functions": [
+        "Strengthening vocational education"
+      ]
     },
     {
       "problem": 3,
@@ -1572,8 +1951,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Finances TVET and training",
-      "conditions": ["Sustainable funding"],
-      "functions": ["Scaling up training programs"]
+      "conditions": [
+        "Sustainable funding"
+      ],
+      "functions": [
+        "Scaling up training programs"
+      ]
     },
     {
       "problem": 3,
@@ -1581,8 +1964,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Improves management practices",
-      "conditions": ["Qualified consultants"],
-      "functions": ["Management upgrading"]
+      "conditions": [
+        "Qualified consultants"
+      ],
+      "functions": [
+        "Management upgrading"
+      ]
     },
     {
       "problem": 3,
@@ -1590,8 +1977,12 @@
       "role": "secondary",
       "strength": 3,
       "name": "Provides management-related training",
-      "conditions": ["Curriculum relevance"],
-      "functions": ["Developing industrial managers"]
+      "conditions": [
+        "Curriculum relevance"
+      ],
+      "functions": [
+        "Developing industrial managers"
+      ]
     },
     {
       "problem": 3,
@@ -1599,8 +1990,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Aligns skills with industry needs",
-      "conditions": ["Employer participation"],
-      "functions": ["Reducing skill mismatch"]
+      "conditions": [
+        "Employer participation"
+      ],
+      "functions": [
+        "Reducing skill mismatch"
+      ]
     },
     {
       "problem": 3,
@@ -1608,8 +2003,12 @@
       "role": "secondary",
       "strength": 3,
       "name": "Identifies skill needs through dialogue",
-      "conditions": ["Regular meetings"],
-      "functions": ["Labor market information"]
+      "conditions": [
+        "Regular meetings"
+      ],
+      "functions": [
+        "Labor market information"
+      ]
     },
     {
       "problem": 5,
@@ -1617,8 +2016,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Adapts policies to local context",
-      "conditions": ["Local ownership"],
-      "functions": ["Avoiding random policy copying"]
+      "conditions": [
+        "Local ownership"
+      ],
+      "functions": [
+        "Avoiding random policy copying"
+      ]
     },
     {
       "problem": 5,
@@ -1626,8 +2029,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Analyzes and adapts international best practices",
-      "conditions": ["Analytical capacity"],
-      "functions": ["Comparative policy analysis"]
+      "conditions": [
+        "Analytical capacity"
+      ],
+      "functions": [
+        "Comparative policy analysis"
+      ]
     },
     {
       "problem": 5,
@@ -1635,8 +2042,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Coordinates policies across agencies and private sector",
-      "conditions": ["High-level participation"],
-      "functions": ["Policy coherence"]
+      "conditions": [
+        "High-level participation"
+      ],
+      "functions": [
+        "Policy coherence"
+      ]
     },
     {
       "problem": 5,
@@ -1644,8 +2055,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Provides a common policy framework",
-      "conditions": ["Clear priorities"],
-      "functions": ["Aligning agency actions"]
+      "conditions": [
+        "Clear priorities"
+      ],
+      "functions": [
+        "Aligning agency actions"
+      ]
     },
     {
       "problem": 5,
@@ -1653,8 +2068,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Improves policy implementation through learning",
-      "conditions": ["Feedback mechanisms"],
-      "functions": ["Monitoring and adjustment"]
+      "conditions": [
+        "Feedback mechanisms"
+      ],
+      "functions": [
+        "Monitoring and adjustment"
+      ]
     },
     {
       "problem": 5,
@@ -1662,8 +2081,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Streamlines administrative implementation",
-      "conditions": ["Agency co-location"],
-      "functions": ["Investor facilitation"]
+      "conditions": [
+        "Agency co-location"
+      ],
+      "functions": [
+        "Investor facilitation"
+      ]
     },
     {
       "problem": 5,
@@ -1671,8 +2094,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Establishes regular public-private dialogue",
-      "conditions": ["Trust and commitment"],
-      "functions": ["Identifying real constraints"]
+      "conditions": [
+        "Trust and commitment"
+      ],
+      "functions": [
+        "Identifying real constraints"
+      ]
     },
     {
       "problem": 5,
@@ -1680,8 +2107,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Institutionalizes public-private coordination",
-      "conditions": ["Formal mandate"],
-      "functions": ["Joint policy formulation"]
+      "conditions": [
+        "Formal mandate"
+      ],
+      "functions": [
+        "Joint policy formulation"
+      ]
     },
     {
       "problem": 4,
@@ -1689,8 +2120,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Reduces collateral requirements",
-      "conditions": ["Bank participation"],
-      "functions": ["SME lending"]
+      "conditions": [
+        "Bank participation"
+      ],
+      "functions": [
+        "SME lending"
+      ]
     },
     {
       "problem": 4,
@@ -1698,8 +2133,12 @@
       "role": "secondary",
       "strength": 3,
       "name": "Provides equipment without collateral",
-      "conditions": ["Leasing market development"],
-      "functions": ["Equipment investment"]
+      "conditions": [
+        "Leasing market development"
+      ],
+      "functions": [
+        "Equipment investment"
+      ]
     },
     {
       "problem": 4,
@@ -1707,8 +2146,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Improves credit information",
-      "conditions": ["Data sharing", "Privacy rules"],
-      "functions": ["SME credit assessment"]
+      "conditions": [
+        "Data sharing",
+        "Privacy rules"
+      ],
+      "functions": [
+        "SME credit assessment"
+      ]
     },
     {
       "problem": 4,
@@ -1716,8 +2160,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Links credit information to risk sharing",
-      "conditions": ["Integrated systems"],
-      "functions": ["Reducing information asymmetry"]
+      "conditions": [
+        "Integrated systems"
+      ],
+      "functions": [
+        "Reducing information asymmetry"
+      ]
     },
     {
       "problem": 4,
@@ -1725,8 +2173,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Provides long-term industrial finance",
-      "conditions": ["Sound governance"],
-      "functions": ["Capital investment"]
+      "conditions": [
+        "Sound governance"
+      ],
+      "functions": [
+        "Capital investment"
+      ]
     },
     {
       "problem": 4,
@@ -1734,8 +2186,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Channels long-term funds through banks",
-      "conditions": ["Bank capacity"],
-      "functions": ["Priority sector lending"]
+      "conditions": [
+        "Bank capacity"
+      ],
+      "functions": [
+        "Priority sector lending"
+      ]
     },
     {
       "problem": 4,
@@ -1743,8 +2199,12 @@
       "role": "primary",
       "strength": 4,
       "name": "Expands SME credit",
-      "conditions": ["Targeting criteria"],
-      "functions": ["SME finance"]
+      "conditions": [
+        "Targeting criteria"
+      ],
+      "functions": [
+        "SME finance"
+      ]
     },
     {
       "problem": 4,
@@ -1752,8 +2212,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Reduces SME lending risk",
-      "conditions": ["Guarantee fund sustainability"],
-      "functions": ["SME access to credit"]
+      "conditions": [
+        "Guarantee fund sustainability"
+      ],
+      "functions": [
+        "SME access to credit"
+      ]
     },
     {
       "problem": 2,
@@ -1761,8 +2225,13 @@
       "role": "primary",
       "strength": 5,
       "name": "Upgrades local suppliers to MNC standards",
-      "conditions": ["MNC demand", "Technical assistance"],
-      "functions": ["Local sourcing"]
+      "conditions": [
+        "MNC demand",
+        "Technical assistance"
+      ],
+      "functions": [
+        "Local sourcing"
+      ]
     },
     {
       "problem": 2,
@@ -1770,8 +2239,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Matches local suppliers with buyers",
-      "conditions": ["Accurate supplier data"],
-      "functions": ["Supplier identification"]
+      "conditions": [
+        "Accurate supplier data"
+      ],
+      "functions": [
+        "Supplier identification"
+      ]
     },
     {
       "problem": 2,
@@ -1779,8 +2252,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Creates systematic linkage programs",
-      "conditions": ["Program management"],
-      "functions": ["FDI-local linkage"]
+      "conditions": [
+        "Program management"
+      ],
+      "functions": [
+        "FDI-local linkage"
+      ]
     },
     {
       "problem": 2,
@@ -1788,8 +2265,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Uses anchor firms to anchor linkage programs",
-      "conditions": ["Anchor firm cooperation"],
-      "functions": ["Cluster development"]
+      "conditions": [
+        "Anchor firm cooperation"
+      ],
+      "functions": [
+        "Cluster development"
+      ]
     },
     {
       "problem": 2,
@@ -1797,8 +2278,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Raises local absorptive capacity",
-      "conditions": ["Local partner capability"],
-      "functions": ["Learning from FDI"]
+      "conditions": [
+        "Local partner capability"
+      ],
+      "functions": [
+        "Learning from FDI"
+      ]
     },
     {
       "problem": 2,
@@ -1806,8 +2291,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Builds skills for absorption",
-      "conditions": ["Industry-relevant training"],
-      "functions": ["Workforce upgrading"]
+      "conditions": [
+        "Industry-relevant training"
+      ],
+      "functions": [
+        "Workforce upgrading"
+      ]
     },
     {
       "problem": 6,
@@ -1815,8 +2304,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Provides reliable power",
-      "conditions": ["Investment in generation and grid"],
-      "functions": ["Industrial production"]
+      "conditions": [
+        "Investment in generation and grid"
+      ],
+      "functions": [
+        "Industrial production"
+      ]
     },
     {
       "problem": 6,
@@ -1824,8 +2317,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Reduces logistics costs",
-      "conditions": ["Port and road efficiency"],
-      "functions": ["Export competitiveness"]
+      "conditions": [
+        "Port and road efficiency"
+      ],
+      "functions": [
+        "Export competitiveness"
+      ]
     },
     {
       "problem": 6,
@@ -1833,8 +2330,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Develops quality industrial parks",
-      "conditions": ["Infrastructure and management"],
-      "functions": ["Industrial clustering"]
+      "conditions": [
+        "Infrastructure and management"
+      ],
+      "functions": [
+        "Industrial clustering"
+      ]
     },
     {
       "problem": 6,
@@ -1842,8 +2343,12 @@
       "role": "secondary",
       "strength": 4,
       "name": "Provides one-stop services in parks",
-      "conditions": ["Agency coordination"],
-      "functions": ["Investor facilitation"]
+      "conditions": [
+        "Agency coordination"
+      ],
+      "functions": [
+        "Investor facilitation"
+      ]
     },
     {
       "problem": 6,
@@ -1851,8 +2356,12 @@
       "role": "primary",
       "strength": 5,
       "name": "Reduces administrative burden",
-      "conditions": ["Process simplification"],
-      "functions": ["Investment approval"]
+      "conditions": [
+        "Process simplification"
+      ],
+      "functions": [
+        "Investment approval"
+      ]
     },
     {
       "problem": 6,
@@ -1860,8 +2369,174 @@
       "role": "primary",
       "strength": 4,
       "name": "Reforms business laws and regulations",
-      "conditions": ["Legal capacity"],
-      "functions": ["Improving business environment"]
+      "conditions": [
+        "Legal capacity"
+      ],
+      "functions": [
+        "Improving business environment"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 9,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances research training and technology-transfer skills",
+      "conditions": [
+        "Training institutions",
+        "Industry demand for researchers"
+      ],
+      "functions": [
+        "Fund research training",
+        "Fund technology transfer"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 28,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Links researchers to industry and carries research into production",
+      "conditions": [
+        "University–industry agreements"
+      ],
+      "functions": [
+        "Industry–academia projects",
+        "Research translation"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 7,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Builds the technician base research teams depend on",
+      "conditions": [
+        "TVET capacity"
+      ],
+      "functions": [
+        "Technical skills"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 24,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Certifies research and technical skills",
+      "conditions": [
+        "Certification bodies"
+      ],
+      "functions": [
+        "Skill standards"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 13,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Learns from research systems elsewhere",
+      "conditions": [
+        "Policy learning capacity"
+      ],
+      "functions": [
+        "Comparative research policy"
+      ]
+    },
+    {
+      "problem": 35,
+      "instrument": 20,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Sets research human-capital targets",
+      "conditions": [
+        "Political commitment"
+      ],
+      "functions": [
+        "Research targets"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 2,
+      "role": "primary",
+      "strength": 5,
+      "name": "Diagnoses the gap between firm capability and the minimum viable size",
+      "conditions": [
+        "Consultant capacity",
+        "Access to firm and market data"
+      ],
+      "functions": [
+        "Separate viability, scale, capability and coordination gaps",
+        "Assess the binding constraint"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 18,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Aggregates demand and shared services to reach a virtual minimum viable size",
+      "conditions": [
+        "Firms willing to share services"
+      ],
+      "functions": [
+        "Shared processing, certification and logistics",
+        "Aggregated public procurement"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 11,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Upgrades suppliers toward viable scale and capability",
+      "conditions": [
+        "Anchor firm demand"
+      ],
+      "functions": [
+        "Supplier upgrading"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 25,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Finances consolidation or scale-up to the threshold",
+      "conditions": [
+        "Viable consolidation plan"
+      ],
+      "functions": [
+        "Long-term finance"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 29,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Opens the demand access that makes the threshold reachable",
+      "conditions": [
+        "Standards compliance"
+      ],
+      "functions": [
+        "Export channels"
+      ]
+    },
+    {
+      "problem": 36,
+      "instrument": 20,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Sets the minimum viable size as an explicit policy target",
+      "conditions": [
+        "Diagnostic capacity"
+      ],
+      "functions": [
+        "MVS target"
+      ]
     }
   ]
 }
