@@ -431,6 +431,18 @@
    "to": "social/dynamic/behavior/",
    "label": "Behavior",
    "kind": "related"
+  },
+  {
+   "from": "social/koinomia/action/",
+   "to": "social/dynamic/action/organization/",
+   "label": "Action Organization",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/action/organization/",
+   "to": "social/koinomia/action/",
+   "label": "Action",
+   "kind": "related"
   }
  ]
 }

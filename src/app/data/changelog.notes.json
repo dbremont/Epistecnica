@@ -85342,6 +85342,11 @@
     "summary": "Retarget the Domain structure link to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the action-organization directory link to the Structure list."
    }
   ]
  },
