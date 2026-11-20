@@ -89006,7 +89006,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the atlas links at the social representation shelf."
+    "summary": "Point the atlas links at the social representation shelf.",
+    "commit": "adac63bb465a01dca391f27e056abcd536e6ec8d",
+    "before": "21d5845f7d449991742ba66dc7e73a0ff55bba86"
    }
   ]
  },
@@ -93183,7 +93185,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the atlas links at the social representation shelf."
+    "summary": "Point the atlas links at the social representation shelf.",
+    "commit": "adac63bb465a01dca391f27e056abcd536e6ec8d",
+    "before": "21d5845f7d449991742ba66dc7e73a0ff55bba86"
    }
   ]
  },
