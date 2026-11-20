@@ -62,7 +62,7 @@ button:focus-visible{outline:2px solid var(--accent-gold);outline-offset:2px}
 .td{margin-left:auto;font-family:var(--font-mono);font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
 
 /* ---------- viewbar ---------- */
-.viewbar{display:flex;align-items:center;gap:24px;padding:8px 36px;border-bottom:1px solid var(--border-subtle);min-height:46px;flex-shrink:0;background:var(--nav-bg)}
+.viewbar{display:flex;align-items:center;gap:24px;width:100%;max-width:1280px;margin:0 auto;padding:8px 2rem;border-bottom:1px solid var(--border-subtle);min-height:46px;flex-shrink:0;background:var(--nav-bg)}
 #viewDesc{font-style:italic;font-size:13px;color:var(--text-secondary)}
 #viewControls{margin-left:auto;display:flex;gap:8px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 .tbtn{font-family:var(--font-mono);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;padding:5px 12px;border:1px solid var(--text-primary);background:transparent;cursor:pointer;transition:background .15s,color .15s}
@@ -74,7 +74,7 @@ button:focus-visible{outline:2px solid var(--accent-gold);outline-offset:2px}
 .csep{color:var(--border-strong)}
 
 /* ---------- main ---------- */
-main{flex:1;display:flex;min-height:0}
+main{flex:1;display:flex;min-height:0;width:100%;max-width:1280px;margin:0 auto;padding:0 2rem}
 #stage{flex:1;position:relative;overflow:hidden;background-image:radial-gradient(var(--border-strong) 1px,transparent 1.1px);background-size:24px 24px}
 #stage.view-tree{overflow:auto}
 #stage svg{display:block}

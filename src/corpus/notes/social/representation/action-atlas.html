@@ -104,7 +104,7 @@
             html { scroll-behavior: auto; }
             body { transition: none; }
         }
-        .layout { position: relative; z-index: 1; flex: 1; min-height: 0; display: flex; flex-direction: column; width: 100%; max-width: 1560px; margin: 0 auto; padding: 0 2rem 1.5rem; }
+        .layout { position: relative; z-index: 1; flex: 1; min-height: 0; display: flex; flex-direction: column; width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 2rem 1.5rem; }
         .header-cols { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0,1fr) 19rem; gap: 2rem; align-items: start; }
         .header-lead { min-width: 0; }
         .header-quote { margin: 0; font-family: var(--font-display); font-style: italic; font-size: 1.05rem; line-height: 1.5; color: var(--text-secondary); }
@@ -244,7 +244,6 @@
         </div>
     </div>
 </nav>
-<div class="layout">
 <div class="masthead">
 <nav class="crumbs" aria-label="Breadcrumbs">
         <a href="/explorer.html">corpus</a><span class="sep">/</span>
@@ -256,6 +255,8 @@
 <h1 class="note-title">Atlas of State Action<em>.</em></h1>
 <p class="subtitle">A map of how the state connects <strong>problems</strong> to <strong>goals</strong> and <strong>instruments</strong> for shaping social and economic conditions.</p>
 </div>
+<div class="layout">
+
 <div class="toolbar">
         <input id="search" type="search" placeholder="Search problems, instruments, or keywords…" autocomplete="off">
 </div>

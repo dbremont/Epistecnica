@@ -39,7 +39,7 @@ a{color:inherit;text-decoration:none}
 button{font:inherit;color:inherit}
 button:focus-visible,a:focus-visible,select:focus-visible{outline:2px solid var(--accent-cyan);outline-offset:2px}
 :root{--shell-max:1280px;--shell-pad:2rem}
-.nav-inner,.masthead,.wrap,.tfr-foot{width:100%;max-width:var(--shell-max);margin-left:auto;margin-right:auto;padding-left:var(--shell-pad);padding-right:var(--shell-pad)}
+.nav-inner,.masthead,.wrap{width:100%;max-width:var(--shell-max);margin-left:auto;margin-right:auto;padding-left:var(--shell-pad);padding-right:var(--shell-pad)}
 main.wrap{width:100%}
 .wrap{max-width:1280px;margin:0 auto;padding:1.6rem 2rem 3rem}
 .lib-tabs{display:flex;gap:.5rem;margin-bottom:1rem}
@@ -146,12 +146,7 @@ html[data-theme="light"] .dim-table tbody tr:nth-child(even){background:rgba(20,
 .dim-table td.val .chip{margin:.05rem .15rem .05rem 0}
 .empty-state{border:1px dashed var(--border-medium);border-radius:var(--radius-md);padding:2.2rem 1rem;text-align:center;color:var(--text-muted);font-size:.82rem}
 .empty-state b{display:block;font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);font-weight:400;margin-bottom:.3rem}
-.tfr-foot{max-width:1280px;margin:0 auto;width:100%;padding:1rem 2rem;border-top:1px solid var(--border-subtle);display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
-.tfr-foot nav{display:flex;align-items:center;gap:.55rem}
-.tfr-foot a{color:var(--text-secondary)}
-.tfr-foot a:hover{color:var(--accent-cyan)}
-.tfr-foot .sep{opacity:.45}
-@media(max-width:900px){.compare-layout{grid-template-columns:1fr}.compare-rail{position:static;max-height:none}.pick-list{max-height:220px}.tfr-foot{padding-left:1.2rem;padding-right:1.2rem}}
+@media(max-width:900px){.compare-layout{grid-template-columns:1fr}.compare-rail{position:static;max-height:none}.pick-list{max-height:220px}}
 .drawer-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);opacity:0;pointer-events:none;transition:opacity .2s ease;z-index:55}
 .drawer-backdrop.open{opacity:1;pointer-events:auto}
 .drawer{position:fixed;top:0;right:0;height:100vh;width:min(420px,100vw);background:var(--bg-surface);border-left:1px solid var(--border-strong);transform:translateX(100%);transition:transform .24s ease;z-index:60;padding:1.2rem 1.3rem;overflow:auto;display:flex;flex-direction:column;gap:.7rem}
