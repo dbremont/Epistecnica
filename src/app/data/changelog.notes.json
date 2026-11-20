@@ -83460,7 +83460,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Computation Policy domain: connectivity, compute, data, digital public infrastructure and cybersecurity."
+    "summary": "Add the Computation Policy domain: connectivity, compute, data, digital public infrastructure and cybersecurity.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92"
    }
   ]
  },
@@ -83494,7 +83495,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the labor, market, legal and computation domains to the policy-domain list."
+    "summary": "Add the labor, market, legal and computation domains to the policy-domain list.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92",
+    "before": "a4c062098b8a64f823f33705c3e7a83970e5057e"
    }
   ]
  },
@@ -83985,7 +83988,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Labor Market policy domain: employment, wages, informality, skills and industrial relations."
+    "summary": "Add the Labor Market policy domain: employment, wages, informality, skills and industrial relations.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92"
    }
   ]
  },
@@ -83995,7 +83999,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Legal System domain: property, contract, insolvency and adjudication as growth inputs."
+    "summary": "Add the Legal System domain: property, contract, insolvency and adjudication as growth inputs.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92"
    }
   ]
  },
@@ -84005,7 +84010,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Market Policy domain: competition, consumer protection, market design and access regulation."
+    "summary": "Add the Market Policy domain: competition, consumer protection, market design and access regulation.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92"
    }
   ]
  },
