@@ -28,7 +28,16 @@ tags: [note, social, unfinished]
 
 ## Individual Behavior
 
-> ...
+> In cognitive science, **behavior** refers to the observable actions, reactions, or responses of an individual, influenced by internal mental processes, environmental stimuli, and external factors. It is both an output of those processes and the data from which they are inferred.
+
+Key questions:
+
+- What does the term *behavior* denote?
+- How can an agent's behavior be influenced, and what are the limits of that influence?
+
+## Dynamics
+
+> How does behavior change, and why?
 
 ## Norms & Practices
 
@@ -48,4 +57,8 @@ tags: [note, social, unfinished]
 
 ## References
 
+- [Behavior](https://en.wikipedia.org/wiki/Behavior)
+- Watson, J. B. *Behaviorism: The Modern Note in Psychology*.
+- Turkheimer, E. (2000). Three laws of behavioral genetics and what they mean. *Current Directions in Psychological Science*, 9(5), 160–164.
+- Precis of *The Modularity of Mind*. (1985). *Behavioral and Brain Sciences*, 8(1), 1–42.
 - [Behavioral](https://www.notion.so/Behavioral-1dac0f5171ec800197dee6d94e7a88a1?pvs=4)

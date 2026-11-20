@@ -1,5 +1,5 @@
 ---
-tags: [note, human, behavior, unfinished]
+tags: [note, social, behavior, human, unfinished]
 ---
 
 # Herding Behavior

@@ -210,7 +210,7 @@ readable as epistemic — models and warrants about it under the epistemicarum g
 
 ## Conceptual Model
 
-[Conceptual Model: Behavioral](data/nature/human/human/behavioral/conceptual-model-behavioral.csv)
+[Conceptual Model: Behavioral](/corpus/notes/social/dynamic/behavior/conceptual-model-behavioral.csv)
 
 ## References
 

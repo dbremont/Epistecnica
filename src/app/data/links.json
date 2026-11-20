@@ -407,6 +407,18 @@
    "to": "social/koinomia/action/problem/urbanism/",
    "label": "Urbanismo (policy)",
    "kind": "related"
+  },
+  {
+   "from": "nature/life/organism/human/",
+   "to": "social/dynamic/behavior/",
+   "label": "Behavior",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/behavior/",
+   "to": "nature/life/organism/human/",
+   "label": "Human",
+   "kind": "related"
   }
  ]
 }

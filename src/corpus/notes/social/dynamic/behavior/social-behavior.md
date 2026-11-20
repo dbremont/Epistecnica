@@ -119,7 +119,7 @@ Behavior is a series of events and transformations over time ([Behavior](/view.h
 - [Actor](/view.html?p=notes/social/actor/actor.md) and [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) — who behaves.
 - [Norm](/view.html?p=notes/social/normative/norm.md) — the rule that social behavior follows, contests and reproduces.
 - [Facet](/view.html?p=notes/social/meta/facet.md) — the causal mechanism the behavior is read through.
-- The natural counter-reading, where behavior is the individual's observable response: [Behavior](/view.html?p=notes/nature/life/organism/human/behavioral/conceptual-model-behavioral/behavior.md), [Herding Behavior](/view.html?p=notes/nature/life/organism/human/behavioral/conceptual-model-behavioral/herding-behavior.md), [Social Behavioral Pathology](/view.html?p=notes/nature/life/organism/human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md).
+- The natural counter-reading, where behavior is the individual's observable response: [Behavior](/view.html?p=notes/social/dynamic/behavior/behavior.md), [Herding Behavior](/view.html?p=notes/social/dynamic/behavior/herding-behavior.md), [Social Behavioral Pathology](/view.html?p=notes/social/dynamic/behavior/social-behavioral-pathology.md).
 
 ## References
 

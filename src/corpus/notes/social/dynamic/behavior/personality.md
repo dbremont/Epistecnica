@@ -1,5 +1,5 @@
 ---
-tags: [note, human, behavior]
+tags: [note, social, behavior, human]
 ---
 
 # Personality

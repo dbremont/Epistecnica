@@ -46484,187 +46484,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/behavioral.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral.csv",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral.csv: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/behavior.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
    },
    {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/behavior.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/biobehavior.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/biobehavior.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/decision-maker.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/decision-maker.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/herding-behavior.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/herding-behavior.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive-structure.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive-structure.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/mental-health.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/mental-health.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/personal-behavioral-pathology.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/personal-behavioral-pathology.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/personality.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/personality.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   }
-  ]
- },
- {
-  "file_path": "nature/life/organism/human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Move from the retired human section into nature/human/.",
-    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the conceptual-model link at the social behavior shelf CSV."
    }
   ]
  },
@@ -77338,6 +77162,220 @@
   ]
  },
  {
+  "file_path": "social/dynamic/behavior/behavior.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/behavior.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Merge the behavioral conceptual-model note into the shelf master: cognitive-science definition, key questions, dynamics and references."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/biobehavior.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/biobehavior.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/conceptual-model-behavioral.csv",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral.csv: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/decision-maker.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/decision-maker.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/herding-behavior.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/herding-behavior.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/incentive-structure.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive-structure.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/incentive.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/incentive.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/mental-health.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/mental-health.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/personal-behavioral-pathology.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/personal-behavioral-pathology.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/personality.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/personality.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/behavior/social-behavior.md",
   "logs": [
    {
@@ -77346,6 +77384,33 @@
     "summary": "Fill the Social Behavior note: forms, explanatory traditions, historical and empirical literature, and the corpus links.",
     "commit": "01d1f888328cb7bfdbe548bb8f1ca6d33120fc95",
     "before": "314e2b9f48d2d8dbc54a0ae8050166c15ee351b7"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the behavioral model links to the flat behavior shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/behavior/social-behavioral-pathology.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Move from the retired human section into nature/human/.",
+    "commit": "fab0498c05ed48d8060d683139f4fb4f5c724054"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral/conceptual-model-behavioral/social-behavioral-pathology.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
    }
   ]
  },

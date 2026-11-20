@@ -146,6 +146,9 @@ URBANISM_MOVED = {
     "urban-mobility.md",
     "waste-management-valorisation.md",
 }
+BEHAVIOR_MODEL_OLD = "/corpus/notes/nature/life/organism/human/behavioral/conceptual-model-behavioral"
+BEHAVIOR_MODEL_DIR = "/corpus/notes/nature/life/organism/human/behavioral/"
+BEHAVIOR_SOCIAL = "/corpus/notes/social/dynamic/behavior/"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -449,6 +452,15 @@ class HubHandler(SimpleHTTPRequestHandler):
             if rest in URBANISM_MOVED:
                 self._redirect(URBANISM_TECH + rest)
                 return True
+
+        if path == BEHAVIOR_MODEL_DIR + "conceptual-model-behavioral.csv":
+            self._redirect(BEHAVIOR_SOCIAL + "conceptual-model-behavioral.csv")
+            return True
+
+        if path.startswith(BEHAVIOR_MODEL_OLD + "/"):
+            rest = path[len(BEHAVIOR_MODEL_OLD) + 1:]
+            self._redirect(BEHAVIOR_SOCIAL + rest)
+            return True
 
         for prefix in (KOINOMIA_DOMAIN_OLD, KOINOMIA_DOMAIN_PREV):
             if path == prefix or path.startswith(prefix + "/"):

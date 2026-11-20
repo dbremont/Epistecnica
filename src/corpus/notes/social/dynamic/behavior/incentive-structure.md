@@ -1,5 +1,5 @@
 ---
-tags: [note, human, behavior]
+tags: [note, social, behavior, human]
 ---
 
 # Incentive Structure
@@ -64,7 +64,7 @@ This means examining:
 - [Human](/view.html?p=notes/nature/life/organism/human/human.md)
 - [Cognitive](/view.html?p=notes/nature/life/organism/human/cognitive.md)
 - [Behavioral](/view.html?p=notes/nature/life/organism/human/behavioral.md)
-- [Behavior](/view.html?p=notes/nature/life/organism/human/behavioral/conceptual-model-behavioral/behavior.md)
+- [Behavior](/view.html?p=notes/social/dynamic/behavior/behavior.md)
 - https://en.wikipedia.org/wiki/Incentive_system
 
 ## Provenance
