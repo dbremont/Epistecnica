@@ -47,6 +47,7 @@ tags: [note, social]
 | **Belgian Federal Tax Authority (FPS Finances)** | 2001 | — | General Administrator Kristian Vanderwaeren | FPS Finance | VAT, income tax, anti-fraud |
 | **Statistics Belgium (Statbel)** | 1830 | — | General Director Bart Meganck | FPS Economy | National accounts, census, SDGs |
 | **Belgian Foreign Trade Agency (BFTA)** | 2002 | — | CEO Peter Moors | FPS Foreign Affairs + FPS Economy | Export promotion, trade missions, FDI attraction |
+| **Federal Holding and Investment Company (SFPIM)** | 2006 | — | — | Federal Government (FPS Finance) | Federal shareholdings, direct investment, anchoring strategic assets |
 
 **Guiding Questions:**  
 - High centralization at federal level for finance, monetary policy, and trade; regions handle employment, R&D, energy.  
@@ -237,6 +238,7 @@ Belgium’s industrial take-off rested on three mutually reinforcing layers:
 - European Commission. (2023). *Country Report Belgium 2023*.  
 - Science Policy Office (BELSPO). (2024). *Belgian Research Overview*.
 - [Société Générale de Belgique](https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale_de_Belgique)
+- [Federal Holding and Investment Company (SFPIM)](https://sfpim.be/en/)
 - https://www.arct.cam.ac.uk/system/files/documents/vol-1-379-392-bertels.pdf
 - Documents That Plasm - Bekguyn Techno Productive Imagination: 
   - Enquête sur l'industrie linière, Volumen1 / https://books.google.com.do/books?id=PVHZhCBuE8QC&pg=PP7#v=onepage&q&f=false

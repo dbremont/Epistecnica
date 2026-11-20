@@ -71416,6 +71416,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the State Holding and Investment Company kind to the Finance Actor decomposition."
    }
   ]
  },
@@ -85511,6 +85516,16 @@
   ]
  },
  {
+  "file_path": "social/koinomia/actor/instance/finance/federal-holding-and-investment-company.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add SFPIM, the Belgian federal holding and direct capital allocator."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/actor/instance/finance/federal-home-loan-mortgage-corporation.md",
   "logs": [
    {
@@ -87873,6 +87888,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add SFPIM to the economic statecraft institutions and the references."
    }
   ]
  },

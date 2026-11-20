@@ -37,6 +37,7 @@ Because the finance family mixes public and private bodies, its instances are sp
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Development Bank | Public or multilateral body financing development and structural investment. |
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Export–Import Bank | Body financing and insuring cross-border trade and investment. |
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Sovereign Wealth Fund | State-owned fund investing national reserves and resource revenue. |
+| Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` State Holding and Investment Company | State-owned holding that manages public shareholdings and invests directly in strategic companies. |
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Pension Fund | Fund pooling and investing retirement contributions. |
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Mortgage Agency | Body funding and guaranteeing housing finance. |
 | Collective / Organization `(→ Part)` Finance Actor `(→ Kind)` Exchange | Regulated venue listing, matching, and clearing securities and derivatives. |
