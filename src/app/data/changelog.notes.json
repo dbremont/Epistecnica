@@ -77414,7 +77414,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the training-program instance link to the informe shelf."
+    "summary": "Retarget the training-program instance link to the informe shelf.",
+    "commit": "a2fa2fcf8ca0bfc071413216fd30c42e28fd2ffd",
+    "before": "de43b64db69e8b2f760dab3109b377eee2d52edf"
    }
   ]
  },
@@ -82515,7 +82517,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the informe shelf: it is a program instance (a case), not an action-organization type."
+    "summary": "Move to the informe shelf: it is a program instance (a case), not an action-organization type.",
+    "commit": "a2fa2fcf8ca0bfc071413216fd30c42e28fd2ffd"
    }
   ]
  },
