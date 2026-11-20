@@ -71012,7 +71012,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Region links to the koinomia shelf."
+    "summary": "Retarget the Region links to the koinomia shelf.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
    }
   ]
  },
@@ -71407,7 +71409,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from social/unit.md to actor/ and name the file for the Interaction Unit element."
+    "summary": "Move from social/unit.md to actor/ and name the file for the Interaction Unit element.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
@@ -76640,7 +76643,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from social/capital.md to coordinator/capital-labor/ in the social shelf cleanup."
+    "summary": "Move from social/capital.md to coordinator/capital-labor/ in the social shelf cleanup.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
@@ -76657,7 +76661,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from social/labor.md to coordinator/capital-labor/ in the social shelf cleanup."
+    "summary": "Move from social/labor.md to coordinator/capital-labor/ in the social shelf cleanup.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
@@ -88984,7 +88989,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the World link after world.md moved to the koinomia shelf root."
+    "summary": "Retarget the World link after world.md moved to the koinomia shelf root.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
    }
   ]
  },
@@ -89485,7 +89492,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move from social/koinomia/polity/ to the koinomia shelf root."
+    "summary": "Move from social/koinomia/polity/ to the koinomia shelf root.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
@@ -89501,7 +89509,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add World and Region to the shelf index; record the open conceptual framing questions."
+    "summary": "Add World and Region to the shelf index; record the open conceptual framing questions.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
    }
   ]
  },
@@ -89676,7 +89686,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Remove the Region row; Region now lives at the koinomia shelf root."
+    "summary": "Remove the Region row; Region now lives at the koinomia shelf root.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
    }
   ]
  },
@@ -89745,7 +89757,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move from social/region.md into the koinomia shelf; Region is the spatial delimitation concept of the public order."
+    "summary": "Move from social/region.md into the koinomia shelf; Region is the spatial delimitation concept of the public order.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
@@ -89800,7 +89813,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from social/industry.md to noetic/, the shelf for classificatory instruments."
+    "summary": "Move from social/industry.md to noetic/, the shelf for classificatory instruments.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },
