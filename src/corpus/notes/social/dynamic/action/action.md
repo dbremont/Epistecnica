@@ -24,7 +24,7 @@ tags: [note, social]
 | **Solitary Social Action**   | Actions performed by a single agent that have social significance or intended social effects, even without immediate interaction. |
 | **Mediated Action**          | Actions performed through artifacts, technology, or institutions that affect other agents indirectly.                             |
 | **Institutionalized Action** | Actions shaped, constrained, or standardized by social norms, rules, or organizational structures.                                |
-| **[Collective Action](/view.html?p=notes/social/dynamic/action/collective-action.md)** | Coordinated actions by multiple agents toward a shared goal or common interest.                                         |
+| **[Collective Action](/view.html?p=notes/social/collective/action/readme.md)** | Coordinated actions by multiple agents toward a shared goal or common interest.                                         |
 
 ## References
 

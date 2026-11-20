@@ -82100,6 +82100,22 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Research Activity links to the research folder after research.md was removed."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the collective-action note: the coordinated action kind, its decomposition into kinds, participants and coordination arrangements, and its link to the Collective Action Problem.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "merge",
+    "summary": "Merge the Collective Action note into the action shelf master and retitle the master Collective Action."
    }
   ]
  },
@@ -87406,6 +87422,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action link to the merged action shelf master."
    }
   ]
  },
@@ -91592,6 +91613,11 @@
     "kind": "refactor",
     "summary": "Move with the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action link to the merged action shelf master."
    }
   ]
  },
@@ -92064,22 +92090,11 @@
     "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
     "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
     "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
-   }
-  ]
- },
- {
-  "file_path": "social/dynamic/action/collective-action.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Research Activity links to the research folder after research.md was removed."
    },
    {
-    "date": "2026-11-19",
-    "kind": "feat",
-    "summary": "Add the collective-action note: the coordinated action kind, its decomposition into kinds, participants and coordination arrangements, and its link to the Collective Action Problem.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action link to the merged action shelf master."
    }
   ]
  },
@@ -92504,6 +92519,11 @@
     "summary": "Retarget the scholarly-journal links and prose to the Publishing shelf.",
     "commit": "0712703c95ddb6d74be90bfbb94d06b7826c5f96",
     "before": "bcccf250e71950cad5dadd1f6c331b8ea3bcd1fa"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action link to the merged action shelf master."
    }
   ]
  },
