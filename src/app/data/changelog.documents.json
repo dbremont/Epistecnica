@@ -37029,7 +37029,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the civil-service link to the governance shelf."
+    "summary": "Retarget the civil-service link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },

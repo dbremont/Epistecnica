@@ -73871,7 +73871,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the administration link to the governance shelf."
+    "summary": "Retarget the administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -76379,7 +76381,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the government-wide administration link to the governance shelf."
+    "summary": "Retarget the government-wide administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -82404,7 +82408,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Merged into governance/readme.md: the administration studies become the governance shelf master."
+    "summary": "Merged into governance/readme.md: the administration studies become the governance shelf master.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -82465,7 +82471,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Replace the administration section with a pointer to the governance shelf."
+    "summary": "Replace the administration section with a pointer to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -85810,7 +85818,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the administration link to the governance shelf."
+    "summary": "Retarget the administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -88516,7 +88526,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the civil-service link to the governance shelf."
+    "summary": "Retarget the civil-service link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -88563,7 +88575,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the administration link to the governance shelf."
+    "summary": "Retarget the administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -88632,7 +88646,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the administration, civil-service and government-wide administration links to the governance shelf."
+    "summary": "Retarget the administration, civil-service and government-wide administration links to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
@@ -88706,7 +88722,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the governance shelf: the machinery is not an actor type."
+    "summary": "Move to the governance shelf: the machinery is not an actor type.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -88741,7 +88758,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the governance shelf: the machinery is not an actor type."
+    "summary": "Move to the governance shelf: the machinery is not an actor type.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -88763,7 +88781,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the governance shelf: the machinery is not an actor type."
+    "summary": "Move to the governance shelf: the machinery is not an actor type.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -88805,7 +88824,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the governance shelf: the machinery is not an actor type."
+    "summary": "Move to the governance shelf: the machinery is not an actor type.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -88827,7 +88847,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the governance shelf: the machinery is not an actor type."
+    "summary": "Move to the governance shelf: the machinery is not an actor type.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -88837,7 +88858,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Governance shelf master: administration, civil service, government-wide administration, the historical regimes, the study method and the country pipeline."
+    "summary": "Add the Governance shelf master: administration, civil service, government-wide administration, the historical regimes, the study method and the country pipeline.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88"
    }
   ]
  },
@@ -90743,7 +90765,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the government-wide administration link to the governance shelf."
+    "summary": "Retarget the government-wide administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
    }
   ]
  },
