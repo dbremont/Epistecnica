@@ -141,7 +141,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 
 ### Where do the municipal body, its staff, and its administration decompose?
 
-> The wielding body decomposes as a [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](/view.html?p=notes/social/koinomia/actor/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
+> The wielding body decomposes as a [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the `Municipal Organization` kind. The administrative architecture through which it operates decomposes as [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md). Municipal staff are the administered workforce, not the government; decompose the office where the mandate lives and the person where the capability lives.
 
 ### Where do inter-municipal arrangements decompose?
 
@@ -156,7 +156,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 ## References
 
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md) (parent kind; Local Government is its sub-type)
-- [Public Administration](/view.html?p=notes/social/koinomia/actor/administration.md)
+- [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the wielding body; carries the Municipal Organization kind)
 - [Mancomunidad](/view.html?p=notes/social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
 - [Collective](/view.html?p=notes/social/actor/collective/collective.md)

@@ -1,33 +1,31 @@
 ---
-tags: [note, social]
+tags: [note, social, governance, administration, catalog]
 ---
 
-# Informe
+# Governance
 
-> Studies of concrete government-wide administration systems: polity-by-polity,
-> period-by-period characterizations of how each system coordinates its agencies.
-> The element notes carry the kinds; the studies below carry the instances. Each
-> study locates its system with the reference frames of the
-> [characterization atlas](/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration.html): pick the applicable frames,
-> assign one value per axis, read the resulting configuration.
+> The machinery through which a polity administers itself: the administrative collective, the civil service that staffs it, the government-wide layer that coordinates its agencies, and the historical regimes through which offices were recruited and careers ordered.
+
+Governance is not an actor and not an actor type: it is the administrative machinery that the actors of the state work through. The organizations that wield delegated authority — governments, ministries, agencies, public bodies — stay on the public-organization shelf; what is collected here is the machinery that runs across them.
+
+## Elements
+
+- [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md) — the administrative collective, readable secondarily as the activity of administering.
+- [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) — the merit-governed staffing system, its recruitment, promotion, evaluation and discipline.
+- [Government-Wide Administration](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md) — the cross-government coordinating layer: standards, shared services, oversight.
+
+## Historical regimes
+
+- [Mandarin](/view.html?p=notes/social/koinomia/governance/mandarinate.md) — the examination-selected bureaucratic corps.
+- [Course of Honors](/view.html?p=notes/social/koinomia/governance/course-of-honors.md) — the ordered sequence of offices and dignities a career passes through.
 
 ## How to study a system
 
-> Take one polity and period, reconstruct its coordinating layer (centers,
-> standards, shared services, authority distribution, oversight), and record its
-> coordinates axis by axis. Compare configurations across cases; do not reduce a
-> system to a single type or score. Method and caveats live in
-> [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/actor/gov-wide-administration.md).
+> Take one polity and period, reconstruct its coordinating layer (centers, standards, shared services, authority distribution, oversight), and record its coordinates axis by axis. Compare configurations across cases; do not reduce a system to a single type or score. Each study locates its system with the reference frames of the [characterization atlas](/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration.html): pick the applicable frames, assign one value per axis, read the resulting configuration. Method and caveats live in [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md).
 
 ## Studies
 
-- [Course of Honors](/view.html?p=notes/social/koinomia/action/informe/course-of-honors.md)
-- [Mandarin](/view.html?p=notes/social/koinomia/action/informe/mandarinate.md)
-
-> Candidate pipeline seeded from the representative sample in
-> [Public Administration](/view.html?p=notes/social/koinomia/actor/administration.md).
-> Each case below graduates into its own study file under this directory; until
-> then the sample table carries the characterization.
+> Candidate pipeline seeded from the representative sample in [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md). Each case below graduates into its own study file under this directory; until then the sample table carries the characterization.
 
 ### Ancient and imperial systems
 
@@ -122,10 +120,8 @@ tags: [note, social]
 
 ## Related
 
-- [Public Administration](/view.html?p=notes/social/koinomia/actor/administration.md)
-- [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/actor/gov-wide-administration.md)
-- [Civil Service](/view.html?p=notes/social/koinomia/actor/civil-service.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the actors that wield the authority
+- [Government](/view.html?p=notes/social/koinomia/actor/government.md)
 - [Public Employee](/view.html?p=notes/social/koinomia/actor/instance/employee.md)
 - [Human Resource Unit](/view.html?p=notes/social/koinomia/actor/instance/hru.md)
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md)
 - [Atlas of Government-Wide Administration Comparative Representation Systems](/corpus/notes/social/koinomia/actor/atlas/gov-wide-administration.html)

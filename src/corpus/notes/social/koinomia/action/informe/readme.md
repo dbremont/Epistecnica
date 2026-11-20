@@ -9,14 +9,9 @@ tags: [note, social]
 > (named policies and programmes, plans and cases), see `instance/` beside
 > this index.
 
-## Government-wide administration
+## Governance
 
-Reports on how a polity coordinates its agencies — the element, its offices and
-its comparison atlas stay on the public shelf:
-
-- [Informe](/view.html?p=notes/social/koinomia/action/informe/informe.md) — the studies of government-wide administration systems, polity by polity
-- [Mandarinate](/view.html?p=notes/social/koinomia/action/informe/mandarinate.md) — the examination-selected bureaucratic corps
-- [Course of Honors](/view.html?p=notes/social/koinomia/action/informe/course-of-honors.md) — the ordered sequence of offices and dignities a career passes through
+The governance machinery — public administration, the civil service, the government-wide coordinating layer and the historical staffing regimes — lives one shelf over, in [Governance](/view.html?p=notes/social/koinomia/governance/readme.md).
 
 ## Country and development studies
 

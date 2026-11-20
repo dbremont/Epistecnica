@@ -141,4 +141,4 @@ The Swedish form is the one that makes independence a constitutional fact rather
 - [How state administration works in Sweden](https://www.government.se/government-policy/central-government-administration/how-state-administration-works-in-sweden/) — the appointment of agency heads, and the merit principle stated as policy
 - [Sweden](/view.html?p=notes/social/koinomia/polity/instance/swe/sweden.md) — the polity whose machinery this is
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — where the Swedish Government Agency is a kind, and the three forms are compared
-- [Government](/view.html?p=notes/social/koinomia/actor/government.md) · [Public Administration](/view.html?p=notes/social/koinomia/actor/administration.md) — the generic elements this system instantiates
+- [Government](/view.html?p=notes/social/koinomia/actor/government.md) · [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md) — the generic elements this system instantiates

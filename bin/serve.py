@@ -169,6 +169,15 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+GOVERNANCE_DIR = "/corpus/notes/social/koinomia/governance/"
+GOVERNANCE_MOVED = {
+    "/corpus/notes/social/koinomia/actor/administration.md": GOVERNANCE_DIR + "administration.md",
+    "/corpus/notes/social/koinomia/actor/civil-service.md": GOVERNANCE_DIR + "civil-service.md",
+    "/corpus/notes/social/koinomia/actor/gov-wide-administration.md": GOVERNANCE_DIR + "gov-wide-administration.md",
+    "/corpus/notes/social/koinomia/action/informe/mandarinate.md": GOVERNANCE_DIR + "mandarinate.md",
+    "/corpus/notes/social/koinomia/action/informe/course-of-honors.md": GOVERNANCE_DIR + "course-of-honors.md",
+    "/corpus/notes/social/koinomia/action/informe/informe.md": GOVERNANCE_DIR + "readme.md",
+}
 GROUP_MD_OLD = "/corpus/notes/social/actor/private/group/group.md"
 GROUP_MD_NEW = "/corpus/notes/epistemica/singular/social-group-modelling.md"
 TRADING_HOUSE_OLD = "/corpus/notes/technica/production/industry/commerce/trading.md"
@@ -540,6 +549,11 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == GROUP_MD_OLD:
             self._redirect(GROUP_MD_NEW)
+            return True
+
+        target = GOVERNANCE_MOVED.get(path)
+        if target is not None:
+            self._redirect(target)
             return True
 
         if path == TRADING_HOUSE_OLD:

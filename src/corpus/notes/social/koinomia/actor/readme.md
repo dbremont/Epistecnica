@@ -11,14 +11,14 @@ tags: [note, social, koinomia, actor, catalog]
 - [Action](/view.html?p=notes/social/koinomia/action/readme.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md)
-- [Administration](/view.html?p=notes/social/koinomia/actor/administration.md)
-- [Civil Service](/view.html?p=notes/social/koinomia/actor/civil-service.md)
+- [Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
+- [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md)
 - [Municipal Government](/view.html?p=notes/social/koinomia/actor/municipal-government.md)
 - [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md)
 - [Royal Commission](/view.html?p=notes/social/koinomia/actor/royal-commission.md)
 - [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md)
 - [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/incorporated-administrative-agency.md)
-- [Government-Wide Administration](/view.html?p=notes/social/koinomia/actor/gov-wide-administration.md)
+- [Government-Wide Administration](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md)
 - [Representation Systems](/view.html?p=notes/social/koinomia/actor/legislature/representation-systems.md)
 
 ## Atlas

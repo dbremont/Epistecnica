@@ -73867,6 +73867,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration link to the governance shelf."
    }
   ]
  },
@@ -76370,6 +76375,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the government-wide administration link to the governance shelf."
    }
   ]
  },
@@ -82359,23 +82369,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/informe/course-of-honors.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/actor/public/informe/: the ordered sequence of offices is an instrument of public action, filed with the action informes.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/informe/history-of-the-chinese-economic-policy-toolbox.md",
   "logs": [
    {
@@ -82407,23 +82400,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/informe/mandarinate.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/actor/public/informe/: the examination-selected bureaucratic corps is an office of public action, filed with the action informes.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
    {
     "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+    "kind": "refactor",
+    "summary": "Merged into governance/readme.md: the administration studies become the governance shelf master."
    }
   ]
  },
@@ -82480,6 +82461,11 @@
     "summary": "Point the shelf note at the new instance/ directory.",
     "commit": "d208e95d524ee1a35509d45fcf88608bf8304118",
     "before": "a64d30034c82b70d5b7a0f34d0905c0e59a48dd2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Replace the administration section with a pointer to the governance shelf."
    }
   ]
  },
@@ -85792,103 +85778,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/actor/administration.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Update the Action Instrument terminology and the guidance/organization/instrument vocabulary."
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/civil-service.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "QA: whether civil-service design is part of policy or a separate object of analysis for practical purposes.",
-    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
-    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "References now link the Representation Systems design note."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link Kolvani & Nistotskaya on the two mechanisms of meritocratic recruitment - competence and impartiality - and why the conflation in standard indices blocks the causal claim.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/actor/gov-wide-administration.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Update the Action Instrument terminology in the coordination decomposition."
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "New QA on designing a performance evaluation system, with the measurement literature gathered under it: the typology and ambiguity reviews, Andersen, Boesen and Pedersen on the conceptual space, Arnaboldi and Azzone on constructing measurement in the public sector.",
-    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
-    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Public Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/actor/government.md",
   "logs": [
    {
@@ -85917,6 +85806,11 @@
     "summary": "Retarget the Public Policy link to the guidance shelf.",
     "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
     "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration link to the governance shelf."
    }
   ]
  },
@@ -88618,6 +88512,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the civil-service link to the governance shelf."
    }
   ]
  },
@@ -88660,6 +88559,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration link to the governance shelf."
    }
   ]
  },
@@ -88724,6 +88628,11 @@
     "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
     "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
     "before": "43620dc69c8637f506cb1938c86bed287430f00a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the administration, civil-service and government-wide administration links to the governance shelf."
    }
   ]
  },
@@ -88763,6 +88672,172 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/administration.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology and the guidance/organization/instrument vocabulary."
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the governance shelf: the machinery is not an actor type."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/civil-service.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "QA: whether civil-service design is part of policy or a separate object of analysis for practical purposes.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "References now link the Representation Systems design note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Kolvani & Nistotskaya on the two mechanisms of meritocratic recruitment - competence and impartiality - and why the conflation in standard indices blocks the causal claim.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the governance shelf: the machinery is not an actor type."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/course-of-honors.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/actor/public/informe/: the ordered sequence of offices is an instrument of public action, filed with the action informes.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the governance shelf: the machinery is not an actor type."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/gov-wide-administration.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the coordination decomposition."
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "New QA on designing a performance evaluation system, with the measurement literature gathered under it: the typology and ambiguity reviews, Andersen, Boesen and Pedersen on the conceptual space, Arnaboldi and Azzone on constructing measurement in the public sector.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the governance shelf: the machinery is not an actor type."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/mandarinate.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/actor/public/informe/: the examination-selected bureaucratic corps is an office of public action, filed with the action informes.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the governance shelf: the machinery is not an actor type."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/governance/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Governance shelf master: administration, civil service, government-wide administration, the historical regimes, the study method and the country pipeline."
    }
   ]
  },
@@ -90664,6 +90739,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the government-wide administration link to the governance shelf."
    }
   ]
  },
