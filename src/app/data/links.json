@@ -175,18 +175,6 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/koinomia/representation/",
-   "to": "social/koinomia/actor/readme.md",
-   "label": "public organization",
-   "kind": "atlas"
-  },
-  {
-   "from": "social/koinomia/representation/",
-   "to": "social/koinomia/governance/gov-wide-administration.md",
-   "label": "government-wide administration",
-   "kind": "atlas"
-  },
-  {
    "from": "nature/result/",
    "to": "epistemica/",
    "label": "Results",
