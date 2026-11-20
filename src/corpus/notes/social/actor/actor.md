@@ -95,7 +95,7 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (collective actor hub: the full subtype tree)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (economic subtype of Organization)
-- [Social Group](/view.html?p=notes/social/actor/private/group/group.md) (interacting aggregate — not an organization)
+- [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md) (interacting aggregate — not an organization)
 - [Human](/view.html?p=notes/social/actor/human.md) (biological individual; carries personhood)
 - [Family](/view.html?p=notes/social/actor/family.md) (kinship unit)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (government subtype; carries the agency-space QA)

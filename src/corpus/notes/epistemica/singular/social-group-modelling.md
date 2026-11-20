@@ -1,5 +1,5 @@
 ---
-tags: [note, social]
+tags: [note, epistemica, singular, modelling, social]
 ---
 
 # Social Group Modelling

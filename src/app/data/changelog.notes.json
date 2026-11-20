@@ -24343,6 +24343,16 @@
   ]
  },
  {
+  "file_path": "epistemica/singular/social-group-modelling.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the singular epistemic scope: the note is group modelling, not the Group actor type."
+   }
+  ]
+ },
+ {
   "file_path": "epistemica/singular/space-filling-curves.md",
   "logs": [
    {
@@ -70954,6 +70964,11 @@
     "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
     "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
     "before": "43620dc69c8637f506cb1938c86bed287430f00a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Social Group link to the singular modelling note."
    }
   ]
  },
@@ -71238,6 +71253,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Social Group links to the singular modelling note."
    }
   ]
  },
@@ -71505,6 +71525,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Social Group links to the singular modelling note."
    }
   ]
  },

@@ -16,7 +16,7 @@ It is not `Collective / Organization` as such (that is its organized subtype —
 
 Readable secondarily as an `Interaction Unit` (a bounded entity capable of interaction), as an `Institution` (where the collective just is its stabilized rules), and as a `Polity` (where bound by authority). Those readings are prose, not second trees; the tree below is typed once.
 
-On terms: **Collective** is the genus and instance term. **Organization** names the organized subtype. **Institution** names the stabilized rules a collective hosts, never the actor itself. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](/view.html?p=notes/social/actor/private/group/group.md)). **Association**, **Union**, **Cooperative**, **Party** name organization subtypes.
+On terms: **Collective** is the genus and instance term. **Organization** names the organized subtype. **Institution** names the stabilized rules a collective hosts, never the actor itself. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md)). **Association**, **Union**, **Cooperative**, **Party** name organization subtypes.
 
 ### What is this social instance?
 
@@ -349,7 +349,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
-- [Social Group](/view.html?p=notes/social/actor/private/group/group.md)
+- [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md)
 - [Family](/view.html?p=notes/social/actor/family.md)
 - [Firm](/view.html?p=notes/social/actor/firm.md)
 - [Social Ontology](/view.html?p=notes/social/meta/social-ontology.md)

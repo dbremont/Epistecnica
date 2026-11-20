@@ -16,7 +16,7 @@ It is not an `Institution` (it is a deliberate actor rather than a stabilized sy
 
 Readable secondarily as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets, fields, and compounds. That secondary reading is prose, not a second root; the tree below is typed once.
 
-On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](/view.html?p=notes/social/actor/private/group/group.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
+On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in the grammar), not the instance term. **Organization** is the instance term and is used for every row below. **Institution** names the stabilized rules an organization hosts, never the actor itself. **Firm** names the economic subtype. **Group** names an interacting aggregate with unity but without membership or rules (see [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md)) — and is therefore not an organization. **Association**, **Union**, **Cooperative**, **Party**, **Congregation** name organization subtypes, classified in the `Type` branch below. The **Nonprofit Public–Private Organization** is secondarily readable as NGO and as Private; those readings are prose, not second trees.
 
 ### What is this social instance?
 
@@ -89,7 +89,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (government subtype; carries the agency-space QA)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body agency: kinds, anatomy, and terminology)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (economic subtype of Organization)
-- [Social Group](/view.html?p=notes/social/actor/private/group/group.md) (interacting aggregate — not an organization)
+- [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md) (interacting aggregate — not an organization)
 - [Political Party](/view.html?p=notes/social/actor/political-party.md) (political subtype of Organization)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md) (arena organizations act in)
 - [Product](/view.html?p=notes/social/good/product.md) (exchangeable outcome member firms offer)
