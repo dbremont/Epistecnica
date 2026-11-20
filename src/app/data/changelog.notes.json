@@ -76704,7 +76704,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Merge the technica trading-house note into the social actor note: the global trading companies table and its references."
+    "summary": "Merge the technica trading-house note into the social actor note: the global trading companies table and its references.",
+    "commit": "0fe8bd3b2643f5dd7efa8be49f5b70a7f8fc3f47",
+    "before": "e8e7980d3b9aed2e62763c8ad2cba05a0f57272e"
    }
   ]
  },
