@@ -146,7 +146,7 @@ Social Element (parent)
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
@@ -271,7 +271,7 @@ Social Element (parent)
 - [Science](/view.html?p=notes/social/dynamic/research/science.md)
 - [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md)
 - [Strategy](/view.html?p=notes/social/dynamic/action/guidance/strategy.md)
-- [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md)
+- [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Social Action Principle](/view.html?p=notes/social/dynamic/action/guidance/social-action-principle.md)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md)
 - [Doctrine](/view.html?p=notes/social/dynamic/action/guidance/doctrine.md)

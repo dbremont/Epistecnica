@@ -375,7 +375,7 @@ See
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
-- [Public Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md)
+- [Public Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Plan](/view.html?p=notes/social/dynamic/action/organization/plan.md)
 - [Program](/view.html?p=notes/social/dynamic/action/organization/program.md)
 - [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/actor/gov-wide-administration.md)

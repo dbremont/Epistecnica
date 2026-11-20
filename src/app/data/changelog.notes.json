@@ -67239,6 +67239,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy links to the guidance shelf."
    }
   ]
  },
@@ -74190,6 +74195,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -76841,6 +76851,22 @@
   ]
  },
  {
+  "file_path": "social/coordinator/market/instance/commodity/commodity-trading-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the commodity market instance shelf: the note is a list of exchanges."
+   }
+  ]
+ },
+ {
   "file_path": "social/coordinator/market/instance/finantial/financial-market.md",
   "logs": [
    {
@@ -77140,6 +77166,41 @@
   ]
  },
  {
+  "file_path": "social/dynamic/action/guidance/policy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Locus Instrumentorum link after the directory rename."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the generic action-guidance shelf: Policy is a guidance type, not a koinomia-specific note."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/action/guidance/rule.md",
   "logs": [
    {
@@ -77155,6 +77216,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the same shelf."
    }
   ]
  },
@@ -77193,6 +77259,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the same shelf."
    }
   ]
  },
@@ -77212,6 +77283,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -77231,6 +77307,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -77250,6 +77331,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -77279,6 +77365,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -77298,6 +77389,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -77323,6 +77419,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -81932,47 +82033,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/guidance/commodity-trading-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/guidance/policy.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Update the Locus Instrumentorum link after the directory rename."
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/guidance/talent-attraction.md",
   "logs": [
    {
@@ -81980,6 +82040,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Removed as a duplicate of social/dynamic/research/talent-attraction.md (the research note keeps the correct title)."
    }
   ]
  },
@@ -83276,6 +83341,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -84501,6 +84571,11 @@
     "summary": "Retarget the Domain links to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
     "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf."
    }
   ]
  },
@@ -85399,6 +85474,11 @@
     "summary": "Add the action-organization directory link to the Structure list.",
     "commit": "41253afee19dc5134d09da28e06e3ba682688572",
     "before": "ef017518289edcd0ba98c462e00b6f3475dd43e4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Guidance directory link to the Structure list."
    }
   ]
  },
@@ -85422,6 +85502,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf."
    }
   ]
  },
@@ -85482,6 +85567,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf."
    }
   ]
  },
@@ -85507,6 +85597,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Public Policy link to the guidance shelf."
    }
   ]
  },

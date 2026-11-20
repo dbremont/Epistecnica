@@ -45,6 +45,6 @@ tags: [note, social, action, social-element, organization, initiative]
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md) (the course an initiative may execute)
+- [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) (the course an initiative may execute)
 - [Project](/view.html?p=notes/social/dynamic/action/organization/project.md) (the bounded effort an initiative may become)
 - [Materials Genome Initiative](/view.html?p=notes/social/koinomia/action/informe/policy/materials-genome-initiative.md) (a worked initiative instance)

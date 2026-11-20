@@ -86,6 +86,6 @@ tags: [note, social, actor, social-element, person, economist, free-trade, liber
 - [Legal plunder](https://en.wikipedia.org/wiki/Legal_plunder) (the concept and its test)
 - [Pierre-Joseph Proudhon](/view.html?p=notes/social/actor/private/persona/pierre-joseph-proudhon.md) (his adversary in the 1849–50 debate on interest)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) (the normative form *The Law* interrogates)
-- [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md) (the tariff and subsidy he argued against)
+- [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) (the tariff and subsidy he argued against)
 - [Protectionism](/view.html?p=notes/social/koinomia/action/instrument/policy/protectionism.md) (the doctrine his sophisms were aimed at)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

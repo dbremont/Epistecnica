@@ -479,6 +479,18 @@
    "to": "technica/cybernetics/",
    "label": "Cybernetics (technique)",
    "kind": "related"
+  },
+  {
+   "from": "social/koinomia/action/",
+   "to": "social/dynamic/action/guidance/",
+   "label": "Guidance",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/action/guidance/",
+   "to": "social/koinomia/action/",
+   "label": "Public Action",
+   "kind": "related"
   }
  ]
 }

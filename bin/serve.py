@@ -173,6 +173,10 @@ GROUP_MD_OLD = "/corpus/notes/social/actor/private/group/group.md"
 GROUP_MD_NEW = "/corpus/notes/epistemica/singular/social-group-modelling.md"
 TRADING_HOUSE_OLD = "/corpus/notes/technica/production/industry/commerce/trading.md"
 TRADING_HOUSE_NEW = "/corpus/notes/social/actor/trading-house.md"
+GUIDANCE_OLD = "/corpus/notes/social/koinomia/action/guidance/"
+POLICY_NEW = "/corpus/notes/social/dynamic/action/guidance/policy.md"
+COMMODITY_NEW = "/corpus/notes/social/coordinator/market/instance/commodity/commodity-trading-system.md"
+TALENT_RESEARCH = "/corpus/notes/social/dynamic/research/talent-attraction.md"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -496,6 +500,18 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == TRADING_HOUSE_OLD:
             self._redirect(TRADING_HOUSE_NEW)
+            return True
+
+        if path == GUIDANCE_OLD + "policy.md":
+            self._redirect(POLICY_NEW)
+            return True
+
+        if path == GUIDANCE_OLD + "commodity-trading-system.md":
+            self._redirect(COMMODITY_NEW)
+            return True
+
+        if path == GUIDANCE_OLD + "talent-attraction.md":
+            self._redirect(TALENT_RESEARCH)
             return True
 
         if path.startswith(HUMAN_LANGUAGE_MODEL):

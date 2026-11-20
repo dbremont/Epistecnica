@@ -41,6 +41,7 @@ QA:
 
 - [Domain](/view.html?p=notes/social/koinomia/action/problem/domain.md) — the facets of social reality that public action reflects on and targets.
 - [Organization](/explorer.html?dir=notes/social/dynamic/action/organization) — how action is arranged: agenda, plan, program, project, schedule, workflow.
+- [Guidance](/explorer.html?dir=notes/social/dynamic/action/guidance) — how action is oriented: strategy, rule, framework, doctrine, policy.
 - Toolkit    (Which is the toolkit? )
 - Case Study (Analyze a set of Case Studies)
 - Failure    (Which actions did not work?)
