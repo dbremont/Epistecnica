@@ -26,4 +26,4 @@ tags: [document, paper, japan, business-history, industrial-policy, riken]
 ## References
 
 - [Brill — chapter page](https://brill.com/display/book/edcoll/9781684172801/BP000009.xml)
-- [RIKEN — the institute note](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)

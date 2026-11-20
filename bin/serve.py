@@ -107,6 +107,37 @@ LEGACY_NOTE_REDIRECTS = {
 FAVICON_ENDPOINT = "/favicon.ico"
 FAVICON_TARGET = "/img/favicon.ico"
 
+# The public/polity corpus moved into the koinomia domain shelf. Old content
+# URLs redirect to the new paths; the source readme stubs stay served so their
+# directory links keep a landing page.
+KOINOMIA_POLITY_OLD = "/corpus/notes/social/actor/public/polity"
+KOINOMIA_POLITY_NEW = "/corpus/notes/social/koinomia/polity"
+KOINOMIA_ACTOR_OLD = "/corpus/notes/social/actor/public/"
+KOINOMIA_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/"
+KOINOMIA_ACTION_OLD = "/corpus/notes/social/dynamic/action/public/"
+KOINOMIA_ACTION_NEW = "/corpus/notes/social/koinomia/action/"
+KOINOMIA_POLITY_MD_OLD = "/corpus/notes/social/actor/collective/polity.md"
+KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/koinomia/polity/polity.md"
+KOINOMIA_STUBS = {
+    "/corpus/notes/social/actor/public/readme.md",
+    "/corpus/notes/social/dynamic/action/public/readme.md",
+}
+KOINOMIA_POLITY_ROOT_FILES = {
+    "index.html",
+    "data.json",
+    "flags.json",
+    "world.md",
+    "gana-sangha.md",
+    "coto-misto.md",
+    "polity.md",
+    "readme.md",
+    "mar-node.json",
+    "srb-node.json",
+    "sun-node.json",
+    "instance",
+    "international",
+}
+
 class HubHandler(SimpleHTTPRequestHandler):
     """Hub statics + corpus mounts."""
 
@@ -238,6 +269,9 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect(FAVICON_TARGET)
             return
 
+        if self._redirect_legacy_corpus(path):
+            return
+
         super().do_GET()
 
     def do_HEAD(self):
@@ -253,6 +287,9 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == FAVICON_ENDPOINT:
             self._redirect(FAVICON_TARGET)
+            return
+
+        if self._redirect_legacy_corpus(path):
             return
 
         super().do_HEAD()
@@ -349,6 +386,44 @@ class HubHandler(SimpleHTTPRequestHandler):
             if path.startswith(old):
                 self._redirect(new + path[len(old):] + suffix)
                 return True
+
+        return False
+
+    def _redirect_legacy_corpus(self, path):
+        """Redirect the old public/polity paths after the koinomia move.
+
+        The source readme stubs are served, not redirected, so the old shelf
+        pages keep a landing page for their directory links.
+        """
+        if path in KOINOMIA_STUBS:
+            return False
+
+        if path == KOINOMIA_POLITY_MD_OLD:
+            self._redirect(KOINOMIA_POLITY_MD_NEW)
+            return True
+
+        if path == KOINOMIA_POLITY_OLD or path.startswith(KOINOMIA_POLITY_OLD + "/"):
+            rest = path[len(KOINOMIA_POLITY_OLD):].lstrip("/")
+            if not rest:
+                self._redirect(KOINOMIA_POLITY_NEW + "/")
+                return True
+            first = rest.split("/", 1)[0]
+            if first in KOINOMIA_POLITY_ROOT_FILES:
+                target = KOINOMIA_POLITY_NEW + "/" + rest
+            else:
+                target = KOINOMIA_POLITY_NEW + "/instance/" + rest
+            self._redirect(target)
+            return True
+
+        if path == KOINOMIA_ACTOR_OLD.rstrip("/") or path.startswith(KOINOMIA_ACTOR_OLD):
+            rest = path[len(KOINOMIA_ACTOR_OLD):]
+            self._redirect(KOINOMIA_ACTOR_NEW + rest)
+            return True
+
+        if path == KOINOMIA_ACTION_OLD.rstrip("/") or path.startswith(KOINOMIA_ACTION_OLD):
+            rest = path[len(KOINOMIA_ACTION_OLD):]
+            self._redirect(KOINOMIA_ACTION_NEW + rest)
+            return True
 
         return False
 

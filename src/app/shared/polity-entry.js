@@ -78,12 +78,13 @@
 
     async function initPage() {
       try {
-        const pathCode = (window.location.pathname.match(/polity\/([^/]+)\//) || [])[1] || '';
+        const pathCode = (window.location.pathname.match(/polity\/instance\/([^/]+)\//) || [])[1] || '';
+        const polityBase = (window.location.pathname.match(/^(.*\/polity\/)/) || [])[1] || '';
         const params = new URLSearchParams(window.location.search);
         const code = (pathCode || params.get('code') || '').toLowerCase();
         const [nodeRes, manRes] = await Promise.all([
           fetch('data/node.json'),
-          fetch('../data.json')
+          fetch(polityBase ? polityBase + 'data.json' : '../../data.json')
         ]);
         // data/node.json is the polity's own node (source of truth); codes
         // without one fall back to the manifest entry alone.
@@ -125,8 +126,8 @@
           statistics: [], works: works, references: [],
           footer: { entityCode: code.toUpperCase(), region: '', lastRevised: '',
             links: [
-              { label: 'Polity Index', href: '/notes/data/social/actor/public/polity/index.html' },
-              { label: 'Catalog', href: '/notes/web/index.html' }
+              { label: 'Polity Index', href: '/corpus/notes/social/koinomia/polity/index.html' },
+              { label: 'Catalog', href: '/explorer.html' }
             ] }
         };
         renderData(data);
@@ -136,8 +137,8 @@
         const subtitle = document.getElementById('projectSubtitle');
         if (subtitle) {
           subtitle.textContent = data.identity.name;
-          subtitle.href = '/notes/web/index.html?dir=' +
-            encodeURIComponent('social/actor/public/polity/' + code);
+          subtitle.href = '/explorer.html?dir=' +
+            encodeURIComponent('social/koinomia/polity/instance/' + code);
         }
       } catch (error) {
         console.error('Failed to load country data:', error);

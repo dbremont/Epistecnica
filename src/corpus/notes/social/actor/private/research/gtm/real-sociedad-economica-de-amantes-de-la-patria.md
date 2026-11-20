@@ -29,7 +29,7 @@ tags: [note, social, actor, learned-society, guatemala, enlightenment, research]
 ## References
 
 - [Real Sociedad Económica de Amantes de la Patria de Guatemala — Wikipedia (es)](https://es.wikipedia.org/wiki/Real_Sociedad_Econ%C3%B3mica_de_Amantes_de_la_Patria_de_Guatemala)
-- [Spain — the metropole](/view.html?p=notes/social/actor/public/polity/esp/spain.md) — the model the society copied
+- [Spain — the metropole](/view.html?p=notes/social/koinomia/polity/instance/esp/spain.md) — the model the society copied
 - [Royal Bohemian Society of Sciences](/view.html?p=notes/social/actor/private/research/cze/royal-bohemian-society-of-sciences.md) — the same form in a different empire
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) — the institutional typology
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional typology
 - [Internet Archive — works by the Sociedad Económica de Amigos del País (Guatemala)](https://archive.org/search?query=creator%3A%22Sociedad+Econ%C3%B3mica+de+Amigos+del+Pa%C3%ADs+(Guatemala)%22) — the digitised record of the society's own publications

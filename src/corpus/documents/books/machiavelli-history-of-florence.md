@@ -23,10 +23,10 @@ The *Istorie fiorentine* was commissioned in 1520 by Cardinal Giulio de' Medici,
 
 > The book runs from the fall of the Roman Empire to the death of Lorenzo the Magnificent in 1492, in eight books. It was published posthumously in 1532, five years after the sack of Rome and the fall of the last Florentine republic Machiavelli had served.
 
-> Read beside [Italy](/view.html?p=notes/social/actor/public/polity/ita/italy.md), it is a source for the political economy of the city-states as much as for the events of Florence: the relation of the *arti*, the guilds, to the *signoria*, the use of foreign mercenaries, and the fragility of a republic that could not arm its own people.
+> Read beside [Italy](/view.html?p=notes/social/koinomia/polity/instance/ita/italy.md), it is a source for the political economy of the city-states as much as for the events of Florence: the relation of the *arti*, the guilds, to the *signoria*, the use of foreign mercenaries, and the fragility of a republic that could not arm its own people.
 
 ## References
 
 - [Archive.org — History of Florence and of the Affairs of Italy](https://archive.org/details/historyofflorenc0000mach)
 - [History of Florence — Wikipedia](https://en.wikipedia.org/wiki/Florentine_Histories)
-- [Italy](/view.html?p=notes/social/actor/public/polity/ita/italy.md) — the polity whose city-states the book describes
+- [Italy](/view.html?p=notes/social/koinomia/polity/instance/ita/italy.md) — the polity whose city-states the book describes

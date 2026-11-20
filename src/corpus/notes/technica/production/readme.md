@@ -4,7 +4,7 @@ tags: [note, production]
 
 # Production
 
-> **Production** is the process of transforming inputs — labour, raw materials, energy, and capital — into goods or services that satisfy human needs or demands. Its corpus is the *Produciologia* working map of that process: the lab's study of the economy's technologies, productive systems, markets, and actors, filed as industries, techniques, foundations and the firm's toolkit, with its guides in [`breviarium/`](/explorer.html?dir=notes/technica/production/breviarium).
+> **Production** is the process of transforming inputs — labour, raw materials, energy, and capital — into goods or services that satisfy human needs or demands. Its corpus is the *Produciologia* working map of that process: the lab's study of the economy's technologies, productive systems, markets, and actors, filed as industries, techniques and foundations, with the firm and consumption material under [`business/`](/explorer.html?dir=notes/technica/business) and its guides in [`breviarium/`](/explorer.html?dir=notes/technica/general/breviarium).
 
 > Welcome to **Laboratorium Productivum et Mercatorum (Produciologia)** — a research space dedicated to the in-depth study of the economy. Its mission is to **design and analyze systems of production, distribution, and exchange** that enhance human well-being, strengthen productive capabilities, and ensure the long-term sustainability of economic life.
 

@@ -10,7 +10,7 @@
    "id": "technion-israel-institute-of-technology",
    "name": "Technion — Israel Institute of Technology",
    "country": "IL",
-   "note": "notes/social/actor/public/instance/research/isr/technion-israel-institute-of-technology.md",
+   "note": "notes/social/koinomia/actor/instance/research/isr/technion-israel-institute-of-technology.md",
    "profile": {
     "type": "university",
     "founded": "1912",
@@ -1198,7 +1198,7 @@
    "id": "riken",
    "name": "Institute of Physical and Chemical Research (RIKEN)",
    "country": "JP",
-   "note": "notes/social/actor/public/instance/research/jpn/riken.md",
+   "note": "notes/social/koinomia/actor/instance/research/jpn/riken.md",
    "activityLevels": {
     "problem-formulation": 6,
     "basic-research": 9,
@@ -1406,7 +1406,7 @@
     "sources": [
      {
       "label": "Corpus note",
-      "url": "/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md"
+      "url": "/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md"
      },
      {
       "label": "Profile data",
@@ -1419,7 +1419,7 @@
    "id": "aist",
    "name": "AIST",
    "country": "JP",
-   "note": "notes/social/actor/public/instance/research/jpn/national-institute-of-advanced-industrial-science.md",
+   "note": "notes/social/koinomia/actor/instance/research/jpn/national-institute-of-advanced-industrial-science.md",
    "activityLevels": {
     "problem-formulation": 7,
     "basic-research": 5,
@@ -1620,7 +1620,7 @@
     "sources": [
      {
       "label": "Corpus note",
-      "url": "/view.html?p=notes/social/actor/public/instance/research/jpn/national-institute-of-advanced-industrial-science.md"
+      "url": "/view.html?p=notes/social/koinomia/actor/instance/research/jpn/national-institute-of-advanced-industrial-science.md"
      },
      {
       "label": "Profile data",
@@ -2400,7 +2400,7 @@
     "sources": [
      {
       "label": "Japan note",
-      "url": "/view.html?p=notes/social/actor/public/polity/jpn/japan.md"
+      "url": "/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md"
      },
      {
       "label": "Profile data",

@@ -82,6 +82,6 @@ Those conditions are part of the industry's cost and schedule, not an external a
 * [U.S. Department of Energy — Office of Nuclear Energy](https://www.energy.gov/ne/office-nuclear-energy)
 * [A Guide to Profile an Industry](/view.html?p=notes/technica/general/breviarium/a-guide-to-profile-an-industry.md)
 * [Nuclear Technical Domain](/view.html?p=notes/technica/general/nuclear-technical-domain.md) — the civil technical field this industry operates.
-* [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through transfer, indigenization and dependency.
+* [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through transfer, indigenization and dependency.
 * [Energy Technology](/view.html?p=notes/technica/general/energy-technology.md) — the cross-carrier energy domain.
 * [Technology Transfer Market](/view.html?p=notes/social/coordinator/market/technology-transfer-market.md) — licensing, know-how and the limits of nuclear technology transfer.

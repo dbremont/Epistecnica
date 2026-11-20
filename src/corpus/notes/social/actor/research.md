@@ -24,7 +24,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 > The typology below classifies research actors by constitution — public research institute, national laboratory, government research agency, funding council, academy or learned society, enterprise research lab, university research unit, independent foundation, policy institute, research group — and locates the concrete bodies already worked in this module. Because the family mixes public and private bodies, the instances are split by public authority — **public research actors** under `public/research/` (academies, national laboratories, government agencies, funding councils) and **private research actors** under `private/research/` (universities, think tanks, foundations, enterprise labs) — each grouped by ISO 3166-1 alpha-3 country code, with a nested parent-body folder where a system has a peak body (`chn/cas`, `esp/csic`, `fra/cnrs`, `ita/cnr`, `usa/nsf`, `sgp/astar`, `dnk/dnrf`, `fin/rcf`, `nld/nwo`). This entry is the hub linking both halves; see the support links on the catalog for the two directories.
 
-> Constitution is one axis; the other is **institutional form** — for a national laboratory, whether the state owns the facility and staffs it directly, or owns it and contracts its operation to a university or nonprofit. The form is carried in the tree as a kind branch under `National Laboratory` rather than as a second type, because it fixes who owns the ground, who employs the staff and who answers for the budget, while leaving the research function unchanged. [Ames National Laboratory](/view.html?p=notes/social/actor/public/instance/research/usa/ames-national-laboratory.md) is the worked contractor-operated instance.
+> Constitution is one axis; the other is **institutional form** — for a national laboratory, whether the state owns the facility and staffs it directly, or owns it and contracts its operation to a university or nonprofit. The form is carried in the tree as a kind branch under `National Laboratory` rather than as a second type, because it fixes who owns the ground, who employs the staff and who answers for the budget, while leaving the research function unchanged. [Ames National Laboratory](/view.html?p=notes/social/koinomia/actor/instance/research/usa/ames-national-laboratory.md) is the worked contractor-operated instance.
 
 **Layer.** **Ontic** — the institutes, laboratories, agencies, staff, instruments, and endowments exist extra-mentally. Their research programmes and classifications are Noetic instruments; the standing of an academy and the authority of a funding council are Synontic.
 
@@ -34,7 +34,7 @@ Readable secondarily as an `Interaction Unit` in the plain sense: a bounded enti
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/actor/public/instance/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
+> Boundary: one research-actor family — its subtype classification, the spine constituents it shares, and the national systems whose concrete bodies are already documented in this module. Subtype detail already worked in a linked entry ([Research Group](/view.html?p=notes/social/actor/research-group.md), [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md), [Public Research Institutes](/view.html?p=notes/social/koinomia/actor/instance/pri.md)) is not duplicated here; the national-system branch links the instances rather than re-decomposing them.
 >
 > Stopping rule: a row is terminal when it names a subtype, a national system, a concrete institute, an agency, a role, a norm, an obligation, or a practice, or when it links an already-decomposed entry.
 >
@@ -138,18 +138,18 @@ Approximate shares of a research group's total budget:
 - [Science](/view.html?p=notes/social/dynamic/research/science.md) (the scientific activity family that scopes inquiry)
 - [Research Group](/view.html?p=notes/social/actor/research-group.md) (quasi-firm team subtype)
 - [Enterprise Research Lab](/view.html?p=notes/social/actor/enterprise-research-lab.md) (corporate subtype)
-- [Public Research Institutes (PRI)](/view.html?p=notes/social/actor/public/instance/pri.md) (public-research subtype)
+- [Public Research Institutes (PRI)](/view.html?p=notes/social/koinomia/actor/instance/pri.md) (public-research subtype)
 - [Product Development Center](/view.html?p=notes/social/actor/product-development-center.md) (sibling collective with a product mandate rather than an inquiry mandate)
-- [Max Planck Society](/view.html?p=notes/social/actor/public/instance/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
-- [Fraunhofer Society](/view.html?p=notes/social/actor/public/instance/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
-- [Chinese Academy of Sciences (CAS)](/view.html?p=notes/social/actor/public/instance/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
-- [Centre National de la Recherche Scientifique](/view.html?p=notes/social/actor/public/instance/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
-- [CSIRO](/view.html?p=notes/social/actor/public/instance/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
-- [RIKEN](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md) (`jpn/`)
-- [A*STAR](/view.html?p=notes/social/actor/public/instance/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
-- [Defense Advanced Research Projects Agency (DARPA)](/view.html?p=notes/social/actor/public/instance/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
-- [U.S. National Science Foundation (NSF)](/view.html?p=notes/social/actor/public/instance/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
-- [ITRI](/view.html?p=notes/social/actor/public/instance/research/twn/itri.md) (`twn/`)
+- [Max Planck Society](/view.html?p=notes/social/koinomia/actor/instance/research/deu/max-planck-society.md) (basic-research academy, `deu/`)
+- [Fraunhofer Society](/view.html?p=notes/social/koinomia/actor/instance/research/deu/fraunhofer-society.md) (applied-research academy, `deu/`)
+- [Chinese Academy of Sciences (CAS)](/view.html?p=notes/social/koinomia/actor/instance/research/chn/cas/chinese-academy-of-sciences-cas.md) (`chn/cas`)
+- [Centre National de la Recherche Scientifique](/view.html?p=notes/social/koinomia/actor/instance/research/fra/cnrs/centre-national-de-la-recherche-scientifique.md) (`fra/cnrs`)
+- [CSIRO](/view.html?p=notes/social/koinomia/actor/instance/research/aus/the-commonwealth-scientific-and-industrial-research.md) (`aus/`)
+- [RIKEN](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md) (`jpn/`)
+- [A*STAR](/view.html?p=notes/social/koinomia/actor/instance/research/sgp/astar/agency-for-science-technology-and-research-a-star.md) (`sgp/astar`)
+- [Defense Advanced Research Projects Agency (DARPA)](/view.html?p=notes/social/koinomia/actor/instance/research/usa/defense-advanced-research-projects-agency.md) (`usa/`)
+- [U.S. National Science Foundation (NSF)](/view.html?p=notes/social/koinomia/actor/instance/research/usa/nsf/u-s-national-science-foundation-nsf.md) (`usa/nsf`)
+- [ITRI](/view.html?p=notes/social/koinomia/actor/instance/research/twn/itri.md) (`twn/`)
 - [Royal Bohemian Society of Sciences](/view.html?p=notes/social/actor/private/research/cze/royal-bohemian-society-of-sciences.md) (learned society, `cze/`)
 - Hamberg, D. (1963). Invention in the industrial research laboratory. *Journal of Political Economy*, 71(2), 95–115.
 - Holt, C. A. (1995). Industrial organization: A survey of laboratory research. *The handbook of experimental economics*, 349–402.

@@ -21,10 +21,10 @@ tags: [document, paper, latin-america, natural-resources, specialisation, develo
 
 > The word in the title that matters is **regressive**: the economy specialises in the direction its current comparative advantage points, and the specialisation is regressive because the capability it destroys was the platform for future diversification. It is the resource curse restated as a capability story — not rents and corruption, but a production structure that becomes simpler.
 
-> Read beside the corpus's [cross-sectoral synergies essay](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-cross-sectoral-technical-production-synergies.md), the pair is instructive: that essay argues that **technical overlap** is the right coordinate for diversification, and this paper shows the mechanism by which integration can move an economy *away* from its overlap — a sector that earns foreign exchange can be the sector that erodes the industrial base.
+> Read beside the corpus's [cross-sectoral synergies essay](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-cross-sectoral-technical-production-synergies.md), the pair is instructive: that essay argues that **technical overlap** is the right coordinate for diversification, and this paper shows the mechanism by which integration can move an economy *away* from its overlap — a sector that earns foreign exchange can be the sector that erodes the industrial base.
 
 ## References
 
 - [Gala & Nicolini Gabriel (2026) — DOI](https://doi.org/10.1080/20780389.2026.2713694)
-- [Economic Diversification](/view.html?p=notes/social/dynamic/action/public/problem/dimension/production/diversification/economic-diversification.md) — the policy frame the paper complicates
-- [Cross-Sectoral Technical-Production Synergies](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-cross-sectoral-technical-production-synergies.md) — the capability reading of diversification
+- [Economic Diversification](/view.html?p=notes/social/koinomia/action/problem/dimension/production/diversification/economic-diversification.md) — the policy frame the paper complicates
+- [Cross-Sectoral Technical-Production Synergies](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-cross-sectoral-technical-production-synergies.md) — the capability reading of diversification

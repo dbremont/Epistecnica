@@ -14,5 +14,5 @@ tags: [document, paper, poland, industrial-policy, restructuring]
 
 ## References
 
-- [Poland — industrial policy](/view.html?p=notes/social/actor/public/polity/pol/poland.md) — the polity note
+- [Poland — industrial policy](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) — the polity note
 - [Industrial policy — OECD chapter](/view.html?p=documents/books/oecd-industrial-policy-of-poland-transformation-period.md) — the ministry's own account of the same period

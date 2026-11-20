@@ -156,8 +156,8 @@ Readable secondarily as an **Interaction Unit** where it organized — the journ
 - [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the genus: aggregate kinds of the social compound)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the stratum claimed and was accorded)
 - [University](/view.html?p=notes/social/actor/university.md) (the institution of the credential and the professoriate)
-- [Russia](/view.html?p=notes/social/actor/public/polity/rus/russia.md) (the polity whose opposition the stratum became)
-- [Poland](/view.html?p=notes/social/actor/public/polity/pol/poland.md) (the partitioned nation the stratum was coined to lead)
+- [Russia](/view.html?p=notes/social/koinomia/polity/instance/rus/russia.md) (the polity whose opposition the stratum became)
+- [Poland](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) (the partitioned nation the stratum was coined to lead)
 - [Scholar-Official](/view.html?p=notes/social/actor/scholar-official.md) (the other examined stratum: rank in a bureaucracy against authority in a public)
 - Berlin, I. (1978). *Russian thinkers*. Hogarth Press.
 - Libelt, K. (1844). *On love of the fatherland* (*O miłości ojczyzny*).

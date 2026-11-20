@@ -27,5 +27,5 @@ tags: [document, book, development, korea, taiwan, industrial-policy]
 
 - [Archive.org — Models of Development: South Korea and Taiwan](https://archive.org/details/modelsofdevelopm0000unse_x6s2)
 - [Developmentalism](/view.html?p=notes/social/synontic/ideational/developmentalism.md) — the doctrine the two cases carry
-- [South Korea](/view.html?p=notes/social/actor/public/polity/kor/south-korea.md) — the chaebol case
-- [Taiwan](/view.html?p=notes/social/actor/public/polity/twn/taiwan.md) — the SME case
+- [South Korea](/view.html?p=notes/social/koinomia/polity/instance/kor/south-korea.md) — the chaebol case
+- [Taiwan](/view.html?p=notes/social/koinomia/polity/instance/twn/taiwan.md) — the SME case

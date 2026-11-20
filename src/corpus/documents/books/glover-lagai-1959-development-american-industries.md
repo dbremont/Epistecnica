@@ -26,4 +26,4 @@ tags: [document, book, economic-history, industry, united-states]
 
 - [Archive.org — The Development of American Industries (Glover & Lagai, eds.)](https://archive.org/details/developmentofame00glov)
 - [Industry — readme](/view.html?p=notes/technica/production/industry/readme.md) — the corpus shelf this volume calibrates
-- [United States](/view.html?p=notes/social/actor/public/polity/usa/united-states-of-america-usa.md) — the polity whose industries the book covers
+- [United States](/view.html?p=notes/social/koinomia/polity/instance/usa/united-states-of-america-usa.md) — the polity whose industries the book covers

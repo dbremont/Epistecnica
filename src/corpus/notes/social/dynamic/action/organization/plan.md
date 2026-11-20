@@ -49,6 +49,6 @@ tags: [note, social, action, social-element, organization, plan]
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Policy](/view.html?p=notes/social/dynamic/action/public/guidance/policy.md) (the mandate a plan executes)
+- [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md) (the mandate a plan executes)
 - [Schedule](/view.html?p=notes/social/dynamic/action/organization/schedule.md) (the temporal allocation a plan carries)
 - [Project](/view.html?p=notes/social/dynamic/action/organization/project.md) (the bounded effort a project plan sequences)

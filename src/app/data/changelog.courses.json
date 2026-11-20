@@ -27,7 +27,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -169,7 +169,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -220,7 +220,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -238,7 +238,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -333,7 +333,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -439,7 +439,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -552,7 +552,7 @@
    {
     "date": "2026-10-23",
     "kind": "feat",
-    "summary": "atlas of courses \u2014 seven main OCW course entries with references",
+    "summary": "atlas of courses — seven main OCW course entries with references",
     "commit": "46ca8e414c46348ee4ec6578a7899e3111ac9821"
    },
    {
@@ -661,6 +661,16 @@
  {
   "file_path": "15-401-finance-theory-i/readme.md",
   "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Finance Toolkit and Quantitative Trading links after the firm toolkit moved to technica/business/toolkit."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Finance Toolkit and Quantitative Trading links after the firm shelf moved to technica/business/firm."
+   },
    {
     "date": "2026-11-18",
     "kind": "feat",

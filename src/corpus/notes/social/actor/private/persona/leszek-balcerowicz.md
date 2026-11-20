@@ -9,7 +9,7 @@ type: person
 
 ## Related
 
-- [Poland](/view.html?p=notes/social/actor/public/polity/pol/poland.md) — the economy his plan rebuilt
+- [Poland](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) — the economy his plan rebuilt
 
 ## References
 

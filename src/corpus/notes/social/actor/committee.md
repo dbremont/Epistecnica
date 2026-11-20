@@ -78,7 +78,7 @@ The kind is not one thing: **standing**, **select**, **joint**, **conference**, 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (note schema, layer test, decomposition contract)
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) (the genus whose kind this is)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the genus whose kind this is)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) (the parent assembly whose business the committee prepares)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body contrast: a board decides, a committee prepares and reports)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md) (the instrument form a committee's terms of reference take)

@@ -28,5 +28,5 @@ tags: [document, paper, poland, fdi, innovation, catch-up]
 ## References
 
 - [Weresa (2004) — publisher](https://doi.org/10.1016/j.postcomstud.2004.06.007)
-- [Poland](/view.html?p=notes/social/actor/public/polity/pol/poland.md) — the polity note
+- [Poland](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) — the polity note
 - [Domański & Gwosdz (2009)](/view.html?p=documents/papers/domanski-gwosdz-2009-embedded-production-system-automotive-poland.md) — the firm-level mechanism

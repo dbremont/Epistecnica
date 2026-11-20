@@ -23,4 +23,4 @@ tags: [document, paper, japan, photon-science, research-infrastructure]
 ## References
 
 - [RIKEN RSC — White Paper and Activity Report 2011 (PDF)](https://rsc.riken.jp/RSAC2011/WhitePaper2011.pdf)
-- [RIKEN — the institute note](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)

@@ -12,7 +12,7 @@ tags: [note, social]
 
 > **Ontological** dimension that represents relational events and processes between interaction units.
 
-> The Action element note of the [Dynamic shelf](/view.html?p=notes/social/dynamic/readme.md) and the hub of its [`action/`](/explorer.html?dir=notes/social/dynamic/action) branch, filed beside [Dynamical](/view.html?p=notes/social/dynamic/readme.md): action is the process at the interaction level, dynamics the transformation at the system level. The branch holds what scopes the primitive — [`guidance/`](/explorer.html?dir=notes/social/dynamic/action/guidance), [`organization/`](/explorer.html?dir=notes/social/dynamic/action/organization), and [`public/`](/explorer.html?dir=notes/social/dynamic/action/public), the last carrying the problem dimensions under [`problem/`](/explorer.html?dir=notes/social/dynamic/action/public/problem).
+> The Action element note of the [Dynamic shelf](/view.html?p=notes/social/dynamic/readme.md) and the hub of its [`action/`](/explorer.html?dir=notes/social/dynamic/action) branch, filed beside [Dynamical](/view.html?p=notes/social/dynamic/readme.md): action is the process at the interaction level, dynamics the transformation at the system level. The branch keeps what scopes the primitive — [`guidance/`](/explorer.html?dir=notes/social/dynamic/action/guidance) and [`organization/`](/explorer.html?dir=notes/social/dynamic/action/organization); the public-action side is filed in [`koinomia/action/`](/view.html?p=notes/social/koinomia/action/readme.md), with its problem dimensions under [`problem/`](/explorer.html?dir=notes/social/koinomia/action/problem). The old `public/` path is a source shell with a directory link.
 
 ## Type
 

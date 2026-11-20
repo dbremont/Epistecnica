@@ -33,5 +33,5 @@ tags: [document, paper, history, habsburg, lombardy, italy, economic-history]
 ## References
 
 - [Taylor & Francis](https://doi.org/10.1080/13532940120045551)
-- [Habsburg Monarchy](/view.html?p=notes/social/actor/public/polity/hab/habsburg-monarchy.md)
+- [Habsburg Monarchy](/view.html?p=notes/social/koinomia/polity/instance/hab/habsburg-monarchy.md)
 - [Kaps (2018)](/view.html?p=documents/papers/kaps-2018-cores-peripheries-reconsidered-habsburg.md) — the general core–periphery frame

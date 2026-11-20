@@ -146,7 +146,7 @@ Social Element (parent)
 
 ### What type of social element is a `Policy`?
 
-> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](/view.html?p=notes/social/dynamic/action/public/guidance/policy.md).
+> A `Policy` is an **Action Guidance** type (Normative): a deliberate course of action adopted by an authority that orients subsequent decisions. It is distinct from `Strategy` (ends/means selection over a horizon), from `Rule` (a specific codified constraint prescribing or prohibiting conduct), from `Plan` (a concrete arrangement of future actions specifying ends, means, and sequence), and from `Program` (a coordinated set of projects under one objective). Guidance orients action; organization arranges it. Worked as an entry at [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md).
 
 ### Through what elements are action guided, organized, coordinated, or controlled?
 
@@ -166,7 +166,7 @@ Social Element (parent)
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/dynamic/action/public/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/dynamic/action/public/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/koinomia/action/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/koinomia/action/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -271,7 +271,7 @@ Social Element (parent)
 - [Science](/view.html?p=notes/social/dynamic/research/science.md)
 - [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md)
 - [Strategy](/view.html?p=notes/social/dynamic/action/guidance/strategy.md)
-- [Policy](/view.html?p=notes/social/dynamic/action/public/guidance/policy.md)
+- [Policy](/view.html?p=notes/social/koinomia/action/guidance/policy.md)
 - [Social Action Principle](/view.html?p=notes/social/dynamic/action/guidance/social-action-principle.md)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md)
 - [Doctrine](/view.html?p=notes/social/dynamic/action/guidance/doctrine.md)
@@ -283,8 +283,8 @@ Social Element (parent)
 - [Initiative](/view.html?p=notes/social/dynamic/action/organization/initiative.md)
 - [Roadmap](/view.html?p=notes/social/dynamic/action/organization/roadmap.md)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md)
-- [Agency](/view.html?p=notes/social/dynamic/action/public/agency.md)
-- [Problem](/view.html?p=notes/social/dynamic/action/public/problem/policy-problem.md)
+- [Agency](/view.html?p=notes/social/koinomia/action/agency.md)
+- [Problem](/view.html?p=notes/social/koinomia/action/problem/policy-problem.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)

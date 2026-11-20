@@ -55,9 +55,9 @@ Readable secondarily as an `Institution` where the report series and its publica
 
 ## See also
 
-- [Public Inquiry](/view.html?p=notes/social/actor/public/public-inquiry.md)
-- [Royal Commission](/view.html?p=notes/social/actor/public/royal-commission.md)
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md)
+- [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md)
+- [Royal Commission](/view.html?p=notes/social/koinomia/actor/royal-commission.md)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Epistemic Artifact](/view.html?p=notes/epistemica/meta/theory/epistemic-artifact.md)
 
 ## References

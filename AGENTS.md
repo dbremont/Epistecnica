@@ -175,7 +175,23 @@ frontend-facing surface in the deployment; there is no database behind it
   phenomena and cycles; `crisis/` holds the crises. The former `state/` shelf
   moved to the observation shelf (`social/observation/state/`). The shelf
   reaches the relation shelf through `links.json` (`social/dynamic/` →
-  `social/relation/`, label Social Interaction, kind `related`).
+  `social/relation/`, label Social Interaction, kind `related`). The old
+  `action/public/` corpus is now `social/koinomia/action/`; `action/public/`
+  is a source shell with a directory link.
+- **`social/koinomia/` is the public/commons domain shelf** — the aggregator
+  for the public arrangement through which multiple autonomous actors govern
+  shared resources and regulate their interactions. `readme.md` carries the
+  definition and the **philosophy of commons**; `polity/` holds the polity
+  concept, atlas, `world.md`, `gana-sangha.md`, and `instance/` (the country,
+  city-state and historical polity instance dirs); `actor/` holds the
+  public-actor apparatus; `action/` holds public action. The source shelves
+  keep thin moved-note stubs (`social/actor/public/`,
+  `social/dynamic/action/public/`) with `links.json` directory links.
+  `polity/instance/` is the only instance level; `social/observation/state/`
+  stays the observation shelf and `social/normative/institution/` the
+  normative shelf. The commons is a philosophy in `readme.md`, not a
+  sub-shelf; `social/good/` and `social/normative/` cross-link through
+  `links.json`.
 - **`social/observation/` is the observation shelf** — the notes that
   describe what a social system *is* at a moment rather than how it changes.
   `readme.md` is its entry point; `state/` holds the system state, the

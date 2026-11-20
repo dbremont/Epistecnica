@@ -88,22 +88,22 @@ The concept under evaluation is **Agro**, defined above as *the technical domain
 
 | Organisation | Country | Type | Known for | Note |
 | --- | --- | --- | --- | --- |
-| **Embrapa** | Brazil | Public research corporation | Tropical agriculture, cerrado development, the research-to-adoption model that transformed Brazilian farming | [Embrapa](/view.html?p=notes/social/actor/public/instance/research/bra/brazilian-agricultural-research-corporation-embrapa.md) |
-| **Agriculture and Agri-Food Canada** | Canada | Federal department with research centres | Prairie and temperate crop research, agri-environmental science | [AAFC](/view.html?p=notes/social/actor/public/instance/research/can/agriculture-and-agri-food-canada.md) |
-| **INRAE** | France | National research institute | Agroecology, food systems, biodiversity, water and bioeconomy | [INRAE](/view.html?p=notes/social/actor/public/instance/research/fra/inrae.md) |
-| **CSIRO** | Australia | National science agency | Crop and livestock science, digital agriculture, food innovation | [CSIRO](/view.html?p=notes/social/actor/public/instance/research/aus/csiro.md) |
-| **GRDC** | Australia | Levy-funded research investor | Grains R&D for growers: varieties, agronomy, pests and soils | [GRDC](/view.html?p=notes/social/actor/public/instance/research/aus/grains-research-and-development-corporation-grdc.md) |
-| **Bioeconomy Science Institute** | New Zealand | Umbrella institute | Brings together AgResearch, Landcare Research, Plant & Food Research and Scion | [BSI](/view.html?p=notes/social/actor/public/instance/research/nzl/bioeconomy-science-institute.md) |
-| **AgResearch** | New Zealand | Pastoral research institute | Dairy, meat and wool systems, grazing and animal genetics | [AgResearch](/view.html?p=notes/social/actor/public/instance/research/nzl/agresearch.md) |
-| **Rothamsted Research** | United Kingdom | Agricultural research institute | The oldest agricultural research station (1843); Broadbalk and Park Grass | [Rothamsted](/view.html?p=notes/social/actor/public/instance/research/gbr/rothamsted-research.md) |
-| **AFBI** | Northern Ireland | Agri-food and biosciences institute | Animal health, plant science, food and environmental science | [AFBI](/view.html?p=notes/social/actor/public/instance/research/gbr/agri-food-and-biosciences-institute-afbi.md) |
-| **INIAV** | Portugal | National research institute | Agrarian and veterinary research, food technology | [INIAV](/view.html?p=notes/social/actor/public/instance/research/prt/instituto-nacional-de-investigacao-agraria-e-veterinaria-iniav.md) |
-| **Julius Kühn-Institut** | Germany | Federal research centre | Cultivated plants, plant protection and plant health | [JKI](/view.html?p=notes/social/actor/public/instance/research/deu/julius-kuhn-institut.md) |
-| **CRA-W** | Belgium (Wallonia) | Regional research centre | Crop and animal production, food technology, environment | [CRA-W](/view.html?p=notes/social/actor/public/instance/research/bel/centre-wallon-de-recherches-agronomiques-cra-w.md) |
-| **Luke** | Finland | National research institute | Food and natural resources, agriculture and forestry | [Luke](/view.html?p=notes/social/actor/public/instance/research/fin/luke-natural-resources-institute-finland.md) |
-| **CREA** | Italy | Public research council | Crops, livestock, food and agricultural economics | [CREA](/view.html?p=notes/social/actor/public/instance/research/ita/consiglio-per-la-ricerca-in-agricoltura-e-l-analisi-dell-economia-agraria-crea.md) |
-| **Teagasc** | Ireland | Development authority | Research, advisory and education for the agri-food sector | [Teagasc](/view.html?p=notes/social/actor/public/instance/research/irl/teagasc.md) |
-| **NIBIO** | Norway | National research institute | Agricultural and environmental research, soil and land resources | [NIBIO](/view.html?p=notes/social/actor/public/instance/research/nor/nibio.md) |
+| **Embrapa** | Brazil | Public research corporation | Tropical agriculture, cerrado development, the research-to-adoption model that transformed Brazilian farming | [Embrapa](/view.html?p=notes/social/koinomia/actor/instance/research/bra/brazilian-agricultural-research-corporation-embrapa.md) |
+| **Agriculture and Agri-Food Canada** | Canada | Federal department with research centres | Prairie and temperate crop research, agri-environmental science | [AAFC](/view.html?p=notes/social/koinomia/actor/instance/research/can/agriculture-and-agri-food-canada.md) |
+| **INRAE** | France | National research institute | Agroecology, food systems, biodiversity, water and bioeconomy | [INRAE](/view.html?p=notes/social/koinomia/actor/instance/research/fra/inrae.md) |
+| **CSIRO** | Australia | National science agency | Crop and livestock science, digital agriculture, food innovation | [CSIRO](/view.html?p=notes/social/koinomia/actor/instance/research/aus/csiro.md) |
+| **GRDC** | Australia | Levy-funded research investor | Grains R&D for growers: varieties, agronomy, pests and soils | [GRDC](/view.html?p=notes/social/koinomia/actor/instance/research/aus/grains-research-and-development-corporation-grdc.md) |
+| **Bioeconomy Science Institute** | New Zealand | Umbrella institute | Brings together AgResearch, Landcare Research, Plant & Food Research and Scion | [BSI](/view.html?p=notes/social/koinomia/actor/instance/research/nzl/bioeconomy-science-institute.md) |
+| **AgResearch** | New Zealand | Pastoral research institute | Dairy, meat and wool systems, grazing and animal genetics | [AgResearch](/view.html?p=notes/social/koinomia/actor/instance/research/nzl/agresearch.md) |
+| **Rothamsted Research** | United Kingdom | Agricultural research institute | The oldest agricultural research station (1843); Broadbalk and Park Grass | [Rothamsted](/view.html?p=notes/social/koinomia/actor/instance/research/gbr/rothamsted-research.md) |
+| **AFBI** | Northern Ireland | Agri-food and biosciences institute | Animal health, plant science, food and environmental science | [AFBI](/view.html?p=notes/social/koinomia/actor/instance/research/gbr/agri-food-and-biosciences-institute-afbi.md) |
+| **INIAV** | Portugal | National research institute | Agrarian and veterinary research, food technology | [INIAV](/view.html?p=notes/social/koinomia/actor/instance/research/prt/instituto-nacional-de-investigacao-agraria-e-veterinaria-iniav.md) |
+| **Julius Kühn-Institut** | Germany | Federal research centre | Cultivated plants, plant protection and plant health | [JKI](/view.html?p=notes/social/koinomia/actor/instance/research/deu/julius-kuhn-institut.md) |
+| **CRA-W** | Belgium (Wallonia) | Regional research centre | Crop and animal production, food technology, environment | [CRA-W](/view.html?p=notes/social/koinomia/actor/instance/research/bel/centre-wallon-de-recherches-agronomiques-cra-w.md) |
+| **Luke** | Finland | National research institute | Food and natural resources, agriculture and forestry | [Luke](/view.html?p=notes/social/koinomia/actor/instance/research/fin/luke-natural-resources-institute-finland.md) |
+| **CREA** | Italy | Public research council | Crops, livestock, food and agricultural economics | [CREA](/view.html?p=notes/social/koinomia/actor/instance/research/ita/consiglio-per-la-ricerca-in-agricoltura-e-l-analisi-dell-economia-agraria-crea.md) |
+| **Teagasc** | Ireland | Development authority | Research, advisory and education for the agri-food sector | [Teagasc](/view.html?p=notes/social/koinomia/actor/instance/research/irl/teagasc.md) |
+| **NIBIO** | Norway | National research institute | Agricultural and environmental research, soil and land resources | [NIBIO](/view.html?p=notes/social/koinomia/actor/instance/research/nor/nibio.md) |
 
 > The list is a map of how different countries solved the same problem. The **corporation** model (Embrapa) builds a national capability with a strong transfer arm; the **department** model (AAFC) keeps research inside the ministry; the **agency** model (CSIRO) puts agriculture inside a broader science agency; the **levy** model (GRDC) makes growers pay for the research they use; and the **umbrella** model (Bioeconomy Science Institute) joins institutes that keep their own identities.
 
@@ -111,10 +111,10 @@ The concept under evaluation is **Agro**, defined above as *the technical domain
 
 | University | Country | Character | Note |
 | --- | --- | --- | --- |
-| **Swedish University of Agricultural Sciences (SLU)** | Sweden | Agriculture, forestry, animal science, food and landscape | [SLU](/view.html?p=notes/social/actor/public/instance/research/swe/swedish-university-of-agricultural-sciences-slu.md) |
-| **Norwegian University of Life Sciences (NMBU)** | Norway | Agriculture, food, environment and biosciences | [NMBU](/view.html?p=notes/social/actor/public/instance/research/nor/norwegian-university-of-life-sciences-nmbu.md) |
-| **Wageningen University & Research (WUR)** | Netherlands | Food, agriculture, environment and health | [WUR](/view.html?p=notes/social/actor/public/instance/research/nld/wageningen-university-and-research-wur.md) |
-| **Aarhus University** | Denmark | Agroecology, animal science, food and environment | [Aarhus](/view.html?p=notes/social/actor/public/instance/research/dnk/aarhus-university.md) |
+| **Swedish University of Agricultural Sciences (SLU)** | Sweden | Agriculture, forestry, animal science, food and landscape | [SLU](/view.html?p=notes/social/koinomia/actor/instance/research/swe/swedish-university-of-agricultural-sciences-slu.md) |
+| **Norwegian University of Life Sciences (NMBU)** | Norway | Agriculture, food, environment and biosciences | [NMBU](/view.html?p=notes/social/koinomia/actor/instance/research/nor/norwegian-university-of-life-sciences-nmbu.md) |
+| **Wageningen University & Research (WUR)** | Netherlands | Food, agriculture, environment and health | [WUR](/view.html?p=notes/social/koinomia/actor/instance/research/nld/wageningen-university-and-research-wur.md) |
+| **Aarhus University** | Denmark | Agroecology, animal science, food and environment | [Aarhus](/view.html?p=notes/social/koinomia/actor/instance/research/dnk/aarhus-university.md) |
 
 > The boundary between a research institute and a university is administrative, not intellectual. SLU, NMBU, WUR and Aarhus run field stations, long-term trials and breeding programmes exactly as the institutes do; what they add is the degree, the doctoral school and the continuous supply of people the institutes hire.
 

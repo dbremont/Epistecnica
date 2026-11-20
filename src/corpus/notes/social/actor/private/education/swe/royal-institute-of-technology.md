@@ -86,6 +86,6 @@ It is distinct from the **polytechnic as a local or municipal institution**: KTH
 - [University](/view.html?p=notes/social/actor/university.md) (the kind this instance realizes; the state constitution)
 - [University of Basel](/view.html?p=notes/social/actor/private/education/che/university-of-basel.md) (the civic constitution)
 - [Alma Mater Studiorum – Università di Bologna](/view.html?p=notes/social/actor/private/education/ita/university-of-bologna.md) (the students' constitution)
-- [Sweden](/view.html?p=notes/social/actor/public/polity/swe/sweden.md) (the polity whose industry the university was founded to serve)
+- [Sweden](/view.html?p=notes/social/koinomia/polity/instance/swe/sweden.md) (the polity whose industry the university was founded to serve)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

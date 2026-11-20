@@ -49,7 +49,7 @@ The sequence is also not strictly linear. A firm may reproduce before it fully a
 
 - [Technological Transfer](/view.html?p=notes/social/dynamic/production/technological-transfer.md)
 - [Technology Transfer Market](/view.html?p=notes/social/coordinator/market/technology-transfer-market.md)
-- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/dynamic/action/public/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through acquisition and indigenization
+- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through acquisition and indigenization
 - [Upgrading](/view.html?p=notes/social/dynamic/production/upgrading.md)
 - [Spillover](/view.html?p=notes/social/dynamic/production/spillover.md)
 - [Absorptive Capacity](/view.html?p=notes/social/dynamic/learning/absorptive-capacity.md)

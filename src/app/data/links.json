@@ -157,32 +157,32 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/actor/public/",
-   "to": "social/dynamic/action/public/",
+   "from": "social/koinomia/actor/",
+   "to": "social/koinomia/action/",
    "label": "Action",
    "kind": "hierarchy"
   },
   {
-   "from": "social/dynamic/action/public/informe/",
+   "from": "social/koinomia/action/informe/",
    "to": "social/dynamic/action/guidance/",
    "label": "Guidance",
    "kind": "hierarchy"
   },
   {
-   "from": "social/actor/public/",
+   "from": "social/koinomia/actor/",
    "to": "social/actor/collective/",
    "label": "Collective",
    "kind": "hierarchy"
   },
   {
-   "from": "social/actor/public/atlas/",
-   "to": "social/actor/public/public-organization.md",
+   "from": "social/koinomia/actor/atlas/",
+   "to": "social/koinomia/actor/public-organization.md",
    "label": "public organization",
    "kind": "atlas"
   },
   {
-   "from": "social/actor/public/atlas/",
-   "to": "social/actor/public/gov-wide-administration.md",
+   "from": "social/koinomia/actor/atlas/",
+   "to": "social/koinomia/actor/gov-wide-administration.md",
    "label": "government-wide administration",
    "kind": "atlas"
   },
@@ -211,7 +211,7 @@
    "kind": "related"
   },
   {
-   "from": "technica/",
+   "from": "technica/production/",
    "to": "social/good/",
    "label": "Goods",
    "kind": "related"
@@ -235,7 +235,7 @@
    "kind": "related"
   },
   {
-   "from": "social/actor/public/polity/chn/",
+   "from": "social/koinomia/polity/instance/chn/",
    "to": "social/actor/scholar-official.md",
    "label": "Scholar-Official",
    "kind": "related"
@@ -281,6 +281,126 @@
    "to": "technica/production/",
    "label": "Production",
    "kind": "related"
+  },
+  {
+   "from": "social/dynamic/production/",
+   "to": "social/good/",
+   "label": "Goods",
+   "kind": "related"
+  },
+  {
+   "from": "social/actor/",
+   "to": "social/koinomia/actor/",
+   "label": "Actor",
+   "kind": "related"
+  },
+  {
+   "from": "social/actor/public/",
+   "to": "social/koinomia/actor/",
+   "label": "Actor",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/dynamic/action/",
+   "to": "social/koinomia/action/",
+   "label": "Action",
+   "kind": "related"
+  },
+  {
+   "from": "social/dynamic/action/public/",
+   "to": "social/koinomia/action/",
+   "label": "Action",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/actor/collective/",
+   "to": "social/koinomia/polity/",
+   "label": "Polity",
+   "kind": "related"
+  },
+  {
+   "from": "social/normative/",
+   "to": "social/koinomia/readme.md",
+   "label": "Koinomia",
+   "kind": "related"
+  },
+  {
+   "from": "social/good/",
+   "to": "social/koinomia/readme.md",
+   "label": "Koinomia",
+   "kind": "related"
+  },
+  {
+   "from": "social/observation/state/",
+   "to": "social/koinomia/readme.md",
+   "label": "Koinomia",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/",
+   "to": "social/actor/",
+   "label": "Actor Shelf",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/",
+   "to": "social/dynamic/action/",
+   "label": "Action Shelf",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/",
+   "to": "social/normative/",
+   "label": "Normative",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/actor/",
+   "to": "social/actor/",
+   "label": "Actor Shelf",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/action/",
+   "to": "social/dynamic/action/",
+   "label": "Action Shelf",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/polity/",
+   "to": "social/actor/collective/",
+   "label": "Collective",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/polity/",
+   "to": "social/observation/state/",
+   "label": "State",
+   "kind": "related"
+  },
+  {
+   "from": "social/actor/public/",
+   "to": "social/koinomia/action/",
+   "label": "Action",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/actor/public/",
+   "to": "social/actor/collective/",
+   "label": "Collective",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/koinomia/polity/",
+   "to": "social/koinomia/polity/instance/",
+   "label": "Instance",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/koinomia/polity/instance/",
+   "to": "social/koinomia/polity/",
+   "label": "Polity",
+   "kind": "hierarchy"
   }
  ]
 }

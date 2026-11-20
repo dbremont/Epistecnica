@@ -48,12 +48,12 @@ The choice of measure is not technical. It determines which risks are visible to
 
 Objective frequency and perceived risk diverge systematically. Slovic's psychometric work found that dread (involuntary, catastrophic, uncontrollable) and unknown (unobservable, delayed, unfamiliar) predict perceived risk better than annual fatality counts: nuclear power and pesticides rank high, driving and domestic accidents low, in inverse proportion to their tolls. The divergence is not public irrationality to be corrected — it is a different question being answered. A community asked "how bad is this?" answers about agency, control, and fairness, not about expected deaths.
 
-This is why risk is an institution as much as a quantity. Insurance pools and prices it; regulation sets acceptable levels and allocates the duty to reduce it; liability moves the cost to the party that can bear or prevent it; the risk register makes it visible to an organisation that would otherwise ignore it. - [Insurance](/view.html?p=notes/technica/production/firm/toolkit/risk/insurance.md) for the pooling mechanism and [Safety](/view.html?p=notes/social/good/safety.html) for the hazard-class reading of consumer products.
+This is why risk is an institution as much as a quantity. Insurance pools and prices it; regulation sets acceptable levels and allocates the duty to reduce it; liability moves the cost to the party that can bear or prevent it; the risk register makes it visible to an organisation that would otherwise ignore it. - [Insurance](/view.html?p=notes/technica/business/toolkit/risk/insurance.md) for the pooling mechanism and [Safety](/view.html?p=notes/social/good/safety.html) for the hazard-class reading of consumer products.
 
 ## In the corpus
 
 - [Country Risk](/view.html?p=notes/social/observation/state/country-risk.md) — the sovereign instance: default, expropriation, currency and political risk priced into cross-border capital.
-- [RD 1.0 Dominican Risk Management System](/view.html?p=notes/social/actor/public/polity/dom/security/risk.md) — a national risk-management *system* as an institutional instance.
+- [RD 1.0 Dominican Risk Management System](/view.html?p=notes/social/koinomia/polity/instance/dom/security/risk.md) — a national risk-management *system* as an institutional instance.
 - [Decision Making](/view.html?p=notes/epistemica/observational/decision/decision-making.md) · [Decision Problem](/view.html?p=notes/epistemica/observational/decision/decision-problem.md) — the setting in which risk is evaluated.
 - [Expected Value](/view.html?p=notes/epistemica/observational/probability/expected-value.md) — the expectation the expected-loss measure is built on.
 

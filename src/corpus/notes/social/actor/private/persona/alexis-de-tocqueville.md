@@ -84,8 +84,8 @@ tags: [note, social, actor, social-element, person, political-thought, liberalis
 
 - [Alexis de Tocqueville](https://en.wikipedia.org/wiki/Alexis_de_Tocqueville) (the family and Malesherbes, the American journey, the parliamentary and ministerial record, the works)
 - [Democracy in America](https://en.wikipedia.org/wiki/Democracy_in_America) (the two volumes of 1835 and 1840, equality of conditions, the tyranny of the majority, soft despotism)
-- [Government](/view.html?p=notes/social/actor/public/government.md) (the executive organ he served as minister)
-- [Administration](/view.html?p=notes/social/actor/public/administration.md) (the centralisation he diagnosed)
-- [Municipal Government](/view.html?p=notes/social/actor/public/municipal-government.md) (the local capacity he thought democracy depended on)
+- [Government](/view.html?p=notes/social/koinomia/actor/government.md) (the executive organ he served as minister)
+- [Administration](/view.html?p=notes/social/koinomia/actor/administration.md) (the centralisation he diagnosed)
+- [Municipal Government](/view.html?p=notes/social/koinomia/actor/municipal-government.md) (the local capacity he thought democracy depended on)
 - [Social Role](/view.html?p=notes/social/synontic/role.md) (the deputy, minister, and author roles he occupied)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

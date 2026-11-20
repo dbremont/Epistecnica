@@ -89,7 +89,7 @@ The boundary against the **asset** is the object: [Bond](/view.html?p=notes/tech
 
 - [Finance Sector](/view.html?p=notes/technica/production/industry/finance/readme.md) — the industry shelf this note belongs to
 - [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md) — the instrument the practice models
-- [Firm Finance](/view.html?p=notes/technica/production/firm/toolkit/finance/readme.md) — the firm-side capital and cost-of-capital reading
+- [Firm Finance](/view.html?p=notes/technica/business/toolkit/finance/readme.md) — the firm-side capital and cost-of-capital reading
 - [Halperin (2026) — Three Matrices](/view.html?p=documents/papers/halperin-2026-three-matrices-observable-matrix-dynamics-portfolio-optimization-arxiv.md) — a price-dynamics and portfolio model that deliberately bypasses this stack
 - [Epistemic Model](/view.html?p=notes/epistemica/meta/theory/model.md) · [Calibration](/view.html?p=notes/epistemica/validation/calibration.md) · [Validation](/view.html?p=notes/epistemica/validation/validation.md) — the epistemic half
 - Fabozzi, F. J. (2013). *Bond markets, analysis, and strategies* (8th ed.). Pearson. — the practice as a stack of layers

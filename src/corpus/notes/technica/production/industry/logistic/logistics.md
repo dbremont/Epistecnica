@@ -41,6 +41,11 @@ tags: [note, production]
 - What would it mean for logistics to be a high-technical-density sector rather than a low-margin service layer?
 - Meta Questions: Are these questions complete? Are they well-formulated? What additional questions should be asked?
 
+## Shelf Notes
+
+- [Logistics Hub](/view.html?p=notes/technica/production/industry/logistic/logistics-hub.md) — the node where freight is consolidated, stored and transshipped.
+- [Supply Chain](/view.html?p=notes/technica/production/industry/logistic/supply-chain.md) — the cross-firm sequence of production and delivery stages.
+
 ## References
 
 - [Trade](https://en.wikipedia.org/wiki/Trade)

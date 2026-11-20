@@ -43,7 +43,7 @@ That state replaces the two objects Markowitz mean-variance optimisation is buil
 - [arXiv:2607.27461v1](https://arxiv.org/abs/2607.27461v1) — abstract, PDF and HTML
 - https://doi.org/10.48550/arXiv.2607.27461
 - [Finance Industry](/view.html?p=notes/technica/production/industry/finance/readme.md) — the industry the method trades in
-- [Finance Toolkit](/view.html?p=notes/technica/production/firm/toolkit/finance/readme.md) — the firm-side practice
-- [Quantitative Trading](/view.html?p=notes/technica/production/firm/toolkit/trading/quantitative-trading-qt.md) — the practice the backtest belongs to
+- [Finance Toolkit](/view.html?p=notes/technica/business/toolkit/finance/readme.md) — the firm-side practice
+- [Quantitative Trading](/view.html?p=notes/technica/business/toolkit/trading/quantitative-trading-qt.md) — the practice the backtest belongs to
 - [Share](/view.html?p=notes/technica/production/industry/finance/asset/share.md) — the instrument the portfolio holds
 - [Financial](/view.html?p=notes/miscellanea/discipline/financial.md) — the discipline

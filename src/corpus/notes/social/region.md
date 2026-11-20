@@ -6,7 +6,7 @@ tags: [note, social]
 
 > A spatially bounded area within which human interactions occur with relatively higher internal density than external interaction.
 
-> Region is a **delimitation concept**, the spatial counterpart of [Facet](/view.html?p=notes/social/meta/facet.md): the ontology's own table pairs them — a facet delimits by causal mechanism, a region by location — and neither is an element of social reality. Regions are read at every scale, from a neighbourhood to a continental bloc; the instances filed in the corpus sit with the polity that holds them (for example the Greek and Italian regions under `actor/public/polity/`). A region read as an inhabited, governed settlement is a [City](/view.html?p=notes/social/actor/collective/city.md).
+> Region is a **delimitation concept**, the spatial counterpart of [Facet](/view.html?p=notes/social/meta/facet.md): the ontology's own table pairs them — a facet delimits by causal mechanism, a region by location — and neither is an element of social reality. Regions are read at every scale, from a neighbourhood to a continental bloc; the instances filed in the corpus sit with the polity that holds them (for example the Greek and Italian regions under `koinomia/polity/instance/`). A region read as an inhabited, governed settlement is a [City](/view.html?p=notes/social/actor/collective/city.md).
 
 ## Social Typology
 

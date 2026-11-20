@@ -234,7 +234,7 @@ Here is a table categorizing types of R&D centers by their role, considering the
 | **International Research Centers** | Collaborative research on global challenges | Lead global initiatives, set standards | Technology transfer, capacity building |
 | **Industry-Specific Research Centers** | … | … | … |
 | **Public-Private Partnerships Labs** | Combine resources and expertise from both the public and private sectors to drive innovation | … |  |
-| **National Laboratories** | Los Alamos National Lab (USA), [RIKEN](/view.html?p=notes/social/actor/public/instance/research/jpn/riken.md) (Japan) |  |  |
+| **National Laboratories** | Los Alamos National Lab (USA), [RIKEN](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md) (Japan) |  |  |
 
 ## Innovation Actors
 

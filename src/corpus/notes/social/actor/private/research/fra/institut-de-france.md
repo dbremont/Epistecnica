@@ -19,11 +19,11 @@ tags: [note, social, actor, learned-society, academy, france]
 
 > The Institut is the **academy as a certification body**, and it is worth distinguishing from the two institutions it is often confused with. It is not a university — it does not teach. It is not a research council — it does not fund. What it does is **confer standing**: election to a seat, a prize, the dictionary's ruling on usage. That is a real power in a learned culture, and it is the oldest power in the scientific institutional landscape: the seventeenth-century academy certified before the journal refereed, and before the state funded.
 
-> The 1795 creation is also the moment the form was **nationalised**: the royal academies were abolished in 1793 as corporations of the old regime, and re-founded two years later as departments of a single Institut. The continuity is real — the same members, the same disciplines — but the constitutional position changed from privileged body to public institution, which is why the Institut is a useful case in the typology of [public organisations](/view.html?p=notes/social/actor/public/public-organization.md).
+> The 1795 creation is also the moment the form was **nationalised**: the royal academies were abolished in 1793 as corporations of the old regime, and re-founded two years later as departments of a single Institut. The continuity is real — the same members, the same disciplines — but the constitutional position changed from privileged body to public institution, which is why the Institut is a useful case in the typology of [public organisations](/view.html?p=notes/social/koinomia/actor/public-organization.md).
 
 ## References
 
 - [Institut de France — Wikipedia](https://en.wikipedia.org/wiki/Institut_de_France)
 - [Institut de France — website](https://www.institutdefrance.fr/)
 - [Collège des Quatre-Nations](/view.html?p=notes/social/actor/private/education/fra/college-des-quatre-nations.md) — the building and the college it replaced
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) — the comparative reading of the form
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the comparative reading of the form

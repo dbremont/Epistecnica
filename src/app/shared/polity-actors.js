@@ -56,7 +56,7 @@
       async init() {
         try {
           const params = new URLSearchParams(window.location.search);
-          const pathCode = (window.location.pathname.match(/polity\/([^/]+)\//) || [])[1] || '';
+          const pathCode = (window.location.pathname.match(/polity\/instance\/([^/]+)\//) || [])[1] || '';
           const code = (pathCode || params.get('code') || 'irl').toLowerCase();
           this.code = code;
           const response = await fetch('data/actors.json');
@@ -88,8 +88,8 @@
           if (subtitle) {
             subtitle.textContent = meta.country;
             if (this.code) {
-              subtitle.href = '/notes/web/index.html?dir=' +
-                encodeURIComponent('social/actor/public/polity/' + this.code);
+              subtitle.href = '/explorer.html?dir=' +
+                encodeURIComponent('social/koinomia/polity/instance/' + this.code);
             }
           }
         }

@@ -47,8 +47,8 @@ Lecture notes and video lectures for each session, recitations, problem sets wit
 ## References
 
 - https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/
-- [Finance Toolkit](/view.html?p=notes/technica/production/firm/toolkit/finance/readme.md) — the firm-side practice this course theorises
+- [Finance Toolkit](/view.html?p=notes/technica/business/toolkit/finance/readme.md) — the firm-side practice this course theorises
 - [Finance Industry](/view.html?p=notes/technica/production/industry/finance/readme.md) — the industry the theory is applied in
 - [Share](/view.html?p=notes/technica/production/industry/finance/asset/share.md) · [Bond](/view.html?p=notes/technica/production/industry/finance/asset/bond.md) · [Future](/view.html?p=notes/technica/production/industry/finance/asset/future.md) · [Derivative](/view.html?p=notes/technica/production/industry/finance/asset/derivative.md) — the assets the course prices
 - [Financial](/view.html?p=notes/miscellanea/discipline/financial.md) — the discipline
-- [Quantitative Trading](/view.html?p=notes/technica/production/firm/toolkit/trading/quantitative-trading-qt.md) — the practice that turns the theory into positions
+- [Quantitative Trading](/view.html?p=notes/technica/business/toolkit/trading/quantitative-trading-qt.md) — the practice that turns the theory into positions

@@ -14,7 +14,7 @@ tags: [note, social, actor, collective, social-element, finance-actor, finance]
 
 Its layer is **Ontic** where the actor exists extra-mentally (a central bank, an exchange, a fund, with staff, premises, balance sheet, and address) and **Synontic** where it is constituted by recognition (a monetary authority's mandate, an exchange's listing rules, a currency's legal-tender status). Its facet is **economic-financial** — the dominant causal mechanism is the allocation of capital and the settlement of claims, prior to any political or ideational scoping.
 
-It is not an `Agency` (the capacity to form intentions and select action — what the actor acts *with*), not a `Social Role` (the expectation-tag it occupies), and not an `Institution` (the stabilized rules — clearing, listing, supervision — it acts *within*). It is distinct from a [Firm](/view.html?p=notes/social/actor/firm.md) (converting capability into exchangeable value rather than allocating capital), from the [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) generic (a finance actor may be public or private), and from the [Market](/view.html?p=notes/social/coordinator/market/market.md) it operates in.
+It is not an `Agency` (the capacity to form intentions and select action — what the actor acts *with*), not a `Social Role` (the expectation-tag it occupies), and not an `Institution` (the stabilized rules — clearing, listing, supervision — it acts *within*). It is distinct from a [Firm](/view.html?p=notes/social/actor/firm.md) (converting capability into exchangeable value rather than allocating capital), from the [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) generic (a finance actor may be public or private), and from the [Market](/view.html?p=notes/social/coordinator/market/market.md) it operates in.
 
 ### What is this social instance?
 
@@ -55,6 +55,6 @@ Because the finance family mixes public and private bodies, its instances are sp
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic collective/organization type)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (sibling economic functional subtype)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (sibling functional subtype, also a mixed public/private family)
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) (public authority subtype)
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (public authority subtype)
 - [Market](/view.html?p=notes/social/coordinator/market/market.md) (arena finance actors operate in)
 - [Money](/view.html?p=notes/social/coordinator/money.md) (settlement medium)

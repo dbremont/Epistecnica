@@ -96,7 +96,7 @@ Readable secondarily as a **Public Organization** when it is publicly constitute
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) — the social-element schema this note follows
 - [Research Actor](/view.html?p=notes/social/actor/research.md) — the actor family this kind belongs to
-- [Public Organization](/view.html?p=notes/social/actor/public/public-organization.md) — the public form, including the `Policy Research Organization` kind
+- [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the public form, including the `Policy Research Organization` kind
 - [University](/view.html?p=notes/social/actor/university.md) — the degree-granting actor the policy institute is not
 - [Firm](/view.html?p=notes/social/actor/firm.md) — the market actor the policy institute is not
 - [CEBRI](/view.html?p=notes/social/actor/private/research/bra/centro-brasileiro-de-relacoes-internacionais.md)
