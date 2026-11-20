@@ -18,7 +18,7 @@ A territory is not a region and not a jurisdiction. A [Region](/view.html?p=note
 
 ## Territory, region and scale
 
-The shelf reads the spatial frame at three scales. The [World](/view.html?p=notes/social/koinomia/space/world.md) is the planetary container; a territory is the bounded domain of a polity within it; a region is a delimitation of that domain by interaction density, and may cut across territories (a continental bloc, a cross-border metropolitan area) or sit inside one (the regions of a state). A [City](/view.html?p=notes/social/actor/collective/city.md) is a region read as an inhabited, governed settlement.
+The shelf reads the spatial frame at three scales. The [World](/view.html?p=notes/social/koinomia/space/world.md) is the planetary container; a territory is the bounded domain of a polity within it; a region is a delimitation of that domain by interaction density, and may cut across territories (a continental bloc, a cross-border metropolitan area) or sit inside one (the regions of a state). A [City](/view.html?p=notes/social/koinomia/collective/city.md) is a region read as an inhabited, governed settlement.
 
 ## Territory and the commons
 

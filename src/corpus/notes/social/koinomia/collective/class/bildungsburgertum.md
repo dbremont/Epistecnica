@@ -20,9 +20,9 @@ tags: [note, social, collective, social-element, stratum, bildungsburgertum, eur
 
 ### What type of social element does this instance belong to?
 
-**Bildungsbürgertum belongs to `Social Compound` as its primary kind** — an aggregate of households, professions, institutions, and a shared canon, whose identity rests on the last of these. See [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** where the households, offices and schools exist extra-mentally, **Synontic** where the credential is worth only what a collective honours, and **Noetic** where the canon, the ideal of self-cultivation and the learned habitus live. Its facet is ideational–cultural first, economic second: income came from office, stipend and fee rather than from property, which is the whole point of the contrast.
+**Bildungsbürgertum belongs to `Social Compound` as its primary kind** — an aggregate of households, professions, institutions, and a shared canon, whose identity rests on the last of these. See [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). Its layer is **Ontic** where the households, offices and schools exist extra-mentally, **Synontic** where the credential is worth only what a collective honours, and **Noetic** where the canon, the ideal of self-cultivation and the learned habitus live. Its facet is ideational–cultural first, economic second: income came from office, stipend and fee rather than from property, which is the whole point of the contrast.
 
-> Filed on the [stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) shelf: it is a gradational layer on a scale of cultivation, not a relational position in production. The class it belonged to is the [Bourgeoisie](/view.html?p=notes/social/actor/collective/class/social-class.md), and its relation to that class is association, not constitution.
+> Filed on the [stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) shelf: it is a gradational layer on a scale of cultivation, not a relational position in production. The class it belonged to is the [Bourgeoisie](/view.html?p=notes/social/koinomia/collective/class/social-class.md), and its relation to that class is association, not constitution.
 
 Readable secondarily as an **Interaction Unit** where it organized — the professoriate petitioning, the national-liberal constituency voting, the *Bildungsbürger* speaking for the nation — and as carrying **Status** in the ordinary sense of recognized standing. Those readings are prose, not second trees.
 
@@ -30,7 +30,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 > No, and the ambiguity is the concept's subject. It is a **compound** by constitution — households, professions, schools, a canon — but a **stratum** by definition, since membership is a matter of how much cultivation one holds. Its name asserts membership in the *Bürgertum* while its criterion separates it from the bourgeoisie's economic wing.
 
-> The filing resolves this rather than reproducing it: the note is typed once as a `Social Compound`, the stratum reading is stated as the `Social Property` that puts it on the shelf, and the class reading is refused. It is not a fourth kind of [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) — a pastor or an official owned no means of production, and adding an education-defined kind to a typology whose kinds are production positions would make the typology say two different things at once. The connection to the class is carried by an association row, below.
+> The filing resolves this rather than reproducing it: the note is typed once as a `Social Compound`, the stratum reading is stated as the `Social Property` that puts it on the shelf, and the class reading is refused. It is not a fourth kind of [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) — a pastor or an official owned no means of production, and adding an education-defined kind to a typology whose kinds are production positions would make the typology say two different things at once. The connection to the class is carried by an association row, below.
 
 ### Which facet does this element belong to, if applicable?
 
@@ -77,7 +77,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 | **Category** | **Criteria** | **Bildungsbürgertum** |
 | --- | --- | --- |
-| Conceptual Specification | **Conceptual Identification** | Moderate–Low (boundary work against [intelligentsia](/view.html?p=notes/social/actor/collective/class/intelligentsia.md), professional class, gentry, and *Bildungsbürger* as an insult is constant) |
+| Conceptual Specification | **Conceptual Identification** | Moderate–Low (boundary work against [intelligentsia](/view.html?p=notes/social/koinomia/collective/class/intelligentsia.md), professional class, gentry, and *Bildungsbürger* as an insult is constant) |
 | Conceptual Specification | **Definitional Clarity** | Low–Moderate (*Bildung* is untranslatable and has no settled definition; membership is inferred from occupation plus schooling) |
 | Conceptual Specification | **Conceptual Determinacy** | Low–Moderate (drifts into a residual for "the educated who are not capitalists") |
 | Conceptual Specification | **Internal Consistency** | Moderate (four candidate criteria — credential, occupation, income, bearing — dissociate across the period) |
@@ -86,7 +86,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 | Representational Adequacy | **Intensional Adequacy** | Moderate–High (the cultivation-plus-credential core captures the defining property) |
 | Representational Adequacy | **Discriminative Power** | Moderate (separates educated from economic bourgeoisie sharply; blurs among the professions) |
 | Representational Adequacy | **Granularity Adequacy** | Moderate (one stratum over-aggregates pastor and professor; the historiography subdivides) |
-| Conceptual Economy | **Ontological Parsimony** | Moderate (overlaps [intelligentsia](/view.html?p=notes/social/actor/collective/class/intelligentsia.md), professional class, clerisy, gentry) |
+| Conceptual Economy | **Ontological Parsimony** | Moderate (overlaps [intelligentsia](/view.html?p=notes/social/koinomia/collective/class/intelligentsia.md), professional class, clerisy, gentry) |
 | Conceptual Economy | **Conceptual Distinctiveness** | High (the pairing against the *Wirtschaftsbürgertum* is a genuine analytic cut, not a synonym) |
 | Conceptual Economy | **Redundancy Control** | Moderate (much of its extension is the professional class under another name) |
 | Conceptual Economy | **Boundary Differentiation** | Moderate (period and national boundaries are clear; the outer edge of "the educated" is not) |
@@ -108,7 +108,7 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 ### Is the Bildungsbürgertum a class?
 
-> No. It is a stratum within the [Bourgeoisie](/view.html?p=notes/social/actor/collective/class/social-class.md), connected to it by association. A class is a relational position in production and property; a stratum is a gradational layer on a scale of cultivation. Its members were often propertyless — the pastor, the Gymnasium teacher, the official — and its boundary runs *through* the class rather than around it. The *Bürgertum* in the name records a historical claim of belonging, not a production position.
+> No. It is a stratum within the [Bourgeoisie](/view.html?p=notes/social/koinomia/collective/class/social-class.md), connected to it by association. A class is a relational position in production and property; a stratum is a gradational layer on a scale of cultivation. Its members were often propertyless — the pastor, the Gymnasium teacher, the official — and its boundary runs *through* the class rather than around it. The *Bürgertum* in the name records a historical claim of belonging, not a production position.
 
 ### What survived 1923?
 
@@ -130,9 +130,9 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
-- [Stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) (the shelf and the gradational reading)
-- [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) (the relational cut; the class this stratum belongs to)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the genus: aggregate kinds of the social compound)
+- [Stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) (the shelf and the gradational reading)
+- [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) (the relational cut; the class this stratum belongs to)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the genus: aggregate kinds of the social compound)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing cultivation commanded)
 - [Culture](/view.html?p=notes/social/synontic/culture/culture.md) (the patterns the stratum carried and enforced)
 - [University](/view.html?p=notes/social/actor/university.md) (the Humboldtian form as a kind, and the professor's institution)

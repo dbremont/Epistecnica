@@ -28,7 +28,7 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 
 - [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) — the political collective organized around governing authority over a political community, territory, or jurisdiction.
 - **City-state** — a polity coinciding with a city and its hinterland; the City-State row of the polity decomposition and the city-state instances in the atlas.
-- **Tribe** — a kin-based political community; the Tribe row of [Collective](/view.html?p=notes/social/actor/collective/collective.md). A tribe is a koinomia when it governs shared resources and membership; it need not be a polity.
+- **Tribe** — a kin-based political community; the Tribe row of [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). A tribe is a koinomia when it governs shared resources and membership; it need not be a polity.
 - **Coto Mixto** (*Couto Misto*) — a historical border micro-polity and shared-sovereignty arrangement between Galicia and Portugal, an example of a public order that does not fit the modern state model.
 
 ## Instance
@@ -44,6 +44,10 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 ## Actor
 
 - [Actor](/view.html?p=notes/social/koinomia/actor/readme.md) — the public-actor apparatus: the organizations through which delegated public authority is exercised.
+
+## Collective
+
+- [Collective](/view.html?p=notes/social/koinomia/collective/readme.md) — the Social Compound genus: society, sovereignty, class, city and the plural branch of the actor typology.
 
 ## Action
 

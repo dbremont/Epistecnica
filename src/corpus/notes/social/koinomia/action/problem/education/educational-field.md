@@ -55,7 +55,7 @@ tags: [note, social]
 ## References
 
 - [Human Formation Facet](/view.html?p=notes/social/meta/facet/human-formation.md) — the facet whose mechanism the three ecosystems divide between them
-- [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) — the stratum the *Bildung* idea produced
+- [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) — the stratum the *Bildung* idea produced
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) — the body that carries the curriculum, as against the theory of what it should do
 - Kant, I. (1803). *Über Pädagogik* (F. T. Rink, Ed.). — autonomy as the aim of education
 - Humboldt, W. von. (1793). *Theorie der Bildung des Menschen* [Theory of the formation of man]. — *Bildung* as the cultivation of all the powers

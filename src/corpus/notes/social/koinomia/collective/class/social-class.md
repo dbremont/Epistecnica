@@ -16,7 +16,7 @@ tags: [note, social, collective, social-element, actor, social-class]
 
 ### What type of social element does this instance belong to?
 
-**Social Class belongs to `Social Compound` as its primary kind** — an aggregate collective defined by shared structural position; see [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** (positions in production exist extra-mentally) with **Synontic** aspects (class consciousness and identity, where recognition constitutes the class *for itself*). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
+**Social Class belongs to `Social Compound` as its primary kind** — an aggregate collective defined by shared structural position; see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). Its layer is **Ontic** (positions in production exist extra-mentally) with **Synontic** aspects (class consciousness and identity, where recognition constitutes the class *for itself*). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
 
 Readable secondarily as an **Interaction Unit** where mobilized (strikes, parties, struggle — the class acting in history) and as carrying **Status** (class honor, prestige, lifestyle deference). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -95,12 +95,12 @@ Readable secondarily as an **Interaction Unit** where mobilized (strikes, partie
 
 > A stratum is a gradational layer — higher/lower on some scale. A class is a relational position — defined by its place *against* other positions in production. Strata rank; classes oppose. Type gradational layers as strata, relational positions as classes, and never merge them into one row.
 
-> The [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) is the case where the cut is contested: a German formation defined by cultivation rather than by production position, whose name nonetheless claims membership in the *Bürgertum*. It is filed on the [stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) shelf as a `Social Compound` and linked here by association — the class typology gains no fourth kind, and the stratum keeps its own tree.
+> The [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) is the case where the cut is contested: a German formation defined by cultivation rather than by production position, whose name nonetheless claims membership in the *Bürgertum*. It is filed on the [stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) shelf as a `Social Compound` and linked here by association — the class typology gains no fourth kind, and the stratum keeps its own tree.
 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the genus: aggregate kinds of the social compound)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the genus: aggregate kinds of the social compound)
 - [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: classes act as Interaction Units when mobilized)
 - [Status](/view.html?p=notes/social/synontic/status.md) (class honor and prestige as standing)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)

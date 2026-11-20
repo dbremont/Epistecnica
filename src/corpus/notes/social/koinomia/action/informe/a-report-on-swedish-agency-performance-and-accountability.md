@@ -180,6 +180,6 @@ The result is a system that audits financial regularity comprehensively, audits 
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md)
 - [Royal Commission](/view.html?p=notes/social/koinomia/actor/royal-commission.md)
-- [Report](/view.html?p=notes/social/actor/collective/report.md)
+- [Report](/view.html?p=notes/social/koinomia/collective/report.md)
 - [Audit](/view.html?p=notes/social/dynamic/audit.md)
 - [An Essay on the Swedish Model of Economic and Technological Development (1940–1980)](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md)

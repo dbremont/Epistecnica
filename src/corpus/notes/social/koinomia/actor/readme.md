@@ -30,4 +30,4 @@ tags: [note, social, koinomia, actor, catalog]
 ## Read it with
 
 - [Actor shelf](/view.html?p=notes/social/actor/readme.md) — the generic actor typology.
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) — the plural branch of the actor shelf.
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) — the plural branch of the actor shelf.

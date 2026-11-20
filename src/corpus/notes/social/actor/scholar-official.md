@@ -14,7 +14,7 @@ tags: [note, social, actor, state, social-element, individual, scholar-official,
 
 > It is distinct from the [University](/view.html?p=notes/social/actor/university.md) and the [Education Actor](/view.html?p=notes/social/actor/education-actor.md), which are corporates that teach and certify, and from the **gentry** — the landholding families from which officials were drawn and to which they returned on retirement, and which the examinations never certified as such. The scholar-official is the *person*, not the examination, the family, or the bureau; those are his instruments, his base and his organization.
 
-Readable secondarily as an aggregate: the corps of degree-holders read as a stratum ranked on canonical learning. That reading is what makes it the comparandum for the [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md); it is prose here, and the stratum shelf carries the comparison.
+Readable secondarily as an aggregate: the corps of degree-holders read as a stratum ranked on canonical learning. That reading is what makes it the comparandum for the [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md); it is prose here, and the stratum shelf carries the comparison.
 
 ### What is this social instance?
 
@@ -28,7 +28,7 @@ Readable secondarily as an aggregate: the corps of degree-holders read as a stra
 
 > The actor reading is unambiguous: the individual office-holder is a definite thing with a documentary trail — a degree, a post, a seal, a dossier. The aggregate reading is the ambiguous one, because the corps of officials overlaps the gentry without being identical to it and shades into the lettered elite that held no office at all.
 
-> The filing keeps the two apart: the note types the actor, the stratum reading is stated as prose, and the shelf carries the comparison with the [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md). Nothing is decomposed twice.
+> The filing keeps the two apart: the note types the actor, the stratum reading is stated as prose, and the shelf carries the comparison with the [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md). Nothing is decomposed twice.
 
 ### Which facet does this element belong to, if applicable?
 
@@ -97,13 +97,13 @@ Readable secondarily as an aggregate: the corps of degree-holders read as a stra
 | Normative and Strategic Adequacy | **Performative Effects** | Notable (the examination produced the elite it selected: the canon defined what counted as learning) |
 | Normative and Strategic Adequacy | **Misuse Resistance** | Moderate (the "mandarin" stereotype and the orientalist picture of a static bureaucracy are always available) |
 
-> Verdict: the concept passes determinacy, intensional adequacy, discriminative power, distinctiveness, leverage, operationalizability and measurement validity, and fails contextual robustness while partly failing structural coherence. The contrast with the [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) is instructive and is the reason the two belong together: the Chinese stratum is *better defined* because its credential was examined by the state and written into registers, while *Bildung* was never examined into existence — it was claimed, displayed and recognized, and so it resists the same measurement. The comparison is therefore not "the same thing in two places" but two techniques for making cultivation rank: one documentary, one performative.
+> Verdict: the concept passes determinacy, intensional adequacy, discriminative power, distinctiveness, leverage, operationalizability and measurement validity, and fails contextual robustness while partly failing structural coherence. The contrast with the [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) is instructive and is the reason the two belong together: the Chinese stratum is *better defined* because its credential was examined by the state and written into registers, while *Bildung* was never examined into existence — it was claimed, displayed and recognized, and so it resists the same measurement. The comparison is therefore not "the same thing in two places" but two techniques for making cultivation rank: one documentary, one performative.
 
 ## QA
 
 ### Is the scholar-official a stratum or an actor?
 
-> Both readings are true of the same population, and the note takes the actor reading because the office-holder is the unit that acts, holds a seal, and appears in a register. The stratum reading — the degree-holding elite ranked on canonical learning — is the aggregate of that actor, and it is the reading that makes the type comparable to a European educated bourgeoisie. The [stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) shelf carries the comparison; nothing here is decomposed twice.
+> Both readings are true of the same population, and the note takes the actor reading because the office-holder is the unit that acts, holds a seal, and appears in a register. The stratum reading — the degree-holding elite ranked on canonical learning — is the aggregate of that actor, and it is the reading that makes the type comparable to a European educated bourgeoisie. The [stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) shelf carries the comparison; nothing here is decomposed twice.
 
 ### Did the examinations select an elite or produce one?
 
@@ -122,8 +122,8 @@ Readable secondarily as an aggregate: the corps of degree-holders read as a stra
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md) (the Interaction Unit hub this type sits in)
-- [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) (the comparative credential stratum: cultivation recognized rather than examined)
-- [Stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) (the gradational reading of the corps of degree-holders)
+- [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) (the comparative credential stratum: cultivation recognized rather than examined)
+- [Stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) (the gradational reading of the corps of degree-holders)
 - [University](/view.html?p=notes/social/actor/university.md) (the European corporate that certified learning; the examination certified without a corporation)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (the transmission actor of which the examination academies are a case)
 - [Selection](/view.html?p=notes/social/koinomia/action/instrument/bureaucracy/selection.md) (merit-based selection as an instrument of public action)

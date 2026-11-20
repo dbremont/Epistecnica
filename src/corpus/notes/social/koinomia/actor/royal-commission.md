@@ -78,7 +78,7 @@ The kind is not one thing: the **investigative** commission appointed for one ma
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md) (note schema, layer test, decomposition contract)
 - [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md) (the generic inquiry actor this form belongs to)
-- [Report](/view.html?p=notes/social/actor/collective/report.md) (the social compound the commission issues)
+- [Report](/view.html?p=notes/social/koinomia/collective/report.md) (the social compound the commission issues)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (the genus, whose Task Group kind this is)
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the body it is most often confused with: drawn from a parent assembly, preparing that assembly's business)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body contrast: a board decides and directs)

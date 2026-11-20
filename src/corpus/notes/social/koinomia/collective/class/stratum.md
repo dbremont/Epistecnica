@@ -14,9 +14,9 @@ tags: [note, social, collective, social-element, stratum, social-class]
 
 ## Strata and classes
 
-> The two cuts cross and must not be merged. An occupation ladder is a stratum; a property relation is a class. The same population can be both — a professional is high on the cultivation scale and, in the Marxist reading, a seller of labor power — which is why the [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) note refuses to absorb strata into its kinds and instead links them by association.
+> The two cuts cross and must not be merged. An occupation ladder is a stratum; a property relation is a class. The same population can be both — a professional is high on the cultivation scale and, in the Marxist reading, a seller of labor power — which is why the [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) note refuses to absorb strata into its kinds and instead links them by association.
 
-> Where the scale is cultivation and the credential that certifies it, the stratum acquires a further property: its ranking can be *transmitted* through schooling without being *convertible* into property. That is the case the [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) note works out.
+> Where the scale is cultivation and the credential that certifies it, the stratum acquires a further property: its ranking can be *transmitted* through schooling without being *convertible* into property. That is the case the [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) note works out.
 
 > The other great case is the Chinese [Scholar-Official](/view.html?p=notes/social/actor/scholar-official.md) — a stratum ranked on canonical learning and certified by state examination. It is not filed here: the note at the actor hub types the office-holder, the individual actor, and the stratum reading of the corps of degree-holders is carried as prose there. The shelf links it as the comparison, not the member, which keeps "stratum" a reading and not a kind.
 
@@ -24,10 +24,10 @@ tags: [note, social, collective, social-element, stratum, social-class]
 
 | Stratum | Scale | Case |
 | --- | --- | --- |
-| [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) | Cultivation and the educational credential | The German-speaking lands, c. 1770–1933 |
-| [Grand Burgher](/view.html?p=notes/social/actor/collective/class/grand-burgher.md) | Civic right and hereditary legal privilege | The German-speaking free cities and city-republics, to 1919 |
-| [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) | Family rank and civic standing | Hamburg, Bremen, and Lübeck, c. 1650–1918 |
-| [Intelligentsia](/view.html?p=notes/social/actor/collective/class/intelligentsia.md) | Education and cultural capital, held as a title to speak | Poland and Russia, c. 1840 into the twentieth century |
+| [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) | Cultivation and the educational credential | The German-speaking lands, c. 1770–1933 |
+| [Grand Burgher](/view.html?p=notes/social/koinomia/collective/class/grand-burgher.md) | Civic right and hereditary legal privilege | The German-speaking free cities and city-republics, to 1919 |
+| [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) | Family rank and civic standing | Hamburg, Bremen, and Lübeck, c. 1650–1918 |
+| [Intelligentsia](/view.html?p=notes/social/koinomia/collective/class/intelligentsia.md) | Education and cultural capital, held as a title to speak | Poland and Russia, c. 1840 into the twentieth century |
 
 ## Scales
 
@@ -36,7 +36,7 @@ tags: [note, social, collective, social-element, stratum, social-class]
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) (the relational cut against which the gradational one is defined)
+- [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) (the relational cut against which the gradational one is defined)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing a collective confers, and the scale it ranks on)
 - [Structure](/view.html?p=notes/social/meta/structure.md) (the wider frame the layers sit in)
 - [Social stratification](https://en.wikipedia.org/wiki/Social_stratification)

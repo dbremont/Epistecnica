@@ -29,7 +29,7 @@ tags: [note, social, actor, person, anthropology, kinship]
 
 ## Place in the corpus
 
-He enters through [Collective](/view.html?p=notes/social/actor/collective/collective.md), whose kinship-based kind of association — recognised relatedness as what constitutes a social unit — is exactly the classification he taught the discipline to stop taking for granted. His point for this corpus is not that kinship is unreal but that it is **recognition-constituted**: what counts as related is settled by the society's own symbols, which is why relatedness appears in the collective typology as a way of being associated rather than as a biological fact with a social gloss.
+He enters through [Collective](/view.html?p=notes/social/koinomia/collective/collective.md), whose kinship-based kind of association — recognised relatedness as what constitutes a social unit — is exactly the classification he taught the discipline to stop taking for granted. His point for this corpus is not that kinship is unreal but that it is **recognition-constituted**: what counts as related is settled by the society's own symbols, which is why relatedness appears in the collective typology as a way of being associated rather than as a biological fact with a social gloss.
 
 The same argument runs through [Family](/view.html?p=notes/social/actor/family.md): the household, the descent group and the kin network are not one thing counted three ways.
 
@@ -40,5 +40,5 @@ The same argument runs through [Family](/view.html?p=notes/social/actor/family.m
 - Schneider, D. M. (1984). *A critique of the study of kinship*. University of Michigan Press.
 - Schneider, D. M. (1995). *Schneider on Schneider: The conversion of the Jews and other anthropological stories* (R. Handler, Ed.). Duke University Press.
 - [David M. Schneider](https://en.wikipedia.org/wiki/David_M._Schneider)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) — where recognised relatedness is catalogued as a kind of association
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) — where recognised relatedness is catalogued as a kind of association
 - [Family](/view.html?p=notes/social/actor/family.md) — the social element his critique most directly concerns

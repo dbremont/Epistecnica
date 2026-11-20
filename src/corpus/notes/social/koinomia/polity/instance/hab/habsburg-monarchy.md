@@ -175,7 +175,7 @@ It is distinct from the `Holy Roman Empire` — the Habsburgs held its imperial 
 
 - [Habsburg monarchy — Wikipedia](https://en.wikipedia.org/wiki/Habsburg_monarchy) (names, territories, characteristics, 1526–1918)
 - [Polity](/view.html?p=notes/social/koinomia/polity/polity.md)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - Good, D. F. (1984). The economic rise of the Habsburg Empire, 1750–1914. University of California Press.
 - Komlos, J. (1983). The Habsburg Monarchy as a customs union: Economic development in Austria-Hungary in the nineteenth century. Princeton University Press.

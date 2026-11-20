@@ -57,7 +57,7 @@ Readable secondarily as **Normative** where rank orders are backed by enforceabl
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: standings attach to actors)
 - [Synontic](/view.html?p=notes/social/synontic/synontic.md) (recognition-constituted elements)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the recognizing body)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the recognizing body)
 - [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (membership standing in a polity)
 - [Legitimacy](/view.html?p=notes/social/normative/legitimacy.md) (the warrant behind recognized standing)
 - Weber, M. (1978). *Economy and society: An outline of interpretive sociology* (G. Roth & C. Wittich, Eds.). University of California Press. (Original work published 1922)

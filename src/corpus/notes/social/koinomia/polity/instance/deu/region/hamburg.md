@@ -4,7 +4,7 @@ tags: [note, social, city, polity, europe, modern, germany, hanse]
 
 # Hamburg
 
-> The **Free and Hanseatic City of Hamburg** is Germany's second city and one of its three city-states: the Elbe port, the publishing and media capital, and — before 1919 — a civic republic governed constitutionally by its hereditary grand burghers, the [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md).
+> The **Free and Hanseatic City of Hamburg** is Germany's second city and one of its three city-states: the Elbe port, the publishing and media capital, and — before 1919 — a civic republic governed constitutionally by its hereditary grand burghers, the [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md).
 
 ## The city and its constitution
 
@@ -14,7 +14,7 @@ tags: [note, social, city, polity, europe, modern, germany, hanse]
 
 ## The Hanseatic republic
 
-> The republic was not a democracy before 1919, and the sources say so plainly: it was an oligarchy, and the oligarchy was the class of hereditary grand burghers. Only they could be elected to the Senate; only they held full freedom of large-scale and foreign trade; and the nobility was excluded from property, from political life, and from residence inside the walls. The [grand burgher right](/view.html?p=notes/social/actor/collective/class/grand-burgher.md) was the constitution in legal form, and the [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) were the families who held it.
+> The republic was not a democracy before 1919, and the sources say so plainly: it was an oligarchy, and the oligarchy was the class of hereditary grand burghers. Only they could be elected to the Senate; only they held full freedom of large-scale and foreign trade; and the nobility was excluded from property, from political life, and from residence inside the walls. The [grand burgher right](/view.html?p=notes/social/koinomia/collective/class/grand-burgher.md) was the constitution in legal form, and the [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) were the families who held it.
 
 > What replaced it was the revolution of 1918–19 and the Weimar Constitution, which abolished the hereditary right and made the Senate an elected government. The official name kept the word: *Freie und Hansestadt Hamburg* has been the city's style since 1815, and it records a constitutional history rather than a medieval membership.
 
@@ -32,10 +32,10 @@ tags: [note, social, city, polity, europe, modern, germany, hanse]
 
 ## References
 
-- [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) (the ruling families of the city-republic)
-- [Grand Burgher](/view.html?p=notes/social/actor/collective/class/grand-burgher.md) (the legal order that made them the government)
+- [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) (the ruling families of the city-republic)
+- [Grand Burgher](/view.html?p=notes/social/koinomia/collective/class/grand-burgher.md) (the legal order that made them the government)
 - [Lübeck](/view.html?p=notes/social/koinomia/polity/instance/deu/region/lubeck.md) (the other Hanseatic city-republic, and the one whose alliance founded the League)
 - [Hanseatic League](/view.html?p=notes/social/koinomia/polity/instance/hsa/hanseatic-league.md) (the confederation the name remembers)
 - [Germany](/view.html?p=notes/social/koinomia/polity/instance/deu/germany.md) (the polity the free city joined in 1871)
-- [City](/view.html?p=notes/social/actor/collective/city.md) (the settlement type this note instances)
+- [City](/view.html?p=notes/social/koinomia/collective/city.md) (the settlement type this note instances)
 - [Hamburg](https://en.wikipedia.org/wiki/Hamburg)

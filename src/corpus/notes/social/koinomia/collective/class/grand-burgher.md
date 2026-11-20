@@ -24,17 +24,17 @@ tags: [note, social, collective, social-element, stratum, grossburger, grand-bur
 
 ### What type of social element does this instance belong to?
 
-**Grand Burgher belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a conferred right, a city constitution, the privileges that constitution attached to the right, and the commercial capital the privilege protected. See [Collective](/view.html?p=notes/social/actor/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses and the constitution exist extra-mentally, and **Synontic** where the title's worth is a matter of collective legal recognition and the deference that follows it. Its facet is **legal–constitutional first, economic second**: the privilege created the commerce as much as the commerce bought the privilege.
+**Grand Burgher belongs to `Social Compound` as its primary kind** — an aggregate of families constituted by a conferred right, a city constitution, the privileges that constitution attached to the right, and the commercial capital the privilege protected. See [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). Its layer is **Ontic** where the families, the firms, the houses and the constitution exist extra-mentally, and **Synontic** where the title's worth is a matter of collective legal recognition and the deference that follows it. Its facet is **legal–constitutional first, economic second**: the privilege created the commerce as much as the commerce bought the privilege.
 
-> Filed on the [stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) shelf, and it is the shelf's hardest case. It ranks its holders above petty burghers and non-burghers on the scale of civic right and standing, so the gradational reading applies. But the ranking is not a matter of degree — a family held the right or it did not — and the concept therefore carries a **`Social Property`** reading, the conferred status itself, that the compound reading must not swallow. The shelf's rule is that a note is typed once as the compound it is and the stratum reading is stated; here the property reading is stated too, and named as the reason the case is hard.
+> Filed on the [stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) shelf, and it is the shelf's hardest case. It ranks its holders above petty burghers and non-burghers on the scale of civic right and standing, so the gradational reading applies. But the ranking is not a matter of degree — a family held the right or it did not — and the concept therefore carries a **`Social Property`** reading, the conferred status itself, that the compound reading must not swallow. The shelf's rule is that a note is typed once as the compound it is and the stratum reading is stated; here the property reading is stated too, and named as the reason the case is hard.
 
 Readable secondarily as a **ruling class** where the grand burghers governed — the free imperial cities, and Hamburg until 1919 — and as **Status** in the ordinary sense of recognized standing. Neither is a second tree.
 
 ### Is the type of this `social element instance` unambiguous?
 
-> No, and the ambiguity is the concept's subject. It is a **compound** by constitution — families, firms, a right, a constitution — and a **property** by definition, since what its holders hold is a status conferred by charter. It is not a [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md): its criterion is legal and hereditary, not a position in production, and the causality between wealth and right runs both ways. The note types it once, as the compound, and carries the status reading as the property that puts it on the shelf rather than as a rival root.
+> No, and the ambiguity is the concept's subject. It is a **compound** by constitution — families, firms, a right, a constitution — and a **property** by definition, since what its holders hold is a status conferred by charter. It is not a [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md): its criterion is legal and hereditary, not a position in production, and the causality between wealth and right runs both ways. The note types it once, as the compound, and carries the status reading as the property that puts it on the shelf rather than as a rival root.
 
-> The boundary with the [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) is the other half of the disambiguation. The grand right is the **order** — the legal instrument, defined in the constitution of any German city that had one, from Hamburg to Augsburg, Cologne, and Bern. The Hanseaten are the **families** of three specific city-republics who held it. One is the status, the other the formation that occupied the status, and the notes cross-reference rather than repeat each other.
+> The boundary with the [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) is the other half of the disambiguation. The grand right is the **order** — the legal instrument, defined in the constitution of any German city that had one, from Hamburg to Augsburg, Cologne, and Bern. The Hanseaten are the **families** of three specific city-republics who held it. One is the status, the other the formation that occupied the status, and the notes cross-reference rather than repeat each other.
 
 ### Which facet does this element belong to, if applicable?
 
@@ -127,7 +127,7 @@ Readable secondarily as a **ruling class** where the grand burghers governed —
 
 ### Is the Hanseaten class the same thing?
 
-> No. The [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) are the families of Hamburg, Bremen, and Lübeck who held the right and governed the three republics; the grand burgher is the right they held, which existed in many German cities that were never Hanseatic. The order is the instrument, the class is the formation. Confusing them produces the false claim that every grand burgher was a Hanseat, or that the Hanseaten were a legal category rather than a set of families that occupied one.
+> No. The [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) are the families of Hamburg, Bremen, and Lübeck who held the right and governed the three republics; the grand burgher is the right they held, which existed in many German cities that were never Hanseatic. The order is the instrument, the class is the formation. Confusing them produces the false claim that every grand burgher was a Hanseat, or that the Hanseaten were a legal category rather than a set of families that occupied one.
 
 ### How far did the distinction travel?
 
@@ -137,10 +137,10 @@ Readable secondarily as a **ruling class** where the grand burghers governed —
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
-- [Stratum](/view.html?p=notes/social/actor/collective/class/stratum.md) (the shelf, its scales, and the gradational reading)
-- [Hanseaten](/view.html?p=notes/social/actor/collective/class/hanseaten.md) (the families who held the right in the three Hanseatic cities)
-- [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) (the neighbouring stratum: cultivation rather than legal standing)
-- [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) (the relational cut; the class the order's holders belonged to)
+- [Stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) (the shelf, its scales, and the gradational reading)
+- [Hanseaten](/view.html?p=notes/social/koinomia/collective/class/hanseaten.md) (the families who held the right in the three Hanseatic cities)
+- [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) (the neighbouring stratum: cultivation rather than legal standing)
+- [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) (the relational cut; the class the order's holders belonged to)
 - [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (the municipal membership the right realizes)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the collective conferred on the right)
 - [Hamburg](/view.html?p=notes/social/koinomia/polity/instance/deu/region/hamburg.md) (the republic the right governed until 1919)

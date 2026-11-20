@@ -8,4 +8,4 @@ tags: [note, social, actor]
 
 - [Actor shelf](/explorer.html?dir=notes/social/koinomia/actor)
 - [Koinomia](/view.html?p=notes/social/koinomia/readme.md)
-- [Collective](/view.html?p=notes/social/actor/collective/readme.md)
+- [Collective](/view.html?p=notes/social/koinomia/collective/readme.md)

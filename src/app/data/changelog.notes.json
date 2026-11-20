@@ -70993,6 +70993,11 @@
     "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch.",
     "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
     "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the plural branch at koinomia/collective/."
    }
   ]
  },
@@ -71019,370 +71024,6 @@
     "summary": "QA on appointment authority: whether the power to appoint implies control of decisions, how the distribution of appointment powers affects independence, which arrangements concentrate authority, how open competition and political appointment differ in board composition, and whether stakeholder boards govern differently from competency-based ones.",
     "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
     "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/city.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the problem-dimension links after action/problem/ moved under action/public/."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "Note rebuilt as the single city note: the technical system note technica/general/cto/industry/city-system.md merged into it and deleted. The note now leads with the settlement definition, keeps the original Ontological Signature table verbatim (with a line noting it is the original signature and that the type is settled under Formulation), and adds a social Formulation: City typed as a Social Compound (Ontic, structural-spatial facet), with the contrasts that do the work — not an Interaction Unit (the governing public organization is an actor inside the compound), not a Region (an interaction field rather than a settlement with fabric and institutions), not a Polity (a city-state is both), and not a Production Technical System simpliciter (that is the second reading). A 29-row settlement-level decomposition covers territory, population (resident, household, resident organization), built fabric (dwelling stock, civic premises, public space, technical networks as a grouping), institutions (governance, property regime, planning regime, market, culture and memory), relations (region, supply, network of cities) and composite forms (town, metropolitan city, conurbation, city-state); the technical fabric is named once as a grouping and decomposed in the carried section. New section 'The city as a technical system' carries the former note's type statement and its 77-row Production Technical System tree verbatim, plus its conceptuum evaluation, so no technical content was lost in the move. New section 'Planning, architecture and zoning' sets the three frames that act on the settlement at different scales, with zoning described as the legal instrument binding them and as the place where settlement and technical system meet, anchored on Euclid v. Ambler (1926), the UK Town and Country Planning Act 1947 and Sweden's Plan- och bygglagen (2010:900) with Boverket as national board. References integrated into one list: the corpus urbanism and construction links (urbanismo, urban design, urban mobility, urban drainage, microclimate engineering, waste management and valorisation, architecture, residential building, construction technology, construction project system, logistics system, energy technology, region, public organization), the literature (Lynch 1960, Jacobs 1961, Alexander 1977, Mumford 1961, Sitte 1889, Le Corbusier 1925, Kostof 1991, Frampton 1980, Vitruvius), the planning-law anchors and the standards (ISO 37122, UN SDGs), with the note's existing Camargo reference kept.",
-    "commit": "5c3185d001a95a31519c2673a3eaaadea6cb34da",
-    "before": "d0d7ccf53365de486a135699b3fba2976aa57cc6"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Region links to the koinomia shelf.",
-    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
-    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Region links to the space/ shelf.",
-    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
-    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
-    "before": "d294ca477e0a5730b370355f5387893653a12638"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the flattened problem/ shelf.",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
-    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the urbanism object links to the technica shelf.",
-    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6",
-    "before": "bacedd8d023c146e9709135074498dcf7e152e17"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/bildungsburgertum.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "feat",
-    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
-    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "docs",
-    "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison.",
-    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
-    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "feat",
-    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
-    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "refactor",
-    "summary": "Two unlinked mentions of the intelligentsia in the conceptuum evaluation table (Conceptual Identification and Ontological Parsimony) now link the new intelligentsia note, which is the boundary the evaluation already names. No other change.",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417",
-    "before": "a68c35f9113de12ee18cee25a842b42c3be17866"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/grand-burgher.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New stratum note: Grand Burgher (Grossbuerger, Grossbuergerrecht), the highest tier of urban citizenship in the German-speaking city-states of the Holy Roman Empire, from the Wikipedia article. The note works the legal order rather than the class: the three-tier hierarchy (hereditary grand burghers, petty burghers, non-burghers) into which the legally coequal burghers split before the fifteenth century; the privileges as Hamburg defined them (full unrestricted large-scale trade including foreign import and export, a bank account, eligibility for the Senate); the fees that made the order self-reproducing (50 Reichstaler against 7 in 1600, 758 Mark 8 Schilling against 46 in 1833); conferral by purchase, inheritance through male and female lines, and marriage; the abolition with the Weimar Constitution on 11 August 1919, with titles surviving only as family names, and the explicit point that the repeal did not touch the wealth or the firms. Typed Social Compound with the conferred status carried as a Social Property reading — the shelf's hardest case, since the rank is a threshold rather than a degree — and the ambiguity is stated as the concept's subject. 22-row decomposition, a 24-criterion conceptuum evaluation and verdict, and five QA entries (noble or not, why the right cost money, what 1919 abolished, whether the Hanseaten are the same thing, and the New Amsterdam 1657 borrowing).",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/hanseaten.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New stratum note: the Hanseaten, the First Families of Hamburg, Bremen and Luebeck, from the Wikipedia article. The note is built on the paradox the sources state and the concept has to hold: a strictly republican oligarchy that banned the nobility from property, political life and residence inside Hamburg, then occupied the place nobles held elsewhere. Contents: the families as holders of hereditary grand burghership; the offices they held (mayor, senator, city diplomat, senior pastor); the family firm and the private bank; the endogamous marriage network and the unwanted traffic with the nobility; and the republican ethos — the honourable merchant, the hanseatic rejection of foreign honours, and the resistance to ennoblement, with the Berenberg-Gossler and Burchard anecdotes. Dated from about 1650 to 1918-19, with the point kept distinct: the constitutional order ended, the families did not. Boundary with Grand Burgher drawn explicitly in both notes — the right is the instrument, the Hanseaten are the formation that held it. 25-row decomposition, a 24-criterion evaluation whose verdict turns on the class's self-description, and five QA entries.",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/intelligentsia.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New stratum note: the intelligentsia, from the Wikipedia article. The note keeps the two national formations apart because the difference is the concept: the Polish inteligencja coined by Trentowski in the 1840s and given its programme by Libelt in 1844, and the Russian intelligentsiya as an oppositional order — Berlin's 'dedicated order, almost a secular priesthood' quoted — with the growth from 20,000 professionals in 1860 to 85,000 in 1900, Bulgakov on Peter the Great, the Narodniks and nihilists, the Bolshevik reading of a prosloyka without class character, the 1917 split and the Philosophers' steamers, the Soviet formalisation into scientific-technical and creative intelligentsia (engineering graduates 15,000 to 250,000, 1917-41), the post-Soviet decline, and the derived mass and free-floating intelligentsia. The boundary with the corpus's own Bildungsbuergertum is stated as functional rather than national: office and state service there, critique and the journal here. Lenin's polemic is carried in substance without its obscenity. 28-row decomposition, 24-criterion evaluation, six QA entries.",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/social-class.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "docs",
-    "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested.",
-    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0",
-    "before": "9514e35123e319756dd9c964c4ead11d9f69da45"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/class/stratum.md",
-  "logs": [
-   {
-    "date": "2026-11-15",
-    "kind": "feat",
-    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
-    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "docs",
-    "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor.",
-    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
-    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-15",
-    "kind": "feat",
-    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
-    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "Shelf updated for three new members: the Members table gains Grand Burgher (civic right and hereditary legal privilege), Hanseaten (family rank and civic standing) and Intelligentsia (education and cultural capital held as a title to speak), each with its scale and case. The Scales paragraph gains a sixth scale, civic right — the legal standing of municipal membership, where a charter rather than a market sets the rank — because the Grand Burgher and the Hanseaten are ranked on a constitutional threshold rather than on cultivation, income, prestige, occupation or authority.",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417",
-    "before": "a68c35f9113de12ee18cee25a842b42c3be17866"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/collective.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "References: the Schneider and Gilbert entries become links to their persona notes; both had been cited as names without notes.",
-    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c",
-    "before": "81034f7d572f05bab774268782a32d8005ae7f03"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Social Group links to the singular modelling note.",
-    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
-    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/journal/philosophical-transactions-of-the-royal-society.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from social/actor/collective/philosophical-transactions-of-the-royal-society.md: a bound instance does not belong at the genus root, beside collective.md, polity.md and society.md, which are type notes. Filed in a journal/ kind shelf, where the next serial scholarly compound goes.",
-    "commit": "ea64d414a66f7c62daf141d951b7bc811cfe00b0"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/readme.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Rewrite as the branch readme: the plural side of the actor shelf, what the branch holds, and what to read it with. The third paragraph, which described the relocated actor subtree, no longer applies.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add the two pluralities the structural shelf contributed: the class branch (Social Class and Stratum with their historical instances) and the City.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/report.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "feat",
-    "summary": "Add the Report social-compound note: official reports, white papers, commission reports, annual and technical reports, with SOU and NOU series and report parts."
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/sociality.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission.",
-    "commit": "f880b5f63b1f61e669f70098bc61aa855d328c58"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/sociality.md: physically moved into the social shelf, beside society.md, at the user's instruction. The propensity is still typed as a Property and the decomposition is unchanged; the tags now lead with social rather than nature.",
-    "commit": "5a8cca4663dca8848029aa592f845d4e36603b37"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/society.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Moved from social/meta/society.md into social/actor/collective/, where the genus notes of the collective shelf live. Society is the collective it describes, not a framework category, and the shelf now says so.",
-    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b"
-   }
-  ]
- },
- {
-  "file_path": "social/actor/collective/sovereignty.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: sovereignty, filed beside the polity it is a property of rather than on the normative shelf, because sovereignty is carried by a polity and does not exist apart from it. Typed as `Social Property` (Ontic, read synontically where it depends on recognition) and explicitly not a kind of polity nor a part of one; distinguished from authority (the entitlement to decide inside the order) and legitimacy (the rightness of exercising it). Decomposition under three groupings: locus (personal, legal, parliamentary, popular, national), extension (territorial, economic, technological), the four classical marks (absoluteness, indivisibility, perpetuity, inalienability) each with its standing objection, and standing grades (full, pooled, bounded, absent) that restate as degrees what polity.md calls Dependent Standing. Then the theories table with what each cost, the limits that actually bind a sovereign, and the de jure / de facto and formal / substantive distinctions. The note says plainly that sovereignty is a claim treated as a fact, and that the vocabulary survives because it is what makes the violations legible.",
-    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c"
    },
    {
     "date": "2026-11-20",
@@ -76612,6 +76253,11 @@
     "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
     "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
     "before": "43620dc69c8637f506cb1938c86bed287430f00a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the plural branch at koinomia/collective/."
    }
   ]
  },
@@ -88777,6 +88423,440 @@
   ]
  },
  {
+  "file_path": "social/koinomia/collective/city.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the problem-dimension links after action/problem/ moved under action/public/."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Note rebuilt as the single city note: the technical system note technica/general/cto/industry/city-system.md merged into it and deleted. The note now leads with the settlement definition, keeps the original Ontological Signature table verbatim (with a line noting it is the original signature and that the type is settled under Formulation), and adds a social Formulation: City typed as a Social Compound (Ontic, structural-spatial facet), with the contrasts that do the work — not an Interaction Unit (the governing public organization is an actor inside the compound), not a Region (an interaction field rather than a settlement with fabric and institutions), not a Polity (a city-state is both), and not a Production Technical System simpliciter (that is the second reading). A 29-row settlement-level decomposition covers territory, population (resident, household, resident organization), built fabric (dwelling stock, civic premises, public space, technical networks as a grouping), institutions (governance, property regime, planning regime, market, culture and memory), relations (region, supply, network of cities) and composite forms (town, metropolitan city, conurbation, city-state); the technical fabric is named once as a grouping and decomposed in the carried section. New section 'The city as a technical system' carries the former note's type statement and its 77-row Production Technical System tree verbatim, plus its conceptuum evaluation, so no technical content was lost in the move. New section 'Planning, architecture and zoning' sets the three frames that act on the settlement at different scales, with zoning described as the legal instrument binding them and as the place where settlement and technical system meet, anchored on Euclid v. Ambler (1926), the UK Town and Country Planning Act 1947 and Sweden's Plan- och bygglagen (2010:900) with Boverket as national board. References integrated into one list: the corpus urbanism and construction links (urbanismo, urban design, urban mobility, urban drainage, microclimate engineering, waste management and valorisation, architecture, residential building, construction technology, construction project system, logistics system, energy technology, region, public organization), the literature (Lynch 1960, Jacobs 1961, Alexander 1977, Mumford 1961, Sitte 1889, Le Corbusier 1925, Kostof 1991, Frampton 1980, Vitruvius), the planning-law anchors and the standards (ISO 37122, UN SDGs), with the note's existing Camargo reference kept.",
+    "commit": "5c3185d001a95a31519c2673a3eaaadea6cb34da",
+    "before": "d0d7ccf53365de486a135699b3fba2976aa57cc6"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Region links to the koinomia shelf.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Region links to the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
+    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the flattened problem/ shelf.",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
+    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the urbanism object links to the technica shelf.",
+    "commit": "8736e75e5e1f197bf6292c0527c652cf9aa4aae6",
+    "before": "bacedd8d023c146e9709135074498dcf7e152e17"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/bildungsburgertum.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Link the stratum to the salon where cultivation was performed, to Lübeck as its merchant mirror, and to the scholar-official as the examined comparandum, with a question on the comparison.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Bildungsbürgertum as a stratum: standing by cultivation and educational credential rather than production position, c. 1770–1933, with the class reading refused and linked by association.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "refactor",
+    "summary": "Two unlinked mentions of the intelligentsia in the conceptuum evaluation table (Conceptual Identification and Ontological Parsimony) now link the new intelligentsia note, which is the boundary the evaluation already names. No other change.",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417",
+    "before": "a68c35f9113de12ee18cee25a842b42c3be17866"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/grand-burgher.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: Grand Burgher (Grossbuerger, Grossbuergerrecht), the highest tier of urban citizenship in the German-speaking city-states of the Holy Roman Empire, from the Wikipedia article. The note works the legal order rather than the class: the three-tier hierarchy (hereditary grand burghers, petty burghers, non-burghers) into which the legally coequal burghers split before the fifteenth century; the privileges as Hamburg defined them (full unrestricted large-scale trade including foreign import and export, a bank account, eligibility for the Senate); the fees that made the order self-reproducing (50 Reichstaler against 7 in 1600, 758 Mark 8 Schilling against 46 in 1833); conferral by purchase, inheritance through male and female lines, and marriage; the abolition with the Weimar Constitution on 11 August 1919, with titles surviving only as family names, and the explicit point that the repeal did not touch the wealth or the firms. Typed Social Compound with the conferred status carried as a Social Property reading — the shelf's hardest case, since the rank is a threshold rather than a degree — and the ambiguity is stated as the concept's subject. 22-row decomposition, a 24-criterion conceptuum evaluation and verdict, and five QA entries (noble or not, why the right cost money, what 1919 abolished, whether the Hanseaten are the same thing, and the New Amsterdam 1657 borrowing).",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/hanseaten.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: the Hanseaten, the First Families of Hamburg, Bremen and Luebeck, from the Wikipedia article. The note is built on the paradox the sources state and the concept has to hold: a strictly republican oligarchy that banned the nobility from property, political life and residence inside Hamburg, then occupied the place nobles held elsewhere. Contents: the families as holders of hereditary grand burghership; the offices they held (mayor, senator, city diplomat, senior pastor); the family firm and the private bank; the endogamous marriage network and the unwanted traffic with the nobility; and the republican ethos — the honourable merchant, the hanseatic rejection of foreign honours, and the resistance to ennoblement, with the Berenberg-Gossler and Burchard anecdotes. Dated from about 1650 to 1918-19, with the point kept distinct: the constitutional order ended, the families did not. Boundary with Grand Burgher drawn explicitly in both notes — the right is the instrument, the Hanseaten are the formation that held it. 25-row decomposition, a 24-criterion evaluation whose verdict turns on the class's self-description, and five QA entries.",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/intelligentsia.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New stratum note: the intelligentsia, from the Wikipedia article. The note keeps the two national formations apart because the difference is the concept: the Polish inteligencja coined by Trentowski in the 1840s and given its programme by Libelt in 1844, and the Russian intelligentsiya as an oppositional order — Berlin's 'dedicated order, almost a secular priesthood' quoted — with the growth from 20,000 professionals in 1860 to 85,000 in 1900, Bulgakov on Peter the Great, the Narodniks and nihilists, the Bolshevik reading of a prosloyka without class character, the 1917 split and the Philosophers' steamers, the Soviet formalisation into scientific-technical and creative intelligentsia (engineering graduates 15,000 to 250,000, 1917-41), the post-Soviet decline, and the derived mass and free-floating intelligentsia. The boundary with the corpus's own Bildungsbuergertum is stated as functional rather than national: office and state service there, critique and the journal here. Lenin's polemic is carried in substance without its obscenity. 28-row decomposition, 24-criterion evaluation, six QA entries.",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/social-class.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Link the class typology to the Bildungsbürgertum by association and extend the class-versus-stratum question with the case where the cut is contested.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0",
+    "before": "9514e35123e319756dd9c964c4ead11d9f69da45"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/class/stratum.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "docs",
+    "summary": "Add the scholar-official to the shelf as the comparative case rather than a member, since its note types the office-holder as an actor.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Open the stratum shelf: a gradational layer stated as a `Social Property` carried by a compound, with no `Stratum` kind added to the socialium guide.",
+    "commit": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "Shelf updated for three new members: the Members table gains Grand Burgher (civic right and hereditary legal privilege), Hanseaten (family rank and civic standing) and Intelligentsia (education and cultural capital held as a title to speak), each with its scale and case. The Scales paragraph gains a sixth scale, civic right — the legal standing of municipal membership, where a charter rather than a market sets the rank — because the Grand Burgher and the Hanseaten are ranked on a constitutional threshold rather than on cultivation, income, prestige, occupation or authority.",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417",
+    "before": "a68c35f9113de12ee18cee25a842b42c3be17866"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/collective.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: the Schneider and Gilbert entries become links to their persona notes; both had been cited as names without notes.",
+    "commit": "a72e28eae3ea487806323be26533fb6caf993e4c",
+    "before": "81034f7d572f05bab774268782a32d8005ae7f03"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Social Group links to the singular modelling note.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
+    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/journal/philosophical-transactions-of-the-royal-society.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from social/actor/collective/philosophical-transactions-of-the-royal-society.md: a bound instance does not belong at the genus root, beside collective.md, polity.md and society.md, which are type notes. Filed in a journal/ kind shelf, where the next serial scholarly compound goes.",
+    "commit": "ea64d414a66f7c62daf141d951b7bc811cfe00b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Rewrite as the branch readme: the plural side of the actor shelf, what the branch holds, and what to read it with. The third paragraph, which described the relocated actor subtree, no longer applies.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the two pluralities the structural shelf contributed: the class branch (Social Class and Stratum with their historical instances) and the City.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/report.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the Report social-compound note: official reports, white papers, commission reports, annual and technical reports, with SOU and NOU series and report parts."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/sociality.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission.",
+    "commit": "f880b5f63b1f61e669f70098bc61aa855d328c58"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/sociality.md: physically moved into the social shelf, beside society.md, at the user's instruction. The propensity is still typed as a Property and the decomposition is unchanged; the tags now lead with social rather than nature.",
+    "commit": "5a8cca4663dca8848029aa592f845d4e36603b37"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/society.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Moved from social/meta/society.md into social/actor/collective/, where the genus notes of the collective shelf live. Society is the collective it describes, not a framework category, and the shelf now says so.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/sovereignty.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sovereignty, filed beside the polity it is a property of rather than on the normative shelf, because sovereignty is carried by a polity and does not exist apart from it. Typed as `Social Property` (Ontic, read synontically where it depends on recognition) and explicitly not a kind of polity nor a part of one; distinguished from authority (the entitlement to decide inside the order) and legitimacy (the rightness of exercising it). Decomposition under three groupings: locus (personal, legal, parliamentary, popular, national), extension (territorial, economic, technological), the four classical marks (absoluteness, indivisibility, perpetuity, inalienability) each with its standing objection, and standing grades (full, pooled, bounded, absent) that restate as degrees what polity.md calls Dependent Standing. Then the theories table with what each cost, the limits that actually bind a sovereign, and the de jure / de facto and formal / substantive distinctions. The note says plainly that sovereignty is a claim treated as a fact, and that the vocabulary survives because it is what makes the violations legible.",
+    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/governance/administration.md",
   "logs": [
    {
@@ -91147,6 +91227,11 @@
     "summary": "Retarget the shelf index to the space/ shelf and add Territory.",
     "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
     "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Collective section linking the social compound branch."
    }
   ]
  },

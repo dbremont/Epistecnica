@@ -26,7 +26,7 @@ tags: [note, social, facet, social-ontology, education, formation]
 
 - **Field**: [Educational Field](/view.html?p=notes/social/koinomia/action/problem/education/educational-field.md) — the three ecosystems (technical training, science and engineering preparation, general formation) and the twelve theories of formation from Kant to Freire.
 - **Actors**: the [Education Actor](/view.html?p=notes/social/actor/education-actor.md) type note, [University](/view.html?p=notes/social/actor/university.md) as its chartered kind, and the country-coded shelves under `social/actor/private/education/<code>/` — industrial schools, medical and business schools, technical universities.
-- **Stratum**: [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) — the stratum the *Bildung* reading of this facet produced in one society.
+- **Stratum**: [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) — the stratum the *Bildung* reading of this facet produced in one society.
 - **Policies**: the ministries and programmes that steer it are filed under `social/koinomia/action/problem/education/`, with the polity shelves that carry them.
 
 ## References

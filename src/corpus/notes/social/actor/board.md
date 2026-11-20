@@ -218,6 +218,6 @@ Readable secondarily as a `Public Organization` kind when the board itself is a 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the actor whose direction the board decides)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) (secondary reading: the statutory board as an organization; the composition and selection questions this note now owns came from there)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md) (the compound genus a board is constituted within)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md) (the compound genus a board is constituted within)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md) (the instrument that confers a board's mandate)
 - [Social Role](/view.html?p=notes/social/synontic/role.md) (the expectation-tags board members and chairs occupy)

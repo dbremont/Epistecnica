@@ -491,6 +491,18 @@
    "to": "social/koinomia/action/",
    "label": "Public Action",
    "kind": "related"
+  },
+  {
+   "from": "social/koinomia/",
+   "to": "social/koinomia/collective/",
+   "label": "Collective",
+   "kind": "hierarchy"
+  },
+  {
+   "from": "social/koinomia/collective/",
+   "to": "social/koinomia/",
+   "label": "Koinomia",
+   "kind": "hierarchy"
   }
  ]
 }

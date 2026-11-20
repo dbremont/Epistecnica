@@ -20,7 +20,7 @@ tags: [note, social, city, polity, europe, medieval, modern, germany, hanse]
 
 ## The economic bourgeoisie
 
-> Lübeck is the mirror in which the [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) can be seen. Here standing rested on capital and trade, and cultivation was a private accomplishment rather than the title to office. *Buddenbrooks* (1901) is the great document of that order's self-doubt: the house declines across four generations, and the last of the line is drawn to music rather than to commerce — the cultivated interior surviving the mercantile one. Set in the city of Mann's own merchant family, the novel made Lübeck the literary name for the German economic bourgeoisie and, inadvertently, for its end.
+> Lübeck is the mirror in which the [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) can be seen. Here standing rested on capital and trade, and cultivation was a private accomplishment rather than the title to office. *Buddenbrooks* (1901) is the great document of that order's self-doubt: the house declines across four generations, and the last of the line is drawn to music rather than to commerce — the cultivated interior surviving the mercantile one. Set in the city of Mann's own merchant family, the novel made Lübeck the literary name for the German economic bourgeoisie and, inadvertently, for its end.
 
 ## After the league
 
@@ -29,8 +29,8 @@ tags: [note, social, city, polity, europe, medieval, modern, germany, hanse]
 ## References
 
 - [Hanseatic League](/view.html?p=notes/social/koinomia/polity/instance/hsa/hanseatic-league.md) (the league the city led)
-- [Social Class](/view.html?p=notes/social/actor/collective/class/social-class.md) (the class whose economic wing the patriciate was)
-- [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) (the stratum this city's ruling class is named against)
+- [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) (the class whose economic wing the patriciate was)
+- [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) (the stratum this city's ruling class is named against)
 - [Germany](/view.html?p=notes/social/koinomia/polity/instance/deu/germany.md) (the polity the free city joined)
 - Mann, T. (1901). *Buddenbrooks: Verfall einer Familie*.
 - [Lübeck](https://en.wikipedia.org/wiki/L%C3%BCbeck)

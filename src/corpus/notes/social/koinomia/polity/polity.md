@@ -57,9 +57,9 @@ Readable secondarily as an `Interaction Unit` (a bounded entity capable of inter
 - [Koinomia](/view.html?p=notes/social/koinomia/readme.md) — the public/commons arrangement this polity is a form of
 - [Polity Atlas](/corpus/notes/social/koinomia/polity/index.html)
 - [Polity Instance](/view.html?p=notes/social/koinomia/polity/instance/readme.md)
-- [Collective](/view.html?p=notes/social/actor/collective/collective.md)
+- [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md)
-- [Sovereignty](/view.html?p=notes/social/actor/collective/sovereignty.md) — the property of a polity this note grades as Dependent Standing
+- [Sovereignty](/view.html?p=notes/social/koinomia/collective/sovereignty.md) — the property of a polity this note grades as Dependent Standing
 - [Polity](https://en.wikipedia.org/wiki/Polity)
 - [State (polity)](https://en.wikipedia.org/wiki/State_(polity))
 - [Representation Systems](/view.html?p=notes/social/koinomia/actor/legislature/representation-systems.md) — the design space: how many representatives, selected how, at which level

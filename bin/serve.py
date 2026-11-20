@@ -179,6 +179,8 @@ INTL_MOVED = {
     "wto.md",
 }
 POLITY_MD = "/corpus/notes/social/koinomia/polity/polity.md"
+COLLECTIVE_OLD = "/corpus/notes/social/actor/collective/"
+COLLECTIVE_NEW = "/corpus/notes/social/koinomia/collective/"
 GOVERNANCE_DIR = "/corpus/notes/social/koinomia/governance/"
 GOVERNANCE_MOVED = {
     "/corpus/notes/social/koinomia/actor/administration.md": GOVERNANCE_DIR + "administration.md",
@@ -564,6 +566,11 @@ class HubHandler(SimpleHTTPRequestHandler):
         target = GOVERNANCE_MOVED.get(path)
         if target is not None:
             self._redirect(target)
+            return True
+
+        if path.startswith(COLLECTIVE_OLD):
+            rest = path[len(COLLECTIVE_OLD):]
+            self._redirect(COLLECTIVE_NEW + rest)
             return True
 
         if path.startswith(INTL_POLITY_OLD):

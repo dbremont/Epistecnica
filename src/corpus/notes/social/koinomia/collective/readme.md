@@ -1,0 +1,25 @@
+---
+tags: [note, social]
+---
+
+# Collective — Social Compound Branch
+
+> The plural branch of the actor shelf: notes for the **Collective**, the Social Compound genus of which populations, communities, organizations, groups and polities are kinds — *who hangs together, and how*. Hub: [Collective](/view.html?p=notes/social/koinomia/collective/collective.md).
+
+> The shelf is arranged by what an actor is, not by what it does: an individual and a firm are both actors, and this branch holds only the plural side. The singular side and the generic kind hubs (`private/`) live one level up in [Actor](/view.html?p=notes/social/actor/readme.md); the public-actor side is filed in [`koinomia/actor/`](/view.html?p=notes/social/koinomia/actor/readme.md).
+
+## What the branch holds
+
+- **The genus** — [Collective](/view.html?p=notes/social/koinomia/collective/collective.md), the Social Compound element and its kinds (dyad, triad, crowd, family, neighbourhood, interest group, movement, association, organization, polity).
+- **The unbounded plural** — [Society](/view.html?p=notes/social/koinomia/collective/society.md) and [Sociality](/view.html?p=notes/social/koinomia/collective/sociality.md), where the plurality is not bounded by membership.
+- **The bounded plural** — [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) and [Sovereignty](/view.html?p=notes/social/koinomia/collective/sovereignty.md), where authority draws the boundary; polity is the political core of [Koinomia](/view.html?p=notes/social/koinomia/readme.md).
+- **Ranked pluralities** — [`class/`](/explorer.html?dir=notes/social/koinomia/collective/class): [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md), an aggregate defined by position in production, and [Stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md), a gradational position on a scale, with their historical instances (Bildungsbürgertum, Grand Burgher, Hanseaten, Intelligentsia).
+- **The settlement** — [City](/view.html?p=notes/social/koinomia/collective/city.md), a bounded compound with governance, infrastructure and a technical-system reading.
+- **Collective actors** — [Philosophical Transactions of the Royal Society](/view.html?p=notes/social/koinomia/collective/journal/philosophical-transactions-of-the-royal-society.md) and the journal shelf, as one worked instance of a collective that acts.
+- **The programme** — [Theoretical Framework Program](/view.html?p=notes/social/program.md), which states the theory of the shared action space this branch is read against.
+
+## Read it with
+
+- [Actor](/view.html?p=notes/social/actor/actor.md) — the root hub of the actor typology
+- [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) — the element that covers both the singular and the plural actor
+- [Organization](/view.html?p=notes/social/actor/organization.md) — the organized subtype of the collective

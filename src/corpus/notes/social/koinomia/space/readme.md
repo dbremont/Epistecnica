@@ -17,4 +17,4 @@ This shelf is the spatial organ of the koinomia domain, alongside [Polity](/view
 ## Read it with
 
 - [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) — the authority that holds a territory.
-- [City](/view.html?p=notes/social/actor/collective/city.md) — a region read as an inhabited, governed settlement.
+- [City](/view.html?p=notes/social/koinomia/collective/city.md) — a region read as an inhabited, governed settlement.
