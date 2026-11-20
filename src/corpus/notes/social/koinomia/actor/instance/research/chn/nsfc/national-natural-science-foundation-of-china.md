@@ -82,14 +82,14 @@ Four consequences follow from funding by discipline and by ladder rather than by
 - **Fields grow where panels are.** A discipline's budget is a function of its panel's composition and its applicants' quality, not of a national target. This is decentralisation in a centralised state, and it explains both the breadth of Chinese output and the difficulty of directing it.
 - **People and projects are funded separately.** The talent ladder makes a career out of awards; the program ladder makes a project out of a proposal. The two interact: a tier-A award changes what the next General Program application can promise.
 - **The label economy is intrinsic.** Any ladder that marks people creates labels, and labels get used for hiring, promotion and pay. Hence the renaming — a reform aimed not at the funding but at the social meaning of the funding.
-- **The mission line is thin.** Major Research Plans are the place where a state priority can enter, and they are a small share of the whole. When the national five-year plan sets directions (see [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/china-five-year-plan.md)), NSFC's schema is not the instrument that carries them.
+- **The mission line is thin.** Major Research Plans are the place where a state priority can enter, and they are a small share of the whole. When the national five-year plan sets directions (see [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md)), NSFC's schema is not the instrument that carries them.
 
 ## Relation
 
 | **Concept** | **Relation** |
 | --- | --- |
 | [Chinese Academy of Sciences](/view.html?p=notes/social/koinomia/actor/instance/research/chn/cas/chinese-academy-of-sciences-cas.md) | The institutional funder-performer: institutes that both receive NSFC money and run their own programmes |
-| [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/informe/framework/china-five-year-plan.md) | The mission layer the schema sits below |
+| [China Five-Year Plan](/view.html?p=notes/social/koinomia/action/instance/china-five-year-plan.md) | The mission layer the schema sits below |
 | [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) | The type: a public agency wielding delegated authority over the allocation of research money |
 | [Peer review](https://en.wikipedia.org/wiki/Peer_review) | The mechanism, and the reason the escape hatches exist |
 
