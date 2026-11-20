@@ -82452,7 +82452,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the shelf note at the new instance/ directory."
+    "summary": "Point the shelf note at the new instance/ directory.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118",
+    "before": "a64d30034c82b70d5b7a0f34d0905c0e59a48dd2"
    }
   ]
  },
@@ -82525,7 +82527,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82541,7 +82544,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82557,7 +82561,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82573,7 +82578,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82589,7 +82595,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82605,7 +82612,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82621,7 +82629,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82637,7 +82646,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82653,7 +82663,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82669,7 +82680,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82685,7 +82697,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82701,7 +82714,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82717,7 +82731,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82733,7 +82748,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82756,7 +82772,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82772,7 +82789,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82788,7 +82806,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82804,7 +82823,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82820,7 +82840,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82836,7 +82857,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82852,7 +82874,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82874,7 +82897,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82897,7 +82921,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82913,7 +82938,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82929,7 +82955,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -82959,7 +82986,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83006,7 +83034,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83028,7 +83057,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83051,7 +83081,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83074,7 +83105,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83090,7 +83122,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
@@ -83106,7 +83139,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe."
+    "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
+    "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
    }
   ]
  },
