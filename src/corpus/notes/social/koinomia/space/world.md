@@ -1,5 +1,5 @@
 ---
-tags: [note, social, unfinished]
+tags: [note, social, koinomia, unfinished]
 ---
 # Planet Earth
 

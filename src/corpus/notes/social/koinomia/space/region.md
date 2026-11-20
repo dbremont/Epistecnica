@@ -1,5 +1,5 @@
 ---
-tags: [note, social]
+tags: [note, social, koinomia]
 ---
 
 # Region

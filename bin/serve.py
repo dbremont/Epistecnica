@@ -120,10 +120,12 @@ KOINOMIA_POLITY_MD_OLD = "/corpus/notes/social/actor/collective/polity.md"
 KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/koinomia/polity/polity.md"
 KOINOMIA_WORLD_MD_OLD = "/corpus/notes/social/actor/public/polity/world.md"
 KOINOMIA_WORLD_MD_PREV = "/corpus/notes/social/koinomia/polity/world.md"
-KOINOMIA_WORLD_MD_NEW = "/corpus/notes/social/koinomia/world.md"
+KOINOMIA_WORLD_MD_CURRENT = "/corpus/notes/social/koinomia/world.md"
+KOINOMIA_WORLD_MD_NEW = "/corpus/notes/social/koinomia/space/world.md"
 KOINOMIA_REGION_MD_OLD = "/corpus/notes/social/region.md"
 KOINOMIA_REGION_MD_META = "/corpus/notes/social/meta/region.md"
-KOINOMIA_REGION_MD_NEW = "/corpus/notes/social/koinomia/region.md"
+KOINOMIA_REGION_MD_CURRENT = "/corpus/notes/social/koinomia/region.md"
+KOINOMIA_REGION_MD_NEW = "/corpus/notes/social/koinomia/space/region.md"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -407,11 +409,13 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect(KOINOMIA_POLITY_MD_NEW)
             return True
 
-        if path in (KOINOMIA_WORLD_MD_OLD, KOINOMIA_WORLD_MD_PREV):
+        if path in (KOINOMIA_WORLD_MD_OLD, KOINOMIA_WORLD_MD_PREV,
+                    KOINOMIA_WORLD_MD_CURRENT):
             self._redirect(KOINOMIA_WORLD_MD_NEW)
             return True
 
-        if path in (KOINOMIA_REGION_MD_OLD, KOINOMIA_REGION_MD_META):
+        if path in (KOINOMIA_REGION_MD_OLD, KOINOMIA_REGION_MD_META,
+                    KOINOMIA_REGION_MD_CURRENT):
             self._redirect(KOINOMIA_REGION_MD_NEW)
             return True
 

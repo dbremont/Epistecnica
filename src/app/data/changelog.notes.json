@@ -71015,6 +71015,11 @@
     "summary": "Retarget the Region links to the koinomia shelf.",
     "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
     "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Region links to the space/ shelf."
    }
   ]
  },
@@ -88992,6 +88997,11 @@
     "summary": "Retarget the World link after world.md moved to the koinomia shelf root.",
     "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
     "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the World link to the space/ shelf."
    }
   ]
  },
@@ -89481,23 +89491,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/world.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move from social/koinomia/polity/ to the koinomia shelf root.",
-    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/readme.md",
   "logs": [
    {
@@ -89512,6 +89505,74 @@
     "summary": "Add World and Region to the shelf index; record the open conceptual framing questions.",
     "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
     "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the shelf index to the space/ shelf and add Territory."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/space/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Space shelf master: the spatial frame of the public order, distinct from the representation of space."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/space/region.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/structural/region/region.md, absorbing the Geography section of the sibling stub: Region is the spatial delimitation concept paired with Facet, and the city reading points at the actor shelf."
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move from social/region.md into the koinomia shelf; Region is the spatial delimitation concept of the public order.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from koinomia/region.md into the space/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/space/territory.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the Territory note: the bounded domain over which a polity claims authority, read against Region, Jurisdiction and the State."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/space/world.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move from social/koinomia/polity/ to the koinomia shelf root.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from koinomia/world.md into the space/ shelf."
    }
   ]
  },
@@ -89743,22 +89804,6 @@
     "summary": "Removed from the corpus in the pending sweep; the note no longer exists at this path.",
     "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
     "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/region.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/structural/region/region.md, absorbing the Geography section of the sibling stub: Region is the spatial delimitation concept paired with Facet, and the city reading points at the actor shelf."
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move from social/region.md into the koinomia shelf; Region is the spatial delimitation concept of the public order.",
-    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f"
    }
   ]
  },

@@ -35,10 +35,11 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 
 - [Instance](/view.html?p=notes/social/koinomia/polity/instance/readme.md) — the country, city-state, and historical polity instance directories of the atlas.
 
-## World and Region
+## Space
 
-- [World](/view.html?p=notes/social/koinomia/world.md) — Planet Earth, the planetary frame of the corpus; still unfinished.
-- [Region](/view.html?p=notes/social/koinomia/region.md) — the spatial delimitation concept: a bounded area of denser internal interaction.
+- [Territory](/view.html?p=notes/social/koinomia/space/territory.md) — the bounded domain over which a polity claims authority: the ground itself, read politically.
+- [Region](/view.html?p=notes/social/koinomia/space/region.md) — the spatial delimitation concept: a bounded area of denser internal interaction.
+- [World](/view.html?p=notes/social/koinomia/space/world.md) — Planet Earth, the planetary frame of the corpus; still unfinished.
 
 ## Actor
 
