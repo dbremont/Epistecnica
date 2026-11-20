@@ -71420,7 +71420,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the State Holding and Investment Company kind to the Finance Actor decomposition."
+    "summary": "Add the State Holding and Investment Company kind to the Finance Actor decomposition.",
+    "commit": "f8951242365ac74abd00026c322d413ef3cfce4b",
+    "before": "2200b001b35ef504b1b86988fd0eb48ad5b7a77b"
    }
   ]
  },
@@ -85521,7 +85523,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add SFPIM, the Belgian federal holding and direct capital allocator."
+    "summary": "Add SFPIM, the Belgian federal holding and direct capital allocator.",
+    "commit": "f8951242365ac74abd00026c322d413ef3cfce4b"
    }
   ]
  },
@@ -87892,7 +87895,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add SFPIM to the economic statecraft institutions and the references."
+    "summary": "Add SFPIM to the economic statecraft institutions and the references.",
+    "commit": "f8951242365ac74abd00026c322d413ef3cfce4b",
+    "before": "2200b001b35ef504b1b86988fd0eb48ad5b7a77b"
    }
   ]
  },
