@@ -30582,7 +30582,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Removed in the human behavioral consolidation."
+    "summary": "Removed in the human behavioral consolidation.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -48716,7 +48718,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Removed in the human behavioral consolidation."
+    "summary": "Removed in the human behavioral consolidation.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71006,7 +71010,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71082,7 +71088,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71099,7 +71107,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71122,7 +71132,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71204,7 +71216,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -71316,7 +71330,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Rename the actor root hub to Private Actor, pairing it with koinomia Public Actor."
+    "summary": "Rename the actor root hub to Private Actor, pairing it with koinomia Public Actor.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d"
    }
   ]
  },
@@ -73836,7 +73851,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -74274,7 +74291,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -74661,7 +74680,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -74793,7 +74814,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -75398,7 +75421,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76040,7 +76065,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76167,7 +76194,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76542,7 +76571,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76621,7 +76652,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76650,7 +76683,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -76726,7 +76761,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -77072,7 +77109,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -77684,7 +77723,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move into the social behavior shelf beside the human behavioral model."
+    "summary": "Move into the social behavior shelf beside the human behavioral model.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d"
    }
   ]
  },
@@ -77712,7 +77752,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -77828,7 +77870,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -83461,7 +83505,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -83967,7 +84013,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -85028,7 +85076,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -85862,7 +85912,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Rename to Public Agency: the public-action reading of agency."
+    "summary": "Rename to Public Agency: the public-action reading of agency.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d"
    }
   ]
  },
@@ -85945,7 +85996,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -89020,7 +89073,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -89096,7 +89151,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -89464,7 +89521,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -89559,7 +89618,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -89588,7 +89649,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -92734,7 +92797,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -92897,7 +92962,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -93025,7 +93092,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -93342,7 +93411,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -94286,7 +94357,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
@@ -94393,7 +94466,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
    }
   ]
  },
