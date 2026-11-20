@@ -46488,7 +46488,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the conceptual-model link at the social behavior shelf CSV."
+    "summary": "Point the conceptual-model link at the social behavior shelf CSV.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
+    "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
    }
   ]
  },
@@ -77179,7 +77181,9 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Merge the behavioral conceptual-model note into the shelf master: cognitive-science definition, key questions, dynamics and references."
+    "summary": "Merge the behavioral conceptual-model note into the shelf master: cognitive-science definition, key questions, dynamics and references.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
+    "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
    }
   ]
  },
@@ -77201,7 +77205,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77217,7 +77222,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77239,7 +77245,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77261,7 +77268,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77283,7 +77291,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77305,7 +77314,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77327,7 +77337,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77349,7 +77360,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77371,7 +77383,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
@@ -77388,7 +77401,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the behavioral model links to the flat behavior shelf."
+    "summary": "Retarget the behavioral model links to the flat behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
+    "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
    }
   ]
  },
@@ -77410,7 +77425,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from the human behavioral conceptual model into the social behavior shelf."
+    "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
    }
   ]
  },
