@@ -21,7 +21,7 @@ Governance is not an actor and not an actor type: it is the administrative machi
 
 ## How to study a system
 
-> Take one polity and period, reconstruct its coordinating layer (centers, standards, shared services, authority distribution, oversight), and record its coordinates axis by axis. Compare configurations across cases; do not reduce a system to a single type or score. Each study locates its system with the reference frames of the [comparative system representation atlas](/corpus/notes/social/representation/gov-wide-administration.html): pick the applicable frames, assign one value per axis, read the resulting configuration. Method and caveats live in [Government-Wide Administrative System](/view.html?p=notes/social/collective/governance/gov-wide-administration.md).
+> Take one polity and period, reconstruct its coordinating layer (centers, standards, shared services, authority distribution, oversight), and record its coordinates axis by axis. Compare configurations across cases; do not reduce a system to a single type or score. Each study locates its system with the reference frames of the [comparative system representation atlas](/corpus/notes/social/representation/gov-wide-administration-comparative-system-representation.html): pick the applicable frames, assign one value per axis, read the resulting configuration. Method and caveats live in [Government-Wide Administrative System](/view.html?p=notes/social/collective/governance/gov-wide-administration.md).
 
 ## Studies
 
@@ -124,4 +124,5 @@ Governance is not an actor and not an actor type: it is the administrative machi
 - [Government](/view.html?p=notes/social/collective/actor/type/government.md)
 - [Public Employee](/view.html?p=notes/social/collective/actor/type/employee.md)
 - [Human Resource Unit](/view.html?p=notes/social/collective/governance/hru.md)
-- [Government-Wide Administration Comparative System Representation](/corpus/notes/social/representation/gov-wide-administration.html)
+- [Government-Wide Administration Comparative System Representation](/corpus/notes/social/representation/gov-wide-administration-comparative-system-representation.html)
+- [Government Representation](/corpus/notes/social/representation/government-representation.html) — the systems applied to the governments of the polity corpus

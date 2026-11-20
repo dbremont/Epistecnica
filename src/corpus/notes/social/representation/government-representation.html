@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Government Representation</title>
+<link rel="icon" href="/img/favicon.ico">
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="stylesheet" href="/shared/usearch.css">
+<link rel="stylesheet" href="/shared/chrome.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-void:#0b0e14; --bg-surface:#11151e; --bg-card:#161b26; --bg-elevated:#1d2330;
+  --text-primary:#f4f3f1; --text-secondary:#a8a5b0; --text-muted:#9290aa; --text-ghost:#82809a;
+  --accent-copper:#c9956c; --accent-sage:#7ba388; --accent-plum:#9b7eb0; --accent-rose:#c47d8a;
+  --accent-amber:#d4a857; --accent-steel:#6b8caa; --accent-gold:#c9956c; --accent-cyan:#4dd4c4;
+  --border-subtle:rgba(255,255,255,0.05); --border-medium:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.12);
+  --card-bg:rgba(22,27,38,0.72); --nav-bg:rgba(11,14,20,0.85);
+  --font-display:'Cormorant Garamond',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  --radius-sm:5px; --radius-md:8px; --radius-lg:12px;
+  --shell-max:1280px; --shell-pad:2rem;
+}
+html[data-theme="light"]{
+  --bg-void:#f5f2ea; --bg-surface:#efe9dc; --bg-card:#fffdf8; --bg-elevated:#ffffff;
+  --text-primary:#1a1d24; --text-secondary:#4a4f5e; --text-muted:#7a7f8e; --text-ghost:#9aa0ae;
+  --accent-copper:#9a7b3f; --accent-sage:#4e7a5e; --accent-plum:#7a5f8c; --accent-rose:#a55a68;
+  --accent-amber:#9a742f; --accent-steel:#4e6e8c; --accent-gold:#9a7b3f; --accent-cyan:#0e7c72;
+  --border-subtle:rgba(20,22,30,0.10); --border-medium:rgba(20,22,30,0.14); --border-strong:rgba(20,22,30,0.22);
+  --card-bg:rgba(255,253,248,0.72); --nav-bg:rgba(245,242,234,0.85);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%}
+body{background:var(--bg-void);color:var(--text-primary);font-family:var(--font-body);line-height:1.55;transition:opacity .18s ease;display:flex;flex-direction:column;min-height:100vh}
+main.wrap{flex:1;width:100%;max-width:1280px;margin:0 auto;padding:1.6rem 2rem 3rem}
+html.theme-fading body{opacity:0}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent-cyan);outline-offset:2px}
+.view-tabs{display:flex;gap:.5rem;border-bottom:1px solid var(--border-subtle);margin-bottom:1.2rem}
+.view-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:.6rem .2rem .55rem;margin-right:1.2rem;font-family:var(--font-mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.view-tabs button.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold)}
+.sec-desc{color:var(--text-muted);font-size:.8rem;margin-bottom:1rem;max-width:84ch}
+.lib-toolbar{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin-bottom:1rem}
+.lib-toolbar input[type=search],#compareSearch{background:var(--bg-surface);color:var(--text-primary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.45rem .6rem;font-family:var(--font-body);font-size:.8rem}
+.lib-toolbar input[type=search]{flex:1;min-width:220px}
+.lib-toolbar .toggle{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--font-mono);font-size:.56rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.lib-toolbar .toggle input{accent-color:var(--accent-gold)}
+.lib-toolbar .hint{font-family:var(--font-mono);font-size:.56rem;color:var(--text-muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.9rem}
+.card{position:relative;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.9rem 1rem;display:flex;flex-direction:column;gap:.45rem;cursor:pointer;transition:border-color .14s ease,transform .14s ease}
+.card:hover{border-color:var(--border-strong);transform:translateY(-1px)}
+.card .kind{font-family:var(--font-mono);font-size:.54rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-cyan)}
+.card h3{font-family:var(--font-display);font-weight:400;font-size:1.22rem;line-height:1.15}
+.card .sub{font-family:var(--font-mono);font-size:.6rem;color:var(--text-muted)}
+.chips{display:flex;flex-wrap:wrap;gap:.28rem}
+.chip{display:inline-block;white-space:nowrap;font-family:var(--font-mono);font-size:.53rem;letter-spacing:.05em;padding:.14rem .45rem;border:1px solid var(--border-medium);border-radius:999px;color:var(--text-secondary)}
+.chip.gold{border-color:var(--accent-gold);color:var(--accent-gold)}
+.btn{background:var(--bg-elevated);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.28rem .55rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.btn:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.detail-head{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.5rem}
+.detail-layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:1rem;align-items:start}
+.detail-main{min-width:0}
+.detail-header{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:1rem 1.1rem;margin-bottom:.9rem}
+.detail-header .top{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:flex-start}
+.detail-name{font-family:var(--font-display);font-weight:300;font-size:2rem;line-height:1.1}
+.detail-type{font-style:italic;color:var(--accent-copper);font-size:.95rem;margin-top:.15rem}
+.detail-meta{display:flex;flex-wrap:wrap;gap:.9rem;margin:.65rem 0;font-family:var(--font-mono);font-size:.6rem;color:var(--text-muted)}
+.detail-meta b{color:var(--text-secondary);font-weight:400}
+.detail-summary{color:var(--text-secondary);font-size:.82rem;line-height:1.6;max-width:80ch}
+.detail-tabs{display:flex;flex-wrap:wrap;gap:.2rem;border-bottom:1px solid var(--border-subtle);margin-bottom:.9rem}
+.detail-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:.55rem .7rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.detail-tabs button.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold)}
+.detail-tabs .n{color:var(--text-ghost)}
+.detail-group{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.8rem .95rem;margin-bottom:.8rem}
+.detail-group h3{font-family:var(--font-mono);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-copper);margin-bottom:.55rem}
+.detail-fields{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.6rem .9rem}
+.detail-field{font-size:.75rem;color:var(--text-secondary)}
+.detail-field b{display:block;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:400;margin-bottom:.15rem}
+.detail-field select{width:100%;background:var(--bg-surface);color:var(--text-primary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:.74rem;padding:.28rem .4rem}
+.detail-field .rule{display:block;font-size:.68rem;color:var(--text-ghost);margin-top:.15rem}
+.detail-field .assigned select{border-color:var(--accent-gold)}
+.detail-rail{display:flex;flex-direction:column;gap:.6rem}
+.side-block{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.6rem}
+.side-block h4{font-family:var(--font-mono);font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);margin-bottom:.35rem}
+.side-block a{font-size:.76rem;color:var(--accent-cyan)}
+.side-block a:hover{text-decoration:underline}
+.side-block p{font-size:.76rem;color:var(--text-secondary)}
+.side-block .btn{margin-top:.3rem}
+.compare-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.2rem;align-items:start}
+.compare-rail{position:sticky;top:72px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem;max-height:calc(100vh - 92px);display:flex;flex-direction:column;gap:.5rem}
+.rail-head{display:flex;justify-content:space-between;align-items:baseline}
+.rail-head h3{font-family:var(--font-display);font-weight:400;font-size:1.1rem}
+.rail-head span{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.compare-rail input[type=search]{width:100%}
+.rail-actions{display:flex;justify-content:flex-end}
+.pick-list{overflow:auto;display:flex;flex-direction:column;gap:.1rem;padding-right:.1rem}
+.pick-item{display:flex;align-items:center;gap:.45rem;padding:.3rem .4rem;border-radius:var(--radius-sm);font-size:.72rem;color:var(--text-secondary);cursor:pointer;border:1px solid transparent}
+.pick-item:hover{background:var(--bg-elevated)}
+.pick-item.selected{background:var(--bg-elevated);border-color:var(--border-medium);color:var(--text-primary)}
+.pick-item input{width:auto;margin:0;accent-color:var(--accent-gold)}
+.pick-item .meta{margin-left:auto;font-family:var(--font-mono);font-size:.52rem;color:var(--text-ghost);text-transform:uppercase}
+.compare-main{min-width:0}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.6rem;margin-bottom:.8rem}
+.summary-card{position:relative;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem .8rem}
+.summary-card .kind{font-family:var(--font-mono);font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent-cyan)}
+.summary-card h4{font-family:var(--font-display);font-weight:400;font-size:1.08rem;line-height:1.15;margin:.15rem 0;padding-right:1.4rem}
+.summary-card .meta{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.summary-card .remove{position:absolute;top:.45rem;right:.5rem;background:none;border:1px solid var(--border-medium);border-radius:50%;width:20px;height:20px;line-height:1;font-size:.7rem;color:var(--text-muted);cursor:pointer}
+.summary-card .remove:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+.tabs{display:flex;flex-wrap:wrap;gap:.5rem;margin:.9rem 0}
+.tab{font-family:var(--font-mono);font-size:.64rem;background:var(--bg-surface);border:1px solid var(--border-subtle);border-radius:999px;color:var(--text-secondary);padding:.42rem .9rem;cursor:pointer}
+.tab[aria-selected="true"]{color:var(--accent-cyan);border-color:var(--accent-cyan)}
+.tab .n{color:var(--text-ghost)}
+.diff-summary{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--bg-surface);padding:.5rem .7rem;margin-bottom:.8rem;font-size:.76rem;color:var(--text-secondary)}
+table.cmp{width:100%;border-collapse:collapse;font-size:.82rem}
+table.cmp th,table.cmp td{text-align:left;vertical-align:top;padding:.55rem .7rem;border-bottom:1px solid var(--border-subtle)}
+table.cmp th{font-family:var(--font-mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);font-weight:400}
+table.cmp th .t{display:block;font-family:var(--font-body);font-size:.6rem;letter-spacing:0;text-transform:none;color:var(--text-ghost);margin-top:.15rem}
+table.cmp tr.cat td{background:var(--bg-surface);font-family:var(--font-mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-copper);font-weight:400;border-bottom:1px solid var(--border-strong)}
+table.cmp tr.cat td .n{color:var(--text-ghost);letter-spacing:.04em}
+table.cmp td.el{color:var(--text-primary);font-weight:500}
+table.cmp td.el .rule{display:block;font-weight:300;font-size:.72rem;color:var(--text-muted);margin-top:.2rem}
+table.cmp td.v{font-family:var(--font-mono);font-size:.72rem;color:var(--text-secondary)}
+table.cmp td.na{color:var(--text-ghost)}
+.empty-state{border:1px dashed var(--border-medium);border-radius:var(--radius-md);padding:2.2rem 1rem;text-align:center;color:var(--text-muted);font-size:.82rem}
+.empty-state b{display:block;font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);font-weight:400;margin-bottom:.3rem}
+.err{color:var(--accent-rose);font-family:var(--font-mono);font-size:.78rem;padding:1rem 0}
+.tfr-foot{max-width:1280px;margin:0 auto;width:100%;padding:1rem 2rem;border-top:1px solid var(--border-subtle);display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;font-family:var(--font-mono);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted)}
+.tfr-foot nav{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap}
+.tfr-foot a{color:var(--text-secondary)}
+.tfr-foot a:hover{color:var(--accent-cyan)}
+.tfr-foot .sep{opacity:.45}
+@media(max-width:900px){
+  :root{--shell-pad:1.2rem}
+  .compare-layout{grid-template-columns:1fr}
+  .compare-rail{position:static;max-height:none}
+  .detail-layout{grid-template-columns:1fr}
+  main.wrap{padding:1.2rem 1.2rem 2.5rem}
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="masthead">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/representation">representation</a><span class="sep">/</span>
+        <span class="here">Government Representation</span>
+    </nav>
+    <h1 class="note-title">Government Representation</h1>
+    <p class="subtitle">The governments of the polity corpus, represented through the seven comparative systems of government-wide administration. Assign one value per characteristic element — with its value set and assignment rule in view — and compare the resulting profiles. Assignments are saved in this browser.</p>
+</div>
+
+<main class="wrap">
+    <div class="view-tabs" role="tablist">
+        <button type="button" data-view="library" class="active">Library</button>
+        <button type="button" data-view="compare">Compare</button>
+    </div>
+
+    <section id="view-library">
+        <p class="sec-desc">Every polity in the corpus, as the government of its state. Search, filter to the documented instances, and open one to assign its profile across the seven systems.</p>
+        <div class="lib-toolbar">
+            <input type="search" id="libSearch" placeholder="Search governments…" autocomplete="off">
+            <label class="toggle"><input type="checkbox" id="libDocumented"> documented only</label>
+            <span class="hint" id="libCount"></span>
+        </div>
+        <div class="grid" id="libGrid"></div>
+    </section>
+
+    <section id="view-detail" hidden>
+        <div class="detail-head">
+            <button type="button" class="btn" id="detailBack">← library</button>
+            <span class="chip" id="detailKind"></span>
+        </div>
+        <div class="detail-layout">
+            <div class="detail-main">
+                <div id="detailHeader"></div>
+                <div class="detail-tabs" id="detailTabs" role="tablist"></div>
+                <div id="detailBody"></div>
+            </div>
+            <aside class="detail-rail" id="detailRail"></aside>
+        </div>
+    </section>
+
+    <section id="view-compare" hidden>
+        <p class="sec-desc">Pick up to four governments and a system. Only assigned elements are shown; the rest are counted.</p>
+        <div class="compare-layout">
+            <aside class="compare-rail">
+                <div class="rail-head"><h3>Governments</h3><span id="pickCount">0 / 4</span></div>
+                <input type="search" id="compareSearch" placeholder="filter…" autocomplete="off">
+                <div class="rail-actions"><button type="button" class="btn" id="clearSel">clear</button></div>
+                <div id="compareList" class="pick-list"></div>
+            </aside>
+            <div class="compare-main">
+                <div id="compareSummary" class="summary-grid"></div>
+                <div class="tabs" id="sysTabs" role="tablist"></div>
+                <div class="diff-summary" id="cmpNote"></div>
+                <div style="overflow-x:auto"><table class="cmp" id="cmpTable"></table></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="error" hidden class="err"></div>
+</main>
+
+<footer class="tfr-foot">
+    <span>Epistecnica · Government Representation</span>
+    <nav>
+        <a href="/explorer.html">Catalog</a><span class="sep">·</span>
+        <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
+        <a href="gov-wide-administration-comparative-system-representation.html">Comparative representation systems</a><span class="sep">·</span>
+        <a href="/view.html?p=notes/social/collective/actor/type/government.md">Government</a>
+    </nav>
+</footer>
+
+<script src="/shared/usearch.js" data-root="../../../../"></script>
+<script src="/shared/chrome.js"></script>
+<script>
+(function () {
+    "use strict";
+    var MAX = 4;
+    var KEY = "epistecnica:government-representation";
+    var state = {
+        systems: [], governments: [], view: "library",
+        selected: [], active: null,
+        q: "", documentedOnly: false,
+        detail: null, detailTab: null, compareQ: "",
+        profiles: {}
+    };
+
+    function $(sel) { return document.querySelector(sel); }
+    function esc(s) {
+        return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+    function escAttr(s) { return esc(s).replace(/'/g, "&#39;"); }
+    function sysByName(name) {
+        for (var i = 0; i < state.systems.length; i++) if (state.systems[i].name === name) return state.systems[i];
+        return null;
+    }
+    function govByCode(code) {
+        for (var i = 0; i < state.governments.length; i++) if (state.governments[i].code === code) return state.governments[i];
+        return null;
+    }
+    function profile(code, sysName) {
+        var p = state.profiles[code];
+        return (p && p[sysName]) || {};
+    }
+    function assignedCount(code, sysName) { return Object.keys(profile(code, sysName)).length; }
+
+    /* ---------- storage ---------- */
+    function loadProfiles() {
+        try { state.profiles = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; }
+        catch (e) { state.profiles = {}; }
+    }
+    function saveProfiles() {
+        try { localStorage.setItem(KEY, JSON.stringify(state.profiles)); } catch (e) { /* ignore */ }
+    }
+
+    function setHash(h) {
+        if (location.hash !== "#" + h) history.replaceState(null, "", "#" + h);
+    }
+    function applyHash() {
+        var h = (location.hash || "").replace(/^#/, "");
+        if (!h) return false;
+        if (h.indexOf("gov/") === 0) {
+            var g = govByCode(h.slice(4));
+            if (g) { state.detail = g.code; state.view = "detail"; return true; }
+        }
+        if (h.indexOf("compare/") === 0) {
+            var parts = h.split("/").slice(1);
+            var sys = parts.pop();
+            var codes = parts.join("/").split("+").filter(function (c) { return !!govByCode(c); });
+            state.selected = codes.slice(0, MAX);
+            if (sysByName(sys)) state.active = sys;
+            state.view = "compare";
+            return true;
+        }
+        if (h === "library") { state.view = "library"; return true; }
+        if (h === "compare") { state.view = "compare"; return true; }
+        return false;
+    }
+
+    function render() {
+        var v = state.view;
+        $("#view-library").hidden = v !== "library";
+        $("#view-detail").hidden = v !== "detail";
+        $("#view-compare").hidden = v !== "compare";
+        var tabs = document.querySelectorAll(".view-tabs button");
+        for (var i = 0; i < tabs.length; i++) {
+            var dv = tabs[i].getAttribute("data-view");
+            tabs[i].classList.toggle("active", dv === v || (v === "detail" && dv === "library"));
+        }
+        if (v === "library") renderLibrary();
+        else if (v === "detail") renderDetail();
+        else renderCompare();
+    }
+
+    /* ---------- Library ---------- */
+    function renderLibrary() {
+        var q = state.q.toLowerCase();
+        var list = state.governments.filter(function (g) {
+            if (state.documentedOnly && !g.documented) return false;
+            if (q && (g.name + " " + g.code + " " + (g.native || "")).toLowerCase().indexOf(q) < 0) return false;
+            return true;
+        });
+        $("#libCount").textContent = list.length + " of " + state.governments.length + " governments";
+        var grid = $("#libGrid");
+        if (!list.length) {
+            grid.innerHTML = '<div class="empty-state"><b>No matches</b>Clear the search or filters.</div>';
+            return;
+        }
+        grid.innerHTML = list.map(function (g) {
+            var done = state.systems.filter(function (s) { return assignedCount(g.code, s.name) > 0; }).length;
+            return '<article class="card" data-code="' + escAttr(g.code) + '" tabindex="0" role="button">' +
+                '<span class="kind">Government</span>' +
+                '<h3>' + (g.flag ? esc(g.flag) + ' ' : '') + esc(g.name) + '</h3>' +
+                '<div class="sub">' + esc(g.code.toUpperCase()) + (g.native ? ' · ' + esc(g.native) : '') + '</div>' +
+                '<div class="chips">' +
+                (g.documented ? '<span class="chip gold">documented</span>' : '<span class="chip">no instance page</span>') +
+                '<span class="chip">' + done + ' / ' + state.systems.length + ' systems</span>' +
+                '</div></article>';
+        }).join('');
+        Array.prototype.forEach.call(grid.querySelectorAll(".card"), function (card) {
+            function open() { openDetail(card.getAttribute("data-code")); }
+            card.addEventListener("click", open);
+            card.addEventListener("keydown", function (e) {
+                if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); }
+            });
+        });
+    }
+
+    function openDetail(code) {
+        state.detail = code;
+        state.detailTab = null;
+        state.view = "detail";
+        setHash("gov/" + code);
+        render();
+    }
+
+    /* ---------- Detail ---------- */
+    function renderDetail() {
+        var g = govByCode(state.detail);
+        if (!g) { state.view = "library"; setHash("library"); render(); return; }
+        $("#detailKind").textContent = "Government";
+        $("#detailHeader").innerHTML =
+            '<div class="top"><div><div class="detail-name">' + (g.flag ? esc(g.flag) + ' ' : '') + esc(g.name) + '</div>' +
+            '<div class="detail-type">' + esc(g.native || g.code.toUpperCase()) + '</div></div>' +
+            '<button type="button" class="btn" id="compareThis">Compare this government</button></div>' +
+            '<div class="detail-meta"><span><b>Code</b> ' + esc(g.code.toUpperCase()) + '</span>' +
+            '<span><b>Systems</b> ' + state.systems.length + '</span>' +
+            '<span><b>Documented</b> ' + (g.documented ? 'yes' : 'no') + '</span></div>' +
+            '<div class="detail-summary">Assign one value per characteristic element. The value set and the assignment rule are the system\'s, never a verdict; an omitted element stays unassigned.</div>';
+
+        var dt = state.detailTab;
+        if (!dt || !sysByName(dt)) dt = state.systems[0].name;
+        $("#detailTabs").innerHTML = state.systems.map(function (s) {
+            return '<button type="button" role="tab" data-sys="' + escAttr(s.name) + '"' +
+                ' class="' + (s.name === dt ? "active" : "") + '">' + esc(s.title) +
+                ' <span class="n">(' + assignedCount(g.code, s.name) + '/' + s.characteristic_element_set.length + ')</span></button>';
+        }).join("");
+        Array.prototype.forEach.call($("#detailTabs").querySelectorAll("button"), function (b) {
+            b.addEventListener("click", function () { state.detailTab = b.getAttribute("data-sys"); renderDetail(); });
+        });
+
+        var sys = sysByName(dt);
+        var vals = profile(g.code, dt);
+        function field(e) {
+            var cur = vals[e.name] != null ? vals[e.name] : "";
+            var opts = '<option value=""' + (cur === "" ? " selected" : "") + '>— unassigned —</option>';
+            (e.value_set || []).forEach(function (v) {
+                opts += '<option value="' + escAttr(v) + '"' + (String(v) === String(cur) ? " selected" : "") + '>' + esc(v) + '</option>';
+            });
+            return '<div class="detail-field' + (cur !== "" ? ' assigned' : '') + '">' +
+                '<b>' + esc(e.name) + '</b>' +
+                '<select data-el="' + escAttr(e.name) + '">' + opts + '</select>' +
+                (e.assignment_rule ? '<span class="rule">' + esc(e.assignment_rule) + '</span>' : '') +
+                '</div>';
+        }
+        var groups = sys.groups || sys.submodels || [];
+        var html = "";
+        if (groups.length) {
+            groups.forEach(function (grp) {
+                var els = sys.characteristic_element_set.filter(function (e) { return e.category === grp.name; });
+                if (!els.length) return;
+                html += '<div class="detail-group"><h3>' + esc(grp.name) + '</h3>' +
+                    '<div class="detail-fields">' + els.map(field).join("") + '</div></div>';
+            });
+            var rest = sys.characteristic_element_set.filter(function (e) { return !e.category; });
+            if (rest.length) {
+                html += '<div class="detail-group"><h3>Other elements</h3>' +
+                    '<div class="detail-fields">' + rest.map(field).join("") + '</div></div>';
+            }
+        } else {
+            html = '<div class="detail-group"><div class="detail-fields">' +
+                sys.characteristic_element_set.map(field).join("") + '</div></div>';
+        }
+        $("#detailBody").innerHTML = html;
+
+        Array.prototype.forEach.call($("#detailBody").querySelectorAll("select[data-el]"), function (sel) {
+            sel.addEventListener("change", function () {
+                var el = sel.getAttribute("data-el");
+                var code = g.code;
+                if (!state.profiles[code]) state.profiles[code] = {};
+                if (!state.profiles[code][dt]) state.profiles[code][dt] = {};
+                if (sel.value === "") delete state.profiles[code][dt][el];
+                else state.profiles[code][dt][el] = sel.value;
+                if (!Object.keys(state.profiles[code][dt]).length) delete state.profiles[code][dt];
+                if (!Object.keys(state.profiles[code]).length) delete state.profiles[code];
+                saveProfiles();
+                var tab = $("#detailTabs").querySelector('button[data-sys="' + dt + '"] .n');
+                if (tab) tab.textContent = "(" + assignedCount(code, dt) + "/" + sys.characteristic_element_set.length + ")";
+                sel.parentNode.classList.toggle("assigned", sel.value !== "");
+            });
+        });
+
+        var linked = g.documented
+            ? '<div class="side-block"><h4>Instance</h4><p><a href="/explorer.html?dir=notes/social/collective/polity/instance/' +
+              escAttr(g.code) + '">Open the polity instance</a></p></div>'
+            : '';
+        $("#detailRail").innerHTML = linked +
+            '<div class="side-block"><h4>System</h4><p><a href="gov-wide-administration-comparative-system-representation.html#' + escAttr(dt) + '">' +
+            esc(sys.title) + '</a></p></div>' +
+            '<div class="side-block"><h4>Assignments</h4><p>' + assignedCount(g.code, dt) + ' of ' +
+            sys.characteristic_element_set.length + ' elements assigned for this system.</p>' +
+            '<button type="button" class="btn" id="clearSystem">Clear this system</button></div>' +
+            '<div class="side-block"><h4>Compare</h4><p><a href="#" id="railCompare">Open in the comparison</a></p></div>';
+
+        function toCompare() {
+            state.selected = [g.code];
+            state.view = "compare";
+            setHash("compare/" + g.code + "/" + dt);
+            render();
+        }
+        $("#compareThis").addEventListener("click", toCompare);
+        $("#railCompare").addEventListener("click", function (e) { e.preventDefault(); toCompare(); });
+        $("#clearSystem").addEventListener("click", function () {
+            if (state.profiles[g.code]) {
+                delete state.profiles[g.code][dt];
+                if (!Object.keys(state.profiles[g.code]).length) delete state.profiles[g.code];
+                saveProfiles();
+            }
+            renderDetail();
+        });
+    }
+
+    /* ---------- Compare ---------- */
+    function renderCompare() {
+        $("#pickCount").textContent = state.selected.length + " / " + MAX;
+        var cq = state.compareQ.toLowerCase();
+        var list = state.governments.filter(function (g) {
+            return !cq || (g.name + " " + g.code).toLowerCase().indexOf(cq) >= 0;
+        });
+        $("#compareList").innerHTML = list.map(function (g) {
+            var on = state.selected.indexOf(g.code) >= 0;
+            return '<label class="pick-item' + (on ? " selected" : "") + '">' +
+                '<input type="checkbox" data-code="' + escAttr(g.code) + '"' + (on ? " checked" : "") + '>' +
+                '<span>' + esc(g.name) + '</span>' +
+                '<span class="meta">' + esc(g.code) + '</span></label>';
+        }).join("");
+        Array.prototype.forEach.call($("#compareList").querySelectorAll("input[data-code]"), function (cb) {
+            cb.addEventListener("change", function () {
+                var code = cb.getAttribute("data-code"), ix = state.selected.indexOf(code);
+                if (cb.checked && ix < 0) {
+                    if (state.selected.length >= MAX) { cb.checked = false; return; }
+                    state.selected.push(code);
+                } else if (!cb.checked && ix >= 0) {
+                    state.selected.splice(ix, 1);
+                }
+                syncHash();
+                renderCompare();
+            });
+        });
+
+        $("#compareSummary").innerHTML = state.selected.map(function (code) {
+            var g = govByCode(code);
+            return '<div class="summary-card"><span class="kind">Government</span>' +
+                '<h4>' + (g.flag ? esc(g.flag) + ' ' : '') + esc(g.name) + '</h4>' +
+                '<div class="meta">' + esc(g.code.toUpperCase()) + '</div>' +
+                '<button type="button" class="remove" data-remove="' + escAttr(code) + '" aria-label="Remove">×</button></div>';
+        }).join("");
+        Array.prototype.forEach.call($("#compareSummary").querySelectorAll("[data-remove]"), function (b) {
+            b.addEventListener("click", function () {
+                var ix = state.selected.indexOf(b.getAttribute("data-remove"));
+                if (ix >= 0) state.selected.splice(ix, 1);
+                syncHash();
+                renderCompare();
+            });
+        });
+
+        $("#sysTabs").innerHTML = state.systems.map(function (s) {
+            var max = 0;
+            state.selected.forEach(function (code) { max = Math.max(max, assignedCount(code, s.name)); });
+            return '<button type="button" class="tab" role="tab" data-sys="' + escAttr(s.name) + '"' +
+                ' aria-selected="' + (s.name === state.active) + '">' + esc(s.title) +
+                ' <span class="n">(' + max + '/' + s.characteristic_element_set.length + ')</span></button>';
+        }).join("");
+        Array.prototype.forEach.call($("#sysTabs").querySelectorAll("button"), function (b) {
+            b.addEventListener("click", function () {
+                state.active = b.getAttribute("data-sys");
+                syncHash();
+                renderCompare();
+            });
+        });
+
+        renderCompareTable();
+    }
+
+    function syncHash() {
+        if (state.view !== "compare") return;
+        setHash("compare/" + state.selected.join("+") + "/" + state.active);
+    }
+
+    function renderCompareTable() {
+        var sys = sysByName(state.active);
+        var tbl = $("#cmpTable");
+        if (!sys || !state.selected.length) {
+            $("#cmpNote").textContent = "Pick at least one government.";
+            tbl.innerHTML = "";
+            return;
+        }
+        var all = sys.characteristic_element_set;
+        var shown = all.filter(function (e) {
+            return state.selected.some(function (code) { return profile(code, sys.name)[e.name] != null; });
+        });
+        var hidden = all.length - shown.length;
+        $("#cmpNote").textContent = shown.length + " of " + all.length + " elements assigned" +
+            (shown.length ? "" : " — open a government and assign values first") +
+            (hidden ? " · " + hidden + " unassigned element" + (hidden === 1 ? "" : "s") + " hidden" : "");
+
+        var html = "<thead><tr><th>Characteristic element</th>" + state.selected.map(function (code) {
+            var g = govByCode(code);
+            return "<th>" + esc(g.name) + '<span class="t">' + esc(g.code.toUpperCase()) + "</span></th>";
+        }).join("") + "</tr></thead><tbody>";
+
+        function row(e) {
+            var vals = state.selected.map(function (code) {
+                var v = profile(code, sys.name)[e.name];
+                return v != null ? v : null;
+            });
+            var differ = false;
+            for (var i = 1; i < vals.length; i++) if (vals[i] !== vals[0]) { differ = true; break; }
+            var r = "<tr><td class='el'>" + esc(e.name) +
+                (e.assignment_rule ? '<span class="rule">' + esc(e.assignment_rule) + "</span>" : "") + "</td>";
+            vals.forEach(function (v) {
+                r += v == null ? "<td class='na'>—</td>" : "<td class='v" + (differ ? " diff" : "") + "'>" + esc(v) + "</td>";
+            });
+            return r + "</tr>";
+        }
+        var groups = sys.groups || sys.submodels || [];
+        if (groups.length) {
+            groups.forEach(function (grp) {
+                var gs = shown.filter(function (e) { return e.category === grp.name; });
+                if (!gs.length) return;
+                html += "<tr class='cat'><td colspan='" + (state.selected.length + 1) + "'>" + esc(grp.name) +
+                    " <span class='n'>· " + gs.length + "</span></td></tr>" + gs.map(row).join("");
+            });
+            var rest = shown.filter(function (e) { return !e.category; });
+            if (rest.length) html += rest.map(row).join("");
+        } else {
+            html += shown.map(row).join("");
+        }
+        tbl.innerHTML = html + "</tbody>";
+    }
+
+    /* ---------- wiring ---------- */
+    Array.prototype.forEach.call(document.querySelectorAll(".view-tabs button"), function (b) {
+        b.addEventListener("click", function () {
+            var v = b.getAttribute("data-view");
+            state.view = v;
+            state.detail = null;
+            if (v === "compare") setHash("compare/" + state.selected.join("+") + "/" + state.active);
+            else setHash("library");
+            render();
+        });
+    });
+    $("#libSearch").addEventListener("input", function (e) { state.q = e.target.value; renderLibrary(); });
+    $("#libDocumented").addEventListener("change", function (e) { state.documentedOnly = e.target.checked; renderLibrary(); });
+    $("#compareSearch").addEventListener("input", function (e) { state.compareQ = e.target.value; renderCompare(); });
+    $("#detailBack").addEventListener("click", function () {
+        state.view = "library"; state.detail = null; setHash("library"); render();
+    });
+    $("#clearSel").addEventListener("click", function () {
+        state.selected = []; syncHash(); renderCompare();
+    });
+    window.addEventListener("hashchange", function () { if (applyHash()) render(); });
+
+    Promise.all([
+        fetch("gov-wide-administration.json", { cache: "no-cache" }).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+        }),
+        fetch("../collective/polity/data.json", { cache: "no-cache" }).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+        })
+    ]).then(function (res) {
+        state.systems = res[0].systems;
+        state.active = state.systems[0].name;
+        var codes = res[1].codes || {};
+        state.governments = Object.keys(codes).map(function (code) {
+            var c = codes[code];
+            return {
+                code: code,
+                name: c.name || code,
+                native: c.native || "",
+                flag: c.flag || "",
+                documented: !!c.has_node
+            };
+        }).sort(function (a, b) { return a.name.localeCompare(b.name); });
+        loadProfiles();
+        applyHash();
+        render();
+    }).catch(function (err) {
+        var el = $("#error");
+        el.hidden = false;
+        el.textContent = "Failed to load representation data: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>

@@ -87186,6 +87186,11 @@
     "summary": "Rename the government-wide representation to Government-Wide Administration Comparative System Representation and fix its link.",
     "commit": "b195d33b6e44f153c6c04bfe3f1770a105190e3b",
     "before": "61ebb144688fd9f46c2e0fa9169076ade0a94d41"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the renamed systems page."
    }
   ]
  },
@@ -87297,6 +87302,11 @@
     "summary": "Rename the government-wide representation to Government-Wide Administration Comparative System Representation and fix its link.",
     "commit": "b195d33b6e44f153c6c04bfe3f1770a105190e3b",
     "before": "61ebb144688fd9f46c2e0fa9169076ade0a94d41"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the new Government Representation surface and retarget the renamed systems page."
    }
   ]
  },
