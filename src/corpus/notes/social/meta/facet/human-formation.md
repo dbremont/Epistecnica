@@ -20,21 +20,21 @@ tags: [note, social, facet, social-ontology, education, formation]
 
 - **Not the education actor.** The [Education Actor](/view.html?p=notes/social/actor/education-actor.md) is the warranted body that teaches — court, temple, mosque, university, ministry. The facet is the mechanism such a body carries. Actors, activities and compounds keep their own element types and are merely *read* under this facet; the facet owns no nodes.
 - **Not a stage of life.** Schooling is the concentrated, institutionalised part of it. The formation of a person continues through apprenticeship, work, family and reading long after the last examination.
-- **Not training alone.** Drill that produces a repeatable act is the narrowest case. The facet also carries the formation of judgement, taste and character — the part the pedagogues argue about in [Educational Field](/view.html?p=notes/social/koinomia/action/problem/dimension/education/educational-field.md).
+- **Not training alone.** Drill that produces a repeatable act is the narrowest case. The facet also carries the formation of judgement, taste and character — the part the pedagogues argue about in [Educational Field](/view.html?p=notes/social/koinomia/action/domain/education/educational-field.md).
 
 ## Where its elements live in the corpus
 
-- **Field**: [Educational Field](/view.html?p=notes/social/koinomia/action/problem/dimension/education/educational-field.md) — the three ecosystems (technical training, science and engineering preparation, general formation) and the twelve theories of formation from Kant to Freire.
+- **Field**: [Educational Field](/view.html?p=notes/social/koinomia/action/domain/education/educational-field.md) — the three ecosystems (technical training, science and engineering preparation, general formation) and the twelve theories of formation from Kant to Freire.
 - **Actors**: the [Education Actor](/view.html?p=notes/social/actor/education-actor.md) type note, [University](/view.html?p=notes/social/actor/university.md) as its chartered kind, and the country-coded shelves under `social/actor/private/education/<code>/` — industrial schools, medical and business schools, technical universities.
 - **Stratum**: [Bildungsbürgertum](/view.html?p=notes/social/actor/collective/class/bildungsburgertum.md) — the stratum the *Bildung* reading of this facet produced in one society.
-- **Policies**: the ministries and programmes that steer it are filed under `social/koinomia/action/problem/dimension/education/`, with the polity shelves that carry them.
+- **Policies**: the ministries and programmes that steer it are filed under `social/koinomia/action/domain/education/`, with the polity shelves that carry them.
 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Facet](/view.html?p=notes/social/meta/facet.md) (the authoritative catalog of facets this note develops the Educational row of)
 - [Research Facet](/view.html?p=notes/social/meta/facet/research.md) (the sibling per-facet note, whose mechanism supplies this facet's warrant)
-- [Educational Field](/view.html?p=notes/social/koinomia/action/problem/dimension/education/educational-field.md)
+- [Educational Field](/view.html?p=notes/social/koinomia/action/domain/education/educational-field.md)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md)
 - [University](/view.html?p=notes/social/actor/university.md)
 - [Bildung](https://en.wikipedia.org/wiki/Bildung) (the German formation idea: the cultivation of the whole person rather than of a role)

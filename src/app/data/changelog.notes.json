@@ -29353,6 +29353,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -71022,6 +71027,11 @@
     "summary": "Retarget the Region links to the space/ shelf.",
     "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
     "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -76700,6 +76710,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -76844,6 +76859,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -81489,6 +81509,1314 @@
   ]
  },
  {
+  "file_path": "social/koinomia/action/domain/bureaucracy/civil-service.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/bureaucracy/civil-service.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/cognition/joint-cognition.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/cognition/joint-cognition.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/communication/communication.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/communication/communication.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/domain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/education/educational-field.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/education/educational-field.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "content",
+    "summary": "Add the theoretical pedagogues: twelve theories of formation — Kant's autonomy, Humboldt's Bildung, Herbart's ordered instruction, Confucius's cultivation, and the didactic, natural, progressive, constructivist and critical lines that follow them — with their works in the references, and link the Human Formation Facet the empty reference list was pointing at.",
+    "commit": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c",
+    "before": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Retarget the Human Formation Facet reference to its new home in social/meta/facet/, and name it for the mechanism the three ecosystems divide rather than for a technical pairing.",
+    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
+    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/finance/finance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/finance/finance.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Instrument space: the two rows that already carried the concepts now link their notes — Sector-Specific FoFs to the fund-of-funds note and Mother Fund for Industrial Clusters to the mother-fund note — and both are cited in the references. The table had named the instruments since it was written and pointed at nothing.",
+    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201",
+    "before": "9ec71105be051c28b5fe24ca8421761e70661b86"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: state capital allocation linked — the decision half of the same question the instrument space answers.",
+    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9",
+    "before": "644df8747d789ece5312797a9ecaac75be5f604b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/finance/instrument/fund-of-funds.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/finance/instrument/fund-of-funds.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the fund of funds — a fund that selects managers rather than firms. Structure diagram, then what the second fee layer buys (manager selection, access, diversification, portfolio construction, monitoring, conditionality) and what it costs, with the honest test stated: whether the FoF fee is smaller than the cost of replicating its selection and monitoring internally, a calculation rarely done and rarely published. The conditionality function is singled out because it is the one that matters in development finance — a public purpose attached once at the FoF binds every fund beneath — and the two abuses are named: fee stacking without selection, and the insulation problem where the FoF report becomes the investor's only view of the portfolio.",
+    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/finance/instrument/mother-fund.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/finance/instrument/mother-fund.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the mother fund — a public anchor that capitalises a family of daughter funds, sets their mandate and takes first-loss or subordinated risk so private co-investment happens. The note is explicit that its function is signalling and leverage rather than ownership: the public money is not the investment, it is what makes the investment happen. Structure diagram from state to mother fund to daughter funds to firms; a table of the five things it does that other instruments do not (anchoring, risk absorption, mandate setting, leverage, signalling); the three governance decisions that decide whether it works (what the mandate binds, how the anchor is priced, who selects the managers); and the two failure modes — subsidy disguised as investment, exposed by the counterfactual of how much private money would have come anyway, and mission drift, exposed by portfolio composition rather than return. Both are invisible in the two numbers usually reported, capital committed and capital deployed. Exemplars are marked as citations of the finance note rather than claims: whether any named institution is a mother fund is a question of mandate, not of name.",
+    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/finance/state-capital-allocation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/finance/state-capital-allocation.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: state capital allocation, filed beside finance.md rather than in instrument/, because it is the decision that chooses among instruments and not an instrument itself — a state can hold every instrument in the space and still allocate badly. The spine: the state allocates capital with objectives that are not returns and with no single price to aggregate them, so the decision is political-administrative and its characteristic failures are political rather than computational. Allocation problem table (how much, to whom, on what terms, for what, for how long), the six criteria an allocation is judged on (market failure, additionality, leverage, capability, autonomy, fiscal cost) with the honest measure for each and the note that the criteria conflict — which is where allocations acquire their alibis. Four routes with their characteristic failure: direct/soft budget constraint, intermediated/mission drift, indirect/invisibility of tax expenditure and guarantees, portfolio/mandate displacement. Then the pathologies (picking winners as a failure to stop, capture, crowding out, flagship cycles, measurement by disbursement) and four instruments of discipline in ascending order of rarity: additionality testing, cost per outcome, composition reporting, sunset clauses.",
+    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/finance/state.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/finance/state.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/infrastructure/energy/energy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/infrastructure/energy/energy.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/infrastructure/infrastructure.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/infrastructure/infrastructure.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/international/international-domain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/international/international-domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/international/trade/export.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/export.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/international/trade/internationalization.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/internationalization.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/international/trade/trade.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/trade.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/investment/investment.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/investment/investment.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/miscellanea/pension.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/miscellanea/pension.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/miscellanea/welfare.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/miscellanea/welfare.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/monetary/monetary-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/monetary/monetary-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/change.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/change.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/cluster/cluster.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/cluster/cluster.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/diversification/economic-diversification.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/diversification/economic-diversification.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Liberia survey that names growth without development.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/firm/firm-policy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/firm/firm-policy.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/industry/industry.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/industry/industry.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/production.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/production.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/structure.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/structure.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/technology.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/technology.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/production/toolkit.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/production/toolkit.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/certification.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/certification.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/contract.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/contract.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/merit.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/merit.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Normalise the title heading.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/norm.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/norm.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/normation/normation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/normation/normation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/regulation/regulation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/regulation/regulation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/research/research.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/research/research.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/finance/debt.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/debt.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/finance/fiscal.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/fiscal.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/finance/state-finance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/state-finance.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/governance/governance.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/governance/governance.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/government.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/government.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/justice/justice.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/justice/justice.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/procurement/procurement.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/procurement/procurement.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/state/representation/representation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/state/representation/representation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/architecture.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/architecture.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/cartogram.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/cartogram.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/mercado.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/mercado.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/microclimate-engineering.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/microclimate-engineering.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/residential-building.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/residential-building.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/thermal-power-station.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/thermal-power-station.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/urban-design.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-design.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/urban-drainage-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-drainage-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/urban-mobility.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-mobility.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/urbanismo.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urbanismo.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/domain/urbanism/waste-management-valorisation.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/waste-management-valorisation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/action/guidance/commodity-trading-system.md",
   "logs": [
    {
@@ -81608,6 +82936,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -82369,6 +83702,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -83256,1039 +84594,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/problem/dimension/bureaucracy/civil-service.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/bureaucracy/civil-service.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/cognition/joint-cognition.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/cognition/joint-cognition.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/communication/communication.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/communication/communication.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/domain.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/education/educational-field.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/education/educational-field.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "content",
-    "summary": "Add the theoretical pedagogues: twelve theories of formation — Kant's autonomy, Humboldt's Bildung, Herbart's ordered instruction, Confucius's cultivation, and the didactic, natural, progressive, constructivist and critical lines that follow them — with their works in the references, and link the Human Formation Facet the empty reference list was pointing at.",
-    "commit": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c",
-    "before": "107b9db7ada052933da5af4f1c9da23f6e2b0b0c"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "docs",
-    "summary": "Retarget the Human Formation Facet reference to its new home in social/meta/facet/, and name it for the mechanism the three ecosystems divide rather than for a technical pairing.",
-    "commit": "f691aff8221640e328188d98997de2fe0f2cecec",
-    "before": "f691aff8221640e328188d98997de2fe0f2cecec"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/finance/finance.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/finance/finance.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "Instrument space: the two rows that already carried the concepts now link their notes — Sector-Specific FoFs to the fund-of-funds note and Mother Fund for Industrial Clusters to the mother-fund note — and both are cited in the references. The table had named the instruments since it was written and pointed at nothing.",
-    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201",
-    "before": "9ec71105be051c28b5fe24ca8421761e70661b86"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "References: state capital allocation linked — the decision half of the same question the instrument space answers.",
-    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9",
-    "before": "644df8747d789ece5312797a9ecaac75be5f604b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/finance/instrument/fund-of-funds.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/finance/instrument/fund-of-funds.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: the fund of funds — a fund that selects managers rather than firms. Structure diagram, then what the second fee layer buys (manager selection, access, diversification, portfolio construction, monitoring, conditionality) and what it costs, with the honest test stated: whether the FoF fee is smaller than the cost of replicating its selection and monitoring internally, a calculation rarely done and rarely published. The conditionality function is singled out because it is the one that matters in development finance — a public purpose attached once at the FoF binds every fund beneath — and the two abuses are named: fee stacking without selection, and the insulation problem where the FoF report becomes the investor's only view of the portfolio.",
-    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/finance/instrument/mother-fund.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: the mother fund — a public anchor that capitalises a family of daughter funds, sets their mandate and takes first-loss or subordinated risk so private co-investment happens. The note is explicit that its function is signalling and leverage rather than ownership: the public money is not the investment, it is what makes the investment happen. Structure diagram from state to mother fund to daughter funds to firms; a table of the five things it does that other instruments do not (anchoring, risk absorption, mandate setting, leverage, signalling); the three governance decisions that decide whether it works (what the mandate binds, how the anchor is priced, who selects the managers); and the two failure modes — subsidy disguised as investment, exposed by the counterfactual of how much private money would have come anyway, and mission drift, exposed by portfolio composition rather than return. Both are invisible in the two numbers usually reported, capital committed and capital deployed. Exemplars are marked as citations of the finance note rather than claims: whether any named institution is a mother fund is a question of mandate, not of name.",
-    "commit": "bc199cc705cfd7a2688945d5402d7266d5a05201"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/finance/state-capital-allocation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/finance/state-capital-allocation.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: state capital allocation, filed beside finance.md rather than in instrument/, because it is the decision that chooses among instruments and not an instrument itself — a state can hold every instrument in the space and still allocate badly. The spine: the state allocates capital with objectives that are not returns and with no single price to aggregate them, so the decision is political-administrative and its characteristic failures are political rather than computational. Allocation problem table (how much, to whom, on what terms, for what, for how long), the six criteria an allocation is judged on (market failure, additionality, leverage, capability, autonomy, fiscal cost) with the honest measure for each and the note that the criteria conflict — which is where allocations acquire their alibis. Four routes with their characteristic failure: direct/soft budget constraint, intermediated/mission drift, indirect/invisibility of tax expenditure and guarantees, portfolio/mandate displacement. Then the pathologies (picking winners as a failure to stop, capture, crowding out, flagship cycles, measurement by disbursement) and four instruments of discipline in ascending order of rarity: additionality testing, cost per outcome, composition reporting, sunset clauses.",
-    "commit": "9c7ae7b4082d92acc87369fbe281b0439e0882e9"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/finance/state.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/finance/state.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/infrastructure/energy/energy.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/infrastructure/energy/energy.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/infrastructure/infrastructure.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/infrastructure/infrastructure.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/international/international-domain.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/international/international-domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/international/trade/export.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/export.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/international/trade/internationalization.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/internationalization.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/international/trade/trade.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/international/trade/trade.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/investment/investment.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/investment/investment.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/miscellanea/pension.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/miscellanea/pension.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/miscellanea/welfare.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/miscellanea/welfare.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/monetary/monetary-system.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/monetary/monetary-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/change.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/change.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/cluster/cluster.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/cluster/cluster.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/diversification/economic-diversification.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/diversification/economic-diversification.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Liberia survey that names growth without development.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/firm/firm-policy.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/firm/firm-policy.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/industry/industry.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/industry/industry.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/production.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/production.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/structure.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/structure.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/technology.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/technology.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/production/toolkit.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/production/toolkit.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/certification.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/certification.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/contract.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/contract.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/merit.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/merit.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Normalise the title heading.",
-    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
-    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/norm.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/norm.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/normation/normation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/normation/normation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/regulation/regulation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/regulation/regulation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/research/research.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/research/research.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/finance/debt.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/debt.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/finance/fiscal.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/fiscal.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/finance/state-finance.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/finance/state-finance.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/governance/governance.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/governance/governance.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/government.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/government.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/justice/justice.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/justice/justice.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/procurement/procurement.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/procurement/procurement.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/state/representation/representation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/state/representation/representation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/architecture.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/architecture.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/cartogram.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/cartogram.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/mercado.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/mercado.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/microclimate-engineering.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/microclimate-engineering.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/residential-building.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/residential-building.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/thermal-power-station.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/thermal-power-station.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/urban-design.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-design.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/urban-drainage-system.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-drainage-system.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/urban-mobility.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urban-mobility.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/urbanismo.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/urbanismo.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/action/problem/dimension/urbanism/waste-management-valorisation.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/urbanism/waste-management-valorisation.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/problem/policy-problem.md",
   "logs": [
    {
@@ -84321,6 +84626,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -84358,6 +84668,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -84375,6 +84690,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the Problem shelf at the Domain shelf one level up."
    }
   ]
  },
@@ -84397,6 +84717,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the Domain shelf from the action Structure."
    }
   ]
  },
@@ -88632,6 +88957,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -89664,6 +89994,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -89924,6 +90259,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },
@@ -137712,6 +138052,11 @@
     "kind": "edit",
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf."
    }
   ]
  },

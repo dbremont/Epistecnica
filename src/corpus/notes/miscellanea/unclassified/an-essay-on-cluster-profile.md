@@ -68,4 +68,4 @@ Value Chain Mapping
 
 ## References
 
-- [Cluster](../social/koinomia/action/problem/dimension/production/cluster/cluster.md)
+- [Cluster](../social/koinomia/action/domain/production/cluster/cluster.md)

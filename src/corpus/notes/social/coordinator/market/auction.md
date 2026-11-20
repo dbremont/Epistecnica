@@ -66,7 +66,7 @@ The conflict is not a technicalit. The state selling a spectrum licence is not s
 | [Market System](/view.html?p=notes/social/coordinator/market/market-system.md) | The structure of markets; the auction is the procedural counterpart to it |
 | [Price](/view.html?p=notes/social/coordinator/price-asset/price.md) | What the auction exists to discover — its clearing price |
 | [Stock](/view.html?p=notes/social/coordinator/market/instance/finantial/stock.md) | A market that clears by continuous double auction |
-| [Procurement](/view.html?p=notes/social/koinomia/action/problem/dimension/state/procurement/procurement.md) | The reverse auction: the state as buyer rather than seller |
+| [Procurement](/view.html?p=notes/social/koinomia/action/domain/state/procurement/procurement.md) | The reverse auction: the state as buyer rather than seller |
 
 ## References
 

@@ -395,6 +395,18 @@
    "to": "social/koinomia/polity/",
    "label": "Polity",
    "kind": "hierarchy"
+  },
+  {
+   "from": "social/koinomia/action/problem/",
+   "to": "social/koinomia/action/domain/",
+   "label": "Domain",
+   "kind": "related"
+  },
+  {
+   "from": "social/koinomia/action/domain/",
+   "to": "social/koinomia/action/problem/",
+   "label": "Problem",
+   "kind": "related"
   }
  ]
 }

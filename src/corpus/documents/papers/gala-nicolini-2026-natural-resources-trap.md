@@ -26,5 +26,5 @@ tags: [document, paper, latin-america, natural-resources, specialisation, develo
 ## References
 
 - [Gala & Nicolini Gabriel (2026) — DOI](https://doi.org/10.1080/20780389.2026.2713694)
-- [Economic Diversification](/view.html?p=notes/social/koinomia/action/problem/dimension/production/diversification/economic-diversification.md) — the policy frame the paper complicates
+- [Economic Diversification](/view.html?p=notes/social/koinomia/action/domain/production/diversification/economic-diversification.md) — the policy frame the paper complicates
 - [Cross-Sectoral Technical-Production Synergies](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-cross-sectoral-technical-production-synergies.md) — the capability reading of diversification

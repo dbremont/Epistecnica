@@ -97,5 +97,5 @@ Key characteristics to describe Italian clusters:
 
 ## References
 
-- [Cluster](/view.html?p=notes/social/koinomia/action/problem/dimension/production/cluster/cluster.md)
+- [Cluster](/view.html?p=notes/social/koinomia/action/domain/production/cluster/cluster.md)
 - [An Essay to Profile Clusters](/view.html?p=notes/miscellanea/unclassified/an-essay-on-cluster-profile.md)

@@ -39,7 +39,7 @@ QA:
 
 ## Structure
 
-- Dimension  (Which are the dimension of actions?)
+- [Domain](/view.html?p=notes/social/koinomia/action/domain/domain.md) — the facets of social reality that public action reflects on and targets.
 - Toolkit    (Which is the toolkit? )
 - Case Study (Analyze a set of Case Studies)
 - Failure    (Which actions did not work?)

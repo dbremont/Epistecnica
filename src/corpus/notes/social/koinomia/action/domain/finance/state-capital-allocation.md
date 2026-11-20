@@ -8,7 +8,7 @@ qa:
 
 # State Capital Allocation
 
-> **State capital allocation** is the decision of where public capital goes: how much, to whom, on what terms and for what purpose — across sectors, stages, instruments and places. It is not an instrument but the decision that chooses among instruments, which is why a state can hold every instrument in [Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/finance.md)'s space and still allocate badly.
+> **State capital allocation** is the decision of where public capital goes: how much, to whom, on what terms and for what purpose — across sectors, stages, instruments and places. It is not an instrument but the decision that chooses among instruments, which is why a state can hold every instrument in [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md)'s space and still allocate badly.
 
 > It is a different problem from market allocation in one decisive respect: the state has objectives that are not returns — mission, externality, capability, strategic autonomy — and **no single price to aggregate them**. The decision is therefore political-administrative, and its characteristic failures are political rather than computational: capture, visibility, and the inability to stop.
 
@@ -40,7 +40,7 @@ The criteria conflict, and pretending otherwise is where allocations acquire the
 | **Route** | **How capital reaches the firm** | **Typical forms** | **Characteristic failure** |
 | --- | --- | --- | --- |
 | **Direct** | The state lends or takes equity itself | Development bank lending, sovereign equity stakes, project finance | **Soft budget constraint**: the borrower that cannot be allowed to fail because the state is the lender |
-| **Intermediated** | The state capitalises funds that invest | [Mother fund](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md) → [fund of funds](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/fund-of-funds.md) → firms | **Mission drift** down the chain: each layer optimises for the layer above |
+| **Intermediated** | The state capitalises funds that invest | [Mother fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) → [fund of funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) → firms | **Mission drift** down the chain: each layer optimises for the layer above |
 | **Indirect** | The state forgoes revenue or absorbs risk | Tax credits, guarantees, subsidised insurance, accelerated depreciation | **Invisibility**: the cost never appears as spending, so it is never debated as spending |
 | **Portfolio** | The state allocates as an owner | Sovereign wealth funds, holding companies | **Mandate displacement**: return logic quietly replaces the development purpose |
 
@@ -67,10 +67,10 @@ Four instruments of discipline, in ascending order of how rarely they are used:
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/finance.md) | The instrument space; this note is the decision that chooses among the instruments |
-| [State Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/state.md) | The state's own financial position — the envelope the allocation draws on |
-| [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md) | The intermediated route's anchor, and its mandate problem in miniature |
-| [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/fund-of-funds.md) | The vehicle that carries the allocation into the funds below |
+| [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) | The instrument space; this note is the decision that chooses among the instruments |
+| [State Finance](/view.html?p=notes/social/koinomia/action/domain/finance/state.md) | The state's own financial position — the envelope the allocation draws on |
+| [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) | The intermediated route's anchor, and its mandate problem in miniature |
+| [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) | The vehicle that carries the allocation into the funds below |
 | [Investment](/view.html?p=notes/social/dynamic/finance/investment.md) | The activity the allocation finances |
 | [Return](/view.html?p=notes/social/relation/economic/return.md) | The criterion the state subordinates to its objectives — and the source of the tension |
 
@@ -83,5 +83,5 @@ Four instruments of discipline, in ascending order of how rarely they are used:
 - Rodrik, D. (2004). *Industrial policy for the twenty-first century*. CEPR Discussion Paper 4767. — allocation with exit conditions, and the case for letting the state discover rather than know
 - Mazzucato, M. (2013). *The entrepreneurial state: Debunking public vs. private sector myths*. Anthem Press. — the case for public capital taking the early, unpriced risk
 - [State capitalism](https://en.wikipedia.org/wiki/State_capitalism) · [Industrial policy](https://en.wikipedia.org/wiki/Industrial_policy)
-- [Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/finance.md) · [State Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/state.md) — the instrument space and the fiscal envelope
-- [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md) · [Fund of Funds](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/fund-of-funds.md) — the intermediated route
+- [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) · [State Finance](/view.html?p=notes/social/koinomia/action/domain/finance/state.md) — the instrument space and the fiscal envelope
+- [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) · [Fund of Funds](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/fund-of-funds.md) — the intermediated route

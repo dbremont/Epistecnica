@@ -55,14 +55,14 @@ Two abuses are worth naming:
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md) | The public anchor that capitalises a family of funds, usually through this vehicle |
+| [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) | The public anchor that capitalises a family of funds, usually through this vehicle |
 | [Investment](/view.html?p=notes/social/dynamic/finance/investment.md) | The activity the underlying funds perform; the FoF performs allocation |
 | [Return](/view.html?p=notes/social/relation/economic/return.md) | What the double fee reduces, and what the FoF's own performance is measured against |
-| [Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/finance.md) | The instrument space this belongs to |
+| [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) | The instrument space this belongs to |
 
 ## References
 
 - [Fund of funds](https://en.wikipedia.org/wiki/Fund_of_funds)
 - [Private equity fund](https://en.wikipedia.org/wiki/Private_equity_fund) · [Venture capital](https://en.wikipedia.org/wiki/Venture_capital)
-- [Mother Fund](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/instrument/mother-fund.md) — the anchor that uses this form
-- [Finance](/view.html?p=notes/social/koinomia/action/problem/dimension/finance/finance.md) — the instrument space this note belongs to
+- [Mother Fund](/view.html?p=notes/social/koinomia/action/domain/finance/instrument/mother-fund.md) — the anchor that uses this form
+- [Finance](/view.html?p=notes/social/koinomia/action/domain/finance/finance.md) — the instrument space this note belongs to
