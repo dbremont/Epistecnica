@@ -77188,7 +77188,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add a Read it with block linking Culture, Social Behavior and Norm."
+    "summary": "Add a Read it with block linking Culture, Social Behavior and Norm.",
+    "commit": "d0d43a19748033c5fe52bac25a4aafe62c60783e",
+    "before": "70b72b699f61e6b7d71e233f99198c303e896261"
    }
   ]
  },
@@ -91334,7 +91336,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add a Read it with block linking Behavior and Social Behavior."
+    "summary": "Add a Read it with block linking Behavior and Social Behavior.",
+    "commit": "d0d43a19748033c5fe52bac25a4aafe62c60783e",
+    "before": "70b72b699f61e6b7d71e233f99198c303e896261"
    }
   ]
  },
