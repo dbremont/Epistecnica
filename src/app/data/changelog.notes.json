@@ -82115,7 +82115,9 @@
    {
     "date": "2026-11-20",
     "kind": "merge",
-    "summary": "Merge the Collective Action note into the action shelf master and retitle the master Collective Action."
+    "summary": "Merge the Collective Action note into the action shelf master and retitle the master Collective Action.",
+    "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
+    "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
    }
   ]
  },
@@ -87426,7 +87428,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action link to the merged action shelf master."
+    "summary": "Retarget the Collective Action link to the merged action shelf master.",
+    "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
+    "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
    }
   ]
  },
@@ -91617,7 +91621,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action link to the merged action shelf master."
+    "summary": "Retarget the Collective Action link to the merged action shelf master.",
+    "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
+    "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
    }
   ]
  },
@@ -92094,7 +92100,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action link to the merged action shelf master."
+    "summary": "Retarget the Collective Action link to the merged action shelf master.",
+    "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
+    "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
    }
   ]
  },
@@ -92523,7 +92531,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action link to the merged action shelf master."
+    "summary": "Retarget the Collective Action link to the merged action shelf master.",
+    "commit": "a702b6036c5fd2681dcdab2e791e933a197bf84b",
+    "before": "67e37ce2da4ae4595b5461b94aeb3b4c1010d24e"
    }
   ]
  },
