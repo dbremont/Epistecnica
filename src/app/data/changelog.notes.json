@@ -77356,42 +77356,6 @@
   ]
  },
  {
-  "file_path": "social/dynamic/action/organization/medical-scientist-training-program.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the knowledge-system and research-system links after both moved to dynamic/knowledge/."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New social note: the NIH Medical Scientist Training Program as an instance of the Program type (Public Program to Training Program). States the objective (the physician-scientist workforce), the NIGMS training office, the member MD-PhD programs and allied-institution arrangements, the T32 envelope and the student award, and the review and admissions governance; adds the 1964 origin and LEAD MSTP history, the admissions and funding table, the outcomes reading, and the non-MSTP and allied cases.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a",
-    "before": "73a5695a2f9f93066c551e1eb334be8e02b5b2f6"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   }
-  ]
- },
- {
   "file_path": "social/dynamic/action/organization/plan.md",
   "logs": [
    {
@@ -77446,6 +77410,11 @@
     "summary": "Retarget the Policy link to the guidance shelf.",
     "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
     "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the training-program instance link to the informe shelf."
    }
   ]
  },
@@ -82506,6 +82475,47 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/action/informe/medical-scientist-training-program.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the knowledge-system and research-system links after both moved to dynamic/knowledge/."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New social note: the NIH Medical Scientist Training Program as an instance of the Program type (Public Program to Training Program). States the objective (the physician-scientist workforce), the NIGMS training office, the member MD-PhD programs and allied-institution arrangements, the T32 envelope and the student award, and the review and admissions governance; adds the 1964 origin and LEAD MSTP history, the admissions and funding table, the outcomes reading, and the non-MSTP and allied cases.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a",
+    "before": "73a5695a2f9f93066c551e1eb334be8e02b5b2f6"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the informe shelf: it is a program instance (a case), not an action-organization type."
    }
   ]
  },

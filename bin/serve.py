@@ -177,6 +177,8 @@ GUIDANCE_OLD = "/corpus/notes/social/koinomia/action/guidance/"
 POLICY_NEW = "/corpus/notes/social/dynamic/action/guidance/policy.md"
 COMMODITY_NEW = "/corpus/notes/social/coordinator/market/instance/commodity/commodity-trading-system.md"
 TALENT_RESEARCH = "/corpus/notes/social/dynamic/research/talent-attraction.md"
+MSTP_OLD = "/corpus/notes/social/dynamic/action/organization/medical-scientist-training-program.md"
+MSTP_NEW = "/corpus/notes/social/koinomia/action/informe/medical-scientist-training-program.md"
 KOINOMIA_STUBS = {
     "/corpus/notes/social/actor/public/readme.md",
     "/corpus/notes/social/dynamic/action/public/readme.md",
@@ -512,6 +514,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path == GUIDANCE_OLD + "talent-attraction.md":
             self._redirect(TALENT_RESEARCH)
+            return True
+
+        if path == MSTP_OLD:
+            self._redirect(MSTP_NEW)
             return True
 
         if path.startswith(HUMAN_LANGUAGE_MODEL):

@@ -52,4 +52,4 @@ tags: [note, social, action, social-element, organization, program]
 - [Project](/view.html?p=notes/social/dynamic/action/organization/project.md) (the member effort a program contains)
 - [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) (the course a program executes)
 - [Plan](/view.html?p=notes/social/dynamic/action/organization/plan.md) (the arrangement sequencing a member project)
-- [Medical Scientist Training Program](/view.html?p=notes/social/dynamic/action/organization/medical-scientist-training-program.md) (the training-program instance)
+- [Medical Scientist Training Program](/view.html?p=notes/social/koinomia/action/informe/medical-scientist-training-program.md) (the training-program instance)
