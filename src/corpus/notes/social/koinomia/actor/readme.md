@@ -13,7 +13,6 @@ This is the shelf master. It defines the type, carries the decomposition, and in
 - **The type** — this note.
 - **[`type/`](/explorer.html?dir=notes/social/koinomia/actor/type)** — the public-actor kinds: government, municipal government, statutory corporation, incorporated administrative agency, public inquiry, royal commission and the public research institute.
 - **[`instance/`](/explorer.html?dir=notes/social/koinomia/actor/instance)** — the named organizations, by domain: finance, development, research, administration and international.
-- **[`representation/`](/explorer.html?dir=notes/social/koinomia/representation)** — the public-organization and governance atlases.
 
 ## Formulation
 
@@ -70,7 +69,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ### Which Canonical Characterization System Should We Use?
 
-> See in [Atlas of Public Organization Comparative Representation Systems -- Model-Derived Set](/corpus/notes/social/koinomia/representation/public-organization-characterization-systems.html#model-derived).
+> See in [Atlas of Public Organization Comparative Representation Systems -- Model-Derived Set](/corpus/notes/social/representation/public-organization-characterization-systems.html#model-derived).
 
 ### How to evaluation and monitor them?
 
@@ -92,7 +91,7 @@ It is the government subtype of Organization: what individuates it is not its in
 
 > The resulting characterization should enable individual organizations to be described consistently, organizational types to be distinguished systematically, and the organization space to be analyzed as a structured domain.
 
-> This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/koinomia/representation/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organizations Compared](/corpus/notes/social/koinomia/representation/public-organization.html).
+> This note keeps only the Public Organization Space instantiation: the definition above and the five-dimension agency table. Four ready-to-use comparative representation systems live in the [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html), with seventeen sample organizations compared in [Public Organizations Compared](/corpus/notes/social/representation/public-organization.html).
 
 ### How can the degree of separation between policy formulation and operational execution be characterized, measured, and evaluated in relation to an organization's overall performance?
 
@@ -141,8 +140,8 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ## References
 
-- [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/koinomia/representation/public-organization-characterization-systems.html)
-- [Public Organizations Compared](/corpus/notes/social/koinomia/representation/public-organization.html)
+- [Atlas of Public Organization Comparative Representation Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html)
+- [Public Organizations Compared](/corpus/notes/social/representation/public-organization.html)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic element type; carries the full recursive agency expansion)
 - [Board](/view.html?p=notes/social/actor/board.md) (governing-body element, kinds, and terminology; composition and selection methods remain above)
@@ -162,8 +161,8 @@ It is the government subtype of Organization: what individuates it is not its in
 
 ## Atlas
 
-- [Public Organization Atlas](/corpus/notes/social/koinomia/representation/public-organization.html)
-- [Public Organization Characterization Systems](/corpus/notes/social/koinomia/representation/public-organization-characterization-systems.html)
+- [Public Organization Atlas](/corpus/notes/social/representation/public-organization.html)
+- [Public Organization Characterization Systems](/corpus/notes/social/representation/public-organization-characterization-systems.html)
 
 ## Read it with
 

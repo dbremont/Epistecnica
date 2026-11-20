@@ -175,6 +175,8 @@ PUBLIC_AGENCY_OLD = "/corpus/notes/social/koinomia/action/agency.md"
 PUBLIC_AGENCY_NEW = "/corpus/notes/social/koinomia/action/public-agency.md"
 HUMAN_BEHAVIORAL_OLD = "/corpus/notes/nature/life/organism/human/behavioral.md"
 HUMAN_BEHAVIORAL_NEW = "/corpus/notes/social/dynamic/behavior/human/behavioral.md"
+REPRESENTATION_OLD = "/corpus/notes/social/koinomia/representation/"
+REPRESENTATION_NEW = "/corpus/notes/social/representation/"
 ATLAS_PO_OLD = "/corpus/notes/social/koinomia/actor/atlas/"
 ATLAS_GOV_SHELF_OLD = "/corpus/notes/social/koinomia/governance/atlas/"
 ATLAS_ACTION_OLD = "/corpus/notes/social/koinomia/action/atlas/"
@@ -619,6 +621,10 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path.startswith(ATLAS_PO_OLD):
             self._redirect(REPRESENTATION_DIR + path[len(ATLAS_PO_OLD):])
+            return True
+
+        if path.startswith(REPRESENTATION_OLD):
+            self._redirect(REPRESENTATION_NEW + path[len(REPRESENTATION_OLD):])
             return True
 
         if path == PRIVATE_ACTOR_OLD:
