@@ -76658,7 +76658,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link the commerce activity, exchange, international trade, retail and operational trading-house notes; the provenance now points at the technica note."
+    "summary": "Link the commerce activity, exchange, international trade, retail and operational trading-house notes; the provenance now points at the technica note.",
+    "commit": "39d246fa217197489d421845bf531251785f62c3",
+    "before": "80c7f8f545f5dbb449673f96e6df9aaa8aab66ba"
    }
   ]
  },
@@ -138768,7 +138770,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link the social trading-house actor and the commerce activity note."
+    "summary": "Link the social trading-house actor and the commerce activity note.",
+    "commit": "39d246fa217197489d421845bf531251785f62c3",
+    "before": "80c7f8f545f5dbb449673f96e6df9aaa8aab66ba"
    }
   ]
  },
