@@ -419,6 +419,18 @@
    "to": "nature/life/organism/human/",
    "label": "Human",
    "kind": "related"
+  },
+  {
+   "from": "social/dynamic/behavior/",
+   "to": "social/synontic/culture/",
+   "label": "Culture",
+   "kind": "related"
+  },
+  {
+   "from": "social/synontic/culture/",
+   "to": "social/dynamic/behavior/",
+   "label": "Behavior",
+   "kind": "related"
   }
  ]
 }

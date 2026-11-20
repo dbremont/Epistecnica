@@ -77184,6 +77184,11 @@
     "summary": "Merge the behavioral conceptual-model note into the shelf master: cognitive-science definition, key questions, dynamics and references.",
     "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
     "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add a Read it with block linking Culture, Social Behavior and Norm."
    }
   ]
  },
@@ -91320,6 +91325,16 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   }
+  ]
+ },
+ {
+  "file_path": "social/synontic/culture/culture.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add a Read it with block linking Behavior and Social Behavior."
    }
   ]
  },

@@ -55,6 +55,12 @@ Key questions:
 
 > ...
 
+## Read it with
+
+- [Culture](/view.html?p=notes/social/synontic/culture/culture.md) — the stable system of behavior patterns; culture is the pattern, behavior the enactment.
+- [Social Behavior](/view.html?p=notes/social/dynamic/behavior/social-behavior.md) — the interactional reading of those patterns.
+- [Norm](/view.html?p=notes/social/normative/norm.md) — the rule that carries the pattern across actors.
+
 ## References
 
 - [Behavior](https://en.wikipedia.org/wiki/Behavior)

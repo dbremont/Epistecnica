@@ -284,6 +284,11 @@ A **cultural system** and a **social system** are deeply interconnected, but the
 - No single direction universally dominates. Evidence suggests a dynamic interplay, with contextual contingencies: geography, institutions, initial cultural capital, and external shocks.
 - A practical heuristic: culture sets the initial conditions, economic development provides feedback loops, and over decades or centuries, they co-evolve in mutually reinforcing cycles.
 
+## Read it with
+
+- [Behavior](/view.html?p=notes/social/dynamic/behavior/behavior.md) — the enactment whose stable patterns culture names.
+- [Social Behavior](/view.html?p=notes/social/dynamic/behavior/social-behavior.md) — the interactional reading of those patterns.
+
 ## References
 
 - [Cultura](https://es.wikipedia.org/wiki/Cultura)
