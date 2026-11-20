@@ -86141,6 +86141,16 @@
   ]
  },
  {
+  "file_path": "social/koinomia/actor/instance/finance/khazanah-nasional.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add Khazanah Nasional: the Malaysian sovereign wealth fund and state holding, with its literature."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/actor/instance/finance/monetary-authority-of-singapore.md",
   "logs": [
    {
@@ -89772,6 +89782,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link Khazanah, correct its leader and parent organization."
    }
   ]
  },

@@ -49,7 +49,7 @@ tags: [note, social]
 | Malaysian Investment Development Authority (MIDA) | 1967 | - | Sikh Shamsul Ibrahim Abdul Aziz | MITI | Promoting foreign and domestic investment, approving manufacturing projects |
 | Securities Commission Malaysia | 1993 | - | Datuk Seri Dr. Awang Adek Hussin | - | Regulating and developing the securities and futures industries |
 | Bursa Malaysia | 1964 | - | Datuk Muhammad Umar Swift | - | Operating stock exchange, facilitating capital raising |
-| Khazanah Nasional | 1993 | - | Tan Sri Dato' Sri Azman Hj Mokhtar | - | Sovereign wealth fund, strategic investments in key industries |
+| [Khazanah Nasional](/view.html?p=notes/social/koinomia/actor/instance/finance/khazanah-nasional.md) | 1993 | — | Amirul Feisal Wan Zahir | Minister of Finance (Incorporated) | Sovereign wealth fund, strategic investments in key industries |
 | Malaysia Competition Commission | 2011 | - | Dr. Ismail Alias | - | Enforcing competition law, preventing anti-competitive practices |
 | Royal Malaysian Customs Department | Pre-independence | - | Datuk Seri Abdul Latif Abdul Kadir | Ministry of Finance | Trade facilitation, customs duties, tax collection |
 
