@@ -29357,7 +29357,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -71031,7 +71033,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -76714,7 +76718,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -76863,7 +76869,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -81526,7 +81534,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81548,7 +81557,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81570,7 +81580,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81592,7 +81603,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81627,7 +81639,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81662,7 +81675,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81704,7 +81718,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81746,7 +81761,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81788,7 +81804,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81810,7 +81827,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81832,7 +81850,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81854,7 +81873,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81876,7 +81896,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81898,7 +81919,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81920,7 +81942,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81942,7 +81965,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81964,7 +81988,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -81986,7 +82011,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82008,7 +82034,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82030,7 +82057,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82052,7 +82080,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82074,7 +82103,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82102,7 +82132,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82124,7 +82155,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82146,7 +82178,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82168,7 +82201,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82190,7 +82224,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82212,7 +82247,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82234,7 +82270,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82256,7 +82293,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82278,7 +82316,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82306,7 +82345,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82328,7 +82368,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82350,7 +82391,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82372,7 +82414,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82394,7 +82437,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82416,7 +82460,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82438,7 +82483,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82460,7 +82506,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82482,7 +82529,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82504,7 +82552,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82526,7 +82575,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82548,7 +82598,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82570,7 +82621,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82592,7 +82644,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82614,7 +82667,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82636,7 +82690,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82658,7 +82713,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82680,7 +82736,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82702,7 +82759,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82724,7 +82782,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82746,7 +82805,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82768,7 +82828,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82790,7 +82851,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82812,7 +82874,8 @@
    {
     "date": "2026-11-20",
     "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf."
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
    }
   ]
  },
@@ -82940,7 +83003,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -83706,7 +83771,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -84630,7 +84697,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -84672,7 +84741,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -84694,7 +84765,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the Problem shelf at the Domain shelf one level up."
+    "summary": "Point the Problem shelf at the Domain shelf one level up.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -84721,7 +84794,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link the Domain shelf from the action Structure."
+    "summary": "Link the Domain shelf from the action Structure.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -88961,7 +89036,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -89998,7 +90075,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -90263,7 +90342,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
@@ -138056,7 +138137,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf."
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    }
   ]
  },
