@@ -138062,7 +138062,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Expand the empty stub into the family note: forwards, futures, options and swaps."
+    "summary": "Expand the empty stub into the family note: forwards, futures, options and swaps.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813",
+    "before": "81e68883176004e37288d778e48df250c972c4c9"
    }
   ]
  },
@@ -138072,7 +138074,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Foreign Exchange note: the currency asset and its instruments."
+    "summary": "Add the Foreign Exchange note: the currency asset and its instruments.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
@@ -138082,7 +138085,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Forward note: the bilateral OTC contract, priced by cost of carry."
+    "summary": "Add the Forward note: the bilateral OTC contract, priced by cost of carry.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
@@ -138092,7 +138096,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Money Market Instrument note: bills, commercial paper, CDs and repo."
+    "summary": "Add the Money Market Instrument note: bills, commercial paper, CDs and repo.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
@@ -138102,7 +138107,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Mutual Fund note: open-end, closed-end, unit trust, ETF and money-market forms."
+    "summary": "Add the Mutual Fund note: open-end, closed-end, unit trust, ETF and money-market forms.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
@@ -138112,7 +138118,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Option note: calls and puts, styles, the premium and the Greeks."
+    "summary": "Add the Option note: calls and puts, styles, the premium and the Greeks.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
@@ -138127,7 +138134,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link the asset index to the filled notes and add the collective investment vehicles row."
+    "summary": "Link the asset index to the filled notes and add the collective investment vehicles row.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813",
+    "before": "81e68883176004e37288d778e48df250c972c4c9"
    }
   ]
  },
@@ -138137,7 +138146,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Expand the references-only stub into the security families and securitisation."
+    "summary": "Expand the references-only stub into the security families and securitisation.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813",
+    "before": "81e68883176004e37288d778e48df250c972c4c9"
    }
   ]
  },
@@ -138147,7 +138158,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Swap note: interest-rate, currency, credit and commodity swaps."
+    "summary": "Add the Swap note: interest-rate, currency, credit and commodity swaps.",
+    "commit": "2dca77723f1039a5e998b4aa3272b26e1e8de813"
    }
   ]
  },
