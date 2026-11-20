@@ -169,6 +169,16 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+INTL_POLITY_OLD = "/corpus/notes/social/koinomia/polity/international/"
+INTL_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/instance/international/"
+INTL_MOVED = {
+    "comision-economica-para-america-latina-y-el-caribe.md",
+    "nordic-council-of-ministers.md",
+    "oecd.md",
+    "onu.md",
+    "wto.md",
+}
+POLITY_MD = "/corpus/notes/social/koinomia/polity/polity.md"
 GOVERNANCE_DIR = "/corpus/notes/social/koinomia/governance/"
 GOVERNANCE_MOVED = {
     "/corpus/notes/social/koinomia/actor/administration.md": GOVERNANCE_DIR + "administration.md",
@@ -555,6 +565,15 @@ class HubHandler(SimpleHTTPRequestHandler):
         if target is not None:
             self._redirect(target)
             return True
+
+        if path.startswith(INTL_POLITY_OLD):
+            name = path.split("/")[-1]
+            if name in INTL_MOVED:
+                self._redirect(INTL_ACTOR_NEW + name)
+                return True
+            if name == "international.md":
+                self._redirect(POLITY_MD)
+                return True
 
         if path == TRADING_HOUSE_OLD:
             self._redirect(TRADING_HOUSE_NEW)

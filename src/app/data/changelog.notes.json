@@ -86606,6 +86606,86 @@
   ]
  },
  {
+  "file_path": "social/koinomia/actor/instance/international/comision-economica-para-america-latina-y-el-caribe.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/instance/international/nordic-council-of-ministers.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/instance/international/oecd.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/instance/international/onu.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/actor/instance/international/wto.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the international organization instances: the note is an actor (IGO), not a polity."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/actor/instance/pri.md",
   "logs": [
    {
@@ -90974,17 +91054,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/polity/international/comision-economica-para-america-latina-y-el-caribe.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/polity/international/international.md",
   "logs": [
    {
@@ -90992,50 +91061,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/international/nordic-council-of-ministers.md",
-  "logs": [
+   },
    {
     "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/international/oecd.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/international/onu/onu.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/international/onu/wto.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+    "kind": "refactor",
+    "summary": "Removed: an empty concept stub, not an organization; the shelf's organizations moved to the actor instances."
    }
   ]
  },
