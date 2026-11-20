@@ -77343,7 +77343,9 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Fill the Social Behavior note: forms, explanatory traditions, historical and empirical literature, and the corpus links."
+    "summary": "Fill the Social Behavior note: forms, explanatory traditions, historical and empirical literature, and the corpus links.",
+    "commit": "01d1f888328cb7bfdbe548bb8f1ca6d33120fc95",
+    "before": "314e2b9f48d2d8dbc54a0ae8050166c15ee351b7"
    }
   ]
  },
