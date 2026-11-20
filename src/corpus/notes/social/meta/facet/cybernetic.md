@@ -48,7 +48,7 @@ It explains nothing about the machine's aesthetics, its physics or its training 
 | Element | Path |
 | --- | --- |
 | Cybernetic actor | `social/actor/cybernetic-interaction-unit.md` |
-| Actor typology | `social/actor/actor.md` |
+| Actor typology | `social/actor/private-actor.md` |
 | Interaction-unit root | `social/actor/interaction-unit.md` |
 | Delegated action | `social/dynamic/action/` |
 | Trust and coupling | `social/synontic/trust.md` |

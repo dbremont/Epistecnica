@@ -4,7 +4,7 @@ tags: [note, social, actor, collective, social-element, finance-actor, finance]
 
 # Finance Actor
 
-> A **Finance Actor** is a bounded collective that allocates capital and settles claims — the finance-functional subtype of [Actor](/view.html?p=notes/social/actor/actor.md): central banks and monetary authorities, development and export-import banks, sovereign and pension funds, mortgage agencies, stock and derivatives exchanges, and the international financial institutions. It is the actor counterpart of the exchange and market coordinators: the market clears, the finance actor carries and settles.
+> A **Finance Actor** is a bounded collective that allocates capital and settles claims — the finance-functional subtype of [Actor](/view.html?p=notes/social/actor/private-actor.md): central banks and monetary authorities, development and export-import banks, sovereign and pension funds, mortgage agencies, stock and derivatives exchanges, and the international financial institutions. It is the actor counterpart of the exchange and market coordinators: the market clears, the finance actor carries and settles.
 
 ## Formulation
 
@@ -52,7 +52,7 @@ Because the finance family mixes public and private bodies, its instances are sp
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: the actor typology this element belongs to)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: the actor typology this element belongs to)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic collective/organization type)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (sibling economic functional subtype)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (sibling functional subtype, also a mixed public/private family)

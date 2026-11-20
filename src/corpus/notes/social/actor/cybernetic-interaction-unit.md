@@ -58,7 +58,7 @@ The social question is therefore not whether the unit is conscious but whether i
 
 ## Read it with
 
-- [Actor](/view.html?p=notes/social/actor/actor.md) — the typology the unit joins.
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) — the typology the unit joins.
 - [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) — the grammar root.
 - [Human](/view.html?p=notes/social/actor/human.md) — the biological counterpart.
 - [Control System](/view.html?p=notes/technica/cybernetics/control-system.md) — the technical loop.

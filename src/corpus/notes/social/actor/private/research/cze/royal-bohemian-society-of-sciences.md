@@ -88,4 +88,4 @@ Two load-bearing caveats.
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (the family this society belongs to)
 - [The Royal Society of London for Improving Natural Knowledge](/view.html?p=notes/social/actor/private/research/gbr/the-royal-society-of-london-for-improving-natural-knowledge.md) (sibling learned society)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)

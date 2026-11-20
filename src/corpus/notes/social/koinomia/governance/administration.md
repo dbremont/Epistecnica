@@ -28,7 +28,7 @@ tags: [note, social, collective, social-element, actor, administration]
 
 ### What type of social element does this instance belong to?
 
-**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
+**Public Administration belongs primarily to `Social Compound` as an `Administrative Collective`** — an organized political collective (`Collective (→ Kind) Administrative Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology, and its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
 
 Its layer is **Ontic** where the administration exists extra-mentally (staff, offices, premises, budgets, systems) with **Synontic** aspects (authority, jurisdiction, legitimacy exist through shared recognition and legal warrant).
 
@@ -370,7 +370,7 @@ See
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)

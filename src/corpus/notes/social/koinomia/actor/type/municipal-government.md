@@ -18,7 +18,7 @@ tags: [note, social, collective, social-element, actor, municipal-government, lo
 
 ### What type of social element does this instance belong to?
 
-**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances, notably the `Municipal Organization` kind.
+**Municipal Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances, notably the `Municipal Organization` kind.
 
 > Its type path is nested: `Government (→ Kind) Local Government (→ Kind) Municipal Government`. **Local Government** is the sub-type of [Government](/view.html?p=notes/social/koinomia/actor/type/government.md); **Municipal Government** is its urban-locality kind, beside the district and metropolitan variants.
 
@@ -160,7 +160,7 @@ It is not the `Municipio` (the historical and territorial unit — see the study
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (the wielding body; carries the Municipal Organization kind)
 - [Mancomunidad](/view.html?p=notes/social/normative/institution/institution/mancomunidad.md) (inter-municipal association)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)
 - [Municipio](/view.html?p=notes/social/history/castilla/municipio.md) (historical and territorial unit)
 - [Facet](/view.html?p=notes/social/meta/facet.md)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

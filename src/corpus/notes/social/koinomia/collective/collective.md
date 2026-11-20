@@ -12,7 +12,7 @@ tags: [note, social, collective, social-element, actor, social-compound]
 
 **Collective belongs to the `Social Compound` social element type (Structural category)** — the generic bounded collective scoping a decomposition: a plurality of agents bound by constitutive relations into an identifiable social entity.
 
-It is not `Collective / Organization` as such (that is its organized subtype — the deliberate actor with identity, membership, and rules; see [Organization](/view.html?p=notes/social/actor/organization.md)); the genus also covers unorganized aggregates (Population), recognition-constituted communities, and compounds. Its layer is **Ontic** where the collective exists extra-mentally (populations, organizations, polities) and **Synontic** where it exists through shared recognition (nations-as-peoples, imagined communities). Its facet is social-general: the dominant causal mechanism is plural association as such, prior to economic, political, or ideational scoping. It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
+It is not `Collective / Organization` as such (that is its organized subtype — the deliberate actor with identity, membership, and rules; see [Organization](/view.html?p=notes/social/actor/organization.md)); the genus also covers unorganized aggregates (Population), recognition-constituted communities, and compounds. Its layer is **Ontic** where the collective exists extra-mentally (populations, organizations, polities) and **Synontic** where it exists through shared recognition (nations-as-peoples, imagined communities). Its facet is social-general: the dominant causal mechanism is plural association as such, prior to economic, political, or ideational scoping. It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology.
 
 Readable secondarily as an `Interaction Unit` (a bounded entity capable of interaction), as an `Institution` (where the collective just is its stabilized rules), and as a `Polity` (where bound by authority). Those readings are prose, not second trees; the tree below is typed once.
 
@@ -317,7 +317,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 
 ### What is the identification mechanism?
 
-> A collective is identified by the tie that counts one as belonging: a charter or register for membership organizations, mutual recognition for communities, jurisdiction or census for populations and polities. The mechanism is always a constitutive relation — membership, recognition, or authority — never mere co-location. See [Membership Tie](/view.html?p=notes/social/actor/actor.md) as typed in the actor hub.
+> A collective is identified by the tie that counts one as belonging: a charter or register for membership organizations, mutual recognition for communities, jurisdiction or census for populations and polities. The mechanism is always a constitutive relation — membership, recognition, or authority — never mere co-location. See [Membership Tie](/view.html?p=notes/social/actor/private-actor.md) as typed in the actor hub.
 
 ### What Grounds a Social Collective? or How Does a Collection of Social Participants Become a Collective?
 
@@ -347,7 +347,7 @@ On terms: **Collective** is the genus and instance term. **Organization** names 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
 - [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md)
 - [Family](/view.html?p=notes/social/actor/family.md)

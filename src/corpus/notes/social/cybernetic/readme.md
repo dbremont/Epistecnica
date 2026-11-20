@@ -19,7 +19,7 @@ The cybernetic world is not a place in the corpus; it is a reading that cuts acr
 | **Element** | **Where it lives** | **What it is** |
 | --- | --- | --- |
 | **The unit** | [Cybernetic Interaction Unit](/view.html?p=notes/social/actor/cybernetic-interaction-unit.md) | The designed actor: sensor, controller, actuator, boundary, delegated agency |
-| **The actor typology** | [Actor](/view.html?p=notes/social/actor/actor.md) · [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) | Where the artificial kind sits beside the human and the collective |
+| **The actor typology** | [Actor](/view.html?p=notes/social/actor/private-actor.md) · [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) | Where the artificial kind sits beside the human and the collective |
 | **The action** | [Action shelf](/explorer.html?dir=notes/social/dynamic/action) | Delegated and autonomous action, oversight and intervention |
 | **The relation** | [Trust](/view.html?p=notes/social/synontic/trust.md) | The human–machine coupling that makes delegation work |
 | **The norm** | [Normative shelf](/explorer.html?dir=notes/social/normative) | Liability, accountability and the rules of the delegated act |

@@ -121,7 +121,7 @@ Readable secondarily as an aggregate: the corps of degree-holders read as a stra
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md) (the Interaction Unit hub this type sits in)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) (the Interaction Unit hub this type sits in)
 - [Bildungsbürgertum](/view.html?p=notes/social/koinomia/collective/class/bildungsburgertum.md) (the comparative credential stratum: cultivation recognized rather than examined)
 - [Stratum](/view.html?p=notes/social/koinomia/collective/class/stratum.md) (the gradational reading of the corps of degree-holders)
 - [University](/view.html?p=notes/social/actor/university.md) (the European corporate that certified learning; the examination certified without a corporation)

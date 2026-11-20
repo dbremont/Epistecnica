@@ -14,7 +14,7 @@ tags: [note, social, collective, firm, organization]
 
 **Firm belongs to the `Collective / Organization` social element type — a compound Interaction Unit with identity, membership, and rules, carrying its own agencies, roles, and practices.**
 
-It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules) and not an `Activity` (it hosts activities rather than being one). Its layer is **Ontic**: a firm exists extra-mentally, with staff, assets, accounts, and address. Its facet is economic — its dominant causal mechanism is the conversion of capability into exchangeable value. It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
+It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules) and not an `Activity` (it hosts activities rather than being one). Its layer is **Ontic**: a firm exists extra-mentally, with staff, assets, accounts, and address. Its facet is economic — its dominant causal mechanism is the conversion of capability into exchangeable value. It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology.
 
 Read also, secondarily, as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets and business groups. That secondary reading is prose, not a second root; the tree below is typed once.
 
@@ -45,6 +45,6 @@ Produceologia models it across three analytical layers — microeconomic (produc
 
 - Produceologia `docs/Firm/README.md` (firm ontology: VSM, agential hierarchy, business-model tables)
 - Produceologia `docs/Firm/Toolkit/` (governance, strategy, product, commercialization areas)
-- [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: the actor typology this entry belongs to)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: the actor typology this entry belongs to)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - https://en.wikipedia.org/wiki/Corporation (corporation: legal form, limited liability, ownership shares — the canonical private-organization vehicle)

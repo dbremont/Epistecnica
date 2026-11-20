@@ -69,4 +69,4 @@ Two things are worth keeping straight. The generic name of the discipline — *c
 - [Mining System](/view.html?p=notes/technica/production/industry/mining-system.md) — the technical system the treatise describes from the inside
 - [Mining Sector](/view.html?p=notes/technica/production/industry/mining/readme.md) — the sector it belongs to
 - [Mineral](/view.html?p=notes/nature/matter/geological/mineral.md) — the natural element the ores are
-- [Actor](/view.html?p=notes/social/actor/actor.md) — the actor type a persona instance belongs to
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) — the actor type a persona instance belongs to

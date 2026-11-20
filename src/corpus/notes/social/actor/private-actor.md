@@ -2,7 +2,7 @@
 tags: [note, social, actor, social-element, interaction-unit, agents]
 ---
 
-# Actor
+# Private Actor
 
 > An **Actor** is a bounded entity capable of interaction — agentive, cognitive/reflexive, relational, nested, state-carrying. It is the root of the social typology of who acts: individuals who decide, collectives that act as one, institutions that wield authority, and the functional forms — research, finance, trade, industry, education, party, firm — through which they engage the world.
 

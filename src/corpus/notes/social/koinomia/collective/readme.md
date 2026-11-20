@@ -20,6 +20,6 @@ tags: [note, social]
 
 ## Read it with
 
-- [Actor](/view.html?p=notes/social/actor/actor.md) — the root hub of the actor typology
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) — the root hub of the actor typology
 - [Interaction Unit](/view.html?p=notes/social/actor/interaction-unit.md) — the element that covers both the singular and the plural actor
 - [Organization](/view.html?p=notes/social/actor/organization.md) — the organized subtype of the collective

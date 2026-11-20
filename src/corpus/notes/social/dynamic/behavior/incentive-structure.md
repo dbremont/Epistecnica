@@ -63,7 +63,7 @@ This means examining:
 
 - [Human](/view.html?p=notes/nature/life/organism/human/human.md)
 - [Cognitive](/view.html?p=notes/nature/life/organism/human/cognitive.md)
-- [Behavioral](/view.html?p=notes/nature/life/organism/human/behavioral.md)
+- [Behavioral](/view.html?p=notes/social/dynamic/behavior/human/behavioral.md)
 - [Behavior](/view.html?p=notes/social/dynamic/behavior/behavior.md)
 - https://en.wikipedia.org/wiki/Incentive_system
 

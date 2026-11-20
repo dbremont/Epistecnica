@@ -130,5 +130,5 @@ QA:
 - The Collective Action Problem
 - The Agent–Social-Reality Hard Coupling Problem
 - [Techno-Productivist Agential Principle Set (T-PAPS)](/view.html?p=notes/social/koinomia/action/instance/t-paps.md)
-- [Agency](/view.html?p=notes/social/koinomia/action/agency.md)
+- [Agency](/view.html?p=notes/social/koinomia/action/public-agency.md)
 - [Action](/view.html?p=notes/social/dynamic/action/action.md)

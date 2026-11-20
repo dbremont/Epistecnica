@@ -16,7 +16,7 @@ tags: [note, social, collective, social-element, actor, government]
 
 ### What type of social element does this instance belong to?
 
-**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances.
+**Government belongs to `Social Compound` as its primary kind** — an organized political collective (`Collective (→ Kind) Political Collective`); see [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology, and specialized organizationally under [Organization](/view.html?p=notes/social/actor/organization.md); its operating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances.
 
 Its layer is **Ontic** where the government exists extra-mentally (office-holders, ministries, premises, budgets) with **Synontic** aspects (authority, legitimacy, and jurisdiction exist through shared recognition and constitutional warrant).
 
@@ -24,7 +24,7 @@ It is not the `State` (the political organization that persists across successiv
 
 ### Is the type of this `social element instance` unambiguous?
 
-> Yes, as a compound kind: the mandate-bound governing collective is unambiguous, while the state-actor reading (an `Interaction Unit` wielding delegated sovereign power) and the office/role readings (minister, head of government as `Social Role`s) are secondary aspects of the same instance, not rival roots. They are recorded here as prose, not second trees; the tree below is typed once. A second tree is not grown because the state-actor grammar (`Social Actor` / `State Actor`) is not established as a subtype branch in [Actor](/view.html?p=notes/social/actor/actor.md), so it would use unlicensed types.
+> Yes, as a compound kind: the mandate-bound governing collective is unambiguous, while the state-actor reading (an `Interaction Unit` wielding delegated sovereign power) and the office/role readings (minister, head of government as `Social Role`s) are secondary aspects of the same instance, not rival roots. They are recorded here as prose, not second trees; the tree below is typed once. A second tree is not grown because the state-actor grammar (`Social Actor` / `State Actor`) is not established as a subtype branch in [Actor](/view.html?p=notes/social/actor/private-actor.md), so it would use unlicensed types.
 
 ### Which facet does this element belong to, if applicable?
 
@@ -357,7 +357,7 @@ It is not the `State` (the political organization that persists across successiv
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)
 - [Organization](/view.html?p=notes/social/actor/organization.md)
 - [Government-Wide Administrative System'](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md)
 - [Public Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)

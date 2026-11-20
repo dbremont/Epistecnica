@@ -12,7 +12,7 @@ tags: [note, social, collective, actor, social-element, organization]
 
 **Organization belongs to the `Collective / Organization` social element type — a compound Interaction Unit with identity, membership, and rules, carrying its own agencies, roles, and practices.**
 
-It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules — though it hosts institutions such as its governance) and not a `Firm` (a firm is its economic subtype, converting capability into exchangeable value; see [Firm](/view.html?p=notes/social/actor/firm.md)). Its layer is **Ontic**: an organization exists extra-mentally, with members, premises, accounts, and address. Its facet is social-general — its dominant causal mechanism is coordinated collective agency as such, prior to any economic, political, or ideational scoping. It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), the root hub of the actor typology.
+It is not an `Institution` (it is a deliberate actor rather than a stabilized system of rules — though it hosts institutions such as its governance) and not a `Firm` (a firm is its economic subtype, converting capability into exchangeable value; see [Firm](/view.html?p=notes/social/actor/firm.md)). Its layer is **Ontic**: an organization exists extra-mentally, with members, premises, accounts, and address. Its facet is social-general — its dominant causal mechanism is coordinated collective agency as such, prior to any economic, political, or ideational scoping. It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), the root hub of the actor typology.
 
 Readable secondarily as an `Interaction Unit` in the plain sense: a bounded entity capable of interaction, nested inside markets, fields, and compounds. That secondary reading is prose, not a second root; the tree below is typed once.
 
@@ -85,7 +85,7 @@ The agency-space QA — dimensions of the government agency space and the five-f
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: the actor typology this entry belongs to)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: the actor typology this entry belongs to)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) (government subtype; carries the agency-space QA)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body agency: kinds, anatomy, and terminology)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (economic subtype of Organization)

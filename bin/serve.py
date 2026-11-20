@@ -169,6 +169,12 @@ HUMAN_LANGUAGE_MOVED = {
     "polish.md",
     "swedish.md",
 }
+PRIVATE_ACTOR_OLD = "/corpus/notes/social/actor/actor.md"
+PRIVATE_ACTOR_NEW = "/corpus/notes/social/actor/private-actor.md"
+PUBLIC_AGENCY_OLD = "/corpus/notes/social/koinomia/action/agency.md"
+PUBLIC_AGENCY_NEW = "/corpus/notes/social/koinomia/action/public-agency.md"
+HUMAN_BEHAVIORAL_OLD = "/corpus/notes/nature/life/organism/human/behavioral.md"
+HUMAN_BEHAVIORAL_NEW = "/corpus/notes/social/dynamic/behavior/human/behavioral.md"
 ATLAS_PO_OLD = "/corpus/notes/social/koinomia/actor/atlas/"
 ATLAS_GOV_SHELF_OLD = "/corpus/notes/social/koinomia/governance/atlas/"
 ATLAS_ACTION_OLD = "/corpus/notes/social/koinomia/action/atlas/"
@@ -613,6 +619,18 @@ class HubHandler(SimpleHTTPRequestHandler):
 
         if path.startswith(ATLAS_PO_OLD):
             self._redirect(REPRESENTATION_DIR + path[len(ATLAS_PO_OLD):])
+            return True
+
+        if path == PRIVATE_ACTOR_OLD:
+            self._redirect(PRIVATE_ACTOR_NEW)
+            return True
+
+        if path == PUBLIC_AGENCY_OLD:
+            self._redirect(PUBLIC_AGENCY_NEW)
+            return True
+
+        if path == HUMAN_BEHAVIORAL_OLD:
+            self._redirect(HUMAN_BEHAVIORAL_NEW)
             return True
 
         if path.startswith(ATLAS_GOV_SHELF_OLD):

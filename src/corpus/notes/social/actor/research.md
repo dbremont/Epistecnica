@@ -4,7 +4,7 @@ tags: [note, social, actor, collective, social-element, research-actor, research
 
 # Research Actor
 
-> A **Research Actor** is a bounded collective that produces or funds inquiry — the research-functional subtype of [Actor](/view.html?p=notes/social/actor/actor.md): academies and national laboratories, government research agencies and funding councils, public research institutes, enterprise research labs, university research units, and the research groups they host. It is the actor counterpart of [Research Activity](/explorer.html?dir=notes/social/dynamic/research): the activity says what inquiry does, this element says who carries and pays for it.
+> A **Research Actor** is a bounded collective that produces or funds inquiry — the research-functional subtype of [Actor](/view.html?p=notes/social/actor/private-actor.md): academies and national laboratories, government research agencies and funding councils, public research institutes, enterprise research labs, university research units, and the research groups they host. It is the actor counterpart of [Research Activity](/explorer.html?dir=notes/social/dynamic/research): the activity says what inquiry does, this element says who carries and pays for it.
 
 ## Formulation
 
@@ -132,7 +132,7 @@ Approximate shares of a research group's total budget:
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md) (root hub: the actor typology this element belongs to)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: the actor typology this element belongs to)
 - [Organization](/view.html?p=notes/social/actor/organization.md) (parent: the generic collective/organization type)
 - [Research Activity](/explorer.html?dir=notes/social/dynamic/research) (the doing family this actor performs)
 - [Science](/view.html?p=notes/social/dynamic/research/science.md) (the scientific activity family that scopes inquiry)

@@ -54,7 +54,7 @@ Its layer is **Ontic**: houses exist with desks, offices, and books. Its facet i
 
 ## Read it with
 
-- **Actor**: [Actor](/view.html?p=notes/social/actor/actor.md) · [Firm](/view.html?p=notes/social/actor/firm.md) · [Organization](/view.html?p=notes/social/actor/organization.md)
+- **Actor**: [Actor](/view.html?p=notes/social/actor/private-actor.md) · [Firm](/view.html?p=notes/social/actor/firm.md) · [Organization](/view.html?p=notes/social/actor/organization.md)
 - **Coordination**: [Market](/view.html?p=notes/social/coordinator/market/market.md) · [Capital](/view.html?p=notes/social/coordinator/capital-labor/capital.md)
 - **Commerce**: [Commerce](/view.html?p=notes/social/dynamic/trade/commerce-economic-activity.md) · [Trade](/view.html?p=notes/social/dynamic/trade/trade.md) · [Exchange](/view.html?p=notes/social/dynamic/trade/exchange.md) · [International Trade](/view.html?p=notes/social/dynamic/trade/international-trade.md)
 - **Policy**: [Trade](/view.html?p=notes/social/koinomia/action/problem/international/trade/trade.md) · [Export](/view.html?p=notes/social/koinomia/action/problem/international/trade/export.md) · [Industry](/view.html?p=notes/social/koinomia/action/problem/production/industry/industry.md)

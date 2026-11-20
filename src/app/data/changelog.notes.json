@@ -30578,6 +30578,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Removed in the human behavioral consolidation."
    }
   ]
  },
@@ -46508,29 +46513,6 @@
   ]
  },
  {
-  "file_path": "nature/life/organism/human/behavioral.md",
-  "logs": [
-   {
-    "date": "2026-11-12",
-    "kind": "move",
-    "summary": "Move from nature/behavioral.md into nature/human/ so the human-related natural elements sit with the human corpus."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/human/behavioral.md: the shelf moved.",
-    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Point the conceptual-model link at the social behavior shelf CSV.",
-    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
-    "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
-   }
-  ]
- },
- {
   "file_path": "nature/life/organism/human/biomolecular-architecture.md",
   "logs": [
    {
@@ -48730,6 +48712,11 @@
     "kind": "move",
     "summary": "Move from nature/life/organism/human/human-behavior.md: the shelf moved.",
     "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Removed in the human behavioral consolidation."
    }
   ]
  },
@@ -70943,88 +70930,6 @@
   ]
  },
  {
-  "file_path": "social/actor/actor.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference.",
-    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef",
-    "before": "ced09f0c22b31acb17836728e428b5f2d28b58f5"
-   },
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note.",
-    "commit": "d087333df006fa5b289979e758f1df403a5744ff",
-    "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "refactor",
-    "summary": "Reference list: the Laboratory see-also line is dropped, since that note was retired into Research Actor and repointing it would have repeated the Research Actor entry already in the same list.",
-    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
-    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "fix",
-    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
-    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
-    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Social Group link to the singular modelling note.",
-    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
-    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch.",
-    "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
-    "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Point the plural branch at koinomia/collective/.",
-    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
-    "before": "e6f148875e5bd2917fec70db30627c154455b65f"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the polity links to the collective branch.",
-    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
-    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
-    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
-    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
-   }
-  ]
- },
- {
   "file_path": "social/actor/board.md",
   "logs": [
    {
@@ -71097,6 +71002,11 @@
     "kind": "feat",
     "summary": "Add the Cybernetic Interaction Unit: the artificial actor kind, its loop, kinds, delegated agency and references.",
     "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -71168,6 +71078,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -71180,6 +71095,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -71198,6 +71118,11 @@
     "summary": "Add the Cybernetic Unit row to the QI table.",
     "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
     "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -71275,6 +71200,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -71300,6 +71230,93 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   }
+  ]
+ },
+ {
+  "file_path": "social/actor/private-actor.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Extend the actor typing to reach the new University note: one Functional Actor -> Education Actor -> University row and a reference.",
+    "commit": "27b056e2fe068c7fa90fa2fb0cdf026761a5e0ef",
+    "before": "ced09f0c22b31acb17836728e428b5f2d28b58f5"
+   },
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add Legislature and Committee to the Public Organization kinds of the actor typology, each pointing at its new type note.",
+    "commit": "d087333df006fa5b289979e758f1df403a5744ff",
+    "before": "a4debb83b7e1c67447c7ac44c66aca0408a52de5"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "refactor",
+    "summary": "Reference list: the Laboratory see-also line is dropped, since that note was retired into Research Actor and repointing it would have repeated the Research Actor entry already in the same list.",
+    "commit": "6e411f0bb20db78091a2891b976220eebbbc08da",
+    "before": "f81a183490eeb489ec4fa3ee3130009cb59a17cf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Retarget the polity shelf link: the shelf readme was removed, so the note points at the Polity concept.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Social Group link to the singular modelling note.",
+    "commit": "d42fe4cebbdcd78ede23856355b8a94afcab950b",
+    "before": "9a7e9b16ebff55958b32a39148656b805f896915"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch.",
+    "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
+    "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the plural branch at koinomia/collective/.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
+    "before": "e6f148875e5bd2917fec70db30627c154455b65f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch.",
+    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
+    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Rename the actor root hub to Private Actor, pairing it with koinomia Public Actor."
    }
   ]
  },
@@ -73815,6 +73832,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -74248,6 +74270,11 @@
     "summary": "Mining and mechanical-technique links repointed after the corpus reorganisation.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -74630,6 +74657,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -74757,6 +74789,11 @@
     "summary": "The Corpus Lagrange Documents section now holds two works: the Reflexions memoir joins the Mecanique analytique volume.",
     "commit": "c2f21fead514a21376b65fee5b65f8c07b161a60",
     "before": "d133d7c2e553a10bcf3993dc56bd71b0480a489f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -75357,6 +75394,11 @@
     "summary": "Drop the French-original Traité row from the documents list — the stub has left the corpus.",
     "commit": "206a80e54d6dda149995d07a31486efd5fa6eb3a",
     "before": "e94dbf45b4df5d2642ba37bf89fbcdba0abd1a2d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -75994,6 +76036,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76116,6 +76163,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76486,6 +76538,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76560,6 +76617,11 @@
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
     "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76584,6 +76646,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76655,6 +76722,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -76996,6 +77068,11 @@
     "kind": "feat",
     "summary": "Add the main entry for the cybernetic world: the facet, the corpus map, the reading rules and the QA.",
     "commit": "34c0b20ba978b962d1d06b19d6d5158482875db1"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -77584,6 +77661,34 @@
   ]
  },
  {
+  "file_path": "social/dynamic/behavior/human/behavioral.md",
+  "logs": [
+   {
+    "date": "2026-11-12",
+    "kind": "move",
+    "summary": "Move from nature/behavioral.md into nature/human/ so the human-related natural elements sit with the human corpus."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/human/behavioral.md: the shelf moved.",
+    "commit": "a9695f2df8dd8d6ce9d0c041f621c95dd3be04b0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the conceptual-model link at the social behavior shelf CSV.",
+    "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
+    "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move into the social behavior shelf beside the human behavioral model."
+   }
+  ]
+ },
+ {
   "file_path": "social/dynamic/behavior/incentive-structure.md",
   "logs": [
    {
@@ -77603,6 +77708,11 @@
     "kind": "refactor",
     "summary": "Move from the human behavioral conceptual model into the social behavior shelf.",
     "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -77714,6 +77824,11 @@
     "summary": "Retarget the behavioral model links to the flat behavior shelf.",
     "commit": "1aee1a28fd819b8e7e0c35161bb4021d12e4cd2a",
     "before": "1b6e4c52907cec532783b2cd7cfed598b7019f09"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -82007,17 +82122,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/action/agency.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/action/guidance/talent-attraction.md",
   "logs": [
    {
@@ -83353,6 +83457,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -83854,6 +83963,11 @@
     "summary": "Retarget the toolkit link to the guidance shelf.",
     "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
     "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -84910,6 +85024,11 @@
     "summary": "Retarget the Domain links to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
     "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -85732,6 +85851,22 @@
   ]
  },
  {
+  "file_path": "social/koinomia/action/public-agency.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Rename to Public Agency: the public-action reading of agency."
+   }
+  ]
+ },
+ {
   "file_path": "social/koinomia/action/readme.md",
   "logs": [
    {
@@ -85806,6 +85941,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -88876,6 +89016,11 @@
     "kind": "edit",
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -88947,6 +89092,11 @@
     "kind": "edit",
     "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
     "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -89310,6 +89460,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -89400,6 +89555,11 @@
     "summary": "Retarget the polity links to the collective branch.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -89424,6 +89584,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -92565,6 +92730,11 @@
     "summary": "Point the polity links at the polity sub-shelf.",
     "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
     "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -92723,6 +92893,11 @@
     "summary": "Retarget the Public Employee link to the type shelf.",
     "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
     "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -92846,6 +93021,11 @@
     "summary": "Retarget the Public Employee link to the type shelf.",
     "commit": "4d256dc2f642c287dfe55aa17f9c52c1d3586886",
     "before": "cffe4c6325a434b63a6766cc45a53edc7c81b21f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -93158,6 +93338,11 @@
     "kind": "feat",
     "summary": "Add the Cybernetic Facet note: mechanism, boundaries, coverage, element paths, QA and references.",
     "commit": "34c0b20ba978b962d1d06b19d6d5158482875db1"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -94097,6 +94282,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },
@@ -94199,6 +94389,11 @@
     "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
     "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
     "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links."
    }
   ]
  },

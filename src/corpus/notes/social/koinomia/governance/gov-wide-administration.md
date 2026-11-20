@@ -23,7 +23,7 @@ tags: [note, social, collective, administration, government-wide]
 
 ### What type of social element does this instance belong to?
 
-**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md), the parent hub, and [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/actor.md), and its participating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
+**Government-Wide Administration belongs primarily to `Social Compound` as the government-wide kind of `Administrative Collective`** (`Collective (→ Kind) Administrative Collective (→ Kind) Public Administration (→ Kind) Government-Wide Administration`); see [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md), the parent hub, and [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). It is typed under [Actor](/view.html?p=notes/social/actor/private-actor.md), and its participating units are [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md) instances directed by a [Government](/view.html?p=notes/social/koinomia/actor/type/government.md).
 
 Its layer is **Ontic** where the system exists extra-mentally (centers, staff, shared platforms, budgets) with **Synontic** aspects (authority, standards, and compliance exist through legal warrant and shared recognition).
 
@@ -555,7 +555,7 @@ It is not an `Organizational Administration` (the internal administration of one
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Philosophia Conceptuum et Operis](/view.html?p=notes/philosophia-conceptuum-et-operis.md)
 - [Collective](/view.html?p=notes/social/koinomia/collective/collective.md)
-- [Actor](/view.html?p=notes/social/actor/actor.md)
+- [Actor](/view.html?p=notes/social/actor/private-actor.md)
 - [Government](/view.html?p=notes/social/koinomia/actor/type/government.md)
 - [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/readme.md)

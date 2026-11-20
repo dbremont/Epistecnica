@@ -15,7 +15,7 @@ tags: [note, social, actor, person, engineering, industrial-revolution, iron, ma
 
 ### What type of social element does this instance belong to?
 
-> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](/view.html?p=notes/social/actor/actor.md) and [Human](/view.html?p=notes/social/actor/human.md).
+> A **Person**, typed through `Interaction Unit (→ Kind) Social Actor (→ Kind) Societal Actor`: an individual actor constituted outside public authority. It is an `Interaction Unit` — a unit that can act and participate in social interactions; a Social Actor — an acting unit recognized within social reality; and a Societal Actor — constituted outside public authority (persons, households, firms, associations), as against a `State Actor`. See [Actor](/view.html?p=notes/social/actor/private-actor.md) and [Human](/view.html?p=notes/social/actor/human.md).
 
 > Its dominant layer is **Agentic** where his agency, intention, and action are at issue, with **Ontic** aspects (his body, ironworks, furnaces, boring machinery, coin) and **Synontic/Noetic** aspects (his standing, and the classifications — ironmaster, patentee, "Iron Mad" — through which he is recognized). It is not a `State Actor` (he held no public office) and not an `Organization` or `Collective` (he is a single, non-compound unit).
 
