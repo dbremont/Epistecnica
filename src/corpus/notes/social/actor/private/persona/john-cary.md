@@ -38,4 +38,4 @@ His Bristol is the reason the argument has a shape. A port city whose trade ran 
 - Cary, J. (1717). *An essay towards regulating the trade, and employing the poor of this kingdom*. London.
 - Cary, J. (1745). *A discourse on trade, and other matters relative to it*. London: T. Osborne.
 - [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md) — where he is cited for the 1695 essay
-- [United Kingdom](/view.html?p=notes/social/koinomia/polity/instance/gbr/uk.md) — the polity whose industrial policy inherits the employment argument
+- [United Kingdom](/view.html?p=notes/social/koinomia/collective/polity/instance/gbr/uk.md) — the polity whose industrial policy inherits the employment argument

@@ -114,7 +114,7 @@ That is why the Swedish model is neither a universal template nor a simple welfa
 
 ## See also
 
-- [Sweden](/view.html?p=notes/social/koinomia/polity/instance/swe/sweden.md)
+- [Sweden](/view.html?p=notes/social/koinomia/collective/polity/instance/swe/sweden.md)
 - [KTH Royal Institute of Technology](/view.html?p=notes/social/actor/private/education/swe/royal-institute-of-technology.md)
 - [Swedish Defence Research Agency (FOI)](/view.html?p=notes/social/koinomia/actor/instance/research/swe/swedish-defence-research-agency.md)
 - [RISE: Research Institutes of Sweden](/view.html?p=notes/social/koinomia/actor/instance/research/swe/rise-research-institutes-of-sweden.md)

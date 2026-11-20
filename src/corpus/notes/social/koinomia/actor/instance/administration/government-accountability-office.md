@@ -44,5 +44,5 @@ tags: [note, social, actor, public-organization, audit, accountability, united-s
 - [GAO — website](https://www.gao.gov/)
 - [Audit](/view.html?p=notes/social/dynamic/audit.md) — the type: elements, types and independence parameters
 - [Netherlands Court of Audit](/view.html?p=notes/social/koinomia/actor/instance/administration/netherlands-court-of-audit.md) — the collegial contrast
-- [United States](/view.html?p=notes/social/koinomia/polity/instance/usa/united-states-of-america-usa.md) — the polity it audits
+- [United States](/view.html?p=notes/social/koinomia/collective/polity/instance/usa/united-states-of-america-usa.md) — the polity it audits
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional form

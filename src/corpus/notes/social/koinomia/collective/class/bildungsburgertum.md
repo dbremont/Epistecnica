@@ -12,7 +12,7 @@ tags: [note, social, collective, social-element, stratum, bildungsburgertum, eur
 
 > The stratum of pastors, Gymnasium teachers, professors, physicians, jurists and higher officials — with their households — that carried the German educated middle class from roughly 1770 to 1933. Its unity was cultural before it was economic: the parsonage and the professorial household reproduced it, the Gymnasium and the university credentialed it, and the state service employed it. Cultivation was not a decoration on its standing; it *was* the standing, and the family invested in schooling what the trading house invested in stock.
 
-> Its sociability was an institution of its own — the [Salon](/view.html?p=notes/social/dynamic/cultural/salon.md), where Berlin households met nobility and financiers on terms set by cultivation — and its mirror image was the merchant city: [Lübeck](/view.html?p=notes/social/koinomia/polity/instance/deu/region/lubeck.md), where standing was credit, the trading house was the family's instrument, and cultivation was a private accomplishment rather than a title to office.
+> Its sociability was an institution of its own — the [Salon](/view.html?p=notes/social/dynamic/cultural/salon.md), where Berlin households met nobility and financiers on terms set by cultivation — and its mirror image was the merchant city: [Lübeck](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/region/lubeck.md), where standing was credit, the trading house was the family's instrument, and cultivation was a private accomplishment rather than a title to office.
 
 > **Note on the name.** *Bildungsbürgertum* is a historians' category of the twentieth century; the stratum's own word for itself was *Bildungsbürger*, and the pairing with *Wirtschaftsbürgertum* belongs to the social history written around Werner Conze and Jürgen Kocka in the 1980s. The term therefore names a formation that did not call itself by that name — a fact worth holding, because it makes the concept's retrospective character part of what it is.
 
@@ -137,9 +137,9 @@ Readable secondarily as an **Interaction Unit** where it organized — the profe
 - [Culture](/view.html?p=notes/social/synontic/culture/culture.md) (the patterns the stratum carried and enforced)
 - [University](/view.html?p=notes/social/actor/university.md) (the Humboldtian form as a kind, and the professor's institution)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (the older transmission actor the Gymnasium and university descend from)
-- [Germany](/view.html?p=notes/social/koinomia/polity/instance/deu/germany.md) (the polity whose service employed the stratum)
+- [Germany](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/germany.md) (the polity whose service employed the stratum)
 - [Salon](/view.html?p=notes/social/dynamic/cultural/salon.md) (the sociability in which cultivation was performed and recognized)
-- [Lübeck](/view.html?p=notes/social/koinomia/polity/instance/deu/region/lubeck.md) (the merchant city that is the stratum's mirror image)
+- [Lübeck](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/region/lubeck.md) (the merchant city that is the stratum's mirror image)
 - [Scholar-Official](/view.html?p=notes/social/actor/scholar-official.md) (the examined credential stratum: the documentary case against the performative one)
 - [Max Weber](/view.html?p=notes/social/actor/private/persona/maximilian-carl-emil-weber.md) (the *Stand* against the *Klasse* — the distinction this note works with)
 - [Jürgen Habermas](/view.html?p=notes/social/actor/private/persona/jurgen-habermas.md) (the public sphere the stratum's sociability helped constitute)

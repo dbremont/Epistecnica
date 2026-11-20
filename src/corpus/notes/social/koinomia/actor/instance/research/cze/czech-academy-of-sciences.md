@@ -27,4 +27,4 @@ tags: [note, social, actor, research, czechia]
 - [Czech Academy of Sciences — website](https://www.avcr.cz/en/)
 - [Czech Academy of Sciences — Wikipedia](https://en.wikipedia.org/wiki/Czech_Academy_of_Sciences)
 - [Royal Bohemian Society of Sciences](/view.html?p=notes/social/actor/private/research/cze/royal-bohemian-society-of-sciences.md) — the learned society this institution descends from
-- [Czechia](/view.html?p=notes/social/koinomia/polity/instance/cze/czech.md) — the polity it serves
+- [Czechia](/view.html?p=notes/social/koinomia/collective/polity/instance/cze/czech.md) — the polity it serves

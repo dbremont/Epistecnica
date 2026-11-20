@@ -36,7 +36,7 @@ tags: [note, social, actor, research, poland, network]
 
 > The applied sector has a sequence the transition literature tends to stop short of. [Heinecke (2016)](/view.html?p=documents/papers/heinecke-2016-polish-public-science-system.md) documents the **dismantling** of the governmental applied-research units after 1989; the 2019 act is the **re-consolidation** a generation later. The sector was not rebuilt on the academy's model — it was gathered into a network designed to sell research to firms, under a science ministry rather than the branch ministries that once owned the institutes.
 
-> Read with the [Poland note](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md), it sharpens the contrast the corpus draws there. The academy was reproduced because it had its own legal personality and property; the applied institutes were dismantled because they depended on a ministry's budget line — and they were put back together only when the state chose to create a legal person that could hold them as a network. Legal form, not research quality, decides what survives a transition.
+> Read with the [Poland note](/view.html?p=notes/social/koinomia/collective/polity/instance/pol/poland.md), it sharpens the contrast the corpus draws there. The academy was reproduced because it had its own legal personality and property; the applied institutes were dismantled because they depended on a ministry's budget line — and they were put back together only when the state chose to create a legal person that could hold them as a network. Legal form, not research quality, decides what survives a transition.
 
 ## References
 
@@ -44,5 +44,5 @@ tags: [note, social, actor, research, poland, network]
 - [Łukasiewicz Research Network — official site](https://lukasiewicz.gov.pl/en/)
 - [Łukasiewicz Research Network — pl.wikipedia](https://pl.wikipedia.org/wiki/Sie%C4%87_Badawcza_%C5%81ukasiewicz) — the institute count over time
 - [Polish Academy of Sciences](/view.html?p=notes/social/koinomia/actor/instance/research/pol/polish-academy-of-sciences.md) — the reproduced basic-research pillar
-- [Poland — the public science system](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) — the polity note
+- [Poland — the public science system](/view.html?p=notes/social/koinomia/collective/polity/instance/pol/poland.md) — the polity note
 - [Heinecke (2016)](/view.html?p=documents/papers/heinecke-2016-polish-public-science-system.md) — the dismantling this network reverses

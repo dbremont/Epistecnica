@@ -72,7 +72,7 @@ The lesson for a latecomer is not "import less" or "protect more." It is to trea
 - [Technological Transfer](/view.html?p=notes/social/dynamic/production/technological-transfer.md)
 - [Ministry of International Trade and Industry (MITI)](/view.html?p=notes/social/koinomia/actor/instance/development/ministry-of-international-trade-and-industry.md)
 - [Shibusawa Eiichi](/view.html?p=notes/social/actor/private/persona/shibusawa-eiichi.md) — the Meiji institution builder and “father of Japanese capitalism”
-- [Japan](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md)
+- [Japan](/view.html?p=notes/social/koinomia/collective/polity/instance/jpn/japan.md)
 
 ## Further reading
 

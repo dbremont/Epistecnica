@@ -23,11 +23,11 @@ tags: [document, paper, business-history, india, ancient-india, management, guil
 
 > **What the entry records is the subject rather than a summary of findings** — the abstract was not retrievable at the time of writing, and the corpus prefers a stated gap to an invented summary. The reading that can be made from the title and the literature is the one the corpus's own notes already support: the *śreṇī* is an **economic aggregation form** with rules of entry, adjudication and collective liability; the *Arthaśāstra* is an administrative manual with a theory of the state's revenue, personnel and intelligence; and the social order is a coordination device as much as a normative one.
 
-> Read beside the polity notes, the paper is the management layer of the same world: the [Vajjika League](/view.html?p=notes/social/koinomia/polity/instance/vaj/vajjika-league.md) and the [Shakya](/view.html?p=notes/social/koinomia/polity/instance/shk/shakya.md) are the *political* forms of collective decision, and the guilds are the *economic* ones — two aggregation technologies in the same society, and the article's question is what their management practice looked like.
+> Read beside the polity notes, the paper is the management layer of the same world: the [Vajjika League](/view.html?p=notes/social/koinomia/collective/polity/instance/vaj/vajjika-league.md) and the [Shakya](/view.html?p=notes/social/koinomia/collective/polity/instance/shk/shakya.md) are the *political* forms of collective decision, and the guilds are the *economic* ones — two aggregation technologies in the same society, and the article's question is what their management practice looked like.
 
 ## References
 
 - [Rooney & Murthy (2024) — DOI](https://doi.org/10.1080/00076791.2024.2415452)
 - [Śreṇi](/view.html?p=notes/social/actor/sreni.md) — the guild as an aggregation form
-- [Gaṇasaṅgha](/view.html?p=notes/social/koinomia/polity/gana-sangha.md) — the political aggregation form
-- [Vajjika League](/view.html?p=notes/social/koinomia/polity/instance/vaj/vajjika-league.md) · [Shakya](/view.html?p=notes/social/koinomia/polity/instance/shk/shakya.md) — the republican instances
+- [Gaṇasaṅgha](/view.html?p=notes/social/koinomia/collective/polity/gana-sangha.md) — the political aggregation form
+- [Vajjika League](/view.html?p=notes/social/koinomia/collective/polity/instance/vaj/vajjika-league.md) · [Shakya](/view.html?p=notes/social/koinomia/collective/polity/instance/shk/shakya.md) — the republican instances

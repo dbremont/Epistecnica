@@ -143,8 +143,8 @@ Readable secondarily as a **ruling class** where the grand burghers governed —
 - [Social Class](/view.html?p=notes/social/koinomia/collective/class/social-class.md) (the relational cut; the class the order's holders belonged to)
 - [Citizenship](/view.html?p=notes/social/synontic/citizenship.md) (the municipal membership the right realizes)
 - [Status](/view.html?p=notes/social/synontic/status.md) (the standing the collective conferred on the right)
-- [Hamburg](/view.html?p=notes/social/koinomia/polity/instance/deu/region/hamburg.md) (the republic the right governed until 1919)
-- [Lübeck](/view.html?p=notes/social/koinomia/polity/instance/deu/region/lubeck.md) (the other Hanseatic city-republic)
-- [Hanseatic League](/view.html?p=notes/social/koinomia/polity/instance/hsa/hanseatic-league.md)
+- [Hamburg](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/region/hamburg.md) (the republic the right governed until 1919)
+- [Lübeck](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/region/lubeck.md) (the other Hanseatic city-republic)
+- [Hanseatic League](/view.html?p=notes/social/koinomia/collective/polity/instance/hsa/hanseatic-league.md)
 - Schmalz, T. von (1818). *Lehrbuch des teutschen Privatrechts; Landrecht und Lehnrecht enthaltend*. Duncker und Humblot.
 - [Grand Burgher](https://en.wikipedia.org/wiki/Grand_Burgher)

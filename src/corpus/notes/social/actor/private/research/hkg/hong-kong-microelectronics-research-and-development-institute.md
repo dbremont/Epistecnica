@@ -114,4 +114,4 @@ The centre of the chart states the mandate in the institute's own words: *"Colla
 - [Organization](/view.html?p=notes/social/actor/organization.md) — the parent type; what individuates a public organization is its relation to authority, not its internal machinery
 - [Government](/view.html?p=notes/social/koinomia/actor/government.md) · [Public Administration](/view.html?p=notes/social/koinomia/governance/administration.md) · [Civil Service](/view.html?p=notes/social/koinomia/governance/civil-service.md) · [Government-Wide Administrative System](/view.html?p=notes/social/koinomia/governance/gov-wide-administration.md) · [Municipal Government](/view.html?p=notes/social/koinomia/actor/municipal-government.md)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) · [Committee](/view.html?p=notes/social/actor/committee.md) — the Finance Committee approval belongs to this reading
-- [Hong Kong](/view.html?p=notes/social/koinomia/polity/instance/hkg/hong-kong.md) — the polity that established it
+- [Hong Kong](/view.html?p=notes/social/koinomia/collective/polity/instance/hkg/hong-kong.md) — the polity that established it

@@ -111,13 +111,13 @@ FAVICON_TARGET = "/img/favicon.ico"
 # URLs redirect to the new paths; the source readme stubs stay served so their
 # directory links keep a landing page.
 KOINOMIA_POLITY_OLD = "/corpus/notes/social/actor/public/polity"
-KOINOMIA_POLITY_NEW = "/corpus/notes/social/koinomia/polity"
+KOINOMIA_POLITY_NEW = "/corpus/notes/social/koinomia/collective/polity"
 KOINOMIA_ACTOR_OLD = "/corpus/notes/social/actor/public/"
 KOINOMIA_ACTOR_NEW = "/corpus/notes/social/koinomia/actor/"
 KOINOMIA_ACTION_OLD = "/corpus/notes/social/dynamic/action/public/"
 KOINOMIA_ACTION_NEW = "/corpus/notes/social/koinomia/action/"
 KOINOMIA_POLITY_MD_OLD = "/corpus/notes/social/actor/collective/polity.md"
-KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/koinomia/polity/polity.md"
+KOINOMIA_POLITY_MD_NEW = "/corpus/notes/social/koinomia/collective/polity/polity.md"
 KOINOMIA_WORLD_MD_OLD = "/corpus/notes/social/actor/public/polity/world.md"
 KOINOMIA_WORLD_MD_PREV = "/corpus/notes/social/koinomia/polity/world.md"
 KOINOMIA_WORLD_MD_CURRENT = "/corpus/notes/social/koinomia/world.md"
@@ -178,7 +178,9 @@ INTL_MOVED = {
     "onu.md",
     "wto.md",
 }
-POLITY_MD = "/corpus/notes/social/koinomia/polity/polity.md"
+POLITY_MD = "/corpus/notes/social/koinomia/collective/polity/polity.md"
+POLITY_DIR_OLD = "/corpus/notes/social/koinomia/polity/"
+POLITY_DIR_NEW = "/corpus/notes/social/koinomia/collective/polity/"
 COLLECTIVE_OLD = "/corpus/notes/social/actor/collective/"
 COLLECTIVE_NEW = "/corpus/notes/social/koinomia/collective/"
 GOVERNANCE_DIR = "/corpus/notes/social/koinomia/governance/"
@@ -581,6 +583,12 @@ class HubHandler(SimpleHTTPRequestHandler):
             if name == "international.md":
                 self._redirect(POLITY_MD)
                 return True
+
+        if path.startswith(POLITY_DIR_OLD):
+            rest = path[len(POLITY_DIR_OLD):]
+            self._redirect(POLITY_DIR_NEW + rest)
+            return True
+
 
         if path == TRADING_HOUSE_OLD:
             self._redirect(TRADING_HOUSE_NEW)

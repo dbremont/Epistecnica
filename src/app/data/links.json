@@ -170,7 +170,7 @@
   },
   {
    "from": "social/koinomia/actor/",
-   "to": "social/actor/collective/",
+   "to": "social/koinomia/collective/",
    "label": "Collective",
    "kind": "hierarchy"
   },
@@ -235,7 +235,7 @@
    "kind": "related"
   },
   {
-   "from": "social/koinomia/polity/instance/chn/",
+   "from": "social/koinomia/collective/polity/instance/chn/",
    "to": "social/actor/scholar-official.md",
    "label": "Scholar-Official",
    "kind": "related"
@@ -313,8 +313,8 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/actor/collective/",
-   "to": "social/koinomia/polity/",
+   "from": "social/koinomia/collective/",
+   "to": "social/koinomia/collective/polity/",
    "label": "Polity",
    "kind": "related"
   },
@@ -367,8 +367,8 @@
    "kind": "related"
   },
   {
-   "from": "social/koinomia/polity/",
-   "to": "social/actor/collective/",
+   "from": "social/koinomia/collective/polity/",
+   "to": "social/koinomia/collective/",
    "label": "Collective",
    "kind": "related"
   },
@@ -380,19 +380,19 @@
   },
   {
    "from": "social/actor/public/",
-   "to": "social/actor/collective/",
+   "to": "social/koinomia/collective/",
    "label": "Collective",
    "kind": "hierarchy"
   },
   {
-   "from": "social/koinomia/polity/",
-   "to": "social/koinomia/polity/instance/",
+   "from": "social/koinomia/collective/polity/",
+   "to": "social/koinomia/collective/polity/instance/",
    "label": "Instance",
    "kind": "hierarchy"
   },
   {
-   "from": "social/koinomia/polity/instance/",
-   "to": "social/koinomia/polity/",
+   "from": "social/koinomia/collective/polity/instance/",
+   "to": "social/koinomia/collective/polity/",
    "label": "Polity",
    "kind": "hierarchy"
   },

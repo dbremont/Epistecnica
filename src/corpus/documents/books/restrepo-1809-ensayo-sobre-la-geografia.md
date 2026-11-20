@@ -32,5 +32,5 @@ tags: [document, book, colombia, geography, political-economy, history]
 - [Babel — Banrepcultural digital collection, item 4082](https://babel.banrepcultural.org/digital/collection/p17054coll10/id/4082/)
 - [José Manuel Restrepo Vélez — Wikipedia (es)](https://es.wikipedia.org/wiki/José_Manuel_Restrepo_Vélez)
 - [José Manuel Restrepo Vélez — persona entry](/view.html?p=notes/social/actor/private/persona/jose-manuel-restrepo-velez.md)
-- [Colombia](/view.html?p=notes/social/koinomia/polity/instance/col/colombia.md)
+- [Colombia](/view.html?p=notes/social/koinomia/collective/polity/instance/col/colombia.md)
 - [Resource Curse](/view.html?p=notes/social/dynamic/phenomena/resource-curse.md)

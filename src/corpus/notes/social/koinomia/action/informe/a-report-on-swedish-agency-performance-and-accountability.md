@@ -175,8 +175,8 @@ The result is a system that audits financial regularity comprehensively, audits 
 
 ## See also
 
-- [Swedish Administrative System](/view.html?p=notes/social/koinomia/polity/instance/swe/administrative-system.md)
-- [Sweden](/view.html?p=notes/social/koinomia/polity/instance/swe/sweden.md)
+- [Swedish Administrative System](/view.html?p=notes/social/koinomia/collective/polity/instance/swe/administrative-system.md)
+- [Sweden](/view.html?p=notes/social/koinomia/collective/polity/instance/swe/sweden.md)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
 - [Public Inquiry](/view.html?p=notes/social/koinomia/actor/public-inquiry.md)
 - [Royal Commission](/view.html?p=notes/social/koinomia/actor/royal-commission.md)

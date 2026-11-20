@@ -24,4 +24,4 @@ tags: [note, social]
 - https://en.wikipedia.org/wiki/Public_administration
 - https://en.wikipedia.org/wiki/Governance
 - [Órgano Colegiado](https://es.wikipedia.org/wiki/Órgano_colegiado)
-- [Governance](/view.html?p=notes/social/koinomia/polity/instance/dom/legal/governance.md)
+- [Governance](/view.html?p=notes/social/koinomia/collective/polity/instance/dom/legal/governance.md)

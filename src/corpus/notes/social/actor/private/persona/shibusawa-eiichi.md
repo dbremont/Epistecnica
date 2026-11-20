@@ -17,7 +17,7 @@ type: person
 
 ## See also
 
-- [Japan](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md)
+- [Japan](/view.html?p=notes/social/koinomia/collective/polity/instance/jpn/japan.md)
 - [An Essay on Japanese Technology Indigenization](/view.html?p=notes/social/koinomia/action/informe/an-essay-on-japanese-technology-indigenization.md)
 - [Technology Indigenization](/glossarium/?t=technology-indigenization)
 - [Industrial Policy](/view.html?p=notes/social/koinomia/action/instance/case-study-china-national-key-technologies-rd-program.md)

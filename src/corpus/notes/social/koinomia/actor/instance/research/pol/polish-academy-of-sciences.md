@@ -30,5 +30,5 @@ tags: [note, social, actor, research, poland, academy]
 
 - [Polish Academy of Sciences — Wikipedia](https://en.wikipedia.org/wiki/Polish_Academy_of_Sciences)
 - [PAN — website](https://pan.pl/en/)
-- [Poland — the public science system](/view.html?p=notes/social/koinomia/polity/instance/pol/poland.md) — the polity note
+- [Poland — the public science system](/view.html?p=notes/social/koinomia/collective/polity/instance/pol/poland.md) — the polity note
 - [Heinecke (2016)](/view.html?p=documents/papers/heinecke-2016-polish-public-science-system.md) — the paper that documents the reproduction

@@ -26,4 +26,4 @@ tags: [note, social, actor, education, japan, research]
 - [Kyoto University — website](https://www.kyoto-u.ac.jp/en)
 - [Kyoto University — Wikipedia](https://en.wikipedia.org/wiki/Kyoto_University)
 - [Incorporated Administrative Agency](/view.html?p=notes/social/koinomia/actor/incorporated-administrative-agency.md) — the public-body form a national university corporation is adjacent to
-- [Japan](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md) — the polity and research system it belongs to
+- [Japan](/view.html?p=notes/social/koinomia/collective/polity/instance/jpn/japan.md) — the polity and research system it belongs to

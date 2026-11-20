@@ -89,7 +89,7 @@
             subtitle.textContent = meta.country;
             if (this.code) {
               subtitle.href = '/explorer.html?dir=' +
-                encodeURIComponent('social/koinomia/polity/instance/' + this.code);
+                encodeURIComponent('social/koinomia/collective/polity/instance/' + this.code);
             }
           }
         }

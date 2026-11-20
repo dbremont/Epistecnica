@@ -50,7 +50,7 @@ tags: [note, social]
 
 ## Case Study
 
-- [Germany Technical Training Ecosystem (TTE)](/view.html?p=notes/social/koinomia/polity/instance/deu/education/tte.md)
+- [Germany Technical Training Ecosystem (TTE)](/view.html?p=notes/social/koinomia/collective/polity/instance/deu/education/tte.md)
 
 ## References
 

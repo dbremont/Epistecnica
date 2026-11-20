@@ -8,7 +8,7 @@ qa:
 
 # Sovereignty
 
-> **Sovereignty** is the claim to supreme authority inside a political order and to independence from every authority outside it: no appeal above it within, no superior over it without. It is carried by a [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) the way weight is carried by a body — a property of the thing, not a part of it.
+> **Sovereignty** is the claim to supreme authority inside a political order and to independence from every authority outside it: no appeal above it within, no superior over it without. It is carried by a [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) the way weight is carried by a body — a property of the thing, not a part of it.
 
 > It is a **claim** treated as a fact, and the whole difficulty of the concept is in that sentence. Every sovereign is bounded by what it can enforce; every "absolute" authority has negotiated, conceded and lost. The word survives because it does one job no other word does: it says that the order's authority has no superior, which is what makes a boundary a border rather than a front.
 
@@ -86,7 +86,7 @@ The five are not a definition; they are the marks a claim must display to be *ca
 
 ## Gradations
 
-Sovereignty is not a switch. The ladder below is the one [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) calls **Dependent Standing**, read as degrees of the property rather than as kinds of polity:
+Sovereignty is not a switch. The ladder below is the one [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) calls **Dependent Standing**, read as degrees of the property rather than as kinds of polity:
 
 | **Grade** | **Effective content** | **Typical form** |
 | --- | --- | --- |
@@ -111,7 +111,7 @@ What actually constrains a sovereign, in rough order of how much it constrains:
 
 | **Concept** | **Relation** |
 | --- | --- |
-| [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) | The bearer: sovereignty is predicated of a political collective, never of a person or a government |
+| [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) | The bearer: sovereignty is predicated of a political collective, never of a person or a government |
 | [State](/view.html?p=notes/social/koinomia/actor/government.md) | The polity kind defined by the claim to supremacy within a territory — the state is the polity read through this property |
 | [Government](/view.html?p=notes/social/koinomia/actor/government.md) | The apparatus that exercises it at a time; governments change, sovereignty does not |
 | [Authority](/view.html?p=notes/social/normative/authority.md) | The entitlement to decide inside the order; sovereignty is the further claim that nothing above it decides |
@@ -136,6 +136,6 @@ What actually constrains a sovereign, in rough order of how much it constrains:
 - Bartelson, J. (1995). *A genealogy of sovereignty*. Cambridge University Press. — the concept as a changing answer to a changing question
 - Krasner, S. D. (1999). *Sovereignty: Organized hypocrisy*. Princeton University Press. — the norm violated routinely and the vocabulary kept
 - [Sovereignty](https://en.wikipedia.org/wiki/Sovereignty)
-- [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) — the bearer of the property
+- [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) — the bearer of the property
 - [Authority](/view.html?p=notes/social/normative/authority.md) · [Legitimacy](/view.html?p=notes/social/normative/legitimacy.md) — the neighbours it is constantly confused with
 - [Imperialism](/view.html?p=notes/social/dynamic/imperialism.md) — the relation that transfers, bounds or denies it

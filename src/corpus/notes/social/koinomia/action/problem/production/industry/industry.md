@@ -12,4 +12,4 @@ Guiding Question:
 
 ## References
 
-- [Italy Industrial Cluster](/view.html?p=notes/social/koinomia/polity/instance/ita/production/network.md)
+- [Italy Industrial Cluster](/view.html?p=notes/social/koinomia/collective/polity/instance/ita/production/network.md)

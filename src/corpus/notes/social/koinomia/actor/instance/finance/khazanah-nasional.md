@@ -19,7 +19,7 @@ It invests as an owner, not as a fund of funds: it takes positions in companies 
 
 ## Read it with
 
-- [Malaysia](/view.html?p=notes/social/koinomia/polity/instance/mys/malaysia.md) — the polity whose corporate holdings it manages.
+- [Malaysia](/view.html?p=notes/social/koinomia/collective/polity/instance/mys/malaysia.md) — the polity whose corporate holdings it manages.
 - [State Holding and Investment Company](/view.html?p=notes/social/actor/finance.md) — the finance-actor kind it belongs to.
 - [Federal Holding and Investment Company](/view.html?p=notes/social/koinomia/actor/instance/finance/federal-holding-and-investment-company.md) — the Belgian counterpart.
 - [Government Pension Fund of Norway](/view.html?p=notes/social/koinomia/actor/instance/finance/government-pension-fund-of-norway.md) — the resource-revenue sovereign fund.

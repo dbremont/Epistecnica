@@ -28,14 +28,14 @@ tags: [note, social, actor, public-organization, audit, netherlands]
 
 ## In the Dutch state
 
-> The [Dutch state](/view.html?p=notes/social/koinomia/polity/instance/nld/state.md) note classifies it twice — among the High Councils of State and among the statutory bodies — which is accurate: it is constitutionally a High Council and functionally an audit institution. The classification is the useful part of the case: the Netherlands puts its auditor at the same constitutional level as its legal adviser and its ombudsman, not inside the ministry whose spending it examines.
+> The [Dutch state](/view.html?p=notes/social/koinomia/collective/polity/instance/nld/state.md) note classifies it twice — among the High Councils of State and among the statutory bodies — which is accurate: it is constitutionally a High Council and functionally an audit institution. The classification is the useful part of the case: the Netherlands puts its auditor at the same constitutional level as its legal adviser and its ombudsman, not inside the ministry whose spending it examines.
 
 ## References
 
 - [Netherlands Court of Audit — Wikipedia](https://en.wikipedia.org/wiki/Netherlands_Court_of_Audit)
 - [Algemene Rekenkamer — website](https://www.rekenkamer.nl/)
 - [Audit](/view.html?p=notes/social/dynamic/audit.md) — the type: elements, types, independence parameters and failure modes
-- [Dutch State](/view.html?p=notes/social/koinomia/polity/instance/nld/state.md) — the polity it audits
+- [Dutch State](/view.html?p=notes/social/koinomia/collective/polity/instance/nld/state.md) — the polity it audits
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md) — the institutional form
 - [Supreme audit institution — Wikipedia](https://en.wikipedia.org/wiki/Supreme_audit_institution) — the international family
 - [Government Accountability Office](/view.html?p=notes/social/koinomia/actor/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

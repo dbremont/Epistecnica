@@ -25,5 +25,5 @@ tags: [note, social, actor, university, research, israel, engineering]
 
 - [Technion — website](https://www.technion.ac.il/en/)
 - [Technion — Wikipedia](https://en.wikipedia.org/wiki/Technion_%E2%80%93_Israel_Institute_of_Technology)
-- [Israel](/view.html?p=notes/social/koinomia/polity/instance/isr/israel.md) — the polity
+- [Israel](/view.html?p=notes/social/koinomia/collective/polity/instance/isr/israel.md) — the polity
 - [KNAW](/view.html?p=notes/social/koinomia/actor/instance/research/nld/royal-netherlands-academy-of-arts-and-sciences.md) — the academy contrast

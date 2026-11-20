@@ -28,5 +28,5 @@ tags: [note, social, actor, learned-society, development, spain, enlightenment]
 - [Sociedad Económica de Amigos del País — Wikipedia (es)](https://es.wikipedia.org/wiki/Sociedades_econ%C3%B3micas_de_amigos_del_pa%C3%ADs)
 - [Promotion Agency](/view.html?p=notes/social/koinomia/actor/instance/development/promotion-agency.md) — the type
 - [Guatemala — the colonial instance](/view.html?p=notes/social/actor/private/research/gtm/real-sociedad-economica-de-amantes-de-la-patria.md)
-- [Spain](/view.html?p=notes/social/koinomia/polity/instance/esp/spain.md) — the metropole
+- [Spain](/view.html?p=notes/social/koinomia/collective/polity/instance/esp/spain.md) — the metropole
 - [Internet Archive — works by the Sociedad Económica de Amigos del País (Guatemala)](https://archive.org/search?query=creator%3A%22Sociedad+Econ%C3%B3mica+de+Amigos+del+Pa%C3%ADs+(Guatemala)%22) — the digitised record of the society's own publications

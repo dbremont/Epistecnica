@@ -17794,6 +17794,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -71000,6 +71005,11 @@
     "summary": "Point the plural branch at koinomia/collective/.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
     "before": "e6f148875e5bd2917fec70db30627c154455b65f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -71372,6 +71382,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -71439,6 +71454,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -72341,6 +72361,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -73659,6 +73684,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -74395,6 +74425,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -74483,6 +74518,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -74563,6 +74603,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -74790,6 +74835,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -74885,6 +74935,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -75236,6 +75291,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -75420,6 +75480,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -75982,6 +76047,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -76027,6 +76097,11 @@
     "summary": "Retarget the government-wide administration link to the governance shelf.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
     "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -76262,6 +76337,11 @@
     "summary": "Point the plural branch at koinomia/collective/.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
     "before": "e6f148875e5bd2917fec70db30627c154455b65f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -76417,6 +76497,11 @@
     "summary": "Merge the technica trading-house note into the social actor note: the global trading companies table and its references.",
     "commit": "0fe8bd3b2643f5dd7efa8be49f5b70a7f8fc3f47",
     "before": "e8e7980d3b9aed2e62763c8ad2cba05a0f57272e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -77553,6 +77638,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -77915,6 +78005,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -78813,6 +78908,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -81610,6 +81710,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -81723,6 +81828,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -81795,6 +81905,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -81941,6 +82056,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -81985,6 +82105,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -82568,6 +82693,11 @@
     "kind": "refactor",
     "summary": "Move to the instance shelf: the note is a concrete policy, plan or programme, not an informe.",
     "commit": "d208e95d524ee1a35509d45fcf88608bf8304118"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -83904,6 +84034,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -84086,6 +84221,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -84708,6 +84848,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -85180,6 +85325,11 @@
     "kind": "refactor",
     "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -85432,6 +85582,11 @@
     "summary": "Retarget the toolkit link to the guidance shelf.",
     "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
     "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -85510,6 +85665,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -85538,6 +85698,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -85593,6 +85758,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86114,6 +86284,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86169,6 +86344,11 @@
     "kind": "feat",
     "summary": "Add Khazanah Nasional: the Malaysian sovereign wealth fund and state holding, with its literature.",
     "commit": "2f112cd1de019130061cca638f93b45eee6f2f8a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86197,6 +86377,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86241,6 +86426,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86502,6 +86692,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86734,6 +86929,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -86775,6 +86975,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -87329,6 +87534,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -87553,6 +87763,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -87838,6 +88053,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -87849,6 +88069,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -87941,6 +88166,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88264,6 +88494,11 @@
     "summary": "Retarget the civil-service link to the governance shelf.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
     "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88281,6 +88516,11 @@
     "kind": "move",
     "summary": "Move into the koinomia domain shelf and retarget links.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88384,6 +88624,11 @@
     "summary": "Retarget the administration, civil-service and government-wide administration links to the governance shelf.",
     "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
     "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88537,6 +88782,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88561,6 +88811,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88590,6 +88845,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88614,6 +88874,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88729,6 +88994,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -88753,6 +89023,2933 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/gana-sangha.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New polity form note: the gana-sangha as republican oligarchy - the assembly, council and presiding executive, the household-based membership rule, the distinction from democracy (sovereignty shared among a closed set of families, not the population), the three reasons the form matters (counter-example to monarchy, a design without separation of powers, and a case of fragility), the two instances, and the contrast with the command technology of the Maurya empire.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/abb/abbasid-caliphate.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ach/achaemenid-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/are/united-arab-emirates-uae.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/arg/argentina.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ath/athenian-republic.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/aus/australia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/aut/austria.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bel/belgium.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Link the imec row to its own actor note, social/actor/public/catalog/research/bel/imec.md.",
+    "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+    "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add SFPIM to the economic statecraft institutions and the references.",
+    "commit": "f8951242365ac74abd00026c322d413ef3cfce4b",
+    "before": "2200b001b35ef504b1b86988fd0eb48ad5b7a77b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bel/region/flanders.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the Action Instrument terminology in the Flanders decomposition."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy.",
+    "commit": "281ec05095a724382d3d29bad3224813a38decf9",
+    "before": "2383a5c1e7ef83f5051a08eec94cc53d1e8b475e"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Link the imec row to its own actor note, social/actor/public/catalog/research/bel/imec.md.",
+    "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
+    "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bhr/bahrain.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bol/bolivia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bra/brazil.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/bwa/botswana.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/byz/eastern-roman-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/can/canada.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/che/state.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/che/switzerland.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chl/chile.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/han/han.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/ming/ming.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/prc/china.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the SIAT technology achievement supermarket section: the Global Times link, 1,000+ achievements, 29% conversion, Apon Medical's BCI consortium, China Merchants CO2 biorefining, nuclear human-machine interaction, coal-derived membranes, China Resources Mixc AI inspection, and the 2026 integration guidelines."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "The Knowledge System section now carries the education channel: the foreign joint-venture campus, with Sullivan & Silver's RMIT Wuhan project as the early case, the three problems it named (accreditation of the partner, equivalence of the award, control of the curriculum) and the distinction that what diffuses is a curriculum, a quality regime and a credential rather than a technology.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/prc/region/hong-kong/civil-service.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/prc/region/hong-kong/hong-kong.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/qin/qin.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/qing/qing.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/song/song.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/tang/tang.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/yuan/yuan.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/chn/zhou/zhou.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/cho/chola-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/col/colombia.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the José Manuel Restrepo passage on mining and ephemeral prosperity, with the Spanish text, an English gloss, and references to the persona, the document and the resource-curse note.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/cri/costa-rica.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/crt/carthage.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/cub/cuba.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/cze/czech.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "The R&D actors row now links the new Czech Academy of Sciences note.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/deu/education/tte.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/deu/germany.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "The Clapham citation now links the book entry added to the documents corpus."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Clapham's comparative economic history.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/deu/region/hamburg.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New city note: Hamburg, sibling to the Luebeck note and in the same compact shape (lead, five sections, references) rather than the socialium Formulation shell. Constitutional history as a chain of settlements: the 1241 alliance with Luebeck as the League's founding moment, the 1266 contract with Henry III allowing a hanse in London, the 1270 Ordeelbook, the 1410 Rezess counted as the first constitution, free imperial city, 1814-15 sovereignty confirmed at Vienna, the semi-democratic 1860 constitution with the Senate elected by adult taxpaying males, entry into the customs union only in 1888, the federal state of 1871, the Greater Hamburg Act of 1937 (Altona, Harburg, Wandsbek), and the state of West Germany in 1949. A section on the Hanseatic republic names the oligarchy plainly and hands the class and the legal order to their own notes. Then the port, the three destructions (1842 fire, 1943 firestorm, 1962 flood), and the modern city. Links the Hanseaten, Grand Burgher, Luebeck, the League, Germany and City.",
+    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/deu/region/lubeck.md",
+  "logs": [
+   {
+    "date": "2026-11-15",
+    "kind": "feat",
+    "summary": "Add the Free City of Lübeck: the merchant republic of the Baltic, its patriciate and trading houses, and the economic bourgeoisie the Bildungsbürgertum is named against.",
+    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
+    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dnk/denmark.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/breviarium/rd-1-0-dominican-state-capacity.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/demographic/rd-1-0-dominican-demographics.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/economy/digital.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/economy/history.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/economy/labor.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/education/rd-1-0-dominican-educational-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/energy/rd-1-0-dominican-energy-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/finance/rd-1-0-dominican-financial-markets.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/hacienda/rd-1-0-dominican-tributary-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/health/rd-1-0-dominican-healthcare-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/kps/rd-1-0-innovation-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/legal/constitution.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/legal/governance.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/legal/legal.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/monetary/rd-1-0-dominican-monetary-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/politics/rd-1-0-dominican-political-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/public/ppi.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/rd-1-0-dominix.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/security/risk.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/security/security.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/social/rd-1-0-dominican-socioeconomics.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dom/urbanism/rd-1-0-dominican-urbanism.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/dut/dutch-republic.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Anglo-Dutch wars.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ecu/ecuador.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/esp/spain.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the Guatemalan Amigos del Pais society (1794) as a colonial member of the Spanish Enlightenment network."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "The Guatemalan society reference now points at the corpus note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/est/estonia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/est/state.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/eth/ethiopia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/fin/finland.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/fra/france.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Clapham's comparative economic history.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/fra/paris-commune.md",
+  "logs": [
+   {
+    "date": "2026-11-06",
+    "kind": "feat",
+    "summary": "add Paris Commune polity note pointing to the history note",
+    "commit": "c97f1be2daf18013a4cc3669bc3513155f1370d7"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/gbr/uk.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link The Productivity Institute and the Institute for Manufacturing in the UK R&D actors table."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References, England list: John Cary linked — the merchant on trade, employment and the poor whose manufactures-and-shipping argument the industrial policy in this note descends from.",
+    "commit": "9c1fa9dfd1491f81bf6b79f2b67afdfb83afcfad",
+    "before": "4382894b7b550c82929b56dff24ab49f4a253194"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Anglo-Dutch wars."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Macinnes (2007) added: the 1707 union read as an imperial project rather than only a parliamentary merger.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/gen/republic-of-genoa.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/gha/ghana.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/grc/grecia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/grc/region/athens.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/grc/region/patras.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/grc/region/thessaloniki.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/hab/habsburg-monarchy.md",
+  "logs": [
+   {
+    "date": "2026-11-13",
+    "kind": "docs",
+    "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
+    "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "References now link the Peace of Westphalia note as the settlement that fixed the Empire's constitution until 1806."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Kaps (2018) on the internal core-periphery relation and Pichler (2001) on Austrian Lombardy added to the references; the existing Jeremy (1977) citation now links its document entry.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/hkg/hong-kong.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/hsa/hanseatic-league.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/hti/haiti.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/hun/hungary.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/idn/indonesia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ind/india.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/irl/ireland.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Cullen (1968) added: the composition of Anglo-Irish trade, 1660-1800, and how the restrictions redirected rather than suppressed it.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/irn/iran.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/isr/israel.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Technion note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ita/italy.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Pichler (2001) added: economic policy and development in Austrian Lombardy, 1815-1859.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ita/production/network.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the flattened problem/ shelf.",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
+    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ita/region/piamonte.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ita/region/venice.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/jpn/japan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Update the RIKEN row to the current legal status and link the RIKEN note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add a further-reading section with the Odagiri, Teranishi, Stearns, International Economic Association and Lall & Urata book entries."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add the Shibusawa Eiichi paragraph to Industrial Policy: joint-stock companies, modern banking, business education and the moral-economy argument."
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "New Public Policy Research Actors section, after the R&D actors: three views of the policy-research field - the policy research institutions (GRIPS, GRIPS Alliance, CREPE, RIETI, NIRA, ESRI) with type and relevance, the ministry-attached administrative research institutes (public administration, JILPT, IPSS, NIER, information and communications, CPRC) with their domains, and the research centres and academic groups (CREPE, the two GRIPS centres, CiNii) as the router into the Japanese-language literature. Closes on affiliation not being influence."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link Green's Arming Japan beside the industrial-policy material.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/kor/south-korea.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "New Actors section: the seven industrial-policy organisations (MOTIR, KIET, KEIT, KIAT, KISTEP, KDB, KOTRA) with their principal roles and the industrial-policy capacity each offers an investigation, plus a note that the ministry's MOTIR and MOTIE designations still need reconciling."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Korea/Taiwan comparative study.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mau/maurya-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mex/mexico.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mha/maratha-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mug/mughal-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mus/mauritius.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/mys/malaysia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link Khazanah, correct its leader and parent organization.",
+    "commit": "2f112cd1de019130061cca638f93b45eee6f2f8a",
+    "before": "458ead60176529aa106ded506313ce510dd76bd2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/nld/netherlands.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/nld/production.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/nld/state.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Both Court of Audit mentions (High Councils of State; statutory bodies) now link the new institution note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the KNAW note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/nor/norway.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/nzl/new-zealand.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/oto/ottoman-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now carry the governance triad: Ottomanism (civic loyalty across confessions), Phanariots (the minority intermediary elite) and the millet system (the confessional legal unit).",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/phl/philippines.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/plc/polish-lithuanian-commonwealth.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/pol/poland.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "docs",
+    "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note.",
+    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
+    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "Two additions. Industrial policy now has a transformation block: the instrument menu of the transition (tax preferences, subsidies, guarantees, protection, restructuring programmes, settlement proceedings, institutions), the ministry's own account and Kozuch's academic treatment, and the FDI channel with its measured limit (Weresa: correlated with innovation except in low-technology branches; Domanski & Gwosdz: strong production upgrading, weak R&D and design, localized capabilities as both embedding and ceiling). And a new Firms Competing Internationally section: 20 firms with products, international competitors and the mechanism of survival, read in three clusters - defence and optoelectronics on procurement politics, rail and heavy vehicles upgraded from repair works, software/photonics/instruments with non-state first customers.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Lukasiewicz Research Network linked and corrected in both institutional tables (supervising ministry, 22 institutes); added the applied-sector paragraph to the public-science section, reading the 2019 consolidation as re-consolidation after the dismantling.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/pri/puerto-rico.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/prt/portugal.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/pry/paraguay.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/qat/qatar.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/rag/ragusa.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the polity instance sub-shelf master.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the World link after world.md moved to the koinomia shelf root.",
+    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
+    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the World link to the space/ shelf.",
+    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
+    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/rom/roman-republic.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/rou/romania.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/rus/russia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/sau/saudi-arabia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/scotland/public-bodies.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New note classifying the Scottish public bodies by legal form and distance from ministers: directorate/executive agency, NDPB, public corporation, commissioner body and company owned by the ministers, with the three questions that read the distance (who owns, who appoints the board, who approves the budget) and the development bank as the company-form case.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/scotland/scotland.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "References now link the Public Bodies of the Scottish Government note.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/sgp/hr/hr.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "Title corrected to Hong Kong Civil HR, naming the polity instead of the generic label.",
+    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
+    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/sgp/singapore.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/sgp/state.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/shk/shakya.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New polity note: the Shakya republic at Kapilavastu as the small-scale case - the assembly of household heads, absorption by Kosala, the contrast with the Vajjika failure (asymmetry of scale rather than defection), and the point that its form survives only through the canon its most famous member's movement produced.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/slj/seljuk-empire.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/swe/administrative-system.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the performance and accountability report from the Swedish administrative system note."
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: the Swedish administrative system, filed with the polity rather than with the generic forms, which already carry the Swedish Government Agency as a kind. The argument is that the split between policy and delivery is not what makes the system distinctive — most states have one — but that the split is constitutional: the Instrument of Government forbids ministerial rule, a minister may not decide how an agency decides a particular case, and decisions are taken by the government collectively. Structure table (Riksdag, government, ministries, agencies, oversight) with what each may and may not do; then the two supporting institutions that make independence work rather than merely exist — the principle of public access since 1766, and review on legality through the administrative courts and the ombudsmen. The costs are stated plainly: nobody below the government can reconcile two agencies that disagree, ministerial accountability is real but diffused, and the model assumes a small high-capacity civil service and a culture of collective decision. Compared against the UK executive agency (insulation in a framework document) and the Japanese incorporated administrative agency (insulation in incorporation): the Swedish form puts it in the constitution.",
+    "commit": "a9895c104bc7152eda858575449d10096e7afe0d"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "The note now says how the system is steered, not only how it is divided. Added: a one-table statement of the twelve elements (legal status, parent, collective political control, operational management, head, appropriation, instruction, appropriation directions, annual report, follow-up and audit, the bar on ministerial intervention, staff as agency employees); the steering cycle as a diagram, with the point it makes — steering ex ante by mandate, budget and objectives and ex post by report, evaluation and audit, never in the case, so independence is steering at a different distance rather than its absence; and who appoints whom. The appointment layer is the government reaching inside the agency once per term (director-general, deputy, county governors) while other senior posts belong to the agency itself, under a merit principle required to be predictable, open and traceable — a rule that exists because an unchecked appointment power would restore once per term the patronage the prohibition removes case by case. A final block answers the five questions in one place and records that the staff are agency employees, not ministry employees: the separation is constitutional at the top and everyday at the bottom.",
+    "commit": "4efe57142ed9b0e33372000622575f201b379285",
+    "before": "74d0f5e2186522cacd622d2c096eec635cb657b7"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the government-wide administration link to the governance shelf.",
+    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
+    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/swe/education/tte.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/swe/sweden.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the Swedish administrative system and the performance/accountability report from the Sweden note."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Add a Swedish Model, 1940–1980 section and link the new informe."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the FOI row in the Sweden R&D actors table to the new actor note."
+   },
+   {
+    "date": "2026-11-14",
+    "kind": "docs",
+    "summary": "Add the history of Swedish machine-production industry.",
+    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
+    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/tha/thailand.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/tur/turkey.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/twn/taiwan.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the Korea/Taiwan comparative study.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ugt/ugarit.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ukr/ukraine.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/umy/umayyad-caliphate.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ury/uruguay.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/usa/united-states-of-america-usa.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Link the MIT Industrial Performance Center in the US R&D actors table."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "References now link the GAO note.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/vaj/vajjika-league.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New polity note: the Vajjika League as the scale case of the republican form - the eight clans (Licchavis, Videhas, Jnatrikas), the assembly at Vaishali, the conquest by Ajatasatru through division rather than arms, and the fragility condition it states (consensus as constitution, defection as the failure mode), with the contrast against Magadha's command state.",
+    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
+    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/ven/venezuela.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/venetia/venetia.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/instance/vnm/vietnam.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/international/international.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Removed: an empty concept stub, not an organization; the shelf's organizations moved to the actor instances.",
+    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e",
+    "before": "0e0241ac57b1ad1e83e408ee11c414c838473fac"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/polity.md",
+  "logs": [
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "edit",
+    "summary": "References: Sovereignty linked as the property this note grades as Dependent Standing.",
+    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c",
+    "before": "49b46257102f1efa8f40b99bc5747d11f0d34c78"
+   },
+   {
+    "date": "2026-11-18",
+    "kind": "edit",
+    "summary": "References now link the Representation Systems design note.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "fix",
+    "summary": "Replace the removed shelf readme link with the Polity Atlas and Instance pages.",
+    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
+    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
+   }
+  ]
+ },
+ {
+  "file_path": "social/koinomia/collective/polity/readme.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Add the polity sub-shelf master.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move under the collective branch: polity is the political core of the Social Compound genus."
    }
   ]
  },
@@ -88784,6 +91981,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the polity links at the polity sub-shelf."
    }
   ]
  },
@@ -88871,6 +92073,11 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -89047,2183 +92254,6 @@
   ]
  },
  {
-  "file_path": "social/koinomia/polity/gana-sangha.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New polity form note: the gana-sangha as republican oligarchy - the assembly, council and presiding executive, the household-based membership rule, the distinction from democracy (sovereignty shared among a closed set of families, not the population), the three reasons the form matters (counter-example to monarchy, a design without separation of powers, and a case of fragility), the two instances, and the contrast with the command technology of the Maurya empire.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/abb/abbasid-caliphate.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ach/achaemenid-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/are/united-arab-emirates-uae.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/arg/argentina.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ath/athenian-republic.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/aus/australia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/aut/austria.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bel/belgium.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Link the imec row to its own actor note, social/actor/public/catalog/research/bel/imec.md.",
-    "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
-    "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Add SFPIM to the economic statecraft institutions and the references.",
-    "commit": "f8951242365ac74abd00026c322d413ef3cfce4b",
-    "before": "2200b001b35ef504b1b86988fd0eb48ad5b7a77b"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bel/region/flanders.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Update the Action Instrument terminology in the Flanders decomposition."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Fill the Flanders profile: formulation and decomposition, actor space, production space, training and industrial policy.",
-    "commit": "281ec05095a724382d3d29bad3224813a38decf9",
-    "before": "2383a5c1e7ef83f5051a08eec94cc53d1e8b475e"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Link the imec row to its own actor note, social/actor/public/catalog/research/bel/imec.md.",
-    "commit": "a9621dad145aa029d1c79d7ef8290c2d61f06069",
-    "before": "f814983b0b6e7e860fdee959b702c772de1764d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bhr/bahrain.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bol/bolivia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bra/brazil.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/bwa/botswana.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/byz/eastern-roman-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/can/canada.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/che/state.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/che/switzerland.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chl/chile.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/han/han.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/ming/ming.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/prc/china.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add the SIAT technology achievement supermarket section: the Global Times link, 1,000+ achievements, 29% conversion, Apon Medical's BCI consortium, China Merchants CO2 biorefining, nuclear human-machine interaction, coal-derived membranes, China Resources Mixc AI inspection, and the 2026 integration guidelines."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "The Knowledge System section now carries the education channel: the foreign joint-venture campus, with Sullivan & Silver's RMIT Wuhan project as the early case, the three problems it named (accreditation of the partner, equivalence of the award, control of the curriculum) and the distinction that what diffuses is a curriculum, a quality regime and a credential rather than a technology.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/prc/region/hong-kong/change/hong-kong-social-region-dynamics-1900-2025.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/prc/region/hong-kong/civil-service.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/prc/region/hong-kong/hong-kong.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/qin/qin.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/qing/qing.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/song/song.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/tang/tang.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/yuan/yuan.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/chn/zhou/zhou.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/cho/chola-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/col/colombia.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add the José Manuel Restrepo passage on mining and ephemeral prosperity, with the Spanish text, an English gloss, and references to the persona, the document and the resource-curse note.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/cri/costa-rica.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/crt/carthage.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/cub/cuba.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/cze/czech.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "The R&D actors row now links the new Czech Academy of Sciences note.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/deu/education/tte.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/deu/germany.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "The Clapham citation now links the book entry added to the documents corpus."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link Clapham's comparative economic history.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/deu/region/hamburg.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New city note: Hamburg, sibling to the Luebeck note and in the same compact shape (lead, five sections, references) rather than the socialium Formulation shell. Constitutional history as a chain of settlements: the 1241 alliance with Luebeck as the League's founding moment, the 1266 contract with Henry III allowing a hanse in London, the 1270 Ordeelbook, the 1410 Rezess counted as the first constitution, free imperial city, 1814-15 sovereignty confirmed at Vienna, the semi-democratic 1860 constitution with the Senate elected by adult taxpaying males, entry into the customs union only in 1888, the federal state of 1871, the Greater Hamburg Act of 1937 (Altona, Harburg, Wandsbek), and the state of West Germany in 1949. A section on the Hanseatic republic names the oligarchy plainly and hands the class and the legal order to their own notes. Then the port, the three destructions (1842 fire, 1943 firestorm, 1962 flood), and the modern city. Links the Hanseaten, Grand Burgher, Luebeck, the League, Germany and City.",
-    "commit": "835a0ba4798c5d9eeb852a8297386a7dd7d13417"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/deu/region/lubeck.md",
-  "logs": [
-   {
-    "date": "2026-11-15",
-    "kind": "feat",
-    "summary": "Add the Free City of Lübeck: the merchant republic of the Baltic, its patriciate and trading houses, and the economic bourgeoisie the Bildungsbürgertum is named against.",
-    "commit": "a2489b8bc04061271f897392709aac4cca47e9c5",
-    "before": "4e343945710a0c22fa72d10f08af85176656b2c0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dnk/denmark.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/breviarium/rd-1-0-dominican-state-capacity.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/demographic/rd-1-0-dominican-demographics.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/economy/digital.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/economy/history.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/economy/labor.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/education/rd-1-0-dominican-educational-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/energy/rd-1-0-dominican-energy-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/finance/rd-1-0-dominican-financial-markets.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/geographic/rd-1-0-dominican-land-and-natural-resources.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/governance/rd-1-0-ontology-model-dominican-public-institutions.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/hacienda/rd-1-0-dominican-tributary-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/health/rd-1-0-dominican-healthcare-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/infrastructure/rd-1-0-dominican-infrastructure-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/kps/rd-1-0-innovation-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/legal/constitution.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/legal/governance.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/legal/legal.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/monetary/rd-1-0-dominican-monetary-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/politics/rd-1-0-dominican-political-system.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/public/ppi.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/public/rd-1-0-dominican-public-opinion-information-landscape.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/rd-1-0-dominix.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/security/risk.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/security/security.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/social/rd-1-0-dominican-socioeconomics.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dom/urbanism/rd-1-0-dominican-urbanism.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/dut/dutch-republic.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Anglo-Dutch wars.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ecu/ecuador.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/esp/spain.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the Technology links to Meta Tecnica after technology.md was merged into its On Technology section."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the moved note's link: Technology now lives in technica/meta/."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now carry the Guatemalan Amigos del Pais society (1794) as a colonial member of the Spanish Enlightenment network."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "The Guatemalan society reference now points at the corpus note.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/est/estonia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/est/state.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/eth/ethiopia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/fin/finland.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/fra/france.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link Clapham's comparative economic history.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/fra/paris-commune.md",
-  "logs": [
-   {
-    "date": "2026-11-06",
-    "kind": "feat",
-    "summary": "add Paris Commune polity note pointing to the history note",
-    "commit": "c97f1be2daf18013a4cc3669bc3513155f1370d7"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/gbr/uk.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Link The Productivity Institute and the Institute for Manufacturing in the UK R&D actors table."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "References, England list: John Cary linked — the merchant on trade, employment and the poor whose manufactures-and-shipping argument the industrial policy in this note descends from.",
-    "commit": "9c1fa9dfd1491f81bf6b79f2b67afdfb83afcfad",
-    "before": "4382894b7b550c82929b56dff24ab49f4a253194"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Anglo-Dutch wars."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Macinnes (2007) added: the 1707 union read as an imperial project rather than only a parliamentary merger.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/gen/republic-of-genoa.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/gha/ghana.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/grc/grecia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/grc/region/athens.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/grc/region/patras.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/grc/region/thessaloniki.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/hab/habsburg-monarchy.md",
-  "logs": [
-   {
-    "date": "2026-11-13",
-    "kind": "docs",
-    "summary": "Add the Habsburg Monarchy polity note under the coined code hab: typed as a Polity read as Composite Structure -> Empire, decomposing its governing authority, crown-land kinds (Hereditary Lands, Bohemian and Hungarian crown lands, Military Frontier), political community, jurisdiction, and the Dynastic Union / Personal Union / Centralized Bureaucratic State structures.",
-    "commit": "c43686af0119fc8382dc733657efa4636cc777ce"
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add the production-space distribution, the technical-domain space, the mechanism questions and the QA on industrial espionage and foreign technical recruitment.",
-    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
-    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "References now link the Peace of Westphalia note as the settlement that fixed the Empire's constitution until 1806."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Kaps (2018) on the internal core-periphery relation and Pichler (2001) on Austrian Lombardy added to the references; the existing Jeremy (1977) citation now links its document entry.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/hkg/hong-kong.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/hsa/hanseatic-league.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/hti/haiti.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/hun/hungary.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/idn/indonesia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ind/india.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/irl/ireland.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Cullen (1968) added: the composition of Anglo-Irish trade, 1660-1800, and how the restrictions redirected rather than suppressed it.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/irn/iran.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/isr/israel.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Technion note.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ita/italy.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Pichler (2001) added: economic policy and development in Austrian Lombardy, 1815-1859.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ita/production/network.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
-    "before": "d294ca477e0a5730b370355f5387893653a12638"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the flattened problem/ shelf.",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
-    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ita/region/piamonte.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ita/region/venice.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/jpn/japan.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Update the RIKEN row to the current legal status and link the RIKEN note."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add a further-reading section with the Odagiri, Teranishi, Stearns, International Economic Association and Lall & Urata book entries."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add the Shibusawa Eiichi paragraph to Industrial Policy: joint-stock companies, modern banking, business education and the moral-economy argument."
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "New Public Policy Research Actors section, after the R&D actors: three views of the policy-research field - the policy research institutions (GRIPS, GRIPS Alliance, CREPE, RIETI, NIRA, ESRI) with type and relevance, the ministry-attached administrative research institutes (public administration, JILPT, IPSS, NIER, information and communications, CPRC) with their domains, and the research centres and academic groups (CREPE, the two GRIPS centres, CiNii) as the router into the Japanese-language literature. Closes on affiliation not being influence."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link Green's Arming Japan beside the industrial-policy material.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/kor/south-korea.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "New Actors section: the seven industrial-policy organisations (MOTIR, KIET, KEIT, KIAT, KISTEP, KDB, KOTRA) with their principal roles and the industrial-policy capacity each offers an investigation, plus a note that the ministry's MOTIR and MOTIE designations still need reconciling."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Korea/Taiwan comparative study.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mau/maurya-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mex/mexico.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mha/maratha-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mug/mughal-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mus/mauritius.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/mys/malaysia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Link Khazanah, correct its leader and parent organization.",
-    "commit": "2f112cd1de019130061cca638f93b45eee6f2f8a",
-    "before": "458ead60176529aa106ded506313ce510dd76bd2"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/nld/netherlands.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/nld/production.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/nld/state.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "Both Court of Audit mentions (High Councils of State; statutory bodies) now link the new institution note."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the KNAW note.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/nor/norway.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/nzl/new-zealand.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/oto/ottoman-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now carry the governance triad: Ottomanism (civic loyalty across confessions), Phanariots (the minority intermediary elite) and the millet system (the confessional legal unit).",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/phl/philippines.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/plc/polish-lithuanian-commonwealth.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/pol/poland.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "docs",
-    "summary": "Link the economic-actors table row and the shock-therapy mention to the new Balcerowicz persona note.",
-    "commit": "c6db934eec043e05abf6f415920cc46e20e08e06",
-    "before": "c6db934eec043e05abf6f415920cc46e20e08e06"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "Two additions. Industrial policy now has a transformation block: the instrument menu of the transition (tax preferences, subsidies, guarantees, protection, restructuring programmes, settlement proceedings, institutions), the ministry's own account and Kozuch's academic treatment, and the FDI channel with its measured limit (Weresa: correlated with innovation except in low-technology branches; Domanski & Gwosdz: strong production upgrading, weak R&D and design, localized capabilities as both embedding and ceiling). And a new Firms Competing Internationally section: 20 firms with products, international competitors and the mechanism of survival, read in three clusters - defence and optoelectronics on procurement politics, rail and heavy vehicles upgraded from repair works, software/photonics/instruments with non-state first customers.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Lukasiewicz Research Network linked and corrected in both institutional tables (supervising ministry, 22 institutes); added the applied-sector paragraph to the public-science section, reading the 2019 consolidation as re-consolidation after the dismantling.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/pri/puerto-rico.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/prt/portugal.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/pry/paraguay.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/qat/qatar.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/rag/ragusa.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/readme.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "feat",
-    "summary": "Add the polity instance sub-shelf master.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the World link after world.md moved to the koinomia shelf root.",
-    "commit": "f7d49ba52cc07e6e9ef91ee399db635af3ed754f",
-    "before": "5d4eafdb9a2a1edc3b1ee4f0ee9b7201526208a4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the World link to the space/ shelf.",
-    "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920",
-    "before": "67db0afd370fc7d4460e692a70e7d9c841c6dec2"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/rom/roman-republic.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/rou/romania.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/rus/russia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/sau/saudi-arabia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/scotland/public-bodies.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New note classifying the Scottish public bodies by legal form and distance from ministers: directorate/executive agency, NDPB, public corporation, commissioner body and company owned by the ministers, with the three questions that read the distance (who owns, who appoints the board, who approves the budget) and the development bank as the company-form case.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/scotland/scotland.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "References now link the Public Bodies of the Scottish Government note.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/sgp/hr/hr.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "Title corrected to Hong Kong Civil HR, naming the polity instead of the generic label.",
-    "commit": "df7ac0bf03e5bd14251625b55a7009f80039346b",
-    "before": "904c936fdda2f5a7f04b6760c7525c2f629e7849"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/sgp/singapore.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/sgp/state.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/shk/shakya.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New polity note: the Shakya republic at Kapilavastu as the small-scale case - the assembly of household heads, absorption by Kosala, the contrast with the Vajjika failure (asymmetry of scale rather than defection), and the point that its form survives only through the canon its most famous member's movement produced.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/slj/seljuk-empire.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/swe/administrative-system.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Link the performance and accountability report from the Swedish administrative system note."
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: the Swedish administrative system, filed with the polity rather than with the generic forms, which already carry the Swedish Government Agency as a kind. The argument is that the split between policy and delivery is not what makes the system distinctive — most states have one — but that the split is constitutional: the Instrument of Government forbids ministerial rule, a minister may not decide how an agency decides a particular case, and decisions are taken by the government collectively. Structure table (Riksdag, government, ministries, agencies, oversight) with what each may and may not do; then the two supporting institutions that make independence work rather than merely exist — the principle of public access since 1766, and review on legality through the administrative courts and the ombudsmen. The costs are stated plainly: nobody below the government can reconcile two agencies that disagree, ministerial accountability is real but diffused, and the model assumes a small high-capacity civil service and a culture of collective decision. Compared against the UK executive agency (insulation in a framework document) and the Japanese incorporated administrative agency (insulation in incorporation): the Swedish form puts it in the constitution.",
-    "commit": "a9895c104bc7152eda858575449d10096e7afe0d"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "The note now says how the system is steered, not only how it is divided. Added: a one-table statement of the twelve elements (legal status, parent, collective political control, operational management, head, appropriation, instruction, appropriation directions, annual report, follow-up and audit, the bar on ministerial intervention, staff as agency employees); the steering cycle as a diagram, with the point it makes — steering ex ante by mandate, budget and objectives and ex post by report, evaluation and audit, never in the case, so independence is steering at a different distance rather than its absence; and who appoints whom. The appointment layer is the government reaching inside the agency once per term (director-general, deputy, county governors) while other senior posts belong to the agency itself, under a merit principle required to be predictable, open and traceable — a rule that exists because an unchecked appointment power would restore once per term the patronage the prohibition removes case by case. A final block answers the five questions in one place and records that the staff are agency employees, not ministry employees: the separation is constitutional at the top and everyday at the bottom.",
-    "commit": "4efe57142ed9b0e33372000622575f201b379285",
-    "before": "74d0f5e2186522cacd622d2c096eec635cb657b7"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the government-wide administration link to the governance shelf.",
-    "commit": "e88854aecb8281670ac0b4112b8fd2a010e40e88",
-    "before": "9ce96520f81a2d18073e1a4d9ea3da3a96f6d504"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/swe/education/tte.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/swe/sweden.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Link the Swedish administrative system and the performance/accountability report from the Sweden note."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Add a Swedish Model, 1940–1980 section and link the new informe."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Link the FOI row in the Sweden R&D actors table to the new actor note."
-   },
-   {
-    "date": "2026-11-14",
-    "kind": "docs",
-    "summary": "Add the history of Swedish machine-production industry.",
-    "commit": "f9ad0083bd03a85362abc15c2ca102b3cc3e9972",
-    "before": "3f3e52df82b5912617a1d52e531f7c01f6abc49b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/tha/thailand.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/tur/turkey.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/twn/taiwan.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the Korea/Taiwan comparative study.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ugt/ugarit.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ukr/ukraine.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/umy/umayyad-caliphate.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ury/uruguay.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/usa/united-states-of-america-usa.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Link the MIT Industrial Performance Center in the US R&D actors table."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "References now link the GAO note.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/vaj/vajjika-league.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New polity note: the Vajjika League as the scale case of the republican form - the eight clans (Licchavis, Videhas, Jnatrikas), the assembly at Vaishali, the conquest by Ajatasatru through division rather than arms, and the fragility condition it states (consensus as constitution, defection as the failure mode), with the contrast against Magadha's command state.",
-    "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
-    "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/ven/venezuela.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/venetia/venetia.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/instance/vnm/vietnam.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/international/international.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Removed: an empty concept stub, not an organization; the shelf's organizations moved to the actor instances.",
-    "commit": "d68b55dd3e5e3586cd1ee95e21460fe35b73567e",
-    "before": "0e0241ac57b1ad1e83e408ee11c414c838473fac"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/polity.md",
-  "logs": [
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "edit",
-    "summary": "References: Sovereignty linked as the property this note grades as Dependent Standing.",
-    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c",
-    "before": "49b46257102f1efa8f40b99bc5747d11f0d34c78"
-   },
-   {
-    "date": "2026-11-18",
-    "kind": "edit",
-    "summary": "References now link the Representation Systems design note.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "fix",
-    "summary": "Replace the removed shelf readme link with the Polity Atlas and Instance pages.",
-    "commit": "f92a50a2f6b7d565bc10505776f155bb04a6ecea",
-    "before": "43620dc69c8637f506cb1938c86bed287430f00a"
-   }
-  ]
- },
- {
-  "file_path": "social/koinomia/polity/readme.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "feat",
-    "summary": "Add the polity sub-shelf master.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   }
-  ]
- },
- {
   "file_path": "social/koinomia/readme.md",
   "logs": [
    {
@@ -91252,6 +92282,11 @@
     "summary": "Add the Collective section linking the social compound branch.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e",
     "before": "e6f148875e5bd2917fec70db30627c154455b65f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Point the polity links at the collective branch."
    }
   ]
  },
@@ -91263,6 +92298,11 @@
     "kind": "feat",
     "summary": "Add the Space shelf master: the spatial frame of the public order, distinct from the representation of space.",
     "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -91296,6 +92336,11 @@
     "kind": "feat",
     "summary": "Add the Territory note: the bounded domain over which a polity claims authority, read against Region, Jurisdiction and the State.",
     "commit": "772a1f7a5800e0a8e7cf72e7cb59ed6486ad8920"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -91713,6 +92758,11 @@
     "summary": "Retarget the Domain links to the flattened problem/ shelf.",
     "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
     "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -91818,6 +92868,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },
@@ -92360,6 +93415,11 @@
     "summary": "Retarget links for the koinomia migration.",
     "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
     "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch."
    }
   ]
  },

@@ -26,14 +26,14 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 
 ## Forms and Cases
 
-- [Polity](/view.html?p=notes/social/koinomia/polity/polity.md) — the political collective organized around governing authority over a political community, territory, or jurisdiction.
+- [Polity](/view.html?p=notes/social/koinomia/collective/polity/polity.md) — the political collective organized around governing authority over a political community, territory, or jurisdiction.
 - **City-state** — a polity coinciding with a city and its hinterland; the City-State row of the polity decomposition and the city-state instances in the atlas.
 - **Tribe** — a kin-based political community; the Tribe row of [Collective](/view.html?p=notes/social/koinomia/collective/collective.md). A tribe is a koinomia when it governs shared resources and membership; it need not be a polity.
 - **Coto Mixto** (*Couto Misto*) — a historical border micro-polity and shared-sovereignty arrangement between Galicia and Portugal, an example of a public order that does not fit the modern state model.
 
 ## Instance
 
-- [Instance](/view.html?p=notes/social/koinomia/polity/instance/readme.md) — the country, city-state, and historical polity instance directories of the atlas.
+- [Instance](/view.html?p=notes/social/koinomia/collective/polity/instance/readme.md) — the country, city-state, and historical polity instance directories of the atlas.
 
 ## Space
 

@@ -31,4 +31,4 @@ tags: [note, social, actor, development-bank]
 - [Scottish National Investment Bank — Wikipedia](https://en.wikipedia.org/wiki/Scottish_National_Investment_Bank)
 - [Scottish National Investment Bank — website](https://www.snib.co.uk/)
 - [Statutory Corporation](/view.html?p=notes/social/koinomia/actor/statutory-corporation.md) — the form family this company form departs from
-- [Public Bodies of the Scottish Government](/view.html?p=notes/social/koinomia/polity/instance/scotland/public-bodies.md) — the landscape the bank sits in
+- [Public Bodies of the Scottish Government](/view.html?p=notes/social/koinomia/collective/polity/instance/scotland/public-bodies.md) — the landscape the bank sits in

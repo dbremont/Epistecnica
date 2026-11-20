@@ -74,7 +74,7 @@ Readable secondarily as a **fiscal agency of the assembly** — the capacity in 
 - [Committee](/view.html?p=notes/social/actor/committee.md) (the kind this instance realizes)
 - [Legislature](/view.html?p=notes/social/actor/legislature.md) (the Riksdag as the parent assembly)
 - [Public Organization](/view.html?p=notes/social/koinomia/actor/public-organization.md)
-- [Sweden](/view.html?p=notes/social/koinomia/polity/instance/swe/sweden.md) (the polity whose finances the committee's calculations governed)
+- [Sweden](/view.html?p=notes/social/koinomia/collective/polity/instance/swe/sweden.md) (the polity whose finances the committee's calculations governed)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 
 Gullberg, I. E. (1977). *Svensk-engelsk fackordbok för näringsliv, förvaltning, undervisning och forskning* (2nd ed.). Norstedt, p. 90. (the English rendering *Standing Committee of Ways and Means*)

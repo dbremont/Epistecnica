@@ -26,4 +26,4 @@ tags: [document, paper, japan, technology-policy, innovation]
 
 - [RIETI — full text PDF](https://www.rieti.go.jp/jp/publications/dp/01e001.pdf)
 - [RIKEN — the institute note](/view.html?p=notes/social/koinomia/actor/instance/research/jpn/riken.md)
-- [Japan — the polity note](/view.html?p=notes/social/koinomia/polity/instance/jpn/japan.md)
+- [Japan — the polity note](/view.html?p=notes/social/koinomia/collective/polity/instance/jpn/japan.md)

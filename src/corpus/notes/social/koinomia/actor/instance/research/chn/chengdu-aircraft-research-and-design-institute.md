@@ -26,6 +26,6 @@ tags: [note, social, actor, research, aviation, china, defense]
 ## References
 
 - [Chengdu Aircraft Research and Design Institute — Wikipedia](https://en.wikipedia.org/wiki/Chengdu_Aircraft_Research_and_Design_Institute)
-- [China — the state](/view.html?p=notes/social/koinomia/polity/instance/chn/prc/china.md) — the polity
+- [China — the state](/view.html?p=notes/social/koinomia/collective/polity/instance/chn/prc/china.md) — the polity
 - [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md) — the institutional typology
 - [NASA](/view.html?p=notes/social/koinomia/actor/instance/research/usa/national-aeronautics-and-space-administration.md) — the mission-agency contrast

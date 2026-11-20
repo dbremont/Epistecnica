@@ -27,5 +27,5 @@ tags: [note, social, actor, research, academy, netherlands]
 - [Royal Netherlands Academy of Arts and Sciences — Wikipedia](https://en.wikipedia.org/wiki/Royal_Netherlands_Academy_of_Arts_and_Sciences)
 - [KNAW — website](https://www.knaw.nl/en)
 - [NWO — Dutch Research Council](/view.html?p=notes/social/koinomia/actor/instance/research/nld/nwo/dutch-research-council-nwo.md) — the funding pillar
-- [Netherlands — the state](/view.html?p=notes/social/koinomia/polity/instance/nld/state.md) — the polity it advises
+- [Netherlands — the state](/view.html?p=notes/social/koinomia/collective/polity/instance/nld/state.md) — the polity it advises
 - [Czech Academy of Sciences](/view.html?p=notes/social/koinomia/actor/instance/research/cze/czech-academy-of-sciences.md) — the state-academy contrast
