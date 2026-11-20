@@ -88806,7 +88806,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the atlas links and the directory card at representation/."
+    "summary": "Point the atlas links and the directory card at representation/.",
+    "commit": "3b11e8a1d1f8bddedcef6134b4ad249afd80a270",
+    "before": "7e357d962e68f68da3e6dd1a53bfd743933f6a8a"
    }
   ]
  },
@@ -92920,7 +92922,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the administration atlas links at representation/."
+    "summary": "Point the administration atlas links at representation/.",
+    "commit": "3b11e8a1d1f8bddedcef6134b4ad249afd80a270",
+    "before": "7e357d962e68f68da3e6dd1a53bfd743933f6a8a"
    }
   ]
  },
