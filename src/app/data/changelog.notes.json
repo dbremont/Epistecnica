@@ -70976,7 +70976,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch."
+    "summary": "Add the Cybernetic Interaction Unit kind to the individual-actor branch.",
+    "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
+    "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
    }
   ]
  },
@@ -71401,7 +71403,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Add the Cybernetic Interaction Unit: the artificial actor kind, its loop, kinds, delegated agency and references."
+    "summary": "Add the Cybernetic Interaction Unit: the artificial actor kind, its loop, kinds, delegated agency and references.",
+    "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4"
    }
   ]
  },
@@ -71493,7 +71496,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the Cybernetic Unit row to the QI table."
+    "summary": "Add the Cybernetic Unit row to the QI table.",
+    "commit": "2fc2481c3056a49aee68b43daef9c991a73c82a4",
+    "before": "128021164dc2b660f5aa81f15ee9a79093ad9c11"
    }
   ]
  },
