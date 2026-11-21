@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 13
+    "version": 14
   },
   "problems": [
     {
@@ -6492,6 +6492,81 @@
         {
           "label": "Productivity Promotion Center",
           "url": "/view.html?p=notes/social/collective/governance/action/instrument/production/productivity-promotion-center.md"
+        }
+      ]
+    },
+    {
+      "id": 313,
+      "name": "Innovation Grant",
+      "description": "A grant that funds innovation projects in firms or research bodies.",
+      "mechanism": "It awards non-repayable funding on the merit of a proposed innovation, covering the risk of experimentation.",
+      "hue": "#B8860B",
+      "icon": "💡",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 314,
+      "name": "Business Excellence Award",
+      "description": "An award that recognises and publicises firms with outstanding business performance and practice.",
+      "mechanism": "Public recognition and benchmarking reward high performers and spread their practice to peers.",
+      "hue": "#C9956C",
+      "icon": "🏆",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "name": "Enterprise Registry",
+      "description": "A registry that records enterprises and their legal, ownership and activity data.",
+      "mechanism": "A unique identification and filing point makes firms legible to administration, finance and policy.",
+      "hue": "#8A6E4B",
+      "icon": "🗂️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 316,
+      "name": "Reverse Trade Fair",
+      "description": "A fair that brings foreign buyers to domestic suppliers rather than sending exporters abroad.",
+      "mechanism": "It inverts the usual trade-fair direction, matching inbound buyers with local firms.",
+      "hue": "#B8860B",
+      "icon": "🛍️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "name": "Pioneer Bank",
+      "description": "A state-backed bank that finances activities and regions that commercial banks neglect.",
+      "mechanism": "It takes on longer-horizon and riskier lending to open new productive activities and diversify the economy.",
+      "hue": "#A0522D",
+      "icon": "🏦",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
         }
       ]
     }
