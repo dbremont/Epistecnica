@@ -21497,7 +21497,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the systemic-problem link to the problem shelf."
+    "summary": "Retarget the systemic-problem link to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -29357,7 +29359,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29440,7 +29443,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action Problem link to the problem shelf."
+    "summary": "Retarget the Collective Action Problem link to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -29450,7 +29455,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29472,7 +29478,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29501,7 +29508,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29523,7 +29531,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29533,7 +29542,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29557,7 +29567,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the systemic-problem links to the problem shelf."
+    "summary": "Retarget the systemic-problem links to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -29567,7 +29579,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29587,7 +29600,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29630,7 +29644,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Flatten the unclassified content into the shelf root."
+    "summary": "Flatten the unclassified content into the shelf root.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
@@ -29640,7 +29655,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the hard-coupling link to the problem shelf."
+    "summary": "Retarget the hard-coupling link to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -67417,7 +67434,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action Problem link to the problem shelf."
+    "summary": "Retarget the Collective Action Problem link to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -82248,7 +82267,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Fix the problem-shelf links."
+    "summary": "Fix the problem-shelf links.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -82812,7 +82833,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Fix the problem-shelf links in the Systemic problems section."
+    "summary": "Fix the problem-shelf links in the Systemic problems section.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -83692,7 +83715,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Collective Action Problem link to the problem shelf."
+    "summary": "Retarget the Collective Action Problem link to the problem shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -89668,7 +89693,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Link the key policy, state and industrial-policy essays from the uncategorized miscellanea."
+    "summary": "Link the key policy, state and industrial-policy essays from the uncategorized miscellanea.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
+    "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
    }
   ]
  },
@@ -148013,7 +148040,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "File the commercial-sector note in the commerce industry shelf."
+    "summary": "File the commercial-sector note in the commerce industry shelf.",
+    "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec"
    }
   ]
  },
