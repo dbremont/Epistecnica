@@ -24,7 +24,7 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 
 ### What is the recursive instance decomposition of this social instance?
 
-> Boundary: one generic Organization — its recursive subtype classification plus its direct constituents, with one normative chain (role → norm → obligation) carried to full depth per the agentic/normative spines. The first row binds the grammar root; every row after roots at `Organization`. The `Government Organization` subtype is worked in full at [Public Organization](/view.html?p=notes/social/collective/actor/readme.md); this tree carries only its stub row — go there for the decomposition.
+> Boundary: one generic Organization — its recursive subtype classification plus its direct constituents, with one normative chain (role → norm → obligation) carried to full depth per the agentic/normative spines. The first row binds the grammar root; every row after roots at `Organization`. The `Government Organization` subtype is worked in full at [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md); this tree carries only its stub row — go there for the decomposition.
 >
 > Recursion rule: a `Type` grouping may nest under any subtype (`type → subtype → type → sub-subtype`), as deep as the classification requires — the same licensed recursion as `Social Compound` nesting in compounds.
 >
@@ -81,13 +81,13 @@ On synonyms: **Collective** is the taxonomy slot name (the compound-unit type in
 
 ## QA
 
-The agency-space QA — dimensions of the government agency space and the five-form mapping — now lives in [Public Organization](/view.html?p=notes/social/collective/actor/readme.md).
+The agency-space QA — dimensions of the government agency space and the five-form mapping — now lives in [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md).
 
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Actor](/view.html?p=notes/social/actor/private-actor.md) (root hub: the actor typology this entry belongs to)
-- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) (government subtype; carries the agency-space QA)
+- [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) (government subtype; carries the agency-space QA)
 - [Board](/view.html?p=notes/social/actor/board.md) (the governing-body agency: kinds, anatomy, and terminology)
 - [Firm](/view.html?p=notes/social/actor/firm.md) (economic subtype of Organization)
 - [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md) (interacting aggregate — not an organization)

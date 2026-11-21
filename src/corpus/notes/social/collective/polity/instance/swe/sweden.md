@@ -35,7 +35,7 @@ The state supplied research institutes, infrastructure and regional policy rathe
 
 The model performed well in the 1950s and 1960s and came under strain in the 1970s: wage drift, inflation, profitability, oil shocks, regional subsidies and the fiscal cost of full employment. Blyth's account of the model's transformation shows that the crisis was ideational and distributional as well as macroeconomic.
 
-For the full argument, see [An Essay on the Swedish Model of Economic and Technological Development (1940–1980)](/view.html?p=notes/social/collective/action/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md). For the administrative machinery and its performance-accountability gap, see the [Swedish Administrative System](/view.html?p=notes/social/collective/polity/instance/swe/administrative-system.md) and [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/action/informe/a-report-on-swedish-agency-performance-and-accountability.md).
+For the full argument, see [An Essay on the Swedish Model of Economic and Technological Development (1940–1980)](/view.html?p=notes/social/collective/governance/action/informe/an-essay-on-the-swedish-model-of-economic-and-technological-development-1940-1980.md). For the administrative machinery and its performance-accountability gap, see the [Swedish Administrative System](/view.html?p=notes/social/collective/polity/instance/swe/administrative-system.md) and [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/governance/action/informe/a-report-on-swedish-agency-performance-and-accountability.md).
 
 ## Economic Statecraft Institutions
 
@@ -76,7 +76,7 @@ For the full argument, see [An Essay on the Swedish Model of Economic and Techno
 | **Swedish University of Agricultural Sciences (SLU)** | 1977 | N/A | Ministry of Enterprise and Innovation | Agricultural, environmental, and life sciences research. |
 | **Linköping University** | 1975 | N/A | Independent | Multidisciplinary research, particularly in technology and applied sciences. |
 | **Umeå University** | 1965 | N/A | Independent | Multidisciplinary research with a focus on medicine, biotechnology, and social sciences. |
-| **[Swedish Defence Research Agency (FOI)](/view.html?p=notes/social/collective/actor/instance/research/swe/swedish-defence-research-agency.md)** | 2001 | N/A | Ministry of Defence | Defence, security, and strategic research. |
+| **[Swedish Defence Research Agency (FOI)](/view.html?p=notes/social/collective/governance/actor/instance/research/swe/swedish-defence-research-agency.md)** | 2001 | N/A | Ministry of Defence | Defence, security, and strategic research. |
 | **Swedish Research Council (Vetenskapsrådet)** | 2001 | N/A | Ministry of Education and Research | Funding and support for scientific research in all disciplines. |
 | **Swedish Foundation for Strategic Research (SSF)** | 1994 | N/A | Independent | Funding research in science, engineering, and medicine. |
 | **Vinnova (Swedish Innovation Agency)** | 2001 | N/A | Ministry of Enterprise and Innovation | Funding for research and development in innovation. |

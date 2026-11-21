@@ -12,7 +12,7 @@ tags: [note, social, conflict]
 
 - [Polity](/view.html?p=notes/social/collective/polity/polity.md) — the authoritative order conflict runs against.
 - [Relation](/view.html?p=notes/social/relation/social-relation.md) — the ties that bind actors, and whose breaking conflict is.
-- [Public Action](/view.html?p=notes/social/collective/action/readme.md) — the policy and intervention that respond to conflict.
+- [Public Action](/view.html?p=notes/social/collective/governance/action/readme.md) — the policy and intervention that respond to conflict.
 
 ## References
 

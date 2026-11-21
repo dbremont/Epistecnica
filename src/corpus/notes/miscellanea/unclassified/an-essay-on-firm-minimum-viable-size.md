@@ -32,7 +32,7 @@ The minimum is also sector-specific and dynamic. A cement plant, a software firm
 
 ## Why size is a collective action problem
 
-The firm is not a single decision-maker. It is a coalition: owners, managers, workers, creditors, and often a local polity that depends on its employment. Each contributes something the others need — capital, labour, competence, patience, infrastructure — and each receives a share of a benefit (the firm's survival and growth) that is not divisible in proportion to contribution. That is the structure of a collective action problem in the sense of the [Collective Action](/view.html?p=notes/social/collective/action/readme.md) master and Marwell and Oliver: participation is costly, the benefit is shared, and the arrangement that makes contribution visible and defection costly is what turns separate contributions into one result.
+The firm is not a single decision-maker. It is a coalition: owners, managers, workers, creditors, and often a local polity that depends on its employment. Each contributes something the others need — capital, labour, competence, patience, infrastructure — and each receives a share of a benefit (the firm's survival and growth) that is not divisible in proportion to contribution. That is the structure of a collective action problem in the sense of the [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) master and Marwell and Oliver: participation is costly, the benefit is shared, and the arrangement that makes contribution visible and defection costly is what turns separate contributions into one result.
 
 A merger is the same problem at a larger scale. Two sub-scale firms may jointly exceed the threshold, but each owner bears the cost of the transaction — valuation, control, culture, the risk that the integration fails — while the benefit (a viable combined firm) is shared with creditors, workers and the region. The first mover bears a private cost for a collective gain; the rational move is to wait. The state can reduce that coordination cost: matchmaking, a standard valuation method, due diligence support, and a competition authority that clears the consolidation quickly where it does not harm rivalry.
 
@@ -82,17 +82,17 @@ The instruments that follow are not exotic:
 
 - **Merger facilitation.** Matchmaking among complementary sub-scale firms, a standard valuation and due-diligence protocol, and a fast competition review where the combination does not harm rivalry. The state's contribution is to lower the coordination cost, not to pick the winner.
 - **Conditional bridge finance.** Tranches tied to consolidation milestones — a signed memorandum, a shared management, a joint order book — rather than to survival alone.
-- **Shared services and aggregated demand.** A "virtual minimum viable size": shared processing, certification, logistics and export consortia, and public procurement aggregated across firms, so that the threshold is reached without a change of ownership. The cluster literature's critical-mass dimension is the same threshold at the level of the [Cluster](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md).
+- **Shared services and aggregated demand.** A "virtual minimum viable size": shared processing, certification, logistics and export consortia, and public procurement aggregated across firms, so that the threshold is reached without a change of ownership. The cluster literature's critical-mass dimension is the same threshold at the level of the [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md).
 - **Orderly exit.** Asset redeployment, worker transition and creditor workouts, so that exit is a policy outcome rather than a failure of the agency.
 - **Agency incentives.** Measure value added per unit of support, the survival of *viable* firms, and the completion of consolidations — not the number of firms kept alive. Separate the diagnostic function from the disbursement function, so that the unit that says "no path" is not the unit whose budget depends on saying "yes".
 
 ## Cases
 
-The [United States Small Business Administration](/view.html?p=notes/social/collective/actor/instance/development/united-states-small-business-administration.md) and [Sebrae](/view.html?p=notes/social/actor/private/education/bra/sebrae.md) are the canonical SME agencies, and the corpus's notes on them are still stubs. Their instruments — credit guarantees, counseling, training, procurement set-asides — are mostly volume instruments: the metric is loans guaranteed or firms assisted, not the firm's position relative to its threshold. That is the diagnosis problem in institutional form.
+The [United States Small Business Administration](/view.html?p=notes/social/collective/governance/actor/instance/development/united-states-small-business-administration.md) and [Sebrae](/view.html?p=notes/social/actor/private/education/bra/sebrae.md) are the canonical SME agencies, and the corpus's notes on them are still stubs. Their instruments — credit guarantees, counseling, training, procurement set-asides — are mostly volume instruments: the metric is loans guaranteed or firms assisted, not the firm's position relative to its threshold. That is the diagnosis problem in institutional form.
 
-The [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/action/informe/a-report-on-swedish-agency-performance-and-accountability.md) is the accountability analogue: an agency cannot be held to a performance standard it does not have. For SME support, the minimum-viable-size scorecard is that standard — the thing against which "did the support work?" can be answered without counting disbursements.
+The [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/governance/action/informe/a-report-on-swedish-agency-performance-and-accountability.md) is the accountability analogue: an agency cannot be held to a performance standard it does not have. For SME support, the minimum-viable-size scorecard is that standard — the thing against which "did the support work?" can be answered without counting disbursements.
 
-The [cluster diagnosis matrix](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md) already scores critical mass as one dimension among several. The firm scorecard is the same move one level down: a threshold dimension among capability, capital, demand and coordination, scored with evidence and read as a path rather than a rank.
+The [cluster diagnosis matrix](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) already scores critical mass as one dimension among several. The firm scorecard is the same move one level down: a threshold dimension among capability, capital, demand and coordination, scored with evidence and read as a path rather than a rank.
 
 ## Caveats
 
@@ -109,14 +109,14 @@ And the diagnosis remains a collective action problem even with a scorecard. The
 ## References
 
 - [Threshold](/view.html?p=notes/epistemica/meta/guidance/threshold.md) — critical mass and the threshold reading
-- [Collective Action](/view.html?p=notes/social/collective/action/readme.md) — the action kind and its coordination problem
+- [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) — the action kind and its coordination problem
 - [Firm](/view.html?p=notes/technica/business/firm.md) — the firm metrics, including minimum efficient scale
-- [Cluster](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md) — critical mass at the cluster level
+- [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) — critical mass at the cluster level
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) — the coordination failure
 - [A Defense of Industrial Policy](/view.html?p=notes/miscellanea/unclassified/a-defense-of-industrial-policy.md) — the industrial-policy frame
-- [United States Small Business Administration](/view.html?p=notes/social/collective/actor/instance/development/united-states-small-business-administration.md)
+- [United States Small Business Administration](/view.html?p=notes/social/collective/governance/actor/instance/development/united-states-small-business-administration.md)
 - [Sebrae](/view.html?p=notes/social/actor/private/education/bra/sebrae.md)
-- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/action/informe/a-report-on-swedish-agency-performance-and-accountability.md)
+- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/governance/action/informe/a-report-on-swedish-agency-performance-and-accountability.md)
 - Kornai, János. "The Soft Budget Constraint." *Kyklos* 39, no. 1 (1986): 3–30.
 - Marwell, Gerald, and Pamela Oliver. *The Critical Mass in Collective Action*. Cambridge University Press, 1993.
 - Granovetter, Mark. "Threshold Models of Collective Behavior." *American Journal of Sociology* 83, no. 6 (1978): 1420–1443.

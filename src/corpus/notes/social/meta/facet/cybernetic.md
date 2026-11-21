@@ -34,7 +34,7 @@ The facets are adjacent, not identical. A thermostat is a technical object and a
 - **Delegated action** — the autonomy gradient, oversight and intervention, the difference between a tool and a principal.
 - **The ensemble** — humans and machines acting as one configuration: human-in-the-loop, algorithmic management, mixed agency.
 - **Accountability** — liability and answerability along the delegation chain.
-- **Governance** — the policy that bounds the delegation: [Computation Policy](/view.html?p=notes/social/collective/action/problem/computation/computation-policy.md).
+- **Governance** — the policy that bounds the delegation: [Computation Policy](/view.html?p=notes/social/collective/governance/action/problem/computation/computation-policy.md).
 - **The technique** — the [Control System](/view.html?p=notes/technica/cybernetics/control-system.md) and the [Active Inference System](/view.html?p=notes/technica/cybernetics/ais.md) that realize the loop.
 
 ## What it explains, and what it does not
@@ -53,7 +53,7 @@ It explains nothing about the machine's aesthetics, its physics or its training 
 | Delegated action | `social/dynamic/action/` |
 | Trust and coupling | `social/synontic/trust.md` |
 | Accountability and liability | `social/normative/` |
-| Governance | `social/collective/action/problem/computation/` |
+| Governance | `social/collective/governance/action/problem/computation/` |
 | The technique | `technica/cybernetics/` |
 
 Each element keeps its own type; the facet scopes the inquiry and adds no row to the decompositions.

@@ -22,7 +22,7 @@ How japan master the internal combustion engine?
 | --- | --- | --- | --- | --- |
 | **Japan Science and Technology Agency (JST)** | Research Agency | 1996 | Promotes science and technology, funds R&D projects | Ministry of Education, Culture, Sports, Science and Technology (MEXT) |
 | **National Institute of Advanced Industrial Science and Technology (AIST)** | Research Institute | 2001 | Conducts multidisciplinary research in industrial technologies | Ministry of Economy, Trade and Industry (METI) |
-| **[RIKEN](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)** | Research Institute | 1917 | Comprehensive research in the natural sciences | Designated National Research and Development Institute (MEXT) |
+| **[RIKEN](/view.html?p=notes/social/collective/governance/actor/instance/research/jpn/riken.md)** | Research Institute | 1917 | Comprehensive research in the natural sciences | Designated National Research and Development Institute (MEXT) |
 | **Japan Aerospace Exploration Agency (JAXA)** | Space Agency | 2003 | Manages space exploration and research | Government of Japan |
 | **National Institute for Materials Science (NIMS)** | Research Institute | 2001 | Focuses on materials science and engineering research | Independent Administrative Institution |
 | **National Institute of Information and Communications Technology (NICT)** | Research Institute | 2004 | Conducts research in information and communications technology | Ministry of Internal Affairs and Communications (MIC) |

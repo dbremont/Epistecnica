@@ -23,7 +23,7 @@ The cybernetic world is not a place in the corpus; it is a reading that cuts acr
 | **The action** | [Action shelf](/explorer.html?dir=notes/social/dynamic/action) | Delegated and autonomous action, oversight and intervention |
 | **The relation** | [Trust](/view.html?p=notes/social/synontic/trust.md) | The human–machine coupling that makes delegation work |
 | **The norm** | [Normative shelf](/explorer.html?dir=notes/social/normative) | Liability, accountability and the rules of the delegated act |
-| **The policy** | [Computation Policy](/view.html?p=notes/social/collective/action/problem/computation/computation-policy.md) | The public stake in the substrate the systems run on |
+| **The policy** | [Computation Policy](/view.html?p=notes/social/collective/governance/action/problem/computation/computation-policy.md) | The public stake in the substrate the systems run on |
 | **The technique** | [Control System](/view.html?p=notes/technica/cybernetics/control-system.md) · [Active Inference System](/view.html?p=notes/technica/cybernetics/ais.md) | The loop as engineering |
 
 ## How to read it

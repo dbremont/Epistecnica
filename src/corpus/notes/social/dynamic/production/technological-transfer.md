@@ -21,7 +21,7 @@ The general problem is older than the supermarket. Joint ventures, licensing, co
 
 - [Technology Acquisition](/view.html?p=notes/social/dynamic/production/technology-acquisition.md) — the staged capability ladder from identification to indigenous development.
 - [Technology Transfer Market](/view.html?p=notes/social/coordinator/market/technology-transfer-market.md) — licensing, know-how, trade agreements and the market failures of technology exchange.
-- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/collective/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country cases in a hard technology-transfer domain.
+- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/collective/governance/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country cases in a hard technology-transfer domain.
 
 ## Media
 

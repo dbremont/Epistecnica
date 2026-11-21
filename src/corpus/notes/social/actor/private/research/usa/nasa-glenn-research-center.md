@@ -25,4 +25,4 @@ Glenn is the case where the requirement precedes the science: a material is aske
 - [Glenn Research Center — Wikipedia](https://en.wikipedia.org/wiki/Glenn_Research_Center)
 - [Ceramic](/view.html?p=notes/technica/general/materiotecnia/ceramic.md) — the material class
 - [Research Actor](/view.html?p=notes/social/actor/research.md) — the actor form
-- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) — the type a federal agency laboratory reads as
+- [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) — the type a federal agency laboratory reads as

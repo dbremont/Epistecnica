@@ -18,9 +18,9 @@ type: person
 ## See also
 
 - [Japan](/view.html?p=notes/social/collective/polity/instance/jpn/japan.md)
-- [An Essay on Japanese Technology Indigenization](/view.html?p=notes/social/collective/action/informe/an-essay-on-japanese-technology-indigenization.md)
+- [An Essay on Japanese Technology Indigenization](/view.html?p=notes/social/collective/governance/action/informe/an-essay-on-japanese-technology-indigenization.md)
 - [Technology Indigenization](/glossarium/?t=technology-indigenization)
-- [Industrial Policy](/view.html?p=notes/social/collective/action/instance/case-study-china-national-key-technologies-rd-program.md)
+- [Industrial Policy](/view.html?p=notes/social/collective/governance/action/instance/case-study-china-national-key-technologies-rd-program.md)
 
 ## References
 

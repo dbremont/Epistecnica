@@ -58,7 +58,7 @@ Readable secondarily as an `Interaction Unit` (a bounded entity capable of inter
 - [Polity Atlas](/corpus/notes/social/collective/polity/index.html)
 - [Polity Instance](/view.html?p=notes/social/collective/polity/instance/readme.md)
 - [Collective](/view.html?p=notes/social/collective/collective.md)
-- [Government](/view.html?p=notes/social/collective/actor/type/government.md)
+- [Government](/view.html?p=notes/social/collective/governance/actor/type/government.md)
 - [Sovereignty](/view.html?p=notes/social/collective/sovereignty.md) — the property of a polity this note grades as Dependent Standing
 - [Polity](https://en.wikipedia.org/wiki/Polity)
 - [State (polity)](https://en.wikipedia.org/wiki/State_(polity))

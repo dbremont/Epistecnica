@@ -157,19 +157,19 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/",
-   "to": "social/collective/action/",
+   "from": "social/collective/governance/actor/",
+   "to": "social/collective/governance/action/",
    "label": "Action",
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/action/informe/",
+   "from": "social/collective/governance/action/informe/",
    "to": "social/dynamic/action/guidance/",
    "label": "Guidance",
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/actor/",
+   "from": "social/collective/governance/actor/",
    "to": "social/collective/",
    "label": "Collective",
    "kind": "hierarchy"
@@ -278,25 +278,25 @@
   },
   {
    "from": "social/actor/",
-   "to": "social/collective/actor/",
+   "to": "social/collective/governance/actor/",
    "label": "Actor",
    "kind": "related"
   },
   {
    "from": "social/actor/public/",
-   "to": "social/collective/actor/",
+   "to": "social/collective/governance/actor/",
    "label": "Actor",
    "kind": "hierarchy"
   },
   {
    "from": "social/dynamic/action/",
-   "to": "social/collective/action/",
+   "to": "social/collective/governance/action/",
    "label": "Action",
    "kind": "related"
   },
   {
    "from": "social/dynamic/action/public/",
-   "to": "social/collective/action/",
+   "to": "social/collective/governance/action/",
    "label": "Action",
    "kind": "hierarchy"
   },
@@ -343,13 +343,13 @@
    "kind": "related"
   },
   {
-   "from": "social/collective/actor/",
+   "from": "social/collective/governance/actor/",
    "to": "social/actor/",
    "label": "Actor Shelf",
    "kind": "related"
   },
   {
-   "from": "social/collective/action/",
+   "from": "social/collective/governance/action/",
    "to": "social/dynamic/action/",
    "label": "Action Shelf",
    "kind": "related"
@@ -362,7 +362,7 @@
   },
   {
    "from": "social/actor/public/",
-   "to": "social/collective/action/",
+   "to": "social/collective/governance/action/",
    "label": "Action",
    "kind": "hierarchy"
   },
@@ -385,14 +385,14 @@
    "kind": "hierarchy"
   },
   {
-   "from": "social/collective/action/problem/urbanism/",
+   "from": "social/collective/governance/action/problem/urbanism/",
    "to": "technica/general/urbanism/",
    "label": "Urbanism (technical)",
    "kind": "related"
   },
   {
    "from": "technica/general/urbanism/",
-   "to": "social/collective/action/problem/urbanism/",
+   "to": "social/collective/governance/action/problem/urbanism/",
    "label": "Urbanismo (policy)",
    "kind": "related"
   },
@@ -421,14 +421,14 @@
    "kind": "related"
   },
   {
-   "from": "social/collective/action/",
+   "from": "social/collective/governance/action/",
    "to": "social/dynamic/action/organization/",
    "label": "Action Organization",
    "kind": "related"
   },
   {
    "from": "social/dynamic/action/organization/",
-   "to": "social/collective/action/",
+   "to": "social/collective/governance/action/",
    "label": "Action",
    "kind": "related"
   },
@@ -458,7 +458,7 @@
   },
   {
    "from": "social/cybernetic/",
-   "to": "social/collective/action/problem/computation/",
+   "to": "social/collective/governance/action/problem/computation/",
    "label": "Computation Policy",
    "kind": "related"
   },
@@ -469,14 +469,14 @@
    "kind": "related"
   },
   {
-   "from": "social/collective/action/",
+   "from": "social/collective/governance/action/",
    "to": "social/dynamic/action/guidance/",
    "label": "Guidance",
    "kind": "related"
   },
   {
    "from": "social/dynamic/action/guidance/",
-   "to": "social/collective/action/",
+   "to": "social/collective/governance/action/",
    "label": "Public Action",
    "kind": "related"
   },

@@ -61,7 +61,7 @@ Here's a table summarizing the key R&D actors in the Czech Republic, including g
 | **Governmental Bodies** | Ministry of Education, Youth and Sports (MEYS) | Oversees education, youth, and sports policies, including R&D funding and policy-making. |
 |  | Czech Science Foundation (GA ČR) | Provides grants for basic research across all scientific disciplines. |
 |  | Technology Agency of the Czech Republic (TA ČR) | Supports applied research, experimental development, and innovation through various programs and funding schemes. |
-|  | [Czech Academy of Sciences (CAS)](/view.html?p=notes/social/collective/actor/instance/research/cze/czech-academy-of-sciences.md) | Main public research institution, conducting research in various scientific disciplines. |
+|  | [Czech Academy of Sciences (CAS)](/view.html?p=notes/social/collective/governance/actor/instance/research/cze/czech-academy-of-sciences.md) | Main public research institution, conducting research in various scientific disciplines. |
 | **Universities** | Charles University | One of the oldest universities in Europe, engaging in a wide range of research activities across numerous disciplines. |
 |  | Czech Technical University in Prague (CTU) | Focuses on engineering and technology research and development. |
 |  | Masaryk University | Engages in diverse research fields, with a strong emphasis on social sciences, natural sciences, and medicine. |

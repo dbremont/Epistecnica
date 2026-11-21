@@ -89,7 +89,7 @@ It is a set rather than a `Production Technical System` because it owns no singl
 ## See also
 
 - [Nuclear Industry](/view.html?p=notes/technica/production/industry/nuclear/readme.md) — the civil industry that owns and operates these technical elements.
-- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/collective/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through transfer, indigenization and dependency.
+- [An Essay on Industry — Nuclear Technology Emergence](/view.html?p=notes/social/collective/governance/action/informe/an-essay-on-industry-nuclear-technology-emergence.md) — country paths through transfer, indigenization and dependency.
 - [Energy Technology](/view.html?p=notes/technica/general/energy-technology.md) — the cross-carrier energy domain in which nuclear power is one carrier path.
 - [Technology Transfer Market](/view.html?p=notes/social/coordinator/market/technology-transfer-market.md) — the market and safeguards conditions under which nuclear technology moves.
 

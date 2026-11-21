@@ -6,7 +6,7 @@ tags: [note, social, actor, social-element, interaction-unit, agents]
 
 > An **Actor** is a bounded entity capable of interaction — agentive, cognitive/reflexive, relational, nested, state-carrying. It is the root of the social typology of who acts: individuals who decide, collectives that act as one, institutions that wield authority, and the functional forms — research, finance, trade, industry, education, party, firm — through which they engage the world.
 
-The corpus partitions actor notes by constitution: `private/` carries the societal actors, and the generic type hubs — [Organization](/view.html?p=notes/social/actor/organization.md), [Firm](/view.html?p=notes/social/actor/firm.md), [Research Actor](/view.html?p=notes/social/actor/research.md), [Finance Actor](/view.html?p=notes/social/actor/finance.md), [Human](/view.html?p=notes/social/actor/human.md), [Family](/view.html?p=notes/social/actor/family.md) — sit at the actor root. Mixed families (`research`, `finance`) grow one tree per reading and are split by public authority, with a hub entry at the root linking both halves. The public-actor side is filed in the collective domain shelf at [`collective/actor/`](/view.html?p=notes/social/collective/actor/readme.md); the old `public/` path is a source shell with a directory link. The plural branch — the Social Compound genus, society and sovereignty — is filed in the collective domain shelf under [`collective/`](/view.html?p=notes/social/collective/readme.md); polity is the political form in [`collective/polity/`](/view.html?p=notes/social/collective/polity/polity.md).
+The corpus partitions actor notes by constitution: `private/` carries the societal actors, and the generic type hubs — [Organization](/view.html?p=notes/social/actor/organization.md), [Firm](/view.html?p=notes/social/actor/firm.md), [Research Actor](/view.html?p=notes/social/actor/research.md), [Finance Actor](/view.html?p=notes/social/actor/finance.md), [Human](/view.html?p=notes/social/actor/human.md), [Family](/view.html?p=notes/social/actor/family.md) — sit at the actor root. Mixed families (`research`, `finance`) grow one tree per reading and are split by public authority, with a hub entry at the root linking both halves. The public-actor side is filed in the collective domain shelf at [`collective/actor/`](/view.html?p=notes/social/collective/governance/actor/readme.md); the old `public/` path is a source shell with a directory link. The plural branch — the Social Compound genus, society and sovereignty — is filed in the collective domain shelf under [`collective/`](/view.html?p=notes/social/collective/readme.md); polity is the political form in [`collective/polity/`](/view.html?p=notes/social/collective/polity/polity.md).
 
 ## Formulation
 
@@ -99,10 +99,10 @@ It is not an `Agency` (the structured capacity to form intentions, select action
 - [Social Group](/view.html?p=notes/epistemica/singular/social-group-modelling.md) (interacting aggregate — not an organization)
 - [Human](/view.html?p=notes/social/actor/human.md) (biological individual; carries personhood)
 - [Family](/view.html?p=notes/social/actor/family.md) (kinship unit)
-- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) (government subtype; carries the agency-space QA)
+- [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) (government subtype; carries the agency-space QA)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (warranted teaching body)
 - [University](/view.html?p=notes/social/actor/university.md) (chartered corporation of scholars: the degree-conferring kind of education actor)
-- [Public Research Institutes](/view.html?p=notes/social/collective/actor/type/pri.md) (public-research role)
+- [Public Research Institutes](/view.html?p=notes/social/collective/governance/actor/type/pri.md) (public-research role)
 - [Research Actor](/view.html?p=notes/social/actor/research.md) (research-functional subtype hub: the research actor family)
 - [Finance Actor](/view.html?p=notes/social/actor/finance.md) (finance-functional subtype hub: the finance actor family)
 - [Political Party](/view.html?p=notes/social/actor/political-party.md) (political subtype)

@@ -84,5 +84,5 @@ tags: [note, social, representation, polity, legislature, governance]
 - [Representation](/view.html?p=notes/social/relation/representation.md) — the concept: authorisation, accountability, the principal–agent structure
 - [Polity](/view.html?p=notes/social/collective/polity/polity.md) — the collective the representatives represent
 - [Civil Service](/view.html?p=notes/social/collective/governance/civil-service.md) — the executive side of the pair
-- [Municipal Government](/view.html?p=notes/social/collective/actor/type/municipal-government.md) — the city as a governing unit
-- [Government](/view.html?p=notes/social/collective/actor/type/government.md) — the general form
+- [Municipal Government](/view.html?p=notes/social/collective/governance/actor/type/municipal-government.md) — the city as a governing unit
+- [Government](/view.html?p=notes/social/collective/governance/actor/type/government.md) — the general form

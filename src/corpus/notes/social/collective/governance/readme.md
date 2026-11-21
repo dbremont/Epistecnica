@@ -4,15 +4,15 @@ tags: [note, social, governance, administration, catalog]
 
 # Governance
 
-> The machinery through which a polity administers itself: the administrative collective, the civil service that staffs it, the government-wide layer that coordinates its agencies, and the historical regimes through which offices were recruited and careers ordered.
+> The compound through which a polity governs itself: the **public actors** that wield delegated authority, the **public action** through which they pursue ends, and the **administrative machinery** — the civil service, the government-wide layer, the historical staffing regimes — that runs across them.
 
-Governance is not an actor and not an actor type: it is the administrative machinery that the actors of the state work through. The organizations that wield delegated authority — governments, ministries, agencies, public bodies — stay on the public-organization shelf; what is collected here is the machinery that runs across them.
+Governance is the umbrella of the public side of the collective branch. The actors are not outside it: they are what governance is made of, together with their doings and the arrangement that coordinates them. The political form that draws the boundary is [Polity](/view.html?p=notes/social/collective/polity/polity.md); the ground the order holds is [Space](/view.html?p=notes/social/collective/space/readme.md).
 
-## Elements
+## The shelves
 
-- [Public Administration](/view.html?p=notes/social/collective/governance/administration.md) — the administrative collective, readable secondarily as the activity of administering.
-- [Civil Service](/view.html?p=notes/social/collective/governance/civil-service.md) — the merit-governed staffing system, its recruitment, promotion, evaluation and discipline.
-- [Government-Wide Administration](/view.html?p=notes/social/collective/governance/gov-wide-administration.md) — the cross-government coordinating layer: standards, shared services, oversight.
+- [Public Actor](/view.html?p=notes/social/collective/governance/actor/readme.md) — the organizations that wield delegated public authority: governments, ministries, agencies, statutory corporations, public inquiries.
+- [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) — public action: the problem space, the instruments, the informes and memorials, the cases.
+- **The administrative machinery** — the notes at this root: [Public Administration](/view.html?p=notes/social/collective/governance/administration.md), [Civil Service](/view.html?p=notes/social/collective/governance/civil-service.md), [Government-Wide Administration](/view.html?p=notes/social/collective/governance/gov-wide-administration.md).
 
 ## Historical regimes
 
@@ -120,9 +120,9 @@ Governance is not an actor and not an actor type: it is the administrative machi
 
 ## Related
 
-- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) — the actors that wield the authority
-- [Government](/view.html?p=notes/social/collective/actor/type/government.md)
-- [Public Employee](/view.html?p=notes/social/collective/actor/type/employee.md)
+- [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) — the actors that wield the authority
+- [Government](/view.html?p=notes/social/collective/governance/actor/type/government.md)
+- [Public Employee](/view.html?p=notes/social/collective/governance/actor/type/employee.md)
 - [Human Resource Unit](/view.html?p=notes/social/collective/governance/hru.md)
 - [Government-Wide Administration Comparative System Representation](/corpus/notes/social/representation/gov-wide-administration-comparative-system-representation.html)
 - [Government Representation](/corpus/notes/social/representation/government-representation.html) — the systems applied to the governments of the polity corpus

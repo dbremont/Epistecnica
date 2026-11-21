@@ -238,4 +238,4 @@ A National Defense Strategy for Generic Drugs
 - https://www.arkansasedc.com/
 - https://artreasury.gov/
 - ...
-- [Government Accountability Office](/view.html?p=notes/social/collective/actor/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting
+- [Government Accountability Office](/view.html?p=notes/social/collective/governance/actor/instance/administration/government-accountability-office.md) — the legislative audit institution: the High-Risk List as a third audit product, and GAGAS as standard-setting

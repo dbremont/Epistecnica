@@ -11,6 +11,6 @@ tags: [note, unfinished]
 - [Mechanism](https://www.notion.so/Mechanism-305598edb79080f3b8d9d8fcda9b6d94?source=copy_link)
 - [Technique](https://www.notion.so/Technique-15f598edb790814db56bd7b10a4de600?v=15f598edb79081e2b0e7000c9d41b09a&source=copy_link)
 - [Technology](/view.html?p=notes/technica/meta/tecnica.md)
-- [Agency - Locus Instrumentorum](../../social/collective/action/agency.md)
+- [Agency - Locus Instrumentorum](../../social/collective/governance/action/agency.md)
 - [Social Ontology · Change](/view.html?p=notes/social/dynamic/social-change.md)
 - [Social Region Change Toolkit Foundation](/view.html?p=notes/social/dynamic/action/guidance/social-region-change-toolkit-foundation.md)

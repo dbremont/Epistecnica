@@ -41,7 +41,7 @@ The economic role follows from these five: the hub **lowers the cost of distance
 
 Three mechanisms connect the node to the economy around it, and they are the ones worth measuring:
 
-- **Agglomeration.** Forwarders, insurers, surveyors, repairers and customs brokers cluster at the node because proximity to the flow is the product. The hub becomes a service district — the mechanism [Colocation](/view.html?p=notes/social/relation/economic/colocation.md) describes, and the reason [Cluster](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md) policy so often starts with a port.
+- **Agglomeration.** Forwarders, insurers, surveyors, repairers and customs brokers cluster at the node because proximity to the flow is the product. The hub becomes a service district — the mechanism [Colocation](/view.html?p=notes/social/relation/economic/colocation.md) describes, and the reason [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) policy so often starts with a port.
 - **Gateway effects.** A hub connects a hinterland to the world: it widens the set of goods a region can sell and the inputs it can buy, which is the mechanism that lets a [GVC](/view.html?p=notes/social/dynamic/production/gvc.md) place a stage of production there rather than elsewhere.
 - **Routing power.** A hub on a mainline can attract the flows that need no local market at all — transshipment — because being on the route is itself the asset.
 
@@ -60,7 +60,7 @@ Three mechanisms connect the node to the economy around it, and they are the one
 | [Trade](/view.html?p=notes/social/dynamic/trade/trade.md) | The exchange the hub makes cheap by compressing distance |
 | [Exchange](/view.html?p=notes/social/dynamic/trade/exchange.md) | The transaction layer; a hub reduces the logistics cost of each one |
 | [Colocation](/view.html?p=notes/social/relation/economic/colocation.md) | The agglomeration the node produces around itself |
-| [Cluster](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md) | The policy form that agglomeration takes when a region builds on it |
+| [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) | The policy form that agglomeration takes when a region builds on it |
 | [GVC](/view.html?p=notes/social/dynamic/production/gvc.md) · [LVC](/view.html?p=notes/social/dynamic/production/lvc.md) | The value chains the hub plugs a region into |
 | [Market](/view.html?p=notes/social/coordinator/market/market.md) | The arena in which hubs compete for cargo |
 | [Logistics](/view.html?p=notes/technica/production/industry/logistic/logistics.md) | The industry reading of the flows the hub serves |
@@ -73,4 +73,4 @@ Three mechanisms connect the node to the economy around it, and they are the one
 - Rodrigue, J.-P., Comtois, C., & Slack, B. (2017). *The geography of transport systems* (4th ed.). Routledge. — the reference text for the typology and the measures
 - [Logistics](https://en.wikipedia.org/wiki/Logistics) · [Distribution centre](https://en.wikipedia.org/wiki/Distribution_centre) · [Transshipment](https://en.wikipedia.org/wiki/Transshipment)
 - [Commerce](/view.html?p=notes/social/dynamic/trade/commerce.md) · [Trade](/view.html?p=notes/social/dynamic/trade/trade.md) — the activities the hub serves
-- [Colocation](/view.html?p=notes/social/relation/economic/colocation.md) · [Cluster](/view.html?p=notes/social/collective/action/problem/production/cluster/cluster.md) — the agglomeration mechanisms
+- [Colocation](/view.html?p=notes/social/relation/economic/colocation.md) · [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) — the agglomeration mechanisms

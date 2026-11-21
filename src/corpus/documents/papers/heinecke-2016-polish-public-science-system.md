@@ -37,4 +37,4 @@ tags: [document, paper, poland, science-policy, institutional-change]
 
 - [Heinecke (2016) — PMC full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC4831804/)
 - [Poland — the public science system](/view.html?p=notes/social/collective/polity/instance/pol/poland.md) — the polity note this paper updates
-- [Polish Academy of Sciences](/view.html?p=notes/social/collective/actor/instance/research/pol/polish-academy-of-sciences.md) — the reproduced sector
+- [Polish Academy of Sciences](/view.html?p=notes/social/collective/governance/actor/instance/research/pol/polish-academy-of-sciences.md) — the reproduced sector

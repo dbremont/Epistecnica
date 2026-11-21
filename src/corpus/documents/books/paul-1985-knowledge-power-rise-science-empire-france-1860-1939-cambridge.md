@@ -32,7 +32,7 @@ Paul's book is about the **institutional** growth of French science in the Third
 
 - [From Knowledge to Power](https://www.cambridge.org/core/books/from-knowledge-to-power/) — the publisher's record
 - [Fox, R., & Weisz, G. (eds.) (1980). *The Organization of Science and Technology in France, 1808–1914*.](/view.html?p=documents/books/fox-weisz-1980-organization-science-technology-france-1808-1914-cambridge.md) — the companion institutional history
-- [French Academy of Sciences](/view.html?p=notes/social/collective/actor/instance/research/fra/french-academy-of-sciences.md) — the institution at the centre of the system
-- [Institut de France](/view.html?p=notes/social/collective/actor/instance/research/fra/institut-de-france.md) — the umbrella body
+- [French Academy of Sciences](/view.html?p=notes/social/collective/governance/actor/instance/research/fra/french-academy-of-sciences.md) — the institution at the centre of the system
+- [Institut de France](/view.html?p=notes/social/collective/governance/actor/instance/research/fra/institut-de-france.md) — the umbrella body
 - [France](/view.html?p=notes/social/collective/polity/instance/fra/france.md) — the polity whose science policy the book narrates
 - [A Guide to Historical Scientific Literature](/view.html?p=notes/miscellanea/unclassified/a-guide-to-historical-scientific-literature.md) — the corpus's guide to the literature this book belongs to

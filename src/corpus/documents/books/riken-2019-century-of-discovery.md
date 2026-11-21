@@ -25,4 +25,4 @@ tags: [document, book, japan, science-history, riken]
 
 - [RIKEN — A Century of Discovery (PDF)](https://www.riken.jp/medialibrary/riken/pr/publications/anniv/riken100/centuryofdiscovery.pdf)
 - [RIKEN — History](https://www.riken.jp/en/about/history/)
-- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/governance/actor/instance/research/jpn/riken.md)

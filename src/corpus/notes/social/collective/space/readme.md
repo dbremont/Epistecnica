@@ -6,7 +6,7 @@ tags: [note, social, koinomia, space, catalog]
 
 > The spatial frame of the public order: the ground a polity holds, the regions it delimits, and the world that contains both.
 
-This shelf is the spatial organ of the koinomia domain, alongside [Polity](/view.html?p=notes/social/collective/polity/polity.md), [Actor](/view.html?p=notes/social/collective/actor/readme.md) and [Collective Action](/view.html?p=notes/social/collective/action/readme.md). It is not the representation-of-space scope under `epistemica/representation/space/` — that shelf asks how space is represented — and it is not the corpus-wide *Social Space*, which is the whole social corpus read spatially. The question here is narrower: what ground does a public order occupy, how is it delimited, and at what scale?
+This shelf is the spatial organ of the collective domain, alongside [Polity](/view.html?p=notes/social/collective/polity/polity.md), [Actor](/view.html?p=notes/social/collective/governance/actor/readme.md) and [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md). It is not the representation-of-space scope under `epistemica/representation/space/` — that shelf asks how space is represented — and it is not the corpus-wide *Social Space*, which is the whole social corpus read spatially. The question here is narrower: what ground does a public order occupy, how is it delimited, and at what scale?
 
 ## Levels
 

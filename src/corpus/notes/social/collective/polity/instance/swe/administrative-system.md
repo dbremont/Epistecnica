@@ -124,11 +124,11 @@ A system that is this good at insulation is correspondingly bad at coordination,
 | **UK Executive Agency** | In a **framework document** — a management arrangement | None; remains part of the department |
 | **(Japan) Incorporated Administrative Agency** | In its **incorporation** — bounded autonomy inside minister-set objectives | Yes, with medium-term objectives set by the minister |
 
-The Swedish form is the one that makes independence a constitutional fact rather than an administrative concession, which is why [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) carries it as a kind rather than as an example.
+The Swedish form is the one that makes independence a constitutional fact rather than an administrative concession, which is why [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) carries it as a kind rather than as an example.
 
 ## See also
 
-- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/action/informe/a-report-on-swedish-agency-performance-and-accountability.md) — the audit-scope and self-audit critique of the model.
+- [A Report on Swedish Agency Performance and Accountability](/view.html?p=notes/social/collective/governance/action/informe/a-report-on-swedish-agency-performance-and-accountability.md) — the audit-scope and self-audit critique of the model.
 
 ## References
 
@@ -140,5 +140,5 @@ The Swedish form is the one that makes independence a constitutional fact rather
 - [Public agencies and how they are governed](https://www.government.se/how-sweden-is-governed/public-agencies-and-how-they-are-governed/) — the government's own account of the mandate, direction and reporting relationship
 - [How state administration works in Sweden](https://www.government.se/government-policy/central-government-administration/how-state-administration-works-in-sweden/) — the appointment of agency heads, and the merit principle stated as policy
 - [Sweden](/view.html?p=notes/social/collective/polity/instance/swe/sweden.md) — the polity whose machinery this is
-- [Public Organization](/view.html?p=notes/social/collective/actor/readme.md) — where the Swedish Government Agency is a kind, and the three forms are compared
-- [Government](/view.html?p=notes/social/collective/actor/type/government.md) · [Public Administration](/view.html?p=notes/social/collective/governance/administration.md) — the generic elements this system instantiates
+- [Public Organization](/view.html?p=notes/social/collective/governance/actor/readme.md) — where the Swedish Government Agency is a kind, and the three forms are compared
+- [Government](/view.html?p=notes/social/collective/governance/actor/type/government.md) · [Public Administration](/view.html?p=notes/social/collective/governance/administration.md) — the generic elements this system instantiates

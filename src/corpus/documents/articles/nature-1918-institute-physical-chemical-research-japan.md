@@ -24,4 +24,4 @@ tags: [document, article, japan, science-history, riken]
 ## References
 
 - [Nature — article page](https://www.nature.com/articles/102294b0)
-- [RIKEN — the institute note](/view.html?p=notes/social/collective/actor/instance/research/jpn/riken.md)
+- [RIKEN — the institute note](/view.html?p=notes/social/collective/governance/actor/instance/research/jpn/riken.md)

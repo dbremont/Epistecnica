@@ -112,8 +112,8 @@ What actually constrains a sovereign, in rough order of how much it constrains:
 | **Concept** | **Relation** |
 | --- | --- |
 | [Polity](/view.html?p=notes/social/collective/polity/polity.md) | The bearer: sovereignty is predicated of a political collective, never of a person or a government |
-| [State](/view.html?p=notes/social/collective/actor/type/government.md) | The polity kind defined by the claim to supremacy within a territory — the state is the polity read through this property |
-| [Government](/view.html?p=notes/social/collective/actor/type/government.md) | The apparatus that exercises it at a time; governments change, sovereignty does not |
+| [State](/view.html?p=notes/social/collective/governance/actor/type/government.md) | The polity kind defined by the claim to supremacy within a territory — the state is the polity read through this property |
+| [Government](/view.html?p=notes/social/collective/governance/actor/type/government.md) | The apparatus that exercises it at a time; governments change, sovereignty does not |
 | [Authority](/view.html?p=notes/social/normative/authority.md) | The entitlement to decide inside the order; sovereignty is the further claim that nothing above it decides |
 | [Legitimacy](/view.html?p=notes/social/normative/legitimacy.md) | The rightness of exercising authority; a sovereign can be effective and illegitimate, or legitimate and powerless |
 | [Law](/view.html?p=notes/social/normative/law.md) | Its usual instrument, and — in the legal reading — its seat |

@@ -82,4 +82,4 @@ Here is a table summarizing key elements of Israel's industrial policy, includin
 
 ## References
 
-- [Technion](/view.html?p=notes/social/collective/actor/instance/research/isr/technion-israel-institute-of-technology.md) — the engineering school that supplied the state's technical workforce
+- [Technion](/view.html?p=notes/social/collective/governance/actor/instance/research/isr/technion-israel-institute-of-technology.md) — the engineering school that supplied the state's technical workforce

@@ -43,7 +43,7 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 
 ## Actor
 
-- [Actor](/view.html?p=notes/social/collective/actor/readme.md) — the public-actor apparatus: the organizations through which delegated public authority is exercised.
+- [Actor](/view.html?p=notes/social/collective/governance/actor/readme.md) — the public-actor apparatus: the organizations through which delegated public authority is exercised.
 
 ## Collective
 
@@ -51,7 +51,7 @@ Koinomia names that arrangement in its public form: the principles, rights, obli
 
 ## Action
 
-- [Collective Action](/view.html?p=notes/social/collective/action/readme.md) — public action: the action through which a polity pursues public ends.
+- [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) — public action: the action through which a polity pursues public ends.
 
 ## Read it with
 

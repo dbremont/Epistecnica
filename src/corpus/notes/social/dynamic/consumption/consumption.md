@@ -12,7 +12,7 @@ tags: [note, social, unfinished]
 ## References
 
 - [Consumption](https://en.wikipedia.org/wiki/Consumption_(economics))
-- [Human](../../../../collective/actor/human.md)
-- [Individual](../../../../collective/actor/individual.md)
+- [Human](../../../../collective/governance/actor/human.md)
+- [Individual](../../../../collective/governance/actor/individual.md)
 - Economic Facet
 <!-- - Preference Modelling -->

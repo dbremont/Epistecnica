@@ -6,7 +6,7 @@ tags: [note, technica, urbanism, catalog]
 
 > The technical domain of the built environment: the objects, networks and practices through which a settlement is built, serviced and shaped.
 
-This shelf is the technical reading of urbanism. The social and policy reading lives one shelf over, in [Urbanismo](/view.html?p=notes/social/collective/action/problem/urbanism/urbanismo.md) — what makes a city great, how spatial planning should be directed, and what the urban system is. The two shelves point at each other: the policy question there, the technical objects here.
+This shelf is the technical reading of urbanism. The social and policy reading lives one shelf over, in [Urbanismo](/view.html?p=notes/social/collective/governance/action/problem/urbanism/urbanismo.md) — what makes a city great, how spatial planning should be directed, and what the urban system is. The two shelves point at each other: the policy question there, the technical objects here.
 
 ## Technical objects and practices
 
@@ -22,7 +22,7 @@ This shelf is the technical reading of urbanism. The social and policy reading l
 
 ## Read it with
 
-- [Urbanismo](/view.html?p=notes/social/collective/action/problem/urbanism/urbanismo.md) — the social and policy reading of the same city.
+- [Urbanismo](/view.html?p=notes/social/collective/governance/action/problem/urbanism/urbanismo.md) — the social and policy reading of the same city.
 - [Construction](/view.html?p=notes/technica/general/construction.md) — the building practice beneath the objects.
 - [House](/view.html?p=notes/technica/general/house.md) — the dwelling and its systems.
 - [Real Estate](/view.html?p=notes/technica/production/industry/realstate/readme.md) — the sector that produces the built stock.

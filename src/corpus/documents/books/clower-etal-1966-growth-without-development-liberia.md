@@ -29,4 +29,4 @@ tags: [document, book, development, liberia, economic-history]
 - [Archive.org — Growth without Development: An Economic Survey of Liberia](https://archive.org/details/growthwithoutdev0000unse)
 - [Developmental](/view.html?p=notes/miscellanea/discipline/developmental.md) — the discipline the survey belongs to
 - [Developmentalism](/view.html?p=notes/social/synontic/ideational/developmentalism.md) — the doctrine the case tests
-- [Economic Diversification](/view.html?p=notes/social/collective/action/problem/production/diversification/economic-diversification.md) — the problem the enclave names
+- [Economic Diversification](/view.html?p=notes/social/collective/governance/action/problem/production/diversification/economic-diversification.md) — the problem the enclave names

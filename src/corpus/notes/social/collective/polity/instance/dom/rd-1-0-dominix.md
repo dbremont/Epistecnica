@@ -99,7 +99,7 @@ tags: [note, social]
 ## References
 
 - https://plato.stanford.edu/entrieS/social-ontology/
-- [An Essay on Dominican Economic & Development Thinking](/view.html?p=notes/social/collective/action/informe/an-essay-on-the-dominican-of-a-development-thinking.md)
+- [An Essay on Dominican Economic & Development Thinking](/view.html?p=notes/social/collective/governance/action/informe/an-essay-on-the-dominican-of-a-development-thinking.md)
 - [An Essay on the Design of a Computational Engine for Analyzing and Modeling Dominican Society](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-design-of-a-computational-engine-for-analyzing-and-modeling-dominican-society.md)
 - ‣
 - Searle, J. R. (2006). Social ontology: Some basic principles. Anthropological theory, 6(1), 12-29.

@@ -126,7 +126,7 @@ Readable secondarily as an aggregate: the corps of degree-holders read as a stra
 - [Stratum](/view.html?p=notes/social/collective/class/stratum.md) (the gradational reading of the corps of degree-holders)
 - [University](/view.html?p=notes/social/actor/university.md) (the European corporate that certified learning; the examination certified without a corporation)
 - [Education Actor](/view.html?p=notes/social/actor/education-actor.md) (the transmission actor of which the examination academies are a case)
-- [Selection](/view.html?p=notes/social/collective/action/instrument/bureaucracy/selection.md) (merit-based selection as an instrument of public action)
+- [Selection](/view.html?p=notes/social/collective/governance/action/instrument/bureaucracy/selection.md) (merit-based selection as an instrument of public action)
 - Ho, P.-t. (1962). *The ladder of success in imperial China: Aspects of social mobility, 1368–1911*. Columbia University Press.
 - Elman, B. A. (2000). *A cultural history of civil examinations in late imperial China*. University of California Press.
 - Weber, M. (1951). *The religion of China: Confucianism and Taoism* (H. H. Gerth, Trans.). Free Press. (Original work published 1915)

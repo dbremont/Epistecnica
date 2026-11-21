@@ -166,7 +166,7 @@ Social Element (parent)
 
 ### Where do goals, intentions, and problematization decompose?
 
-> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/collective/action/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/collective/action/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
+> Under `Interaction Unit -> Agency -> Intention`. `Intention` is the intentional structure of agency — directed commitment toward an end held prior to and through action. `Goal` and `Objective / Target` are its objects (desired states, specified measurably); `Problem / Problematization` is the gap between conditions and a norm as apprehended and formed by an agency — the social form of [Problematization](/view.html?p=notes/epistemica/problematization.md), documented as an element at [Problem](/view.html?p=notes/social/collective/governance/action/problem/problem.md) and specialized for policy at [Problem](/view.html?p=notes/social/collective/governance/action/problem/policy-problem.md). `Goal` no longer sits as a flat root: a goal coordinates effort only as the object of some agency's intention.
 
 ### Where does joint agency decompose?
 
@@ -283,8 +283,8 @@ Social Element (parent)
 - [Initiative](/view.html?p=notes/social/dynamic/action/organization/initiative.md)
 - [Roadmap](/view.html?p=notes/social/dynamic/action/organization/roadmap.md)
 - [Charter](/view.html?p=notes/social/dynamic/action/organization/charter.md)
-- [Agency](/view.html?p=notes/social/collective/action/public-agency.md)
-- [Problem](/view.html?p=notes/social/collective/action/problem/policy-problem.md)
+- [Agency](/view.html?p=notes/social/collective/governance/action/public-agency.md)
+- [Problem](/view.html?p=notes/social/collective/governance/action/problem/policy-problem.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
 - [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
 - Ambiguity Resolution (`guideline/ambiguity_resolution.md`)
