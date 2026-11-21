@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 8
+    "version": 9
   },
   "problems": [
     {
@@ -5362,6 +5362,386 @@
       "mechanism": "The institute studies industry needs and represents them in policy debate.",
       "hue": "#6E6A8A",
       "icon": "📣",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 213,
+      "name": "Sovereign Development Loan",
+      "description": "Long-term loans for infrastructure, industry and strategic sectors.",
+      "mechanism": "A state development bank lends patiently, de-risking capital-intensive projects.",
+      "hue": "#B8860B",
+      "icon": "🏦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 214,
+      "name": "Project Finance",
+      "description": "Financing tied to a specific industrial or infrastructure project.",
+      "mechanism": "Lenders rely on the project's cash flows and assets for repayment, enabling large projects.",
+      "hue": "#B8860B",
+      "icon": "🏗️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 215,
+      "name": "Credit Line to Banks",
+      "description": "Wholesale lending to commercial banks for on-lending to SMEs and targeted sectors.",
+      "mechanism": "A development bank provides cheap lines with monitoring requirements, expanding credit where markets fail.",
+      "hue": "#B8860B",
+      "icon": "🔁",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 216,
+      "name": "Co-Investment Fund",
+      "description": "Joint public and private early-stage capital vehicle.",
+      "mechanism": "State capital matches private investors and shares risk, crowding in venture capital.",
+      "hue": "#B8860B",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 217,
+      "name": "Soft Loan",
+      "description": "A concessional loan with low interest or conditional forgiveness.",
+      "mechanism": "The state subsidises the cost of capital to de-risk technological experimentation.",
+      "hue": "#B8860B",
+      "icon": "💧",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 218,
+      "name": "State Equity Participation",
+      "description": "State-owned equity in strategic national firms.",
+      "mechanism": "The state takes stakes to promote scale, control and stability of national champions.",
+      "hue": "#B8860B",
+      "icon": "📊",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 219,
+      "name": "National Project Fund",
+      "description": "A mission-oriented capital pool for long-term structural programmes.",
+      "mechanism": "A dedicated fund finances multi-decade industrial and technological upgrading.",
+      "hue": "#B8860B",
+      "icon": "🎯",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 220,
+      "name": "Long-Term Industrial Credit",
+      "description": "Loans of ten to thirty years to heavy and frontier industries.",
+      "mechanism": "Universal banks provide patient capital where capital markets are underdeveloped.",
+      "hue": "#B8860B",
+      "icon": "⏳",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 221,
+      "name": "Universal Savings Mobilization",
+      "description": "Channels household savings into long-term industrial investment.",
+      "mechanism": "Savings institutions and regional banks convert dispersed deposits into patient capital.",
+      "hue": "#B8860B",
+      "icon": "💰",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 222,
+      "name": "National Fund-of-Funds",
+      "description": "A government-backed fund investing through venture and private-equity sub-funds.",
+      "mechanism": "It allocates capital indirectly to funds, spreading risk and steering national priorities.",
+      "hue": "#B8860B",
+      "icon": "🪆",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 223,
+      "name": "Municipal Guidance Fund",
+      "description": "A local government industrial fund matched with private capital.",
+      "mechanism": "Local funds build ecosystems and clusters by co-investing with private managers.",
+      "hue": "#B8860B",
+      "icon": "🏙️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 224,
+      "name": "Sector-Specific Fund-of-Funds",
+      "description": "A fund-of-funds dedicated to one critical sector.",
+      "mechanism": "Capital is concentrated in mission-critical sectors such as semiconductors or biomedicine.",
+      "hue": "#B8860B",
+      "icon": "🔬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 225,
+      "name": "Government Guidance Fund",
+      "description": "State sets priorities, anchors capital and requires private co-investment.",
+      "mechanism": "Profits are reinvested, linking finance directly to industrial policy.",
+      "hue": "#B8860B",
+      "icon": "🧭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 226,
+      "name": "Public–Private Co-Investment Fund",
+      "description": "State capital matches private venture and private-equity funds within policy boundaries.",
+      "mechanism": "Private managers allocate capital while the state aligns incentives with development goals.",
+      "hue": "#B8860B",
+      "icon": "🧩",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 227,
+      "name": "Cluster Mother Fund",
+      "description": "A regional fund-of-funds seeding sub-funds inside one industrial cluster.",
+      "mechanism": "It finances design, equipment, packaging and materials firms as an ecosystem.",
+      "hue": "#B8860B",
+      "icon": "🌱",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 228,
+      "name": "Industrial Group Financing",
+      "description": "Bank-centred financial groups linking manufacturers, suppliers and traders.",
+      "mechanism": "Cross-holdings and policy banks stabilise long-term industrial planning.",
+      "hue": "#B8860B",
+      "icon": "🔗",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 229,
+      "name": "Foreign Buyer Credit",
+      "description": "Loans to foreign buyers purchasing domestic capital goods.",
+      "mechanism": "An export bank finances the buyer so domestic manufacturers win the order.",
+      "hue": "#C9956C",
+      "icon": "🚢",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 230,
+      "name": "Production Subsidy",
+      "description": "Direct financial support to targeted industries.",
+      "mechanism": "Subsidies encourage entry, scale and capability accumulation in priority sectors.",
+      "hue": "#C9956C",
+      "icon": "💵",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 231,
+      "name": "Accelerated Depreciation",
+      "description": "Faster write-off of capital equipment.",
+      "mechanism": "Tax rules let firms replace machinery sooner, modernising production capital.",
+      "hue": "#C9956C",
+      "icon": "📉",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 232,
+      "name": "Production Linked Incentive",
+      "description": "Payments tied to incremental output rather than investment promises.",
+      "mechanism": "Firms receive rewards only when verified production rises, linking support to results.",
+      "hue": "#C9956C",
+      "icon": "📈",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 233,
+      "name": "Duty Drawback Scheme",
+      "description": "Refund of duties on imported inputs used in exports.",
+      "mechanism": "Exporters recover border taxes, lowering the cost of competing abroad.",
+      "hue": "#C9956C",
+      "icon": "🧾",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 234,
+      "name": "Set-Aside Program",
+      "description": "A share of public contracts reserved for qualifying domestic firms.",
+      "mechanism": "Procurement rules guarantee a market for targeted suppliers.",
+      "hue": "#C9956C",
+      "icon": "📋",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 235,
+      "name": "Cluster and Industrial Park Finance",
+      "description": "Financing for industrial parks, zones and shared infrastructure.",
+      "mechanism": "Dedicated capital lowers fixed costs and raises productivity inside the cluster.",
+      "hue": "#7BA388",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 236,
+      "name": "Cluster and Supply-Chain Finance",
+      "description": "Lending to interconnected firms across a value chain.",
+      "mechanism": "Banks finance suppliers, machine-tool makers and logistics together, upgrading the chain as a whole.",
+      "hue": "#7BA388",
+      "icon": "🔗",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 237,
+      "name": "Supply Chain Resilience Program",
+      "description": "Redundancy and risk planning across supply chains.",
+      "mechanism": "Firms map critical dependencies, qualify alternatives and hold strategic buffers.",
+      "hue": "#7BA388",
+      "icon": "🛡️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 238,
+      "name": "Supplier Diversity Program",
+      "description": "A buyer widens its supplier base to include new firms.",
+      "mechanism": "Lead firms mentor and qualify additional suppliers, reducing concentration.",
+      "hue": "#7BA388",
+      "icon": "🧺",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 239,
+      "name": "Inventory Management Program",
+      "description": "Better inventory control across the chain.",
+      "mechanism": "Shared demand data and replenishment rules reduce working capital and shortages.",
+      "hue": "#7BA388",
+      "icon": "📦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 240,
+      "name": "Cluster Charter",
+      "description": "A formal agreement among cluster actors on shared goals.",
+      "mechanism": "Members sign a charter or memorandum defining roles, contributions and governance.",
+      "hue": "#7BA388",
+      "icon": "📜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 241,
+      "name": "Thematic Working Group",
+      "description": "A standing group focused on one cluster problem.",
+      "mechanism": "Firms, agencies and researchers meet around a defined technical or market theme.",
+      "hue": "#7BA388",
+      "icon": "💬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 242,
+      "name": "Additionality Testing",
+      "description": "A counterfactual estimate of what private capital would have done.",
+      "mechanism": "Analysts test whether public support changed behaviour before committing funds.",
+      "hue": "#6E6A8A",
+      "icon": "🧪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 243,
+      "name": "Cost per Outcome",
+      "description": "A unit-cost measure of public support relative to results.",
+      "mechanism": "Programmes report cost per verified outcome, making support comparable.",
+      "hue": "#6E6A8A",
+      "icon": "📐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 244,
+      "name": "Composition Reporting",
+      "description": "Disclosure of who actually receives public support.",
+      "mechanism": "Beneficiary data are published by size, sector and location to expose capture.",
+      "hue": "#6E6A8A",
+      "icon": "🔍",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 245,
+      "name": "Sunset Clauses",
+      "description": "Automatic expiry of support unless renewed.",
+      "mechanism": "A fixed end date forces periodic review and prevents permanent subsidies.",
+      "hue": "#6E6A8A",
+      "icon": "⏳",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 246,
+      "name": "Prize Questions",
+      "description": "Published challenges with rewards for solutions.",
+      "mechanism": "Societies and agencies pose a precise question and award the best answer.",
+      "hue": "#4E7A8C",
+      "icon": "🏅",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 247,
+      "name": "Tech-Scouting Mission",
+      "description": "Missions that identify and bring back useful technologies.",
+      "mechanism": "Scouts visit leading firms and labs, then report and broker adoption.",
+      "hue": "#4E7A8C",
+      "icon": "🔭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 248,
+      "name": "Scenario-Planning Workshop",
+      "description": "Structured exercises exploring alternative futures.",
+      "mechanism": "Participants build explicit probability ranges and corresponding strategy options.",
+      "hue": "#4E7A8C",
+      "icon": "🗺️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 249,
+      "name": "Innovation Hub",
+      "description": "A physical or organisational node where innovators meet.",
+      "mechanism": "The hub co-locates firms, researchers and services around a theme.",
+      "hue": "#4E7A8C",
+      "icon": "💡",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 250,
+      "name": "Startup Ecosystem",
+      "description": "A coordinated set of supports for new ventures.",
+      "mechanism": "Incubation, capital, talent and markets are aligned around startup formation.",
+      "hue": "#4E7A8C",
+      "icon": "🌱",
       "caseStudies": [],
       "references": []
     }
