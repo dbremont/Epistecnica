@@ -5544,7 +5544,13 @@
       ],
       "functions": [
         "Transfers agronomic and technological knowledge to producers."
-      ]
+      ],
+      "actors": [
+        "Extension service",
+        "Farmers"
+      ],
+      "outcome": "Higher yields and lower production costs",
+      "implementation": "Extension staff, farmer organizations and demonstration plots."
     },
     {
       "problem": 208,
@@ -5557,7 +5563,13 @@
       ],
       "functions": [
         "Develop improved crops, production techniques and agricultural technologies."
-      ]
+      ],
+      "actors": [
+        "Research institutes",
+        "Farmers"
+      ],
+      "outcome": "Improved varieties and practices adopted",
+      "implementation": "Stable research funding, field stations and breeder capacity."
     },
     {
       "problem": 223,
@@ -5570,7 +5582,13 @@
       ],
       "functions": [
         "Conduct applied research and solve industrial technical problems."
-      ]
+      ],
+      "actors": [
+        "Research institutes",
+        "Industrial firms"
+      ],
+      "outcome": "Technical problems solved and processes improved",
+      "implementation": "Applied research contracts, pilot facilities and industry links."
     },
     {
       "problem": 225,
@@ -5583,7 +5601,14 @@
       ],
       "functions": [
         "Develops measurement standards and calibration capabilities."
-      ]
+      ],
+      "actors": [
+        "Metrology institute",
+        "Firms",
+        "Regulators"
+      ],
+      "outcome": "Traceable measurement and calibration",
+      "implementation": "Accredited laboratories, reference standards and trained metrologists."
     },
     {
       "problem": 225,
@@ -5596,7 +5621,13 @@
       ],
       "functions": [
         "Provide industrial testing and certification."
-      ]
+      ],
+      "actors": [
+        "Testing laboratories",
+        "Firms"
+      ],
+      "outcome": "Certified products accepted in export markets",
+      "implementation": "Accredited labs, test methods and certification agreements."
     },
     {
       "problem": 221,
@@ -5609,7 +5640,13 @@
       ],
       "functions": [
         "Support prototyping, engineering and industrial experimentation."
-      ]
+      ],
+      "actors": [
+        "Technology centers",
+        "Engineering firms"
+      ],
+      "outcome": "Working prototypes and engineered products",
+      "implementation": "Prototyping equipment, engineers and industry projects."
     },
     {
       "problem": 222,
@@ -5622,7 +5659,13 @@
       ],
       "functions": [
         "Supports domestic machinery and equipment production."
-      ]
+      ],
+      "actors": [
+        "Equipment makers",
+        "Firms"
+      ],
+      "outcome": "Domestic machinery produced and maintained",
+      "implementation": "Design capability, a machine-tool base and buyer demand."
     },
     {
       "problem": 248,
@@ -5635,7 +5678,13 @@
       ],
       "functions": [
         "Identifies and negotiates acquisition of strategic foreign technologies."
-      ]
+      ],
+      "actors": [
+        "Acquisition office",
+        "Firms"
+      ],
+      "outcome": "Strategic technologies acquired and absorbed",
+      "implementation": "Negotiation capacity, technology mapping and absorption plans."
     },
     {
       "problem": 248,
@@ -5648,7 +5697,13 @@
       ],
       "functions": [
         "Facilitates acquisition and commercialization of external technologies."
-      ]
+      ],
+      "actors": [
+        "Licensors",
+        "Licensed firms"
+      ],
+      "outcome": "External technology commercialized locally",
+      "implementation": "IP advice, licensing finance and absorption capacity."
     },
     {
       "problem": 234,
@@ -5661,7 +5716,13 @@
       ],
       "functions": [
         "Finances innovative companies and technology ventures."
-      ]
+      ],
+      "actors": [
+        "Fund managers",
+        "Technology ventures"
+      ],
+      "outcome": "More early-stage ventures financed",
+      "implementation": "Fund-of-funds structure, exit markets and experienced managers."
     },
     {
       "problem": 215,
@@ -5674,7 +5735,13 @@
       ],
       "functions": [
         "Provides financing and guarantees for exporters."
-      ]
+      ],
+      "actors": [
+        "Export credit agency",
+        "Exporters"
+      ],
+      "outcome": "Exports financed and insured",
+      "implementation": "Risk capital, export credit insurance and bank partnerships."
     },
     {
       "problem": 215,
@@ -5687,7 +5754,13 @@
       ],
       "functions": [
         "Identifies foreign markets, demand, competitors and opportunities."
-      ]
+      ],
+      "actors": [
+        "Trade promotion body",
+        "Exporters"
+      ],
+      "outcome": "New markets identified and entered",
+      "implementation": "Market intelligence staff, trade data and buyer networks."
     },
     {
       "problem": 214,
@@ -5700,7 +5773,14 @@
       ],
       "functions": [
         "Investigates monopolies, cartels and anticompetitive conduct."
-      ]
+      ],
+      "actors": [
+        "Competition authority",
+        "Firms",
+        "Consumers"
+      ],
+      "outcome": "Contestable markets and lower prices",
+      "implementation": "Statutory powers, investigative staff and judicial review."
     },
     {
       "problem": 237,
@@ -5713,7 +5793,14 @@
       ],
       "functions": [
         "Facilitates restructuring of viable but financially distressed firms."
-      ]
+      ],
+      "actors": [
+        "Restructuring facility",
+        "Distressed firms",
+        "Creditors"
+      ],
+      "outcome": "Viable firms restructured",
+      "implementation": "Workout expertise, creditor coordination and bridge finance."
     },
     {
       "problem": 237,
@@ -5726,7 +5813,14 @@
       ],
       "functions": [
         "Facilitates orderly exit and reallocation of productive assets."
-      ]
+      ],
+      "actors": [
+        "Insolvency administration",
+        "Courts",
+        "Creditors"
+      ],
+      "outcome": "Orderly exit and asset reallocation",
+      "implementation": "Insolvency law, specialized courts and asset markets."
     },
     {
       "problem": 213,
@@ -5739,7 +5833,13 @@
       ],
       "functions": [
         "Facilitates mergers, acquisitions and the achievement of minimum viable firm size."
-      ]
+      ],
+      "actors": [
+        "Consolidation program",
+        "Sub-scale firms"
+      ],
+      "outcome": "Firms reach minimum viable size",
+      "implementation": "Matchmaking, valuation support and competition clearance."
     },
     {
       "problem": 224,
@@ -5752,7 +5852,13 @@
       ],
       "functions": [
         "Uses government demand to stimulate domestic technological development."
-      ]
+      ],
+      "actors": [
+        "Procurement agency",
+        "Innovative firms"
+      ],
+      "outcome": "Domestic innovation procured",
+      "implementation": "Innovation-friendly tenders, testing budgets and lead users."
     },
     {
       "problem": 235,
@@ -5765,7 +5871,13 @@
       ],
       "functions": [
         "Finances long-term infrastructure projects."
-      ]
+      ],
+      "actors": [
+        "Infrastructure fund",
+        "Project sponsors"
+      ],
+      "outcome": "Long-term infrastructure financed",
+      "implementation": "Project pipeline, PPP frameworks and long-tenor capital."
     },
     {
       "problem": 211,
@@ -5778,7 +5890,14 @@
       ],
       "functions": [
         "Collects information on firms, capabilities, suppliers and industrial gaps."
-      ]
+      ],
+      "actors": [
+        "Statistical office",
+        "Firms",
+        "Policy units"
+      ],
+      "outcome": "Industrial diagnosis and targeting",
+      "implementation": "Firm registries, survey capacity and data-sharing rules."
     },
     {
       "problem": 217,
@@ -5791,7 +5910,14 @@
       ],
       "functions": [
         "Identifies emerging technologies and future industrial opportunities."
-      ]
+      ],
+      "actors": [
+        "Foresight unit",
+        "Researchers",
+        "Firms"
+      ],
+      "outcome": "Emerging opportunities identified",
+      "implementation": "Foresight methods, expert networks and policy uptake."
     },
     {
       "problem": 224,
@@ -5804,7 +5930,14 @@
       ],
       "functions": [
         "Commercialize university research and facilitate licensing."
-      ]
+      ],
+      "actors": [
+        "Technology transfer offices",
+        "Universities",
+        "Firms"
+      ],
+      "outcome": "University research commercialized",
+      "implementation": "IP policies, licensing staff and industry partnerships."
     },
     {
       "problem": 221,
@@ -5817,7 +5950,13 @@
       ],
       "functions": [
         "Support product design, engineering design and prototyping."
-      ]
+      ],
+      "actors": [
+        "Design centers",
+        "Firms"
+      ],
+      "outcome": "More sophisticated product designs",
+      "implementation": "Designers, prototyping tools and industry briefs."
     },
     {
       "problem": 225,
@@ -5830,7 +5969,14 @@
       ],
       "functions": [
         "Integrates standards, accreditation, testing and metrology."
-      ]
+      ],
+      "actors": [
+        "Standards body",
+        "Accreditation",
+        "Testing labs"
+      ],
+      "outcome": "Products meet international requirements",
+      "implementation": "Standards, accreditation, testing and metrology integrated."
     },
     {
       "problem": 207,
@@ -5843,7 +5989,13 @@
       ],
       "functions": [
         "Finances advanced scientific and technical equipment."
-      ]
+      ],
+      "actors": [
+        "Research funders",
+        "Laboratories"
+      ],
+      "outcome": "Advanced research equipment in place",
+      "implementation": "Capital budgets, procurement and maintenance capacity."
     },
     {
       "problem": 216,
@@ -5856,7 +6008,14 @@
       ],
       "functions": [
         "Measures and investigates productivity across firms and sectors."
-      ]
+      ],
+      "actors": [
+        "Observatory",
+        "Firms",
+        "Sectors"
+      ],
+      "outcome": "Productivity measured and diffused",
+      "implementation": "Firm surveys, benchmarking and public reporting."
     },
     {
       "problem": 206,
@@ -5869,7 +6028,14 @@
       ],
       "functions": [
         "Coordinate firms, universities, infrastructure and suppliers within clusters."
-      ]
+      ],
+      "actors": [
+        "Cluster organizations",
+        "Firms",
+        "Universities"
+      ],
+      "outcome": "Coordinated cluster development",
+      "implementation": "Cluster governance, shared services and joint projects."
     },
     {
       "problem": 208,
@@ -5882,7 +6048,14 @@
       ],
       "functions": [
         "Finances agricultural investment and distributes production risks."
-      ]
+      ],
+      "actors": [
+        "Agricultural bank",
+        "Insurers",
+        "Farmers"
+      ],
+      "outcome": "Farm investment financed and risk shared",
+      "implementation": "Credit lines, crop insurance and extension links."
     },
     {
       "problem": 245,
@@ -5895,7 +6068,14 @@
       ],
       "functions": [
         "Anticipates future occupational and technical skill requirements."
-      ]
+      ],
+      "actors": [
+        "Skills council",
+        "Employers",
+        "Training providers"
+      ],
+      "outcome": "Training aligned with demand",
+      "implementation": "Labour-market data, employer surveys and curriculum feedback."
     },
     {
       "problem": 226,
@@ -5908,7 +6088,13 @@
       ],
       "functions": [
         "Helps firms adopt software, automation and digital production systems."
-      ]
+      ],
+      "actors": [
+        "Extension service",
+        "Firms"
+      ],
+      "outcome": "Firms adopt digital production",
+      "implementation": "Advisers, demonstration factories and software subsidies."
     },
     {
       "problem": 206,
@@ -5921,7 +6107,13 @@
       ],
       "functions": [
         "Coordinates metropolitan infrastructure and productive urban development."
-      ]
+      ],
+      "actors": [
+        "Urban development corporation",
+        "City government"
+      ],
+      "outcome": "Productive urban development",
+      "implementation": "Land assembly, transport coordination and metropolitan governance."
     },
     {
       "problem": 232,
@@ -5934,7 +6126,13 @@
       ],
       "functions": [
         "Increases the stock of productive assets over time."
-      ]
+      ],
+      "actors": [
+        "Investors",
+        "Firms"
+      ],
+      "outcome": "Higher productive capital stock",
+      "implementation": "Savings mobilization, investment finance and project appraisal."
     },
     {
       "problem": 216,
@@ -5947,7 +6145,13 @@
       ],
       "functions": [
         "Produces more economic value with the same or fewer resources."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Managers"
+      ],
+      "outcome": "More output per unit of input",
+      "implementation": "Technology adoption, management and process improvement."
     },
     {
       "problem": 226,
@@ -5960,7 +6164,13 @@
       ],
       "functions": [
         "Spreads productive technologies across firms and sectors."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Technology providers"
+      ],
+      "outcome": "Technology spread across firms",
+      "implementation": "Demonstration, extension and supplier linkages."
     },
     {
       "problem": 217,
@@ -5973,7 +6183,14 @@
       ],
       "functions": [
         "Moves labour and capital toward increasingly productive activities."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Workers",
+        "Policy makers"
+      ],
+      "outcome": "Resources move to higher-productivity activities",
+      "implementation": "Factor mobility, new-sector finance and skills."
     },
     {
       "problem": 213,
@@ -5986,7 +6203,12 @@
       ],
       "functions": [
         "Reduces unit costs as production expands."
-      ]
+      ],
+      "actors": [
+        "Firms"
+      ],
+      "outcome": "Lower unit costs",
+      "implementation": "Market size, consolidation and plant utilization."
     },
     {
       "problem": 209,
@@ -5999,7 +6221,12 @@
       ],
       "functions": [
         "Increases efficiency by producing related products together."
-      ]
+      ],
+      "actors": [
+        "Firms"
+      ],
+      "outcome": "Lower joint production costs",
+      "implementation": "Related product lines and shared inputs."
     },
     {
       "problem": 211,
@@ -6012,7 +6239,13 @@
       ],
       "functions": [
         "Increases the stock of usable technical and organizational knowledge."
-      ]
+      ],
+      "actors": [
+        "Researchers",
+        "Firms"
+      ],
+      "outcome": "Larger usable knowledge stock",
+      "implementation": "R&D, documentation and training."
     },
     {
       "problem": 223,
@@ -6025,7 +6258,13 @@
       ],
       "functions": [
         "Improves capabilities through repeated production."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Workers"
+      ],
+      "outcome": "Capability improves with repetition",
+      "implementation": "Production volume, feedback and deliberate practice."
     },
     {
       "problem": 230,
@@ -6038,7 +6277,14 @@
       ],
       "functions": [
         "Transfers knowledge between firms, workers and institutions."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Universities",
+        "Workers"
+      ],
+      "outcome": "Knowledge transferred across organizations",
+      "implementation": "Proximity, mobility and collaboration."
     },
     {
       "problem": 237,
@@ -6051,7 +6297,13 @@
       ],
       "functions": [
         "Replaces obsolete products, technologies and organizations."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Investors"
+      ],
+      "outcome": "Obsolete capacity replaced",
+      "implementation": "Entry, exit and insolvency institutions."
     },
     {
       "problem": 206,
@@ -6064,7 +6316,13 @@
       ],
       "functions": [
         "Increases productivity through geographical concentration and interaction."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Cities"
+      ],
+      "outcome": "Higher productivity from proximity",
+      "implementation": "Urban planning, transport and cluster services."
     },
     {
       "problem": 215,
@@ -6077,7 +6335,13 @@
       ],
       "functions": [
         "Creates new productive capabilities that support competitive specialization."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Policy makers"
+      ],
+      "outcome": "New competitive specializations",
+      "implementation": "Capability building, investment and export support."
     },
     {
       "problem": 220,
@@ -6090,7 +6354,14 @@
       ],
       "functions": [
         "Distributes economic risks across markets, sectors and institutions."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Insurers",
+        "Investors"
+      ],
+      "outcome": "Risks spread across markets",
+      "implementation": "Insurance, hedging and diversified portfolios."
     },
     {
       "problem": 214,
@@ -6103,7 +6374,13 @@
       ],
       "functions": [
         "Allocates resources toward more productive economic activities."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Regulators"
+      ],
+      "outcome": "Resources shift to more productive uses",
+      "implementation": "Competition, exit and capital reallocation."
     },
     {
       "problem": 219,
@@ -6116,7 +6393,13 @@
       ],
       "functions": [
         "Moves innovations from leading firms into the wider economy."
-      ]
+      ],
+      "actors": [
+        "Firms",
+        "Innovation intermediaries"
+      ],
+      "outcome": "Innovations adopted widely",
+      "implementation": "Demonstration, standards and extension."
     }
   ]
 }

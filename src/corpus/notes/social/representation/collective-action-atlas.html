@@ -229,6 +229,7 @@
         .cell { cursor:pointer; border-radius:var(--radius-sm); }
         .cell:hover { background:var(--bg-surface); }
         .hidden { display:none !important; }
+    .subtitle-note { font-size:0.8rem; color:var(--text-muted); margin-top:0.7rem; line-height:1.55; }
     h1.note-title em{font-style:italic;color:var(--accent-gold)}
     </style>
 </head>
@@ -257,6 +258,7 @@
     </nav>
 <h1 class="note-title">Atlas of Collective Action<em>.</em></h1>
 <p class="subtitle">A map of how a collective connects <strong>problems</strong> to the <strong>instruments</strong> that answer them. Each domain is a facet of social reality — production, infrastructure, human capital, finance, money, law, labor, markets, governance and research — and each instrument carries the functions it serves, the conditions it needs, and the cases where it has been used. The domains and their systemic problems are documented in the <a href="/view.html?p=notes/social/collective/governance/action/problem/readme.md">Problem</a> shelf.</p>
+<p class="subtitle subtitle-note"><strong>Problem → Instrument (Mechanism) → Actors Involved → Expected Outcome → Implementation.</strong> Each link reads left to right: the problem is the binding constraint, the instrument is the tool that acts on it, its mechanism is how it works, the actors are who delivers and who is affected, the expected outcome is what should change, and the implementation note is what the instrument needs to work.</p>
 </div>
 <div class="layout">
 
@@ -647,9 +649,12 @@
             var tr = document.createElement("tr");
             var fn = (x.r.functions && x.r.functions.length) ? '<span class="sub">' + x.r.functions.map(esc).join(" · ") + "</span>" : "";
             var cond = (x.r.conditions && x.r.conditions.length) ? '<span class="sub">' + x.r.conditions.map(esc).join(" · ") + "</span>" : "";
+            var actors = (x.r.actors && x.r.actors.length) ? '<span class="sub">Actors: ' + x.r.actors.map(esc).join(" · ") + "</span>" : "";
+            var out = x.r.outcome ? '<span class="sub">Expected outcome: ' + esc(x.r.outcome) + "</span>" : "";
+            var impl = x.r.implementation ? '<span class="sub">Implementation: ' + esc(x.r.implementation) + "</span>" : "";
             tr.innerHTML = '<td class="name">' + esc(x.v.name) +
                 '<span class="sub">' + esc(x.v.statement || "") + "</span></td>" +
-                "<td>" + esc(x.r.name) + '<span class="sub">' + esc(x.r.role) + " · " + x.r.strength + "/5</span>" + fn + cond + "</td>" +
+                "<td>" + esc(x.r.name) + '<span class="sub">' + esc(x.r.role) + " · " + x.r.strength + "/5</span>" + fn + cond + actors + out + impl + "</td>" +
                 '<td class="name">' + esc(x.ins ? x.ins.name : "") +
                 '<span class="sub">' + esc(x.ins ? x.ins.description : "") + "</span></td>";
             tr.style.cursor = "pointer";
@@ -706,6 +711,9 @@
         var html = "<div class=\"specsection\"><div class=\"label\">Relationship</div><div class=\"relsection\">" + inner + "<div class=\"relmeta\">" + tags + "</div>";
         if (r.functions && r.functions.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Functions</div>" + listHTML(r.functions);
         if (r.conditions && r.conditions.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Conditions</div>" + listHTML(r.conditions);
+        if (r.actors && r.actors.length) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Actors involved</div>" + listHTML(r.actors);
+        if (r.outcome) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Expected outcome</div><p class=\"specpara\">" + esc(r.outcome) + "</p>";
+        if (r.implementation) html += "<div class=\"label\" style=\"margin-top:0.6rem\">Implementation</div><p class=\"specpara\">" + esc(r.implementation) + "</p>";
         return html + "</div></div>";
     }
     function noteIHTML(ins, v, r) {
