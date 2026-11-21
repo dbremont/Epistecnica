@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 9
+    "version": 10
   },
   "problems": [
     {
@@ -5742,6 +5742,356 @@
       "mechanism": "Incubation, capital, talent and markets are aligned around startup formation.",
       "hue": "#4E7A8C",
       "icon": "🌱",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 251,
+      "name": "Applied Research Institute",
+      "description": "Conducts applied research for firms and public missions.",
+      "mechanism": "Institutes run contract research and shared laboratories that firms cannot build alone.",
+      "hue": "#4E7A8C",
+      "icon": "🔬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 252,
+      "name": "Research and Technology Organization",
+      "description": "A not-for-profit applied research body serving industry.",
+      "mechanism": "It bridges research and market with shared facilities, standards and engineers.",
+      "hue": "#4E7A8C",
+      "icon": "🧪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 253,
+      "name": "National Innovation Agency",
+      "description": "The state body that funds and steers innovation.",
+      "mechanism": "It runs grants, tax incentives, incubators and collaboration programmes under one mandate.",
+      "hue": "#4E7A8C",
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 254,
+      "name": "SME Development Agency",
+      "description": "A dedicated agency for small and medium enterprise upgrading.",
+      "mechanism": "It bundles finance, advisory, training and market access for SMEs.",
+      "hue": "#4E7A8C",
+      "icon": "🏢",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 255,
+      "name": "Technology Commercialization Agency",
+      "description": "Helps research results reach the market.",
+      "mechanism": "It funds commercialization, brokers licensing and supports spin-offs.",
+      "hue": "#4E7A8C",
+      "icon": "🚀",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 256,
+      "name": "Advanced Research Projects Agency",
+      "description": "A mission agency funding high-risk, high-payoff technology.",
+      "mechanism": "Program managers run stage-gated projects with aggressive timelines and technical authority.",
+      "hue": "#4E7A8C",
+      "icon": "🎯",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 257,
+      "name": "Disruptive Innovation Agency",
+      "description": "Fast, flexible funding for breakthrough commercialization.",
+      "mechanism": "It uses rapid calls and milestones and tolerates failure to back radical ideas.",
+      "hue": "#4E7A8C",
+      "icon": "⚡",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 258,
+      "name": "Corporate Research Laboratory",
+      "description": "A company's central research lab for long-horizon work.",
+      "mechanism": "It explores beyond products, publishing, patenting and spinning out ventures.",
+      "hue": "#4E7A8C",
+      "icon": "🧫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 259,
+      "name": "National Technology Mission",
+      "description": "A coordinated national programme for one technology goal.",
+      "mechanism": "It pools funding, laboratories and firms behind a measurable mission.",
+      "hue": "#4E7A8C",
+      "icon": "🛰️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 260,
+      "name": "Research Data Repository",
+      "description": "A public repository for research data and metadata.",
+      "mechanism": "It mandates deposit and standardizes metadata so results are reusable.",
+      "hue": "#4E7A8C",
+      "icon": "🗄️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 261,
+      "name": "Agricultural Innovation Program",
+      "description": "Public funding for agri-food innovation.",
+      "mechanism": "Grants and pilots support farm technology, processing and value chains.",
+      "hue": "#6B8CAA",
+      "icon": "🌾",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 262,
+      "name": "Farm Science Centre",
+      "description": "A local centre transferring farm technology to producers.",
+      "mechanism": "It demonstrates practices, trains farmers and links them to research.",
+      "hue": "#6B8CAA",
+      "icon": "🚜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 263,
+      "name": "Digital Innovation Centre",
+      "description": "A centre for digital technology adoption.",
+      "mechanism": "It runs demonstrators, training and pilots for firms adopting digital production.",
+      "hue": "#6B8CAA",
+      "icon": "💻",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 264,
+      "name": "Technology Transfer Brokerage",
+      "description": "Matches research supply with firm demand.",
+      "mechanism": "Brokers scan patents, run matchmaking and negotiate licences.",
+      "hue": "#6B8CAA",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 265,
+      "name": "Small Business Innovation Research Program",
+      "description": "A competitive award funding SME research for public needs.",
+      "mechanism": "Agencies set aside research funds; firms propose and keep the intellectual property.",
+      "hue": "#6B8CAA",
+      "icon": "📜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 266,
+      "name": "National Productivity Organization",
+      "description": "A national body driving productivity practice.",
+      "mechanism": "It delivers diagnostics, training, standards and benchmarking to firms.",
+      "hue": "#6B8CAA",
+      "icon": "📊",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 267,
+      "name": "Trade and Investment Promotion Agency",
+      "description": "Markets the country and supports its traders abroad.",
+      "mechanism": "It runs overseas offices, missions, fairs and business matching.",
+      "hue": "#6B8CAA",
+      "icon": "🌐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 268,
+      "name": "High-Risk Research Program",
+      "description": "Funding for early ideas with transformative potential.",
+      "mechanism": "Peer review selects high-risk proposals with staged support and tolerance for failure.",
+      "hue": "#B8860B",
+      "icon": "🎲",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 269,
+      "name": "Innovation Fund",
+      "description": "A large flexible fund for innovation projects.",
+      "mechanism": "It disburses by milestones, allows stacking and adapts to financing needs.",
+      "hue": "#B8860B",
+      "icon": "💰",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 270,
+      "name": "Stage-Gate Funding",
+      "description": "Funding released in stages against technical gates.",
+      "mechanism": "Each phase is reviewed; funding continues only when milestones are met.",
+      "hue": "#B8860B",
+      "icon": "🚪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 271,
+      "name": "Mission-Oriented Grant",
+      "description": "A grant tied to a defined mission outcome.",
+      "mechanism": "Funding is awarded against measurable mission targets rather than inputs.",
+      "hue": "#B8860B",
+      "icon": "🎯",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 272,
+      "name": "Pre-Commercial Procurement",
+      "description": "Public buyers purchase pre-market solutions.",
+      "mechanism": "Procurement funds development of solutions that do not yet exist commercially.",
+      "hue": "#B8860B",
+      "icon": "🛒",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 273,
+      "name": "Lead Customer Program",
+      "description": "A public or corporate lead customer de-risks innovation.",
+      "mechanism": "The buyer commits to early purchases, giving innovators a first market.",
+      "hue": "#7BA388",
+      "icon": "🛍️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 274,
+      "name": "IP Brokerage Platform",
+      "description": "A platform trading and licensing intellectual property.",
+      "mechanism": "It lists rights, matches parties and standardizes terms.",
+      "hue": "#7BA388",
+      "icon": "⚖️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 275,
+      "name": "Joint Development Agreement",
+      "description": "Firms and research bodies co-develop a technology.",
+      "mechanism": "Costs, intellectual property and milestones are shared under contract.",
+      "hue": "#7BA388",
+      "icon": "📄",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 276,
+      "name": "Precompetitive Research Consortium",
+      "description": "Rivals jointly fund research below the market.",
+      "mechanism": "Members share precompetitive results and standards.",
+      "hue": "#7BA388",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 277,
+      "name": "State Holding Company",
+      "description": "A state-owned company holding strategic assets.",
+      "mechanism": "It manages portfolios, reinvests returns and executes state shareholdings.",
+      "hue": "#6E6A8A",
+      "icon": "🏦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 278,
+      "name": "State-Owned Enterprise Reform Program",
+      "description": "Reforms state enterprises for performance.",
+      "mechanism": "It professionalizes boards, sets targets and restructures loss-makers.",
+      "hue": "#6E6A8A",
+      "icon": "🔧",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 279,
+      "name": "National Development Plan",
+      "description": "A multi-year plan aligning budgets and reforms.",
+      "mechanism": "It sets priorities, assigns agencies and tracks public investment.",
+      "hue": "#6E6A8A",
+      "icon": "🗺️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 280,
+      "name": "Defence Offset Program",
+      "description": "Defence purchases conditioned on industrial return.",
+      "mechanism": "Contracts require local content, technology transfer or countertrade.",
+      "hue": "#6E6A8A",
+      "icon": "🛡️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 281,
+      "name": "Local Assembly Program",
+      "description": "Requires local assembly of imported technology.",
+      "mechanism": "Licenses and tariffs reward firms that assemble and source locally.",
+      "hue": "#6E6A8A",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 282,
+      "name": "Model Factory",
+      "description": "A state factory demonstrating modern production.",
+      "mechanism": "It trains workers and diffuses methods through imitation and transfer.",
+      "hue": "#8A6E4B",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 283,
+      "name": "Chartered Trading Company",
+      "description": "A state-chartered company with trade privileges.",
+      "mechanism": "The charter grants monopoly or concession rights to build trade capacity.",
+      "hue": "#8A6E4B",
+      "icon": "⛵",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 284,
+      "name": "High-Throughput Experimentation Facility",
+      "description": "A facility running many experiments in parallel.",
+      "mechanism": "Automation screens materials and processes far faster than laboratory work.",
+      "hue": "#8A6E4B",
+      "icon": "⚗️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 285,
+      "name": "Regional Development Agency",
+      "description": "A body coordinating development in a region.",
+      "mechanism": "It assembles projects, funds infrastructure and aligns local actors.",
+      "hue": "#8A6E4B",
+      "icon": "🗺️",
       "caseStudies": [],
       "references": []
     }
