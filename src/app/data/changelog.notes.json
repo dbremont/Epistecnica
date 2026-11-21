@@ -94371,6 +94371,11 @@
     "summary": "Reference the essay on firm minimum viable size.",
     "commit": "de28950543268ab9316c16302aa9f51e882cad2d",
     "before": "87c225bcfb358db9d2dc3036f6b519637471027d"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Link the new Instrument note from the branch master."
    }
   ]
  },
@@ -151207,6 +151212,16 @@
     "kind": "create",
     "summary": "Add the person note.",
     "commit": "bf0e690a7a759b2922991c8cd858439964a1dba0"
+   }
+  ]
+ },
+ {
+  "file_path": "social/dynamic/action/instrument.md",
+  "logs": [
+   {
+    "date": "2026-11-21",
+    "kind": "create",
+    "summary": "Add the Instrument action-element note."
    }
   ]
  }
