@@ -82121,7 +82121,8 @@
    {
     "date": "2026-11-20",
     "kind": "feat",
-    "summary": "Rewrite as the note on the art of problematization: why posing the problem is hard, and the prompt set that tests it."
+    "summary": "Rewrite as the note on the art of problematization: why posing the problem is hard, and the prompt set that tests it.",
+    "commit": "325c79476bf4b1d71aa60b72c0ff0400faa562ee"
    }
   ]
  },
@@ -82678,7 +82679,9 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Become the shelf readme: the Problem hub carries the element, the policy problem and the domains."
+    "summary": "Become the shelf readme: the Problem hub carries the element, the policy problem and the domains.",
+    "commit": "325c79476bf4b1d71aa60b72c0ff0400faa562ee",
+    "before": "23ae2e98bca40a6abbbea052fce98fbda9a9c2e3"
    }
   ]
  },
