@@ -38994,6 +38994,11 @@
     "summary": "Retarget links to the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
     "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the productive policy links to the flattened instrument path."
    }
   ]
  },

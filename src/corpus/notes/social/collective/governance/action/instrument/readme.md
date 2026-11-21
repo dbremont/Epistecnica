@@ -1,0 +1,17 @@
+---
+tags: [note, social]
+---
+
+# Policy Type
+
+> Type-level policy courses: kinds of policy distinguished by means and posture.
+> For policy instances (deployed country and sector courses), see
+> [Policy Instances](/view.html?p=notes/social/collective/governance/action/informe/case-study.md). For the type itself, see
+> [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md).
+
+- [Productive Policy](/view.html?p=notes/social/collective/governance/action/instrument/productive-policy.md)
+- [Protectionism](/view.html?p=notes/social/collective/governance/action/instrument/protectionism.md)
+- [Tarrifs](/view.html?p=notes/social/collective/governance/action/instrument/tarrif.md)
+- [Upgrading](/view.html?p=notes/social/collective/governance/action/instrument/upgrading.md)
+- [Finance](/view.html?p=notes/social/collective/governance/action/instrument/finance.md)
+

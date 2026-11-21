@@ -74310,6 +74310,11 @@
     "summary": "Retarget links to the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
     "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Protectionism link to the flattened instrument path."
    }
   ]
  },
@@ -77792,6 +77797,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Productive Policy link to the flattened instrument path."
    }
   ]
  },
@@ -78371,6 +78381,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Productive Policy link to the flattened instrument path."
    }
   ]
  },
@@ -79431,12 +79446,24 @@
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/action-instrument.md",
+  "file_path": "social/collective/governance/action/instrument/readme.md",
   "logs": [
    {
     "date": "2026-11-19",
     "kind": "move",
     "summary": "Move from social/dynamic/action/public/instrumentation/action-instrumentation.md as part of renaming instrumentation to instrument.",
+    "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/public/instrumentation/instrumentorum-readme.md as part of renaming instrumentation to instrument.",
+    "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "feat",
+    "summary": "Add the policy-type index under the instrument section, with links to the moved policy notes.",
     "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
    },
    {
@@ -79456,6 +79483,68 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
+    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the live Instrument Representation view.",
+    "commit": "6b1d149a0e3f518b004eb03b6ec0fb173c6a9e3c",
+    "before": "c02b28cf3c339d4a5791b9d299f976396e27483b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the case-study method link to the informe root.",
+    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
+    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
+    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "refactor",
+    "summary": "Consolidate the action-instrument, Locus Instrumentorum and policy-type masters into one shelf readme; retarget links to it."
    }
   ]
  },
@@ -79572,6 +79661,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "delete",
+    "summary": "Remove the Documentation stub note."
    }
   ]
  },
@@ -79844,7 +79938,7 @@
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/foundation/instrumentorum.md",
+  "file_path": "social/meta/research.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -79869,6 +79963,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Move the social-theory foundation note from the instrument shelf to social/meta/ and lowercase the filename."
    }
   ]
  },
@@ -79989,42 +80088,6 @@
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/instrumentorum-readme.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/public/instrumentation/instrumentorum-readme.md as part of renaming instrumentation to instrument.",
-    "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
-    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Add the live Instrument Representation view.",
-    "commit": "6b1d149a0e3f518b004eb03b6ec0fb173c6a9e3c",
-    "before": "c02b28cf3c339d4a5791b9d299f976396e27483b"
-   }
-  ]
- },
- {
   "file_path": "social/collective/governance/action/instrument/market/market-design.md",
   "logs": [
    {
@@ -80054,7 +80117,7 @@
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/policy/finance.md",
+  "file_path": "social/collective/governance/action/instrument/finance.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -80079,11 +80142,16 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
    }
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/policy/productive-policy.md",
+  "file_path": "social/collective/governance/action/instrument/productive-policy.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -80119,11 +80187,16 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
    }
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/policy/protectionism.md",
+  "file_path": "social/collective/governance/action/instrument/protectionism.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -80148,54 +80221,16 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
    }
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/policy/readme.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "feat",
-    "summary": "Add the policy-type index under the instrument section, with links to the moved policy notes.",
-    "commit": "17006429196e46b2916ac73cfe2e88a3e808f862"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the case-study method link to the informe root.",
-    "commit": "19c4939bdc907cde51bc270e2a38439a2e69a267",
-    "before": "3e37e0b3a527e90a0f986b23f97a0aaf1e79f0bc"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
-    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/governance/action/instrument/policy/tarrif.md",
+  "file_path": "social/collective/governance/action/instrument/tarrif.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -80220,11 +80255,16 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
    }
   ]
  },
  {
-  "file_path": "social/collective/governance/action/instrument/policy/upgrading.md",
+  "file_path": "social/collective/governance/action/instrument/upgrading.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -80249,6 +80289,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "move",
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
    }
   ]
  },
@@ -80394,6 +80439,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Rewrite as the Firm Education Center note: definition, problems, evaluation, cases and operational stages."
    }
   ]
  },
@@ -80621,6 +80671,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme."
    }
   ]
  },
@@ -83581,6 +83636,11 @@
     "summary": "Retarget the Collective Action Problem link to the problem shelf.",
     "commit": "c6eaa43fa0821f0a3b6fa5bed4663ce9d5054cec",
     "before": "ae7227c57de9487832cb8c3d28386255d1ab67db"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme."
    }
   ]
  },
@@ -84331,6 +84391,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Productive Policy link to the flattened instrument path."
    }
   ]
  },
@@ -94476,6 +94541,11 @@
     "summary": "Retarget links to the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
     "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Instrumentalization link to the consolidated shelf readme."
    }
   ]
  },
@@ -151225,6 +151295,11 @@
     "kind": "create",
     "summary": "Add the Instrument action-element note.",
     "commit": "b624aa4e36fe116cb070630d43cbe18911708697"
+   },
+   {
+    "date": "2026-11-21",
+    "kind": "edit",
+    "summary": "Retarget the Action Instrument and Locus Instrumentorum references to the consolidated shelf readme."
    }
   ]
  }

@@ -189,7 +189,7 @@ Its facet is not fixed: a case is political when the goal is a public good or a 
 - [An Essay on Firm Minimum Viable Size](/view.html?p=notes/miscellanea/unclassified/an-essay-on-firm-minimum-viable-size.md) — the threshold account of firm size
 
 - A Defense of Industrial Policy
-- [Locus Instrumentorum](/view.html?p=notes/social/collective/governance/action/instrument/instrumentorum-readme.md)
+- [Locus Instrumentorum](/view.html?p=notes/social/collective/governance/action/instrument/readme.md)
 - The Agentâ€“Social-Reality Hard Coupling Problem
 - An Essay on Self Organization in Social Systems
 - State

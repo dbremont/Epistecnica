@@ -87,5 +87,5 @@ tags: [note, social, actor, social-element, person, economist, free-trade, liber
 - [Pierre-Joseph Proudhon](/view.html?p=notes/social/actor/private/persona/pierre-joseph-proudhon.md) (his adversary in the 1849–50 debate on interest)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) (the normative form *The Law* interrogates)
 - [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) (the tariff and subsidy he argued against)
-- [Protectionism](/view.html?p=notes/social/collective/governance/action/instrument/policy/protectionism.md) (the doctrine his sophisms were aimed at)
+- [Protectionism](/view.html?p=notes/social/collective/governance/action/instrument/protectionism.md) (the doctrine his sophisms were aimed at)
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)

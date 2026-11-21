@@ -159,7 +159,7 @@ A defense industry passes when it forces competence (P1), anchors a cluster (P2)
 - [Spin-offs](/view.html?p=notes/social/dynamic/research/interactions/spin-offs.md) — the transmission mechanism between research and production
 - [Firm Clustering](/view.html?p=notes/epistemica/singular/industry/method/firm-clustering.md) — the empirical reading of cluster formation
 - [Economic Complexity](/view.html?p=notes/epistemica/complexity/economic-complexity.md) — capability accumulation and the product space
-- [Productive Policy](/view.html?p=notes/social/collective/governance/action/instrument/policy/productive-policy.md) — the policy frame the test belongs to
+- [Productive Policy](/view.html?p=notes/social/collective/governance/action/instrument/productive-policy.md) — the policy frame the test belongs to
 - [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md) — the institutional layer between the laboratory and the firm
 - [Patents](/view.html?p=notes/epistemica/observation/dataset/patent.md) — the evidence base for measuring technical output
 - [Programa Gripen Brasileiro](/view.html?p=notes/social/collective/governance/action/instance/programa-gripen-brasileiro.md) — the worked case: offsets as industrial policy

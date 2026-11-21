@@ -48,6 +48,6 @@ serves), from `Program` / `Project` (the organization that deploys it), and from
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
-- [Action Instrument](/view.html?p=notes/social/collective/governance/action/instrument/action-instrument.md) (the collective-governance reading)
-- [Locus Instrumentorum](/view.html?p=notes/social/collective/governance/action/instrument/instrumentorum-readme.md) (the instrument shelf)
+- [Action Instrument](/view.html?p=notes/social/collective/governance/action/instrument/readme.md) (the collective-governance reading)
+- [Locus Instrumentorum](/view.html?p=notes/social/collective/governance/action/instrument/readme.md) (the instrument shelf)
 - [Rule](/view.html?p=notes/social/dynamic/action/guidance/rule.md) and [Program](/view.html?p=notes/social/dynamic/action/organization/program.md) (the guidance and organization branches)
