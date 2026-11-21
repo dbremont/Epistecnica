@@ -1,7 +1,7 @@
 {
   "meta": {
-    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root problem domains, with the production structure split into its concrete problems, each directly mappable to policy instruments.",
-    "version": 5
+    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
+    "version": 6
   },
   "problems": [
     {
@@ -622,7 +622,7 @@
     },
     {
       "id": 28,
-      "parent": 6,
+      "parent": 100,
       "name": "Unreliable Power Supply",
       "statement": "Firms face power outages and high energy costs.",
       "description": "Unreliable power disrupts production and raises costs.",
@@ -642,7 +642,7 @@
     },
     {
       "id": 29,
-      "parent": 6,
+      "parent": 103,
       "name": "High Logistics Costs",
       "statement": "Poor transport and logistics raise export and input costs.",
       "description": "High logistics costs reduce competitiveness and discourage investment.",
@@ -1268,6 +1268,1690 @@
           "url": "/view.html?p=notes/social/collective/governance/action/problem/production/technology.md"
         }
       ]
+    },
+    {
+      "id": 56,
+      "parent": null,
+      "name": "Environmental System Domain",
+      "statement": "Environmental degradation and resource inefficiency constrain long-term production, and climate shocks repeatedly destroy productive assets.",
+      "description": "The environmental system is the ecological frame of production: resource efficiency, pollution, natural-resource governance and climate resilience.",
+      "goals": [
+        "Raise resource efficiency",
+        "Protect productive assets from climate shocks",
+        "Govern natural resources for long-term wealth"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Environmental System",
+      "targetGroup": "National Economy, Firms, Communities",
+      "references": []
+    },
+    {
+      "id": 57,
+      "parent": null,
+      "name": "Fiscal Domain",
+      "statement": "The state cannot mobilize, allocate and manage public resources well enough to finance development or stabilize the economy.",
+      "description": "The fiscal system is how the state raises revenue, allocates the budget and manages its balance sheet over the cycle.",
+      "goals": [
+        "Raise tax mobilization",
+        "Allocate public resources to productive uses",
+        "Keep the fiscal position stable across the cycle"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Fiscal System",
+      "targetGroup": "Government, Taxpayers, Investors",
+      "references": []
+    },
+    {
+      "id": 100,
+      "parent": 6,
+      "name": "Energy System",
+      "statement": "Energy is expensive, unreliable or insufficient for production.",
+      "description": "Energy is expensive, unreliable or insufficient for production.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Energy System",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 200,
+      "parent": 100,
+      "name": "Unreliable Power Supply",
+      "statement": "Firms face frequent outages and voltage problems.",
+      "description": "Unreliable supply forces firms to self-generate at high cost.",
+      "goals": [
+        "Stabilize supply"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Energy System",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 201,
+      "parent": 100,
+      "name": "High Energy Costs",
+      "statement": "Energy prices are above competitors’.",
+      "description": "High energy costs erode the competitiveness of energy-intensive production.",
+      "goals": [
+        "Lower the cost of energy"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Energy System",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 101,
+      "parent": 6,
+      "name": "Water Resources",
+      "statement": "Water availability and management constrain production.",
+      "description": "Water availability and management constrain production.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Water Resources",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 202,
+      "parent": 101,
+      "name": "Inadequate Water Supply",
+      "statement": "Firms and farms lack reliable water.",
+      "description": "Water shortages constrain production and processing.",
+      "goals": [
+        "Secure water supply"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Water Resources",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 102,
+      "parent": 6,
+      "name": "Telecommunications",
+      "statement": "Digital connectivity is insufficient or expensive.",
+      "description": "Digital connectivity is insufficient or expensive.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Telecommunications",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 203,
+      "parent": 102,
+      "name": "Expensive Broadband Connectivity",
+      "statement": "Connectivity is slow and costly.",
+      "description": "Poor connectivity raises transaction costs and limits digital services.",
+      "goals": [
+        "Lower connectivity costs"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Telecommunications",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 103,
+      "parent": 6,
+      "name": "National Logistics",
+      "statement": "Ports, customs, warehouses, roads and freight systems are inefficient.",
+      "description": "Ports, customs, warehouses, roads and freight systems are inefficient.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "National Logistics",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 204,
+      "parent": 103,
+      "name": "High Logistics Costs",
+      "statement": "Logistics costs absorb a large share of output.",
+      "description": "Poor logistics raises the cost of exports and inputs.",
+      "goals": [
+        "Reduce logistics costs"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "National Logistics",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 205,
+      "parent": 103,
+      "name": "Customs and Border Delays",
+      "statement": "Goods wait too long at the border.",
+      "description": "Border delays raise lead times and uncertainty.",
+      "goals": [
+        "Speed up border clearance"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "National Logistics",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 104,
+      "parent": 6,
+      "name": "Urban Productivity",
+      "statement": "Cities fail to generate sufficient agglomeration benefits.",
+      "description": "Cities fail to generate sufficient agglomeration benefits.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Urban Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 206,
+      "parent": 104,
+      "name": "Weak Urban Agglomeration Economies",
+      "statement": "Firms and workers gain too little from proximity.",
+      "description": "Poor urban organization raises interaction costs and limits density.",
+      "goals": [
+        "Increase agglomeration benefits"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Urban Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 105,
+      "parent": 6,
+      "name": "Technological Infrastructure",
+      "statement": "Advanced research and production depend on insufficiently developed scientific infrastructure.",
+      "description": "Advanced research and production depend on insufficiently developed scientific infrastructure.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Technological Infrastructure",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 207,
+      "parent": 105,
+      "name": "Insufficient Research Facilities",
+      "statement": "Labs and advanced equipment are lacking.",
+      "description": "Without facilities, researchers cannot conduct frontier work.",
+      "goals": [
+        "Build research infrastructure"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technological Infrastructure",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 106,
+      "parent": 7,
+      "name": "Agricultural Productivity",
+      "statement": "Agriculture operates with low yields and limited technological adoption.",
+      "description": "Agriculture operates with low yields and limited technological adoption.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Agricultural Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 208,
+      "parent": 106,
+      "name": "Low Agricultural Yields",
+      "statement": "Yields are below the achievable frontier.",
+      "description": "Low yields keep rural incomes and surplus low.",
+      "goals": [
+        "Raise yields"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Agricultural Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 107,
+      "parent": 7,
+      "name": "Agroindustrial Development",
+      "statement": "Agricultural production is poorly connected to processing and downstream industries.",
+      "description": "Agricultural production is poorly connected to processing and downstream industries.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Agroindustrial Development",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 209,
+      "parent": 107,
+      "name": "Weak Agro-Processing Linkages",
+      "statement": "Farm output is not processed locally.",
+      "description": "Missing processing captures little value from agriculture.",
+      "goals": [
+        "Build processing linkages"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Agroindustrial Development",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 108,
+      "parent": 7,
+      "name": "Services Productivity",
+      "statement": "Large parts of the services economy operate with low productivity.",
+      "description": "Large parts of the services economy operate with low productivity.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Services Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 210,
+      "parent": 108,
+      "name": "Low Services Productivity",
+      "statement": "Services firms are small and low-productivity.",
+      "description": "Low services productivity raises costs across the economy.",
+      "goals": [
+        "Raise services productivity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Services Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 109,
+      "parent": 7,
+      "name": "Economic Complexity",
+      "statement": "The country produces a narrow range of goods and services with limited productive knowledge.",
+      "description": "The country produces a narrow range of goods and services with limited productive knowledge.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Economic Complexity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 211,
+      "parent": 109,
+      "name": "Narrow Productive Knowledge Base",
+      "statement": "Few capabilities are present in the economy.",
+      "description": "A narrow knowledge base limits diversification and growth.",
+      "goals": [
+        "Broaden productive knowledge"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Economic Complexity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 110,
+      "parent": 7,
+      "name": "Industrial Deepening",
+      "statement": "Domestic production lacks intermediate goods, machinery and specialized suppliers.",
+      "description": "Domestic production lacks intermediate goods, machinery and specialized suppliers.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Industrial Deepening",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 212,
+      "parent": 110,
+      "name": "Missing Intermediate Goods Production",
+      "statement": "Key inputs and components are imported.",
+      "description": "Missing intermediates limit domestic value added and resilience.",
+      "goals": [
+        "Build intermediate industries"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Industrial Deepening",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 111,
+      "parent": 7,
+      "name": "Firm Formation and Scaling",
+      "statement": "Too few firms emerge, survive, grow and reach viable scales.",
+      "description": "Too few firms emerge, survive, grow and reach viable scales.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Firm Scaling",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 213,
+      "parent": 111,
+      "name": "Few Firms Reach Viable Scale",
+      "statement": "Most firms stay below the minimum viable size.",
+      "description": "Sub-scale firms cannot invest or compete.",
+      "goals": [
+        "Scale viable firms"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Firm Scaling",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 112,
+      "parent": 7,
+      "name": "Productive Competition",
+      "statement": "Firms face insufficient competitive pressure to innovate.",
+      "description": "Firms face insufficient competitive pressure to innovate.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Productive Competition",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 214,
+      "parent": 112,
+      "name": "Weak Competitive Pressure",
+      "statement": "Incumbents face little rivalry.",
+      "description": "Weak competition slows innovation and productivity.",
+      "goals": [
+        "Increase competitive pressure"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Productive Competition",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 113,
+      "parent": 7,
+      "name": "Export Diversification",
+      "statement": "Exports are concentrated in a few products and destinations.",
+      "description": "Exports are concentrated in a few products and destinations.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Export Diversification",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 215,
+      "parent": 113,
+      "name": "Concentrated Export Basket",
+      "statement": "A few products dominate exports.",
+      "description": "Concentration exposes the economy to demand and price shocks.",
+      "goals": [
+        "Diversify exports"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Export Diversification",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 114,
+      "parent": 7,
+      "name": "Productivity Frontier",
+      "statement": "Productivity improvements become progressively harder to achieve.",
+      "description": "Productivity improvements become progressively harder to achieve.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Productivity Frontier",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 216,
+      "parent": 114,
+      "name": "Stagnant Frontier Productivity",
+      "statement": "Leading firms stop improving.",
+      "description": "A stagnant frontier slows the whole economy.",
+      "goals": [
+        "Push the frontier"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Productivity Frontier",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 115,
+      "parent": 7,
+      "name": "New Industry Formation",
+      "statement": "The economy struggles to create entirely new productive sectors.",
+      "description": "The economy struggles to create entirely new productive sectors.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "New Industry Formation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 217,
+      "parent": 115,
+      "name": "Failure to Create New Sectors",
+      "statement": "New industries do not emerge.",
+      "description": "Without new sectors, growth depends on existing activities.",
+      "goals": [
+        "Create new sectors"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "New Industry Formation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 116,
+      "parent": 7,
+      "name": "Intangible Capital",
+      "statement": "Firms underinvest in software, organizational knowledge, IP and design.",
+      "description": "Firms underinvest in software, organizational knowledge, IP and design.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Intangible Capital",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 218,
+      "parent": 116,
+      "name": "Underinvestment in Software and IP",
+      "statement": "Firms underinvest in intangibles.",
+      "description": "Weak intangible investment limits productivity and scalability.",
+      "goals": [
+        "Raise intangible investment"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Intangible Capital",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 117,
+      "parent": 7,
+      "name": "Productivity Diffusion",
+      "statement": "Frontier productivity remains concentrated in a few firms.",
+      "description": "Frontier productivity remains concentrated in a few firms.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Productivity Diffusion",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 219,
+      "parent": 117,
+      "name": "Frontier Productivity Concentrated in Few Firms",
+      "statement": "A small set of firms holds best practice.",
+      "description": "A wide productivity distribution lowers aggregate productivity.",
+      "goals": [
+        "Diffuse best practice"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Productivity Diffusion",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 118,
+      "parent": 7,
+      "name": "Economic Resilience",
+      "statement": "Economic specialization creates excessive exposure to external shocks.",
+      "description": "Economic specialization creates excessive exposure to external shocks.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Economic Resilience",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 220,
+      "parent": 118,
+      "name": "Excessive Exposure to External Shocks",
+      "statement": "The economy is over-specialized.",
+      "description": "A shock to the dominant activity propagates widely.",
+      "goals": [
+        "Diversify and adapt"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Economic Resilience",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 119,
+      "parent": 42,
+      "name": "Engineering Capability",
+      "statement": "Scientific knowledge cannot be translated into engineered products and systems.",
+      "description": "Scientific knowledge cannot be translated into engineered products and systems.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Engineering Capability",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 221,
+      "parent": 119,
+      "name": "Weak Design and Prototyping Capability",
+      "statement": "Firms cannot design and prototype products.",
+      "description": "Without engineering, research does not become production.",
+      "goals": [
+        "Build design and prototyping"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Engineering Capability",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 120,
+      "parent": 42,
+      "name": "Capital Equipment and Machinery",
+      "statement": "Domestic firms cannot manufacture, maintain or improve production equipment.",
+      "description": "Domestic firms cannot manufacture, maintain or improve production equipment.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Capital Equipment",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 222,
+      "parent": 120,
+      "name": "Dependence on Imported Machinery",
+      "statement": "Almost all equipment is imported.",
+      "description": "Import dependence limits learning and maintenance.",
+      "goals": [
+        "Build domestic equipment capability"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Capital Equipment",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 121,
+      "parent": 42,
+      "name": "Technological Innovation",
+      "statement": "Firms and research institutions produce insufficient technological innovations.",
+      "description": "Firms and research institutions produce insufficient technological innovations.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Technological Innovation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 223,
+      "parent": 121,
+      "name": "Low Industrial R&D",
+      "statement": "Firms invest little in R&D.",
+      "description": "Low R&D limits product and process innovation.",
+      "goals": [
+        "Raise industrial R&D"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technological Innovation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 122,
+      "parent": 42,
+      "name": "Technology Commercialization",
+      "statement": "Research results do not become commercially viable products.",
+      "description": "Research results do not become commercially viable products.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Technology Commercialization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 224,
+      "parent": 122,
+      "name": "Research Results Not Commercialized",
+      "statement": "Findings stay in the lab.",
+      "description": "Uncommercialized research produces no economic value.",
+      "goals": [
+        "Commercialize research"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technology Commercialization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 123,
+      "parent": 42,
+      "name": "Standards and Metrology",
+      "statement": "Domestic producers cannot consistently meet international technical requirements.",
+      "description": "Domestic producers cannot consistently meet international technical requirements.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Standards and Metrology",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 225,
+      "parent": 123,
+      "name": "Weak Metrology and Testing",
+      "statement": "Firms cannot measure and certify to international standards.",
+      "description": "Weak metrology blocks sophisticated exports.",
+      "goals": [
+        "Build metrology and testing"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Standards and Metrology",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 124,
+      "parent": 42,
+      "name": "Digital Production",
+      "statement": "Firms lack digital infrastructure and technological integration.",
+      "description": "Firms lack digital infrastructure and technological integration.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Digital Production",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 226,
+      "parent": 124,
+      "name": "Slow Adoption of Digital Production",
+      "statement": "Firms adopt digital tools slowly.",
+      "description": "Slow adoption leaves productivity gains uncaptured.",
+      "goals": [
+        "Accelerate digital adoption"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Digital Production",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 125,
+      "parent": 42,
+      "name": "Technological Independence",
+      "statement": "Critical technological capabilities are excessively dependent on foreign suppliers.",
+      "description": "Critical technological capabilities are excessively dependent on foreign suppliers.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Technological Independence",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 227,
+      "parent": 125,
+      "name": "Critical Technology Dependence",
+      "statement": "Critical technologies are imported.",
+      "description": "Dependence creates vulnerability and limits upgrading.",
+      "goals": [
+        "Build critical capabilities"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technological Independence",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 126,
+      "parent": 43,
+      "name": "Frontier Research",
+      "statement": "The country cannot consistently generate knowledge at the international scientific frontier.",
+      "description": "The country cannot consistently generate knowledge at the international scientific frontier.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Frontier Research",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 228,
+      "parent": 126,
+      "name": "Research Not at the International Frontier",
+      "statement": "Research output is below the frontier.",
+      "description": "Without frontier work, the country imports all new knowledge.",
+      "goals": [
+        "Reach the research frontier"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Frontier Research",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 127,
+      "parent": 43,
+      "name": "Scientific Frontier",
+      "statement": "Research institutions cannot consistently produce internationally competitive discoveries.",
+      "description": "Research institutions cannot consistently produce internationally competitive discoveries.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Scientific Frontier",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 229,
+      "parent": 127,
+      "name": "Few Internationally Competitive Discoveries",
+      "statement": "Discoveries are rare.",
+      "description": "A thin scientific frontier limits long-run innovation.",
+      "goals": [
+        "Produce frontier discoveries"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Scientific Frontier",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 128,
+      "parent": 43,
+      "name": "Innovation Ecosystem",
+      "statement": "Universities, firms, investors and research institutions interact insufficiently.",
+      "description": "Universities, firms, investors and research institutions interact insufficiently.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Innovation Ecosystem",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 230,
+      "parent": 128,
+      "name": "Weak University–Firm Interaction",
+      "statement": "Universities and firms rarely collaborate.",
+      "description": "Weak interaction blocks knowledge transfer.",
+      "goals": [
+        "Connect universities and firms"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Innovation Ecosystem",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 129,
+      "parent": 44,
+      "name": "Domestic Savings Mobilization",
+      "statement": "Domestic savings are insufficient or poorly intermediated.",
+      "description": "Domestic savings are insufficient or poorly intermediated.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Savings Mobilization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 231,
+      "parent": 129,
+      "name": "Low and Ill-Intermediated Savings",
+      "statement": "Savings are low or poorly channeled.",
+      "description": "Weak intermediation limits investment.",
+      "goals": [
+        "Mobilize savings"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Savings Mobilization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 130,
+      "parent": 44,
+      "name": "Capital Allocation",
+      "statement": "Capital does not consistently flow toward its most productive uses.",
+      "description": "Capital does not consistently flow toward its most productive uses.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Capital Allocation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 232,
+      "parent": 130,
+      "name": "Capital Not Flowing to Productive Uses",
+      "statement": "Capital finances low-productivity uses.",
+      "description": "Misallocation lowers aggregate productivity.",
+      "goals": [
+        "Allocate capital productively"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Capital Allocation",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 131,
+      "parent": 44,
+      "name": "Equity Financing",
+      "statement": "Firms cannot obtain sufficient risk-bearing capital.",
+      "description": "Firms cannot obtain sufficient risk-bearing capital.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Equity Financing",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 233,
+      "parent": 131,
+      "name": "Thin Risk Capital",
+      "statement": "Risk-bearing capital is scarce.",
+      "description": "Thin equity keeps firms undercapitalized.",
+      "goals": [
+        "Deepen equity finance"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Equity Financing",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 132,
+      "parent": 44,
+      "name": "Venture Formation Finance",
+      "statement": "Innovative companies cannot finance early-stage development.",
+      "description": "Innovative companies cannot finance early-stage development.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Venture Finance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 234,
+      "parent": 132,
+      "name": "No Early-Stage Finance",
+      "statement": "Early-stage ventures cannot raise funds.",
+      "description": "Without seed finance, new firms do not start.",
+      "goals": [
+        "Fund early-stage ventures"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Venture Finance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 133,
+      "parent": 44,
+      "name": "Infrastructure Finance",
+      "statement": "Long-lived infrastructure cannot obtain appropriate financing.",
+      "description": "Long-lived infrastructure cannot obtain appropriate financing.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Infrastructure Finance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 235,
+      "parent": 133,
+      "name": "No Long-Term Project Finance",
+      "statement": "Long-term projects lack finance.",
+      "description": "Without long-term finance, infrastructure lags.",
+      "goals": [
+        "Finance long-term projects"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Infrastructure Finance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 134,
+      "parent": 44,
+      "name": "Insurance and Risk Markets",
+      "statement": "Economic actors cannot adequately distribute commercial and productive risks.",
+      "description": "Economic actors cannot adequately distribute commercial and productive risks.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Insurance and Risk Markets",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 236,
+      "parent": 134,
+      "name": "Thin Insurance Markets",
+      "statement": "Risk markets are shallow.",
+      "description": "Uninsured risk deters investment.",
+      "goals": [
+        "Develop insurance markets"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Insurance and Risk Markets",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 135,
+      "parent": 44,
+      "name": "Insolvency and Capital Reallocation",
+      "statement": "Unproductive assets remain trapped in inefficient firms.",
+      "description": "Unproductive assets remain trapped in inefficient firms.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Insolvency",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 237,
+      "parent": 135,
+      "name": "Assets Trapped in Unviable Firms",
+      "statement": "Unviable firms keep resources.",
+      "description": "Trapped assets lower productivity.",
+      "goals": [
+        "Reallocate assets"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Insolvency",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 136,
+      "parent": 44,
+      "name": "Advanced Financial Markets",
+      "statement": "Financial markets cannot adequately finance complex technological and productive investments.",
+      "description": "Financial markets cannot adequately finance complex technological and productive investments.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Advanced Financial Markets",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 238,
+      "parent": 136,
+      "name": "Cannot Finance Complex Investments",
+      "statement": "Complex projects lack market finance.",
+      "description": "A shallow market limits frontier investment.",
+      "goals": [
+        "Deepen capital markets"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Advanced Financial Markets",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 137,
+      "parent": 47,
+      "name": "Foundational Education",
+      "statement": "Workers lack basic literacy, numeracy and cognitive capabilities.",
+      "description": "Workers lack basic literacy, numeracy and cognitive capabilities.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Foundational Education",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 239,
+      "parent": 137,
+      "name": "Weak Literacy and Numeracy",
+      "statement": "Basic skills are weak.",
+      "description": "Weak foundations limit all later training.",
+      "goals": [
+        "Strengthen basic skills"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Foundational Education",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 138,
+      "parent": 47,
+      "name": "Higher Education",
+      "statement": "Universities produce insufficient advanced professional capabilities.",
+      "description": "Universities produce insufficient advanced professional capabilities.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Higher Education",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 240,
+      "parent": 138,
+      "name": "Insufficient Advanced Graduates",
+      "statement": "Too few advanced graduates.",
+      "description": "A thin graduate base limits sophisticated production.",
+      "goals": [
+        "Expand higher education"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Higher Education",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 139,
+      "parent": 47,
+      "name": "Public Health",
+      "statement": "Poor population health reduces productive capacity.",
+      "description": "Poor population health reduces productive capacity.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Public Health",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 241,
+      "parent": 139,
+      "name": "Poor Population Health",
+      "statement": "Health outcomes are weak.",
+      "description": "Poor health lowers participation and productivity.",
+      "goals": [
+        "Improve population health"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Public Health",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 140,
+      "parent": 47,
+      "name": "Demographic Structure",
+      "statement": "Population aging, dependency or demographic pressures constrain development.",
+      "description": "Population aging, dependency or demographic pressures constrain development.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Demographics",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 242,
+      "parent": 140,
+      "name": "Aging and Dependency Pressure",
+      "statement": "The dependency ratio is rising.",
+      "description": "Aging strains fiscal and care systems.",
+      "goals": [
+        "Adapt to demographic change"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Demographics",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 141,
+      "parent": 47,
+      "name": "Talent Attraction and Retention",
+      "statement": "Skilled people leave or are not attracted to domestic opportunities.",
+      "description": "Skilled people leave or are not attracted to domestic opportunities.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Talent",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 243,
+      "parent": 141,
+      "name": "Brain Drain",
+      "statement": "Skilled people emigrate.",
+      "description": "Emigration strips the economy of capability.",
+      "goals": [
+        "Retain and attract talent"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Talent",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 142,
+      "parent": 47,
+      "name": "Management Capabilities",
+      "statement": "Organizations lack advanced management and organizational capabilities.",
+      "description": "Organizations lack advanced management and organizational capabilities.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Management",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 244,
+      "parent": 142,
+      "name": "Weak Management Capability",
+      "statement": "Firms are poorly managed.",
+      "description": "Weak management lowers productivity.",
+      "goals": [
+        "Raise management quality"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Management",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 143,
+      "parent": 47,
+      "name": "Labor Mobility",
+      "statement": "Workers cannot move efficiently between occupations, firms and regions.",
+      "description": "Workers cannot move efficiently between occupations, firms and regions.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Labor Mobility",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 245,
+      "parent": 143,
+      "name": "Workers Cannot Move or Retrain",
+      "statement": "Mobility is low.",
+      "description": "Low mobility traps workers in declining activities.",
+      "goals": [
+        "Enable mobility and retraining"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Labor Mobility",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 144,
+      "parent": 2,
+      "name": "International Trade Integration",
+      "statement": "Domestic producers cannot effectively access international markets.",
+      "description": "Domestic producers cannot effectively access international markets.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "International Trade",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 246,
+      "parent": 144,
+      "name": "Market Access Barriers",
+      "statement": "Exporters face tariffs and non-tariff barriers.",
+      "description": "Barriers limit scale and learning from exports.",
+      "goals": [
+        "Open market access"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "International Trade",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 145,
+      "parent": 2,
+      "name": "Global Value Chain Integration",
+      "statement": "Domestic firms occupy low-value positions in international production networks.",
+      "description": "Domestic firms occupy low-value positions in international production networks.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Global Value Chains",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 247,
+      "parent": 145,
+      "name": "Low-Value Position in Global Value Chains",
+      "statement": "Firms sit at the low-value steps.",
+      "description": "Low positions capture little value and learning.",
+      "goals": [
+        "Upgrade in value chains"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Global Value Chains",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 146,
+      "parent": 2,
+      "name": "Foreign Technology Acquisition",
+      "statement": "The country cannot effectively acquire and adapt foreign technologies.",
+      "description": "The country cannot effectively acquire and adapt foreign technologies.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Technology Acquisition",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 248,
+      "parent": 146,
+      "name": "Weak Foreign Technology Acquisition",
+      "statement": "Firms do not acquire technology effectively.",
+      "description": "Weak acquisition slows catch-up.",
+      "goals": [
+        "Acquire and adapt technology"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Technology Acquisition",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 147,
+      "parent": 2,
+      "name": "International Investment Position",
+      "statement": "The country attracts insufficient productive investment or accumulates external vulnerabilities.",
+      "description": "The country attracts insufficient productive investment or accumulates external vulnerabilities.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "International Investment",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 249,
+      "parent": 147,
+      "name": "Insufficient Productive FDI",
+      "statement": "Productive FDI is too low.",
+      "description": "Low FDI limits capital and technology transfer.",
+      "goals": [
+        "Attract productive FDI"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "International Investment",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 148,
+      "parent": 2,
+      "name": "Economic Diplomacy",
+      "statement": "International relationships are insufficiently mobilized for productive development.",
+      "description": "International relationships are insufficiently mobilized for productive development.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Economic Diplomacy",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 250,
+      "parent": 148,
+      "name": "Weak Commercial Diplomacy",
+      "statement": "Commercial diplomacy is thin.",
+      "description": "Weak diplomacy limits markets and agreements.",
+      "goals": [
+        "Mobilize economic diplomacy"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Economic Diplomacy",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 149,
+      "parent": 2,
+      "name": "Diaspora Economic Linkages",
+      "statement": "Overseas talent, capital and commercial networks remain disconnected.",
+      "description": "Overseas talent, capital and commercial networks remain disconnected.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Diaspora",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 251,
+      "parent": 149,
+      "name": "Disconnected Diaspora Networks",
+      "statement": "The diaspora is not linked to development.",
+      "description": "Disconnection loses capital and knowledge.",
+      "goals": [
+        "Connect the diaspora"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Diaspora",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 150,
+      "parent": 50,
+      "name": "Global Market Leadership",
+      "statement": "Domestic firms cannot become internationally dominant producers in specialized markets.",
+      "description": "Domestic firms cannot become internationally dominant producers in specialized markets.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Global Market Leadership",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 252,
+      "parent": 150,
+      "name": "No Global Market Leaders",
+      "statement": "No domestic firm leads a global niche.",
+      "description": "Without leaders, the economy stays a price-taker.",
+      "goals": [
+        "Build global leaders"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Global Market Leadership",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 151,
+      "parent": 56,
+      "name": "Environmental Productivity",
+      "statement": "Environmental degradation and resource inefficiency constrain long-term production.",
+      "description": "Environmental degradation and resource inefficiency constrain long-term production.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Environmental Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 253,
+      "parent": 151,
+      "name": "Resource Inefficiency and Pollution",
+      "statement": "Production uses resources inefficiently.",
+      "description": "Inefficiency raises costs and degrades the resource base.",
+      "goals": [
+        "Raise resource efficiency"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Environmental Productivity",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 152,
+      "parent": 56,
+      "name": "Climate Resilience",
+      "statement": "Climate shocks repeatedly destroy productive assets and output.",
+      "description": "Climate shocks repeatedly destroy productive assets and output.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Climate Resilience",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 254,
+      "parent": 152,
+      "name": "Repeated Climate Shocks",
+      "statement": "Climate events repeatedly damage assets.",
+      "description": "Repeated shocks depress investment and output.",
+      "goals": [
+        "Build climate resilience"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Climate Resilience",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 153,
+      "parent": 56,
+      "name": "Natural Resource Governance",
+      "statement": "Resource extraction generates insufficient domestic productive value.",
+      "description": "Resource extraction generates insufficient domestic productive value.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Natural Resource Governance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 255,
+      "parent": 153,
+      "name": "Resource Rents Not Reinvested",
+      "statement": "Rents are consumed, not invested.",
+      "description": "Consumed rents leave no productive legacy.",
+      "goals": [
+        "Reinvest resource rents"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Natural Resource Governance",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 154,
+      "parent": 57,
+      "name": "Fiscal Mobilization",
+      "statement": "The state cannot raise enough revenue to finance development.",
+      "description": "The state cannot raise enough revenue to finance development.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Fiscal Mobilization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 256,
+      "parent": 154,
+      "name": "Low Tax Mobilization",
+      "statement": "Tax revenue is low relative to the economy.",
+      "description": "Low revenue starves public investment.",
+      "goals": [
+        "Raise tax mobilization"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Fiscal Mobilization",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 155,
+      "parent": 57,
+      "name": "Fiscal Stability",
+      "statement": "Fiscal policy is pro-cyclical and the position is fragile.",
+      "description": "Fiscal policy is pro-cyclical and the position is fragile.",
+      "goals": [
+        "Diagnose the constraint",
+        "Develop the system"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Fiscal Stability",
+      "targetGroup": "National Economy, Firms",
+      "references": []
+    },
+    {
+      "id": 257,
+      "parent": 155,
+      "name": "Pro-cyclical and Fragile Fiscal Position",
+      "statement": "Fiscal policy amplifies cycles.",
+      "description": "Fragility forces cuts when investment is needed.",
+      "goals": [
+        "Stabilize the fiscal position"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Fiscal Stability",
+      "targetGroup": "National Economy, Firms",
+      "references": []
     }
   ],
   "instruments": [
@@ -1844,6 +3528,411 @@
           "label": "Ohno, K. (2013). Learning to industrialize: From given growth to policy-aided value creation (Chapter 3). Routledge."
         }
       ]
+    },
+    {
+      "id": 31,
+      "name": "Agricultural Extension System",
+      "description": "Transfers agronomic and technological knowledge to producers.",
+      "mechanism": "Transfers agronomic and technological knowledge to producers.",
+      "hue": "#556B2F",
+      "icon": "🌾",
+      "caseStudies": []
+    },
+    {
+      "id": 32,
+      "name": "Agricultural Research Institutes",
+      "description": "Develop improved crops, production techniques and agricultural technologies.",
+      "mechanism": "Develop improved crops, production techniques and agricultural technologies.",
+      "hue": "#6B8E23",
+      "icon": "🔬",
+      "caseStudies": []
+    },
+    {
+      "id": 33,
+      "name": "Industrial Research Institutes",
+      "description": "Conduct applied research and solve industrial technical problems.",
+      "mechanism": "Conduct applied research and solve industrial technical problems.",
+      "hue": "#2F4F4F",
+      "icon": "🔬",
+      "caseStudies": []
+    },
+    {
+      "id": 34,
+      "name": "National Metrology Institute",
+      "description": "Develops measurement standards and calibration capabilities.",
+      "mechanism": "Develops measurement standards and calibration capabilities.",
+      "hue": "#4682B4",
+      "icon": "📏",
+      "caseStudies": []
+    },
+    {
+      "id": 35,
+      "name": "National Testing Laboratories",
+      "description": "Provide industrial testing and certification.",
+      "mechanism": "Provide industrial testing and certification.",
+      "hue": "#5F9EA0",
+      "icon": "🧪",
+      "caseStudies": []
+    },
+    {
+      "id": 36,
+      "name": "Industrial Technology Centers",
+      "description": "Support prototyping, engineering and industrial experimentation.",
+      "mechanism": "Support prototyping, engineering and industrial experimentation.",
+      "hue": "#708090",
+      "icon": "🛠",
+      "caseStudies": []
+    },
+    {
+      "id": 37,
+      "name": "Capital Equipment Development Program",
+      "description": "Supports domestic machinery and equipment production.",
+      "mechanism": "Supports domestic machinery and equipment production.",
+      "hue": "#8B4513",
+      "icon": "🏭",
+      "caseStudies": []
+    },
+    {
+      "id": 38,
+      "name": "Technology Acquisition Office",
+      "description": "Identifies and negotiates acquisition of strategic foreign technologies.",
+      "mechanism": "Identifies and negotiates acquisition of strategic foreign technologies.",
+      "hue": "#1E90FF",
+      "icon": "🌐",
+      "caseStudies": []
+    },
+    {
+      "id": 39,
+      "name": "Technology Licensing Program",
+      "description": "Facilitates acquisition and commercialization of external technologies.",
+      "mechanism": "Facilitates acquisition and commercialization of external technologies.",
+      "hue": "#4169E1",
+      "icon": "📜",
+      "caseStudies": []
+    },
+    {
+      "id": 40,
+      "name": "National Venture Capital Fund",
+      "description": "Finances innovative companies and technology ventures.",
+      "mechanism": "Finances innovative companies and technology ventures.",
+      "hue": "#9370DB",
+      "icon": "💰",
+      "caseStudies": []
+    },
+    {
+      "id": 41,
+      "name": "Export Credit Agency",
+      "description": "Provides financing and guarantees for exporters.",
+      "mechanism": "Provides financing and guarantees for exporters.",
+      "hue": "#20B2AA",
+      "icon": "🚢",
+      "caseStudies": []
+    },
+    {
+      "id": 42,
+      "name": "Export Market Intelligence Service",
+      "description": "Identifies foreign markets, demand, competitors and opportunities.",
+      "mechanism": "Identifies foreign markets, demand, competitors and opportunities.",
+      "hue": "#00CED1",
+      "icon": "🔎",
+      "caseStudies": []
+    },
+    {
+      "id": 43,
+      "name": "National Competition Authority",
+      "description": "Investigates monopolies, cartels and anticompetitive conduct.",
+      "mechanism": "Investigates monopolies, cartels and anticompetitive conduct.",
+      "hue": "#B22222",
+      "icon": "⚖",
+      "caseStudies": []
+    },
+    {
+      "id": 44,
+      "name": "Corporate Restructuring Facility",
+      "description": "Facilitates restructuring of viable but financially distressed firms.",
+      "mechanism": "Facilitates restructuring of viable but financially distressed firms.",
+      "hue": "#A0522D",
+      "icon": "♻",
+      "caseStudies": []
+    },
+    {
+      "id": 45,
+      "name": "Bankruptcy and Insolvency Administration",
+      "description": "Facilitates orderly exit and reallocation of productive assets.",
+      "mechanism": "Facilitates orderly exit and reallocation of productive assets.",
+      "hue": "#8B0000",
+      "icon": "⚖",
+      "caseStudies": []
+    },
+    {
+      "id": 46,
+      "name": "Industrial Consolidation Program",
+      "description": "Facilitates mergers, acquisitions and the achievement of minimum viable firm size.",
+      "mechanism": "Facilitates mergers, acquisitions and the achievement of minimum viable firm size.",
+      "hue": "#CD853F",
+      "icon": "🤝",
+      "caseStudies": []
+    },
+    {
+      "id": 47,
+      "name": "Public Procurement Innovation Program",
+      "description": "Uses government demand to stimulate domestic technological development.",
+      "mechanism": "Uses government demand to stimulate domestic technological development.",
+      "hue": "#DAA520",
+      "icon": "📦",
+      "caseStudies": []
+    },
+    {
+      "id": 48,
+      "name": "Strategic Infrastructure Fund",
+      "description": "Finances long-term infrastructure projects.",
+      "mechanism": "Finances long-term infrastructure projects.",
+      "hue": "#696969",
+      "icon": "🏗",
+      "caseStudies": []
+    },
+    {
+      "id": 49,
+      "name": "National Industrial Information System",
+      "description": "Collects information on firms, capabilities, suppliers and industrial gaps.",
+      "mechanism": "Collects information on firms, capabilities, suppliers and industrial gaps.",
+      "hue": "#2F4F4F",
+      "icon": "📊",
+      "caseStudies": []
+    },
+    {
+      "id": 50,
+      "name": "Technology Foresight Unit",
+      "description": "Identifies emerging technologies and future industrial opportunities.",
+      "mechanism": "Identifies emerging technologies and future industrial opportunities.",
+      "hue": "#6A5ACD",
+      "icon": "🔮",
+      "caseStudies": []
+    },
+    {
+      "id": 51,
+      "name": "University Technology Transfer Offices",
+      "description": "Commercialize university research and facilitate licensing.",
+      "mechanism": "Commercialize university research and facilitate licensing.",
+      "hue": "#7B68EE",
+      "icon": "🎓",
+      "caseStudies": []
+    },
+    {
+      "id": 52,
+      "name": "Industrial Design Centers",
+      "description": "Support product design, engineering design and prototyping.",
+      "mechanism": "Support product design, engineering design and prototyping.",
+      "hue": "#C71585",
+      "icon": "🎨",
+      "caseStudies": []
+    },
+    {
+      "id": 53,
+      "name": "National Quality Infrastructure",
+      "description": "Integrates standards, accreditation, testing and metrology.",
+      "mechanism": "Integrates standards, accreditation, testing and metrology.",
+      "hue": "#008B8B",
+      "icon": "✅",
+      "caseStudies": []
+    },
+    {
+      "id": 54,
+      "name": "Research Equipment Program",
+      "description": "Finances advanced scientific and technical equipment.",
+      "mechanism": "Finances advanced scientific and technical equipment.",
+      "hue": "#483D8B",
+      "icon": "🔬",
+      "caseStudies": []
+    },
+    {
+      "id": 55,
+      "name": "Productivity Observatory",
+      "description": "Measures and investigates productivity across firms and sectors.",
+      "mechanism": "Measures and investigates productivity across firms and sectors.",
+      "hue": "#3CB371",
+      "icon": "📈",
+      "caseStudies": []
+    },
+    {
+      "id": 56,
+      "name": "Industrial Cluster Management Organizations",
+      "description": "Coordinate firms, universities, infrastructure and suppliers within clusters.",
+      "mechanism": "Coordinate firms, universities, infrastructure and suppliers within clusters.",
+      "hue": "#2E8B57",
+      "icon": "🔗",
+      "caseStudies": []
+    },
+    {
+      "id": 57,
+      "name": "Agricultural Credit and Insurance System",
+      "description": "Finances agricultural investment and distributes production risks.",
+      "mechanism": "Finances agricultural investment and distributes production risks.",
+      "hue": "#8FBC8F",
+      "icon": "🌿",
+      "caseStudies": []
+    },
+    {
+      "id": 58,
+      "name": "National Skills Forecasting System",
+      "description": "Anticipates future occupational and technical skill requirements.",
+      "mechanism": "Anticipates future occupational and technical skill requirements.",
+      "hue": "#00FA9A",
+      "icon": "📋",
+      "caseStudies": []
+    },
+    {
+      "id": 59,
+      "name": "Digital Transformation Extension Program",
+      "description": "Helps firms adopt software, automation and digital production systems.",
+      "mechanism": "Helps firms adopt software, automation and digital production systems.",
+      "hue": "#00BFFF",
+      "icon": "💻",
+      "caseStudies": []
+    },
+    {
+      "id": 60,
+      "name": "Urban Development Corporation",
+      "description": "Coordinates metropolitan infrastructure and productive urban development.",
+      "mechanism": "Coordinates metropolitan infrastructure and productive urban development.",
+      "hue": "#A9A9A9",
+      "icon": "🏙",
+      "caseStudies": []
+    },
+    {
+      "id": 61,
+      "name": "Capital Accumulation",
+      "description": "Increases the stock of productive assets over time.",
+      "mechanism": "Increases the stock of productive assets over time.",
+      "hue": "#B8860B",
+      "icon": "💵",
+      "caseStudies": []
+    },
+    {
+      "id": 62,
+      "name": "Productivity Growth",
+      "description": "Produces more economic value with the same or fewer resources.",
+      "mechanism": "Produces more economic value with the same or fewer resources.",
+      "hue": "#228B22",
+      "icon": "📈",
+      "caseStudies": []
+    },
+    {
+      "id": 63,
+      "name": "Technological Diffusion",
+      "description": "Spreads productive technologies across firms and sectors.",
+      "mechanism": "Spreads productive technologies across firms and sectors.",
+      "hue": "#1E90FF",
+      "icon": "🌐",
+      "caseStudies": []
+    },
+    {
+      "id": 64,
+      "name": "Structural Transformation",
+      "description": "Moves labour and capital toward increasingly productive activities.",
+      "mechanism": "Moves labour and capital toward increasingly productive activities.",
+      "hue": "#8B4513",
+      "icon": "🔄",
+      "caseStudies": []
+    },
+    {
+      "id": 65,
+      "name": "Economies of Scale",
+      "description": "Reduces unit costs as production expands.",
+      "mechanism": "Reduces unit costs as production expands.",
+      "hue": "#CD5C5C",
+      "icon": "📏",
+      "caseStudies": []
+    },
+    {
+      "id": 66,
+      "name": "Economies of Scope",
+      "description": "Increases efficiency by producing related products together.",
+      "mechanism": "Increases efficiency by producing related products together.",
+      "hue": "#BDB76B",
+      "icon": "🔀",
+      "caseStudies": []
+    },
+    {
+      "id": 67,
+      "name": "Knowledge Accumulation",
+      "description": "Increases the stock of usable technical and organizational knowledge.",
+      "mechanism": "Increases the stock of usable technical and organizational knowledge.",
+      "hue": "#6A5ACD",
+      "icon": "📚",
+      "caseStudies": []
+    },
+    {
+      "id": 68,
+      "name": "Learning by Doing",
+      "description": "Improves capabilities through repeated production.",
+      "mechanism": "Improves capabilities through repeated production.",
+      "hue": "#2F4F4F",
+      "icon": "🔁",
+      "caseStudies": []
+    },
+    {
+      "id": 69,
+      "name": "Knowledge Spillovers",
+      "description": "Transfers knowledge between firms, workers and institutions.",
+      "mechanism": "Transfers knowledge between firms, workers and institutions.",
+      "hue": "#9370DB",
+      "icon": "💡",
+      "caseStudies": []
+    },
+    {
+      "id": 70,
+      "name": "Creative Destruction",
+      "description": "Replaces obsolete products, technologies and organizations.",
+      "mechanism": "Replaces obsolete products, technologies and organizations.",
+      "hue": "#B22222",
+      "icon": "♻",
+      "caseStudies": []
+    },
+    {
+      "id": 71,
+      "name": "Agglomeration Economies",
+      "description": "Increases productivity through geographical concentration and interaction.",
+      "mechanism": "Increases productivity through geographical concentration and interaction.",
+      "hue": "#708090",
+      "icon": "🏙",
+      "caseStudies": []
+    },
+    {
+      "id": 72,
+      "name": "Comparative Advantage Development",
+      "description": "Creates new productive capabilities that support competitive specialization.",
+      "mechanism": "Creates new productive capabilities that support competitive specialization.",
+      "hue": "#DAA520",
+      "icon": "🌍",
+      "caseStudies": []
+    },
+    {
+      "id": 73,
+      "name": "Risk Diversification",
+      "description": "Distributes economic risks across markets, sectors and institutions.",
+      "mechanism": "Distributes economic risks across markets, sectors and institutions.",
+      "hue": "#5F9EA0",
+      "icon": "🛡",
+      "caseStudies": []
+    },
+    {
+      "id": 74,
+      "name": "Market Selection",
+      "description": "Allocates resources toward more productive economic activities.",
+      "mechanism": "Allocates resources toward more productive economic activities.",
+      "hue": "#B8860B",
+      "icon": "⚖",
+      "caseStudies": []
+    },
+    {
+      "id": 75,
+      "name": "Innovation Diffusion",
+      "description": "Moves innovations from leading firms into the wider economy.",
+      "mechanism": "Moves innovations from leading firms into the wider economy.",
+      "hue": "#3CB371",
+      "icon": "💡",
+      "caseStudies": []
     }
   ],
   "relationships": [
@@ -3231,6 +5320,591 @@
       ],
       "functions": [
         "Market transparency"
+      ]
+    },
+    {
+      "problem": 208,
+      "instrument": 31,
+      "role": "primary",
+      "strength": 4,
+      "name": "Transfers agronomic and technological knowledge to producers.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Transfers agronomic and technological knowledge to producers."
+      ]
+    },
+    {
+      "problem": 208,
+      "instrument": 32,
+      "role": "primary",
+      "strength": 4,
+      "name": "Develop improved crops, production techniques and agricultural technologies.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Develop improved crops, production techniques and agricultural technologies."
+      ]
+    },
+    {
+      "problem": 223,
+      "instrument": 33,
+      "role": "primary",
+      "strength": 4,
+      "name": "Conduct applied research and solve industrial technical problems.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Conduct applied research and solve industrial technical problems."
+      ]
+    },
+    {
+      "problem": 225,
+      "instrument": 34,
+      "role": "primary",
+      "strength": 4,
+      "name": "Develops measurement standards and calibration capabilities.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Develops measurement standards and calibration capabilities."
+      ]
+    },
+    {
+      "problem": 225,
+      "instrument": 35,
+      "role": "primary",
+      "strength": 4,
+      "name": "Provide industrial testing and certification.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Provide industrial testing and certification."
+      ]
+    },
+    {
+      "problem": 221,
+      "instrument": 36,
+      "role": "primary",
+      "strength": 4,
+      "name": "Support prototyping, engineering and industrial experimentation.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Support prototyping, engineering and industrial experimentation."
+      ]
+    },
+    {
+      "problem": 222,
+      "instrument": 37,
+      "role": "primary",
+      "strength": 4,
+      "name": "Supports domestic machinery and equipment production.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Supports domestic machinery and equipment production."
+      ]
+    },
+    {
+      "problem": 248,
+      "instrument": 38,
+      "role": "primary",
+      "strength": 4,
+      "name": "Identifies and negotiates acquisition of strategic foreign technologies.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Identifies and negotiates acquisition of strategic foreign technologies."
+      ]
+    },
+    {
+      "problem": 248,
+      "instrument": 39,
+      "role": "primary",
+      "strength": 4,
+      "name": "Facilitates acquisition and commercialization of external technologies.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Facilitates acquisition and commercialization of external technologies."
+      ]
+    },
+    {
+      "problem": 234,
+      "instrument": 40,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances innovative companies and technology ventures.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Finances innovative companies and technology ventures."
+      ]
+    },
+    {
+      "problem": 215,
+      "instrument": 41,
+      "role": "primary",
+      "strength": 4,
+      "name": "Provides financing and guarantees for exporters.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Provides financing and guarantees for exporters."
+      ]
+    },
+    {
+      "problem": 215,
+      "instrument": 42,
+      "role": "primary",
+      "strength": 4,
+      "name": "Identifies foreign markets, demand, competitors and opportunities.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Identifies foreign markets, demand, competitors and opportunities."
+      ]
+    },
+    {
+      "problem": 214,
+      "instrument": 43,
+      "role": "primary",
+      "strength": 4,
+      "name": "Investigates monopolies, cartels and anticompetitive conduct.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Investigates monopolies, cartels and anticompetitive conduct."
+      ]
+    },
+    {
+      "problem": 237,
+      "instrument": 44,
+      "role": "primary",
+      "strength": 4,
+      "name": "Facilitates restructuring of viable but financially distressed firms.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Facilitates restructuring of viable but financially distressed firms."
+      ]
+    },
+    {
+      "problem": 237,
+      "instrument": 45,
+      "role": "primary",
+      "strength": 4,
+      "name": "Facilitates orderly exit and reallocation of productive assets.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Facilitates orderly exit and reallocation of productive assets."
+      ]
+    },
+    {
+      "problem": 213,
+      "instrument": 46,
+      "role": "primary",
+      "strength": 4,
+      "name": "Facilitates mergers, acquisitions and the achievement of minimum viable firm size.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Facilitates mergers, acquisitions and the achievement of minimum viable firm size."
+      ]
+    },
+    {
+      "problem": 224,
+      "instrument": 47,
+      "role": "primary",
+      "strength": 4,
+      "name": "Uses government demand to stimulate domestic technological development.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Uses government demand to stimulate domestic technological development."
+      ]
+    },
+    {
+      "problem": 235,
+      "instrument": 48,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances long-term infrastructure projects.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Finances long-term infrastructure projects."
+      ]
+    },
+    {
+      "problem": 211,
+      "instrument": 49,
+      "role": "primary",
+      "strength": 4,
+      "name": "Collects information on firms, capabilities, suppliers and industrial gaps.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Collects information on firms, capabilities, suppliers and industrial gaps."
+      ]
+    },
+    {
+      "problem": 217,
+      "instrument": 50,
+      "role": "primary",
+      "strength": 4,
+      "name": "Identifies emerging technologies and future industrial opportunities.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Identifies emerging technologies and future industrial opportunities."
+      ]
+    },
+    {
+      "problem": 224,
+      "instrument": 51,
+      "role": "primary",
+      "strength": 4,
+      "name": "Commercialize university research and facilitate licensing.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Commercialize university research and facilitate licensing."
+      ]
+    },
+    {
+      "problem": 221,
+      "instrument": 52,
+      "role": "primary",
+      "strength": 4,
+      "name": "Support product design, engineering design and prototyping.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Support product design, engineering design and prototyping."
+      ]
+    },
+    {
+      "problem": 225,
+      "instrument": 53,
+      "role": "primary",
+      "strength": 4,
+      "name": "Integrates standards, accreditation, testing and metrology.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Integrates standards, accreditation, testing and metrology."
+      ]
+    },
+    {
+      "problem": 207,
+      "instrument": 54,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances advanced scientific and technical equipment.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Finances advanced scientific and technical equipment."
+      ]
+    },
+    {
+      "problem": 216,
+      "instrument": 55,
+      "role": "primary",
+      "strength": 4,
+      "name": "Measures and investigates productivity across firms and sectors.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Measures and investigates productivity across firms and sectors."
+      ]
+    },
+    {
+      "problem": 206,
+      "instrument": 56,
+      "role": "primary",
+      "strength": 4,
+      "name": "Coordinate firms, universities, infrastructure and suppliers within clusters.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Coordinate firms, universities, infrastructure and suppliers within clusters."
+      ]
+    },
+    {
+      "problem": 208,
+      "instrument": 57,
+      "role": "primary",
+      "strength": 4,
+      "name": "Finances agricultural investment and distributes production risks.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Finances agricultural investment and distributes production risks."
+      ]
+    },
+    {
+      "problem": 245,
+      "instrument": 58,
+      "role": "primary",
+      "strength": 4,
+      "name": "Anticipates future occupational and technical skill requirements.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Anticipates future occupational and technical skill requirements."
+      ]
+    },
+    {
+      "problem": 226,
+      "instrument": 59,
+      "role": "primary",
+      "strength": 4,
+      "name": "Helps firms adopt software, automation and digital production systems.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Helps firms adopt software, automation and digital production systems."
+      ]
+    },
+    {
+      "problem": 206,
+      "instrument": 60,
+      "role": "primary",
+      "strength": 4,
+      "name": "Coordinates metropolitan infrastructure and productive urban development.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Coordinates metropolitan infrastructure and productive urban development."
+      ]
+    },
+    {
+      "problem": 232,
+      "instrument": 61,
+      "role": "primary",
+      "strength": 4,
+      "name": "Increases the stock of productive assets over time.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Increases the stock of productive assets over time."
+      ]
+    },
+    {
+      "problem": 216,
+      "instrument": 62,
+      "role": "primary",
+      "strength": 4,
+      "name": "Produces more economic value with the same or fewer resources.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Produces more economic value with the same or fewer resources."
+      ]
+    },
+    {
+      "problem": 226,
+      "instrument": 63,
+      "role": "primary",
+      "strength": 4,
+      "name": "Spreads productive technologies across firms and sectors.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Spreads productive technologies across firms and sectors."
+      ]
+    },
+    {
+      "problem": 217,
+      "instrument": 64,
+      "role": "primary",
+      "strength": 4,
+      "name": "Moves labour and capital toward increasingly productive activities.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Moves labour and capital toward increasingly productive activities."
+      ]
+    },
+    {
+      "problem": 213,
+      "instrument": 65,
+      "role": "primary",
+      "strength": 4,
+      "name": "Reduces unit costs as production expands.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Reduces unit costs as production expands."
+      ]
+    },
+    {
+      "problem": 209,
+      "instrument": 66,
+      "role": "primary",
+      "strength": 4,
+      "name": "Increases efficiency by producing related products together.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Increases efficiency by producing related products together."
+      ]
+    },
+    {
+      "problem": 211,
+      "instrument": 67,
+      "role": "primary",
+      "strength": 4,
+      "name": "Increases the stock of usable technical and organizational knowledge.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Increases the stock of usable technical and organizational knowledge."
+      ]
+    },
+    {
+      "problem": 223,
+      "instrument": 68,
+      "role": "primary",
+      "strength": 4,
+      "name": "Improves capabilities through repeated production.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Improves capabilities through repeated production."
+      ]
+    },
+    {
+      "problem": 230,
+      "instrument": 69,
+      "role": "primary",
+      "strength": 4,
+      "name": "Transfers knowledge between firms, workers and institutions.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Transfers knowledge between firms, workers and institutions."
+      ]
+    },
+    {
+      "problem": 237,
+      "instrument": 70,
+      "role": "primary",
+      "strength": 4,
+      "name": "Replaces obsolete products, technologies and organizations.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Replaces obsolete products, technologies and organizations."
+      ]
+    },
+    {
+      "problem": 206,
+      "instrument": 71,
+      "role": "primary",
+      "strength": 4,
+      "name": "Increases productivity through geographical concentration and interaction.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Increases productivity through geographical concentration and interaction."
+      ]
+    },
+    {
+      "problem": 215,
+      "instrument": 72,
+      "role": "primary",
+      "strength": 4,
+      "name": "Creates new productive capabilities that support competitive specialization.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Creates new productive capabilities that support competitive specialization."
+      ]
+    },
+    {
+      "problem": 220,
+      "instrument": 73,
+      "role": "primary",
+      "strength": 4,
+      "name": "Distributes economic risks across markets, sectors and institutions.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Distributes economic risks across markets, sectors and institutions."
+      ]
+    },
+    {
+      "problem": 214,
+      "instrument": 74,
+      "role": "primary",
+      "strength": 4,
+      "name": "Allocates resources toward more productive economic activities.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Allocates resources toward more productive economic activities."
+      ]
+    },
+    {
+      "problem": 219,
+      "instrument": 75,
+      "role": "primary",
+      "strength": 4,
+      "name": "Moves innovations from leading firms into the wider economy.",
+      "conditions": [
+        "Institutional capacity"
+      ],
+      "functions": [
+        "Moves innovations from leading firms into the wider economy."
       ]
     }
   ]
