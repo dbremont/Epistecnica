@@ -1,7 +1,7 @@
 {
   "meta": {
-    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root problem domains, each directly mappable to policy instruments.",
-    "version": 4
+    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root problem domains, with the production structure split into its concrete problems, each directly mappable to policy instruments.",
+    "version": 5
   },
   "problems": [
     {
@@ -185,17 +185,18 @@
     {
       "id": 7,
       "parent": null,
-      "name": "Structural Change Domain",
-      "statement": "Growth depends on externally given advantages—resources, aid, big projects, or FDI enclaves—rather than on created value.",
-      "description": "Given growth arises from FDI, aid, resource rents, or large public projects. It can produce temporary growth but does not build endogenous industrial capability.",
+      "name": "Production Domain",
+      "statement": "Production is concentrated in low value-added activities and the structure does not shift: the economy does not move into higher-value, more complex activities.",
+      "description": "The production domain is the structure of what an economy makes and how: the mix of activities, their value added, complexity and linkages, and the process by which the structure changes over time.",
       "goals": [
-        "Reduce dependence on exogenous growth sources",
-        "Convert given advantages into created advantages",
+        "Raise the value added of production",
+        "Shift into more complex activities",
+        "Capture more value domestically",
         "Diversify away from resource rents",
-        "Balance big projects with broad industrial support"
+        "Balance big projects with broad production support"
       ],
       "granularity": "broad",
-      "policyDomain": "Structural Change",
+      "policyDomain": "Production",
       "targetGroup": "National Economy",
       "references": [
         {
@@ -208,6 +209,14 @@
         {
           "label": "Industrial Structure",
           "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
+        },
+        {
+          "label": "Production",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/production.md"
+        },
+        {
+          "label": "Technology",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/technology.md"
         }
       ]
     },
@@ -1137,6 +1146,126 @@
         {
           "label": "Market Policy",
           "url": "/view.html?p=notes/social/collective/governance/action/problem/market/market-policy.md"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "parent": 7,
+      "name": "Low Value-Added Activity Concentration",
+      "statement": "Production is concentrated in activities with little value added per worker and low complexity.",
+      "description": "A production structure specialised in assembly, raw processing or simple services captures little value per unit of output and leaves the economy exposed to cost competition.",
+      "goals": [
+        "Raise the value added of output",
+        "Move into more complex activities"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "National Economy, Firms",
+      "references": [
+        {
+          "label": "Production",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/production.md"
+        },
+        {
+          "label": "Technology",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/technology.md"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "parent": 7,
+      "name": "Lack of Structural Change",
+      "statement": "The structure of production does not shift toward higher-value activities; the economy stays in the same specialisation.",
+      "description": "Structural change is the movement of resources from lower- to higher-productivity activities. Without it, growth is extensive — more of the same — and the economy hits a ceiling.",
+      "goals": [
+        "Shift resources to higher-productivity activities",
+        "Sustain the structural transformation"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "National Economy",
+      "references": [
+        {
+          "label": "Production Change",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/change.md"
+        },
+        {
+          "label": "Industrial Structure",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "parent": 7,
+      "name": "Weak Domestic Value Capture",
+      "statement": "Value is created in the country but captured elsewhere: assembly without design, brands, services or ownership.",
+      "description": "Participation in production does not equal capture of its value: the design, brands, distribution and finance that capture the margin often sit abroad, so the local economy keeps the low-margin step.",
+      "goals": [
+        "Capture more of the value chain",
+        "Build domestic design, brands and services"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, National Economy",
+      "references": [
+        {
+          "label": "Industrial Structure",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
+        },
+        {
+          "label": "Technology",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/technology.md"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "parent": 7,
+      "name": "Narrow Production Base",
+      "statement": "The production base is narrow: too few activities and too little diversification to absorb shocks or sustain learning.",
+      "description": "A narrow base concentrates risk in a few activities and starves the economy of the variety from which new combinations and capabilities emerge.",
+      "goals": [
+        "Diversify the production base",
+        "Build adjacent capabilities"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "National Economy, Regions",
+      "references": [
+        {
+          "label": "Industrial Structure",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
+        },
+        {
+          "label": "Production",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/production.md"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "parent": 7,
+      "name": "Low Productivity in Traditional Activities",
+      "statement": "Traditional and informal activities absorb most labour at low productivity, and they do not upgrade.",
+      "description": "Where most employment sits in low-productivity activities with no upgrading path, the aggregate productivity gap cannot close by moving a few workers into a modern enclave.",
+      "goals": [
+        "Raise productivity in traditional activities",
+        "Connect them to modern demand"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Traditional Firms, Workers",
+      "references": [
+        {
+          "label": "Production",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/production.md"
+        },
+        {
+          "label": "Technology",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/technology.md"
         }
       ]
     }
