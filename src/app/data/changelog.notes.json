@@ -94375,7 +94375,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Link the new Instrument note from the branch master."
+    "summary": "Link the new Instrument note from the branch master.",
+    "commit": "b624aa4e36fe116cb070630d43cbe18911708697",
+    "before": "bd96dc9e9f890c6ba213f4cde48acf83f49457ac"
    }
   ]
  },
@@ -151221,7 +151223,8 @@
    {
     "date": "2026-11-21",
     "kind": "create",
-    "summary": "Add the Instrument action-element note."
+    "summary": "Add the Instrument action-element note.",
+    "commit": "b624aa4e36fe116cb070630d43cbe18911708697"
    }
   ]
  }
