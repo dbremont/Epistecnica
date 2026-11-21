@@ -93,8 +93,8 @@
     },
     {
       "id": 4,
-      "parent": null,
-      "name": "Industrial Finance Domain",
+      "parent": 44,
+      "name": "Industrial Finance",
       "statement": "Firms, especially SMEs, cannot obtain adequate finance for equipment, technology, and working capital.",
       "description": "Financial constraints prevent firms from upgrading. Collateral requirements, weak credit information, and lack of long-term finance are key obstacles.",
       "goals": [
@@ -103,7 +103,7 @@
         "Build credit information systems",
         "Provide long-term finance"
       ],
-      "granularity": "broad",
+      "granularity": "intermediate",
       "policyDomain": "Industrial Finance",
       "targetGroup": "SMEs, Targeted Industries",
       "references": [
