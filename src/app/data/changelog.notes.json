@@ -67341,7 +67341,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget to the merged Problem hub."
+    "summary": "Retarget to the merged Problem hub.",
+    "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
+    "before": "951863c0beb71000f3dad1176377806a394b622f"
    }
   ]
  },
@@ -82232,7 +82234,9 @@
    {
     "date": "2026-11-20",
     "kind": "merge",
-    "summary": "Merge the policy-problem specialization and the problem-domain index into the Problem hub."
+    "summary": "Merge the policy-problem specialization and the problem-domain index into the Problem hub.",
+    "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
+    "before": "951863c0beb71000f3dad1176377806a394b622f"
    }
   ]
  },
@@ -82662,7 +82666,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget to the merged Problem hub."
+    "summary": "Retarget to the merged Problem hub.",
+    "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
+    "before": "951863c0beb71000f3dad1176377806a394b622f"
    }
   ]
  },
@@ -83535,7 +83541,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget to the merged Problem hub."
+    "summary": "Retarget to the merged Problem hub.",
+    "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
+    "before": "951863c0beb71000f3dad1176377806a394b622f"
    }
   ]
  },
