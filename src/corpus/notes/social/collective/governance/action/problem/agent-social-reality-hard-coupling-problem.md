@@ -1,5 +1,5 @@
 ---
-tags: [note, unfinished]
+tags: [note, social, problem, unfinished]
 ---
 # The Agent–Social-Reality Hard Coupling Problem
 

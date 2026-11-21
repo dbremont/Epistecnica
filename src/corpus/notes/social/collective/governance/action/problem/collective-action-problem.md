@@ -1,5 +1,5 @@
 ---
-tags: [note]
+tags: [note, social, problem]
 ---
 
 # The Collective Action Problem
@@ -14,7 +14,7 @@ tags: [note]
 
 > (To be developed)
 
-## Refeernces
+## References
 
-- [The Agent Social Reality Reflection Problem](agent-social-reality-reflection-problem.md)
-- [The Agent–Social-Reality Hard Coupling Problem](agent-social-reality-hard-coupling-problem.md)
+- [The Agent Social Reality Reflection Problem](/view.html?p=notes/social/collective/governance/action/problem/agent-social-reality-reflection-problem.md)
+- [The Agent–Social-Reality Hard Coupling Problem](/view.html?p=notes/social/collective/governance/action/problem/agent-social-reality-hard-coupling-problem.md)

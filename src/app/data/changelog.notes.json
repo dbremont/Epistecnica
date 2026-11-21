@@ -29347,25 +29347,6 @@
   ]
  },
  {
-  "file_path": "miscellanea/unclassified/agent-social-reality-reflection-problem.md",
-  "logs": [
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Retarget links to the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
-    "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
-   }
-  ]
- },
- {
   "file_path": "miscellanea/unclassified/an-essay-on-academic-publishing.md",
   "logs": [
    {
@@ -81086,6 +81067,40 @@
   ]
  },
  {
+  "file_path": "social/collective/governance/action/problem/agent-social-reality-hard-coupling-problem.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the systemic problem in the problem shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/governance/action/problem/agent-social-reality-reflection-problem.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
+    "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the systemic problem in the problem shelf."
+   }
+  ]
+ },
+ {
   "file_path": "social/collective/governance/action/problem/bureaucracy/civil-service.md",
   "logs": [
    {
@@ -81164,6 +81179,16 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   }
+  ]
+ },
+ {
+  "file_path": "social/collective/governance/action/problem/collective-action-problem.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the systemic problem in the problem shelf."
    }
   ]
  },

@@ -17,7 +17,7 @@ order: 0
 
 **Problem belongs to the `Problem / Problematization` social element type (Cognitive category, `Intention` branch of the agentic spine)** — the apprehended gap between conditions and a norm, and the process of forming it. It sits under `Interaction Unit -> Agency -> Intention`, alongside `Deliberation`, `Decision / Choice`, `Goal`, and `Objective / Target`.
 
-It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
+It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
 
 ### What is this social instance?
 
@@ -49,7 +49,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 > A **policy problem** is a problem taken up as warranting a policy course: it names what the authorized doing shall head toward, and decomposes into mandate, instrument, goal, target, agency, rule, and review.
 
-> Problematization formulates the problem; [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) answers it with a course; the [problem domains](#sec-the-problem-domains) scope in which domain of social reality it sits. See [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process, and [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) for the coordination failure that keeps recognized problems unanswered.
+> Problematization formulates the problem; [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) answers it with a course; the [problem domains](#sec-the-problem-domains) scope in which domain of social reality it sits. See [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process, and [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md) for the coordination failure that keeps recognized problems unanswered.
 
 ### What is a policy problem?
 
@@ -97,13 +97,21 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 - Each domain should articulate its problem space with precision and **develop a conceptual model** that enables systematic understanding, communication, and problem-solving within that domain.
 
+## Systemic problems
+
+> The cross-cutting problems of the social system itself, which hold across domains:
+
+- [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md) — a group recognizes the possibility of another reality yet cannot coordinate cognition and action toward it.
+- [The Agent–Social-Reality Hard Coupling Problem](/view.html?p=notes/social/collective/governance/action/problem/agent-social-reality-hard-coupling-problem.md) — agents are tightly coupled to the current state of reality, so their perceptions and behaviours converge on stable attractors that limit transformative agency.
+- [The Agent Imagination – «Action Pattern Stability» Problem](/view.html?p=notes/social/collective/governance/action/problem/agent-social-reality-reflection-problem.md) — agents have an inherent difficulty imagining alternative futures, and action patterns persist even in their internal states.
+
 ## References
 
 - [Philosophia Socialium et Operis](/view.html?p=notes/philosophia-socialium-et-operis.md)
 - [Agency](/view.html?p=notes/social/collective/governance/action/public-agency.md)
 - [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
-- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md)
+- [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md)
 - [What is Regulation?](https://www.yalejreg.com/bulletin/what-is-regulation/)
 - An Essay Of Public Services Marketization
 - [Center of Excellence in Tax Systems Research](https://www.tuni.fi/en/research/centre-excellence-tax-systems-research)

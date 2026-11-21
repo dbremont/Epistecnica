@@ -47,4 +47,4 @@ order: 1
 - [Problem](/view.html?p=notes/social/collective/governance/action/problem/readme.md) — the element, the policy problem and the problem domains.
 - [Problematization](/view.html?p=notes/epistemica/problematization.md) — the epistemic process of forming a problem.
 - [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) — the authorized course that answers it.
-- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) — the coordination failure that keeps recognized problems unanswered.
+- [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md) — the coordination failure that keeps recognized problems unanswered.
