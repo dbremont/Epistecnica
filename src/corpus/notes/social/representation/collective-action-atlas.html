@@ -169,6 +169,11 @@
         .netnode { cursor:pointer; }
         .edge { fill:none; }
         .detailhead { margin-bottom:0.7rem; }
+        .probpath { display:flex; flex-wrap:wrap; align-items:baseline; gap:0.15rem 0.3rem; font-family:var(--font-mono); font-size:0.56rem; letter-spacing:0.04em; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.55rem; line-height:1.5; }
+        .probpath a { color:var(--text-secondary); cursor:pointer; }
+        .probpath a:hover { color:var(--accent-cyan); }
+        .probpath .here { color:var(--text-primary); }
+        .probpath .sep { color:var(--text-ghost); }
         .detailhead .kicker { display:block; font-family:var(--font-mono); font-size:0.56rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--text-muted); }
         .detailhead .kicker.instrument { color:var(--accent-cyan); }
         .detailhead .kicker .pk { color:var(--accent-gold); }
@@ -738,6 +743,19 @@
         html += refsHTML(ins.references);
         return html;
     }
+    function problemPathHTML(v) {
+        var path = [], cur = v;
+        while (cur) {
+            path.unshift(cur);
+            cur = cur.parent != null ? byId(S.data.problems, cur.parent) : null;
+        }
+        return '<div class="probpath">' + path.map(function (p, i) {
+            var last = i === path.length - 1;
+            return last ? '<span class="here">' + esc(p.name) + "</span>"
+                : '<a href="#" data-v="' + esc(p.id) + '">' + esc(p.name) + "</a>";
+        }).join('<span class="sep">\u203a</span>') + "</div>";
+    }
+
     function renderDetail() {
         var body = document.getElementById("detailBody");
         var kicker = document.getElementById("detailKicker");
@@ -774,7 +792,7 @@
             body.innerHTML = noteIHTML(ins, v, r);
         } else if (v) {
             title.textContent = v.name;
-            body.innerHTML = noteVHTML(v);
+            body.innerHTML = problemPathHTML(v) + noteVHTML(v);
         } else {
             body.innerHTML = "";
         }
@@ -853,6 +871,13 @@
         S.detailSide = t.getAttribute("data-side"); renderDetail();
     }); });
     document.getElementById("detailBody").addEventListener("click", function (e) {
+        var pa = e.target && e.target.closest ? e.target.closest(".probpath [data-v]") : null;
+        if (pa) {
+            e.preventDefault();
+            S.focusV = pa.getAttribute("data-v"); S.detailKind = "problem"; S.detailSide = "problem"; S.hasSelection = true;
+            syncRel(); renderAll();
+            return;
+        }
         var a = e.target && e.target.closest ? e.target.closest(".problink[data-problem]") : null;
         if (!a) return;
         S.focusV = a.getAttribute("data-problem"); S.detailKind = "problem"; S.detailSide = "problem"; S.hasSelection = true; syncRel(); renderAll();

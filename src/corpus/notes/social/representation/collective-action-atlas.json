@@ -1317,20 +1317,6 @@
       "references": []
     },
     {
-      "id": 200,
-      "parent": 100,
-      "name": "Unreliable Power Supply",
-      "statement": "Firms face frequent outages and voltage problems.",
-      "description": "Unreliable supply forces firms to self-generate at high cost.",
-      "goals": [
-        "Stabilize supply"
-      ],
-      "granularity": "detailed",
-      "policyDomain": "Energy System",
-      "targetGroup": "National Economy, Firms",
-      "references": []
-    },
-    {
       "id": 201,
       "parent": 100,
       "name": "High Energy Costs",
@@ -1413,20 +1399,6 @@
         "Develop the system"
       ],
       "granularity": "intermediate",
-      "policyDomain": "National Logistics",
-      "targetGroup": "National Economy, Firms",
-      "references": []
-    },
-    {
-      "id": 204,
-      "parent": 103,
-      "name": "High Logistics Costs",
-      "statement": "Logistics costs absorb a large share of output.",
-      "description": "Poor logistics raises the cost of exports and inputs.",
-      "goals": [
-        "Reduce logistics costs"
-      ],
-      "granularity": "detailed",
       "policyDomain": "National Logistics",
       "targetGroup": "National Economy, Firms",
       "references": []
