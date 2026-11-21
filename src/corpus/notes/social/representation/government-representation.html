@@ -162,7 +162,7 @@ table.cmp td.na{color:var(--text-ghost)}
         <span class="here">Government Representation</span>
     </nav>
     <h1 class="note-title">Government Representation</h1>
-    <p class="subtitle">The governments of the polity corpus, represented through the seven comparative systems of government-wide administration. Assign one value per characteristic element — with its value set and assignment rule in view — and compare the resulting profiles. Assignments are saved in this browser.</p>
+    <p class="subtitle">The governments of the polity corpus, represented through the seven comparative systems of government-wide administration. Assign one value per characteristic element — with its value set and assignment rule in view — and compare the resulting profiles. The tracked profiles are the base; your assignments stay a draft in this browser.</p>
 </div>
 
 <main class="wrap">
@@ -223,6 +223,7 @@ table.cmp td.na{color:var(--text-ghost)}
         <a href="/explorer.html">Catalog</a><span class="sep">·</span>
         <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
         <a href="gov-wide-administration-comparative-system-representation.html">Comparative representation systems</a><span class="sep">·</span>
+        <a href="government_representation.json">Data</a><span class="sep">·</span>
         <a href="/view.html?p=notes/social/collective/governance/actor/type/government.md">Government</a>
     </nav>
 </footer>
@@ -234,12 +235,13 @@ table.cmp td.na{color:var(--text-ghost)}
     "use strict";
     var MAX = 4;
     var KEY = "epistecnica:government-representation";
+    var DATA_URL = "government_representation.json";
     var state = {
         systems: [], governments: [], view: "library",
         selected: [], active: null,
         q: "", documentedOnly: false,
         detail: null, detailTab: null, compareQ: "",
-        profiles: {}
+        base: {}, drafts: {}, profiles: {}
     };
 
     function $(sel) { return document.querySelector(sel); }
@@ -262,13 +264,47 @@ table.cmp td.na{color:var(--text-ghost)}
     }
     function assignedCount(code, sysName) { return Object.keys(profile(code, sysName)).length; }
 
-    /* ---------- storage ---------- */
-    function loadProfiles() {
-        try { state.profiles = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; }
-        catch (e) { state.profiles = {}; }
+    /* ---------- storage ----------
+       The tracked store (DATA_URL) is the base. This browser keeps a draft
+       layer on top; drafts win, and a null draft value records a removal. */
+    function loadDrafts() {
+        try { state.drafts = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; }
+        catch (e) { state.drafts = {}; }
     }
-    function saveProfiles() {
-        try { localStorage.setItem(KEY, JSON.stringify(state.profiles)); } catch (e) { /* ignore */ }
+    function saveDrafts() {
+        try { localStorage.setItem(KEY, JSON.stringify(state.drafts)); } catch (e) { /* ignore */ }
+    }
+    function mergeProfiles() {
+        var out = {};
+        function put(code, sys, el, val) {
+            if (!out[code]) out[code] = {};
+            if (!out[code][sys]) out[code][sys] = {};
+            if (val === null) delete out[code][sys][el];
+            else out[code][sys][el] = val;
+            if (!Object.keys(out[code][sys]).length) delete out[code][sys];
+            if (!Object.keys(out[code]).length) delete out[code];
+        }
+        Object.keys(state.base).forEach(function (code) {
+            Object.keys(state.base[code]).forEach(function (sys) {
+                Object.keys(state.base[code][sys]).forEach(function (el) {
+                    var v = state.base[code][sys][el];
+                    if (v != null) put(code, sys, el, v);
+                });
+            });
+        });
+        Object.keys(state.drafts).forEach(function (code) {
+            Object.keys(state.drafts[code]).forEach(function (sys) {
+                Object.keys(state.drafts[code][sys]).forEach(function (el) {
+                    put(code, sys, el, state.drafts[code][sys][el]);
+                });
+            });
+        });
+        state.profiles = out;
+    }
+    function setDraft(code, sys, el, val) {
+        if (!state.drafts[code]) state.drafts[code] = {};
+        if (!state.drafts[code][sys]) state.drafts[code][sys] = {};
+        state.drafts[code][sys][el] = val === null ? null : val;
     }
 
     function setHash(h) {
@@ -415,13 +451,9 @@ table.cmp td.na{color:var(--text-ghost)}
             sel.addEventListener("change", function () {
                 var el = sel.getAttribute("data-el");
                 var code = g.code;
-                if (!state.profiles[code]) state.profiles[code] = {};
-                if (!state.profiles[code][dt]) state.profiles[code][dt] = {};
-                if (sel.value === "") delete state.profiles[code][dt][el];
-                else state.profiles[code][dt][el] = sel.value;
-                if (!Object.keys(state.profiles[code][dt]).length) delete state.profiles[code][dt];
-                if (!Object.keys(state.profiles[code]).length) delete state.profiles[code];
-                saveProfiles();
+                setDraft(code, dt, el, sel.value === "" ? null : sel.value);
+                saveDrafts();
+                mergeProfiles();
                 var tab = $("#detailTabs").querySelector('button[data-sys="' + dt + '"] .n');
                 if (tab) tab.textContent = "(" + assignedCount(code, dt) + "/" + sys.characteristic_element_set.length + ")";
                 sel.parentNode.classList.toggle("assigned", sel.value !== "");
@@ -449,11 +481,10 @@ table.cmp td.na{color:var(--text-ghost)}
         $("#compareThis").addEventListener("click", toCompare);
         $("#railCompare").addEventListener("click", function (e) { e.preventDefault(); toCompare(); });
         $("#clearSystem").addEventListener("click", function () {
-            if (state.profiles[g.code]) {
-                delete state.profiles[g.code][dt];
-                if (!Object.keys(state.profiles[g.code]).length) delete state.profiles[g.code];
-                saveProfiles();
-            }
+            var cur = profile(g.code, dt);
+            Object.keys(cur).forEach(function (el) { setDraft(g.code, dt, el, null); });
+            saveDrafts();
+            mergeProfiles();
             renderDetail();
         });
     }
@@ -600,10 +631,13 @@ table.cmp td.na{color:var(--text-ghost)}
     window.addEventListener("hashchange", function () { if (applyHash()) render(); });
 
     Promise.all([
-        fetch("gov-wide-administration.json", { cache: "no-cache" }).then(function (r) {
+        fetch("gov-wide-administration-comparative-system-representation.json", { cache: "no-cache" }).then(function (r) {
             if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
         }),
         fetch("../collective/polity/data.json", { cache: "no-cache" }).then(function (r) {
+            if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+        }),
+        fetch(DATA_URL, { cache: "no-cache" }).then(function (r) {
             if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
         })
     ]).then(function (res) {
@@ -620,7 +654,12 @@ table.cmp td.na{color:var(--text-ghost)}
                 documented: !!c.has_node
             };
         }).sort(function (a, b) { return a.name.localeCompare(b.name); });
-        loadProfiles();
+        (res[2].governments || []).forEach(function (p) {
+            var key = String(p.code || p.id || "").toLowerCase();
+            if (key) state.base[key] = p.profiles || {};
+        });
+        loadDrafts();
+        mergeProfiles();
         applyHash();
         render();
     }).catch(function (err) {

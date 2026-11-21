@@ -813,6 +813,23 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect("/corpus/notes/social/representation/collective-action-atlas.json")
             return True
 
+        # Representation data files are named after the view that owns them.
+        if path == "/corpus/notes/social/representation/gov-wide-administration.json":
+            self._redirect("/corpus/notes/social/representation/gov-wide-administration-comparative-system-representation.json")
+            return True
+
+        if path == "/corpus/notes/social/representation/public-organization.json":
+            self._redirect("/corpus/notes/social/representation/public-organization-characterization-systems.json")
+            return True
+
+        if path == "/corpus/notes/social/representation/public-organization-profiles.json":
+            self._redirect("/corpus/notes/social/representation/public-organization-representation.json")
+            return True
+
+        if path == "/corpus/notes/social/representation/schema.json":
+            self._redirect("/corpus/notes/social/representation/representation-systems.schema.json")
+            return True
+
         return False
 
     def _redirect(self, location):

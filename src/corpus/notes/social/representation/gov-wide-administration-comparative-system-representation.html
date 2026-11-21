@@ -277,7 +277,7 @@
     <nav>
         <a href="/explorer.html">Catalog</a><span class="sep">·</span>
         <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
-        <a href="gov-wide-administration.json">Data</a>
+        <a href="gov-wide-administration-comparative-system-representation.json">Data</a>
     </nav>
 </footer>
 <script src="/shared/usearch.js" data-root="../../../../"></script>
@@ -540,7 +540,7 @@
     }
     window.addEventListener("hashchange", fromHash);
 
-    fetch("gov-wide-administration.json", { cache: "no-cache" }).then(function (r) {
+    fetch("gov-wide-administration-comparative-system-representation.json", { cache: "no-cache" }).then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
     }).then(function (data) {

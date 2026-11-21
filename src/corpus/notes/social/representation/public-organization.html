@@ -222,7 +222,7 @@ table.cmp td.na{color:var(--text-ghost)}
         <a href="/explorer.html">Catalog</a><span class="sep">·</span>
         <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
         <a href="public-organization-characterization-systems.html">Comparative representation systems</a><span class="sep">·</span>
-        <a href="public-organization-profiles.json">Data</a>
+        <a href="public-organization-representation.json">Data</a>
     </nav>
 </footer>
 
@@ -565,10 +565,10 @@ table.cmp td.na{color:var(--text-ghost)}
     });
 
     Promise.all([
-        fetch("public-organization.json", { cache: "no-cache" }).then(function (r) {
+        fetch("public-organization-characterization-systems.json", { cache: "no-cache" }).then(function (r) {
             if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
         }),
-        fetch("public-organization-profiles.json", { cache: "no-cache" }).then(function (r) {
+        fetch("public-organization-representation.json", { cache: "no-cache" }).then(function (r) {
             if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
         })
     ]).then(function (res) {

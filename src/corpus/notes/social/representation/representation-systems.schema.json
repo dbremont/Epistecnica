@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://naturgnosis.org/schemas/public-atlas.schema.json",
-  "title": "Public Atlas Data",
-  "description": "Schema for an atlas family data file (public-organization.json, gov-wide-administration.json): shared meta plus comparative representation systems with their characteristic elements.",
+  "$id": "https://naturgnosis.org/schemas/representation-systems.schema.json",
+  "title": "Comparative Representation Systems",
+  "description": "Schema for a comparative-representation-systems data file (public-organization-characterization-systems.json, gov-wide-administration-comparative-system-representation.json): shared meta plus the systems with their characteristic elements. Profiles read these frames and live in their own stores (public-organization-representation.json, government_representation.json).",
   "$comment": "Data objects must keep their object key order identical to this schema's property order.",
   "type": "object",
   "properties": {

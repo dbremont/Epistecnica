@@ -278,7 +278,7 @@
     <nav>
         <a href="/explorer.html">Catalog</a><span class="sep">·</span>
         <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
-        <a href="public-organization.json">Data</a>
+        <a href="public-organization-characterization-systems.json">Data</a>
     </nav>
 </footer>
 <script src="/shared/usearch.js" data-root="../../../../"></script>
@@ -541,7 +541,7 @@
     }
     window.addEventListener("hashchange", fromHash);
 
-    fetch("public-organization.json", { cache: "no-cache" }).then(function (r) {
+    fetch("public-organization-characterization-systems.json", { cache: "no-cache" }).then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
     }).then(function (data) {

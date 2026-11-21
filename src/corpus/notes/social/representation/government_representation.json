@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "title": "Government Representation Profiles",
+    "description": "Assignment profiles of the governments of the polity corpus under the government-wide administration comparative representation systems. Each profile assigns one value per characteristic element; the element, its value set and its assignment rule come from the system, never a verdict. Profiles pin the frame version they were read under.",
+    "version": 1,
+    "frames": {
+      "submodel": 1,
+      "structural-configuration": 1,
+      "system-properties": 1,
+      "function-allocation": 1,
+      "decision-rights": 1,
+      "wwbi-employment-profile": 1,
+      "wwbi-compensation-profile": 1
+    }
+  },
+  "governments": []
+}
