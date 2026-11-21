@@ -89431,7 +89431,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Disambiguate the two duplicated element names (Capability equalization, Knowledge retention)."
+    "summary": "Disambiguate the two duplicated element names (Capability equalization, Knowledge retention).",
+    "commit": "0b7b701f9461a4ba6b30b09f7ce1958517aa573a",
+    "before": "e5c4c08af45b3a806642d5d38482f7f41e11ea64"
    }
   ]
  },
