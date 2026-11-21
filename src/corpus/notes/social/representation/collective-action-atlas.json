@@ -25,11 +25,11 @@
         },
         {
           "label": "Production",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/production.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/production.md"
         },
         {
           "label": "Firm Policy",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/firm/firm-policy.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/firm/firm-policy.md"
         }
       ]
     },
@@ -54,11 +54,11 @@
         },
         {
           "label": "Industrial Structure",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/structure.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
         },
         {
           "label": "Industry",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/industry/industry.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/industry/industry.md"
         }
       ]
     },
@@ -83,11 +83,11 @@
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         }
       ]
     },
@@ -112,11 +112,11 @@
         },
         {
           "label": "Finance",
-          "url": "/view.html?p=notes/social/collective/action/problem/finance/finance.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/finance/finance.md"
         },
         {
           "label": "Investment",
-          "url": "/view.html?p=notes/social/collective/action/problem/finance/investment.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/finance/investment.md"
         }
       ]
     },
@@ -141,15 +141,15 @@
         },
         {
           "label": "Civil Service",
-          "url": "/view.html?p=notes/social/collective/action/problem/bureaucracy/civil-service.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/bureaucracy/civil-service.md"
         },
         {
           "label": "Regulation",
-          "url": "/view.html?p=notes/social/collective/action/problem/regulation/regulation.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/regulation/regulation.md"
         },
         {
           "label": "Governance",
-          "url": "/view.html?p=notes/social/collective/action/problem/state/governance/governance.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/state/governance/governance.md"
         }
       ]
     },
@@ -174,11 +174,11 @@
         },
         {
           "label": "Infrastructure",
-          "url": "/view.html?p=notes/social/collective/action/problem/infrastructure/infrastructure.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/infrastructure/infrastructure.md"
         },
         {
           "label": "Regulation",
-          "url": "/view.html?p=notes/social/collective/action/problem/regulation/regulation.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/regulation/regulation.md"
         }
       ]
     },
@@ -203,11 +203,11 @@
         },
         {
           "label": "Production Change",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/change.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/change.md"
         },
         {
           "label": "Industrial Structure",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/structure.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/structure.md"
         }
       ]
     },
@@ -769,15 +769,15 @@
       "references": [
         {
           "label": "Research",
-          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         }
       ]
     },
@@ -802,7 +802,7 @@
         },
         {
           "label": "Firm Policy",
-          "url": "/view.html?p=notes/social/collective/action/problem/production/firm/firm-policy.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/production/firm/firm-policy.md"
         },
         {
           "label": "Firm (minimum efficient scale)",
@@ -826,15 +826,15 @@
       "references": [
         {
           "label": "Research",
-          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         }
       ]
     },
@@ -854,15 +854,15 @@
       "references": [
         {
           "label": "Research",
-          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         }
       ]
     },
@@ -882,15 +882,15 @@
       "references": [
         {
           "label": "Research",
-          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         }
       ]
     },
@@ -910,15 +910,15 @@
       "references": [
         {
           "label": "Research",
-          "url": "/view.html?p=notes/social/collective/action/problem/research/research.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
         },
         {
           "label": "Educational Field",
-          "url": "/view.html?p=notes/social/collective/action/problem/education/educational-field.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/education/educational-field.md"
         },
         {
           "label": "Labor Market",
-          "url": "/view.html?p=notes/social/collective/action/problem/labor/labor-market.md"
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
         }
       ]
     }

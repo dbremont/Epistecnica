@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://naturgnosis.org/schemas/atlas.schema.json",
-  "title": "Atlas of State Action",
-  "description": "Synthetic seed dataset for the Atlas of State Action.",
+  "title": "Atlas of Collective Action",
+  "description": "Synthetic seed dataset for the Atlas of Collective Action.",
   "$comment": "Data objects in atlas.json must keep their object key order identical to this schema's property order.",
   "type": "object",
   "properties": {

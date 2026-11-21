@@ -644,11 +644,11 @@ class HubHandler(SimpleHTTPRequestHandler):
             return True
 
         if path == ATLAS_ACTION_OLD + "index.html":
-            self._redirect(REPRESENTATION_DIR + "action-atlas.html")
+            self._redirect(REPRESENTATION_DIR + "collective-action-atlas.html")
             return True
 
         if path == ATLAS_ACTION_OLD + "atlas.json":
-            self._redirect(REPRESENTATION_DIR + "action-atlas.json")
+            self._redirect(REPRESENTATION_DIR + "collective-action-atlas.json")
             return True
 
         if path == LEGISLATURE_COMMITTEE_OLD:
@@ -802,6 +802,15 @@ class HubHandler(SimpleHTTPRequestHandler):
         if path.startswith("/corpus/notes/social/collective/action/"):
             rest = path[len("/corpus/notes/social/collective/action/"):]
             self._redirect("/corpus/notes/social/collective/governance/action/" + rest)
+            return True
+
+        # The state-action atlas became the collective-action atlas.
+        if path == "/corpus/notes/social/representation/action-atlas.html":
+            self._redirect("/corpus/notes/social/representation/collective-action-atlas.html")
+            return True
+
+        if path == "/corpus/notes/social/representation/action-atlas.json":
+            self._redirect("/corpus/notes/social/representation/collective-action-atlas.json")
             return True
 
         return False
