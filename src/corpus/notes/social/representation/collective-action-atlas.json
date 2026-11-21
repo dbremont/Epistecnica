@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 7
+    "version": 8
   },
   "problems": [
     {
@@ -5202,6 +5202,166 @@
       "mechanism": "Customs clearance and container handling move inland, cutting logistics costs.",
       "hue": "#8A6E4B",
       "icon": "🚛",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 197,
+      "name": "Manufacturing Process Engineering Service",
+      "description": "Industrial engineers diagnose and redesign plant processes.",
+      "mechanism": "They balance lines, set work standards, lay out equipment and measure process capability with firm staff.",
+      "hue": "#A0522D",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 198,
+      "name": "Tooling and Precision Manufacturing Centre",
+      "description": "Shared capability in dies, molds, machining and metal treatment.",
+      "mechanism": "The centre designs and produces tooling and runs precision processes that firms cannot afford alone.",
+      "hue": "#A0522D",
+      "icon": "🔩",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 199,
+      "name": "Total Productive Maintenance Program",
+      "description": "Builds machine-level reliability across a plant.",
+      "mechanism": "Operators take autonomous maintenance, planners schedule upkeep and overall equipment effectiveness is tracked.",
+      "hue": "#A0522D",
+      "icon": "🛠️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 200,
+      "name": "Quality Management Advisory Service",
+      "description": "Moves firms from inspection to process control.",
+      "mechanism": "Advisers install quality management systems, statistical process control and Six Sigma methods and prepare certification.",
+      "hue": "#A0522D",
+      "icon": "📐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 201,
+      "name": "Technology Absorption Laboratory",
+      "description": "Helps firms understand and adapt imported technology.",
+      "mechanism": "Engineers teardown, benchmark and reverse-engineer equipment and products together with the firm.",
+      "hue": "#A0522D",
+      "icon": "🔬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 202,
+      "name": "Lean Production Program",
+      "description": "Diffuses the full lean production system.",
+      "mechanism": "Coaches apply flow, pull, standard work, just-in-time and jidoka on the shop floor.",
+      "hue": "#A0522D",
+      "icon": "📉",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 203,
+      "name": "Supply Chain Synchronization Program",
+      "description": "Links suppliers to buyers' production schedules.",
+      "mechanism": "Shared forecasts, vendor scheduling and just-in-time delivery are installed between firms.",
+      "hue": "#A0522D",
+      "icon": "🔗",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 204,
+      "name": "Cleaner Production Centre",
+      "description": "Reduces material and energy waste at process level.",
+      "mechanism": "Audits identify losses and the centre implements prevention measures with firms.",
+      "hue": "#A0522D",
+      "icon": "♻️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 205,
+      "name": "Industrial Energy Audit Program",
+      "description": "Audits and retrofits industrial energy use.",
+      "mechanism": "Auditors measure consumption, prioritise savings and co-finance process retrofits.",
+      "hue": "#A0522D",
+      "icon": "⚡",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 206,
+      "name": "Engineering Advisory Service",
+      "description": "Brings practical engineering help to plants.",
+      "mechanism": "Contract engineers and retired specialists diagnose problems on site and transfer the fix to firm staff.",
+      "hue": "#A0522D",
+      "icon": "🧑‍🔧",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 207,
+      "name": "Equipment Maintenance Service",
+      "description": "Keeps SME equipment accurate and running.",
+      "mechanism": "Shared technicians perform preventive maintenance and calibration on a service contract.",
+      "hue": "#A0522D",
+      "icon": "🔧",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 208,
+      "name": "Supplier Capability Certification",
+      "description": "Qualifies local suppliers against lead-firm standards.",
+      "mechanism": "Audits assess capability and certified suppliers enter buyer-approved lists.",
+      "hue": "#A0522D",
+      "icon": "✅",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 209,
+      "name": "Sector Applied Engineering Centre",
+      "description": "Solves process problems for one industry.",
+      "mechanism": "Sector specialists run labs and pilot equipment for firms in that value chain.",
+      "hue": "#A0522D",
+      "icon": "🧰",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 210,
+      "name": "Policy Research Institute",
+      "description": "Applied research and analysis for public policy.",
+      "mechanism": "Researchers produce evidence, evaluations and options for government decisions.",
+      "hue": "#6E6A8A",
+      "icon": "📚",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 211,
+      "name": "Joint Public–Industry Policy Institute",
+      "description": "A research body co-governed by government and industry.",
+      "mechanism": "Both sides fund and steer a shared agenda of applied policy research.",
+      "hue": "#6E6A8A",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 212,
+      "name": "Industry Policy and Advocacy Institute",
+      "description": "Sector research plus organised industry advocacy.",
+      "mechanism": "The institute studies industry needs and represents them in policy debate.",
+      "hue": "#6E6A8A",
+      "icon": "📣",
       "caseStudies": [],
       "references": []
     }
