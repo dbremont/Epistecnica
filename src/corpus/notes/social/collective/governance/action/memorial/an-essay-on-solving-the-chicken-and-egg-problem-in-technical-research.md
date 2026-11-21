@@ -87,7 +87,7 @@ That is the case for state-sponsored technical research: not to replace the mark
 - [Research System](/view.html?p=notes/social/dynamic/knowledge/research-system.md)
 - [Talent Attraction](/view.html?p=notes/social/dynamic/research/talent-attraction.md)
 - [Basic Research System](/view.html?p=notes/social/dynamic/research/basic-research-system.md)
-- [An Essay on Technical Research](/view.html?p=notes/miscellanea/unclassified/research/an-essay-on-technical-research.md)
+- [An Essay on Technical Research](/view.html?p=notes/miscellanea/unclassified/an-essay-on-technical-research.md)
 - [Technical Activity](/view.html?p=notes/technica/meta/technical-activity.md)
 - [Technical Element](/view.html?p=notes/technica/meta/technical-element.md)
 - [A Model for Science and Technology Funding](/view.html?p=notes/social/collective/governance/action/memorial/a-model-for-science-and-technology-funding.md)

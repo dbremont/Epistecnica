@@ -14,6 +14,49 @@ Governance is the umbrella of the public side of the collective branch. The acto
 - [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) — public action: the problem space, the instruments, the informes and memorials, the cases.
 - **The administrative machinery** — the notes at this root: [Public Administration](/view.html?p=notes/social/collective/governance/administration.md), [Civil Service](/view.html?p=notes/social/collective/governance/civil-service.md), [Government-Wide Administration](/view.html?p=notes/social/collective/governance/gov-wide-administration.md).
 
+## Key notes elsewhere
+
+> The essays on the policy process, the state and public services are kept in the
+> miscellanea shelf; browse the whole set at
+> [unclassified](/explorer.html?dir=notes/miscellanea/unclassified).
+
+### Policy process
+
+- [Policy Identification](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-identification.md)
+- [Policy Design](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-design.md)
+- [Policy Coordination](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-coordination.md)
+- [Policy Implementation](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-implementation.md)
+- [Policy Monitoring and Evaluation](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-monitoring-evaluation.md)
+- [Policy Testing](/view.html?p=notes/miscellanea/unclassified/an-essay-on-policy-testing.md)
+- [Development Policy Coordination](/view.html?p=notes/miscellanea/unclassified/an-essay-on-development-policy-coordination.md)
+- [In Support of Policy Experimentation](/view.html?p=notes/miscellanea/unclassified/in-support-of-policy-experimentation.md)
+- [The Policy–Politics Conflation Hypothesis](/view.html?p=notes/miscellanea/unclassified/the-policy-politics-conflation-hypothesis-language-structure-and-development-outcomes.md)
+
+### The state and public services
+
+- [The Government–Market Relationship](/view.html?p=notes/miscellanea/unclassified/an-essay-on-government-market-relationship.md)
+- [Governing the World Without World Government](/view.html?p=notes/miscellanea/unclassified/an-essay-on-governing-the-world-without-world-government.md)
+- [The Digital State](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-digital-state.md)
+- [Enterprises with State Participation (ESP)](/view.html?p=notes/miscellanea/unclassified/an-essay-on-enterprises-with-state-participation-esp.md)
+- [Profiling State Personnel](/view.html?p=notes/miscellanea/unclassified/a-guide-to-profile-state-personnel.md)
+- [State Intelligence and Analysis, Research and Action](/view.html?p=notes/miscellanea/unclassified/an-essay-on-state-intelligence-and-analysis-research-and-action.md)
+- [State Investments for Development](/view.html?p=notes/miscellanea/unclassified/an-essay-on-state-investments-for-the-development.md)
+- [Public Services Marketization](/view.html?p=notes/miscellanea/unclassified/an-essay-of-public-services-marketization.md)
+- [Auditing](/view.html?p=notes/miscellanea/unclassified/an-essay-on-auditing.md)
+- [Public-Sector Reduction](/view.html?p=notes/miscellanea/unclassified/an-essay-on-public-sector-reduction.md)
+- [Public–Private Partnerships (PPPs)](/view.html?p=notes/miscellanea/unclassified/an-essay-on-public-private-partnerships-ppps.md)
+- [«Burrocracia»](/view.html?p=notes/miscellanea/unclassified/an-essay-on-burrocracia.md)
+
+### Development and industrial policy
+
+- [A Defense of Industrial Policy](/view.html?p=notes/miscellanea/unclassified/a-defense-of-industrial-policy.md)
+- [The Complexity of Development Policy](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-complexity-of-development-policy.md)
+- [Explaining Development](/view.html?p=notes/miscellanea/unclassified/an-essay-on-explaining-development.md)
+- [The Black Book of Economic Development](/view.html?p=notes/miscellanea/unclassified/an-essay-on-the-black-book-of-economic-development.md)
+- [Designing Industrial Policy Projects](/view.html?p=notes/miscellanea/unclassified/an-essay-on-designing-industrial-policy-projects.md)
+- [Cluster: The Heart of Productive Policy](/view.html?p=notes/miscellanea/unclassified/an-essay-on-cluster-the-heart-of-productive-policy.md)
+- [The Art of Economic Statecraft](/view.html?p=notes/miscellanea/unclassified/the-art-of-economic-statecraft.md)
+
 ## Historical regimes
 
 - [Mandarin](/view.html?p=notes/social/collective/governance/mandarinate.md) — the examination-selected bureaucratic corps.

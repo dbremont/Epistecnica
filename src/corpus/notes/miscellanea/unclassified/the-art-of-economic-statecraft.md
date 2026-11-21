@@ -202,4 +202,4 @@ The entry also stresses that early modern economics was a mature inquiry: price 
 - Baker, Scott R., Nicholas Bloom, and Steven J. Davis. "Measuring economic policy uncertainty." The quarterly journal of economics 131.4 (2016): 1593-1636.
 - Das, I. P. S. I. T. A., et al. "A virtuous cycle." *Reviewing the evidence on women’s empowerment and energy access, frameworks, metrics and methods* (2020).
 - [Fernando Fajnzylber Waissbluth](https://es.wikipedia.org/wiki/Fernando_Fajnzylber)
-- [The Agent–Social-Reality Hard Coupling Problem](agent-social-reality-hard-coupling-problem.md)
+- [The Agent–Social-Reality Hard Coupling Problem](/view.html?p=notes/social/collective/governance/action/problem/agent-social-reality-hard-coupling-problem.md)

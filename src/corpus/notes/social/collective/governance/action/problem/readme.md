@@ -17,7 +17,7 @@ order: 0
 
 **Problem belongs to the `Problem / Problematization` social element type (Cognitive category, `Intention` branch of the agentic spine)** — the apprehended gap between conditions and a norm, and the process of forming it. It sits under `Interaction Unit -> Agency -> Intention`, alongside `Deliberation`, `Decision / Choice`, `Goal`, and `Objective / Target`.
 
-It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
+It is distinct from `Goal` (the desired state taken as the intention's object, not the gap itself), from `Policy` (the authorized course answering the problem), and from [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md) (the coordination failure that keeps recognized problems unanswered).
 
 ### What is this social instance?
 
@@ -49,7 +49,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 
 > A **policy problem** is a problem taken up as warranting a policy course: it names what the authorized doing shall head toward, and decomposes into mandate, instrument, goal, target, agency, rule, and review.
 
-> Problematization formulates the problem; [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) answers it with a course; the [problem domains](#sec-the-problem-domains) scope in which domain of social reality it sits. See [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process, and [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md) for the coordination failure that keeps recognized problems unanswered.
+> Problematization formulates the problem; [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md) answers it with a course; the [problem domains](#sec-the-problem-domains) scope in which domain of social reality it sits. See [Problematization](/view.html?p=notes/epistemica/problematization.md) for the process, and [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md) for the coordination failure that keeps recognized problems unanswered.
 
 ### What is a policy problem?
 
@@ -111,7 +111,7 @@ It is distinct from `Goal` (the desired state taken as the intention's object, n
 - [Agency](/view.html?p=notes/social/collective/governance/action/public-agency.md)
 - [Policy](/view.html?p=notes/social/dynamic/action/guidance/policy.md)
 - [Problematization](/view.html?p=notes/epistemica/problematization.md)
-- [The Collective Action Problem](/view.html?p=notes/notes/social/collective/governance/action/problem/collective-action-problem.md)
+- [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md)
 - [What is Regulation?](https://www.yalejreg.com/bulletin/what-is-regulation/)
 - An Essay Of Public Services Marketization
 - [Center of Excellence in Tax Systems Research](https://www.tuni.fi/en/research/centre-excellence-tax-systems-research)

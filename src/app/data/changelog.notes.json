@@ -21493,6 +21493,11 @@
     "kind": "refactor",
     "summary": "Move from epistemica/singular/problematization.md to epistemica/problematization.md in the corpus reorganisation.",
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the systemic-problem link to the problem shelf."
    }
   ]
  },
@@ -29347,6 +29352,16 @@
   ]
  },
  {
+  "file_path": "miscellanea/unclassified/an-essay-composition-local-action-global-outcome.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
   "file_path": "miscellanea/unclassified/an-essay-on-academic-publishing.md",
   "logs": [
    {
@@ -29421,6 +29436,21 @@
     "kind": "feat",
     "summary": "Add the essay on firm minimum viable size: the threshold reading of firm scale and the SME agency diagnosis problem.",
     "commit": "de28950543268ab9316c16302aa9f51e882cad2d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action Problem link to the problem shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/an-essay-on-fundamental-research.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
    }
   ]
  },
@@ -29433,6 +29463,16 @@
     "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
     "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/an-essay-on-r-and-d-marketization.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
    }
   ]
  },
@@ -29456,6 +29496,16 @@
   ]
  },
  {
+  "file_path": "miscellanea/unclassified/an-essay-on-technical-research.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
   "file_path": "miscellanea/unclassified/an-essay-on-the-history-of-the-periodic-table.md",
   "logs": [
    {
@@ -29468,7 +29518,81 @@
   ]
  },
  {
-  "file_path": "miscellanea/unclassified/articulation/on-the-nature-of-the-agentic-driven-social-reality-evolution.md",
+  "file_path": "miscellanea/unclassified/an-essay-on-the-organizational-model-of-technical-research.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/an-essay-on-the-term-national-innovation-system.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/cartilla-minima-para-razonar-sobre-el-desarrollo-economico-marcos-y-modelos.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Retarget links to the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
+    "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the systemic-problem links to the problem shelf."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/history-of-economic-thinking-and-practice.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/history-of-the-discovery-of-the-law-of-falling-bodies.md",
+  "logs": [
+   {
+    "date": "2026-11-18",
+    "kind": "feat",
+    "summary": "New history note: the law of falling bodies from Aristotle's weight-proportional fall and the argument against the void, through Philoponus, Buridan's impetus and Oresme's mean-speed theorem, the Renaissance experiments of Benedetti and Stevin's Delft drop, Galileo's inclined plane, odd-number law, definition of uniform acceleration, conceptual experiment and the Pisa legend with its evidence, the measurement of g from Huygens to Kater, Newton's Moon test and universal gravitation, and the modern equivalence-principle tests. Closes with the historiographical dispute - Koyre, Drake, Settle - and the reading of the law as the case in which the modern idea of a physical law was worked out."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/history.md",
+  "logs": [
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
+   }
+  ]
+ },
+ {
+  "file_path": "miscellanea/unclassified/on-the-nature-of-the-agentic-driven-social-reality-evolution.md",
   "logs": [
    {
     "date": "2026-11-19",
@@ -29502,57 +29626,21 @@
     "summary": "Retarget links to the koinomia -> collective shelf rename.",
     "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
     "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Flatten the unclassified content into the shelf root."
    }
   ]
  },
  {
-  "file_path": "miscellanea/unclassified/cartilla-minima-para-razonar-sobre-el-desarrollo-economico-marcos-y-modelos.md",
+  "file_path": "miscellanea/unclassified/the-art-of-economic-statecraft.md",
   "logs": [
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Retarget links to the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5",
-    "before": "3cca0bcf20a95c7cdb138954f226a81c7d4243a7"
-   }
-  ]
- },
- {
-  "file_path": "miscellanea/unclassified/commercial-sector-evolution.md",
-  "logs": [
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
-    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
-   }
-  ]
- },
- {
-  "file_path": "miscellanea/unclassified/history-of-the-discovery-of-the-law-of-falling-bodies.md",
-  "logs": [
-   {
-    "date": "2026-11-18",
-    "kind": "feat",
-    "summary": "New history note: the law of falling bodies from Aristotle's weight-proportional fall and the argument against the void, through Philoponus, Buridan's impetus and Oresme's mean-speed theorem, the Renaissance experiments of Benedetti and Stevin's Delft drop, Galileo's inclined plane, odd-number law, definition of uniform acceleration, conceptual experiment and the Pisa legend with its evidence, the measurement of g from Huygens to Kater, Newton's Moon test and universal gravitation, and the modern equivalence-principle tests. Closes with the historiographical dispute - Koyre, Drake, Settle - and the reading of the law as the case in which the modern idea of a physical law was worked out."
+    "summary": "Retarget the hard-coupling link to the problem shelf."
    }
   ]
  },
@@ -67325,6 +67413,11 @@
     "summary": "Retarget to the merged Problem hub.",
     "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
     "before": "951863c0beb71000f3dad1176377806a394b622f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action Problem link to the problem shelf."
    }
   ]
  },
@@ -82151,6 +82244,11 @@
     "kind": "feat",
     "summary": "Rewrite as the note on the art of problematization: why posing the problem is hard, and the prompt set that tests it.",
     "commit": "325c79476bf4b1d71aa60b72c0ff0400faa562ee"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Fix the problem-shelf links."
    }
   ]
  },
@@ -82710,6 +82808,11 @@
     "summary": "Become the shelf readme: the Problem hub carries the element, the policy problem and the domains.",
     "commit": "325c79476bf4b1d71aa60b72c0ff0400faa562ee",
     "before": "23ae2e98bca40a6abbbea052fce98fbda9a9c2e3"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Fix the problem-shelf links in the Systemic problems section."
    }
   ]
  },
@@ -83585,6 +83688,11 @@
     "summary": "Retarget to the merged Problem hub.",
     "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
     "before": "951863c0beb71000f3dad1176377806a394b622f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Collective Action Problem link to the problem shelf."
    }
   ]
  },
@@ -89556,6 +89664,11 @@
     "summary": "Link the new Government Representation surface and retarget the renamed systems page.",
     "commit": "eee3c1572bbf18970563b37cb2d361dfb747240f",
     "before": "4ac87324bee2de6563e419835a23272283b957b4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Link the key policy, state and industrial-policy essays from the uncategorized miscellanea."
    }
   ]
  },
@@ -147874,6 +147987,33 @@
     "summary": "References now link the 3D printing note as the additive counterpart.",
     "commit": "04bac2ec362c9eb5da91acd7bc2151b7cd635a8f",
     "before": "0c5412dd8acdfa6964b8c66f19a2bcb8929776e3"
+   }
+  ]
+ },
+ {
+  "file_path": "technica/production/industry/commerce/commercial-sector-evolution.md",
+  "logs": [
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the state shelf moved to social/observation/ and the economic shelf was distributed into the dynamic process shelves."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after the economic shelf was flattened (activity/ and dynamics/ dissolved)."
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Retarget the links after dynamic/activity/ was flattened and the economic trees merged under dynamic/economic/.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5",
+    "before": "2553029461ad2e98cf40818f04471cfc5698e0bf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the commercial-sector note in the commerce industry shelf."
    }
   ]
  },

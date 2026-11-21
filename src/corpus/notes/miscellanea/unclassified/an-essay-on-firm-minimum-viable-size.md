@@ -112,7 +112,7 @@ And the diagnosis remains a collective action problem even with a scorecard. The
 - [Collective Action](/view.html?p=notes/social/collective/governance/action/readme.md) — the action kind and its coordination problem
 - [Firm](/view.html?p=notes/technica/business/firm.md) — the firm metrics, including minimum efficient scale
 - [Cluster](/view.html?p=notes/social/collective/governance/action/problem/production/cluster/cluster.md) — critical mass at the cluster level
-- [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md) — the coordination failure
+- [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md) — the coordination failure
 - [A Defense of Industrial Policy](/view.html?p=notes/miscellanea/unclassified/a-defense-of-industrial-policy.md) — the industrial-policy frame
 - [United States Small Business Administration](/view.html?p=notes/social/collective/governance/actor/instance/development/united-states-small-business-administration.md)
 - [Sebrae](/view.html?p=notes/social/actor/private/education/bra/sebrae.md)

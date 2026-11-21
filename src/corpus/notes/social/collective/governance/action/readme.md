@@ -25,7 +25,7 @@ Its facet is not fixed: a case is political when the goal is a public good or a 
 
 ### What is this social instance?
 
-> The coordinated doing by which a set of agents pools effort toward a goal none of them can secure alone: mutual aid, strikes, boycotts, petitions, lobbying, demonstrations, community provisioning, and the organized pursuit of public goods. What makes it collective is not the number of agents but the coordination: a shared goal, a rule of contribution, and an arrangement that makes contribution visible and defection costly. Its central failure is worked in [The Collective Action Problem](/view.html?p=notes/miscellanea/unclassified/collective-action-problem.md).
+> The coordinated doing by which a set of agents pools effort toward a goal none of them can secure alone: mutual aid, strikes, boycotts, petitions, lobbying, demonstrations, community provisioning, and the organized pursuit of public goods. What makes it collective is not the number of agents but the coordination: a shared goal, a rule of contribution, and an arrangement that makes contribution visible and defection costly. Its central failure is worked in [The Collective Action Problem](/view.html?p=notes/social/collective/governance/action/problem/collective-action-problem.md).
 
 ### What is the recursive instance decomposition of this social instance?
 
