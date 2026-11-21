@@ -100413,7 +100413,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Fill the social section master: the shelves, the guide, and how to read the corpus."
+    "summary": "Fill the social section master: the shelves, the guide, and how to read the corpus.",
+    "commit": "108f020818bc6e032a9e8dd9eb277d844809bd0d",
+    "before": "3457259d9d666b9bac0a1bcb19d2c7f41ea53237"
    }
   ]
  },
