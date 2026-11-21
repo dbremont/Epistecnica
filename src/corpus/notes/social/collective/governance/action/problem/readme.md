@@ -5,4 +5,4 @@ order: 2
 
 # Problem — Problematization
 
-> Notes for Problem — the gap between conditions and a norm as apprehended by an agency. The domains it is read through live in this shelf, under [Domain](/view.html?p=notes/social/collective/governance/action/problem/domain.md). General hub: [Problem](/view.html?p=notes/social/collective/governance/action/problem/problem.md); policy specialization: [Policy Problem](/view.html?p=notes/social/collective/governance/action/problem/policy-problem.md).
+> Notes for Problem — the gap between conditions and a norm as apprehended by an agency. The hub [Problem](/view.html?p=notes/social/collective/governance/action/problem/problem.md) carries the general element, the policy-problem specialization and the problem-domain index; the shelf below holds the domain dossiers and the cases.

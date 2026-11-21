@@ -100,7 +100,7 @@ Its facet is not fixed: a case is political when the goal is a public good or a 
 
 ## Structure
 
-- [Domain](/view.html?p=notes/social/collective/governance/action/problem/domain.md) — the facets of social reality that public action reflects on and targets.
+- [Problem Domains](/view.html?p=notes/social/collective/governance/action/problem/problem.md&toc-item=the-problem-domains) — the facets of social reality that public action reflects on and targets.
 - [Organization](/explorer.html?dir=notes/social/dynamic/action/organization) — how action is arranged: agenda, plan, program, project, schedule, workflow.
 - [Guidance](/explorer.html?dir=notes/social/dynamic/action/guidance) — how action is oriented: strategy, rule, framework, doctrine, policy.
 - Toolkit    (Which is the toolkit? )
