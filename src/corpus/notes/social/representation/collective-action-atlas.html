@@ -110,7 +110,8 @@
         .header-quote { margin: 0; font-family: var(--font-display); font-style: italic; font-size: 1.05rem; line-height: 1.5; color: var(--text-secondary); }
         .header-quote-rule { display: inline-block; width: 2.5rem; height: 1px; background: var(--accent-gold); margin-top: 0.9rem; }
         html[data-theme="light"] .header-engraving { opacity: 0.6; }
-        .toolbar { display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; margin:0 0 1.2rem; }
+        .toolbar { display:flex; gap:0.8rem; flex-wrap:wrap; align-items:center; margin:1.4rem 0 1.2rem; padding-top:1.1rem; border-top:1px solid var(--border-medium); }
+        .toolbar-meta { font-family:var(--font-mono); font-size:0.58rem; letter-spacing:0.06em; color:var(--text-muted); }
         #search { flex:1 1 16rem; background:var(--bg-card); border:1px solid var(--border-medium); color:var(--text-primary); border-radius:var(--radius-md); padding:0.55rem 0.8rem 0.55rem 2rem; font-size:0.8rem;
             background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%237a87a0' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='M21 21l-4.3-4.3'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:0.6rem center; }
         .viewmodes { display:flex; gap:0.3rem; align-items:center; font-size:0.68rem; color:var(--text-muted); }
@@ -150,10 +151,6 @@
         .trow .count { margin-left:auto; font-family:var(--font-mono); font-size:0.65rem; color:var(--text-ghost); font-variant-numeric:tabular-nums; }
         .trow.filtered { opacity:0.4; }
         .tkids { margin-left:1em; border-left:1px solid var(--border-subtle); padding-left:0.3rem; }
-        .seglabel { font-size:0.72rem; font-weight:600; margin:1rem 0 0.4rem; padding-top:0.8rem; border-top:1px solid var(--border-subtle); }
-        .fld { margin-top:0.7rem; }
-        .fld label { display:block; font-size:0.68rem; font-weight:600; color:var(--text-secondary); margin-bottom:0.25rem; }
-        .fld select { width:100%; background:var(--bg-surface); border:1px solid var(--border-medium); color:var(--text-primary); border-radius:var(--radius-md); padding:0.45rem 0.55rem; font-size:0.75rem; }
         .linklike { background:none; border:0; color:var(--accent-cyan); font-size:0.68rem; cursor:pointer; }
         .linklike:hover { color:var(--accent-cyan); text-decoration:underline; }
         .linkrow { display:flex; gap:0.7rem; margin-top:0.7rem; align-items:center; }
@@ -259,6 +256,7 @@
 
 <div class="toolbar">
         <input id="search" type="search" placeholder="Search domains, problems, instruments…" autocomplete="off">
+        <span class="toolbar-meta" id="atlasMeta"></span>
 </div>
 <div class="grid">
     <aside class="panel" id="explorer">
@@ -266,9 +264,6 @@
         <p class="hint">Select domains to compare. All selected initially.</p>
         <div class="linkrow"><button class="linklike" id="checkAll" type="button">Select all</button><button class="linklike" id="clearAll" type="button">Clear</button></div>
         <div class="tree" id="tree"></div>
-        <div class="seglabel">Filters <button class="linklike" id="clearFilters" type="button">Clear all</button></div>
-        <div class="fld"><label>Policy domain</label><select id="fDomain"><option value="">All domains</option></select></div>
-        <div class="fld"><label>Target group</label><select id="fGroup"><option value="">All groups</option></select></div>
     </aside>
     <main>
         <div class="netcontrols">
@@ -345,7 +340,7 @@
 
     var S = { data: null, mode: "network", chosen: {}, focusV: null, selI: null,
         hasSelection: false, detailSide: "problem", detailKind: "problem",
-        q: "", tq: "", domain: "", group: "",
+        q: "", tq: "",
         showRel: true, showCounts: true, role: "all",
         sortKey: "name", sortDir: 1, openNodes: {}, rel: null, byParent: {}, roots: [] };
 
@@ -369,8 +364,6 @@
     function relsFor(vid) { return S.data.relationships.filter(function (r) { return sameId(r.problem, vid) && (S.role === "all" || r.role === S.role); }); }
     function hasRel(vid) { for (var i = 0; i < S.data.relationships.length; i++) if (sameId(S.data.relationships[i].problem, vid)) return true; return false; }
     function vPass(v) {
-        if (S.domain && v.policyDomain && v.policyDomain !== S.domain) return false;
-        if (S.group && v.targetGroup && v.targetGroup !== S.group) return false;
         if (S.q && ((v.name || "") + " " + (v.statement || "") + " " + (v.description || "")).toLowerCase().indexOf(S.q) === -1) return false;
         return true;
     }
@@ -787,15 +780,6 @@
     }
 
     /* ---------- chrome ---------- */
-    function fillFilters() {
-        function opts(id, vals) {
-            var s = document.getElementById(id);
-            vals.forEach(function (x) { var o = document.createElement("option"); o.value = x; o.textContent = x; s.appendChild(o); });
-        }
-        function uniq(fn) { var o = {}; allProblems().forEach(function (v) { var x = fn(v); if (x) o[x] = true; }); return Object.keys(o).sort(); }
-        opts("fDomain", uniq(function (v) { return v.policyDomain; }));
-        opts("fGroup", uniq(function (v) { return v.targetGroup; }));
-    }
     function setMode(m) {
         S.mode = m;
         document.querySelectorAll(".viewmodes .tab").forEach(function (t) { t.classList.toggle("active", t.getAttribute("data-mode") === m); });
@@ -817,8 +801,6 @@
         if (S.q) p.push("q=" + encodeURIComponent(S.q));
         var off = Object.keys(S.chosen).filter(function (k) { return !S.chosen[k]; });
         if (off.length) p.push("off=" + off.join(","));
-        if (S.domain) p.push("dom=" + encodeURIComponent(S.domain));
-        if (S.group) p.push("grp=" + encodeURIComponent(S.group));
         try { history.replaceState(null, "", location.pathname + "?" + p.join("&")); } catch (e) {}
     }
     function readState() {
@@ -834,8 +816,6 @@
         if (q.side === "problem" || q.side === "instrument") S.detailSide = q.side;
         if (q.kind === "problem" || q.kind === "instrument") S.detailKind = q.kind;
         if (q.q) { S.q = q.q.toLowerCase(); S.tq = q.q; }
-        if (q.dom) S.domain = q.dom;
-        if (q.grp) S.group = q.grp;
         if (q.v) S.focusV = q.v;
         if (q.i) S.selI = q.i;
         if (q.sel === "1") S.hasSelection = true;
@@ -870,14 +850,6 @@
         if (k === "counts") S.showCounts = p.classList.contains("active");
         renderMap();
     }); });
-    document.getElementById("fDomain").addEventListener("change", function (e) { S.domain = e.target.value; renderAll(); });
-    document.getElementById("fGroup").addEventListener("change", function (e) { S.group = e.target.value; renderAll(); });
-    document.getElementById("clearFilters").addEventListener("click", function () {
-        S.domain = S.group = ""; S.q = ""; S.tq = "";
-        document.getElementById("fDomain").value = ""; document.getElementById("fGroup").value = "";
-        document.getElementById("search").value = "";
-        renderAll();
-    });
     document.addEventListener("keydown", function (e) {
         if (e.key === "Escape" && S.hasSelection) { S.hasSelection = false; renderAll(); }
     });
@@ -909,19 +881,19 @@
         var danglingParent = allProblems().filter(function (p) { return p.parent != null && !pids[p.parent]; });
         if (dangling.length) throw new Error("dangling relationship refs");
         if (danglingParent.length) throw new Error("dangling parent refs");
+        var nDomains = allProblems().filter(function (v) { return v.parent == null; }).length;
+        var metaEl = document.getElementById("atlasMeta");
+        if (metaEl) metaEl.textContent = nDomains + " domains · " + allProblems().length + " problems · " + data.instruments.length + " instruments";
         allProblems().forEach(function (v) { S.chosen[v.id] = true; });
         S.focusV = null;
         ensureFocus();
         if (S.focusV && S.selI) { S.hasSelection = true; S.detailSide = "problem"; }
-        fillFilters();
         var rst = readState();
         // validate URL-provided ids against the dataset
         if (S.focusV && !byId(data.problems, S.focusV)) S.focusV = null;
         if (S.selI && !byId(data.instruments, S.selI)) S.selI = null;
         if (rst.off) rst.off.split(",").forEach(function (id) { if (pids[id]) S.chosen[id] = false; });
         if (S.q) document.getElementById("search").value = rst.q || "";
-        if (S.domain) document.getElementById("fDomain").value = S.domain;
-        if (S.group) document.getElementById("fGroup").value = S.group;
         ensureFocus();
         if (!S.hasSelection && S.focusV && S.selI) { S.hasSelection = true; if (!rst.side) S.detailSide = "problem"; if (!rst.kind) S.detailKind = "problem"; }
         syncRel();
