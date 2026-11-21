@@ -1,7 +1,7 @@
 {
   "meta": {
-    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eight root problem domains, each directly mappable to policy instruments.",
-    "version": 3
+    "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root problem domains, each directly mappable to policy instruments.",
+    "version": 4
   },
   "problems": [
     {
@@ -123,7 +123,7 @@
     {
       "id": 5,
       "parent": null,
-      "name": "Policy Process and Governance Domain",
+      "name": "Policy Process Domain",
       "statement": "Government lacks the capability to design, implement, and adapt industrial policies suited to local conditions.",
       "description": "Policy capacity includes diagnosis, dialogue with the private sector, learning from international experience, coordination across agencies, and implementation discipline.",
       "goals": [
@@ -133,7 +133,7 @@
         "Adapt policies to local context"
       ],
       "granularity": "broad",
-      "policyDomain": "Policy Process and Governance",
+      "policyDomain": "Policy Process",
       "targetGroup": "Policy Makers, Bureaucrats",
       "references": [
         {
@@ -156,7 +156,7 @@
     {
       "id": 6,
       "parent": null,
-      "name": "Infrastructure and Business Environment Domain",
+      "name": "Infrastructure Domain",
       "statement": "Poor infrastructure, logistics, and administrative burden raise costs and reduce industrial competitiveness.",
       "description": "Reliable power, transport, industrial parks, and efficient administration are necessary for industrial investment and cluster development.",
       "goals": [
@@ -166,7 +166,7 @@
         "Reduce administrative burden"
       ],
       "granularity": "broad",
-      "policyDomain": "Infrastructure and Business Environment",
+      "policyDomain": "Infrastructure",
       "targetGroup": "Firms, Investors",
       "references": [
         {
@@ -673,7 +673,7 @@
     },
     {
       "id": 31,
-      "parent": 6,
+      "parent": 41,
       "name": "Administrative Burden",
       "statement": "Complex regulations and procedures raise costs and delay investment.",
       "description": "Administrative burden discourages formal investment and firm growth.",
@@ -919,6 +919,224 @@
         {
           "label": "Labor Market",
           "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "parent": null,
+      "name": "Business Environment Domain",
+      "statement": "Firms face an administrative and regulatory environment that raises the cost of starting, operating and complying, and that discourages investment.",
+      "description": "The business environment is the set of rules, procedures and services a firm meets when it invests, operates and exits: business law, permits, inspections, and the one-stop services that reduce the administrative burden.",
+      "goals": [
+        "Reduce administrative burden",
+        "Simplify business regulation",
+        "Make entry and exit predictable"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Business Environment",
+      "targetGroup": "Firms, Investors",
+      "references": [
+        {
+          "label": "Regulation",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/regulation/regulation.md"
+        },
+        {
+          "label": "Civil Service",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/bureaucracy/civil-service.md"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "parent": null,
+      "name": "Technical Research Domain",
+      "statement": "The technical research system is thin: institutes, programmes and industry links are too weak to generate and absorb technology.",
+      "description": "Technical research turns science into technique: the institutes, programmes, standards and industry links through which a country develops and absorbs technology.",
+      "goals": [
+        "Build technical research institutes",
+        "Link research to industry",
+        "Absorb foreign technology"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Research Institutes, Firms, Engineers",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "parent": null,
+      "name": "Scientific Research Domain",
+      "statement": "Fundamental science is underfunded and disconnected from the long horizon it needs.",
+      "description": "Scientific research is the creation of fundamental knowledge — the universities, laboratories and funding agencies whose output is the long-run input to technical research and innovation.",
+      "goals": [
+        "Fund fundamental research",
+        "Protect long-horizon inquiry",
+        "Connect science to training"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Research and Technology",
+      "targetGroup": "Universities, Laboratories, Funders",
+      "references": [
+        {
+          "label": "Research",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/research/research.md"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "parent": null,
+      "name": "Financial Domain",
+      "statement": "Firms cannot obtain the banking, capital-market and risk-finance services they need to invest and grow.",
+      "description": "The financial system intermediates savings into investment: banks, capital markets, development finance, guarantees and leasing.",
+      "goals": [
+        "Deepen financial intermediation",
+        "Reduce the cost of capital",
+        "Finance long-term investment"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Industrial Finance",
+      "targetGroup": "Firms, Banks, Investors",
+      "references": [
+        {
+          "label": "Finance",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/finance/finance.md"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "parent": null,
+      "name": "Monetary Domain",
+      "statement": "Monetary instability and a shallow monetary system raise the cost of contracting and deter long-term investment.",
+      "description": "The monetary system supplies the unit of account, the means of payment and the lender of last resort; its stability is a precondition for the rest of the financial system.",
+      "goals": [
+        "Maintain monetary stability",
+        "Develop the payment system",
+        "Provide a lender of last resort"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Monetary System",
+      "targetGroup": "Central Bank, Banks, Firms",
+      "references": [
+        {
+          "label": "Monetary System",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/monetary/monetary-system.md"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "parent": null,
+      "name": "Legal Domain",
+      "statement": "Property, contract and insolvency rules are too weak or too costly to enforce, so investment cannot be secured.",
+      "description": "The legal system makes investment enforceable: property rights, contracts, insolvency and the courts that adjudicate them.",
+      "goals": [
+        "Secure property rights",
+        "Enforce contracts",
+        "Make insolvency orderly"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Legal System",
+      "targetGroup": "Firms, Investors, Courts",
+      "references": [
+        {
+          "label": "Legal System",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/legal/legal-system.md"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "parent": null,
+      "name": "Labor Domain",
+      "statement": "The labor market does not match workers to firms: wages, informality and skills keep both sides from adjusting.",
+      "description": "The labor market prices and allocates work: employment, wages, informality, skills and the rules that govern hiring and separation.",
+      "goals": [
+        "Match workers to firms",
+        "Reduce informality",
+        "Make hiring and separation predictable"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Labor Market",
+      "targetGroup": "Workers, Firms, Employers",
+      "references": [
+        {
+          "label": "Labor Market",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/labor/labor-market.md"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "parent": null,
+      "name": "Public Governance Domain",
+      "statement": "Public administration lacks the capacity, coordination and accountability to deliver policy.",
+      "description": "Public governance is the administrative ecosystem: the civil service, the government-wide coordinating layer, the standards and the oversight through which the state delivers.",
+      "goals": [
+        "Build administrative capacity",
+        "Coordinate across agencies",
+        "Hold delivery accountable"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Public Governance",
+      "targetGroup": "Public Administration, Civil Service, Agencies",
+      "references": [
+        {
+          "label": "Governance",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/state/governance/governance.md"
+        },
+        {
+          "label": "Civil Service",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/bureaucracy/civil-service.md"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "parent": null,
+      "name": "Public Representation Domain",
+      "statement": "The representation system — who is authorized to speak for whom — is weakly designed, so preferences and accountability are poorly aggregated.",
+      "description": "Public representation is the design of the representative link: the electoral and parliamentary arrangements through which preferences are aggregated and the executive is held to account.",
+      "goals": [
+        "Aggregate preferences",
+        "Hold the executive to account",
+        "Match representation to the polity"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Public Representation",
+      "targetGroup": "Legislatures, Parties, Citizens",
+      "references": [
+        {
+          "label": "Representation",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/state/representation/representation.md"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "parent": null,
+      "name": "Market Domain",
+      "statement": "Markets are not contestable: competition is weak, consumer protection is thin and market design is passive.",
+      "description": "Market policy is the design and policing of markets: competition, consumer protection, market design and the rules that keep markets contestable.",
+      "goals": [
+        "Keep markets contestable",
+        "Protect consumers",
+        "Design market rules"
+      ],
+      "granularity": "broad",
+      "policyDomain": "Market Policy",
+      "targetGroup": "Firms, Consumers, Regulators",
+      "references": [
+        {
+          "label": "Market Policy",
+          "url": "/view.html?p=notes/social/collective/governance/action/problem/market/market-policy.md"
         }
       ]
     }
@@ -2338,7 +2556,7 @@
       ]
     },
     {
-      "problem": 6,
+      "problem": 41,
       "instrument": 16,
       "role": "secondary",
       "strength": 4,
@@ -2351,7 +2569,7 @@
       ]
     },
     {
-      "problem": 6,
+      "problem": 41,
       "instrument": 16,
       "role": "primary",
       "strength": 5,
@@ -2364,7 +2582,7 @@
       ]
     },
     {
-      "problem": 6,
+      "problem": 41,
       "instrument": 21,
       "role": "primary",
       "strength": 4,
@@ -2536,6 +2754,354 @@
       ],
       "functions": [
         "MVS target"
+      ]
+    },
+    {
+      "problem": 42,
+      "instrument": 28,
+      "role": "primary",
+      "strength": 4,
+      "name": "Carries research into production",
+      "conditions": [
+        "Industry partners",
+        "Research capacity"
+      ],
+      "functions": [
+        "Technology transfer",
+        "Absorption"
+      ]
+    },
+    {
+      "problem": 42,
+      "instrument": 9,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Funds technical training and research skills",
+      "conditions": [
+        "Training institutions"
+      ],
+      "functions": [
+        "Research training"
+      ]
+    },
+    {
+      "problem": 42,
+      "instrument": 20,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Sets the technical research priorities",
+      "conditions": [
+        "Diagnostic capacity"
+      ],
+      "functions": [
+        "Research targets"
+      ]
+    },
+    {
+      "problem": 43,
+      "instrument": 28,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Links fundamental science to industrial application",
+      "conditions": [
+        "University–industry agreements"
+      ],
+      "functions": [
+        "Research translation"
+      ]
+    },
+    {
+      "problem": 43,
+      "instrument": 13,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Learns from research systems elsewhere",
+      "conditions": [
+        "Policy learning capacity"
+      ],
+      "functions": [
+        "Comparative research policy"
+      ]
+    },
+    {
+      "problem": 43,
+      "instrument": 20,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Sets the science budget and priorities",
+      "conditions": [
+        "Political commitment"
+      ],
+      "functions": [
+        "Research funding targets"
+      ]
+    },
+    {
+      "problem": 44,
+      "instrument": 25,
+      "role": "primary",
+      "strength": 4,
+      "name": "Provides long-term industrial finance",
+      "conditions": [
+        "Sound lending",
+        "Project pipeline"
+      ],
+      "functions": [
+        "Long-term credit",
+        "Equity"
+      ]
+    },
+    {
+      "problem": 44,
+      "instrument": 3,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Shares the risk of lending to firms",
+      "conditions": [
+        "Credit information"
+      ],
+      "functions": [
+        "Loan guarantees"
+      ]
+    },
+    {
+      "problem": 44,
+      "instrument": 4,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Channels subsidized funds to targeted firms",
+      "conditions": [
+        "Eligible banks"
+      ],
+      "functions": [
+        "Subsidized credit"
+      ]
+    },
+    {
+      "problem": 44,
+      "instrument": 26,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Provides equipment without large collateral",
+      "conditions": [
+        "Leasing market"
+      ],
+      "functions": [
+        "Equipment finance"
+      ]
+    },
+    {
+      "problem": 45,
+      "instrument": 3,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Supports credit supply through guarantees",
+      "conditions": [
+        "Stable prices"
+      ],
+      "functions": [
+        "Credit support"
+      ]
+    },
+    {
+      "problem": 45,
+      "instrument": 4,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Channels monetary resources to priority sectors",
+      "conditions": [
+        "Central-bank capacity"
+      ],
+      "functions": [
+        "Directed credit"
+      ]
+    },
+    {
+      "problem": 45,
+      "instrument": 25,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Provides the development-finance arm",
+      "conditions": [
+        "Fiscal space"
+      ],
+      "functions": [
+        "Development finance"
+      ]
+    },
+    {
+      "problem": 46,
+      "instrument": 21,
+      "role": "primary",
+      "strength": 4,
+      "name": "Reforms property, contract and business law",
+      "conditions": [
+        "Legislative capacity",
+        "Courts"
+      ],
+      "functions": [
+        "Legal reform",
+        "Contract enforcement"
+      ]
+    },
+    {
+      "problem": 46,
+      "instrument": 16,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Reduces procedural burden on firms",
+      "conditions": [
+        "Administrative capacity"
+      ],
+      "functions": [
+        "One-stop services"
+      ]
+    },
+    {
+      "problem": 47,
+      "instrument": 7,
+      "role": "primary",
+      "strength": 4,
+      "name": "Builds the skills the labor market demands",
+      "conditions": [
+        "TVET capacity",
+        "Employer demand"
+      ],
+      "functions": [
+        "Skills training"
+      ]
+    },
+    {
+      "problem": 47,
+      "instrument": 24,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Certifies skills and improves matching",
+      "conditions": [
+        "Certification bodies"
+      ],
+      "functions": [
+        "Skill standards"
+      ]
+    },
+    {
+      "problem": 47,
+      "instrument": 9,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Finances training and workforce development",
+      "conditions": [
+        "Training institutions"
+      ],
+      "functions": [
+        "Training finance"
+      ]
+    },
+    {
+      "problem": 48,
+      "instrument": 13,
+      "role": "primary",
+      "strength": 4,
+      "name": "Builds policy learning and diagnostic capacity",
+      "conditions": [
+        "Policy learning unit"
+      ],
+      "functions": [
+        "Comparative policy",
+        "Diagnosis"
+      ]
+    },
+    {
+      "problem": 48,
+      "instrument": 8,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Coordinates government and private sector",
+      "conditions": [
+        "Trust",
+        "Continuity"
+      ],
+      "functions": [
+        "Policy dialogue"
+      ]
+    },
+    {
+      "problem": 48,
+      "instrument": 23,
+      "role": "secondary",
+      "strength": 3,
+      "name": "Institutionalizes public–private coordination",
+      "conditions": [
+        "Political commitment"
+      ],
+      "functions": [
+        "Council coordination"
+      ]
+    },
+    {
+      "problem": 49,
+      "instrument": 8,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Channels represented interests into policy",
+      "conditions": [
+        "Representative bodies"
+      ],
+      "functions": [
+        "Interest aggregation"
+      ]
+    },
+    {
+      "problem": 49,
+      "instrument": 23,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Gives representatives a standing forum",
+      "conditions": [
+        "Institutional design"
+      ],
+      "functions": [
+        "Deliberation"
+      ]
+    },
+    {
+      "problem": 50,
+      "instrument": 21,
+      "role": "primary",
+      "strength": 3,
+      "name": "Sets the rules that keep markets contestable",
+      "conditions": [
+        "Competition authority"
+      ],
+      "functions": [
+        "Market rules",
+        "Regulatory reform"
+      ]
+    },
+    {
+      "problem": 50,
+      "instrument": 16,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Reduces barriers to entry",
+      "conditions": [
+        "Administrative capacity"
+      ],
+      "functions": [
+        "Entry facilitation"
+      ]
+    },
+    {
+      "problem": 50,
+      "instrument": 15,
+      "role": "secondary",
+      "strength": 2,
+      "name": "Reduces information asymmetry in markets",
+      "conditions": [
+        "Credit information system"
+      ],
+      "functions": [
+        "Market transparency"
       ]
     }
   ]
