@@ -250,7 +250,7 @@
         <span class="here">Atlas of Collective Action</span>
     </nav>
 <h1 class="note-title">Atlas of Collective Action<em>.</em></h1>
-<p class="subtitle">A map of how a collective connects <strong>problem domains</strong> to the <strong>instruments</strong> that answer them. Each domain is a facet of social reality — production, infrastructure, human capital, finance, money, law, labor, markets, governance and research — and each instrument carries the functions it serves, the conditions it needs, and the cases where it has been used. The domains and their systemic problems are documented in the <a href="/view.html?p=notes/social/collective/governance/action/problem/readme.md">Problem</a> shelf.</p>
+<p class="subtitle">A map of how a collective connects <strong>problems</strong> to the <strong>instruments</strong> that answer them. Each domain is a facet of social reality — production, infrastructure, human capital, finance, money, law, labor, markets, governance and research — and each instrument carries the functions it serves, the conditions it needs, and the cases where it has been used. The domains and their systemic problems are documented in the <a href="/view.html?p=notes/social/collective/governance/action/problem/readme.md">Problem</a> shelf.</p>
 </div>
 <div class="layout">
 
@@ -271,11 +271,6 @@
                 <button class="pill active" data-show="rel" type="button">Relationships</button>
                 <button class="pill active" data-show="counts" type="button">Counts</button>
             </div>
-            <div class="pillgroup"><span>View</span>
-                <button class="pill active" data-role="all" type="button">All</button>
-                <button class="pill" data-role="primary" type="button">Primary</button>
-                <button class="pill" data-role="secondary" type="button">Secondary</button>
-            </div>
             <div class="viewmodes"><span>View mode</span>
                 <button class="tab active" data-mode="network" type="button">Network</button>
                 <button class="tab" data-mode="matrix" type="button">Matrix</button>
@@ -285,24 +280,24 @@
         <section class="panel" id="networkPanel">
             <div class="maphead">
                 <div>
-                	<h2>Domain × Instrument Network</h2>        
-			<p class="hint">An N × N map of domain–instrument relationships.</p> 
+                	<h2>Problem × Instrument Network</h2>        
+			<p class="hint">An N × N map of problem–instrument relationships.</p> 
 		</div>
             </div>
             <div id="mapWrap">
-            <div class="mapscroll"><svg id="map" role="img" aria-label="Domain to instrument network map"></svg></div>
+            <div class="mapscroll"><svg id="map" role="img" aria-label="Problem to instrument network map"></svg></div>
             </div>
             <div id="matrixWrap" class="hidden">
-            <h2 style="margin-top:1rem">Domain × Instrument Matrix</h2>
+            <h2 style="margin-top:1rem">Problem × Instrument Matrix</h2>
             <p class="hint">Cell dots mark a relationship; dot count marks strength on a 1–5 scale. Click a cell to inspect the pair.</p>
             <div style="overflow:auto"><table class="atlas matrix" id="matrixTable"></table></div>
             </div>
             <div id="tableWrap" class="hidden">
-            <h2 style="margin-top:1rem">Domain Table</h2>
+            <h2 style="margin-top:1rem">Problem Table</h2>
             <p class="hint">Click a header to sort.</p>
             <div style="overflow-x:auto"><table class="atlas" id="dataTable">
                 <thead><tr>
-                    <th data-key="statement">Domain</th><th data-key="name">Intervention</th>
+                    <th data-key="statement">Problem</th><th data-key="name">Intervention</th>
                     <th data-key="description">Description</th><th data-key="instrumentName">Instrument</th><th data-key="name">Name</th>
                 </tr></thead><tbody></tbody>
             </table></div>
@@ -315,7 +310,7 @@
             <h2 id="detailTitle">Select a domain or instrument</h2>
         </div>
         <div class="minitabs" id="detailTabs">
-            <button class="tab active" data-side="problem" type="button">Domain</button>
+            <button class="tab active" data-side="problem" type="button">Problem</button>
             <button class="tab" data-side="instrument" type="button">Instrument</button>
         </div>
         <div class="asidescroll">
@@ -341,7 +336,7 @@
     var S = { data: null, mode: "network", chosen: {}, focusV: null, selI: null,
         hasSelection: false, detailSide: "problem", detailKind: "problem",
         q: "", tq: "",
-        showRel: true, showCounts: true, role: "all",
+        showRel: true, showCounts: true,
         sortKey: "name", sortDir: 1, openNodes: {}, rel: null, byParent: {}, roots: [] };
 
     function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
@@ -361,7 +356,7 @@
         (function rec(x) { childrenOf(x).forEach(function (c) { out.push(c); rec(c); }); })(v);
         return out;
     }
-    function relsFor(vid) { return S.data.relationships.filter(function (r) { return sameId(r.problem, vid) && (S.role === "all" || r.role === S.role); }); }
+    function relsFor(vid) { return S.data.relationships.filter(function (r) { return sameId(r.problem, vid); }); }
     function hasRel(vid) { for (var i = 0; i < S.data.relationships.length; i++) if (sameId(S.data.relationships[i].problem, vid)) return true; return false; }
     function vPass(v) {
         if (S.q && ((v.name || "") + " " + (v.statement || "") + " " + (v.description || "")).toLowerCase().indexOf(S.q) === -1) return false;
@@ -609,7 +604,7 @@
             S.data.instruments.forEach(function (ins) {
                 var r = null;
                 S.data.relationships.forEach(function (x) { if (sameId(x.problem, v.id) && sameId(x.instrument, ins.id)) r = x; });
-                if (r && (S.role === "all" || r.role === S.role)) {
+                if (r) {
                     html += "<td class=\"cell\" data-v=\"" + v.id + "\" data-i=\"" + ins.id + "\" title=\"" + esc(v.name + " × " + ins.name + ": " + r.name + ", strength " + r.strength + "/5") + "\"><span class=\"dots\" role=\"img\" aria-label=\"strength " + r.strength + " of 5\">" + "●".repeat(r.strength) + "<span style=\"opacity:0.25\">" + "●".repeat(5 - r.strength) + "</span></span></td>";
                 } else html += "<td style=\"color:var(--text-ghost)\">·</td>";
             });
@@ -625,7 +620,6 @@
     function tableRows() {
         var out = [];
         S.data.relationships.forEach(function (r) {
-            if (S.role !== "all" && r.role !== S.role) return;
             var v = byId(S.data.problems, r.problem), ins = byId(S.data.instruments, r.instrument);
             if (!v || !S.chosen[v.id] || !vPass(v)) return;
             out.push({ v: v, ins: ins, r: r,
@@ -761,7 +755,7 @@
         S.detailKind = "problem";
         tabs.classList.remove("hidden");
         kicker.className = "kicker";
-        kicker.innerHTML = "<span class=\"pk\">Domain</span><span class=\"x\">×</span><span class=\"ik\">Instrument</span>";
+        kicker.innerHTML = "<span class=\"pk\">Problem</span><span class=\"x\">×</span><span class=\"ik\">Instrument</span>";
         if (S.detailSide === "instrument" && !ins) S.detailSide = "problem";
         if (S.detailSide === "problem" && !v) S.detailSide = "instrument";
         document.querySelectorAll("#detailTabs .tab").forEach(function (t) {
@@ -797,7 +791,6 @@
         if (S.hasSelection) p.push("sel=1");
         p.push("side=" + S.detailSide);
         p.push("kind=" + S.detailKind);
-        p.push("role=" + S.role);
         if (S.q) p.push("q=" + encodeURIComponent(S.q));
         var off = Object.keys(S.chosen).filter(function (k) { return !S.chosen[k]; });
         if (off.length) p.push("off=" + off.join(","));
@@ -812,7 +805,6 @@
             });
         } catch (e) {}
         if (q.mode === "network" || q.mode === "matrix" || q.mode === "table") S.mode = q.mode;
-        if (q.role === "all" || q.role === "primary" || q.role === "secondary") S.role = q.role;
         if (q.side === "problem" || q.side === "instrument") S.detailSide = q.side;
         if (q.kind === "problem" || q.kind === "instrument") S.detailKind = q.kind;
         if (q.q) { S.q = q.q.toLowerCase(); S.tq = q.q; }
@@ -839,10 +831,6 @@
         Object.keys(S.chosen).forEach(function (k) { S.chosen[k] = false; });
         ensureFocus(); renderAll();
     });
-    document.querySelectorAll(".pillgroup .pill[data-role]").forEach(function (p) { p.addEventListener("click", function () {
-        document.querySelectorAll(".pillgroup .pill[data-role]").forEach(function (x) { x.classList.remove("active"); });
-        p.classList.add("active"); S.role = p.getAttribute("data-role"); renderAll();
-    }); });
     document.querySelectorAll(".pillgroup .pill[data-show]").forEach(function (p) { p.addEventListener("click", function () {
         p.classList.toggle("active");
         var k = p.getAttribute("data-show");
