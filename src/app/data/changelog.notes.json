@@ -74314,7 +74314,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Protectionism link to the flattened instrument path."
+    "summary": "Retarget the Protectionism link to the flattened instrument path.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -77801,7 +77803,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Productive Policy link to the flattened instrument path."
+    "summary": "Retarget the Productive Policy link to the flattened instrument path.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -78385,7 +78389,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Productive Policy link to the flattened instrument path."
+    "summary": "Retarget the Productive Policy link to the flattened instrument path.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -79544,7 +79550,8 @@
    {
     "date": "2026-11-21",
     "kind": "refactor",
-    "summary": "Consolidate the action-instrument, Locus Instrumentorum and policy-type masters into one shelf readme; retarget links to it."
+    "summary": "Consolidate the action-instrument, Locus Instrumentorum and policy-type masters into one shelf readme; retarget links to it.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -79665,7 +79672,9 @@
    {
     "date": "2026-11-21",
     "kind": "delete",
-    "summary": "Remove the Documentation stub note."
+    "summary": "Remove the Documentation stub note.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -79967,7 +79976,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Move the social-theory foundation note from the instrument shelf to social/meta/ and lowercase the filename."
+    "summary": "Move the social-theory foundation note from the instrument shelf to social/meta/ and lowercase the filename.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80146,7 +80156,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80191,7 +80202,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80225,7 +80237,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80259,7 +80272,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80293,7 +80307,8 @@
    {
     "date": "2026-11-21",
     "kind": "move",
-    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root."
+    "summary": "Flatten the policy shelf: move from instrument/policy/ to the instrument root.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f"
    }
   ]
  },
@@ -80443,7 +80458,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Rewrite as the Firm Education Center note: definition, problems, evaluation, cases and operational stages."
+    "summary": "Rewrite as the Firm Education Center note: definition, problems, evaluation, cases and operational stages.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -80675,7 +80692,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme."
+    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -83640,7 +83659,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme."
+    "summary": "Retarget the Locus Instrumentorum link to the consolidated shelf readme.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -84395,7 +84416,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Productive Policy link to the flattened instrument path."
+    "summary": "Retarget the Productive Policy link to the flattened instrument path.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -94545,7 +94568,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Instrumentalization link to the consolidated shelf readme."
+    "summary": "Retarget the Instrumentalization link to the consolidated shelf readme.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
@@ -151299,7 +151324,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the Action Instrument and Locus Instrumentorum references to the consolidated shelf readme."
+    "summary": "Retarget the Action Instrument and Locus Instrumentorum references to the consolidated shelf readme.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  }

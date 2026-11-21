@@ -38998,7 +38998,9 @@
    {
     "date": "2026-11-21",
     "kind": "edit",
-    "summary": "Retarget the productive policy links to the flattened instrument path."
+    "summary": "Retarget the productive policy links to the flattened instrument path.",
+    "commit": "0bd1f5be50b684aae26f5e4031afa4d73b05785f",
+    "before": "8d1022fdf4b2168e52aa55dab1a7f9ad7ad6430b"
    }
   ]
  },
