@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 12
+    "version": 13
   },
   "problems": [
     {
@@ -6107,9 +6107,9 @@
     },
     {
       "id": 287,
-      "name": "Productivity Promotion Center",
-      "description": "A centre that promotes productivity practice and technology transfer to firms.",
-      "mechanism": "It delivers diagnostics, training, standards and demonstration to raise firm productivity.",
+      "name": "Firm Education Center",
+      "description": "A centre that educates firms, building the managerial and technical capabilities they need to upgrade.",
+      "mechanism": "It delivers training, diagnosis and applied assistance so owners and managers can adopt better practice.",
       "hue": "#C9956C",
       "icon": "📈",
       "caseStudies": [],
@@ -6477,6 +6477,21 @@
         {
           "label": "Tecno Productive Policy Toolbox",
           "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "name": "Firm Education Program",
+      "description": "A program that educates firm owners and managers in the business, technical and organizational knowledge needed to run and upgrade an enterprise.",
+      "mechanism": "It delivers courses, mentoring and practical training inside firms, building managerial and technical capability.",
+      "hue": "#6B8CAA",
+      "icon": "🎓",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Productivity Promotion Center",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/production/productivity-promotion-center.md"
         }
       ]
     }
