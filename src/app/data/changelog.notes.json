@@ -93669,35 +93669,6 @@
   ]
  },
  {
-  "file_path": "social/collective/sociality.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission.",
-    "commit": "f880b5f63b1f61e669f70098bc61aa855d328c58"
-   },
-   {
-    "date": "2026-11-17",
-    "kind": "move",
-    "summary": "Move from nature/life/organism/sociality.md: physically moved into the social shelf, beside society.md, at the user's instruction. The propensity is still typed as a Property and the decomposition is unchanged; the tags now lead with social rather than nature.",
-    "commit": "5a8cca4663dca8848029aa592f845d4e36603b37"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
-    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   }
-  ]
- },
- {
   "file_path": "social/collective/society.md",
   "logs": [
    {
@@ -93711,50 +93682,6 @@
     "kind": "refactor",
     "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
     "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   }
-  ]
- },
- {
-  "file_path": "social/collective/sovereignty.md",
-  "logs": [
-   {
-    "date": "2026-11-17",
-    "kind": "create",
-    "summary": "New note: sovereignty, filed beside the polity it is a property of rather than on the normative shelf, because sovereignty is carried by a polity and does not exist apart from it. Typed as `Social Property` (Ontic, read synontically where it depends on recognition) and explicitly not a kind of polity nor a part of one; distinguished from authority (the entitlement to decide inside the order) and legitimacy (the rightness of exercising it). Decomposition under three groupings: locus (personal, legal, parliamentary, popular, national), extension (territorial, economic, technological), the four classical marks (absoluteness, indivisibility, perpetuity, inalienability) each with its standing objection, and standing grades (full, pooled, bounded, absent) that restate as degrees what polity.md calls Dependent Standing. Then the theories table with what each cost, the limits that actually bind a sovereign, and the de jure / de facto and formal / substantive distinctions. The note says plainly that sovereignty is a claim treated as a fact, and that the vocabulary survives because it is what makes the violations legible.",
-    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget links for the koinomia migration.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
-    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
-    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the polity links to the collective branch.",
-    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
-    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
-    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
-    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
    },
    {
     "date": "2026-11-20",
@@ -100378,6 +100305,91 @@
     "kind": "move",
     "summary": "Move from social/collective/framework/program.md: the Theoretical Framework Program is a research programme, not a kind of actor, so it sits at the social root beside the other general forms.",
     "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   }
+  ]
+ },
+ {
+  "file_path": "social/property/sociality.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sociality, filed at the organism shelf because the propensity is not human. Typed as a Property at meso, with the secondary readings kept as prose (Phenomenon for the grouping pattern, Adaptation when heritable), and the boundary stated against Process, Natural System and the mere count of individuals — a crowd is not a society. The content is the four dimensions that separate one form from another (who associates, for how long, how work is divided, how association is recognised), and the two explanations that are complements rather than rivals: kin selection where relatedness is high and dispersal hard, mutual benefit and reciprocity among non-relatives. Forms from solitary through gregarious, colonial and eusocial to human ultrassociality; attributes of group size, relatedness, division of labour and recognition; bounds of resource base and disease transmission.",
+    "commit": "f880b5f63b1f61e669f70098bc61aa855d328c58"
+   },
+   {
+    "date": "2026-11-17",
+    "kind": "move",
+    "summary": "Move from nature/life/organism/sociality.md: physically moved into the social shelf, beside society.md, at the user's instruction. The propensity is still typed as a Property and the decomposition is unchanged; the tags now lead with social rather than nature.",
+    "commit": "5a8cca4663dca8848029aa592f845d4e36603b37"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the property in the property shelf.",
+    "commit": "f6aff2b35b05a72d25d239ba4aa3a7923c2b5537"
+   }
+  ]
+ },
+ {
+  "file_path": "social/property/sovereignty.md",
+  "logs": [
+   {
+    "date": "2026-11-17",
+    "kind": "create",
+    "summary": "New note: sovereignty, filed beside the polity it is a property of rather than on the normative shelf, because sovereignty is carried by a polity and does not exist apart from it. Typed as `Social Property` (Ontic, read synontically where it depends on recognition) and explicitly not a kind of polity nor a part of one; distinguished from authority (the entitlement to decide inside the order) and legitimacy (the rightness of exercising it). Decomposition under three groupings: locus (personal, legal, parliamentary, popular, national), extension (territorial, economic, technological), the four classical marks (absoluteness, indivisibility, perpetuity, inalienability) each with its standing objection, and standing grades (full, pooled, bounded, absent) that restate as degrees what polity.md calls Dependent Standing. Then the theories table with what each cost, the limits that actually bind a sovereign, and the de jure / de facto and formal / substantive distinctions. The note says plainly that sovereignty is a claim treated as a fact, and that the vocabulary survives because it is what makes the violations legible.",
+    "commit": "1260d5bbd75c2fc95fcdbd21937d05b271d3f33c"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget links for the koinomia migration.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0",
+    "before": "eb58074e266c62111d3d061ac6cc0698cffebb53"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move to the koinomia domain shelf: the social compound branch is part of the public arrangement, not a societal-actor sub-shelf.",
+    "commit": "e3e7e8cec6105c9a8c18837456dac0355e9a3e3e"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the polity links to the collective branch.",
+    "commit": "41b7e471d16db3a3f78dcf998714861ed9f65da3",
+    "before": "98ba216efbdcd3c7625cf1eb036fe0f85fd1eecf"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the public-actor links to the type/ shelf and the Public Actor master.",
+    "commit": "e4734f8cc8ef7c23a8b38e703d1803590c7f6671",
+    "before": "5962ed92e0f814078f2ff78d047650d4d83ccb18"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "File the property in the property shelf.",
+    "commit": "f6aff2b35b05a72d25d239ba4aa3a7923c2b5537"
    }
   ]
  },
