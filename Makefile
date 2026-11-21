@@ -33,7 +33,7 @@ help: ## list targets
 run: ## local dev server, no docker (port DEV_PORT, default 8010; index API on)
 	EPISTECNICA_ALLOW_INDEX_API=1 python3 bin/serve.py --port $(DEV_PORT)
 
-check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + mathematical area atlas + geometric shape atlas + technical-object taxonomy + product-safety store + catalog literals + corpus tags
+check: ## py_compile all servers + index builders + validate the EES tree + technica atlas + terminology crimes + symbol atlas + p-value atlas + goodness-of-fit atlas + mathematical area atlas + geometric shape atlas + technical-object taxonomy + product-safety store + representation stores + catalog literals + corpus tags
 	python3 -m py_compile bin/*.py
 	python3 bin/check_catalog_literals.py
 	python3 bin/check_corpus_tags.py
@@ -49,6 +49,7 @@ check: ## py_compile all servers + index builders + validate the EES tree + tech
 	python3 bin/approximation_check.py
 	python3 bin/safety_check.py
 	python3 bin/organon_check.py
+	python3 bin/representation_check.py
 
 notes-index: ## rebuild the notes search index (after any corpus change)
 	python3 bin/notes_index.py
@@ -81,6 +82,12 @@ atlas-index: ## rebuild the technica atlas store (after any technica corpus chan
 
 atlas-check: ## validate the technica atlas store (src/corpus/notes/technica/atlas.json)
 	python3 bin/atlas_check.py
+
+representation-schema: ## regenerate the social representation data schemas (after any systems-catalogue edit)
+	python3 bin/build_representation_schema.py
+
+representation-check: ## validate the social representation stores against their systems catalogues
+	python3 bin/representation_check.py
 
 terminology-check: ## validate the terminology-crimes store (src/corpus/notes/epistemica/meta/horror/terminology.json)
 	python3 bin/terminology_check.py

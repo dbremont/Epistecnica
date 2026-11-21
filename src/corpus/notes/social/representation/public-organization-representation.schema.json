@@ -1,0 +1,1534 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/public-organization-representation.schema.json",
+  "title": "Public Organization Sample Profiles",
+  "description": "Organization profiles under the comparative representation systems.",
+  "type": "object",
+  "required": [
+    "meta",
+    "organizations"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "title",
+        "version"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "version": {
+          "type": [
+            "string",
+            "integer",
+            "number"
+          ]
+        },
+        "countries": {
+          "type": "array"
+        }
+      }
+    },
+    "organizations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "mandate": {
+            "type": "string"
+          },
+          "confidence": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "profiles": {
+            "type": "object",
+            "description": "One value per characteristic element, per representation system.",
+            "additionalProperties": false,
+            "properties": {
+              "ontological": {
+                "$ref": "#/$defs/ontological"
+              },
+              "functional": {
+                "$ref": "#/$defs/functional"
+              },
+              "purpose-driven": {
+                "$ref": "#/$defs/purpose-driven"
+              },
+              "model-derived": {
+                "$ref": "#/$defs/model-derived"
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "ontological": {
+      "type": "object",
+      "description": "Profiles what public bodies are: their legal standing, institutional kind, composition, resources, permanence, and spatial definition. Derived by ontological analysis - enumerating the entities, kinds, and modes of existence the domain contains. Use it to compare bodies as entities before asking what they do or how they relate.",
+      "additionalProperties": false,
+      "properties": {
+        "Institutional Standing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "independent legal person",
+            "dependent public body",
+            "office without personhood",
+            "unincorporated state unit",
+            null
+          ],
+          "description": "Whether the body holds legal personality, is a dependent public body, or is an office without personhood."
+        },
+        "Organizational Form": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ministry",
+            "council",
+            "implementation body",
+            "research body",
+            "task group",
+            "public agency",
+            "state-owned enterprise",
+            "municipal organization",
+            "public-private hybrid",
+            "royal / imperial household office",
+            "provincial governorship",
+            "military-fiscal body",
+            "feudal lordship",
+            "tributary office",
+            "colonial office",
+            "chartered-company organ",
+            "party organ",
+            "hereditary office",
+            "indigenous / customary council",
+            "supranational body",
+            "court exercising administrative authority",
+            "other / hybrid",
+            null
+          ],
+          "description": "The recognized kind of public body or governing institution."
+        },
+        "Recruitment Mode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "examination / merit",
+            "patronage",
+            "hereditary succession",
+            "election",
+            "purchase / venality",
+            "co-optation",
+            "appointment by institutional authority",
+            "military commission",
+            "party assignment",
+            "mixed",
+            null
+          ],
+          "description": "The dominant mode by which members or post-holders are installed."
+        },
+        "Office Maintenance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "salary",
+            "benefice / prebend",
+            "fief / feudal tenure",
+            "land / estate income",
+            "fees",
+            "tribute share",
+            "none",
+            "mixed",
+            null
+          ],
+          "description": "How the post-holder is materially sustained."
+        },
+        "Resource Base": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "none (pure secretariat)",
+            "operational assets",
+            "infrastructure and estate",
+            "financial holdings",
+            "land / domain",
+            "fief / feudal domain",
+            "tribute claims",
+            "benefice revenues",
+            "in-kind dues",
+            "mixed",
+            null
+          ],
+          "description": "The largest class of resources the body commands."
+        },
+        "Financing Mode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "appropriation / vote",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "feudal dues",
+            "benefice / land revenue",
+            "in-kind",
+            "mixed",
+            null
+          ],
+          "description": "The revenue base financing the body's operation."
+        },
+        "Authority Basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "constitutional",
+            "statutory",
+            "executive decree",
+            "customary",
+            "dynastic / hereditary",
+            "feudal tenure / vassalic obligation",
+            "party directive",
+            "military command",
+            "colonial charter",
+            "treaty",
+            "mixed",
+            null
+          ],
+          "description": "The basis on which the body's authority rests."
+        },
+        "Permanence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "task-bound (dissolves on delivery)",
+            "fixed-term",
+            "renewable mandate",
+            "permanent",
+            null
+          ],
+          "description": "How permanently the body is constituted."
+        },
+        "Jurisdictional Extent": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "municipal",
+            "provincial / regional",
+            "national",
+            "imperial",
+            "colonial / dependency",
+            "confederal",
+            "city-state",
+            "supranational",
+            "functional (non-territorial)",
+            "multi-territory",
+            null
+          ],
+          "description": "The scale at which the body's authority runs."
+        },
+        "Territorial Basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "personal (over persons)",
+            "territorial (over land)",
+            "functional (over an activity)",
+            "extra-territorial",
+            "mixed",
+            null
+          ],
+          "description": "Whether authority runs over people, land, function, or beyond territory."
+        },
+        "Mandate Scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "single task",
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "household / royal domain",
+            "provincial remit",
+            "universal / general government",
+            null
+          ],
+          "description": "How wide the constituting remit runs."
+        }
+      }
+    },
+    "functional": {
+      "type": "object",
+      "description": "Profiles what public bodies do: the task families they perform, coded by exercised activity rather than charter rhetoric. Derived by functional analysis - enumerating the functions and activities of the domain. Use it to compare workloads and task portfolios across bodies with different legal forms.",
+      "additionalProperties": false,
+      "properties": {
+        "Service & Provision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "direct delivery",
+            "commissioned provision",
+            "poor relief",
+            "grain / provisioning",
+            "public works",
+            "protection",
+            "none",
+            null
+          ],
+          "description": "Whether the body delivers services, protection, or provision to end users."
+        },
+        "Regulation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "rule-making",
+            "licensing",
+            "advisory",
+            "none",
+            null
+          ],
+          "description": "Whether the body forms binding rules, licenses, or authoritative counsel."
+        },
+        "Enforcement": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "inspection",
+            "sanctioning",
+            "coercive force",
+            "none",
+            null
+          ],
+          "description": "Whether the body compels compliance."
+        },
+        "Adjudication": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "binding decisions",
+            "advisory opinions",
+            "none",
+            null
+          ],
+          "description": "Whether the body decides individual cases with binding effect."
+        },
+        "Resource Extraction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "taxation",
+            "tribute",
+            "feudal dues",
+            "dues / fees",
+            "corvée / labour levy",
+            "rents",
+            "none",
+            null
+          ],
+          "description": "Whether the body draws resources from the population or governed entities."
+        },
+        "Knowledge and Record": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "in-house inquiry",
+            "record-keeping / census",
+            "commissioned research",
+            "specialized institutional knowledge",
+            "none",
+            null
+          ],
+          "description": "Whether the body produces knowledge, records, or evidence."
+        },
+        "Ideological and Symbolic Administration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ideological propagation",
+            "civic / state ceremony",
+            "symbolic representation",
+            "institutional legitimation",
+            "none",
+            null
+          ],
+          "description": "Whether the body performs ideological propagation, public symbolism, or institutional legitimation as an administrative function."
+        },
+        "Military Mobilization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "command",
+            "recruitment",
+            "logistics / supply",
+            "fortification / military works",
+            "none",
+            null
+          ],
+          "description": "Whether the body raises, commands, or supplies organized force."
+        },
+        "Representation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "assembly",
+            "estates / orders",
+            "petition",
+            "council representation",
+            "constituency representation",
+            "none",
+            null
+          ],
+          "description": "Whether the body aggregates estates, communities, or constituencies."
+        },
+        "Coordination & Oversight": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "lead coordinator",
+            "participant",
+            "supervisory mandate",
+            "inspection of other bodies",
+            "none",
+            null
+          ],
+          "description": "Whether the body coordinates or supervises other bodies."
+        },
+        "Commercial Operation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "profit-seeking",
+            "cost-recovery",
+            "monopoly trade",
+            "state commercial operation",
+            "none",
+            null
+          ],
+          "description": "Whether the body operates commercially or by trading monopoly."
+        },
+        "Emergency Powers": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "standing emergency powers",
+            "activated only",
+            "none",
+            null
+          ],
+          "description": "Whether the body holds extraordinary powers."
+        }
+      }
+    },
+    "purpose-driven": {
+      "type": "object",
+      "description": "Profiles what decision-makers need to know: answerability, changeability, rationalization, centralization, embeddedness, fidelity of performance signals, and risk. Derived by purpose-driven analysis - starting from the questions, decisions, and analytical tasks the comparison must support, then selecting the elements that answer them. Use it when a decision, not a description, is the output.",
+      "additionalProperties": false,
+      "properties": {
+        "Accountability Depth": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "full (consequences attach)",
+            "reporting only",
+            "none",
+            null
+          ],
+          "description": "Whether answerability carries consequences."
+        },
+        "Changeability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "by executive action",
+            "by law",
+            "by custom",
+            "by dynastic settlement",
+            "by revolution / force",
+            "by treaty or inter-polity agreement",
+            "entrenched",
+            null
+          ],
+          "description": "How the body can be reorganized or abolished."
+        },
+        "Rationalization Degree": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "rational-legal bureaucracy",
+            "rule-bound non-bureaucratic",
+            "patrimonial",
+            "feudal",
+            "charismatic",
+            "traditional / customary",
+            "mixed",
+            null
+          ],
+          "description": "The dominant basis of organizational authority and administration, distinguishing rule-bound office from personal, patrimonial, charismatic, and customary arrangements."
+        },
+        "Centralization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "centralized",
+            "deconcentrated",
+            "devolved",
+            "federated / shared",
+            "locally autonomous",
+            "fragmented",
+            "mixed",
+            null
+          ],
+          "description": "How decision-making authority is distributed across levels and units."
+        },
+        "Loss Bearer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "sovereign / treasury",
+            "organization's own account",
+            "community",
+            "personal / patrimonial holder",
+            "contractor / provider",
+            "shared",
+            null
+          ],
+          "description": "Who bears the financial or material residual loss."
+        },
+        "Performance Visibility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "published indicators",
+            "public records and reports",
+            "external inspection",
+            "internal only",
+            "none",
+            null
+          ],
+          "description": "How observable the body's performance is to outsiders."
+        },
+        "Mandate Clarity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "quantified targets",
+            "specified outputs or outcomes",
+            "broad objectives",
+            "vague / open-ended",
+            null
+          ],
+          "description": "How precisely the mandate states what success looks like."
+        },
+        "Capture Exposure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "unknown",
+            null
+          ],
+          "description": "Exposure to capture by concentrated interests or insiders."
+        },
+        "Patron-Client Position": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "central patron",
+            "client",
+            "factional broker",
+            "dependent client",
+            "relatively autonomous",
+            "not applicable / unknown",
+            null
+          ],
+          "description": "The body's position within patronage, faction, or personal-dependence networks."
+        }
+      }
+    },
+    "model-derived": {
+      "type": "object",
+      "description": "Derives characteristics from an overarching model of public organization as an institutional operating system: constitution, mandate, authority, governance, organization, operations, resources and capabilities, accountability and control, and institutional ecology. Each submodel contributes elements to a composite profile. Formal arrangements and observed practice should be distinguished where they differ.",
+      "additionalProperties": false,
+      "properties": {
+        "Constituting Instrument": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "constitution",
+            "statute",
+            "charter",
+            "executive decree",
+            "compact",
+            "treaty",
+            "customary order",
+            "oral constituting tradition",
+            "feudal grant / investiture",
+            "other",
+            "multiple",
+            null
+          ],
+          "description": "The instrument or institutional order through which the organization is established."
+        },
+        "Institutional Standing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "independent legal person",
+            "dependent public body",
+            "office without personhood",
+            "unincorporated state unit",
+            null
+          ],
+          "description": "The organization's institutional or legal status."
+        },
+        "Institutional Origin": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "new establishment",
+            "separation",
+            "merger",
+            "transformation",
+            "succession",
+            "delegation",
+            "other",
+            null
+          ],
+          "description": "The process through which the organization was established."
+        },
+        "Permanence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "task-bound",
+            "fixed-term",
+            "renewable mandate",
+            "permanent",
+            null
+          ],
+          "description": "The intended duration of the organization."
+        },
+        "Mandate Scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "single task",
+            "single program",
+            "policy domain",
+            "multi-domain",
+            "general government",
+            null
+          ],
+          "description": "The breadth of the organization's assigned responsibilities."
+        },
+        "Mandate Orientation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "policy direction",
+            "regulation",
+            "service provision",
+            "resource management",
+            "knowledge production",
+            "coordination",
+            "representation",
+            "mixed",
+            null
+          ],
+          "description": "The principal kind of result the organization is expected to produce."
+        },
+        "Jurisdictional Extent": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "municipal",
+            "regional",
+            "national",
+            "multi-territory",
+            "supranational",
+            "functional / non-territorial",
+            "imperial",
+            "colonial / dependency",
+            "city-state",
+            null
+          ],
+          "description": "The geographic or jurisdictional reach of its authority."
+        },
+        "Target Population": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "general population",
+            "territorial community",
+            "specific occupational group",
+            "regulated entities",
+            "eligible beneficiaries",
+            "public organizations",
+            "other",
+            "mixed",
+            null
+          ],
+          "description": "The population or entities toward which the mandate is directed."
+        },
+        "Mandate Precision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "specified outputs",
+            "specified outcomes",
+            "broad objectives",
+            "open-ended mandate",
+            null
+          ],
+          "description": "How explicitly the mandate defines expected results."
+        },
+        "Reserved Powers": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            null
+          ],
+          "description": "Powers expressly retained by the principal or another authority rather than assigned to the organization."
+        },
+        "Political Principal": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "monarch / emperor",
+            "dynastic house",
+            "feudal overlord / suzerain",
+            "head of government",
+            "line minister",
+            "collective government",
+            "council of state",
+            "parliament",
+            "party",
+            "metropole / colonial office",
+            "governing board",
+            "foreign sovereign",
+            "multiple principals",
+            "other",
+            null
+          ],
+          "description": "The authority to which the organization's leadership is ultimately answerable."
+        },
+        "Appointment Authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "head of state",
+            "head of government",
+            "minister",
+            "collective government",
+            "parliament",
+            "governing board",
+            "electorate",
+            "hereditary succession",
+            "internal selection",
+            "feudal grant / investiture",
+            "other",
+            "multiple",
+            null
+          ],
+          "description": "The actor empowered to appoint the organization's leadership."
+        },
+        "Direction Authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "political principal",
+            "minister",
+            "governing board",
+            "executive leadership",
+            "feudal overlord / suzerain",
+            "shared authority",
+            "no external direction",
+            "other",
+            "multiple",
+            null
+          ],
+          "description": "The actor authorized to issue binding instructions to the organization."
+        },
+        "Dismissal Authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "political principal",
+            "executive",
+            "minister",
+            "governing board",
+            "legislature",
+            "court",
+            "electorate",
+            "hereditary succession rules",
+            "feudal overlord / suzerain",
+            "multiple",
+            "other",
+            null
+          ],
+          "description": "The actor empowered to remove the organization's leadership."
+        },
+        "Delegation Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "revocable delegation",
+            "statutory delegation",
+            "constitutionally protected delegation",
+            "contractual delegation",
+            "customary delegation",
+            "feudal grant / investiture",
+            "mixed",
+            null
+          ],
+          "description": "How authority is transferred to the organization."
+        },
+        "Operational Autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "directly controlled",
+            "bounded discretion",
+            "substantial autonomy",
+            "independent within jurisdiction",
+            null
+          ],
+          "description": "The organization's discretion in executing its mandate."
+        },
+        "Governing Structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "monarch-led",
+            "single executive",
+            "minister-led",
+            "commissioner-led",
+            "board-governed",
+            "council-led",
+            "party committee",
+            "assembly",
+            "committee-governed",
+            "collegial",
+            "mixed",
+            null
+          ],
+          "description": "The arrangement responsible for organizational direction."
+        },
+        "Decision Procedure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "unilateral decision",
+            "decree",
+            "collegial vote",
+            "assembly decision",
+            "consensus",
+            "deliberation followed by decision",
+            "delegated decision",
+            "mixed",
+            null
+          ],
+          "description": "How contested authoritative decisions are reached."
+        },
+        "Decision Rights": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "centralized",
+            "delegated hierarchy",
+            "distributed",
+            "collegial",
+            "mixed",
+            null
+          ],
+          "description": "How decision authority is distributed across leadership and internal units."
+        },
+        "Leadership Tenure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "at pleasure",
+            "fixed term",
+            "renewable term",
+            "career appointment",
+            "hereditary",
+            "elected term",
+            "feudal tenure",
+            "other",
+            null
+          ],
+          "description": "The formal basis and duration of leadership tenure."
+        },
+        "Conflict Resolution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "superior override",
+            "executive arbitration",
+            "collegial vote",
+            "formal appeal",
+            "independent adjudication",
+            "negotiated settlement",
+            "customary settlement",
+            "other",
+            "mixed",
+            null
+          ],
+          "description": "How internal disagreements over authority or decisions are resolved."
+        },
+        "Organizational Structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "hierarchical",
+            "functional",
+            "divisional",
+            "territorial",
+            "matrix",
+            "networked",
+            "project-based",
+            "household / personal retinue",
+            "feudal layered hierarchy",
+            "hybrid",
+            null
+          ],
+          "description": "The dominant arrangement of internal units and reporting relationships."
+        },
+        "Functional Specialization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "generalist",
+            "function-specialized",
+            "domain-specialized",
+            "territorially specialized",
+            "mixed",
+            null
+          ],
+          "description": "How work is divided among organizational units."
+        },
+        "Territorial Deployment Structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "central headquarters",
+            "regional offices",
+            "local offices",
+            "field network",
+            "itinerant",
+            "distributed network",
+            "territorial lordship network",
+            "hybrid",
+            null
+          ],
+          "description": "How organizational units are distributed across jurisdiction."
+        },
+        "Internal Coordination": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "hierarchical direction",
+            "standardized procedures",
+            "planning and scheduling",
+            "liaison offices",
+            "committees",
+            "shared information systems",
+            "market / contractual coordination",
+            "personal allegiance / reciprocal obligation",
+            "mixed",
+            null
+          ],
+          "description": "How organizational units coordinate interdependent work."
+        },
+        "Shared Services Arrangement": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "internally duplicated",
+            "centralized internal services",
+            "shared services",
+            "outsourced services",
+            "external public-service provider",
+            "mixed",
+            null
+          ],
+          "description": "How common administrative capabilities are provided."
+        },
+        "Functions": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "policy direction",
+            "operation and delivery",
+            "regulation and enforcement",
+            "adjudication",
+            "research and evidence",
+            "coordination",
+            "representation",
+            "military",
+            "commercial enterprise",
+            "resource extraction",
+            "ideological and symbolic administration",
+            "other",
+            "mixed",
+            null
+          ],
+          "description": "The task families performed by the organization in practice."
+        },
+        "Operating Mode": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "direct execution",
+            "delegated execution",
+            "contracted provision",
+            "regulated provision",
+            "coordinated network",
+            "feudal / intermediary rule",
+            "mixed",
+            null
+          ],
+          "description": "How the organization produces or secures intended results."
+        },
+        "Instruments of Action": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "authority and command",
+            "rules and standards",
+            "financial transfers",
+            "taxes and fees",
+            "feudal dues and service obligations",
+            "contracts",
+            "information and persuasion",
+            "direct provision",
+            "asset ownership",
+            "coercive force",
+            "mixed",
+            null
+          ],
+          "description": "The principal means through which the organization attempts to achieve its objectives."
+        },
+        "Operational Deployment": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "headquarters-based",
+            "field-based",
+            "regional network",
+            "nationwide network",
+            "itinerant",
+            "partner-delivered",
+            "territorial lordship network",
+            "hybrid",
+            null
+          ],
+          "description": "Where and through what arrangement activities are performed."
+        },
+        "Process Standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "case-specific discretion",
+            "documented procedures",
+            "standardized workflows",
+            "rigid procedural control",
+            "customary / negotiated procedure",
+            "mixed",
+            null
+          ],
+          "description": "How consistently work is performed across cases and units."
+        },
+        "Service or Decision Interface": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "direct individual interface",
+            "institutional interface",
+            "intermediary-based",
+            "digital self-service",
+            "representative / collective interface",
+            "personal / feudal dependency relationship",
+            "mixed",
+            "not applicable",
+            null
+          ],
+          "description": "How the organization interacts with the population, clients, or entities subject to its authority."
+        },
+        "Funding Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "general appropriation",
+            "earmarked appropriation",
+            "fees",
+            "commercial revenue",
+            "tribute",
+            "feudal dues / domain revenue",
+            "benefice / land revenue",
+            "in-kind contributions",
+            "own-source revenue",
+            "mixed",
+            null
+          ],
+          "description": "The principal basis of financing."
+        },
+        "Personnel Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "career-based",
+            "position-based",
+            "patronage",
+            "hereditary",
+            "venal",
+            "military",
+            "contract-based",
+            "feudal tenure / personal service obligation",
+            "hybrid",
+            null
+          ],
+          "description": "How personnel are recruited, retained, and managed."
+        },
+        "Resource Control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "centrally controlled",
+            "delegated budget",
+            "own budget",
+            "own-source revenue",
+            "independent asset control",
+            "tenure-bound domain control",
+            "mixed",
+            null
+          ],
+          "description": "The organization's effective control over its resources."
+        },
+        "Asset Base": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "minimal administrative assets",
+            "operational equipment",
+            "infrastructure",
+            "land and estates",
+            "fief / feudal domain",
+            "financial assets",
+            "mixed",
+            null
+          ],
+          "description": "The principal physical and financial assets available to the organization."
+        },
+        "Knowledge Capability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "limited internal capability",
+            "specialized internal expertise",
+            "dedicated research capacity",
+            "external knowledge dependence",
+            "customary / tacit institutional knowledge",
+            "mixed",
+            null
+          ],
+          "description": "The organization's ability to produce, acquire, retain, and apply knowledge."
+        },
+        "Technical Capability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "manual / customary methods",
+            "standardized technical procedures",
+            "specialized technical systems",
+            "integrated information systems",
+            "advanced operational infrastructure",
+            "mixed",
+            null
+          ],
+          "description": "The organization's capacity to execute work through established methods, equipment, and technical systems."
+        },
+        "Accountability Line": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "political principal",
+            "minister",
+            "government",
+            "legislature",
+            "governing board",
+            "independent oversight body",
+            "feudal overlord / suzerain",
+            "multiple authorities",
+            "other",
+            null
+          ],
+          "description": "The actor or institution to which the organization must account."
+        },
+        "Reporting Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ad hoc",
+            "periodic internal reporting",
+            "executive reporting",
+            "legislative reporting",
+            "public reporting",
+            "customary / personal reporting",
+            "multiple",
+            null
+          ],
+          "description": "The formal arrangement for reporting organizational activity."
+        },
+        "Financial Control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "ex ante authorization",
+            "internal financial control",
+            "external audit",
+            "continuous financial oversight",
+            "customary / principal review",
+            "mixed",
+            "minimal",
+            null
+          ],
+          "description": "The arrangement controlling expenditure and financial integrity."
+        },
+        "Performance Control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "procedural compliance",
+            "output monitoring",
+            "outcome evaluation",
+            "performance audit",
+            "principal inspection",
+            "customary review",
+            "mixed",
+            "none",
+            null
+          ],
+          "description": "The arrangement used to assess organizational results and compliance."
+        },
+        "Corrective Authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "organizational leadership",
+            "governing board",
+            "political principal",
+            "external supervisor",
+            "court",
+            "feudal overlord / suzerain",
+            "multiple",
+            "none",
+            null
+          ],
+          "description": "The actor empowered to require changes when deficiencies are identified."
+        },
+        "Sanction Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "administrative sanction",
+            "financial sanction",
+            "leadership removal",
+            "legal liability",
+            "political sanction",
+            "loss of tenure / fief",
+            "reputational consequence",
+            "multiple",
+            "none",
+            null
+          ],
+          "description": "The consequences available for misconduct or failure."
+        },
+        "Interorganizational Position": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "parent authority",
+            "subordinate unit",
+            "peer organization",
+            "coordinating authority",
+            "specialized provider",
+            "independent regulator",
+            "network participant",
+            "feudal superior",
+            "feudal subordinate",
+            "mixed",
+            null
+          ],
+          "description": "The organization's position relative to other bodies."
+        },
+        "Coordination Regime": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "hierarchical",
+            "interministerial",
+            "intergovernmental",
+            "contractual",
+            "network-based",
+            "joint governance",
+            "personal allegiance / reciprocal obligation",
+            "mixed",
+            null
+          ],
+          "description": "How the organization coordinates with other institutions."
+        },
+        "External Dependency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "low",
+            "moderate",
+            "high",
+            "critical dependency",
+            "unknown",
+            null
+          ],
+          "description": "Dependence on other organizations for essential capabilities or inputs."
+        },
+        "Provision Relationship": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "internal provision",
+            "shared public provision",
+            "contracted private provision",
+            "regulated external provision",
+            "public-private partnership",
+            "intermediary / lordship-based provision",
+            "mixed",
+            "not applicable",
+            null
+          ],
+          "description": "How services or outputs relate to external providers."
+        },
+        "Institutional Adaptation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "rigid",
+            "executive-directed change",
+            "internally managed adaptation",
+            "negotiated adaptation",
+            "statutorily constrained adaptation",
+            "customary adaptation",
+            "mixed",
+            null
+          ],
+          "description": "How the organization can change its arrangements in response to its environment."
+        },
+        "Institutional Succession": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "functions transferred",
+            "functions dispersed",
+            "functions terminated",
+            "successor organization",
+            "tenure / domain reassigned",
+            "case-dependent",
+            "not applicable",
+            null
+          ],
+          "description": "How functions and assets are treated when the organization is reorganized or abolished."
+        }
+      }
+    }
+  }
+}

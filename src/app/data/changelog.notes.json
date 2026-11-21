@@ -89427,6 +89427,11 @@
     "summary": "Retarget the renamed systems page.",
     "commit": "eee3c1572bbf18970563b37cb2d361dfb747240f",
     "before": "4ac87324bee2de6563e419835a23272283b957b4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Disambiguate the two duplicated element names (Capability equalization, Knowledge retention)."
    }
   ]
  },

@@ -1477,7 +1477,7 @@
           "scale": "ordinal"
         },
         {
-          "name": "Capacity equalization",
+          "name": "Capability equalization",
           "category": "Capability Distribution Model",
           "description": "Mechanisms for addressing differences in capability between organizations or levels of government.",
           "value_set": [
@@ -2301,7 +2301,7 @@
           "scale": "ordinal"
         },
         {
-          "name": "Institutional memory",
+          "name": "Knowledge retention",
           "category": "Administrative Knowledge and Learning Model",
           "description": "Extent to which administrative records, precedents, decisions, and lessons survive personnel turnover and institutional change.",
           "value_set": [

@@ -1,0 +1,3409 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://naturgnosis.org/schemas/government_representation.schema.json",
+  "title": "Government Representation",
+  "description": "Assignment profiles of governments under the comparative representation systems: country name -> system -> characteristic element -> value.",
+  "type": "object",
+  "required": [
+    "meta",
+    "countries"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "title",
+        "version",
+        "systems"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "version": {
+          "type": [
+            "string",
+            "integer",
+            "number"
+          ]
+        },
+        "systems": {
+          "type": "object",
+          "description": "Version of each representation system the profiles were read under.",
+          "additionalProperties": {
+            "type": [
+              "string",
+              "integer",
+              "number"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "countries": {
+      "type": "object",
+      "description": "Keyed by country name; a country carries any subset of the systems.",
+      "additionalProperties": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+          "submodel": {
+            "$ref": "#/$defs/submodel"
+          },
+          "structural-configuration": {
+            "$ref": "#/$defs/structural-configuration"
+          },
+          "system-properties": {
+            "$ref": "#/$defs/system-properties"
+          },
+          "function-allocation": {
+            "$ref": "#/$defs/function-allocation"
+          },
+          "decision-rights": {
+            "$ref": "#/$defs/decision-rights"
+          },
+          "wwbi-employment-profile": {
+            "$ref": "#/$defs/wwbi-employment-profile"
+          },
+          "wwbi-compensation-profile": {
+            "$ref": "#/$defs/wwbi-compensation-profile"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "submodel": {
+      "type": "object",
+      "description": "The note's own characterisation system: an orthogonal decomposition of a well-functioning government-wide administration into 23 submodels, each carrying the dimensions that locate a system within its domain.",
+      "additionalProperties": false,
+      "properties": {
+        "Coordination structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical",
+            "Centralized coordinating",
+            "Interministerial",
+            "Network-based",
+            "Federated",
+            "Hybrid",
+            null
+          ],
+          "description": "Organizational arrangement through which administrative action is coordinated across government."
+        },
+        "Coordination authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single central authority",
+            "Collective body",
+            "Lead ministry",
+            "Rotating chair",
+            "Distributed authority",
+            "No designated authority",
+            null
+          ],
+          "description": "Authority responsible for initiating, directing, and maintaining cross-government coordination."
+        },
+        "Coordination intensity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Continuous",
+            "Frequent",
+            "Periodic",
+            "Issue-specific",
+            "Ad hoc",
+            "Minimal",
+            null
+          ],
+          "description": "Extent to which participating organizations coordinate their administrative activities."
+        },
+        "Conflict resolution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical escalation",
+            "Central arbitration",
+            "Collective decision",
+            "Negotiated settlement",
+            "Independent adjudication",
+            "Unresolved disputes",
+            null
+          ],
+          "description": "Mechanisms used to resolve disagreements between administrative organizations."
+        },
+        "Participation requirements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory",
+            "Conditionally mandatory",
+            "Voluntary",
+            "Selectively required",
+            "No formal participation requirements",
+            null
+          ],
+          "description": "Extent to which administrative organizations are required to participate in coordination arrangements."
+        },
+        "Functional allocation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Decentralized",
+            "Delegated",
+            "Shared",
+            "Functionally differentiated",
+            "Hybrid",
+            null
+          ],
+          "description": "Distribution of government-wide administrative functions among central authorities and participating organizations."
+        },
+        "Functional concentration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single-organization concentration",
+            "Dominant central provider",
+            "Several specialized providers",
+            "Broadly distributed",
+            "Fragmented",
+            null
+          ],
+          "description": "Degree to which responsibility for a function is concentrated in a single organization or distributed across several organizations."
+        },
+        "Functional specialization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Generalist",
+            "Functionally specialized",
+            "Highly specialized",
+            "Overlapping specialization",
+            "Mixed",
+            null
+          ],
+          "description": "Extent to which administrative organizations specialize in particular government-wide functions."
+        },
+        "Functional autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Limited",
+            "Substantial",
+            "Extensive",
+            "Function-dependent",
+            null
+          ],
+          "description": "Degree of discretion organizations have over the execution of their assigned administrative functions."
+        },
+        "Functional overlap": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "None",
+            "Limited and regulated",
+            "Complementary overlap",
+            "Extensive overlap",
+            "Unclear responsibility",
+            null
+          ],
+          "description": "Extent to which administrative responsibilities overlap between institutions or organizations."
+        },
+        "Functional coverage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive",
+            "Broad with defined gaps",
+            "Selectively covered",
+            "Substantial gaps",
+            "Unassigned functions",
+            null
+          ],
+          "description": "Extent to which the administrative system assigns responsibility for the relevant government-wide functions."
+        },
+        "Career and employment system": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Career-based",
+            "Position-based",
+            "Occupation-based",
+            "Agency-based",
+            "Politically appointed",
+            "Mixed",
+            null
+          ],
+          "description": "General arrangement through which public personnel enter, remain in, and progress through government employment."
+        },
+        "Recruitment system": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Open competitive",
+            "Internal competition",
+            "Centralized recruitment",
+            "Decentralized recruitment",
+            "Nomination-based",
+            "Political appointment",
+            "Mixed",
+            null
+          ],
+          "description": "Principal arrangements for recruiting personnel into administrative positions."
+        },
+        "Selection authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central personnel authority",
+            "Ministry",
+            "Agency",
+            "Independent commission",
+            "Selection panel",
+            "Shared authority",
+            null
+          ],
+          "description": "Organizational level responsible for selecting personnel."
+        },
+        "Employment security": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Permanent career tenure",
+            "Statutory protection",
+            "Contractual employment",
+            "Fixed-term employment",
+            "At-will employment",
+            "Mixed",
+            null
+          ],
+          "description": "Degree and basis of employment protection for public personnel."
+        },
+        "Career progression": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Seniority-based",
+            "Merit-based",
+            "Examination-based",
+            "Performance-based",
+            "Position competition",
+            "Managerial discretion",
+            "Mixed",
+            null
+          ],
+          "description": "Principal mechanism through which personnel advance to higher positions or grades."
+        },
+        "Personnel mobility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide mobility",
+            "Occupational mobility",
+            "Interagency mobility with restrictions",
+            "Agency-bound careers",
+            "Limited mobility",
+            null
+          ],
+          "description": "Extent to which personnel can move between government organizations and occupational groups."
+        },
+        "Remuneration system": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified pay scales",
+            "Occupational pay scales",
+            "Grade-based",
+            "Position-based",
+            "Agency-specific",
+            "Negotiated",
+            "Mixed",
+            null
+          ],
+          "description": "How salaries and related compensation are determined across government."
+        },
+        "Senior executive system": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified senior civil service",
+            "Career executives",
+            "Agency-specific executives",
+            "Politically appointed executives",
+            "Mixed",
+            null
+          ],
+          "description": "Arrangements governing the recruitment, appointment, development, and management of senior administrators."
+        },
+        "Institutional configuration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single-center",
+            "Multi-center",
+            "Functionally specialized",
+            "Distributed",
+            "Overlapping",
+            "Hybrid",
+            null
+          ],
+          "description": "Distribution of government-wide administrative responsibilities among institutions and administrative bodies."
+        },
+        "Institutional mandate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Explicit and comprehensive",
+            "Explicit with exceptions",
+            "Partially defined",
+            "Overlapping mandates",
+            "Ambiguous",
+            null
+          ],
+          "description": "Degree to which the responsibilities and jurisdiction of each institution are formally defined."
+        },
+        "Institutional autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Directly subordinate",
+            "Operationally autonomous",
+            "Legally independent",
+            "Constitutionally independent",
+            "Mixed",
+            null
+          ],
+          "description": "Degree of organizational independence enjoyed by administrative institutions."
+        },
+        "Institutional specialization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Generalist institutions",
+            "Functionally specialized institutions",
+            "Partially specialized",
+            "Overlapping specialization",
+            null
+          ],
+          "description": "Extent to which institutions have distinct functional mandates."
+        },
+        "Institutional hierarchy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single hierarchy",
+            "Multiple hierarchies",
+            "Functional hierarchy",
+            "Matrix arrangement",
+            "Largely nonhierarchical",
+            null
+          ],
+          "description": "Formal hierarchical relationships among institutions responsible for government-wide administration."
+        },
+        "Institutional stability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Stable",
+            "Periodically reorganized",
+            "Frequently reorganized",
+            "Reform-dependent",
+            "Highly volatile",
+            null
+          ],
+          "description": "Degree of continuity in the system's institutional configuration."
+        },
+        "Decision-making authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical",
+            "Centralized",
+            "Delegated",
+            "Shared",
+            "Autonomous",
+            "Negotiated",
+            "Hybrid",
+            null
+          ],
+          "description": "Distribution of formal authority to make administrative decisions."
+        },
+        "Delegation arrangements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "No delegation",
+            "Limited delegation",
+            "Conditional delegation",
+            "Extensive delegation",
+            "General delegated authority",
+            null
+          ],
+          "description": "Rules and practices governing the transfer of decision-making authority to subordinate or participating organizations."
+        },
+        "Reserved powers": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Extensive reserved powers",
+            "Selective reserved powers",
+            "Narrowly defined reserved powers",
+            "No general reservation",
+            "Function-dependent",
+            null
+          ],
+          "description": "Decisions retained exclusively by central or designated authorities."
+        },
+        "Rulemaking authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Jointly exercised",
+            "Functionally distributed",
+            "Delegated",
+            "Agency-specific",
+            "Mixed",
+            null
+          ],
+          "description": "Distribution of authority to establish administrative rules and binding standards."
+        },
+        "Enforcement authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central enforcement",
+            "Decentralized enforcement",
+            "Shared enforcement",
+            "Independent enforcement",
+            "Limited enforcement capacity",
+            null
+          ],
+          "description": "Distribution of authority to enforce government-wide administrative requirements."
+        },
+        "Discretion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Tightly bounded",
+            "Conditional",
+            "Substantial",
+            "Extensive",
+            "Function-dependent",
+            null
+          ],
+          "description": "Degree of freedom organizations have when applying common administrative requirements."
+        },
+        "Review and appeal rights": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical review",
+            "Independent administrative review",
+            "Judicial review",
+            "Multiple review channels",
+            "Limited formal review",
+            null
+          ],
+          "description": "Arrangements for reviewing administrative decisions and challenging their application."
+        },
+        "Institutional integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified",
+            "Strongly integrated",
+            "Selectively integrated",
+            "Loosely coupled",
+            "Fragmented",
+            null
+          ],
+          "description": "Extent to which administrative institutions operate through connected governance and organizational arrangements."
+        },
+        "Procedural integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "End-to-end integrated",
+            "Common procedures",
+            "Partially integrated",
+            "Locally connected",
+            "Organization-specific",
+            null
+          ],
+          "description": "Extent to which administrative procedures and workflows are coordinated across organizations."
+        },
+        "Information integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified information environment",
+            "Shared repositories",
+            "Interoperable databases",
+            "Controlled point-to-point exchange",
+            "Isolated information systems",
+            null
+          ],
+          "description": "Extent to which administrative information is shared and usable across government organizations."
+        },
+        "Technical interoperability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Common architecture",
+            "Standardized interoperability",
+            "Selective interoperability",
+            "Bilateral interfaces",
+            "Incompatible systems",
+            null
+          ],
+          "description": "Ability of administrative information systems to exchange and process information."
+        },
+        "Semantic interoperability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Common data definitions",
+            "Harmonized classifications",
+            "Partial semantic alignment",
+            "Organization-specific definitions",
+            "Incompatible semantics",
+            null
+          ],
+          "description": "Extent to which organizations use compatible definitions, classifications, and meanings for shared information."
+        },
+        "Integration governance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central integration authority",
+            "Shared governance",
+            "Function-specific governance",
+            "Decentralized governance",
+            "Absent or fragmented governance",
+            null
+          ],
+          "description": "Arrangements for setting priorities, standards, and responsibilities for system-wide integration."
+        },
+        "Administrative standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Uniform",
+            "Common-core",
+            "Standardized with exceptions",
+            "Differentiated",
+            "Organization-specific",
+            "Fragmented",
+            null
+          ],
+          "description": "Extent to which common administrative rules, procedures, classifications, and standards apply across government."
+        },
+        "Standardization scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide",
+            "Most organizations",
+            "Selected functions",
+            "Selected organizations",
+            "Narrow or limited scope",
+            null
+          ],
+          "description": "Range of organizations, functions, and processes covered by common standards."
+        },
+        "Standard-setting authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single central authority",
+            "Collective authority",
+            "Function-specific authorities",
+            "Decentralized standard-setting",
+            "Mixed",
+            null
+          ],
+          "description": "Authority responsible for establishing common administrative standards."
+        },
+        "Binding force": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Legally binding",
+            "Administratively mandatory",
+            "Conditionally binding",
+            "Advisory",
+            "Voluntary",
+            null
+          ],
+          "description": "Degree to which common standards are legally or administratively mandatory."
+        },
+        "Permitted variation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "No variation",
+            "Predefined exceptions",
+            "Authorized local adaptation",
+            "Broad discretion",
+            "Organization-specific arrangements",
+            null
+          ],
+          "description": "Extent to which organizations may deviate from common administrative standards."
+        },
+        "Exception management": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central authorization",
+            "Delegated authorization",
+            "Jointly reviewed exceptions",
+            "Self-authorized exceptions",
+            "Informal or undefined",
+            null
+          ],
+          "description": "Procedures for requesting, authorizing, documenting, and reviewing exceptions to common standards."
+        },
+        "Control mechanisms": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical",
+            "Regulatory",
+            "Procedural",
+            "Performance-based",
+            "Audit-based",
+            "Negotiated",
+            "Mixed",
+            null
+          ],
+          "description": "Principal mechanisms through which authorities influence and monitor administrative organizations."
+        },
+        "Ex ante control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive prior approval",
+            "Risk-based prior review",
+            "Selective approval",
+            "Limited prior control",
+            "No general prior approval",
+            null
+          ],
+          "description": "Extent to which decisions and transactions require approval or verification before execution."
+        },
+        "Ex post control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Continuous review",
+            "Periodic inspection",
+            "Risk-based audit",
+            "Selective review",
+            "Minimal retrospective control",
+            null
+          ],
+          "description": "Extent to which completed decisions and activities are reviewed for compliance and performance."
+        },
+        "Control locus": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central authority",
+            "Parent ministry",
+            "Agency management",
+            "Independent oversight body",
+            "Distributed control",
+            null
+          ],
+          "description": "Organizational level at which administrative control is primarily exercised."
+        },
+        "Corrective authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Direct corrective orders",
+            "Mandatory improvement plans",
+            "Conditional intervention",
+            "Recommendations only",
+            "Limited corrective powers",
+            null
+          ],
+          "description": "Authority to require corrective action when administrative deficiencies are identified."
+        },
+        "Sanctioning capacity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Direct sanctions",
+            "Referral for sanctions",
+            "Contractual or financial consequences",
+            "Limited sanctions",
+            "No effective sanctioning mechanism",
+            null
+          ],
+          "description": "Ability to impose consequences for noncompliance or administrative misconduct."
+        },
+        "Risk orientation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Predominantly rule-based",
+            "Risk-informed",
+            "Risk-based",
+            "Mixed",
+            "Largely reactive",
+            null
+          ],
+          "description": "Extent to which control activities are prioritized according to assessed risks."
+        },
+        "Shared-service provision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized provision",
+            "Shared-service centers",
+            "Distributed provision",
+            "Agency-specific provision",
+            "Outsourced provision",
+            "Hybrid",
+            null
+          ],
+          "description": "Organizational arrangement through which common administrative services are delivered."
+        },
+        "Service ownership": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central service owner",
+            "Shared ownership",
+            "Functional ministry",
+            "Individual agency",
+            "External provider",
+            "Unclear ownership",
+            null
+          ],
+          "description": "Institution responsible for defining service requirements and overseeing service delivery."
+        },
+        "Service delivery location": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single central provider",
+            "Regional centers",
+            "Distributed organizational units",
+            "Agency-based delivery",
+            "External delivery",
+            "Hybrid",
+            null
+          ],
+          "description": "Where common administrative services are operationally performed."
+        },
+        "Service coverage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide mandatory coverage",
+            "Government-wide optional coverage",
+            "Defined organizational groups",
+            "Selected functions",
+            "Limited coverage",
+            null
+          ],
+          "description": "Range of organizations eligible or required to use shared administrative services."
+        },
+        "Service financing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central appropriation",
+            "Pooled contributions",
+            "User charges",
+            "Agency-funded",
+            "Contractual payments",
+            "Mixed financing",
+            null
+          ],
+          "description": "How shared administrative services are financed."
+        },
+        "Service-level governance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centrally prescribed standards",
+            "Service-level agreements",
+            "Negotiated standards",
+            "Provider-defined standards",
+            "No formal service standards",
+            null
+          ],
+          "description": "How service quality, responsibilities, costs, and delivery expectations are agreed and monitored."
+        },
+        "Outsourcing arrangements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Fully public provision",
+            "Selective outsourcing",
+            "Extensive outsourcing",
+            "Predominantly external provision",
+            "Function-dependent",
+            null
+          ],
+          "description": "Extent to which administrative service delivery is assigned to external providers."
+        },
+        "Rulemaking and regulation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified regulatory framework",
+            "Function-specific frameworks",
+            "Distributed rulemaking",
+            "Common standards with local discretion",
+            "Fragmented regulation",
+            null
+          ],
+          "description": "How government-wide administrative rules and requirements are established and applied."
+        },
+        "Regulatory scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive",
+            "Broad",
+            "Function-specific",
+            "Organization-specific",
+            "Fragmented",
+            null
+          ],
+          "description": "Range of administrative functions and organizations governed by common regulatory arrangements."
+        },
+        "Regulatory hierarchy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Clear hierarchy",
+            "Coordinated hierarchy",
+            "Overlapping frameworks",
+            "Conflicting rules",
+            "No clear hierarchy",
+            null
+          ],
+          "description": "Relationship between general administrative rules and function-specific or organization-specific requirements."
+        },
+        "Regulatory coherence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Highly coherent",
+            "Generally consistent",
+            "Partially aligned",
+            "Frequent inconsistencies",
+            "Materially conflicting",
+            null
+          ],
+          "description": "Degree to which administrative rules are mutually consistent and compatible."
+        },
+        "Regulatory discretion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Narrowly bounded",
+            "Conditional",
+            "Substantial",
+            "Extensive",
+            null
+          ],
+          "description": "Degree of freedom available to authorities when interpreting and applying administrative rules."
+        },
+        "Rule revision": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Regular scheduled review",
+            "Systematic review",
+            "Event-triggered review",
+            "Ad hoc revision",
+            "Rarely updated",
+            null
+          ],
+          "description": "Mechanisms for reviewing, updating, consolidating, and repealing administrative rules."
+        },
+        "Regulatory consultation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory broad consultation",
+            "Structured consultation",
+            "Selective consultation",
+            "Informal consultation",
+            "No regular consultation",
+            null
+          ],
+          "description": "Extent to which affected organizations and stakeholders participate in developing administrative rules."
+        },
+        "Accountability structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical",
+            "Ministerial",
+            "Managerial",
+            "Independent oversight",
+            "Collective",
+            "Multiple accountability",
+            null
+          ],
+          "description": "Arrangement of relationships through which administrative organizations account for decisions, compliance, and results."
+        },
+        "Accountability direction": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Upward",
+            "Horizontal",
+            "Downward to service users or the public",
+            "Judicial",
+            "Multidirectional",
+            null
+          ],
+          "description": "Direction in which administrative organizations and officials are required to account for their actions."
+        },
+        "Accountability scope": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Legal compliance",
+            "Financial stewardship",
+            "Procedural compliance",
+            "Performance",
+            "Ethics",
+            "Comprehensive",
+            null
+          ],
+          "description": "Matters for which administrative actors are required to provide explanations or accept responsibility."
+        },
+        "Reporting obligations": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Frequent standardized reporting",
+            "Periodic reporting",
+            "Event-triggered reporting",
+            "Discretionary reporting",
+            "Minimal reporting",
+            null
+          ],
+          "description": "Requirements to submit administrative, financial, compliance, or performance information."
+        },
+        "Oversight independence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Internal managerial oversight",
+            "Ministry-level oversight",
+            "Functionally independent oversight",
+            "Legally independent oversight",
+            "Constitutionally independent oversight",
+            null
+          ],
+          "description": "Degree of independence enjoyed by bodies responsible for reviewing administrative conduct."
+        },
+        "Transparency obligations": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive proactive disclosure",
+            "Standardized disclosure",
+            "Disclosure on request",
+            "Restricted disclosure",
+            "Limited transparency",
+            null
+          ],
+          "description": "Requirements to disclose administrative information to oversight bodies and the public."
+        },
+        "Complaint and redress": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Internal review",
+            "Administrative tribunal",
+            "Ombudsman",
+            "Judicial remedy",
+            "Multiple channels",
+            "Limited redress",
+            null
+          ],
+          "description": "Mechanisms through which individuals and organizations can challenge administrative decisions or service failures."
+        },
+        "Remedial follow-through": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory tracked remediation",
+            "Formal improvement plans",
+            "Discretionary follow-up",
+            "Recommendations without tracking",
+            "Little follow-through",
+            null
+          ],
+          "description": "Extent to which findings from audits, investigations, and reviews result in corrective action."
+        },
+        "Digital infrastructure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized infrastructure",
+            "Shared infrastructure",
+            "Federated infrastructure",
+            "Organization-specific infrastructure",
+            "Fragmented legacy infrastructure",
+            null
+          ],
+          "description": "Organization of the digital infrastructure supporting administrative operations across government."
+        },
+        "Platform ownership": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central government ownership",
+            "Shared public ownership",
+            "Agency ownership",
+            "External-provider ownership",
+            "Mixed",
+            null
+          ],
+          "description": "Allocation of ownership and operational responsibility for shared digital platforms."
+        },
+        "Digital service architecture": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified platform",
+            "Shared modular platforms",
+            "Federated architecture",
+            "Interoperable distributed systems",
+            "Isolated agency systems",
+            null
+          ],
+          "description": "Arrangement of digital platforms, applications, interfaces, and services across government."
+        },
+        "Data stewardship": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized stewardship",
+            "Domain-specific stewardship",
+            "Federated stewardship",
+            "Agency-specific stewardship",
+            "Unclear responsibility",
+            null
+          ],
+          "description": "Allocation of responsibility for data quality, definitions, access, maintenance, and reuse."
+        },
+        "Data-sharing authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide sharing mandate",
+            "Authorized purpose-based sharing",
+            "Bilateral agreements",
+            "Restrictive organization-specific control",
+            "No coherent framework",
+            null
+          ],
+          "description": "Rules governing whether and how administrative data can be exchanged across organizations."
+        },
+        "Digital identity and access": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified government identity",
+            "Federated identity",
+            "Shared identity services",
+            "Agency-specific identities",
+            "Fragmented access arrangements",
+            null
+          ],
+          "description": "Arrangement for identifying users and managing access to administrative systems."
+        },
+        "Cybersecurity governance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central cybersecurity authority",
+            "Shared governance",
+            "Agency-led governance",
+            "Outsourced governance",
+            "Fragmented responsibility",
+            null
+          ],
+          "description": "Allocation of responsibility for setting and enforcing government-wide cybersecurity requirements."
+        },
+        "Legacy-system dependence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Limited",
+            "Substantial",
+            "Pervasive",
+            "Highly fragmented",
+            null
+          ],
+          "description": "Degree to which administrative operations depend on outdated or difficult-to-integrate systems."
+        },
+        "Resource distribution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central allocation",
+            "Formula-based allocation",
+            "Pooled resources",
+            "Agency-controlled resources",
+            "Shared funding",
+            "Mixed",
+            null
+          ],
+          "description": "How funding, personnel, and technical resources for government-wide administrative functions are allocated."
+        },
+        "Budgetary authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Ministry-controlled",
+            "Agency-controlled",
+            "Shared authority",
+            "Function-specific arrangements",
+            null
+          ],
+          "description": "Distribution of authority to propose, approve, reallocate, and control administrative budgets."
+        },
+        "Funding predictability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Multiyear predictable funding",
+            "Stable annual allocations",
+            "Conditional allocations",
+            "Volatile funding",
+            "Ad hoc financing",
+            null
+          ],
+          "description": "Degree to which administrative organizations can anticipate the resources available to them."
+        },
+        "Cost allocation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central absorption",
+            "Equal contributions",
+            "Usage-based charges",
+            "Formula-based allocation",
+            "Negotiated contributions",
+            "Mixed",
+            null
+          ],
+          "description": "Method used to assign the costs of shared administrative functions to participating organizations."
+        },
+        "Resource pooling": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive pooling",
+            "Function-specific pooling",
+            "Selective pooling",
+            "Limited sharing",
+            "Independent organizational resources",
+            null
+          ],
+          "description": "Extent to which organizations combine or share resources to support common administrative functions."
+        },
+        "Procurement authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized procurement",
+            "Framework agreements",
+            "Shared procurement",
+            "Decentralized procurement",
+            "Mixed",
+            null
+          ],
+          "description": "Distribution of authority for acquiring goods and services used in government-wide administration."
+        },
+        "Resource flexibility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Highly restricted",
+            "Narrowly permitted",
+            "Conditional flexibility",
+            "Substantial flexibility",
+            "Extensive discretion",
+            null
+          ],
+          "description": "Degree to which organizations can reallocate resources in response to changing administrative needs."
+        },
+        "Administrative capacity distribution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized expertise",
+            "Distributed expertise",
+            "Shared specialist capacity",
+            "Agency-dependent capacity",
+            "Uneven capacity",
+            "Mixed",
+            null
+          ],
+          "description": "Distribution of administrative expertise and implementation capacity across government."
+        },
+        "Strategic capacity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized strategic capacity",
+            "Shared strategic capacity",
+            "Distributed capacity",
+            "Concentrated in selected organizations",
+            "Limited system-wide capacity",
+            null
+          ],
+          "description": "Distribution of expertise for system-wide planning, policy development, and administrative reform."
+        },
+        "Technical expertise": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central expert pool",
+            "Specialist centers",
+            "Agency-based expertise",
+            "External-provider dependence",
+            "Widespread shortages",
+            "Mixed",
+            null
+          ],
+          "description": "Availability and distribution of specialized professional and technical knowledge."
+        },
+        "Leadership capacity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Strong government-wide leadership pool",
+            "Centralized leadership development",
+            "Organization-specific leadership",
+            "Uneven capacity",
+            "Limited capacity",
+            null
+          ],
+          "description": "Distribution of leadership and senior management capabilities across administrative organizations."
+        },
+        "Analytical capacity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide analytical capability",
+            "Shared analytical units",
+            "Agency-level capability",
+            "External analytical dependence",
+            "Limited capability",
+            null
+          ],
+          "description": "Ability to collect, interpret, and use evidence for administrative decisions and improvement."
+        },
+        "Capability development": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized professional development",
+            "Common competency framework",
+            "Agency-led development",
+            "Decentralized training",
+            "Limited systematic development",
+            null
+          ],
+          "description": "Arrangements for developing and maintaining administrative competencies."
+        },
+        "Capability equalization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory common support",
+            "Targeted capacity-building",
+            "Shared expert services",
+            "Competitive access to assistance",
+            "No systematic equalization",
+            null
+          ],
+          "description": "Mechanisms for addressing differences in capability between organizations or levels of government."
+        },
+        "Implementation responsibility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central implementation",
+            "Ministry-led",
+            "Agency-led",
+            "Joint implementation",
+            "Distributed implementation",
+            "Unclear responsibility",
+            null
+          ],
+          "description": "Allocation of responsibility for putting government-wide administrative policies and requirements into practice."
+        },
+        "Implementation discretion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Strictly uniform",
+            "Narrowly bounded",
+            "Conditional adaptation",
+            "Substantial local discretion",
+            "Negotiated implementation",
+            null
+          ],
+          "description": "Degree of freedom organizations have to adapt common requirements during implementation."
+        },
+        "Implementation sequencing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Simultaneous government-wide rollout",
+            "Phased rollout",
+            "Pilot-first rollout",
+            "Organization-specific sequencing",
+            "Ad hoc rollout",
+            null
+          ],
+          "description": "How implementation is scheduled across organizations and functions."
+        },
+        "Implementation support": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory centralized support",
+            "Shared technical assistance",
+            "Dedicated implementation teams",
+            "Voluntary guidance",
+            "Minimal support",
+            null
+          ],
+          "description": "Assistance available to organizations implementing common administrative requirements."
+        },
+        "Compliance variation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Consistent compliance",
+            "Limited variation",
+            "Moderate variation",
+            "Substantial variation",
+            "Widespread noncompliance",
+            null
+          ],
+          "description": "Degree to which organizations differ in their actual application of common requirements."
+        },
+        "Implementation monitoring": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Continuous monitoring",
+            "Milestone-based monitoring",
+            "Periodic reporting",
+            "Selective inspections",
+            "Informal or absent monitoring",
+            null
+          ],
+          "description": "Arrangements for tracking progress, identifying barriers, and verifying implementation."
+        },
+        "Implementation incentives": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory directives",
+            "Conditional funding",
+            "Performance incentives",
+            "Professional support",
+            "Negotiated commitments",
+            "Few incentives",
+            null
+          ],
+          "description": "Mechanisms used to encourage or secure implementation."
+        },
+        "Institutional adaptability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Highly adaptable",
+            "Incrementally adaptable",
+            "Conditionally adaptable",
+            "Rigid",
+            "Institutionally resistant",
+            null
+          ],
+          "description": "Ability of the administrative system to respond to changing requirements and circumstances."
+        },
+        "Reform initiation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central initiation",
+            "Collective initiation",
+            "Ministry-led initiation",
+            "Agency-led initiation",
+            "Externally triggered",
+            "Mixed",
+            null
+          ],
+          "description": "Distribution of authority to identify and initiate administrative reforms."
+        },
+        "Reform coordination": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central reform authority",
+            "Dedicated reform unit",
+            "Interministerial steering",
+            "Decentralized reform",
+            "Ad hoc coordination",
+            null
+          ],
+          "description": "Arrangements for coordinating reform initiatives across government organizations."
+        },
+        "Change velocity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Rapid",
+            "Staged",
+            "Incremental",
+            "Slow",
+            "Highly variable",
+            null
+          ],
+          "description": "Typical pace at which the system can approve and implement administrative changes."
+        },
+        "Experimentation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide experimentation framework",
+            "Controlled pilots",
+            "Authorized local experimentation",
+            "Informal experimentation",
+            "Experimentation discouraged",
+            null
+          ],
+          "description": "Extent to which administrative organizations can test new approaches before wider adoption."
+        },
+        "Reform reversibility": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Formal review and reversal mechanisms",
+            "Conditional reversibility",
+            "Difficult to reverse",
+            "Effectively irreversible",
+            "Case-dependent",
+            null
+          ],
+          "description": "Ability to revise, discontinue, or reverse reforms when results are inadequate or circumstances change."
+        },
+        "Institutional memory": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Systematic records and knowledge transfer",
+            "Documented but decentralized memory",
+            "Partial records",
+            "Dependence on individuals",
+            "Frequent loss of institutional knowledge",
+            null
+          ],
+          "description": "Extent to which the system retains knowledge of previous reforms and organizational changes."
+        },
+        "Performance management arrangements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized system",
+            "Common framework with decentralized reporting",
+            "Agency-specific systems",
+            "Negotiated arrangements",
+            "Fragmented measurement",
+            null
+          ],
+          "description": "Organization of the processes through which administrative performance is defined, measured, reviewed, and used."
+        },
+        "Indicator standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Fully standardized",
+            "Common core with supplementary indicators",
+            "Partially standardized",
+            "Organization-specific",
+            "No common framework",
+            null
+          ],
+          "description": "Extent to which common definitions and indicators are used across administrative organizations."
+        },
+        "Target setting": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centrally prescribed",
+            "Jointly negotiated",
+            "Agency-defined within common parameters",
+            "Independently established",
+            "No systematic targets",
+            null
+          ],
+          "description": "How administrative performance targets are established."
+        },
+        "Performance reporting": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified reporting system",
+            "Standardized decentralized reporting",
+            "Periodic consolidated reports",
+            "Agency-specific reporting",
+            "Fragmented reporting",
+            null
+          ],
+          "description": "Arrangements for reporting administrative results across government."
+        },
+        "Evaluation independence": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Internal self-assessment",
+            "Independent internal review",
+            "Cross-organizational peer review",
+            "External evaluation",
+            "Independent statutory evaluation",
+            null
+          ],
+          "description": "Degree to which performance assessments are independent of the organizations being assessed."
+        },
+        "Performance consequences": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Direct budgetary consequences",
+            "Management and personnel consequences",
+            "Mandatory improvement plans",
+            "Advisory use",
+            "Little or no use",
+            null
+          ],
+          "description": "Extent to which performance results influence administrative decisions and organizational behavior."
+        },
+        "Benchmarking": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide benchmarking",
+            "Standardized peer comparison",
+            "Selective benchmarking",
+            "Informal comparison",
+            "No systematic benchmarking",
+            null
+          ],
+          "description": "Extent to which organizations compare administrative performance against common benchmarks or one another."
+        },
+        "Evaluation and learning cycle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Closed-loop continuous improvement",
+            "Scheduled review and follow-up",
+            "Selective follow-up",
+            "Reporting without systematic learning",
+            "Absent cycle",
+            null
+          ],
+          "description": "Extent to which performance evidence leads to review, corrective action, and subsequent reassessment."
+        },
+        "Strategic steering authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central executive authority",
+            "Central administrative authority",
+            "Collective cabinet body",
+            "Interministerial committee",
+            "Distributed leadership",
+            "Unclear authority",
+            null
+          ],
+          "description": "Authority responsible for setting the overall direction of government-wide administration."
+        },
+        "Leadership configuration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Single central leader",
+            "Collective leadership",
+            "Lead institution",
+            "Rotating leadership",
+            "Distributed leadership",
+            "Hybrid",
+            null
+          ],
+          "description": "Arrangement through which system-wide administrative leadership is exercised."
+        },
+        "Priority alignment": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory alignment",
+            "Common strategic framework",
+            "Negotiated alignment",
+            "Voluntary alignment",
+            "Weak alignment",
+            null
+          ],
+          "description": "Extent to which administrative organizations align their priorities with government-wide objectives."
+        },
+        "Cross-government decision forums": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central executive forum",
+            "Permanent interministerial committees",
+            "Specialist councils",
+            "Ad hoc committees",
+            "No regular forum",
+            null
+          ],
+          "description": "Formal forums through which system-wide administrative decisions are discussed and made."
+        },
+        "Strategic dispute resolution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central executive decision",
+            "Designated arbitrator",
+            "Collective agreement",
+            "Negotiated settlement",
+            "Unresolved conflict",
+            null
+          ],
+          "description": "Mechanisms for resolving competing priorities among administrative institutions."
+        },
+        "Steering accountability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Formal mandate and reporting",
+            "Collective political accountability",
+            "Independent review",
+            "Informal accountability",
+            "Unclear responsibility",
+            null
+          ],
+          "description": "Arrangements for holding system-wide leaders and steering bodies accountable for their direction and decisions."
+        },
+        "Planning horizon": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Short-term",
+            "Medium-term",
+            "Long-term",
+            "Rolling multiyear",
+            "Multiple horizons",
+            "No explicit horizon",
+            null
+          ],
+          "description": "Time period explicitly considered in government-wide administrative planning."
+        },
+        "Administrative strategy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive strategy",
+            "Coordinated thematic strategies",
+            "Function-specific strategies",
+            "Fragmented strategies",
+            "No explicit strategy",
+            null
+          ],
+          "description": "Extent to which government-wide administration is guided by an explicit strategic framework."
+        },
+        "Priority setting": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central executive prioritization",
+            "Evidence-based central planning",
+            "Interministerial negotiation",
+            "Decentralized prioritization",
+            "Ad hoc prioritization",
+            null
+          ],
+          "description": "Process through which administrative development priorities are identified and ranked."
+        },
+        "Planning integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Fully integrated",
+            "Systematically aligned",
+            "Partially aligned",
+            "Weakly connected",
+            "Separate planning processes",
+            null
+          ],
+          "description": "Degree to which administrative plans align with fiscal plans, workforce plans, digital strategies, and wider government objectives."
+        },
+        "Planning participation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Broad mandatory participation",
+            "Structured interministerial participation",
+            "Selective consultation",
+            "Central-only planning",
+            "Informal participation",
+            null
+          ],
+          "description": "Extent to which administrative organizations and affected stakeholders contribute to strategic planning."
+        },
+        "Plan-to-budget linkage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Direct multiyear linkage",
+            "Formal annual linkage",
+            "Partial linkage",
+            "Discretionary linkage",
+            "No systematic linkage",
+            null
+          ],
+          "description": "Degree to which administrative plans influence budget allocations and resource commitments."
+        },
+        "Strategic review": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Scheduled comprehensive review",
+            "Annual review",
+            "Milestone-based review",
+            "Ad hoc review",
+            "Rarely reviewed",
+            null
+          ],
+          "description": "Frequency and method by which administrative priorities and plans are reassessed."
+        },
+        "Process architecture": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Common government-wide processes",
+            "Standardized process families",
+            "Function-specific processes",
+            "Agency-specific processes",
+            "Fragmented processes",
+            null
+          ],
+          "description": "How government-wide administrative workflows and procedures are structured."
+        },
+        "Process ownership": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central process owner",
+            "Designated functional owner",
+            "Shared ownership",
+            "Local organizational ownership",
+            "No clear owner",
+            null
+          ],
+          "description": "Allocation of responsibility for the design, operation, and improvement of administrative processes."
+        },
+        "Workflow integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "End-to-end cross-government workflows",
+            "Integrated interagency workflows",
+            "Standardized handoffs",
+            "Manual coordination",
+            "Disconnected workflows",
+            null
+          ],
+          "description": "Degree to which processes connect activities across organizational boundaries."
+        },
+        "Process standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Uniform workflows",
+            "Common core with local variation",
+            "Standardized process families",
+            "Locally designed workflows",
+            "No common approach",
+            null
+          ],
+          "description": "Extent to which common process designs and procedures are used across organizations."
+        },
+        "Process automation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "End-to-end automation",
+            "Substantial automation",
+            "Partial automation",
+            "Predominantly manual processing",
+            "Mixed",
+            null
+          ],
+          "description": "Extent to which administrative processes are automated through digital systems."
+        },
+        "Process performance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive measurement",
+            "Common process indicators",
+            "Selective measurement",
+            "Informal monitoring",
+            "No systematic measurement",
+            null
+          ],
+          "description": "Extent to which process efficiency, timeliness, cost, and error rates are systematically measured."
+        },
+        "Process redesign": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Continuous process improvement",
+            "Scheduled reviews",
+            "Central redesign programs",
+            "Organization-led redesign",
+            "Ad hoc changes",
+            "No systematic redesign",
+            null
+          ],
+          "description": "Arrangements for simplifying, reengineering, and improving administrative workflows."
+        },
+        "Ethics framework": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified government-wide code",
+            "Common code with sector-specific rules",
+            "Separate institutional codes",
+            "Fragmented requirements",
+            "No comprehensive framework",
+            null
+          ],
+          "description": "Existence and scope of common ethical principles and conduct requirements for public administration."
+        },
+        "Conflict-of-interest management": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive disclosure and management",
+            "Role-specific controls",
+            "Partial disclosure requirements",
+            "Discretionary management",
+            "Limited safeguards",
+            null
+          ],
+          "description": "Arrangements for identifying, disclosing, preventing, and managing conflicts of interest."
+        },
+        "Anti-corruption coordination": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central coordinating authority",
+            "Specialized independent bodies",
+            "Distributed institutional responsibilities",
+            "Shared coordination",
+            "Fragmented arrangements",
+            null
+          ],
+          "description": "Organization of responsibilities for preventing and addressing corruption across government."
+        },
+        "Whistleblowing protection": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive protection and independent channels",
+            "Formal protection with limitations",
+            "Internal-only reporting",
+            "Weak protection",
+            "No dedicated framework",
+            null
+          ],
+          "description": "Legal and administrative protections and reporting channels for individuals who report misconduct."
+        },
+        "Integrity oversight": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Independent oversight",
+            "Central administrative oversight",
+            "Internal organizational oversight",
+            "Shared oversight",
+            "Limited monitoring",
+            null
+          ],
+          "description": "Arrangements for monitoring compliance with ethics and integrity requirements."
+        },
+        "Disciplinary arrangements": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Unified disciplinary framework",
+            "Common rules with delegated administration",
+            "Institution-specific procedures",
+            "Fragmented arrangements",
+            null
+          ],
+          "description": "How misconduct is investigated, adjudicated, and sanctioned across government."
+        },
+        "Integrity risk management": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide risk assessments",
+            "Periodic organizational assessments",
+            "Selective assessments",
+            "Reactive case handling",
+            "No systematic assessment",
+            null
+          ],
+          "description": "Extent to which corruption and ethical risks are systematically identified and mitigated."
+        },
+        "Territorial coverage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "National only",
+            "National and regional",
+            "National and local",
+            "All territorial levels",
+            "Asymmetric coverage",
+            "Function-dependent",
+            null
+          ],
+          "description": "Levels of government included in the administrative system's jurisdiction or coordination arrangements."
+        },
+        "Subnational administrative autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized administration",
+            "Delegated administration",
+            "Bounded autonomy",
+            "Substantial autonomy",
+            "Constitutionally protected autonomy",
+            "Asymmetric autonomy",
+            null
+          ],
+          "description": "Degree of discretion exercised by subnational authorities over administrative arrangements."
+        },
+        "Intergovernmental coordination": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical direction",
+            "Intergovernmental councils",
+            "Negotiated agreements",
+            "Shared administrative bodies",
+            "Bilateral coordination",
+            "Ad hoc coordination",
+            null
+          ],
+          "description": "Arrangements for coordinating administrative policies and practices across territorial levels."
+        },
+        "Administrative standards reach": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Uniform across levels",
+            "Common minimum standards",
+            "Standards with territorial variation",
+            "Selectively applicable",
+            "Separate systems",
+            null
+          ],
+          "description": "Extent to which government-wide administrative standards apply across territorial levels."
+        },
+        "Fiscal-administrative linkage": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Fully aligned responsibilities and funding",
+            "Formula-based transfers",
+            "Conditional grants",
+            "Negotiated funding",
+            "Unfunded mandates",
+            "Weak linkage",
+            null
+          ],
+          "description": "Relationship between resource transfers and administrative responsibilities across levels of government."
+        },
+        "Capacity equalization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Comprehensive equalization",
+            "Targeted capacity support",
+            "Shared specialist services",
+            "Competitive assistance",
+            "Limited support",
+            "No systematic mechanism",
+            null
+          ],
+          "description": "Arrangements for addressing differences in administrative capability across territorial governments."
+        },
+        "Intergovernmental dispute resolution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical resolution",
+            "Joint intergovernmental bodies",
+            "Mediation",
+            "Independent adjudication",
+            "Judicial resolution",
+            "Informal negotiation",
+            null
+          ],
+          "description": "Mechanisms for resolving administrative disputes between territorial levels of government."
+        },
+        "Knowledge management": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide knowledge system",
+            "Shared knowledge repositories",
+            "Distributed knowledge systems",
+            "Informal knowledge exchange",
+            "No systematic arrangement",
+            null
+          ],
+          "description": "Arrangements for documenting, organizing, and making administrative knowledge available across government."
+        },
+        "Knowledge retention": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Systematic institutional records",
+            "Formal knowledge-transfer procedures",
+            "Partial documentation",
+            "Person-dependent memory",
+            "Frequent knowledge loss",
+            null
+          ],
+          "description": "Extent to which administrative records, precedents, decisions, and lessons survive personnel turnover and institutional change."
+        },
+        "Knowledge sharing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Mandatory knowledge-sharing arrangements",
+            "Formal communities of practice",
+            "Shared repositories",
+            "Voluntary networks",
+            "Limited exchange",
+            null
+          ],
+          "description": "Extent to which administrative organizations exchange expertise, lessons, and effective practices."
+        },
+        "Lessons-learned processes": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Systematic review and application",
+            "Formal reviews with selective follow-up",
+            "Ad hoc lessons learned",
+            "Documentation without application",
+            "No formal process",
+            null
+          ],
+          "description": "Mechanisms for identifying and applying lessons from implementation, audits, evaluations, and administrative failures."
+        },
+        "Professional learning networks": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Government-wide professional networks",
+            "Formal occupational communities",
+            "Interagency networks",
+            "Informal contacts",
+            "Limited professional exchange",
+            null
+          ],
+          "description": "Arrangements for connecting administrative professionals across organizations to exchange knowledge and expertise."
+        },
+        "Evidence use": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Systematic evidence-based decisions",
+            "Formal evidence requirements",
+            "Selective evidence use",
+            "Predominantly experiential decisions",
+            "Little systematic evidence use",
+            null
+          ],
+          "description": "Extent to which research, administrative data, evaluations, and operational evidence inform administrative decisions."
+        },
+        "Knowledge transfer": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Formal transfer protocols",
+            "Structured mentoring and handovers",
+            "Shared specialist teams",
+            "Informal transfer",
+            "High dependence on individual knowledge",
+            null
+          ],
+          "description": "Arrangements for transferring expertise and administrative knowledge between organizations, roles, and generations of personnel."
+        }
+      }
+    },
+    "structural-configuration": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by the shape of its organization: how differentiated, how layered, how formalized, and how autonomous its units are.",
+      "additionalProperties": false,
+      "properties": {
+        "Functional specialization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Generalist",
+            "Partially specialized",
+            "Functionally specialized",
+            "Highly specialized",
+            null
+          ],
+          "description": "Degree to which administrative units are differentiated by specialized function."
+        },
+        "Vertical differentiation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Shallow",
+            "Moderate",
+            "Deep",
+            "Very deep",
+            null
+          ],
+          "description": "Number of hierarchical levels separating top authority from operating units."
+        },
+        "Horizontal differentiation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Few",
+            "Moderate",
+            "Many",
+            "Proliferated",
+            null
+          ],
+          "description": "Number of distinct organizational units or functions coexisting at the same level."
+        },
+        "Span of control": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Narrow",
+            "Moderate",
+            "Wide",
+            null
+          ],
+          "description": "Number of subordinates reporting to a typical supervisor."
+        },
+        "Formalization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Moderate",
+            "Extensive",
+            "Pervasive",
+            null
+          ],
+          "description": "Extent to which rules, procedures, and roles are written and prescribed."
+        },
+        "Procedural standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "None",
+            "Partial",
+            "Common-core",
+            "Uniform",
+            null
+          ],
+          "description": "Extent to which like activities follow common prescribed procedures."
+        },
+        "Centralization of authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Decentralized",
+            "Partially centralized",
+            "Centralized",
+            "Highly centralized",
+            null
+          ],
+          "description": "Locus of decision-making authority in the hierarchy."
+        },
+        "Configuration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Flat",
+            "Tall",
+            "Line-and-staff",
+            "Matrix",
+            "Networked",
+            "Hybrid",
+            null
+          ],
+          "description": "Overall shape of the structure."
+        },
+        "Line-staff balance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Line-dominant",
+            "Balanced",
+            "Staff-heavy",
+            null
+          ],
+          "description": "Relative weight of line authority versus staff and advisory units."
+        },
+        "Administrative intensity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low",
+            "Moderate",
+            "High",
+            null
+          ],
+          "description": "Proportion of administrative and managerial staff relative to operating staff."
+        },
+        "Professionalization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low",
+            "Moderate",
+            "High",
+            "Dominant",
+            null
+          ],
+          "description": "Extent to which staff hold formal professional qualifications."
+        },
+        "Unit autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Subordinate",
+            "Operationally autonomous",
+            "Legally independent",
+            "Constitutionally independent",
+            null
+          ],
+          "description": "Organizational independence of constituent units."
+        }
+      }
+    },
+    "system-properties": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by graded system-wide qualities, as spectra rather than types.",
+      "additionalProperties": false,
+      "properties": {
+        "Centralization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Partly centralized",
+            "Hybrid",
+            "Partly decentralized",
+            "Decentralized",
+            null
+          ],
+          "description": "Concentration of authority and coordination in centers versus agencies."
+        },
+        "Standardization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Fragmented",
+            "Partly standardized",
+            "Common-core",
+            "Standardized",
+            "Uniform",
+            null
+          ],
+          "description": "Extent of common procedures, rules, and requirements."
+        },
+        "Integration": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Siloed",
+            "Loosely coupled",
+            "Partly integrated",
+            "Integrated",
+            "Unified",
+            null
+          ],
+          "description": "Cross-boundary linkage of functions and processes."
+        },
+        "Sharing": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Duplicated",
+            "Partly shared",
+            "Shared",
+            "Fully shared",
+            null
+          ],
+          "description": "Central or joint versus replicated service provision."
+        },
+        "Interoperability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Incompatible",
+            "Bilateral interfaces",
+            "Selective interoperability",
+            "Standardized interoperability",
+            "Common architecture",
+            null
+          ],
+          "description": "Cross-boundary capacity of systems and data."
+        },
+        "Autonomy": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Subordinate",
+            "Constrained",
+            "Bounded",
+            "Substantial",
+            "Extensive",
+            null
+          ],
+          "description": "Discretion of component organizations."
+        },
+        "Discretion": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Bounded",
+            "Conditional",
+            "Substantial",
+            "Extensive",
+            null
+          ],
+          "description": "Freedom in applying common administrative requirements."
+        },
+        "Formalization": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Informal",
+            "Partly formalized",
+            "Formalized",
+            "Highly formalized",
+            null
+          ],
+          "description": "Degree to which arrangements are legally or administratively prescribed."
+        },
+        "Coordination intensity": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Minimal",
+            "Ad hoc",
+            "Periodic",
+            "Frequent",
+            "Continuous",
+            null
+          ],
+          "description": "Frequency and intensity of cross-organization coordination."
+        },
+        "Transparency": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Opaque",
+            "Restricted",
+            "On request",
+            "Standardized disclosure",
+            "Proactive disclosure",
+            null
+          ],
+          "description": "Public accessibility of decisions, information, and operations."
+        },
+        "Predictability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Volatile",
+            "Somewhat stable",
+            "Stable",
+            "Highly predictable",
+            null
+          ],
+          "description": "Stability and anticipability of rules and resourcing."
+        },
+        "Adaptability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Rigid",
+            "Conditionally adaptable",
+            "Incrementally adaptable",
+            "Highly adaptable",
+            null
+          ],
+          "description": "Capacity of the system to change its arrangements."
+        }
+      }
+    },
+    "function-allocation": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by where each core administrative function is performed along the center-agency axis.",
+      "additionalProperties": false,
+      "properties": {
+        "Budgeting function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where budget formulation, allocation, and control are performed."
+        },
+        "Accounting function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where accounting and financial reporting are performed."
+        },
+        "Human resource function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where public-employment and workforce management are performed."
+        },
+        "Procurement function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where public procurement and asset management are performed."
+        },
+        "Records and information function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where records management and information exchange are performed."
+        },
+        "Digital and information function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where common information systems and digital platforms are operated."
+        },
+        "Legal and regulatory function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where administrative-rule drafting and interpretation are performed."
+        },
+        "Audit and inspection function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where auditing, inspecting, and review are performed."
+        },
+        "Performance-evaluation function": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Decentralized",
+            "Absent",
+            null
+          ],
+          "description": "Where administrative performance is defined, measured, and used."
+        }
+      }
+    },
+    "decision-rights": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by who holds authority over each class of administrative decision.",
+      "additionalProperties": false,
+      "properties": {
+        "Agenda-setting authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central executive",
+            "Central administrative authority",
+            "Ministry",
+            "Agency",
+            "Shared",
+            "Diffuse",
+            null
+          ],
+          "description": "Who sets the government-wide administrative agenda."
+        },
+        "Rulemaking authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Jointly exercised",
+            "Functionally distributed",
+            "Delegated",
+            "Agency-specific",
+            "Fragmented",
+            null
+          ],
+          "description": "Who establishes administrative rules and binding standards."
+        },
+        "Resource-allocation authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Centralized",
+            "Shared",
+            "Delegated",
+            "Agency-controlled",
+            "Mixed",
+            null
+          ],
+          "description": "Who allocates administrative budgets and resources."
+        },
+        "Staffing authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central personnel authority",
+            "Ministry",
+            "Agency",
+            "Independent commission",
+            "Shared",
+            null
+          ],
+          "description": "Who selects and appoints administrative personnel."
+        },
+        "Execution authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Central",
+            "Ministry-led",
+            "Agency-led",
+            "Joint",
+            "Distributed",
+            null
+          ],
+          "description": "Who implements administrative policies and requirements."
+        },
+        "Oversight authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical",
+            "Independent oversight",
+            "Legislature",
+            "Judicial",
+            "Multiple",
+            null
+          ],
+          "description": "Who reviews compliance and performance."
+        },
+        "Sanctioning authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Direct central",
+            "Referral",
+            "Contractual or financial",
+            "Limited",
+            "None",
+            null
+          ],
+          "description": "Who imposes consequences for noncompliance."
+        },
+        "Review and appeal authority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Hierarchical review",
+            "Independent tribunal",
+            "Ombudsman",
+            "Judicial",
+            "Multiple",
+            null
+          ],
+          "description": "Who hears challenges to administrative decisions."
+        }
+      }
+    },
+    "wwbi-employment-profile": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by the demographics of its public workforce, using the indicator families of the World Bank Worldwide Bureaucracy Indicators.",
+      "additionalProperties": false,
+      "properties": {
+        "Public-employment share": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Very low",
+            "Low",
+            "Moderate",
+            "High",
+            "Very high",
+            null
+          ],
+          "description": "Public sector share of total employment."
+        },
+        "Public-employment size": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Small",
+            "Moderate",
+            "Large",
+            "Very large",
+            null
+          ],
+          "description": "Absolute size of the public workforce."
+        },
+        "Female representation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low",
+            "Moderate",
+            "High",
+            "Parity or above",
+            null
+          ],
+          "description": "Share of women in public employment."
+        },
+        "Female-male employment ratio": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Female under-representation",
+            "Near parity",
+            "Female over-representation",
+            null
+          ],
+          "description": "Balance of women to men in public employment."
+        },
+        "Age structure": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Youth-concentrated",
+            "Balanced",
+            "Mature",
+            "Aged",
+            null
+          ],
+          "description": "Distribution of public employees across age groups."
+        },
+        "Education composition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low-skill",
+            "Mixed",
+            "Tertiary-dominant",
+            "Highly qualified",
+            null
+          ],
+          "description": "Educational attainment profile of public employees."
+        },
+        "Occupational composition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Professional-dominant",
+            "Technical",
+            "Clerical-dominant",
+            "Mixed",
+            null
+          ],
+          "description": "Distribution of public employees across occupations."
+        },
+        "Industry composition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Administration-concentrated",
+            "Education and health heavy",
+            "Diversified",
+            null
+          ],
+          "description": "Distribution of public employees across sectors."
+        },
+        "Income-quintile composition": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Bottom-heavy",
+            "Middle-heavy",
+            "Top-heavy",
+            "Broadly distributed",
+            null
+          ],
+          "description": "Distribution of public employees across household income quintiles."
+        },
+        "Formality": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Predominantly informal",
+            "Mixed",
+            "Predominantly formal",
+            null
+          ],
+          "description": "Share of public employment that is formal."
+        },
+        "Spatial distribution": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Predominantly urban",
+            "Mixed",
+            "Predominantly rural",
+            null
+          ],
+          "description": "Urban-rural distribution of public employees."
+        }
+      }
+    },
+    "wwbi-compensation-profile": {
+      "type": "object",
+      "description": "Locates a government-wide administrative system by how its public workforce is paid, using the indicator families of the World Bank Worldwide Bureaucracy Indicators.",
+      "additionalProperties": false,
+      "properties": {
+        "Public-private wage premium": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Large deficit",
+            "Deficit",
+            "Parity",
+            "Premium",
+            "Large premium",
+            null
+          ],
+          "description": "Competitiveness of public versus private sector wages."
+        },
+        "Pay compression ratio": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "High compression",
+            "Moderate compression",
+            "Low compression",
+            "Highly dispersed",
+            null
+          ],
+          "description": "Ratio of top to bottom pay within the public sector."
+        },
+        "Education wage differential": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low",
+            "Moderate",
+            "High",
+            "Steep",
+            null
+          ],
+          "description": "Public pay differential by education level."
+        },
+        "Occupation wage differential": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Low",
+            "Moderate",
+            "High",
+            "Steep",
+            null
+          ],
+          "description": "Public pay differential by occupation."
+        },
+        "Gender pay gap": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Large gap",
+            "Moderate gap",
+            "Small gap",
+            "Closed",
+            null
+          ],
+          "description": "Public-sector pay gap between women and men."
+        },
+        "Income-quintile wage differential": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Compressed",
+            "Moderate",
+            "Dispersed",
+            null
+          ],
+          "description": "Pay differential across household income quintiles within the public sector."
+        },
+        "Wage-bill size": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Small",
+            "Moderate",
+            "Large",
+            "Very large",
+            null
+          ],
+          "description": "Public sector wage bill relative to GDP or expenditure."
+        },
+        "Wage-bill affordability": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "Sustainable",
+            "Manageable",
+            "Strained",
+            "Unsustainable",
+            null
+          ],
+          "description": "Fiscal affordability of the public wage bill."
+        }
+      }
+    }
+  }
+}

@@ -258,11 +258,12 @@ table.cmp td.na{color:var(--text-ghost)}
         for (var i = 0; i < state.governments.length; i++) if (state.governments[i].code === code) return state.governments[i];
         return null;
     }
-    function profile(code, sysName) {
-        var p = state.profiles[code];
+    function profile(gov, sysName) {
+        if (!gov) return {};
+        var p = state.profiles[gov.name];
         return (p && p[sysName]) || {};
     }
-    function assignedCount(code, sysName) { return Object.keys(profile(code, sysName)).length; }
+    function assignedCount(gov, sysName) { return Object.keys(profile(gov, sysName)).length; }
 
     /* ---------- storage ----------
        The tracked store (DATA_URL) is the base. This browser keeps a draft
@@ -284,27 +285,40 @@ table.cmp td.na{color:var(--text-ghost)}
             if (!Object.keys(out[code][sys]).length) delete out[code][sys];
             if (!Object.keys(out[code]).length) delete out[code];
         }
-        Object.keys(state.base).forEach(function (code) {
-            Object.keys(state.base[code]).forEach(function (sys) {
-                Object.keys(state.base[code][sys]).forEach(function (el) {
-                    var v = state.base[code][sys][el];
-                    if (v != null) put(code, sys, el, v);
+        Object.keys(state.base).forEach(function (key) {
+            Object.keys(state.base[key]).forEach(function (sys) {
+                Object.keys(state.base[key][sys]).forEach(function (el) {
+                    var v = state.base[key][sys][el];
+                    if (v != null) put(key, sys, el, v);
                 });
             });
         });
-        Object.keys(state.drafts).forEach(function (code) {
-            Object.keys(state.drafts[code]).forEach(function (sys) {
-                Object.keys(state.drafts[code][sys]).forEach(function (el) {
-                    put(code, sys, el, state.drafts[code][sys][el]);
+        Object.keys(state.drafts).forEach(function (key) {
+            Object.keys(state.drafts[key]).forEach(function (sys) {
+                Object.keys(state.drafts[key][sys]).forEach(function (el) {
+                    put(key, sys, el, state.drafts[key][sys][el]);
                 });
             });
         });
         state.profiles = out;
     }
-    function setDraft(code, sys, el, val) {
-        if (!state.drafts[code]) state.drafts[code] = {};
-        if (!state.drafts[code][sys]) state.drafts[code][sys] = {};
-        state.drafts[code][sys][el] = val === null ? null : val;
+    function setDraft(key, sys, el, val) {
+        if (!state.drafts[key]) state.drafts[key] = {};
+        if (!state.drafts[key][sys]) state.drafts[key][sys] = {};
+        state.drafts[key][sys][el] = val === null ? null : val;
+    }
+    /* Older drafts were keyed by polity code; profiles are keyed by country name. */
+    function migrateDrafts() {
+        var changed = false;
+        Object.keys(state.drafts).forEach(function (key) {
+            var g = govByCode(key);
+            if (g && g.name !== key) {
+                state.drafts[g.name] = Object.assign({}, state.drafts[g.name] || {}, state.drafts[key]);
+                delete state.drafts[key];
+                changed = true;
+            }
+        });
+        if (changed) saveDrafts();
     }
 
     function setHash(h) {
@@ -361,7 +375,7 @@ table.cmp td.na{color:var(--text-ghost)}
             return;
         }
         grid.innerHTML = list.map(function (g) {
-            var done = state.systems.filter(function (s) { return assignedCount(g.code, s.name) > 0; }).length;
+            var done = state.systems.filter(function (s) { return assignedCount(g, s.name) > 0; }).length;
             return '<article class="card" data-code="' + escAttr(g.code) + '" tabindex="0" role="button">' +
                 '<span class="kind">Government</span>' +
                 '<h3>' + (g.flag ? esc(g.flag) + ' ' : '') + esc(g.name) + '</h3>' +
@@ -407,14 +421,14 @@ table.cmp td.na{color:var(--text-ghost)}
         $("#detailTabs").innerHTML = state.systems.map(function (s) {
             return '<button type="button" role="tab" data-sys="' + escAttr(s.name) + '"' +
                 ' class="' + (s.name === dt ? "active" : "") + '">' + esc(s.title) +
-                ' <span class="n">(' + assignedCount(g.code, s.name) + '/' + s.characteristic_element_set.length + ')</span></button>';
+                ' <span class="n">(' + assignedCount(g, s.name) + '/' + s.characteristic_element_set.length + ')</span></button>';
         }).join("");
         Array.prototype.forEach.call($("#detailTabs").querySelectorAll("button"), function (b) {
             b.addEventListener("click", function () { state.detailTab = b.getAttribute("data-sys"); renderDetail(); });
         });
 
         var sys = sysByName(dt);
-        var vals = profile(g.code, dt);
+        var vals = profile(g, dt);
         function field(e) {
             var cur = vals[e.name] != null ? vals[e.name] : "";
             var opts = '<option value=""' + (cur === "" ? " selected" : "") + '>— unassigned —</option>';
@@ -450,12 +464,11 @@ table.cmp td.na{color:var(--text-ghost)}
         Array.prototype.forEach.call($("#detailBody").querySelectorAll("select[data-el]"), function (sel) {
             sel.addEventListener("change", function () {
                 var el = sel.getAttribute("data-el");
-                var code = g.code;
-                setDraft(code, dt, el, sel.value === "" ? null : sel.value);
+                setDraft(g.name, dt, el, sel.value === "" ? null : sel.value);
                 saveDrafts();
                 mergeProfiles();
                 var tab = $("#detailTabs").querySelector('button[data-sys="' + dt + '"] .n');
-                if (tab) tab.textContent = "(" + assignedCount(code, dt) + "/" + sys.characteristic_element_set.length + ")";
+                if (tab) tab.textContent = "(" + assignedCount(g, dt) + "/" + sys.characteristic_element_set.length + ")";
                 sel.parentNode.classList.toggle("assigned", sel.value !== "");
             });
         });
@@ -467,7 +480,7 @@ table.cmp td.na{color:var(--text-ghost)}
         $("#detailRail").innerHTML = linked +
             '<div class="side-block"><h4>System</h4><p><a href="gov-wide-administration-comparative-system-representation.html#' + escAttr(dt) + '">' +
             esc(sys.title) + '</a></p></div>' +
-            '<div class="side-block"><h4>Assignments</h4><p>' + assignedCount(g.code, dt) + ' of ' +
+            '<div class="side-block"><h4>Assignments</h4><p>' + assignedCount(g, dt) + ' of ' +
             sys.characteristic_element_set.length + ' elements assigned for this system.</p>' +
             '<button type="button" class="btn" id="clearSystem">Clear this system</button></div>' +
             '<div class="side-block"><h4>Compare</h4><p><a href="#" id="railCompare">Open in the comparison</a></p></div>';
@@ -481,8 +494,8 @@ table.cmp td.na{color:var(--text-ghost)}
         $("#compareThis").addEventListener("click", toCompare);
         $("#railCompare").addEventListener("click", function (e) { e.preventDefault(); toCompare(); });
         $("#clearSystem").addEventListener("click", function () {
-            var cur = profile(g.code, dt);
-            Object.keys(cur).forEach(function (el) { setDraft(g.code, dt, el, null); });
+            var cur = profile(g, dt);
+            Object.keys(cur).forEach(function (el) { setDraft(g.name, dt, el, null); });
             saveDrafts();
             mergeProfiles();
             renderDetail();
@@ -535,7 +548,7 @@ table.cmp td.na{color:var(--text-ghost)}
 
         $("#sysTabs").innerHTML = state.systems.map(function (s) {
             var max = 0;
-            state.selected.forEach(function (code) { max = Math.max(max, assignedCount(code, s.name)); });
+            state.selected.forEach(function (code) { max = Math.max(max, assignedCount(govByCode(code), s.name)); });
             return '<button type="button" class="tab" role="tab" data-sys="' + escAttr(s.name) + '"' +
                 ' aria-selected="' + (s.name === state.active) + '">' + esc(s.title) +
                 ' <span class="n">(' + max + '/' + s.characteristic_element_set.length + ')</span></button>';
@@ -566,7 +579,7 @@ table.cmp td.na{color:var(--text-ghost)}
         }
         var all = sys.characteristic_element_set;
         var shown = all.filter(function (e) {
-            return state.selected.some(function (code) { return profile(code, sys.name)[e.name] != null; });
+            return state.selected.some(function (code) { return profile(govByCode(code), sys.name)[e.name] != null; });
         });
         var hidden = all.length - shown.length;
         $("#cmpNote").textContent = shown.length + " of " + all.length + " elements assigned" +
@@ -580,7 +593,7 @@ table.cmp td.na{color:var(--text-ghost)}
 
         function row(e) {
             var vals = state.selected.map(function (code) {
-                var v = profile(code, sys.name)[e.name];
+                var v = profile(govByCode(code), sys.name)[e.name];
                 return v != null ? v : null;
             });
             var differ = false;
@@ -654,11 +667,13 @@ table.cmp td.na{color:var(--text-ghost)}
                 documented: !!c.has_node
             };
         }).sort(function (a, b) { return a.name.localeCompare(b.name); });
-        (res[2].governments || []).forEach(function (p) {
-            var key = String(p.code || p.id || "").toLowerCase();
-            if (key) state.base[key] = p.profiles || {};
+        // countries: { "<country name>": { "<system>": { "<element>": "<value>" } } }
+        var countries = res[2].countries || {};
+        Object.keys(countries).forEach(function (name) {
+            state.base[name] = countries[name] || {};
         });
         loadDrafts();
+        migrateDrafts();
         mergeProfiles();
         applyHash();
         render();

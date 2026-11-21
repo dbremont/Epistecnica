@@ -826,8 +826,8 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect("/corpus/notes/social/representation/public-organization-representation.json")
             return True
 
-        if path == "/corpus/notes/social/representation/schema.json":
-            self._redirect("/corpus/notes/social/representation/representation-systems.schema.json")
+        if path == "/corpus/notes/social/representation/schema.json" or path == "/corpus/notes/social/representation/representation-systems.schema.json":
+            self._redirect("/corpus/notes/social/representation/gov-wide-administration-comparative-system-representation.schema.json")
             return True
 
         return False
