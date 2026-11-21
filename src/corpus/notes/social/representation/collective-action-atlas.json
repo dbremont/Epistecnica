@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 6
+    "version": 7
   },
   "problems": [
     {
@@ -3996,112 +3996,1214 @@
       "caseStudies": []
     },
     {
-      "id": 61,
-      "name": "Capital Accumulation",
-      "description": "Increases the stock of productive assets over time.",
-      "mechanism": "Increases the stock of productive assets over time.",
-      "hue": "#B8860B",
-      "icon": "💵",
-      "caseStudies": []
+      "id": 76,
+      "name": "Export Credit Insurance",
+      "description": "Protects exporters and their financiers against non-payment by foreign buyers.",
+      "mechanism": "A public or private insurer covers commercial and political non-payment risk, making banks willing to finance the sale.",
+      "hue": "#8B3A3A",
+      "icon": "🛡️",
+      "caseStudies": [],
+      "references": []
     },
     {
-      "id": 62,
-      "name": "Productivity Growth",
-      "description": "Produces more economic value with the same or fewer resources.",
-      "mechanism": "Produces more economic value with the same or fewer resources.",
-      "hue": "#228B22",
-      "icon": "📈",
-      "caseStudies": []
-    },
-    {
-      "id": 63,
-      "name": "Technological Diffusion",
-      "description": "Spreads productive technologies across firms and sectors.",
-      "mechanism": "Spreads productive technologies across firms and sectors.",
-      "hue": "#1E90FF",
-      "icon": "🌐",
-      "caseStudies": []
-    },
-    {
-      "id": 64,
-      "name": "Structural Transformation",
-      "description": "Moves labour and capital toward increasingly productive activities.",
-      "mechanism": "Moves labour and capital toward increasingly productive activities.",
-      "hue": "#8B4513",
-      "icon": "🔄",
-      "caseStudies": []
-    },
-    {
-      "id": 67,
-      "name": "Knowledge Accumulation",
-      "description": "Increases the stock of usable technical and organizational knowledge.",
-      "mechanism": "Increases the stock of usable technical and organizational knowledge.",
-      "hue": "#6A5ACD",
-      "icon": "📚",
-      "caseStudies": []
-    },
-    {
-      "id": 68,
-      "name": "Learning by Doing",
-      "description": "Improves capabilities through repeated production.",
-      "mechanism": "Improves capabilities through repeated production.",
-      "hue": "#2F4F4F",
-      "icon": "🔁",
-      "caseStudies": []
-    },
-    {
-      "id": 69,
-      "name": "Knowledge Spillover",
-      "description": "Transfers knowledge between firms, workers and institutions.",
-      "mechanism": "Transfers knowledge between firms, workers and institutions.",
-      "hue": "#9370DB",
-      "icon": "💡",
-      "caseStudies": []
-    },
-    {
-      "id": 70,
-      "name": "Creative Destruction",
-      "description": "Replaces obsolete products, technologies and organizations.",
-      "mechanism": "Replaces obsolete products, technologies and organizations.",
-      "hue": "#B22222",
-      "icon": "♻",
-      "caseStudies": []
-    },
-    {
-      "id": 72,
-      "name": "Comparative Advantage Development",
-      "description": "Creates new productive capabilities that support competitive specialization.",
-      "mechanism": "Creates new productive capabilities that support competitive specialization.",
-      "hue": "#DAA520",
+      "id": 77,
+      "name": "Political Risk Insurance",
+      "description": "Covers investors against expropriation, war, and convertibility or transfer restrictions.",
+      "mechanism": "A guarantee pays out when political events prevent repatriation of capital or destroy the investment.",
+      "hue": "#8B3A3A",
       "icon": "🌍",
-      "caseStudies": []
+      "caseStudies": [],
+      "references": []
     },
     {
-      "id": 73,
-      "name": "Risk Diversification",
-      "description": "Distributes economic risks across markets, sectors and institutions.",
-      "mechanism": "Distributes economic risks across markets, sectors and institutions.",
-      "hue": "#5F9EA0",
-      "icon": "🛡",
-      "caseStudies": []
+      "id": 78,
+      "name": "Trade Credit Insurance",
+      "description": "Insures suppliers against buyer default on domestic and export receivables.",
+      "mechanism": "The insurer assesses buyer creditworthiness and pays a share of covered losses.",
+      "hue": "#8B3A3A",
+      "icon": "📄",
+      "caseStudies": [],
+      "references": []
     },
     {
-      "id": 74,
-      "name": "Market Selection",
-      "description": "Allocates resources toward more productive economic activities.",
-      "mechanism": "Allocates resources toward more productive economic activities.",
+      "id": 79,
+      "name": "Investment Guarantee",
+      "description": "Guarantees foreign and domestic equity investment against defined political risks.",
+      "mechanism": "A public agency issues long-term cover that lets investors commit capital in weak-risk environments.",
+      "hue": "#8B3A3A",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 80,
+      "name": "Export Factoring Facility",
+      "description": "Purchases export receivables at a discount, providing immediate working capital.",
+      "mechanism": "A factor collects from the foreign buyer and absorbs the credit risk, often with public support.",
+      "hue": "#8B3A3A",
+      "icon": "💵",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 81,
+      "name": "Forfaiting Facility",
+      "description": "Discounts medium-term export receivables without recourse to the exporter.",
+      "mechanism": "A bank or agency buys the notes, removing buyer risk from the exporter balance sheet.",
+      "hue": "#8B3A3A",
+      "icon": "🧾",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 82,
+      "name": "Mutual Guarantee Association",
+      "description": "A member-owned cooperative that guarantees members' bank loans.",
+      "mechanism": "Firms pool contributions and mutual guarantees, lowering collateral requirements for all members.",
+      "hue": "#8B3A3A",
+      "icon": "🤲",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 83,
+      "name": "Catastrophe Risk Pool",
+      "description": "Pools catastrophe exposure across insurers and the state.",
+      "mechanism": "A national reinsurance pool spreads extreme-event losses so private cover stays available.",
+      "hue": "#8B3A3A",
+      "icon": "🌪️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 84,
+      "name": "Infrastructure Guarantee Facility",
+      "description": "Guarantees payment and performance obligations in infrastructure projects.",
+      "mechanism": "A public entity backstops contractual payments, lowering the cost of private infrastructure finance.",
+      "hue": "#8B3A3A",
+      "icon": "🏗️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 85,
+      "name": "First-Loss Guarantee Facility",
+      "description": "Absorbs the first slice of losses in a lending portfolio.",
+      "mechanism": "Public capital takes the earliest losses, shifting risk enough for banks to lend to new segments.",
+      "hue": "#8B3A3A",
+      "icon": "🪙",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 86,
+      "name": "Reinsurance Facility",
+      "description": "Provides reinsurance capacity to local insurers.",
+      "mechanism": "A state-backed facility cedes and spreads risk, letting domestic insurers write larger policies.",
+      "hue": "#8B3A3A",
+      "icon": "♻️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 87,
+      "name": "Trade Finance Guarantee",
+      "description": "Guarantees bank trade-finance lines for importers and exporters.",
+      "mechanism": "A guarantee replaces missing collateral, unlocking letters of credit and working-capital lines.",
+      "hue": "#8B3A3A",
+      "icon": "🏦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 88,
+      "name": "Three-Step Loan (Mother Fund)",
+      "description": "Wholesale state funds flow through a mother fund and banks to firms on subsidised terms.",
+      "mechanism": "The mother fund absorbs the cost of funds, banks originate and monitor, and firms receive long-term credit.",
       "hue": "#B8860B",
-      "icon": "⚖",
-      "caseStudies": []
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": []
     },
     {
-      "id": 75,
-      "name": "Innovation Diffusion",
-      "description": "Moves innovations from leading firms into the wider economy.",
-      "mechanism": "Moves innovations from leading firms into the wider economy.",
-      "hue": "#3CB371",
+      "id": 89,
+      "name": "Sovereign Wealth Fund",
+      "description": "A state investment fund capitalised from resource or fiscal surpluses.",
+      "mechanism": "Surpluses are invested abroad or in strategic assets, stabilising revenue and building intergenerational wealth.",
+      "hue": "#B8860B",
+      "icon": "💎",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 90,
+      "name": "Secured Transactions Registry",
+      "description": "A public registry recording security interests in movable assets.",
+      "mechanism": "Lenders register claims on equipment and receivables, making movable collateral usable for credit.",
+      "hue": "#B8860B",
+      "icon": "📚",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 91,
+      "name": "Diaspora Investment Fund",
+      "description": "Channels migrant savings and remittances into productive investment.",
+      "mechanism": "A dedicated fund pools diaspora capital and co-invests in firms and infrastructure.",
+      "hue": "#B8860B",
+      "icon": "✈️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 92,
+      "name": "Project Preparation Facility",
+      "description": "Funds feasibility, design and structuring of bankable projects.",
+      "mechanism": "Grants cover preparatory work so projects reach the investment stage with de-risked terms.",
+      "hue": "#B8860B",
+      "icon": "📐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 93,
+      "name": "Municipal Development Fund",
+      "description": "Long-term finance for local infrastructure.",
+      "mechanism": "A pooled fund on-lends to municipalities with technical support and repayment discipline.",
+      "hue": "#B8860B",
+      "icon": "🏙️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 94,
+      "name": "Infrastructure Bond",
+      "description": "A debt instrument financing infrastructure with long maturities.",
+      "mechanism": "Project revenues or government guarantees back bonds placed with institutional investors.",
+      "hue": "#B8860B",
+      "icon": "📈",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 95,
+      "name": "Mezzanine Finance Facility",
+      "description": "Provides subordinated capital between debt and equity.",
+      "mechanism": "A public facility takes mezzanine risk to close the financing gap in growth firms and projects.",
+      "hue": "#B8860B",
+      "icon": "🪜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 96,
+      "name": "Syndicated Loan Facility",
+      "description": "Pools bank lending into large structured credits.",
+      "mechanism": "A lead arranger syndicates the loan, spreading exposure and enabling larger tickets.",
+      "hue": "#B8860B",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 97,
+      "name": "Blended Finance Facility",
+      "description": "Combines concessional and commercial capital in one structure.",
+      "mechanism": "Public or philanthropic first-loss and technical assistance mobilise private investment.",
+      "hue": "#B8860B",
+      "icon": "🧩",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 98,
+      "name": "Trade Single Window",
+      "description": "One electronic entry point for customs and trade documents.",
+      "mechanism": "Traders submit once; agencies share data and clear goods through a single system.",
+      "hue": "#2E6F95",
+      "icon": "🪟",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 99,
+      "name": "Bonded Warehouse",
+      "description": "A warehouse where imported goods are stored duty-suspended.",
+      "mechanism": "Duty is paid only on release into the domestic market, easing export production and re-export.",
+      "hue": "#2E6F95",
+      "icon": "📦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 100,
+      "name": "Free Port",
+      "description": "A port area with simplified customs and duty treatment.",
+      "mechanism": "Goods enter, are stored, processed and re-exported under a light-touch customs regime.",
+      "hue": "#2E6F95",
+      "icon": "⚓",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 101,
+      "name": "Authorized Economic Operator Program",
+      "description": "Certifies trusted traders for faster clearance.",
+      "mechanism": "Compliant firms get reduced inspections and priority treatment in exchange for controls.",
+      "hue": "#2E6F95",
+      "icon": "✅",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 102,
+      "name": "Export Consortium",
+      "description": "Groups firms to market and export jointly.",
+      "mechanism": "Members share channels, branding and logistics costs they could not carry alone.",
+      "hue": "#2E6F95",
+      "icon": "🚢",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 103,
+      "name": "Export Market Development Grant",
+      "description": "Co-funds firms' entry into new export markets.",
+      "mechanism": "Grants reimburse part of the cost of market research, certification and promotion.",
+      "hue": "#2E6F95",
+      "icon": "🌐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 104,
+      "name": "Trade Mission Program",
+      "description": "Organises business delegations to target markets.",
+      "mechanism": "Firms meet buyers and officials in organised visits, lowering the cost of first contact.",
+      "hue": "#2E6F95",
+      "icon": "🧭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 105,
+      "name": "Trade Fair Pavilion",
+      "description": "Provides shared national stands at international fairs.",
+      "mechanism": "Firms exhibit under one national pavilion, sharing cost and visibility.",
+      "hue": "#2E6F95",
+      "icon": "🎪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 106,
+      "name": "Export Incubator",
+      "description": "Supports first-time exporters through their first sales abroad.",
+      "mechanism": "Coaching, market intelligence and finance are bundled until the firm exports regularly.",
+      "hue": "#2E6F95",
+      "icon": "🌱",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 107,
+      "name": "Investment Promotion Agency",
+      "description": "A national agency that markets the country and services investors.",
+      "mechanism": "It targets sectors, handles inquiries and guides approvals end to end.",
+      "hue": "#9B7EB0",
+      "icon": "📣",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 108,
+      "name": "Special Economic Zone",
+      "description": "A delimited territory under a distinct regulatory, fiscal and customs regime.",
+      "mechanism": "Zone-specific rules and infrastructure lower the cost of production for export.",
+      "hue": "#9B7EB0",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 109,
+      "name": "Investor Aftercare Program",
+      "description": "Keeps existing investors and helps them expand.",
+      "mechanism": "A team resolves operational problems and identifies reinvestment opportunities.",
+      "hue": "#9B7EB0",
+      "icon": "🔁",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 110,
+      "name": "Investment Ombudsman",
+      "description": "An independent channel for investor grievances.",
+      "mechanism": "Disputes are mediated and escalated with binding timelines, reducing arbitrary treatment.",
+      "hue": "#9B7EB0",
+      "icon": "⚖️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 111,
+      "name": "Cluster Accelerator",
+      "description": "A time-bound programme that strengthens a cluster's firms and linkages.",
+      "mechanism": "Diagnostics, joint projects and mentoring run for a fixed period with measurable targets.",
+      "hue": "#7BA388",
+      "icon": "🚀",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 112,
+      "name": "Common Facility Centre",
+      "description": "Shared equipment and services that no single firm can afford.",
+      "mechanism": "Members book machines, labs and services at cost, raising quality across the cluster.",
+      "hue": "#7BA388",
+      "icon": "🛠️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 113,
+      "name": "Cluster Fund",
+      "description": "A dedicated fund financing shared cluster projects.",
+      "mechanism": "Pooled public and member contributions finance facilities, skills and market projects.",
+      "hue": "#7BA388",
+      "icon": "🪙",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 114,
+      "name": "Cluster Marketing Program",
+      "description": "A joint brand and promotion effort for the cluster.",
+      "mechanism": "Members market under one identity at fairs, in catalogues and through shared channels.",
+      "hue": "#7BA388",
+      "icon": "📢",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 115,
+      "name": "Industrial Symbiosis Network",
+      "description": "Firms exchange waste, heat, water and by-products.",
+      "mechanism": "A broker matches streams between plants, turning disposal costs into inputs.",
+      "hue": "#7BA388",
+      "icon": "♻️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 116,
+      "name": "Cluster Skills Centre",
+      "description": "Training tuned to the cluster's occupations.",
+      "mechanism": "Employers and trainers co-design courses and share instructors and equipment.",
+      "hue": "#7BA388",
+      "icon": "🎓",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 117,
+      "name": "Supplier Cluster Network",
+      "description": "Links lead firms with local suppliers as a group.",
+      "mechanism": "Structured upgrading and shared standards raise the whole supplier tier together.",
+      "hue": "#7BA388",
+      "icon": "🔗",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 118,
+      "name": "Cluster Observatory",
+      "description": "Monitors the cluster's firms, performance and bottlenecks.",
+      "mechanism": "Regular data collection and analysis informs joint action and policy.",
+      "hue": "#7BA388",
+      "icon": "🔭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 119,
+      "name": "National Research Fund",
+      "description": "Competitive public funding for research projects.",
+      "mechanism": "Grants are awarded by peer review against national priorities.",
+      "hue": "#4E7A8C",
+      "icon": "💰",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 120,
+      "name": "Competitive Research Grant Program",
+      "description": "Project-based grants open to all eligible researchers.",
+      "mechanism": "Calls, peer review and contracts allocate funds to the best proposals.",
+      "hue": "#4E7A8C",
+      "icon": "📝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 121,
+      "name": "Research Endowment",
+      "description": "A capital fund whose returns finance research permanently.",
+      "mechanism": "The principal is preserved; income funds chairs, grants and infrastructure.",
+      "hue": "#4E7A8C",
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 122,
+      "name": "National Laboratory",
+      "description": "A publicly funded laboratory serving public and private users.",
+      "mechanism": "It provides large-scale equipment and expertise beyond any single institution.",
+      "hue": "#4E7A8C",
+      "icon": "🔬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 123,
+      "name": "Contract Research Organization",
+      "description": "A firm that performs research under contract.",
+      "mechanism": "Companies outsource studies and trials to specialised providers.",
+      "hue": "#4E7A8C",
+      "icon": "🧪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 124,
+      "name": "Proof-of-Concept Fund",
+      "description": "Small grants to move a research result toward a product.",
+      "mechanism": "Funds cover prototypes, testing and market validation at the riskiest stage.",
+      "hue": "#4E7A8C",
       "icon": "💡",
-      "caseStudies": []
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 125,
+      "name": "Prototyping Centre",
+      "description": "Shared facilities to build and test physical prototypes.",
+      "mechanism": "Designers and firms use machines and technicians without owning them.",
+      "hue": "#4E7A8C",
+      "icon": "⚙️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 126,
+      "name": "Testbed Facility",
+      "description": "A controlled environment for testing new products and processes.",
+      "mechanism": "Realistic conditions and instrumentation let firms validate before market launch.",
+      "hue": "#4E7A8C",
+      "icon": "🧫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 127,
+      "name": "Living Lab",
+      "description": "A user-centred test environment in a real setting.",
+      "mechanism": "Innovations are co-designed and tested with users in their everyday context.",
+      "hue": "#4E7A8C",
+      "icon": "🏘️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 128,
+      "name": "Pilot Line",
+      "description": "A small-scale production line for validating a process.",
+      "mechanism": "Firms test manufacturability and yields before committing to full plants.",
+      "hue": "#4E7A8C",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 129,
+      "name": "Demonstration Plant",
+      "description": "A full-scale plant proving a technology commercially.",
+      "mechanism": "It resolves scale-up risk and provides reference costs for investors.",
+      "hue": "#4E7A8C",
+      "icon": "🏗️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 130,
+      "name": "Technology Readiness Fund",
+      "description": "Finances the gap between lab and market readiness.",
+      "mechanism": "Milestone-based grants move technologies through readiness levels.",
+      "hue": "#4E7A8C",
+      "icon": "📶",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 131,
+      "name": "Research Voucher",
+      "description": "A voucher a firm spends on research services.",
+      "mechanism": "Small firms buy expertise from universities and labs without procurement burden.",
+      "hue": "#4E7A8C",
+      "icon": "🎫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 132,
+      "name": "Science and Technology Park",
+      "description": "A site co-locating universities, labs and technology firms.",
+      "mechanism": "Shared infrastructure and proximity generate collaboration and spin-offs.",
+      "hue": "#4E7A8C",
+      "icon": "🛰️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 133,
+      "name": "Industrial PhD Program",
+      "description": "A doctorate conducted jointly with a company.",
+      "mechanism": "The student works on a firm problem with academic supervision.",
+      "hue": "#6B8CAA",
+      "icon": "🎓",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 134,
+      "name": "Doctoral Scholarship Program",
+      "description": "Stipends for doctoral study in priority fields.",
+      "mechanism": "Competitive scholarships cover living costs and research expenses.",
+      "hue": "#6B8CAA",
+      "icon": "📜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 135,
+      "name": "Postdoctoral Fellowship Program",
+      "description": "Funded postdoctoral positions in labs and firms.",
+      "mechanism": "Fellowships support early-career researchers for fixed terms.",
+      "hue": "#6B8CAA",
+      "icon": "🧑‍🔬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 136,
+      "name": "Research Chair Program",
+      "description": "Endowed or funded chairs attracting leading researchers.",
+      "mechanism": "Chairs bring senior researchers and their teams to institutions.",
+      "hue": "#6B8CAA",
+      "icon": "👑",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 137,
+      "name": "Industrial Research Fellowship",
+      "description": "A researcher placed in a firm for a defined project.",
+      "mechanism": "The fellowship pays salary and research costs while the firm hosts the work.",
+      "hue": "#6B8CAA",
+      "icon": "🧑‍🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 138,
+      "name": "Researcher Secondment Program",
+      "description": "Temporary placement of researchers in another organisation.",
+      "mechanism": "Secondments move staff between firms and labs, then back, with costs shared.",
+      "hue": "#6B8CAA",
+      "icon": "🔀",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 139,
+      "name": "Joint University–Industry Appointment",
+      "description": "A single academic post split between a university and a firm.",
+      "mechanism": "The appointee holds dual responsibilities, teaching and researching in both.",
+      "hue": "#6B8CAA",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 140,
+      "name": "Academic Sabbatical in Industry",
+      "description": "A university researcher spends a period working in a firm.",
+      "mechanism": "The sabbatical keeps the academic post while the researcher works on applied problems.",
+      "hue": "#6B8CAA",
+      "icon": "🏢",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 141,
+      "name": "Industry Sabbatical in Academia",
+      "description": "A firm researcher spends a period in a university or lab.",
+      "mechanism": "The placement refreshes scientific skills and builds lasting links.",
+      "hue": "#6B8CAA",
+      "icon": "🏫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 142,
+      "name": "Knowledge Transfer Partnership",
+      "description": "A graduate embedded in a firm on a strategic project with academic support.",
+      "mechanism": "A three-way contract funds the associate, the firm and the university supervisor.",
+      "hue": "#6B8CAA",
+      "icon": "🌉",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 143,
+      "name": "Embedded Researcher Scheme",
+      "description": "A researcher works inside a public or private organisation.",
+      "mechanism": "The researcher is co-located with decision-makers to transfer methods and evidence.",
+      "hue": "#6B8CAA",
+      "icon": "🪑",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 144,
+      "name": "Visiting Researcher Program",
+      "description": "Short stays by external researchers in a host institution.",
+      "mechanism": "Hosts provide access and facilities for defined periods.",
+      "hue": "#6B8CAA",
+      "icon": "🚪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 145,
+      "name": "Researcher Exchange Network",
+      "description": "A standing network that brokers exchanges between organisations.",
+      "mechanism": "Members advertise positions and placements and share mobility funding.",
+      "hue": "#6B8CAA",
+      "icon": "🕸️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 146,
+      "name": "Brain Circulation Scheme",
+      "description": "Supports researchers to move abroad and return.",
+      "mechanism": "Outbound and return grants keep international links without permanent loss.",
+      "hue": "#6B8CAA",
+      "icon": "🌐",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 147,
+      "name": "Return Scientist Program",
+      "description": "Incentives for expatriate researchers to return.",
+      "mechanism": "Start-up grants, posts and relocation support bring back experienced researchers.",
+      "hue": "#6B8CAA",
+      "icon": "🏠",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 148,
+      "name": "Practitioner-in-Residence",
+      "description": "A senior practitioner spends time in a university or lab.",
+      "mechanism": "The residency brings applied problems and experience into research.",
+      "hue": "#6B8CAA",
+      "icon": "💼",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 149,
+      "name": "Academic Entrepreneur-in-Residence",
+      "description": "An academic spends time building a venture.",
+      "mechanism": "The residency provides time, mentoring and access to finance and facilities.",
+      "hue": "#6B8CAA",
+      "icon": "🚀",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 150,
+      "name": "Technology Transfer Fellowship",
+      "description": "Training placements in technology transfer offices.",
+      "mechanism": "Fellows learn licensing and spin-off practice by working in a TTO.",
+      "hue": "#6B8CAA",
+      "icon": "📤",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 151,
+      "name": "Cooperative Research Centre",
+      "description": "A long-term consortium of firms, universities and agencies.",
+      "mechanism": "Shared funding and governance sustain research on an industry problem.",
+      "hue": "#6B8CAA",
+      "icon": "🧭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 152,
+      "name": "Industry Doctoral Training Centre",
+      "description": "A cohort-based doctorate with industrial partners.",
+      "mechanism": "Students combine coursework and company projects in a structured programme.",
+      "hue": "#6B8CAA",
+      "icon": "🧑‍🎓",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 153,
+      "name": "Graduate Industrial Placement",
+      "description": "A supervised placement for graduates in a firm.",
+      "mechanism": "Short placements give firms access to talent and graduates to experience.",
+      "hue": "#6B8CAA",
+      "icon": "🧳",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 154,
+      "name": "Apprenticeship Program",
+      "description": "Structured work-based training with certification.",
+      "mechanism": "Employers and training providers share the programme; apprentices earn while learning.",
+      "hue": "#C47D8A",
+      "icon": "🔧",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 155,
+      "name": "National Qualifications Framework",
+      "description": "A common ladder of recognised skill levels.",
+      "mechanism": "Qualifications are described by learning outcomes and linked across education and work.",
+      "hue": "#C47D8A",
+      "icon": "🪜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 156,
+      "name": "Skills Development Levy",
+      "description": "A payroll levy that funds training.",
+      "mechanism": "Firms pay a small percentage and reclaim grants for approved training.",
+      "hue": "#C47D8A",
+      "icon": "📊",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 157,
+      "name": "Instructor Exchange Program",
+      "description": "Teachers and industry experts swap roles temporarily.",
+      "mechanism": "Instructors update practice in firms; practitioners teach in training institutions.",
+      "hue": "#C47D8A",
+      "icon": "🔄",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 158,
+      "name": "Labor Market Information System",
+      "description": "Tracks demand, supply and wages by occupation.",
+      "mechanism": "Surveys and administrative data are published to guide training and careers.",
+      "hue": "#C47D8A",
+      "icon": "📉",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 159,
+      "name": "Vocational Training Voucher",
+      "description": "A voucher an individual or firm spends on training.",
+      "mechanism": "Public funding follows the learner to an accredited provider.",
+      "hue": "#C47D8A",
+      "icon": "🎟️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 160,
+      "name": "Business Incubator",
+      "description": "Shared space, services and mentoring for start-ups.",
+      "mechanism": "Early firms get cheap space, advice and access to networks.",
+      "hue": "#C9956C",
+      "icon": "🐣",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 161,
+      "name": "Startup Accelerator",
+      "description": "A fixed-term programme with seed funding and mentoring.",
+      "mechanism": "Cohorts receive capital, training and investor access in exchange for equity.",
+      "hue": "#C9956C",
+      "icon": "⚡",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 162,
+      "name": "Matching Grant Scheme",
+      "description": "Public co-funding of firm innovation projects.",
+      "mechanism": "Firms contribute part of the cost; the grant matches the rest against milestones.",
+      "hue": "#C9956C",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 163,
+      "name": "Innovation Voucher",
+      "description": "A small grant for external expertise.",
+      "mechanism": "Firms buy research or design services from accredited providers.",
+      "hue": "#C9956C",
+      "icon": "🎫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 164,
+      "name": "R&D Tax Credit",
+      "description": "A tax credit on qualifying research spending.",
+      "mechanism": "Firms deduct a share of research costs from tax, rewarding sustained investment.",
+      "hue": "#C9956C",
+      "icon": "🧾",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 165,
+      "name": "Regulatory Sandbox",
+      "description": "Time-limited supervised testing of new business models.",
+      "mechanism": "Firms operate under relaxed rules with safeguards and close supervision.",
+      "hue": "#C9956C",
+      "icon": "🧪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 166,
+      "name": "Challenge Prize",
+      "description": "A result-based award for a defined target.",
+      "mechanism": "Competitors race for a prize paid only on achieving the specification.",
+      "hue": "#C9956C",
+      "icon": "🏆",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 167,
+      "name": "Management Extension Service",
+      "description": "Advisers help firms adopt better management practice.",
+      "mechanism": "Trained advisers diagnose and coach firms on operations, finance and quality.",
+      "hue": "#C9956C",
+      "icon": "🧑‍💼",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 168,
+      "name": "Business Development Service Voucher",
+      "description": "A voucher for professional services.",
+      "mechanism": "Firms purchase accounting, marketing or quality advice from approved providers.",
+      "hue": "#C9956C",
+      "icon": "🧮",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 169,
+      "name": "Mentoring Program",
+      "description": "Experienced entrepreneurs guide younger firms.",
+      "mechanism": "Structured mentoring pairs founders with mentors over a fixed period.",
+      "hue": "#C9956C",
+      "icon": "🧑‍🏫",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 170,
+      "name": "Open Innovation Platform",
+      "description": "A brokered platform matching problems with solvers.",
+      "mechanism": "Firms post challenges; researchers and suppliers propose solutions.",
+      "hue": "#C9956C",
+      "icon": "💬",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 171,
+      "name": "National Accreditation Body",
+      "description": "Accredits labs, certifiers and inspectors.",
+      "mechanism": "Independent assessment certifies competence, making test results and certificates credible.",
+      "hue": "#5C8A72",
+      "icon": "✔️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 172,
+      "name": "Certification Body",
+      "description": "Certifies products and management systems to standards.",
+      "mechanism": "Audits and certificates give buyers confidence in quality and safety.",
+      "hue": "#5C8A72",
+      "icon": "📋",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 173,
+      "name": "Calibration Laboratory",
+      "description": "Calibrates instruments against national standards.",
+      "mechanism": "Traceable calibration underpins reliable measurement across industry.",
+      "hue": "#5C8A72",
+      "icon": "📏",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 174,
+      "name": "Product Certification Scheme",
+      "description": "A mark showing a product meets a standard.",
+      "mechanism": "Testing and factory inspection license the mark, signalling compliance to buyers.",
+      "hue": "#5C8A72",
+      "icon": "🏷️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 175,
+      "name": "Standards Development Program",
+      "description": "Funds the writing of national standards.",
+      "mechanism": "Technical committees draft standards in priority areas with industry participation.",
+      "hue": "#5C8A72",
+      "icon": "📘",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 176,
+      "name": "National Quality Award",
+      "description": "A prize for excellence in quality management.",
+      "mechanism": "Assessors benchmark firms and publicise winners as models.",
+      "hue": "#5C8A72",
+      "icon": "🥇",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 177,
+      "name": "Intellectual Property Office",
+      "description": "Registers and administers patents, trademarks and designs.",
+      "mechanism": "Examination and registration secure rights and publish knowledge.",
+      "hue": "#5C8A72",
+      "icon": "©️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 178,
+      "name": "Patent Information Service",
+      "description": "Provides patent search and analysis to firms.",
+      "mechanism": "Experts mine patent databases for technology and freedom-to-operate intelligence.",
+      "hue": "#5C8A72",
+      "icon": "🔎",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 179,
+      "name": "Sectoral Regulatory Agency",
+      "description": "An independent regulator for one infrastructure sector.",
+      "mechanism": "It sets tariffs, service standards and licences under a statutory mandate.",
+      "hue": "#6E6A8A",
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 180,
+      "name": "Consumer Protection Agency",
+      "description": "Enforces fair-market and product-safety rules.",
+      "mechanism": "It investigates complaints, tests products and sanctions violations.",
+      "hue": "#6E6A8A",
+      "icon": "🛒",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 181,
+      "name": "Delivery Unit",
+      "description": "A small team that drives priority government programmes.",
+      "mechanism": "It tracks milestones, unblocks issues and reports to the centre.",
+      "hue": "#6E6A8A",
+      "icon": "🎯",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 182,
+      "name": "Regulatory Impact Assessment",
+      "description": "A structured appraisal of proposed regulation.",
+      "mechanism": "Analysts assess costs, benefits and alternatives before rules are adopted.",
+      "hue": "#6E6A8A",
+      "icon": "📊",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 183,
+      "name": "Land Bank",
+      "description": "Public land assembled, serviced and released for development.",
+      "mechanism": "The bank acquires, plans and leases sites with infrastructure in place.",
+      "hue": "#6E6A8A",
+      "icon": "🗺️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 184,
+      "name": "Infrastructure Concession Program",
+      "description": "Long-term contracts transferring infrastructure operation to private partners.",
+      "mechanism": "Competitive tenders allocate construction and operation against service standards.",
+      "hue": "#6E6A8A",
+      "icon": "🛤️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 185,
+      "name": "Public Asset Management Company",
+      "description": "Manages and divests state-owned assets.",
+      "mechanism": "It restructures, sells or repurposes assets to raise value and reduce losses.",
+      "hue": "#6E6A8A",
+      "icon": "🏦",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 186,
+      "name": "Commercial Court",
+      "description": "A specialised court for commercial disputes.",
+      "mechanism": "Judges with commercial expertise hear cases under accelerated procedures.",
+      "hue": "#6E6A8A",
+      "icon": "⚖️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 187,
+      "name": "Commercial Arbitration Center",
+      "description": "Arbitration and mediation for business disputes.",
+      "mechanism": "Parties resolve disputes privately under agreed rules and enforceable awards.",
+      "hue": "#6E6A8A",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 188,
+      "name": "Digital Identity System",
+      "description": "A trusted digital identity for people and firms.",
+      "mechanism": "Verified credentials enable online services, payments and contracts.",
+      "hue": "#6E6A8A",
+      "icon": "🪪",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 189,
+      "name": "Open Data Portal",
+      "description": "Public data published in reusable form.",
+      "mechanism": "Agencies release datasets with licences and APIs for firms and researchers.",
+      "hue": "#6E6A8A",
+      "icon": "🗃️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 190,
+      "name": "Contract Farming Scheme",
+      "description": "Formal contracts between farmers and buyers.",
+      "mechanism": "The buyer supplies inputs and standards; the farmer delivers agreed volumes at agreed prices.",
+      "hue": "#7C8B3A",
+      "icon": "🌾",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 191,
+      "name": "Agro-Processing Zone",
+      "description": "A dedicated zone for processing agricultural output.",
+      "mechanism": "Shared utilities, cold storage and logistics colocate processors near production.",
+      "hue": "#7C8B3A",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 192,
+      "name": "Cold Chain Facility",
+      "description": "Refrigerated storage and transport infrastructure.",
+      "mechanism": "Temperature-controlled links reduce spoilage between farm, processor and market.",
+      "hue": "#7C8B3A",
+      "icon": "❄️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 193,
+      "name": "Warehouse Receipt System",
+      "description": "Receipts for stored commodities usable as collateral.",
+      "mechanism": "Licensed warehouses issue receipts that banks accept for credit.",
+      "hue": "#7C8B3A",
+      "icon": "📜",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 194,
+      "name": "Industrial Utility Corridor",
+      "description": "Shared power, water and gas infrastructure for industrial sites.",
+      "mechanism": "A corridor delivers utilities at scale to clustered plants.",
+      "hue": "#8A6E4B",
+      "icon": "🔌",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 195,
+      "name": "Dedicated Power Facility",
+      "description": "A dedicated generation or supply arrangement for industry.",
+      "mechanism": "Captive or priority supply insulates firms from grid shortages.",
+      "hue": "#8A6E4B",
+      "icon": "⚡",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 196,
+      "name": "Dry Port",
+      "description": "An inland terminal linked to a seaport.",
+      "mechanism": "Customs clearance and container handling move inland, cutting logistics costs.",
+      "hue": "#8A6E4B",
+      "icon": "🚛",
+      "caseStudies": [],
+      "references": []
     }
   ],
   "relationships": [
@@ -6072,237 +7174,6 @@
       ],
       "outcome": "Productive urban development",
       "implementation": "Land assembly, transport coordination and metropolitan governance."
-    },
-    {
-      "problem": 232,
-      "instrument": 61,
-      "role": "primary",
-      "strength": 4,
-      "name": "Increases the stock of productive assets over time.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Increases the stock of productive assets over time."
-      ],
-      "actors": [
-        "Investors",
-        "Firms"
-      ],
-      "outcome": "Higher productive capital stock",
-      "implementation": "Savings mobilization, investment finance and project appraisal."
-    },
-    {
-      "problem": 216,
-      "instrument": 62,
-      "role": "primary",
-      "strength": 4,
-      "name": "Produces more economic value with the same or fewer resources.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Produces more economic value with the same or fewer resources."
-      ],
-      "actors": [
-        "Firms",
-        "Managers"
-      ],
-      "outcome": "More output per unit of input",
-      "implementation": "Technology adoption, management and process improvement."
-    },
-    {
-      "problem": 226,
-      "instrument": 63,
-      "role": "primary",
-      "strength": 4,
-      "name": "Spreads productive technologies across firms and sectors.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Spreads productive technologies across firms and sectors."
-      ],
-      "actors": [
-        "Firms",
-        "Technology providers"
-      ],
-      "outcome": "Technology spread across firms",
-      "implementation": "Demonstration, extension and supplier linkages."
-    },
-    {
-      "problem": 217,
-      "instrument": 64,
-      "role": "primary",
-      "strength": 4,
-      "name": "Moves labour and capital toward increasingly productive activities.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Moves labour and capital toward increasingly productive activities."
-      ],
-      "actors": [
-        "Firms",
-        "Workers",
-        "Policy makers"
-      ],
-      "outcome": "Resources move to higher-productivity activities",
-      "implementation": "Factor mobility, new-sector finance and skills."
-    },
-    {
-      "problem": 211,
-      "instrument": 67,
-      "role": "primary",
-      "strength": 4,
-      "name": "Increases the stock of usable technical and organizational knowledge.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Increases the stock of usable technical and organizational knowledge."
-      ],
-      "actors": [
-        "Researchers",
-        "Firms"
-      ],
-      "outcome": "Larger usable knowledge stock",
-      "implementation": "R&D, documentation and training."
-    },
-    {
-      "problem": 223,
-      "instrument": 68,
-      "role": "primary",
-      "strength": 4,
-      "name": "Improves capabilities through repeated production.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Improves capabilities through repeated production."
-      ],
-      "actors": [
-        "Firms",
-        "Workers"
-      ],
-      "outcome": "Capability improves with repetition",
-      "implementation": "Production volume, feedback and deliberate practice."
-    },
-    {
-      "problem": 230,
-      "instrument": 69,
-      "role": "primary",
-      "strength": 4,
-      "name": "Transfers knowledge between firms, workers and institutions.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Transfers knowledge between firms, workers and institutions."
-      ],
-      "actors": [
-        "Firms",
-        "Universities",
-        "Workers"
-      ],
-      "outcome": "Knowledge transferred across organizations",
-      "implementation": "Proximity, mobility and collaboration."
-    },
-    {
-      "problem": 237,
-      "instrument": 70,
-      "role": "primary",
-      "strength": 4,
-      "name": "Replaces obsolete products, technologies and organizations.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Replaces obsolete products, technologies and organizations."
-      ],
-      "actors": [
-        "Firms",
-        "Investors"
-      ],
-      "outcome": "Obsolete capacity replaced",
-      "implementation": "Entry, exit and insolvency institutions."
-    },
-    {
-      "problem": 215,
-      "instrument": 72,
-      "role": "primary",
-      "strength": 4,
-      "name": "Creates new productive capabilities that support competitive specialization.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Creates new productive capabilities that support competitive specialization."
-      ],
-      "actors": [
-        "Firms",
-        "Policy makers"
-      ],
-      "outcome": "New competitive specializations",
-      "implementation": "Capability building, investment and export support."
-    },
-    {
-      "problem": 220,
-      "instrument": 73,
-      "role": "primary",
-      "strength": 4,
-      "name": "Distributes economic risks across markets, sectors and institutions.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Distributes economic risks across markets, sectors and institutions."
-      ],
-      "actors": [
-        "Firms",
-        "Insurers",
-        "Investors"
-      ],
-      "outcome": "Risks spread across markets",
-      "implementation": "Insurance, hedging and diversified portfolios."
-    },
-    {
-      "problem": 214,
-      "instrument": 74,
-      "role": "primary",
-      "strength": 4,
-      "name": "Allocates resources toward more productive economic activities.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Allocates resources toward more productive economic activities."
-      ],
-      "actors": [
-        "Firms",
-        "Regulators"
-      ],
-      "outcome": "Resources shift to more productive uses",
-      "implementation": "Competition, exit and capital reallocation."
-    },
-    {
-      "problem": 219,
-      "instrument": 75,
-      "role": "primary",
-      "strength": 4,
-      "name": "Moves innovations from leading firms into the wider economy.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Moves innovations from leading firms into the wider economy."
-      ],
-      "actors": [
-        "Firms",
-        "Innovation intermediaries"
-      ],
-      "outcome": "Innovations adopted widely",
-      "implementation": "Demonstration, standards and extension."
     }
   ]
 }
