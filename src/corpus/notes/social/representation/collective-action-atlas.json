@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 10
+    "version": 11
   },
   "problems": [
     {
@@ -3176,7 +3176,7 @@
     },
     {
       "id": 2,
-      "name": "Shindan / Enterprise Diagnosis",
+      "name": "Enterprise Diagnosis",
       "description": "A systematic enterprise evaluation and advice system where consultants diagnose management and technical problems and recommend improvements.",
       "mechanism": "Institutionalized diagnostic service provided by government or accredited consultants, often linked to SME finance.",
       "hue": "#4682B4",
@@ -6092,6 +6092,16 @@
       "mechanism": "It assembles projects, funds infrastructure and aligns local actors.",
       "hue": "#8A6E4B",
       "icon": "🗺️",
+      "caseStudies": [],
+      "references": []
+    },
+    {
+      "id": 286,
+      "name": "Productivity Center",
+      "description": "A local service centre that transfers productivity practice to firms.",
+      "mechanism": "It runs diagnostics, training and demonstration for nearby SMEs.",
+      "hue": "#C9956C",
+      "icon": "📈",
       "caseStudies": [],
       "references": []
     }
