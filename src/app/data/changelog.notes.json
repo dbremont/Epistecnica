@@ -82071,127 +82071,12 @@
   ]
  },
  {
-  "file_path": "social/collective/governance/action/problem/problem.md",
+  "file_path": "social/collective/governance/action/problem/problematization.md",
   "logs": [
    {
     "date": "2026-11-19",
     "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/problem.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Re-point links after the epistemica/singular/ move.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
-    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-08",
-    "kind": "docs",
-    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
-    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
-    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
-    "before": "d294ca477e0a5730b370355f5387893653a12638"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
-    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
-    "before": "5285610687d79b35606dbaf2c97f981376febad4"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
-    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/policy-problem.md. Move into action/public/problem/: the problem dimensions sit with public action."
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Re-point links after the epistemica/singular/ move.",
-    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
-    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
-   },
-   {
-    "date": "2026-11-06",
-    "kind": "refactor",
-    "summary": "Update the note and re-point its corpus links after the reorganisation.",
-    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
-    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "edit",
-    "summary": "Title the note Policy Problem: it carried the same `# Problem` heading as the general element note it specializes.",
-    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move into the koinomia domain shelf and retarget links.",
-    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Domain links to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
-    "before": "d294ca477e0a5730b370355f5387893653a12638"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget the Policy link to the guidance shelf.",
-    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
-    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move with the koinomia -> collective shelf rename.",
-    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "move",
-    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
-    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
-   },
-   {
-    "date": "2026-11-19",
-    "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/dimension/domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "summary": "Move from social/dynamic/action/problem/readme.md. Move into action/public/problem/: the problem dimensions sit with public action.",
     "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
    },
    {
@@ -82202,22 +82087,17 @@
    },
    {
     "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
-    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
-   },
-   {
-    "date": "2026-11-20",
-    "kind": "refactor",
-    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+    "kind": "edit",
+    "summary": "Point the Problem shelf at the Domain shelf one level up.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
    },
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Add the labor, market, legal and computation domains to the policy-domain list.",
-    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92",
-    "before": "a4c062098b8a64f823f33705c3e7a83970e5057e"
+    "summary": "Retarget the Domain link to the flattened shelf and reword the shelf note.",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
+    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
    },
    {
     "date": "2026-11-20",
@@ -82233,10 +82113,15 @@
    },
    {
     "date": "2026-11-20",
-    "kind": "merge",
-    "summary": "Merge the policy-problem specialization and the problem-domain index into the Problem hub.",
+    "kind": "edit",
+    "summary": "Retarget to the merged Problem hub.",
     "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
     "before": "951863c0beb71000f3dad1176377806a394b622f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "feat",
+    "summary": "Rewrite as the note on the art of problematization: why posing the problem is hard, and the prompt set that tests it."
    }
   ]
  },
@@ -82628,8 +82513,28 @@
    {
     "date": "2026-11-19",
     "kind": "move",
-    "summary": "Move from social/dynamic/action/problem/readme.md. Move into action/public/problem/: the problem dimensions sit with public action.",
-    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+    "summary": "Move from social/dynamic/action/problem/problem.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Re-point links after the epistemica/singular/ move.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-08",
+    "kind": "docs",
+    "summary": "Retarget the guide link after the meta shelf was dissolved (notes/meta/ → notes/).",
+    "commit": "85cdd4d6c91e5012e9bdc7474468f9e2fc5f7b7e",
+    "before": "8b7a9560d7191639b3e1561e565e194b73cef2c4"
    },
    {
     "date": "2026-11-20",
@@ -82640,16 +82545,116 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Point the Problem shelf at the Domain shelf one level up.",
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
     "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
     "before": "d294ca477e0a5730b370355f5387893653a12638"
    },
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Retarget the Domain link to the flattened shelf and reword the shelf note.",
-    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d",
-    "before": "fb3c9b01225f9286f2d77c90f2ea995219d961c8"
+    "summary": "Retarget the Private Actor, Public Agency and human behavioral links.",
+    "commit": "791cf9db73adc499f6033ddacb5b8fdba0c2338d",
+    "before": "5285610687d79b35606dbaf2c97f981376febad4"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
+    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/policy-problem.md. Move into action/public/problem/: the problem dimensions sit with public action."
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Re-point links after the epistemica/singular/ move.",
+    "commit": "23a14559bed5f84d47358edd03102fc66f6c3f6f",
+    "before": "ced4c05e00c084ca663a79ed4653d5310ae66e66"
+   },
+   {
+    "date": "2026-11-06",
+    "kind": "refactor",
+    "summary": "Update the note and re-point its corpus links after the reorganisation.",
+    "commit": "fb474e80ef44566966bf0e366d302a59fca63c87",
+    "before": "fc3d3ea72f11f035841e28b3bbb62b3bc1b365aa"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "edit",
+    "summary": "Title the note Policy Problem: it carried the same `# Problem` heading as the general element note it specializes.",
+    "commit": "8d30d4cbddef39241ce796877f1a5edc7d32b55a"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Domain links to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b",
+    "before": "d294ca477e0a5730b370355f5387893653a12638"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Retarget the Policy link to the guidance shelf.",
+    "commit": "62be68c7da0e410a1ed36540df4297311cb18370",
+    "before": "f9e191290d974549f1609f71a9d329c0e49e5052"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move with the koinomia -> collective shelf rename.",
+    "commit": "be73448a54b5138731ffdb4ec8ce9de13fd879d5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
+    "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-19",
+    "kind": "move",
+    "summary": "Move from social/dynamic/action/problem/dimension/domain.md. Move into action/public/problem/: the problem dimensions sit with public action.",
+    "commit": "b315be0f25078c062a7b6e2383efd83484d60ed5"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Move into the koinomia domain shelf and retarget links.",
+    "commit": "2f08f3fafeb07ec4302a6125d65b2f7a4973b0a0"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/problem/dimension/ to the action/domain/ shelf.",
+    "commit": "c9389b9b998b716bff490a7ca3c13fdd0b295b0b"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "refactor",
+    "summary": "Move from action/domain/ into action/problem/ (first-level flattening).",
+    "commit": "d3686a76c0de5ee86e4be30118e999fa6bc9da9d"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the labor, market, legal and computation domains to the policy-domain list.",
+    "commit": "9fe9c7d734ef51ceb1057da1e61602c147740c92",
+    "before": "a4c062098b8a64f823f33705c3e7a83970e5057e"
    },
    {
     "date": "2026-11-20",
@@ -82665,10 +82670,15 @@
    },
    {
     "date": "2026-11-20",
-    "kind": "edit",
-    "summary": "Retarget to the merged Problem hub.",
+    "kind": "merge",
+    "summary": "Merge the policy-problem specialization and the problem-domain index into the Problem hub.",
     "commit": "ecb7c9f2fd7f419a2dc9b0fef963a855575a5fb5",
     "before": "951863c0beb71000f3dad1176377806a394b622f"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "move",
+    "summary": "Become the shelf readme: the Problem hub carries the element, the policy problem and the domains."
    }
   ]
  },
