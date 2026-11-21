@@ -8,6 +8,8 @@ tags: [note, social]
 
 > Note: **Tools specific to transformation** or improvement are in Locus - Meliorandis.
 
+> The live representation of the instruments is [Instrument Representation](/corpus/notes/social/representation/collective-action-instruments.html) — the library, the full instrument profiles (mechanism, actors, expected outcome, implementation), the problems each addresses, and the granular comparison. Its data sits in `collective-action-atlas.json` beside the page.
+
 ## Tooling
 
 - Field:  The set of doamins that study aspects of social reality.

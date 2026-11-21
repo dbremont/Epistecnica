@@ -491,6 +491,12 @@
    "to": "social/collective/",
    "label": "Koinomia",
    "kind": "hierarchy"
+  },
+  {
+   "from": "social/collective/governance/action/instrument/",
+   "to": "social/representation/collective-action-instruments.html",
+   "label": "Instrument Representation",
+   "kind": "related"
   }
  ]
 }

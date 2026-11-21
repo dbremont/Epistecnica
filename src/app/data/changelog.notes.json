@@ -80014,6 +80014,11 @@
     "kind": "move",
     "summary": "Move under the governance umbrella: public actors and public action are what governance is made of.",
     "commit": "42ad839abc5380fe1a0d57319226e8314e452442"
+   },
+   {
+    "date": "2026-11-20",
+    "kind": "edit",
+    "summary": "Add the live Instrument Representation view."
    }
   ]
  },
