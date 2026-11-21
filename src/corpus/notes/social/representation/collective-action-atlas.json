@@ -1621,25 +1621,10 @@
       "references": []
     },
     {
-      "id": 111,
-      "parent": 7,
-      "name": "Firm Formation and Scaling",
-      "statement": "Too few firms emerge, survive, grow and reach viable scales.",
-      "description": "Too few firms emerge, survive, grow and reach viable scales.",
-      "goals": [
-        "Diagnose the constraint",
-        "Develop the system"
-      ],
-      "granularity": "intermediate",
-      "policyDomain": "Firm Scaling",
-      "targetGroup": "National Economy, Firms",
-      "references": []
-    },
-    {
       "id": 213,
-      "parent": 111,
-      "name": "Few Firms Reach Viable Scale",
-      "statement": "Most firms stay below the minimum viable size.",
+      "parent": 7,
+      "name": "Weak Firm Formation and Growth",
+      "statement": "Too few firms emerge, survive, grow and reach viable scales.",
       "description": "Sub-scale firms cannot invest or compete.",
       "goals": [
         "Scale viable firms"
@@ -3229,7 +3214,7 @@
     },
     {
       "id": 4,
-      "name": "Two-Step Loans",
+      "name": "Two-Step Loan",
       "description": "Government funds are channeled through commercial banks to targeted firms at subsidized rates, with banks responsible for appraisal and monitoring.",
       "mechanism": "Wholesale funds from a development financial institution to retail banks for on-lending to priority sectors.",
       "hue": "#8B0000",
@@ -3248,7 +3233,7 @@
     },
     {
       "id": 5,
-      "name": "Investment Incentives",
+      "name": "Investment Incentive",
       "description": "Fiscal and non-fiscal incentives such as tax holidays, duty exemptions, and subsidies targeted at priority activities.",
       "mechanism": "A list of priority activities linked to a system of incentives, often administered by investment promotion agencies.",
       "hue": "#FF8C00",
@@ -3267,7 +3252,7 @@
     },
     {
       "id": 6,
-      "name": "Industrial Parks",
+      "name": "Industrial Park",
       "description": "Dedicated estates with sufficient infrastructure and administrative services to facilitate industrial clustering and FDI.",
       "mechanism": "Provision of serviced land and facilities, often including one-stop administrative services.",
       "hue": "#6A5ACD",
@@ -3381,7 +3366,7 @@
     },
     {
       "id": 12,
-      "name": "Export Processing Zones",
+      "name": "Export Processing Zone",
       "description": "Special zones with infrastructure and incentives for export-oriented manufacturing.",
       "mechanism": "Duty-free inputs, serviced land, and streamlined administration.",
       "hue": "#3CB371",
@@ -3419,7 +3404,7 @@
     },
     {
       "id": 14,
-      "name": "Technical Extension Services",
+      "name": "Technical Extension Service",
       "description": "Public or publicly supported services that provide firms with technical advice and problem-solving support.",
       "mechanism": "Visits by engineers and consultants, demonstrations, and joint problem-solving.",
       "hue": "#1E90FF",
@@ -3571,7 +3556,7 @@
     },
     {
       "id": 22,
-      "name": "Quality Control Circles",
+      "name": "Quality Control Circle",
       "description": "Small groups of workers who meet regularly to solve quality and productivity problems.",
       "mechanism": "Worker participation, problem-solving, and continuous improvement.",
       "hue": "#00CED1",
@@ -3751,7 +3736,7 @@
     },
     {
       "id": 32,
-      "name": "Agricultural Research Institutes",
+      "name": "Agricultural Research Institute",
       "description": "Develop improved crops, production techniques and agricultural technologies.",
       "mechanism": "Develop improved crops, production techniques and agricultural technologies.",
       "hue": "#6B8E23",
@@ -3760,7 +3745,7 @@
     },
     {
       "id": 33,
-      "name": "Industrial Research Institutes",
+      "name": "Industrial Research Institute",
       "description": "Conduct applied research and solve industrial technical problems.",
       "mechanism": "Conduct applied research and solve industrial technical problems.",
       "hue": "#2F4F4F",
@@ -3778,7 +3763,7 @@
     },
     {
       "id": 35,
-      "name": "National Testing Laboratories",
+      "name": "National Testing Laboratory",
       "description": "Provide industrial testing and certification.",
       "mechanism": "Provide industrial testing and certification.",
       "hue": "#5F9EA0",
@@ -3787,7 +3772,7 @@
     },
     {
       "id": 36,
-      "name": "Industrial Technology Centers",
+      "name": "Industrial Technology Center",
       "description": "Support prototyping, engineering and industrial experimentation.",
       "mechanism": "Support prototyping, engineering and industrial experimentation.",
       "hue": "#708090",
@@ -3922,7 +3907,7 @@
     },
     {
       "id": 51,
-      "name": "University Technology Transfer Offices",
+      "name": "University Technology Transfer Office",
       "description": "Commercialize university research and facilitate licensing.",
       "mechanism": "Commercialize university research and facilitate licensing.",
       "hue": "#7B68EE",
@@ -3931,7 +3916,7 @@
     },
     {
       "id": 52,
-      "name": "Industrial Design Centers",
+      "name": "Industrial Design Center",
       "description": "Support product design, engineering design and prototyping.",
       "mechanism": "Support product design, engineering design and prototyping.",
       "hue": "#C71585",
@@ -3967,7 +3952,7 @@
     },
     {
       "id": 56,
-      "name": "Industrial Cluster Management Organizations",
+      "name": "Industrial Cluster Management Organization",
       "description": "Coordinate firms, universities, infrastructure and suppliers within clusters.",
       "mechanism": "Coordinate firms, universities, infrastructure and suppliers within clusters.",
       "hue": "#2E8B57",
@@ -4047,24 +4032,6 @@
       "caseStudies": []
     },
     {
-      "id": 65,
-      "name": "Economies of Scale",
-      "description": "Reduces unit costs as production expands.",
-      "mechanism": "Reduces unit costs as production expands.",
-      "hue": "#CD5C5C",
-      "icon": "📏",
-      "caseStudies": []
-    },
-    {
-      "id": 66,
-      "name": "Economies of Scope",
-      "description": "Increases efficiency by producing related products together.",
-      "mechanism": "Increases efficiency by producing related products together.",
-      "hue": "#BDB76B",
-      "icon": "🔀",
-      "caseStudies": []
-    },
-    {
       "id": 67,
       "name": "Knowledge Accumulation",
       "description": "Increases the stock of usable technical and organizational knowledge.",
@@ -4084,7 +4051,7 @@
     },
     {
       "id": 69,
-      "name": "Knowledge Spillovers",
+      "name": "Knowledge Spillover",
       "description": "Transfers knowledge between firms, workers and institutions.",
       "mechanism": "Transfers knowledge between firms, workers and institutions.",
       "hue": "#9370DB",
@@ -4098,15 +4065,6 @@
       "mechanism": "Replaces obsolete products, technologies and organizations.",
       "hue": "#B22222",
       "icon": "♻",
-      "caseStudies": []
-    },
-    {
-      "id": 71,
-      "name": "Agglomeration Economies",
-      "description": "Increases productivity through geographical concentration and interaction.",
-      "mechanism": "Increases productivity through geographical concentration and interaction.",
-      "hue": "#708090",
-      "icon": "🏙",
       "caseStudies": []
     },
     {
@@ -6193,42 +6151,6 @@
       "implementation": "Factor mobility, new-sector finance and skills."
     },
     {
-      "problem": 213,
-      "instrument": 65,
-      "role": "primary",
-      "strength": 4,
-      "name": "Reduces unit costs as production expands.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Reduces unit costs as production expands."
-      ],
-      "actors": [
-        "Firms"
-      ],
-      "outcome": "Lower unit costs",
-      "implementation": "Market size, consolidation and plant utilization."
-    },
-    {
-      "problem": 209,
-      "instrument": 66,
-      "role": "primary",
-      "strength": 4,
-      "name": "Increases efficiency by producing related products together.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Increases efficiency by producing related products together."
-      ],
-      "actors": [
-        "Firms"
-      ],
-      "outcome": "Lower joint production costs",
-      "implementation": "Related product lines and shared inputs."
-    },
-    {
       "problem": 211,
       "instrument": 67,
       "role": "primary",
@@ -6304,25 +6226,6 @@
       ],
       "outcome": "Obsolete capacity replaced",
       "implementation": "Entry, exit and insolvency institutions."
-    },
-    {
-      "problem": 206,
-      "instrument": 71,
-      "role": "primary",
-      "strength": 4,
-      "name": "Increases productivity through geographical concentration and interaction.",
-      "conditions": [
-        "Institutional capacity"
-      ],
-      "functions": [
-        "Increases productivity through geographical concentration and interaction."
-      ],
-      "actors": [
-        "Firms",
-        "Cities"
-      ],
-      "outcome": "Higher productivity from proximity",
-      "implementation": "Urban planning, transport and cluster services."
     },
     {
       "problem": 215,
