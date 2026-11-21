@@ -217,6 +217,7 @@
         table.atlas th { font-size:0.62rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--text-muted); text-align:left; padding:0.5rem; border-bottom:1px solid var(--border-strong); cursor:pointer; white-space:nowrap; }
         table.atlas td { padding:0.5rem; border-bottom:1px solid var(--border-subtle); color:var(--text-secondary); vertical-align:top; line-height:1.5; }
         table.atlas td.name { color:var(--text-primary); font-weight:600; white-space:nowrap; }
+        table.atlas td .sub { display:block; font-size:0.66rem; color:var(--text-muted); line-height:1.45; margin-top:0.15rem; font-weight:400; white-space:normal; }
         table.atlas tbody tr:hover { background:var(--bg-hover); }
         table.matrix td, table.matrix th { text-align:center; }
         table.matrix td.name, table.matrix th.name { text-align:left; }
@@ -278,13 +279,13 @@
             </div>
         </div>
         <section class="panel" id="networkPanel">
+            <div id="mapWrap">
             <div class="maphead">
                 <div>
                 	<h2>Problem × Instrument Network</h2>        
 			<p class="hint">An N × N map of problem–instrument relationships.</p> 
 		</div>
             </div>
-            <div id="mapWrap">
             <div class="mapscroll"><svg id="map" role="img" aria-label="Problem to instrument network map"></svg></div>
             </div>
             <div id="matrixWrap" class="hidden">
@@ -297,8 +298,9 @@
             <p class="hint">Click a header to sort.</p>
             <div style="overflow-x:auto"><table class="atlas" id="dataTable">
                 <thead><tr>
-                    <th data-key="statement">Problem</th><th data-key="name">Intervention</th>
-                    <th data-key="description">Description</th><th data-key="instrumentName">Instrument</th><th data-key="name">Name</th>
+                    <th data-key="problem">Problem</th>
+                    <th data-key="intervention">Intervention (Relationship)</th>
+                    <th data-key="instrument">Instrument</th>
                 </tr></thead><tbody></tbody>
             </table></div>
             </div>
@@ -337,7 +339,7 @@
         hasSelection: false, detailSide: "problem", detailKind: "problem",
         q: "", tq: "",
         showRel: true, showCounts: true,
-        sortKey: "name", sortDir: 1, openNodes: {}, rel: null, byParent: {}, roots: [] };
+        sortKey: "problem", sortDir: 1, openNodes: {}, rel: null, byParent: {}, roots: [] };
 
     function esc(s) { return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
     function sameId(a, b) { return String(a) === String(b); }
@@ -594,7 +596,7 @@
         t.innerHTML = "";
         var vs = shownV();
         var head = document.createElement("tr");
-        head.innerHTML = "<th class=\"name\">Problem \\ Instrument</th>" + S.data.instruments.map(function (i) {
+        head.innerHTML = "<th class=\"name\">Problem × Instrument</th>" + S.data.instruments.map(function (i) {
             return "<th>" + esc(i.icon + " " + i.name) + "</th>";
         }).join("");
         t.appendChild(head);
@@ -627,9 +629,9 @@
         });
         return out.filter(function (x) { return !S.q || x.hay.indexOf(S.q) !== -1; }).sort(function (a, b) {
             var k = S.sortKey, av, bv;
-            if (k === "instrumentName") { av = a.ins ? a.ins.name : ""; bv = b.ins ? b.ins.name : ""; }
-            else if (k === "name") { av = a.r.name || ""; bv = b.r.name || ""; }
-            else { av = a.v[k] || ""; bv = b.v[k] || ""; }
+            if (k === "instrument") { av = a.ins ? a.ins.name : ""; bv = b.ins ? b.ins.name : ""; }
+            else if (k === "intervention") { av = a.r.name || ""; bv = b.r.name || ""; }
+            else { av = a.v.name || ""; bv = b.v.name || ""; }
             return String(av).localeCompare(String(bv)) * S.sortDir;
         });
     }
@@ -638,8 +640,13 @@
         tb.innerHTML = "";
         tableRows().forEach(function (x) {
             var tr = document.createElement("tr");
-            tr.innerHTML = "<td>" + esc(x.v.statement || "") + "</td><td class=\"name\">" + esc(x.v.name) + "</td>" +
-                "<td>" + esc(x.v.description || "") + "</td><td>" + esc(x.ins ? x.ins.name : "") + " (" + x.r.role + ")</td><td>" + esc(x.r.name) + "</td>";
+            var fn = (x.r.functions && x.r.functions.length) ? '<span class="sub">' + x.r.functions.map(esc).join(" · ") + "</span>" : "";
+            var cond = (x.r.conditions && x.r.conditions.length) ? '<span class="sub">' + x.r.conditions.map(esc).join(" · ") + "</span>" : "";
+            tr.innerHTML = '<td class="name">' + esc(x.v.name) +
+                '<span class="sub">' + esc(x.v.statement || "") + "</span></td>" +
+                "<td>" + esc(x.r.name) + '<span class="sub">' + esc(x.r.role) + " · " + x.r.strength + "/5</span>" + fn + cond + "</td>" +
+                '<td class="name">' + esc(x.ins ? x.ins.name : "") +
+                '<span class="sub">' + esc(x.ins ? x.ins.description : "") + "</span></td>";
             tr.style.cursor = "pointer";
             tr.addEventListener("click", function () { S.focusV = x.v.id; S.selI = x.r.instrument; S.hasSelection = true; S.detailKind = "problem"; S.detailSide = "problem"; syncRel(); setMode("network"); });
             tb.appendChild(tr);
