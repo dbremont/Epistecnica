@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "A policy problem-instrument map derived from Ohno's Learning to Industrialize and grounded in the public-action problem shelf. Eighteen root domains, their systems and concrete problems, and the instruments that answer them.",
-    "version": 11
+    "version": 12
   },
   "problems": [
     {
@@ -6104,6 +6104,381 @@
       "icon": "📈",
       "caseStudies": [],
       "references": []
+    },
+    {
+      "id": 287,
+      "name": "Productivity Promotion Center",
+      "description": "A centre that promotes productivity practice and technology transfer to firms.",
+      "mechanism": "It delivers diagnostics, training, standards and demonstration to raise firm productivity.",
+      "hue": "#C9956C",
+      "icon": "📈",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Productivity Promotion Center",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/production/productivity-promotion-center.md"
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "name": "Firm R&D Capacity Program",
+      "description": "A program that builds firms' in-house research and development capability.",
+      "mechanism": "It funds R&D projects, equipment and researchers inside firms so they can absorb and generate technology.",
+      "hue": "#4E7A8C",
+      "icon": "🏢",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "name": "Technology Transfer Subsidy",
+      "description": "A subsidy that lowers the cost to firms of acquiring foreign technology.",
+      "mechanism": "It offsets licensing, consultancy and adaptation costs so absorbed technology is cheaper than imported alternatives.",
+      "hue": "#6B8CAA",
+      "icon": "💸",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "name": "STEM Education Program",
+      "description": "A funding program that expands science, technology, engineering and mathematics education.",
+      "mechanism": "It funds places, curricula and teachers to build the technical workforce needed for technology absorption.",
+      "hue": "#4E7A8C",
+      "icon": "🎓",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "name": "Master Artisan Program",
+      "description": "A program that recognises and deploys master craftspeople to transmit practical skill.",
+      "mechanism": "Master artisans train workers and anchor hands-on knowledge transfer in workshops and firms.",
+      "hue": "#6B8CAA",
+      "icon": "🛠️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "name": "IP Licensing Reform",
+      "description": "A reform that relaxes intellectual-property licensing conditions to widen access to protected technology.",
+      "mechanism": "It uses waivers, compulsory licensing and flexible terms to let domestic firms use protected knowledge.",
+      "hue": "#7BA388",
+      "icon": "📜",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "name": "Technology Transfer Requirement",
+      "description": "A condition that obliges an investor or licensee to transfer technology to local partners.",
+      "mechanism": "It attaches transfer obligations to FDI approval, contracts or licences, making absorption a condition of market access.",
+      "hue": "#7BA388",
+      "icon": "📑",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "name": "Local Content Requirement",
+      "description": "A rule that requires a specified share of inputs or value to be sourced locally.",
+      "mechanism": "It mandates domestic sourcing in procurement, licensing and investment agreements to build local supplier capability.",
+      "hue": "#7BA388",
+      "icon": "🧩",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "name": "Innovation Point System",
+      "description": "A scoring scheme that awards points to SMEs for innovation activity and converts them into financing access.",
+      "mechanism": "Points for R&D, patents and standards improve credit eligibility and lower the cost of loans.",
+      "hue": "#B8860B",
+      "icon": "🅿️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "name": "Investor Information Portal",
+      "description": "A portal that packages a location's investment conditions, incentives and procedures for investors.",
+      "mechanism": "It publishes the data and contacts investors need to screen and enter a location, reducing search cost.",
+      "hue": "#8A6E4B",
+      "icon": "🌐",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "name": "Investor Transparency Registry",
+      "description": "A registry that discloses preferred investors, selection criteria and decision terms.",
+      "mechanism": "Publication of who is sought and on what terms makes incentive negotiation visible and accountable.",
+      "hue": "#8A6E4B",
+      "icon": "📋",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "name": "Lead Agency Designation",
+      "description": "The designation of a single lead ministry or agency accountable for a priority sector.",
+      "mechanism": "One agency holds mandate, budget and coordination authority, cutting cross-agency fragmentation.",
+      "hue": "#6E6A8A",
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 299,
+      "name": "Talent Attraction Program",
+      "description": "A program that recruits and retains skilled people from abroad and from the diaspora.",
+      "mechanism": "It uses visas, incentives and placement services to bring scarce skills into the economy.",
+      "hue": "#6B8CAA",
+      "icon": "🧲",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "name": "Business Linkage Program",
+      "description": "A program that connects firms to buyers, partners and markets through matching and promotional events.",
+      "mechanism": "It organises meetings, missions and linkages so firms find commercial partners.",
+      "hue": "#C9956C",
+      "icon": "🤝",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "name": "Import Substitution Program",
+      "description": "A program that replaces imported goods with domestic production.",
+      "mechanism": "It protects or supports local producers of imported goods until domestic supply can compete.",
+      "hue": "#8A6E4B",
+      "icon": "🔁",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 302,
+      "name": "FDI–Local Firm Integration Incentive",
+      "description": "An incentive that rewards foreign investors for linkages with local firms.",
+      "mechanism": "It ties benefits to sourcing, joint ventures or supplier development with domestic firms.",
+      "hue": "#C9956C",
+      "icon": "🔗",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "name": "Cluster Quality Index",
+      "description": "An index that ranks the quality and depth of economic activities within a cluster.",
+      "mechanism": "It scores activities on capability, linkage and quality metrics to guide cluster policy.",
+      "hue": "#7BA388",
+      "icon": "📊",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 304,
+      "name": "Subcontracting Linkage Program",
+      "description": "A program that facilitates subcontracting between large firms and SMEs.",
+      "mechanism": "It publishes opportunities, brokers matches and certifies suppliers so small firms enter larger supply chains.",
+      "hue": "#C9956C",
+      "icon": "🧵",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "name": "Leapfrogging Program",
+      "description": "A program that targets a technological generation-skipping opportunity in a latecomer economy.",
+      "mechanism": "It concentrates funding and missions on a new technology trajectory rather than incremental catch-up.",
+      "hue": "#4E7A8C",
+      "icon": "⚡",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 306,
+      "name": "Supply–Demand Matching Laboratory",
+      "description": "A laboratory that matches offers of goods and skills with demand from firms and buyers.",
+      "mechanism": "It maps supply and demand and brokers matches, revealing the gaps that policy must fill.",
+      "hue": "#6B8CAA",
+      "icon": "🔀",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "name": "Industry Association Support Program",
+      "description": "A program that establishes and strengthens industry associations.",
+      "mechanism": "It funds secretariats, training and representation so firms can act collectively.",
+      "hue": "#6E6A8A",
+      "icon": "🏛️",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 308,
+      "name": "Factory Rental Scheme",
+      "description": "A scheme that rents ready-made factory space to local and foreign SMEs.",
+      "mechanism": "It provides serviced premises at below-market rates so firms can start production without capital outlay on buildings.",
+      "hue": "#C9956C",
+      "icon": "🏭",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 309,
+      "name": "Workforce Services Support Program",
+      "description": "A program that supports recruitment, housing, commuting and healthcare for workers.",
+      "mechanism": "It removes the non-wage obstacles that prevent firms from hiring and retaining workers.",
+      "hue": "#6B8CAA",
+      "icon": "🧰",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 310,
+      "name": "Export Working Capital Facility",
+      "description": "Short-term finance that funds production and shipment before export receipts arrive.",
+      "mechanism": "It advances cash against orders or receivables so exporters can fulfil overseas contracts.",
+      "hue": "#B8860B",
+      "icon": "💵",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
+    },
+    {
+      "id": 311,
+      "name": "Export Loan",
+      "description": "A bank loan earmarked for expanding export activity.",
+      "mechanism": "It supplies credit to exporters for capacity, marketing and order fulfilment.",
+      "hue": "#B8860B",
+      "icon": "💴",
+      "caseStudies": [],
+      "references": [
+        {
+          "label": "Tecno Productive Policy Toolbox",
+          "url": "/view.html?p=notes/social/collective/governance/action/instrument/technology/tecno-productive-policy-toolbox.md"
+        }
+      ]
     }
   ],
   "relationships": [
