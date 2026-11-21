@@ -2,7 +2,7 @@
 tags: [note, social]
 ---
 
-# Commoditized
+# Commodity
 
 > "Commoditized" refers to a product or service that has become standardized, widely available, and interchangeable with similar offerings, typically resulting in price competition and reduced differentiation among competitors.
 

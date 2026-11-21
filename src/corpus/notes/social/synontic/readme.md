@@ -2,6 +2,7 @@
 tags: [note, social]
 ---
 
-# Synontic — Shared Recognition
+# Synontic
 
-> Notes for the synontic stratum — elements that exist through recursive shared interpretation: identity, ideology, culture, roles, symbols, values, trust, status, and recognition.
+> What is a synontic social element?
+

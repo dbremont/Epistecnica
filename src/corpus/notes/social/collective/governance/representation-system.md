@@ -2,7 +2,7 @@
 tags: [note, social, representation, polity, legislature, governance]
 ---
 
-# Representation Systems
+# Representation System
 
 > A polity has two accountability technologies, and they are not interchangeable. The **representative** is authorised by an election and answerable to a constituency; the **executive civil service** is appointed, professional and answerable through a chain of command. The representative carries *preference*; the civil servant carries *competence*. A system that conflates the two — an elected official running the administration, or an appointed official deciding the policy — loses the discipline that each supplies.
 
