@@ -2924,6 +2924,245 @@
       "policyDomain": "Fiscal Stability",
       "targetGroup": "National Economy, Firms",
       "references": []
+    },
+    {
+      "id": 300,
+      "parent": 7,
+      "name": "Production Sectors and Clusters",
+      "statement": "Specific industries and clusters are too thin, fragmented or unsophisticated to compete.",
+      "description": "The sector shelf: the concrete industries and clusters of the production system, each with its own scale, value-chain position and capability gap.",
+      "goals": [
+        "Diagnose the sector constraint",
+        "Build sector-specific capability"
+      ],
+      "granularity": "intermediate",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 301,
+      "parent": 300,
+      "name": "Agricultural Cluster",
+      "statement": "Fragmented, low-productivity producers with weak processing linkages.",
+      "description": "Producers are small and disconnected; scale, extension and market linkages are missing.",
+      "goals": [
+        "Raise producer scale and productivity"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 302,
+      "parent": 300,
+      "name": "Agroindustrial Cluster",
+      "statement": "Farm output is not processed; cold chains and packaging are missing.",
+      "description": "Processing, cold chains and packaging capture little of the agricultural value.",
+      "goals": [
+        "Build processing and cold chains"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 303,
+      "parent": 300,
+      "name": "Textile and Apparel Cluster",
+      "statement": "Low-value cut-make-trim position; weak design and branding.",
+      "description": "Firms assemble to order without design, branding or fabric capability.",
+      "goals": [
+        "Move into design and branding"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 304,
+      "parent": 300,
+      "name": "Automotive Cluster",
+      "statement": "Assembly without a domestic parts and engineering base.",
+      "description": "Vehicles are assembled from imported kits; local suppliers and engineering are thin.",
+      "goals": [
+        "Build the parts and engineering base"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 305,
+      "parent": 300,
+      "name": "Electronics Cluster",
+      "statement": "Import-dependent assembly; no components or design capability.",
+      "description": "Assembly relies on imported components; design and component production are absent.",
+      "goals": [
+        "Build component and design capability"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 306,
+      "parent": 300,
+      "name": "Semiconductor Cluster",
+      "statement": "No design, fabrication or packaging capability.",
+      "description": "The country has no position in the semiconductor value chain.",
+      "goals": [
+        "Enter the semiconductor value chain"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 307,
+      "parent": 300,
+      "name": "Software and IT Services Cluster",
+      "statement": "Small firms; weak export and product capability.",
+      "description": "Software firms are small and service-oriented, with little product or export capability.",
+      "goals": [
+        "Build product and export capability"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 308,
+      "parent": 300,
+      "name": "Pharmaceutical and Biotechnology Cluster",
+      "statement": "Import-dependent inputs; thin R&D and regulatory capacity.",
+      "description": "Formulation relies on imported ingredients; R&D and regulatory capacity are thin.",
+      "goals": [
+        "Build R&D and regulatory capability"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 309,
+      "parent": 300,
+      "name": "Machinery and Equipment Cluster",
+      "statement": "Imported capital goods; no domestic machine-tool base.",
+      "description": "Machinery is imported; the machine-tool and equipment base is absent.",
+      "goals": [
+        "Build the machine-tool base"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 310,
+      "parent": 300,
+      "name": "Food Processing Cluster",
+      "statement": "Low processing depth; weak standards and cold chain.",
+      "description": "Food is sold fresh; processing, standards and cold chains are weak.",
+      "goals": [
+        "Deepen food processing"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 311,
+      "parent": 300,
+      "name": "Construction Materials Cluster",
+      "statement": "Fragmented supply; quality and logistics gaps.",
+      "description": "Cement, steel and components are fragmented and of uneven quality.",
+      "goals": [
+        "Consolidate and upgrade supply"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 312,
+      "parent": 300,
+      "name": "Tourism Cluster",
+      "statement": "Low-value, seasonal, weakly linked to local supply.",
+      "description": "Tourism is seasonal and low-value, with weak links to local producers.",
+      "goals": [
+        "Raise value and local linkages"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 313,
+      "parent": 300,
+      "name": "Logistics Cluster",
+      "statement": "High costs; fragmented providers and poor multimodal links.",
+      "description": "Logistics providers are fragmented and multimodal links are poor.",
+      "goals": [
+        "Integrate logistics providers"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 314,
+      "parent": 300,
+      "name": "Creative and Cultural Industries Cluster",
+      "statement": "Small, informal, weak IP and export capability.",
+      "description": "Creative firms are small and informal, with weak IP and export capability.",
+      "goals": [
+        "Formalize and build IP"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 315,
+      "parent": 300,
+      "name": "Renewable Energy Cluster",
+      "statement": "Imported equipment; no domestic manufacturing or services base.",
+      "description": "Renewable projects import equipment and services; local manufacturing is absent.",
+      "goals": [
+        "Build local manufacturing"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
+    },
+    {
+      "id": 316,
+      "parent": 300,
+      "name": "Shipbuilding and Maritime Cluster",
+      "statement": "Thin order book; weak engineering and supplier base.",
+      "description": "The order book is thin and the engineering and supplier base is weak.",
+      "goals": [
+        "Rebuild the order book and base"
+      ],
+      "granularity": "detailed",
+      "policyDomain": "Production",
+      "targetGroup": "Firms, Sector Associations",
+      "references": []
     }
   ],
   "instruments": [
