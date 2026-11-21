@@ -785,6 +785,25 @@ class HubHandler(SimpleHTTPRequestHandler):
             self._redirect("/corpus/notes/social/collective/" + rest)
             return True
 
+        # The public actors and public action moved inside the governance shelf.
+        if path == "/corpus/notes/social/collective/actor":
+            self._redirect("/corpus/notes/social/collective/governance/actor/")
+            return True
+
+        if path == "/corpus/notes/social/collective/action":
+            self._redirect("/corpus/notes/social/collective/governance/action/")
+            return True
+
+        if path.startswith("/corpus/notes/social/collective/actor/"):
+            rest = path[len("/corpus/notes/social/collective/actor/"):]
+            self._redirect("/corpus/notes/social/collective/governance/actor/" + rest)
+            return True
+
+        if path.startswith("/corpus/notes/social/collective/action/"):
+            rest = path[len("/corpus/notes/social/collective/action/"):]
+            self._redirect("/corpus/notes/social/collective/governance/action/" + rest)
+            return True
+
         return False
 
     def _redirect(self, location):
