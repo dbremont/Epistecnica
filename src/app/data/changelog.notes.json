@@ -151198,5 +151198,15 @@
     "commit": "fb474e80ef44566966bf0e366d302a59fca63c87"
    }
   ]
+ },
+ {
+  "file_path": "social/actor/private/persona/ivan-werning.md",
+  "logs": [
+   {
+    "date": "2026-11-21",
+    "kind": "create",
+    "summary": "Add the person note."
+   }
+  ]
  }
 ]
