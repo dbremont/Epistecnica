@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Problem Representation</title>
+<link rel="icon" href="/img/favicon.ico">
+<link rel="stylesheet" href="/shared/usearch.css">
+<link rel="stylesheet" href="/shared/chrome.css">
+<script>document.documentElement.dataset.theme = localStorage.getItem('epistecnica-theme') === 'light' ? 'light' : 'dark';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-void:#0b0e14; --bg-surface:#11151e; --bg-card:#161b26; --bg-elevated:#1d2330;
+  --text-primary:#f4f3f1; --text-secondary:#a8a5b0; --text-muted:#9290aa; --text-ghost:#82809a;
+  --accent-copper:#c9956c; --accent-sage:#7ba388; --accent-plum:#9b7eb0; --accent-rose:#c47d8a;
+  --accent-amber:#d4a857; --accent-steel:#6b8caa; --accent-gold:#c9956c; --accent-cyan:#4dd4c4;
+  --border-subtle:rgba(255,255,255,0.05); --border-medium:rgba(255,255,255,0.08); --border-strong:rgba(255,255,255,0.12);
+  --card-bg:rgba(22,27,38,0.72); --nav-bg:rgba(11,14,20,0.85);
+  --font-display:'Cormorant Garamond',serif; --font-body:'Inter',sans-serif; --font-mono:'JetBrains Mono',monospace;
+  --radius-sm:5px; --radius-md:8px; --radius-lg:12px;
+}
+html[data-theme="light"]{
+  --bg-void:#f5f2ea; --bg-surface:#efe9dc; --bg-card:#fffdf8; --bg-elevated:#ffffff;
+  --text-primary:#1a1d24; --text-secondary:#4a4f5e; --text-muted:#7a7f8e; --text-ghost:#9aa0ae;
+  --accent-copper:#9a7b3f; --accent-sage:#4e7a5e; --accent-plum:#7a5f8c; --accent-rose:#a55a68;
+  --accent-amber:#9a742f; --accent-steel:#4e6e8c; --accent-gold:#9a7b3f; --accent-cyan:#0e7c72;
+  --border-subtle:rgba(20,22,30,0.10); --border-medium:rgba(20,22,30,0.14); --border-strong:rgba(20,22,30,0.22);
+  --card-bg:rgba(255,253,248,0.72); --nav-bg:rgba(245,242,234,0.85);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{min-height:100%}
+body{background:var(--bg-void);color:var(--text-primary);font-family:var(--font-body);line-height:1.55;transition:opacity .18s ease;display:flex;flex-direction:column;min-height:100vh}
+main.wrap{flex:1;width:100%;max-width:1280px;margin:0 auto;padding:1.6rem 2rem 3rem}
+html.theme-fading body{opacity:0}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent-cyan);outline-offset:2px}
+.view-tabs{display:flex;gap:.5rem;border-bottom:1px solid var(--border-subtle);margin-bottom:1.2rem}
+.view-tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:.6rem .2rem .55rem;margin-right:1.2rem;font-family:var(--font-mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted);cursor:pointer}
+.view-tabs button.active{color:var(--accent-gold);border-bottom-color:var(--accent-gold)}
+.sec-desc{color:var(--text-muted);font-size:.8rem;margin-bottom:1rem;max-width:84ch}
+.toolbar{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;margin:0 0 1.2rem;padding-top:1.1rem;border-top:1px solid var(--border-medium)}
+.toolbar input[type=search]{flex:1;min-width:220px;background:var(--bg-surface);color:var(--text-primary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.45rem .6rem;font-family:var(--font-body);font-size:.8rem}
+.toolbar .hint{font-family:var(--font-mono);font-size:.56rem;color:var(--text-muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.9rem}
+.card{position:relative;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.9rem 1rem;display:flex;flex-direction:column;gap:.45rem;cursor:pointer;transition:border-color .14s ease,transform .14s ease}
+.card:hover{border-color:var(--border-strong);transform:translateY(-1px)}
+.card h3{font-family:var(--font-display);font-weight:400;font-size:1.16rem;line-height:1.15}
+.card .path{font-family:var(--font-mono);font-size:.54rem;letter-spacing:.04em;text-transform:uppercase;color:var(--text-muted)}
+.card .desc{color:var(--text-secondary);font-size:.78rem;line-height:1.5}
+.chips{display:flex;flex-wrap:wrap;gap:.28rem}
+.chip{display:inline-block;white-space:nowrap;font-family:var(--font-mono);font-size:.53rem;letter-spacing:.05em;padding:.14rem .45rem;border:1px solid var(--border-medium);border-radius:999px;color:var(--text-secondary)}
+.chip.gold{border-color:var(--accent-gold);color:var(--accent-gold)}
+.btn{background:var(--bg-elevated);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.28rem .55rem;font-family:var(--font-mono);font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
+.btn:hover{border-color:var(--accent-cyan);color:var(--accent-cyan)}
+.detail-head{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:.8rem}
+.detail-header{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:1rem 1.1rem;margin-bottom:.9rem}
+.detail-name{font-family:var(--font-display);font-weight:300;font-size:2rem;line-height:1.1}
+.detail-path{font-family:var(--font-mono);font-size:.56rem;letter-spacing:.05em;text-transform:uppercase;color:var(--text-muted);margin-top:.4rem}
+.detail-summary{color:var(--text-secondary);font-size:.85rem;line-height:1.6;max-width:80ch;margin-top:.5rem}
+.detail-group{border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.8rem .95rem;margin-bottom:.8rem}
+.detail-group h3{font-family:var(--font-mono);font-size:.56rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-copper);margin-bottom:.45rem}
+.detail-group p{font-size:.78rem;color:var(--text-secondary);line-height:1.6}
+.detail-group ul{list-style:none}
+.detail-group li{font-size:.78rem;color:var(--text-secondary);padding:.15rem 0 .15rem .9rem;position:relative}
+.detail-group li::before{content:"";position:absolute;left:.15rem;top:.6rem;width:.3rem;height:.3rem;border-radius:50%;background:var(--text-ghost)}
+.inslist{display:flex;flex-direction:column;gap:.35rem}
+.inslink{display:block;border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:.45rem .6rem;background:var(--bg-card);font-size:.76rem;color:var(--text-secondary)}
+.inslink:hover{border-color:var(--border-strong)}
+.inslink .rel{display:block;font-size:.68rem;color:var(--text-ghost);margin-top:.15rem}
+.inslink .ln{display:block;font-size:.68rem;color:var(--text-muted);margin-top:.15rem}
+.compare-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:1.2rem;align-items:start}
+.compare-rail{position:sticky;top:72px;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem;max-height:calc(100vh - 92px);display:flex;flex-direction:column;gap:.5rem}
+.rail-head{display:flex;justify-content:space-between;align-items:baseline}
+.rail-head h3{font-family:var(--font-display);font-weight:400;font-size:1.1rem}
+.rail-head span{font-family:var(--font-mono);font-size:.54rem;color:var(--text-muted)}
+.compare-rail input[type=search]{width:100%;background:var(--bg-surface);color:var(--text-primary);border:1px solid var(--border-medium);border-radius:var(--radius-sm);padding:.4rem .5rem;font-size:.76rem}
+.rail-actions{display:flex;justify-content:flex-end}
+.pick-list{overflow:auto;display:flex;flex-direction:column;gap:.1rem;padding-right:.1rem}
+.pick-item{display:flex;align-items:center;gap:.45rem;padding:.3rem .4rem;border-radius:var(--radius-sm);font-size:.72rem;color:var(--text-secondary);cursor:pointer;border:1px solid transparent}
+.pick-item:hover{background:var(--bg-elevated)}
+.pick-item.selected{background:var(--bg-elevated);border-color:var(--border-medium);color:var(--text-primary)}
+.pick-item input{width:auto;margin:0;accent-color:var(--accent-gold)}
+.pick-item .meta{margin-left:auto;font-family:var(--font-mono);font-size:.52rem;color:var(--text-ghost)}
+.compare-main{min-width:0}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.6rem;margin-bottom:.8rem}
+.summary-card{position:relative;border:1px solid var(--border-subtle);border-radius:var(--radius-md);background:var(--card-bg);padding:.7rem .8rem}
+.summary-card h4{font-family:var(--font-display);font-weight:400;font-size:1.06rem;line-height:1.15;margin:.15rem 0;padding-right:1.4rem}
+.summary-card .remove{position:absolute;top:.45rem;right:.5rem;background:none;border:1px solid var(--border-medium);border-radius:50%;width:20px;height:20px;line-height:1;font-size:.7rem;color:var(--text-muted);cursor:pointer}
+.summary-card .remove:hover{border-color:var(--accent-rose);color:var(--accent-rose)}
+table.cmp{width:100%;border-collapse:collapse;font-size:.8rem}
+table.cmp th,table.cmp td{text-align:left;vertical-align:top;padding:.55rem .7rem;border-bottom:1px solid var(--border-subtle)}
+table.cmp th{font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:400}
+table.cmp td.field{font-family:var(--font-mono);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+table.cmp td.val{color:var(--text-secondary);line-height:1.5}
+.empty-state{border:1px dashed var(--border-medium);border-radius:var(--radius-md);padding:2.2rem 1rem;text-align:center;color:var(--text-muted);font-size:.82rem}
+.empty-state b{display:block;font-family:var(--font-display);font-size:1.3rem;color:var(--text-secondary);font-weight:400;margin-bottom:.3rem}
+.err{color:var(--accent-rose);font-family:var(--font-mono);font-size:.78rem;padding:1rem 0}
+@media(max-width:900px){
+  .compare-layout{grid-template-columns:1fr}
+  .compare-rail{position:static;max-height:none}
+  main.wrap{padding:1.2rem 1.2rem 2.5rem}
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="nav-brand" href="../../../../"><img class="nav-mark" src="/img/mark-alpha.png" alt="">Episte<em>cnica</em></a>
+        <div class="nav-right">
+            <div class="usearch-wrap">
+                <svg class="usearch-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                <input type="search" id="usearch" placeholder="search the corpus…  ( / · Esc )" aria-label="Universal search" role="combobox" aria-expanded="false" aria-controls="usearch-drop" aria-autocomplete="list" aria-haspopup="listbox" autocomplete="off">
+                <button type="button" id="usurprise" title="Surprise me — open a random entry (r)" aria-label="Open a random entry" disabled><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><circle cx="8.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="8.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+                <div class="usearch-drop" id="usearch-drop" role="listbox" aria-label="Search results" hidden></div>
+            </div>
+            <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch color theme">◐ <span id="themeLabel">LIGHT</span></button>
+        </div>
+    </div>
+</nav>
+
+<div class="masthead">
+    <nav class="crumbs">
+        <a href="/explorer.html">corpus</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes">notes</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social">social</a><span class="sep">/</span>
+        <a href="/explorer.html?view=browse&amp;dir=notes/social/representation">representation</a><span class="sep">/</span>
+        <span class="here">Problem Representation</span>
+    </nav>
+    <h1 class="note-title">Problem Representation</h1>
+    <p class="subtitle">The problems of the collective-action atlas in their own right: each one's path in the tree, what it is, what it would take to close it, and the instruments that answer it — with the full link model (mechanism, actors, expected outcome, implementation).</p>
+</div>
+
+<main class="wrap">
+    <div class="view-tabs" role="tablist">
+        <button type="button" data-view="library" class="active">Library</button>
+        <button type="button" data-view="compare">Compare</button>
+    </div>
+
+    <section id="view-library">
+        <p class="sec-desc">Every problem in the atlas, with its path and the instruments that address it. Search by name, statement, description or path; click a card for the full profile.</p>
+        <div class="toolbar">
+            <input type="search" id="libSearch" placeholder="Search problems…" autocomplete="off">
+            <span class="hint" id="libCount"></span>
+        </div>
+        <div class="grid" id="libGrid"></div>
+    </section>
+
+    <section id="view-detail" hidden>
+        <div class="detail-head">
+            <button type="button" class="btn" id="detailBack">← library</button>
+            <span class="chip" id="detailKind"></span>
+        </div>
+        <div id="detailBody"></div>
+    </section>
+
+    <section id="view-compare" hidden>
+        <p class="sec-desc">Pick up to four problems. Each column is the full profile; the rows are the fields of the link model.</p>
+        <div class="compare-layout">
+            <aside class="compare-rail">
+                <div class="rail-head"><h3>Problems</h3><span id="pickCount">0 / 4</span></div>
+                <input type="search" id="compareSearch" placeholder="filter…" autocomplete="off">
+                <div class="rail-actions"><button type="button" class="btn" id="clearSel">clear</button></div>
+                <div id="compareList" class="pick-list"></div>
+            </aside>
+            <div class="compare-main">
+                <div id="compareSummary" class="summary-grid"></div>
+                <div style="overflow-x:auto"><table class="cmp" id="cmpTable"></table></div>
+            </div>
+        </div>
+    </section>
+
+    <div id="error" hidden class="err"></div>
+</main>
+
+<footer class="tfr-foot">
+    <span>Epistecnica · Problem Representation</span>
+    <nav>
+        <a href="/explorer.html">Catalog</a><span class="sep">·</span>
+        <a href="/explorer.html?dir=notes/social/representation">Representation</a><span class="sep">·</span>
+        <a href="collective-action-atlas.html">Problem × Instrument</a><span class="sep">·</span>
+        <a href="collective-action-instruments.html">Instruments</a><span class="sep">·</span>
+        <a href="collective-action-atlas.json">Data</a>
+    </nav>
+</footer>
+
+<script src="/shared/usearch.js" data-root="../../../../"></script>
+<script src="/shared/chrome.js"></script>
+<script>
+(function () {
+    "use strict";
+    var MAX = 4;
+    var S = { instruments: [], problems: [], rels: [], view: "library", q: "", compareQ: "",
+        detail: null, selected: [], byProb: {}, byIns: {} };
+
+    function $(sel) { return document.querySelector(sel); }
+    function esc(s) {
+        return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    }
+    function probById(id) { return S.byProb[String(id)] || null; }
+    function insById(id) { return S.byIns[String(id)] || null; }
+    function relsFor(pid) { return S.rels.filter(function (r) { return String(r.problem) === String(pid); }); }
+    function pathOf(p) {
+        var out = [], cur = p;
+        while (cur) { out.unshift(cur.name); cur = cur.parent != null ? probById(cur.parent) : null; }
+        return out.join(" › ");
+    }
+    function fullPath(p) { return p ? pathOf(p) : ""; }
+
+    function setHash(h) { if (location.hash !== "#" + h) history.replaceState(null, "", "#" + h); }
+    function applyHash() {
+        var h = (location.hash || "").replace(/^#/, "");
+        if (!h) return false;
+        if (h.indexOf("problem/") === 0) { var p = probById(h.slice(8)); if (p) { S.detail = p.id; S.view = "detail"; return true; } }
+        if (h.indexOf("compare/") === 0) {
+            var ids = h.slice(8).split("+").filter(function (x) { return probById(x); });
+            S.selected = ids.slice(0, MAX); S.view = "compare"; return true;
+        }
+        if (h === "library") { S.view = "library"; return true; }
+        if (h === "compare") { S.view = "compare"; return true; }
+        return false;
+    }
+
+    function render() {
+        var v = S.view;
+        $("#view-library").hidden = v !== "library";
+        $("#view-detail").hidden = v !== "detail";
+        $("#view-compare").hidden = v !== "compare";
+        var tabs = document.querySelectorAll(".view-tabs button");
+        for (var i = 0; i < tabs.length; i++) tabs[i].classList.toggle("active", tabs[i].getAttribute("data-view") === v || (v === "detail" && tabs[i].getAttribute("data-view") === "library"));
+        if (v === "library") renderLibrary();
+        else if (v === "detail") renderDetail();
+        else renderCompare();
+    }
+
+    function renderLibrary() {
+        var q = S.q.toLowerCase();
+        var list = S.problems.filter(function (p) {
+            if (!q) return true;
+            var hay = [p.name, p.statement, p.description, p.goals ? p.goals.join(" ") : "", pathOf(p)].join(" ").toLowerCase();
+            return hay.indexOf(q) >= 0;
+        });
+        $("#libCount").textContent = list.length + " of " + S.problems.length + " problems";
+        var grid = $("#libGrid");
+        if (!list.length) { grid.innerHTML = '<div class="empty-state"><b>No matches</b>Clear the search.</div>'; return; }
+        grid.innerHTML = list.map(function (p) {
+            var n = relsFor(p.id).length;
+            return '<article class="card" data-id="' + esc(p.id) + '" tabindex="0" role="button">' +
+                '<div class="path">' + esc(pathOf(p)) + '</div>' +
+                '<h3>' + esc(p.name) + '</h3>' +
+                '<p class="desc">' + esc(p.statement || "") + '</p>' +
+                '<div class="chips"><span class="chip' + (n ? " gold" : "") + '">' + n + (n === 1 ? " instrument" : " instruments") + '</span>' +
+                '<span class="chip">' + esc(p.granularity || "") + '</span></div>' +
+                '</article>';
+        }).join('');
+        Array.prototype.forEach.call(grid.querySelectorAll(".card"), function (card) {
+            function open() { S.detail = card.getAttribute("data-id"); S.view = "detail"; setHash("problem/" + S.detail); render(); }
+            card.addEventListener("click", open);
+            card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+        });
+    }
+
+    function renderDetail() {
+        var p = probById(S.detail);
+        if (!p) { S.view = "library"; setHash("library"); render(); return; }
+        $("#detailKind").textContent = "Problem";
+        var rs = relsFor(p.id);
+        var html = '<div class="detail-header"><div class="detail-name">' + esc(p.name) + '</div>' +
+            '<div class="detail-path">' + esc(pathOf(p)) + '</div>' +
+            '<p class="detail-summary">' + esc(p.statement || "") + '</p></div>';
+        if (p.description) html += '<div class="detail-group"><h3>Description</h3><p>' + esc(p.description) + '</p></div>';
+        if (p.goals && p.goals.length) html += '<div class="detail-group"><h3>Goals</h3><ul>' + p.goals.map(function (g) { return "<li>" + esc(g) + "</li>"; }).join("") + '</ul></div>';
+        html += '<div class="detail-group"><h3>Instruments that address it</h3><div class="inslist">' + (rs.length ? rs.map(function (r) {
+            var i = insById(r.instrument);
+            return '<a class="inslink" href="collective-action-instruments.html#instrument/' + esc(r.instrument) + '">' +
+                esc(i ? i.name : r.instrument) +
+                '<span class="rel">' + esc(r.role) + " · " + r.strength + "/5 · " + esc(r.name) + '</span>' +
+                (r.outcome ? '<span class="ln">Expected outcome: ' + esc(r.outcome) + '</span>' : "") +
+                (r.implementation ? '<span class="ln">Implementation: ' + esc(r.implementation) + '</span>' : "") +
+                '</a>';
+        }).join("") : '<p>No instrument recorded.</p>') + '</div></div>';
+        if (p.policyDomain) html += '<div class="detail-group"><h3>Profile</h3><p>Domain: ' + esc(p.policyDomain) + (p.targetGroup ? " · Target: " + esc(p.targetGroup) : "") + '</p></div>';
+        $("#detailBody").innerHTML = html;
+    }
+
+    function renderCompare() {
+        $("#pickCount").textContent = S.selected.length + " / " + MAX;
+        var cq = S.compareQ.toLowerCase();
+        var list = S.problems.filter(function (p) { return !cq || (p.name + " " + (p.statement || "") + " " + pathOf(p)).toLowerCase().indexOf(cq) >= 0; });
+        $("#compareList").innerHTML = list.map(function (p) {
+            var on = S.selected.indexOf(String(p.id)) >= 0;
+            return '<label class="pick-item' + (on ? " selected" : "") + '"><input type="checkbox" data-id="' + esc(p.id) + '"' + (on ? " checked" : "") + '>' +
+                '<span>' + esc(p.name) + '</span><span class="meta">' + relsFor(p.id).length + '</span></label>';
+        }).join("");
+        Array.prototype.forEach.call($("#compareList").querySelectorAll("input[data-id]"), function (cb) {
+            cb.addEventListener("change", function () {
+                var id = cb.getAttribute("data-id"), ix = S.selected.indexOf(id);
+                if (cb.checked && ix < 0) { if (S.selected.length >= MAX) { cb.checked = false; return; } S.selected.push(id); }
+                else if (!cb.checked && ix >= 0) S.selected.splice(ix, 1);
+                setHash("compare" + (S.selected.length ? "/" + S.selected.join("+") : ""));
+                renderCompare();
+            });
+        });
+        $("#compareSummary").innerHTML = S.selected.map(function (id) {
+            var p = probById(id);
+            return '<div class="summary-card"><h4>' + esc(p ? p.name : id) + '</h4>' +
+                '<button type="button" class="remove" data-remove="' + esc(id) + '" aria-label="Remove">×</button></div>';
+        }).join("");
+        Array.prototype.forEach.call($("#compareSummary").querySelectorAll("[data-remove]"), function (b) {
+            b.addEventListener("click", function () { var ix = S.selected.indexOf(b.getAttribute("data-remove")); if (ix >= 0) S.selected.splice(ix, 1); setHash("compare" + (S.selected.length ? "/" + S.selected.join("+") : "")); renderCompare(); });
+        });
+        renderCompareTable();
+    }
+
+    function renderCompareTable() {
+        var tbl = $("#cmpTable");
+        var cols = S.selected.map(probById).filter(Boolean);
+        if (!cols.length) { tbl.innerHTML = ""; return; }
+        function insOf(p) { return relsFor(p.id).map(function (r) { var i = insById(r.instrument); return i ? i.name : r.instrument; }); }
+        function outOf(p) { return relsFor(p.id).map(function (r) { return r.outcome; }).filter(Boolean); }
+        function implOf(p) { return relsFor(p.id).map(function (r) { return r.implementation; }).filter(Boolean); }
+        function row(label, fn) {
+            return "<tr><td class='field'>" + esc(label) + "</td>" + cols.map(function (p) { var v = fn(p); return "<td class='val'>" + (Array.isArray(v) ? v.map(esc).join("<br>") : esc(v || "—")) + "</td>"; }).join("") + "</tr>";
+        }
+        tbl.innerHTML = "<thead><tr><th>Field</th>" + cols.map(function (p) { return "<th>" + esc(p.name) + "</th>"; }).join("") + "</tr></thead><tbody>" +
+            row("Path", function (p) { return pathOf(p); }) +
+            row("Statement", function (p) { return p.statement; }) +
+            row("Description", function (p) { return p.description; }) +
+            row("Goals", function (p) { return p.goals || []; }) +
+            row("Instruments", insOf) +
+            row("Expected outcome", outOf) +
+            row("Implementation", implOf) + "</tbody>";
+    }
+
+    Array.prototype.forEach.call(document.querySelectorAll(".view-tabs button"), function (b) {
+        b.addEventListener("click", function () {
+            var v = b.getAttribute("data-view");
+            S.view = v; S.detail = null;
+            if (v === "compare") setHash("compare" + (S.selected.length ? "/" + S.selected.join("+") : ""));
+            else setHash("library");
+            render();
+        });
+    });
+    $("#libSearch").addEventListener("input", function (e) { S.q = e.target.value; renderLibrary(); });
+    $("#compareSearch").addEventListener("input", function (e) { S.compareQ = e.target.value; renderCompare(); });
+    $("#detailBack").addEventListener("click", function () { S.view = "library"; S.detail = null; setHash("library"); render(); });
+    $("#clearSel").addEventListener("click", function () { S.selected = []; setHash("compare"); renderCompare(); });
+    window.addEventListener("hashchange", function () { if (applyHash()) render(); });
+
+    fetch("collective-action-atlas.json", { cache: "no-cache" }).then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status); return r.json();
+    }).then(function (data) {
+        S.instruments = data.instruments;
+        S.problems = data.problems;
+        S.rels = data.relationships;
+        S.problems.forEach(function (p) { S.byProb[String(p.id)] = p; });
+        S.instruments.forEach(function (i) { S.byIns[String(i.id)] = i; });
+        applyHash();
+        render();
+    }).catch(function (err) {
+        var el = $("#error"); el.hidden = false; el.textContent = "Failed to load the atlas data: " + err.message;
+    });
+})();
+</script>
+</body>
+</html>
