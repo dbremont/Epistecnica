@@ -89606,7 +89606,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move with the social corpus clean-up."
+    "summary": "Move with the social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a"
    }
   ]
  },
@@ -93729,7 +93730,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
@@ -93835,7 +93838,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move with the social corpus clean-up."
+    "summary": "Move with the social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a"
    }
   ]
  },
@@ -99850,7 +99854,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
@@ -100467,7 +100473,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
@@ -100477,7 +100485,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
@@ -100487,7 +100497,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move with the social corpus clean-up."
+    "summary": "Move with the social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a"
    }
   ]
  },
@@ -100641,7 +100652,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move with the social corpus clean-up."
+    "summary": "Move with the social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a"
    }
   ]
  },
@@ -100651,7 +100663,8 @@
    {
     "date": "2026-11-20",
     "kind": "move",
-    "summary": "Move with the social corpus clean-up."
+    "summary": "Move with the social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a"
    }
   ]
  },
@@ -100789,7 +100802,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
@@ -100799,7 +100814,9 @@
    {
     "date": "2026-11-20",
     "kind": "edit",
-    "summary": "Social corpus clean-up."
+    "summary": "Social corpus clean-up.",
+    "commit": "4332ddfa2bfba4e94cb1a58d8cd5d49a8fbbe84a",
+    "before": "6535b45c6ced1a133b0d446d5243226159eee2cf"
    }
   ]
  },
